@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "scrape": "tsx scripts/scrape.ts"
+    "scrape": "tsx scripts/scrape.ts",
+    "test": "tsx --test \"scripts/**/*.test.ts\" \"src/**/*.test.ts\"",
+    "typecheck:scripts": "tsc -p tsconfig.scripts.json"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -23,6 +25,7 @@
     "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "oxlint": "^1.81.0",
+    "sharp": "^0.35.5",
     "tsx": "^4.23.15",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
