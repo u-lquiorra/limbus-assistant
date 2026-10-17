@@ -1,28 +1,56 @@
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
-import CharacterList from "./pages/CharacterList";
+import { useEffect } from "react";
+import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import Home from "./pages/Home";
 import CharacterDetail from "./pages/CharacterDetail";
+import PersonaPage from "./pages/PersonaPage";
 import "./App.css";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <header className="site-header">
-        <Link to="/" className="site-title">
-          Limbus Assistant
-        </Link>
-        <span className="site-subtitle">Limbus Company 攻略データベース</span>
+        <div className="container site-header-inner">
+          <Link to="/" className="brand">
+            <span className="brand-mark" aria-hidden="true" />
+            <span className="brand-text">
+              LIMBUS <span className="brand-accent">ASSISTANT</span>
+            </span>
+          </Link>
+          <nav className="site-nav">
+            <Link to="/">囚人一覧</Link>
+          </nav>
+        </div>
       </header>
-      <main>
+
+      <main className="site-main">
         <Routes>
-          <Route path="/" element={<CharacterList />} />
+          <Route path="/" element={<Home />} />
           <Route path="/character/:name" element={<CharacterDetail />} />
+          <Route path="/persona/:code" element={<PersonaPage />} />
         </Routes>
       </main>
+
       <footer className="site-footer">
-        データ出典:{" "}
-        <a href="https://wikiwiki.jp/lcbwiki/" target="_blank" rel="noreferrer">
-          LimbusCompany攻略Wiki (wikiwiki.jp/lcbwiki)
-        </a>
+        <div className="container">
+          <p>
+            データ出典:{" "}
+            <a href="https://wikiwiki.jp/lcbwiki/" target="_blank" rel="noreferrer">
+              LimbusCompany攻略Wiki
+            </a>
+          </p>
+          <p>
+            本サイトは非公式のファンサイトです。ゲーム内の画像・キャラクター等の著作権は Project Moon に帰属します。
+          </p>
+        </div>
       </footer>
     </HashRouter>
   );

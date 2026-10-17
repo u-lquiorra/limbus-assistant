@@ -1,93 +1,67 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import type { PersonaStatus, PersonaSkills } from "../types";
-import { SIN_COLORS } from "../sinColors";
+import { asset, personaAttackTypes, personaSins, seasonLabel } from "../lib";
+import { AttackTypeIcon, SinDot } from "./ui";
 
 interface Props {
   status: PersonaStatus;
   skills?: PersonaSkills;
+  showCharacter?: boolean;
 }
 
-function SkillRow({ label, cell }: { label: string; cell: PersonaSkills["s1"] | undefined }) {
-  if (!cell) return null;
+export default function PersonaCard({ status, skills, showCharacter }: Props) {
   return (
-    <div className="skill-row">
-      <span className="skill-label">{label}</span>
-      {cell.power ? (
-        <span className="skill-detail">
-          {cell.type && <span className="skill-type">{cell.type}</span>}
-          威力{cell.power}
-          {cell.bonus && <span className="skill-bonus"> (+{cell.bonus})</span>}
-          {cell.coins && <span className="skill-coins"> ×{cell.coins}コイン</span>}
-          {cell.levelReq && <span className="skill-lv"> Lv{cell.levelReq}〜</span>}
-        </span>
-      ) : (
-        <span className="skill-detail skill-raw">{cell.raw || "-"}</span>
-      )}
-    </div>
-  );
-}
-
-export default function PersonaCard({ status, skills }: Props) {
-  const [open, setOpen] = useState(false);
-  const resourceEntries = Object.entries(status.resourceCost).filter(([, v]) => v);
-
-  return (
-    <div className="persona-card">
-      <button className="persona-header" onClick={() => setOpen((o) => !o)}>
-        <span className="persona-code">{status.code}</span>
-        <span className="persona-name">{status.name}</span>
-        <span className="persona-toggle">{open ? "▾" : "▸"}</span>
-      </button>
-
-      <div className="persona-stats">
-        <span className="stat">HP {status.hp}</span>
-        <span className="stat">防御 {status.defense}</span>
-        <span className="stat">速度 {status.speed}</span>
-        <span className="stat">Lv {status.level}</span>
+    <Link to={`/persona/${status.code}`} className="persona-card">
+      <div className="persona-card-media">
+        {status.image ? (
+          <img src={asset(status.image)} alt="" loading="lazy" width={364} height={364} />
+        ) : (
+          <div className="persona-card-placeholder" />
+        )}
+        <span className="persona-card-season">{seasonLabel(status.season)}</span>
+        {status.affiliation?.icon && (
+          <img
+            className="persona-card-aff"
+            src={asset(status.affiliation.icon)}
+            alt={status.affiliation.name}
+            title={status.affiliation.name}
+            loading="lazy"
+          />
+        )}
       </div>
-
-      {open && (
-        <div className="persona-body">
-          <div className="persona-section">
-            <h4>耐性 (被ダメージ倍率)</h4>
-            <div className="resistance-row">
-              <span className="resistance-chip">斬 {status.resistance.斬 || "1"}</span>
-              <span className="resistance-chip">貫 {status.resistance.貫 || "1"}</span>
-              <span className="resistance-chip">打 {status.resistance.打 || "1"}</span>
-            </div>
-            {status.attackTypes && (
-              <p className="attack-types">主な攻撃属性: {status.attackTypes}</p>
-            )}
-          </div>
-
-          {resourceEntries.length > 0 && (
-            <div className="persona-section">
-              <h4>罪属性リソース</h4>
-              <div className="resource-row">
-                {resourceEntries.map(([sin, value]) => (
-                  <span
-                    key={sin}
-                    className="resource-chip"
-                    style={{ backgroundColor: SIN_COLORS[sin] ?? "#888" }}
-                  >
-                    {sin} {value}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {skills && (
-            <div className="persona-section">
-              <h4>スキル</h4>
-              <SkillRow label="スキル1" cell={skills.s1} />
-              <SkillRow label="スキル2" cell={skills.s2} />
-              <SkillRow label="スキル3" cell={skills.s3} />
-              <SkillRow label="防御" cell={skills.defenseSkill} />
-            </div>
-          )}
+      <div className="persona-card-body">
+        <span className="persona-card-code">
+          {status.code}
+          {showCharacter && <span className="persona-card-char"> / {status.character}</span>}
+        </span>
+        <span className="persona-card-name">{status.name}</span>
+        <div className="persona-card-meta">
+          <span className="persona-card-icons">
+            {personaAttackTypes(status).map((t) => (
+              <AttackTypeIcon key={t} type={t} size={16} />
+            ))}
+          </span>
+          <span className="persona-card-sins">
+            {personaSins(skills).map((s) => (
+              <SinDot key={s} sin={s} />
+            ))}
+          </span>
         </div>
-      )}
-    </div>
+        <dl className="persona-card-stats">
+          <div>
+            <dt>HP</dt>
+            <dd>{status.hp}</dd>
+          </div>
+          <div>
+            <dt>速度</dt>
+            <dd>{status.speed}</dd>
+          </div>
+          <div>
+            <dt>守備Lv</dt>
+            <dd>{status.defense}</dd>
+          </div>
+        </dl>
+      </div>
+    </Link>
   );
 }
