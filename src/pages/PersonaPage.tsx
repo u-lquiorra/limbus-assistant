@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getPersona, loadGuide, loadPersonaDetail } from "../data/loader";
-import { guideKeywords, type Guide, type InlineSegment } from "../guide";
+import { guideKeywords, type Guide } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { Keyword, LabeledValue, PassiveDetail, PersonaDetail, SkillCell, SkillDetail } from "../types";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
-import { decorate } from "../components/decorate";
+import { GuideSection } from "../components/GuideView";
 
 const TONE_LABEL = { weak: "弱点", resist: "耐性", normal: "普通" } as const;
 
@@ -233,57 +233,6 @@ function PassiveCard({ passive }: { passive: PassiveDetail }) {
   );
 }
 
-function InlineText({ segments, keywords }: { segments: InlineSegment[]; keywords: Keyword[] }) {
-  return (
-    <>
-      {segments.map((s, i) => {
-        const content = decorate(s.text, keywords, false);
-        return s.strong ? <strong key={i}>{content}</strong> : <span key={i}>{content}</span>;
-      })}
-    </>
-  );
-}
-
-// 攻略ガイド(src/data/guides/<code>.md)。スキル欄の前に置き、先に人格の全体像をつかめるようにする
-function GuideSection({ guide, keywords }: { guide: Guide; keywords: Keyword[] }) {
-  return (
-    <section className="section-block">
-      <header className="section-header">
-        <h2 className="section-title">
-          <span className="section-title-en">GUIDE</span>
-          ギミックと使い方
-        </h2>
-      </header>
-      <div className="guide">
-        {guide.sections.map((sec) => (
-          <div key={sec.heading} className="guide-part">
-            <h3 className="guide-heading">{sec.heading}</h3>
-            {sec.blocks.map((b, i) =>
-              b.type === "p" ? (
-                <p key={i}>
-                  <InlineText segments={b.text} keywords={keywords} />
-                </p>
-              ) : (
-                <ul key={i}>
-                  {b.items.map((item, j) => (
-                    <li key={j}>
-                      <InlineText segments={item} keywords={keywords} />
-                    </li>
-                  ))}
-                </ul>
-              )
-            )}
-          </div>
-        ))}
-      </div>
-      <p className="section-note">
-        下のスキル・パッシブの効果文をもとにした解説です。
-        {guide.meta.updated && `(更新日: ${guide.meta.updated})`}
-      </p>
-    </section>
-  );
-}
-
 function SummarySkillRow({ label, cell }: { label: string; cell: SkillCell }) {
   const key = attackKey(cell.type);
   return (
@@ -479,7 +428,7 @@ export default function PersonaPage() {
       </section>
 
       <div className="container persona-body">
-        {guide && guide.sections.length > 0 && <GuideSection guide={guide} keywords={guideTerms} />}
+        {guide && guide.sections.length > 0 && <GuideSection sections={guide.sections} keywords={guideTerms} updated={guide.meta.updated} />}
 
         <section className="section-block">
           <header className="section-header">

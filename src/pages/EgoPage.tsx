@@ -1,14 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getEgo, getPersona, loadEgoDetail, loadEgoGuide } from "../data/loader";
-import { egoGuideKeywords, type Guide, type GuideSection as GuideSectionData, type InlineSegment } from "../guide";
+import { getEgo, loadEgoDetail, loadEgoGuide } from "../data/loader";
+import { egoGuideKeywords, type Guide } from "../guide";
 import { stripStageMarks } from "../egoStage";
 import { ATTACK_TYPES, asset, resistanceTone } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { EgoDetail, EgoPassiveDetail, EgoSkillDetail, Keyword } from "../types";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
-import { decorate } from "../components/decorate";
+import { ANALYSIS_HEADING, ExtraSection, GuideSection, SYNERGY_HEADING } from "../components/GuideView";
 
 const TONE_LABEL = { weak: "脆弱", resist: "耐性", normal: "普通" } as const;
 
@@ -83,129 +83,6 @@ function EgoPassiveCard({ passive }: { passive: EgoPassiveDetail }) {
       </header>
       <EffectText text={passive.effect} keywords={passive.keywords} />
     </article>
-  );
-}
-
-function InlineText({ segments, keywords }: { segments: InlineSegment[]; keywords: Keyword[] }) {
-  return (
-    <>
-      {segments.map((s, i) => {
-        // 人格詳細ページへのリンク([表示名](persona:コード))
-        const content = s.persona ? (
-          <Link className="guide-link" to={`/persona/${s.persona}`}>
-            {s.text}
-          </Link>
-        ) : (
-          decorate(s.text, keywords, false)
-        );
-        return s.strong ? <strong key={i}>{content}</strong> : <span key={i}>{content}</span>;
-      })}
-    </>
-  );
-}
-
-// 攻略ガイド(src/data/guides/ego/<code>.md)は見出しで3つの枠に振り分ける。
-// 「解析」は本文から分けた枠、「編成・相性」は人格ページへのリンク付きでパッシブの下に置く
-const ANALYSIS_HEADING = "解析";
-const SYNERGY_HEADING = "編成・相性";
-
-function GuideBlocks({
-  sections,
-  keywords,
-  withThumbs,
-}: {
-  sections: GuideSectionData[];
-  keywords: Keyword[];
-  withThumbs?: boolean; // 箇条書きの人格リンクに、人格の小さな画像を添える(編成・相性用)
-}) {
-  return (
-    <div className="guide">
-      {sections.map((sec) => (
-        <div key={sec.heading} className="guide-part">
-          {sec.heading && <h3 className="guide-heading">{sec.heading}</h3>}
-          {sec.blocks.map((b, i) =>
-            b.type === "p" ? (
-              <p key={i}>
-                <InlineText segments={b.text} keywords={keywords} />
-              </p>
-            ) : (
-              <ul key={i}>
-                {b.items.map((item, j) => {
-                  const code = withThumbs ? item.find((seg) => seg.persona)?.persona : undefined;
-                  const image = code ? getPersona(code)?.status.image : undefined;
-                  return (
-                    <li key={j} className={code ? "synergy-item" : undefined}>
-                      {code && (
-                        <Link to={`/persona/${code}`} className="synergy-thumb" tabIndex={-1} aria-hidden="true">
-                          {image ? <img src={asset(image)} alt="" width={44} height={44} loading="lazy" /> : null}
-                        </Link>
-                      )}
-                      <div>
-                        <InlineText segments={item} keywords={keywords} />
-                      </div>
-                    </li>
-                  );
-                })}
-              </ul>
-            )
-          )}
-        </div>
-      ))}
-    </div>
-  );
-}
-
-// 人格ページの GuideSection と同じ見た目(PersonaPage 側は別担当の変更中のため、共通化せずここに持つ)
-function GuideSection({
-  sections,
-  keywords,
-  updated,
-}: {
-  sections: GuideSectionData[];
-  keywords: Keyword[];
-  updated?: string;
-}) {
-  return (
-    <section className="section-block">
-      <header className="section-header">
-        <h2 className="section-title">
-          <span className="section-title-en">GUIDE</span>
-          ギミックと使い方
-        </h2>
-      </header>
-      <GuideBlocks sections={sections} keywords={keywords} />
-      <p className="section-note">
-        下のスキル・パッシブの効果文をもとにした解説。
-        {updated && `(更新日: ${updated})`}
-      </p>
-    </section>
-  );
-}
-
-function ExtraSection({
-  en,
-  title,
-  section,
-  keywords,
-  withThumbs,
-}: {
-  en: string;
-  title: string;
-  section: GuideSectionData;
-  keywords: Keyword[];
-  withThumbs?: boolean;
-}) {
-  return (
-    <section className="section-block">
-      <header className="section-header">
-        <h2 className="section-title">
-          <span className="section-title-en">{en}</span>
-          {title}
-        </h2>
-      </header>
-      {/* 枠の見出しと重なるため、ブロックの見出しは出さない */}
-      <GuideBlocks sections={[{ ...section, heading: "" }]} keywords={keywords} withThumbs={withThumbs} />
-    </section>
   );
 }
 
