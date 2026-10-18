@@ -174,7 +174,7 @@ function UnbreakableSummary({ detail }: { detail: PersonaDetail }) {
         {inherent.length > 0 && (
           <div>
             <dt>
-              <span className="coin coin-unbreakable" /> 元から破壊不能
+              <span className="coin coin-unbreakable" /> 破壊不能コイン
             </dt>
             <dd>
               <ul>
@@ -500,7 +500,7 @@ export default function PersonaPage() {
                   <span className="coin" /> 通常コイン
                 </span>
                 <span>
-                  <span className="coin coin-unbreakable" /> 元から破壊不能コイン
+                  <span className="coin coin-unbreakable" /> 破壊不能コイン
                 </span>
                 <span>複数の値は同期化段階ごとの数値(大きい数字が最大段階)。ローマ数字は何枚目のコインの効果かを示します。</span>
               </div>
