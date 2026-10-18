@@ -1648,3 +1648,49 @@
     animation: none !important;
   }
 }
+
+/* ---- E.G.O ---- */
+.ego-card .persona-card-media {
+  aspect-ratio: 1;
+}
+
+.ego-rank {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.ego-rank-ZAYIN { color: #5fe05f; }
+.ego-rank-TETH { color: #5fb4ff; }
+.ego-rank-HE { color: #ffd34d; }
+.ego-rank-WAW { color: #b980ff; }
+.ego-rank-ALEPH { color: #ff5f5f; }
+
+.ego-note {
+  display: block;
+  margin-top: -2px;
+  min-height: 1.4em;
+}
+
+.ego-resist-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+
+/* 解析段階で追加・変化する部分 (Ⅲ=赤系, Ⅳ=緑系。wiki の配色に合わせる) */
+.stage {
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.stage-3 {
+  color: #ff7d8d;
+  background: rgba(220, 20, 60, 0.14);
+}
+
+.stage-4 {
+  color: #6ff0b4;
+  background: rgba(0, 250, 154, 0.12);
+}

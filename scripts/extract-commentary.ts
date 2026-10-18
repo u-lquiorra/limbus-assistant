@@ -3,6 +3,7 @@
 // wiki の文章そのものなので、出力は .cache/ 配下に置き、アプリのデータやリポジトリには含めない。
 //   npx tsx scripts/extract-commentary.ts            全人格
 //   npx tsx scripts/extract-commentary.ts 0212 0415  指定した人格だけ
+//   npx tsx scripts/extract-commentary.ts ego-0108   E.G.O (キャッシュ名 ego-<code>)。引数なしの全件には E.G.O も含む
 import * as cheerio from "cheerio";
 import type { Element } from "domhandler";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
@@ -69,8 +70,8 @@ function main() {
   const codes = args.length
     ? args
     : readdirSync(CACHE_DIR)
-        .filter((f) => /^\d{4}\.html$/.test(f))
-        .map((f) => f.slice(0, 4));
+        .filter((f) => /^(ego-)?\d{4}\.html$/.test(f))
+        .map((f) => f.slice(0, -5));
   let empty = 0;
   for (const code of codes) {
     const src = join(CACHE_DIR, `${code}.html`);

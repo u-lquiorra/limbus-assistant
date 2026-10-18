@@ -4,6 +4,7 @@ import { getCharacter, getNeighbors } from "../data/loader";
 import { ATTACK_TYPES, asset, personaAttackTypes, personaSins } from "../lib";
 import { SIN_COLORS, SIN_ORDER, sinTextColor } from "../sinColors";
 import PersonaCard from "../components/PersonaCard";
+import EgoCard from "../components/EgoCard";
 import { AttackTypeIcon, SearchBox } from "../components/ui";
 
 function toggle<T>(set: Set<T>, value: T): Set<T> {
@@ -192,6 +193,23 @@ function CharacterDetail({ name }: { name?: string }) {
           <p className="empty">条件に一致する人格はありません。</p>
         )}
       </section>
+
+      {character.egos && character.egos.length > 0 && (
+        <section className="container section">
+          <header className="section-header">
+            <h2 className="section-title">
+              <span className="section-title-en">E.G.O</span>
+              E.G.O一覧
+            </h2>
+            <span className="section-count">{character.egos.length}件</span>
+          </header>
+          <div className="persona-grid">
+            {character.egos.map((ego) => (
+              <EgoCard key={ego.code} ego={ego} />
+            ))}
+          </div>
+        </section>
+      )}
     </>
   );
 }

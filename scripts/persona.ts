@@ -14,8 +14,12 @@ export function richText($: cheerio.CheerioAPI, el: Element): string {
   const clone = $(el).clone();
   clone.find("a.note_super").remove();
   clone.find("br").replaceWith("\n");
-  return clone
-    .text()
+  return normalizeLines(clone.text());
+}
+
+// 行ごとに空白を詰め、空行を除く。行頭の全角空白(コイン効果の続き)は1文字だけ残す
+export function normalizeLines(text: string): string {
+  return text
     .split("\n")
     .map((l) => {
       const indented = /^　/.test(l);
@@ -77,7 +81,7 @@ export function unbreakableByEffect(effect: string): string[] {
 }
 
 // セル内の用語ツールチップ(状態異常の説明など)を集める
-function keywordsIn($: cheerio.CheerioAPI, els: Element[]): Keyword[] {
+export function keywordsIn($: cheerio.CheerioAPI, els: Element[]): Keyword[] {
   const out = new Map<string, string>();
   for (const el of els) {
     $(el)

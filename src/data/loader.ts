@@ -1,6 +1,8 @@
 import type {
   CharacterData,
   CharacterListEntry,
+  EgoDetail,
+  EgoSummary,
   PersonaDetail,
   PersonaSkills,
   PersonaStatus,
@@ -15,6 +17,10 @@ const detailModules = import.meta.glob<PersonaDetail>("./personas/*.json", { imp
 
 // 攻略ガイドは一部の人格にしか無い。こちらも詳細と同じく遅延読み込み
 const guideModules = import.meta.glob<string>("./guides/*.md", { query: "?raw", import: "default" });
+
+// E.G.O も人格と同様に詳細・ガイドを遅延読み込みする。ガイドは guides/ego/ に置き、人格ガイド(guides/*.md)と混ざらないようにする
+const egoDetailModules = import.meta.glob<EgoDetail>("./egos/*.json", { import: "default" });
+const egoGuideModules = import.meta.glob<string>("./guides/ego/*.md", { query: "?raw", import: "default" });
 
 const byName = new Map<string, CharacterData>();
 for (const path in modules) {
@@ -80,5 +86,32 @@ export async function loadPersonaDetail(code: string): Promise<PersonaDetail | n
 
 export async function loadGuide(code: string): Promise<Guide | null> {
   const load = guideModules[`./guides/${code}.md`];
+  return load ? parseGuide(await load()) : null;
+}
+
+export interface EgoContext {
+  character: CharacterData;
+  ego: EgoSummary;
+  prev?: EgoSummary;
+  next?: EgoSummary;
+}
+
+export function getEgo(code: string): EgoContext | undefined {
+  for (const character of byName.values()) {
+    const list = character.egos ?? [];
+    const i = list.findIndex((e) => e.code === code);
+    if (i < 0) continue;
+    return { character, ego: list[i], prev: i > 0 ? list[i - 1] : undefined, next: i < list.length - 1 ? list[i + 1] : undefined };
+  }
+  return undefined;
+}
+
+export async function loadEgoDetail(code: string): Promise<EgoDetail | null> {
+  const load = egoDetailModules[`./egos/${code}.json`];
+  return load ? load() : null;
+}
+
+export async function loadEgoGuide(code: string): Promise<Guide | null> {
+  const load = egoGuideModules[`./guides/ego/${code}.md`];
   return load ? parseGuide(await load()) : null;
 }

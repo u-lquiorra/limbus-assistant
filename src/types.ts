@@ -95,6 +95,53 @@ export interface PersonaDetail {
   passives: PassiveDetail[];
 }
 
+// ---- E.G.O (囚人ページの「E.G.O一覧」と E.G.O 個別ページ wikiwiki.jp/lcbwiki/E.G.O/<囚人>/<E.G.O>) ----
+// E.G.O のコード(例 "0101")は人格コードと同じ4桁で重なるため、ファイル名・キャッシュでは "ego-" を付けて区別する
+
+export interface EgoSummary {
+  code: string;
+  name: string;
+  character: string;
+  wikiUrl?: string;
+  image?: string; // public/ からの相対パス
+  rank: string; // 危険ランク "ZAYIN" / "TETH" / "HE" / "WAW" / "ALEPH"
+  sin?: string; // E.G.O の罪悪属性
+  attackTypes: string; // "貫" / "貫斬"(覚醒・侵蝕で異なる場合)
+  cost: Record<string, string>; // 罪悪属性 → 必要資源数(不要な属性は "")
+  resistance: Record<string, string>; // 罪悪属性 → 被ダメージ倍率
+  note: string; // 入手方法など(例 "S1有償パスLv30")
+}
+
+// E.G.O 本文の解析段階の表記。wiki は「解析段階 Ⅱ / Ⅲ / Ⅳ」で変わる部分を文字色で示すため、
+// 色付き部分を 〘Ⅲ:…〙(解析Ⅲで変化・追加) / 〘Ⅳ:…〙(解析Ⅳで変化・追加) で囲んで残す。
+// 印の無い部分は解析Ⅱ以前からの値。"火傷1/〘Ⅲ:2〙/〘Ⅳ:3〙" = Ⅱで1、Ⅲで2、Ⅳで3
+export interface EgoSkillDetail {
+  kind: "覚醒" | "侵蝕";
+  attackType?: string; // "貫通" など。覚醒・侵蝕で異なる E.G.O のみ個別の値が入る
+  stats: LabeledValue[]; // マッチ威力・基本威力・コイン威力・コイン個数・スキルレベル・攻撃加重値(改行区切りは段階値)
+  effect: string; // SkillDetail.effect と同じ書式 + 解析段階の印
+  keywords: Keyword[];
+  unbreakableCoins?: number[];
+}
+
+export interface EgoPassiveDetail {
+  name: string;
+  effect: string; // 末尾の "※解析段階Ⅱで取得…" は wiki の注記そのまま
+  keywords: Keyword[];
+}
+
+export interface EgoDetail {
+  code: string;
+  ruby?: string; // "オガムド"
+  origin?: string; // 元になった幻想体・コラボ元 (例 "羅生蝶" / "ケルシー(アークナイツ)")
+  info: LabeledValue[]; // 囚人・シーズン実装日・危険ランク・精神消耗量・攻撃タイプ・罪悪属性
+  cost: { sin: string; count: number }[];
+  resistance: { sin: string; value: string }[]; // "普通" / "脆弱[×2]" など wiki の表記
+  skills: EgoSkillDetail[];
+  passives: EgoPassiveDetail[];
+  specialEffects: Keyword[]; // 「専用効果」表(この E.G.O 固有の状態効果)
+}
+
 export interface CharacterProfile {
   name: string;
   profileText: string;
@@ -114,6 +161,7 @@ export interface CharacterData {
   skills: PersonaSkills[];
   passives: PassiveEntry[];
   supportPassives: PassiveEntry[];
+  egos?: EgoSummary[]; // E.G.O 対応前に取得した JSON には無い
 }
 
 export interface CharacterListEntry {

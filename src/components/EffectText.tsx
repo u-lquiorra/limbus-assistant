@@ -1,6 +1,20 @@
 import type { Keyword } from "../types";
 import { COIN_NUMERALS, COIN_PREFIX } from "../coins";
+import { splitStageMarks } from "../egoStage";
 import { decorate } from "./decorate";
+
+// E.G.O の解析段階の印(〘Ⅲ:…〙)は段階ごとに色分けして描画する。人格の効果文には印が無いので素通りする
+function renderBody(body: string, keywords: Keyword[]) {
+  return splitStageMarks(body).map((seg, i) =>
+    seg.stage ? (
+      <span key={i} className={`stage stage-${seg.stage === "Ⅲ" ? 3 : 4}`} title={`解析${seg.stage}で追加・変化`}>
+        {decorate(seg.text, keywords)}
+      </span>
+    ) : (
+      <span key={i}>{decorate(seg.text, keywords)}</span>
+    )
+  );
+}
 
 interface Props {
   text: string;
@@ -31,7 +45,7 @@ export default function EffectText({ text, keywords = [], unbreakableCoins = [] 
                 {coin[1]}
               </span>
             )}
-            <span>{decorate(body, keywords)}</span>
+            <span>{renderBody(body, keywords)}</span>
           </p>
         );
       })}

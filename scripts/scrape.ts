@@ -7,6 +7,7 @@ import sharp from "sharp";
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
 import { join, dirname } from "path";
 import { parsePersonaPage, richText } from "./persona.ts";
+import { parseEgoList, parseEgoPage } from "./ego.ts";
 import {
   applyCorrections,
   correctHtml,
@@ -28,6 +29,7 @@ const BASE = "https://wikiwiki.jp/lcbwiki";
 const OUT_DIR = join(import.meta.dirname, "..", "src", "data");
 const PUBLIC_DIR = join(import.meta.dirname, "..", "public");
 const PERSONA_OUT_DIR = join(OUT_DIR, "personas");
+const EGO_OUT_DIR = join(OUT_DIR, "egos");
 const CACHE_DIR = join(import.meta.dirname, "..", ".cache", "wiki");
 const USER_AGENT =
   "LimbusAssistant-FanApp/0.1 (non-commercial fan guide; https://github.com/u-lquiorra/limbus-assistant)";
@@ -135,8 +137,8 @@ async function downloadImage(url: string, variants: ImageVariant[]): Promise<(st
   }
 }
 
-async function downloadOne(url: string, relPath: string): Promise<string | undefined> {
-  return (await downloadImage(url, [{ relPath }]))[0];
+async function downloadOne(url: string, relPath: string, width?: number): Promise<string | undefined> {
+  return (await downloadImage(url, [{ relPath, width }]))[0];
 }
 
 function imageExt(url: URL): string {
@@ -393,6 +395,7 @@ async function scrapeCharacter(name: string, number: string): Promise<CharacterD
     skills: skillTable ? parseSkillTable($, skillTable, name) : [],
     passives: passiveTable ? parsePassiveTable($, passiveTable, name) : [],
     supportPassives: supportPassiveTable ? parsePassiveTable($, supportPassiveTable, name) : [],
+    egos: parseEgoList(html, name),
   };
 }
 
@@ -424,6 +427,41 @@ async function scrapePersonaDetails(data: CharacterData) {
   }
 }
 
+// E.G.O 個別ページ。イラストは囚人ページに無く個別ページにだけあるため、ここで取得して一覧(data.egos)にも反映する。
+// E.G.O コードは人格コードと重なるので、キャッシュ名は "ego-<code>"。人格ページ用の誤記補正(PERSONA_CORRECTIONS)は当てない
+async function scrapeEgoDetails(data: CharacterData) {
+  mkdirSync(EGO_OUT_DIR, { recursive: true });
+  for (const e of data.egos ?? []) {
+    if (!e.wikiUrl) continue;
+    try {
+      const html = await fetchCached(e.wikiUrl, `ego-${e.code}`);
+      const { detail, imageSrc } = parseEgoPage(html, e.code);
+      if (imageSrc) {
+        e.image = await downloadOne(new URL(imageSrc, "https://wikiwiki.jp").toString(), egoImagePath(e.code), 480);
+      }
+      writeFileSync(join(EGO_OUT_DIR, `${e.code}.json`), JSON.stringify(detail, null, 2), "utf-8");
+      const warn = !detail.skills.length || !detail.cost.length ? "  ⚠ 要確認" : "";
+      console.log(
+        `    E.G.O ${e.code} ${e.name}: スキル${detail.skills.length} パッシブ${detail.passives.length}${warn}`
+      );
+    } catch (err) {
+      if (err instanceof RateLimitedError) throw err;
+      console.error(`    E.G.Oページ取得失敗: ${e.code} ${e.name}`, (err as Error).message);
+    }
+  }
+}
+
+function egoImagePath(code: string): string {
+  return `images/egos/${code}.webp`;
+}
+
+// --no-details のときは個別ページを読まないので、取得済みのイラストがあれば参照だけ残す
+function attachExistingEgoImages(data: CharacterData) {
+  for (const e of data.egos ?? []) {
+    if (existsSync(join(PUBLIC_DIR, egoImagePath(e.code)))) e.image = egoImagePath(e.code);
+  }
+}
+
 async function main() {
   mkdirSync(OUT_DIR, { recursive: true });
   const args = process.argv.slice(2);
@@ -450,8 +488,10 @@ async function main() {
         CHARACTER_CORRECTIONS,
         data.statuses.map((s) => s.code)
       );
+      if (skipDetails) attachExistingEgoImages(data);
+      else await scrapeEgoDetails(data);
       writeFileSync(join(OUT_DIR, `${name}.json`), JSON.stringify(data, null, 2), "utf-8");
-      console.log(`  -> 人格 ${data.statuses.length}件 取得`);
+      console.log(`  -> 人格 ${data.statuses.length}件 / E.G.O ${data.egos?.length ?? 0}件 取得`);
       if (!skipDetails) await scrapePersonaDetails(data);
     } catch (e) {
       if (e instanceof RateLimitedError) {

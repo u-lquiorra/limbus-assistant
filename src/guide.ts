@@ -2,7 +2,8 @@
 // ガイドは決まった書式(frontmatter / "## 見出し" / "- 箇条書き" / 段落 / **強調**)だけで書くため、
 // Markdown ライブラリは入れずに必要な分だけ解釈する。HTML は生成せず、描画側でテキストとして出す(XSS 対策)
 
-import type { Keyword, PersonaDetail } from "./types";
+import type { EgoDetail, Keyword, PersonaDetail } from "./types";
+import { stripStageMarks } from "./egoStage";
 
 export type InlineSegment = { text: string; strong: boolean };
 
@@ -109,6 +110,25 @@ export function guideKeywords(detail: PersonaDetail): Keyword[] {
     // パッシブ名にも wiki 由来の改行が入ることがあるため、スキル名と同様に除去して照合する
     const term = `「${p.name.replace(/\n/g, "")}」`;
     if (!map.has(term)) map.set(term, `${head}\n${p.effect}`);
+  }
+  return [...map].map(([term, desc]) => ({ term, desc }));
+}
+
+// E.G.O ガイド本文のツールチップ用。用語は覚醒/侵蝕スキル・パッシブ・専用効果から、スキル名・パッシブ名は「」付きだけを対象にする
+export function egoGuideKeywords(detail: EgoDetail, egoName: string): Keyword[] {
+  const map = new Map<string, string>();
+  for (const k of [...detail.skills, ...detail.passives].flatMap((x) => x.keywords)) {
+    if (!map.has(k.term)) map.set(k.term, k.desc);
+  }
+  for (const k of detail.specialEffects) if (!map.has(k.term)) map.set(k.term, k.desc);
+  for (const s of detail.skills) {
+    // 覚醒スキルは E.G.O 名そのまま、侵蝕スキルは「(侵蝕)」を付けた形で呼ぶ
+    const term = s.kind === "覚醒" ? `「${egoName}」` : `「${egoName}(${s.kind})」`;
+    if (!map.has(term)) map.set(term, `${s.kind}スキル${s.attackType ? ` ${s.attackType}` : ""}\n${stripStageMarks(s.effect) || "効果なし"}`);
+  }
+  for (const p of detail.passives) {
+    const term = `「${p.name.replace(/\n/g, "")}」`;
+    if (!map.has(term)) map.set(term, `E.G.Oパッシブ\n${stripStageMarks(p.effect)}`);
   }
   return [...map].map(([term, desc]) => ({ term, desc }));
 }

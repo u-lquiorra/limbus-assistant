@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import CharacterDetail from "./pages/CharacterDetail";
 import PersonaPage from "./pages/PersonaPage";
+import EgoPage from "./pages/EgoPage";
 import "./App.css";
 
 function ScrollToTop() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/character/:name" element={<CharacterDetail />} />
           <Route path="/persona/:code" element={<PersonaPage />} />
+          <Route path="/ego/:code" element={<EgoPage />} />
         </Routes>
       </main>
 
