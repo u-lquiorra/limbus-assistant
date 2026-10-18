@@ -72,6 +72,7 @@ export interface SkillDetail {
   effect: string; // 改行区切り。行頭 Ⅰ/Ⅱ/Ⅲ… はコイン効果、行頭の全角空白はその上のコインの続き
   keywords: Keyword[];
   special?: boolean; // wiki上で枠ラベルの無い特殊スキル(スキル3の変化形、特殊守備スキルなど)
+  form?: string; // 形態ごとにスキル一式が変わる人格の形態名("通常状態" / "拘束解除-創作没入" など)
   unbreakableCoins?: number[]; // 元から破壊不能なコインの番号(1始まり)
   unbreakableByEffect?: string[]; // このスキル自身の効果で破壊不能コインに変わる記述
 }

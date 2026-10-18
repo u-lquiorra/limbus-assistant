@@ -152,10 +152,24 @@ function isPassiveHeader($: cheerio.CheerioAPI, row: Row | undefined): boolean {
   return labels.includes("条件") && labels.some((l) => l.includes("効果"));
 }
 
-function parseSkillsAndPassives($: cheerio.CheerioAPI): { skills: SkillDetail[]; passives: PassiveDetail[] } {
-  const skills: SkillDetail[] = [];
-  const passives: PassiveDetail[] = [];
+// 形態名の行: 表の全幅を占める見出しセル1つだけの行 (例: [通常状態] / [拘束解除-創作没入])
+function formLabel($: cheerio.CheerioAPI, row: Row): string | undefined {
+  const c = cells(row);
+  if (c.length !== 1 || !$(c[0]).is("th") || Number($(c[0]).attr("colspan") ?? 1) < 5) return undefined;
+  return cellLabel($, c[0]).replace(/\n/g, " ") || undefined;
+}
 
+// 見出し行の直下にヘッダー行 [罪悪属性 | 攻撃タイプ | …] が抜けて、値行が直接続くwikiの記述漏れ。
+// 見出しが枠ラベル付きで、次の行の1列目が罪悪属性なら、直前のスキルのヘッダーを使い回す
+function isHeaderlessSkillTitle($: cheerio.CheerioAPI, row: Row, next: Row | undefined): boolean {
+  const c = cells(row);
+  if (!next || !c.length || !$(c[0]).is("th")) return false;
+  if (!/^(スキル\s*\d|守備スキル)/.test(cellLabel($, c[0]))) return false;
+  const firstOfNext = firstText($, next);
+  return SIN_ORDER.some((s) => firstOfNext.startsWith(s));
+}
+
+function parseSkillsAndPassives($: cheerio.CheerioAPI): { skills: SkillDetail[]; passives: PassiveDetail[] } {
   const tables = $("table")
     .toArray()
     .filter((t) =>
@@ -165,119 +179,144 @@ function parseSkillsAndPassives($: cheerio.CheerioAPI): { skills: SkillDetail[];
         .some((r) => firstText($, $(r)) === "罪悪属性" || isPassiveHeader($, $(r)))
     );
 
+  // ページによっては下部に別ページ(同じ人格の旧ページなど)が埋め込まれ、同じスキル表がもう1つ現れる。
+  // シナジー節にも他人格のパッシブ表が引用されるため、項目を取り出せた最初の表だけを採用する
   for (const t of tables) {
-    const rows = $(t).find("tr").toArray().map((r) => $(r));
-    let current: { effectRows: Element[]; skill?: SkillDetail } | null = null;
-
-    const flush = () => {
-      if (current?.skill) {
-        const s = current.skill;
-        s.effect = current.effectRows.map((e) => richText($, e)).filter(Boolean).join("\n");
-        s.keywords = keywordsIn($, current.effectRows);
-        const inherent = inherentUnbreakable(s.effect);
-        if (inherent.length) s.unbreakableCoins = inherent;
-        const byEffect = unbreakableByEffect(s.effect);
-        if (byEffect.length) s.unbreakableByEffect = byEffect;
-        skills.push(s);
+    const parsed = parseTable($, t);
+    if (parsed.skills.length || parsed.passives.length) {
+      for (const p of parsed.passives) {
+        const lines = unbreakableByEffect(p.effect);
+        if (lines.length) p.unbreakableByEffect = lines;
       }
-      current = null;
-    };
-
-    for (let i = 0; i < rows.length; i++) {
-      const next = firstText($, rows[i + 1]);
-
-      if (next === "罪悪属性") {
-        // 見出し行: [スキル1 | 撃勢 | ×3]
-        flush();
-        const title = cells(rows[i]).map((c) => cellLabel($, c));
-        const header = cells(rows[i + 1]).map((c) => cellLabel($, c));
-        const valueCells = rows[i + 2] ? cells(rows[i + 2]) : [];
-        const isDefense = header.some((h) => h.startsWith("守備"));
-        const copies = title.find((v) => /^×\d+$/.test(v));
-        const { slot, special, labeled } = classifySlot(title[0] ?? "", copies, isDefense, skills);
-        const skill: SkillDetail = {
-          slot,
-          name: (labeled ? title[1] : title[0]) ?? "",
-          copies,
-          stats: [],
-          effect: "",
-          keywords: [],
-          ...(special ? { special: true } : {}),
-        };
-        header.forEach((label, idx) => {
-          const el = valueCells[idx];
-          if (!el || !label) return;
-          if (label === "罪悪属性") skill.sin = sinOf($, el);
-          else if (/タイプ$/.test(label)) skill.attackType = richText($, el);
-          else skill.stats.push({ label, value: richText($, el) });
-        });
-        current = { effectRows: [], skill };
-        i += 2;
-        continue;
-      }
-
-      // 別レイアウト: [バトル | 名前 | パッシブ効果] / [必要資源 | 条件 | 効果本文(縦結合)] / [憂鬱×2 | 共鳴]
-      const titleCells = cells(rows[i]);
-      const titleLabels = titleCells.map((c) => cellLabel($, c));
-      const nextLabels = rows[i + 1] ? cells(rows[i + 1]).map((c) => cellLabel($, c)) : [];
-      if (
-        PASSIVE_KINDS.includes(titleLabels[0] ?? "") &&
-        titleLabels.at(-1)?.includes("効果") &&
-        nextLabels[0] === "必要資源" &&
-        nextLabels[1] === "条件"
-      ) {
-        flush();
-        const effectCell = cells(rows[i + 1])[2];
-        const valueCells = rows[i + 2] ? cells(rows[i + 2]) : [];
-        passives.push({
-          kind: titleLabels[0],
-          name: titleLabels[1] ?? "",
-          resource: valueCells[0] ? richText($, valueCells[0]) : undefined,
-          condition: valueCells[1] ? richText($, valueCells[1]) : undefined,
-          effect: effectCell ? richText($, effectCell) : "",
-          keywords: keywordsIn($, effectCell ? [effectCell] : []),
-        });
-        i += 2;
-        continue;
-      }
-
-      if (isPassiveHeader($, rows[i + 1])) {
-        // パッシブ: [バトル | 冷静] / [必要資源 | 条件 | パッシブ効果] / 値
-        flush();
-        const title = cells(rows[i]).map((c) => cellLabel($, c));
-        const header = cells(rows[i + 1]).map((c) => cellLabel($, c));
-        const valueCells = rows[i + 2] ? cells(rows[i + 2]) : [];
-        const valueAt = (idx: number) => (idx >= 0 && valueCells[idx] ? richText($, valueCells[idx]) : undefined);
-        const effectIdx = header.findIndex((h) => h.includes("効果"));
-        const conditionIdx = header.indexOf("条件");
-        // 通常は [バトル | 名前]。同じ種類のパッシブが続く場合は [名前] だけの見出しになる
-        const hasKind = PASSIVE_KINDS.includes(title[0] ?? "");
-        const kind = hasKind ? title[0] : (passives.at(-1)?.kind ?? "バトル");
-        passives.push({
-          kind,
-          name: (hasKind ? title[1] : title[0]) ?? "",
-          resource: valueAt(conditionIdx - 1),
-          condition: valueAt(conditionIdx),
-          effect: effectIdx >= 0 && valueCells[effectIdx] ? richText($, valueCells[effectIdx]) : "",
-          keywords: keywordsIn($, valueCells),
-        });
-        i += 2;
-        continue;
-      }
-
-      // スキル値行の後に続く行は効果テキスト
-      if (current) {
-        const c = cells(rows[i]);
-        const text = c.map((e) => richText($, e)).join("");
-        if (text) current.effectRows.push(...c);
-      }
+      return parsed;
     }
-    flush();
   }
-  for (const p of passives) {
-    const lines = unbreakableByEffect(p.effect);
-    if (lines.length) p.unbreakableByEffect = lines;
+  return { skills: [], passives: [] };
+}
+
+function parseTable($: cheerio.CheerioAPI, t: Element): { skills: SkillDetail[]; passives: PassiveDetail[] } {
+  const skills: SkillDetail[] = [];
+  const passives: PassiveDetail[] = [];
+  const rows = $(t).find("tr").toArray().map((r) => $(r));
+  let current: { effectRows: Element[]; skill?: SkillDetail } | null = null;
+  let form: string | undefined;
+  let lastHeader: string[] = [];
+
+  const flush = () => {
+    if (current?.skill) {
+      const s = current.skill;
+      s.effect = current.effectRows.map((e) => richText($, e)).filter(Boolean).join("\n");
+      s.keywords = keywordsIn($, current.effectRows);
+      const inherent = inherentUnbreakable(s.effect);
+      if (inherent.length) s.unbreakableCoins = inherent;
+      const byEffect = unbreakableByEffect(s.effect);
+      if (byEffect.length) s.unbreakableByEffect = byEffect;
+      skills.push(s);
+    }
+    current = null;
+  };
+
+  for (let i = 0; i < rows.length; i++) {
+    const next = firstText($, rows[i + 1]);
+
+    const nextForm = formLabel($, rows[i]);
+    if (nextForm && next !== "罪悪属性") {
+      flush();
+      form = nextForm;
+      continue;
+    }
+
+    const headerless = next !== "罪悪属性" && lastHeader.length > 0 && isHeaderlessSkillTitle($, rows[i], rows[i + 1]);
+    if (next === "罪悪属性" || headerless) {
+      // 見出し行: [スキル1 | 撃勢 | ×3]
+      flush();
+      const title = cells(rows[i]).map((c) => cellLabel($, c));
+      const header = headerless ? lastHeader : cells(rows[i + 1]).map((c) => cellLabel($, c));
+      lastHeader = header;
+      const valueRow = rows[i + (headerless ? 1 : 2)];
+      const valueCells = valueRow ? cells(valueRow) : [];
+      const isDefense = header.some((h) => h.startsWith("守備"));
+      const copies = title.find((v) => /^×\d+$/.test(v));
+      const { slot, special, labeled } = classifySlot(title[0] ?? "", copies, isDefense, skills);
+      const skill: SkillDetail = {
+        slot,
+        name: (labeled ? title[1] : title[0]) ?? "",
+        copies,
+        stats: [],
+        effect: "",
+        keywords: [],
+        ...(special ? { special: true } : {}),
+        ...(form ? { form } : {}),
+      };
+      header.forEach((label, idx) => {
+        const el = valueCells[idx];
+        if (!el || !label) return;
+        if (label === "罪悪属性") skill.sin = sinOf($, el);
+        else if (/タイプ$/.test(label)) skill.attackType = richText($, el);
+        else skill.stats.push({ label, value: richText($, el) });
+      });
+      current = { effectRows: [], skill };
+      i += headerless ? 1 : 2;
+      continue;
+    }
+
+    // 別レイアウト: [バトル | 名前 | パッシブ効果] / [必要資源 | 条件 | 効果本文(縦結合)] / [憂鬱×2 | 共鳴]
+    const titleCells = cells(rows[i]);
+    const titleLabels = titleCells.map((c) => cellLabel($, c));
+    const nextLabels = rows[i + 1] ? cells(rows[i + 1]).map((c) => cellLabel($, c)) : [];
+    if (
+      PASSIVE_KINDS.includes(titleLabels[0] ?? "") &&
+      titleLabels.at(-1)?.includes("効果") &&
+      nextLabels[0] === "必要資源" &&
+      nextLabels[1] === "条件"
+    ) {
+      flush();
+      const effectCell = cells(rows[i + 1])[2];
+      const valueCells = rows[i + 2] ? cells(rows[i + 2]) : [];
+      passives.push({
+        kind: titleLabels[0],
+        name: titleLabels[1] ?? "",
+        resource: valueCells[0] ? richText($, valueCells[0]) : undefined,
+        condition: valueCells[1] ? richText($, valueCells[1]) : undefined,
+        effect: effectCell ? richText($, effectCell) : "",
+        keywords: keywordsIn($, effectCell ? [effectCell] : []),
+      });
+      i += 2;
+      continue;
+    }
+
+    if (isPassiveHeader($, rows[i + 1])) {
+      // パッシブ: [バトル | 冷静] / [必要資源 | 条件 | パッシブ効果] / 値
+      flush();
+      const title = cells(rows[i]).map((c) => cellLabel($, c));
+      const header = cells(rows[i + 1]).map((c) => cellLabel($, c));
+      const valueCells = rows[i + 2] ? cells(rows[i + 2]) : [];
+      const valueAt = (idx: number) => (idx >= 0 && valueCells[idx] ? richText($, valueCells[idx]) : undefined);
+      const effectIdx = header.findIndex((h) => h.includes("効果"));
+      const conditionIdx = header.indexOf("条件");
+      // 通常は [バトル | 名前]。同じ種類のパッシブが続く場合は [名前] だけの見出しになる
+      const hasKind = PASSIVE_KINDS.includes(title[0] ?? "");
+      const kind = hasKind ? title[0] : (passives.at(-1)?.kind ?? "バトル");
+      passives.push({
+        kind,
+        name: (hasKind ? title[1] : title[0]) ?? "",
+        resource: valueAt(conditionIdx - 1),
+        condition: valueAt(conditionIdx),
+        effect: effectIdx >= 0 && valueCells[effectIdx] ? richText($, valueCells[effectIdx]) : "",
+        keywords: keywordsIn($, valueCells),
+      });
+      i += 2;
+      continue;
+    }
+
+    // スキル値行の後に続く行は効果テキスト
+    if (current) {
+      const c = cells(rows[i]);
+      const text = c.map((e) => richText($, e)).join("");
+      if (text) current.effectRows.push(...c);
+    }
   }
+  flush();
   return { skills, passives };
 }
 

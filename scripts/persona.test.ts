@@ -199,15 +199,25 @@ describe("parsePersonaPage: wikiのレイアウト別", () => {
     assert.deepEqual(skillByName(d, "超速護衛").unbreakableCoins, [1]);
   });
 
-  test("0213 wiki側でラベルが抜けている通常のスキル3", () => {
+  test("0213 wiki側でヘッダー行が抜けたスキル3と、その変化形", () => {
     const d = parseFixture("0213");
     assert.deepEqual(slots(d), [
       "スキル1 刈り取る",
       "スキル2 間合いを取る",
-      "スキル3 閃弓",
+      "スキル3 弓閃",
+      "スキル3(特殊) 閃弓",
       "守備スキル 弓刀展開",
       "守備スキル(特殊) 回避",
     ]);
+    const s3 = skillByName(d, "弓閃");
+    assert.equal(s3.sin, "色欲");
+    assert.equal(s3.attackType, "斬撃");
+    assert.deepEqual(
+      s3.stats.find((x) => x.label === "コイン個数"),
+      { label: "コイン個数", value: "4" }
+    );
+    // S2の効果文にS3の値・効果が混ざらない
+    assert.ok(!skillByName(d, "間合いを取る").effect.includes("弓閃"));
   });
 
   test("0314 2形態を持つ人格と「守備スキル~」の表記揺れ", () => {
@@ -218,6 +228,21 @@ describe("parsePersonaPage: wikiのレイアウト別", () => {
     );
     assert.equal(d.skills[7].name, "強制解禁");
     assert.deepEqual(skillByName(d, "代行：抹殺").unbreakableCoins, [1, 2, 3, 4]);
+    // 形態名の行を各スキルの form として持つ
+    assert.deepEqual(
+      d.skills.map((s) => s.form),
+      [...Array(4).fill("通常状態"), ...Array(4).fill("開花E.G.O::代行")]
+    );
+  });
+
+  test("1006 ページ下部に埋め込まれた別ページのスキル表は読まない", () => {
+    const d = parseFixture("1006");
+    assert.deepEqual(slots(d), ["スキル1 傷口浮彫", "スキル2 増殖するお札", "スキル3 破裂符", "守備スキル ガード"]);
+    assert.deepEqual(
+      d.passives.map((p) => `${p.kind} ${p.name} ${p.condition}`),
+      ["バトル お札を剥がす 共鳴", "サポート 祈願符 保有"]
+    );
+    assert.ok(d.skills.every((s) => s.form === undefined));
   });
 
   test("0412 wikiが「特殊」と明示した見出し", () => {

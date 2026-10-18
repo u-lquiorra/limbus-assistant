@@ -7,6 +7,14 @@ import sharp from "sharp";
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
 import { join, dirname } from "path";
 import { parsePersonaPage, richText } from "./persona.ts";
+import {
+  applyCorrections,
+  correctHtml,
+  unusedCorrections,
+  CHARACTER_CORRECTIONS,
+  PERSONA_CORRECTIONS,
+  type Correction,
+} from "./corrections.ts";
 import type {
   PersonaStatus,
   SkillCell,
@@ -388,13 +396,24 @@ async function scrapeCharacter(name: string, number: string): Promise<CharacterD
   };
 }
 
+// wiki本文の誤記補正を適用し、対象データがあったのに当たらなかった補正を警告する
+// (wiki側が修正された可能性があるので corrections.ts から削除する)
+function correct(root: unknown, corrections: Correction[], codes: string[]) {
+  const applied = applyCorrections(root, corrections);
+  for (const c of unusedCorrections(applied, codes)) {
+    console.warn(`  ⚠ 補正が適用されませんでした: ${c.code} ${c.name ?? ""} ${c.field}「${c.from}」`);
+  }
+}
+
 async function scrapePersonaDetails(data: CharacterData) {
   mkdirSync(PERSONA_OUT_DIR, { recursive: true });
   for (const s of data.statuses) {
     if (!s.wikiUrl) continue;
     try {
       const html = await fetchCached(s.wikiUrl, s.code);
-      const detail = parsePersonaPage(html, s.code);
+      const corrected = correctHtml(html, s.code, PERSONA_CORRECTIONS);
+      for (const c of corrected.unused) console.warn(`    ⚠ 補正が適用されませんでした: ${c.code}「${c.from}」`);
+      const detail = parsePersonaPage(corrected.html, s.code);
       writeFileSync(join(PERSONA_OUT_DIR, `${s.code}.json`), JSON.stringify(detail, null, 2), "utf-8");
       const warn = detail.skills.length < 4 || detail.passives.length < 2 ? "  ⚠ 要確認" : "";
       console.log(`    ${s.code} ${s.name}: スキル${detail.skills.length} パッシブ${detail.passives.length}${warn}`);
@@ -426,6 +445,11 @@ async function main() {
     try {
       const number = String(CHARACTERS.indexOf(name) + 1).padStart(2, "0");
       const data = await scrapeCharacter(name, number);
+      correct(
+        data,
+        CHARACTER_CORRECTIONS,
+        data.statuses.map((s) => s.code)
+      );
       writeFileSync(join(OUT_DIR, `${name}.json`), JSON.stringify(data, null, 2), "utf-8");
       console.log(`  -> 人格 ${data.statuses.length}件 取得`);
       if (!skipDetails) await scrapePersonaDetails(data);
