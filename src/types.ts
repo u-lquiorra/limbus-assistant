@@ -117,6 +117,7 @@ export interface EgoSummary {
 // 印の無い部分は解析Ⅱ以前からの値。"火傷1/〘Ⅲ:2〙/〘Ⅳ:3〙" = Ⅱで1、Ⅲで2、Ⅳで3
 export interface EgoSkillDetail {
   kind: "覚醒" | "侵蝕";
+  name?: string; // スキルが複数あるE.G.Oの個別名("汚血泣涙-始" など)。1つだけなら E.G.O 名と同じなので省略
   attackType?: string; // "貫通" など。覚醒・侵蝕で異なる E.G.O のみ個別の値が入る
   stats: LabeledValue[]; // マッチ威力・基本威力・コイン威力・コイン個数・スキルレベル・攻撃加重値(改行区切りは段階値)
   effect: string; // SkillDetail.effect と同じ書式 + 解析段階の印

@@ -65,6 +65,14 @@ describe("parseEgoPage: スキル", () => {
     assert.equal(page("0101").skills[0].unbreakableCoins, undefined);
   });
 
+  test("覚醒スキルが複数あるE.G.Oは、名前付きのスキルとして全部読む", () => {
+    const d = page("0608");
+    assert.deepEqual(d.skills.map((s) => `${s.kind}:${s.name ?? ""}`), ["覚醒:汚血泣涙-始", "覚醒:汚血泣涙-終", "侵蝕:"]);
+    assert.ok(d.skills.every((s) => s.stats.length === 6 && s.effect));
+    assert.equal(d.resistance.length, 7);
+    assert.equal(d.passives[0].name, "泣涙");
+  });
+
   test("用語ツールチップを集める", () => {
     const terms = page("0101").skills[0].keywords.map((k) => k.term);
     assert.ok(terms.includes("クイック"));

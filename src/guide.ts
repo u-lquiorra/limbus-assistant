@@ -122,8 +122,8 @@ export function egoGuideKeywords(detail: EgoDetail, egoName: string): Keyword[] 
   }
   for (const k of detail.specialEffects) if (!map.has(k.term)) map.set(k.term, k.desc);
   for (const s of detail.skills) {
-    // 覚醒スキルは E.G.O 名そのまま、侵蝕スキルは「(侵蝕)」を付けた形で呼ぶ
-    const term = s.kind === "覚醒" ? `「${egoName}」` : `「${egoName}(${s.kind})」`;
+    // 名前付き(複数スキル)はその名前、無ければ覚醒スキルは E.G.O 名そのまま、侵蝕スキルは「(侵蝕)」を付けた形で呼ぶ
+    const term = s.name ? `「${s.name}」` : s.kind === "覚醒" ? `「${egoName}」` : `「${egoName}(${s.kind})」`;
     if (!map.has(term)) map.set(term, `${s.kind}スキル${s.attackType ? ` ${s.attackType}` : ""}\n${stripStageMarks(s.effect) || "効果なし"}`);
   }
   for (const p of detail.passives) {

@@ -45,7 +45,7 @@ function EgoSkillCard({ skill, sin }: { skill: EgoSkillDetail; sin?: string }) {
       style={{ ["--sin" as string]: sin ? SIN_COLORS[sin] : "var(--line-strong)" }}>
       <header className="skill-card-head">
         <span className="skill-card-slot">{skill.kind}</span>
-        <h3 className="skill-card-name">{skill.kind}スキル</h3>
+        <h3 className="skill-card-name">{skill.name ?? `${skill.kind}スキル`}</h3>
         <span className="skill-card-tags">
           <span className="skill-card-type">
             {key && <AttackTypeIcon type={key} size={20} />}
@@ -289,8 +289,8 @@ export default function EgoPage() {
           ) : detail && detail.skills.length ? (
             <>
               <div className="skill-cards">
-                {detail.skills.map((s) => (
-                  <EgoSkillCard key={s.kind} skill={s} sin={ego.sin} />
+                {detail.skills.map((s, i) => (
+                  <EgoSkillCard key={`${s.kind}-${i}`} skill={s} sin={ego.sin} />
                 ))}
               </div>
               <div className="section-note coin-legend">

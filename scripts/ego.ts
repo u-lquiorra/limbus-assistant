@@ -207,7 +207,8 @@ function parseSkillTable(
       continue;
     }
 
-    const kindMatch = first.match(/^(覚醒|侵蝕)スキル$/);
+    // 覚醒スキルが複数あるE.G.Oは見出しが「覚醒スキル 汚血泣涙-始」のように名前入りになる
+    const kindMatch = first.match(/^(覚醒|侵蝕)スキル(?:\s*(.+))?$/);
     if (kindMatch) {
       const kind = kindMatch[1] as EgoSkillDetail["kind"];
       const header = c.slice(1).map((el) => plain($, el));
@@ -222,6 +223,7 @@ function parseSkillTable(
       const effect = effectCells.map((el) => stagedText($, el)).filter(Boolean).join("\n");
       const skill: EgoSkillDetail = {
         kind,
+        ...(kindMatch[2] ? { name: kindMatch[2] } : {}),
         attackType: infoValue(info, `攻撃タイプ(${kind})`) ?? infoValue(info, "攻撃タイプ"),
         stats,
         effect,
@@ -277,7 +279,7 @@ export function parseEgoPage(html: string, code: string): { detail: EgoDetail; i
   const $ = cheerio.load(html);
   const infoTable = findTable($, (c) => c.includes("危険ランク"));
   const { ruby, origin, info, imageSrc } = parseInfo($, infoTable);
-  const skillTable = findTable($, (c) => c[0] === "覚醒スキル");
+  const skillTable = findTable($, (c) => /^覚醒スキル/.test(c[0] ?? ""));
   const { cost, resistance, skills, passives } = parseSkillTable($, skillTable, info);
   return {
     detail: { code, ruby, origin, info, cost, resistance, skills, passives, specialEffects: parseSpecialEffects($) },
