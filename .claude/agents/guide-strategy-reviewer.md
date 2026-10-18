@@ -1,6 +1,6 @@
 ---
 name: guide-strategy-reviewer
-description: Limbus 攻略ガイド(src/data/guides/*.md)が、wiki の「性能解説」で本領とされる動き(勝ち筋・コアループ・最重要ギミック)を正しく押さえているかを確認する。ガイドを書いた後・直した後、または既存ガイドの見直し時に、人格コード(複数可)を渡して使う。ガイド本文は書き換えず、指摘だけを返す。
+description: Limbus 攻略ガイド(人格: src/data/guides/*.md、E.G.O: src/data/guides/ego/*.md)が、wiki の「性能解説」で本領とされる動き(勝ち筋・コアループ・最重要ギミック)を正しく押さえているかを確認する。ガイドを書いた後・直した後、または既存ガイドの見直し時に、人格コード(複数可)を渡して使う。ガイド本文は書き換えず、指摘だけを返す。
 tools: Read, Grep, Glob
 ---
 
@@ -8,10 +8,11 @@ tools: Read, Grep, Glob
 
 ## 読むもの
 
-- `src/data/guides/<code>.md`: 対象ガイド
+- `src/data/guides/<code>.md`: 対象ガイド(E.G.O の場合は `src/data/guides/ego/<code>.md`)
 - `.cache/commentary/<code>.md`: wiki の「性能解説」節を抜き出したテキスト。冒頭の総評と、末尾付近のまとめ(「強力な〜で」「弱点としては」等)に勝ち筋が書かれていることが多い
   - ファイルが無ければ「要確認: 性能解説が未抽出(`npx tsx scripts/extract-commentary.ts <code>` を実行)」と返す
 - `src/data/personas/<code>.json`: 勝ち筋の各要素がデータで裏付けられるかの確認用
+- E.G.O のガイドの場合: 依頼に「E.G.O」とあるときは、性能解説は `.cache/commentary/ego-<code>.md`(無ければ「要確認: 性能解説が未抽出(`npx tsx scripts/extract-commentary.ts ego-<code>` を実行)」)、データは `src/data/egos/<code>.json`(`personas/<code>.json` ではない。E.G.O コードは人格コードと重なる)。`〘Ⅲ:…〙` / `〘Ⅳ:…〙` は解析Ⅲ・Ⅳで追加・変化する部分で、勝ち筋の成立に解析段階が要る場合にガイドが触れているかも確認する
 
 ## 確認すること
 

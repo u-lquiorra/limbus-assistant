@@ -1,6 +1,6 @@
 ---
 name: guide-fact-checker
-description: Limbus 攻略ガイド(src/data/guides/*.md)の記述を、src/data/ の人格データと照合して事実誤認を洗い出す。ガイドを新しく書いた後・更新した後に、ガイドのパスと人格コードを渡して使う。ガイド本文は書き換えず、指摘だけを返す。
+description: Limbus 攻略ガイド(人格: src/data/guides/*.md、E.G.O: src/data/guides/ego/*.md)の記述を、src/data/ の人格・E.G.Oデータと照合して事実誤認を洗い出す。ガイドを新しく書いた後・更新した後に、ガイドのパスと人格コード(E.G.O なら E.G.O であること+コード)を渡して使う。ガイド本文は書き換えず、指摘だけを返す。
 tools: Read, Grep, Glob
 ---
 
@@ -11,6 +11,15 @@ tools: Read, Grep, Glob
 - `src/data/personas/<code>.json`: スキル(`slot` `name` `sin` `attackType` `stats` `effect` `unbreakableCoins` `unbreakableByEffect` `special`)、パッシブ(`kind` `name` `resource` `condition` `effect` `unbreakableByEffect`)、用語 `keywords`
 - `src/data/<囚人名>.json`: `statuses`(`hp` `speed` `level` `defense` `resistance` `season` `affiliation`)、`skills`
 - ガイドが他の人格に触れていれば、その人格の JSON も必ず開いて確認する
+
+## E.G.O のガイドの場合
+
+依頼に「E.G.O」とあるか、ガイドが `src/data/guides/ego/` にあるときは、人格データの代わりに次を使う。E.G.O コードは人格コードと重なるので、**必ず `egos/<code>.json` を開く**(`personas/<code>.json` ではない)。
+
+- `src/data/egos/<code>.json`: `skills`(`kind`=覚醒/侵蝕 `attackType` `stats` `effect` `unbreakableCoins`)、`passives`、`cost`(必要資源)、`resistance`、`specialEffects`、`info`(危険ランク・精神消耗量)
+- `src/data/<囚人名>.json` の `egos[]`: `rank` `sin` `attackTypes` `cost` `resistance`(倍率) `note`(入手方法)
+- 効果文・数値の `〘Ⅲ:…〙` / `〘Ⅳ:…〙` は解析Ⅲ・Ⅳで追加・変化する部分(印の無い部分は解析Ⅱ以前)。ガイドが解析段階を取り違えたり、段階の違う値を同時に適用されるように書いていないか確認する(下の「同期段階の区切り」は E.G.O では解析段階に読み替える)
+- 使い手の人格に触れていれば `personas/<code>.json` も開いて確認する
 
 ## 確認すること
 
