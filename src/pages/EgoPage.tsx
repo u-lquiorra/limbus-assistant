@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getEgo, loadEgoDetail, loadEgoGuide } from "../data/loader";
-import { egoGuideKeywords, type Guide, type InlineSegment } from "../guide";
+import { getEgo, getPersona, loadEgoDetail, loadEgoGuide } from "../data/loader";
+import { egoGuideKeywords, type Guide, type GuideSection as GuideSectionData, type InlineSegment } from "../guide";
 import { stripStageMarks } from "../egoStage";
 import { ATTACK_TYPES, asset, resistanceTone } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
@@ -90,16 +90,81 @@ function InlineText({ segments, keywords }: { segments: InlineSegment[]; keyword
   return (
     <>
       {segments.map((s, i) => {
-        const content = decorate(s.text, keywords, false);
+        // 人格詳細ページへのリンク([表示名](persona:コード))
+        const content = s.persona ? (
+          <Link className="guide-link" to={`/persona/${s.persona}`}>
+            {s.text}
+          </Link>
+        ) : (
+          decorate(s.text, keywords, false)
+        );
         return s.strong ? <strong key={i}>{content}</strong> : <span key={i}>{content}</span>;
       })}
     </>
   );
 }
 
-// 攻略ガイド(src/data/guides/ego/<code>.md)。人格ページの GuideSection と同じ見た目
-// (PersonaPage 側は別担当の変更中のため、共通化せずここに持つ)
-function GuideSection({ guide, keywords }: { guide: Guide; keywords: Keyword[] }) {
+// 攻略ガイド(src/data/guides/ego/<code>.md)は見出しで3つの枠に振り分ける。
+// 「解析」は本文から分けた枠、「編成・相性」は人格ページへのリンク付きでパッシブの下に置く
+const ANALYSIS_HEADING = "解析";
+const SYNERGY_HEADING = "編成・相性";
+
+function GuideBlocks({
+  sections,
+  keywords,
+  withThumbs,
+}: {
+  sections: GuideSectionData[];
+  keywords: Keyword[];
+  withThumbs?: boolean; // 箇条書きの人格リンクに、人格の小さな画像を添える(編成・相性用)
+}) {
+  return (
+    <div className="guide">
+      {sections.map((sec) => (
+        <div key={sec.heading} className="guide-part">
+          {sec.heading && <h3 className="guide-heading">{sec.heading}</h3>}
+          {sec.blocks.map((b, i) =>
+            b.type === "p" ? (
+              <p key={i}>
+                <InlineText segments={b.text} keywords={keywords} />
+              </p>
+            ) : (
+              <ul key={i}>
+                {b.items.map((item, j) => {
+                  const code = withThumbs ? item.find((seg) => seg.persona)?.persona : undefined;
+                  const image = code ? getPersona(code)?.status.image : undefined;
+                  return (
+                    <li key={j} className={code ? "synergy-item" : undefined}>
+                      {code && (
+                        <Link to={`/persona/${code}`} className="synergy-thumb" tabIndex={-1} aria-hidden="true">
+                          {image ? <img src={asset(image)} alt="" width={44} height={44} loading="lazy" /> : null}
+                        </Link>
+                      )}
+                      <div>
+                        <InlineText segments={item} keywords={keywords} />
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            )
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// 人格ページの GuideSection と同じ見た目(PersonaPage 側は別担当の変更中のため、共通化せずここに持つ)
+function GuideSection({
+  sections,
+  keywords,
+  updated,
+}: {
+  sections: GuideSectionData[];
+  keywords: Keyword[];
+  updated?: string;
+}) {
   return (
     <section className="section-block">
       <header className="section-header">
@@ -108,32 +173,38 @@ function GuideSection({ guide, keywords }: { guide: Guide; keywords: Keyword[] }
           ギミックと使い方
         </h2>
       </header>
-      <div className="guide">
-        {guide.sections.map((sec) => (
-          <div key={sec.heading} className="guide-part">
-            <h3 className="guide-heading">{sec.heading}</h3>
-            {sec.blocks.map((b, i) =>
-              b.type === "p" ? (
-                <p key={i}>
-                  <InlineText segments={b.text} keywords={keywords} />
-                </p>
-              ) : (
-                <ul key={i}>
-                  {b.items.map((item, j) => (
-                    <li key={j}>
-                      <InlineText segments={item} keywords={keywords} />
-                    </li>
-                  ))}
-                </ul>
-              )
-            )}
-          </div>
-        ))}
-      </div>
+      <GuideBlocks sections={sections} keywords={keywords} />
       <p className="section-note">
         下のスキル・パッシブの効果文をもとにした解説。
-        {guide.meta.updated && `(更新日: ${guide.meta.updated})`}
+        {updated && `(更新日: ${updated})`}
       </p>
+    </section>
+  );
+}
+
+function ExtraSection({
+  en,
+  title,
+  section,
+  keywords,
+  withThumbs,
+}: {
+  en: string;
+  title: string;
+  section: GuideSectionData;
+  keywords: Keyword[];
+  withThumbs?: boolean;
+}) {
+  return (
+    <section className="section-block">
+      <header className="section-header">
+        <h2 className="section-title">
+          <span className="section-title-en">{en}</span>
+          {title}
+        </h2>
+      </header>
+      {/* 枠の見出しと重なるため、ブロックの見出しは出さない */}
+      <GuideBlocks sections={[{ ...section, heading: "" }]} keywords={keywords} withThumbs={withThumbs} />
     </section>
   );
 }
@@ -150,6 +221,11 @@ export default function EgoPage() {
   const detail = loaded?.code === code ? loaded.detail : undefined;
   const [loadedGuide, setLoadedGuide] = useState<{ code: string; guide: Guide | null } | null>(null);
   const guide = loadedGuide?.code === code ? loadedGuide.guide : undefined;
+  // 解析Ⅴがある E.G.O は「解析Ⅴ(既定) / 解析Ⅰ〜Ⅳ」を切り替える。別の E.G.O に移ったら既定に戻すためコードを持つ
+  const [earlierFor, setEarlierFor] = useState<string | null>(null);
+  const showEarlier = !!detail?.earlier && earlierFor === code;
+  const shownSkills = (showEarlier ? detail?.earlier?.skills : detail?.skills) ?? [];
+  const shownPassives = (showEarlier ? detail?.earlier?.passives : detail?.passives) ?? [];
 
   useEffect(() => {
     let cancelled = false;
@@ -200,6 +276,11 @@ export default function EgoPage() {
 
   const { character, ego, prev, next } = ctx;
   const charPath = `/character/${encodeURIComponent(character.name)}`;
+  // ガイドを枠ごとに振り分ける(見出しが無ければその枠は出さない)
+  const guideSections = guide?.sections ?? [];
+  const mainSections = guideSections.filter((sec) => sec.heading !== ANALYSIS_HEADING && sec.heading !== SYNERGY_HEADING);
+  const analysisSection = guideSections.find((sec) => sec.heading === ANALYSIS_HEADING);
+  const synergySection = guideSections.find((sec) => sec.heading === SYNERGY_HEADING);
   const sp = infoValue(detail, "精神消耗量");
   const cost = detail?.cost ?? SIN_ORDER.flatMap((sin) => (ego.cost[sin] ? [{ sin, count: Number(ego.cost[sin]) }] : []));
 
@@ -275,7 +356,8 @@ export default function EgoPage() {
       </section>
 
       <div className="container persona-body">
-        {guide && guide.sections.length > 0 && <GuideSection guide={guide} keywords={guideTerms} />}
+        {mainSections.length > 0 && <GuideSection sections={mainSections} keywords={guideTerms} updated={guide?.meta.updated} />}
+        {analysisSection && <ExtraSection en="ANALYSIS" title="解析" section={analysisSection} keywords={guideTerms} />}
 
         <section className="section-block">
           <header className="section-header">
@@ -288,8 +370,27 @@ export default function EgoPage() {
             <p className="loading">読み込み中…</p>
           ) : detail && detail.skills.length ? (
             <>
+              {detail.earlier && (
+                <div className="skill-tab-list" role="tablist" aria-label="解析段階">
+                  {([
+                    [false, "解析Ⅴ"],
+                    [true, "解析Ⅰ〜Ⅳ"],
+                  ] as const).map(([earlier, label]) => (
+                    <button
+                      key={label}
+                      type="button"
+                      role="tab"
+                      aria-selected={showEarlier === earlier}
+                      className={`skill-tab${showEarlier === earlier ? " is-active" : ""}`}
+                      onClick={() => setEarlierFor(earlier ? code : null)}
+                    >
+                      <span className="skill-tab-label">{label}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
               <div className="skill-cards">
-                {detail.skills.map((s, i) => (
+                {shownSkills.map((s, i) => (
                   <EgoSkillCard key={`${s.kind}-${i}`} skill={s} sin={ego.sin} />
                 ))}
               </div>
@@ -311,7 +412,7 @@ export default function EgoPage() {
           )}
         </section>
 
-        {detail && detail.passives.length > 0 && (
+        {detail && shownPassives.length > 0 && (
           <section className="section-block">
             <header className="section-header">
               <h2 className="section-title">
@@ -320,12 +421,14 @@ export default function EgoPage() {
               </h2>
             </header>
             <div className="passive-cards">
-              {detail.passives.map((p, i) => (
+              {shownPassives.map((p, i) => (
                 <EgoPassiveCard key={`${p.name}-${i}`} passive={p} />
               ))}
             </div>
           </section>
         )}
+
+        {synergySection && <ExtraSection en="SYNERGY" title="編成・相性" section={synergySection} keywords={guideTerms} withThumbs />}
 
         {glossary.length > 0 && (
           <section className="section-block">

@@ -140,6 +140,8 @@ export interface EgoDetail {
   resistance: { sin: string; value: string }[]; // "普通" / "脆弱[×2]" など wiki の表記
   skills: EgoSkillDetail[];
   passives: EgoPassiveDetail[];
+  // 解析Ⅴが実装された E.G.O のみ。skills/passives が解析Ⅴの状態で、こちらが解析Ⅰ〜Ⅳの状態(〘Ⅲ〙〘Ⅳ〙の印付き)
+  earlier?: { skills: EgoSkillDetail[]; passives: EgoPassiveDetail[] };
   specialEffects: Keyword[]; // 「専用効果」表(この E.G.O 固有の状態効果)
 }
 

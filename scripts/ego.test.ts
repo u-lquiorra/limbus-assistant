@@ -133,3 +133,19 @@ test("splitStageMarks: 印の内外を段階付きの断片に分ける", () => 
     { text: "を付与" },
   ]);
 });
+
+describe("parseEgoPage: 解析Ⅴ", () => {
+  test("解析Ⅴ付きのE.G.Oはスキル表を2つ読む(1つ目=解析Ⅴ、2つ目=解析Ⅰ〜Ⅳ)", () => {
+    const d = page("0102");
+    assert.deepEqual(d.skills.map((s) => s.kind), ["覚醒", "侵蝕"]);
+    assert.ok(d.earlier);
+    assert.deepEqual(d.earlier.skills.map((s) => s.kind), ["覚醒", "侵蝕"]);
+    // 解析Ⅴは基本威力14、解析Ⅰ〜Ⅳは12
+    assert.equal(d.skills[0].stats.find((s) => s.label === "基本威力")?.value, "14");
+    assert.equal(d.earlier.skills[0].stats.find((s) => s.label === "基本威力")?.value, "12");
+  });
+
+  test("解析Ⅴが無いE.G.Oには earlier を付けない", () => {
+    assert.equal(page("0108").earlier, undefined);
+  });
+});

@@ -131,11 +131,11 @@ export function parseEgoList(html: string, characterName: string): EgoSummary[] 
 // ---- E.G.O 個別ページ ----
 
 // ページ上部のタブ枠も表で組まれていて内側の表の行を含むため、入れ子の表を持たない表だけを見る
-function findTable($: cheerio.CheerioAPI, pred: (firstCells: string[]) => boolean): Element | undefined {
+function findTables($: cheerio.CheerioAPI, pred: (firstCells: string[]) => boolean): Element[] {
   return $("#body table")
     .toArray()
     .filter((t) => $(t).find("table").length === 0)
-    .find((t) =>
+    .filter((t) =>
       $(t)
         .find("tr")
         .toArray()
@@ -277,12 +277,27 @@ function parseSpecialEffects($: cheerio.CheerioAPI): Keyword[] {
 
 export function parseEgoPage(html: string, code: string): { detail: EgoDetail; imageSrc?: string } {
   const $ = cheerio.load(html);
-  const infoTable = findTable($, (c) => c.includes("危険ランク"));
+  const infoTable = findTables($, (c) => c.includes("危険ランク"))[0];
   const { ruby, origin, info, imageSrc } = parseInfo($, infoTable);
-  const skillTable = findTable($, (c) => /^覚醒スキル/.test(c[0] ?? ""));
+  // 解析Ⅴが実装された E.G.O は、スキル表がタブで2つ(解析Ⅴ → 解析Ⅰ〜Ⅳ の順)ある。1つ目を本体、2つ目を earlier に持つ
+  const [skillTable, earlierTable] = findTables($, (c) => /^覚醒スキル/.test(c[0] ?? ""));
   const { cost, resistance, skills, passives } = parseSkillTable($, skillTable, info);
+  // 2つ目の表は、解析Ⅴの記載が無いページでは別ページの旧版などの埋め込みなので、解析Ⅴがあるときだけ採用する
+  const hasStageV = info.some((i) => i.label.startsWith("解析Ⅴ"));
+  const earlier = hasStageV && earlierTable ? parseSkillTable($, earlierTable, info) : undefined;
   return {
-    detail: { code, ruby, origin, info, cost, resistance, skills, passives, specialEffects: parseSpecialEffects($) },
+    detail: {
+      code,
+      ruby,
+      origin,
+      info,
+      cost,
+      resistance,
+      skills,
+      passives,
+      ...(earlier ? { earlier: { skills: earlier.skills, passives: earlier.passives } } : {}),
+      specialEffects: parseSpecialEffects($),
+    },
     imageSrc,
   };
 }

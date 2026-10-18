@@ -5,7 +5,8 @@
 import type { EgoDetail, Keyword, PersonaDetail } from "./types";
 import { stripStageMarks } from "./egoStage";
 
-export type InlineSegment = { text: string; strong: boolean };
+// persona: 人格詳細ページへのリンク。本文に [表示名](persona:0112) と書く(E.G.O ガイドの「編成・相性」で使う)
+export type InlineSegment = { text: string; strong: boolean; persona?: string };
 
 export type GuideBlock = { type: "p"; text: InlineSegment[] } | { type: "ul"; items: InlineSegment[][] };
 
@@ -19,6 +20,21 @@ export interface Guide {
   sections: GuideSection[];
 }
 
+const PERSONA_LINK = /\[([^\]]+)\]\(persona:(\d{4})\)/g;
+
+// リンク記法を取り出して分割する。リンクの無い断片は { text, strong } のまま
+function splitLinks(text: string, strong: boolean): InlineSegment[] {
+  const out: InlineSegment[] = [];
+  let last = 0;
+  for (const m of text.matchAll(PERSONA_LINK)) {
+    if (m.index > last) out.push({ text: text.slice(last, m.index), strong });
+    out.push({ text: m[1], strong, persona: m[2] });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push({ text: text.slice(last), strong });
+  return out;
+}
+
 export function parseInline(text: string): InlineSegment[] {
   // "**" で区切ると奇数番目が強調部分になる
   const parts = text.split("**");
@@ -27,7 +43,7 @@ export function parseInline(text: string): InlineSegment[] {
     const tail = parts.pop() ?? "";
     parts[parts.length - 1] += `**${tail}`;
   }
-  return parts.flatMap((part, i) => (part ? [{ text: part, strong: i % 2 === 1 }] : []));
+  return parts.flatMap((part, i) => (part ? splitLinks(part, i % 2 === 1) : []));
 }
 
 function parseFrontmatter(lines: string[]): { meta: Record<string, string>; body: string[] } {

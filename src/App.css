@@ -1694,3 +1694,45 @@
   color: #6ff0b4;
   background: rgba(0, 250, 154, 0.12);
 }
+
+/* ガイド本文から人格詳細ページへのリンク */
+.guide-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(236, 231, 223, 0.5);
+  text-underline-offset: 3px;
+}
+
+.guide-link:hover,
+.guide-link:focus-visible {
+  text-decoration-color: currentColor;
+}
+
+/* 編成・相性の人格(小さな画像 + 説明) */
+.guide ul:has(.synergy-item) {
+  list-style: none;
+  padding-left: 0;
+}
+
+.synergy-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.synergy-thumb {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.synergy-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

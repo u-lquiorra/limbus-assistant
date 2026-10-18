@@ -19,6 +19,15 @@ test("parseInline: 閉じていない ** は文字のまま残す", () => {
   ]);
 });
 
+test("parseInline: [表示名](persona:コード) を人格へのリンクにする", () => {
+  assert.deepEqual(parseInline("**[南部リウ協会3課](persona:0112)**: 火傷を付与 [的中時]"), [
+    { text: "南部リウ協会3課", strong: true, persona: "0112" },
+    { text: ": 火傷を付与 [的中時]", strong: false },
+  ]);
+  // コードが4桁でなければリンクにせず、文字のまま残す
+  assert.deepEqual(parseInline("[a](persona:12)"), [{ text: "[a](persona:12)", strong: false }]);
+});
+
 test("parseGuide: frontmatter・見出し・段落・箇条書きを解釈する", () => {
   const md = [
     "---",
