@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getPersona, loadPersonaDetail } from "../data/loader";
+import { getPersona, loadGuide, loadPersonaDetail } from "../data/loader";
+import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { Keyword, LabeledValue, PassiveDetail, PersonaDetail, SkillCell, SkillDetail } from "../types";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
+import { decorate } from "../components/decorate";
 
 const TONE_LABEL = { weak: "弱点", resist: "耐性", normal: "普通" } as const;
 
@@ -58,6 +60,7 @@ function SkillCard({ skill }: { skill: SkillDetail }) {
             {key && <AttackTypeIcon type={key} size={20} />}
             {skill.attackType}
           </span>
+          {skill.form && <span className="skill-card-form">{skill.form}</span>}
         </span>
       </header>
       <dl className="skill-card-stats">
@@ -78,6 +81,61 @@ function SkillCard({ skill }: { skill: SkillDetail }) {
       </dl>
       <EffectText text={skill.effect} keywords={skill.keywords} unbreakableCoins={skill.unbreakableCoins} />
     </article>
+  );
+}
+
+// スキル欄のタブ。特殊スキル(S3の変化形など)は元のスロットのタブにまとめ、枠ラベルの無い「特殊」だけ別タブにする
+const SKILL_TABS = [
+  { key: "スキル1", label: "S1" },
+  { key: "スキル2", label: "S2" },
+  { key: "スキル3", label: "S3" },
+  { key: "守備スキル", label: "守備" },
+  { key: "特殊", label: "特殊" },
+] as const;
+
+function SkillTabs({ skills }: { skills: SkillDetail[] }) {
+  const tabs = SKILL_TABS.map((t) => ({ ...t, skills: skills.filter((s) => s.slot === t.key) })).filter(
+    (t) => t.skills.length
+  );
+  const [active, setActive] = useState<string>(tabs[0]?.key ?? "");
+  const current = tabs.find((t) => t.key === active) ?? tabs[0];
+  if (!current) return null;
+  return (
+    <div className="skill-tabs">
+      <div className="skill-tab-list" role="tablist" aria-label="スキル枠">
+        {tabs.map((t) => {
+          const base = t.skills.find((s) => !s.special) ?? t.skills[0];
+          const selected = t.key === current.key;
+          return (
+            <button
+              key={t.key}
+              type="button"
+              role="tab"
+              id={`skill-tab-${t.key}`}
+              aria-selected={selected}
+              aria-controls={`skill-panel-${t.key}`}
+              className={`skill-tab${selected ? " is-active" : ""}`}
+              style={{ ["--sin" as string]: base.sin ? SIN_COLORS[base.sin] : "var(--line-strong)" }}
+              onClick={() => setActive(t.key)}
+            >
+              <span className="skill-tab-label">{t.label}</span>
+              <span className="skill-tab-name">{base.name.replace(/\n/g, " ")}</span>
+              {t.skills.length > 1 && <small className="skill-tab-extra">+{t.skills.length - 1}</small>}
+            </button>
+          );
+        })}
+      </div>
+      <div
+        className="skill-cards"
+        role="tabpanel"
+        id={`skill-panel-${current.key}`}
+        aria-labelledby={`skill-tab-${current.key}`}
+      >
+        {current.skills.map((s, i) => (
+          <SkillCard key={`${s.slot}-${i}`} skill={s} />
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -175,6 +233,57 @@ function PassiveCard({ passive }: { passive: PassiveDetail }) {
   );
 }
 
+function InlineText({ segments, keywords }: { segments: InlineSegment[]; keywords: Keyword[] }) {
+  return (
+    <>
+      {segments.map((s, i) => {
+        const content = decorate(s.text, keywords, false);
+        return s.strong ? <strong key={i}>{content}</strong> : <span key={i}>{content}</span>;
+      })}
+    </>
+  );
+}
+
+// 攻略ガイド(src/data/guides/<code>.md)。スキル欄の前に置き、先に人格の全体像をつかめるようにする
+function GuideSection({ guide, keywords }: { guide: Guide; keywords: Keyword[] }) {
+  return (
+    <section className="section-block">
+      <header className="section-header">
+        <h2 className="section-title">
+          <span className="section-title-en">GUIDE</span>
+          ギミックと使い方
+        </h2>
+      </header>
+      <div className="guide">
+        {guide.sections.map((sec) => (
+          <div key={sec.heading} className="guide-part">
+            <h3 className="guide-heading">{sec.heading}</h3>
+            {sec.blocks.map((b, i) =>
+              b.type === "p" ? (
+                <p key={i}>
+                  <InlineText segments={b.text} keywords={keywords} />
+                </p>
+              ) : (
+                <ul key={i}>
+                  {b.items.map((item, j) => (
+                    <li key={j}>
+                      <InlineText segments={item} keywords={keywords} />
+                    </li>
+                  ))}
+                </ul>
+              )
+            )}
+          </div>
+        ))}
+      </div>
+      <p className="section-note">
+        下のスキル・パッシブの効果文をもとにした解説です。
+        {guide.meta.updated && `(更新日: ${guide.meta.updated})`}
+      </p>
+    </section>
+  );
+}
+
 function SummarySkillRow({ label, cell }: { label: string; cell: SkillCell }) {
   const key = attackKey(cell.type);
   return (
@@ -197,6 +306,8 @@ export default function PersonaPage() {
   // 読み込んだ人格コードと一緒に持ち、別人格の詳細が一瞬表示されないようにする
   const [loaded, setLoaded] = useState<{ code: string; detail: PersonaDetail | null } | null>(null);
   const detail = loaded?.code === code ? loaded.detail : undefined;
+  const [loadedGuide, setLoadedGuide] = useState<{ code: string; guide: Guide | null } | null>(null);
+  const guide = loadedGuide?.code === code ? loadedGuide.guide : undefined;
 
   useEffect(() => {
     let cancelled = false;
@@ -208,6 +319,15 @@ export default function PersonaPage() {
       })
       .then((d) => {
         if (!cancelled) setLoaded({ code, detail: d });
+      });
+    loadGuide(code)
+      .catch((e: unknown) => {
+        // ガイドは補助情報なので、読めなければ欄ごと出さない(原因はログに残す)
+        console.error(`攻略ガイドの読み込みに失敗しました: ${code}`, e);
+        return null;
+      })
+      .then((g) => {
+        if (!cancelled) setLoadedGuide({ code, guide: g });
       });
     return () => {
       cancelled = true;
@@ -222,6 +342,9 @@ export default function PersonaPage() {
     }
     return [...map.values()];
   }, [detail]);
+
+  // 詳細データより先にガイドが読み込まれた場合は、詳細が届いた時点でツールチップが付く
+  const guideTerms = useMemo(() => (detail ? guideKeywords(detail) : []), [detail]);
 
   if (!ctx) {
     return (
@@ -356,6 +479,8 @@ export default function PersonaPage() {
       </section>
 
       <div className="container persona-body">
+        {guide && guide.sections.length > 0 && <GuideSection guide={guide} keywords={guideTerms} />}
+
         <section className="section-block">
           <header className="section-header">
             <h2 className="section-title">
@@ -367,11 +492,8 @@ export default function PersonaPage() {
             <p className="loading">読み込み中…</p>
           ) : detail && detail.skills.length ? (
             <>
-              <div className="skill-cards">
-                {detail.skills.map((s, i) => (
-                  <SkillCard key={`${s.slot}-${i}`} skill={s} />
-                ))}
-              </div>
+              {/* 人格を切り替えたらタブを S1 に戻すため、人格コードで作り直す */}
+              <SkillTabs key={code} skills={detail.skills} />
               <UnbreakableSummary detail={detail} />
               <div className="section-note coin-legend">
                 <span>

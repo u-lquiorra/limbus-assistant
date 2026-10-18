@@ -5,12 +5,16 @@ import type {
   PersonaSkills,
   PersonaStatus,
 } from "../types";
+import { parseGuide, type Guide } from "../guide";
 import charactersList from "./characters.json";
 
 const modules = import.meta.glob<CharacterData>("./*.json", { eager: true, import: "default" });
 
 // 人格詳細は人格ごとの別ファイル。ページを開いたときだけ読み込む
 const detailModules = import.meta.glob<PersonaDetail>("./personas/*.json", { import: "default" });
+
+// 攻略ガイドは一部の人格にしか無い。こちらも詳細と同じく遅延読み込み
+const guideModules = import.meta.glob<string>("./guides/*.md", { query: "?raw", import: "default" });
 
 const byName = new Map<string, CharacterData>();
 for (const path in modules) {
@@ -72,4 +76,9 @@ export function getPersona(code: string): PersonaContext | undefined {
 export async function loadPersonaDetail(code: string): Promise<PersonaDetail | null> {
   const load = detailModules[`./personas/${code}.json`];
   return load ? load() : null;
+}
+
+export async function loadGuide(code: string): Promise<Guide | null> {
+  const load = guideModules[`./guides/${code}.md`];
+  return load ? parseGuide(await load()) : null;
 }

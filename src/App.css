@@ -995,17 +995,81 @@
 
 /* skill cards */
 
+/* スキル枠ごとのタブ */
+.skill-tab-list {
+  display: grid;
+  /* タブ数(4〜5)に関係なく等幅で横一列に並べる */
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.skill-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--muted);
+  text-align: left;
+  cursor: pointer;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-bottom: 2px solid color-mix(in srgb, var(--sin) 45%, transparent);
+  border-radius: 8px;
+}
+
+.skill-tab:hover {
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+.skill-tab.is-active {
+  color: var(--text);
+  background: color-mix(in srgb, var(--sin) 16%, var(--surface));
+  border-color: color-mix(in srgb, var(--sin) 60%, transparent);
+  border-bottom-color: var(--sin);
+}
+
+.skill-tab:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.skill-tab-label {
+  flex: none;
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skill-tab-name {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.skill-tab-extra {
+  flex: none;
+  font-size: 11px;
+  color: var(--gold);
+}
+
 .skill-cards {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+  gap: 10px;
 }
 
 .skill-card {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  padding: 18px 18px 20px;
+  gap: 10px;
+  padding: 14px 16px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-top: 3px solid var(--sin);
@@ -1030,11 +1094,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 52px;
-  height: 52px;
+  min-width: 42px;
+  height: 42px;
   padding: 0 6px;
   font-family: var(--display);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   color: var(--text);
@@ -1052,7 +1116,7 @@
 
 .skill-card-name {
   grid-area: name;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -1075,7 +1139,7 @@
 
 .skill-card-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(92px, 1fr));
   gap: 1px;
   margin: 0;
   background: var(--line);
@@ -1085,7 +1149,7 @@
 }
 
 .skill-card-stats > div {
-  padding: 8px 10px;
+  padding: 5px 9px;
   background: var(--bg-2);
   min-width: 0;
 }
@@ -1099,6 +1163,10 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+.skill-card-stats .staged-main {
+  font-size: 15px;
 }
 
 .staged-main {
@@ -1243,6 +1311,14 @@
   gap: 6px;
 }
 
+.skill-card-form {
+  padding: 1px 8px;
+  font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+}
+
 .skill-card-slot .slot-special {
   margin-top: 4px;
   padding: 0 4px;
@@ -1354,6 +1430,49 @@
   font-size: 15px;
 }
 
+/* guide */
+
+.guide {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--red);
+  border-radius: var(--radius);
+}
+
+.guide-heading {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.guide-part p,
+.guide-part ul {
+  margin: 0;
+  font-size: 14px;
+}
+
+.guide-part ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 1.2em;
+}
+
+.guide-part strong {
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .guide {
+    padding: 16px;
+  }
+}
+
 /* glossary */
 
 .glossary {
@@ -1418,7 +1537,6 @@
 /* ============ Responsive ============ */
 
 @media (max-width: 900px) {
-  .skill-cards,
   .passive-cards {
     grid-template-columns: 1fr;
   }
@@ -1447,11 +1565,21 @@
   }
 
   .skill-card {
-    padding: 14px;
+    padding: 12px;
   }
 
   .skill-card-stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* 狭い画面ではスキル名を省き、枠ラベルだけのタブにする */
+  .skill-tab {
+    justify-content: center;
+    padding-inline: 6px;
+  }
+
+  .skill-tab-name {
+    display: none;
   }
 
   .passive-card-req {

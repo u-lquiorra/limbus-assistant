@@ -1,41 +1,6 @@
-import type { ReactNode } from "react";
 import type { Keyword } from "../types";
 import { COIN_NUMERALS, COIN_PREFIX } from "../coins";
-
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-// [使用時] などのタイミング表記と、用語(ツールチップ付き)を装飾する
-function decorate(text: string, keywords: Keyword[]): ReactNode[] {
-  const terms = keywords.map((k) => k.term).sort((a, b) => b.length - a.length);
-  const pattern = new RegExp(
-    `(\\[[^\\]]+\\])${terms.length ? `|(${terms.map(escapeRegExp).join("|")})` : ""}`,
-    "g"
-  );
-  const out: ReactNode[] = [];
-  let last = 0;
-  for (const m of text.matchAll(pattern)) {
-    if (m.index > last) out.push(text.slice(last, m.index));
-    if (m[1]) {
-      out.push(
-        <span key={m.index} className="fx-timing">
-          {m[1].slice(1, -1)}
-        </span>
-      );
-    } else {
-      const desc = keywords.find((k) => k.term === m[2])?.desc;
-      out.push(
-        <abbr key={m.index} className="fx-keyword" title={desc}>
-          {m[2]}
-        </abbr>
-      );
-    }
-    last = m.index + m[0].length;
-  }
-  if (last < text.length) out.push(text.slice(last));
-  return out;
-}
+import { decorate } from "./decorate";
 
 interface Props {
   text: string;
