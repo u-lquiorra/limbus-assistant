@@ -102,7 +102,7 @@ export function parseGuide(markdown: string): Guide {
   return { meta, sections };
 }
 
-// 人格ページの「おすすめE.G.O」用。E.G.O ガイドの「編成・相性」から、指定した人格を挙げている箇条書きを取り出し、
+// 人格ページの「相性の良いE.G.O」用。E.G.O ガイドの「編成・相性」から、指定した人格を挙げている箇条書きを取り出し、
 // 先頭の人格リンクを E.G.O リンクに差し替える。理由の文は E.G.O 側の記述をそのまま使う(同じ根拠を二重に書かないため)
 export function egoItemsForPersona(
   guide: Guide,

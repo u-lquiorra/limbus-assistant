@@ -119,9 +119,9 @@ export async function loadEgoGuide(code: string): Promise<Guide | null> {
   return load ? parseGuide(await load()) : null;
 }
 
-// 人格ページの「おすすめE.G.O」。E.G.O は同じ囚人しか装備できないので、その囚人の E.G.O ガイドだけを読み、
+// 人格ページの「相性の良いE.G.O」。E.G.O は同じ囚人しか装備できないので、その囚人の E.G.O ガイドだけを読み、
 // 「編成・相性」でこの人格を挙げている箇条書きを集める。並びはゲーム内の E.G.O の並び順
-export async function loadEgoRecommendations(personaCode: string, heading: string): Promise<InlineSegment[][]> {
+export async function loadEgoSynergies(personaCode: string, heading: string): Promise<InlineSegment[][]> {
   const character = getPersona(personaCode)?.character;
   if (!character) return [];
   const perEgo = await Promise.all(

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getPersona, loadEgoRecommendations, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
+import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
@@ -282,10 +282,10 @@ export default function PersonaPage() {
       .then((g) => {
         if (!cancelled) setLoadedGuide({ code, guide: g });
       });
-    loadEgoRecommendations(code, SYNERGY_HEADING)
+    loadEgoSynergies(code, SYNERGY_HEADING)
       .catch((e: unknown) => {
-        // おすすめE.G.Oも補助情報なので、読めなければ欄ごと出さない(原因はログに残す)
-        console.error(`おすすめE.G.Oの読み込みに失敗しました: ${code}`, e);
+        // 相性の良いE.G.Oも補助情報なので、読めなければ欄ごと出さない(原因はログに残す)
+        console.error(`相性の良いE.G.Oの読み込みに失敗しました: ${code}`, e);
         return [];
       })
       .then((items) => {
@@ -507,7 +507,7 @@ export default function PersonaPage() {
         {egoItems.length > 0 && (
           <ExtraSection
             en="E.G.O"
-            title="おすすめE.G.O"
+            title="相性の良いE.G.O"
             section={{ heading: "", blocks: [{ type: "ul", items: egoItems }] }}
             keywords={guideTerms}
             withThumbs
