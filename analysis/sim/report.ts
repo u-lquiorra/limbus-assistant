@@ -40,6 +40,7 @@ const UNMODELED: Record<string, string> = {
   "0208": "剣契の呼吸の分配・紅梅の被クリティカル増加",
   "0308": "味方への呼吸の分配",
   "0110": "蝶(特殊沈潜)による精神力削り",
+  "0212": "E.G.O《永続》の使い手としての役割(E.G.O はシミュレーション外)",
 };
 function rankOf(ratio: number): Rank {
   if (ratio >= 1.3) return "強力";
