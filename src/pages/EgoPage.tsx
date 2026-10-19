@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
+import PageToc from "../components/PageToc";
 import { getEgo, loadEgoDetail, loadEgoGuide, teamsForEgo } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { egoGuideKeywords, type Guide } from "../guide";
@@ -229,6 +230,7 @@ export default function EgoPage() {
       </section>
 
       <div className="container persona-body">
+        <PageToc />
         {mainSections.length > 0 && <GuideSection sections={mainSections} keywords={guideTerms} updated={guide?.meta.updated} />}
         {analysisSection && <ExtraSection en="ANALYSIS" title="解析" section={analysisSection} keywords={guideTerms} />}
 

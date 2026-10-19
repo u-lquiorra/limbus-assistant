@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
+import PageToc from "../components/PageToc";
 import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
@@ -440,6 +441,7 @@ export default function PersonaPage() {
       </section>
 
       <div className="container persona-body">
+        <PageToc />
         {mainSections.length > 0 && <GuideSection sections={mainSections} keywords={guideTerms} updated={guide?.meta.updated} />}
 
         <section className="section-block">

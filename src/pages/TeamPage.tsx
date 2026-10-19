@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
+import PageToc from "../components/PageToc";
 import { getEgo, getPersona, getTeam, loadTeamGuide } from "../data/loader";
 import type { Guide } from "../guide";
 import { asset, seasonLabel } from "../lib";
@@ -145,6 +146,8 @@ export default function TeamPage() {
           <AptitudeBadges aptitude={team.aptitude} />
         </div>
       </header>
+
+      <PageToc />
 
       {guide && guide.sections.length > 0 && (
         <GuideSection

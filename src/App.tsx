@@ -32,6 +32,20 @@ function ScrollToTop() {
   return null;
 }
 
+// 固定ヘッダーの高さを CSS 変数 --header-h に渡す。画面幅でナビが2段になり高さが変わるため実測する
+function HeaderHeightVar() {
+  useEffect(() => {
+    const header = document.querySelector<HTMLElement>(".site-header");
+    if (!header) return;
+    const observer = new ResizeObserver(() => {
+      document.documentElement.style.setProperty("--header-h", `${header.getBoundingClientRect().height}px`);
+    });
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
+  return null;
+}
+
 function DataSourceNote() {
   const { pathname } = useLocation();
   if (pathname === "/reroll") return null;
@@ -84,6 +98,7 @@ function App() {
   return (
     <HashRouter>
       <ScrollToTop />
+      <HeaderHeightVar />
       <header className="site-header">
         <div className="container site-header-inner">
           <Link to="/" className="brand">
