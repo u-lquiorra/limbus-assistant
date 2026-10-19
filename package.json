@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "scrape": "tsx scripts/scrape.ts",
+    "keywords": "tsx scripts/extract-keywords.ts",
     "test": "tsx --test \"scripts/**/*.test.ts\" \"src/**/*.test.ts\"",
     "typecheck:scripts": "tsc -p tsconfig.scripts.json"
   },
