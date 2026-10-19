@@ -30,6 +30,11 @@
   text-rendering: optimizeLegibility;
 }
 
+/* 内容の増減でスクロールバーが出入りしても、ページ全体が横にずれないよう幅を常に確保する */
+html {
+  scrollbar-gutter: stable;
+}
+
 *,
 *::before,
 *::after {
