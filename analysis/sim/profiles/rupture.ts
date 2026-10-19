@@ -276,4 +276,103 @@ export const RUPTURE_PROFILES: Profile[] = [
     },
     notes: ["デリバリーキャリアによるダメージ量増加と防御レベル減少は扱わない"],
   },
+
+  // ---------------- 協会型(黒獣を使わない) ----------------
+  {
+    code: "0307",
+    name: "ロボトミーE.G.O::提灯",
+    skills: {
+      S1: [{ skill: skill("噛み砕いてやろう！", [coin({ ruptureC: 2 })]) }],
+      S2: [
+        {
+          // Ⅲの「対象の破裂回数が2以下なら破裂回数+3」は半分の確率で近似
+          skill: skill("発光擬餌", [coin({ ruptureP: 1 }), coin({ ruptureP: 1 }), coin([{ ruptureP: 2 }, { ruptureC: 3, prob: 0.5 }])]),
+        },
+      ],
+      S3: [{ skill: skill("ぐるぐるムシャムシャムシャ！", [coin({ ruptureC: 3 }), coin(), coin()]) }],
+    },
+    notes: ["挑発値と体力回復(体力50%未満でのコイン再使用を含む)は扱わない"],
+  },
+  {
+    code: "1104",
+    name: "南部セブン協会6課部長",
+    skills: {
+      S1: [{ skill: skill("予測分析", [coin({ ruptureP: 1 })]) }],
+      S2: [{ skill: skill("現場指揮", [coin({ ruptureC: 1 }), coin({ ruptureC: 2 })]) }],
+      S3: [{ skill: skill("隙看破", [coin(), coin(), coin()]) }],
+    },
+    notes: ["相手のマッチ威力減少・麻痺・防御/攻撃レベル減少・弱点分析・斬撃追加ダメージは扱わない"],
+  },
+  {
+    code: "0106",
+    name: "W社3級整理要員",
+    skills: {
+      S1: [{ skill: skill("次元を裂く", [coin({ self: { charge: 2 }, ruptureP: 2 })], { onUse: { self: { charge: 2 } } }) }],
+      S2: [
+        {
+          // Ⅱの追加の破裂3・破裂回数+2は、充電回数10以上(2ターン目〜)で起きるとする
+          skill: skill("エネルギー循環", [coin(), coin({ ruptureP: 3 })], { onUse: { self: { charge: 7 } } }),
+          until: 1,
+        },
+        {
+          skill: skill("エネルギー循環", [coin(), coin({ ruptureP: 6, ruptureC: 2 })], { onUse: { self: { charge: 7 } } }),
+          from: 2,
+        },
+      ],
+      S3: [
+        {
+          // 充電回数15を消耗できたときに破裂回数+3。Ⅲの破裂は消耗15(5につき3、最大9)とみる
+          skill: skill("次元の狭間", [coin({ ruptureP: 1 }), coin({ ruptureP: 1 }), coin({ ruptureP: 9 })], {
+            onUse: { consumeCharge: 15, ruptureC: 3 },
+            mods: [{ coin: 2, consumeCharge: 15 }],
+          }),
+        },
+      ],
+    },
+    notes: ["表面的中だけの破裂付与も的中で近似する", "束縛・次元の亀裂・充電力場は扱わない", "S3は充電15の消耗を前提にし、10だけ消耗する形は扱わない"],
+  },
+  {
+    code: "0206",
+    name: "南部セブン協会4課",
+    skills: {
+      S1: [{ skill: skill("予測分析", [coin(), coin({ ruptureP: 3 })]) }],
+      S2: [{ skill: skill("対象解体", [coin({ ruptureP: 3 }), coin(), coin()], { onUse: { ruptureC: 3, prob: 0.7 } }) }],
+      S3: [{ skill: skill("プロファイリング", [coin(), coin({ ruptureP: 3 }), coin()], { onUse: { ruptureC: 2, prob: 0.7 } }) }],
+    },
+    notes: ["マッチ勝利時の破裂回数増加は7割で近似", "弱点分析・クイック・斬撃威力増加は扱わない"],
+  },
+  {
+    code: "1011",
+    name: "北部ヂェーヴィチ協会3課(シンクレア)",
+    skills: {
+      // デリバリーキャリア15以上(3ターン目〜)で破裂回数の追加が増える
+      S1: [
+        { skill: skill("デリバリーキャリア-崩壊ハンマー", [coin(), coin({ ruptureC: 2 })]), until: 2 },
+        { skill: skill("デリバリーキャリア-崩壊ハンマー", [coin(), coin({ ruptureC: 3 })]), from: 3 },
+      ],
+      S2: [
+        { skill: skill("デリバリーキャリア-突破ガジェット", [coin(), coin({ ruptureP: 2 }), coin({ ruptureP: 3 })]), until: 2 },
+        {
+          skill: skill("デリバリーキャリア-突破ガジェット", [coin(), coin({ ruptureP: 2, ruptureC: 2 }), coin({ ruptureP: 3, ruptureC: 2 })]),
+          from: 3,
+        },
+      ],
+      S3: [
+        { skill: skill("ポルードニツァ…お願いします！", [coin({ ruptureC: 1 }), coin({ ruptureP: 3 }), coin()]), until: 2 },
+        // デリバリーキャリア20前後で破裂回数+3・破裂+5とみる
+        { skill: skill("ポルードニツァ…お願いします！", [coin({ ruptureC: 3 }), coin({ ruptureP: 5 }), coin()]), from: 3 },
+      ],
+    },
+    notes: [
+      "破裂15・回数3以上で付与が止まり、防御レベル減少・最終コイン威力増加に変わる効果は扱わない(付与量を多めに見積もる)",
+      "デリバリーキャリアによるダメージ量増加と、30超過の自傷は扱わない",
+    ],
+  },
+  {
+    code: "0610",
+    name: "牙狩事務所フィクサー",
+    skills: { S1: [], S2: [], S3: [] }, // 裏置き専用として扱う
+    support: { label: "血鬼攻略教本 - 止血", bonus: { label: "なし" } },
+    notes: ["裏置きのサポート効果(防御レベル減少)は扱わない"],
+  },
 ];
