@@ -163,40 +163,63 @@ body {
 }
 
 .hero-title {
+  margin: 0;
+  line-height: 0;
+}
+
+/* 自作のブロック文字ロゴ(SiteLogo)。帯ごと影を落として、看板が浮いて見えるようにする */
+.hero-logo {
+  display: block;
+  width: min(100%, 460px);
+  height: auto;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 30px rgba(217, 97, 42, 0.18));
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ヘッダーのロゴ */
+.brand-logo {
+  display: block;
+  height: 26px;
+  width: auto;
+}
+
+/*
+ * 注意書き画面の背景: 左右に赤い明朝体の語句を並べ、中央へ向かって消えるようにする。
+ * 本文より目立たないよう、不透明度は低く抑える
+ */
+.hero-warning {
+  position: absolute;
+  inset: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 14px;
+  justify-content: space-between;
+  padding: 18px clamp(12px, 3vw, 40px);
+  font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+  font-weight: 700;
+  font-size: clamp(14px, 1.7vw, 22px);
+  line-height: 1.75;
+  color: #a3140f;
+  opacity: 0.16;
+  pointer-events: none;
+  mask-image: linear-gradient(90deg, #000, transparent 32%, transparent 68%, #000);
 }
 
-/* App.css の旧デザイン(赤の袋文字)を打ち消す */
-.hero-title span {
-  -webkit-text-stroke: 0;
+.hero-warning ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
 }
 
-.hero-title-main {
-  font-size: clamp(56px, 9vw, 112px);
-  letter-spacing: 0.04em;
-  color: transparent;
-  background: linear-gradient(180deg, #ffe39a 0%, #f5c136 45%, #d9822b 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  filter: drop-shadow(0 3px 0 #3a1d0a) drop-shadow(0 0 22px rgba(245, 193, 54, 0.22));
-}
-
-.hero-title .hero-title-sub {
-  padding: 9px 10px 9px 20px; /* 字間の分だけ右を詰めて、文字を札の中央に見せる */
-  font-size: clamp(16px, 2.2vw, 24px);
-  font-weight: 600;
-  letter-spacing: 0.5em;
-  line-height: 1;
-  color: var(--cream);
-  background: #0a0705;
-  border: 1px solid #6b4a2a;
-  box-shadow:
-    inset 0 0 0 3px #0a0705,
-    inset 0 0 0 4px rgba(203, 124, 48, 0.6),
-    0 6px 18px -8px rgba(0, 0, 0, 0.9);
+.hero-warning ul:last-child {
+  text-align: right;
 }
 
 .hero-visual {
@@ -244,5 +267,16 @@ body {
   .hero-visual {
     order: -1;
     width: min(100%, 480px);
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-logo {
+    height: 20px;
+  }
+
+  /* スマホでは本文と重なりやすいので、さらに薄くする */
+  .hero-warning {
+    opacity: 0.14;
   }
 }

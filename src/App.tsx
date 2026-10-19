@@ -12,6 +12,7 @@ import BeginnerGuide from "./pages/BeginnerGuide";
 import RerollGuide from "./pages/RerollGuide";
 import BossPage, { BossIndex } from "./pages/BossPage";
 import SearchPage from "./pages/SearchPage";
+import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import "./App.css";
 import "./theme.css";
@@ -101,11 +102,8 @@ function App() {
       <HeaderHeightVar />
       <header className="site-header">
         <div className="container site-header-inner">
-          <Link to="/" className="brand">
-            <span className="brand-mark" aria-hidden="true" />
-            <span className="brand-text">
-              LIMBUS <span className="brand-accent">ASSISTANT</span>
-            </span>
+          <Link to="/" className="brand" aria-label="Limbus Assistant ホーム">
+            <SiteLogo lines={["LIMBUS ASSISTANT"]} className="brand-logo" />
           </Link>
           <SiteNav />
           <SiteSearchLink />

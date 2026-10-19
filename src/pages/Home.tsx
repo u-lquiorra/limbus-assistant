@@ -1,9 +1,20 @@
 import { Link } from "react-router-dom";
 import { allPersonas, characterList } from "../data/loader";
 import { asset } from "../lib";
+import SiteLogo from "../components/SiteLogo";
 import SiteSearchResults from "../components/SiteSearchResults";
 import { SearchBox } from "../components/ui";
 import { useSearchQuery } from "../useSearchQuery";
+
+// ゲームの起動時に出る注意書き(トリガーワーニング)の項目。背景の装飾にだけ使う
+const WARNING_LEFT = [
+  "動物殺害", "薬物使用", "酒、タバコの描写", "外傷および身体欠損", "殺人および自殺", "暴行および拷問",
+  "食人", "誘拐・拉致・監禁", "精神異常", "疾病および発作、呼吸混乱", "ピエロの描写", "オカルトおよび心霊",
+];
+const WARNING_RIGHT = [
+  "視覚的、聴覚的ゴア", "鋭利な物品の描写", "病院関連要素の描写", "ガスライティング、いじめ要素", "身体変形", "光過敏症要素",
+  "画面揺れによるめまい", "暴言、卑罵語の使用", "交通事故", "銃器、凶器の描写", "差別による暴力要素", "宗教的拷問および暴力",
+];
 
 const HOME_STEPS = [
   {
@@ -39,12 +50,21 @@ export default function Home() {
   return (
     <>
       <section className="hero">
+        {/* ゲーム起動時の注意書き画面のような、赤い明朝体の語句を左右に薄く並べる背景 */}
+        <div className="hero-warning" aria-hidden="true">
+          <ul>
+            {WARNING_LEFT.map((w) => <li key={w}>{w}</li>)}
+          </ul>
+          <ul>
+            {WARNING_RIGHT.map((w) => <li key={w}>{w}</li>)}
+          </ul>
+        </div>
         <div className="container hero-inner">
           <div className="hero-text">
             <p className="kicker">UNOFFICIAL DATABASE</p>
             <h1 className="hero-title">
-              <span className="hero-title-main">LIMBUS</span>
-              <span className="hero-title-sub">ASSISTANT</span>
+              <span className="visually-hidden">Limbus Assistant</span>
+              <SiteLogo lines={["LIMBUS", "ASSISTANT"]} className="hero-logo" />
             </h1>
             <p className="hero-lead">Limbus Company の囚人・人格データを日本語でまとめた非公式攻略データベース。</p>
 
