@@ -26,9 +26,9 @@ const ricardo: BossGuide = {
     { symptom: "イシュメールが倒れてしまう", advice: "生存条件は5-30限定で、ほかの味方が生存していることが必要。全員が倒れる広域攻撃は防げない。イシュメール1人だけで耐え続ける作戦には使えない。" },
   ],
   units: [
-    { id: "ricardo", name: "リカルド", image: { path: "images/bosses/ricardo.webp", width: 220, height: 211 }, part: "胴体", hp: "3763（HP50%到達が目標）", level: "不明（Wikiでは50以上）", defenseLevel: 60, speed: "2〜7", stagger: "HP75%・50%（攻略中に到達する区間）",
+    { id: "ricardo", name: "リカルド", image: { path: "images/bosses/ricardo.webp", width: 220, height: 211 }, part: "胴体", hp: "3763（HP50%到達が目標）", level: "不明（50以上）", defenseLevel: 60, speed: "2〜7", stagger: "HP75%・50%（攻略中に到達する区間）",
       physical: { 斬: 0.5, 貫: 1, 打: 2 }, sins: { 憤怒: 1, 色欲: 1, 怠惰: 1, 暴食: 1, 憂鬱: 1, 傲慢: 1, 嫉妬: 1 },
-      notes: ["ゲーム内ではHPやレベルなどが???表示。HP・防御Lv・各スキルのレベルはWiki記載の値で、スキルレベルは推定値。", "HP50%に初めて到達したターンの終了時に勝利扱いになる。HP0まで削る必要はない。", "第3ウェーブ開始から9ターン目終了時にも勝利扱いになるが、広域攻撃を耐える準備が必要。", "混乱しても行動パターンは飛ばされない。立て直す猶予として使う。"] },
+      notes: ["ゲーム内ではHPやレベルなどが???表示。HP・防御Lv・各スキルのレベルは実測による値で、スキルレベルは推定値。", "HP50%に初めて到達したターンの終了時に勝利扱いになる。HP0まで削る必要はない。", "第3ウェーブ開始から9ターン目終了時にも勝利扱いになるが、広域攻撃を耐える準備が必要。", "混乱しても行動パターンは飛ばされない。立て直す猶予として使う。"] },
     ...[{ id: "younger", name: "頼れる中指末弟", path: "middle-younger", width: 225, height: 196 }, { id: "strict", name: "厳格な中指末弟", path: "middle-strict", width: 226, height: 192 }].map((unit) => ({
       id: unit.id, name: unit.name, image: { path: `images/bosses/${unit.path}.webp`, width: unit.width, height: unit.height }, part: "胴体", hp: "176", level: 40, defenseLevel: 37, speed: "1〜2", stagger: "HP45%（79）",
       physical: { 斬: 0.5, 貫: 1, 打: 2 }, sins: { 憤怒: 1, 色欲: 1, 怠惰: 1, 暴食: 1, 憂鬱: 1, 傲慢: 1, 嫉妬: 1 },
