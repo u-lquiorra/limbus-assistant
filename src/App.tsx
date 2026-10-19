@@ -30,7 +30,7 @@ function App() {
           </Link>
           <nav className="site-nav">
             <Link to="/">囚人一覧</Link>
-            <Link to="/teams">おすすめ編成</Link>
+            <Link to="/teams">編成例</Link>
           </nav>
         </div>
       </header>

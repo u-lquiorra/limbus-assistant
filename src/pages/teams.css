@@ -155,3 +155,197 @@
     grid-template-columns: 1fr;
   }
 }
+
+.team-combos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.team-combo {
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.team-combo-name {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.team-combo-note {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.team-combo-sub {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* 編成例・コンビ運用の密な一覧: サムネを小さくし、余白を詰めて3列まで並べる */
+.team-members-dense {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 6px;
+}
+
+.team-members-dense .team-member {
+  gap: 8px;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.team-members-dense .team-member-thumb {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+}
+
+.team-members-dense .team-member-body {
+  gap: 0;
+}
+
+.team-members-dense .team-member-name {
+  font-size: 13px;
+}
+
+.team-members-dense .team-member-sub {
+  font-size: 11px;
+}
+
+.team-members-dense .team-member-note {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.team-combo {
+  padding: 10px 12px;
+}
+
+.team-combo-note {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .team-members-dense {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 編成例: このページの主役。枠線と番号で目立たせ、裏置き・E.G.Oは小さなチップにする */
+.team-example {
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius);
+}
+
+.team-example-name {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold);
+}
+
+.team-example-list {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  counter-reset: none;
+}
+
+.team-example-list .team-member {
+  border-color: var(--line-strong);
+}
+
+.team-example-list .team-member-name {
+  font-size: 14px;
+}
+
+.team-member-index {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--bg, #000);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: center;
+}
+
+.team-example-extra {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.team-example-label {
+  flex: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.team-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 10px 2px 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 12px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.team-chip img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-chip:hover {
+  border-color: var(--line-strong);
+}
+
+/* 脇役(コンビ運用)は枠も文字も控えめにする */
+.team-combo {
+  border-style: dashed;
+}
+
+.team-combo-name {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* 詳細ページの各欄の間隔を空け、見出しと本文の間も少し離す */
+.team-page .section-block {
+  margin-top: 40px;
+}
+
+.team-page .section-block > .section-header {
+  margin-bottom: 14px;
+}
+
+/* 一覧の鏡ダンジョン欄。通常の編成との間を空ける */
+.team-mirror {
+  margin-top: 40px;
+}

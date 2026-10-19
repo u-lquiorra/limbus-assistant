@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import type { TeamData } from "../types";
 
-// 人格・E.G.O ページの「この人格(E.G.O)が入るおすすめ編成」。編成データ(teams.json)からの逆引き
+// 人格・E.G.O ページの「この人格(E.G.O)が入る編成例」。編成データ(teams.json)からの逆引き
 export default function TeamLinks({ teams, label }: { teams: TeamData[]; label: string }) {
   if (!teams.length) return null;
   return (
@@ -16,14 +16,14 @@ export default function TeamLinks({ teams, label }: { teams: TeamData[]; label: 
   );
 }
 
-// 適性(通常戦闘・短期戦・長期戦)を ◎〇△✖ のバッジで並べる
+// 適性を ◎〇△✖ のバッジで並べる(通常の編成は 通常・短期・長期、鏡ダンジョンの編成は 周回・深層)
 export function AptitudeBadges({ aptitude }: { aptitude: TeamData["aptitude"] }) {
   return (
     <span className="team-aptitude">
-      {(["通常", "短期", "長期"] as const).map((k) => (
-        <span key={k} className="team-aptitude-item" title={`${k}戦闘への適性`}>
+      {Object.entries(aptitude).map(([k, v]) => (
+        <span key={k} className="team-aptitude-item" title={`${k}への適性`}>
           {k}
-          <b>{aptitude[k]}</b>
+          <b>{v}</b>
         </span>
       ))}
     </span>

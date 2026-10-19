@@ -34,12 +34,13 @@ function resourceTotals(team: TeamData): [string, number][] {
     .sort((a, b) => b[1] - a[1]);
 }
 
-function PersonaRow({ member }: { member: TeamMember }) {
+function PersonaRow({ member, index }: { member: TeamMember; index?: number }) {
   const ctx = getPersona(member.code);
   if (!ctx) return null;
   const { status } = ctx;
   return (
     <li className="team-member">
+      {index !== undefined && <span className="team-member-index" aria-hidden="true">{index}</span>}
       <Link to={`/persona/${status.code}`} className="team-member-thumb" tabIndex={-1} aria-hidden="true">
         {status.image && <img src={asset(status.image)} alt="" width={56} height={56} loading="lazy" />}
       </Link>
@@ -78,6 +79,18 @@ function EgoRow({ member }: { member: TeamMember }) {
   );
 }
 
+// 補助的な項目(裏置き・持ち込むE.G.O)用の小さな表示。解説は title で出す
+function Chip({ to, image, name, note }: { to: string; image?: string; name: string; note?: string }) {
+  return (
+    <li>
+      <Link to={to} className="team-chip" title={note}>
+        {image && <img src={asset(image)} alt="" width={24} height={24} loading="lazy" />}
+        {name}
+      </Link>
+    </li>
+  );
+}
+
 export default function TeamPage() {
   const { id = "" } = useParams<{ id: string }>();
   const team = getTeam(id);
@@ -108,7 +121,7 @@ export default function TeamPage() {
       <div className="container section">
         <p className="empty">編成が見つからない。</p>
         <Link to="/teams" className="back-link">
-          ← おすすめ編成の一覧に戻る
+          ← 編成例の一覧に戻る
         </Link>
       </div>
     );
@@ -117,7 +130,7 @@ export default function TeamPage() {
   return (
     <div className="container section team-page">
       <nav className="breadcrumb" aria-label="パンくずリスト">
-        <Link to="/teams">おすすめ編成</Link>
+        <Link to="/teams">編成例</Link>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{team.name}</span>
       </nav>
@@ -145,6 +158,72 @@ export default function TeamPage() {
           note="メンバーの効果文をもとにした解説。"
           withThumbs
         />
+      )}
+
+      {team.examples && team.examples.length > 0 && (
+        <section className="section-block team-examples">
+          <header className="section-header">
+            <h2 className="section-title">編成例</h2>
+            <span className="section-count">
+              {team.category === "鏡ダンジョン" ? "必須の人格以外の枠は自由" : "組み方の例。出撃7人"}
+            </span>
+          </header>
+          <div className="team-combos">
+            {team.examples.map((x) => (
+              <div key={x.name} className="team-example">
+                <h3 className="team-example-name">{x.name}</h3>
+                <p className="team-combo-note">{x.note}</p>
+                <ol className="team-members team-members-dense team-example-list">
+                  {x.members.map((m, i) => (
+                    <PersonaRow key={m.code} member={m} index={i + 1} />
+                  ))}
+                </ol>
+                {x.support.length > 0 && (
+                <div className="team-example-extra">
+                  <span className="team-example-label">裏置き</span>
+                  <ul className="team-chips">
+                    {x.support.map((m) => {
+                      const s = getPersona(m.code)?.status;
+                      return s ? <Chip key={m.code} to={`/persona/${s.code}`} image={s.image} name={s.name} note={m.note} /> : null;
+                    })}
+                  </ul>
+                </div>
+                )}
+                <div className="team-example-extra">
+                  <span className="team-example-label">E.G.O</span>
+                  <ul className="team-chips">
+                    {x.egos.map((m) => {
+                      const e = getEgo(m.code)?.ego;
+                      return e ? <Chip key={m.code} to={`/ego/${e.code}`} image={e.image} name={e.name} note={m.note} /> : null;
+                    })}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {team.combos && team.combos.length > 0 && (
+        <section className="section-block">
+          <header className="section-header">
+            <h2 className="section-title">コンビ・トリオ運用</h2>
+            <span className="section-count">同じ所属などで組むと強いまとまり</span>
+          </header>
+          <div className="team-combos">
+            {team.combos.map((c) => (
+              <div key={c.name} className="team-combo">
+                <h3 className="team-combo-name">{c.name}</h3>
+                <p className="team-combo-note">{c.note}</p>
+                <ul className="team-members team-members-dense">
+                  {c.members.map((m) => (
+                    <PersonaRow key={m.code} member={m} />
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
       )}
 
       {SLOTS.map(({ key, title, note }) =>
@@ -191,7 +270,7 @@ export default function TeamPage() {
       )}
 
       <Link to="/teams" className="back-link">
-        ← おすすめ編成の一覧に戻る
+        ← 編成例の一覧に戻る
       </Link>
     </div>
   );

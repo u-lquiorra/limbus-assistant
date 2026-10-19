@@ -307,7 +307,7 @@ export default function EgoPage() {
         )}
 
         {synergySection && <ExtraSection en="SYNERGY" title="編成・相性" section={synergySection} keywords={guideTerms} withThumbs />}
-        <TeamLinks teams={teamsForEgo(code)} label="このE.G.Oが相性の良いおすすめ編成" />
+        <TeamLinks teams={teamsForEgo(code)} label="このE.G.Oと相性の良い編成例" />
 
         {glossary.length > 0 && (
           <section className="section-block">

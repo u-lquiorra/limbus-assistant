@@ -180,17 +180,39 @@ export interface CharacterListEntry {
 export interface TeamMember {
   code: string; // 人格コード(egos では E.G.O コード)
   note?: string; // この編成での役割(1文)
+  // 編成のキーワードを持たない人格をあえて入れるときに true。入る理由を note に書く
+  // (例: 呼吸編成の黒獣-卯 筆頭。呼吸人格ではないが鴻園の君主と相性がよい)
+  offKeyword?: boolean;
+}
+
+// コンビ・トリオ運用。同じ所属などで組み合わせて使うと強い人格のまとまり(囚人は重複しない)
+export interface TeamCombo {
+  name: string; // 例 "夜明組(トリオ)"
+  note: string; // 組みで使う理由・注意
+  members: TeamMember[];
+}
+
+// 編成例。出撃する人格を7人以上決めて示す(囚人は重複しない)
+export interface TeamExample {
+  name: string; // 例 "物理火傷型(基本形)"
+  note: string; // どんな形か・向く場面
+  members: TeamMember[]; // 出撃する人格(7人以上)
+  support: TeamMember[]; // 裏置き
+  egos: TeamMember[];
 }
 
 export interface TeamData {
   id: string; // URL と解説ファイル名に使う英小文字の ID (例 "burn")
   name: string;
-  category: "状態異常" | "所属" | "その他";
+  category: "状態異常" | "所属" | "その他" | "鏡ダンジョン";
   keywords: string[]; // 軸になるキーワード(例 ["火傷"])
   difficulty: "初心者" | "中上級";
-  aptitude: { 通常: string; 短期: string; 長期: string }; // ◎ / 〇 / △ / ✖
+  // 適性(◎ / 〇 / △ / ✖)。表示はキーの並び順。通常の編成は 通常・短期・長期、鏡ダンジョンの編成は 周回・深層
+  aptitude: Record<string, string>;
   source?: string; // 参考にした wiki 編成ガイドの見出し(.cache/commentary/teams/<見出し>.md)
+  examples?: TeamExample[]; // 編成例: 優先枠をどう組み合わせて何人出すか
   core: TeamMember[]; // 優先枠: 編成の軸。囚人は重複させない
+  combos?: TeamCombo[]; // コンビ・トリオ運用(優先枠と重なる人格を含んでよい)
   flex: TeamMember[]; // 自由枠: 残りの枠を埋める候補
   alternatives: TeamMember[]; // 代替枠: 手持ちが無いときの代わり
   support: TeamMember[]; // 裏置き: サポートパッシブのために控えに置く

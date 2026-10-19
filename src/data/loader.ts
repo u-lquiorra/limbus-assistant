@@ -121,7 +121,9 @@ export async function loadEgoGuide(code: string): Promise<Guide | null> {
 
 // ---- おすすめ編成 ----
 
-export const teams: TeamData[] = teamsList as TeamData[];
+// 適性の軸が編成ごとに違う(通常・短期・長期/周回・深層)ため、JSON の推論型からは直接キャストできない。
+// 中身の整合性は teams.test.ts で検査している
+export const teams: TeamData[] = teamsList as unknown as TeamData[];
 
 export function getTeam(id: string): TeamData | undefined {
   return teams.find((t) => t.id === id);

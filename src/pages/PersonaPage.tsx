@@ -492,7 +492,7 @@ export default function PersonaPage() {
         </section>
 
         {synergySection && <ExtraSection en="SYNERGY" title="相性のいい人格" section={synergySection} keywords={guideTerms} withThumbs />}
-        <TeamLinks teams={teamsForPersona(code)} label="この人格が入るおすすめ編成" />
+        <TeamLinks teams={teamsForPersona(code)} label="この人格が入る編成例" />
 
         {glossary.length > 0 && (
           <section className="section-block">
