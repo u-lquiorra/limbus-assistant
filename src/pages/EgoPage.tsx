@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getEgo, loadEgoDetail, loadEgoGuide } from "../data/loader";
+import { getEgo, loadEgoDetail, loadEgoGuide, teamsForEgo } from "../data/loader";
+import TeamLinks from "../components/TeamLinks";
 import { egoGuideKeywords, type Guide } from "../guide";
 import { stripStageMarks } from "../egoStage";
 import { ATTACK_TYPES, asset, resistanceTone } from "../lib";
@@ -306,6 +307,7 @@ export default function EgoPage() {
         )}
 
         {synergySection && <ExtraSection en="SYNERGY" title="編成・相性" section={synergySection} keywords={guideTerms} withThumbs />}
+        <TeamLinks teams={teamsForEgo(code)} label="このE.G.Oが相性の良いおすすめ編成" />
 
         {glossary.length > 0 && (
           <section className="section-block">

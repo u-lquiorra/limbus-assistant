@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getPersona, loadGuide, loadPersonaDetail } from "../data/loader";
+import { getPersona, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
+import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { Keyword, LabeledValue, PassiveDetail, PersonaDetail, SkillCell, SkillDetail } from "../types";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
-import { GuideSection } from "../components/GuideView";
+import { ExtraSection, GuideSection, SYNERGY_HEADING } from "../components/GuideView";
 
 const TONE_LABEL = { weak: "弱点", resist: "耐性", normal: "普通" } as const;
 
@@ -307,6 +308,10 @@ export default function PersonaPage() {
   }
 
   const { character, status, skills, prev, next } = ctx;
+  // ガイドの「編成・相性」は本文から分け、パッシブの下に人格画像つきの欄として出す
+  const guideSections = guide?.sections ?? [];
+  const mainSections = guideSections.filter((sec) => sec.heading !== SYNERGY_HEADING);
+  const synergySection = guideSections.find((sec) => sec.heading === SYNERGY_HEADING);
   const info = detail?.info ?? [];
   const keywords =
     infoValue(info, "特性キーワード")
@@ -428,7 +433,7 @@ export default function PersonaPage() {
       </section>
 
       <div className="container persona-body">
-        {guide && guide.sections.length > 0 && <GuideSection sections={guide.sections} keywords={guideTerms} updated={guide.meta.updated} />}
+        {mainSections.length > 0 && <GuideSection sections={mainSections} keywords={guideTerms} updated={guide?.meta.updated} />}
 
         <section className="section-block">
           <header className="section-header">
@@ -485,6 +490,9 @@ export default function PersonaPage() {
             </div>
           )}
         </section>
+
+        {synergySection && <ExtraSection en="SYNERGY" title="相性のいい人格" section={synergySection} keywords={guideTerms} withThumbs />}
+        <TeamLinks teams={teamsForPersona(code)} label="この人格が入るおすすめ編成" />
 
         {glossary.length > 0 && (
           <section className="section-block">

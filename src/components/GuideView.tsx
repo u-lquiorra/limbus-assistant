@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { getPersona } from "../data/loader";
+import { getEgo, getPersona } from "../data/loader";
 import type { GuideSection as GuideSectionData, InlineSegment } from "../guide";
 import { asset } from "../lib";
 import type { Keyword } from "../types";
@@ -12,9 +12,10 @@ export function InlineText({ segments, keywords }: { segments: InlineSegment[]; 
   return (
     <>
       {segments.map((s, i) => {
-        // 人格詳細ページへのリンク([表示名](persona:コード))
-        const content = s.persona ? (
-          <Link className="guide-link" to={`/persona/${s.persona}`}>
+        // 人格・E.G.O 詳細ページへのリンク([表示名](persona:コード) / [表示名](ego:コード))
+        const href = s.persona ? `/persona/${s.persona}` : s.ego ? `/ego/${s.ego}` : undefined;
+        const content = href ? (
+          <Link className="guide-link" to={href}>
             {s.text}
           </Link>
         ) : (
@@ -38,7 +39,7 @@ export function GuideBlocks({
 }: {
   sections: GuideSectionData[];
   keywords: Keyword[];
-  withThumbs?: boolean; // 箇条書きの人格リンクに、人格の小さな画像を添える(編成・相性用)
+  withThumbs?: boolean; // 箇条書きの先頭の人格・E.G.O リンクに、小さな画像を添える(編成・相性用)
 }) {
   return (
     <div className="guide">
@@ -53,12 +54,17 @@ export function GuideBlocks({
             ) : (
               <ul key={i}>
                 {b.items.map((item, j) => {
-                  const code = withThumbs ? item.find((seg) => seg.persona)?.persona : undefined;
-                  const image = code ? getPersona(code)?.status.image : undefined;
+                  const linked = withThumbs ? item.find((seg) => seg.persona || seg.ego) : undefined;
+                  const href = linked?.persona ? `/persona/${linked.persona}` : linked?.ego ? `/ego/${linked.ego}` : undefined;
+                  const image = linked?.persona
+                    ? getPersona(linked.persona)?.status.image
+                    : linked?.ego
+                      ? getEgo(linked.ego)?.ego.image
+                      : undefined;
                   return (
-                    <li key={j} className={code ? "synergy-item" : undefined}>
-                      {code && (
-                        <Link to={`/persona/${code}`} className="synergy-thumb" tabIndex={-1} aria-hidden="true">
+                    <li key={j} className={href ? "synergy-item" : undefined}>
+                      {href && (
+                        <Link to={href} className="synergy-thumb" tabIndex={-1} aria-hidden="true">
                           {image ? <img src={asset(image)} alt="" width={44} height={44} loading="lazy" /> : null}
                         </Link>
                       )}
@@ -82,22 +88,28 @@ export function GuideSection({
   sections,
   keywords,
   updated,
+  title = "ギミックと使い方",
+  note = "下のスキル・パッシブの効果文をもとにした解説。",
+  withThumbs,
 }: {
   sections: GuideSectionData[];
   keywords: Keyword[];
   updated?: string;
+  title?: string;
+  note?: string;
+  withThumbs?: boolean;
 }) {
   return (
     <section className="section-block">
       <header className="section-header">
         <h2 className="section-title">
           <span className="section-title-en">GUIDE</span>
-          ギミックと使い方
+          {title}
         </h2>
       </header>
-      <GuideBlocks sections={sections} keywords={keywords} />
+      <GuideBlocks sections={sections} keywords={keywords} withThumbs={withThumbs} />
       <p className="section-note">
-        下のスキル・パッシブの効果文をもとにした解説。
+        {note}
         {updated && `(更新日: ${updated})`}
       </p>
     </section>

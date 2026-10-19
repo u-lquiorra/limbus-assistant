@@ -6,9 +6,11 @@ import type {
   PersonaDetail,
   PersonaSkills,
   PersonaStatus,
+  TeamData,
 } from "../types";
 import { parseGuide, type Guide } from "../guide";
 import charactersList from "./characters.json";
+import teamsList from "./teams.json";
 
 const modules = import.meta.glob<CharacterData>("./*.json", { eager: true, import: "default" });
 
@@ -21,6 +23,7 @@ const guideModules = import.meta.glob<string>("./guides/*.md", { query: "?raw", 
 // E.G.O も人格と同様に詳細・ガイドを遅延読み込みする。ガイドは guides/ego/ に置き、人格ガイド(guides/*.md)と混ざらないようにする
 const egoDetailModules = import.meta.glob<EgoDetail>("./egos/*.json", { import: "default" });
 const egoGuideModules = import.meta.glob<string>("./guides/ego/*.md", { query: "?raw", import: "default" });
+const teamGuideModules = import.meta.glob<string>("./team-guides/*.md", { query: "?raw", import: "default" });
 
 const byName = new Map<string, CharacterData>();
 for (const path in modules) {
@@ -113,5 +116,29 @@ export async function loadEgoDetail(code: string): Promise<EgoDetail | null> {
 
 export async function loadEgoGuide(code: string): Promise<Guide | null> {
   const load = egoGuideModules[`./guides/ego/${code}.md`];
+  return load ? parseGuide(await load()) : null;
+}
+
+// ---- おすすめ編成 ----
+
+export const teams: TeamData[] = teamsList as TeamData[];
+
+export function getTeam(id: string): TeamData | undefined {
+  return teams.find((t) => t.id === id);
+}
+
+// 人格・E.G.O ページの逆引き用。優先枠〜裏置きのどこかに入っている編成を返す
+export function teamsForPersona(code: string): TeamData[] {
+  return teams.filter((t) =>
+    [...t.core, ...t.flex, ...t.alternatives, ...t.support].some((m) => m.code === code)
+  );
+}
+
+export function teamsForEgo(code: string): TeamData[] {
+  return teams.filter((t) => t.egos.some((m) => m.code === code));
+}
+
+export async function loadTeamGuide(id: string): Promise<Guide | null> {
+  const load = teamGuideModules[`./team-guides/${id}.md`];
   return load ? parseGuide(await load()) : null;
 }

@@ -28,6 +28,14 @@ test("parseInline: [表示名](persona:コード) を人格へのリンクにす
   assert.deepEqual(parseInline("[a](persona:12)"), [{ text: "[a](persona:12)", strong: false }]);
 });
 
+test("parseInline: [表示名](ego:コード) を E.G.O へのリンクにする", () => {
+  assert.deepEqual(parseInline("相性は[三千大世界](ego:0108)。"), [
+    { text: "相性は", strong: false },
+    { text: "三千大世界", strong: false, ego: "0108" },
+    { text: "。", strong: false },
+  ]);
+});
+
 test("parseGuide: frontmatter・見出し・段落・箇条書きを解釈する", () => {
   const md = [
     "---",

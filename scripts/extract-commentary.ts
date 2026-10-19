@@ -4,6 +4,7 @@
 //   npx tsx scripts/extract-commentary.ts            全人格
 //   npx tsx scripts/extract-commentary.ts 0212 0415  指定した人格だけ
 //   npx tsx scripts/extract-commentary.ts ego-0108   E.G.O (キャッシュ名 ego-<code>)。引数なしの全件には E.G.O も含む
+//   npx tsx scripts/extract-commentary.ts --teams    wiki の編成ガイド(sys-teams)を編成ごとに .cache/commentary/teams/<見出し>.md へ
 import * as cheerio from "cheerio";
 import type { Element } from "domhandler";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
@@ -64,7 +65,41 @@ export function extractCommentary(html: string): string {
   return out.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 
+// 編成ガイドのページから、h3(編成名)ごとに次の h2/h3 までを抜き出す
+export function extractTeams(html: string): Map<string, string> {
+  const $ = cheerio.load(html);
+  const body = $("#body").length ? $("#body") : $("body");
+  const out = new Map<string, string>();
+  for (const h of body.find("h3").toArray()) {
+    const name = $(h).text().trim();
+    const parts: string[] = [];
+    for (let el = h.next; el; el = el.next) {
+      if (el.type !== "tag") continue;
+      if (/^h[23]$/i.test(el.tagName)) break;
+      const text = blockText($, el).trim();
+      if (text) parts.push(text);
+    }
+    const text = parts.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+    if (name && text) out.set(name, text);
+  }
+  return out;
+}
+
+function mainTeams() {
+  const src = join(CACHE_DIR, "sys-teams.html");
+  if (!existsSync(src)) {
+    console.warn("sys-teams.html のキャッシュがありません");
+    return;
+  }
+  const dir = join(OUT_DIR, "teams");
+  mkdirSync(dir, { recursive: true });
+  const teams = extractTeams(readFileSync(src, "utf-8"));
+  for (const [name, text] of teams) writeFileSync(join(dir, `${name.replace(/[\\/:*?"<>|]/g, "_")}.md`), `${text}\n`, "utf-8");
+  console.log(`${teams.size}件の編成を出力 -> ${dir}`);
+}
+
 function main() {
+  if (process.argv.includes("--teams")) return mainTeams();
   mkdirSync(OUT_DIR, { recursive: true });
   const args = process.argv.slice(2);
   const codes = args.length

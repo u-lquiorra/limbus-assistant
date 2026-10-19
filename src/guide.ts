@@ -5,8 +5,8 @@
 import type { EgoDetail, Keyword, PersonaDetail } from "./types";
 import { stripStageMarks } from "./egoStage";
 
-// persona: 人格詳細ページへのリンク。本文に [表示名](persona:0112) と書く(E.G.O ガイドの「編成・相性」で使う)
-export type InlineSegment = { text: string; strong: boolean; persona?: string };
+// persona / ego: 人格・E.G.O 詳細ページへのリンク。本文に [表示名](persona:0112) / [表示名](ego:0108) と書く
+export type InlineSegment = { text: string; strong: boolean; persona?: string; ego?: string };
 
 export type GuideBlock = { type: "p"; text: InlineSegment[] } | { type: "ul"; items: InlineSegment[][] };
 
@@ -20,7 +20,8 @@ export interface Guide {
   sections: GuideSection[];
 }
 
-const PERSONA_LINK = /\[([^\]]+)\]\(persona:(\d{4})\)/g;
+// [表示名](persona:0112) は人格、[表示名](ego:0108) は E.G.O の詳細ページへのリンク
+const PERSONA_LINK = /\[([^\]]+)\]\((persona|ego):(\d{4})\)/g;
 
 // リンク記法を取り出して分割する。リンクの無い断片は { text, strong } のまま
 function splitLinks(text: string, strong: boolean): InlineSegment[] {
@@ -28,7 +29,7 @@ function splitLinks(text: string, strong: boolean): InlineSegment[] {
   let last = 0;
   for (const m of text.matchAll(PERSONA_LINK)) {
     if (m.index > last) out.push({ text: text.slice(last, m.index), strong });
-    out.push({ text: m[1], strong, persona: m[2] });
+    out.push(m[2] === "ego" ? { text: m[1], strong, ego: m[3] } : { text: m[1], strong, persona: m[3] });
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push({ text: text.slice(last), strong });

@@ -174,3 +174,25 @@ export interface CharacterListEntry {
   profileText: string;
   personaCount: number;
 }
+
+// ---- おすすめ編成 (src/data/teams.json と src/data/team-guides/<id>.md) ----
+
+export interface TeamMember {
+  code: string; // 人格コード(egos では E.G.O コード)
+  note?: string; // この編成での役割(1文)
+}
+
+export interface TeamData {
+  id: string; // URL と解説ファイル名に使う英小文字の ID (例 "burn")
+  name: string;
+  category: "状態異常" | "所属" | "その他";
+  keywords: string[]; // 軸になるキーワード(例 ["火傷"])
+  difficulty: "初心者" | "中上級";
+  aptitude: { 通常: string; 短期: string; 長期: string }; // ◎ / 〇 / △ / ✖
+  source?: string; // 参考にした wiki 編成ガイドの見出し(.cache/commentary/teams/<見出し>.md)
+  core: TeamMember[]; // 優先枠: 編成の軸。囚人は重複させない
+  flex: TeamMember[]; // 自由枠: 残りの枠を埋める候補
+  alternatives: TeamMember[]; // 代替枠: 手持ちが無いときの代わり
+  support: TeamMember[]; // 裏置き: サポートパッシブのために控えに置く
+  egos: TeamMember[]; // 相性の良い E.G.O
+}

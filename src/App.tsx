@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import CharacterDetail from "./pages/CharacterDetail";
 import PersonaPage from "./pages/PersonaPage";
 import EgoPage from "./pages/EgoPage";
+import TeamsPage from "./pages/TeamsPage";
+import TeamPage from "./pages/TeamPage";
 import "./App.css";
 
 function ScrollToTop() {
@@ -28,6 +30,7 @@ function App() {
           </Link>
           <nav className="site-nav">
             <Link to="/">囚人一覧</Link>
+            <Link to="/teams">おすすめ編成</Link>
           </nav>
         </div>
       </header>
@@ -38,6 +41,8 @@ function App() {
           <Route path="/character/:name" element={<CharacterDetail />} />
           <Route path="/persona/:code" element={<PersonaPage />} />
           <Route path="/ego/:code" element={<EgoPage />} />
+          <Route path="/teams" element={<TeamsPage />} />
+          <Route path="/teams/:id" element={<TeamPage />} />
         </Routes>
       </main>
 
