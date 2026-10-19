@@ -138,3 +138,111 @@ body {
     linear-gradient(var(--c), var(--c)) bottom right / 2px 16px no-repeat;
   opacity: 0.8;
 }
+
+/*
+ * ---- トップのヒーロー: 左にロゴと検索、右に線路の上のメフィストフェレス ----
+ * ロゴはバスの車体の「LIMBUS COMPANY」に寄せた金〜橙のグラデーション、
+ * 「ASSISTANT」はゲームの題札(黒地に真鍮の二重枠)にする。
+ */
+.hero::after {
+  display: none;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 56px);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+/* App.css の旧デザイン(赤の袋文字)を打ち消す */
+.hero-title span {
+  -webkit-text-stroke: 0;
+}
+
+.hero-title-main {
+  font-size: clamp(56px, 9vw, 112px);
+  letter-spacing: 0.04em;
+  color: transparent;
+  background: linear-gradient(180deg, #ffe39a 0%, #f5c136 45%, #d9822b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 3px 0 #3a1d0a) drop-shadow(0 0 22px rgba(245, 193, 54, 0.22));
+}
+
+.hero-title .hero-title-sub {
+  padding: 9px 10px 9px 20px; /* 字間の分だけ右を詰めて、文字を札の中央に見せる */
+  font-size: clamp(16px, 2.2vw, 24px);
+  font-weight: 600;
+  letter-spacing: 0.5em;
+  line-height: 1;
+  color: var(--cream);
+  background: #0a0705;
+  border: 1px solid #6b4a2a;
+  box-shadow:
+    inset 0 0 0 3px #0a0705,
+    inset 0 0 0 4px rgba(203, 124, 48, 0.6),
+    0 6px 18px -8px rgba(0, 0, 0, 0.9);
+}
+
+.hero-visual {
+  position: relative;
+  padding-bottom: 14px;
+}
+
+/* 車体の後ろに、窓明かりのような銅色の光を置く */
+.hero-visual::before {
+  content: "";
+  position: absolute;
+  inset: 10% 5% 15%;
+  background: radial-gradient(closest-side, rgba(175, 107, 40, 0.35), transparent);
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+.hero-visual img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 18px 24px rgba(0, 0, 0, 0.75));
+}
+
+/* 線路: 銅色のレールと枕木。両端は背景に溶かす */
+.hero-rail {
+  position: absolute;
+  left: -8%;
+  right: -8%;
+  bottom: 4px;
+  height: 12px;
+  background:
+    linear-gradient(var(--copper-line), var(--copper-line)) top / 100% 2px no-repeat,
+    repeating-linear-gradient(90deg, rgba(203, 124, 48, 0.45) 0 8px, transparent 8px 26px) bottom / 100% 8px no-repeat;
+  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  /* 狭い画面ではバスを先頭に置き、ロゴの上に小さく見せる */
+  .hero-visual {
+    order: -1;
+    width: min(100%, 480px);
+  }
+}

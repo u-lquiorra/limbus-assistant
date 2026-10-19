@@ -40,32 +40,39 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container hero-inner">
-          <p className="kicker">UNOFFICIAL DATABASE</p>
-          <h1 className="hero-title">
-            LIMBUS
-            <br />
-            <span>ASSISTANT</span>
-          </h1>
-          <p className="hero-lead">Limbus Company の囚人・人格データを日本語でまとめた非公式攻略データベース。</p>
+          <div className="hero-text">
+            <p className="kicker">UNOFFICIAL DATABASE</p>
+            <h1 className="hero-title">
+              <span className="hero-title-main">LIMBUS</span>
+              <span className="hero-title-sub">ASSISTANT</span>
+            </h1>
+            <p className="hero-lead">Limbus Company の囚人・人格データを日本語でまとめた非公式攻略データベース。</p>
 
-          <div role="search">
-            <SearchBox
-              {...boxProps}
-              placeholder="人格・囚人・ボス・用語・編成で検索"
-              label="サイト内を検索"
-            />
+            <div role="search">
+              <SearchBox
+                {...boxProps}
+                placeholder="人格・囚人・ボス・用語・編成で検索"
+                label="サイト内を検索"
+              />
+            </div>
+
+            <dl className="hero-stats">
+              <div>
+                <dt>囚人</dt>
+                <dd>{characterList.length}</dd>
+              </div>
+              <div>
+                <dt>人格</dt>
+                <dd>{allPersonas.length}</dd>
+              </div>
+            </dl>
           </div>
 
-          <dl className="hero-stats">
-            <div>
-              <dt>囚人</dt>
-              <dd>{characterList.length}</dd>
-            </div>
-            <div>
-              <dt>人格</dt>
-              <dd>{allPersonas.length}</dd>
-            </div>
-          </dl>
+          {/* 囚人たちの乗るバス、メフィストフェレス。線路の上に置き、装飾として読み上げ対象から外す */}
+          <div className="hero-visual" aria-hidden="true">
+            <img src={asset("images/home/mephistopheles.webp")} alt="" width={1200} height={554} />
+            <span className="hero-rail" />
+          </div>
         </div>
       </section>
 
