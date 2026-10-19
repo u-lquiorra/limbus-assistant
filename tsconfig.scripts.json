@@ -14,5 +14,5 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },
-  "include": ["scripts", "src/**/*.test.ts"]
+  "include": ["scripts", "src/**/*.test.ts", "analysis"]
 }
