@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { guideKeywords, parseGuide, parseInline } from "./guide.ts";
+import { egoItemsForPersona, guideKeywords, parseGuide, parseInline } from "./guide.ts";
 import type { PersonaDetail } from "./types.ts";
 
 test("parseInline: **強調** を分割する", () => {
@@ -126,4 +126,27 @@ test("guideKeywords: 形態のある人格はスキルの形態名も添える",
     passives: [],
   };
   assert.deepEqual(guideKeywords(detail), [{ term: "「頭を潰す」", desc: "S1 [通常状態] 色欲・打撃\na" }]);
+});
+
+test("egoItemsForPersona: 指定した人格を先頭に挙げた箇条書きだけを、E.G.O リンクに差し替えて返す", () => {
+  const guide = parseGuide(
+    [
+      "## 使い方",
+      "- **[奥歯事務所フィクサー](persona:0105)**: 本文側の箇条書きは対象外。",
+      "## 編成・相性",
+      "- **[奥歯事務所フィクサー](persona:0105)**: S2が怠惰で、必要資源を出せる。",
+      "- **[南部リウ協会3課](persona:0112)**: 別の人格。",
+      "- 前置きの文で[奥歯事務所フィクサー](persona:0105)に触れるだけの行。",
+    ].join("\n")
+  );
+  const items = egoItemsForPersona(guide, "編成・相性", "0105", { code: "0101", name: "烏瞰刀" });
+  assert.equal(items.length, 2);
+  assert.deepEqual(items[0], [
+    { text: "烏瞰刀", strong: true, ego: "0101" },
+    { text: ": S2が怠惰で、必要資源を出せる。", strong: false },
+  ]);
+  // 先頭以外のリンクでも、最初のリンクがその人格なら対象にする
+  assert.equal(items[1].find((seg) => seg.ego)?.ego, "0101");
+  assert.deepEqual(egoItemsForPersona(guide, "編成・相性", "0999", { code: "0101", name: "烏瞰刀" }), []);
+  assert.deepEqual(egoItemsForPersona(guide, "存在しない見出し", "0105", { code: "0101", name: "烏瞰刀" }), []);
 });

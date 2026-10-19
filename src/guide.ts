@@ -102,6 +102,28 @@ export function parseGuide(markdown: string): Guide {
   return { meta, sections };
 }
 
+// 人格ページの「おすすめE.G.O」用。E.G.O ガイドの「編成・相性」から、指定した人格を挙げている箇条書きを取り出し、
+// 先頭の人格リンクを E.G.O リンクに差し替える。理由の文は E.G.O 側の記述をそのまま使う(同じ根拠を二重に書かないため)
+export function egoItemsForPersona(
+  guide: Guide,
+  heading: string,
+  personaCode: string,
+  ego: { code: string; name: string }
+): InlineSegment[][] {
+  const section = guide.sections.find((sec) => sec.heading === heading);
+  if (!section) return [];
+  return section.blocks.flatMap((b) =>
+    b.type === "ul"
+      ? b.items
+          .filter((item) => item.find((seg) => seg.persona || seg.ego)?.persona === personaCode)
+          .map((item) => {
+            const i = item.findIndex((seg) => seg.persona === personaCode);
+            return [...item.slice(0, i), { text: ego.name, strong: item[i].strong, ego: ego.code }, ...item.slice(i + 1)];
+          })
+      : []
+  );
+}
+
 // ガイド本文でツールチップを付ける固有名詞の一覧。
 // - 用語: 人格データの keywords をそのまま使う
 // - スキル名・パッシブ名: 「ガード」「回避」のような汎用名の誤爆を避けるため、「」で囲んだ形だけを対象にする

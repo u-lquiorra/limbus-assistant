@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getPersona, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
+import { getPersona, loadEgoRecommendations, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
-import { guideKeywords, type Guide } from "../guide";
+import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { Keyword, LabeledValue, PassiveDetail, PersonaDetail, SkillCell, SkillDetail } from "../types";
@@ -258,6 +258,8 @@ export default function PersonaPage() {
   const detail = loaded?.code === code ? loaded.detail : undefined;
   const [loadedGuide, setLoadedGuide] = useState<{ code: string; guide: Guide | null } | null>(null);
   const guide = loadedGuide?.code === code ? loadedGuide.guide : undefined;
+  const [loadedEgos, setLoadedEgos] = useState<{ code: string; items: InlineSegment[][] } | null>(null);
+  const egoItems = loadedEgos?.code === code ? loadedEgos.items : [];
 
   useEffect(() => {
     let cancelled = false;
@@ -278,6 +280,15 @@ export default function PersonaPage() {
       })
       .then((g) => {
         if (!cancelled) setLoadedGuide({ code, guide: g });
+      });
+    loadEgoRecommendations(code, SYNERGY_HEADING)
+      .catch((e: unknown) => {
+        // おすすめE.G.Oも補助情報なので、読めなければ欄ごと出さない(原因はログに残す)
+        console.error(`おすすめE.G.Oの読み込みに失敗しました: ${code}`, e);
+        return [];
+      })
+      .then((items) => {
+        if (!cancelled) setLoadedEgos({ code, items });
       });
     return () => {
       cancelled = true;
@@ -492,6 +503,15 @@ export default function PersonaPage() {
         </section>
 
         {synergySection && <ExtraSection en="SYNERGY" title="相性のいい人格" section={synergySection} keywords={guideTerms} withThumbs />}
+        {egoItems.length > 0 && (
+          <ExtraSection
+            en="E.G.O"
+            title="おすすめE.G.O"
+            section={{ heading: "", blocks: [{ type: "ul", items: egoItems }] }}
+            keywords={guideTerms}
+            withThumbs
+          />
+        )}
         <TeamLinks teams={teamsForPersona(code)} label="この人格が入る編成例" />
 
         {glossary.length > 0 && (
