@@ -142,3 +142,138 @@ export function canonicalUrl(pathname: string): string {
   const path = pathname === "/" ? "/" : `${pathname.replace(/\/+$/, "")}/`;
   return SITE_URL + path;
 }
+
+// ---- 構造化データ(JSON-LD) ----
+
+export interface Crumb {
+  name: string;
+  /** basename を除いたパス */
+  path: string;
+}
+
+const HOME: Crumb = { name: "ホーム", path: "/" };
+const SECTION_CRUMBS: Record<string, Crumb> = {
+  teams: { name: "編成例", path: "/teams" },
+  bosses: { name: "ボス攻略", path: "/bosses" },
+  glossary: { name: "用語辞典", path: "/glossary" },
+};
+
+/** パンくず(画面の Breadcrumb と同じ階層)。存在しないページは空 */
+export function breadcrumbs(pathname: string): Crumb[] {
+  const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  if (path === "/") return [HOME];
+  const [, kind, raw] = path.split("/");
+  const id = raw ? decodeURIComponent(raw) : "";
+  const self = (name: string): Crumb => ({ name, path });
+  const characterCrumb = (name: string): Crumb => ({ name, path: `/character/${encodeURIComponent(name)}` });
+
+  if (!id) {
+    const meta = STATIC_PAGES[path];
+    return meta ? [HOME, self(meta.title.split("｜")[0])] : [];
+  }
+  switch (kind) {
+    case "character": {
+      const c = getCharacter(id);
+      return c ? [HOME, characterCrumb(c.name)] : [];
+    }
+    case "persona": {
+      const ctx = getPersona(id);
+      return ctx ? [HOME, characterCrumb(ctx.character.name), self(ctx.status.name)] : [];
+    }
+    case "ego": {
+      const ctx = getEgo(id);
+      return ctx ? [HOME, characterCrumb(ctx.character.name), self(ctx.ego.name)] : [];
+    }
+    case "teams": {
+      const team = getTeam(id);
+      return team ? [HOME, SECTION_CRUMBS.teams, self(team.name)] : [];
+    }
+    case "bosses": {
+      const boss = getBossGuide(id);
+      return boss ? [HOME, SECTION_CRUMBS.bosses, self(`${boss.stage} ${boss.name}`)] : [];
+    }
+    case "glossary": {
+      const term = getGlossaryTerm(id);
+      return term ? [HOME, SECTION_CRUMBS.glossary, self(term.name)] : [];
+    }
+  }
+  return [];
+}
+
+const PUBLISHER = { "@type": "Organization", name: SITE_NAME, url: `${SITE_URL}/` };
+
+/**
+ * ページの構造化データ。updated はガイドの更新日など、描画前に読み込んだデータから渡す(無ければ省く)。
+ * FAQPage は現在一般サイトではリッチリザルトの対象外のため使わない
+ */
+export function structuredData(pathname: string, ogImage: string, updated?: string): object[] {
+  const meta = pageMeta(pathname);
+  if (meta.noindex) return [];
+  const url = canonicalUrl(pathname);
+  const crumbs = breadcrumbs(pathname);
+  const result: object[] = [];
+
+  if (crumbs.length > 1) {
+    result.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: canonicalUrl(c.path) })),
+    });
+  }
+
+  const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  const [, kind, raw] = path.split("/");
+  const id = raw ? decodeURIComponent(raw) : "";
+
+  if (path === "/") {
+    result.push({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE_NAME,
+      alternateName: "リンバス攻略 Limbus Assistant",
+      url,
+      inLanguage: "ja",
+      description: meta.description,
+      publisher: PUBLISHER,
+    });
+    return result;
+  }
+
+  if (kind === "glossary" && id) {
+    const term = getGlossaryTerm(id);
+    if (term) {
+      result.push({
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        name: term.name,
+        alternateName: term.aliases.length ? term.aliases : undefined,
+        description: term.summary,
+        url,
+        inDefinedTermSet: { "@type": "DefinedTermSet", name: `${SITE_NAME} 用語辞典`, url: canonicalUrl("/glossary") },
+      });
+    }
+    return result;
+  }
+
+  // 解説ページは記事として扱う。更新日はガイド・ボス攻略の確認日から
+  const articleKinds = ["persona", "ego", "teams", "bosses"];
+  const isArticle = (id && articleKinds.includes(kind)) || path === "/beginner" || path === "/reroll";
+  if (isArticle) {
+    const date = updated ?? (kind === "bosses" ? getBossGuide(id)?.checkedAt : undefined);
+    result.push({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: meta.title.split("｜")[0],
+      description: meta.description,
+      url,
+      mainEntityOfPage: url,
+      image: ogImage,
+      inLanguage: "ja",
+      ...(date ? { dateModified: date } : {}),
+      author: PUBLISHER,
+      publisher: PUBLISHER,
+      about: { "@type": "VideoGame", name: "Limbus Company", alternateName: "リンバスカンパニー" },
+    });
+  }
+  return result;
+}
