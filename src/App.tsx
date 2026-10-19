@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import CharacterDetail from "./pages/CharacterDetail";
@@ -11,6 +11,7 @@ import GlossaryDetail from "./pages/GlossaryDetail";
 import BeginnerGuide from "./pages/BeginnerGuide";
 import RerollGuide from "./pages/RerollGuide";
 import BossPage, { BossIndex } from "./pages/BossPage";
+import { NAV_ITEMS, activeNavItem } from "./nav";
 import "./App.css";
 
 function ScrollToTop() {
@@ -35,6 +36,30 @@ function DataSourceNote() {
   return <p>データ出典: <a href="https://wikiwiki.jp/lcbwiki/" target="_blank" rel="noreferrer">LimbusCompany攻略Wiki</a></p>;
 }
 
+function SiteNav() {
+  const { pathname } = useLocation();
+  const active = activeNavItem(pathname);
+  const navRef = useRef<HTMLElement>(null);
+
+  // 狭い画面ではナビが横スクロールになるため、選択中の項目が見える位置まで送る
+  useEffect(() => {
+    const nav = navRef.current;
+    const current = nav?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (!nav || !current || nav.scrollWidth <= nav.clientWidth) return;
+    nav.scrollLeft = current.offsetLeft - (nav.clientWidth - current.offsetWidth) / 2;
+  }, [active]);
+
+  return (
+    <nav className="site-nav" aria-label="サイト内メニュー" ref={navRef}>
+      {NAV_ITEMS.map((item) => (
+        <Link key={item.to} to={item.to} aria-current={item.to === active ? "page" : undefined}>
+          {item.label}
+        </Link>
+      ))}
+    </nav>
+  );
+}
+
 function App() {
   return (
     <HashRouter>
@@ -47,14 +72,7 @@ function App() {
               LIMBUS <span className="brand-accent">ASSISTANT</span>
             </span>
           </Link>
-          <nav className="site-nav">
-            <Link to="/">囚人一覧</Link>
-            <Link to="/teams">編成例</Link>
-            <Link to="/beginner">初心者ガイド</Link>
-            <Link to="/reroll">リセマラ</Link>
-            <Link to="/bosses">ボス攻略</Link>
-            <Link to="/glossary">用語辞典</Link>
-          </nav>
+          <SiteNav />
         </div>
       </header>
 

@@ -75,6 +75,20 @@
   color: var(--text);
 }
 
+.site-nav a[aria-current="page"] {
+  position: relative;
+  color: var(--text);
+}
+
+.site-nav a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 8px;
+  height: 2px;
+  background: var(--red);
+}
+
 .site-footer {
   margin-top: 24px;
   padding-block: 28px calc(28px + env(safe-area-inset-bottom, 0px));
@@ -1548,8 +1562,24 @@
 }
 
 @media (max-width: 760px) {
-  .site-header-inner { height: auto; min-height: 60px; flex-wrap: wrap; gap: 4px 20px; padding-block: 8px; }
-  .site-nav { flex-wrap: wrap; max-width: 100%; column-gap: 16px; row-gap: 0; }
+  /* 狭い画面ではロゴの下にナビを1段で並べ、収まらない分は横スクロールにする */
+  .site-header-inner { height: auto; flex-wrap: wrap; gap: 0; padding-top: 4px; }
+  .brand { min-height: 40px; }
+  .site-nav {
+    flex: 1 0 100%;
+    flex-wrap: nowrap;
+    gap: 18px;
+    margin-inline: calc(-1 * clamp(16px, 4vw, 32px));
+    padding-inline: clamp(16px, 4vw, 32px);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    /* 端を薄くして、続きがあることを示す */
+    mask-image: linear-gradient(to right, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+  }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { flex-shrink: 0; white-space: nowrap; font-size: 13px; }
+  .site-nav a[aria-current="page"]::after { bottom: 6px; }
   .search input { font-size: 16px; }
 
   .char-hero-inner {
@@ -1606,17 +1636,7 @@
   }
 }
 
-@media (max-width: 760px) {
-  .site-header-inner { height: auto; min-height: 60px; flex-wrap: wrap; gap: 4px 20px; padding-block: 8px; }
-  .site-nav { max-width: 100%; gap: 8px 16px; }
-  .site-nav a { font-size: 12px; }
-}
-
 @media (max-width: 480px) {
-  .site-header-inner { height: auto; min-height: 60px; flex-wrap: wrap; gap: 4px 20px; padding-block: 8px; }
-  .site-nav { gap: 16px; }
-  .site-nav a { font-size: 12px; }
-
   .sinner-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
