@@ -14,6 +14,7 @@ import BossPage, { BossIndex } from "./pages/BossPage";
 import SearchPage from "./pages/SearchPage";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
+import { asset } from "./lib";
 import "./App.css";
 import "./theme.css";
 
@@ -103,6 +104,7 @@ function App() {
       <header className="site-header">
         <div className="container site-header-inner">
           <Link to="/" className="brand" aria-label="Limbus Assistant ホーム">
+            <img className="brand-emblem" src={asset("images/home/locomotive-emblem.webp")} alt="" width={32} height={46} />
             <SiteLogo lines={["LIMBUS ASSISTANT"]} className="brand-logo" />
           </Link>
           <SiteNav />

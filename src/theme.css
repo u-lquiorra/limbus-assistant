@@ -139,20 +139,19 @@ body {
   opacity: 0.8;
 }
 
-/*
- * ---- トップのヒーロー: 左にロゴと検索、右に線路の上のメフィストフェレス ----
- * ロゴはバスの車体の「LIMBUS COMPANY」に寄せた金〜橙のグラデーション、
- * 「ASSISTANT」はゲームの題札(黒地に真鍮の二重枠)にする。
- */
+/* ---- トップ: 長体のロゴを中央に置き、左右に警告画面を残す ---- */
+.hero {
+  padding-block: clamp(48px, 6vw, 76px) 48px;
+}
+
 .hero::after {
   display: none;
 }
 
 .hero-inner {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  align-items: center;
-  gap: clamp(24px, 4vw, 56px);
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
 }
 
 .hero-text {
@@ -160,19 +159,78 @@ body {
   flex-direction: column;
   gap: 22px;
   min-width: 0;
+  width: min(100%, 640px);
+  align-items: center;
+  text-align: center;
 }
 
 .hero-title {
   margin: 0;
+  width: 100%;
   line-height: 0;
 }
 
-/* 自作のブロック文字ロゴ(SiteLogo)。帯ごと影を落として、看板が浮いて見えるようにする */
+/* 縦長の活字と擦れを持つ、透過背景のワードマーク。 */
 .hero-logo {
   display: block;
-  width: min(100%, 460px);
+  width: min(100%, 540px);
+  margin-inline: auto;
   height: auto;
-  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 30px rgba(217, 97, 42, 0.18));
+  filter: drop-shadow(0 2px 0 #42170c) drop-shadow(0 4px 16px #000);
+}
+
+.hero-text [role="search"] {
+  width: min(100%, 560px);
+}
+
+.hero-motto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 0.55em;
+  width: min(100%, 540px);
+  padding: 10px 22px;
+  border-block: 1px solid #a5362e;
+  background: #a52a2a;
+  color: #000;
+  font-family: var(--display);
+  font-size: clamp(12px, 2.3vw, 16px);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+  text-shadow: none;
+}
+
+.hero-motto span {
+  white-space: nowrap;
+}
+
+.hero-text .hero-lead {
+  max-width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.hero-lead-short {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  .hero-text .hero-lead {
+    font-size: 12px;
+  }
+
+  .hero-lead-full {
+    display: none;
+  }
+
+  .hero-lead-short {
+    display: inline;
+  }
+}
+
+.hero-text .hero-stats {
+  gap: 36px;
 }
 
 .visually-hidden {
@@ -185,6 +243,14 @@ body {
 }
 
 /* ヘッダーのロゴ */
+.brand-emblem {
+  display: block;
+  width: 32px;
+  height: 46px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .brand-logo {
   display: block;
   height: 26px;
@@ -192,85 +258,65 @@ body {
 }
 
 /*
- * 注意書き画面の背景: 左右に赤い明朝体の語句を並べ、中央へ向かって消えるようにする。
- * 本文より目立たないよう、不透明度は低く抑える
+ * 透過した警告画面を背景に重ねる。本文の背後は暗くし、外側の赤い文字を残す。
  */
 .hero-warning {
   position: absolute;
   inset: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 18px clamp(12px, 3vw, 40px);
-  font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
-  font-weight: 700;
-  font-size: clamp(14px, 1.7vw, 22px);
-  line-height: 1.75;
-  color: #a3140f;
-  opacity: 0.16;
+  opacity: 0.25;
   pointer-events: none;
-  mask-image: linear-gradient(90deg, #000, transparent 32%, transparent 68%, #000);
+  mask-image: linear-gradient(90deg, #000, rgba(0, 0, 0, 0.12) 26%, transparent 38%, transparent 62%, rgba(0, 0, 0, 0.12) 74%, #000);
 }
 
-.hero-warning ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  white-space: nowrap;
+.hero-warning img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.hero-warning ul:last-child {
-  text-align: right;
+.home-warning-reference {
+  padding-top: 16px;
 }
 
-.hero-visual {
-  position: relative;
-  padding-bottom: 14px;
+.home-warning-reference details {
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
 }
 
-/* 車体の後ろに、窓明かりのような銅色の光を置く */
-.hero-visual::before {
-  content: "";
-  position: absolute;
-  inset: 10% 5% 15%;
-  background: radial-gradient(closest-side, rgba(175, 107, 40, 0.35), transparent);
-  filter: blur(20px);
-  pointer-events: none;
+.home-warning-reference summary {
+  width: fit-content;
+  padding-block: 8px 12px;
+  cursor: pointer;
 }
 
-.hero-visual img {
-  position: relative;
-  display: block;
+.home-warning-reference summary span {
+  margin-inline: 6px 12px;
+  color: var(--gold);
+  font-family: var(--display);
+  letter-spacing: 0.12em;
+}
+
+.home-warning-reference summary:hover,
+.home-warning-reference summary:focus-visible {
+  color: var(--text);
+}
+
+.home-warning-reference img {
   width: 100%;
   height: auto;
-  filter: drop-shadow(0 18px 24px rgba(0, 0, 0, 0.75));
-}
-
-/* 線路: 銅色のレールと枕木。両端は背景に溶かす */
-.hero-rail {
-  position: absolute;
-  left: -8%;
-  right: -8%;
-  bottom: 4px;
-  height: 12px;
-  background:
-    linear-gradient(var(--copper-line), var(--copper-line)) top / 100% 2px no-repeat,
-    repeating-linear-gradient(90deg, rgba(203, 124, 48, 0.45) 0 8px, transparent 8px 26px) bottom / 100% 8px no-repeat;
-  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
-}
-
-@media (max-width: 900px) {
-  .hero-inner {
-    grid-template-columns: 1fr;
-  }
-
-  /* 狭い画面ではバスを先頭に置き、ロゴの上に小さく見せる */
-  .hero-visual {
-    order: -1;
-    width: min(100%, 480px);
-  }
+  margin-block: 8px 24px;
+  background: #050403;
+  border: 1px solid var(--line);
 }
 
 @media (max-width: 480px) {
+  .brand-emblem {
+    width: 24px;
+    height: 34px;
+  }
+
   .brand-logo {
     height: 20px;
   }

@@ -1,20 +1,10 @@
 import { Link } from "react-router-dom";
-import { allPersonas, characterList } from "../data/loader";
+import { characterList } from "../data/loader";
 import { asset } from "../lib";
 import SiteLogo from "../components/SiteLogo";
 import SiteSearchResults from "../components/SiteSearchResults";
 import { SearchBox } from "../components/ui";
 import { useSearchQuery } from "../useSearchQuery";
-
-// ゲームの起動時に出る注意書き(トリガーワーニング)の項目。背景の装飾にだけ使う
-const WARNING_LEFT = [
-  "動物殺害", "薬物使用", "酒、タバコの描写", "外傷および身体欠損", "殺人および自殺", "暴行および拷問",
-  "食人", "誘拐・拉致・監禁", "精神異常", "疾病および発作、呼吸混乱", "ピエロの描写", "オカルトおよび心霊",
-];
-const WARNING_RIGHT = [
-  "視覚的、聴覚的ゴア", "鋭利な物品の描写", "病院関連要素の描写", "ガスライティング、いじめ要素", "身体変形", "光過敏症要素",
-  "画面揺れによるめまい", "暴言、卑罵語の使用", "交通事故", "銃器、凶器の描写", "差別による暴力要素", "宗教的拷問および暴力",
-];
 
 const HOME_STEPS = [
   {
@@ -50,14 +40,9 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        {/* ゲーム起動時の注意書き画面のような、赤い明朝体の語句を左右に薄く並べる背景 */}
+        {/* 添付の警告画面を透過した画像。装飾は読み上げ対象から外す。 */}
         <div className="hero-warning" aria-hidden="true">
-          <ul>
-            {WARNING_LEFT.map((w) => <li key={w}>{w}</li>)}
-          </ul>
-          <ul>
-            {WARNING_RIGHT.map((w) => <li key={w}>{w}</li>)}
-          </ul>
+          <img src={asset("images/home/trigger-warning.png")} alt="" width={1672} height={941} />
         </div>
         <div className="container hero-inner">
           <div className="hero-text">
@@ -66,7 +51,13 @@ export default function Home() {
               <span className="visually-hidden">Limbus Assistant</span>
               <SiteLogo lines={["LIMBUS", "ASSISTANT"]} className="hero-logo" />
             </h1>
-            <p className="hero-lead">Limbus Company の囚人・人格データを日本語でまとめた非公式攻略データベース。</p>
+            <p className="hero-motto" lang="en">
+              <span>FACE THE SIN,</span>{" "}<span>SAVE THE E.G.O</span>
+            </p>
+            <p className="hero-lead">
+              <span className="hero-lead-full">人格・E.G.O・編成・ボス攻略・用語まで網羅する非公式攻略データベース。</span>
+              <span className="hero-lead-short">人格・E.G.O・編成・ボス・用語の非公式攻略DB</span>
+            </p>
 
             <div role="search">
               <SearchBox
@@ -76,25 +67,17 @@ export default function Home() {
               />
             </div>
 
-            <dl className="hero-stats">
-              <div>
-                <dt>囚人</dt>
-                <dd>{characterList.length}</dd>
-              </div>
-              <div>
-                <dt>人格</dt>
-                <dd>{allPersonas.length}</dd>
-              </div>
-            </dl>
           </div>
 
-          {/* 囚人たちの乗るバス、メフィストフェレス。線路の上に置き、装飾として読み上げ対象から外す */}
-          <div className="hero-visual" aria-hidden="true">
-            <img src={asset("images/home/mephistopheles.webp")} alt="" width={1200} height={554} />
-            <span className="hero-rail" />
-          </div>
         </div>
       </section>
+
+      <aside className="container home-warning-reference">
+        <details>
+          <summary><span>TRIGGER WARNING</span> 起動時の警告画面</summary>
+          <img src={asset("images/home/trigger-warning.png")} alt="ゲーム起動時の警告画面。暴力、身体欠損、自殺、差別、光過敏症などの要素を含む作品であることを示す。" width={1672} height={941} loading="lazy" />
+        </details>
+      </aside>
 
       {q && (
         <section className="container section">
