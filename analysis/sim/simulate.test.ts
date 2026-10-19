@@ -50,6 +50,22 @@ test("振動-大量出血は出血、振動-反響は振動威力そのものの
   assert.deepEqual([c.target.burn.c, c.target.tremor.c], [3, 1]);
 });
 
+test("振動-保存は (60+攻撃者の充電威力×8)% のダメージ。充電回数は参照せず、ル・ノワールの爆発では回数が減らない", () => {
+  // 充電回数20・充電威力0なら60%
+  const a = makeCtx(target({ tremor: { p: 10, c: 3 }, tremorType: "保存" }));
+  applyEffect({ self: { charge: 20 } }, "x", a);
+  applyEffect({ burst: 1 }, "x", a);
+  assert.equal(a.dmg.tremor, 6);
+  assert.equal(a.target.tremor.c, 2);
+  // 充電威力3なら84%、ル・ノワール所属の爆発は回数が減らない
+  const profiles = new Map([["n", one("n", { name: "t", coins: [] }, { tags: ["ル・ノワール"] })]]);
+  const b = makeCtx(target({ tremor: { p: 10, c: 3 }, tremorType: "保存" }), ["n"], profiles);
+  applyEffect({ self: { chargeP: 3 } }, "n", b);
+  applyEffect({ burst: 1 }, "n", b);
+  assert.equal(b.dmg.tremor, 8);
+  assert.equal(b.target.tremor.c, 3);
+});
+
 test("状態異常の発動は上限と回数減少を守る", () => {
   const c = makeCtx(target({ burn: { p: 40, c: 3 } }));
   applyEffect({ trigger: { status: "burn", cap: 30, countLoss: 2 } }, "x", c);

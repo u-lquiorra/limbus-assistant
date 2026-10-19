@@ -41,6 +41,7 @@ export interface TargetState {
 export interface SelfState {
   breath: PC;
   charge: number;
+  chargeP: number; // 充電・特殊充電(保存など)の威力。累計の消耗で育つ分は、プロファイル側で効果として与える
   tremorC: number; // 自分の振動回数(T社・ツヴァイ・ユロージヴィなどが資源として使う)
 }
 
@@ -118,7 +119,7 @@ export const emptyTarget = (): TargetState => ({
   echoNext: 0,
   concussion: 0,
 });
-const emptySelf = (): SelfState => ({ breath: { p: 0, c: 0 }, charge: 0, tremorC: 0 });
+const emptySelf = (): SelfState => ({ breath: { p: 0, c: 0 }, charge: 0, chargeP: 0, tremorC: 0 });
 const emptyDmg = (): Dmg => ({ skill: 0, burn: 0, bleed: 0, rupture: 0, sinking: 0, tremor: 0 });
 const emptyContribution = (): Contribution => ({ applied: {}, dmg: emptyDmg(), stagger: 0, crits: 0 });
 
@@ -245,6 +246,7 @@ export function applyEffect(
     const bc = eff.self.breathC ?? 0;
     addPC(self.breath, bp > 0 ? bp + up : 0, bc > 0 ? bc + up : 0);
     self.charge = Math.min(CHARGE_MAX, self.charge + (eff.self.charge ?? 0));
+    self.chargeP = Math.min(CHARGE_MAX, self.chargeP + (eff.self.chargeP ?? 0));
     self.tremorC = Math.max(0, Math.min(MAX, self.tremorC + (eff.self.tremorC ?? 0))); // 負の値は消耗
   }
 
@@ -302,8 +304,9 @@ export function applyEffect(
         addDmg(ctx, con, "tremor", tp);
         break;
       case "保存": {
-        // 振動威力の(60+攻撃者の充電×8)%、最大120%。ル・ノワールの振動爆発では回数が減らない
-        const rate = Math.min(1.2, 0.6 + 0.08 * self.charge);
+        // 振動威力の(60+攻撃者の充電威力または特殊充電の威力×8)%、最大120%。ル・ノワールの振動爆発では回数が減らない
+        // 参照するのは回数ではなく威力(回数だと序盤から上限に張り付き、過大になる)
+        const rate = Math.min(1.2, 0.6 + 0.08 * self.chargeP);
         addDmg(ctx, con, "tremor", Math.floor(tp * rate));
         keepCount = ctx.profiles.get(owner)?.tags?.includes("ル・ノワール") ?? false;
         break;

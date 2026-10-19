@@ -30,7 +30,7 @@ export type Effect = Partial<Record<StatusKey, number>> & {
   burst?: number; // 振動爆発の回数。1回ごとに混乱区間を振動威力ぶん前進、振動回数-1、特殊振動の追加ダメージ
   trigger?: Trigger;
   deluge?: boolean; // 沈潜殺到: 沈潜回数×沈潜威力のダメージを与えて沈潜を除去
-  self?: { breathP?: number; breathC?: number; charge?: number; tremorC?: number }; // 自分が得る呼吸・充電・自分の振動回数
+  self?: { breathP?: number; breathC?: number; charge?: number; chargeP?: number; tremorC?: number }; // 自分が得る呼吸・充電(chargeP は充電・特殊充電の威力)・自分の振動回数
   // 自分の振動回数を消耗して、その数だけ対象へ付与する(最大 max。min 未満なら起きない)
   transferSelfTremor?: { to: "tremorP" | "tremorC"; max: number; min?: number };
   consumeTarget?: Partial<Record<StatusKey, number>>; // 対象の状態異常をこれだけ消耗する(T社の振動消耗など)
