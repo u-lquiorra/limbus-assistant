@@ -83,7 +83,7 @@ export default function BeginnerGuide() {
       </article>)}</div>
       {section.id === "mirror" && <ShardBoxGuide />}
         </section>)}</div>
-        <aside className="beginner-sources"><h2>参考資料</h2><p>ゲーム内で確認できる報酬・解放条件を優先してください。抽出内容やシーズン報酬など更新される情報は、プレイ時に再確認してください。</p><ul>{sources.map(([name, url]) => <li key={url}><a href={url} target="_blank" rel="noreferrer">{name}<span aria-hidden="true"> ↗</span></a></li>)}</ul></aside>
+        <aside className="beginner-sources"><h2>参考資料</h2><p>ゲーム内で確認できる報酬・解放条件を優先する。抽出内容やシーズン報酬など更新される情報は、プレイ時に再確認する。</p><ul>{sources.map(([name, url]) => <li key={url}><a href={url} target="_blank" rel="noreferrer">{name}<span aria-hidden="true"> ↗</span></a></li>)}</ul></aside>
       </div>
     </div>
   </div>;

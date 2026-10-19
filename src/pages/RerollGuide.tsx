@@ -46,7 +46,7 @@ export default function RerollGuide() {
     <header className="beginner-heading">
       <p className="kicker">REROLL GUIDE</p>
       <h1 className="persona-title">リセマラガイド</h1>
-      <p className="beginner-intro">主力になる人格を引いて、物語を始めよう。理想の組み合わせを揃える必要はありません。</p>
+      <p className="beginner-intro">主力になる人格を引いて、物語を始めよう。理想の組み合わせを揃える必要はない。</p>
       <p className="beginner-updated">おすすめ更新日：{rerollCheckedAt}</p>
     </header>
 
@@ -84,13 +84,13 @@ export default function RerollGuide() {
             <Link id="tab-walpurgis" role="tab" aria-selected={limited} aria-controls="walpurgis" tabIndex={limited ? 0 : -1} to="/reroll?tab=walpurgis#candidates">ヴァルプルギスの夜 <small>6人格</small></Link>
           </div>
           <div id="normal-candidates" role="tabpanel" aria-labelledby="tab-normal" hidden={limited}>
-          <p className="beginner-section-lead">新しいシーズンの人格を中心に、攻守の役割と育てた後の強みから選んだ各囚人の候補。囚人順で、強さの順位ではない。全員を揃える必要はありません。</p>
+          <p className="beginner-section-lead">新しいシーズンの人格を中心に、攻守の役割と育てた後の強みから選んだ各囚人の候補。囚人順で、強さの順位ではない。全員を揃える必要はない。</p>
           <p className="reroll-note">対象期間：{rerollCheckedAt}時点のS8。抽出ごとに排出対象が異なるため、狂気を使う前に「提供一覧」で候補の名前を確認しよう。新人管理人記念抽出から全候補が出るとは限らない。</p>
           <CandidateTable candidates={candidates} />
           <p className="reroll-note">支援や変身を得意とする候補には、仲間や準備が必要な場合もある。選んだ理由と注意点を見てから終了を判断しよう。</p>
           </div>
           <div id="walpurgis" role="tabpanel" aria-labelledby="tab-walpurgis" hidden={!limited}>
-          <p className="beginner-section-lead">開催時に狙いたい限定人格の候補。火力だけでなく、回復や編成への貢献も見て6人格を選んだ。囚人順で、全員を揃える必要はありません。</p>
+          <p className="beginner-section-lead">開催時に狙いたい限定人格の候補。火力だけでなく、回復や編成への貢献も見て6人格を選んだ。囚人順で、全員を揃える必要はない。</p>
           <p className="reroll-note">ヴァルプルギスの夜の開催中に、引く抽出の提供一覧に載っている場合に狙おう。開催外はリセマラの対象に含めず、通常の候補から選んで大丈夫。</p>
           <CandidateTable candidates={limitedCandidates} limited />
           </div>

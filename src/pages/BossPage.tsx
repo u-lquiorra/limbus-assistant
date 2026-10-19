@@ -44,10 +44,10 @@ function Section({ id, children }: { id: typeof BOSS_SECTIONS[number]["id"]; chi
   </section>;
 }
 
-function ResistanceList({ values }: { values: Record<string, number> }) {
+function ResistanceList({ values }: { values: Record<string, number | null> }) {
   return <dl className="boss-resistances">{Object.entries(values).map(([name, value]) => <div key={name}>
     <dt>{name.length === 1 ? <><AttackTypeIcon type={name} />{name}</> : <SinBadge sin={name} />}</dt>
-    <dd><span className={`resist-chip resist-${resistanceTone(String(value))}`}>×{value.toFixed(2).replace(/0$/, "")}</span></dd>
+    <dd>{value === null ? <span className="resist-chip">不明</span> : <span className={`resist-chip resist-${resistanceTone(String(value))}`}>×{value.toFixed(2).replace(/0$/, "")}</span>}</dd>
   </div>)}</dl>;
 }
 
@@ -64,11 +64,11 @@ function Skill({ skill, boss, number }: { skill: BossSkill; boss: BossGuide; num
       <span className="skill-card-tags"><SinBadge sin={skill.sin} /><span className="skill-card-type">{skill.attackType && <AttackTypeIcon type={skill.attackType} size={20} />}{["斬", "貫", "打"].includes(skill.type) ? <><AttackTypeIcon type={skill.type} size={20} />{skill.type === "貫" ? "貫通" : `${skill.type}撃`}</> : skill.type}{skill.attackType && `（${skill.attackType === "貫" ? "貫通" : `${skill.attackType}撃`}）`}</span>{skill.label && <span className="skill-card-form">{skill.label}</span>}</span>
     </header>
     <dl className="skill-card-stats">
-      <div><dt>表示威力</dt><dd><span className="staged-main">{range}</span></dd></div>
-      <div><dt>基本威力</dt><dd><span className="staged-main">{skill.base}</span></dd></div>
+      <div><dt>表示威力</dt><dd><span className="staged-main">{skill.powerUnknown ? "未確定" : range}</span></dd></div>
+      <div><dt>基本威力</dt><dd><span className="staged-main">{skill.powerUnknown ? "未確定" : skill.base}</span></dd></div>
       <div><dt>コイン威力</dt><dd><span className="staged-main">{skill.coinPower >= 0 ? "+" : ""}{skill.coinPower}</span></dd></div>
       <div><dt>コイン個数</dt><dd><span className="staged-main coin-count">{skill.coins} <Coins count={String(skill.coins)} /></span></dd></div>
-      <div><dt>{["回避", "防御"].includes(skill.type) ? "守備" : "攻撃"}レベル{unit.combatLevelNote && `（${unit.combatLevelNote}）`}</dt><dd><span className="staged-main">{level}</span><span className="staged-history">{skill.levelUnknown ? "資料に数値なし" : skill.level !== undefined ? "Wikiの推定値" : `敵Lv${skill.levelOffset >= 0 ? "+" : ""}${skill.levelOffset}${unit.skillLevelReduction ? `−${unit.skillLevelReduction}` : ""}`}</span></dd></div>
+      <div><dt>{["回避", "防御"].includes(skill.type) ? "守備" : "攻撃"}レベル{unit.combatLevelNote && `（${unit.combatLevelNote}）`}</dt><dd><span className="staged-main">{level}</span><span className="staged-history">{skill.levelUnknown ? "数値不明" : skill.level !== undefined ? "推定値" : `敵Lv${skill.levelOffset >= 0 ? "+" : ""}${skill.levelOffset}${unit.skillLevelReduction ? `−${unit.skillLevelReduction}` : ""}`}</span></dd></div>
       <div><dt>加重値</dt><dd><span className="staged-main">{skill.weight ?? "不明"}</span></dd></div>
     </dl>
     <EffectText text={bossSkillEffectText(skill)} keywords={keywords} unbreakableCoins={skill.unbreakableCoins} />
@@ -102,7 +102,7 @@ function SkillTabs({ boss, unitId }: { boss: BossGuide; unitId: string }) {
 export default function BossPage() {
   const { id = "" } = useParams<{ id: string }>();
   const boss = getBossGuide(id);
-  if (!boss) return <div className="container section"><h1 className="section-title">ボス攻略が見つからない</h1><p className="empty">URLを確認するか、攻略一覧から探してください。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
+  if (!boss) return <div className="container section"><h1 className="section-title">ボス攻略が見つからない</h1><p className="empty">URLを確認するか、攻略一覧から探す。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
   const mainUnit = boss.units[0];
   const keywords = bossKeywords(boss);
   const text = (value: string) => decorate(value, keywords, false);
@@ -137,7 +137,18 @@ export default function BossPage() {
         </Section>
         <Section id="notes">
           <div className="guide boss-notes"><div className="guide-part"><h3 className="guide-heading">見落としやすいこと</h3><ul>{boss.warnings.map((warning) => <li key={warning}>{text(warning)}</li>)}</ul></div></div>
-          <dl className="glossary boss-mechanics">{boss.mechanics.map((mechanic) => <div className="glossary-item" key={mechanic.name}><dt>{text(mechanic.name)}</dt><dd><p>{text(mechanic.effect)}</p><p className="boss-mechanic-response">{text(mechanic.response)}</p></dd></div>)}</dl>
+          <dl className="glossary boss-mechanics">{boss.mechanics.map((mechanic) => {
+            const scopedKeywords = mechanic.units?.length === 1 ? bossKeywords(boss, mechanic.units[0]) : keywords;
+            const duplicateName = boss.mechanics.some(other => other !== mechanic && other.name === mechanic.name);
+            return <div className="glossary-item" key={`${mechanic.name}:${mechanic.units?.join(",") ?? "all"}`}>
+              <dt>{decorate(mechanic.name, scopedKeywords, false)}</dt>
+              <dd>
+                {duplicateName && <p className="boss-phase-timing">{mechanic.units?.map(unitId => boss.units.find(unit => unit.id === unitId)?.name).join("／")}</p>}
+                <p>{decorate(mechanic.effect, scopedKeywords, false)}</p>
+                <p className="boss-mechanic-response">{decorate(mechanic.response, scopedKeywords, false)}</p>
+              </dd>
+            </div>;
+          })}</dl>
         </Section>
         <Section id="team">
           <div className="guide"><div className="guide-part"><h3 className="guide-heading">まず整えるもの</h3><ul>{boss.preparation.map((value) => <li key={value}>{text(value)}</li>)}</ul></div>
@@ -161,7 +172,7 @@ export default function BossPage() {
           </section>)}
         </Section>
         <Section id="skills">
-          <p className="boss-section-intro">タブでスキルを切り替えられます。表示威力は固有の強化や攻撃レベル差による補正を含まない値です。</p>
+          <p className="boss-section-intro">タブでスキルを切り替えられる。表示威力は固有の強化や攻撃レベル差による補正を含まない値。</p>
           {boss.skillNote && <p className="boss-section-intro">{text(boss.skillNote)}</p>}
           {boss.units.filter((unit) => boss.skills.some((skill) => skill.unit === unit.id)).map((unit) => <section className="boss-skill-group" key={`${boss.id}-${unit.id}`} aria-labelledby={`skills-${unit.id}`}><h3 id={`skills-${unit.id}`}>{unit.name}</h3><SkillTabs boss={boss} unitId={unit.id} /></section>)}
         </Section>
@@ -176,7 +187,7 @@ export default function BossPage() {
           </section>)}
         </Section>
         <aside className="boss-related" aria-label="関連する用語"><h2>仕組みを確認する</h2><div>{boss.relatedTerms.map((id) => { const term = getGlossaryTerm(id); return term && <Link key={id} to={`/glossary/${id}`}>{term.name} →</Link>; })}</div></aside>
-        <footer className="boss-sources"><h2>参考資料</h2><p>Wikiのステータス・効果・攻略情報を照合し、対処を整理しています。敵の画像も同Wiki掲載のゲーム内画像を使用しています。</p><ul>{boss.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ul></footer>
+        <footer className="boss-sources"><p>敵のステータス・効果・行動は更新で変わることがある。戦闘中の表示も確認する。</p></footer>
         <Link to="/bosses" className="back-link">← ボス攻略一覧に戻る</Link>
       </div>
     </div>

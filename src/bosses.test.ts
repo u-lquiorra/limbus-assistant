@@ -27,6 +27,218 @@ test("ボス用語: 専用効果・共通用語と同名の形態別パッシブ
   assert(terms.every((keyword) => keyword.term && keyword.desc));
 });
 
+test("8章終盤: 担当・固定と条件付き破壊不能・強化前レベルを区別する", () => {
+  const fang = getBossGuide("jia-fang-kubo")!;
+  const mu = getBossGuide("jia-mu")!;
+  assert.equal(fang.stage, "8-32");
+  assert.equal(mu.stage, "8-33");
+  assert.equal(mu.reserves, 5);
+  assert.equal(fang.units.find(u => u.id === "jia-fang")!.skillLevelReduction, 7);
+  assert.equal(fang.units.find(u => u.id === "kubo")!.skillLevelReduction, 2);
+  const counter = fang.skills.find(s => s.name === "受け止めねばならぬであろう")!;
+  assert.equal(counter.type, "反撃");
+  assert.equal(counter.attackType, "貫");
+  assert.match(counter.response, /掌/);
+  const sacrifice = fang.skills.find(s => s.name === "戦友の血を被った弾丸")!;
+  assert.equal(sacrifice.weight, 5);
+  assert.match(sacrifice.label!, /対象変更不可/);
+  assert.match(sacrifice.response, /キャンセル/);
+  const skill = (id: string) => mu.skills.find(s => s.id === id)!;
+  assert.equal(skill("mu-beast-9").unit, "mu-litter");
+  assert.equal(skill("mu-beast-14").unit, "mu-litter");
+  assert.deepEqual(skill("mu-beast-6").unbreakableCoins, [1]);
+  assert.equal(skill("mu-beast-14").unbreakableCoins, undefined);
+  for (const id of ["mu-beast-3", "mu-beast-7", "mu-beast-8"]) {
+    assert.equal(skill(id).unbreakableCoins, undefined, "条件付きの破壊不能を常時表示しない");
+    assert.match(skill(id).effects.join(""), /なら.*破壊不能/);
+  }
+  assert.equal(skill("mu-beast-13").weight, 13);
+  assert.match(skill("mu-beast-13").response, /5体全員/);
+  assert.equal(mu.units.find(u => u.id === "mu-beast")!.combatLevelNote, "強化前");
+  const terms = bossKeywords(mu, "mu-beast");
+  assert.match(terms.find(t => t.term === "足掻く")!.desc, /ホンル/);
+  assert.match(terms.find(t => t.term === "喜び")!.desc, /味方/);
+});
+
+test("9章: 人数・援護・通常パターン外と未確定の威力を区別する", () => {
+  const ren = getBossGuide("ren-albina")!;
+  const sora = getBossGuide("sora")!;
+  const yoru = getBossGuide("shiomi-yoru")!;
+  assert.equal(ren.members, 4);
+  assert.equal(sora.members, 4);
+  assert.equal(yoru.members, 7);
+  assert.equal(yoru.reserves, 5);
+  assert.equal(ren.units[0].defenseLevel, 60, "レンの防御は加算差ではなく実値60");
+  assert.match(ren.skills.find(s => s.id === "albina-5")!.response, /別々の攻撃スキル3本/);
+  assert.match(ren.skills.find(s => s.id === "albina-7")!.response, /相殺しても解除できない/);
+  assert.equal(sora.units[0].sins.傲慢, 1.2, "colspanの耐性を展開する");
+  assert.equal(sora.units[1].sins.傲慢, 1.25);
+  assert.equal(sora.skills.find(s => s.id === "sora-base-5")!.unit, "sora-ego");
+  assert.match(sora.skills.find(s => s.id === "sora-base-4")!.label!, /通常パターン外/);
+  assert.equal(sora.skills.find(s => s.id === "sora-base-2")!.unbreakableCoins, undefined, "条件付きの破壊不能を固定表示しない");
+  assert.match(sora.mechanics.find(m => m.name === "援護防御")!.response, /守備を装着しない/);
+  assert.match(yoru.priorities.join(""), /11ターン/);
+  for (const id of ["shiomi-yoru-6", "shiomi-yoru-7"]) assert.equal(yoru.skills.find(s => s.id === id)!.powerUnknown, true);
+  assert.equal(yoru.skills.find(s => s.id === "shiomi-yoru-9")!.base, 20, "精神力の条件付き+5を基礎値へ重ねない");
+  assert.match(yoru.skills.find(s => s.id === "shiomi-yoru-8")!.label!, /守備発動不可/);
+});
+
+test("9章親方戦: NPC支援・通常個体・不明耐性を区別する", () => {
+  const ac = getBossGuide("albina-callisto")!;
+  const km = getBossGuide("kira-matthias")!;
+  const lv = getBossGuide("lucio-valentina")!;
+  assert.equal(ac.stage, "9-37");
+  assert.equal(km.stage, "9-38");
+  assert.equal(lv.stage, "9-42");
+  for (const boss of [ac, km, lv]) assert.equal(boss.members, 3);
+  assert.equal(ac.units.find(u => u.id === "callisto")!.skillLevelReduction, 20);
+  assert.match(ac.mechanics.find(m => m.name === "眺望")!.effect, /保護7/);
+  assert.doesNotMatch(ac.mechanics.find(m => m.name === "眺望")!.effect, /70%/);
+  const captive = ac.units.find(u => u.id === "body-theatre")!;
+  assert.equal(captive.physical.貫, null, "未記載の耐性を等倍で埋めない");
+  assert.equal(captive.sins.色欲, null);
+  assert.equal(captive.sins.憤怒, 2);
+  assert.equal(ac.skills.find(s => s.id === "ac-researcher-4")!.powerUnknown, true);
+  assert.equal(ac.skills.find(s => s.id === "callisto-7")!.type, "反撃", "属性欄の順序が異なっても反撃と判定する");
+  assert.equal(ac.skills.find(s => s.id === "callisto-7")!.attackType, "斬");
+  assert.equal(km.units.find(u => u.id === "matthias")!.defenseLevel, 100);
+  assert(!km.passives.some(p => p.name === "???"), "未記入のパッシブを効果として捏造しない");
+  assert.equal(km.skills.find(s => s.id === "matthias-5")!.type, "反撃");
+  assert.doesNotMatch(km.skills.find(s => s.id === "matthias-5")!.effects.join(""), /マッチ可能反撃/);
+  assert.match(lv.priorities.join(""), /予知眼を残したままルチオを倒して/);
+  assert.match(lv.skills.find(s => s.id === "valentina-7")!.label!, /対象変更不可/);
+  assert.deepEqual(lv.skills.find(s => s.id === "valentina-7")!.unbreakableCoins, [1, 2, 3, 4, 5]);
+  assert.equal(lv.skills.find(s => s.id === "lucio-3")!.unbreakableCoins, undefined, "決闘高潮の条件付き破壊不能を常時表示しない");
+  const terms = bossKeywords(ac, "callisto");
+  assert(terms.some(t => t.term === "生体材料(骨)"));
+  assert(!terms.some(t => t.term === "生体材料"), "アルビナの最大2の蓄積をカリストへ混ぜない");
+});
+
+test("9章終盤: 再戦・一騎打ち・形態ごとの指令と条件付き破壊不能を分ける", () => {
+  const rematch = getBossGuide("kira-matthias-rematch")!;
+  const little = getBossGuide("little-finger-master")!;
+  const lian = getBossGuide("lian")!;
+  for (const [boss, stage, skills, passives] of [[rematch, "9-44", 20, 14], [little, "9-48", 14, 8], [lian, "9-50", 22, 13]] as const) {
+    assert.equal(boss.stage, stage);
+    assert.equal(boss.skills.length, skills);
+    assert.equal(boss.passives.length, passives);
+  }
+  assert.equal(rematch.units.find(u => u.id === "kira")!.stagger, "10%（141）", "9-38の混乱区間を流用しない");
+  assert.match(rematch.troubleshooting!.find(t => t.symptom.includes("3ターン"))!.advice, /蓄積が戻る/);
+  assert.equal(rematch.skills.find(s => s.id === "matthias-14")!.type, "反撃");
+  assert.equal(rematch.skills.find(s => s.id === "matthias-14")!.attackType, "斬");
+  assert.equal(little.units[0].skillLevelReduction, 15);
+  assert.equal(little.skills.find(s => s.id === "little-master-1")!.unbreakableCoins, undefined, "後半の赤い糸を前半へ固定適用しない");
+  assert.equal(little.skills.find(s => s.id === "little-master-5")!.powerUnknown, true);
+  assert.match(little.mechanics.find(m => m.name === "赤い糸")!.effect, /良秀の同名効果/);
+  assert.match(little.statNote!, /3ターン目終了までHP210/);
+  assert.equal(lian.members, 7);
+  assert.equal(lian.reserves, 4);
+  assert.match(lian.units[1].hp, /引き継ぐ/);
+  assert.equal(lian.skills.find(s => s.id === "lian-masked-7")!.unbreakableCoins, undefined, "解禁による変化は常時の破壊不能にしない");
+  assert.deepEqual(lian.skills.find(s => s.id === "lian-unmasked-7")!.unbreakableCoins, [3, 4], "耽溺中の全コイン化と基本の3・4枚目を区別する");
+  assert.match(lian.skills.find(s => s.id === "lian-unmasked-10")!.response, /良秀以外はマッチ不可/);
+  assert.match(lian.skills.find(s => s.id === "lian-unmasked-12")!.response, /基本E.G.O.*20/);
+  const weapon = "ハンマーで後頭部を潰すべきときは…";
+  assert.match(bossKeywords(lian, "lian-masked").find(k => k.term === weapon)!.desc, /混乱区間3前進/);
+  const laterWeapon = bossKeywords(lian, "lian-unmasked").find(k => k.term === weapon)!.desc;
+  assert.match(laterWeapon, /混乱区間5前進/);
+  assert.doesNotMatch(laterWeapon, /混乱区間3前進/);
+  assert.match(lian.mechanics.find(m => m.name === "れんけつえん")!.effect, /ほかの味方生存中/);
+});
+
+test("9章再戦の補完: 摘出・指定対象・NPCへの置換を前哨戦と混同しない", () => {
+  const emperor = getBossGuide("roach-emperor")!;
+  const yoru = getBossGuide("shiomi-yoru-rematch")!;
+  const ac = getBossGuide("albina-callisto-rematch")!;
+  for (const [boss, stage, count] of [[emperor, "9-45", 10], [yoru, "9-41", 10], [ac, "9-43", 12]] as const) {
+    assert.equal(boss.stage, stage);
+    assert.equal(boss.skills.length, count);
+  }
+  for (const id of ["roach-emperor-3", "roach-emperor-7", "roach-emperor-8"]) {
+    const skill = emperor.skills.find(s => s.id === id)!;
+    assert.equal(skill.sin, "暴食");
+    assert.match(skill.label!, /摘出コイン/);
+    assert.equal(skill.unbreakableCoins, undefined, "摘出を普通の破壊不能の表記へ置き換えない");
+    assert.match(skill.response, /通常コイン/);
+  }
+  assert.match(emperor.skills.find(s => s.id === "roach-emperor-9")!.response, /NPC.*任せ/);
+  assert.equal(emperor.skills.find(s => s.id === "roach-emperor-10")!.weight, null, "記載のない加重値を1で埋めない");
+  assert.equal(yoru.members, 3, "9-33の7名を流用しない");
+  assert.equal(yoru.skills.find(s => s.id === "yoru-rematch-5")!.powerUnknown, undefined, "別戦闘の不整合を持ち込まない");
+  assert.equal(yoru.skills.find(s => s.id === "yoru-rematch-5")!.base, 4);
+  assert.equal(yoru.units[0].skillLevelReduction, undefined, "9-48の天殺星傷を持ち込まない");
+  assert.match(yoru.skills.find(s => s.id === "yoru-rematch-9")!.effects.join(""), /対応するバフ.*のみマッチ可能/);
+  assert.match(ac.statNote!, /助力者へ置き換わり/);
+  assert.match(ac.statNote!, /アンプルはない/);
+  assert.equal(ac.units.find(u => u.id === "callisto-rematch")!.level, 83);
+  assert(!ac.units.some(u => u.id === "body-theatre"), "NPCが処理する個体に別戦闘のステータスを付けない");
+});
+
+test("5章幻想体: 部位と本体HP・耐性の状態差・減算コインを保持する", () => {
+  const pearl = getBossGuide("walking-pearl")!;
+  const prophet = getBossGuide("skin-prophet")!;
+  const silt = getBossGuide("dream-devouring-siltcurrent")!;
+  assert.match(pearl.units.find(u => u.id === "pearl")!.hp, /1229.*774/);
+  assert.equal(pearl.units.find(u => u.id === "pearl-shell")!.physical.貫, 0.7);
+  assert(pearl.skills.some(s => s.id === "pearl-7") && pearl.skills.some(s => s.id === "pearl-shell-7"), "共通の回避を片方の部位だけへ紐付けない");
+  assert.match(pearl.skills.find(s => s.id === "pearl-shell-6")!.label!, /マッチ不可.*対象変更不可/);
+  assert(!pearl.skills.some(s => s.unit === "green-slime"), "行動しない召喚個体に攻撃を作らない");
+  assert.equal(prophet.units.find(u => u.id === "prophet-dark")!.sins.憂鬱, 0.5);
+  assert.equal(prophet.units.find(u => u.id === "prophet-lit")!.sins.憂鬱, 2);
+  assert.match(prophet.units.find(u => u.id === "prophet-lit")!.hp, /引き継ぐ/);
+  for (const id of ["prophet-lit-3", "prophet-lit-4"]) {
+    const skill = prophet.skills.find(s => s.id === id)!;
+    assert.equal(skill.base, 20, "減算技は威力範囲の小さい値を基本威力にしない");
+    assert.equal(skill.coinPower, -4);
+    assert.equal(skill.coins, 2);
+    assert.equal(skill.powerUnknown, undefined, "20から2枚−4は12〜20と整合する");
+  }
+  assert.equal(prophet.skills.find(s => s.id === "candle-2")!.type, "反撃");
+  assert.equal(prophet.skills.find(s => s.id === "candle-2")!.attackType, "貫");
+  assert.match(silt.units.find(u => u.id === "silt-body")!.hp, /1102.*882/);
+  assert.equal(silt.units.find(u => u.id === "silt-light")!.physical.貫, 1.5);
+  assert.equal(silt.units.find(u => u.id === "silt-body")!.physical.貫, 1);
+  for (const n of [4, 6, 7, 8]) {
+    const body = silt.skills.find(s => s.id === `silt-body-${n}`)!;
+    const light = silt.skills.find(s => s.id === `silt-light-${n}`)!;
+    assert(body && light, "両部位に割り当てられる技を残す");
+    assert.equal(body.name, light.name);
+    assert.deepEqual(body.effects, light.effects);
+  }
+  assert.match(silt.skills.find(s => s.id === "silt-body-6")!.effects.join(""), /34%/);
+  assert.match(silt.passives.find(p => p.name === "堅牢")!.effect, /12未満/);
+  assert.match(silt.mechanics.find(m => m.name === "蛍光灯の破片")!.response, /全て防ぐ効果ではない/);
+});
+
+test("10章A: 接客条件・連戦・条件付き覚醒とBルートの強化を区別する", () => {
+  const gustave = getBossGuide("gustave")!;
+  const fourleg = getBossGuide("fourleg")!;
+  const oneleg = getBossGuide("oneleg")!;
+  for (const boss of [gustave, fourleg, oneleg]) {
+    assert.equal(boss.chapter, 10);
+    assert.equal(boss.stage, "10-04");
+    assert.match(boss.statNote!, /顧客レベル/);
+    assert(!boss.passives.some(p => p.name.includes("陽射し")), "Bルート限定パッシブをAルートへ混ぜない");
+  }
+  assert.equal(gustave.units[0].hp, "590", "イベント前の先制攻撃個体641と区別する");
+  assert.match(gustave.skills.find(s => s.id === "gustave-3")!.response, /守備.*キャンセル/);
+  assert.match(gustave.skills.find(s => s.id === "gustave-4")!.response, /守備.*破壊不能/);
+  assert.equal(gustave.skills.find(s => s.id === "gustave-4")!.unbreakableCoins, undefined);
+  assert.equal(gustave.skills.find(s => s.id === "gustave-5")!.unbreakableCoins, undefined);
+  assert.deepEqual(gustave.skills.find(s => s.id === "gustave-6")!.unbreakableCoins, [1]);
+  assert.match(fourleg.warnings.join(""), /敗北.*フォーレグ.*やり直し/);
+  assert.equal(fourleg.skills.find(s => s.id === "fourleg-3")!.unbreakableCoins, undefined);
+  assert.deepEqual(fourleg.skills.find(s => s.id === "fourleg-4")!.unbreakableCoins, [1, 2, 3]);
+  assert.match(fourleg.skills.find(s => s.id === "fourleg-4")!.response, /ダメージ−50%/);
+  assert.equal(oneleg.units[0].hp, "849");
+  assert.match(oneleg.statNote!, /HP196.*戦闘終了/);
+  assert.equal(oneleg.skills.find(s => s.id === "oneleg-1")!.unbreakableCoins, undefined, "覚醒中だけの破壊不能を固定表示しない");
+  assert(oneleg.skills.filter(s => s.id === "oneleg-4" || s.id === "oneleg-5").every(s => s.weight === 1 && s.response.includes("−75%")));
+  assert.match(bossKeywords(oneleg).find(k => k.term === "アルミュール・エヴェイエ")!.desc, /全ての基本攻撃/);
+  assert.match(bossKeywords(gustave).find(k => k.term === "案内不履行")!.desc, /最大3/);
+});
+
 test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報が揃う", () => {
   assert(bossGuides.length > 0);
   assert.equal(new Set(bossGuides.map((boss) => boss.id)).size, bossGuides.length);
@@ -44,8 +256,14 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
     for (const unit of boss.units) {
       assert(unit.hp && unit.part && unit.speed && unit.stagger);
       assert(typeof unit.level === "number" ? Number.isInteger(unit.level) && unit.level > 0 : unit.level.startsWith("不明"));
-      for (const key of ["斬", "貫", "打"] as const) assert(Number.isFinite(unit.physical[key]) && unit.physical[key] >= 0);
-      for (const sin of SIN_ORDER) assert(Number.isFinite(unit.sins[sin]) && unit.sins[sin] >= 0);
+      for (const key of ["斬", "貫", "打"] as const) {
+        const value = unit.physical[key];
+        assert(value === null || (Number.isFinite(value) && value >= 0));
+      }
+      for (const sin of SIN_ORDER) {
+        const value = unit.sins[sin];
+        assert(value === null || (Number.isFinite(value) && value >= 0));
+      }
     }
     for (const skill of boss.skills) {
       assert(units.has(skill.unit), `${boss.id}/${skill.id}: スキルの使用者が存在しない`);

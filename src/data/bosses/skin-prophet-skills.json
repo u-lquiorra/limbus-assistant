@@ -1,0 +1,166 @@
+[
+  {
+    "id": "prophet-lit-1",
+    "unit": "prophet-lit",
+    "name": "分裂せよ",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "表号対象を優先して攻撃",
+      "Ⅰ[的中時]灯った蝋燭の数だけ精神力ダメージ",
+      "Ⅱ[的中時]灯った蝋燭の数だけ精神力ダメージ"
+    ]
+  },
+  {
+    "id": "prophet-lit-2",
+    "unit": "prophet-lit",
+    "name": "熱望し...",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 5,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "Ⅰ[的中時]次のターンに憤怒脆弱を1付与",
+      "[的中時]対象に火傷があれば、火傷3付与",
+      "Ⅱ[的中時]次のターンに憤怒脆弱を1付与",
+      "[的中時]対象に火傷があれば、火傷3付与"
+    ]
+  },
+  {
+    "id": "prophet-lit-3",
+    "unit": "prophet-lit",
+    "name": "9章2節",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 20,
+    "coinPower": -4,
+    "coins": 2,
+    "weight": 7,
+    "levelOffset": -4,
+    "effects": [
+      "次のターンに全ての蝋燭を消す。",
+      "表号のある対象へ的中時、体力最大値の5%分追加で減少。",
+      "[マッチ敗北]火傷10を付与。対象へ次のターンに表号を付与。",
+      "[ターン終了時]全ての蝋燭を体力最大値まで回復",
+      "Ⅰ[的中時]対象の体力の最大値を10%減少",
+      "[的中時]火傷5付与、火傷回数が２増加",
+      "Ⅱ[的中時]対象の体力の最大値を10%減少",
+      "[的中時]火傷5付与、火傷回数が２増加"
+    ]
+  },
+  {
+    "id": "prophet-lit-4",
+    "unit": "prophet-lit",
+    "name": "6章5節",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 20,
+    "coinPower": -4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[マッチ不可][対象変更不可]",
+      "対象のダメージを自分が受ける。次のターンに混乱する。",
+      "表号のないランダムな敵へ次のターンに表号を付与。",
+      "[ターン終了時]全ての蝋燭を体力最大値まで回復",
+      "Ⅰ[的中時]自分の体力の最大値を10%減少",
+      "[的中時]自分に火傷10付与",
+      "Ⅱ[的中時]自分の体力の最大値を10%減少",
+      "[的中時]自分に火傷10付与"
+    ],
+    "label": "マッチ不可・対象変更不可"
+  },
+  {
+    "id": "prophet-dark-5",
+    "unit": "prophet-dark",
+    "name": "露わにならん",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[マッチ不可]",
+      "Ⅰ[的中時]憤怒脆弱1付与"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "prophet-dark-6",
+    "unit": "prophet-dark",
+    "name": "燃え上がらん",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[マッチ不可]",
+      "Ⅰ[的中時]対象に火傷があれば、火傷3付与."
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "prophet-dark-7",
+    "unit": "prophet-dark",
+    "name": "予言を蔑視するでない",
+    "sin": "憤怒",
+    "type": "反撃",
+    "attackType": "貫",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "Ⅰ[的中時]対象に火傷5付与、火傷回数が2増加"
+    ]
+  },
+  {
+    "id": "candle-1",
+    "unit": "candle",
+    "name": "立ちのぼった火種",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "表号のある対象を優先して攻撃",
+      "Ⅰ[的中時]火傷6付与、火傷回数2増加"
+    ]
+  },
+  {
+    "id": "candle-2",
+    "unit": "candle",
+    "name": "消えぬように",
+    "sin": "憤怒",
+    "type": "反撃",
+    "attackType": "貫",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[戦闘開始時]バリア20を得る",
+      "バリアが全て消耗されると、次のターンに火が消える。",
+      "Ⅰ[的中時]火傷1、火傷回数1を付与"
+    ]
+  }
+]

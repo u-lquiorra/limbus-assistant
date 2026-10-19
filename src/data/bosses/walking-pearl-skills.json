@@ -1,0 +1,147 @@
+[
+  {
+    "id": "pearl-shell-1",
+    "unit": "pearl-shell",
+    "name": "毒性粘液",
+    "sin": "暴食",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[戦闘開始時]緑色の粘液が1減少",
+      "Ⅰ[的中時]毒3を付与",
+      "Ⅱ[的中時]毒3を付与"
+    ]
+  },
+  {
+    "id": "pearl-shell-2",
+    "unit": "pearl-shell",
+    "name": "腐食粘液",
+    "sin": "暴食",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[戦闘開始時]緑色の粘液が1減少",
+      "Ⅰ[的中時]対象の毒だけ防御レベル減少を付与",
+      "[的中時]幼虫1を付与",
+      "Ⅱ[的中時]対象の毒だけ防御レベル減少を付与",
+      "[的中時]幼虫1を付与"
+    ]
+  },
+  {
+    "id": "pearl-shell-3",
+    "unit": "pearl-shell",
+    "name": "麻痺液体",
+    "sin": "暴食",
+    "type": "打",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[戦闘開始時]緑色の粘液が1減少",
+      "Ⅰ[的中時]対象に毒があれば、麻痺1を付与",
+      "[的中時]幼虫2を付与",
+      "Ⅱ[的中時]対象に毒があれば、麻痺1を付与",
+      "[的中時]幼虫2を付与"
+    ]
+  },
+  {
+    "id": "pearl-4",
+    "unit": "pearl",
+    "name": "蚕食液体",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[戦闘開始時]緑色の粘液が2減少",
+      "[使用時]幼虫3を付与",
+      "Ⅰ[的中時]毒4を付与",
+      "[表面的中時]次のターンに麻痺1を付与",
+      "Ⅱ[的中時]毒4を付与",
+      "[表面的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "pearl-5",
+    "unit": "pearl",
+    "name": "沸き立つ緑色の粘液",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 5,
+    "levelOffset": -4,
+    "effects": [
+      "[戦闘開始時]緑色の粘液だけ攻撃加重値が増加",
+      "[戦闘開始時]緑色の粘液を10得る",
+      "Ⅰ[的中時]毒10を付与",
+      "[的中時]精神力が7減少",
+      "[的中時]幼虫3を付与",
+      "[表面的中時]次のターンに麻痺1,防御レベル減少3を付与"
+    ],
+    "label": "加重値は条件で変動"
+  },
+  {
+    "id": "pearl-shell-6",
+    "unit": "pearl-shell",
+    "name": "捕食",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 50,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[マッチ不可][対象変更不可]",
+      "緑色の粘液を優先して攻撃",
+      "緑色の粘液を攻撃時に倒す",
+      "Ⅰ対象討伐時、緑色の粘液3を得る。"
+    ],
+    "label": "マッチ不可・対象変更不可"
+  },
+  {
+    "id": "pearl-shell-7",
+    "unit": "pearl-shell",
+    "name": "溢れ出した毒",
+    "sin": "傲慢",
+    "type": "回避",
+    "base": 8,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[回避成功時]対象に毒5を付与"
+    ]
+  },
+  {
+    "id": "pearl-7",
+    "unit": "pearl",
+    "name": "溢れ出した毒",
+    "sin": "傲慢",
+    "type": "回避",
+    "base": 8,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "[回避成功時]対象に毒5を付与"
+    ]
+  }
+]

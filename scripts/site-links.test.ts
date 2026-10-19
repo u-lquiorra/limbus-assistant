@@ -94,6 +94,21 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           assert.equal($(element).find("abbr").length, 0, "ツールチップを入れ子にしない");
         });
         assert.doesNotMatch($(".skill-card-stats").text(), /NaN|undefined/);
+        if (boss.id === "lian") {
+          const weapons = $(".boss-mechanics > .glossary-item").filter((_, el) => $(el).find("dt").text() === "ハンマーで後頭部を潰すべきときは…");
+          assert.equal(weapons.length, 2, "同名の武器を前後半とも掲載する");
+          assert.match(weapons.eq(0).find(".boss-phase-timing").text(), /前半/);
+          assert.match(weapons.eq(1).find(".boss-phase-timing").text(), /後半/);
+          assert.match(weapons.eq(0).find("dt abbr").attr("title")!, /混乱区間3前進/);
+          assert.doesNotMatch(weapons.eq(0).find("dt abbr").attr("title")!, /混乱区間5前進/);
+          assert.match(weapons.eq(1).find("dt abbr").attr("title")!, /混乱区間5前進/);
+        }
+        if (boss.id === "albina-callisto") {
+          const body = $(".boss-unit[aria-labelledby='unit-body-theatre']");
+          assert(body.length > 0);
+          assert.equal(body.find(".resist-chip").filter((_, el) => $(el).text() === "不明").length, 7, "身体観劇の貫通と6罪悪耐性は不明表示");
+          assert.doesNotMatch(body.find(".boss-resistances").text(), /NaN|null/);
+        }
         if (boss.id === "sancho") {
           assert.equal($(".boss-hero-info .spec-list > div").eq(3).find("dd").text(), "52", "防御だけ34低下を適用");
           assert.equal($("#skill-sancho-1 .skill-card-stats > div").eq(4).find(".staged-main").text(), "51", "攻撃は35低下を適用");
@@ -105,6 +120,11 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           assert.equal($("#skill-lei-heng-7 .skill-card-stats > div").eq(4).find(".staged-main").text(), "不明", "元資料で不明な大技のLvを埋めない");
         }
         for (const skill of boss.skills) {
+          if (skill.powerUnknown) {
+            const stats = $(`[id="skill-${skill.id}"] .skill-card-stats > div`);
+            assert.equal(stats.eq(0).find(".staged-main").text(), "未確定", "不整合な威力を計算結果として断定しない");
+            assert.equal(stats.eq(1).find(".staged-main").text(), "未確定");
+          }
           assert.equal($(`[id="skill-${skill.id}"] .fx-coin-unbreakable`).length, skill.unbreakableCoins?.length ?? 0, `${boss.id}/${skill.id}: 破壊不能コイン表示`);
           if (skill.levelUnknown) assert.match($(`[id="skill-${skill.id}"] .skill-card-stats`).text(), /不明/);
           if (skill.weight === null) assert.equal($(`[id="skill-${skill.id}"] .skill-card-stats > div`).last().find("dd").text(), "不明");

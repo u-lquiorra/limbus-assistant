@@ -23,6 +23,26 @@ import talismanDoll from "./data/bosses/talisman-doll";
 import drunkenNightguest from "./data/bosses/drunken-nightguest";
 import jiaQiu from "./data/bosses/jia-qiu";
 import leiHeng from "./data/bosses/lei-heng";
+import jiaFangKubo from "./data/bosses/jia-fang-kubo";
+import jiaMu from "./data/bosses/jia-mu";
+import renAlbina from "./data/bosses/ren-albina";
+import sora from "./data/bosses/sora";
+import shiomiYoru from "./data/bosses/shiomi-yoru";
+import albinaCallisto from "./data/bosses/albina-callisto";
+import kiraMatthias from "./data/bosses/kira-matthias";
+import lucioValentina from "./data/bosses/lucio-valentina";
+import kiraMatthiasRematch from "./data/bosses/kira-matthias-rematch";
+import littleFingerMaster from "./data/bosses/little-finger-master";
+import lian from "./data/bosses/lian";
+import roachEmperor from "./data/bosses/roach-emperor";
+import shiomiYoruRematch from "./data/bosses/shiomi-yoru-rematch";
+import albinaCallistoRematch from "./data/bosses/albina-callisto-rematch";
+import walkingPearl from "./data/bosses/walking-pearl";
+import skinProphet from "./data/bosses/skin-prophet";
+import dreamDevouringSiltcurrent from "./data/bosses/dream-devouring-siltcurrent";
+import gustave from "./data/bosses/gustave";
+import fourleg from "./data/bosses/fourleg";
+import oneleg from "./data/bosses/oneleg";
 
 export interface BossUnit {
   id: string;
@@ -38,8 +58,8 @@ export interface BossUnit {
   speed: string;
   stagger: string;
   notes: string[];
-  physical: Record<"斬" | "貫" | "打", number>;
-  sins: Record<string, number>;
+  physical: Record<"斬" | "貫" | "打", number | null>;
+  sins: Record<string, number | null>;
 }
 
 export interface BossSkill {
@@ -50,6 +70,7 @@ export interface BossSkill {
   type: "斬" | "貫" | "打" | "回避" | "防御" | "反撃";
   attackType?: "斬" | "貫" | "打";
   base: number;
+  powerUnknown?: boolean;
   coinPower: number;
   coins: number;
   weight: number | null;
@@ -89,7 +110,7 @@ export interface BossGuide {
   sources: { title: string; url: string }[];
 }
 
-export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng];
+export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg];
 const byId = new Map(bossGuides.map((boss) => [boss.id, boss]));
 
 export function getBossGuide(id: string): BossGuide | undefined {

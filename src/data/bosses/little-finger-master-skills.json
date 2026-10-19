@@ -1,0 +1,265 @@
+[
+  {
+    "id": "little-master-1",
+    "unit": "little-master",
+    "name": "二連",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 7,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]呼吸回数が2増加",
+      "Ⅰ[的中時]呼吸1を得る",
+      "Ⅱ[的中時]呼吸1を得る"
+    ]
+  },
+  {
+    "id": "little-master-2",
+    "unit": "little-master",
+    "name": "三連",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 7,
+    "coinPower": 2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]呼吸回数が3増加",
+      "Ⅰ[的中時]呼吸1を得る",
+      "Ⅱ[的中時]呼吸1を得る",
+      "Ⅲ[的中時]呼吸1を得る"
+    ]
+  },
+  {
+    "id": "little-master-3",
+    "unit": "little-master",
+    "name": "快閃",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 10,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 3,
+    "levelOffset": 1,
+    "effects": [
+      "[一方攻撃時]呼吸5を得る",
+      "[マッチ敗北]加重値-2",
+      "Ⅰ破壊不能コイン",
+      "クリティカルダメージ量+30%",
+      "[的中時]呼吸2を得る",
+      "[的中時]剣痕[残像]1を付与",
+      "[破壊されずに的中時]剣痕[残像]1を付与"
+    ],
+    "unbreakableCoins": [
+      1
+    ]
+  },
+  {
+    "id": "little-master-4",
+    "unit": "little-master",
+    "name": "無形斬",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 12,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 4,
+    "levelOffset": 1,
+    "effects": [
+      "広域乱射",
+      "速度に関係なくこのスキルとマッチができ、このスキルが終了するまで混乱状態にならない",
+      "[マッチ敗北]ダメージ量が80%だけ減少し、このスキルダメージ対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "このコインを再使用(最大4回)",
+      "[的中時]呼吸1を得る",
+      "[的中時]剣痕[残像]1を付与",
+      "[破壊されずに的中時]剣痕[残像]1を付与"
+    ],
+    "unbreakableCoins": [
+      1
+    ]
+  },
+  {
+    "id": "little-master-5",
+    "unit": "little-master",
+    "name": "残像歩",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ敗北]対象の剣痕[残像]が半減(小数点切り捨て)"
+    ],
+    "powerUnknown": true
+  },
+  {
+    "id": "little-master-6",
+    "unit": "little-master",
+    "name": "絶命",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 9,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "このスキルは対象の守備スキルを発動させない",
+      "現体力の比率が最も低い対象を攻撃",
+      "-良秀以外の囚人を優先して攻撃",
+      "Ⅰ[的中時]対象の失った体力1%につき、剣痕[残像]1を付与",
+      "Ⅱ[的中時]対象の剣痕[残像]を全て消耗し、対象の体力最大値の(消耗値)%だけ体力ダメージ"
+    ],
+    "label": "守備発動不可"
+  },
+  {
+    "id": "little-master-7",
+    "unit": "little-master",
+    "name": "極空間斬撃 - 絶縁",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 14,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 7,
+    "levelOffset": 0,
+    "effects": [
+      "速度に関係なくこのスキルとマッチができ、このスキルが終了するまで混乱状態にならない",
+      "[使用時]自分の精神力が20以上なら、望を3つ生成。最終威力+10",
+      "[攻撃後]このスキルで望を生成したなら、精神力-20",
+      "[マッチ勝利時]斬撃ダメージ量増加2を得る",
+      "[マッチ敗北]ダメージ量が80%だけ減少し、このスキルダメージで対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "クリティカルダメージ量+100%",
+      "[的中時]対象の剣痕[残像]を全て消耗し、各被ダメージ者の体力最大値の(消耗値)%だけ体力ダメージ"
+    ],
+    "unbreakableCoins": [
+      1
+    ]
+  },
+  {
+    "id": "little-master-8",
+    "unit": "little-master",
+    "name": "確定された相手",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "鶏鳴・日入・黄昏のうち、対応するバフを保有した対象のみマッチ可能",
+      "このスキルは守備スキルを発動させない",
+      "[マッチ敗北]脆弱1を得る",
+      "[マッチ敗北]対象の鶏鳴・日入・黄昏は消滅",
+      "[一方攻撃時]最終威力+10"
+    ],
+    "label": "守備発動不可"
+  },
+  {
+    "id": "little-master-9",
+    "unit": "little-master",
+    "name": "二連 - 残",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 8,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "[マッチ敗北]ダメージ量が80%だけ減少し、このスキルダメージで対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "[クリティカル表面的中時]このコインを再使用(スキルごとに最大1回)"
+    ],
+    "unbreakableCoins": [
+      1
+    ]
+  },
+  {
+    "id": "little-master-10",
+    "unit": "little-master",
+    "name": "必然殺",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 14,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[攻撃後]対象が死亡するか混乱したなら、このスキルを再使用(1ターンにつき3回)"
+    ]
+  },
+  {
+    "id": "little-master-11",
+    "unit": "little-master",
+    "name": "怨望",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 10,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[戦闘開始時]このスキルを使用スロットをメインターゲットにする攻撃スキルがあるなら、自分の呼吸威力が10減少"
+    ]
+  },
+  {
+    "id": "little-master-12",
+    "unit": "little-master",
+    "name": "非望",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 10,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[戦闘開始時]このスキルを使用スロットをメインターゲットにする攻撃スキルがあるなら、自分の精神力が5減少"
+    ]
+  },
+  {
+    "id": "little-master-13",
+    "unit": "little-master",
+    "name": "落望",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ敗北]自分の精神力が5減少",
+      "[マッチ敗北]攻撃威力減少3を得る",
+      "Ⅰ[的中時]脆弱1を得る"
+    ]
+  },
+  {
+    "id": "little-master-14",
+    "unit": "little-master",
+    "name": "あなたが憎い、でも…",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 11,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ敗北]脆弱2を得る",
+      "Ⅰ[的中時]脆弱1を得る"
+    ]
+  }
+]
