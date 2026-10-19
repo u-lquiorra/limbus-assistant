@@ -55,8 +55,8 @@ export default function Home() {
               <span>FACE THE SIN,</span>{" "}<span>SAVE THE E.G.O</span>
             </p>
             <p className="hero-lead">
-              <span className="hero-lead-full">人格・E.G.O・編成・ボス攻略・用語まで網羅する非公式攻略データベース。</span>
-              <span className="hero-lead-short">人格・E.G.O・編成・ボス・用語の非公式攻略DB</span>
+              <span className="hero-lead-full">人格・E.G.O・編成・ボス攻略・用語など。非公式攻略データベース。</span>
+              <span className="hero-lead-short">人格・E.G.O・編成・ボス・用語などの非公式攻略DB</span>
             </p>
 
             <div role="search">
