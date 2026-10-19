@@ -36,6 +36,7 @@ export interface TargetState {
   echo: number; // 邸宅の木霊の残りターン
   echoNext: number;
   concussion: number; // 脳震盪の残りターン(最大2)
+  butterfly: { live: number; dead: number }; // 蝶(特殊沈潜)。生きた蝶・死んだ蝶(それぞれ最大15)
 }
 
 export interface SelfState {
@@ -94,6 +95,7 @@ export interface SimResult {
 
 const MAX = 99;
 const CHARGE_MAX = 20;
+const BUTTERFLY_MAX = 15;
 
 export function makeRng(seed: number): () => number {
   let a = seed >>> 0;
@@ -118,6 +120,7 @@ export const emptyTarget = (): TargetState => ({
   echo: 0,
   echoNext: 0,
   concussion: 0,
+  butterfly: { live: 0, dead: 0 },
 });
 const emptySelf = (): SelfState => ({ breath: { p: 0, c: 0 }, charge: 0, chargeP: 0, tremorC: 0 });
 const emptyDmg = (): Dmg => ({ skill: 0, burn: 0, bleed: 0, rupture: 0, sinking: 0, tremor: 0 });
@@ -273,6 +276,10 @@ export function applyEffect(
   if (eff.blackFlameNext) t.blackFlameNext = Math.min(7, t.blackFlameNext + eff.blackFlameNext);
   if (eff.echoNext) t.echoNext = Math.max(t.echoNext, eff.echoNext);
   if (eff.concussion) t.concussion = Math.min(2, Math.max(t.concussion, eff.concussion));
+  if (eff.butterfly) {
+    t.butterfly.live = Math.min(BUTTERFLY_MAX, t.butterfly.live + (eff.butterfly.live ?? 0));
+    t.butterfly.dead = Math.min(BUTTERFLY_MAX, t.butterfly.dead + (eff.butterfly.dead ?? 0));
+  }
   if (eff.burnFromBlackFlame && t.blackFlame > 0) {
     addPC(t.burn, t.blackFlame, 0);
     con.applied.burnP = (con.applied.burnP ?? 0) + t.blackFlame;
@@ -329,6 +336,7 @@ export function applyEffect(
   }
 
   if (eff.flatDmg) addDmg(ctx, con, eff.flatDmg.kind, eff.flatDmg.amount);
+  if (eff.butterflyDmg) addDmg(ctx, con, "sinking", t.butterfly.live + t.butterfly.dead);
 
   if (eff.deluge && t.sinking.c > 0) {
     addDmg(ctx, con, "sinking", t.sinking.p * t.sinking.c);
@@ -365,6 +373,8 @@ export function evalMods(mods: Mod[], owner: string, ctx: Ctx, turn: number): Mo
         return self.charge;
       case "self.tremorC":
         return self.tremorC;
+      case "butterfly":
+        return t.butterfly.live + t.butterfly.dead;
       default: {
         const st = t[src.slice(0, -1) as TargetStatus];
         return src.endsWith("P") ? st.p : st.c;
@@ -442,6 +452,11 @@ export function castSkill(
             if (!(s === "rupture" && sustain)) t[s].c -= 1;
             normalize(t[s]);
           }
+        }
+        // 蝶: 被ダメージ時、死んだ蝶1につき(沈潜威力÷5)の憂鬱ダメージ(最大30)。
+        // 精神力の無いボスとして扱うので、半減して適用する(破裂・沈潜の処理より後に判定する)
+        if (t.butterfly.dead > 0 && t.sinking.p > 0) {
+          addDmg(ctx, con, "sinking", Math.floor(Math.min(30, Math.floor((t.butterfly.dead * t.sinking.p) / 5)) / 2));
         }
         // ダメージ = 威力 ×(1+クリティカル)×(1+ダメージ量)。静的・動的補正の掛け合わせ(docs 参照)
         if (skill.power) {
@@ -567,6 +582,12 @@ export function simulate(team: TeamInput, profiles: Map<string, Profile>, opts: 
       // ターン終了: 黒炎(黒炎×火傷威力のダメージで消滅)→ 火傷ダメージ → 火傷回数-1、振動回数-1。自分の呼吸回数・充電回数-1
       if (target.echo > 0) target.echo -= 1;
       if (target.concussion > 0) target.concussion -= 1;
+      // 蝶: 死んだ蝶を0にし、生きた蝶だけ沈潜を付与してから、生きた蝶を死んだ蝶へ変える
+      if (target.butterfly.live > 0 || target.butterfly.dead > 0) {
+        const live = target.butterfly.live;
+        addPC(target.sinking, live, 0);
+        target.butterfly = { live: 0, dead: live };
+      }
       if (target.blackFlame > 0) {
         ctx.dmg.burn += target.blackFlame * target.burn.p;
         target.blackFlame = 0;

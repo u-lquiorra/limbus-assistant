@@ -50,6 +50,35 @@ test("振動-大量出血は出血、振動-反響は振動威力そのものの
   assert.deepEqual([c.target.burn.c, c.target.tremor.c], [3, 1]);
 });
 
+test("蝶: 被弾ごとに 死んだ蝶×沈潜威力÷5(最大30)を半減した憂鬱ダメージ。蝶ダメージは全ての蝶ぶん", () => {
+  // 沈潜10/5、死んだ蝶6 → 被弾で沈潜10 + 蝶 floor(min(30, 12)/2)=6
+  const c = makeCtx(target({ sinking: { p: 10, c: 5 }, butterfly: { live: 4, dead: 6 } }));
+  castSkill("x", { name: "t", coins: [{}] }, c, OPTS, true);
+  assert.equal(c.dmg.sinking, 16);
+  // 上限30を半減して15
+  const d = makeCtx(target({ sinking: { p: 40, c: 5 }, butterfly: { live: 0, dead: 15 } }));
+  castSkill("x", { name: "t", coins: [{}] }, d, OPTS, true);
+  assert.equal(d.dmg.sinking, 40 + 15);
+  // 蝶ダメージ: 生きた蝶+死んだ蝶
+  const e = makeCtx(target({ butterfly: { live: 4, dead: 6 } }));
+  applyEffect({ butterflyDmg: true }, "x", e);
+  assert.equal(e.dmg.sinking, 10);
+  // 付与は種類ごとに最大15
+  applyEffect({ butterfly: { live: 20, dead: 20 } }, "x", e);
+  assert.deepEqual(e.target.butterfly, { live: 15, dead: 15 });
+});
+
+test("蝶: ターン終了時に死んだ蝶が0になり、生きた蝶ぶん沈潜を付与して、生きた蝶が死んだ蝶に変わる", () => {
+  // 1ターン目だけ蝶(生きた5・死んだ3)を付与し、2ターン目は何もしない。状態はターン終了処理の前に記録されるので、
+  // 2ターン目の記録に1ターン目終了時の変換結果(沈潜5/1)が出る
+  const noop = { skill: { name: "t", coins: [{ noDamage: true }] } };
+  const give = { skill: { name: "t", coins: [{ hit: { butterfly: { live: 5, dead: 3 } }, noDamage: true }] }, turns: [1] };
+  const p: Profile = { code: "x", name: "x", skills: { S1: [noop, give], S2: [noop], S3: [noop] }, notes: [] };
+  const r = simulate({ name: "t", members: ["x"] }, new Map([["x", p]]), { turns: 2, trials: 1, clashWinRate: 1 });
+  assert.equal(r.turns[1].state.sinkingP, 5);
+  assert.equal(r.turns[1].state.sinkingC, 1);
+});
+
 test("振動-保存は (60+攻撃者の充電威力×8)% のダメージ。充電回数は参照せず、ル・ノワールの爆発では回数が減らない", () => {
   // 充電回数20・充電威力0なら60%
   const a = makeCtx(target({ tremor: { p: 10, c: 3 }, tremorType: "保存" }));

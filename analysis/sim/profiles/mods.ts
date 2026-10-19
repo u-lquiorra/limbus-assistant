@@ -13,6 +13,7 @@ const BL: ModSource = "bleedP";
 const BLc: ModSource = "bleedC";
 const R: ModSource = "ruptureP";
 const S: ModSource = "sinkingP";
+const BF: ModSource = "butterfly"; // 対象の全ての蝶
 const Sc: ModSource = "sinkingC";
 const TR: ModSource = "tremorP";
 const TRc: ModSource = "tremorC";
@@ -344,9 +345,11 @@ export const SKILL_MODS: Record<string, Record<string, Mod[]>> = {
     絶命巳乱: [{ coin: 1, ...per([BR, R], 10, 2) }],
   },
   "0110": {
-    往にし者へ祝辞を: [{ coin: 1, ...ge([S], 6) }],
-    残りし者へ厳粛な哀悼を: [{ coin: 1, ...per([S], 6, 2) }],
-    "葬儀はイサンより、以上。": [{ coin: 1, ...per([S], 6, 2) }, { dmg: 0.1 }],
+    // 「対象の沈潜と全ての蝶の合計」で判定する
+    往にし者へ祝辞を: [{ coin: 1, ...ge([S, BF], 6) }],
+    残りし者へ厳粛な哀悼を: [{ coin: 1, ...per([S, BF], 6, 2) }],
+    // 保有する弾5につき基本威力+1(最大4)は2とみる。Ⅲの「消耗した弾1につきダメージ量+4%」はスキル全体に+10%で近似
+    "葬儀はイサンより、以上。": [{ coin: 1, ...per([S, BF], 6, 2) }, { base: 2 }, { dmg: 0.1 }],
   },
   "0807": {
     過激な判断: [{ dmg: 0.4, ...ge([S], 6) }],

@@ -1,10 +1,16 @@
 // 沈潜編成の人格プロファイル(内部データ。画面には出さない)。前提は burn.ts の冒頭と同じ。
 // 沈潜は「攻撃を受けるたびに威力ぶんの精神力ダメージ」だが、精神力の無いボス(幻想体など)では憂鬱ダメージになるので、
 // ここではダメージとして数える。精神力のあるボスでは、実際には精神力を削ってパニックを狙う効果になる
-import type { Profile } from "../types.ts";
+import type { Effect, Profile } from "../types.ts";
 import { coin, skill } from "./helpers.ts";
 
 const H = 0.7; // 表面的中・マッチ勝利の確率の近似
+
+// 厳粛な哀悼イサンの蝶の付与。消耗した弾 n 発を、35%で生きた蝶・65%で死んだ蝶として付与する
+const bf = (n: number): Effect[] => [
+  { butterfly: { live: n }, prob: 0.35 },
+  { butterfly: { dead: n }, prob: 0.65 },
+];
 
 export const SINKING_PROFILES: Profile[] = [
   {
@@ -314,20 +320,25 @@ export const SINKING_PROFILES: Profile[] = [
   {
     code: "0110",
     name: "ロボトミーE.G.O::厳粛な哀悼",
-    // 蝶は沈潜とは別の特殊沈潜(最大15)。S3最終コインの「対象の全ての蝶だけ憂鬱ダメージ」を固定ダメージで近似し、
-    // 蝶そのものは沈潜として数えない
+    // 蝶は沈潜とは別の特殊沈潜(生きた蝶・死んだ蝶、最大15)。コインごとに保有する弾(生きた蝶・死んだ蝶)を消耗し、
+    // 消耗した種類の蝶を同じ数だけ付与する。弾は精神力0以上なら30%で生きた蝶・70%で死んだ蝶として補充されるので、
+    // 付与する蝶は「35%で生きた蝶、65%で死んだ蝶」で近似する(初期の10・10を含めた平均)
     skills: {
-      S1: [{ skill: skill("往にし者へ祝辞を", [coin(), coin()], { onUse: { sinkingC: 2, prob: H } }) }],
-      S2: [{ skill: skill("残りし者へ厳粛な哀悼を", [coin(), coin()], { onUse: { sinkingC: 1, prob: H } }) }],
+      S1: [{ skill: skill("往にし者へ祝辞を", [coin(bf(1)), coin(bf(1))], { onUse: { sinkingC: 2, prob: H } }) }],
+      S2: [{ skill: skill("残りし者へ厳粛な哀悼を", [coin(bf(5)), coin(bf(1))], { onUse: { sinkingC: 1, prob: H } }) }],
       S3: [
         {
-          skill: skill("葬儀はイサンより、以上。", [coin(), coin(), coin(), coin({ flatDmg: { kind: "sinking", amount: 15 } })], {
+          // Ⅲは残りの弾を全て消耗する。S2・S3の再装填の後なので6前後とみる
+          skill: skill("葬儀はイサンより、以上。", [coin(bf(1)), coin(bf(6)), coin(bf(6)), coin({ butterflyDmg: true })], {
             onUse: { sinkingC: 3, prob: H },
           }),
         },
       ],
     },
-    notes: ["蝶は沈潜と別扱い。S3の蝶ダメージは15(蝶が半分ほど溜まった状態)で近似", "蝶が被弾時に攻撃者の精神力を削る効果は扱わない"],
+    notes: [
+      "弾が足りないときのコインのキャンセルと、再装填の量は扱わない",
+      "蝶が被弾時に攻撃者の精神力を回復する効果、守備のバリア、サポートパッシブ(沈潜2を消耗して蝶1)は扱わない",
+    ],
   },
   {
     code: "0807",

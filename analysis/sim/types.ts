@@ -40,6 +40,9 @@ export type Effect = Partial<Record<StatusKey, number>> & {
   echoNext?: number; // 次のターンに邸宅の木霊(この数値のターンだけ、沈潜の付与時に50%で沈潜回数+1)
   needEcho?: boolean; // 対象に邸宅の木霊があるときだけ起きる
   concussion?: number; // 脳震盪(この数値のターンだけ、破裂ダメージと振動爆発の混乱区間前進が1.2倍)
+  // 蝶(特殊沈潜、厳粛な哀悼イサン)を付与する。live = 生きた蝶(威力)、dead = 死んだ蝶(回数)。それぞれ最大15
+  butterfly?: { live?: number; dead?: number };
+  butterflyDmg?: boolean; // 対象の全ての蝶(生きた蝶+死んだ蝶)だけ憂鬱ダメージ
   flatDmg?: { kind: "burn" | "bleed" | "rupture" | "sinking" | "tremor"; amount: number }; // 固定の状態異常ダメージ(特殊状態異常の近似)
   consumeCharge?: number; // 自分の充電回数をこれだけ消耗できたときだけ起きる(消耗する)
   crit?: boolean; // このコインがクリティカルのときだけ起きる(自分の呼吸で判定)
@@ -63,7 +66,7 @@ export interface Power {
 }
 
 // スキルの威力・ダメージ量の補正(「対象の火傷6につきコイン威力+1(最大2)」など)。スキル使用時に判定する
-export type ModSource = StatusKey | "self.breathP" | "self.breathC" | "self.charge" | "self.tremorC";
+export type ModSource = StatusKey | "self.breathP" | "self.breathC" | "self.charge" | "self.tremorC" | "butterfly"; // butterfly = 対象の全ての蝶
 export interface Mod extends TurnWindow {
   coin?: number; // コイン威力(表が出たコインに加算)
   base?: number; // 基本威力
