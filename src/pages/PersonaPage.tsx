@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import Breadcrumb from "../components/Breadcrumb";
 import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
@@ -349,13 +350,7 @@ export default function PersonaPage() {
           <div className="persona-hero-backdrop" style={{ backgroundImage: `url("${asset(status.image)}")` }} />
         )}
         <div className="container">
-          <nav className="breadcrumb" aria-label="パンくずリスト">
-            <Link to="/">囚人一覧</Link>
-            <span aria-hidden="true">/</span>
-            <Link to={charPath}>{character.name}</Link>
-            <span aria-hidden="true">/</span>
-            <span aria-current="page">{status.name}</span>
-          </nav>
+          <Breadcrumb items={[{ label: character.name, to: charPath }, { label: status.name }]} />
         </div>
         <div className="container persona-hero-inner">
           <div className="persona-hero-image">

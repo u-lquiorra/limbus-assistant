@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import Breadcrumb from "../components/Breadcrumb";
 import { getEgo, getPersona, getTeam, loadTeamGuide } from "../data/loader";
 import type { Guide } from "../guide";
 import { asset, seasonLabel } from "../lib";
@@ -129,11 +130,7 @@ export default function TeamPage() {
 
   return (
     <div className="container section team-page">
-      <nav className="breadcrumb" aria-label="パンくずリスト">
-        <Link to="/teams">編成例</Link>
-        <span aria-hidden="true">/</span>
-        <span aria-current="page">{team.name}</span>
-      </nav>
+      <Breadcrumb items={[{ label: "編成例", to: "/teams" }, { label: team.name }]} />
       <header className="team-hero">
         <p className="kicker">
           TEAM ・ {team.category} ・ {team.difficulty}向け

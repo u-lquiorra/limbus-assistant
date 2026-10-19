@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import Breadcrumb from "../components/Breadcrumb";
 import { getEgo, loadEgoDetail, loadEgoGuide, teamsForEgo } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { egoGuideKeywords, type Guide } from "../guide";
@@ -167,13 +168,7 @@ export default function EgoPage() {
       <section className="persona-hero">
         {ego.image && <div className="persona-hero-backdrop" style={{ backgroundImage: `url("${asset(ego.image)}")` }} />}
         <div className="container">
-          <nav className="breadcrumb" aria-label="パンくずリスト">
-            <Link to="/">囚人一覧</Link>
-            <span aria-hidden="true">/</span>
-            <Link to={charPath}>{character.name}</Link>
-            <span aria-hidden="true">/</span>
-            <span aria-current="page">{ego.name}</span>
-          </nav>
+          <Breadcrumb items={[{ label: character.name, to: charPath }, { label: ego.name }]} />
         </div>
         <div className="container persona-hero-inner">
           <div className="persona-hero-image">

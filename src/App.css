@@ -1553,6 +1553,71 @@
   text-decoration: underline;
 }
 
+/* ============ Home: 目的別の入口 ============ */
+
+.home-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-step {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  height: 100%;
+  padding: 20px 20px 22px;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius);
+  background: linear-gradient(160deg, rgba(216, 166, 74, 0.07), var(--surface) 55%);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.home-step:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.home-step-no {
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  font-family: var(--display);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.07);
+}
+
+.home-step .kicker {
+  font-size: 11px;
+}
+
+.home-step strong {
+  font-size: 18px;
+}
+
+.home-step-desc {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .home-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .home-steps { grid-template-columns: 1fr; gap: 10px; }
+  .home-step { padding: 16px 16px 18px; }
+}
+
 /* ============ Responsive ============ */
 
 @media (max-width: 900px) {

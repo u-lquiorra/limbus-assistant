@@ -7,6 +7,33 @@ import { SearchBox } from "../components/ui";
 
 const MAX_RESULTS = 48;
 
+const HOME_STEPS = [
+  {
+    to: "/reroll",
+    kicker: "REROLL",
+    title: "リセマラ",
+    description: "始める前に。おすすめ人格と、どこで終えてよいかの目安。",
+  },
+  {
+    to: "/beginner",
+    kicker: "BEGINNER",
+    title: "初心者ガイド",
+    description: "ストーリーの進め方から、育成・日課・交換までを順番に案内する。",
+  },
+  {
+    to: "/teams",
+    kicker: "TEAMS",
+    title: "編成例",
+    description: "火傷・出血・破裂など、キーワードごとの組み方と人格の役割。",
+  },
+  {
+    to: "/bosses",
+    kicker: "BOSSES",
+    title: "ボス攻略",
+    description: "詰まりやすい戦闘の負け方と対処、敵のスキル・パッシブ。",
+  },
+] as const;
+
 export default function Home() {
   const [query, setQuery] = useState("");
   const q = query.trim().toLowerCase();
@@ -71,17 +98,26 @@ export default function Home() {
         </section>
       )}
 
-      <section className="container section home-guides">
-        <Link to="/reroll" className="beginner-home-link">
-          <span className="kicker">REROLL GUIDE</span>
-          <strong>これから始めるなら、リセマラガイド</strong>
-          <span>おすすめ人格・終了ライン・スマホとSteamの違いを確認。 →</span>
-        </Link>
-        <Link to="/beginner" className="beginner-home-link">
-          <span className="kicker">NEW MANAGER GUIDE</span>
-          <strong>まず何をすればいい？ 初心者ガイド</strong>
-          <span>ストーリーの進め方から、育成・日課・交換までを順番に案内する。 →</span>
-        </Link>
+      <section className="container section" aria-labelledby="home-start-title">
+        <header className="section-header">
+          <h2 className="section-title" id="home-start-title">
+            <span className="section-title-en">START HERE</span>
+            目的から探す
+          </h2>
+        </header>
+        {/* 始めたばかりの人が上から順に進めるよう、プレイの段階に沿って並べる */}
+        <ol className="home-steps">
+          {HOME_STEPS.map((step, i) => (
+            <li key={step.to}>
+              <Link to={step.to} className="home-step">
+                <span className="home-step-no" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
+                <span className="kicker">{step.kicker}</span>
+                <strong>{step.title}</strong>
+                <span className="home-step-desc">{step.description}</span>
+              </Link>
+            </li>
+          ))}
+        </ol>
       </section>
 
       <section className="container section">

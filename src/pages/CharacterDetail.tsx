@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import Breadcrumb from "../components/Breadcrumb";
 import { getCharacter, getNeighbors } from "../data/loader";
 import { ATTACK_TYPES, asset, personaAttackTypes, personaSins } from "../lib";
 import { SIN_COLORS, SIN_ORDER, sinTextColor } from "../sinColors";
@@ -73,9 +74,7 @@ function CharacterDetail({ name }: { name?: string }) {
       <section className="char-hero">
         {poster && <div className="char-hero-backdrop" style={{ backgroundImage: `url("${asset(poster)}")` }} />}
         <div className="container char-hero-top">
-          <Link to="/" className="back-link">
-            ← 囚人一覧
-          </Link>
+          <Breadcrumb items={[{ label: character.name }]} />
         </div>
         <div className="container char-hero-inner">
           <div className="char-hero-poster">
