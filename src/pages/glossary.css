@@ -133,9 +133,6 @@
 .chance-diagram .diagram-legend { margin-bottom: 0; max-width: 300px; }
 .term-example-note { color: var(--muted); margin-top: 16px; font-size: 13px; }
 .term-sources { border-top: 1px solid var(--line); padding-block: 24px; font-size: 12px; color: var(--muted); line-height: 1.9; }
-.term-sources p + p { margin-top: 8px; }
-.term-sources ul { padding-left: 20px; }
-.term-sources a { overflow-wrap: anywhere; }
 .glossary-reference { display: inline-block; margin-left: 10px; font-size: 12px; color: var(--gold); font-weight: normal; }
 .glossary-reference-entry { margin-top: 24px; }
 @media (max-width: 760px) {

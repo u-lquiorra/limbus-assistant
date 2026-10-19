@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from "react-router-dom";
-import { getGlossaryTerm, glossarySectionRedirect, GLOSSARY_CATEGORIES, glossarySources } from "../glossary";
+import { getGlossaryTerm, glossarySectionRedirect, GLOSSARY_CATEGORIES } from "../glossary";
 import { TermCard } from "./GlossaryPage";
 import GlossaryExample from "../components/GlossaryExample";
 import GlossarySectionHeader from "../components/GlossarySectionHeader";
@@ -74,12 +74,8 @@ export default function GlossaryDetail() {
         <div className="term-grid">{related.map((entry) => <TermCard key={entry.id} term={entry} />)}</div>
       </section>
       <footer className="term-sources">
+        {/* 出典(term.sources)は画面に出さず、データにだけ残す */}
         <p>内容確認日：<time dateTime={term.checkedAt}>{term.checkedAt}</time> ／ 基本的な仕組みを解説。個別スキルや敵の例外は、それぞれの効果文も確認する。</p>
-        <p>参考資料を照合し、初心者向けに独自の説明・例を作成。</p>
-        <ul>{term.sources.map((key) => {
-          const source = glossarySources[key];
-          return source ? <li key={key}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li> : null;
-        })}</ul>
       </footer>
       <Link to="/glossary" className="back-link">← 用語一覧に戻る</Link>
     </article>

@@ -334,11 +334,6 @@ export default function EgoPage() {
           ) : (
             <span />
           )}
-          {ego.wikiUrl && (
-            <a className="wiki-link" href={ego.wikiUrl} target="_blank" rel="noreferrer">
-              wikiで詳しく見る ↗
-            </a>
-          )}
           {next ? (
             <Link to={`/ego/${next.code}`} className="pager-link pager-next">
               <span className="pager-dir">NEXT →</span>

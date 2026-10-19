@@ -549,11 +549,6 @@ export default function PersonaPage() {
           ) : (
             <span />
           )}
-          {status.wikiUrl && (
-            <a className="wiki-link" href={status.wikiUrl} target="_blank" rel="noreferrer">
-              wikiで詳しく見る ↗
-            </a>
-          )}
           {next ? (
             <Link to={`/persona/${next.code}`} className="pager-link pager-next">
               <span className="pager-dir">NEXT →</span>

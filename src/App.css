@@ -1552,7 +1552,7 @@
 
 .persona-pager {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 12px;
   padding-top: 24px;
@@ -1569,16 +1569,6 @@
 
 .persona-pager .pager-link {
   max-width: 100%;
-}
-
-.wiki-link {
-  font-size: 13px;
-  color: var(--gold);
-  text-decoration: none;
-}
-
-.wiki-link:hover {
-  text-decoration: underline;
 }
 
 /* ============ Home: 目的別の入口 ============ */
@@ -1719,16 +1709,6 @@
 
   .passive-card-req {
     margin-left: 0;
-  }
-
-  .persona-pager {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .wiki-link {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    justify-self: center;
   }
 }
 
