@@ -1,0 +1,94 @@
+.search-heading { margin-block: 24px 24px; }
+.search-heading h1 { margin-block: 14px; }
+.search-heading > p:not(.kicker) { color: var(--muted); }
+
+.search-page-box { margin-bottom: 24px; }
+.search-page-box .search { max-width: 720px; }
+
+.search-examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+.search-examples ul { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.search-examples .chip { text-decoration: none; }
+
+.search-summary { margin-bottom: 20px; color: var(--muted); font-size: 13px; }
+
+.search-group { margin-bottom: 32px; }
+.search-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+  font-size: 17px;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+.search-result:hover { border-color: var(--line-strong); background: var(--surface-2); }
+
+.search-result img,
+.search-result-noimage {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--bg-2);
+}
+/* 囚人は縦長のポスターなので顔の位置(上側)を見せる */
+.search-result-sinner img { object-position: top; }
+.search-result-noimage {
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  color: var(--gold);
+  font-family: var(--display);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+
+.search-result-text { display: grid; min-width: 0; }
+.search-result-text strong { font-size: 14px; overflow-wrap: anywhere; }
+.search-result-text span {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-more {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.search-more:hover { color: var(--text); border-color: var(--gold); }
+
+@media (max-width: 480px) {
+  .search-results { grid-template-columns: 1fr; }
+}

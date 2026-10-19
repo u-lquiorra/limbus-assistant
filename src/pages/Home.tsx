@@ -1,11 +1,9 @@
-import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { allPersonas, characterList } from "../data/loader";
 import { asset } from "../lib";
-import PersonaCard from "../components/PersonaCard";
+import SiteSearchResults from "../components/SiteSearchResults";
 import { SearchBox } from "../components/ui";
-
-const MAX_RESULTS = 48;
+import { useSearchQuery } from "../useSearchQuery";
 
 const HOME_STEPS = [
   {
@@ -35,17 +33,8 @@ const HOME_STEPS = [
 ] as const;
 
 export default function Home() {
-  const [query, setQuery] = useState("");
-  const q = query.trim().toLowerCase();
-
-  const results = useMemo(() => {
-    if (!q) return [];
-    return allPersonas.filter(({ status }) =>
-      [status.name, status.character, status.affiliation?.name ?? "", status.code].some((s) =>
-        s.toLowerCase().includes(q)
-      )
-    );
-  }, [q]);
+  const { value: query, boxProps } = useSearchQuery();
+  const q = query.trim();
 
   return (
     <>
@@ -59,7 +48,13 @@ export default function Home() {
           </h1>
           <p className="hero-lead">Limbus Company の囚人・人格データを日本語でまとめた非公式攻略データベース。</p>
 
-          <SearchBox value={query} onChange={setQuery} placeholder="人格・所属・囚人名で検索" label="人格を検索" />
+          <div role="search">
+            <SearchBox
+              {...boxProps}
+              placeholder="人格・囚人・ボス・用語・編成で検索"
+              label="サイト内を検索"
+            />
+          </div>
 
           <dl className="hero-stats">
             <div>
@@ -81,20 +76,8 @@ export default function Home() {
               <span className="section-title-en">RESULTS</span>
               検索結果
             </h2>
-            <span className="section-count">{results.length}件</span>
           </header>
-          {results.length ? (
-            <div className="persona-grid">
-              {results.slice(0, MAX_RESULTS).map(({ status, skills }) => (
-                <PersonaCard key={status.code} status={status} skills={skills} showCharacter />
-              ))}
-            </div>
-          ) : (
-            <p className="empty">「{query}」に一致する人格は見つからない。</p>
-          )}
-          {results.length > MAX_RESULTS && (
-            <p className="empty">上位{MAX_RESULTS}件を表示中。条件を絞り込むと探しやすい。</p>
-          )}
+          <SiteSearchResults query={query} headingLevel="h3" />
         </section>
       )}
 

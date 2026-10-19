@@ -11,6 +11,7 @@ import GlossaryDetail from "./pages/GlossaryDetail";
 import BeginnerGuide from "./pages/BeginnerGuide";
 import RerollGuide from "./pages/RerollGuide";
 import BossPage, { BossIndex } from "./pages/BossPage";
+import SearchPage from "./pages/SearchPage";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import "./App.css";
 
@@ -60,6 +61,24 @@ function SiteNav() {
   );
 }
 
+function SiteSearchLink() {
+  const { pathname } = useLocation();
+  return (
+    <Link
+      to="/search"
+      className="site-search-link"
+      aria-label="サイト内検索"
+      title="サイト内検索"
+      aria-current={pathname === "/search" ? "page" : undefined}
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.5-3.5" />
+      </svg>
+    </Link>
+  );
+}
+
 function App() {
   return (
     <HashRouter>
@@ -73,6 +92,7 @@ function App() {
             </span>
           </Link>
           <SiteNav />
+          <SiteSearchLink />
         </div>
       </header>
 
@@ -89,6 +109,7 @@ function App() {
           <Route path="/beginner" element={<BeginnerGuide />} />
           <Route path="/reroll" element={<RerollGuide />} />
           <Route path="/bosses" element={<BossIndex />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/bosses/:id" element={<BossPage />} />
         </Routes>
       </main>

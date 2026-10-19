@@ -59,7 +59,35 @@
   color: var(--gold);
 }
 
-.site-nav { display: flex; align-items: center; gap: 20px; flex-shrink: 0; flex-wrap: wrap; }
+.site-nav { display: flex; align-items: center; gap: 20px; flex-shrink: 0; flex-wrap: wrap; margin-left: auto; }
+
+.site-search-link {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--muted);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.site-search-link:hover,
+.site-search-link[aria-current="page"] {
+  color: var(--text);
+  border-color: var(--gold);
+}
+
+.site-search-link svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
 
 .site-nav a {
   display: inline-flex;
@@ -1645,6 +1673,9 @@
   .site-nav::-webkit-scrollbar { display: none; }
   .site-nav a { flex-shrink: 0; white-space: nowrap; font-size: 13px; }
   .site-nav a[aria-current="page"]::after { bottom: 6px; }
+  /* 検索ボタンはロゴと同じ段の右端に置き、ナビはその下の段にする */
+  .site-search-link { order: 1; width: 36px; height: 36px; margin-left: auto; }
+  .site-nav { order: 2; }
   .search input { font-size: 16px; }
 
   .char-hero-inner {

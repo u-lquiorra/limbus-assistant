@@ -37,6 +37,7 @@ export function SearchBox({
   placeholder,
   label,
   small,
+  autoFocus,
   onCompositionStart,
   onCompositionEnd,
 }: {
@@ -45,6 +46,7 @@ export function SearchBox({
   placeholder: string;
   label: string;
   small?: boolean;
+  autoFocus?: boolean;
   onCompositionStart?: () => void;
   onCompositionEnd?: (value: string) => void;
 }) {
@@ -62,6 +64,7 @@ export function SearchBox({
         onCompositionEnd={(e) => onCompositionEnd?.(e.currentTarget.value)}
         placeholder={placeholder}
         aria-label={label}
+        autoFocus={autoFocus}
       />
     </div>
   );
