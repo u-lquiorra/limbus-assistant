@@ -1,0 +1,112 @@
+.beginner-home-link {
+  display: grid;
+  gap: 7px;
+  padding: 22px 24px;
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  background: linear-gradient(110deg, rgba(216, 166, 74, .08), var(--surface) 45%);
+  text-decoration: none;
+  transition: border-color .15s, transform .15s;
+}
+.beginner-home-link:hover { border-color: var(--gold); transform: translateY(-2px); }
+.beginner-home-link .kicker { font-size: 11px; }
+.beginner-home-link strong { font-size: 19px; }
+.beginner-home-link > span:last-child { color: var(--muted); font-size: 14px; }
+
+.container.beginner-guide { max-width: 1200px; }
+.beginner-heading { margin-block: 24px 30px; }
+.beginner-heading .persona-title { margin-block: 14px; }
+.beginner-intro { max-width: 700px; margin-top: 12px; color: var(--muted); font-size: 17px; }
+.beginner-updated { margin-top: 14px; color: var(--dim); font-size: 12px; }
+
+.beginner-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: clamp(30px, 5vw, 68px); align-items: start; }
+.beginner-sidebar { position: sticky; top: 84px; }
+.beginner-toc { padding-block: 4px 8px; border-left: 1px solid var(--line-strong); }
+.beginner-toc-title { margin: 0 0 12px 17px; color: var(--dim); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.beginner-toc ol, .beginner-toc-mobile ol { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.beginner-toc a, .beginner-toc-mobile a { display: flex; align-items: baseline; gap: 10px; padding: 8px 12px 8px 17px; border-left: 2px solid transparent; color: var(--muted); font-size: 13px; line-height: 1.5; text-decoration: none; transition: border-color .15s, color .15s, background .15s; }
+.beginner-toc a:hover, .beginner-toc-mobile a:hover { border-left-color: var(--gold); background: rgba(255,255,255,.025); color: var(--text); }
+.beginner-toc a span, .beginner-toc-mobile a span { color: var(--dim); font: 11px var(--display); }
+.beginner-toc-mobile { display: none; }
+.beginner-content { min-width: 0; }
+.beginner-sections { padding-top: 0; }
+.beginner-section { scroll-margin-top: 82px; }
+.beginner-section + .beginner-section { margin-top: 48px; }
+.beginner-section-heading { margin-bottom: 14px; }
+.beginner-section-heading .section-title-en { font-size: 27px; }
+.beginner-section-lead { margin: -2px 0 14px; color: var(--muted); font-size: 14px; }
+.beginner-topic-list { display: block; }
+.beginner-topic { min-width: 0; padding-block: 17px; border-bottom: 1px solid var(--line); }
+.beginner-topic:first-child { padding-top: 8px; }
+.beginner-topic h3 { margin-bottom: 6px; font-size: 16px; }
+.beginner-topic > p { max-width: 760px; color: var(--muted); font-size: 14px; line-height: 1.85; }
+.beginner-topic .beginner-related { margin-top: 9px; color: var(--dim); font-size: 12px; }
+.beginner-related a { color: var(--gold); text-decoration-color: rgba(216,166,74,.4); text-underline-offset: 3px; }
+.beginner-related a:hover { text-decoration-color: currentColor; }
+
+.beginner-shard-guide { width: 100%; margin: 20px 0 0; padding: 22px; border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); background: var(--surface); }
+.beginner-shard-guide > figcaption { margin-bottom: 16px; font-size: 17px; font-weight: 700; }
+.beginner-shard-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin: 0; padding: 0; list-style: none; }
+.beginner-shard-flow li { position: relative; display: flex; flex-direction: column; gap: 5px; min-width: 0; padding-top: 34px; }
+.beginner-shard-flow li + li::before { content: ""; position: absolute; left: -20px; right: 0; top: 11px; border-top: 1px solid var(--line-strong); }
+.shard-step { position: absolute; top: 0; left: 0; display: grid; place-items: center; width: 24px; height: 24px; border: 1px solid var(--gold); border-radius: 50%; color: var(--gold); background: var(--surface); font: 11px var(--display); }
+.beginner-shard-flow strong { font-size: 13px; }
+.beginner-shard-flow small { color: var(--muted); font-size: 11px; line-height: 1.6; }
+.beginner-box-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; margin-top: 15px; }
+.beginner-box-types section { padding-block: 12px; border-top: 1px solid var(--line); }
+.beginner-box-types h4 { margin-bottom: 4px; font-size: 13px; }
+.beginner-box-types p { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.beginner-box-table-wrap { margin-top: 18px; }
+.beginner-box-table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; }
+.beginner-box-table caption { padding-bottom: 9px; color: var(--text); font-size: 13px; font-weight: 700; text-align: left; }
+.beginner-box-table th, .beginner-box-table td { padding: 10px; border: 1px solid var(--line-strong); vertical-align: top; }
+.beginner-box-table thead { background: var(--bg-2); color: var(--gold); }
+.beginner-box-table tbody th { font-weight: 600; }
+.beginner-box-table tbody td { color: var(--muted); }
+.beginner-box-note { margin-top: 10px; color: var(--dim); font-size: 11px; line-height: 1.8; }
+
+.beginner-sources { margin-top: 44px; padding: 20px 0; border-top: 1px solid var(--line-strong); }
+.beginner-sources h2 { font-size: 15px; }
+.beginner-sources p { margin-top: 7px; color: var(--dim); font-size: 12px; }
+.beginner-sources ul { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 13px 0 0; padding: 0; list-style: none; }
+.beginner-sources a { color: var(--muted); font-size: 12px; text-underline-offset: 3px; }
+.beginner-sources a:hover { color: var(--text); }
+
+@media (max-width: 900px) {
+  .beginner-layout { display: block; }
+  .beginner-sidebar { display: none; }
+  .beginner-toc-mobile { display: block; margin-bottom: 30px; border-bottom: 1px solid var(--line-strong); }
+  .beginner-toc-mobile summary { display: flex; align-items: center; justify-content: space-between; padding: 13px 2px; color: var(--text); font-size: 14px; font-weight: 600; cursor: pointer; list-style: none; }
+  .beginner-toc-mobile summary::-webkit-details-marker { display: none; }
+  .beginner-toc-mobile summary::after { content: "+"; color: var(--gold); font-size: 18px; font-weight: 400; }
+  .beginner-toc-mobile[open] summary::after { content: "−"; }
+  .beginner-toc-mobile summary span { margin-left: auto; margin-right: 12px; color: var(--dim); font-size: 11px; font-weight: 400; }
+  .beginner-toc-mobile a { padding-left: 10px; }
+  .beginner-toc-mobile ol { padding-bottom: 12px; }
+}
+
+@media (max-width: 620px) {
+  .beginner-topic-list { grid-template-columns: 1fr; }
+  .beginner-section + .beginner-section { margin-top: 40px; }
+  .beginner-section-heading .section-title-en { font-size: 23px; }
+  .beginner-home-link { padding: 18px; }
+  .beginner-shard-guide { padding: 16px; }
+  .beginner-shard-flow { grid-template-columns: 1fr; gap: 0; }
+  .beginner-shard-flow li { min-height: 62px; padding: 2px 0 14px 36px; }
+  .beginner-shard-flow li + li::before { content: "↓"; left: 5px; right: auto; top: -14px; bottom: auto; height: auto; border: 0; color: var(--gold); }
+  .shard-step { left: 0; }
+  .beginner-box-types { grid-template-columns: 1fr; }
+  .beginner-box-table, .beginner-box-table tbody, .beginner-box-table tr, .beginner-box-table th, .beginner-box-table td { display: block; }
+  .beginner-box-table caption { display: block; width: 100%; }
+  .beginner-box-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+  .beginner-box-table tbody tr { padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--bg-2); }
+  .beginner-box-table tbody tr + tr { margin-top: 8px; }
+  .beginner-box-table tbody th, .beginner-box-table tbody td { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1fr); gap: 8px; padding: 7px 0; border: 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+  .beginner-box-table tbody td::before { content: attr(data-label); color: var(--dim); }
+  .beginner-box-table tbody td:last-child { border-bottom: 0; }
+}
+
+@media (max-width: 480px) {
+  .beginner-section { scroll-margin-top: 110px; }
+}

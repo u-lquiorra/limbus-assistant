@@ -3,6 +3,10 @@
 スマホゲーム『Limbus Company』の攻略情報を閲覧できる非公式ファンアプリです。
 キャラクター表記は韓国版/グローバル版/日本語版で異なりますが、本アプリでは日本語版に統一しています。
 
+サイト: https://u-lquiorra.github.io/limbus-assistant/
+
+実装方針と担当範囲は[開発計画](docs/development-plan.md)を参照してください。
+
 データ出典: [LimbusCompany攻略Wiki (wikiwiki.jp/lcbwiki)](https://wikiwiki.jp/lcbwiki/)
 
 ## 開発
@@ -45,6 +49,47 @@ E.G.Oのコード(例 `0108`)は人格コードと4桁が重なる別物です�
 ```bash
 npm run build
 ```
+
+## 用語辞典のデータ更新
+
+共通の解説は `src/data/glossary.json` と `src/data/glossary-systems.json` で編集します。
+辞典は共通の仕組みを対象とします。人格固有の効果・パッシブの説明は人格詳細ページの用語解説に掲載します。
+収録状況と次の拡充候補は[共通用語のチェックリスト](docs/glossary-coverage.md)で管理します。光の苗木の各能力は1ページにまとめています。
+
+```bash
+npm test
+npm run build
+```
+
+辞典の内容を変更したら、根拠資料との照合と用語辞典レビューを実施します。
+
+`npm test` は、用語・節IDの重複、関連用語・正式名リンク・出典の整合性に加え、実際の初心者ガイドと全用語ページを描画して内部リンク・目次・見出しの参照先を確認します。人格・E.G.Oガイドの対象コード、人格リンク、参照JSONの存在も確認します。外部サイトの到達確認や説明内容のファクトチェックは別途必要です。
+
+## Claude Code / Codex の攻略ガイド支援
+
+ボス攻略の追加方法とファイル構成は[ボス攻略の追加・更新](docs/boss-guide-authoring.md)を参照してください。
+
+両方で `limbus-guide` スキルと、人格ガイド・用語辞典のレビュー担当を使えます。
+
+| 用途 | Claude Code | Codex |
+|---|---|---|
+| ガイド執筆 | `.claude/skills/limbus-guide/SKILL.md` | `.agents/skills/limbus-guide/SKILL.md` |
+| 事実確認 | `.claude/agents/guide-fact-checker.md` | `.codex/agents/guide-fact-checker.toml` |
+| 勝ち筋レビュー | `.claude/agents/guide-strategy-reviewer.md` | `.codex/agents/guide-strategy-reviewer.toml` |
+| 用語辞典レビュー | `.claude/agents/glossary-reviewer.md` | `.codex/agents/glossary-reviewer.toml` |
+
+手順・バトルシステム資料・レビュー基準の本文は `.claude/` 側を共通の参照元とし、Codex 用の定義から読み込みます。基準の変更は参照元に反映してください。
+Codex のレビュー担当は親のモデル・推論設定を引き継ぎます。
+
+Codex では、例えば `$limbus-guide 人格0103の攻略ガイドを更新して` と依頼します。
+スキルが一覧に出ない場合や追加したエージェントを認識しない場合は、Codex のセッションを再起動してください。
+サブエージェントを利用できない環境では、スキルの指示に従って観点別に照合し、その制約を報告します。
+
+用語辞典は「`glossary-reviewer` に `src/data/glossary.json` の全用語を独立レビューさせて」のように依頼します。ID（例：`match`、`sanity`）を指定すれば対象を絞れます。
+担当は根拠ページを実際に読んで、仕様・数値例・条件・例外・検索語とリンクを確認し、原稿を変更せずに結果を返します。
+レビュー記録は `docs/reviews/` に保存し、対象ファイルのSHA-256・用語別判定・根拠・未確認事項を残します。原稿を変更したら再レビューが必要です。
+AIの資料照合は、ゲーム内実証・人による承認と区別します。独立した担当を実行できなかった場合は、その旨を記録します。
+共通用語・人格固有の用語・検索語の扱いは [用語辞典の編集方針](docs/glossary-authoring.md) を参照してください。
 
 ## デプロイ
 

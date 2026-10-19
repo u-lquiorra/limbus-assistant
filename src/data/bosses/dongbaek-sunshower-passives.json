@@ -1,0 +1,37 @@
+[
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "ロボトミーE.G.O",
+    "effect": "バリア体力1200を保有して戦闘を開始"
+  },
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "危うい精神",
+    "effect": "毎ターン終了時、精神力が10減少"
+  },
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "危うい心",
+    "effect": "士気低下状態のなら、ターン開始時に攻撃威力増加2、束縛3を得る"
+  },
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "乱れた心",
+    "effect": "パニック状態なら混乱状態になる"
+  },
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "決意",
+    "effect": "パニック状態から復帰した場合、精神力を最大値まで回復してクイック2、攻撃威力増加2を得る"
+  },
+  {
+    "unit": "dongbaek-sunshower-body",
+    "name": "パニック変更不可",
+    "effect": "パニックタイプを変更するバフ獲得時、パニックタイプが変更されない。\nその代わり、精神力の無い対象に付与される効果が付与される。"
+  },
+  {
+    "unit": "dongbaek-sunshower-umbrella",
+    "name": "心の壁",
+    "effect": "このユニットが破壊されるたび、ドンベクの沈潜回数が5増加し、全囚人の沈潜が2減少。全囚人が次のターンに保護1、攻撃威力増加2を得る"
+  }
+]

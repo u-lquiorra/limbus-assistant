@@ -71,6 +71,19 @@ export default function Home() {
         </section>
       )}
 
+      <section className="container section home-guides">
+        <Link to="/reroll" className="beginner-home-link">
+          <span className="kicker">REROLL GUIDE</span>
+          <strong>これから始めるなら、リセマラガイド</strong>
+          <span>おすすめ人格・終了ライン・スマホとSteamの違いを確認。 →</span>
+        </Link>
+        <Link to="/beginner" className="beginner-home-link">
+          <span className="kicker">NEW MANAGER GUIDE</span>
+          <strong>まず何をすればいい？ 初心者ガイド</strong>
+          <span>ストーリーの進め方から、育成・日課・交換までを順番に案内します。 →</span>
+        </Link>
+      </section>
+
       <section className="container section">
         <header className="section-header">
           <h2 className="section-title">

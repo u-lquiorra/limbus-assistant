@@ -1,0 +1,83 @@
+[
+  {
+    "id": "talisman-doll-right-arm-1",
+    "unit": "talisman-doll-right-arm",
+    "name": "絡みゆくお札",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[使用時]対象に絡み付いた呪いの札2を付与",
+      "Ⅰ[的中時]次のターンに破裂2を付与。破裂回数2増加"
+    ]
+  },
+  {
+    "id": "talisman-doll-body-2",
+    "unit": "talisman-doll-body",
+    "name": "積もりゆく呪い",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[使用時]対象に絡み付いた呪いの札1を付与",
+      "Ⅰ[的中時]対象の持つ絡み付いた呪いの札の枚数分、絡み付いた呪いの札を付与",
+      "Ⅱ[表面的中時]次のターンに破裂5を付与",
+      "Ⅲ[表面的中時]次のターンに破裂2を付与。破裂回数2増加"
+    ]
+  },
+  {
+    "id": "talisman-doll-right-arm-3",
+    "unit": "talisman-doll-right-arm",
+    "name": "誰も泣かぬように",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 5,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[ターン終了時]貼り直された呪いの札が全て消滅",
+      "Ⅴ[的中時]次のターンに麻痺5を付与",
+      "[表面的中時]次のターンに束縛5を付与"
+    ]
+  },
+  {
+    "id": "talisman-doll-body-4",
+    "unit": "talisman-doll-body",
+    "name": "移転するお札",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[使用時]対象の絡み付いた呪いの札を全て消滅。消滅させた分、貼り直された呪いの札を得る。",
+      "資料脚注：札の付与タイミングは攻撃後。"
+    ]
+  },
+  {
+    "id": "talisman-doll-body-5",
+    "unit": "talisman-doll-body",
+    "name": "複製される呪い",
+    "sin": "色欲",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[使用時]対象の持つ絡み付いた呪いの札の枚数分、絡み付いた呪いの札を付与"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "brazen-bull-body-1",
+    "unit": "brazen-bull-body",
+    "name": "突進（2コイン）",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]火傷３を付与",
+      "Ⅱ[表面的中時]火傷３を付与"
+    ]
+  },
+  {
+    "id": "brazen-bull-body-2",
+    "unit": "brazen-bull-body",
+    "name": "押し潰す",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]火傷回数が３増加"
+    ]
+  },
+  {
+    "id": "brazen-bull-body-3",
+    "unit": "brazen-bull-body",
+    "name": "突進（3コイン）",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]火傷2を付与",
+      "[的中時]ダメージ量の20%混乱区間を前進",
+      "Ⅱ[表面的中時]火傷2を付与",
+      "[的中時]ダメージ量の20%混乱区間を前進",
+      "Ⅲ[表面的中時]火傷2を付与",
+      "[的中時]ダメージ量の20%混乱区間を前進"
+    ]
+  },
+  {
+    "id": "brazen-bull-body-4",
+    "unit": "brazen-bull-body",
+    "name": "溢れ出る哀しみ",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 7,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[マッチ敗北]拭えぬ哀しみ1を得る",
+      "Ⅰ[的中時]対象の精神力を15減少",
+      "[的中時]ダメージ量の50%、対象の混乱区間を前進"
+    ]
+  },
+  {
+    "id": "brazen-bull-head-5",
+    "unit": "brazen-bull-head",
+    "name": "熱い鳴き声",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 8,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[マッチ勝利時]次のターンにクイック、攻撃威力増加１を得る",
+      "Ⅰ[的中時]揺れ動く感情1を付与",
+      "[表面的中時]沈潜回数が3増加"
+    ]
+  },
+  {
+    "id": "brazen-bull-head-6",
+    "unit": "brazen-bull-head",
+    "name": "熱い悲鳴",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 8,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[マッチ勝利時]次のターンにクイック、攻撃威力増加１を得る",
+      "Ⅰ[的中時]揺れ動く感情1を付与",
+      "[表面的中時]沈潜2を付与",
+      "Ⅱ[的中時]揺れ動く感情1を付与",
+      "[表面的中時]沈潜2を付与"
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "fairy-gentleman-left-arm-1",
+    "unit": "fairy-gentleman-left-arm",
+    "name": "酔いたいか？",
+    "sin": "暴食",
+    "type": "打",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "マッチ進行時、高揚1を付与",
+      "Ⅰ[的中時]振動5を付与、振動回数2増加"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-body-2",
+    "unit": "fairy-gentleman-body",
+    "name": "分けて飲もう！",
+    "sin": "暴食",
+    "type": "打",
+    "base": 5,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "マッチ進行時、高揚2を付与",
+      "[使用時]体力を5％回復",
+      "Ⅰ[的中時]次のターンに束縛2を付与"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-left-arm-3",
+    "unit": "fairy-gentleman-left-arm",
+    "name": "残ったのはこれだけだな！",
+    "sin": "暴食",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "マッチ進行時、高揚2を付与",
+      "振動を持つ対象を優先して攻撃",
+      "Ⅱ[的中時]対象の振動回数分、振動爆発"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-body-4",
+    "unit": "fairy-gentleman-body",
+    "name": "これ食べちゃうぞ！（マッチ不可）",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "[マッチ不可]",
+      "対象変更不可",
+      "高揚を持つ対象を優先して攻撃",
+      "対象に酔いが無いなら、マッチ威力+5",
+      "Ⅰ[的中時]対象が高揚を持っているなら、高揚の数値分ダメージ量+10％",
+      "[的中時]対象が酔いを持っているなら与ダメージが0になり、自分の体力が-50",
+      "[的中時]高揚あるいは酔いを全て消耗"
+    ],
+    "label": "マッチ不可・対象変更不可"
+  },
+  {
+    "id": "fairy-gentleman-body-5",
+    "unit": "fairy-gentleman-body",
+    "name": "これ食べちゃうぞ！（マッチ可能）",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "高揚を持つ対象を優先して攻撃",
+      "対象に酔いが無いなら、マッチ威力+5",
+      "Ⅰ[的中時]対象が高揚を持っているなら、高揚の数値分ダメージ量+100%",
+      "[的中時]対象が酔いを持っているなら与ダメージが0になり、自分の体力が-50",
+      "[的中時]高揚あるいは酔いを全て消耗"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-body-6",
+    "unit": "fairy-gentleman-body",
+    "name": "今度はダメだ！",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 5,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "妖精酒を優先して攻撃",
+      "Ⅰ[的中時]妖精酒を攻撃した場合、次のターンに体力を10％回復、攻撃威力増加2,クイック2,保護2を得る。"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-body-7",
+    "unit": "fairy-gentleman-body",
+    "name": "この妖精酒が良いのか？",
+    "type": "回避",
+    "base": 5,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "[使用時]次のターンに束縛1を得る"
+    ]
+  },
+  {
+    "id": "fairy-gentleman-wine-1",
+    "unit": "fairy-gentleman-wine",
+    "name": "妖精酒",
+    "type": "防御",
+    "base": 1,
+    "coinPower": 0,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]相手の高揚を数値分、酔いに変換"
+    ]
+  }
+]

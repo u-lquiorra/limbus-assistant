@@ -37,12 +37,16 @@ export function SearchBox({
   placeholder,
   label,
   small,
+  onCompositionStart,
+  onCompositionEnd,
 }: {
   value: string;
   onChange: (v: string) => void;
   placeholder: string;
   label: string;
   small?: boolean;
+  onCompositionStart?: () => void;
+  onCompositionEnd?: (value: string) => void;
 }) {
   return (
     <div className={`search${small ? " search-sm" : ""}`}>
@@ -54,6 +58,8 @@ export function SearchBox({
         type="search"
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        onCompositionStart={onCompositionStart}
+        onCompositionEnd={(e) => onCompositionEnd?.(e.currentTarget.value)}
         placeholder={placeholder}
         aria-label={label}
       />

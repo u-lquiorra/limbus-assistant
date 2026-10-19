@@ -9,6 +9,7 @@ import type { Keyword, LabeledValue, PassiveDetail, PersonaDetail, SkillCell, Sk
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
 import { ExtraSection, GuideSection, SYNERGY_HEADING } from "../components/GuideView";
+import { glossaryTermForName } from "../glossary";
 
 const TONE_LABEL = { weak: "弱点", resist: "耐性", normal: "普通" } as const;
 
@@ -523,16 +524,25 @@ export default function PersonaPage() {
               </h2>
             </header>
             <dl className="glossary">
-              {glossary.map((k) => (
-                <div key={k.term} className="glossary-item">
-                  <dt>{k.term}</dt>
-                  <dd>{k.desc}</dd>
-                </div>
-              ))}
+              {glossary.map((k) => {
+                const entry = glossaryTermForName(k.term);
+                return (
+                  <div key={k.term} className="glossary-item">
+                    <dt>{k.term}{entry && (
+                      <Link className="glossary-reference" to={`/glossary/${entry.id}`}>共通の仕組み →</Link>
+                    )}</dt>
+                    <dd>{k.desc}</dd>
+                  </div>
+                );
+              })}
             </dl>
           </section>
         )}
 
+        <p className="glossary-reference-entry">
+          <Link className="back-link" to="/glossary">用語辞典 →</Link>
+          <span className="staged-history">マッチ・精神力・耐性など、戦闘の基本を確認する</span>
+        </p>
         <nav className="persona-pager" aria-label="同じ囚人の他の人格">
           {prev ? (
             <Link to={`/persona/${prev.code}`} className="pager-link">

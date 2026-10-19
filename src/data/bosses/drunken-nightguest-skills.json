@@ -1,0 +1,228 @@
+[
+  {
+    "id": "nightguest-1",
+    "unit": "nightguest",
+    "name": "前旋斬",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血が5以上なら、基本威力+1",
+      "[使用時]ひとくち1を得る",
+      "Ⅰ[的中時]出血5を付与"
+    ]
+  },
+  {
+    "id": "nightguest-2",
+    "unit": "nightguest",
+    "name": "咽頭酒",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血5につき、基本威力+1(最大2)",
+      "[使用時]ひとくち1を得る",
+      "Ⅰ[的中時]出血回数が2増加",
+      "Ⅱ[的中時]出血回数が2増加"
+    ]
+  },
+  {
+    "id": "nightguest-3",
+    "unit": "nightguest",
+    "name": "落酒",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]対象の出血が5以上なら、コイン威力+1",
+      "[マッチ敗北]ひとくちを3消耗",
+      "Ⅰ[的中時]出血5を付与",
+      "Ⅱ[的中時]出血5を付与",
+      "Ⅲ[的中時]出血5を付与",
+      "[マッチ勝利後的中]出血回数が3増加"
+    ]
+  },
+  {
+    "id": "nightguest-4",
+    "unit": "nightguest",
+    "name": "取",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]対象の出血5につき、コイン威力+1(最大2)",
+      "[使用時]ひとくちが3以上なら、このスキルの全コインが破壊不能コインに変更される",
+      "Ⅰ[的中時]出血回数が2増加",
+      "Ⅱ[的中時]出血5を付与",
+      "Ⅲ対象の(出血+出血回数)1につきダメージ量+1%(最大20%)",
+      "[的中時]自分のひとくちが3以上なら、このコインを1回再使用(スキルごとに1回)"
+    ]
+  },
+  {
+    "id": "nightguest-5",
+    "unit": "nightguest",
+    "name": "酔回攻",
+    "sin": "憤怒",
+    "type": "反撃",
+    "attackType": "斬",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ可能反撃]",
+      "[使用時]対象の出血が5以上なら、基本威力+1",
+      "Ⅰ[的中時]出血4を付与",
+      "[的中時]次のターンに麻痺4を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少、防御レベル減少5を付与"
+    ]
+  },
+  {
+    "id": "nightguest-6",
+    "unit": "nightguest",
+    "name": "真鎮終斬",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 10,
+    "coinPower": 20,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[戦闘開始時]このスキルが終了するまで体力が0未満にならない",
+      "[使用時]攻撃レベル増加10を得る",
+      "[使用時]攻撃威力増加5を得る",
+      "[使用時]ダメージ量増加10を得る",
+      "Ⅰ[的中時]対象の(出血+出血回数)1につきダメージ量+1%(最大100%)",
+      "[的中時]ひとくち5を得る"
+    ]
+  },
+  {
+    "id": "nightguest-7",
+    "unit": "nightguest",
+    "name": "酔靠",
+    "sin": "嫉妬",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]自分のひとくち1につきバリア5を得る(最大25)",
+      "[使用時]自分をターゲティングしている敵の数だけひとくちを得る"
+    ]
+  },
+  {
+    "id": "night-raider-1",
+    "unit": "night-raider",
+    "name": "受け斬り",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血が8以上なら、マッチ威力+1",
+      "Ⅰ[的中時]出血4を付与"
+    ]
+  },
+  {
+    "id": "night-raider-2",
+    "unit": "night-raider",
+    "name": "押し斬る",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血が5以上なら、マッチ威力+1",
+      "[的中時]出血回数が2増加",
+      "Ⅱ[的中時]出血回数が2増加"
+    ]
+  },
+  {
+    "id": "night-raider-3",
+    "unit": "night-raider",
+    "name": "波斬り",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 6,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血5につき、コイン威力+1(最大2)",
+      "Ⅰ[的中時]出血回数が2増加",
+      "Ⅱ破壊不能コイン",
+      "対象の(出血+出血回数)1につきダメージ量+1%(最大20%)",
+      "Ⅲ[的中時]出血5を付与"
+    ],
+    "unbreakableCoins": [
+      2
+    ]
+  },
+  {
+    "id": "night-raider-4",
+    "unit": "night-raider",
+    "name": "馬出劫洗",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "効[使用時]対象の出血5につき、コイン威力+1(最大3)",
+      "Ⅰ[的中時]出血5を付与、出血回数が3増加",
+      "Ⅱ破壊不能コイン",
+      "対象の(出血+出血回数)2につきダメージ量+1%(最大50%)"
+    ],
+    "unbreakableCoins": [
+      2
+    ]
+  },
+  {
+    "id": "night-raider-5",
+    "unit": "night-raider",
+    "name": "反撃",
+    "sin": "色欲",
+    "type": "反撃",
+    "attackType": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]対象の出血が6以上なら、基本威力+1",
+      "Ⅰ[的中時]出血4を付与",
+      "[的中時]次のターンに束縛2を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少、防御レベル減少3を付与"
+    ]
+  }
+]

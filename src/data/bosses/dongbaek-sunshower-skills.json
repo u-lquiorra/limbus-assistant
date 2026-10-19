@@ -1,0 +1,117 @@
+[
+  {
+    "id": "dongbaek-sunshower-body-1",
+    "unit": "dongbaek-sunshower-body",
+    "name": "爽やかな記憶",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ勝利時]精神力を8回復",
+      "[マッチ敗北]精神力を5減少",
+      "Ⅰ[的中時]沈潜2、破裂2を付与",
+      "Ⅱ[的中時]沈潜2、破裂2を付与",
+      "Ⅲ[的中時]沈潜2、破裂2を付与"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-2",
+    "unit": "dongbaek-sunshower-body",
+    "name": "棘の生えた追憶",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ勝利時]精神力を8回復",
+      "[マッチ敗北]精神力を5減少",
+      "Ⅰ[的中時]沈潜回数が2増加",
+      "Ⅱ[的中時]破裂回数が2増加"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-3",
+    "unit": "dongbaek-sunshower-body",
+    "name": "自己防御",
+    "sin": "暴食",
+    "type": "打",
+    "base": 10,
+    "coinPower": -5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ敗北]自分の精神力を8減少、沈潜3を得る",
+      "Ⅰ[的中時]次のターンに束縛2、攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-4",
+    "unit": "dongbaek-sunshower-body",
+    "name": "ひりつく心",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 13,
+    "coinPower": -4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[的中時]破裂3を付与",
+      "Ⅱ[的中時]破裂回数が3増加",
+      "[的中時]ダメージ量の50%、対象の混乱区間を前進"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-5",
+    "unit": "dongbaek-sunshower-body",
+    "name": "全て沈んでしまえ",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 26,
+    "coinPower": -10,
+    "coins": 1,
+    "weight": 7,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]精神力を30減少、沈潜5を得る。次のターンに侵蝕する心を得る。",
+      "Ⅰ[的中時]対象の精神力を15減少",
+      "[的中時]沈潜8、毒8を付与"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-6",
+    "unit": "dongbaek-sunshower-body",
+    "name": "近寄せるな",
+    "type": "回避",
+    "base": 8,
+    "coinPower": -5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[回避失敗時]精神力8減少"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower-body-7",
+    "unit": "dongbaek-sunshower-body",
+    "name": "触るな...!",
+    "type": "防御",
+    "base": 20,
+    "coinPower": -5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[戦闘開始時]棘を得る"
+    ]
+  }
+]

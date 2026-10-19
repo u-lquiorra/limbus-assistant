@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "erlking-one-1",
+    "unit": "erlking-one",
+    "name": "大剣斬り",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]沈潜回数が3増加、沈潜を3付与"
+    ]
+  },
+  {
+    "id": "erlking-one-2",
+    "unit": "erlking-one",
+    "name": "打ち落とす",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ勝利時]次のターンに攻撃威力増加、ダメージ量増加1を得る。",
+      "Ⅰ[的中時]沈潜回数が3増加。沈潜を3付与",
+      "Ⅱ[的中時]出血3を付与",
+      "　[的中時]対象の沈潜だけ出血を付与"
+    ]
+  },
+  {
+    "id": "erlking-one-3",
+    "unit": "erlking-one",
+    "name": "ワザリング・ハイツよ、我が声に応えるがよい",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "[使用時]次のターンにワイルドハントユニット1体を生成*16"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "erlking-one-4",
+    "unit": "erlking-one",
+    "name": "お前もこの棺に入れてやろう",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "[戦闘開始時]このターンに振動爆発、混乱区間前進効果が100%増加*17",
+      "[使用時]次のターンに自分を含む全味方へ攻撃威力増加3,ダメージ量増加3を付与"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "erlking-one-5",
+    "unit": "erlking-one",
+    "name": "ヒースクリフたちの首を刈らん",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 8,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": null,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与",
+      "　[的中時]出血8を付与"
+    ]
+  },
+  {
+    "id": "erlking-two-1",
+    "unit": "erlking-two",
+    "name": "大剣斬り",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]沈潜回数が3増加、沈潜を3付与"
+    ]
+  },
+  {
+    "id": "erlking-two-2",
+    "unit": "erlking-two",
+    "name": "打ち落とす",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ勝利時]次のターンに攻撃威力増加、ダメージ量増加1を得る。",
+      "Ⅰ[的中時]沈潜回数が3増加。沈潜を3付与",
+      "Ⅱ[的中時]出血3を付与",
+      "　[的中時]対象の沈潜だけ出血を付与"
+    ]
+  },
+  {
+    "id": "erlking-two-3",
+    "unit": "erlking-two",
+    "name": "ヒースクリフたちの首を刈らん",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 8,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与",
+      "　[的中時]出血8を付与"
+    ]
+  },
+  {
+    "id": "erlking-two-4",
+    "unit": "erlking-two",
+    "name": "空の棺の鉄槌",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 2,
+    "levelOffset": 0,
+    "effects": [
+      "対象の沈潜が5以上なら、マッチ威力+1",
+      "対象の出血が5以上なら、マッチ威力+1",
+      "[マッチ勝利時]沈潜回数が3増加",
+      "Ⅰ[表面的中時]次のコイン威力+2"
+    ]
+  },
+  {
+    "id": "erlking-two-5",
+    "unit": "erlking-two",
+    "name": "死ぬまで走れ、デュラハンよ",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 12,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 3,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅱ[的中時]沈潜5を付与",
+      "Ⅲ[的中時]沈潜回数が5増加"
+    ]
+  },
+  {
+    "id": "erlking-two-6",
+    "unit": "erlking-two",
+    "name": "耐え抜く",
+    "sin": "色欲",
+    "type": "防御",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "erlking-three-1",
+    "unit": "erlking-three",
+    "name": "大剣斬り",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]沈潜回数が3増加、沈潜を3付与"
+    ]
+  },
+  {
+    "id": "erlking-three-2",
+    "unit": "erlking-three",
+    "name": "打ち落とす",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ勝利時]次のターンに攻撃威力増加、ダメージ量増加1を得る。",
+      "Ⅰ[的中時]沈潜回数が3増加。沈潜を3付与",
+      "Ⅱ[的中時]出血3を付与",
+      "　[的中時]対象の沈潜だけ出血を付与"
+    ]
+  },
+  {
+    "id": "erlking-three-3",
+    "unit": "erlking-three",
+    "name": "ヒースクリフたちの首を刈らん",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 8,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与",
+      "　[的中時]出血8を付与"
+    ]
+  },
+  {
+    "id": "erlking-three-4",
+    "unit": "erlking-three",
+    "name": "空の棺の鉄槌",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 2,
+    "levelOffset": 0,
+    "effects": [
+      "対象の沈潜が5以上なら、マッチ威力+1",
+      "対象の出血が5以上なら、マッチ威力+1",
+      "[マッチ勝利時]沈潜回数が3増加",
+      "Ⅰ[表面的中時]次のコイン威力+2"
+    ]
+  },
+  {
+    "id": "erlking-three-5",
+    "unit": "erlking-three",
+    "name": "死ぬまで走れ、デュラハンよ",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 12,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 3,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅱ[的中時]沈潜5を付与",
+      "Ⅲ[的中時]沈潜回数が5増加"
+    ]
+  },
+  {
+    "id": "erlking-three-6",
+    "unit": "erlking-three",
+    "name": "耐え抜く",
+    "sin": "色欲",
+    "type": "防御",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "erlking-three-7",
+    "unit": "erlking-three",
+    "name": "魔王の通り道に残るは、哀しみと絶叫のみ",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 4,
+    "weight": 7,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]沈潜4,出血4を付与",
+      "Ⅱ[的中時]沈潜、出血回数が2増加",
+      "Ⅲ[的中時]沈潜4,出血4を付与",
+      "Ⅳ[的中時]沈潜、出血回数が2増加"
+    ]
+  },
+  {
+    "id": "erlking-three-8",
+    "unit": "erlking-three",
+    "name": "全てのヒースクリフは死なねばならない･･･",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 30,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[対象変更不可]",
+      "[マッチ不可]",
+      "このターンの間、混乱状態にならない",
+      "Ⅰ[的中時]対象の体力最大値の100%分ダメージを与える"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "hunt-linton-1",
+    "unit": "hunt-linton",
+    "name": "マル･･･",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンに防御レベル減少2を付与"
+    ]
+  },
+  {
+    "id": "hunt-linton-2",
+    "unit": "hunt-linton",
+    "name": "･･･テ",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]対象のマイナス効果が2以上なら、基本威力+1",
+      "Ⅰ[的中時]次のターンに防御レベル減少3を付与"
+    ]
+  },
+  {
+    "id": "hunt-linton-3",
+    "unit": "hunt-linton",
+    "name": "クー･･･ワ",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]対象のマイナス効果が5つ以上なら、基本威力+2",
+      "[使用時]対象のマイナス効果が5つ以上なら、ダメージ量+30%",
+      "Ⅰ[的中時]脆弱2を付与",
+      "Ⅱ[的中時]次のターンに脆弱2を付与",
+      "　[的中時]対象のマイナス効果が5以上なら、このコインを再使用(2回)",
+      "　[的中時]対象の解除可能なマイナス効果をランダムに1つ除去"
+    ]
+  },
+  {
+    "id": "hunt-linton-4",
+    "unit": "hunt-linton",
+    "name": "･･･",
+    "type": "回避",
+    "base": 5,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[回避成功時]精神力を5回復(最大2回)"
+    ]
+  },
+  {
+    "id": "hunt-wailing-1",
+    "unit": "hunt-wailing",
+    "name": "片付け･･･",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "この攻撃スキルが与えたダメージ量の10%だけ、本体および部位体力を回復",
+      "Ⅰ[的中時]攻撃レベル増加1を得る",
+      "Ⅱ[的中時]攻撃レベル増加1を得る",
+      "　[表面的中時]次のターンにクイック1を得る)"
+    ]
+  },
+  {
+    "id": "hunt-wailing-2",
+    "unit": "hunt-wailing",
+    "name": "･･･郎",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "対象より速度が高ければ、マッチ威力+2",
+      "Ⅰ[的中時]出血4を付与、出血回数が2増加",
+      "Ⅱ[的中時]出血4を付与、出血回数が2増加",
+      "　[的中時]対象より速度が3以上高ければ、このコインを再使用(最大1回)"
+    ]
+  },
+  {
+    "id": "hunt-wailing-3",
+    "unit": "hunt-wailing",
+    "name": "俺の家･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "体力が最も低い対象を優先して攻撃",
+      "[使用時]対象の現体力の比率が70%未満なら、マッチ威力+2",
+      "Ⅰ[的中時]次のターンにクイック1を得る",
+      "　[的中時]脆弱1を付与",
+      "Ⅱ[的中時]出血5を付与、出血回数が2増加",
+      "Ⅲ[的中時]出血5を付与、出血回数が2増加",
+      "Ⅳ[的中時]対象の「スキル」が20以上なら（資料表記。何の数値かは不明）、与ダメージ量+100%",
+      "　[敵討伐時]このスキルを再使用(最大1)"
+    ]
+  },
+  {
+    "id": "hunt-wailing-4",
+    "unit": "hunt-wailing",
+    "name": "ガー･･･",
+    "sin": "傲慢",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 20,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "ターン終了時にバリアが残っているなら、次のターンに保護4を得る"
+    ]
+  },
+  {
+    "id": "hunt-hindley-1",
+    "unit": "hunt-hindley",
+    "name": "雑輩ども･･･",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル増加1を得る",
+      "Ⅱ[的中時]次のターンに攻撃レベル増加1を得る"
+    ]
+  },
+  {
+    "id": "hunt-hindley-2",
+    "unit": "hunt-hindley",
+    "name": "片付け･･･",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[マッチ勝利時]基本威力+1",
+      "Ⅰ[的中時]対象に攻撃レベル減少があるなら、与ダメージ量20%分の打撃ダメージを与える",
+      "Ⅱ[的中時]対象に攻撃レベル減少があるなら、与ダメージ量20%分の打撃ダメージを与える"
+    ]
+  },
+  {
+    "id": "hunt-hindley-3",
+    "unit": "hunt-hindley",
+    "name": "･･･してやる",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "マイナス効果が最も多い対象を優先して攻撃",
+      "[マッチ勝利時]対象の攻撃レベル減少3につき、コイン威力+1(最大3)",
+      "Ⅰ[的中時]脆弱1を付与",
+      "　[的中時]次のターンに脆弱1を付与",
+      "　[的中時]次のターンに麻痺2を付与",
+      "Ⅱ[的中時]対象の攻撃レベル減少2につき、ダメージ量+30%(最大120%)",
+      "　[表面的中時]対象のマイナス効果が3以上なら、このコインを再使用(最大1回)"
+    ]
+  },
+  {
+    "id": "hunt-hindley-4",
+    "unit": "hunt-hindley",
+    "name": "ガード",
+    "type": "防御",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[戦闘開始時]自分を除く生存している味方1名につき、バリアを20を追加で得る。"
+    ]
+  },
+  {
+    "id": "hunt-josephine-1",
+    "unit": "hunt-josephine",
+    "name": "･･･ク",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の沈潜威力が5以上なら、攻撃レベル減少1を付与",
+      "Ⅰ[的中時]沈潜4を付与",
+      "　[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]沈潜4を付与",
+      "　[的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "hunt-josephine-2",
+    "unit": "hunt-josephine",
+    "name": "･･･時間",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の精神力が10以下なら、攻撃レベル減少2を付与",
+      "[マッチ勝利時]脆弱1を付与",
+      "Ⅰ[的中時]次のターンに加算コイン弱化1を付与",
+      "Ⅱ[的中時]沈潜回数が3増加",
+      "　[的中時]次のターンに脆弱2を付与"
+    ]
+  },
+  {
+    "id": "hunt-josephine-3",
+    "unit": "hunt-josephine",
+    "name": "埃･･･",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 5,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[戦闘開始時]自分を含む全味方へ攻撃レベル増加3,精神力15回復",
+      "[戦闘開始時]自分を除く全味方へ脆弱1を付与",
+      "Ⅰ[的中時]対象の沈潜威力だけ憂鬱属性追加ダメージを与える。沈潜回数が1減少",
+      "Ⅱ[的中時]対象の沈潜威力だけ憂鬱属性追加ダメージを与える。沈潜回数が1減少",
+      "Ⅲ[的中時]対象の沈潜威力だけ憂鬱属性追加ダメージを与える。沈潜回数が1減少",
+      "　[的中時]沈潜4を付与",
+      "　[的中時]対象の沈潜回数が3以上なら、このコインを再使用(最大2回)"
+    ]
+  },
+  {
+    "id": "hunt-josephine-4",
+    "unit": "hunt-josephine",
+    "name": "鼠野郎･･･",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 20,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "ターン終了時にバリアが残っている場合は、50だけ混乱区間を後退"
+    ]
+  },
+  {
+    "id": "cathy-one-1",
+    "unit": "cathy-one",
+    "name": "無駄よ",
+    "sin": "色欲",
+    "type": "防御",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "cathy-one-2",
+    "unit": "cathy-one",
+    "name": "彼が不幸にならない世界のため",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "[戦闘開始時]自分を除いた全味方へ脆弱2,攻撃威力増加2を付与",
+      "[戦闘開始時]次のターンに束縛（数値未記載）とダメージ量増加5を得る"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "cathy-one-3",
+    "unit": "cathy-one",
+    "name": "全てのキャサリンは死なねばならない",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 13,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 12,
+    "levelOffset": 7,
+    "effects": [
+      "[マッチ不可]",
+      "全ての手の体力が1なら、ダメージ量が0になる",
+      "[戦闘開始時]自分を除いた全味方へ脆弱2,攻撃威力増加2を付与",
+      "[攻撃後]張り裂ける心1を得る",
+      "Ⅰ[的中時]張り裂ける心を付与"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "right-one-1",
+    "unit": "right-one",
+    "name": "悲痛の涙",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "right-one-2",
+    "unit": "right-one",
+    "name": "悲劇の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "right-one-3",
+    "unit": "right-one",
+    "name": "絶望の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル減少2を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少1を付与"
+    ]
+  },
+  {
+    "id": "right-one-4",
+    "unit": "right-one",
+    "name": "残るは苦痛だけ･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 10,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ敗北]張り裂ける心1を得る",
+      "Ⅰ[的中時]体力最大値の15%分ダメージを与える"
+    ]
+  },
+  {
+    "id": "right-one-5",
+    "unit": "right-one",
+    "name": "彼が不幸にならない世界のため",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "[戦闘開始時]自分を除いた全味方へ脆弱2,攻撃威力増加2を付与",
+      "[戦闘開始時]次のターンに束縛（数値未記載）とダメージ量増加5を得る"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "left-one-1",
+    "unit": "left-one",
+    "name": "悲痛の涙",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "left-one-2",
+    "unit": "left-one",
+    "name": "悲劇の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "left-one-3",
+    "unit": "left-one",
+    "name": "絶望の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル減少2を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少1を付与"
+    ]
+  },
+  {
+    "id": "left-one-4",
+    "unit": "left-one",
+    "name": "残るは苦痛だけ･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 10,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ敗北]張り裂ける心1を得る",
+      "Ⅰ[的中時]体力最大値の15%分ダメージを与える"
+    ]
+  },
+  {
+    "id": "cathy-two-1",
+    "unit": "cathy-two",
+    "name": "無駄よ",
+    "sin": "色欲",
+    "type": "防御",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "cathy-two-2",
+    "unit": "cathy-two",
+    "name": "彼が不幸にならない世界のため",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "[戦闘開始時]自分を除いた全味方へ脆弱2,攻撃威力増加2を付与",
+      "[戦闘開始時]次のターンに束縛（数値未記載）とダメージ量増加5を得る"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "cathy-two-3",
+    "unit": "cathy-two",
+    "name": "全てのキャサリンは死なねばならない",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 13,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 12,
+    "levelOffset": 7,
+    "effects": [
+      "[マッチ不可]",
+      "全ての手の体力が1なら*18、ダメージ量が0になる",
+      "[戦闘開始時]自分を除いた全味方へ脆弱2,攻撃威力増加2を付与",
+      "[攻撃後]張り裂ける心1を得る",
+      "Ⅰ[的中時]張り裂ける心を付与"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "cathy-two-4",
+    "unit": "cathy-two",
+    "name": "張り裂ける心",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 8,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 3,
+    "levelOffset": 3,
+    "effects": [
+      "[攻撃後]張り裂ける心1を得る",
+      "Ⅰ[的中時]体力最大値の15%分ダメージを与える",
+      "　[的中時]張り裂ける心を付与"
+    ]
+  },
+  {
+    "id": "right-two-1",
+    "unit": "right-two",
+    "name": "悲痛の涙",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "right-two-2",
+    "unit": "right-two",
+    "name": "悲劇の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "right-two-3",
+    "unit": "right-two",
+    "name": "絶望の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル減少2を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少1を付与"
+    ]
+  },
+  {
+    "id": "right-two-4",
+    "unit": "right-two",
+    "name": "無意味なあがき",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 5,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与"
+    ]
+  },
+  {
+    "id": "right-two-5",
+    "unit": "right-two",
+    "name": "残るは苦痛だけ･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 10,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ敗北]張り裂ける心1を得る",
+      "Ⅰ[的中時]体力最大値の15%分ダメージを与える"
+    ]
+  },
+  {
+    "id": "right-two-6",
+    "unit": "right-two",
+    "name": "掴めない魂",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "left-two-1",
+    "unit": "left-two",
+    "name": "悲痛の涙",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  },
+  {
+    "id": "left-two-2",
+    "unit": "left-two",
+    "name": "悲劇の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "left-two-3",
+    "unit": "left-two",
+    "name": "絶望の手",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル減少2を付与",
+      "Ⅱ[的中時]次のターンに攻撃レベル減少1を付与"
+    ]
+  },
+  {
+    "id": "left-two-4",
+    "unit": "left-two",
+    "name": "無意味なあがき",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 5,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与"
+    ]
+  },
+  {
+    "id": "left-two-5",
+    "unit": "left-two",
+    "name": "残るは苦痛だけ･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 10,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ敗北]張り裂ける心1を得る"
+    ]
+  },
+  {
+    "id": "left-two-6",
+    "unit": "left-two",
+    "name": "掴めない魂",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "追加の固有効果なし。"
+    ]
+  }
+]

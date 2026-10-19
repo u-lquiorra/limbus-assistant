@@ -1,0 +1,159 @@
+[
+  {
+    "id": "shock-centipede-head-1",
+    "unit": "shock-centipede-head",
+    "name": "食いちぎる",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自家発電2を得る",
+      "[マッチ敗北]自家発電1を消耗",
+      "Ⅰ[的中時]出血3を付与、出血回数が2増加"
+    ]
+  },
+  {
+    "id": "shock-centipede-body-2",
+    "unit": "shock-centipede-body",
+    "name": "尻尾で刺す",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自家発電2を得る",
+      "[マッチ敗北]自家発電1を消耗",
+      "Ⅰ[的中時]出血3を付与、出血回数が2増加",
+      "Ⅱ[的中時]次のターンに束縛2を付与"
+    ]
+  },
+  {
+    "id": "shock-centipede-body-3",
+    "unit": "shock-centipede-body",
+    "name": "巻き締める",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自家発電2を得る",
+      "[マッチ敗北]自家発電1を消耗",
+      "Ⅰ[的中時]脆弱2を付与",
+      "[表面的中時]次のターンに束縛2を付与",
+      "資料は1コインだが束縛の効果番号がⅡとなっている。番号は未確定として掲載。"
+    ]
+  },
+  {
+    "id": "shock-centipede-head-4",
+    "unit": "shock-centipede-head",
+    "name": "電流注入",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自家発電1を得る",
+      "対象に麻痺があればダメージ量+10%",
+      "Ⅱ[的中時]麻痺3を付与"
+    ]
+  },
+  {
+    "id": "shock-centipede-body-5",
+    "unit": "shock-centipede-body",
+    "name": "電気放流",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自家発電1を得る",
+      "対象に麻痺があればダメージ量+10%",
+      "Ⅲ[的中時]麻痺3を付与"
+    ]
+  },
+  {
+    "id": "shock-centipede-body-6",
+    "unit": "shock-centipede-body",
+    "name": "超高圧電気放出",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 5,
+    "levelOffset": -3,
+    "effects": [
+      "保有している自家発電が10を超過しているなら、超過している分だけダメージ量+10%",
+      "保有している自家発電を全て消耗",
+      "Ⅰ[的中時]脆弱2を付与",
+      "Ⅱ[的中時]対象が蓄電状態のとき、最終ダメージ量の40%分固定ダメージを与える",
+      "Ⅱ[的中時]麻痺3、蓄電1を付与"
+    ]
+  },
+  {
+    "id": "shock-centipede-head-7",
+    "unit": "shock-centipede-head",
+    "name": "とぐろを巻く",
+    "type": "防御",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "このスキルスロットがあるとき、現在の頭部の体力分バリアを得る。"
+    ]
+  },
+  {
+    "id": "shock-centipede-head-8",
+    "unit": "shock-centipede-head",
+    "name": "蠢く頭",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "体力が最も低い敵を優先的に攻撃",
+      "[使用時]自家発電を2消耗",
+      "[マッチ敗北]自家発電を3消耗",
+      "Ⅱ[的中時]麻痺3を付与"
+    ]
+  },
+  {
+    "id": "shock-centipede-body-9",
+    "unit": "shock-centipede-body",
+    "name": "蠢く尾",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 8,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "体力が最も低い敵を優先的に攻撃",
+      "[使用時]自家発電を2消耗",
+      "[マッチ敗北]自家発電を3消耗",
+      "Ⅲ[的中時]麻痺3を付与"
+    ]
+  }
+]

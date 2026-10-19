@@ -1,0 +1,294 @@
+[
+  {
+    "id": "deny-one-1",
+    "unit": "deny-one",
+    "name": "あなたもがらんどうですね",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[使用時]次のターンにがらんどうの証を付与",
+      "Ⅰ[的中時]破裂10を付与"
+    ]
+  },
+  {
+    "id": "deny-one-2",
+    "unit": "deny-one",
+    "name": "剪枝",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]破裂5を付与",
+      "Ⅱ[的中時]破裂回数が3増加"
+    ]
+  },
+  {
+    "id": "deny-one-3",
+    "unit": "deny-one",
+    "name": "間引く",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "がらんどうの印の対象へのダメージ補正あり。資料では「50%」の増減記号が欠けているため、実際の効果表示を確認。",
+      "[マッチ敗北]次のターンに脆弱1を得る",
+      "Ⅰ[的中時]ダメージ量だけ体力を回復",
+      "対象にがらんどうの印があれば、次のターンに攻撃威力増加1を得る",
+      "Ⅱ[的中時]ダメージ量だけ体力を回復",
+      "対象にがらんどうの印があれば、次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "deny-one-4",
+    "unit": "deny-one",
+    "name": "破壊",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 10,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 3,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]出血10を付与"
+    ]
+  },
+  {
+    "id": "deny-two-5",
+    "unit": "deny-two",
+    "name": "まだ足りない･･･",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "ランダムな味方を攻撃",
+      "Ⅰ[的中時]出血3を付与。ダメージ量の25%分、体力を回復",
+      "Ⅱ[的中時]出血3を付与。ダメージ量の25％分、体力を回復",
+      "Ⅲ[的中時]対象のランダムなプラス効果を吸収し、次のターンに得る"
+    ]
+  },
+  {
+    "id": "deny-two-6",
+    "unit": "deny-two",
+    "name": "満たさなきゃ･･･",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "ランダムな対象を攻撃",
+      "Ⅰ[的中時]対象のランダムなプラス効果を吸収し、次のターンに得る",
+      "Ⅱ[的中時]出血回数が5増加"
+    ]
+  },
+  {
+    "id": "deny-three-6",
+    "unit": "deny-three",
+    "name": "満たさなきゃ･･･",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "ランダムな対象を攻撃",
+      "Ⅰ[的中時]対象のランダムなプラス効果を吸収し、次のターンに得る",
+      "Ⅱ[的中時]出血回数が5増加"
+    ]
+  },
+  {
+    "id": "deny-two-7",
+    "unit": "deny-two",
+    "name": "がらんどうになっちゃった",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ敗北]破裂10を得る"
+    ]
+  },
+  {
+    "id": "deny-three-8",
+    "unit": "deny-three",
+    "name": "もう遅いよ",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]脆弱5を付与"
+    ]
+  },
+  {
+    "id": "deny-three-9",
+    "unit": "deny-three",
+    "name": "全部燃えちゃった",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 15,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 7,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅰ[的中時]脆弱2、破裂5、出血5を付与。ダメージ量の10%分、体力を回復"
+    ]
+  },
+  {
+    "id": "farm-1",
+    "unit": "farm",
+    "name": "耕作",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに束縛1、麻痺1を付与",
+      "Ⅱ[表面的中時]次のターンに束縛1、麻痺1を付与"
+    ]
+  },
+  {
+    "id": "farm-2",
+    "unit": "farm",
+    "name": "播種",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与",
+      "Ⅱ[的中時]次のターンに脆弱1を付与",
+      "Ⅲ[的中時]次のターンに種3を付与"
+    ]
+  },
+  {
+    "id": "farm-3",
+    "unit": "farm",
+    "name": "促進",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 8,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]種1を付与。対象に種がある場合、種を追加で1付与",
+      "Ⅱ[的中時]種1を付与。対象に種がある場合、種を追加で1付与",
+      "Ⅲ[的中時]種1を付与。対象に種がある場合、追加で1付与*2"
+    ]
+  },
+  {
+    "id": "farm-4",
+    "unit": "farm",
+    "name": "過剰成長",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]種3、過剰回復を付与。対象の体力を15回復"
+    ]
+  },
+  {
+    "id": "farm-5",
+    "unit": "farm",
+    "name": "収穫の時間",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 7,
+    "coinPower": 6,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "Ⅰ[的中時]脆弱3、出血10を付与",
+      "対象が養分吸収状態の時、体力を20回復して次のターンに攻撃威力増加2を得る*3",
+      "養分吸収時の回復と攻撃威力増加は、対象と使用者の表記に曖昧さがあるため戦闘中の表示を確認。"
+    ]
+  },
+  {
+    "id": "farm-6",
+    "unit": "farm",
+    "name": "養分になってください",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 12,
+    "coinPower": 15,
+    "coins": 1,
+    "weight": 7,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]全ての欲望の木の体力を15回復。欲望の木が無い場合は1つ生成。",
+      "Ⅰ[的中時]体力を10回復、種を3付与"
+    ]
+  },
+  {
+    "id": "desire-tree-1",
+    "unit": "desire-tree",
+    "name": "育ちゆく成果",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]種1を付与",
+      "Ⅱ[的中時]種1を付与"
+    ]
+  },
+  {
+    "id": "desire-tree-2",
+    "unit": "desire-tree",
+    "name": "期待",
+    "type": "防御",
+    "base": 6,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "効果なし"
+    ]
+  }
+]

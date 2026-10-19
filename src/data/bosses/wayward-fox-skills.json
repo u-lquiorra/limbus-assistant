@@ -1,0 +1,159 @@
+[
+  {
+    "id": "wayward-fox-head-1",
+    "unit": "wayward-fox-head",
+    "name": "沈鬱な呻き声",
+    "sin": "怠惰",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]沈潜3を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-head-2",
+    "unit": "wayward-fox-head",
+    "name": "押し寄せる沈潜",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]沈潜回数が2増加",
+      "Ⅱ[的中時]沈潜3を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-head-3",
+    "unit": "wayward-fox-head",
+    "name": "哀しみの反動",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]破裂2を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-body-3",
+    "unit": "wayward-fox-body",
+    "name": "哀しみの反動",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]破裂2を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-head-4",
+    "unit": "wayward-fox-head",
+    "name": "哀しみの激流",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が2増加",
+      "Ⅱ[的中時]破裂3を付与",
+      "[表面的中時]破裂2を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-body-4",
+    "unit": "wayward-fox-body",
+    "name": "哀しみの激流",
+    "sin": "暴食",
+    "type": "斬",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が2増加",
+      "Ⅱ[的中時]破裂3を付与",
+      "[表面的中時]破裂2を付与"
+    ]
+  },
+  {
+    "id": "wayward-fox-head-5",
+    "unit": "wayward-fox-head",
+    "name": "何かを探す鳴き声",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 12,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 5,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]次のターンに古傘を召喚",
+      "Ⅰ[的中時]沈潜5を付与",
+      "[表面的中時]古傘の数だけダメージ量+15%"
+    ]
+  },
+  {
+    "id": "wayward-fox-head-6",
+    "unit": "wayward-fox-head",
+    "name": "待ちわびる",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[戦闘開始時]全ての敵の精神力を-20"
+    ]
+  },
+  {
+    "id": "wayward-fox-body-6",
+    "unit": "wayward-fox-body",
+    "name": "待ちわびる",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[戦闘開始時]全ての敵の精神力を-20"
+    ]
+  },
+  {
+    "id": "old-umbrella-1",
+    "unit": "old-umbrella",
+    "name": "撒き散らされる哀しみ",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "[攻撃後]全ての敵の破裂回数2,沈潜回数2増加"
+    ]
+  }
+]
