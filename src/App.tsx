@@ -14,6 +14,7 @@ import BossPage, { BossIndex } from "./pages/BossPage";
 import SearchPage from "./pages/SearchPage";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import "./App.css";
+import "./theme.css";
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
