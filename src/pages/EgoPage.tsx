@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
-import { getEgo, loadEgoDetail, loadEgoGuide, teamsForEgo } from "../data/loader";
+import { getEgo, loadEgoDetail, loadEgoGuide, peekEgoDetail, peekEgoGuide, teamsForEgo } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { egoGuideKeywords, type Guide } from "../guide";
 import { stripStageMarks } from "../egoStage";
@@ -98,9 +98,9 @@ export default function EgoPage() {
   const ctx = getEgo(code);
   // 読み込んだコードと一緒に持ち、別の E.G.O の詳細が一瞬表示されないようにする
   const [loaded, setLoaded] = useState<{ code: string; detail: EgoDetail | null } | null>(null);
-  const detail = loaded?.code === code ? loaded.detail : undefined;
+  const detail = loaded?.code === code ? loaded.detail : peekEgoDetail(code);
   const [loadedGuide, setLoadedGuide] = useState<{ code: string; guide: Guide | null } | null>(null);
-  const guide = loadedGuide?.code === code ? loadedGuide.guide : undefined;
+  const guide = loadedGuide?.code === code ? loadedGuide.guide : peekEgoGuide(code);
   // 解析Ⅴがある E.G.O は「解析Ⅴ(既定) / 解析Ⅰ〜Ⅳ」を切り替える。別の E.G.O に移ったら既定に戻すためコードを持つ
   const [earlierFor, setEarlierFor] = useState<string | null>(null);
   const showEarlier = !!detail?.earlier && earlierFor === code;

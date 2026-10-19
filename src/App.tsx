@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import CharacterDetail from "./pages/CharacterDetail";
 import PersonaPage from "./pages/PersonaPage";
@@ -15,6 +15,7 @@ import SearchPage from "./pages/SearchPage";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
+import { canonicalUrl, pageMeta } from "./seo";
 import "./App.css";
 import "./theme.css";
 
@@ -96,10 +97,44 @@ function SiteSearchLink() {
   );
 }
 
+function NotFound() {
+  return (
+    <div className="container section">
+      <h1 className="section-title">ページが見つからない</h1>
+      <p className="empty">URL が変わったか、ページが削除された可能性がある。</p>
+      <Link to="/" className="back-link">← トップに戻る</Link>
+    </div>
+  );
+}
+
+// 画面遷移のたびに title・description・canonical を書き換える。最初の値は静的 HTML の head に入っている
+function PageMeta() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const meta = pageMeta(pathname);
+    document.title = meta.title;
+    const setHead = (selector: string, create: () => HTMLElement, attr: string, value: string) => {
+      let el = document.head.querySelector<HTMLElement>(selector);
+      if (!el) {
+        el = create();
+        document.head.append(el);
+      }
+      el.setAttribute(attr, value);
+    };
+    const metaTag = (name: string) => () => Object.assign(document.createElement("meta"), { name });
+    setHead('meta[name="description"]', metaTag("description"), "content", meta.description);
+    setHead('meta[name="robots"]', metaTag("robots"), "content", meta.noindex ? "noindex" : "index,follow");
+    setHead('link[rel="canonical"]', () => Object.assign(document.createElement("link"), { rel: "canonical" }), "href", canonicalUrl(pathname));
+  }, [pathname]);
+  return null;
+}
+
+/** サイト全体。ルーターは呼び出し側で包む(ブラウザでは BrowserRouter、静的 HTML の生成では StaticRouter) */
 function App() {
   return (
-    <HashRouter>
+    <>
       <ScrollToTop />
+      <PageMeta />
       <HeaderHeightVar />
       <header className="site-header">
         <div className="container site-header-inner">
@@ -127,6 +162,7 @@ function App() {
           <Route path="/bosses" element={<BossIndex />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/bosses/:id" element={<BossPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
@@ -138,7 +174,7 @@ function App() {
           </p>
         </div>
       </footer>
-    </HashRouter>
+    </>
   );
 }
 

@@ -27,6 +27,28 @@ const egoDetailModules = import.meta.glob<EgoDetail>("./egos/*.json", { import: 
 const egoGuideModules = import.meta.glob<string>("./guides/ego/*.md", { query: "?raw", import: "default" });
 const teamGuideModules = import.meta.glob<string>("./team-guides/*.md", { query: "?raw", import: "default" });
 
+// 遅延読み込みの結果の控え。静的 HTML の生成時と、その HTML を引き継ぐ最初の描画(hydrate)で、
+// 先に読み込んだ結果を同期的に使えるようにする。キーは「種類:ID」
+const settled = new Map<string, unknown>();
+
+function remember<T>(key: string, promise: Promise<T>): Promise<T> {
+  return promise.then((value) => {
+    settled.set(key, value);
+    return value;
+  });
+}
+
+function peek<T>(key: string): T | undefined {
+  return settled.has(key) ? (settled.get(key) as T) : undefined;
+}
+
+export const peekPersonaDetail = (code: string) => peek<PersonaDetail | null>(`persona:${code}`);
+export const peekGuide = (code: string) => peek<Guide | null>(`guide:${code}`);
+export const peekEgoDetail = (code: string) => peek<EgoDetail | null>(`ego:${code}`);
+export const peekEgoGuide = (code: string) => peek<Guide | null>(`ego-guide:${code}`);
+export const peekEgoSynergies = (code: string, heading: string) => peek<InlineSegment[][]>(`ego-synergies:${code}:${heading}`);
+export const peekTeamGuide = (id: string) => peek<Guide | null>(`team-guide:${id}`);
+
 const byName = new Map<string, CharacterData>();
 for (const path in modules) {
   const data = modules[path];
@@ -86,12 +108,12 @@ export function getPersona(code: string): PersonaContext | undefined {
 
 export async function loadPersonaDetail(code: string): Promise<PersonaDetail | null> {
   const load = detailModules[`./personas/${code}.json`];
-  return load ? load() : null;
+  return remember(`persona:${code}`, load ? load() : Promise.resolve(null));
 }
 
 export async function loadGuide(code: string): Promise<Guide | null> {
   const load = guideModules[`./guides/${code}.md`];
-  return load ? parseGuide(await load()) : null;
+  return remember(`guide:${code}`, load ? load().then(parseGuide) : Promise.resolve(null));
 }
 
 export interface EgoContext {
@@ -113,12 +135,12 @@ export function getEgo(code: string): EgoContext | undefined {
 
 export async function loadEgoDetail(code: string): Promise<EgoDetail | null> {
   const load = egoDetailModules[`./egos/${code}.json`];
-  return load ? load() : null;
+  return remember(`ego:${code}`, load ? load() : Promise.resolve(null));
 }
 
 export async function loadEgoGuide(code: string): Promise<Guide | null> {
   const load = egoGuideModules[`./guides/ego/${code}.md`];
-  return load ? parseGuide(await load()) : null;
+  return remember(`ego-guide:${code}`, load ? load().then(parseGuide) : Promise.resolve(null));
 }
 
 // 人格ページの「相性の良いE.G.O」。E.G.O は同じ囚人しか装備できないので、その囚人の E.G.O ガイドだけを読み、
@@ -126,13 +148,13 @@ export async function loadEgoGuide(code: string): Promise<Guide | null> {
 export async function loadEgoSynergies(personaCode: string, heading: string): Promise<InlineSegment[][]> {
   const character = getPersona(personaCode)?.character;
   if (!character) return [];
-  const perEgo = await Promise.all(
+  const perEgo = Promise.all(
     (character.egos ?? []).map(async (ego) => {
       const guide = await loadEgoGuide(ego.code);
       return guide ? egoItemsForPersona(guide, heading, personaCode, ego) : [];
     })
   );
-  return perEgo.flat();
+  return remember(`ego-synergies:${personaCode}:${heading}`, perEgo.then((items) => items.flat()));
 }
 
 // ---- おすすめ編成 ----
@@ -161,5 +183,5 @@ export function teamsForEgo(code: string): TeamData[] {
 
 export async function loadTeamGuide(id: string): Promise<Guide | null> {
   const load = teamGuideModules[`./team-guides/${id}.md`];
-  return load ? parseGuide(await load()) : null;
+  return remember(`team-guide:${id}`, load ? load().then(parseGuide) : Promise.resolve(null));
 }

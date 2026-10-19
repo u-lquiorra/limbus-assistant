@@ -4,5 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "./", // GitHub Pagesのプロジェクトサブパス配下でも動くよう相対パスにする
+  // GitHub Pages のプロジェクトサブパス。通常のパス(/persona/1001)で配信するため、相対パスではなく絶対パスにする
+  base: "/limbus-assistant/",
 })

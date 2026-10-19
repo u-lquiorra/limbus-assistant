@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
-import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, teamsForPersona } from "../data/loader";
+import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, peekEgoSynergies, peekGuide, peekPersonaDetail, teamsForPersona } from "../data/loader";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
@@ -258,11 +258,11 @@ export default function PersonaPage() {
   const ctx = getPersona(code);
   // 読み込んだ人格コードと一緒に持ち、別人格の詳細が一瞬表示されないようにする
   const [loaded, setLoaded] = useState<{ code: string; detail: PersonaDetail | null } | null>(null);
-  const detail = loaded?.code === code ? loaded.detail : undefined;
+  const detail = loaded?.code === code ? loaded.detail : peekPersonaDetail(code);
   const [loadedGuide, setLoadedGuide] = useState<{ code: string; guide: Guide | null } | null>(null);
-  const guide = loadedGuide?.code === code ? loadedGuide.guide : undefined;
+  const guide = loadedGuide?.code === code ? loadedGuide.guide : peekGuide(code);
   const [loadedEgos, setLoadedEgos] = useState<{ code: string; items: InlineSegment[][] } | null>(null);
-  const egoItems = loadedEgos?.code === code ? loadedEgos.items : [];
+  const egoItems = loadedEgos?.code === code ? loadedEgos.items : (peekEgoSynergies(code, SYNERGY_HEADING) ?? []);
 
   useEffect(() => {
     let cancelled = false;

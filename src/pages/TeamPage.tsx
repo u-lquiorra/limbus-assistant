@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
-import { getEgo, getPersona, getTeam, loadTeamGuide } from "../data/loader";
+import { getEgo, getPersona, getTeam, loadTeamGuide, peekTeamGuide } from "../data/loader";
 import type { Guide } from "../guide";
 import { asset } from "../lib";
 import { SIN_ORDER } from "../sinColors";
@@ -75,7 +75,7 @@ export default function TeamPage() {
   const team = getTeam(id);
   // 読み込んだ ID と一緒に持ち、別の編成の解説が一瞬表示されないようにする
   const [loaded, setLoaded] = useState<{ id: string; guide: Guide | null } | null>(null);
-  const guide = loaded?.id === id ? loaded.guide : undefined;
+  const guide = loaded?.id === id ? loaded.guide : peekTeamGuide(id);
 
   useEffect(() => {
     let cancelled = false;
