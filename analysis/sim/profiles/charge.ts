@@ -168,4 +168,119 @@ export const CHARGE_PROFILES: Profile[] = [
     support: { label: "人ハ光ヨリモ迅ク逃ゲヨ", bonus: { label: "なし" } },
     notes: ["裏置きのサポート効果(クイック)は扱わない"],
   },
+
+  // ---------------- ル・ノワール型 ----------------
+  // 保存・漂流慣性は特殊充電。回数は充電回数(self.charge)として、威力(累計10消耗ごとに+1)は self.chargeP として追う。
+  // 威力は「3〜4ターン目に3」程度なので、2ターン目から毎ターン+1で近似する
+  {
+    code: "0315",
+    name: "オートクチュール::ル・ノワール ブランドマネージャー",
+    tags: ["ル・ノワール"],
+    skills: {
+      S1: [{ skill: skill("釘刺されよ", [coin({ tremorC: 2 }), coin({ self: { charge: 6 } })], { onUse: { self: { charge: 4 } } }) }],
+      S2: [{ skill: skill("釘よ、生まれよ", [coin({ tremorP: 4 }), coin({ self: { charge: 8 }, tremorC: 3, burst: 1 })]) }],
+      S3: [
+        {
+          // Ⅲで振動-保存へ振幅変換して振動爆発。約束された釘3以上でもう1回(半分の確率で近似)
+          skill: skill("誕生を断たん！", [
+            coin({ tremorP: 4 }),
+            coin({ tremorC: 3 }),
+            coin([{ self: { charge: 4 }, convert: "保存", burst: 1 }, { burst: 1, prob: 0.5 }]),
+          ]),
+        },
+      ],
+    },
+    followUps: [
+      {
+        // 他のル・ノワール所属の味方が攻撃する前に一方攻撃(1ターンに1回)
+        label: "審判！",
+        skill: skill("審判！", [coin({ tremorP: 4 })]),
+        trigger: { code: "0416" },
+        unopposed: true,
+      },
+    ],
+    turnStart: [{ effect: { self: { chargeP: 1 } }, from: 2, until: 6 }],
+    notes: [
+      "約束された釘(振動爆発時の怠惰ダメージ・束縛)と保存神域(バリア・敵の速度低下・被ダメージ増加)は扱わない",
+      "守備・反撃から出る強化S3「幾度も振り下ろし、誕生を断たん！」は扱わない",
+    ],
+  },
+  {
+    code: "0416",
+    name: "オートクチュール::ル・ノワール シューズフロア",
+    tags: ["ル・ノワール"],
+    skills: {
+      S1: [{ skill: skill("不潔だな", [coin({ tremorP: 2 }), coin({ self: { charge: 5 } })]) }],
+      S2: [
+        // Ⅲの振動爆発は保存威力3以上(4ターン目〜)
+        { skill: skill("来て試着してみろ", [coin({ self: { charge: 3 } }), coin({ tremorP: 2, tremorC: 2 }), coin()], { onUse: { self: { charge: 4 } } }), until: 3 },
+        {
+          skill: skill("来て試着してみろ", [coin({ self: { charge: 3 } }), coin({ tremorP: 2, tremorC: 2 }), coin({ burst: 1 })], {
+            onUse: { self: { charge: 4 } },
+          }),
+          from: 4,
+        },
+      ],
+      S3: [
+        {
+          skill: skill("トリプル・スタンピード・ステッチング", [coin({ self: { charge: 5 } }), coin({ tremorP: 3, tremorC: 3 }), coin({ burst: 1 })], {
+            onUse: { self: { charge: 5 } },
+          }),
+          until: 3,
+        },
+        {
+          // 保存威力3以上で振動爆発が2回追加
+          skill: skill("トリプル・スタンピード・ステッチング", [coin({ self: { charge: 5 } }), coin({ tremorP: 3, tremorC: 3 }), coin({ burst: 3 })], {
+            onUse: { self: { charge: 5 } },
+          }),
+          from: 4,
+          until: 4,
+        },
+        {
+          // コートが溜まってアルミュール・エヴェイエ状態になると、S3が「ワンキック」に変わる(5ターン目〜とみる)
+          skill: skill("ワンキック-クチュール・ミュルティプル", [
+            coin({ self: { charge: 5 } }),
+            coin({ tremorP: 3, tremorC: 3, burst: 1 }),
+            coin({ burst: 1 }),
+            coin({ burst: 1 }),
+          ]),
+          from: 5,
+        },
+      ],
+    },
+    turnStart: [{ effect: { self: { chargeP: 1 } }, from: 2, until: 6 }],
+    notes: [
+      "コート・アルミュール・エヴェイエの増減は追わず、5ターン目からワンキックとする(コート状態へ戻る周期は扱わない)",
+      "バリア、被弾時の振動威力付与、振動爆発の混乱区間前進量増加(饋還)、反撃からのワンキックは扱わない",
+    ],
+  },
+  {
+    code: "0917",
+    name: "オートクチュール::お直し室",
+    skills: {
+      // S1は味方に充電回数・攻撃レベル増加・バリアを配るスキル。ダメージは出さない
+      S1: [{ skill: skill("ルトゥーシュ(Retouche)", [coin(undefined, { noDamage: true })]) }],
+      S2: [{ skill: skill("固定、そしてパターンに沿って裁断", [coin({ self: { charge: 6 } }), coin({ tremorC: 2 }), coin({ burst: 1 })]) }],
+      S3: [
+        {
+          // Ⅲで振動爆発。漂流慣性回数5以上ならもう1回(8割で近似)
+          skill: skill("クーベ・ダン・ル・ビエ", [coin({ tremorC: 3 }), coin({ tremorP: 3 }), coin([{ burst: 1 }, { burst: 1, prob: 0.8 }])], {
+            onUse: { self: { charge: 5 } },
+          }),
+        },
+      ],
+    },
+    followUps: [
+      {
+        // ドゥ、オー・ボン・スィゾーを持つ味方(編成順最速の充電人格を優先)の攻撃後に発動。付与されている確率を6割とみる
+        label: "パターン起こし",
+        skill: skill("パターン起こし", [coin({ tremorC: 1 }, { times: 2 })]),
+        trigger: { code: "0315" },
+        prob: 0.6,
+        unopposed: true,
+      },
+    ],
+    turnStart: [{ effect: { self: { chargeP: 1 } }, from: 2, until: 6 }],
+    notes: ["味方へのバリア・攻撃レベル増加・充電回数の配布、裁断の印と「切り抜く」は扱わない"],
+  },
 ];
