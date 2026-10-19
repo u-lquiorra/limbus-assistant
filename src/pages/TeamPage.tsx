@@ -4,12 +4,12 @@ import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { getEgo, getPersona, getTeam, loadTeamGuide } from "../data/loader";
 import type { Guide } from "../guide";
-import { asset, seasonLabel } from "../lib";
+import { asset } from "../lib";
 import { SIN_ORDER } from "../sinColors";
 import type { TeamData, TeamMember } from "../types";
 import { SinBadge } from "../components/ui";
 import { GuideSection } from "../components/GuideView";
-import { AptitudeBadges } from "../components/TeamLinks";
+import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
 import "./teams.css";
 
 const SLOTS: { key: "core" | "flex" | "alternatives" | "support"; title: string; note: string }[] = [
@@ -34,29 +34,6 @@ function resourceTotals(team: TeamData): [string, number][] {
   return SIN_ORDER.map((sin) => [sin, totals.get(sin) ?? 0] as [string, number])
     .filter(([, n]) => n > 0)
     .sort((a, b) => b[1] - a[1]);
-}
-
-function PersonaRow({ member, index }: { member: TeamMember; index?: number }) {
-  const ctx = getPersona(member.code);
-  if (!ctx) return null;
-  const { status } = ctx;
-  return (
-    <li className="team-member">
-      {index !== undefined && <span className="team-member-index" aria-hidden="true">{index}</span>}
-      <Link to={`/persona/${status.code}`} className="team-member-thumb" tabIndex={-1} aria-hidden="true">
-        {status.image && <img src={asset(status.image)} alt="" width={56} height={56} loading="lazy" />}
-      </Link>
-      <div className="team-member-body">
-        <Link to={`/persona/${status.code}`} className="team-member-name">
-          {status.name}
-        </Link>
-        <span className="team-member-sub">
-          {status.character} ・ {seasonLabel(status.season)}
-        </span>
-        {member.note && <p className="team-member-note">{member.note}</p>}
-      </div>
-    </li>
-  );
 }
 
 function EgoRow({ member }: { member: TeamMember }) {

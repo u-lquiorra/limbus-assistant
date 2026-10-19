@@ -143,3 +143,17 @@ test("teams: 編成のキーワードを持たない人格には offKeyword を�
     }
   }
 });
+
+// 編成一覧の「単体で強い人格」(standalone-personas.json)
+test("単体で強い人格: 実在する人格で、重複が無く、一言がある", () => {
+  const list = JSON.parse(readFileSync(join(DATA, "standalone-personas.json"), "utf-8")) as { code: string; note: string }[];
+  assert.ok(list.length > 0);
+  const seen = new Set<string>();
+  for (const m of list) {
+    assert.ok(personaOwner.has(m.code), `${m.code} は存在しない人格`);
+    assert.ok(!seen.has(m.code), `${m.code} が重複している`);
+    seen.add(m.code);
+    assert.ok(m.note?.trim(), `${m.code} の一言が空`);
+    assert.ok(!/wiki/i.test(m.note), `${m.code} の一言に出典の記述がある`);
+  }
+});

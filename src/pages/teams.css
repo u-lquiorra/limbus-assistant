@@ -345,7 +345,8 @@
   margin-bottom: 14px;
 }
 
-/* 一覧の鏡ダンジョン欄。通常の編成との間を空ける */
-.team-mirror {
+/* 一覧の鏡ダンジョン欄・単体で強い人格欄。通常の編成との間を空ける */
+.team-mirror,
+.team-standalone {
   margin-top: 40px;
 }

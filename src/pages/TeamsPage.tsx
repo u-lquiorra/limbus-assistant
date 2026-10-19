@@ -1,9 +1,9 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { getPersona, teams } from "../data/loader";
+import { getPersona, standalonePersonas, teams } from "../data/loader";
 import { asset } from "../lib";
 import type { TeamData } from "../types";
-import { AptitudeBadges } from "../components/TeamLinks";
+import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
 import "./teams.css";
 
 const CATEGORIES: TeamData["category"][] = ["状態異常", "所属", "その他", "鏡ダンジョン"];
@@ -108,6 +108,22 @@ export default function TeamsPage() {
       ) : (
         <p className="empty">条件に一致する編成はない。</p>
       )}
+
+      {/* ハイブリッド・ハイランダー編成は組み方が難しいため編成としては載せず、単体で強い人格の紹介にとどめる */}
+      <section className="section-block team-standalone">
+        <header className="section-header">
+          <h2 className="section-title">単体で強い人格</h2>
+          <span className="section-count">{standalonePersonas.length}人格</span>
+        </header>
+        <p className="team-lead">
+          特定の編成を組まなくても活躍しやすい人格。キーワードがそろわないうちの主力や、編成の空いた枠に入れやすい。ヴァルプルギスの夜の限定人格も含む。
+        </p>
+        <ul className="team-members team-members-compact">
+          {standalonePersonas.map((m) => (
+            <PersonaRow key={m.code} member={m} />
+          ))}
+        </ul>
+      </section>
     </section>
   );
 }

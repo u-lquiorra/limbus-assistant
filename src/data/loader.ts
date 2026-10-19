@@ -7,10 +7,12 @@ import type {
   PersonaSkills,
   PersonaStatus,
   TeamData,
+  TeamMember,
 } from "../types";
 import { egoItemsForPersona, parseGuide, type Guide, type InlineSegment } from "../guide";
 import charactersList from "./characters.json";
 import teamsList from "./teams.json";
+import standaloneList from "./standalone-personas.json";
 
 const modules = import.meta.glob<CharacterData>("./*.json", { eager: true, import: "default" });
 
@@ -138,6 +140,9 @@ export async function loadEgoSynergies(personaCode: string, heading: string): Pr
 // 適性の軸が編成ごとに違う(通常・短期・長期/周回・深層)ため、JSON の推論型からは直接キャストできない。
 // 中身の整合性は teams.test.ts で検査している
 export const teams: TeamData[] = teamsList as unknown as TeamData[];
+
+// 編成一覧の「単体で強い人格」。特定の編成を組まなくても活躍しやすい人格(中身は teams.test.ts で検査)
+export const standalonePersonas: TeamMember[] = standaloneList;
 
 export function getTeam(id: string): TeamData | undefined {
   return teams.find((t) => t.id === id);
