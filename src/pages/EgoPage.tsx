@@ -286,7 +286,7 @@ export default function EgoPage() {
               </div>
             </>
           ) : (
-            <p className="empty">スキル詳細は取得できていません。</p>
+            <p className="empty">スキル詳細は未取得。</p>
           )}
         </section>
 

@@ -51,7 +51,7 @@ function CharacterDetail({ name }: { name?: string }) {
   if (!character) {
     return (
       <div className="container section">
-        <p className="empty">囚人が見つかりませんでした。</p>
+        <p className="empty">囚人が見つからない。</p>
         <Link to="/" className="back-link">
           ← 囚人一覧に戻る
         </Link>
@@ -190,7 +190,7 @@ function CharacterDetail({ name }: { name?: string }) {
             ))}
           </div>
         ) : (
-          <p className="empty">条件に一致する人格はありません。</p>
+          <p className="empty">条件に一致する人格はない。</p>
         )}
       </section>
 

@@ -60,7 +60,7 @@ export default function TeamsPage() {
         </span>
       </header>
       <p className="team-lead">
-        軸になるキーワードや所属ごとに、組み方と回し方をまとめています。手持ちに無い人格は、各編成の自由枠・代替枠から選んでください。
+        軸になるキーワードや所属ごとに、組み方と回し方をまとめた。手持ちに無い人格は、各編成の自由枠・代替枠から選ぶ。
       </p>
 
       <div className="toolbar">
@@ -106,7 +106,7 @@ export default function TeamsPage() {
           )}
         </>
       ) : (
-        <p className="empty">条件に一致する編成はありません。</p>
+        <p className="empty">条件に一致する編成はない。</p>
       )}
     </section>
   );

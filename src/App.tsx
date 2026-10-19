@@ -79,7 +79,7 @@ function App() {
         <div className="container">
           <DataSourceNote />
           <p>
-            本サイトは非公式のファンサイトです。ゲーム内の画像・キャラクター等の著作権は Project Moon に帰属します。
+            本サイトは非公式のファンサイト。ゲーム内の画像・キャラクター等の著作権は Project Moon に帰属する。
           </p>
         </div>
       </footer>

@@ -63,10 +63,10 @@ export default function Home() {
               ))}
             </div>
           ) : (
-            <p className="empty">「{query}」に一致する人格は見つかりませんでした。</p>
+            <p className="empty">「{query}」に一致する人格は見つからない。</p>
           )}
           {results.length > MAX_RESULTS && (
-            <p className="empty">上位{MAX_RESULTS}件を表示しています。条件を絞り込んでください。</p>
+            <p className="empty">上位{MAX_RESULTS}件を表示中。条件を絞り込むと探しやすい。</p>
           )}
         </section>
       )}
@@ -80,7 +80,7 @@ export default function Home() {
         <Link to="/beginner" className="beginner-home-link">
           <span className="kicker">NEW MANAGER GUIDE</span>
           <strong>まず何をすればいい？ 初心者ガイド</strong>
-          <span>ストーリーの進め方から、育成・日課・交換までを順番に案内します。 →</span>
+          <span>ストーリーの進め方から、育成・日課・交換までを順番に案内する。 →</span>
         </Link>
       </section>
 
