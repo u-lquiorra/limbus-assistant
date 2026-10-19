@@ -311,7 +311,7 @@ export default function PersonaPage() {
   if (!ctx) {
     return (
       <div className="container section">
-        <p className="empty">人格が見つかりませんでした。</p>
+        <p className="empty">人格が見つからない。</p>
         <Link to="/" className="back-link">
           ← 囚人一覧に戻る
         </Link>
@@ -468,7 +468,7 @@ export default function PersonaPage() {
                 <span>
                   <span className="coin coin-unbreakable" /> 破壊不能コイン
                 </span>
-                <span>複数の値は同期化段階ごとの数値(大きい数字が最大段階)。ローマ数字は何枚目のコインの効果かを示します。</span>
+                <span>複数の値は同期化段階ごとの数値(大きい数字が最大段階)。ローマ数字は何枚目のコインの効果かを示す。</span>
               </div>
             </>
           ) : (
