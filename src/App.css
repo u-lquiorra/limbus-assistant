@@ -577,7 +577,7 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-.chip-icon.is-active {
+.chip.is-active {
   background: var(--text);
   color: var(--bg);
   border-color: var(--text);
