@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { getPersona, standalonePersonas, teams } from "../data/loader";
 import { keywordFilterPath } from "../keywordPages";
+import { supportPassivesPath } from "../supportPassives";
 import { asset } from "../lib";
 import type { TeamData } from "../types";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
@@ -71,6 +72,13 @@ export default function TeamsPage() {
         <span>
           <strong>キーワードを組み合わせて人格を探す</strong>
           <span>火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。キーワード別の人格一覧もここから見られる。</span>
+        </span>
+        <span aria-hidden="true">→</span>
+      </Link>
+      <Link to={supportPassivesPath()} className="feature-callout">
+        <span>
+          <strong>裏置きの候補をサポートパッシブから探す</strong>
+          <span>全人格のサポートパッシブを必要資源の罪悪属性ごとに並べ、編成でたまる資源だけで発動するものに絞り込む。</span>
         </span>
         <span aria-hidden="true">→</span>
       </Link>

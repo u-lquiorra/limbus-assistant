@@ -11,6 +11,7 @@ import { SinBadge } from "../components/ui";
 import { GuideSection } from "../components/GuideView";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
 import { getKeywordPage } from "../keywordPages";
+import { supportPassivesPath } from "../supportPassives";
 import "./teams.css";
 
 const SLOTS: { key: "core" | "flex" | "alternatives" | "support"; title: string; note: string }[] = [
@@ -223,6 +224,11 @@ export default function TeamPage() {
                 <PersonaRow key={m.code} member={m} />
               ))}
             </ul>
+            {key === "support" && (
+              <Link to={supportPassivesPath()} className="back-link team-support-link">
+                ほかの裏置き候補をサポートパッシブ一覧で探す →
+              </Link>
+            )}
           </section>
         ) : null
       )}

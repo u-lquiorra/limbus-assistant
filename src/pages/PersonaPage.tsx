@@ -4,6 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { getPersona, keywordsOfPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, peekEgoSynergies, peekGuide, peekPersonaDetail, teamsForPersona } from "../data/loader";
 import { keywordFilterPath } from "../keywordPages";
+import { supportPassivesPath } from "../supportPassives";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
@@ -234,8 +235,18 @@ function PassiveCard({ passive }: { passive: PassiveDetail }) {
         </span>
       </header>
       <EffectText text={passive.effect} keywords={passive.keywords} />
+      {passive.kind === "サポート" && resourceSins(passive.resource).length > 0 && (
+        <Link to={supportPassivesPath(resourceSins(passive.resource))} className="passive-card-link">
+          この資源で発動するサポートパッシブ →
+        </Link>
+      )}
     </article>
   );
+}
+
+// 必要資源の表記("傲慢×3" など)から罪悪属性を取り出す
+function resourceSins(resource?: string): string[] {
+  return [...(resource ?? "").matchAll(new RegExp(`(${SIN_ORDER.join("|")})\\s*×`, "g"))].map((m) => m[1]);
 }
 
 function SummarySkillRow({ label, cell }: { label: string; cell: SkillCell }) {

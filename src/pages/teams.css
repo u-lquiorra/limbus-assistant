@@ -492,3 +492,8 @@
 .support-passive-persona:hover strong {
   color: var(--gold);
 }
+
+/* 各編成の裏置き欄から、サポートパッシブ一覧への導線 */
+.team-support-link {
+  margin-top: 12px;
+}

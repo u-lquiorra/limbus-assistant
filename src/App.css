@@ -1983,3 +1983,15 @@ button.fx-keyword[aria-expanded="true"] {
 .ego-cost-link:hover {
   text-decoration: underline;
 }
+
+/* 人格ページのサポートパッシブのカードから、サポートパッシブ一覧への導線 */
+.passive-card-link {
+  align-self: flex-start;
+  color: var(--gold);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.passive-card-link:hover {
+  text-decoration: underline;
+}
