@@ -5,11 +5,15 @@ import { keywordPersonas, loadEgoDetail, loadEgoGuide, loadEgoSynergies, loadGui
 import { SYNERGY_HEADING } from "./components/GuideView";
 import { getKeywordPage } from "./keywordPages";
 import { loadBossGuide } from "./bosses";
+import { preloadPage } from "./routes";
 
 export async function preloadRoute(pathname: string): Promise<void> {
   const [, kind, raw] = pathname.split("/");
   const id = raw ? decodeURIComponent(raw) : "";
-  if (!id) return;
+  // ページのコード自体も遅延読み込みなので、データと並べて読み込む。
+  // 失敗しても画面側の Suspense が読み直すため、ここではログだけ残して先へ進む
+  const pageCode = preloadPage(pathname).catch((e: unknown) => console.error(`ページの読み込みに失敗した: ${pathname}`, e));
+  if (!id) return pageCode;
   // 読み込みに失敗しても、ページ側の useEffect が読み直して概要表示に切り替えるため、ここでは握りつぶさずログだけ残す
   const settle = (promises: Promise<unknown>[]) =>
     Promise.allSettled(promises).then((results) =>
@@ -24,4 +28,5 @@ export async function preloadRoute(pathname: string): Promise<void> {
     const page = getKeywordPage(id);
     if (page) await settle(keywordPersonas(page.keyword).map((s) => loadGuide(s.code)));
   }
+  await pageCode;
 }

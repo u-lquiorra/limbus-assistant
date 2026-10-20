@@ -18,7 +18,50 @@ interface ServerEntry {
   structuredDataTags(pathname: string, ogImage: string): string;
   lastModified(pathname: string): string | undefined;
   pageImage(pathname: string): string | undefined;
+  pageModule(pathname: string): string | undefined;
   SITE_URL: string;
+}
+
+interface ManifestChunk {
+  file: string;
+  css?: string[];
+  imports?: string[];
+  isEntry?: boolean;
+}
+
+// Vite のビルド結果の一覧。ページのコードは遅延読み込みなので、そのページの CSS・JS を静的 HTML に書き、
+// JS の実行を待たずに読み込ませる(書かないと、JS を読み終えるまでページ専用の CSS が当たらない)
+const manifestPath = join(dist, ".vite", "manifest.json");
+const manifest = JSON.parse(await readFile(manifestPath, "utf8")) as Record<string, ManifestChunk>;
+
+// 最初の JS(エントリ)とその依存は index.html がすでに読み込むので、ページ側では書かない
+const entryFiles = new Set<string>();
+const collectEntry = (key: string) => {
+  const chunk = manifest[key];
+  if (!chunk || entryFiles.has(chunk.file)) return;
+  entryFiles.add(chunk.file);
+  chunk.imports?.forEach(collectEntry);
+};
+Object.keys(manifest).filter((key) => manifest[key].isEntry).forEach(collectEntry);
+
+/** ページのソースから、読み込む CSS と JS(依存するチャンクを含む。最初の JS に入っているものは除く)を集める */
+function pageAssetTags(module: string | undefined): string {
+  if (!module) return "";
+  if (!manifest[module]) throw new Error(`ビルド結果の一覧にページが無い: ${module}`);
+  const css = new Set<string>();
+  const js = new Set<string>();
+  const visit = (key: string) => {
+    const chunk = manifest[key];
+    if (!chunk || entryFiles.has(chunk.file) || js.has(chunk.file)) return;
+    js.add(chunk.file);
+    chunk.css?.forEach((file) => css.add(file));
+    chunk.imports?.forEach(visit);
+  };
+  visit(module);
+  return [
+    ...[...css].map((file) => `<link rel="stylesheet" crossorigin href="/${file}">`),
+    ...[...js].map((file) => `<link rel="modulepreload" crossorigin href="/${file}">`),
+  ].join("\n    ");
 }
 
 const OG_IMAGE = "og-image.png";
@@ -114,7 +157,7 @@ async function headTags(pathname: string): Promise<{ title: string; tags: string
   return { title: meta.title, tags };
 }
 
-function fill(html: string, body: string, title: string, tags: string, pathname = ""): string {
+function fill(html: string, body: string, title: string, tags: string, pathname = "", assets = ""): string {
   const titleTag = /<title>[^<]*<\/title>/;
   const descTag = /<meta name="description"[^>]*\/>/;
   const rootTag = '<div id="root"></div>';
@@ -122,6 +165,8 @@ function fill(html: string, body: string, title: string, tags: string, pathname 
     throw new Error("index.html の title・description・#root が想定の形ではない");
   }
   return html
+    .replace("</head>", assets ? `  ${assets}
+  </head>` : "</head>")
     .replace(titleTag, `<title>${escapeHtml(title)}</title>`)
     .replace(descTag, tags)
     .replace(rootTag, `<div id="root" data-path="${escapeHtml(pathname)}">${body}</div>`);
@@ -141,7 +186,7 @@ for (const pathname of routes) {
     const dir = join(dist, ...decodeURIComponent(pathname).split("/").filter(Boolean));
     await mkdir(dir, { recursive: true });
     // data-path: ブラウザ側で、この HTML が今のパスのものか確かめてから引き継ぐため
-    await writeFile(join(dir, "index.html"), fill(template, body, title, tags, pathname));
+    await writeFile(join(dir, "index.html"), fill(template, body, title, tags, pathname, pageAssetTags(entry.pageModule(pathname))));
   } catch (e) {
     failed++;
     console.error(`静的 HTML の生成に失敗した: ${pathname}`, e);
@@ -167,5 +212,7 @@ await writeFile(join(dist, "sitemap.xml"), sitemap);
 await writeFile(join(dist, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${entry.SITE_URL}/sitemap.xml\n`);
 
 await rm(serverDir, { recursive: true, force: true });
+// ビルド結果の一覧は静的 HTML の生成にだけ使うので、公開物に残さない
+await rm(join(dist, ".vite"), { recursive: true, force: true });
 console.log(`静的 HTML: ${routes.length - failed}/${routes.length} ページ、sitemap: ${indexable.length} 件`);
 if (failed) process.exit(1);

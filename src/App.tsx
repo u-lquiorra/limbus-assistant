@@ -1,19 +1,6 @@
-import { useEffect, useRef } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
-import Home from "./pages/Home";
-import CharacterDetail from "./pages/CharacterDetail";
-import PersonaPage from "./pages/PersonaPage";
-import EgoPage from "./pages/EgoPage";
-import TeamsPage from "./pages/TeamsPage";
-import TeamPage from "./pages/TeamPage";
-import GlossaryPage from "./pages/GlossaryPage";
-import GlossaryDetail from "./pages/GlossaryDetail";
-import BeginnerGuide from "./pages/BeginnerGuide";
-import RerollGuide from "./pages/RerollGuide";
-import BossPage, { BossIndex } from "./pages/BossPage";
-import SearchPage from "./pages/SearchPage";
-import AboutPage from "./pages/AboutPage";
-import KeywordPage, { KeywordIndex } from "./pages/KeywordPage";
+import { APP_ROUTES } from "./routes";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
@@ -161,25 +148,15 @@ function App() {
       </header>
 
       <main className="site-main">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/character/:name" element={<CharacterDetail />} />
-          <Route path="/persona/:code" element={<PersonaPage />} />
-          <Route path="/ego/:code" element={<EgoPage />} />
-          <Route path="/teams" element={<TeamsPage />} />
-          <Route path="/teams/:id" element={<TeamPage />} />
-          <Route path="/keywords" element={<KeywordIndex />} />
-          <Route path="/keywords/:id" element={<KeywordPage />} />
-          <Route path="/glossary" element={<GlossaryPage />} />
-          <Route path="/glossary/:id" element={<GlossaryDetail />} />
-          <Route path="/beginner" element={<BeginnerGuide />} />
-          <Route path="/reroll" element={<RerollGuide />} />
-          <Route path="/bosses" element={<BossIndex />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/bosses/:id" element={<BossPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        {/* ページのコードを読み込む間の表示。静的 HTML を引き継ぐときは先に読み込むので出ない */}
+        <Suspense fallback={<div className="container section" aria-busy="true" />}>
+          <Routes>
+            {APP_ROUTES.map((r) => (
+              <Route key={r.path} path={r.path} element={r.element} />
+            ))}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </main>
 
       <footer className="site-footer">

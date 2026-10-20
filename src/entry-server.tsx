@@ -10,6 +10,7 @@ import { structuredData } from "./seo";
 import { jsonLdScript } from "./jsonLd";
 
 export { canonicalUrl, lastModified, pageImage, pageMeta, prerenderRoutes, SITE_URL } from "./seo";
+export { pageModule } from "./routes";
 
 /** ページの構造化データを <script> タグの文字列で返す。render の後に呼ぶ(ガイドの更新日を先読み結果から取るため) */
 export function structuredDataTags(pathname: string, ogImage: string): string {

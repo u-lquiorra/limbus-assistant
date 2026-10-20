@@ -6,4 +6,6 @@ export default defineConfig({
   plugins: [react()],
   // 独自ドメイン(limbus-assistant.com)の直下で配信する。通常のパス(/persona/1001)で配信するため、相対パスではなく絶対パスにする
   base: "/",
+  // 静的 HTML の生成(scripts/prerender.ts)で、ページごとの CSS・JS のファイル名を引くために出力する
+  build: { manifest: true },
 })
