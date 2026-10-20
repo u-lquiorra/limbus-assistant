@@ -49,6 +49,10 @@ const STATIC_PAGES: Record<string, PageMeta> = {
     title: withSite("編成例一覧｜火傷・出血・破裂など"),
     description: "リンバス(Limbus Company)の編成例。火傷・出血・破裂・沈潜・呼吸・振動・充電などキーワードごとの組み方と、人格・E.G.Oの役割をまとめている。",
   },
+  "/egos": {
+    title: withSite("E.G.O一覧｜必要資源で探す"),
+    description: "リンバス(Limbus Company)の全囚人のE.G.O一覧。必要資源(罪悪属性)で絞り込み、編成でたまる資源だけで使えるE.G.Oを探せる。",
+  },
   "/keywords": {
     title: withSite("キーワード別人格一覧｜火傷・出血・破裂など"),
     description: "リンバス(Limbus Company)の人格を、火傷・出血・振動・破裂・沈潜・呼吸・充電のキーワード別にまとめた一覧。編成の候補探しに使える。",

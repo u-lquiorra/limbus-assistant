@@ -16,6 +16,7 @@ export interface AppRoute {
 const CharacterDetail = lazyPage(() => import("./pages/CharacterDetail").then((m) => m.default));
 const PersonaPage = lazyPage(() => import("./pages/PersonaPage").then((m) => m.default));
 const EgoPage = lazyPage(() => import("./pages/EgoPage").then((m) => m.default));
+const EgoListPage = lazyPage(() => import("./pages/EgoListPage").then((m) => m.default));
 const TeamsPage = lazyPage(() => import("./pages/TeamsPage").then((m) => m.default));
 const TeamPage = lazyPage(() => import("./pages/TeamPage").then((m) => m.default));
 const KeywordIndex = lazyPage(() => import("./pages/KeywordPage").then((m) => m.KeywordIndex));
@@ -39,6 +40,7 @@ export const APP_ROUTES: AppRoute[] = [
   lazyRoute("/character/:name", CharacterDetail, "CharacterDetail"),
   lazyRoute("/persona/:code", PersonaPage, "PersonaPage"),
   lazyRoute("/ego/:code", EgoPage, "EgoPage"),
+  lazyRoute("/egos", EgoListPage, "EgoListPage"),
   lazyRoute("/teams", TeamsPage, "TeamsPage"),
   lazyRoute("/teams/:id", TeamPage, "TeamPage"),
   lazyRoute("/keywords", KeywordIndex, "KeywordPage"),

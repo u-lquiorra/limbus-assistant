@@ -1853,6 +1853,14 @@ button.fx-keyword[aria-expanded="true"] {
   min-height: 1.4em;
 }
 
+/* E.G.O 一覧(/egos)のカードだけに出す必要資源 */
+.ego-card-cost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
 .ego-resist-dot {
   display: inline-block;
   width: 8px;

@@ -447,3 +447,19 @@
 .keyword-filter-results .empty {
   padding: 16px 0;
 }
+
+/* E.G.O 一覧(/egos)の必要資源の絞り込み。ボタンはキーワード絞り込みと共通 */
+.ego-filter-title {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.ego-filter-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.ego-filter-summary {
+  margin-top: 16px;
+}

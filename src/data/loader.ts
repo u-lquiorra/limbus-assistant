@@ -150,6 +150,9 @@ export interface EgoContext {
   next?: EgoSummary;
 }
 
+/** 全囚人の E.G.O(囚人一覧の順、囚人の中はデータの順)。E.G.O 一覧(/egos)に使う */
+export const allEgos: EgoSummary[] = characterList.flatMap((c) => getCharacter(c.name)?.egos ?? []);
+
 export function getEgo(code: string): EgoContext | undefined {
   for (const character of byName.values()) {
     const list = character.egos ?? [];

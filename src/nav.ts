@@ -23,6 +23,7 @@ export function isPage(pathname: string, path: string): boolean {
 /** pathname が属するナビ項目の `to` を返す。どれにも属さなければ undefined */
 export function activeNavItem(pathname: string): string | undefined {
   if (pathname === "/" || SINNER_SECTION_PREFIXES.some((prefix) => pathname.startsWith(prefix))) return "/";
+  if (pathname === "/egos" || pathname.startsWith("/egos/")) return "/";
   // キーワード別人格一覧は編成を組むための候補探しなので、「編成例」を選択中として扱う
   if (pathname === "/keywords" || pathname.startsWith("/keywords/")) return "/teams";
   // "/teams" と "/teams/xxx" は一致させ、"/teamsx" のような別パスは一致させない
