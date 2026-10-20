@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { PersonaRow } from "../components/TeamLinks";
-import { getPersona, getTeam, keywordPersonas, loadGuide, peekGuide } from "../data/loader";
+import { getPersona, getTeam, keywordPersonas, loadGuide, peekGuide, personasWithAllKeywords } from "../data/loader";
 import { getGlossaryTerm } from "../glossary";
 import { guideSummary } from "../guide";
 import { asset } from "../lib";
-import { KEYWORD_PAGES, getKeywordPage } from "../keywordPages";
+import { KEYWORD_PAGES, formatKeywordFilter, getKeywordPage, parseKeywordFilter, type KeywordPage as KeywordPageDef } from "../keywordPages";
 import type { PersonaStatus } from "../types";
 import "./teams.css";
 
@@ -51,6 +51,85 @@ function useSummaries(codes: string[]): Record<string, string | undefined> {
   return loaded?.key === key ? loaded.summaries : initial();
 }
 
+/**
+ * キーワードを複数選び、全てを持つ人格だけに絞り込む(AND)。
+ * ゲーム内のソートは OR で、複合キーワードの編成(鏡ダンジョンなど)の候補を探しにくいため。
+ * 選択は URL(?kw=burn,bleed)に持ち、共有や戻る操作でも保つ
+ */
+function KeywordFilter() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const selected = parseKeywordFilter(searchParams.get("kw"));
+  const keywords = selected.map((p) => p.keyword);
+  const results = personasWithAllKeywords(keywords);
+
+  const update = (pages: KeywordPageDef[]) => {
+    const value = formatKeywordFilter(pages);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (value) next.set("kw", value);
+        else next.delete("kw");
+        return next;
+      },
+      { replace: true, preventScrollReset: true }
+    );
+  };
+  const toggle = (page: KeywordPageDef) =>
+    update(selected.includes(page) ? selected.filter((p) => p !== page) : [...selected, page]);
+
+  return (
+    <section className="keyword-filter" aria-labelledby="keyword-filter-title">
+      <header className="section-header">
+        <h2 id="keyword-filter-title" className="section-title">
+          <span className="section-title-en">FILTER</span>
+          キーワードを組み合わせて絞り込む
+        </h2>
+      </header>
+      <p className="keyword-filter-lead">複数選ぶと、選んだキーワードを全て持つ人格だけを出す。数字は、そのキーワードを足したときの人格数。</p>
+      <div className="keyword-filter-chips" role="group" aria-label="絞り込むキーワード">
+        {KEYWORD_PAGES.map((p) => {
+          const pressed = selected.includes(p);
+          // 押したときの件数を先に見せ、0件になる組み合わせを選ぶ前に分かるようにする
+          const count = pressed ? results.length : personasWithAllKeywords([...keywords, p.keyword]).length;
+          return (
+            <button
+              key={p.id}
+              type="button"
+              className="keyword-filter-chip"
+              aria-pressed={pressed}
+              onClick={() => toggle(p)}
+            >
+              {p.keyword}
+              <span className="keyword-filter-count">{count}</span>
+            </button>
+          );
+        })}
+        {selected.length > 0 && (
+          <button type="button" className="keyword-filter-clear" onClick={() => update([])}>
+            選択を解除
+          </button>
+        )}
+      </div>
+      {selected.length > 0 && (
+        <div className="keyword-filter-results" aria-live="polite">
+          <p className="keyword-filter-summary">
+            {keywords.join("＋")}を{keywords.length > 1 ? "全て" : ""}持つ人格：<strong>{results.length}人格</strong>
+          </p>
+          {results.length > 0 ? (
+            <ul className="team-members team-members-compact">
+              {results.map((s) => (
+                <PersonaRow key={s.code} member={{ code: s.code }} />
+              ))}
+            </ul>
+          ) : (
+            <p className="empty">該当する人格はいない。キーワードを減らす。</p>
+          )}
+        </div>
+      )}
+    </section>
+  );
+}
+
 /** /keywords: 7つのキーワードの一覧ページへの入口 */
 export function KeywordIndex() {
   return (
@@ -66,6 +145,7 @@ export function KeywordIndex() {
       <p className="team-lead">
         火傷・出血・振動・破裂・沈潜・呼吸・充電の7つのキーワードごとに、そのキーワードを持つ人格をまとめた。編成を組むときの候補探しに使う。
       </p>
+      <KeywordFilter />
       <div className="team-grid">
         {KEYWORD_PAGES.map((p) => {
           const personas = keywordPersonas(p.keyword);

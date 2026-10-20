@@ -93,6 +93,17 @@ export function keywordPersonas(keyword: string): PersonaStatus[] {
   return allPersonas.map((p) => p.status).filter((s) => keywordsByCode[s.code]?.keywords.includes(keyword));
 }
 
+/** 指定したキーワードを全て持つ人格(AND)。ゲーム内のソートは OR なので、組み合わせの絞り込みに使う。空なら空配列 */
+export function personasWithAllKeywords(keywords: string[]): PersonaStatus[] {
+  if (!keywords.length) return [];
+  return allPersonas
+    .map((p) => p.status)
+    .filter((s) => {
+      const own = keywordsByCode[s.code]?.keywords ?? [];
+      return keywords.every((k) => own.includes(k));
+    });
+}
+
 export interface PersonaContext {
   character: CharacterData;
   status: PersonaStatus;

@@ -57,3 +57,33 @@ test("keywordPages: 静的 HTML の対象に入り、検索結果に載るペー
   }
   assert(seo.pageMeta("/keywords/unknown").noindex);
 });
+
+test("keywordPages: 複数キーワードの絞り込みは、選んだキーワードを全て持つ人格だけを返す(AND)", () => {
+  const codesWith = (keywords: string[]) =>
+    Object.entries(personaKeywords)
+      .filter(([, v]) => keywords.every((k) => v.keywords.includes(k)))
+      .map(([code]) => code)
+      .sort();
+  const listed = (keywords: string[]) => loader.personasWithAllKeywords(keywords).map((s: { code: string }) => s.code).sort();
+  assert.deepEqual(loader.personasWithAllKeywords([]), [], "何も選んでいなければ空");
+  for (const a of kp.KEYWORD_PAGES) {
+    assert.deepEqual(listed([a.keyword]), codesWith([a.keyword]), a.keyword);
+    for (const b of kp.KEYWORD_PAGES) {
+      if (a === b) continue;
+      const both = listed([a.keyword, b.keyword]);
+      assert.deepEqual(both, codesWith([a.keyword, b.keyword]), `${a.keyword}＋${b.keyword}`);
+      assert(both.length <= listed([a.keyword]).length, "条件を足すと増えない");
+    }
+  }
+  // 実データに2キーワードの組み合わせがある(出血＋呼吸の 1002 など)
+  assert(listed(["出血", "呼吸"]).includes("1002"));
+});
+
+test("keywordPages: 絞り込みの URL パラメータは知らない ID と重複を捨て、表の列順にそろえる", () => {
+  const ids = (param: string | null) => kp.parseKeywordFilter(param).map((p: { id: string }) => p.id);
+  assert.deepEqual(ids(null), []);
+  assert.deepEqual(ids(""), []);
+  assert.deepEqual(ids("bleed,burn,bleed, unknown ,<script>"), ["burn", "bleed"]);
+  assert.equal(kp.formatKeywordFilter(kp.parseKeywordFilter("charge,burn")), "burn,charge");
+  assert.equal(kp.formatKeywordFilter([]), "");
+});
