@@ -30,6 +30,14 @@
   text-rendering: optimizeLegibility;
 }
 
+/* Samsung Internet のダークモードは、prefers-color-scheme に対応したサイトには独自の暗色化をかけない。
+   このサイトは常に暗い配色なので、対応していることを示すだけの指定を置く */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
 /* 内容の増減でスクロールバーが出入りしても、ページ全体が横にずれないよう幅を常に確保する */
 html {
   scrollbar-gutter: stable;
