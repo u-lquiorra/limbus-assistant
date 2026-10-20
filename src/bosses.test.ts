@@ -667,6 +667,22 @@ test("フランネル: 3F個体・固有パッシブ・条件付き破壊不能�
   assert(boss.passives.filter(passive => passive.name === "生地密度の格差").every(passive => passive.effect.includes("増加量不明")));
 });
 
+test("アネット: お直し対象の守備・常時と条件付き破壊不能・混乱で消える効果を保持する", () => {
+  const boss = getBossGuide("annette")!;
+  assert.equal(boss.skills.find(skill => skill.id === "annette-1")!.unbreakableCoins, undefined);
+  assert.deepEqual(boss.skills.find(skill => skill.id === "annette-2")!.unbreakableCoins, [3]);
+  assert.deepEqual(boss.skills.find(skill => skill.id === "annette-6")!.unbreakableCoins, [1, 2, 3, 4]);
+  assert.match(boss.skills.find(skill => skill.id === "annette-6")!.label!, /対象変更不可/);
+  const target = boss.mechanics.find(mechanic => mechanic.name === "お直し対象")!;
+  assert.match(target.effect, /前ターン最大与ダメージ/);
+  assert.match(target.effect, /守備をセット.*80%/);
+  assert.match(target.effect, /威力増加3.*最大9/);
+  assert.match(boss.skills.find(skill => skill.id === "annette-3")!.effects.join(" "), /ダメージ量-75%/);
+  assert.match(boss.skills.find(skill => skill.id === "annette-4")!.effects.join(" "), /ダメージ量-90%/);
+  assert(boss.warnings.some(warning => warning.includes("漂流慣性は残る")));
+  assert(boss.warnings.some(warning => warning.includes("自動発動攻撃")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
