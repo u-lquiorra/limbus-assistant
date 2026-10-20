@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { characterList } from "../data/loader";
-import { keywordFilterPath } from "../keywordPages";
-import { egoFilterPath } from "../egoFilter";
 import { asset } from "../lib";
 import SiteLogo from "../components/SiteLogo";
 import SiteSearchResults from "../components/SiteSearchResults";
@@ -26,6 +24,18 @@ const HOME_STEPS = [
     kicker: "TEAMS",
     title: "編成例",
     description: "火傷・出血・破裂など、キーワードごとの組み方と人格の役割。",
+  },
+  {
+    to: "/keywords",
+    kicker: "KEYWORDS",
+    title: "キーワード別人格一覧",
+    description: "火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。",
+  },
+  {
+    to: "/egos",
+    kicker: "E.G.O",
+    title: "E.G.O一覧",
+    description: "全囚人のE.G.Oを、選んだ罪悪属性の資源だけで使えるものに絞り込む。",
   },
   {
     to: "/bosses",
@@ -113,20 +123,6 @@ export default function Home() {
             </li>
           ))}
         </ol>
-        <Link to={keywordFilterPath()} className="feature-callout">
-          <span>
-            <strong>キーワードを組み合わせて人格を探す</strong>
-            <span>火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。</span>
-          </span>
-          <span aria-hidden="true">→</span>
-        </Link>
-        <Link to={egoFilterPath()} className="feature-callout">
-          <span>
-            <strong>E.G.Oを必要資源で探す</strong>
-            <span>全囚人のE.G.Oから、選んだ罪悪属性の資源だけで使えるものに絞り込む。</span>
-          </span>
-          <span aria-hidden="true">→</span>
-        </Link>
       </section>
 
       <section className="container section">
