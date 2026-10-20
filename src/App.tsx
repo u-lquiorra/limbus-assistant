@@ -12,6 +12,7 @@ import BeginnerGuide from "./pages/BeginnerGuide";
 import RerollGuide from "./pages/RerollGuide";
 import BossPage, { BossIndex } from "./pages/BossPage";
 import SearchPage from "./pages/SearchPage";
+import AboutPage from "./pages/AboutPage";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
@@ -173,6 +174,7 @@ function App() {
           <Route path="/bosses" element={<BossIndex />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/bosses/:id" element={<BossPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
@@ -182,6 +184,9 @@ function App() {
           <DataSourceNote />
           <p>
             本サイトは非公式のファンサイト。ゲーム内の画像・キャラクター等の著作権は Project Moon に帰属する。
+          </p>
+          <p>
+            <Link to="/about">このサイトについて</Link>
           </p>
         </div>
       </footer>

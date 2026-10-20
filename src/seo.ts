@@ -62,6 +62,10 @@ const STATIC_PAGES: Record<string, PageMeta> = {
     description: "リンバス(Limbus Company)の用語辞典。マッチ・精神力・耐性・状態異常・E.G.Oなど、戦闘の仕組みを例つきで解説する。",
   },
   "/search": { title: withSite("サイト内検索"), description: DEFAULT_DESCRIPTION, noindex: true },
+  "/about": {
+    title: withSite("このサイトについて"),
+    description: "Limbus Assistant は、リンバス(Limbus Company)の攻略情報をまとめた個人運営の非公式ファンサイト。掲載内容の作り方、注意事項、問い合わせ先を載せている。",
+  },
 };
 
 /** パス(basename を除いたもの)からページ情報を作る */
@@ -214,7 +218,12 @@ export function breadcrumbs(pathname: string): Crumb[] {
   return [];
 }
 
-const PUBLISHER = { "@type": "Organization", name: SITE_NAME, url: `${SITE_URL}/` };
+const PUBLISHER = {
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: `${SITE_URL}/`,
+  logo: `${SITE_URL}/icon-192.png`,
+};
 
 /**
  * ページの構造化データ。updated はガイドの更新日など、描画前に読み込んだデータから渡す(無ければ省く)。
@@ -248,6 +257,19 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
       url,
       inLanguage: "ja",
       description: meta.description,
+      publisher: PUBLISHER,
+    });
+    return result;
+  }
+
+  if (path === "/about") {
+    result.push({
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      name: plainTitle(meta.title),
+      description: meta.description,
+      url,
+      inLanguage: "ja",
       publisher: PUBLISHER,
     });
     return result;

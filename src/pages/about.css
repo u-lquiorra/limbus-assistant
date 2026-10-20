@@ -1,0 +1,10 @@
+.container.about-page { max-width: 820px; }
+.about-heading { margin-block: 24px 28px; }
+.about-heading h1 { margin-block: 14px 0; }
+
+.about-section { padding-block: 22px; border-top: 1px solid var(--line); }
+.about-section h2 { margin-bottom: 12px; color: var(--cream, var(--text)); font-size: 18px; }
+.about-section p { color: var(--muted); line-height: 1.9; }
+.about-section p + p { margin-top: 10px; }
+.about-section ul { margin: 12px 0 0; padding-left: 1.3em; color: var(--muted); line-height: 1.9; }
+.about-section a { color: var(--gold); }
