@@ -45,6 +45,14 @@ describe("applyCorrections: 囚人データの置換", () => {
     assert.equal(data.passives[0].effect, "マッチ勝利時");
   });
 
+  test("when があれば、別の項目の内容でも絞る(同じ名前のバトル・サポートを区別する)", () => {
+    const c: Correction = { code: "1005", name: "狂炎", when: { field: "effect", includes: "打撃" }, field: "name", from: "狂炎", to: "追い立てられる", reason: "" };
+    const data = { passives: [{ code: "1005", name: "狂炎", effect: "精神力 50%減少" }], supportPassives: [{ code: "1005", name: "狂炎", effect: "打撃ダメージ量+10％" }] };
+    applyCorrections(data, [c]);
+    assert.equal(data.passives[0].name, "狂炎", "バトルパッシブは変えない");
+    assert.equal(data.supportPassives[0].name, "追い立てられる");
+  });
+
   test("対象コードがあるのに当たらなかった補正だけを未適用とする", () => {
     const other: Correction = { ...byName, code: "0301" };
     const applied = applyCorrections({ passives: [{ code: "1004", name: "遊興", condition: "共鳴" }] }, [byName, other]);
