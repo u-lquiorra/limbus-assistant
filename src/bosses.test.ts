@@ -654,6 +654,19 @@ test("アルリウネ: 月桂冠の付与条件・精神力低下・即死技の
   assert(boss.warnings.some(warning => warning.includes("プイ") && warning.includes("敗北")));
 });
 
+test("フランネル: 3F個体・固有パッシブ・条件付き破壊不能と未記入枠を区別する", () => {
+  const boss = getBossGuide("flannel")!;
+  assert.equal(boss.units[1].hp, "266");
+  assert(boss.skills.every(skill => skill.name !== "名称" && skill.unbreakableCoins === undefined));
+  assert(boss.passives.filter(passive => passive.name === "品質保存").every(passive => passive.unit === "flannel"));
+  assert(boss.passives.filter(passive => passive.name === "検品保存").every(passive => passive.unit === "noir-maison"));
+  assert.equal(boss.skills.find(skill => skill.id === "noir-maison-4")!.type, "防御");
+  assert.equal(boss.skills.find(skill => skill.id === "noir-maison-4")!.weight, null);
+  assert.match(boss.skills.find(skill => skill.id === "flannel-3")!.effects.join(" "), /10以上消耗.*全てのコインが破壊不能/);
+  assert.match(boss.skills.find(skill => skill.id === "flannel-5")!.label!, /敵陣への支援/);
+  assert(boss.passives.filter(passive => passive.name === "生地密度の格差").every(passive => passive.effect.includes("増加量不明")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
