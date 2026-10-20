@@ -51,7 +51,7 @@ const STATIC_PAGES: Record<string, PageMeta> = {
   },
   "/egos": {
     title: withSite("E.G.O一覧｜必要資源で探す"),
-    description: "リンバス(Limbus Company)の全囚人のE.G.O一覧。必要資源(罪悪属性)で絞り込み、編成でたまる資源だけで使えるE.G.Oを探せる。",
+    description: "リンバス(Limbus Company)の全囚人のE.G.O(EGO)一覧。必要資源(罪悪属性)で絞り込み、編成でたまる資源だけで使えるE.G.Oを探せる。",
   },
   "/support-passives": {
     title: withSite("サポートパッシブ一覧｜必要資源別"),

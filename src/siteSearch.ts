@@ -25,6 +25,28 @@ const GUIDE_ENTRIES: SearchEntry[] = [
     to: "/reroll",
     terms: ["リセマラ", "リセット", "最初", "ガチャ", "抽出", "おすすめ"],
   },
+  {
+    kind: "guide",
+    title: "キーワード別人格一覧",
+    sub: "複数キーワードの組み合わせで絞り込み",
+    to: "/keywords",
+    terms: ["キーワード", "絞り込み", "組み合わせ", "複合", "一覧", "人格"],
+  },
+  {
+    kind: "guide",
+    title: "E.G.O一覧",
+    sub: "必要資源(罪悪属性)で絞り込み",
+    to: "/egos",
+    // 検索は点を取り除かないため、「EGO」と「E.G.O」の両方で見つかるようにする
+    terms: ["EGO", "E.G.O", "一覧", "必要資源", "資源", "罪悪属性", "コスト"],
+  },
+  {
+    kind: "guide",
+    title: "サポートパッシブ一覧",
+    sub: "必要資源ごと・裏置きの候補探し",
+    to: "/support-passives",
+    terms: ["サポートパッシブ", "サポパ", "パッシブ", "裏置き", "控え", "必要資源", "資源", "罪悪属性", "一覧"],
+  },
 ];
 
 function buildEntries(): SearchEntry[] {

@@ -9,6 +9,8 @@ const kp = await server.ssrLoadModule("/src/keywordPages.ts");
 const loader = await server.ssrLoadModule("/src/data/loader.ts");
 const seo = await server.ssrLoadModule("/src/seo.ts");
 const { getGlossaryTerm } = await server.ssrLoadModule("/src/glossary.ts");
+const { siteSearchEntries } = await server.ssrLoadModule("/src/siteSearch.ts");
+const { searchEntries } = await server.ssrLoadModule("/src/search.ts");
 await server.close();
 
 const personaKeywords = JSON.parse(readFileSync(new URL("./data/persona-keywords.json", import.meta.url), "utf-8")) as Record<
@@ -103,4 +105,13 @@ test("keywordPages: 各ページからの導線は、キーワードを選んだ
       code
     );
   }
+});
+
+test("サイト内検索: 一覧ページ(キーワード・E.G.O・サポートパッシブ)が、表記ゆれや略称でも見つかる", () => {
+  const entries = siteSearchEntries();
+  const found = (query: string, to: string) =>
+    searchEntries(entries, query).some((g: { hits: { entry: { to: string } }[] }) => g.hits.some((h) => h.entry.to === to));
+  for (const q of ["EGO", "ego", "E.G.O一覧", "必要資源"]) assert(found(q, "/egos"), `「${q}」で E.G.O 一覧`);
+  for (const q of ["サポートパッシブ", "サポパ", "裏置き"]) assert(found(q, "/support-passives"), `「${q}」でサポートパッシブ一覧`);
+  for (const q of ["キーワード", "絞り込み"]) assert(found(q, "/keywords"), `「${q}」でキーワード別人格一覧`);
 });
