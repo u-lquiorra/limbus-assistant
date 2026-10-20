@@ -640,6 +640,20 @@ test("赤き神未生: 完熟と部位を分け、条件付き破壊不能と洗
   assert(boss.warnings.some(warning => warning.includes("命綱未破壊") && warning.includes("50%未満")));
 });
 
+test("アルリウネ: 月桂冠の付与条件・精神力低下・即死技の取消条件を保持する", () => {
+  const boss = getBossGuide("alriune")!;
+  const crown = boss.skills.find(skill => skill.id === "alriune-5")!;
+  assert.match(crown.effects.join(" "), /攻撃後.*贖罪の月桂冠を付与/);
+  assert.match(crown.label!, /速度に関係なく/);
+  const instant = boss.skills.find(skill => skill.id === "alriune-7")!;
+  assert.match(instant.effects.join(" "), /パニックまたは侵蝕状態でなければ、攻撃がキャンセル/);
+  assert.match(instant.label!, /マッチ不可.*対象変更不可.*守備発動不可/);
+  assert.match(boss.skills.find(skill => skill.id === "alriune-4")!.effects.join(" "), /このコインは全攻撃対象に命中/);
+  assert(boss.skills.filter(skill => skill.unit === "earthborn").every(skill => skill.effects.includes("このスキルのダメージは0に固定される")));
+  assert.match(boss.passives.find(passive => passive.name === "土より")!.effect, /混乱すると死亡/);
+  assert(boss.warnings.some(warning => warning.includes("プイ") && warning.includes("敗北")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
