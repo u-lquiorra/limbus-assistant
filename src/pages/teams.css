@@ -65,8 +65,13 @@
   color: var(--text);
 }
 
+/* パンくずとの間隔は、人格・用語・ボスのページ(24px)にそろえる */
 .team-hero {
-  margin: 12px 0 8px;
+  margin: 24px 0 8px;
+}
+
+.breadcrumb + .section-header {
+  margin-top: 24px;
 }
 
 .team-members {
