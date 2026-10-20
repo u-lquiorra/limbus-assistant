@@ -171,3 +171,13 @@ export function egoGuideKeywords(detail: EgoDetail, egoName: string): Keyword[] 
   }
   return [...map].map(([term, desc]) => ({ term, desc }));
 }
+
+/** ガイドの「ひとことで」の本文を平文で返す(検索結果の説明文などに使う)。無ければ undefined */
+export function guideSummary(guide: Guide | null | undefined): string | undefined {
+  const section = guide?.sections.find((s) => s.heading === "ひとことで");
+  const text = section?.blocks
+    .map((b) => (b.type === "p" ? b.text : b.items.flat()).map((seg) => seg.text).join(""))
+    .join(" ")
+    .trim();
+  return text || undefined;
+}

@@ -1,6 +1,7 @@
 // ページごとの title・description・canonical と、静的 HTML を書き出すルートの一覧。
 // 静的 HTML の生成(scripts/prerender.tsx)と、画面遷移後の書き換え(App の PageMeta)の両方で使う
-import { characterList, getCharacter, getEgo, getPersona, getTeam, teams } from "./data/loader";
+import { characterList, getCharacter, getEgo, getPersona, getTeam, peekEgoGuide, peekGuide, peekTeamGuide, teams } from "./data/loader";
+import { guideSummary } from "./guide";
 import { bossGuides, getBossGuide } from "./bosses";
 import { getGlossaryTerm, glossaryTerms } from "./glossary";
 
@@ -24,8 +25,16 @@ function clip(text: string, max = 120): string {
   return plain.length > max ? `${plain.slice(0, max - 1)}…` : plain;
 }
 
+// 検索で最も使われる略称「リンバス」を、全ページの title の先頭に入れる
+const TITLE_PREFIX = "【リンバス】";
+
 function withSite(title: string): string {
-  return `${title}｜${SITE_NAME}`;
+  return `${TITLE_PREFIX}${title}｜${SITE_NAME}`;
+}
+
+/** title から接頭辞とサイト名を除いたページ名(パンくず・記事の見出しに使う) */
+export function plainTitle(title: string): string {
+  return title.replace(TITLE_PREFIX, "").split("｜")[0];
 }
 
 const notFound = (what: string): PageMeta => ({ title: withSite(`${what}が見つからない`), description: DEFAULT_DESCRIPTION, noindex: true });
@@ -77,8 +86,9 @@ export function pageMeta(pathname: string): PageMeta {
       const { status, character } = ctx;
       return {
         title: withSite(`${status.name} ${character.name}の性能と使い方`),
+        // ガイドの「ひとことで」を入れて、ページごとに固有の説明文にする(先読み前は定型文のみ)
         description: clip(
-          `リンバス(Limbus Company)の人格「${status.name} ${character.name}」の性能・使い方。スキル・パッシブ・耐性と、相性のいい人格・E.G.O・編成をまとめている。`
+          `リンバスの人格「${status.name} ${character.name}」。${guideSummary(peekGuide(id)) ?? ""}スキル・パッシブ・耐性と、相性のいい人格・E.G.O・編成も解説。`
         ),
       };
     }
@@ -88,7 +98,9 @@ export function pageMeta(pathname: string): PageMeta {
       const { ego, character } = ctx;
       return {
         title: withSite(`${ego.name} ${character.name}のE.G.Oの性能と使い方`),
-        description: clip(`リンバス(Limbus Company)の${character.name}のE.G.O「${ego.name}」(${ego.rank})の性能・使い方。スキル・パッシブ・解析と、相性のいい人格をまとめている。`),
+        description: clip(
+          `リンバスの${character.name}のE.G.O「${ego.name}」(${ego.rank})。${guideSummary(peekEgoGuide(id)) ?? ""}スキル・解析段階ごとの変化と、相性のいい人格も解説。`
+        ),
       };
     }
     case "teams": {
@@ -96,7 +108,9 @@ export function pageMeta(pathname: string): PageMeta {
       if (!team) return notFound("編成");
       return {
         title: withSite(`${team.name}の組み方と編成例`),
-        description: clip(`リンバス(Limbus Company)の${team.name}の組み方。編成例、優先枠・自由枠・裏置きの人格と役割、相性のいいE.G.Oをまとめている。`),
+        description: clip(
+          `リンバスの${team.name}。${guideSummary(peekTeamGuide(id)) ?? ""}編成例と、優先枠・自由枠・裏置きの人格の役割も解説。`
+        ),
       };
     }
     case "bosses": {
@@ -169,7 +183,7 @@ export function breadcrumbs(pathname: string): Crumb[] {
 
   if (!id) {
     const meta = STATIC_PAGES[path];
-    return meta ? [HOME, self(meta.title.split("｜")[0])] : [];
+    return meta ? [HOME, self(plainTitle(meta.title))] : [];
   }
   switch (kind) {
     case "character": {
@@ -263,7 +277,7 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
     result.push({
       "@context": "https://schema.org",
       "@type": "Article",
-      headline: meta.title.split("｜")[0],
+      headline: plainTitle(meta.title),
       description: meta.description,
       url,
       mainEntityOfPage: url,
