@@ -6,7 +6,7 @@ import App from './App.tsx'
 import { legacyHashPath } from './legacyHash.ts'
 import { preloadRoute } from './preload.ts'
 
-// basename は末尾の / を除いた公開先のパス(例: /limbus-assistant)
+// basename は末尾の / を除いた公開先のパス(ドメイン直下で配信するときは空文字)
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 // 末尾の / と URL エンコードの違いを無視してパスを比べる

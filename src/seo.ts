@@ -7,7 +7,7 @@ import { getGlossaryTerm, glossaryTerms } from "./glossary";
 
 export const SITE_NAME = "Limbus Assistant";
 /** 公開先。canonical と sitemap の絶対 URL に使う(末尾の / なし) */
-export const SITE_URL = "https://u-lquiorra.github.io/limbus-assistant";
+export const SITE_URL = "https://limbus-assistant.com";
 
 const DEFAULT_DESCRIPTION =
   "リンバス(Limbus Company)の非公式攻略データベース。人格・E.G.Oの性能と使い方、編成例、ボス攻略、用語辞典を日本語でまとめている。";
