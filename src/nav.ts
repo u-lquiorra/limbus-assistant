@@ -26,6 +26,8 @@ export function activeNavItem(pathname: string): string | undefined {
   if (pathname === "/egos" || pathname.startsWith("/egos/")) return "/";
   // キーワード別人格一覧は編成を組むための候補探しなので、「編成例」を選択中として扱う
   if (pathname === "/keywords" || pathname.startsWith("/keywords/")) return "/teams";
+  // サポートパッシブ一覧は控え(裏置き)を選ぶための一覧なので、同じく「編成例」を選択中として扱う
+  if (pathname === "/support-passives" || pathname.startsWith("/support-passives/")) return "/teams";
   // "/teams" と "/teams/xxx" は一致させ、"/teamsx" のような別パスは一致させない
   return NAV_ITEMS.find((item) => item.to !== "/" && (pathname === item.to || pathname.startsWith(`${item.to}/`)))?.to;
 }

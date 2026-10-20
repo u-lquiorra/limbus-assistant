@@ -1,0 +1,99 @@
+import { Link } from "react-router-dom";
+import Breadcrumb from "../components/Breadcrumb";
+import EffectText from "../components/EffectText";
+import PageToc from "../components/PageToc";
+import SinFilterChips from "../components/SinFilter";
+import { useSinFilter } from "../useSinFilter";
+import { SinBadge } from "../components/ui";
+import { getPersona } from "../data/loader";
+import supportPassiveIndex from "../data/support-passives.json";
+import { SIN_IDS } from "../egoFilter";
+import { asset } from "../lib";
+import { filterSupportPassivesBySins, groupSupportPassivesBySin, type SupportPassive } from "../supportPassives";
+import "./teams.css";
+
+const passives = supportPassiveIndex as SupportPassive[];
+
+function SupportPassiveCard({ passive }: { passive: SupportPassive }) {
+  const status = getPersona(passive.code)?.status;
+  return (
+    <article className="passive-card support-passive-card">
+      <Link to={`/persona/${passive.code}`} className="support-passive-persona">
+        {status?.image && <img src={asset(status.image)} alt="" width={40} height={40} loading="lazy" />}
+        <span>
+          <strong>{status?.name ?? passive.code}</strong>
+          <span>{status?.character}</span>
+        </span>
+      </Link>
+      <header className="passive-card-head">
+        <h3 className="passive-card-name">{passive.name}</h3>
+        <span className="passive-card-req">
+          {passive.cost.map((c) => (
+            <SinBadge key={c.sin} sin={c.sin} label={`${c.sin}×${c.count}`} />
+          ))}
+          {passive.condition && <span className="passive-cond">{passive.condition}</span>}
+        </span>
+      </header>
+      <EffectText text={passive.effect} keywords={passive.keywords} />
+    </article>
+  );
+}
+
+/**
+ * /support-passives: 全人格のサポートパッシブを、必要資源の罪悪属性ごとに並べる。
+ * サポートパッシブは罪悪属性の資源で発動するため、編成でたまる資源を選ぶと、その資源だけで発動するものに絞り込める。
+ * 控え(裏置き)の候補探しに使う。選択は URL(?sin=wrath,pride)に持つ
+ */
+export default function SupportPassiveListPage() {
+  const [selected, setSelected] = useSinFilter();
+  const results = filterSupportPassivesBySins(passives, selected);
+  const groups = groupSupportPassivesBySin(results);
+
+  return (
+    <div className="container section team-page">
+      <Breadcrumb items={[{ label: "サポートパッシブ一覧" }]} />
+      <header className="team-hero">
+        <p className="kicker">SUPPORT PASSIVES ・ {passives.length}人格</p>
+        <h1 className="persona-title">サポートパッシブ一覧</h1>
+        <p className="team-lead">
+          全人格のサポートパッシブを、必要資源の罪悪属性ごとにまとめた。各属性の中は必要数が少ない順に並べ、2属性以上を使うものは、使う属性すべてに載せている。
+        </p>
+      </header>
+
+      <section className="keyword-filter" aria-labelledby="support-filter-title">
+        <h2 id="support-filter-title" className="ego-filter-title">
+          必要資源で絞り込む
+        </h2>
+        <p className="keyword-filter-lead">
+          選んだ罪悪属性の資源だけで発動するサポートパッシブを出す。複数選ぶと、そのどれかの組み合わせで発動するものも含む。数字は、その属性を足したときの件数。
+        </p>
+        <SinFilterChips selected={selected} onChange={setSelected} countWith={(sins) => filterSupportPassivesBySins(passives, sins).length} />
+        {selected.length > 0 && (
+          <p className="keyword-filter-summary ego-filter-summary" aria-live="polite">
+            {selected.join("・")}の資源だけで発動するサポートパッシブ：<strong>{results.length}件</strong>
+          </p>
+        )}
+      </section>
+
+      <PageToc />
+
+      {groups.length === 0 && <p className="empty">該当するサポートパッシブはない。罪悪属性を足す。</p>}
+      {groups.map((group) => (
+        <section key={group.sin} className="section-block">
+          <header className="section-header">
+            <h2 className="section-title">
+              <span className="section-title-en">{SIN_IDS[group.sin].toUpperCase()}</span>
+              {group.sin}
+            </h2>
+            <span className="section-count">{group.passives.length}件</span>
+          </header>
+          <div className="passive-cards">
+            {group.passives.map((p) => (
+              <SupportPassiveCard key={p.code} passive={p} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  );
+}

@@ -53,6 +53,10 @@ const STATIC_PAGES: Record<string, PageMeta> = {
     title: withSite("E.G.O一覧｜必要資源で探す"),
     description: "リンバス(Limbus Company)の全囚人のE.G.O一覧。必要資源(罪悪属性)で絞り込み、編成でたまる資源だけで使えるE.G.Oを探せる。",
   },
+  "/support-passives": {
+    title: withSite("サポートパッシブ一覧｜必要資源別"),
+    description: "リンバス(Limbus Company)の全人格のサポートパッシブを、必要資源の罪悪属性ごとにまとめた一覧。控え(裏置き)の候補探しに使える。",
+  },
   "/keywords": {
     title: withSite("キーワード別人格一覧｜火傷・出血・破裂など"),
     description: "リンバス(Limbus Company)の人格を、火傷・出血・振動・破裂・沈潜・呼吸・充電のキーワード別にまとめた一覧。編成の候補探しに使える。",

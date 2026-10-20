@@ -2,7 +2,7 @@
   // スクレイパー(scripts/)とテストの型チェック用。アプリ本体は tsconfig.app.json
   "compilerOptions": {
     "target": "es2023",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM"],
     // 実行は tsx が担うので、src/ と同じく拡張子なしの import を許す bundler 解決にする
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -12,7 +12,9 @@
     "strict": true,
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    // テストから画面の部品(decorate.tsx など)を読むため、アプリと同じ JSX の設定にする(lib の DOM も同じ理由)
+    "jsx": "react-jsx"
   },
   "include": ["scripts", "src/**/*.test.ts", "analysis"]
 }
