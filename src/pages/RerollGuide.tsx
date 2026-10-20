@@ -60,7 +60,7 @@ export default function RerollGuide() {
     <div className="beginner-layout">
       <aside className="beginner-sidebar"><nav className="beginner-toc" aria-label="リセマラガイドの目次"><p className="beginner-toc-title">目次</p><ol>{sections.map(([id, title], i) => <li key={id}><Link to={`/reroll#${id}`}><span>0{i + 1}</span>{title}</Link></li>)}</ol></nav></aside>
       <div className="beginner-content">
-        <details className="beginner-toc-mobile"><summary>目次 <span>全{sections.length}章</span></summary><ol>{sections.map(([id, title], i) => <li key={id}><Link to={`/reroll#${id}`}><span>0{i + 1}</span>{title}</Link></li>)}</ol></details>
+        <details className="beginner-toc-mobile" open><summary>目次 <span>全{sections.length}章</span></summary><ol>{sections.map(([id, title], i) => <li key={id}><Link to={`/reroll#${id}`}><span>0{i + 1}</span>{title}</Link></li>)}</ol></details>
         <section id="finish" className="beginner-section" aria-labelledby="finish-title">
           <h2 id="finish-title" className="section-title"><span className="section-title-en">01</span>どこで終了する？</h2>
           <div className="reroll-finish-grid">

@@ -168,7 +168,7 @@ export default function BossPage() {
     <div className="container persona-body boss-layout">
       <aside className="boss-sidebar"><nav className="boss-toc" aria-label="ボス攻略の目次"><p>目次</p><Contents boss={boss} /></nav></aside>
       <div className="boss-content">
-        <details className="boss-mobile-toc"><summary>目次<span>全{BOSS_SECTIONS.length}項目</span></summary><Contents boss={boss} /></details>
+        <details className="boss-mobile-toc" open><summary>目次<span>全{BOSS_SECTIONS.length}項目</span></summary><Contents boss={boss} /></details>
         <div className="guide boss-priorities"><h2 className="guide-heading">まず押さえる3つのこと</h2><ol>{boss.priorities.map((priority) => <li key={priority}>{text(priority)}</li>)}</ol></div>
         <Section id="strategy">
           {boss.troubleshooting && <div className="boss-troubleshooting"><h3>負け方から対処を探す</h3><dl>{boss.troubleshooting.map((item) => <div key={item.symptom}><dt>{text(item.symptom)}</dt><dd>{text(item.advice)}</dd></div>)}</dl></div>}

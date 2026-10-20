@@ -68,7 +68,7 @@ export default function BeginnerGuide() {
       </aside>
 
       <div className="beginner-content">
-        <details className="beginner-toc-mobile">
+        <details className="beginner-toc-mobile" open>
           <summary>目次 <span>全6章</span></summary>
           <ol>{sections.map((section) => <li key={section.id}><Link to={`/beginner#${section.id}`}><span>{section.number}</span>{section.title}</Link></li>)}</ol>
         </details>
