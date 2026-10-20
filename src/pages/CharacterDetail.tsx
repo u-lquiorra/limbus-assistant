@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import { getCharacter, getNeighbors } from "../data/loader";
 import { ATTACK_TYPES, asset, personaAttackTypes, personaSins } from "../lib";
+import { egoFilterPath } from "../egoFilter";
 import { SIN_COLORS, SIN_ORDER, sinTextColor } from "../sinColors";
 import PersonaCard from "../components/PersonaCard";
 import EgoCard from "../components/EgoCard";
@@ -207,6 +208,9 @@ function CharacterDetail({ name }: { name?: string }) {
               <EgoCard key={ego.code} ego={ego} />
             ))}
           </div>
+          <Link to={egoFilterPath()} className="back-link ego-list-link">
+            全囚人のE.G.Oを必要資源で探す →
+          </Link>
         </section>
       )}
     </>

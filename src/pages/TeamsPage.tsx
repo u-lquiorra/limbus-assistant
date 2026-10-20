@@ -67,7 +67,7 @@ export default function TeamsPage() {
         軸になるキーワードや所属ごとに、組み方と回し方をまとめた。手持ちに無い人格は、各編成の自由枠・代替枠から選ぶ。
       </p>
       {/* 複合キーワードの編成を組むときの候補探しに使うので、編成一覧の先頭で案内する */}
-      <Link to={keywordFilterPath()} className="keyword-filter-callout">
+      <Link to={keywordFilterPath()} className="feature-callout">
         <span>
           <strong>キーワードを組み合わせて人格を探す</strong>
           <span>火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。キーワード別の人格一覧もここから見られる。</span>

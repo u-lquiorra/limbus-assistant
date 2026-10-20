@@ -7,6 +7,7 @@ import TeamLinks from "../components/TeamLinks";
 import { egoGuideKeywords, type Guide } from "../guide";
 import { stripStageMarks } from "../egoStage";
 import { ATTACK_TYPES, asset, resistanceTone } from "../lib";
+import { egoFilterPath } from "../egoFilter";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import type { EgoDetail, EgoPassiveDetail, EgoSkillDetail, Keyword } from "../types";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
@@ -207,6 +208,9 @@ export default function EgoPage() {
                   {cost.map((c) => (
                     <SinBadge key={c.sin} sin={c.sin} label={`${c.sin}×${c.count}`} />
                   ))}
+                  <Link to={egoFilterPath(cost.map((c) => c.sin))} className="ego-cost-link">
+                    この資源で使えるE.G.O →
+                  </Link>
                 </dd>
               </div>
               <div className="spec-resist ego-resist">

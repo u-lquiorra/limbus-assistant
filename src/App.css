@@ -1927,8 +1927,8 @@ button.fx-keyword[aria-expanded="true"] {
   object-fit: cover;
 }
 
-/* キーワード絞り込み(/keywords)への案内。トップと編成例に置く */
-.keyword-filter-callout {
+/* 絞り込みページ(キーワード・E.G.O)への案内。トップと編成例に置く */
+.feature-callout {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -1942,27 +1942,44 @@ button.fx-keyword[aria-expanded="true"] {
   text-decoration: none;
 }
 
-.keyword-filter-callout > span:first-child {
+.feature-callout > span:first-child {
   flex: 1;
   min-width: 0;
 }
 
-.keyword-filter-callout strong {
+.feature-callout strong {
   display: block;
   font-size: 15px;
 }
 
-.keyword-filter-callout strong + span {
+.feature-callout strong + span {
   display: block;
   margin-top: 4px;
   color: var(--muted);
   font-size: 13px;
 }
 
-.keyword-filter-callout > span:last-child {
+.feature-callout > span:last-child {
   color: var(--gold);
 }
 
-.keyword-filter-callout:hover strong {
+.feature-callout:hover strong {
   color: var(--gold);
+}
+
+/* 囚人ページ・E.G.O ページから E.G.O 一覧(/egos)への導線 */
+.ego-list-link {
+  margin-top: 16px;
+}
+
+.ego-cost-link {
+  margin-left: 6px;
+  color: var(--gold);
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ego-cost-link:hover {
+  text-decoration: underline;
 }
