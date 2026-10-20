@@ -23,9 +23,9 @@ export function resistanceTone(value: string): ResistanceTone {
 export const ATTACK_TYPES = ["斬", "貫", "打"] as const;
 
 export const ATTACK_TYPE_ICON: Record<string, string> = {
-  斬: "images/icons/slash.png",
-  貫: "images/icons/pierce.png",
-  打: "images/icons/blunt.png",
+  斬: "images/icons/slash.svg",
+  貫: "images/icons/pierce.svg",
+  打: "images/icons/blunt.svg",
 };
 
 // sinSkills の値("3" / "2防" / "1反" / "反" / "特")を表示用に変換する。

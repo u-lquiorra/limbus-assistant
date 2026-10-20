@@ -444,14 +444,7 @@ async function main() {
   const skipDetails = args.includes("--no-details");
   const filterArg = args.find((a) => !a.startsWith("--"));
   const targets = filterArg ? CHARACTERS.filter((n) => n === filterArg) : CHARACTERS;
-  const iconBase = "https://cdn.wikiwiki.jp/to/w/lcbwiki/%E7%94%BB%E5%83%8F/::ref";
-  for (const [file, out] of [
-    ["SlashIcon.png", "slash"],
-    ["PierceIcon.png", "pierce"],
-    ["BluntIcon.png", "blunt"],
-  ]) {
-    await downloadOne(`${iconBase}/${file}`, `images/icons/${out}.png`);
-  }
+  // 攻撃タイプのアイコンは自作の SVG(public/images/icons/*.svg)を使う。wiki の画像は転載が禁止されているため取得しない
 
   let aborted = false;
   for (const name of targets) {
