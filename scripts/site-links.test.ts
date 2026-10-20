@@ -95,11 +95,11 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
         if (path.includes("#skill-")) assert.equal($(`[id="boss-panel-${skillId}"]`).is("[hidden]"), false);
         assert.equal($(".boss-troubleshooting dt").length, boss.troubleshooting?.length ?? 0);
         for (const section of ["strategy", "notes", "team", "skills", "passives"]) {
-          assert($(`#${section} abbr.fx-keyword[title]`).length > 0, `${boss.id}/${section}: 用語の説明がある`);
+          assert($(`#${section} button.fx-keyword[aria-description]`).length > 0, `${boss.id}/${section}: 用語の説明がある`);
         }
-        $("abbr.fx-keyword").each((_, element) => {
-          assert($(element).attr("title")?.trim(), `${boss.id}: ツールチップが空でない`);
-          assert.equal($(element).find("abbr").length, 0, "ツールチップを入れ子にしない");
+        $("button.fx-keyword").each((_, element) => {
+          assert($(element).attr("aria-description")?.trim(), `${boss.id}: 用語の説明が空でない`);
+          assert.equal($(element).find("button").length, 0, "用語を入れ子にしない");
         });
         assert.doesNotMatch($(".skill-card-stats").text(), /NaN|undefined/);
         if (boss.id === "lian") {
@@ -107,9 +107,9 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           assert.equal(weapons.length, 2, "同名の武器を前後半とも掲載する");
           assert.match(weapons.eq(0).find(".boss-phase-timing").text(), /前半/);
           assert.match(weapons.eq(1).find(".boss-phase-timing").text(), /後半/);
-          assert.match(weapons.eq(0).find("dt abbr").attr("title")!, /混乱区間3前進/);
-          assert.doesNotMatch(weapons.eq(0).find("dt abbr").attr("title")!, /混乱区間5前進/);
-          assert.match(weapons.eq(1).find("dt abbr").attr("title")!, /混乱区間5前進/);
+          assert.match(weapons.eq(0).find("dt button.fx-keyword").attr("aria-description")!, /混乱区間3前進/);
+          assert.doesNotMatch(weapons.eq(0).find("dt button.fx-keyword").attr("aria-description")!, /混乱区間5前進/);
+          assert.match(weapons.eq(1).find("dt button.fx-keyword").attr("aria-description")!, /混乱区間5前進/);
         }
         if (boss.id === "albina-callisto") {
           const body = $(".boss-unit[aria-labelledby='unit-body-theatre']");

@@ -1386,6 +1386,73 @@
   font-weight: 500;
 }
 
+/* 説明を開ける用語。文中に置くので、ボタンの見た目は消して文字だけにする */
+button.fx-keyword {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+button.fx-keyword[aria-expanded="true"] {
+  color: var(--gold);
+  text-decoration-color: var(--gold);
+}
+
+/* 用語の説明。body 直下に置き、位置は KeywordTerm が用語に合わせて決める */
+.fx-popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  display: block;
+  width: max-content;
+  max-width: min(340px, calc(100vw - 32px));
+  padding: 12px 14px;
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  white-space: normal;
+}
+
+.fx-popover strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.fx-popover > span {
+  display: block;
+  white-space: pre-line;
+}
+
+/* スマホでは用語の位置に関係なく、画面下に固定して読みやすくする */
+@media (max-width: 640px) {
+  .fx-popover {
+    position: fixed;
+    top: auto;
+    right: 16px;
+    bottom: 16px;
+    left: 16px;
+    width: auto;
+    max-width: none;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+}
+
 .fx-note {
   font-size: 12px;
   color: var(--dim);

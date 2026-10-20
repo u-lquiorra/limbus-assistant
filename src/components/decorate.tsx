@@ -1,11 +1,12 @@
 import type { ReactNode } from "react";
 import type { Keyword } from "../types";
+import KeywordTerm from "./KeywordTerm";
 
 function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-// [使用時] などのタイミング表記と、用語(ツールチップ付き)を装飾する。
+// [使用時] などのタイミング表記と、用語(押すと説明が開く)を装飾する。
 // timing=false ではタイミング表記を装飾しない(ガイド本文の「代行 [ヘルメス]」などを誤って拾わないため)
 export function decorate(text: string, keywords: Keyword[], timing = true): ReactNode[] {
   // 長い用語を先に試し、「解禁 - III」が「解禁」で切れないようにする
@@ -29,11 +30,7 @@ export function decorate(text: string, keywords: Keyword[], timing = true): Reac
       );
     } else {
       const desc = keywords.find((k) => k.term === m[2])?.desc;
-      out.push(
-        <abbr key={m.index} className="fx-keyword" title={desc}>
-          {m[2]}
-        </abbr>
-      );
+      out.push(<KeywordTerm key={m.index} term={m[2]} desc={desc} />);
     }
     last = m.index + m[0].length;
   }
