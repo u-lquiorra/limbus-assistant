@@ -683,6 +683,23 @@ test("アネット: お直し対象の守備・常時と条件付き破壊不能
   assert(boss.warnings.some(warning => warning.includes("自動発動攻撃")));
 });
 
+test("統制者: 最大HPと開始HP、規則の例外、通常召喚だけの停止条件を分ける", () => {
+  const boss = getBossGuide("controller")!;
+  assert.equal(boss.units[0].hp, "5000（開始4500）");
+  assert.equal(boss.units[1].defenseLevel, 59);
+  const normal = boss.skills.find(skill => skill.id === "controller-4")!;
+  const massive = boss.skills.find(skill => skill.id === "controller-5")!;
+  assert.match(normal.effects.join(" "), /メインターゲット.*2つ以上/);
+  assert.doesNotMatch(massive.effects.join(" "), /2つ以上/);
+  const punish = boss.skills.find(skill => skill.id === "controller-7")!;
+  assert.match(punish.label!, /マッチ不可.*守備発動不可/);
+  assert.equal(boss.skills.find(skill => skill.id === "tanned-sinner-1")!.levelOffset, 0);
+  assert.deepEqual(boss.skills.find(skill => skill.id === "tanned-sinner-3")!.unbreakableCoins, [2]);
+  assert.match(boss.mechanics.find(mechanic => mechanic.name === "攻撃的態度禁止")!.effect, /E.G.Oスキルは例外/);
+  for (const name of ["原皮損傷禁止", "なめしの催促禁止"]) assert.doesNotMatch(boss.mechanics.find(mechanic => mechanic.name === name)!.effect, /例外/);
+  assert(boss.warnings.some(warning => warning.includes("HP2500")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {

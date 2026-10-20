@@ -53,6 +53,7 @@ import redGodUnborn from "./data/bosses/red-god-unborn";
 import alriune from "./data/bosses/alriune";
 import flannel from "./data/bosses/flannel";
 import annette from "./data/bosses/annette";
+import controller from "./data/bosses/controller";
 
 export interface BossUnit {
   id: string;
@@ -121,7 +122,7 @@ export interface BossGuide {
   sources: { title: string; url: string }[];
 }
 
-export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg, sousChef, sewingKing, linamovible, redGodUnborn, flannel, annette, alriune, wardenChaplain, redGodRipe, jeanne];
+export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg, sousChef, sewingKing, linamovible, redGodUnborn, flannel, annette, alriune, controller, wardenChaplain, redGodRipe, jeanne];
 const byId = new Map(bossGuides.map((boss) => [boss.id, boss]));
 
 export function getBossGuide(id: string): BossGuide | undefined {
