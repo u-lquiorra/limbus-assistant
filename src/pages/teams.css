@@ -70,6 +70,15 @@
   margin: 24px 0 8px;
 }
 
+/* 大見出しの下に、タグ・説明文が詰まらないよう間隔を空ける(ボス攻略の見出しと同程度) */
+.team-hero > .persona-title {
+  margin: 8px 0 14px;
+}
+
+.team-hero > .persona-tags + .team-lead {
+  margin-top: 14px;
+}
+
 .breadcrumb + .section-header {
   margin-top: 24px;
 }
