@@ -700,6 +700,25 @@ test("統制者: 最大HPと開始HP、規則の例外、通常召喚だけの�
   assert(boss.warnings.some(warning => warning.includes("HP2500")));
 });
 
+test("古き海の黒い糸: 減算威力・条件付き破壊不能・絡まり解除と水たまりの単位を保持する", () => {
+  const boss = getBossGuide("old-sea-thread")!;
+  assert.equal(boss.units.length, 3);
+  assert(boss.units.every(unit => unit.stagger.includes("未確定")));
+  assert(boss.skills.every(skill => skill.coinPower < 0 && skill.unbreakableCoins === undefined));
+  const jaw = boss.skills.find(skill => skill.name === "奈落の顎門")!;
+  assert.equal(jaw.base, 18);
+  assert.equal(jaw.coinPower, -6);
+  assert.match(jaw.effects.join(" "), /最大体力の150%/);
+  assert.match(jaw.response, /混乱中または絡まり20以上/);
+  const washes = boss.skills.filter(skill => skill.name === "洗い流す");
+  assert.deepEqual(new Set(washes.map(skill => skill.unit)), new Set(boss.units.map(unit => unit.id)));
+  assert(washes.every(skill => skill.type === "反撃" && skill.attackType === "打"));
+  assert(washes.every(skill => skill.response.includes("こちらが勝つと") && skill.response.includes("切り上げ")));
+  assert.match(boss.mechanics.find(mechanic => mechanic.name === "絡まり")!.effect, /守備使用時.*減少量切り捨て/);
+  assert.match(boss.mechanics.find(mechanic => mechanic.name === "黒い水たまり")!.effect, /スキルごと1回/);
+  assert(boss.warnings.some(warning => warning.includes("即座にターン終了")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
