@@ -24,3 +24,6 @@ dist-server
 *.njsproj
 *.sln
 *.sw?
+
+# 設計・計画・レビュー記録は非公開リポジトリ(u-lquiorra/limbus-assistant-docs)で別に管理する
+/docs/
