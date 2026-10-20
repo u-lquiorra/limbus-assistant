@@ -172,7 +172,14 @@ export async function loadEgoSynergies(personaCode: string, heading: string): Pr
 
 // 適性の軸が編成ごとに違う(通常・短期・長期/周回・深層)ため、JSON の推論型からは直接キャストできない。
 // 中身の整合性は teams.test.ts で検査している
-export const teams: TeamData[] = teamsList as unknown as TeamData[];
+const allTeams: TeamData[] = teamsList as unknown as TeamData[];
+
+// 鏡ダンジョンの編成は内容の正確さを確かめきれていないため、いったん画面から外す。
+// データ(teams.json・team-guides)は残し、ここで除外するだけにする。戻すときは false にする
+const HIDE_MIRROR_TEAMS = true;
+
+// 一覧・詳細・人格ページの逆引き・検索・サイトマップは、すべてこの teams を参照する
+export const teams: TeamData[] = HIDE_MIRROR_TEAMS ? allTeams.filter((t) => t.category !== "鏡ダンジョン") : allTeams;
 
 // 編成一覧の「単体で強い人格」。特定の編成を組まなくても活躍しやすい人格(中身は teams.test.ts で検査)
 export const standalonePersonas: TeamMember[] = standaloneList;

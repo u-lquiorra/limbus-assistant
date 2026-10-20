@@ -6,7 +6,10 @@ import type { TeamData } from "../types";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
 import "./teams.css";
 
-const CATEGORIES: TeamData["category"][] = ["状態異常", "所属", "その他", "鏡ダンジョン"];
+// 編成が1件も無い分類(非表示中の鏡ダンジョンなど)は、押しても0件になるだけなのでボタンを出さない
+const CATEGORIES = (["状態異常", "所属", "その他", "鏡ダンジョン"] as TeamData["category"][]).filter((c) =>
+  teams.some((t) => t.category === c)
+);
 // 鏡ダンジョンの編成はギフト前提で鏡の外では成り立たないので、一覧では別のセクションに分ける
 const MIRROR: TeamData["category"] = "鏡ダンジョン";
 const DIFFICULTIES: TeamData["difficulty"][] = ["初心者", "中上級"];
