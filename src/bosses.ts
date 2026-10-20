@@ -53,6 +53,8 @@ export interface BossGuide {
   skillNote?: string;
   checkedAt: string;
   lead: string;
+  /** 一覧に出すリード。lead にボス・登場人物の名前や先の展開が入るときだけ、伏せた文を書く */
+  listLead?: string;
   priorities: string[];
   troubleshooting?: { symptom: string; advice: string }[];
   units: BossUnit[];
@@ -139,6 +141,8 @@ export interface BossSummary {
   chapter: number;
   checkedAt: string;
   lead: string;
+  /** 一覧に出すリード(ネタバレ回避のため、名前と先の展開を伏せた文) */
+  listLead: string;
   /** 先頭の画像のある部位の画像(OGP に使う) */
   image?: BossUnit["image"];
   /** 部位の名前(サイト内検索に使う) */
@@ -155,6 +159,7 @@ export function bossSummary(boss: BossGuide): BossSummary {
     chapter: boss.chapter,
     checkedAt: boss.checkedAt,
     lead: boss.lead,
+    listLead: boss.listLead ?? boss.lead,
     image: boss.units.find((unit) => unit.image)?.image,
     unitNames: boss.units.map((unit) => unit.name),
   };
@@ -165,6 +170,38 @@ const summaryById = new Map(bossSummaries.map((boss) => [boss.id, boss]));
 
 export function getBossSummary(id: string): BossSummary | undefined {
   return summaryById.get(id);
+}
+
+export interface BossChapter {
+  chapter: number;
+  /** 一覧ページでの章の要素 ID(例: 5.5章 → "chapter-5-5") */
+  id: string;
+  bosses: BossSummary[];
+}
+
+export function bossChapterId(chapter: number): string {
+  return `chapter-${String(chapter).replace(".", "-")}`;
+}
+
+/** ボス攻略一覧を章ごとにまとめる。章の並びとボスの並びは一覧の表示順のまま */
+export function groupBossesByChapter(list: BossSummary[]): BossChapter[] {
+  const chapters = new Map<number, BossChapter>();
+  for (const boss of list) {
+    let group = chapters.get(boss.chapter);
+    if (!group) {
+      group = { chapter: boss.chapter, id: bossChapterId(boss.chapter), bosses: [] };
+      chapters.set(boss.chapter, group);
+    }
+    group.bosses.push(boss);
+  }
+  return [...chapters.values()];
+}
+
+/** 章の見出しに出すステージ番号の範囲(例: "9-18〜9-50")。ボス名を出さずに章の中身の目安を示す */
+export function bossChapterStageRange(chapter: BossChapter): string {
+  const first = chapter.bosses[0]?.stage ?? "";
+  const last = chapter.bosses[chapter.bosses.length - 1]?.stage ?? "";
+  return first === last ? first : `${first}〜${last}`;
 }
 
 /** 詳細データを読み込める ID の一覧(要約の生成とテストに使う) */

@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import { BOSS_SECTIONS, bossSummaries, getBossSummary, loadBossGuide, peekBossGuide, type BossGuide, type BossSkill } from "../bosses";
+import { BOSS_SECTIONS, bossChapterId, bossChapterStageRange, bossSummaries, getBossSummary, groupBossesByChapter, loadBossGuide, peekBossGuide, type BossGuide, type BossSkill } from "../bosses";
 import { getGlossaryTerm } from "../glossary";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import { asset, resistanceTone } from "../lib";
@@ -11,7 +11,15 @@ import EffectText from "../components/EffectText";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import "./boss-guide.css";
 
+const bossChapters = groupBossesByChapter(bossSummaries);
+
 export function BossIndex() {
+  const { hash } = useLocation();
+  // 詳細ページから「#chapter-9」などで戻ってきたときは、その章を開いておく
+  useEffect(() => {
+    const target = document.getElementById(hash.slice(1));
+    if (target instanceof HTMLDetailsElement) target.open = true;
+  }, [hash]);
   return <div className="container section boss-index">
     <header className="boss-heading">
       <p className="kicker">BOSS GUIDES</p>
@@ -20,11 +28,16 @@ export function BossIndex() {
     </header>
     <section aria-labelledby="boss-index-story">
       <header className="section-header"><h2 id="boss-index-story" className="section-title"><span className="section-title-en">STORY</span>ストーリー</h2></header>
-      <div className="boss-index-list">{bossSummaries.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
-        <span className="boss-stage-label">{boss.stage}<small>第{boss.chapter}章</small></span>
-        <span><strong>{boss.name}</strong><span className="boss-index-stage-name">{boss.stageName}</span><span className="boss-index-lead">{boss.lead}</span></span>
-        <span className="boss-index-arrow" aria-hidden="true">→</span>
-      </Link>)}</div>
+      {/* 先の章のネタバレを避けるため、章は閉じた状態で出し、一覧ではボス名を出さずステージ名で示す */}
+      <p className="boss-index-note">ネタバレを避けるため、一覧ではボス名を出さず、章ごとに閉じてある。</p>
+      <div className="boss-chapters">{bossChapters.map((chapter) => <details key={chapter.id} id={chapter.id} className="boss-chapter">
+        <summary><span className="boss-chapter-title">第{chapter.chapter}章</span><span className="boss-chapter-meta">{bossChapterStageRange(chapter)}・{chapter.bosses.length}戦</span></summary>
+        <div className="boss-index-list">{chapter.bosses.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
+          <span className="boss-stage-label">{boss.stage}</span>
+          <span><strong>{boss.stageName}</strong><span className="boss-index-lead">{boss.listLead}</span></span>
+          <span className="boss-index-arrow" aria-hidden="true">→</span>
+        </Link>)}</div>
+      </details>)}</div>
     </section>
     <Link className="back-link" to="/beginner#stuck">戦闘に詰まったときの基本を読む →</Link>
   </div>;
@@ -219,7 +232,7 @@ export default function BossPage() {
         </Section>
         <aside className="boss-related" aria-label="関連する用語"><h2>仕組みを確認する</h2><div>{boss.relatedTerms.map((id) => { const term = getGlossaryTerm(id); return term && <Link key={id} to={`/glossary/${id}`}>{term.name} →</Link>; })}</div></aside>
         <footer className="boss-sources"><p>敵のステータス・効果・行動は更新で変わることがある。戦闘中の表示も確認する。</p></footer>
-        <Link to="/bosses" className="back-link">← ボス攻略一覧に戻る</Link>
+        <Link to={`/bosses#${bossChapterId(boss.chapter)}`} className="back-link">← ボス攻略一覧に戻る</Link>
       </div>
     </div>
   </article>;

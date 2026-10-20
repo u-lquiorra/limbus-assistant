@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { BOSS_SECTIONS, bossIds, bossSummaries, bossSummary, getBossSummary, loadAllBossGuides, loadBossGuide } from "./bosses.ts";
+import { BOSS_SECTIONS, bossChapterId, bossChapterStageRange, bossIds, bossSummaries, bossSummary, getBossSummary, groupBossesByChapter, loadAllBossGuides, loadBossGuide } from "./bosses.ts";
 import { getGlossaryTerm } from "./glossary.ts";
 import { SIN_ORDER } from "./sinColors.ts";
 import { readFile } from "node:fs/promises";
@@ -20,6 +20,44 @@ test("ボスの読み込み: ID とファイルがそろい、要約(index.json)
   assert.equal(getBossSummary("unknown"), undefined);
   assert.equal(getBossSummary("toString"), undefined);
   assert.equal(await loadBossGuide("toString"), null);
+});
+
+test("ボス一覧の章分け: 表示順を保って章ごとにまとめ、見出しの範囲はステージ番号だけで作る", () => {
+  const chapters = groupBossesByChapter(bossSummaries);
+  assert.deepEqual(chapters.flatMap((chapter) => chapter.bosses), bossSummaries, "全ボスが一覧の順のまま1回ずつ入る");
+  assert.equal(new Set(chapters.map((chapter) => chapter.chapter)).size, chapters.length, "同じ章が2回出ない");
+  assert.equal(new Set(chapters.map((chapter) => chapter.id)).size, chapters.length);
+  for (const chapter of chapters) {
+    assert.match(chapter.id, /^chapter-\d+(-\d+)?$/, "要素 ID に使える形");
+    assert.ok(chapter.bosses.every((boss) => boss.chapter === chapter.chapter));
+  }
+  assert.equal(bossChapterId(5.5), "chapter-5-5");
+  const ninth = chapters.find((chapter) => chapter.chapter === 9)!;
+  assert.equal(bossChapterStageRange(ninth), `${ninth.bosses[0].stage}〜${ninth.bosses.at(-1)!.stage}`);
+  const single = { chapter: 1, id: "chapter-1", bosses: [bossSummaries[0], bossSummaries[0]] };
+  assert.equal(bossChapterStageRange(single), bossSummaries[0].stage, "同じステージだけなら範囲にしない");
+});
+
+// ボス名から取り出せない登場人物の名前(取り巻き・味方NPC・別の戦闘のボス)
+const LIST_SPOILER_NAMES = ["ヴェルギリウス", "ホーエンハイム", "アリサ", "モーゼス", "エズラ", "ベスパ", "LCD", "プイ", "ズールゥ", "キャサリン", "ピップ", "スターバック", "クィークェグ", "エイハブ", "壇香梅", "ワンレグ", "フォーレグ", "司祭", "とあるシンクレア"];
+
+// ボス名・略称から、人物や敵の名前にあたる部分を取り出す(「ロボトミーE.G.O::狐雨 - ドンベク」→ 狐雨・ドンベク)
+function bossNameParts(boss: { name: string; shortName: string }): string[] {
+  return [boss.name, boss.shortName]
+    .map((name) => name.replace(/[（(［[][^）)］\]]*[）)］\]]/g, "").replace(/[？?]/g, ""))
+    .flatMap((name) => name.split(/::| - |[・／＆\s]/))
+    .map((part) => part.replace(/^(ロボトミー|開花|N社)?E\.G\.O$/, "").replace(/E\.G\.O$/, ""))
+    .filter((part) => part.length >= 2 && !/\d+章|最終|再戦|たち/.test(part));
+}
+
+test("ボス一覧のリード: ボス・登場人物の名前を出さない", () => {
+  assert.deepEqual(bossNameParts({ name: "ロボトミーE.G.O::狐雨 - ドンベク", shortName: "ドンベク（狐雨）" }), ["狐雨", "ドンベク", "ドンベク"]);
+  assert.deepEqual(bossNameParts({ name: "ドンベクE.G.O::壇香梅", shortName: "ドンベク" }), ["ドンベク", "壇香梅", "ドンベク"]);
+  for (const boss of bossSummaries) {
+    for (const name of [...bossNameParts(boss), ...LIST_SPOILER_NAMES]) {
+      assert.ok(!boss.listLead.includes(name), `${boss.id} の一覧用リードに「${name}」がある。listLead で伏せる`);
+    }
+  }
 });
 
 test("ボス用語: 専用効果・共通用語と同名の形態別パッシブを区別する", () => {
