@@ -173,7 +173,7 @@ export default function EgoPage() {
         </div>
         <div className="container persona-hero-inner">
           <div className="persona-hero-image">
-            {ego.image && <img src={asset(ego.image)} alt={ego.name} width={364} height={364} />}
+            {ego.image && <img src={asset(ego.image)} alt={`${ego.name} ${character.name}のE.G.O画像`} width={364} height={364} />}
           </div>
           <div className="persona-hero-info">
             <p className="kicker">

@@ -355,7 +355,7 @@ export default function PersonaPage() {
         </div>
         <div className="container persona-hero-inner">
           <div className="persona-hero-image">
-            {status.image && <img src={asset(status.image)} alt={status.name} width={364} height={364} />}
+            {status.image && <img src={asset(status.image)} alt={`${status.name} ${character.name}の人格画像`} width={364} height={364} />}
           </div>
           <div className="persona-hero-info">
             <p className="kicker">
