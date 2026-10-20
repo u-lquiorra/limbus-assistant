@@ -603,6 +603,43 @@ test("裁縫の王: Aルートの個体と針っ子を区別し、条件付き�
   assert(boss.warnings.some(warning => warning.includes("HP1087")));
 });
 
+test("リナモヴィブル: 減算の基本威力・条件付き破壊不能・マッチ可能反撃を区別する", () => {
+  const boss = getBossGuide("linamovible")!;
+  assert(boss.skills.every(skill => skill.coinPower < 0));
+  const normal = boss.skills.find(skill => skill.id === "linamovible-1")!;
+  assert.equal(normal.base, 8);
+  assert.equal(normal.base + normal.coins * normal.coinPower, 0);
+  const conditional = boss.skills.find(skill => skill.id === "linamovible-4")!;
+  assert.equal(conditional.unbreakableCoins, undefined);
+  assert.match(conditional.effects.join(" "), /戦闘開始時.*50%未満/);
+  const counter = boss.skills.find(skill => skill.id === "linamovible-7")!;
+  assert.equal(counter.type, "反撃");
+  assert.equal(counter.attackType, "打");
+  assert.equal(counter.coins, 1, "再使用を基本枚数に足さない");
+  assert.deepEqual(counter.unbreakableCoins, [1]);
+  assert.match(boss.skills.find(skill => skill.id === "linamovible-6")!.effects.join(" "), /一方攻撃時.*-80%/);
+  assert.match(boss.passives[0].effect, /新作服パターン中に体力が10未満/);
+  assert(boss.mechanics.some(mechanic => mechanic.name === "迫害"));
+});
+
+test("赤き神未生: 完熟と部位を分け、条件付き破壊不能と洗礼・肉片の寿命を保持する", () => {
+  const boss = getBossGuide("red-god-unborn")!;
+  assert.notEqual(boss, getBossGuide("red-god-ripe"));
+  assert.match(boss.units[0].hp, /本体4494／胴体2439/);
+  assert.equal(boss.units.find(unit => unit.id === "unborn-lifeline")!.hp, "2023");
+  assert.equal(boss.skills.filter(skill => skill.unit === "unborn-lifeline").length, 6);
+  assert(boss.skills.filter(skill => skill.id.startsWith("unborn-lifeline-")).slice(0, 3).every(skill => skill.unbreakableCoins === undefined));
+  assert.deepEqual(boss.skills.find(skill => skill.id === "unborn-lifeline-6")!.unbreakableCoins, [1, 2, 3, 4]);
+  assert.match(boss.skills.find(skill => skill.id === "unborn-lifeline-6")!.effects.join(" "), /マッチ敗北.*-95%/);
+  const support = boss.skills.find(skill => skill.id === "red-god-unborn-11")!;
+  assert.equal(support.type, "防御");
+  assert.equal(support.sin, undefined);
+  assert.match(support.label!, /援護防御専用/);
+  assert.match(boss.mechanics.find(mechanic => mechanic.name === "洗礼[赤]")!.effect, /E.G.O・守備スキル使用時に数値が3減る/);
+  assert.match(boss.mechanics.find(mechanic => mechanic.name === "生の本能")!.effect, /スキルごとに2回/);
+  assert(boss.warnings.some(warning => warning.includes("命綱未破壊") && warning.includes("50%未満")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
