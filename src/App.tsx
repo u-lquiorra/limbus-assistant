@@ -16,6 +16,7 @@ import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
 import { canonicalUrl, pageMeta } from "./seo";
+import { preloadRoute } from "./preload";
 import "./App.css";
 import "./theme.css";
 
@@ -111,20 +112,30 @@ function NotFound() {
 function PageMeta() {
   const { pathname } = useLocation();
   useEffect(() => {
-    const meta = pageMeta(pathname);
-    document.title = meta.title;
-    const setHead = (selector: string, create: () => HTMLElement, attr: string, value: string) => {
-      let el = document.head.querySelector<HTMLElement>(selector);
-      if (!el) {
-        el = create();
-        document.head.append(el);
-      }
-      el.setAttribute(attr, value);
+    let cancelled = false;
+    const apply = () => {
+      if (cancelled) return;
+      const meta = pageMeta(pathname);
+      document.title = meta.title;
+      const setHead = (selector: string, create: () => HTMLElement, attr: string, value: string) => {
+        let el = document.head.querySelector<HTMLElement>(selector);
+        if (!el) {
+          el = create();
+          document.head.append(el);
+        }
+        el.setAttribute(attr, value);
+      };
+      const metaTag = (name: string) => () => Object.assign(document.createElement("meta"), { name });
+      setHead('meta[name="description"]', metaTag("description"), "content", meta.description);
+      setHead('meta[name="robots"]', metaTag("robots"), "content", meta.noindex ? "noindex" : "index,follow");
+      setHead('link[rel="canonical"]', () => Object.assign(document.createElement("link"), { rel: "canonical" }), "href", canonicalUrl(pathname));
     };
-    const metaTag = (name: string) => () => Object.assign(document.createElement("meta"), { name });
-    setHead('meta[name="description"]', metaTag("description"), "content", meta.description);
-    setHead('meta[name="robots"]', metaTag("robots"), "content", meta.noindex ? "noindex" : "index,follow");
-    setHead('link[rel="canonical"]', () => Object.assign(document.createElement("link"), { rel: "canonical" }), "href", canonicalUrl(pathname));
+    apply();
+    // description にはガイドの要約を使うため、ガイドの読み込みが終わったらもう一度書き換える
+    preloadRoute(pathname).then(apply, (e: unknown) => console.error(`ページ情報の更新に失敗した: ${pathname}`, e));
+    return () => {
+      cancelled = true;
+    };
   }, [pathname]);
   return null;
 }
