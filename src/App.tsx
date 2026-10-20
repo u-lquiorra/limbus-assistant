@@ -16,7 +16,7 @@ import AboutPage from "./pages/AboutPage";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
-import { canonicalUrl, pageMeta } from "./seo";
+import { X_ACCOUNT, X_URL, canonicalUrl, pageMeta } from "./seo";
 import { preloadRoute } from "./preload";
 import "./App.css";
 import "./theme.css";
@@ -187,6 +187,10 @@ function App() {
           </p>
           <p>
             <Link to="/about">このサイトについて</Link>
+            {" ・ "}
+            <a href={X_URL} target="_blank" rel="noreferrer">
+              X(@{X_ACCOUNT})
+            </a>
           </p>
         </div>
       </footer>

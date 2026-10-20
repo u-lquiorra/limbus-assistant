@@ -8,6 +8,9 @@ import { getGlossaryTerm, glossaryTerms } from "./glossary";
 export const SITE_NAME = "Limbus Assistant";
 /** 公開先。canonical と sitemap の絶対 URL に使う(末尾の / なし) */
 export const SITE_URL = "https://limbus-assistant.com";
+/** 運営の X アカウント */
+export const X_ACCOUNT = "limbus_assist";
+export const X_URL = `https://x.com/${X_ACCOUNT}`;
 
 const DEFAULT_DESCRIPTION =
   "リンバス(Limbus Company)の非公式攻略データベース。人格・E.G.Oの性能と使い方、編成例、ボス攻略、用語辞典を日本語でまとめている。";
@@ -223,6 +226,7 @@ const PUBLISHER = {
   name: SITE_NAME,
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/icon-192.png`,
+  sameAs: [X_URL],
 };
 
 /**

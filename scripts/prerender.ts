@@ -105,6 +105,7 @@ async function headTags(pathname: string): Promise<{ title: string; tags: string
     `<meta property="og:image:width" content="${image.width}" />`,
     `<meta property="og:image:height" content="${image.height}" />`,
     `<meta name="twitter:card" content="${image.card}" />`,
+    `<meta name="twitter:site" content="@limbus_assist" />`,
     // 構造化データ。ガイドの更新日を先読み結果から取るため、render の後に呼ぶこと
     entry.structuredDataTags(pathname, image.url),
   ]

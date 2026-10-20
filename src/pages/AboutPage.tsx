@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
+import { X_ACCOUNT, X_URL } from "../seo";
 import "./about.css";
 
 const ISSUES_URL = "https://github.com/u-lquiorra/limbus-assistant/issues";
@@ -50,6 +51,9 @@ export default function AboutPage() {
         <h2 id="about-contact">お問い合わせ</h2>
         <p>
           誤りの報告や要望は、<a href={ISSUES_URL} target="_blank" rel="noreferrer">GitHub の Issues</a>で受け付けている。
+        </p>
+        <p>
+          更新のお知らせは X の <a href={X_URL} target="_blank" rel="noreferrer">@{X_ACCOUNT}</a> で発信している。X での連絡も受け付けている。
         </p>
       </section>
     </div>
