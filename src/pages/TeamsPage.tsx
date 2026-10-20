@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { getPersona, standalonePersonas, teams } from "../data/loader";
+import { keywordFilterPath } from "../keywordPages";
 import { asset } from "../lib";
 import type { TeamData } from "../types";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
@@ -64,8 +65,15 @@ export default function TeamsPage() {
       </header>
       <p className="team-lead">
         軸になるキーワードや所属ごとに、組み方と回し方をまとめた。手持ちに無い人格は、各編成の自由枠・代替枠から選ぶ。
-        キーワードを持つ人格をすべて見たいときは<Link to="/keywords">キーワード別人格一覧</Link>を使う。
       </p>
+      {/* 複合キーワードの編成を組むときの候補探しに使うので、編成一覧の先頭で案内する */}
+      <Link to={keywordFilterPath()} className="keyword-filter-callout">
+        <span>
+          <strong>キーワードを組み合わせて人格を探す</strong>
+          <span>火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。キーワード別の人格一覧もここから見られる。</span>
+        </span>
+        <span aria-hidden="true">→</span>
+      </Link>
 
       <div className="toolbar">
         <div className="chip-group" role="group" aria-label="分類で絞り込み">

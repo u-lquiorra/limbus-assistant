@@ -87,3 +87,20 @@ test("keywordPages: 絞り込みの URL パラメータは知らない ID と重
   assert.equal(kp.formatKeywordFilter(kp.parseKeywordFilter("charge,burn")), "burn,charge");
   assert.equal(kp.formatKeywordFilter([]), "");
 });
+
+test("keywordPages: 各ページからの導線は、キーワードを選んだ状態の絞り込みを開く", () => {
+  assert.equal(kp.keywordFilterPath(), "/keywords");
+  assert.equal(kp.keywordFilterPath([]), "/keywords");
+  assert.equal(kp.keywordFilterPath(["呼吸", "出血"]), "/keywords?kw=bleed,breath");
+  assert.equal(kp.keywordFilterPath(["未知"]), "/keywords");
+  // 人格ページの導線: 公式キーワードをそのまま渡すと、その人格自身が絞り込み結果に入る
+  for (const [code, { keywords }] of Object.entries(personaKeywords)) {
+    assert.deepEqual(loader.keywordsOfPersona(code), keywords);
+    const selected = kp.parseKeywordFilter(new URL(kp.keywordFilterPath(keywords), "https://x.test").searchParams.get("kw"));
+    if (!keywords.length) continue;
+    assert(
+      loader.personasWithAllKeywords(selected.map((p: { keyword: string }) => p.keyword)).some((s: { code: string }) => s.code === code),
+      code
+    );
+  }
+});

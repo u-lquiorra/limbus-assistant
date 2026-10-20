@@ -41,6 +41,12 @@ export function formatKeywordFilter(pages: KeywordPage[]): string {
     .join(",");
 }
 
+/** 絞り込みを、指定したキーワードを選んだ状態で開くパス(各ページからの導線用)。キーワード名で渡す */
+export function keywordFilterPath(keywords: string[] = []): string {
+  const value = formatKeywordFilter(KEYWORD_PAGES.filter((p) => keywords.includes(p.keyword)));
+  return value ? `/keywords?kw=${value}` : "/keywords";
+}
+
 /** 用語辞典の ID から、同じキーワードの一覧ページを引く(用語ページからのリンク用) */
 export function keywordPageForGlossary(glossaryId: string): KeywordPage | undefined {
   return KEYWORD_PAGES.find((p) => p.glossaryId === glossaryId);

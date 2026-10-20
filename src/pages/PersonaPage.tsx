@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
-import { getPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, peekEgoSynergies, peekGuide, peekPersonaDetail, teamsForPersona } from "../data/loader";
+import { getPersona, keywordsOfPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, peekEgoSynergies, peekGuide, peekPersonaDetail, teamsForPersona } from "../data/loader";
+import { keywordFilterPath } from "../keywordPages";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
 import { ATTACK_TYPES, asset, describeSinSkill, resistanceTone, seasonLabel } from "../lib";
@@ -332,6 +333,7 @@ export default function PersonaPage() {
       ?.split(/[,、]/)
       .map((s) => s.trim())
       .filter((s) => s && s !== status.affiliation?.name) ?? [];
+  const officialKeywords = keywordsOfPersona(status.code);
   const sinSkillEntries = SIN_ORDER.flatMap((sin) => {
     const label = describeSinSkill(status.sinSkills?.[sin] ?? "");
     return label ? [[sin, label] as const] : [];
@@ -380,6 +382,12 @@ export default function PersonaPage() {
                   {k}
                 </span>
               ))}
+              {/* 公式キーワード(対応キーワード表)を選んだ状態で、キーワードの絞り込みを開く */}
+              {officialKeywords.length > 0 && (
+                <Link to={keywordFilterPath(officialKeywords)} className="tag tag-link">
+                  {officialKeywords.join("＋")}の人格を探す
+                </Link>
+              )}
             </div>
 
             <dl className="spec-list">

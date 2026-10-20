@@ -7,7 +7,7 @@ import { getPersona, getTeam, keywordPersonas, loadGuide, peekGuide, personasWit
 import { getGlossaryTerm } from "../glossary";
 import { guideSummary } from "../guide";
 import { asset } from "../lib";
-import { KEYWORD_PAGES, formatKeywordFilter, getKeywordPage, parseKeywordFilter, type KeywordPage as KeywordPageDef } from "../keywordPages";
+import { KEYWORD_PAGES, formatKeywordFilter, getKeywordPage, keywordFilterPath, parseKeywordFilter, type KeywordPage as KeywordPageDef } from "../keywordPages";
 import type { PersonaStatus } from "../types";
 import "./teams.css";
 
@@ -216,6 +216,9 @@ export default function KeywordPage() {
               用語「{term.name}」
             </Link>
           )}
+          <Link to={keywordFilterPath([keyword])} className="tag tag-link">
+            ほかのキーワードと組み合わせて絞り込む
+          </Link>
         </div>
       </header>
 
