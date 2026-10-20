@@ -1,9 +1,10 @@
 // サイト内検索の対象を、各ページのデータから組み立てる。
 // どのデータも画面表示のためにすでに読み込まれているので、外部サービスや別ファイルの索引は使わない
-import { allPersonas, characterList, getCharacter, teams } from "./data/loader";
+import { allPersonas, characterList, getCharacter, keywordPersonas, teams } from "./data/loader";
 import personaKeywords from "./data/persona-keywords.json";
 import { bossGuides } from "./bosses";
 import { glossaryTerms } from "./glossary";
+import { KEYWORD_PAGES } from "./keywordPages";
 import type { SearchEntry } from "./search";
 
 const keywordsByCode = personaKeywords as Record<string, { keywords: string[] }>;
@@ -83,7 +84,15 @@ function buildEntries(): SearchEntry[] {
     terms: [term.reading, ...term.aliases, ...(term.sections ?? []).flatMap((s) => [s.name, s.reading])],
   }));
 
-  return [...GUIDE_ENTRIES, ...sinners, ...personas, ...egos, ...teamEntries, ...bosses, ...glossary];
+  const keywordEntries: SearchEntry[] = KEYWORD_PAGES.map((p) => ({
+    kind: "guide",
+    title: `${p.keyword}人格一覧`,
+    sub: `キーワード別人格一覧・${keywordPersonas(p.keyword).length}人格`,
+    to: `/keywords/${p.id}`,
+    terms: [p.keyword, "キーワード", "一覧"],
+  }));
+
+  return [...GUIDE_ENTRIES, ...keywordEntries, ...sinners, ...personas, ...egos, ...teamEntries, ...bosses, ...glossary];
 }
 
 let cache: SearchEntry[] | undefined;

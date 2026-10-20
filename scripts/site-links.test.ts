@@ -10,6 +10,7 @@ import { getGlossaryTerm, glossarySectionRedirect, glossaryTerms } from "../src/
 import { parseGuide } from "../src/guide.ts";
 import { BOSS_SECTIONS, bossGuides, getBossGuide } from "../src/bosses.ts";
 import type { CharacterData, CharacterListEntry } from "../src/types.ts";
+import { KEYWORD_PAGES } from "../src/keywordPages.ts";
 
 const dataRoot = new URL("../src/data/", import.meta.url);
 const characters: CharacterListEntry[] = JSON.parse(await readFile(new URL("characters.json", dataRoot), "utf8"));
@@ -37,6 +38,8 @@ function assertRoute(path: string, context: string) {
     assert(personaCodes.has(id), `${context}: 存在しない人格 ${path}`);
   } else if (kind === "ego") {
     assert(egoCodes.has(id), `${context}: 存在しないE.G.O ${path}`);
+  } else if (kind === "keywords") {
+    assert(KEYWORD_PAGES.some((page) => page.id === id), `${context}: 存在しないキーワード一覧 ${path}`);
   } else if (kind === "character") {
     assert(characters.some(({ name }) => name === decodeURIComponent(id)), `${context}: 存在しない囚人 ${path}`);
   } else {

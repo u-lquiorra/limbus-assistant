@@ -1,8 +1,9 @@
 // ルートの描画に必要な遅延データを先に読み込む。
 // 静的 HTML の生成時と、その HTML を引き継ぐ最初の描画(hydrate)の前に呼び、
 // 両者が同じ内容を描くようにする(読み込み中の表示と食い違うと hydrate が失敗する)
-import { loadEgoDetail, loadEgoGuide, loadEgoSynergies, loadGuide, loadPersonaDetail, loadTeamGuide } from "./data/loader";
+import { keywordPersonas, loadEgoDetail, loadEgoGuide, loadEgoSynergies, loadGuide, loadPersonaDetail, loadTeamGuide } from "./data/loader";
 import { SYNERGY_HEADING } from "./components/GuideView";
+import { getKeywordPage } from "./keywordPages";
 
 export async function preloadRoute(pathname: string): Promise<void> {
   const [, kind, raw] = pathname.split("/");
@@ -16,4 +17,9 @@ export async function preloadRoute(pathname: string): Promise<void> {
   if (kind === "persona") await settle([loadPersonaDetail(id), loadGuide(id), loadEgoSynergies(id, SYNERGY_HEADING)]);
   else if (kind === "ego") await settle([loadEgoDetail(id), loadEgoGuide(id)]);
   else if (kind === "teams") await settle([loadTeamGuide(id)]);
+  else if (kind === "keywords") {
+    // 一覧の各人格に、ガイドの「ひとことで」を添えるため
+    const page = getKeywordPage(id);
+    if (page) await settle(keywordPersonas(page.keyword).map((s) => loadGuide(s.code)));
+  }
 }

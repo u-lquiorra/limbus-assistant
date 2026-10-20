@@ -13,6 +13,7 @@ import RerollGuide from "./pages/RerollGuide";
 import BossPage, { BossIndex } from "./pages/BossPage";
 import SearchPage from "./pages/SearchPage";
 import AboutPage from "./pages/AboutPage";
+import KeywordPage, { KeywordIndex } from "./pages/KeywordPage";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem } from "./nav";
 import { asset } from "./lib";
@@ -167,6 +168,8 @@ function App() {
           <Route path="/ego/:code" element={<EgoPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/teams/:id" element={<TeamPage />} />
+          <Route path="/keywords" element={<KeywordIndex />} />
+          <Route path="/keywords/:id" element={<KeywordPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
           <Route path="/glossary/:id" element={<GlossaryDetail />} />
           <Route path="/beginner" element={<BeginnerGuide />} />

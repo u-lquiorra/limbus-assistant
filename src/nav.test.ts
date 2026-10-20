@@ -12,6 +12,8 @@ test("activeNavItem: 囚人・人格・E.G.O のページは囚人一覧を選�
 test("activeNavItem: 一覧と下層ページは同じ項目を選択中にする", () => {
   assert.equal(activeNavItem("/teams"), "/teams");
   assert.equal(activeNavItem("/teams/burn"), "/teams");
+  assert.equal(activeNavItem("/keywords"), "/teams");
+  assert.equal(activeNavItem("/keywords/rupture"), "/teams");
   assert.equal(activeNavItem("/bosses/ricardo"), "/bosses");
   assert.equal(activeNavItem("/glossary/poise"), "/glossary");
   assert.equal(activeNavItem("/beginner"), "/beginner");

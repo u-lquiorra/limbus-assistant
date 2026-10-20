@@ -10,6 +10,7 @@ import type { TeamData, TeamMember } from "../types";
 import { SinBadge } from "../components/ui";
 import { GuideSection } from "../components/GuideView";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
+import { getKeywordPage } from "../keywordPages";
 import "./teams.css";
 
 const SLOTS: { key: "core" | "flex" | "alternatives" | "support"; title: string; note: string }[] = [
@@ -94,6 +95,8 @@ export default function TeamPage() {
   }, [id]);
 
   const resources = useMemo(() => (team ? resourceTotals(team) : []), [team]);
+  // 状態異常の編成は、同じキーワードの人格一覧へつなぐ
+  const keywordPage = getKeywordPage(id);
 
   if (!team) {
     return (
@@ -122,6 +125,11 @@ export default function TeamPage() {
           ))}
           <AptitudeBadges aptitude={team.aptitude} />
         </div>
+        {keywordPage && (
+          <p className="team-lead">
+            ほかの候補は<Link to={`/keywords/${keywordPage.id}`}>{keywordPage.keyword}人格一覧</Link>から探せる。
+          </p>
+        )}
       </header>
 
       <PageToc />

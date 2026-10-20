@@ -13,6 +13,7 @@ import { egoItemsForPersona, parseGuide, type Guide, type InlineSegment } from "
 import charactersList from "./characters.json";
 import teamsList from "./teams.json";
 import standaloneList from "./standalone-personas.json";
+import personaKeywords from "./persona-keywords.json";
 
 const modules = import.meta.glob<CharacterData>("./*.json", { eager: true, import: "default" });
 
@@ -81,6 +82,16 @@ export const allPersonas: PersonaIndexEntry[] = characterList.flatMap((c) => {
   const skillsByCode = new Map(data.skills.map((s) => [s.code, s]));
   return data.statuses.map((status) => ({ status, skills: skillsByCode.get(status.code) }));
 });
+
+const keywordsByCode = personaKeywords as Record<string, { keywords: string[] }>;
+
+/**
+ * そのキーワードを持つ人格(キーワード別人格一覧に載せる)。並びは囚人一覧と同じ。
+ * 「〇〇人格」は対応キーワード表で★の付いた人格だけを指すため、E.G.O でだけ得られる viaEgo は含めない
+ */
+export function keywordPersonas(keyword: string): PersonaStatus[] {
+  return allPersonas.map((p) => p.status).filter((s) => keywordsByCode[s.code]?.keywords.includes(keyword));
+}
 
 export interface PersonaContext {
   character: CharacterData;

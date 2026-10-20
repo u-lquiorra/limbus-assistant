@@ -3,6 +3,7 @@ import { getGlossaryTerm, glossarySectionRedirect, GLOSSARY_CATEGORIES } from ".
 import { TermCard } from "./GlossaryPage";
 import GlossaryExample from "../components/GlossaryExample";
 import GlossarySectionHeader from "../components/GlossarySectionHeader";
+import { keywordPageForGlossary } from "../keywordPages";
 import "./glossary.css";
 
 export default function GlossaryDetail() {
@@ -17,6 +18,8 @@ export default function GlossaryDetail() {
       <Link to="/glossary" className="back-link">← 用語一覧に戻る</Link>
     </div>
   );
+  // 状態異常のキーワード(火傷・破裂など)は、そのキーワードを持つ人格一覧へつなぐ
+  const keywordPage = keywordPageForGlossary(term.id);
   const related = term.related.flatMap((key) => {
     const entry = getGlossaryTerm(key);
     return entry ? [entry] : [];
@@ -30,7 +33,10 @@ export default function GlossaryDetail() {
         <p className="kicker">GLOSSARY / {GLOSSARY_CATEGORIES[term.category]}</p>
         <h1 className="persona-title">{term.name}</h1>
         <p className="persona-ruby">{term.reading}</p>
-        <div className="persona-tags"><span className="tag tag-muted">{GLOSSARY_CATEGORIES[term.category]}</span></div>
+        <div className="persona-tags">
+          <span className="tag tag-muted">{GLOSSARY_CATEGORIES[term.category]}</span>
+          {keywordPage && <Link className="tag tag-link" to={`/keywords/${keywordPage.id}`}>{keywordPage.keyword}人格一覧</Link>}
+        </div>
         <p className="term-aliases">関連する表記・検索語：{term.aliases.join("・")}</p>
       </header>
       <section className="guide term-summary" aria-labelledby="term-summary-title">

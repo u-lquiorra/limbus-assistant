@@ -61,6 +61,7 @@ export default function TeamsPage() {
       </header>
       <p className="team-lead">
         軸になるキーワードや所属ごとに、組み方と回し方をまとめた。手持ちに無い人格は、各編成の自由枠・代替枠から選ぶ。
+        キーワードを持つ人格をすべて見たいときは<Link to="/keywords">キーワード別人格一覧</Link>を使う。
       </p>
 
       <div className="toolbar">

@@ -1,9 +1,10 @@
 // ページごとの title・description・canonical と、静的 HTML を書き出すルートの一覧。
 // 静的 HTML の生成(scripts/prerender.tsx)と、画面遷移後の書き換え(App の PageMeta)の両方で使う
-import { characterList, getCharacter, getEgo, getPersona, getTeam, peekEgoGuide, peekGuide, peekTeamGuide, teams } from "./data/loader";
+import { characterList, getCharacter, getEgo, getPersona, getTeam, keywordPersonas, peekEgoGuide, peekGuide, peekTeamGuide, teams } from "./data/loader";
 import { guideSummary } from "./guide";
 import { bossGuides, getBossGuide } from "./bosses";
 import { getGlossaryTerm, glossaryTerms } from "./glossary";
+import { KEYWORD_PAGES, getKeywordPage } from "./keywordPages";
 
 export const SITE_NAME = "Limbus Assistant";
 /** 公開先。canonical と sitemap の絶対 URL に使う(末尾の / なし) */
@@ -47,6 +48,10 @@ const STATIC_PAGES: Record<string, PageMeta> = {
   "/teams": {
     title: withSite("編成例一覧｜火傷・出血・破裂など"),
     description: "リンバス(Limbus Company)の編成例。火傷・出血・破裂・沈潜・呼吸・振動・充電などキーワードごとの組み方と、人格・E.G.Oの役割をまとめている。",
+  },
+  "/keywords": {
+    title: withSite("キーワード別人格一覧｜火傷・出血・破裂など"),
+    description: "リンバス(Limbus Company)の人格を、火傷・出血・振動・破裂・沈潜・呼吸・充電のキーワード別にまとめた一覧。編成の候補探しに使える。",
   },
   "/beginner": {
     title: withSite("初心者ガイド"),
@@ -120,6 +125,17 @@ export function pageMeta(pathname: string): PageMeta {
         ),
       };
     }
+    case "keywords": {
+      const page = getKeywordPage(id);
+      if (!page) return notFound("キーワード");
+      const { keyword } = page;
+      return {
+        title: withSite(`${keyword}人格一覧｜囚人別の特徴と編成`),
+        description: clip(
+          `リンバス(Limbus Company)の${keyword}人格一覧(${keywordPersonas(keyword).length}人格)。${keyword}をキーワードに持つ人格を囚人ごとに並べ、それぞれの特徴と${keyword}編成の軸になる人格をまとめている。`
+        ),
+      };
+    }
     case "bosses": {
       const boss = getBossGuide(id);
       if (!boss) return notFound("ボス攻略");
@@ -150,6 +166,7 @@ export function prerenderRoutes(): string[] {
     ...personaCodes.map((code) => `/persona/${code}`),
     ...egoCodes.map((code) => `/ego/${code}`),
     ...teams.map((t) => `/teams/${t.id}`),
+    ...KEYWORD_PAGES.map((p) => `/keywords/${p.id}`),
     ...bossGuides.map((b) => `/bosses/${b.id}`),
     ...glossaryTerms.map((t) => `/glossary/${t.id}`),
   ];
@@ -175,6 +192,7 @@ export interface Crumb {
 const HOME: Crumb = { name: "ホーム", path: "/" };
 const SECTION_CRUMBS: Record<string, Crumb> = {
   teams: { name: "編成例", path: "/teams" },
+  keywords: { name: "キーワード別人格一覧", path: "/keywords" },
   bosses: { name: "ボス攻略", path: "/bosses" },
   glossary: { name: "用語辞典", path: "/glossary" },
 };
@@ -208,6 +226,10 @@ export function breadcrumbs(pathname: string): Crumb[] {
     case "teams": {
       const team = getTeam(id);
       return team ? [HOME, SECTION_CRUMBS.teams, self(team.name)] : [];
+    }
+    case "keywords": {
+      const page = getKeywordPage(id);
+      return page ? [HOME, SECTION_CRUMBS.keywords, self(`${page.keyword}人格一覧`)] : [];
     }
     case "bosses": {
       const boss = getBossGuide(id);
@@ -333,8 +355,19 @@ export function lastModified(pathname: string): string | undefined {
     : kind === "teams" && id ? peekTeamGuide(id)?.meta.updated
     : kind === "bosses" && id ? getBossGuide(id)?.checkedAt
     : kind === "glossary" && id ? getGlossaryTerm(id)?.checkedAt
+    : kind === "keywords" && id ? keywordsUpdated(id)
     : undefined;
   return date && /^\d{4}-\d{2}-\d{2}$/.test(date) ? date : undefined;
+}
+
+// キーワード別一覧の更新日は、載せている人格のガイドで最も新しい更新日とする(要約をガイドから取るため)
+function keywordsUpdated(id: string): string | undefined {
+  const page = getKeywordPage(id);
+  if (!page) return undefined;
+  const dates = keywordPersonas(page.keyword)
+    .map((s) => peekGuide(s.code)?.meta.updated)
+    .filter((d): d is string => !!d && /^\d{4}-\d{2}-\d{2}$/.test(d));
+  return dates.sort().at(-1);
 }
 
 /**
