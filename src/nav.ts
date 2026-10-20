@@ -12,6 +12,14 @@ export const NAV_ITEMS = [
 // 囚人・人格・E.G.O の詳細ページは囚人一覧から辿るため、「囚人一覧」を選択中として扱う
 const SINNER_SECTION_PREFIXES = ["/character/", "/persona/", "/ego/"];
 
+/**
+ * pathname が path のページか。静的 HTML は /reroll/ のように末尾に / が付いた URL で配信されるため、
+ * 末尾の / を無視して比べる(静的 HTML の生成時は / なしで描くので、そろえないと引き継ぎで中身が食い違う)
+ */
+export function isPage(pathname: string, path: string): boolean {
+  return (pathname.replace(/\/+$/, "") || "/") === path;
+}
+
 /** pathname が属するナビ項目の `to` を返す。どれにも属さなければ undefined */
 export function activeNavItem(pathname: string): string | undefined {
   if (pathname === "/" || SINNER_SECTION_PREFIXES.some((prefix) => pathname.startsWith(prefix))) return "/";

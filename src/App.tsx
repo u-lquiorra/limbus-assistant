@@ -2,7 +2,7 @@ import { Suspense, useEffect, useRef } from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { APP_ROUTES } from "./routes";
 import SiteLogo from "./components/SiteLogo";
-import { NAV_ITEMS, activeNavItem } from "./nav";
+import { NAV_ITEMS, activeNavItem, isPage } from "./nav";
 import { asset } from "./lib";
 import { X_ACCOUNT, X_URL, canonicalUrl, pageMeta } from "./seo";
 import { preloadRoute } from "./preload";
@@ -41,7 +41,7 @@ function HeaderHeightVar() {
 
 function DataSourceNote() {
   const { pathname } = useLocation();
-  if (pathname === "/reroll") return null;
+  if (isPage(pathname, "/reroll")) return null;
   return <p>データ出典: <a href="https://wikiwiki.jp/lcbwiki/" target="_blank" rel="noreferrer">LimbusCompany攻略Wiki</a></p>;
 }
 
@@ -77,7 +77,7 @@ function SiteSearchLink() {
       className="site-search-link"
       aria-label="サイト内検索"
       title="サイト内検索"
-      aria-current={pathname === "/search" ? "page" : undefined}
+      aria-current={isPage(pathname, "/search") ? "page" : undefined}
     >
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <circle cx="11" cy="11" r="7" />

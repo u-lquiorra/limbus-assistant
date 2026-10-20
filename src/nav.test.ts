@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { activeNavItem } from "./nav.ts";
+import { activeNavItem, isPage } from "./nav.ts";
 
 test("activeNavItem: 囚人・人格・E.G.O のページは囚人一覧を選択中にする", () => {
   assert.equal(activeNavItem("/"), "/");
@@ -23,4 +23,12 @@ test("activeNavItem: 一覧と下層ページは同じ項目を選択中にす�
 test("activeNavItem: 前方一致だけの別パスや未知のパスは選択しない", () => {
   assert.equal(activeNavItem("/teamsx"), undefined);
   assert.equal(activeNavItem("/unknown"), undefined);
+});
+
+test("isPage: 末尾の / の有無を区別しない(静的 HTML は /reroll/ で配信される)", () => {
+  assert(isPage("/reroll", "/reroll"));
+  assert(isPage("/reroll/", "/reroll"));
+  assert(isPage("/", "/"));
+  assert(!isPage("/reroll/x", "/reroll"));
+  assert(!isPage("/rerollx", "/reroll"));
 });
