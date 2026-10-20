@@ -7,7 +7,7 @@ export interface PersonaStatus {
   character: string;
   wikiUrl?: string;
   image?: string; // public/ からの相対パス
-  affiliation?: { name: string; icon?: string };
+  affiliation?: { name: string };
   season: string; // "0"=恒常, 数字=シーズン, その他は記号(例: "W")
   // 罪悪属性ごとのスキル枚数 (3=S1, 2=S2, 1=S3。"防"/"反"/"避" は守備スキルもその罪悪属性)
   sinSkills: Record<string, string>;

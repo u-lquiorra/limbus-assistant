@@ -19,15 +19,6 @@ export default function PersonaCard({ status, skills, showCharacter }: Props) {
           <div className="persona-card-placeholder" />
         )}
         <span className="persona-card-season">{seasonLabel(status.season)}</span>
-        {status.affiliation?.icon && (
-          <img
-            className="persona-card-aff"
-            src={asset(status.affiliation.icon)}
-            alt={status.affiliation.name}
-            title={status.affiliation.name}
-            loading="lazy"
-          />
-        )}
       </div>
       <div className="persona-card-body">
         <span className="persona-card-code">

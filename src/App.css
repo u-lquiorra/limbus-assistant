@@ -703,19 +703,6 @@
   color: var(--muted);
 }
 
-.persona-card-aff {
-  position: absolute;
-  right: 8px;
-  bottom: 8px;
-  width: 30px;
-  height: 30px;
-  padding: 4px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: rgba(10, 9, 11, 0.75);
-  backdrop-filter: blur(6px);
-}
-
 .persona-card-body {
   display: flex;
   flex-direction: column;

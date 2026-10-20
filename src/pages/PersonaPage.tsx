@@ -384,7 +384,6 @@ export default function PersonaPage() {
               </Link>
               {status.affiliation && (
                 <span className="tag">
-                  {status.affiliation.icon && <img src={asset(status.affiliation.icon)} alt="" width={18} height={18} />}
                   {status.affiliation.name}
                 </span>
               )}

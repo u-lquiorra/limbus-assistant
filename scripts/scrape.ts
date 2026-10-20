@@ -141,16 +141,6 @@ async function downloadOne(url: string, relPath: string, width?: number): Promis
   return (await downloadImage(url, [{ relPath, width }]))[0];
 }
 
-function imageExt(url: URL): string {
-  const m = decodeURIComponent(url.pathname).match(/\.(webp|png|jpe?g|gif)$/i);
-  return m ? m[1].toLowerCase() : "png";
-}
-
-// 日本語のファイル名も残す(ASCII以外を潰すと別アイコン同士が同じ名前になる)
-function safeFileName(name: string): string {
-  return name.replace(/[^\p{L}\p{N}_-]+/gu, "_").replace(/^_+|_+$/g, "") || "icon";
-}
-
 function cellText($: cheerio.CheerioAPI, el: Element): string {
   // 脚注マーカー(*5 など)が値に混ざるので除去する(例: "3*5" → "3")
   const $el = $(el).clone();
@@ -246,10 +236,8 @@ function parseStatusTable(
       name: get(2),
       character: get(3) || characterName,
       wikiUrl: href ? new URL(href, "https://wikiwiki.jp").toString() : undefined,
-      // icon はここでは元URL。scrapeCharacter でローカルパスに置き換える
-      affiliation: affImg.length
-        ? { name: affImg.attr("alt")?.trim() ?? "", icon: affImg.attr("src") }
-        : undefined,
+      // 所属は名前だけを持つ。アイコンは wiki の画像で転載が禁止されているため取得しない
+      affiliation: affImg.length ? { name: affImg.attr("alt")?.trim() ?? "" } : undefined,
       season: get(4),
       sinSkills,
       hp: get(13),
@@ -345,19 +333,6 @@ async function scrapeImages(
       s.image = imagePath;
     } else {
       console.warn(`  人格画像が見つかりません: ${s.code} ${s.name}`);
-    }
-
-    if (s.affiliation?.icon) {
-      // アイコン1つの不備でその囚人全体の取得を止めないよう、ここで握りつぶす
-      try {
-        const url = new URL(s.affiliation.icon, "https://wikiwiki.jp");
-        const base = decodeURIComponent(url.pathname).split("/").pop() ?? "";
-        const stem = safeFileName(base.replace(/(\.(png|webp|jpe?g|gif))+$/i, ""));
-        s.affiliation.icon = await downloadOne(url.toString(), `images/affiliations/${stem}.${imageExt(url)}`);
-      } catch (e) {
-        console.error(`  所属アイコン処理失敗: ${s.code} ${s.affiliation.icon}`, (e as Error).message);
-        s.affiliation.icon = undefined;
-      }
     }
   }
   return images;
