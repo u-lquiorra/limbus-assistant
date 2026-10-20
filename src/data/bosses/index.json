@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "kromer",
+    "name": "クローマー",
+    "shortName": "クローマー",
+    "stage": "3-22",
+    "stageName": "K-02支部・最終戦",
+    "chapter": 3,
+    "checkedAt": "2026-10-19",
+    "lead": "ダンジョンで集める「とある印」と、危険な攻撃へのマッチが攻略の軸。前半の注視を対処し、後半は大口を混乱・破壊して攻撃を減らそう。",
+    "image": {
+      "path": "images/bosses/kromer.webp",
+      "width": 310,
+      "height": 302
+    },
+    "unitNames": [
+      "クローマー（前半）",
+      "完全な人間を夢見るクローマー・大口",
+      "完全な人間を夢見るクローマー・右腕",
+      "完全な人間を夢見るクローマー・左腕"
+    ]
+  },
+  {
+    "id": "brazen-bull",
+    "name": "真鍮の雄牛 - 涙を流す（4-6）",
+    "shortName": "真鍮の雄牛",
+    "stage": "4-6",
+    "stageName": "復帰",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "全部の攻撃へ無理にマッチしなくてよい。勝ちやすい溢れ出る哀しみを止めて弱体化させ、現れた頭を壊して大きな攻撃機会を作ろう。",
+    "image": {
+      "path": "images/bosses/brazen-bull.webp",
+      "width": 658,
+      "height": 400
+    },
+    "unitNames": [
+      "真鍮の雄牛 - 涙を流す（胴体）",
+      "真鍮の雄牛 - 涙を流す（頭）"
+    ]
+  },
+  {
+    "id": "dongbaek-sunshower",
+    "name": "ロボトミーE.G.O::狐雨 - ドンベク",
+    "shortName": "ドンベク（狐雨）",
+    "stage": "4-47",
+    "stageName": "鑑賞室",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "4-48の壇香梅とは別の戦闘。7人の手数でバリアを削り、棘が付いたときは古傘へ攻撃を回す。精神力による強化・パニックと、表裏の確率を分けて考えよう。",
+    "image": {
+      "path": "images/bosses/dongbaek-sunshower.webp",
+      "width": 351,
+      "height": 268
+    },
+    "unitNames": [
+      "ドンベク（狐雨）",
+      "古傘（4-47）"
+    ]
+  },
+  {
+    "id": "dongbaek-spicebush",
+    "name": "ドンベクE.G.O::壇香梅",
+    "shortName": "ドンベク",
+    "stage": "4-48",
+    "stageName": "蕾",
+    "chapter": 4,
+    "checkedAt": "2026-10-18",
+    "lead": "攻撃を受けて開花がたまると、味方が花に閉じ込められる。マッチで開花を抑え、花の処理と後半の対決を乗り切ろう。",
+    "image": {
+      "path": "images/bosses/dongbaek-spicebush.webp",
+      "width": 275,
+      "height": 277
+    },
+    "unitNames": [
+      "ドンベクE.G.O::壇香梅",
+      "じきに咲き出す花",
+      "満開の花"
+    ]
+  },
+  {
+    "id": "fairy-gentleman",
+    "name": "紳士妖精（4章）",
+    "shortName": "紳士妖精",
+    "stage": "4-54",
+    "stageName": "記憶の中の九人会・1層",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "左腕へ火力を集中するのが基本。長引くなら、高揚を妖精酒で酔いへ変え、捕食のダメージを無くして混乱を狙おう。初手と後半の同名技は、マッチできるかが違う。",
+    "image": {
+      "path": "images/bosses/fairy-gentleman.webp",
+      "width": 404,
+      "height": 371
+    },
+    "unitNames": [
+      "紳士妖精（左腕）",
+      "紳士妖精（胴体）",
+      "妖精酒"
+    ]
+  },
+  {
+    "id": "talisman-doll",
+    "name": "誰も泣かぬように（4章）",
+    "shortName": "誰も泣かぬように",
+    "stage": "4-54",
+    "stageName": "記憶の中の九人会・1層",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "まずは打撃で右腕を集中攻撃。長引くなら3ターン目にお札を返し、4ターン目の5枚攻撃を弱める。自分に付く札と、敵へ返した札を区別しよう。",
+    "image": {
+      "path": "images/bosses/talisman-doll.webp",
+      "width": 210,
+      "height": 309
+    },
+    "unitNames": [
+      "誰も泣かぬように（右腕）",
+      "誰も泣かぬように（胴体）"
+    ]
+  },
+  {
+    "id": "wayward-fox",
+    "name": "さすらいの狐（4章）",
+    "shortName": "さすらいの狐",
+    "stage": "4-54",
+    "stageName": "記憶の中の九人会・2層",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "傘に気を取られて精神力を削られ続けないよう、弱い攻撃で精神力を稼ぎ、強い攻撃は狐へ。広域と精神力低下へ備え、部位を壊して本体を削り切ろう。",
+    "image": {
+      "path": "images/bosses/wayward-fox.webp",
+      "width": 566,
+      "height": 371
+    },
+    "unitNames": [
+      "さすらいの狐（頭）",
+      "さすらいの狐（胴体）",
+      "古傘"
+    ]
+  },
+  {
+    "id": "shock-centipede",
+    "name": "衝撃ムカデ（4章）",
+    "shortName": "衝撃ムカデ",
+    "stage": "4-54",
+    "stageName": "記憶の中の九人会・2層",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "HP1で止まるのは自家発電が残っているため。まず胴体を削り、移行後の蠢く頭・尾へ勝って発電を使い切らせよう。バリアを割る攻略とは手順を分けて考える。",
+    "image": {
+      "path": "images/bosses/shock-centipede.webp",
+      "width": 478,
+      "height": 461
+    },
+    "unitNames": [
+      "衝撃ムカデ（頭）",
+      "衝撃ムカデ（胴体）"
+    ]
+  },
+  {
+    "id": "dongrang",
+    "name": "ドンラン・開花E.G.O::舎音",
+    "shortName": "ドンラン",
+    "stage": "4-54",
+    "stageName": "記憶の中の九人会・終盤2戦",
+    "chapter": 4,
+    "checkedAt": "2026-10-19",
+    "lead": "木の扱いは戦闘ごとに変わる。全てを否定するドンランでは虚栄の木をHP1にして敵に倒させ、舎音では欲望の木を倒して保護と種を減らそう。",
+    "image": {
+      "path": "images/bosses/dongrang-deny.webp",
+      "width": 341,
+      "height": 325
+    },
+    "unitNames": [
+      "全てを否定するドンラン（第1形態）",
+      "全てを否定するドンラン（第2形態）",
+      "全てを否定するドンラン（第3形態）",
+      "虚栄の木",
+      "しこりの成った木",
+      "開花E.G.O::舎音",
+      "欲望の木",
+      "吸収する木"
+    ]
+  },
+  {
+    "id": "ricardo",
+    "name": "リカルド",
+    "shortName": "リカルド",
+    "stage": "5-30",
+    "stageName": "末兄",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "全攻撃にマッチするより、受ける攻撃と攻める時間を決めよう。前のウェーブで準備し、「兄貴の試験」の間に打撃の強いスキルを集中する。",
+    "image": {
+      "path": "images/bosses/ricardo.webp",
+      "width": 220,
+      "height": 211
+    },
+    "unitNames": [
+      "リカルド",
+      "頼れる中指末弟",
+      "厳格な中指末弟"
+    ]
+  },
+  {
+    "id": "walking-pearl",
+    "name": "歩く真珠（5章）",
+    "shortName": "歩く真珠",
+    "stage": "5-36",
+    "stageName": "漆黒の中へ・2層 右心房",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "出現した緑色の粘液を捕食される前に倒し、本体の粘液が尽きたときに真珠へ集中する。硬い殻を殴り続けず、幼虫による精神力低下と4ターン周期の広域へ備える。",
+    "image": {
+      "path": "images/bosses/pearl.webp",
+      "width": 724,
+      "height": 430
+    },
+    "unitNames": [
+      "歩く真珠［真珠］",
+      "歩く真珠［殻］",
+      "緑色の粘液［召喚個体］"
+    ]
+  },
+  {
+    "id": "skin-prophet",
+    "name": "皮膚の予言者（5章）",
+    "shortName": "皮膚の予言者",
+    "stage": "5-36",
+    "stageName": "漆黒の中へ・2層 腱の橋",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "まず4本の蝋燭をHP1まで削って全て点灯させる。本体の耐性が戻ったら集中攻撃するか、点灯した蝋燭のバリアを同じターンに全て壊して自傷・混乱へ誘導する。",
+    "image": {
+      "path": "images/bosses/prophet-dark.webp",
+      "width": 346,
+      "height": 430
+    },
+    "unitNames": [
+      "皮膚の予言者［耐性強化中］",
+      "皮膚の予言者［耐性復帰後］",
+      "蝋燭"
+    ]
+  },
+  {
+    "id": "dream-devouring-siltcurrent",
+    "name": "夢貪る濁流（5章）",
+    "shortName": "夢貪る濁流",
+    "stage": "5-36",
+    "stageName": "漆黒の中へ・3層 心臓前の集結地点",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "2ターン目の盲目を、麻痺込みでも勝てる技で止める。その後は漂流物を先に破壊し、彷徨う盲目による自傷へ誘導する。蛍光灯を壊して毎ターンの麻痺・束縛を抑え、再生前に本体を削る。",
+    "image": {
+      "path": "images/bosses/silt-body.webp",
+      "width": 474,
+      "height": 514
+    },
+    "unitNames": [
+      "夢貪る濁流［胴体］",
+      "夢貪る濁流［蛍光灯］",
+      "漂流物"
+    ]
+  },
+  {
+    "id": "ahab-trio",
+    "name": "エイハブ・クィークェグ・スターバック",
+    "shortName": "エイハブたち3人",
+    "stage": "5-36",
+    "stageName": "漆黒の中へ・3層",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "攻撃役のスターバックを早めに止め、エイハブの命令に備えよう。獲物の印を受ける役と、援護防御バリアを削る役を決めると動きやすい。",
+    "image": {
+      "path": "images/bosses/ahab.webp",
+      "width": 258,
+      "height": 303
+    },
+    "unitNames": [
+      "エイハブ",
+      "クィークェグ",
+      "スターバック"
+    ]
+  },
+  {
+    "id": "gas-harpoon",
+    "name": "開花E.G.O::ガスハープーン",
+    "shortName": "ガスハープーン",
+    "stage": "5-36",
+    "stageName": "漆黒の中へ・3層最終戦",
+    "chapter": 5,
+    "checkedAt": "2026-10-19",
+    "lead": "ピップは回避を破る、スターバックは印付きの囚人でマッチに勝つ、クィークェグはバリアを割る。形態ごとの自我を削り、混乱した隙にHPを減らそう。",
+    "image": {
+      "path": "images/bosses/gas-harpoon.webp",
+      "width": 243,
+      "height": 258
+    },
+    "unitNames": [
+      "ガスハープーン（ピップの自我）",
+      "ガスハープーン（スターバックの自我）",
+      "ガスハープーン（クィークェグの自我）"
+    ]
+  },
+  {
+    "id": "kim-satgat",
+    "name": "キムサッガッ（ねじれゆく・ねじれた）",
+    "shortName": "キムサッガッ",
+    "stage": "5.5-24",
+    "stageName": "肉斬骨断・5.5-23と剣鬼の心象最終戦",
+    "chapter": 5.5,
+    "checkedAt": "2026-10-19",
+    "lead": "減算コインの敵には、精神力を下げるほど不利になることがある。斬撃・傲慢の火力で混乱を狙い、骨断の前にバリアを割る攻撃順を作ろう。",
+    "image": {
+      "path": "images/bosses/kim-final.webp",
+      "width": 418,
+      "height": 297
+    },
+    "unitNames": [
+      "ねじれたキムサッガッ（5.5-24）",
+      "ねじれゆくキムサッガッ（5.5-23）"
+    ]
+  },
+  {
+    "id": "heathcliff-mirror",
+    "name": "ヒースクリフ？",
+    "shortName": "ヒースクリフ？",
+    "stage": "6-34",
+    "stageName": "獣",
+    "chapter": 6,
+    "checkedAt": "2026-10-19",
+    "lead": "味方ヒースクリフが倒れると敗北する戦闘。変更できる攻撃はほかの囚人で引き受け、本人にしか対処できない攻撃へ強いスキルを残そう。",
+    "image": {
+      "path": "images/bosses/heathcliff-mirror.webp",
+      "width": 502,
+      "height": 494
+    },
+    "unitNames": [
+      "ヒースクリフ？"
+    ]
+  },
+  {
+    "id": "nelly",
+    "name": "ネリー",
+    "shortName": "ネリー",
+    "stage": "6-45",
+    "stageName": "盗まれた人生",
+    "chapter": 6,
+    "checkedAt": "2026-10-19",
+    "lead": "目印付きの囚人から強化攻撃をそらし、後半は捕縛された本人で解除用のマッチに勝つ。似た名前の技でも、誰が受けるかを切り替えよう。",
+    "image": {
+      "path": "images/bosses/nelly.webp",
+      "width": 271,
+      "height": 238
+    },
+    "unitNames": [
+      "ネリー"
+    ]
+  },
+  {
+    "id": "erlking-cathy",
+    "name": "魔王ヒースクリフ・全てのキャサリン",
+    "shortName": "6章最終戦",
+    "stage": "6-48",
+    "stageName": "全ての世界",
+    "chapter": 6,
+    "checkedAt": "2026-10-19",
+    "lead": "魔王とキャサリンが交代する5段階の長期戦。ヒースクリフを守り、最初の両手は足並みをそろえて削り、2回目は本体のバリアまで処理しよう。",
+    "image": {
+      "path": "images/bosses/erlking.webp",
+      "width": 293,
+      "height": 229
+    },
+    "unitNames": [
+      "魔王ヒースクリフ（1回目）",
+      "魔王ヒースクリフ（2回目）",
+      "魔王ヒースクリフ（3回目）",
+      "全てのキャサリン（1回目）",
+      "全てのキャサリンの右手（1回目）",
+      "全てのキャサリンの左手（1回目）",
+      "全てのキャサリン（2回目）",
+      "全てのキャサリンの右手（2回目）",
+      "全てのキャサリンの左手（2回目）",
+      "ワイルドハント・ヒンドリー",
+      "ワイルドハント・ジョセフィーヌ",
+      "ワイルドハント・リントン",
+      "ワイルドハント・奪われて泣き叫ぶヒンドリー"
+    ]
+  },
+  {
+    "id": "cassetti-sasha",
+    "name": "カセッティ・サーシャ",
+    "shortName": "カセッティ・サーシャ",
+    "stage": "6.5-28",
+    "stageName": "ワープ特急殺人事件・従える者",
+    "chapter": 6.5,
+    "checkedAt": "2026-10-19",
+    "lead": "血袋とサーシャで準備を整え、カセッティの宿した血をマッチ勝利とHP削りで減らす。血0のマッチ不可広域は回避でしのぎ、吸血による大回復を抑えよう。",
+    "image": {
+      "path": "images/bosses/cassetti.webp",
+      "width": 300,
+      "height": 353
+    },
+    "unitNames": [
+      "カセッティ（Wave2）",
+      "サーシャ（Wave1）",
+      "渇求する血袋の乗客",
+      "餓えた血袋の整理要員",
+      "血袋の義体フィクサー"
+    ]
+  },
+  {
+    "id": "barber",
+    "name": "理髪師（7-16）",
+    "shortName": "理髪師",
+    "stage": "7-16",
+    "stageName": "血染めの鋏",
+    "chapter": 7,
+    "checkedAt": "2026-10-19",
+    "lead": "破壊不能の広域はマッチに勝ったうえで受け切る準備が必要。出血と低HPを放置せず、対象変更できない即死技を出させないよう回復しよう。",
+    "image": {
+      "path": "images/bosses/barber.webp",
+      "width": 345,
+      "height": 327
+    },
+    "unitNames": [
+      "理髪師"
+    ]
+  },
+  {
+    "id": "dulcinea",
+    "name": "ドゥルシネーア",
+    "shortName": "ドゥルシネーア",
+    "stage": "7-34",
+    "stageName": "美しいドゥルシネーアとドンキホーテに起こったことについて",
+    "chapter": 7,
+    "checkedAt": "2026-10-19",
+    "lead": "序盤は取り巻きを倒して本体の保護を減らす。攻撃側へ出血を返す棘と、マッチに勝っても残る破壊不能コインに注意し、後半の混乱で一気に攻めよう。",
+    "image": {
+      "path": "images/bosses/dulcinea.webp",
+      "width": 435,
+      "height": 338
+    },
+    "unitNames": [
+      "ドゥルシネーア",
+      "転落した血袋",
+      "絶望する血袋",
+      "苦しげなパレードの血袋",
+      "後を追うパレードの血袋",
+      "楽しそうなパレードの血鬼",
+      "幸せなパレードの血鬼"
+    ]
+  },
+  {
+    "id": "bloodfiend-trio",
+    "name": "理髪師・神父・ドゥルシネーア",
+    "shortName": "血鬼3人戦",
+    "stage": "7-36",
+    "stageName": "夢へと至らん・病人の運命",
+    "chapter": 7,
+    "checkedAt": "2026-10-19",
+    "lead": "理髪師、神父、ドゥルシネーアの順に集中して倒す。1人目を倒すときにはフィナーレの準備を済ませ、単体戦と違う行動変更条件に備えよう。",
+    "image": {
+      "path": "images/bosses/trio-barber.webp",
+      "width": 193,
+      "height": 298
+    },
+    "unitNames": [
+      "理髪師",
+      "神父",
+      "ドゥルシネーア"
+    ]
+  },
+  {
+    "id": "sancho",
+    "name": "サンチョ（7章）",
+    "shortName": "サンチョ",
+    "stage": "7-36",
+    "stageName": "夢へと至らん・回転木馬",
+    "chapter": 7,
+    "checkedAt": "2026-10-19",
+    "lead": "HP80%・60%・40%で戦い方が変わる。速度10の破壊不能攻撃へ事前に備え、マッチ勝利で被害と吸血を抑えながら、段階ごとに削ろう。",
+    "image": {
+      "path": "images/bosses/sancho.webp",
+      "width": 209,
+      "height": 205
+    },
+    "unitNames": [
+      "サンチョ"
+    ]
+  },
+  {
+    "id": "don-quixote",
+    "name": "ドンキホーテ（7章最終ボス）",
+    "shortName": "7章最終ボス",
+    "stage": "7-36",
+    "stageName": "夢へと至らんとした偉大なフィクサーについての物語・最終戦",
+    "chapter": 7,
+    "checkedAt": "2026-10-19",
+    "lead": "観覧車では取り巻きを処理し、人型では出血と拘束を管理する長期戦。凝結した夢を味方で倒して支援へ変え、大技を越える準備をしよう。",
+    "image": {
+      "path": "images/bosses/don-main.webp",
+      "width": 291,
+      "height": 182
+    },
+    "unitNames": [
+      "ドンキホーテ（人型）",
+      "ドンキホーテ（大観覧車）",
+      "ゴンドラ",
+      "貫いた槍",
+      "凝結した夢",
+      "夢見る冒険の記憶",
+      "着飾った血袋",
+      "おぞましい血袋",
+      "後を追うパレードの血袋",
+      "狂ってしまった洒落者の血鬼",
+      "祈る幽霊役の血鬼",
+      "幸せなパレードの血鬼"
+    ]
+  },
+  {
+    "id": "drunken-nightguest",
+    "name": "酔手夜客（8-17）",
+    "shortName": "酔手夜客",
+    "stage": "8-17",
+    "stageName": "夜襲2",
+    "chapter": 8,
+    "checkedAt": "2026-10-19",
+    "lead": "まず取り巻きを減らし、落酒への勝利でひとくちを抑える。ホンルは集中攻撃されるが、この戦闘では倒れても即敗北ではない。控えまで用意して立て直そう。",
+    "image": {
+      "path": "images/bosses/nightguest.webp",
+      "width": 236,
+      "height": 205
+    },
+    "unitNames": [
+      "酔手夜客",
+      "巨大な朴刀持ちの襲撃者"
+    ]
+  },
+  {
+    "id": "jia-qiu",
+    "name": "ジア・チォウ（8-20）",
+    "shortName": "ジア・チォウ",
+    "stage": "8-20",
+    "stageName": "家主審査2次戦・鴻園に最も必要なもの",
+    "chapter": 8,
+    "checkedAt": "2026-10-19",
+    "lead": "ホンルを最後まで生かし、ズールゥへの無用な攻撃を避ける。後半はホンル本人で問答を3回成功させてバリアを止め、大技へ勝って攻撃機会を作ろう。",
+    "image": {
+      "path": "images/bosses/jia-qiu.webp",
+      "width": 213,
+      "height": 166
+    },
+    "unitNames": [
+      "ジア・チォウ（前半）",
+      "ズールゥ",
+      "ジア・チォウ（後半）",
+      "黒獣 - 卯：快撃",
+      "黒獣 - 卯：暗撃"
+    ]
+  },
+  {
+    "id": "lei-heng",
+    "name": "レイホン（8-30）",
+    "shortName": "レイホン",
+    "stage": "8-30",
+    "stageName": "心",
+    "chapter": 8,
+    "checkedAt": "2026-10-19",
+    "lead": "爆砕斬を後に処理し、獲物には守備も使う。マッチ勝利後に残る破壊不能の被弾を抑え、HPとターン経過で進む強化へ回復と火力を間に合わせよう。",
+    "image": {
+      "path": "images/bosses/lei-heng.webp",
+      "width": 369,
+      "height": 275
+    },
+    "unitNames": [
+      "レイホン",
+      "親指ソルダート（補給役）"
+    ]
+  },
+  {
+    "id": "jia-fang-kubo",
+    "name": "ジア・ファン＆クボ",
+    "shortName": "ファン＆クボ",
+    "stage": "8-32",
+    "stageName": "不老不死",
+    "chapter": 8,
+    "checkedAt": "2026-10-19",
+    "lead": "取り巻き→ファン→クボの順に倒す戦闘。ファンへ攻撃を集めすぎず、クボには通常防御・回避も使い、低精神力での広域連打を抑える。",
+    "image": {
+      "path": "images/bosses/jia-fang.webp",
+      "width": 358,
+      "height": 313
+    },
+    "unitNames": [
+      "N社E.G.O::軽蔑、畏敬 ジア・ファン",
+      "N社E.G.O::凶弾 クボ",
+      "素早いN社E.G.O::ねばつき",
+      "俊敏なN社E.G.O::ねばつき"
+    ]
+  },
+  {
+    "id": "jia-mu",
+    "name": "ジア・ムー／混覚轀輬黒獣",
+    "shortName": "ジア・ムー",
+    "stage": "8-33",
+    "stageName": "喜怒哀楽",
+    "chapter": 8,
+    "checkedAt": "2026-10-19",
+    "lead": "6段階の長期戦。序盤はホンルを守り、ねじれ後は宝玉→輿→ご老人の順で妨害源を処理する。喜びを得てからはホンルのマッチ勝利で資源を補給し、回復を続ける。",
+    "image": {
+      "path": "images/bosses/jia-mu.webp",
+      "width": 199,
+      "height": 303
+    },
+    "unitNames": [
+      "ジア・ムー",
+      "混覚轀輬黒獣",
+      "混覚轀輬黒獣・輿",
+      "宝玉",
+      "天のご老人",
+      "地のご老人",
+      "脳のご老人"
+    ]
+  },
+  {
+    "id": "ren-albina",
+    "name": "レン・アルビナ",
+    "shortName": "レン・アルビナ",
+    "stage": "9-18",
+    "stageName": "煙草と親方",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "4人で挑む2人戦。レンの呼吸と月下青刀を減らし、アルビナの大技は先に別々の攻撃3本を通して弱める。鉄のとばりのターンには攻撃を控える。",
+    "image": {
+      "path": "images/bosses/ren.webp",
+      "width": 343,
+      "height": 332
+    },
+    "unitNames": [
+      "小指の子方 - レン",
+      "薬指の子方 - アルビナ"
+    ]
+  },
+  {
+    "id": "sora",
+    "name": "ソラ（9-30）",
+    "shortName": "ソラ",
+    "stage": "9-30",
+    "stageName": "指令の意味",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "前半は指令対象への的中を防ぎ、後半はベスパの援護を使って生き残る戦闘。火力だけを追わず、良秀の資源獲得と回復を使い、援護防御の条件を崩さない。",
+    "image": {
+      "path": "images/bosses/sora-base.webp",
+      "width": 460,
+      "height": 471
+    },
+    "unitNames": [
+      "人差し指の子方 - ソラ",
+      "ソラ・開花E.G.O::代行"
+    ]
+  },
+  {
+    "id": "shiomi-yoru",
+    "name": "塩見ヨル（9-33）",
+    "shortName": "塩見ヨル",
+    "stage": "9-33",
+    "stageName": "鮮明に残った一本",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "HP0まで倒す必要はない。乖離のバリアを削り切るか、11ターン目終了まで耐えれば先へ進む。速い囚人が観望・残像歩へ先に勝ち、後の大技を受けやすくする。",
+    "image": {
+      "path": "images/bosses/shiomi-yoru.webp",
+      "width": 564,
+      "height": 563
+    },
+    "unitNames": [
+      "小指の親方 - 塩見ヨル"
+    ]
+  },
+  {
+    "id": "albina-callisto",
+    "name": "アルビナ・カリスト（9-37）",
+    "shortName": "アルビナ・カリスト",
+    "stage": "9-37",
+    "stageName": "薬指",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "ホーエンハイム・アリサとの共闘。大技は囚人の先行攻撃で弱めてからNPCに受けてもらう。後半はアルビナを先に戦闘不能にし、カリストの保護と援護防御を減らす。",
+    "image": {
+      "path": "images/bosses/ac-armor.webp",
+      "width": 201,
+      "height": 332
+    },
+    "unitNames": [
+      "アルビナ・アイアンメイデン",
+      "薬指身体派自動人形 - 研究員",
+      "薬指身体派自動人形 - 戦闘員",
+      "薬指の親方 - カリスト",
+      "アルビナ・甲冑解除後",
+      "身体観劇"
+    ]
+  },
+  {
+    "id": "kira-matthias",
+    "name": "キラ・マティアス（9-38）",
+    "shortName": "キラ・マティアス",
+    "stage": "9-38",
+    "stageName": "中指",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "マティアスはモーゼス・エズラ・ベスパに任せ、囚人3人はキラへ集中する。援護防御に任せる攻撃へ守備やマッチを付けず、親方の反撃を不用意に起動しない。",
+    "image": {
+      "path": "images/bosses/matthias.webp",
+      "width": 282,
+      "height": 359
+    },
+    "unitNames": [
+      "中指の親方 - マティアス",
+      "中指の子方 - キラ"
+    ]
+  },
+  {
+    "id": "shiomi-yoru-rematch",
+    "name": "塩見ヨル（9-41）",
+    "shortName": "塩見ヨル再戦",
+    "stage": "9-41",
+    "stageName": "アラヤ",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "最速の囚人が観望へ勝って敵を弱め、印の付いた本人が確定された相手を止める。ムルソー・ウーティスの剣痕を減らしながら段階ごとのバリアを削り、最後はHP半分まで進める。",
+    "image": {
+      "path": "images/bosses/yoru-rematch.webp",
+      "width": 391,
+      "height": 393
+    },
+    "unitNames": [
+      "小指の親方 - 塩見ヨル"
+    ]
+  },
+  {
+    "id": "lucio-valentina",
+    "name": "ルチオ・ヴァレンチーナ（9-42）",
+    "shortName": "ルチオ・ヴァレンチーナ",
+    "stage": "9-42",
+    "stageName": "チケット",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "前哨戦のルチオを半分まで削るとヴェルギリウスが参戦する。後半は親方の予知眼を先に減らしてからルチオを倒す。NPCの攻撃先を調整し、対象変更不可の処分を弱める。",
+    "image": {
+      "path": "images/bosses/lucio.webp",
+      "width": 207,
+      "height": 153
+    },
+    "unitNames": [
+      "親指の子方 - ルチオ",
+      "親指の親方 - ヴァレンチーナ"
+    ]
+  },
+  {
+    "id": "albina-callisto-rematch",
+    "name": "アルビナ・カリスト（9-43）",
+    "shortName": "アルビナ・カリスト再戦",
+    "stage": "9-43",
+    "stageName": "孵化",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "操作するのはファウストとイシュメール。カリストはNPCのとあるシンクレアへ任せ、2人はアルビナへ集中する。全体混乱はNPCの煙払いで解除されるため、演出を見て攻撃を止める必要はない。",
+    "image": {
+      "path": "images/bosses/ac-albina.webp",
+      "width": 413,
+      "height": 293
+    },
+    "unitNames": [
+      "薬指の子方 - アルビナ",
+      "薬指の親方 - カリスト"
+    ]
+  },
+  {
+    "id": "kira-matthias-rematch",
+    "name": "キラ・マティアス（9-44）",
+    "shortName": "キラ・マティアス再戦",
+    "stage": "9-44",
+    "stageName": "家族",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "囚人3人でキラを倒し、マティアスはLCD組へ任せる。終盤は火力勝負をやめ、モーゼスへ攻撃を通さず3ターン守る。HPに余裕があっても被弾するとチャージが戻る。",
+    "image": {
+      "path": "images/bosses/matthias.webp",
+      "width": 282,
+      "height": 359
+    },
+    "unitNames": [
+      "中指の親方 - マティアス",
+      "中指の子方 - キラ"
+    ]
+  },
+  {
+    "id": "roach-emperor",
+    "name": "蜚蠊の皇帝（9-45）",
+    "shortName": "蜚蠊の皇帝",
+    "stage": "9-45",
+    "stageName": "ある日突然",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "ヒースクリフ・ロージャは暴食技と害虫を処理し、大きな火力と危険なマッチはヴェルギリウスへ任せる。破壊不能コインで暴食技へ挑むと敵が強化されるため、NPCのマッチ先を確認してから動く。",
+    "image": {
+      "path": "images/bosses/roach-emperor.webp",
+      "width": 400,
+      "height": 433
+    },
+    "unitNames": [
+      "蜚蠊の皇帝"
+    ]
+  },
+  {
+    "id": "little-finger-master",
+    "name": "小指の親方 - ???（9-48）",
+    "shortName": "小指の親方 - ???",
+    "stage": "9-48",
+    "stageName": "時間のもつれ",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "後半は良秀1人の一騎打ちになる。落望へ先に勝って敵の攻撃を弱め、怨望・非望へも攻撃を向ける。全コインが破壊不能になるため、勝利後の被弾まで見越して耐える。",
+    "image": {
+      "path": "images/bosses/little-master.webp",
+      "width": 374,
+      "height": 337
+    },
+    "unitNames": [
+      "小指の親方 - ???"
+    ]
+  },
+  {
+    "id": "lian",
+    "name": "リアン（9-50）",
+    "shortName": "リアン",
+    "stage": "9-50",
+    "stageName": "蜘蛛の糸",
+    "chapter": 9,
+    "checkedAt": "2026-10-19",
+    "lead": "指令対象を守って指令の達成を阻止し、カルマで敵を弱める。大技は良秀、後半の憂鬱3種は同じ物理属性で受け持つ。マッチ勝利後の破壊不能まで抑えることが重要になる。",
+    "image": {
+      "path": "images/bosses/lian-masked.webp",
+      "width": 179,
+      "height": 237
+    },
+    "unitNames": [
+      "人差し指の親方 - リアン［前半］",
+      "親方リアン［後半・仮面解除］"
+    ]
+  },
+  {
+    "id": "gustave",
+    "name": "ル・ノワール店員 ギュスターヴ（10章A）",
+    "shortName": "ギュスターヴ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・1F コンテンポラリーフロア",
+    "chapter": 10,
+    "checkedAt": "2026-10-19",
+    "lead": "対象変更不可の接客技は、狙われた囚人が攻撃と守備のどちらを装着するかで対処する。「ご試着いただけない」は守備、「何でもお気軽に」は攻撃と、案内の内容を読んで切り替える。",
+    "image": {
+      "path": "images/bosses/gustave.webp",
+      "width": 297,
+      "height": 336
+    },
+    "unitNames": [
+      "ル・ノワール店員 ギュスターヴ"
+    ]
+  },
+  {
+    "id": "fourleg",
+    "name": "フォーレグ（10章A）",
+    "shortName": "フォーレグ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・4F シューズフロア 前半戦",
+    "chapter": 10,
+    "checkedAt": "2026-10-19",
+    "lead": "保存威力が上がり切る前にバリアを崩して攻める。広域乱射が出たら強い技でマッチに勝ち、ダメージ半減と混乱しない効果を得る。撃破後はワンレグと連戦になる。",
+    "image": {
+      "path": "images/bosses/fourleg.webp",
+      "width": 350,
+      "height": 350
+    },
+    "unitNames": [
+      "フォーレグ"
+    ]
+  },
+  {
+    "id": "oneleg",
+    "name": "ワンレグ（10章A）",
+    "shortName": "ワンレグ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・4F シューズフロア 後半戦",
+    "chapter": 10,
+    "checkedAt": "2026-10-19",
+    "lead": "フォーレグからの連戦。コートが100になると覚醒し、基本攻撃が全て破壊不能へ変わる。大技にはマッチ勝利でダメージを75%減らせる効果があるため、受け役のHPと強い技を残して戦う。",
+    "image": {
+      "path": "images/bosses/oneleg.webp",
+      "width": 137,
+      "height": 278
+    },
+    "unitNames": [
+      "ワンレグ"
+    ]
+  },
+  {
+    "id": "sous-chef",
+    "name": "スーシェフ（10章A）",
+    "shortName": "スーシェフ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・B1F フードコート 初戦",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "スーシェフが調理しようとしている革の財布を先に倒し、食事による回復と強化を抑える戦闘。ただし、食事を止め続けると空腹から別の大技が来る。料理の成否と二種類の破壊不能広域を見ながら、本体のHPを30%未満まで削る。",
+    "image": {
+      "path": "images/bosses/sous-chef.webp",
+      "width": 176,
+      "height": 145
+    },
+    "unitNames": [
+      "スーシェフ",
+      "革の財布"
+    ]
+  },
+  {
+    "id": "sewing-king",
+    "name": "裁縫の王（10章A）",
+    "shortName": "裁縫の王",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・B2F 糸玉の巣 廊下",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "毎ターン「舌に刺さった針」を受けた囚人に守備スキルを装着し、針釘の蓄積を防ぐ戦闘。前半は針っ子を素早く倒して本体の強化と広域攻撃を抑え、HP1087で移る後半は混乱に頼らず攻め切る。",
+    "image": {
+      "path": "images/bosses/sewing-king.webp",
+      "width": 267,
+      "height": 397
+    },
+    "unitNames": [
+      "裁縫の王",
+      "緯糸の針っ子",
+      "経糸の針っ子"
+    ]
+  },
+  {
+    "id": "linamovible",
+    "name": "リナモヴィブル（10章A）",
+    "shortName": "リナモヴィブル",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・3F ル・ルージュのブティーク",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "打撃の連続攻撃を受けながら、通常パターンと試着室を行き来する戦闘。試着室のバリア500は急いで壊す必要がなく、守備で待つ方法も取れる。通常時は一方攻撃で軽減される技を見分け、HP半分未満の破壊不能攻撃に備える。",
+    "image": {
+      "path": "images/bosses/linamovible.webp",
+      "width": 710,
+      "height": 478
+    },
+    "unitNames": [
+      "リナモヴィブル"
+    ]
+  },
+  {
+    "id": "red-god-unborn",
+    "name": "赤き神［未生］（10章A）",
+    "shortName": "赤き神［未生］",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店A・2F ラグジュアリーフロアの揺籃",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "洗礼[赤]を守備・E.G.Oで減らし、出血を抱えたまま基本攻撃を連打しないことが大切な戦闘。暴走中に命綱の保護と援護防御が外れる隙を使い、命綱を破壊してから胴体を削る。低HPを狙う破壊不能広域は、健康な囚人でマッチに勝って被害を抑える。",
+    "image": {
+      "path": "images/bosses/red-god-unborn.webp",
+      "width": 512,
+      "height": 510
+    },
+    "unitNames": [
+      "赤き神［未生］［胴体］",
+      "赤き神［未生］［命綱］",
+      "赤き神の引きちぎられた肉片"
+    ]
+  },
+  {
+    "id": "flannel",
+    "name": "フランネル（10章B）",
+    "shortName": "フランネル",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店B・3F ル・ノワールのメゾン",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "保存とウーステッド生地を育て、毎ターンのバリアと条件付き破壊不能で戦う敵。攻撃を分散させず、選んだ敵へ火力を集めて行動を減らす。フランネルのバリア中の被弾による保存増加と、メゾンの防御中のダメージ反射を見分けることが大切になる。",
+    "image": {
+      "path": "images/bosses/flannel.webp",
+      "width": 190,
+      "height": 247
+    },
+    "unitNames": [
+      "フランネル",
+      "ル・ノワール メゾン"
+    ]
+  },
+  {
+    "id": "annette",
+    "name": "お直し職人アネット（10章B）",
+    "shortName": "お直し職人アネット",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店B・3F お直し室",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "毎ターン、お直し対象になった囚人を守備に回し、ほかの囚人で攻撃して混乱を取る戦闘。対象が攻撃するとアネットの威力が大きく上がる。混乱でバリア・裁断された生地・花ばさみを消し、脆弱3の隙に大きく削る。",
+    "image": {
+      "path": "images/bosses/annette.webp",
+      "width": 282,
+      "height": 288
+    },
+    "unitNames": [
+      "お直し職人アネット"
+    ]
+  },
+  {
+    "id": "alriune",
+    "name": "アルリウネ（10章B）",
+    "shortName": "アルリウネ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店B・4F 迷子センター",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "最初の贖罪の月桂冠を強い囚人へ渡し、その囚人に大技のマッチと本体への攻撃を任せる戦闘。ほかの囚人は取り巻きと通常技に対処し、精神力を回復する。パニック・侵蝕からの即死攻撃を防ぎ、助力者のプイを守りながら短期決着を狙う。",
+    "image": {
+      "path": "images/bosses/alriune.webp",
+      "width": 342,
+      "height": 431
+    },
+    "unitNames": [
+      "アルリウネ",
+      "土から生まれた者"
+    ]
+  },
+  {
+    "id": "controller",
+    "name": "統制者（10章B）",
+    "shortName": "統制者",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店B・B3F 皮室",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "2ターン目から毎ターン3名に付く禁止規則を守り、なめされた罪人を減らして本体の破壊不能広域を弱める戦闘。規則違反への追撃はマッチも守備もできないため、攻撃先と攻撃・守備の種類を先に決める。取り巻きを処理しながら本体を削り、HP半分付近の強制ターン終了に備える。",
+    "image": {
+      "path": "images/bosses/controller.webp",
+      "width": 433,
+      "height": 520
+    },
+    "unitNames": [
+      "統制者",
+      "なめされた罪人"
+    ]
+  },
+  {
+    "id": "old-sea-thread",
+    "name": "古き海の黒い糸（10章B）",
+    "shortName": "古き海の黒い糸",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店B・5F 廊下",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "絡まりを守備や洗い流すで減らし、奈落の顎門の再使用を防ぐ戦闘。部位を混乱させるとそのターンが終わり、次に黒い水たまりへ隠れる。水たまり中は攻撃スキルの本数で解除を狙い、解除後の捕食とプイへの集中攻撃に備える。",
+    "image": {
+      "path": "images/bosses/old-sea-thread.webp",
+      "width": 512,
+      "height": 332
+    },
+    "unitNames": [
+      "古き海の黒い糸［胴体］",
+      "古き海の黒い糸［左腕］",
+      "古き海の黒い糸［右腕］"
+    ]
+  },
+  {
+    "id": "warden-chaplain",
+    "name": "看守・司祭（10章C）",
+    "shortName": "看守・司祭",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店C・FATE LOST",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "看守から司祭へ続く長期戦。序盤は燭台を先に壊し、その後は毎ターン付く停止と鼓動に合わせて大技の担当を決める。司祭になったら、釘の刺さった攻撃スキルを選ばずに戦う。終盤のShift + Deleteはムルソーに任せ、ほかの生存者を残す。",
+    "image": {
+      "path": "images/bosses/warden.webp",
+      "width": 310,
+      "height": 359
+    },
+    "unitNames": [
+      "看守（第1段階）",
+      "刑罰の燭台",
+      "看守（第2段階）",
+      "司祭（第3段階）"
+    ]
+  },
+  {
+    "id": "red-god-ripe",
+    "name": "赤き神［完熟］（10章C）",
+    "shortName": "赤き神［完熟］",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店C・5F 廊下",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "HPを削り切るほか、特定の大技へマッチで勝ち、プイの記憶を5までためて終える方法がある。ここでは記憶をためる手順を中心に説明する。毎ターン、出血とラブジェクトを見てマッチを組み、終盤用にプイとの経験を持つ囚人を残す。",
+    "image": {
+      "path": "images/bosses/red-god-ripe.webp",
+      "width": 375,
+      "height": 321
+    },
+    "unitNames": [
+      "赤き神［完熟］",
+      "ル・ルージュ 上級スタッフ"
+    ]
+  },
+  {
+    "id": "jeanne",
+    "name": "ジャンヌ（10章C最終戦）",
+    "shortName": "ジャンヌ",
+    "stage": "10-04",
+    "stageName": "シーシュポス百貨店C・明るい部屋 最終戦",
+    "chapter": 10,
+    "checkedAt": "2026-10-20",
+    "lead": "第1段階は設計図を先に倒して捕捉を妨げ、第2段階はムルソーのスキル番号を合わせてワルツを進める。第3段階は本体を直接攻撃せず、設計図を倒して本体HPを減らす。ムルソーが攻略の中心なので、前の司祭戦のように致命傷を受け続けられるとは考えず、HPと担当を守る。",
+    "image": {
+      "path": "images/bosses/jeanne-one.webp",
+      "width": 158,
+      "height": 146
+    },
+    "unitNames": [
+      "裁断士ジャンヌ・サルトル（第1段階）",
+      "シーシュポス百貨店の設計図",
+      "ジャンヌ・マリィ・サルトル（第2段階）",
+      "ムーラン・ルージュ-ジャンヌ・マリィ・サルトル",
+      "シーシュポスシステムの設計図-ル・ノワール",
+      "シーシュポスシステムの設計図-ル・ルージュ"
+    ]
+  }
+]

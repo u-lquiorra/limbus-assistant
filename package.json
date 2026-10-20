@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && tsx scripts/prerender.ts",
+    "build": "tsx scripts/boss-index.ts && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && tsx scripts/prerender.ts",
     "lint": "oxlint",
     "preview": "vite preview",
     "scrape": "tsx scripts/scrape.ts",
     "keywords": "tsx scripts/extract-keywords.ts",
+    "bosses:index": "tsx scripts/boss-index.ts",
     "test": "tsx --test \"scripts/**/*.test.ts\" \"src/**/*.test.ts\" \"analysis/**/*.test.ts\"",
     "analyze": "tsx analysis/sim/report.ts",
     "typecheck:scripts": "tsc -p tsconfig.scripts.json"

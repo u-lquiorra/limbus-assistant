@@ -1,12 +1,26 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { BOSS_SECTIONS, bossGuides, getBossGuide } from "./bosses.ts";
+import { BOSS_SECTIONS, bossIds, bossSummaries, bossSummary, getBossSummary, loadAllBossGuides, loadBossGuide } from "./bosses.ts";
 import { getGlossaryTerm } from "./glossary.ts";
 import { SIN_ORDER } from "./sinColors.ts";
 import { readFile } from "node:fs/promises";
 import sharp from "sharp";
 import { bossSkillEffectText } from "./bossSkillText.ts";
 import { bossKeywords } from "./bossKeywords.ts";
+
+// 詳細データはページごとに遅延読み込みするため、テストでは最初に全ボス分を読んでおく
+const bossGuides = await loadAllBossGuides();
+const guideById = new Map(bossGuides.map((boss) => [boss.id, boss]));
+const getBossGuide = (id: string) => guideById.get(id);
+
+test("ボスの読み込み: ID とファイルがそろい、要約(index.json)が詳細データと一致する", async () => {
+  assert.equal(bossGuides.length, bossIds.length);
+  assert.deepEqual(bossGuides.map((boss) => boss.id), bossIds, "読み込み先のキーとボスの ID が一致する");
+  assert.deepEqual(bossSummaries, bossGuides.map(bossSummary), "要約が古い。npm run bosses:index で作り直す");
+  assert.equal(getBossSummary("unknown"), undefined);
+  assert.equal(getBossSummary("toString"), undefined);
+  assert.equal(await loadBossGuide("toString"), null);
+});
 
 test("ボス用語: 専用効果・共通用語と同名の形態別パッシブを区別する", () => {
   const boss = getBossGuide("erlking-cathy")!;
@@ -352,7 +366,7 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
     assert.match(boss.id, /^[a-z]+(?:-[a-z]+)*$/);
     assert.match(boss.stage, /^\d+(?:\.5)?-\d+$/);
     assert(boss.name && boss.stageName && boss.lead);
-    assert.equal(getBossGuide(boss.id), boss);
+    assert.equal(getBossSummary(boss.id)?.name, boss.name);
     assert.equal(new Date(`${boss.checkedAt}T00:00:00Z`).toISOString().slice(0, 10), boss.checkedAt);
     const units = new Set(boss.units.map((unit) => unit.id));
     assert.equal(units.size, boss.units.length);
@@ -391,8 +405,6 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
     assert(boss.relatedTerms.length && boss.relatedTerms.every((id) => getGlossaryTerm(id)));
     assert(boss.sources.length && boss.sources.every((source) => source.title && new URL(source.url).protocol === "https:"));
   }
-  assert.equal(getBossGuide("unknown"), undefined);
-  assert.equal(getBossGuide("toString"), undefined);
 });
 
 test("章間ボスと7章サンチョ: 減算・回避の不明値・開始時補正を区別する", () => {

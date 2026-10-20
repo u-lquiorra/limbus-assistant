@@ -1,60 +1,4 @@
-import dongbaek from "./data/bosses/dongbaek-spicebush";
-import ricardo from "./data/bosses/ricardo";
-import ahab from "./data/bosses/ahab-trio";
-import heathcliff from "./data/bosses/heathcliff-mirror";
-import dulcinea from "./data/bosses/dulcinea";
-import donQuixote from "./data/bosses/don-quixote";
-import kromer from "./data/bosses/kromer";
-import gasHarpoon from "./data/bosses/gas-harpoon";
-import erlkingCathy from "./data/bosses/erlking-cathy";
-import dongrang from "./data/bosses/dongrang";
-import kimSatgat from "./data/bosses/kim-satgat";
-import cassettiSasha from "./data/bosses/cassetti-sasha";
-import sancho from "./data/bosses/sancho";
-import nelly from "./data/bosses/nelly";
-import barber from "./data/bosses/barber";
-import bloodfiendTrio from "./data/bosses/bloodfiend-trio";
-import brazenBull from "./data/bosses/brazen-bull";
-import waywardFox from "./data/bosses/wayward-fox";
-import shockCentipede from "./data/bosses/shock-centipede";
-import dongbaekSunshower from "./data/bosses/dongbaek-sunshower";
-import fairyGentleman from "./data/bosses/fairy-gentleman";
-import talismanDoll from "./data/bosses/talisman-doll";
-import drunkenNightguest from "./data/bosses/drunken-nightguest";
-import jiaQiu from "./data/bosses/jia-qiu";
-import leiHeng from "./data/bosses/lei-heng";
-import jiaFangKubo from "./data/bosses/jia-fang-kubo";
-import jiaMu from "./data/bosses/jia-mu";
-import renAlbina from "./data/bosses/ren-albina";
-import sora from "./data/bosses/sora";
-import shiomiYoru from "./data/bosses/shiomi-yoru";
-import albinaCallisto from "./data/bosses/albina-callisto";
-import kiraMatthias from "./data/bosses/kira-matthias";
-import lucioValentina from "./data/bosses/lucio-valentina";
-import kiraMatthiasRematch from "./data/bosses/kira-matthias-rematch";
-import littleFingerMaster from "./data/bosses/little-finger-master";
-import lian from "./data/bosses/lian";
-import roachEmperor from "./data/bosses/roach-emperor";
-import shiomiYoruRematch from "./data/bosses/shiomi-yoru-rematch";
-import albinaCallistoRematch from "./data/bosses/albina-callisto-rematch";
-import walkingPearl from "./data/bosses/walking-pearl";
-import skinProphet from "./data/bosses/skin-prophet";
-import dreamDevouringSiltcurrent from "./data/bosses/dream-devouring-siltcurrent";
-import gustave from "./data/bosses/gustave";
-import fourleg from "./data/bosses/fourleg";
-import oneleg from "./data/bosses/oneleg";
-import sousChef from "./data/bosses/sous-chef";
-import redGodRipe from "./data/bosses/red-god-ripe";
-import wardenChaplain from "./data/bosses/warden-chaplain";
-import jeanne from "./data/bosses/jeanne";
-import sewingKing from "./data/bosses/sewing-king";
-import linamovible from "./data/bosses/linamovible";
-import redGodUnborn from "./data/bosses/red-god-unborn";
-import alriune from "./data/bosses/alriune";
-import flannel from "./data/bosses/flannel";
-import annette from "./data/bosses/annette";
-import controller from "./data/bosses/controller";
-import oldSeaThread from "./data/bosses/old-sea-thread";
+import summaries from "./data/bosses/index.json";
 
 export interface BossUnit {
   id: string;
@@ -123,11 +67,128 @@ export interface BossGuide {
   sources: { title: string; url: string }[];
 }
 
-export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg, sousChef, sewingKing, linamovible, redGodUnborn, flannel, annette, alriune, controller, oldSeaThread, wardenChaplain, redGodRipe, jeanne];
-const byId = new Map(bossGuides.map((boss) => [boss.id, boss]));
+// ボスごとの詳細データ。全ボス分をまとめて読むと最初の読み込みが重くなるため、ページを開いたときだけ読み込む。
+// 並びはボス攻略一覧の表示順。キー(ID)とファイル名はそろえる(bosses.test.ts で検査)
+const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
+  kromer: () => import("./data/bosses/kromer"),
+  "brazen-bull": () => import("./data/bosses/brazen-bull"),
+  "dongbaek-sunshower": () => import("./data/bosses/dongbaek-sunshower"),
+  "dongbaek-spicebush": () => import("./data/bosses/dongbaek-spicebush"),
+  "fairy-gentleman": () => import("./data/bosses/fairy-gentleman"),
+  "talisman-doll": () => import("./data/bosses/talisman-doll"),
+  "wayward-fox": () => import("./data/bosses/wayward-fox"),
+  "shock-centipede": () => import("./data/bosses/shock-centipede"),
+  dongrang: () => import("./data/bosses/dongrang"),
+  ricardo: () => import("./data/bosses/ricardo"),
+  "walking-pearl": () => import("./data/bosses/walking-pearl"),
+  "skin-prophet": () => import("./data/bosses/skin-prophet"),
+  "dream-devouring-siltcurrent": () => import("./data/bosses/dream-devouring-siltcurrent"),
+  "ahab-trio": () => import("./data/bosses/ahab-trio"),
+  "gas-harpoon": () => import("./data/bosses/gas-harpoon"),
+  "kim-satgat": () => import("./data/bosses/kim-satgat"),
+  "heathcliff-mirror": () => import("./data/bosses/heathcliff-mirror"),
+  nelly: () => import("./data/bosses/nelly"),
+  "erlking-cathy": () => import("./data/bosses/erlking-cathy"),
+  "cassetti-sasha": () => import("./data/bosses/cassetti-sasha"),
+  barber: () => import("./data/bosses/barber"),
+  dulcinea: () => import("./data/bosses/dulcinea"),
+  "bloodfiend-trio": () => import("./data/bosses/bloodfiend-trio"),
+  sancho: () => import("./data/bosses/sancho"),
+  "don-quixote": () => import("./data/bosses/don-quixote"),
+  "drunken-nightguest": () => import("./data/bosses/drunken-nightguest"),
+  "jia-qiu": () => import("./data/bosses/jia-qiu"),
+  "lei-heng": () => import("./data/bosses/lei-heng"),
+  "jia-fang-kubo": () => import("./data/bosses/jia-fang-kubo"),
+  "jia-mu": () => import("./data/bosses/jia-mu"),
+  "ren-albina": () => import("./data/bosses/ren-albina"),
+  sora: () => import("./data/bosses/sora"),
+  "shiomi-yoru": () => import("./data/bosses/shiomi-yoru"),
+  "albina-callisto": () => import("./data/bosses/albina-callisto"),
+  "kira-matthias": () => import("./data/bosses/kira-matthias"),
+  "shiomi-yoru-rematch": () => import("./data/bosses/shiomi-yoru-rematch"),
+  "lucio-valentina": () => import("./data/bosses/lucio-valentina"),
+  "albina-callisto-rematch": () => import("./data/bosses/albina-callisto-rematch"),
+  "kira-matthias-rematch": () => import("./data/bosses/kira-matthias-rematch"),
+  "roach-emperor": () => import("./data/bosses/roach-emperor"),
+  "little-finger-master": () => import("./data/bosses/little-finger-master"),
+  lian: () => import("./data/bosses/lian"),
+  gustave: () => import("./data/bosses/gustave"),
+  fourleg: () => import("./data/bosses/fourleg"),
+  oneleg: () => import("./data/bosses/oneleg"),
+  "sous-chef": () => import("./data/bosses/sous-chef"),
+  "sewing-king": () => import("./data/bosses/sewing-king"),
+  linamovible: () => import("./data/bosses/linamovible"),
+  "red-god-unborn": () => import("./data/bosses/red-god-unborn"),
+  flannel: () => import("./data/bosses/flannel"),
+  annette: () => import("./data/bosses/annette"),
+  alriune: () => import("./data/bosses/alriune"),
+  controller: () => import("./data/bosses/controller"),
+  "old-sea-thread": () => import("./data/bosses/old-sea-thread"),
+  "warden-chaplain": () => import("./data/bosses/warden-chaplain"),
+  "red-god-ripe": () => import("./data/bosses/red-god-ripe"),
+  jeanne: () => import("./data/bosses/jeanne"),
+};
 
-export function getBossGuide(id: string): BossGuide | undefined {
-  return byId.get(id);
+/** 一覧・検索・ページ情報に使う軽い要約。src/data/bosses/index.json から読む(npm run bosses:index で生成) */
+export interface BossSummary {
+  id: string;
+  name: string;
+  shortName: string;
+  stage: string;
+  stageName: string;
+  chapter: number;
+  checkedAt: string;
+  lead: string;
+  /** 先頭の画像のある部位の画像(OGP に使う) */
+  image?: BossUnit["image"];
+  /** 部位の名前(サイト内検索に使う) */
+  unitNames: string[];
+}
+
+export function bossSummary(boss: BossGuide): BossSummary {
+  return {
+    id: boss.id,
+    name: boss.name,
+    shortName: boss.shortName,
+    stage: boss.stage,
+    stageName: boss.stageName,
+    chapter: boss.chapter,
+    checkedAt: boss.checkedAt,
+    lead: boss.lead,
+    image: boss.units.find((unit) => unit.image)?.image,
+    unitNames: boss.units.map((unit) => unit.name),
+  };
+}
+
+export const bossSummaries: BossSummary[] = summaries;
+const summaryById = new Map(bossSummaries.map((boss) => [boss.id, boss]));
+
+export function getBossSummary(id: string): BossSummary | undefined {
+  return summaryById.get(id);
+}
+
+/** 詳細データを読み込める ID の一覧(要約の生成とテストに使う) */
+export const bossIds = Object.keys(BOSS_LOADERS);
+
+// 読み込んだ詳細の控え。静的 HTML の生成と、その HTML を引き継ぐ最初の描画(hydrate)で同期的に使う
+const loaded = new Map<string, BossGuide | null>();
+
+export async function loadBossGuide(id: string): Promise<BossGuide | null> {
+  const load = Object.hasOwn(BOSS_LOADERS, id) ? BOSS_LOADERS[id] : undefined;
+  const boss = load ? (await load()).default : null;
+  loaded.set(id, boss);
+  return boss;
+}
+
+/** 読み込み済みの詳細。まだ読んでいなければ undefined、存在しない ID なら null */
+export function peekBossGuide(id: string): BossGuide | null | undefined {
+  return loaded.get(id);
+}
+
+/** 全ボスの詳細(一覧の表示順)。テストと要約の生成用で、画面からは使わない */
+export async function loadAllBossGuides(): Promise<BossGuide[]> {
+  const guides = await Promise.all(bossIds.map(loadBossGuide));
+  return guides.filter((boss): boss is BossGuide => boss !== null);
 }
 
 export const BOSS_SECTIONS = [

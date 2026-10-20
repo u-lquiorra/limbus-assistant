@@ -4,6 +4,7 @@
 import { keywordPersonas, loadEgoDetail, loadEgoGuide, loadEgoSynergies, loadGuide, loadPersonaDetail, loadTeamGuide } from "./data/loader";
 import { SYNERGY_HEADING } from "./components/GuideView";
 import { getKeywordPage } from "./keywordPages";
+import { loadBossGuide } from "./bosses";
 
 export async function preloadRoute(pathname: string): Promise<void> {
   const [, kind, raw] = pathname.split("/");
@@ -17,6 +18,7 @@ export async function preloadRoute(pathname: string): Promise<void> {
   if (kind === "persona") await settle([loadPersonaDetail(id), loadGuide(id), loadEgoSynergies(id, SYNERGY_HEADING)]);
   else if (kind === "ego") await settle([loadEgoDetail(id), loadEgoGuide(id)]);
   else if (kind === "teams") await settle([loadTeamGuide(id)]);
+  else if (kind === "bosses") await settle([loadBossGuide(id)]);
   else if (kind === "keywords") {
     // 一覧の各人格に、ガイドの「ひとことで」を添えるため
     const page = getKeywordPage(id);

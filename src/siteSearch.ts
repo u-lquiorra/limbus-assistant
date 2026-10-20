@@ -2,7 +2,7 @@
 // どのデータも画面表示のためにすでに読み込まれているので、外部サービスや別ファイルの索引は使わない
 import { allPersonas, characterList, getCharacter, keywordPersonas, teams } from "./data/loader";
 import personaKeywords from "./data/persona-keywords.json";
-import { bossGuides } from "./bosses";
+import { bossSummaries } from "./bosses";
 import { glossaryTerms } from "./glossary";
 import { KEYWORD_PAGES } from "./keywordPages";
 import type { SearchEntry } from "./search";
@@ -66,14 +66,14 @@ function buildEntries(): SearchEntry[] {
   }));
 
   // 一覧と同じく章順に並べる
-  const bosses: SearchEntry[] = [...bossGuides]
+  const bosses: SearchEntry[] = [...bossSummaries]
     .sort((a, b) => a.chapter - b.chapter)
     .map((boss) => ({
       kind: "boss",
       title: boss.name,
       sub: `${boss.stage} ${boss.stageName}`,
       to: `/bosses/${boss.id}`,
-      terms: [boss.shortName, boss.stage, boss.stageName, ...boss.units.map((unit) => unit.name)],
+      terms: [boss.shortName, boss.stage, boss.stageName, ...boss.unitNames],
     }));
 
   const glossary: SearchEntry[] = glossaryTerms.map((term) => ({

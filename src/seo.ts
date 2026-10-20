@@ -2,7 +2,7 @@
 // 静的 HTML の生成(scripts/prerender.tsx)と、画面遷移後の書き換え(App の PageMeta)の両方で使う
 import { characterList, getCharacter, getEgo, getPersona, getTeam, keywordPersonas, peekEgoGuide, peekGuide, peekTeamGuide, teams } from "./data/loader";
 import { guideSummary } from "./guide";
-import { bossGuides, getBossGuide } from "./bosses";
+import { bossSummaries, getBossSummary } from "./bosses";
 import { getGlossaryTerm, glossaryTerms } from "./glossary";
 import { KEYWORD_PAGES, getKeywordPage } from "./keywordPages";
 
@@ -137,7 +137,7 @@ export function pageMeta(pathname: string): PageMeta {
       };
     }
     case "bosses": {
-      const boss = getBossGuide(id);
+      const boss = getBossSummary(id);
       if (!boss) return notFound("ボス攻略");
       return {
         title: withSite(`${boss.stage} ${boss.name}の攻略`),
@@ -167,7 +167,7 @@ export function prerenderRoutes(): string[] {
     ...egoCodes.map((code) => `/ego/${code}`),
     ...teams.map((t) => `/teams/${t.id}`),
     ...KEYWORD_PAGES.map((p) => `/keywords/${p.id}`),
-    ...bossGuides.map((b) => `/bosses/${b.id}`),
+    ...bossSummaries.map((b) => `/bosses/${b.id}`),
     ...glossaryTerms.map((t) => `/glossary/${t.id}`),
   ];
 }
@@ -232,7 +232,7 @@ export function breadcrumbs(pathname: string): Crumb[] {
       return page ? [HOME, SECTION_CRUMBS.keywords, self(`${page.keyword}人格一覧`)] : [];
     }
     case "bosses": {
-      const boss = getBossGuide(id);
+      const boss = getBossSummary(id);
       return boss ? [HOME, SECTION_CRUMBS.bosses, self(`${boss.stage} ${boss.name}`)] : [];
     }
     case "glossary": {
@@ -321,7 +321,7 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
   const articleKinds = ["persona", "ego", "teams", "bosses"];
   const isArticle = (id && articleKinds.includes(kind)) || path === "/beginner" || path === "/reroll";
   if (isArticle) {
-    const date = updated ?? (kind === "bosses" ? getBossGuide(id)?.checkedAt : undefined);
+    const date = updated ?? (kind === "bosses" ? getBossSummary(id)?.checkedAt : undefined);
     result.push({
       "@context": "https://schema.org",
       "@type": "Article",
@@ -353,7 +353,7 @@ export function lastModified(pathname: string): string | undefined {
     kind === "persona" ? peekGuide(id)?.meta.updated
     : kind === "ego" ? peekEgoGuide(id)?.meta.updated
     : kind === "teams" && id ? peekTeamGuide(id)?.meta.updated
-    : kind === "bosses" && id ? getBossGuide(id)?.checkedAt
+    : kind === "bosses" && id ? getBossSummary(id)?.checkedAt
     : kind === "glossary" && id ? getGlossaryTerm(id)?.checkedAt
     : kind === "keywords" && id ? keywordsUpdated(id)
     : undefined;
@@ -384,7 +384,7 @@ export function pageImage(pathname: string): string | undefined {
     return getEgo(id)?.ego.image;
   }
   if (kind === "bosses" && id) {
-    return getBossGuide(id)?.units.find((u) => u.image)?.image?.path;
+    return getBossSummary(id)?.image?.path;
   }
   return undefined;
 }

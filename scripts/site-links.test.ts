@@ -8,7 +8,7 @@ import { load } from "cheerio";
 import { createServer } from "vite";
 import { getGlossaryTerm, glossarySectionRedirect, glossaryTerms } from "../src/glossary.ts";
 import { parseGuide } from "../src/guide.ts";
-import { BOSS_SECTIONS, bossGuides, getBossGuide } from "../src/bosses.ts";
+import { BOSS_SECTIONS, loadAllBossGuides } from "../src/bosses.ts";
 import type { CharacterData, CharacterListEntry } from "../src/types.ts";
 import { KEYWORD_PAGES } from "../src/keywordPages.ts";
 
@@ -17,6 +17,9 @@ const characters: CharacterListEntry[] = JSON.parse(await readFile(new URL("char
 const characterData: CharacterData[] = await Promise.all(characters.map(async ({ name }) =>
   JSON.parse(await readFile(new URL(`${name}.json`, dataRoot), "utf8")) as CharacterData
 ));
+// ボスの詳細は遅延読み込みなので、リンク先の確認用に全ボス分を先に読む
+const bossGuides = await loadAllBossGuides();
+const getBossGuide = (id: string) => bossGuides.find((boss) => boss.id === id);
 const personaCodes = new Set(characterData.flatMap((character) => character.statuses.map(({ code }) => code)));
 const egoCodes = new Set(characterData.flatMap((character) => (character.egos ?? []).map(({ code }) => code)));
 
@@ -56,6 +59,8 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
     const { default: GlossaryPage } = await server.ssrLoadModule("/src/pages/GlossaryPage.tsx");
     const { default: GlossaryDetail } = await server.ssrLoadModule("/src/pages/GlossaryDetail.tsx");
     const { default: BossPage, BossIndex } = await server.ssrLoadModule("/src/pages/BossPage.tsx");
+    // 本番の先読みと同じく、描画前にボスの詳細を読み込んでおく(Vite 側のモジュールに控えが残る)
+    await (await server.ssrLoadModule("/src/bosses.ts")).loadAllBossGuides();
     const pages = [
       { path: "/beginner", route: "/beginner", component: BeginnerGuide },
       { path: "/reroll", route: "/reroll", component: RerollGuide },

@@ -1,6 +1,6 @@
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import { BOSS_SECTIONS, bossGuides, getBossGuide, type BossGuide, type BossSkill } from "../bosses";
+import { BOSS_SECTIONS, bossSummaries, getBossSummary, loadBossGuide, peekBossGuide, type BossGuide, type BossSkill } from "../bosses";
 import { getGlossaryTerm } from "../glossary";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
 import { asset, resistanceTone } from "../lib";
@@ -20,7 +20,7 @@ export function BossIndex() {
     </header>
     <section aria-labelledby="boss-index-story">
       <header className="section-header"><h2 id="boss-index-story" className="section-title"><span className="section-title-en">STORY</span>ストーリー</h2></header>
-      <div className="boss-index-list">{bossGuides.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
+      <div className="boss-index-list">{bossSummaries.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
         <span className="boss-stage-label">{boss.stage}<small>第{boss.chapter}章</small></span>
         <span><strong>{boss.name}</strong><span className="boss-index-stage-name">{boss.stageName}</span><span className="boss-index-lead">{boss.lead}</span></span>
         <span className="boss-index-arrow" aria-hidden="true">→</span>
@@ -99,9 +99,35 @@ function SkillTabs({ boss, unitId }: { boss: BossGuide; unitId: string }) {
   </div>;
 }
 
+// ボスの詳細データ。静的 HTML の生成と最初の描画では先読みの結果を使い、画面遷移後はここで読み込む
+function useBossGuide(id: string): BossGuide | null | undefined {
+  // 読み込んだ ID と一緒に持ち、別のボスの内容が一瞬表示されないようにする
+  const [state, setState] = useState<{ id: string; boss: BossGuide | null } | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    loadBossGuide(id)
+      .catch((e: unknown) => {
+        console.error(`ボス攻略の読み込みに失敗した: ${id}`, e);
+        return null;
+      })
+      .then((boss) => {
+        if (!cancelled) setState({ id, boss });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+  return state?.id === id ? state.boss : peekBossGuide(id);
+}
+
 export default function BossPage() {
   const { id = "" } = useParams<{ id: string }>();
-  const boss = getBossGuide(id);
+  const summary = getBossSummary(id);
+  const loaded = useBossGuide(id);
+  if (summary && loaded === undefined) return <div className="container section"><h1 className="section-title">{summary.name}</h1><p className="empty">読み込み中…</p></div>;
+  // 一覧にあるのに詳細が読めないのは通信の失敗などなので、「見つからない」とは分けて伝える
+  if (summary && !loaded) return <div className="container section"><h1 className="section-title">{summary.name}</h1><p className="empty">読み込みに失敗した。ページを再読み込みする。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
+  const boss = summary ? loaded : null;
   if (!boss) return <div className="container section"><h1 className="section-title">ボス攻略が見つからない</h1><p className="empty">URLを確認するか、攻略一覧から探す。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
   const mainUnit = boss.units[0];
   const keywords = bossKeywords(boss);
