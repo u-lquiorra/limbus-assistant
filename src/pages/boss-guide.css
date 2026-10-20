@@ -73,6 +73,11 @@
 .boss-stage-label small { display: block; margin-top: 4px; color: var(--muted); font: 12px var(--sans); }
 .boss-index-link strong { font-size: 18px; }
 .boss-index-lead { display: block; max-width: 700px; margin-top: 8px; color: var(--muted); font-size: 13px; }
+.boss-stuck-link { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; padding: 16px 20px; border: 1px solid var(--line-strong); border-left: 3px solid var(--gold); text-decoration: none; }
+.boss-stuck-link > span:first-child { flex: 1; min-width: 0; }
+.boss-stuck-link strong { display: block; font-size: 15px; }
+.boss-stuck-link strong + span { display: block; margin-top: 4px; color: var(--muted); font-size: 13px; }
+.boss-stuck-link:hover strong { color: var(--gold); }
 .boss-index-note { margin-bottom: 16px; color: var(--dim); font-size: 12px; }
 .boss-chapters { margin-bottom: 28px; border-top: 1px solid var(--line); }
 .boss-chapter { border-bottom: 1px solid var(--line); scroll-margin-top: 120px; }

@@ -26,6 +26,11 @@ export function BossIndex() {
       <h1 className="persona-title">ボス攻略</h1>
       <p>負けやすい場面の対処と、敵のスキル・パッシブを確認しよう。</p>
     </header>
+    {/* どのボスにも共通する基本なので、個別の攻略より先に目に入る位置に置く */}
+    <Link className="boss-stuck-link" to="/beginner#stuck">
+      <span><strong>まず確認：戦闘に詰まったときの基本</strong><span>負けた原因を一つずつ見て、育成か操作かを切り分ける。</span></span>
+      <span className="boss-index-arrow" aria-hidden="true">→</span>
+    </Link>
     <section aria-labelledby="boss-index-story">
       <header className="section-header"><h2 id="boss-index-story" className="section-title"><span className="section-title-en">STORY</span>ストーリー</h2></header>
       {/* 先の章のネタバレを避けるため、章は閉じた状態で出し、一覧ではボス名を出さずステージ名で示す */}
@@ -39,7 +44,6 @@ export function BossIndex() {
         </Link>)}</div>
       </details>)}</div>
     </section>
-    <Link className="back-link" to="/beginner#stuck">戦闘に詰まったときの基本を読む →</Link>
   </div>;
 }
 
