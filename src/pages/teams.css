@@ -382,6 +382,17 @@
   gap: 8px;
 }
 
+/* キーワードと特性キーワードの2段。それぞれに見出しを付けて並べる */
+.keyword-filter-group + .keyword-filter-group {
+  margin-top: 16px;
+}
+
+.keyword-filter-group-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .keyword-filter-chip,
 .keyword-filter-clear {
   display: inline-flex;

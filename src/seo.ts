@@ -59,7 +59,7 @@ const STATIC_PAGES: Record<string, PageMeta> = {
   },
   "/keywords": {
     title: withSite("キーワード別人格一覧｜火傷・出血・破裂など"),
-    description: "リンバス(Limbus Company)の人格を、火傷・出血・振動・破裂・沈潜・呼吸・充電のキーワード別にまとめた一覧。編成の候補探しに使える。",
+    description: "リンバス(Limbus Company)の人格を、火傷・出血・振動・破裂・沈潜・呼吸・充電のキーワード別にまとめた一覧。蜘蛛の巣・剣契などの特性キーワードとの組み合わせでも絞り込める。編成の候補探しに使える。",
   },
   "/beginner": {
     title: withSite("初心者ガイド"),

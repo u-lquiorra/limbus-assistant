@@ -3,11 +3,12 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { PersonaRow } from "../components/TeamLinks";
-import { getPersona, getTeam, keywordPersonas, loadGuide, peekGuide, personasWithAllKeywords } from "../data/loader";
+import { getPersona, getTeam, keywordPersonas, loadGuide, peekGuide } from "../data/loader";
 import { getGlossaryTerm } from "../glossary";
 import { guideSummary } from "../guide";
 import { asset } from "../lib";
 import { KEYWORD_PAGES, formatKeywordFilter, getKeywordPage, keywordFilterPath, parseKeywordFilter, type KeywordPage as KeywordPageDef } from "../keywordPages";
+import { TRAIT_FILTERS, formatTraitFilter, parseTraitFilter, personasMatching } from "../traitFilters";
 import type { PersonaStatus } from "../types";
 import "./teams.css";
 
@@ -52,68 +53,108 @@ function useSummaries(codes: string[]): Record<string, string | undefined> {
 }
 
 /**
- * キーワードを複数選び、全てを持つ人格だけに絞り込む(AND)。
- * ゲーム内のソートは OR で、複合キーワードの編成(鏡ダンジョンなど)の候補を探しにくいため。
- * 選択は URL(?kw=burn,bleed)に持ち、共有や戻る操作でも保つ
+ * キーワードと特性キーワード(所属・組織)を複数選び、全てを持つ人格だけに絞り込む(AND)。
+ * ゲーム内のソートは OR で、複合キーワードの編成(鏡ダンジョンなど)や、
+ * 「蜘蛛の巣所属の味方」のような所属条件を持つパッシブの相方を探しにくいため。
+ * 選択は URL(?kw=burn,bleed&trait=蜘蛛の巣)に持ち、共有や戻る操作でも保つ
  */
 function KeywordFilter() {
   const [searchParams, setSearchParams] = useSearchParams();
   const selected = parseKeywordFilter(searchParams.get("kw"));
   const keywords = selected.map((p) => p.keyword);
-  const results = personasWithAllKeywords(keywords);
+  const traits = parseTraitFilter(searchParams.get("trait"));
+  const results = personasMatching(keywords, traits);
+  const conditions = [...keywords, ...traits];
 
-  const update = (pages: KeywordPageDef[]) => {
-    const value = formatKeywordFilter(pages);
+  const setParam = (name: string, value: string) => {
     setSearchParams(
       (prev) => {
         const next = new URLSearchParams(prev);
-        if (value) next.set("kw", value);
-        else next.delete("kw");
+        if (value) next.set(name, value);
+        else next.delete(name);
         return next;
       },
       { replace: true, preventScrollReset: true }
     );
   };
   const toggle = (page: KeywordPageDef) =>
-    update(selected.includes(page) ? selected.filter((p) => p !== page) : [...selected, page]);
+    setParam("kw", formatKeywordFilter(selected.includes(page) ? selected.filter((p) => p !== page) : [...selected, page]));
+  const toggleTrait = (trait: string) =>
+    setParam("trait", formatTraitFilter(traits.includes(trait) ? traits.filter((t) => t !== trait) : [...traits, trait]));
+  const clear = () =>
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        next.delete("kw");
+        next.delete("trait");
+        return next;
+      },
+      { replace: true, preventScrollReset: true }
+    );
 
   return (
     <section className="keyword-filter" aria-labelledby="keyword-filter-title">
       <header className="section-header">
         <h2 id="keyword-filter-title" className="section-title">
           <span className="section-title-en">FILTER</span>
-          キーワードを組み合わせて絞り込む
+          キーワード・特性キーワードを組み合わせて絞り込む
         </h2>
       </header>
-      <p className="keyword-filter-lead">複数選ぶと、選んだキーワードを全て持つ人格だけを出す。数字は、そのキーワードを足したときの人格数。</p>
-      <div className="keyword-filter-chips" role="group" aria-label="絞り込むキーワード">
-        {KEYWORD_PAGES.map((p) => {
-          const pressed = selected.includes(p);
-          // 押したときの件数を先に見せ、0件になる組み合わせを選ぶ前に分かるようにする
-          const count = pressed ? results.length : personasWithAllKeywords([...keywords, p.keyword]).length;
-          return (
-            <button
-              key={p.id}
-              type="button"
-              className="keyword-filter-chip"
-              aria-pressed={pressed}
-              onClick={() => toggle(p)}
-            >
-              {p.keyword}
-              <span className="keyword-filter-count">{count}</span>
-            </button>
-          );
-        })}
-        {selected.length > 0 && (
-          <button type="button" className="keyword-filter-clear" onClick={() => update([])}>
-            選択を解除
-          </button>
-        )}
+      <p className="keyword-filter-lead">
+        複数選ぶと、選んだ条件を全て持つ人格だけを出す。数字は、その条件を足したときの人格数。特性キーワードは、パッシブなどで「〇〇所属」として条件に使われるものを並べた。
+      </p>
+      <div className="keyword-filter-group">
+        <p className="keyword-filter-group-label">キーワード</p>
+        <div className="keyword-filter-chips" role="group" aria-label="絞り込むキーワード">
+          {KEYWORD_PAGES.map((p) => {
+            const pressed = selected.includes(p);
+            // 押したときの件数を先に見せ、0件になる組み合わせを選ぶ前に分かるようにする
+            const count = pressed ? results.length : personasMatching([...keywords, p.keyword], traits).length;
+            return (
+              <button
+                key={p.id}
+                type="button"
+                className="keyword-filter-chip"
+                aria-pressed={pressed}
+                onClick={() => toggle(p)}
+              >
+                {p.keyword}
+                <span className="keyword-filter-count">{count}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
-      {selected.length > 0 && (
+      <div className="keyword-filter-group">
+        <p className="keyword-filter-group-label">特性キーワード</p>
+        <div className="keyword-filter-chips" role="group" aria-label="絞り込む特性キーワード">
+          {TRAIT_FILTERS.map((trait) => {
+            const pressed = traits.includes(trait);
+            const count = pressed ? results.length : personasMatching(keywords, [...traits, trait]).length;
+            return (
+              <button
+                key={trait}
+                type="button"
+                className="keyword-filter-chip"
+                aria-pressed={pressed}
+                onClick={() => toggleTrait(trait)}
+              >
+                {trait}
+                <span className="keyword-filter-count">{count}</span>
+              </button>
+            );
+          })}
+          {conditions.length > 0 && (
+            <button type="button" className="keyword-filter-clear" onClick={clear}>
+              選択を解除
+            </button>
+          )}
+        </div>
+      </div>
+      {conditions.length > 0 && (
         <div className="keyword-filter-results" aria-live="polite">
           <p className="keyword-filter-summary">
-            {keywords.join("＋")}を{keywords.length > 1 ? "全て" : ""}持つ人格：<strong>{results.length}人格</strong>
+            {conditions.join("＋")}{conditions.length > 1 ? "を全て満たす" : "の"}人格：<strong>{results.length}人格</strong>
           </p>
           {results.length > 0 ? (
             <ul className="team-members team-members-compact">
@@ -122,7 +163,7 @@ function KeywordFilter() {
               ))}
             </ul>
           ) : (
-            <p className="empty">該当する人格はいない。キーワードを減らす。</p>
+            <p className="empty">該当する人格はいない。条件を減らす。</p>
           )}
         </div>
       )}
@@ -143,7 +184,7 @@ export function KeywordIndex() {
         <span className="section-count">{KEYWORD_PAGES.length}キーワード</span>
       </header>
       <p className="team-lead">
-        火傷・出血・振動・破裂・沈潜・呼吸・充電の7つのキーワードごとに、そのキーワードを持つ人格をまとめた。編成を組むときの候補探しに使う。
+        火傷・出血・振動・破裂・沈潜・呼吸・充電の7つのキーワードごとに、そのキーワードを持つ人格をまとめた。蜘蛛の巣・剣契などの特性キーワードと組み合わせた絞り込みもできる。編成を組むときの候補探しに使う。
       </p>
       <KeywordFilter />
       <div className="team-grid">

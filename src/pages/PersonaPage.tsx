@@ -4,6 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { getPersona, keywordsOfPersona, loadEgoSynergies, loadGuide, loadPersonaDetail, peekEgoSynergies, peekGuide, peekPersonaDetail, teamsForPersona } from "../data/loader";
 import { keywordFilterPath } from "../keywordPages";
+import { TRAIT_FILTERS, traitFilterPath } from "../traitFilters";
 import { supportPassivesPath } from "../supportPassives";
 import TeamLinks from "../components/TeamLinks";
 import { guideKeywords, type Guide, type InlineSegment } from "../guide";
@@ -382,16 +383,26 @@ export default function PersonaPage() {
               <Link to={charPath} className="tag tag-link">
                 {character.name}
               </Link>
-              {status.affiliation && (
-                <span className="tag">
-                  {status.affiliation.name}
-                </span>
+              {/* 所属条件に使われる特性キーワードは、その所属の人格の絞り込みへのリンクにする */}
+              {status.affiliation &&
+                (TRAIT_FILTERS.includes(status.affiliation.name) ? (
+                  <Link to={traitFilterPath([status.affiliation.name])} className="tag tag-link">
+                    {status.affiliation.name}
+                  </Link>
+                ) : (
+                  <span className="tag">{status.affiliation.name}</span>
+                ))}
+              {keywords.map((k) =>
+                TRAIT_FILTERS.includes(k) ? (
+                  <Link key={k} to={traitFilterPath([k])} className="tag tag-link">
+                    {k}
+                  </Link>
+                ) : (
+                  <span key={k} className="tag tag-muted">
+                    {k}
+                  </span>
+                )
               )}
-              {keywords.map((k) => (
-                <span key={k} className="tag tag-muted">
-                  {k}
-                </span>
-              ))}
               {/* 公式キーワード(対応キーワード表)を選んだ状態で、キーワードの絞り込みを開く */}
               {officialKeywords.length > 0 && (
                 <Link to={keywordFilterPath(officialKeywords)} className="tag tag-link">

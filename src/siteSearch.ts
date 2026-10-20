@@ -5,6 +5,7 @@ import personaKeywords from "./data/persona-keywords.json";
 import { bossSummaries } from "./bosses";
 import { glossaryTerms } from "./glossary";
 import { KEYWORD_PAGES } from "./keywordPages";
+import { TRAIT_FILTERS, personasMatching, traitFilterPath } from "./traitFilters";
 import type { SearchEntry } from "./search";
 
 const keywordsByCode = personaKeywords as Record<string, { keywords: string[] }>;
@@ -28,9 +29,9 @@ const GUIDE_ENTRIES: SearchEntry[] = [
   {
     kind: "guide",
     title: "キーワード別人格一覧",
-    sub: "複数キーワードの組み合わせで絞り込み",
+    sub: "複数キーワード・所属の組み合わせで絞り込み",
     to: "/keywords",
-    terms: ["キーワード", "絞り込み", "組み合わせ", "複合", "一覧", "人格"],
+    terms: ["キーワード", "絞り込み", "組み合わせ", "複合", "一覧", "人格", "所属", "特性"],
   },
   {
     kind: "guide",
@@ -114,7 +115,16 @@ function buildEntries(): SearchEntry[] {
     terms: [p.keyword, "キーワード", "一覧"],
   }));
 
-  return [...GUIDE_ENTRIES, ...keywordEntries, ...sinners, ...personas, ...egos, ...teamEntries, ...bosses, ...glossary];
+  // 所属(特性キーワード)は一覧ページを持たないため、その所属を選んだ状態の絞り込みを開く
+  const traitEntries: SearchEntry[] = TRAIT_FILTERS.map((trait) => ({
+    kind: "guide",
+    title: `${trait}所属の人格`,
+    sub: `キーワード別人格一覧で絞り込み・${personasMatching([], [trait]).length}人格`,
+    to: traitFilterPath([trait]),
+    terms: [trait, "所属"],
+  }));
+
+  return [...GUIDE_ENTRIES, ...keywordEntries, ...traitEntries, ...sinners, ...personas, ...egos, ...teamEntries, ...bosses, ...glossary];
 }
 
 let cache: SearchEntry[] | undefined;

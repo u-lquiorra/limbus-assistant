@@ -29,7 +29,7 @@ const HOME_STEPS = [
     to: "/keywords",
     kicker: "KEYWORDS",
     title: "キーワード別人格一覧",
-    description: "火傷＋出血など、選んだキーワードを全て持つ人格に絞り込む。",
+    description: "火傷＋出血、出血＋蜘蛛の巣など、選んだキーワード・特性キーワードを全て持つ人格に絞り込む。",
   },
   {
     to: "/egos",
