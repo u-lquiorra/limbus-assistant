@@ -16,6 +16,8 @@ interface ServerEntry {
   prerenderRoutes(): string[];
   logoSvg(): string;
   structuredDataTags(pathname: string, ogImage: string): string;
+  lastModified(pathname: string): string | undefined;
+  pageImage(pathname: string): string | undefined;
   SITE_URL: string;
 }
 
@@ -55,9 +57,41 @@ const ogImageUrl = `${entry.SITE_URL}/${OG_IMAGE}`;
 const escapeHtml = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-function headTags(pathname: string): { title: string; tags: string } {
+interface OgImage {
+  url: string;
+  width: number;
+  height: number;
+  /** 正方形に近い画像は大きいカードだと切れるため、小さいカード(summary)で出す */
+  card: "summary" | "summary_large_image";
+}
+
+const imageSizes = new Map<string, { width: number; height: number } | null>();
+
+/** ページ固有の画像(人格・E.G.O・ボス)があればそれを、無ければサイト共通の OGP 画像を使う */
+async function ogImageFor(pathname: string): Promise<OgImage> {
+  const path = entry.pageImage(pathname);
+  if (path) {
+    if (!imageSizes.has(path)) {
+      // 画像が無い・読めない場合は共通画像に戻す(原因はログに残す)
+      const size = await sharp(join(dist, path))
+        .metadata()
+        .then((m) => (m.width && m.height ? { width: m.width, height: m.height } : null))
+        .catch((e: unknown) => {
+          console.error(`OGP 画像を読めない: ${path}`, e);
+          return null;
+        });
+      imageSizes.set(path, size);
+    }
+    const size = imageSizes.get(path);
+    if (size) return { url: `${entry.SITE_URL}/${path}`, ...size, card: "summary" };
+  }
+  return { url: ogImageUrl, width: OG_W, height: OG_H, card: "summary_large_image" };
+}
+
+async function headTags(pathname: string): Promise<{ title: string; tags: string }> {
   const meta = entry.pageMeta(pathname);
   const url = entry.canonicalUrl(pathname);
+  const image = await ogImageFor(pathname);
   const tags = [
     `<meta name="description" content="${escapeHtml(meta.description)}" />`,
     `<meta name="robots" content="${meta.noindex ? "noindex" : "index,follow"}" />`,
@@ -67,12 +101,12 @@ function headTags(pathname: string): { title: string; tags: string } {
     `<meta property="og:title" content="${escapeHtml(meta.title)}" />`,
     `<meta property="og:description" content="${escapeHtml(meta.description)}" />`,
     `<meta property="og:url" content="${escapeHtml(url)}" />`,
-    `<meta property="og:image" content="${ogImageUrl}" />`,
-    `<meta property="og:image:width" content="${OG_W}" />`,
-    `<meta property="og:image:height" content="${OG_H}" />`,
-    `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta property="og:image" content="${escapeHtml(image.url)}" />`,
+    `<meta property="og:image:width" content="${image.width}" />`,
+    `<meta property="og:image:height" content="${image.height}" />`,
+    `<meta name="twitter:card" content="${image.card}" />`,
     // 構造化データ。ガイドの更新日を先読み結果から取るため、render の後に呼ぶこと
-    entry.structuredDataTags(pathname, ogImageUrl),
+    entry.structuredDataTags(pathname, image.url),
   ]
     .filter(Boolean)
     .join("\n    ");
@@ -93,11 +127,15 @@ function fill(html: string, body: string, title: string, tags: string, pathname 
 }
 
 const routes = entry.prerenderRoutes();
+// sitemap の lastmod。ガイドの更新日は先読みの後に分かるため、各ページの生成時に集める
+const lastmods = new Map<string, string>();
 let failed = 0;
 for (const pathname of routes) {
   try {
     const body = await entry.render(pathname);
-    const { title, tags } = headTags(pathname);
+    const { title, tags } = await headTags(pathname);
+    const lastmod = entry.lastModified(pathname);
+    if (lastmod) lastmods.set(pathname, lastmod);
     // /persona/1001 → dist/persona/1001/index.html(GitHub Pages はディレクトリの index.html を返す)
     const dir = join(dist, ...decodeURIComponent(pathname).split("/").filter(Boolean));
     await mkdir(dir, { recursive: true });
@@ -110,14 +148,17 @@ for (const pathname of routes) {
 }
 
 // 存在しないパス用。本文は空にして、ブラウザ側の描画で「見つからない」を出す
-const notFound = headTags("/__not-found__");
+const notFound = await headTags("/__not-found__");
 await writeFile(join(dist, "404.html"), fill(template, "", notFound.title, notFound.tags));
 
 const indexable = routes.filter((p) => !entry.pageMeta(p).noindex);
 const sitemap = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...indexable.map((p) => `  <url><loc>${escapeHtml(entry.canonicalUrl(p))}</loc></url>`),
+  ...indexable.map((p) => {
+    const lastmod = lastmods.get(p);
+    return `  <url><loc>${escapeHtml(entry.canonicalUrl(p))}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</url>`;
+  }),
   "</urlset>",
   "",
 ].join("\n");

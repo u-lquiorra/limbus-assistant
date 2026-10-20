@@ -9,7 +9,7 @@ import { peekEgoGuide, peekGuide, peekTeamGuide } from "./data/loader";
 import { structuredData } from "./seo";
 import { jsonLdScript } from "./jsonLd";
 
-export { canonicalUrl, pageMeta, prerenderRoutes, SITE_URL } from "./seo";
+export { canonicalUrl, lastModified, pageImage, pageMeta, prerenderRoutes, SITE_URL } from "./seo";
 
 /** ページの構造化データを <script> タグの文字列で返す。render の後に呼ぶ(ガイドの更新日を先読み結果から取るため) */
 export function structuredDataTags(pathname: string, ogImage: string): string {

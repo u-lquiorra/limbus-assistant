@@ -291,3 +291,41 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
   }
   return result;
 }
+
+// ---- sitemap の更新日・ページごとの OGP 画像 ----
+
+/**
+ * ページの更新日(YYYY-MM-DD)。ガイドの updated、ボス攻略・用語の確認日から取る。
+ * ガイドは先読み後に分かるため、静的 HTML の生成では render の後に呼ぶ
+ */
+export function lastModified(pathname: string): string | undefined {
+  const [, kind, raw] = pathname.split("/");
+  const id = raw ? decodeURIComponent(raw) : "";
+  const date =
+    kind === "persona" ? peekGuide(id)?.meta.updated
+    : kind === "ego" ? peekEgoGuide(id)?.meta.updated
+    : kind === "teams" && id ? peekTeamGuide(id)?.meta.updated
+    : kind === "bosses" && id ? getBossGuide(id)?.checkedAt
+    : kind === "glossary" && id ? getGlossaryTerm(id)?.checkedAt
+    : undefined;
+  return date && /^\d{4}-\d{2}-\d{2}$/.test(date) ? date : undefined;
+}
+
+/**
+ * SNS で共有したときに出す、ページ固有の画像の public/ からのパス。無いページはサイト共通の OGP 画像を使う。
+ * 画像の大きさはファイルごとに違うため、静的 HTML の生成時に実測する
+ */
+export function pageImage(pathname: string): string | undefined {
+  const [, kind, raw] = pathname.split("/");
+  const id = raw ? decodeURIComponent(raw) : "";
+  if (kind === "persona") {
+    return getPersona(id)?.status.image;
+  }
+  if (kind === "ego") {
+    return getEgo(id)?.ego.image;
+  }
+  if (kind === "bosses" && id) {
+    return getBossGuide(id)?.units.find((u) => u.image)?.image?.path;
+  }
+  return undefined;
+}
