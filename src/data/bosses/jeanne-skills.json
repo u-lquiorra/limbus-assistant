@@ -1,0 +1,646 @@
+[
+  {
+    "id": "jeanne-one-1",
+    "unit": "jeanne-one",
+    "name": "裁断の釘の準備",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]自分の漂流慣性回数が3増加",
+      "[使用時]自分の呼吸回数が2増加",
+      "Ⅰ[的中時]沈潜1を付与",
+      "Ⅱ[的中時]次のターンに束縛1を付与"
+    ],
+    "levelUnknown": true
+  },
+  {
+    "id": "jeanne-one-2",
+    "unit": "jeanne-one",
+    "name": "パターンと設計",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]自分の漂流慣性回数が3増加",
+      "[使用時]自分の呼吸回数が2増加",
+      "[マッチ敗北]ダメージ量-80％,このスキルのダメージで対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "[的中時]沈潜回数が1増加",
+      "Ⅱ破壊不能コイン",
+      "[破壊されずに的中時]次のターンにダメージ量減少1を付与"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "jeanne-one-3",
+    "unit": "jeanne-one",
+    "name": "視点固定",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 3,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]自分の漂流慣性回数を全て消耗し、消耗した回数3につきダメージ量+25％(最大50％)",
+      "[使用時]自分の漂流慣性回数が3増加",
+      "[使用時]自分の呼吸回数が2増加",
+      "[マッチ敗北]ダメージ量-80％,このスキルのダメージで対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "[破壊されずに的中時]このターンと次のターンに貫通耐性弱化1を付与",
+      "Ⅱ破壊不能コイン",
+      "[的中時]沈潜回数が1増加",
+      "Ⅲ破壊不能コイン",
+      "[的中時]沈潜1を付与",
+      "Ⅳ破壊不能コイン",
+      "[破壊されずに的中時]このコインの最終ダメージ量の(対象のマイナス効果の種類数×15)％だけ貫通ダメージ(最大45％)"
+    ],
+    "unbreakableCoins": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "jeanne-one-4",
+    "unit": "jeanne-one",
+    "name": "観点どおりに",
+    "sin": "怠惰",
+    "type": "回避",
+    "base": 10,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]自分の漂流慣性回数2につき最終威力+1(最大5)",
+      "[回避成功時]自分の最大体力の2％だけ回復"
+    ]
+  },
+  {
+    "id": "jeanne-one-4-capture",
+    "unit": "jeanne-one",
+    "name": "捕捉",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[敵味方識別不可]",
+      "[マッチ不可]",
+      "[対象変更不可]",
+      "味方を優先して指定",
+      "守備スキルを発動させない",
+      "[的中時]対象が味方なら、",
+      "ｰ対象を倒す",
+      "-釘付けを得る",
+      "-ターン終了時に1減少(この効果を得たターンには減少しない)を得る"
+    ],
+    "levelUnknown": true,
+    "label": "マッチ不可・対象変更不可・守備発動不可・敵味方識別不可"
+  },
+  {
+    "id": "early-blueprint-1",
+    "unit": "early-blueprint",
+    "name": "百貨店の設計図",
+    "sin": "怠惰",
+    "type": "防御",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]スキルによる被ダメージ量-90％(1ターンにつき1回)"
+    ],
+    "levelUnknown": true
+  },
+  {
+    "id": "jeanne-two-1",
+    "unit": "jeanne-two",
+    "name": "プルミエ・ステップ",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用前]マッチを指定したムルソーのスキルがスキル1でなければ、「パターンどおりにしなきゃ。」に変更される",
+      "[マッチ勝利時]このスキルを終了し、対象に「一緒にカフェで話した頃を思い出すわ」を使用"
+    ],
+    "levelUnknown": true
+  },
+  {
+    "id": "jeanne-two-2",
+    "unit": "jeanne-two",
+    "name": "ドゥジエム・マルシュ",
+    "sin": "怠惰",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 6,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用前]マッチを指定したムルソーのスキルがスキル2でなければ、「パターンどおりにしなきゃ。」に変更される",
+      "[マッチ勝利時]このスキルを終了し、対象に「一緒にカフェで話した頃を思い出すわ」を使用"
+    ],
+    "levelUnknown": true
+  },
+  {
+    "id": "jeanne-two-3",
+    "unit": "jeanne-two",
+    "name": "トロワジエム・ステージ",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用前]マッチを指定したムルソーのスキルがスキル3またはE.G.Oスキルでなければ、「パターンどおりにしなきゃ。」に変更される",
+      "[マッチ勝利時]このスキルを終了し、対象に「一緒にカフェで話した頃を思い出すわ」を使用"
+    ],
+    "levelUnknown": true
+  },
+  {
+    "id": "jeanne-two-4",
+    "unit": "jeanne-two",
+    "name": "パターンどおりにしなきゃ。",
+    "sin": "色欲",
+    "type": "打",
+    "base": 8,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "このスキルは常にクリティカルで発動する",
+      "[マッチ開始時]対象のコインの裏面確率を100％に固定",
+      "-減算コインなら、表面に固定",
+      "Ⅰ[的中時]自分のパトス-デジール・デートル(désir d'être)が3増加",
+      "Ⅱ[的中時]自分のパトス-デジール・デートル(désir d'être)が3増加"
+    ]
+  },
+  {
+    "id": "jeanne-two-5",
+    "unit": "jeanne-two",
+    "name": "一緒にカフェで話した頃を思い出すわ",
+    "sin": "暴食",
+    "type": "打",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ不可]",
+      "このスキルには下記の効果が適用される",
+      "-守備スキルを発動させない",
+      "-攻撃が的中しない",
+      "[使用時]自分と対象のパトス-デジール・デートル(désir d'être)とロゴス - マンク・デートル(manque d'être)をそれぞれ5ずつ増加"
+    ],
+    "levelUnknown": true,
+    "label": "マッチ不可・守備発動不可"
+  },
+  {
+    "id": "jeanne-two-6",
+    "unit": "jeanne-two",
+    "name": "ちょっとした喧嘩もあったわね。",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 12,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[回避成功時]自分と対象のパトス-デジール・デートル(désir d'être)とロゴス - マンク・デートル(manque d'être)をそれぞれ4ずつ増加"
+    ],
+    "levelUnknown": true,
+    "powerUnknown": true
+  },
+  {
+    "id": "jeanne-three-1",
+    "unit": "jeanne-three",
+    "name": "権限:遮断",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 7,
+    "coinPower": 7,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[攻撃後]次のターンにデゼスポワール(désespoir)1を付与",
+      "Ⅰ破壊不能コイン",
+      "破壊されていないコインなら、ダメージ量+20％",
+      "[破壊されずに的中時]脆弱1を付与"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1
+    ],
+    "label": "第3段階の付与技・特殊技"
+  },
+  {
+    "id": "jeanne-three-2",
+    "unit": "jeanne-three",
+    "name": "この舞台だけは、全てが決まっているの。",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[使用前]マッチを指定した対象がムルソーでない場合、またはこのスキルで一方攻撃を行う場合、「意図したパターンどおりにしなかったじゃない。」に変更される",
+      "[マッチ敗北]ムルソーのロゴス - マンク・デートル(manque d'être)が10増加"
+    ],
+    "levelUnknown": true,
+    "label": "第3段階の付与技・特殊技"
+  },
+  {
+    "id": "jeanne-three-3",
+    "unit": "jeanne-three",
+    "name": "意図したパターン通りにしなかったじゃない。",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "このスキルは常にクリティカルで発動する",
+      "[マッチ開始時]対象のコインの裏面確率を100％に固定",
+      "-減算コインなら、表面に固定",
+      "[攻撃後]最大体力の50％だけ回復",
+      "Ⅰ破壊不能コイン",
+      "Ⅱ破壊不能コイン"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1,
+      2
+    ],
+    "label": "第3段階の付与技・特殊技"
+  },
+  {
+    "id": "jeanne-three-4",
+    "unit": "jeanne-three",
+    "name": "ここまでが設計よ。",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 10,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の特殊充電回数2につき最終威力+1(最大5)"
+    ],
+    "levelUnknown": true,
+    "label": "第3段階の付与技・特殊技"
+  },
+  {
+    "id": "jeanne-three-5",
+    "unit": "jeanne-three",
+    "name": "権限:視線",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 9,
+    "coinPower": 7,
+    "coins": 2,
+    "weight": 3,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]自分の特殊充電の(威力+回数)の合計4につき最終威力+1(最大3)",
+      "[使用時]全対象のマイナス効果の合計2種につきダメージ量+10％(最大50%,対象ごとに重複する効果は別々に扱う)",
+      "[マッチ勝利時]次のターンにデゼスポワール(désespoir)1を付与",
+      "[マッチ敗北]ダメージ量-80％,このスキルのダメージで対象が混乱しない",
+      "Ⅰ破壊不能コイン",
+      "破壊されていないコインなら、ダメージ量+50％",
+      "[破壊されずに的中時]次のターンにダメージ減少2を付与",
+      "Ⅱ破壊不能コイン",
+      "破壊されていないコインなら,ダメージ量+50％",
+      "[破壊されずに的中時]次のターンに束縛2付与"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1,
+      2
+    ],
+    "label": "第3段階の付与技・特殊技"
+  },
+  {
+    "id": "jeanne-three-6",
+    "unit": "jeanne-three",
+    "name": "権限:再構築",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 24,
+    "coinPower": 24,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[対象変更不可]",
+      "対象の守備スキルを発動させない",
+      "メインターゲットをムルソーに指定",
+      "[マッチ開始時]自分のコインの表面確率を100％に固定",
+      "Ⅰ破壊不能コイン",
+      "[的中時]ターゲットが死亡"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1
+    ],
+    "label": "対象変更不可・守備発動不可・第3段階の付与技・特殊技"
+  },
+  {
+    "id": "blueprint-noir-1",
+    "unit": "blueprint-noir",
+    "name": "裁断:保存せよ",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 7,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]自分の保存回数が5増加",
+      "-対象に振動があれば、さらに5増加",
+      "Ⅰ[的中時]振動3を付与"
+    ]
+  },
+  {
+    "id": "blueprint-noir-2",
+    "unit": "blueprint-noir",
+    "name": "裁断:黙示せよ",
+    "sin": "暴食",
+    "type": "打",
+    "base": 6,
+    "coinPower": 6,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]自分の保存回数が5増加",
+      "-対象に振動があれば、さらに5増加",
+      "[使用時]自分の保存回数2につき最終威力+1(最大2)",
+      "[使用時]自分の保存回数が10以上なら、コイン的中ごとに振動威力5を付与",
+      "Ⅰ[的中時]振動回数が3増加",
+      "Ⅱ[的中時]振動爆発。対象の振動回数が1減少"
+    ]
+  },
+  {
+    "id": "blueprint-noir-3",
+    "unit": "blueprint-noir",
+    "name": "裁断:固定せよ",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 7,
+    "coinPower": 9,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "自分の保存につきダメージ量+4%(最大20％)",
+      "[使用時]自分の保存回数を全て消耗し、消耗した回数２につき最終威力+1(最大3)",
+      "-消耗した値が10以上なら、コイン的中ごとに振動威力5を付与",
+      "Ⅰ[的中時]振動回数が3増加",
+      "Ⅱ[的中時]このコインの最終ダメージ量の(対象の振動威力)％だけ怠惰ダメージ"
+    ]
+  },
+  {
+    "id": "blueprint-noir-4",
+    "unit": "blueprint-noir",
+    "name": "裁断:釘刺されよ",
+    "sin": "嫉妬",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[戦闘開始時]このターンと次のターンの間、自分の最大体力の25％だけバリアを得る(最小1)",
+      "-自分の保存が2以上なら、代わりに40％得る"
+    ]
+  },
+  {
+    "id": "blueprint-rouge-1",
+    "unit": "blueprint-rouge",
+    "name": "パターン:欲望せよ",
+    "sin": "嫉妬",
+    "type": "貫",
+    "base": 7,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]自分の脈動回数が最大でなければ、自分の体力を最大値の5％消耗し、脈動回数10を得る",
+      "Ⅰ[的中時]出血3を付与"
+    ]
+  },
+  {
+    "id": "blueprint-rouge-2",
+    "unit": "blueprint-rouge",
+    "name": "パターン:纏え",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の脈動回数が最大でなければ、自分の体力を最大値の5％消耗し、脈動回数10を得る",
+      "[使用時]自分の脈動回数を5消耗して、最終威力+2",
+      "Ⅰ[的中時]出血回数が2増加",
+      "[的中時]（コイン番号未確定）出血回数が2増加"
+    ],
+    "label": "効果のコイン番号未確定"
+  },
+  {
+    "id": "blueprint-rouge-3",
+    "unit": "blueprint-rouge",
+    "name": "パターン:摂取せよ",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 7,
+    "coinPower": 9,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の失った体力2％につきダメージ量+3％(最大60％)",
+      "[使用時]自分の脈動回数を全て消耗し、消耗した回数2につき最終威力+1(最大3)",
+      "Ⅰ[的中時]色欲脆弱1を付与",
+      "Ⅱ[的中時]このコインの最終ダメージ量の(自分の失った体力の比率)%だけ色欲ダメージ"
+    ]
+  },
+  {
+    "id": "blueprint-rouge-4",
+    "unit": "blueprint-rouge",
+    "name": "パターン:掻き集めよ",
+    "sin": "嫉妬",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の最大体力の25％だけ回復",
+      "-自分の脈動が2以上なら、代わりに50％だけ回復"
+    ]
+  },
+  {
+    "id": "blueprint-noir-tailor-1",
+    "unit": "blueprint-noir",
+    "name": "この舞台だけは、全てが決まっているの。",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[使用前]マッチを指定した対象がムルソーでない場合、またはこのスキルで一方攻撃を行う場合、「意図したパターンどおりにしなかったじゃない。」に変更される",
+      "[マッチ敗北]ムルソーのロゴス - マンク・デートル(manque d'être)が10増加"
+    ],
+    "levelUnknown": true,
+    "label": "裁断士に変化中"
+  },
+  {
+    "id": "blueprint-rouge-tailor-1",
+    "unit": "blueprint-rouge",
+    "name": "この舞台だけは、全てが決まっているの。",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[使用前]マッチを指定した対象がムルソーでない場合、またはこのスキルで一方攻撃を行う場合、「意図したパターンどおりにしなかったじゃない。」に変更される",
+      "[マッチ敗北]ムルソーのロゴス - マンク・デートル(manque d'être)が10増加"
+    ],
+    "levelUnknown": true,
+    "label": "裁断士に変化中"
+  },
+  {
+    "id": "blueprint-noir-tailor-2",
+    "unit": "blueprint-noir",
+    "name": "意図したパターン通りにしなかったじゃない。",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "このスキルは常にクリティカルで発動する",
+      "[マッチ開始時]対象のコインの裏面確率を100％に固定",
+      "-減算コインなら、表面に固定",
+      "[攻撃後]最大体力の50％だけ回復",
+      "Ⅰ破壊不能コイン",
+      "Ⅱ破壊不能コイン"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1,
+      2
+    ],
+    "label": "裁断士に変化中"
+  },
+  {
+    "id": "blueprint-rouge-tailor-2",
+    "unit": "blueprint-rouge",
+    "name": "意図したパターン通りにしなかったじゃない。",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "このスキルは常にクリティカルで発動する",
+      "[マッチ開始時]対象のコインの裏面確率を100％に固定",
+      "-減算コインなら、表面に固定",
+      "[攻撃後]最大体力の50％だけ回復",
+      "Ⅰ破壊不能コイン",
+      "Ⅱ破壊不能コイン"
+    ],
+    "levelUnknown": true,
+    "unbreakableCoins": [
+      1,
+      2
+    ],
+    "label": "裁断士に変化中"
+  },
+  {
+    "id": "blueprint-noir-tailor-3",
+    "unit": "blueprint-noir",
+    "name": "ここまでが設計よ。",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 10,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の特殊充電回数2につき最終威力+1(最大5)"
+    ],
+    "levelUnknown": true,
+    "label": "裁断士に変化中"
+  },
+  {
+    "id": "blueprint-rouge-tailor-3",
+    "unit": "blueprint-rouge",
+    "name": "ここまでが設計よ。",
+    "sin": "色欲",
+    "type": "回避",
+    "base": 10,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]自分の特殊充電回数2につき最終威力+1(最大5)"
+    ],
+    "levelUnknown": true,
+    "label": "裁断士に変化中"
+  }
+]

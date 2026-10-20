@@ -117,7 +117,7 @@ export default function BossPage() {
           <h1 className="persona-title">{boss.name}</h1>
           <div className="persona-tags"><span className="tag tag-muted">{boss.stage}「{boss.stageName}」</span><span className="tag tag-muted">ストーリー攻略</span></div>
           <p className="boss-lead">{text(boss.lead)}</p>
-          <dl className="spec-list"><div><dt>HP</dt><dd>{mainUnit.hp}</dd></div><div><dt>レベル</dt><dd>{mainUnit.level}</dd></div><div><dt>速度</dt><dd>{mainUnit.speed}</dd></div><div><dt>防御Lv{mainUnit.combatLevelNote ? `（${mainUnit.combatLevelNote}）` : mainUnit.defenseLevelReduction || mainUnit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{mainUnit.defenseLevel - (mainUnit.defenseLevelReduction ?? mainUnit.skillLevelReduction ?? 0)}</dd></div><div><dt>出撃上限</dt><dd>{boss.members}名{boss.reserves ? `＋控え${boss.reserves}名` : ""}</dd></div></dl>
+          <dl className="spec-list"><div><dt>HP</dt><dd>{mainUnit.hp}</dd></div><div><dt>レベル</dt><dd>{mainUnit.level}</dd></div><div><dt>速度</dt><dd>{mainUnit.speed}</dd></div><div><dt>防御Lv{mainUnit.combatLevelNote ? `（${mainUnit.combatLevelNote}）` : mainUnit.defenseLevelReduction || mainUnit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{mainUnit.defenseLevel === null ? "不明" : mainUnit.defenseLevel - (mainUnit.defenseLevelReduction ?? mainUnit.skillLevelReduction ?? 0)}</dd></div><div><dt>出撃上限</dt><dd>{boss.members}名{boss.reserves ? `＋控え${boss.reserves}名` : ""}</dd></div></dl>
           <p className="boss-checked">資料確認日：<time dateTime={boss.checkedAt}>{boss.checkedAt}</time></p>
         </header>
       </div>
@@ -163,9 +163,14 @@ export default function BossPage() {
             <div className="boss-unit-layout">
               {unit.image && <div className="boss-unit-image persona-hero-image"><img src={asset(unit.image.path)} alt={`${unit.name}の外見`} width={unit.image.width} height={unit.image.height} loading="lazy" /></div>}
               <div className="boss-unit-info">
-                <dl className="spec-list"><div><dt>HP</dt><dd>{unit.hp}</dd></div><div><dt>レベル</dt><dd>{unit.level}</dd></div><div><dt>速度</dt><dd>{unit.speed}</dd></div><div><dt>防御Lv{unit.combatLevelNote ? `（${unit.combatLevelNote}）` : unit.defenseLevelReduction || unit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{unit.defenseLevel - (unit.defenseLevelReduction ?? unit.skillLevelReduction ?? 0)}</dd></div><div><dt>混乱区間</dt><dd>{unit.stagger}</dd></div></dl>
+                {unit.offField ? <>
+                  <p className="boss-section-intro">{decorate(unit.offField, bossKeywords(boss, unit.id), false)}</p>
+                  <dl className="spec-list"><div><dt>本体HP</dt><dd>{unit.hp}</dd></div><div><dt>レベル</dt><dd>{unit.level}</dd></div></dl>
+                </> : <>
+                <dl className="spec-list"><div><dt>HP</dt><dd>{unit.hp}</dd></div><div><dt>レベル</dt><dd>{unit.level}</dd></div><div><dt>速度</dt><dd>{unit.speed}</dd></div><div><dt>防御Lv{unit.combatLevelNote ? `（${unit.combatLevelNote}）` : unit.defenseLevelReduction || unit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{unit.defenseLevel === null ? "不明" : unit.defenseLevel - (unit.defenseLevelReduction ?? unit.skillLevelReduction ?? 0)}</dd></div><div><dt>混乱区間</dt><dd>{unit.stagger}</dd></div></dl>
                 <h4>物理耐性</h4><ResistanceList values={unit.physical} />
                 <h4>罪悪耐性</h4><ResistanceList values={Object.fromEntries(SIN_ORDER.map((sin) => [sin, unit.sins[sin]]))} />
+                </>}
               </div>
             </div>
             <ul className="boss-unit-notes">{unit.notes.map((note) => <li key={note}>{decorate(note, bossKeywords(boss, unit.id), false)}</li>)}</ul>

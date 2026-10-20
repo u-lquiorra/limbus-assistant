@@ -211,6 +211,111 @@ test("5章幻想体: 部位と本体HP・耐性の状態差・減算コインを
   assert.match(silt.mechanics.find(m => m.name === "蛍光灯の破片")!.response, /全て防ぐ効果ではない/);
 });
 
+test("10章Cジャンヌ: ワルツの番号指定・非対象の本体・設計図への技を分ける", () => {
+  const boss = getBossGuide("jeanne")!;
+  const skill = (id: string) => boss.skills.find(s => s.id === id)!;
+  assert.equal(boss.skills.length, 32);
+  assert.equal(boss.passives.length, 16);
+  assert.equal(new Set(boss.skills.map(s => s.id)).size, 32, "捕捉の重複番号をIDへ持ち込まない");
+  assert.match(skill("jeanne-two-1").effects.join(""), /スキル1でなければ/);
+  assert.match(skill("jeanne-two-2").effects.join(""), /スキル2でなければ/);
+  assert.match(skill("jeanne-two-3").effects.join(""), /スキル3またはE.G.Oスキル/);
+  assert.equal(skill("jeanne-two-6").powerUnknown, true);
+  assert.equal(skill("jeanne-one-1").levelUnknown, true);
+  assert.equal(skill("jeanne-three-1").levelUnknown, true, "設計図へ付与した際の攻撃レベルを推定しない");
+  const third = boss.units.find(u => u.id === "jeanne-three")!;
+  assert(third.offField);
+  assert.equal(third.defenseLevel, null);
+  assert(Object.values(third.physical).every(v => v === null));
+  assert(Object.values(third.sins).every(v => v === null));
+  const second = boss.units.find(u => u.id === "jeanne-two")!;
+  assert.equal(second.sins.暴食, null);
+  assert.equal(second.sins.傲慢, null);
+  assert.equal(skill("blueprint-rouge-2").coins, 1);
+  assert.match(skill("blueprint-rouge-2").label!, /コイン番号未確定/);
+  for (const unit of ["blueprint-noir", "blueprint-rouge"]) {
+    assert.match(skill(`${unit}-tailor-1`).response, /ムルソー/);
+    assert.match(skill(`${unit}-tailor-1`).response, /脆弱5/);
+  }
+  const terms = bossKeywords(boss);
+  assert.match(terms.find(t => t.term === "デゼスポワール")!.desc, /100%/);
+  assert.match(terms.find(t => t.term === "パトス")!.desc, /100で次段階/);
+  assert.match(boss.phases.find(p => p.id === "waltz")!.steps.join(""), /ダメージ無効ではない/);
+});
+
+test("10章C看守・司祭: 段階差・鼓動の一時バリア・摘出と未確定値を保持する", () => {
+  const boss = getBossGuide("warden-chaplain")!;
+  const skill = (id: string) => boss.skills.find(s => s.id === id)!;
+  assert.equal(boss.skills.length, 24);
+  assert.equal(boss.passives.length, 20);
+  assert.equal(boss.units[0].hp, "最大3660／開始1830");
+  assert.equal(boss.units.find(u => u.id === "penalty-candle")!.level, 1);
+  assert(boss.units.filter(u => u.id !== "penalty-candle").every(u => u.level === 90 && u.defenseLevel === 80));
+  assert.equal(skill("warden-one-2").powerUnknown, true);
+  assert.equal(skill("warden-two-8").powerUnknown, true);
+  assert.equal(skill("warden-two-1").base, 2, "同名の第1段階の技と混ぜない");
+  assert.equal(skill("warden-two-7").unbreakableCoins, undefined, "権能による全コイン変化を固定表示しない");
+  assert.deepEqual(skill("warden-two-10").unbreakableCoins, [1]);
+  assert.equal(skill("chaplain-8").unbreakableCoins, undefined, "摘出を通常の破壊不能アイコンにしない");
+  assert.match(skill("chaplain-8").label!, /摘出コイン/);
+  assert.equal(skill("chaplain-9").coins, 3);
+  assert.match(skill("chaplain-9").response, /ほかの味方.*生存/);
+  assert.match(skill("warden-two-9").effects.join(""), /-75%/);
+  assert.match(skill("chaplain-7").effects.join(""), /-90%/);
+  assert.match(bossKeywords(boss).find(k => k.term === "鼓動")!.desc, /250%/);
+  assert.match(bossKeywords(boss).find(k => k.term === "異邦人")!.desc, /ほかの味方が1人以上生存/);
+  const perfection = boss.passives.find(p => p.unit === "chaplain" && p.name === "完璧保存")!;
+  assert.match(perfection.effect, /保存威力が10未満/);
+  assert.match(boss.warnings.join(""), /勝率オート/);
+  assert.match(boss.phases.find(p => p.id === "reset")!.steps.join(""), /全快せずに続行/);
+});
+
+test("10章C完熟: 調整後の追撃制限・段階差・記憶と経験の区別を保持する", () => {
+  const boss = getBossGuide("red-god-ripe")!;
+  const skill = (id: string) => boss.skills.find(s => s.id === id)!;
+  assert.equal(boss.stage, "10-04");
+  assert.equal(boss.units[0].hp, "最大6000／開始3000");
+  assert.equal(boss.units[0].level, 90);
+  assert.equal(skill("red-god-ripe-6").unbreakableCoins, undefined, "記憶5未満の条件付き破壊不能を固定表示しない");
+  assert.match(skill("red-god-ripe-6").effects.join(""), /95%/);
+  assert.equal(skill("red-god-ripe-7").type, "反撃");
+  assert.equal(skill("red-god-ripe-7").attackType, "貫");
+  assert.deepEqual(skill("red-god-ripe-7").unbreakableCoins, [1, 2, 3]);
+  assert.deepEqual(skill("red-god-ripe-5").unbreakableCoins, [1], "全コインの破壊不能化には暴走が必要");
+  assert.match(skill("red-god-ripe-10").effects.join(""), /精神力が20減少/);
+  const second = skill("red-god-ripe-10-phase-two");
+  assert.match(second.effects.join(""), /スタッフ1名につき/);
+  assert.equal(second.effects.filter(e => e === "[的中時]出血1を付与").length, 2, "10/08調整後の第2・3コインの付与量");
+  assert.match(boss.passives.find(p => p.name.startsWith("ラ・モワソン"))!.effect, /1ターンにつき1回/);
+  assert.match(boss.passives.find(p => p.name.startsWith("ラ・ジュイサンス・オートル"))!.effect, /出血ダメージ/);
+  assert.equal(skill("rouge-senior-1").coins, 1, "効果番号の不一致からコインを増やさない");
+  assert.match(skill("rouge-senior-1").label!, /コイン番号未確定/);
+  const terms = bossKeywords(boss);
+  assert.match(terms.find(t => t.term === "デガジェ")!.desc, /出血がなければ/);
+  assert.match(terms.find(t => t.term === "ル・モワ")!.desc, /パニック変更不可/);
+  assert.match(terms.find(t => t.term === "ラ・ジュイサンス")!.desc, /第1段階/);
+  assert.match(terms.find(t => t.term === "ラ・ジュイサンス")!.desc, /第2段階/);
+  assert.match(terms.find(t => t.term === "プイとの経験")!.desc, /75%/);
+  assert.match(terms.find(t => t.term === "プイの記憶")!.desc, /基本攻撃・防御レベル/);
+  assert.match(boss.phases.find(p => p.id === "finish")!.steps.join(""), /次のターン.*終了で勝利/);
+});
+
+test("10章Aスーシェフ: 初戦の終了条件と二種の広域・条件付き破壊不能を分ける", () => {
+  const boss = getBossGuide("sous-chef")!;
+  assert.deepEqual(boss.units.map(u => [u.level, u.hp, u.defenseLevel]), [[35, "1523", 46], [35, "93", 47]]);
+  assert(!boss.passives.some(p => p.name.includes("陽射し")), "Bルート限定の強化を混ぜない");
+  assert.match(boss.passives.find(p => p.name === "逃げるんですよ！")!.effect, /30%未満/);
+  const signature = boss.skills.find(s => s.id === "sous-chef-4")!;
+  const hunger = boss.skills.find(s => s.id === "sous-chef-9")!;
+  assert.deepEqual(signature.unbreakableCoins, [1, 2, 3, 4]);
+  assert.deepEqual(hunger.unbreakableCoins, [1, 2, 3]);
+  assert(signature.effects.some(e => e.includes("80%減少")));
+  assert(!hunger.effects.some(e => e.includes("80%減少")));
+  assert.match(boss.skills.find(s => s.id === "sous-chef-5")!.label!, /マッチ不可/);
+  assert.equal(boss.skills.find(s => s.id === "leather-wallet-3")!.unbreakableCoins, undefined, "元気3以上の条件を固定アイコンにしない");
+  assert.match(bossKeywords(boss).find(k => k.term === "釘刺す者")!.desc, /ターン開始時にほかの味方/);
+});
+
 test("10章A: 接客条件・連戦・条件付き覚醒とBルートの強化を区別する", () => {
   const gustave = getBossGuide("gustave")!;
   const fourleg = getBossGuide("fourleg")!;
@@ -482,6 +587,20 @@ test("追加ボス: 別形態を分け、全使用者のスキル・パッシブ
   const ricardo = getBossGuide("ricardo")!;
   assert.equal(typeof ricardo.units[0].level, "string", "不明の敵レベルを確定値にしない");
   assert(ricardo.skills.filter((skill) => skill.unit === "ricardo").every((skill) => skill.level !== undefined));
+});
+
+test("裁縫の王: Aルートの個体と針っ子を区別し、条件付き破壊不能を固定表示しない", () => {
+  const boss = getBossGuide("sewing-king")!;
+  assert.equal(boss.units[0].hp, "1812");
+  assert(boss.units.slice(1).every(unit => unit.hp === "85" && unit.level === 35));
+  assert(!boss.passives.some(passive => /Bルート|陽射し|聞こえる/.test(passive.name)));
+  assert(boss.passives.some(passive => passive.unit === "weft-needle" && passive.name === "裁縫"));
+  assert(!boss.passives.some(passive => passive.unit === "sewing-king" && passive.name === "裁縫"));
+  assert.equal(boss.skills.find(skill => skill.id === "weft-needle-1")!.unbreakableCoins, undefined);
+  assert.deepEqual(boss.skills.find(skill => skill.id === "sewing-king-3")!.unbreakableCoins, [1, 2, 3, 4]);
+  assert(boss.skills.find(skill => skill.id === "sewing-king-6")!.effects.join(" ").includes("攻撃レベル増加1"));
+  assert(!boss.skills.find(skill => skill.id === "sewing-king-6")!.effects.join(" ").includes("守備スキルを発動させない"));
+  assert(boss.warnings.some(warning => warning.includes("HP1087")));
 });
 
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {

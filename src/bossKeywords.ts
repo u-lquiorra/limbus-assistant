@@ -21,11 +21,15 @@ export function bossKeywords(boss: BossGuide, unitId?: string): Keyword[] {
   const names = new Map<string, Map<string, Set<string>>>();
   const scopedPassives = boss.passives.filter((passive) => !unitId || passive.unit === unitId);
   function add(name: string, desc: string, owner: string) {
-    const variants = names.get(name) ?? new Map<string, Set<string>>();
-    const owners = variants.get(desc) ?? new Set<string>();
-    owners.add(owner);
-    variants.set(desc, owners);
-    names.set(name, variants);
+    // フランス語などを括弧で併記した名前は、本文の日本語名からも参照できる。
+    const japaneseName = name.match(/^(.+?)\([A-Za-zÀ-ÿ][^()]*\)(?:【[^】]+】)?$/)?.[1].trim();
+    for (const term of new Set([name, ...(japaneseName ? [japaneseName] : [])])) {
+      const variants = names.get(term) ?? new Map<string, Set<string>>();
+      const owners = variants.get(desc) ?? new Set<string>();
+      owners.add(owner);
+      variants.set(desc, owners);
+      names.set(term, variants);
+    }
   }
   for (const mechanic of boss.mechanics) {
     if (unitId && mechanic.units && !mechanic.units.includes(unitId)) continue;
@@ -36,7 +40,7 @@ export function bossKeywords(boss: BossGuide, unitId?: string): Keyword[] {
   for (const skill of boss.skills) {
     if (unitId && skill.unit !== unitId) continue;
     const owner = boss.units.find((unit) => unit.id === skill.unit)!.name;
-    const desc = ["スキル", [skill.sin, skill.type].filter(Boolean).join("・"), ...skill.effects].join("\n");
+    const desc = ["スキル", [skill.sin, skill.type].filter(Boolean).join("・"), ...(skill.label ? [skill.label] : []), ...skill.effects].join("\n");
     add(skill.name, desc, owner);
   }
   for (const passive of scopedPassives) {

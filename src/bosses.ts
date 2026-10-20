@@ -43,6 +43,11 @@ import dreamDevouringSiltcurrent from "./data/bosses/dream-devouring-siltcurrent
 import gustave from "./data/bosses/gustave";
 import fourleg from "./data/bosses/fourleg";
 import oneleg from "./data/bosses/oneleg";
+import sousChef from "./data/bosses/sous-chef";
+import redGodRipe from "./data/bosses/red-god-ripe";
+import wardenChaplain from "./data/bosses/warden-chaplain";
+import jeanne from "./data/bosses/jeanne";
+import sewingKing from "./data/bosses/sewing-king";
 
 export interface BossUnit {
   id: string;
@@ -51,7 +56,8 @@ export interface BossUnit {
   part: string;
   hp: string;
   level: number | string;
-  defenseLevel: number;
+  defenseLevel: number | null;
+  offField?: string;
   skillLevelReduction?: number;
   defenseLevelReduction?: number;
   combatLevelNote?: string;
@@ -110,7 +116,7 @@ export interface BossGuide {
   sources: { title: string; url: string }[];
 }
 
-export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg];
+export const bossGuides: BossGuide[] = [kromer, brazenBull, dongbaekSunshower, dongbaek, fairyGentleman, talismanDoll, waywardFox, shockCentipede, dongrang, ricardo, walkingPearl, skinProphet, dreamDevouringSiltcurrent, ahab, gasHarpoon, kimSatgat, heathcliff, nelly, erlkingCathy, cassettiSasha, barber, dulcinea, bloodfiendTrio, sancho, donQuixote, drunkenNightguest, jiaQiu, leiHeng, jiaFangKubo, jiaMu, renAlbina, sora, shiomiYoru, albinaCallisto, kiraMatthias, shiomiYoruRematch, lucioValentina, albinaCallistoRematch, kiraMatthiasRematch, roachEmperor, littleFingerMaster, lian, gustave, fourleg, oneleg, sousChef, sewingKing, wardenChaplain, redGodRipe, jeanne];
 const byId = new Map(bossGuides.map((boss) => [boss.id, boss]));
 
 export function getBossGuide(id: string): BossGuide | undefined {

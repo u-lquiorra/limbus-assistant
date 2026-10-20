@@ -113,6 +113,13 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           assert.equal($(".boss-hero-info .spec-list > div").eq(3).find("dd").text(), "52", "防御だけ34低下を適用");
           assert.equal($("#skill-sancho-1 .skill-card-stats > div").eq(4).find(".staged-main").text(), "51", "攻撃は35低下を適用");
         }
+        if (boss.id === "jeanne") {
+          const offField = $(".boss-unit[aria-labelledby='unit-jeanne-three']");
+          assert.match(offField.find(".boss-unit-info").text(), /直接攻撃の対象にならない/);
+          assert.equal(offField.find(".boss-resistances").length, 0, "攻撃対象でない本体に耐性表を作らない");
+          assert.doesNotMatch(offField.find(".spec-list dt").text(), /防御Lv|速度|混乱区間/);
+          assert.doesNotMatch(offField.text(), /NaN|null|undefined/);
+        }
         if (boss.id === "lei-heng") {
           assert.match($(".boss-unit .spec-list dt").text(), /防御Lv（平均化前）/, "動的な平均化の前の防御値と明示する");
           assert.match($("#skill-lei-heng-1 .skill-card-stats > div").eq(4).find("dt").text(), /平均化前/);
