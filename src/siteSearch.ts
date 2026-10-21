@@ -44,7 +44,7 @@ const GUIDE_ENTRIES: SearchEntry[] = [
   {
     kind: "guide",
     title: "サポートパッシブ一覧",
-    sub: "必要資源ごと・裏置きの候補探し",
+    sub: "囚人ごと・必要資源で絞り込み・裏置きの候補探し",
     to: "/support-passives",
     terms: ["サポートパッシブ", "サポパ", "パッシブ", "裏置き", "控え", "必要資源", "資源", "罪悪属性", "一覧"],
   },

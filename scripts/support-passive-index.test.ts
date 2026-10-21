@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { buildSupportPassiveIndex, parseResource } from "./support-passive-index.ts";
-import { costOf, filterSupportPassivesBySins, groupSupportPassivesBySin, type SupportPassive } from "../src/supportPassives.ts";
+import { filterSupportPassivesBySins, groupSupportPassivesByCharacter, type SupportPassive } from "../src/supportPassives.ts";
 import { activeNavItem } from "../src/nav.ts";
 import { SIN_ORDER } from "../src/sinColors.ts";
 
@@ -28,32 +28,36 @@ test("サポートパッシブの要約: 必要資源の書式を読み、読め
   assert.throws(() => parseResource(undefined, "x"), /必要資源が無い/);
 });
 
-test("サポートパッシブ一覧: 必要資源の属性ごとにまとめ、2属性以上のものは使う属性すべてに載せる", () => {
-  const groups = groupSupportPassivesBySin(index);
+const characters = JSON.parse(readFileSync(new URL("../src/data/characters.json", import.meta.url), "utf-8")) as { name: string }[];
+// 囚人一覧での人格の並びと、各人格の囚人
+const personaOrder = characters.flatMap(({ name }) =>
+  (JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url), "utf-8")) as { statuses: { code: string }[] }).statuses.map((s) => ({
+    code: s.code,
+    character: name,
+  }))
+);
+const characterOf = (code: string) => personaOrder.find((p) => p.code === code)?.character;
+
+test("サポートパッシブ一覧: 囚人ごとに、囚人一覧と同じ人格の順でまとめる", () => {
+  const groups = groupSupportPassivesByCharacter(index, characterOf);
   assert.deepEqual(
-    groups.map((g) => g.sin),
-    SIN_ORDER.filter((sin) => index.some((p) => costOf(p, sin) > 0)),
-    "罪悪属性の並び"
+    groups.map((g) => g.character),
+    characters.map((c) => c.name).filter((name) => index.some((p) => characterOf(p.code) === name)),
+    "囚人一覧の並び"
   );
-  for (const p of index) {
-    for (const { sin } of p.cost) {
-      assert(groups.find((g) => g.sin === sin)?.passives.includes(p), `${p.code} が ${sin} にある`);
-    }
-  }
-  const total = groups.reduce((n, g) => n + g.passives.length, 0);
-  assert.equal(total, index.reduce((n, p) => n + p.cost.length, 0), "使う属性の数だけ載る(重複も漏れも無い)");
-  // 組の中は必要数の少ない順
-  for (const g of groups) {
-    const counts = g.passives.map((p) => costOf(p, g.sin));
-    assert.deepEqual(counts, [...counts].sort((a, b) => a - b), g.sin);
-  }
+  assert.deepEqual(
+    groups.flatMap((g) => g.passives.map((p) => p.code)),
+    personaOrder.map((p) => p.code).filter((code) => index.some((p) => p.code === code)),
+    "人格の並び(重複も漏れも無い)"
+  );
+  for (const g of groups) assert(g.passives.every((p) => characterOf(p.code) === g.character), `${g.character}: ほかの囚人が混ざらない`);
 });
 
-test("サポートパッシブ一覧: 同じ必要数なら1属性だけのものを先に、その次は人格コード順に並べる", () => {
-  const make = (code: string, cost: SupportPassive["cost"]): SupportPassive => ({ code, name: code, cost, condition: "保有", effect: "", keywords: [] });
-  const list = [make("0302", [{ sin: "傲慢", count: 3 }]), make("0101", [{ sin: "傲慢", count: 3 }, { sin: "憤怒", count: 1 }]), make("0201", [{ sin: "傲慢", count: 3 }]), make("0102", [{ sin: "傲慢", count: 2 }])];
-  const pride = groupSupportPassivesBySin(list).find((g) => g.sin === "傲慢")!;
-  assert.deepEqual(pride.passives.map((p) => p.code), ["0102", "0201", "0302", "0101"]);
+test("サポートパッシブ一覧: 絞り込んだ後も囚人ごとにまとめ、囚人が分からない人格は止める", () => {
+  const groups = groupSupportPassivesByCharacter(filterSupportPassivesBySins(index, ["傲慢"]), characterOf);
+  assert.equal(new Set(groups.map((g) => g.character)).size, groups.length, "同じ囚人が2組に分かれない");
+  const make = (code: string): SupportPassive => ({ code, name: code, cost: [{ sin: "傲慢", count: 1 }], condition: "保有", effect: "", keywords: [] });
+  assert.throws(() => groupSupportPassivesByCharacter([make("9999")], characterOf), /囚人が分からない/);
 });
 
 test("サポートパッシブ一覧: 控え選びのページなので、ナビは「編成例」を選択中にする", () => {

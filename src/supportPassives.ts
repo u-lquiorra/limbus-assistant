@@ -1,7 +1,6 @@
 // サポートパッシブ一覧(/support-passives)の並べ替え。
 // 要約(src/data/support-passives.json)は scripts/support-passive-index.ts で人格の詳細データから作る
 import { formatSinFilter } from "./egoFilter";
-import { SIN_ORDER } from "./sinColors";
 import type { Keyword } from "./types";
 
 export interface SupportPassive {
@@ -17,13 +16,9 @@ export interface SupportPassive {
 }
 
 export interface SupportPassiveGroup {
-  sin: string;
+  /** 囚人名 */
+  character: string;
   passives: SupportPassive[];
-}
-
-/** その罪悪属性の必要数(使わなければ 0) */
-export function costOf(passive: SupportPassive, sin: string): number {
-  return passive.cost.find((c) => c.sin === sin)?.count ?? 0;
 }
 
 /**
@@ -36,16 +31,19 @@ export function filterSupportPassivesBySins(passives: SupportPassive[], sins: st
 }
 
 /**
- * 必要資源の罪悪属性ごとにまとめる。2属性以上を使うものは、使う属性すべての組に入れる。
- * 組の中は、その属性の必要数が少ない順 → 1属性だけで発動するもの優先 → 人格コード順
+ * 囚人ごとにまとめる。要約は囚人一覧の順・囚人の中は人格の順で作ってあるため、その並びをそのまま保つ。
+ * 必要資源で並べるより、人格を探しやすい並びにする。囚人が分からない人格は載せずに止める
  */
-export function groupSupportPassivesBySin(passives: SupportPassive[]): SupportPassiveGroup[] {
-  return SIN_ORDER.map((sin) => ({
-    sin,
-    passives: passives
-      .filter((p) => costOf(p, sin) > 0)
-      .sort((a, b) => costOf(a, sin) - costOf(b, sin) || a.cost.length - b.cost.length || a.code.localeCompare(b.code)),
-  })).filter((group) => group.passives.length > 0);
+export function groupSupportPassivesByCharacter(passives: SupportPassive[], characterOf: (code: string) => string | undefined): SupportPassiveGroup[] {
+  const groups: SupportPassiveGroup[] = [];
+  for (const passive of passives) {
+    const character = characterOf(passive.code);
+    if (!character) throw new Error(`${passive.code}: 囚人が分からない`);
+    const last = groups[groups.length - 1];
+    if (last?.character === character) last.passives.push(passive);
+    else groups.push({ character, passives: [passive] });
+  }
+  return groups;
 }
 
 /** サポートパッシブ一覧を、指定した罪悪属性を選んだ状態で開くパス(各ページからの導線用) */

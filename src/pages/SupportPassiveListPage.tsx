@@ -5,11 +5,10 @@ import PageToc from "../components/PageToc";
 import SinFilterChips from "../components/SinFilter";
 import { useSinFilter } from "../useSinFilter";
 import { SinBadge } from "../components/ui";
-import { getPersona } from "../data/loader";
+import { characterList, getPersona } from "../data/loader";
 import supportPassiveIndex from "../data/support-passives.json";
-import { SIN_IDS } from "../egoFilter";
 import { asset } from "../lib";
-import { filterSupportPassivesBySins, groupSupportPassivesBySin, type SupportPassive } from "../supportPassives";
+import { filterSupportPassivesBySins, groupSupportPassivesByCharacter, type SupportPassive } from "../supportPassives";
 import "./teams.css";
 
 const passives = supportPassiveIndex as SupportPassive[];
@@ -39,15 +38,17 @@ function SupportPassiveCard({ passive }: { passive: SupportPassive }) {
   );
 }
 
+const characterNumbers = new Map(characterList.map((c) => [c.name, c.number]));
+
 /**
- * /support-passives: 全人格のサポートパッシブを、必要資源の罪悪属性ごとに並べる。
+ * /support-passives: 全人格のサポートパッシブを、囚人一覧と同じ人格の順で囚人ごとに並べる。
  * サポートパッシブは罪悪属性の資源で発動するため、編成でたまる資源を選ぶと、その資源だけで発動するものに絞り込める。
  * 控え(裏置き)の候補探しに使う。選択は URL(?sin=wrath,pride)に持つ
  */
 export default function SupportPassiveListPage() {
   const [selected, setSelected] = useSinFilter();
   const results = filterSupportPassivesBySins(passives, selected);
-  const groups = groupSupportPassivesBySin(results);
+  const groups = groupSupportPassivesByCharacter(results, (code) => getPersona(code)?.character.name);
 
   return (
     <div className="container section team-page">
@@ -56,7 +57,7 @@ export default function SupportPassiveListPage() {
         <p className="kicker">SUPPORT PASSIVES ・ {passives.length}人格</p>
         <h1 className="persona-title">サポートパッシブ一覧</h1>
         <p className="team-lead">
-          全人格のサポートパッシブを、必要資源の罪悪属性ごとにまとめた。各属性の中は必要数が少ない順に並べ、2属性以上を使うものは、使う属性すべてに載せている。
+          全人格のサポートパッシブを、囚人ごとに人格の順でまとめた。必要資源で絞り込むと、編成でたまる資源だけで発動するものを探せる。
         </p>
       </header>
 
@@ -79,11 +80,11 @@ export default function SupportPassiveListPage() {
 
       {groups.length === 0 && <p className="empty">該当するサポートパッシブはない。罪悪属性を足す。</p>}
       {groups.map((group) => (
-        <section key={group.sin} className="section-block">
+        <section key={group.character} className="section-block">
           <header className="section-header">
             <h2 className="section-title">
-              <span className="section-title-en">{SIN_IDS[group.sin].toUpperCase()}</span>
-              {group.sin}
+              <span className="section-title-en">{characterNumbers.get(group.character)}</span>
+              {group.character}
             </h2>
             <span className="section-count">{group.passives.length}件</span>
           </header>
