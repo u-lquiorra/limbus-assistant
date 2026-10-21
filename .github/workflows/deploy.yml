@@ -26,6 +26,12 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      # 公開中の前回の状態と比べ、IndexNow に送る URL を決める(今回の状態は dist/ に入れて一緒に公開する)
+      - run: npx tsx scripts/indexnow.ts prepare "$RUNNER_TEMP/indexnow-urls.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-urls
+          path: ${{ runner.temp }}/indexnow-urls.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -39,3 +45,22 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # 公開の後に、変わったページを IndexNow(Bing など)へ知らせる。失敗しても公開には影響しない
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: indexnow-urls
+          path: ${{ runner.temp }}
+      - run: npx tsx scripts/indexnow.ts submit "$RUNNER_TEMP/indexnow-urls.json"
