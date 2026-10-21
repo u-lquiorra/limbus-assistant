@@ -84,8 +84,8 @@ function Skill({ skill, boss, number }: { skill: BossSkill; boss: BossGuide; num
     <dl className="skill-card-stats">
       <div><dt>表示威力</dt><dd><span className="staged-main">{skill.powerUnknown ? "未確定" : range}</span></dd></div>
       <div><dt>基本威力</dt><dd><span className="staged-main">{skill.powerUnknown ? "未確定" : skill.base}</span></dd></div>
-      <div><dt>コイン威力</dt><dd><span className="staged-main">{skill.coinPower >= 0 ? "+" : ""}{skill.coinPower}</span></dd></div>
-      <div><dt>コイン個数</dt><dd><span className="staged-main coin-count">{skill.coins} <Coins count={String(skill.coins)} /></span></dd></div>
+      <div><dt>コイン威力</dt><dd><span className="staged-main">{skill.coinPowerUnknown ? "不明" : `${skill.coinPower >= 0 ? "+" : ""}${skill.coinPower}`}</span></dd></div>
+      <div><dt>コイン個数</dt><dd><span className="staged-main coin-count">{skill.coinsUnknown ? "不定" : <>{skill.coins} <Coins count={String(skill.coins)} /></>}</span></dd></div>
       <div><dt>{["回避", "防御"].includes(skill.type) ? "守備" : "攻撃"}レベル{unit.combatLevelNote && `（${unit.combatLevelNote}）`}</dt><dd><span className="staged-main">{level}</span><span className="staged-history">{skill.levelUnknown ? "数値不明" : skill.level !== undefined ? "推定値" : `敵Lv${skill.levelOffset >= 0 ? "+" : ""}${skill.levelOffset}${unit.skillLevelReduction ? `−${unit.skillLevelReduction}` : ""}`}</span></dd></div>
       <div><dt>加重値</dt><dd><span className="staged-main">{skill.weight ?? "不明"}</span></dd></div>
     </dl>

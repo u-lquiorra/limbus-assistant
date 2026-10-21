@@ -1,0 +1,216 @@
+[
+  {
+    "id": "you-want-to-get-beat-1",
+    "unit": "you-want-to-get-beat",
+    "name": "働く時間だ！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 9,
+    "coinPower": -7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "you-want-to-get-beat-2",
+    "unit": "you-want-to-get-beat",
+    "name": "働こう！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 13,
+    "coinPower": -10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンにクイック2を得る"
+    ]
+  },
+  {
+    "id": "you-want-to-get-beat-3",
+    "unit": "you-want-to-get-beat",
+    "name": "うれしい！！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 5,
+    "coinPower": -2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]自分に3ダメージ",
+      "Ⅱ[的中時]自分に3ダメージ"
+    ]
+  },
+  {
+    "id": "you-want-to-get-beat-4",
+    "unit": "you-want-to-get-beat",
+    "name": "ぱにっしゅ☆めんと",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 3,
+    "coinPower": 6,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]自分に10ダメージ。スキル威力+2"
+    ]
+  },
+  {
+    "id": "you-want-to-get-beat-5",
+    "unit": "you-want-to-get-beat",
+    "name": "ひ・じょう・じ・たい！！！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]自分に3ダメージ",
+      "Ⅱ[的中時]自分に3ダメージ",
+      "Ⅲ[的中時]自分に3ダメージ"
+    ]
+  },
+  {
+    "id": "you-want-to-get-beat-6",
+    "unit": "you-want-to-get-beat",
+    "name": "邪魔するな！？",
+    "type": "防御",
+    "base": 7,
+    "coinPower": -2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "enhanced-eager-1",
+    "unit": "enhanced-eager",
+    "name": "片付けよう･･･。",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 3,
+    "coinPower": -1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "enhanced-eager-2",
+    "unit": "enhanced-eager",
+    "name": "せっせと！",
+    "sin": "傲慢",
+    "type": "斬",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]自分に10ダメージ。スキル威力+1"
+    ]
+  },
+  {
+    "id": "enhanced-eager-3",
+    "unit": "enhanced-eager",
+    "name": "忙しい･･･。",
+    "type": "防御",
+    "base": 6,
+    "coinPower": -2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "enhanced-eager-4",
+    "unit": "enhanced-eager",
+    "name": "ひ・じょう・じ・たい！！！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]自分に3ダメージ",
+      "Ⅱ[的中時]自分に3ダメージ",
+      "Ⅲ[的中時]自分に3ダメージ"
+    ]
+  },
+  {
+    "id": "enhanced-doubtful-1",
+    "unit": "enhanced-doubtful",
+    "name": "頑張って！",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]自分に10ダメージ。スキル威力+1"
+    ]
+  },
+  {
+    "id": "enhanced-doubtful-2",
+    "unit": "enhanced-doubtful",
+    "name": "仕事しよう･･･。",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": -1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "enhanced-doubtful-3",
+    "unit": "enhanced-doubtful",
+    "name": "忙しい･･･。",
+    "type": "防御",
+    "base": 6,
+    "coinPower": -2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "enhanced-doubtful-4",
+    "unit": "enhanced-doubtful",
+    "name": "ひ・じょう・じ・たい！！！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 1,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]自分に3ダメージ",
+      "Ⅱ[的中時]自分に3ダメージ",
+      "Ⅲ[的中時]自分に3ダメージ"
+    ]
+  }
+]

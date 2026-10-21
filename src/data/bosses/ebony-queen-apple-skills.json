@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ebony-left-1",
+    "unit": "ebony-left",
+    "name": "不信",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "ebony-right-1",
+    "unit": "ebony-right",
+    "name": "不信",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "ebony-left-2",
+    "unit": "ebony-left",
+    "name": "色褪せた枝",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "ebony-right-3",
+    "unit": "ebony-right",
+    "name": "色褪せた枝",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "ebony-root-4",
+    "unit": "ebony-root",
+    "name": "根の棘",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅰ[表面的中時]出血回数が3回増加"
+    ]
+  },
+  {
+    "id": "ebony-left-5",
+    "unit": "ebony-left",
+    "name": "皆の痛み",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 5,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに脆弱1を付与"
+    ]
+  },
+  {
+    "id": "ebony-right-5",
+    "unit": "ebony-right",
+    "name": "皆の痛み",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 6,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 5,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに脆弱1を付与"
+    ]
+  },
+  {
+    "id": "ebony-fruit-6",
+    "unit": "ebony-fruit",
+    "name": "虚無の実",
+    "type": "防御",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  }
+]

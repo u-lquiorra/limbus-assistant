@@ -1,0 +1,180 @@
+[
+  {
+    "id": "wriggling-right-1",
+    "unit": "wriggling-right",
+    "name": "巻き付く腕",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "Ⅰ[的中時]次のターンに麻痺3を付与"
+    ]
+  },
+  {
+    "id": "wriggling-right-2",
+    "unit": "wriggling-right",
+    "name": "ねじ切る",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[マッチ敗北]本能を1失う",
+      "Ⅱ[的中時]体力を20回復、出血回数が5増加"
+    ]
+  },
+  {
+    "id": "wriggling-left-2",
+    "unit": "wriggling-left",
+    "name": "ねじ切る",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[マッチ敗北]本能を1失う",
+      "Ⅱ[的中時]体力を20回復、出血回数が5増加"
+    ]
+  },
+  {
+    "id": "wriggling-right-3",
+    "unit": "wriggling-right",
+    "name": "両腕振り回し",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "破壊された腕の数だけスキル威力減少",
+      "Ⅰ[的中時]次のターンに出血2、麻痺1を付与",
+      "Ⅱ[的中時]次のターンに出血2、麻痺1を付与",
+      "Ⅲ[的中時]次のターンに出血4、麻痺2を付与"
+    ]
+  },
+  {
+    "id": "wriggling-left-3",
+    "unit": "wriggling-left",
+    "name": "両腕振り回し",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "破壊された腕の数だけスキル威力減少",
+      "Ⅰ[的中時]次のターンに出血2、麻痺1を付与",
+      "Ⅱ[的中時]次のターンに出血2、麻痺1を付与",
+      "Ⅲ[的中時]次のターンに出血4、麻痺2を付与"
+    ]
+  },
+  {
+    "id": "wriggling-right-4",
+    "unit": "wriggling-right",
+    "name": "両腕で引っ叩く",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[マッチ敗北]本能1を失う",
+      "Ⅰ[的中時]混乱区間を10前進、次のターンに束縛5を付与。"
+    ]
+  },
+  {
+    "id": "wriggling-left-4",
+    "unit": "wriggling-left",
+    "name": "両腕で引っ叩く",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[マッチ敗北]本能1を失う",
+      "Ⅰ[的中時]混乱区間を10前進、次のターンに束縛5を付与。"
+    ]
+  },
+  {
+    "id": "wriggling-right-5",
+    "unit": "wriggling-right",
+    "name": "息を殺す",
+    "type": "防御",
+    "base": 6,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[戦闘開始時]本能1を得る"
+    ]
+  },
+  {
+    "id": "wriggling-left-5",
+    "unit": "wriggling-left",
+    "name": "息を殺す",
+    "type": "防御",
+    "base": 6,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[戦闘開始時]本能1を得る"
+    ]
+  },
+  {
+    "id": "wriggling-body-6",
+    "unit": "wriggling-body",
+    "name": "苦痛の身悶え",
+    "sin": "暴食",
+    "type": "打",
+    "base": 7,
+    "coinPower": -1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]体力12消耗。次のターンに出血3を得る",
+      "Ⅰ[的中時]次のターンに毒3を付与",
+      "Ⅱ[的中時]次のターンに毒3を付与",
+      "Ⅲ[的中時]次のターンに毒3を付与"
+    ]
+  },
+  {
+    "id": "wriggling-body-7",
+    "unit": "wriggling-body",
+    "name": "苦痛の足掻き",
+    "sin": "暴食",
+    "type": "打",
+    "base": 11,
+    "coinPower": -5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]体力12消耗。次のターンに自分の出血回数が3増加",
+      "Ⅰ[的中時]次のターンに麻痺6を付与",
+      "Ⅱ[的中時]次のターンに麻痺6を付与"
+    ]
+  }
+]

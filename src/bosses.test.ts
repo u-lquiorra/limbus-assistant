@@ -396,6 +396,179 @@ test("10章A: 接客条件・連戦・条件付き覚醒とBルートの強化�
   assert.match(bossKeywords(gustave).find(k => k.term === "案内不履行")!.desc, /最大3/);
 });
 
+test("7-26: 固定編成・イベント終了と不明値を区別する", () => {
+  const boss = getBossGuide("white-moon-knight")!;
+  assert.equal(boss.stage, "7-26");
+  assert.equal(boss.members, 1);
+  assert.equal(boss.reserves, undefined);
+  assert.match(boss.priorities.join(""), /Lv50・同期Ⅳ・解析Ⅳ/);
+  assert.match(boss.phases.at(-1)!.steps.join(""), /戦闘開始後.*演出.*戦闘終了/);
+  assert.equal(boss.units[0].level, "不明");
+  assert.equal(boss.units[0].defenseLevel, null);
+  assert(Object.values(boss.units[0].physical).every(v => v === null));
+  assert(Object.values(boss.units[0].sins).every(v => v === null), "推定の等倍を確定値として保存しない");
+  assert.equal(boss.skills.length, 9);
+  assert.deepEqual(boss.skills.filter(s => s.unbreakableCoins).map(s => s.id), ["moon-faint", "moon-pale", "moon-mirror"]);
+  for (const id of ["moon-mirror", "moon-rail", "moon-arrow"]) {
+    const skill = boss.skills.find(s => s.id === id)!;
+    assert.equal(skill.powerUnknown, true);
+    assert.equal(skill.coinPowerUnknown, true, "未知のコイン威力を+0と表示しない");
+  }
+  const arrow = boss.skills.find(s => s.id === "moon-arrow")!;
+  assert.equal(arrow.levelUnknown, true);
+  assert.equal(arrow.level, undefined);
+  assert.equal(arrow.sin, undefined, "罪悪属性なしの技へ属性を補わない");
+  assert.match(boss.mechanics.find(m => m.name === "名誉ある決闘（ドンキホーテ）")!.effect, /1605.*最終威力\+15/);
+  assert.doesNotMatch(boss.mechanics.find(m => m.name === "名誉ある決闘")!.effect, /1605|\+15/);
+});
+
+test("7-06: 通常の敗北とイベント進行を分け、固定編成の制限を保持する", () => {
+  const boss = getBossGuide("camille")!;
+  const later = getBossGuide("white-moon-knight")!;
+  assert.equal(boss.stage, "7-06");
+  assert.equal(boss.members, 1);
+  assert.equal(boss.reserves, undefined);
+  assert.match(boss.priorities.join(""), /Lv45・同期Ⅳ・解析Ⅳ/);
+  assert.match(boss.priorities.join(""), /HPは10未満.*混乱または4ターン/);
+  assert.match(boss.priorities.join(""), /1→3→4→4.*手札配置も固定/);
+  assert.match(boss.priorities.join(""), /傲慢資源.*使用できない/);
+  assert.doesNotMatch(boss.phases.map(p => p.steps.join("")).join(""), /Lv50|6ターン目/, "7-26の専用進行を混ぜない");
+  assert.equal(boss.units[0].physical.貫, 0.5);
+  assert.equal(boss.units[0].physical.斬, null);
+  assert.equal(boss.units[0].sins.色欲, 1);
+  assert.equal(boss.units[0].sins.憤怒, null);
+  assert.equal(boss.skills.length, 6);
+  assert.equal(boss.passives.length, 6);
+  const salut = boss.skills.find(s => s.id === "camille-salut")!;
+  assert.equal(salut.levelOffset, 5);
+  assert.match(salut.label!, /通常手順外/);
+  assert.match(salut.effects.at(-1)!, /対象の破裂1.*最大50%/, "誤植の呼吸ではなく破裂による増加");
+  assert.match(boss.passives.find(p => p.name === "一騎打ち")!.effect, /イベント.*終了/);
+  assert(boss.skills.every(s => !s.unbreakableCoins), "通常コインの技へ7-26の破壊不能を持ち込まない");
+  assert.match(boss.mechanics.find(m => m.name === "決闘宣布 - カミーユ")!.effect, /攻撃的中時.*クイック1/);
+  assert.match(later.priorities.join(""), /Lv50/, "前回追加したイベント戦の調整も保持する");
+});
+
+test("1章の3戦: 部位破壊・段階移行・判定の代償を区別する", () => {
+  const ebony = getBossGuide("ebony-queen-apple")!;
+  const calendar = getBossGuide("doomsday-calendar")!;
+  const golden = getBossGuide("golden-apple")!;
+  assert.deepEqual(bossIds.slice(0, 3), [ebony.id, calendar.id, golden.id]);
+  for (const boss of [ebony, calendar, golden]) {
+    assert.equal(boss.chapter, 1);
+    assert.equal(boss.stage, "1-11");
+    assert.equal(boss.members, 5);
+  }
+  assert.match(ebony.priorities.join(""), /最初の2ターン.*HP.*1未満/);
+  assert.equal(ebony.units.find(u => u.id === "ebony-right")!.stagger, "40%（43）");
+  assert.equal(ebony.units.find(u => u.id === "ebony-left")!.stagger, "なし");
+  assert.match(ebony.units.find(u => u.id === "ebony-left")!.notes.join(""), /追撃不可/);
+  assert.match(ebony.units.find(u => u.id === "ebony-fruit")!.notes.join(""), /追撃可能/);
+  assert.equal(ebony.units.find(u => u.id === "ebony-fruit")!.physical.打, 2);
+  assert.equal(ebony.units.find(u => u.id === "ebony-root")!.physical.貫, 0.5);
+  assert.match(bossSkillEffectText(ebony.skills.find(s => s.id === "ebony-left-5")!), /^Ⅰ\[表面的中時\]/);
+  assert.match(calendar.priorities.join(""), /本体HP70%以下.*HP25%以下/);
+  assert.match(calendar.phases.find(p => p.id === "final")!.steps.join(""), /担当HP−100.*全囚人精神力−30/);
+  assert.match(calendar.units.find(u => u.id === "doomsday-idol")!.notes.join(""), /HP0.*死亡しない/);
+  assert.equal(calendar.units.find(u => u.id === "doomsday-idol")!.hp, "40", "道中Lv5やイベントLv7個体を流用しない");
+  assert.equal(calendar.units.find(u => u.id === "doomsday-idol")!.level, 6);
+  assert.equal(calendar.units.find(u => u.id === "calendar-face")!.sins.傲慢, 0.75);
+  const ritual = calendar.skills.find(s => s.id === "calendar-left-4")!;
+  assert.deepEqual([ritual.base, ritual.coinPower, ritual.coins], [10, -6, 1]);
+  const humans = calendar.skills.find(s => s.id === "calendar-universe-sinners")!;
+  const allies = calendar.skills.find(s => s.id === "calendar-universe-allies")!;
+  assert.deepEqual([humans.base, humans.coinPower, humans.weight], [45, -10, 10]);
+  assert.equal(allies.weight, 4);
+  assert.match(allies.label!, /マッチ不可/);
+  assert.doesNotMatch(humans.label!, /マッチ不可/);
+  assert.match(golden.phases.find(p => p.id === "event")!.steps.join(""), /グレゴール.*\+4/);
+  assert.match(golden.priorities.join(""), /成功・失敗.*第2形態/);
+  assert.match(golden.priorities.join(""), /翌ターン.*破壊したターン.*マッチを外さない/);
+  assert.equal(golden.units.find(u => u.id === "golden-body")!.physical.斬, 0.5);
+  assert.equal(golden.units.find(u => u.id === "false-body")!.physical.斬, 2);
+  assert.equal(golden.units.find(u => u.id === "false-head")!.sins.憂鬱, 0.75);
+  assert.deepEqual([ebony.skills.length, calendar.skills.length, golden.skills.length], [8, 14, 6]);
+  assert.equal(golden.skills.find(s => s.id === "golden-body-1")!.base, 2, "強化個体の5を使わない");
+});
+
+test("2章の3戦: 通常戦闘・復活停止・ウェーブごとの期限を区別する", () => {
+  const aido = getBossGuide("aido")!;
+  const factory = getBossGuide("you-want-to-get-beat")!;
+  const baba = getBossGuide("baba-yaga")!;
+  assert.equal(aido.stage, "2-18");
+  assert.match(aido.statNote!, /通常戦闘/);
+  assert.match(aido.statNote!, /最初は取り巻き4名.*増援は取り巻き6名/);
+  assert.equal(aido.units[0].physical.斬, 2);
+  assert.equal(aido.units[0].physical.打, 0.5);
+  assert.equal(aido.units[0].defenseLevel, 11);
+  assert.match(aido.passives.find(p => p.name === "パーティーお開き")!.effect, /45/);
+  assert.match(aido.skillNote!, /攻撃威力減少量は未記載/);
+  const cheerful = aido.skills.find(s => s.id === "mariachi-cheerful-2")!;
+  const light = aido.skills.find(s => s.id === "mariachi-light-2")!;
+  assert.match(cheerful.effects.join(""), /全味方/);
+  assert.doesNotMatch(light.effects.join(""), /全味方/);
+  assert.equal(factory.stage, "2-19");
+  assert.match(factory.units[0].hp, /未確定.*152.*120/);
+  assert.match(factory.units[1].hp, /未確定.*51.*52/);
+  assert.equal(factory.units[0].defenseLevel, 15);
+  assert.equal(factory.units[1].defenseLevel, 11);
+  const punishment = factory.skills.find(s => s.id === "you-want-to-get-beat-4")!;
+  assert.deepEqual([punishment.base, punishment.coinPower, punishment.coins], [3, 6, 2]);
+  assert.match(punishment.effects.join(""), /使用時.*スキル威力\+2/);
+  assert.match(factory.phases.find(p => p.id === "stop")!.steps.join(""), /「そうでない。」.*3回/);
+  assert.match(factory.troubleshooting!.find(t => t.symptom.includes("次の予告"))!.advice, /死亡状態.*発生しない/);
+  assert.equal(factory.passives.filter(p => p.name === "強化工場稼働").length, 3);
+  assert.equal(baba.stage, "2-19");
+  assert(baba.units.every(u => u.level === 15 && u.hp === "41"));
+  assert.equal(baba.units.find(u => u.id === "freezing-slave")!.defenseLevel, 12);
+  assert.equal(baba.units[0].defenseLevel, 13);
+  assert.match(baba.priorities[0], /第1ウェーブには制限時間がない/);
+  assert.match(baba.priorities[1], /それぞれ4ターン.*5ターン目開始時.*強制敗北/);
+  assert.match(baba.mechanics.find(m => m.name === "近寄るバーバヤーガ")!.effect, /待機・サポート人員.*除かれる/);
+  assert.deepEqual([aido.skills.length, factory.skills.length, baba.skills.length], [14, 14, 12]);
+  assert.deepEqual(baba.skills.filter(s => s.name === "足蹴").map(s => [s.base, s.coinPower]), [[11, -9], [11, -9]]);
+});
+
+test("3章の3戦: 本能の増減・模倣反撃・腕再生の実際の条件を分ける", () => {
+  const quad = getBossGuide("quadruped-beast")!;
+  const mimic = getBossGuide("inquisitor-with-everything")!;
+  const wriggle = getBossGuide("wriggling-beast")!;
+  for (const boss of [quad, mimic, wriggle]) {
+    assert.equal(boss.stage, "3-22");
+    assert.equal(boss.members, 5);
+  }
+  assert.equal(quad.units[0].level, 25);
+  assert.equal(quad.units[0].hp, "361");
+  assert.match(quad.statNote!, /2体.*這い回る異端審問官は含まない/);
+  assert.match(quad.priorities.join(""), /的中ごとに本能1.*4以上/);
+  assert.match(quad.priorities.join(""), /HP50%以下.*毎ターン狂乱/);
+  assert.equal(quad.skills.find(s => s.id === "quadruped-beast-5")!.powerUnknown, true);
+  assert.match(quad.units[0].stagger, /HP値は未確定/);
+  assert.deepEqual(mimic.units.map(u => [u.level, u.defenseLevel]), [[26, 30], [26, 28]]);
+  assert.match(mimic.units[0].notes.join(""), /本能4/);
+  assert.match(mimic.units[1].notes.join(""), /本能2/);
+  const copies = mimic.skills.filter(s => s.name === "中途半端な模倣");
+  assert.equal(copies.length, 2);
+  for (const skill of copies) {
+    assert.equal(skill.type, "反撃");
+    assert.equal(skill.attackType, "斬");
+    assert.equal(skill.sin, "色欲");
+    assert.equal(skill.levelOffset, -5);
+    assert(skill.powerUnknown && skill.coinPowerUnknown && skill.coinsUnknown);
+    assert.match(skill.response, /最初.*弱い.*広域.*相殺.*できない/);
+  }
+  assert.match(mimic.passives.find(p => p.name === "傷付けられた腕")!.condition, /1以上/);
+  assert.match(mimic.passives.find(p => p.name === "殻の回復")!.effect, /5%.*本能1/);
+  assert.match(wriggle.units[0].hp, /677.*237/);
+  assert.equal(wriggle.units[2].hp, "203");
+  assert(wriggle.units.every(u => u.defenseLevel === 30));
+  assert.match(wriggle.priorities.join(""), /本能0.*4まで戻る/);
+  assert.match(wriggle.mechanics.find(m => m.name === "腕の再生")!.effect, /2ターン後.*現在HP/);
+  assert.match(wriggle.passives.find(p => p.name === "腐りゆく皮膚")!.condition, /部位HP.*50%未満/);
+  assert.match(wriggle.units[0].notes.join(""), /追撃不可/);
+  assert.deepEqual([quad.skills.length, mimic.skills.length, wriggle.skills.length], [5, 8, 11]);
+});
+
 test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報が揃う", () => {
   assert(bossGuides.length > 0);
   assert.equal(new Set(bossGuides.map((boss) => boss.id)).size, bossGuides.length);
@@ -427,10 +600,12 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
       assert(skill.name && skill.effects.length && skill.effects.every(Boolean) && skill.response);
       assert(Number.isInteger(skill.coins) && skill.coins >= 1 && skill.coins <= 12);
       assert(Number.isFinite(skill.base) && Number.isFinite(skill.coinPower));
+      if (skill.coinPowerUnknown) assert.equal(skill.powerUnknown, true, "コイン威力不明なら表示威力も計算しない");
+      if (skill.coinsUnknown) assert.equal(skill.powerUnknown, true, "枚数を固定できないなら表示威力も固定しない");
       assert(skill.weight === null || (Number.isInteger(skill.weight) && skill.weight > 0));
       assert(Number.isInteger(skill.levelOffset));
       const unit = boss.units.find((unit) => unit.id === skill.unit)!;
-      if (typeof unit.level !== "number") assert(Number.isInteger(skill.level) && skill.level! > 0, "敵Lv不明のスキルには資料のレベルを指定する");
+      if (typeof unit.level !== "number" && !skill.levelUnknown) assert(Number.isInteger(skill.level) && skill.level! > 0, "敵Lv不明のスキルには資料のレベルかレベル不明を指定する");
       if (skill.type === "反撃") assert(skill.attackType || skill.label?.includes("攻撃タイプ未記載"), "反撃の攻撃タイプか、資料に記載のないことを明示する");
       if (skill.unbreakableCoins) assert(skill.unbreakableCoins.every((coin) => Number.isInteger(coin) && coin >= 1 && coin <= skill.coins), `${boss.id}/${skill.id}: 破壊不能コインの番号が範囲内`);
       if (skill.sin) assert(SIN_ORDER.some((sin) => sin === skill.sin));

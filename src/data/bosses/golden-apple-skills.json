@@ -1,0 +1,94 @@
+[
+  {
+    "id": "golden-body-1",
+    "unit": "golden-body",
+    "name": "発芽",
+    "sin": "暴食",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "golden-body-2",
+    "unit": "golden-body",
+    "name": "黄金の果実",
+    "sin": "暴食",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "Ⅰ[マッチ敗北]自分に20ダメージ",
+      "　[マッチ敗北]黄金色1を失う"
+    ]
+  },
+  {
+    "id": "golden-body-3",
+    "unit": "golden-body",
+    "name": "硬い黄金",
+    "type": "防御",
+    "base": 5,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "false-body-1",
+    "unit": "false-body",
+    "name": "養分吸収",
+    "sin": "色欲",
+    "type": "打",
+    "base": 3,
+    "coinPower": 1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅱ[的中時]本体の体力を3回復"
+    ]
+  },
+  {
+    "id": "false-head-2",
+    "unit": "false-head",
+    "name": "崩れる果肉",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 4,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時] 次のターンに出血回数が3増加",
+      "　[的中時]次のターンに脆弱2を付与"
+    ]
+  },
+  {
+    "id": "false-head-3",
+    "unit": "false-head",
+    "name": "捕獲",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅱ[的中時]本体の体力を10回復",
+      "　[的中時]次のターンに出血5を付与"
+    ]
+  }
+]

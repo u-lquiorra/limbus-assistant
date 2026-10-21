@@ -1,0 +1,222 @@
+[
+  {
+    "id": "mariachi-cheerful-1",
+    "unit": "mariachi-cheerful",
+    "name": "踊りましょ～う",
+    "sin": "怠惰",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]精神力を2回復",
+      "Ⅱ[的中時]精神力を2回復",
+      "Ⅲ[的中時]精神力を2回復"
+    ]
+  },
+  {
+    "id": "mariachi-cheerful-2",
+    "unit": "mariachi-cheerful",
+    "name": "平和の踊り",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]次のターン、全味方へ守備威力増加1を付与"
+    ]
+  },
+  {
+    "id": "mariachi-cheerful-3",
+    "unit": "mariachi-cheerful",
+    "name": "オーレ！",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[回避成功時]対象の精神力を-5"
+    ]
+  },
+  {
+    "id": "mariachi-cheerful-4",
+    "unit": "mariachi-cheerful",
+    "name": "ダンス対決",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[マッチ勝利時]対象の精神力を-5",
+      "Ⅲ[的中時]次のターンに攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "mariachi-light-1",
+    "unit": "mariachi-light",
+    "name": "踊りましょ～う",
+    "sin": "怠惰",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]精神力を2回復",
+      "Ⅱ[的中時]精神力を2回復",
+      "Ⅲ[的中時]精神力を2回復"
+    ]
+  },
+  {
+    "id": "mariachi-light-2",
+    "unit": "mariachi-light",
+    "name": "情熱の踊り",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[使用時]次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "mariachi-light-3",
+    "unit": "mariachi-light",
+    "name": "ダンス対決",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "[マッチ勝利時]対象の精神力を-5",
+      "Ⅲ[的中時]次のターンに攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "mariachi-light-4",
+    "unit": "mariachi-light",
+    "name": "興が乗った刺突",
+    "sin": "憂鬱",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "精神力が0未満の対象を攻撃時、スキル威力+1"
+    ]
+  },
+  {
+    "id": "aido-1",
+    "unit": "aido",
+    "name": "激情の舞",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 2,
+    "coinPower": 1,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]精神力を5回復",
+      "Ⅰ[的中時]次のターンに呼吸1を得る",
+      "Ⅱ[的中時]次のターンに呼吸1を得る",
+      "Ⅲ[的中時]次のターンに呼吸1を得る",
+      "Ⅳ[的中時]次のターンに呼吸1を得る"
+    ]
+  },
+  {
+    "id": "aido-2",
+    "unit": "aido",
+    "name": "この程度か？",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 4,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[マッチ勝利時]対象へ10精神力ダメージ",
+      "Ⅰ[的中時]次のターンに攻撃威力減少、麻痺3を付与"
+    ]
+  },
+  {
+    "id": "aido-3",
+    "unit": "aido",
+    "name": "エクセレンテ！",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -2,
+    "effects": [
+      "[回避成功時]混乱区間を5後退。対象に5精神力ダメージ"
+    ]
+  },
+  {
+    "id": "aido-4",
+    "unit": "aido",
+    "name": "鋭く！",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅱ[的中時]次のターンに攻撃威力増加2を得る"
+    ]
+  },
+  {
+    "id": "aido-5",
+    "unit": "aido",
+    "name": "素早く～",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅱ[的中時]次のターンに守備威力増加2を得る"
+    ]
+  },
+  {
+    "id": "aido-6",
+    "unit": "aido",
+    "name": "パニャータパーティ～！",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 3,
+    "coinPower": 2,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]精神力が0未満の敵を攻撃するとき、対象の精神力に比例してクリティカル発動率が増加",
+      "Ⅰ[表面的中時]ダメージの50%混乱区間を後退"
+    ]
+  }
+]

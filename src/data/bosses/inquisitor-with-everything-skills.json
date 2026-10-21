@@ -1,0 +1,138 @@
+[
+  {
+    "id": "inquisitor-with-everything-1",
+    "unit": "inquisitor-with-everything",
+    "name": "奇怪な瞳",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 4,
+    "coinPower": -1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]対象へ5精神力ダメージ",
+      "Ⅱ[的中時]対象へ5精神力ダメージ"
+    ]
+  },
+  {
+    "id": "advancing-inquisitor-1",
+    "unit": "advancing-inquisitor",
+    "name": "奇怪な瞳",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 4,
+    "coinPower": -1,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]対象へ5精神力ダメージ",
+      "Ⅱ[的中時]対象へ5精神力ダメージ"
+    ]
+  },
+  {
+    "id": "inquisitor-with-everything-2",
+    "unit": "inquisitor-with-everything",
+    "name": "中途半端な模倣",
+    "sin": "色欲",
+    "type": "反撃",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "受けた攻撃を模倣して使用。",
+      "[使用時]対象に10精神力ダメージ"
+    ],
+    "attackType": "斬",
+    "powerUnknown": true,
+    "coinPowerUnknown": true,
+    "coinsUnknown": true,
+    "label": "通常反撃・受けた技の威力と枚数を模倣"
+  },
+  {
+    "id": "advancing-inquisitor-2",
+    "unit": "advancing-inquisitor",
+    "name": "中途半端な模倣",
+    "sin": "色欲",
+    "type": "反撃",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "受けた攻撃を模倣して使用。",
+      "[使用時]対象に10精神力ダメージ"
+    ],
+    "attackType": "斬",
+    "powerUnknown": true,
+    "coinPowerUnknown": true,
+    "coinsUnknown": true,
+    "label": "通常反撃・受けた技の威力と枚数を模倣"
+  },
+  {
+    "id": "inquisitor-with-everything-3",
+    "unit": "inquisitor-with-everything",
+    "name": "殻を直す",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]体力を最大値の10%回復。本能1を得る"
+    ]
+  },
+  {
+    "id": "advancing-inquisitor-3",
+    "unit": "advancing-inquisitor",
+    "name": "殻を直す",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]体力を最大値の10%回復。本能1を得る"
+    ]
+  },
+  {
+    "id": "inquisitor-with-everything-4",
+    "unit": "inquisitor-with-everything",
+    "name": "骨爆発",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]体力を最大値の10%回復",
+      "Ⅱ[的中時]次のターンに出血10を付与。"
+    ]
+  },
+  {
+    "id": "advancing-inquisitor-4",
+    "unit": "advancing-inquisitor",
+    "name": "骨爆発",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]体力を最大値の10%回復",
+      "Ⅱ[的中時]次のターンに出血10を付与。"
+    ]
+  }
+]

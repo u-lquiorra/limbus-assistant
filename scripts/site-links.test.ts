@@ -142,6 +142,11 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           }
           assert.equal($(`[id="skill-${skill.id}"] .fx-coin-unbreakable`).length, skill.unbreakableCoins?.length ?? 0, `${boss.id}/${skill.id}: 破壊不能コイン表示`);
           if (skill.levelUnknown) assert.match($(`[id="skill-${skill.id}"] .skill-card-stats`).text(), /不明/);
+          if (skill.coinsUnknown) {
+            const count = $(`[id="skill-${skill.id}"] .skill-card-stats > div`).eq(3);
+            assert.equal(count.find("dd").text(), "不定", "模倣で変わる枚数を固定表示しない");
+            assert.equal(count.find(".coin").length, 0);
+          }
           if (skill.weight === null) assert.equal($(`[id="skill-${skill.id}"] .skill-card-stats > div`).last().find("dd").text(), "不明");
         }
       }

@@ -29,7 +29,11 @@ export interface BossSkill {
   base: number;
   powerUnknown?: boolean;
   coinPower: number;
+  /** コイン威力が不明なときは仮の数値を画面に出さない。powerUnknown も指定する */
+  coinPowerUnknown?: boolean;
   coins: number;
+  /** 模倣などで枚数が変動し、固定値を表示できない場合 */
+  coinsUnknown?: boolean;
   weight: number | null;
   levelOffset: number;
   level?: number;
@@ -72,6 +76,15 @@ export interface BossGuide {
 // ボスごとの詳細データ。全ボス分をまとめて読むと最初の読み込みが重くなるため、ページを開いたときだけ読み込む。
 // 並びはボス攻略一覧の表示順。キー(ID)とファイル名はそろえる(bosses.test.ts で検査)
 const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
+  "ebony-queen-apple": () => import("./data/bosses/ebony-queen-apple"),
+  "doomsday-calendar": () => import("./data/bosses/doomsday-calendar"),
+  "golden-apple": () => import("./data/bosses/golden-apple"),
+  aido: () => import("./data/bosses/aido"),
+  "you-want-to-get-beat": () => import("./data/bosses/you-want-to-get-beat"),
+  "baba-yaga": () => import("./data/bosses/baba-yaga"),
+  "quadruped-beast": () => import("./data/bosses/quadruped-beast"),
+  "inquisitor-with-everything": () => import("./data/bosses/inquisitor-with-everything"),
+  "wriggling-beast": () => import("./data/bosses/wriggling-beast"),
   kromer: () => import("./data/bosses/kromer"),
   "brazen-bull": () => import("./data/bosses/brazen-bull"),
   "dongbaek-sunshower": () => import("./data/bosses/dongbaek-sunshower"),
@@ -92,7 +105,9 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   nelly: () => import("./data/bosses/nelly"),
   "erlking-cathy": () => import("./data/bosses/erlking-cathy"),
   "cassetti-sasha": () => import("./data/bosses/cassetti-sasha"),
+  camille: () => import("./data/bosses/camille"),
   barber: () => import("./data/bosses/barber"),
+  "white-moon-knight": () => import("./data/bosses/white-moon-knight"),
   dulcinea: () => import("./data/bosses/dulcinea"),
   "bloodfiend-trio": () => import("./data/bosses/bloodfiend-trio"),
   sancho: () => import("./data/bosses/sancho"),

@@ -1,0 +1,215 @@
+[
+  {
+    "id": "calendar-left-1",
+    "unit": "calendar-left",
+    "name": "振り下ろす",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "calendar-right-2",
+    "unit": "calendar-right",
+    "name": "振り下ろす",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 2,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "calendar-left-3",
+    "unit": "calendar-left",
+    "name": "地響き",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 3,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "calendar-right-3",
+    "unit": "calendar-right",
+    "name": "地響き",
+    "sin": "怠惰",
+    "type": "打",
+    "base": 3,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛1を付与"
+    ]
+  },
+  {
+    "id": "calendar-left-4",
+    "unit": "calendar-left",
+    "name": "生贄の儀式",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 10,
+    "coinPower": -6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血回数が3増加"
+    ]
+  },
+  {
+    "id": "calendar-right-4",
+    "unit": "calendar-right",
+    "name": "生贄の儀式",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 10,
+    "coinPower": -6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血回数が3増加"
+    ]
+  },
+  {
+    "id": "calendar-altar",
+    "unit": "calendar-face",
+    "name": "堅固な祭壇",
+    "type": "防御",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -5,
+    "effects": [
+      "固有の追加効果なし。"
+    ]
+  },
+  {
+    "id": "calendar-universe-sinners",
+    "unit": "calendar-face",
+    "name": "燃え上がる宇宙",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 45,
+    "coinPower": -10,
+    "coins": 1,
+    "weight": 10,
+    "levelOffset": -5,
+    "effects": [
+      "固有の追加効果なし。"
+    ],
+    "label": "最終段階2ターン目以降・囚人が対象"
+  },
+  {
+    "id": "calendar-universe-allies",
+    "unit": "calendar-face",
+    "name": "燃え上がる宇宙",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 45,
+    "coinPower": -10,
+    "coins": 1,
+    "weight": 4,
+    "levelOffset": -5,
+    "effects": [
+      "[マッチ不可]味方をターゲットに指定"
+    ],
+    "label": "最終段階初回・敵の味方が対象・マッチ不可"
+  },
+  {
+    "id": "doomsday-idol-1",
+    "unit": "doomsday-idol",
+    "name": "刺す",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 2,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに出血回数が1増加"
+    ]
+  },
+  {
+    "id": "doomsday-idol-2",
+    "unit": "doomsday-idol",
+    "name": "引っ掻く",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 1,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅱ[表面的中時]次のターンに出血回数が1増加"
+    ]
+  },
+  {
+    "id": "burning-idol-1",
+    "unit": "burning-idol",
+    "name": "火を噴く",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 3,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[的中時]次のターンに火傷1を付与"
+    ]
+  },
+  {
+    "id": "burning-idol-2",
+    "unit": "burning-idol",
+    "name": "苦痛に満ちた突き",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 2,
+    "coinPower": 7,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに出血回数が1増加",
+      "　[表面的中時]次のターンに火傷回数が1増加"
+    ]
+  },
+  {
+    "id": "burning-idol-3",
+    "unit": "burning-idol",
+    "name": "苦痛に満ちた引っ掻き",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 1,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅱ[表面的中時]次のターンに出血回数が1増加",
+      "　[表面的中時]次のターンに火傷回数が1増加"
+    ]
+  }
+]

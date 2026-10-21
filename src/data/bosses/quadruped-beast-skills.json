@@ -1,0 +1,89 @@
+[
+  {
+    "id": "quadruped-beast-1",
+    "unit": "quadruped-beast",
+    "name": "荒い引っ掻き",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに出血1を付与",
+      "Ⅱ[表面的中時]次のターンに出血1を付与",
+      "Ⅲ[表面的中時]次のターンに出血1を付与"
+    ]
+  },
+  {
+    "id": "quadruped-beast-2",
+    "unit": "quadruped-beast",
+    "name": "狂的な突進",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血1を付与",
+      "Ⅱ[的中時]次のターンに出血1を付与"
+    ]
+  },
+  {
+    "id": "quadruped-beast-3",
+    "unit": "quadruped-beast",
+    "name": "ズタズタ",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 1,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血4を付与",
+      "　[的中時]次のターンに脆弱1を付与",
+      "Ⅱ[的中時]次のターンに出血4を付与",
+      "　[的中時]次のターンに脆弱1を付与",
+      "Ⅲ[的中時]次のターンに出血4を付与",
+      "　[的中時]次のターンに脆弱1を付与",
+      "Ⅳ[的中時]次のターンに出血4を付与",
+      "　[的中時]次のターンに脆弱1を付与"
+    ]
+  },
+  {
+    "id": "quadruped-beast-4",
+    "unit": "quadruped-beast",
+    "name": "狂暴な追撃",
+    "sin": "色欲",
+    "type": "斬",
+    "base": 13,
+    "coinPower": -10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血回数が6増加",
+      "　[的中時]次のターンに破裂回数が6増加"
+    ]
+  },
+  {
+    "id": "quadruped-beast-5",
+    "unit": "quadruped-beast",
+    "name": "気の立った警戒",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 8,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "固有の追加効果なし。"
+    ],
+    "powerUnknown": true,
+    "label": "威力範囲とコイン数値が不一致"
+  }
+]
