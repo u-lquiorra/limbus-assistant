@@ -1,0 +1,231 @@
+[
+  {
+    "id": "dead-rabbits-boss-1",
+    "unit": "dead-rabbits-boss",
+    "name": "バットで殴る",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]破裂3を付与"
+    ]
+  },
+  {
+    "id": "dead-rabbits-boss-2",
+    "unit": "dead-rabbits-boss",
+    "name": "打ち落とす",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[マッチ勝利時]次のターンに攻撃威力増加、ダメージ量増加1を得る",
+      "Ⅰ[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]破裂3を付与",
+      "Ⅲ[的中時]出血3を付与",
+      "　[的中時]対象の破裂だけ出血を付与"
+    ]
+  },
+  {
+    "id": "dead-rabbits-boss-3",
+    "unit": "dead-rabbits-boss",
+    "name": "腹いせ",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 5,
+    "coinPower": 4,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "対象の破裂が5以上なら、マッチ威力+1",
+      "対象の出血が5以上なら、マッチ威力+1",
+      "[マッチ勝利時]破裂回数が3増加",
+      "Ⅰ[表面的中時]次のコイン威力+1",
+      "Ⅱ[表面的中時]次のコイン威力+2",
+      "Ⅲ[的中時]次のターンに麻痺3を付与",
+      "　[的中時](対象の出血×出血回数)だけ、貫通属性ダメージを与える"
+    ]
+  },
+  {
+    "id": "dead-rabbits-boss-4",
+    "unit": "dead-rabbits-boss",
+    "name": "ガード",
+    "sin": "色欲",
+    "type": "防御",
+    "base": 15,
+    "coinPower": 10,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[使用時]次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "dead-rabbits-boss-5",
+    "unit": "dead-rabbits-boss",
+    "name": "反撃",
+    "sin": "嫉妬",
+    "type": "反撃",
+    "attackType": "打",
+    "base": 8,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]次のターンに攻撃威力増加1を得る"
+    ]
+  },
+  {
+    "id": "strange-rabbit-1",
+    "unit": "strange-rabbit",
+    "name": "処理す･･･",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 3,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂4を付与"
+    ]
+  },
+  {
+    "id": "strange-rabbit-2",
+    "unit": "strange-rabbit",
+    "name": "片･･･付･･･",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の破裂威力が3以上なら、基本威力+1",
+      "Ⅰ[的中時]防御レベル減少2を付与",
+      "　[的中時]破裂回数が2増加",
+      "Ⅱ[的中時]防御レベル減少2を付与",
+      "　[的中時]破裂6を付与"
+    ]
+  },
+  {
+    "id": "strange-rabbit-3",
+    "unit": "strange-rabbit",
+    "name": "阻･･･止･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象に精神力3ダメージ",
+      "[使用時]対象に破裂があれば、破裂威力4につき基本威力+1(最大3)",
+      "Ⅰ[的中時]破裂6を付与",
+      "　[的中時]出血6を付与",
+      "Ⅱ[的中時]防御レベル減少3を付与",
+      "　[的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "strange-rabbit-4",
+    "unit": "strange-rabbit",
+    "name": "反･･･",
+    "sin": "憂鬱",
+    "type": "反撃",
+    "attackType": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "対象に破裂があれば、最終威力+1",
+      "Ⅰ[的中時]出血2を付与"
+    ]
+  },
+  {
+    "id": "covered-rabbit-1",
+    "unit": "covered-rabbit",
+    "name": "ど･･･け",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が3増加"
+    ]
+  },
+  {
+    "id": "covered-rabbit-2",
+    "unit": "covered-rabbit",
+    "name": "邪魔す･･･な",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の破裂回数が3以上なら、基本威力+1",
+      "Ⅰ[的中時]攻撃レベル減少2を付与",
+      "　[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]攻撃レベル減少2を付与",
+      "　[的中時]破裂6を付与"
+    ]
+  },
+  {
+    "id": "covered-rabbit-3",
+    "unit": "covered-rabbit",
+    "name": "突･･･破",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象に精神力3ダメージ",
+      "[使用時]対象に破裂があれば、破裂回数3につき基本威力+1(最大3)",
+      "Ⅰ[的中時]破裂回数が4増加",
+      "　[的中時]出血8を付与",
+      "Ⅱ[的中時]攻撃レベル減少3を付与",
+      "　[的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "covered-rabbit-4",
+    "unit": "covered-rabbit",
+    "name": "･･･撃",
+    "sin": "憂鬱",
+    "type": "反撃",
+    "attackType": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "対象に破裂があれば、最終威力+1",
+      "[的中時]出血2を付与"
+    ]
+  }
+]

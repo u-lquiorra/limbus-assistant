@@ -944,6 +944,32 @@ test("古き海の黒い糸: 減算威力・条件付き破壊不能・絡まり
   assert(boss.warnings.some(warning => warning.includes("即座にターン終了")));
 });
 
+test("6章中編: 一度だけの混乱解除・HP下限・取り巻き撃破の不利を区別する", () => {
+  const josephine = getBossGuide("josephine")!;
+  const hindley = getBossGuide("crying-hindley")!;
+  const rabbits = getBossGuide("dead-rabbits-boss")!;
+  assert.deepEqual([josephine.stage, hindley.stage, rabbits.stage], ["6-15", "6-32", "6-33"]);
+  assert.deepEqual([josephine.skills.length, hindley.skills.length, rabbits.skills.length], [13, 9, 13]);
+  assert.equal(josephine.units[0].level, 42, "敵LvとHPを逆転させない");
+  assert.equal(josephine.units[0].hp, "654");
+  const recovery = josephine.passives.find(p => p.name === "きちんと片付けてやろう…")!;
+  assert.match(recovery.condition, /そのターン中.*最大1回/);
+  assert(josephine.skills.filter(s => s.name === "ガード").every(s => s.weight === null));
+  const mark = hindley.skills.find(s => s.name === "てめぇだけは･･･")!;
+  assert.match(mark.effects.join(""), /使用時.*次のターンに獲物の目印/);
+  assert.match(hindley.skills.find(s => s.name === "返せ･･･！！")!.label!, /マッチ不可/);
+  assert.equal(hindley.skills.find(s => s.name === "クソ野郎")!.coins, 2, "条件付き再使用を常時3枚にしない");
+  assert.match(hindley.passives.find(p => p.name === "俺が立つべき場所")!.effect, /1ターン.*40%以下にならず/);
+  assert.match(rabbits.passives.find(p => p.name === "デッドラビッツ ボス？")!.effect, /死亡.*スロット/);
+  assert.match(rabbits.mechanics.find(m => m.name === "混乱後の反撃")!.effect, /60%以下/);
+  const counter = rabbits.skills.find(s => s.id === "dead-rabbits-boss-5")!;
+  assert.equal(counter.type, "反撃");
+  assert.equal(counter.attackType, "打");
+  assert.match(counter.response, /相殺できない/);
+  assert.match(rabbits.passives.find(p => p.name === "敵意")!.condition, /現在HP/);
+  assert(rabbits.priorities.some(p => p.includes("取り巻きは倒さず")));
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
