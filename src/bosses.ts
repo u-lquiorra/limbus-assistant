@@ -82,6 +82,7 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   aido: () => import("./data/bosses/aido"),
   "you-want-to-get-beat": () => import("./data/bosses/you-want-to-get-beat"),
   "baba-yaga": () => import("./data/bosses/baba-yaga"),
+  guido: () => import("./data/bosses/guido"),
   "quadruped-beast": () => import("./data/bosses/quadruped-beast"),
   "inquisitor-with-everything": () => import("./data/bosses/inquisitor-with-everything"),
   "wriggling-beast": () => import("./data/bosses/wriggling-beast"),
@@ -93,6 +94,7 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   "talisman-doll": () => import("./data/bosses/talisman-doll"),
   "wayward-fox": () => import("./data/bosses/wayward-fox"),
   "shock-centipede": () => import("./data/bosses/shock-centipede"),
+  "brazen-bull-dungeon": () => import("./data/bosses/brazen-bull-dungeon"),
   dongrang: () => import("./data/bosses/dongrang"),
   ricardo: () => import("./data/bosses/ricardo"),
   "walking-pearl": () => import("./data/bosses/walking-pearl"),
@@ -102,6 +104,7 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   "gas-harpoon": () => import("./data/bosses/gas-harpoon"),
   "kim-satgat": () => import("./data/bosses/kim-satgat"),
   josephine: () => import("./data/bosses/josephine"),
+  hindley: () => import("./data/bosses/hindley"),
   "crying-hindley": () => import("./data/bosses/crying-hindley"),
   "dead-rabbits-boss": () => import("./data/bosses/dead-rabbits-boss"),
   "heathcliff-mirror": () => import("./data/bosses/heathcliff-mirror"),
@@ -168,6 +171,7 @@ export interface BossSummary {
 }
 
 export function bossSummary(boss: BossGuide): BossSummary {
+  const image = boss.units.find((unit) => unit.image)?.image;
   return {
     id: boss.id,
     name: boss.name,
@@ -178,7 +182,7 @@ export function bossSummary(boss: BossGuide): BossSummary {
     checkedAt: boss.checkedAt,
     lead: boss.lead,
     listLead: boss.listLead ?? boss.lead,
-    image: boss.units.find((unit) => unit.image)?.image,
+    ...(image ? { image } : {}),
     unitNames: boss.units.map((unit) => unit.name),
   };
 }

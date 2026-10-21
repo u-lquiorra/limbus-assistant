@@ -1,0 +1,231 @@
+[
+  {
+    "id": "hindley-1",
+    "unit": "hindley",
+    "name": "雑魚どもが！",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "Ⅰ[的中時]次のターンに攻撃レベル増加1を得る",
+      "Ⅱ[的中時]次のターンに攻撃レベル増加1を得る"
+    ]
+  },
+  {
+    "id": "hindley-2",
+    "unit": "hindley",
+    "name": "片付けてやる",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[マッチ勝利時]基本威力+1",
+      "Ⅰ[的中時]対象に攻撃レベル減少があるなら、与ダメージ量20%分の打撃ダメージを与える",
+      "Ⅱ[的中時]対象に攻撃レベル減少があるなら、与ダメージ量20%分の打撃ダメージを与える"
+    ]
+  },
+  {
+    "id": "hindley-3",
+    "unit": "hindley",
+    "name": "ボタンを直すぞ",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 3,
+    "effects": [
+      "[マッチ勝利時]対象の攻撃レベル減少が2以上なら、基本威力+1",
+      "[使用時]対象に攻撃レベル減少があるなら、ダメージ量+30%",
+      "Ⅱ[的中時]自分の精神力を4回復",
+      "Ⅲ[的中時]自分の精神力を4回復",
+      "Ⅳ[的中時]自分の精神力を4回復"
+    ]
+  },
+  {
+    "id": "hindley-4",
+    "unit": "hindley",
+    "name": "潰してやる",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "マイナス効果が最も多い対象を優先して攻撃",
+      "[マッチ勝利時]対象の攻撃レベル減少3につき、コイン威力+1(最大3)",
+      "Ⅰ[的中時]脆弱1を付与",
+      "　[的中時]次のターンに脆弱1を付与",
+      "　[的中時]次のターンに麻痺2を付与",
+      "Ⅱ[的中時]対象の攻撃レベル減少2につき、ダメージ量+30%(最大120%)",
+      "　[表面的中時]対象のマイナス効果が3以上なら、このコインを再使用(最大1回)"
+    ]
+  },
+  {
+    "id": "hindley-5",
+    "unit": "hindley",
+    "name": "ガード",
+    "type": "防御",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[戦闘開始時]自分を除く生存している味方1名につき、バリアを20を追加で得る。"
+    ]
+  },
+  {
+    "id": "sensitive-rabbit-1",
+    "unit": "sensitive-rabbit",
+    "name": "ど…け",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂回数が3増加"
+    ]
+  },
+  {
+    "id": "sensitive-rabbit-2",
+    "unit": "sensitive-rabbit",
+    "name": "邪魔す…な",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の破裂回数が3以上なら、基本威力+1",
+      "Ⅰ[的中時]攻撃レベル減少2を付与",
+      "　[的中時]破裂回数が3増加",
+      "Ⅱ[的中時]攻撃レベル減少2を付与",
+      "　[的中時]破裂6を付与"
+    ]
+  },
+  {
+    "id": "sensitive-rabbit-3",
+    "unit": "sensitive-rabbit",
+    "name": "突…破…",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象に精神力3ダメージ",
+      "[使用時]対象に破裂があれば、破裂回数3につき基本威力+1(最大3)",
+      "Ⅰ[的中時]破裂回数が4増加",
+      "　[的中時]出血8を付与",
+      "Ⅱ[的中時]攻撃レベル減少3を付与",
+      "　[的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "sensitive-rabbit-4",
+    "unit": "sensitive-rabbit",
+    "name": "…撃",
+    "sin": "憂鬱",
+    "type": "反撃",
+    "attackType": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "対象に破裂があれば、最終威力+1",
+      "Ⅰ[的中時]出血2を付与"
+    ]
+  },
+  {
+    "id": "stern-rabbit-1",
+    "unit": "stern-rabbit",
+    "name": "処理す･･･",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 3,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "Ⅰ[的中時]破裂4を付与"
+    ]
+  },
+  {
+    "id": "stern-rabbit-2",
+    "unit": "stern-rabbit",
+    "name": "片･･･付･･･",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 3,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象の破裂威力が3以上なら、基本威力+1",
+      "Ⅰ[的中時]防御レベル減少2を付与",
+      "　[的中時]破裂回数が2増加",
+      "Ⅱ[的中時]防御レベル減少2を付与",
+      "　[的中時]破裂6を付与"
+    ]
+  },
+  {
+    "id": "stern-rabbit-3",
+    "unit": "stern-rabbit",
+    "name": "阻･･･止･･･",
+    "sin": "嫉妬",
+    "type": "打",
+    "base": 4,
+    "coinPower": 4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "[使用時]対象に精神力3ダメージ",
+      "[使用時]対象に破裂があれば、破裂威力4につき基本威力+1(最大3)",
+      "Ⅰ[的中時]破裂6を付与",
+      "　[的中時]出血6を付与",
+      "Ⅱ[的中時]防御レベル減少3を付与",
+      "　[的中時]次のターンに麻痺1を付与"
+    ]
+  },
+  {
+    "id": "stern-rabbit-4",
+    "unit": "stern-rabbit",
+    "name": "反･･･",
+    "sin": "憂鬱",
+    "type": "反撃",
+    "attackType": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 5,
+    "effects": [
+      "対象に破裂があれば、最終威力+1",
+      "Ⅰ[的中時]出血2を付与"
+    ]
+  }
+]

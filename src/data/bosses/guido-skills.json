@@ -1,0 +1,536 @@
+[
+  {
+    "id": "guido-1",
+    "unit": "guido",
+    "name": "大釘打ち",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "体力が50%未満のとき、付与するN社の釘+1",
+      "Ⅰ[的中時]次のターンにN社の釘1を付与",
+      "Ⅱ[的中時]次のターンにN社の釘1を付与",
+      "Ⅲ[的中時]次のターンにN社の釘2を付与"
+    ]
+  },
+  {
+    "id": "guido-2",
+    "unit": "guido",
+    "name": "貫く",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンに出血5を付与"
+    ]
+  },
+  {
+    "id": "guido-3",
+    "unit": "guido",
+    "name": "屈強な信心",
+    "type": "防御",
+    "base": 12,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]保護2を得る"
+    ]
+  },
+  {
+    "id": "guido-4",
+    "unit": "guido",
+    "name": "愚かなり…！",
+    "sin": "傲慢",
+    "type": "反撃",
+    "attackType": "貫",
+    "base": 8,
+    "coinPower": -4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[的中時]次のターンにN社の釘1を付与"
+    ]
+  },
+  {
+    "id": "guido-5",
+    "unit": "guido",
+    "name": "金鎚たちよ…！",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[マッチ勝利時]次のターン、全味方へ狂信1を付与",
+      "Ⅰ[的中時]精神力の最も低い味方2名の精神力が10回復"
+    ]
+  },
+  {
+    "id": "guido-6",
+    "unit": "guido",
+    "name": "大業を遂行せよ…！",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "[使用時]次のターン、全味方へ狂信1を付与"
+    ]
+  },
+  {
+    "id": "guido-7",
+    "unit": "guido",
+    "name": "罪を…洗い流さん！",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅰ[表面的中時]N社の釘5を付与",
+      "Ⅱ[的中時]対象のN社の釘が5以上なら、混乱状態にする"
+    ]
+  },
+  {
+    "id": "guido-8",
+    "unit": "guido",
+    "name": "異端抹殺",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 11,
+    "coinPower": -4,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "N社の釘がある対象を攻撃時、与ダメージ量+100%",
+      "Ⅰ[的中時]次のターンに破裂10を付与",
+      "Ⅱ[的中時]次のターンに脆弱5を付与"
+    ]
+  },
+  {
+    "id": "worshipping-inquisitor-1",
+    "unit": "worshipping-inquisitor",
+    "name": "刺し進める",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 2,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 0,
+    "effects": [
+      "Ⅲ[的中時]次のターンに出血2を付与"
+    ]
+  },
+  {
+    "id": "worshipping-inquisitor-2",
+    "unit": "worshipping-inquisitor",
+    "name": "釘打ち",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンにN社の釘1を付与",
+      "Ⅱ[的中時]次のターンにN社の釘1を付与"
+    ]
+  },
+  {
+    "id": "worshipping-inquisitor-3",
+    "unit": "worshipping-inquisitor",
+    "name": "異端審判",
+    "sin": "色欲",
+    "type": "打",
+    "base": 8,
+    "coinPower": -3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[表面的中時]N社の釘1を付与",
+      "Ⅱ[的中時]次のターンに出血3を付与"
+    ]
+  },
+  {
+    "id": "obedient-inquisitor-1",
+    "unit": "obedient-inquisitor",
+    "name": "叩く",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 4,
+    "coinPower": 2,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅱ[的中時]次のターンに麻痺、守備威力減少1を付与"
+    ]
+  },
+  {
+    "id": "obedient-inquisitor-2",
+    "unit": "obedient-inquisitor",
+    "name": "鎚打ち",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 4,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[的中時]次のターンに束縛3を付与"
+    ]
+  },
+  {
+    "id": "obedient-inquisitor-3",
+    "unit": "obedient-inquisitor",
+    "name": "異端審判",
+    "sin": "色欲",
+    "type": "打",
+    "base": 8,
+    "coinPower": -3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 2,
+    "effects": [
+      "Ⅰ[表面的中時]N社の釘1を付与",
+      "Ⅱ[的中時]次のターンに出血3を付与"
+    ]
+  },
+  {
+    "id": "torturing-inquisitor-1",
+    "unit": "torturing-inquisitor",
+    "name": "荒々しい釘打ち",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]次のターンにN社の釘、出血1を付与",
+      "Ⅱ[的中時]次のターンにN社の釘、出血1を付与",
+      "Ⅲ[的中時]次のターンにN社の釘、出血1を付与"
+    ]
+  },
+  {
+    "id": "torturing-inquisitor-2",
+    "unit": "torturing-inquisitor",
+    "name": "よくも！",
+    "sin": "憤怒",
+    "type": "反撃",
+    "attackType": "貫",
+    "base": 3,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンにN社の釘1を付与"
+    ]
+  },
+  {
+    "id": "torturing-inquisitor-3",
+    "unit": "torturing-inquisitor",
+    "name": "攻撃的な説破",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ敗北]次のターンに脆弱2を得る",
+      "Ⅱ[的中時]次のターンに脆弱2を付与"
+    ]
+  },
+  {
+    "id": "torturing-inquisitor-4",
+    "unit": "torturing-inquisitor",
+    "name": "荒々しい異端審判",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 6,
+    "coinPower": -1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅱ[表面的中時]N社の釘1を付与",
+      "Ⅲ[的中時]対象のN社の釘が5以上なら、次のターンに束縛10を付与"
+    ]
+  },
+  {
+    "id": "skilled-inquisitor-1",
+    "unit": "skilled-inquisitor",
+    "name": "力強い鎚打ち",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 2,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅱ[的中時]次のターンに束縛3、麻痺2を付与"
+    ]
+  },
+  {
+    "id": "skilled-inquisitor-2",
+    "unit": "skilled-inquisitor",
+    "name": "よくも！",
+    "sin": "憤怒",
+    "type": "反撃",
+    "attackType": "貫",
+    "base": 3,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンにN社の釘1を付与"
+    ]
+  },
+  {
+    "id": "skilled-inquisitor-3",
+    "unit": "skilled-inquisitor",
+    "name": "圧倒的な説破",
+    "sin": "色欲",
+    "type": "打",
+    "base": 5,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ敗北]次のターンに攻撃威力減少2を得る",
+      "Ⅰ[的中時]次のターンに攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "skilled-inquisitor-4",
+    "unit": "skilled-inquisitor",
+    "name": "荒々しい異端審判",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 6,
+    "coinPower": -1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅱ[表面的中時]N社の釘1を付与",
+      "Ⅲ[的中時]対象のN社の釘が5以上なら、次のターンに束縛10を付与"
+    ]
+  },
+  {
+    "id": "pain-loving-inquisitor-1",
+    "unit": "pain-loving-inquisitor",
+    "name": "荒々しい釘打ち",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅰ[的中時]次のターンにN社の釘、出血1を付与",
+      "Ⅱ[的中時]次のターンにN社の釘、出血1を付与",
+      "Ⅲ[的中時]次のターンにN社の釘、出血1を付与"
+    ]
+  },
+  {
+    "id": "pain-loving-inquisitor-2",
+    "unit": "pain-loving-inquisitor",
+    "name": "力強い鎚打ち",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 2,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅱ[的中時]次のターンに束縛3、麻痺2を付与"
+    ]
+  },
+  {
+    "id": "pain-loving-inquisitor-3",
+    "unit": "pain-loving-inquisitor",
+    "name": "圧倒的な説破",
+    "sin": "色欲",
+    "type": "打",
+    "base": 5,
+    "coinPower": 9,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "[マッチ敗北]次のターンに攻撃威力減少2を得る",
+      "Ⅰ[的中時]次のターンに攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "pain-loving-inquisitor-4",
+    "unit": "pain-loving-inquisitor",
+    "name": "荒々しい異端審判",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 6,
+    "coinPower": -1,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -1,
+    "effects": [
+      "Ⅱ[表面的中時]N社の釘1を付与",
+      "Ⅲ[的中時]対象のN社の釘が5以上なら、次のターンに束縛10を付与"
+    ]
+  },
+  {
+    "id": "obsessed-inquisitor-1",
+    "unit": "obsessed-inquisitor",
+    "name": "貫く釘",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 8,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "Ⅰ[的中時]次のターンにN社の釘2を付与"
+    ]
+  },
+  {
+    "id": "obsessed-inquisitor-2",
+    "unit": "obsessed-inquisitor",
+    "name": "固い信心",
+    "type": "防御",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]保護1を得る"
+    ]
+  },
+  {
+    "id": "obsessed-inquisitor-3",
+    "unit": "obsessed-inquisitor",
+    "name": "集結",
+    "sin": "色欲",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ勝利時]次のターン、ランダムな味方2名へ狂信1を付与",
+      "Ⅰ[的中時]次のターンに出血2を付与"
+    ]
+  },
+  {
+    "id": "obsessed-inquisitor-4",
+    "unit": "obsessed-inquisitor",
+    "name": "重々しい異端審判",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 7,
+    "coinPower": -2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "Ⅰ[表面的中時]N社の釘2を付与",
+      "Ⅲ[的中時]対象のN社の釘が5以上なら、次のターンに攻撃威力減少、麻痺10を付与"
+    ]
+  },
+  {
+    "id": "ecstatic-inquisitor-1",
+    "unit": "ecstatic-inquisitor",
+    "name": "治める金鎚",
+    "sin": "傲慢",
+    "type": "打",
+    "base": 4,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "Ⅰ[表面的中時]次のターンに束縛3、攻撃威力減少2を付与"
+    ]
+  },
+  {
+    "id": "ecstatic-inquisitor-2",
+    "unit": "ecstatic-inquisitor",
+    "name": "固い信心",
+    "type": "防御",
+    "base": 6,
+    "coinPower": 4,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 1,
+    "effects": [
+      "[使用時]保護1を得る"
+    ]
+  },
+  {
+    "id": "ecstatic-inquisitor-3",
+    "unit": "ecstatic-inquisitor",
+    "name": "団結",
+    "sin": "色欲",
+    "type": "打",
+    "base": 4,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ勝利時]精神力の最も低い味方2名の精神力が15回復",
+      "Ⅰ[的中時]次のターンに出血2を付与"
+    ]
+  },
+  {
+    "id": "ecstatic-inquisitor-4",
+    "unit": "ecstatic-inquisitor",
+    "name": "重々しい異端審判",
+    "sin": "憤怒",
+    "type": "打",
+    "base": 7,
+    "coinPower": -2,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "Ⅰ[表面的中時]N社の釘2を付与",
+      "Ⅲ[的中時]対象のN社の釘が5以上なら、次のターンに攻撃威力減少、麻痺10を付与"
+    ]
+  }
+]

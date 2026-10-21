@@ -970,6 +970,31 @@ test("6章中編: 一度だけの混乱解除・HP下限・取り巻き撃破の
   assert(rabbits.priorities.some(p => p.includes("取り巻きは倒さず")));
 });
 
+test("序盤の追加戦: 口笛・任意戦闘・取り巻き死亡の効果と画像なし要約を保持する", () => {
+  const guido = getBossGuide("guido")!;
+  const bull = getBossGuide("brazen-bull-dungeon")!;
+  const hindley = getBossGuide("hindley")!;
+  assert.deepEqual([guido.stage, bull.stage, hindley.stage], ["3-18", "4-54", "6-31"]);
+  assert.deepEqual([guido.skills.length, bull.skills.length, hindley.skills.length], [34, 6, 13]);
+  assert.match(guido.mechanics.find(m => m.name === "クローマーの口笛")!.effect, /3ターン.*15回復.*精神力が30減少/);
+  assert.match(guido.skills.find(s => s.name === "罪を…洗い流さん！")!.effects.join(""), /表面的中時.*釘5/);
+  assert.equal(guido.skills.find(s => s.name === "異端抹殺")!.base, 11);
+  assert.equal(guido.skills.find(s => s.name === "異端抹殺")!.coinPower, -4);
+  assert.match(guido.passives.find(p => p.name === "執念")!.condition, /50%未満/);
+  assert.match(bull.priorities[0], /走る、走る、走らない/);
+  assert.deepEqual(bull.units.map(u => [u.level, u.hp, u.defenseLevel]), [[33, "549", 40], [33, "179", 29]]);
+  assert.equal(bull.skills.find(s => s.name === "熱い悲鳴")!.levelOffset, 2);
+  assert.match(bull.passives.find(p => p.name === "抜け出せぬ哀しみ")!.condition, /頭が破壊済み/);
+  assert.match(hindley.passives.find(p => p.name === "戦力補強")!.effect, /次のターン.*スロット/);
+  assert.match(hindley.passives.find(p => p.name === "こんなはずは")!.effect, /人数.*攻撃レベル減少2/);
+  assert.equal(hindley.skills.find(s => s.name === "邪魔す…な")!.type, "打");
+  assert.equal(hindley.skills.find(s => s.name === "片･･･付･･･")!.type, "打");
+  assert(hindley.units.slice(0, 2).every(u => u.stagger.includes("未確定")));
+  const summary = bossSummary(hindley);
+  assert.equal(summary.image, undefined);
+  assert.deepEqual(JSON.parse(JSON.stringify(summary)), summary, "画像なしの要約もJSON保存で変わらない");
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
