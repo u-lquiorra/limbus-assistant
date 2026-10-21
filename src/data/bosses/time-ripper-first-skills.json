@@ -1,0 +1,147 @@
+[
+  {
+    "id": "time-ripper-first-1",
+    "unit": "time-ripper-first",
+    "name": "怖じ気づいたか？",
+    "sin": "憂鬱",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "時間加速状態なら、マッチ威力+1",
+      "[マッチ敗北]自分の体力が75%未満なら、奪った時間を50消耗し、保護1を得る(1ターンにつき1回)",
+      "Ⅰ[的中時]出血3を付与",
+      "Ⅱ[的中時]出血3を付与"
+    ]
+  },
+  {
+    "id": "time-ripper-first-2",
+    "unit": "time-ripper-first",
+    "name": "時間を殺した罰",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": -4,
+    "effects": [
+      "時間加速状態なら、マッチ威力+2",
+      "[使用時]奪った時間が500以上なら、対象の出血回数が1増加",
+      "[使用時]奪った時間が300以上なら奪った時間を25消耗し、このスキルで付与する出血威力と回数+1",
+      "Ⅰ[的中時]出血4を付与",
+      "Ⅱ[的中時]出血回数が2増加",
+      "Ⅲ[的中時]出血回数が2増加"
+    ]
+  },
+  {
+    "id": "time-ripper-first-3",
+    "unit": "time-ripper-first",
+    "name": "摘出",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "時間加速状態なら、コイン威力+1",
+      "[使用時]自分の体力が75%未満なら、奪った時間を50消耗してマッチ威力+2",
+      "Ⅰ[的中時]出血3を付与",
+      "Ⅱ[的中時]出血3を付与",
+      "Ⅲ[的中時]出血3を付与",
+      "Ⅳ[的中時]出血回数が2増加"
+    ]
+  },
+  {
+    "id": "time-ripper-first-4",
+    "unit": "time-ripper-first",
+    "name": "滅多切り",
+    "sin": "憤怒",
+    "type": "斬",
+    "base": 5,
+    "coinPower": 5,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]自分の体力が75%未満なら、奪った時間を75消耗してマッチ威力+2",
+      "[攻撃前]時間加速状態なら、攻撃加重値が1増加",
+      "Ⅰ[的中時]出血回数が1増加",
+      "Ⅱ[的中時]出血8を付与"
+    ]
+  },
+  {
+    "id": "time-ripper-first-5",
+    "unit": "time-ripper-first",
+    "name": "救済する時間",
+    "sin": "嫉妬",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ不可]",
+      "自分に攻撃スキルを使用した対象へ、次のターンに時間救済対象を付与",
+      "[戦闘開始時]奪った時間を200消耗。次のターンに時間加速を得る"
+    ],
+    "label": "マッチ不可"
+  },
+  {
+    "id": "time-ripper-first-6",
+    "unit": "time-ripper-first",
+    "name": "回避",
+    "sin": "暴食",
+    "type": "回避",
+    "base": 2,
+    "coinPower": 6,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[使用時]奪った時間100につき、基本威力+1"
+    ]
+  },
+  {
+    "id": "time-ripper-first-7",
+    "unit": "time-ripper-first",
+    "name": "そんな･･･。",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ敗北]脆弱1を得る",
+      "Ⅰ[的中時]出血3を付与",
+      "Ⅱ[的中時]出血3を付与"
+    ]
+  },
+  {
+    "id": "time-ripper-first-8",
+    "unit": "time-ripper-first",
+    "name": "時間が足りない",
+    "sin": "怠惰",
+    "type": "斬",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": -3,
+    "effects": [
+      "[マッチ敗北]脆弱1を得る",
+      "Ⅰ[的中時]出血3を付与",
+      "Ⅱ[的中時]出血3を付与",
+      "Ⅲ[的中時]出血3を付与",
+      "Ⅳ[的中時]出血回数が2増加"
+    ]
+  }
+]

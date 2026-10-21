@@ -1,0 +1,131 @@
+[
+  {
+    "id": "yurodivy-captain-1",
+    "unit": "yurodivy-captain",
+    "name": "良心は無いのか？",
+    "sin": "憂鬱",
+    "type": "打",
+    "base": 3,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[使用時]自分の振動回数が1増加",
+      "Ⅰ[的中時]振動2を付与",
+      "Ⅱ[的中時]振動2を付与"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-2",
+    "unit": "yurodivy-captain",
+    "name": "良心無いんだな",
+    "sin": "暴食",
+    "type": "打",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[使用時]自分の振動回数が1増加",
+      "Ⅰ[的中時]振動3を付与",
+      "Ⅱ[的中時]振動3を付与"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-3",
+    "unit": "yurodivy-captain",
+    "name": "守れるか？",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 2,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[使用時]自分の振動回数が1増加",
+      "Ⅰ[的中時]振動5を付与",
+      "Ⅱ[的中時]自分の振動回数が10以上なら、振動爆発。対象の振動回数が1減少",
+      "　[的中時]対象の振動威力が15以上なら、振動爆発。対象の振動回数が1減少"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-4",
+    "unit": "yurodivy-captain",
+    "name": "その武器使えなくなるぞ？",
+    "sin": "怠惰",
+    "type": "貫",
+    "base": 4,
+    "coinPower": 3,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[使用時]自分の振動回数が2増加",
+      "Ⅰ[的中時]振動5を付与",
+      "Ⅱ[的中時]振動5を付与",
+      "Ⅲ[的中時]振動-崩壊で振幅変換"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-5",
+    "unit": "yurodivy-captain",
+    "name": "覚悟はできてるだろうな？",
+    "sin": "傲慢",
+    "type": "貫",
+    "base": 5,
+    "coinPower": 3,
+    "coins": 4,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "振動-崩壊がある対象を優先して攻撃",
+      "[使用時]自分を除いた全味方へ自分の振動回数だけ振動回数を付与",
+      "[使用時]自分を含めた全味方の振動を振動-分配へ振幅変換",
+      "Ⅲ[的中時]振動10を付与",
+      "Ⅳ[的中時]振動-反響へ振幅絡縺"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-6",
+    "unit": "yurodivy-captain",
+    "name": "ガード",
+    "type": "防御",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 1,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[戦闘開始時]自分の振動回数の3倍だけバリアを得る(最大30)"
+    ]
+  },
+  {
+    "id": "yurodivy-captain-7",
+    "unit": "yurodivy-captain",
+    "name": "大義のための収集",
+    "sin": "憤怒",
+    "type": "貫",
+    "base": 10,
+    "coinPower": 5,
+    "coins": 3,
+    "weight": 1,
+    "levelOffset": 4,
+    "effects": [
+      "[マッチ不可]",
+      "[戦闘開始時]自分を除いた全味方の振動回数を自分が得て、全味方の振動を除去",
+      "[戦闘開始時]自分の振動回数3につき、攻撃レベル増加1を得る",
+      "[使用時]自分の振動回数が9増加",
+      "Ⅰ[的中時]振動10を付与",
+      "　[的中時]自分の振動回数につき10%分の追加怠惰ダメージを与える",
+      "Ⅱ[的中時]振動回数が4増加",
+      "　[的中時]自分の振動回数につき10%分の追加怠惰ダメージを与える",
+      "Ⅲ[的中時]自分の振動回数を3消耗し、振動爆発。対象の振動回数が1減少",
+      "　[的中時]自分の振動回数を3消耗し、振動爆発。対象の振動回数が1減少",
+      "　[的中時]自分の振動回数を3消耗し、振動爆発。対象の振動回数が1減少"
+    ],
+    "label": "マッチ不可"
+  }
+]

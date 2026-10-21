@@ -995,6 +995,32 @@ test("序盤の追加戦: 口笛・任意戦闘・取り巻き死亡の効果と
   assert.deepEqual(JSON.parse(JSON.stringify(summary)), summary, "画像なしの要約もJSON保存で変わらない");
 });
 
+test("章間の3戦: 一時スロット・出撃制限・時間消耗と予告対象を区別する", () => {
+  const jun = getBossGuide("jun")!;
+  const captain = getBossGuide("yurodivy-captain")!;
+  const ripper = getBossGuide("time-ripper-first")!;
+  assert.deepEqual([jun.stage, captain.stage, ripper.stage], ["5.5-22", "6.5-10", "6.5-14"]);
+  assert.deepEqual([jun.skills.length, captain.skills.length, ripper.skills.length], [6, 7, 8]);
+  const slots = jun.passives.find(p => p.name === "後始末")!;
+  assert.match(slots.condition, /1ターン1回/);
+  assert.match(slots.effect, /次のターン.*持続しない/);
+  const counter = jun.skills.find(s => s.name === "裏路地の掟")!;
+  assert.equal(counter.type, "反撃");
+  assert.equal(counter.coins, 1, "条件付き追加枚数を常時の枚数にしない");
+  assert.match(counter.effects.join(""), /コインを1つ追加.*最大3/);
+  assert.equal(captain.members, 3);
+  assert.equal(captain.units[0].hp, "582", "ダンジョン道中の633を流用しない");
+  assert.match(captain.units[0].stagger, /未確定/);
+  assert.match(captain.mechanics.find(m => m.name === "3名限定・初期2スロット")!.effect, /良秀・ホンル・ロージャ/);
+  assert.match(captain.skills.find(s => s.name === "大義のための収集")!.label!, /マッチ不可/);
+  assert.equal(ripper.members, 6);
+  assert.equal(ripper.units.length, 1, "最終戦の脳部位を混ぜない");
+  assert.equal(ripper.units[0].defenseLevel, 48, "動的な時間補正を基礎値へ加算しない");
+  assert.match(ripper.skills.find(s => s.name === "救済する時間")!.effects.join(""), /次のターンに時間救済対象/);
+  assert.match(ripper.phases.find(p => p.id === "finish")!.steps.join(""), /3行動/);
+  assert(!ripper.passives.some(p => ["定刻", "残された時間"].includes(p.name)), "Hard限定を混ぜない");
+});
+
 test("ボス画像: 参照画像がローカルに存在し、寸法と取得元の記録が一致する", async () => {
   const root = new URL("../public/", import.meta.url);
   const sources = JSON.parse(await readFile(new URL("images/bosses/sources.json", root), "utf8")) as {
