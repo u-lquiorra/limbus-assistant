@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import { getPersona, standalonePersonas, teams } from "../data/loader";
 import { keywordFilterPath } from "../keywordPages";
 import { supportPassivesPath } from "../supportPassives";

@@ -4,6 +4,7 @@ import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
+import { findSlashlessLinks } from "../src/sitePath.ts";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
@@ -179,6 +180,9 @@ let failed = 0;
 for (const pathname of routes) {
   try {
     const body = await entry.render(pathname);
+    // / なしのサイト内リンクは配信時に転送が挟まるため、見つけたらビルドを失敗させる(sitePath.ts)
+    const slashless = findSlashlessLinks(body);
+    if (slashless.length) throw new Error(`末尾に / が無いサイト内リンク: ${[...new Set(slashless)].slice(0, 5).join(", ")}`);
     const { title, tags } = await headTags(pathname);
     const lastmod = entry.lastModified(pathname);
     if (lastmod) lastmods.set(pathname, lastmod);

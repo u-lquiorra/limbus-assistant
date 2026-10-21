@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { Link, useLocation, useSearchParams } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
+import { Link } from "../components/Link";
 import { getPersona } from "../data/loader";
 import { rerollCandidates, rerollCheckedAt, walpurgisCandidates } from "../data/reroll";
 import { asset } from "../lib";

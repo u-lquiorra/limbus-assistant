@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { Link } from "../components/Link";
 import { SearchBox } from "../components/ui";
 import { filterGlossary, GLOSSARY_CATEGORIES, glossaryTerms, type GlossaryTerm } from "../glossary";
 import "./glossary.css";

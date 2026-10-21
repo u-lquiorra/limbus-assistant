@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import Breadcrumb from "../components/Breadcrumb";
 import { X_ACCOUNT, X_URL } from "../seo";
 import "./about.css";

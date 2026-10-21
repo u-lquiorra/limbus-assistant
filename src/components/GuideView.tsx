@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "./Link";
 import { getEgo, getPersona } from "../data/loader";
 import type { GuideSection as GuideSectionData, InlineSegment } from "../guide";
 import { asset } from "../lib";

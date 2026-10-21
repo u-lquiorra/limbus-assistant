@@ -1,4 +1,5 @@
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
+import { Link } from "../components/Link";
 import { getGlossaryTerm, glossarySectionRedirect, GLOSSARY_CATEGORIES } from "../glossary";
 import { TermCard } from "./GlossaryPage";
 import GlossaryExample from "../components/GlossaryExample";

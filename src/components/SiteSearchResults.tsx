@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "./Link";
 import { asset } from "../lib";
 import { searchEntries, type SearchGroup, type SearchKind } from "../search";
 import { siteSearchEntries } from "../siteSearch";

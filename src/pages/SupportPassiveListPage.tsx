@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import Breadcrumb from "../components/Breadcrumb";
 import EffectText from "../components/EffectText";
 import PageToc from "../components/PageToc";

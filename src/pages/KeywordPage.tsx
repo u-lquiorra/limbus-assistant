@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
+import { Link } from "../components/Link";
 import Breadcrumb from "../components/Breadcrumb";
 import PageToc from "../components/PageToc";
 import { PersonaRow } from "../components/TeamLinks";

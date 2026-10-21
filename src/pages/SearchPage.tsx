@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import { SearchBox } from "../components/ui";
 import SiteSearchResults from "../components/SiteSearchResults";
 import { useSearchQuery } from "../useSearchQuery";

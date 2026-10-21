@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "./Link";
 import type { PersonaStatus, PersonaSkills } from "../types";
 import { asset, personaAttackTypes, personaSins, seasonLabel } from "../lib";
 import { AttackTypeIcon, SinDot } from "./ui";

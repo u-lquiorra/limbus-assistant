@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "./Link";
 import type { EgoSummary } from "../types";
 import { asset } from "../lib";
 import { egoCostSins } from "../egoFilter";

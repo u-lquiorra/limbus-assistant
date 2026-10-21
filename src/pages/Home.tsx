@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import { characterList } from "../data/loader";
 import { asset } from "../lib";
 import SiteLogo from "../components/SiteLogo";

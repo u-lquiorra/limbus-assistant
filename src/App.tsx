@@ -1,5 +1,6 @@
 import { Suspense, useEffect, useRef } from "react";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { Link } from "./components/Link";
 import { APP_ROUTES } from "./routes";
 import SiteLogo from "./components/SiteLogo";
 import { NAV_ITEMS, activeNavItem, isPage } from "./nav";

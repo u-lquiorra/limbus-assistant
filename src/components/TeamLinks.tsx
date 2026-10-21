@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "./Link";
 import { getPersona } from "../data/loader";
 import { asset, seasonLabel } from "../lib";
 import type { TeamData, TeamMember } from "../types";

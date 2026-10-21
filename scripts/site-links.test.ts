@@ -154,7 +154,7 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
         const names = $("#normal-candidates .reroll-table tbody th").map((_, element) => $(element).text()).get();
         assert.deepEqual(names, characters.map(({ name }) => name), "おすすめ一覧が12囚人を順番に網羅している");
         assert.equal($("#normal-candidates .reroll-table tbody tr").length, 12);
-        const limitedCodes = $("#walpurgis .reroll-table-persona").map((_, element) => $(element).attr("href")!.split("/").at(-1)!).get();
+        const limitedCodes = $("#walpurgis .reroll-table-persona").map((_, element) => $(element).attr("href")!.split("/").filter(Boolean).at(-1)!).get();
         assert(limitedCodes.length > 0, "期間限定のおすすめが存在する");
         assert.equal(new Set(limitedCodes).size, limitedCodes.length, "期間限定候補が重複していない");
         for (const code of limitedCodes) {
@@ -173,7 +173,9 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
         assert(href.startsWith("/"), `${path}: HashRouterで使えない内部リンク ${href}`);
         assertRoute(href, path);
         const url = new URL(href, "https://limbus.test");
-        if (url.pathname === new URL(path, "https://limbus.test").pathname && url.hash) {
+        // サイト内リンクは末尾に / が付く(src/sitePath.ts)ため、/ の有無をそろえて同じページか判定する
+        const samePage = url.pathname.replace(/\/+$/, "") === new URL(path, "https://limbus.test").pathname.replace(/\/+$/, "");
+        if (samePage && url.hash) {
           assert(ids.includes(decodeURIComponent(url.hash.slice(1))), `${path}: ページ内リンク先がない ${href}`);
         }
       });

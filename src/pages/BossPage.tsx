@@ -1,5 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
+import { Link } from "../components/Link";
 import { BOSS_SECTIONS, bossChapterId, bossChapterStageRange, bossSummaries, getBossSummary, groupBossesByChapter, loadBossGuide, peekBossGuide, type BossGuide, type BossSkill } from "../bosses";
 import { getGlossaryTerm } from "../glossary";
 import { SIN_COLORS, SIN_ORDER } from "../sinColors";
