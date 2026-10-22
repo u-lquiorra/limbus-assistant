@@ -195,7 +195,7 @@ const allTeams: TeamData[] = teamsList as unknown as TeamData[];
 
 // 鏡ダンジョンの編成は内容の正確さを確かめきれていないため、いったん画面から外す。
 // データ(teams.json・team-guides)は残し、ここで除外するだけにする。戻すときは false にする
-const HIDE_MIRROR_TEAMS = true;
+const HIDE_MIRROR_TEAMS = false;
 
 // 一覧・詳細・人格ページの逆引き・検索・サイトマップは、すべてこの teams を参照する
 export const teams: TeamData[] = HIDE_MIRROR_TEAMS ? allTeams.filter((t) => t.category !== "鏡ダンジョン") : allTeams;
