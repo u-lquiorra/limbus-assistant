@@ -107,6 +107,7 @@ test("辞典の図: 計算・比較・回数表示に必要な数値が有効", 
     "resistance-comparison": 3, "potency-count": 2, "two-attributes": 0, "condition-branch": 0, chance: 2,
     "target-redirect": 3, "slot-growth": 2, "defense-offset": 0, "effect-timeline": 0,
     "skill-choice": 0, "part-damage": 0,
+    "evade-backup": 0, "evade-chain": 0,
   };
   for (const term of glossaryTerms.flatMap((term) => [term, ...term.sections ?? []])) {
     const diagram = term.example.diagram;

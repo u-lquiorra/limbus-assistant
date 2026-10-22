@@ -9,6 +9,36 @@ export default function GlossaryExample({ example }: { example: GlossaryTerm["ex
   const diagram = example.diagram;
   let visual;
   switch (diagram?.type) {
+    case "evade-backup": {
+      visual = <div className="evade-backup-diagram">
+        <div className="evade-setup">
+          <div className="evade-own-slots">
+            <p className="diagram-legend">同じ人格の行動枠（2枠以上）</p>
+            <div className="diagram-node"><strong>① 回避を指定</strong><span>行動枠A：一方防御で待機</span></div>
+            <div className="diagram-node diagram-highlight"><strong>② 攻撃を指定</strong><span>行動枠B：こちらでマッチ</span></div>
+          </div>
+          <span className="target-arrow" aria-label="両方を同じ敵スロットへ指定">→</span>
+          <div className="diagram-node evade-enemy"><span>同じ敵スロット</span><strong>破壊不能コインを含む攻撃</strong><span>この人格を攻撃する</span></div>
+        </div>
+        <p className="target-operation">指定順は「回避 → 攻撃」</p>
+        <ol className="evade-resolution">
+          <li className="diagram-node"><span>マッチ</span><strong>行動枠Bの攻撃で勝利</strong><span>続いて自分が攻撃する</span></li>
+          <li className="diagram-node diagram-highlight"><span>残った破壊不能コインが攻撃</span><strong>行動枠Aの回避が発動</strong><span>成功すれば被ダメージ・的中時効果を防ぐ</span></li>
+        </ol>
+      </div>;
+      break;
+    }
+    case "evade-chain": {
+      visual = <div className="evade-chain-diagram">
+        <div className="diagram-node diagram-highlight"><strong>回避に使う行動枠は1つ</strong><span>残りの行動枠では攻撃できる</span></div>
+        <div className="diagram-arrow" aria-hidden="true">↓</div>
+        <ol className="evade-chain-timeline">{example.steps.map((step, index) => <li className={index === example.steps.length - 1 ? "evade-chain-failure" : ""} key={step}>
+          <span className="evade-chain-marker" aria-hidden="true">{index === example.steps.length - 1 ? "×" : "✓"}</span>
+          <div><strong>{step}</strong><span>{index === 0 ? "指定先からの攻撃で回避が発動" : index === example.steps.length - 1 ? "失敗したコインを避け直すことはできない" : "同じ回避を再使用し、コインを振り直す"}</span></div>
+        </li>)}</ol>
+      </div>;
+      break;
+    }
     case "target-redirect": {
       const [enemy, original, helper] = diagram.values;
       visual = <div className="target-redirect-diagram">
