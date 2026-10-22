@@ -59,6 +59,8 @@ export default function BeginnerGuide() {
 
     <Link to="/reroll" className="beginner-home-link" style={{ marginBottom: 30 }}><span className="kicker">REROLL GUIDE</span><strong>ゲーム開始前の抽出で迷ったら、リセマラガイドへ →</strong><span>おすすめ人格と終了ライン、端末ごとの注意点を確認。</span></Link>
 
+    <Link to="/focused-battle" className="beginner-home-link" style={{ marginBottom: 30 }}><span className="kicker">BATTLE GUIDE</span><strong>集中戦闘の進め方を、図で覚える →</strong><span>敵の狙い・速度を見て、1ターンのマッチを割り当てる例を追う。</span></Link>
+
     <div className="beginner-layout">
       <aside className="beginner-sidebar">
         <nav className="beginner-toc" aria-label="初心者ガイドの目次">

@@ -28,7 +28,7 @@ function assertRoute(path: string, context: string) {
   const url = new URL(path, "https://limbus.test");
   const parts = url.pathname.split("/").filter(Boolean);
   const [kind, id] = parts;
-  if (!kind || (parts.length === 1 && ["beginner", "reroll", "glossary", "bosses"].includes(kind))) return;
+  if (!kind || (parts.length === 1 && ["beginner", "reroll", "focused-battle", "glossary", "bosses"].includes(kind))) return;
   assert.equal(parts.length, 2, `${context}: 不明なページ ${path}`);
   if (kind === "glossary") {
     const term = getGlossaryTerm(id);
@@ -58,6 +58,7 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
   const server = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
   try {
     const { default: BeginnerGuide } = await server.ssrLoadModule("/src/pages/BeginnerGuide.tsx");
+    const { default: FocusedBattleGuide } = await server.ssrLoadModule("/src/pages/FocusedBattleGuide.tsx");
     const { default: RerollGuide } = await server.ssrLoadModule("/src/pages/RerollGuide.tsx");
     const { default: GlossaryPage } = await server.ssrLoadModule("/src/pages/GlossaryPage.tsx");
     const { default: GlossaryDetail } = await server.ssrLoadModule("/src/pages/GlossaryDetail.tsx");
@@ -66,6 +67,7 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
     await (await server.ssrLoadModule("/src/bosses.ts")).loadAllBossGuides();
     const pages = [
       { path: "/beginner", route: "/beginner", component: BeginnerGuide },
+      { path: "/focused-battle", route: "/focused-battle", component: FocusedBattleGuide },
       { path: "/reroll", route: "/reroll", component: RerollGuide },
       { path: "/reroll?tab=walpurgis#candidates", route: "/reroll", component: RerollGuide },
       { path: "/reroll#walpurgis", route: "/reroll", component: RerollGuide },

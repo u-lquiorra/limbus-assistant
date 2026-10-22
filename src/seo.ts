@@ -69,6 +69,10 @@ const STATIC_PAGES: Record<string, PageMeta> = {
     title: withSite("リセマラガイド｜おすすめ人格と終了ライン"),
     description: "リンバス(Limbus Company)のリセマラガイド。おすすめの人格・E.G.Oと選ぶ理由、どこで終えてよいかの目安、手順をまとめている。",
   },
+  "/focused-battle": {
+    title: withSite("集中戦闘の進め方｜図で覚えるマッチの割り当て"),
+    description: "集中戦闘の1ターンを4段階の図で解説。敵の攻撃先の確認、速度によるマッチの引き受け、一方攻撃、勝てないときの対応を順に追える。",
+  },
   "/bosses": {
     title: withSite("ボス攻略一覧"),
     description: "リンバス(Limbus Company)のボス攻略一覧。ストーリーの章別攻略と、射影戦闘のNORMAL・HARD攻略を掲載。負け方への対処、敵の技とパッシブ、18ターン以内を目指す編成を確認できる。",
@@ -327,7 +331,7 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
 
   // 解説ページは記事として扱う。更新日はガイド・ボス攻略の確認日から
   const articleKinds = ["persona", "ego", "teams", "bosses"];
-  const isArticle = (id && articleKinds.includes(kind)) || path === "/beginner" || path === "/reroll";
+  const isArticle = (id && articleKinds.includes(kind)) || path === "/beginner" || path === "/reroll" || path === "/focused-battle";
   if (isArticle) {
     const date = updated ?? (kind === "bosses" ? getBossSummary(id)?.checkedAt : undefined);
     result.push({

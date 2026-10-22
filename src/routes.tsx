@@ -25,6 +25,7 @@ const KeywordPage = lazyPage(() => import("./pages/KeywordPage").then((m) => m.d
 const GlossaryPage = lazyPage(() => import("./pages/GlossaryPage").then((m) => m.default));
 const GlossaryDetail = lazyPage(() => import("./pages/GlossaryDetail").then((m) => m.default));
 const BeginnerGuide = lazyPage(() => import("./pages/BeginnerGuide").then((m) => m.default));
+const FocusedBattleGuide = lazyPage(() => import("./pages/FocusedBattleGuide").then((m) => m.default));
 const RerollGuide = lazyPage(() => import("./pages/RerollGuide").then((m) => m.default));
 const BossIndex = lazyPage(() => import("./pages/BossPage").then((m) => m.BossIndex));
 const BossPage = lazyPage(() => import("./pages/BossPage").then((m) => m.default));
@@ -50,6 +51,7 @@ export const APP_ROUTES: AppRoute[] = [
   lazyRoute("/glossary", GlossaryPage, "GlossaryPage"),
   lazyRoute("/glossary/:id", GlossaryDetail, "GlossaryDetail"),
   lazyRoute("/beginner", BeginnerGuide, "BeginnerGuide"),
+  lazyRoute("/focused-battle", FocusedBattleGuide, "FocusedBattleGuide"),
   lazyRoute("/reroll", RerollGuide, "RerollGuide"),
   lazyRoute("/bosses", BossIndex, "BossPage"),
   lazyRoute("/search", SearchPage, "SearchPage"),
