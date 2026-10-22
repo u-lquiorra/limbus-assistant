@@ -71,7 +71,7 @@ const STATIC_PAGES: Record<string, PageMeta> = {
   },
   "/bosses": {
     title: withSite("ボス攻略一覧"),
-    description: "リンバス(Limbus Company)のボス攻略一覧。詰まりやすい戦闘の負け方と対処、敵のスキル・パッシブ、おすすめの編成を章順にまとめている。",
+    description: "リンバス(Limbus Company)のボス攻略一覧。ストーリーの章別攻略と、射影戦闘のNORMAL・HARD攻略を掲載。負け方への対処、敵の技とパッシブ、18ターン以内を目指す編成を確認できる。",
   },
   "/glossary": {
     title: withSite("用語辞典"),
@@ -148,7 +148,7 @@ export function pageMeta(pathname: string): PageMeta {
       const boss = getBossSummary(id);
       if (!boss) return notFound("ボス攻略");
       return {
-        title: withSite(`${boss.stage} ${boss.name}の攻略`),
+        title: withSite(boss.projection ? `射影戦闘 ${boss.shortName} ${boss.projection.difficulty}${boss.projection.difficulty === "HARD" ? ` ${boss.projection.targetTurns}ターン以内` : ""}の攻略` : `${boss.stage} ${boss.name}の攻略`),
         description: clip(`リンバス(Limbus Company)${boss.stage}「${boss.name}」の攻略。${boss.lead}`),
       };
     }

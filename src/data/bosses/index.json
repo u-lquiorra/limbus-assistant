@@ -1598,5 +1598,59 @@
       "シーシュポスシステムの設計図-ル・ノワール",
       "シーシュポスシステムの設計図-ル・ルージュ"
     ]
+  },
+  {
+    "id": "ricardo-projection-normal",
+    "name": "リカルド（射影戦闘・NORMAL）",
+    "shortName": "リカルド",
+    "stage": "射影 NORMAL",
+    "stageName": "闘戦影写 - 深夜清掃 BokGak",
+    "chapter": 7.5,
+    "projection": {
+      "difficulty": "NORMAL",
+      "storyId": "ricardo",
+      "counterpartId": "ricardo-projection-hard",
+      "targetTurns": 24
+    },
+    "checkedAt": "2026-10-22",
+    "lead": "中指の守備と嫉妬共鳴を軸に、帳簿の蓄積と破壊不能コインへの対処を覚える。HP半分で終わる5-30とは違い、後半もリカルド本体を削り切る必要がある。",
+    "listLead": "初回クリア向け。帳簿の蓄積と守備の使い分けを覚え、24ターン以内も目指す。",
+    "image": {
+      "path": "images/bosses/ricardo-projection.webp",
+      "width": 418,
+      "height": 516
+    },
+    "unitNames": [
+      "リカルド（フェーズ1）",
+      "リカルド（フェーズ2）",
+      "末弟 ヴェルナー"
+    ]
+  },
+  {
+    "id": "ricardo-projection-hard",
+    "name": "リカルド（射影戦闘・HARD）",
+    "shortName": "リカルド",
+    "stage": "射影 HARD",
+    "stageName": "闘戦影写 - 深夜清掃 BokGak",
+    "chapter": 7.5,
+    "projection": {
+      "difficulty": "HARD",
+      "storyId": "ricardo",
+      "counterpartId": "ricardo-projection-normal",
+      "targetTurns": 18
+    },
+    "checkedAt": "2026-10-22",
+    "lead": "18ターン以内を狙うなら、中指の嫉妬完全共鳴を保ち、レーヴァテイン解放後の火力を後半まで通す。帳簿の蓄積で危険になる攻撃は、マッチ勝利と回避を使い分けて主力を守る。",
+    "listLead": "18ターン以内を狙う中指編成。共鳴・広域攻撃への対処・後半の集中攻撃を整理する。",
+    "image": {
+      "path": "images/bosses/ricardo-projection.webp",
+      "width": 418,
+      "height": 516
+    },
+    "unitNames": [
+      "リカルド（フェーズ1）",
+      "リカルド（フェーズ2）",
+      "末弟 ヴェルナー"
+    ]
   }
 ]

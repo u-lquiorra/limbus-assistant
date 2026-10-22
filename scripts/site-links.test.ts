@@ -22,6 +22,7 @@ const bossGuides = await loadAllBossGuides();
 const getBossGuide = (id: string) => bossGuides.find((boss) => boss.id === id);
 const personaCodes = new Set(characterData.flatMap((character) => character.statuses.map(({ code }) => code)));
 const egoCodes = new Set(characterData.flatMap((character) => (character.egos ?? []).map(({ code }) => code)));
+const teams: { id: string }[] = JSON.parse(await readFile(new URL("teams.json", dataRoot), "utf8"));
 
 function assertRoute(path: string, context: string) {
   const url = new URL(path, "https://limbus.test");
@@ -41,6 +42,8 @@ function assertRoute(path: string, context: string) {
     assert(personaCodes.has(id), `${context}: 存在しない人格 ${path}`);
   } else if (kind === "ego") {
     assert(egoCodes.has(id), `${context}: 存在しないE.G.O ${path}`);
+  } else if (kind === "teams") {
+    assert(teams.some(team => team.id === id), `${context}: 存在しない編成 ${path}`);
   } else if (kind === "keywords") {
     assert(KEYWORD_PAGES.some((page) => page.id === id), `${context}: 存在しないキーワード一覧 ${path}`);
   } else if (kind === "character") {
@@ -102,6 +105,14 @@ test("実際の初心者・リセマラガイド・辞典・ボス攻略: 内部
           assert.equal($(element).find("button").length, 0, "用語を入れ子にしない");
         });
         assert.doesNotMatch($(".skill-card-stats").text(), /NaN|undefined/);
+        if (boss.projection) {
+          assert.equal($(".boss-difficulty-nav [aria-current=page]").text().split("・")[0], boss.projection.difficulty);
+          assert.match($(".kicker").first().text(), /PROJECTION/);
+          assert.doesNotMatch($(".persona-tags").text(), /ストーリー攻略/);
+          assert.equal($(".boss-build-list").eq(0).find("li").length, 7);
+          assert.equal($(".boss-build-list").eq(1).find("li").length, 5);
+          assert.doesNotMatch($("body").text(), /wiki|ウィキ|docs\//i, "資料参照や開発メモを本文へ出さない");
+        }
         if (boss.id === "lian") {
           const weapons = $(".boss-mechanics > .glossary-item").filter((_, el) => $(el).find("dt").text() === "ハンマーで後頭部を潰すべきときは…");
           assert.equal(weapons.length, 2, "同名の武器を前後半とも掲載する");

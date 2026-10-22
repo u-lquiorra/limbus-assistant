@@ -96,7 +96,7 @@ function buildEntries(): SearchEntry[] {
       title: boss.name,
       sub: `${boss.stage} ${boss.stageName}`,
       to: `/bosses/${boss.id}`,
-      terms: [boss.shortName, boss.stage, boss.stageName, ...boss.unitNames],
+      terms: [boss.shortName, boss.stage, boss.stageName, ...boss.unitNames, ...(boss.projection ? ["射影戦闘", boss.projection.difficulty, `${boss.projection.targetTurns}ターン以内`] : [])],
     }));
 
   const glossary: SearchEntry[] = glossaryTerms.map((term) => ({

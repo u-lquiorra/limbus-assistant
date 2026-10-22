@@ -24,7 +24,7 @@ test("ボスの読み込み: ID とファイルがそろい、要約(index.json)
 
 test("ボス一覧の章分け: 表示順を保って章ごとにまとめ、見出しの範囲はステージ番号だけで作る", () => {
   const chapters = groupBossesByChapter(bossSummaries);
-  assert.deepEqual(chapters.flatMap((chapter) => chapter.bosses), bossSummaries, "全ボスが一覧の順のまま1回ずつ入る");
+  assert.deepEqual(chapters.flatMap((chapter) => chapter.bosses), bossSummaries.filter((boss) => !boss.projection), "ストーリー攻略が一覧の順のまま1回ずつ入る");
   assert.equal(new Set(chapters.map((chapter) => chapter.chapter)).size, chapters.length, "同じ章が2回出ない");
   assert.equal(new Set(chapters.map((chapter) => chapter.id)).size, chapters.length);
   for (const chapter of chapters) {
@@ -575,7 +575,8 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
   assert.equal(new Set(BOSS_SECTIONS.map((section) => section.id)).size, BOSS_SECTIONS.length);
   for (const boss of bossGuides) {
     assert.match(boss.id, /^[a-z]+(?:-[a-z]+)*$/);
-    assert.match(boss.stage, /^\d+(?:\.5)?-\d+$/);
+    if (boss.projection) assert.equal(boss.stage, `射影 ${boss.projection.difficulty}`);
+    else assert.match(boss.stage, /^\d+(?:\.5)?-\d+$/);
     assert(boss.name && boss.stageName && boss.lead);
     assert.equal(getBossSummary(boss.id)?.name, boss.name);
     assert.equal(new Date(`${boss.checkedAt}T00:00:00Z`).toISOString().slice(0, 10), boss.checkedAt);
@@ -617,6 +618,48 @@ test("ボスデータ: 固定ID・部位参照・用語リンクと掲載情報�
     for (const mechanic of boss.mechanics) assert(mechanic.units?.every((id) => units.has(id)) ?? true);
     assert(boss.relatedTerms.length && boss.relatedTerms.every((id) => getGlossaryTerm(id)));
     assert(boss.sources.length && boss.sources.every((source) => source.title && new URL(source.url).protocol === "https:"));
+  }
+});
+
+test("射影リカルド: 難易度別の数値・苦難とストーリー攻略の入口を分離する", () => {
+  const normal = getBossGuide("ricardo-projection-normal")!;
+  const hard = getBossGuide("ricardo-projection-hard")!;
+  assert.equal(normal.units[0].hp, "7500");
+  assert.equal(hard.units[0].hp, "9375");
+  assert.equal(normal.projection?.targetTurns, 24);
+  assert.equal(hard.projection?.targetTurns, 18);
+  assert(!normal.mechanics.some(m => m.name === "苦難"));
+  assert(hard.mechanics.some(m => m.name === "苦難"));
+  assert.deepEqual(groupBossesByChapter([bossSummary(normal), bossSummary(hard)]), [], "射影版は章別のストーリー一覧へ入れない");
+  for (const boss of [normal, hard]) {
+    assert.equal(getBossGuide(boss.projection!.counterpartId)?.projection?.counterpartId, boss.id);
+    assert.equal(getBossGuide(boss.projection!.storyId)?.stage, "5-30");
+    const pain = boss.skills.find(s => s.name === "苦痛を刻む")!;
+    assert.match(pain.effects.join(""), /3以上/);
+    assert.equal(pain.unbreakableCoins, undefined, "条件付きの全コイン化を常時表示しない");
+    assert.deepEqual(boss.skills.find(s => s.name === "全員、処刑だ！！！")!.unbreakableCoins, [1]);
+    for (const skill of boss.skills.filter(s => s.name === "即決処刑だ！")) {
+      assert(skill.effects.every(effect => effect.includes("破壊されずに的中時")), "割合ダメージを単なる的中効果にしない");
+    }
+  }
+});
+
+test("射影攻略の編成: 12人の囚人が重複せず、人格・E.G.Oの参照先が実在する", async () => {
+  for (const boss of bossGuides.filter(b => b.projection)) {
+    const team = boss.projection!.team;
+    assert.equal(team.members.length, boss.members);
+    assert.equal(team.support.length, boss.reserves);
+    const allMembers = [...team.members, ...team.support];
+    assert.equal(new Set(allMembers.map(m => m.code.slice(0, 2))).size, 12);
+    for (const member of allMembers) {
+      const data = JSON.parse(await readFile(new URL(`./data/personas/${member.code}.json`, import.meta.url), "utf8"));
+      assert.equal(data.code, member.code);
+    }
+    for (const entry of team.egos) {
+      const data = JSON.parse(await readFile(new URL(`./data/egos/${entry.code}.json`, import.meta.url), "utf8"));
+      assert.equal(data.code, entry.code);
+      assert(team.members.some(m => m.code.slice(0, 2) === entry.code.slice(0, 2)), "E.G.Oの使用者を先発に含める");
+    }
   }
 });
 

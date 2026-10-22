@@ -16,6 +16,21 @@
 .boss-toc a span, .boss-mobile-toc a span { color: var(--dim); font: 11px var(--display); }
 .boss-mobile-toc { display: none; }
 .boss-content { min-width: 0; overflow-wrap: anywhere; }
+.boss-projection-index { margin-block: 32px 44px; scroll-margin-top: 84px; }
+.boss-projection-overview { margin-top: 24px; }
+.boss-difficulty-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.boss-difficulty-nav a { padding: 8px 12px; border: 1px solid var(--line-strong); color: var(--muted); font-size: 13px; text-decoration: none; }
+.boss-difficulty-nav a[aria-current="page"] { color: var(--gold); border-color: var(--gold); }
+.boss-turn-budget { margin-bottom: 24px; }
+.boss-turn-budget h3, .boss-projection-team h3 { margin-bottom: 14px; font-size: 17px; }
+.boss-turn-budget dl > div { display: grid; grid-template-columns: minmax(75px, .3fr) minmax(0, 1fr); gap: 16px; padding-block: 14px; border-top: 1px solid var(--line); font-size: 13px; }
+.boss-turn-budget dt { color: var(--gold); }
+.boss-turn-budget dd { margin: 0; }
+.boss-turn-budget dd p { margin: 6px 0 0; color: var(--muted); }
+.boss-projection-team { margin-bottom: 28px; }
+.boss-projection-team h4 { margin-block: 20px 12px; }
+.boss-build-list { display: grid; gap: 12px; padding-left: 1.5em; font-size: 13px; }
+.boss-build-list p { margin: 4px 0 0; color: var(--muted); }
 .boss-priorities ol { display: grid; gap: 8px; margin: 0; padding-left: 1.4em; font-size: 14px; }
 .boss-priorities li::marker { color: var(--gold); font-weight: 700; }
 .boss-priorities .guide-heading { margin: 0; }

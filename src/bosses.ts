@@ -44,6 +44,22 @@ export interface BossSkill {
   response: string;
 }
 
+export interface ProjectionGuide {
+  difficulty: "NORMAL" | "HARD";
+  storyId: string;
+  counterpartId: string;
+  targetTurns: number;
+  rules: string[];
+  budget: { timing: string; goal: string; adjustment: string }[];
+  team: {
+    title: string;
+    note: string;
+    members: { code: string; reason: string }[];
+    support: { code: string; reason: string }[];
+    egos: { code: string; reason: string }[];
+  };
+}
+
 export interface BossGuide {
   id: string;
   name: string;
@@ -53,6 +69,7 @@ export interface BossGuide {
   chapter: number;
   members: number;
   reserves?: number;
+  projection?: ProjectionGuide;
   statNote?: string;
   skillNote?: string;
   checkedAt: string;
@@ -153,6 +170,8 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   "warden-chaplain": () => import("./data/bosses/warden-chaplain"),
   "red-god-ripe": () => import("./data/bosses/red-god-ripe"),
   jeanne: () => import("./data/bosses/jeanne"),
+  "ricardo-projection-normal": () => import("./data/bosses/ricardo-projection-normal"),
+  "ricardo-projection-hard": () => import("./data/bosses/ricardo-projection-hard"),
 };
 
 /** 一覧・検索・ページ情報に使う軽い要約。src/data/bosses/index.json から読む(npm run bosses:index で生成) */
@@ -163,6 +182,7 @@ export interface BossSummary {
   stage: string;
   stageName: string;
   chapter: number;
+  projection?: Pick<ProjectionGuide, "difficulty" | "storyId" | "counterpartId" | "targetTurns">;
   checkedAt: string;
   lead: string;
   /** 一覧に出すリード(ネタバレ回避のため、名前と先の展開を伏せた文) */
@@ -182,6 +202,7 @@ export function bossSummary(boss: BossGuide): BossSummary {
     stage: boss.stage,
     stageName: boss.stageName,
     chapter: boss.chapter,
+    ...(boss.projection ? { projection: { difficulty: boss.projection.difficulty, storyId: boss.projection.storyId, counterpartId: boss.projection.counterpartId, targetTurns: boss.projection.targetTurns } } : {}),
     checkedAt: boss.checkedAt,
     lead: boss.lead,
     listLead: boss.listLead ?? boss.lead,
@@ -190,7 +211,7 @@ export function bossSummary(boss: BossGuide): BossSummary {
   };
 }
 
-export const bossSummaries: BossSummary[] = summaries;
+export const bossSummaries = summaries as BossSummary[];
 const summaryById = new Map(bossSummaries.map((boss) => [boss.id, boss]));
 
 export function getBossSummary(id: string): BossSummary | undefined {
@@ -212,6 +233,7 @@ export function bossChapterId(chapter: number): string {
 export function groupBossesByChapter(list: BossSummary[]): BossChapter[] {
   const chapters = new Map<number, BossChapter>();
   for (const boss of list) {
+    if (boss.projection) continue;
     let group = chapters.get(boss.chapter);
     if (!group) {
       group = { chapter: boss.chapter, id: bossChapterId(boss.chapter), bosses: [] };

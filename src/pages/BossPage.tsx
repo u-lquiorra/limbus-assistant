@@ -10,9 +10,11 @@ import { bossKeywords } from "../bossKeywords";
 import { decorate } from "../components/decorate";
 import EffectText from "../components/EffectText";
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
+import { getEgo, getPersona } from "../data/loader";
 import "./boss-guide.css";
 
 const bossChapters = groupBossesByChapter(bossSummaries);
+const projectionBosses = bossSummaries.filter((boss) => boss.projection);
 
 export function BossIndex() {
   const { hash } = useLocation();
@@ -45,6 +47,15 @@ export function BossIndex() {
         </Link>)}</div>
       </details>)}</div>
     </section>
+    {projectionBosses.length > 0 && <section id="projection" className="boss-projection-index" aria-labelledby="boss-index-projection">
+      <header className="section-header"><h2 id="boss-index-projection" className="section-title"><span className="section-title-en">PROJECTION</span>射影戦闘</h2></header>
+      <p className="boss-index-note">難易度別の攻略。HARDは18ターン以内を目指す編成と立ち回りを扱う。</p>
+      <div className="boss-index-list">{projectionBosses.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
+        <span className="boss-stage-label">{boss.projection!.difficulty}</span>
+        <span><strong>{boss.shortName}・{boss.projection!.difficulty}</strong><span className="boss-index-lead">{boss.listLead}</span></span>
+        <span className="boss-index-arrow" aria-hidden="true">→</span>
+      </Link>)}</div>
+    </section>}
   </div>;
 }
 
@@ -52,6 +63,25 @@ function Contents({ boss }: { boss: BossGuide }) {
   return <ol>{BOSS_SECTIONS.map((section, index) => <li key={section.id}>
     <Link to={`/bosses/${boss.id}#${section.id}`}><span>{String(index + 1).padStart(2, "0")}</span>{section.title}</Link>
   </li>)}</ol>;
+}
+
+function ProjectionTeam({ boss }: { boss: BossGuide }) {
+  const team = boss.projection?.team;
+  if (!team) return null;
+  return <div className="boss-projection-team">
+    <h3>{team.title}</h3><p className="boss-section-intro">{team.note}</p>
+    {([["先発7人（編成順の例）", team.members], ["控え5人", team.support]] as const).map(([title, members]) => <div key={title}>
+      <h4>{title}</h4><ol className="boss-build-list">{members.map((member) => {
+        const persona = getPersona(member.code)?.status;
+        return persona && <li key={member.code}><Link to={`/persona/${member.code}`}>{persona.character}：{persona.name}</Link><p>{member.reason}</p></li>;
+      })}</ol>
+    </div>)}
+    <h4>E.G.Oと使いどころ</h4><ul className="boss-build-list">{team.egos.map((entry) => {
+      const ego = getEgo(entry.code)?.ego;
+      return ego && <li key={entry.code}><Link to={`/ego/${entry.code}`}>{ego.character}《{ego.name}》</Link><p>{entry.reason}</p></li>;
+    })}</ul>
+    <Link to="/teams/envy">嫉妬共鳴編成の組み方 →</Link>
+  </div>;
 }
 
 function Section({ id, children }: { id: typeof BOSS_SECTIONS[number]["id"]; children: ReactNode }) {
@@ -157,9 +187,9 @@ export default function BossPage() {
       <div className={`container persona-hero-inner${mainUnit.image ? "" : " boss-hero-no-image"}`}>
         {mainUnit.image && <div className="persona-hero-image"><img src={asset(mainUnit.image.path)} alt={boss.name} width={mainUnit.image.width} height={mainUnit.image.height} /></div>}
         <header className="persona-hero-info boss-hero-info">
-          <p className="kicker">CHAPTER {String(boss.chapter).padStart(2, "0")} / BOSS GUIDE</p>
+          <p className="kicker">{boss.projection ? `PROJECTION / ${boss.projection.difficulty}` : `CHAPTER ${String(boss.chapter).padStart(2, "0")} / BOSS GUIDE`}</p>
           <h1 className="persona-title">{boss.name}</h1>
-          <div className="persona-tags"><span className="tag tag-muted">{boss.stage}「{boss.stageName}」</span><span className="tag tag-muted">ストーリー攻略</span></div>
+          <div className="persona-tags"><span className="tag tag-muted">{boss.projection ? boss.stageName : `${boss.stage}「${boss.stageName}」`}</span><span className="tag tag-muted">{boss.projection ? `射影戦闘・${boss.projection.difficulty}` : "ストーリー攻略"}</span></div>
           <p className="boss-lead">{text(boss.lead)}</p>
           <dl className="spec-list"><div><dt>HP</dt><dd>{mainUnit.hp}</dd></div><div><dt>レベル</dt><dd>{mainUnit.level}</dd></div><div><dt>速度</dt><dd>{mainUnit.speed}</dd></div><div><dt>防御Lv{mainUnit.combatLevelNote ? `（${mainUnit.combatLevelNote}）` : mainUnit.defenseLevelReduction || mainUnit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{mainUnit.defenseLevel === null ? "不明" : mainUnit.defenseLevel - (mainUnit.defenseLevelReduction ?? mainUnit.skillLevelReduction ?? 0)}</dd></div><div><dt>出撃上限</dt><dd>{boss.members}名{boss.reserves ? `＋控え${boss.reserves}名` : ""}</dd></div></dl>
           <p className="boss-checked">資料確認日：<time dateTime={boss.checkedAt}>{boss.checkedAt}</time></p>
@@ -171,9 +201,14 @@ export default function BossPage() {
       <div className="boss-content">
         <details className="boss-mobile-toc" open><summary>目次<span>全{BOSS_SECTIONS.length}項目</span></summary><Contents boss={boss} /></details>
         <div className="guide boss-priorities"><h2 className="guide-heading">まず押さえる3つのこと</h2><ol>{boss.priorities.map((priority) => <li key={priority}>{text(priority)}</li>)}</ol></div>
+        {boss.projection && <div className="boss-projection-overview">
+          <nav className="boss-difficulty-nav" aria-label="難易度別の攻略">{(["NORMAL", "HARD"] as const).map((difficulty) => <Link key={difficulty} to={`/bosses/${difficulty === boss.projection!.difficulty ? boss.id : boss.projection!.counterpartId}`} aria-current={difficulty === boss.projection!.difficulty ? "page" : undefined}>{difficulty}{difficulty === "HARD" ? "・18ターン以内" : "・基本攻略"}</Link>)}<Link to={`/bosses/${boss.projection.storyId}`}>ストーリー版の攻略</Link></nav>
+          <div className="guide"><h2 className="guide-heading">射影戦闘のルール</h2><ul>{boss.projection.rules.map((rule) => <li key={rule}>{text(rule)}</li>)}</ul></div>
+        </div>}
         <Section id="strategy">
+          <p className="boss-section-intro">{boss.projection ? `目標は累計${boss.projection.targetTurns}ターン以内。配分は目安。敵のスキル、残りHP、主力の状態を見て調整する。` : "ターン数は通常の進行の目安。HPの削り方や混乱で順番が変わるため、敵が使うスキル名も確認しよう。"}</p>
+          {boss.projection && <div className="boss-turn-budget"><h3>ターン配分と見直し点</h3><dl>{boss.projection.budget.map((item) => <div key={item.timing}><dt>{item.timing}</dt><dd><strong>{item.goal}</strong><p>{item.adjustment}</p></dd></div>)}</dl></div>}
           {boss.troubleshooting && <div className="boss-troubleshooting"><h3>負け方から対処を探す</h3><dl>{boss.troubleshooting.map((item) => <div key={item.symptom}><dt>{text(item.symptom)}</dt><dd>{text(item.advice)}</dd></div>)}</dl></div>}
-          <p className="boss-section-intro">ターン数は通常の進行の目安。HPの削り方や混乱で順番が変わるため、敵が使うスキル名も確認しよう。</p>
           <div className="guide">{boss.phases.map((phase) => <div className="guide-part" key={phase.id}>
             <p className="boss-phase-timing">{phase.timing}</p><h3 className="guide-heading">{phase.title}</h3>
             <ul>{phase.steps.map((step) => <li key={step}>{text(step)}</li>)}</ul>
@@ -195,9 +230,10 @@ export default function BossPage() {
           })}</dl>
         </Section>
         <Section id="team">
+          <ProjectionTeam boss={boss} />
           <div className="guide"><div className="guide-part"><h3 className="guide-heading">まず整えるもの</h3><ul>{boss.preparation.map((value) => <li key={value}>{text(value)}</li>)}</ul></div>
             {boss.roles.map((role) => <div className="guide-part" key={role.name}><h3 className="guide-heading">{role.name}</h3><p>{text(role.reason)}</p></div>)}
-            <div className="guide-part"><p>1人で複数の役割を兼ねても大丈夫。まずマッチに勝てる主力を決め、危険な攻撃への対処とギミックの処理を分担しよう。</p></div>
+            <div className="guide-part"><p>{boss.projection ? "反撃で受ける攻撃と、マッチ・回避で止める攻撃を分担する。共鳴を維持するために主力を倒される受け方は避ける。" : "1人で複数の役割を兼ねても大丈夫。まずマッチに勝てる主力を決め、危険な攻撃への対処とギミックの処理を分担しよう。"}</p></div>
           </div>
         </Section>
         <Section id="stats">
@@ -237,7 +273,8 @@ export default function BossPage() {
         </Section>
         <aside className="boss-related" aria-label="関連する用語"><h2>仕組みを確認する</h2><div>{boss.relatedTerms.map((id) => { const term = getGlossaryTerm(id); return term && <Link key={id} to={`/glossary/${id}`}>{term.name} →</Link>; })}</div></aside>
         <footer className="boss-sources"><p>敵のステータス・効果・行動は更新で変わることがある。戦闘中の表示も確認する。</p></footer>
-        <Link to={`/bosses#${bossChapterId(boss.chapter)}`} className="back-link">← ボス攻略一覧に戻る</Link>
+        {!boss.projection && bossSummaries.some((entry) => entry.projection?.storyId === boss.id) && <nav className="boss-difficulty-nav" aria-label="射影戦闘の攻略">{bossSummaries.filter((entry) => entry.projection?.storyId === boss.id).map((entry) => <Link key={entry.id} to={`/bosses/${entry.id}`}>射影戦闘・{entry.projection!.difficulty}{entry.projection!.difficulty === "HARD" ? "・18ターン以内" : ""} →</Link>)}</nav>}
+        <Link to={`/bosses#${boss.projection ? "projection" : bossChapterId(boss.chapter)}`} className="back-link">← ボス攻略一覧に戻る</Link>
       </div>
     </div>
   </article>;
