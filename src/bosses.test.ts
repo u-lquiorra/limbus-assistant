@@ -644,6 +644,36 @@ test("射影リカルド: 難易度別の数値・苦難とストーリー攻略
   }
 });
 
+test("射影レイホン: 通常版の平均化・耐性と、後半の条件付き破壊不能を混ぜない", () => {
+  const normal = getBossGuide("lei-heng-projection-normal")!;
+  const hard = getBossGuide("lei-heng-projection-hard")!;
+  assert.equal(normal.units[0].hp, "4239");
+  assert.equal(hard.units[0].hp, "7630");
+  assert.equal(hard.projection?.targetTurns, 18);
+  assert(!normal.mechanics.some(m => m.name === "苦難"));
+  assert(hard.mechanics.some(m => m.name === "苦難"));
+  for (const boss of [normal, hard]) {
+    assert.equal(getBossGuide(boss.projection!.counterpartId)?.projection?.counterpartId, boss.id);
+    assert.equal(getBossGuide(boss.projection!.storyId)?.stage, "8-30");
+    assert.equal(boss.units[0].combatLevelNote, undefined, "通常版の平均化を流用しない");
+    assert(Object.values(boss.units[0].sins).every(value => value === 0.9));
+    assert(Object.values(boss.units[0].physical).every(value => value === 0.9));
+    assert.equal(boss.skills.length, 9);
+    assert.deepEqual(boss.skills.find(s => s.id === "lei-projection-5")!.unbreakableCoins, [1, 2, 3]);
+    assert.deepEqual(boss.skills.find(s => s.id === "lei-projection-7")!.unbreakableCoins, [1, 2, 3, 4, 5, 6]);
+    assert.equal(boss.skills.find(s => s.id === "lei-projection-7")!.levelUnknown, true);
+    assert.equal(boss.skills.find(s => s.id === "lei-projection-7")!.weight, 3, "加重値は基礎値を保持する");
+    assert.equal(boss.skills.find(s => s.id === "lei-projection-4")!.unbreakableCoins, undefined, "天退星での変化を常時表示しない");
+    assert.equal(boss.skills.find(s => s.id === "lei-projection-8")!.type, "反撃");
+    assert.equal(boss.skills.find(s => s.id === "lei-projection-8")!.attackType, "斬");
+    assert.match(boss.passives.find(p => p.name === "天退星")!.condition, /66%/);
+    assert.match(boss.passives.find(p => p.name === "小指　天退星雷横")!.condition, /50%/);
+    assert.match(boss.passives.find(p => p.name === "獲物選び")!.effect, /囚人側全員の精神力を10減らし/);
+    assert.match(boss.passives.find(p => p.name === "猛虎標弾支援")!.effect, /ターン開始時に脆弱3/);
+    assert(!boss.passives.some(p => p.name.includes("オーバーヒート")), "射影版で削除されたパッシブを持ち込まない");
+  }
+});
+
 test("射影攻略の編成: 12人の囚人が重複せず、人格・E.G.Oの参照先が実在する", async () => {
   for (const boss of bossGuides.filter(b => b.projection)) {
     const team = boss.projection!.team;

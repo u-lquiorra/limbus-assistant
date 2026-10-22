@@ -1652,5 +1652,59 @@
       "リカルド（フェーズ2）",
       "末弟 ヴェルナー"
     ]
+  },
+  {
+    "id": "lei-heng-projection-normal",
+    "name": "レイホン（射影戦闘・NORMAL）",
+    "shortName": "レイホン",
+    "stage": "射影 NORMAL",
+    "stageName": "闘戦影写 - 挿翅虎",
+    "chapter": 8,
+    "projection": {
+      "difficulty": "NORMAL",
+      "storyId": "lei-heng",
+      "counterpartId": "lei-heng-projection-hard",
+      "targetTurns": 24
+    },
+    "checkedAt": "2026-10-22",
+    "lead": "獲物が付いた主力には守備も選び、束縛と回復で大技に備える。HP66%で後半、50%でさらに強化されるため、境界を越える前に次の対処を決める。",
+    "listLead": "獲物と破壊不能コインへの基本対処。大技の前に回復し、24ターン以内も目指す。",
+    "image": {
+      "path": "images/bosses/lei-heng-projection.webp",
+      "width": 527,
+      "height": 391
+    },
+    "unitNames": [
+      "レイホン（フェーズ1）",
+      "レイホン（フェーズ2）",
+      "厳格な親指 ソルダート"
+    ]
+  },
+  {
+    "id": "lei-heng-projection-hard",
+    "name": "レイホン（射影戦闘・HARD）",
+    "shortName": "レイホン",
+    "stage": "射影 HARD",
+    "stageName": "闘戦影写 - 挿翅虎",
+    "chapter": 8,
+    "projection": {
+      "difficulty": "HARD",
+      "storyId": "lei-heng",
+      "counterpartId": "lei-heng-projection-normal",
+      "targetTurns": 18
+    },
+    "checkedAt": "2026-10-22",
+    "lead": "18ターン以内を狙うなら、獲物の攻撃マッチを避けながらウーティスの剣を解放する。束縛3以上で敵の強化を抑え、爆砕斬の弾を減らす。HP66%以降は回復だけで粘らず、残った主力で削り切る。",
+    "listLead": "18ターン以内向け。獲物の守備・束縛・弾の処理を分担し、主力を後半の削りへ残す。",
+    "image": {
+      "path": "images/bosses/lei-heng-projection.webp",
+      "width": 527,
+      "height": 391
+    },
+    "unitNames": [
+      "レイホン（フェーズ1）",
+      "レイホン（フェーズ2）",
+      "厳格な親指 ソルダート"
+    ]
   }
 ]

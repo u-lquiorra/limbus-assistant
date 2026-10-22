@@ -172,6 +172,8 @@ const BOSS_LOADERS: Record<string, () => Promise<{ default: BossGuide }>> = {
   jeanne: () => import("./data/bosses/jeanne"),
   "ricardo-projection-normal": () => import("./data/bosses/ricardo-projection-normal"),
   "ricardo-projection-hard": () => import("./data/bosses/ricardo-projection-hard"),
+  "lei-heng-projection-normal": () => import("./data/bosses/lei-heng-projection-normal"),
+  "lei-heng-projection-hard": () => import("./data/bosses/lei-heng-projection-hard"),
 };
 
 /** 一覧・検索・ページ情報に使う軽い要約。src/data/bosses/index.json から読む(npm run bosses:index で生成) */
