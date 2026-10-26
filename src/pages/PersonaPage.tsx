@@ -482,6 +482,11 @@ export default function PersonaPage() {
                 </dd>
               </div>
             </dl>
+            {status.preview && (
+              <p className="section-note">
+                実装前の公式予告をもとにした情報。予告に無い数値は「?」、効果の数値は「一定数値」と表記している。実装後に更新する。
+              </p>
+            )}
           </div>
         </div>
       </section>

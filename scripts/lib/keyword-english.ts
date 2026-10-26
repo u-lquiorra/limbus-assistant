@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { guideSummary, parseGuide } from "../../src/guide";
@@ -11,7 +12,10 @@ export async function keywordCopySources(): Promise<Record<string, string>> {
   const sources: Record<string, string> = {};
   for (const code of Object.keys(keywords).sort()) {
     if (!keywords[code].keywords.length) continue;
-    const text = guideSummary(parseGuide(await readFile(`src/data/guides/${code}.md`, "utf8")));
+    // 実装前の予告人格などガイドがまだ無い人格は、一覧でも要約を出さないので原文も無い
+    const guidePath = `src/data/guides/${code}.md`;
+    if (!existsSync(guidePath)) continue;
+    const text = guideSummary(parseGuide(await readFile(guidePath, "utf8")));
     if (text) sources[`summary:${code}`] = text;
   }
   const teams: { id: string; core: { code: string; note?: string }[] }[] = JSON.parse(await readFile("src/data/teams.json", "utf8"));

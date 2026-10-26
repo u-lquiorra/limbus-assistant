@@ -15,6 +15,14 @@ test("人格・E.G.O性能欄の直接英訳: 全段階の効果・説明・コ�
     return /[\u3040-\u30ff\u3400-\u9fff]/.test(source);
   };
   const numbers = (source: string) => (source.normalize("NFKC").match(/\d+/g) ?? []).sort();
+  // 効果文が引用する自分のスキル名の中の数字は効果の数値ではなく、日英で数字の有無が違うことがあるので比べない
+  // (例: 「脇線の外側に縫い目が2本見えたら…」= "Double stitching past the side seam? …")
+  // 日英の両方にそのスキル名がそのまま出ているときだけ除く(片方だけ言い換えていれば、従来どおり数字を比べる)
+  const withoutNames = (ja: string, en: string, names: [string, string][]) =>
+    names.filter(([jaName, enName]) => ja.includes(jaName) && en.includes(enName)).reduce(
+      ([jaText, enText], [jaName, enName]) => [jaText.replaceAll(jaName, ""), enText.replaceAll(enName, "")],
+      [ja, en]
+    );
   const server = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
   try {
     const { LanguageContext, setEnglishMessages, translateText } = await server.ssrLoadModule("/src/i18n/text.ts");
@@ -31,7 +39,12 @@ test("人格・E.G.O性能欄の直接英訳: 全段階の効果・説明・コ�
         const html = renderToStaticMarkup(createElement(LanguageContext.Provider, { value: "en" }, createElement(EffectText, { text: item.effect, keywords: item.keywords, unbreakableCoins: item.unbreakableCoins })));
         const $ = load(html);
         assert(!hasJapanese($.text()), `${code}/${item.name}: 描画時の日本語混在`);
-        assert.deepEqual(numbers(english), numbers(item.effect), `${code}/${item.name}: 効果の数値`);
+        const skillNames: [string, string][] = detail.skills
+          .map((skill: { name: string }) => skill.name)
+          .filter((name: string) => /\d/.test(name))
+          .map((name: string) => [name, translateText(`persona:${code}:name:${name}`, "en")]);
+        const [jaEffect, enEffect] = withoutNames(item.effect, english, skillNames);
+        assert.deepEqual(numbers(enEffect), numbers(jaEffect), `${code}/${item.name}: 効果の数値`);
         for (const stage of ["Ⅲ", "Ⅳ"]) {
           const stageNumbers = (source: string) => numbers([...source.matchAll(new RegExp(`〘${stage}:([^〙]*)〙`, "g"))].map(match => match[1]).join(" "));
           assert.deepEqual(stageNumbers(english), stageNumbers(item.effect), `${code}/${item.name}: 解析${stage}の数値`);

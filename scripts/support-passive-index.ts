@@ -33,6 +33,8 @@ export function buildSupportPassiveIndex(): SupportPassive[] {
   return characters.flatMap(({ name }) => {
     const character = readJson<CharacterData>(join(DATA, `${name}.json`));
     return character.statuses.flatMap((status) => {
+      // 予告だけで載せた人格は必要資源が分からず、一覧で資源から絞り込めないため、実装後に取り直すまで載せない
+      if (status.preview) return [];
       const detail = readJson<PersonaDetail>(join(DATA, "personas", `${status.code}.json`));
       const passive = detail.passives.find((p) => p.kind === "サポート");
       if (!passive) return [];

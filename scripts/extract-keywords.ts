@@ -50,10 +50,11 @@ function main() {
   const manual = existsSync(manualPath)
     ? (JSON.parse(readFileSync(manualPath, "utf-8")) as Record<string, ManualKeywords>)
     : {};
-  const codes = readdirSync(CACHE_DIR)
+  // 実装前の予告人格など wiki のページがまだ無い人格も、手で登録してあれば出力する
+  const cached = readdirSync(CACHE_DIR)
     .filter((f) => /^\d{4}\.html$/.test(f))
-    .map((f) => f.slice(0, 4))
-    .sort();
+    .map((f) => f.slice(0, 4));
+  const codes = [...new Set([...cached, ...Object.keys(manual)])].sort();
   const out: Record<string, PersonaKeywords> = {};
   const missing: string[] = [];
   for (const code of codes) {

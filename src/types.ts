@@ -17,6 +17,9 @@ export interface PersonaStatus {
   level: string; // 攻撃レベル (複数値は "69.68.70" のようにドット区切り)
   attackTypes: string; // このキャラのスキルが使う攻撃属性の要約 (例: "斬貫")
   resistance: { 斬: string; 貫: string; 打: string }; // 各攻撃属性に対する被ダメージ倍率(固定順)
+  // 実装前の公式予告だけで載せた人格。予告に無い数値(体力・速度など)は "?" にしている。
+  // wiki に人格ページができたら npm run scrape で取り直し、この印も消える
+  preview?: boolean;
 }
 
 // wikiのセル表記 "11 斬 / 4(+7)*1" = 最大威力11, 斬撃, 基礎威力4, コイン威力+7, コイン1枚
