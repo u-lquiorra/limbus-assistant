@@ -94,8 +94,8 @@ const STATIC_PAGES: Record<string, PageMeta> = {
 export function pageMeta(pathname: string): PageMeta {
   if (isEnglish(pathname)) {
     const meta = pageMeta(originalPath(pathname));
-    // 全文の翻訳・確認が完了するまでは英語版を検索エンジンに登録しない。
-    return { ...meta, title: translateText(meta.title, "en"), description: translateText(meta.description, "en"), noindex: true };
+    // 英語版も検索エンジンに登録する。登録しないページ(検索結果・見つからないページなど)は日本語版の設定に合わせる
+    return { ...meta, title: translateText(meta.title, "en"), description: translateText(meta.description, "en") };
   }
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
   if (STATIC_PAGES[path]) return STATIC_PAGES[path];

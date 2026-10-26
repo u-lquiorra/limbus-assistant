@@ -126,6 +126,8 @@ function PageMeta() {
       for (const language of ["ja", "en"] as const) {
         setHead(`link[rel="alternate"][hreflang="${language}"]`, () => Object.assign(document.createElement("link"), { rel: "alternate", hreflang: language }), "href", canonicalUrl(languagePath(pathname, language)));
       }
+      // 静的 HTML(scripts/prerender.ts)と同じく、x-default は日本語版を指す
+      setHead('link[rel="alternate"][hreflang="x-default"]', () => Object.assign(document.createElement("link"), { rel: "alternate", hreflang: "x-default" }), "href", canonicalUrl(languagePath(pathname, "ja")));
     };
     apply();
     // description にはガイドの要約を使うため、ガイドの読み込みが終わったらもう一度書き換える

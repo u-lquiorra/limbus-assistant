@@ -142,6 +142,8 @@ async function headTags(pathname: string): Promise<{ title: string; tags: string
     `<meta name="robots" content="${meta.noindex ? "noindex" : "index,follow"}" />`,
     `<link rel="canonical" href="${escapeHtml(url)}" />`,
     ...["ja", "en"].map((language) => `<link rel="alternate" hreflang="${language}" href="${escapeHtml(entry.canonicalUrl(languagePath(pathname, language as "ja" | "en")))}" />`),
+    // 言語が日英どちらにも当たらない利用者には、元になっている日本語版を案内する
+    `<link rel="alternate" hreflang="x-default" href="${escapeHtml(entry.canonicalUrl(languagePath(pathname, "ja")))}" />`,
     `<meta property="og:type" content="${pathname === "/" ? "website" : "article"}" />`,
     `<meta property="og:site_name" content="Limbus Assistant" />`,
     `<meta property="og:title" content="${escapeHtml(meta.title)}" />`,
