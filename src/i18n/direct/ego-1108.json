@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1108.md",
+  "code": "1108",
+  "messages": {
+    "魔弾の数で性質が変わる貫通攻撃で火傷と黒炎を大量に配り、魔弾人格の魔弾射撃へつなぐ傲慢E.G.O。": "A Pride E.G.O whose Pierce attack changes with the number of Magic Bullets, handing out heavy Burn and Dark Flame and chaining into the Magic Bullet Identity's Magic Bullet Fire.",
+    "魔弾の消費: 攻撃前に魔弾が0なら1を得る。撃つ弾丸は魔弾の数値で決まり、1〜7つ目で効果が大きく変わる(6つ目で加重値+6、7つ目はダメージ量+200%だが攻撃終了時に死亡する)。": "**Spending Magic Bullets**: If Magic Bullet is 0 before attacking, she gains 1. The bullet fired is determined by the Magic Bullet value, and the effect changes greatly from the 1st to the 7th (the 6th grants +6 Attack Weight; the 7th grants +200% damage but she dies at the end of the attack).",
+    "魔弾の補充: 攻撃後に最大共鳴数(1〜4)だけ魔弾を得る。": "**Replenishing Magic Bullets**: After the attack, she gains Magic Bullets equal to the highest Resonance (1–4).",
+    "火傷と黒炎: Ⅰコインが的中時に魔弾の数だけ火傷と黒炎を付与する。黒炎は防御レベルを下げ、ターン終了時に(数値×対象の火傷)の傲慢ダメージを与える。": "**Burn and Dark Flame**: Coin Ⅰ inflicts Burn and Dark Flame equal to the number of Magic Bullets on hit. Dark Flame lowers Defense Level and deals (value × target's Burn) Pride damage at Turn End.",
+    "火傷によるダメージ増加: 対象の火傷3につきダメージ量+1%(最大10%)。解析Ⅲは2%(最大20%)、Ⅳは3%(最大30%)。": "**Damage from Burn**: +1% damage per 3 Burn on the target, up to 10%. 2% (up to 20%) at Threadspin Ⅲ and 3% (up to 30%) at Ⅳ.",
+    "パッシブ「7つの弾丸」: 基本攻撃スキルの的中時に(魔弾÷3)だけ火傷を付与する。魔弾人格なら魔弾の数だけ付与できる(1ターン最大3回)。対象の火傷威力が30以上なら、代わりに黒炎1を付与する(1ターン最大2回)。": "**Passive — Seven Bullets**: Basic attack skills inflict (Magic Bullet ÷ 3) Burn on hit. For the Magic Bullet Identity, it inflicts Burn equal to the number of Magic Bullets (up to 3 times per turn). If the target's Burn Potency is 30 or more, it inflicts 1 Dark Flame instead (up to 2 times per turn).",
+    "魔弾人格が主な使い手で、魔弾を上乗せしてから魔弾射撃で撃ち切る流れが基本と考えられる。": "The Magic Bullet Identity is its main user, and the basic flow is likely adding Magic Bullets with this, then emptying them with Magic Bullet Fire.",
+    "黒炎のダメージは敵の火傷に比例する(数値×対象の火傷)ので、火傷を先に積んでから撃つ。": "Dark Flame's damage scales with the enemy's Burn (value × target's Burn), so stack Burn first before firing.",
+    "魔弾が少ないと、的中時に付与する火傷・黒炎の数も少ない。": "With few Magic Bullets, it inflicts little Burn and Dark Flame on hit.",
+    "魔弾7のときに撃ち切ると、魔弾射撃の人格では魔弾が初期化される。7つ目の弾丸は攻撃終了時に死亡する。": "Emptying them at 7 Magic Bullets resets Magic Bullets for the Magic Bullet Fire Identity. The 7th bullet kills her at the end of the attack.",
+    "Ⅱ: 「7つの弾丸」が解放される。火傷編成の火力に関わる。": "**Ⅱ**: Unlocks Seven Bullets. It affects Burn teams' damage.",
+    "Ⅲ: 火傷によるダメージ増加が2%になり、メインターゲット撃破時に火傷持ちの全敵へ付ける黒炎が3に増える。": "**Ⅲ**: The Burn-based damage increase becomes 2%, and the Dark Flame applied to all Burning enemies when the main target is defeated increases to 3.",
+    "Ⅳ: 火傷によるダメージ増加が3%になり、撃破時の黒炎が4に増える。解析の費用に見合うかは疑わしく、優先度は低いと考えられる。": "**Ⅳ**: The Burn-based damage increase becomes 3%, and Dark Flame on kills increases to 4. Whether it is worth the Threadspin cost is doubtful, so it is likely a low priority.",
+    "ロボトミーE.G.O::魔弾: パッシブの火傷付与が魔弾の数だけに強化される専用の人格で、S2・S3と守備が傲慢で必要資源を出せ、S3の魔弾射撃は魔弾7で魔弾を初期化する。": "**[Lobotomy E.G.O::Magic Bullet](persona:1107)**: The dedicated Identity whose passive Burn infliction is strengthened to the number of Magic Bullets; her S2, S3, and Defense skill are Pride, supplying the required affinity, and her S3 Magic Bullet Fire resets Magic Bullets at 7.",
+    "蜘蛛の巣中指の親方: 火傷と出血を付与する人格で、S1が色欲で必要資源の色欲を出せる。": "**[The House of Spiders: The Middle Nursefather](persona:1115)**: An Identity who inflicts Burn and Bleed, whose S1 is Lust, supplying the required Lust."
+  }
+}

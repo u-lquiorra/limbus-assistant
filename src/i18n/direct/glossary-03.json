@@ -1,0 +1,218 @@
+{
+  "kind": "glossary-terms",
+  "terms": {
+    "unbreakable-coin": {
+      "sourceHash": "5d9e3867c29ece0d8541d27f72705248cdb67a0a49dc147dc4aad75ae473a32a",
+      "aliases": [],
+      "text": [
+        "Unbreakable Coin",
+        "A special Coin that remains after a Clash Loss. Winning alone may not stop the opponent's attack.",
+        "When present in an attack skill, these Coins remain and attack after a Clash Loss, normally after the winner's attack resolves.",
+        "A lost Clash changes the original Coin Power to 1; subsequent Coin Power bonuses still apply separately. Distinguish inherently Unbreakable Coins from Coins changed by an effect.",
+        "Excision Coins can break them. Unbreakable does not mean indestructible under every circumstance.",
+        "Winning a Clash still matters. Consider weakening the attack, reducing damage, or Evading it.",
+        "Reading Unbreakable Coins",
+        "Win the Clash",
+        "Resolve your attack",
+        "The opponent's remaining Unbreakable Coins attack",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "excision-coin": {
+      "sourceHash": "52e301e74ef88b5cec3f6fe15b81ace6ce2cbc15d49ce7210a02b245ead59fac",
+      "aliases": [],
+      "text": [
+        "Excision Coin",
+        "A special Coin that can break Unbreakable Coins during a Clash. When it loses a Clash itself, it behaves like an Unbreakable Coin.",
+        "An ordinary Coin that breaks during a Clash no longer contributes to later Power comparisons. An Excision Coin can also break Unbreakable Coins.",
+        "If the side with an Excision Coin loses the Clash, that Coin remains unbroken. In an attack skill, it attacks after taking damage, with its unbroken Coin Power changed to 1.",
+        "It therefore has 2 properties: breaking the opponent's Unbreakable Coins, and remaining after its own Clash Loss.",
+        "Being able to break Unbreakable Coins does not guarantee a Clash Win. Coin destruction and Clash victory are separate results.",
+        "Check the skill's conditions for remaining Coins, attack order after the Clash, and individual effects.",
+        "Clashing with Unbreakable Coins",
+        "The two properties of Excision Coins",
+        "Can break enemy Unbreakable Coins during a Clash",
+        "Survives its own Clash Loss and attacks after taking damage",
+        "These are concurrent properties, not a guaranteed sequence in every Clash. Breaking an opposing Coin does not guarantee victory."
+      ]
+    },
+    "ego": {
+      "sourceHash": "4e3f0a8cece8de054067dfedbf6a7e0ed5b7751349d6fbde052b90be845edb06",
+      "aliases": [
+        "EGO",
+        "E.G.O."
+      ],
+      "text": [
+        "E.G.O",
+        "A special skill equipped to a Sinner and used in battle when its requirements are met. It is separate from an Identity's ordinary skills.",
+        "Each Sinner can equip E.G.O in the ZAYIN, TETH, HE, WAW, and ALEPH classes. In battle, spend the required Sin resources to replace an attack skill with E.G.O.",
+        "E.G.O use requires Sin resources and SP. Check not only its Power and effects, but also the Sin resistances it will apply and the passive that begins next turn.",
+        "Normal use selects Awakening. Random Corrosion caused by low SP, or Overclock chosen by holding the icon, can use Corrosion instead.",
+        "Having enough resources does not mean it is safe to use. Check SP and targets too.",
+        "Before using E.G.O",
+        "Choose the E.G.O and check its resource cost",
+        "Check SP, Corrosion chance, and the resulting resistances",
+        "Confirm Awakening or Corrosion, targets, and effects before use",
+        "SP costs and targeting depend on the E.G.O and encounter conditions. Check its individual description."
+      ]
+    },
+    "ego-awakening": {
+      "sourceHash": "350a2a9bdf1a1edd1b7d4f26ad12db7cd1330145524c048c1292ad25e54bcebf",
+      "aliases": [],
+      "text": [
+        "E.G.O Awakening Skill",
+        "The skill normally selected when using E.G.O. Its effects and targeting differ from Corrosion.",
+        "Normal E.G.O use selects Awakening. Sin resources are spent when converting the skill to E.G.O; SP is spent before the attack begins.",
+        "The displayed Corrosion chance uses the predicted SP after paying the cost, although the actual deduction occurs before attacking. Normally, a prediction of -24 or higher does not Corrode; at -25 or lower, Awakening may change into Corrosion at the displayed chance. Check it before use.",
+        "Whether Corrosion exists, and whether its target can be selected, depends on the E.G.O.",
+        "Read Awakening and Corrosion separately rather than combining their effects.",
+        "Selecting Awakening",
+        "Check the E.G.O's resource and SP requirements",
+        "Check Corrosion chance after the projected SP cost",
+        "Confirm the Awakening skill and its target, then activate",
+        "The E.G.O selection screen displays Corrosion chance. Starting E.G.O has no Corrosion skill."
+      ]
+    },
+    "ego-corrosion": {
+      "sourceHash": "ce42537cfdc0edbaf2d308c38b3a1040b5da1e10eb27503a55ea0208b10db42f",
+      "aliases": [
+        "Corrosion",
+        "Random Corrosion",
+        "E.G.O Corrosion"
+      ],
+      "text": [
+        "E.G.O Corrosion",
+        "Activation of an E.G.O Corrosion skill, often through low SP. It can put allies at risk.",
+        "Reaching -45 SP causes the Identity to enter E.G.O Corrosion from the next turn, preventing normal commands. Targets follow the Corrosion skill's own rules and may not be selectable.",
+        "Even outside that state, using E.G.O with projected SP at -25 or lower after its cost can trigger Corrosion at the displayed chance. This random skill change alone does not cause the E.G.O Corrosion state.",
+        "Check the selection screen's Corrosion chance and the Corrosion skill's targeting rules.",
+        "Low SP does not produce identical behavior for every Identity and equipment setup.",
+        "Distinguish deliberate Overclock from automatic Corrosion.",
+        "Corrosion state versus random Corrosion",
+        "Reach -45 SP: enter E.G.O Corrosion next turn",
+        "At -25 or lower after the SP cost: E.G.O use has a Corrosion chance",
+        "Check whether this is a Corrosion state or only a Corrosion skill activation",
+        "These are separate mechanics. The Corrosion state prevents commands; random Corrosion normally leaves the Identity under player control."
+      ]
+    },
+    "overclock": {
+      "sourceHash": "5d71bbf1857a68dc179f214e04b9fb8b18b6144259237293d19d7c8447c41d1a",
+      "aliases": [],
+      "text": [
+        "Overclock",
+        "A way to deliberately select a Corrosion skill by paying an additional cost.",
+        "Hold the E.G.O selection icon to use Corrosion at 1.5 times the normal Sin resource and SP cost. Fractional resource costs round up.",
+        "With at least 1.5 times the required resources, Stable Overclock permits target selection according to the Corrosion skill's rules. With at least the normal cost but less than 1.5 times it, Unstable Overclock cannot distinguish friend from foe, and missing resources become negative.",
+        "Corrosion differs from Awakening in effects and targets. Paying more does not always make it better; read the skill before use.",
+        "Do not assume automatic Corrosion uses the same controls or permits the same targeting.",
+        "An E.G.O with a resource cost of 3",
+        "Have the normal cost of 3",
+        "Stable Overclock needs 1.5 times the cost, rounded up to 5",
+        "At 3–4, Overclock is unstable: no target selection, and insufficient resources become negative",
+        "This example illustrates resource scaling. The SP cost also becomes 1.5 times its normal value."
+      ]
+    },
+    "analysis": {
+      "sourceHash": "310f91e2a03599e72a275268c499eacb4ecde6be8646a3da15257a749d4d89c0",
+      "aliases": [
+        "Threadspin",
+        "E.G.O Upgrade"
+      ],
+      "text": [
+        "Threadspin",
+        "E.G.O progression that upgrades effects by tier. It is separate from Identity Uptie.",
+        "Compare the E.G.O's tier-specific values and unlock conditions to understand each upgrade.",
+        "Check materials and unlocked effects for the specific E.G.O and tier.",
+        "Do not confuse Identity Uptie tiers with E.G.O Threadspin tiers.",
+        "Reading Threadspin upgrades",
+        "Choose an E.G.O",
+        "Compare its effects before and after Threadspin",
+        "Check required materials and unlock conditions",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "synchronization": {
+      "sourceHash": "5284bec9d0b38a89d0423e584d7a07f01410171b623ec0242f2c090404faaf5a",
+      "aliases": [],
+      "text": [
+        "Uptie",
+        "Identity progression that unlocks and upgrades skills and passives by tier.",
+        "When multiple tier values are shown, check which values and effects the current Uptie can use.",
+        "Do not build around locked skills or effects. Identity and E.G.O progression are separate.",
+        "A guide written for maximum Uptie may not apply unchanged to an unupgraded Identity.",
+        "Reading Uptie upgrades",
+        "Check the current Uptie tier",
+        "Compare unlocked and improved effects",
+        "Consider how the upgraded Identity will be used",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "sin-resource": {
+      "sourceHash": "befb7cc4fdf7f1f084fb6ebeac71805063e4cc6f0b7da8dfac6aa0d00e3bf70e",
+      "aliases": [],
+      "text": [
+        "Sin Resources",
+        "Resources stored by Sin affinity, used for E.G.O and passive requirements.",
+        "Actually using a skill with a Sin affinity generates 1 resource of that affinity, even after a Clash Loss. It generates nothing if canceled before use by Stagger, death, or similar causes.",
+        "E.G.O consumes its displayed resource cost. Owned passives normally check resources at Turn Start; resources gained later in that turn do not activate them retroactively.",
+        "Resonance checks this turn's selected skill affinities; Owned checks stored resources. Similar-looking requirements use different information.",
+        "An Owned requirement does not itself mean those resources are consumed each time.",
+        "Generating, spending, and Owning resources",
+        "Use a skill with a Sin affinity to gain resources",
+        "Spend the required resources when using E.G.O",
+        "Owned passives check the resources held at Turn Start",
+        "Read Identity-specific resource generation, consumption, and passive requirements separately."
+      ]
+    },
+    "resonance": {
+      "sourceHash": "21e4ec08e2cc237d8fa9f24c57b0e6d890657792c8c0bfb24d89380651a782b9",
+      "aliases": [],
+      "text": [
+        "Resonance",
+        "Selecting multiple skills of the same Sin affinity in one turn. It is separate from the number of stored resources.",
+        "Multiple allied skills of the same affinity selected in one turn create Resonance. They count even when they are not adjacent in the chain.",
+        "Resonating attack skills gain Offense Level, helping Clashes and damage. In general, matching skills farther to the right gain a larger ordinary Resonance bonus.",
+        "For Resonance passives, check the required affinity and count. Absolute Resonance also counts toward Resonance requirements.",
+        "A large resource stock does not satisfy a Resonance condition by itself.",
+        "Nonadjacent matching skills also Resonate",
+        "Selected chain: Wrath, Gloom, Wrath",
+        "2 Wrath skills create Wrath Resonance",
+        "The Wrath skill farther right receives the larger bonus",
+        "Exact bonuses depend on Resonance count. Still prioritize strong skills and suitable Clashes."
+      ]
+    },
+    "perfect-resonance": {
+      "sourceHash": "bbeab1f9c3953685f9ef440e1a7dcf62e0fc5e665800da512c68c9ba1c0f39ed",
+      "aliases": [],
+      "text": [
+        "Absolute Resonance",
+        "A chain of at least 3 consecutive skills with the same Sin affinity.",
+        "Selecting at least 3 matching skills consecutively creates Absolute Resonance. It is a form of Resonance and also satisfies Resonance-count requirements.",
+        "Participating skills receive an Offense Level bonus based on the consecutive chain's length. This does not stack additively with ordinary Resonance; each skill receives whichever bonus is higher.",
+        "When an effect checks Absolute Resonance, count the consecutive chain, not all matching skills in the turn.",
+        "Do not confuse the total number of matching skills with the number in a consecutive chain.",
+        "A consecutive Absolute Resonance chain",
+        "Select Wrath, Wrath, Wrath consecutively",
+        "Wrath Absolute Resonance is 3",
+        "Wrath, Gloom, Wrath gives 2 Wrath Resonance, not Absolute Resonance",
+        "In longer mixed chains, each skill individually receives the higher of its ordinary and Absolute Resonance bonuses."
+      ]
+    },
+    "passive": {
+      "sourceHash": "96986436832c9f337a3f134d9394c560d492111d14b8e1c0b3d1a762a0fc9602",
+      "aliases": [],
+      "text": [
+        "Combat Passive",
+        "An effect an Identity activates while participating in battle, subject to its conditions.",
+        "Read the Owned or Resonance requirement separately from when the effect activates.",
+        "Check the Uptie needed to unlock it and any limits such as activations per turn.",
+        "Combat and support passives do not necessarily operate together. Check whether the Identity is deployed.",
+        "Reading a combat passive",
+        "Check the participating Identity",
+        "Check resource or Resonance requirements",
+        "Check activation timing and targets",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    }
+  }
+}

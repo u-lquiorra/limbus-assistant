@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0401.md",
+  "code": "0401",
+  "messages": {
+    "単体の敵に撃って火傷6と脆弱を残し、次のターンの味方の火力を底上げする、色欲斬撃の初期E.G.O。": "A starting Lust Slash E.G.O used on a single enemy to leave 6 Burn and Fragile behind, raising allies' damage on the next turn.",
+    "脆弱の付与: 次のターンに脆弱1を付与する。解析Ⅲでは表面的中時のみ、解析Ⅳでは的中時にも付くので表面的中なら合計2になる。精神力が高いほど表が出やすいため、できるだけ精神力の高いときに撃つ。": "**Inflicting Fragile**: Inflicts 1 Fragile next turn. At Threadspin Ⅲ it applies only on Heads Hit, and at Threadspin Ⅳ it also applies on hit, totaling 2 on Heads Hit. Higher SP makes Heads more likely, so use it when her SP is as high as possible.",
+    "火傷の付与: 解析Ⅲから的中時に火傷6を付与する(解析Ⅱ以前は表面的中時に火傷4)。火傷編成の追加ダメージ源になる。": "**Inflicting Burn**: From Threadspin Ⅲ, inflicts 6 Burn on hit (4 Burn on Heads Hit at Threadspin Ⅱ or below). It becomes an extra damage source for Burn teams.",
+    "威力の伸び: マッチ威力は解析Ⅲで18~24、解析Ⅳで18~28。必要資源が憤怒2・色欲2と軽く、資源の限られる戦場でも撃ちやすい。": "**Power growth**: Clash Power is 18–24 at Threadspin Ⅲ and 18–28 at Threadspin Ⅳ. Its requirements are a light 2 Wrath and 2 Lust, making it easy to use even on battlefields with limited resources.",
+    "パッシブ「芸術」: 前のターンに倒した敵1体につき、被ダメージと与ダメージが5%増える。倒しやすい通常戦闘向きだが、被ダメージも増えるので被弾に注意。": "**Passive — Art**: For each enemy she defeated on the previous turn, damage taken and dealt increase by 5%. It suits regular battles where enemies fall easily, but damage taken also rises, so watch out for hits.",
+    "単体ボスや混乱区間に入る直前の敵に撃ち、脆弱が乗る次のターンに味方全員で攻める。": "Use it on a single boss or an enemy about to hit its Stagger Threshold, then have the whole team attack on the next turn while Fragile is active.",
+    "自分の火力より、味方の攻勢を強める目的で使う。": "Use it to strengthen allies' offense rather than for her own damage.",
+    "初期E.G.Oなので侵蝕スキルは無く。": "As a starting E.G.O, it has no Corrosion skill.",
+    "罪悪耐性は暴食と嫉妬が脆弱なので、弱点を突かれやすい点に注意。": "Its Sin resistances are Fatal to Gluttony and Envy, so be aware that she is easy to hit for weakness damage.",
+    "Ⅱ: 「芸術」が解放されるだけで、スキルは変わらない。": "**Ⅱ**: Only unlocks Art; the skill does not change.",
+    "Ⅲ: 基本威力が14から18になり、的中時の火傷6と、表面的中時の脆弱1が加わる。": "**Ⅲ**: Base Power rises from 14 to 18, and 6 Burn on hit and 1 Fragile on Heads Hit are added.",
+    "Ⅳ: コイン威力が+6から+10になり、的中時にも脆弱1が付く。上げる価値が最も大きい段階と考えられる。": "**Ⅳ**: Coin Power rises from +6 to +10, and 1 Fragile is also applied on hit. This is likely the most worthwhile upgrade.",
+    "南部リウ協会4課: 全スキルが火傷を付与し、「対象の火傷が6以上」で強化される効果を持つので、火傷6を付与できるこのE.G.Oと噛み合う。憤怒・色欲の資源も出せる。": "**[Liu Assoc. South Section 4](persona:0407)**: All of her skills inflict Burn, and she has effects that power up when the target has at least 6 Burn, which meshes with this E.G.O's 6 Burn. She also supplies Wrath and Lust resources.",
+    "りょ・ミ・パ厨房長: S1(憤怒)とS3(色欲)で必要資源の憤怒・色欲を出せ、S3は対象の失った体力に応じてダメージ量が伸びる。": "**[R.B. Chef de Cuisine](persona:0404)**: S1 (Wrath) and S3 (Lust) supply the required Wrath and Lust, and S3's damage grows with the HP the target has lost."
+  }
+}

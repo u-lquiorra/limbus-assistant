@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0805.md",
+  "code": "0805",
+  "messages": {
+    "挑発値で攻撃を集め、マッチに負けても振動と破裂を返すタンク。": "A tank that draws attacks with Aggro and retaliates with Tremor and Rupture even after losing a clash.",
+    "挑発値: S1〜S3・守備は使用時に次のターンの挑発値+4。": "**Aggro**: S1–S3 and her Defense skill grant +4 Aggro next turn on use.",
+    "マッチ敗北時の付与: S1「重い…！」・S2「ゆらゆらする…！」・S3「腐食性粘液打撃」はマッチに負けると振動と破裂を付与する(S3は振動5・破裂5)。": "**Infliction on Clash Lose**: S1 It's Heavy...!, S2 It's Churning...!, and S3 Corrosive Splash inflict Tremor and Rupture when they lose a Clash (5 Tremor and 5 Rupture for S3).",
+    "S3: 1コインの大技。的中時に振動爆発(振動回数-4)し、破裂5を付与。": "**S3**: A 1-Coin big hit. Triggers Tremor Burst on hit (Tremor Count −4) and inflicts 5 Rupture.",
+    "バトルパッシブ「満ちる液体」(憂鬱×3・保有・同期化Ⅱで取得): 攻撃スキルで対象の体力にダメージを与えられなかった場合、次のターンにバリアを得る(最大30)。": "**Combat passive — Filling Fluid (3 Gloom Owned; unlocked at Uptie Ⅱ)**: If an attack skill fails to deal damage to the target's HP, she gains Shield next turn, up to 30.",
+    "集中戦闘では挑発値で攻撃を集める。マッチに負ければS1〜S3で振動と破裂を、勝てば振動(S3は振動爆発と破裂5)を入れる。攻撃で体力にダメージを与えられなかったときは次のターンにバリアを得る。": "In Focused Encounters, draw attacks with Aggro. If she loses a Clash, S1–S3 inflict Tremor and Rupture; if she wins, they inflict Tremor (S3 triggers Tremor Burst and inflicts 5 Rupture). When her attacks fail to damage HP, she gains Shield next turn."
+  }
+}

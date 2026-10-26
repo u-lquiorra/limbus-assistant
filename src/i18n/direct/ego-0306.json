@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0306.md",
+  "code": "0306",
+  "messages": {
+    "嫉妬共鳴が高いほど攻撃加重値とダメージ量が伸びる、嫉妬編成向けの貫通広域E.G.O。": "A multi-target Pierce E.G.O for Envy teams whose Attack Weight and damage grow with higher Envy Resonance.",
+    "加重値の増加: 攻撃前に(嫉妬共鳴数-2)だけ攻撃加重値が増える(上限は解析Ⅳで+3、基本は2なので最大5)。": "**Attack Weight increase**: Before attacking, Attack Weight increases by (Envy Resonance − 2), capped at +3 at Threadspin Ⅳ. The base is 2, for a maximum of 5.",
+    "ダメージ量の増加(解析Ⅲ): 攻撃前に(嫉妬共鳴数-3)×5%(上限15%)が加わり、解析Ⅳでは×10%(上限30%)になる。": "**Damage increase (Threadspin Ⅲ)**: Before attacking, adds (Envy Resonance − 3)×5% damage, up to 15%; at Threadspin Ⅳ, it becomes ×10%, up to 30%.",
+    "充電の消費: 攻撃前に自分の充電回数が20以上なら最大20を消耗し、ダメージ量+30%(解析Ⅲは35%、Ⅳは40%)。敵を討伐すると充電回数が2増える。": "**Spending Charge**: Before attacking, if she has at least 20 Charge Count, spends up to 20 for +30% damage (35% at Threadspin Ⅲ, 40% at Ⅳ). Defeating an enemy increases Charge Count by 2.",
+    "侵蝕スキル: 加重値の強化は覚醒と共通で、共鳴によるダメージ量の値は別(解析Ⅳは×12%、上限36%)。充電回数が20に足りないときは体力を消耗して20まで補う。その20を消耗してダメージ量が最大+100%(解析Ⅳ)になる、体力を代償にした火力型。": "**Corrosion skill**: The Attack Weight bonus is shared with Awakening, but the Resonance-based damage value differs (×12% at Threadspin Ⅳ, up to 36%). If her Charge Count is short of 20, she spends HP to make up the difference. Spending that 20 gives up to +100% damage (Threadspin Ⅳ), making it a damage skill paid for with HP.",
+    "パッシブ「嵐が如き悲鳴」: 斬撃か嫉妬のスキルで対象を倒すと、次のターンに攻撃威力増加1を得る。": "**Passive — Tempestuous Screaming**: Defeating a target with a Slash or Envy skill grants 1 Attack Power Up next turn.",
+    "嫉妬スキルを多く並べて共鳴を高めたうえで撃つ。覚醒の解析Ⅳなら、嫉妬共鳴5で加重値が、共鳴6でダメージ量の強化が上限に達する。": "Line up many Envy skills to raise Resonance before using it. At Threadspin Ⅳ, Awakening's Attack Weight caps out at 5 Envy Resonance and the damage bonus at 6.",
+    "充電を消耗する効果は、充電を持たない編成では発動しにくく、おまけと考えられる。": "The Charge-spending effect rarely triggers in teams without Charge, so it is likely just a bonus.",
+    "侵蝕スキルは減算コイン(コイン威力-12)で、表が出るほど威力が下がる。": "The Corrosion skill uses Minus Coins (−12 Coin Power), so its power drops the more Heads land.",
+    "必要資源は傲慢2・嫉妬4、精神消耗は覚醒20(侵蝕25)。": "It requires 2 Pride and 4 Envy, with an Awakening Sanity cost of 20 (25 for Corrosion).",
+    "Ⅱ: 「嵐が如き悲鳴」が解放される。": "**Ⅱ**: Unlocks Tempestuous Screaming.",
+    "Ⅲ: 共鳴によるダメージ量増加が加わり、加重値の上限が2に、充電消耗の強化が35%になる。": "**Ⅲ**: Adds the Resonance-based damage increase, raises the Attack Weight cap to 2, and raises the Charge-spending bonus to 35%.",
+    "Ⅳ: 加重値の上限が3、共鳴によるダメージ量がさらに伸び、侵蝕の体力消耗も軽くなる。": "**Ⅳ**: Raises the Attack Weight cap to 3, increases the Resonance-based damage further, and lightens the Corrosion skill's HP cost.",
+    "中指末妹: 義理証明・倍返し(嫉妬)と正義の仕返し(傲慢)で必要資源を出せ、嫉妬共鳴も組みやすい。": "**[The Middle Little Sister](persona:0306)**: Proof of Loyalty and Multifold Retribution (Envy) plus A Just Vengeance (Pride) supply the required affinities and make Envy Resonance easy to build.",
+    "ロボトミーE.G.O::愛と憎悪の名の下に: 嫉妬のスキルが多く、嫉妬共鳴を作りやすい。": "**[Lobotomy E.G.O:: In the Name of Love and Hate](persona:0312)**: Has many Envy skills, making Envy Resonance easy to build."
+  }
+}

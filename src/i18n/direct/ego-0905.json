@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0905.md",
+  "code": "0905",
+  "messages": {
+    "体力比率の低い味方2名を自分の最大体力基準で回復しつつ、敵に怠惰脆弱を付ける怠惰の広域回復E.G.O。": "A multi-target Sloth healing E.G.O that heals the 2 allies with the lowest HP ratio based on her own max HP while inflicting Sloth Fragility on enemies.",
+    "回復: 攻撃後、自分を除く現体力の比率が最も低い味方2名を、自分の体力最大値の15%(解析Ⅲは25%、Ⅳは30%)回復する。自分は回復できない。": "**Healing**: After the attack, heals the 2 allies other than herself with the lowest current HP ratio by 15% of her max HP (25% at Threadspin Ⅲ, 30% at Ⅳ). She cannot heal herself.",
+    "バリア: 解析Ⅲから、表面攻撃終了時に対象が混乱または死亡すると、回復した味方に自分の体力最大値の10%(Ⅳは15%)のバリアを付ける。": "**Shield**: From Threadspin Ⅲ, if the target is staggered or dies at the end of a Heads attack, the healed allies gain Shield equal to 10% of her max HP (15% at Ⅳ).",
+    "怠惰脆弱: 表面的中時(解析Ⅳは的中時)に、次のターンの怠惰脆弱1を付与する。": "**Sloth Fragility**: On Heads Hit (on hit at Threadspin Ⅳ), inflicts 1 Sloth Fragility next turn.",
+    "パッシブ「天の宣告」: 敵が混乱するたび、現体力の比率が最も低い味方1名の体力が最大値の4%回復する(1ターン1回)。誰が混乱させても発動する。": "**Passive — Sentencing from Above**: Each time an enemy is staggered, the 1 ally with the lowest current HP ratio recovers 4% of max HP (once per turn). It triggers no matter who causes the Stagger.",
+    "侵蝕スキル: 打撃になり、回復が無く、振動爆発と精神力ダメージを持つ。味方に当たると被害が大きい。": "**Corrosion skill**: Becomes Blunt with no healing, and has Tremor Burst and SP damage. It does heavy damage if it hits allies.",
+    "回復量は撃つ人格の最大体力で決まるので、体力の高いロージャで撃つ。": "The healing is based on the max HP of the Identity firing it, so fire it with a high-HP Rodion.",
+    "混乱を狙う場面では、使用の次のターン以降にバリアと「天の宣告」が重なる。": "When aiming for Stagger, the Shield and Sentencing from Above stack from the turn after use onward.",
+    "必要資源は怠惰4・傲慢3、精神消耗は25。": "It requires 4 Sloth and 3 Pride, with a Sanity cost of 25.",
+    "Ⅱ: 「天の宣告」が解放される。": "**Ⅱ**: Unlocks Sentencing from Above.",
+    "Ⅲ: 回復量25%、加重値2、バリアが加わる。": "**Ⅲ**: 25% healing, 2 Attack Weight, and the Shield are added.",
+    "Ⅳ: 回復量30%、加重値3、バリア15%、怠惰脆弱が的中時になる。": "**Ⅳ**: 30% healing, 3 Attack Weight, 15% Shield, and Sloth Fragility on hit.",
+    "蜘蛛の巣親指の親方: 怠惰(S2)・傲慢(S1)の資源を自給でき、振動爆発で混乱も狙える。": "**[The House of Spiders: The Thumb Nursefather](persona:0916)**: Supplies her own Sloth (S2) and Pride (S1), and can aim for Stagger with Tremor Burst.",
+    "バラのスパナ工房代表: パッシブが振動爆発の混乱前進量を増やし、「天の宣告」の発動条件である敵の混乱を作りやすい。傲慢の資源も出せる。": "**[Rosespanner Workshop Rep](persona:0905)**: Her passive increases Tremor Burst's Stagger Threshold shift, making it easy to create enemy Staggers, the trigger for Sentencing from Above. She also supplies Pride."
+  }
+}

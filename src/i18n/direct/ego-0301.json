@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0301.md",
+  "code": "0301",
+  "messages": {
+    "出血を付けつつ、解析Ⅲから与ダメージの半分を回復できる、出血編成向けの色欲貫通・単体E.G.O。": "A single-target Lust Pierce E.G.O for Bleed teams that inflicts Bleed and, from Threadspin Ⅲ, heals for half of the damage dealt.",
+    "出血付与: Ⅰコインの的中時に出血を付与する。付与量は解析で増え、Ⅱ以前は表面的中時に4、Ⅲは的中時に6、Ⅳは的中時に8。": "**Inflicting Bleed**: Coin Ⅰ inflicts Bleed on hit. The amount grows with Threadspin: 4 on Heads Hit at Ⅱ or below, 6 on hit at Ⅲ, and 8 on hit at Ⅳ.",
+    "与ダメージの回復(解析Ⅲで追加): 与ダメージ量の50%分体力を回復する(解析Ⅲは表面的中時、Ⅳは的中時)。貫通に弱い敵や混乱中の敵に撃つと回復も増えると考えられる。": "**Healing from damage dealt (added at Threadspin Ⅲ)**: Heals HP equal to 50% of the damage dealt (on Heads Hit at Threadspin Ⅲ, on hit at Ⅳ). Using it on enemies weak to Pierce or staggered enemies likely increases the healing as well.",
+    "パッシブ「過度な熱情」: 攻撃が的中したとき、対象に出血があれば体力を3回復する。コイン数の多い人格の攻撃ほど発動回数が増えると考えられる。": "**Passive — Immoderate Passion**: When an attack lands, heals 3 HP if the target has Bleed. Attacks from Identities with more Coins likely trigger it more often.",
+    "軽さ: 必要資源は色欲2・傲慢2、精神消耗は10。ただしマッチ威力は12〜23と低め(解析Ⅳは12〜26)。": "**Lightweight**: Requires 2 Lust and 2 Pride, with a Sanity cost of 10. However, its Clash Power is a lowish 12–23 (12–26 at Threadspin Ⅳ).",
+    "侵蝕スキルなし: 覚醒スキルのみ。": "**No Corrosion skill**: Awakening skill only.",
+    "出血を扱う人格と組み、出血の上乗せと回復で体力を保つ。": "Pair it with Identities that use Bleed to add Bleed and keep HP up through healing.",
+    "マッチ威力が低いので、精神力が高いときに使うか、一方攻撃で通す場面に使うと考えられる。": "Its Clash Power is low, so it is likely best used when her SP is high, or where it can go through as a one-sided attack.",
+    "解析Ⅳで威力・出血量・回復条件がそろうため、ドンキホーテを使うなら優先して解析する価値が高いと考えられる。": "Threadspin Ⅳ brings together power, Bleed amount, and the healing condition, so it is likely well worth prioritizing if you use Don Quixote.",
+    "Ⅱ: 「過度な熱情」が解放される。": "**Ⅱ**: Unlocks Immoderate Passion.",
+    "Ⅲ: 出血が的中時に6へ増え、表面的中時の体力回復が加わる。": "**Ⅲ**: Bleed rises to 6 on hit, and HP recovery on Heads Hit is added.",
+    "Ⅳ: 威力が12〜26に上がり、出血8、回復も的中時になる。恩恵が大きく、優先度は高いと考えられる。": "**Ⅳ**: Power rises to 12–26, Bleed becomes 8, and healing also applies on hit. The benefit is large, so it is likely a high priority.",
+    "ラ・マンチャランド室長: 出血を扱う人格で、色欲のスキルを複数持ち、必要資源の色欲も出せる。": "**[The Manager of La Manchaland](persona:0310)**: A Bleed Identity with several Lust skills who can supply the required Lust.",
+    "南部センク協会5課部長: ルミーズ(色欲)とサリュー!(傲慢)で、必要資源の色欲・傲慢を両方出せる。": "**[Cinq Assoc. South Section 5 Director](persona:0305)**: Remise (Lust) and Salut! (Pride) supply both required Lust and Pride."
+  }
+}

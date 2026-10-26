@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0709.md",
+  "code": "0709",
+  "messages": {
+    "パッシブで3コインの火傷を大きく増やし、火傷でコイン威力を伸ばす、3コイン広域の嫉妬打撃E.G.O。": "A 3-Coin multi-target Envy Blunt E.G.O whose passive greatly increases Burn from 3-Coin skills and whose Coin Power grows with Burn.",
+    "パッシブ「回路接続」: 火傷を付与するスキルか嫉妬属性のスキルが的中したとき、そのコイン数の半分(繰り上げ)の火傷威力を追加で付与する(1ターンに3回)。3コインのスキルで効率がよい。": "**Passive — Circuit Wiring**: When a skill that inflicts Burn or an Envy skill hits, it inflicts additional Burn Potency equal to half its Coin count (rounded up), 3 times per turn. Efficient with 3-Coin skills.",
+    "火傷によるコイン威力(解析Ⅳ): メインターゲットの火傷6につき、コイン威力+1(最大3)。基本威力が低い分をこれで補う。": "**Coin Power from Burn (Threadspin Ⅳ)**: +1 Coin Power per 6 Burn on the main target, up to 3. This makes up for its low Base Power.",
+    "充電のダメージ変換: 攻撃前に充電を得て全消費し、消費1につきダメージ量2%上がる(解析Ⅲは3%、最大45%)。嫉妬共鳴4以上なら充電7になる。": "**Converting Charge into damage**: Before attacking, he gains Charge and spends all of it, gaining 2% damage per point spent (3% at Threadspin Ⅲ, up to 45%). At 4 or more Envy Resonance, the Charge becomes 7.",
+    "住民登録マイクロチップ: 3コイン目で付与。憤怒・嫉妬スキルの被ダメージが+10%になり、次のターンまで続く被ダメージ増加として働く。": "**Resident Reg. Microchip**: Inflicted by the third Coin. Damage taken from Wrath and Envy skills becomes +10%, working as a damage-taken increase that lasts until the next turn.",
+    "火傷を扱う編成で、3コインのスキルとして頻繁に振る。パッシブは使用した次のターンから有効。": "In Burn teams, use it frequently as a 3-Coin skill. The passive is active from the turn after use.",
+    "必要資源は憤怒2・暴食1・嫉妬3で、嫉妬3が重いので、資源を出せる人格で組む。": "It requires 2 Wrath, 1 Gluttony, and 3 Envy; the 3 Envy is heavy, so build with Identities that can supply it.",
+    "火傷抜きの充電寄りは威力を出しにくく、工夫が要る。侵蝕スキルは充電が最大10まで増え、威力はほぼ同じ。": "A Charge-leaning build without Burn struggles to deal damage and needs some ingenuity. The Corrosion skill raises Charge up to 10 with nearly the same power.",
+    "Ⅱ: 「回路接続」が解放され、火傷の主力になる。": "**Ⅱ**: Unlocks Circuit Wiring, making it a key Burn source.",
+    "Ⅲ: 充電のダメージ変換が強化されるが、効果は小さい。火傷目的ならⅡで止めるか、Ⅳまで上げるのがよいと考えられる。": "**Ⅲ**: Strengthens the Charge-to-damage conversion, but the effect is small. For Burn purposes, it is likely best to stop at Ⅱ or go all the way to Ⅳ.",
+    "Ⅳ: 火傷付与が2に増え、火傷によるコイン威力が加わり、マッチもしやすくなる。": "**Ⅳ**: Burn infliction rises to 2, Burn-based Coin Power is added, and it becomes easier to Clash.",
+    "黒獣-酉 筆頭: S1(嫉妬)・S2(暴食)・S3(憤怒)で必要資源をすべて出せ、火傷でコイン威力が上がる。": "**[Heishou Pack - You Branch Adept](persona:0714)**: S1 (Envy), S2 (Gluttony), and S3 (Wrath) supply all required affinities, and his Coin Power rises with Burn.",
+    "中指末兄: S1(憤怒)とS2・S3(嫉妬)で資源を出せ、火傷も付与できる。": "**[The Middle Big Brother](persona:0715)**: S1 (Wrath) and S2 and S3 (Envy) supply resources, and he can also inflict Burn."
+  }
+}

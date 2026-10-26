@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0811.md",
+  "code": "0811",
+  "messages": {
+    "出血とマイナス効果を積み、黒雲会の味方を強化しながらS3で出血を連続発動させる人格。": "An Identity that stacks Bleed and negative effects, strengthens Kurokumo Clan allies, and repeatedly triggers Bleed with S3.",
+    "出血とマイナス効果: 各攻撃スキルは対象の出血に応じてコイン威力、マイナス効果の数に応じてダメージ量が上がる。": "**Bleed and negative effects**: Each attack skill gains Coin Power based on the target's Bleed and damage based on the number of negative effects.",
+    "S3「墨塗り」: Ⅲコインで対象の出血を3回発動させる(出血回数-3)。マイナス効果1つにつき与ダメージ量+10%(最大100%)。": "**S3 — Ink Over**: Coin Ⅲ triggers the target's Bleed 3 times (Bleed Count −3). +10% damage per negative effect, up to 100%.",
+    "黒雲会の強化: S2「鋭い刃」は戦闘開始時に速度の高い黒雲会の味方へダメージ量増加を付与。S2は黒雲会が6名以上なら5名へダメージ量増加2/3/4に強化。守備は自分を含む黒雲会(2+最大共鳴数)名へ守備威力増加2を付与。": "**Strengthening the Kurokumo Clan**: At Combat Start, S2 Sharpened Blade gives Damage Up to fast Kurokumo Clan allies. With 6 or more Kurokumo Clan members, S2 is upgraded to give 2/3/4 Damage Up to 5 allies. Her Defense skill gives 2 Defense Power Up to (2 + highest Resonance) Kurokumo Clan members, including herself.",
+    "バトルパッシブ「押し寄せる黒い雲」(色欲×3・共鳴・同期化Ⅱで取得): 戦闘参加中の黒雲会が2名以上なら黒雲刀を得る。両隣の黒雲会人格に「黒い雲」(そのターンの基本攻撃スキルが破壊不能コインになる等)を付与(色欲共鳴4以上なら自分以外の黒雲会全員)。": "**Combat passive — Gathering Dark Clouds (3 Lust Resonance; unlocked at Uptie Ⅱ)**: Gains Dark Cloud Blade if 2 or more Kurokumo Clan members are in battle. Gives Dark Cloud (that turn's basic attack skills gain Unbreakable Coins, and more) to the Kurokumo Clan Identities on both sides of her (all other Kurokumo Clan members at 4 or more Lust Resonance).",
+    "S1・S2で出血とマイナス効果を積み、S3で出血を連続発動させて削る。黒雲会所属の味方を多く編成すると、味方強化が大きくなる。": "Stack Bleed and negative effects with S1 and S2, then wear enemies down by triggering Bleed repeatedly with S3. The more Kurokumo Clan allies in the team, the larger the ally buffs."
+  }
+}

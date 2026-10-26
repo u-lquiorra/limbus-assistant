@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0305.md",
+  "code": "0305",
+  "messages": {
+    "全スキルが貫通で、高い速度とクイックで先に動いてマッチを取り続ける決闘型の人格。束縛と「決闘宣布」で単体の敵を抑え込む。": "An Identity with all-Pierce skills built for dueling: she acts first with high Speed and Haste and keeps winning Clashes. She locks down single enemies with Bind and Declared Duel.",
+    "S2→S1の速度管理: S2「フレッシュ」は使用時に次のターンのクイック1/2を得る。S1「ルミーズ」は自分の速度が7以上でコイン威力+1/2、マッチ勝利時に次のターンのクイック1を得る。速度範囲は4〜7なので、S2で得たクイックで次のターンのS1強化(速度7以上)を満たしやすくなる。ただし確実ではなく、クイック2の段階でも素の速度が4なら6で届かない(5〜7が出れば成立)。": "**Speed management from S2 to S1**: S2 Flèche grants 1/2 Haste next turn on use. S1 Remise gains +1/2 Coin Power at 7 or more Speed and grants 1 Haste next turn on Clash Win. Her Speed range is 4–7, so the Haste from S2 makes it easier to meet the S1 bonus (7+ Speed) on the next turn. It is not guaranteed, though: even with 2 Haste, a base roll of 4 only reaches 6 (it works on a roll of 5–7).",
+    "束縛: S1はⅡコインのマッチ勝利後の(表面)的中時、S2はⅡコインの(表面)的中時に、次のターンに束縛1を付与する。": "**Bind**: S1 inflicts 1 Bind next turn on (Heads) hit with Coin Ⅱ after a Clash Win, and S2 does so on Coin Ⅱ (Heads) hit.",
+    "決闘宣布 - ドンキホーテ: S3「サリュー！」のⅠコインの的中時に付与する。付与した相手とのマッチでマッチ威力+1、攻撃的中時に次のターンのクイック1を得る(1ターンにつき最大4回)。": "**Declared Duel - Don Quixote**: Inflicted on Coin Ⅰ hit of S3 Salut!. In Clashes against the marked target, she gains +1 Clash Power, and landing attacks grants 1 Haste next turn, up to 4 times per turn.",
+    "マッチ回数でダメージ増加: S2・S3はマッチ勝利時、マッチ回数1回につきダメージ量が増える(S2は+5%で最大50%、S3は+5%/10%で最大50%/100%)。": "**Damage from Clash count**: On Clash Win, S2 and S3 gain damage for each Clash exchange (S2 +5% up to 50%; S3 +5%/10% up to 50%/100%).",
+    "S3の速度条件: 速度10以上でコイン威力+2/3。Ⅱコインで敵を倒すと精神力15回復。": "**S3's Speed condition**: +2/3 Coin Power at 10 or more Speed. Defeating an enemy with Coin Ⅱ restores 15 SP.",
+    "バトルパッシブ「高貴な決闘」(傲慢×3・共鳴・同期化Ⅱで取得): 全味方の速度が全ての敵より高いときだけ、速度が最も低い敵との速度差1につきダメージ量+6%(最大30%)。": "**Combat passive — A Noble Duel (3 Pride Resonance; unlocked at Uptie Ⅱ)**: Only while all allies are faster than every enemy, +6% damage per point of Speed difference against the slowest enemy, up to 30%.",
+    "速度の低いターンはS2でクイックを取り、次のターンにS1を強化してマッチ勝利と束縛を狙う。単体のボスには、早めにS3で決闘宣布を入れてマッチを有利にする。S3の速度10とパッシブの条件は満たしにくいので、狙って揃えるより、揃ったら得をする程度に考える。守備「デフォンシヴ」は回避成功時に対象の精神力を3減らすので、精神力を持つ相手に向く。": "On low-Speed turns, collect Haste with S2, then empower S1 the next turn to aim for Clash Wins and Bind. Against a single boss, apply Declared Duel early with S3 to tilt Clashes in her favor. S3's 10 Speed and the passive's condition are hard to meet, so treat them as a bonus when they happen rather than something to set up. Her Defense skill Défensive reduces the target's SP by 3 on a successful Evade, so it suits opponents with SP."
+  }
+}

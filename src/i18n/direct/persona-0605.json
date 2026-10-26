@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0605.md",
+  "code": "0605",
+  "messages": {
+    "「K社アンプル」の割合回復とバトルパッシブの大回復で倒れにくいタンク。守備とパッシブがアンプルの上限を分け合うので、その配分が立ち回りの軸になる。": "A durable tank sustained by K Corp Ampule's percentage healing and the combat passive's large heals. Defense and the passive share the Ampule cap, so managing that shared allowance defines his play pattern.",
+    "K社アンプル: ターン開始時に4未満なら(数値×5)%の体力を回復する。4以上になると死亡する。": "**K Corp Ampule**: At Turn Start, if it is below 4, he heals (value×5)% of his HP. **He dies when it reaches 4 or more.**",
+    "守備「アンプル注入」: 使用時に次のターンにK社アンプル1を得る(バリアも高め)。": "**Defense skill — Ampule Injection**: Grants 1 K Corp Ampule next turn on use (with a fairly large Shield).",
+    "バトルパッシブ「再生アンプル活性化」(暴食×5・保有・同期化Ⅱで取得): 被ダメージ時に体力が20%未満なら、最大値の90%を回復してK社アンプル1を得る。発動後は毎ターン脆弱1を得る。データには「戦闘につき1回」とあるが、これがパッシブ全体に掛かるかどうかはデータから判断できない。複数回発動しても得る脆弱が増えるわけではないので、複数回発動するものとして使ってよいと考えられる。": "**Combat passive — Regeneration Ampule Activation (5 Gluttony Owned; unlocked at Uptie Ⅱ)**: When he takes damage below 20% HP, he heals 90% of his max HP and gains 1 K Corp Ampule. After it triggers, he gains 1 Fragile every turn. The data says \"once per battle,\" but whether this applies to the whole passive cannot be determined from the data. Triggering it multiple times does not increase the Fragile gained, so it is likely fine to use it as if it can trigger multiple times.",
+    "アンプルの配分: 守備とパッシブはどちらもアンプルを増やす。守備を多く使ってアンプルが3になった状態でパッシブが発動すると、4になって死亡する。": "**Allocating Ampules**: Both the Defense skill and the passive increase Ampules. If the passive triggers while Ampules are at 3 from heavy Defense skill use, it reaches 4 and he dies.",
+    "挑発値: S1「侵入者遮断」・S2「崩壊刃」・守備は使用時に次のターンの挑発値+5。挑発値が付くのは同期化Ⅳから。": "**Aggro**: S1 Impede the Intruder, S2 Decay Blade, and his Defense skill grant +5 Aggro next turn on use. The Aggro is added from Uptie Ⅳ.",
+    "S2「崩壊刃」: マッチ威力が高めの主力スキル。破裂を付与する。": "**S2 — Decay Blade**: His main skill with fairly high Clash Power. Inflicts Rupture.",
+    "集中戦闘ではS2と守備で挑発値を上げて攻撃を引き受ける。守備を早めに使えば毎ターンの割合回復が増え、使わなければその分パッシブの大回復にアンプルの余裕を残せる。大技を受けるか細かい攻撃に耐えるかで配分を決め、アンプルが4に届かないよう守備の回数を管理する。": "In Focused Encounters, raise Aggro with S2 and his Defense skill to take attacks. Using the Defense skill early increases the percentage healing every turn, while not using it leaves Ampule room for the passive's large heal. Decide the allocation based on whether he needs to take big hits or endure many small ones, and manage Defense skill use so Ampules never reach 4."
+  }
+}

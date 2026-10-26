@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0401.md",
+  "code": "0401",
+  "messages": {
+    "S3「描き出す」を使うターンに自分の斬撃ダメージをまとめて底上げし、S3→S2「ばら撒く」の順に当てて火力を伸ばす斬撃アタッカー。パッシブで被ダメージも増える、攻撃に寄せた人格。": "A Slash attacker that boosts her Slash damage on the turn she uses S3 Brushstroke, ideally landing S3 before S2 Splatter. Her passive also increases damage taken, making her an offense-focused Identity.",
+    "S3「描き出す」: 戦闘開始時に斬撃ダメージ量増加2(1ターンの間、スキルの与ダメージが増加)を得る。スキルを使う前に付くので、同じターンに使う自分の他の斬撃スキルにも乗る(斬撃のE.G.Oも対象)。": "**S3 — Brushstroke**: Gains 2 Slash DMG Up at Combat Start (more skill damage for 1 turn). Because it is applied before her skills are used, it also boosts her other Slash skills that turn, including Slash E.G.O.",
+    "S2「ばら撒く」: Ⅰ・Ⅱコインとも、対象がこのターンにダメージを受けていればダメージ量+10%/+30%(同期化段階で変化)。S3や味方の攻撃の後に当てると条件を満たせる。": "**S2 — Splatter**: Both Coins Ⅰ and Ⅱ deal +10%/+30% damage (depending on Uptie) if the target has already taken damage this turn. Landing it after S3 or an ally's attack meets the condition.",
+    "呼吸: S1「塗る」のⅠコイン[表面的中時/的中時](同期化段階で変化)で次のターンに呼吸1/2、S3のⅡコイン的中時に次のターンに呼吸2を得る。": "**Poise**: Coin Ⅰ of S1 Paint grants 1/2 Poise next turn [on Heads Hit/on hit] (depending on Uptie), and Coin Ⅱ of S3 grants 2 Poise next turn on hit.",
+    "バトルパッシブ「無差別的芸術」(暴食×3・共鳴): 自分の被ダメージ量と与ダメージ量がそれぞれ+25%。自分の暴食スキルはS1と守備「回避」だけ。": "**Combat passive — Indiscriminate Art (3 Gluttony Resonance)**: She takes +25% damage and deals +25% damage. Her only Gluttony skills are S1 and the Defense skill Evade.",
+    "サポートパッシブ「背中を押す」(暴食×3・共鳴・同期化Ⅲで取得): 最大体力が最も低い味方1名の与ダメージ量と被ダメージ量が+20%。": "**Support passive — Hustle (3 Gluttony Resonance; unlocked at Uptie Ⅲ)**: The 1 ally with the lowest max HP deals and takes +20% damage.",
+    "S3を引いたターンは、S3を当ててから同じターンにS2を続け、斬撃ダメージ量増加とS2の条件(このターンに被ダメージ)の両方を乗せる。S2は自分の2枠目以降で使うと条件を満たしやすく、行動回数を稼げる通常戦闘で強みが出やすい。体力が低いうえにパッシブで被ダメージも増えるので、狙われやすい場面では被弾に注意する。": "On turns when she draws S3, land S3 and then follow with S2 in the same turn to stack both the Slash DMG Up and S2's condition (damage taken this turn). S2 meets its condition more easily from her second slot onward, so she tends to shine in regular battles where she gets more actions. Her HP is low and her passive increases damage taken, so watch out for hits when she is likely to be targeted."
+  }
+}

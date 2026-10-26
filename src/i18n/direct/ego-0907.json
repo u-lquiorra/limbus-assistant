@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0907.md",
+  "code": "0907",
+  "messages": {
+    "自分を含む味方を回復しつつ、敵に出血・呪い・釘を撒く、嫉妬斬撃の出血向け回復広域E.G.O。": "A multi-target Envy Slash healing E.G.O for Bleed teams that heals allies, including herself, while spreading Bleed, Curse, and Nails on enemies.",
+    "回復: 攻撃後、自分と現体力の比率が最も低い味方2名を、自分の体力最大値の12.5%(解析Ⅳは15%)回復する。自分も回復できる。解析Ⅳで嫉妬共鳴が4以上なら回復対象が1名増える。": "**Healing**: After the attack, heals herself and the 2 allies with the lowest current HP ratio by 12.5% of her max HP (15% at Threadspin Ⅳ). She can heal herself. At Threadspin Ⅳ, with 4 or more Envy Resonance, one more ally is healed.",
+    "回復量の上乗せ: 解析Ⅲから、回復対象のマイナス効果が多いほど回復量が増える(Ⅲは2種ごと、Ⅳは1種ごとに2.5%、最大Ⅲ7.5%・Ⅳ10%)。": "**Healing bonus**: From Threadspin Ⅲ, healing increases the more negative effects the recipient has (2.5% per 2 types at Ⅲ, per 1 type at Ⅳ; up to 7.5% at Ⅲ and 10% at Ⅳ).",
+    "出血・呪い・釘: 的中時に出血2(Ⅲは3、Ⅳは4)と呪い2(Ⅳは3)、表面的中時に釘2(Ⅳは3)を付与する。釘は毎ターン出血を付与する特殊出血。": "**Bleed, Curse, and Nails**: Inflicts 2 Bleed (3 at Ⅲ, 4 at Ⅳ) and 2 Curse (3 at Ⅳ) on hit, and 2 Nails (3 at Ⅳ) on Heads Hit. Nails is a special Bleed that inflicts Bleed every turn.",
+    "パッシブ「胸に突き刺さった鉄のくい」: 基本攻撃スキルで出血を付与すると防御レベル減少1、対象に既に出血があれば出血2を追加で付与する(各1ターン1回)。味方が敵から体力ダメージを受けると呪い1を付与する(1ターン2回)。": "**Passive — Iron Stake against the Heart**: When a basic attack skill inflicts Bleed, it also inflicts 1 Defense Level Down, plus 2 more Bleed if the target already has Bleed (once per turn each). When an ally takes HP damage from an enemy, it inflicts 1 Curse (twice per turn).",
+    "出血編成で、出血を配りつつ味方を回復する場面に使う。パッシブは意識しなくても出血編成で発動する。": "Use it in Bleed teams when you want to spread Bleed while healing allies. The passive triggers in Bleed teams without any special effort.",
+    "2コインで合計威力の幅が広く、精神力が高いほど表が出やすいので、精神消耗25を踏まえて使う。": "With 2 Coins, its total power varies widely, and higher SP makes Heads more likely, so use it with the 25 Sanity cost in mind.",
+    "必要資源は嫉妬4・色欲2・傲慢1。嫉妬に偏る。": "It requires 4 Envy, 2 Lust, and 1 Pride, skewed toward Envy.",
+    "Ⅱ: パッシブが解放される。効果が優秀なので早めに解放したい。": "**Ⅱ**: Unlocks the passive. Its effect is excellent, so unlock it early.",
+    "Ⅲ: 出血3、回復量の上乗せが加わる。": "**Ⅲ**: Adds 3 Bleed and the healing bonus.",
+    "Ⅳ: 基本威力6→8、回復15%、出血4・呪い3・釘3、嫉妬共鳴4で回復対象+1。": "**Ⅳ**: Base Power 6→8, 15% healing, 4 Bleed, 3 Curse, 3 Nails, and +1 healing target at 4 Envy Resonance.",
+    "ラ・マンチャランドの姫: 出血を付与するスキルを持ち、色欲(S3)・傲慢(S1)・嫉妬(S2)の必要資源をすべて出せる。": "**[The Princess of La Manchaland](persona:0911)**: Has Bleed-inflicting skills and supplies all of the required Lust (S3), Pride (S1), and Envy (S2).",
+    "薬指野獣派ドーセント: S2・S3が出血を付与し、嫉妬(S2)・色欲(S3)の資源も出せる。": "**[The Ring Fauvist Docent](persona:0915)**: S2 and S3 inflict Bleed, and she supplies Envy (S2) and Lust (S3) resources."
+  }
+}

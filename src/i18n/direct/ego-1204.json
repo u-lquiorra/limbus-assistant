@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1204.md",
+  "code": "1204",
+  "messages": {
+    "敵に放出電流を付けて、攻撃した味方に充電を配りつつ、憂鬱スキルで破裂回数を維持させる支援向けE.G.O。": "A support E.G.O that applies Spark Discharge to enemies, handing Charge to allies who attack them while letting Gloom skills maintain Rupture Count.",
+    "放出電流: 的中時に付与する(5、解析Ⅲで10、Ⅳで15)。付与された敵にダメージを与えると攻撃者の充電回数が1増え、数値が1減る。": "**Spark Discharge**: Inflicted on hit (5, 10 at Threadspin Ⅲ, 15 at Ⅳ). Dealing damage to an enemy with it increases the attacker's Charge Count by 1 and reduces its value by 1.",
+    "破裂の維持: 放出電流を持つ敵が憂鬱属性のダメージを受けると、その敵の破裂回数が1増える。破裂は威力ばかり伸びて回数が切れやすいので、回数を補える。": "**Maintaining Rupture**: When an enemy with Spark Discharge takes Gloom damage, its Rupture Count increases by 1. Rupture tends to grow only in Potency with Count running out, so this covers the Count.",
+    "自身の充電: 攻撃前に自分の充電回数が5増える(解析Ⅲで7、Ⅳで10)。": "**His own Charge**: His Charge Count increases by 5 before attacking (7 at Threadspin Ⅲ, 10 at Ⅳ).",
+    "パッシブ「交流放出」: 表面的中時に自分の充電2を消耗し、充電を持つ味方のうち最も回数が低い1名へ1増やす。": "**Passive — Alternating Discharge**: On Heads Hit, spends 2 of his own Charge to increase by 1 the Charge of the ally with the lowest Count among those with Charge.",
+    "先に撃って放出電流を付け、憂鬱スキルを持つ破裂人格や充電人格に殴らせる。": "Fire it first to apply Spark Discharge, then have Rupture Identities with Gloom skills or Charge Identities hit the target.",
+    "必要資源は憂鬱3・嫉妬3。精神消耗は20。": "It requires 3 Gloom and 3 Envy, with a Sanity cost of 20.",
+    "侵蝕スキルは敵味方識別不可で、充電を持つ対象(味方の可能性あり)を優先して攻撃し、対象の充電回数も増やす。": "The Corrosion skill cannot distinguish friend from foe, prioritizes targets with Charge (possibly allies), and also increases the target's Charge Count.",
+    "Ⅱ: 「交流放出」が解放される。自分の充電を削るので、編成で活かす場合以外は急がなくてよいと考えられる。": "**Ⅱ**: Unlocks Alternating Discharge. It cuts into his own Charge, so there is likely no rush unless the team makes use of it.",
+    "Ⅲ: 放出電流が10になる。破裂編成で使うなら最低限ここまでと考えられる。": "**Ⅲ**: Spark Discharge becomes 10. If you use it in a Rupture team, this is likely the minimum.",
+    "Ⅳ: 放出電流が15になり、侵蝕スキルの攻撃加重値が3になる。": "**Ⅳ**: Spark Discharge becomes 15, and the Corrosion skill's Attack Weight becomes 3.",
+    "バラのスパナ工房フィクサー: 充電と破裂を扱い、S2が嫉妬、S3が憂鬱で必要資源を出せる。": "**[Rosespanner Workshop Fixer](persona:1205)**: Uses Charge and Rupture, and his S2 is Envy and S3 Gloom, supplying the required affinities.",
+    "LCE E.G.O::AEDD: 充電を軸にする人格で、S2が憂鬱、S3が嫉妬。破裂も付与する。": "**[LCE E.G.O:: AEDD](persona:1215)**: A Charge-centered Identity whose S2 is Gloom and S3 Envy. He also inflicts Rupture."
+  }
+}

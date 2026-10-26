@@ -1,0 +1,1046 @@
+{
+  "kind": "boss-copy",
+  "id": "annette",
+  "source": "src/data/bosses/annette.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "漂流慣性",
+          "en": "Inertia of Drifting",
+          "file": "Bufs-a1c10p2.json",
+          "id": "ChargeKhaki"
+        },
+        {
+          "ja": "裁断されてしまった",
+          "en": "Sheared Apart",
+          "file": "Bufs-a1c10p2.json",
+          "id": "DamagedFabric"
+        },
+        {
+          "ja": "裁断された生地",
+          "en": "Cut Fabric",
+          "file": "Bufs-a1c10p2.json",
+          "id": "FinishedFabric"
+        },
+        {
+          "ja": "花ばさみ",
+          "en": "Blossom Scissors",
+          "file": "Bufs-a1c10p2.json",
+          "id": "LargeTailoringShears"
+        },
+        {
+          "ja": "裁断の印",
+          "en": "Mark of Shearing",
+          "file": "Bufs-a1c10p2.json",
+          "id": "ScissorsMark"
+        },
+        {
+          "ja": "お直し対象",
+          "en": "Alteration Target",
+          "file": "Bufs-a1c10p2.json",
+          "id": "TailoringTarget"
+        },
+        {
+          "ja": "手の震え",
+          "en": "Trembling Hands",
+          "file": "Bufs-a1c10p2.json",
+          "id": "ThirdTailor_LowMorale"
+        },
+        {
+          "ja": "手の震え",
+          "en": "Trembling Hands",
+          "file": "Bufs-a1c10p2.json",
+          "id": "ThirdTailor_Panic"
+        },
+        {
+          "ja": "お直し職人アネット",
+          "en": "Annette the Alterationist",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1495"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148305"
+        },
+        {
+          "ja": "お直し",
+          "en": "Alteration",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149501"
+        },
+        {
+          "ja": "裁断",
+          "en": "Tailoring",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149503"
+        },
+        {
+          "ja": "断ち切れぬはさみの動き",
+          "en": "Scissors That Do Not Rest",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149504"
+        },
+        {
+          "ja": "漂流慣性",
+          "en": "Inertia of Drifting",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149505"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149604"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "151101"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "151201"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "1590001"
+        },
+        {
+          "ja": "トリミング",
+          "en": "Trimming",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149501"
+        },
+        {
+          "ja": "カッティング",
+          "en": "Cutting",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149502"
+        },
+        {
+          "ja": "固定、そしてパターンに沿って裁断",
+          "en": "Pin and Trim Along the Patterns",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149503"
+        },
+        {
+          "ja": "クーペ・ダン・ル・ビエ",
+          "en": "Coupez dans le Biais",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149504"
+        },
+        {
+          "ja": "パターン起こし",
+          "en": "Patterning",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149505"
+        },
+        {
+          "ja": "シュルフィレ・ア・ラ・シェン",
+          "en": "Surfile à la Chaîne",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149506"
+        }
+      ],
+      "note": "Names follow paired Canto X part 2 records. The Japanese guide spelling alias for Surfile à la Chaîne uses skill 149506. Alteration Target defense, follow-up attack risks, always versus conditionally Unbreakable Coins, 75%/90% mitigation, Stagger resets, and unconfirmed sequencing are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "50bfe81945622f993ebb6e0b271c4362641c87de704073b673052db486cd3d3f",
+      "text": "Annette the Alterationist (Canto X, Route B)"
+    },
+    "shortName": {
+      "sourceHash": "f8a76c51126c68db1c1af27fef1a27e68ab45db0894d6473f0265c3020dbf57d",
+      "text": "Annette the Alterationist"
+    },
+    "stageName": {
+      "sourceHash": "0ca5414037798617832950f5c1b582d5770e916ce0d06c281e3ede0e0c34754a",
+      "text": "Sisyphus Department Store B, 3F: Alteration Room"
+    },
+    "lead": {
+      "sourceHash": "8fd0364c4a4df4f72aee132bd9dddec4a0df5343d54dc040a185e64e7af406eb",
+      "text": "Each turn, have the Alteration Target defend while the other Sinners attack to Stagger Annette. Attacks from the target greatly increase her Power. Stagger removes her Shield, Cut Fabric, and Blossom Scissors; exploit the opening with 3 Fragile to deal heavy damage."
+    },
+    "listLead": {
+      "sourceHash": "5f9d97a43ea93400c337a02b2824be190891963de67f98964c660d83fbfb7ee2",
+      "text": "Each turn, have the Alteration Target defend while the other Sinners attack to Stagger the boss. Attacks from the target greatly increase her Power. Stagger removes Shield, Cut Fabric, and Blossom Scissors; exploit the opening with 3 Fragile."
+    },
+    "statNote": {
+      "sourceHash": "45470641f04ce0392984db2bd60187b535e22a9e76fd88ec7963be1f78a083a4",
+      "text": "Covers the Route B, 3F encounter in Canto X. Annette starts at Lv. 48 with 3,093 HP, base Defense Level 56, 30 SP, and Inertia of Drifting at 1 Potency and 0 Count. Her initial Stagger Threshold is 50% HP (1,546) and rises when hit. On Stagger, she creates a new threshold at 0 HP. Meursault, Sinclair, and Outis are required; up to 12 Sinners can deploy. Identity levels in this dungeon follow Customer Level, and Identities below Uptie III are raised to III; E.G.O Threadspin is unchanged."
+    },
+    "skillNote": {
+      "sourceHash": "2ead8dbb11289ad9b5f038a4bf71ecf05bd8d5d0aacf33ab72ddeac7bdfc45d2",
+      "text": "Displayed Power excludes bonuses from Inertia of Drifting, Blossom Scissors, HP, and attacks by the Alteration Target. Cutting's third Coin is always Unbreakable. The effects and tips explain how Trimming's last Coin and Cutting's second Coin become Unbreakable at 60% HP or less. Some action sequences remain unconfirmed; check the current skills and Alteration Target rather than relying on a fixed turn table."
+    },
+    "priorities.0": {
+      "sourceHash": "c240b26ec520699447fe7e89379494651c6be694035a2e9ed17a7124b88d0223",
+      "text": "Have the Alteration Target defend. Watch for follow-up and automatically triggered attacks that may still hit her."
+    },
+    "priorities.1": {
+      "sourceHash": "f0509f86896dc5924e10a0d82ab505328a1c416d63525388449c3e3599364c19",
+      "text": "Use the other Sinners to clash and attack, raising her Stagger Threshold to break through the Shield."
+    },
+    "priorities.2": {
+      "sourceHash": "b6532b85d0e7cf3648945946649f20d4a8c29167a9adf95936ef60822d2c6810",
+      "text": "Win strong clashes for 75% reduction against Pin and Trim Along the Patterns and 90% against Coupez dans le Biais."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "1eb5cd5bdaea9de4f3bb9ee5fce9d2d2c87a77b0a177e93d2e4a398d02d2aa0d",
+      "text": "Her Clash Power and damage suddenly increased"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "6ead4495b6f239066dbbddd638146a2c1ad86e07437a8c2d0fe7ca46c67db24a",
+      "text": "Each hit from the Alteration Target gives Annette 3 Power Up, up to 9 per turn. Have that Sinner defend. Beware of Identities that still trigger follow-up or automatic attacks after manually selecting defense, and attack with the other Sinners."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "932283b1ef2505c6bd651f86302d756e3ef8c6ef3315032de6b8be278e435c66",
+      "text": "The Shield refreshes every turn and I cannot damage her HP"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "70cfcbcceb730de7a560a1583131aae319e680b4d0d3bf93ba85b8c9d8907243",
+      "text": "At 30 Fabric, she gains a Shield equal to 30% max HP at Turn Start. However, every hit from a Sinner also raises her Stagger Threshold. Focus attacks from Sinners other than the target to Stagger her, then exploit the loss of Shield and Fabric."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "fd6bce70ff19f425f4d3d9c57d8063abea8923f873b75d91c4f727995a8d6073",
+      "text": "Another Sinner cannot clash with the attack on the Alteration Target"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "b65eed4b6bbf20818e8cd2d3723fc9111a44675d4405b13e05eed792baed57b9",
+      "text": "Patterning and Surfile à la Chaîne cannot be redirected. Equip defense on the Alteration Target for 80% damage reduction; let the other Sinners clash with normal skills and attack to Stagger her."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "ae6f1b1c0ee952f25331e91fd03b35e8148ce2869f9182e1e4368d4f6a87ac54",
+      "text": "The area attack continues after I win the clash"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "0807e63343d9dea4a8881c8a034f11326ace40f1fbb43f9eb8c9247c7f58f41d",
+      "text": "Her major skills have Unbreakable Coins and still attack after a clash win. Winning against Coupez dans le Biais grants 90% reduction, gives her 4 Paralyze, and prevents Stagger from that skill's damage. Keep checking HP recovery and Tremor even after winning."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "0e10537f2805120a6f32e058ff15f5302f7f8087d3ed0b362dc652f5356da1b9",
+      "text": "Ⅰselected defense but still strengthened her"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "f5245867128b0d06ac58850d2e563762cb323e67a005f8be7e9624fee5209fcd",
+      "text": "Automatic attacks and follow-ups can cause this. If a Defense Skill changes into an Attack Skill, check what actually activates. If its interaction is unclear, use an Identity with an ordinary Guard or Evade as the Alteration Target."
+    },
+    "phases.0.timing": {
+      "sourceHash": "9493d613f43ac4d2106631ac08888604696d6e1e0fda79e6d922991b194e5482",
+      "text": "Before entering the 3F Alteration Room"
+    },
+    "phases.0.title": {
+      "sourceHash": "a9aa6dc6c124079474631d806a8964d6b96082a8026dafc31b9f523867308f10",
+      "text": "Check defense and follow-ups so roles can rotate"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "05de14dbc854e6b236f8329cd4d28c9f6608c72089869f09368433cd2df34c96",
+      "text": "Shop toward Customer Lv. 50 or higher and Sapphire rank. Customer Lv. 51 is reachable at this point. Check this separately from Identity levels raised outside the dungeon."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "c146a0d7fc0466eeb94e1f25f33b2f23a58518bd28c08072d011565998fb1012",
+      "text": "Meursault, Sinclair, and Outis are required. Check everyone's defense and whether follow-ups or automatic attacks may activate on turns when you need them to stop attacking."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "b3cc667c2ab8a21d9b279f97b986e4f01994b0480667ca628cf9becb52fce88d",
+      "text": "The enemy mainly uses Slash. Prepare Slash resistance, HP recovery, and strong clashes from Sinners other than the target. Blunt, Sloth, Pride, and Envy work well offensively."
+    },
+    "phases.1.timing": {
+      "sourceHash": "fb3f9464370b0f38df121e08d9e5bcc08236c00b9a46b90b1e7de265803c0366",
+      "text": "Turn 1"
+    },
+    "phases.1.title": {
+      "sourceHash": "ba9253cafcb65149bb3d8302f256c0599bedfd579e304a4e44f820383fec9a3e",
+      "text": "Win against normal skills and plan the next Alteration Target"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "d7f85e0de2af750e362ce4022201ba0163b3586c83f6d9603306aeefd830095a",
+      "text": "Clash with Trimming and Cutting to limit Mark and Tremor application. Their On Use Inertia of Drifting Count gains still occur even if you win."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "5cd1cfee6bb6053efbaf7d441e4b80e680d18bffb4ab2e2cde9d0c152ea1690a",
+      "text": "Cutting's third Coin is Unbreakable from the start. It can apply Mark of Shearing even after a clash win; check the recipient's HP and Mark."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "e60c5894fb0b79fe22ea4d60e859288c4d0a67fe6a1466d49521f32e702af9a1",
+      "text": "Next turn's Alteration Target is the Sinner who dealt the most damage to Annette this turn. Avoid concentrating damage on someone whose follow-ups are hard to stop; aim to mark a Sinner who can switch to defense."
+    },
+    "phases.2.timing": {
+      "sourceHash": "c79806f5b24808596a261539071cff900b4fd675709bc7b5de9b5d57e80fc7fa",
+      "text": "Turn 2 onward, before selecting actions"
+    },
+    "phases.2.title": {
+      "sourceHash": "11d7ce27a2514398354fcbfe3c0b1c789bd2bb34f6f479d64639e5539b6a8df9",
+      "text": "Have the Alteration Target defend"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "0acdc256b4704d070da3ede2d6701b647e568d781b2543ea35a580c767575d88",
+      "text": "Identify the Alteration Target first. Set that Sinner to defense without mixing in Attack Skills. Equipping defense at Combat Start reduces damage taken from Annette by 80%."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "bfe6506f9c658e194d7cd4075735114f178db9bc8897a94245382cd8ac2582ca",
+      "text": "The target gains +5 Speed and +3 Clash Power on their first skill, but these are not a reason to attack. Hitting Annette first grants her Power Up and worsens later allies' clashes."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4da54bc0c4968871b8cf35f2d939ee97a39045645969cabb4a7f3c68f5e9bcaf",
+      "text": "Each hit gives her 3 Power Up, up to 9 per turn. Follow-ups and automatic attacks also trigger this. After choosing defense, make sure the setup will actually prevent attacks."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "f5ebe5c45bb7c9ba8e6f96cd2da60b289af304d5502d7647e225c546d2041558",
+      "text": "A Clashable Counter can also handle the attack. However, do not assume attacks converted from defense or automatically triggered attacks behave identically. Start with Guard or Evade until familiar with the interaction."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f92994c863ed51086252899395143d9114909a6855fdcfceeb2374022e07df9c",
+      "text": "When Pin and Trim or an area attack appears"
+    },
+    "phases.3.title": {
+      "sourceHash": "362f3476de6feade2121f76dabf0d53d1d61c8ef1b5eb0ffe4bfb8bf6933b447",
+      "text": "Win with a strong skill from someone other than the target"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "e194ae0af8dbff77ede576a897a6d66310eca79615f0d26194b0bb5d638ecad3",
+      "text": "Pin and Trim Along the Patterns and Coupez dans le Biais can be clashed with regardless of Speed. Assign a strong Sinner other than the Alteration Target."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "3ed5459d838fb893a040003d19e8de425de4935f5c2f06fd3a757d6eb439639a",
+      "text": "At 10 or more Inertia of Drifting Count, she consumes 10 for +2 Coin Power. Do not judge Pin and Trim only by its base maximum of 15, or Coupez by 16. Remaining Count consumption and Fabric also increase damage."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "1cdd1525f0ff621fc60003aba4d15e81f0d99c28debd4f2199877db8e5f7fea0",
+      "text": "Winning against Pin and Trim gives 75% reduction; Coupez gives 90%. Both give her 4 Paralyze, reduce Fabric by 3, and prevent Sinners from being Staggered by that skill's damage."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "4da4ab25c3bf96e602d04bc371e45a28291d7db844a9bd61fc035fa8e90509fe",
+      "text": "Coupez gains Atk Weight equal to Blossom Scissors, reaching 7. Tremor and Marks may remain after winning; check HP and statuses on everyone hit by the area attack."
+    },
+    "phases.4.timing": {
+      "sourceHash": "4a84c9a464af5e95a3fc83b4ba1de69215ae1789b3482670386dc3517ecae5a4",
+      "text": "The Alteration Target has 9 Mark of Shearing"
+    },
+    "phases.4.title": {
+      "sourceHash": "d3d91b3b87f2303d7e141c27248fa9931a271dd31ee6c4cd90989738a1994701",
+      "text": "Defend against the enhanced alteration skill too"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "f7ac420a32a45442bd5a4cc3b83bb4e7c23cc1ca456522510a677f9b40f688e9",
+      "text": "Patterning targets the Alteration Target and cannot be redirected. Both Coins are Unbreakable, and the final hit applies 9 Mark. Prioritize the target's defense and healing instead of trying to redirect it."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "7d016d3d25a2cf26f823bffc9159bd18ca85f527467d7c5d97d8bffdb09589c3",
+      "text": "If the Alteration Target has 9 Mark at Turn Start, the skill changes to Surfile à la Chaîne. It has four Unbreakable Coins and scales with Blossom Scissors and Inertia of Drifting Potency."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "fb771298da273dba9844d525cc1334f09186f8ce6d148800628088046df86f28",
+      "text": "If the target has defense equipped, Annette gains 4 Paralyze On Use, and the skill's damage cannot Stagger the target. Combine this with the Alteration Target's 80% reduction."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "de95e6c19333e79a1d948dd67fa48d9d4c77f470f1a154dc5e2fe40d1139a34f",
+      "text": "If the target has no defense equipped, Annette gains 10 Fabric next turn. Clashing also inflicts Sheared Apart equal to half the Sinner's Final Clash Power, so do not insist on countering with a strong attack. After use, all Marks are consumed and she also gains Blossom Scissors next turn."
+    },
+    "phases.5.timing": {
+      "sourceHash": "ecdd07c2efcce832c89ce7844420d559e762b2b007e58e477089f23af1abdb1c",
+      "text": "Other Sinners' attacks and the body's Stagger"
+    },
+    "phases.5.title": {
+      "sourceHash": "75b679a3ab89fb9c26c600901793db69e4c4726c4fdd06d5f1f57fda31803c55",
+      "text": "Clear her buffs with Stagger and exploit 3 Fragile"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "c5e195f0a2c0c334d975e06db55aae3b0a0954e2046900db2f6ebe35bcb5dbad",
+      "text": "Every hit from a Sinner raises Annette's Stagger Threshold by 0.8% of her max HP. Keep attacking with Sinners other than the target to seek Stagger even while her Shield remains."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "037f336368d43f7af56393f86ddd75e7adb393b5827cce4c206e116d8556e7f9",
+      "text": "Stagger removes all Shield, Cut Fabric, and Blossom Scissors and gives her 3 Fragile. The Alteration Target can also attack during this Stagger; concentrate strong skills to deal heavy damage."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "5a82f106f7b70e5f563ac180933f01fc9ea50d16d234feee53294d5a02179ccf",
+      "text": "Inertia of Drifting is not among the effects removed by Stagger. She regains 30 Fabric at Turn Start after recovering, so use the entire opening, then identify the next Alteration Target and rotate defense and attack roles."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "542b9cdd5b6812c551af5d32debe8e8d81aa5a5c07496290089848f4b6d81abe",
+      "text": "From a Turn Start at 60% HP or less, lost HP increases her Power and Slash damage. Trimming's last Coin and Cutting's second Coin also become Unbreakable. Watch post-clash damage and healing while seeking another Stagger to finish her."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "14dfd55b8bbbf1553e51ec850886c307c6f965156ef42525aaea447624241d21",
+      "text": "Alteration Target"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "1dad1b03799cb5e925cbaa5331c58614af9d40f3e4e531b3c620ab2eb3bd7a14",
+      "text": "Applied at Turn Start to the Sinner who dealt the most damage last turn. +5 minimum and maximum Speed; +3 Clash Power on the first skill used. If defense is equipped at Combat Start, take 80% less damage from Annette. Loses 1 at Turn End. Each Attack Skill hit from the target gives Annette 3 Power Up, up to 9 per turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "1a8e3107bbf3086bb4b2db8cfac36b29518f26fe881589713ddfcac58c4f1d5c",
+      "text": "Have the target defend and stop follow-up and automatic attacks. The other Sinners attack; rotate the target each turn."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "e9db63c465998f8166df286082b5c82d81c8eb69ec70210472dff9080afe4d9f",
+      "text": "Mark of Shearing"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "ae0d08d057c2e4adaf19b474c1dae3f3ebbcb11a6907497c3a9fe0c0f08a25f2",
+      "text": "Maximum 9. Lowers Defense Level by Stack. Sinners attacking Annette also gain 1, up to 5 per Sinner per turn. If the Alteration Target has 9 at Turn Start, Patterning becomes Surfile à la Chaîne."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "45e614260a08a134c47de04755f2879dee4d46e6b0ec0eb15b4ea9acef88e1bc",
+      "text": "Even at 9 Mark, use the target's defensive reduction rather than forcing an attack clash."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "cce007fa6280265d43b8a83298e4d651eafce682d6da679436743a8d6b328748",
+      "text": "Cut Fabric"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "8e3bacd01db06ced3bd336494bdd4dc7241efb39ec4abe0e7bf365288355b987",
+      "text": "Maximum 30. Skills that gain or consume Charge Count or special Charge deal Stack% more damage. Loses 5 at Turn End, or 10 if the Shield broke that turn. At Turn Start, gain a Shield equal to Stack% max HP and heal SP equal to Stack. Gains 30 at Stage Start and after recovering from Stagger."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "738dd59da62104c37823e1386d446a26087983f98a59557092992c27b9037a28",
+      "text": "Remove it together with the Shield by Staggering her, then attack before Fabric returns after recovery."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "4ef50b9cf620db1a85e22ba2952dfaa0540c29051c3f8070db89b1171ac58b2a",
+      "text": "Blossom Scissors"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "090fb31d599dfda302afa6918ae5b248c93e076c7db4cab8015b13902d51160a",
+      "text": "Maximum 3. Deal +(5 + Stack ×5)% damage to Sinners, up to 20%. Skills against the Alteration Target gain Clash Power equal to Stack. Also enhances Cutting and Coupez's Atk Weight, and Surfile's Power and damage."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "ffef7cff21183f5a7c6faf550ece56578d11b2af787cc8f9b925076868700cf5",
+      "text": "Stagger removes all of it. Do not let the target attack while it is stacked and further increase her Power."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "7868fd3fdd94a70db0d80272cd6234615815911e1accaa2bad778d98e629fa85",
+      "text": "Inertia of Drifting"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "fa604d2f40ae440fd4e6b5abca3982a1bf64414a447a39ab05864a546eddc1e8",
+      "text": "Special Charge. Starts at 1 Potency and 0 Count, with a base maximum of 20 Count; loses 1 Count at Turn End. Gain 1 Potency per cumulative 10 Count consumed. At 3 or more / 5 or more Potency, maximum Count increases by 5 / 10. Charge gain and loss effects also apply."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "22ae301f453e1b494ed55504ec7dc055d7acaf2b9739b1c237099649bbe5de93",
+      "text": "Many skills are enhanced at 10 or more Count. Check both Potency and Count, which remain through Stagger, before choosing clashes."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "d65cc299f8a25d2eeb41ad38da3e9c08ed81f45b1e793056419ae4417a506a01",
+      "text": "Sheared Apart"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "145aa3b97e8e65865ddbf0c8af40afb5043502ac989f1aa3105b8d495b51f3da",
+      "text": "Maximum 30. At Turn Start, gain 1 HP Healing Down per 6 Stack, up to 5. Clash Power against Patterning and Surfile à la Chaîne is reduced by Stack."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "9a09cc3765a6f4fab732b733e4d3f03f7b192582134a93367e5c4b940bd0a48f",
+      "text": "Defend against the enhanced skill on the target; avoid stacking this by clashing with an attack."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "324cea6aab3c05e47073c8a53948d866845640f414f863f49ecfb47a478ab27c",
+      "text": "Trembling Hands"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "b6bbddbe5422deeead965a44ab2369d9580856b1fe383c2b1f44716f416ea611",
+      "text": "At −20 SP or lower, take +7.5% damage and gain 1 Tremor Count when hit. At −45 SP or lower, take +15% damage and gain 1 Tremor Potency and Count when hit, once per skill and up to 5 times per turn. If Panicked at Turn End, SP returns to 30."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "233c5515bb0bb9a9e385478d0d4938d4b58a58f516c101d77cd8fb463e2533ef",
+      "text": "Attack during her weakened state to seek Stagger, but do not assume her low SP can be maintained indefinitely."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "8401d98edaddf76d886cec6cd88a8da470b0daac0d355e38352970c215b8f23a",
+      "text": "Raised by department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "1e07c276e61a5496b48dc763889a122e33f1185d391d970ecc9cb7e450e590f3",
+      "text": "Aim for Customer Lv. 50 or higher and Sapphire rank, with your strongest available clashes and healing."
+    },
+    "warnings.0": {
+      "sourceHash": "e2e2ce7bd0ecb9bb39336a2c8ceb2e2b1d47a89041ed0ffb8d683c959d4d2359",
+      "text": "Attacks from the Alteration Target grant her Power Up. Do not choose attacks just because the target gains +5 Speed or +3 Clash Power."
+    },
+    "warnings.1": {
+      "sourceHash": "c7f897674f45c0868e850bcd590c37f1488e1d7ce8da244916f1e4873eb48198",
+      "text": "Beware of Identities with follow-up or automatic attacks even after choosing defense. Interactions when defense changes into an attack remain unconfirmed."
+    },
+    "warnings.2": {
+      "sourceHash": "d49d043ce0ba15e49f5d151ee440b749c3cdf9a8aee3377d5b16e8a48cd6d1b1",
+      "text": "Patterning and Surfile cannot be redirected. Use the target's own defense for 80% reduction."
+    },
+    "warnings.3": {
+      "sourceHash": "9755ddeec85a12b213267a3efbc3ed2324e3e2866232b782136802899e2717e4",
+      "text": "Cutting's third Coin is always Unbreakable. At 60% HP or less, its second Coin and Trimming's last Coin also become Unbreakable."
+    },
+    "warnings.4": {
+      "sourceHash": "2178de7a39f5212bb693c67d56508fe6bf3df2caec7f10b85bbb62bc2f725fdd",
+      "text": "Stagger removes Shield, Fabric, and Blossom Scissors, but Inertia of Drifting remains. She regains 30 Fabric after recovery."
+    },
+    "warnings.5": {
+      "sourceHash": "6590710a0705d022680c86a79ac54f08d878b2d29860075070274f83a0671c0e",
+      "text": "The exact skill sequence is partly unconfirmed. Check the Alteration Target, Marks, and current skills before acting."
+    },
+    "preparation.0": {
+      "sourceHash": "8d18ca0b67c807b33630df7e9fb9bdcf5f195c973bdf1393c1e4406774ac711d",
+      "text": "Aim for Customer Lv. 50 or higher and Sapphire rank. Check defense and automatic attacks on the required Meursault, Sinclair, and Outis too."
+    },
+    "preparation.1": {
+      "sourceHash": "eec624c0020747bdd2a32b8c1e71dea994e643f54f37de9ada4afb43cec66132",
+      "text": "Blunt 1.2 and Sloth, Pride, and Envy 1.25 are favorable. Pierce, Wrath, Lust, and Gloom are 0.75; check your main damage types."
+    },
+    "preparation.2": {
+      "sourceHash": "a0b02df7f6bc93add7ace51c31d71c91ccb3e19e9eeb37df75a2325c30b20938",
+      "text": "Prepare Slash-resistant recipients, HP recovery, and high-Power skills to win against major attacks clashable regardless of Speed. Ensure the other Sinners can handle clashes while the Alteration Target defends."
+    },
+    "roles.0.name": {
+      "sourceHash": "edb4f56995a8675a9d300a0af2c98eeec4d9b9d10f1c6e7fd143b7586d6268c0",
+      "text": "Defender receiving alterations"
+    },
+    "roles.0.reason": {
+      "sourceHash": "27ef83671dafc8bb4dfaf46887636be4bd70f75a2ef07f505b9a9dc3b5f6ab44",
+      "text": "Rotates according to the previous turn's top damage dealer. Stops attacks with Guard or Evade to use the 80% reduction."
+    },
+    "roles.1.name": {
+      "sourceHash": "f4eb092bf333c4f2e9976b6bdec700c379d9a1b4b3ad357ae173144ac33d1995",
+      "text": "Clashes and repeated hits from other Sinners"
+    },
+    "roles.1.reason": {
+      "sourceHash": "9ac88538b3321649c0ab393dec1e74b5ea060728e103b2d5dfa094a8a02c1213",
+      "text": "Attack without increasing her Power, raising her Stagger Threshold on hit to break her Shield and buffs."
+    },
+    "roles.2.name": {
+      "sourceHash": "0aed89c97dcc0104ffaa66f82f64e4ae1ab608f409b9a3478e5954e51ed00b76",
+      "text": "High-Power skills and HP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "7db7f23bae0cc9fd3cf1e4f3c9d4b3f691a02386d01043da92a122a74b8da998",
+      "text": "Win major clashes for 75% / 90% reduction and heal the remaining Unbreakable damage."
+    },
+    "units.0.name": {
+      "sourceHash": "f8a76c51126c68db1c1af27fef1a27e68ab45db0894d6473f0265c3020dbf57d",
+      "text": "Annette the Alterationist"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "c9fa6b277a984684debe0e46b99b040025c7661fc6436b47c3df134d4bb9a490",
+      "text": "Initially 50% (1,546); rises when hit"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "d1c082639a929366c6b687dea58b55a454b3a1a195e6f76514a9d9228ffdab1c",
+      "text": "Starts at 30 SP with Inertia of Drifting at 1 Potency and 0 Count."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "b9a989ba35d12511a6465085d65a172cad79456a6594be7b7f58c8bd5356a484",
+      "text": "On Stagger, creates a new Stagger Threshold at 0 HP."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "12ad28eb7d5619120209bb3e1dd66a307281c4f1c2233eeb0cd915a91b02a23a",
+      "text": "Stagger removes Shield, Fabric, and Blossom Scissors and gives her 3 Fragile."
+    },
+    "skills.0.name": {
+      "sourceHash": "c3dccd051b36fc93086afa8bc779e8cb47c87dfdf8be8509bbd0972f6bd5cb73",
+      "text": "Trimming"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "99c2db2daf32956014f5623a047b81de98024159fc2b7903c86911e7ff454126",
+      "text": "- At 10 or more Inertia of Drifting Count, Coin Power +1"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "f4b98f6c5992714ab57f34f8091da92bcb02a44dfb571106c91b2134a354e9a6",
+      "text": "- If this unit has Blossom Scissors, damage +(Blossom Scissors Stack ×10)% (max 30%)"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "423ec744faf10e1b1d7d600ec2ef6fe3d8a1c809e6d93ac7e4aee40d1aae866a",
+      "text": "[On Use] If Inertia of Drifting Count is below 15, gain 2 Inertia of Drifting Count"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "e2363123c7023e6fbae36fb54ecece81e4c545ea87f072ed496d92bdaebf0893",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor; inflict 2 Tremor Count"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "40142c155491c8a11b6cde902b7e6afefeb10a63c8580bbacf567a251d08ecdb",
+      "text": "Ⅱ[On Hit] Gain 2 Inertia of Drifting Count"
+    },
+    "skills.0.effects.6": {
+      "sourceHash": "14596399143f76fc8641662e51025270886be7381a2c284543827bd5e4d5e70f",
+      "text": "[On Hit] Inflict 2 Mark of Shearing"
+    },
+    "skills.0.response": {
+      "sourceHash": "9cbf2def81835fdc9e3b77ca104b22de04e14cd04df6656138bf9533308c6144",
+      "text": "At 10 or more Inertia of Drifting Count, Coin Power +1. From a Turn Start at 60% HP or less, the last Coin also becomes Unbreakable. Clash with someone other than the Alteration Target to limit Marks and Tremor."
+    },
+    "skills.1.name": {
+      "sourceHash": "02afb5b562df132aa894cada4d8a84464b763aa160001f0b4aab02803d733144",
+      "text": "Cutting"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "83ee525e06c416e24d243598782704e19486dfbf734d5729bd5422ac18f1304e",
+      "text": "- At 2 or more Blossom Scissors, Atk Weight +1"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "99c2db2daf32956014f5623a047b81de98024159fc2b7903c86911e7ff454126",
+      "text": "- At 10 or more Inertia of Drifting Count, Coin Power +1"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "303dc9963c534da9bd70f1552ca5640a5ad80157f1735eef867a4a9d558b79da",
+      "text": "[On Use] Gain 4 Inertia of Drifting Count"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "51c814f3d903b19086a21708ae763dd0cfbc7c6f281b7761442891abf196c94d",
+      "text": "Ⅰ [On Hit] Inflict 3 Tremor and increase Tremor Count by 2"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "9793bce8ba4373df10fc36adb459227641c1b977e96c858c26e52ea3f61d74ed",
+      "text": "Ⅱ[On Hit] Gain 3 Inertia of Drifting Count"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "14596399143f76fc8641662e51025270886be7381a2c284543827bd5e4d5e70f",
+      "text": "[On Hit] Inflict 2 Mark of Shearing"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "e83b0e6f7f83fac00da27e0d973099f1a97870e375e7efa0e6f0aaf38494ede2",
+      "text": "[On Hit] Inflict 3 Mark of Shearing"
+    },
+    "skills.1.effects.9": {
+      "sourceHash": "a65118b2dfaf3c0fcd54f850f3f8ba91bec4aa4a224ee3648fee630da6df8b01",
+      "text": "[On Hit Without Breaking] Gain 1 Cut Fabric next turn"
+    },
+    "skills.1.effects.10": {
+      "sourceHash": "54f60c52b06dfc4ff0bf7dc0c8f8973bbf1fb35e6127a383a75036425ccf1b96",
+      "text": "[On Hit Without Breaking] At 12 or more Inertia of Drifting Count, consume 4 Count to trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "2d709a3f2353af5c931bf2c0adeb9bd5f8587f640f74cf99134872b0299b99d4",
+      "text": "The third Coin is always Unbreakable; the second also becomes Unbreakable under the 60% HP condition. At 2 or more Blossom Scissors, Atk Weight +1. Check Marks and area damage that remain after a clash win."
+    },
+    "skills.2.name": {
+      "sourceHash": "ba3d23f9830866e2d4b08406e3d38dce948478a013eab7e2e2022b03b83181a9",
+      "text": "Pin and Trim Along the Patterns"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "98d3887c3c20466ffb45bc688a6b483263b1b7714cba9f6198ff79c1bb585e00",
+      "text": "- At 10 or more Inertia of Drifting Count, consume 10 Count for +2 Coin Power"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "41fde2f2f151eb558b462a3a4232befd076d968f105210e07526386269da6409",
+      "text": "· Consume up to 20 remaining Inertia of Drifting Count; damage +1% per Count consumed (max 20%)"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "db146f06d188883e674ca277b197470fb4254ee0f3c002e3f0820694d2f9f2c7",
+      "text": "- Lose 3 Cut Fabric"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "10bf70dfdc48ddb45a640106bb45361a62afe3da1fe3db58eca4fee0439d00aa",
+      "text": "-Damage -75%"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "7b911d39d4c6af8ad234ae9ce59161b617e130d3a2db4d598b4ad92988e0c6b3",
+      "text": "- Gain 4 Paralyze"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "424dce2646b6662b54325d9ce584042523273aa4c7453350ec58eea7e77d1df9",
+      "text": "- The target cannot be Staggered by this skill's damage"
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "8a58beb272bc024fa6fcb9b2ca6d6f99d231c7c9ea0c14f0d97c9027b8443723",
+      "text": "[On Hit] Gain 3 Inertia of Drifting Count"
+    },
+    "skills.2.effects.11": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.12": {
+      "sourceHash": "2b81741c275c4d238c644e4acc650c1f086b8f20d4c472afb3660c249e17b40e",
+      "text": "[On Hit Without Breaking] Inflict 4 Tremor"
+    },
+    "skills.2.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.14": {
+      "sourceHash": "8f419ea765dff6930f8cd3b6c332591d60742d6d117b56b70c2c6c1fcbc2d0e9",
+      "text": "[On Hit Without Breaking] Inflict 3 Tremor Count"
+    },
+    "skills.2.effects.15": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.2.effects.16": {
+      "sourceHash": "c3198b075a436d0cd1bf3df3db7ac46c3d6fdf09e3aff9dc6d96b5bb1ae5ecaf",
+      "text": "[On Hit] Inflict 5 Mark of Shearing"
+    },
+    "skills.2.effects.17": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.18": {
+      "sourceHash": "d74e71e58ade53f2f1fc782b13c10d39abbc49d5f3443f6538fbea376b3a8bb7",
+      "text": "[On Hit Without Breaking] Gain 3 Cut Fabric next turn"
+    },
+    "skills.2.effects.19": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.2.label": {
+      "sourceHash": "9c8436837ed7c801ffe34ccd252f614684927771713154c6da4d3b448636dfff",
+      "text": "Clashable regardless of Speed"
+    },
+    "skills.2.response": {
+      "sourceHash": "3f5f51dbf7f669f25ffd58afd5e24e614f18280afa1deebe9bab6b552b17a510",
+      "text": "Clashable regardless of Speed, with four Unbreakable Coins. Winning gives 75% reduction, gives the enemy 4 Paralyze, and prevents Stagger from this skill's damage. Use a strong skill from someone other than the Alteration Target."
+    },
+    "skills.3.name": {
+      "sourceHash": "059b1f5ad94ac1c95bbc64c490393a4bbf64d056564d6f550f2b7f456c85c5eb",
+      "text": "Coupez dans le Biais"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "b7de14a464517b5e846cec20a146bd32bc5d227ea825aa28fa60444f177bc113",
+      "text": "- Increase Atk Weight by Blossom Scissors Stack (max 3)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "98d3887c3c20466ffb45bc688a6b483263b1b7714cba9f6198ff79c1bb585e00",
+      "text": "- At 10 or more Inertia of Drifting Count, consume 10 Count for +2 Coin Power"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "dcb002478d0a40243cae172b74f7c25edaf08ffd252cda278872bc3e46698a90",
+      "text": "- Consume up to 20 remaining Inertia of Drifting Count; damage +1% per Count consumed (max 20%)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "db146f06d188883e674ca277b197470fb4254ee0f3c002e3f0820694d2f9f2c7",
+      "text": "- Lose 3 Cut Fabric"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "103e354949e61c212dfb5a4f46c8cca24cb03dd7b8b7d22e6cc9b5f76f011fe4",
+      "text": "-Damage -90%"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "7b911d39d4c6af8ad234ae9ce59161b617e130d3a2db4d598b4ad92988e0c6b3",
+      "text": "- Gain 4 Paralyze"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "424dce2646b6662b54325d9ce584042523273aa4c7453350ec58eea7e77d1df9",
+      "text": "- The target cannot be Staggered by this skill's damage"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.13": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.3.effects.14": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.15": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.3.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.3.effects.17": {
+      "sourceHash": "8fd6f69e54832d60da62e6b951ab6c2e7ca1cb34583a569e5b0f3429b95e0d64",
+      "text": "[On Hit] If the target is the main target, inflict 5 Mark of Shearing"
+    },
+    "skills.3.effects.18": {
+      "sourceHash": "573c9e6bb0755025f69eec8d7f298aa08e147d267b903294406e41055b8f1cea",
+      "text": "[On Hit] Trigger Tremor Burst once; reduce the target's Tremor Count by 1"
+    },
+    "skills.3.effects.19": {
+      "sourceHash": "a65118b2dfaf3c0fcd54f850f3f8ba91bec4aa4a224ee3648fee630da6df8b01",
+      "text": "[On Hit Without Breaking] Gain 1 Cut Fabric next turn"
+    },
+    "skills.3.effects.20": {
+      "sourceHash": "9fea77f9aec0d27d0d8455444399d75780cae3671621f70503dfd35a155c2dea",
+      "text": "[On Hit Without Breaking] On the main target, trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.3.label": {
+      "sourceHash": "9c8436837ed7c801ffe34ccd252f614684927771713154c6da4d3b448636dfff",
+      "text": "Clashable regardless of Speed"
+    },
+    "skills.3.response": {
+      "sourceHash": "44d3bc6cc39deb1b6cf958616eefc1e7fc761bd3ec955e29062155e8a38641e9",
+      "text": "Base 4 Atk Weight increases by Blossom Scissors, up to 7. Clashable regardless of Speed; winning gives 90% reduction, gives the enemy 4 Paralyze, and prevents Stagger. Prioritize a strong clash."
+    },
+    "skills.4.name": {
+      "sourceHash": "88d926bc3d6488f0dbb263e588a3ed5b7b99874a33cf4d0ebd4f8e8206213f45",
+      "text": "Patterning"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "3e9193abc413e530a4ea156ac06913053be9f29828282175bc795a268668712e",
+      "text": "Targets the Alteration Target"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "04e2b493c2df5f74ffac8a6140b126fc292ae2f94829dacf53465fb0c30acc8f",
+      "text": "[On Hit] Inflict 9 Mark of Shearing"
+    },
+    "skills.4.label": {
+      "sourceHash": "061c448dfabf9cfb2ed8b6a7dec4397b921889f00962f019cdb95ce26766a717",
+      "text": "Cannot be redirected; used on the Alteration Target"
+    },
+    "skills.4.response": {
+      "sourceHash": "6e7e6bf9e6c8aa6c855d2a97b1a9327a2339fa5e04b93dfad2f567147e8a8360",
+      "text": "An attack on the Alteration Target that cannot be redirected. Both Coins are Unbreakable, and a hit inflicts 9 Mark. Equip defense on the target for 80% reduction while the others attack to Stagger her."
+    },
+    "skills.5.name": {
+      "sourceHash": "74a9e5038fac37908e0cf563d06a47b2305adf61938931bc25b2ad6552b2cf37",
+      "text": "Surfile à la Chaîne"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "3e9193abc413e530a4ea156ac06913053be9f29828282175bc795a268668712e",
+      "text": "Targets the Alteration Target"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "72df7ff41a79aa3c0539650a822efc480ad135bbde660fc8a05d42e4bf753b50",
+      "text": "For each Blossom Scissors on self, Final Power +1 and damage +20% (max 3 and 60%, respectively)"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "7e8db80a9e4a58dea4a4cd1cd43e77b2fbff2cf539d800424bc3bb5d92f4b109",
+      "text": "Damage +4% per Inertia of Drifting Potency on self (max 20%)"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "bcc8710ee9f68ae117c02f88c1b1f2ef56b29bda6d70fd9ba75b2e5241efaf5e",
+      "text": "[On Use] If the target Sinner has a Defense Skill"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "ae61baf9ec91bd085b29ec77e80e0ce4789db23750ad4b9dcd7becb57aeb65b9",
+      "text": "- Equipped: gain 4 Paralyze; this skill's damage cannot Stagger the target"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "dc5e67dacf13f15236f5bdd732292c57ab5116f8cfb2e6efd7f295a02359b8e8",
+      "text": "- Not equipped: gain 10 Cut Fabric next turn"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "7856c24f689dff9402a2cdb150837616873c960ff674a6931cb55d1265be4e98",
+      "text": "[After Attack]"
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "98e1a55621d08fcb50edb0c5d4d810f44236ccc072261467688722634b878523",
+      "text": "- If a clash occurred, inflict Sheared Apart equal to half the Sinner's skill's Final Clash Power (max 20)"
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "d688ab3cca28596844e2f09663a5e2f8a466f99ae11fd78056cd4f60e7999d29",
+      "text": "- Consume all Mark of Shearing on the target"
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "eefa7a15640be9e4871194243fa4c4d69876b3a6cab02d839c6912a96b630630",
+      "text": "- [Turn End] Gain 1 Blossom Scissors next turn"
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.5.effects.13": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.14": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.5.effects.15": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.5.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.5.effects.17": {
+      "sourceHash": "573c9e6bb0755025f69eec8d7f298aa08e147d267b903294406e41055b8f1cea",
+      "text": "[On Hit] Trigger Tremor Burst once; reduce the target's Tremor Count by 1"
+    },
+    "skills.5.effects.18": {
+      "sourceHash": "2f0b286cc5d28cdd44e6995f995229c19839bba7999d2b80e96f25f071a2200c",
+      "text": "[On Hit Without Breaking] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.5.label": {
+      "sourceHash": "061c448dfabf9cfb2ed8b6a7dec4397b921889f00962f019cdb95ce26766a717",
+      "text": "Cannot be redirected; used on the Alteration Target"
+    },
+    "skills.5.response": {
+      "sourceHash": "ab2da20d7e1b224022f3215282e91cda62851da42901a7ef5e193af8c28a31e2",
+      "text": "Four Unbreakable Coins against an Alteration Target with 9 Mark. Equip defense for 80% reduction, 4 Paralyze on the enemy, and immunity to Stagger from this skill's damage. Clashing with an attack strengthens her and also inflicts Sheared Apart."
+    },
+    "passives.0.name": {
+      "sourceHash": "72d193d29e2fd81796bc124d875e56272dac92d34f1a7c836e1fd76e44ba372c",
+      "text": "Shower of Stinging Sunshine"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c654a7fef45de8b7bcdad1c44d079bb91acc1d1899d9f30414f4a1ba42979433",
+      "text": "Levels are increased by the sunlight effect"
+    },
+    "passives.0.condition": {
+      "sourceHash": "91d38e1b71cac375c4543099a6f9c79c7b9746fedc69226dcb912285d1c21f9c",
+      "text": "Already enhanced units"
+    },
+    "passives.0.response": {
+      "sourceHash": "3d4f93f63d2f4ab6488d817d173882f7e74386c84136d1ba1e8bce57770e8c5f",
+      "text": "The reference encounter is enemy Lv. 48. Raise Customer Level and prepare your available strong clashes and healing."
+    },
+    "passives.1.name": {
+      "sourceHash": "69cc1c9847799405731f50d9c75cace9c4d875667de96d92ffab7e8c0ebe487b",
+      "text": "Alteration"
+    },
+    "passives.1.effect": {
+      "sourceHash": "bdea37292baa6c00e4e8fa83e1aff7583c73b66aa12b9f16b081bfaed7c5fae1",
+      "text": "At Turn Start, inflict 1 Alteration Target on the Sinner who dealt the most damage to this unit last turn, then use Patterning.\n- If that Sinner has 9 Mark of Shearing, Patterning activates as Surfile à la Chaîne.\n\nWhenever hit by a Sinner:\n- Inflict 1 Mark of Shearing on that Sinner (max 5 per Sinner per turn).\n- Gain 1 Inertia of Drifting Count.\n\nWhenever hit by an Attack Skill from a Sinner with Alteration Target, gain 3 Power Up (max 9 per turn)."
+    },
+    "passives.1.condition": {
+      "sourceHash": "c258b95f5d201fa9ae2c80dff9ebc7c0b156e8741fc1a9c1e97673a2df2339f3",
+      "text": "Turn Start: previous turn's top damage dealer; when hit"
+    },
+    "passives.1.response": {
+      "sourceHash": "adde3a277157b7409f0d956907a9332a6c28711940f9cdc4acbaee610e0646e6",
+      "text": "Have the Alteration Target defend. Their attacks give her 3 Power Up, up to 9. Let the other Sinners attack to seek Stagger."
+    },
+    "passives.2.name": {
+      "sourceHash": "b384111c1362202621d13e52bcf3f6df87a1fbf63d7655cdb1f665817b02fb9b",
+      "text": "Tailoring"
+    },
+    "passives.2.effect": {
+      "sourceHash": "daa4af45d9d1a909537ad24a954622f66fbd8e59fe57c78a921867ce04c8d72e",
+      "text": "At Stage Start, or at Turn Start after recovering from Stagger, gain 30 Cut Fabric.\n\nFixed Panic applies; if Panicked at Turn End, SP becomes 30.\n\nAt Turn Start:\n- Gain a Shield equal to (Cut Fabric Stack)% max HP (max 30%).\n- Heal SP equal to Cut Fabric Stack."
+    },
+    "passives.2.condition": {
+      "sourceHash": "0b0aafd5c311d908ab309a73404a7f1b2d2ece7144ff0277de01ec5537e52e76",
+      "text": "Stage Start, after Stagger recovery, and each turn"
+    },
+    "passives.2.response": {
+      "sourceHash": "af51c0b273e194458fac6a23edb4c851cd09d089c278a1e010f228693005d87b",
+      "text": "30 Fabric supplies Shield and SP recovery. Remove Fabric through Stagger and deal heavy HP damage before the Shield returns. Panic also resets SP to 30 at Turn End, so do not rely on keeping her SP low."
+    },
+    "passives.3.name": {
+      "sourceHash": "16763030683df9e8489e2b67e4d43c5c16ac096c8163d7fa3d8a721c6e1ceb06",
+      "text": "Scissors That Do Not Rest"
+    },
+    "passives.3.effect": {
+      "sourceHash": "4752a21826459c35e59e0e4a5ec963404b459278455e978283c4557ee60f4cf9",
+      "text": "Whenever Annette the Alterationist is hit by a Sinner, raise her Stagger Threshold by 0.8% max HP.\n\nOn becoming Staggered, lose all Shield, Cut Fabric, and Blossom Scissors and gain 3 Fragile.\n\nAt Turn Start, if at 60% HP or less:\n- Gain 1 Power Up and 1 Slash DMG Up per 20% HP lost (max 3 each).\n- Trimming's last Coin and Cutting's second Coin become Unbreakable."
+    },
+    "passives.3.condition": {
+      "sourceHash": "3eb4963c784c2f879a68b06cd22adfce316c1ef11021a278a52b67faaeec0e12",
+      "text": "When hit by Sinners, on Stagger, and Turn Start at 60% HP or less"
+    },
+    "passives.3.response": {
+      "sourceHash": "33f478b8eb5e13fce5c69306314bb7ebea9d68446d1c3a1aeef448a410664f89",
+      "text": "Hits raise her Stagger Threshold, so attacks matter even against a thick Shield. Stagger removes Shield, Fabric, and Blossom Scissors; attack during 3 Fragile."
+    },
+    "passives.4.name": {
+      "sourceHash": "7868fd3fdd94a70db0d80272cd6234615815911e1accaa2bad778d98e629fa85",
+      "text": "Inertia of Drifting"
+    },
+    "passives.4.effect": {
+      "sourceHash": "2d8a1ed233082c42b0ca0edcb5e09d5381f359eabfdbe84348de5dbe35c7fd3c",
+      "text": "During this battle, gain 1 Inertia of Drifting Potency for every cumulative 10 Inertia of Drifting Count consumed.\n\nAt 3 or more / 5 or more Potency, maximum Inertia of Drifting Count +5 / +10."
+    },
+    "passives.4.condition": {
+      "sourceHash": "019040d8b3164e4396c0cf15ecf0ec83b35da0c0470a7b93b6602cf9c276437a",
+      "text": "Per cumulative 10 Count consumed"
+    },
+    "passives.4.response": {
+      "sourceHash": "97fb21581387eacdff24009fa674157402faa91a6ec278dd96a42c03003b6dbe",
+      "text": "Consuming Count builds Potency, with higher Count caps at 3 and 5 Potency. This growth survives Stagger; avoid a prolonged fight."
+    }
+  },
+  "messages": {
+    "boss-copy:annette": "complete",
+    "【リンバス】10-04 お直し職人アネット（10章B）の攻略｜Limbus Assistant": "10-04 Annette the Alterationist (Canto X, Route B) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「お直し職人アネット（10章B）」の攻略。毎ターン、お直し対象になった囚人を守備に回し、ほかの囚人で攻撃して混乱を取る戦闘。対象が攻撃するとアネットの威力が大きく上がる。混乱でバリア・裁断…": "Annette the Alterationist (Canto X, Route B) guide for Limbus Company 10-04. Each turn, have the Alteration Target defend while the other Sinners attack to Stagger Annette. Attacks from the target greatly increase her Power. Stagger removes her Shield, Cut Fabric, and Blossom Scissors; exploit the opening with 3 Fragile to deal heavy damage.",
+    "10-04 お直し職人アネット（10章B）": "10-04 Annette the Alterationist (Canto X, Route B)",
+    "10-04「Sisyphus Department Store B, 3F: Alteration Room」": "10-04 · Sisyphus Department Store B, 3F: Alteration Room",
+    "お直し職人アネットの外見": "Annette the Alterationist appearance",
+    "お直し職人アネットのスキル": "Annette the Alterationist skills",
+    "Annette the Alterationistの外見": "Annette the Alterationist appearance",
+    "Annette the Alterationistのスキル": "Annette the Alterationist skills"
+  }
+}

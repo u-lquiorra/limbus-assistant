@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0204.md",
+  "code": "0204",
+  "messages": {
+    "色欲共鳴でバトルパッシブ「口笛」を発動させ、味方の精神力をすばやく回復するサポーター。出血編成では、釘で出血回数を稼ぎ、注視で味方の貫通・打撃の火力を底上げする。": "A support Identity that activates her combat passive, Whistles, through Lust Resonance to quickly restore allies' SP. In Bleed teams, Nails provide Bleed Count while Gaze boosts allies' Pierce and Blunt damage.",
+    "バトルパッシブ「口笛」(色欲×4・共鳴・同期化Ⅱで取得): 戦闘開始時、精神力が最も低い味方2名の精神力を15回復する(対象がN社の狂信者なら狂信1/2も付与)。この人格の主軸。": "**Combat passive — Whistles (4 Lust Resonance; unlocked at Uptie Ⅱ)**: At Combat Start, restores 15 SP to the 2 allies with the lowest SP, and also inflicts 1/2 Fanatic if a target is an N Corp. Fanatic. This is the core of the Identity.",
+    "色欲の手札: S2「握り締める」と守備「不潔ですね」が色欲。共鳴4には、味方側にも色欲スキルが要る。": "**Lust skills**: S2 The Gripping and the Defense skill Such Filth are Lust. Reaching 4 Lust Resonance requires Lust skills from allies as well.",
+    "注視: S2のⅢコインで次のターンに付与する。1ターンの間、貫通・打撃属性スキルによる被ダメージが20%増加し、付与された敵を倒した味方は精神力が10回復する。": "**Gaze**: Coin Ⅲ of S2 inflicts it next turn. For 1 turn, the target takes 20% more damage from Pierce and Blunt skills, and an ally who defeats it recovers 10 SP.",
+    "釘: S1「狂笑」・S2・S3「処断」で付与する特殊出血。ターン開始時に出血1を付与し、出血回数を釘の数値だけ増やす。ターン終了時に半減する(小数点切り捨て)。": "**Nails**: A special Bleed inflicted by S1 Cackle, S2, and S3 Execution. At Turn Start, it inflicts 1 Bleed and increases Bleed Count by the Nails value. It is halved at Turn End, rounded down.",
+    "S3: このスキルで敵を倒すと、全味方の精神力を10回復し、貫通ダメージ量増加・打撃ダメージ量増加1を付与する。Ⅲコインは対象の釘が5本以上ならダメージ量+50%/70%。": "**S3**: Defeating an enemy with this skill restores 10 SP to all allies and grants them 1 Pierce DMG Up and 1 Blunt DMG Up. Coin Ⅲ deals +50%/70% damage if the target has at least 5 Nails.",
+    "守備「不潔ですね」: 回避成功時に対象の精神力-3。": "**Defense skill — Such Filth**: On a successful Evade, the target loses 3 SP.",
+    "色欲スキルを持つ味方と組み、色欲共鳴4を起こして「口笛」を発動させる。序盤の立ち上がりやE.G.O使用後に、精神力を立て直すのに使う。攻撃面ではS2で注視と釘を入れて、味方の貫通・打撃アタッカーの火力を伸ばす。S1は釘を維持するための追撃、S3は取り巻きなどにとどめを刺して全体回復を狙う使い方になる。本人のマッチ力と耐久は低いので、無理にマッチせず守備の回避も使う。N社の狂信者への狂信付与もあるが、重視しなくてよい。": "Pair her with allies who have Lust skills to reach 4 Lust Resonance and trigger Whistles. Use it to stabilize SP early in a fight or after using an E.G.O. On offense, apply Gaze and Nails with S2 to raise the damage of allied Pierce and Blunt attackers. S1 is a follow-up for keeping Nails up, while S3 is for finishing off minions and the like to restore SP to the whole team. Her own Clash power and durability are low, so avoid forcing Clashes and use her Evade as well. She can also inflict Fanatic on N Corp. Fanatics, but that is not important."
+  }
+}

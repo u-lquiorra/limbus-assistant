@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1006.md",
+  "code": "1006",
+  "messages": {
+    "攻撃後に自分と体力の低い味方へバリアと涙の雫を付け、割られると沈潜を返す、憂鬱打撃の広域防御E.G.O。": "A multi-target Gloom Blunt defensive E.G.O that gives Shield and Blubberbubble to himself and a low-HP ally after attacking, returning Sinking when the Shield is broken.",
+    "バリアと涙の雫: 攻撃後、自分と現体力が最も低い味方1名に、自分の最大体力の10%(解析Ⅲ14%、解析Ⅳ20%)のバリアと涙の雫2を付ける。付与が攻撃後なので、速度の低い人格では同じターンの防御に間に合わない。": "**Shield and Blubberbubble**: After the attack, gives himself and the 1 ally with the lowest current HP Shield equal to 10% of his max HP (14% at Threadspin Ⅲ, 20% at Ⅳ) and 2 Blubberbubble. It is applied after the attack, so with a slow Identity it does not arrive in time to defend that same turn.",
+    "涙の雫の効果: 付いている間はターン終了時にバリアが切れない。雫付きのバリアが破壊されると、攻撃者に沈潜を合計4ぶん付与する。": "**Blubberbubble's effect**: While it lasts, the Shield does not expire at Turn End. When Shield with Blubberbubble is broken, the attacker receives a total of 4 Sinking.",
+    "共鳴で拡張: 最大共鳴数が4以上なら加重値+1(解析Ⅲは共鳴数-2、最大2。対象の味方も同数増える)。最大憂鬱完全共鳴が4以上なら雫が3になる。": "**Expansion through Resonance**: +1 Attack Weight if the highest Resonance is 4 or more (at Threadspin Ⅲ, Resonance − 2, up to 2, with the number of target allies increasing by the same amount). With a highest Gloom Absolute Resonance of 4 or more, Blubberbubble becomes 3.",
+    "パッシブ「涙液膜」: ターン開始時にバリアがあれば保護1、涙の雫もあればさらに保護1を得る。": "**Passive — Tear Film**: At Turn Start, gains 1 Protection if he has Shield, plus 1 more if he also has Blubberbubble.",
+    "侵蝕スキル: 付与対象が自分だけになり、次ターンの挑発値が上がる。的中時に沈潜も付ける。": "**Corrosion skill**: Only he receives the buffs, and his Aggro increases next turn. It also inflicts Sinking on hit.",
+    "先に使って味方を守りたいので、速度の高い人格で撃つ。": "You want to use it first to protect allies, so fire it with a fast Identity.",
+    "解析Ⅲ以降は、共鳴を作って対象を増やすと、バリアと沈潜が複数の味方に広がる。": "From Threadspin Ⅲ, building Resonance increases the number of targets, spreading the Shield and Sinking to multiple allies.",
+    "バリア量はシンクレアの最大体力が基準。": "The Shield amount is based on Sinclair's max HP.",
+    "必要資源は色欲1・怠惰2・憂鬱3。ZAYINなので、装備していると戦闘開始時の罪悪耐性がこのE.G.Oのもの(暴食・嫉妬が脆弱)になる。": "It requires 1 Lust, 2 Sloth, and 3 Gloom. As a ZAYIN, equipping it sets his Sin resistances at Combat Start to this E.G.O's (Fatal to Gluttony and Envy).",
+    "Ⅱ: 「涙液膜」が解放される。": "**Ⅱ**: Unlocks Tear Film.",
+    "Ⅲ: バリアが14%になり、共鳴数に応じて対象と加重値が増える。侵蝕のバリアと挑発値も増える。": "**Ⅲ**: The Shield becomes 14%, and targets and Attack Weight increase with Resonance. Corrosion's Shield and Aggro also increase.",
+    "Ⅳ: バリアが20%になる。侵蝕の沈潜回数が3になり、憂鬱共鳴4以上でバリアが追加される。": "**Ⅳ**: The Shield becomes 20%. Corrosion's Sinking Count becomes 3, and at 4 or more Gloom Resonance, an extra Shield is added.",
+    "西部ツヴァイ協会3課: S1(色欲)・S2(憂鬱)・S3(怠惰)で必要資源が揃い、ガードで受けるタンク役になる。": "**[Zwei Assoc. West Section 3](persona:1010)**: S1 (Lust), S2 (Gloom), and S3 (Sloth) cover the required affinities, and he serves as a tank who takes hits with Guard.",
+    "蜘蛛の巣小指の子方: 守備「回」が月下青刀の数値だけバリアを得るので、涙の雫で持ち越せると考えられる。": "**[The House of Spiders: The Pinky Apprentice](persona:1015)**: His Defense skill Swerve grants Shield equal to Moonlit Azure Blade, which Blubberbubble can likely carry over."
+  }
+}

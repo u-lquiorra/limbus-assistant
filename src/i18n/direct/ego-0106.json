@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0106.md",
+  "code": "0106",
+  "messages": {
+    "憂鬱共鳴で付与量が増える沈潜を、攻撃対象へまとめて撒く、憂鬱のZAYIN広域E.G.O。": "A multi-target Gloom ZAYIN E.G.O that distributes Sinking across its attack targets, with the amount increased by Gloom Resonance.",
+    "沈潜の付与: 攻撃後に沈潜6+(憂鬱共鳴数。解析Ⅳは×1.5)を、ランダムに攻撃対象へ分けて付与する。": "**Inflicting Sinking**: After attacking, randomly distributes a total of 6 + Gloom Resonance Sinking among the attack targets. At Threadspin Ⅳ, the Resonance contribution is multiplied by 1.5.",
+    "束縛: 的中時、対象の沈潜が6以上なら次のターンに束縛1(解析Ⅲで2)を付与する。沈潜の付与は攻撃後で束縛は的中時なので、このスキル自身の沈潜では条件を満たせないと考えられる。": "**Bind**: On hit against a target with at least 6 Sinking Potency, inflicts 1 Bind next turn, increased to 2 at Threadspin Ⅲ. Since this skill applies Sinking after the attack but checks Bind on hit, its own Sinking appears too late to meet that condition.",
+    "侵蝕スキル: 打撃で、解析Ⅲでは憂鬱共鳴数3以上、解析Ⅳでは5以上でそれぞれ攻撃加重値+1。的中時に沈潜2と次のターンの束縛2を付与する。": "**Corrosion**: A Blunt skill. At Threadspin Ⅲ, 3 or more Gloom Resonance grants +1 Attack Weight; at Threadspin Ⅳ, reaching 5 adds another +1. On hit, inflicts 2 Sinking. Also inflicts 2 Bind next turn.",
+    "パッシブ「砕け散った昨日」: 対象の沈潜威力が6以上でマッチ威力+1、沈潜回数が4以上でさらに+1。": "**Passive — Fractured Yesterday**: Gains +1 Clash Power against targets with at least 6 Sinking Potency. Independently gains +1 Clash Power against targets with at least 4 Sinking Count.",
+    "沈潜を扱う編成で、憂鬱共鳴を狙って撃つ。": "Use it in a Sinking team and aim for Gloom Resonance.",
+    "パッシブは使用した次のターンから働き、沈潜を付けた敵へのマッチ威力が最大+2になる。": "The passive starts working on the turn after use and grants up to +2 Clash Power against targets with sufficient Sinking.",
+    "必要資源は怠惰3・憂鬱3、精神消耗は覚醒15・侵蝕15・OC23。": "Costs 3 Sloth and 3 Gloom. SP cost: 15 Awakening, 15 Corrosion, 23 Overclock.",
+    "耐性は色欲・傲慢が脆弱(×2)、憂鬱が抵抗(×0.75)。": "Sin resistances: Fatal to Lust and Pride (×2); Endured against Gloom (×0.75).",
+    "Ⅱ: 「砕け散った昨日」の解放のみ。": "**Ⅱ**: Only unlocks Fractured Yesterday.",
+    "Ⅲ: 覚醒の束縛が強まり、侵蝕の加重値強化が加わる。主な強みには強化が入らない。": "**Ⅲ**: Improves Awakening's Bind and adds Corrosion's Attack Weight condition. Its main Sinking application remains unchanged.",
+    "Ⅳ: 沈潜の付与量が増え、侵蝕の強化も伸びる。沈潜編成で使うなら効果が大きい。": "**Ⅳ**: Increases Sinking application and further improves Corrosion. A useful upgrade for Sinking teams.",
+    "LCB囚人: S1(憂鬱)・守備(憂鬱)で必要資源を出せる。沈潜を付与し、パッシブも憂鬱共鳴で動く。": "**[LCB Sinner](persona:0101)**: Gloom S1 and defense supply Gloom resources. He inflicts Sinking, and his passive also uses Gloom Resonance.",
+    "ロボトミーE.G.O::厳粛な哀悼: S2・守備が憂鬱で、沈潜を扱う。パッシブ「撃テ。撃タン。」も憂鬱共鳴で働く。": "**[Lobotomy E.G.O:: Solemn Lament](persona:0110)**: Uses Sinking and has Gloom S2 and defense. Fire.IShallFire. also activates through Gloom Resonance."
+  }
+}

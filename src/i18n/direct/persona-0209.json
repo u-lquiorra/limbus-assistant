@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0209.md",
+  "code": "0209",
+  "messages": {
+    "S3「接客道四式 封心」で「邸宅の木霊」を付け、バトルパッシブでマッチ勝利ごとに沈潜を3ずつ入れる沈潜付与役。S2と、木霊付きの敵へのS3で沈潜回数も維持する。": "A Sinking applicator that inflicts Echoes of the Manor with S3 Reception Arts 4: Heartseal and adds 3 Sinking per clash win through her combat passive. S2 and S3 against enemies with Echoes also help sustain Sinking Count.",
+    "S3「接客道四式 封心」: Ⅰコイン的中時に沈潜回数+3。Ⅳコイン的中時に次のターンに邸宅の木霊2を付与し、すでに木霊があれば沈潜回数をさらに+3する。対象の沈潜回数が5以上ならコイン威力+2。": "**S3 — Reception Arts 4: Heartseal**: On hit, Coin Ⅰ adds +3 Sinking Count. On hit, Coin Ⅳ inflicts 2 Echoes of the Manor next turn, and if the target already has Echoes, adds another +3 Sinking Count. Gains +2 Coin Power if the target has at least 5 Sinking Count.",
+    "邸宅の木霊: スキル・コイン効果で沈潜の威力や回数が付与されるたび、50%の確率で沈潜回数+1。精神力を持つ敵はパニックタイプが変わる。ターン終了時に1減少する。数値は合算されず、上書きで更新される。": "**Echoes of the Manor**: Each time a skill or Coin effect inflicts Sinking Potency or Count, there is a 50% chance to add +1 Sinking Count. Changes the Panic Type of enemies with SP. Decreases by 1 at Turn End. Its value does not stack; it is overwritten.",
+    "バトルパッシブ「バトラー式対応」(憂鬱×4・保有・同期化Ⅱで取得): マッチ勝利時に沈潜1を付与(1ターン3回)。木霊がある対象には代わりに3を付与する。": "**Combat passive — Butler Style Response (4 Gloom Owned; unlocked at Uptie Ⅱ)**: On Clash Win, inflicts 1 Sinking, 3 times per turn. Against targets with Echoes, it inflicts 3 instead.",
+    "S2「招かざる客の出迎え」: Ⅱコインで沈潜回数+2/3。沈潜回数を維持する主力。": "**S2 — Interloper Reception**: Coin Ⅱ adds +2/3 Sinking Count. This is her main tool for maintaining Sinking Count.",
+    "S1「押収」: 沈潜2を付与する。沈潜回数は増やせない。": "**S1 — Confiscation**: Inflicts 2 Sinking. It cannot increase Sinking Count.",
+    "S3で木霊を付け、次のターンからマッチに勝ってパッシブで沈潜3ずつを入れる。木霊が残っている敵にS3を当て直すと、沈潜回数を合計6増やせる。S2で回数を補い、沈潜編成の回数維持役を担う。パッシブはマッチ勝利が条件なので、一方攻撃よりマッチに回すほうが活きる。": "Mark a target with Echoes using S3, then from the next turn win Clashes so the passive inflicts 3 Sinking each time. Landing S3 again on an enemy that still has Echoes raises its Sinking Count by 6 in total. Top up Count with S2 and serve as the Count maintainer of a Sinking team. The passive requires Clash Wins, so she performs better in Clashes than in one-sided attacks."
+  }
+}

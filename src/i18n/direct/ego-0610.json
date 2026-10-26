@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0610.md",
+  "code": "0610",
+  "messages": {
+    "充電回数と充電力場を味方へ配り、光電で攻撃者の充電も増やす、嫉妬打撃の充電サポートE.G.O。": "An Envy Blunt Charge-support E.G.O that hands out Charge Count and Charge Barrier to allies and increases attackers' Charge through Photoelectricity.",
+    "充電の配布: 攻撃前に自分の充電回数を増やしつつ消耗し、自分と他のランダムな味方に充電力場5を付与する(消耗量÷2に応じて人数が増える)。充電力場はバリアを与え、ターン終了時に充電回数に変わる。": "**Distributing Charge**: Before attacking, increases and then spends his own Charge Count, giving 5 Charge Barrier to himself and other random allies (more allies based on amount spent ÷ 2). Charge Barrier grants Shield and turns into Charge Count at Turn End.",
+    "充電威力でマッチ強化(解析Ⅲ): 自分の充電威力ぶんマッチ威力が増える(最大2、解析Ⅳで3)。": "**Clash bonus from Charge Potency (Threadspin Ⅲ)**: Clash Power increases by his Charge Potency, up to 2 (3 at Threadspin Ⅳ).",
+    "光電(解析Ⅲ): Ⅱコインの的中時に敵へ付与し、敵がダメージを受けるたび(スキルごとに1回)攻撃者の充電回数が増える。付与量は解析Ⅳで1から2。": "**Photoelectricity (Threadspin Ⅲ)**: Inflicted on enemies on Coin Ⅱ hit; each time the enemy takes damage (once per skill), the attacker's Charge Count increases. The amount goes from 1 to 2 at Threadspin Ⅳ.",
+    "パッシブ「誰も傷つかない都市」: 充電回数の最大値+5、充電を消耗するスキル3のダメージ量+10%。ダメージを受けなかったターンの終わりに精神力を4回復するが、減算コインの基本攻撃スキルが2つ以上あると逆に4減る。": "**Passive — The City Where No One Can Hurt Another**: +5 maximum Charge Count and +10% damage for Skill 3s that spend Charge. Restores 4 SP at the end of a turn in which he took no damage, but if he has 2 or more basic attack skills with Minus Coins, he loses 4 instead.",
+    "侵蝕スキル: 減算コインで破壊不能コインを持ち、充電を最大10消耗してⅡコインの最終威力を上げる。": "**Corrosion skill**: Uses Minus Coins with an Unbreakable Coin, spending up to 10 Charge to raise Coin Ⅱ's Final Power.",
+    "光電を活かすため、行動順の早い人格で先に撃つ。": "To make use of Photoelectricity, fire it first with an Identity that acts early.",
+    "充電を消耗して威力を得る人格に充電を回すと噛み合う。": "It meshes well when the Charge goes to Identities who spend Charge for power.",
+    "入手はシーズン8の無償パスLv30。使用中の耐性は憤怒・傲慢が脆弱。": "It is obtained from the Season 8 free pass at Lv 30. While in use, its resistances are Fatal to Wrath and Pride.",
+    "Ⅱ: パッシブだけが解放され、これでも一定の性能がある。": "**Ⅱ**: Only unlocks the passive, which still offers decent performance.",
+    "Ⅲ: 光電と充電威力によるマッチ威力増加が入るので、できれば解析する。": "**Ⅲ**: Adds Photoelectricity and the Charge Potency-based Clash Power increase, so take it this far if you can.",
+    "Ⅳ: 充電回数と光電の付与量、充電力場を配れる人数が増える。": "**Ⅳ**: Increases the Charge Count and Photoelectricity inflicted and the number of allies who receive Charge Barrier.",
+    "蜘蛛の巣薬指の親方: 基本攻撃スキルが充電回数を得るスキルとして扱われ、S1(傲慢)・S2(嫉妬)・守備(色欲)で必要資源の3属性も出せる。": "**[The House of Spiders: The Ring Nursefather](persona:0614)**: His basic attack skills count as skills that gain Charge Count, and S1 (Pride), S2 (Envy), and his Defense skill (Lust) supply all three required affinities.",
+    "R社第4群トナカイチーム: 充電を溜めて消耗するスキルが揃い、S2(嫉妬)で資源も出せる。": "**[R Corp. 4th Pack Reindeer](persona:0612)**: Has a full set of skills that build and spend Charge, and S2 (Envy) also supplies resources."
+  }
+}

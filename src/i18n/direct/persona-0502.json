@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0502.md",
+  "code": "0502",
+  "messages": {
+    "S3「練武崩拳」の火傷回数増加で火傷を長く保ち、火傷が6以上の敵を起点に周りへ火傷を広げる、リウ協会の火傷編成向けの人格。": "An Identity for Liu Association Burn teams. S3 Perfected Death Fist extends Burn through Count increases, while enemies with at least 6 Burn serve as sources for spreading Burn to nearby enemies.",
+    "火傷の維持: 火傷はターン終了後に回数が1減る。S3のⅢコインは的中時に火傷回数を3増やすので、消えかけた火傷を延命できる。": "**Maintaining Burn**: Burn loses 1 Count after each turn. Coin Ⅲ of S3 increases Burn Count by 3 on hit, extending Burn that is about to run out.",
+    "火傷の拡散: S2「震脚」のⅠコインとS3のⅢコインは、対象の火傷が6以上ならランダムな敵2名にも火傷を付与する。S3は対象の火傷威力が5以上でコイン威力+1。": "**Spreading Burn**: Coin Ⅰ of S2 Stalwart Stance and Coin Ⅲ of S3 also inflict Burn on 2 random enemies if the target has at least 6 Burn. S3 gains +1 Coin Power if the target has at least 5 Burn Potency.",
+    "自力の付与量: S1「突破」の付与は火傷1+1/2と少なく、「火傷6以上」の条件を単独で満たすのは難しい。": "**His own infliction**: S1 Assault inflicts only 1 + 1/2 Burn, so meeting the 6-Burn condition alone is difficult.",
+    "バトルパッシブ「泰山」(色欲×4・保有・同期化Ⅱで取得): 被ダメージ時、ランダムな対象に火傷1を付与(最大4回)。": "**Combat passive — Great Mountain (4 Lust Owned; unlocked at Uptie Ⅱ)**: When taking damage, inflicts 1 Burn on a random target, up to 4 times.",
+    "サポートパッシブ「摩擦打撃点」(色欲×4・保有・同期化Ⅲで取得): 控えにいる間、速度が最も低い味方1名の火傷付与値+1。": "**Support passive — Friction Point (4 Lust Owned; unlocked at Uptie Ⅲ)**: While in backup, +1 to the Burn inflicted by the 1 slowest ally.",
+    "火傷を付与する味方(同じリウ協会の人格など)と組み、敵の火傷を6以上にしてからS2・S3で周りへ広げる。火傷が切れそうな敵にはS3を当てて回数を補い、編成全体の火傷を途切れさせない。": "Pair him with allies who inflict Burn (such as other Liu Association Identities), bring enemy Burn to 6 or more, then spread it with S2 and S3. Hit enemies whose Burn is about to expire with S3 to top up Count, so the team's Burn never lapses."
+  }
+}

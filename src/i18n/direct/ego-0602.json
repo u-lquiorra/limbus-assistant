@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0602.md",
+  "code": "0602",
+  "messages": {
+    "防御レベル減少を敵に付けて味方の攻撃を通しやすくする、色欲貫通のデバフ用E.G.O。": "A Lust Pierce debuff E.G.O that inflicts Defense Level Down on enemies so allies' attacks land harder.",
+    "防御レベル減少: Ⅰコインの的中時に防御レベル減少を付与する(解析Ⅲで2から4、Ⅳで5)。付与は今ターン限りなので、味方の攻撃より前に撃つ必要がある。": "**Defense Level Down**: Coin Ⅰ inflicts Defense Level Down on hit (from 2 to 4 at Threadspin Ⅲ, 5 at Ⅳ). It only lasts this turn, so it must be used before allies attack.",
+    "守備威力減少: 的中時に守備威力減少2を付与する。敵が守備スキルを使うときにしか効かず、補足程度。": "**Defense Power Down**: Inflicts 2 Defense Power Down on hit. It only matters when the enemy uses a Defense skill, so it is a footnote.",
+    "広域化(解析Ⅳ): 攻撃加重値が1から3になり、複数の敵にデバフを配れる。": "**Multi-target (Threadspin Ⅳ)**: Attack Weight goes from 1 to 3, spreading the debuff across several enemies.",
+    "パッシブ「拘束するリボン」: パネル最左のスキルで攻撃した対象に、次のターン、色欲完全共鳴数÷4の色欲脆弱を付ける。色欲の完全共鳴が4以上ないと付かない。": "**Passive — Binding Ribbons**: Targets attacked by the leftmost skill on the panel receive Lust Fragility equal to Lust Absolute Resonance ÷ 4 next turn. It does not apply without at least 4 Lust Absolute Resonance.",
+    "侵蝕スキル: 敵味方識別不可で、速度が最も速い対象(味方に当たり得る)を攻撃し、束縛4を付ける(解析Ⅲで的中時に変わる)。": "**Corrosion skill**: Cannot distinguish friend from foe, attacks the fastest target (which can be an ally), and inflicts 4 Bind (on hit from Threadspin Ⅲ).",
+    "デバフ役として、色欲・嫉妬の資源が溜まった時点で、味方の大技の直前に撃つ。": "As a debuffer, fire it right before allies' big attacks once Lust and Envy resources are available.",
+    "解析Ⅳまでは単体攻撃なので、広域のデバフが欲しいなら解析Ⅳを前提にする。": "It is single-target until Threadspin Ⅳ, so if you want a multi-target debuff, assume Threadspin Ⅳ.",
+    "威力そのものは最低限と考えられるので、資源と属性を活かす用途に絞る。": "Its power is likely minimal, so limit it to uses that make the most of its resources and affinity.",
+    "Ⅱ: 拘束するリボンが解放される。": "**Ⅱ**: Unlocks Binding Ribbons.",
+    "Ⅲ: 基本威力が17から19、防御レベル減少が2から4になる。": "**Ⅲ**: Base Power goes from 17 to 19, and Defense Level Down from 2 to 4.",
+    "Ⅳ: 攻撃加重値が3になり、防御レベル減少が5になる。実用の水準に届くのはここから。": "**Ⅳ**: Attack Weight becomes 3, and Defense Level Down becomes 5. This is where it reaches a practical level.",
+    "ぽんぽん派ボス: S1(嫉妬)とS2(色欲)で必要資源をそのまま出せる。": "**[Tingtang Gang Gangleader](persona:0603)**: S1 (Envy) and S2 (Lust) supply the required affinities directly.",
+    "黒雲会若衆: S1が色欲で、パッシブ「黒雲刀」も色欲共鳴3で働くため、色欲の完全共鳴を作って拘束するリボンを狙いやすい。": "**[Kurokumo Clan Wakashu](persona:0602)**: His S1 is Lust, and his passive Hēiyúndào also works at 3 Lust Resonance, making it easy to build Lust Absolute Resonance for Binding Ribbons."
+  }
+}

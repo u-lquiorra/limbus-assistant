@@ -8,13 +8,14 @@ import { preloadRoute } from "./preload";
 import { peekEgoGuide, peekGuide, peekTeamGuide } from "./data/loader";
 import { structuredData } from "./seo";
 import { jsonLdScript } from "./jsonLd";
+import { originalPath } from "./i18n/path";
 
 export { canonicalUrl, lastModified, pageImage, pageMeta, prerenderRoutes, SITE_URL } from "./seo";
 export { pageModule } from "./routes";
 
 /** ページの構造化データを <script> タグの文字列で返す。render の後に呼ぶ(ガイドの更新日を先読み結果から取るため) */
 export function structuredDataTags(pathname: string, ogImage: string): string {
-  const [, kind, raw] = pathname.split("/");
+  const [, kind, raw] = originalPath(pathname).split("/");
   const id = raw ? decodeURIComponent(raw) : "";
   const guide = kind === "persona" ? peekGuide(id) : kind === "ego" ? peekEgoGuide(id) : kind === "teams" ? peekTeamGuide(id) : undefined;
   return structuredData(pathname, ogImage, guide?.meta.updated).map(jsonLdScript).join("\n    ");

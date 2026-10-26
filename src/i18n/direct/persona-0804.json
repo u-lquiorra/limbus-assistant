@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0804.md",
+  "code": "0804",
+  "messages": {
+    "S2「振動弾」で大量の振動を入れ、振動編成の味方の条件を一気に満たす供給役(準備なしで即座に撃てて、付与量も多い)。S3「制圧」の破裂と脆弱5で、同じターンに後から動く味方の火力を引き上げる。": "A supplier that uses S2 Quake Rounds to immediately apply large amounts of Tremor and fulfill allies' Tremor conditions without preparation. S3 Suppress's Rupture and 5 Fragile raise the damage of allies acting later that turn.",
+    "S2「振動弾」: Ⅱ・Ⅲコインでそれぞれ弾丸を1消耗し、振動4/8を付与して振動回数を2増やす。Ⅰコインは弾丸なしで攻撃威力減少1を付与する。": "**S2 — Quake Rounds**: Coins Ⅱ and Ⅲ each spend 1 Ammo to inflict 4/8 Tremor and increase Tremor Count by 2. Coin Ⅰ inflicts 1 Attack Power Down without Ammo.",
+    "S3「制圧」: Ⅰコインで振動爆発。Ⅱ〜Ⅳコインで弾丸を1ずつ消耗し、Ⅱ・Ⅲで破裂4・破裂回数2、Ⅳで脆弱5を付与する。対象の振動回数5以上でコイン威力+1。": "**S3 — Suppress**: Coin Ⅰ triggers Tremor Burst. Coins Ⅱ–Ⅳ each spend 1 Ammo; Ⅱ and Ⅲ inflict 4 Rupture and 2 Rupture Count, and Ⅳ inflicts 5 Fragile. +1 Coin Power if the target has at least 5 Tremor Count.",
+    "デバフは1ターン限り: 脆弱・攻撃威力減少は1ターンの間だけ効く。速度範囲値が最大2~6と遅いため、後続の味方に活かしてもらうには行動順の調整が要る。": "**Debuffs last only 1 turn**: Fragile and Attack Power Down only last for 1 turn. Her Speed range is a slow 2–6 at most, so having later allies benefit requires adjusting action order.",
+    "弾丸は有限: S2のⅡ・Ⅲ、S3のⅡ〜Ⅳが弾丸を消耗する。弾丸が尽きるとこれらのコインでは攻撃できなくなり、ステージ開始時の弾丸は13発で、S2・S3を使い続けるとおおむね8ターンで尽きる。": "**Ammo is limited**: Coins Ⅱ and Ⅲ of S2 and Ⅱ–Ⅳ of S3 spend Ammo. Once Ammo runs out, those Coins can no longer attack. She has 13 rounds at stage start, which run out in about 8 turns if she keeps using S2 and S3.",
+    "挑発値: S1「押し付ける」と守備「ガード」は使用時に次のターンの挑発値+4(守備は弾丸0ならさらに+2)。挑発値が効くのは集中戦闘のみ。S1はⅠコインの的中時(表面的中時/的中時)に麻痺1/3を付与し、対象の振動8以上でスキル威力+2。": "**Aggro**: S1 Shove and the Defense skill Guard grant +4 Aggro next turn on use (+2 more for the Defense skill at 0 Ammo). Aggro only matters in Focused Encounters. S1 inflicts 1/3 Paralyze on Coin Ⅰ hit (Heads Hit/on hit) and gains +2 Skill Power if the target has at least 8 Tremor.",
+    "振動を扱う味方と組み、S2で一気に振動を入れて味方の振動系スキルの条件を満たす。S3の振動爆発はおまけで、本命は破裂と脆弱5を入れて同じターンの後続の攻撃を伸ばすこと。弾丸に限りがあるので、S2・S3は効果が活きる場面に絞り、弾丸が尽きた後は、集中戦闘ならS1・守備の挑発値で攻撃を引き受ける役に回る。": "Pair her with allies who use Tremor, and apply a burst of Tremor with S2 to meet allies' Tremor skill conditions. S3's Tremor Burst is a bonus; the real goal is inflicting Rupture and 5 Fragile to boost the follow-up attacks that same turn. Ammo is limited, so save S2 and S3 for moments when their effects matter, and once Ammo runs out, switch to drawing attacks with the Aggro from S1 and her Defense skill in Focused Encounters."
+  }
+}

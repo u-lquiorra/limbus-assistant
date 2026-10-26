@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0214.md",
+  "code": "0214",
+  "messages": {
+    "毎ターンの「指令」を遂行して指令の加護を貯め、呼吸と沈潜で戦う人差し指の人格。": "An Index Identity that fulfills each turn's Prescript to build Grace of the Prescript, fighting with Poise and Sinking.",
+    "指令: ターン開始時、基本攻撃スキルに指令の印が付く(最大2つ)。遂行すると精神力回復と指令の加護1(メインターゲットに指令対象があれば3)を得る。遂行できないとカルマ5を得る(加護9なら得ない)。": "**Prescript**: At Turn Start, Mark of the Prescript is placed on basic attack skills, up to 2. Fulfilling it restores SP and grants 1 Grace of the Prescript, or 3 if the main target has The Prescript's Target. Failing it grants 5 Karmic Consequence, except at 9 Grace.",
+    "指令の加護: 3につき攻撃レベル+1(最大9)。加護6以上ならS3「指令に従い貴方を処断いたします。」の全コインが破壊不能になり、ダメージ量+30%。": "**Grace of the Prescript**: +1 Offense Level for every 3, up to 9. At 6 or more Grace, all Coins of S3 As the Prescript Demands, You Will Be Eliminated. become Unbreakable, and it deals +30% damage.",
+    "呼吸と沈潜: 各攻撃スキルは自分の呼吸と対象の沈潜の合計が6以上でコイン威力が上がる。": "**Poise and Sinking**: Each attack skill gains Coin Power when her Poise plus the target's Sinking totals at least 6.",
+    "バトルパッシブ「遂行者の剣」(怠惰×1・傲慢×1・憂鬱×1・保有・同期化Ⅱで取得): 加護に応じて指令の印スキルのダメージ量が増加。加護9なら基本攻撃スキルのダメージ量+20%。": "**Combat passive — Proselyte's Blade (1 Sloth, 1 Pride, and 1 Gloom Owned; unlocked at Uptie Ⅱ)**: Raises the damage of skills with Mark of the Prescript based on Grace. At 9 Grace, basic attack skills deal +20% damage.",
+    "毎ターン指令の印が付いたスキルを優先して当て、カルマを避けながら指令の加護を9まで貯める。加護6〜8では、指令の遂行に印の付いたS3(または覚醒E.G.O)の的中が必要になる。加護6以上ではS3の全コインが破壊不能になり、マッチに負けても攻撃が残る。": "Each turn, prioritize landing the skills with Mark of the Prescript, avoid Karmic Consequence, and build Grace of the Prescript up to 9. At 6–8 Grace, fulfilling the Prescript requires landing a marked S3 or an Awakening E.G.O. At 6 or more Grace, all Coins of S3 become Unbreakable, so the attack continues even if she loses the Clash."
+  }
+}

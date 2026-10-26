@@ -1,0 +1,1082 @@
+{
+  "kind": "boss-copy",
+  "id": "roach-emperor",
+  "source": "src/data/bosses/roach-emperor.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "防御害虫 [蜚蠊]",
+          "en": "Protecting Pest [Roaches]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "DefenseBug"
+        },
+        {
+          "ja": "非常用K社アンプル",
+          "en": "K Corp. Emergency Ampule",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KAmpouleA1C94TH"
+        },
+        {
+          "ja": "攻撃害虫 [蜚蠊]",
+          "en": "Hurting Pest [Roaches]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "OffenseBug"
+        },
+        {
+          "ja": "蜚蠊の皇帝",
+          "en": "The Roach Emperor",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1339"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "皇帝の民",
+          "en": "The Emperor's Subjects",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133901"
+        },
+        {
+          "ja": "皇帝のマント",
+          "en": "The Emperor's Mantle",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133902"
+        },
+        {
+          "ja": "皇帝の軍勢",
+          "en": "The Emperor's Legion",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133903"
+        },
+        {
+          "ja": "皇帝の血",
+          "en": "The Emperor's Blood",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133904"
+        },
+        {
+          "ja": "破られた包み紙",
+          "en": "The Unwrapped Present",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133905"
+        },
+        {
+          "ja": "皇帝の震怒",
+          "en": "The Emperor's Wrath",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133906"
+        },
+        {
+          "ja": "血のとばり",
+          "en": "Blood Barrier",
+          "file": "Passives_Assist-a1c9p3.json",
+          "id": "40001204"
+        },
+        {
+          "ja": "開花 E.G.O::ラヴァクルム・サングイニス",
+          "en": "Effloresced E.G.O::Lavacrum Sanguinis",
+          "file": "Passives_Assist-a1c9p3.json",
+          "id": "40001206"
+        },
+        {
+          "ja": "案内人",
+          "en": "The Guide",
+          "file": "Passives_Assist-a1c9p3.json",
+          "id": "40001209"
+        },
+        {
+          "ja": "皇帝の拳",
+          "en": "The Emperor's Fist",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133901"
+        },
+        {
+          "ja": "皇帝の鞭と拳",
+          "en": "The Emperor's Whip & Fist",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133902"
+        },
+        {
+          "ja": "皇帝の捕食",
+          "en": "The Emperor's Devouring",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133903"
+        },
+        {
+          "ja": "皇帝の笞罪",
+          "en": "The Emperor's Flogging",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133904"
+        },
+        {
+          "ja": "蜚蠊の行進",
+          "en": "March of Roaches",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133905"
+        },
+        {
+          "ja": "皇帝の鳴動",
+          "en": "The Emperor's Quaking",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133906"
+        },
+        {
+          "ja": "皇帝の摘出",
+          "en": "The Emperor's Excision",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133907"
+        },
+        {
+          "ja": "皇帝の晩餐",
+          "en": "The Emperor's Feast",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133908"
+        },
+        {
+          "ja": "「…坊や、心臓を狙わないと。」",
+          "en": "'Son, don't forget to go for the heart.'",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133909"
+        },
+        {
+          "ja": "皇帝の盾",
+          "en": "The Emperor's Shield",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133910"
+        },
+        {
+          "ja": "摘出コイン",
+          "en": "Excision Coin",
+          "file": "Bufs.json",
+          "id": "ExtractCoin"
+        },
+        {
+          "ja": "死んだ血鬼たちが為の葬儀",
+          "en": "Funeral for a Dead Bloodfiend",
+          "file": "Skills_Assist-a1c9p3.json",
+          "id": "40001209"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 3 enemy, status, and assist records. Guide spacing aliases use Hurting Pest [Roaches] and Protecting Pest [Roaches]. Funeral for a Dead Bloodfiend follows assist skill 40001209. Excision Coins, Unbreakable-based enemy buffs, fixed Heads probability, pest management, NPC targeting, and the 30 HP ending are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "b486f33439b558b396bfd00844da3a2ce40313a1eff2b7d25c3bd2bca8c49934",
+      "text": "The Roach Emperor (9-45)"
+    },
+    "shortName": {
+      "sourceHash": "c3c508476cd268568010c3d361ee89906b1c8c0700dafd3e5998a813bac01ce6",
+      "text": "The Roach Emperor"
+    },
+    "stageName": {
+      "sourceHash": "f97f4fe81e23ce88f673feb199233f7e3459c7d4fd3ae055cdc1f05f6c8a2f5a",
+      "text": "Suddenly, One Day"
+    },
+    "lead": {
+      "sourceHash": "ebd392be0021925e9da6a371ce0995717699022fabbcda8c6e010aedf3d544f4",
+      "text": "Have Heathcliff and Rodion handle Gluttony skills and pests while Vergilius supplies major damage and dangerous clashes. Using Unbreakable Coins against Gluttony skills strengthens the enemy, so check the NPC's clash targets before starting."
+    },
+    "listLead": {
+      "sourceHash": "a8c138fa5a6bfebb736eda2b05320122f66f5ad4e1f540ade92b7a8820a0a9c4",
+      "text": "Heathcliff and Rodion handle Gluttony skills and pests, while the allied NPC handles dangerous clashes and supplies major damage. Using Unbreakable Coins against Gluttony skills strengthens the enemy; check the NPC's clash targets first."
+    },
+    "statNote": {
+      "sourceHash": "30afe5bf35e80ae5ba9fe0bf55e561267bac2ae673db0c34394521f31e447315",
+      "text": "Heathcliff and Rodion are the two required Sinners, fighting alongside Vergilius. Sinners start at 30 SP, or −30 for Identities whose basic attacks all use negative Coins, and share three Ampule uses. Tables show base values without Low Morale, Panic, or HP-loss debuffs. The ending event triggers at 30 HP."
+    },
+    "skillNote": {
+      "sourceHash": "ecfca8d6fa515528b9da0de04199c523430cefe822bc5d18d876b19131ab7320",
+      "text": "Excision Coins are special Coins that can destroy Unbreakable Coins. They are distinguished from ordinary Unbreakable Coins in skill labels and effects. The enemy's Heads chance is fixed at 50% regardless of SP, so do not choose clashers from favorable predictions alone."
+    },
+    "priorities.0": {
+      "sourceHash": "184a1bd85e132112242491254f80659f675d5a3b32d2fe87452300283a086e6d",
+      "text": "Assign Sinner skills without Unbreakable Coins to Gluttony attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "1428d8584ce9988e35faf9e666250c57e85deb4beda38a34d242ec75233fff40",
+      "text": "Halve Hurting Pest through Devouring; reduce Protecting Pest by inflicting statuses."
+    },
+    "priorities.2": {
+      "sourceHash": "a42fc9f4a5380608713ac8fdeb601be153b7f912462989db1a341610b2259eb2",
+      "text": "Leave the final heart-targeting skill to the NPC; have Sinners handle Excision and Feast."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "0f44ac6e4906cb9110e787c8627fb3e8320390d8e1825214594d836ccd03bc30",
+      "text": "A Gluttony skill suddenly gains Power when the NPC clashes with it"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "67fd29a9f2aeb8eb77d87469ef5b4a4e2e64c978c4e5159a035928195c1e6f42",
+      "text": "Devouring gains +10 Base Power per opposing Unbreakable Coin; Excision and Feast gain +20. After Vergilius manifests E.G.O, redirect these clashes to Sinner skills with ordinary Coins. Check for skills that become Unbreakable conditionally too."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "5d2a250cf64bda83a5adf331a5c1e174df644f64ea02a3e6c1bb6095e98b9aea",
+      "text": "Sinners die despite having a Shield"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "ac21c86a4a8dc47765bfae31e0b0a55ea3e5cba0a7374a9d9b63da88bc656e9f",
+      "text": "Hurting Pest reduces max HP and deals fixed damage equal to stacks × 12 at Combat Start. At 50, that is 600 damage, consuming the support Shield. Let Devouring hit to halve stacks before they build up, and avoid concentrating several strong attacks on one Sinner."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "818050e84ceac585ec2acb6330adf73d4d6e64a8fda99d4c352af06580f53eb8",
+      "text": "The later major attack wipes the party"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "534659b7239aba2882f29faff2340d114a4500536afe92b833a26afcd46b2a36",
+      "text": "Check whether Vergilius is clashing with The Emperor's Excision. Redirect that Gluttony skill to a Sinner, but preserve the NPC's Funeral clash against 'Son, don't forget to go for the heart.'. Do not swap these assignments."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "8783344815058af7661a8dc72701f819caf6425df4817dbbee22c3771a10164a",
+      "text": "Bring two Sinners who can take Blunt hits and use ordinary Coins"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "25d421a7d8a010f3557b7911b2e965d7a486a77cb44741ab5e64416ec7f8dca1",
+      "text": "Recommended Lv. 60. Only Heathcliff and Rodion are controllable. Prioritize Blunt resistance and HP/SP recovery."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "696390a64807dbd91fbd73f06fd8dc11b712fbb6adffe33258c87c1f0fc6b091",
+      "text": "Inflicting Burn, Bleed, Tremor, Rupture, or Sinking reduces Protecting Pest. Your role is to supply status amounts rather than defeat the enemy through status damage alone."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "0cee83249d5a7fd30a72b261313592170760212020a319ba59c3bedead00375d",
+      "text": "Save ordinary-Coin attacks for Gluttony skills. Even a strong skill is unsuitable if its Coins become Unbreakable when conditions are met."
+    },
+    "phases.1.timing": {
+      "sourceHash": "0f404e2bdc194b274c6597530b6e0211c553e7d96feb1565a6089fa77b19703a",
+      "text": "Clash assignments each turn"
+    },
+    "phases.1.title": {
+      "sourceHash": "62740e0573b76bdfe06320c27f5a16158c219cd5f3f0e77bccd392b84f5861aa",
+      "text": "Sinners handle weaker skills and Gluttony; the NPC handles dangerous skills"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "07a16440eb9f9f25eab02e4167cb4f9ea105d0c7dc66536ac3d429e81980286b",
+      "text": "Through The Guide, assigning a Sinner attack to the skill Vergilius is handling moves him to another unassigned skill. Removing the attack moves him back, so check the final clash lines before starting."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "a090fe7cb52b27d3857a06de5e2ec053a294ed961a384fe3ddb5f037768897f2",
+      "text": "Assign relatively manageable skills such as the Lust Fist and Gluttony attacks to Sinners; leave Flogging and Quaking to the NPC. Do not pile several strong attacks onto one Sinner."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "195928ab6d2cbe755f375b5dfad533c3f7a914d3b1aa2f1ab9519445c3f5b1a7",
+      "text": "When a Sinner loses a clash, the Emperor loses 5 SP and deals less damage to Sinners. Even an unwinnable clash can help, but only if HP, pests, and Shields allow survival."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "f8fa523d85f63718d7cd515017b211fb8c1cd7bb52e182345f38b6c2b861677d",
+      "text": "Low Morale applies 8 Clash Power Down and 3 Power Down; Panic applies 10 and 5, greatly weakening the enemy. Heads chance stays at 50%, so use strong regular skills or E.G.O even at low enemy SP."
+    },
+    "phases.2.timing": {
+      "sourceHash": "57c68b07f0705c52f56819867e8ac92b2e6d2762593a4f5638d73ae251174f24",
+      "text": "Accumulating Hurting Pest"
+    },
+    "phases.2.title": {
+      "sourceHash": "ea45d195eb57a5d87d126ae4ab537fbd4104899acf8ec1c2b3402d66cfac19fc",
+      "text": "Choose who takes Devouring to halve their pests"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "b63e2e9358e556232d78ca763f48be652cafc08534f2973170b0db22f25c1f48",
+      "text": "Assign The Emperor's Devouring to a Sinner with high Hurting Pest. On hit, it halves pests and grants resources according to the reduction. Around 35 is a warning sign; do not leave stacks to reach the cap of 50."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "27f74b74148c219ba1f54b9f3ed3f6f615fb26bf2e8424011970a369587d8ba0",
+      "text": "Devouring also absorbs the target's negative effects. Absorbed Burn and similar statuses reduce Protecting Pest, combining pest management with preparation to break the enemy Shield."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "04835b83d247af7e8bc24a6371bd64fad202b5c0c4feea4a3949df45d28a13b5",
+      "text": "A hit without Coin destruction also absorbs positive effects. Do not automatically offer a heavily buffed Sinner; check incoming damage and what the enemy will gain."
+    },
+    "phases.3.timing": {
+      "sourceHash": "83a271a03c258e44d11d54546ce92764fed274547bb316cc96954cb0172523c2",
+      "text": "After depleting Protecting Pest"
+    },
+    "phases.3.title": {
+      "sourceHash": "1499a1594667ab60c30ab43c682e97a296587fdfc734429d5365a1e098c4d9ae",
+      "text": "Create an opening and have a Sinner handle the Shield"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "54d72fa4dacdd842fec94de4b584408addeb8d7eb0d1360c678a26d6ae5116e0",
+      "text": "Inflict Potency and Count of the five statuses to reduce Protecting Pest. At 0, the enemy gains 10 Defense Level Down instead of Protecting Pest next turn, creating an opening."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "a20b8b7c7b1f31bd6fb7cfe4ed08f420da015eca83c5b4f7db75ae25d0713ba4",
+      "text": "If The Emperor's Shield designates the NPC, it reduces damage from his attacks by 50%. Have a Sinner take over to preserve NPC damage."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "aab4a66e76676c88fe9fda9501d1e006f897a93f627a29794994426a1fa66dfe",
+      "text": "This opening is temporary. At Turn End, negative effects are removed and Protecting Pest returns; inflict statuses again to reduce it."
+    },
+    "phases.4.timing": {
+      "sourceHash": "5002b15eb4095d945e4e94baf567a2358413a45cfa543c1bd0fc48c9f47d9615",
+      "text": "After The Emperor's Wrath"
+    },
+    "phases.4.title": {
+      "sourceHash": "8f432f4adcd994c7e926c0fc299db0468aae615e2e041828aea4ed514d523b45",
+      "text": "Sinners handle Excision and Feast; the NPC handles the heart-targeting skill"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "d430d6f58d833e6e36682a85aa9b7c5a7362da78b77c487355014fbbb61995d3",
+      "text": "At 50% HP or when Staggered, the pattern changes and Hurting Pest application increases. SP resets to 0 and Protecting Pest to 50, so the first half's debuffs do not simply carry on."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "f58bb2284d579383d755d1641374b1808c21d2b7617604cc746e775a1b6e09d8",
+      "text": "Always assign the Gluttony skills The Emperor's Excision and The Emperor's Feast to Sinner skills without Unbreakable Coins. In particular, letting the NPC clash with the area Excision greatly increases its Power."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "e756294946936469813f5800dccfacea0830344322de9b1ff29b2f2e71505cc9",
+      "text": "An undestroyed second Coin from Feast restores 25% of enemy HP on hit. During Low Morale or Panic, use a high-Power E.G.O if needed to win and prevent that healing."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "0c416f99611e798eb4328ca3b8975d980fa993f1ba0b703be4932c475212fba2",
+      "text": "Leave 'Son, don't forget to go for the heart.' to the NPC's Funeral for a Dead Bloodfiend. Adding a Sinner attack to that target moves the NPC to another skill, so preserve the clash line."
+    },
+    "phases.4.steps.4": {
+      "sourceHash": "32cb559e76480e3092c4713de9d320a284297208ab37b2aebf95b60b8ef16473",
+      "text": "NPC debuffs and other effects can still cause his major skill to fail. Check predictions and applied effects rather than assuming victory, and progress to the event at 30 HP."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "935afd6418303e45e2b62c0a91a3c4b76a85a1838668cc4db80cc3cfce807b34",
+      "text": "Vergilius"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "fde9f797d11772b1df897ca5169ea0aeec666838fd5d3f4fef2b9b32ed253737",
+      "text": "The assistant in 9-45. Supplies most damage and strong clashes; The Guide changes his attack targets. You lose if he dies."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "0395d6e0a0c4c387a71f353614d50a94c616070628516fe8debd94eca500f200",
+      "text": "Redirect Gluttony skills to Sinners and leave the later heart-targeting clash to him."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "c0930dab4a6c3ae8ca1a18b5181c1159921b680a4bd311c7c1c5316f655b0221",
+      "text": "Hurting Pest [Roaches]"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "c4465995b1de37c65c526c8999d4b4f0ab15ff0d298449c500b65151599054f4",
+      "text": "Maximum 50. Max HP −1% per stack; at Combat Start, take fixed damage equal to stacks × 12. When reduced, gain random resources equal to the stacks removed (max 15)."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "a0b1e5eb619e7c45c869c588f080354593b9deeeec208686cd060baec7ad9339",
+      "text": "Halved on a hit from Devouring. Choose the Sinner who takes it before stacks reach the cap."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "c07be6f0101a6a4406e21b7cbafd09198e90a01ccb171c367bc07ed94c3bbe37",
+      "text": "Protecting Pest [Roaches]"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e3a522e055d33d5b02111dde6b5ccb197769e9bc124a89d2ba0c4469d1e33b39",
+      "text": "Maximum 50. Prevents application of Burn, Bleed, Tremor, Rupture, and Sinking Potency or Count, losing an equal number of stacks instead. At Turn Start, gain a Shield equal to stacks × 40."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "38a9a74d28db2e40cc19e5cf377ffb91cfa7a3c910b130637d2c55e0d1bb0981",
+      "text": "Reduce it by inflicting statuses, creating an opening on the turn after it reaches 0."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "06109943b32e195ca6448dbac456d372471ecf727d2e9aa061491802ee88f865",
+      "text": "Excision Coin"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "3073ca9be4c6ee5ea5c152cd0317495689a8700592f5c96fd492c16d3b7b62e1",
+      "text": "Can destroy Unbreakable Coins in clashes and still attacks intact after a clash loss. Coin Power becomes 1 after losing."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "28a70cc07fa6bb659e1a9c8bc0a43b608db3f58040d9c93d836dde8a78aea4bb",
+      "text": "Distinguish Excision Coin's own effect from Gluttony skills gaining Power against opposing Unbreakable Coins."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "60d7f1592903874fe706199ac15bcb573071b84ead1f5a2b94219ed9347e4afe",
+      "text": "K Corp. Emergency Ampule"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "959ea2d0e30fbe714fe65c60349b08b00be953941805b54982f0105e42bec19b",
+      "text": "On lethal damage while another ally lives, clear Stagger and fully restore HP. All allies' remaining counts decrease by 1 simultaneously. The two Sinners share three uses."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "05f1b22e78e2cd7fabb26e82ee8013e46570e58190820c60afe96048ff320198",
+      "text": "This is not three revivals each. Do not spend them all on pests and concentrated hits."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "b2b34b8fad5cd52570b84106195dc97bbf87d9aa633de916f463309960d33f3c",
+      "text": "The Guide"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "f9c6f1a440c8598ae9bb65b4636ec8dd2ec743d8f950059b5dede4219631ccd3",
+      "text": "Assigning a Sinner attack to the NPC's clash target moves him to another unassigned skill."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "0fa0236666e5e082231cb3c355f5e299aeab3746dcb37510166ca00087a23d4b",
+      "text": "Leave Gluttony and Shield to Sinners, and the later heart-targeting skill to the NPC."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "97c354026e720a43d95704800e3b285117d436be177dc0da454fbb7b2a04b0a7",
+      "text": "Blood Barrier"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "4ce0e337ba13507c726e8d438a9cd79c4d476329a797c7b333ad94e0f30abbaf",
+      "text": "Each turn, Vergilius replenishes Shields on all allies up to 600."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "92cf319977810c52d861a536d390a2b29a3a8f9c52674ee194379837a9553e94",
+      "text": "At 50 Hurting Pest, start-of-combat damage is 600. Do not neglect pests even with support available."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "8134243370bf04af553ab943a1a8af573883658e78bd5d20771a70962e787174",
+      "text": "Effloresced E.G.O::Lavacrum Sanguinis"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "c1012bc469c686be8769b9162d5669f72397217efdd647b5ec4e7b32a411d57d",
+      "text": "The state in which the NPC uses his manifested E.G.O skills. All his skills become Unbreakable from Turn 4."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "48aeae38a918a9ae1a8339f9ec8cacbda9e1981c13933ba66f4a352e9cae35fc",
+      "text": "After manifestation, always reassign Gluttony skills to Sinners."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "d8a7d80054686fc8c2bab523d3ccae393c42579964d7e81e0e4aa5181d3776b4",
+      "text": "Funeral for a Dead Bloodfiend"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "64f934cc5af1bb1c02f4342fc590752cd85aaa650d024ae80a3d9fa91733bc46",
+      "text": "Vergilius's major skill against the late heart-targeting attack."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "c193e94982831270c5c0b8eb33ac653b68fe5ae33f8160c8b894a4960819bee8",
+      "text": "Do not add a Sinner clash against the same target and accidentally change the NPC's assignment."
+    },
+    "warnings.0": {
+      "sourceHash": "e11e7f98077db7ce2a6d8ea68d5fd1cf7c903072762f064c4b149ab2b1cc2f95",
+      "text": "Even a strong E.G.O strengthens Gluttony skills if it has Unbreakable Coins. Check for ordinary Coins."
+    },
+    "warnings.1": {
+      "sourceHash": "abeebac8616d83b23c326d3fabd75a434e62a31554487fb757f20a8d1bf2f687",
+      "text": "Devouring halves pests on hit. Winning the clash and preventing every hit does not provide the same pest removal."
+    },
+    "warnings.2": {
+      "sourceHash": "a40fa2d1d6506939ff9adf73ae3eaaba845a8bd7673e7e30c2dff563f0475c41",
+      "text": "The Emperor's Heads chance remains 50% during Low Morale or Panic. Clash-win probability alone does not guarantee safety."
+    },
+    "warnings.3": {
+      "sourceHash": "356164c58efd37afd70bd1658ae9a32a87049406568472eb40d20fa0d1eca782",
+      "text": "NPC death also causes defeat. Do not leave dangerous Gluttony skills to him, and preserve his heart-targeting clash."
+    },
+    "preparation.0": {
+      "sourceHash": "cc64bdb448910afe3ef67514b0d60a7addd60ff2aa08a80eecda07730f29a848",
+      "text": "Recommended Lv. 60. Prioritize Blunt resistance, healing, and SP management for the two required Sinners."
+    },
+    "preparation.1": {
+      "sourceHash": "47d16526e0004a27cc442c6fb9f2adc02429d6fdcd8f3ccba7e08cc9560587da",
+      "text": "Bring skills that inflict the five statuses and high-Power attacks without Unbreakable Coins."
+    },
+    "roles.0.name": {
+      "sourceHash": "6d91d1d983f36463facafcf9e45bd23fb2897c4b9e3a37d2240db07fb1f747e1",
+      "text": "Ordinary-Coin clashes"
+    },
+    "roles.0.reason": {
+      "sourceHash": "273e0290a861bd038c9fab85bf7638e8347d9d6fdc2774d4703f316437c12b8d",
+      "text": "Avoid strengthening Gluttony skills and direct the NPC toward dangerous attacks."
+    },
+    "roles.1.name": {
+      "sourceHash": "4b2359805d878d139489f4d4c5f23bad794774041ac158e7fc95280377f4855e",
+      "text": "Status application"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b6bf88a84e9d8a74c370aca47743382f52321eb2970fda62d553bb18708e438d",
+      "text": "Reduce Protecting Pest to let NPC damage through."
+    },
+    "roles.2.name": {
+      "sourceHash": "dfa336e4986e98e193158c5bc7e24e0f22da5ca3e3368da144344930eee137d3",
+      "text": "Survival and pest management"
+    },
+    "roles.2.reason": {
+      "sourceHash": "508cadc0f7be02f937cb2bff93d525bdf5cf9bdadceac3b9ce98c55b087bafcc",
+      "text": "Preserve shared Ampules and limit start-of-combat damage."
+    },
+    "units.0.name": {
+      "sourceHash": "c3c508476cd268568010c3d361ee89906b1c8c0700dafd3e5998a813bac01ce6",
+      "text": "The Roach Emperor"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "d5245f2f5c4ff144cc339d75ff2d256aaeb0c62640d1e1dfc0da4a75dea5525d",
+      "text": "50% (1,520) / Pattern changes on reaching this threshold or being Staggered"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "b53d7efc485fec266b9ea1ff83cc2cc6cfee3dc166d2c9e2d3e302560cb88928",
+      "text": "Heads chance is 50% regardless of SP. Plan for Heads even at low SP."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "7d914f2c902fbbabc09f13b1fd6d17eeec621c1a5054172458723437ad6a8fbb",
+      "text": "At Turn Start, gain a Shield equal to Protecting Pest × 40. At 50 stacks, this is 2,000."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "df8a1060ea7bdc2c0a70a17b53a72d790234f30a55c9c79e6b425a1f16104595",
+      "text": "At 50% HP or when Staggered, The Emperor's Wrath activates, resetting SP to 0 and Protecting Pest to 50."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "95c41e5afd708f7561ed1a47506b068e6a349776fe15ed7837a109d987e1373b",
+      "text": "Cannot fall below 30 HP; the event triggers at 30."
+    },
+    "skills.0.name": {
+      "sourceHash": "3d19c436340a33b899293fde7feba3b66c2745a155ab4eae9df217b642982dd5",
+      "text": "The Emperor's Fist"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "c9fb797670fb76a0fe94e96ac126f74342549f262a1bcfff13e154f81d69779a",
+      "text": "Damage +20% per type of negative effect on the target (max 100%)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "3f03a835b57b68952ad65d646bd25e34468c187d4e149b05b56497e8cd9ea79e",
+      "text": "Ⅰ [On Hit] Inflict 2 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "43732b65255a2008dcee8089db2a29522bc0907a0a1318948d8b4f030af02db8",
+      "text": "Ⅱ [On Hit] Inflict 2 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.0.response": {
+      "sourceHash": "8aca7cae87c0d03f6c09489300945286bcf2b9637c95296ab26e115fbb472be7",
+      "text": "Two Blunt Coins. Relatively manageable for Sinners, but pests and negative-effect types increase damage. Check resistance and Shields."
+    },
+    "skills.1.name": {
+      "sourceHash": "3a13d23e9904ac57d722f407600af8d94eb671bd5bf09b4b5ddd3c36ca6c5919",
+      "text": "The Emperor's Whip & Fist"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c9fb797670fb76a0fe94e96ac126f74342549f262a1bcfff13e154f81d69779a",
+      "text": "Damage +20% per type of negative effect on the target (max 100%)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "19dba72d58644aee9ae5e45715b60a4dbea7eedd0c09be7f082d643575c4db4a",
+      "text": "[Clash Lose] Deal 80% less damage; this damage cannot Stagger"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "5e9c9975915ba38356c605ddda9b50994c477c6fc8b4e5d4ae2ab78a555ce225",
+      "text": "[On Hit] Inflict 3 Potency and 3 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "5e9c9975915ba38356c605ddda9b50994c477c6fc8b4e5d4ae2ab78a555ce225",
+      "text": "[On Hit] Inflict 3 Potency and 3 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "1567fa7fb5b6be1802b353f543d4d859b4737eca87dc8aee886e1dd3261867f4",
+      "text": "[On Hit without Coin Destruction] Gain 5 Poise and 3 Poise Count"
+    },
+    "skills.1.response": {
+      "sourceHash": "93df493ef4bf33eb0fcaa05854979bbf231675cad97aa8eff8008d2ba0aa07ee",
+      "text": "Three Unbreakable Blunt Coins. Winning grants 80% damage reduction and Stagger prevention. Heavier than Fist; avoid concentrating several on the same Sinner."
+    },
+    "skills.2.name": {
+      "sourceHash": "3e59e63631577edf9ed2de8443987416f5f1631137362fdb9e08156eda257aea",
+      "text": "The Emperor's Devouring"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "1805fba0c161fa1ba2cd28713eb33755a8b9ebd01a691506e8e270b6b7b6478f",
+      "text": "[On Use] Base Power +10 per Unbreakable Coin in the opposing skill"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "6456305dc49e1c16d832d35b4e3620327b147c103a43cd40723e63aedb24ee80",
+      "text": "Ⅰ Excision Coin"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "973c7c5d7e00a00246c7652fb716fdb003df2cd34946d82f9b6622191002047c",
+      "text": "[On Hit without Coin Destruction] Absorb all positive effects on the target"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "16d8019ef35b9a1d81775d7c5c2e05bf743f3d47151647f778f158f3b9ad58ab",
+      "text": "[On Hit] Halve the target's Hurting Pest [Roaches]"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "e1ab25969beb0a81e814faec422f21270fe1cd8d35895cad1e678a7110a2a026",
+      "text": "[On Hit] Absorb all negative effects on the target"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "b5f9e379392ded1dfacc413bd1e60673e4acc623aa3b00ecce2236d59ea9b379",
+      "text": "- After this effect, if the user has no Protecting Pest [Roaches], gain 2 Power Down next turn"
+    },
+    "skills.2.label": {
+      "sourceHash": "06109943b32e195ca6448dbac456d372471ecf727d2e9aa061491802ee88f865",
+      "text": "Excision Coin"
+    },
+    "skills.2.response": {
+      "sourceHash": "36b5d1644bb7283678ed887e98592c6899dab06abf204ef6989e3a60b63774f4",
+      "text": "Base Power +10 per opposing Unbreakable Coin. Assign a Sinner with ordinary Coins. Letting it hit a Sinner with many pests can halve them, but check HP and absorbed effects."
+    },
+    "skills.3.name": {
+      "sourceHash": "bf826b3291b579f65f00dca6e1e7c85143afd3ab8c8bd704ce6c691d87cff430",
+      "text": "The Emperor's Flogging"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "c9fb797670fb76a0fe94e96ac126f74342549f262a1bcfff13e154f81d69779a",
+      "text": "Damage +20% per type of negative effect on the target (max 100%)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "5929bb7655155db21a150326d8f8fa15d94f366867b6fac4c03fd3522279507b",
+      "text": "[On Use] Gain 10 Charge Count"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "4181962d61a75e87c78c002471f7c664fbcd820427cb88cd8a3f6a2683e84655",
+      "text": "[Clash Start] Lose 5 Charge Count"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "19dba72d58644aee9ae5e45715b60a4dbea7eedd0c09be7f082d643575c4db4a",
+      "text": "[Clash Lose] Deal 80% less damage; this damage cannot Stagger"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "5e9c9975915ba38356c605ddda9b50994c477c6fc8b4e5d4ae2ab78a555ce225",
+      "text": "[On Hit] Inflict 3 Potency and 3 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "41981bbe1e0d9da040dbc6ae33490012bfab53c434422ec81fa23605ab12c361",
+      "text": "[On Hit] Consume all Charge Count; damage +(Charge Count consumed × 20)%"
+    },
+    "skills.3.response": {
+      "sourceHash": "35b3678eced7e2620628471385cab6827e2ecd92537e1a9e2268eff903f932c7",
+      "text": "Two Unbreakable Coins and 7 Atk Weight. A key dangerous skill to leave to the NPC. Win for 80% damage reduction to limit the large Charge-based damage."
+    },
+    "skills.4.name": {
+      "sourceHash": "452cf98b4722e19934879894ae57091827d506489e32da950506f5ac879adfd4",
+      "text": "March of Roaches"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "d0d635b46993defec58ea2aed8f7133e79894298d8e6af56994bed4818fca8fa",
+      "text": "Ⅰ [On Hit] Inflict 2 Hurting Pest [Roaches]"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "e717490cc9cc934245ed7a845606636dacf939e0943e354add51a218dc160dfb",
+      "text": "Ⅱ [On Hit] Inflict 2 Hurting Pest [Roaches]"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "dd0ae73b20ddb1ec012631f6126d88671dd99dfc00f779eb8749e5f3ad07a2bc",
+      "text": "Ⅲ [On Hit] Inflict 3 Hurting Pest [Roaches]"
+    },
+    "skills.4.response": {
+      "sourceHash": "7177f13ce81bc73cd8d6c33bd9beffd7af6cc1602703e32be234d5c59c949809",
+      "text": "Three Coins inflicting seven Hurting Pest in total. Do not keep ignoring it even on Sinners with few pests; check the NPC's available assignments too."
+    },
+    "skills.5.name": {
+      "sourceHash": "da3701e80b562b76cbdbaa7eda15884fabbf68b9bb2242aa849ad84213517db0",
+      "text": "The Emperor's Quaking"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "9678e553ad4a70ef2bd026622ca1013b2c20e22bdda25ebfcd77715d602f22ad",
+      "text": "Ⅰ[On Hit] Inflict 5 Tremor"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "52d8b058b91839101a59add75b907464a965c2fa1c6c9b678d8ee5f707c70b06",
+      "text": "Ⅱ[On Hit] Inflict 5 Tremor"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "1ca609612fef9589c6573716ec6690b3646bed60b5dc7a5a55b2c7344bc5c1e8",
+      "text": "Ⅲ [On Hit] Increase Tremor Count by 3"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "4566b98ad09c3bafdd5a48ac11bafbec2b8751b5e92a6e2f6373c32ffdf5cf0e",
+      "text": "[On Hit] Inflict Amplitude Conversion into a random Tremor type"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "b6640d664d4d1d3cc6cd102f3d9fb5ee56190d2d3f19a5825c545e7bee655422",
+      "text": "Ⅳ [On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.5.response": {
+      "sourceHash": "65424740cf1d1406a60703e2144cc35663175ad767873d43e532409278310cbc",
+      "text": "A high-Power four-Coin skill with 7 Atk Weight. Assign it to the NPC while Sinners handle Lust, Gluttony, and other manageable skills."
+    },
+    "skills.6.name": {
+      "sourceHash": "31716e185662ae85cdde53281868baa2e0ead43110868873ec2527cf7fa9686d",
+      "text": "The Emperor's Excision"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "c9fb797670fb76a0fe94e96ac126f74342549f262a1bcfff13e154f81d69779a",
+      "text": "Damage +20% per type of negative effect on the target (max 100%)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "e02b884f1e8822463a743fff6819bd36af00dfcde9f536205d68645143131329",
+      "text": "[On Use] Base Power +20 per Unbreakable Coin in the opposing skill"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "19dba72d58644aee9ae5e45715b60a4dbea7eedd0c09be7f082d643575c4db4a",
+      "text": "[Clash Lose] Deal 80% less damage; this damage cannot Stagger"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "6456305dc49e1c16d832d35b4e3620327b147c103a43cd40723e63aedb24ee80",
+      "text": "Ⅰ Excision Coin"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "5e9c9975915ba38356c605ddda9b50994c477c6fc8b4e5d4ae2ab78a555ce225",
+      "text": "[On Hit] Inflict 3 Potency and 3 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "2ae6dd2ff9866c39f9ec78afda91e4e62031886b7efd18d52e3b9d7a5b9d96b6",
+      "text": "[On Hit without Coin Destruction] Inflict 5 Offense Level Down"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "125a282b4e7d114b097f5485ef0ec77853c02a4bd43b5f3f0f19ae091df7647b",
+      "text": "Ⅱ Excision Coin"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "5e9c9975915ba38356c605ddda9b50994c477c6fc8b4e5d4ae2ab78a555ce225",
+      "text": "[On Hit] Inflict 3 Potency and 3 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "f68459177edebd0c343d24351f62544bf443e9eb7fd9765a448fac71d2c71647",
+      "text": "[On Hit without Coin Destruction] Inflict 5 Defense Level Down"
+    },
+    "skills.6.label": {
+      "sourceHash": "06109943b32e195ca6448dbac456d372471ecf727d2e9aa061491802ee88f865",
+      "text": "Excision Coin"
+    },
+    "skills.6.response": {
+      "sourceHash": "c9d6f1e70853d9ce87d6b250dca5c3f50f559c4574d897944f0ef641d1701bbf",
+      "text": "Base Power +20 per opposing Unbreakable Coin. Take the clash from the NPC with a Sinner using ordinary Coins. Win for 80% damage reduction and Stagger prevention. This is the highest-priority check in the second half."
+    },
+    "skills.7.name": {
+      "sourceHash": "0fa3053f6c9c2afad007e25da1827d5d5f3a90ee397111133908a96eac1b668b",
+      "text": "The Emperor's Feast"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "c9fb797670fb76a0fe94e96ac126f74342549f262a1bcfff13e154f81d69779a",
+      "text": "Damage +20% per type of negative effect on the target (max 100%)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "ebb99ad17e85fb769a8ca4e093398f1a29b5f0acb2aac9c2f277f1663167c1d4",
+      "text": "Damage +10% per 2 Hurting Pest [Roaches] on the target"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "e02b884f1e8822463a743fff6819bd36af00dfcde9f536205d68645143131329",
+      "text": "[On Use] Base Power +20 per Unbreakable Coin in the opposing skill"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "19dba72d58644aee9ae5e45715b60a4dbea7eedd0c09be7f082d643575c4db4a",
+      "text": "[Clash Lose] Deal 80% less damage; this damage cannot Stagger"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "6456305dc49e1c16d832d35b4e3620327b147c103a43cd40723e63aedb24ee80",
+      "text": "Ⅰ Excision Coin"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "a5d8ba9a5ca228f97639b945268927885dbbec2d8cc6521059e9553586243c9e",
+      "text": "[On Hit without Coin Destruction] Remove the target's Shield"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "d981cec3f82d28ed5c37f8548b07a4f889c0a70c392f1e423510f7a4d22acd35",
+      "text": "[On Hit without Coin Destruction] Inflict 3 Paralyze"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "125a282b4e7d114b097f5485ef0ec77853c02a4bd43b5f3f0f19ae091df7647b",
+      "text": "Ⅱ Excision Coin"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "0e410d9c8fb7753dc1fa733ef126de83299b10997637fad9ea9ddf068fc8fbd1",
+      "text": "[On Hit without Coin Destruction] Heal the main body and part for 25% of their max HP"
+    },
+    "skills.7.label": {
+      "sourceHash": "06109943b32e195ca6448dbac456d372471ecf727d2e9aa061491802ee88f865",
+      "text": "Excision Coin"
+    },
+    "skills.7.response": {
+      "sourceHash": "c97a5a586552dca9a41db8cc5c91c8f7d47b1eb578cee8f4cff335c6328d0e83",
+      "text": "Base Power +20 per opposing Unbreakable Coin. An undestroyed second Coin heals 25% of enemy HP on hit. Win with a high-Power ordinary-Coin skill or E.G.O."
+    },
+    "skills.8.name": {
+      "sourceHash": "598b73d5e8ad487829102ed07b69eb490a4c78368de484fe78f6ca8c87af0c8f",
+      "text": "'Son, don't forget to go for the heart.'"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "de461335c5ba2533424129491c0f2ba006037ca2ca8cf6efa6631656af782be8",
+      "text": "[On Use] Gain 10 Poise and 4 Poise Count"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "89d3b991a91a2083230769582bdadaf6fed8a93d236cae011b72547766c90bbf",
+      "text": "[Clash Win] Gain 10 Poise"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "e500bcdb68556771c13339b9505281c4b4f147bb34144ac82594d161bc444347",
+      "text": "[Clash Lose] Deal 80% less damage and cannot trigger critical hits"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "c45a0f7b8df6880285b92a052c27713181a38c7abcfce9e8de0c9e3c26f6ad1d",
+      "text": "This damage cannot Stagger"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "fab51262699b33ef56a99782f4a342e21a49fe63ba150b599878184f66c69e18",
+      "text": "[Clash Lose] Gain 5 Fragile next turn"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "100afd275d392d5e315c28929aa0301ef626c02b105a17ae18b98f15f23286fa",
+      "text": "[On Hit] Inflict 5 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "7c08b8ecc03263a8dfce6a0a436b9abdc567fd0d0782be21463efdb71e569dd8",
+      "text": "[On Crit] Deal Pride damage equal to 25% of the target's max HP"
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.8.effects.10": {
+      "sourceHash": "100afd275d392d5e315c28929aa0301ef626c02b105a17ae18b98f15f23286fa",
+      "text": "[On Hit] Inflict 5 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.8.effects.11": {
+      "sourceHash": "7c08b8ecc03263a8dfce6a0a436b9abdc567fd0d0782be21463efdb71e569dd8",
+      "text": "[On Crit] Deal Pride damage equal to 25% of the target's max HP"
+    },
+    "skills.8.effects.12": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.8.effects.13": {
+      "sourceHash": "100afd275d392d5e315c28929aa0301ef626c02b105a17ae18b98f15f23286fa",
+      "text": "[On Hit] Inflict 5 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.8.effects.14": {
+      "sourceHash": "7c08b8ecc03263a8dfce6a0a436b9abdc567fd0d0782be21463efdb71e569dd8",
+      "text": "[On Crit] Deal Pride damage equal to 25% of the target's max HP"
+    },
+    "skills.8.effects.15": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.8.effects.16": {
+      "sourceHash": "100afd275d392d5e315c28929aa0301ef626c02b105a17ae18b98f15f23286fa",
+      "text": "[On Hit] Inflict 5 Potency and 2 Count of one random effect among Burn, Bleed, Tremor, Rupture, and Sinking"
+    },
+    "skills.8.effects.17": {
+      "sourceHash": "7c08b8ecc03263a8dfce6a0a436b9abdc567fd0d0782be21463efdb71e569dd8",
+      "text": "[On Crit] Deal Pride damage equal to 25% of the target's max HP"
+    },
+    "skills.8.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.8.response": {
+      "sourceHash": "6ca29309fb07f829112f11105801bf9c91d6a75644f8204fd17525bf7d0e660f",
+      "text": "Cannot be redirected; 7 Atk Weight. Leave it to the NPC's Funeral and do not add Sinner attacks to that clash target. Winning grants 80% damage reduction and prevents critical hits, so check the NPC's prediction too."
+    },
+    "skills.9.name": {
+      "sourceHash": "566c4c26c7dee2746e91d8d80aeb00f57f94050fa9bf1699a4cf39fac5cc6290",
+      "text": "The Emperor's Shield"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "2fbb3d0c7723d41f26525d74db06db40259d44bca6f12a0034b2116da0c9adae",
+      "text": "Take 50% less damage from the designated target's Attack Skills this turn"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "8615dc6fdb33236de12adbca9a0f700fcb82998c379974d611606bd190956102",
+      "text": "[Clash Win] Inflict 3 Bind next turn"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "5beaaf7664c15d2063b9afac4668bcd03bd166902bc7bb106970849e57a5cfac",
+      "text": "[Clash Lose] Heal the target for 15 SP"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.response": {
+      "sourceHash": "30f321d8e2a9bd70ef540246779ce6717d9f490237501833977d4d8303f2a352",
+      "text": "Reduces damage from the designated target's attacks by 50% that turn. Have a Sinner handle it to preserve NPC damage. Treat its conditions separately from a Guard handled simply with unopposed attacks."
+    },
+    "passives.0.name": {
+      "sourceHash": "9387450f17e1604dacea34b6699b33edb299b6d4bb76bc53de1764cb7cd4f1c5",
+      "text": "The Unwrapped Present"
+    },
+    "passives.0.effect": {
+      "sourceHash": "4d854ac5277e62f6c25ede241752e06406ad75de4b7db11f385e336be5587a36",
+      "text": "Heads chance is fixed at 50% regardless of SP.\n\nOn winning a clash against a Sinner, lose 5 SP and deal 40% less damage to Sinners.\n\nIn Low Morale or Panic, gain Clash Power Down and Power Down.\nOn recovering from Panic, gain 2 Power Down.\n“But has it really all been unwrapped?”"
+    },
+    "passives.0.condition": {
+      "sourceHash": "bc528dbcb3ecae4801c789bbb5669c2b06d90b78955b50274fb25adf68c2e113",
+      "text": "Fixed 50% Heads chance; clash wins against Sinners"
+    },
+    "passives.0.response": {
+      "sourceHash": "3fac79de11ab92239a7a2cf76d37d8c8aca98ff68b0acc078ef165918595c57c",
+      "text": "Assigning Sinners also helps lower SP and reduce damage. Still avoid concentrated hits."
+    },
+    "passives.1.name": {
+      "sourceHash": "3eba0729ba02846370e3197b5eee77251cd45aecc00f8a824f54ed386fe9ef9e",
+      "text": "The Emperor's Subjects"
+    },
+    "passives.1.effect": {
+      "sourceHash": "f254df76672774695ceb72f508d018ed3d552cc57eda226d1f7ac53a4e766d51",
+      "text": "At Turn Start, gain 50 Protecting Pest [Roaches] (the amount gained decreases by 3 each turn, up to a reduction of 20).\n- If the user has Burn, Bleed, Tremor, Rupture, or Sinking, randomly reduce their Potency and lose Protecting Pest equal to the amount reduced.\n- If the effect has 1 Potency and at least 2 Count, reduce Count instead.\n\nIf all Protecting Pest is depleted during combat, apply the following next turn:\n- Gain 10 Defense Level Down instead of Protecting Pest.\n- Generate 2 resources of each of the enemy's three least-abundant E.G.O affinities.\n- At Turn End, remove all negative effects and gain Protecting Pest.\nWherever and whenever it may be, they crawl out from the lines where surfaces meet."
+    },
+    "passives.1.condition": {
+      "sourceHash": "09a8a0d87656b81c1f34b19bf1c1f0b80a440071ad2c6c2d37372856d66970c1",
+      "text": "Turn Start; Protecting Pest at 0"
+    },
+    "passives.1.response": {
+      "sourceHash": "793772902ee11b33bd64cbbaf0a78fc881e420ea6550d124f2fdd44cf0d11c54",
+      "text": "Use the five statuses to reduce Protecting Pest and create an opening next turn."
+    },
+    "passives.2.name": {
+      "sourceHash": "e1fcc8509bca4f8f26c08f7132cb4f9d535633c0880536b7022f4dcb1b3da01a",
+      "text": "The Emperor's Mantle"
+    },
+    "passives.2.effect": {
+      "sourceHash": "7b381a07b6afd210bb9aac75ed5dac3e48197ff0d5b60c8cea99d20c1d80fb87",
+      "text": "At Turn Start, gain a Shield equal to (Protecting Pest [Roaches] × 40).\nThe swarm moves for one emperor alone."
+    },
+    "passives.2.condition": {
+      "sourceHash": "25f2ecfbb2145df11fbb47f09e563d8aaedded63a177b730a8dfb693241711ab",
+      "text": "Turn Start"
+    },
+    "passives.2.response": {
+      "sourceHash": "7a9f549d4e26f67b7bcf98c6b9bbc9496c5c36b61603fd6ab5f72dced4304b32",
+      "text": "At 50 Protecting Pest, the Shield is 2,000. Reduce pests before focusing on HP damage."
+    },
+    "passives.3.name": {
+      "sourceHash": "52f08f93f72ae895a655245588e3db0c717bd6c38dcd910e58c636779e56f6bd",
+      "text": "The Emperor's Legion"
+    },
+    "passives.3.effect": {
+      "sourceHash": "fb55a199930b4d7e366053d740ce03581d0d13287a56191dfd26ffd8ab543f07",
+      "text": "- On Clash Win, inflict 3 Hurting Pest [Roaches] on the target.\n- On skill hit, inflict 1 Hurting Pest [Roaches] on the target.\nBurrow, seep, permeate, gnaw, tear, and devour."
+    },
+    "passives.3.condition": {
+      "sourceHash": "37b7ce3d679065c81b6bc51bcba92bf06bf61ecbfa1e90c2eef25f410d453c77",
+      "text": "Clash wins and hits"
+    },
+    "passives.3.response": {
+      "sourceHash": "4ec3fb70708027babf80f821fcc89a03c27e651e2de7384abefcc605a7c892b6",
+      "text": "Avoid building up pests; rotate who takes Devouring to halve them."
+    },
+    "passives.4.name": {
+      "sourceHash": "1e730cdd5eda5bbd0b89812c4a6d73e99f901c68177025095557753b41869915",
+      "text": "The Emperor's Blood"
+    },
+    "passives.4.effect": {
+      "sourceHash": "1b7387c43c5810f217acba3f77dad828c498e9e726573b3df21c55f5e9bbd160",
+      "text": "HP damage, SP damage, and Stagger Threshold advancement from Burn, Bleed, Tremor, Rupture, and Sinking are reduced by 50%.\nThis damage cannot cause Stagger.\nAt Turn Start, gain 2 Power Down per 25% HP the main body has lost.\nAdapt to everything, and grow dull."
+    },
+    "passives.4.condition": {
+      "sourceHash": "94d51f9e4b8306b07e2110d291580f5899e1982831eb4ffa5da08a6c0750bddb",
+      "text": "Status damage and lost HP"
+    },
+    "passives.4.response": {
+      "sourceHash": "fb532e4ac7f98a87569f2cd6d7ea80431b6f1ef73eebfe2040f7f5e81fac65a8",
+      "text": "Use status application amounts, as well as direct damage, to strip pests."
+    },
+    "passives.5.name": {
+      "sourceHash": "b9c60d56bbc0053fa7d20d157f6cebb7334308bfac6b505c521ae23bf4168aa1",
+      "text": "The Emperor's Wrath"
+    },
+    "passives.5.effect": {
+      "sourceHash": "93392fb05c9e55130f5dbe3875b41ae5643e1702073ca1f6e6214cbd189e0679",
+      "text": "At 50% HP or when Staggered, clear Stagger among the user's negative effects and change the pattern.\nThen apply the following:\n- Set SP to 0.\n- Gain 50 Protecting Pest [Roaches].\n- Double the Hurting Pest [Roaches] inflicted by The Emperor's Legion."
+    },
+    "passives.5.condition": {
+      "sourceHash": "79012c2ca2421f20ac4cbf04a2a1f5bb2a8364650ba3d9468d2ecb6ce822f5ef",
+      "text": "50% HP or Stagger"
+    },
+    "passives.5.response": {
+      "sourceHash": "eed5c1e711919c1b6fbc46a992a74158fde2abc1159d5bf7e6132cc1666c7a75",
+      "text": "Returns to 0 SP and 50 Protecting Pest, with increased pest application. Reassign clashes for the second-half skills."
+    },
+    "passives.6.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.6.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.6.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.6.response": {
+      "sourceHash": "2b434d0e2eaf26ad81db32765cabd29994f5cfdcf50ea5be9a28710ce27aa303",
+      "text": "Use skill assignments and debuffs rather than relying on a different Panic Type."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.7.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.7.response": {
+      "sourceHash": "8d170aad10b88adcdbbab7d01c55519cf77d651ef756af398e20a5f5c5f1e918",
+      "text": "SP recovers. Do not treat Panic-based weakening as permanent."
+    }
+  },
+  "messages": {
+    "boss-copy:roach-emperor": "complete",
+    "【リンバス】9-45 蜚蠊の皇帝（9-45）の攻略｜Limbus Assistant": "9-45 The Roach Emperor (9-45) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-45「蜚蠊の皇帝（9-45）」の攻略。ヒースクリフ・ロージャは暴食技と害虫を処理し、大きな火力と危険なマッチはヴェルギリウスへ任せる。破壊不能コインで暴食技へ挑むと敵が強化されるため、NPCのマ…": "The Roach Emperor (9-45) guide for Limbus Company 9-45. Have Heathcliff and Rodion handle Gluttony skills and pests while Vergilius supplies major damage and dangerous clashes. Using Unbreakable Coins against Gluttony skills strengthens the enemy, so check the NPC's clash targets before starting.",
+    "9-45 蜚蠊の皇帝（9-45）": "9-45 The Roach Emperor (9-45)",
+    "9-45「Suddenly, One Day」": "9-45 · Suddenly, One Day",
+    "蜚蠊の皇帝の外見": "The Roach Emperor appearance",
+    "蜚蠊の皇帝のスキル": "The Roach Emperor skills",
+    "The Roach Emperorの外見": "The Roach Emperor appearance",
+    "The Roach Emperorのスキル": "The Roach Emperor skills"
+  }
+}

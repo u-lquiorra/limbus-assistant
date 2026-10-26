@@ -1,0 +1,619 @@
+{
+  "kind": "boss-copy",
+  "id": "wayward-fox",
+  "source": "src/data/bosses/wayward-fox.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "さすらいの狐",
+          "en": "Drifting Fox",
+          "file": "Enemies.json",
+          "id": "8046"
+        },
+        {
+          "ja": "古傘",
+          "en": "Old Umbrella",
+          "file": "Enemies.json",
+          "id": "8052"
+        },
+        {
+          "ja": "沈鬱な呻き声",
+          "en": "Gloomy Moan",
+          "file": "Skills_Abnormality.json",
+          "id": "804601"
+        },
+        {
+          "ja": "押し寄せる沈潜",
+          "en": "Raging Withdrawal",
+          "file": "Skills_Abnormality.json",
+          "id": "804602"
+        },
+        {
+          "ja": "哀しみの反動",
+          "en": "Sorrowful Recoil",
+          "file": "Skills_Abnormality.json",
+          "id": "804603"
+        },
+        {
+          "ja": "哀しみの激流",
+          "en": "Sorrowful Torrent",
+          "file": "Skills_Abnormality.json",
+          "id": "804604"
+        },
+        {
+          "ja": "何かを探す鳴き声",
+          "en": "Cries Seeking Something",
+          "file": "Skills_Abnormality.json",
+          "id": "804605"
+        },
+        {
+          "ja": "待ちわびる",
+          "en": "Waiting",
+          "file": "Skills_Abnormality.json",
+          "id": "804606"
+        },
+        {
+          "ja": "撒き散らされる哀しみ",
+          "en": "Scattering Sorrow",
+          "file": "Skills_Abnormality.json",
+          "id": "805201"
+        },
+        {
+          "ja": "最後のあがき",
+          "en": "Last Struggle",
+          "file": "Passives_Abnormality.json",
+          "id": "804603"
+        },
+        {
+          "ja": "壊れた傘",
+          "en": "Broken Umbrella",
+          "file": "Passives_Abnormality.json",
+          "id": "804601"
+        },
+        {
+          "ja": "破れきった傘",
+          "en": "Ragged Umbrella",
+          "file": "Passives_Abnormality.json",
+          "id": "804602"
+        },
+        {
+          "ja": "捨てられた古傘",
+          "en": "Old and Abandoned",
+          "file": "Passives_Abnormality.json",
+          "id": "805201"
+        },
+        {
+          "ja": "傘の破片",
+          "en": "Umbrella Splinters",
+          "file": "Bufs.json",
+          "id": "ShardOfUmbrella"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "押し寄せる沈潜"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "4e6105ab7cd255d134e8b830b6b0fdc4ee7f455b1d9739cd9a20eb44e33b0c06",
+      "text": "Drifting Fox (Canto IV)"
+    },
+    "shortName": {
+      "sourceHash": "ae2c8ac64351dc99c9ad743ea19f46f9a0d2710c95e8d17e79d0ca08bcb70666",
+      "text": "Drifting Fox"
+    },
+    "stageName": {
+      "sourceHash": "4f1b02226ee1b0cf5bdbce0b91a9c3c9fb87fa95a4c3bae37b03e28d524d2574",
+      "text": "The League of Nine in Memory, Floor 2"
+    },
+    "lead": {
+      "sourceHash": "e88611205cdb12478c127d24d24693f2a2d2f15399fc3356c2f6b92c19678081",
+      "text": "Build SP by winning against weaker attacks, and direct strong attacks at the Fox rather than spending the whole fight chasing umbrellas. Prepare for area attacks and SP loss, break Parts, and finish the Fox."
+    },
+    "listLead": {
+      "sourceHash": "8d051f8b16287d1977fcd6b910872a0e33f7fc38b8b8adc256e0bae97e73d106",
+      "text": "Build SP by winning against weaker attacks, and direct strong attacks at the Fox rather than spending the whole fight chasing umbrellas. Prepare for area attacks and SP loss, break Parts, and finish the Fox."
+    },
+    "statNote": {
+      "sourceHash": "3e603ddfe7b2627aa1b1381c65bc9b875896aadaa23c8bf20f01fb5333395aff",
+      "text": "The Floor 2 encounter in the Canto IV dungeon. Overall HP is 889; Head HP is 260 and Body HP is 607. These are separate values, not a sum determining overall HP. Do not substitute Luxcavation or Mirror Dungeon HP and resistances. Broken Parts remain targetable and can still act."
+    },
+    "skillNote": {
+      "sourceHash": "0808f037ca6ad8db51d6e26409622473d229401839909bda79ac0024d004d4b6",
+      "text": "7 regular skill types shown as 10 entries by Part. Sorrowful Recoil is assigned to the Head in the skill table but the Body in the action table, so it appears under both; check the actual slots. Old Umbrella's listed range of 1–1 conflicts with its 1 (+1) Coin entry. This guide shows 1 Base Power plus a +1 Coin, for 1–2, without substituting another encounter's values."
+    },
+    "priorities.0": {
+      "sourceHash": "78cfe73cd040f6741e231e355399e40451fdc2e67e60fa8b43a02a30a80427e4",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. Bring SP recovery and E.G.O that can beat an area attack rolling up to 20."
+    },
+    "priorities.1": {
+      "sourceHash": "1aa35c27bbdf111f6f6b241df78d28ea64d508c4a037940f9bc1a65194f2127a",
+      "text": "Build SP by beating weak Sloth skills, and stop the multi-Coin Gluttony attacks with stronger skills. Do not prioritize clearing every umbrella above everything else."
+    },
+    "priorities.2": {
+      "sourceHash": "397fedccb4962fbe0c909336ee980ac0f137ca09284151119abb1d75602865c3",
+      "text": "Prepare for -20 SP on turn 3 and the area attack afterward. Use Part-break debuffs, then finish the Fox quickly once overall HP reaches 15% or less."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "ca5b512f51d2c6f9fa2b03c06dc098b1d3a50d9d0867a2dc8fe4cbdf4248e689",
+      "text": "Low SP suddenly makes Clashes hard to win"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "9404a2b83eede082707343ce6d1eda175357b9f1d4f4124bcf02b15bbe988ac7",
+      "text": "Besides Sinking on hit, Waiting reduces everyone's SP by 20. Build SP while regular skills can still win and save recovery options. Offsetting alone does not prevent the SP loss."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "1e9357be02c6ea282a7679260136b4525e05fc09049f7e4fec5904ea78eb958e",
+      "text": "Statuses increase even when you beat umbrella attacks"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "67611651536c7cc0a2280028db8d03f95bd87e41b50e2028e95c8fdb056f06a0",
+      "text": "The umbrella's team-wide Count increase is an [After Attack] effect. Winning the Clash to prevent hits does not cancel it. Consider Staggering or defeating the umbrella before it acts."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "bd954cde1d2c3a65f177f3f533f0668d0f41ebdb20969b61bd1206b964e6d4e6",
+      "text": "Clearing umbrellas leaves no actions to damage the Fox"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "c197ee9b960ffdbf6a6a775efcde4e2f289e53bba1cd4b48b55b2008e6b801be",
+      "text": "Use spare actions after stopping the Fox's dangerous attacks to damage umbrellas. Area attacks can clear several; otherwise, remove them one at a time. Defeating the Fox also defeats the remaining umbrellas."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "51d5f05017350488ecf877698d45d7936903df3e588b21f8a06c7d6f441ecf46",
+      "text": "The Head still uses an area attack after breaking"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "0452a30c1430bdfb142b337e28e0b48428f324f73bc6a56ce048a4bfb51f8994",
+      "text": "The story encounter's Part data allows actions after breaking. The Head break's Offense Level Down helps, but does not remove all future actions."
+    },
+    "units.0.name": {
+      "sourceHash": "662f949f336e1636fba5e673ac2a28be701696bead91122758ae4fa6b4d1ffec",
+      "text": "Drifting Fox (Head)"
+    },
+    "units.0.part": {
+      "sourceHash": "917540c6475c9448880b8a3545afd189e94a0056d3e058232b57fa4f57ac57fe",
+      "text": "Head"
+    },
+    "units.0.hp": {
+      "sourceHash": "2f604ef7471a568455236cadb0e3c358555faf042ec0324e08c0987d45364599",
+      "text": "Overall 889 / Head 260"
+    },
+    "units.0.speed": {
+      "sourceHash": "06221ff379fb36c7f08dc5d524d9e548384f8d61f82ad3656b9f1381c126414d",
+      "text": "2–4 / at 15% HP or less: 1"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "19a05aa68da8d2346b68833c2635931a6585cfab7a62ab76aa19eafeb955a8f8",
+      "text": "Weak to Slash. Remains targetable and can act after breaking. Breaking it applies 5 Offense Level Down to the Fox every turn."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "0d1f8f340018841dc3563a3740f3a1a301abdf9af01179b6b685989511981a33",
+      "text": "At 15% overall HP or less, uses an area attack every turn and keeps replenishing Old Umbrellas."
+    },
+    "units.1.name": {
+      "sourceHash": "e1b3de8b58efdae83ef321f4c46ea6cfba42c2c5a71d2b333407d0bfa1df8abd",
+      "text": "Drifting Fox (Body)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "e477aedb8dc32ca1624e48f943abde56abbd45bc5f391c1856e0bc0120194821",
+      "text": "Body 607 / Overall 889"
+    },
+    "units.1.speed": {
+      "sourceHash": "06221ff379fb36c7f08dc5d524d9e548384f8d61f82ad3656b9f1381c126414d",
+      "text": "2–4 / at 15% HP or less: 1"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "83a24f3f5ff44785621c9c59b6f40f5124d8d71100f66c2b7902aa2ce97d0a76",
+      "text": "Weak to Pierce. Remains targetable and can act after breaking. Breaking it applies 3 Fragile to the Fox every turn."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "add6e07f2fd3beb1356b08513374ac95efd905a95a21f43cf6fa1683066578f3",
+      "text": "Either the Head or Body can use Waiting. Staggering only one Part does not guarantee preventing the SP loss."
+    },
+    "units.2.name": {
+      "sourceHash": "07ea253779309ddbc6f9afc932d9e1f7e3427e16309d4836937efe506a7ec409",
+      "text": "Old Umbrella"
+    },
+    "units.2.part": {
+      "sourceHash": "bbb6574d70298e0130e99a5e2c3696076ff77bfe4dbfad7c7e7ba844d4d7492f",
+      "text": "Umbrella"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "130080a96d59d2df94635409a320ebf3f871cde9a44fa4a1b50bc0f33773ed1c",
+      "text": "Starts with 4. Summons replenish them without exceeding 6. Remaining umbrellas die when the Fox is defeated."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "6ca9578e859be9481140e19aa5d51a4cdf9a1fa7409173216e7de1679f01be96",
+      "text": "Defeating one grants its killer 2 Haste next turn and inflicts 2 Bind and 1 Umbrella Splinters on all Fox Parts. Umbrellas newly summoned late in the fight have 30% more HP."
+    },
+    "phases.0.timing": {
+      "sourceHash": "66354b6b3fdcf355f64526108165bc337c0bc417eb739431cf1888f830fb36e5",
+      "text": "Dungeon preparation"
+    },
+    "phases.0.title": {
+      "sourceHash": "67da002884d318b09509265b047f25c97b3a53b4c19dae474946373a4d079f41",
+      "text": "Use carried-over resources to prepare SP recovery and area-attack answers"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "15de5a96c08edfb3488be9abe0bba39bcabd7ffbeef45f1699ad1eb565a3ed99",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. Prepare HP, SP, and E.G.O resources in earlier fights, saving enough for healing and winning against the area attack."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "65b58c7ec6f0a7e846009739d68ad185af674dddd1ec10fd3f2a66c3556453d7",
+      "text": "The Fox is weak to Gloom and Gluttony. Its Head is weak to Slash, and its Body to Pierce. Focusing only Blunt damage is ineffective."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "33f51489b153901d334d68840b9ea844ab909832a0d2f9468734bd992518bb05",
+      "text": "Old Umbrellas are weak to Sloth. Area attacks can clear several but are optional; you can also remove them one at a time with spare actions."
+    },
+    "phases.1.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.1.title": {
+      "sourceHash": "cf99dcd5c88ebd91dba8a87a60acbee5b6dd6e82e1d33504e6fcdc1803f87b8b",
+      "text": "Win easy Clashes and divide actions between dangerous skills and umbrellas"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "49512f38847270aec1113269603b8c542eaa88178487acdf1b9b43b1953d8de7",
+      "text": "The Fox's Sloth attacks roll up to 10. Use winning regular skills to build SP, and reserve stronger skills for Gluttony attacks Sorrowful Recoil and Sorrowful Torrent."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "6e5f4bc54d326e0b53c69e4e0116e3162c95a96dd7c33ab65a9df5390aa30c4e",
+      "text": "Old Umbrella skills are weak, but increase everyone's Sinking and Rupture Count after attacking. Use spare attacks to Stagger or defeat them before they act."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "c6d7ccd2e8e595ddc4af1c4d48d680c8e0fcbc0754117cd5df75c6135c609961",
+      "text": "Defeating umbrellas applies Bind and Umbrella Splinters to the Fox. Use the killer's increased Speed to redirect attacks next turn, freeing more actions to damage the Fox."
+    },
+    "phases.2.timing": {
+      "sourceHash": "01e1a15a3762379d1838730625b50abf99c7b5f87392e188a825a6db31843820",
+      "text": "Turn 3 in the normal cycle"
+    },
+    "phases.2.title": {
+      "sourceHash": "0afe37a1b0e5ab7bc2a5df593d367434597ac82bac370568de64eecddea6f010",
+      "text": "Plan for -20 SP and focus damage on Parts"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "854a0133d38efc0afabd6e5da318ca95e8d1201963ed8177eaf56d91ba54fdce",
+      "text": "Waiting reduces everyone's SP by 20 at Combat Start. Offsetting the Defense Skill cannot cancel it. Prepare healing and the skills needed for subsequent Clashes before Combat Start."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "762d657b9aab8f5634d8f50755265fa2d778221f7ab91e482cd5c35128b3371c",
+      "text": "Use this turn's fewer attacks as an opening to focus damage on Parts. Exploit the Head with Slash or the Body with Pierce."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "6e8ad64a72c0671a4b9e7a0b9d56cfa794e9a5e0339a425c069b16a8c04be17b",
+      "text": "Breaking the Head applies Offense Level Down; breaking the Body applies 3 Fragile. Both remain targetable after breaking, but a break does not guarantee stopping their actions."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f119bb9384e4c0f4b84b151c6dc7fe71e9b0d3977d4d09fc94ecd27a22ba2746",
+      "text": "Turn 4 / repeating cycle"
+    },
+    "phases.3.title": {
+      "sourceHash": "30bbbf5ce60d4cb3af59d682857f8b9f96beca91319f8f9cc098ee1854d3d4d2",
+      "text": "Beat the area attack and damage the Fox after breaking Parts"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "6590498d929a2d3aba4e744a4cc1e0c72658f099adc2972a6019eaaef523403f",
+      "text": "Cries Seeking Something rolls up to 20 with 5 Attack Weight. Clash using a strong E.G.O, and check secondary targets' HP. More umbrellas increase damage on Heads Hit."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "24c5234bccb784f0850482120b31ff82d77cbd89fb44e6ffafebddf39ffd0808",
+      "text": "Winning does not cancel the Old Umbrella summon scheduled for next turn. Focus damage on the weakened Fox instead of insisting on keeping the umbrella count at zero."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "312d4d09f3d85beb3ae2a313f763a7e88b030ffc9a5a67d0fe9bec8fa84f1b2f",
+      "text": "At 15% overall HP or less, area attacks and umbrella summons continue every turn. Prioritize finishing the Fox if your damage is sufficient; otherwise, reserve a winning answer to the area attack while wearing it down."
+    },
+    "skills.0.name": {
+      "sourceHash": "13c4491fd8901a9ac357e9eecc397724100ce96a6b27cd73dcbb4dba52e36315",
+      "text": "Gloomy Moan"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "d0c58549565ea500fd06c36c361c6e0a6630a9011969792226e14cfa63870674",
+      "text": "Ⅰ[On Hit] Inflict 3 Sinking."
+    },
+    "skills.0.response": {
+      "sourceHash": "7cdb075a90cd2fb40439b3f2115407342e706beabe56c5849072f8325413d2b4",
+      "text": "A 1-Coin attack that rolls up to 10. Clash with a winning regular skill to prevent Sinking. Also use it to rebuild a low-SP Sinner's SP."
+    },
+    "skills.1.name": {
+      "sourceHash": "479343be544adabf0500289d97209edc3176ff0187481440163bce07dd82cdf0",
+      "text": "Raging Withdrawal"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c6498abfdf82ee78fdf314dbf278afcb6de77a07268e1f75c3f27ad82d275403",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 2."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "73d1727f2f56df652b2b5dc3fccbc5a490f875b379fbff67a790d0cf77602fd5",
+      "text": "Ⅱ[On Hit] Inflict 3 Sinking."
+    },
+    "skills.1.response": {
+      "sourceHash": "b7172679ca04c78504b08e48ad77dd08100eabf584ff01d711d2aeb8c0b09be7",
+      "text": "Increases Sinking Potency and Count. Keep it away from low-SP allies to avoid making subsequent Clashes harder, and assign a winning opponent."
+    },
+    "skills.2.name": {
+      "sourceHash": "409150708bb94a8f1d59e4a69ad994751e066cc70a50f885c5adf06c5a0bac95",
+      "text": "Sorrowful Recoil"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.2.response": {
+      "sourceHash": "98cdd654ca8ff3b0cbb3495ac8aebbe0f725560a904b4757744d5529e91e9132",
+      "text": "A 2-Coin attack that rolls up to 13 and inflicts Rupture. Use a stronger skill than for the weak Sloth attacks, and protect low-HP allies carrying Rupture."
+    },
+    "skills.3.name": {
+      "sourceHash": "409150708bb94a8f1d59e4a69ad994751e066cc70a50f885c5adf06c5a0bac95",
+      "text": "Sorrowful Recoil"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.3.response": {
+      "sourceHash": "98cdd654ca8ff3b0cbb3495ac8aebbe0f725560a904b4757744d5529e91e9132",
+      "text": "A 2-Coin attack that rolls up to 13 and inflicts Rupture. Use a stronger skill than for the weak Sloth attacks, and protect low-HP allies carrying Rupture."
+    },
+    "skills.4.name": {
+      "sourceHash": "8d608048d9f5443c752f33a266c9820785d276f0a22d2dacca5002069102feae",
+      "text": "Sorrowful Torrent"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "4684329cb18f021311ab3a28b7c4413202d7f9b80322fc86947b638e5efddcef",
+      "text": "[Heads Hit] Inflict 2 Rupture."
+    },
+    "skills.4.response": {
+      "sourceHash": "51548a968efffc584aba8ec2cd8ea2667e66020e40eb97d69448aaecd37ad9d8",
+      "text": "Rolls up to 14 and adds Rupture. Landing on Sinners whose Rupture Count was raised by umbrellas prolongs extra damage, so win with a strong skill."
+    },
+    "skills.5.name": {
+      "sourceHash": "8d608048d9f5443c752f33a266c9820785d276f0a22d2dacca5002069102feae",
+      "text": "Sorrowful Torrent"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "4684329cb18f021311ab3a28b7c4413202d7f9b80322fc86947b638e5efddcef",
+      "text": "[Heads Hit] Inflict 2 Rupture."
+    },
+    "skills.5.response": {
+      "sourceHash": "51548a968efffc584aba8ec2cd8ea2667e66020e40eb97d69448aaecd37ad9d8",
+      "text": "Rolls up to 14 and adds Rupture. Landing on Sinners whose Rupture Count was raised by umbrellas prolongs extra damage, so win with a strong skill."
+    },
+    "skills.6.name": {
+      "sourceHash": "b44c422ba7fd75d9179d6a7a14eac081337c99b675d173b4677f754f36fc939c",
+      "text": "Cries Seeking Something"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "28b02009de855f27dadcf462a880edbea3bd4d23d5a0150727ea01043a4b6535",
+      "text": "[On Use] Summon Old Umbrellas next turn."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "be8288afc1a045c611e56ef23b0228ba081bc015703bee05bf8cc05a288e641b",
+      "text": "Ⅰ[On Hit] Inflict 5 Sinking."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "4346cbc132c26974852eb1770364752813546ed9e7cadf273c6eca763d47cdc1",
+      "text": "[Heads Hit] Deal +15% damage per Old Umbrella."
+    },
+    "skills.6.response": {
+      "sourceHash": "0d2e18b4068adab20f3e3991c4d374d9dae0c3536c2718f302b5cc7402245d81",
+      "text": "5 Attack Weight and a maximum roll of 20. Stop it with a powerful E.G.O. Heads Hit damage also increases with the number of Old Umbrellas. Winning the Clash does not cancel the next-turn summon scheduled [On Use]."
+    },
+    "skills.7.name": {
+      "sourceHash": "ea404501362bed57947baa8e78461c1ce668068b4898f21bed7e11ff4258bf1f",
+      "text": "Waiting"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "afbad6ccdd88e75945b2634b86d99cbd6c8868a812a5af6aa721a90422c583d1",
+      "text": "[Combat Start] Reduce all enemies' SP by 20."
+    },
+    "skills.7.response": {
+      "sourceHash": "14002b763ea056672c2eab6e7eac72fc55cc56e630476e4d0042a946d4c22627",
+      "text": "Reduces all Sinners' SP by 20 at Combat Start. Offsetting the Defense Skill does not cancel this effect. Prepare recovery and check the predictions afterward."
+    },
+    "skills.8.name": {
+      "sourceHash": "ea404501362bed57947baa8e78461c1ce668068b4898f21bed7e11ff4258bf1f",
+      "text": "Waiting"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "afbad6ccdd88e75945b2634b86d99cbd6c8868a812a5af6aa721a90422c583d1",
+      "text": "[Combat Start] Reduce all enemies' SP by 20."
+    },
+    "skills.8.response": {
+      "sourceHash": "14002b763ea056672c2eab6e7eac72fc55cc56e630476e4d0042a946d4c22627",
+      "text": "Reduces all Sinners' SP by 20 at Combat Start. Offsetting the Defense Skill does not cancel this effect. Prepare recovery and check the predictions afterward."
+    },
+    "skills.9.name": {
+      "sourceHash": "660cfcd5622de4d372c6d1e7639864822ec8c8ce18aaabd8fd8b162192345d26",
+      "text": "Scattering Sorrow"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "bc716aa81cb11cefc8a28c43b10dd068c733e73060fd648468f9bb2687022c3b",
+      "text": "[After Attack] Increase all enemies' Rupture Count and Sinking Count by 2."
+    },
+    "skills.9.response": {
+      "sourceHash": "7149d2d00cecc7443e5be6ddf8f08d046b01e53bae5c76ca7ac5e2f780499c4b",
+      "text": "Old Umbrella's attack is weak, but increases all Sinners' Rupture and Sinking Count by 2 after attacking. Winning the Clash does not cancel the [After Attack] effect; Stagger or defeat it before it acts."
+    },
+    "passives.0.name": {
+      "sourceHash": "9035fe4da3351c5c930afc7f909a7c9d72c6f24cb8427da1909bfe6f094b21a1",
+      "text": "Last Struggle"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c54bd0ad9d7cb131b56ae027d5153672de86cbc750c41a38bd983a99e106f837",
+      "text": "At 15% remaining HP, Speed is fixed at 1 every turn and gain 1 Attack Power Down. Newly summoned Old Umbrellas have 30% more HP. Use Cries Seeking Something every turn."
+    },
+    "passives.0.condition": {
+      "sourceHash": "3a6ab5ca4aa1335a450da566ba022cff60e45e65999dc20cf38487ffb1200dd6",
+      "text": "Overall HP at 15% or less"
+    },
+    "passives.0.response": {
+      "sourceHash": "fa8adf9370eced59b9eb6c00d0b7521a5da386dfe09192f387ef306b3effcd3b",
+      "text": "Speed falls to 1, but area attacks and subsequent umbrella summons continue every turn. Finish the Fox rather than spending the end of the fight chasing umbrellas."
+    },
+    "passives.1.name": {
+      "sourceHash": "6017c31c753f2745ad628ea5e150edfa05e1c766399be9d33c186399c628cdfc",
+      "text": "Broken Umbrella"
+    },
+    "passives.1.effect": {
+      "sourceHash": "5213986face76c0e223a547452fbc3d5bd3bc74c5a272dc73edf10a27cc856f7",
+      "text": "When the Back Part is broken, gain 3 Fragile every turn and inflict 2 additional Rupture."
+    },
+    "passives.1.condition": {
+      "sourceHash": "91e10723d58cfd3549b41b88980f63ce68f2975307fd35039c1f52fb5625c54b",
+      "text": "Body broken"
+    },
+    "passives.1.response": {
+      "sourceHash": "4a94e0e63b7476a17f904de3a07ca401bb9b885707b1f6b4f81abe891b0846a6",
+      "text": "Applies 3 Fragile to the Fox every turn, making it easier to damage. The Part remains targetable after breaking, so focus your remaining attacks."
+    },
+    "passives.2.name": {
+      "sourceHash": "e029e8e466d98946022c58c24652c34f1f6f253f1f48a45bac03362567c7ca20",
+      "text": "Ragged Umbrella"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c78851e4740a9690e8ee1de4c2bed40dec84d37cfea1c2b79cb5fb11e9c26c7d",
+      "text": "When the Head's Umbrella Part is broken, gain 5 Offense Level Down every turn and inflict 2 additional Sinking."
+    },
+    "passives.2.condition": {
+      "sourceHash": "dfd4dd5d1bc3d66bd25a900e9f838576f50d472a2d5a34dd85871699b73cdfc7",
+      "text": "Head broken"
+    },
+    "passives.2.response": {
+      "sourceHash": "be85d9a055228fe7de52810f1a1ec0be89944340269c4158d01059e666f015b3",
+      "text": "The 5 Offense Level Down each turn makes later Clashes easier. It does not remove the Head's actions."
+    },
+    "passives.3.name": {
+      "sourceHash": "570c99bfa032afd508fffaffc71096cdc06155dfdfb66e38670899d5f465f91b",
+      "text": "Old and Abandoned"
+    },
+    "passives.3.effect": {
+      "sourceHash": "e2edbe172ac8303b00cd470012b3b1ce531736986c521fbbdd4893f03e59ae16",
+      "text": "When defeated, the Sinner who defeated this unit gains 2 Haste next turn. Inflict 2 Bind and 1 Umbrella Splinters on all Parts of Drifting Fox."
+    },
+    "passives.3.condition": {
+      "sourceHash": "e43b5cd18a20ec204b5a2d8861b2b34840b93b81fbcd9a1a890043d024c88c1c",
+      "text": "Old Umbrella defeated"
+    },
+    "passives.3.response": {
+      "sourceHash": "0f84c9c91741a0458073c769fe6a586f46ba8c95d8c9e328f44e03ad24dca042",
+      "text": "The killer becomes faster next turn, while the Fox receives Bind and Umbrella Splinters. Use spare actions to defeat umbrellas and create more openings to attack the Fox."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "3cc92a516e0e1124f3271964b736325fefaa3e17f4ab773fdfedd5fbf61761c8",
+      "text": "Umbrella Splinters"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "105e2c2518f7edadc4ca7f8f56b0079131b45e3aa62a28448fd1eb51021dca75",
+      "text": "Applied to the Fox when an Old Umbrella is defeated. At Turn End, gain Rupture equal to the value × 5."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "a9b6cef7057394d03e77177798a349a92eae3d2eb7c9832823fed21feb4add1a",
+      "text": "Turn umbrella cleanup into extra damage on the Fox too. Do not apply Mirror Dungeon removal conditions here."
+    },
+    "warnings.0": {
+      "sourceHash": "77909e53e11e29a1aaeda4facb553a1821d88431eb75610048eb328216580a2b",
+      "text": "Waiting's -20 SP applies at Combat Start. Offsetting the Defense Skill alone cannot prevent it."
+    },
+    "warnings.1": {
+      "sourceHash": "53a3ef4e9e1fe9f51d6529299b4845fc2d535402b66c87d247aa6b13ec1aae6f",
+      "text": "Umbrella Count increases apply [After Attack]; the cry's summon applies [On Use]. Winning Clashes does not cancel all of either skill's effects."
+    },
+    "warnings.2": {
+      "sourceHash": "744e05eb42564792839f4c3656f9791bf6455d49296088cadd8d7600284fe8da",
+      "text": "The Head and Body can still act after breaking. A Part break does not permanently disable the area attack."
+    },
+    "warnings.3": {
+      "sourceHash": "d0b6a2a9ddd68933f9d94b3076adb0456867f99540a63478092c140ab3ee3407",
+      "text": "Luxcavation uses different conditions, including starting with 0 resources and SP. This page covers Canto IV dungeon preparation and the regular encounter's values."
+    },
+    "preparation.0": {
+      "sourceHash": "b1dd5a9bc390c4f628b59a583c84cb047219898ba175c1ea053550cf3fac5559",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Prepare SP recovery and an answer to the area attack's maximum roll of 20."
+    },
+    "preparation.1": {
+      "sourceHash": "ed4fb2626e088ad1591983ec25ad873bf14e0bab8cf02f8ce812c75d511fffe5",
+      "text": "Build around Slash for the Head or Pierce for the Body, with Gloom and Gluttony damage. Sloth or area attacks help with umbrellas."
+    },
+    "roles.0.name": {
+      "sourceHash": "4cd62ccb45e6c04f6961440d7705c4d26671b69ecab5b5abd98d4206bb66b546",
+      "text": "SP recovery"
+    },
+    "roles.0.reason": {
+      "sourceHash": "63a399facfd57846c39e7964f42e9016200d706642c14bdbd2ecf4ee19b375d1",
+      "text": "Recover from Sinking and Waiting's SP loss to stabilize subsequent Clashes."
+    },
+    "roles.1.name": {
+      "sourceHash": "044119c609eafea738a670c614b59ce793c25a0317a136ebefb93206bb66ac68",
+      "text": "Area-attack Clash specialist"
+    },
+    "roles.1.reason": {
+      "sourceHash": "5eb47b1ebe6e6fca09303532efe9eafdac5fe4c84406bac5b5e97b94f1cd71cf",
+      "text": "Stop Cries Seeking Something's maximum roll of 20, which is difficult for ordinary skills to beat."
+    },
+    "roles.2.name": {
+      "sourceHash": "06bc376c942dc2b78cdb4e43334b80dcb2e2b726ff63e3960b3b47da10de7717",
+      "text": "Part and umbrella damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "5781f71342b616bf5325499399121b005506fa2f8666a782e83f4499c41bf5f1",
+      "text": "Reduce umbrella actions, then use Part-break debuffs to finish the Fox."
+    }
+  },
+  "messages": {
+    "boss-copy:wayward-fox": "complete",
+    "【リンバス】4-54 さすらいの狐（4章）の攻略｜Limbus Assistant": "4-54 Drifting Fox (Canto IV) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-54「さすらいの狐（4章）」の攻略。傘に気を取られて精神力を削られ続けないよう、弱い攻撃で精神力を稼ぎ、強い攻撃は狐へ。広域と精神力低下へ備え、部位を壊して本体を削り切ろう。": "Drifting Fox (Canto IV) guide for Limbus Company 4-54. Build SP by winning against weaker attacks, and direct strong attacks at the Fox rather than spending the whole fight chasing umbrellas. Prepare for area attacks and SP loss, break Parts, and finish the Fox.",
+    "4-54 さすらいの狐（4章）": "4-54 Drifting Fox (Canto IV)",
+    "4-54「The League of Nine in Memory, Floor 2」": "4-54 · The League of Nine in Memory, Floor 2",
+    "さすらいの狐（頭）の外見": "Drifting Fox (Head) appearance",
+    "さすらいの狐（頭）のスキル": "Drifting Fox (Head) skills",
+    "Drifting Fox (Head)の外見": "Drifting Fox (Head) appearance",
+    "Drifting Fox (Head)のスキル": "Drifting Fox (Head) skills",
+    "さすらいの狐（胴体）の外見": "Drifting Fox (Body) appearance",
+    "さすらいの狐（胴体）のスキル": "Drifting Fox (Body) skills",
+    "Drifting Fox (Body)の外見": "Drifting Fox (Body) appearance",
+    "Drifting Fox (Body)のスキル": "Drifting Fox (Body) skills",
+    "古傘の外見": "Old Umbrella appearance",
+    "古傘のスキル": "Old Umbrella skills",
+    "Old Umbrellaの外見": "Old Umbrella appearance",
+    "Old Umbrellaのスキル": "Old Umbrella skills"
+  }
+}

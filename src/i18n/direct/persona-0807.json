@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0807.md",
+  "code": "0807",
+  "messages": {
+    "沈潜の威力と回数を両方とも大量に入れる、沈潜編成の中核となる貫通人格。守備「迅速歩法」の高い基本威力の回避で、精神力が低い序盤から攻撃をしのげる。": "A core Pierce Identity for Sinking teams that applies large amounts of both Sinking Potency and Count. Defense's Nimble Steps has high Base Power, helping her evade even at low SP early in battle.",
+    "沈潜の大量付与: S1「破砕準備」はⅡコインで沈潜回数+2、S2「炸裂」はⅡコインで沈潜6、S3「過激な判断」はⅠで沈潜回数+5、Ⅱ・Ⅲで沈潜3ずつ。S3は対象の沈潜6以上でダメージ量+20%/40%。": "**Mass Sinking infliction**: S1 Ready to Crush adds +2 Sinking Count with Coin Ⅱ, S2 Explosive Blast inflicts 6 Sinking with Coin Ⅱ, and S3 Risky Judgement adds +5 Sinking Count with Coin Ⅰ and 3 Sinking each with Coins Ⅱ and Ⅲ. S3 deals +20%/40% damage if the target has at least 6 Sinking.",
+    "バトルパッシブ「クラップ破砕」(傲慢×3・保有・同期化Ⅱで取得): 振動がある対象に攻撃が的中するたび、沈潜回数が1増える。振動を持つ敵を殴り続けるほど、全スキルの沈潜回数の付与量が実質的に増える(S2のⅠコインも対象の振動回数を2/3増やすが、振動回数だけで条件を満たすかはデータからは判断できない)。": "**Combat passive — Crushin' Crabs (3 Pride Owned; unlocked at Uptie Ⅱ)**: Each time an attack hits a target with Tremor, Sinking Count increases by 1. The more she keeps hitting enemies with Tremor, the more Sinking Count all of her skills effectively inflict (Coin Ⅰ of S2 also increases the target's Tremor Count by 2/3, but whether Tremor Count alone meets the condition cannot be determined from the data).",
+    "自分の振動回数: S1は使用時と的中時に3ずつ、S2は的中時に2増える。S2・S3は自分の振動回数5以上でコイン威力が上がる(S3は5につき+1、最大2)。": "**Her own Tremor Count**: S1 adds 3 on use and 3 on hit, and S2 adds 2 on hit. S2 and S3 gain Coin Power with 5 or more of her own Tremor Count (S3: +1 per 5, up to 2).",
+    "守備「迅速歩法」: マッチ威力10~14の回避。使用時に破裂保護2を得る(1ターン最大6)。": "**Defense skill — Nimble Steps**: An Evade with Clash Power 10–14. Grants 2 Rupture Protection on use, up to 6 per turn.",
+    "S3の脆弱(おまけ): Ⅱ・Ⅲコインで自分の振動回数を5ずつ消耗し、次のターンに脆弱1・2を付与する。": "**S3's Fragile (minor)**: Coins Ⅱ and Ⅲ each spend 5 of her own Tremor Count to inflict 1 and 2 Fragile next turn.",
+    "沈潜を扱う味方と組み、S2・S3で沈潜の威力と回数を積み上げる。S1を当てると自分の振動回数が貯まり、次のターンのS2・S3の強化につながる。S1は威力が低いので、一方攻撃で使って攻撃の起点にするのがよい。ただ、S1の威力は低いので、無理にマッチさせずS2・S3を回すだけでも沈潜は十分に入る。不利なマッチや精神力が低い序盤は迅速歩法で回避する。S3の脆弱は、振動回数が余ったときのおまけと考える。": "Pair her with allies who use Sinking, and stack Sinking Potency and Count with S2 and S3. Landing S1 builds her own Tremor Count, powering up S2 and S3 the next turn. S1 has low power, so it works well as a one-sided attack to start things off. That said, given S1's low power, simply cycling S2 and S3 without forcing Clashes inflicts plenty of Sinking. Evade with Nimble Steps in unfavorable Clashes or early on when SP is low. Treat S3's Fragile as a bonus when she has Tremor Count to spare."
+  }
+}

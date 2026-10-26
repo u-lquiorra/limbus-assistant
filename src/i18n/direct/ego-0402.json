@@ -1,0 +1,22 @@
+{
+  "sourceGuide": "src/data/guides/ego/0402.md",
+  "code": "0402",
+  "messages": {
+    "火傷を溜めた敵ほどダメージが伸びる、攻撃加重値3の斬撃広域で、4つ目のスキルを強化するパッシブで継続的にも火力を出す(解析Ⅴ前提)。": "A 3-Attack-Weight multi-target Slash E.G.O whose damage grows against enemies with more Burn, and whose passive, which boosts her fourth skill, keeps providing damage afterward (assumes Threadspin Ⅴ).",
+    "火傷によるダメージ増加: 攻撃対象に火傷があれば威力+2。全攻撃対象の火傷の合計1につきダメージ量+5%(最大100%)。マッチ威力は解析Ⅲ以降で21~37と、資源6個にしては高い。": "**Damage from Burn**: +2 Power if a target has Burn. +5% damage per 1 total Burn on all targets, up to 100%. Its Clash Power is 21–37 from Threadspin Ⅲ, high for 6 resources.",
+    "火傷付与と憤怒ダメージ: 的中時に火傷4を付与し、対象の火傷威力に応じて憤怒ダメージも加わる(最終ダメージ量の火傷威力×2%、最大20%)。": "**Burn and Wrath damage**: Inflicts 4 Burn on hit and adds Wrath damage based on the target's Burn Potency (Burn Potency×2% of final damage, up to 20%).",
+    "敵討伐の見返り: 敵を倒すと次のターンに攻撃威力増加2を得る。広域で複数体を倒せば、その分だけ積み上がると考えられる。": "**Reward for defeating enemies**: Defeating an enemy grants 2 Attack Power Up next turn. Defeating several with the multi-target attack likely stacks it accordingly.",
+    "パッシブ「四本目のマッチの火」: 4つ目に使用するスキルの最終威力+4と的中ごとの火傷4。そのスキルが憤怒なら全対象の火傷威力に応じたダメージ増、E.G.Oスキルなら最初のコイントス時に精神力が回復する(加算コインの場合)。": "**Passive — 4th Match Flame**: The fourth skill she uses gains +4 Final Power and 4 Burn per hit. If that skill is Wrath, it gains damage based on the Burn Potency of all targets, and if it is an E.G.O skill, it restores SP on the first Coin toss (for Plus Coins).",
+    "侵蝕スキル: 覚醒より高威力の破壊不能コインで、減算型。敵を倒せないと火傷10を自分が受けるので扱いは重い。": "**Corrosion skill**: A Minus Coin skill with Unbreakable Coins and higher power than Awakening. If it fails to defeat an enemy, she takes 10 Burn herself, so it is heavy to handle.",
+    "火傷を溜めた複数の敵に撃つ。広域なので通常戦闘でも単体ボスでも使える。": "Use it on multiple enemies with built-up Burn. Being multi-target, it works in both regular battles and against single bosses.",
+    "使用後にパッシブが有効になるので、早めに一度撃っておく。": "The passive becomes active after use, so fire it once early.",
+    "スロット増加などで1ターンに動く回数が多いほど、4つ目のスキルを作りやすい。": "The more actions she takes per turn, such as with extra slots, the easier it is to line up a fourth skill.",
+    "4つ目に憤怒のE.G.O(三千大世界など)を当てると、パッシブの効果が重なる。": "Landing a Wrath E.G.O (such as Great Trichiliocosm) as the fourth skill stacks the passive's effects.",
+    "Ⅱ: 「四本目のマッチの火」が解放される。": "**Ⅱ**: Unlocks 4th Match Flame.",
+    "Ⅲ: 基本威力が上がり、討伐時の攻撃威力増加も2に強化される。": "**Ⅲ**: Raises Base Power and strengthens the Attack Power Up on kills to 2.",
+    "Ⅳ: 攻撃加重値が3になり、火傷に応じたダメージ増加が付く。多用するなら目標の段階。": "**Ⅳ**: Attack Weight becomes 3, and the Burn-based damage increase is added. This is the target level if you use it often.",
+    "Ⅴ: ダメージ増加の判定が全攻撃対象の火傷合計になり、憤怒ダメージが加わる。パッシブは憤怒スキルとE.G.Oスキルへの追加効果を得て、侵蝕スキルは破壊不能コインになる。": "**Ⅴ**: The damage increase checks the total Burn on all targets, and Wrath damage is added. The passive gains extra effects for Wrath skills and E.G.O skills, and the Corrosion skill gains Unbreakable Coins.",
+    "蜘蛛の巣の刀: 火傷・出血を付与するスキルを持ち、S2(傲慢)とS3(憤怒)で必要資源を出せる。味方の死亡でスロットが増えるなど行動回数を増やせるので、パッシブも回しやすいと考えられる。": "**[Blade of the House of Spiders](persona:0415)**: Has skills that inflict Burn and Bleed, and S2 (Pride) and S3 (Wrath) supply the required affinities. She can increase her number of actions, for example by gaining slots when allies die, so the passive is likely easy to cycle.",
+    "南部リウ協会4課: 全スキルが火傷を付与し、憤怒のS2・ガードで必要資源の憤怒も出せる。": "**[Liu Assoc. South Section 4](persona:0407)**: All of her skills inflict Burn, and her Wrath S2 and Guard supply the required Wrath."
+  }
+}

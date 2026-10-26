@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0609.md",
+  "code": "0609",
+  "messages": {
+    "S1・S2で自分の振動回数を10以上貯め、S3「犯人はあなたですね！」で振動-反響への絡縺と振動爆発3回を叩き込む、振動編成の仕上げ役。": "A Tremor team's finisher: build at least 10 of his own Tremor Count through S1 and S2, then use S3 You're the Culprit! to Entangle Tremor - Reverb and trigger Tremor Burst 3 times.",
+    "S3の消耗段階: 使用時に自分の振動回数を10消耗してコイン威力が上がる(同期化段階が高いと、15以上なら15消耗してさらに上がる)。消耗すればⅠコインで振動-反響へ振幅絡縺させ、Ⅱ・Ⅲ・Ⅳコインで計3回振動爆発する。10以上を消耗しないとⅢコインの振動爆発は起きない(Ⅳコインの条件は同期化段階で異なる)。": "**S3's spending tiers**: On use, spends 10 of his own Tremor Count to gain Coin Power (at higher Uptie, at 15 or more it spends 15 for even more). If spent, Coin Ⅰ performs Amplitude Entanglement into Tremor - Reverb, and Coins Ⅱ, Ⅲ, and Ⅳ trigger Tremor Burst 3 times in total. Without spending 10 or more, Coin Ⅲ's Tremor Burst does not occur (Coin Ⅳ's condition differs by Uptie).",
+    "振動-反響: 振動爆発時に振動威力の分だけ怠惰ダメージを与える。S3の振動爆発と組み合わさって火力になる。": "**Tremor - Reverb**: On Tremor Burst, deals Sloth damage equal to Tremor Potency. Combined with S3's Tremor Bursts, it becomes a damage source.",
+    "自分の振動回数の獲得: S1「推理開始」・S2「変形杖護身術」の使用時と的中時に増え、一定以上でS1・S2のコイン威力も上がる。": "**Gaining his own Tremor Count**: Increases on use and on hit of S1 Deduction Start and S2 Morph Cane Technique, and above certain amounts, S1 and S2 also gain Coin Power.",
+    "敵の振動回数は増やせない: どのスキルにも対象の振動回数を増やす効果はなく、S2・S3の振動爆発はむしろ回数を1減らす。回数は味方に付与してもらう必要がある。": "**He cannot increase the enemy's Tremor Count**: None of his skills increase the target's Tremor Count, and S2's and S3's Tremor Bursts actually reduce it by 1. Allies need to inflict the Count.",
+    "バトルパッシブ「振動癒着変形戦闘杖(未認可発明品)」(怠惰×6・保有・同期化Ⅱで取得): そのターンに自分が振動爆発させた回数だけ、次のターンにダメージ量増加(最大3)。": "**Combat passive — Vibroweld Morph-combat Cane (Unauthorized Invention) (6 Sloth Owned; unlocked at Uptie Ⅱ)**: Grants Damage Up next turn equal to the number of Tremor Bursts he triggered that turn, up to 3.",
+    "自分への振動爆発: 振動回数を消耗できなかったとき(同期化段階が高いと、消耗が15未満のとき)、S3の最後に自分も振動爆発する。振動爆発は振動威力分の混乱区間前進なので、自分に振動が無ければ影響は小さいと考えられる。": "**Tremor Burst on himself**: If he could not spend Tremor Count (at higher Uptie, if he spent less than 15), he also triggers Tremor Burst on himself at the end of S3. Tremor Burst shifts the Stagger Threshold by Tremor Potency, so if he has no Tremor himself, the impact is likely small.",
+    "敵の振動回数を増やせる味方と組み、S1・S2で自分の振動回数を貯める。回数が10以上になったらS3で振動-反響に絡縺させ、3回の振動爆発で混乱区間と怠惰ダメージを稼ぐ。S2自体も威力が高いので、振動が整うまではS2で殴りながら待つ。": "Pair him with allies who can increase the enemy's Tremor Count, and build his own Tremor Count with S1 and S2. Once it reaches 10 or more, use S3 to entangle into Tremor - Reverb and gain Stagger Threshold shift and Sloth damage from 3 Tremor Bursts. S2 itself also has high power, so attack with S2 while waiting for Tremor to be ready."
+  }
+}

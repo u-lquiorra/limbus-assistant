@@ -8,6 +8,8 @@ import { egoFilterPath } from "../egoFilter";
 import { SIN_COLORS, SIN_ORDER, sinTextColor } from "../sinColors";
 import PersonaCard from "../components/PersonaCard";
 import EgoCard from "../components/EgoCard";
+import { searchableText } from "../i18n/text";
+import { normalizeSearchText } from "../search";
 import { AttackTypeIcon, SearchBox } from "../components/ui";
 
 function toggle<T>(set: Set<T>, value: T): Set<T> {
@@ -36,9 +38,9 @@ function CharacterDetail({ name }: { name?: string }) {
 
   const filtered = useMemo(() => {
     if (!character) return [];
-    const q = query.trim().toLowerCase();
+    const q = normalizeSearchText(query.trim());
     return character.statuses.filter((s) => {
-      if (q && ![s.name, s.affiliation?.name ?? "", s.code].some((v) => v.toLowerCase().includes(q))) return false;
+      if (q && ![s.name, s.affiliation?.name ?? "", s.code].some((v) => normalizeSearchText(searchableText(v)).includes(q))) return false;
       if (sinFilter.size) {
         const sins = personaSins(skillsByCode.get(s.code));
         if (![...sinFilter].every((f) => sins.includes(f))) return false;

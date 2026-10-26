@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1213.md",
+  "code": "1213",
+  "messages": {
+    "出血・振動と「傷」を重ね、弱った敵に処刑技「メルチェ」でとどめを刺す人格。": "An Identity that stacks Bleed, Tremor, and Open Wound, then finishes weakened enemies with the execution skill Mercé.",
+    "傷: S1「隙を突く」・S2「スティレット・ドッピオ」・S3「エクセキューション」で付与(最大2)。ターン終了時に次のターンの束縛1を与え、2になると深い傷に変わる。": "**Open Wound**: Inflicted by S1 Gap Attack, S2 Stiletto Doppio, and S3 Execution (up to 2). At Turn End, it inflicts 1 Bind for the next turn, and at 2 it turns into Deep Wound.",
+    "「夜の錐」: 対象に深い傷があるとS3がこれに変わる(1ターン1回)。全コイン破壊不能、防御レベル減少5を付与、敵の失った体力に応じてダメージ量が上がる。最後のコインで、次のターンに深い傷を致命的な傷に変える。": "**The Night's Awl**: S3 turns into this when the target has Deep Wound (once per turn). All Coins are Unbreakable, it inflicts 5 Defense Level Down, and damage rises with the HP the enemy has lost. Its last Coin turns Deep Wound into Fatal Wound next turn.",
+    "「メルチェ」: S2は敵(本体)の体力が20%以下か対象に致命的な傷があるとき、エクセキューションはそれに加えて対象が混乱状態のときに発動する処刑技。敵の失った体力が多いほど強い(体力20%以下ならダメージ量+80/120%)。1ターン最大2回。": "**Mercé**: An execution technique that triggers from S2 when the enemy (main body) is at 20% HP or less or the target has Fatal Wound, and from Execution additionally when the target is staggered. The more HP the enemy has lost, the stronger it is (+80/120% damage at 20% HP or less). Up to 2 times per turn.",
+    "出血と振動: S1〜S3・守備は出血と振動の合計6以上で、夜の錐は合計4につきコイン威力が上がる。S2・S3はマッチ勝利時に振動爆発する。": "**Bleed and Tremor**: S1–S3 and his Defense skill gain Coin Power at 6 or more combined Bleed and Tremor, and The Night's Awl per 4 combined. S2 and S3 trigger Tremor Burst on Clash Win.",
+    "バトルパッシブ「ファミリーの粛清人」(怠惰×2・色欲×2・保有・同期化Ⅱで取得): 味方の攻撃後に敵の体力が20%以下なら、その敵に「メルチェ」を使う(1ターン1回)。自分より速度が低い敵に、速度差2につき守備威力減少1を付与。": "**Combat passive — Purge Enforcer of the Famiglie (2 Sloth and 2 Lust Owned; unlocked at Uptie Ⅱ)**: After an ally's attack, if an enemy is at 20% HP or less, he uses Mercé on that enemy (once per turn). Inflicts 1 Defense Power Down per 2 Speed difference on enemies slower than him.",
+    "S1・S2で傷と出血・振動を積み、深い傷になったら夜の錐で致命的な傷を入れる。体力の減った敵には味方の攻撃に合わせてメルチェで仕留める。": "Stack Open Wound, Bleed, and Tremor with S1 and S2, and once it becomes Deep Wound, inflict Fatal Wound with The Night's Awl. Finish weakened enemies with Mercé, timed with allies' attacks."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0408.md",
+  "code": "0408",
+  "messages": {
+    "呼吸を溜めてから撃つほど火力が跳ね上がる、傲慢斬撃の広域E.G.Oで、侵蝕では味方を倒して恩恵を得る。": "A multi-target Pride Slash E.G.O whose damage soars the more Poise she builds before using it; its Corrosion skill benefits from killing allies.",
+    "呼吸の置き換え強化: 攻撃前に呼吸と呼吸回数を得るが、呼吸が15以上なら呼吸の代わりに最終威力が、呼吸回数が5以上なら回数の代わりにコイン威力が上がる(最終威力は最大共鳴数、回数側は最大共鳴数の半分に応じる)。": "**Replacement bonuses from Poise**: Before attacking, she gains Poise and Poise Count, but at 15 or more Poise, Final Power rises instead of Poise, and at 5 or more Poise Count, Coin Power rises instead of Count (Final Power scales with the highest Resonance, and the Count side with half of it).",
+    "クリティカル強化: Ⅱコインは、呼吸威力と呼吸回数の合計に応じてクリティカルダメージ量が増える(解析Ⅲで最大20%、Ⅳで40%)。的中時には「深い吸気」も得る。": "**Critical bonus**: Coin Ⅱ gains Critical damage based on combined Poise Potency and Count, up to 20% at Threadspin Ⅲ and 40% at Ⅳ. It also grants Deep Inhale on hit.",
+    "討伐時: 対象を倒すと次のターンに深い吸気を得る。深い吸気はクリティカル時に呼吸威力を消耗してクリティカルダメージ量を上乗せする。": "**On kills**: Defeating a target grants Deep Inhale next turn. Deep Inhale spends Poise Potency on Critical Hits to add Critical damage.",
+    "侵蝕スキル: 体力が最も低い対象を、味方を優先して攻撃する。味方を含むとダメージ量+30%、味方を倒すと、解析Ⅲから精神力が回復する。": "**Corrosion skill**: Attacks the target with the lowest HP, prioritizing allies. +30% damage if allies are included, and from Threadspin Ⅲ, killing an ally restores SP.",
+    "パッシブ「息」: 使用の次のターン開始時にネブライザーβ1を得て、敵を倒せばその数、味方を倒せばその2倍が加わる(戦闘中蓄積、最大5)。傲慢完全共鳴のターンの戦闘開始時に、自分とランダムな味方が呼吸と呼吸回数を得る。": "**Passive — Breath**: At the start of the turn after use, she gains 1 Nebulizer β, plus 1 for each enemy defeated and 2 for each ally defeated (accumulates during battle, up to 5). At Combat Start on a turn with Pride Absolute Resonance, she and a random ally gain Poise and Poise Count.",
+    "呼吸を溜めた状態で、複数の敵に向けて撃つ。2ターン目以降が目安と考えられる。": "Fire it at multiple enemies once Poise has built up. Turn 2 or later is likely a good guideline.",
+    "共鳴を多く作るほど、強化が最大まで乗りやすい。": "The more Resonance you build, the more easily the bonuses reach their maximum.",
+    "侵蝕スキルは呼吸が15未満のとき自分の体力を消耗して呼吸を補う。味方を倒す性質上、特定の編成以外では扱いに注意。": "The Corrosion skill spends her own HP to make up Poise when it is below 15. Because it kills allies, handle it with care outside specific teams.",
+    "必要資源は憤怒1・色欲1・傲慢5で、傲慢に偏る。": "It requires 1 Wrath, 1 Lust, and 5 Pride, heavily skewed toward Pride.",
+    "Ⅱ: 「息」が解放される。": "**Ⅱ**: Unlocks Breath.",
+    "Ⅲ: 共鳴数による上限が6に、クリティカルダメージ増加と侵蝕スキルの呼吸付与が加わる。": "**Ⅲ**: The Resonance-based cap becomes 6, and the Critical damage increase and the Corrosion skill's Poise infliction are added.",
+    "Ⅳ: 基本威力が上がり、回数による強化の上限が3になり、クリティカルダメージ増加が最大40%になる。侵蝕スキルには資源が戻る効果が加わる。": "**Ⅳ**: Raises Base Power, raises the Count-based bonus cap to 3, and raises the Critical damage increase to up to 40%. The Corrosion skill gains an effect that returns resources.",
+    "エドガー家 チーフバトラー: S1(色欲)・S2(傲慢)・S3(憤怒)が必要資源と重なり、呼吸を溜めるスキルが多い。": "**[Edgar Family Chief Butler](persona:0408)**: S1 (Lust), S2 (Pride), and S3 (Wrath) match the required affinities, and she has many skills that build Poise.",
+    "蜘蛛の巣の刀: 色欲・傲慢・憤怒のスキルを持ち、呼吸を稼ぐスキルも多い。傲慢の資源を出せる。": "**[Blade of the House of Spiders](persona:0415)**: Has Lust, Pride, and Wrath skills and many skills that earn Poise. She supplies Pride resources."
+  }
+}

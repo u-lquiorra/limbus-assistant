@@ -1,0 +1,1070 @@
+{
+  "kind": "boss-copy",
+  "id": "controller",
+  "source": "src/data/bosses/controller.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "皺のついていない皮",
+          "en": "Uncreased Hide",
+          "file": "Bufs-a1c10p2.json",
+          "id": "B3FreshMob"
+        },
+        {
+          "ja": "制御不能",
+          "en": "Disabled Overseeing",
+          "file": "Bufs-a1c10p2.json",
+          "id": "OutOfControl_LowMorale"
+        },
+        {
+          "ja": "制御不能",
+          "en": "Disabled Overseeing",
+          "file": "Bufs-a1c10p2.json",
+          "id": "OutOfControl_Panic"
+        },
+        {
+          "ja": "タンナリー規則違反",
+          "en": "Tannery Rule Violation",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictDenied"
+        },
+        {
+          "ja": "規則の崩壊",
+          "en": "Rule Collapse",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictFailed"
+        },
+        {
+          "ja": "統制者",
+          "en": "The Overseer",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1488"
+        },
+        {
+          "ja": "なめされた罪人",
+          "en": "Tanned Prisoner",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1491"
+        },
+        {
+          "ja": "原罪的原皮調達",
+          "en": "Reaping Raw Hide: Original Sin Style",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148801"
+        },
+        {
+          "ja": "再なめし準備",
+          "en": "Retanning Preparation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148802"
+        },
+        {
+          "ja": "原罪革タンナリー フル稼働",
+          "en": "Tannery of the Original Sin: Full Operation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148803"
+        },
+        {
+          "ja": "タンナリー規則",
+          "en": "Rules of the Tannery",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148804"
+        },
+        {
+          "ja": "戦闘続行",
+          "en": "The Battle Continues",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148805"
+        },
+        {
+          "ja": "なめされた罪人",
+          "en": "Tanned Prisoner",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149101"
+        },
+        {
+          "ja": "戦闘続行",
+          "en": "The Battle Continues",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150604"
+        },
+        {
+          "ja": "皮剥ぎ",
+          "en": "Flaying",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148801"
+        },
+        {
+          "ja": "肉面除去",
+          "en": "Fleshing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148802"
+        },
+        {
+          "ja": "ブレイン・タンニング",
+          "en": "Brain Tanning",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148803"
+        },
+        {
+          "ja": "スプリッティング",
+          "en": "Splitting",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148804"
+        },
+        {
+          "ja": "マッシブ・スプリッティング",
+          "en": "Massive Splitting",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148805"
+        },
+        {
+          "ja": "原罪的脳油タンブリング",
+          "en": "Leather Tumbling in Brain Fat: Original Sin Style",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148806"
+        },
+        {
+          "ja": "パニッシング・バーニッシング・フィニッシング",
+          "en": "Punishing Burnishing Finishing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "148807"
+        },
+        {
+          "ja": "脳油撒き",
+          "en": "Brain Fat Spray",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149101"
+        },
+        {
+          "ja": "脳油塗り込み",
+          "en": "Brain Fat Buffing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149102"
+        },
+        {
+          "ja": "贖罪的エンボッシング",
+          "en": "Expiatory Embossing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "149103"
+        },
+        {
+          "ja": "規則：原皮損傷禁止",
+          "en": "Rule: Raw Hide Damage Prohibited",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictMob"
+        },
+        {
+          "ja": "規則：なめしの催促禁止",
+          "en": "Rule: Tanning Rush Prohibited",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictBoss"
+        },
+        {
+          "ja": "規則：攻撃的態度禁止",
+          "en": "Rule: Offensive Behavior Prohibited",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictTier1"
+        },
+        {
+          "ja": "規則：防御的態度禁止",
+          "en": "Rule: Defensive Behavior Prohibited",
+          "file": "Bufs-a1c10p2.json",
+          "id": "RestrictDef"
+        }
+      ],
+      "note": "Names follow paired Canto X part 2 records. Rule labels omit the common Rule prefix in headings; full labels and paired IDs remain in the name checks. Target-assignment checks, the E.G.O exception only for Offensive Behavior Prohibited, normal-only Splitting cancellation, starting versus maximum HP, and unconfirmed transition boundary are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "e9c591be4ce94710e4a1b89901e7391e47e04dce46e7ed8eacc1087607c0c9b3",
+      "text": "The Overseer (Canto X, Route B)"
+    },
+    "shortName": {
+      "sourceHash": "c367d8e99a6cfe3b9627094720355a13f39761a4b040f2963639c1ecac0f9676",
+      "text": "The Overseer"
+    },
+    "stageName": {
+      "sourceHash": "5c00aabdb87a6d7c0ac9194212aea5a88fcf5ec7154d4cfb8d71715dd59ae223",
+      "text": "Sisyphus Department Store B, B3F: Leather Room"
+    },
+    "lead": {
+      "sourceHash": "e8a114a4b27b8f851e4626967a440bc4544f5997076e112768eef54fbe44d3f8",
+      "text": "From Turn 2, obey the rules applied to three Sinners each turn. Eliminate Tanned Prisoners to weaken the body’s Unbreakable area attacks. Punishment is Unclashable and does not activate defense: plan targets and skill types first. Clear adds while damaging the body, and prepare for a forced turn end around half HP."
+    },
+    "statNote": {
+      "sourceHash": "88b9c56722937aa4d858282fb315022dc982b0c10129780dee61f8e131dc412c",
+      "text": "Covers the Route B, B3F encounter in Canto X. The body is Lv. 65 with 5,000 max HP, but starts at 4,500 HP and 45 SP. Base Defense Level is 70. Prisoners are Lv. 60 with 74 HP and base Defense Level 59. Base values exclude Rule Collapse and Defense Level loss from killing Prisoners. Yi Sang, Meursault, and Ishmael are required; up to 12 Sinners can deploy. Identity levels in this dungeon follow Customer Level, and Identities below Uptie III are raised to III; E.G.O Threadspin is unchanged. The exact transition boundary around 50% HP remains unconfirmed."
+    },
+    "skillNote": {
+      "sourceHash": "8fca1beddb360f86b974f7186c27f1f4fbb2d61825e583857c6969bf3d4ffab8",
+      "text": "Displayed Power excludes SP, Prisoner count, Rule Collapse, and start-of-combat buffs. Only normal Splitting's summon can be stopped with two assigned attacks; Massive Splitting has no such condition. Rule violations are checked at Combat Start based on assigned targets and equipped skills. After a violation, the follow-up comes at the end of that Sinner's attack."
+    },
+    "priorities.0": {
+      "sourceHash": "db916b3b0de2024acf9df9755d03331a8c25c5a0dea0381d10c7d3f76a01f9b8",
+      "text": "Each turn, check the restrictions on the three marked Sinners before equipping skills."
+    },
+    "priorities.1": {
+      "sourceHash": "2a6f196e1ed0141f5a3879598bedafe332c0f4a9d18a0d171bdb483d739a9467",
+      "text": "Kill Prisoners with Sinners who can obey their rules to limit the body's area damage and healing."
+    },
+    "priorities.2": {
+      "sourceHash": "79ef826e21492d3285d0e6e010f2951215531252bfdee3445bb88c8c50f559f3",
+      "text": "Win against the body's Fleshing and Leather Tumbling in Brain Fat: Original Sin Style for 80% reduction."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "5f85037c4bf1f0ed5ddfb4716eac6242bdd886658b10f880c41cac4b125548e9",
+      "text": "A powerful follow-up hit after my action"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "21ad97afe9fb533d86755cf9929cff02279e6919757dffdfdf0191ef28e125a4",
+      "text": "Violating a Tannery Rule triggers punishment at the end of that Sinner's attack. It is Unclashable and does not activate defense, so revise the actions of Sinners with rules. Distinguish the two targeting restrictions from the two restrictions on attack or defense."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "c229d8efe9f9a9b939e0853bd37165813e88e269121c7f9776d161f9870b8c2e",
+      "text": "Attacks are prohibited, but I need to clash"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "fb7cf848d831558bf3c3b39ea6b4c6412b9e6d20dbba05da47296fe111d68e40",
+      "text": "Offensive Behavior Prohibited exempts E.G.O. Defend, or clash with E.G.O if SP and resources allow. Do not extend this exemption to rules prohibiting attacks on the Overseer or Prisoners."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "ce3e4c5556afef25b43d680624ba35d38e4ba1fa4032aa1ee05b6dd280867e59",
+      "text": "Prisoners keep appearing after I kill them"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "ddce3bb97a19b17312faeb27e07356907d0dc76e55cc0517fd2a6b238031ecdd",
+      "text": "For normal Splitting, assigning at least two attacks with that slot as their main target stops its summoning effect. Use Sinners who can obey their rules. Massive Splitting summons up to four without that cancellation condition; eliminate the new Prisoners quickly."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "dfc5bf19a5922a62855df0048a736164762c5c97a7680172b5bb762773c153d9",
+      "text": "The whole team takes damage despite a clash win"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "bc2e06b32b54d385d3a5e12424a4e6204578eb4f3fc5b0308d248b48f605a6a7",
+      "text": "Fleshing and Tumbling have Unbreakable Coins and gain 10% damage per Prisoner. Winning gives 80% reduction, but the attacks remain. Kill Prisoners first if possible and prepare HP recovery. In the second half, Prisoner count also increases Tumbling's Final Power."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "53eda6ac9a08cbc9b3a118c259f53fd13dc8876982679dd43b6555c0df1610a2",
+      "text": "A wounded Prisoner disappeared and healed the body"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "2b13c5866f90d47ab94b2696aa3a39562c1b222cca7a2cb1b063ec33784e9222",
+      "text": "Brain Tanning consumes a low-HP ally on the enemy side. Killing the target first cancels the skill; finish Prisoners rather than chipping them down. Their Expiatory Embossing also heals the body On Hit."
+    },
+    "phases.0.timing": {
+      "sourceHash": "91060db9b8063d6013d7bf252bcd01a7a48d48511acb38d165d8dac083a11c6c",
+      "text": "Before the B3F battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "7d12cdaee8701ca0db043c5c76fd421ab4154b3ac4797be407d0aa5d6c8897a4",
+      "text": "Prepare Customer Lv. 65 and flexible actions for the rules"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "0ba64233ae92d9e178e8a4abe0ea8b6de9de6e3001fb501366d7ee828806dbdd",
+      "text": "Shop toward Customer Lv. 65 and Diamond rank. Both are reachable before B3F, so check unpurchased shops. Check Customer Rank separately from Identity levels outside the dungeon."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "1b5047349432b0eb0c94d9d24900d087b029a0b1c1eb475e413b604ffa2e72fe",
+      "text": "Yi Sang, Meursault, and Ishmael are required. Bring Identities with usable defense for turns when attacks are prohibited. Save E.G.O resources, SP, and HP recovery for Unbreakable area damage."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "3851320164c2877ec5230f206821e69a35e0f39960ab157a81c432bba71b41dc",
+      "text": "Blunt 1.5, Envy 1.25, and Sloth 1.2 are favorable. Use Pwie's Bleed application to maintain damage on the body while eliminating Prisoners promptly."
+    },
+    "phases.1.timing": {
+      "sourceHash": "19815c86a46da849c9eb1a39cef12e5c33121d9e1290ca6b7d70fa0e52295051",
+      "text": "Turn 2 onward, before skill selection"
+    },
+    "phases.1.title": {
+      "sourceHash": "d3be1fd38fe0aa03b7eaddccff3d083dc1762a9dbfa450113be076fc99045815",
+      "text": "Assign actions according to the four prohibitions"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "1b93bc9b8b9ae7ba4c536f6313e5a558504c663d858b7e8550ba58f835df63a1",
+      "text": "First identify the three Sinners with rules. Raw Hide Damage Prohibited means no attacks targeting Prisoners: attack the body or defend. Tanning Rush Prohibited means no attacks on the body: attack Prisoners or defend."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "7a3c49b5096dee104d022d768ec0f929585e649a2923df373513b9ede4bd2300",
+      "text": "With Offensive Behavior Prohibited, do not equip a normal attack; defend instead. E.G.O is exempt from this rule, so it can be used to clash if resources and SP allow."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "b5a483729a07f9cd4051098d62c5602bbc4235e6b4c64957515eb187cdf7a1cc",
+      "text": "With Defensive Behavior Prohibited, do not equip defense. Pick a legal attack target and clash. E.G.O is exempt from Offensive Behavior Prohibited, not automatically from targeting restrictions."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "72843e4b724436f3706af6e58751333b9ae416ce8cec32b0b3f05ac903bcf6de",
+      "text": "Checks occur at Combat Start based on assigned targets and equipped skills. Do not confuse an automatic follow-up or defensive assist activating with manually equipping that skill. Rules are reapplied each turn; do not blindly repeat the previous turn's actions."
+    },
+    "phases.2.timing": {
+      "sourceHash": "749718575b7eb767ac58af75f1dcbca621f6a0eabf0690b8964ef4e295ce8494",
+      "text": "First half: summoning and consuming allies"
+    },
+    "phases.2.title": {
+      "sourceHash": "c32d3d49da4072b273ac8437a8fe1866f111cae6c4e2324ca006b4192002f693",
+      "text": "Finish Prisoners and stop the summons you can"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "ba270d8fc508b4a65931b970791f321fcde95fa492dfd412841e1e8180253739",
+      "text": "Prisoners have 74 HP, but Uncreased Hide gives them 20 Shield and 2 Protection after summoning. Focus attacks from Sinners who can obey their rules, using Blunt or favorable sin affinities to finish them."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "0d1cdcb78704787daff791cea4258e8194b18015170f9558ab42fc11b8862568",
+      "text": "Each surviving Prisoner increases Fleshing and Tumbling damage by 10%. Their Turn End survivor count also grants DMG Up next turn. Each death lowers the body's Defense Level by 1 for the battle, giving another reason to kill them."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "decbd2aa10aa746271be54ce47fb62e624baf0e4c9e44f5f295f1192c3dfec69",
+      "text": "When normal Splitting appears, assign at least two Attack Skills with that exact slot as their main target to stop its Turn End summoning effect. Use Sinners who will not violate rules, and ensure both attacks target the same slot."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "d30465a737c55e7a365185750d64b4115741777b26e6f77d56457a6b336a306a",
+      "text": "Massive Splitting summons up to four and has no equivalent two-attack cancellation condition. Prisoners cannot exceed six alive. If the consumption skill appears, kill its low-HP Prisoner target first to prevent the Overseer's healing and buffs."
+    },
+    "phases.3.timing": {
+      "sourceHash": "11d9178f1fa96839b1b3967a8b7cc0ee8e2dc171e6f53f0b9c0c9cb8877286ae",
+      "text": "The body's Unbreakable attacks"
+    },
+    "phases.3.title": {
+      "sourceHash": "19ba3adb3f80c1e8e4c87114cd4d9d59a59e9b7f553a2f1915dc446cfda247bf",
+      "text": "Reduce Prisoner numbers, then win strong clashes for mitigation"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "e88906409faaa9856fff7b1c496629fb75ca3d0cb411b951e7655d081dc07c96",
+      "text": "Fleshing has three Unbreakable Coins; Tumbling has three Unbreakable Coins and 7 Atk Weight. Winning either gives 80% damage reduction and prevents Stagger from that skill's damage."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "4419831ae8f4ca2ee3cfa6f1711bf42703d2eeefd93d0e2bdc83471a714b63ee",
+      "text": "Damage drops if fast Sinners kill Prisoners before the body clashes. Do not violate a rule to force that order; prioritize legal actions and winnable clashes."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "75288033396f2c1835deecc769fed7a6a7c00d75cdd23ce6275050581a117f49",
+      "text": "Tumbling grants 2 Attack Power Up to the enemy side at Combat Start. A clash win does not prevent this buff; check the other enemies' skills too."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "99661399d91bde2a1b306e80530f59b0555bb6cd83aba9a64aa5fa77136e59c0",
+      "text": "Bleed, Rupture, and Unbreakable damage remain after a clash win. Clash with Prisoners you cannot kill to prevent next-turn Power Down, Defense Level loss, and Paralyze."
+    },
+    "phases.4.timing": {
+      "sourceHash": "8a990d81f116ce97532082986286193a5dbf2513962ee6c138fe013ae69d44b4",
+      "text": "Body around 2,500 HP"
+    },
+    "phases.4.title": {
+      "sourceHash": "569362a3297563e9516e76b6802aa23a9994b0952f811deabcc57cc22ddb46a4",
+      "text": "Prepare for a forced turn end and Prisoner replenishment"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "a18e4455c419fa82d41deaad62238fe6bb726da57738636407911b1bcc0c1470",
+      "text": "Around half max HP, the turn forcibly ends and the second half begins. Do not assume queued healing or Prisoner cleanup will still resolve; heal early. The exact boundary check remains unconfirmed, so expect the transition around 2,500 HP."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "66c3ae55ef857fb42bb7663964962fa98867797611bce04b588a75ef65350a84",
+      "text": "At transition, Prisoners are replenished to six and the enemy side gains Rule Collapse. Attack Level +3 and Defense Level −3 make them easier to damage but strengthen incoming attacks."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "4b21056aa837d9f5186cd9ae91fd968f403a4dccf9ae7cf4445eafde91e05fdf",
+      "text": "In the second half, Leather Tumbling in Brain Fat: Original Sin Style gains +1 Final Power per Prisoner On Use while the body's HP is below 50%. Do not judge the clash by its base maximum of 18 with many Prisoners alive."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "d6765d4d2cbad4908fe7bdfe39a1fa1af5dd4134ab489a53c6484c52fee37b87",
+      "text": "First-half passives stop generating extra slots in the second half, but skill-based summons and prohibitions continue. Keep stopping Splitting and eliminating Prisoners while finishing the body with Blunt or Bleed."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "9ee881810fca9c2ddf680cc8a07eb58015cc3e7a46d65dec560395b4b0719dbb",
+      "text": "Raw Hide Damage Prohibited"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "b7ab2078f276c9d482fa3f8bc45753afe9fd1a2979a3c847e873137f5841703c",
+      "text": "If an Attack Skill targets a Tanned Prisoner at Combat Start, remove this rule and gain 1 Tannery Rule Violation. The rule also expires at Turn End."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "c11e1bffc98eeade7b0db2c582e0cc9778429436c3d25b98476313b1159d856a",
+      "text": "Attack the body or defend. Let other Sinners handle Prisoners."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "cb6156e57dbcc68eba27a6eb3d1c34111d2c4922236a67299cc10acfc0477359",
+      "text": "Tanning Rush Prohibited"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "33c12027411b5190abb8a4ad773bdefb21232067db39feaff590fcff71de6058",
+      "text": "If an Attack Skill targets the Overseer at Combat Start, remove this rule and gain 1 Tannery Rule Violation. The rule also expires at Turn End."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "2154efdda97a6d4b8d7854068b33b166e69b8a69d62b82415f1a8300bd76edae",
+      "text": "Attack Prisoners or defend. Let other Sinners handle the body's clashes."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "39fd63b41965d2e73d9682eb8a7f85ac68295d7be6613cdd1805388b998b0494",
+      "text": "Offensive Behavior Prohibited"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "7326e9a9e331d70186a8b7c7dbb31b399dbdd8ed55dad3b4397d0769f3346fba",
+      "text": "Equipping an Attack Skill at Combat Start gives 1 Tannery Rule Violation. E.G.O skills are exempt. This rule expires at Turn End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "e47339c6c291987eee0f2f65e27385b9b01eb94282eb8afe7c8ff41521afd268",
+      "text": "Defend, or use E.G.O after checking resources and SP."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "4ba1b9d22c33603b5235ba57c8c4255bef03489122388138778b47686a8fbb50",
+      "text": "Defensive Behavior Prohibited"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "a615394f25e8db4e23ece072585181950e1248f6707f986c9288425103e9e642",
+      "text": "Equipping a Defense Skill at Combat Start gives 1 Tannery Rule Violation. This rule expires at Turn End."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "fc56e6e44b99b27aaf31ddc45e4922a689e4aa58e62aa37374f344afaee49d35",
+      "text": "Do not equip defense; clash or attack a legal target."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "0d3bfee6bc693a6e3fd60b89636f9fdf6f1c854b27c47afb6a9f59b09cfcdfb8",
+      "text": "Tannery Rule Violation"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "339b9aef3ec1f6ca71fb78036bf6cdb98b233a529a13b48c255df62733d82d09",
+      "text": "Maximum 1. Take 30% more damage from the Overseer. At the end of the Sinner's attack, receive Punishing Burnishing Finishing, then remove this effect. The follow-up is Unclashable, does not activate defense, and triggers extra attacks from three Prisoners."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "85e4d3e17418368b738a187fcd4b99a14376f50a36b180650ba45f553f3d3da0",
+      "text": "Prevent violations through pre-combat skill assignments rather than planning to tank the punishment."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "9b6af57469e86e477e45a382c4be6e9649732a8060b766d1b0dabfa880576586",
+      "text": "Uncreased Hide"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "06bdab012b586112f9d8d1a4432454118b0176dc8443bd48eeb4c74f216a85b1",
+      "text": "Maximum 1. At Turn Start, gain 20 Shield and 2 Protection; expires at Turn End. Applied to Prisoners summoned by Splitting skills."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "1229d79779db9fa60727aaf07c2662b60b406827d73722cb61ff59afcd68ec04",
+      "text": "Do not estimate required damage from 74 HP alone. Include the Shield and Protection just after summoning and finish them."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "c64cf3ee1efe28d3040df1c30fd99786d663ba2da9d47cf99171dbcaa8c45319",
+      "text": "Rule Collapse"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "91e6f2b2a17556a35e9f40aa7f77e8f18438a133f688e98e1b7c4f962ad95ba1",
+      "text": "Attack Level +3 and Defense Level −3. The enemy side, including the Overseer, gains it at the second-half transition."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "b8dd787f3457b5d332a03b0a6091132ae09de1beef899cf6a93c3290274ff2b8",
+      "text": "Prepare for higher damage in the second half while continuing Prisoner cleanup and major clashes."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "e832c79e9603095507645dac77b14aef40006586665176e085ec7346593705c2",
+      "text": "Disabled Overseeing"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "3e516da9bc0a6526f16f84f255742501913f7df4998fc0877cabee1530c253fc",
+      "text": "At −20 SP or lower, Final Power +1 and inflict 1 Attack Power Down on other allies at Turn Start. At −45 SP or lower, also inflict 1 DMG Down. If Panicked at Turn End, SP returns to 30."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "27761116afadfdb967cb26abb0d0212e3cdc7e90c6b072d733617955bc62c245",
+      "text": "Low SP does not necessarily lower the body's Power. Plan clashes using predicted Power and Prisoner count."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "6ccbbec6326a5fabb8ed1977eca16014b15efc45789be74e8b038fefe63136e3",
+      "text": "Raised through department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "5f15dda18e164421a1d619b01d6f9595e6db8aeeaeac4db77214b3574bddc138",
+      "text": "Customer Lv. 65 and Diamond rank are reachable before B3F. Check unpurchased shops."
+    },
+    "warnings.0": {
+      "sourceHash": "4ebd925f5d1258800b66c814691fc21c0c21d16ac6c585fa550f6cd7bf80187b",
+      "text": "From Turn 2, three Sinners receive rules each turn. Distinguish restrictions on targets from restrictions on attack or defense."
+    },
+    "warnings.1": {
+      "sourceHash": "444ec3d9b154e73725d039f9778bc5976d83ff760e2e0f74b114a7b6a73db9ab",
+      "text": "E.G.O is exempt from Offensive Behavior Prohibited. Do not assume it is also exempt from prohibitions on targeting the Overseer or Prisoners."
+    },
+    "warnings.2": {
+      "sourceHash": "4b4427ef2bc8c7c9e639b7692de28ec23a4dd2b1987bb5d7fa89caace509f570",
+      "text": "The violation follow-up cannot be clashed with and does not activate defense. Check assigned actions before receiving it after your attack."
+    },
+    "warnings.3": {
+      "sourceHash": "76ef39ecfc342d9e280c4ae60d938a29394e21fb5940d6492f56848b31ddfb2b",
+      "text": "Normal Splitting's summon is stopped by at least two attacks with the same slot as their main target. This does not apply to Massive Splitting."
+    },
+    "warnings.4": {
+      "sourceHash": "789ecd98e1402c32513403dd1a07bbcaafe5829f61c573cbed657e35d37df6e7",
+      "text": "The body has 5,000 max HP and starts at 4,500. Expect a forced turn end and Prisoner replenishment around 2,500 HP."
+    },
+    "warnings.5": {
+      "sourceHash": "87bfa2e00d2db645efe09621c62f2c914f7171469dff1530ec97f7ecee228b27",
+      "text": "Prisoner count affects the body's damage and later Power. Do not keep attacking only the body after summons."
+    },
+    "preparation.0": {
+      "sourceHash": "80a15d379105212570c57be2ec033b257eb03d15997d780468b87af661666206",
+      "text": "Finish shopping toward Customer Lv. 65 and Diamond rank. Check usable defense on the required Yi Sang, Meursault, and Ishmael too."
+    },
+    "preparation.1": {
+      "sourceHash": "da1c999d77c29279945e6ec6faea247a8d0d933639b9b3c5587ad9ee32a923b3",
+      "text": "Prepare Blunt, Envy, and Sloth damage and enough Speed to kill Prisoners first. You can also exploit Pwie's Bleed application, maintaining Bleed Potency and Count to damage the body."
+    },
+    "preparation.2": {
+      "sourceHash": "2d4d3e724961a1e2dba90bd195b47826374efe0b60f7f5ec01d8a2223bf4dfb2",
+      "text": "All of the body's attacks are Blunt. Bring Blunt resistance, HP healing, and high-Power skills for major clashes. Check SP and resources when using E.G.O under Offensive Behavior Prohibited."
+    },
+    "roles.0.name": {
+      "sourceHash": "04e33265e19c702090a3fb218304c814c4113c1a27fb2aea01636759ee0ab79c",
+      "text": "Clash roles that adapt to the rules"
+    },
+    "roles.0.reason": {
+      "sourceHash": "c7140c2370c7754e983c95bc777db70ad2995bb52eac43b3df93b2eeff096dbc",
+      "text": "Available Sinners change each turn. Avoid relying on only one major-clash specialist; use defense and E.G.O to avoid violations."
+    },
+    "roles.1.name": {
+      "sourceHash": "656bbb7613e651fc4c95d3c07858a21caa6e93ef6b3a0d47280a5123d35470db",
+      "text": "Fast Prisoner cleanup and body damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "91e4e4720924e38afd195cc994e5af21a0579d2832a3fbbdd8af82b278aad5dd",
+      "text": "Kill adds to reduce area damage and healing, then exploit the body's lowered defense."
+    },
+    "roles.2.name": {
+      "sourceHash": "ca1eb2c2bca39b5345e5bb93ea55034a4b841c88f444ee46c58f795e2a7364e1",
+      "text": "HP recovery and Blunt resistance"
+    },
+    "roles.2.reason": {
+      "sourceHash": "7de6f8cc60d0cdae0a85d03be96d72051816cfd1793c77d45570edd137c725fb",
+      "text": "Heal Unbreakable damage remaining after clash wins and prepare for second-half buffs."
+    },
+    "units.0.name": {
+      "sourceHash": "c367d8e99a6cfe3b9627094720355a13f39761a4b040f2963639c1ecac0f9676",
+      "text": "The Overseer"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "df50cb763563cbcbf8f08ae81daa50e40635aa267073e5324360d8a6a3868be2",
+      "text": "5,000 (starts at 4,500)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "2b02013461e56b25da6cf93a6e8e668ca867328864084902c9d92e906ba13c56",
+      "text": "Starts at 90% HP and 45 SP."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "e7c0a8ea1fa6c3905ed6ff13bbc8b4303b1db6409d8fb24d3124cb08e2247bc0",
+      "text": "Base defense excludes second-half Rule Collapse and reductions from Prisoner deaths."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "44e522847cb5876300614b45dfbede022214e05a3791de77af0f522f6654882d",
+      "text": "Around half HP, ends the turn, replenishes Prisoners, and changes patterns."
+    },
+    "units.1.name": {
+      "sourceHash": "cafa4989b74ce8c92d380be0b385f2a521400eb51eaa5db100fd2123f6a1a732",
+      "text": "Tanned Prisoner"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "a2e388fce6029f82bbaa88197a84e75fc0657ce7bcfc6da5ea6acef5e6c193a9",
+      "text": "60% / 20% (44 / 14)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "7776db96dad779509277ca492e49e565246a883b78ae0b8bdad754b70bdff0a2",
+      "text": "After summoning, watch for Uncreased Hide's 20 Shield and 2 Protection."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "435a5394607baef1448b6a1b32ed424f5bf4ec41dc222a6479cbd14b08c611b1",
+      "text": "On death, lowers the Overseer's Defense Level by 1 for the battle."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "11cf4bbe2d610fdf087fcdcc34e7baa1290503e0215b296b98d5f73326913c50",
+      "text": "Summons cannot exceed six living Prisoners."
+    },
+    "skills.0.name": {
+      "sourceHash": "d0fa1f0ca15207d8af7358cf8d4d748d5460346a88ff8d9be53f57ea5a97f6ec",
+      "text": "Flaying"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "ca5dd147ac42a4c75d230b92f764e175f23dab0eeaadf48fa2bddea9140f7c37",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.0.response": {
+      "sourceHash": "3ffe3f1783dbe2310597d573e6224bc8fe2abd965324e25e32554daf5605e2c3",
+      "text": "Two normal Blunt Coins. Adds Bleed and Rupture Potency and Count; clash with a Sinner who can obey their rules."
+    },
+    "skills.1.name": {
+      "sourceHash": "cb01fe9498f61068e90e16ec444f45780f08bc0b7ce6c3871250624bab2e9126",
+      "text": "Fleshing"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "d5c8524d43c197f2edef2ee0d4e696f290a686d0e1202a3f928db7e48db4d3ef",
+      "text": "Damage +10% per living Tanned Prisoner on the field"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "2d542d198f1d0ee55755deb699ef773bb2c15aeebf5f1f38b8e8046c8d32ea3c",
+      "text": "[Clash Lose] This skill deals 80% less damage and cannot Stagger targets with its damage"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "1cb15ab4abea33d5f61dbc8fee2dc4c86bc45408764cd3298c1f58d2803195a0",
+      "text": "[On Hit] Rupture Count +2"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.1.effects.9": {
+      "sourceHash": "3c5d2019cd147cafae06c7173e5c7f46b4bbbeac44ffe35b708e0c55600492c7",
+      "text": "[On Hit] Inflict 2 Fragile next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "ca1e8d585955e9400147f651f95c05797a2721add89a1f19c857217ae372eafa",
+      "text": "Three Unbreakable Coins. Damage +10% per Prisoner. Winning gives 80% reduction and prevents Stagger from this skill's damage. Killing Prisoners first also reduces damage."
+    },
+    "skills.2.name": {
+      "sourceHash": "7a575ce991af5dc4698a8718195a7bf4769bc167c852602085d94a6a5be05355",
+      "text": "Brain Tanning"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "5a9026c45ba34bc9388763911268a9e3d6d8194c1aefc3629da12149ac221cc0",
+      "text": "This skill prioritizes the ally with the lowest HP"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a01df329cfb8f9c8a6ad7db4dea72d8a7bae8899227d283fecfa99ef712b86e2",
+      "text": "If the selected target cannot be attacked, this skill is canceled"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "0a30444fe7cc46ff30d388e1ad4fbee85691bb233fc9498968ae31a4f8545862",
+      "text": "Ⅰ[On Hit] If the target is an ally, apply the following effects"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "9dfe339118152747f7f6b7096589c39bc9c79ed7e0dcfba7e61150ec13ef4b4f",
+      "text": "- Return target to back"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "216b82bcbfdcc02d15b3c41e4ac60f1fc0c7f4d5442a1d59a40dd15b99857376",
+      "text": "- Heal 1% of own max HP"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "96148ab7a9f5f9cf499a204f634f91afce09ff99b3d7bc1d44f5cb9681f6830f",
+      "text": "- Heal 20 SP"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "1ce38866a536a0c829273022490b2f9fd681f313e4d6c2a8e67550261bafa237",
+      "text": "- Gain 2 DMG Up this turn and next turn"
+    },
+    "skills.2.label": {
+      "sourceHash": "1927c2c52267f4dba14eeee4104f030be687b8fec789cddfb8a12837ccea0300",
+      "text": "Used on an enemy-side ally; cannot be redirected"
+    },
+    "skills.2.response": {
+      "sourceHash": "313dd50f014200102bb106d9b97d09daf04b1b26662ff769e5e502b5780bb821",
+      "text": "Consumes a low-HP ally on the enemy side to restore the body's HP and SP. Killing the target first prevents the attack and cancels it. Do not mistake this for an attack aimed at a Sinner."
+    },
+    "skills.3.name": {
+      "sourceHash": "ca5b3148da621efd01d94b63fdde51ba398fba5c434b93f4a33a53f062b0af3c",
+      "text": "Splitting"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "f0aefb885f96b06c34534cec717f65c446290616a173eec57f607bdf43bfafb4",
+      "text": "[Turn End] Summon up to 2 Tanned Prisoners next turn and apply Uncreased Hide"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "4954277bc10a10f302970c5e9dcaf7393e1860e0b291f2378dbc871249ab7285",
+      "text": "- Tanned Prisoner who is alive on the battlefield cannot be summoned to more than 6 name."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "2eb99524a1879dbb6ac016fcd271a4df01799b3f0536f0c8c86c68b61fdb6522",
+      "text": "- Consumes up to HP of 0.5% for each summoned Tanned Prisoner 1 body"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "8452ca83d1ce2d7d04dc031c6d6748e7f0835a871332ac291ef31917641cebd6",
+      "text": "- If the following conditions are met, this Effect will be invalidated."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "bdce3682a8ce9fa2d68f597c50d17afe3b554d27909d41b3b20bd7ece45646c5",
+      "text": "· At least two Attack Skills have the slot using this skill assigned as their main target"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "9a1a3726f8f07c3bd2b11326e590c42f9c0965506a7eecfc971d0362a36e86bf",
+      "text": "· At least six Tanned Prisoners are alive on the field"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.response": {
+      "sourceHash": "02580a7fd732482107fad9661dddefd48924058222ce02ec4d4521b1d96f0da9",
+      "text": "Equip at least two Attack Skills with this slot as their main target to stop the next-turn summon. A clash win alone is not the cancellation condition. Check each Sinner's restrictions first."
+    },
+    "skills.4.name": {
+      "sourceHash": "aec6606e6e8a140216823977fdfd019f65043b666f3e60410db9c81a6b595ad8",
+      "text": "Massive Splitting"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "639f3759522020de18212799deded7da7321d78be3cf4e04a9adbc29b5c515c4",
+      "text": "[Turn End] Summon up to 4 Tanned Prisoners next turn and apply Uncreased Hide"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "4954277bc10a10f302970c5e9dcaf7393e1860e0b291f2378dbc871249ab7285",
+      "text": "- Tanned Prisoner who is alive on the battlefield cannot be summoned to more than 6 name."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "2eb99524a1879dbb6ac016fcd271a4df01799b3f0536f0c8c86c68b61fdb6522",
+      "text": "- Consumes up to HP of 0.5% for each summoned Tanned Prisoner 1 body"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "4d5e398769c71adad6f4aed8db77a8437ab5bb62e1d2e96ed6dbf8eae4f531eb",
+      "text": "[Combat Start] Apply 1 DMG Up to all allies next turn"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.response": {
+      "sourceHash": "5acae2ff634457f5e2760054483d1d55d84f238107ca5d77b4d33b34c2e0055b",
+      "text": "Unbreakable with 7 Atk Weight; summons up to four next turn. It lacks normal Splitting's two-attack cancellation condition, so do not try to stop it the same way."
+    },
+    "skills.5.name": {
+      "sourceHash": "6f66142352d1bccb32b99f79d25729806c8f75b29fd21aea3e2ed66ecb3f870e",
+      "text": "Leather Tumbling in Brain Fat: Original Sin Style"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "d5c8524d43c197f2edef2ee0d4e696f290a686d0e1202a3f928db7e48db4d3ef",
+      "text": "Damage +10% per living Tanned Prisoner on the field"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "c8aea304fb9780b36ba16588c5836167b1c8cd9fc8e4b67cebb6793cff5fc03d",
+      "text": "[Combat Start] Apply 2 Attack Power Up to all allies"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "6a453bb2e73d58984bbe55149b9d6043cb9ea8617b5665d63c82a53b5ac35370",
+      "text": "[On Use] If current HP is below 50% max HP, Final Power +1 per Tanned Prisoner on the field"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "2d542d198f1d0ee55755deb699ef773bb2c15aeebf5f1f38b8e8046c8d32ea3c",
+      "text": "[Clash Lose] This skill deals 80% less damage and cannot Stagger targets with its damage"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.5.response": {
+      "sourceHash": "b46415584be2d441e4d325579734e2e6adba710b2e405de356fc0fdd1db27ec6",
+      "text": "7 Atk Weight and three Unbreakable Coins. Prisoner count increases damage and, below 50% body HP, Final Power too. Win a strong clash for 80% reduction. Account separately for the enemy side's 2 Attack Power Up at Combat Start."
+    },
+    "skills.6.name": {
+      "sourceHash": "7903aaf9175cf236ecb38e6e381c0389942e1c010d3267e1b7c9d48e9b0257c1",
+      "text": "Punishing Burnishing Finishing"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "e6e587bc25c445023a4d4df82de9a395cb0d022638b4c5646efa2330cd05a98b",
+      "text": "This skill does not activate Defense Skills, including Clashable Defense Skills"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "f822bd178ad942624b21094fc9209369d38c999b22cdd9c1865666a75486294f",
+      "text": "[After Attack] Order 3 random Tanned Prisoners to use a random skill on the target, prioritizing allies that are not Staggered"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "ccdd539045dd1c7bfe3ab8cf5743bb1eb0fb6f88d76af310102dced558a1ff7e",
+      "text": "ⅠDamage +100%"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "38656cb4483c453a59c2e55bd86186cc1b80d68ad1fc02eb86403b38a7116026",
+      "text": "[On Hit] Inflict 10 Tremor"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.6.label": {
+      "sourceHash": "da30988e0bb45cef19aac36b99eef7b1b4a47d5f16a0fc1728cdb44ebd673c64",
+      "text": "Rule-violation follow-up; Unclashable; does not activate defense"
+    },
+    "skills.6.response": {
+      "sourceHash": "9cf77e18594b29bcb88538b25f1988f2cfcdc194cecf366caa22b841d8aa7d0c",
+      "text": "Punishes rule violations. Unclashable and does not activate defense; After Attack, also triggers extra attacks from three Prisoners. Prevent violations when choosing actions rather than planning to take it."
+    },
+    "skills.7.name": {
+      "sourceHash": "43c3e22076791251df68aeb249127cf5dc102044d35d760b458bd47fd2b00620",
+      "text": "Brain Fat Spray"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "fe2347273f271d6bd30859e1203615d0ad85e25000fce0731735f08086e9d60c",
+      "text": "Ⅱ[On Hit] Inflict 2 Attack Power Down next turn"
+    },
+    "skills.7.response": {
+      "sourceHash": "6cd18b4c166cd717dc007808efc94470d13005769a82047305099c0d7d0c85d3",
+      "text": "Applies Rupture and Attack Power Down next turn. Clash with Prisoners you cannot finish to avoid weakening next turn's response to the body."
+    },
+    "skills.8.name": {
+      "sourceHash": "7e775905170cc25cfb9fb5ad75c430b3c249a26654e762ca5059be14d90e3f54",
+      "text": "Brain Fat Buffing"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "826093ed3d74f2c30151ea00431d27b07bcb29066105dc80f9d8c284dc85486c",
+      "text": "Ⅱ[On Hit] Inflict 5 Defense Level Down next turn"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "82318cfd25f32ac74bf73877573589311cfe1840d661c631e08a851c1220052a",
+      "text": "[On Hit] Inflict 2 Paralyze next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "3a62f555270719d3323e8a0b3a05065dbfc6251295f8d7c35947f02cd5321fd2",
+      "text": "Applies Rupture Count, 5 Defense Level Down next turn, and 2 Paralyze. Normal Coins: win with a Sinner who can obey their rules to prevent the effects."
+    },
+    "skills.9.name": {
+      "sourceHash": "c475b6dd94f753399293af6280bd71b02e831428f73fcbe6b88189c23df101f2",
+      "text": "Expiatory Embossing"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "cb665d8545a816c343929ac8e6e6a0480a9ad8ae0a94688d8f7b9b5bb0c942f5",
+      "text": "Ⅰ[On Hit] Heal the Overseer's body and parts for 1% of the Overseer's max HP"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "29976bccf68fe77ea4bd16aefb31317be1f72601a5c99c465538fb4e497273e0",
+      "text": "[On Hit] Heal the Overseer's body and parts for 1% of the Overseer's max HP"
+    },
+    "skills.9.response": {
+      "sourceHash": "ced8830ae2bab690e7294c69b4e0c743c8804b271cec48420a5c87ec5ea562a7",
+      "text": "Each hit heals the body for 1% max HP. The second Coin is Unbreakable, so a clash win may not fully stop the healing. Kill the Prisoner first if possible."
+    },
+    "passives.0.name": {
+      "sourceHash": "b2b613120b3477d539273bfcc03d1f94deea534f045e6ad3660218dd0e21152d",
+      "text": "Reaping Raw Hide: Original Sin Style"
+    },
+    "passives.0.effect": {
+      "sourceHash": "07a4c35c699957a477c25b4f45adbdb396953b00041143cc8e267d2dab92e62e",
+      "text": "At Turn Start, if two or fewer Tanned Prisoners exist on the field, generate an extra slot.\nAt Turn End, gain 1 DMG Up next turn per Tanned Prisoner on the field."
+    },
+    "passives.0.condition": {
+      "sourceHash": "ed0a0c2be11d1539c11701a437f61b6ba0ca9da027f64b7e4da89e2b510a0dfa",
+      "text": "First half: two or fewer Prisoners; Turn End survivor count"
+    },
+    "passives.0.response": {
+      "sourceHash": "7a6fb186c7140ae846e36366a65d8996ac98fb02ea0587f098772b8bad00c91b",
+      "text": "Leaving Prisoners alive increases next-turn damage. Reducing their numbers also brings extra summons, but keep eliminating them while obeying the rules to limit damage from the body."
+    },
+    "passives.1.name": {
+      "sourceHash": "c11ac84ff8a450dbb56c5bddf1c89e78045325b1b72a04f87de0ad520315b098",
+      "text": "Retanning Preparation"
+    },
+    "passives.1.effect": {
+      "sourceHash": "a14f28f88abdc85b13c09fbbb5b919e48b1e694bbe080d449283474579d13d3f",
+      "text": "If another ally on the field is below 80% max HP, generate an extra slot."
+    },
+    "passives.1.condition": {
+      "sourceHash": "ce60a624ecd0f7772e05fac07b48bd0dc19113af71b0387c629d71fccf4ee82e",
+      "text": "First half: another enemy below 80% HP"
+    },
+    "passives.1.response": {
+      "sourceHash": "31302a4c251d0436475f16dc038e806318b7213d8dcfec58e9ec4bc14b0c73c1",
+      "text": "Finish wounded Prisoners before they are consumed. Extra slot generation stops in the second half."
+    },
+    "passives.2.name": {
+      "sourceHash": "2f48c04a2d3acc079d97d1ea3070e0471a91df77b18267af8e69dbb9e1b4c92d",
+      "text": "Tannery of the Original Sin: Full Operation"
+    },
+    "passives.2.effect": {
+      "sourceHash": "7f4ad7de0366aba1927941b4aeebd3f601c3be2ab3feb5af2a15f0b871508eb7",
+      "text": "When the body's HP falls below 50% max HP, end the turn, change patterns, and grant Rule Collapse to all allies, including self, for this battle."
+    },
+    "passives.2.condition": {
+      "sourceHash": "6d2d5646a03971cbfa91b8bc5091717b42b3f6eba95d2cab28688289cd329439",
+      "text": "Body around half HP"
+    },
+    "passives.2.response": {
+      "sourceHash": "110dae4fa258dec5276a32a8822efda4a74d87164f35cdd28d3a6d924528e181",
+      "text": "Prepare for the forced turn end and Prisoner replenishment. Rule Collapse raises the enemy side's Attack Level by 3 and lowers Defense Level by 3."
+    },
+    "passives.3.name": {
+      "sourceHash": "198778f3b2f8fe5ca0c14aae8f0084aeea12c16499a5b470da34ff2bb5ec0e83",
+      "text": "Rules of the Tannery"
+    },
+    "passives.3.effect": {
+      "sourceHash": "be9b91be4d0948eba8b5c0db1123eba33f20ab8a2b42df237e37a70662f2cb87",
+      "text": "From Turn 2, at each Turn Start, apply one randomly selected effect below to 3 random enemies:\n- Rule: Raw Hide Damage Prohibited\n- Rule: Tanning Rush Prohibited\n- Rule: Offensive Behavior Prohibited\n- Rule: Defensive Behavior Prohibited\n\nViolating a rule inflicts 1 Tannery Rule Violation."
+    },
+    "passives.3.condition": {
+      "sourceHash": "10f47b937024c4c5d602c989d742931735cfd6a9791cf88fb8b15c353d678dba",
+      "text": "Turn Start from Turn 2 onward"
+    },
+    "passives.3.response": {
+      "sourceHash": "ad4734197020a897652a5089229cb2687c6e25fa7fe5e6f6832ae8d4c08cbcbc",
+      "text": "Check the three Sinners with rules before equipping actions. Distinguish attack targets from attack and defense skill types."
+    },
+    "passives.4.name": {
+      "sourceHash": "7214fadd01847a0de1daf79350102f2b3f2c21324cee25600004547a5e704e67",
+      "text": "The Battle Continues"
+    },
+    "passives.4.effect": {
+      "sourceHash": "e58b0d7e9084cf5df79f24f854d623dbc62ce98a9b4f127b309b2abb8e3cbc01",
+      "text": "At Stage Start, begin at 90% HP and 45 SP."
+    },
+    "passives.4.condition": {
+      "sourceHash": "6fb4534f367b0ad03b56481702d019e4d7eb77e42632f0c6730a22d06ae2db26",
+      "text": "Encounter start"
+    },
+    "passives.4.response": {
+      "sourceHash": "214f71ef32fe825b604a922814d68633941f8c9d02352fab44368641d8b674c5",
+      "text": "Maximum HP is 5,000, but starting HP is 4,500. Do not calculate the halfway transition from the starting 4,500 HP."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.5.response": {
+      "sourceHash": "9b2e0ab33f67463aa93971f53f8f9b2d518eb0928fe123363428e44b74ed4de1",
+      "text": "Do not assume changing its special Panic will stop its actions. Continue normal clashes and rule management."
+    },
+    "passives.6.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.6.effect": {
+      "sourceHash": "2ce15bb66efcc4328d299be874728fb898ad1ba98bfca9a0cf73c91ebb9f9ecc",
+      "text": "If Panicked at Turn End, SP becomes 30."
+    },
+    "passives.6.condition": {
+      "sourceHash": "3383ebcb8c0c88287216ea6f4b895f62c1250c775343183bbaf95aa1a1f72f73",
+      "text": "Panicked at Turn End"
+    },
+    "passives.6.response": {
+      "sourceHash": "5e304915f8e4169cae10ac63357bd1bbd0f615e6d5b6aac74f4f1294cf97a057",
+      "text": "SP returns to 30. Do not assume it can be kept at low SP indefinitely."
+    },
+    "passives.7.name": {
+      "sourceHash": "cafa4989b74ce8c92d380be0b385f2a521400eb51eaa5db100fd2123f6a1a732",
+      "text": "Tanned Prisoner"
+    },
+    "passives.7.effect": {
+      "sourceHash": "d97ff994390285b07bc77b71fbd942ec5c7b62f77d0f6a87a86ba3a1a4d1cd73",
+      "text": "On death, permanently lower the Overseer's Defense Level by 1 for this battle."
+    },
+    "passives.7.condition": {
+      "sourceHash": "e40a308aa3c5e68084125d819aea46e88a3f038a9649937b07ea57cbf164b9af",
+      "text": "On a Prisoner's death"
+    },
+    "passives.7.response": {
+      "sourceHash": "51ee39b8167f94a78fcbdf4eb5f94ae71be4f40beeae38caaa4e756614083a38",
+      "text": "Each kill lowers the body's Defense Level by 1 for the battle. Do not assume merely being consumed grants the on-death effect."
+    }
+  },
+  "messages": {
+    "boss-copy:controller": "complete",
+    "【リンバス】10-04 統制者（10章B）の攻略｜Limbus Assistant": "10-04 The Overseer (Canto X, Route B) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「統制者（10章B）」の攻略。2ターン目から毎ターン3名に付く禁止規則を守り、なめされた罪人を減らして本体の破壊不能広域を弱める戦闘。規則違反への追撃はマッチも守備もできないため、攻撃先と…": "The Overseer (Canto X, Route B) guide for Limbus Company 10-04. From Turn 2, obey the rules applied to three Sinners each turn. Eliminate Tanned Prisoners to weaken the body’s Unbreakable area attacks. Punishment is Unclashable and does not activate defense: plan targets and skill types first. Clear adds while damaging the body, and prepare for a forced turn end around half HP.",
+    "10-04 統制者（10章B）": "10-04 The Overseer (Canto X, Route B)",
+    "10-04「Sisyphus Department Store B, B3F: Leather Room」": "10-04 · Sisyphus Department Store B, B3F: Leather Room",
+    "統制者の外見": "The Overseer appearance",
+    "統制者のスキル": "The Overseer skills",
+    "The Overseerの外見": "The Overseer appearance",
+    "The Overseerのスキル": "The Overseer skills",
+    "なめされた罪人の外見": "Tanned Prisoner appearance",
+    "なめされた罪人のスキル": "Tanned Prisoner skills",
+    "Tanned Prisonerの外見": "Tanned Prisoner appearance",
+    "Tanned Prisonerのスキル": "Tanned Prisoner skills"
+  }
+}

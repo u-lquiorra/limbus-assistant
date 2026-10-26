@@ -5,6 +5,8 @@ import { guideSummary } from "./guide";
 import { bossSummaries, getBossSummary } from "./bosses";
 import { getGlossaryTerm, glossaryTerms } from "./glossary";
 import { KEYWORD_PAGES, getKeywordPage } from "./keywordPages";
+import { isEnglish, originalPath } from "./i18n/path";
+import { translateText } from "./i18n/text";
 
 export const SITE_NAME = "Limbus Assistant";
 /** 公開先。canonical と sitemap の絶対 URL に使う(末尾の / なし) */
@@ -90,6 +92,11 @@ const STATIC_PAGES: Record<string, PageMeta> = {
 
 /** パス(basename を除いたもの)からページ情報を作る */
 export function pageMeta(pathname: string): PageMeta {
+  if (isEnglish(pathname)) {
+    const meta = pageMeta(originalPath(pathname));
+    // 全文の翻訳・確認が完了するまでは英語版を検索エンジンに登録しない。
+    return { ...meta, title: translateText(meta.title, "en"), description: translateText(meta.description, "en"), noindex: true };
+  }
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
   if (STATIC_PAGES[path]) return STATIC_PAGES[path];
   const [, kind, raw] = path.split("/");
@@ -172,7 +179,7 @@ export function pageMeta(pathname: string): PageMeta {
 export function prerenderRoutes(): string[] {
   const personaCodes = characterList.flatMap((c) => getCharacter(c.name)?.statuses.map((s) => s.code) ?? []);
   const egoCodes = characterList.flatMap((c) => getCharacter(c.name)?.egos?.map((e) => e.code) ?? []);
-  return [
+  const japanese = [
     ...Object.keys(STATIC_PAGES),
     ...characterList.map((c) => `/character/${encodeURIComponent(c.name)}`),
     ...personaCodes.map((code) => `/persona/${code}`),
@@ -182,6 +189,7 @@ export function prerenderRoutes(): string[] {
     ...bossSummaries.map((b) => `/bosses/${b.id}`),
     ...glossaryTerms.map((t) => `/glossary/${t.id}`),
   ];
+  return [...japanese, ...japanese.map((path) => `/en${path === "/" ? "" : path}`)];
 }
 
 /**
@@ -268,6 +276,28 @@ const PUBLISHER = {
  * FAQPage は現在一般サイトではリッチリザルトの対象外のため使わない
  */
 export function structuredData(pathname: string, ogImage: string, updated?: string): object[] {
+  if (isEnglish(pathname)) {
+    const termId = originalPath(pathname).match(/^\/glossary\/([^/]+)\/?$/)?.[1];
+    const term = termId ? getGlossaryTerm(decodeURIComponent(termId)) : undefined;
+    const translate = (value: unknown): unknown => {
+      if (typeof value === "string") {
+        if (value.startsWith(`${SITE_URL}/`)) return value.replace(SITE_URL, `${SITE_URL}/en`);
+        return value === "ja" ? "en" : translateText(value, "en");
+      }
+      if (Array.isArray(value)) return value.map(translate);
+      if (value && typeof value === "object") {
+        const translated = Object.fromEntries(Object.entries(value).map(([key, v]) => [key, ["image", "logo", "sameAs", "publisher"].includes(key) ? v : translate(v)]));
+        if (translated["@type"] === "DefinedTerm" && term?.aliases.length) {
+          const aliasKey = `glossary-aliases:${term.id}`;
+          const aliases = translateText(aliasKey, "en");
+          translated.alternateName = aliases === aliasKey ? undefined : aliases.split(", ");
+        }
+        return translated;
+      }
+      return value;
+    };
+    return structuredData(originalPath(pathname), ogImage, updated).map(translate) as object[];
+  }
   const meta = pageMeta(pathname);
   if (meta.noindex) return [];
   const url = canonicalUrl(pathname);
@@ -359,6 +389,7 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
  * ガイドは先読み後に分かるため、静的 HTML の生成では render の後に呼ぶ
  */
 export function lastModified(pathname: string): string | undefined {
+  if (isEnglish(pathname)) return lastModified(originalPath(pathname));
   const [, kind, raw] = pathname.split("/");
   const id = raw ? decodeURIComponent(raw) : "";
   const date =
@@ -387,6 +418,7 @@ function keywordsUpdated(id: string): string | undefined {
  * 画像の大きさはファイルごとに違うため、静的 HTML の生成時に実測する
  */
 export function pageImage(pathname: string): string | undefined {
+  if (isEnglish(pathname)) return pageImage(originalPath(pathname));
   const [, kind, raw] = pathname.split("/");
   const id = raw ? decodeURIComponent(raw) : "";
   if (kind === "persona") {

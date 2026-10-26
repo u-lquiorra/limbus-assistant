@@ -1,0 +1,1070 @@
+{
+  "kind": "boss-copy",
+  "id": "little-finger-master",
+  "source": "src/data/bosses/little-finger-master.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "シン(心) - 地慧星",
+          "en": "Shin (心) - Dihui Star",
+          "file": "Bufs-a1c9p2.json",
+          "id": "LittleFingerBoss_Shin"
+        },
+        {
+          "ja": "剣痕[残像]",
+          "en": "Bladetrail [Afterimage]",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncision"
+        },
+        {
+          "ja": "地慧星刀",
+          "en": "Dihui Star's Blade",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncisionTotal"
+        },
+        {
+          "ja": "天殺星傷",
+          "en": "Tiansha Star's Bladewound [天殺星傷]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "LvDownLittleFingerBossTwo"
+        },
+        {
+          "ja": "赤い糸",
+          "en": "Red String",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParryIndexFingerThey"
+        },
+        {
+          "ja": "赤い糸",
+          "en": "Red String",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParryIndexFingerWe"
+        },
+        {
+          "ja": "赤い糸",
+          "en": "Red String",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParrySojiThey"
+        },
+        {
+          "ja": "断ち切れない時間",
+          "en": "Unseverable Time",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParrySojiThree"
+        },
+        {
+          "ja": "赤い糸",
+          "en": "Red String",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParrySojiWe"
+        },
+        {
+          "ja": "巡行 - 憐憫",
+          "en": "Forward Flow - Compassion",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiAgeFuture"
+        },
+        {
+          "ja": "逆行 - 憎しみ",
+          "en": "Backward Flow - Bitterness",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiAgePast"
+        },
+        {
+          "ja": "鶏鳴",
+          "en": "Dawn's First Crow (雞鳴)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffOne"
+        },
+        {
+          "ja": "黄昏",
+          "en": "Eventide Glow (黃昏)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffThree"
+        },
+        {
+          "ja": "日入",
+          "en": "The Sun's Descent (日入)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffTwo"
+        },
+        {
+          "ja": "暴走 - 残像もつれ",
+          "en": "Paroxysm - Afterimage Entanglement",
+          "file": "Bufs-a1c9p3.json",
+          "id": "TimeEntangleUnstable"
+        },
+        {
+          "ja": "小指の親方 - ???",
+          "en": "The Pinky Nursefather - ???",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1324"
+        },
+        {
+          "ja": "幾重もの時間から斬り込む残像",
+          "en": "Lacerating Afterimages from Myriad Moments",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132205"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "未来の残像",
+          "en": "Afterimage of the Future",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132214"
+        },
+        {
+          "ja": "天殺星傷",
+          "en": "Tiansha Star's Bladewound [天殺星傷]",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132219"
+        },
+        {
+          "ja": "夜明けから黄昏まで",
+          "en": "From Dawn till Dusk",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132222"
+        },
+        {
+          "ja": "時空間残像分裂",
+          "en": "Spacetime Afterimage Collapse",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132223"
+        },
+        {
+          "ja": "最後の戦闘",
+          "en": "The Final Battle",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132224"
+        },
+        {
+          "ja": "二連",
+          "en": "Twinslash [二連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132201"
+        },
+        {
+          "ja": "三連",
+          "en": "Tripleslash [三連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132202"
+        },
+        {
+          "ja": "快閃",
+          "en": "Swift Glimmer [快閃]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132203"
+        },
+        {
+          "ja": "無形斬",
+          "en": "Formless Cut [無形斬]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132204"
+        },
+        {
+          "ja": "残像歩",
+          "en": "Phantom Step [殘像步]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132206"
+        },
+        {
+          "ja": "絶命",
+          "en": "Deathedge [絶命]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132208"
+        },
+        {
+          "ja": "極空間斬撃 - 絶縁",
+          "en": "Uttermost Rend Space - String Severance [空間斬 - 絕緣]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132210"
+        },
+        {
+          "ja": "確定された相手",
+          "en": "Destinated Opponent",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132211"
+        },
+        {
+          "ja": "二連 - 残",
+          "en": "Twinslash - Echoshear [二連 - 殘]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132213"
+        },
+        {
+          "ja": "必然殺",
+          "en": "Inevitable Termination [必然殺]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132214"
+        },
+        {
+          "ja": "怨望",
+          "en": "Resentment [怨望]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132216"
+        },
+        {
+          "ja": "非望",
+          "en": "Futility [非望]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132217"
+        },
+        {
+          "ja": "落望",
+          "en": "Dismay [落望]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132218"
+        },
+        {
+          "ja": "あなたが憎い、でも…",
+          "en": "I resent you so. But...",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132219"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 2/3 records. Red String has distinct allied and enemy effects despite the shared name; both paired status IDs are recorded. Base and adjusted levels, unconfirmed Phantom Step Power, the solo transition, the second-half 210 HP floor, and the 122 HP ending are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "423e232b38a1ec2c77dd972a46695d3265847cf0aa73683ef3b64c07a65d3cb8",
+      "text": "The Pinky Nursefather - ??? (9-48)"
+    },
+    "shortName": {
+      "sourceHash": "219eaad574096fdbf99c9ad88a9a2a8771e92290845d57e84ab797f262791ff3",
+      "text": "The Pinky Nursefather - ???"
+    },
+    "stageName": {
+      "sourceHash": "b7914481c80392b9870b5a03723c5111b21624abd08b428729efeda022b324c3",
+      "text": "Tangled Time"
+    },
+    "lead": {
+      "sourceHash": "8f277e03e8d874664238073b7b27edf4ab6c9a86f495fa987a6409c5cab96417",
+      "text": "The second half becomes a solo duel with Ryōshū. Beat Dismay first to weaken enemy attacks, and also target Resentment and Futility. All enemy Coins become Unbreakable, so prepare to survive hits even after clash wins."
+    },
+    "statNote": {
+      "sourceHash": "c54f9bf95f80ada526136de7504678da764f5a96fdb4073899a15d322960cc2a",
+      "text": "Ryōshū, Meursault, and Outis are required; each starts with two skill slots. Tiansha Star's Bladewound lowers the enemy's base Offense and Defense Levels by 15. Tables list base Lv. 77 and Defense Level 77, with adjusted levels shown separately. In the second half, HP cannot fall below 210 until the end of its third turn; afterward, reaching 122 HP or less ends the battle."
+    },
+    "skillNote": {
+      "sourceHash": "98ea557147d8efc02654c96baf11050488b7f227223cc1d4b847d670587bb16c",
+      "text": "Tables show Coins before Red String is gained. In the second half, the enemy's Red String makes all Coins Unbreakable and grants +4 Final Power. Phantom Step has inconsistent Power ranges and Coin values, so its Power is marked unconfirmed."
+    },
+    "priorities.0": {
+      "sourceHash": "1dc13833352b605341dfe13b470188e479661a19087e30b5c59ea258a0d96c7f",
+      "text": "Prioritize Ryōshū's Slash resistance, HP, and ability to keep winning clashes."
+    },
+    "priorities.1": {
+      "sourceHash": "0ff8a255d1cddf0b4b7e56ff40a80d26b3ebdfa9888bbcaa6b1062880290a2c5",
+      "text": "Beat Dismay first; also target Resentment and Futility to apply their debuffs."
+    },
+    "priorities.2": {
+      "sourceHash": "2f7f0be37c5f5e2fd902f8691a6af0ae82b87142fe3e2aa0cbcfca9ffd76f152",
+      "text": "Survive with the second half's fully Unbreakable Coins and its three-turn HP floor in mind."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "f558b86ef3d038c337582fa1d313ad0b33d9e73ea3954accaea3e01140e49410",
+      "text": "Meursault and Outis disappear"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "10f32cfbb2b7a0c976fe2fb6ae27b5373b05c249d4b401243e30492218b9583a",
+      "text": "The second half begins when the enemy reaches 0 HP or at least one Sinner other than Ryōshū dies. The other Sinners dying during the transition is part of the battle; from then on, fight with Ryōshū's skills alone."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "dcdce291318548d7b78a20355552340e593b2790855cc8fcf07aba5974b6a8c2",
+      "text": "Ryōshū loses HP even after clash wins"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "f666d3834b0949331b04b31e6892f0b8475de93041e958fe237c3b7a5dbf32d7",
+      "text": "In the second half, every enemy Coin is Unbreakable. Use Dismay's Attack Power Down, Resentment's Poise reduction, and Futility's SP reduction, alongside Slash resistance and defense, to limit remaining damage."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "f360713cb8a373517d90168bd3943ea2fc19bcfb2f25f00773b2ce14cbf4ebc3",
+      "text": "The enemy stays at a sliver of HP"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "6cfc6dee71f6d6f80291a36f0d41357bc8da17d903a8f656b794be14e7a16a6d",
+      "text": "The second half has a 210 HP floor through the end of its third turn. Survive without spending every skill, then lower the remaining HP. Reaching 122 HP or less triggers the final event."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "007b9033adb65ebfe4a2dc2f6b9b14e2a77b5e338b0d2753f9d100f20ef374cd",
+      "text": "Choose a Ryōshū Identity that can survive alone"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "9db9883362d5bb9def484150f41bda033f0a0c6b30dac58294d4e01bf4eaa0a4",
+      "text": "Recommended Lv. 60 with the required Ryōshū, Meursault, and Outis. Only Ryōshū remains in the second half, so prioritize her levels and Slash resistance."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "9328f5db9577cfbf1bb70f519acb43d5f77d3b4143d067de32d66e451f32070a",
+      "text": "Effects that increase her damage taken are costly in a solo duel. Compare HP, resistances, and regular-skill clash strength as well as damage output."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "4aae453d3a9efa33a07e6ae8fdda06a711bcbb9a27c3bff3c88685d57c20bac4",
+      "text": "Wrath, Gloom, and Slash work well against the enemy. Prioritize clashes against debuffing skills over piling on unopposed attacks against weaknesses."
+    },
+    "phases.1.timing": {
+      "sourceHash": "65581239a01332030d1ab52be03ba094129cf3c5fc059370b5a1965cb8e8fea3",
+      "text": "First half · Three Sinners"
+    },
+    "phases.1.title": {
+      "sourceHash": "51211bda7e82857b1c00f83e76f379aebad9d717480ee68981ecf900cf229529",
+      "text": "Protect Ryōshū's HP through the transition"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "36c8323f0760c40754694ec66e7196e32540458b2dc0f56f4312810a85a44c28",
+      "text": "Ryōshū's Unseverable Time lowers the Nursefather's SP by 5 on clash wins. Assign winning clashes to her and generate resources too."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "dd9a4677d7aee7ec7310d15d1b8194e3538a4c689555cd7ec372225a8ffdfb15",
+      "text": "Only the target with the corresponding Dawn's First Crow, The Sun's Descent, or Eventide Glow can clash with Destinated Opponent. Use the marked Sinner's skill rather than trying to take over with someone faster."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "be56f2ee23e0c7845e90093f528c0f2254e154ca597a79aad340ca37b703170c",
+      "text": "The event triggers at 0 enemy HP or when at least one Sinner other than Ryōshū dies. Do not spend all resources keeping Meursault and Outis alive; save Ryōshū's skills for the second half."
+    },
+    "phases.2.timing": {
+      "sourceHash": "2fd48951aae5319a815b1aca97a7c566f7ea025fd4cdc5b24628f317a4cbb218",
+      "text": "Second half · Ryōshū alone"
+    },
+    "phases.2.title": {
+      "sourceHash": "ced071159a1fee41c3ffafc2f80dcf634e10c0fd3a2b611545e2934586bc0127",
+      "text": "Handle Dismay first to weaken the remaining attacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "9be2999bdcb4f18539e4e6b8f47d4fb3691df34eab0ed5b9bec26208fb42176a",
+      "text": "Ryōshū's Red String grants three extra skill slots and +50% damage against the Nursefather. The enemy gains the same-named Red String, but its effects differ: all Coins become Unbreakable and Final Power increases by 4."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e43764e64dcef42725ec63973515210c236fd47619d730800c2789f40021170a",
+      "text": "Beat Dismay first to apply 3 Attack Power Down and −5 SP. Targeting Resentment's slot lowers Poise by 10; targeting Futility's lowers SP by 5."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "f23ee78095a0df59339ce692e3a71bde769fcf0ead36fc507c43b5592a0d6dcd",
+      "text": "Apply debuffs before handling the remaining regular skills and Swift Glimmer. Unbreakable attacks remain after clash wins, so check HP and Slash resistance."
+    },
+    "phases.3.timing": {
+      "sourceHash": "0e5beb9f8beb8189ba6e5fd6a894efa152e05f7971e2e7cbe613ab6a7e2d55d3",
+      "text": "Second half · Four-turn cycle"
+    },
+    "phases.3.title": {
+      "sourceHash": "b10b2dcd0231cda058325f5b231115fe04e3db56afa8f9d48b8f69870a7c27b1",
+      "text": "Watch for dangerous skills and save strong options"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "4277b032aea8e582cb1a33633f7236af3953397c3622fc55241f8d4d64d4a874",
+      "text": "Cycle turn 1 uses Dismay, Resentment, Phantom Step, and Tripleslash; turn 2 uses Dismay, Futility, Twinslash, and Swift Glimmer. Winning against Swift Glimmer reduces its Atk Weight."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "83b403790759ac2fcc851b595ef570a66dcb6ef6dc3e79d16f62270fe30ee291",
+      "text": "Cycle turn 3 uses Dismay, Futility, Phantom Step, and Twinslash - Echoshear; turn 4 uses Dismay, I resent you so. But..., Tripleslash, and Inevitable Termination. The cycle then repeats."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "1520d9120b57b58333b893032c0fedddd8507527eec6e5bdc22d0e7cf8284f49",
+      "text": "Winning against Phantom Step halves Bladetrail. Inevitable Termination reuses on a kill or Stagger, so save a strong clash for cycle turn 4."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "5ebbd3ed98f0327931016c1f145559e0198c589b5a00a2f9866cd9751705fafd",
+      "text": "The second half has a 210 HP floor through the end of its third turn. Do not rush to spend all your damage; once the floor is lifted, lower HP to 122 or less to finish."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "ea786ebcb4f8a9b97ca8ff5ff028474383dbc99ce03e1632b5de21be3841b3e4",
+      "text": "Unseverable Time"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "239a05aba74d1af7cdd08dc22936b8873efc22fa390f3a44e5bfc5959b6fe1c5",
+      "text": "Ryōshū's first-half effect. Deals and takes 20% more damage against the Nursefather; clash wins lower his SP by 5. Prevents Stagger, removes Stagger Thresholds, and grants 1 Attack Power Up next turn. Using skills generates resources."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "4ce095c12b61d74dddc910cc03526fd41b60d8a9a596c5be933aee4efb3f2903",
+      "text": "Use it for first-half clashes and resource generation. It changes to Red String in the second half."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "488ec612ba974bf37048f72aa33fe199d99be412fa4d7a8d9d1714fb7d4528b9",
+      "text": "Red String"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "fb4b7fa06878cf420dcf22fc1aa08a23b8c1b70b80d9643980d178b5290360ba",
+      "text": "The Nursefather's second-half effect: all Coins become Unbreakable and Final Power +4. Ryōshū's same-named effect instead grants three extra slots, +50% damage against the Nursefather, and resource generation."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "540b6ae159f3d838481c130d1bf6f45c3c908faa459e94629f45d29594b0bb43",
+      "text": "Check who has the effect. Ryōshū does not receive the same Power buff."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7ca3d759ac28920620f40ef3d9f05f3e3fef1e8e23eab627beaf46c50e33981a",
+      "text": "Tiansha Star's Bladewound [天殺星傷]"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "5dc687e79322b0eb9addf8f245ddda2f747216e6bbba7c0a2b6590d825b3c301",
+      "text": "Base Offense and Defense Levels −15."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "1c30127e424129f740b90be2755c434c64a3382ed0ebe59d334bcf9df9e91a22",
+      "text": "Distinguish base and adjusted levels, and use actual clash predictions to assign skills."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "1eed3bed86374725479499185044fc4cb384c0e00b188936cee8fefb1b01b1b0",
+      "text": "Paroxysm - Afterimage Entanglement"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "2c07583540ac410609bec77ae6a503a5692b5828ea1fae9293fa489d3a3b2a0f",
+      "text": "Maximum 10. On hit, deal additional Slash damage equal to Coin final damage ÷ 10 once per stack. At 2 or more, also inflict Burn; at 3, Bleed; at 4, Bind next turn; at 5, Poison."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "9fe39e25a67b4a2a6eed557008f0ff2ff474b56effa15e73978f33a3af8795aa",
+      "text": "A clash win does not guarantee no damage. Prioritize debuffs and resistance to limit remaining hits."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "9c9ac21efaf2ca621e643100a0a7ebd6f6876406b104e7167320a83d77e42025",
+      "text": "Forward Flow - Compassion"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "858889892a3b479ec6e722133df42969ab1ceabfd0f8f77ca8dff1b13230759f",
+      "text": "Maximum 20. Damage dealt and taken −2% per stack. Gained while SP is 0 or higher."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "cef3a30af417725093b345a62471c6717fa5f2d1a85a6d6b9c6e95a0b7367988",
+      "text": "Enemy damage falls, but your attacks become less effective too."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "0c9852f3a7280c2fa965345553215b726f24409443472b2ea2090027c522e864",
+      "text": "Backward Flow - Bitterness"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "8af7dc3065e3bec8841c451eef4f44e0c8721ec9066bb8bf216813a5e28b0d92",
+      "text": "Maximum 20. Damage dealt and taken +2% per stack. Gained while SP is below 0."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "d6b7a39b5853256c28b1ed2b3569297991b942a871f679dcee015c7b9ddbf3da",
+      "text": "Watch for additional damage and remaining hits even after lowering enemy SP."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "1c6df128ab45738fe3382e5930f5eec845561e52fc2704a5dff9bc521dda7abc",
+      "text": "Bladetrail [Afterimage]"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "2811ea79fe524de50314e62d36589827b017ca42aa1131468b270409349900bb",
+      "text": "A mark added by enemy skills. Deathedge and Uttermost Rend Space - String Severance consume it to deal max-HP-based damage according to the amount consumed."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "3c0aba69ffbc4156a479dcd89fc0a3bfa685eb055dc69ec4635929f493b7bdae",
+      "text": "Halve it through a clash win against Phantom Step, and avoid remaining at low HP."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "73928320936288bb7f974b150fa808e4d5eb680483cf5a1f2dc936253397a8f7",
+      "text": "Dihui Star's Blade"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "0ef40252fc40bf2b40db08139f4490bf6753c9850c9f6b710025070cca88fbd7",
+      "text": "The total Bladetrail [Afterimage] on the field."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "da9b46c34b4ca03b4f2818c90ab152f2a30fc15034aa8335db43a27825595821",
+      "text": "Use clashes that reduce Bladetrail."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "f9bf0e641304f260fe4b89bfd303c1605346b784e3eee9e1554ea670f9e9adf6",
+      "text": "Shin (心) - Dihui Star"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "6ef6db69e6135204108c5f3fae3e7c0d32276903a76fa6a496e6583ec2367a3e",
+      "text": "The Nursefather's special buff, starting at stage 3."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "bab85d7c221f6c1306b42999210041016a3ceb3015bf106d7d7eb9943d8d4458",
+      "text": "Buffs apply beyond regular base values, so prioritize current predictions."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "10586c4bf1f29872c53862c091f6fdda4083fad943d80aa5508efadf6437b745",
+      "text": "Dawn's First Crow (雞鳴)"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "31b2ee55822614a87b005478890d1c76120bd59651095c6395a9d9ce09dde421",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent slot."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "85c8f366f5f55ef779991e8b591a36a53e365b44069de6f0f3a7c2f40eb789bb",
+      "text": "Assign the marked Sinner to the matching designated skill."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "7c7f530eff602b7c22016c89f9993e992f126dcab3831327540a6f5fe5c62ccc",
+      "text": "The Sun's Descent (日入)"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "31b2ee55822614a87b005478890d1c76120bd59651095c6395a9d9ce09dde421",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent slot."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "85c8f366f5f55ef779991e8b591a36a53e365b44069de6f0f3a7c2f40eb789bb",
+      "text": "Assign the marked Sinner to the matching designated skill."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "c8923db07df8be59c5590f8e253758edfc1609916f4c420e01439281b0739305",
+      "text": "Eventide Glow (黃昏)"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "31b2ee55822614a87b005478890d1c76120bd59651095c6395a9d9ce09dde421",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent slot."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "85c8f366f5f55ef779991e8b591a36a53e365b44069de6f0f3a7c2f40eb789bb",
+      "text": "Assign the marked Sinner to the matching designated skill."
+    },
+    "warnings.0": {
+      "sourceHash": "391ed4dd911d63954430dd776fe2dae72f5542024d70f2fc5a7357f2b96793fe",
+      "text": "Do not assume Ryōshū retains first-half Stagger prevention from Unseverable Time in the second half."
+    },
+    "warnings.1": {
+      "sourceHash": "9143d1a07c5583c29b24c7bc61b15ea7749ec4baf3343cc130e63c97e3937610",
+      "text": "Resentment and Futility apply debuffs at Combat Start if an attack targets their slot. This timing differs from Dismay's Clash Lose effect."
+    },
+    "warnings.2": {
+      "sourceHash": "d0c1267d4508c816e4567ba3c797b08d21315f98e6c26041de980a5cbd908b23",
+      "text": "The second half's +4 Final Power and fully Unbreakable Coins are not permanently included in the table's base values."
+    },
+    "warnings.3": {
+      "sourceHash": "27c93a3b3c45d1b586a574ef9f7fc276d4d7ef44d00321045f0928d9ad102368",
+      "text": "Ryōshū's Red String generates resources at most twice per turn, rather than without limit in every slot."
+    },
+    "preparation.0": {
+      "sourceHash": "62d4aede69fed2bc0d45d7ba3b1191a5b9a0462a1e5015070c7b27df5c082978",
+      "text": "Recommended Lv. 60. Prioritize Ryōshū's levels, Slash resistance, and strong clashes."
+    },
+    "preparation.1": {
+      "sourceHash": "147b2139135b2c5797a7e2f4642831e61184b0e1abd65656ac5c718fa12f63b0",
+      "text": "Prepare enemy-debuffing skills for the other two Sinners in the first half, but do not make second-half survival depend on another Sinner's healing."
+    },
+    "roles.0.name": {
+      "sourceHash": "e8789a5986daeb9e40907bfa65fc12437242cdb0d8baa37f176fd404b11d5da2",
+      "text": "Ryōshū's survival and sustained clashes"
+    },
+    "roles.0.reason": {
+      "sourceHash": "49dcc6aa4771bb3bdd185322368331b73f33a3a03efbac02fbea7c0e79e7e03f",
+      "text": "Ryōshū alone takes the Unbreakable damage in the second half."
+    },
+    "roles.1.name": {
+      "sourceHash": "aae55aa72f9e8c39ae69a307439988c97f9589ceb4de2e3fc4c81087d9123071",
+      "text": "Respond to first-half marks"
+    },
+    "roles.1.reason": {
+      "sourceHash": "8cc8a5621affe451914ff45236592d43a2a211a149dde5e7b64c7032a7b9e924",
+      "text": "Stop Destinated Opponent with the designated Sinner."
+    },
+    "roles.2.name": {
+      "sourceHash": "1d71674c00ff17afd2feca59ac4a72b6bba186008617a3b6cf105825fa326d00",
+      "text": "Second-half debuff sequence"
+    },
+    "roles.2.reason": {
+      "sourceHash": "3fae858cfb1eff989af6c4c8622d75bc0c93b7b22b9af76598c76ca30f2fcc3d",
+      "text": "Use Dismay, Resentment, and Futility to survive the remaining attacks."
+    },
+    "units.0.name": {
+      "sourceHash": "219eaad574096fdbf99c9ad88a9a2a8771e92290845d57e84ab797f262791ff3",
+      "text": "The Pinky Nursefather - ???"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "1372a8a463bb405a8e994cda0acdfa3c2e380acd9963d2d8e26a78097ed25df4",
+      "text": "Starts with Tiansha Star's Bladewound, 3 Shin (心) - Dihui Star, and 4 Paroxysm - Afterimage Entanglement."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "8003a430ef5405443c652ae56f8e021dd524bdaa8c611bca3895fe5b1ca3aae0",
+      "text": "Once, when damage would reduce HP to 0, fully heal and remove all removable negative effects."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "87664071bc7810c4b7fe862c3d5abf6f91c0d40e8838c457a2cf138762964a76",
+      "text": "In the second half, Red String makes all Coins Unbreakable and grants +4 Final Power. Its effects differ from Ryōshū's same-named status."
+    },
+    "skills.0.name": {
+      "sourceHash": "b16d93d4fd4fbd8ecf8986f267042d70c69b3dd887723b780ac57ef4efcea8c1",
+      "text": "Twinslash [二連]"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "588ce3f21fb3afe9059f1ee6c8f46e68b762a3638615f71e9de06705072f8a9a",
+      "text": "[On Use] Gain 2 Poise Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "69b76417fb9be33330583f77a1b6852171d0f4125423310491fedc462d165be3",
+      "text": "Two Slash Coins. Weaken through Dismay first, and remember that all Coins become Unbreakable in the second half."
+    },
+    "skills.1.name": {
+      "sourceHash": "efd8b37408a831157bcfe2567af5526c8ef2cca6ab985b4757525aea6e18d82b",
+      "text": "Tripleslash [三連]"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "a242c7a21e762dc01ef99b9fec1b1db6c84c1cb327aa6540c95b7516c57d5896",
+      "text": "Ⅲ [On Hit] Gain 1 Poise"
+    },
+    "skills.1.response": {
+      "sourceHash": "3db228fc411424edbb43bdc767ea602a372a84e576b9e540bf85469bac1a52fd",
+      "text": "Three Slash Coins. Use strong clashes after debuffing to stop Poise gains from use and hits."
+    },
+    "skills.2.name": {
+      "sourceHash": "ff8257052cc4fa7091620b40d533ed4ae273e553062b1f6193357474e5c4c3cd",
+      "text": "Swift Glimmer [快閃]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "785148fbb4d852adc9a3ed39e57d36c1c9bd7c082e50e43faca139d3c74d3c51",
+      "text": "[On Unopposed Attack] Gain 5 Poise"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "18a5751d1fc2ae6f25818e24b9029ed2c0887b19008095f0f1a0d76028bfdc52",
+      "text": "[Clash Lose] Atk Weight −2"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "ea3efed763c88f73f47b5fae999f46748538765c5937c09b13fe1825b7e86f49",
+      "text": "Critical Damage +30%"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d44e22b2c513beee3d44dc6d3aabbdaf89781cd8e54cfa92c7d58aec71429f7a",
+      "text": "[On Hit] Gain 2 Poise."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.response": {
+      "sourceHash": "8127f457711481cbbbd6b69714c15f8add7e423f38669979d431b7acbb5d418a",
+      "text": "An Unbreakable skill whose Atk Weight falls by 2 on a clash win. Do not leave it unopposed, as that grants 5 Poise."
+    },
+    "skills.3.name": {
+      "sourceHash": "9e84109f9c6af2a09772e1ab5556a72635c76c7112e6787c295d560fda17673c",
+      "text": "Formless Cut [無形斬]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "f74d117c06a56cc0c0ba134bad7aef87ade0181dc526a38a082815019249a52c",
+      "text": "[Clash Lose] Deal 80% less damage; targets taking damage from this skill cannot be Staggered"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "48c2b2d0430546d2ba981b8626950a4fb458af675ae917678e30f1afd1600baf",
+      "text": "Reuse this Coin (up to 4 times)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.response": {
+      "sourceHash": "4df2e244490e74b24e46996d02c1530cbfe76abd291009b656214400e8a50dac",
+      "text": "An Unfocused Volley with Unbreakable Coins. Clash regardless of Speed and win for 80% damage reduction and Stagger prevention."
+    },
+    "skills.4.name": {
+      "sourceHash": "0a30a8cee4c3cf9f175546d4657bca259942653fd9777e703cbb21d0c7c1e82e",
+      "text": "Phantom Step [殘像步]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0a943b1dba8a54d9279558234da25503ed39f6df6c91466e4ba23bedd6e1c33b",
+      "text": "[Clash Lose] Halve the target's Bladetrail [Afterimage] (rounded down)"
+    },
+    "skills.4.response": {
+      "sourceHash": "34bf5777b4aa7c1acaeac937aca6a3955bd9c4affe0229f297a4990b7c938246",
+      "text": "A clash win halves the clasher's Bladetrail. Power is unconfirmed, so check current predictions."
+    },
+    "skills.5.name": {
+      "sourceHash": "eef7efb141222a71b2b5065d4f10baf7ce0669d9d0a1c44e5610adeced952dda",
+      "text": "Deathedge [絶命]"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "6287ce1f56f5bbbe16994c7b62112408accdc05ee31dec69128f2f47b274b07e",
+      "text": "Targets the unit with the lowest current HP percentage"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "3217f28716ec1368c68d0f9cbbcda7fe53233509430b35bb8d704e77f36002f3",
+      "text": "- Prioritizes Sinners other than Ryōshū"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "8a47f2632fbaf7b93c807f8066e2020c600181faf79f5624eb2447e0efdbd820",
+      "text": "Ⅰ [On Hit] Inflict 1 Bladetrail [Afterimage] for every 1% HP the target has lost"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "d753a8a470743a279246bb9d1babb42ec987c130cdf0d08ebf2c6e3e1afbb7cc",
+      "text": "Ⅱ [On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of the target's max HP"
+    },
+    "skills.5.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.5.response": {
+      "sourceHash": "c0d01016bcdb7759acdc95e7a843a3d5d76eccd7431e8b69fc49a1141c23b9d2",
+      "text": "Prioritizes low-HP Sinners other than Ryōshū. Defense Skills cannot activate, so clash with an attack. Leads to max-HP-based damage from Bladetrail."
+    },
+    "skills.6.name": {
+      "sourceHash": "b6500cafd378693cdd1894bee47511a77077db9a07d849ecb3b05d4183ce3075",
+      "text": "Uttermost Rend Space - String Severance [空間斬 - 絕緣]"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "f6b8910969145939eb6295a44475ec67204a1d19b0c93ff7d069250b8f84387c",
+      "text": "[On Use] If the user's SP is 20 or higher, generate 3 Mang. Final Power +10"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "0dd5fd24e2b1e64eb41e55c940b9215cdf9df23d0c3c436f224167293b503537",
+      "text": "[After Attack] If this skill generated Mang, lose 20 SP"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "f6fc1adbd0c6690d8ab8fb7ba405960120845b798868a7f6f954f2372b5e441e",
+      "text": "[Clash Win] Gain 2 Slash Damage Up"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "7a0f9ecec0ac8a8f6c76c98e9e5caf675bcd21d071ec602c53b1a03eab5acf29",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "9b745fbd27aa14d318e4332699fe96c50e09f4d8232c165022c158a6cdb508aa",
+      "text": "[On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of each damaged unit's max HP"
+    },
+    "skills.6.response": {
+      "sourceHash": "3ec15e933884c7a5429c6a37d9b1b1ea99e9f1dabe7078beb2c45cbcac53f397",
+      "text": "At 20 or more SP, Final Power +10. Win with a strong skill for 80% damage reduction, but also watch for max-HP-based damage from consuming Bladetrail."
+    },
+    "skills.7.name": {
+      "sourceHash": "ede5a9d89e0cf8a5815671d8f30a1967ebab04196dbd0d3c66546796877fdbf5",
+      "text": "Destinated Opponent"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "71217168fc1999852b9c9046c091d238702bbfa6f4a0199dba35b4f8f93cda5e",
+      "text": "Only a target with the corresponding Dawn's First Crow, The Sun's Descent, or Eventide Glow buff can clash with this skill"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "ac63adcfcdf6b3a786759e30f7118e6f9243a46113d4325260ac951e5530f75b",
+      "text": "This skill prevents Defense Skills from activating"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "fb02c06d9ecdb0fbb43e3069ef3b2aa22fc99366cf5c824c417a25e082d9ce73",
+      "text": "[On Clash Lose] Gain 1 Fragile"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "528c3e29b667e0f00d7500a1337ff91c2ee3e55cab514b456ebc5b620b837666",
+      "text": "[Clash Lose] Remove the target's Dawn's First Crow, The Sun's Descent, or Eventide Glow"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "119893b7002353c3762b3708bd36fa8e840f605613690a461968320cd58b2c93",
+      "text": "[On Unopposed Attack] Final Power +10"
+    },
+    "skills.7.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.7.response": {
+      "sourceHash": "391d57cc1eb5ebfd7b1780c3e0f39cfec13782a199f46ba3775e92c37058efee",
+      "text": "Only a Sinner with the corresponding Dawn's First Crow, The Sun's Descent, or Eventide Glow can clash. Use the designated Sinner's attack to win rather than relying on defense."
+    },
+    "skills.8.name": {
+      "sourceHash": "0440a1057f0b5269dc34098d0aa6816a13f0b0f13682db31a64f663a5d6dc2c9",
+      "text": "Twinslash - Echoshear [二連 - 殘]"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "7a0f9ecec0ac8a8f6c76c98e9e5caf675bcd21d071ec602c53b1a03eab5acf29",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "a7fefe91140145467833ccd66bd94513cf5a66866940632573d2334cd3873432",
+      "text": "[On Crit Heads Hit] Reuse this Coin (once per skill)"
+    },
+    "skills.8.response": {
+      "sourceHash": "f8be4d55ac99457b1cf2d853faa833cf024209392905f55831e76f6b2132c87f",
+      "text": "Unbreakable; reuses once on a critical Heads hit. Win for 80% damage reduction and prevention of Stagger from this skill."
+    },
+    "skills.9.name": {
+      "sourceHash": "756a838f4e727f467dbbf67e6fb105e2a6406b599fbd6bd8228efcdf230172de",
+      "text": "Inevitable Termination [必然殺]"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "0ee60b3ff4aaddf87b4ad5d67e35881b5d4e8c53800aa99f0c1e8b3d53f70a73",
+      "text": "[After Attack] If the target died or was Staggered, reuse this skill (up to three times per turn)"
+    },
+    "skills.9.response": {
+      "sourceHash": "3c49579219b9548c63537439c3edfd5d6ee8d36347950dba229d84a43ceb311b",
+      "text": "Reuses up to three times on a target's death or Stagger. Save a strong clash for cycle turn 4 to prevent a chain."
+    },
+    "skills.10.name": {
+      "sourceHash": "bb236852e2cdb1b6d1bc456eaf9bdac562fd665ad1e1ebe9bb50c95b10b1e4e8",
+      "text": "Resentment [怨望]"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "05d2e031fd6ceaaeef00bf8abad5feb230725edfe85460a8ad10068f9ef03a64",
+      "text": "[Combat Start] If an Attack Skill has this skill's slot as its main target, lose 10 Poise Potency"
+    },
+    "skills.10.response": {
+      "sourceHash": "42db4f58ba6eadb96843678505e12aca4989d4de65f64805eb3133f92f2dd352",
+      "text": "Target this slot with an attack to lower Poise by 10 at Combat Start. Combine it with Dismay to reduce remaining damage."
+    },
+    "skills.11.name": {
+      "sourceHash": "5ac39913678c549e8a58105b21ee39066cb7934a44d3b5cc54592ff1271dd174",
+      "text": "Futility [非望]"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "bce87886daa02f7b4416fa8ddbb22d8fde813d1d1b275c853ec9a55090d88836",
+      "text": "[Combat Start] If an Attack Skill has this skill's slot as its main target, lose 5 SP"
+    },
+    "skills.11.response": {
+      "sourceHash": "9760aa002a5188669e6d2718b53269bc20e2342ccf2c61e1769d8387d9bd9610",
+      "text": "Target this slot with an attack to lower SP by 5 at Combat Start. Meet the debuff condition before handling the remaining skills."
+    },
+    "skills.12.name": {
+      "sourceHash": "8492b01a039efbf06ddb85e15bd744ef5d36678631d49ac0a0bbecebf33b2878",
+      "text": "Dismay [落望]"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "1a8a080b48efd74746428c0d51eaeb00f28668213dc27f2e15ab557ddcaa56b9",
+      "text": "[Clash Lose] Lose 5 SP"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "0ef8f856ecd126fa7edb625e15a1fec8a20e356995b7a5b3663c85ca86f2ded3",
+      "text": "[Clash Lose] Gain 3 Attack Power Down"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "d76461258671df6dd85611f0045dbc694157f40fc28b224fd14fafb811ddfd53",
+      "text": "Ⅰ [On Hit] Gain 1 Fragile"
+    },
+    "skills.12.response": {
+      "sourceHash": "30816f57db8b450cc4a46600df7642c10152151c1af6e7347633ce329e2c0b77",
+      "text": "Win early to lower enemy SP by 5 and apply 3 Attack Power Down. Make this the highest-priority clash in the second half."
+    },
+    "skills.13.name": {
+      "sourceHash": "f9e151132df6bb2f571b9e0c71c941ebd9b2e243e3c5bf7626de28e6d130bf0f",
+      "text": "I resent you so. But..."
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "0da50331b0be38df7e0b06c0a2dd70df946e5baf0bc0e86742df0ac3c077754d",
+      "text": "[Clash Lose] Gain 2 Fragile"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "d76461258671df6dd85611f0045dbc694157f40fc28b224fd14fafb811ddfd53",
+      "text": "Ⅰ [On Hit] Gain 1 Fragile"
+    },
+    "skills.13.response": {
+      "sourceHash": "93d0d2f679514cdebbc7bde48c1b7e7a20875e892401e5a5b5d1c7da7dfcc7ff",
+      "text": "Winning gives the enemy 2 Fragile. Handle Dismay first and save strong skills for Inevitable Termination on the same turn."
+    },
+    "passives.0.name": {
+      "sourceHash": "7ca3d759ac28920620f40ef3d9f05f3e3fef1e8e23eab627beaf46c50e33981a",
+      "text": "Tiansha Star's Bladewound [天殺星傷]"
+    },
+    "passives.0.effect": {
+      "sourceHash": "d8236d2683cd33607a17dc766fbee564d6e603a276adaeec21ed6ce42a9df229",
+      "text": "At Stage Start, gain Tiansha Star's Bladewound and 4 Paroxysm - Afterimage Entanglement"
+    },
+    "passives.0.condition": {
+      "sourceHash": "7184213f2acbd6775879c94f2688fd17c8ff0f087239bf99842a69e4f32214b6",
+      "text": "Stage Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "054fdaef5599ae8c51ae0b8b16ed8337f323877a842de931b126804f97239736",
+      "text": "Offense and Defense Levels fall by 15 from their base values. Check the adjusted display too."
+    },
+    "passives.1.name": {
+      "sourceHash": "19911c9a18933cebdb5356cbabf87a1bd32a47d60efe3f90e0a70501da2a9a87",
+      "text": "The Final Battle"
+    },
+    "passives.1.effect": {
+      "sourceHash": "d0ced22ac244d8c1950e2a1170ff1af55ebc1b26b2c8821fa34197d848d7b721",
+      "text": "When damage would reduce HP to 0, negate that damage and apply the following (once per encounter):\n- Fully heal and remove all removable negative effects.\n- Gain 1 Fragile for the encounter and fix Paroxysm - Afterimage Entanglement at 1.\n- At every Turn End, take fixed damage equal to (current turn number × 10).\n- End the turn and enhance the pattern from then on.\n\n“You forgot, and I was left to remember everything.”"
+    },
+    "passives.1.condition": {
+      "sourceHash": "908204883a44498aedce05b1fa5c4ef4f7d03021078bd57a8d110221f1297054",
+      "text": "Damage that would reduce HP to 0; once"
+    },
+    "passives.1.response": {
+      "sourceHash": "648539dad8fb12a45b1691fed3c7e69df7e5c8f9e59cc34c9c3f7f1e9f209e76",
+      "text": "The pattern strengthens after the full heal. The first reduction to 0 HP does not finish the battle; preserve Ryōshū's HP."
+    },
+    "passives.2.name": {
+      "sourceHash": "a3af5e6923d5606e729b573ec263656ea534ea5fcca99a24d32b25c8c21ea666",
+      "text": "From Dawn till Dusk"
+    },
+    "passives.2.effect": {
+      "sourceHash": "6085c8b759b173b4bd4a6ecb9cbac8f6a053961616f213d6563b8348d2946683",
+      "text": "At Turn Start, if SP is 0 or higher, gain 1 Forward Flow - Compassion, plus 1 per 2 SP above 0.\n\nAt Turn Start, if SP is below 0, gain 1 Backward Flow - Bitterness, plus 1 per 2 SP below 0.\n\nPast, present, and future overlap until their distinctions lose meaning. Childhood and every later moment are summoned into one place."
+    },
+    "passives.2.condition": {
+      "sourceHash": "2aad857b1f39ef0c5d4f18e17bce836acedd65af68ea9a851a6b868645d20402",
+      "text": "SP at Turn Start"
+    },
+    "passives.2.response": {
+      "sourceHash": "08fdf0b556a57632274dd9aee4ddf33933fbd5c7c837a1bc75876bd8d848fbe1",
+      "text": "Positive and negative SP change damage dealt and taken. Do not judge incoming damage solely by clash favorability."
+    },
+    "passives.3.name": {
+      "sourceHash": "e31a9eefaf963050a85cf579f73d9b6fdc6c2347f6c3519a61c3adf2f8de77a7",
+      "text": "Spacetime Afterimage Collapse"
+    },
+    "passives.3.effect": {
+      "sourceHash": "e50fc8a2ec672a02e257901b170c1b416c8cc59e17e9e3555fc47a4e8f3bd0c7",
+      "text": "At Turn End, gain 1 Paroxysm - Afterimage Entanglement per 5 difference from SP at Turn Start (max 5 gained per turn).\nLose 1 Paroxysm - Afterimage Entanglement per 100 cumulative damage taken, including Shield damage.\n\n“As each layer of afterimages falls away, loss and liberation wash over me together.”"
+    },
+    "passives.3.condition": {
+      "sourceHash": "4214256de2152693cca5e9ddf964e7216ece87b414b76f091880d1d661c6395f",
+      "text": "SP difference; 100 cumulative damage taken"
+    },
+    "passives.3.response": {
+      "sourceHash": "e51ddb347e349a41246afee9ef92b4f31ff07879ff5f325a760470d5faf225c1",
+      "text": "Higher Afterimage stacks mean more additional damage. Use clashes and focused damage to limit the increase."
+    },
+    "passives.4.name": {
+      "sourceHash": "18a008fd6d1dd78b97eee3846a475c79d0808e60755405f4c90308f9ed3d994e",
+      "text": "Afterimage of the Future"
+    },
+    "passives.4.effect": {
+      "sourceHash": "962f90df8474eb015037962919a3825d321a06fa1dfbd9c12cfc34d37621cda6",
+      "text": "Uses Destinated Opponent at specific turn intervals.\nOnly the designated attack target can clash with the skill.\n\nWhen Destinated Opponent loses a clash, take 36–60 fixed damage.\n\nAt Combat End, if every Destinated Opponent used this turn lost its clash, gain 1 Fragile next turn."
+    },
+    "passives.4.condition": {
+      "sourceHash": "28d313065551724ff930d99593f150cf3a72f7077dfae62f888cb1ba442a7fe8",
+      "text": "Use of Destinated Opponent"
+    },
+    "passives.4.response": {
+      "sourceHash": "7406a919544505d866f825b0be8445e7175c381ea8def9835190a7063e8c2066",
+      "text": "Win with the marked Sinner to deal fixed damage and gain next-turn Fragile on the enemy."
+    },
+    "passives.5.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.5.effect": {
+      "sourceHash": "0804f0fa4d52f3714978ab27304a4967201a167c60f0bad58f6989865a95a97e",
+      "text": "At Turn End, if Panicked, set SP to 30"
+    },
+    "passives.5.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.5.response": {
+      "sourceHash": "5c81ec154eb38378f19a2367c9a616e1c3519f200ce7282c35c0a629e5114aa5",
+      "text": "SP returns to 30. Repeated SP reduction alone does not guarantee safety."
+    },
+    "passives.6.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.6.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.6.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.6.response": {
+      "sourceHash": "c772fc5f4400fa1b61fe1a09a0577ae2cf46c53b01e8e5042a99ac6a891db60b",
+      "text": "Do not depend on changing the enemy to another Panic Type."
+    },
+    "passives.7.name": {
+      "sourceHash": "397a72475d61d98d592adea73f381a4e6a88705be0a12644ce4d796285aac308",
+      "text": "Lacerating Afterimages from Myriad Moments"
+    },
+    "passives.7.effect": {
+      "sourceHash": "725a10c8f2c8e042142e8002c63fcd7befc3e95f74c21dbd89f8a4ad835bd5a3",
+      "text": "At the end of an Attack Skill, deal Slash damage to each target equal to (number of Slash Coins that critically hit × 10). This damage cannot Stagger.\n\nAt the end of an Attack Skill, consume all Poise above 20 and inflict Bladetrail [Afterimage] on the target equal to the amount consumed."
+    },
+    "passives.7.condition": {
+      "sourceHash": "0f899d044242a9097959b4fc1e10b1c80138f796b201fabf21047fa5160bde55",
+      "text": "Critical hits; Poise above 20"
+    },
+    "passives.7.response": {
+      "sourceHash": "208c3b983bfdb089a862152bb799a743e0c27e19684b6796f4547e36857a8023",
+      "text": "Watch for post-attack damage and Bladetrail; win against Phantom Step to reduce it."
+    }
+  },
+  "messages": {
+    "boss-copy:little-finger-master": "complete",
+    "【リンバス】9-48 小指の親方 - ???（9-48）の攻略｜Limbus Assistant": "9-48 The Pinky Nursefather - ??? (9-48) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-48「小指の親方 - ???（9-48）」の攻略。後半は良秀1人の一騎打ちになる。落望へ先に勝って敵の攻撃を弱め、怨望・非望へも攻撃を向ける。全コインが破壊不能になるため、勝利後の被弾まで見越し…": "The Pinky Nursefather - ??? (9-48) guide for Limbus Company 9-48. The second half becomes a solo duel with Ryōshū. Beat Dismay first to weaken enemy attacks, and also target Resentment and Futility. All enemy Coins become Unbreakable, so prepare to survive hits even after clash wins.",
+    "9-48 小指の親方 - ???（9-48）": "9-48 The Pinky Nursefather - ??? (9-48)",
+    "9-48「Tangled Time」": "9-48 · Tangled Time",
+    "小指の親方 - ???の外見": "The Pinky Nursefather - ??? appearance",
+    "小指の親方 - ???のスキル": "The Pinky Nursefather - ??? skills",
+    "The Pinky Nursefather - ???の外見": "The Pinky Nursefather - ??? appearance",
+    "The Pinky Nursefather - ???のスキル": "The Pinky Nursefather - ??? skills"
+  }
+}

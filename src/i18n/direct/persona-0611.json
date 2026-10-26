@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0611.md",
+  "code": "0611",
+  "messages": {
+    "終止符事務所フィクサー(ヒースクリフ)と組んで、S2「ターゲット指定」・S3「人生の終止符」に追撃や連携を乗せる貫通アタッカー。ヒースクリフとのセット運用が前提で、いないと大きく弱くなる。": "A Pierce attacker that pairs with Full-Stop Office Fixer Heathcliff to add follow-ups and coordinated attacks to S2 Target Marked and S3 Full-Stop to Life. Designed around that partnership and much weaker without Heathcliff.",
+    "ターゲット捕捉: 終止符事務所ヒースクリフが出場中なら、S3では確定で、S2では最も高い共鳴1につき20%(同期化段階が高いと25%)の確率で発動。ホンルの攻撃後、ヒースクリフが同じ敵をスキル2で一方攻撃する。": "**Target Spotted**: While Heathcliff's Full-Stop Office Fixer is deployed, it always triggers with S3, and with S2 has a 20% chance per point of the highest Resonance (25% at higher Uptie). After Hong Lu's attack, Heathcliff makes a one-sided attack on the same enemy with Skill 2.",
+    "バトルパッシブ「戦術的射撃支援」(傲慢×5・保有・同期化Ⅱで取得): ヒースクリフが後方支援配置状態か待機人員なら、S2・S3がコインの増えた「連携: ターゲット指定」「連携: 人生の終止符」に強化される。傲慢×5は自分だけでは集めにくいので、味方の傲慢も必要になる。": "**Combat passive — Tactical Fire Support (5 Pride Owned; unlocked at Uptie Ⅱ)**: If Heathcliff is in Overwatch Assignment or in backup, S2 and S3 are enhanced into Combo: Target Marked and Combo: Full-Stop to Life with more Coins. 5 Pride is hard to gather on his own, so allies' Pride is also needed.",
+    "弾丸: S2・S3は消耗した弾丸1つごとに基本威力+1、さらにダメージ量も上がる。弾が無くても攻撃はキャンセルされないが、そのコインの的中時効果は出ない(パッシブ「集中」)。": "**Ammo**: S2 and S3 gain +1 Base Power per Ammo spent, plus more damage. Without Ammo, the attack is not cancelled, but that Coin's on-hit effects do not activate (passive Concentration).",
+    "再装填: ターン開始時に弾丸が0なら守備が「影の向こう」に変わり、使うとターン終了時に再装填する(戦闘につき1回)。": "**Reload**: If he has 0 Ammo at Turn Start, his Defense skill becomes Beyond the Shadow, which reloads at Turn End when used (once per battle).",
+    "S3: 混乱区間を前進させ、Ⅲコインは対象が混乱状態ならクリティカルダメージ量+30%で、的中時に束縛と貫通脆弱を付与。": "**S3**: Shifts the Stagger Threshold, and Coin Ⅲ gains +30% Critical damage against staggered targets and inflicts Bind and Pierce Fragility on hit.",
+    "ヒースクリフと同時に出撃させ、S2・S3でターゲット捕捉の追撃を引き出す。ヒースクリフが後方支援配置で下がったり待機人員にいたりするときは、傲慢×5を保有して連携版のS2・S3に切り替える。S1で呼吸を貯め、弾を撃ち切ったら「影の向こう」で再装填する。": "Deploy him together with Heathcliff and draw out Target Spotted follow-ups with S2 and S3. When Heathcliff steps back in Overwatch Assignment or is in backup, hold 5 Pride to switch to the combo versions of S2 and S3. Build Poise with S1, and reload with Beyond the Shadow once he runs out of Ammo."
+  }
+}

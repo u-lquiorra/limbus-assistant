@@ -1,0 +1,2034 @@
+{
+  "kind": "boss-copy",
+  "id": "jeanne",
+  "source": "src/data/bosses/jeanne.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "ラ・ノゼ(la nausée)",
+          "en": "La Nausée",
+          "file": "Bufs-a1c10p3.json",
+          "id": "Jeanne_LowMorale"
+        },
+        {
+          "ja": "ラ・ノゼ(la nausée)",
+          "en": "La Nausée",
+          "file": "Bufs-a1c10p3.json",
+          "id": "Jeanne_Panic"
+        },
+        {
+          "ja": "釘付け",
+          "en": "Nailed",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeanneDesign"
+        },
+        {
+          "ja": "ムーラン・ルージュ - ジャンヌ・マリィ・サルトル",
+          "en": "Moulin Rouge - Jeanne-Marie Sartre",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1524"
+        },
+        {
+          "ja": "シーシュポス百貨店の設計図",
+          "en": "Grand Magasin Sisyphe Blueprint",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1525"
+        },
+        {
+          "ja": "シーシュポスシステムの設計図 - ル・ルージュ",
+          "en": "Sisyphe System Blueprint - Le Rouge",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1526"
+        },
+        {
+          "ja": "シーシュポスシステムの設計図 - ル・ノワール",
+          "en": "Sisyphe System Blueprint - Le Noir",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1527"
+        },
+        {
+          "ja": "モーヴェーズ・フォワ(mauvaise foi)",
+          "en": "Mauvaise Foi",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152201"
+        },
+        {
+          "ja": "ワルツの拍子、覚えてる？",
+          "en": "Remember the rhythm of the waltz?",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152202"
+        },
+        {
+          "ja": "サルトル",
+          "en": "Sartre",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152203"
+        },
+        {
+          "ja": "私はね…。",
+          "en": "You know, I...",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152204"
+        },
+        {
+          "ja": "ワルツの経験。覚えてる？",
+          "en": "Remember the experience of the waltz?",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152301"
+        },
+        {
+          "ja": "ラ・ノゼ(la nausée)",
+          "en": "La Nausée",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152302"
+        },
+        {
+          "ja": "視線：シーシュポス百貨店",
+          "en": "Gaze: Grand Magasin Sisyphe",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152402"
+        },
+        {
+          "ja": "衣装の設計図",
+          "en": "Outfit Ensemble Blueprint",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152501"
+        },
+        {
+          "ja": "自我の設計図",
+          "en": "Blueprint of the Self",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152502"
+        },
+        {
+          "ja": "パターン：シーシュポス百貨店",
+          "en": "Pattern: Grand Magasin Sisyphe",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152601"
+        },
+        {
+          "ja": "代謝作用",
+          "en": "Metabolic Action and Reaction",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152602"
+        },
+        {
+          "ja": "保存",
+          "en": "Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152701"
+        },
+        {
+          "ja": "裁断の釘の準備",
+          "en": "Readying the Sartorial Nails",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152201"
+        },
+        {
+          "ja": "パターンと設計",
+          "en": "Patterns and Designs",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152202"
+        },
+        {
+          "ja": "視点固定",
+          "en": "Fixed Viewpoint",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152203"
+        },
+        {
+          "ja": "観点どおりに",
+          "en": "Within Perspective",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152204"
+        },
+        {
+          "ja": "捕捉",
+          "en": "Focusing",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152205"
+        },
+        {
+          "ja": "プルミエ・ステップ",
+          "en": "First Step",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152301"
+        },
+        {
+          "ja": "ドゥジエム・マルシュ",
+          "en": "Second Pace",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152302"
+        },
+        {
+          "ja": "トロワジエム・ステージ",
+          "en": "Third Movement",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152303"
+        },
+        {
+          "ja": "パターンどおりにしなきゃ。",
+          "en": "You've got to keep to the pattern.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152304"
+        },
+        {
+          "ja": "一緒にカフェで話した頃を思い出すわ",
+          "en": "Those times when we chatted together at the café",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152305"
+        },
+        {
+          "ja": "ちょっとした喧嘩もあったわね。",
+          "en": "We had our little quarrels, yes.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152306"
+        },
+        {
+          "ja": "権限：再構築",
+          "en": "Rights: Rebuild",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152401"
+        },
+        {
+          "ja": "権限：遮断",
+          "en": "Rights: Ban",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152402"
+        },
+        {
+          "ja": "この舞台だけは、全てが決まっているの。",
+          "en": "At least on this stage, everything's set and fixed.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152403"
+        },
+        {
+          "ja": "ここまでが設計よ。",
+          "en": "The designing was up to this point.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152405"
+        },
+        {
+          "ja": "権限：視線",
+          "en": "Rights: Gaze",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152406"
+        },
+        {
+          "ja": "百貨店の設計図",
+          "en": "Department Store Blueprint",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152501"
+        },
+        {
+          "ja": "パターン：欲望せよ",
+          "en": "Pattern: \"Desire.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152601"
+        },
+        {
+          "ja": "パターン：纏え",
+          "en": "Pattern: \"Don.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152602"
+        },
+        {
+          "ja": "パターン：摂取せよ",
+          "en": "Pattern: \"Consume.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152603"
+        },
+        {
+          "ja": "パターン：掻き集めよ",
+          "en": "Pattern: \"Scrape and gather.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152604"
+        },
+        {
+          "ja": "裁断：保存せよ",
+          "en": "Tailoring: \"Conserve.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152701"
+        },
+        {
+          "ja": "裁断：黙示せよ",
+          "en": "Tailoring: \"Witness in silence.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152702"
+        },
+        {
+          "ja": "裁断：固定せよ",
+          "en": "Tailoring: \"Let all be pinned.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152703"
+        },
+        {
+          "ja": "裁断：釘刺されよ",
+          "en": "Tailoring: \"Cometh the nail.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152704"
+        },
+        {
+          "ja": "アンガジュマン(engagement)",
+          "en": "Engagement",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeanneManager"
+        },
+        {
+          "ja": "エートル・プール・ソワ(être-pour-soi)",
+          "en": "Être-pour-soi",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeannePartnerTwo"
+        },
+        {
+          "ja": "エートル・プール・オートリュイ(être-pour-autrui)",
+          "en": "Être-pour-autrui",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeannePartner"
+        },
+        {
+          "ja": "パトス - デジール・デートル(désir d'être)",
+          "en": "Pathos - Désir d'être",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeannePathos"
+        },
+        {
+          "ja": "ロゴス - マンク・デートル(manque d'être)",
+          "en": "Logos - Manque d'être",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeanneLogos"
+        },
+        {
+          "ja": "デゼスポワール(désespoir)",
+          "en": "Désespoir",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeanneCheat"
+        },
+        {
+          "ja": "デレスマン(délaissement)",
+          "en": "Délaissement",
+          "file": "Bufs-a1c10p3.json",
+          "id": "JeanneBlueprint"
+        },
+        {
+          "ja": "ランフェール・セ・レゾートル (L'enfer, c'est les autres)",
+          "en": "L'enfer, c'est les autres",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152401"
+        },
+        {
+          "ja": "意図したパターンどおりにしなかったじゃない。",
+          "en": "You went off-pattern.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152404"
+        }
+      ],
+      "note": "Names follow paired Canto X part 3 records. NFKC colon, French-parenthesis, hyphen, and kana aliases are resolved to the paired names. Pathos and Logos in prose abbreviate their full status labels. Preservation is the status while passive 152701 is Conservation. Skill-number requirements, E.G.O permission only for Third Movement, Meursault defeat conditions, blueprint-driven HP loss, fixed Coin probabilities, unknown Offense Levels, and uncertain single-Coin effect numbering are retained."
+    }
+  },
+  "scopedPaths": [
+    "passives.13.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "6b5ccde8c94891b7d918d59f6dafc1937e69f9430184cfec482857eae9ce0f42",
+      "text": "Jeanne (Canto X, Route C Final Battle)"
+    },
+    "shortName": {
+      "sourceHash": "2efbbd4791663fc4437e8ca342574020b3278031bcbcb123ee13a51e9e46eb28",
+      "text": "Jeanne"
+    },
+    "stageName": {
+      "sourceHash": "536eaa4e7eae28c2e315e88311f9a4c530ff1e5a2a36364f48f7a11fea391f31",
+      "text": "Sisyphus Department Store C: Bright Room, Final Battle"
+    },
+    "lead": {
+      "sourceHash": "9e24a6e86b234e00119a01bc1e57f8ec09a468b5b84851256b0dc1dc501bf961",
+      "text": "In Phase 1, kill blueprints before Focusing can consume them. In Phase 2, match Meursault's skill numbers to advance the waltz. In Phase 3, kill blueprints to reduce the body's HP instead of attacking it directly. Protect Meursault's HP and assignments; do not assume he can repeatedly survive lethal damage as in the preceding Chaplain battle."
+    },
+    "listLead": {
+      "sourceHash": "a9f2be6cecb9135c4e7e37417535070e5cdd5215831a0eabe72ecfc26744e56c",
+      "text": "In Phase 1, kill blueprints before Focusing. In Phase 2, match Meursault’s skill numbers to advance the waltz. In Phase 3, kill blueprints to lower body HP. Protect Meursault: the previous battle’s survival effect does not carry over."
+    },
+    "statNote": {
+      "sourceHash": "a5765c4120da9463f850ce3cb133f24f8ef4867b955bf59193e8813914785013",
+      "text": "Route C's final battle. The Phase 1 body is Lv. 90 with 2,793 HP and base Defense Level 94. Phase 2 is immune to damage; the Phase 3 body has no directly targetable part. Blueprints have 178 HP in Phase 1 and 730 HP at Lv. 65 in Phase 3. Phase 1 blueprint Stagger Thresholds are unconfirmed. Aim for Customer Lv. 65, separately from Identity levels outside the dungeon."
+    },
+    "skillNote": {
+      "sourceHash": "61d4903b27efb42612550442d6ba358133d4d4b914747c9d2b62169253109a54",
+      "text": "Skill levels are marked unknown where no level is listed or the actual Offense Level of a blueprint-granted skill is unconfirmed. Phase 2 Evade We had our little quarrels, yes. has unconfirmed displayed Power. The Le Rouge blueprint's Pattern: \"Don.\" retains its listed one Coin, with the Bleed Count effect's Coin number marked unconfirmed."
+    },
+    "priorities.0": {
+      "sourceHash": "032ec06a96bfdd7cbce141264a63e4a7c40eaa661e7e82fe859fe9420b56e7c1",
+      "text": "Protect Meursault; do not assign skill-number or named-recipient clashes to another Sinner."
+    },
+    "priorities.1": {
+      "sourceHash": "0e17fb4a8e6cc8ca6ffa409f230df362650d8a7bc40d5acdb1825f3e5063802c",
+      "text": "Phase 2 requires Skill 1 → Skill 2 → Skill 3 or E.G.O. Check the actual equipped enemy skill's requirement."
+    },
+    "priorities.2": {
+      "sourceHash": "ff61854aea17298ba41a60b6b2f61bfe2d0b0f310a46aa62a9bc7d6c11eb4bf1",
+      "text": "In Phase 3, win transformed blueprint clashes with Meursault, apply Fragile, then kill the blueprint."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "34179ab4413b1f5a92796e5b9c067c859aa73b96ac767f84b4cbccc817fc7441",
+      "text": "Clashes became much harder after blueprints appeared"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "fcebfe7204e8e3026e79202412192d771748fac0269edcff8fb270e4a44ff229",
+      "text": "If Jeanne kills a blueprint with Focusing, she gains Nailed; at 3, it becomes Engagement. Her Heads chance becomes 100%, while your Coins are fixed unfavorably. Do not try to clash with Focusing; kill its blueprint target first."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "c66dfae5a5f1b0277e81ecc4cbbbdd5f6edebd774679f8fc23bbdf06f697a0aa",
+      "text": "HP does not decrease at all in Phase 2"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "18884100c56a90619b10744f6755f88b5b4ab7c2ea1ddf9bd1779c95ba24bae7",
+      "text": "This phase is immune to damage and does not require HP reduction. Match Meursault's skill number to the enemy's requirement and advance Pathos to 100. Do not try to bypass it with area attacks or statuses."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "aa9c9456c2724f231da514aa2bfc77d41d50ec5679a2231967faf7eb1a16153a",
+      "text": "Even Meursault's E.G.O has unfavorable Coins"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "68c36b6f6e9690d4ded15b2a6c31ee2e3bca331cd2e2f4b3fa06264a3a7d1fde",
+      "text": "Phase 2 First Step requires Skill 1 and Second Pace requires Skill 2. Only Third Movement permits E.G.O. Increasing Power alone cannot counter the wrong-number punishment skill."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "f568f2b2c72c3ba04177ad6224048cdad5927c3ca95bcc2c776c1444da0c7d7a",
+      "text": "I cannot attack Jeanne herself in Phase 3"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "2c90d5ff83eb04d72f790efbf6aece315d12978628fd7836d6d4845e8c736f73",
+      "text": "This phase does not involve direct attacks on the body. Target Le Noir and Le Rouge blueprints; their deaths lower body HP. Clash with transformed Sartorial Tailor blueprints using Meursault to inflict Fragile, then plan their elimination."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "9d031bc0c4ddd67b11d4dc347e40084e28c5f8f95a57c3800a12ab10dcb11ff1",
+      "text": "Blueprints heal and the battle does not progress"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "859f11d3eeff686e50f6148c0129c7465ef518d8c89dcca02d436b144a254660",
+      "text": "Check that Meursault clashes with the transformed blueprint's At least on this stage, everything's set and fixed. Another Sinner or an unopposed attack changes it to a punishment skill that heals 50% max HP. Le Rouge's defense also heals, so concentrate damage on one blueprint you can finish."
+    },
+    "troubleshooting.5.symptom": {
+      "sourceHash": "acca4a0df8fdc55653d355304e6af000842532d1359567253def59652b68b656",
+      "text": "A key Sinner's Coins become unfavorable next turn"
+    },
+    "troubleshooting.5.advice": {
+      "sourceHash": "91d908293498520e3e973c93e4e6b860892720e24e2d2ae75833249f99eb7ec8",
+      "text": "Désespoir fixes positive Coins to 100% Tails and negative Coins to 100% Heads. Rights: Ban applies it After Attack, so a clash win alone does not prevent it. Do not keep that Sinner on an important clash next turn; use defense, healing, or another recipient."
+    },
+    "phases.0.timing": {
+      "sourceHash": "01edc9a662a544865535acf405cc6e3b5db56d43b0c31b3af6adeaa16efc5702",
+      "text": "Before the final battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "a521c507cc5111e51243fcdc919184fcaf054784d25364bf5456bb9d0a1936a8",
+      "text": "Protect Meursault and prepare damage for blueprints"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "2c0beb9b24089667fd7fa93d88730a71068ba5013612a53fcc84697d48d71c94",
+      "text": "Check shopping toward Customer Lv. 65 on Route C. Identity levels follow Customer Level in the dungeon. E.G.O Threadspin is not boosted, so check available effects and resource costs too."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "28e106355bfe0b81bf986b436ad57c015884a32aa299d98bd63a18024bedbcd9",
+      "text": "Prepare HP recovery and Protection for Meursault, plus E.G.O damage for blueprints. Meursault's death causes defeat in Phases 1 and 2; do not carry over The Stranger's 1 HP protection from the Warden battle."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "0cbfc04ee4e8ab3b34f7bb54d316d79fcbedffa8ee0e336df6c2d82dab65cc44",
+      "text": "The final battle has no preceding action encounter where you reduce the body's HP. Each phase needs different actions; check skill conditions instead of relying only on auto-selection."
+    },
+    "phases.1.timing": {
+      "sourceHash": "000561b5b3eb46ebdeb84206c549ce7aebdcc33ff0e5f8d828381b8de8d9f8cc",
+      "text": "Phase 1: down to 50% body HP"
+    },
+    "phases.1.title": {
+      "sourceHash": "9e07b32b0becfd9842269c53b7aafbdf9d2f0379f776233a11b3fdfec05e043d",
+      "text": "Kill blueprints before Focusing and prevent Nailed"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "eabf65330842bdc6ce14a4f199030a9c8b1056e7ee4514674555a23d9e644c85",
+      "text": "Every three turns, three blueprints are summoned and the body gains a Shield equal to max HP, removes Stagger, and cannot be Staggered that turn. Clear blueprints before pouring everyone's damage into the Shield."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "39e3d58886334aca60581ae5d6a5d4cd5f5ae0c7a93d975c3615698a48f2df8b",
+      "text": "Focusing prioritizes blueprints, is Unclashable, and cannot be redirected. Check targeting lines and use fast Sinners to kill blueprints before Jeanne gains Nailed."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "198e1bc1211701fdc7f4218b632025c022b4e5dfb4cc61db2ffc713784b7c3d7",
+      "text": "Blueprints take 50% less basic attack damage and 100% more E.G.O damage. However, they use defense before the first hit to greatly reduce that skill's damage. Do not assume one skill will kill them; check remaining HP."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "c4892bbb6753c9bd23afd45729d1db7b3e8e664ad801905ba3eba1ec6f9ef668",
+      "text": "Sinner kills on blueprints grant 5 total E.G.O resources of scarce affinities. Use them for the next cleanup and healing while advancing to 50% body HP. Win against Unbreakable skills such as Fixed Viewpoint for 80% reduction."
+    },
+    "phases.2.timing": {
+      "sourceHash": "a8bf77240b72bdd3e1fb10a6ddd852e82d6e6bcb70984af1428a1f58b010bbd8",
+      "text": "When Nailed or Engagement is present"
+    },
+    "phases.2.title": {
+      "sourceHash": "8aff82e2202350cae7b8e18d944a4b85ba83f59254596b58112c10600063d2cc",
+      "text": "Do not confuse fixed Coin chances with low SP"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "6b129eb832cecb1607dae774ffd9bfc552f578465ec1b62801252307125d38a1",
+      "text": "Nailed fixes Heads chance at 95% and gives the clash opponent −2 Clash Power at 2 Stack. At 3, it changes to Engagement next turn. Killing blueprints before she consumes them prevents this buildup."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "156fbf55f717844adac2807ee5644c6ad90a72679e732ff1b20ecf8cf63d913d",
+      "text": "During Engagement, Jeanne has 100% Heads. Units clashing with or attacking her have positive Coins fixed to 100% Tails, negative Coins to 100% Heads. SP recovery or high Power alone cannot remove these fixed chances."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "48321d55e36090fef61ec9f665387b1d99b58cbecd2f9385fc12c2112886c925",
+      "text": "Removed when Focusing is equipped or on Stagger. Check whether the effect has ended rather than repeatedly forcing difficult clashes on the same key Sinner."
+    },
+    "phases.3.timing": {
+      "sourceHash": "c16d5db5f39d45f22e2231bf7993a7080d9bbffbccac72902172e653c7d60a51",
+      "text": "Phase 2: the waltz"
+    },
+    "phases.3.title": {
+      "sourceHash": "fbfb93e511131dec54c4f6e7f41ee1209b6221cf774c3a1a1703fdb05d34e8cf",
+      "text": "Choose Meursault's skill number to match the enemy skill"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "b00cd755720f9defb9a22d0639edb1aadf7f4dc72655830bebeaa961e04f5660",
+      "text": "Jeanne takes no damage in this phase. Advance Pathos to 100 rather than reducing HP to 0. Check the skill generated in Meursault's upper slot and the enemy's requirement."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "748de74f2875b43831735596bf44dd2b46d00bb665fccc9bdb6072b6efeb349b",
+      "text": "Use Skill 1 against First Step, Skill 2 against Second Pace, and Skill 3 or E.G.O against Third Movement. Numbers refer to Identity skill numbers, not Coin count."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "94789b89296832c025abf56f5e294cc8b5cfe02507603009d94341169fba0425",
+      "text": "A wrong number changes the attack to You've got to keep to the pattern., fixing Coins unfavorably. Do not substitute E.G.O for requirements 1 or 2. Keep taking the required clashes rather than simply defending and waiting."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "5469d1040d2b2b483cf82d08342e0696545e80bfe119c342b03cade6d0842850",
+      "text": "In this phase, Meursault clears negative effects and gains fixed SP and Stagger prevention, but not damage immunity. Positive-Coin Identities have 45 SP; negative-Coin Identities have −30. Do not confuse his effects with Jeanne's damage immunity."
+    },
+    "phases.3.steps.4": {
+      "sourceHash": "239ea16bc222cb11149c0cbe5ca7d9cc585c95faac6d826ec35342f354105c57",
+      "text": "Clash results and exchanges, dialogue skills, and Evade increase Pathos and Logos. At 100 Pathos, Phase 3 begins. Logos is a separate effect increasing Meursault's Offense Level and Clash Power."
+    },
+    "phases.4.timing": {
+      "sourceHash": "07f132ca49867e45960b9d95ea84f04671a1f4a73ab105c10f5e80611fb294b8",
+      "text": "Phase 3: four blueprints"
+    },
+    "phases.4.title": {
+      "sourceHash": "98a5988a2647ac0aec03447608adbdb703ba68b3aa57410731943a5bfbc3701c",
+      "text": "Use Meursault against transformed blueprints to create Fragile"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "bb257507529be135675ad91683000ae3d4c1d99938da4dab2c5fff01a05ef396",
+      "text": "The body cannot be targeted directly and starts at 50% HP. Le Noir and Le Rouge blueprints are replenished to two of each. Each blueprint death reduces body HP by 5%."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "119e9a15ef194ecda2da6665a250e5cbebeb012bf117871100eca2795889f912",
+      "text": "From the second turn of Phase 3, one blueprint becomes the Sartorial Tailor. Stagger is removed on transformation; do not assume Stagger makes it safe to ignore."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "8d49a41af9afed33b470e56218d429d5deda413762db9501ef6fec45f67ba2ff",
+      "text": "Always clash with At least on this stage, everything's set and fixed. using Meursault and win. Another Sinner or an unopposed attack changes it to the punishment skill and prompts major healing."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "d3072afc45e946df3e19317b9d18549c40ec58ee82b2d226cfe635d405aff300",
+      "text": "After Meursault wins, that blueprint gains 5 Fragile every turn from next turn onward. Prioritize killing it. Other Sinners handle blueprint normal clashes and damage."
+    },
+    "phases.5.timing": {
+      "sourceHash": "7aa8ef51267434fb530f84839d52e092099aea7e533226f636c5ee111c472a1a",
+      "text": "Blueprint deaths and added Rights skills"
+    },
+    "phases.5.title": {
+      "sourceHash": "73ee79c8f2b4b2cc0cb25f7eabb4202aafa3cb885f070a15db1713c2c3ef5357",
+      "text": "Rotate recipients with unfavorable Coins and focus blueprint damage"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "6ab68d341eb67e735d15436620422729e5316a8251137cc3a8278348c9dfc497",
+      "text": "Each time the Sartorial Tailor form ends, another blueprint starts using Jeanne's Rights: Ban. It applies Désespoir for next turn After Attack regardless of the clash result. Avoid fixing affected Sinners to important clashes."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "8975260bd0a969ecf94d39226eb3ce36a6ce8b80a79d21bb99d2c9cb479c8fad",
+      "text": "A blueprint death gives other blueprints Délaissement; next turn, one blueprint equips Rights: Gaze. Win against Gaze for 80% reduction and to prevent next-turn Désespoir."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "e618224e2eeaafce6ae7fc03a41a57f2a38338a41ddd56cb3686cad18ca9e662",
+      "text": "Délaissement increases both Clash Power and damage taken. At 4 or more, Turn Start removes all Stagger Thresholds, clears Stagger, and increases slot weight by 1. Exploit increased damage taken to finish them rather than waiting for Stagger alone."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "455ff9fb06ea5721ac29ceb81d85148ea6d923a222cf63e77a42028e78537f56",
+      "text": "Le Noir uses Shields; Le Rouge uses self-damage and healing. Do not chip everyone down: focus on a Fragile or low-HP blueprint while preserving Meursault's required clash."
+    },
+    "phases.5.steps.4": {
+      "sourceHash": "93595b4518ccdb92756f4c85940de49923f14383e3bbf4761632e6a11ba81fe0",
+      "text": "The phase ends at 10% body HP or less. Progress through blueprint kills instead of direct body attacks. Do not assume you can receive Rights: Rebuild's death-on-hit effect through immortality as in the Chaplain fight."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "611daf23a7aa2ddf279166d22ff118883526936f6fc8397b9dca227f29ee7d44",
+      "text": "Nailed"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "f1a21885ffc6e98095ca723e567abf4ffcd4dfbb6ffceecd13598cfdda71c125",
+      "text": "Maximum 3. Heads chance 95%; at 2 Stack, the clash opponent has −2 Clash Power. At 3, consume all to gain Engagement next turn. Loses 1 at Turn End except on the turn gained."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "8ff87d361c2fb5c57810ee544b8b73d90e3c883d90984912a548fcf37d527993",
+      "text": "Kill Phase 1 blueprints before Focusing to prevent buildup."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "5a4249698132bd5f9d617349a55a945df54ac622291a4451358d37b5b38006e7",
+      "text": "Engagement"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "7bc6266da30e1a6f27a64d6b6fd137ef4e49a41f9888f09e12460fd240e4c236",
+      "text": "Own Heads chance 100%. Units clashing with or attacking this unit have positive Coins fixed to 100% Tails and negative Coins to 100% Heads. Removed on equipping Focusing or becoming Staggered."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "724adf530d22c2ca95c335eebd04a666e5d51b684e58494a2b9c61713c08ac76",
+      "text": "High SP cannot override fixed unfavorable chances. Clear blueprints and check effect removal."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7868fd3fdd94a70db0d80272cd6234615815911e1accaa2bad778d98e629fa85",
+      "text": "Inertia of Drifting"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "01ccadaa083ac4a4c85c6480e7b3b64ba177049909a2751f72f76cfdee0c3f43",
+      "text": "Special Charge. Jeanne gains 1 Potency per cumulative 10 Count consumed; Count does not naturally decrease. At Turn End, gain Poise Potency based on Count and Poise Count based on Potency."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c83cb7d572c33709294274e35549f402485078e956a7c41f423785d77f39c168",
+      "text": "Also strengthens Evade and area skills. Do not assume prolonging the fight favors you."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "1f7eaf8104d6ac1c3faaf8b7d09a673c8135e9f869149ebfeddf8cdd3c4c2b57",
+      "text": "Être-pour-soi"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "6426cbab1de40a23b8266c539833b0757683dfeadcd2fb30a1c6cfb4deae5b2d",
+      "text": "Fixes Phase 2 Jeanne's SP to 45 and makes her immune to damage. Removed at phase transition."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "0c52f0dd1e3418f14c43d37433adbe4799bb82250a16d453f71a947acf74b36a",
+      "text": "Increase Pathos through the required waltz skills rather than damage."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "4ca4b92e68126961674da4c8a428945db6e6d5e0b7129553f329961985933414",
+      "text": "Être-pour-autrui"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "bd5298ade562025482e643cd9d07fe5878e6997acd0f02bfb7ba9790a02251f3",
+      "text": "On gaining it in Phase 2, Meursault removes negative effects and gains fixed 45 SP (−30 for negative-Coin Identities) and Stagger prevention. Removed at phase transition. Does not grant damage immunity."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "76372fd1f614265befe8d2d367024ca239e19797345cdb19305908d80d078577",
+      "text": "Follow skill-number requirements while protecting HP. Stagger immunity is not death immunity."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "599fe5c386c226322ad4383a3855e12c595f8317cc6d0ddcebb449fefe5d266b",
+      "text": "Pathos"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "afc7e3ea876d25fdc41e8e992d1200115a33c4c00b87866b2f6d589de72fa24a",
+      "text": "Phase 2 progression, maximum 100. Increases by 3 on Jeanne's clash win, by 5 on her loss, and additionally by clash exchanges. Certain skills also increase it. At 100, advance to the next phase."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "2ff006a56b625a8dad597b113d815dba557f2a569c41f33ece2dad436d7363a5",
+      "text": "Track this value instead of body HP. Follow skill numbers and continue the waltz."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "539973d146a5b600378e9841d615a279108b2302e9be42aa19832d24bf86725f",
+      "text": "Logos"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "017f7965d25a039e9ca410e24e739335c32a682c379c6a5bb01466bd69950976",
+      "text": "Meursault's accumulating effect, maximum 100. Gains 5 on a clash win and increases by clash exchanges. Offense Level +1 per 10 Stack, Clash Power +1 per 20. Certain skills also increase it."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "26582bd7804cd7af50e3da40581f64d0f98d18162c3e733206ce74d01674b233",
+      "text": "Separate from Pathos. Also keep Meursault's required Phase 3 clashes in mind."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "edb2415e6f1554835631c8b56d276d7869466782e6ace7babbd62a976f681cee",
+      "text": "Désespoir"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "8f6b598ab39e705a61926a058596e1483dc7ba794fbf0fe8e1f1e5c6fa01e59c",
+      "text": "Fixes positive Coins to 100% Tails and negative Coins to 100% Heads. Loses 1 at Turn End. Rights: Ban applies it for next turn After Attack; Rights: Gaze applies it when the enemy wins the clash."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "dee608c1fdb74d51685bcbbbfb2b48a348b7fc94f294c947c10d83114c8cc544",
+      "text": "Their application conditions differ. Use another recipient or defense rather than forcing the affected Sinner into next turn's high-Power clash."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "b4adf4b1fae404f13596f4189a374922267af0a1f14c15612153982177044632",
+      "text": "Délaissement"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "18139cf17f9ff72277d3a4f63d9923c05e08b2d48cd8bfbe46c1c35104e3b146",
+      "text": "Maximum 5. Clash Power +1 and skill damage taken +10% per Stack. At 4 or more, remove all Stagger Thresholds, clear Stagger, and gain +1 slot weight at Turn Start."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "817dbefa486ee7397c1f13d0683393055ded01b99f92f88798458ed0b0ab219a",
+      "text": "Both offense and damage taken increase. Combine with Fragile to finish them instead of waiting for Stagger."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "bfc12652b71d8350f8d828134ae7355e05c170820c0b8c99f7a505ec6f371c38",
+      "text": "The Le Noir blueprint's special Charge. Gains 1 Potency per cumulative 10 Count consumed. Enables stronger Shields and damage from skills."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "9179022032659e5e51bcd89f000275a05e3d0cec8ceb8b2d02e5c81644be3ae4",
+      "text": "Do not leave its defensive Shield indefinitely; focus a blueprint that is easier to kill."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "f54991ea93094be4d14e475bc5990614eab68c879c8f28994d028c43755436ac",
+      "text": "Pulsation"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "f0c8547f486358c29d825d53c227e0b49f80e7968d06e20f00974383472ccfa1",
+      "text": "The Le Rouge blueprint's special Charge. Gains 1 Potency per cumulative 10 Count consumed. Self-damage from its own skills cannot lower HP below 1."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "0d8674f0b7c35932ae99348d97859265afc4ccfeed2def93bbd8ddaa4587b447",
+      "text": "Attack after self-damage. Do not wait for self-destruction; kill it before healing."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "dd70755be5038268fdcd1653f4af68ca7262f153fde734fd9e75aae40e094eec",
+      "text": "Rights: Ban"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "42cb8ec21c0b5d9591771f0143464bc53544d498513631c0a0dcaa3d961d8cbd",
+      "text": "A skill added to blueprints. Its first Coin is Unbreakable; applies Désespoir for next turn After Attack."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "5c7519883ee0c66775ad56930460d27b343fcf1a6604efa628efe80941a87d10",
+      "text": "Winning does not prevent application. Reconsider next turn's recipient."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "e61db7e562f1d9a6554af54dc67c4ba9b6f765fd23a608f1b0f2ebc99e43e6a4",
+      "text": "Rights: Gaze"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "0f24e5e0af01c470337f4137c5b893c0d49ac29f95f42dab66fae0a2761f43a2",
+      "text": "3 Atk Weight and two Unbreakable Coins. Strengthened by special Charge and negative effects. On a clash loss, deals 80% less damage and cannot Stagger targets with its damage."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "d9101d3e3568c23deb372affa6109c192cad53b0bd4ee965b2478cba3f5fe8eb",
+      "text": "Win with a high-Power recipient and prevent next-turn Désespoir too."
+    },
+    "warnings.0": {
+      "sourceHash": "b059e2a443cf6be38e5fb7baa3db02be55aa54fa240d34979533ff3ca0cd970b",
+      "text": "Meursault's death causes defeat in Phases 1 and 2. Do not carry over 1 HP protection from the Warden / Chaplain battle."
+    },
+    "warnings.1": {
+      "sourceHash": "7793176dd02bc8da49e937f2ae56ad91ebca7c61266f88d4317c69c82b53f615",
+      "text": "The waltz requires Skills 1, 2, and 3, not matching Coin counts or sin affinities."
+    },
+    "warnings.2": {
+      "sourceHash": "5a84ae2e42f904f85faba92c9f77607e230033d0b3d8e4a065b72c06acd9847f",
+      "text": "The Phase 2 body is immune to damage. Meursault's Stagger prevention does not grant that immunity."
+    },
+    "warnings.3": {
+      "sourceHash": "821f88e7e6c291a3cb116723eebf4b743fc40a70c537061e7a855b67753da66a",
+      "text": "The Phase 3 body cannot be attacked directly. Use Meursault to clash with transformed blueprints' required skills."
+    },
+    "warnings.4": {
+      "sourceHash": "b1857d963266175e804aef326fe521b857ad64ab03a73a2fcfafe019a06212e9",
+      "text": "Désespoir fixes Coin chances. Neither 45 SP nor high-Power E.G.O alone removes it."
+    },
+    "warnings.5": {
+      "sourceHash": "ea7cba9c9ba2831a2293601c96fe3614c3ce8c19fa59cc50f5ec5138e47ea372",
+      "text": "Rights: Rebuild kills On Hit. Progress through blueprint kills rather than assuming Meursault can take lethal hits."
+    },
+    "preparation.0": {
+      "sourceHash": "10108f0d50905eecb84817adf2fe065bab1d546a28c30dac75d1bbb50b81ba04",
+      "text": "Check Customer Lv. 65 and your E.G.O Threadspin. Skill-number requirements and blueprint cleanup make raw damage alone insufficient."
+    },
+    "preparation.1": {
+      "sourceHash": "5d42f3521b60c3476faca2ec47c2d543415010ddd5555c3c264d56fdde4894d1",
+      "text": "Prepare Meursault's HP recovery and Protection and other clash recipients. Phase 1 mainly uses Pierce; Phase 3 Le Noir mainly uses Blunt and Le Rouge Pierce."
+    },
+    "preparation.2": {
+      "sourceHash": "8250ac980214adeaf26d3da7f7d2f1d0c167bd797ec12ac9af950179318c0132",
+      "text": "Phase 1 blueprints are vulnerable to E.G.O and grant resources on death. Save area-attack and healing resources for Phase 3 required clashes and finishing damage."
+    },
+    "roles.0.name": {
+      "sourceHash": "7b4535b584aadc0ca70e1f827fd5eed6dcdf07dde6956224bf3ff7f1cd5f9627",
+      "text": "Meursault"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9c1c831bc7d24994ea1c2c6ab23bf7da196aaf84aa806d56a97bd196692f76df",
+      "text": "Handles the waltz's skill-number requirements and transformed blueprint clashes in Phase 3. Protect his HP first."
+    },
+    "roles.1.name": {
+      "sourceHash": "f476410e3c1cd3e6110572f80cb60796590f95b0937cc961fedc64b6ddedb729",
+      "text": "Damage to kill blueprints first"
+    },
+    "roles.1.reason": {
+      "sourceHash": "a2c198955a920b6293e4414c459509fdf7e8a20d41de5157074b9641f92d504f",
+      "text": "Prevents Phase 1 Focusing; in Phase 3, kills Fragile blueprints to lower body HP."
+    },
+    "roles.2.name": {
+      "sourceHash": "b39ee28b383b573f2742a4125000ede8a18c418ab2132055cae652653bdb9f76",
+      "text": "HP recovery and Protection"
+    },
+    "roles.2.reason": {
+      "sourceHash": "61facec6e350aeadbf8e1c6f0a0289a8ffad7f2a30d27dac0862d863e92a0ffd",
+      "text": "Recovers from Unbreakable hits and fixed unfavorable chances to keep Meursault alive."
+    },
+    "roles.3.name": {
+      "sourceHash": "87a4ccf23ac360b1da67a4332a4890ccf8d9283f44291cf45052f643dbed8d04",
+      "text": "High-Power clashes and alternate recipients"
+    },
+    "roles.3.reason": {
+      "sourceHash": "da0159ec443edf3a3bac438f4087ca497dce66b034b8dc5b444e2453832916bf",
+      "text": "Win Gaze to reduce damage and avoid forcing clashes on Sinners with Désespoir."
+    },
+    "units.0.name": {
+      "sourceHash": "bb5f6c173ed38df7188306f56bd19164856e443eeedba92aed00e16113f6177c",
+      "text": "Jeanne Sartre, the Sartorial Tailor (Phase 1)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "f38f27540ac565f7bdfe82437d4f1ef1c6548f1fabe03efc4fcbd24b41406ce7",
+      "text": "2,793 / next phase at 1,396"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "9d64b7c5da93a77c40d95d14db8a37c63a2b9b94963c1a06256f8c552cb12c20",
+      "text": "Starts at 45 SP. Meursault's death causes defeat."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "03c39c185501453592d0a47399aec5b9155e60fb922cd0adf7cfc9d4cfda8392",
+      "text": "Next phase at 50% body HP or less. Blueprint summons give a max-HP Shield, remove Stagger, and prevent Stagger."
+    },
+    "units.1.name": {
+      "sourceHash": "607e0904973d8e058f3fdd027442e3262d2e131f0a81c9544e3bfe4eb87f4275",
+      "text": "Grand Magasin Sisyphe Blueprint"
+    },
+    "units.1.part": {
+      "sourceHash": "d2f29a91c1009224b0c9c56a07ddf711a1681b9d54e9cfd2b2bf17ca0d381617",
+      "text": "Phase 1 · Torso"
+    },
+    "units.1.stagger": {
+      "sourceHash": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+      "text": "Unknown"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "d177c1ff79ddc1132ce835b38ccd61b61ec42a61d0779e188a92271ec5b6b00a",
+      "text": "Basic attack damage taken −50%; E.G.O damage taken +100%."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "f2552d4158ab3273e85d60cb42901e94c017aa08921074806995184d1f99bdf4",
+      "text": "Uses defense before the first hit to reduce that skill's damage."
+    },
+    "units.2.name": {
+      "sourceHash": "fa2be545f289bdaebb66aed89a27751c03d0f0395765e0e09a9833748535cfe9",
+      "text": "Jeanne-Marie Sartre (Phase 2)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "2a87f9db478e8b0760777a07e39f662d240674880b206eb049cc7dc1b8648170",
+      "text": "Maximum 2,793 / immune to damage in this phase"
+    },
+    "units.2.stagger": {
+      "sourceHash": "41b413e1d2b4dbfa1d328fdacb2b4e4d76dc5ba4f6f35e3e64cae27d2bccbc34",
+      "text": "Cannot be Staggered"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "7ae29a9383115fefb67988f0420c51b68dca9462140fe6ad740be59506c1a6f5",
+      "text": "HP damage does not advance the phase. At 100 Pathos, Phase 3 begins."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "2289a6b605240b2e1a88023ae28c735d60e39f635b3801fb96cccaf5884728cc",
+      "text": "Base Gluttony and Pride resistances are unconfirmed, separately from this phase's damage immunity."
+    },
+    "units.3.name": {
+      "sourceHash": "c02aebc6ac976d14b9bf321e44acfef26347f21c0028c68df2326bf82035402a",
+      "text": "Moulin Rouge - Jeanne-Marie Sartre"
+    },
+    "units.3.part": {
+      "sourceHash": "7eb9d33f9ab3d3994dfee4abaec57008057565b280b536471ca268c442cc14d2",
+      "text": "Phase 3; no directly targetable part"
+    },
+    "units.3.offField": {
+      "sourceHash": "020fa1b5e7c17ec9120ba1e34c48d283967078be2105450ab6c3d896d38aeed1",
+      "text": "The body cannot be attacked directly. Kill blueprints to lower body HP. Skills added to blueprints and the final special skill are grouped below."
+    },
+    "units.3.hp": {
+      "sourceHash": "ca5ff468ecfbf6179a5d4bd42edabdd87f4dde5d06fa36d509967dd0a4338c3b",
+      "text": "Maximum 2,793 / starts at 50%; phase ends at 10% or less"
+    },
+    "units.3.speed": {
+      "sourceHash": "b7a796b361a5ed5b245b8171c604decc30cb6ed2ecec1973e4f187489ade92c2",
+      "text": "Not applicable"
+    },
+    "units.3.stagger": {
+      "sourceHash": "b7a796b361a5ed5b245b8171c604decc30cb6ed2ecec1973e4f187489ade92c2",
+      "text": "Not applicable"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "5760f72bf9525a2fb117c7f53ba9936073d5f421c3122a4e6d75f7271fd6cef5",
+      "text": "Prioritize blueprint clashes and kills rather than looking for a direct body target."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "83c8d5e2d52706f15d70aabd1a2748b0e8c6e4bd8cbfcbed7b041e063eaef568",
+      "text": "SP fixed at 45. Each blueprint kill reduces body HP by 5%."
+    },
+    "units.4.name": {
+      "sourceHash": "dfd6d1f2757fe20ea0f4a0f935b222503e6bb37e0e940b13d2178f8609876979",
+      "text": "Sisyphe System Blueprint - Le Noir"
+    },
+    "units.4.part": {
+      "sourceHash": "3053a3a64bf451e67cfdbc119887fe35d1e7231908d2db3d1d01520efbe79b2d",
+      "text": "Phase 3; Body"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "c407882a5c4962be03f5aecfd3a08141a6ed767863e99ca93a584e429318a7b2",
+      "text": "Replenished to two of each type. Kills reduce body HP by 5% and give other blueprints Délaissement."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "bec49c9a89538246c1ac5105b6eec7176718555ab35c8c708d894d3cc671e887",
+      "text": "When transformed into the Sartorial Tailor, win the required clash with Meursault to inflict 5 Fragile every turn from next turn. Transformed skills appear in separate tabs under the same user."
+    },
+    "units.5.name": {
+      "sourceHash": "cbf07fa0cb63ec202793f873295d5fe32ad5a0219ef9cadb64c10b825df98e27",
+      "text": "Sisyphe System Blueprint - Le Rouge"
+    },
+    "units.5.part": {
+      "sourceHash": "3053a3a64bf451e67cfdbc119887fe35d1e7231908d2db3d1d01520efbe79b2d",
+      "text": "Phase 3; Body"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "c407882a5c4962be03f5aecfd3a08141a6ed767863e99ca93a584e429318a7b2",
+      "text": "Replenished to two of each type. Kills reduce body HP by 5% and give other blueprints Délaissement."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "bec49c9a89538246c1ac5105b6eec7176718555ab35c8c708d894d3cc671e887",
+      "text": "When transformed into the Sartorial Tailor, win the required clash with Meursault to inflict 5 Fragile every turn from next turn. Transformed skills appear in separate tabs under the same user."
+    },
+    "skills.0.name": {
+      "sourceHash": "8105af41770d790bc4b09d8e3d790251dc8e74cc954607ff44a84700d4dd5f4c",
+      "text": "Readying the Sartorial Nails"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a1649a5ff656fbb49f73003409b9b4c3813829cf4577a7299b3ad028df6542dd",
+      "text": "[On Use] Gain 3 Inertia of Drifting Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "c300a5198f687564653bc1d624f963be9c96cb400c1018e820bbd751f46661f3",
+      "text": "[On Use] Own Poise Count +2"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "8394fa5a08c2286a45f9ed1b5bb70a26152aa20ec27c310b38c07776096ffd1e",
+      "text": "A normal skill building Inertia of Drifting and Poise. Protect Meursault's HP and limit Sinking and Bind buildup. Offense Level is unconfirmed."
+    },
+    "skills.1.name": {
+      "sourceHash": "353772730397a138d947a86e1f4a1fd908b92552dbfea97bb7b95b14e2b8afb3",
+      "text": "Patterns and Designs"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a1649a5ff656fbb49f73003409b9b4c3813829cf4577a7299b3ad028df6542dd",
+      "text": "[On Use] Gain 3 Inertia of Drifting Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "c300a5198f687564653bc1d624f963be9c96cb400c1018e820bbd751f46661f3",
+      "text": "[On Use] Own Poise Count +2"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "634a9fe6c67317b3d05b74a8be87a1abcb16327f42d6e73baa58262388638e75",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "7eada5a60939cb3c3cda0cb20d6c857f2fac4cf58a88263a62f0415a1062d5eb",
+      "text": "[On Hit] Inflict 1 Sinking Count"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "2af862458d6d54d74c2b6d59aea700c190e9c6814ce4f0753a45ffff3ac1d51b",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Damage Down next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "57b3323dd177f0f760fbdf05573ac992e2664b4e49444174b105d41952e28adb",
+      "text": "Both Coins are Unbreakable. Win for 80% reduction and prepare for hits remaining after the clash."
+    },
+    "skills.2.name": {
+      "sourceHash": "fc3a481197de62f764cf00b9e181241091437ec78003ba66091c66080d4b2a9d",
+      "text": "Fixed Viewpoint"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "25502818d8ac56dba9065caa69f96b6aa7f7afe93a6348644e6db1c08e5aaa86",
+      "text": "[On Use] Consume all Inertia of Drifting Count; damage +25% per 3 Count consumed (max 50%)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "a1649a5ff656fbb49f73003409b9b4c3813829cf4577a7299b3ad028df6542dd",
+      "text": "[On Use] Gain 3 Inertia of Drifting Count"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "c300a5198f687564653bc1d624f963be9c96cb400c1018e820bbd751f46661f3",
+      "text": "[On Use] Own Poise Count +2"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "634a9fe6c67317b3d05b74a8be87a1abcb16327f42d6e73baa58262388638e75",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "9f2b1353f3887468eade9f4d23c8214b1d4f95d35eff2e7be735be8cc30eca80",
+      "text": "[On Hit Without Breaking] Inflict 1 Pierce Fragility this turn and next turn"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "7eada5a60939cb3c3cda0cb20d6c857f2fac4cf58a88263a62f0415a1062d5eb",
+      "text": "[On Hit] Inflict 1 Sinking Count"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.2.effects.11": {
+      "sourceHash": "f97a8bcddd7d2b8985e9d84b2fbf117991140495f147f9f484d725c12e0b8094",
+      "text": "[On Hit Without Breaking] Deal Pierce damage equal to (number of negative effect types on the target ×15)% of this Coin's final damage (max 45%)"
+    },
+    "skills.2.response": {
+      "sourceHash": "5daa482d0da9d9934fb5cd54f5fe2e32240da0f3e054de8b167df0db69708ee1",
+      "text": "Four Unbreakable Coins and 3 Atk Weight. Inertia of Drifting and negative effect types increase damage; win with a strong skill for 80% reduction."
+    },
+    "skills.3.name": {
+      "sourceHash": "b1fcb9c1f5b87921ea882681bcd3399aec8175c07b8fb67b68361a6023c25ddf",
+      "text": "Within Perspective"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "a56b0d39d528575bd5201b920b44af1a168466d9030f9834593de35bef0174d1",
+      "text": "[On Use] Final Power +1 per 2 Inertia of Drifting Count on self (max 5)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "fd0d98dd45338c75f2f627617b20752b7f3a5a7b391b19a7645cd157a411116c",
+      "text": "[On Evade] Heal 2% of own max HP"
+    },
+    "skills.3.response": {
+      "sourceHash": "8818f02aeff42677789c6ec270bc549e92ada207443bfaed6c9078826e2f6cdc",
+      "text": "Each successful Evade heals 2% max HP; Inertia of Drifting also raises Power. Avoid feeding it many weak attacks; use defensive offsetting or a skill that can win."
+    },
+    "skills.4.name": {
+      "sourceHash": "999ead4dd564cde2f11fb3d290509f2f61570a19857457aabe641a76afd8f4b0",
+      "text": "Focusing"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "8312890170d2765f5778a97ddaa3fe448e283d43dbaf82a8df360d2b8d9b80f0",
+      "text": "[Indiscriminate]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "7dae48ead44cd53b56e8a9ea572b1250c57df04e836b19778f2d6bf75e3b6430",
+      "text": "Prioritizes allies"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "1bdcb50283d9047a2ae99aec0feb7f7842c2c15e319c2598d3a573142bce8a69",
+      "text": "Does not activate Defense Skills"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "86d2a29f30430ef35a391e977c977e316b27f2e12a9751d4d075b4dec53b11bc",
+      "text": "[On Hit] If the target is an ally:"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "c23b7ca5c2c906abfe558fd3d0e9a35b3b9278d49e4d0c15d74647cef283097c",
+      "text": "- Kill the target"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "ef3980e87f073b8afb5ad70061abe415306b1636845133e6515c31ff4698a6f6",
+      "text": "- Gain Nailed"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "fcaf733a404b48a2e21e863f2a2b2f417ed862d1642adf15f7691632693495fe",
+      "text": "- Decreases by 1 at Turn End (does not decrease on the turn this effect was gained)"
+    },
+    "skills.4.label": {
+      "sourceHash": "6d43edace830ea1a2037f5e91d154f59803c5153e30ce97177f4c61b93aa8ef6",
+      "text": "Unclashable; cannot be redirected; does not activate defense; indiscriminate"
+    },
+    "skills.4.response": {
+      "sourceHash": "3a3f91457474e18cf7cbadb522186774e1a2f6a538fe1484ec4f2a8795327230",
+      "text": "Kills an allied blueprint and gains Nailed. Unclashable and cannot be redirected. Kill the blueprint first to prevent the gain."
+    },
+    "skills.5.name": {
+      "sourceHash": "c3e5ea6b96bcfaa4c826717562f5886b72800d496245346163914240d14930e5",
+      "text": "Department Store Blueprint"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "3e0a7500fda25df22a7b7f22b6974c6750c7572c1a25fc182e9c4e827e191a65",
+      "text": "[On Use] Skill damage taken −90% (once per turn)"
+    },
+    "skills.5.response": {
+      "sourceHash": "74831b842ed7f8df66b2920c9e6a8f0837beee07ce0d6e20dc60ba0aa4956979",
+      "text": "Automatically uses defense before the first hit, greatly reducing that skill's damage. Basic attacks are also reduced; exploit increased E.G.O damage to clear it."
+    },
+    "skills.6.name": {
+      "sourceHash": "20c94c11806c0c5a126bd04c19bfe77458e85c3e36126a99bb3f8625c6166b3b",
+      "text": "First Step"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "c78b761cbcfdd762c4dbc6a3e1ccbe68f87d8649694f17c5a94bb91db08b071b",
+      "text": "[Before Use] If Meursault's assigned clashing skill is not Skill 1, change to You've got to keep to the pattern."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "0f0cf0916c8441392633ffb748f797ee0f4f2cd9eb9f25d23a9ad8f16734c2ed",
+      "text": "[Clash Win] End this skill and use Those times when we chatted together at the café on the target"
+    },
+    "skills.6.response": {
+      "sourceHash": "f6cd787705392e779497a54c43ee91214b72aef0f451b8ecf38452abddb2699d",
+      "text": "Clash with Meursault's Skill 1. A wrong number changes it to a skill that fixes Coins unfavorably."
+    },
+    "skills.7.name": {
+      "sourceHash": "12a21a431947a0861390348908292cde8833fe3a200781dd89b25a6cbd6af205",
+      "text": "Second Pace"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "6d57ec1c190db1a4e15e520f0ec5aaefe2af1242c23b473a59780c6772cc5ae5",
+      "text": "[Before Use] If Meursault's assigned clashing skill is not Skill 2, change to You've got to keep to the pattern."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "0f0cf0916c8441392633ffb748f797ee0f4f2cd9eb9f25d23a9ad8f16734c2ed",
+      "text": "[Clash Win] End this skill and use Those times when we chatted together at the café on the target"
+    },
+    "skills.7.response": {
+      "sourceHash": "0360ac28f5fffadd9a63fcb04cdbacb99809ef20e55cbd25bf0f3aebb1bbdf16",
+      "text": "Clash with Meursault's Skill 2. Match the Identity skill number, not attack type or sin affinity."
+    },
+    "skills.8.name": {
+      "sourceHash": "893d9c8fbc57261f2ad0069af9cd703509c63d12b968ce1d46539596f7d4a305",
+      "text": "Third Movement"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "2a4bbfd712ad9ccd5a6c205613d04d266f7025827bb1f3468817286fa5585e1a",
+      "text": "[Before Use] If Meursault's assigned clashing skill is neither Skill 3 nor E.G.O, change to You've got to keep to the pattern."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "0f0cf0916c8441392633ffb748f797ee0f4f2cd9eb9f25d23a9ad8f16734c2ed",
+      "text": "[Clash Win] End this skill and use Those times when we chatted together at the café on the target"
+    },
+    "skills.8.response": {
+      "sourceHash": "9c515a4ce52cbc4023085f34c93d742cf04a85a77b012a1d73aef84cb676ac8e",
+      "text": "Clash with Meursault's Skill 3 or E.G.O. E.G.O is permitted for this requirement, not automatically for Skill 1 or 2 requirements."
+    },
+    "skills.9.name": {
+      "sourceHash": "d0d073636c988222881653bdb7765c27b25e00cc2bf87354e90299ad485fde1d",
+      "text": "You've got to keep to the pattern."
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "dbc4948fc28266ec755cec785bd82b6912a44b5473dbb3b8f1a4ae0a7e847de7",
+      "text": "This skill always deals Critical hits"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "8b769b4945259a0fdeb37b68ef96f5f5a5b843d36a73f8c6c795c068a59c9714",
+      "text": "[Clash Start] Fix the target's Coin Tails chance to 100%"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "b5fdda41d770512bccc46e916b4b4e319e5d12898d5999ce84d4c911d7d410f5",
+      "text": "- For negative Coins, fix Heads instead"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "7a7cd115dae77a1507ae810f66d9c8eabc05e745a17a1d3290da0f72e9fe8a73",
+      "text": "Ⅰ[On Hit] Increase own Pathos - Désir d'être by 3"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "bf3a483d247087585638be7b9cb790c7d9aa1519edfe4f0c5d25d4f5cec8d9fa",
+      "text": "Ⅱ[On Hit] Increase own Pathos - Désir d'être by 3"
+    },
+    "skills.9.response": {
+      "sourceHash": "d53892b9e7fcaecbfbc661cf030b5f906ddbfd39c2deb60825ee7aa5eabda5d9",
+      "text": "Punishment for the wrong assignment. Coin chances become unfavorable; match skill numbers instead of forcing higher Power."
+    },
+    "skills.10.name": {
+      "sourceHash": "09edb9c3cd810c326c2d4c2f00c3f537c5ace3f398694e7574b4ccd3b0cd8c47",
+      "text": "Those times when we chatted together at the café"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "2a482b624b5cf74028efa180c19ae2c73dec1c1a1159e32b331962a31c94967b",
+      "text": "This skill has the following effects"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "da09903bc7b806c12856fb0679bb3aeec30d4960b0cc1dd60fd7c0b3cf7c6098",
+      "text": "- Does not activate Defense Skills"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "f31ebac978d00c54cb72eb466a882279053f2914ff18f289d4145d8dd5390e08",
+      "text": "- Attacks do not hit"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "43a85e4adf64f051b1182ebfcee78b1776666700c02ae8e008e8a1d0e70038fe",
+      "text": "[On Use] Increase Pathos - Désir d'être and Logos - Manque d'être on self and the target by 5 each"
+    },
+    "skills.10.label": {
+      "sourceHash": "65744349cad4ae242d0d177192499e54ad215e452b80a834ff26dde76c810df5",
+      "text": "Unclashable; prevents Defense Skills from activating"
+    },
+    "skills.10.response": {
+      "sourceHash": "ccce7a1f8da14df59b7f358cc0da451b169437ff67b26b0d3abdcd4e400e527c",
+      "text": "A progression skill whose attack does not hit. Increases Pathos and Logos by 5 each. Do not judge it as a damage attack to stop based only on displayed Power."
+    },
+    "skills.11.name": {
+      "sourceHash": "c22791914aa2c62248cb1d55a634b5693bb711c2fe35f862fb04cdaf2851d429",
+      "text": "We had our little quarrels, yes."
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "76172dff71f99f617c5a5e8f06f684b1da2a93f8457e1fc57f368289090d5e9c",
+      "text": "[On Evade] Increase Pathos - Désir d'être and Logos - Manque d'être on self and the target by 4 each"
+    },
+    "skills.11.response": {
+      "sourceHash": "dcd505e65d939a3e48dbe3bfe226462d37a71c5b581ad1818579f1769d94a94e",
+      "text": "Evade activated on a clash loss or receiving an unopposed attack. Success increases progression effects. Displayed Power is unconfirmed; do not base actions on an estimated maximum."
+    },
+    "skills.12.name": {
+      "sourceHash": "dd70755be5038268fdcd1653f4af68ca7262f153fde734fd9e75aae40e094eec",
+      "text": "Rights: Ban"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "3d0ef83b1ad52a8faac9c08d2ddb8b01801a0f3bfba224e753e65cfe5cf91715",
+      "text": "[After Attack] Inflict 1 Désespoir next turn"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "13d728b58315c9319eee7b5781decac35f10194429cde92fc1cf7dd27a526969",
+      "text": "If the Coin is unbroken, damage +20%"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "a7ea160d4fd8a54f9958826d34320a3113f0a5e342800ca3baad7e00b72c8369",
+      "text": "[On Hit Without Breaking] Inflict 1 Fragile"
+    },
+    "skills.12.label": {
+      "sourceHash": "251e794ce9701aaff16236e014417270244974c9cf5d9eceff5245fdafdbeb91",
+      "text": "Phase 3 granted and special skills"
+    },
+    "skills.12.response": {
+      "sourceHash": "436e01a012c414505e40c2bfab2f2e89134a1e898ee6251394852face33b92f7",
+      "text": "Added to blueprints. Applies Désespoir for next turn After Attack regardless of the clash result. Do not fix the recipient to the next important clash."
+    },
+    "skills.13.name": {
+      "sourceHash": "a38b0805d4f600f8025f4931cd2855347a0599fe39803fa7927defc22005baac",
+      "text": "At least on this stage, everything's set and fixed."
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "055bc7bfeb5e3d41967472c6afce0fddc51ed6e7953043076bd40c8cb3969bea",
+      "text": "Ⅰ[Before Use] If the assigned clash opponent is not Meursault, or this skill attacks unopposed, change to You went off-pattern."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "b945a8a3cccdf73bac025ddb129af14b99923f7a7684881cf5328a772614bcdf",
+      "text": "[Clash Lose] Increase Meursault's Logos - Manque d'être by 10"
+    },
+    "skills.13.label": {
+      "sourceHash": "251e794ce9701aaff16236e014417270244974c9cf5d9eceff5245fdafdbeb91",
+      "text": "Phase 3 granted and special skills"
+    },
+    "skills.13.response": {
+      "sourceHash": "9fcc983cf08dc8eadca51e460c5ab1c887691114c3a4acb58c28fd79eed34ac0",
+      "text": "Always clash with the transformed blueprint's skill using Meursault and win. Another Sinner or an unopposed attack changes it to the punishment skill."
+    },
+    "skills.14.name": {
+      "sourceHash": "f1ffd649664242da614ee4b249d845bb3453654dee9ef743ef41efdd8805245d",
+      "text": "You went off-pattern."
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "dbc4948fc28266ec755cec785bd82b6912a44b5473dbb3b8f1a4ae0a7e847de7",
+      "text": "This skill always deals Critical hits"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "8b769b4945259a0fdeb37b68ef96f5f5a5b843d36a73f8c6c795c068a59c9714",
+      "text": "[Clash Start] Fix the target's Coin Tails chance to 100%"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "b5fdda41d770512bccc46e916b4b4e319e5d12898d5999ce84d4c911d7d410f5",
+      "text": "- For negative Coins, fix Heads instead"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "833ee04d1258c22c198cdb056b8a1c8dd39635838b855edd095517c531d162bc",
+      "text": "[After Attack] Heal 50% max HP"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.14.label": {
+      "sourceHash": "251e794ce9701aaff16236e014417270244974c9cf5d9eceff5245fdafdbeb91",
+      "text": "Phase 3 granted and special skills"
+    },
+    "skills.14.response": {
+      "sourceHash": "bb35dda386f8cec52baf5914ce6ccde8c2757c40fc8f1bc0950d8f3808894188",
+      "text": "Punishment for a wrong assignment. Fixes Coin chances unfavorably and heals 50% max HP After Attack. Avoid it by assigning Meursault to the original skill."
+    },
+    "skills.15.name": {
+      "sourceHash": "501cfbe27dedaadd65f797529b99f6aa6c08a87a1f41e2ee561bc5b0f37c23b3",
+      "text": "The designing was up to this point."
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "a27c9f5045b9c0115556250936141072c37cc0fad05d31b67b3d2ce61baea842",
+      "text": "[On Use] Final Power +1 per 2 special Charge Count on self (max 5)"
+    },
+    "skills.15.label": {
+      "sourceHash": "251e794ce9701aaff16236e014417270244974c9cf5d9eceff5245fdafdbeb91",
+      "text": "Phase 3 granted and special skills"
+    },
+    "skills.15.response": {
+      "sourceHash": "8b6cfd2a7541868474a63f4a5194e2b72c0a1830f05309cde90940ca1586d3c3",
+      "text": "Special Charge Count raises Evade Power. Avoid unnecessary unopposed attacks and prioritize Meursault's required clash on transformed blueprints."
+    },
+    "skills.16.name": {
+      "sourceHash": "e61db7e562f1d9a6554af54dc67c4ba9b6f765fd23a608f1b0f2ebc99e43e6a4",
+      "text": "Rights: Gaze"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "173c0f91875ec182419969a4b9515ac23421e9065e7add3785e8dceb0981c7df",
+      "text": "[On Use] Final Power +1 per combined 4 special Charge Potency and Count on self (max 3)"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "93e32c1e432e6b4494e8617d035516876e8651b342007b34a90edac72531167e",
+      "text": "[On Use] Damage +10% per combined 2 negative effect types across all targets (max 50%; the same effect on different targets counts separately)"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "ba097352c1bb878797ff0873b29f69c81bd9d6f9dca0d31a81d445b1a3b60c9c",
+      "text": "[Clash Win] Inflict 1 Désespoir next turn"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "634a9fe6c67317b3d05b74a8be87a1abcb16327f42d6e73baa58262388638e75",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "d10a0d80bc0e0c3065a1a3217bd25cd7cb46c2af055205bb29e5b3fbadaceb40",
+      "text": "If the Coin is unbroken, damage +50%"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "1446b5078f7b62d49f670e56058d9015522ea58e19614efe5a909f22c288c581",
+      "text": "[On Hit Without Breaking] Inflict 2 DMG Down next turn"
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.16.effects.8": {
+      "sourceHash": "b7bd4a68759ec0c3ceb6140ea324defc60838329cbcf46de1aea7c6edbe5266f",
+      "text": "If the Coin is unbroken, damage +50%"
+    },
+    "skills.16.effects.9": {
+      "sourceHash": "0e545a807a817abe84bc6c0e7d776bb790c0d9f61180039a5b12f5d3e6725a7f",
+      "text": "[On Hit Without Breaking] Inflict 2 Bind next turn"
+    },
+    "skills.16.label": {
+      "sourceHash": "251e794ce9701aaff16236e014417270244974c9cf5d9eceff5245fdafdbeb91",
+      "text": "Phase 3 granted and special skills"
+    },
+    "skills.16.response": {
+      "sourceHash": "684e03e6c79fcf595e03cede7a01c4d5a10e9f45d86189679a71cc7ee5b823b4",
+      "text": "Added to blueprints, with 3 Atk Weight and two Unbreakable Coins. Win for 80% reduction and to prevent next-turn Désespoir."
+    },
+    "skills.17.name": {
+      "sourceHash": "eb9159f55fd08ee287389e38b5ca45e4900f36f28c53c65206e09108630e9581",
+      "text": "Rights: Rebuild"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "4ff5a67f315161d09f9410fd200a473e9bdb393b2b1eff90d4f0e113c0e4b007",
+      "text": "Sets Meursault as the main target"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "8e3ff05c776e55ad4775a1defc70209939c5b0387cbb69a527beb010d4ecfc33",
+      "text": "[Clash Start] Fix own Coin Heads chance to 100%"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "e39e2db851d88491038df01131b4032e6fe0c1d5895d23bc1669eddd07c31e84",
+      "text": "[On Hit] The target dies"
+    },
+    "skills.17.label": {
+      "sourceHash": "91c4037b8b58375c9cac2d35d61ce9231633613c76ebe99d606c8e64c3840d04",
+      "text": "Cannot be redirected; does not activate defense; Phase 3 granted and special skills"
+    },
+    "skills.17.response": {
+      "sourceHash": "0e852dc06961963d7d2947baff7c42f2b1cd1f32b642ccba4c96433717496ed0",
+      "text": "Special skill targeting Meursault, with 100% Heads and death On Hit. Ordinary resistance and HP healing cannot tank it. Prioritize blueprint kills and reaching 10% body HP or less in Phase 3."
+    },
+    "skills.18.name": {
+      "sourceHash": "4812cc881cdf98952875636b10a713c5865324059d504786e2eec8fb24af4e0b",
+      "text": "Tailoring: \"Conserve.\""
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "be033acdc0c369d894e0b442449d7fbd1e1374c563cf953f8540e6bce9cf58a4",
+      "text": "[On Use] Gain 5 Preservation Count"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "b88f8c010621b412351d379da9f72c2e0615a2e36cdd168895c0e9c9cdcb893e",
+      "text": "- Gain 5 more if the target has Tremor"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.18.response": {
+      "sourceHash": "a5f805b3f6face4810aa24db88fdb2a262fc6c125aab58393983deb4b10f6c4c",
+      "text": "Applies Tremor and builds Preservation Count. Gains more Preservation against Tremor holders; check recipients and buildup."
+    },
+    "skills.19.name": {
+      "sourceHash": "590c1cc3037c15b1c49475df8a1270c1aef6826c3819b2120255ab09efdbba8e",
+      "text": "Tailoring: \"Witness in silence.\""
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "be033acdc0c369d894e0b442449d7fbd1e1374c563cf953f8540e6bce9cf58a4",
+      "text": "[On Use] Gain 5 Preservation Count"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "b88f8c010621b412351d379da9f72c2e0615a2e36cdd168895c0e9c9cdcb893e",
+      "text": "- Gain 5 more if the target has Tremor"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "04b7fa7101e9ce1c5f759720913216af27b69de60a5418d643819aead90ea50f",
+      "text": "[On Use] Final Power +1 per 2 Preservation Count on self (max 2)"
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "c2419d99c55dc76d5bd27a5b8fd02d3a7e7e43bd288e254514335a2beef83948",
+      "text": "[On Use] At 10 or more Preservation Count, inflict 5 Tremor Potency on every Coin hit"
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "1b3d4961d7c75425497f768a7f42294320710f2c9c411ad6e56afa6a0dac09d0",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor Count"
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "a7920d73206386c69b7f6d1560c08cdbcd97f44915ede72ac767c7e73a712986",
+      "text": "Ⅱ[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.19.response": {
+      "sourceHash": "980387f7fe29aa77ff249e2fc13b3f9d8c976ec746334d14c6c72353346a7b5d",
+      "text": "Preservation increases Power; also triggers Tremor Burst. Prevent unopposed hits on heavily debuffed Sinners and focus blueprints you can finish."
+    },
+    "skills.20.name": {
+      "sourceHash": "c2bd7ea3876636202bc6e689528b703a577197f105d6ffcef65b1ea0c2de4876",
+      "text": "Tailoring: \"Let all be pinned.\""
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "8315de0217af6cb33b6b4416d06ff97cd92fd820b826e731ff37c036802ff97d",
+      "text": "Damage +4% per Preservation on self (max 20%)"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "c7552b312deded1eec4165328865f80e2b1aa4d80066083edbf2198d857de8db",
+      "text": "[On Use] Consume all Preservation Count; Final Power +1 per 2 Count consumed (max 3)"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "1f9867226f33afc72eedc96e04fbed493f152726817dca70e355cad7b3dcdf1d",
+      "text": "- If at least 10 was consumed, inflict 5 Tremor Potency on every Coin hit"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "1b3d4961d7c75425497f768a7f42294320710f2c9c411ad6e56afa6a0dac09d0",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor Count"
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "a06cfbc974b50e158a232e7ca22f98ece13db2d4b82621c9e8c63181deb43702",
+      "text": "Ⅱ[On Hit] Deal Sloth damage equal to (target's Tremor Potency)% of this Coin's final damage"
+    },
+    "skills.20.response": {
+      "sourceHash": "fb24a70ec016cf12a952a1ae5c58ef4c9157456a3b84623672b2f99e3516f2dc",
+      "text": "High-Power skill consuming all Preservation Count. Adds Sloth damage based on Tremor; do not assume Stagger alone makes it safe."
+    },
+    "skills.21.name": {
+      "sourceHash": "de93592137f130cfe4ba9b790815795ee623c767e5c93b6a6d689d8127f16b21",
+      "text": "Tailoring: \"Cometh the nail.\""
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "93c83d368769488a65ba15bb524048aa7ceb0ef05784a071ba2a39e98ed24e3e",
+      "text": "[Combat Start] Gain a Shield equal to 25% max HP this turn and next turn (minimum 1)"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "41fb2c7892fa228d524ea7062c02b1a5db5a29d568d48e229747f4eb33e362f9",
+      "text": "- At 2 or more Preservation, gain 40% instead"
+    },
+    "skills.21.response": {
+      "sourceHash": "38db48f6bb38b32e9f1024d0de43791d36274642a07e08cba52e73a9cb7405fe",
+      "text": "Shield-granting defense. If difficult to finish, focus another blueprint with Fragile."
+    },
+    "skills.22.name": {
+      "sourceHash": "d18ab7522663d3feb244690695f2f7080b9e6d72f010bcd3170fc5b816e286d5",
+      "text": "Pattern: \"Desire.\""
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "0a9fb716070121b116e50caeeae730635b49112fda9413754ab7e65345e9f3cb",
+      "text": "[On Use] If Pulsation Count is not at maximum, consume 5% max HP to gain 10 Pulsation Count"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.22.response": {
+      "sourceHash": "8d67565342cf031e3fbbbf68accd8beb7fdd7800e37b2749bae88687627118d6",
+      "text": "Builds Pulsation Count through self-damage. Focus damage after its HP drops, but later skills strengthen with lost HP."
+    },
+    "skills.23.name": {
+      "sourceHash": "803f1ea153d10441b2a1f1e7ec478e76287e8495eef89f2e0d98cd69c54c0b34",
+      "text": "Pattern: \"Don.\""
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "0a9fb716070121b116e50caeeae730635b49112fda9413754ab7e65345e9f3cb",
+      "text": "[On Use] If Pulsation Count is not at maximum, consume 5% max HP to gain 10 Pulsation Count"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "e323674b203b37b9cb75eb72fe57239869c89d5e7925523823a8779f980d8561",
+      "text": "[On Use] Consume 5 Pulsation Count for Final Power +2"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "0436ec7a6119ecb0702c7acc29583fd6c617a049d72e3868ef4b409965ec1d9a",
+      "text": "[On Hit] Inflict 2 Bleed Count (Coin number unconfirmed)"
+    },
+    "skills.23.label": {
+      "sourceHash": "0ad09dcd117a908d60b2188d0f8f9e636128150ca769fb1da1aecfa0739b4716",
+      "text": "Effect Coin number unconfirmed"
+    },
+    "skills.23.response": {
+      "sourceHash": "7095e9b289d9661449a4ad4a81d145ff9c42ea38ee7b9b5be52b974e1c42da6f",
+      "text": "Consumes Pulsation for +2 Final Power. One Coin is listed, but effect numbering disagrees; the Bleed Count effect's Coin number is unconfirmed."
+    },
+    "skills.24.name": {
+      "sourceHash": "0dff1ae51eab3a11bcd901fc870d4b51f9db7fbd15a10632ad31e4f1da5764f3",
+      "text": "Pattern: \"Consume.\""
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "54be53e81064f4c6d2a8196ba2b35c77b97fdac9e45a4448af84ff364c604154",
+      "text": "[On Use] Damage +3% per 2% HP lost (max 60%)"
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "92674889f2cffe81fdf0c6fb8af649c81f93875be2840abfaedd6488f39b114d",
+      "text": "[On Use] Consume all Pulsation Count; Final Power +1 per 2 Count consumed (max 3)"
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "308fc8084b1312b120d427b87c1580c49823e43a95858db680bbb19bec9994f5",
+      "text": "Ⅰ[On Hit] Inflict 1 Lust Fragility"
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "82528285afa37713f7ce72c6426ed52844407f8f22c3244e64f9431a8a28befb",
+      "text": "Ⅱ[On Hit] Deal Lust damage equal to (own percentage of HP lost)% of this Coin's final damage"
+    },
+    "skills.24.response": {
+      "sourceHash": "d0fd4a772344df96b399449845c8ae41a58c03d1608b51a6c553f4a0522a3f04",
+      "text": "Lost HP and Pulsation increase damage. Do not ignore a nearly dead blueprint; kill it first or clash with a strong recipient."
+    },
+    "skills.25.name": {
+      "sourceHash": "6a7ae2a38350fa7ee5e76222d4b695f67d74bc1d11e7ef3aac07761271a5bbf8",
+      "text": "Pattern: \"Scrape and gather.\""
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "d5cfe40f60a66b570f7e66aa460438b18d90e5361efd59d8f957805d5759bf13",
+      "text": "[On Use] Heal 25% max HP"
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "68bcf9d0bec8265418c9606b82a22630bdd0d97d7a637d26ea69f6182a829998",
+      "text": "- At 2 or more Pulsation, heal 50% instead"
+    },
+    "skills.25.response": {
+      "sourceHash": "bb45e3a349f591ee4f5539f0deb42ba217dcfb68ba111d34334035e3578ce552",
+      "text": "Heals 25% max HP On Use, or 50% at 2 or more Pulsation. Concentrate enough damage to finish instead of repeatedly chipping it."
+    },
+    "skills.26.name": {
+      "sourceHash": "a38b0805d4f600f8025f4931cd2855347a0599fe39803fa7927defc22005baac",
+      "text": "At least on this stage, everything's set and fixed."
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "055bc7bfeb5e3d41967472c6afce0fddc51ed6e7953043076bd40c8cb3969bea",
+      "text": "Ⅰ[Before Use] If the assigned clash opponent is not Meursault, or this skill attacks unopposed, change to You went off-pattern."
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "b945a8a3cccdf73bac025ddb129af14b99923f7a7684881cf5328a772614bcdf",
+      "text": "[Clash Lose] Increase Meursault's Logos - Manque d'être by 10"
+    },
+    "skills.26.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.26.response": {
+      "sourceHash": "b44232ee373d5791379696994200f93aeddfb88ad1a615655569772c1d55a370",
+      "text": "Transformed skill. Winning its clash with Meursault makes this blueprint gain 5 Fragile every turn from next turn. Do not assign another Sinner."
+    },
+    "skills.27.name": {
+      "sourceHash": "a38b0805d4f600f8025f4931cd2855347a0599fe39803fa7927defc22005baac",
+      "text": "At least on this stage, everything's set and fixed."
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "055bc7bfeb5e3d41967472c6afce0fddc51ed6e7953043076bd40c8cb3969bea",
+      "text": "Ⅰ[Before Use] If the assigned clash opponent is not Meursault, or this skill attacks unopposed, change to You went off-pattern."
+    },
+    "skills.27.effects.1": {
+      "sourceHash": "b945a8a3cccdf73bac025ddb129af14b99923f7a7684881cf5328a772614bcdf",
+      "text": "[Clash Lose] Increase Meursault's Logos - Manque d'être by 10"
+    },
+    "skills.27.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.27.response": {
+      "sourceHash": "b44232ee373d5791379696994200f93aeddfb88ad1a615655569772c1d55a370",
+      "text": "Transformed skill. Winning its clash with Meursault makes this blueprint gain 5 Fragile every turn from next turn. Do not assign another Sinner."
+    },
+    "skills.28.name": {
+      "sourceHash": "f1ffd649664242da614ee4b249d845bb3453654dee9ef743ef41efdd8805245d",
+      "text": "You went off-pattern."
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "dbc4948fc28266ec755cec785bd82b6912a44b5473dbb3b8f1a4ae0a7e847de7",
+      "text": "This skill always deals Critical hits"
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "8b769b4945259a0fdeb37b68ef96f5f5a5b843d36a73f8c6c795c068a59c9714",
+      "text": "[Clash Start] Fix the target's Coin Tails chance to 100%"
+    },
+    "skills.28.effects.2": {
+      "sourceHash": "b5fdda41d770512bccc46e916b4b4e319e5d12898d5999ce84d4c911d7d410f5",
+      "text": "- For negative Coins, fix Heads instead"
+    },
+    "skills.28.effects.3": {
+      "sourceHash": "833ee04d1258c22c198cdb056b8a1c8dd39635838b855edd095517c531d162bc",
+      "text": "[After Attack] Heal 50% max HP"
+    },
+    "skills.28.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.28.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.28.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.28.response": {
+      "sourceHash": "06d64494affd78abd4135cd8480fd37c58f15cb9c721cf742e53464c70427c9c",
+      "text": "Punishment when Meursault is not assigned. Fixes Coin chances and heals heavily. Assign the correct recipient to the original skill."
+    },
+    "skills.29.name": {
+      "sourceHash": "f1ffd649664242da614ee4b249d845bb3453654dee9ef743ef41efdd8805245d",
+      "text": "You went off-pattern."
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "dbc4948fc28266ec755cec785bd82b6912a44b5473dbb3b8f1a4ae0a7e847de7",
+      "text": "This skill always deals Critical hits"
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "8b769b4945259a0fdeb37b68ef96f5f5a5b843d36a73f8c6c795c068a59c9714",
+      "text": "[Clash Start] Fix the target's Coin Tails chance to 100%"
+    },
+    "skills.29.effects.2": {
+      "sourceHash": "b5fdda41d770512bccc46e916b4b4e319e5d12898d5999ce84d4c911d7d410f5",
+      "text": "- For negative Coins, fix Heads instead"
+    },
+    "skills.29.effects.3": {
+      "sourceHash": "833ee04d1258c22c198cdb056b8a1c8dd39635838b855edd095517c531d162bc",
+      "text": "[After Attack] Heal 50% max HP"
+    },
+    "skills.29.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.29.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.29.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.29.response": {
+      "sourceHash": "06d64494affd78abd4135cd8480fd37c58f15cb9c721cf742e53464c70427c9c",
+      "text": "Punishment when Meursault is not assigned. Fixes Coin chances and heals heavily. Assign the correct recipient to the original skill."
+    },
+    "skills.30.name": {
+      "sourceHash": "501cfbe27dedaadd65f797529b99f6aa6c08a87a1f41e2ee561bc5b0f37c23b3",
+      "text": "The designing was up to this point."
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "a27c9f5045b9c0115556250936141072c37cc0fad05d31b67b3d2ce61baea842",
+      "text": "[On Use] Final Power +1 per 2 special Charge Count on self (max 5)"
+    },
+    "skills.30.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.30.response": {
+      "sourceHash": "63ec9f35b846856c9b51e67ae417e7e2d4268c531e685879a6fae59aa7135430",
+      "text": "Evade while transformed. Special Charge increases Power. Prioritize Meursault's required clash instead of forcing extra attacks through."
+    },
+    "skills.31.name": {
+      "sourceHash": "501cfbe27dedaadd65f797529b99f6aa6c08a87a1f41e2ee561bc5b0f37c23b3",
+      "text": "The designing was up to this point."
+    },
+    "skills.31.effects.0": {
+      "sourceHash": "a27c9f5045b9c0115556250936141072c37cc0fad05d31b67b3d2ce61baea842",
+      "text": "[On Use] Final Power +1 per 2 special Charge Count on self (max 5)"
+    },
+    "skills.31.label": {
+      "sourceHash": "094c47a99ac1587b97917d9d7aabf5b3cc8fc98f407f8d86150560f1d1186669",
+      "text": "While transformed into the Sartorial Tailor"
+    },
+    "skills.31.response": {
+      "sourceHash": "63ec9f35b846856c9b51e67ae417e7e2d4268c531e685879a6fae59aa7135430",
+      "text": "Evade while transformed. Special Charge increases Power. Prioritize Meursault's required clash instead of forcing extra attacks through."
+    },
+    "passives.0.name": {
+      "sourceHash": "78b9f022673b889bc65d042cfdbe22e697da56f0681df1f66de66f2181d2f711",
+      "text": "Sartre"
+    },
+    "passives.0.effect": {
+      "sourceHash": "b085c32fa061279431544455ae6aa5b531cd10b9cb2f834b53b3b61d0fc1da8c",
+      "text": "Every three turns, summon 3 Grand Magasin Sisyphe Blueprints and gain a Shield equal to own max HP.\n- Remove Stagger if present and cannot become Staggered that turn.\n\nKilling blueprints with Focusing grants Nailed.\n\nAt 3 Nailed, change it to Engagement.\nIf no blueprint is killed by own Focusing, gain 1 Fragile next turn."
+    },
+    "passives.0.condition": {
+      "sourceHash": "b73c488a8b5bc8479e5cb50c2b88b004844b2ba68066e1ed4f9d2e6d9659e417",
+      "text": "Summoning and Focusing every three turns"
+    },
+    "passives.0.response": {
+      "sourceHash": "1cee395fa162234d2d65d539cd59bf1daeff5ac5efa0485032a8bc17c7c87a65",
+      "text": "Kill blueprints first to prevent Nailed. Avoid concentrating excessive direct damage into the body's summon Shield."
+    },
+    "passives.1.name": {
+      "sourceHash": "9f7345eb39a211a1720656b2ab7e26b1127aec9709c47e913457151d112196d0",
+      "text": "You know, I..."
+    },
+    "passives.1.effect": {
+      "sourceHash": "b066fc7a508de3c54ff78f4aa86c0bbe43a916613c02fb949daf41bf360d735c",
+      "text": "At Stage Start, begin at 45 SP.\n\nMeursault's death causes the Sinners to lose.\n\nAt 50% HP or less, stop taking damage and change phases.\n- On transition, remove dispellable negative effects."
+    },
+    "passives.1.condition": {
+      "sourceHash": "45d444baa340874096a855b65d5115eb6fee80532821c65b6e5e7b84eef642ab",
+      "text": "Meursault death and body at 50% HP or less"
+    },
+    "passives.1.response": {
+      "sourceHash": "d3509f70dd7195f56866df1a78cb499a1cf954efc5827b517fe15d00b463138c",
+      "text": "Meursault's death causes defeat. Do not assume The Stranger's survival effect from the preceding Chaplain battle applies."
+    },
+    "passives.2.name": {
+      "sourceHash": "7e9f36cb7a435b892efde2023562c815650dddc3bf22815665c3ba56929306f3",
+      "text": "Mauvaise Foi"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c8a4eddfe5493eeb6eb92a512ce4d01683ec0c5881b8cf901472b9a6671b3aa5",
+      "text": "Gain 1 Inertia of Drifting Potency per cumulative 10 Count consumed during battle.\n- Inertia of Drifting Count does not decrease at Turn End.\n\nAt Turn End, gain Poise Potency equal to Inertia of Drifting Count (max 10).\nAt Turn End, gain Poise Count equal to Inertia of Drifting Potency (max 5).\n\nDamage taken from Burn, Bleed, Tremor, Rupture, and Sinking −60%.\n- Stagger Threshold rise from Tremor −60%.\n\nGain +1 Clash Power per 10 clash exchanges against the same target."
+    },
+    "passives.2.condition": {
+      "sourceHash": "5be69b27d3e0a82887dbc16810e1df943e0ac5c4820154e288af7e6b3b60341d",
+      "text": "Inertia of Drifting consumption and long clashes"
+    },
+    "passives.2.response": {
+      "sourceHash": "eb274cc44ea7ddf55ac9bd0ef3557caad04f4655ee27d620d54c78405b219b40",
+      "text": "Status damage and Tremor threshold rise are reduced by 60%. Status-only damage or prolonged clashes do not guarantee victory."
+    },
+    "passives.3.name": {
+      "sourceHash": "cda36ace03d02c47fae7250c935abc3f76f4230b77b85cd33d5c2ecc8b60ea35",
+      "text": "Remember the rhythm of the waltz?"
+    },
+    "passives.3.effect": {
+      "sourceHash": "e70fdc1e544d77dcca0e1205f6a1ea609a302261fa8cc1ea8e379e7beca3c3ba",
+      "text": "If a clash lasts at least 4 exchanges, per 4 exchanges, the unit that won the third exchange gains +15% damage (up to 3 times).\n- If that skill also won the first exchange, Final Power +1."
+    },
+    "passives.3.condition": {
+      "sourceHash": "72e65dbbadd84910f0326eeef66b39984f57097ed9c36a4a2519a220968639bf",
+      "text": "Clashes lasting at least four exchanges"
+    },
+    "passives.3.response": {
+      "sourceHash": "b9d28b2e9dfbf50be508291e98ed27cdb313d786852f97647faa09956fc390ed",
+      "text": "Clash progression changes damage. Displayed Power alone cannot determine the result."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.4.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.4.response": {
+      "sourceHash": "a499fb1bdbd7b475f3dce061cde03d3cda83662451fc3689e681696dac8216fb",
+      "text": "Lowering SP does not keep Panic active indefinitely."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "35f108d2072db9c467135d4082f121aa413528f6d0da45cc7cf5c92ef86f2538",
+      "text": "Gaining an effect that changes Panic type"
+    },
+    "passives.5.response": {
+      "sourceHash": "9da00886be7e8a6936ba3f7f5dcda988bd32e82574554e6474f6a63e7507fe3e",
+      "text": "Do not rely on normal Panic-type changes to stop actions."
+    },
+    "passives.6.name": {
+      "sourceHash": "09cdb5610cbb0982ae2a9b31ee7f750f08f647266f129528d7341bd5e1d682b5",
+      "text": "Outfit Ensemble Blueprint"
+    },
+    "passives.6.effect": {
+      "sourceHash": "e04e8b6b3f8af02a2d05ae8e22f5340552790002e9ed15df8c58cb5ea7d09277",
+      "text": "Before the first hit in battle, use the equipped Department Store Blueprint regardless of targeting, once per turn.\n\nBasic skill damage taken −50%.\nE.G.O skill damage taken +100%.\n\nDies when hit by Jeanne Sartre, the Sartorial Tailor's Focusing."
+    },
+    "passives.6.condition": {
+      "sourceHash": "f21201e3bfbe09d21b4dab9e14c1d4a861bfc0527199cfaace3e3d1280908f33",
+      "text": "Phase 1 blueprint, before the first hit"
+    },
+    "passives.6.response": {
+      "sourceHash": "28f296734be7e8121e9bff4bfba94136b124f55e117b96e7ebea1d659d1a7677",
+      "text": "Basic attacks are reduced; E.G.O works well. Kill before Focusing to prevent Nailed."
+    },
+    "passives.7.name": {
+      "sourceHash": "1d7ab49c2ee6a13d312cf5758b6df55ecafd91009a5d1bc65c117e04c43ca6e0",
+      "text": "Blueprint of the Self"
+    },
+    "passives.7.effect": {
+      "sourceHash": "61a6e55c435324ae43ae7960abc56fcdef15c1af80de3ece4530c4678a7e8e94",
+      "text": "When killed by a Sinner's skill, grant 5 total E.G.O resources one at a time to the affinity with the lowest reserves.\nIf multiple affinities tie for lowest, select randomly."
+    },
+    "passives.7.condition": {
+      "sourceHash": "010921819d066fa5d4e6131b5a9cfc502702f7fbe859ab38bc9f33b197ba401c",
+      "text": "Blueprint killed by a Sinner's skill"
+    },
+    "passives.7.response": {
+      "sourceHash": "3295b34e9d09a74350c0aeaff6e8c4312a193380cd5361820f96a0a2255f5ed3",
+      "text": "Gain 5 total resources of scarce affinities. Turn blueprint cleanup into the next area attack and healing."
+    },
+    "passives.8.name": {
+      "sourceHash": "fdb75848f877d65f1f7a6f411942890f26abfc8cff8db4573be8f3c08de7f97e",
+      "text": "Remember the experience of the waltz?"
+    },
+    "passives.8.effect": {
+      "sourceHash": "7d799c434db86dda0ec95a3f5b408afc9175be4d723df5fd80b31f25272d6915",
+      "text": "Take no damage during this phase.\n\nAt Turn Start, gain 1 Être-pour-soi and 1 Pathos - Désir d'être; grant Meursault 1 Être-pour-autrui and 1 Logos - Manque d'être (once per battle).\n\nOn receiving an unopposed attack or losing a clash, activate We had our little quarrels, yes.\nGenerate specific skills in Meursault's upper slot."
+    },
+    "passives.8.condition": {
+      "sourceHash": "50ca992dc26c908117bb0968469aa8b4acf13e7b464e6c99817a8ef64a78c522",
+      "text": "Phase 2 start, unopposed attacks, and clash losses"
+    },
+    "passives.8.response": {
+      "sourceHash": "3526e5aa6090ecd2a880a014f1ea7abe1e2fca280d6aba1c22aa7b963571ef14",
+      "text": "The body takes no damage in this phase. Follow Meursault's skill numbers and track Pathos."
+    },
+    "passives.9.name": {
+      "sourceHash": "1c12d250d7b22d5b2a3e24632f3b75996818f62b48a5e82e70c06063b96f7c28",
+      "text": "La Nausée"
+    },
+    "passives.9.effect": {
+      "sourceHash": "fff78b6f8f2d8ca950bbf67c7a94b3486eea87d8d5813251caee46474a711c08",
+      "text": "Meursault's death causes the Sinners to lose.\n\nAt 100 Pathos - Désir d'être, change phases when the current skill ends.\n- On transition, remove dispellable negative effects."
+    },
+    "passives.9.condition": {
+      "sourceHash": "eef81b48120af7d2b7917302e5c7c6cc2043e6cfbb6d4b7dda4775267233313c",
+      "text": "100 Pathos and Meursault death"
+    },
+    "passives.9.response": {
+      "sourceHash": "3e079f7251bf6a6f46326169880db278beb7d28fbf90326e6a974aa5dcc8a096",
+      "text": "Advance at 100 Pathos, not through HP damage. Keep Meursault alive and continue the required waltz."
+    },
+    "passives.10.name": {
+      "sourceHash": "05d5b297041e46f5fe4aa8f028e750859c79f301477451c43ddc2da03f92c74a",
+      "text": "L'enfer, c'est les autres"
+    },
+    "passives.10.effect": {
+      "sourceHash": "1308a6848a161a6ff55d87e2393838832a717c2fe23a6386d97e0b85a1e9b0f2",
+      "text": "If Jeanne's HP reaches 10% or less..."
+    },
+    "passives.10.condition": {
+      "sourceHash": "e0791e7eb22a294dde8d69211d2b1d0c2c36a98af7d5e32afce80fbbf7cdc5d1",
+      "text": "Phase 3 body at 10% HP or less"
+    },
+    "passives.10.response": {
+      "sourceHash": "8fdfec4109930e6ed85a8ff064b83953b972e8de45c179b767440aef0f7d5907",
+      "text": "Blueprint deaths lower body HP. Do not assume the subsequent sequence is an ordinary attack endurance battle."
+    },
+    "passives.11.name": {
+      "sourceHash": "3127d57dc101b1ddb2595d8afd0c1453ee0874820cbd16e82d7ac2412354f3b5",
+      "text": "Gaze: Grand Magasin Sisyphe"
+    },
+    "passives.11.effect": {
+      "sourceHash": "dbbf34ef2fc3c4781ec160ccaac027f35514fca6817e583415ca9b4478e9adbb",
+      "text": "SP fixed at 45.\n\nAt Turn Start, summon Sisyphe System Blueprint - Le Rouge and Le Noir until two of each exist.\n\nFrom the second turn after transition, transform one blueprint into Jeanne Sartre, the Sartorial Tailor.\n- Prioritize a blueprint without Fragile.\n- Exclude the blueprint transformed last turn.\n- Clear Stagger if present.\n\nIn Sartorial Tailor form, use At least on this stage, everything's set and fixed.\n- If Meursault wins its clash, that blueprint gains 5 Fragile every turn from next turn.\n\nEach time the Sartorial Tailor form ends, one blueprint equips Jeanne's Rights: Ban from next turn.\n- The number equipping Jeanne's skill increases cumulatively by one.\n\nOn blueprint death:\n- Jeanne loses 5% HP.\n- Other blueprints gain 1 Délaissement.\n- Next turn, one blueprint equips Rights: Gaze instead of Rights: Ban."
+    },
+    "passives.11.condition": {
+      "sourceHash": "669e52439161388d98a7856bbfb2fff4cfa454a3f21158792a8d00d445e6c568",
+      "text": "Phase 3 blueprint summoning and transformation"
+    },
+    "passives.11.response": {
+      "sourceHash": "fa6e9c0c44da5caac7be1da9a5d07ed3255cbd9c461460d45c838a6113d07392",
+      "text": "Clash with transformed blueprints using Meursault and win for Fragile, then kill them to damage the body."
+    },
+    "passives.12.name": {
+      "sourceHash": "d6999850db1a8686caa5dde1281943e88ce9982c023de645e0d8fa6f13cefcff",
+      "text": "Pattern: Grand Magasin Sisyphe"
+    },
+    "passives.12.effect": {
+      "sourceHash": "42003da99eb38843c0cf91bf698c145272df6f69e6e732e2aa27ba59168ac772",
+      "text": "Gain +1 Clash Power per 10 clash exchanges against the same target.\n\nFrom one turn after appearing, one blueprint changes into Jeanne Sartre, the Sartorial Tailor.\n- Prioritize a blueprint without Fragile.\n- Exclude the blueprint transformed last turn.\n- Clear Stagger if present.\n\nIn Sartorial Tailor form, use At least on this stage, everything's set and fixed.\n- If Meursault wins its clash, that blueprint gains 5 Fragile every turn from next turn.\n\nOn blueprint death:\n- Jeanne loses 5% HP.\n- Other blueprints gain 1 Délaissement."
+    },
+    "passives.12.condition": {
+      "sourceHash": "a1e087b900980ea067e05c9e352f0db5157f441799fc07c63de0851194f8c3f6",
+      "text": "Blueprint transformation and death"
+    },
+    "passives.12.response": {
+      "sourceHash": "72e293557c06ec9c2cf462f19203798ec9ca9d7c89958f1ff28d1c45c2d6a6fe",
+      "text": "Exploit Fragile from Meursault's clash win to finish it. Check Délaissement on other blueprints too."
+    },
+    "passives.13.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Conservation"
+    },
+    "passives.13.effect": {
+      "sourceHash": "a34c141db0bb867b63edc75cb8803f010cf5ef39841deb9f7aef5fc89ed69f33",
+      "text": "Gain 1 Preservation Potency per cumulative 10 Preservation Count consumed during battle."
+    },
+    "passives.13.condition": {
+      "sourceHash": "c05bd64908d674b0aab40272d395154fc173e83002fd9314e6b5476a5806009c",
+      "text": "Cumulative Preservation Count consumption"
+    },
+    "passives.13.response": {
+      "sourceHash": "ffab177f089260eb87a905a613382c048ff04eaf65e273838f7a34fd5c2dd51c",
+      "text": "Higher Preservation Potency strengthens defensive Shields and other effects. Focus a blueprint you can finish rather than leaving it indefinitely."
+    },
+    "passives.14.name": {
+      "sourceHash": "d6999850db1a8686caa5dde1281943e88ce9982c023de645e0d8fa6f13cefcff",
+      "text": "Pattern: Grand Magasin Sisyphe"
+    },
+    "passives.14.effect": {
+      "sourceHash": "42003da99eb38843c0cf91bf698c145272df6f69e6e732e2aa27ba59168ac772",
+      "text": "Gain +1 Clash Power per 10 clash exchanges against the same target.\n\nFrom one turn after appearing, one blueprint changes into Jeanne Sartre, the Sartorial Tailor.\n- Prioritize a blueprint without Fragile.\n- Exclude the blueprint transformed last turn.\n- Clear Stagger if present.\n\nIn Sartorial Tailor form, use At least on this stage, everything's set and fixed.\n- If Meursault wins its clash, that blueprint gains 5 Fragile every turn from next turn.\n\nOn blueprint death:\n- Jeanne loses 5% HP.\n- Other blueprints gain 1 Délaissement."
+    },
+    "passives.14.condition": {
+      "sourceHash": "a1e087b900980ea067e05c9e352f0db5157f441799fc07c63de0851194f8c3f6",
+      "text": "Blueprint transformation and death"
+    },
+    "passives.14.response": {
+      "sourceHash": "de7c085ade983f5f2d8a06fe7609bc4caf2b23b861ed44b5c34f55612963c892",
+      "text": "Shares the same transformation and death effects. Assign Meursault to required skills as with Le Noir."
+    },
+    "passives.15.name": {
+      "sourceHash": "bf04989803c9828a701463fb890cd8ccb57deef3595a6fda2dbf849fe27acfab",
+      "text": "Metabolic Action and Reaction"
+    },
+    "passives.15.effect": {
+      "sourceHash": "e2bcf69f56828dedfeb8b028098cdeaabba7c29c0e48494d7af9a81c2850da1b",
+      "text": "Gain 1 Pulsation Potency per cumulative 10 Pulsation Count consumed during battle.\n\nHP loss from own skills cannot lower HP below 1."
+    },
+    "passives.15.condition": {
+      "sourceHash": "47a12df546486c01be197c9a6d0a6d99257214dbe2a62617d22b2e5d03f7e889",
+      "text": "Cumulative Pulsation Count consumption and self-damage"
+    },
+    "passives.15.response": {
+      "sourceHash": "8a4565e4f8dc8d5c5c218ba97180f6ffea235464f14a04881367b20563b1cf15",
+      "text": "Self-damage alone cannot reduce HP below 1. Kill it with Sinner attacks instead of waiting for self-destruction."
+    }
+  },
+  "messages": {
+    "boss-copy:jeanne": "complete",
+    "【リンバス】10-04 ジャンヌ（10章C最終戦）の攻略｜Limbus Assistant": "10-04 Jeanne (Canto X, Route C Final Battle) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「ジャンヌ（10章C最終戦）」の攻略。第1段階は設計図を先に倒して捕捉を妨げ、第2段階はムルソーのスキル番号を合わせてワルツを進める。第3段階は本体を直接攻撃せず、設計図を倒して本体HPを…": "Jeanne (Canto X, Route C Final Battle) guide for Limbus Company 10-04. In Phase 1, kill blueprints before Focusing can consume them. In Phase 2, match Meursault's skill numbers to advance the waltz. In Phase 3, kill blueprints to reduce the body's HP instead of attacking it directly. Protect Meursault's HP and assignments; do not assume he can repeatedly survive lethal damage as in the preceding Chaplain battle.",
+    "10-04 ジャンヌ（10章C最終戦）": "10-04 Jeanne (Canto X, Route C Final Battle)",
+    "10-04「Sisyphus Department Store C: Bright Room, Final Battle」": "10-04 · Sisyphus Department Store C: Bright Room, Final Battle",
+    "裁断士ジャンヌ・サルトル（第1段階）の外見": "Jeanne Sartre, the Sartorial Tailor (Phase 1) appearance",
+    "裁断士ジャンヌ・サルトル（第1段階）のスキル": "Jeanne Sartre, the Sartorial Tailor (Phase 1) skills",
+    "Jeanne Sartre, the Sartorial Tailor (Phase 1)の外見": "Jeanne Sartre, the Sartorial Tailor (Phase 1) appearance",
+    "Jeanne Sartre, the Sartorial Tailor (Phase 1)のスキル": "Jeanne Sartre, the Sartorial Tailor (Phase 1) skills",
+    "シーシュポス百貨店の設計図の外見": "Grand Magasin Sisyphe Blueprint appearance",
+    "シーシュポス百貨店の設計図のスキル": "Grand Magasin Sisyphe Blueprint skills",
+    "Grand Magasin Sisyphe Blueprintの外見": "Grand Magasin Sisyphe Blueprint appearance",
+    "Grand Magasin Sisyphe Blueprintのスキル": "Grand Magasin Sisyphe Blueprint skills",
+    "ジャンヌ・マリィ・サルトル（第2段階）の外見": "Jeanne-Marie Sartre (Phase 2) appearance",
+    "ジャンヌ・マリィ・サルトル（第2段階）のスキル": "Jeanne-Marie Sartre (Phase 2) skills",
+    "Jeanne-Marie Sartre (Phase 2)の外見": "Jeanne-Marie Sartre (Phase 2) appearance",
+    "Jeanne-Marie Sartre (Phase 2)のスキル": "Jeanne-Marie Sartre (Phase 2) skills",
+    "ムーラン・ルージュ-ジャンヌ・マリィ・サルトルの外見": "Moulin Rouge - Jeanne-Marie Sartre appearance",
+    "ムーラン・ルージュ-ジャンヌ・マリィ・サルトルのスキル": "Moulin Rouge - Jeanne-Marie Sartre skills",
+    "Moulin Rouge - Jeanne-Marie Sartreの外見": "Moulin Rouge - Jeanne-Marie Sartre appearance",
+    "Moulin Rouge - Jeanne-Marie Sartreのスキル": "Moulin Rouge - Jeanne-Marie Sartre skills",
+    "シーシュポスシステムの設計図-ル・ノワールの外見": "Sisyphe System Blueprint - Le Noir appearance",
+    "シーシュポスシステムの設計図-ル・ノワールのスキル": "Sisyphe System Blueprint - Le Noir skills",
+    "Sisyphe System Blueprint - Le Noirの外見": "Sisyphe System Blueprint - Le Noir appearance",
+    "Sisyphe System Blueprint - Le Noirのスキル": "Sisyphe System Blueprint - Le Noir skills",
+    "シーシュポスシステムの設計図-ル・ルージュの外見": "Sisyphe System Blueprint - Le Rouge appearance",
+    "シーシュポスシステムの設計図-ル・ルージュのスキル": "Sisyphe System Blueprint - Le Rouge skills",
+    "Sisyphe System Blueprint - Le Rougeの外見": "Sisyphe System Blueprint - Le Rouge appearance",
+    "Sisyphe System Blueprint - Le Rougeのスキル": "Sisyphe System Blueprint - Le Rouge skills"
+  }
+}

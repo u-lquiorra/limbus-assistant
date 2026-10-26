@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0605.md",
+  "code": "0605",
+  "messages": {
+    "最大威力32の高いマッチ力と束縛で強敵を押さえ、侵蝕では与ダメージ分の体力も回復できる暴食貫通のE.G.O。": "A Gluttony Pierce E.G.O that holds down strong enemies with high Clash Power (up to 32) and Bind, and whose Corrosion skill heals HP based on damage dealt.",
+    "高いマッチ威力: 基本威力17にコイン威力+15の1コインで、解析による威力の変化はない。表が出るほど強いので精神力が高いときに撃ちたい。": "**High Clash Power**: A single Coin with 17 Base Power and +15 Coin Power; Threadspin does not change its power. It is stronger on Heads, so use it when SP is high.",
+    "束縛: 的中時に次のターンの束縛2を付与し、次のターンのマッチを管理しやすくする。": "**Bind**: Inflicts 2 Bind next turn on hit, making the next turn's Clashes easier to manage.",
+    "暴食脆弱(解析Ⅲ): 次のターンに暴食脆弱2を付ける。表面的中時が条件で、解析Ⅳで的中時に緩む。": "**Gluttony Fragility (Threadspin Ⅲ)**: Inflicts 2 Gluttony Fragility next turn. It requires a Heads Hit, relaxed to on hit at Threadspin Ⅳ.",
+    "体力が減るほど広域(解析Ⅲ): 自分の体力が50%未満なら攻撃加重値+1、解析Ⅳでは25%未満でさらに+1。": "**More targets as HP drops (Threadspin Ⅲ)**: +1 Attack Weight if his HP is below 50%, and +1 more below 25% at Threadspin Ⅳ.",
+    "侵蝕スキル: 加重値3の広域で、与ダメージの一部を自分の体力として回復する(20%、解析Ⅲで30%、Ⅳで50%)。体力が最も低い対象を狙うため、味方に向かう点に注意。": "**Corrosion skill**: A multi-target attack with 3 Attack Weight that heals part of the damage dealt as his own HP (20%, 30% at Threadspin Ⅲ, 50% at Ⅳ). It targets the lowest-HP target, so note that it goes after allies.",
+    "強敵のマッチ用の切り札として、暴食資源6を揃えてから撃つ。": "Use it as a Clash trump card against strong enemies once 6 Gluttony resources are ready.",
+    "耐性は憤怒・嫉妬を普通以下にできるので、タンク人格の耐性補完にも使える。": "It can bring Wrath and Envy resistances down to Normal or better, so it also helps cover a tank Identity's resistances.",
+    "破裂の付与は暴食共鳴数÷2と少なく、おまけと考えてよい。": "Its Rupture infliction is only Gluttony Resonance ÷ 2, so treat it as a bonus.",
+    "Ⅱ: パッシブ(体力50%未満のとき、被ダメージ時に破裂を返す)が解放されるが、実用性は低いと考えられる。": "**Ⅱ**: Unlocks the passive (returns Rupture when taking damage below 50% HP), but it likely has little practical value.",
+    "Ⅲ: 暴食脆弱と、体力50%未満での加重値増加が入り、侵蝕の回復が30%になる。": "**Ⅲ**: Adds Gluttony Fragility and the Attack Weight increase below 50% HP, and Corrosion's healing becomes 30%.",
+    "Ⅳ: 25%未満でさらに加重値増加、脆弱が的中時に、侵蝕の回復が50%になる。優先度は低いと考えられる。": "**Ⅳ**: Adds another Attack Weight increase below 25%, Fragility on hit, and 50% healing on Corrosion. Likely a low priority.",
+    "K社3級摘出職職員: S2(暴食)で必要資源を出せ、S2・S3が破裂を付与する。": "**[K Corp. Class 3 Excision Staff](persona:0605)**: S2 (Gluttony) supplies the required affinity, and S2 and S3 inflict Rupture.",
+    "牙狩事務所フィクサー: S1(暴食)が破裂を付与し、暴食資源も出せる。": "**[Fanghunt Office Fixer](persona:0610)**: S1 (Gluttony) inflicts Rupture and also supplies Gluttony resources."
+  }
+}

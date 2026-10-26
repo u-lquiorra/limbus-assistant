@@ -1,0 +1,745 @@
+{
+  "kind": "boss-copy",
+  "id": "crying-hindley",
+  "source": "src/data/bosses/crying-hindley.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "奪われ泣き叫ぶヒンドリー",
+          "en": "Hindley, The Reaved Lamenter",
+          "file": "Enemies-a1c6p2.json",
+          "id": "8165"
+        },
+        {
+          "ja": "片付けてやる",
+          "en": "I'll Remove You",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816501"
+        },
+        {
+          "ja": "クソ野郎",
+          "en": "Bloody Bastard!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816502"
+        },
+        {
+          "ja": "俺の家だ！",
+          "en": "This Is My Home!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816503"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "815904"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816508"
+        },
+        {
+          "ja": "ここは俺の居場所だ！",
+          "en": "This is My Place!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816509"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999998"
+        },
+        {
+          "ja": "俺が立つべき場所",
+          "en": "A Place for Me",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816505"
+        },
+        {
+          "ja": "絶えない劣等感",
+          "en": "Endless Insecurity",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816501"
+        },
+        {
+          "ja": "向けられる憤怒",
+          "en": "Directed Wrath",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816502"
+        },
+        {
+          "ja": "捕食",
+          "en": "Predation",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816503"
+        },
+        {
+          "ja": "目印",
+          "en": "Marked",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816504"
+        },
+        {
+          "ja": "獲物の目印",
+          "en": "Marked Prey",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBe"
+        },
+        {
+          "ja": "劣等感",
+          "en": "Inferiority Complex",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBf"
+        },
+        {
+          "ja": "喪失",
+          "en": "Bereavement",
+          "file": "Bufs-a1c6p1.json",
+          "id": "AaCfPaBa"
+        },
+        {
+          "ja": "てめぇだけは…",
+          "en": "I'll Get You...!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816504"
+        },
+        {
+          "ja": "返せ…！！",
+          "en": "Give It Back...!!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816505"
+        },
+        {
+          "ja": "この野郎め…",
+          "en": "You Little...",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816506"
+        },
+        {
+          "ja": "体力回復増加",
+          "en": "HP Healing Boost",
+          "file": "Bufs.json",
+          "id": "TakeHpHealIncrease"
+        },
+        {
+          "ja": "果てしない喪失",
+          "en": "Unending Bereavement",
+          "file": "Bufs.json",
+          "id": "AaCfPaBa_Alt1"
+        }
+      ],
+      "note": "Exact game IDs distinguish shared Japanese names. Guide spelling and ellipsis variants are resolved against these paired localization records."
+    }
+  },
+  "scopedTerms": [
+    "捕食"
+  ],
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "6f59c8b3ed59593ead4cb50fe746eba20adb338975b6d91424b7371e17e3a6c0",
+      "text": "Hindley, The Reaved Lamenter (6-32)"
+    },
+    "shortName": {
+      "sourceHash": "fcd26af8d2e3719fbec729e47ef4691977bd9d6924c6cd0f772c3f38fec705c1",
+      "text": "Hindley, The Reaved Lamenter"
+    },
+    "stageName": {
+      "sourceHash": "6ca0e34a03e0b93de426238cf8733b26a2011a5455019fff04cce5a8754d88b1",
+      "text": "Violin"
+    },
+    "lead": {
+      "sourceHash": "9c515de6e6866a9ac7de729e60163be0004d8cc1f9209f733aae8cfff472d569",
+      "text": "Win early Clashes to build SP and prevent hit-triggered healing and Speed buffs. The mark aimed at Heathcliff applies even when you win, so prepare to redirect next turn's attacks. A turn-long 40% HP floor prevents finishing immediately; save major skills for the second half."
+    },
+    "listLead": {
+      "sourceHash": "ffe21a64876406af7fce157caa3eefe003d3c5c32374df8dc46b4f5376f398fd",
+      "text": "Build SP in opening Clashes and prevent hit-triggered healing and Speed buffs. The mark applies even if you win, so prepare next turn's defense too. Save damage for after the HP floor."
+    },
+    "statNote": {
+      "sourceHash": "a7954290efe6dbd2b21d772483d3b0d720a1c45eae2303523e5c94b4da9a5fe8",
+      "text": "The Focused Encounter in 6-32. Enemy Level 43, 2073 HP, Defense Level 42. All physical damage is neutral; Wrath and Envy are effective. Heathcliff is mandatory. This excludes normal Hindley and Wild Hunt versions' values."
+    },
+    "skillNote": {
+      "sourceHash": "fedd53e2e21ac2edf483aea8a26cdefe486a41f5a8122cb8444885178bdccabb",
+      "text": "9 skills. Base ranges exclude Speed, HP conditions, and Offense Level Up. Bloody Bastard! has 2 Coins; conditional reuse is not listed as a permanent third Coin. Give It Back...!! is unclashable."
+    },
+    "priorities.0": {
+      "sourceHash": "a8b4db6780186d0946afda7ba12838153a1b46af2bbfd811bc42484b3dbe68bf",
+      "text": "Aim for Level 43 and Uptie III or higher on your main units. Build SP through early winning Clashes, with Wrath/Envy damage and SP recovery."
+    },
+    "priorities.1": {
+      "sourceHash": "147e4b638bb85d63887c343f62a8535d5821b1934ea20775257306b47014b2d8",
+      "text": "The turn after I'll Get You...!'s [On Use] effect, check attacks aimed at the marked Sinner and the Speed gap. Use faster allies to redirect attacks where possible."
+    },
+    "priorities.2": {
+      "sourceHash": "93d45f070703d68c864dfd41c9563773add23f28d18e49b86328501b19a6b9f6",
+      "text": "Reaching 40% HP (829) activates the floor for that turn. Save major skills for buffed second-half Clashes and the 25% HP Stagger Threshold."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "8e2a184f7476d1411a2910f1c9dacb928ec2feaab40bce3187fe7bf7fdf415ae",
+      "text": "A mark or Paralyze applies despite winning the Clash"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "c88f35a7fde5a72b2828005c9e0d8621e9e5bd03ab7dad2a7f5593c6a99d48ef",
+      "text": "I'll Get You...! applies next turn's mark, Fragile, Paralyze, and Bind [On Use]. Preventing hits does not remove them. Prepare a fast redirector and Defense Skills for the following attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "b9f4fc7ad9ceb008ac318e674c89f975a9a194b690f385a3a1a54ad0c52bcfe0",
+      "text": "HP stops decreasing near 829"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "9da729f62f7ea2d58aa6e69185d782f15b7824d8a082dd93d57ddf63a97620ef",
+      "text": "A Place for Me applies a 40% HP floor for that turn. Save strong skills for dangerous attacks from next turn rather than spending all damage immediately."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "5fa5afa2541a26eab87f1199037d919c9756749c9e97275a5c7078dacc7c6cc9",
+      "text": "He heals and defeats allies with heavy Bleed"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "62e9fdcc451be434994b95fc443869be780137d01c3453d50e9af23df21515dd",
+      "text": "The enemy heals on hits and kills. Stop This Is My Home!, which prioritizes low HP, and You Little..., which prioritizes marked targets. Prevent repeated attacks on heavily Bleeding Sinners."
+    },
+    "units.0.name": {
+      "sourceHash": "fcd26af8d2e3719fbec729e47ef4691977bd9d6924c6cd0f772c3f38fec705c1",
+      "text": "Hindley, The Reaved Lamenter"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "cf9dbfa68f3dc3412f455ae66ac33f7fc60e4e6f830e9721fc9d5f6f29cad11f",
+      "text": "75% / 25% / 0% (1555 / 518 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "57327dacc661e4d45d6f2047208638e711a54d8d58626f21a7c54a7e665fb9f8",
+      "text": "Normally has 6 actions including Defense Skills. At 65% HP or less, inserts unclashable Give It Back...!! into the pattern."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "0ee150a640312e73ad97fb520a9e7b05c7e0fc8e3610aa284549edb5c81c01e5",
+      "text": "After the 40% HP (829) floor, changes to second-half actions."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "3df41947e54bccf8947d29457c8c12e3fd5291fe9c559333a941a65fd5fc320f",
+      "text": "Once the 65% and 40% HP buff conditions are met, healing does not remove them."
+    },
+    "phases.0.timing": {
+      "sourceHash": "2805602fc68144b1a3268fa447844dfa83e6c6d3491378fd42e62da1c9c44f01",
+      "text": "Opening / 75% HP Stagger"
+    },
+    "phases.0.title": {
+      "sourceHash": "50ea9cb7c7c79df833db98ac38ad98474a4038cc65b138d1b02078a48ba3fa9c",
+      "text": "Build SP through Clashes you can win"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "1a7a516c9e3058fd0fc52245426122c3737712af6ccb161385e3c4f851d0d6ce",
+      "text": "Assign winning skills against attacks such as I'll Remove You and build SP-recovery resources. Preventing hits also limits healing and Offense Level Up."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "ba33360b1b3c7ee3f6a8f95315f95322df398833bff4324d07ff8d50ff48b1de",
+      "text": "Bloody Bastard! scales with Speed difference; This Is My Home! with target HP percentage. If a low-HP Sinner is targeted, redirect eligible attacks with faster allies."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "5c44413342ba61adecb7b33a994dc5fedcf6104c990e12ffb5234de6424b0c24",
+      "text": "Offset Evade and focus Wrath/Envy damage during the 75% HP Stagger. After the first Stagger ends, enemy Clash wins can also lead to additional Wrath damage."
+    },
+    "phases.1.timing": {
+      "sourceHash": "587608f47b6a3e509b43621539c6fce34513c2891438a742517ea14dad346c66",
+      "text": "65% HP or less / down to 40%"
+    },
+    "phases.1.title": {
+      "sourceHash": "b4773567f8b2be1d1fa62d7ccbad8a481faabe3c93df3ebd192985cde92238cb",
+      "text": "Prepare for unclashable attacks and the turn after marking"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "41760fd9b6d53448cc90170aa8b0f3d254878ad7de3ddff7e87521b5451bd167",
+      "text": "At 65% or less, an action pattern including Give It Back...!! is inserted regardless of the preceding sequence. It is unclashable; use the target's defense and remaining HP to limit damage."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "fdec098666493ec5550b90320ce458239817484cbb56b73b378900a393c24bbf",
+      "text": "Winning against I'll Get You...! does not remove next turn's mark, Fragile, Paralyze, or Bind. Recheck attack targets and Speed gaps next turn."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "30bbe702a17cc035598952870fb562927bf6340eadc96cc26ec0a3418d487a44",
+      "text": "At 65% HP or less, Clash wins grant buffs; at 40% or less, skill use grants them. Once met, these conditions persist after healing, so avoid prolonging the fight."
+    },
+    "phases.2.timing": {
+      "sourceHash": "bdb8a2cc3afe1e68285aa72b870baf6466b481ad40d0a40142ada63ac47d0239",
+      "text": "40% HP floor / finishing the fight"
+    },
+    "phases.2.title": {
+      "sourceHash": "1b2827fe79c497931b332d0f78d7b2ad1f822192015d88b50974a63d101ea19e",
+      "text": "Save damage for after the floor and reach 25% HP Stagger"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "36322ab54c8206886b0e83ea807f1483d6b919a2fa4117c8ae974a7c3ef819d4",
+      "text": "On the turn the 829 HP floor is reached, extra major attacks cannot finish him. Check remaining Clashes and defense, saving strong skills for next turn."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "dd207369e8d796282a776c2a91e958f738020f750d2d39407975551f354ca7d2",
+      "text": "The second half adds This is My Place! and You Little.... Check Speed gaps and marks, then assign skills that win against the buffed predictions."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "67e5627c22273ec9ebd417ef02a6ebac7ac1aa3495c539a4ac199434d343282c",
+      "text": "Reach the 25% HP Stagger and finish him without allowing hit-triggered healing. Killing a wounded Sinner restores 200 HP and grants next-turn buffs, so keep checking remaining HP through the end."
+    },
+    "skills.0.name": {
+      "sourceHash": "1067368d816530f8ac78f5056eee9947f8b76e7970b8823f3f8cd23f45db951f",
+      "text": "I'll Remove You"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "67d29801ea5eb884c5fbe544aabda6c97b5d1b7de7183312bb353d3c8984915c",
+      "text": "Heal overall and Part HP by 10% of damage dealt by this Attack Skill."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "c844fcddfd13e0142cdaf40c5335581dee503b3b25b14799a6b0ecb4a4d3f645",
+      "text": "Ⅰ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "366c2889295f4c70fa18c463fb979958d3070649ce371582eed0e279ee5f1967",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "1825ce9c6f30c4766fbf2364a5b75344d4f6885bbe30f4c5d0840a81a9370d13",
+      "text": "[Heads Hit] Gain 1 Haste next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "d9ceb4ad11d0c9a0801e8dcfb538588b19f8a24a5dbe803622710322e5228c61",
+      "text": "Heals 10% of damage dealt and gains Offense Level on hit. Use it as an easier early Clash to limit healing and buffs."
+    },
+    "skills.1.name": {
+      "sourceHash": "e09d504ae4ffa970b6812e113a429caf53ddcc7fc99ec7f1de9923a5bbece68e",
+      "text": "Bloody Bastard!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "2119cd4b187da75e6ab0a8ef797e7a7f74dac563b9e9403f8bb87d4b1c3b304d",
+      "text": "If faster than the target, gain +2 Clash Power."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "fbeca55ff01083e564bbaee350f304d9c480eebbe21a004377e1db92b4476446",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and increase Bleed Count by 2."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "3aeb38436d875ea92299d66d5526226a12e80d0064395309545ab87e3c30103e",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed and increase Bleed Count by 2."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "984cc3da201d2187f6f097aad9078011b404576317979cea4cc34bf08baea4a5",
+      "text": "[On Hit] If at least 3 Speed faster than the target, reuse this Coin once at most."
+    },
+    "skills.1.response": {
+      "sourceHash": "c678d38333471b8600592f6ec1b60eea15a7a1c6f7883ed3bc4d784b29d3fa85",
+      "text": "Gains +2 Clash Power when faster, and reuses the second Coin once at a Speed advantage of at least 3. Check Speed and Bleed rather than assigning an answer only to the unbuffed maximum of 11."
+    },
+    "skills.2.name": {
+      "sourceHash": "befb4b7f04d7bc83d8c01ca5ae0749970195d0f9dca30af7f5077b5627f1593f",
+      "text": "This Is My Home!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "bad1b7b8d3d758fee12f8791ec67de419f79b4dfb36188d61e5d5636c626e002",
+      "text": "Prioritize the target with the lowest current HP."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "3d09b18f5117810d532ca5aef2d148b962ee441e89f021e7144d5b7634e4338c",
+      "text": "[On Use] If the target is below 70% of Max HP, gain +2 Clash Power."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "4c23f963874c0bb477714cf181639c6942e51c85fceaa9b4979988a357ac8136",
+      "text": "Ⅰ[On Hit] Gain 1 Haste next turn."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "63a3c57328156c10ef3e2e6d37e431230cf8100719c438fdfcba1a8048e3b1e1",
+      "text": "[On Hit] Inflict 1 Fragile."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "9812fd22a4d8ec963184047f4d61feb062ce134dc7c17fa960d59f560ddcd4fc",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "62b0899ee2f0a79dea688e24c3545e1a560abde74b19ca6374052fc947c08098",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "570f74316cc72e6075256c36ee14b291c012218a11debaf86e044ab2d2cf969b",
+      "text": "Ⅳ[On Hit] If the target has at least 20 Bleed, deal +100% damage."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "15b5375df68f067cb7e1c8efefe745a9b8a1d3de1320f19aa17a7965208a5434",
+      "text": "[On Kill] Reuse this skill once at most."
+    },
+    "skills.2.response": {
+      "sourceHash": "8522a24acfd1df3ae3f0c10342cd3a08ed91b1dd2117d6198ce785c65d7eb137",
+      "text": "Prioritizes lowest current HP and gains +2 Clash Power [On Use] against targets below 70% HP. Its fourth Coin deals +100% damage at 20 or more Bleed; keep it away from wounded Sinners."
+    },
+    "skills.3.name": {
+      "sourceHash": "fee3096692de07a062abcfde6ca11ebfaf80a82a0b4abf50b997ac6120acb9d2",
+      "text": "I'll Get You...!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "d6f59d1d84a9aa05c90a1ca097a9b04cd76eda293376d1e212bea26f914da97c",
+      "text": "Prioritize Heathcliff as a target."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "5abb1d0a545bb81067d103762b6678aa3ba553b9053fcdd20bd832110a73ee6a",
+      "text": "[On Use] If the target is the slowest enemy, gain +3 Base Power."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "18e863f36d99bfd2e16458f0fdec83b3e3f14b040ec11891fab6e28c7038fa5c",
+      "text": "[On Use] Inflict Marked Prey, 2 Fragile, 3 Paralyze, and 5 Bind next turn."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "c844fcddfd13e0142cdaf40c5335581dee503b3b25b14799a6b0ecb4a4d3f645",
+      "text": "Ⅰ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "366c2889295f4c70fa18c463fb979958d3070649ce371582eed0e279ee5f1967",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.3.response": {
+      "sourceHash": "2f298ce4358cccd9aef20f0121c8748c5a52d77fe801bef8a31170c272716ce0",
+      "text": "Prioritizes Heathcliff. Marked Prey and next-turn 2 Fragile, 3 Paralyze, and 5 Bind are [On Use] effects and remain after winning. Prepare next turn's defense too."
+    },
+    "skills.4.name": {
+      "sourceHash": "7f9da1d6b1f650db1e37dfd0059582db4c8d49c2fd74fd5707869ed7539bd874",
+      "text": "Give It Back...!!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "314efa50df881629335cd3fc7eb7b5a886a007a7372d11f01e4527b7ff9e02ce",
+      "text": "Ⅰ[Heads Hit] Gain 2 Offense Level Up next turn."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "2fd487ecc2e1a7613757a8b9ad3502dd74cec3cde741e1b1f929faffd0b667ab",
+      "text": "Ⅱ[Heads Hit] Gain 2 Offense Level Up next turn."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "a6a980b7b2a92cb20d0542fa9bc8ef9fe79b0594f03f606803843d355199f939",
+      "text": "Ⅲ[Heads Hit] Gain 2 Offense Level Up next turn."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "b706ba0e86f43e87ab7125a5f596a1a4a1d737b81d477929410399e03aa3622a",
+      "text": "Ⅳ[On Hit] If the target has at least 10 Bleed, deal +30% damage."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "46d3eefd839e973b0ab04337c1ebe3f62de2be3e0272ba5e33d371738ee60f98",
+      "text": "[On Hit] If the target has at least 5 Bleed, heal HP equal to 50% of damage dealt."
+    },
+    "skills.4.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.4.response": {
+      "sourceHash": "f623e9921a8acfc1a1ee0cc44e95abcdf31c90b98b1d17639f8c298efde712fb",
+      "text": "Unclashable. An Attack Skill cannot prevent the unopposed hit, so check the target's Defense Skill, resistances, and HP. Hits against at least 5 Bleed also allow healing."
+    },
+    "skills.5.name": {
+      "sourceHash": "e88f05a0378d8cf0270e22178e1cff24a9c259ce1cfaebc0a24b00289027b415",
+      "text": "You Little..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "bf05f3c5ca9a5055bec0dc8d149c520f8935e6c09195d92a5e4dc23ba881d55a",
+      "text": "Prioritize targets with Marked Prey."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "aac5da2d32140623b3dd147c05e0b0437c09bf6a610206dae9f983cb6ae4d930",
+      "text": "If the target is at least 3 Speed slower, reuse this skill once at most."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "d90ac864c5ae9fe3625db8c9b618c2164ce073a3000c05aae2d35598cb2aa7ea",
+      "text": "Ⅰ[On Hit] Heal overall and Part HP by 50% of damage dealt."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "e9decb53257f5d403434db4f9a5295136051b5a50a8a0f5aa6bd4b5d8d11d46d",
+      "text": "Ⅱ[On Hit] Heal overall and Part HP by 50% of damage dealt."
+    },
+    "skills.5.response": {
+      "sourceHash": "7e8718d07a4207ba82b88bc054980d54127a33d37aa38eef60bc57b30e26ff89",
+      "text": "Prioritizes Marked Prey, reusing the skill once if the target is at least 3 Speed slower. Each hit heals 50% of damage dealt, so prevent damage through Clashes or defense."
+    },
+    "skills.6.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "0a0778e5dea6ce413ec38cb43bc531e6a5e0700342d86462eb1b40126b80ae10",
+      "text": "At Turn End, if Shield remains, gain 4 Protection next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "3ac0c440be73e3953f8b8aabd74259f45d70cf537577d9b9a58a45034c06cf0f",
+      "text": "A Shield remaining at Turn End grants 4 Protection next turn. Offset or prepare enough damage to break it after activation and avoid stalling your damage."
+    },
+    "skills.7.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "1ebae186e030f661f8402bed3dd1772ce3179985c0b5832c8905c98bbc561367",
+      "text": "[On Evade] Inflict 1 Bind next turn, up to 2."
+    },
+    "skills.7.response": {
+      "sourceHash": "d73d8461aff7992c6accbd9e3b16f5da581260b0057c89798ad753729b405072",
+      "text": "Successful Evades inflict up to 2 Bind next turn. Offset with a Defense Skill to stop slowed allies from also triggering Speed-based bonuses."
+    },
+    "skills.8.name": {
+      "sourceHash": "d66335e01b7ded06cc7f00e0c6b26449c5ddb50a4f069060e9e30db5a90d41f5",
+      "text": "This is My Place!"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "ba749eef1dc789787614f1140d4907df1a7a19f4f683ffd408aa82bb09c262b7",
+      "text": "If faster than the target, gain +1 Coin Power."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "1ebe31d7abbc6d53d1a83a3326c0fff3517678d7c335a69e683f5355a12b3773",
+      "text": "Ⅰ[On Hit] If the target has at least 10 Bleed, deal +30% damage."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "deb2d5f2a2e775ce0e4f1328e1c0b123da4c19c2c43526c987f5c183ae0b59c0",
+      "text": "Ⅱ[On Hit] If the target has at least 10 Bleed, deal +30% damage."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "9e8eab283a549f990471ef50d9d005beb27ce5647b6b156574953d0b7ab58f71",
+      "text": "Ⅲ[On Hit] If the target has at least 10 Bleed, deal +30% damage."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "b706ba0e86f43e87ab7125a5f596a1a4a1d737b81d477929410399e03aa3622a",
+      "text": "Ⅳ[On Hit] If the target has at least 10 Bleed, deal +30% damage."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "dfcc6a1fda3f9d7568eec5768e943424c16f3b04e4af127e9f5378e8c11bb724",
+      "text": "[On Hit] If the target has at least 10 Bleed, heal HP equal to 70% of damage dealt."
+    },
+    "skills.8.response": {
+      "sourceHash": "63c50c6ddc3764da6e718c198ca9f6376bcd75bd5a779622f758ccc3e46263f1",
+      "text": "Gains +1 Coin Power when faster, reaching a maximum of 23. At 10 or more Bleed, every Coin's extra damage and the final healing become dangerous. Save a strong late-fight Clash for this."
+    },
+    "passives.0.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.0.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.0.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.0.response": {
+      "sourceHash": "39562565770f1a3d90ea20e55d0077c3390f66e49d896f87439b9e3e9068c683",
+      "text": "Do not assume Panic alone will disable him for long."
+    },
+    "passives.1.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.1.condition": {
+      "sourceHash": "5fe067fc73a292795a8f71f5979a8949dd68c7d3d393f04bb40f72b99b99ec25",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.1.effect": {
+      "sourceHash": "363ef610e3d49c93a213bfbf2d24cd4c0b21f9c3ff887973238569e784a1d960",
+      "text": "Panic Type stays unchanged; apply the effects intended for targets without SP instead."
+    },
+    "passives.1.response": {
+      "sourceHash": "47d8fd88b479196dc69254ec84e947dfdf653fba23158171d9c49490694454c1",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "passives.2.name": {
+      "sourceHash": "92249bb70e56f2008a0d9a77c142b029fde315f87158f1688e80306b4f07ae8f",
+      "text": "A Place for Me"
+    },
+    "passives.2.condition": {
+      "sourceHash": "a69f59d108f25815c37ee6853229ab1d052c4efc25fd7613948c46474577656c",
+      "text": "Reaches 40% HP (829)"
+    },
+    "passives.2.effect": {
+      "sourceHash": "02d70e662dbbc6dc81c024d556cb89724996eb62e6ae12a8578c37ceafece2f4",
+      "text": "For 1 turn, HP cannot fall below 40%, and the action pattern changes."
+    },
+    "passives.2.response": {
+      "sourceHash": "4a70b2b855c382ac2d27c6d1f006717a2f431185d4751795000a3268b25ec6ad",
+      "text": "Do not spend all major skills on the turn this threshold is reached."
+    },
+    "passives.3.name": {
+      "sourceHash": "e0828996600279fa48541457fecd859917b44a66a0133e67857d6d19df875ff9",
+      "text": "Endless Insecurity"
+    },
+    "passives.3.condition": {
+      "sourceHash": "507d8f9c3c18534716fae501ac04b4ca07cfd36f9e1ae6df1ffad35920dfe09b",
+      "text": "Has reached 65% HP or less / 40% HP or less at least once"
+    },
+    "passives.3.effect": {
+      "sourceHash": "ece6161242f3d23de23a2b10143ebfe90d96ff6cf76684495aa9e395e7db3e93",
+      "text": "At 65% or less, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win. At 40% or less, gain them [On Use]. Once met, the conditions remain active after healing."
+    },
+    "passives.3.response": {
+      "sourceHash": "d2d989107f7c5aadc96283db02bdfa0525521df8d80049ff8a135297bf6be8c4",
+      "text": "Healing does not remove these buffs. Win Clashes and shorten the second half."
+    },
+    "passives.4.name": {
+      "sourceHash": "3015ab9db98328d17f712e5a71c95fade60b31290915ca30a047eb1dc8824475",
+      "text": "Directed Wrath"
+    },
+    "passives.4.condition": {
+      "sourceHash": "64d43064db80fdcecda973c7fe86f310c8b5b7155a6b4371d3e09d2a4ce7de76",
+      "text": "Clash Win after the first Stagger ends"
+    },
+    "passives.4.effect": {
+      "sourceHash": "0c7975848809fbcdc6ecee2eb87dee0c03d0bd3c592340b2eeff6708c689de21",
+      "text": "Attack Skill hits deal additional Wrath damage equal to 10% of damage dealt."
+    },
+    "passives.4.response": {
+      "sourceHash": "8f6b4daeac5f09cc7adc9a33bbfe71f1c51144dc1c790951bbef285e40d3a2ff",
+      "text": "After Stagger, avoid losing Clashes and allowing repeated hits."
+    },
+    "passives.5.name": {
+      "sourceHash": "73188e2a88d6058ca0ec3a7390efeb4aa0ba6970f0072d5eb3ed0637b35e9257",
+      "text": "Predation"
+    },
+    "passives.5.condition": {
+      "sourceHash": "7eb1ed43ba90f67c1d68b5b60ae66c70ca2da8f5411d08d643b1f2875525d08f",
+      "text": "Defeats an enemy"
+    },
+    "passives.5.effect": {
+      "sourceHash": "3e5d77ac479393a55c466e4b27212cddbdd1afb3d22fbfecb8a29fc08915ea1a",
+      "text": "Heal 200 overall and Part HP. Gain 1 Haste, 3 Defense Level Up, and 2 Offense Level Up next turn."
+    },
+    "passives.5.response": {
+      "sourceHash": "e90b81db6232657646c314971b9c533cfbc0380a9f84591f42375bfe712e981e",
+      "text": "Prevent focused attacks on low-HP Sinners."
+    },
+    "passives.6.name": {
+      "sourceHash": "069d6c3d9f2fb5fb01d6bab61fc748dbe2d4d429e31bb41d989ce214ef521262",
+      "text": "Marked"
+    },
+    "passives.6.condition": {
+      "sourceHash": "12be03fab671c5f3a8901b2f32611dc0c7ce139ce814cace5eb9951e753544bb",
+      "text": "A target has Marked Prey"
+    },
+    "passives.6.effect": {
+      "sourceHash": "2287378e5914c191c3e1dfe96fa76054fa3fe619c080bd3cba8dc14c9a66134f",
+      "text": "Prioritize attacking the marked target."
+    },
+    "passives.6.response": {
+      "sourceHash": "ddd644f9f25c89724442b83480bd8b589b0292bf0187b17b17e04b9f3f896ad6",
+      "text": "Check next turn's Speed and targets before choosing a redirector."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "67afdb1eadb880b606c10cd07674347adb381eabca11696352854f253fadcd9c",
+      "text": "Marked Prey"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "547e953a1c51f4ac197618d2dbbd0b39b310dadfdfc7872ac98d4a0f1bc63f56",
+      "text": "Whenever damaged, take additional Slash damage equal to 10% of damage taken. Expires next turn. If no damage is taken, it can instead apply 1 Inferiority Complex at the end of the attack and expire."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "365363f48b4482f3184a22aa01fd4174de8da126ff0651c321ed5124f5a67e89",
+      "text": "Prevent repeated unopposed hits on marked allies, and check actual targeting lines."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "be7a4b5ef86cf2f3f0283897aba142ac964494b6d4a0072b96f1a11d1508f055",
+      "text": "Inferiority Complex"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "adb6f730f19671f9418e418e4b0e3c85e7a0decbbbf9d83ddeecaa8f18fde9cf",
+      "text": "Whenever damaged, take additional damage equal to 20% of damage taken × the value, up to 5 stacks."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "5780b9cbac44683970690d3e258ac48412f5517cd9135bf1a6a5ea7caae995b8",
+      "text": "Avoid hits on affected Sinners and prevent attacks from concentrating on the same target."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3ede87997728bb5f5113832d00a3f0f985869e890578e0ef4fd2b5389ab18861",
+      "text": "Bereavement"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e09b2f598bd46debc091412b3069d0931f049d18c3d112e0cbb76d70594d67cf",
+      "text": "Heathcliff is mandatory and normally gains SP-draining Bereavement. His Wild Hunt Identity changes it to Unending Bereavement."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "9549cbab3b26bc593ce8ca6e1f7fa6cea590b9d73c7af53eea3cc971f3177829",
+      "text": "Prepare his training and SP maintenance. After Speed debuffs and Paralyze, other Sinners should help redirect next turn's attacks."
+    },
+    "warnings.0": {
+      "sourceHash": "db283b8e8f6a16eeafe130de4fdaa13702dfb68a769e04bc3707b04c004c173b",
+      "text": "Assigning an Attack Skill to an unclashable attack does not stop the enemy's unopposed hit."
+    },
+    "warnings.1": {
+      "sourceHash": "c46c7ed07b690437ebac44ee9d9edb896c693ee29be9099a88b3f174db27c5bb",
+      "text": "Marks, Paralyze, and Bind apply [On Use]. Winning the Clash alone does not make next turn safe."
+    },
+    "warnings.2": {
+      "sourceHash": "e27c0bbeaac05e69a0ba6f9a1feaa4f4ddda1b7080ec1e039a61a45fcdbc1f7a",
+      "text": "The 40% HP floor and 25% HP Stagger are separate conditions."
+    },
+    "warnings.3": {
+      "sourceHash": "04ac3329814141c517bafada2f4d8d5e010a0291acaf1114717f5f2fdfc853e7",
+      "text": "Do not apply 6-34's defeat condition or emotion mechanics to this fight."
+    },
+    "preparation.0": {
+      "sourceHash": "747d53340562bd3e6993aad5e3cdfdd3d393a5f02f8093eff4c7a6dff5797599",
+      "text": "Aim for Level 43 and Uptie III or higher on your main units, including Heathcliff."
+    },
+    "preparation.1": {
+      "sourceHash": "4d5925713fa7a1b272fe6bbf3b7624027ff2f31e4c752be700b42c782e578b68",
+      "text": "Prepare Wrath/Envy damage, SP recovery, and powerful Clashes. Sloth and Pride damage are halved."
+    },
+    "preparation.2": {
+      "sourceHash": "eb1f61e864ec30e90c62dd24dc930da970d009a1ae0ad9085450a350831b2235",
+      "text": "Prepare fast redirectors and Defense Skills for unclashable attacks."
+    },
+    "roles.0.name": {
+      "sourceHash": "4dff41eeafcb3edef2d25de72b4c9d1c29553981524dde84aaa1237c2a4fcd15",
+      "text": "Opening Clash specialists"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9b40fbdd5e4e5694a7e7c71d0ae4c99485f6c4163a531fb48a39d042ecaa7f1f",
+      "text": "Build SP while limiting hit-triggered healing and Offense Level Up."
+    },
+    "roles.1.name": {
+      "sourceHash": "d9987441cd7286461034be8ee6a57c96cbad5a8baafe56d57d19e4ce6857b517",
+      "text": "Fast redirector"
+    },
+    "roles.1.reason": {
+      "sourceHash": "2ef63a6bcd24fa4c08ac82cd9dde509e0cc66156f87e3e0acd986584dc023e87",
+      "text": "Redirect eligible attacks away from allies carrying the mark, Paralyze, and Bind."
+    },
+    "roles.2.name": {
+      "sourceHash": "4d4cb85c7e73ab9bb3fbbe2f72f3127792773e31eb871b2856db1daa8a00d678",
+      "text": "Wrath / Envy damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "505be1125f670ee981dad5def5add754867e25fb5dcbe923bc73815afb16cfb7",
+      "text": "Create Stagger openings and shorten the fight after the HP floor."
+    }
+  },
+  "messages": {
+    "boss-copy:crying-hindley": "complete",
+    "【リンバス】6-32 奪われ泣き叫ぶヒンドリー（6-32）の攻略｜Limbus Assistant": "6-32 Hindley, The Reaved Lamenter (6-32) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-32「奪われ泣き叫ぶヒンドリー（6-32）」の攻略。序盤のマッチに勝って精神力を整え、的中による回復と速度強化を止める。ヒースクリフへの目印はマッチ勝利でも付くため、翌ターンの攻撃先を引き受ける…": "Hindley, The Reaved Lamenter (6-32) guide for Limbus Company 6-32. Win early Clashes to build SP and prevent hit-triggered healing and Speed buffs. The mark aimed at Heathcliff applies even when you win, so prepare to redirect next turn's attacks. A turn-long 40% HP floor prevents finishing immediately; save major skills for the second half.",
+    "6-32 奪われ泣き叫ぶヒンドリー（6-32）": "6-32 Hindley, The Reaved Lamenter (6-32)",
+    "6-32「Violin」": "6-32 · Violin",
+    "奪われ泣き叫ぶヒンドリーの外見": "Hindley, The Reaved Lamenter appearance",
+    "奪われ泣き叫ぶヒンドリーのスキル": "Hindley, The Reaved Lamenter skills",
+    "Hindley, The Reaved Lamenterの外見": "Hindley, The Reaved Lamenter appearance",
+    "Hindley, The Reaved Lamenterのスキル": "Hindley, The Reaved Lamenter skills"
+  }
+}

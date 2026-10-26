@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0904.md",
+  "code": "0904",
+  "messages": {
+    "体力の高い敵へ広域で振動を大量に付与し、振動爆発で混乱区間を進める暴食打撃のE.G.O。": "A Gluttony Blunt E.G.O that inflicts heavy Tremor across multiple high-HP enemies and shifts Stagger Thresholds with Tremor Burst.",
+    "振動の付与: 的中時に振動回数を3(解析Ⅲは5、Ⅳは7)付与する。解析Ⅲからは振動威力3も付く。": "**Inflicting Tremor**: Inflicts 3 Tremor Count on hit (5 at Threadspin Ⅲ, 7 at Ⅳ). From Threadspin Ⅲ, it also adds 3 Tremor Potency.",
+    "振動爆発: 解析Ⅲからは表面的中時、Ⅳでは的中時に発動し、コイン結果に左右されにくくなる。": "**Tremor Burst**: From Threadspin Ⅲ it triggers on Heads Hit, and at Ⅳ on hit, making it less dependent on Coin results.",
+    "攻撃加重値の増加: 基本2。解析Ⅲから対象の体力が最大値の50%以上で+1、Ⅳでは75%以上でさらに+1(最大4)。開幕に撃つと広く振動を撒ける。": "**Attack Weight increase**: Base 2. From Threadspin Ⅲ, +1 if the target's HP is 50% or more of its max, and at Ⅳ, +1 more at 75% or more (up to 4). Firing it at the start spreads Tremor widely.",
+    "束縛: 表面的中時に次のターンの束縛2を付与する。パッシブ「粘つく汚物」は貫通スキルの表面的中時に束縛1(1ターン最大2回)を付与する。": "**Bind**: Inflicts 2 Bind next turn on Heads Hit. The passive Sticky Filth inflicts 1 Bind on Heads Hit with Pierce skills, up to 2 times per turn.",
+    "侵蝕スキル: 貫通になり、振動付与は無く、与ダメージの30%の体力回復と(解析Ⅲから)防御レベル減少を持つ。敵味方識別不可で味方に当たり得る。覚醒とは別物。": "**Corrosion skill**: Becomes Pierce with no Tremor infliction, healing HP equal to 30% of damage dealt and (from Threadspin Ⅲ) inflicting Defense Level Down. It cannot distinguish friend from foe and can hit allies. It is a different skill from Awakening.",
+    "戦闘開始直後、敵の体力が高いうちに撃って加重値を伸ばす。": "Fire it right after the battle starts, while enemy HP is high, to increase Attack Weight.",
+    "振動人格と組み、振動爆発の前に振動威力と回数を稼ぐ役を担う。": "Pair it with Tremor Identities, taking on the role of building Tremor Potency and Count before Tremor Burst.",
+    "資源は怠惰2・憂鬱2・傲慢2と軽く、精神消耗は20。": "Its resources are a light 2 Sloth, 2 Gloom, and 2 Pride, with a Sanity cost of 20.",
+    "Ⅱ: 「粘つく汚物」が解放される。": "**Ⅱ**: Unlocks Sticky Filth.",
+    "Ⅲ: 振動威力3・回数5、加重値の増加(50%以上)、表面的中時の振動爆発が加わる。振動付与はここで概ね十分。": "**Ⅲ**: Adds 3 Tremor Potency, 5 Count, the Attack Weight increase (50% or more), and Tremor Burst on Heads Hit. Its Tremor infliction is mostly sufficient here.",
+    "Ⅳ: 振動回数7、加重値の増加(75%以上)、的中時の振動爆発になり、使い勝手が上がる。": "**Ⅳ**: 7 Tremor Count, the Attack Weight increase (75% or more), and Tremor Burst on hit improve usability.",
+    "バラのスパナ工房代表: S1〜S3が振動を付与し、傲慢(S1)・憂鬱(S2)の資源も出せる。パッシブは振動爆発に反応する。": "**[Rosespanner Workshop Rep](persona:0905)**: S1–S3 inflict Tremor, and she supplies Pride (S1) and Gloom (S2) resources. Her passive reacts to Tremor Burst.",
+    "ラ・マンチャランドの姫: 基本スキルがすべて貫通で、「粘つく汚物」の束縛を毎ターン付与しやすい。": "**[The Princess of La Manchaland](persona:0911)**: All of her basic skills are Pierce, making it easy to inflict Sticky Filth's Bind every turn."
+  }
+}

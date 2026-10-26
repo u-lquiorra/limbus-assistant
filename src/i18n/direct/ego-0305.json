@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0305.md",
+  "code": "0305",
+  "messages": {
+    "出血回数・振動・麻痺をまとめて付ける打撃E.G.Oで、他のTETHが噛み合わない編成の穴埋め役と考えられる。": "A Blunt E.G.O that applies Bleed Count, Tremor, and Paralyze together, likely filling gaps in teams where other TETH E.G.O do not fit.",
+    "出血と振動の付与: Ⅰコインの的中時に、出血回数を3(解析Ⅲは4)増やし、振動4(解析Ⅲは5)を付与する。": "**Bleed and Tremor**: On Coin Ⅰ hit, increases Bleed Count by 3 (4 at Threadspin Ⅲ) and inflicts 4 Tremor (5 at Threadspin Ⅲ).",
+    "麻痺(解析Ⅲ): 表面的中時に麻痺2を付与する。": "**Paralyze (Threadspin Ⅲ)**: Inflicts 2 Paralyze on Heads Hit.",
+    "広域化(解析Ⅳ): 攻撃加重値が3になる。": "**Multi-target (Threadspin Ⅳ)**: Attack Weight becomes 3.",
+    "侵蝕スキル: 基本威力24・コイン威力-10の減算コインで、的中時に振動爆発(振動回数が2減る)。クリティカル的中時か裏面的中時には追加で振動爆発が起きる。クリティカル的中時は出血も付与する。": "**Corrosion skill**: A Minus Coin with 24 Base Power and −10 Coin Power that triggers Tremor Burst on hit (Tremor Count decreases by 2). On Critical Hit or Tails Hit, it triggers an additional Tremor Burst. On Critical Hit, it also inflicts Bleed.",
+    "パッシブ「崩れた石塔」: 出血が付いた敵を討伐すると呼吸2と呼吸回数2を得る(1ターン3回まで)。敵を倒していく展開で効く。": "**Passive — Fallen Stone Pagoda**: Defeating an enemy with Bleed grants 2 Poise and 2 Poise Count, up to 3 times per turn. It works when you are defeating enemies one after another.",
+    "突出した効果はないので、出血・振動・呼吸のどれかを軸にした編成で、足りない部分を補う目的で使う。": "It has no standout effect, so use it to cover what is missing in a team built around Bleed, Tremor, or Poise.",
+    "出血回数を即座に足したい人格と相性がよい。": "It pairs well with Identities that want Bleed Count added immediately.",
+    "マッチ威力は18〜27で、軽いコストのマッチ用としては決め手に欠けると考えられる。": "Its Clash Power is 18–27, likely lacking punch as a low-cost Clash option.",
+    "必要資源は憤怒2・怠惰2・傲慢1、精神消耗は覚醒20。": "It requires 2 Wrath, 2 Sloth, and 1 Pride, with an Awakening Sanity cost of 20.",
+    "Ⅱ: 「崩れた石塔」が解放される。": "**Ⅱ**: Unlocks Fallen Stone Pagoda.",
+    "Ⅲ: 出血回数と振動の付与量が増え、麻痺が加わる。": "**Ⅲ**: Increases Bleed Count and Tremor infliction, and adds Paralyze.",
+    "Ⅳ: 覚醒が広域化し、侵蝕スキルの出血付与量が増える。": "**Ⅳ**: Awakening becomes multi-target, and the Corrosion skill's Bleed infliction increases.",
+    "ラ・マンチャランド室長: 出血を扱い、怠惰・憤怒のスキルで必要資源も出せる。": "**[The Manager of La Manchaland](persona:0310)**: Uses Bleed, and her Sloth and Wrath skills supply the required affinities.",
+    "剣契殺手: 呼吸を扱う人格で、傲慢・怠惰のスキルから必要資源を出せ、パッシブの呼吸獲得とも噛み合う。": "**[Blade Lineage Salsu](persona:0308)**: A Poise Identity whose Pride and Sloth skills supply the required affinities, and who meshes with the passive's Poise gain."
+  }
+}

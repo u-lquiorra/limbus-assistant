@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/1209.md",
+  "code": "1209",
+  "messages": {
+    "沈潜と沈潜回数を積み、S3で沈潜を吸収して次のターンの火力に変える人格。": "An Identity that stacks Sinking Potency and Count, then absorbs Sinking through S3 to boost next turn's damage.",
+    "沈潜で強化: S1「セイバースラッシュ」・S2「ルミーズ」は対象の沈潜6以上でコイン威力、沈潜回数3につきマッチ威力が上がる。S3「悪夢狩り」は沈潜回数3につきマッチ威力が上がる。": "**Sinking bonuses**: S1 Sabre Slash and S2 Remise gain Coin Power if the target has at least 6 Sinking, and Clash Power per 3 Sinking Count. S3 Nightmare Hunt gains Clash Power per 3 Sinking Count.",
+    "沈潜回数: S2はマッチ勝利時とⅡコインで沈潜回数を増やす。S3は対象が混乱していれば沈潜回数3、倒せばランダムな敵の沈潜回数3を増やす。": "**Sinking Count**: S2 increases Sinking Count on Clash Win and with Coin Ⅱ. S3 increases Sinking Count by 3 if the target is staggered, and by 3 on a random enemy if it defeats the target.",
+    "S3のⅣコイン: 対象の沈潜を10吸収して、次のターンに加算コイン強化1・ダメージ量増加を得る(50%で吸収せずに効果だけ発動)。": "**S3's Coin Ⅳ**: Absorbs 10 of the target's Sinking to gain 1 Plus Coin Boost and Damage Up next turn (50% chance to trigger the effect without absorbing).",
+    "バトルパッシブ「終わりなき悪夢」(憂鬱×3・共鳴・同期化Ⅱで取得): 戦闘開始時、前のターンからの精神力差に応じてダメージ量増加と脆弱を得る。対象の沈潜に応じてダメージ量が上がる。": "**Combat passive — Endless Nightmares (3 Gloom Resonance; unlocked at Uptie Ⅱ)**: At Combat Start, gains Damage Up and Fragile based on the change in SP from the previous turn. Damage rises with the target's Sinking.",
+    "S1・S2で沈潜と沈潜回数を積み、S3で吸収して次のターンの火力に変える。パッシブは精神力の変動で脆弱も受けるので、被弾に注意する。": "Stack Sinking and Sinking Count with S1 and S2, then absorb it with S3 to convert it into next turn's damage. The passive also gives him Fragile when his SP changes, so watch out for hits."
+  }
+}

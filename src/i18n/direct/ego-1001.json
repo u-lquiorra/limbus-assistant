@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1001.md",
+  "code": "1001",
+  "messages": {
+    "精神力を大きく払って1コインから大量の破裂を付与する、精神減少を苦にしない人格向けの暴食斬撃の初期E.G.O。": "A starting Gluttony Slash E.G.O for Identities unbothered by SP loss, paying a lot of SP to inflict heavy Rupture from a single Coin.",
+    "表裏で変わる1コイン: 表面的中時は破裂を付与して精神力が10減る。裏面的中時は精神力が10回復する。表面なら精神消耗10と合わせて実質20を払う。": "**A single Coin that changes with Heads or Tails**: On Heads Hit, it inflicts Rupture and he loses 10 SP. On Tails Hit, he recovers 10 SP. On Heads, combined with the 10 Sanity cost, he effectively pays 20.",
+    "破裂の付与量: 破裂回数を与える他の攻撃と組み合わせると、破裂を一気に積める。": "**Rupture amount**: Combined with other attacks that grant Rupture Count, it stacks Rupture quickly.",
+    "パッシブ「不安定」: 1つのスキルで直前のコインと別の面が出ると、精神力-5とダメージ量増加1を得る(1ターン最大3回)。このスキルは1コインなので自分では発動せず、使用後から他の複数コインスキルで起こる。": "**Passive — Unstable**: When a Coin lands on a different face from the previous Coin within one skill, he loses 5 SP and gains 1 Damage Up (up to 3 times per turn). This skill has 1 Coin, so it does not trigger it itself; it happens with other multi-Coin skills after use.",
+    "耐性と侵蝕: 憤怒・傲慢が脆弱、暴食が抵抗。初期E.G.Oなので侵蝕スキルは無い。": "**Resistances and Corrosion**: Fatal to Wrath and Pride, Endured against Gluttony. As a starting E.G.O, it has no Corrosion skill.",
+    "破裂を積みたい相手に撃つ。破裂付与の別攻撃と合わせると効果が大きい。": "Fire it at enemies you want to stack Rupture on. It is more effective combined with other Rupture-inflicting attacks.",
+    "撃つと次ターン以降も精神力が下がるので、精神力に余裕のあるときに使う。": "Using it lowers his SP on later turns too, so use it when he has SP to spare.",
+    "精神減少が利点になる人格なら、長期戦では早めに使って低精神を保つ手もある。": "For Identities who benefit from SP loss, using it early in long fights to keep SP low is also an option.",
+    "必要資源は憤怒1・暴食3。": "It requires 1 Wrath and 3 Gluttony.",
+    "Ⅱ: 「不安定」が解放される。精神力が減る効果が主なので、利点は小さい。": "**Ⅱ**: Unlocks Unstable. Its main effect is reducing SP, so the benefit is small.",
+    "Ⅲ: 基本威力が10から14、破裂が6から12になる。本格的な性能はここから。": "**Ⅲ**: Base Power goes from 10 to 14, and Rupture from 6 to 12. This is where it gets serious.",
+    "Ⅳ: 表面的中時に次ターンの攻撃威力増加1、裏面的中時に保護1を得る。使う機会が少ないので優先度は低いと考えられる。": "**Ⅳ**: Grants 1 Attack Power Up next turn on Heads Hit and 1 Protection on Tails Hit. It sees little use, so it is likely a low priority.",
+    "握らんとする者: 3つの攻撃スキルが精神力を減らす(7・10・15)ので、精神減少の欠点を受けにくく、S3(憤怒)で憤怒資源も出せる。": "**[The One Who Shall Grip](persona:1005)**: His three attack skills reduce his SP (7, 10, 15), so the SP-loss downside barely affects him, and S3 (Wrath) supplies Wrath.",
+    "剣契殺手: S1(暴食)とS2(憤怒)で必要資源の暴食・憤怒を自給できる。": "**[Blade Lineage Salsu](persona:1002)**: S1 (Gluttony) and S2 (Wrath) supply the required Gluttony and Wrath himself."
+  }
+}

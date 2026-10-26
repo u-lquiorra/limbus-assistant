@@ -1,0 +1,792 @@
+{
+  "kind": "boss-copy",
+  "id": "oneleg",
+  "source": "src/data/bosses/oneleg.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeNoir"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_LowMorale"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_Panic"
+        },
+        {
+          "ja": "ル・ノワール ギャバジン生地のコート",
+          "en": "Le Noir: Gabardine Overcoat",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NoirSuit"
+        },
+        {
+          "ja": "アルミュール・エヴェイエ",
+          "en": "Armure Éveillée",
+          "file": "Bufs-a1c10p1.json",
+          "id": "Realisation"
+        },
+        {
+          "ja": "ワンレグ",
+          "en": "One-leg",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1483"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146503"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148202"
+        },
+        {
+          "ja": "ル・ノワール ギャバジン生地",
+          "en": "Le Noir: Gabardine Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148301"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148302"
+        },
+        {
+          "ja": "饋還",
+          "en": "Feedback",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148303"
+        },
+        {
+          "ja": "保存転換の逆説の逆説",
+          "en": "Paradox of the Conservation-Conversion Paradox",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148304"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149202"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106602"
+        },
+        {
+          "ja": "不潔なものめ！",
+          "en": "Revolting Thing!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148301"
+        },
+        {
+          "ja": "脚が1本じゃないことを恥ずかしいとも思わないのか？",
+          "en": "Aren't you ashamed of that extra leg?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148302"
+        },
+        {
+          "ja": "慈悲をもって、その1本を取り除いてやろう。",
+          "en": "I'll cut that one off You. Consider it a mercy.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148303"
+        },
+        {
+          "ja": "ワンキック",
+          "en": "Single Kick",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148304"
+        },
+        {
+          "ja": "ワンキック - クチュール・ミュルティプル",
+          "en": "Single Kick - Couture Multiple",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148305"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. The guide spelling of Couture Multiple is resolved by skill ID 148305. Preservation and Armure Éveillée follow the paired status records. Route A stats, conditional basic-attack conversion, single-target major skills, 75% reduction, and the 196 HP ending are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "19adb5d73b5fd98658681a2cfec459bd1b0975254faeabe30d5e0440a4951a72",
+      "text": "One-leg (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "707a558520c21743955ca441d50741e99f1afa013b4f2def784f76c8c8ad8acc",
+      "text": "One-leg"
+    },
+    "stageName": {
+      "sourceHash": "ad244ab5cc4e127a357c0088b790d9567c8aa8523877825b7b88ee2193b2dfc3",
+      "text": "Sisyphus Department Store A, 4F: Shoes Floor, Second Battle"
+    },
+    "lead": {
+      "sourceHash": "3736edaf3e2f0ae24d67aef10865d115f5d870fa8205b5f92f8816b68f272e1e",
+      "text": "Follows Four-legs immediately. At 100 Overcoat, awakens and makes all basic attack Coins Unbreakable. Winning against the major skills reduces damage by 75%, so save HP and strong skills for their clasher."
+    },
+    "listLead": {
+      "sourceHash": "c97753259601a44df032e2036b54aa2dbb12d80b153a8802b672961ed2dbdce4",
+      "text": "Continues directly from the previous battle. At 100 Overcoat, awakens and makes all basic attack Coins Unbreakable. Winning against major skills reduces damage by 75%, so save HP and strong skills for their clasher."
+    },
+    "statNote": {
+      "sourceHash": "7e397ef1522495b897e8bf7e0f3f7f32cad21a7b146c62540ad3e405b29b16a1",
+      "text": "Route A: Lv. 25 and 849 HP; battle ends at 196 HP. Defense Level 27 excludes additional Overcoat modifiers. Separate from Route B's Lv. 50 version starting at 45 Overcoat. Covers normal Route A “Nail” progression. In this dungeon, Customer Level replaces outside Identity levels. Uptie below III is raised to III, but E.G.O Threadspin is unchanged. Form a team of up to 12 including each floor's three required Sinners. SP and E.G.O resources carry over after battles. The 4F required Sinners are Meursault, Don Quixote, and Hong Lu."
+    },
+    "skillNote": {
+      "sourceHash": "5c8403013e4febcb97ef16c6a6815705decf731c0b46ea221801e1331a110f56",
+      "text": "Armure Éveillée makes all basic attack Coins Unbreakable. Icons show only permanently Unbreakable Coins; extra conversion from awakening is explained in effects and mechanics. Single Kick skills have 1 Atk Weight."
+    },
+    "priorities.0": {
+      "sourceHash": "3287dfddc7097b0c8fcfca8a87a302953cebf527dc4ec0e2b66d7da862e35239",
+      "text": "Expect awakening at 100 Overcoat and damage HP before the buffs arrive."
+    },
+    "priorities.1": {
+      "sourceHash": "b5555c991d621bb17fe5a7d89c45e7017afb563fc77196a3b86eaf5ed1ad0467",
+      "text": "Win against Single Kick skills for 75% damage reduction and Stagger prevention."
+    },
+    "priorities.2": {
+      "sourceHash": "e102543de8a8fbe351ee72874937dfc2f9f709192d3c3461f0468d278a1e74f4",
+      "text": "Route A ends at 196 HP. Focus the required remaining damage rather than waiting for another major attack."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "ff7e2bf6bd7dd1419231d4d326324ad8571c5a808957032702324626e9ccfc20",
+      "text": "Even regular attacks have become Unbreakable"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "46b9d824e4c1db4815e3d80ab821791559a9159a3740e9c3f9ecbb6dd85c91c9",
+      "text": "At 100 Overcoat, it changes to Armure Éveillée next turn, making every basic attack Coin Unbreakable. Heal for hits remaining after clash wins and check current status as well as normal-state icons."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0c83b778b1b8fd8f610e8516ee2511ac569e8d4aa18b2ffd4dfa9e2ddb5ce579",
+      "text": "Single Kick still attacks after a clash win"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "8e5a1a47eece1fc4d2fb40153bb51958503e497ef159d40281de0ec2943d2940",
+      "text": "Every Single Kick Coin is Unbreakable. Winning does not stop it; it reduces damage by 75% and prevents Stagger from the skill. Win the clash to reduce incoming damage."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "b0ce744a746ef51f2b4a79e18b0907b5191902deb75f32ac0938772614cfb39f",
+      "text": "The Shield disappears and the skill name changes"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "8b4f3a632f5ab1b8adeb2ed19eb2eb1e6b13d41dc0a8dc7399cbfd5e01f16063",
+      "text": "Awakening switches from the Overcoat Shield to offensive buffs, changing Single Kick into the four-Coin Couture Multiple. Use the Shield-free opening to attack, while saving strong clashes for major skills."
+    },
+    "phases.0.timing": {
+      "sourceHash": "76846100a5e2d836e420075a966c9fcc56301826d59a1934e4580c4078b517bb",
+      "text": "After defeating Four-legs"
+    },
+    "phases.0.title": {
+      "sourceHash": "2c32ee33ca2bf17d9f9605711ee52f06aefdd66c152b780ea64928d2e4a33595",
+      "text": "Check carried-over resources and damage HP early"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "8fccee59aca6eca4c2bd1368cec6f9e844eae9a01ab59b3ac7e88470e2d2fc8d",
+      "text": "The second consecutive battle after Four-legs. Losing here restarts from the first battle. Meursault, Don Quixote, and Hong Lu remain required."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "81b18595e86191a2ce1c7f0b4f5ad8be9f63b5097156e7c07c94faa09577fed2",
+      "text": "Aim for Customer Lv. 25 and check remaining HP, SP, and E.G.O resources. Starts with Preservation 1 Potency / 0 Count and 30 Overcoat."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "3815afab7767fe9f49aa65001bc96625d510ea2514f9a63df0c9ddd477f677e0",
+      "text": "Physical resistances: Slash ×0.8, Pierce ×1, Blunt ×1. Sin resistances include Sloth ×1.5, Lust ×1.25, and Envy ×0.75. Avoid relying only on Slash and Envy; use effective damage."
+    },
+    "phases.1.timing": {
+      "sourceHash": "7c0a0d3a9c565e1e87d4083b2abd773717ea4d9f0f58416d87d05ee03651bd57",
+      "text": "While Overcoat remains"
+    },
+    "phases.1.title": {
+      "sourceHash": "d39c5a5c5bb9c1a18e4983aa81adf5bfbb3170128551df9c86f8f6abb397713e",
+      "text": "Break the Shield and attack before awakening"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "0785a66ee0fb3ee171c474987d2c1bb9645a1a84c9535a7022bebf40cd81d5c7",
+      "text": "More Overcoat means more Shield and defense. Gaining or consuming Preservation Count, and taking hits while Shielded, also add stacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "6bae6e7e37560fb00fa7d7d3e1044af26c624ff919fc87a13e24496fb7837426",
+      "text": "Ending a turn with a Shield remaining further increases Overcoat, Preservation Count, and Defense Level. Concentrate enough damage to break through."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "52f472be89ca733caade58e8a62763da712e93f0784a4b8a3f0ffe7cd4262dcd",
+      "text": "I'll cut that one off You. Consider it a mercy. can be clashed with regardless of Speed. Overcoat and Preservation Count raise its Power, so assign a strong clasher."
+    },
+    "phases.2.timing": {
+      "sourceHash": "c4bf1587ebb76af60396806bcdac821ecd57ae0ece6ea150a67822114be7fe27",
+      "text": "The turn after reaching 100 Overcoat"
+    },
+    "phases.2.title": {
+      "sourceHash": "1d6c456fd01a85bdfe69a9fa246bb14f19c3028072a9360001e86331ac055188",
+      "text": "Recover for fully Unbreakable basic attacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "37082667267e69942a138eb37eb79e26f832451681c19d109bac3cbd78b5302b",
+      "text": "Changes to Armure Éveillée, making regular skills Unbreakable too. Prepare HP recovery and Blunt resistance for damage remaining after clash wins."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "fa9803801e2b32b36ad9addcce2e7e4f7242bbddf1ab73d2777dcf50b23497ae",
+      "text": "Awakening stacks also increase SP recovery and Offense/Defense Levels. Check current clash predictions rather than normal-state maximum Power."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "1e2410a40f2d024dec0a8f23f11438698f865f1156350cb47ead911feda28dfa",
+      "text": "The absence of the Overcoat Shield is also an opening. Do not wait only with defense; damage HP while saving strong clashes for dangerous skills."
+    },
+    "phases.3.timing": {
+      "sourceHash": "191d4f776537578f38c9fb01c8b6ec1e01ba8b38d9b5b47901426b702909a5c5",
+      "text": "Single Kick skills"
+    },
+    "phases.3.title": {
+      "sourceHash": "390572e05bcf4f5baa948ba405d13f1f7bdf64d2a3b1235e33ed035abd67be1b",
+      "text": "Use high Clash Power and lower remaining HP to 196"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "a295673e758f860bb089324054daba4dc5db6a568bd917402d5097fd23a71f50",
+      "text": "Single Kick has three Coins and Couture Multiple four; both are fully Unbreakable with 1 Atk Weight. Do not treat them as area attacks."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "c0c29dbcaf70fe87937eee72f6255c29441e028ee90c80259e5fa733b25f9434",
+      "text": "Both deal 75% less damage on a clash loss and cannot Stagger targets through their damage or effects. Win with a strong E.G.O or similar skill and maintain the clasher's HP."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "d6ba401db8b79de1fd2c93b0ca7a4ecaa5e7fa44564f467733f00de3250b60af",
+      "text": "Beyond base maximums of 16 and 21, Preservation Potency and Count raise Coin Power and other values. Awakening switches to the enhanced version; do not assign weak regular skills."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "8b0bc57add75eda93aefb94f904cc32e3ebfbcfb13dfd40ff6b04f2082e0b766",
+      "text": "Route A ends at 196 HP. Focus the damage needed to reach that threshold instead of waiting to deplete all HP to 0."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "175e11c205ea1dfdde5d5829539ca53167bf93aa9f47a918a72ac021c70293c2",
+      "text": "The dungeon level raised by spending eyeballs in department-store shops. Determines Identity levels inside the dungeon."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "4659c5955300de5672234e0a56d7e7dfeffc5d20067daa69c1fcfdb2e56e869f",
+      "text": "If clashes are too weak, check unvisited shops and vending machines instead of farming outside EXP."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "658d4e13792753fa52c603511dba2b4aa33883cf3538dc2dc9b0e0c4894c4788",
+      "text": "A special Charge affected by effects that change Charge Potency and Count. The usual Count cap is 20; lose 1 Count at Turn End. Enemy passives increase Preservation Potency and other effects through cumulative Count consumption."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "f973eede431fc61853ba5c7b9c9ce7fd951973cc53f04b9fc249fbbaac80bd90",
+      "text": "Check Potency and Count separately. Spending Count may still advance buffs based on cumulative consumption."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "f3dcc50949073e7d0f4480e457d46756fab5cda6115daa066b51ca4aaa0739c0",
+      "text": "Back into My Shell..."
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "73d713f821ae4f349289aef59293b25b01e0dc5fb727b6b0fe2f579b2104d4ef",
+      "text": "At −20 SP or lower, maximum Speed −1 and Defense Level +1; at −45 or lower, maximum Speed −5 and Defense Level +3. Clash wins and losses also change SP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "48cb6d6262578cda93ff845a14a7da03cae319af94f90fa56c7b2233568c9057",
+      "text": "Lowering enemy SP is useful, but reduced Speed does not finish the fight. Check remaining HP and Shields."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "821e4028fb85e06b1b59ba93347ad272bf94840b8ca41adb01be75cdfb29b29f",
+      "text": "Le Noir: Gabardine Overcoat"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "ab6788f498f21d8b811110968aeb84a2e1bbd758b7a1c55456c9ad9b9f01736f",
+      "text": "Maximum 100; Route A starts at 30. Increases through Preservation Count gains or consumption and hits while Shielded, among other effects. Gain 10 at Turn End if a Shield remains. At 100, changes to Armure Éveillée next turn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "a071f28418e4f39e7951e96b053c8201970631b129ab736604e5090c001dd7c9",
+      "text": "Check how close awakening is. Break the Shield and damage HP before the buffs arrive."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "76438575feca9f0313269c008a016ca8568228985e1397ecab7e4e8cb0e49742",
+      "text": "Armure Éveillée"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "c68ebf1a403dd9f290a0a74ad0dab08f1bb12560df1761a547723befb6015052",
+      "text": "Makes every basic attack Coin Unbreakable, with SP recovery and Offense/Defense Level buffs according to stacks. Single Kick becomes Couture Multiple. From the turn after conversion, lose 10 at Turn End; return to Overcoat at 0."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "5a47f0cd3a0ed6d37dd4623ad25f593f02deab99c8490f13476e231ab7a184a6",
+      "text": "Prepare for hits after clash wins, prioritizing strong major-skill clashes and HP recovery."
+    },
+    "warnings.0": {
+      "sourceHash": "e2fb41fc552b01636f5818086694f0f96183a5055e747257d1b6b76b48d43345",
+      "text": "Losing restarts from Four-legs. Treat resource consumption across both battles."
+    },
+    "warnings.1": {
+      "sourceHash": "27dea9012ac3c5a6c00dc0236396dd725ace7b8f307328b54be75dd80e541e48",
+      "text": "A major attack still resolves after a clash win, but winning gives 75% damage reduction and Stagger prevention. Do not leave it unopposed because winning seems unimportant."
+    },
+    "warnings.2": {
+      "sourceHash": "91149dc6639383fac1e648b0f6c7a4ab392a9ae34e8d82e994f55c868d38dd02",
+      "text": "During Armure Éveillée, even regular skills are Unbreakable. Check current status alongside base Coin icons."
+    },
+    "warnings.3": {
+      "sourceHash": "03a5bb84db144a8f9f57169a6041d08beceed030919f2e466fc0374b2f5179a4",
+      "text": "The 196 HP ending applies to Route A. Do not reuse it for Route B."
+    },
+    "preparation.0": {
+      "sourceHash": "048a44286ad30850b60bc49f82ecf409edeabcae00edfa81f33746d9f5b25808",
+      "text": "Meursault, Don Quixote, and Hong Lu are required. Bring your main attackers and HP recovery, using carried-over SP and E.G.O resources."
+    },
+    "preparation.1": {
+      "sourceHash": "329c28c6b4173b0b56b3498ba06efe8568d01776a484ce88ddf641e75833026b",
+      "text": "Aim for Customer Lv. 25 through shopping. You do not need to raise outside Identity levels. An official RENTAL Identity is available for Meursault too."
+    },
+    "preparation.2": {
+      "sourceHash": "b62129dd922ed7084cfe57b20ab25c93b986795d2effc921e7076b7e0827b147",
+      "text": "Check Blunt resistance and E.G.O for strong clashes. Threadspin is not raised, so choose according to required effects and resource costs."
+    },
+    "roles.0.name": {
+      "sourceHash": "5ce1247fb77b3a6c4f6f01346660c097563099932ca14e9839fe51a3a77113ee",
+      "text": "Pierce, Blunt, Sloth, and Lust damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "eb77ce79a1069d5f4e2b2c8d92802dbec0c4405f5e74be7ca5b676b1c124ac2a",
+      "text": "Avoid Slash and Envy resistance while depleting Shields and HP."
+    },
+    "roles.1.name": {
+      "sourceHash": "b46f359a9390a543443e403bd50e80f05d6a36f9b2130e2ff071ff8c21b91cde",
+      "text": "High-Power clashes against major skills"
+    },
+    "roles.1.reason": {
+      "sourceHash": "47822f8bc92e122532e483432cf92518ffae6bf99fc769206b9af00f87dcd47a",
+      "text": "Gain 75% damage reduction and Stagger prevention against Unbreakable attacks."
+    },
+    "roles.2.name": {
+      "sourceHash": "bad7aafa2c6fb98cf719e86d505821f2afb6d94bc7ecfc3018c321222d0cb613",
+      "text": "Heal the major-skill clasher"
+    },
+    "roles.2.reason": {
+      "sourceHash": "f5ea6847309a168ef650d85ac00c4ff06eaf403691421ee21a4b0b477691e592",
+      "text": "Survive Unbreakable attacks that remain after clash wins."
+    },
+    "units.0.name": {
+      "sourceHash": "707a558520c21743955ca441d50741e99f1afa013b4f2def784f76c8c8ad8acc",
+      "text": "One-leg"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "459e4490f84bc8b586736adb6a2f8bf6f8d884c9843ff12ca5997596ecadfffa",
+      "text": "On entry, gain 1 Preservation Potency and 0 Count.\nThe battle ends at 196 HP."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1388e838ac917697d3662cb0f90ab4ac0fb9ef2c0052bdeb61ec806b0ab9e341",
+      "text": "Normal Route A progression, separate from Route B's enhanced version."
+    },
+    "skills.0.name": {
+      "sourceHash": "6508ee9446a2e8fc8b781ba521265bf76ff3c90ed5055172f8f7bb7387a84e8e",
+      "text": "Revolting Thing!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "8488bdbf42dad6c2c77aae40e1739f106f5398bb2d2c8b7c6fc414e39baee03b",
+      "text": "[On Use] With at least 50 Le Noir: Gabardine Overcoat, gain 1 Defense Level Up"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "e28014fed1ea6fd56be1ae32cf762ad4820719bc7cdca40bd0e957aea23a0c39",
+      "text": "[On Use] With Armure Éveillée:"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "fb0f72714ed41f5562623293be47c78812968b788c4ab3ca8aee6bc392097fb4",
+      "text": "- Damage +(Preservation Potency × 8)% (max 40%)"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "a629abbb12e7aae01e6de03688cb0d016d0c10dc62c7f8acc93420363e52d9b9",
+      "text": "- Consume 4 Armure Éveillée"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "75749c9f69b7e95dadeba4bd4b494b2e210df9ee1107efa67b55c83585115df8",
+      "text": "[On Use] At 12 or more Preservation Count, consume 2 for +1 Clash Power"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "5049bec449414895bd4911ff330b1b271ad2cc1f81f36fe5e4ae7ddbeda8f16b",
+      "text": "[On Use] With fewer than 10 Preservation Count, gain 2 Count"
+    },
+    "skills.0.effects.6": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.effects.7": {
+      "sourceHash": "e19595c83df541779a43d44aa5dc892715ce8d28ea16668611609069cc38cfc3",
+      "text": "[On Hit] Gain 1 Preservation Count"
+    },
+    "skills.0.effects.8": {
+      "sourceHash": "b5405b0557e5ab8a5835a652ef19175ba56855b35bc56cdce94616bc3c59cb3a",
+      "text": "Ⅱ [On Hit] Inflict 1 Tremor and increase Tremor Count by 1"
+    },
+    "skills.0.effects.9": {
+      "sourceHash": "e19595c83df541779a43d44aa5dc892715ce8d28ea16668611609069cc38cfc3",
+      "text": "[On Hit] Gain 1 Preservation Count"
+    },
+    "skills.0.response": {
+      "sourceHash": "ee88699bbe5420bcd8f4b829a2cb69c6893a027a3e89026f28492bd5444132e1",
+      "text": "At 12 or more Preservation Count, Clash Power +1. Awakening makes this regular skill Unbreakable too, so maintain HP."
+    },
+    "skills.1.name": {
+      "sourceHash": "ef9d5f37c0f0c99a783f6cc2f91afb3f358b33253cbe152686d51a285b6cee24",
+      "text": "Aren't you ashamed of that extra leg?"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "3b27e7809582047e2331da39137a08f0643411f16d2e02e00a56c090f6858daf",
+      "text": "[On Use] With Le Noir: Gabardine Overcoat, gain 1 Defense Level Up per 40 stacks (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "e28014fed1ea6fd56be1ae32cf762ad4820719bc7cdca40bd0e957aea23a0c39",
+      "text": "[On Use] With Armure Éveillée:"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "22fd1933dec33479649b6768c582f54ebbdbcd9ab7d50b97f046cc351e8b359f",
+      "text": "- Damage +(Preservation Potency × 6)% (max 30%)"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "9b20146a911200f22807c2369c0300571605800abfb069482d0ce29694c42535",
+      "text": "- Consume 6 Armure Éveillée"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "9666da0f2961b3de85f18b76f42151e9f0decddf25197f65cbb50048f734bf36",
+      "text": "[On Use] At 12 or more Preservation Count, consume 2 for +1 Final Power"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "86dee717c0e4f4b14fe7295facbfb6e4ade7ec588c0ae49f5cc567d872a99c1e",
+      "text": "[On Use] With fewer than 15 Preservation Count, gain 3 Count"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "c473451c5fb4cc22dd46cae6d2667b3c2dc38ac11b9670fb2181541a2610f265",
+      "text": "Ⅰ [On Hit] Inflict 4 Tremor and increase Tremor Count by 2"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "96fdd93065d95af64f6989b8bdc9a818f57bcb57e54b0627ae8e9ce038cea9ef",
+      "text": "[On Hit] Gain 2 Preservation Count"
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "14b59bdb35cc975b46b7e8da3c1ee7addde301b9b956cbb35df9463098ede98a",
+      "text": "Ⅱ [On Hit] Gain 1 Preservation Count"
+    },
+    "skills.1.effects.9": {
+      "sourceHash": "ee4aa89d641a799b0962fc22eeb54f54a004b0ecb7bb93bf9bc182b776fc5226",
+      "text": "Ⅲ [On Hit] At 3 or more Preservation Potency, trigger Tremor Burst and reduce the target's Tremor Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "cafd07cdd599b3110b9a10fca3c4e5c34766015f26c15c07dce5fcad8b4b4b89",
+      "text": "At 3 or more Preservation Potency, the final hit triggers Tremor Burst. Watch for extra hits during awakening and win with a strong regular skill."
+    },
+    "skills.2.name": {
+      "sourceHash": "6df25f04250fdef5155c859888e997f564c9d0647a5146c8bd7b7e5909dbe4df",
+      "text": "I'll cut that one off You. Consider it a mercy."
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "04bb79c3f87be678ac85c9a336bf977320c3dee0e322d750d2876ac9aeb5f090",
+      "text": "[On Use] With Le Noir: Gabardine Overcoat, Clash Power +1 per 30 stacks (max 3)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "97dbbc172bf1e01f5a1e87dffa46e78c6c9b4dda4b1ef2860f44d01a24f859e1",
+      "text": "[On Use] With Armure Éveillée, damage +1% per 2 stacks (max 50%)"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "469e41717084068a81dbae025593dc0258228bd7c4d668fa38f1dcebd26e8a90",
+      "text": "- At 10 or more Preservation Count, consume 10 for +2 Coin Power"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "5d11db47bd5473f94f5fc2ce320526f0aa8b5fe1e87c0c9e2f4974485304a8ee",
+      "text": "- With fewer than 10 Preservation Count, gain 5 Count"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "6f747e2ae60c12ca749f918a0d4fc60071f75dde757ef714dc8cd0997d7064ad",
+      "text": "Ⅱ [On Hit] Increase Tremor Count by 3"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "f4bc5166844742dd96a29d9f8979e47d4d89466fc9136a4a989b70a65e7e7a33",
+      "text": "[On Hit] If this skill consumed Preservation Count, trigger Tremor Burst and reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.11": {
+      "sourceHash": "9250841e37a99831a30e96072b632c735dc3030ed6761a2aaa163294af9e151c",
+      "text": "Aren't you curious how this one will react when we eventually meet Le Noir's brand manager?"
+    },
+    "skills.2.response": {
+      "sourceHash": "a9bbc2a9183705504cbfd2f171d24c6d735e1264ed0f8cade0fa7eb3a538c628",
+      "text": "Can be clashed with regardless of Speed. Account for Overcoat-based Clash Power and +2 Coin Power at 10 or more Preservation Count; assign a strong clasher."
+    },
+    "skills.3.name": {
+      "sourceHash": "30344e7310fd643a541b728f38560caf16eef057f75c9be850baf10052f6da62",
+      "text": "Single Kick"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "a863c14abcd5bdbe92996d8400af9ef5cada6cb62e1a7653fa9a99a43e23f04c",
+      "text": "[On Use] With Le Noir: Gabardine Overcoat:"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "1422c273a3573df510f1ba241d3b950876eea579e6f247c72f9ab5ce90ad0be9",
+      "text": "- Damage +1% per 3 value (max 30%)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "b213587c87aeefcc9b856e82b339fdfb393ecc3fba5a5496f7ad2f0ce016ddbf",
+      "text": "- Gain 1 Defense Level Up per 15 stacks (max 5)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "a519607dad4e8aa8a82c8240d680ef0d096f62af0df6b570657cb2b135537d51",
+      "text": "[On Use] At 10 or more Preservation Count, consume 10 for +2 Coin Power"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "4f36ab1246d815dc9581833fe68e0b6eee90f02f62d25141c5a396152f31d98e",
+      "text": "- At 50% HP or less, consume up to 10 additional remaining Preservation Count for damage +(extra Count consumed × 2.5)% (max 25%)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "5d0e6ba54b31893e412e0076934679545abba8ce3cbc112f80d435d96622b2c2",
+      "text": "[On Use] At 3/5 or more Preservation Potency, Coin Power +1/+2"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "c3645cfaa802981783cae0cda6ec390d035596cd83e25794f9918d2edb21ef15",
+      "text": "- Damage -75%"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "06e53dc41b07061c5ffc92204920dcc02181be290fa49f9b46751bd8a6a45d24",
+      "text": "- This skill's damage and effects cannot Stagger the target"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.3.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.14": {
+      "sourceHash": "d531c8a604f467513e900f00c8c154de53345a035cd58e39af241f2330e9db37",
+      "text": "Damage +5% per Defense Level Up on self (max 100%)"
+    },
+    "skills.3.effects.15": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.3.effects.16": {
+      "sourceHash": "4f0107e323a8a4d656468e78ae1504777accfedc5d0022364b3ed4ce19d988d7",
+      "text": "[On Hit without Coin Destruction] At 3/5 or more Preservation Potency, trigger Tremor Burst 1/2 times and reduce the target's Tremor Count by 1/2"
+    },
+    "skills.3.response": {
+      "sourceHash": "b86952ef95cade7eb8548f96d452f52fc247d9301fc9b73f1d29f918c0e9673f",
+      "text": "A single-target skill with three Unbreakable Coins. Win for 75% damage reduction and prevention of Stagger from the skill. Give the clasher a high-Power skill and healing."
+    },
+    "skills.4.name": {
+      "sourceHash": "5fe8faf24e3222e26dfae1c6c20cecefd499edc41dde9134c4150ae47d1c3de6",
+      "text": "Single Kick - Couture Multiple"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "e28014fed1ea6fd56be1ae32cf762ad4820719bc7cdca40bd0e957aea23a0c39",
+      "text": "[On Use] With Armure Éveillée:"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "c3df3b5f09ecb94e2f3f7e771da1c2f50317235dca11a94869a97b6106c8c2d0",
+      "text": "- Damage +1% per 2 stacks (max 50%)"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "22fd1933dec33479649b6768c582f54ebbdbcd9ab7d50b97f046cc351e8b359f",
+      "text": "- Damage +(Preservation Potency × 6)% (max 30%)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "44158b88e8044bb21cc50aacb4e9cc3bfe33d3d5491da08c292754c3feba93ae",
+      "text": "- Consume 15 Armure Éveillée"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "802ab0c1bbb12ff13d8c5eb4094ec7831fbbbd76afd28842ea80b2ddf9be743a",
+      "text": "[On Use] At 10 or more Preservation Count, consume 10 for +2 Final Power and +1 Coin Power"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "5d0e6ba54b31893e412e0076934679545abba8ce3cbc112f80d435d96622b2c2",
+      "text": "[On Use] At 3/5 or more Preservation Potency, Coin Power +1/+2"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "10bf70dfdc48ddb45a640106bb45361a62afe3da1fe3db58eca4fee0439d00aa",
+      "text": "-Damage -75%"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "198d2227a75ec8ec613ccd400e824537fc95d270c55edb2266c6c88c79b42b3f",
+      "text": "- This skill's damage and effects cannot Stagger its targets"
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.12": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.4.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.14": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.4.effects.15": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.4.effects.16": {
+      "sourceHash": "4f0107e323a8a4d656468e78ae1504777accfedc5d0022364b3ed4ce19d988d7",
+      "text": "[On Hit without Coin Destruction] At 3/5 or more Preservation Potency, trigger Tremor Burst 1/2 times and reduce the target's Tremor Count by 1/2"
+    },
+    "skills.4.effects.17": {
+      "sourceHash": "27e68c6ffe13bcffa0f37a0446f0d5b51c50cc5b7a0a21d12c782abee3416e76",
+      "text": "[On Hit without Coin Destruction] Deal Pierce damage equal to 20% of this Coin's final damage"
+    },
+    "skills.4.response": {
+      "sourceHash": "75bd10028a3b706fbe03bfb8b728ef687498da8b45dbd67744919aa44c64bfe8",
+      "text": "The awakened single-target skill with four Unbreakable Coins. Preservation buffs also apply, so do not judge from the base maximum of 21. Win for 75% damage reduction and Stagger prevention."
+    },
+    "passives.0.name": {
+      "sourceHash": "f3e74090edc6285205413a84eb0c78e55d868991d8e1b984b9cb22d85123855a",
+      "text": "Le Noir: Gabardine Fabric"
+    },
+    "passives.0.effect": {
+      "sourceHash": "d19396ef801d62e4ff06bf8655a59ff9018901f42d03552257217b05b4c89cfa",
+      "text": "At Stage Start, gain 30 Le Noir: Gabardine Overcoat.\n\nAt Turn Start:\n- Gain a Shield equal to (Le Noir: Gabardine Overcoat ÷ 5)% of max HP, unless Staggered.\n\nLe Noir's flagship fabric, pursuing formality and durability."
+    },
+    "passives.0.condition": {
+      "sourceHash": "647b87216933db0cd352979ca4854bfcb8f93458b770bf18fc1c76ab3e8612ea",
+      "text": "Stage Start and Turn Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "ca2d411f5421ff7aa7c8d1520e710aec87d2e306be4182429a3dd264d68915b2",
+      "text": "Route A starts at 30 Overcoat. While not Staggered, gains a Shield according to its stacks."
+    },
+    "passives.1.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "passives.1.effect": {
+      "sourceHash": "a3fb3864b4dcaabb71b77a501d0c6f7eff8e9e92a587435573b05d897980eafe",
+      "text": "Gain 1 Preservation per 10 Preservation Count cumulatively consumed during battle.\n\nAt 3 or more Preservation Potency, maximum Preservation Count +5.\n\nCondense, gather power, and hold it in place. Keeping something unchanged can require more force than changing it."
+    },
+    "passives.1.condition": {
+      "sourceHash": "bc2cde8443d9cda0629530d62a7d832c0eb910e017b507a9e621f375e9fec903",
+      "text": "Every 10 Preservation Count cumulatively consumed"
+    },
+    "passives.1.response": {
+      "sourceHash": "ea49446712989ae4d17cdf2c85e501894f38e93183e3c35830fae0d72dbe71ec",
+      "text": "Cumulative consumption raises Potency. Recheck buffs even immediately after a major attack."
+    },
+    "passives.2.name": {
+      "sourceHash": "acb8be2870fb26ac4995184b5923554c8408a595fc9bd921a96e3b3ba4a37552",
+      "text": "Feedback"
+    },
+    "passives.2.effect": {
+      "sourceHash": "b957a467dcac3c2c660e46fd8aefaf531eec7b4c4228904f5112203c1793a191",
+      "text": "At Turn Start with Armure Éveillée, Single Kick becomes Single Kick - Couture Multiple.\n\nTremor Bursts raise Stagger Thresholds by 20% more.\n- At 12 or more Preservation Count, instead consume 1 Count on Tremor Burst for 40% more Stagger Threshold advancement (applied per target).\n\nIf the target has no Stagger Threshold when Tremor Burst triggers, deal fixed damage equal to Defense Level Up on self (max 20).\n\nLe Noir believes strong tremors can shake an opponent until their worth collapses. The more violently a target trembles, the more it changes from moment to moment. Le Noir's combat techniques are built on that belief."
+    },
+    "passives.2.condition": {
+      "sourceHash": "0dbc4846b3035cd175ad6caea750a711c3925e3f1b7dc22b01ac53fc44779352",
+      "text": "During awakening; on Tremor Burst"
+    },
+    "passives.2.response": {
+      "sourceHash": "2ec2818e3304c948f5a3224cfae9f08f8ad6b4506bb4e1c94f450753824e2424",
+      "text": "Account for the enhanced Single Kick and increased Stagger Threshold advancement from Tremor Burst."
+    },
+    "passives.3.name": {
+      "sourceHash": "7bf645ff784651687644df4447706573a07979ca98089b6a7df28ef4806ef16c",
+      "text": "Paradox of the Conservation-Conversion Paradox"
+    },
+    "passives.3.effect": {
+      "sourceHash": "607e41cf1ffab4ea8e83d12be36de14fbd075bd683cf4cb24372246b13a635c0",
+      "text": "When hit by a Sinner while Shielded:\n- Inflict 1 Tremor on that Sinner (once per skill).\nGain 1 Preservation Count (once per skill, up to three times per turn).\n- At 3/5 Preservation Potency, gain 2/3 Count instead.\n\nIf a Shield remains at Turn End, gain 1 Preservation Count and 2 Defense Level Up next turn per Preservation Potency (max 3 Count and 6 Defense Level Up).\n\nThe harder one tries not to change, the closer one's existence moves toward change. Everything that exists is always heading somewhere; movement inevitably brings change."
+    },
+    "passives.3.condition": {
+      "sourceHash": "e86a45a0d5242c91ba0abb6fd368b7f183c615e535d813ae8ac681b914916da3",
+      "text": "Taking hits while Shielded; Turn End"
+    },
+    "passives.3.response": {
+      "sourceHash": "9fe577af8aaa0bab6a6f90f8e5ffb4df68199b7d5651254bc14acfb1ff1fdb85",
+      "text": "Leaving the Shield up adds Preservation Count and defense. Concentrate enough damage to break it rather than repeating small attacks."
+    }
+  },
+  "messages": {
+    "boss-copy:oneleg": "complete",
+    "【リンバス】10-04 ワンレグ（10章A）の攻略｜Limbus Assistant": "10-04 One-leg (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「ワンレグ（10章A）」の攻略。フォーレグからの連戦。コートが100になると覚醒し、基本攻撃が全て破壊不能へ変わる。大技にはマッチ勝利でダメージを75%減らせる効果があるため、受け役のHP…": "One-leg (Canto X A) guide for Limbus Company 10-04. Follows Four-legs immediately. At 100 Overcoat, awakens and makes all basic attack Coins Unbreakable. Winning against the major skills reduces damage by 75%, so save HP and strong skills for their clasher.",
+    "10-04 ワンレグ（10章A）": "10-04 One-leg (Canto X A)",
+    "10-04「Sisyphus Department Store A, 4F: Shoes Floor, Second Battle」": "10-04 · Sisyphus Department Store A, 4F: Shoes Floor, Second Battle",
+    "ワンレグの外見": "One-leg appearance",
+    "ワンレグのスキル": "One-leg skills",
+    "One-legの外見": "One-leg appearance",
+    "One-legのスキル": "One-leg skills"
+  }
+}

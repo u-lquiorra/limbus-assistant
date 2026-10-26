@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1203.md",
+  "code": "1203",
+  "messages": {
+    "与えたダメージに応じて体力を回復する貫通E.G.Oで、解析Ⅳで広域化して回復を重ねる使い方が本命。": "A Pierce E.G.O that heals HP based on the damage dealt; its intended use is becoming multi-target at Threadspin Ⅳ to stack healing.",
+    "ダメージ比例の回復: 的中時にダメージ量の40%(解析Ⅲで60%)だけ体力を回復する。": "**Damage-based healing**: On hit, heals HP equal to 40% of the damage dealt (60% at Threadspin Ⅲ).",
+    "広域化(解析Ⅳ): 攻撃加重値が1から3になり、複数の敵に当てるほど回復の機会が増えると考えられる。": "**Multi-target (Threadspin Ⅳ)**: Attack Weight goes from 1 to 3, and hitting more enemies likely creates more chances to heal.",
+    "パッシブ「養分吸収」: 破裂が付いた敵を倒したとき、最大体力の(暴食完全共鳴数)%を回復する。破裂と暴食完全共鳴の両方が必要。": "**Passive — Nutrient Absorption**: Defeating an enemy with Rupture heals (Gluttony Absolute Resonance)% of max HP. It requires both Rupture and Gluttony Absolute Resonance.",
+    "侵蝕スキル: 敵味方識別不可で、体力が最も高い対象(味方の可能性あり)を狙う。加重値3(解析Ⅳで5)で、表面的中時に破裂を付与するが、回復量は覚醒より低い。": "**Corrosion skill**: Cannot distinguish friend from foe and targets the highest-HP target (possibly an ally). 3 Attack Weight (5 at Threadspin Ⅳ), inflicting Rupture on Heads Hit, but it heals less than Awakening.",
+    "解析Ⅳまで進めてから、複数の敵へ当てて回復する。": "Take it to Threadspin Ⅳ, then hit multiple enemies to heal.",
+    "破裂編成で使うと、パッシブの条件も満たしやすい。": "Used in a Rupture team, the passive's condition is also easier to meet.",
+    "必要資源は怠惰1・暴食4。耐性は憤怒・傲慢が脆弱(×2)、暴食が耐性(×0.5)。": "It requires 1 Sloth and 4 Gluttony. Its resistances are Fatal (×2) to Wrath and Pride and Ineffective (×0.5) against Gluttony.",
+    "Ⅱ: 「養分吸収」が解放される。": "**Ⅱ**: Unlocks Nutrient Absorption.",
+    "Ⅲ: 威力が上がり、回復が40%から60%になる。": "**Ⅲ**: Raises power, and healing goes from 40% to 60%.",
+    "Ⅳ: 覚醒・侵蝕ともに攻撃加重値が増え、実用的な回復量になる。": "**Ⅳ**: Both Awakening and Corrosion gain Attack Weight, bringing the healing to a practical level.",
+    "G社課長代理: 破裂を扱い、S1が暴食、S2が怠惰で必要資源を出せる。": "**[G Corp. Manager Corporal](persona:1203)**: Uses Rupture, and his S1 is Gluttony and S2 Sloth, supplying the required affinities.",
+    "LCB囚人: 破裂を付与する人格で、S2が暴食、S3が怠惰で必要資源を出せる。": "**[LCB Sinner](persona:1201)**: An Identity who inflicts Rupture, whose S2 is Gluttony and S3 Sloth, supplying the required affinities."
+  }
+}

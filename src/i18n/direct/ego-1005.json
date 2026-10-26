@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1005.md",
+  "code": "1005",
+  "messages": {
+    "色欲共鳴で攻撃対象を増やし、火傷のない敵へ大量の火傷を付ける、減算コインの色欲打撃広域E.G.O。": "A multi-target Lust Blunt E.G.O with Minus Coins that adds targets through Lust Resonance and loads heavy Burn onto enemies without Burn.",
+    "火傷の付与: 的中時に火傷4を付与し、対象に火傷がなければさらに火傷4(侵蝕は6)が付く。火傷のない敵ほど効率が良い。": "**Inflicting Burn**: Inflicts 4 Burn on hit, plus 4 more (6 for Corrosion) if the target has no Burn. It is most efficient against enemies without Burn.",
+    "共鳴で広域化: 加重値は3。色欲共鳴が4以上で+1(解析Ⅲ)、最大色欲完全共鳴が4以上でさらに+1(解析Ⅳ)になる。": "**Multi-target through Resonance**: Attack Weight is 3. +1 at 4 or more Lust Resonance (Threadspin Ⅲ), and +1 more at a highest Lust Absolute Resonance of 4 or more (Threadspin Ⅳ).",
+    "火傷10以上のデバフ: 覚醒は裏面的中時に次ターンの攻撃・守備威力減少を付与(解析Ⅳ)。侵蝕は色欲脆弱を付与し、火傷のない相手にも1発で条件を満たす。": "**Debuffs at 10+ Burn**: Awakening inflicts Attack and Defense Power Down next turn on Tails Hit (Threadspin Ⅳ). Corrosion inflicts Lust Fragility and meets the condition in one hit even on targets without Burn.",
+    "減算コイン: 威力16~26で、HEとしては低め。強敵の大技にマッチを合わせる使い方は向かないと考えられる。": "**Minus Coins**: Power 16–26, lowish for HE. It is likely not suited to matching strong enemies' big attacks in Clashes.",
+    "パッシブ「破滅の予言」: 色欲スキルが表面的中時、自分と対象へ精神力ダメージ4。色欲スキルで敵を倒すと色欲資源を5つ得る。": "**Passive — Prophecy of Ruin**: When a Lust skill lands Heads, deals 4 SP damage to himself and the target. Defeating an enemy with a Lust skill grants 5 Lust resources.",
+    "他の人格で火傷を付けきる前に、火傷のない敵へ撃って一気に積む。": "Before other Identities have fully applied Burn, fire it at enemies without Burn to stack it all at once.",
+    "色欲スキルを並べて共鳴を作り、広域化させる。": "Line up Lust skills to build Resonance and make it multi-target.",
+    "精神力を高く保ちたい人格には向かない。精神減少を使う人格で、準備技として撃つ手もある。": "It is not suited to Identities who want to keep SP high. With an Identity that uses SP loss, firing it as a setup move is an option.",
+    "必要資源は憤怒2・色欲5・嫉妬1、精神消耗は覚醒25・侵蝕30。": "It requires 2 Wrath, 5 Lust, and 1 Envy, with a Sanity cost of 25 for Awakening and 30 for Corrosion.",
+    "Ⅱ: 「破滅の予言」が解放される。": "**Ⅱ**: Unlocks Prophecy of Ruin.",
+    "Ⅲ: 色欲共鳴4以上で加重値+1。侵蝕の色欲脆弱は1。": "**Ⅲ**: +1 Attack Weight at 4 or more Lust Resonance. Corrosion's Lust Fragility is 1.",
+    "Ⅳ: 最大色欲完全共鳴4以上で加重値がさらに+1。覚醒に威力減少が付き、侵蝕の色欲脆弱が2になる。発動条件は変わらないので、編成を選ぶ。": "**Ⅳ**: +1 more Attack Weight at a highest Lust Absolute Resonance of 4 or more. Awakening gains Power Down, and Corrosion's Lust Fragility becomes 2. The activation conditions do not change, so it is team-dependent.",
+    "握らんとする者: S1・S2が火傷を付与し、S2(色欲)・S3(憤怒)で憤怒・色欲の資源を出せる(嫉妬は別途必要)。精神力を減らすスキルが、パッシブの精神減少とも噛み合う。": "**[The One Who Shall Grip](persona:1005)**: S1 and S2 inflict Burn, and S2 (Lust) and S3 (Wrath) supply Wrath and Lust (Envy is needed separately). His SP-reducing skills also mesh with the passive's SP loss.",
+    "東部親指ソルダートII: S1(色欲)で色欲の資源と共鳴を稼ぎ、S3(憤怒)が火傷を付与する。": "**[The Thumb East Soldato II](persona:1013)**: S1 (Lust) earns Lust resources and Resonance, and S3 (Wrath) inflicts Burn."
+  }
+}

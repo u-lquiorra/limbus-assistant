@@ -1,0 +1,890 @@
+{
+  "kind": "boss-copy",
+  "id": "shiomi-yoru",
+  "source": "src/data/bosses/shiomi-yoru.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "シン(心) - 地慧星",
+          "en": "Shin (心) - Dihui Star",
+          "file": "Bufs-a1c9p2.json",
+          "id": "LittleFingerBoss_Shin"
+        },
+        {
+          "ja": "観望",
+          "en": "Silent Regard",
+          "file": "Bufs-a1c9p2.json",
+          "id": "LvDownLittleFingerBoss"
+        },
+        {
+          "ja": "剣痕[残像]",
+          "en": "Bladetrail [Afterimage]",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncision"
+        },
+        {
+          "ja": "地慧星刀",
+          "en": "Dihui Star's Blade",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncisionTotal"
+        },
+        {
+          "ja": "絡まり、歪んでしまった記憶と思い出",
+          "en": "Twisted and Disjointed Memory and Recollection",
+          "file": "Bufs-a1c9p2.json",
+          "id": "RyoshuParrySoji"
+        },
+        {
+          "ja": "四重残像もつれ",
+          "en": "Fourfold Afterimage Entanglement",
+          "file": "Bufs-a1c9p2.json",
+          "id": "TimeEntangleFour"
+        },
+        {
+          "ja": "乖離",
+          "en": "Disjunction",
+          "file": "Bufs-a1c9p2.json",
+          "id": "TimeGapAb"
+        },
+        {
+          "ja": "小指の親方 - 塩見ヨル",
+          "en": "The Pinky Nursefather - Shiomi Yoru",
+          "file": "Enemies-a1c9p2.json",
+          "id": "1322"
+        },
+        {
+          "ja": "重畳した残像",
+          "en": "Superposed Afterimage",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132203"
+        },
+        {
+          "ja": "残像反響",
+          "en": "Afterimage Reverberation",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132204"
+        },
+        {
+          "ja": "幾重もの時間から斬り込む残像",
+          "en": "Lacerating Afterimages from Myriad Moments",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132205"
+        },
+        {
+          "ja": "地慧星刀 抜刀",
+          "en": "Unsheathing Dihui Star's Blade",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132208"
+        },
+        {
+          "ja": "「程々に相手してやろう」",
+          "en": "'I Shall Give You Some Quarter'",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132216"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "二連",
+          "en": "Twinslash [二連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132201"
+        },
+        {
+          "ja": "三連",
+          "en": "Tripleslash [三連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132202"
+        },
+        {
+          "ja": "快閃",
+          "en": "Swift Glimmer [快閃]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132203"
+        },
+        {
+          "ja": "無形斬",
+          "en": "Formless Cut [無形斬]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132204"
+        },
+        {
+          "ja": "空間斬",
+          "en": "Rend Space [空間斬]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132205"
+        },
+        {
+          "ja": "残像歩",
+          "en": "Phantom Step [殘像步]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132206"
+        },
+        {
+          "ja": "観望",
+          "en": "Silent Regard",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132207"
+        },
+        {
+          "ja": "絶命",
+          "en": "Deathedge [絶命]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132208"
+        },
+        {
+          "ja": "空間斬 - 縁",
+          "en": "Rend Space - String Connection [空間斬-緣]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132209"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 2 enemy, skill, passive, and status records. Deathedge uses enemy skill 132208 rather than the Liferender status. Shin uses the enemy status rather than the Identity variant. Unconfirmed skill Power, the Shield ending condition, Turn 11 survival, and max-HP-based damage are preserved."
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "a3971ce6e86f5651155a15605217b224cf96a8fe8379f923004ecc63a98daf35",
+      "text": "Shiomi Yoru (9-33)"
+    },
+    "shortName": {
+      "sourceHash": "cab20cd395ca484d999cad381e34c3168d3b3e4fbffd77b321d386a0f296b40c",
+      "text": "Shiomi Yoru"
+    },
+    "stageName": {
+      "sourceHash": "37b5a4a840d917e8fa0f38a6a7660fbf4b5c671f821ac6e89e376fda51c6fe38",
+      "text": "A Single Vivid Remnant"
+    },
+    "lead": {
+      "sourceHash": "49f611c72b63ffbbef9e4946156a0b73029595533685b1ec01d2415af8ae1df5",
+      "text": "You do not need to reduce HP to 0. Deplete the Disjunction Shield or survive through the end of Turn 11 to progress. Have fast Sinners beat Silent Regard and Phantom Step first to make later major attacks safer."
+    },
+    "statNote": {
+      "sourceHash": "bf5667d3512780b64a7aa7e2540507e3d616a51641f337d3d8c520f7ab3e2b4e",
+      "text": "The normal 9-33 battle. Deploy 7 Sinners with 5 backups; Ryōshū is required. Restore the team size after the preceding four-Sinner battle. The enemy starts at Lv. 77 with 45 SP and 1,600 Disjunction, with no fixed level reduction. Dealing damage that would reduce the Shield to 0, or reaching the end of Turn 11, triggers the event. Treat this separately from the battles at 9-41 and 9-48."
+    },
+    "skillNote": {
+      "sourceHash": "54fd4f7a41101eb1795b6512bf8c00881e8c9418b60e8bd56a97b158ee7fc223",
+      "text": "Phantom Step and Silent Regard have inconsistent Power listings, so their Base Power and displayed Power are marked unconfirmed. Check the actual clash prediction. Rend Space - String Connection is shown with 20 Base Power and +6 Coin Power; its +5 Final Power at 10 or more SP is listed separately in the effects."
+    },
+    "priorities.0": {
+      "sourceHash": "65a28e6dcef407502f91af9d896f4d68e55a97e5ed12d271680c155b3a5e8b3e",
+      "text": "Restore the team to 7 deployed Sinners and 5 backups. Keep Sinners other than Ryōshū alive too."
+    },
+    "priorities.1": {
+      "sourceHash": "96dc487c27fd3c49b26c15d67a7dc908e816a88473d7ee00ec714ac7aa38ce60",
+      "text": "Weaken the enemy through Silent Regard and reduce Bladetrail through Phantom Step before taking the major attacks."
+    },
+    "priorities.2": {
+      "sourceHash": "020786696145593351d3c5d0edd4ad0fea149268b116553f3a54bf22b0a402fe",
+      "text": "Deplete 1,600 Disjunction or survive 11 turns. There is no need to reduce the enemy's HP to 0."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "70b6e80bca6bca2e1fe9128dfc8195510feb90f5379885b1e64de985c0f7fb9c",
+      "text": "Almost every clash looks Hopeless"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "5f7e6847a680c73a851453a3bb4b8298ef62ca885ce4f359a573207e3d1bd250",
+      "text": "The enemy starts at Lv. 77 with 45 SP. Have a fast Sinner beat Silent Regard first to inflict Attack Power Down, then handle the remaining skills. Use leveling, healing, and the Sapling of Light as needed."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "8e376401a23c6cee16377608e015a9dbd84b00d255a0971b11f8574ae87dd906",
+      "text": "Allies die even after winning against a major attack"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e34a96035b7e803169febe04de9d128cb25f95a7648bd843de6cf55abe652d62",
+      "text": "Unbreakable Coins and max-HP-based damage from Bladetrail remain. Before the major attack, win against Phantom Step to halve Bladetrail and heal in advance. The 80% damage reduction does not erase every source of damage."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8449b1f28e36c0d23fb1b1501b47472376e543b46a0bdce16a5f1684a523a73f",
+      "text": "The team still has only four Sinners from the previous battle"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "cd81c3b2bc700fff6795a6f063a52fa5a6829f09064a2b12c2af57620d327649",
+      "text": "This battle returns to 7 deployed Sinners and 5 backups. Increase the deployment count and bring leveled backups. Ryōshū loses her protection if no other ally remains alive."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "8a1f5285695ccfe6ae10f08a0194a410aabdf40fdc6ad328f990a3a7e52bf9a4",
+      "text": "A low-HP Sinner dies without even evading"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "5616622ac482ce26f311f756d1087204225290631ac23af86a3b71f20f77e284",
+      "text": "Deathedge prevents Defense Skills from activating and prioritizes low-HP Sinners other than Ryōshū. Stop it with an attack, or heal everyone to at least 50% HP before it appears to remove the condition for the extra action."
+    },
+    "units.0.name": {
+      "sourceHash": "b48af1dabab85930685eb697cfe6951be13cbadca8c81b59a357adbb839591a5",
+      "text": "The Pinky Nursefather - Shiomi Yoru"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "23a7dcba72648ca0978930d400f6aca86547d8bcbd3d60d749f2ab66588c3524",
+      "text": "1,918 / Starts with a 1,600 Disjunction Shield"
+    },
+    "units.0.speed": {
+      "sourceHash": "ec1976632c0416f9dfbd5f63f330c5b2e9f1ebc7be8647e1aae1ed84b3982c8f",
+      "text": "3–5 / Range −2 from Fourfold Afterimage Entanglement / Major attacks: 20 and 30"
+    },
+    "units.0.stagger": {
+      "sourceHash": "6c851f6e3f1e7e32976a1fd7f14006e9d3968e6f37e3ff1e305114a58ce4dac4",
+      "text": "50% (959) / Losing Disjunction causes Stagger at the relevant stages"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "9ab43677f73308ac2de12e6c9753fdcafb0a29834f7e094b7c3732eb1ae2cc2c",
+      "text": "Starts with 45 SP, 1 Shin (心) - Dihui Star, Fourfold Afterimage Entanglement, and 1,600 Disjunction."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "98262f4f1218c3d9a824607cae6a667a2b51de9a91c6e88c407c2cf6709455b0",
+      "text": "One attack slot consumes 2 points of Atk Weight. Do not count secondary targets as though this enemy used ordinary slot sizes."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "1009e9489ea83f511de0919d94d03c6e12b542cb81e1a349097eeb5435106ff7",
+      "text": "The battle ends when damage would reduce the Shield to 0, or at the end of Turn 11. The final damage that would break the Shield becomes 0."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "8dd035a941843a6b5093fe6b9c75cd1c815fab4b895592fa41519c092fb43080",
+      "text": "Bring seven Sinners and backups, Slash resistance, and healing"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "dba37bcb6379e12bb53d25dc018e7de37a7ea6b03652440efaa9d11e34d4a7fc",
+      "text": "Recommended Lv. 60. Deploy 7 Sinners with 5 backups; Ryōshū is required. Expand the preceding four-Sinner team with additional leveled Sinners."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5b9a124d363562a69976c17e2f2f55b73293af385aa140b7e019f74f7a93fe3d",
+      "text": "The enemy is Lv. 77 with 45 SP. Bring Slash resistance, HP and SP recovery, and strong clashers. If the level gap makes clashes unwinnable, consider MOROSITAS from the Sapling of Light."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "7f1d21a45a0d4a6854030aa6b2cdf27ed39fd5d0d23fcb7150d4a3dceb615a2e",
+      "text": "Ryōshū cannot die while another ally is alive, but this does not keep the other Sinners alive. Spend healing on them too."
+    },
+    "phases.1.timing": {
+      "sourceHash": "925e655044bba2195496eea7046b00762516c6ef3438dae8bf1609bcafae2b23",
+      "text": "Turns with Silent Regard"
+    },
+    "phases.1.title": {
+      "sourceHash": "545ef1eed658745afbc65e86a07b2c66d3b920c8289f784327a3c403faeca48e",
+      "text": "Have a fast Sinner beat Silent Regard first"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "cfb9eb86bfe921937db4dc5dcaedacb536fbb26f58c90546ea03f97592f454a3",
+      "text": "Winning against Silent Regard gives the enemy 2 Attack Power Down and restores 5 SP to the Sinner who clashes with it. Assign a fast Sinner so the debuff lands before the later attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "da071a2010571149b610a4373eca3c1a9d6fe4f07fb3ad521cc016bbb8b4867f",
+      "text": "Plan the remaining clashes with the weakened enemy in mind. A clash win by Ryōshū also lowers the enemy's SP by 5, letting her contribute both strong clashes and resource generation."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "3456201954d790b0e2ea911df91f45953a2d59996326f5ee50908a59d45f5977",
+      "text": "Winning against Swift Glimmer reduces its Atk Weight from 3 to 1. Prioritize clashing with it to protect secondary targets."
+    },
+    "phases.2.timing": {
+      "sourceHash": "c5c47d440f9b643cb68b1a8c656af7fb0201fe43c35a1f367af93ca7b9cc64df",
+      "text": "Turns with Phantom Step"
+    },
+    "phases.2.title": {
+      "sourceHash": "5c1cb74dfa1a095ca9074862b00ebc8ef37cb9a931325b60952d02f4c555167d",
+      "text": "Let Sinners with high Bladetrail halve their stacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "6450de61511bf7da52bd422b06be446404828eb4e5d991a330b0159290b71f6f",
+      "text": "Every 10 Bladetrail [Afterimage] grants 1 Fragile next turn. Major attacks also convert it into max-HP-based damage, so win against Phantom Step to reduce it."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "fb6785b681643a9885a711359fbb90ad888ada6f4dab7f2ba6c63b1a51c2194a",
+      "text": "Assign fast Sinners with high Bladetrail. Once the total across all Sinners reaches 50, Dihui Star's Blade also strengthens the next major attack."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "a221b44fbe556d39a48b5287bebb17e4b30de2fc179483beec4b15f7f3ba2ad1",
+      "text": "Deathedge is more likely to be added when a Sinner other than Ryōshū falls below 50% HP. Heal to remove the condition, or clash with the added skill using an attack. Defense alone cannot handle it."
+    },
+    "phases.3.timing": {
+      "sourceHash": "ae115d9505623c1688b122e9f9dc2acf87456df67ce58421deb07eb5d563020a",
+      "text": "Formless Cut and the four-turn major attack cycle"
+    },
+    "phases.3.title": {
+      "sourceHash": "71487ff588a972acf00726c84942437316d0404613bdfb5a61b0d98f4b652915",
+      "text": "Use strong clashes and advance healing to survive Unbreakable Coins"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "0472f9284381978e38b65811a3f5e90a7da05d7771438be9a6f051607311b8e7",
+      "text": "Formless Cut and Rend Space can be clashed with regardless of Speed. Winning reduces their damage by 80% and prevents their targets from being Staggered by the skill. Even a slow Sinner can intercept them with a strong skill."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "16cd74d6e50db41afb49ce51cbf64d0ffc9f85430d889a487ebb8449d3d07698",
+      "text": "At 50 or more Dihui Star's Blade, the attack changes to Rend Space - String Connection. At 10 or more SP, it gains another +5 Final Power. Do not choose the clasher based on Base Power alone."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "d450c7ce6adc026fa19685506849269173a101bff791d5f4d3e660fadce4fb7b",
+      "text": "Rend Space consumes all Bladetrail to deal additional max-HP-based damage. Reduce Bladetrail and restore HP beforehand. The turn ends after the attack, so do not leave healing until afterward."
+    },
+    "phases.4.timing": {
+      "sourceHash": "c88b15e4bb289a11df8291011ec76edfc85189c58deb3c467551b804b7a65639",
+      "text": "Depleting the Shield or surviving"
+    },
+    "phases.4.title": {
+      "sourceHash": "f5ef12062a820e479851f49ee6fd91476c050f25a9c0bdb9e09c54d8f4be0475",
+      "text": "Break the Shield or survive through Turn 11"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "cbf19baf170ffef9a0b9a10e623040e0661f5a867f0bb22e68946fb046a8c7af",
+      "text": "Use Wrath, Gloom, and Slash damage to deplete the 1,600 Disjunction Shield. Meeting the Shield-breaking condition triggers the event; you do not need to deplete the remaining 1,918 HP."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "d0320dd3d80797f64bd3411040495099c23274e978800b145776ec211113ce65",
+      "text": "If damage is insufficient, prioritize healing and clash wins to reach the end of Turn 11. Skills deal half damage to targets that use Defense Skills, but Deathedge is an exception because it prevents Defense Skills from activating."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "fdbfdcf2a61cdf38c3cf8254de5789c61c0267203850ef8c8758903db626817f",
+      "text": "At the end of every fourth turn, the enemy gains Fragile and Damage Up. Your attacks become more effective, but incoming damage also rises. Manage remaining HP and healing resources."
+    },
+    "skills.0.name": {
+      "sourceHash": "b16d93d4fd4fbd8ecf8986f267042d70c69b3dd887723b780ac57ef4efcea8c1",
+      "text": "Twinslash [二連]"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "588ce3f21fb3afe9059f1ee6c8f46e68b762a3638615f71e9de06705072f8a9a",
+      "text": "[On Use] Gain 2 Poise Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "dddbf46893b851a83bc1d0530491b16e9331113022c5cd7b25642e87dc10d2ef",
+      "text": "Gains Poise Count on use and Poise Potency on hit. Weaken the enemy by beating Silent Regard, then win the remaining clashes with the other Sinners."
+    },
+    "skills.1.name": {
+      "sourceHash": "efd8b37408a831157bcfe2567af5526c8ef2cca6ab985b4757525aea6e18d82b",
+      "text": "Tripleslash [三連]"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "a242c7a21e762dc01ef99b9fec1b1db6c84c1cb327aa6540c95b7516c57d5896",
+      "text": "Ⅲ [On Hit] Gain 1 Poise"
+    },
+    "skills.1.response": {
+      "sourceHash": "daea3518b9dcc60568eac5b5dba75b92570c808eb201ad6f204ce9eca0ec1605",
+      "text": "A regular three-Coin skill that gains Poise. Account for the level gap and the enemy's current SP as well as the listed Power."
+    },
+    "skills.2.name": {
+      "sourceHash": "ff8257052cc4fa7091620b40d533ed4ae273e553062b1f6193357474e5c4c3cd",
+      "text": "Swift Glimmer [快閃]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "785148fbb4d852adc9a3ed39e57d36c1c9bd7c082e50e43faca139d3c74d3c51",
+      "text": "[On Unopposed Attack] Gain 5 Poise"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "18a5751d1fc2ae6f25818e24b9029ed2c0887b19008095f0f1a0d76028bfdc52",
+      "text": "[Clash Lose] Atk Weight −2"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "ea3efed763c88f73f47b5fae999f46748538765c5937c09b13fe1825b7e86f49",
+      "text": "Critical Damage +30%"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d44e22b2c513beee3d44dc6d3aabbdaf89781cd8e54cfa92c7d58aec71429f7a",
+      "text": "[On Hit] Gain 2 Poise."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.response": {
+      "sourceHash": "70a2463bdbf1822c2122e24823dd7aee901ccc1d35f59a186668c6e0c4af41ad",
+      "text": "An Unbreakable attack with 3 Atk Weight. Winning the clash reduces its Atk Weight by 2, making it single-target. Prioritize clashing with it, as an unopposed attack grants it 5 Poise."
+    },
+    "skills.3.name": {
+      "sourceHash": "9e84109f9c6af2a09772e1ab5556a72635c76c7112e6787c295d560fda17673c",
+      "text": "Formless Cut [無形斬]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "f74d117c06a56cc0c0ba134bad7aef87ade0181dc526a38a082815019249a52c",
+      "text": "[Clash Lose] Deal 80% less damage; targets taking damage from this skill cannot be Staggered"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "48c2b2d0430546d2ba981b8626950a4fb458af675ae917678e30f1afd1600baf",
+      "text": "Reuse this Coin (up to 4 times)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.response": {
+      "sourceHash": "9c9fac54d64cc74990281c8120f62a538477b9ca2a374b17ec5d9c0bdd3116fe",
+      "text": "An Indiscriminate attack that reuses its single Unbreakable Coin up to four times. Clash with it regardless of Speed to gain 80% damage reduction and protection from Stagger caused by the skill. Bladetrail and additional damage still require care."
+    },
+    "skills.4.name": {
+      "sourceHash": "fc00721877eaaf85aece6db964b0844e4c57e5f914acecb4822982273f75d60e",
+      "text": "Rend Space [空間斬]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "f74d117c06a56cc0c0ba134bad7aef87ade0181dc526a38a082815019249a52c",
+      "text": "[Clash Lose] Deal 80% less damage; targets taking damage from this skill cannot be Staggered"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "54550b4154dab09dd422f81bc0b7c54ff02a493dfff87e592618b412aa27460b",
+      "text": "[On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of each target's max HP"
+    },
+    "skills.4.response": {
+      "sourceHash": "39255aa9818ba290ed61a52be241747a85a00a3b23beb23458ca8a3d80bf678a",
+      "text": "An Unbreakable attack with 7 Atk Weight. Win with a strong skill regardless of Speed to gain 80% damage reduction. Heal beforehand to prepare for max-HP-based damage from consuming all Bladetrail and for the turn ending after the attack."
+    },
+    "skills.5.name": {
+      "sourceHash": "0a30a8cee4c3cf9f175546d4657bca259942653fd9777e703cbb21d0c7c1e82e",
+      "text": "Phantom Step [殘像步]"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "0a943b1dba8a54d9279558234da25503ed39f6df6c91466e4ba23bedd6e1c33b",
+      "text": "[Clash Lose] Halve the target's Bladetrail [Afterimage] (rounded down)"
+    },
+    "skills.5.label": {
+      "sourceHash": "1bfb280fe405582c9154f15b68bf1554d07b93c8709fe62f13b2801f2f9064df",
+      "text": "Power unconfirmed"
+    },
+    "skills.5.response": {
+      "sourceHash": "594e3e99a67f92d401594f8bb5838299046e21b4492f738107e938660aa377e2",
+      "text": "Winning halves Bladetrail on the Sinner who clashes with it. Have a fast Sinner with Bladetrail handle it before the major attack. Its Power is unconfirmed, so also check the actual clash prediction."
+    },
+    "skills.6.name": {
+      "sourceHash": "460981821d955be50eb637260b0f1b34cf0b836c073e07db2e68c669689de4e5",
+      "text": "Silent Regard"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "8dc26de076126bd824c7afe48e19e290fa93c3f0246d1362f4ae06fe1710c345",
+      "text": "[Clash Lose] Gain 2 Attack Power Down"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "9af139af9627ba60a148635b11efc0a4b2917de8caf6ff5cb04b1a540849dba0",
+      "text": "[Clash Lose] Heal the target for 5 SP"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.label": {
+      "sourceHash": "1bfb280fe405582c9154f15b68bf1554d07b93c8709fe62f13b2801f2f9064df",
+      "text": "Power unconfirmed"
+    },
+    "skills.6.response": {
+      "sourceHash": "14bf8fa0068099282c9b602ec87ceb7328b5a128aaad7b6e0395c131f2d520eb",
+      "text": "Winning gives the enemy 2 Attack Power Down and restores 5 SP to the Sinner handling it. Win early with a fast Sinner to improve later clashes against regular and area attacks. Its Power is unconfirmed."
+    },
+    "skills.7.name": {
+      "sourceHash": "eef7efb141222a71b2b5065d4f10baf7ce0669d9d0a1c44e5610adeced952dda",
+      "text": "Deathedge [絶命]"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "6287ce1f56f5bbbe16994c7b62112408accdc05ee31dec69128f2f47b274b07e",
+      "text": "Targets the unit with the lowest current HP percentage"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "3217f28716ec1368c68d0f9cbbcda7fe53233509430b35bb8d704e77f36002f3",
+      "text": "- Prioritizes Sinners other than Ryōshū"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "8a47f2632fbaf7b93c807f8066e2020c600181faf79f5624eb2447e0efdbd820",
+      "text": "Ⅰ [On Hit] Inflict 1 Bladetrail [Afterimage] for every 1% HP the target has lost"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "d753a8a470743a279246bb9d1babb42ec987c130cdf0d08ebf2c6e3e1afbb7cc",
+      "text": "Ⅱ [On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of the target's max HP"
+    },
+    "skills.7.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.7.response": {
+      "sourceHash": "d7b562db982ceef7e9f375e875adc5d9abd15ffe832d040a68bb47845bb4b3e7",
+      "text": "Targets low-HP Sinners other than Ryōshū and prevents Defense Skills from activating. Clash with an attack instead of relying on Evade. Lower HP means more Bladetrail, followed by max-HP-based damage on the next Coin."
+    },
+    "skills.8.name": {
+      "sourceHash": "2355474176b4edaedd5e0c2f6746b58310de90810772b8fc3609145cf2704c76",
+      "text": "Rend Space - String Connection [空間斬-緣]"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "651b410aa16ed7d4e142499c82a1799cbead950b5a2cd2360112b340765e5d46",
+      "text": "[On Use] If the user's SP is 10 or higher, generate 1 Mang. Final Power +5"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "71f263b1c0a5c4a519eee321a1d9ba171f2ab5be425a1c8fd9f3049b2b0f6c33",
+      "text": "Can be clashed regardless of Speed; cannot be Staggered until this skill is used"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "f74d117c06a56cc0c0ba134bad7aef87ade0181dc526a38a082815019249a52c",
+      "text": "[Clash Lose] Deal 80% less damage; targets taking damage from this skill cannot be Staggered"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "961ea12aabd16f96af87567dfc3c7763e01400a5bf5e21c8586d404c82ccd975",
+      "text": "[After Attack] If this skill generated Mang, lose 10 SP"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "218b0979dd0381c5df689c2289e7d6b365d8239177ecf323306ceebab97f6868",
+      "text": "[On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of the target's max HP"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "dc8776468fb3e8e0840fe2cd6b973709470c7296c852b9c15b8b5fc91390d6a2",
+      "text": "[On Crit] Gain 1 Poise"
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "f271392aabf9420ebdf6b5c10c450d9538b7aebf87d68806c616b3c524b873a5",
+      "text": "A technique that cuts space: Rend Space. Cutting space is a long-held ambition of swordsmen, who have reached that realm through various methods."
+    },
+    "skills.8.response": {
+      "sourceHash": "15e056961caf57037ffa6e8cf83e331aa771a64e50a6789a6e6f24e36cc78ce5",
+      "text": "At 50 or more Dihui Star's Blade, this becomes a stronger Rend Space. At 10 or more SP, it also gains +5 Final Power. Win the clash for 80% damage reduction, but remember that this does not erase max-HP-based damage from Bladetrail. The turn ends after the attack."
+    },
+    "passives.0.name": {
+      "sourceHash": "b6f40103b9699ffac00738bf4fbf84e3691c8ed7cb30242a0d215f6c0ba90dea",
+      "text": "Superposed Afterimage"
+    },
+    "passives.0.effect": {
+      "sourceHash": "575ebf702468e1a4ed51d85ebd5670e40569870cae4cba81b68442a1f2496ddb",
+      "text": "At Turn Start, gain Fourfold Afterimage Entanglement.\nAt the start of the first turn of a pattern, gain (Afterimage Entanglement stage × 400) Disjunction.\n(Once per Afterimage Entanglement stage)\n\nLosing all Disjunction at Afterimage Entanglement stages 3 and 4 changes the pattern and Staggers the user throughout the next turn.\n\nHP damage, SP damage, and Stagger Threshold advancement caused by Burn, Bleed, Tremor, Rupture, and Sinking are reduced by 30%."
+    },
+    "passives.0.condition": {
+      "sourceHash": "cb9ae5538a33b2a4575c3905dd066de349f01f0af6907cfba866bd8993517e39",
+      "text": "Battle start and loss of Disjunction"
+    },
+    "passives.0.response": {
+      "sourceHash": "ab73602c6e8c8ee177121a0c183690a519f046ad76cb69c95984127538bc6887",
+      "text": "Start by depleting the 1,600 Disjunction Shield. Alternatively, reduce Bladetrail and survive; the event also triggers at the end of Turn 11."
+    },
+    "passives.1.name": {
+      "sourceHash": "1e3f7626d967c94e13f8b44aefee7f62a1680bc2162c9bb731d9aa83c09b0b36",
+      "text": "Unsheathing Dihui Star's Blade"
+    },
+    "passives.1.effect": {
+      "sourceHash": "67c19eea9e968c38760e721eeb88b890eb0cba853e1e1c30e3e9843763b41d75",
+      "text": "Uses a powerful skill every 4 turns.\n- If Dihui Star's Blade is 50 or higher, the skill is enhanced.\n“...A loathsome blade, like a brand.”"
+    },
+    "passives.1.condition": {
+      "sourceHash": "5dc38ccb717a579f7b40fac63301582cdb65cbdb09e569cbec2e529cce92c9e3",
+      "text": "Four-turn major attack cycle; Dihui Star's Blade at 50 or higher"
+    },
+    "passives.1.response": {
+      "sourceHash": "5f80d63e7f81e066ef5c857b01b08098ca2646e84073dce8af2b3b61b76d969c",
+      "text": "The total Bladetrail across all Sinners strengthens the major attack. Reduce it with Phantom Step and save healing and high-Power skills for the major attack."
+    },
+    "passives.2.name": {
+      "sourceHash": "cb79b88a1dadda104d4e7f335e1881068f68a57d4c71fbe2e064323193b4da8e",
+      "text": "'I Shall Give You Some Quarter'"
+    },
+    "passives.2.effect": {
+      "sourceHash": "bae6509f6f2418e611066d616d6e2963462f31f4e2bfca529f73de5bbbce59e7",
+      "text": "The user's skills deal 50% less final damage to targets that use Defense Skills.\n\nAt Turn End every 4 turns, gain 2 Fragile and 2 Damage Up for the rest of the encounter (stacks up to twice per encounter)."
+    },
+    "passives.2.condition": {
+      "sourceHash": "22ef9a3c933f80f8b380d1cf5e0d962b57e359f4b92c8b812776ab0ad309195d",
+      "text": "Use of Defense Skills; end of every fourth turn"
+    },
+    "passives.2.response": {
+      "sourceHash": "1d7d417b7c596153e702d3fa86ef1505d4e43ec5d1557fd0d60ae493fb7919ca",
+      "text": "Final skill damage is halved against targets using Defense Skills. However, Deathedge prevents Defense Skills from activating, so do not rely on Defense for every attack."
+    },
+    "passives.3.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.3.effect": {
+      "sourceHash": "0804f0fa4d52f3714978ab27304a4967201a167c60f0bad58f6989865a95a97e",
+      "text": "At Turn End, if Panicked, set SP to 30"
+    },
+    "passives.3.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.3.response": {
+      "sourceHash": "e756d733c0b6396f70b693c3af60400eba7a97b6dd30dbcbfe52bb3b6504485b",
+      "text": "SP returns to 30. Lowering SP does not disable the enemy for long."
+    },
+    "passives.4.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.4.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.4.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.4.response": {
+      "sourceHash": "f084f3b04a2d71ff69c56cbc2d12394e9bd189befc22373bb2eb083297fe81f2",
+      "text": "Instead of relying on replacing the Panic effect, win against weaker skills first."
+    },
+    "passives.5.name": {
+      "sourceHash": "369b1f9f0ac9a061e9a726c6ac0b5a07ba863d38d3e8675781cf0a5dbea07a5d",
+      "text": "Afterimage Reverberation"
+    },
+    "passives.5.effect": {
+      "sourceHash": "0e4dcc0e65db1364f7b2e9d666f1787f74a90265ac5ecad0d996428087b48e35",
+      "text": "On Coin hit, deal Slash damage equal to (that Coin's final damage ÷ 10). Trigger this once per Afterimage Entanglement stage. This damage cannot Stagger."
+    },
+    "passives.5.condition": {
+      "sourceHash": "a1bf776d242601e611d02032f0b9714396f079f81a0336214e47a4837bd03289",
+      "text": "On Coin hit"
+    },
+    "passives.5.response": {
+      "sourceHash": "ee8bf75e6f9302ea57b6229e688722b90859d72f99f26958278f43c785c72bd9",
+      "text": "Deals additional Slash damage once per Afterimage stage. Damage that cannot Stagger still reduces HP, so bring healing and resistance."
+    },
+    "passives.6.name": {
+      "sourceHash": "397a72475d61d98d592adea73f381a4e6a88705be0a12644ce4d796285aac308",
+      "text": "Lacerating Afterimages from Myriad Moments"
+    },
+    "passives.6.effect": {
+      "sourceHash": "725a10c8f2c8e042142e8002c63fcd7befc3e95f74c21dbd89f8a4ad835bd5a3",
+      "text": "At the end of an Attack Skill, deal Slash damage to each target equal to (number of Slash Coins that critically hit × 10). This damage cannot Stagger.\n\nAt the end of an Attack Skill, consume all Poise above 20 and inflict Bladetrail [Afterimage] on the target equal to the amount consumed."
+    },
+    "passives.6.condition": {
+      "sourceHash": "0f899d044242a9097959b4fc1e10b1c80138f796b201fabf21047fa5160bde55",
+      "text": "Critical hits; Poise above 20"
+    },
+    "passives.6.response": {
+      "sourceHash": "cb93f4b382de3a2cff2d88e1bdacd57826379efff1bd53760cb7eb45f15cd06e",
+      "text": "Adds damage and Bladetrail after attacks. Do not leave Sinners at low HP; reduce Bladetrail through Phantom Step."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "1ed969e8eab719bcdca33cb38c2d1498186ad4ecd0ba9eb232f02e6aac020d40",
+      "text": "Twisted and Disjointed Memory and Recollection"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "d22b33eab76fd51dac42e6884a97e76ddf0cc557fdd2ad717f4450de9a7bf252",
+      "text": "Ryōshū gains 1 skill slot. She deals and takes 20% more damage against the Pinky Nursefather; her clash wins lower his SP by 5. Damage that would Stagger her removes her Stagger Thresholds and grants 1 Attack Power Up next turn (once per turn). Using a skill generates 1 resource of its affinity and 1 of a missing affinity (twice per turn). She cannot retreat."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "16679ebb3ee648b28ccec676735eefdfc3c421b0b937459dce1442c6c5fc0145",
+      "text": "Spend the resources on healing and debuffs. Ryōshū also takes more damage, so do not rely solely on her conditional protection from death."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "5cd208685a912c31c25cfa219ca5f8337981b0758617002809fb8fab6babcdce",
+      "text": "Disjunction"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "9da3013c88e6878b68bfd98d2e3017e84b20b8e5c6bacbfc60716ae8987f4d01",
+      "text": "At battle start, grants a Shield equal to its value; the value decreases as the Shield is depleted. Starts at 1,600."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "55035a27d259cb3b92205e2703408a47822dca457627b4bd746fa7c1945a628f",
+      "text": "Damage that would reduce the Shield to 0 meets this battle's ending condition. There is no need to reduce HP to 0."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "1c6df128ab45738fe3382e5930f5eec845561e52fc2704a5dff9bc521dda7abc",
+      "text": "Bladetrail [Afterimage]"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "94a99415f0d583fb1f1dfc486a51efcfa1106f2460b1dc52c94c6fea23de20e8",
+      "text": "Maximum 99. At Turn Start, every 10 grants 1 Fragile (max 5). Major attacks consume all of it to deal max-HP-based damage."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "309750a004fb4a3003a705ee0983c8d4bd3a3cd310a06f915896237ee5b1e19a",
+      "text": "Halve it by winning against Phantom Step, then heal before the major attack."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "7336176c6baf34a92a2d117bea8e9087ce0b8832509e95c93dce9f661b19740a",
+      "text": "Fourfold Afterimage Entanglement"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "c20cae27f7287aa0cd580c172395bba352dfb2f2f8f76a373c46a546136cf908",
+      "text": "Speed range −2. On hit, inflicts 1 Poison, 2 Bleed, 1 Bind next turn, and 2 Burn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "b10d94ba913711662b1e5d116466209f1749dffb48ac5f85a195aa15e5876047",
+      "text": "Check which skills still hit after a clash win and heal the damage caused by status effects."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "73928320936288bb7f974b150fa808e4d5eb680483cf5a1f2dc936253397a8f7",
+      "text": "Dihui Star's Blade"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "bcd0b625ddc5672f2b266aa92ff565217915d24e15afb568fa0b6725522a89b2",
+      "text": "The combined Bladetrail on all Sinners on the field. At 50 or higher, it strengthens the periodic major attack."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "7b1f286f2d1bea9b3cfb2e2f2cc0eea3eecf2f7abc71109715b6625f4a6b0870",
+      "text": "Check everyone's Bladetrail when assigning Phantom Step, rather than watching only one Sinner."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "f9bf0e641304f260fe4b89bfd303c1605346b784e3eee9e1554ea670f9e9adf6",
+      "text": "Shin (心) - Dihui Star"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "df4cc6e38ab3d88d9eeb862584498d037385bc4f6d6a0a788b59a61401475ebf",
+      "text": "Maximum 3. At Turn Start, gain 5 Poise Potency and 1 Poise Count per stack. Gain 1 Slash Damage Up for every 15% HP lost (max 5)."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "968752e648e135961aa08437239e604a48e8fddfa699f6da38060b2bbcdbc45e",
+      "text": "Check predictions with the enemy's Poise and current status in mind. Its Power does not stay at its starting value throughout the battle."
+    },
+    "warnings.0": {
+      "sourceHash": "8dcea570f302ce5ac2db92a1ed26ecc40eb2cb2ff820c10e7e4ff77fc450d489",
+      "text": "Phantom Step and Silent Regard have unconfirmed Power. Their debuff and Bladetrail-halving effects remain useful, but the listed numbers alone cannot guarantee a clash win."
+    },
+    "warnings.1": {
+      "sourceHash": "59f5d47b1182d348c9e871fe93f5232edf82bb78eecbe35bc93e3ef28c9e0f44",
+      "text": "Additional damage that cannot Stagger still reduces HP. Unbreakable Coin damage reduction and max-HP-based Bladetrail damage are separate effects."
+    },
+    "warnings.2": {
+      "sourceHash": "a12cce0c1d5a229ddbb91fc9c27bf4a5ffff82c396b0ab4eb2952b190e8e9610",
+      "text": "Deathedge prevents Defense Skills from activating. Simply assigning Evade to a low-HP Sinner is insufficient."
+    },
+    "warnings.3": {
+      "sourceHash": "5abc48a7595788003debf614aec3bdd80022dc439a9338e9d44dd6a88b6467f0",
+      "text": "No actions occur after Rend Space. Complete healing and debuffing beforehand."
+    },
+    "warnings.4": {
+      "sourceHash": "41fbc28ce6fc4097f9be458b433a9326846c4b37d72c3487e5b41add0fd412f8",
+      "text": "9-33 allows progression through survival. Do not apply the ending conditions of the related or similarly named bosses at 9-41 and 9-48."
+    },
+    "preparation.0": {
+      "sourceHash": "21bf3cc3749636335a007289b68dabd54c5ad81ad3ba4db56f151e39205ef579",
+      "text": "Recommended Lv. 60. Bring 7 deployed Sinners and 5 backups, Slash resistance, and healing resources. Assign fast Sinners to Silent Regard and Phantom Step."
+    },
+    "preparation.1": {
+      "sourceHash": "4f0d7262929b35b76ecb80a610ecee59e76affd5e48df28685ab34c6c12aa253",
+      "text": "Combine strong single-target clashes, Attack Power Down, and HP/SP recovery. Surviving through Turn 11 allows progression, so a short burst of damage is not the only approach."
+    },
+    "roles.0.name": {
+      "sourceHash": "ba324fff9ac4589d07f13cf90921c3b01ce425f6477d63698a5b623e04d3755c",
+      "text": "Early debuffer"
+    },
+    "roles.0.reason": {
+      "sourceHash": "01d4ff1ff89bb83acfbe146f82f5f5091a440166ccc75d3e10449c86d0cc817e",
+      "text": "Beat Silent Regard early to help the other Sinners win their clashes."
+    },
+    "roles.1.name": {
+      "sourceHash": "e6dd2e04773ed9e734ba7f580662c5599c373fa0d7d730080972ae9e7368bdb6",
+      "text": "Bladetrail reducer"
+    },
+    "roles.1.reason": {
+      "sourceHash": "650a5fac953ac047f1be9676be6f15321bf22da62a6739467c677eb6acb4e54d",
+      "text": "Halve Bladetrail through Phantom Step to reduce max-HP-based damage from the major attack."
+    },
+    "roles.2.name": {
+      "sourceHash": "83646b74f08085eec1c5e55a14d68fbec051edc6d052e3b6f1517d477a4ed49c",
+      "text": "Finisher clash handler"
+    },
+    "roles.2.reason": {
+      "sourceHash": "2dd4b26ed8c460630c6659b9aee581f47b0146f7477152edb789d4d318e915e5",
+      "text": "Win with a strong skill regardless of Speed to gain 80% damage reduction."
+    },
+    "roles.3.name": {
+      "sourceHash": "dbef91fc6495ef0ef23e731c92d9e519d037ac49683a141fb010229b4e9c9469",
+      "text": "Healing and reserves"
+    },
+    "roles.3.reason": {
+      "sourceHash": "25762043f46567b3de4bf9264643c3a791a2db9f451fb06a45e538ff48e70015",
+      "text": "Survive Unbreakable Coins and additional damage until the ending condition is met."
+    }
+  },
+  "messages": {
+    "boss-copy:shiomi-yoru": "complete",
+    "【リンバス】9-33 塩見ヨル（9-33）の攻略｜Limbus Assistant": "9-33 Shiomi Yoru (9-33) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-33「塩見ヨル（9-33）」の攻略。HP0まで倒す必要はない。乖離のバリアを削り切るか、11ターン目終了まで耐えれば先へ進む。速い囚人が観望・残像歩へ先に勝ち、後の大技を受けやすくする。": "Shiomi Yoru (9-33) guide for Limbus Company 9-33. You do not need to reduce HP to 0. Deplete the Disjunction Shield or survive through the end of Turn 11 to progress. Have fast Sinners beat Silent Regard and Phantom Step first to make later major attacks safer.",
+    "9-33 塩見ヨル（9-33）": "9-33 Shiomi Yoru (9-33)",
+    "9-33「A Single Vivid Remnant」": "9-33 · A Single Vivid Remnant",
+    "小指の親方 - 塩見ヨルの外見": "The Pinky Nursefather - Shiomi Yoru appearance",
+    "小指の親方 - 塩見ヨルのスキル": "The Pinky Nursefather - Shiomi Yoru skills",
+    "The Pinky Nursefather - Shiomi Yoruの外見": "The Pinky Nursefather - Shiomi Yoru appearance",
+    "The Pinky Nursefather - Shiomi Yoruのスキル": "The Pinky Nursefather - Shiomi Yoru skills"
+  }
+}

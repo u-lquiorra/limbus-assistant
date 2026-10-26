@@ -1,0 +1,18 @@
+{
+  "sourceGuide": "src/data/guides/ego/0705.md",
+  "code": "0705",
+  "messages": {
+    "的中時に次のターンへランダムな状態異常を付け、討伐時に味方へランダムなバフを配る、暴食の打撃E.G.O。": "A Gluttony Blunt E.G.O that inflicts a random status effect next turn on hit and hands out random buffs to allies on kills.",
+    "ランダムな状態異常: 火傷・出血・振動・破裂・沈潜のうち1つを次のターンに付与する。付与量は2+最大暴食完全共鳴数(上限5、解析Ⅳは7)で、狙った状態異常は選べない。": "**Random status effect**: Inflicts one of Burn, Bleed, Tremor, Rupture, or Sinking next turn. The amount is 2 + highest Gluttony Absolute Resonance (up to 5, 7 at Threadspin Ⅳ), and you cannot choose which status effect.",
+    "討伐時のバフ配布(解析Ⅲ): 敵を倒すと、ランダムな味方2名に呼吸・クイック・攻撃レベル増加・充電・防御レベル増加のうち1つが次のターンに付く(解析Ⅳは値が2)。": "**Buffs on kills (Threadspin Ⅲ)**: Defeating an enemy gives 2 random allies one of Poise, Haste, Offense Level Up, Charge, or Defense Level Up next turn (value 2 at Threadspin Ⅳ).",
+    "パッシブ「無限の憎悪」: 自分に状態異常かマイナス効果があり、メインターゲットか自分を攻撃する対象にプラス効果があるとき、状態異常の付与量と呼吸・充電の獲得量が+1される。条件が厳しい。": "**Passive — Infinite Hatred**: When he has a status effect or negative effect, and the main target or a target attacking him has a positive effect, status effect infliction and Poise and Charge gain increase by 1. The condition is strict.",
+    "侵蝕スキル: 精神力が最も高い対象を狙い、精神力ダメージを与える。ほとんどの敵より味方の精神力のほうが高くなりやすいため、味方を攻撃しやすいと考えられる。": "**Corrosion skill**: Targets the highest-SP target and deals SP damage. Allies' SP tends to be higher than most enemies', so it likely tends to attack allies.",
+    "普段使いの火力は高くない。耐性が死体袋と大きく違う(色欲が普通、暴食が抵抗)点を活かし、死体袋が苦手な色欲・暴食の攻撃が多い戦闘で選ぶ。": "Its everyday damage is not high. Make use of its resistances, which differ greatly from Bodysack (Normal to Lust, Endured against Gluttony), and pick it for fights with many Lust and Gluttony attacks, which Bodysack struggles against.",
+    "多くの状態異常に関わるE.G.Oギフトがあるなら、ランダム付与でも恩恵を拾える。": "If you have E.G.O Gifts tied to many status effects, it can pick up benefits even with random infliction.",
+    "Ⅱ: 「無限の憎悪」が解放される。": "**Ⅱ**: Unlocks Infinite Hatred.",
+    "Ⅲ: 侵蝕スキルが広域(加重値2)になり、討伐時のバフ配布が加わる。": "**Ⅲ**: The Corrosion skill becomes multi-target (2 Attack Weight), and buff distribution on kills is added.",
+    "Ⅳ: 覚醒スキルが広域(加重値2)になり、的中時の付与が表面的中時から的中時に緩和され、付与量の上限とバフの値も上がる。": "**Ⅳ**: The Awakening skill becomes multi-target (2 Attack Weight), infliction is relaxed from Heads Hit to on hit, and the infliction cap and buff values rise.",
+    "黒獣-酉 筆頭: S1(嫉妬)・S2(暴食)で必要資源を出せ、マッチ開始時に自分にも火傷を付けるので、パッシブの「自分に状態異常」の条件を満たしやすい。": "**[Heishou Pack - You Branch Adept](persona:0714)**: S1 (Envy) and S2 (Gluttony) supply the required affinities, and he applies Burn to himself at the start of Clashes, easily meeting the passive's \"status effect on himself\" condition.",
+    "ロボトミーE.G.O::狐雨: S1はマッチ敗北時に自分へ沈潜を付けるため、パッシブの条件を満たせると考えられる。ただし暴食の資源は出せない。": "**[Lobotomy E.G.O:: Sunshower](persona:0705)**: His S1 applies Sinking to himself on Clash Lose, likely meeting the passive's condition. However, he cannot supply Gluttony."
+  }
+}

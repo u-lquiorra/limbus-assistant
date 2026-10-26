@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1201.md",
+  "code": "1201",
+  "messages": {
+    "癖のないスキルで扱いやすい初期人格。状態異常は単独ではほとんど活きず、本領は編成に入れて戦闘不参加にしたときのサポートパッシブ「因子コードG-0」による毎ターンの回復。": "An easy-to-use starting Identity with straightforward skills. His status effects do little alone; his main role is often on the bench, where Gene Code G-0 provides healing every turn.",
+    "サポートパッシブ「因子コードG-0」(憂鬱×3・保有・同期化Ⅲで取得): 編成中かつ戦闘不参加時、戦闘開始時に現在の体力が最も低い味方1名の体力を5回復する。資源を消費せず毎ターン発動しうるため、ターン数の多いダンジョンで効く、この人格の目玉。": "**Support passive — Gene Code G-0 (3 Gloom Owned; unlocked at Uptie Ⅲ)**: While in the team but not participating in battle, heals 5 HP to the 1 ally with the lowest current HP at Combat Start. It can trigger every turn without spending resources, so it works well in dungeons with many turns, and it is this Identity's centerpiece.",
+    "バトルパッシブ「強制生存」(憂鬱×3・保有): 戦闘参加中、戦闘開始時に自分の体力を5回復する。": "**Combat passive — Forced Survival (3 Gloom Owned)**: While participating in battle, he heals 5 of his own HP at Combat Start.",
+    "S3「切り刻む」: 対象に破裂があれば各コインのダメージ量+10%。Ⅱコインの表面的中時に与ダメージの30%分の体力を回復する。": "**S3 — Chop Up**: Each Coin deals +10% damage if the target has Rupture. On Coin Ⅱ Heads Hit, he heals HP equal to 30% of the damage dealt.",
+    "破裂と貫通脆弱: S1「斬る」は表面的中時に破裂2(同期化段階が上がると4)を付与するが、破裂回数は増やさない。S2「抉る」はⅠコインで破裂回数+1、表面的中時に破裂2・貫通脆弱1を付与する。この人格だけでは破裂回数が足りず、S3の前に消えやすい。": "**Rupture and Pierce Fragility**: S1 Swipe inflicts 2 Rupture on Heads Hit (4 at higher Uptie) but does not increase Rupture Count. S2 Jag adds +1 Rupture Count with Coin Ⅰ and inflicts 2 Rupture and 1 Pierce Fragility on Heads Hit. On his own, Rupture Count runs short and tends to disappear before S3.",
+    "罪悪属性: S1が憂鬱、S2が暴食、S3が怠惰。S2・S3でE.G.O《まやかし》の資源を賄える。": "**Sin affinities**: S1 is Gloom, S2 Gluttony, and S3 Sloth. S2 and S3 cover the resources for the E.G.O Legerdemain.",
+    "鏡ダンジョンなど長丁場では、編成に入れたまま戦闘不参加にして「因子コードG-0」の回復役にする運用が有効。体力の低い味方を優先して回復するため、「体力○%未満」を条件にする人格の条件を崩しうる点に注意する。戦闘に出す場合、S1・S2の破裂はおまけと考え、貫通のS2・S3でダメージを出しながら、S3のⅡコインの回復と「強制生存」で粘る。": "In long runs such as the Mirror Dungeon, keeping him in the team but out of battle as a healer through Gene Code G-0 is effective. It heals the lowest-HP ally first, so note that it can break the conditions of Identities that rely on \"below X% HP.\" When deploying him, treat S1's and S2's Rupture as a bonus, deal damage with his Pierce S2 and S3, and hold out with S3's Coin Ⅱ healing and Forced Survival."
+  }
+}

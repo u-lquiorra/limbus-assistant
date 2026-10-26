@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0803.md",
+  "code": "0803",
+  "messages": {
+    "体力50%未満でS2「閃撃」にコインが追加され、火力とマッチ力が大きく跳ね上がる人格。わざと体力を減らして、強化されたS2を振り回すのが本領。": "Below 50% HP, S2 Flashing Strike gains Coins and becomes much stronger in both clashes and damage. Deliberately lowering HP and repeatedly using enhanced S2 is her main pattern.",
+    "S2「閃撃」: 自分の体力が50%未満のとき、スキルの1・2枚目のコインが追加される(コイン数が実質2倍になる)。各コインの的中で呼吸回数が1/2増える。": "**S2 — Flashing Strike**: While her HP is below 50%, the skill's first and second Coins are duplicated, effectively doubling its Coins. Each Coin hit increases Poise Count by 1/2.",
+    "体力を減らす手段: 守備「反撃」は相手の攻撃を受けつつ殴り返せるため、わざと体力を減らしたいときに使える。ただし敵の攻撃で混乱した場合は反撃が発生しない。": "**Ways to lower HP**: The Defense skill Counter lets her take the opponent's attack and strike back, so it works when you want to lower her HP on purpose. However, no counter occurs if she is staggered by the enemy's attack.",
+    "S3「息を整える」: 呼吸回数5以上でクリティカルダメージ+50%。Ⅱコインのクリティカル的中時、体力が25%未満ならダメージ量の100%分の体力を回復する。減らしすぎた体力の立て直しに使う。": "**S3 — Catch Breath**: +50% Critical damage with 5 or more Poise Count. On Coin Ⅱ Critical Hit, if her HP is below 25%, she heals HP equal to 100% of the damage dealt. Use it to recover when her HP has dropped too far.",
+    "呼吸: S1「飛剣」とS3で呼吸を得て、S2・反撃で呼吸回数を増やす。S1は体力50%未満なら得る呼吸が+1/3。": "**Poise**: S1 Flying Sword and S3 grant Poise, and S2 and Counter increase Poise Count. S1 grants +1/3 more Poise below 50% HP.",
+    "バトルパッシブ「死線足掻き」(嫉妬×2・保有・同期化Ⅱで取得): 体力50%未満のとき、スキル効果で得る呼吸+1。": "**Combat passive — Walking the Line of Death (2 Envy Owned; unlocked at Uptie Ⅱ)**: Below 50% HP, +1 Poise gained from skill effects.",
+    "序盤は反撃で被弾を受けるなどして、体力を50%未満まで下げる。条件を満たしたらS2を優先して振り、追加コインの火力で押し切る。体力が25%未満まで減ったら、S3のクリティカルで回復して立て直す。体力を引き継ぐ連戦では、事前に体力を減らしてから次の戦闘に入る手もある。鏡ダンジョンでは、常に体力50%未満の扱いにするギフト〈決意〉との組み合わせが特に強い。": "Early on, lower her HP to below 50%, for example by taking hits with Counter. Once the condition is met, prioritize S2 and push through with the extra Coins' damage. If her HP drops below 25%, recover with S3's Critical Hit. In consecutive battles where HP carries over, you can also lower her HP beforehand and enter the next battle. In the Mirror Dungeon, the combination with the E.G.O Gift Resolution, which always treats her as below 50% HP, is especially strong."
+  }
+}

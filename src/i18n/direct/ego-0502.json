@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0502.md",
+  "code": "0502",
+  "messages": {
+    "施術を積んで与ダメージとクイックを得る代わりに最大体力を削る、ハイリスクな嫉妬打撃E.G.O。": "A high-risk Envy Blunt E.G.O that stacks Surgery to gain damage and Haste in exchange for cutting max HP.",
+    "施術: 数値1につき与ダメージ量+20%、最大体力-20%で、毎ターン数値だけクイックを得る。数値が5になると死亡する。": "**Surgery**: Each point gives +20% damage dealt and −20% max HP, and grants Haste equal to its value every turn. He dies when it reaches 5.",
+    "施術の付与: 覚醒は攻撃後に次のターンの施術1(解析Ⅲ)、侵蝕は施術2を得る。使うたびに積み上がる。": "**Inflicting Surgery**: Awakening grants 1 Surgery next turn after the attack (Threadspin Ⅲ), and Corrosion grants 2. It stacks with every use.",
+    "パッシブ「最後の改造」: 体力25%未満でこのE.G.Oを使うと、毎ターン攻撃威力増加・守備威力増加・クイック3を得て、3ターン後に死亡する。": "**Passive — Final Augment**: Using this E.G.O below 25% HP grants Attack Power Up, Defense Power Up, and 3 Haste every turn, and he dies 3 turns later.",
+    "侵蝕スキル: 敵味方識別不可の記載がない。": "**Corrosion skill**: There is no mention of being unable to distinguish friend from foe.",
+    "麻痺: 表面的中時に麻痺3を付与する。体力を削るリスクに見合わないので、おまけ程度。": "**Paralyze**: Inflicts 3 Paralyze on Heads Hit. It is not worth the risk of cutting HP, so treat it as a minor extra.",
+    "施術は1〜2に抑え、体力に気を付ける。最大体力が減るので、不利なマッチは守備で処理し被弾を避ける。": "Keep Surgery at 1–2 and watch his HP. His max HP drops, so handle unfavorable Clashes with Defense skills and avoid taking hits.",
+    "連戦では序盤に施術を積んでおくと、後のウェーブを高い与ダメージで始められる。": "In consecutive battles, stacking Surgery early lets later waves start with high damage.",
+    "「最後の改造」は使い捨ての終盤火力。発動前の体力調整が前提になる。": "Final Augment is single-use late-game damage. It assumes adjusting his HP before triggering it.",
+    "必要資源は怠惰2・傲慢1・嫉妬2、精神消耗は覚醒・侵蝕とも20。": "It requires 2 Sloth, 1 Pride, and 2 Envy, with a Sanity cost of 20 for both Awakening and Corrosion.",
+    "Ⅱ: 「最後の改造」が解放される。": "**Ⅱ**: Unlocks Final Augment.",
+    "Ⅲ: 基本威力が23になり、覚醒に施術の付与が加わる。侵蝕には混乱区間の前進が付く。": "**Ⅲ**: Base Power becomes 23, and Awakening gains Surgery infliction. Corrosion gains a Stagger Threshold shift.",
+    "Ⅳ: 覚醒・侵蝕の攻撃加重値が2になり、広域化する。": "**Ⅳ**: Awakening and Corrosion reach 2 Attack Weight, becoming multi-target.",
+    "剣契頭目: 失った体力に応じてダメージ量が伸びる肉斬・骨断を持ち、パッシブで致死ダメージを1回耐えられる。": "**[Blade Lineage Mentor](persona:0508)**: Has Yield My Flesh and To Claim Their Bones, whose damage grows with HP lost, and his passive survives lethal damage once.",
+    "N社大鎚: 体力50%未満でコイン威力が上がる「貫く」や、体力50%未満で保護3などを得るパッシブを持ち、体力が減った状態を活かせる。": "**[N Corp. Großhammer](persona:0504)**: Has Drive, which gains Coin Power below 50% HP, and a passive that grants 3 Protection and more below 50% HP, so he makes good use of a lowered-HP state."
+  }
+}

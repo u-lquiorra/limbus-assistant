@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0404.md",
+  "code": "0404",
+  "messages": {
+    "自分より遅い敵をまとめて斬り、混乱させるか倒すと回復も得られる、嫉妬の斬撃広域E.G.O。": "A multi-target Envy Slash E.G.O that cuts down enemies slower than her and heals when it staggers or defeats them.",
+    "速度差のボーナス: メインターゲットの速度が自分より3以上遅いと、コイン威力+4(解析Ⅳは+7)。速い敵には恩恵が薄い。": "**Speed-difference bonus**: +4 Coin Power (+7 at Threadspin Ⅳ) if the main target is at least 3 Speed slower than her. Little benefit against fast enemies.",
+    "束縛によるダメージ増加: 的中時、対象に束縛が3以上あればダメージ量+20%(解析Ⅳは40%)。束縛を3付ける手段が別に要る。": "**Damage from Bind**: On hit, +20% damage (40% at Threadspin Ⅳ) if the target has at least 3 Bind. Another source is needed to inflict 3 Bind.",
+    "回復(解析Ⅲ): このスキルで対象を混乱させるか倒すと、体力が最も低い味方1名と自分が最大値の10%を回復する。": "**Healing (Threadspin Ⅲ)**: Staggering or defeating a target with this skill heals the 1 ally with the lowest HP and herself by 10% of max HP.",
+    "パッシブ「捕食」: そのターンに体力最大値の10%より多く回復していれば、次のターンに攻撃威力増加1を得る。": "**Passive — Predator**: If she healed more than 10% of her max HP that turn, she gains 1 Attack Power Up next turn.",
+    "嫉妬の確保: 良秀の嫉妬属性のE.G.Oはこれだけで、嫉妬共鳴に参加する手段にもなる。": "**Securing Envy**: This is Ryōshū's only Envy E.G.O, so it also gives her a way to take part in Envy Resonance.",
+    "速度で勝てる敵が複数いる場面で撃ち、混乱区間に入った敵を巻き込んで回復を狙う。": "Use it when there are several enemies she can outspeed, catching enemies at their Stagger Threshold to aim for the healing.",
+    "束縛の条件は、束縛を付ける人格を先に使ったうえで満たせれば加点程度に考える。": "Treat the Bind condition as a bonus if it can be met by using Bind Identities first.",
+    "「赤眼」で束縛3を付けてからこれを撃つ流れは、資源も精神力も2ターン分かかるため見合わないと考えられる。": "Applying 3 Bind with Red Eyes and then firing this costs two turns' worth of resources and SP, which is likely not worth it.",
+    "侵蝕スキルは減算型でダメージ増加が覚醒より大きいが、扱いは覚醒中心でよい。": "The Corrosion skill is a Minus Coin skill with a bigger damage increase than Awakening, but Awakening should be the main choice.",
+    "Ⅱ: 「捕食」が解放される。": "**Ⅱ**: Unlocks Predator.",
+    "Ⅲ: 基本威力が上がり、攻撃加重値が2から3になる。混乱・撃破時の回復が加わる。": "**Ⅲ**: Raises Base Power and Attack Weight from 2 to 3. Adds healing on Stagger and kills.",
+    "Ⅳ: 速度差のコイン威力が+7、束縛によるダメージ増加が40%になる。": "**Ⅳ**: The speed-difference Coin Power becomes +7, and the Bind-based damage increase becomes 40%.",
+    "ロボトミーE.G.O::赤眼･懺悔: 赤眼・懺悔が15以上でS3が「ガチでドタマを割る」に変化したとき、束縛3の付与と体力の回復が付く。色欲・嫉妬の資源も出せる。": "**[Lobotomy E.G.O:: Red Eyes & Penitence](persona:0410)**: When Red Eyes and Penitence reach 15 or more and S3 becomes Serious Skullbuster, it inflicts 3 Bind and heals HP. She also supplies Lust and Envy resources.",
+    "エドガー家 チーフバトラー: 速度差でマッチ威力が伸びるスキルが多く、S1(色欲)とS3(憤怒)で必要資源を出せる。S3は的中時に束縛1も付与する。": "**[Edgar Family Chief Butler](persona:0408)**: Many of her skills gain Clash Power from Speed difference, and S1 (Lust) and S3 (Wrath) supply the required affinities. Her S3 also inflicts 1 Bind on hit."
+  }
+}

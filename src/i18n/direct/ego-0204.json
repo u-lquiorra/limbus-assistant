@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0204.md",
+  "code": "0204",
+  "messages": {
+    "充電を補充しつつパッシブでダメージ量を底上げし、充電人格の火力を引き上げる、嫉妬貫通の高威力E.G.O。": "A high-power Envy Pierce E.G.O that refills Charge while raising damage through its passive, boosting the damage of Charge Identities.",
+    "高いマッチ威力: 20~26(解析Ⅲで22~28)と高めで、的中時に麻痺3を付与する。": "**High Clash Power**: A high 20–26, or 22–28 at Threadspin Ⅲ, and inflicts 3 Paralyze on hit.",
+    "充電の獲得: 的中時(解析Ⅳは攻撃後)に自分の充電回数が増える(解析Ⅲで7)。解析Ⅳでは表面の攻撃終了時にさらに3増える。": "**Gaining Charge**: On hit (after the attack at Threadspin Ⅳ), increases her own Charge Count, to 7 at Threadspin Ⅲ. At Threadspin Ⅳ, it increases by another 3 at the end of a Heads attack.",
+    "味方への支援(解析Ⅲ。解析Ⅳは表面攻撃終了時): 表面的中時に、次のターンにランダムな味方2名へ嫉妬威力増加1とクイック1を付与する。対象は選べない。": "**Support for allies (Threadspin Ⅲ; at the end of a Heads attack at Threadspin Ⅳ)**: On Heads Hit, gives 1 Envy Power Up and 1 Haste next turn to 2 random allies. The targets cannot be chosen.",
+    "広域化(解析Ⅳ): 攻撃加重値が1から3になり、複数の敵を同時に攻撃できる。": "**Multi-target (Threadspin Ⅳ)**: Attack Weight rises from 1 to 3, letting it hit several enemies at once.",
+    "パッシブ「適応型放出」: 充電回数1つにつきダメージ量+2%。スキル効果で消耗する充電回数が2減る。": "**Passive — Adaptive Release**: +2% damage per Charge Count. Reduces the Charge Count spent by skill effects by 2.",
+    "充電を使う人格と組み、立ち上がりで不足しがちな充電をこのE.G.Oで補う。": "Pair it with Identities that use Charge, and use this E.G.O to cover the Charge that tends to be lacking at the start.",
+    "麻痺は撃ったターンだけ効くので、速度が高い人格で撃つ。": "Paralyze only works on the turn it is used, so fire it with a fast Identity.",
+    "Ⅱ: パッシブが解放されるのみ。": "**Ⅱ**: Only unlocks the passive.",
+    "Ⅲ: 威力と充電獲得量が増え、覚醒に味方への嫉妬威力増加・クイックが付く。": "**Ⅲ**: Increases power and Charge gain, and adds Envy Power Up and Haste for allies to Awakening.",
+    "Ⅳ: 攻撃加重値が3になり、充電獲得が攻撃後に変わる。": "**Ⅳ**: Attack Weight becomes 3, and the Charge gain moves to after the attack.",
+    "マルチクラック事務所 代表: S1・S3が充電を消耗または獲得するスキルで、S1が色欲、S2が嫉妬でも資源を出せる。": "**[MultiCrack Office Rep](persona:0210)**: S1 and S3 spend or gain Charge, and her Lust S1 and Envy S2 supply resources.",
+    "W社2級整理要員: S1・S2が充電を増やし、S1の嫉妬と S3の憤怒でも必要資源を出せる。": "**[W Corp. L2 Cleanup Agent](persona:0202)**: S1 and S2 increase Charge, and her Envy S1 and Wrath S3 also supply the required affinities."
+  }
+}

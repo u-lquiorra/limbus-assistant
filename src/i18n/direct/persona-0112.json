@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0112.md",
+  "code": "0112",
+  "messages": {
+    "火傷アタッカーと、味方の精神力回復を兼ねる人格。": "An Identity who combines Burn damage with SP recovery for his allies.",
+    "火傷で強化: 攻撃スキルは対象の火傷が多いほどコイン威力・ダメージ量が上がる。": "**Scales with Burn**: His attack skills gain Coin Power or damage as the target's Burn increases.",
+    "S3「剣の流れ」: Ⅳコインで対象の火傷威力だけ憤怒属性ダメージ(最大30)を与え、火傷回数を2減らす。攻撃後、自分を除く精神力が最も低い味方1名の精神力を回復。": "**S3 — Flow of the Sword**: Coin Ⅳ deals Wrath damage equal to the target's Burn Potency, up to 30, then reduces Burn Count by 2. After attacking, restores SP to the 1 ally other than himself with the lowest SP.",
+    "守備「炎反」(反撃): 被ダメージ直前に対象の火傷だけバリアを得る(最大10/15、1ターンにつき1回)。": "**Defense — Flame Counter**: Immediately before taking damage, gains Shield equal to the target's Burn Potency, up to 10/15, once per turn. Slash-separated values indicate different Uptie tiers.",
+    "バトルパッシブ「内なる熱血」(憤怒×4・保有・同期化Ⅱで取得): ターン終了時、精神力が最も低い味方1名(自分、パニック・E.G.O侵蝕状態の味方を除く)の精神力を5+最大共鳴数(最大10)回復。憤怒共鳴4以上なら対象が1名増える。対象が火傷を付与する基本スキルを持っていれば追加で5回復。": "**Combat passive — Inner Ardor (4 Wrath Owned; unlocked at Uptie Ⅱ)**: At Turn End, restores 5 + the highest Resonance SP, up to 10, to the 1 ally with the lowest SP, excluding himself and allies in Panic or E.G.O Corrosion. At 4 or more Wrath Resonance, affects 1 additional ally. Each recipient with a Base Skill that inflicts Burn receives 5 additional SP.",
+    "火傷を付与する人格と組み、火傷を積んで火力を伸ばしつつ、パッシブとS3で味方の精神力を支える。": "Pair him with Burn Identities to build Burn for his damage while his passive and S3 support allied SP.",
+    "炎拳事務所生存者(グレゴール): S1〜S3が火傷を付与する基本スキルなので、パッシブ「内なる熱血」の精神力回復が増える対象になる。": "**[Firefist Office Survivor](persona:1211) (Gregor)**: His S1–S3 are Base Skills that inflict Burn, making him eligible for the extra SP recovery from Inner Ardor.",
+    "南部リウ協会5課(ホンル): 控えに置くと、サポートパッシブで精神力が最も高い味方の火傷回数の付与値を+1する。": "**[Liu Assoc. South Section 5](persona:0604) (Hong Lu)**: On the bench, his support passive increases the Burn Count inflicted by the ally with the highest SP by 1."
+  }
+}

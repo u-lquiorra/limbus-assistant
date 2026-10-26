@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0604.md",
+  "code": "0604",
+  "messages": {
+    "コインの表裏で味方の体力か精神力を、クリティカルなら両方を回復する、嫉妬打撃の回復E.G.O。": "An Envy Blunt healing E.G.O that heals allies' HP or SP depending on Heads or Tails, or both on a Critical Hit.",
+    "表裏で回復先が変わる: 表面で攻撃を終えると体力比率の低い味方2名の体力を、裏面なら精神力の低い2名の精神力を回復する(10、解析Ⅲで12、Ⅳで15)。": "**Heal target depends on Heads or Tails**: Ending the attack on Heads heals the HP of the 2 allies with the lowest HP ratio, and on Tails heals the SP of the 2 allies with the lowest SP (10, 12 at Threadspin Ⅲ, 15 at Ⅳ).",
+    "クリティカル回復(解析Ⅲ): クリティカルで攻撃を終えると、体力が最も低い味方1名の体力と、精神力が最も低い味方1名の精神力を6回復する(解析Ⅳで8)。呼吸でクリティカルを狙えると効率が上がる。": "**Critical healing (Threadspin Ⅲ)**: Ending the attack with a Critical Hit heals 6 HP to the 1 ally with the lowest HP and 6 SP to the 1 ally with the lowest SP (8 at Threadspin Ⅳ). Being able to aim for Critical Hits with Poise improves efficiency.",
+    "広域化: 攻撃加重値は解析Ⅲで2、Ⅳで3になる。攻撃レベルが人格Lv-5なので、実際のマッチ威力は表示より低い。": "**Multi-target**: Attack Weight becomes 2 at Threadspin Ⅲ and 3 at Ⅳ. Its Offense Level is Identity Lv −5, so its actual Clash Power is lower than displayed.",
+    "パッシブ「遠い海のカモメの鳴き声」: 敵が死ぬたびに、精神力が最も低い味方の精神力を回復する。回復量は倒すほど増えるが(最大9)、ウェーブ開始で戻る。": "**Passive — Seagull Squawking Of The Distant Seas**: Each time an enemy dies, restores SP to the ally with the lowest SP. The amount grows with more kills (up to 9), but resets when a new wave starts.",
+    "資源7個に対して回復量は小さいと考えられる。回復手段に困るときの補助として使う。": "The healing is likely small for 7 resources. Use it as a supplement when healing is lacking.",
+    "呼吸を持つ人格で使うと、クリティカルによる両方の回復を狙える。": "Used by an Identity with Poise, it can aim for the Critical Hit that heals both.",
+    "使用中の耐性は怠惰・嫉妬が脆弱なので、その属性の敵には注意する。侵蝕スキルは束縛と振動を付与し、敵味方識別不可で体力が最も低い対象(味方の可能性あり)を攻撃する。": "While in use, its resistances are Fatal to Sloth and Envy, so be careful against enemies of those affinities. The Corrosion skill inflicts Bind and Tremor, cannot distinguish friend from foe, and attacks the target with the lowest HP (possibly an ally).",
+    "Ⅱ: カモメの鳴き声が解放される。": "**Ⅱ**: Unlocks Seagull Squawking Of The Distant Seas.",
+    "Ⅲ: 回復量が10から12になり、クリティカル回復と広域化(加重値2)が加わる。": "**Ⅲ**: Healing goes from 10 to 12, and Critical healing and multi-target attacks (2 Attack Weight) are added.",
+    "Ⅳ: 回復量が15、クリティカル回復が8、加重値が3になる。": "**Ⅳ**: Healing becomes 15, Critical healing 8, and Attack Weight 3.",
+    "鴻園の君主: S1・S2が呼吸を得るのでクリティカルを狙いやすく、S1(憂鬱)・S2(暴食)で必要資源も出せる。": "**[The Lord of Hongyuan](persona:0613)**: S1 and S2 gain Poise, making Critical Hits easier to aim for, and S1 (Gloom) and S2 (Gluttony) also supply the required affinities.",
+    "東部センク協会3課: S1が呼吸回数を3増やし、憂鬱の資源も出せる。": "**[Cinq Assoc. East Section 3](persona:0616)**: S1 increases Poise Count by 3, and he also supplies Gloom resources."
+  }
+}

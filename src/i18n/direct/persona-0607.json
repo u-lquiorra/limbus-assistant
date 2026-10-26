@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0607.md",
+  "code": "0607",
+  "messages": {
+    "クイックで速度を上げ、出血を付与しながら弱った敵を仕留める人格。": "An Identity that raises Speed with Haste, applies Bleed, and finishes weakened enemies.",
+    "速度で強化: S1「追跡」は自分のクイック2以上で最終威力+1。S2「お先」は速度6以上、S3「狂乱」は速度8/6以上でコイン威力+1。": "**Speed bonuses**: S1 Track gains +1 Final Power with at least 2 Haste on himself. S2 Goin' First gains +1 Coin Power at 6 or more Speed, and S3 Rampage at 8/6 or more.",
+    "クイック: S2の使用時と守備「素早い」の回避成功時に次のターンのクイックを得る。": "**Haste**: Gains Haste next turn on using S2 and on a successful Evade with the Defense skill Quickness.",
+    "出血: 各スキルで出血を付与。S2のⅢコインは、速度が対象より高ければ速度差だけ出血回数を増やす。": "**Bleed**: Each skill inflicts Bleed. Coin Ⅲ of S2 increases Bleed Count by the Speed difference if he is faster than the target.",
+    "S3: 対象の失った体力に応じてダメージ量が増加。Ⅰコインの表面的中で対象の出血に応じて精神力を回復。": "**S3**: Deals more damage based on the HP the target has lost. On Coin Ⅰ Heads Hit, restores SP based on the target's Bleed.",
+    "バトルパッシブ「鈎」(色欲×5・保有・同期化Ⅱで取得): 敵討伐時、次のターンに攻撃威力増加1(1ターン1回)。": "**Combat passive — Hook (5 Lust Owned; unlocked at Uptie Ⅱ)**: On defeating an enemy, grants 1 Attack Power Up next turn, once per turn.",
+    "S2と守備でクイックを重ねて速度を上げ、出血を積む。体力の減った敵をS3で仕留めて、次のターンの攻撃威力増加につなげる。": "Stack Haste with S2 and his Defense skill to raise Speed, and build Bleed. Finish weakened enemies with S3 to chain into Attack Power Up for the next turn."
+  }
+}

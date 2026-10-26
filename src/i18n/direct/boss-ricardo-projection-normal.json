@@ -1,0 +1,1599 @@
+{
+  "kind": "boss-copy",
+  "id": "ricardo-projection-normal",
+  "source": "src/data/bosses/ricardo-projection-normal.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "射影[中指]",
+          "en": "Shade of Reflection [The Middle]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001AllyFirst"
+        },
+        {
+          "ja": "射影[急襲]",
+          "en": "Shade of Reflection [Ambuscade]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001AllyTwo"
+        },
+        {
+          "ja": "射影[中指]",
+          "en": "Shade of Reflection [The Middle]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001EnemyFirst"
+        },
+        {
+          "ja": "射影[急襲]",
+          "en": "Shade of Reflection [Ambuscade]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001EnemySecond"
+        },
+        {
+          "ja": "射影[中指]",
+          "en": "Shade of Reflection [The Middle]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001FirstPhaseForUI"
+        },
+        {
+          "ja": "射影[急襲]",
+          "en": "Shade of Reflection [Ambuscade]",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001SecondPhaseForUI"
+        },
+        {
+          "ja": "帳簿に記載済み",
+          "en": "Written in the Book",
+          "file": "Bufs-BossRaid.json",
+          "id": "RicardoBookRaid"
+        },
+        {
+          "ja": "怨恨の刺青",
+          "en": "Vengeance Tattoo",
+          "file": "Bufs-BossRaid.json",
+          "id": "RicardoTattooRaid"
+        },
+        {
+          "ja": "お遊びはここまで",
+          "en": "Enough Games",
+          "file": "Passives-BossRaid.json",
+          "id": "500101"
+        },
+        {
+          "ja": "帳簿に書いておこう",
+          "en": "That's Goin' in the Book",
+          "file": "Passives-BossRaid.json",
+          "id": "500102"
+        },
+        {
+          "ja": "その罪は大きすぎるな",
+          "en": "Too Grave a Sin",
+          "file": "Passives-BossRaid.json",
+          "id": "500103"
+        },
+        {
+          "ja": "大人しく執行を受けろ",
+          "en": "Don't Resist and Accept Your Punishments",
+          "file": "Passives-BossRaid.json",
+          "id": "500104"
+        },
+        {
+          "ja": "中指の優先復讐対象だ",
+          "en": "You're The Middle's Priority Revenge Target",
+          "file": "Passives-BossRaid.json",
+          "id": "500107"
+        },
+        {
+          "ja": "末兄",
+          "en": "The Big Brother",
+          "file": "Passives-BossRaid.json",
+          "id": "500108"
+        },
+        {
+          "ja": "髪を振り払う",
+          "en": "Brush it Off",
+          "file": "Passives-BossRaid.json",
+          "id": "500109"
+        },
+        {
+          "ja": "髪を振り払う",
+          "en": "Brush it Off",
+          "file": "Passives-BossRaid.json",
+          "id": "500110"
+        },
+        {
+          "ja": "射影戦闘",
+          "en": "Reflectrial",
+          "file": "Passives-BossRaid.json",
+          "id": "501206"
+        },
+        {
+          "ja": "射影戦闘",
+          "en": "Reflectrial",
+          "file": "Passives-BossRaid.json",
+          "id": "501911"
+        },
+        {
+          "ja": "殴る",
+          "en": "Punching",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500101"
+        },
+        {
+          "ja": "足蹴",
+          "en": "Kicking",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500102"
+        },
+        {
+          "ja": "お返し",
+          "en": "Payback",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500103"
+        },
+        {
+          "ja": "後ろに注意！",
+          "en": "Watch Your Back!",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500104"
+        },
+        {
+          "ja": "全員集合",
+          "en": "Assemble",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500105"
+        },
+        {
+          "ja": "俺の身体に刻んでみろ",
+          "en": "Make this Memorable",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500106"
+        },
+        {
+          "ja": "俺のヘアクーポォオオオン！！！",
+          "en": "MY HAIR COUPOOOOOOOOOOONS!!!",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500107"
+        },
+        {
+          "ja": "苦痛を刻む",
+          "en": "Promised Suffering",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500108"
+        },
+        {
+          "ja": "お遊びはここまで",
+          "en": "Enough Games",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500109"
+        },
+        {
+          "ja": "全員、処刑だ！！！",
+          "en": "COMPLETE AND TOTAL EXTERMINATION!!!",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500110"
+        },
+        {
+          "ja": "俺らの家族だったか",
+          "en": "Ah, You Were One of the Fam",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500111"
+        },
+        {
+          "ja": "俺を騙したのか！！！",
+          "en": "TRICKED ME, DID YOU??!!",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500112"
+        },
+        {
+          "ja": "怨恨を噛み締める",
+          "en": "Swear Vengeance",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500113"
+        },
+        {
+          "ja": "即決処刑だ！",
+          "en": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500114"
+        },
+        {
+          "ja": "試験は終わりだ",
+          "en": "No More Tests",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500115"
+        },
+        {
+          "ja": "兄貴の慈悲",
+          "en": "Mercy of the Big Brother",
+          "file": "Skills_Abnormality-BossRaid.json",
+          "id": "500116"
+        },
+        {
+          "ja": "苦難",
+          "en": "Tribulation",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001Hard"
+        },
+        {
+          "ja": "苦難",
+          "en": "Tribulation",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001HardForUI"
+        },
+        {
+          "ja": "苦難",
+          "en": "Tribulation",
+          "file": "Bufs-BossRaid.json",
+          "id": "FavorBuff5001HardTwo"
+        },
+        {
+          "ja": "兄貴の試験",
+          "en": "Test of the Big Brother",
+          "file": "Bufs-BossRaid.json",
+          "id": "RicardoJokeRaid"
+        },
+        {
+          "ja": "家族愛",
+          "en": "Familial Love",
+          "file": "Passives-BossRaid.json",
+          "id": "500105"
+        },
+        {
+          "ja": "黒獣のヤローが残した傷が疼くな",
+          "en": "That Heishou's Left Me a Smarting Ache",
+          "file": "Passives-BossRaid.json",
+          "id": "500106"
+        }
+      ],
+      "note": "Names follow paired BossRaid records, not similarly named story or dungeon skills. Foot Stomp in the Japanese source is Kicking for BossRaid skill 500102. Absolute Resonance is distinct from ordinary Resonance. Loadout reuse, cumulative turns, HP carryover, Book thresholds, unbroken-hit damage conditions, and NORMAL versus HARD modifiers are retained. Public English item and event names are cross-checked against the sources listed below."
+    },
+    "publicNameSources": [
+      {
+        "title": "Project Moon: Reflectrial][lairtcelfeR - Nocturnal Sweeping",
+        "url": "https://store.steampowered.com/news/app/1973530/view/704392974023263202"
+      },
+      {
+        "title": "Burnt-in Lens English item name",
+        "url": "https://limbuscompany.wiki.gg/wiki/Reflectrial_lairtcelfeR"
+      }
+    ]
+  },
+  "scopedPaths": [
+    "skills.1.name",
+    "skills.16.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "b223548ff126af492f29301352798d77d52a05e565af210b98b5c6e0b184db91",
+      "text": "Ricardo (Reflectrial, NORMAL)"
+    },
+    "shortName": {
+      "sourceHash": "d49adfbcfe78e811d48da0d3dbe9e5cf5b48edf955e93986abad728f20483653",
+      "text": "Ricardo"
+    },
+    "stage": {
+      "sourceHash": "5f1a7ee87ae2ca9efee2352af1042bd53e437b4c0e418e57f069e38d91993a5c",
+      "text": "Reflectrial NORMAL"
+    },
+    "stageName": {
+      "sourceHash": "0942c553a45054f2c19d71435dd1f19bd349dbc338b255a06f8458978b413735",
+      "text": "Reflectrial][lairtcelfeR - Nocturnal Sweeping BokGak"
+    },
+    "lead": {
+      "sourceHash": "c09f07d37304ff363ca60556ad7de70ca9cdb7a446070e030c8539141b6312d7",
+      "text": "Use the Middle's defense and Envy Resonance to learn Book buildup and Unbreakable Coin handling. Unlike 5-30, which ends at half HP, you must finish Ricardo's body in the second phase too."
+    },
+    "listLead": {
+      "sourceHash": "e97e494e1130c8d2bc01746a3644ec2da3f35affff54245b2af39827502613ba",
+      "text": "For a first clear: learn Written in the Book buildup and when to defend, with 24 cumulative turns or less as a further goal."
+    },
+    "statNote": {
+      "sourceHash": "3f551bc16f852614831a9cc8036533efcc24719cc00813c4b94a2168be3b94e9",
+      "text": "Base values for the Reflectrial encounter. Excludes dynamic buffs from Offense Level Up and Vengeance Tattoo. Second-phase HP carries over from the first phase; it is not a separate HP bar."
+    },
+    "skillNote": {
+      "sourceHash": "838e1efe7f98b2d7a0006837581d4910e6d177d3ce5efa4a4e8195632c6b95ef",
+      "text": "Skills are listed separately for each phase. Check actual equipped skills rather than a fixed sequence. Conditional Unbreakable conversion from the Book is not included in the always-visible Coin icons."
+    },
+    "projection.team.title": {
+      "sourceHash": "c7fbcfec345f1183c5cc2228691aa78d2ebee91b737e2a25f745b9bfdd82b894",
+      "text": "Six Middle members plus Evade and healing, continuing into Phase 2"
+    },
+    "projection.team.note": {
+      "sourceHash": "8658743abc84300f94e5dda30a157d6aaaf3b0d439ea160ee8af22c832c08f9a",
+      "text": "Uses at least four Middle members to change the opening pattern and Envy Absolute Resonance to strengthen Counters. Converting Counter into S3 requires a combined total of at least 6 Envy Absolute Resonance, distinct from ordinary 6 Envy Resonance. The starting order is an example; check the actual skill panel. Use Faust's Evade, Envy skills, and Envy E.G.O to maintain Resonance. The four reserve LCB Sinners are flexible slots and can be replaced by trained Identities of the same Sinners. Borrowed Support Identities cannot be used."
+    },
+    "projection.team.members.0.reason": {
+      "sourceHash": "5b7d0e22f2f3b0c9b81e0dbab6863d90fb49daffc694e8b2adc89a8bd8e3a258",
+      "text": "Main damage dealer. Progress sword unsealing with 6 Envy Absolute Resonance or S3, then damage Phase 2 with Lævateinn. Use normal S2 or S3 to clash with dangerous skills."
+    },
+    "projection.team.members.1.reason": {
+      "sourceHash": "12fb0dec3c0e6c57ef3a1b7165da92d2f5e76f84cb20133c476646ff442de745",
+      "text": "Supports the durability and SP of Middle members with defense equipped. Hits after their Counter ends can still Stagger them; do not force several attacks onto one recipient."
+    },
+    "projection.team.members.2.reason": {
+      "sourceHash": "da543684e9bf6aa1aec53e4b8a5e1a93f9db49ba3d24b15319e631a2bc0ddbab",
+      "text": "Counter attacker paired with Outis. Maintain 6 Envy Absolute Resonance to use S3 from defense."
+    },
+    "projection.team.members.3.reason": {
+      "sourceHash": "40a7c5458423f9f23b5b871bda72bf66ca01098e1d54535cba73d9feedb30a97",
+      "text": "Blunt Counter role enhanced by 6 Envy Absolute Resonance. Receives normal attacks they can survive."
+    },
+    "projection.team.members.4.reason": {
+      "sourceHash": "3cc2c2cab3ce8cec2aaec2e3095baf354c1268eefcd9cb8df842254af5145ff7",
+      "text": "Maintains Envy Resonance and uses Chains of Others when needed to weaken next turn's normal attacks. His own Counter gains Coin Power from Resonance but does not become S3."
+    },
+    "projection.team.members.5.reason": {
+      "sourceHash": "fa4730d7de398a55aa14a1f9d5b8f58e15ab371b865a70df1151a766860ebe7f",
+      "text": "Provides Envy Resonance and Counters. Do not also force them to handle strong area clashes."
+    },
+    "projection.team.members.6.reason": {
+      "sourceHash": "abac3ca2eabfcaa10c1f1071ed7bd0421de02350a10cd247e7ef78eb0d50e8a5",
+      "text": "Maintains Resonance with Envy Evade and heals with Fluid Sac. Blunt weakness makes failed Evades costly. Check SP and predictions; do not assign Promised Suffering while Evade Power is low."
+    },
+    "projection.team.support.0.reason": {
+      "sourceHash": "0279cf1ae57396ec782da14fefad32a1987742ebc7226bc4b3c77ae69e863173",
+      "text": "Support passive unlocked at Uptie III. At 3 Envy Resonance, heals 3 HP to the ally with the lowest HP percentage and 3 SP to the ally with the lowest SP percentage."
+    },
+    "projection.team.support.1.reason": {
+      "sourceHash": "5046ae5e9540cf0082067e7892e034705bdc73166921f67f966a6f986d7a7d8e",
+      "text": "Flexible Yi Sang slot. If reserves lack combat strength when deployed, replace with a trained Identity."
+    },
+    "projection.team.support.2.reason": {
+      "sourceHash": "48acf6078e80b4ed69e61f9686cda4a11c0f46c97eb2ff25e74a7e5c069219f7",
+      "text": "Flexible Hong Lu slot. Allocate Identities so those needed for a separate Phase 2 team are not used here."
+    },
+    "projection.team.support.3.reason": {
+      "sourceHash": "738c1c3a4aa5d489042c8a638745d0c2bbc6f83eeb3d8a0ce0c495e1f55ec4f0",
+      "text": "Flexible Rodion slot. Can switch to a support passive for the Middle starters or an Identity that can fight after casualties."
+    },
+    "projection.team.support.4.reason": {
+      "sourceHash": "a89b2d4af3fb55bbd66af29901c06dce7ee2862b175c4b840922c074664aa553",
+      "text": "Flexible Gregor slot. Prioritize starting-team Resonance and recovery over relying on reserve damage."
+    },
+    "projection.team.egos.0.reason": {
+      "sourceHash": "bc9d878fad9a0303e8905051d588b6f9fab11364b1ac74110645da146c3d8a63",
+      "text": "HP and SP recovery. Costs 2 Lust, 4 Gloom, and 3 Envy. Opening SUPERBIA is an option. Its Gloom affinity may interrupt Envy Absolute Resonance; check whether 6 remains that turn."
+    },
+    "projection.team.egos.1.reason": {
+      "sourceHash": "8df5f5f3a783bd6028854060f7c997697f1cfdd2f8dd888d02346731ea188953",
+      "text": "Costs 1 Sloth, 1 Gloom, and 2 Envy. On Hit, inflicts Bind and Attack Power Down next turn. Reduces normal attack damage, but alone cannot neutralize fixed or extra damage or ordinary Counters. Pride affinity can also break Resonance."
+    },
+    "projection.team.egos.2.reason": {
+      "sourceHash": "d1dd54ed72f399cbdd7aa2d692ce3fcc93fa0f690ed9fe99c2ea06244b6d08b6",
+      "text": "Balances resource reserves while keeping Envy affinity. Costs 1 Lust and 3 Envy; converts resources on a clash win. An unopposed attack on a Staggered enemy does not trigger conversion."
+    },
+    "projection.team.egos.3.reason": {
+      "sourceHash": "53d119c7a2ea411cd416c42a55b66fc342a4b8b0833d0432c02c30fe39882cac",
+      "text": "Envy clash option costing 1 Wrath and 4 Envy. On turns not needing Chains of Others, can maintain Absolute Resonance while answering dangerous skills."
+    },
+    "projection.rules.0": {
+      "sourceHash": "182cb00d4894ca48147c3079425c15390fde84937c150dc1cca64efc9a4a1d66",
+      "text": "A continuous battle with up to three team loadouts. Each has 7 starters and 5 reserves. Used Identities have reuse restrictions until progress is reset; borrowed Support Identities are unavailable."
+    },
+    "projection.rules.1": {
+      "sourceHash": "2a00df3c642b932931786e89de2e478dcecc574b346d68f43659c5e3cdb4150a",
+      "text": "You can save progress and switch loadouts before 12 turns with one team. Phase transitions also advance turns; manage the goal using the displayed cumulative count."
+    },
+    "projection.rules.2": {
+      "sourceHash": "576c7d6641e2380a51b1400221f9653ac8e2d185c32aa2524a47adcd2dd63a38",
+      "text": "Phase transition and loadout replacement are separate. If the Middle core and healing remain, you do not have to replace the team automatically at 50% HP."
+    },
+    "projection.rules.3": {
+      "sourceHash": "345b43cfbf8266a3cb8b6fbfdc1c13540ff33f166bf937bc7588e53445135535",
+      "text": "Sapling of Light usage is separate from normal battles and checked per difficulty. Do not assume it can be reused in the second phase of the same difficulty."
+    },
+    "projection.rules.4": {
+      "sourceHash": "4c6b9dda7346a771a867fc1e7d3796efa7e004ebc69fec75efa7958b1b66e05b",
+      "text": "NORMAL lacks HARD's Tribulation, but shares Book-based Unbreakable conversion and area attacks. A clash win does not guarantee no damage."
+    },
+    "projection.rules.5": {
+      "sourceHash": "4cdff863c99bec2ad1c7486cc538270b5abd2fc4c1b893fc657e7b3a4bd0dbdf",
+      "text": "Reward tiers are clear, 32 turns or less, 28 or less, and 24 or less. The 24-turn tier gives 150 Lunacy and 100 Burnt-in Lens. Prioritize a first clear, then improve the time."
+    },
+    "projection.budget.0.timing": {
+      "sourceHash": "91c7dab23ed1beeb65d485e0c86ee8464c1a1d842a9d71cbb86536d30b698875",
+      "text": "First half"
+    },
+    "projection.budget.0.goal": {
+      "sourceHash": "99f5b189ebe44f7e4286952234e2d662771d011acaf4eac6ce95856c5cbf9065",
+      "text": "Use the Stagger at 65% HP and advance to 50%"
+    },
+    "projection.budget.0.adjustment": {
+      "sourceHash": "2326e4d6d40e388d67b4a74fa4400205a327e9ab6f616bb3ab2ab0a2de5701bf",
+      "text": "Check skills that become dangerous at 3, 20, and 30 Book. Use defense against manageable attacks rather than making everyone attack."
+    },
+    "projection.budget.1.timing": {
+      "sourceHash": "fe739d5a2b6445492af69666fe631fa0bc07419f5ed9fffb5d85f5a648a1f331",
+      "text": "12 turns per loadout"
+    },
+    "projection.budget.1.goal": {
+      "sourceHash": "9f9c68c6f533b125c4a7068e233ff7cccebf294c84fff52825b3daffc8dc523b",
+      "text": "Decide whether to continue or switch based on the core's condition"
+    },
+    "projection.budget.1.adjustment": {
+      "sourceHash": "ee87d5f4621c38683e01560071e4a65468d4d8bcd403a5786da9e940f0242bff",
+      "text": "Do not assume the same Identity can be reused in the next loadout. Preserve unused Identities if a switch is needed."
+    },
+    "projection.budget.2.timing": {
+      "sourceHash": "ccfcf8834bd19987b498455170b83edadc044975f04f9bbd64a86fbd0e3377b1",
+      "text": "Within 24 cumulative turns"
+    },
+    "projection.budget.2.goal": {
+      "sourceHash": "63bb7d01c2fc2829bb36356777d12334906a7b5b2379feb7e7fee51c377c2a94",
+      "text": "Maintain healing and finish the body's HP"
+    },
+    "projection.budget.2.adjustment": {
+      "sourceHash": "4ebbd894fc3af4688c58ded05d4784b01904e0f2522375c35665e3ee3cf6fdc3",
+      "text": "If too slow, prioritize clearing first. Next time, reduce unused Counters, broken Resonance, and excessive add cleanup."
+    },
+    "priorities.0": {
+      "sourceHash": "59f6e4afb6ca910fa71e2185bfc54d7f804ad2a6034eb3ec434127150d0325c2",
+      "text": "Deploy at least four Middle members to change the opening pattern and use defense and Resonance. Borrowed Support Identities are unavailable."
+    },
+    "priorities.1": {
+      "sourceHash": "f0172eb79b4450a2ff9bf04ba50483b6f44d03802b231d8698398db46199bc9d",
+      "text": "At 20 Book, normal skills also become Unbreakable. Promised Suffering alone makes all Coins Unbreakable from 3 Book."
+    },
+    "priorities.2": {
+      "sourceHash": "3a09cfca84b3c2f2f2e3d9c53680d59a3f790083e69803d6308e29edddea9a72",
+      "text": "50% HP starts Phase 2. Keep healing and later combat strength because the fight ends only when the body dies."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "cb5d1616c7fa28dfb8f978e8d6d5e8246c8709d8ed7eebf392174107c49e9fde",
+      "text": "My key Sinners die despite winning clashes"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "44f28364dd35b42a7a542e7997268c5c0a4a9f2e776ad58edf0f56913d4208f2",
+      "text": "Check Book-based Unbreakable conversion and Promised Suffering's extra damage. Divide defensive reduction, Evade, and healing roles; avoid assigning nearly dead key Sinners to area clashes."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "1d3edca58c9443a2d556daa2731950c4edd5acb2bd77911b48c86f2e2cd42937",
+      "text": "Counter does not become S3 or the sword stays sealed"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "a21091b65003bc0b41e7949ad1057a76f3d476c7bfd4bc7f515be0521279f169",
+      "text": "Counter conversion requires a combined total of at least 6 Envy Absolute Resonance. Isolated Envy skills do not count toward Absolute Resonance. When another affinity or a Staggered Sinner interrupts the chain, check the remaining consecutive groups and their combined count. Meursault's Counter does not become S3."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "5ca5388449eec0baefea5c3ce0f1a443896bb095d3ca8d1874ced6e16700ff32",
+      "text": "I cannot preserve combat strength into Phase 2"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "bdd6e568a3e2f367a1d2df31a6d923410d6e1370ee0e0c9d89280a5c95dcf4c1",
+      "text": "If key Sinners die before healing, restore HP even at the cost of attacks. Switching to a Phase 2 team is another option, but the same Identities from Phase 1 cannot be reused."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "aa3759ac2f62af8d0a8499a5efd15d8078a299a3b6227264bf7c34c4f04401e7",
+      "text": "Not enough resources for Fluid Sac or Chains of Others"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "6e7630d4d0b36af7492d22ffddb00a1459d96e3c7c293232944056891f8853d9",
+      "text": "You need Lust, Gloom, and Sloth as well as Envy. Use Absolute Resonance's extra resources and Outis's I'll Go fer Scissors. How 'Bout You? to save costs for the next heal or debuff."
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.name": {
+      "sourceHash": "f4bdfdda06fce2efbc40f0683286db98395416b61bbaf24354da4c776964c611",
+      "text": "Ricardo (Phase 1)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "7d6b1e666cc8e3f37c1537ba6980d17285fa43d7351de25572b9e4c509f9ef28",
+      "text": "65% / 30% (4,875 / 2,250)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "717bfe64342e8c5112c51f2f9de61199e54c35a724e5c228b62ee5e05d098e63",
+      "text": "At 50% HP or less, enters Phase 2. Unlike 5-30, halving HP does not win."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1c8f9862dc2022bacc69d69386a149010b1b3ed027437ff1b30c6ea204f7a90f",
+      "text": "All physical resistances are neutral. Do not apply the story version's Blunt weakness."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "4b8ef6762cf05479526c56a0762b5ff902b1cda204eef548f75abd7231593a4e",
+      "text": "Per-turn Offense Level Up and Vengeance Tattoo add separately to displayed base levels."
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.name": {
+      "sourceHash": "8d8984da6586c105f5d28a761520a289517767f49275ee7014d4bbc8dafe3a71",
+      "text": "Ricardo (Phase 2)"
+    },
+    "units.1.hp": {
+      "sourceHash": "3db42269305b62d915e902d42f5def303f08472f3c2ebec2d5cb472ec5eee407",
+      "text": "7,500 (current HP carries over from Phase 1)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "3d17c6ccc9795784fd5c70e276b7c0fbc30b4ed4bab518c8e909b9bd1c073df9",
+      "text": "30% (2,250; the 65% threshold belongs to Phase 1)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "bbcbaf258881cc41f7790e225a83316b7a78d5442e1a667e1d46f4cf56f68aff",
+      "text": "Win by reducing HP to 0. Killing every add is unnecessary."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "13dd8190da9f294611b0f7cd53d9924ffda7582f6619049b7c76a7c8f88e2a1e",
+      "text": "Transition removes effects other than Ricardo's unique effects. Do not plan to carry over accumulated Rupture or other Phase 1 statuses."
+    },
+    "units.2.name": {
+      "sourceHash": "529d9976ca726e67cb55292a098788f8c883dd95dc5e6309f5bf6ff07bea0838",
+      "text": "Little Brother Werner"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "28ada5e07faf8633e39987f23e818215584277016c137b39d0a1d58156b4bc2c",
+      "text": "45% / 0% (826 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "4539808a7b570d66766c5a2924b853667d97797819ead60a4edc5fc4c765caa0",
+      "text": "Add summoned in Phase 2. Victory requires Ricardo's defeat."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "e6b5af908f35e4da5c66d82aeb62938592c57ac4b143aa2ab4cc9f7b8c43fc24",
+      "text": "Full add skill values are not listed. Use battle predictions and answer only attacks that threaten key Sinners."
+    },
+    "skills.0.name": {
+      "sourceHash": "aaca8e97ffd168b211d2acd583d38c564f46ba08f2b01ac5eb6c571a27c3eaee",
+      "text": "Punching"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "276745b6f78891b945a90910bdf0158b5c3f6d04246ce27967c1d62406678f12",
+      "text": "Ⅰ[On Hit] Deal 3 extra Blunt damage"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "e971b99e23af7c70b62fea8693da8333cead86df6e6f68e22b370add1c65d135",
+      "text": "Ⅱ[On Hit] Deal 3 extra Blunt damage"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "6cb0c9522fa14d64221dce70bdc16eefbe78d71a1e1a608c1bbaf821f69e041c",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze"
+    },
+    "skills.0.response": {
+      "sourceHash": "5405bba2408c4d29dee8ed14e374c57dad7aaf81185340ec99d122fad85b8361",
+      "text": "Equipping defense prevents Paralyze. If receiving with Counter, check remaining HP and attacks still to come."
+    },
+    "skills.1.name": {
+      "sourceHash": "57cb866ffc277c1c0d918f2a3fb16632eef29fd6447699869793c1cf89668c94",
+      "text": "Kicking"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "8b966876f935cd1e7e11a74e3e91b77e712e0e82676ec143ca66ceae2ab33db1",
+      "text": "Ⅰ[On Hit] Deal 5 extra Blunt damage"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "04052d9abb8c554c409a0b2dcde705502160b20af573ede50fdd5d3c01337a27",
+      "text": "Ⅱ[On Hit] Deal 5 extra Blunt damage"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "26f00a2d8dff5759a78d7e4f9036a23b9efbbd800d2f7bf9b751945b4ac581a1",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "e72cf66115be184ead07ddb96938b404dd213692870031a37c4e67701729f863",
+      "text": "Equip defense on Sinners who need to avoid next-turn Paralyze. Even for key Counter users, check survival including extra damage."
+    },
+    "skills.2.name": {
+      "sourceHash": "aea355e36941629640847c9d671384d07e147bb5eb372d03c708609174b3baa0",
+      "text": "Payback"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "8467977cf654266ac8b0d2816c2229df8456aedb8180d34e1ab1b61b6a3b4fba",
+      "text": "Ⅱ[On Hit] Reduce the target's SP by 5"
+    },
+    "skills.2.response": {
+      "sourceHash": "1b9e83a664972d5f0d294f0663e15188762436f1ba43c71ecd4e6b4c64e006d7",
+      "text": "A normal Counter retaliates when hit. Negative Coins mean lowering enemy SP alone does not make it safe. Avoid opening with a frail Sinner; use a Stagger-triggering attack or a Blunt-resistant recipient."
+    },
+    "skills.3.name": {
+      "sourceHash": "aa9f8fbf9bd3a8368dcec3dfb2c2f86ab71466da0a51fd5871cfdce226b9ada6",
+      "text": "Watch Your Back!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "dd1e7d2b2a42861b23e3d3de29f10fa5151140869caa5a164849b6e54cfe37ca",
+      "text": "If the target's SP is below 0, Coin Power +3"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6f0bba66da44fdfc8ebf7b9a496edd34428e90017ccbe7a6c5d171e27aa6dec1",
+      "text": "Ⅰ[On Hit] Heal 10 SP"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "562d6266d033b5b5dd206e8be0ce8fb55dd53a293a7c3a622c5f73fe79b93b3f",
+      "text": "[On Hit] Inflict 2 Bind and 2 Attack Power Down next turn"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "9e73a8725b2584e967d751f77df130e78c984035275eb69c61e29c50e1cabf74",
+      "text": "Ⅱ[On Hit] Reduce the target's SP by 20"
+    },
+    "skills.3.response": {
+      "sourceHash": "8efea30819811ffbd90aa8ef55756a3ff608a6b1e71584ecf745ac513e53285a",
+      "text": "A single-target skill worth stopping with a clash. Negative-SP targets strengthen its Coins. Hits also inflict next-turn Bind and Attack Power Down; do not let it hit key Sinners."
+    },
+    "skills.4.name": {
+      "sourceHash": "5010590a2f1ddfdb0d4472d19691c3bf5bc656aca8d548249a2f85ae68f87747",
+      "text": "Make this Memorable"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "39eaed9cde18dfa1dbd9a8ac7047906062c7ade3c2c8fe58598eb0b450d3c727",
+      "text": "Evade Skill."
+    },
+    "skills.4.response": {
+      "sourceHash": "51c27aa2038ad20dc5ac155176284a0c416c161c8d7509bb22c72662fba8ab9a",
+      "text": "Evade slot. Use defensive offsetting too; avoid wasting time with many weak attacks that miss."
+    },
+    "skills.5.name": {
+      "sourceHash": "fc75387bbd69c067f1903aff83b2f52467608eebf8fa9e94e58889108c7deb3c",
+      "text": "MY HAIR COUPOOOOOOOOOOONS!!!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "c64973cca437ee7355d0608a61cdacdfb9073f13651bb22a0337f4a672d5c885",
+      "text": "[Clash Lose] Final damage −30%; this skill's damage cannot Stagger the target"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "9a81df8c4c064e9551038f4acab47fe176ac1e477524db57256c416732c1530a",
+      "text": "[On Hit Without Breaking] Raise the Stagger Threshold by 30"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "c967dfcc9c7c74c1cc30e42ab9399c945b2fae07f4f7b28c0d66e091210bfa09",
+      "text": "[On Hit Without Breaking] Inflict 1 Paralyze next turn"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "8c957bd3962562e21c09e7b308166211a7ba8609b2646118ebdbc0aecdec049d",
+      "text": "[On Hit] Remove 5 Written in the Book from the target"
+    },
+    "skills.5.response": {
+      "sourceHash": "0941a864068e1814d624a13d801fa2917fd6e62e78f07ae70c623c43613b5258",
+      "text": "Aim to win with a strong E.G.O or similar skill. Winning reduces final damage by 30% and prevents Stagger from this skill's damage. The Unbreakable retaliation remains; do not assign a nearly dead Sinner."
+    },
+    "skills.6.name": {
+      "sourceHash": "b7ce49d3875d3ffae254f2be83709ee4a8e15a3f4535b5ba57e13700b047c01d",
+      "text": "Promised Suffering"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "a3c0b356e172acf7fc433efabd03a5929ffed654b2d27dfa7c03de3e38460546",
+      "text": "Prioritizes the target with the highest Written in the Book"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "d530356918345486a5d69d63dc2a925a9b9d6f42c39e53fbf443b9eeff7dd345",
+      "text": "[On Use] If the target has at least 3 Written in the Book:"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "782f26442970c87f3b6367b4dc50cc7c44ce71a383e9ff26ba2dce8e66eba012",
+      "text": "All Coins of this skill become Unbreakable"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "de3135ea40d130c36fdbff311cf30acdd0d961802343e80de1b3afda0204dbd9",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile this turn and next turn"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "2a4373a083554edb161dc2c22de3697c75be8474a4aaaf486630abcf20dd23f2",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile this turn and next turn"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "f48047ead74ce648775a175885a39764ff0a28a0869d6110db818aa4812c8418",
+      "text": "Ⅲ[On Hit] Deal extra Blunt damage equal to (Written in the Book on the target ×3)"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "70033f33f7d882ae52f091bbc242d175343772d07f5692e0638d58d0475707f3",
+      "text": "[On Hit] Remove 3 Written in the Book from the target"
+    },
+    "skills.6.response": {
+      "sourceHash": "781cf8cca736405aed9bf287c7432133f71924b8a8507aa3ef797ffddcb98816",
+      "text": "All Coins become Unbreakable at 3 Book, so it is dangerous even below 20. The last Coin deals extra Blunt damage equal to Book ×3. Assign an Evade or Clashable Defense user; a normal Attack Skill clash win alone does not ensure safety."
+    },
+    "skills.7.name": {
+      "sourceHash": "50eb1e2377995bea28993374f2ddbf7d691eb3a80904e4174aab96ec0aa2c35b",
+      "text": "Enough Games"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "7372128fab3723a7918d32fe3fc4736f023c7868d28b3346d0087431b483ceac",
+      "text": "[Combat Start] Heal 20 SP"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "0ae56ab8527d21062f8de880e298bea21e314cc6bebb6549181bb47e682249de",
+      "text": "[Turn End] Gain 5 Attack Power Up next turn"
+    },
+    "skills.7.response": {
+      "sourceHash": "4e8c42d9d0e2cfe45507ee99e3852469e2c83326123ae408db2c280124ff0390",
+      "text": "Prepare for 5 Attack Power Up next turn. Heal and debuff early, saving E.G.O resources to stop the next area attack."
+    },
+    "skills.8.name": {
+      "sourceHash": "48c8e2e1461b8998e7082299e3b34c70495f494b8044a4be6675b1d31c6f6c93",
+      "text": "COMPLETE AND TOTAL EXTERMINATION!!!"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "c64973cca437ee7355d0608a61cdacdfb9073f13651bb22a0337f4a672d5c885",
+      "text": "[Clash Lose] Final damage −30%; this skill's damage cannot Stagger the target"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "1045475b4a063298f5d6b67b57920fd393c578e36909d894b80e352f144d3dc0",
+      "text": "[On Hit Without Breaking] Deal damage equal to 3% of the target's max HP per Written in the Book on them"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "a1f71f548ea714862e20ec4f8352ba849289d5057828f7bf39c3ab5429c388b4",
+      "text": "[On Hit] Remove 10 Written in the Book from the target"
+    },
+    "skills.8.response": {
+      "sourceHash": "b583dada3c5ba9cd2f4d1d0d5b75289ddd827a11ac89295acdefc63513009971",
+      "text": "Prioritize winning the clash. Winning gives 30% reduction, prevents Stagger from its damage, and prevents the On Hit Without Breaking max-HP damage. Do not rely only on Counter."
+    },
+    "skills.9.name": {
+      "sourceHash": "66e101417d70c378e235c043297ecc6717d8df10be017e25b1cf82d2f2e4e6ce",
+      "text": "Ah, You Were One of the Fam"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "abbf12617a1517f0eed3dc25d4250a5eed2fcd8f95cf89e4abf5e045e2a878b8",
+      "text": "[Combat Start] Heal all Middle-affiliated units for 10 SP"
+    },
+    "skills.9.response": {
+      "sourceHash": "48e6d0af72b769702a1ea94ee67944e20a22d99b0e98dc57015801efa21f49c0",
+      "text": "Preparation time when at least four Middle members change the opening pattern. Use SP recovery to build Resonance and progress sword unsealing."
+    },
+    "skills.10.name": {
+      "sourceHash": "eeb8aa0754a652e6e480091621156b30cd55a79cb1d729cf79840eda0c61f870",
+      "text": "TRICKED ME, DID YOU??!!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "7526dd7085e49953dac8a2b09437b9b16ad48f7da9750405bf225e8e6044ee06",
+      "text": "[Combat Start] Lose 20 SP"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "cf714e4eb21128ddc26d6b38623e5119420b069f9f7496cc7738e1dfeb359b3e",
+      "text": "[Combat Start] Gain 6 Offense Level Up"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "c0d1ff2d5cd4eb04585fbbe589b04e02a7c577f417f6873c765b0b9bd473e626",
+      "text": "[Combat Start] Gain 4 Fragile"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.10.response": {
+      "sourceHash": "cc6e12b02e8caa702c944ae16f1f64583fe7a4ebd9b714bf548504969eeb176e",
+      "text": "Its 4 Fragile at Combat Start creates a damage opening. Area Unbreakable Coins remain; concentrate attacks only while key Sinners can survive."
+    },
+    "skills.11.name": {
+      "sourceHash": "c4134992016fee982247fcfd4eea4dc696429afbf913a338359e885945adeacf",
+      "text": "Swear Vengeance"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "26f8fc0273c0b43ddb7f72a8599827e15dd422854a944f4f36a6bdd27b9f4fd2",
+      "text": "[Turn End] Gain 3 Offense Level Up next turn"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "3eaddd3cb4dd601dae21f2a3dfba4618cb2bd7c27d3565d47812d15d7f5051e9",
+      "text": "- If an Attack Skill has this skill's slot as its main target, reduce Offense Level Up gained by this effect by 1"
+    },
+    "skills.11.response": {
+      "sourceHash": "d4148a3b4cfc563ddb9e26aa6eca2eeb6c0b3f78d4d68443d881cf61d0b55394",
+      "text": "Assigning this Evade slot as an attack's main target lowers next-turn Offense Level Up from 3 to 2. Distinguish the targeting requirement from actually hitting through Evade."
+    },
+    "skills.12.name": {
+      "sourceHash": "52a8d845e7b7d649bab85a45d4be94c4c876073189c5026c740fff77d22a6957",
+      "text": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "f564efe12d8c4835a9cb65faaafef4b9ab4d6171f2558163691e1e23a0a4b30e",
+      "text": "Ⅰ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "bb656b314ad076f7ed79b735649e1dbea942854dc427ffa293123c83b60cf4ed",
+      "text": "Ⅱ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "e0a5e4a108cf0b2100c09a01c5f35155ab642f6059abe26ad41b004ce555b72a",
+      "text": "Ⅲ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.12.response": {
+      "sourceHash": "06c2ddae2562bf3b7f22b7939ea56ce5a723077c15209fdeb1e26d2f0b31cae6",
+      "text": "Added when a Sinner has 30 Book. Each Coin's max-HP damage requires an unbroken hit. Break Coins in the clash to prevent it, while keeping enough HP for the normal retaliation."
+    },
+    "skills.13.name": {
+      "sourceHash": "15b32bcd74224f56062029421e283014babb457407b112b48f8e9842ba55c0ba",
+      "text": "No More Tests"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "e0b2d2b1a56c9c0adfd02c6ae4bcd18d05d6846899e0671811b44c00fb71fcd0",
+      "text": "[On Use] Gain 3 Blunt DMG Up next turn"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "2b219fb73f51abfa580ba4beb0efb7e3889862536134612960459631571f9b12",
+      "text": "[On Use] If the main target has at least 5 Written in the Book:"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "782f26442970c87f3b6367b4dc50cc7c44ce71a383e9ff26ba2dce8e66eba012",
+      "text": "All Coins of this skill become Unbreakable"
+    },
+    "skills.13.response": {
+      "sourceHash": "4a671e9fb7bff1dd6ce24d02dec9f9b1f0bd02d2b44c6b68bb2983d91195546e",
+      "text": "At 5 or more Book on the main target, all Coins become Unbreakable. Next-turn Blunt buffs also remain; maintain healing and debuffs."
+    },
+    "skills.14.name": {
+      "sourceHash": "b511cbdec79744401a178f9a5158f4154d4a25fb97f394687fcf368977678cc0",
+      "text": "Mercy of the Big Brother"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "a1f71f548ea714862e20ec4f8352ba849289d5057828f7bf39c3ab5429c388b4",
+      "text": "[On Hit] Remove 10 Written in the Book from the target"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "401a6d16fc45d2e8a4960fa66b9a80523627df5fb225ece7386d24c339cedbb5",
+      "text": "[On Hit Without Breaking] Stagger the target"
+    },
+    "skills.14.response": {
+      "sourceHash": "16fadfb6e7e866c1370ac9f82e31fa2d96e805b359d2b5386c208e5d92b9f138",
+      "text": "Break Coins in the clash to prevent forced Stagger. Do not allow an unbroken hit merely to lower Book."
+    },
+    "skills.15.name": {
+      "sourceHash": "aaca8e97ffd168b211d2acd583d38c564f46ba08f2b01ac5eb6c571a27c3eaee",
+      "text": "Punching"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "276745b6f78891b945a90910bdf0158b5c3f6d04246ce27967c1d62406678f12",
+      "text": "Ⅰ[On Hit] Deal 3 extra Blunt damage"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "e971b99e23af7c70b62fea8693da8333cead86df6e6f68e22b370add1c65d135",
+      "text": "Ⅱ[On Hit] Deal 3 extra Blunt damage"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "6cb0c9522fa14d64221dce70bdc16eefbe78d71a1e1a608c1bbaf821f69e041c",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze"
+    },
+    "skills.15.response": {
+      "sourceHash": "5405bba2408c4d29dee8ed14e374c57dad7aaf81185340ec99d122fad85b8361",
+      "text": "Equipping defense prevents Paralyze. If receiving with Counter, check remaining HP and attacks still to come."
+    },
+    "skills.16.name": {
+      "sourceHash": "57cb866ffc277c1c0d918f2a3fb16632eef29fd6447699869793c1cf89668c94",
+      "text": "Kicking"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "8b966876f935cd1e7e11a74e3e91b77e712e0e82676ec143ca66ceae2ab33db1",
+      "text": "Ⅰ[On Hit] Deal 5 extra Blunt damage"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "04052d9abb8c554c409a0b2dcde705502160b20af573ede50fdd5d3c01337a27",
+      "text": "Ⅱ[On Hit] Deal 5 extra Blunt damage"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "26f00a2d8dff5759a78d7e4f9036a23b9efbbd800d2f7bf9b751945b4ac581a1",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze next turn"
+    },
+    "skills.16.response": {
+      "sourceHash": "e72cf66115be184ead07ddb96938b404dd213692870031a37c4e67701729f863",
+      "text": "Equip defense on Sinners who need to avoid next-turn Paralyze. Even for key Counter users, check survival including extra damage."
+    },
+    "skills.17.name": {
+      "sourceHash": "aea355e36941629640847c9d671384d07e147bb5eb372d03c708609174b3baa0",
+      "text": "Payback"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "8467977cf654266ac8b0d2816c2229df8456aedb8180d34e1ab1b61b6a3b4fba",
+      "text": "Ⅱ[On Hit] Reduce the target's SP by 5"
+    },
+    "skills.17.response": {
+      "sourceHash": "1b9e83a664972d5f0d294f0663e15188762436f1ba43c71ecd4e6b4c64e006d7",
+      "text": "A normal Counter retaliates when hit. Negative Coins mean lowering enemy SP alone does not make it safe. Avoid opening with a frail Sinner; use a Stagger-triggering attack or a Blunt-resistant recipient."
+    },
+    "skills.18.name": {
+      "sourceHash": "aa9f8fbf9bd3a8368dcec3dfb2c2f86ab71466da0a51fd5871cfdce226b9ada6",
+      "text": "Watch Your Back!"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "dd1e7d2b2a42861b23e3d3de29f10fa5151140869caa5a164849b6e54cfe37ca",
+      "text": "If the target's SP is below 0, Coin Power +3"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "6f0bba66da44fdfc8ebf7b9a496edd34428e90017ccbe7a6c5d171e27aa6dec1",
+      "text": "Ⅰ[On Hit] Heal 10 SP"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "562d6266d033b5b5dd206e8be0ce8fb55dd53a293a7c3a622c5f73fe79b93b3f",
+      "text": "[On Hit] Inflict 2 Bind and 2 Attack Power Down next turn"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "9e73a8725b2584e967d751f77df130e78c984035275eb69c61e29c50e1cabf74",
+      "text": "Ⅱ[On Hit] Reduce the target's SP by 20"
+    },
+    "skills.18.response": {
+      "sourceHash": "8efea30819811ffbd90aa8ef55756a3ff608a6b1e71584ecf745ac513e53285a",
+      "text": "A single-target skill worth stopping with a clash. Negative-SP targets strengthen its Coins. Hits also inflict next-turn Bind and Attack Power Down; do not let it hit key Sinners."
+    },
+    "skills.19.name": {
+      "sourceHash": "f72a48c973e75a3635c2cd9f1feb224c51726168fae841ec7434217324838499",
+      "text": "Assemble"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "9f5fbce57cb6dff2e9a3bebb71e5afb4fa36bd285529053437b095192fa8b085",
+      "text": "[Combat Start] Summon 2 allies next turn"
+    },
+    "skills.19.response": {
+      "sourceHash": "2b6a8295d4856a698b2af5091fddf918cbeaea716cdb044bc72798f80464c0f3",
+      "text": "The next-turn summon is set at Combat Start. Do not assume winning cancels it; keep prioritizing the body in Phase 2."
+    },
+    "skills.20.name": {
+      "sourceHash": "fc75387bbd69c067f1903aff83b2f52467608eebf8fa9e94e58889108c7deb3c",
+      "text": "MY HAIR COUPOOOOOOOOOOONS!!!"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "c64973cca437ee7355d0608a61cdacdfb9073f13651bb22a0337f4a672d5c885",
+      "text": "[Clash Lose] Final damage −30%; this skill's damage cannot Stagger the target"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "9a81df8c4c064e9551038f4acab47fe176ac1e477524db57256c416732c1530a",
+      "text": "[On Hit Without Breaking] Raise the Stagger Threshold by 30"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "c967dfcc9c7c74c1cc30e42ab9399c945b2fae07f4f7b28c0d66e091210bfa09",
+      "text": "[On Hit Without Breaking] Inflict 1 Paralyze next turn"
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "8c957bd3962562e21c09e7b308166211a7ba8609b2646118ebdbc0aecdec049d",
+      "text": "[On Hit] Remove 5 Written in the Book from the target"
+    },
+    "skills.20.response": {
+      "sourceHash": "0941a864068e1814d624a13d801fa2917fd6e62e78f07ae70c623c43613b5258",
+      "text": "Aim to win with a strong E.G.O or similar skill. Winning reduces final damage by 30% and prevents Stagger from this skill's damage. The Unbreakable retaliation remains; do not assign a nearly dead Sinner."
+    },
+    "skills.21.name": {
+      "sourceHash": "b7ce49d3875d3ffae254f2be83709ee4a8e15a3f4535b5ba57e13700b047c01d",
+      "text": "Promised Suffering"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "a3c0b356e172acf7fc433efabd03a5929ffed654b2d27dfa7c03de3e38460546",
+      "text": "Prioritizes the target with the highest Written in the Book"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "d530356918345486a5d69d63dc2a925a9b9d6f42c39e53fbf443b9eeff7dd345",
+      "text": "[On Use] If the target has at least 3 Written in the Book:"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "782f26442970c87f3b6367b4dc50cc7c44ce71a383e9ff26ba2dce8e66eba012",
+      "text": "All Coins of this skill become Unbreakable"
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "de3135ea40d130c36fdbff311cf30acdd0d961802343e80de1b3afda0204dbd9",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile this turn and next turn"
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "2a4373a083554edb161dc2c22de3697c75be8474a4aaaf486630abcf20dd23f2",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile this turn and next turn"
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "f48047ead74ce648775a175885a39764ff0a28a0869d6110db818aa4812c8418",
+      "text": "Ⅲ[On Hit] Deal extra Blunt damage equal to (Written in the Book on the target ×3)"
+    },
+    "skills.21.effects.6": {
+      "sourceHash": "70033f33f7d882ae52f091bbc242d175343772d07f5692e0638d58d0475707f3",
+      "text": "[On Hit] Remove 3 Written in the Book from the target"
+    },
+    "skills.21.response": {
+      "sourceHash": "781cf8cca736405aed9bf287c7432133f71924b8a8507aa3ef797ffddcb98816",
+      "text": "All Coins become Unbreakable at 3 Book, so it is dangerous even below 20. The last Coin deals extra Blunt damage equal to Book ×3. Assign an Evade or Clashable Defense user; a normal Attack Skill clash win alone does not ensure safety."
+    },
+    "skills.22.name": {
+      "sourceHash": "50eb1e2377995bea28993374f2ddbf7d691eb3a80904e4174aab96ec0aa2c35b",
+      "text": "Enough Games"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "7372128fab3723a7918d32fe3fc4736f023c7868d28b3346d0087431b483ceac",
+      "text": "[Combat Start] Heal 20 SP"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "0ae56ab8527d21062f8de880e298bea21e314cc6bebb6549181bb47e682249de",
+      "text": "[Turn End] Gain 5 Attack Power Up next turn"
+    },
+    "skills.22.response": {
+      "sourceHash": "4e8c42d9d0e2cfe45507ee99e3852469e2c83326123ae408db2c280124ff0390",
+      "text": "Prepare for 5 Attack Power Up next turn. Heal and debuff early, saving E.G.O resources to stop the next area attack."
+    },
+    "skills.23.name": {
+      "sourceHash": "48c8e2e1461b8998e7082299e3b34c70495f494b8044a4be6675b1d31c6f6c93",
+      "text": "COMPLETE AND TOTAL EXTERMINATION!!!"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "c64973cca437ee7355d0608a61cdacdfb9073f13651bb22a0337f4a672d5c885",
+      "text": "[Clash Lose] Final damage −30%; this skill's damage cannot Stagger the target"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "cc8a7138a51fbf87c34afbc60a4ffe5e25ab2508a9a3e0bc685cffb3f54616c5",
+      "text": "ⅠUnbreakable Coin"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "1045475b4a063298f5d6b67b57920fd393c578e36909d894b80e352f144d3dc0",
+      "text": "[On Hit Without Breaking] Deal damage equal to 3% of the target's max HP per Written in the Book on them"
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "a1f71f548ea714862e20ec4f8352ba849289d5057828f7bf39c3ab5429c388b4",
+      "text": "[On Hit] Remove 10 Written in the Book from the target"
+    },
+    "skills.23.response": {
+      "sourceHash": "b583dada3c5ba9cd2f4d1d0d5b75289ddd827a11ac89295acdefc63513009971",
+      "text": "Prioritize winning the clash. Winning gives 30% reduction, prevents Stagger from its damage, and prevents the On Hit Without Breaking max-HP damage. Do not rely only on Counter."
+    },
+    "skills.24.name": {
+      "sourceHash": "c4134992016fee982247fcfd4eea4dc696429afbf913a338359e885945adeacf",
+      "text": "Swear Vengeance"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "26f8fc0273c0b43ddb7f72a8599827e15dd422854a944f4f36a6bdd27b9f4fd2",
+      "text": "[Turn End] Gain 3 Offense Level Up next turn"
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "3eaddd3cb4dd601dae21f2a3dfba4618cb2bd7c27d3565d47812d15d7f5051e9",
+      "text": "- If an Attack Skill has this skill's slot as its main target, reduce Offense Level Up gained by this effect by 1"
+    },
+    "skills.24.response": {
+      "sourceHash": "d4148a3b4cfc563ddb9e26aa6eca2eeb6c0b3f78d4d68443d881cf61d0b55394",
+      "text": "Assigning this Evade slot as an attack's main target lowers next-turn Offense Level Up from 3 to 2. Distinguish the targeting requirement from actually hitting through Evade."
+    },
+    "skills.25.name": {
+      "sourceHash": "52a8d845e7b7d649bab85a45d4be94c4c876073189c5026c740fff77d22a6957",
+      "text": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "f564efe12d8c4835a9cb65faaafef4b9ab4d6171f2558163691e1e23a0a4b30e",
+      "text": "Ⅰ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "bb656b314ad076f7ed79b735649e1dbea942854dc427ffa293123c83b60cf4ed",
+      "text": "Ⅱ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.25.effects.2": {
+      "sourceHash": "e0a5e4a108cf0b2100c09a01c5f35155ab642f6059abe26ad41b004ce555b72a",
+      "text": "Ⅲ[On Hit Without Breaking] Deal damage equal to 1% of the target's max HP per Written in the Book on them"
+    },
+    "skills.25.response": {
+      "sourceHash": "06c2ddae2562bf3b7f22b7939ea56ce5a723077c15209fdeb1e26d2f0b31cae6",
+      "text": "Added when a Sinner has 30 Book. Each Coin's max-HP damage requires an unbroken hit. Break Coins in the clash to prevent it, while keeping enough HP for the normal retaliation."
+    },
+    "skills.26.name": {
+      "sourceHash": "15b32bcd74224f56062029421e283014babb457407b112b48f8e9842ba55c0ba",
+      "text": "No More Tests"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "e0b2d2b1a56c9c0adfd02c6ae4bcd18d05d6846899e0671811b44c00fb71fcd0",
+      "text": "[On Use] Gain 3 Blunt DMG Up next turn"
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "2b219fb73f51abfa580ba4beb0efb7e3889862536134612960459631571f9b12",
+      "text": "[On Use] If the main target has at least 5 Written in the Book:"
+    },
+    "skills.26.effects.2": {
+      "sourceHash": "782f26442970c87f3b6367b4dc50cc7c44ce71a383e9ff26ba2dce8e66eba012",
+      "text": "All Coins of this skill become Unbreakable"
+    },
+    "skills.26.response": {
+      "sourceHash": "4a671e9fb7bff1dd6ce24d02dec9f9b1f0bd02d2b44c6b68bb2983d91195546e",
+      "text": "At 5 or more Book on the main target, all Coins become Unbreakable. Next-turn Blunt buffs also remain; maintain healing and debuffs."
+    },
+    "passives.0.name": {
+      "sourceHash": "beb0f468a822c196a85cc3adb380ce6d3342668cb603c7d95f54b4c1f39d0a13",
+      "text": "Reflectrial"
+    },
+    "passives.0.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.0.effect": {
+      "sourceHash": "bb6d8fde169a51c96d2cb1ed37ade767e6197cda9c8c35780e561f47c6894243",
+      "text": "At 10 or more clash exchanges against the same target, Clash Power increases or decreases according to exchanges ÷10, rounded down. Burn, Bleed, Tremor, Rupture, and Sinking are capped at 30 Potency and 10 Count."
+    },
+    "passives.0.response": {
+      "sourceHash": "b5b362820e2b8844895e0b8eb3bb85a7d02d65a2d516114e29b1b8f188093db2",
+      "text": "Do not assume normal stacking caps. After reaching 30 Potency, improve skill damage rather than spending all actions on further application."
+    },
+    "passives.1.name": {
+      "sourceHash": "50eb1e2377995bea28993374f2ddbf7d691eb3a80904e4174aab96ec0aa2c35b",
+      "text": "Enough Games"
+    },
+    "passives.1.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.1.effect": {
+      "sourceHash": "ac4afd198a989f79555a8c04bd86a9d25a9f57a219365ca71862beb370acd05f",
+      "text": "Gain Offense Level Up equal to the current turn number."
+    },
+    "passives.1.response": {
+      "sourceHash": "a3e8cafed728110ff05b827ae69fdee6d1cdeefdc26f95070a4faaaaaf682e30",
+      "text": "Clashes grow harder over time. Check actual predictions and remaining turns rather than displayed Power alone."
+    },
+    "passives.2.name": {
+      "sourceHash": "66c35b260b577bfaef5dcef63789f3e01e41be1a105ba02da37ade72c4c1bb46",
+      "text": "That's Goin' in the Book"
+    },
+    "passives.2.condition": {
+      "sourceHash": "29cf7b0c05a4c8a1a15ff3f8501b48c3eddf2cad486e672c878e1e5f0a78431e",
+      "text": "Turn Start, taking damage, and attack hits"
+    },
+    "passives.2.effect": {
+      "sourceHash": "93acc37f3d1e6e5d6ad9cf8690353cd807e83952ec4f07cd62c17f988d2bcc1d",
+      "text": "At Turn Start, inflict 1 Written in the Book on all enemies. On taking damage, inflict 2 on the attacker. On hitting, remove 1 from the target. During battle, gain Vengeance Tattoo equal to the amount removed."
+    },
+    "passives.2.response": {
+      "sourceHash": "e78aa67edd1cbc2afe27982d320d6338ccf1cb8c29980e2f146155e6b9518caa",
+      "text": "Key attackers also build more Book. Check Stack and HP each turn; do not keep assigning every strong attack to the same Sinner."
+    },
+    "passives.3.name": {
+      "sourceHash": "18608a09aafbd7499aafaa31df35ed87835779e07feafbd9b74f72f918cb9126",
+      "text": "Don't Resist and Accept Your Punishments"
+    },
+    "passives.3.condition": {
+      "sourceHash": "ba4011fd1f7eeb47548483b6c8dbbc0aa425c197b54f3a8758f70c2ce5130ff1",
+      "text": "Target has a Defense Skill equipped"
+    },
+    "passives.3.effect": {
+      "sourceHash": "54fd5b1716b2de790157b9e283e63e125615ab33da9330f8e6f0f3a456e9aef3",
+      "text": "At Combat Start, deal 30% less damage to that target."
+    },
+    "passives.3.response": {
+      "sourceHash": "b68153e7079cc7ab2033e1ea7023c59f31b3e0e64a3ff51e4625aaae76c92d0f",
+      "text": "Works well with Middle Counters. However, do not assume this makes Promised Suffering's extra damage or unbroken-hit percentage damage safe."
+    },
+    "passives.4.name": {
+      "sourceHash": "8b40d13317d5710cdce49177a7c20032149e319c89213ffa1157207751717a0c",
+      "text": "Too Grave a Sin"
+    },
+    "passives.4.condition": {
+      "sourceHash": "237a3bc58dd2203e214fa5d1db4b956881c9bd4460dd2db401e22beedbaf1845",
+      "text": "On Skill Use and related triggers"
+    },
+    "passives.4.effect": {
+      "sourceHash": "404dc9c61bac5420af17f6e90f60477de70d84283183ad15d3a2ce10da0013ca",
+      "text": "At 20 or more Written in the Book on the target, all Coins of that skill become Unbreakable. If Ricardo selects the target with the highest Book, the attack cannot be redirected."
+    },
+    "passives.4.response": {
+      "sourceHash": "d789a3838ba728c2b989124b4d1b274f67a2b9e14ac2068326b6b9883dcaf791",
+      "text": "From 20 Book, even normal skills retaliate after a clash win. If an attack is marked unredirectable, handle it with the assigned recipient's clash, Evade, or durability rather than assuming another ally can intercept."
+    },
+    "passives.5.name": {
+      "sourceHash": "c424df4c45133fb88ef172ef29f223538e5e7aa730f7cb5605c8cff4bfc51b41",
+      "text": "You're The Middle's Priority Revenge Target"
+    },
+    "passives.5.condition": {
+      "sourceHash": "68608670e32c29324c00b23d9834ca9375b834c2c5292eb414acf24743bad235",
+      "text": "Turn Start with a target at 30 Written in the Book"
+    },
+    "passives.5.effect": {
+      "sourceHash": "d6ade74d5b79ef38db52b7536c9452ddba4fd39049dc3f85cba2d2249fc01ecb",
+      "text": "Create an extra skill slot and use IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!"
+    },
+    "passives.5.response": {
+      "sourceHash": "5a064f6500d90cb540611914f6f378525b46bcfa8ceadc6209ca5e0c0c558d83",
+      "text": "30 Book signals an extra attack. Win the clash to prevent its unbroken-hit percentage damage."
+    },
+    "passives.6.name": {
+      "sourceHash": "32f7c9dbf67fa8cd51d51fdc21ae5344c23138ae99665879f2297dc3217c38b1",
+      "text": "The Big Brother"
+    },
+    "passives.6.condition": {
+      "sourceHash": "9d6583aa1bf454259c142f312d20fb855e7995f3dd9fbe1666962c28a71f8b9a",
+      "text": "Always; Turn Start from turn 2"
+    },
+    "passives.6.effect": {
+      "sourceHash": "66d24038b00dc115fcf4bd102088d88831ce9b2f2e98868f7533d8d6845c41ec",
+      "text": "From turn 2, heal all allies including self for 10 SP. Damage taken from Burn, Bleed, Tremor, Rupture, and Sinking −20%."
+    },
+    "passives.6.response": {
+      "sourceHash": "ca477b928ac463085a1bbb886a8654057e8e58091337779068071ba2d12c9e59",
+      "text": "Use strengthened attacks and focused Stagger damage rather than relying only on flat status damage."
+    },
+    "passives.7.name": {
+      "sourceHash": "e22c37ac4947d07cdac02b10cd3e8fdf7116c48a4fdc234ef6d094a9ec6ff124",
+      "text": "Brush it Off"
+    },
+    "passives.7.condition": {
+      "sourceHash": "f552aeda631d2da40d15490f5c632c8d973230799d80d736e83725ae079bb58e",
+      "text": "Panic and phase transition"
+    },
+    "passives.7.effect": {
+      "sourceHash": "e4da9163c6d12742fc2a99e0d50c18dd47f3d7bab3feb0191b47de5f3ddd6f06",
+      "text": "Panic type cannot change. If Panicked at Turn End, SP becomes 0. At 50% HP or less, change phases and remove effects other than unique effects."
+    },
+    "passives.7.response": {
+      "sourceHash": "9121fc86b36c20d343e79e1451ad2eafb87f481cdb506e188c5c0fd27a102c42",
+      "text": "Before crossing 50% HP, decide whether the team will continue or be replaced for Phase 2."
+    },
+    "passives.8.name": {
+      "sourceHash": "beb0f468a822c196a85cc3adb380ce6d3342668cb603c7d95f54b4c1f39d0a13",
+      "text": "Reflectrial"
+    },
+    "passives.8.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.8.effect": {
+      "sourceHash": "bb6d8fde169a51c96d2cb1ed37ade767e6197cda9c8c35780e561f47c6894243",
+      "text": "At 10 or more clash exchanges against the same target, Clash Power increases or decreases according to exchanges ÷10, rounded down. Burn, Bleed, Tremor, Rupture, and Sinking are capped at 30 Potency and 10 Count."
+    },
+    "passives.8.response": {
+      "sourceHash": "b5b362820e2b8844895e0b8eb3bb85a7d02d65a2d516114e29b1b8f188093db2",
+      "text": "Do not assume normal stacking caps. After reaching 30 Potency, improve skill damage rather than spending all actions on further application."
+    },
+    "passives.9.name": {
+      "sourceHash": "50eb1e2377995bea28993374f2ddbf7d691eb3a80904e4174aab96ec0aa2c35b",
+      "text": "Enough Games"
+    },
+    "passives.9.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.9.effect": {
+      "sourceHash": "ac4afd198a989f79555a8c04bd86a9d25a9f57a219365ca71862beb370acd05f",
+      "text": "Gain Offense Level Up equal to the current turn number."
+    },
+    "passives.9.response": {
+      "sourceHash": "a3e8cafed728110ff05b827ae69fdee6d1cdeefdc26f95070a4faaaaaf682e30",
+      "text": "Clashes grow harder over time. Check actual predictions and remaining turns rather than displayed Power alone."
+    },
+    "passives.10.name": {
+      "sourceHash": "66c35b260b577bfaef5dcef63789f3e01e41be1a105ba02da37ade72c4c1bb46",
+      "text": "That's Goin' in the Book"
+    },
+    "passives.10.condition": {
+      "sourceHash": "29cf7b0c05a4c8a1a15ff3f8501b48c3eddf2cad486e672c878e1e5f0a78431e",
+      "text": "Turn Start, taking damage, and attack hits"
+    },
+    "passives.10.effect": {
+      "sourceHash": "93acc37f3d1e6e5d6ad9cf8690353cd807e83952ec4f07cd62c17f988d2bcc1d",
+      "text": "At Turn Start, inflict 1 Written in the Book on all enemies. On taking damage, inflict 2 on the attacker. On hitting, remove 1 from the target. During battle, gain Vengeance Tattoo equal to the amount removed."
+    },
+    "passives.10.response": {
+      "sourceHash": "e78aa67edd1cbc2afe27982d320d6338ccf1cb8c29980e2f146155e6b9518caa",
+      "text": "Key attackers also build more Book. Check Stack and HP each turn; do not keep assigning every strong attack to the same Sinner."
+    },
+    "passives.11.name": {
+      "sourceHash": "18608a09aafbd7499aafaa31df35ed87835779e07feafbd9b74f72f918cb9126",
+      "text": "Don't Resist and Accept Your Punishments"
+    },
+    "passives.11.condition": {
+      "sourceHash": "ba4011fd1f7eeb47548483b6c8dbbc0aa425c197b54f3a8758f70c2ce5130ff1",
+      "text": "Target has a Defense Skill equipped"
+    },
+    "passives.11.effect": {
+      "sourceHash": "54fd5b1716b2de790157b9e283e63e125615ab33da9330f8e6f0f3a456e9aef3",
+      "text": "At Combat Start, deal 30% less damage to that target."
+    },
+    "passives.11.response": {
+      "sourceHash": "b68153e7079cc7ab2033e1ea7023c59f31b3e0e64a3ff51e4625aaae76c92d0f",
+      "text": "Works well with Middle Counters. However, do not assume this makes Promised Suffering's extra damage or unbroken-hit percentage damage safe."
+    },
+    "passives.12.name": {
+      "sourceHash": "8b40d13317d5710cdce49177a7c20032149e319c89213ffa1157207751717a0c",
+      "text": "Too Grave a Sin"
+    },
+    "passives.12.condition": {
+      "sourceHash": "237a3bc58dd2203e214fa5d1db4b956881c9bd4460dd2db401e22beedbaf1845",
+      "text": "On Skill Use and related triggers"
+    },
+    "passives.12.effect": {
+      "sourceHash": "404dc9c61bac5420af17f6e90f60477de70d84283183ad15d3a2ce10da0013ca",
+      "text": "At 20 or more Written in the Book on the target, all Coins of that skill become Unbreakable. If Ricardo selects the target with the highest Book, the attack cannot be redirected."
+    },
+    "passives.12.response": {
+      "sourceHash": "d789a3838ba728c2b989124b4d1b274f67a2b9e14ac2068326b6b9883dcaf791",
+      "text": "From 20 Book, even normal skills retaliate after a clash win. If an attack is marked unredirectable, handle it with the assigned recipient's clash, Evade, or durability rather than assuming another ally can intercept."
+    },
+    "passives.13.name": {
+      "sourceHash": "c424df4c45133fb88ef172ef29f223538e5e7aa730f7cb5605c8cff4bfc51b41",
+      "text": "You're The Middle's Priority Revenge Target"
+    },
+    "passives.13.condition": {
+      "sourceHash": "68608670e32c29324c00b23d9834ca9375b834c2c5292eb414acf24743bad235",
+      "text": "Turn Start with a target at 30 Written in the Book"
+    },
+    "passives.13.effect": {
+      "sourceHash": "d6ade74d5b79ef38db52b7536c9452ddba4fd39049dc3f85cba2d2249fc01ecb",
+      "text": "Create an extra skill slot and use IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!"
+    },
+    "passives.13.response": {
+      "sourceHash": "5a064f6500d90cb540611914f6f378525b46bcfa8ceadc6209ca5e0c0c558d83",
+      "text": "30 Book signals an extra attack. Win the clash to prevent its unbroken-hit percentage damage."
+    },
+    "passives.14.name": {
+      "sourceHash": "32f7c9dbf67fa8cd51d51fdc21ae5344c23138ae99665879f2297dc3217c38b1",
+      "text": "The Big Brother"
+    },
+    "passives.14.condition": {
+      "sourceHash": "9d6583aa1bf454259c142f312d20fb855e7995f3dd9fbe1666962c28a71f8b9a",
+      "text": "Always; Turn Start from turn 2"
+    },
+    "passives.14.effect": {
+      "sourceHash": "66d24038b00dc115fcf4bd102088d88831ce9b2f2e98868f7533d8d6845c41ec",
+      "text": "From turn 2, heal all allies including self for 10 SP. Damage taken from Burn, Bleed, Tremor, Rupture, and Sinking −20%."
+    },
+    "passives.14.response": {
+      "sourceHash": "ca477b928ac463085a1bbb886a8654057e8e58091337779068071ba2d12c9e59",
+      "text": "Use strengthened attacks and focused Stagger damage rather than relying only on flat status damage."
+    },
+    "passives.15.name": {
+      "sourceHash": "e22c37ac4947d07cdac02b10cd3e8fdf7116c48a4fdc234ef6d094a9ec6ff124",
+      "text": "Brush it Off"
+    },
+    "passives.15.condition": {
+      "sourceHash": "f552aeda631d2da40d15490f5c632c8d973230799d80d736e83725ae079bb58e",
+      "text": "Panic and phase transition"
+    },
+    "passives.15.effect": {
+      "sourceHash": "86b10218f53abf1360029bbdd894b389576f3b64850850a7ea30031c96165e5e",
+      "text": "Panic type cannot change. If Panicked at Turn End, SP becomes 0."
+    },
+    "passives.15.response": {
+      "sourceHash": "fd5434847ebe450c107d6ab8a6d066c55b277cb95f32807c4f63c299c6d46eb3",
+      "text": "The normal Counter uses negative Coins; lowering SP alone does not guarantee safety."
+    },
+    "passives.16.name": {
+      "sourceHash": "3ef4672b646aeeda47d81be82b1b8fca64ffb0f462604a116a1a2cf4d1af3262",
+      "text": "Chains of Loyalty"
+    },
+    "passives.16.condition": {
+      "sourceHash": "e924af29be6381a06688dc1eb1f4ef45eff42f7e72a57e247114e3ec41218529",
+      "text": "A Middle-affiliated ally dies"
+    },
+    "passives.16.effect": {
+      "sourceHash": "e00223344d701fc494bfd6119abf9ba74fb1158759e9b73e3bd14ae9321fd1cc",
+      "text": "Gain 1 Plus Coin Boost next turn (max 2)."
+    },
+    "passives.16.response": {
+      "sourceHash": "3bb33c0ef5f3dfdcc4691a4db871fcc54d6c1329405b244ebd5ffb73c8cf985e",
+      "text": "Killing adds also strengthens the body next turn. Check whether the kill will overlap a dangerous body skill."
+    },
+    "phases.0.timing": {
+      "sourceHash": "46169e71adcce167bb2541609add4a8c994e6389ea042884648cda7e22b3ee91",
+      "text": "Opening and Phase 1"
+    },
+    "phases.0.title": {
+      "sourceHash": "7d50bb9791d75dacd6f519d01db57fb7d3ca3184dc6efc16e57446712a1f9036",
+      "text": "Use the Middle pattern change to build Resonance and unseal the sword"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "38725540b9d032292a4bdcf2bda60743182b33e9a0ce397afb4a303c26b0e836",
+      "text": "Starting at least four Middle members changes the first two patterns and grants 2 E.G.O resources of every affinity. Six Middle members can meet this condition while also aiming for 6 Envy Absolute Resonance."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "978f7d1d4867ec299743f335a44c6c9728d93f6b278b9588490a67e2b3163dc1",
+      "text": "Ah, You Were One of the Fam heals SP for all Middle units; TRICKED ME, DID YOU??!! gives the enemy 4 Fragile. Use these openings to prepare and attack, but do not ignore the latter's area Unbreakable Coins."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "8a6a53d998feeb3d7a2db469a1a51db24ef0d0a129d194ea76e44783035716e2",
+      "text": "Outis progresses unsealing through 6 Envy Absolute Resonance or S3. Counter safe normal attacks to preserve Resonance; clash with dangerous skills using normal S2, S3, or E.G.O."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "53800dc4364ca4549aa44ed4aad3fc88d0e17e3d8b0b3d309ef15a97887fa5fa",
+      "text": "Opening SUPERBIA Fluid Sac is an option if HP or SP is low. Do not assume another use in Phase 2; save later healing resources too."
+    },
+    "phases.1.timing": {
+      "sourceHash": "dbb449fa6ce9b029182275b90abc4a0fe2858dc8a618df0d9eabbba30e9bbae7",
+      "text": "Area skills and Book buildup"
+    },
+    "phases.1.title": {
+      "sourceHash": "7bccbe016a77c8bec9dc34f13b1b03af953a04e7730cab132bf4daffee10f06a",
+      "text": "Separate skills to stop through clashes from those handled by Evade"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "066a26241f3ab9728ce6b19bb0ba5e4490e2ef700fc598659d90ad9ae8d8d791",
+      "text": "Winning against COMPLETE AND TOTAL EXTERMINATION!!! or MY HAIR COUPOOOOOOOOOOONS!!! reduces damage by 30% and prevents Stagger from that skill's damage. Unbreakable retaliation remains, so healing is also needed."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "75d12939401b3ff7356f9ddef0018b26041504501d67967351785d6a481adf5b",
+      "text": "Promised Suffering makes all Coins Unbreakable from 3 Book and deals extra Blunt damage equal to Book ×3 on the final hit. Use a Sinner with Evade or Clashable Defense; winning with an ordinary attack alone is insufficient."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "0c34fa473f2f9a0d5123955b8c813fe0d5d8bbe547f580fb96e7eeb22848d13b",
+      "text": "At 20 Book, other normal skills also become Unbreakable. If marked unredirectable, use that recipient's defense, healing, or strong clash instead of planning to intercept with another Sinner."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "39195d74c71754f0bf88deeb786f81f33fa90856c71b00e459ad590856ad2625",
+      "text": "Chains of Others weakens next turn's normal attacks. Assign roles while accounting for Resonance interruption that turn and Meursault's own next-turn debuffs."
+    },
+    "phases.2.timing": {
+      "sourceHash": "bc0449b2af3bec224fedb7aaadfecd6952adc3fed2fcc0400961c76e72a5c500",
+      "text": "50% HP or less"
+    },
+    "phases.2.title": {
+      "sourceHash": "ffaf1ff7231ccfc930bb108a857cc865d0b1422c95bfcdbe32fb1134a0c49e0f",
+      "text": "Keep the strengthened Middle core and focus the Phase 2 body"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "3dca675322790712a482b1e25970016cb640ed241d42eb2679d0888bf8fc8b9f",
+      "text": "Phase 2's Shade shifts toward Rupture and Gluttony, but Envy weakness remains. If the Middle core with its unsealed sword is alive, a change in favored effects alone is no reason to switch."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "cb75e68a09cc3afe3ff33b6c1c9395087b7f9be12d42bd444d65fa219ca1b32f",
+      "text": "Transition removes all effects except the body's unique effects. Reapply needed debuffs instead of assuming Phase 1 statuses carry over."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "ab39961539fb8e025b9c33ee530a857434c9950265c4f73ba224d2e4f72b301b",
+      "text": "NORMAL lacks Phase 2 Tribulation's SP floor and extra Book. However, the normal Counter has negative Coins, so lower SP alone does not make it harmless."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "57de0f46f5674453c62ea06af56475172a9ff6465dade7e429ab7f4f2e23194b",
+      "text": "Assemble summons more adds. Stop only attacks threatening key Sinners and keep strong attacks' main targets on the body."
+    },
+    "phases.3.timing": {
+      "sourceHash": "84bf2faf7b9db6a9edca335005466cd1f6a63ad97020d02ad105ad2e7774efef",
+      "text": "30% HP and the final stretch"
+    },
+    "phases.3.title": {
+      "sourceHash": "3c105ab9cf2f4dde60a570a338f9f123533528bed1cd6c20fb71a1a19cd577b7",
+      "text": "Focus damage during Stagger; switch to unused Identities if necessary"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "92253b184f76557b65cb65189747579f15fba802179429dfe979b8243b121083",
+      "text": "Concentrate strong S2 and S3 attacks during the 30% HP Stagger. In Phase 2, if the attacker is faster than the Staggered body, it also takes +(Speed difference ×2)% damage, up to 20%."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "46f529194c2b2f6c386e16851b9d30307d9d1cf2a497279ac24742eacee60462",
+      "text": "A normal Counter deals no damage when the Staggered enemy does not attack. Use Attack Skills and maintain Envy Absolute Resonance where possible."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "631ad53044e02f45603d548283f303360eeab9d9566bc32e5346d7c568ac007b",
+      "text": "If one loadout cannot finish within 12 turns, use an unused Rupture / Gluttony team for Phase 2. H Corp. members also gain +15% damage dealt and −30% damage taken, but do not choose untrained Identities solely for affiliation."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "42ff56e37b85bf3c98715972b23b7db48dc024e9103c0c47f8753b6400f7a37c",
+      "text": "For the first attempt, maintain healing and kill the body rather than losing by insisting on 24 turns or less."
+    },
+    "warnings.0": {
+      "sourceHash": "f15b34d1b85d2424be54f9ffae1090c91171f41b759ef18bee18007633e1e926",
+      "text": "5-30's Ishmael survival condition and victory at 50% HP do not apply."
+    },
+    "warnings.1": {
+      "sourceHash": "75eb8d64da9ea43fe5172b95c0f5b414a7c101d497bea53310af122ad03e677f",
+      "text": "20 Book enables all-Unbreakable normal skills; 30 adds IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION! Promised Suffering's conversion starts at 3, and No More Tests at 5."
+    },
+    "warnings.2": {
+      "sourceHash": "b263f8b84ffde4cfc35295618357eb55695678b71250292eead8426619badb15",
+      "text": "Check the actual skill display for unredirectable attacks. Below 30 Book does not automatically mean it can be intercepted."
+    },
+    "warnings.3": {
+      "sourceHash": "4ee49ad7bea67f1c1b02851afe2cfc44c1ebb24a690c84d9dff74f7f0790c9ca",
+      "text": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!'s percentage damage requires an unbroken hit. Breaking Coins prevents it, but does not remove normal damage from Unbreakable Coins remaining at 20 or more Book."
+    },
+    "warnings.4": {
+      "sourceHash": "c1afcf832caebb0baa50a088036f7ca42747a50a3b655b37c1f7582834118f81",
+      "text": "Do not have everyone Counter an unsurvivable area attack just to create Absolute Resonance. Extra hits after a Counter can still Stagger them."
+    },
+    "warnings.5": {
+      "sourceHash": "c3e7b25f3fc0bc3818662a7a3c1f20d1a808d04cdbeacafe2ed79d522c4a0c6a",
+      "text": "Bleed, Rupture, and similar effects are capped at 30 Potency and 10 Count. Do not plan a prolonged fight around normal caps."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "560161978fc60bac39d421260050e7ea96ddc7c40bbdf4810b62f34019bfb31b",
+      "text": "Written in the Book"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "57ff9173797785076ef3d71af2105c523e4f5838da6ac27deb6136af74a0b912",
+      "text": "Maximum 30. Damage taken +3% per Stack. Increases at Turn Start and when attacking the body; decreases from the body's hits and certain skills."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "720f8f0e23a5b0dcaf8611bb6ce1009877eebf3389b7136c8e2116607da1a74c",
+      "text": "Check remaining HP and enemy skills alongside Stack. You do not need to take unbroken-hit percentage damage just to reduce it."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "0559f7b5c7b7f66fcfd75d4c36175074fd49605c394f7d9ff8f036dc6e04da45",
+      "text": "Vengeance Tattoo"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "6696f6c77867cc5f31f1b7013f447b2ccc06520353bdf876d1a6b1bde94615ee",
+      "text": "Maximum 300. Ricardo's skill Offense Level +1 per 10 Stack. Increases by the amount of Book Ricardo removes."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "7961fdd6be6e7cca2eeb6468cc4a8c26a19f19a0a14ba66c58038d5a55faa2fa",
+      "text": "Enemy Offense Level also rises over time. Base Power tables alone cannot determine clash chances."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "5fccf861cd9b2b765b67ea7fceef452d8f8f410de0277448fd914f235245d68a",
+      "text": "Shade of Reflection [The Middle]"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "2fce4975a3959de2769d695cfd0916b375542783d256d5728a31791f505573ae",
+      "text": "Deploying at least four Middle members changes the first two patterns and grants +2 resources of every affinity. The body's skill effects do not apply Paralyze to units with defense equipped. Attacks that inflict Bleed or special Bleed, or have Envy affinity, deal +30% damage, or +100% for E.G.O. Absolute Resonance grants one resource of a lowest-reserve affinity four times."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "bb8ac40e2a6e5f3adb9cc20b3f78403c76c7a3a5832dde8916418704f50ee3cb",
+      "text": "Build around Middle defense and Envy Resonance. The bonus checks individual Attack Skills, not a broad classification as a Bleed Identity."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "f0384394f0a4b7095177f1b5e84336a97b51adc3c260f10853573146ca75e6d9",
+      "text": "Shade of Reflection [Ambuscade]"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "a86cb866163f5602ccf215e62dda0faeab1dfd914c1f42d5c597a9da20657660",
+      "text": "Attacks inflicting Rupture or using Gluttony deal +25% damage, or +100% for E.G.O. H Corp. members deal +15% damage and take −30%. Absolute Resonance grants one resource of a lowest-reserve affinity four times. If the attacker is faster than the Staggered body, damage taken increases by Speed difference ×2%, up to 20%."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "32c4959f891490e585e6ff17ff673a590e439edf18d4f60bf2c19b0fc660d03b",
+      "text": "Either continue with the trained Middle core or switch to an unused Rupture / Gluttony team. Exploit the Speed difference during focused attacks after Stagger."
+    },
+    "preparation.0": {
+      "sourceHash": "be7ab207ce09d445641d53893f34e131eee2bf9c3dd36f47a7b2fd0b8fe8503a",
+      "text": "The enemy body is Lv. 60. Prepare your core's levels and Uptie, enough HP for normal Blunt attacks, and recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "e7758c45dd1e0f399fc9e93862a96cb49dd56568bc91c2b5c26321c477e1fe3c",
+      "text": "The main starting lineup is six Middle members plus Faust. Prioritize Outis, Heathcliff, and Ishmael while combining the Nursefather’s sword unsealing with 6 Envy Absolute Resonance."
+    },
+    "preparation.2": {
+      "sourceHash": "24cc8968361e36abd57c492df1e8304e04415751e2e801727db90bfc048cd183",
+      "text": "Put Faust with Fluid Sac and Meursault with Chains of Others in the same team. Account for Resonance breaks from E.G.O affinities and resource costs."
+    },
+    "preparation.3": {
+      "sourceHash": "ffaccbff1a952bd733c153aafe3721ff74a2e16e9e8b0c1bf7fc434ee8c7574e",
+      "text": "Without the Middle roster, Phase 1 Bleed and Phase 2 Rupture or Heishou are alternatives. They may not reproduce the main setup's procedure or turn count. Allocate each team's core in advance."
+    },
+    "roles.0.name": {
+      "sourceHash": "9362c80fe20c59687427705972dcba132985085d9e6103faf53572694aba64f2",
+      "text": "Clash recipient for dangerous area skills"
+    },
+    "roles.0.reason": {
+      "sourceHash": "0316816a0175f10c0d16053e6b95e2aaa50ea29c63b7ea39a861fb58e47f48ed",
+      "text": "Use strong E.G.O or a core S3 against COMPLETE AND TOTAL EXTERMINATION!!! and MY HAIR COUPOOOOOOOOOOONS!!! Envy options preserve Resonance more easily, but prioritize survival if the clash chance is insufficient."
+    },
+    "roles.1.name": {
+      "sourceHash": "83b36db8df19b4941406fba8bdaed231e3acda0ef69e1a78525f58156dfcf2d6",
+      "text": "Defense against Promised Suffering"
+    },
+    "roles.1.reason": {
+      "sourceHash": "48dd0ed78b4d3d997bd54b9c3a1c4140c2cc75c1716a74eac7c1155103cee23d",
+      "text": "Targets high Book, so prepare Evade, Clashable Defense, and healing. Ensure the target can respond even if redirection is locked; avoid forcing low-SP Evade or Blunt-weak Sinners into it."
+    },
+    "roles.2.name": {
+      "sourceHash": "3660e8ef39acdfdfcfa522cd15e269af42d17b33592c02861634490add51351b",
+      "text": "Sustaining healing and resources"
+    },
+    "roles.2.reason": {
+      "sourceHash": "cab54a06d9a527df740027bd7eb5609c59db3143bcf3e76d9da25cd869602b8b",
+      "text": "Restore HP before the next hit. Use Absolute Resonance's extra resources and conversion so excess Envy does not leave you unable to heal."
+    }
+  },
+  "messages": {
+    "boss-copy:ricardo-projection-normal": "complete",
+    "【リンバス】射影 NORMAL リカルド（射影戦闘・NORMAL）の攻略｜Limbus Assistant": "Reflectrial NORMAL Ricardo (Reflectrial, NORMAL) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)射影 NORMAL「リカルド（射影戦闘・NORMAL）」の攻略。中指の守備と嫉妬共鳴を軸に、帳簿の蓄積と破壊不能コインへの対処を覚える。HP半分で終わる5-30とは違い、後半もリカルド本体を削り切る…": "Ricardo (Reflectrial, NORMAL) guide for Limbus Company Reflectrial NORMAL. Use the Middle's defense and Envy Resonance to learn Book buildup and Unbreakable Coin handling. Unlike 5-30, which ends at half HP, you must finish Ricardo's body in the second phase too.",
+    "射影 NORMAL リカルド（射影戦闘・NORMAL）": "Reflectrial NORMAL Ricardo (Reflectrial, NORMAL)",
+    "射影 NORMAL「Reflectrial][lairtcelfeR - Nocturnal Sweeping BokGak」": "Reflectrial NORMAL · Reflectrial][lairtcelfeR - Nocturnal Sweeping BokGak",
+    "リカルド（フェーズ1）の外見": "Ricardo (Phase 1) appearance",
+    "リカルド（フェーズ1）のスキル": "Ricardo (Phase 1) skills",
+    "Ricardo (Phase 1)の外見": "Ricardo (Phase 1) appearance",
+    "Ricardo (Phase 1)のスキル": "Ricardo (Phase 1) skills",
+    "リカルド（フェーズ2）の外見": "Ricardo (Phase 2) appearance",
+    "リカルド（フェーズ2）のスキル": "Ricardo (Phase 2) skills",
+    "Ricardo (Phase 2)の外見": "Ricardo (Phase 2) appearance",
+    "Ricardo (Phase 2)のスキル": "Ricardo (Phase 2) skills",
+    "末弟 ヴェルナーの外見": "Little Brother Werner appearance",
+    "末弟 ヴェルナーのスキル": "Little Brother Werner skills",
+    "Little Brother Wernerの外見": "Little Brother Werner appearance",
+    "Little Brother Wernerのスキル": "Little Brother Werner skills"
+  }
+}

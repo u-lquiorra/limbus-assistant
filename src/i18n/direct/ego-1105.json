@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1105.md",
+  "code": "1105",
+  "messages": {
+    "精神力の低い味方を回復しダメージ量増加を配りつつ、振動爆発で攻撃もする、サポート寄りの憤怒打撃E.G.O。": "A support-leaning Wrath Blunt E.G.O that restores SP to low-SP allies and hands out Damage Up while also attacking with Tremor Burst.",
+    "精神力回復とバフ: 攻撃後、現在の精神力が最も低い味方2名(解析Ⅲは3名、Ⅳは4名)の精神力を20回復し、最も多い共鳴属性のダメージ量増加1を付与する。": "**SP recovery and buffs**: After the attack, restores 20 SP to the 2 allies with the lowest current SP (3 at Threadspin Ⅲ, 4 at Ⅳ) and gives them 1 Damage Up for the Sin with the most Resonance.",
+    "振動爆発: Ⅰコインが的中時に振動爆発を起こす。威力20~31で攻撃加重値は3。": "**Tremor Burst**: Coin Ⅰ triggers Tremor Burst on hit. Power 20–31 with 3 Attack Weight.",
+    "パッシブ「平等なプレゼント」: 自分以外の味方へプラス効果を付与するとき、ランダムな敵に火傷・出血・振動・破裂・沈潜のどれかを威力1で付与する(1ターン最大5回)。": "**Passive — Fair Presents**: When giving a positive effect to an ally other than herself, inflicts 1 Potency of one of Burn, Bleed, Tremor, Rupture, or Sinking on a random enemy (up to 5 times per turn).",
+    "侵蝕スキル: 敵味方識別不可で体力を10%消耗し、精神力ダメージと振動爆発に加えて、最も多い共鳴属性の脆弱を付与する(解析Ⅲで加重値4、Ⅳで5)。": "**Corrosion skill**: Cannot distinguish friend from foe and costs 10% HP; in addition to SP damage and Tremor Burst, it inflicts Fragility for the Sin with the most Resonance (4 Attack Weight at Threadspin Ⅲ, 5 at Ⅳ).",
+    "ダメージ量増加はそのターン限りなので、速度の速い人格と組み、先に撃って味方に効かせる。": "Damage Up only lasts that turn, so pair it with a fast Identity and fire it first so it benefits allies.",
+    "必要資源は色欲2・怠惰1・傲慢3・嫉妬2の8個と重く、精神消耗は25。": "It requires a heavy 8 resources: 2 Lust, 1 Sloth, 3 Pride, and 2 Envy, with a Sanity cost of 25.",
+    "付与されるデバフはランダムで小さいので、パッシブは補助と考えるのが無難。": "The debuffs inflicted are random and small, so it is safest to treat the passive as a supplement.",
+    "耐性は憂鬱・嫉妬が脆弱、憤怒が耐性。": "Its resistances are Fatal to Gloom and Envy and Ineffective against Wrath.",
+    "Ⅱ: 「平等なプレゼント」が解放される。": "**Ⅱ**: Unlocks Fair Presents.",
+    "Ⅲ: 覚醒の回復・バフ対象が3名に増え、侵蝕の加重値が4、脆弱が2になる。": "**Ⅲ**: Awakening's healing and buff targets increase to 3, and Corrosion's Attack Weight becomes 4 and Fragility 2.",
+    "Ⅳ: 対象が4名に増え、侵蝕の加重値が5になり、脆弱が的中時に付く。": "**Ⅳ**: Targets increase to 4, Corrosion's Attack Weight becomes 5, and Fragility applies on hit.",
+    "南部センク協会4課: S1が傲慢、S3が色欲で資源を出せ、S1・S3でクイックを付与して速度も確保しやすい。": "**[Cinq Assoc. South Section 4](persona:1106)**: Her S1 is Pride and S3 is Lust, supplying resources, and S1 and S3 grant Haste, making it easy to secure Speed.",
+    "T社3級強制徴収職職員: S1が傲慢、S2・守備が怠惰、S3が色欲で資源を賄え、振動を扱う人格なので振動爆発と噛み合う。": "**[T Corp. Class 3 VDCU Staff](persona:1113)**: Her S1 is Pride, S2 and Defense skill Sloth, and S3 Lust, covering the resources, and as a Tremor Identity she meshes with Tremor Burst."
+  }
+}

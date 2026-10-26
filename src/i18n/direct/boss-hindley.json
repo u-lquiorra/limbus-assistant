@@ -1,0 +1,921 @@
+{
+  "kind": "boss-copy",
+  "id": "hindley",
+  "source": "src/data/bosses/hindley.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "ヒンドリー",
+          "en": "Hindley",
+          "file": "Enemies-a1c6p2.json",
+          "id": "91015"
+        },
+        {
+          "ja": "鋭敏なデッドラビッツ団員",
+          "en": "Sharp Dead Rabbits Henchman",
+          "file": "Enemies-a1c6p1.json",
+          "id": "90119"
+        },
+        {
+          "ja": "厳めしいデッドラビッツ団員",
+          "en": "Fierce Dead Rabbits Henchman",
+          "file": "Enemies-a1c6p1.json",
+          "id": "90118"
+        },
+        {
+          "ja": "雑魚どもが！",
+          "en": "Damn Plebs...!",
+          "file": "Skills_Enemy-a1c6p2.json",
+          "id": "9101501"
+        },
+        {
+          "ja": "片付けてやる",
+          "en": "I'll Remove You",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816501"
+        },
+        {
+          "ja": "ボタンを直すぞ",
+          "en": "Make Things Right Again",
+          "file": "Skills_Enemy-a1c6p2.json",
+          "id": "9101503"
+        },
+        {
+          "ja": "潰してやる",
+          "en": "Get Crushed",
+          "file": "Skills_Enemy-a1c6p2.json",
+          "id": "9101504"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "815904"
+        },
+        {
+          "ja": "ど…け",
+          "en": "M...ove",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011901"
+        },
+        {
+          "ja": "邪魔す…な",
+          "en": "Get... Out of My...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011902"
+        },
+        {
+          "ja": "…撃",
+          "en": "...nter...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011904"
+        },
+        {
+          "ja": "肉体施術 - クールダウン",
+          "en": "Body Augment - Cooldown",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101503"
+        },
+        {
+          "ja": "肉体施術 - 肉体増幅",
+          "en": "Body Augment - Phys. Boost",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101501"
+        },
+        {
+          "ja": "戦力補強",
+          "en": "Reinforcements",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9013001"
+        },
+        {
+          "ja": "こんなはずは",
+          "en": "This Can't Be",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101504"
+        },
+        {
+          "ja": "今度は勝ちだ…！",
+          "en": "This Time, I Win...!",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101505"
+        },
+        {
+          "ja": "おま…か",
+          "en": "It's... you...",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9011601"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        },
+        {
+          "ja": "喪失",
+          "en": "Bereavement",
+          "file": "Bufs-a1c6p1.json",
+          "id": "AaCfPaBa"
+        },
+        {
+          "ja": "突…破",
+          "en": "Break...through",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011903"
+        },
+        {
+          "ja": "処理す…",
+          "en": "Taking Ca...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011801"
+        },
+        {
+          "ja": "片…付…",
+          "en": "Remo...ve...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011802"
+        },
+        {
+          "ja": "阻…止…",
+          "en": "Hold... Them Ba...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011803"
+        },
+        {
+          "ja": "反…",
+          "en": "Cou...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011804"
+        },
+        {
+          "ja": "果てしない喪失",
+          "en": "Unending Bereavement",
+          "file": "Bufs.json",
+          "id": "AaCfPaBa_Alt1"
+        }
+      ],
+      "note": "Exact game IDs distinguish shared Japanese names. Guide spelling and ellipsis variants are resolved against these paired localization records."
+    }
+  },
+  "scopedTerms": [],
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "6cfc0857edb5f9d6ae435e8962da7a35b5c69a5f8e01cb70b9b80fe81599a1ab",
+      "text": "Hindley (6-31)"
+    },
+    "shortName": {
+      "sourceHash": "38bfe5b8c0dee41161de144fc2c4875f76c66a85b0556ca358e5fbfcead54403",
+      "text": "Hindley"
+    },
+    "stageName": {
+      "sourceHash": "239f3700edb97d1bb2dcb9fd743d0455a429832030e8c725c8c2c6dde1420003",
+      "text": "Black Grass"
+    },
+    "lead": {
+      "sourceHash": "e8e25a47a5c6550824c8e0e460c63240b4f961a56046d0ac8a6a2d99b4d56b54",
+      "text": "Stop the adds' Offense Level Down to prevent Hindley's conditional bonuses. Defeating adds increases his actions but also lowers his Offense Level. Check the added attacks, then use Slash and winning Clashes to finish him."
+    },
+    "listLead": {
+      "sourceHash": "506612ccacadff711fd2a6fe52f584b6f28e58f6d6b106eff93a2c47237625ac",
+      "text": "Prevent add debuffs to deny the boss's conditional bonuses. Defeating adds increases its actions but lowers its Offense Level. Handle the extra attacks while finishing it."
+    },
+    "statNote": {
+      "sourceHash": "5aef8f7b81e3036495af08c205d2cc3059cddd243e1b4b1274ed8388301f4787",
+      "text": "The Regular Encounter in 6-31. Hindley is Level 42 with 869 HP and Defense Level 42. The 5 Sharp and 4 Fierce Henchmen are Level 40 with 176 HP and Defense Level 32. Check initial placement and extra actions in battle. Hindley's and Sharp Henchmen's Stagger values are unconfirmed and are not filled with estimates. Do not substitute 6-32's form or 6-33's henchman values and attack types."
+    },
+    "skillNote": {
+      "sourceHash": "135a14f92e566b7819723ecf029f3a1b47a792600443d1a4302c60739bfdde28",
+      "text": "5 boss skills and 4 per add. Distinguish base rolls from bonuses based on target Offense Level Down and negative effects. The henchmen's Get... Out of My... and Remo...ve... are Blunt in this encounter."
+    },
+    "priorities.0": {
+      "sourceHash": "f64ec32954213c98e515c601dd784523c4d7e5b6247bdad0e4d852bf2575e40a",
+      "text": "Aim for Level 42 and Uptie III or higher on your main units. Bring Slash for Hindley and Gloom/Envy damage for adds."
+    },
+    "priorities.1": {
+      "sourceHash": "84fe749e1139eef6bfe9a851cd0bebbddc7ef7b8b36450dd229cc62de6babcf3",
+      "text": "Prevent the adds' Offense Level Down. Keep Get Crushed away from heavily debuffed Sinners."
+    },
+    "priorities.2": {
+      "sourceHash": "b128376f72eb97d8e1ae0cd755f44dff6a291e2508ff6cfe673861e2a3f28842",
+      "text": "Add deaths grant Hindley up to 3 extra actions while lowering his Offense Level according to the number defeated. Recheck Clashes after cleanup and damage him."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "f63c4c2cbe3377645e423b0471aa68106e1653b3943ee02a782ce0f9e6613f2b",
+      "text": "The boss's attacks suddenly become much more dangerous"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "2c98eb696c6e76f07b8ac987ce5281761e2a2fe6e2613e2a906a49da7afdbd3b",
+      "text": "The adds' Offense Level Down enables Hindley's extra damage and power bonuses. Get Crushed prioritizes debuffed targets, so prevent add hits first."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0a70a5763945c23443e38cf8b2ebb258d42c73c4ab47527ef6ea589946b42e6b",
+      "text": "You are unsure whether to defeat the adds"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "6477b46206d25f73c65968b32a8040b5664e3b3d64a7859bf64c2d400f72adf0",
+      "text": "Each defeat lowers Hindley's Offense Level here. His actions increase by up to 3, so remove debuff sources while checking that you can answer the extra attacks. Do not directly apply 6-33's plan of leaving adds alive."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "48a17cae0328d3ed99eeda9cb3abb4e7bbb3c7662b57053d6ad96f11607157c3",
+      "text": "Attacks barely damage Guard"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "a858cc7b7bc6706c6859a4a538620090daeb5263e6f37bd4c4d4718ca9a0eca2",
+      "text": "Guard gains 20 extra Shield per other living ally. Offset it, or defeat adds to limit both extra Shield and disruption."
+    },
+    "units.0.name": {
+      "sourceHash": "38bfe5b8c0dee41161de144fc2c4875f76c66a85b0556ca358e5fbfcead54403",
+      "text": "Hindley"
+    },
+    "units.0.part": {
+      "sourceHash": "e725fc4359abcd57f2280a4770c9b3ba123c8dc1a431e8810c1fd72a37dfdcf9",
+      "text": "Core"
+    },
+    "units.0.stagger": {
+      "sourceHash": "6159aac35a1f3b76c172f2c69ef7444859dd1bffbf8cc71609201e85685d4e82",
+      "text": "Unconfirmed (incomplete percentage / HP values)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "5f05869e65c491a0d88c4f9a611586883071470ceb4d8de964e94f25e852d5c5",
+      "text": "Starts with 3 slots. Ally deaths add up to 3 more from the following turn."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "8ab6b352cdc92a4ae9995701d128b8a78f6d5d239a9805be9f1852b3f3474453",
+      "text": "From the following turn, gain 2 Offense Level Down according to the number of defeated allies."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "12d41b9906d6f2cd83b950c1d152ccc5e9e99aae6b09231d3739cca9d484c7f7",
+      "text": "Hindley does not inflict Offense Level Down by himself. Preventing the adds' debuffs matters."
+    },
+    "units.1.name": {
+      "sourceHash": "43afac90553128c91b75e2a66a3e0a9e92aa6f4fda34a23839d3f11f196fc775",
+      "text": "Sharp Dead Rabbits Henchman"
+    },
+    "units.1.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.1.stagger": {
+      "sourceHash": "6159aac35a1f3b76c172f2c69ef7444859dd1bffbf8cc71609201e85685d4e82",
+      "text": "Unconfirmed (incomplete percentage / HP values)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "a2ef5fd54883faad161e72ccf84b5f143643d803b98512d039551bfedaae0014",
+      "text": "5 across the battle. Inflicts Offense Level Down and increases Rupture Count."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "2cc5a07187be181c1afdfe232cc986fc9c312521c7d2779207e4a550ae4382a6",
+      "text": "On Clash Lose, deals 3 SP damage to the opponent who won."
+    },
+    "units.2.name": {
+      "sourceHash": "9c3bc0612c4a64754b9069d24156b553c2f70ad53bc426334fb5d7290e0209b0",
+      "text": "Fierce Dead Rabbits Henchman"
+    },
+    "units.2.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.2.stagger": {
+      "sourceHash": "0a521a08a8ca423ffd559f2fbd5a346c64ce200aa8b64d47162d74285488b55a",
+      "text": "70% / 30% / 0% (HP values unconfirmed)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "1181b756b9c18c77e77d85d6e9597bbd2c7135c92bb2ace403c27b752e068051",
+      "text": "4 across the battle. Inflicts Defense Level Down and Rupture Potency."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "2cc5a07187be181c1afdfe232cc986fc9c312521c7d2779207e4a550ae4382a6",
+      "text": "On Clash Lose, deals 3 SP damage to the opponent who won."
+    },
+    "phases.0.timing": {
+      "sourceHash": "ca8365a270ec3a419b3feb52d5262e2f04dd271c9f86fd1ce1aed446d1796add",
+      "text": "While many adds remain"
+    },
+    "phases.0.title": {
+      "sourceHash": "15e8420dfbddbccf90eac10a6b511bab3365b5ab5089c6a0e866d4e4ab2a0ecd",
+      "text": "Limit disruption and prepare for the extra actions after cleanup"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "88566bc838bbb91888dc3a414d5da1990449dd08ae7bac16fc4697662e503d6c",
+      "text": "Adds are weak to Gloom and Envy. Prevent Sharp Henchmen's Offense Level Down to deny Hindley's extra-damage conditions."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5d7286eb0de97f93f40454869388f299a103b5f5e05198dad8d17afed8790be1",
+      "text": "In this Regular Encounter, check actual targets and Clash pairings. If replacing a losing attack with defense, still confirm who receives each attack."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "43b818b39b1cbd2e59bc41c9ac433adb9deeeed9ab33220d4cadc6a24190d920",
+      "text": "Defeating adds increases Hindley's slots from next turn, up to 3 extra. Build SP and prepare powerful skills before the action count rises."
+    },
+    "phases.1.timing": {
+      "sourceHash": "1f748222b6c131eb6f40513c68d0f3c8532c7528eb698951446a1dda33c61d28",
+      "text": "Add cleanup / attacking Hindley"
+    },
+    "phases.1.title": {
+      "sourceHash": "aa8ffb3742e7a9339a409ecac904efbd422b732546c8d49c0e0487b9fa25e050",
+      "text": "Use reduced Offense Level to damage the boss"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "55e974c04a2e2c3a63fdb2b77d47ed2788c50b7a490c0ab483300b14975cbd7f",
+      "text": "From next turn, Hindley gains 2 Offense Level Down according to defeated ally count. Answer his extra actions using predictions after that reduction."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "051ccccabbfbad244e96e92915ab3f2d33bc34952c9610d9eec9678087beedf0",
+      "text": "Slash deals 1.25× damage to Hindley; Pierce is halved. Use effective damage and watch attacks aimed at Sinners still carrying add debuffs."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "2346c4041f8457ff3708359ada08f70fcdc39bbde931762ed99fa6116b81fdcf",
+      "text": "Get Crushed prioritizes the target with the most negative effects. Check its Offense Level Down bonuses and reuse at 3 or more debuffs, then assign a strong answer."
+    },
+    "phases.2.timing": {
+      "sourceHash": "366d166407fcc9513bf6d74691a4fbe6b1104681e9f3fd316c6ff0b0d8921321",
+      "text": "Final stretch"
+    },
+    "phases.2.title": {
+      "sourceHash": "dbe6b88983daae636a5c3b69ef25fdb23744cdb62244b247765b56bd2144ae1b",
+      "text": "Stop hit-triggered buffs and finish the fight"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "2f31f8073165ca20af51321b2e79672660a4d3aefe838afd5c1af8fc085dee99",
+      "text": "Damn Plebs...! hits and later Coins of Make Things Right Again restore the enemy's Offense Level or SP. Avoid repeated unopposed hits even after his action count rises."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "dc27af5def70dc0ae7d090cf51f709772ca91b50d8952e3388993974ebb6a806",
+      "text": "At -10 SP or less, Hindley gains 3 Offense Level Up next turn. Lowering SP does not stop every buff; check Clash predictions."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "32bad06a16c68fc2f4c0f5b13c3b49b72aa64e4dcf1c2c9dc181ebea5b293bbe",
+      "text": "Use actual in-battle Stagger Thresholds and concentrate damage when he Staggers. Do not make unconfirmed percentages fixed damage targets."
+    },
+    "skills.0.name": {
+      "sourceHash": "edeee17388ffd6b0ac06a3fa5a95c0bc29cd21c73c1018e1661a6a8bed57836c",
+      "text": "Damn Plebs...!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "2b5d11bf5130e07b45dcdef03b5e43747ae05872d36edd7372a97d5c3a75a8bd",
+      "text": "Ⅰ[On Hit] Gain 1 Offense Level Up next turn."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "db3efd5de33c634de5e80a6760863afd978377ab9e575f747919d3e1af066f5d",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "b0a6962518af8147d37d37dd6b76a4f385b5206879a04c8000a250d8136bb9be",
+      "text": "Each Coin's hit grants 1 Offense Level Up next turn. Use it as an early Clash target to prevent hit-triggered buffs."
+    },
+    "skills.1.name": {
+      "sourceHash": "1067368d816530f8ac78f5056eee9947f8b76e7970b8823f3f8cd23f45db951f",
+      "text": "I'll Remove You"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "cb732f4356cc074faf555f830752b35a0f9aae3a1d83209cef994c55a6100958",
+      "text": "[Clash Win] Gain +1 Base Power."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "beeeb14c32b7c86b1d1db3825ebbf49f83cbe098311bd56ded6d67eebb1c8b96",
+      "text": "Ⅰ[On Hit] If the target has Offense Level Down, deal additional Blunt damage equal to 20% of damage dealt."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "ca2bc261ac837e8ff837c7b0abca932951645bef5c53444b0dfd26bfa0a25d47",
+      "text": "Ⅱ[On Hit] If the target has Offense Level Down, deal additional Blunt damage equal to 20% of damage dealt."
+    },
+    "skills.1.response": {
+      "sourceHash": "a593c837c374ec491394205bbffd29c5e65574e1231e1c924199100a8c8f265b",
+      "text": "Against Offense Level Down, each hit adds Blunt damage equal to 20% of damage dealt. Keep it away from Sinners debuffed by the adds."
+    },
+    "skills.2.name": {
+      "sourceHash": "92d97124b8709bcd5577522dfc90ad0912642da7214fc8b5da31c667e769e866",
+      "text": "Make Things Right Again"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "48027f42949e70d7f37d1718804da8dac0e9f011c9f4f3c1d29415d592f20675",
+      "text": "[Clash Win] If the target has at least 2 Offense Level Down, gain +1 Base Power."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "97932e43bd83db32ab3619c235cf7f8fe383564d2b2b79f5e198a1d102b8c0a4",
+      "text": "[On Use] If the target has Offense Level Down, deal +30% damage."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "7d5d953c51e4a0d8312cb9f7c739537508f12cad7660295b57fb46f5883093a1",
+      "text": "Ⅱ[On Hit] Heal 4 own SP."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "57e626f1ee51fdf512c5418a235c776456dfc092c0f0ec17b18a92e6a22e3387",
+      "text": "Ⅲ[On Hit] Heal 4 own SP."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "5b0b17264c8103b4a8e53870817e66577d991159c7b27c7419e5e3deb7d04278",
+      "text": "Ⅳ[On Hit] Heal 4 own SP."
+    },
+    "skills.2.response": {
+      "sourceHash": "539e8f345a5b34eea8e9264e0242d60e3aece1fdef4788cfa42129a768a35a01",
+      "text": "Deals +30% damage [On Use] against Offense Level Down. The later Coins of this 4-Coin skill also heal enemy SP, so prevent hits on debuffed main units."
+    },
+    "skills.3.name": {
+      "sourceHash": "4b6ad394b4e8bdfa9d4089809aef0864fc98014a2ee28cf3462338d988e2425b",
+      "text": "Get Crushed"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "9918a6b2436a0beec161fd63854d23b328ad11c35e49ee70b4fea66db0e9a081",
+      "text": "Prioritize the target with the most negative effects."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "253708f14eabc77af28ea4f35eae14b178ccdc3f434d52b607677b87ccb5db05",
+      "text": "[Clash Win] Gain +1 Coin Power per 3 target Offense Level Down, up to 3."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "9f0c3d7f8fa24204f4550226baa3566545bcaf23d663d6169eb04dfd797d2e30",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "8b45985e39d7e25cf4a599c1c9fa5f781a7089317b57fc50282cd1ebb5cf19bd",
+      "text": "[On Hit] Inflict 2 Paralyze next turn."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "396c9f299136e86336b2c4e9a547786fc2e2ca3c8ca58a4b5b6b7f721d24b5e6",
+      "text": "Ⅱ[On Hit] Deal +30% damage per 2 target Offense Level Down, up to 120%."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "3d09bced8ae718f9bcd06093ea3ac6cfa0acccc6ca0de097bd70f6824caea5f2",
+      "text": "[Heads Hit] If the target has at least 3 negative effects, reuse this Coin once at most."
+    },
+    "skills.3.response": {
+      "sourceHash": "894ec885d3a8ad08ab50564734fce190f0c18d471347aa24890b4e141a46a837",
+      "text": "Prioritizes the most-debuffed target. Offense Level Down adds bonuses, while 3 or more debuffs enable second-Coin reuse. Check the remaining HP of heavily debuffed Sinners."
+    },
+    "skills.4.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "a1c63d95d36783527db88ced46e691bd5dab52736e8462930916513d9368a240",
+      "text": "[Combat Start] Gain 20 additional Shield per other living ally."
+    },
+    "skills.4.response": {
+      "sourceHash": "a307e303db062ce4afa8f97bb229e35b46569ee330add53e389c54936c3f886f",
+      "text": "Gains 20 extra Shield per other living ally at Combat Start. While many adds remain, prioritize offsetting or cleanup rather than wasting weak attacks on it."
+    },
+    "skills.5.name": {
+      "sourceHash": "019f1846babe8e16b79fb4b3173010c127a756fe5361faaf24f527c51fe8e250",
+      "text": "M...ove"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.5.response": {
+      "sourceHash": "695e7c973dffebc5db25a814b65cccaa9f83bc171f84b28d4a2245a556642300",
+      "text": "Increases Rupture Count by 3. Even with 1 Coin, it prolongs fixed damage on high-Rupture Sinners; do not underestimate it."
+    },
+    "skills.6.name": {
+      "sourceHash": "0b08656198a6bcc8950fd36d8216f6d86647b6ad106ec51a4e219bf348c82286",
+      "text": "Get... Out of My..."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "1c62d289cb3e70ce0bdc2126b67591890688413de78fd0f028a4e2ccc13f1004",
+      "text": "[On Use] If the target has at least 3 Rupture Count, gain +1 Base Power."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "1864e4825f01d05454944f4b594acaaf34df462cfe82a90bcc76ff2897e369c7",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "88effbdb02b04a7b1647e645a01ed05258d169c92e6bafa6fe39ac62547b9e87",
+      "text": "[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "79b1e73c043f0787aea5e2a3e31da9af196b5068657654630b901a196ab330bd",
+      "text": "Ⅱ[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "9b3d2a90fe30d5b6a8f30ef59da453296e335cbd4ac2fb18a5fb8c256f0d173c",
+      "text": "[On Hit] Inflict 6 Rupture."
+    },
+    "skills.6.response": {
+      "sourceHash": "98fed949efd14c85d88541b6d861dd6c9c35269ccf42b01357bdfd30e3aef46d",
+      "text": "Stacks Offense Level Down and Rupture, also strengthening Hindley's later attacks. Prevent hits. This regular henchman's attack is Blunt, unlike the Pierce attack of 6-33's covered henchmen."
+    },
+    "skills.7.name": {
+      "sourceHash": "4b1df8b1220ee2f4b195c22f49f55ca8ca3adf13b4312a66b5edb9c0fd1b63c4",
+      "text": "Break...through"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "9acaff96c6a234f8376e0d11a0ea03457eeac95bb65df4b4d5298560e5fe1b4c",
+      "text": "[On Use] Deal 3 SP damage to the target."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "97b79ca2a13ee0110ca0641fd9372fe089fcc6781ed808f766806e85115662f1",
+      "text": "[On Use] If the target has Rupture, gain +1 Base Power per 3 Rupture Count, up to 3."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "3d8ad992d1bf5d3fae6b617b92e01d38f6b1a9b43477d2c3ab7ea2a9e3f997ee",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 4."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "6847479aa7398a7b249804b08aec2d676faa59cca0458dbc1e828e3a67125b78",
+      "text": "[On Hit] Inflict 8 Bleed."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "511e5f8abe95874ae8f1d71986e4d4901592d49a7fcb489a07ade50760bac628",
+      "text": "Ⅱ[On Hit] Inflict 3 Offense Level Down."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "19452b832fea094f1749a4da6017a7c285be0ae636b074d56ccc850526a824ac",
+      "text": "Deals 3 SP damage [On Use]. Rupture Count raises Base Power by up to +3, with Bleed, Offense Level Down, and Paralyze on top. Use an answer that wins after those bonuses."
+    },
+    "skills.8.name": {
+      "sourceHash": "267b9d1564bb9f18f84a0a00fb1c5b47fa25f7b947a57648f470d6fe1111a2ee",
+      "text": "...nter..."
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "16a379891b5231fe4b388e6fbea92ab8bdd82e7cd2f26774e6ffbb8e2388db09",
+      "text": "If the target has Rupture, gain +1 Final Power."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.8.response": {
+      "sourceHash": "adc3de6999080b8c7c0185c77ecb66cc5a6dd8f42ecda3055ccfa30093a83116",
+      "text": "A normal Blunt Counter. Gains +1 Final Power against Rupture and inflicts 2 Bleed on hit. Avoid weak unopposed attacks that cannot withstand the Counter."
+    },
+    "skills.9.name": {
+      "sourceHash": "15ac5f223cf32607e9ee70029be5cd064278d2dad84454e4ed7649ad702ab1ec",
+      "text": "Taking Ca..."
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.9.response": {
+      "sourceHash": "38e855dcde893cc218e3b98efdf8de88ec0dbd3131702028878f2448c0ef2fbf",
+      "text": "A 1-Coin attack applying 4 Rupture. Stop it with a winning Clash or Stagger before combining with enemies that raise Rupture Count."
+    },
+    "skills.10.name": {
+      "sourceHash": "07f08190ff4e1e4227c807272138d829a09b27303c9f1fa05b39ca8616590727",
+      "text": "Remo...ve..."
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "595cae3b8799d9ab572fec567f4cd446ce7b1742d1b7362f8acfe2d3530a572d",
+      "text": "[On Use] If the target has at least 3 Rupture Potency, gain +1 Base Power."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "0f265f6efe05fd1ef527838bd8b85331c4c361ffab11f625a5ed9bad5da1582b",
+      "text": "Ⅰ[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "163323bd2b1d1044ffca104203ad194ac4f56975fe3132d5439db239e76b478f",
+      "text": "[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "ea5e06318f779042e6c7167f409a0ccc83f5832a492e66b0aae9327dc6f67f35",
+      "text": "Ⅱ[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "9b3d2a90fe30d5b6a8f30ef59da453296e335cbd4ac2fb18a5fb8c256f0d173c",
+      "text": "[On Hit] Inflict 6 Rupture."
+    },
+    "skills.10.response": {
+      "sourceHash": "de67d008d951b2df7b3413e3d308a50fc5f04dffa4acf95c45c44abf168ad812",
+      "text": "Gains +1 Base Power at 3 Rupture Potency and stacks Defense Level Down with Rupture Count. Avoid repeated hits on the same Sinner. The 6-31 henchman uses Blunt."
+    },
+    "skills.11.name": {
+      "sourceHash": "d60cccdf4d597ad68919bc2a68372d44ea138eb6958a6808f84b0dd46a99e044",
+      "text": "Hold... Them Ba..."
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "9acaff96c6a234f8376e0d11a0ea03457eeac95bb65df4b4d5298560e5fe1b4c",
+      "text": "[On Use] Deal 3 SP damage to the target."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "990f6088f0348dd78c9a0970617ba04006cee78cabad1cdec734a23770ccd19b",
+      "text": "[On Use] If the target has Rupture, gain +1 Base Power per 4 Rupture Potency, up to 3."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "485f292a55fd397f35837025ebfaea8e9cfdf5d7110920cba427d55a025d4587",
+      "text": "Ⅰ[On Hit] Inflict 6 Rupture."
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "229e394d17dc916efa5686291715a54add2979a36a8463bcb5917e8b11368ef7",
+      "text": "[On Hit] Inflict 6 Bleed."
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "fb1ddeb551bd7b38bd806802cad2ec2b1fae78b40e0241fc54878381185db6b7",
+      "text": "Ⅱ[On Hit] Inflict 3 Defense Level Down."
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "e01e7a72e8b6ac0deef5c5a03f08bde9a8d5bcb905ce56fa4e3c10113f88faa6",
+      "text": "Deals 3 SP damage [On Use] and gains up to +3 Base Power from Rupture Potency. Limit Bleed, Defense Level Down, and next-turn Paralyze."
+    },
+    "skills.12.name": {
+      "sourceHash": "d60beab3220f5f6d17622d13caf13695011a221a715fc3624982bd1edb321be2",
+      "text": "Cou..."
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "16a379891b5231fe4b388e6fbea92ab8bdd82e7cd2f26774e6ffbb8e2388db09",
+      "text": "If the target has Rupture, gain +1 Final Power."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.12.response": {
+      "sourceHash": "d14cb575597345ada193cef999512f3359b155ff42c1cec733376d01e03760e8",
+      "text": "A normal Counter with +1 Final Power against Rupture. Check the first attacker's HP and Blunt resistance."
+    },
+    "passives.0.name": {
+      "sourceHash": "74f1a114c2d70dd8ef37707c1d1dd26953a597feb6b8d548308ab8432aac99dd",
+      "text": "Body Augment - Cooldown"
+    },
+    "passives.0.condition": {
+      "sourceHash": "defdea2d7aeb044c110c202d78abe7b2fb2ef3608d9cccb76a2c6e14b22fab63",
+      "text": "In Panic at Turn End"
+    },
+    "passives.0.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.0.response": {
+      "sourceHash": "5c2342a827fc82c4656e876da05923e9f0694b43fd723b6b5659ce9add9b603f",
+      "text": "Do not rely on Panic to keep him disabled for long."
+    },
+    "passives.1.name": {
+      "sourceHash": "cb59549af9bd098b3e594f2d4548fade74217e0128f72bc32fd532b563ee0667",
+      "text": "Body Augment - Phys. Boost"
+    },
+    "passives.1.condition": {
+      "sourceHash": "c5fe312bff37bac8ae14ec3934c9ad6f4d7ad685f6cece823b262810e2c20da2",
+      "text": "At -10 SP or less at Turn End"
+    },
+    "passives.1.effect": {
+      "sourceHash": "71964068c2e4e2fe2cafeab9eb15dca13c6a2a3f673fee645ad1fc93914fa974",
+      "text": "Gain 3 Offense Level Up next turn."
+    },
+    "passives.1.response": {
+      "sourceHash": "2843fbc33fd60e41bd4d4feb87f09ccd0371b90362d6894704248a9f9d2b2d6f",
+      "text": "Check next turn's Offense Level buff even at low SP."
+    },
+    "passives.2.name": {
+      "sourceHash": "16a8f70e5c2bef56609a9d9224bdb114a5a357917953bdcd7eada8511a2ca2ae",
+      "text": "Reinforcements"
+    },
+    "passives.2.condition": {
+      "sourceHash": "f5e4b324d9f3ac84b128f3c17f2f068c5b6b30dbe54a7c1381b3ba707b4dfc0d",
+      "text": "Ally defeated / up to 3 times"
+    },
+    "passives.2.effect": {
+      "sourceHash": "f7f59adbe722916e62782f75f8bc124884fb532aae3462b25a8196ab9a230846",
+      "text": "Gain 1 additional slot from next turn onward."
+    },
+    "passives.2.response": {
+      "sourceHash": "fee0e5d1cccb41c18f99037bcc70d9da5831dbcbc334160ddc9ec551f1f564cc",
+      "text": "Save enough skills to answer extra attacks after add cleanup."
+    },
+    "passives.3.name": {
+      "sourceHash": "58194cd559344873c83aead6e4d61e625bb0548746b6052196fbddeb6b358e61",
+      "text": "This Can't Be"
+    },
+    "passives.3.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.3.effect": {
+      "sourceHash": "e8fd9e1f1d3d86b54aa20b07431e25b0d83472e091c0686133cb2f2e9e438e60",
+      "text": "From next turn, gain 2 Offense Level Down according to the number of defeated allies."
+    },
+    "passives.3.response": {
+      "sourceHash": "fdf036a1eb16eb4abef20e99345a1708ee763d55664b0da9e84dce22e3a382de",
+      "text": "Do not preserve every add just to avoid extra actions. Remove debuff sources and use the resulting weakening too."
+    },
+    "passives.4.name": {
+      "sourceHash": "c59ac077739d6634e3cef79babf8affba3b9fac0da4b249615d63e760ff4c921",
+      "text": "This Time, I Win...!"
+    },
+    "passives.4.condition": {
+      "sourceHash": "7fa8155dbf2617fa9637646c9f9fd0f1ef4fc6a8ad6f290938f951982db61494",
+      "text": "Wins after at least 5 Clash rolls"
+    },
+    "passives.4.effect": {
+      "sourceHash": "cc6ddbdac8f4d3170978a4ce9e743d534730a634c14bad9ef28363263b4958e5",
+      "text": "Deal +50% damage."
+    },
+    "passives.4.response": {
+      "sourceHash": "7fa33841a49f20d6568ab7aafac18c2f7c0c630a18864b5fce4274c0635b82e9",
+      "text": "Losing a long Clash also increases incoming damage. Choose a winning skill or defense."
+    },
+    "passives.5.name": {
+      "sourceHash": "26c4b2b088f4902a1380e92db97f6108d8a786c8defcdcfe96b214ea0df8ab20",
+      "text": "It's... you..."
+    },
+    "passives.5.condition": {
+      "sourceHash": "c8180a637eadd353ea4de6721d15c09c107d366c20c0f0a0b48b186e4f4ec1fc",
+      "text": "At Combat Start, target is the enemy with the lowest HP"
+    },
+    "passives.5.effect": {
+      "sourceHash": "c18eb9a9b6063c99f34e26f09d8b7408b63901dd14294db97c78d0a47d638ba2",
+      "text": "Deal +10% damage."
+    },
+    "passives.5.response": {
+      "sourceHash": "425b310e6d399fd08a1bf08982a05b6ae39e21143aa38eebc5a49bee7492bfc3",
+      "text": "Avoid repeated attacks on a low-HP Sinner."
+    },
+    "passives.6.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.6.effect": {
+      "sourceHash": "36514db18e9f02a4535e37f1c23e3a2af89b6819116e5cf4354141c9824dfaa4",
+      "text": "Deal 3 SP damage to the opponent."
+    },
+    "passives.6.response": {
+      "sourceHash": "64d51b06e443e48f320ace38e8c8a3d48017f4e4e64ee4869f714d1913c50063",
+      "text": "Winning still costs SP, but prevents hit-triggered debuffs."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.condition": {
+      "sourceHash": "defdea2d7aeb044c110c202d78abe7b2fb2ef3608d9cccb76a2c6e14b22fab63",
+      "text": "In Panic at Turn End"
+    },
+    "passives.7.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.7.response": {
+      "sourceHash": "6aa1b5531ab68f942c9352ef8f4231e8e911894258a775f65cf46b3415c51cb7",
+      "text": "Keep attacking during Panic to finish the enemy before recovery."
+    },
+    "passives.8.name": {
+      "sourceHash": "26c4b2b088f4902a1380e92db97f6108d8a786c8defcdcfe96b214ea0df8ab20",
+      "text": "It's... you..."
+    },
+    "passives.8.condition": {
+      "sourceHash": "c8180a637eadd353ea4de6721d15c09c107d366c20c0f0a0b48b186e4f4ec1fc",
+      "text": "At Combat Start, target is the enemy with the lowest HP"
+    },
+    "passives.8.effect": {
+      "sourceHash": "c18eb9a9b6063c99f34e26f09d8b7408b63901dd14294db97c78d0a47d638ba2",
+      "text": "Deal +10% damage."
+    },
+    "passives.8.response": {
+      "sourceHash": "425b310e6d399fd08a1bf08982a05b6ae39e21143aa38eebc5a49bee7492bfc3",
+      "text": "Avoid repeated attacks on a low-HP Sinner."
+    },
+    "passives.9.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.9.effect": {
+      "sourceHash": "36514db18e9f02a4535e37f1c23e3a2af89b6819116e5cf4354141c9824dfaa4",
+      "text": "Deal 3 SP damage to the opponent."
+    },
+    "passives.9.response": {
+      "sourceHash": "64d51b06e443e48f320ace38e8c8a3d48017f4e4e64ee4869f714d1913c50063",
+      "text": "Winning still costs SP, but prevents hit-triggered debuffs."
+    },
+    "passives.10.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.10.condition": {
+      "sourceHash": "defdea2d7aeb044c110c202d78abe7b2fb2ef3608d9cccb76a2c6e14b22fab63",
+      "text": "In Panic at Turn End"
+    },
+    "passives.10.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.10.response": {
+      "sourceHash": "6aa1b5531ab68f942c9352ef8f4231e8e911894258a775f65cf46b3415c51cb7",
+      "text": "Keep attacking during Panic to finish the enemy before recovery."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "0d31c750e7410af530ac3a568214e53659f0bb393b42b055944250205866b5ab",
+      "text": "Follow-up damage against Offense Level Down"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "aeba24a003465b0d244aa36d43f0b2f437d90d628bb2adaeeda0e02fcacb5070",
+      "text": "Offense Level Down inflicted by adds enables the boss's extra damage, damage bonuses, and Coin Power bonuses."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "114241cde8ec16f22ad3c726f00b303c3d8b0b6f7e5ea7d9ad46f9bd1279d181",
+      "text": "Prevent Sharp Henchmen's hits as well as Hindley's attacks."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "5cf50d139de02f9adc2f769c436b0cc7cb198c7dcc6dfe3cfa8f7ca6d45a6d17",
+      "text": "Both effects of add defeats"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "2c81532859fa86a515d05305d6c58d8f8687c9450027798829d3cadd8c403dd7",
+      "text": "Ally deaths grant Hindley up to 3 extra slots from next turn. He also receives Offense Level Down according to the number defeated."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "c6cc16c7193473fb5727f27444b8c180b944d0d3657aa3c137670beb40e5a754",
+      "text": "Prepare for extra actions while removing debuff sources and exploiting the weakening."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3ede87997728bb5f5113832d00a3f0f985869e890578e0ef4fd2b5389ab18861",
+      "text": "Bereavement"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e36e286bc7bfaa7e4d881202cdc3905442af04fad792b3f14a22825283e9fa0d",
+      "text": "Deployed Heathcliff normally gains SP-draining Bereavement. His Wild Hunt Identity changes it to Unending Bereavement."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c47ea308086ade11946b902abfdf17691ae5b37caf9a00646d93043bf1c6e063",
+      "text": "He is not mandatory here, so consider another main unit if maintaining SP is difficult."
+    },
+    "warnings.0": {
+      "sourceHash": "91403769044b97101da44e3de4de01bbffd870d0d6fcd2e4458cd75536fe2a43",
+      "text": "6-31 is a Regular Encounter. Do not assume you can freely redirect attacks as in Focused Encounters."
+    },
+    "warnings.1": {
+      "sourceHash": "55f55123c1d487577c051d4a2560bf0b9388db18668d1ff4ffc31a8d77e039c7",
+      "text": "Hindley's and Sharp Henchmen's Stagger values are unconfirmed. Do not plan around estimated percentages."
+    },
+    "warnings.2": {
+      "sourceHash": "5724321ba99eb766299728229cf32f48aff9e48037e5a73c11758aa7092f5b26",
+      "text": "Add deaths have different effects here than against the Dead Rabbits Boss in 6-33."
+    },
+    "warnings.3": {
+      "sourceHash": "36a0d39bca7802f0f028384b341b7444ac21aa208649ec17ff2be22e4ab9e929",
+      "text": "Henchman skills here are Blunt. Do not substitute 6-33's Pierce attacks."
+    },
+    "preparation.0": {
+      "sourceHash": "eb86d4f7bd0b8ee606ca85e6819010ef711598523090907b6ff811b47da783f3",
+      "text": "Aim for Level 42 and Uptie III or higher on your main units, with Slash and Gloom/Envy damage."
+    },
+    "preparation.1": {
+      "sourceHash": "49dd3b154271c6704397e95555476435ceb78200dcefa33ef2183413bea38300",
+      "text": "Enemy attacks are mainly Blunt. Check resistances and HP to limit repeated Rupture/Bleed damage."
+    },
+    "preparation.2": {
+      "sourceHash": "15f4c7ea26f79777e415a71a6830869f00ec1c9ccf84bcad7e4cd13e0cbc7aed",
+      "text": "Prepare SP recovery and powerful E.G.O to handle Hindley's extra actions."
+    },
+    "roles.0.name": {
+      "sourceHash": "85f8340a3b7802e8b07abba16ea342af85b1405599ab5a264aaca3a8c4e3cb24",
+      "text": "Add cleanup specialists"
+    },
+    "roles.0.reason": {
+      "sourceHash": "df0c0d7781a818bb157ec281b099dd1bc1fc42ca31f731f2552a3459c8ee0b6f",
+      "text": "Use Gloom/Envy to remove debuff sources and lower Hindley's Offense Level."
+    },
+    "roles.1.name": {
+      "sourceHash": "44c8edf3fc4ace72d0c8441d373990c995cab13e4103a3fbd5071a4b537da4d4",
+      "text": "Slash damage against Hindley"
+    },
+    "roles.1.reason": {
+      "sourceHash": "18662f2b6ae9f7d5c11610436474c9882e0335be679339ac9d3fbe0eb9a514ab",
+      "text": "Avoid halved Pierce damage and finish the boss after add cleanup."
+    },
+    "roles.2.name": {
+      "sourceHash": "5ead1013c96b60d80fc239855443dc3dccccd4a3e72a3e1a21534e004078ea47",
+      "text": "Clash / defense specialists"
+    },
+    "roles.2.reason": {
+      "sourceHash": "05ad1a86d97ee3a72cfbeaf44e32fd72ff32b343464a90fcc7ce563d6ee2971a",
+      "text": "Handle extra actions after add deaths and attacks targeting debuffed Sinners."
+    }
+  },
+  "messages": {
+    "boss-copy:hindley": "complete",
+    "【リンバス】6-31 ヒンドリー（6-31）の攻略｜Limbus Assistant": "6-31 Hindley (6-31) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-31「ヒンドリー（6-31）」の攻略。取り巻きの攻撃レベル減少を抑え、ヒンドリーの条件付き強化を防ぐ。取り巻きを倒すと本体の手数は増えるが、攻撃レベルも下がる。処理後の手数を確認しながら、斬撃と…": "Hindley (6-31) guide for Limbus Company 6-31. Stop the adds' Offense Level Down to prevent Hindley's conditional bonuses. Defeating adds increases his actions but also lowers his Offense Level. Check the added attacks, then use Slash and winning Clashes to finish him.",
+    "6-31 ヒンドリー（6-31）": "6-31 Hindley (6-31)",
+    "6-31「Black Grass」": "6-31 · Black Grass",
+    "ヒンドリーの外見": "Hindley appearance",
+    "ヒンドリーのスキル": "Hindley skills",
+    "Hindleyの外見": "Hindley appearance",
+    "Hindleyのスキル": "Hindley skills",
+    "鋭敏なデッドラビッツ団員の外見": "Sharp Dead Rabbits Henchman appearance",
+    "鋭敏なデッドラビッツ団員のスキル": "Sharp Dead Rabbits Henchman skills",
+    "Sharp Dead Rabbits Henchmanの外見": "Sharp Dead Rabbits Henchman appearance",
+    "Sharp Dead Rabbits Henchmanのスキル": "Sharp Dead Rabbits Henchman skills",
+    "厳めしいデッドラビッツ団員の外見": "Fierce Dead Rabbits Henchman appearance",
+    "厳めしいデッドラビッツ団員のスキル": "Fierce Dead Rabbits Henchman skills",
+    "Fierce Dead Rabbits Henchmanの外見": "Fierce Dead Rabbits Henchman appearance",
+    "Fierce Dead Rabbits Henchmanのスキル": "Fierce Dead Rabbits Henchman skills"
+  }
+}

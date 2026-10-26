@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0503.md",
+  "code": "0503",
+  "messages": {
+    "高いマッチ威力で攻撃を受け止めつつ、体力の低い味方2名を回復して立て直す、汎用の怠惰打撃E.G.O。": "A versatile Sloth Blunt E.G.O that absorbs attacks with high Clash Power while healing the 2 allies with the lowest HP to stabilize the team.",
+    "高いマッチ威力: 基本威力20(解析Ⅲで26)にコイン威力+8で、敵の大技へのマッチに強い。": "**High Clash Power**: 20 Base Power (26 at Threadspin Ⅲ) with +8 Coin Power, strong in Clashes against enemy big attacks.",
+    "味方2名の回復: 攻撃後、自分を除く現在体力が最も低い味方2名を最大体力の15%(解析Ⅲで30%)回復する。自分は回復できない。": "**Healing 2 allies**: After the attack, heals the 2 allies with the lowest current HP, excluding himself, by 15% of max HP (30% at Threadspin Ⅲ). He cannot heal himself.",
+    "保護: 解析Ⅲで、次のターンの保護2も付与する。": "**Protection**: At Threadspin Ⅲ, also gives 2 Protection next turn.",
+    "パッシブ「天の啓示」: 操作パネルの一番左のスキルでマッチに勝つと、次のターンにランダムな味方へ攻撃威力増加か守備威力増加1。効果も対象もランダム。": "**Passive — Revelation from Above**: Winning a Clash with the leftmost skill on the dashboard gives a random ally 1 Attack Power Up or Defense Power Up next turn. Both the effect and the target are random.",
+    "侵蝕スキル: 回復の代わりに、体力が最も低い味方2名へ脆弱とダメージ量増加を付与する。加重値3で、敵味方を問わずランダムに攻撃する。": "**Corrosion skill**: Instead of healing, it inflicts Fragile and Damage Up on the 2 allies with the lowest HP. 3 Attack Weight, attacking friend and foe at random.",
+    "被弾が重なった場面で、敵の強いスキルにマッチを当てて受け止め、回復で態勢を立て直す。": "When hits have piled up, throw it into a Clash against the enemy's strong skill to absorb it, and stabilize with the healing.",
+    "回復量はⅢで伸びるので、回復目的ならⅢまで解析する。": "The healing grows at Ⅲ, so take it to Threadspin Ⅲ if you use it for healing.",
+    "必要資源は怠惰4・憂鬱1・傲慢2で怠惰が重い。": "It requires 4 Sloth, 1 Gloom, and 2 Pride; the Sloth cost is heavy.",
+    "人格との噛み合わせに依存しない汎用枠と考えられる。罪悪耐性は色欲・暴食が脆弱(×2)。": "It is likely a versatile slot that does not depend on synergy with Identities. Its Sin resistances are Fatal (×2) to Lust and Gluttony.",
+    "Ⅱ: 「天の啓示」が解放される。": "**Ⅱ**: Unlocks Revelation from Above.",
+    "Ⅲ: マッチ威力が26~34になり、回復が30%に増え、保護2が付く。性能が出そろう。": "**Ⅲ**: Clash Power becomes 26–34, healing rises to 30%, and 2 Protection is added. Its performance is complete here.",
+    "Ⅳ: 覚醒の攻撃加重値が3になるだけで、回復は強化されない。優先度は低いと考えられる。": "**Ⅳ**: Only raises Awakening's Attack Weight to 3; the healing is not improved. Likely a low priority.",
+    "LCB囚人: 怠惰(S1・ガード)・傲慢(S2)・憂鬱(S3)で必要資源の3色を出せ、自前のスキルでこのE.G.Oを発動しやすい。": "**[LCB Sinner](persona:0501)**: Sloth (S1, Guard), Pride (S2), and Gloom (S3) supply all three required affinities, making this E.G.O easy to activate with his own skills.",
+    "バラのスパナ工房フィクサー: 憂鬱(S1)・傲慢(S2)・怠惰(S3・ガード)で必要資源の3色を出せる。": "**[Rosespanner Workshop Fixer](persona:0505)**: Gloom (S1), Pride (S2), and Sloth (S3, Guard) supply all three required affinities."
+  }
+}

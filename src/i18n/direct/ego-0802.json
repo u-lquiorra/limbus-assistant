@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0802.md",
+  "code": "0802",
+  "messages": {
+    "桃色のリボンで束縛を積み、攻撃レベル減少・麻痺と合わせて勢いを削ぐ、色欲貫通のデバフ特化E.G.O。": "A debuff-specialized Lust Pierce E.G.O that stacks Bind through Pink Ribbons and, together with Offense Level Down and Paralyze, saps the enemy's momentum.",
+    "桃色のリボン: マッチ勝利時に付与される専用効果。付いた側はコインを使うたびに値が増え、ターン終了時に数値分の束縛を得る。": "**Pink Ribbons**: A dedicated effect inflicted on Clash Win. Its value grows each time the bearer uses a Coin, and the bearer gains Bind equal to its value at Turn End.",
+    "デバフの重ね掛け: 的中時に攻撃レベル減少2(解析Ⅲは7、Ⅳは10)と麻痺2(解析Ⅲは3)を付与する。攻撃レベル減少10はマッチ威力+3相当の弱体で、ターン序盤に当てるほど効く。": "**Stacked debuffs**: On hit, inflicts 2 Offense Level Down (7 at Threadspin Ⅲ, 10 at Ⅳ) and 2 Paralyze (3 at Threadspin Ⅲ). 10 Offense Level Down is a weakening roughly equal to −3 Clash Power, and works best when landed early in the turn.",
+    "減算コイン: 覚醒はコイン威力-13の減算型で、マッチ威力は13〜26と低め。強敵とのマッチには不安がある。": "**Minus Coin**: Awakening is a Minus Coin type with −13 Coin Power and a lowish Clash Power of 13–26. It is unreliable in Clashes against strong enemies.",
+    "束縛の追加: 解析Ⅳで覚醒にも、的中時に次のターンへ束縛3が付く。": "**Extra Bind**: At Threadspin Ⅳ, Awakening also inflicts 3 Bind next turn on hit.",
+    "速度が高い人格で、ターン序盤にボスへ当てて勢いを削ぐ。": "Land it on a boss early in the turn with a fast Identity to sap its momentum.",
+    "敗北しても攻撃できる破壊不能コインのスキルとの相性が良いと考えられる。": "It likely pairs well with skills that have Unbreakable Coins, which can still attack after losing.",
+    "麻痺は敵のコイン威力を下げるが、減算コインのスキルには逆効果になりうる。": "Paralyze lowers the enemy's Coin Power, but can backfire against Minus Coin skills.",
+    "侵蝕スキルは加算コインで束縛も付くが、敵味方識別不可で速度が最も速い対象(味方に当たり得る)を攻撃する。": "The Corrosion skill uses Plus Coins and also inflicts Bind, but it cannot distinguish friend from foe and attacks the fastest target (which can be an ally).",
+    "Ⅱ: 「桃色のリボン」が解放される。": "**Ⅱ**: Unlocks Pink Ribbons.",
+    "Ⅲ: 基本威力が26から29に上がり、攻撃レベル減少・麻痺が増える。": "**Ⅲ**: Base Power rises from 26 to 29, and Offense Level Down and Paralyze increase.",
+    "Ⅳ: 攻撃レベル減少が10に増え、覚醒にも束縛が付く。デバフ目的なら優先度は高い。": "**Ⅳ**: Offense Level Down increases to 10, and Awakening also inflicts Bind. High priority if you use it for debuffs.",
+    "黒雲会副組長: 色欲のS3で必要資源を出せ、対象のマイナス効果の数でダメージ量が伸びるので、このE.G.Oのデバフが活きる。": "**[Kurokumo Clan Captain](persona:0811)**: Her Lust S3 supplies the required affinity, and her damage grows with the number of negative effects on the target, making this E.G.O's debuffs pay off.",
+    "南部シ協会5課: S2(色欲)・S3(憤怒)で必要資源を出せる。": "**[Shi Assoc. South Section 5](persona:0803)**: S2 (Lust) and S3 (Wrath) supply the required affinities."
+  }
+}

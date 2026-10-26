@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0906.md",
+  "code": "0906",
+  "messages": {
+    "メインターゲットの出血回数をそのターン減らさず、出血威力に応じた大ダメージを出す色欲斬撃の出血E.G.O。": "A Lust Slash Bleed E.G.O that keeps the main target's Bleed Count from decreasing that turn and deals heavy damage based on Bleed Potency.",
+    "出血回数の維持: メインターゲットは、そのターンの間出血回数が減少しない。出血が発動しても回数が減らないので、威力と回数を伸ばしたまま大ダメージにつなげられる。": "**Maintaining Bleed Count**: The main target's Bleed Count does not decrease for that turn. Bleed triggers without reducing Count, so it can lead into big damage with Potency and Count kept high.",
+    "出血依存のコイン威力: 対象の出血2につきコイン威力+1(最大6、解析Ⅲは9、Ⅳは13)。基本威力21と合わせて、解析Ⅳで最大46になる。": "**Bleed-dependent Coin Power**: +1 Coin Power per 2 Bleed on the target (up to 6, 9 at Threadspin Ⅲ, 13 at Ⅳ). Combined with 21 Base Power, it reaches up to 46 at Threadspin Ⅳ.",
+    "色欲属性ダメージ: 的中時に対象の出血威力に倍率をかけた色欲属性ダメージを与える。倍率は解析で上がり、色欲共鳴4以上でさらに上がる。出血威力は99まで。": "**Lust damage**: On hit, deals Lust damage equal to the target's Bleed Potency times a multiplier. The multiplier rises with Threadspin and further at 4 or more Lust Resonance. Bleed Potency counts up to 99.",
+    "代償: このスキル自体は出血を付与しない。攻撃後3ターン、ターン終了時に精神力が10減る。": "**Cost**: The skill itself does not inflict Bleed. For 3 turns after the attack, she loses 10 SP at each Turn End.",
+    "パッシブ「執着」: 最左方のスキルの出血威力付与量が2倍になる(1ターン1回)。": "**Passive — Obsession**: The Bleed Potency inflicted by her leftmost skill is doubled (once per turn).",
+    "出血編成で出血を積ませた敵に撃つ。出血が多いボスほど向く。": "Fire it at an enemy that a Bleed team has loaded with Bleed. The more Bleed a boss has, the better it fits.",
+    "必要資源は計10と重く、精神力の減少も続くため、長期戦の前半に使う。": "It requires 10 resources in total and the SP loss keeps going, so use it in the first half of long fights.",
+    "侵蝕スキルは多数の敵へ出血を配るもので、覚醒とは役割が違う。敵味方識別不可で味方にも当たり得る。": "The Corrosion skill spreads Bleed to many enemies, a different role from Awakening. It cannot distinguish friend from foe and can hit allies.",
+    "Ⅱ: 「執着」が解放される。核となる出血回数の維持はこの時点で使え、以降の強化は重要度が低い。": "**Ⅱ**: Unlocks Obsession. The core Bleed Count maintenance is already usable at this point, and later upgrades are less important.",
+    "Ⅲ: コイン威力の上限9、色欲属性ダメージの倍率上昇。侵蝕で出血回数も付与する。": "**Ⅲ**: Coin Power cap 9 and a higher Lust damage multiplier. Corrosion also inflicts Bleed Count.",
+    "Ⅳ: コイン威力の上限13、倍率がさらに上がる。コストに見合わず、Ⅲで運用しても支障はないと考えられる。": "**Ⅳ**: Coin Power cap 13 and an even higher multiplier. Not worth the cost; using it at Ⅲ is likely fine.",
+    "ラ・マンチャランドの姫: 出血を付与するスキルを持ち、傲慢(S1)・嫉妬(S2)・色欲(S3)の必要資源をすべて出せる。": "**[The Princess of La Manchaland](persona:0911)**: Has Bleed-inflicting skills and supplies all of the required Pride (S1), Envy (S2), and Lust (S3).",
+    "薬指野獣派ドーセント: S2・S3が出血を付与し、嫉妬(S2)・色欲(S3)の資源も出せる。": "**[The Ring Fauvist Docent](persona:0915)**: S2 and S3 inflict Bleed, and she supplies Envy (S2) and Lust (S3) resources."
+  }
+}

@@ -1,0 +1,3718 @@
+{
+  "kind": "boss-copy",
+  "id": "don-quixote",
+  "source": "src/data/bosses/don-quixote.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodDinner"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodScissor"
+        },
+        {
+          "ja": "黄金の枝の強制調律",
+          "en": "The Golden Bough's Forced Arbitration",
+          "file": "Bufs-a1c7p3.json",
+          "id": "ConfinementOfGoldenBranch"
+        },
+        {
+          "ja": "回り回る観覧車",
+          "en": "The Endless Wheel",
+          "file": "Bufs-a1c7p3.json",
+          "id": "FerrisWheel"
+        },
+        {
+          "ja": "凝結していく血",
+          "en": "Congealing Blood",
+          "file": "Bufs-a1c7p3.json",
+          "id": "Penetration"
+        },
+        {
+          "ja": "再び巡る血の衝動",
+          "en": "Returning Bloodlust",
+          "file": "Bufs-a1c7p3.json",
+          "id": "RegainedStrength"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Bufs-a1c7p3.json",
+          "id": "StarvingDonqui"
+        },
+        {
+          "ja": "着飾った血袋",
+          "en": "Well-dressed Bloodbag",
+          "file": "Enemies-a1c7p1.json",
+          "id": "90152"
+        },
+        {
+          "ja": "狂ってしまった洒落者の血鬼",
+          "en": "Insane Fashionista Bloodfiend",
+          "file": "Enemies-a1c7p1.json",
+          "id": "90154"
+        },
+        {
+          "ja": "後を追うパレードの血袋",
+          "en": "Bloodbag of the Rear Parade",
+          "file": "Enemies-a1c7p2.json",
+          "id": "8385"
+        },
+        {
+          "ja": "幸せなパレードの血鬼",
+          "en": "Bloodfiend of the Happy Parade",
+          "file": "Enemies-a1c7p2.json",
+          "id": "8386"
+        },
+        {
+          "ja": "おぞましい血袋",
+          "en": "Sinister Bloodbag",
+          "file": "Enemies-a1c7p2.json",
+          "id": "90170"
+        },
+        {
+          "ja": "祈る幽霊役の血鬼",
+          "en": "\"Ghost\" Bloodfiend of Prayers",
+          "file": "Enemies-a1c7p2.json",
+          "id": "90172"
+        },
+        {
+          "ja": "後を追うパレードの血袋",
+          "en": "Bloodbag of the Rear Parade",
+          "file": "Enemies-a1c7p2.json",
+          "id": "90174"
+        },
+        {
+          "ja": "幸せなパレードの血鬼",
+          "en": "Bloodfiend of the Happy Parade",
+          "file": "Enemies-a1c7p2.json",
+          "id": "90175"
+        },
+        {
+          "ja": "ゴンドラ",
+          "en": "Gondola",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8403"
+        },
+        {
+          "ja": "ゴンドラ",
+          "en": "Gondola",
+          "file": "Enemies-a1c7p3.json",
+          "id": "840301"
+        },
+        {
+          "ja": "凝結した夢",
+          "en": "Coagulated Dream",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8411"
+        },
+        {
+          "ja": "貫いた槍",
+          "en": "Impaling Spear",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8412"
+        },
+        {
+          "ja": "夢見る冒険の記憶",
+          "en": "Memories of the Dreaming Adventure",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8413"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837205"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837207"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999996"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999997"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838107"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838108"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "837804"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838004"
+        },
+        {
+          "ja": "捨てられて膿んだラ・マンチャランド",
+          "en": "La Manchaland, Abandoned and Festering",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "839002"
+        },
+        {
+          "ja": "永久に回る風車、大観覧車、そして吾ら",
+          "en": "The Eternal Cycle of Windmills, Wheels, and Us",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "839003"
+        },
+        {
+          "ja": "再び…再び回るのだ…。",
+          "en": "Here we go... another lap.",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "839004"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "839005"
+        },
+        {
+          "ja": "黄金の枝の強制調律",
+          "en": "The Golden Bough's Forced Arbitration",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "839006"
+        },
+        {
+          "ja": "割れ舞い散る硬血",
+          "en": "Shattering, Scattering Hardblood",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "840301"
+        },
+        {
+          "ja": "狂おしいほどに爆発しちゃいたいんです！",
+          "en": "This Explosive Insanity!",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "840302"
+        },
+        {
+          "ja": "再び巡る血の衝動",
+          "en": "Returning Bloodlust",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841001"
+        },
+        {
+          "ja": "ドンキホーテ式硬血",
+          "en": "Don Quixote Hardblood Arts",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841002"
+        },
+        {
+          "ja": "馴染みのない晩餐",
+          "en": "An Unfamiliar Banquet",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841003"
+        },
+        {
+          "ja": "家族のため…",
+          "en": "For the Family...",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841004"
+        },
+        {
+          "ja": "まだまだやれるだろう",
+          "en": "Please, try again",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841005"
+        },
+        {
+          "ja": "虚しく安逸だった夢のかけら",
+          "en": "Broken Fragment of a Futile, Naive Dream",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841101"
+        },
+        {
+          "ja": "家族に背を向けた利己的な願い",
+          "en": "A Selfish Wish at the Expense of the Family",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841102"
+        },
+        {
+          "ja": "冒険はここで終わりだ。",
+          "en": "The adventure ends here.",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841104"
+        },
+        {
+          "ja": "硬血楔拘束",
+          "en": "Hardblood Wedge Gaol",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841201"
+        },
+        {
+          "ja": "割れ舞い散る硬血",
+          "en": "Shattering, Scattering Hardblood",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841202"
+        },
+        {
+          "ja": "内側から結晶化されてゆく血",
+          "en": "Internal Blood Crystallization",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841203"
+        },
+        {
+          "ja": "固まってしまった全ての血",
+          "en": "Total Blood Coagulation",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841204"
+        },
+        {
+          "ja": "過ぎし冒険の記憶たち",
+          "en": "Memories of the Journeys Past",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841301"
+        },
+        {
+          "ja": "吸血",
+          "en": "Bloodsucking",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015203"
+        },
+        {
+          "ja": "血液硬化",
+          "en": "Blood Coagulation",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015204"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015205"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015206"
+        },
+        {
+          "ja": "血袋",
+          "en": "Bloodbag",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015207"
+        },
+        {
+          "ja": "吸血",
+          "en": "Bloodsucking",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015401"
+        },
+        {
+          "ja": "血液硬化",
+          "en": "Blood Coagulation",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015402"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015404"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015405"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017101"
+        },
+        {
+          "ja": "祝祭の音",
+          "en": "Festive Sounds",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017301"
+        },
+        {
+          "ja": "吸血",
+          "en": "Bloodsucking",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017302"
+        },
+        {
+          "ja": "血液硬化",
+          "en": "Blood Coagulation",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017303"
+        },
+        {
+          "ja": "血袋",
+          "en": "Bloodbag",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017305"
+        },
+        {
+          "ja": "祝祭の雰囲気",
+          "en": "Festive Mood",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017501"
+        },
+        {
+          "ja": "吸血",
+          "en": "Bloodsucking",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017502"
+        },
+        {
+          "ja": "血液硬化",
+          "en": "Blood Coagulation",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017503"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017505"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017506"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "837404"
+        },
+        {
+          "ja": "ドンキホーテ流硬血4式 - 抉り抜き",
+          "en": "Don Quixote Hardblood Arts 4 - Sundering",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838005"
+        },
+        {
+          "ja": "終わらぬ祝祭",
+          "en": "The Infinite Parade",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "839001"
+        },
+        {
+          "ja": "永久なる祝祭",
+          "en": "The Eternal Festival",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "839002"
+        },
+        {
+          "ja": "だしてください！！！だしてください！！！",
+          "en": "LETMEOUT!!!LETMEOUT!!!",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "840301"
+        },
+        {
+          "ja": "ばくはつする！！ばくはつする！！！！",
+          "en": "IT'S ABOUT TO BLOW!!!!!",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "840302"
+        },
+        {
+          "ja": "ファンファーレ！",
+          "en": "The Fanfare!",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "840303"
+        },
+        {
+          "ja": "燃えるような渇き",
+          "en": "Burning Thirst",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841001"
+        },
+        {
+          "ja": "ドンキホーテ流硬血2式 - 杭",
+          "en": "Don Quixote Hardblood Arts 2 - Stake",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841003"
+        },
+        {
+          "ja": "硬血式楔",
+          "en": "Hardblood Wedge",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841004"
+        },
+        {
+          "ja": "血の欲望",
+          "en": "Desire for Blood",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841005"
+        },
+        {
+          "ja": "血餐の時間",
+          "en": "Moment of Bloodfeast",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841006"
+        },
+        {
+          "ja": "ドンキホーテ流硬血4式 - 抉り抜き",
+          "en": "Don Quixote Hardblood Arts 4 - Sundering",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841007"
+        },
+        {
+          "ja": "ドンキホーテ流硬血14式マント",
+          "en": "Don Quixote Hardblood Arts 14: Mantle",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841008"
+        },
+        {
+          "ja": "脆い、脆いな",
+          "en": "Frail, So Frail",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841009"
+        },
+        {
+          "ja": "ドンキホーテ流硬血奥義 - 球",
+          "en": "Ascendant Don Quixote Hardblood Arts - The Sphere",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841012"
+        },
+        {
+          "ja": "ドンキホーテ流硬血奥義 - ラ・サングレ",
+          "en": "Ascendant Don Quixote Hardblood Arts - La Sangre",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841013"
+        },
+        {
+          "ja": "輝く冒険の記憶",
+          "en": "Shining Memories of the Adventure",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841301"
+        },
+        {
+          "ja": "硬血式突き",
+          "en": "Hardblood Stab",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015201"
+        },
+        {
+          "ja": "硬血式切り払い",
+          "en": "Hardblood Cleave",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015202"
+        },
+        {
+          "ja": "硬血式強化切り払い",
+          "en": "Hardblood Powercleave",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015203"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015204"
+        },
+        {
+          "ja": "硬血式楔",
+          "en": "Hardblood Wedge",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015301"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015304"
+        },
+        {
+          "ja": "祭りだ祭り！",
+          "en": "It's a Festival, a Festival!",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015401"
+        },
+        {
+          "ja": "服着せてあげる",
+          "en": "Let's Dress Up",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015402"
+        },
+        {
+          "ja": "イベントが残ってる！",
+          "en": "We've an Event for You!",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015403"
+        },
+        {
+          "ja": "急かさないで",
+          "en": "Don't Rush Me",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015404"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015405"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p1.json",
+          "id": "9015505"
+        },
+        {
+          "ja": "硬血式振り回し",
+          "en": "Hardblood Lash",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9016902"
+        },
+        {
+          "ja": "硬血式強化打撃",
+          "en": "Hardblood Strike",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9016903"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9016904"
+        },
+        {
+          "ja": "硬血式振り回し",
+          "en": "Hardblood Lash",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017002"
+        },
+        {
+          "ja": "硬血式強化打撃",
+          "en": "Hardblood Strike",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017003"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017004"
+        },
+        {
+          "ja": "質問に答えてください。",
+          "en": "Please answer the survey.",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017101"
+        },
+        {
+          "ja": "話の腰を折らないでください！",
+          "en": "Don't! Don't Cut Me Off!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017102"
+        },
+        {
+          "ja": "色褪せた忍耐",
+          "en": "Faded Patience",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017103"
+        },
+        {
+          "ja": "終わりなき告解",
+          "en": "Endless Atonement",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017104"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017105"
+        },
+        {
+          "ja": "質問に答えてください。",
+          "en": "Please answer the survey.",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017201"
+        },
+        {
+          "ja": "話の腰を折らないでください！",
+          "en": "Don't! Don't Cut Me Off!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017202"
+        },
+        {
+          "ja": "色褪せた忍耐",
+          "en": "Faded Patience",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017203"
+        },
+        {
+          "ja": "終わりなき告解",
+          "en": "Endless Atonement",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017204"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017205"
+        },
+        {
+          "ja": "硬血式縦斬り",
+          "en": "Hardblood Downward Cut",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017301"
+        },
+        {
+          "ja": "硬血式削り取り",
+          "en": "Hardblood Carve",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017302"
+        },
+        {
+          "ja": "硬血式強化展開",
+          "en": "Hardblood Power Unfurling",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017303"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017304"
+        },
+        {
+          "ja": "硬血式振り回し",
+          "en": "Hardblood Lash",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017401"
+        },
+        {
+          "ja": "硬血式強化展開",
+          "en": "Hardblood Power Unfurling",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017403"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017404"
+        },
+        {
+          "ja": "幻想的なお祭りへお越しください！",
+          "en": "Welcome to the Festival of Wonders!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017501"
+        },
+        {
+          "ja": "楽しいパレードに加わってください！",
+          "en": "Join the Joyful Parade!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017502"
+        },
+        {
+          "ja": "幸せの笑顔を花開かせましょう！",
+          "en": "Blossom your Smiles of Joy!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017503"
+        },
+        {
+          "ja": "永久なる幸せの王国ラ・マンチャランド！",
+          "en": "Eternal Kingdom of Happiness, La Manchaland!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017504"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017505"
+        },
+        {
+          "ja": "幻想的なお祭りへお越しください！",
+          "en": "Welcome to the Festival of Wonders!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017601"
+        },
+        {
+          "ja": "永久なる幸せの王国ラ・マンチャランド！",
+          "en": "Eternal Kingdom of Happiness, La Manchaland!",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017604"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9017605"
+        },
+        {
+          "ja": "硬血式突き",
+          "en": "Hardblood Stab",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016201"
+        },
+        {
+          "ja": "硬血式切り払い",
+          "en": "Hardblood Cleave",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016202"
+        },
+        {
+          "ja": "硬血式強化切り払い",
+          "en": "Hardblood Powercleave",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016203"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016204"
+        },
+        {
+          "ja": "祭りだ祭り！",
+          "en": "It's a Festival, a Festival!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016601"
+        },
+        {
+          "ja": "服着せてあげる",
+          "en": "Let's Dress Up",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016602"
+        },
+        {
+          "ja": "イベントが残ってる！",
+          "en": "We've an Event for You!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016603"
+        },
+        {
+          "ja": "急かさないで",
+          "en": "Don't Rush Me",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016604"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016605"
+        },
+        {
+          "ja": "質問に答えてください。",
+          "en": "Please answer the survey.",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016701"
+        },
+        {
+          "ja": "話の腰を折らないでください！",
+          "en": "Don't! Don't Cut Me Off!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016702"
+        },
+        {
+          "ja": "色褪せた忍耐",
+          "en": "Faded Patience",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016703"
+        },
+        {
+          "ja": "終わりなき告解",
+          "en": "Endless Atonement",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016704"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016705"
+        },
+        {
+          "ja": "幻想的なお祭りへお越しください！",
+          "en": "Welcome to the Festival of Wonders!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016801"
+        },
+        {
+          "ja": "楽しいパレードに加わってください！",
+          "en": "Join the Joyful Parade!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016802"
+        },
+        {
+          "ja": "幸せの笑顔を花開かせましょう！",
+          "en": "Blossom your Smiles of Joy!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016803"
+        },
+        {
+          "ja": "永久なる幸せの王国ラ・マンチャランド！",
+          "en": "Eternal Kingdom of Happiness, La Manchaland!",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016804"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-a1c7p3.json",
+          "id": "9016805"
+        },
+        {
+          "ja": "ブラッディー・メアリ－・ゴー・ラウンド",
+          "en": "Bloody-Merry-Go-Round",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841010"
+        },
+        {
+          "ja": "硬血式引っ叩き",
+          "en": "Hardblood Thrash",
+          "file": "Skills_Enemy-a1c7p2.json",
+          "id": "9016901"
+        },
+        {
+          "ja": "抱いてはならぬ無責任な夢であったのだ",
+          "en": "I never should've dreamed this irresponsible dream",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "841103"
+        },
+        {
+          "ja": "血の渇き",
+          "en": "Thirst for Blood",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017304"
+        },
+        {
+          "ja": "硬化血液",
+          "en": "Coagulated Blood",
+          "file": "Bufs-mowe.json",
+          "id": "HardenedBlood"
+        }
+      ],
+      "note": "Guide spelling variants are resolved against paired Canto VII records. The guide alias for Shimmering is matched to SwirlingBlood by its Shield persistence, 5 Bleed retaliation, and 3 Fragile effects. The guide spellings for Hardblood and Blood Armor both refer to the localized BloodArmor status, Hardblood. Original guide conditions and numeric values are retained."
+    }
+  },
+  "scopedTerms": [
+    "血の乾き",
+    "飢えと老衰",
+    "第2眷属の揺らぎ"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "987c3fda139724bfad435f79a937d589d87def59931a6556a1159c46006ebb43",
+      "text": "Don Quixote (Canto VII Final Boss)"
+    },
+    "shortName": {
+      "sourceHash": "c4ba266ab2b2329cf09428e3b0f3f90a79f6c1d35cf14a8b72e609ee8573f2ef",
+      "text": "Canto VII Final Boss"
+    },
+    "stageName": {
+      "sourceHash": "f8c8570318aa955c76006c77bdcc6ac6a189d853b639454af4c1c8b79158bd0e",
+      "text": "The Tale of the Great Fixer Who Sought the Dream: Final Battle"
+    },
+    "statNote": {
+      "sourceHash": "d6d5ac876dd7394128a30a037c01cebd59699b53900d78708429a5f332f45929",
+      "text": "Enemy levels are base values for the Canto VII dungeon versions. Both main-body forms' Defense and skill levels account for Withered and the Golden Bough's Forced Arbitration, totaling −40. Adds show values before individual modifiers. Mirror Dungeon-only damage reductions are excluded."
+    },
+    "lead": {
+      "sourceHash": "1e8131e5ca725e04144b8de48528b248d8bf0df07f159a84e8c21e6dcfa43513",
+      "text": "A long encounter: clear adds during the Ferris Wheel phase, then manage Bleed and restraints in the humanoid phase. Have allies defeat Coagulated Dreams to turn them into support and prepare for the big attacks."
+    },
+    "listLead": {
+      "sourceHash": "33136fe44c23a19b3116a5e15fabb69709827c8fdd881ad60b1967123f652293",
+      "text": "A long fight: handle adds in the first form, then manage Bleed and restraints in the second. Have an ally defeat the crystallized dream to turn it into support and prepare for major attacks."
+    },
+    "priorities.0": {
+      "sourceHash": "c293d90bec0bd8cd610cc8f4149f4237884fa2210cbccbfae5f273c8c1435083",
+      "text": "Do not try to damage the Ferris Wheel directly. Handle Gondolas and self-destructing adds."
+    },
+    "priorities.1": {
+      "sourceHash": "ead7cdeef8eb5ba81f9988dd1d15c7b7415ebd636ddac68f331d0cfd70615e33",
+      "text": "Aim to win against Unbreakable attacks too, adjusting action order for Sinners with accumulated Bleed."
+    },
+    "priorities.2": {
+      "sourceHash": "fb726b186ddfe047abcd40c8281996400e795aa12909ff78e162fec9088d43aa",
+      "text": "Have allies quickly destroy Spears to free Sinners. Defeat Coagulated Dreams with allies too, gaining support for the big attack."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "d0b99d01662719e647aee0cb6ae71ad31b5f584c35bf16b88f14ceca0c9fc0bc",
+      "text": "The Ferris Wheel loses no HP"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "77d65b804cef0804522f3686e04feb5d136d874e14c3a0da9c19853acd1927c3",
+      "text": "This phase is not about directly damaging the main body. Defeat Gondolas to reduce The Endless Wheel. Equip Defense Skills on everyone to handle the summoning area attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "4d59d6fca721d7ddc8857038919babc7d39dbabe55c6ada50acafb7e4a98c417",
+      "text": "Allies die despite winning clashes"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "d9eed7b1aa01ba21521460d2a758e61c797e080a19349f67967abf98ecc7f84c",
+      "text": "Unbreakable attacks and Bleed both remain. Early in the humanoid phase especially, check whether heavily Bleeding Sinners can act before receiving more Bleed. Use reserves to recover too."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8339be7dac6fd5d626e973506364e332588e4ab5622253684efd455ddac46f60",
+      "text": "An ally is trapped in a Spear"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "ac024f76bff34e5d39ab9d8b5e5a92a2cc04be9fea0de33554ca14d4de8650c4",
+      "text": "Destroy the Impaling Spear quickly with allied attacks. Leaving it alone or letting the boss kill it causes more harm. Removing the Spear releases its corresponding ally next turn."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "2cd6d0d9eb6bdc670b77bf24de39e7d1e8b72ebdfa412fce9266e7eaa72bd7a5",
+      "text": "HP recovers or the turn ends after dealing damage"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "ce6fe26a0071822f080b9f5e0f189bde9f9e27a61fb04f7027f8529a3a2ea9cb",
+      "text": "HP-based phase transitions prevent clearing everything in a single burst. Check the enemy's next skill and remaining Dreams and Spears, then advance the mechanics."
+    },
+    "units.0.name": {
+      "sourceHash": "b75b380338efbe1c47885d7a9cbba3e2174fb8c701eae82c7ba54ee920d56713",
+      "text": "Don Quixote (Humanoid)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "aacad58459971e405f19d3c9faefe428511f99bf289f5cda90d4a3b60a0d47c0",
+      "text": "4026 (ending event near 20%)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "6c40446f59c0f94797bb1a9ded4bfc78211ba234c190bf9badd160102edfa3ad",
+      "text": "73% / 30% HP (2938 / 1207)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "b73733726c450d5f45ae283741696442364f34e21df219f13a8aac87fb49a7ce",
+      "text": "Base Lv.90, but starts with a total −40 to Offense and Defense Levels. Defense Level 92 becomes 52 after modifiers. Recommended development target: Lv.50."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "0509df59c62688de6fa3d46d3094097c1a3379c014c5ebba9a77f151e017c3ce",
+      "text": "Patterns change or turns end forcibly near 75%, 60%, 40%, and 20% HP. Exact boundaries have some uncertainty, so do not plan progression using a fixed damage calculation alone."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "66a50d306fa5992e8e2984cf112440adbb8faf3114e2de33e712eee4d6acc227",
+      "text": "Cannot be Staggered before using Sundering and The Sphere. Do not assume Stagger can always skip a big attack."
+    },
+    "units.1.name": {
+      "sourceHash": "ec1f8b2080b28db3c471df5d75deed498c4edc37e0f3e888a8e0520d685a9a37",
+      "text": "Don Quixote (Ferris Wheel)"
+    },
+    "units.1.part": {
+      "sourceHash": "6b1acebb89d8df00c7d8665f19d9e129fd7c9f9572b3348ecdcca53b417c6196",
+      "text": "The Wheel of La Manchaland"
+    },
+    "units.1.hp": {
+      "sourceHash": "572a1adb666c54a53bec5baf42156d2a4e94c36240630077321e9846232f1140",
+      "text": "4692 (do not damage directly)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "67f2c89a7a1093f1e2420b275c06536124194d8b046a6704d803695e3ad09d35",
+      "text": "No HP Stagger Thresholds"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "2d52b1808e88bf46de66eed5c5702e3113d0b2471f0fcb505194d585df47a411",
+      "text": "The encounter's first form. Direct skills and status effects do not reduce its HP."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "f8a898ce57cd92ee43d14e9fc14b1d12db9a89feb09503af5d6ab96767bcda7c",
+      "text": "Clear Gondolas to reduce its special effect and advance to the humanoid form."
+    },
+    "units.2.name": {
+      "sourceHash": "acd1b0088611a1df4a349bc8e76d531bc8918203f5e2cd2a2518546191cc2fad",
+      "text": "Gondola"
+    },
+    "units.2.part": {
+      "sourceHash": "acd1b0088611a1df4a349bc8e76d531bc8918203f5e2cd2a2518546191cc2fad",
+      "text": "Gondola"
+    },
+    "units.2.stagger": {
+      "sourceHash": "be419ccc001a46db6144a36ed66d2d3a617f13f564816f2a9482f4c9ae27a2b5",
+      "text": "No Stagger Thresholds"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "0dc2b9cd679ae9089c1c01d2e6233e83db4788f5e6705ff003db52336a1e2ef5",
+      "text": "7 in total. Remaining Gondolas later return with their HP carried over even if they retreat midway."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "7dca040c406e1a52a2a8dd495bddd769c13fb10da1f9cf001361054d416c2bc2",
+      "text": "Defeating them with allied attacks rather than self-destruction also grants E.G.O resources."
+    },
+    "units.3.name": {
+      "sourceHash": "d67c4b350f9f9f5250650d8b4fd6d536b57f6fba1b6f72961a5c5904ca66f578",
+      "text": "Impaling Spear"
+    },
+    "units.3.part": {
+      "sourceHash": "d0118d87d73933184b8f3a62d0a3f0c31a1d43b8793c986404985697f6eea83d",
+      "text": "Hardblood Fragment"
+    },
+    "units.3.hp": {
+      "sourceHash": "a67c45f375e405cec41713e5f1fd538773f8cbf6a5278a22d60c83e7241b09d7",
+      "text": "Overall 165 / Part 108 (listed values)"
+    },
+    "units.3.stagger": {
+      "sourceHash": "18c6491b7e1af33535ed788522b15b804522974e9787d3113c460ff9c64a659d",
+      "text": "50% part HP (54)"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "825185e6b16ab53a020cd5ee3494cdc961e8163b5676eae9f87214649840e492",
+      "text": "A special unit that restrains a Sinner. Overall and part HP are listed separately because the values differ. Check the targeted part's HP on screen."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "9e54c492e0bcde1c8b969fff919f1cc780e3fd1fdb2c4a56f6be621ca916b476",
+      "text": "Has no separate Attack Skill table. Rescue, timeout, and boss-kill conditions are listed under passives."
+    },
+    "units.4.name": {
+      "sourceHash": "e1fbd0231db3b37724809b6a5f171b31b54ace3d4e133c21247e01020e09c63b",
+      "text": "Coagulated Dream"
+    },
+    "units.4.part": {
+      "sourceHash": "3cf144c6daa99a90a709951d435f38955e336918847f1ce78355c3bbdd80aedf",
+      "text": "Dreamshard"
+    },
+    "units.4.stagger": {
+      "sourceHash": "688ab86e25ef96c11d95ee1ffbcc699f908a7ebfa0a5137716b5e8b74b5b8626",
+      "text": "60% / 30% HP (99 / 49)"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "75e4bd6f639d8bac0bb65c434b96a4d06773ac310e40d6e2c217a58aaed06f59",
+      "text": "4 horse-shaped units appear in the latter half. Supply Shield to the boss while present."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "14dd66c4275a0e2ee9579407d67efdc8152d53321f85c171ff45db3c137ad42b",
+      "text": "When a Sinner defeats one, it becomes Memories of the Dreaming Adventure and supports allies. Has no separate Attack Skill table."
+    },
+    "units.5.name": {
+      "sourceHash": "5a36a0f77e4eb057024eec6f1abc0723fc87cb117ad9ac1c9d16f5c78764c7bf",
+      "text": "Memories of the Dreaming Adventure"
+    },
+    "units.5.part": {
+      "sourceHash": "6415e8bda08ed724c0f6d4e2e7906c0bd9876a109c7daff25fb550c0bf7d275e",
+      "text": "Memories of the Adventure"
+    },
+    "units.5.stagger": {
+      "sourceHash": "be419ccc001a46db6144a36ed66d2d3a617f13f564816f2a9482f4c9ae27a2b5",
+      "text": "No Stagger Thresholds"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "d2ea8ac6074d9e261cd90966e46310f371ca66ca2b3b4bdb23f7f559686417cd",
+      "text": "A unit supporting the Sinners, not an enemy to defeat."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "97ff99f0bf29132d7182d99be6ddb3db5450b7986139469ff14399dafae6958c",
+      "text": "Its buffs for allied Don Quixote change into Shield support for The Sphere."
+    },
+    "units.6.name": {
+      "sourceHash": "ad8d464b103372591830f49a64aa999a3263847f585fb1196dfc682a39bb6a25",
+      "text": "Well-dressed Bloodbag"
+    },
+    "units.6.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.6.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.6.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "units.7.name": {
+      "sourceHash": "20c2296b1926c82032fd3be77aa3b38044879cd95644637f546c726665f2b180",
+      "text": "Sinister Bloodbag"
+    },
+    "units.7.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.7.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.7.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "units.8.name": {
+      "sourceHash": "f2ee80e666182869d25841171ed12c4c2bb73fc31f0649d77bdf1fc4a06ef2f2",
+      "text": "Bloodbag of the Rear Parade"
+    },
+    "units.8.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.8.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.8.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "units.9.name": {
+      "sourceHash": "b7767de0fa8050125e69605e82f6e2dc70028046e0ba14ca02029724c4c0c4ad",
+      "text": "Insane Fashionista Bloodfiend"
+    },
+    "units.9.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.9.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.9.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "units.10.name": {
+      "sourceHash": "23ff1ea77d353ff4ce321394031537437a944e473fab3c02d714e1b01409bdfb",
+      "text": "\"Ghost\" Bloodfiend of Prayers"
+    },
+    "units.10.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.10.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.10.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "units.11.name": {
+      "sourceHash": "d1d0e93a2549995f9ea6fbe86d9a4f1f73dab86e67b37f701734c78eb4b1776f",
+      "text": "Bloodfiend of the Happy Parade"
+    },
+    "units.11.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.11.notes.0": {
+      "sourceHash": "7f13bf73286b73e15b7524db61f98da98baf11bdc67d6873f41023eb972e83bd",
+      "text": "HP, resistances, and Speed are specific to this boss encounter, separate from regular-stage values."
+    },
+    "units.11.notes.1": {
+      "sourceHash": "1e13d8033a47650592f59b4474289e53648ea420c3905a43701200bd37cfe933",
+      "text": "In addition to regular skills, uses an Unclashable self-destruct attack the turn after appearing. Stagger or kill it first."
+    },
+    "phases.0.timing": {
+      "sourceHash": "0e9e4d94900bdda109b6a3ecda3ef99149f1bdf8cbe57906041b238dc5c0c27e",
+      "text": "Ferris Wheel"
+    },
+    "phases.0.title": {
+      "sourceHash": "0f68859c1af3637adc4e054cf9b9b5c67e0fec834bb1590d7014a02ef7cbd758",
+      "text": "Destroy Gondolas and stop self-destruction before it acts"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "73c60e2a01efc2bdd36e1edbe8f1f8c7fe98b6f59a9c1144f2d15b6f5fa6c78d",
+      "text": "Bloodbags and Bloodfiends use an Unclashable self-destruct attack the turn after appearing. Stagger or kill them beforehand rather than trying to clash."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "3c44f6e4874bb86619830fc024a771b059ff89750b5e0e23b59c110cfd50a19f",
+      "text": "Clear Gondolas too, bringing The Endless Wheel to 0. Remaining units reappear later; do not confuse retreat with defeat."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "f0b164a9cabece7f632f0aaa9af6a7293deae78872adddcc04d152e82c3bea32",
+      "text": "The Infinite Parade and The Eternal Festival deal no damage to targets using Defense Skills. Equip Defense Skills in everyone's action slots before they arrive."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "079faee1fefbe1501f593e80aba64291b342f89cdcbf5a1ae0bed97754d43aa4",
+      "text": "Few clashes make SP harder to build in this phase. Prepare SP recovery, desired E.G.O passives, and Identity mechanics here."
+    },
+    "phases.1.timing": {
+      "sourceHash": "2bac7e851bb59216c443174e82777369171b5cd62b0aa384c79465d4f9f760fd",
+      "text": "Humanoid / above roughly 75% HP"
+    },
+    "phases.1.title": {
+      "sourceHash": "610d699bd880f9493394de72f1c8b49fad2f92215c0918ac23868194a2f85c42",
+      "text": "Assign clashes around area-attack order and Bleed"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "23fd6b196c8e3c27f6a1748d14c0ecbe7dab3ba5062c6fb0327f2f4b6883a875",
+      "text": "As an opening guideline, clash with Desire for Blood → Moment of Bloodfeast → Hardblood Arts 14: Mantle. Account for Moment of Bloodfeast raising enemy SP and Bloodlust, then reduce Bloodlust by beating Mantle afterward."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "b3177dcaa7acc021c0235fc0ae1a0323781fa615bddefaf20fc55b9ce3057d8e",
+      "text": "Several Hardblood Wedge area attacks can appear with Unbreakable Coins. Check Speed order and all targets to avoid stacking them on heavily Bleeding Sinners."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "a1a246fbf75b4361c98e99d383237954dc86cac01101ed472de81b99d403efe4",
+      "text": "Action order matters: act before gaining Bleed, or consume existing Count before taking another hit. If Bleed would kill a Sinner before their attack, use healing, defense, or reserves to recover."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "b4b5839b829f5b0211c86b7ddd0762fa72922a91c6e4ddba07f5c981e4702176",
+      "text": "The restraining Sloth version of Be Impaled has an Unbreakable second Coin. If hit, have allies quickly destroy the Spear. If an Identity can Evade, check its Evade Power and prediction too."
+    },
+    "phases.2.timing": {
+      "sourceHash": "7ed4bb09e61cd4c30bf5a754f0e4d6445d0f38637513a6bd2912fe8a97cdb95f",
+      "text": "Around 75% HP / Sundering"
+    },
+    "phases.2.title": {
+      "sourceHash": "22df185893034cc27e4e2f867f69333ad29bfdecc7672393b4e2ddcca9a0cee5",
+      "text": "Beat the big attack and make time for healing and Bleed management"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "a47b15997b251253382764ea16b1fa325d6cc999c3f672e4efd5299f6fd316ff",
+      "text": "Hardblood Arts 4 - Sundering gains Clash Power from cumulative Bloodfeast consumed. Win with a high-Power clasher to halve damage and prevent Stagger from this skill."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "5fd7b8d450d000cb33543e45d41cb1742829771e4a3fd824a66d8315d27e48d3",
+      "text": "After use, enemy Offense and Defense Levels drop, and the Stagger at 73% HP is close. Stabilize allied HP and Bleed Count rather than rushing straight to the next boundary."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4ff1bfb9b30a92b1e7d034e572b3e90a6ec2048f4fc378cefe939203748f13d7",
+      "text": "Around 60% HP, advance to the latter half. Save strong skills and actions for handling Dreams and the returning area attacks."
+    },
+    "phases.3.timing": {
+      "sourceHash": "ea368010339be5755c60d3d3280b890aaea3215df863eebe3095f4a560a82ca8",
+      "text": "Latter humanoid phase / roughly 60% HP or below"
+    },
+    "phases.3.title": {
+      "sourceHash": "0d8f5ffd34d28ecfd2a7291e2694daaf09d10898bc3590f81a6cb9d2032b2b14",
+      "text": "Have Sinners defeat all 4 Coagulated Dreams"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "eda28a59cdb521fed6560026f93703b66a83d20e6ec4b9773b022fa32c8b7035",
+      "text": "Bloody-Merry-Go-Round is Unclashable. Use defense to endure it and prepare to handle the 4 Dreams that appear next turn."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "af3a188371e42b331f2efa31d5ae50f60aa3129201ca942d6b39821d47802828",
+      "text": "Dreams supply Shield while alive. Rather than insisting on attacking the boss, have Sinners land the kills to transform Dreams into support Memories."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "25e438bad3b6561aae4036244e806db60fe381e0b58ebd2ba714828475dbbbe6",
+      "text": "If the boss kills a Dream, the Sinners take Lust damage and heavy Bleed. Clear Dreams first with allies and secure the support needed."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "4f593ef4db68b3a69a8532ec7434f4a57ac9706715a6d86197a34166c25fdb4f",
+      "text": "Early in the latter half, if possible clash with Hardblood Wedge before Moment of Bloodfeast. This handles area attacks before the enemy gains more Bloodlust."
+    },
+    "phases.4.timing": {
+      "sourceHash": "beb83de1023e6663023f9c8f9dbcad64c9825167b8ca16c9f31ed3654f4a3dda",
+      "text": "Around 40% HP / The Sphere"
+    },
+    "phases.4.title": {
+      "sourceHash": "b6e7f3571e6296b738959ca875784110662e63417f012d08f3c136959f02a100",
+      "text": "Use Memories' support to survive the big attack, then damage the main body"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "4e23161c089ee43345469c0dfcda8bae79012c9458a3ad5f0b98f22ce7e47eb6",
+      "text": "Memories created by allied Dream kills convert their support into allied Shields on this big-attack turn. Finish handling Dreams before it arrives."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "3d1678f06bb77f2fb3c105d66eeaf3f9bf0c6c1bd5055e0f56be372a9333ad4c",
+      "text": "The Sphere has high Power and 2 Unbreakable Coins. Check that support is ready rather than repeatedly spending E.G.O solely on clash odds."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "fd0d62af3c54a9bb56e8ecd875a92fa564d31b730ef39d76b11621750d47223e",
+      "text": "After use, all Bloodlust is consumed and the boss gains Fragile and Bind. Check remaining Spears and Bleed, then focus attacks on the main body to reach the ending event near 20%."
+    },
+    "phases.5.timing": {
+      "sourceHash": "ee953d62d68754f75aab3eca685ca759e75ef1ece15390f58afa592a55719109",
+      "text": "Ending event"
+    },
+    "phases.5.title": {
+      "sourceHash": "be288cbd6121c0da756175090f748b8d4079a9fab950f62b9bbc324c67f6a506",
+      "text": "Follow the prompts and use the special E.G.O"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "8c1ef12a8c3a9605702f3195516b1c70cfd9a952ef5a68c480bf2abc0fd083a5",
+      "text": "Other Sinners leaving and resources becoming 0 are part of the event. Do not mistake it for a normal team wipe."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "c5b448449dddb4b36722029f9850e9f85124e04ff31baea64425327781e2d845",
+      "text": "Follow the prompts to use SUPERBIA from the Sapling of Light, then select Don Quixote's La Sangre de Sancho. Clash with the designated opponent even if the prediction is extremely unfavorable."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "b4b1d6d80292598448773cab007d5544fb97294d1696934205732e989b3e4baa",
+      "text": "During the weapon-lock sequence, follow the on-screen button or Space-key prompts. You do not need a regular team capable of beating this 99 Power."
+    },
+    "skills.0.name": {
+      "sourceHash": "39eccfe64f1a840cfeec1721ecc4c316a8ec03cfa28270dbf047b12cabae459c",
+      "text": "The Infinite Parade"
+    },
+    "skills.0.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "1c7ee81869747f20b1cdab86c2c1ef8a538746046a49fd57d11dae7a0cac10fb",
+      "text": "Unclashable. Damage −100% if the target uses a Defense Skill."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "5e9e4f3ec537ceff53e4e3b0563862582838a4a6dd39dd449476f3f35255e2cc",
+      "text": "[On Use] Create 1 Gondola next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "745a4b3651bcc1e820d86854a70e5a79fd62975cfb10ae66ae8729ae69493b5e",
+      "text": "Equip a Defense Skill to receive it. This is not a clash to answer with an Attack Skill against its predicted Power."
+    },
+    "skills.1.name": {
+      "sourceHash": "bfdbb65d734fbd44f1333c59db8ad6e90c0fe85351c710e5945eeda05a3e2979",
+      "text": "The Eternal Festival"
+    },
+    "skills.1.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "1c7ee81869747f20b1cdab86c2c1ef8a538746046a49fd57d11dae7a0cac10fb",
+      "text": "Unclashable. Damage −100% if the target uses a Defense Skill."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "3c6199aea9b4d59b8e53bdceab957905a58f16849a7d591bedcb1f6d3ce0a940",
+      "text": "[On Use] Create 4 Gondolas next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "745a4b3651bcc1e820d86854a70e5a79fd62975cfb10ae66ae8729ae69493b5e",
+      "text": "Equip a Defense Skill to receive it. This is not a clash to answer with an Attack Skill against its predicted Power."
+    },
+    "skills.2.name": {
+      "sourceHash": "c83d3b07f87ae212a4196b16011aa1283c02ddb6d956633dc998de4efd02d992",
+      "text": "LETMEOUT!!!LETMEOUT!!!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "216bcb1ae93ce357a13b407bb0b0c72cdbe2ad0b1e62d2aa0b7be429166d4aee",
+      "text": "Uses an exploding skill next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "bc943dd18a193e5c478511c0463d4c2a28881668ec6d6ced8b4c77de590c57a4",
+      "text": "Defeat it before the explosion. A defending enemy is not safe to ignore here."
+    },
+    "skills.3.name": {
+      "sourceHash": "417f22fdb42876f1106a8ef189706eeac63269e422edae2c75366008a1b4a4b3",
+      "text": "IT'S ABOUT TO BLOW!!!!!"
+    },
+    "skills.3.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "60d0288dc8bcf0341d7fb2ed5978dc5c8b97d3d0e8b846b715bac7dae9998fa6",
+      "text": "Unclashable. [Combat Start] Gain 3 Fragile."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "f424bbc22104d5963c711dc28a3c7d9537b2b1ac280592082f7cf6b371799483",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then die."
+    },
+    "skills.3.response": {
+      "sourceHash": "24f7c6aad8a515c4329691ac594402633c4d25638d6997774cd145fe46096d29",
+      "text": "Aim to kill it before it acts. It is Unclashable; assigning an attack does not by itself stop it."
+    },
+    "skills.4.name": {
+      "sourceHash": "2ab8d28c2de39d1f43f24f0ac21503d40a4b5452a92e873087e8d19daa3f5613",
+      "text": "Burning Thirst"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "996a3ba19928ceddf45795f9e41fa9f2f989e4809e13b15174445737df4065b5",
+      "text": "[On Use] Base Power +1 per 5 Bleed on the target (max 3). Consume up to 30 Bloodfeast; gain 1 Bloodlust per 10 consumed."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "a6bdb0c5b92a12e98f482d7a4bb882693643f5de524e22b693721a4cf859998a",
+      "text": "[Clash Lose] SP −3."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "15aafbcc9d8bb615d8a1bcd85d8d60f883c124889934b1ce0a1d46860986a3e9",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 3 Bleed."
+    },
+    "skills.4.response": {
+      "sourceHash": "96cfde534aa4ca4b9134b00e87dae7698a63cb57f9910631965e1ad5fdb41e0e",
+      "text": "Stronger against Bleeding allies. Avoid forcing weak clashes against a regular attack; save responses for the remaining area attacks and restraints."
+    },
+    "skills.5.name": {
+      "sourceHash": "4c3ed6f95abb08ccb6f7cfc4f9782187314a774134b47101fad64e4a6496add2",
+      "text": "Be Impaled (Wrath)"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "689ea0a267ab830a00416e310fa9eed24c62b9df017eae10899cb2c3c2db42e2",
+      "text": "[On Use] Consume up to 40 Bloodfeast; gain 1 Bloodlust and heal 3 SP per 10 consumed."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "e2e32781d2e6819b30fdd2caf79354e2dda51fde23b12a383f2a9b14a01f123b",
+      "text": "[Clash Lose] SP −3 and Bloodlust −3. Gain 3 Defense Level Down next turn."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "67e5fe4a55f0fcd17442a7d9f60bcde8f2665b33e16a66ff22f8574165b8f11d",
+      "text": "Ⅰ・Ⅱ：[On Hit] Deal additional Lust damage equal to 20% of the target's max HP."
+    },
+    "skills.5.response": {
+      "sourceHash": "5f5bc12a86f68ec83b2a67d6a1aa1bb26d6eebc5477dc6b3f88977d44c438976",
+      "text": "Separate from the restraining Sloth version. Win to prevent the large percentage-based damage and reduce Bloodlust."
+    },
+    "skills.6.name": {
+      "sourceHash": "294090cbfb76d6a1160d3ddecc732fd0172a33b9f180c88acc962c40fc9e6af5",
+      "text": "Don Quixote Hardblood Arts 2 - Stake"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "f380f6f6fd9592be5bb0f6753d1733c176911b3c1c5bf0aa98da4d0c3e215ec8",
+      "text": "Targets the unit with the most Bleed. [On Use] Coin Power +1 per 5 Bleed on the target (max 2)."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "cf6cc7ba3370083c8a40753abe719122b3504f1d1f2b5ff425ceba3337c6a54f",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 2 Bleed and 2 Rupture."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "c52d5fcb903d18730c939ed47331b95b574b646ac76cf9eab4744c0dfb6a1b63",
+      "text": "Ⅲ：[On Hit] Deal additional Lust damage equal to the target's Bleed Potency × Count."
+    },
+    "skills.6.response": {
+      "sourceHash": "c95fdeeb3c6f80fb3d78115c256ebb6e24b1cf1e13b9f8be4df0786180e3cfd0",
+      "text": "Prevent heavy damage against allies with stacked Bleed. Reassess the target and clash prediction every turn."
+    },
+    "skills.7.name": {
+      "sourceHash": "743868bec537bfaa00f7cb3bfcec06484f5a536bb20063e02e8b0568d75c772b",
+      "text": "Hardblood Wedge"
+    },
+    "skills.7.label": {
+      "sourceHash": "be1568802d27e376134fb58d53db3155cc4ec38c683230879ab8069a5ce9506d",
+      "text": "Attack Weight 2–4"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "aa226fd3f2c5abd98edf39dcb98526170664c4845221378494a2afd8ec74f0b8",
+      "text": "[Combat Start] Attack Weight +1 per 3 Bloodlust (max 2). [After Attack] Consume 3 Bloodlust."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "d50fb3ca51fc23c026488b834201c195c1f8bf5fed0fbca4c868b732485db2b7",
+      "text": "Ⅰ：[On Hit] Inflict 3 Bleed. [On Hit after Clash Win] Inflict 3 Rupture. [On Hit after Clash Lose] Consume 1 Bloodlust."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "6871b5791ba962337a8df404a0f17055c304ff990f27b802e224349384190ea3",
+      "text": "Ⅱ：[On Hit] Bleed Count +2. [On Hit after Clash Win] Inflict 3 Rupture. [On Hit after Clash Lose] Consume 1 Bloodlust."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "e5eb9916f37e6a5f7ef5f8e521e2b05cdc9fa586c0b18d6c51c091337737b74c",
+      "text": "Ⅲ：[On Hit] Inflict 3 Bleed."
+    },
+    "skills.7.response": {
+      "sourceHash": "e7bb1669598e51a1ebc0398e923e4ec94de5559fb963d2e8875defba79e0f6dd",
+      "text": "The first 2 Coins of the area attack remain. Winning prevents Coin III and additional effects while reducing Bloodlust. Check additional targets to avoid stacking attacks on Bleeding Sinners."
+    },
+    "skills.8.name": {
+      "sourceHash": "58308522d9a94a6f4101dd2de9e588a79cb00cb003a72aa20a3341be6da40731",
+      "text": "Desire for Blood"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "c659c120b824eadf62238717e47ba92032502ef9760fdcaa7dae6729af6e733d",
+      "text": "[On Use] Consume up to 40 Bloodfeast; gain 1 Bloodlust and heal 5 SP per 10 consumed."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "3c1cb127121aa9cbb8efc7565b3cc65a0c41380b9e9ec9c2de2983487a151bd2",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Increase Bleed Count by 1."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "3311e057ded271d9960086e627309c190467a0b6fb7b744a890d737ca5bf15b3",
+      "text": "Ⅳ：[On Hit] Inflict 4 Bleed."
+    },
+    "skills.8.response": {
+      "sourceHash": "4162ffb07268085d108c2a355e64d9731cf52c64a355e3f4231fbb9838f124b4",
+      "text": "Do not apply the Mirror Dungeon-only 80% damage reduction on Clash Lose to the story version. Consider clashing before Moment of Bloodfeast, then managing Bleed Count through later actions."
+    },
+    "skills.9.name": {
+      "sourceHash": "f4668e29f74b89e307e88bf9507e231dd07764f287173bcdfa75a107a81ec281",
+      "text": "Moment of Bloodfeast"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "152424a5cae6b4b03393edde633482c58c9fcdf1405ed9dd7690c3387b253cd8",
+      "text": "Indiscriminate."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "946e194422bdc4d056bec1d28bb744d0a1db3ced93ffd63015e98e6e965b11ac",
+      "text": "[On Use] Consume up to 300 Bloodfeast; gain 1 Bloodlust and heal 3 SP per 10 consumed. If Bloodfeast was consumed, heal another 30 SP."
+    },
+    "skills.9.response": {
+      "sourceHash": "14500fcd36bf6e6cc356b3751755d0ae197c04590ed3f7a839c5e649e69c8aa7",
+      "text": "Rapidly strengthens the enemy. Plan the order with other skills: after Desire for Blood but before Mantle in the opening, or after Wedge early in the latter half."
+    },
+    "skills.10.name": {
+      "sourceHash": "9011d411f940b729d146f0ee97b2e214c92eb8d71870ccf0b9d0a4bf9e8cb320",
+      "text": "Don Quixote Hardblood Arts 4 - Sundering"
+    },
+    "skills.10.label": {
+      "sourceHash": "849f21f2b11a9fb8ceb90d3fd661cf664575dac50a9ffe017a8173952a8d082b",
+      "text": "Around 75% HP"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "89f315671bba4823f549317f02531034acd71a093781f5ac9871aabea5522c98",
+      "text": "Cannot become Staggered until this skill is used."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "7b28ab42c605546530c4e65fc18cfdb3a67c28e6e27d718376c1d5ed25c28849",
+      "text": "[On Use] Consume up to 100 Bloodfeast; gain 1 Bloodlust and heal 15 SP per 10 consumed. Clash Power +1 per 30 Bloodfeast consumed cumulatively (max 15)."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "1638ce21cb445c1cffe12ff0f3a89e59a53db2caf0f1cd6825d95db91b3fa323",
+      "text": "[Clash Lose] Halve damage; targets cannot be Staggered by this skill's damage."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "22e6243827ce9b028d7a608b88fae717969ed20ba1e31aa3e0d266fa37a6f0c5",
+      "text": "[After Attack] Gain Offense and Defense Level Down this turn and next turn equal to the Clash Power gained (max 15)."
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "63e15b42bbeda77d6283a738f978379d81a3a100601a9a12a9a62fad5ac956da",
+      "text": "Ⅰ：[On Hit] Inflict 8 Bleed and consume 2 Bloodlust."
+    },
+    "skills.10.response": {
+      "sourceHash": "af587d20563a027d59dfc709a1b663f3aed7342e2d7b0b21d7184df74b094620",
+      "text": "Conditional bonuses can exceed the listed Power. Win to reduce damage, then use the post-attack weakness to manage Bleed and recover too."
+    },
+    "skills.11.name": {
+      "sourceHash": "5574fb3a9c3251938398e92af8da8dbe431ad9580fac8e7fbc51f35c29f7ac89",
+      "text": "Don Quixote Hardblood Arts 14: Mantle"
+    },
+    "skills.11.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "7f8e2d679ddba0926ca27fdcd450477a0f9ff6f1539afdb932a8d818f2aafe15",
+      "text": "Clashable Guard."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "773601dcc5c304b6cda6fb695f617388ee8300ffd226f901d8e60467883c4259",
+      "text": "[Clash Win] Inflict 4 Bleed and 4 Rupture on the target. [Clash Lose] Consume 2 Bloodlust."
+    },
+    "skills.11.response": {
+      "sourceHash": "aa1d5b4be51d8d88d602f2636ce778acda2ac78530c309dd1de5e1a1c6253389",
+      "text": "Win to reduce Bloodlust. Do not leave it unchecked as if it were a normal Guard."
+    },
+    "skills.12.name": {
+      "sourceHash": "8ac3711d01e59f62b09670084848272faebdf1c59626fada4a49722ee81f5fac",
+      "text": "Frail, So Frail"
+    },
+    "skills.12.label": {
+      "sourceHash": "1a57a0b8682caaab86ecb2cb9b68da3e3d3a77aa70b8be60b7404cca301c176d",
+      "text": "Clashable Counter / attack type unspecified"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "d7511ec79701aa565e1e4ef5183678200acf8fd6f1960b00ad1c07c44a99efc1",
+      "text": "Base Power +1 per 10 Bloodlust. Coin Power +1 per 5 Bleed on the target (max 2)."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "a6bdb0c5b92a12e98f482d7a4bb882693643f5de524e22b693721a4cf859998a",
+      "text": "[Clash Lose] SP −3."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "9d5a2b0e85bf390a0ac4ed88caa9da79375971182ce09856d2a6cd9e9e3d70ff",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 2 Bleed and increase Bleed Count by 2."
+    },
+    "skills.12.response": {
+      "sourceHash": "030cbb32c9e804660f57e0e05a9a2d0c5b0cfe12278cf1d8c411b10e1af44ada",
+      "text": "A negative-Coin Counter. Low enemy SP does not necessarily weaken it. Do not force a dangerous clash on a Bleeding main combatant."
+    },
+    "skills.13.name": {
+      "sourceHash": "037b65e1ca07fa0913055f671374099cd7d6da6d21854a685ebff7387fe74dac",
+      "text": "Bloody-Merry-Go-Round"
+    },
+    "skills.13.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "51e56c7b1ad96aa547a4192eddac8d14f9e8f7b96f8925de16632999d3f3283e",
+      "text": "Unclashable. [On Use] Create Coagulated Dreams next turn."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "31e7bc66675c46b846442f89480c56fdab26accab89f5b2ac9fd3edcbcac3adf",
+      "text": "Ⅰ・Ⅱ：[On Hit] Bleed Count +1."
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "cb55444cdac80128e6985dd4f9d82f37a111d38023e0e752ab9c4a486d7d705a",
+      "text": "Ⅲ・Ⅳ：[On Hit] Inflict 2 Bleed."
+    },
+    "skills.13.response": {
+      "sourceHash": "5979318596e6f6b56bd3d540c4a9f58748704df97e26dce95e4f9158b79523b1",
+      "text": "Used at the transition into the latter half. Use defense to receive it, then prepare for allies to defeat the 4 Dreams."
+    },
+    "skills.14.name": {
+      "sourceHash": "67c3e6c3dca76bb5ec3fa3da69fe93c0f12a50374e54eed86b24a43f3d0bc356",
+      "text": "Be Impaled (Sloth)"
+    },
+    "skills.14.label": {
+      "sourceHash": "265e46ca42c055b5b5e9073c1431f313ac51f6dc7dc02422929ba2ea1f259dbd",
+      "text": "Binds"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "a6bdb0c5b92a12e98f482d7a4bb882693643f5de524e22b693721a4cf859998a",
+      "text": "[Clash Lose] SP −3."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "db9a9b858354f6035ef127266041960731460aa34317d3e7abdf67b1ef39b883",
+      "text": "Ⅱ：[On Hit] Stagger the target and inflict Congealing Blood next turn. [After this Coin's attack] Remove up to 25 Bleed Potency from the target; gain that amount on self and increase Bloodfeast by it."
+    },
+    "skills.14.response": {
+      "sourceHash": "6a20a719907a9341dc54bbc2f3c2038aeb344c92d4b956dfc7168db673e46333",
+      "text": "Coin II restrains the target and remains after a clash win. Choose an Evade or a Sinner to receive it, then have allies quickly destroy the generated Spear to free them."
+    },
+    "skills.15.name": {
+      "sourceHash": "81ce0ea9ba9a969b7cafa37534427b41c750f356098e675f6486a1d153a51317",
+      "text": "Ascendant Don Quixote Hardblood Arts - The Sphere"
+    },
+    "skills.15.label": {
+      "sourceHash": "493f325f7450ce9d9cdb261e7f60c4bec3753de36472fd740f7842d732007f76",
+      "text": "Around 40% HP"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "0a95e748545db6efc8631b6173b1bc5c621dc220368a31056e27b84df3155e19",
+      "text": "Cannot become Staggered before use. Damage increases by shared cumulative Bloodfeast consumed as a percentage (max 300%)."
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "5730930dff00dfea54797959745e6fc629c7bf0aa9c6f31683c6f912c2fc09a8",
+      "text": "[On Use] Heal 30 SP. Clash Power +1 per 10 Bloodlust."
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "bb64790da9fda31740fa997072f9b5f35e19c6152547ccaf797aa3d3dadb3a42",
+      "text": "[After Attack] Consume all Bloodlust. Gain 5 Fragile this turn and next turn, and 2 Bind next turn."
+    },
+    "skills.15.response": {
+      "sourceHash": "cb8e985629774ae5e918850df456fa231ba586538be04f3823b98390800fe033",
+      "text": "Prepare Shields through Memories created by Sinner Dream kills. The boss becomes much weaker after use; finish from that opening."
+    },
+    "skills.16.name": {
+      "sourceHash": "90c83bd7e9ff42caab54cd6696eb678d1a92f13541ffc7a6cb17a96f3b23cc8d",
+      "text": "Ascendant Don Quixote Hardblood Arts - La Sangre"
+    },
+    "skills.16.label": {
+      "sourceHash": "ee953d62d68754f75aab3eca685ca759e75ef1ece15390f58afa592a55719109",
+      "text": "Ending event"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "ce10a074d61c8a8116b49cc0b670f751467bbeadb4ad6cba32164b65b0d368d7",
+      "text": "A special skill readied for the ending event. You do not need to overpower it in a normal Power contest."
+    },
+    "skills.16.response": {
+      "sourceHash": "ac23b1afd4b4920f3239bae39e28dfa255f9d8232d2b6b74c3321b9ff0a1e6d8",
+      "text": "Follow the prompts to select allied Don Quixote's designated E.G.O through SUPERBIA, then clash with this skill to advance the sequence."
+    },
+    "skills.17.name": {
+      "sourceHash": "990a1934c6b34d9e75f4f667bc227353f12847f39543bb7c9136b1c0736962a9",
+      "text": "Shining Memories of the Adventure"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "ebc6a14133a0e64c2594994560e7e4f1fdc7c20c38985a65425cf4e9613689c9",
+      "text": "[Combat Start] Grant 1 Clash Power Up and 1 Damage Up to 1 random Sinner. Inflict 1 Fragile on the boss and Coagulated Dreams."
+    },
+    "skills.17.response": {
+      "sourceHash": "54cccb6336b0420f38253b428bf7c227ed62934f97fdbd0ec59614116edaf704",
+      "text": "An allied support skill. You do not need to attack the transformed Memories."
+    },
+    "skills.18.name": {
+      "sourceHash": "e3e5918ac545a171d35692fbc8627f3848adcc6fe8a199c8bfb0d249fff64677",
+      "text": "Hardblood Stab"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.18.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.19.name": {
+      "sourceHash": "1b9890b41ca720f8ceb38a991f358ac3cf56fd7becd0e83dbc923ef0a2b0f460",
+      "text": "Hardblood Cleave"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "4979c3bc5f33fe828f8ebba611c43ebd6cd98e5cc8347737dfe779b9f80dc984",
+      "text": "[On Use] If the target has at least 8 Bleed, damage +20%."
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "c321ea12ad8c2fd8490b995057ad6dbb919506141837c11bd4dea404055ec481",
+      "text": "　If the target has at least 6 Bleed, gain 1 Coagulated Blood."
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "4e99b178482f0b8264b825b8bac0e55719ba4352317ad1cb0293d80b484e9fa3",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "bfccddda3658737078e6f0425acca9618a8679abccc2595e492026ea2fd324aa",
+      "text": "　[On Hit] Gain 8 Bleed and 1 Blood-tinged Scissorblades."
+    },
+    "skills.19.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.20.name": {
+      "sourceHash": "4788032b768d96c514f3383baa3d7b6fe6e755da6cf876ce64842d1dc8291edd",
+      "text": "Hardblood Powercleave"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "e7aa2ea67a5873f639956638fdec14fa8d144f3441709ceee6de9ee290cccfe1",
+      "text": "[On Use] If the target has at least 6 Bleed, Base Power +1."
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "b550ad012c6e1f55293f9fae9b17270bdc255a9ff75bb6d656382a0423cbd966",
+      "text": "Damage +5% per 1 Coagulated Blood (max 25%)."
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "290bc2cb8d07c0e081160ed6bbd556f938153e4e2834e29f4253ba3044773f97",
+      "text": "[After Attack] Consume all Coagulated Blood and Blood-tinged Scissorblades."
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "41bf192435d00a79a5a1093e4fafd02eb8d83538d6c891a2df5e64e39e5fbbf9",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "834afe238a2ba246f921a6c5a65d5ed403429d06fa4154f647a2d9388261d064",
+      "text": "Ⅱ[On Hit] Heal HP by the target's Bleed as a percentage of max HP (max 20%)."
+    },
+    "skills.20.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.21.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "02bf9b0a06cb17e8c47d8394477256f781ec47468fa488c2a2dd0c46cfba09db",
+      "text": "[On Use] Base Power +1 per 1 Coagulated Blood on self."
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "18afbc0de057a18601a195bd97013d1d4b004c6f27cac420f1a4c8373f47094f",
+      "text": "Ⅰ[Heads Hit] Inflict 2 Bleed."
+    },
+    "skills.21.response": {
+      "sourceHash": "9fdebed40a88b3ff56cc695447210e042e55ed09bb45bd4fc3389dec60bf8516",
+      "text": "Check attack order and the receiving Sinner's HP. Do not force heavily Bleeding allies to attack."
+    },
+    "skills.22.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.22.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.22.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "skills.23.name": {
+      "sourceHash": "fc055660c61782ad2983d9f99558fbfa7312929956280e73010866e3bac12c7f",
+      "text": "Hardblood Thrash"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "278e4c8932e1835203f333c4628c35459995226784cff7c2432fad844552d71a",
+      "text": "[Clash Lose] Gain 10 Bleed and 1 Bleed Count."
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "b9e0b15c4b261502b494a8aebf6ec5b9f3895b1bf08a2258d2ceed3fcdfc253c",
+      "text": "　[On Hit] Gain 10 Bleed and 1 Bloodied Hand."
+    },
+    "skills.23.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.24.name": {
+      "sourceHash": "ee5dedcd9374babe5dd2ed3686db429b301e021d3b8246e302940d350ae0dd09",
+      "text": "Hardblood Lash"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "2cd6b70e897c01a0ca822ab9c4bd083583810f08b97237810e10f3bebce74f70",
+      "text": "[On Use] If the target has at least 4 Bleed, damage +10%."
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "9410e910510c39ca953f233c9e696227be821786a9aacadc1db4de4d9c8e422b",
+      "text": "　[On Hit] If the target has at least 6 Bleed, gain 1 Coagulated Blood."
+    },
+    "skills.24.effects.4": {
+      "sourceHash": "f724ff623be201dc7ce1c155e4aa24d474b312973820a68651a171c7ad7c3021",
+      "text": "Ⅲ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.24.effects.5": {
+      "sourceHash": "f7ff5e98b7fd0fb9809f70114374c0e615737ff8e65eeb695124c8c58614db4a",
+      "text": "　[On Hit] Gain 20 Bleed and 2 Bloodied Hand."
+    },
+    "skills.24.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.25.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "02bf9b0a06cb17e8c47d8394477256f781ec47468fa488c2a2dd0c46cfba09db",
+      "text": "[On Use] Base Power +1 per 1 Coagulated Blood on self."
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "18afbc0de057a18601a195bd97013d1d4b004c6f27cac420f1a4c8373f47094f",
+      "text": "Ⅰ[Heads Hit] Inflict 2 Bleed."
+    },
+    "skills.25.response": {
+      "sourceHash": "9fdebed40a88b3ff56cc695447210e042e55ed09bb45bd4fc3389dec60bf8516",
+      "text": "Check attack order and the receiving Sinner's HP. Do not force heavily Bleeding allies to attack."
+    },
+    "skills.26.name": {
+      "sourceHash": "33b05542f559a4681868646ed14d4d8c86049d05799f4982effbab82a5204b9c",
+      "text": "Hardblood Strike"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "e7aa2ea67a5873f639956638fdec14fa8d144f3441709ceee6de9ee290cccfe1",
+      "text": "[On Use] If the target has at least 6 Bleed, Base Power +1."
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "216b25d63ac32e467be4aa803b6914e83ee51d1ca9db8a99b5875abbd6cb0189",
+      "text": "[On Use] When this skill inflicts Bleed on the target, additionally inflict Rupture on self equal to own Coagulated Blood."
+    },
+    "skills.26.effects.2": {
+      "sourceHash": "52d6ba42bf4a63192cc9b64115b084bf8e2ba52124275a103e05c2447058a1a3",
+      "text": "[After Attack] Consume all Coagulated Blood and Bloodied Hand."
+    },
+    "skills.26.effects.3": {
+      "sourceHash": "fbeca55ff01083e564bbaee350f304d9c480eebbe21a004377e1db92b4476446",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and increase Bleed Count by 2."
+    },
+    "skills.26.effects.4": {
+      "sourceHash": "834afe238a2ba246f921a6c5a65d5ed403429d06fa4154f647a2d9388261d064",
+      "text": "Ⅱ[On Hit] Heal HP by the target's Bleed as a percentage of max HP (max 20%)."
+    },
+    "skills.26.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.27.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.27.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.27.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.27.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "skills.28.name": {
+      "sourceHash": "b8de966ca740c218a26eefd4d48e7a749e1a10b37a70819e54a60da9a36de637",
+      "text": "Hardblood Downward Cut"
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "dff0b109ea8b7c8dedfb3db810fc03b689a8e00a4872850e17f95de021d14b59",
+      "text": "[On Use] If at 5 Festive Fever or more, Final Power +1."
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.28.effects.2": {
+      "sourceHash": "8223e3be6d45a6119aa5d6a3738a705c750b1c5e802bd118a5f90e0498e40481",
+      "text": "　[Heads Hit] Inflict 2 Rupture."
+    },
+    "skills.28.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.29.name": {
+      "sourceHash": "2f22ce86751d486cdc72def4ac0d01f10d0105d3aaaa930b3690265901622cc3",
+      "text": "Hardblood Carve"
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "d754a38128dde44374137eb06144ec5cb307df2cce0a1a06857175489ad44f23",
+      "text": "[On Use] Final Power +1 per 5 Festive Fever on self or 6 Bleed on the target (max 2)."
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "f6d910778b5445ec0eff2998171dca438a340cb45091e5d2c0ae4520023adf3c",
+      "text": "[On Use] Gain 15 Bleed, immediately activate it once, and reduce Bleed Count by 1."
+    },
+    "skills.29.effects.2": {
+      "sourceHash": "258a7949f90fb4618b4c99e4e3dd6e1291562bbf99c67504e024415c6c3dadde",
+      "text": "Ⅰ[On Hit] If the target has at least 6 Bleed, gain 1 Coagulated Blood."
+    },
+    "skills.29.effects.3": {
+      "sourceHash": "57049dde0ccddbd8813b99b80b5b6da11cf4704f875326afe0df9a4ef6a7ebf5",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.29.effects.4": {
+      "sourceHash": "3aa1b86e6360ac1d3b8cf549a2173cb6cd599bbfdfabafede26b76f4bc6e4b8e",
+      "text": "　[On Hit] Gain 1 Blooming Thorn."
+    },
+    "skills.29.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.30.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "dff0b109ea8b7c8dedfb3db810fc03b689a8e00a4872850e17f95de021d14b59",
+      "text": "[On Use] If at 5 Festive Fever or more, Final Power +1."
+    },
+    "skills.30.effects.1": {
+      "sourceHash": "921558bef53ee6f88b20f6ccf2f8d828bef07d457331aea7e4b430cb18abfbfb",
+      "text": "[Combat Start] Gain 2 Festive Fever."
+    },
+    "skills.30.effects.2": {
+      "sourceHash": "7dd62ba61f141632484756d459daf28caf1708b37b03cb85011cdf4405310851",
+      "text": "[On Evade Fail] Lose 2 Festive Fever."
+    },
+    "skills.30.response": {
+      "sourceHash": "9af26705c2a1e824227d4ea46ec1e020a7598b0ddba8ec81f9313e2cf14d4a64",
+      "text": "Offset with a Defense Skill before attacking. Offsetting alone cannot cancel the Combat Start buff."
+    },
+    "skills.31.name": {
+      "sourceHash": "1d54ec6755ebf78ba1eaf847cfaf4788884e275048bcd1659a1e0f0027d8abd5",
+      "text": "Hardblood Power Unfurling"
+    },
+    "skills.31.effects.0": {
+      "sourceHash": "74476f6c087dd6161bcd4c703bf0ed663f4fe78c7e1f6b889e594cf4f6c3380a",
+      "text": "[On Use] Gain 15 Bleed and 2 Bleed Count, immediately activate it twice, and reduce Bleed Count by 2."
+    },
+    "skills.31.effects.1": {
+      "sourceHash": "825ccb0d1c7ed13b1b619cfbaddb79a969b0c58f1b73cb8e14bcfb770c2148ec",
+      "text": "[Turn End] Consume all Coagulated Blood and Festive Fever."
+    },
+    "skills.31.effects.2": {
+      "sourceHash": "8815cd78648ccb0aeb079a05939b681c30b78834eb66552cafd1f5a34b765f6d",
+      "text": "Ⅰ[On Hit] Inflict Bleed and Rupture equal to the user's Coagulated Blood."
+    },
+    "skills.31.effects.3": {
+      "sourceHash": "55e81b77a3f5c7dbd6a3463789c478a2b9130df72d9f1b037628028a4a611f3d",
+      "text": "Ⅱ[On Hit] Heal HP by (Festive Fever × 2.5)% of max HP (max 20%)."
+    },
+    "skills.31.effects.4": {
+      "sourceHash": "b9d05a3ed43131799e353b7c48f10e806cb52998c3abe42e21d18fceff9be6c7",
+      "text": "Ⅲ[On Hit] Gain 2 Blooming Thorn."
+    },
+    "skills.31.response": {
+      "sourceHash": "19f73c6b9aef4f05710e820a2aaa37bf0e5038b1be25240efe34a77ed83413ee",
+      "text": "A strong attack after Fever accumulates. Aim to Stagger or kill the enemy first, or stop it with a strong clash."
+    },
+    "skills.32.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.32.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.32.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.32.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.32.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "skills.33.name": {
+      "sourceHash": "f25e1a828f014ac439c3fb4923fd79517f0601bdbbb55220de21312f3525168c",
+      "text": "It's a Festival, a Festival!"
+    },
+    "skills.33.effects.0": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.33.effects.1": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.33.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.34.name": {
+      "sourceHash": "8aa6c7e933fd97e2d113ed7e85883cfa4a7a8a0a6ad27b73dc186a4f64afff7e",
+      "text": "Let's Dress Up"
+    },
+    "skills.34.effects.0": {
+      "sourceHash": "292090b91efd5b1363c992c1b3fd5206dc17811f70335150294ad67900aeccd4",
+      "text": "[On Use] If the target has at least 6 Bleed, damage +20%."
+    },
+    "skills.34.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.34.effects.2": {
+      "sourceHash": "1ecd352e0b1e6236ef0a6e36debcf19d448f1dac594d8ac5aa0e5704143c441a",
+      "text": "　[On Hit] If the target has at least 5 Bleed, gain 1 Coagulated Blood."
+    },
+    "skills.34.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.35.name": {
+      "sourceHash": "667c0c17bff45c419cc0b7e6840f484bc480698c5c76ad1d3e4114949116a3bb",
+      "text": "We've an Event for You!"
+    },
+    "skills.35.effects.0": {
+      "sourceHash": "013f5e60342f62a7b4a3e093a363a679b465286e0341978affa91caefb330624",
+      "text": "[On Use] Consume up to 50 Bloodfeast; gain 1 Blood-tinged Scissorblades per 10 consumed."
+    },
+    "skills.35.effects.1": {
+      "sourceHash": "d08c44390ac4b2b80dce8591b1046ba609125e65a0c69f1775a4b1004f8a4aa8",
+      "text": "[On Use] If this skill cannot consume Bloodfeast, gain 5 Bleed and 1 Coagulated Blood."
+    },
+    "skills.35.effects.2": {
+      "sourceHash": "e9a5647372ee407287e53c6432b0ffb7a1a83f338cb3c9366ff9057fe76da7fe",
+      "text": "[On Use] If the target has at least 5 Bleed, Coin Power +1."
+    },
+    "skills.35.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.35.effects.4": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.35.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.36.name": {
+      "sourceHash": "443ae4f4261dbca26cd63bf7cb70a94749516a2701003f322d10e480c944ab22",
+      "text": "Don't Rush Me"
+    },
+    "skills.36.effects.0": {
+      "sourceHash": "e9a5647372ee407287e53c6432b0ffb7a1a83f338cb3c9366ff9057fe76da7fe",
+      "text": "[On Use] If the target has at least 5 Bleed, Coin Power +1."
+    },
+    "skills.36.effects.1": {
+      "sourceHash": "2165dd98d69c344869b643e8d0bef76b4a92cc5fef5ba05e7e5bbd67a9eba4aa",
+      "text": "[On Use] Clash Power +1 based on Blood-tinged Scissorblades (max 3)."
+    },
+    "skills.36.effects.2": {
+      "sourceHash": "edc0e2091521ec19d9f1594422cb568a336ea598326b63576e60c780f669b726",
+      "text": "Damage +7% per 1 Coagulated Blood (max 35%)."
+    },
+    "skills.36.effects.3": {
+      "sourceHash": "2a6d1b6e43d1c8230ce2e8d97b24ac5f1c3dae53ea6ad8d7ba9e99a659476f19",
+      "text": "[After Attack] Consume all Coagulated Blood."
+    },
+    "skills.36.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.36.effects.5": {
+      "sourceHash": "730728526e7ce5c40670a99c98e7d0c56f06ac3ce729ba8ddd60d34e36b91dbd",
+      "text": "　[Heads Hit] Inflict 8 Bleed."
+    },
+    "skills.36.effects.6": {
+      "sourceHash": "f249d9e18ba52ad17e97af612e8d5b1a6f26eb24f1b96ea090172b266cea552b",
+      "text": "Ⅲ[On Hit] Consume up to 5 Blood-tinged Scissorblades; damage increases by (20 × amount consumed)% (max 100%)."
+    },
+    "skills.36.effects.7": {
+      "sourceHash": "850685f908ed591789bb6fff4b27158b27941dfc89abd864c1085c42a2160cb9",
+      "text": "　[On Hit] Heal HP by the target's Bleed Potency as a percentage of max HP (max 30%)."
+    },
+    "skills.36.response": {
+      "sourceHash": "88d1040f54efaaf2ff6731479326283234ef23bc53da9e6eb0c66e956776d4bb",
+      "text": "A strong attack with an Unbreakable Coin and healing. Check enemy buffs and allied Bleed, and aim to Stagger it first."
+    },
+    "skills.37.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.37.effects.0": {
+      "sourceHash": "71a97e64d9cf5788e3bb7095ab9d7c33e76e05a42b387b2060b6028badb1e831",
+      "text": "[On Use] If at 1 Blood-tinged Scissorblades or more, Base Power +1."
+    },
+    "skills.37.effects.1": {
+      "sourceHash": "bc9528f60f6ed6363215eeb5479c672d7b3a6fc44cab339fa3c04ed179b71a56",
+      "text": "[On Use] If at 3 Coagulated Blood or more, Coin Power +1."
+    },
+    "skills.37.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.37.response": {
+      "sourceHash": "9fdebed40a88b3ff56cc695447210e042e55ed09bb45bd4fc3389dec60bf8516",
+      "text": "Check attack order and the receiving Sinner's HP. Do not force heavily Bleeding allies to attack."
+    },
+    "skills.38.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.38.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.38.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.38.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.38.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "skills.39.name": {
+      "sourceHash": "659086170eecba6975e889659a5fe523acf25e34d4eeb334084a97e3bba9c64d",
+      "text": "Please answer the survey."
+    },
+    "skills.39.effects.0": {
+      "sourceHash": "845cd8eed2b5f0ecd647a12c47e2b4bd56d0cd1710160439f184f68f15428f0b",
+      "text": "[On Use] Gain 5 Bleed and 1 Bleed Count."
+    },
+    "skills.39.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.39.effects.2": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.39.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.40.name": {
+      "sourceHash": "3b1f19f51999ec14d632eeddb7e594a1628820be8af400397cff65c7a50152bd",
+      "text": "Don't! Don't Cut Me Off!"
+    },
+    "skills.40.effects.0": {
+      "sourceHash": "845cd8eed2b5f0ecd647a12c47e2b4bd56d0cd1710160439f184f68f15428f0b",
+      "text": "[On Use] Gain 5 Bleed and 1 Bleed Count."
+    },
+    "skills.40.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.40.effects.2": {
+      "sourceHash": "ba44ebe1d31386119431c15e8ab606502bcaf142cdca4b525ac4a7bf44110f13",
+      "text": "　[On Hit] If the target has at least 5 Bleed, gain 1 Bloodied Hand."
+    },
+    "skills.40.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.41.name": {
+      "sourceHash": "6eae0a46209f8538c9e9bed2c4ce4917722ab4df7e5713b5d0bc5cd9676eec1d",
+      "text": "Faded Patience"
+    },
+    "skills.41.effects.0": {
+      "sourceHash": "ff604af9e069277d6a2f5e6f845ebd7302346735ed5078657ca698b5d70a1d9a",
+      "text": "[On Use] Consume up to 50 Bloodfeast; gain 1 Coagulated Blood per 10 consumed."
+    },
+    "skills.41.effects.1": {
+      "sourceHash": "e9a5647372ee407287e53c6432b0ffb7a1a83f338cb3c9366ff9057fe76da7fe",
+      "text": "[On Use] If the target has at least 5 Bleed, Coin Power +1."
+    },
+    "skills.41.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.41.effects.3": {
+      "sourceHash": "29ad0fe2d1a5d404d613a9fe63a6459aaf045c23770af1d24d109288fee90eb6",
+      "text": "Ⅱ[On Hit] If this skill could not consume Bloodfeast, gain 10 Bleed and 1 Bloodied Hand."
+    },
+    "skills.41.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.42.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.42.effects.0": {
+      "sourceHash": "67cfc28ae70839d05d68b8d791b9cb1bb9878ba569f79e9938c7a3455ba71721",
+      "text": "[On Use] If at 1 Bloodied Hand or more, Base Power +1."
+    },
+    "skills.42.effects.1": {
+      "sourceHash": "bc9528f60f6ed6363215eeb5479c672d7b3a6fc44cab339fa3c04ed179b71a56",
+      "text": "[On Use] If at 3 Coagulated Blood or more, Coin Power +1."
+    },
+    "skills.42.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.42.response": {
+      "sourceHash": "9fdebed40a88b3ff56cc695447210e042e55ed09bb45bd4fc3389dec60bf8516",
+      "text": "Check attack order and the receiving Sinner's HP. Do not force heavily Bleeding allies to attack."
+    },
+    "skills.43.name": {
+      "sourceHash": "98a73d90b71de6683ac1db7e9d313edd3b2ec7b4c8105fa83928f9dc44cc8fc6",
+      "text": "Endless Atonement"
+    },
+    "skills.43.effects.0": {
+      "sourceHash": "e9a5647372ee407287e53c6432b0ffb7a1a83f338cb3c9366ff9057fe76da7fe",
+      "text": "[On Use] If the target has at least 5 Bleed, Coin Power +1."
+    },
+    "skills.43.effects.1": {
+      "sourceHash": "5d5413a1d894b39f11d5333f8dba96963771ec104771241c0194f3254e486f1d",
+      "text": "[On Use] Clash Power +1 per 1 Coagulated Blood on self."
+    },
+    "skills.43.effects.2": {
+      "sourceHash": "cd41d86e2fa17b2857acd7af171a06a0c21b670cb4592b240cdaa82fdb42a1ce",
+      "text": "[Clash Lose] Lose 2 Bloodied Hand."
+    },
+    "skills.43.effects.3": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.43.effects.4": {
+      "sourceHash": "cbbca8204ac9f3e70e7c50ac7a0b9b67fa3dcd1d636ad46ada8196620da76f02",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.43.effects.5": {
+      "sourceHash": "8a06e29d1b15e87e662213808248f83e22e72d46fc28fb4cabdc67126257d242",
+      "text": "Ⅲ[On Hit] Consume all Bloodied Hand and increase the target's Bleed Count by 3."
+    },
+    "skills.43.effects.6": {
+      "sourceHash": "480c09adddd75dedf9eb614248663ec58f901e3028deeaf41198c2f962335447",
+      "text": "　[On Hit] Consume all own Coagulated Blood, increase Bloodfeast by amount consumed × 3, and gain 5 Bleed."
+    },
+    "skills.43.effects.7": {
+      "sourceHash": "700938baf8f39eeca71b69d7f536aecc0fac64a5f4aac871c904f383dde04cbe",
+      "text": "　[On Hit] Heal HP by the target's Bleed as a percentage of max HP (max 30%)."
+    },
+    "skills.43.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.44.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.44.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.44.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.44.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.44.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "skills.45.name": {
+      "sourceHash": "ab8d48af3fe16c2f0654ecbd72128d62426c48f0c9e9600deddcb786cdaff01b",
+      "text": "Welcome to the Festival of Wonders!"
+    },
+    "skills.45.effects.0": {
+      "sourceHash": "a927423df214e5354e2aeb38c95b0b2629d58a3d620d4bb35fe440c6548f3480",
+      "text": "[On Use] If at 5 Festive Fever or more, Final Power +2."
+    },
+    "skills.45.effects.1": {
+      "sourceHash": "537886b102c1902c5e47f9baca17cc346cdfd59f31438e815b682f0d5b9ec5a6",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.45.effects.2": {
+      "sourceHash": "1db18dfcf34740bb4f249f20b968641dc4e342690881c4bd6b11e8689b129911",
+      "text": "　[Heads Hit] Inflict 3 Rupture."
+    },
+    "skills.45.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.46.name": {
+      "sourceHash": "6e18f26a0c2ef03bdb7c994dba8b0c64dc674839fddf1953d562b3d8ef3a3e35",
+      "text": "Join the Joyful Parade!"
+    },
+    "skills.46.effects.0": {
+      "sourceHash": "af5fbbf779558ac7091c8195cd6f19159341360e19ad1bc1d011ca70289068c5",
+      "text": "[On Use] Final Power +1 per 5 Festive Fever on self or 6 Bleed on the target (max 3)."
+    },
+    "skills.46.effects.1": {
+      "sourceHash": "19e339f40c6e62557f8ae724ac8d966c2e11132634e0efaab8c55d76556242f7",
+      "text": "[On Use] If below 20 Bleed, gain 20 Bleed, immediately activate it once, and reduce Bleed Count by 1."
+    },
+    "skills.46.effects.2": {
+      "sourceHash": "712fc99b3c3f8bf95b4c4c914fc06644157189365e7ab4f42855cf720ecd265b",
+      "text": "[After Attack] Consume 20 Bloodfeast."
+    },
+    "skills.46.effects.3": {
+      "sourceHash": "b562a6ff0b832f113e46654f3b4fcaf6702473e7d1c71ad82bff31fb2ae00e65",
+      "text": "Ⅰ[On Hit] Gain 1 Coagulated Blood per 6 Bleed on the target (max 2)."
+    },
+    "skills.46.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.46.effects.5": {
+      "sourceHash": "45debc5334c14054b1ad6afc894d83a00ab86458ed57aff939647916cbc58904",
+      "text": "　[On Hit after Clash Win] Inflict 4 Bleed and increase Bleed Count by 3."
+    },
+    "skills.46.effects.6": {
+      "sourceHash": "32121fd98a476a41dae5780d92b93a8bce5115a56ec87f622b2ab507252f963d",
+      "text": "　[On Hit] Gain 2–3 Blooming Thorn."
+    },
+    "skills.46.response": {
+      "sourceHash": "57fccff2bbf54e55d1cea3ee944dba7eb92c01470891627adc3a661daca95865",
+      "text": "Coin II is Unbreakable. Winning does not necessarily prevent Thorn gain."
+    },
+    "skills.47.name": {
+      "sourceHash": "e6ae85a95b0175787fb83dcac7cb6d2f8c27c8aff30dc343179a190482336bfa",
+      "text": "Blossom your Smiles of Joy!"
+    },
+    "skills.47.effects.0": {
+      "sourceHash": "280302d7f58b81dc963f3e5900926379bbaf855b2494d5f7a3ccbfcc7770f2f5",
+      "text": "[On Use] If at 5 Festive Fever or more, Coin Power +1."
+    },
+    "skills.47.effects.1": {
+      "sourceHash": "3c55ef56ec9b3e1f714c3019129ca22f6e7aa4874333d5384cd5f37999490bb6",
+      "text": "[On Use] If the target has at least 6 Bleed, Clash Power +1."
+    },
+    "skills.47.effects.2": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.47.effects.3": {
+      "sourceHash": "bc5849268867f673432c93367b56645bcee41f618fd9c36abc42719eaf8b659d",
+      "text": "Ⅱ[On Hit after Clash Win] Gain 2 Festive Fever."
+    },
+    "skills.47.response": {
+      "sourceHash": "7c37f5818f33cc79fb20c19ea56269be1a2bec8d778c9a9a4258494579179a6e",
+      "text": "Check the additional Bleed, Rupture, and conditional bonuses. Reduce damage through clashes, or Stagger or kill the enemy before it attacks."
+    },
+    "skills.48.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.48.effects.0": {
+      "sourceHash": "a927423df214e5354e2aeb38c95b0b2629d58a3d620d4bb35fe440c6548f3480",
+      "text": "[On Use] If at 5 Festive Fever or more, Final Power +2."
+    },
+    "skills.48.effects.1": {
+      "sourceHash": "a163e17919e668ad5734f2f0b2a6bc8d8044ff8b7d2118b9020e59c9ea4dfe31",
+      "text": "[Combat Start] Gain 3 Festive Fever."
+    },
+    "skills.48.effects.2": {
+      "sourceHash": "50b97340c19fa91a3f866bfbc6105be839b98d1985ce0e6b6bc5b9ffd69e48b4",
+      "text": "[On Evade Fail] Lose 3 Festive Fever."
+    },
+    "skills.48.response": {
+      "sourceHash": "9af26705c2a1e824227d4ea46ec1e020a7598b0ddba8ec81f9313e2cf14d4a64",
+      "text": "Offset with a Defense Skill before attacking. Offsetting alone cannot cancel the Combat Start buff."
+    },
+    "skills.49.name": {
+      "sourceHash": "f57f475fadbd2aa0bf09893905ff38030de3c2ba8264d56dd9251fa7925db37a",
+      "text": "Eternal Kingdom of Happiness, La Manchaland!"
+    },
+    "skills.49.effects.0": {
+      "sourceHash": "10f9c18620fda4355053681dac10196b0af4b5a6935ef774309081c379238ff8",
+      "text": "[On Use] If Bloodfeast is below 40, gain 20 Bleed and 2 Bleed Count, immediately activate it twice, and reduce Bleed Count by 2."
+    },
+    "skills.49.effects.1": {
+      "sourceHash": "d98ab2db508a4fde64b3b76fc525540c917c8db530687ded59df116ea7c8914b",
+      "text": "[After Attack] Consume 40 Bloodfeast."
+    },
+    "skills.49.effects.2": {
+      "sourceHash": "825ccb0d1c7ed13b1b619cfbaddb79a969b0c58f1b73cb8e14bcfb770c2148ec",
+      "text": "[Turn End] Consume all Coagulated Blood and Festive Fever."
+    },
+    "skills.49.effects.3": {
+      "sourceHash": "8815cd78648ccb0aeb079a05939b681c30b78834eb66552cafd1f5a34b765f6d",
+      "text": "Ⅰ[On Hit] Inflict Bleed and Rupture equal to the user's Coagulated Blood."
+    },
+    "skills.49.effects.4": {
+      "sourceHash": "67f9bbb83901fb88e8fd9cf4239052ce73e89353483cbd16ca9ef52477207791",
+      "text": "　[On Hit] Heal HP by (Festive Fever × 4)% of max HP (max 40%)."
+    },
+    "skills.49.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.49.effects.6": {
+      "sourceHash": "19ad9cb1e2b611200abdeb1d2bda47a6a1a3e89bf908a91f6f95756f57281042",
+      "text": "　[On Hit] Gain 5 Blooming Thorn."
+    },
+    "skills.49.response": {
+      "sourceHash": "0eb51f7b8162a790b0ea16c779b6a3b57d08ad21256b9fc4d60f44c8dd829722",
+      "text": "Unbreakable Coin II remains. Win to reduce damage, and let a Sinner with little Bleed take the remaining hit."
+    },
+    "skills.50.name": {
+      "sourceHash": "c3702dde8d35ad8969bc1141b4cd85f68a5d9d09fae52d9029f8683356e8dda3",
+      "text": "The Fanfare!"
+    },
+    "skills.50.label": {
+      "sourceHash": "471195f9818cc8544af80e6c4f34cc4421837e268bab1b6a9ae5e7152e95c690",
+      "text": "Unclashable / self-destruct"
+    },
+    "skills.50.effects.0": {
+      "sourceHash": "863c12f7356e2412f5ae412c704ce934e224edbd454b571eda84466d9f31277c",
+      "text": "Unclashable."
+    },
+    "skills.50.effects.1": {
+      "sourceHash": "2d9d8dd440883093c01c2f8f6052f42f656a160c70bfe51279723bbeef2f42d0",
+      "text": "Ⅰ：[After this Coin's attack] Deal 10 additional Lust damage to the target, then the user dies."
+    },
+    "skills.50.response": {
+      "sourceHash": "f01b2d9bc01cd62afbc04b127d0222ab2fd2c4a42cdad488dc4497696e94ce4e",
+      "text": "Self-destructs the turn after appearing. It cannot be clashed with; Stagger or kill it first to stop it."
+    },
+    "passives.0.name": {
+      "sourceHash": "e6a240c9426f3599daac66165e5d8dc7600b460cff23b14d300a553fa7a45af5",
+      "text": "Starved and Withered"
+    },
+    "passives.0.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c33bfda1b226d19f5aea431311e224b6e8a4356cf6f5762119feabcab07aeea1",
+      "text": "Offense and Defense Levels −10."
+    },
+    "passives.0.response": {
+      "sourceHash": "3cb805d1df225d8e1ef1994063c1d4543e0c771c2cc7424709f541e753afd1ef",
+      "text": "You do not need to level your team to the enemy's Lv.90."
+    },
+    "passives.1.name": {
+      "sourceHash": "ba853687f0b9487aecc9aa021373f5b7f3cfc923ea16a4dc61fd6099f43373ce",
+      "text": "The Golden Bough's Forced Arbitration"
+    },
+    "passives.1.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.1.effect": {
+      "sourceHash": "13b459e9e43137f838a119553a1eca1aba4da300376378715ab3be257245068d",
+      "text": "Offense and Defense Levels −30."
+    },
+    "passives.1.response": {
+      "sourceHash": "44e34aaa05f5eac9df9f5a67db5c65e2ce55a549d2f16120424c2fdfa0c7fc72",
+      "text": "Totals −40 with Withered. Main-body skill values account for this modifier."
+    },
+    "passives.2.name": {
+      "sourceHash": "e6a240c9426f3599daac66165e5d8dc7600b460cff23b14d300a553fa7a45af5",
+      "text": "Starved and Withered"
+    },
+    "passives.2.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c33bfda1b226d19f5aea431311e224b6e8a4356cf6f5762119feabcab07aeea1",
+      "text": "Offense and Defense Levels −10."
+    },
+    "passives.2.response": {
+      "sourceHash": "3cb805d1df225d8e1ef1994063c1d4543e0c771c2cc7424709f541e753afd1ef",
+      "text": "You do not need to level your team to the enemy's Lv.90."
+    },
+    "passives.3.name": {
+      "sourceHash": "ba853687f0b9487aecc9aa021373f5b7f3cfc923ea16a4dc61fd6099f43373ce",
+      "text": "The Golden Bough's Forced Arbitration"
+    },
+    "passives.3.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.3.effect": {
+      "sourceHash": "13b459e9e43137f838a119553a1eca1aba4da300376378715ab3be257245068d",
+      "text": "Offense and Defense Levels −30."
+    },
+    "passives.3.response": {
+      "sourceHash": "44e34aaa05f5eac9df9f5a67db5c65e2ce55a549d2f16120424c2fdfa0c7fc72",
+      "text": "Totals −40 with Withered. Main-body skill values account for this modifier."
+    },
+    "passives.4.name": {
+      "sourceHash": "b10003e9ca7a273fd19321858a79f4ebecc7e6d617104cd801d55376f36dc972",
+      "text": "La Manchaland, Abandoned and Festering"
+    },
+    "passives.4.condition": {
+      "sourceHash": "31dd79cf08ec1e8e0cac65489a2ea7026262a1833213dd987fbff9c6c8afa575",
+      "text": "On the specified actions"
+    },
+    "passives.4.effect": {
+      "sourceHash": "b6f57bf836a94d3b9481fc5819a9a5d6b8ac9713ef61acc3f12a93c8114cb809",
+      "text": "Creates Gondolas, Bloodbags, and Bloodfiends."
+    },
+    "passives.4.response": {
+      "sourceHash": "41fabb6dadc131af029523cc51013336cded91653f5f4324844dd53b1669ec2e",
+      "text": "Plan add kills before self-destruction and the next defense assignments in summon order."
+    },
+    "passives.5.name": {
+      "sourceHash": "9482e32a8c1ffaa86097f6af1cdf941046dc1b8c0d757637827b574bcf2428f6",
+      "text": "Here we go... another lap."
+    },
+    "passives.5.condition": {
+      "sourceHash": "7b6a05dd02dab10ff11be5e9065c8899871ffbd4e649c05831337ca8a12ddbe8",
+      "text": "The Endless Wheel at 0 / no pending arrivals"
+    },
+    "passives.5.effect": {
+      "sourceHash": "c3d2d904423eef04ab0fb1437170cbeab03e310d7ead915e3ddfbfe44fc9cfb5",
+      "text": "Changes to the humanoid form."
+    },
+    "passives.5.response": {
+      "sourceHash": "5ddb1d83c6335537edc2e4171527ad35538fd9ef52022d63774049e039f95a0c",
+      "text": "Check remaining Gondolas and scheduled summons."
+    },
+    "passives.6.name": {
+      "sourceHash": "93c2e1e07aa502b7df19be509ed047236f1fc9a5877bdc8e8dd401cfe573b06d",
+      "text": "The Eternal Cycle of Windmills, Wheels, and Us"
+    },
+    "passives.6.condition": {
+      "sourceHash": "6b39a8724dfff2fdd8e6670bb850330f5599a3f020deb133eda6f70218df6532",
+      "text": "During the Ferris Wheel phase"
+    },
+    "passives.6.effect": {
+      "sourceHash": "63f4ba8481eac44e7ef27b535ab44f555c116798bc14b91cc8f631b7bf30f71c",
+      "text": "Cannot be attacked while Gondolas are present. Direct skills, Burn, Bleed, Tremor, Rupture, and Sinking do not reduce the main body's HP."
+    },
+    "passives.6.response": {
+      "sourceHash": "13d92e9b1f8d29089ebdef65c732d84f4f65f71cd8c00216c6d090850621336d",
+      "text": "Clear Gondolas instead of attacking the main body."
+    },
+    "passives.7.name": {
+      "sourceHash": "8d757af7ae4b84acb062a09f6bda6e2420868582014493657af6781deb03948e",
+      "text": "Shattering, Scattering Hardblood"
+    },
+    "passives.7.condition": {
+      "sourceHash": "2f4417de6837a27579fe11b84669989dc9104ced2b506f7a089dcf7cf1b26b9f",
+      "text": "Defeated by enemy attacks or status effects"
+    },
+    "passives.7.effect": {
+      "sourceHash": "2ab8e00246e1db61d3831ef912b49348e0882f7eb428ea8d4252a1fb6f20356a",
+      "text": "Bloodfeast +30 and a random E.G.O resource +2. Does not activate when it removes itself."
+    },
+    "passives.7.response": {
+      "sourceHash": "1bcf7eed7966fe0634b9842e3a90264404aedb734c229c7ed154f5b2fc5f7dae",
+      "text": "Defeat it for resources rather than waiting for self-destruction."
+    },
+    "passives.8.name": {
+      "sourceHash": "54b8d2f39f3b22c4092b16ed49c15fafeb49c6eb57cd132faf7edc8af28de60c",
+      "text": "For the Family..."
+    },
+    "passives.8.condition": {
+      "sourceHash": "390373ae2e9d8b71e78e645579b8b75b62a09ecaffe02b2c372dbf8c42c4c92f",
+      "text": "Panicked at Turn End"
+    },
+    "passives.8.effect": {
+      "sourceHash": "2d20192fa9d84e50afaf6a0c67a9a926f11bc9811c33997799694f938a0bd5c0",
+      "text": "At next Turn Start, recover from Panic and reset SP to 0. If able to consume 30 Bloodfeast, gain 2 Attack Power Up and 1 Haste and heal 30 SP. Otherwise, gain 40 Bleed, immediately activate it, and reduce Count by 5. Still gain 2 Attack Power Up and heal 30 SP next turn afterward."
+    },
+    "passives.8.response": {
+      "sourceHash": "d102549f907400a84beb03accc26c5b64341522e0e9e0a2245981c8351588f5c",
+      "text": "SP reduction alone cannot disable the enemy for long. Check post-Panic buffs too."
+    },
+    "passives.9.name": {
+      "sourceHash": "9159abd7e990253df9f6aede8afeba36029ef5f245957c321e661a7b2d380316",
+      "text": "Please, try again"
+    },
+    "passives.9.condition": {
+      "sourceHash": "e9b0c368afbab558482a4c8977f71ce0bcf618efb6c63b087f98f486eefdcd79",
+      "text": "On pattern change"
+    },
+    "passives.9.effect": {
+      "sourceHash": "12c9a0123782ac679f810ca7e9071174d67b847ad52b33cf75ab310787e5d20a",
+      "text": "Halve Burn, Bleed, Tremor, Rupture, and Sinking Potency on the part."
+    },
+    "passives.9.response": {
+      "sourceHash": "68856f585408a711bc1da901f6e6aef23f4297fa75b7016ab19c6dc745aeeae2",
+      "text": "Do not assume status values remain unchanged across boundaries."
+    },
+    "passives.10.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.10.condition": {
+      "sourceHash": "f6f38a6e329ac7bd5237bc1edfafda43fdf9d26a7cf3087920b6e14d48f16118",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.10.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.10.response": {
+      "sourceHash": "9a2d81e48639bc2c503a807d220e1bd88f69238e074a66453ed04ae3788523c7",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "passives.11.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.11.condition": {
+      "sourceHash": "c773576d48195832d8cc6e722fbd2ded1296bdcf59ccd4e8aaab859577febbda",
+      "text": "Bleed damage occurs on the battlefield"
+    },
+    "passives.11.effect": {
+      "sourceHash": "15ae3d3704c9754981c1a788525a8f3252058d095082f6896763f27f88309012",
+      "text": "Bleed damage becomes shared Bloodfeast, consumed by the boss's skills."
+    },
+    "passives.11.response": {
+      "sourceHash": "2c75018b4105d9a5a653c702f96c44bf13916f001f17fb47c8ced123d4474574",
+      "text": "Accumulating Bleed Count also fuels enemy buffs."
+    },
+    "passives.12.name": {
+      "sourceHash": "1eb6ee9d2e6981428326fd64ef9aecc1055f4a1e3eaa03dfed0114b8cda0cb92",
+      "text": "Returning Bloodlust"
+    },
+    "passives.12.condition": {
+      "sourceHash": "1e1497e1a1685e7d6bdc01211046232b200ba98e7b500ca12cb2e88faa2e7d30",
+      "text": "Bloodlust reaches 10 / 20"
+    },
+    "passives.12.effect": {
+      "sourceHash": "15ccccea4d61d31a3890105cc61829236250ec4868736f5be3d88766c2f38bf2",
+      "text": "Changes to stages II and III; returns to a lower stage if value falls. Stage II grants effects including +1 Clash Power to consuming skills; stage III grants +1 Coin Power."
+    },
+    "passives.12.response": {
+      "sourceHash": "45ddf8e82e98e95eec7ad169453b20fb2cb04777253897da60ed8bb918c1fa17",
+      "text": "Win against Mantle, Wedge, and other relevant skills to reduce Bloodlust and weaken later attacks."
+    },
+    "passives.13.name": {
+      "sourceHash": "1acb9a18a04544c2384f54be221184e4579727151b094a3d5cbc8ecb9fc92c10",
+      "text": "Don Quixote Hardblood Arts"
+    },
+    "passives.13.condition": {
+      "sourceHash": "332607573a518868b8cc8ede6a9b76daf1909488e77004ac3a9f871af8875e3d",
+      "text": "On hitting a Bleeding target"
+    },
+    "passives.13.effect": {
+      "sourceHash": "6ca4861c1ab955c7351dff77cdd5b5136f5be73102528985caa3b0e40649dbd2",
+      "text": "Heal overall and part HP by 30% of damage dealt. Does not activate on Unbreakable hits after losing a clash."
+    },
+    "passives.13.response": {
+      "sourceHash": "2379f745f7c5170be37d50e14e267fa9cbdf0dca5c9071bc5d791d57f5fd2374",
+      "text": "Winning still matters against Unbreakable attacks. Prevent healing to shorten the encounter."
+    },
+    "passives.14.name": {
+      "sourceHash": "b0598024f5b639b90c8b8fb7c182ba2e9cba674f00e3004dc5fa2618bb9cbb3d",
+      "text": "An Unfamiliar Banquet"
+    },
+    "passives.14.condition": {
+      "sourceHash": "d1b2c52a12a1d72a5d04ea47c20ade6f01176a28c514e60875386c4c83a64fe8",
+      "text": "Heal at least 15% max HP in one turn / absorb Bleed / kill a target"
+    },
+    "passives.14.effect": {
+      "sourceHash": "f8fd90b8bebe7284f4cdac083dbb14e20f607c80ae57c5f34aa9d43ba94c9cf7",
+      "text": "Large healing or Bleed absorption grants 3 Bind next turn (once per turn each). Each target killed by the user's own skills grants 2 Offense Level Down and 1 Defense Level Down next turn (up to 3 times)."
+    },
+    "passives.14.response": {
+      "sourceHash": "f3eff500323c3c85ca86855ac8cd9b66c686bb41d2a00e953b6b4b743a09554f",
+      "text": "Rather than deliberately taking damage to trigger this, check Speed and levels after it activates and recover."
+    },
+    "passives.15.name": {
+      "sourceHash": "9e0294483d55e56a805700613f52dc9b054a5791f59a90dcf02d3c37d6a36f95",
+      "text": "Hardblood Wedge Gaol"
+    },
+    "passives.15.condition": {
+      "sourceHash": "e6a1b014a48c87c3cbed5c763e86cd132eb39b1a0ab335fad6744bf6a0121c15",
+      "text": "The Spear is removed"
+    },
+    "passives.15.effect": {
+      "sourceHash": "d0a4fc606866cd9237639612d9fab44200a81c37fa674f1107e08c704de314e8",
+      "text": "Release the corresponding ally's restraint next turn."
+    },
+    "passives.15.response": {
+      "sourceHash": "374cf909f84db189a052077692fb482365bc1898a99186dd041d32426bc3b03a",
+      "text": "Have Sinners destroy it early to rescue the ally."
+    },
+    "passives.16.name": {
+      "sourceHash": "8d757af7ae4b84acb062a09f6bda6e2420868582014493657af6781deb03948e",
+      "text": "Shattering, Scattering Hardblood"
+    },
+    "passives.16.condition": {
+      "sourceHash": "e6a1b014a48c87c3cbed5c763e86cd132eb39b1a0ab335fad6744bf6a0121c15",
+      "text": "The Spear is removed"
+    },
+    "passives.16.effect": {
+      "sourceHash": "c8be5c5709fabf3816ff3aad32cd6696e05ecd91823cf9f22d1f528a60a23507",
+      "text": "The least abundant E.G.O resource +3 and a random resource +3."
+    },
+    "passives.16.response": {
+      "sourceHash": "024aa189f9f8ba01d57f75dd2556fd6cc7d96cef9fd16bd2c5229b53720b88d7",
+      "text": "Rescue the ally while replenishing resources."
+    },
+    "passives.17.name": {
+      "sourceHash": "59483faba0d7ee6efb09422ba6ee96526455b68acbc1d290d0dc3cde977fecdc",
+      "text": "Internal Blood Crystallization"
+    },
+    "passives.17.condition": {
+      "sourceHash": "e539bb6093c76848f459faf909c3fb3d9dfc498419da29bdf5c4f89b01ef3f94",
+      "text": "Survives through the turn after being created"
+    },
+    "passives.17.effect": {
+      "sourceHash": "5e306e08df9c0413b884e417483988da31902431f676a5436cc4279541daced1",
+      "text": "Disappears at that Turn End, dealing fixed damage equal to 30% max HP to its captive and inflicting 10 Bleed and 5 Count."
+    },
+    "passives.17.response": {
+      "sourceHash": "0d53b0a99febcb800d91f100b6cc26a0a5d38df29afce1368d374e52d4e217b4",
+      "text": "Destroy it rather than waiting for automatic release."
+    },
+    "passives.18.name": {
+      "sourceHash": "9e483384c765bc7583ca178ee5c0411c2c8b6f9ff2c6ef55707b810ed190a0cd",
+      "text": "Total Blood Coagulation"
+    },
+    "passives.18.condition": {
+      "sourceHash": "57f68098e3ad33ac47af0dda4db7a168dce61c89f745464d1a01abd7eca2ea35",
+      "text": "Defeated by enemy Don Quixote"
+    },
+    "passives.18.effect": {
+      "sourceHash": "2998fda7e5756e678c8ea935b9b2cdae5770b7b80073709122b8c80c509209f7",
+      "text": "The captured ally dies."
+    },
+    "passives.18.response": {
+      "sourceHash": "cd5bb7532ef5e0425bda69599388479cbb0bc0ebf58e7a3ea38a210f93d56c54",
+      "text": "The boss cannot rescue your ally. Have allies land the kill."
+    },
+    "passives.19.name": {
+      "sourceHash": "e23302e8155e82652dc00baa0f132ef907a2760973d84d62010d56c48a4ca2ac",
+      "text": "Broken Fragment of a Futile, Naive Dream"
+    },
+    "passives.19.condition": {
+      "sourceHash": "d8fc11bbfbf8ba31b668c012da4e042cde565795beb9c299dbe6a15fe253762f",
+      "text": "Removed"
+    },
+    "passives.19.effect": {
+      "sourceHash": "ca1014a6036b61c59ea20b842838944a480387c8a63b07b5bc1c291f5f606abc",
+      "text": "Bloodfeast +30. If a Sinner lands the kill, create Memories of the Dreaming Adventure."
+    },
+    "passives.19.response": {
+      "sourceHash": "c6568eac6034df329e5ba57802aeef31b7a583d349c8ba743265e94597899c73",
+      "text": "Have allies defeat all 4 Dreams to gain the support needed."
+    },
+    "passives.20.name": {
+      "sourceHash": "54c82fee22546ff72bcd16611fc8d222c6919afd58a345fb57dc64a8e6ad76c5",
+      "text": "A Selfish Wish at the Expense of the Family"
+    },
+    "passives.20.condition": {
+      "sourceHash": "57f68098e3ad33ac47af0dda4db7a168dce61c89f745464d1a01abd7eca2ea35",
+      "text": "Defeated by enemy Don Quixote"
+    },
+    "passives.20.effect": {
+      "sourceHash": "cf46789d74da695aa7c7b010f72e415c9effb6a563d2d2c330d507a01053756b",
+      "text": "The boss gains 5 Bloodlust. Deal 30 Lust damage and inflict 8 Bleed and 8 Count on all Sinners."
+    },
+    "passives.20.response": {
+      "sourceHash": "c83c666460dd2f8a7a57b7a8a8bd0b840842ec71200443fc137063b7e40f93be",
+      "text": "Clear it before the enemy kills it."
+    },
+    "passives.21.name": {
+      "sourceHash": "506019477a82a61c513b9e4c379a6ca1386a299e67fbda6f03f2a69c2561556b",
+      "text": "I never should've dreamed this irresponsible dream"
+    },
+    "passives.21.condition": {
+      "sourceHash": "24c05cde74b0d900c8a18a1f814b1d8da55543befb0fcb227946c46bd53b0342",
+      "text": "Has Irresponsible Dream"
+    },
+    "passives.21.effect": {
+      "sourceHash": "5dd075ee2bf585136222d1c3d7ad4ac3c1ce445084082d9e9b20e78ceea1138f",
+      "text": "Defeating it does not create Memories of the Dreaming Adventure."
+    },
+    "passives.21.response": {
+      "sourceHash": "91354fdb2046a463249ef1a24ba92e70ef40eed4cd8226a11a19ee556002ebb3",
+      "text": "Do not leave Dreams until The Sphere; convert them to support first."
+    },
+    "passives.22.name": {
+      "sourceHash": "a310624f8f6544a890c504f2381684421325284e85a250706b6c5c95a8379726",
+      "text": "The adventure ends here."
+    },
+    "passives.22.condition": {
+      "sourceHash": "f5b5102b058d1bf03e1ec61a2c0d71d5204e43bc5d95421a6d87ee9eb31d9155",
+      "text": "Every Turn Start"
+    },
+    "passives.22.effect": {
+      "sourceHash": "56c0fe97c9f7bce5307940846f3cb552caf07c47a1cc1410895192475c1bc089",
+      "text": "Supplies Shield to the boss."
+    },
+    "passives.22.response": {
+      "sourceHash": "bcdef73bff74249746b64f2e81a2d4d74d02cbdd6f09d76c8ba56fb45bd6bab5",
+      "text": "A reason to handle Dreams before damaging the main body."
+    },
+    "passives.23.name": {
+      "sourceHash": "aa8cc84076b6f3af810562d8f461e04b47e768e49b85a501c48dc6b24c7456b7",
+      "text": "Memories of the Journeys Past"
+    },
+    "passives.23.condition": {
+      "sourceHash": "997b17c6ac0cbc4c7b6ff255f273b7132a17809969af3ca9809da37fdf57eb20",
+      "text": "Every Turn Start / The Sphere turn"
+    },
+    "passives.23.effect": {
+      "sourceHash": "daf672abde266ffda9db5b9a74315de7c851a22134f0d424574975f7c892524d",
+      "text": "Heal 5 SP for all Sinners. Buff allied Don Quixote; on The Sphere turn, changes to an effect granting allied Shields. The Manager Identity receives a different special effect."
+    },
+    "passives.23.response": {
+      "sourceHash": "8fe7bf0368f166ce8bec716ff4716d753c8150a0013b2c01a572f29aea2955c9",
+      "text": "Provides both long-fight support and defense against the big attack. Have Sinners defeat Dreams first."
+    },
+    "passives.24.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.24.effect": {
+      "sourceHash": "37e71a28c8c45ca7db342da44756b966a50ad042e84165a06fee6ec34e4439bc",
+      "text": "On attack hit against a target with Bleed, heal HP by 15% of damage dealt."
+    },
+    "passives.24.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.24.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.25.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.25.effect": {
+      "sourceHash": "dcf33f1c12dfdd684bed9c3bbeb99553130a3c4b06f2ef9598bb073e12004e95",
+      "text": "At Attack End, if the target has at least 8 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.25.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.25.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.26.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.26.effect": {
+      "sourceHash": "bb04342a9c84bbe9f54a24d151eb48af8ca3e5bbd4970801af83690cacc5d4d2",
+      "text": "Prioritizes targets with Bleed.\nAt Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.26.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.26.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.27.name": {
+      "sourceHash": "ab4eebafc86797eeefc92efdde682d84c74a02a6c481057d450c951c816168b1",
+      "text": "Blood-tinged Scissorblades"
+    },
+    "passives.27.effect": {
+      "sourceHash": "c4bc0d6bc3140bf6f0e5dd8106f8b1da3c9695c4b387917d2ebabbbc450dd2ba",
+      "text": "If at 1 Blood-tinged Scissorblades or more, strengthen the Scissorblades."
+    },
+    "passives.27.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.27.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.28.name": {
+      "sourceHash": "a2af3b6b3751110f642d652180d7246ee6de0659a9d5ca9812634be1fd5d305a",
+      "text": "Bloodbag"
+    },
+    "passives.28.effect": {
+      "sourceHash": "bc445aca87b2bc9308f3cb4b3b39ba29bdcec8bfd013e17f7d819c4ccaa20527",
+      "text": "On taking damage, increase own Bleed Count by 1. Each 20% HP lost grants 1 Coagulated Blood. On death, if an ally or enemy is a Bloodfiend, increase Bloodfeast by 30."
+    },
+    "passives.28.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.28.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.29.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.29.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.29.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.29.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "passives.30.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.30.effect": {
+      "sourceHash": "37e71a28c8c45ca7db342da44756b966a50ad042e84165a06fee6ec34e4439bc",
+      "text": "On attack hit against a target with Bleed, heal HP by 15% of damage dealt."
+    },
+    "passives.30.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.30.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.31.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.31.effect": {
+      "sourceHash": "dcf33f1c12dfdd684bed9c3bbeb99553130a3c4b06f2ef9598bb073e12004e95",
+      "text": "At Attack End, if the target has at least 8 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.31.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.31.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.32.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.32.effect": {
+      "sourceHash": "bb04342a9c84bbe9f54a24d151eb48af8ca3e5bbd4970801af83690cacc5d4d2",
+      "text": "Prioritizes targets with Bleed.\nAt Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.32.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.32.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.33.name": {
+      "sourceHash": "a2af3b6b3751110f642d652180d7246ee6de0659a9d5ca9812634be1fd5d305a",
+      "text": "Bloodbag"
+    },
+    "passives.33.effect": {
+      "sourceHash": "bc445aca87b2bc9308f3cb4b3b39ba29bdcec8bfd013e17f7d819c4ccaa20527",
+      "text": "On taking damage, increase own Bleed Count by 1. Each 20% HP lost grants 1 Coagulated Blood. On death, if an ally or enemy is a Bloodfiend, increase Bloodfeast by 30."
+    },
+    "passives.33.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.33.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.34.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.34.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.34.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.34.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "passives.35.name": {
+      "sourceHash": "80bf60f25d46504d842929982507e09b2cff0b58979a63e9d19250c0f316b83d",
+      "text": "Festive Sounds"
+    },
+    "passives.35.effect": {
+      "sourceHash": "dcca02a43b989af3aa8f806ce9e84dc5129022c664177bd961c6fa4abc1b2cdc",
+      "text": "Gain 1 Festive Fever whenever a skill grants a positive buff (once per type).\nAt Turn Start, gain Festive Fever equal to the number of other allies (max 3). At Turn End, lose Festive Fever equal to allies who died this turn.\nAt 8 Festive Fever or more, use a strong skill next turn."
+    },
+    "passives.35.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.35.response": {
+      "sourceHash": "8c2e6f3d0f0abad86201bab7ca5321d44effd55f18f1ada44b913268909564da",
+      "text": "Aim to Stagger or kill it before Fever reaches 8. A longer fight allows the stronger skill."
+    },
+    "passives.36.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.36.effect": {
+      "sourceHash": "37e71a28c8c45ca7db342da44756b966a50ad042e84165a06fee6ec34e4439bc",
+      "text": "On attack hit against a target with Bleed, heal HP by 15% of damage dealt."
+    },
+    "passives.36.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.36.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.37.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.37.effect": {
+      "sourceHash": "dcf33f1c12dfdd684bed9c3bbeb99553130a3c4b06f2ef9598bb073e12004e95",
+      "text": "At Attack End, if the target has at least 8 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.37.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.37.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.38.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.38.effect": {
+      "sourceHash": "bb04342a9c84bbe9f54a24d151eb48af8ca3e5bbd4970801af83690cacc5d4d2",
+      "text": "Prioritizes targets with Bleed.\nAt Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.38.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.38.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.39.name": {
+      "sourceHash": "a2af3b6b3751110f642d652180d7246ee6de0659a9d5ca9812634be1fd5d305a",
+      "text": "Bloodbag"
+    },
+    "passives.39.effect": {
+      "sourceHash": "7d642f1e49183747879945795e552d6baf42921ec20eb179ddd339c7e0698eb0",
+      "text": "On taking damage, increase own Bleed Count by 1. Each 20% HP lost grants 1 Coagulated Blood and 2 Blooming Thorn. On death, if any ally or enemy is a Bloodfiend, increase Bloodfeast by 30."
+    },
+    "passives.39.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.39.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.40.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.40.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.40.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.40.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "passives.41.name": {
+      "sourceHash": "6d78ee3abb59fad7f6ad2b3eeba91d434bf390bee75955e2d46f76dc93dcb431",
+      "text": "Starved and Withered"
+    },
+    "passives.41.effect": {
+      "sourceHash": "50201f4f98c2dfa89518a6b614ff0c3961b7107d661df335540905c541ee18a9",
+      "text": "At Combat Start, gain Withered."
+    },
+    "passives.41.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.41.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.42.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.42.effect": {
+      "sourceHash": "ead59d88188e676f04877bec9867414e3bfb37647a422426eb24fb02668fcd3b",
+      "text": "On attack hit against a target with Bleed, heal HP by 20% of damage dealt."
+    },
+    "passives.42.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.42.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.43.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.43.effect": {
+      "sourceHash": "61bcbb4dfd09e228785deb493e87f55a2b2731e242bf1bf1b6a7d080404439f3",
+      "text": "At Attack End, if the target has at least 5 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.43.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.43.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.44.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.44.effect": {
+      "sourceHash": "53c8e8e173cd0e6fe5e0d34219aac8d9b0e1387639f83da8f503d95003ff3157",
+      "text": "- Prioritizes targets with Bleed.\n- At Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn.\n- At Turn End, if damage was dealt this turn, heal 5 SP."
+    },
+    "passives.44.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.44.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.45.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.45.effect": {
+      "sourceHash": "c184e698020e69acb81ae3e7e5f32593f7b6a67d9f5a1fc888550bc56110d34d",
+      "text": "If this character appears in the encounter or is in its enemy roster, all characters' Bleed damage increases Bloodfeast from Turn 1. Each time this character enters, reveal the latent blood scattered across the battlefield."
+    },
+    "passives.45.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.45.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.46.name": {
+      "sourceHash": "ab4eebafc86797eeefc92efdde682d84c74a02a6c481057d450c951c816168b1",
+      "text": "Blood-tinged Scissorblades"
+    },
+    "passives.46.effect": {
+      "sourceHash": "095a7ad04d1b25db93ef468ecd8638d517c04bd2cd5f5e9a83f3019f0f40345a",
+      "text": "If at 2 Blood-tinged Scissorblades or more, strengthen the Scissorblades."
+    },
+    "passives.46.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.46.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.47.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.47.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.47.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.47.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.48.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.48.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.48.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.48.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "passives.49.name": {
+      "sourceHash": "6d78ee3abb59fad7f6ad2b3eeba91d434bf390bee75955e2d46f76dc93dcb431",
+      "text": "Starved and Withered"
+    },
+    "passives.49.effect": {
+      "sourceHash": "50201f4f98c2dfa89518a6b614ff0c3961b7107d661df335540905c541ee18a9",
+      "text": "At Combat Start, gain Withered."
+    },
+    "passives.49.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.49.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.50.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.50.effect": {
+      "sourceHash": "ead59d88188e676f04877bec9867414e3bfb37647a422426eb24fb02668fcd3b",
+      "text": "On attack hit against a target with Bleed, heal HP by 20% of damage dealt."
+    },
+    "passives.50.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.50.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.51.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.51.effect": {
+      "sourceHash": "61bcbb4dfd09e228785deb493e87f55a2b2731e242bf1bf1b6a7d080404439f3",
+      "text": "At Attack End, if the target has at least 5 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.51.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.51.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.52.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.52.effect": {
+      "sourceHash": "53c8e8e173cd0e6fe5e0d34219aac8d9b0e1387639f83da8f503d95003ff3157",
+      "text": "- Prioritizes targets with Bleed.\n- At Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn.\n- At Turn End, if damage was dealt this turn, heal 5 SP."
+    },
+    "passives.52.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.52.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.53.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.53.effect": {
+      "sourceHash": "c184e698020e69acb81ae3e7e5f32593f7b6a67d9f5a1fc888550bc56110d34d",
+      "text": "If this character appears in the encounter or is in its enemy roster, all characters' Bleed damage increases Bloodfeast from Turn 1. Each time this character enters, reveal the latent blood scattered across the battlefield."
+    },
+    "passives.53.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.53.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.54.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.54.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.54.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.54.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.55.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.55.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.55.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.55.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "passives.56.name": {
+      "sourceHash": "40858a5120cdff49673980be7b27b4e536243e94596c203121b0109521143443",
+      "text": "Festive Mood"
+    },
+    "passives.56.effect": {
+      "sourceHash": "cb507f77bba4ba0e232dcc94d349fe812aa2f8c1fe138576753b0ec28f337b4b",
+      "text": "Gain 1 Festive Fever whenever a skill grants a positive buff (once per type).\nAt Turn Start, gain Festive Fever equal to the number of other allies (max 3). At Turn End, lose Festive Fever equal to allies who died this turn and heal SP equal to Festive Fever (does not activate at −45 SP).\nAt 8 Festive Fever or more, use a strong skill next turn."
+    },
+    "passives.56.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.56.response": {
+      "sourceHash": "8c2e6f3d0f0abad86201bab7ca5321d44effd55f18f1ada44b913268909564da",
+      "text": "Aim to Stagger or kill it before Fever reaches 8. A longer fight allows the stronger skill."
+    },
+    "passives.57.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.57.effect": {
+      "sourceHash": "ead59d88188e676f04877bec9867414e3bfb37647a422426eb24fb02668fcd3b",
+      "text": "On attack hit against a target with Bleed, heal HP by 20% of damage dealt."
+    },
+    "passives.57.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.57.response": {
+      "sourceHash": "fe1e8d5d97d4bd369c67e5c78369ff57bf42ad3059d8f40e3e096e4dd9cf1c2e",
+      "text": "Hits on Bleeding allies also permit healing. Do not ignore an attack just because the enemy's HP is low."
+    },
+    "passives.58.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.58.effect": {
+      "sourceHash": "61bcbb4dfd09e228785deb493e87f55a2b2731e242bf1bf1b6a7d080404439f3",
+      "text": "At Attack End, if the target has at least 5 Bleed, gain 1 Coagulated Blood."
+    },
+    "passives.58.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.58.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.59.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.59.effect": {
+      "sourceHash": "53c8e8e173cd0e6fe5e0d34219aac8d9b0e1387639f83da8f503d95003ff3157",
+      "text": "- Prioritizes targets with Bleed.\n- At Turn End, if no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn.\n- At Turn End, if damage was dealt this turn, heal 5 SP."
+    },
+    "passives.59.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.59.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.60.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.60.effect": {
+      "sourceHash": "c184e698020e69acb81ae3e7e5f32593f7b6a67d9f5a1fc888550bc56110d34d",
+      "text": "If this character appears in the encounter or is in its enemy roster, all characters' Bleed damage increases Bloodfeast from Turn 1. Each time this character enters, reveal the latent blood scattered across the battlefield."
+    },
+    "passives.60.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.60.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.61.name": {
+      "sourceHash": "6d78ee3abb59fad7f6ad2b3eeba91d434bf390bee75955e2d46f76dc93dcb431",
+      "text": "Starved and Withered"
+    },
+    "passives.61.effect": {
+      "sourceHash": "50201f4f98c2dfa89518a6b614ff0c3961b7107d661df335540905c541ee18a9",
+      "text": "At Combat Start, gain Withered."
+    },
+    "passives.61.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.61.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.62.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.62.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.62.condition": {
+      "sourceHash": "7ea57e6089460b565b721a1fe2e2a19659602b530dad74736021e08fb2e4724f",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.62.response": {
+      "sourceHash": "1839ff6f961bbc2630a348748d17dd6d525330ced75312a63ea6d80b933d51f7",
+      "text": "Adds also accumulate Bleed and buffs. Handle regular skills while seeking Staggers and kills."
+    },
+    "passives.63.name": {
+      "sourceHash": "1658fccc1b59ca367cf4582704ad6b1a2095b84faa43263098f57fed4e56bfc8",
+      "text": "This Explosive Insanity!"
+    },
+    "passives.63.condition": {
+      "sourceHash": "43be95de848136497754dc6bc85266da1afe1f71287c885ef1abd52d259c4a50",
+      "text": "Alive at the end of the arrival turn"
+    },
+    "passives.63.effect": {
+      "sourceHash": "19e08512e1acef7368bd7adf2a97f05ee3005ffa6d2e240a07f21287ec9f86ca",
+      "text": "Uses its self-destruct skill next turn and dies at that turn's end."
+    },
+    "passives.63.response": {
+      "sourceHash": "59c2b4c2f8d0525b908f06b25556383e41d26149df54cf9cd917df91836b93dd",
+      "text": "Self-destruction is Unclashable. Stagger or kill it first."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "ace3eb110e651ccec88ee9ba26d88420f9402b5f7ca815eb2f602ea2e4262c65",
+      "text": "The Endless Wheel"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "2c31380ede433f179685b4c8b4d57fd4db28b5f38a20fb325372d5245c09a299",
+      "text": "Starts at 7; decreases by 1 per Gondola defeated. At 0 with no pending summons, changes to the humanoid form."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "3503ac3fc3e2432a3337423da0f662c1d0228f957ede3df181b0700768db1749",
+      "text": "Use remaining Gondolas rather than Ferris Wheel HP to track progression."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "1eb6ee9d2e6981428326fd64ef9aecc1055f4a1e3eaa03dfed0114b8cda0cb92",
+      "text": "Returning Bloodlust"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "8501acc4fa49145ff66d58a24e6995892aa7d8b7b49855b25889e1524eb161f2",
+      "text": "Gained by consuming Bloodfeast. Reaches II at 10 or more and III at 20 or more. Stage II grants Offense and Defense Level Up and +1 Clash Power; III adds effects including +1 Coin Power. Bleed and Rupture application also increases."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "89dd6d6fe4d1cb7fcac6ab39231a9729872773b0fcba5272cbfb0229287fc147",
+      "text": "Stop Mantle, Wedge, and other skills that reduce Bloodlust on your clash win, limiting later area-attack damage."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "0ae5e0d83177a14edef0b9e1653439065f4acfc16f04f46e0a1e4d14a59be616",
+      "text": "Congealing Blood"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "b2673d47d006043a6013d76fe09d8ff5ae59b3de25cd8916489dd195bccc7eec",
+      "text": "Incapacitated for 2 turns; creates a corresponding Spear."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "09ac4b1ba6d1308db26efe277d75bff393abc7c254bd5ba9a765d80d0e8f28a6",
+      "text": "Assign a Spear clearer to prevent timeout damage and boss kills."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "5a36a0f77e4eb057024eec6f1abc0723fc87cb117ad9ac1c9d16f5c78764c7bf",
+      "text": "Memories of the Dreaming Adventure"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "1abd2f0b7c3b624e2c01ef66a323208dbdb39e86ff76eacf8d572134775907f8",
+      "text": "Created from Dreams defeated by Sinners. Restores SP and buffs allied Don Quixote; supplies Shields to everyone for The Sphere."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "4066389b06efef694adfc2e6c5c4bf66d60dc399880a94d59a6276cd3773df2c",
+      "text": "Have Sinners, not the boss, defeat Dreams and turn them into support before the big attack."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "b0f6cac9a382c7f20b115026f855af8757436e98d1dd9add1f3cc90eea95ee9b",
+      "text": "Allied Don Quixote's special effects"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "526dea44e10ad7bb7399d41cd2d7228ef838a43605bbbc7ca2c2a5fb6050d62d",
+      "text": "HP cannot fall below 1 while another Sinner is alive. Base E.G.O cannot be used during normal combat. Gains Offense Level and SP-related buffs as turns pass and under other conditions. The Manager Identity's special effects differ."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "1c2c15917bbc5179989d8c9c1f9b043e0db62767af7ccf6e76171e190bc5b3a9",
+      "text": "Can receive attacks alone, but cannot protect the whole team from area damage. Keep another Sinner alive."
+    },
+    "warnings.0": {
+      "sourceHash": "e52ef3e60f71a2566b0c786fdd599130af6c2ed5a19b27c6fbc79a76b3c6634e",
+      "text": "Be Impaled has a Wrath version with percentage-based damage and a Sloth version with restraints. Distinguish them by affinity and effects."
+    },
+    "warnings.1": {
+      "sourceHash": "fc9263a04d18e1f79b12d687ea07bf1d2c772496272423b4a26743fee9f84d6a",
+      "text": "Do not apply the Mirror Dungeon-only 80% damage reduction on Clash Lose to the story version's big attacks."
+    },
+    "warnings.2": {
+      "sourceHash": "7832bba038532f155023ec278333eca8bda4813a5cf6e5f7349946df3b7dc6eb",
+      "text": "HP boundaries can end the turn. Do not calculate resources and damage assuming every skill will act."
+    },
+    "warnings.3": {
+      "sourceHash": "2ebe34110f08803d8fa0a46959efd3437b5710c043abf2fea7f73ab27cc93a8d",
+      "text": "Dream support Shields are important preparation for the big attack. Stagger near a boundary can shift activation timing; check actual Shields and the displayed big attack."
+    },
+    "warnings.4": {
+      "sourceHash": "cf243263223b6c50a08454194f0e994b0501557b1447ec1e2cdf5bf2022fd8ce",
+      "text": "Departing Sinners and 0 resources in the ending sequence are part of the mechanic. Proceed with the prompted E.G.O and controls."
+    },
+    "preparation.0": {
+      "sourceHash": "8d8c6c5a09d5d5cb00f1fa1821299e7ab961cf83b19829f6de63323eadc6189d",
+      "text": "Aim for the recommended Lv.50 on main combatants and reserves. A Chain Battle with 6 deployed Sinners and 6 reserves; Don Quixote is mandatory."
+    },
+    "preparation.1": {
+      "sourceHash": "6f5f335d87594230135ded455c809ba95e0157a42a1aab07b703eba4658335c1",
+      "text": "Prepare SP and HP recovery, Protection, and Shields. Check E.G.O resources gathered in the dungeon too."
+    },
+    "preparation.2": {
+      "sourceHash": "6c2710ec303c881a9be435fe5e3590a4b281399b69c32df3e7ba161da91e57b6",
+      "text": "Prepare for Pierce and Blunt area attacks and Bleed. Clash strength alone is insufficient; remaining Coins also require resistances and HP."
+    },
+    "preparation.3": {
+      "sourceHash": "fd7c18c7affd98fca4a6e8e3ad85c0fb8bdad79f9b1d6a2ec3e92275e179933f",
+      "text": "Starting SP modifiers for reserves have opposite signs for positive- and negative-Coin Identities. Decide who enters after a casualty."
+    },
+    "roles.0.name": {
+      "sourceHash": "272b637b426e5c6ba836214ee39ad6a48c5395b633702df01670eee45caeaf01",
+      "text": "Main combatants who clash while managing Bleed"
+    },
+    "roles.0.reason": {
+      "sourceHash": "572172cddf7892c0c43e52a1e267160f83a967a44b3136cda7fae7a66a8f39c1",
+      "text": "Beat area attacks and Mantle to reduce Bloodlust. Check attack order and additional targets too."
+    },
+    "roles.1.name": {
+      "sourceHash": "52c795ea34508eca99344141f836b8b5b00db577ae55fc1c290d288e057f733c",
+      "text": "Spear and Dream clearers"
+    },
+    "roles.1.reason": {
+      "sourceHash": "2126cadbff867943fc6c6931b716f4341250aad0d6fbc2ff0df737803aa6a865",
+      "text": "Handle rescues, stop Shield generation, and create support rather than focusing only on the main body."
+    },
+    "roles.2.name": {
+      "sourceHash": "281020393d96913d8898e8ec1f3e28eeea5aa63a5d61de0b31dffcfffeb472c7",
+      "text": "Recovery, SP support, and reserves"
+    },
+    "roles.2.reason": {
+      "sourceHash": "78811ec4736ade477ed2c9f2eb34c52a4466765f2bd8aedc5c64613d1ce3ee53",
+      "text": "A long encounter where not every hit can be prevented. Survive the difficult humanoid opening and advance to the later mechanics."
+    }
+  },
+  "messages": {
+    "boss-copy:don-quixote": "complete",
+    "【リンバス】7-36 ドンキホーテ（7章最終ボス）の攻略｜Limbus Assistant": "7-36 Don Quixote (Canto VII Final Boss) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)7-36「ドンキホーテ（7章最終ボス）」の攻略。観覧車では取り巻きを処理し、人型では出血と拘束を管理する長期戦。凝結した夢を味方で倒して支援へ変え、大技を越える準備をしよう。": "Don Quixote (Canto VII Final Boss) guide for Limbus Company 7-36. A long encounter: clear adds during the Ferris Wheel phase, then manage Bleed and restraints in the humanoid phase. Have allies defeat Coagulated Dreams to turn them into support and prepare for the big attacks.",
+    "7-36 ドンキホーテ（7章最終ボス）": "7-36 Don Quixote (Canto VII Final Boss)",
+    "7-36「The Tale of the Great Fixer Who Sought the Dream: Final Battle」": "7-36 · The Tale of the Great Fixer Who Sought the Dream: Final Battle",
+    "ドンキホーテ（人型）の外見": "Don Quixote (Humanoid) appearance",
+    "ドンキホーテ（人型）のスキル": "Don Quixote (Humanoid) skills",
+    "Don Quixote (Humanoid)の外見": "Don Quixote (Humanoid) appearance",
+    "Don Quixote (Humanoid)のスキル": "Don Quixote (Humanoid) skills",
+    "ドンキホーテ（大観覧車）の外見": "Don Quixote (Ferris Wheel) appearance",
+    "ドンキホーテ（大観覧車）のスキル": "Don Quixote (Ferris Wheel) skills",
+    "Don Quixote (Ferris Wheel)の外見": "Don Quixote (Ferris Wheel) appearance",
+    "Don Quixote (Ferris Wheel)のスキル": "Don Quixote (Ferris Wheel) skills",
+    "ゴンドラの外見": "Gondola appearance",
+    "ゴンドラのスキル": "Gondola skills",
+    "Gondolaの外見": "Gondola appearance",
+    "Gondolaのスキル": "Gondola skills",
+    "貫いた槍の外見": "Impaling Spear appearance",
+    "貫いた槍のスキル": "Impaling Spear skills",
+    "Impaling Spearの外見": "Impaling Spear appearance",
+    "Impaling Spearのスキル": "Impaling Spear skills",
+    "凝結した夢の外見": "Coagulated Dream appearance",
+    "凝結した夢のスキル": "Coagulated Dream skills",
+    "Coagulated Dreamの外見": "Coagulated Dream appearance",
+    "Coagulated Dreamのスキル": "Coagulated Dream skills",
+    "夢見る冒険の記憶の外見": "Memories of the Dreaming Adventure appearance",
+    "夢見る冒険の記憶のスキル": "Memories of the Dreaming Adventure skills",
+    "Memories of the Dreaming Adventureの外見": "Memories of the Dreaming Adventure appearance",
+    "Memories of the Dreaming Adventureのスキル": "Memories of the Dreaming Adventure skills",
+    "着飾った血袋の外見": "Well-dressed Bloodbag appearance",
+    "着飾った血袋のスキル": "Well-dressed Bloodbag skills",
+    "Well-dressed Bloodbagの外見": "Well-dressed Bloodbag appearance",
+    "Well-dressed Bloodbagのスキル": "Well-dressed Bloodbag skills",
+    "おぞましい血袋の外見": "Sinister Bloodbag appearance",
+    "おぞましい血袋のスキル": "Sinister Bloodbag skills",
+    "Sinister Bloodbagの外見": "Sinister Bloodbag appearance",
+    "Sinister Bloodbagのスキル": "Sinister Bloodbag skills",
+    "後を追うパレードの血袋の外見": "Bloodbag of the Rear Parade appearance",
+    "後を追うパレードの血袋のスキル": "Bloodbag of the Rear Parade skills",
+    "Bloodbag of the Rear Paradeの外見": "Bloodbag of the Rear Parade appearance",
+    "Bloodbag of the Rear Paradeのスキル": "Bloodbag of the Rear Parade skills",
+    "狂ってしまった洒落者の血鬼の外見": "Insane Fashionista Bloodfiend appearance",
+    "狂ってしまった洒落者の血鬼のスキル": "Insane Fashionista Bloodfiend skills",
+    "Insane Fashionista Bloodfiendの外見": "Insane Fashionista Bloodfiend appearance",
+    "Insane Fashionista Bloodfiendのスキル": "Insane Fashionista Bloodfiend skills",
+    "祈る幽霊役の血鬼の外見": "\"Ghost\" Bloodfiend of Prayers appearance",
+    "祈る幽霊役の血鬼のスキル": "\"Ghost\" Bloodfiend of Prayers skills",
+    "\"Ghost\" Bloodfiend of Prayersの外見": "\"Ghost\" Bloodfiend of Prayers appearance",
+    "\"Ghost\" Bloodfiend of Prayersのスキル": "\"Ghost\" Bloodfiend of Prayers skills",
+    "幸せなパレードの血鬼の外見": "Bloodfiend of the Happy Parade appearance",
+    "幸せなパレードの血鬼のスキル": "Bloodfiend of the Happy Parade skills",
+    "Bloodfiend of the Happy Paradeの外見": "Bloodfiend of the Happy Parade appearance",
+    "Bloodfiend of the Happy Paradeのスキル": "Bloodfiend of the Happy Parade skills"
+  }
+}

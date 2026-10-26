@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0206.md",
+  "code": "0206",
+  "messages": {
+    "怠惰の共鳴を作って撃ち、大量の振動を付与して連続で振動爆発を起こし、敵を一気に混乱へ押し込む4コインのE.G.O。": "A 4-Coin E.G.O used after building Sloth Resonance that inflicts heavy Tremor and triggers Tremor Burst repeatedly to push enemies into Stagger at once.",
+    "振動の付与と絡縺: Ⅰコインが振動と振動回数を付与し、振動-永続へ振幅絡縺を行う。Ⅰコインが割られるとこの流れが止まる。解析Ⅳで付与量が5から10になる。": "**Tremor and Entanglement**: Coin Ⅰ inflicts Tremor and Tremor Count and performs Amplitude Entanglement into Tremor - Everlasting. If Coin Ⅰ is broken, this chain stops. Threadspin Ⅳ raises the amount from 5 to 10.",
+    "連続の振動爆発: Ⅱ〜Ⅳコインが的中時に振動爆発を起こす(解析ⅣはⅠコインも爆発し計4回)。振動-永続は爆発時に確率で爆発を1回追加する(威力と回数のそれぞれ最大50%)。": "**Repeated Tremor Burst**: Coins Ⅱ–Ⅳ trigger Tremor Burst on hit; at Threadspin Ⅳ, Coin Ⅰ also bursts, for 4 in total. Tremor - Everlasting has a chance to add 1 more burst when bursting, up to 50% each for Potency and Count.",
+    "共鳴で伸びる振動付与: 攻撃前に最大共鳴数が3以上なら振動威力を付与する(解析Ⅳは共鳴数×2、最大10)。怠惰完全共鳴なら同じ値の振動回数も付与する(解析Ⅲ)。": "**Resonance-scaling Tremor**: Before attacking, inflicts Tremor Potency if the highest Resonance is 3 or more (Resonance×2 at Threadspin Ⅳ, up to 10). With Sloth Absolute Resonance, it also inflicts the same amount of Tremor Count (Threadspin Ⅲ).",
+    "速度差ダメージ: 対象の速度が自分より低いほどダメージ量が増える(解析Ⅳで最大50%)。Ⅳコインは次のターンに対象の速度最大値を半減させる。": "**Speed-difference damage**: Deals more damage the lower the target's Speed is compared to hers, up to 50% at Threadspin Ⅳ. Coin Ⅳ halves the target's maximum Speed next turn.",
+    "自傷: 攻撃後の3ターンは、ターン終了時に精神力が10ずつ減る。パッシブ「走る時間」は、振動爆発を付与すると次のターンにクイック1(最大4回)。": "**Self-damage**: For 3 turns after the attack, she loses 10 SP at each Turn End. The passive Running Time grants 1 Haste next turn when she triggers Tremor Burst, up to 4 times.",
+    "怠惰を並べて怠惰完全共鳴を作り、決めたい場面で撃つ。振動爆発を起こす味方が続けば、追加の爆発も含めて伸びると考えられる。": "Line up Sloth skills to build Sloth Absolute Resonance and fire it at the decisive moment. If allies who trigger Tremor Burst follow up, it likely gains more value, including from the extra bursts.",
+    "マッチ威力は4~24と低いので、1コイン目を割られない相手か、一方攻撃になる場面で撃つ。": "Its Clash Power is a low 4–24, so use it against opponents who will not break the first Coin, or when it will be a one-sided attack.",
+    "振動爆発ごとに追加ダメージを出す振動効果と組み合わせると伸びると考えられる。必要資源は11個と重い。": "It likely scales well with Tremor effects that deal extra damage on each Tremor Burst. Its 11 required resources are heavy.",
+    "侵蝕スキルは1コインの3枠広域で、同じ振動付与と爆発を1コインにまとめた形。敵味方識別不可で、対象はランダム(味方に当たり得る)。": "The Corrosion skill hits 3 targets with 1 Coin, compressing the same Tremor infliction and bursts into a single Coin. It cannot distinguish friend from foe, and its targets are random, so it can hit allies.",
+    "Ⅱ: パッシブ「走る時間」が解放される。": "**Ⅱ**: Unlocks the passive Running Time.",
+    "Ⅲ: 速度差ダメージの倍率が上がり、怠惰完全共鳴での振動回数付与が加わる。": "**Ⅲ**: Raises the speed-difference damage multiplier and adds Tremor Count infliction with Sloth Absolute Resonance.",
+    "Ⅳ: 付与量・爆発回数・速度差ダメージがさらに増える。本領が出る段階。": "**Ⅳ**: Further increases the infliction amount, number of bursts, and speed-difference damage. This is where it reaches its full strength.",
+    "ロボトミーE.G.O::後悔: S1が怠惰、S2が傲慢で資源を出せ、振動回数を増やして振動爆発を起こすスキルも持つ。": "**[Lobotomy E.G.O::Regret](persona:0207)**: Her Sloth S1 and Pride S2 supply resources, and she has skills that increase Tremor Count and trigger Tremor Burst.",
+    "夜明事務所フィクサー: S2が怠惰、S1が傲慢で資源を出せ、振動を付与して振動爆発も起こせる。": "**[Dawn Office Fixer](persona:0216)**: Her Sloth S2 and Pride S1 supply resources, and she can inflict Tremor and trigger Tremor Burst."
+  }
+}

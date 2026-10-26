@@ -1,0 +1,744 @@
+{
+  "kind": "boss-copy",
+  "id": "linamovible",
+  "source": "src/data/bosses/linamovible.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "脈動",
+          "en": "Pulsation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeRouge"
+        },
+        {
+          "ja": "皮の外へ！",
+          "en": "Leave the Leather Behind!",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaRouge_LowMorale"
+        },
+        {
+          "ja": "皮の外へ！",
+          "en": "Leave the Leather Behind!",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaRouge_Panic"
+        },
+        {
+          "ja": "釘刺す者",
+          "en": "He Who Nails",
+          "file": "Bufs-a1c10p1.json",
+          "id": "MeursaultBuffet"
+        },
+        {
+          "ja": "試着室",
+          "en": "Changing Room",
+          "file": "Bufs-a1c10p1.json",
+          "id": "RougeThreeCocoon"
+        },
+        {
+          "ja": "迫害",
+          "en": "Persecution",
+          "file": "Bufs-a1c10p1.json",
+          "id": "RougeThreeCocoonHit"
+        },
+        {
+          "ja": "信仰",
+          "en": "Devotion",
+          "file": "Bufs-a1c10p1.json",
+          "id": "RougeThreeCocoonShield"
+        },
+        {
+          "ja": "ブティークの新作服",
+          "en": "Boutique: New Releases",
+          "file": "Bufs-a1c10p1.json",
+          "id": "RougeThreeNormal"
+        },
+        {
+          "ja": "リナモヴィブル",
+          "en": "L'Inamovible",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1466"
+        },
+        {
+          "ja": "ル・ルージュ ブティーク 新作ルックブック",
+          "en": "Boutique du Rouge: New Arrivals Lookbook",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146601"
+        },
+        {
+          "ja": "試着室の中へ",
+          "en": "Into the Changing Room",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146602"
+        },
+        {
+          "ja": "代謝作用",
+          "en": "Metabolic Action and Reaction",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146603"
+        },
+        {
+          "ja": "聞こえる！聞こえるんだ！",
+          "en": "I hear it... I can hear it!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146601"
+        },
+        {
+          "ja": "もう一度服を着替えられたんだ！",
+          "en": "I have been granted another chance to change my clothes!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146602"
+        },
+        {
+          "ja": "私の信仰は無意味じゃなかったんだ！",
+          "en": "My faith wasn't in vain!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146603"
+        },
+        {
+          "ja": "この世界に意味はあったんだ！",
+          "en": "So this world wasn't meaningless after all!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146605"
+        },
+        {
+          "ja": "確かに私と共にいてくださる！",
+          "en": "The Voice is with me, this I know!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146606"
+        },
+        {
+          "ja": "もっと私らしく…もう一度、さらに私らしく…！",
+          "en": "Be myself... Be utterly myself...!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146607"
+        },
+        {
+          "ja": "掻き取れ！引き剥がせ！剥ぎ取れ！",
+          "en": "Scrape! Flay! Peel!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146604"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. The Scrape! Flay! Peel! spelling alias uses skill 146604. Negative Coins, optional Changing Room waiting, unopposed-only damage reduction, the one-time HP floor, and exit buffs are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "defdbc9f39b3ba48f702c54d1e8dc9d3709b30808b2b79112aa96529054c0704",
+      "text": "L'Inamovible (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "73de78bf7118912d25a80b226d8ab793d3015a90303488c686659b416ef87a1d",
+      "text": "L'Inamovible"
+    },
+    "stageName": {
+      "sourceHash": "295707b36826e7fc93c6b89fd329879eadf85ff89cc6ec894320f4c88519c29b",
+      "text": "Sisyphus Department Store A, 3F: Le Rouge Boutique"
+    },
+    "lead": {
+      "sourceHash": "4ab7f9cbc44fa99fde82a8fe871cb081a50c29836b53e81fced8f11b99dae160",
+      "text": "A Blunt-heavy fight alternating between the normal pattern and Changing Room. Its 500 Shield need not be broken immediately; waiting with defense is an option. In the normal pattern, recognize the skill reduced when unopposed and prepare for Unbreakable attacks below half HP."
+    },
+    "statNote": {
+      "sourceHash": "fe2e3fcc66511acd161aebed5cb1c5215ac6929ce72196d56a8a7a72afb60591",
+      "text": "Covers the Canto X Route A 3F version: Lv. 43, 1,740 HP, base Defense Level 48. Meursault, Sinclair, and Outis are required in a team of up to 12. Customer Level determines dungeon Identity levels; Uptie below III is raised to III. E.G.O Threadspin is unchanged. Base values exclude SP-based Offense/Defense Level changes and skill-based Defense Level reductions."
+    },
+    "skillNote": {
+      "sourceHash": "b50b629299258507eca43573d641425497ee55fe14d2e978ef999b88ebd9b680",
+      "text": "All Coins are negative. Base Power shows the higher value before subtraction; listed ranges exclude Pulsation, New Releases, and on-use Final Power buffs. Scrape! Flay! Peel! becomes Unbreakable conditionally below 50% HP, so its icons do not show permanent conversion. The Changing Room skill is displayed as a Clashable Counter."
+    },
+    "priorities.0": {
+      "sourceHash": "27f97b1c7c11d2233d1b74517fc0b84a8016834d7d07041804aafd942ad59758",
+      "text": "In the Changing Room, everyone can wait with defense. Do not force repeated attacks into the 500 Shield."
+    },
+    "priorities.1": {
+      "sourceHash": "3eab1137888e76b48d01f8a2cb5e6688bc1601ed35eaabc30ae71e507a486fef",
+      "text": "The Voice is with me, this I know! deals 80% less damage when unopposed. Clashing changes the damage taken."
+    },
+    "priorities.2": {
+      "sourceHash": "be19d792b1c5fb24d52457fcf8b4a22f7fcaa949b2daba45ab899b721de5a883",
+      "text": "Below 50% HP, Scrape! Flay! Peel! becomes Unbreakable. Assign a Sinner who can take Lust and Blunt damage."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "482f345da671bcfc1c9f72b7081b55309508906bfa2d9d31c292f868a31692dc",
+      "text": "HP cannot be damaged in the Changing Room"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "ccf07fd1a86c0ba8979a5d759a7244c2c32accca630e11a4185091b9d1cd5304",
+      "text": "The Changing Room prevents HP damage and grants a 500 Devotion Shield. You can attack to deplete it, or generally wait two turns with everyone defending. Avoid unnecessary attacks that add Counters and Persecution."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "3297b59bdcd50f1029a3b6b6daf5ad9086ea5c2bb5161d9dfc97dc4bc510f3b2",
+      "text": "The single-target skill deals heavy damage and heals the enemy even after clash wins"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e5ce7810de46eeda2de2276b6cb69ddfb524bfbdb4009fee6cb7618f4c05a816",
+      "text": "The Voice is with me, this I know! deals 80% less damage when unopposed; hits after a clash loss heal the enemy for the damage dealt. One option is to take the reduced unopposed attack with a Blunt/Gluttony-resistant Sinner and save strong clashes for other dangerous skills."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8afab29563a083e3499915ca416c57035498a894a79270a3bdcf75b735cdec79",
+      "text": "Sinners suddenly die after the enemy falls below half HP"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "66ac0dac931dec13c93077b17fc75064393647b5759c5cfc53e9f055206f1dbe",
+      "text": "If below 50% HP at Combat Start, Scrape! Flay! Peel! makes both Coins Unbreakable. Pulsation Potency and Count can add up to 110% damage. Check Lust/Blunt resistance and healing rather than trusting the listed maximum of 13."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "e6e84828795fa62488275f6109e26fefe7a0e93d762befea8089b1f6972be6f9",
+      "text": "A finishing attack instead heals the enemy and ends the turn"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "1458d3e5baf3bf334057b8ead55e17921a8e65826149fdf177f878a451b0dbc9",
+      "text": "In the normal pattern, the first damage that would lower HP below 10 is negated, heals 30% max HP, and enters the Changing Room. This happens once per encounter; resolve the room, then deplete HP again."
+    },
+    "phases.0.timing": {
+      "sourceHash": "715c73b52bad830a2f2a1d1eca71b10bdfcd90b382509ac334879480f65798aa",
+      "text": "Before the 3F battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "9164b806489394b2b504f86d5369ff07d34b389f1ca807767b8e815b6091a922",
+      "text": "Check Customer Lv. 45 and Blunt resistance"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "ec447b5e71f926eef03328aaf1dc9aefaf92fa022642c098ee962ae3d96a12cc",
+      "text": "Shop toward Customer Lv. 45 and Ruby. Missing both L'Inamovible's and the B2F Needlekin's limited-time shops leaves the level at 44, so check shopping opportunities as you progress."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "0b29a10755557c2b59b6fa2320c3c68024b17abab210b4316c4200c675deae42",
+      "text": "Meursault, Sinclair, and Outis are required. Fill remaining slots with strong clashes, Blunt resistance, and HP recovery. Lust and Sloth are effective for offense."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "3653461f7d1126a98d197ce1e322954a3d800560b8c9606f201351b28c27c170",
+      "text": "Meursault's He Who Nails adds two resources of his skill's affinity on use, twice per turn. With another ally alive at Turn Start, he cannot die from damage that turn. Use him for resources and taking hits."
+    },
+    "phases.1.timing": {
+      "sourceHash": "3141da7d8508057529015e413d55ef04b66f5dfac100f6100822ab35f0306d4d",
+      "text": "Normal pattern · One- and two-turn cycles"
+    },
+    "phases.1.title": {
+      "sourceHash": "9e5d6b5550e2f46975f1a1a71267f6184eb89f01a8b5ea839a1fe352871f21ab",
+      "text": "Clash with dangerous skills and distinguish the skill reduced when unopposed"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "2f5f30bd300db6cc7cabb702271c5d6f76950261a192e4eb66e73caac805eb0f",
+      "text": "Normally takes seven actions. So this world wasn't meaningless after all! and Scrape! Flay! Peel! join every two turns. Negative Coins favor high Power at lower SP; lowering enemy SP is not a debuff by itself."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "a15291026548f255bb0c5a1a533c6b802d2014f8eb42826aac1f1ee8fe8df63f",
+      "text": "Clash with regular attacks and strong Lust skills. In particular, My faith wasn't in vain! gains +2 Final Power when consuming 5 Pulsation Count on use."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "266246351a6f48d84e9a4de416a2ef7fc042c787d23c151c6b5624a4bf61566f",
+      "text": "Each turn's The Voice is with me, this I know! deals 80% less damage when left unopposed. Choose a Blunt/Gluttony-resistant target and use clashes elsewhere. Account for additional Bleed damage and avoid assigning a low-HP Sinner."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "826054fdce6509bb33d180ee00f293591f283839d74ecd0dec55ed3da583ed0c",
+      "text": "All physical resistances are ×0.9, but Lust and Sloth are ×1.5. Gloom is ×0.5; do not rely only on Gloom damage."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ce8fcd91ce79cf1c72181c27582af9e02dae8dccffa57b469890ef17bacb2f08",
+      "text": "Two-turn cycle; below 50% HP"
+    },
+    "phases.2.title": {
+      "sourceHash": "57ff7f9736037e87221264150b1bfb45b85952687b624b828c2ac521a0b25a3b",
+      "text": "Check area targets and the Lust skill's Unbreakable conversion"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "6d3a504948bef7816e2d681e4dea061547e13c439621cf7398bd60ab9409dcf5",
+      "text": "So this world wasn't meaningless after all! has 7 Atk Weight and one Unbreakable Coin. Damage falls by 10% per target with defense equipped, so switch to defense when HP is strained."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "7353600cff66816367794b80d0b6cb47356946bd76dd528607bb140ec1365c59",
+      "text": "For each target with an Attack Skill equipped, the enemy gains 1 Defense Level Down next turn. If attacking, still ensure a winning area clash and healing afterward, then use that defense reduction."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "aa4dad552e97895715eb4a3ebde6d67961fe897d686e69313defb4b85933f227",
+      "text": "Scrape! Flay! Peel! makes both Coins Unbreakable if below 50% body HP at Combat Start. Damage rises by 10% per Pulsation Potency (max 50%) and 3% per Count (max 60%), making later hits heavier."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "f3acef1bc81fe6bea6cd15c56381bbbd071b2bfa4707f6d45c2d350f07442618",
+      "text": "Clash with a Lust/Blunt-resistant Sinner and maintain HP for remaining attacks. Destroyed Coins lower Base Power, but a win does not guarantee no damage."
+    },
+    "phases.3.timing": {
+      "sourceHash": "2ad63eb27ba1f040cc67ad5b1103dc565010f2179fa417c1deb6d5728f7ac37b",
+      "text": "20 New Releases; first HP floor"
+    },
+    "phases.3.title": {
+      "sourceHash": "ad1c94626a3c46b91d6827221185625ddfc71b48e5a37226b37530190c88a2c1",
+      "text": "Wait with defense or deplete the Shield in the Changing Room"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "9381a064a5ad8300d77ca2cbbf3f13057de1673b5f3dbcbb2785c4ca98c34c99",
+      "text": "In the normal pattern, hits add Boutique: New Releases; at 20 at Turn End, enter the Changing Room next turn. Also, the first normal-pattern damage that would lower HP below 10 is negated, heals 30% max HP, immediately ends the turn, and enters the room."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "4aac57cd80b48e92f06b353220395fca1f9daec29a1c0310b549bc0644b03651",
+      "text": "Entering removes New Releases and grants 1 Changing Room and 500 Devotion. HP damage is prevented and all seven slots become Unbreakable Clashable Counters."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "3d60597d33720eba5c59408976e2b4eb12534f482e2ce9d2a3940e8d388746d9",
+      "text": "For a safer approach, have everyone defend and generally wait two turns. Changing Room at 3 ends the pattern even without breaking Devotion. Avoid triggering Counters and prepare healing and skills for the next normal pattern."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "07bda1d0495fd6bcd97373b3a8ab301c8ed31f2dcbc6083bcac7bbaca6da6d4e",
+      "text": "To end it sooner, deplete the 500 Devotion Shield. Hits add Persecution, enabling extra Counter reuses at 10 and 20. If attacking, win against each Counter for 80% reduction and prepare for Unbreakable damage."
+    },
+    "phases.4.timing": {
+      "sourceHash": "675a934a8c221a3abe4947455830d3d16509ab9e61b4ec8355b3d42d7ad5d346",
+      "text": "After leaving the Changing Room"
+    },
+    "phases.4.title": {
+      "sourceHash": "2d4605922b08ac42e813ab048eef023a3a5f264605333550541052a6b75dcbda",
+      "text": "Check exit buffs and deplete the normal pattern again"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "17e0d045192b541b2ca29d810ff6c99bd03b24153fb1552994383dc00a5f9b45",
+      "text": "At 0 Devotion or 3 Changing Room, lose 20 SP and end the turn. Return to the normal pattern next turn and gain 1 Damage Up for the encounter. This happens whether you break the Shield or wait."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "824b53bbb9d7dca53128ddc8a8354dff0acb4b49f0e5d1ceabd8e20c813c6975",
+      "text": "The HP-floor room transition happens once per encounter and also grants 2 Attack Power Up for the encounter. After the first apparent finishing point, reassess clashes with buffs included."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "bf8657e7f855537d3a4fdb11808d29bd8cd67eb324d4ebf52fad6d4f0280a015",
+      "text": "The body's Stagger Threshold is 20% HP, or 348. Leaving the Changing Room also clears Stagger, so do not assume it remains afterward."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "c78b4de7097d59bb7eb7f38ead75cd6fa6e0eeac9649d80ea0d77f8cf273e7f8",
+      "text": "Keep checking later Lust Unbreakable and area targets, healing between attacks to finish. The 20 New Releases transition is repeatable; use the same approach if the room returns."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "c2d9f7c7b13598d72c75b7a4d95172f1c9900220cf2143ea0e24b19af1b59458",
+      "text": "Boutique: New Releases"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "2c2531fb31a74e064ab07950493944582ad28569d78a45a08d51e9f1ab1cb39a",
+      "text": "Maximum 20. On Skill Use, consume 1% of max HP and increase skill damage by a percentage corresponding to HP consumed. Normal-pattern hits add 1 stack; at 20 at Turn End, enter the Changing Room next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "fd40088efe13feb81410b7ace457e279d8551ff901d727ad810802b4d5a2ea4e",
+      "text": "Do not rely solely on enemy self-damage; maintain strong clashes and healing. Prepare for the room at 20 stacks."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "f566058862e293d855b96f00658a4657d779714487bb4c5156747042024a7c74",
+      "text": "Changing Room"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "30ca46d046cbed84d99e827349e4cc32c8934e64efaf8e565861b88815dfb0c6",
+      "text": "Maximum 3. Prevents HP damage while active. When attacked, gain 1 Pulsation Count, 1 Damage Up, and 1 Defense Level Down next turn (up to 20 times per turn). At 3 Changing Room or 0 Devotion, end the pattern."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "622c178def1666691a45a54dc024aa06df255ce97e6ba8c77c26e31a7047a5bf",
+      "text": "Waiting with defense avoids forcing attacks into Counters. If attacking, prepare Shield damage and Counter responses together."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3e2b0c578db1df14d82fa1251782e12a63945ddc6ac13cd23dcc3506c9640fbf",
+      "text": "Devotion"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "11cc91f233eba227a851ec7f3c18b5b6d96a117e491cf4d14b356e29950ccde3",
+      "text": "At Turn Start, gain a Shield equal to its value; losing Shield also lowers the value. Gain 500 on entering the Changing Room."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c58577104ef4cacda7ffa2980b14df10a103cf220f681b4cb064b24f88262844",
+      "text": "Shield damage also reduces Devotion. Decide whether to reach 0 sooner or wait for 3 Changing Room."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "a14ef8abf39c9b3d2353233eb77d74d07a5769d15b46b3d2233bb60ded6b5028",
+      "text": "Persecution"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "0b838d439bb18768174af796152fda6bfa253aaab1c0cf4d19ecd2fc5c67f826",
+      "text": "Maximum 20. Gained when hit during the Changing Room pattern. At 10, the Counter reuses a Coin once; at 20, reuses it once more after a reuse hit (each condition once per skill)."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "64fba633ae1dc3b1123a25168401fcd55e66ef2760dc9517a5f996a481116421",
+      "text": "More attacks can mean more Counters. Do not add unnecessary attacks when waiting with defense."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "f54991ea93094be4d14e475bc5990614eab68c879c8f28994d028c43755436ac",
+      "text": "Pulsation"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "52612ebb303dd7394d1a9dcf5eba2962721782776994a14f4d5cfdea531b7b40",
+      "text": "A special Charge with a Count cap of 20, affected by effects changing Charge Potency and Count. Lose 1 Count at Turn End. Gain 10 Count on first entry and 1 Potency per 10 Count cumulatively consumed."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "c76a2587a3308989c600c038a5f9f74b0be5bd217ef748fc197d923cf6b17660",
+      "text": "Pulsation Potency and Count strengthen attacks separately. On-use gains remain after clash wins, so check both values."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "506c1c36c77441e45639ccf1d83727b19000f1b10a53c386a37cc25e879cc60d",
+      "text": "Leave the Leather Behind!"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "2d70a0599b116fc94e4ec759c584e0ecdd727250e242267bbaed2d51233a40f6",
+      "text": "At −20 SP or lower, Defense Level −3 and Offense Level +1; at −45 or lower, Defense Level −5 and Offense Level +2."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "a1258e353d3a43aa7f15e2d4be1eeca8252211f0fdcf03d27fb5e0703828e232",
+      "text": "All skills use negative Coins, so lower SP favors high Power. Use reduced defense to attack, but also check opposing Power."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "6c2f2583456a45ff3551de72410ebc0f581ac72c1de3ea0ceb9e54bfddcc211f",
+      "text": "Meursault gains two extra E.G.O resources of the skill's affinity on use (twice per turn). If another ally lives at Turn Start, cannot die from damage that turn. Cannot retreat."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "8c97808db4eacc383003e8d4591a2038234ffb099861c95ed7f190b898287593",
+      "text": "Use it for E.G.O resources and protect other allies even when using him to take hits."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "8401d98edaddf76d886cec6cd88a8da470b0daac0d355e38352970c215b8f23a",
+      "text": "Raised by department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "13019442cfe2c820d16733dab870f7a50a8c01e0de1d136996dddf189d2d71d5",
+      "text": "Aim for Customer Lv. 45 and Ruby. Use limited-time shops while available."
+    },
+    "warnings.0": {
+      "sourceHash": "652a166ea79603161acde59c45e6fcfc44f3ce3ef822d2c5cff57a4fd32eb569",
+      "text": "There is no need to rush the 500 Changing Room Shield. Waiting with defense avoids adding Counters and Persecution through attacks until the room ends."
+    },
+    "warnings.1": {
+      "sourceHash": "3d5395165e9c4dbd0c6283df4f13f222d965ab5a851ac55c0d718d091d76fa5e",
+      "text": "The 80% reduction on The Voice is with me, this I know! applies when unopposed. Do not expect the same reduction when clashing."
+    },
+    "warnings.2": {
+      "sourceHash": "ff7976d512709e1e8666d9773ba2bbacbe4288bbdaf8a52f70192ca763b66504",
+      "text": "The first normal-pattern damage taking HP below 10 is negated, heals 30% max HP, and immediately ends the turn. It is not limited to self-damage."
+    },
+    "warnings.3": {
+      "sourceHash": "c56ec0bbe2e5caf65aa487098de23cc3a6488462f39fb3934cd31ee725d24893",
+      "text": "Scrape! Flay! Peel! becomes Unbreakable only if enemy HP is below 50% at Combat Start. Check Lust/Blunt resistance for remaining Coins later in the battle."
+    },
+    "warnings.4": {
+      "sourceHash": "82fa25ed05d74cad8f71cd7fbdd33e1cbfa9d4edd35f4a5db8cf27778730d655",
+      "text": "Both breaking the Shield and waiting grant 1 Damage Up on leaving the room. It is not an extra penalty exclusive to waiting."
+    },
+    "preparation.0": {
+      "sourceHash": "02f667d6ab9893c16527b10e2abe8a641bff117cd36a26c2fc3a0951a7bddf3a",
+      "text": "Aim for Customer Lv. 45 and Ruby. If you missed L'Inamovible's and the B2F Needlekin's limited-time shops, check your current Customer Level."
+    },
+    "preparation.1": {
+      "sourceHash": "89510b02a1ba5bdfb578d8d120616d5066a5ba1f17c7d3b3610802420c5674b8",
+      "text": "Meursault, Sinclair, and Outis are required. Every skill is Blunt, so prioritize Blunt resistance; also check sin resistance for later Lust and single-target Gluttony skills, including changes after E.G.O use."
+    },
+    "preparation.2": {
+      "sourceHash": "1fc466ca5393e6adc4c996b4fa99c1386096f2297f2eb8d57c49796c4b2303c5",
+      "text": "Bring high-Power clashes, HP recovery, and Lust/Sloth attacks. Even when defending through the room, save strong skills and E.G.O resources for afterward."
+    },
+    "roles.0.name": {
+      "sourceHash": "8f1d4e407504809dedee27917958c0238239d2e3aa384e05463d11fbf6b585f8",
+      "text": "Lust and Sloth damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a0b49e08cf9a92c22c404c508b68d542caed1849a862dc307cb42eb1c2d0b1ed",
+      "text": "The body's weak sin affinities. All physical resistances are ×0.9, so consider sin affinity alongside clash performance."
+    },
+    "roles.1.name": {
+      "sourceHash": "7aad78d1b07d5bc8e2ecc74a1d94bd1df00bed494ff06eb2da8de3b05c5e983d",
+      "text": "Taking Blunt, Lust, and Gluttony hits"
+    },
+    "roles.1.reason": {
+      "sourceHash": "3c137c8bdd0f50c3ddd9e4c5a7bf5b97821746af0badc73cc81f4e9cc5da511f",
+      "text": "Handles later Lust Unbreakable attacks and the Gluttony skill reduced when unopposed."
+    },
+    "roles.2.name": {
+      "sourceHash": "e6bffac28a42ea92e09a2824e57025e3ecbd49526014b3d79c05670d85f174bb",
+      "text": "High-Power clashes and HP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "3441a1a42873b814e3cdfc748a529ee4aacd5439e6ec8c0f04d5ea8252c5c40c",
+      "text": "Beat high-Power negative Coins and heal remaining Unbreakable damage. Prepare for Counters too if attacking the room."
+    },
+    "units.0.name": {
+      "sourceHash": "73de78bf7118912d25a80b226d8ab793d3015a90303488c686659b416ef87a1d",
+      "text": "L'Inamovible"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "6514ee495551e0958c5126f8724059af45abc69cdd87f7aded2a6394bfe80ce8",
+      "text": "In the normal pattern, the first damage that would take HP below 10 is negated, heals 30% max HP, and enters the Changing Room."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "0e668a11661da7fb3f439e01461153498b9ca862a1267b8ad77e4997b792b1c0",
+      "text": "In the Changing Room, prevents HP damage and gains a 500 Devotion Shield."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "c4d8203fb5cf543e6a55dd445345444c4c9ffe742f2deed5cf162a5f076ab347",
+      "text": "Base values exclude SP-based Offense and Defense Level changes."
+    },
+    "skills.0.name": {
+      "sourceHash": "45e3dc2a1c3aaaa4aff973dd9e32fa216293035b1fc10e791b94dd70af82087e",
+      "text": "I hear it... I can hear it!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a3b5802035457c849941d06190ca8467f672615dc567f8b6f99077f2f0843658",
+      "text": "[On Use] Gain 5 Pulsation Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "d4b64b6b0b83f3cb951c5b294d448aa0b771cda655526a05fad4999468d1df4f",
+      "text": "Ⅰ [On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "340a16e25aadec85c348d174da38810bf9e8e33b06721e2ae3737a4ce26c386b",
+      "text": "Ⅱ [On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.0.response": {
+      "sourceHash": "a149c93bbacb830c8fefd843101bb646590471b8c176dc3c84affdd51c6cc0b4",
+      "text": "Winning cannot prevent the 5 Pulsation Count gained on use. Clash to prevent extra on-hit gains and Bleed. Its two negative Coins favor high Power at low enemy SP."
+    },
+    "skills.1.name": {
+      "sourceHash": "b2520a2d63c3fbf9e30ff90d2d40c1549fe59c709aa6bd4f9592db88a713fa2c",
+      "text": "I have been granted another chance to change my clothes!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a3b5802035457c849941d06190ca8467f672615dc567f8b6f99077f2f0843658",
+      "text": "[On Use] Gain 5 Pulsation Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "d4b64b6b0b83f3cb951c5b294d448aa0b771cda655526a05fad4999468d1df4f",
+      "text": "Ⅰ [On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "340a16e25aadec85c348d174da38810bf9e8e33b06721e2ae3737a4ce26c386b",
+      "text": "Ⅱ [On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "7497f4611307dd4551a427c58c7c2ac7f694e4179ee677c67bab7fcd57ab100f",
+      "text": "Hits add Pulsation Count and Bleed Count. Clash to stop unopposed attacks on Sinners with high Bleed. On-use Pulsation Count gains remain."
+    },
+    "skills.2.name": {
+      "sourceHash": "e75fd14f69f33381596b84b97b793ca75167c31f93184af89771130202245f6b",
+      "text": "My faith wasn't in vain!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "b2315b76db1eb77edb6d67b4f6423ef158024b1cbee46bfb658d9cc745f0c336",
+      "text": "[On Use] Damage +10% per Pulsation on self (max 50%)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "95d3e343fb1cfcabfe47798a26fa29f2897c4caa0148c5547510a9a9b56c7821",
+      "text": "[On Use] Consume 5 Pulsation Count for +2 Final Power"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.response": {
+      "sourceHash": "6a5561efe7d7875664bd563be9bd253bf9890f88f44aeed815910fd00286215b",
+      "text": "Consuming 5 Pulsation Count grants +2 Final Power; check beyond the base maximum of 12. Pulsation also raises damage, so avoid a Lust/Blunt-weak target."
+    },
+    "skills.3.name": {
+      "sourceHash": "672dcad0c44af796e7c6b04782e0fc1e423db6c841ebdffc836e340f49941401",
+      "text": "Scrape! Flay! Peel!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "8d3f65cc7caa4fe107e3a1c7df73bf6b005abed16642ee80efcf5665ff122a26",
+      "text": "[Combat Start] If current HP is below 50% max HP, convert all Coins to Unbreakable Coins"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "b2315b76db1eb77edb6d67b4f6423ef158024b1cbee46bfb658d9cc745f0c336",
+      "text": "[On Use] Damage +10% per Pulsation on self (max 50%)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "7c408a15a3a69d7498d95888f7015456a650a0a579c5fd0b0e627ae806998524",
+      "text": "[On Use] Damage +3% per Pulsation Count on self (max 60%)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "d3829a8f7d5bc0958b77751e80e51c98980e52d09f7198e8e6daeff85a1109fd",
+      "text": "[Before Attack] Base Power −2 per destroyed Coin"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "b399e485e428760dd30bcb683d08e3ed6d87658263d5b040996069e3a126bfd6",
+      "text": "Ⅰ[On Hit] Bleed Count +1"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "cbbca8204ac9f3e70e7c50ac7a0b9b67fa3dcd1d636ad46ada8196620da76f02",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.3.response": {
+      "sourceHash": "245bd5985032450e79a76c4c961b3d4ff00fb887bb280e79dcd94b7b8b76e3f2",
+      "text": "Both Coins become Unbreakable if enemy HP is below 50% at Combat Start. Pulsation Potency and Count add up to 110% damage; prepare a Lust/Blunt-resistant target and healing later in the fight."
+    },
+    "skills.4.name": {
+      "sourceHash": "f01dc3923a1c1ebfba139d837ce1f8b85027af73a642857a3f31c668ee6da51f",
+      "text": "So this world wasn't meaningless after all!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "fab0bd651a034d8848d592ed25d17a45b402c6cc82ae259df5a9e6606d0e7286",
+      "text": "[Combat Start] Skill damage −10% per target with a Defense Skill equipped"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "6448c3b1bef50b96322f88b7f2e34db18e2658b3dc310db697f1a2ec00f4fa4a",
+      "text": "[Combat Start] Gain 1 Defense Level Down next turn per target with an Attack Skill equipped"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "4a1a6f89c81c0c80539663925a6e309ff8bd21bc08d2f40744947457a6be5ad2",
+      "text": "[Before Attack] Base Power −1 per destroyed Coin"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.4.response": {
+      "sourceHash": "28691dfaf279611ac92a9c83a3d4cc6aae991eb79cc3976b6b6f53b1be6c8b13",
+      "text": "Unbreakable, with 7 Atk Weight. More targets with defense equipped means less damage. Defend when incoming damage is too high; if attacking, ensure winning clashes and healing."
+    },
+    "skills.5.name": {
+      "sourceHash": "9fa37ee7109db7270294dd0568f6a73651951eb648179549e217086425c9a174",
+      "text": "The Voice is with me, this I know!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "36221a5b401703f35c6c0aad6abc69cc41728cc8c1419a9111ba2369590da5e5",
+      "text": "[On Unopposed Attack] This skill deals 80% less damage"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "c204e0582fc177177604b903eeab72de22c3b45a9c9cac1007346fc226f20c60",
+      "text": "[On Hit after Clash Lose] Heal HP equal to this skill's final damage"
+    },
+    "skills.5.response": {
+      "sourceHash": "f13e8acde5e15561489338811cb6148148f3c31a62e7fe1a8f4a6f33357e0691",
+      "text": "Deals 80% less damage when unopposed. One option is to avoid clashing and take the reduced attack with a resistant Sinner. Hits after a clash loss heal the enemy for damage dealt; avoid careless clashes that enable healing."
+    },
+    "skills.6.name": {
+      "sourceHash": "b30ebe3cf0a6aa513deb130ceea2b986be704cf8b51c89d424c3330f29945caa",
+      "text": "Be myself... Be utterly myself...!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "890cd3576d493e503165833104c1e03c3a098548a954e694b070ad3194b4881e",
+      "text": "Changing Room skill only"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "6198a3ee6a0fe529b5336f8d423a257b57be9cf6522fffb314169cedaa8a17fe",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "3a14eaec6ac43a0b0d414435c8f2bb4917c7f5db31ef3368778664ada40afb3e",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Bleed"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "0520f22f9b2c3cf2205976b682c98ab92652238637d4b3313655f30621516f7e",
+      "text": "[On Hit] At 10 or more Persecution, reuse this Coin (once per skill)"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "7b0ac0a4c715283999cd543a1737be56c6883f0ad95120d7265b4a4199339681",
+      "text": "[On Reuse Hit] At 20 or more Persecution, reuse this Coin (once per skill)"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "6f392c6a31ec3a3384a465171eac5a58f832fddb2633ec5feec942944dddc8b9",
+      "text": "[On Reuse Hit] Gain 1 Pulsation Count"
+    },
+    "skills.6.label": {
+      "sourceHash": "b9cef67ad359fcbe6d8fa7972aae59beec7defc32f99a501510789a67ce95719",
+      "text": "Changing Room only · Clashable Counter"
+    },
+    "skills.6.response": {
+      "sourceHash": "6f50f4bf4f21b8ee8168a316f88373cac015bcc0aca008cf49e13a47ed5c3109",
+      "text": "An Unbreakable Clashable Counter used only in the Changing Room. Waiting with defense avoids triggering it. If attacking the Shield, win for 80% reduction and prepare for extra reuses at 10 and 20 Persecution."
+    },
+    "passives.0.name": {
+      "sourceHash": "887869666f53c239bd7bcc207d1cbecfd7046365f18f59c0863246c21cf2a304",
+      "text": "Boutique du Rouge: New Arrivals Lookbook"
+    },
+    "passives.0.effect": {
+      "sourceHash": "de91bacae35237848d43cc725bc50dac08818e6e6d247c90b1fcfee930519834",
+      "text": "Boutique: New Releases pattern\n\nRemove Changing Room and Devotion; gain Boutique: New Releases.\nWhen hit, gain 1 New Releases.\nAt Turn End with 20 New Releases, switch to the Changing Room pattern next turn.\n\nDuring this pattern, the first damage that would lower HP below 10 is negated: heal 30% max HP and end the turn, then change to the Changing Room and gain 2 Attack Power Up for the encounter (once per encounter)."
+    },
+    "passives.0.condition": {
+      "sourceHash": "0b6944f021de0b44422a5fae5ff7e5e9362ac1761a962a1f0ac3f29626f54f21",
+      "text": "Normal pattern; 20 New Releases; first HP floor"
+    },
+    "passives.0.response": {
+      "sourceHash": "e4807871b6d1f31c0906c095590cb9f7fe3ff2cc34c44c072143c4b8a66a27cc",
+      "text": "At 20 New Releases, enter the room next turn. The first near-lethal normal-pattern hit also heals 30% HP and ends the turn, so the first HP depletion does not necessarily finish the battle."
+    },
+    "passives.1.name": {
+      "sourceHash": "25f82a4f0325cfb0c926c4355fc9010b00302bc340646f04f938bf744c16f80c",
+      "text": "Into the Changing Room"
+    },
+    "passives.1.effect": {
+      "sourceHash": "494b2805a4b176ce2cbcd8f463b343fd818f7d7c7789cb4302ca6cda3e17eeca",
+      "text": "Changing Room pattern\n\nRemove Boutique: New Releases and gain 1 Changing Room and 500 Devotion.\n\nWhen hit, gain Persecution.\nAt 0 Devotion or 3 Changing Room, lose 20 SP and end the turn. Return to the New Releases pattern next turn and gain 1 Damage Up for the encounter. Clear Stagger if Staggered."
+    },
+    "passives.1.condition": {
+      "sourceHash": "e833cc1cf2b0c11a4e7a2f558d195d5d6b7b943fcba801b25eebac432e0a9bdd",
+      "text": "Entering and leaving the Changing Room pattern"
+    },
+    "passives.1.response": {
+      "sourceHash": "ab78ea024895c055c0a75e6daa58c87019d6443fc9e3cb7d038f86358c0e3452",
+      "text": "Deplete 500 Devotion or wait for 3 Changing Room. Leaving lowers SP by 20 and grants 1 Damage Up afterward. Waiting does not carry an exclusive extra penalty."
+    },
+    "passives.2.name": {
+      "sourceHash": "bf04989803c9828a701463fb890cd8ccb57deef3595a6fda2dbf849fe27acfab",
+      "text": "Metabolic Action and Reaction"
+    },
+    "passives.2.effect": {
+      "sourceHash": "cc2a52c19527294687b5f1275596e8cacf9e677827d2be15ee15c31549575da1",
+      "text": "On first entering battle, gain 10 Pulsation Count.\n\nGain 1 Pulsation per 10 Pulsation Count cumulatively consumed during battle."
+    },
+    "passives.2.condition": {
+      "sourceHash": "24904a0e5858f968b2ebb32638957234d17f243a691baf0f8d9d29bda6946f1e",
+      "text": "First entry; every 10 Pulsation Count cumulatively consumed"
+    },
+    "passives.2.response": {
+      "sourceHash": "91cdf594fe871cc7f286dc65c56281855889f4ecd2688f1a8b42f0b51df27c16",
+      "text": "On-use gains build Count, and consumption adds Potency. Clash wins alone do not stop every buff; prepare for increasing damage in a long fight."
+    }
+  },
+  "messages": {
+    "boss-copy:linamovible": "complete",
+    "【リンバス】10-04 リナモヴィブル（10章A）の攻略｜Limbus Assistant": "10-04 L'Inamovible (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「リナモヴィブル（10章A）」の攻略。打撃の連続攻撃を受けながら、通常パターンと試着室を行き来する戦闘。試着室のバリア500は急いで壊す必要がなく、守備で待つ方法も取れる。通常時は一方攻撃…": "L'Inamovible (Canto X A) guide for Limbus Company 10-04. A Blunt-heavy fight alternating between the normal pattern and Changing Room. Its 500 Shield need not be broken immediately; waiting with defense is an option. In the normal pattern, recognize the skill reduced when unopposed and prepare for Unbreakable attacks below half HP.",
+    "10-04 リナモヴィブル（10章A）": "10-04 L'Inamovible (Canto X A)",
+    "10-04「Sisyphus Department Store A, 3F: Le Rouge Boutique」": "10-04 · Sisyphus Department Store A, 3F: Le Rouge Boutique",
+    "リナモヴィブルの外見": "L'Inamovible appearance",
+    "リナモヴィブルのスキル": "L'Inamovible skills",
+    "L'Inamovibleの外見": "L'Inamovible appearance",
+    "L'Inamovibleのスキル": "L'Inamovible skills"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1101.md",
+  "code": "1101",
+  "messages": {
+    "軽い資源で基本威力が高く、マッチに安定して勝ちながら破裂を乗せる、貫通傲慢の初期E.G.O。": "A starting Pride Pierce E.G.O with light resources and high Base Power that reliably wins Clashes while adding Rupture.",
+    "安定したマッチ威力: 基本威力15(解析Ⅲは20)にコイン威力+3で、最低値が高い。精神力が低いときでも勝率の高いマッチを組みやすい。": "**Stable Clash Power**: 15 Base Power (20 at Threadspin Ⅲ) with +3 Coin Power, giving it a high minimum. Even at low SP, it is easy to set up Clashes with good odds.",
+    "破裂の付与: Ⅰコインが的中時に破裂2を付与する(解析Ⅲは4)。": "**Inflicting Rupture**: Coin Ⅰ inflicts 2 Rupture on hit (4 at Threadspin Ⅲ).",
+    "体力50%未満の追撃: 対象の体力が50%未満のときダメージ量+10%(解析Ⅲは+30%)。": "**Follow-up below 50% HP**: +10% damage (+30% at Threadspin Ⅲ) when the target is below 50% HP.",
+    "パッシブ「完璧な戦術」: ターン終了時にそのターン1度も攻撃を受けていなければ、次のターンにダメージ量増加1を得る(最大3回重複)。": "**Passive — Tactical Perfection**: At Turn End, if she was not attacked even once that turn, she gains 1 Damage Up next turn (stacks up to 3 times).",
+    "必要資源は怠惰2・傲慢2、精神消耗は10と軽く、手札が揃わない序盤や、とにかく凌ぎたい場面で撃つ。": "It requires 2 Sloth and 2 Pride with a light Sanity cost of 10, so fire it early when her hand has not come together, or when you just need to get through a moment.",
+    "パッシブは使用の次のターンから効くので、使うなら戦闘の早い段階が向く。被弾が避けられない相手では溜まりにくいと考えられる。": "The passive takes effect from the turn after use, so if you use it, early in the battle fits best. It likely builds up poorly against opponents whose hits cannot be avoided.",
+    "侵蝕スキルは無い。耐性は色欲・嫉妬が脆弱、傲慢が抵抗。": "It has no Corrosion skill. Its resistances are Fatal to Lust and Envy and Endured against Pride.",
+    "Ⅱ: 「完璧な戦術」が解放される。": "**Ⅱ**: Unlocks Tactical Perfection.",
+    "Ⅲ: 基本威力が20になり、破裂が4、体力50%未満のダメージ量が+30%に強化される。性能としてはここで完成と考えられる。": "**Ⅲ**: Base Power becomes 20, Rupture 4, and the below-50%-HP damage bonus +30%. Its performance is likely complete here.",
+    "Ⅳ: 敵の討伐時、ランダムな味方1名にダメージ量増加1を付与する。効果が小さく、優先度は低いと考えられる。": "**Ⅳ**: Gives 1 Damage Up to 1 random ally when an enemy is defeated. The effect is small, so it is likely a low priority.",
+    "LCB囚人: S1・守備が怠惰、S2が傲慢で必要資源を出せ、破裂付与のスキルも持つ。": "**[LCB Sinner](persona:1101)**: Her S1 and Defense skill are Sloth and S2 is Pride, supplying the required affinities, and she has Rupture-inflicting skills.",
+    "剣契殺手: S3と守備が傲慢で傲慢資源を賄える。": "**[Blade Lineage Salsu](persona:1102)**: Her S3 and Defense skill are Pride, covering the Pride resources."
+  }
+}

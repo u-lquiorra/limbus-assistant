@@ -1,4 +1,5 @@
 // サイト内検索の照合と並べ替え。データの組み立て(siteSearch.ts)と分け、Node のテストから直接呼べるようにする
+import { searchableText, translateText } from "./i18n/text";
 
 export type SearchKind = "persona" | "ego" | "sinner" | "team" | "boss" | "glossary" | "guide";
 
@@ -42,6 +43,7 @@ export interface SearchGroup {
 export function normalizeSearchText(value: string): string {
   return value
     .normalize("NFKC")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "").normalize("NFC")
     .toLowerCase()
     .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
 }
@@ -52,13 +54,14 @@ export function splitQuery(query: string): string[] {
 
 function scoreEntry(entry: SearchEntry, words: string[]): number | undefined {
   const title = normalizeSearchText(entry.title);
-  const rest = normalizeSearchText([entry.sub ?? "", ...entry.terms].join(" "));
+  const translatedTitle = normalizeSearchText(translateText(entry.title, "en"));
+  const rest = normalizeSearchText([entry.title, entry.sub ?? "", ...entry.terms].map(searchableText).join(" "));
   // 複数語は AND 条件。どの語もタイトルか補足語のどこかに含まれていれば一致とする
   if (!words.every((word) => title.includes(word) || rest.includes(word))) return undefined;
   const whole = words.join(" ");
-  if (title === whole) return 0;
-  if (title.startsWith(words[0])) return 1;
-  if (words.every((word) => title.includes(word))) return 2;
+  if (title === whole || translatedTitle === whole) return 0;
+  if (title.startsWith(words[0]) || translatedTitle.startsWith(words[0])) return 1;
+  if (words.every((word) => title.includes(word)) || words.every((word) => translatedTitle.includes(word))) return 2;
   return 3;
 }
 

@@ -1,0 +1,464 @@
+{
+  "kind": "boss-copy",
+  "id": "golden-apple",
+  "source": "src/data/bosses/golden-apple.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Existing source metadata remains with the original guide; proper names use the paired game localization dictionary."
+  },
+  "entries": {
+    "name": {
+      "sourceHash": "5a8ff9846afc331b2d0c7f25db79a610216a2971bc90b2f08126a75c96ba6727",
+      "text": "Golden Apple (Canto I)"
+    },
+    "shortName": {
+      "sourceHash": "0e14a0b9151b7a56da7ca1bbb8e06a8cb706bff2d0035bd3fa992b25f1cc8e6f",
+      "text": "Golden Apple"
+    },
+    "stageName": {
+      "sourceHash": "56d56294d82be3c4ced4765c07d6cdde35f1ac6f710152f2bfa72081e21926ff",
+      "text": "D-02 Branch, Floor 3: Defense Line 23-7, 15:36"
+    },
+    "lead": {
+      "sourceHash": "4bb7bf0178bd6a94cacd5050b83688862dc7d9a11ddcaca15678418b261b765c",
+      "text": "In form 1, win Clashes against Golden Fruit to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body."
+    },
+    "listLead": {
+      "sourceHash": "8767fb4f55ec3b3ba45448fc8ff0c490116b6b709ef61fbb338ab1f62c3c169c",
+      "text": "Win the Clashes that reduce healing and break parts to create openings. A break does not instantly stop every attack, so maintain the rest of that turn's pairings."
+    },
+    "statNote": {
+      "sourceHash": "2634e2779953ffc8908c65b0aba6e266a7816a763dd1e5c4f83b4a9f425d7e42",
+      "text": "The final battle on Floor 3 of the Canto I dungeon. Form 1: Lv. 8, 316 main-body HP, 214 Body HP. Form 2: Lv. 8, 383 main-body HP, 50 Head HP, 201 Body HP. HP entries distinguish main-body and Part HP. Stats from Thread Luxcavation or enhanced versions do not apply."
+    },
+    "skillNote": {
+      "sourceHash": "5df578a020300b1652e4f1aec544557ae55d350fa9885225db64975370b78862",
+      "text": "All 6 skills of the normal Canto I version. These differ from the higher-Power skills of enhanced versions. Form 1 uses enemy level − 2 for Offense and Defense Levels; form 2 uses enemy level + 2. Breaking the Head stops actions next turn, not on the turn it breaks."
+    },
+    "priorities.0": {
+      "sourceHash": "e5308538246452a9eb9716f3218150408773c1b94c2c3de316a1c06986b5fb0d",
+      "text": "Win Clashes against Golden Fruit. This deals 20 damage to the enemy and reduces Golden Sheen by 1, lowering its Turn Start healing."
+    },
+    "priorities.1": {
+      "sourceHash": "d3dc320cbf98eb6e152d3a3c1573c3123d89d38ad6b4d4d84233fb1138842fad",
+      "text": "Form 1 stops at 1 HP and triggers a check at Turn End. Both success and failure lead to form 2, so its survival is not a bug."
+    },
+    "priorities.2": {
+      "sourceHash": "0bf9967e1e3fae3ce6fff92f18ef7c5f1a4d2820e388277407cf09c45e5eba1b",
+      "text": "In form 2, break the Head with Blunt attacks to stop all Parts next turn. It still attacks on the turn the Head breaks, so maintain your Clashes."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "453ed132011f2e677fa834fd9cf4bc522f5d68e999c62ac36ab4112f3786a12b",
+      "text": "It keeps healing and the fight will not end"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "39f90fb0a88e6440e8db5dce3cbc5d64955030682358387330ce5477c7b51062",
+      "text": "Form 1 heals 10 HP per Golden Sheen at Turn Start. It starts with 3, healing 30 HP. Win against Golden Fruit to reduce this value, and focus your attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "649f33f5c54b1246abe175a38c13c4d90d31c98c74e7d816fcbada0295e514fd",
+      "text": "Its HP will not drop below 1"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "da2c3fd04a5e65bdb4d4ade5b2d5b2c4f5628147b61a8bfe5053646843e5411e",
+      "text": "In Canto I, reduce form 1 to 1 HP and proceed to the Turn End check. Other encounters may change forms on Body destruction alone; that condition does not apply here."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "204ee6f1e18475a54f181d174ab7531324dca4d85771f9f6320ad8b8ceb232a4",
+      "text": "Breaking the Head did not stop the attacks"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "1a8db065d0fcc87dfdd704eca5c2ded98eb72e520b2c9af7da2048b8de50cca3",
+      "text": "Head destruction stops all Parts next turn. It still attacks on the turn the Head breaks, so Clash against the remaining skills."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "f33bd9f045c31ae7628e8477231f3c817c2ceb9223a407f7baeac6e4473793d3",
+      "text": "Debuffs disappeared after the form change"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "83c4fcb1d5890146255f1635b2149ea6058b20a7b8865170e1b990c1ab351fb5",
+      "text": "Form 2 is treated as a separate enemy, resetting debuffs applied to form 1. After the change, choose actions based on the new HP and attacks."
+    },
+    "units.0.name": {
+      "sourceHash": "0e14a0b9151b7a56da7ca1bbb8e06a8cb706bff2d0035bd3fa992b25f1cc8e6f",
+      "text": "Golden Apple"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "e0fc6c949ae4a4197fcdd7c844fe4c7535178e613c8663461723dc00546bd77a",
+      "text": "316 (main body) / 214 (Body)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "03868a185988a3566df7edcafb2d46f412f6a9473f8dd6e3297a37a58377da9a",
+      "text": "Starts with 3 Golden Sheen. Can still be attacked after destruction and continues acting."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "dfa9a09587d6944d99581fa839627d9ec60ee676baba7d3f2ca41d1048313887",
+      "text": "In Canto I, reaching 1 main-body HP triggers a Turn End check and a transition to the next form."
+    },
+    "units.1.name": {
+      "sourceHash": "dfd8f1b69d7ae567045c5ab1fd83f721a2defedf76d1f83eeb33293b7b8cefe9",
+      "text": "False Apple (Head)"
+    },
+    "units.1.part": {
+      "sourceHash": "917540c6475c9448880b8a3545afd189e94a0056d3e058232b57fa4f57ac57fe",
+      "text": "Head"
+    },
+    "units.1.hp": {
+      "sourceHash": "70074763413554044f65b2275e745be88f1c7e2c77177c420603cb3955c5db05",
+      "text": "383 (main body) / 50 (Head)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "910bf9912cf995181a128546fa36a2db5c48dca969ed18df2cb281fea879c9d0",
+      "text": "Can still be attacked after destruction. Attacks do not stop on the turn it breaks."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "2981a605424a27f29b2057d06ee900879eed6a787fcc69259c10871e30da80da",
+      "text": "All Parts stop acting for the next 1 turn. The Head regenerates 1 turn after destruction."
+    },
+    "units.2.name": {
+      "sourceHash": "72555cfde0960c507993368115f2e29a91677457fd2a1b4b30bef8a93b298a83",
+      "text": "False Apple (Body)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "2cc281721f9ec7823bc31fc974555e26d8fc8554a172002fdeb9ec7a034c439f",
+      "text": "Can still be attacked after destruction and continues acting. Its slot weight is 2."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "b7a062fa66eef9d5f35e3b00aadf444d299539439f81d7b9b03f36c4b7c88e14",
+      "text": "Destruction grants 2 Attack Power Down to all Parts from the next turn onward."
+    },
+    "phases.0.timing": {
+      "sourceHash": "8fd9e7977246c35c002133ba5adbe1f13cb43e981489261de714a5307db545ee",
+      "text": "Form 1"
+    },
+    "phases.0.title": {
+      "sourceHash": "869309d6de934562eb4dda57061c00bb33ad4051e699a5e5297953f6ac300658",
+      "text": "Reduce healing and bring main-body HP down to 1"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "bfa0f48387c35c165eae77c512e6da3a20118908a23c453221e6e37d333dc3da",
+      "text": "The battle starts with 3 Golden Sheen. At Turn Start, it heals Golden Sheen × 10 HP, so prioritize winning against Golden Fruit. Each win deals 20 damage and removes 1 Golden Sheen."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "ea818a57e0878edd2d12f1ae66222a1df4ca3754e28637666b5eaaf6772560f0",
+      "text": "Blunt and Sloth are effective. Form 1 alternates between 2 Sprout, 1 Golden Fruit, and 1 Solid Gold, and 2 Golden Fruit plus 2 Solid Gold. Take necessary Clashes and use spare actions to damage the main body."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "ad6dbd21722b27e423f1e8b888d26878c8cefaeec47ed97126aa8cfd8bb8e88d",
+      "text": "The Body remains targetable and active after destruction. In Canto I, the event occurs at the end of the turn when main-body HP reaches 1; do not apply Part-break conditions from other encounters."
+    },
+    "phases.1.timing": {
+      "sourceHash": "0bd100e9d95dd874fe51d4987d3fa1a3e3a7845d07af99139226cc5bd8908bd1",
+      "text": "Main-body HP at 1 / Turn End check"
+    },
+    "phases.1.title": {
+      "sourceHash": "ef5893b07d90aa1062debdf000bdd7eab29778d71ef782824e0ccca895c73d51",
+      "text": "Avoid failure's extra damage while changing forms"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "1cbaf38a897627069fa25e29481541a802c9d3b30a1fd5b135dfbd4b474e84c2",
+      "text": "The check favors Sloth, and Gregor receives a +4 bonus. The required value is listed as 6 (9 in parentheses), so choose using the success prediction displayed in battle."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "6ace15eca1bf2ba2547e7986d7e6d1a48ff542a387547e2a3f0f36f464c56ea4",
+      "text": "Both success and failure lead to the next form. Failure costs the selected Sinner 25 HP and grants 3 Damage Up to all Parts for 2 turns. Aim for success; if you fail, watch for increased damage immediately after the transition."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "734de048015ce6c24583f4d31405369920c2b5382d606dc41465d30ead6f00e2",
+      "text": "Form 2 is treated as a different enemy; debuffs from form 1 do not carry over. Switch to reducing its new 383 main-body HP."
+    },
+    "phases.2.timing": {
+      "sourceHash": "9ab9d4596aeb0c680a654ce9abc257cd82cfe1a12682c33bd1bd3cb8c7b68e69",
+      "text": "Form 2 / turns with the Head intact"
+    },
+    "phases.2.title": {
+      "sourceHash": "50c8150c94ec5931fb5ea40302074f59a090f03c8034e1cea88601fd5a049e1d",
+      "text": "Maintain Clashes on the turn you break the Head"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "0d916240189411892ceae7d3c04b2ceee54f0e604ba92674aeaf96c8ae73649f",
+      "text": "The Head has 50 Part HP and is weak to Blunt. Match strong skills against Deteriorating Flesh and Entangle, preventing Bleed, Fragile, and main-body healing while damaging the Head."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "165fffc8d54eb655e9a905fb142800a88384547ae36e2c212e85dfc6f4adb774",
+      "text": "Breaking the Head stops all Parts next turn. It does not cancel every attack immediately, so maintain the current turn's Clashes."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "04dee7e1235d8ce6e0d0209a412a5f2e39fad709dd2a9732f36c9211afc3174e",
+      "text": "The Body's Nutrient Absorption also heals HP if its second Coin hits. Keep enough actions for necessary Clashes rather than spending everything on the Head."
+    },
+    "phases.3.timing": {
+      "sourceHash": "4c762143181cd964ef6c7488261f87c3de24ff9f145aecf17719ac942270e803",
+      "text": "The turn after Head destruction"
+    },
+    "phases.3.title": {
+      "sourceHash": "7dcbe560bd0b7e1b446746f46052ffe83ac2ab8d702769314c336b21e993aa1c",
+      "text": "Focus damage on the main body while all Parts are inactive"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "1eefebf8deda14323e36d85a8339323a1f72440a088937254d9fc935fc32da1e",
+      "text": "All Parts stop for 1 turn after Head destruction. Focus strong attacks to finish the main body. The Head regenerates, so prepare for attacks to resume if the boss survives."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "e659e919762f57b69249cde35fd0c82d5b2939715689a7e5d01c6f9599160607",
+      "text": "The Head has ×2 Blunt resistance; the Body has ×2 Slash and ×1.5 Blunt. Choose targets based on your skills' physical types. Breaking the Body also grants 2 Attack Power Down to all Parts from next turn onward, helping recovery."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "4b212c97d149303e48888c4659b49b4b58b65677775e860193bcebd8ef08c22c",
+      "text": "Form 2 has no normal Stagger Thresholds. Use the special shutdown from Head destruction rather than HP-based Stagger."
+    },
+    "skills.0.name": {
+      "sourceHash": "dc698ba4a78e86284de431ec5672bf71b8f2beddae8d98f5792f53ca01eb97ac",
+      "text": "Sprout"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.0.response": {
+      "sourceHash": "85f44ba0a77932df3d114e3b659032739128fd055e6f415f3cbf150e2a066153",
+      "text": "Form 1's normal attack. Take necessary Clashes while reserving skills that can beat Golden Fruit."
+    },
+    "skills.1.name": {
+      "sourceHash": "b661f7bb77ba419d7fc1a3b78cbc44e9f368fd8159f07447a3c593316b4cc4a1",
+      "text": "Golden Fruit"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "59e4c81f826b6146c1f6ea685fb1bf8afc24d8d128fafa04c24f4265551a6079",
+      "text": "Ⅰ[Clash Lose] Take 20 damage."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "4828221b211dafcd2e90de8a78231918e54e2edcbe8d03d6915edcde4a0628ed",
+      "text": "　[Clash Lose] Lose 1 Golden Sheen."
+    },
+    "skills.1.response": {
+      "sourceHash": "583db2b816cb759bb17e9b1e3b81b9ba0c9446794c18eab49720bebdcfd2917f",
+      "text": "Winning the Clash deals 20 damage to the enemy and removes 1 Golden Sheen. This skill is key to reducing its healing, so match it with a strong skill."
+    },
+    "skills.2.name": {
+      "sourceHash": "5942376ac99ab330744e6982517abf745ae766fc0baec069a973d5abd9f178b2",
+      "text": "Solid Gold"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.2.response": {
+      "sourceHash": "8735b85b8d90bf8c5762344ab00fcbbc352196a23d24b48500fe8cead32e9b54",
+      "text": "Form 1's Guard skill. Prioritize Clashes against attacks, especially winning against Golden Fruit, then use spare actions on the main body."
+    },
+    "skills.3.name": {
+      "sourceHash": "40d5d97fe0a5670684e105c9d090662b6af65ea5ff978c5e40c354ca106acdda",
+      "text": "Nutrient Absorption"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "4e49a39d667be85d25609beeeb440d6bd078b1abc30cc9b4c78f5219ac2d17f7",
+      "text": "Ⅱ[On Hit] Heal 3 HP for the main body."
+    },
+    "skills.3.response": {
+      "sourceHash": "6993d412aa1653c1ec8fcaab84f74478102296256f7fc500e4e6f0af24376acc",
+      "text": "Coin 2 heals 3 main-body HP on hit. Take necessary Clashes against Body attacks as well as Head attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "c5265237c0db1bfed237a1421f16f455bb050789b890d683a0e7b42796a79453",
+      "text": "Deteriorating Flesh"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "d8d406b1e950c1ac7da7e2a12596d57a2db49b3a7314fab83500ce250e713734",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3 next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "d4aeae1bdb905e8a5a3e30b0a706c3c801dfed86ab8c4250d410f25f82e65aea",
+      "text": "　[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "0a8bc81305cce55178ca2f000c7e4df104800e9fe902816a05abd2bd398e3eac",
+      "text": "On Hit, adds 3 Bleed Count and inflicts 2 Fragile next turn. Use strong skills against the Head to prevent these effects while reducing its 50 HP. Head destruction stops actions from next turn onward."
+    },
+    "skills.5.name": {
+      "sourceHash": "a61fbfdfb4fd81a3fa1238f7c77e9f33e2b84e77b3f431943ff31521ee6d01ba",
+      "text": "Entangle"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "149c75395bba4c5738b650299f265978b905006bc368822c365d5c3e119aead0",
+      "text": "Ⅱ[On Hit] Heal 10 HP for the main body."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "b4e0c020d2476013274f09d3379a1738d678e5e8214ac9b45a3ffa9c8e597fe4",
+      "text": "　[On Hit] Inflict 5 Bleed next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "3e6b57d783bc50ececb16365ae977691b06257c1f87de989d395fd39a68a137f",
+      "text": "Coin 2 heals 10 main-body HP on hit and inflicts 5 Bleed next turn. Remaining attacks still happen on the turn the Head breaks, so do not abandon Clashes in reliance on destruction alone."
+    },
+    "passives.0.name": {
+      "sourceHash": "4bc0247e1ddb390138f343d45c1b748bc285a6eeb40295754e2e99617dd13274",
+      "text": "Cracked Gold"
+    },
+    "passives.0.condition": {
+      "sourceHash": "514e8e6d51a72ba30bb9e23c0fc3599e622118efa9c982102abc50d708d4e9a0",
+      "text": "Every turn"
+    },
+    "passives.0.effect": {
+      "sourceHash": "72672cd7d27acb5733b386ff9eab4e8c0ac64b92045804cad6c2afa5d609faad",
+      "text": "Heal HP proportional to Golden Sheen. Its effect heals stacks × 10 HP at Turn Start."
+    },
+    "passives.0.response": {
+      "sourceHash": "de15fa58dad661cd1d7455d46aac7245cb62f04f27344725ef577b507b0d61d7",
+      "text": "Win against Golden Fruit to reduce the stacks. Leaving it at its initial 3 stacks allows 30 HP healing each turn."
+    },
+    "passives.1.name": {
+      "sourceHash": "c1f9ccc8f266982539c64ad5f75c86f1737f496a5718966ef74ceba9a1230fd4",
+      "text": "Frail Core"
+    },
+    "passives.1.condition": {
+      "sourceHash": "9d44c964281cef94cf77e606175ed6b74953ffe5884813e7ebdfdf14596481d3",
+      "text": "The Head is destroyed"
+    },
+    "passives.1.effect": {
+      "sourceHash": "463dec97294cc536b724c1255fcf2f03d6e34b4525b3a822ccf0037750c6ea5c",
+      "text": "All Parts stop acting for the next 1 turn. The destroyed Head regenerates after 1 turn."
+    },
+    "passives.1.response": {
+      "sourceHash": "fedf38e561884995f3b889a9155aa3279ff578f035df6d359fc9c219a8bb8e35",
+      "text": "Attacks remain on the turn it breaks. Focus on the main body during the safe opening next turn."
+    },
+    "passives.2.name": {
+      "sourceHash": "3b3b56e5db703bdbf75c895a90cab61ff328444ff2d7b658c5a2163d8e355170",
+      "text": "Rotting Apple"
+    },
+    "passives.2.condition": {
+      "sourceHash": "38011652adc7a04f485bb10f5bd99be5d79c974b9b251d3af83c09aca84b7b09",
+      "text": "The Body is destroyed"
+    },
+    "passives.2.effect": {
+      "sourceHash": "96ab869558586c5d5514a337e9966805cf4a213507901204e7de49c402dccf10",
+      "text": "All Parts gain 2 Attack Power Down from the next turn onward."
+    },
+    "passives.2.response": {
+      "sourceHash": "939d0c9fa35936374c97925361cec1095deec09932a440fd76d06bcb1cc410a5",
+      "text": "Besides stopping actions by breaking the Head, you can weaken later attacks by breaking the Body."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "b163cbfc70020a64ebdb0d1bc3aa3bc08603e6dbac7e741e99330ec3d89d61fc",
+      "text": "Golden Sheen"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "14a67ff28b6b7453374f61b19f70cc5ff909b9af7b69cf619ad01c27073bcd4c",
+      "text": "Starts at 3. At Turn Start, heal stacks × 10 HP. Losing a Clash with Golden Fruit reduces stacks by 1."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "10676b5faef32a326da8420b2cf35c78315711cf2ee4c5551ec39d51d4cd7f71",
+      "text": "Winning the Clash as a Sinner reduces its healing. Prioritize Golden Fruit rather than only making unopposed attacks against Guard."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "47631d0706127b9e5d48fb74e52c3f7b1f335d4a5d2e427b5e10317bdbb91ba6",
+      "text": "Canto I form transition"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "08a47c29e8f438cd97a1ec41007920117b61a65254c40a0a7f3fe5f56e2b2ed6",
+      "text": "Form 1 cannot reach 0 HP. At the end of the turn when it reaches 1 HP, a check occurs. Both success and failure lead to form 2. Debuffs from form 1 are reset."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "2aebe98770ed730fbb45ad4afd58a6bee5ef74a38454ffee635e717825009312",
+      "text": "Reduce main-body HP to 1 and proceed to the check. Passing it does not end the battle itself."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "c3a244b61113a33552136f79c7b788d9acb42833807300e389b337a6142b9480",
+      "text": "Shutdown after Head destruction"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "513ce499cc8a7a3bc0415b45825398486c8b8b82e9fb59d88691f28d184b21b8",
+      "text": "Breaking the Head stops all Parts for the following 1 turn. Actions continue on the turn it breaks, and the Head regenerates after 1 turn."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "ade1bcdaa43cd31c7bdb9baa5de9c171f91f430502eedc5cf2be1667190460ca",
+      "text": "Clash against current attacks and concentrate damage next turn. This effect is separate from normal Stagger."
+    },
+    "warnings.0": {
+      "sourceHash": "56d00608f59115694e780ea261d55b6657caa5077c49f830274d49e3bded697e",
+      "text": "Reaching 1 HP in form 1 triggers phase progression. It is not a normal kill awaiting resolution."
+    },
+    "warnings.1": {
+      "sourceHash": "e0e9dc25aa81ab8dd781b2f45c5ea87beff6479e3ddb352d8fa7d8632ed7bd88",
+      "text": "Failing the transition check costs 25 HP and grants the enemy 3 Damage Up for 2 turns. Even success continues into form 2."
+    },
+    "warnings.2": {
+      "sourceHash": "ccb2947ab906c0102e012fd482161a6178bb7dbc8b76ce2e40e91dd0e28cb5a7",
+      "text": "All Parts still act on the turn the Head breaks. Next turn's shutdown is not an immediate cancellation."
+    },
+    "warnings.3": {
+      "sourceHash": "56d8a4c7cd85e753d1845bf570165a7dd9e5adfeb7c058519597a9c7eb2a9600",
+      "text": "Form 2 has no normal Stagger Thresholds. Use the shutdown after Head destruction and reduced Power after Body destruction."
+    },
+    "preparation.0": {
+      "sourceHash": "5dee6f703cb241f7ca99eaea0a6da6de49f334e4fe15ec29e33621d08d82e038",
+      "text": "Deploy 5 Sinners. Prepare your core team's levels, HP, and SP using the dungeon's recommended Lv. 7 and the enemy's Lv. 8 as guides."
+    },
+    "preparation.1": {
+      "sourceHash": "ed522a186ced5c2335af8ff0ef98999bb7653e237ba49380e7efe43bf1d4c3c1",
+      "text": "Bring Blunt attacks effective against your intended Parts in both forms. Wrath and Sloth are also effective. Focusing Slash on form 1 runs into its ×0.5 resistance."
+    },
+    "preparation.2": {
+      "sourceHash": "1a9a7e29862a562128198f95660a4d83bfbaf9e6e1ae05dde78487c1d5ebdf8b",
+      "text": "The transition check favors Sloth. Check Gregor's bonus and choose a Sinner who can withstand losing 25 HP on failure."
+    },
+    "roles.0.name": {
+      "sourceHash": "798a204b8d734da159f144847f51f550d5d2804f51f9703b6daa60b90cc77911",
+      "text": "Golden Fruit Clash role"
+    },
+    "roles.0.reason": {
+      "sourceHash": "cc75a2ca8b2b1429d018edf2eab89cd1fb0b0b279c64a9783aa2d0ba73cdf1c5",
+      "text": "Reduce Golden Sheen to suppress healing in form 1."
+    },
+    "roles.1.name": {
+      "sourceHash": "d11102237165ed03d40cb90b04538e288cbf11be216d376210777cb4a2802e95",
+      "text": "Blunt damage for the Head"
+    },
+    "roles.1.reason": {
+      "sourceHash": "1179f5adc2627736d899954c9669307eacedeebeb0c1bcc83eeff450b21a38c9",
+      "text": "Reduce form 2's 50 Head HP to stop all Parts next turn."
+    },
+    "roles.2.name": {
+      "sourceHash": "ef6964193dcb20c01b5b67344e1bd9ed39190b218d471772d1b7faca51a410da",
+      "text": "Sloth check role"
+    },
+    "roles.2.reason": {
+      "sourceHash": "88b46ec9df44a58f06ca10b8f0f5b483adb71ec9f1ab281cdfbe49dab730400d",
+      "text": "Avoid the damage bonus immediately after the transition. Gregor's +4 bonus can help."
+    }
+  },
+  "messages": {
+    "boss-copy:golden-apple": "complete",
+    "【リンバス】1-11 黄金色の林檎（1章）の攻略｜Limbus Assistant": "1-11 Golden Apple (Canto I) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)1-11「黄金色の林檎（1章）」の攻略。第1形態は黄金の果実へのマッチ勝利で回復を減らす。HP1で判定イベントを経て次の形態へ移る。第2形態は頭を壊して翌ターンの全身行動停止を作り、その隙に本体を倒…": "Golden Apple (Canto I) guide for Limbus Company 1-11. In form 1, win Clashes against Golden Fruit to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body.",
+    "1-11 黄金色の林檎（1章）": "1-11 Golden Apple (Canto I)",
+    "黄金色の林檎の外見": "Golden Apple appearance",
+    "黄金色の林檎のスキル": "Golden Apple skills",
+    "Golden Appleの外見": "Golden Apple appearance",
+    "Golden Appleのスキル": "Golden Apple skills",
+    "偽物の林檎（頭）の外見": "False Apple (Head) appearance",
+    "偽物の林檎（頭）のスキル": "False Apple (Head) skills",
+    "False Apple (Head)の外見": "False Apple (Head) appearance",
+    "False Apple (Head)のスキル": "False Apple (Head) skills",
+    "偽物の林檎（胴体）の外見": "False Apple (Body) appearance",
+    "偽物の林檎（胴体）のスキル": "False Apple (Body) skills",
+    "False Apple (Body)の外見": "False Apple (Body) appearance",
+    "False Apple (Body)のスキル": "False Apple (Body) skills"
+  }
+}

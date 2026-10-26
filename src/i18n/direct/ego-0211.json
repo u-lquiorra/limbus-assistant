@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0211.md",
+  "code": "0211",
+  "messages": {
+    "1ターン目に「穴」で準備し、次のターンに7枠広域の「ブーシェ」を資源なしで撃って、呼吸と充電を大量に得る貫通E.G.O。": "A Pierce E.G.O that prepares with Le Trou on the first turn, then on the next turn fires Boucher un trou, a 7-target attack, without resources to gain large amounts of Poise and Charge.",
+    "穴(le trou): 戦闘で初めて使うと、精神消耗と必要資源が軽くなる(憂鬱2・傲慢2・嫉妬2減)。マッチ不可で敵に的中せず、灰色の弾丸5・呼吸・充電・黒い翼を得る。": "**Le Trou**: The first time it is used in a battle, its Sanity cost and requirements are reduced (2 Gloom, 2 Pride, and 2 Envy less). It cannot Clash and does not hit enemies; she gains 5 Ashen Bullet, Poise, Charge, and Black Wings.",
+    "ブーシェ: 弾丸があると発動する広域攻撃。攻撃前に弾丸を全消耗して呼吸と充電を得て、弾丸1につきダメージ量+8%。破壊不能コインを弾丸の消耗数-1回(最大4)再使用する。": "**Boucher un trou**: A multi-target attack that activates while she has Bullets. Before attacking, she spends all Bullets to gain Poise and Charge, with +8% damage per Bullet. It reuses an Unbreakable Coin (Bullets spent − 1) times, up to 4.",
+    "資源なしの再使用: パッシブにより、灰色の弾丸が5なら資源を消耗しない。弾丸はターン開始時に1ずつ得るので、撃った後は一定ターンで再び資源なしで撃てる。": "**Reuse without resources**: Through the passive, it spends no resources when she has 5 Ashen Bullet. She gains 1 Bullet each Turn Start, so after firing it, she can fire it again without resources after a set number of turns.",
+    "火力の源: 対象が少ないほどダメージ量が増える(解析Ⅳで単体なら+100%)。呼吸威力+充電回数でマッチ威力も上がる。": "**Damage source**: Deals more damage the fewer targets there are, +100% against a single target at Threadspin Ⅳ. Poise Potency plus Charge Count also raises Clash Power.",
+    "解析Ⅳの支援: ブーシェの攻撃後に、味方2+(最大共鳴数)名(最大7名)へ呼吸を付与する。": "**Support at Threadspin Ⅳ**: After Boucher un trou's attack, gives Poise to 2 + (highest Resonance) allies, up to 7.",
+    "先に「穴」を撃って弾丸を5にし、次のターンに「ブーシェ」で撃つ。": "Fire Le Trou first to reach 5 Bullets, then fire Boucher un trou on the next turn.",
+    "弾丸が5未満だと効果が弱まり資源も必要になるので、できるだけ5まで溜める。": "With fewer than 5 Bullets, its effects weaken and it requires resources, so build up to 5 whenever possible.",
+    "呼吸や充電を使う人格の立ち上がりに使える。侵蝕スキルは敵味方識別不可で味方に当たり得るため、覚醒の方が使いやすいと考えられる。": "It helps Identities that use Poise or Charge get started. The Corrosion skill cannot distinguish friend from foe and can hit allies, so Awakening is likely easier to use.",
+    "Ⅱ: パッシブが解放される。": "**Ⅱ**: Unlocks the passive.",
+    "Ⅲ: ブーシェの威力・ダメージ増加・マッチ威力の上限が伸びる。侵蝕スキルにも呼吸付与が加わる。": "**Ⅲ**: Raises Boucher un trou's power, damage bonus, and Clash Power cap. The Corrosion skill also gains Poise infliction.",
+    "Ⅳ: ダメージ増加がさらに伸び、覚醒に味方への呼吸付与が加わる。": "**Ⅳ**: Further raises the damage bonus and adds Poise for allies to Awakening.",
+    "人差し指遂行者：【紙片】: 呼吸を使う人格で、S2(傲慢)・S3(憂鬱)で必要資源の一部を出せる。": "**[The Index Proselyte: 【Paper Slip】](persona:0214)**: A Poise Identity whose S2 (Pride) and S3 (Gloom) supply some of the required affinities.",
+    "マルチクラック事務所 代表: S1が充電を消耗、S3が充電を獲得し、S2(嫉妬)・S3(憂鬱)で必要資源の一部も出せる。": "**[MultiCrack Office Rep](persona:0210)**: S1 spends Charge and S3 gains Charge, and her S2 (Envy) and S3 (Gloom) also supply some of the required affinities."
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "kind": "glossary-terms",
+  "terms": {
+    "support-passive": {
+      "sourceHash": "141bb2faafdcf10534a5cabc4ded34880780ff3d263e39cf59d9a0c5fed20a9d",
+      "aliases": [],
+      "text": [
+        "Support Passive",
+        "An effect provided by an Identity in the team but not participating in battle, subject to its conditions.",
+        "Read the benched Identity's description for activation requirements and affected allies.",
+        "This is separate from the combat passive used when deployed.",
+        "Unassigned Identities do not automatically provide support.",
+        "Reading a support passive",
+        "Assign the Identity to the bench",
+        "Meet the activation requirement",
+        "Check targets and tie-breaking rules",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "speed": {
+      "sourceHash": "e2fc0214d944dbd77905fbea6bc3c17a414aa60e4ed4c90bad5d58fc7927b528",
+      "aliases": [
+        "Haste",
+        "Bind"
+      ],
+      "text": [
+        "Speed",
+        "A value affecting action order and the ability to intercept attacks in Focused Encounters.",
+        "Each turn rolls Speed within the Identity's range. Faster actions normally resolve first, but Clashes and tied Speed also affect order. Check the on-screen arrows.",
+        "An ordinary attack Clash is scheduled using the faster participant's Speed; an unopposed attack uses the attacker's Speed. A slow ally Clashing with a fast enemy can therefore act earlier than their own Speed suggests.",
+        "Intercepting an attack aimed at another ally requires higher Speed than the enemy. Tied Speed is insufficient. If the attack already targets you, you can Clash regardless of Speed.",
+        "Haste increases Speed by its value for 1 turn; Bind decreases it. Compare the resulting Speeds when planning action order and redirection.",
+        "Being faster does not automatically increase Skill Power.",
+        "Equal Speed does not always resolve by deployment order. In Focused Encounters, selection order and whether actions are Clashes or unopposed also matter; check the actual action order.",
+        "Understanding Speed",
+        "Check this turn's Speed",
+        "Check enemy Speed and targets",
+        "Choose valid Clash pairings",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions.",
+        "Haste and Bind",
+        "Both modify Speed for 1 turn, affecting action order and redirection through Speed differences.",
+        "Haste raises Speed and Bind lowers it by their displayed values.",
+        "Intercepting an attack aimed at another ally requires being faster than the enemy slot. Bind can make that requirement harder to meet.",
+        "Speed alone does not determine tie order or override enemy-specific skill rules.",
+        "Reading Speed changes",
+        "Haste: raises your Speed",
+        "Bind: lowers the target's Speed",
+        "Recheck action order and redirection after the change",
+        "These effects normally last 1 turn. A specific description can give a different duration or additional conditions."
+      ]
+    },
+    "unopposed": {
+      "sourceHash": "c5187da2e4ab9541af661a1ac4f5500fac7c7f247d09a300ab402710c1ae4af9",
+      "aliases": [],
+      "text": [
+        "Unopposed Attack",
+        "An attack made without Clashing against the opponent's skill. It is different from a Clash Win.",
+        "An attack without a Clash does not necessarily cancel the opponent's action.",
+        "Consider whether the target will be Staggered first and whether its attack will remain.",
+        "Selecting an unopposed attack does not by itself remove an incoming attack.",
+        "Reading unopposed attacks",
+        "An attack without a Clash",
+        "Check the opponent's remaining actions",
+        "Consider action order and Stagger",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "guard": {
+      "sourceHash": "72fece8fa5b90ba1466cda46809926abda874c4ba6b4c9f7340458ad782430b1",
+      "aliases": [
+        "Guard",
+        "Shield"
+      ],
+      "text": [
+        "Guard",
+        "A defense skill that normally absorbs incoming damage with Shield.",
+        "Before the attack from the slot you targeted with Guard, gain Shield based on Defense Power. It lasts only that turn and disappears at the turn boundary even if some remains.",
+        "Shield takes damage in place of HP. It reduces HP loss but does not prevent every On Hit status or effect.",
+        "Guard Power is modified by the difference between your Defense Level and the attacker's Offense Level. Check it separately from resistance and HP. Clashable Guard differs from ordinary Guard.",
+        "Unlike Evade, Guard does not negate the hit or its On Hit effects.",
+        "Do not confuse ordinary Guard with Clashable Guard.",
+        "Gaining Shield with Guard",
+        "Aim Guard at the enemy attack slot",
+        "Gain the Shield before the selected attack",
+        "Check absorbed damage and any remaining On Hit effects",
+        "Shield amount depends on Defense Power, level differences, and other effects. Check the displayed values and skill conditions."
+      ]
+    },
+    "evade": {
+      "sourceHash": "050dccd1999738f5d36a3ea6c232d66663776e5ba9efb96cef9e1a9a7b402f0c",
+      "aliases": [
+        "Backup Evade",
+        "Evade Reuse",
+        "Solo Deployment"
+      ],
+      "text": [
+        "Evade",
+        "A defense skill that compares Evade Power with incoming Attack Power and avoids attacks on success.",
+        "Evade first checks against the first Coin of the selected attack. Evade Power equal to or above Attack Power avoids that Coin's damage and On Hit effects; a lower result takes the hit without reduction.",
+        "After success, Evade is reused against later Coins and attacks in that turn until it fails. Ties count as success. It does not respond to ordinary Counters. If multiple Evades target one enemy skill and the earlier Evade avoids everything, later Evades do not activate.",
+        "Counter is a separate defense method that attacks after taking a hit; it does not depend on Evade success.",
+        "Check enemy descriptions for special rules such as attacks that cannot be Evaded.",
+        "Evade success and reuse",
+        "Compare attack-Coin Power with Evade Power",
+        "Equal or higher Evade Power negates that attack",
+        "Reuse against later attacks until failure",
+        "A failed Evade takes the attack without reduction. Multiple Evades and special Coins can have additional rules.",
+        "Backup Evade",
+        "Assign an Evade and an attack from the same Identity to the same enemy slot, keeping Evade ready for attacks after the Clash.",
+        "Requires at least 2 action slots on the same Identity in a Focused Encounter. First aim Evade at the enemy attack slot, then aim an attack from another slot at that same enemy slot. The attack Clashes, while the Evade is shown as an unopposed defense.",
+        "After you win against an attack with Unbreakable Coins, the remaining enemy Coins attack after your own attack. The waiting Evade can avoid these hits and their On Hit effects, combining Clash-based Coin weakening with Evade.",
+        "Evade activates when its chosen enemy slot attacks that Identity. It can also provide insurance after a Clash Loss, even without Unbreakable Coins.",
+        "Both actions must come from different slots of the same Identity and target the same enemy slot. If another ally intercepts the attack and the Evading Identity is not attacked by that slot, Evade does not activate.",
+        "Winning the Clash and weakening Unbreakable Coins does not guarantee Evade success. Check remaining Coin Power and individual effects.",
+        "Clashable Guard and Clashable Counter do not respond to post-victory remaining Coins in this way. Evading a multi-target attack does not protect other allies from their own hits.",
+        "Assign Evade first, then an attack to the same enemy slot",
+        "① Assign Evade to the enemy slot",
+        "② Assign an attack from another slot of the same Identity",
+        "Win with the attack → resolve your attack",
+        "Remaining Unbreakable Coins attack → the waiting Evade rolls",
+        "This shows Unbreakable Coins attacking after a Clash Loss. If the enemy dies or the attack otherwise never occurs, the waiting Evade does not activate.",
+        "Repeated Evade during solo deployment",
+        "One slot's successful Evade can be reused against subsequent attacks in the same turn, leaving other slots free to attack.",
+        "Solo deployment concentrates incoming attacks, making Evade reuse valuable. Aim Evade at the first enemy attack that will actually reach you, and attack with the other slots. Backup Evade can also handle Unbreakable Coins.",
+        "After the first success, reuse Evade against the next Coin of that skill and attacks from later skills. Each reuse does not require another action slot.",
+        "This is not exclusive to solo deployment. It also works in larger teams when later attacks hit the same Identity.",
+        "Evade does not begin until its selected attack reaches you. Targeting a later attack leaves earlier hits unprotected. Check resolution order, including your own Clashes.",
+        "The Evade Coin rerolls on every reuse. Success is not guaranteed: a failed Coin deals its damage without reduction and ends reuse of that Evade.",
+        "Another prepared Evade may take over from the next Coin after failure. Multiple Evades on the same enemy skill do not all activate if the first avoids every hit.",
+        "One Evade slot handles later attacks",
+        "Enemy attack A, first Coin: Evade succeeds",
+        "Attack A, next Coin: reuse succeeds",
+        "Later attack B: reuse succeeds",
+        "A later Coin fails: take that hit, then reuse ends",
+        "One example of success and failure. Backup Evade is the assignment technique; repeated Evade is the reuse mechanic. Evade does not carry over to the next turn."
+      ]
+    },
+    "counter": {
+      "sourceHash": "78b64e99faed079892d46b76d65b85f8a65db5634df767ef3eb50f46d51d1a0d",
+      "aliases": [],
+      "text": [
+        "Counter",
+        "A defense skill that normally retaliates after taking an enemy attack.",
+        "An ordinary Counter does not reduce incoming damage. It makes an unopposed retaliation immediately after the first attack skill received that turn, responding to the actual first attacker rather than the enemy selected when setting it.",
+        "An ordinary Counter triggers once per enemy skill. Stagger or death before retaliation prevents it, and ordinary defense skills cannot defend against its unopposed attack.",
+        "Clashable Counter is a special defense skill that Clashes before taking the enemy attack. Winning stops that attack; its handling after a loss differs from ordinary Counter.",
+        "Ordinary Counter does not stop the enemy without taking a hit first.",
+        "Ordinary and Clashable Counter",
+        "Ordinary Counter: take the hit first",
+        "Immediately afterward, make an unopposed Counter attack",
+        "Clashable Counter: Clash with the enemy skill first",
+        "Stagger, death before retaliation, and skill-specific conditions can prevent activation."
+      ]
+    },
+    "attack-weight": {
+      "sourceHash": "a4c1aa963202108800cd6cfa3725b941bf841e513fa60d9b5cddf6bc7b09ba87",
+      "aliases": [],
+      "text": [
+        "Attack Weight",
+        "A value governing how many target slots an attack can cover.",
+        "Attack Weight indicates how many slots a skill can target. At 2 or more, it becomes a multi-target attack.",
+        "The main target uses a solid line; subtargets use dashed lines. Only the main target Clashes. Subtargets are usually automatic, though selected slots can influence them in Focused Encounters.",
+        "Some parts or slots consume more than one unit of Attack Weight. A slot with weight 2 uses more of the available weight, leaving less for other targets.",
+        "3 Attack Weight does not always mean 3 enemy characters.",
+        "Targets of a multi-target skill",
+        "Select the main target",
+        "Allocate remaining Attack Weight to subtargets",
+        "Clash with the main target; attack all covered targets",
+        "Targets may be individual enemy slots or parts rather than separate characters. Some E.G.O and skills use special targeting rules."
+      ]
+    },
+    "attack-level": {
+      "sourceHash": "60b6fb66f70e78ab7a321c166ca207d13548313cf05c46243d3b8c6fbc933fde",
+      "aliases": [],
+      "text": [
+        "Offense Level",
+        "A skill's offensive level, used in Clash and damage modifiers.",
+        "Distinguish the Identity's training level from Offense Level after skill and effect modifiers.",
+        "Ordinary attack Clashes compare both skills' Offense Levels. Damage compares the attacker's Offense Level with the defender's Defense Level.",
+        "Coin Power and Offense Level are separate values.",
+        "Reading Offense Level",
+        "Check the skill's Offense Level",
+        "Compare it with the opponent's relevant level",
+        "Account for the modifier",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "defense-level": {
+      "sourceHash": "5702ce7b58bca579f2a6440c71c3ecbddbcc1c351d0bc002fe5c9a4fb1fdf7c5",
+      "aliases": [],
+      "text": [
+        "Defense Level",
+        "A level used to calculate damage taken and defense skills.",
+        "Check modifiers from the level difference with the attacker.",
+        "Resistance, Shield, and Defense Level are separate factors.",
+        "High Defense Level does not negate every attack or status effect.",
+        "Reading Defense Level",
+        "Check your Defense Level",
+        "Compare it with the attacker's level",
+        "Also check resistances and other factors",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "panic": {
+      "sourceHash": "c1f090fe3a2edb7d1edd9150719e6dcca15ad75bb4589ada60dec7b40e763627",
+      "aliases": [],
+      "text": [
+        "Panic",
+        "A state caused by low SP, separate from HP-related Stagger.",
+        "Reaching -45 SP causes Panic or E.G.O Corrosion, depending on equipped E.G.O and Identity-specific rules.",
+        "Panic behavior and recovery conditions are Identity-specific. The name alone does not imply one universal behavior; read the Sanity section and effects.",
+        "When using E.G.O at -25 SP or lower after its cost, the displayed chance can produce a Corrosion skill. This is separate from the E.G.O Corrosion state that begins next turn after reaching -45 SP.",
+        "Enemies without SP cannot be assumed to Panic in the same way.",
+        "What low SP can cause",
+        "At -25 or lower after an E.G.O SP cost: a chance of Corrosion",
+        "At -45 SP: Panic or E.G.O Corrosion from next turn",
+        "Check Identity and E.G.O descriptions for behavior and recovery",
+        "Identity-specific Panic rules take precedence."
+      ]
+    },
+    "normal-battle": {
+      "sourceHash": "0bd33de142a64176b0ca20410de9260bbf73ff70562f7284afb3abb22177594c",
+      "aliases": [],
+      "text": [
+        "Normal Encounter",
+        "A battle format where you cannot assign attack pairings as freely as in Focused Encounters.",
+        "Select skills by connecting the panel from left to right. Instead of freely assigning enemy slots, pairings follow the Speed-based formation.",
+        "Different slot counts can create unopposed attacks. Check arrows to see slot growth across turns and who will actually be targeted.",
+        "Do not directly apply Focused Encounter redirection rules to Normal Encounters.",
+        "Reading Normal Encounters",
+        "Check the encounter format",
+        "Select skills",
+        "Check the predicted Clashes",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    },
+    "focused-battle": {
+      "sourceHash": "b435a47955dac0f9ff81c385ce6f355fc1e3eda6f4ccf3c1ddc58434cc6a5fea",
+      "aliases": [],
+      "text": [
+        "Focused Encounter",
+        "A battle format where you target enemy skills or parts and choose between Clashes and unopposed attacks.",
+        "Drag from your chain-panel skill to a skill slot above an enemy. Read enemy arrows to see who is being targeted.",
+        "You can Clash with an attack already aimed at you even when slower or tied. Intercepting an attack aimed at another ally requires higher Speed than that enemy slot. See Target Redirection and Interception for details.",
+        "When several allies select the same enemy slot, the last valid redirection determines its target. After all assignments, check Clashes, unopposed attacks, and defenses again before pressing START.",
+        "For enemies with parts, check each part's skills, HP, and Stagger state. See Parts and Part Breaks for shared HP damage and the difference between broken and excisable parts.",
+        "Free targeting does not mean every pairing can take over a Clash.",
+        "Reading Focused Encounters",
+        "Inspect enemy skills",
+        "Check Speed and targets",
+        "Assign Clashes and unopposed attacks",
+        "This diagram shows the basic mechanic. Check the skill or encounter description for specific effects and restrictions."
+      ]
+    }
+  }
+}

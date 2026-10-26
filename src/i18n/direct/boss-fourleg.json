@@ -1,0 +1,692 @@
+{
+  "kind": "boss-copy",
+  "id": "fourleg",
+  "source": "src/data/bosses/fourleg.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeNoir"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_LowMorale"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_Panic"
+        },
+        {
+          "ja": "ル・ノワール ウーステッド生地",
+          "en": "Le Noir: Worsted",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NoirBindArmor"
+        },
+        {
+          "ja": "フォーレグ",
+          "en": "Four-legs",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1482"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146501"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146503"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148201"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148202"
+        },
+        {
+          "ja": "凝縮の発散",
+          "en": "Unleash the Condensed",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148203"
+        },
+        {
+          "ja": "保存転換の逆説",
+          "en": "Conservation-Conversion Paradox",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148204"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148302"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149201"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149202"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106601"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106602"
+        },
+        {
+          "ja": "カタカタ",
+          "en": "Clip-clop",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148201"
+        },
+        {
+          "ja": "カタカタ、ドン！",
+          "en": "Clip-clop, Buck!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148202"
+        },
+        {
+          "ja": "切ってください！お願いです！",
+          "en": "Please, cut them off! I beg you!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148203"
+        },
+        {
+          "ja": "カタカタいうこの音、おぞましい…。",
+          "en": "Clippety-clop, what an awful sound...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148204"
+        },
+        {
+          "ja": "ワンレグ",
+          "en": "One-leg",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1483"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. The ellipsis variant of the area skill is resolved by ID 148204; One-leg follows enemy 1483. Preservation Potency and Count remain distinct. Route A stats, conditional Unbreakable conversion, per-Coin volley targeting, and the consecutive battle are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "9f1263166dbabbe542e9a8896bb5d04be9e316091a7b4ace2dd7d896d77aaded",
+      "text": "Four-legs (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "93e60291a70730822a9b26da2dd7ec1c8a50362e6ddbe11a744721198a4726aa",
+      "text": "Four-legs"
+    },
+    "stageName": {
+      "sourceHash": "963c4e854b6e0d696317b9f51e3749456e541cbda3691038e9eeaf99c9d70e4f",
+      "text": "Sisyphus Department Store A, 4F: Shoes Floor, First Battle"
+    },
+    "lead": {
+      "sourceHash": "2c024d15a13bdd24786243b37b6fd785984192bfc54860ab0a38da52eed5cd7e",
+      "text": "Break the Shield and attack before Preservation Potency builds up. Win against the powerful Unfocused Volley for halved damage and Stagger prevention. Defeating Four-legs leads directly into One-leg."
+    },
+    "listLead": {
+      "sourceHash": "40693060dafe539053d43af9b9574695eea11e93f2528ed1d19ba199c108f74d",
+      "text": "Break the Shield before Preservation Potency builds up. Win against Unfocused Volley with a strong skill to halve damage and prevent Stagger. Another enemy follows immediately after victory."
+    },
+    "statNote": {
+      "sourceHash": "9f32d1591639075e988a1a172478901c5d61e453f51e88512855517ac3faea2a",
+      "text": "Route A: Lv. 23 and 814 HP. Defense Level 25 excludes additional Fabric modifiers. Separate from Route B's Lv. 48 version starting with Preservation 3/15 and a 1,000 Shield. Covers normal Route A “Nail” progression. In this dungeon, Customer Level replaces outside Identity levels. Uptie below III is raised to III, but E.G.O Threadspin is unchanged. Form a team of up to 12 including each floor's three required Sinners. SP and E.G.O resources carry over after battles. The 4F required Sinners are Meursault, Don Quixote, and Hong Lu."
+    },
+    "skillNote": {
+      "sourceHash": "50e89be108f5638ea3b68693ab489a6ad8f1df228763eac06325fbd448434be9",
+      "text": "Coins that change at 3 or more Preservation Potency are conditional and are not shown as permanently Unbreakable. Unfocused Volley selects a target for each Coin; its three Coins do not hit everyone simultaneously."
+    },
+    "priorities.0": {
+      "sourceHash": "53c5849a98117848b2779f7c77ff869d7db5069fb66eac1bac81dd8bb01c7b56",
+      "text": "Break the Shield instead of leaving it up, and damage HP before Preservation Potency reaches 3."
+    },
+    "priorities.1": {
+      "sourceHash": "697890bbae4a48e0018fca65cb8dafb17b7719a0319c4dc9912dcb820688fbf5",
+      "text": "Win against the powerful Unfocused Volley to halve damage and prevent Stagger."
+    },
+    "priorities.2": {
+      "sourceHash": "0508d9c772b6e7a22e916dba2175a109122ee417e6769ccb55027728bead3794",
+      "text": "Save HP and E.G.O resources for the consecutive One-leg battle."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "62e5bdf52e2380ca80a4d4b3fe872b51948119e207f5dfae94f361d592639473",
+      "text": "The same regular skills keep getting stronger"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "08219e9959b0930858a1b4da06bf5ed8c642bbd37377ae9119a65cba28bf8f20",
+      "text": "At 8 or more Preservation Count, regular skills gain Coin Power. Tremor on the target also raises Final Power. Check current Preservation and clash predictions rather than base maximum Power alone."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "922beae6006bc089991e0197015735657a15cf93485b82c1fd71b22a314ac6e9",
+      "text": "An added area skill prevents recovery"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "fd996a3a19e497f2b84aea3c01bb5843ac5f480367cbff4e84eb9fa078b06d2b",
+      "text": "At Turn Start with 3 Preservation Potency and at least 10 Count, uses Unfocused Volley in an extra slot. Winning halves damage and prevents Stagger from the skill, so prioritize a strong E.G.O against it."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "3d37d6dbed0af2989f217d1fed6bef52da5ba9ea21aea43bea3f1a44d183c3e4",
+      "text": "The next enemy wins after Four-legs falls"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "f4e2c11a2bb175523b0a21b4aa9a22c1e6d9a6a6604b7fe1ab316a03a376a161",
+      "text": "One-leg follows Four-legs immediately. Losing the second battle restarts from Four-legs. Avoid wasting E.G.O at the end; save healing and resources for major skills."
+    },
+    "phases.0.timing": {
+      "sourceHash": "654c30a44af85605c40495ea0167c673f6f3cf3ccf1e16c60961b61ab2e25955",
+      "text": "Before entering the Shoes Floor"
+    },
+    "phases.0.title": {
+      "sourceHash": "20edba33fe57c276e823fc87cc011675611998c8694d92658b97f5e792f22ab6",
+      "text": "Finish shopping and prepare for consecutive battles"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "048a44286ad30850b60bc49f82ecf409edeabcae00edfa81f33746d9f5b25808",
+      "text": "Meursault, Don Quixote, and Hong Lu are required. Bring your main attackers and HP recovery, using carried-over SP and E.G.O resources."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "329c28c6b4173b0b56b3498ba06efe8568d01776a484ce88ddf641e75833026b",
+      "text": "Aim for Customer Lv. 25 through shopping. You do not need to raise outside Identity levels. An official RENTAL Identity is available for Meursault too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "b62129dd922ed7084cfe57b20ab25c93b986795d2effc921e7076b7e0827b147",
+      "text": "Check Blunt resistance and E.G.O for strong clashes. Threadspin is not raised, so choose according to required effects and resource costs."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "f1548b9cfd297f2a2373532924ab45e8303d7a2c533ac346b8c46758fb53ebe7",
+      "text": "Entering the Shoes Floor from the corridor starts combat. One-leg follows Four-legs, so prepare healing and high-Power skills for both battles."
+    },
+    "phases.1.timing": {
+      "sourceHash": "284444e8b814ed05a0dc56f9371eca72e014f1dd17f18cc4d84384b9c99d58e3",
+      "text": "Starting at 1 Preservation Potency"
+    },
+    "phases.1.title": {
+      "sourceHash": "b8e9a756a4c704ba7866dafe03a18b68ffee3ea8355795080f78485e0ca41b05",
+      "text": "Break the Shield and avoid a prolonged fight"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "140764e605ab25a6248583830ef1169140d7e46a4320610fd8db749d9ade8eed",
+      "text": "Starts with Preservation 1 Potency / 0 Count and 3 Fabric. Ending a turn with a Shield remaining increases next-turn Preservation Count and Defense Level."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "fd19fdd1404387fc014e46e2d94f40c3f3595fcd9a1b5a68154b47be4e9ef695",
+      "text": "Taking hits while Shielded also adds Preservation Count. Do not leave the Shield intact through small attacks; concentrate damage to reach HP."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "69c98cd887855d95ac424aeb44143a2cc54f784445512981b4394772c9c4ff85",
+      "text": "Use Sloth ×1.5 and Lust ×1.25. All physical resistances are ×1.2, so there is no need to focus on one physical type."
+    },
+    "phases.2.timing": {
+      "sourceHash": "8efe0e9abe9fab0c4410256552bf5abaee382a08eae9e8c601a75d88fa5861e3",
+      "text": "Please, cut them off! I beg you!"
+    },
+    "phases.2.title": {
+      "sourceHash": "26cfb7ea3e1de4f511acedf834339c458f8d043415390a96ae85cdeea07ffb9e",
+      "text": "Assign a strong clasher regardless of Speed"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "1896358bfc8cebaea9ede61079be43b193a6a1d64d16ffa2e21570598033807e",
+      "text": "Can be clashed with regardless of Speed. At 10 or more Preservation Count, consumes it for +1 Base Power and +1 Coin Power, so do not judge only from the base maximum of 14."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "594b1ccfb0ad20829be8c7759c5722b1d14397b1a129ec5a4f1b61b432f15bdf",
+      "text": "At 3 or more Preservation Potency, all Coins become Unbreakable. Heal the clasher beforehand to prepare for Tremor Bursts remaining after a clash win."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "edefb2f2c1da8badc97be4e434f24892e20fc490908b76760dd94b9694f45abb",
+      "text": "Stagger does not skip the enemy's action pattern. Recheck the skills it will use after recovery."
+    },
+    "phases.3.timing": {
+      "sourceHash": "28075151063b03d1ff70fa8f2e2b982edd60838234bb663521b3f4bc415ef4da",
+      "text": "3 Preservation Potency and at least 10 Count"
+    },
+    "phases.3.title": {
+      "sourceHash": "275e9ed61ffbe0d87e107a06bcdbbcaf4c14d957002d733212e40dc9ebb30469",
+      "text": "Win against Unfocused Volley and limit damage before the next battle"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "be9a43cdc2ccc5be1777a4a0220f7da8cf36d68a5242e23a21c67ec134cf10d9",
+      "text": "The extra-slot Clippety-clop, what an awful sound... has three Unbreakable Coins. On use, inflicts 3 Tremor and 3 Count on all targets."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "16ed24062b1fdb6b38802c63fc368dd9a8eb57d7fa26f2a29c9b623cf645f9bd",
+      "text": "Winning halves damage and prevents Stagger from this skill's damage and effects. It does not evade everything, but controls damage better than leaving it unopposed."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "ab063db006c28609f449044f6261cdb80793acee66d745d230fc024057ce0ecc",
+      "text": "Unfocused Volley's first Coin hits the main target; later Coins choose a random target among those attacked. Heal secondary targets too."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "c8fb28e8c5323f47c9d37fa43da1d6334a85bca3b7a964e79b88f34da64f1747",
+      "text": "Resources and SP carry into the One-leg battle. Once victory is assured, do not add unnecessary powerful E.G.O; save them for the next major attack."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "175e11c205ea1dfdde5d5829539ca53167bf93aa9f47a918a72ac021c70293c2",
+      "text": "The dungeon level raised by spending eyeballs in department-store shops. Determines Identity levels inside the dungeon."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "4659c5955300de5672234e0a56d7e7dfeffc5d20067daa69c1fcfdb2e56e869f",
+      "text": "If clashes are too weak, check unvisited shops and vending machines instead of farming outside EXP."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "658d4e13792753fa52c603511dba2b4aa33883cf3538dc2dc9b0e0c4894c4788",
+      "text": "A special Charge affected by effects that change Charge Potency and Count. The usual Count cap is 20; lose 1 Count at Turn End. Enemy passives increase Preservation Potency and other effects through cumulative Count consumption."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "f973eede431fc61853ba5c7b9c9ce7fd951973cc53f04b9fc249fbbaac80bd90",
+      "text": "Check Potency and Count separately. Spending Count may still advance buffs based on cumulative consumption."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "f3dcc50949073e7d0f4480e457d46756fab5cda6115daa066b51ca4aaa0739c0",
+      "text": "Back into My Shell..."
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "73d713f821ae4f349289aef59293b25b01e0dc5fb727b6b0fe2f579b2104d4ef",
+      "text": "At −20 SP or lower, maximum Speed −1 and Defense Level +1; at −45 or lower, maximum Speed −5 and Defense Level +3. Clash wins and losses also change SP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "48cb6d6262578cda93ff845a14a7da03cae319af94f90fa56c7b2233568c9057",
+      "text": "Lowering enemy SP is useful, but reduced Speed does not finish the fight. Check remaining HP and Shields."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "ddb73a45858670b3dab245661d2fa8c2a3778b6396c74933cccf9e614795fc1d",
+      "text": "Le Noir: Worsted"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "675aafe9f2fd4bf6decb93cd05903a8e4a4204af8c5ab3976e6dd3bc26ad458d",
+      "text": "Maximum 15. Per 5 stacks, maximum Speed −1 and Offense/Defense Levels +1. Lose 1 at Turn End. Some passives also grant Shields according to Fabric stacks."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "4acc3c538165b03cf40b8d131fbcee4e49449d6c31962d8b5a00b85b0266c8a8",
+      "text": "Check Fabric's level changes and Shields; avoid repeated small attacks that only chip at the Shield."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "0f96dc326aa44e736cc8a15e9d4816fd3fbf3d228f792fdd80127b30928a7614",
+      "text": "Each Coin chooses one random attack target. The first always hits the main target; each Coin's damage and on-hit effects apply only to its chosen target."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "0cd8c6513308da0e94eb448f1ba539a1ef81b42958839003c292c4c32f6d89d7",
+      "text": "Check secondary targets' HP too. Distinguish this from the on-use Tremor applied to every target."
+    },
+    "warnings.0": {
+      "sourceHash": "55653bfe988764b153326f740d5244432f17dfcbae72ca601e22d8dce496da28",
+      "text": "Preservation Potency and Count are separate. The regular skill's threshold of 8 uses Count; the Unbreakable threshold of 3 uses Potency."
+    },
+    "warnings.1": {
+      "sourceHash": "494966a805cdf2c1ff15d1388bd80653ea995a804504c44c999237e475ff0151",
+      "text": "Route A starts at Preservation 1/0. Do not mix it with Route B's enhanced opening state."
+    },
+    "warnings.2": {
+      "sourceHash": "5b6125dbcd15339ca4fde171c0a34f0f8e8ec1f2e21804f2e5d6e8c40c3cb21a",
+      "text": "Winning against the area skill leaves on-use effects and Unbreakable attacks. Do not skip HP recovery."
+    },
+    "warnings.3": {
+      "sourceHash": "7397ea90b759b46ab4611d1e5f5b764e1b0306ee7f84bc185dc28c13454a8f3f",
+      "text": "Losing to One-leg restarts from Four-legs. Do not spend all resources on winning only the first battle."
+    },
+    "preparation.0": {
+      "sourceHash": "048a44286ad30850b60bc49f82ecf409edeabcae00edfa81f33746d9f5b25808",
+      "text": "Meursault, Don Quixote, and Hong Lu are required. Bring your main attackers and HP recovery, using carried-over SP and E.G.O resources."
+    },
+    "preparation.1": {
+      "sourceHash": "329c28c6b4173b0b56b3498ba06efe8568d01776a484ce88ddf641e75833026b",
+      "text": "Aim for Customer Lv. 25 through shopping. You do not need to raise outside Identity levels. An official RENTAL Identity is available for Meursault too."
+    },
+    "preparation.2": {
+      "sourceHash": "b62129dd922ed7084cfe57b20ab25c93b986795d2effc921e7076b7e0827b147",
+      "text": "Check Blunt resistance and E.G.O for strong clashes. Threadspin is not raised, so choose according to required effects and resource costs."
+    },
+    "roles.0.name": {
+      "sourceHash": "5d12f294d5785d3bf45484969687a7a033da2ef28784b19a860d0229f320a9a4",
+      "text": "Focused Sloth and Lust damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "37fe74d4410b369acaa8ddbd3b58cde069394fce7e523550cd7c4f3931e5268a",
+      "text": "Break the Shield and progress before Preservation buffs build up."
+    },
+    "roles.1.name": {
+      "sourceHash": "eb6b46c7771b8981a5223c98bc0cf083c79439af3e4cbef6e12299dd583a2d65",
+      "text": "High-Power clash against the extra area skill"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0ecc17ca42abd1fd7bea53a28e595a9292ea5a6af77624d221107128b1666e7f",
+      "text": "Trigger the clash-win damage reduction and Stagger prevention."
+    },
+    "roles.2.name": {
+      "sourceHash": "8d047a0c479225a3853f9ca938a58d9c13e4fcafac3d5894591a55b6983678d1",
+      "text": "Healing and resources for consecutive battles"
+    },
+    "roles.2.reason": {
+      "sourceHash": "a45d1318a611e538ac6dbd3ce961e118c537d67fe1f885d03dc3d251da57e394",
+      "text": "Maintain fighting strength through the following One-leg battle."
+    },
+    "units.0.name": {
+      "sourceHash": "93e60291a70730822a9b26da2dd7ec1c8a50362e6ddbe11a744721198a4726aa",
+      "text": "Four-legs"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "0d740a893d043de9a4191db09373b9b881d19149d284467c49c7553104d4ee90",
+      "text": "On entry, gain 1 Preservation Potency and 0 Count."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1388e838ac917697d3662cb0f90ab4ac0fb9ef2c0052bdeb61ec806b0ab9e341",
+      "text": "Normal Route A progression, separate from Route B's enhanced version."
+    },
+    "skills.0.name": {
+      "sourceHash": "b468b73adb5a7f0e9a3bd25c0f8cbf4c15612d0c17012d9cad92d04aae560590",
+      "text": "Clip-clop"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "7e0526b94830e1857fbc820e18a066dd285bda684a22bd93cac482e077af8e96",
+      "text": "- Final Power +1 per 4 Tremor on the target (max 3)"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "dc7fd0b5a90cfe537904505a70fb7d7cb750d372cb0f6ccc0905d89129ec31a0",
+      "text": "- At 8 or more Preservation Count, Coin Power +1"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "fae7a80710fcd4e85133d24a4a944d009b5398eda4e165a7eb6c2d013f24efb6",
+      "text": "[On Use] If Preservation Count is below 15, gain 2 Preservation Count"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "c20b0d8d27069995801ec9b4421ce0c7eee78bddaa63775f54ad9c306bf9b722",
+      "text": "Ⅰ [On Hit] Inflict 1 Tremor"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "e19595c83df541779a43d44aa5dc892715ce8d28ea16668611609069cc38cfc3",
+      "text": "[On Hit] Gain 1 Preservation Count"
+    },
+    "skills.0.effects.6": {
+      "sourceHash": "3c2da9ebc6a7d84d68b87aa408901c6424febc6516c788efdcce46b34a37bb9b",
+      "text": "Ⅱ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.effects.7": {
+      "sourceHash": "e19595c83df541779a43d44aa5dc892715ce8d28ea16668611609069cc38cfc3",
+      "text": "[On Hit] Gain 1 Preservation Count"
+    },
+    "skills.0.response": {
+      "sourceHash": "a37e80ea74aa62ee13d8acaa6500df578ad6b7dfddaa5998f7bbf788e72e5b85",
+      "text": "At 8 or more Preservation Count, Coin Power +1. Tremor on the target also strengthens it; do not ignore it because base Power is low."
+    },
+    "skills.1.name": {
+      "sourceHash": "537608a2b9221afa1fec5fd909bdc02786c21cf3dd71dc9e342ab7a809641d3b",
+      "text": "Clip-clop, Buck!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "7e0526b94830e1857fbc820e18a066dd285bda684a22bd93cac482e077af8e96",
+      "text": "- Final Power +1 per 4 Tremor on the target (max 3)"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "dc7fd0b5a90cfe537904505a70fb7d7cb750d372cb0f6ccc0905d89129ec31a0",
+      "text": "- At 8 or more Preservation Count, Coin Power +1"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "cc88823d01d502d688437f859bcc954ebbc4c57e03e5638908ad54816e19719b",
+      "text": "- Gain 2 Preservation Count"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "60e6327c07df8d96ab0d553ccfe1849926717b779bb225271cbb0581b9d5e03c",
+      "text": "- At 3 or more Preservation, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "51c814f3d903b19086a21708ae763dd0cfbc7c6f281b7761442891abf196c94d",
+      "text": "Ⅰ [On Hit] Inflict 3 Tremor and increase Tremor Count by 2"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "e2392a614bac78c2ea13490ced51921b3fd27262c70a98b8d035ef872f927b1b",
+      "text": "[On Hit] Gain 3 Preservation Count"
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "a8e44ae4fa76b5a48b8e629a0af245f7e20c76e0c91b7d3b20b01a5464fdea5a",
+      "text": "Ⅱ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.1.effects.9": {
+      "sourceHash": "bc0715b1f1ce26d0bdd18a05ba40f52eed08e25faff0bb50c68c2214223fdd76",
+      "text": "[On Hit] At 15 or more Preservation Count, consume 3 to trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "61185551f9955a3ae04ea6b2a0dce56ab128e0293ccf3d583d3b7233482d5668",
+      "text": "At 3 or more Preservation Potency, the last Coin becomes Unbreakable. Stop it with a regular skill to prevent Count gains on hit."
+    },
+    "skills.2.name": {
+      "sourceHash": "8efe0e9abe9fab0c4410256552bf5abaee382a08eae9e8c601a75d88fa5861e3",
+      "text": "Please, cut them off! I beg you!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "b50b52e2cbad4c84fe7aa681cdee99d23f616105944c59f1154c31072768e87e",
+      "text": "- At 10 or more Preservation Count, consume 10 for +1 Base Power and +1 Coin Power"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "5d11db47bd5473f94f5fc2ce320526f0aa8b5fe1e87c0c9e2f4974485304a8ee",
+      "text": "- With fewer than 10 Preservation Count, gain 5 Count"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "b6a2646c9ee2d5841f9bbba00f106e619b3fcb441b53cb19c7ece40bde3e5aaf",
+      "text": "- At 3 or more Preservation, convert every Coin of this skill to an Unbreakable Coin"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "6f747e2ae60c12ca749f918a0d4fc60071f75dde757ef714dc8cd0997d7064ad",
+      "text": "Ⅱ [On Hit] Increase Tremor Count by 3"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "d975a03c951528d7b5fe8646c94f133063cf9b0d6f27b9004398120767c96f65",
+      "text": "Ⅲ[On Hit] Trigger Tremor Burst. Reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "f4bc5166844742dd96a29d9f8979e47d4d89466fc9136a4a989b70a65e7e7a33",
+      "text": "[On Hit] If this skill consumed Preservation Count, trigger Tremor Burst and reduce the target's Tremor Count by 1"
+    },
+    "skills.2.response": {
+      "sourceHash": "ed9b63d2894c733d7e0decb9f82dfa95e815c111f127aca7602a3abefd13aacb",
+      "text": "Can be clashed with regardless of Speed. Gains strength at 10 or more Count and fully Unbreakable Coins at 3 or more Potency. Maintain the clasher's HP too."
+    },
+    "skills.3.name": {
+      "sourceHash": "4f4a660475631cde66a96358c3bbb83b024dead0c915722907e86a9b444147b6",
+      "text": "Clippety-clop, what an awful sound..."
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "c69aafa09f2488323f51fc3c6e0dea793e773f28fffcf8dd1a7e073992cf8ea2",
+      "text": "Damage +3% per Preservation on self (max 15%)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "9378b4df89ac4425080fbfe2cc560369b7516af6f502f5c7ff8f192485605bd0",
+      "text": "Whenever this skill hits, trigger Tremor Burst and reduce the target's Tremor Count by 1"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6e3c9951a3cee4083af0f0fd78022cbeb58320e1cbfce117b258a2459056377c",
+      "text": "[Combat Start] Gain (Preservation − 2) Le Noir: Worsted (max 3)"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "32f0d72fb9d9b84f2411948a5d2b2461c69acfff3700f6ebb661cd1aaee6fed2",
+      "text": "- Inflict 3 Tremor and 3 Tremor Count on all targets"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "1e97ea5d6ca6c9c962aacaa2e8bf1a154907e691fbb9d354e6cfeb3873c684f1",
+      "text": "- At 10 or more Preservation Count, consume 10 for +2 Base Power and +2 Coin Power"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "bd4b76c2d9ffa3a96c56d26664841b5c1ac3f1e6d6c16ed94b8587d630628291",
+      "text": "-Damage -50%"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "198d2227a75ec8ec613ccd400e824537fc95d270c55edb2266c6c88c79b42b3f",
+      "text": "- This skill's damage and effects cannot Stagger its targets"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.response": {
+      "sourceHash": "6c7524f3855d502c8f8cf34293aa57b6e6516c06cf51b8e560d00dee8faf4e47",
+      "text": "An Unfocused Volley with three Unbreakable Coins. Winning halves damage and prevents Stagger from the skill. Assign a strong skill and heal secondary targets too."
+    },
+    "passives.0.name": {
+      "sourceHash": "b338c1ece14883d33f0aaeda19f49272ebc7ee2bd54f35f013013b5cbaed4b38",
+      "text": "Le Noir: Fabric"
+    },
+    "passives.0.effect": {
+      "sourceHash": "a2b5271db2298ccc54173362ae8b925e099336a2d09148235ae251a8ac7256ff",
+      "text": "At Stage Start, gain 3 Le Noir: Worsted.\nAt Turn Start, gain a Shield equal to (Le Noir: Worsted stacks)% of max HP, unless Staggered.\n\nLe Noir fabric shapes the customer's figure with an armor-like, sturdy silhouette that holds its form."
+    },
+    "passives.0.condition": {
+      "sourceHash": "a09ab295172b89d56d3099d845e9d5d196698365fd45b01b6c9f3949f97ceb0f",
+      "text": "At battle start and Turn Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "0a473a631fa878e287f294dc42728d363f9270573baca476b6e06c79209a6af3",
+      "text": "Starts with 3 Fabric, granting a Shield equal to its stacks as a percentage of max HP while not Staggered. Break the Shield and damage HP instead of leaving it up."
+    },
+    "passives.1.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "passives.1.effect": {
+      "sourceHash": "dc97b9d63f8956c7aa8a7f48dd4502af29fddebd679a10122eb926439d27eedf",
+      "text": "For cumulative Preservation Count consumed during battle:\n- Gain 1 Le Noir: Worsted per 3 consumed.\n- Gain 1 Preservation per 10 consumed.\n\nAt 3 or more Preservation Potency, maximum Preservation Count +5.\n\nCondense, gather power, and hold it in place. Keeping something unchanged can require more force than changing it."
+    },
+    "passives.1.condition": {
+      "sourceHash": "c05bd64908d674b0aab40272d395154fc173e83002fd9314e6b5476a5806009c",
+      "text": "Cumulative Preservation Count consumption"
+    },
+    "passives.1.response": {
+      "sourceHash": "8b8df03b901e0152d479b910ac3ed8b87f473b36fb8c504e710e2d053ebb01a9",
+      "text": "Every 10 Count consumed adds Potency. Check buff progression even immediately after Count is spent."
+    },
+    "passives.2.name": {
+      "sourceHash": "c810594d1dd4ab819ca4ca7372b5923c2d263059ef7869ea032d16d44b3fb9d7",
+      "text": "Unleash the Condensed"
+    },
+    "passives.2.effect": {
+      "sourceHash": "3f3112598a46bffb0f8e7570e4c056edc39c58a6d097ac51ccb33112d7a0c491",
+      "text": "At Turn Start with 3 Preservation Potency and at least 10 Count, use a powerful skill.\n\nPower gathered in one place to hold something still will eventually burst out."
+    },
+    "passives.2.condition": {
+      "sourceHash": "c5b628f6fcf5c48c54e06aa4242f1d1ea2bc906d6cdf843b2804fbd29ccea8df",
+      "text": "At Turn Start: 3 Preservation Potency and at least 10 Count"
+    },
+    "passives.2.response": {
+      "sourceHash": "e3af063080e32d93c7c61e11ef356322d52d7345c57229f7f3120cd1a1872a6e",
+      "text": "Save high Clash Power for the extra-slot area skill."
+    },
+    "passives.3.name": {
+      "sourceHash": "63a8f5e3071494df74f1cbd5bf1a819f8abebf0c34d90c6aa0f5ca16c8a9a6d5",
+      "text": "Conservation-Conversion Paradox"
+    },
+    "passives.3.effect": {
+      "sourceHash": "a4ebc94c1de28222fb33201349423b6d57f7cbb40182aaecfbacf72a31c03456",
+      "text": "When hit by a Sinner while Shielded, gain 1 Preservation Count.\n- At 3/5 Preservation Potency, gain 2/3 Count instead.\n\nIf a Shield remains at Turn End, gain 1 Preservation Count and 1 Defense Level Up next turn per Preservation Potency (max 3 each).\n\nConvert outside forces that would cause change into a force for self-preservation.\n\nA world where, however much one wishes to remain unchanged and still, something must always change."
+    },
+    "passives.3.condition": {
+      "sourceHash": "e86a45a0d5242c91ba0abb6fd368b7f183c615e535d813ae8ac681b914916da3",
+      "text": "Taking hits while Shielded; Turn End"
+    },
+    "passives.3.response": {
+      "sourceHash": "528541d0f20797480adbdca9d8c9aca14bf7d25a400467baed406c1b8fdf3b64",
+      "text": "A remaining Shield strengthens Count and defense. Do not prolong the fight using only small attacks."
+    }
+  },
+  "messages": {
+    "boss-copy:fourleg": "complete",
+    "【リンバス】10-04 フォーレグ（10章A）の攻略｜Limbus Assistant": "10-04 Four-legs (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「フォーレグ（10章A）」の攻略。保存威力が上がり切る前にバリアを崩して攻める。広域乱射が出たら強い技でマッチに勝ち、ダメージ半減と混乱しない効果を得る。撃破後はワンレグと連戦になる。": "Four-legs (Canto X A) guide for Limbus Company 10-04. Break the Shield and attack before Preservation Potency builds up. Win against the powerful Unfocused Volley for halved damage and Stagger prevention. Defeating Four-legs leads directly into One-leg.",
+    "10-04 フォーレグ（10章A）": "10-04 Four-legs (Canto X A)",
+    "10-04「Sisyphus Department Store A, 4F: Shoes Floor, First Battle」": "10-04 · Sisyphus Department Store A, 4F: Shoes Floor, First Battle",
+    "フォーレグの外見": "Four-legs appearance",
+    "フォーレグのスキル": "Four-legs skills",
+    "Four-legsの外見": "Four-legs appearance",
+    "Four-legsのスキル": "Four-legs skills"
+  }
+}

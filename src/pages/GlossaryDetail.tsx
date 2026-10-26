@@ -1,4 +1,7 @@
 import { Navigate, useParams } from "react-router-dom";
+import { useContext } from "react";
+import { LanguageContext, translateText } from "../i18n/text";
+import { languagePath } from "../i18n/path";
 import { Link } from "../components/Link";
 import { getGlossaryTerm, glossarySectionRedirect, GLOSSARY_CATEGORIES } from "../glossary";
 import { TermCard } from "./GlossaryPage";
@@ -8,10 +11,11 @@ import { keywordPageForGlossary } from "../keywordPages";
 import "./glossary.css";
 
 export default function GlossaryDetail() {
+  const language = useContext(LanguageContext);
   const { id = "" } = useParams<{ id: string }>();
   const term = getGlossaryTerm(id);
   const redirect = glossarySectionRedirect(id);
-  if (redirect) return <Navigate to={redirect} replace />;
+  if (redirect) return <Navigate to={languagePath(redirect, language)} replace />;
   if (!term) return (
     <div className="container section">
       <h1 className="section-title">用語が見つからない</h1>
@@ -33,12 +37,12 @@ export default function GlossaryDetail() {
       <header className="dictionary-heading">
         <p className="kicker">GLOSSARY / {GLOSSARY_CATEGORIES[term.category]}</p>
         <h1 className="persona-title">{term.name}</h1>
-        <p className="persona-ruby">{term.reading}</p>
+        {language === "ja" && <p className="persona-ruby">{term.reading}</p>}
         <div className="persona-tags">
           <span className="tag tag-muted">{GLOSSARY_CATEGORIES[term.category]}</span>
-          {keywordPage && <Link className="tag tag-link" to={`/keywords/${keywordPage.id}`}>{keywordPage.keyword}人格一覧</Link>}
+          {keywordPage && <Link className="tag tag-link" to={`/keywords/${keywordPage.id}`}>{`${keywordPage.keyword}人格一覧`}</Link>}
         </div>
-        <p className="term-aliases">関連する表記・検索語：{term.aliases.join("・")}</p>
+        {term.aliases.length > 0 && <p className="term-aliases">関連する表記・検索語：{language === "en" ? translateText(`glossary-aliases:${term.id}`, language) : term.aliases.join("・")}</p>}
       </header>
       <section className="guide term-summary" aria-labelledby="term-summary-title">
         <h2 id="term-summary-title" className="guide-heading">ひとことで</h2><p>{term.summary}</p>
@@ -60,7 +64,7 @@ export default function GlossaryDetail() {
         </nav>
         <div className="term-abilities">
           {term.sections.map((section) => <section key={section.id} id={section.id} className="term-ability" aria-labelledby={`${section.id}-title`}>
-            <header className="term-ability-heading"><h3 id={`${section.id}-title`}>{section.name}</h3><span>{section.reading}</span></header>
+            <header className="term-ability-heading"><h3 id={`${section.id}-title`}>{section.name}</h3>{language === "ja" && <span>{section.reading}</span>}</header>
             <p className="term-ability-summary">{section.summary}</p>
             {section.explanation.map((text) => <p key={text}>{text}</p>)}
             <ul>{section.cautions.map((text) => <li key={text}>{text}</li>)}</ul>

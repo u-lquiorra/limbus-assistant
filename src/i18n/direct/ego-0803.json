@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0803.md",
+  "code": "0803",
+  "messages": {
+    "最大威力41の高威力で火傷を撒き、解析Ⅳで加重値3の広域になる、憤怒貫通の火傷E.G.O。": "A Wrath Pierce Burn E.G.O that spreads Burn with high power up to 41 and becomes a 3-Attack-Weight multi-target attack at Threadspin Ⅳ.",
+    "高威力: 1コインでマッチ威力14〜36(解析Ⅲは19〜41)。基本威力が低いので、裏面が出ると威力が大きく落ちる。": "**High power**: A single Coin with Clash Power 14–36 (19–41 at Threadspin Ⅲ). Its Base Power is low, so power drops sharply on Tails.",
+    "火傷の付与: 的中時に憤怒共鳴数÷2(解析Ⅲは憤怒共鳴数)の火傷を付与。表面的中時(解析Ⅳは表面攻撃終了時)にはランダムな敵3名へ火傷3(解析Ⅳは5)を付与する。": "**Inflicting Burn**: On hit, inflicts Burn equal to Wrath Resonance ÷ 2 (Wrath Resonance at Threadspin Ⅲ). On Heads Hit (at the end of a Heads attack at Threadspin Ⅳ), inflicts 3 Burn (5 at Threadspin Ⅳ) on 3 random enemies.",
+    "混乱区間前進: 解析Ⅲから、表面的中時にダメージ量の40%分、混乱区間を進める。": "**Stagger Threshold shift**: From Threadspin Ⅲ, shifts the Stagger Threshold by 40% of the damage dealt on Heads Hit.",
+    "飛び散る火花: 火傷のある敵への攻撃的中時、ランダムな敵3名に火傷1を付与する。複数コインの火傷人格と併用すると効く。": "**Passive — Shower of Fire**: When an attack hits an enemy with Burn, inflicts 1 Burn on 3 random enemies. It works well alongside multi-Coin Burn Identities.",
+    "最後方狙い: 一般戦闘では最後方の対象を攻撃するため、味方のマッチ順が変わる。": "**Targets the rearmost**: In regular battles, it attacks the rearmost target, changing allies' Clash order.",
+    "憤怒共鳴を稼げる火傷編成で、精神力が高い状態で撃つ。精神力が低いと裏面が出やすく、基本威力の低さが響く。": "Use it with high SP in a Burn team that can build Wrath Resonance. With low SP, Tails becomes more likely and its low Base Power hurts.",
+    "解析Ⅲで威力が揃い、マッチ目的ならここで十分。広域で火傷を撒くなら解析Ⅳが必要。": "Its power is complete at Threadspin Ⅲ, which is enough for Clashing. To spread Burn across multiple targets, Threadspin Ⅳ is required.",
+    "侵蝕スキルは打撃で、使用時に体力を最大値の10%減らし、敵味方全員に火傷を付与する。": "The Corrosion skill is Blunt, costs 10% of her max HP on use, and inflicts Burn on every ally and enemy.",
+    "Ⅱ: 「飛び散る火花」が解放される。": "**Ⅱ**: Unlocks Shower of Fire.",
+    "Ⅲ: 基本威力が14から19になり、混乱区間前進が付く。火傷が憤怒共鳴数ぶんに増える。": "**Ⅲ**: Base Power goes from 14 to 19, and the Stagger Threshold shift is added. Burn increases to Wrath Resonance.",
+    "Ⅳ: 攻撃加重値が3になって広域化し、ランダム3名への火傷が5に増える。": "**Ⅳ**: Attack Weight becomes 3 for multi-target attacks, and the Burn on 3 random enemies increases to 5.",
+    "南部リウ協会4課: S1(色欲)・S2(憤怒)・S3(嫉妬)で必要資源をすべて出せ、全スキルが火傷を付与する。": "**[Liu Assoc. South Section 4](persona:0806)**: S1 (Lust), S2 (Wrath), and S3 (Envy) supply all required affinities, and all of her skills inflict Burn.",
+    "南部シ協会5課: S1(嫉妬)・S2(色欲)・S3(憤怒)で必要資源を出せ、体力50%未満で強化されるスキルを侵蝕スキルの体力減少で活かせる。": "**[Shi Assoc. South Section 5](persona:0803)**: S1 (Envy), S2 (Lust), and S3 (Wrath) supply the required affinities, and the Corrosion skill's HP cost helps power up her skills that strengthen below 50% HP."
+  }
+}

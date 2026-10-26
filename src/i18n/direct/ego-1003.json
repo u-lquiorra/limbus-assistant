@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1003.md",
+  "code": "1003",
+  "messages": {
+    "敵味方を問わず体力の低い順に当て、味方には回復・クイック・資源獲得量+1を配る、解析Ⅴ前提の支援特化E.G.O。": "A support-specialized E.G.O, assuming Threadspin Ⅴ, that hits targets in order of lowest HP regardless of side and hands allies healing, Haste, and +1 E.G.O Resource Amp.",
+    "体力の低い順に攻撃: 現体力が最も低い対象を狙う広域(加重値7)。味方に当たるとダメージは0で、守備スキルも発動しない。基本は一方攻撃になる。": "**Attacks in order of lowest HP**: A multi-target attack (7 Attack Weight) aimed at the targets with the lowest current HP. Allies it hits take 0 damage, and their Defense skills do not trigger. It is basically a one-sided attack.",
+    "味方への回復と補助: 的中した味方を、的中人数ぶん(1人5%、最大20%)だけシンクレアの最大体力を基準に回復し、次のターンに資源獲得量+1とクイック2を付ける。": "**Healing and support for allies**: Allies hit are healed based on Sinclair's max HP by an amount per number of allies hit (5% per ally, up to 20%), and receive +1 Resource Amp and 2 Haste next turn.",
+    "資源の回収: 資源獲得量+1で味方が次ターンに得る資源が増え、人数と行動数しだいで、消費した資源を取り返せる。": "**Recovering resources**: With +1 Resource Amp, allies gain more resources next turn, and depending on the number of allies and actions, it can recover the resources spent.",
+    "裏面の火傷: 裏面的中時に火傷7を付与する。味方に当たると味方にも付く点に注意。": "**Burn on Tails**: Inflicts 7 Burn on Tails Hit. Note that allies hit also receive it.",
+    "パッシブ「シチュー噴出」: 火傷を付与する基本攻撃スキルでは、加算コインなら精神力40未満で4回復、40以上でダメージ量+10%。減算コインは-25より高いと4減少、-25以下でダメージ量+10%。": "**Passive — Stew Spewage**: For basic attack skills that inflict Burn: with Plus Coins, restores 4 SP below 40 SP, or +10% damage at 40 or more. With Minus Coins, loses 4 SP above −25, or +10% damage at −25 or below.",
+    "味方を多く巻き込める場面で撃つ。低体力の敵が多いと味方に飛ばず、人数が少ないと回復も落ちる。": "Fire it when it can catch many allies. With many low-HP enemies, it does not reach allies, and with few allies hit, the healing also drops.",
+    "次ターンは増えた資源でE.G.Oを撃つ流れが基本。": "The basic flow is to use the increased resources next turn to fire E.G.O.",
+    "必要資源は憤怒3・色欲2、精神消耗は覚醒15。侵蝕は資源を追加で消費して火力を出すが、体力最低の味方を巻き込みやすいので、侵蝕させない精神管理が要る。": "It requires 3 Wrath and 2 Lust, with an Awakening Sanity cost of 15. Corrosion spends extra resources for damage but tends to catch the lowest-HP ally, so manage SP to avoid Corrosion.",
+    "Ⅱ: 裏面的中時の火傷1のみ。単独では弱い。": "**Ⅱ**: Only 1 Burn on Tails Hit. Weak on its own.",
+    "Ⅲ: 威力と回復量が増え、資源獲得量+1が付く。": "**Ⅲ**: Increases power and healing, and adds +1 Resource Amp.",
+    "Ⅳ: 加重値が3から7になる。": "**Ⅳ**: Attack Weight goes from 3 to 7.",
+    "Ⅴ: 全的中で回復・資源獲得量+1・クイック2が確定し、自分の精神力と体力も回復する。パッシブに精神増減が加わり、侵蝕も強化される。実用はここから。": "**Ⅴ**: All hits guarantee healing, +1 Resource Amp, and 2 Haste, and he also recovers his own SP and HP. The passive gains SP changes, and Corrosion is strengthened. This is where it becomes practical.",
+    "夜明事務所フィクサー: S1・S3が火傷を付与し(S2は回数増加)、S3(憤怒)と守備(色欲)で必要資源も出せる。": "**[Dawn Office Fixer](persona:1009)**: S1 and S3 inflict Burn (S2 increases Count), and S3 (Wrath) and his Defense skill (Lust) supply the required affinities.",
+    "東部親指ソルダートII: S1(色欲)・S3(憤怒)で必要資源を出せ、火傷も付与する。": "**[The Thumb East Soldato II](persona:1013)**: S1 (Lust) and S3 (Wrath) supply the required affinities, and he also inflicts Burn."
+  }
+}

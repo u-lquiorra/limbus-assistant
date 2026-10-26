@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0807.md",
+  "code": "0807",
+  "messages": {
+    "敵の沈潜と憂鬱共鳴で回復量が伸びる、体力の低い味方2名を回復する沈潜編成向けの憂鬱斬撃E.G.O。": "A Gloom Slash E.G.O for Sinking teams that heals the 2 allies with the lowest HP, with healing that grows with the enemy's Sinking and Gloom Resonance.",
+    "味方の回復: 攻撃後、体力比率が最も低い味方2名を、体力最大値の(5+メインターゲットの沈潜と沈潜回数の合計÷3)%回復する(最大15%)。解析Ⅲで基礎が10%に、解析Ⅳで最大が20%に上がる。": "**Healing allies**: After the attack, heals the 2 allies with the lowest HP ratio by (5 + main target's combined Sinking and Sinking Count ÷ 3)% of their max HP, up to 15%. The base rises to 10% at Threadspin Ⅲ, and the cap to 20% at Threadspin Ⅳ.",
+    "沈潜の上乗せ: 的中時に沈潜回数が2(解析Ⅳは3)増える。回復は攻撃後に計算されるので、自分の的中ぶんも回復量に乗る。": "**Adding Sinking**: Sinking Count increases by 2 on hit (3 at Threadspin Ⅳ). Healing is calculated after the attack, so her own hits also count toward it.",
+    "共鳴で広域化: 最大共鳴が4以上なら加重値+1。解析Ⅲから、それが憂鬱共鳴ならさらに+1。解析Ⅳでは憂鬱共鳴4以上で回復量が体力最大値の10%増える。": "**Multi-target through Resonance**: +1 Attack Weight if the highest Resonance is 4 or more. From Threadspin Ⅲ, +1 more if that Resonance is Gloom. At Threadspin Ⅳ, 4 or more Gloom Resonance increases healing by 10% of max HP.",
+    "招聘されざる者: 的中時に付与(最大2)。沈潜1につき被ダメージが0.5%増える(最大10%)。呪いも付与する。": "**The Uninvited**: Inflicted on hit, up to 2. The bearer takes 0.5% more damage per Sinking, up to 10%. It also inflicts Curse.",
+    "招かざる客の出迎え: 対象に招聘されざる者かパニックタイプ変更効果があれば、マッチ威力+1。的中時、精神力が最も低い味方の精神力を5回復する(1ターン1回)。": "**Passive — Interloper Reception**: +1 Clash Power if the target has The Uninvited or a Panic Type change effect. On hit, restores 5 SP to the ally with the lowest SP, once per turn.",
+    "沈潜を付ける人格で敵に沈潜を積んでから撃つと、回復量が伸びる。": "Firing it after Sinking Identities have stacked Sinking on the enemy increases the healing.",
+    "憂鬱の資源と共鳴を揃え、解析Ⅲ以降の加重値と回復量の増加を狙う。": "Gather Gloom resources and Resonance to aim for the Attack Weight and healing increases from Threadspin Ⅲ.",
+    "侵蝕スキルは使用時に体力を最大値の10%減らし、解析Ⅲから、次のターンに解析Ⅲから、次のターンに邸宅の木霊を付与する。通常は覚醒を使う。": "The Corrosion skill costs 10% of her max HP on use, and from Threadspin Ⅲ inflicts Echoes of the Manor next turn. Normally, use Awakening.",
+    "Ⅱ: 「招かざる客の出迎え」が解放される。": "**Ⅱ**: Unlocks Interloper Reception.",
+    "Ⅲ: 回復の基礎値が上がり、憂鬱共鳴で加重値が増える。憂鬱共鳴4以上で憂鬱脆弱も付く。": "**Ⅲ**: Raises the healing base value, and Gloom Resonance increases Attack Weight. At 4 or more Gloom Resonance, it also inflicts Gloom Fragility.",
+    "Ⅳ: 回復の最大値が20%に上がり、沈潜回数が3、呪いが2になる。": "**Ⅳ**: Raises the healing cap to 20%, Sinking Count to 3, and Curse to 2.",
+    "奥歯ボートセンターフィクサー: S2(怠惰)・S3(憂鬱)で必要資源を出せ、S2・S3が沈潜を付与し、S1は沈潜回数を増やす。": "**[Molar Boatworks Fixer](persona:0807)**: S2 (Sloth) and S3 (Gloom) supply the required affinities, S2 and S3 inflict Sinking, and S1 increases Sinking Count.",
+    "エドガー家 バトラー: S1(怠惰)・S3(憂鬱)で必要資源を出せ、沈潜を付与するスキルが多い。": "**[Edgar Family Butler](persona:0809)**: S1 (Sloth) and S3 (Gloom) supply the required affinities, and she has many skills that inflict Sinking."
+  }
+}

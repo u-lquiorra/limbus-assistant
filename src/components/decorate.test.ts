@@ -29,3 +29,9 @@ test("decorate: 長い用語を優先し、timing=false ではタイミング表
   const html = render("代行 [ヘルメス] 解禁 - III", [{ term: "解禁", desc: "a" }, { term: "解禁 - III", desc: "b" }], false);
   assert.match(html, /代行 \[ヘルメス\] <button[^>]*>解禁 - III<\/button>/);
 });
+
+test("decorate: 英語の発動タイミングを装飾し、正式名の角括弧を保持する", () => {
+  const html = render("[On Use] Procuration [Hermes]; Crescent Decapitator [黑風馬脚月斬]", []);
+  assert.match(html, /<span class="fx-timing">On Use<\/span>/);
+  assert.match(html, /Procuration \[Hermes\]; Crescent Decapitator \[黑風馬脚月斬\]/);
+});

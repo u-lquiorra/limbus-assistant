@@ -1,0 +1,874 @@
+{
+  "kind": "boss-copy",
+  "id": "kromer",
+  "source": "src/data/bosses/kromer.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "苦痛を受け容れよ！",
+          "en": "You Must Accept the Pain!",
+          "file": "Passives_Abnormality.json",
+          "id": "802903"
+        },
+        {
+          "ja": "苦痛を受け容れよ！",
+          "en": "Accept the Pain!",
+          "file": "Bufs.json",
+          "id": "Cromer_Boredom"
+        },
+        {
+          "ja": "懺悔せよ！！",
+          "en": "Repent!!",
+          "file": "Skills_Abnormality.json",
+          "id": "803009"
+        },
+        {
+          "ja": "恐怖に打ち勝つ勇気",
+          "en": "Courage to Triumph Fear",
+          "file": "Passives_Abnormality.json",
+          "id": "802902"
+        }
+      ]
+    }
+  },
+  "scopedPaths": [
+    "passives.0.name",
+    "passives.1.name",
+    "mechanics.2.name",
+    "lead"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "8ce3f55b387b5d5df3c54b9f66d8e6d84a87505b0f58bb58e4d4c015368bf51c",
+      "text": "Kromer"
+    },
+    "shortName": {
+      "sourceHash": "8ce3f55b387b5d5df3c54b9f66d8e6d84a87505b0f58bb58e4d4c015368bf51c",
+      "text": "Kromer"
+    },
+    "stageName": {
+      "sourceHash": "be0a11d8a54d1b0b960a8523dc62a7b765f3fa9a34a468d4118fe515602e66a5",
+      "text": "K-02 Branch: Final Battle"
+    },
+    "statNote": {
+      "sourceHash": "f6036a39d61d0fd4e480c18929e0e739d1d9381916f0eb1a6450dbb6d49a3906",
+      "text": "Covers both halves of the Canto III dungeon encounter. Main-body and Part HP are listed separately, and these stats and passives are distinct from the Mirror Dungeon version."
+    },
+    "lead": {
+      "sourceHash": "6eace6a9c87f55bff6f141eed3076c700edf84f2fb27f48788fa0c48c1fbe4d1",
+      "text": "The key is collecting A Sign in the dungeon and winning Clashes against dangerous skills. Handle Gaze in the first half; in the second, Stagger and break the Maw to reduce enemy attacks."
+    },
+    "priorities.0": {
+      "sourceHash": "fccdc9d39b4ea1952b70e95f301005146a6fe4b5532cdf5445a75182f64cc7fb",
+      "text": "Collect 3 copies of A Sign in the dungeon to suppress healing and bonuses triggered by Bleed and Burn."
+    },
+    "priorities.1": {
+      "sourceHash": "50f3369a767280e0737a4187874d886ecb52c9ec641096bab10163a250d93243",
+      "text": "Reserve a skill that can beat I Shall Claim Your Life! Winning Staggers the enemy and creates a damage opening."
+    },
+    "priorities.2": {
+      "sourceHash": "80be67f4488460a0438c7c709d4aa69ab44c8e600c5d7285d494d349814e6c5f",
+      "text": "In the second half, aim to Stagger and break the Maw. Do not allow the instant-kill hit to land on an ally below 30% HP."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "9f5f94f43c9b47ba6aadfa8e932a3314cf39ab4e9c10d72b0138e3f9ca25affc",
+      "text": "The enemy keeps healing every turn"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "5de9a007dec46b2e49cd2030c2f87abf5b35fe7b71f1da86c9e04bb196ff5663",
+      "text": "The passive reacts to Bleed and Burn. Check how many copies of A Sign you have. With 3, its healing and Power increase are disabled, so Bleed and Burn Identities are not categorically unusable in this fight."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "b30649a5fe106be3a241715026ec0468a4eefe3e26d1e43447033f717bde9be1",
+      "text": "An ally suddenly becomes Staggered and focused down"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "759424009c2dbb0c2d535122f27ccf313f039306876c0308e326bf2dcfa4d52e",
+      "text": "Check the Gaze applied by The Gripping in the first half. It is applied at Combat Start and is not removed merely by winning the Clash. Prepare faster allies to redirect attacks next turn."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "34ad8d17a3341d9bb22cb521da41b639113d96a078ba3c5e8769fa33fc6c1a9b",
+      "text": "An ally died instantly despite having HP remaining"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "e459d0b387c36496adc64bf1e45c07c1f8181bb5599b405fd3f12d574b3aecfd",
+      "text": "In the second half, Honorable Grip instantly kills a target below 30% HP on a Heads hit. Heal them or have another Sinner take the Clash to prevent the hit."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "80d88a5df9de7f6082c2b5e5b6cbd16200f3b8a09c432dc4cf80770d75b44ce9",
+      "text": "I thought I had won, but the enemy changed forms"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "31051c87db2d520ab4aaee8d399dacb722a69352b823e6ab96fab8f47af87a0e",
+      "text": "Depleting the first half's HP starts the second half. Do not spend all E.G.O resources and strong skills in the first half; save some for the Maw's dangerous attacks."
+    },
+    "units.0.name": {
+      "sourceHash": "58abb128967f4b8934b003a8c3fb17c4de747a18126544d8c2c23867cba3a564",
+      "text": "Kromer (First Half)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "215fcd7aaeb1a1ffa312ebdf76236b91d447b89fe5ef95569ba58d608b11e844",
+      "text": "Main body 668 / Body 688 (listed values)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "7dfb7c483fe7d51998bc429d6069a529bbe678cba8ddad27a3173d41127cda49",
+      "text": "40% Body HP (275)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "4c57ea78caa4ece5d67f2a8883544ea47d9546fdb352e01fc1f9432d02f35b04",
+      "text": "Main-body and Body HP are listed differently, so both values are shown. Check the targeted Part's HP and Stagger Threshold in battle."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "55cdbfced33847753d2d45ebb333af2640be4875b8f6791c6dfd0ab61bcd58e9",
+      "text": "HP stops at 1 even after being depleted; the second half begins after Turn End."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "4491642cb750d65d3b30b4960a074d1dcdbbded3a0b803b5bb47b5e05fa87145",
+      "text": "Has no SP. Do not treat her like a humanoid enemy whose Coin odds change when SP is lowered."
+    },
+    "units.1.name": {
+      "sourceHash": "c73f364d9eb70cb7788c6abd54e39ddd1414147461a6604cd5ce34701c2e02d0",
+      "text": "Kromer the Dreamer of Human Wholeness — Maw"
+    },
+    "units.1.part": {
+      "sourceHash": "7b8ac1cbe5e20ab4774ec05f6bf871e271faaa4b61bf80b41e9bcd13db00d75b",
+      "text": "Maw"
+    },
+    "units.1.hp": {
+      "sourceHash": "4aa396c6f3bd4772139961291d568ad7ba5b0b2028582529719a09c37d043cb5",
+      "text": "Main body 778 / Maw 451"
+    },
+    "units.1.stagger": {
+      "sourceHash": "7b5d2f32767b53947eda375a40d9ce3a7867c2de7e6a0965f5e765cf3d7dc184",
+      "text": "70% / 30% Part HP (316 / 135)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "c4ea58f258591a299dcd5a720c19674e828fbba9363c258317c27d6bb9a0c07c",
+      "text": "The Maw remains targetable after destruction but stops using skills, reducing dangerous area and instant-kill attacks."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "b1a2f22757fb133586593eb15d67acd383d4e12e8b03262684c1870e16e3e8b4",
+      "text": "During Ecstatic, the Maw's physical resistances become Fatal. Staggering the Maw can end Ecstatic."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "6be951cb154a8b34ae82b03874d671d8164b85bea40ee90fe559ce1d9c44d79b",
+      "text": "Purity below 50% main-body HP makes all physical resistances Fatal and lowers Speed, but increases damage dealt."
+    },
+    "units.2.name": {
+      "sourceHash": "ff15931a4e975336c77be6f27446e05efc3a7bee72bec361b3a80813eeeb4b4e",
+      "text": "Kromer the Dreamer of Human Wholeness — Right Arm"
+    },
+    "units.2.part": {
+      "sourceHash": "8bde89d9cfa1060d05ea3ef40a002029f4e1572e6cf933d3ec0f7f82ec2f9153",
+      "text": "Right Arm"
+    },
+    "units.2.hp": {
+      "sourceHash": "e393916dd465d96d69473325619899acd98c23ead78bfc5b7e5dd7a723b11e67",
+      "text": "259 (shares 778 main-body HP)"
+    },
+    "units.2.stagger": {
+      "sourceHash": "1237c38b644a3004787e63d07b432f640d5c3fb01fd75c14866e97e9b6464ed9",
+      "text": "70% / 30% Part HP (181 / 78)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "482ca0589544092c34dc1f0bd74b8b5e8b108c7d5a0be8853a2af6df0a8a1e9f",
+      "text": "Remains targetable and continues acting after destruction. Breaking an arm does not stop all its skills as breaking the Maw does."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "87d0f613c4e61eaa928d25a89edf7a57b9baaf87043f90d5fef8649c027e8af7",
+      "text": "Breaking one arm can replace a flapping skill with a weaker attack. Continue checking the actual displayed skills after destruction."
+    },
+    "units.3.name": {
+      "sourceHash": "07b1e2b6a7586336c2471b5de1d4e63993f6f25baa63407428da58b191967d05",
+      "text": "Kromer the Dreamer of Human Wholeness — Left Arm"
+    },
+    "units.3.part": {
+      "sourceHash": "00da7cbe13ff32155a78004af52ce9358e14f81acc8bbc53621e869be0addf84",
+      "text": "Left Arm"
+    },
+    "units.3.hp": {
+      "sourceHash": "e393916dd465d96d69473325619899acd98c23ead78bfc5b7e5dd7a723b11e67",
+      "text": "259 (shares 778 main-body HP)"
+    },
+    "units.3.stagger": {
+      "sourceHash": "1237c38b644a3004787e63d07b432f640d5c3fb01fd75c14866e97e9b6464ed9",
+      "text": "70% / 30% Part HP (181 / 78)"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "482ca0589544092c34dc1f0bd74b8b5e8b108c7d5a0be8853a2af6df0a8a1e9f",
+      "text": "Remains targetable and continues acting after destruction. Breaking an arm does not stop all its skills as breaking the Maw does."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "87d0f613c4e61eaa928d25a89edf7a57b9baaf87043f90d5fef8649c027e8af7",
+      "text": "Breaking one arm can replace a flapping skill with a weaker attack. Continue checking the actual displayed skills after destruction."
+    },
+    "phases.0.timing": {
+      "sourceHash": "d35701b728e9fa8f7facbada36389f35554167a85516841e5a8025b227577642",
+      "text": "Before entering the boss fight"
+    },
+    "phases.0.title": {
+      "sourceHash": "d4fcc658e3620fbe86d1534357a71ec1d99c1b221b0d0989aac92c793dd99aa6",
+      "text": "Collect A Sign and prepare HP and resources"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "2a391453b88357ebaeef96785a42bdc5feb3f1bb6de399e5f13b96bbc424023a",
+      "text": "Collect 3 copies of A Sign while exploring the dungeon. This suppresses the enemy's healing and Power increase triggered by Bleed and Burn."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "f7af64b772838e12ca2b615b8b63737d86f9893b22fb3a04fd573d6e97be8872",
+      "text": "Aim for core Sinners around Lv. 30 and check their Uptie Ⅲ skills. Restore low-HP Sinners at recovery points and enter the final battle with E.G.O resources remaining."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "6d7b26cce98db5f5ad4256ec98aaeb34179bf93a8d7ca2db9844de0bd3c9c41d",
+      "text": "Without enough Signs, skills that inflict Bleed or Burn allow healing and bonuses next turn. Review Sign collection before replacing your entire team."
+    },
+    "phases.1.timing": {
+      "sourceHash": "56d0ea1986a0f936920005ab97399153870fec9c6c3a0333bf2d4b19030f86d5",
+      "text": "First half / Gaze and Purify"
+    },
+    "phases.1.title": {
+      "sourceHash": "f35f9b83bf6bc1cfd4ff7388a31462c7a5b4dc0a81269feb2f60d57f3e7bcee9",
+      "text": "Prevent attacks from reaching Staggered allies"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "117dfc786e2a41f002bcb311d905039ecf1cd734145ef505d22d50190ac26015",
+      "text": "The Gripping applies Gaze for next turn at Combat Start. The target becomes Staggered and takes more damage, so check next turn's incoming attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "2d753f838ce0b17d172eb25558cbbd37e24b48f758324298d3413bc40a8aecb1",
+      "text": "Cackle reduces SP by 10 On Use. Winning the Clash does not prevent all SP damage, and Plus Coin predictions may also become less reliable."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "b8f631e2ae3dc41cbed719a30b5931dda14c5e5347f6438b173815d827d04b9c",
+      "text": "Have a faster Sinner who can win redirect Purify and attacks aimed at allies with Gaze. Stacked Nails can also force Stagger, so stop dangerous skills with strong skills or E.G.O."
+    },
+    "phases.2.timing": {
+      "sourceHash": "42f0c6c5e15d32a86097e778135de5699d8d639be413143b4da17f1ed4231713",
+      "text": "First half / I Shall Claim Your Life!"
+    },
+    "phases.2.title": {
+      "sourceHash": "1b98f82b252eb81b322a4d9b30d579807bfa1098cb164410fcecf884407dee67",
+      "text": "Win to Stagger her and clear the first half"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "98f19c16109b211214b5b851863480139197b0802d07ef3d871cf95918702012",
+      "text": "Kromer becomes Staggered if she loses the Clash with I Shall Claim Your Life! Reserve a high-Power skill or E.G.O that can beat it."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e15014b5c3924d711ce4b742a80afbfa4554aef80fe03dffc181b9077223d0d2",
+      "text": "If possible, let a faster Sinner take the Clash so other attackers hit after she becomes Staggered. Check Speed and actual predictions to confirm attack order."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "ffdde667f5689aca778ad4ba01a162a2e0dc14cf48c7c2b7e44fb5eb8340cc00",
+      "text": "The second half follows even after depleting the first half's HP. Exploit the Stagger window while retaining necessary E.G.O resources and HP."
+    },
+    "phases.3.timing": {
+      "sourceHash": "d09eb2cf9ad23dd7ac7f713f9b16b5089542cb3440dbfff9758633d584c18326",
+      "text": "Second half / Maw and arms"
+    },
+    "phases.3.title": {
+      "sourceHash": "a9c2b5ce0b5fbeeab909625dcf731d76b26b8abd2a66ee3728fcc50c97e85214",
+      "text": "Stagger and break the dangerous Maw"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "9cefa6a853958e9bfda5a5b6b6d9234c1f053077246d50ed941a6f7c6f01b5dc",
+      "text": "Pierce is effective against the Maw. Focus on it while handling dangerous attacks, aiming to Stagger and break it. Also stop arm attacks where practical, since their Paralyze and Bind disrupt later Clashes."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "010ccb032addc724590df7b4ca1421f66b9d3118b1302d38a847e2aa8fc7d824",
+      "text": "Ecstatic weakens the Maw's physical resistances. Staggering it creates an opening to stop attacks; judge by displayed skills and status rather than a fixed turn alone."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "11e79c9a5d6e10f78aefb55f692aabf6e7a0534bd9cc15917f3445c5299aaf82",
+      "text": "Do not let Honorable Grip hit an ally below 30% HP. Heal or redirect to prevent instant death."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "1ebc2c5ad5152577c26b088020e90709a394a0e3268801932900c81b4546ed2b",
+      "text": "Repent!! is a strong area attack with 5 Attack Weight. If the Maw cannot be broken first, Clash with a high-Power skill."
+    },
+    "phases.4.timing": {
+      "sourceHash": "ef41cf3d1f8565ead99159411cc83d39a3cf4a59165c3e5e5ed8b67506118e1b",
+      "text": "Below 50% main-body HP to the finish"
+    },
+    "phases.4.title": {
+      "sourceHash": "bbbca22a8e2929aad9b6c6c57fc29ca66361402953627024f35e5fae960c4398",
+      "text": "Exploit Purity's weaknesses and finish through the event"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "9968d2727053fb6a85449b96457dfec91f5990b7a4fa2ad4993299c0ab022910",
+      "text": "Purity makes all Parts' physical resistances Fatal and grants 3 Bind and 3 Damage Up. It is an opening to attack, but the enemy's hits also become harder."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "0edce6b845f1b1902341bf53c27db9ad3acc30a54c3120922514fe1d47a535f8",
+      "text": "An event check occurs as HP falls. Passing the Wrath-favored check Staggers the enemy; choose a Sinner using the displayed success prediction. Failure reduces the selected Sinner's SP by 30."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "154af1fa676ca8b5dd66bde30aa61c75ae5edf94e7533fb7a649173c97bfe35b",
+      "text": "Main-body HP stops at 1 even after being depleted, and victory follows the Turn End event. Do not judge victory solely from Part HP."
+    },
+    "skills.0.name": {
+      "sourceHash": "a3aed4b35697f48a427a87cd4fedb619d0d809a0617727884edf77774e70a688",
+      "text": "Deep Thrust"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "cf10f87605fbf1a158b8350314aa61228c40f9d49757354f0d6390373fab9912",
+      "text": "Ⅱ：[On Hit] Inflict 6 Bleed next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "58338edeaf8beb144bb9b9fd12f7a7e59efe92ce418dc769cf982bb41166953b",
+      "text": "Leaves Bleed next turn. Stop it with a winning Clash to protect your main attackers' HP."
+    },
+    "skills.1.name": {
+      "sourceHash": "9ce54f7b5be27cc5cf559f83dc656c36a8c7f2342779e89135e2cf8b744add4f",
+      "text": "The Gripping"
+    },
+    "skills.1.label": {
+      "sourceHash": "9a9a33cb175b99b205725cd4d3502402b85f8eeac2ab1b18af54bd9fba80c7bb",
+      "text": "Gaze next turn"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "07974555127d874f41802837dc15b389be9957a7876e4bb58409efa2e30249df",
+      "text": "Ⅰ：[Combat Start] Inflict Gaze of the One Who Grips on the target next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "bb4d832df12f036fcc6ba3f334f8dffce9c53616e3fdf59e5d7554250b0056c6",
+      "text": "Its Combat Start effect cannot be prevented merely by winning the Clash. Prepare someone to protect the Sinner who will be Staggered next turn."
+    },
+    "skills.2.name": {
+      "sourceHash": "63f91b0b1a05a9a1d71fb7328c2f36a0708805b4cae6ed7af31ff7ee9bf1eee5",
+      "text": "Cackle"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "4e74ff750418bcc3bb614574c9268f567fe312660a8f07752cd6ce9dd5458e85",
+      "text": "[On Use] Deal 10 SP damage to the target."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "e92fa3a1172359dc602524bcba6027524f70183c54f7350cf05b61da5cb2c702",
+      "text": "Ⅰ：[On Heads Hit] Gain 1 Attack Power Up next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "01ffbf6b801e0695143059cfbe6f6de28cc2178f53e94696f0a0e94722ff51f4",
+      "text": "Account for SP loss before the Clash. Do not overtrust the win prediction if your main attacker already has low SP."
+    },
+    "skills.3.name": {
+      "sourceHash": "ec86d8c44049d27848224c125681c8e91a1abecb529f1791229d636c2514cf70",
+      "text": "Sin-skewering Nail"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "f22f1d3104f2b03018c0a671e422432cd4e4368b8c522f2f1d1798fd58f51ccd",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "3b18e84e7700d87ca04fe308f2da4b805cbc4202559fad8401eb4194d2d1f8b2",
+      "text": "Accumulated Nails enables Purify's Stagger condition. Do not let repeated hits land on your main attackers."
+    },
+    "skills.4.name": {
+      "sourceHash": "caa038872424cc7518dacdb4178bf6780c73da79c6bb1281fa5112d36c5e361c",
+      "text": "Purify"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "8b288eae694ed16047ce315a56b285ad9b69f26be9756462f2b51e6844aa2891",
+      "text": "[On Use] If the target is below 30% HP, gain +2 Skill Power."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "a1fb2e66b40725a7a87d4f4e987114e2707a6ad73609f758b1f2d972f3f1e588",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Inflict 1 Nails."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "0459227d22eac124cb6ea80a1c402cf2a7bc63300476543b8ed359dfc5c2fa45",
+      "text": "Ⅳ：[On Hit] If the target has at least 5 Nails, Stagger them and remove Nails."
+    },
+    "skills.4.response": {
+      "sourceHash": "d635e4fddea40b4b26494513263f1d8de5cf13d92fbae12989f429c9a91cb90c",
+      "text": "Has 4 Coins and a conditional Power increase. Redirect it away from low-HP allies or those with many Nails, then stop it with a high-Power skill or E.G.O."
+    },
+    "skills.5.name": {
+      "sourceHash": "20161ec00ce363d9b8adb125623d3886e95825edf26b709e76a188035a7b5163",
+      "text": "I Shall Claim Your Life!"
+    },
+    "skills.5.label": {
+      "sourceHash": "e178f5c731d6ca29a70117bd358bdf6a2a6f1b8383867eaaf266153cbee77869",
+      "text": "Winning Staggers the enemy"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "0a759522c58271132bfde90a5e2154f2fb6706034efbb24058de496245f05794",
+      "text": "[Clash Lose] Kromer becomes Staggered."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "fe24f7c7d0734f1ac83b84e450c14027ba5a02c1f8757757406bfd732a468df4",
+      "text": "Ⅰ：[On Hit] Stagger the target and inflict 10 Fragile next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "9e4db696dfcb9d47a9f5824f0260dc0268d9422c5645796aa9db30b0365e99b5",
+      "text": "Prioritize winning this Clash. A fast Sinner winning it also makes follow-up attacks after Stagger easier."
+    },
+    "skills.6.name": {
+      "sourceHash": "d022c847a892517377caf51d5d08471ba0a0a4e82661d4710c4b7546cda41008",
+      "text": "You Are Nothing"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "a261fcf71a19ccc56e8af64100e7cb3e98c3e9af4711692066613964d234e06f",
+      "text": "[On Evade] Deal 5 SP damage to the attacker."
+    },
+    "skills.6.response": {
+      "sourceHash": "a0786966db55dd36ff31c6964d8a0106f83b5b2ef963b4f2d14880708fe6fa45",
+      "text": "Offset it with defense before attacking. Do not lose SP by repeatedly throwing weak attacks into Evade."
+    },
+    "skills.7.name": {
+      "sourceHash": "ebe54c8862bf35ad8ed95f16df177048f4f42d1c21ad676be70cc603c8e70295",
+      "text": "Protoplast’s Wings"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "a9394590271cdc33da855ef135dbd123f9b61f1985d00832e0a4308e35837ddc",
+      "text": "No additional unique effects. Right and Left Arms have different Coin counts and Power."
+    },
+    "skills.7.response": {
+      "sourceHash": "92e2bbcd5156e06c60588a75daf313eff46a604e457721184e4e15ea4f325a45",
+      "text": "Check each arm's values and stop it with a winning Clash. Do not ignore dangerous Clashes while focusing only on the Maw."
+    },
+    "skills.8.name": {
+      "sourceHash": "fd5aa05bacf6cc0e54670c449cb3b12d9279683eb790b2c4af9df9f1d104bf49",
+      "text": "Innocent Flutters"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "042e82852a8176a125e0394d8197f32170655e7e14e8bfde65b1d1638aac59da",
+      "text": "Ⅰ・Ⅱ・Ⅲ・Ⅳ：[On Hit] Inflict 1 Paralyze and 1 Bind next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "492ea79c30a350edca15cfe3671e63e3a77894594acbdb83583d4eecee2ebede",
+      "text": "Hits badly disrupt next turn's Clashes and Speed. Prevent all 4 Coins from hitting even if displayed Power is low."
+    },
+    "skills.9.name": {
+      "sourceHash": "67eb7e771f666ae8cd053f48411ce54a5d65ab0428580d256e1c8c434b096aed",
+      "text": "Broken Wings"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "ede141170f29f4d181aef7bd26a7cbcc7d135cf5f1aa5cf34343e3f25eee46c6",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 1 Paralyze and 1 Bind next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "c2673dfd81acb1fb1e679dc5c0bab6baaada74d0d42109f19af8484831ab803c",
+      "text": "Arms still act after destruction. Do not keep allowing status effects through merely because their Power is low."
+    },
+    "skills.10.name": {
+      "sourceHash": "3b9e5486d81a8f6df3248f786fc2816b229cd664017b88087914ee0a948f58d3",
+      "text": "Enraged Flutters"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.10.response": {
+      "sourceHash": "935d4f1a9bf50d1291c9fda3423aeda5f2eb114bdefd517c1e8e8f273661ec8a",
+      "text": "A high-Power arm attack. These attacks remain after Maw destruction, so retain Sinners to Clash against them."
+    },
+    "skills.11.name": {
+      "sourceHash": "ebe54c8862bf35ad8ed95f16df177048f4f42d1c21ad676be70cc603c8e70295",
+      "text": "Protoplast’s Wings"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "a9394590271cdc33da855ef135dbd123f9b61f1985d00832e0a4308e35837ddc",
+      "text": "No additional unique effects. Right and Left Arms have different Coin counts and Power."
+    },
+    "skills.11.response": {
+      "sourceHash": "92e2bbcd5156e06c60588a75daf313eff46a604e457721184e4e15ea4f325a45",
+      "text": "Check each arm's values and stop it with a winning Clash. Do not ignore dangerous Clashes while focusing only on the Maw."
+    },
+    "skills.12.name": {
+      "sourceHash": "fd5aa05bacf6cc0e54670c449cb3b12d9279683eb790b2c4af9df9f1d104bf49",
+      "text": "Innocent Flutters"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "042e82852a8176a125e0394d8197f32170655e7e14e8bfde65b1d1638aac59da",
+      "text": "Ⅰ・Ⅱ・Ⅲ・Ⅳ：[On Hit] Inflict 1 Paralyze and 1 Bind next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "492ea79c30a350edca15cfe3671e63e3a77894594acbdb83583d4eecee2ebede",
+      "text": "Hits badly disrupt next turn's Clashes and Speed. Prevent all 4 Coins from hitting even if displayed Power is low."
+    },
+    "skills.13.name": {
+      "sourceHash": "67eb7e771f666ae8cd053f48411ce54a5d65ab0428580d256e1c8c434b096aed",
+      "text": "Broken Wings"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "ede141170f29f4d181aef7bd26a7cbcc7d135cf5f1aa5cf34343e3f25eee46c6",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 1 Paralyze and 1 Bind next turn."
+    },
+    "skills.13.response": {
+      "sourceHash": "c2673dfd81acb1fb1e679dc5c0bab6baaada74d0d42109f19af8484831ab803c",
+      "text": "Arms still act after destruction. Do not keep allowing status effects through merely because their Power is low."
+    },
+    "skills.14.name": {
+      "sourceHash": "3b9e5486d81a8f6df3248f786fc2816b229cd664017b88087914ee0a948f58d3",
+      "text": "Enraged Flutters"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.14.response": {
+      "sourceHash": "935d4f1a9bf50d1291c9fda3423aeda5f2eb114bdefd517c1e8e8f273661ec8a",
+      "text": "A high-Power arm attack. These attacks remain after Maw destruction, so retain Sinners to Clash against them."
+    },
+    "skills.15.name": {
+      "sourceHash": "75e2f9c19a8269765aee4992c73360a35ae7cb7b465f23cc8f8d4c62a9357d55",
+      "text": "Noble Purification"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "ce17896f78e02813d47098950f27a2b85b4703630b16a62a8d6e37a04ca71896",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Inflict 1 Fragile and 2 Bleed next turn."
+    },
+    "skills.15.response": {
+      "sourceHash": "635f4f8b20ac7a33d8b65fc3dc65172de153bacf20621f1d221495d9cd5f36e1",
+      "text": "Hits also increase next turn's damage taken. Stop it with a Clash while damaging the Maw."
+    },
+    "skills.16.name": {
+      "sourceHash": "d574d75265ace308023d6169545bebd8cdc358f6275d5802468dd45c14c538dd",
+      "text": "Honorable Grip"
+    },
+    "skills.16.label": {
+      "sourceHash": "20f1b4a5708482f2ab673277cb66a6e36250503c8047c0e81c56da5109e1ff2d",
+      "text": "Instant death against low HP"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "0add8b35335be69a38c3d67644df5dadec842e90f0164e8ec4aefa8ec4e1e530",
+      "text": "[On Use] If the target is below 30% HP, deal +100% damage."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "9f34c7f21870efeee10d93fe01efceb35f86ed0eaeb4ff24a7e7c5ed4e2ab541",
+      "text": "Ⅰ：[On Heads Hit] If the target is below 30% HP, instantly kill them, heal 30 HP for self, and gain 2 Attack Power Up next turn."
+    },
+    "skills.16.response": {
+      "sourceHash": "ff1cf481988d18e3438813cc494376be2a5345bb1f4f42afd337c592025ce8ae",
+      "text": "Heal or redirect if a low-HP ally is targeted. Check the instant-death condition separately even if the predicted HP damage looks survivable."
+    },
+    "skills.17.name": {
+      "sourceHash": "44f3565b187b89801bf232591c7f80bcdf962c18a9bf7a60c2636aa0bf5ec46b",
+      "text": "Repent!!"
+    },
+    "skills.17.label": {
+      "sourceHash": "6b704d25652b0a55654081e312b75feca6148baf0ca711b3ed4e94ec983177bd",
+      "text": "Area attack"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "01798bb4be5f4cc0ef87ba7b2d8f16582f8de8df83ab0548d98be3c046f5f7a0",
+      "text": "[On Use] If the target is below 30% HP, deal +100% damage."
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "19042a0555f2a53594348d1cd2de27de978c607152bfd80163ae50d263e6eda1",
+      "text": "Ⅰ：[On Hit] Inflict 5 Fragile and 5 Bleed next turn."
+    },
+    "skills.17.response": {
+      "sourceHash": "dfef49aa27a07ef117205c0c110916b279776fb0bd663edb76ad038cb427b0d5",
+      "text": "A strong area attack, so retain E.G.O or other strong skills. Staggering or breaking the Maw beforehand is also effective."
+    },
+    "skills.18.name": {
+      "sourceHash": "f30cf32e9a9cc09ee6844a52e796e705bba326eef7bf3f265e47739e3a1299ac",
+      "text": "Peerless Flesh"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "526fe4cc8e937a0a75b550adc8100407f326a173e70763c6ae7bf9db49dd8e25",
+      "text": "No additional unique effects are listed. The Defense Level adjustment is also unknown."
+    },
+    "skills.18.response": {
+      "sourceHash": "08d2af72aba7e9e47082af8ca85b9f10b4f1109e287cd9b35477589ce95e1328",
+      "text": "Use normal turns with weaker attacks to prepare, while focusing damage on the Maw to Stagger and break it."
+    },
+    "passives.0.name": {
+      "sourceHash": "6fb1e875d54e7758f3695ff57740879bb688bd6a29d05ff262586b9855e6cf81",
+      "text": "You Must Accept the Pain!"
+    },
+    "passives.0.condition": {
+      "sourceHash": "6fa7f8dd3564aab574023f1349ee385dae26cff547513015a917125aab325827",
+      "text": "At Turn Start, an undestroyed Part has Bleed or Burn"
+    },
+    "passives.0.effect": {
+      "sourceHash": "ab9879d83a35d8f962971529be65cd2b3f35c38a7d7d6fb227a9c2cafdefd805",
+      "text": "Heal 15% of max HP and gain 3 Attack Power Up. Both weaken with the number of copies of A Sign and reach 0 with 3 copies."
+    },
+    "passives.0.response": {
+      "sourceHash": "11b19194a37383bf052ff0f618ee00a538a4835a66bb117ad1395946109b6316",
+      "text": "Collect 3 Signs before challenging her. The Mirror Dungeon version has different conditions."
+    },
+    "passives.1.name": {
+      "sourceHash": "6fb1e875d54e7758f3695ff57740879bb688bd6a29d05ff262586b9855e6cf81",
+      "text": "You Must Accept the Pain!"
+    },
+    "passives.1.condition": {
+      "sourceHash": "6fa7f8dd3564aab574023f1349ee385dae26cff547513015a917125aab325827",
+      "text": "At Turn Start, an undestroyed Part has Bleed or Burn"
+    },
+    "passives.1.effect": {
+      "sourceHash": "ab9879d83a35d8f962971529be65cd2b3f35c38a7d7d6fb227a9c2cafdefd805",
+      "text": "Heal 15% of max HP and gain 3 Attack Power Up. Both weaken with the number of copies of A Sign and reach 0 with 3 copies."
+    },
+    "passives.1.response": {
+      "sourceHash": "11b19194a37383bf052ff0f618ee00a538a4835a66bb117ad1395946109b6316",
+      "text": "Collect 3 Signs before challenging her. The Mirror Dungeon version has different conditions."
+    },
+    "passives.2.name": {
+      "sourceHash": "4b3acc111c5a15b0e8e982d933006a4230447b9a3d716a1c9032343d73b2fa67",
+      "text": "Fearsome Whistles"
+    },
+    "passives.2.condition": {
+      "sourceHash": "155cc84ef5cf6dc82dd01edc5cf9e58adaf8d9f9f89898e8b7f1f4b5a6659a71",
+      "text": "Listed condition: 3 or fewer copies of A Sign"
+    },
+    "passives.2.effect": {
+      "sourceHash": "5513ecd1b01a8c4b4508cf96c5105e689bd5dbaf325ea6b3ff60a7dc054fc8a2",
+      "text": "Sinclair gains 1 Bind and 1 Paralyze each turn."
+    },
+    "passives.2.response": {
+      "sourceHash": "c79459f210975e0c9408a68e7f8871324801f4a494d533aa183f6b5f1698b84b",
+      "text": "If using Sinclair, check applied statuses and avoid assigning him Clashes he cannot handle."
+    },
+    "passives.3.name": {
+      "sourceHash": "717dc78d0d392b5a460f0f1ebb6d4001b28729211627257e9d3a6333ed7ac82b",
+      "text": "Courage to Triumph Fear"
+    },
+    "passives.3.condition": {
+      "sourceHash": "8094dfa495f77d3d29463fa9921f533a24ad64973124ce831303936d4bac13cc",
+      "text": "At least 3 copies of A Sign"
+    },
+    "passives.3.effect": {
+      "sourceHash": "2098b7cbcf5b7645bada0f7dd8e98079668f273f45a1ec49c55f467174ab19f6",
+      "text": "Sinclair gains 1 Attack Power Up and 2 Protection each turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "6548f7bff6bacb0bb9d5075a0f5dc4f06a04bab81212a144f4b4b43f05adec4c",
+      "text": "Collecting Signs also provides effects that support Sinclair."
+    },
+    "passives.4.name": {
+      "sourceHash": "bb4aecb9a3bdecd40c59e425b439946452ed8e2ef586fa67a15b816fc80a348d",
+      "text": "Bliss of Execution"
+    },
+    "passives.4.condition": {
+      "sourceHash": "2108ecabf26616a00472810352a84d3541ba3447b397fe4a183287d293c8a90d",
+      "text": "Defeat a Sinner"
+    },
+    "passives.4.effect": {
+      "sourceHash": "67d92dd42268c9378c9bc611a6c3ee401949c8fd17e278c00e5563ee5687daea",
+      "text": "At the start of the next turn, gain 2 Haste and 5 Damage Up."
+    },
+    "passives.4.response": {
+      "sourceHash": "73dbfb3a54872dbbb4eded69ee3d98a73416223c47ee7fc4020ad2572c88c82d",
+      "text": "Allowing instant death or hits on low-HP allies also endangers the remaining team."
+    },
+    "passives.5.name": {
+      "sourceHash": "11a83cf27467e4af1b725019f0a278baafdf5f0397e8cc511b106795915fd44b",
+      "text": "Overflowing Ecstasy"
+    },
+    "passives.5.condition": {
+      "sourceHash": "9595854c58f18de121bae649187485bff5e73c0384febc9e627ae644719ec563",
+      "text": "Cycle from turn 3 onward / depends on Instincts"
+    },
+    "passives.5.effect": {
+      "sourceHash": "decb35525bb434277540ed77f565ff43f95e7354501ac47313311df48f0dd4f3",
+      "text": "Enter Ecstatic, and the Maw uses strong attacks. Both a cycle table and Instincts conditions are described, so prioritize the current status display."
+    },
+    "passives.5.response": {
+      "sourceHash": "1d8b2908f5eff6de630809e8a0b6d2cd8990276e40256ca92ec655bde6dfa53d",
+      "text": "Check the Maw's weakened resistances and dangerous skills, and aim to end the state by Staggering it."
+    },
+    "passives.6.name": {
+      "sourceHash": "ce0410d1de09c6b2ceea604ceb846f11ce697563fb1cffdaee37492e9893b483",
+      "text": "Blooming Purity"
+    },
+    "passives.6.condition": {
+      "sourceHash": "b7c09d32e82ada91c8f2bae86b7a53fcc0590929516153082be13001f7ae2ae5",
+      "text": "Below 50% main-body HP"
+    },
+    "passives.6.effect": {
+      "sourceHash": "73475eef3d0a048f20bf7ac9abbacfdb894506781a34f1c156ecedcde5d1b38a",
+      "text": "Enter Purity for the rest of the encounter."
+    },
+    "passives.6.response": {
+      "sourceHash": "1582b8188540ff0d72242f1d4e5cb609dc98bb6528be7e03cd6f05ebf27c3000",
+      "text": "Exploit weakened resistances, but remember the enemy's damage bonus."
+    },
+    "passives.7.name": {
+      "sourceHash": "b6137d057c19964a1ccaaad7b10d8cae627f4400bab331522553f05c7320cc63",
+      "text": "Flawless Flesh"
+    },
+    "passives.7.condition": {
+      "sourceHash": "97e1576f614cab604aa12f6d8cfe8696fe62ecccca34b6190700a2a1e04d4068",
+      "text": "An arm is destroyed"
+    },
+    "passives.7.effect": {
+      "sourceHash": "9e273e3a1e3976a4bd3ea040298ca3ac64d9891c40137b80534c9c623001da9c",
+      "text": "The destroyed arm gains 2 Attack Power Down."
+    },
+    "passives.7.response": {
+      "sourceHash": "f5f51deade6ad3e148d334262a893c403bc2497b254159185c7326734274002f",
+      "text": "Arms remain active after destruction but become weaker. When choosing targets, distinguish stopping the Maw from weakening an arm."
+    },
+    "passives.8.name": {
+      "sourceHash": "b6137d057c19964a1ccaaad7b10d8cae627f4400bab331522553f05c7320cc63",
+      "text": "Flawless Flesh"
+    },
+    "passives.8.condition": {
+      "sourceHash": "97e1576f614cab604aa12f6d8cfe8696fe62ecccca34b6190700a2a1e04d4068",
+      "text": "An arm is destroyed"
+    },
+    "passives.8.effect": {
+      "sourceHash": "9e273e3a1e3976a4bd3ea040298ca3ac64d9891c40137b80534c9c623001da9c",
+      "text": "The destroyed arm gains 2 Attack Power Down."
+    },
+    "passives.8.response": {
+      "sourceHash": "f5f51deade6ad3e148d334262a893c403bc2497b254159185c7326734274002f",
+      "text": "Arms remain active after destruction but become weaker. When choosing targets, distinguish stopping the Maw from weakening an arm."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "346d11353cd6cb9bfba4e6329c9b6c3532c11f94daf5a5f080ce5bc337156c72",
+      "text": "A Sign"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "bedff00d714744b87ce2ba5de705f66411a7caa52a4fd4b95c8f890d39527a15",
+      "text": "A Gift collected in the dungeon. Its count weakens healing and bonuses triggered by Bleed and Burn, disabling them at 3 copies. Also affects support conditions for Sinclair."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6b36dc63ead970ff2171f01562280653a5fee4210f11bb4dd03dceb5bf1f3911",
+      "text": "Check how many you collected before ruling out all Bleed and Burn options."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "07e09fc27ee2f26633a472563905cc216d1d87f6a3289b9cf2431a5911718211",
+      "text": "Gaze of the One Who Grips"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "556a8edf4a7650d7cef67870aa97cc5875b83d2246db396c683da3be90b5ab8b",
+      "text": "Staggered for 1 turn and takes +100% damage from Kromer."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "875157414f7697a4ea2c33e1e467dd950d0f21708c3025292593aceebcdcae4f",
+      "text": "Have faster allies redirect attacks on the following turn when it applies."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "6fb1e875d54e7758f3695ff57740879bb688bd6a29d05ff262586b9855e6cf81",
+      "text": "Accept the Pain!"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "7200859644d87d5fefdb10160088c2b084fcbb021fb6bcbdfe0fd78c5988c92a",
+      "text": "The status Accept the Pain!, applied during a prolonged first half, increases damage dealt and taken by 100% and reduces Defense Skill Final Power by 5. It is separate from the passive You Must Accept the Pain!, which reacts to Bleed and Burn."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "ebbf2065fdf9255990d47452d4f4fd9d161ab6350f4222bb9bb983e019177884",
+      "text": "Defense may suddenly become insufficient in a long fight. Use Stagger openings to clear the first half."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "d2c6ada59d4c6c7320338ffab8c43b6d95c07b096894c541cfab9624cbbe4082",
+      "text": "Ecstatic"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "639770d7c3ab18125c70ace537891511126a790ddf0841bf9b2168c5470ae507",
+      "text": "All of the Maw's physical resistances become Fatal. It switches to strong Maw attacks."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "557abec75c089a617d9bd2416f1cfe27da135c1275b045ddf430d19dfa05dd10",
+      "text": "Focus on the Maw to Stagger it. Prioritize current status and skill names when deciding actions."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "dc7ffde119854386b3eaa30b13e4cd63a092286b52522f5918ec9e9ad3582353",
+      "text": "Purity"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "79e496277ee386aa47680d8fd30bae706aee472dc2e484a1e8c20439ebfbc9ae",
+      "text": "All Parts gain 3 Bind and 3 Damage Up. All physical resistances become Fatal."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "8b9280f536cee52fce1bf655af02d94b8e0c4d76345b4255bb7643101d71c2d1",
+      "text": "Use weakened resistances and redirect attacks away from the slower enemy, stopping dangerous skills as you finish the fight."
+    },
+    "warnings.0": {
+      "sourceHash": "f9ff0984402dc3267032377c0feedd8adfdadaebc6237ec33ca6f66f70419e92",
+      "text": "The two halves are consecutive. Do not exhaust all resources just to clear the first half."
+    },
+    "warnings.1": {
+      "sourceHash": "51f007964f6c2c19a0aed032dba21dd463511ef9d6b1e7fd6b4ad8fb9a2e1d87",
+      "text": "3 copies of A Sign disable the healing passive. Do not replace your team based on the outdated assumption that Bleed and Burn Identities cannot be used."
+    },
+    "warnings.2": {
+      "sourceHash": "1c0fba242022b7c29b4edac1d25a22e0b5d9ef67d3f09950086bc41ae294d121",
+      "text": "The Gripping's Gaze and Cackle's SP damage do not activate only on hit."
+    },
+    "warnings.3": {
+      "sourceHash": "aee4c77e256e91a8d7902cf76c4a780a0ac490bc4f15344e7fcdf9504df031cb",
+      "text": "Arms act after destruction; the Maw does not. Part destruction has different effects on each."
+    },
+    "warnings.4": {
+      "sourceHash": "75e0c387df1803fef578ee6dc274df2a4a8a4566a6b7725d886351fe6bc42738",
+      "text": "Descriptions of Ecstatic's cycle are inconsistent. Do not treat a fixed-turn sequence as certain; respond to the displayed status and Maw skills."
+    },
+    "preparation.0": {
+      "sourceHash": "b86de53b25b700f24345696c0912d2a537647aaf30be83b9a5fa97ffa86284ed",
+      "text": "Aim for core Sinners around Lv. 30 and check skills through Uptie Ⅲ. Restore HP and adjust your team at dungeon recovery and team-change points."
+    },
+    "preparation.1": {
+      "sourceHash": "40b723f2bb2059250792231fec542af93c359cf3e9bece67ff621d29ff8266e3",
+      "text": "Blunt and Lust are resisted in the first half. Pierce is effective against the Maw in the second half, and Wrath and Pride also exploit weaknesses. Choose attackers while prioritizing Clash strength."
+    },
+    "preparation.2": {
+      "sourceHash": "8c206d495be1f40a0ff48d775070724e9b5c1ae3882f60d30dc3ff7636c990ba",
+      "text": "Prepare E.G.O that can beat dangerous single-target and area attacks, along with the required Sin resources. Also check ways to heal Sinners below 30% HP."
+    },
+    "preparation.3": {
+      "sourceHash": "7c61c7fe5b6da7c73d758ee7c83f368a50abbe50888a2874128f2c01aa8279dd",
+      "text": "Collect 3 copies of A Sign. No specific Identity is required; obtaining an Identity with a special opening Stagger is not mandatory."
+    },
+    "roles.0.name": {
+      "sourceHash": "fd50c34c54e54d394ba1653c338da7a50efeb413d10d3876be1471083285cc74",
+      "text": "Clash roles for I Shall Claim Your Life! and Repent!!"
+    },
+    "roles.0.reason": {
+      "sourceHash": "8362c5dfcc7778720ef5dd017306d3180acf642583566c32e81c654e20422a9e",
+      "text": "Reserve high-Power skills or E.G.O. Turn a first-half Clash win into Stagger and follow-up damage."
+    },
+    "roles.1.name": {
+      "sourceHash": "33f07b6c066a762ebee7f5c312ba957d164fb23639865b90f6184eb5106472ba",
+      "text": "Fast allies to protect the Sinner with Gaze"
+    },
+    "roles.1.reason": {
+      "sourceHash": "1d51c306c2e8942d12db16fba61f8f81c911b7a76d2799e7a906f98c887d117f",
+      "text": "Identify next turn's Staggered target and redirect dangerous attacks."
+    },
+    "roles.2.name": {
+      "sourceHash": "d56a98f6ea5b10a148e32d072c75e2cd832b3ecbdddeea121ccd16a65ada67f4",
+      "text": "Pierce attackers for the second-half Maw"
+    },
+    "roles.2.reason": {
+      "sourceHash": "d59c982f3f45eaa57f91141546ff1dd652e3fa3f3fb80bf115addff93c414323",
+      "text": "Exploit the Part's weakness and aim to Stagger or break it, stopping area and instant-kill skills."
+    }
+  },
+  "messages": {
+    "boss-copy:kromer": "complete",
+    "【リンバス】3-22 クローマーの攻略｜Limbus Assistant": "3-22 Kromer Guide | Limbus Assistant",
+    "リンバス(Limbus Company)3-22「クローマー」の攻略。ダンジョンで集める「とある印」と、危険な攻撃へのマッチが攻略の軸。前半の注視を対処し、後半は大口を混乱・破壊して攻撃を減らそう。": "Kromer guide for Limbus Company 3-22. The key is collecting A Sign in the dungeon and winning Clashes against dangerous skills. Handle Gaze in the first half; in the second, Stagger and break the Maw to reduce enemy attacks.",
+    "3-22 クローマー": "3-22 Kromer",
+    "3-22「K-02 Branch: Final Battle」": "3-22 · K-02 Branch: Final Battle",
+    "クローマー（前半）の外見": "Kromer (First Half) appearance",
+    "クローマー（前半）のスキル": "Kromer (First Half) skills",
+    "Kromer (First Half)の外見": "Kromer (First Half) appearance",
+    "Kromer (First Half)のスキル": "Kromer (First Half) skills",
+    "完全な人間を夢見るクローマー・大口の外見": "Kromer the Dreamer of Human Wholeness — Maw appearance",
+    "完全な人間を夢見るクローマー・大口のスキル": "Kromer the Dreamer of Human Wholeness — Maw skills",
+    "Kromer the Dreamer of Human Wholeness — Mawの外見": "Kromer the Dreamer of Human Wholeness — Maw appearance",
+    "Kromer the Dreamer of Human Wholeness — Mawのスキル": "Kromer the Dreamer of Human Wholeness — Maw skills",
+    "完全な人間を夢見るクローマー・右腕の外見": "Kromer the Dreamer of Human Wholeness — Right Arm appearance",
+    "完全な人間を夢見るクローマー・右腕のスキル": "Kromer the Dreamer of Human Wholeness — Right Arm skills",
+    "Kromer the Dreamer of Human Wholeness — Right Armの外見": "Kromer the Dreamer of Human Wholeness — Right Arm appearance",
+    "Kromer the Dreamer of Human Wholeness — Right Armのスキル": "Kromer the Dreamer of Human Wholeness — Right Arm skills",
+    "完全な人間を夢見るクローマー・左腕の外見": "Kromer the Dreamer of Human Wholeness — Left Arm appearance",
+    "完全な人間を夢見るクローマー・左腕のスキル": "Kromer the Dreamer of Human Wholeness — Left Arm skills",
+    "Kromer the Dreamer of Human Wholeness — Left Armの外見": "Kromer the Dreamer of Human Wholeness — Left Arm appearance",
+    "Kromer the Dreamer of Human Wholeness — Left Armのスキル": "Kromer the Dreamer of Human Wholeness — Left Arm skills"
+  }
+}

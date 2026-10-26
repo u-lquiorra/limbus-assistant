@@ -1,0 +1,1228 @@
+{
+  "kind": "boss-copy",
+  "id": "guido",
+  "source": "src/data/bosses/guido.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "執念",
+          "en": "Persistence",
+          "file": "Passives_Enemy.json",
+          "id": "9100601"
+        },
+        {
+          "ja": "よくも！",
+          "en": "You Dare!",
+          "file": "Skills_Enemy.json",
+          "id": "9003504"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "執念",
+    "よくも！"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "72a4565c8c24bf9c44466a7195f0ddec91e35a3feb60ecc3d891e2057557d1d8",
+      "text": "Guido the Persistent (3-18)"
+    },
+    "shortName": {
+      "sourceHash": "81aa63ad4eba085b4d7b7295afc09e8b04e0bc74bc09ba07a3eb3a4f7d628291",
+      "text": "Guido the Persistent"
+    },
+    "stageName": {
+      "sourceHash": "b7cb5486a0f221d80615166abbc6e7524714a51f8a70c03312fb06aadd360b3f",
+      "text": "Inferno 2"
+    },
+    "lead": {
+      "sourceHash": "1bf8236c12e3ffb2084e8b913f8e34cb11fd916e1524ae84485973c4646ff077",
+      "text": "Avoid having the next Wave arrive on a Whistle turn, which occurs every 3 turns. Build SP, action slots, and healing resources along the way, then prevent forced Stagger from 5 Nails in the final Wave. Defeating Guido greatly reduces the remaining enemies' SP."
+    },
+    "listLead": {
+      "sourceHash": "b4c8e66dbcf17b2f03af93196273d9411cfb4eb05a6a6c7490da37d17d564f88",
+      "text": "Avoid overlapping the teamwide buff every 3 turns with a Wave transition. Prepare SP, actions, and healing resources along the way, then prevent nail-induced Forced Stagger in the final Wave."
+    },
+    "statNote": {
+      "sourceHash": "1a911bca425817ca51152b5472a570d05441a990cf4098d5672ff8999529b678",
+      "text": "A regular 3-Wave encounter in 3-18; all enemies are Lv. 27. Guido has 373 HP and Defense Level 27. The 7 other enemy types use this stage's 85, 102, or 149 HP values, not those of Guido in 3-13 or lower-level versions from other stages. This is not a Focused Encounter with freely assignable targets."
+    },
+    "skillNote": {
+      "sourceHash": "fc2a5d8cc197a136838385a777d2e02667c852122750fe8bc6f282548e8edb26",
+      "text": "Guido's 8 skills and 26 skills from the other enemies. Minus Coin skills show Base Power before subtraction. Knock's Paralyze value and Ponderous Inquisition's Attack Power Down value are unspecified; do not infer them from neighboring effects."
+    },
+    "priorities.0": {
+      "sourceHash": "9247028718de9e20c205b1cf501ab8fa33ae08fc3a14799269b7cd3f9422f907",
+      "text": "Prepare 5 Sinners around Lv. 27 and Uptie Ⅲ or higher, with Blunt attacks and HP healing. Build SP and action slots instead of rushing through Wave 1."
+    },
+    "priorities.1": {
+      "sourceHash": "39499dcbae5729026ddb58bd96625e9550e6a3e026e9e64001248ac652866405",
+      "text": "Whistles occur on turns 3, 6, 9, and so on. Check the total turn count before ending a Wave so the next Wave does not arrive on a Whistle turn."
+    },
+    "priorities.2": {
+      "sourceHash": "f41dc10377e06619a67069eb330a572675f8c23dbab0974e1a155f9f85a38933",
+      "text": "Save strong skills or E.G.O for Be Cleansed… of Sin! Once the below-50% HP bonuses activate, aim to Stagger and finish Guido rather than continuing to chip away."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "767e6a9d00a96aff7f154fd2367a6732e50006eb00c73bde4fbc0e8abe6c1cfa",
+      "text": "Unopposed attacks overwhelm me as soon as the Wave changes"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "63e1869411228433606a97538e76f780b60e60bca63ad02e43759275b77c5813",
+      "text": "Advancing with too few allied slots becomes especially dangerous when Whistles coincide. Build actions and SP early, and avoid ending a Wave on a turn whose number is a multiple of 3 minus 1."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0dd3c92e805ac0a3e5b83a5f769c952bb15214aa40f7ebffc57fba7d3d7d7ca9",
+      "text": "A Sinner was forcibly Staggered despite having no Nails"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "a6dcdc08b4e74e9c497fb6566599321cb96f41c8acc41845ae9fd43123829067",
+      "text": "Be Cleansed… of Sin! inflicts 5 Nails on a Heads hit with Coin 1, then forces Stagger with Coin 2. Starting at 0 Nails is not safe; stop the skill with a Clash."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "4cf4f5d8697b51d69dad92cab85a1b49fda5cfee459b85b6d1ff168311577b4a",
+      "text": "Sinclair's SP suddenly plummets"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "0798c2498b4716b7cae412bef332f494810faa87281569b1473516c11250a381",
+      "text": "Each Whistle costs Sinclair 30 SP. Even a Minus Coin Identity risks Corrosion, so check equipped E.G.O and SP. Replace him with another trained Sinner if necessary."
+    },
+    "units.0.name": {
+      "sourceHash": "81aa63ad4eba085b4d7b7295afc09e8b04e0bc74bc09ba07a3eb3a4f7d628291",
+      "text": "Guido the Persistent"
+    },
+    "units.0.part": {
+      "sourceHash": "e725fc4359abcd57f2280a4770c9b3ba123c8dc1a431e8810c1fd72a37dfdcf9",
+      "text": "Core"
+    },
+    "units.0.stagger": {
+      "sourceHash": "ad237ba0e2c7b49e9a59aeb24cec5242dc36fecbfa01988ab4cf23c1745d7622",
+      "text": "60% / 30% (224 / 112)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "40727561eed69272177e062e981fea50aecc7b3032673a33d125bcf718c20958",
+      "text": "1 appears in Wave 3. Starts with 1 slot and can reach 5; each slot has a weight of 2."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "da7a58348b23db3119f762e1ec48b6bcb45a588c9ba79d741a32043f657599cd",
+      "text": "Below 50% HP, gains debuff removal next turn and recurring Fanatic and Power bonuses each turn."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "777fbfb6787f782a45ab0c44e770f014303f25164c3b1cf8d0a84e4bf489ee78",
+      "text": "Heals enemy SP every turn while alive. Defeating him reduces remaining enemies' SP by 45."
+    },
+    "units.1.name": {
+      "sourceHash": "6cceb3c9bd021b40ac0d931341283dd50e0ae007b14241e7f9e815ee3b0379f1",
+      "text": "Servile N Corp. Inquisitor"
+    },
+    "units.1.stagger": {
+      "sourceHash": "d3ebad46794865a4a49b72499465e3662c89c8a9d647435cd3dfd485c38015b5",
+      "text": "60% / 30% (51 / 26)"
+    },
+    "units.1.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "ebabbe205e3442afe5c3272fe5912b6e0c9402f43d04662104d43f8d2d284d74",
+      "text": "1 in Wave 1. Inflicts Nails and Bleed."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.2.name": {
+      "sourceHash": "027dc408966f9c071673a49181b90bb1e25f5a1fbf36cfb95c153b9917b8ba4e",
+      "text": "Compliant N Corp. Inquisitor"
+    },
+    "units.2.stagger": {
+      "sourceHash": "e76568b96273fe4a19ce3fa15c2e0eaa10288fcbcd1e0241b7ac2a6cfb0919ef",
+      "text": "40% / 20% (34 / 17)"
+    },
+    "units.2.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "f7b7d24f88649f12bdc3da21cdecc1ee40b60793572d5ad2dbc3b56ccadfa80a",
+      "text": "1 in Wave 1. Inflicts Bind and Paralyze."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.3.name": {
+      "sourceHash": "42f3814372ec304a6f7f6ce01b0496eac18553cfa12d9c13e3c951089aa31af9",
+      "text": "Scourging N Corp. Inquisitor"
+    },
+    "units.3.stagger": {
+      "sourceHash": "879d94f8562fa5e163f2860e75726abd9568e52a4ac033c8200bea4373ea368f",
+      "text": "60% / 30% (61 / 31)"
+    },
+    "units.3.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "e2e9a805ef9d764722acaff03d52fd0b36b08a9a1518a113a09cd297454af55e",
+      "text": "1 in Wave 1. This type has up to 3 slots and uses an ordinary Counter."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.4.name": {
+      "sourceHash": "14a2e42cf823429a2848ab68788d7c7a4d85e0471a6b853c514481f94b3c0c38",
+      "text": "Interrogative N Corp. Inquisitor"
+    },
+    "units.4.stagger": {
+      "sourceHash": "879d94f8562fa5e163f2860e75726abd9568e52a4ac033c8200bea4373ea368f",
+      "text": "60% / 30% (61 / 31)"
+    },
+    "units.4.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "a4cbaed391fd61ee2761288a5c6b5443bda22c26fc3bf7def18540d6b9588b3b",
+      "text": "1 each in Waves 1 and 2. Watch for ordinary Counters and Power reduction."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.5.name": {
+      "sourceHash": "9422809ed38cea9d9435bcb8f63517510abbe626eb5e0b94756b7f918ed52a6e",
+      "text": "Sadistic N Corp. Inquisitor"
+    },
+    "units.5.stagger": {
+      "sourceHash": "879d94f8562fa5e163f2860e75726abd9568e52a4ac033c8200bea4373ea368f",
+      "text": "60% / 30% (61 / 31)"
+    },
+    "units.5.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "5c88634256fc411c13fbc203f03c7d3405e013d88a9c272999e5d01c481e7e38",
+      "text": "1 in Wave 2. Inflicts Nails, Bleed, Bind, and Paralyze."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.6.name": {
+      "sourceHash": "80fe64ca58acd9e260b25e7aa637519631f06ff07608a6049c0a6b403b30caca",
+      "text": "Obsessive N Corp. Inquisitor"
+    },
+    "units.6.stagger": {
+      "sourceHash": "1e78c9bc2adacecdd957c0af0dea3b4510e68bd2ddee64ae0242fc51125ee934",
+      "text": "60% / 30% (89 / 45)"
+    },
+    "units.6.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.6.notes.0": {
+      "sourceHash": "c57dd53c2961b7745bd6e0d6d2dd79c19108dc444f79f423cb527ee6b10dddff",
+      "text": "1 each in Waves 2 and 3. Ponderous Inquisition is dangerous against targets with at least 5 Nails."
+    },
+    "units.6.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "units.7.name": {
+      "sourceHash": "a50b398019e155e30fc8292ce3b6f9c2ce4c24d3436e6a15f3f2274ddbae2a80",
+      "text": "Joyous N Corp. Inquisitor"
+    },
+    "units.7.stagger": {
+      "sourceHash": "1e78c9bc2adacecdd957c0af0dea3b4510e68bd2ddee64ae0242fc51125ee934",
+      "text": "60% / 30% (89 / 45)"
+    },
+    "units.7.part": {
+      "sourceHash": "297eb57b29d721df5f55f07942901a864b9464169eeeee264aba122305b013d9",
+      "text": "Other enemies / adds"
+    },
+    "units.7.notes.0": {
+      "sourceHash": "0c68a8d8b80fe238089ebe234866c8fdcf6c8dfbdf2300a770ee24a190db7ef8",
+      "text": "1 each in Waves 2 and 3. Prevent its healing of enemy SP."
+    },
+    "units.7.notes.1": {
+      "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
+      "text": "When an ally dies, gain 1 Attack Power Up next turn."
+    },
+    "phases.0.timing": {
+      "sourceHash": "d480272507e1b47b23e07ae83459071fa77bb2e5f4515fe836cb9549d83cd557",
+      "text": "Wave 1"
+    },
+    "phases.0.title": {
+      "sourceHash": "40f60b09617ad0bb55459147ad495d4ed840b34e1ba02565af810d9fe6484806",
+      "text": "Reduce enemy numbers before Whistles and build your actions"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "fd37ba67a78f23785bfc42a50c3d86a9bf17f28dd3da69ecb74f4c8448a63a3e",
+      "text": "1 each of Servile, Compliant, Scourging, and Interrogative N Corp. Inquisitors. Stagger them with Blunt attacks and reduce hits that inflict Nails or disruptive effects."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "8fe0cf4062031978072b99fdde9e09992128efb5be5ad6f3ee71852893e9d550",
+      "text": "Whistles sound every 3 turns starting on turn 3. They increase enemy SP, Attack Power, Defense Power, and Fanatic, so avoid leaving every enemy unharmed until just before they sound."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "0a3af1a55a5e689edaf19bcfca18aa11ed0a500d6c79314f682cf9cb6db2abad",
+      "text": "Check the total turn count before defeating the last enemy. Ending on turns 2, 5, 8, and so on makes the next Wave arrive alongside Whistles. If needed, adjust by defending for 1 turn, but do not force a delay when your team is already badly hurt."
+    },
+    "phases.1.timing": {
+      "sourceHash": "a379c205bb4b7350148ad56677c1a59dcf550f268ca196ec25337d5f3addd34a",
+      "text": "Wave 2"
+    },
+    "phases.1.title": {
+      "sourceHash": "81b8967be438ffe229c9b6aa7c3645fad6afd99c4cc7b7bb2bc39f6ca0ef17a7",
+      "text": "Manage Nails and healing resources"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "4d191f7bb2e8ed6e98f3d89affce1dba6db1ece85a4f32546acf26cdffd05184",
+      "text": "1 each of Interrogative, Sadistic, Obsessive, and Joyous N Corp. Inquisitors. Maintain your core team's SP and reserve resources for healing E.G.O and other needs."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "e0c6805d3b4283abdf642e8bc0562041d8dc15a764aad3fe25c3975ad4b8d70b",
+      "text": "Against targets with at least 5 Nails, Ponderous Inquisition leads to 10 Paralyze next turn. Do not let it hit a Sinner with many Nails unopposed; account for the next Whistles when checking predictions."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "dc0f7c9ee16e0187a855ac8aa0ff17c3ec9223d9ac71e9230d2f24d76ccfa27c",
+      "text": "Defeating an enemy grants the survivors Attack Power Up next turn. Reducing enemy numbers is valuable, but do not assign weak Clashes while ignoring the upcoming bonus."
+    },
+    "phases.2.timing": {
+      "sourceHash": "329a505f3920ff3b33192ff3f7229d1505223df3623d0db458935cc5f501a815",
+      "text": "Wave 3 to the finish"
+    },
+    "phases.2.title": {
+      "sourceHash": "7ed17bfa0248453b8760681a131599e730a7d3c767338d7cd79446f9efe9f0d4",
+      "text": "Prevent forced Stagger and weaken survivors by defeating the boss"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "4c8f0670d392d28ca414d95cd677885de87b61866ef3ee2c9f2f365ae3a50fdd",
+      "text": "Guido and 1 each of Obsessive and Joyous N Corp. Inquisitors. Use high-Power skills against Be Cleansed… of Sin! to prevent forced Stagger."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "f384737d695794c83f842b532e6b91be75802ad9d09a8ba69da324b55f60467a",
+      "text": "The Great Task Will Be Done…! grants teamwide Fanatic On Use. It remains next turn even if you win the Clash, so prevent hits against Sinners with Nails. Against an ordinary Counter, also check the first attacker's resistances."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "7fc7d2e264ead2d8f23d1a942f406c4018c62d8b9266e44c22f6a3a59c4683e4",
+      "text": "Persistence activates below 50% HP. Focus damage during the Stagger at 60% HP; when crossing half HP, prepare enough damage to reach the next Stagger or finish him."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "d1a98fbf38f04d0fa8a23b494ecaa02eadee1d062e25295acd6e69cf08c0dbfe",
+      "text": "Defeating Guido reduces the remaining enemies' SP by 45. Attack the last adds and finish before Whistles let them recover."
+    },
+    "skills.0.name": {
+      "sourceHash": "1667d385dbbda538efcada26c170e48ff4e3c7953cc434c893fb72a557f6e530",
+      "text": "Spike Drive"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "f6f1faee084c516877326bc452a52b7bc53f02a81404c182c1c910e61590f07d",
+      "text": "While below 50% HP, inflict +1 additional Nails."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "880893f43718014bc11e791f1b3caf20874e62541b21c60432b97ceb07d0614e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "1e782fc553efb0da33d4cc75effb940da58c35874885345986c5df013e5ac308",
+      "text": "Ⅱ[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "39b9a29575e5fd6cb9d45406de31b0d5ea041fb7fab6d8d52f0d316cc7624e72",
+      "text": "Ⅲ[On Hit] Inflict 2 Nails next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "7d27d90f7efbbd3cca6b4fd2c3f7e6ad10ce265a57345a5555d93dbc55173da4",
+      "text": "Hits from all 3 Coins add Nails next turn. Below 50% enemy HP, the amount also increases; avoid repeated hits against Sinners who already have Nails."
+    },
+    "skills.1.name": {
+      "sourceHash": "72df18ce2246a52d8253991930a318ffef74ff85b5a7bc659a013f861f4236f1",
+      "text": "Drive"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "b3b0bbf0ed770f6e5668ec6b9572ddf098606ffdb8d1d783e85b566253438ebf",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "ad1cd5ccf9bd147a7a5aa0d849697047fb410b02ea7cba7010cb967edf215bd0",
+      "text": "Reaches 14 Power in 3-18, unlike the 10 maximum in 3-13. To also prevent 5 Bleed next turn, use the current prediction to choose a winning skill."
+    },
+    "skills.2.name": {
+      "sourceHash": "3e403b2dc812bd774681c0f4cbf84320f7242165df51dd176bf50bdc781eb7e0",
+      "text": "Stalwart Faith"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "297b31a6dbe81d2eaa84ec1471b7414e530fbc5567f9f32e1d94ef6a07180370",
+      "text": "[On Use] Gain 2 Protection."
+    },
+    "skills.2.response": {
+      "sourceHash": "bdee6ff6c9d755814b122d912cfe545f0c6aa81cb95d7c988f2ad09c5a14cd09",
+      "text": "Gains 2 Protection On Use. If an attack targets this Guard, consider Offsetting it with defense to keep damage flowing."
+    },
+    "skills.3.name": {
+      "sourceHash": "fd5b30eb216e5a77b9b6650e72054726a21fb77592d9f8beaa147238388a9e2c",
+      "text": "Foolishness…!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "880893f43718014bc11e791f1b3caf20874e62541b21c60432b97ceb07d0614e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "0ba235c3ac78d30388245d2aa7c898250a521f5103d2374e35265bc17895e7bb",
+      "text": "An ordinary Counter with Base Power 8 and Coin Power −4. It cannot be Offset with defense, so check the first attacker's Pierce and Pride resistances and remaining HP."
+    },
+    "skills.4.name": {
+      "sourceHash": "ce4c309511d958cf0c84ded7f7d960d562e59c33b2b5158eadff5b1186aa2bbf",
+      "text": "Hammers, Heed Me…!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "564c2d4c9ae471f61128c5c81596edc044602c782cb725117872e77fb873c848",
+      "text": "[Clash Win] Grant 1 Fanatic to all allies next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "f8fe326b62eca3f5773f14c2fb586cc3665d536b172a3773172dabbe013119b9",
+      "text": "Ⅰ[On Hit] Heal 10 SP for the 2 allies with the lowest SP."
+    },
+    "skills.4.response": {
+      "sourceHash": "f86d9fd28b2b5c1ac2a1989eaa0cf48c133be4c1009d8f89262762206b0924ff",
+      "text": "An enemy Clash win grants all its allies 1 Fanatic next turn. On Hit heals the 2 lowest-SP enemies, so stop it with a winning skill."
+    },
+    "skills.5.name": {
+      "sourceHash": "7188b5204a87f15226ddf07ca2bfa3e4a3547164eed94b8593ba43b52baf779f",
+      "text": "The Great Task Will Be Done…!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "00f1962c768ef0ebd3b3c9a2d77dae53c3c2d216d3dc2e75ce690f51edd6a4b8",
+      "text": "[On Use] Grant 1 Fanatic to all allies next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "43c36c3d135405b18c8f8713a7129545945cd60eef66106b040a6ca631ce48aa",
+      "text": "Teamwide 1 Fanatic next turn is an On Use effect. Winning the Clash does not stop its activation; check Nails and enemy bonuses next turn."
+    },
+    "skills.6.name": {
+      "sourceHash": "eade960af6126a86e64169a2b6525d4e9bcf9ac59eff3319ea6d368ca16cbef3",
+      "text": "Be Cleansed… of Sin!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "3fda15bd344e51be40792b234f810a43066bb90303ba627411ed30f1bffdfbe9",
+      "text": "Ⅰ[On Heads Hit] Inflict 5 Nails."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "754430f8f098bce659ce18d5a045f1b717454994503d86e8403e2ccaaccad5d3",
+      "text": "Ⅱ[On Hit] If the target has at least 5 Nails, Stagger them."
+    },
+    "skills.6.response": {
+      "sourceHash": "2f54a2c14a9877bef144e5cb0e9fdfac0d312faa6eee39277e751f3f73ced7de",
+      "text": "Stop this as the highest priority. A Heads hit on Coin 1 inflicts 5 Nails, so Coin 2's hit can immediately force Stagger. Even a Sinner at 0 Nails is not safe; reserve high-Power skills or E.G.O."
+    },
+    "skills.7.name": {
+      "sourceHash": "570b435b9dfb98d4fa8669855b9b036d7b041fe13b491807c7ae1bee8974c922",
+      "text": "Annihilate Heretics"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "261bc36e9bde6d625a9bfef00c5f668d403ed74cb17dc53d61a70afc69ea6bf6",
+      "text": "Deal +100% damage when attacking a target with Nails."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "11f37138945b29ba3aaa2551b1d390e14cc8bf234d653a72bd72b1e96e0df467",
+      "text": "Ⅰ[On Hit] Inflict 10 Rupture next turn."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "5fb15df46636c37e2445b6b37b594a1309b1ebc175a04b980b959e88bcbec02b",
+      "text": "Ⅱ[On Hit] Inflict 5 Fragile next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "00f0306c9089bdca477a5ad2031f0c3df6bd649a2b5f6b11219ee3194b58a656",
+      "text": "A 2-Coin Minus skill with Base Power 11. Deals +100% damage against targets with Nails, and its hits inflict 10 Rupture and 5 Fragile next turn. Prioritize preventing hits on allies with Nails."
+    },
+    "skills.8.name": {
+      "sourceHash": "8f897e4e24bb93e1c2339894ea89caee549b1d830991703828add7c9c7c93e85",
+      "text": "Plunge In"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "5cadfee2d887d43562e65462565bb7b088fcb9cb2e6727446d99306c0e4ee34d",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "cb3f0d42d9bfbbcc68598d9139550a9f0516eef5b4dfcbdf1174c75fdea45238",
+      "text": "Coin 3 inflicts 2 Bleed next turn on hit. Use a winning Clash early to raise SP while limiting attrition."
+    },
+    "skills.9.name": {
+      "sourceHash": "565f7bb83bfe1b348f6aa13ec0ee256a0262ad7e520912d0a4c5bf94d64ea187",
+      "text": "Nail Pin"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "880893f43718014bc11e791f1b3caf20874e62541b21c60432b97ceb07d0614e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "1e782fc553efb0da33d4cc75effb940da58c35874885345986c5df013e5ac308",
+      "text": "Ⅱ[On Hit] Inflict 1 Nails next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "c8c7707f752d7207683c685ba11deb11389e7c093dd1b65fe81ba57fe109546b",
+      "text": "Each Coin inflicts 1 Nails next turn on hit. This enables later 5-Nails conditions, so avoid taking repeated unopposed attacks."
+    },
+    "skills.10.name": {
+      "sourceHash": "2906a3be21cbeb1bcf4d1cb8b5c67f119f00f20f350b51f41a5d13489c712a22",
+      "text": "Inquisition"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "5a96340c0a754540140a9ae3d912f67dcdd5b63a9ec843f5081521c17d7c0dc5",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Nails."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "b48fa2476200b52966185a9a87a2ad4118488939cdbf019abf7944538b4f3212",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed next turn."
+    },
+    "skills.10.response": {
+      "sourceHash": "64f372ced1bcab2baca83a62e2384ce37cab887bdf9ad37bb30f2dc7deb01de8",
+      "text": "A 2-Coin Minus skill with Base Power 8 and Coin Power −3. Prevent Nails on a Heads hit and Bleed next turn; account for bonuses after Whistles when checking the prediction."
+    },
+    "skills.11.name": {
+      "sourceHash": "19083a61861b709c13928a8b85b8c2142642c4f634d1853724093b3172a15cd0",
+      "text": "Knock"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "4a2d097735cbc57394e6349527ca6532f11052f8d29dbc46e792c2cc77309a86",
+      "text": "Ⅱ[On Hit] Inflict Paralyze and 1 Defense Power Down next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "e4225f024e8db056f11ed005cb559183ec49f298038e84fca6b971ee213325d8",
+      "text": "Coin 2 inflicts Paralyze and Defense Power Down next turn. The Paralyze value is unspecified and must not be assumed to match the 1 Defense Power Down."
+    },
+    "skills.12.name": {
+      "sourceHash": "40fa3ef0616420197f0b6f187b94a7b09d5181ee6a629e5f6f3d8f81d5c642f7",
+      "text": "Hammer"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "b8c49a415ee94572ae36afd17d052d0716e32f5c670efc9d15b57a1585b16836",
+      "text": "Ⅰ[On Hit] Inflict 3 Bind next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "a6853e0db6fae4ebf35bc62beec3e521ed67434d3caabe62bd6da6743a45f2e4",
+      "text": "The 3 Bind next turn delays action order. Take a winning Clash to avoid carrying disruption into the next Wave on a key Sinner."
+    },
+    "skills.13.name": {
+      "sourceHash": "2906a3be21cbeb1bcf4d1cb8b5c67f119f00f20f350b51f41a5d13489c712a22",
+      "text": "Inquisition"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "5a96340c0a754540140a9ae3d912f67dcdd5b63a9ec843f5081521c17d7c0dc5",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Nails."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "b48fa2476200b52966185a9a87a2ad4118488939cdbf019abf7944538b4f3212",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed next turn."
+    },
+    "skills.13.response": {
+      "sourceHash": "64f372ced1bcab2baca83a62e2384ce37cab887bdf9ad37bb30f2dc7deb01de8",
+      "text": "A 2-Coin Minus skill with Base Power 8 and Coin Power −3. Prevent Nails on a Heads hit and Bleed next turn; account for bonuses after Whistles when checking the prediction."
+    },
+    "skills.14.name": {
+      "sourceHash": "4aa71e9755b12f35f0bd7b4a5d0a03c74de25337c17454d9128c7c86cef96f2b",
+      "text": "Rough Nailing"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "76da1b9cda4a20e0afdcde83ab432d4f9b5d5b9a5c796257bdcff8b78494594c",
+      "text": "Ⅰ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "a4a7b77915eed23515fe5708fa527bb2540ef86001738283dec24743cf234adf",
+      "text": "Ⅱ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "e91abcf69885beb83c4d67f70a67c3e1b8238a263d97e2b1ceb00a698b646c94",
+      "text": "Ⅲ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.14.response": {
+      "sourceHash": "071bf5035eb0d77c147f50ad47519f746ab1a85b96e33a46b20efa0a54d12081",
+      "text": "All 3 Coins can stack Nails and Bleed next turn. Stop it before Nails accumulate on your main attackers."
+    },
+    "skills.15.name": {
+      "sourceHash": "1a7eaeca85912a878da9d929c0245723713cffa1e7792776c7eaa4a2d9f88a34",
+      "text": "You Dare!"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "621a960b26c333b53332b89839ea92842a4096fc171b4c271f2a0fc7cd9248fa",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Nails next turn."
+    },
+    "skills.15.response": {
+      "sourceHash": "f1cdbc0791348ac5316797d819e1077b75e282e49d1426dbd3c6a5a50a4cd16b",
+      "text": "An ordinary Pierce Counter that also inflicts 1 Nails next turn on a Heads hit. Check the resistances and HP of the first Sinner whose attack lands."
+    },
+    "skills.16.name": {
+      "sourceHash": "7b44c65451a82513019d644888b1fc8b711bcc58312e21f6914b397a43392601",
+      "text": "Aggressive Preaching"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "04497afe574013a119b64e65fcd9edc24e5555f17e65b15632eecb732f463673",
+      "text": "[Clash Lose] Gain 2 Fragile next turn."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "0d56a09ea673ff0c910669ee322c1be1aa8b3a8f1e665485b96ef6f45212f4b0",
+      "text": "Ⅱ[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.16.response": {
+      "sourceHash": "0412641124159059de85c09419bfb1dc54d8aae00beb092020f4c03979cd593c",
+      "text": "Making the enemy lose the Clash gives it 2 Fragile next turn. If your Sinner is hit instead, they receive Fragile, so choose a skill that can win."
+    },
+    "skills.17.name": {
+      "sourceHash": "5ba20db4a44ee63c6945b77b79afce649e3d2f623c28f400b50d66a2fd399807",
+      "text": "Assertive Inquisition"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "104185033b4e17d158289bae80bf113215475b9d2bb506011c25dc189f60a6a5",
+      "text": "Ⅱ[On Heads Hit] Inflict 1 Nails."
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "b399c6df4f10edbe7e766fc05c53b885d5468d7f8c42a9c798cc11a607d3265d",
+      "text": "Ⅲ[On Hit] If the target has at least 5 Nails, inflict 10 Bind next turn."
+    },
+    "skills.17.response": {
+      "sourceHash": "8c246c7f8f1e0090f8abcdf6084ced2773142df4cfcb074efd97f40a5c5a8264",
+      "text": "A 3-Coin Minus skill with Base Power 6. Coin 3 inflicts 10 Bind next turn against targets with at least 5 Nails. Do not let it hit a Sinner with many Nails."
+    },
+    "skills.18.name": {
+      "sourceHash": "75abb2c498f882e2d8c925aa45e1ba8c9518b135df9e8a92850e8dc3624813fc",
+      "text": "Vigorous Hammering"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "eb2a5635d42004916dd7efa3220d463127c2901d536fc89ab9a5bf3482611ea6",
+      "text": "Ⅱ[On Hit] Inflict 3 Bind and 2 Paralyze next turn."
+    },
+    "skills.18.response": {
+      "sourceHash": "3bdcdbe391d91d4ca160a56b53490f944ae436c840d52da93c2f29b1b08e91e4",
+      "text": "Coin 2 inflicts 3 Bind and 2 Paralyze next turn. Stop it to avoid carrying disruption into the next Whistles or Wave transition."
+    },
+    "skills.19.name": {
+      "sourceHash": "1a7eaeca85912a878da9d929c0245723713cffa1e7792776c7eaa4a2d9f88a34",
+      "text": "You Dare!"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "621a960b26c333b53332b89839ea92842a4096fc171b4c271f2a0fc7cd9248fa",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Nails next turn."
+    },
+    "skills.19.response": {
+      "sourceHash": "f1cdbc0791348ac5316797d819e1077b75e282e49d1426dbd3c6a5a50a4cd16b",
+      "text": "An ordinary Pierce Counter that also inflicts 1 Nails next turn on a Heads hit. Check the resistances and HP of the first Sinner whose attack lands."
+    },
+    "skills.20.name": {
+      "sourceHash": "cb370464a9f99739af494394be6e6615933733a63b6ff3b2d9dcf9d9e7871763",
+      "text": "Oppressive Preaching"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "625581aef8196aace1edf124cbd73a2b3469c435757182aa1683da149567a04a",
+      "text": "[Clash Lose] Gain 2 Attack Power Down next turn."
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "e3f7045c25f0f81a309ae941bb30ab6800bc117588dc91bfe5d931403c20a210",
+      "text": "Ⅰ[On Hit] Inflict 2 Attack Power Down next turn."
+    },
+    "skills.20.response": {
+      "sourceHash": "3ea32d64783b9599c2aca640ec4d63bebee816048c9930006eb5e33b4c1dec01",
+      "text": "A single Coin reaching 14 Power. Losing the Clash gives the enemy 2 Attack Power Down next turn; if your Sinner is hit, they receive it instead. Use a skill that can beat its current bonuses."
+    },
+    "skills.21.name": {
+      "sourceHash": "5ba20db4a44ee63c6945b77b79afce649e3d2f623c28f400b50d66a2fd399807",
+      "text": "Assertive Inquisition"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "104185033b4e17d158289bae80bf113215475b9d2bb506011c25dc189f60a6a5",
+      "text": "Ⅱ[On Heads Hit] Inflict 1 Nails."
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "b399c6df4f10edbe7e766fc05c53b885d5468d7f8c42a9c798cc11a607d3265d",
+      "text": "Ⅲ[On Hit] If the target has at least 5 Nails, inflict 10 Bind next turn."
+    },
+    "skills.21.response": {
+      "sourceHash": "8c246c7f8f1e0090f8abcdf6084ced2773142df4cfcb074efd97f40a5c5a8264",
+      "text": "A 3-Coin Minus skill with Base Power 6. Coin 3 inflicts 10 Bind next turn against targets with at least 5 Nails. Do not let it hit a Sinner with many Nails."
+    },
+    "skills.22.name": {
+      "sourceHash": "4aa71e9755b12f35f0bd7b4a5d0a03c74de25337c17454d9128c7c86cef96f2b",
+      "text": "Rough Nailing"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "76da1b9cda4a20e0afdcde83ab432d4f9b5d5b9a5c796257bdcff8b78494594c",
+      "text": "Ⅰ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "a4a7b77915eed23515fe5708fa527bb2540ef86001738283dec24743cf234adf",
+      "text": "Ⅱ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "e91abcf69885beb83c4d67f70a67c3e1b8238a263d97e2b1ceb00a698b646c94",
+      "text": "Ⅲ[On Hit] Inflict 1 Nails and 1 Bleed next turn."
+    },
+    "skills.22.response": {
+      "sourceHash": "071bf5035eb0d77c147f50ad47519f746ab1a85b96e33a46b20efa0a54d12081",
+      "text": "All 3 Coins can stack Nails and Bleed next turn. Stop it before Nails accumulate on your main attackers."
+    },
+    "skills.23.name": {
+      "sourceHash": "75abb2c498f882e2d8c925aa45e1ba8c9518b135df9e8a92850e8dc3624813fc",
+      "text": "Vigorous Hammering"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "eb2a5635d42004916dd7efa3220d463127c2901d536fc89ab9a5bf3482611ea6",
+      "text": "Ⅱ[On Hit] Inflict 3 Bind and 2 Paralyze next turn."
+    },
+    "skills.23.response": {
+      "sourceHash": "3bdcdbe391d91d4ca160a56b53490f944ae436c840d52da93c2f29b1b08e91e4",
+      "text": "Coin 2 inflicts 3 Bind and 2 Paralyze next turn. Stop it to avoid carrying disruption into the next Whistles or Wave transition."
+    },
+    "skills.24.name": {
+      "sourceHash": "cb370464a9f99739af494394be6e6615933733a63b6ff3b2d9dcf9d9e7871763",
+      "text": "Oppressive Preaching"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "625581aef8196aace1edf124cbd73a2b3469c435757182aa1683da149567a04a",
+      "text": "[Clash Lose] Gain 2 Attack Power Down next turn."
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "e3f7045c25f0f81a309ae941bb30ab6800bc117588dc91bfe5d931403c20a210",
+      "text": "Ⅰ[On Hit] Inflict 2 Attack Power Down next turn."
+    },
+    "skills.24.response": {
+      "sourceHash": "3ea32d64783b9599c2aca640ec4d63bebee816048c9930006eb5e33b4c1dec01",
+      "text": "A single Coin reaching 14 Power. Losing the Clash gives the enemy 2 Attack Power Down next turn; if your Sinner is hit, they receive it instead. Use a skill that can beat its current bonuses."
+    },
+    "skills.25.name": {
+      "sourceHash": "5ba20db4a44ee63c6945b77b79afce649e3d2f623c28f400b50d66a2fd399807",
+      "text": "Assertive Inquisition"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "104185033b4e17d158289bae80bf113215475b9d2bb506011c25dc189f60a6a5",
+      "text": "Ⅱ[On Heads Hit] Inflict 1 Nails."
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "b399c6df4f10edbe7e766fc05c53b885d5468d7f8c42a9c798cc11a607d3265d",
+      "text": "Ⅲ[On Hit] If the target has at least 5 Nails, inflict 10 Bind next turn."
+    },
+    "skills.25.response": {
+      "sourceHash": "8c246c7f8f1e0090f8abcdf6084ced2773142df4cfcb074efd97f40a5c5a8264",
+      "text": "A 3-Coin Minus skill with Base Power 6. Coin 3 inflicts 10 Bind next turn against targets with at least 5 Nails. Do not let it hit a Sinner with many Nails."
+    },
+    "skills.26.name": {
+      "sourceHash": "c3fb1109553a6e58ad637480e86c90142ad88232e5e138085463d16102c1f752",
+      "text": "Thrusting Nail"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "3a1bf89e204827a90c11864f46a4ae78d4cdc1383bc722cc95253ea6200610e6",
+      "text": "Ⅰ[On Hit] Inflict 2 Nails next turn."
+    },
+    "skills.26.response": {
+      "sourceHash": "91ee4d7fc1c8c71efb3ac90b7fff7458a5c1ae78d25bfa09d0a085913f2ca98f",
+      "text": "On Hit inflicts 2 Nails next turn, setting up Be Cleansed… of Sin! in the final Wave. Limit Nails buildup."
+    },
+    "skills.27.name": {
+      "sourceHash": "8219f79d4cd898ed0f877b2283d6f41c916809721986c91399fe48be662e55c8",
+      "text": "Hardy Faith"
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "d2084510c0b94a9af96d56b2bdf9c022dfcd27a59b8e88e2e9d709c45f9c9931",
+      "text": "[On Use] Gain 1 Protection."
+    },
+    "skills.27.response": {
+      "sourceHash": "b575c643717d27e0be8220b61aef7770a501108b0bd43a721e144363ea3212fd",
+      "text": "Gains 1 Protection On Use. If an attack targets this Guard, consider Offsetting it and reduce enemy numbers before the next Whistles."
+    },
+    "skills.28.name": {
+      "sourceHash": "58f10fdd6f2d5c23f85787974a56013fa2164632781a57d6275c6dfdd867c7f8",
+      "text": "Congregate"
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "04e3344dd74374d196145484cf27090b199958440d9cf7215eec5bf47e635cbd",
+      "text": "[Clash Win] Grant 1 Fanatic to 2 random allies next turn."
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "494fee168d68074e086e5fc2c4b320d0f29ff239ed42464fb022ef9fb9f4c7d7",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed next turn."
+    },
+    "skills.28.response": {
+      "sourceHash": "f0deb23f9b6f8585b830eee4b688bc52e2e922f445a025b65951c1b042b81c9d",
+      "text": "An enemy Clash win grants 1 Fanatic to 2 random allies next turn. Use a skill that can beat its 14 maximum Power to limit teamwide strengthening."
+    },
+    "skills.29.name": {
+      "sourceHash": "5c4bc2ad4d37a51d2af123baf1a315ec97269ec643e6b83927aa867992c3ff77",
+      "text": "Ponderous Inquisition"
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "0e255bb524b385e9e48e2e388a3671a447e23c33c58028804f7039d0265ebab1",
+      "text": "Ⅰ[On Heads Hit] Inflict 2 Nails."
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "7277a9cf4f8d14281acbcb168bdcdf41aface8601d8eb535325cdcc4e0c6f240",
+      "text": "Ⅲ[On Hit] If the target has at least 5 Nails, inflict Attack Power Down and 10 Paralyze next turn."
+    },
+    "skills.29.response": {
+      "sourceHash": "5156c486f89026e1376d0fd82de042a00d7b8f53e5b18f397e0dd405c8dc5e44",
+      "text": "A 3-Coin Minus skill with Base Power 7. Against targets with at least 5 Nails, Coin 3 inflicts 10 Paralyze and Attack Power Down next turn. The latter's value is unspecified. Stop it before it ruins your core team's skills."
+    },
+    "skills.30.name": {
+      "sourceHash": "75ac32318a4f2c7a07505e5c8fd2d603b69da21b35ebf1281844504d45eb3991",
+      "text": "Ruling Hammer"
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "ef98e9cb8abc391c62c6eec67109fb7b11eeffb373b229a3dfdc2c0217cefd47",
+      "text": "Ⅰ[On Heads Hit] Inflict 3 Bind and 2 Attack Power Down next turn."
+    },
+    "skills.30.response": {
+      "sourceHash": "d63979de52384ab9081270c1b17752acb9b05bcc9613910db5aa53d41c6403e5",
+      "text": "A Heads hit inflicts 3 Bind and 2 Attack Power Down next turn. Protect not only low-HP Sinners, but also those needed for the next Clashes."
+    },
+    "skills.31.name": {
+      "sourceHash": "8219f79d4cd898ed0f877b2283d6f41c916809721986c91399fe48be662e55c8",
+      "text": "Hardy Faith"
+    },
+    "skills.31.effects.0": {
+      "sourceHash": "d2084510c0b94a9af96d56b2bdf9c022dfcd27a59b8e88e2e9d709c45f9c9931",
+      "text": "[On Use] Gain 1 Protection."
+    },
+    "skills.31.response": {
+      "sourceHash": "b575c643717d27e0be8220b61aef7770a501108b0bd43a721e144363ea3212fd",
+      "text": "Gains 1 Protection On Use. If an attack targets this Guard, consider Offsetting it and reduce enemy numbers before the next Whistles."
+    },
+    "skills.32.name": {
+      "sourceHash": "7810a8bc78dbd961eba47e540da839aabd560fdaa5cf19ed10f9ce7755c1825e",
+      "text": "Unite"
+    },
+    "skills.32.effects.0": {
+      "sourceHash": "843c899bd4b715490f632eb825d91da70f9cad05614f83e1d9ea58eaa8e8be5a",
+      "text": "[Clash Win] Heal 15 SP for the 2 allies with the lowest SP."
+    },
+    "skills.32.effects.1": {
+      "sourceHash": "494fee168d68074e086e5fc2c4b320d0f29ff239ed42464fb022ef9fb9f4c7d7",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed next turn."
+    },
+    "skills.32.response": {
+      "sourceHash": "322a17bf542244c6f39e837e9e0812e7870eab10bd9e98952681c7cf66b17d85",
+      "text": "An enemy Clash win heals 15 SP for its 2 lowest-SP allies. Choose a winning skill to prevent the SP gap from widening."
+    },
+    "skills.33.name": {
+      "sourceHash": "5c4bc2ad4d37a51d2af123baf1a315ec97269ec643e6b83927aa867992c3ff77",
+      "text": "Ponderous Inquisition"
+    },
+    "skills.33.effects.0": {
+      "sourceHash": "0e255bb524b385e9e48e2e388a3671a447e23c33c58028804f7039d0265ebab1",
+      "text": "Ⅰ[On Heads Hit] Inflict 2 Nails."
+    },
+    "skills.33.effects.1": {
+      "sourceHash": "7277a9cf4f8d14281acbcb168bdcdf41aface8601d8eb535325cdcc4e0c6f240",
+      "text": "Ⅲ[On Hit] If the target has at least 5 Nails, inflict Attack Power Down and 10 Paralyze next turn."
+    },
+    "skills.33.response": {
+      "sourceHash": "5156c486f89026e1376d0fd82de042a00d7b8f53e5b18f397e0dd405c8dc5e44",
+      "text": "A 3-Coin Minus skill with Base Power 7. Against targets with at least 5 Nails, Coin 3 inflicts 10 Paralyze and Attack Power Down next turn. The latter's value is unspecified. Stop it before it ruins your core team's skills."
+    },
+    "passives.0.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.0.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.0.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.0.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.1.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.1.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.1.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.1.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.2.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.2.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.2.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.2.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.3.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.3.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.3.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.3.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.4.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.4.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.4.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.4.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.5.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.5.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.5.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.5.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.6.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.6.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.6.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.6.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.7.name": {
+      "sourceHash": "48bb64279d89e6a24a952bf36a0416e01898679fc688cdcf4549ae99b83c330d",
+      "text": "Noble be Thy Sacrifice"
+    },
+    "passives.7.condition": {
+      "sourceHash": "5836c8d42dc1efbe331ab44d1b1b6e12e49b081ea6c170b63e17976312fc44df",
+      "text": "An ally dies"
+    },
+    "passives.7.effect": {
+      "sourceHash": "63375b6f0a9f89cf3c4edd58e4953ad83e388d2bfad949b9bee589c3f1038f49",
+      "text": "At the start of the next turn, gain 1 Attack Power Up."
+    },
+    "passives.7.response": {
+      "sourceHash": "920a697141f3f8f63a6e5235953b752796b7d60d1cdbe62caab9eeeceab2328e",
+      "text": "After reducing enemy numbers, still account for their bonuses in next turn's predictions."
+    },
+    "passives.8.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.8.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.8.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.8.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.9.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.9.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.9.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.9.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.10.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.10.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.10.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.10.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.11.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.11.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.11.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.11.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.12.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.12.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.12.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.12.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.13.name": {
+      "sourceHash": "d0e78399fd20a4f0a8be3708b6b2767ec891c07a52b00fd4bde395d1f4aa978d",
+      "text": "Joy of Execution"
+    },
+    "passives.13.condition": {
+      "sourceHash": "87d1394c18e8675e9d18e1a024c3d8506776b7de88c0fab66b721cb087913df0",
+      "text": "Defeat an enemy"
+    },
+    "passives.13.effect": {
+      "sourceHash": "fc1ef199ba52568faf6934fcefb8921c7daae4a2ffad5e9359cffaf6c2de63dd",
+      "text": "At the start of the next turn, gain 2 Damage Up."
+    },
+    "passives.13.response": {
+      "sourceHash": "d13767acac2e43b14f4a445f3f2a7cbe46402df08e8139f6be2fed5a12cbde66",
+      "text": "Prevent repeated hits and kills against low-HP Sinners."
+    },
+    "passives.14.name": {
+      "sourceHash": "444930f26e773b30dc1553f6421d153d63210eb15f033b90285b06fab857fd59",
+      "text": "Hammer of the One Who Grips"
+    },
+    "passives.14.condition": {
+      "sourceHash": "3b363b5aacea4a8360da095c8ab804021ea1fe2c537c038884bd57b699ad181b",
+      "text": "While alive / on death"
+    },
+    "passives.14.effect": {
+      "sourceHash": "21af9901e5e3eba47e3fcd3526e4f878e6c267b81a1766adbcf7b659724e84f6",
+      "text": "While alive, heal 10 SP for all allies at Turn Start. On death, reduce all allies' SP by 45."
+    },
+    "passives.14.response": {
+      "sourceHash": "e24b7616e95ccc1c0a4c3d8ecbaea04a2af8e6f8a0a831fbab538c373d736f5e",
+      "text": "Defeating the main enemy also weakens the remaining adds."
+    },
+    "passives.15.name": {
+      "sourceHash": "382106272e718ca442882d8c48062b4814b3f82d4b7641e713e8024e00d37ec8",
+      "text": "Thou Shalt Hammer"
+    },
+    "passives.15.condition": {
+      "sourceHash": "e1a95265a051fb0fd2ceea24285ad07f85de80eeb7b8b53a61a4fac04eb2f3ea",
+      "text": "Self has Fanatic"
+    },
+    "passives.15.effect": {
+      "sourceHash": "9740b4d408180ddb370fda37a2436e9116d29a8844552510a2486784fb1cc562",
+      "text": "Deal +50% damage."
+    },
+    "passives.15.response": {
+      "sourceHash": "3668995fb10160184976aadb36d6b1847f993193b663d067058c330c3c2ea5c6",
+      "text": "Avoid hits on turns after Whistles or teamwide Fanatic."
+    },
+    "passives.16.name": {
+      "sourceHash": "ab9d3a3823fa049c2b766a20743ad2516e4ab49a178e4d90cef27833503d0307",
+      "text": "Persistence"
+    },
+    "passives.16.condition": {
+      "sourceHash": "38645897aea8d72db4d9934a5e7472df40d4a5f20335a7e52746e397b47aa82a",
+      "text": "Below 50% HP"
+    },
+    "passives.16.effect": {
+      "sourceHash": "6758608236a19d468ed90c4238575e9909076a803000476762b1662dff35b2de",
+      "text": "At the start of the next turn, remove own negative effects; each turn, gain 4 Fanatic, 1 Attack Power Up, and 1 Defense Power Up."
+    },
+    "passives.16.response": {
+      "sourceHash": "a16f743a0c5f220deb5c84434d38ce27a6168fbffa4346b1118c49919f320610",
+      "text": "After crossing half HP, concentrate damage toward the next Stagger and the kill."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "a8851ae0328be95786e119eeff5fc12f1d6e75cfe952b2d2207a494ca191151c",
+      "text": "Kromer’s Whistles"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "8d311502f4227f31c5d84f43131ac3e15dd4b0fd4b4b79489316266ac23228c0",
+      "text": "Every 3 turns, all enemies heal 15 SP and gain 1 Attack Power Up, 1 Defense Power Up, and 2 Fanatic. If Sinclair is deployed, he loses 30 SP."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "fa0c26608bdf64eb1b40e46a03b3c53fabc2c3f0185da0d5e50bda3b4c5c2a32",
+      "text": "Track the total turn count and avoid overlapping the next Wave's arrival with Whistles."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "0453ff385abbb50a699adaa08fb43e35d8029995e6a4573a644ab01cc809a9d3",
+      "text": "Fanatic"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "c397f7ede2bf06f32504840af168c9bc55dd42bf2abd021c7f78f0f646f75fab",
+      "text": "When attacking a target with Nails, increase Final Power by this value. Guido also gains Thou Shalt Hammer's damage bonus simply by having Fanatic."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "78a815f91b0930ba2bb943a8c27858e8983ea0700b31924fce9661e7000f6c82",
+      "text": "Check both allied Nails and enemy Fanatic."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7117fb7d3dde727c582977e3850b260f5fbb495bcdb02a4d4893e0e98b0d7c50",
+      "text": "Conditions requiring at least 5 Nails"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4cb8b0f2b2b3efa78f9b83c4d869de5a23f827e34026e1a763c6a37825086854",
+      "text": "Be Cleansed… of Sin! forces Stagger; Ponderous Inquisition leads to 10 Paralyze next turn; Assertive Inquisition leads to 10 Bind next turn."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "f342eff2905a21fd1da0bfb89f205b57ff1084f33b3b4c6a12765987b363dd5a",
+      "text": "Stop attacks that add Nails and prevent hits on key Sinners who already meet the condition."
+    },
+    "warnings.0": {
+      "sourceHash": "eb839d45b50fb6ebdc695df57a83ee9147cf92f0a71a8f9641078f0d6673fa87",
+      "text": "Whistles follow the encounter's total turn count; the cycle does not restart each Wave."
+    },
+    "warnings.1": {
+      "sourceHash": "a1c87ab746e8bb3b20cfa987e2fb3b781edc291aa5ff87119322fb73e8ee04ef",
+      "text": "This is a regular encounter without free retargeting. When replacing a weak Clash with defense, check which attack will actually hit that Sinner."
+    },
+    "warnings.2": {
+      "sourceHash": "0bd9e9a56c8b4c3a9c4e74faeee8690a8a841094e1e22ab892e46ddce357e522",
+      "text": "Ordinary Counters cannot be Offset with defense. Do not make a low-HP Sinner or one weak to Pierce the first attacker."
+    },
+    "warnings.3": {
+      "sourceHash": "ac528617c25f8e360e52413a2dae519b50e08c70c31744f02c287c25d7c240af",
+      "text": "Guido in 3-13 differs in HP, Speed, skills, and whether Persistence is present."
+    },
+    "preparation.0": {
+      "sourceHash": "3cf351b6aac18972889fbd19182205925254befd317ac45f26d90bfa284e3bb4",
+      "text": "Aim for 5 deployed Sinners around Lv. 27 and Uptie Ⅲ or higher. Every enemy is weak to Blunt."
+    },
+    "preparation.1": {
+      "sourceHash": "bc4f40a8c307ca52ca4380239ee3c992231fd2dd3a87207e726b874552715a1c",
+      "text": "Prepare HP-healing and high-Power E.G.O, and collect their resources along the way."
+    },
+    "preparation.2": {
+      "sourceHash": "f165e5b21da7cd7e24e86eb5d480f590bf3c0818a8638180142295e200163847",
+      "text": "If using Sinclair, account for the Whistles' SP loss and manage SP and equipped E.G.O that can Corrode."
+    },
+    "roles.0.name": {
+      "sourceHash": "a8e0d5e58907bd99e6ec0ea7829d6593fb0fde88ac2a5cc2be88c0ade0ce3e73",
+      "text": "Core Blunt attackers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "7d65b03f5aeea463a78cde8336b5fbf59efd6fa492d831b13756871d0e6f7cf2",
+      "text": "Stagger enemies and reduce their numbers before Whistles."
+    },
+    "roles.1.name": {
+      "sourceHash": "68127a9c447db145c0bb3ad234dc0d5561c5948aedb71b64a186102ef30ad68b",
+      "text": "Forced Stagger prevention"
+    },
+    "roles.1.reason": {
+      "sourceHash": "fee8fc802bfe31cbfbc9fe8e2a26dd5493f4a0a407245a53c30775895fb28067",
+      "text": "Reserve high-Power skills for Be Cleansed… of Sin!."
+    },
+    "roles.2.name": {
+      "sourceHash": "08d64f7379e4112472e17cd51d668c8963fb72abfad29f683fdf94560f9e8956",
+      "text": "HP healing"
+    },
+    "roles.2.reason": {
+      "sourceHash": "809c3e146c03d57f2f6da0680881cd43e7cdbbe8712a8e1c461f2dd7f0d0fc91",
+      "text": "Recover from Bleed and Nails attrition across the 3 Waves."
+    }
+  },
+  "messages": {
+    "boss-copy:guido": "complete",
+    "【リンバス】3-18 執念のグイド（3-18）の攻略｜Limbus Assistant": "3-18 Guido the Persistent (3-18) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)3-18「執念のグイド（3-18）」の攻略。3ターンごとの口笛と、次のWaveの登場が重ならないように進める。道中で精神力・行動スロット・回復資源を整え、最終Waveでは釘5による強制混乱を防ぐ。グ…": "Guido the Persistent (3-18) guide for Limbus Company 3-18. Avoid having the next Wave arrive on a Whistle turn, which occurs every 3 turns. Build SP, action slots, and healing resources along the way, then prevent forced Stagger from 5 Nails in the final Wave. Defeating Guido greatly reduces the remaining enemies' SP.",
+    "3-18 執念のグイド（3-18）": "3-18 Guido the Persistent (3-18)",
+    "3-18「Inferno 2」": "3-18 · Inferno 2",
+    "執念のグイドの外見": "Guido the Persistent appearance",
+    "執念のグイドのスキル": "Guido the Persistent skills",
+    "Guido the Persistentの外見": "Guido the Persistent appearance",
+    "Guido the Persistentのスキル": "Guido the Persistent skills",
+    "崇めるN社異端審問官の外見": "Servile N Corp. Inquisitor appearance",
+    "崇めるN社異端審問官のスキル": "Servile N Corp. Inquisitor skills",
+    "Servile N Corp. Inquisitorの外見": "Servile N Corp. Inquisitor appearance",
+    "Servile N Corp. Inquisitorのスキル": "Servile N Corp. Inquisitor skills",
+    "従うN社異端審問官の外見": "Compliant N Corp. Inquisitor appearance",
+    "従うN社異端審問官のスキル": "Compliant N Corp. Inquisitor skills",
+    "Compliant N Corp. Inquisitorの外見": "Compliant N Corp. Inquisitor appearance",
+    "Compliant N Corp. Inquisitorのスキル": "Compliant N Corp. Inquisitor skills",
+    "拷問するN社異端審問官の外見": "Scourging N Corp. Inquisitor appearance",
+    "拷問するN社異端審問官のスキル": "Scourging N Corp. Inquisitor skills",
+    "Scourging N Corp. Inquisitorの外見": "Scourging N Corp. Inquisitor appearance",
+    "Scourging N Corp. Inquisitorのスキル": "Scourging N Corp. Inquisitor skills",
+    "審問に長けたN社異端審問官の外見": "Interrogative N Corp. Inquisitor appearance",
+    "審問に長けたN社異端審問官のスキル": "Interrogative N Corp. Inquisitor skills",
+    "Interrogative N Corp. Inquisitorの外見": "Interrogative N Corp. Inquisitor appearance",
+    "Interrogative N Corp. Inquisitorのスキル": "Interrogative N Corp. Inquisitor skills",
+    "苦痛を楽しむN社異端審問官の外見": "Sadistic N Corp. Inquisitor appearance",
+    "苦痛を楽しむN社異端審問官のスキル": "Sadistic N Corp. Inquisitor skills",
+    "Sadistic N Corp. Inquisitorの外見": "Sadistic N Corp. Inquisitor appearance",
+    "Sadistic N Corp. Inquisitorのスキル": "Sadistic N Corp. Inquisitor skills",
+    "執着するN社異端審問官の外見": "Obsessive N Corp. Inquisitor appearance",
+    "執着するN社異端審問官のスキル": "Obsessive N Corp. Inquisitor skills",
+    "Obsessive N Corp. Inquisitorの外見": "Obsessive N Corp. Inquisitor appearance",
+    "Obsessive N Corp. Inquisitorのスキル": "Obsessive N Corp. Inquisitor skills",
+    "無上の喜びに浸る異端審問官の外見": "Joyous N Corp. Inquisitor appearance",
+    "無上の喜びに浸る異端審問官のスキル": "Joyous N Corp. Inquisitor skills",
+    "Joyous N Corp. Inquisitorの外見": "Joyous N Corp. Inquisitor appearance",
+    "Joyous N Corp. Inquisitorのスキル": "Joyous N Corp. Inquisitor skills"
+  }
+}

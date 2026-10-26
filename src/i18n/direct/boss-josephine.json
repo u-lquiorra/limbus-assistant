@@ -1,0 +1,973 @@
+{
+  "kind": "boss-copy",
+  "id": "josephine",
+  "source": "src/data/bosses/josephine.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "ジョセフィーヌ",
+          "en": "Josephine",
+          "file": "Enemies-a1c6p1.json",
+          "id": "91014"
+        },
+        {
+          "ja": "鍛錬したワザリング・ハイツバトラー",
+          "en": "Trained Wuthering Heights Butler",
+          "file": "Enemies-a1c6p1.json",
+          "id": "90127"
+        },
+        {
+          "ja": "険悪なワザリング・ハイツバトラー",
+          "en": "Hostile Wuthering Heights Butler",
+          "file": "Enemies-a1c6p1.json",
+          "id": "90126"
+        },
+        {
+          "ja": "ノック",
+          "en": "Knocking",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9101401"
+        },
+        {
+          "ja": "掃除の時間だ！",
+          "en": "Time to Clean!",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9101402"
+        },
+        {
+          "ja": "奥様の仰せの通り…！",
+          "en": "As Mistress Commands...!",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9101403"
+        },
+        {
+          "ja": "一片の埃も…なきように！",
+          "en": "Not Even a Speck of Dust!",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9101404"
+        },
+        {
+          "ja": "鼠野郎め！",
+          "en": "Slippery Rat!",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9101405"
+        },
+        {
+          "ja": "掃除開始",
+          "en": "Housekeeping Start",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012601"
+        },
+        {
+          "ja": "接客道二式 脱力",
+          "en": "Reception Arts 2: Topple",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012703"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011404"
+        },
+        {
+          "ja": "接客道二式 拘束",
+          "en": "Reception Arts 2: Bind",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012603"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        },
+        {
+          "ja": "きちんと片付けてやろう…",
+          "en": "I'll Clean You Up...",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9101401"
+        },
+        {
+          "ja": "申し訳ございません…奥様！",
+          "en": "Apologies... Mistress!",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9012602"
+        },
+        {
+          "ja": "無礼者が…！",
+          "en": "Insolent Fool!",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9101402"
+        },
+        {
+          "ja": "奥様の声が…！",
+          "en": "The Mistress's Voice...!",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9101403"
+        },
+        {
+          "ja": "奥様、見てらっしゃいますか！？",
+          "en": "Will You Witness Me, Mistress?!",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9101404"
+        },
+        {
+          "ja": "最善を…尽くします",
+          "en": "I Will... Do My Best",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9012601"
+        },
+        {
+          "ja": "喪失",
+          "en": "Bereavement",
+          "file": "Bufs-a1c6p1.json",
+          "id": "AaCfPaBa"
+        },
+        {
+          "ja": "掃除開始",
+          "en": "Commence Housekeeping",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012701"
+        },
+        {
+          "ja": "招かざる客の応対",
+          "en": "Interloper Response",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012702"
+        },
+        {
+          "ja": "招かざる客の出迎え",
+          "en": "Interloper Reception",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9012602"
+        },
+        {
+          "ja": "邸宅の木霊",
+          "en": "Echoes of the Manor",
+          "file": "Bufs.json",
+          "id": "EchoOfMansion"
+        },
+        {
+          "ja": "果てしない喪失",
+          "en": "Unending Bereavement",
+          "file": "Bufs.json",
+          "id": "AaCfPaBa_Alt1"
+        }
+      ],
+      "note": "Exact game IDs distinguish shared Japanese names. Guide spelling and ellipsis variants are resolved against these paired localization records."
+    }
+  },
+  "scopedTerms": [
+    "掃除開始"
+  ],
+  "scopedPaths": [
+    "passives.3.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "f69f4fff341da41932857dd1dfb03cefd7005e21439732d89fd90d43850485c9",
+      "text": "Josephine (6-15)"
+    },
+    "shortName": {
+      "sourceHash": "fbc8345ae2c5df858d72b67a89e5977f7560d58fbcda96588fce20f65fa93c93",
+      "text": "Josephine"
+    },
+    "stageName": {
+      "sourceHash": "8bfcb898a135deb697145fae0af2e54871d8505876a8fffad1bb00e547be6456",
+      "text": "Corridor 2"
+    },
+    "lead": {
+      "sourceHash": "dd6fa8f3e6bbb3e47785305a08cdcd879806f23b948fb1c0f2e413e9b9a0bee6",
+      "text": "Build SP and E.G.O resources in earlier Waves, then prevent Sinking and disruption through Clashes in the final Wave. Josephine removes her first Stagger at Turn End, so concentrate follow-up damage that same turn. Faster Sinners also help avoid her Speed-based Clash bonus."
+    },
+    "listLead": {
+      "sourceHash": "d9a4a68f477a0e42b66c30ed51dfce681cbfe0cc874c9dc81c6ec5a06a359689",
+      "text": "Prepare SP and resources along the way while limiting Sinking and disruption. The first Stagger ends at Turn End, so concentrate follow-up damage within that same turn."
+    },
+    "statNote": {
+      "sourceHash": "fa926b8de17385c2da83a1b98759d075feeeb3a0867c9fccb458e94d98d16893",
+      "text": "The Regular Encounter in 6-15. Enemies are Level 42; Josephine has 654 HP and Defense Level 40, while both add types have 189 HP and Defense Level 37. Each of the first 2 Waves has 3 Trained and 2 Hostile Butlers. Josephine and both Butler types appear in the final Wave. Regular Encounter targeting does not allow the same freedom as a Focused Encounter."
+    },
+    "skillNote": {
+      "sourceHash": "4db95c8563043af6295331d17fe2dc0191cd0c7b48105b58a9c8a3208b4b78e6",
+      "text": "Josephine has 5 listed skills; each add has 4. Trained Butler's Interloper Response has no Coin number on the second Sinking Count line, so none is added here. The adds' Guard skills have no listed weight. Displayed power excludes Speed, Sinking, and Combat Start bonuses."
+    },
+    "priorities.0": {
+      "sourceHash": "ae646723b7151c1ed193273c128fbadd9c6b524e88a3a5e49ea7901ab1a6e99e",
+      "text": "Aim for Level 42 and Uptie III or higher on your main units, with Blunt and Slash attacks. Build SP and major-skill resources in the first 2 Waves."
+    },
+    "priorities.1": {
+      "sourceHash": "2f531fcc1f14e95dea2231e5f4ea5c5dfd8f66fd28e1ab926bb10d254b579523",
+      "text": "Prevent unopposed attacks from stacking Sinking, Paralyze, and Bind. Josephine gains +2 Clash Power against slower targets."
+    },
+    "priorities.2": {
+      "sourceHash": "87648b270725f0afbd4c1577359f54e8b430d21090c713a3988db89621ced997",
+      "text": "Her first Stagger is removed at Turn End, once at most. Save strong follow-up attacks for the Stagger turn rather than relying on unopposed attacks next turn."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "e246ef925ba1e650b4a6c745bc9e9cb781e8896977eea54d0c5458507517dcb5",
+      "text": "She acts next turn despite being Staggered"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "9d5894244f3a9fe0c75ff569ccc7cf765babbe9e7593d0a8641eb89697eb926b",
+      "text": "I'll Clean You Up... removes Stagger at Turn End if she became Staggered that turn, at most once. It does not negate every Stagger, but use the first opening for same-turn follow-up attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "429cbdd48927b0c8a48f951f581e6fdf6e191fb9a6a31c34cb792552aa730a1a",
+      "text": "Skills exceed listed power while your SP keeps falling"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "788e2a9fb35216cbdc18b6a7cfd4ed95e5708fcb21b30cd8eea25f63084904d9",
+      "text": "She has +2 Clash Power from Speed advantage, Sinking-based Base Power, and Combat Start Offense Level Up. Win Clashes before repeated Sinking hits build up, and use SP recovery."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "b8dfa00346b3ff0cb3acba50a8af450e1d6edb90c140f7fc2a3b81a46d19d7fd",
+      "text": "Attacking her Guard pushes Stagger farther away"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "843673208a3c341fa0c90143320cfe758e38119cd400111075a9228338abdb29",
+      "text": "If Slippery Rat!'s Shield remains at Turn End, her Stagger Threshold is lowered by 50. Offset Guard or fully break the resulting Shield in the same turn."
+    },
+    "units.0.name": {
+      "sourceHash": "fbc8345ae2c5df858d72b67a89e5977f7560d58fbcda96588fce20f65fa93c93",
+      "text": "Josephine"
+    },
+    "units.0.part": {
+      "sourceHash": "e725fc4359abcd57f2280a4770c9b3ba123c8dc1a431e8810c1fd72a37dfdcf9",
+      "text": "Core"
+    },
+    "units.0.stagger": {
+      "sourceHash": "d02d3ef21a0b62dd6c7b6e51084b8445575d82c6b4039b28786c559480c73631",
+      "text": "55% / 30% / 0% (359 / 196 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "79664248a5bb3cd167a6d2e1e5eb694a3d0cddea1ba0e274004786ab553cdfc2",
+      "text": "Appears in the final Wave. Add deaths grant up to 2 extra action slots. Check the actual action count in battle."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "4d4e476f9aaafca4fd42130133ec2e9ae10a42f0a8907a075f65bfdf0def9919",
+      "text": "Once at most, if Staggered that turn, remove Stagger at Turn End, heal 20 SP, and gain 1 Offense Level Up next turn."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "4f168193d0919dd1c348b1ac394e36a3fb9821bd0d06096afbca4ef8bba66183",
+      "text": "Gain +2 Clash Power when faster than the target."
+    },
+    "units.1.name": {
+      "sourceHash": "6cdf9430cc93f6f3ef620c0c4e3e9d6cf072375a91528e8003a7e1c6db646415",
+      "text": "Trained Wuthering Heights Butler"
+    },
+    "units.1.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.1.stagger": {
+      "sourceHash": "0c282a54dcf614bae14b20ed63226fc637cbf6fdd5a4bc7d2663a831f8147a3d",
+      "text": "80% / 40% / 0% (151 / 75 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "31fed8828249127f061b7f65c349fa509908675e982e5e128825bc4cf249cd8e",
+      "text": "Level 42 enemies appearing in the first 2 Waves and the final Wave."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "288b4472c2404d67c65b54e091328d2855ff74d938e59b64f82e2874f622d4e3",
+      "text": "Inflicts Sinking Count, Paralyze, and Offense Level Down."
+    },
+    "units.2.name": {
+      "sourceHash": "797369355ba8a8f8346a10b39fd1aaf52fbb926429b659e52b7402c2a86234bc",
+      "text": "Hostile Wuthering Heights Butler"
+    },
+    "units.2.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.2.stagger": {
+      "sourceHash": "0c282a54dcf614bae14b20ed63226fc637cbf6fdd5a4bc7d2663a831f8147a3d",
+      "text": "80% / 40% / 0% (151 / 75 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "31fed8828249127f061b7f65c349fa509908675e982e5e128825bc4cf249cd8e",
+      "text": "Level 42 enemies appearing in the first 2 Waves and the final Wave."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "2884ff9fbd392c2c7dd978de37fc30fc2b836232fc649c86526670fe41e19216",
+      "text": "Inflicts Sinking, Bind, and Defense Level Down."
+    },
+    "phases.0.timing": {
+      "sourceHash": "aaf827e8293559080ec6abdd8222a3ffee59ebc6e78a5844fa7799c8561ca895",
+      "text": "Waves 1–2"
+    },
+    "phases.0.title": {
+      "sourceHash": "ebfc4783a76d60e8d387e687d605d0d64388a8d97236953b8bb8755bdd48ba81",
+      "text": "Build SP through Clashes and prevent lingering debuffs"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "596d366af1999a3c753fd122affc2ed55c106fac6c9b5e5bcf8c420a485ccab8",
+      "text": "Each Wave has 3 Trained and 2 Hostile Butlers. Use Blunt to Stagger them and reduce unopposed attacks from remaining enemies."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "a2d2b7d8d360a81236dc510cf02f20e32a80cd6debf970d155c7561de4eb371c",
+      "text": "Build resources for healing and powerful E.G.O. Sinners with heavy Sinking strengthen enemy Reception Arts 2 skills, so check Clash odds and debuffs every turn."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "27000f6a9acd177b1a549c4842784698b4f5aa6954ad9cc0616d10e6d3abd2a6",
+      "text": "Heathcliff is not mandatory. If ordinary Bereavement makes his SP hard to maintain, consider another trained Sinner."
+    },
+    "phases.1.timing": {
+      "sourceHash": "aad37518b3abd7c6e246ecebb3b960f58f3e92b83ab873ef37d2ba8cf3a58410",
+      "text": "Final Wave / before Stagger"
+    },
+    "phases.1.title": {
+      "sourceHash": "434e9a8c5aeaa847ea7a63b5d7428a8398f3b5391faa80dc9c0f64224f00dbdc",
+      "text": "Prevent Speed- and Sinking-based bonuses"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "daee2ab0d7eab2414d559c72db6370a11492a6caf8389938ed728d8ed90a561d",
+      "text": "Assign winning skills against Josephine. Defeating adds increases her action slots, so check her attacks after cleanup too."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "1236c538462afc9731e49777d8959b67bd92fc400e737f69e783a85edfc95cc1",
+      "text": "As Mistress Commands...! scales with the target's Sinking Potency. Not Even a Speck of Dust! grants team-wide buffs at Combat Start, which still activate even if you win the Clash."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "d7b0820a92e9bb0eda29f8862feb716d19f26a5b501d69d8ba1d80c96c77e079",
+      "text": "When attacking Slippery Rat!, choose between offsetting Guard and breaking the Shield. Avoid leaving it intact after only weak attacks."
+    },
+    "phases.2.timing": {
+      "sourceHash": "29b91007426d94ead4875d822dc290e410e6acece9ab004d29c70172b095ee13",
+      "text": "First Stagger / finishing the fight"
+    },
+    "phases.2.title": {
+      "sourceHash": "16d20b864e16c439bf3b60fc5729009b9ce5b1e0e54de098413c6fe994884985",
+      "text": "Follow up on the turn you cause Stagger"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "70a266f86713d1c60f570bc13582641f589081d36ab7919afbcf68dc1168285a",
+      "text": "The first Stagger ends at Turn End. Cause it with an early attack, then land the rest of your damage that same turn."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "62eeb3306dfbb35b3b67b410d85a23e97df4a19129661f3691edfcf04c5e4500",
+      "text": "Removal occurs at most once. Later Stagger Thresholds remain useful, but recheck predictions after her SP recovery and next-turn buff."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "56c7dc36e71ab4469484652fb08ef20f79f8a2bbae95a9fc5fda050cfe692297",
+      "text": "Avoid making heavily Sinking-afflicted Sinners keep attacking at low SP. Spend resources on SP recovery and dangerous Clashes, limit add disruption, and finish the fight."
+    },
+    "skills.0.name": {
+      "sourceHash": "39685900bbaa45edb814db659c2520be15e8f32717d263574db13fcba61bef9e",
+      "text": "Knocking"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a5553dae38f3c04b67d19279f17c3a4eaa18a28c0ae12d105125f0685f5731de",
+      "text": "[On Use] If the target has at least 5 Sinking Potency, inflict 1 Offense Level Down."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "b6a1d7e264eef6d95ca79d43160f0ba106cadf56ded41c2c2d4a49d04e87b509",
+      "text": "[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "8204dc4bd5b80dfa85b1725f3a840ca0b76c9fca11a2ba22567fe27fd7f48608",
+      "text": "Stacks Sinking with next-turn Bind and Paralyze. The [On Use] Offense Level Down activates at 5 Sinking Potency, so check current predictions even when preventing hits."
+    },
+    "skills.1.name": {
+      "sourceHash": "ad019d7d94a16aee4c66af17cc9ce727d408f458f07540f038c8bdacefbefbbe",
+      "text": "Time to Clean!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "883fb18793fd0d6780330a9feab2ae1af4aef9c351f163bb87f4644cb5c2be51",
+      "text": "[On Use] If the target has 10 SP or less, inflict 2 Offense Level Down."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "378eedcfa6c414aec5f0083832e9f7f18ccf4390e96812808ef2a92a37d68134",
+      "text": "[Clash Win] Inflict 1 Fragile."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "fe90511e342568a9fdcd77c18f5f31441b4a21a00602568e6bcf5a6cc8b5b163",
+      "text": "Ⅰ[On Hit] Inflict 1 Plus Coin Drop next turn."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "d4aeae1bdb905e8a5a3e30b0a706c3c801dfed86ab8c4250d410f25f82e65aea",
+      "text": "　[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "8d61cfb497da1b43263b8d2237d9abc4fed3d81097a53d9cfb167cc24373aae6",
+      "text": "At 10 SP or less, the target loses Offense Level [On Use]. Plus Coin Drop next turn and Fragile are also dangerous; keep unopposed hits away from low-SP allies."
+    },
+    "skills.2.name": {
+      "sourceHash": "d0b04733dbebc9f1a880cae19abe3b890b72036f3a17e72c8a9b1e40bcd1d960",
+      "text": "As Mistress Commands...!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "f51aa20343c4d6f5eb956e9f065db8650d73585c9794c9a46d84556e8198dffd",
+      "text": "[On Use] Gain +1 Base Power per 3 Sinking Potency on the target, up to 3."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "06edb4c5e52a6f9fec46f8f7f53d8b04f1acc44209a8ec3fbdc50a24c10691bc",
+      "text": "[Clash Win] Heal 5 SP for all allies."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a6694333eae7ee42ef4c06dd765dc782aee69e250a0f4eccf29ccb892f71486c",
+      "text": "Ⅰ[On Hit] Inflict 8 Sinking."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "b796a00df1b5597960bd6969dcc66cd58ef7a6ffdf6761b16be9a65c2ba2f8a0",
+      "text": "[Heads Hit] Increase Sinking Count by 2."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "c107c4e98cbb68aa44e4f83ee1c0c88b68d84bced5eb54170f2cea097e9ce3a8",
+      "text": "Ⅱ[On Hit] Inflict 8 Sinking."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "b796a00df1b5597960bd6969dcc66cd58ef7a6ffdf6761b16be9a65c2ba2f8a0",
+      "text": "[Heads Hit] Increase Sinking Count by 2."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "4bb7723ead750a025be53b137a8191580e3558e5ca24d1cd9a6834a8c5acd7e4",
+      "text": "Ⅲ[On Hit] Inflict 2 Echoes of the Manor next turn."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "8e0f1d1c3d06c1168733b4b99891cf06e9e207e720ba2324bcba2f38603d7c8e",
+      "text": "[On Hit] Inflict 8 Sinking."
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "b796a00df1b5597960bd6969dcc66cd58ef7a6ffdf6761b16be9a65c2ba2f8a0",
+      "text": "[Heads Hit] Increase Sinking Count by 2."
+    },
+    "skills.2.response": {
+      "sourceHash": "a7ac39adc7c573ebbd33bcb720d2224a37edbff3e560c00fdbf539f1dc73f4f2",
+      "text": "Gains +1 Base Power per 3 target Sinking Potency, up to +3. Heavy Sinking makes it stronger than its listed base range. Win with a strong skill to also prevent the third Coin's Echoes of the Manor."
+    },
+    "skills.3.name": {
+      "sourceHash": "14c570ebae02f397256648d9dbf2f8c45cae7351a0b4101796b6f36654985aeb",
+      "text": "Not Even a Speck of Dust!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "5ff1023dbd773f81133a366b4b4e0b83ec142c399c7ec81c88fda0b1f6350d49",
+      "text": "[Combat Start] Grant 3 Offense Level Up and heal 15 SP for all allies, including self."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "7f49cd78b6fa85cb2c893a9d6fb61124f534b789e65607856ecd576524869a02",
+      "text": "[Combat Start] Inflict 1 Fragile on all other allies."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "3d10d43dc5baae3a605bf807df56e9f494a9e874e29d46cb484dad50aaf77609",
+      "text": "Ⅰ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "8df4ee423cb5c2a8ad73d814864df1505a1e62d85c004a9c50f83c2f88e99612",
+      "text": "Ⅱ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "36963086554bcdf24a5d697bd1c1a2e0667ca8100257875947a187715a324057",
+      "text": "Ⅲ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "62ecebb6fc4200736fca724d6927190a96f204a439512b48990077d29b1806e9",
+      "text": "[On Hit] Inflict 4 Sinking."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "a4ccf700406e37bbf538fe086a6edd02add7199b177aa31c8f600d97c7c5e85b",
+      "text": "[On Hit] If the target has at least 3 Sinking Count, reuse this Coin up to 2 times."
+    },
+    "skills.3.response": {
+      "sourceHash": "1b0fa99ab96927761ff2ccea191220ac18b157157811502eb9956423e305e1af",
+      "text": "Winning does not cancel Combat Start team buffs and SP healing. Focus on preventing Sinking-based extra damage and the third Coin's reuse of up to 2 times."
+    },
+    "skills.4.name": {
+      "sourceHash": "da46ed371e7a2630c88189a7b0c10d565e7a181f66863c54dbf4e5098b52b017",
+      "text": "Slippery Rat!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "c40bc7226b4fe4c11af45e908dd529f16a0ee0baec6e1a609675b590883fb12a",
+      "text": "At Turn End, if Shield remains, lower the Stagger Threshold by 50."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "da9865716f1f83f259caee38aa6f331428fbda4edbb58e8161201d8b0d8f65cf",
+      "text": "When the Shield is fully depleted, heal 10 SP for all enemies."
+    },
+    "skills.4.response": {
+      "sourceHash": "78d3f3a55cabdb9dc5f3f9902b76e2e80ef8b4a6ad294922c0f29186e3e8b085",
+      "text": "A remaining Shield lowers the Stagger Threshold by 50. If attacks target this Guard, consider offsetting; if it activates, concentrate enough damage to fully break it. The 10 SP healing on depletion benefits your Sinners."
+    },
+    "skills.5.name": {
+      "sourceHash": "66b233557841cc100c56540aaa705ae04d45e757c6590c5f609ed452ba5b803f",
+      "text": "Commence Housekeeping"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "bf7c3ae6d1d513116c4817b25737972636db975d60de5cdffc5a093cac8e0736",
+      "text": "[Heads Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "cdabc2e19657fe1c1dbd191faa3f69d249f09f1f5116d6c6da5d63b7287f6dc5",
+      "text": "Inflicts Sinking and next-turn Paralyze. Win manageable Clashes to prevent hits before your next Clash specialist is weakened."
+    },
+    "skills.6.name": {
+      "sourceHash": "5245c3bf0cc4d46abcab7ae2903330905da008738f913b4ceec90caa6cdfcb72",
+      "text": "Interloper Response"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "bcfd910294970d68153e5918282dcf10bf2594505959c87aed5fd9de8192faf3",
+      "text": "[Clash Win] Gain 1 Plus Coin Boost."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "d1471975e7dcb31954359d76f28e08bd46b39f2673eb8e36d05b2f4209734ad4",
+      "text": "[Clash Lose] Gain 3 Sinking."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "63281bc8b8c9b063870c89dc7deeb089326125cc13fecc81a9f5a7a6c464013b",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "06509bac7d8f33d9ca762f1e403913221152a9b12608b74e5275a9b488e7d556",
+      "text": "[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.6.response": {
+      "sourceHash": "d091a3c92b4fa8ea806d7403bd12dcfa07480c32917b0e3c3d7244d45a57c4c6",
+      "text": "The enemy gains Plus Coin Boost on Clash Win. It also increases Sinking Count, so keep hits away from Sinners with high Sinking Potency."
+    },
+    "skills.7.name": {
+      "sourceHash": "f74266aafae953df09eaaa7fb8d27ad33b408f902422cc9f20dc832e397ad089",
+      "text": "Reception Arts 2: Topple"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "eb60a18c0833b62b35d9d72045e60be594f7ead6767a40e024bc3fc1185aca0b",
+      "text": "[On Use] Gain +1 Base Power per 5 target Sinking Potency, up to 2."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "3ae581aeaf864ab75678b5113fc3409f70eb91abde72c2a53562a61470c25661",
+      "text": "Ⅰ[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "5b5884574f0f63ad8406bfac7c2a51328c9249de486f2e092fe0d0c8f95ee1d5",
+      "text": "[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "444a8db39c788182f96fd0e2893ef43c8ffa846ffa3dfe57b228873f212900ac",
+      "text": "Ⅱ[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "5b5884574f0f63ad8406bfac7c2a51328c9249de486f2e092fe0d0c8f95ee1d5",
+      "text": "[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "42a4474acd1cbfaab1e96e5bcae7761c23bc6757034fc0da8bdec2332079450e",
+      "text": "Ⅲ[On Hit] If the target has at least 4 Sinking Count, reuse this Coin once."
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "4a69c6f560052b9a188a4be7010cb69b6a5861fca4526815e1e8282b78958b7d",
+      "text": "[Heads Hit] Inflict 4 Offense Level Down and 1 Paralyze."
+    },
+    "skills.7.response": {
+      "sourceHash": "120bd7ed099dbdc97ade6c400437a04c99bdf0a60694cf8275b56960f1af6785",
+      "text": "Sinking Potency raises Base Power; at least 4 Sinking Count enables third-Coin reuse. Stop it before Paralyze and Offense Level Down accumulate."
+    },
+    "skills.8.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "8a819261de6787b1d381a19105496d4967ce2d36c59e09c39820160e69b4e07b",
+      "text": "At Turn End, if Shield remains, lower the Stagger Threshold by 10."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "3990f22507a75f184f633fa46f2e0f374bfa1013b2d1aa68c39a7cf6d9e952a9",
+      "text": "When the Shield is fully depleted, heal the final attacker by 10 SP."
+    },
+    "skills.8.response": {
+      "sourceHash": "047cc84e52d761be8eede9837f5f1504552c2c63114619936d3d2ed54001b646",
+      "text": "A remaining Shield lowers the Stagger Threshold by 10. The final attacker who breaks it heals 10 SP, but do not abandon dangerous Clashes just to gain this benefit."
+    },
+    "skills.9.name": {
+      "sourceHash": "66b233557841cc100c56540aaa705ae04d45e757c6590c5f609ed452ba5b803f",
+      "text": "Housekeeping Start"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "f8db5f031659f7f97d6816c0c4949f08442a28eaf69c9a756b8da6141809c26c",
+      "text": "[Heads Hit] Inflict 1 Bind next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "40502cc96e307e28917bfdd01942c9e3d4bfe6f3f1a4681e3959ee4991ebc4da",
+      "text": "Next-turn Bind delays action order. Prevent Sinking buildup too, so slowed allies are not repeatedly hit by fast enemies next turn."
+    },
+    "skills.10.name": {
+      "sourceHash": "70a5b4b59f5e8b752f0b193d7a5999624c712251f1b463aea9c6e2504043a2ae",
+      "text": "Interloper Reception"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "bcfd910294970d68153e5918282dcf10bf2594505959c87aed5fd9de8192faf3",
+      "text": "[Clash Win] Gain 1 Plus Coin Boost."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "d1471975e7dcb31954359d76f28e08bd46b39f2673eb8e36d05b2f4209734ad4",
+      "text": "[Clash Lose] Gain 3 Sinking."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "a6694333eae7ee42ef4c06dd765dc782aee69e250a0f4eccf29ccb892f71486c",
+      "text": "Ⅰ[On Hit] Inflict 8 Sinking."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.10.response": {
+      "sourceHash": "a418e9a054f5659ba3acb176b5d2339d33b2e5c25c0c0550567af0b7fc2016f6",
+      "text": "The first Coin adds Sinking Potency and the second adds Count. Losing also buffs the enemy's Plus Coins, so use winning skills from the start."
+    },
+    "skills.11.name": {
+      "sourceHash": "fb464913dbf1f090e31466a9a90e8ea4e8581c356c015b41a2b6f514b0f664b4",
+      "text": "Reception Arts 2: Bind"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "eb60a18c0833b62b35d9d72045e60be594f7ead6767a40e024bc3fc1185aca0b",
+      "text": "[On Use] Gain +1 Base Power per 5 target Sinking Potency, up to 2."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "b93b897c73bc6b35035c7fc3db751f95b2e24b9699bed0c9dcf504c225d46114",
+      "text": "[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "b93b897c73bc6b35035c7fc3db751f95b2e24b9699bed0c9dcf504c225d46114",
+      "text": "[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "6b8084628a7ebe0d394b224e11c2c348d6d587f0289154b1d2ad263c17dc47f8",
+      "text": "Ⅲ[On Hit] If the target has at least 8 Sinking Potency, reuse this Coin once."
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "1f04297668bfd84ce0f3cdffccab9ec2dff8b4563ad43b2b82f1a1107d1b4f90",
+      "text": "[Heads Hit] Inflict 4 Defense Level Down and 1 Fragile."
+    },
+    "skills.11.response": {
+      "sourceHash": "bffc4166e5794378657d64dd71568cece10c37989dc0ad5e98a9a8f3066fdf88",
+      "text": "At least 8 Sinking Potency enables third-Coin reuse. Defense Level Down and Fragile increase subsequent damage, so prioritize protecting heavily Sinking-afflicted allies."
+    },
+    "skills.12.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "8a819261de6787b1d381a19105496d4967ce2d36c59e09c39820160e69b4e07b",
+      "text": "At Turn End, if Shield remains, lower the Stagger Threshold by 10."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "3990f22507a75f184f633fa46f2e0f374bfa1013b2d1aa68c39a7cf6d9e952a9",
+      "text": "When the Shield is fully depleted, heal the final attacker by 10 SP."
+    },
+    "skills.12.response": {
+      "sourceHash": "aa0c800e63d1f748474d9c8d51e67db356e6fd001b53af166401e977f7cea746",
+      "text": "The same Shield as the Trained Butler's. Avoid leaving it to lower the Stagger Threshold; if breaking it, fully deplete it in the same turn."
+    },
+    "passives.0.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.0.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.0.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.0.response": {
+      "sourceHash": "6bfc147491157fad9153d694d7789c6ed873accf4b0d4bfd824e3d65d80f190a",
+      "text": "Keep dealing damage rather than assuming Panic will disable the enemy for long."
+    },
+    "passives.1.name": {
+      "sourceHash": "1c801ceb88ed083ab2c66b8cc3e59f13b6ca715c261290fa8f23f496ec0d283d",
+      "text": "I'll Clean You Up..."
+    },
+    "passives.1.condition": {
+      "sourceHash": "40ac91c2c75056f424104741ac98ccba8d2a61c2a9edb17e0309520be378e232",
+      "text": "Became Staggered this turn / at most once"
+    },
+    "passives.1.effect": {
+      "sourceHash": "bb9ad69b7f0ad0f6431a4f0de4385f49599666f75dbdb497d034192ef99ed1bf",
+      "text": "At Turn End, remove Stagger and heal 20 SP. Gain 1 Offense Level Up next turn."
+    },
+    "passives.1.response": {
+      "sourceHash": "c7043c91d16116d3c9e531e92ade3c1908f0193ddbeda6f694442e9feebe8715",
+      "text": "Use the first Stagger for follow-up attacks that same turn. This does not remove every Stagger."
+    },
+    "passives.2.name": {
+      "sourceHash": "65587e3d2e1919e3c5d69f0c1ebc251088cba2936b925fff348b1483b455fbec",
+      "text": "Apologies... Mistress!"
+    },
+    "passives.2.condition": {
+      "sourceHash": "5fa5dff8a398cf3c4a8dbd0460109fdbe6a79995de692dd606acc36458ca8484",
+      "text": "Recovered from Panic at Turn End"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8edfebd0af7ed715deaaffe34eb1fe9369c361121ea2f418e00b1d35ffc1c249",
+      "text": "Gain 1 Attack Power Up next turn. Checked after Panic recovery."
+    },
+    "passives.2.response": {
+      "sourceHash": "ed70646d01fd902b39d9dc4919af0a0e6191a066d1c6d53ad40e2792e4f01331",
+      "text": "Recheck next turn's Clashes after Panic too."
+    },
+    "passives.3.name": {
+      "sourceHash": "e1af7f1e9fc39dea6f2394ed36518226279b1953fc314e42e6e0f47a9e79018b",
+      "text": "Insolent Fool!"
+    },
+    "passives.3.condition": {
+      "sourceHash": "213d4bfcd6699b826bb7fd1d842eb76799d22c19a3b19700ae291db4ca42d241",
+      "text": "Target is slower than this unit"
+    },
+    "passives.3.effect": {
+      "sourceHash": "845cdc7baa609a193b3ad7053421265b20ba8a823bfa5113d5d32756615935fe",
+      "text": "Gain +2 Clash Power."
+    },
+    "passives.3.response": {
+      "sourceHash": "363aae40aaa5b4ac315c01ccf84fcb243da19bf80b94478fd2aa6445b003956b",
+      "text": "Use a faster Sinner's skill where possible to avoid the bonus."
+    },
+    "passives.4.name": {
+      "sourceHash": "94a12026d3146ab1e4f1fc549e812301774f4db187e6a0fca0123ea079a00c0e",
+      "text": "The Mistress's Voice...!"
+    },
+    "passives.4.condition": {
+      "sourceHash": "ca9e020c9b1ccbeadfff235533436fb53277fa9154adf3428d1d439a8802fb20",
+      "text": "All Coins of one Attack Skill roll Heads and hit"
+    },
+    "passives.4.effect": {
+      "sourceHash": "84b957061fab48c6ba4b2220fea0cdff127f5bd3f5405721679122f28e50244f",
+      "text": "Heal 10 SP."
+    },
+    "passives.4.response": {
+      "sourceHash": "436ff73e6c09cfc81cc78da026e55c3907d6f52f46367cb048f688c6fc2cfb1f",
+      "text": "Prevent all Coins from hitting to deny this SP recovery."
+    },
+    "passives.5.name": {
+      "sourceHash": "5837191ec427ecdf400f1a443f4a62158a528d5ef49e4ee231b36898abee4f02",
+      "text": "Will You Witness Me, Mistress?!"
+    },
+    "passives.5.condition": {
+      "sourceHash": "25465715e161c81804ee0813fb36b625f3e03d6d13ec98d5236a940d768d9170",
+      "text": "When attacking, the target has Sinking and -15 SP or less"
+    },
+    "passives.5.effect": {
+      "sourceHash": "d86c7409c7dc49b7436b2b633935b9392692c9328fed8af81b6d4d5edfa5218f",
+      "text": "Once per target, gain 3 Offense Level Up next turn. Also triggers if SP loss from the hit meets the condition."
+    },
+    "passives.5.response": {
+      "sourceHash": "823fbf204d781b0b73ed9b12e2ea8ee590a4317a28d028cebeb728a4dc34e343",
+      "text": "Avoid repeated hits on Sinners whose SP has fallen."
+    },
+    "passives.6.name": {
+      "sourceHash": "d2de9a2c2ae538fa68016747819ee0f17978dc33dc8e401dff302395828b22bc",
+      "text": "I Will... Do My Best"
+    },
+    "passives.6.condition": {
+      "sourceHash": "40ac91c2c75056f424104741ac98ccba8d2a61c2a9edb17e0309520be378e232",
+      "text": "Became Staggered this turn / at most once"
+    },
+    "passives.6.effect": {
+      "sourceHash": "bd4f1a7436a40ee694e8528f56734ecac91fe22a0fb5e278ad2a5eb1d3c297fe",
+      "text": "At Turn End, heal 12 SP and gain 2 Defense Level Down next turn."
+    },
+    "passives.6.response": {
+      "sourceHash": "d93d7b79abd9ed2fbfeddd4adf9ff796de1b7b34331e8d0321cc0151c257afc7",
+      "text": "This effect does not remove the adds' Stagger. Defeat them while Staggered to reduce disruption."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.7.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.7.response": {
+      "sourceHash": "c26af68afd0e28d9d4076fa95096678871acb20ff846936a6b7b8da3510bff58",
+      "text": "Do not rely on Panic to disable the enemy for long."
+    },
+    "passives.8.name": {
+      "sourceHash": "d2de9a2c2ae538fa68016747819ee0f17978dc33dc8e401dff302395828b22bc",
+      "text": "I Will... Do My Best"
+    },
+    "passives.8.condition": {
+      "sourceHash": "40ac91c2c75056f424104741ac98ccba8d2a61c2a9edb17e0309520be378e232",
+      "text": "Became Staggered this turn / at most once"
+    },
+    "passives.8.effect": {
+      "sourceHash": "bd4f1a7436a40ee694e8528f56734ecac91fe22a0fb5e278ad2a5eb1d3c297fe",
+      "text": "At Turn End, heal 12 SP and gain 2 Defense Level Down next turn."
+    },
+    "passives.8.response": {
+      "sourceHash": "d93d7b79abd9ed2fbfeddd4adf9ff796de1b7b34331e8d0321cc0151c257afc7",
+      "text": "This effect does not remove the adds' Stagger. Defeat them while Staggered to reduce disruption."
+    },
+    "passives.9.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.9.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.9.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.9.response": {
+      "sourceHash": "c26af68afd0e28d9d4076fa95096678871acb20ff846936a6b7b8da3510bff58",
+      "text": "Do not rely on Panic to disable the enemy for long."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "6f804031bb3bce37225e954049a1babdb0ee108a72f9c3d29e33fa14138742fd",
+      "text": "Early Stagger removal"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "81b422488955eeb1e8922a12c9f7d7d9a7546b1201bb52d53f893d497f4f1c49",
+      "text": "The first Stagger ends at Turn End, allowing actions next turn. Occurs at most once."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "a30fb039d147bda6ec10785a39614ad0aeff0d86ce6397cb11f3f015fa6ec76d",
+      "text": "Arrange the Staggering attack and follow-up damage within the same turn."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "b1a7c1d3e3eae87a2a69f6d6b5f3c36685e7e3e3c29dd81c6281e8f77b02a722",
+      "text": "Sinking and Speed gaps"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "6ab2350576541f30b6f198bd96cf4b32ec342198592c9607c2c5f9e6f0aa3372",
+      "text": "Sinking enables Base Power and Coin-reuse conditions. Bind slows your Sinners, also making Josephine's +2 Clash Power more likely to apply."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "e63b6696b0c79dcd38fdc0197b79f7d9713d5cfa10e7b0da7a145753d41e5675",
+      "text": "Break the chain with winning Clashes and SP recovery."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3ede87997728bb5f5113832d00a3f0f985869e890578e0ef4fd2b5389ab18861",
+      "text": "Bereavement"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "dbb832daae9a468b468adefac0016a526e0b44c269f4e3ad0bf7c00a4871c4dc",
+      "text": "Deployed Heathcliff gains a special effect that normally reduces SP: Bereavement. His Wild Hunt Identity changes it to Unending Bereavement."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "e52ad9bcfc7d15d46d7890f9b0f9cfb91d722744840ac5824321c6cc87cd5bdc",
+      "text": "He is not mandatory, so consider other Sinners if maintaining SP is difficult."
+    },
+    "warnings.0": {
+      "sourceHash": "ce92674900c7c76890aa6b14617bdc82c5b675b675dcbcd05d6f977093d3421d",
+      "text": "Stagger removal occurs at most once. The enemy does not negate every Stagger."
+    },
+    "warnings.1": {
+      "sourceHash": "1f6c89eae7a9703eeb4646942d804507d568ccf7ae970e258b0f3e78238cb9ff",
+      "text": "Winning Clashes alone does not cancel Combat Start or [On Use] buffs."
+    },
+    "warnings.2": {
+      "sourceHash": "370afe78a3c316db67e4b45fe0a1f73712f840e0dda99261fe31161c497614ce",
+      "text": "This is a Regular Encounter. Do not assume Focused Encounter targeting rules apply."
+    },
+    "warnings.3": {
+      "sourceHash": "2ede040bee978190c1da6c604bcc9320262dc485397fa36bb487854e5356c3d6",
+      "text": "Separate from Wild Hunt Josephine later in Canto VI."
+    },
+    "preparation.0": {
+      "sourceHash": "aa7fc28fd804ddcd9b2043c46b74aefa7b98136c402469aa1c5e1f778dedc91f",
+      "text": "Aim for Level 42 and Uptie III or higher on your main units. Bring Blunt and Slash; the boss halves Pierce damage."
+    },
+    "preparation.1": {
+      "sourceHash": "81d66617928e46f84db906d3f009b82ee98fe9aa72f7edf2ae0e3434d65de5be",
+      "text": "Build resources in earlier Waves for SP healing and powerful E.G.O usable even while debuffed."
+    },
+    "preparation.2": {
+      "sourceHash": "9c38e393d3ba66ac763d74ac7e3e5848b6622899eb1ce22e79b8f10197436454",
+      "text": "If Sinking and disruption keep building, review your main units' training and opening Clashes."
+    },
+    "roles.0.name": {
+      "sourceHash": "7d21856225695ec2eab4794ffba15d8aff3ffce1eb2f473a0a5dc9c057d8baae",
+      "text": "Blunt / Slash damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "b12819080745770dcd64606eaf699b69d509e3e33d2392fbd59f75e922984758",
+      "text": "Stagger adds and turn the boss's first Stagger into same-turn follow-up damage."
+    },
+    "roles.1.name": {
+      "sourceHash": "a5b23cbd9b282c1b6b2b6e4ae3ff80c3969ab7fa310b17ad52487764404e3c71",
+      "text": "Speed and Clash specialists"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0ddcd3ebf0d5af3f9b5428837fbecbd123c9da11926a659781e3799c68dc94d6",
+      "text": "Prevent Speed-based bonuses and Sinking-driven disruption."
+    },
+    "roles.2.name": {
+      "sourceHash": "59df488d77937f0bcb16850f597ac100b70436584aa7e7124c5e321250e6bc91",
+      "text": "SP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "16aa992aacd8bc3ea1e4919a07032a840bf574e5489b25add546a3f096765ee2",
+      "text": "Recover after Sinking drains SP."
+    }
+  },
+  "messages": {
+    "boss-copy:josephine": "complete",
+    "【リンバス】6-15 ジョセフィーヌ（6-15）の攻略｜Limbus Assistant": "6-15 Josephine (6-15) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-15「ジョセフィーヌ（6-15）」の攻略。道中で精神力とE.G.O資源を整え、最終Waveの沈潜と妨害をマッチで防ぐ。ジョセフィーヌは最初の混乱をターン終了時に解除するため、そのターンの追撃へ火…": "Josephine (6-15) guide for Limbus Company 6-15. Build SP and E.G.O resources in earlier Waves, then prevent Sinking and disruption through Clashes in the final Wave. Josephine removes her first Stagger at Turn End, so concentrate follow-up damage that same turn. Faster Sinners also help avoid her Speed-based Clash bonus.",
+    "6-15 ジョセフィーヌ（6-15）": "6-15 Josephine (6-15)",
+    "6-15「Corridor 2」": "6-15 · Corridor 2",
+    "ジョセフィーヌの外見": "Josephine appearance",
+    "ジョセフィーヌのスキル": "Josephine skills",
+    "Josephineの外見": "Josephine appearance",
+    "Josephineのスキル": "Josephine skills",
+    "鍛錬したワザリング・ハイツバトラーの外見": "Trained Wuthering Heights Butler appearance",
+    "鍛錬したワザリング・ハイツバトラーのスキル": "Trained Wuthering Heights Butler skills",
+    "Trained Wuthering Heights Butlerの外見": "Trained Wuthering Heights Butler appearance",
+    "Trained Wuthering Heights Butlerのスキル": "Trained Wuthering Heights Butler skills",
+    "険悪なワザリング・ハイツバトラーの外見": "Hostile Wuthering Heights Butler appearance",
+    "険悪なワザリング・ハイツバトラーのスキル": "Hostile Wuthering Heights Butler skills",
+    "Hostile Wuthering Heights Butlerの外見": "Hostile Wuthering Heights Butler appearance",
+    "Hostile Wuthering Heights Butlerのスキル": "Hostile Wuthering Heights Butler skills"
+  }
+}

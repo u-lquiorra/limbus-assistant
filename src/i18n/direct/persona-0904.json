@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0904.md",
+  "code": "0904",
+  "messages": {
+    "釘と出血を付与し、狂信やN社の仲間の数で火力が上がるN社の人格。": "An N Corp. Identity that applies Nails and Bleed, gaining damage through Fanatic and the number of N Corp. allies.",
+    "釘と出血: S1「忠実な釘打ち」で出血を付与し、釘がある対象にはさらに釘を付与。S2「狂的な浄化」は次のターンに釘1・麻痺1を付与。守備の反撃でも釘を付与。": "**Nails and Bleed**: S1 Devoted Hammering inflicts Bleed, plus more Nails on targets that already have Nails. S2 Zealous Purge inflicts 1 Nails and 1 Paralyze next turn. Her Defense skill's counter also inflicts Nails.",
+    "狂信: S2のマッチ勝利時に次のターンの狂信1を得る。狂信は釘のある対象への攻撃で最終威力が上がる。": "**Fanatic**: Grants 1 Fanatic next turn on S2 Clash Win. Fanatic raises Final Power when attacking targets with Nails.",
+    "S3「鉄の断罪」: 自分に狂信があればダメージ量+15%、生存しているN社の狂信者の数だけダメージ量+5%。": "**S3 — Ironclad Retribution**: +15% damage if she has Fanatic, and +5% damage per living N Corp. Fanatic.",
+    "バトルパッシブ「処断の歓び」(憤怒×5・保有・同期化Ⅱで取得): 敵が死亡すると次のターンにクイック1・ダメージ量増加1。自分が倒したなら狂信1も得る(1ターン1回)。": "**Combat passive — Joy of Execution (5 Wrath Owned; unlocked at Uptie Ⅱ)**: When an enemy dies, she gains 1 Haste and 1 Damage Up next turn. If she defeated it, she also gains 1 Fanatic (once per turn).",
+    "S2をマッチで勝たせて次のターンの釘と狂信を得て、次のターンにS1で釘を増やしてからS3を当てる。N社の狂信者を多く編成するとS3のダメージが伸びる。": "Win Clashes with S2 to gain next turn's Nails and Fanatic, then on the next turn increase Nails with S1 before landing S3. Fielding many N Corp. Fanatics increases S3's damage."
+  }
+}

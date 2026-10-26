@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1206.md",
+  "code": "1206",
+  "messages": {
+    "沈潜を消費して精神力を回復する覚醒と、憂鬱脆弱を押し込む侵蝕を持つ、沈潜編成向けの貫通E.G.O。": "A Pierce E.G.O for Sinking teams, with an Awakening that consumes Sinking to restore SP and a Corrosion skill that pushes in Gloom Fragility.",
+    "精神力の回復: 攻撃後に自分と、精神力が最も低い味方2名の精神力を10回復する(解析Ⅲで12、Ⅳで15)。": "**SP recovery**: After the attack, restores 10 SP to himself and the 2 allies with the lowest SP (12 at Threadspin Ⅲ, 15 at Ⅳ).",
+    "沈潜の消費で上乗せ: 対象が生き残った場合、対象の沈潜回数を5消耗し(解析Ⅳで3)、対象の沈潜威力ぶんだけ回復量を追加する(合計の上限は20)。": "**Bonus from consuming Sinking**: If the target survives, it spends 5 of the target's Sinking Count (3 at Threadspin Ⅳ) and adds healing equal to the target's Sinking Potency (total capped at 20).",
+    "撃破時の拡散: 対象が死亡した場合は、ランダムな敵2名(解析Ⅳで3名)へ沈潜3を付与する。解析Ⅲから呪い1も付く。": "**Spread on kills**: If the target dies, inflicts 3 Sinking on 2 random enemies (3 at Threadspin Ⅳ). From Threadspin Ⅲ, it also adds 1 Curse.",
+    "パッシブ「戻れるなら...」: 攻撃終了時に対象が死亡していたら、最も少ないE.G.O資源を1つ得る。対象の沈潜の威力と回数の合計5につき追加で1(最大3)。": "**Passive — If I Could Go Back...**: If the target is dead at the end of the attack, he gains 1 of the E.G.O resource he has least of. +1 more per 5 combined Sinking Potency and Count on the target (up to 3).",
+    "侵蝕スキル: 憂鬱脆弱・沈潜回数・呪いを付与する攻め寄りの性能。解析Ⅳでは呪い持ちへのダメージ量が+50%になる。": "**Corrosion skill**: An offense-leaning skill that inflicts Gloom Fragility, Sinking Count, and Curse. At Threadspin Ⅳ, damage against Cursed targets becomes +50%.",
+    "沈潜が十分に乗った敵に撃ち、精神力を回復する。沈潜を削るので、使いどころを選ぶ。覚醒は補助的で、憂鬱脆弱を押し込む侵蝕スキルを軸にする運用もあると考えられる(侵蝕は敵味方識別不可で、味方にも当たり得る)。": "Fire it at enemies with plenty of Sinking to restore SP. It reduces Sinking, so choose when to use it. Awakening is supplementary, and running it around the Corrosion skill that pushes in Gloom Fragility is likely also an option (Corrosion cannot distinguish friend from foe and can hit allies).",
+    "敵を倒せる場面で撃つと、資源の補充にもなる。": "Firing it when it can defeat an enemy also replenishes resources.",
+    "必要資源は色欲2・憂鬱4。": "It requires 2 Lust and 4 Gloom.",
+    "Ⅱ: 「戻れるなら...」が解放される。": "**Ⅱ**: Unlocks If I Could Go Back...",
+    "Ⅲ: 回復量と呪いが増え、侵蝕の憂鬱脆弱の追加条件が加わる。": "**Ⅲ**: Increases healing and Curse, and adds an extra Gloom Fragility condition to Corrosion.",
+    "Ⅳ: 回復量がさらに増え、沈潜の消耗が3に減る。侵蝕は呪い持ちに強くなる。": "**Ⅳ**: Further increases healing, and Sinking consumption drops to 3. Corrosion becomes stronger against Cursed targets.",
+    "エドガー家 継承者: 沈潜を付与する人格で、S2・守備が憂鬱、S3が色欲。必要資源を出せる。": "**[Edgar Family Heir](persona:1209)**: A Sinking-inflicting Identity whose S2 and Defense skill are Gloom and S3 Lust, supplying the required affinities.",
+    "ロボトミーE.G.O::ランプ: S2が憂鬱で、沈潜を付与できる。": "**[Lobotomy E.G.O::Lamp](persona:1214)**: His S2 is Gloom, and he can inflict Sinking."
+  }
+}

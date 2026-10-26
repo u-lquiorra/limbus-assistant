@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0201.md",
+  "code": "0201",
+  "messages": {
+    "軽い資源で戦闘序盤に撃ち、精神力が低い味方4人を回復して立ち上がりを安定させる、傲慢打撃の3枠広域E.G.O。": "A Pride Blunt E.G.O that hits 3 targets, costs few resources, and can be used early in a fight to restore SP to the 4 allies with the lowest SP and stabilize the opening.",
+    "精神力の回復: 攻撃終了時に、精神力が最も低い味方4人の精神力を回復する(解析Ⅲで10、Ⅳで12)。": "**SP recovery**: At the end of the attack, restores SP to the 4 allies with the lowest SP, increased to 10 at Threadspin Ⅲ and 12 at Ⅳ.",
+    "軽い必要資源: 暴食2・傲慢4、精神消耗は20。ZAYIN なので重いE.G.Oより早い段階で撃てる。": "**Light requirements**: 2 Gluttony and 4 Pride, with a Sanity cost of 20. As a ZAYIN E.G.O, it can be used earlier than heavier E.G.O.",
+    "広域攻撃: 攻撃加重値3で、マッチ威力は15~19(解析Ⅲで19~23)。傲慢抵抗、色欲・暴食脆弱の耐性に切り替わる点に注意。": "**Multi-target attack**: 3 Attack Weight, with Clash Power of 15–19, or 19–23 at Threadspin Ⅲ. Note that her resistances change to Endured against Pride and Fatal to Lust and Gluttony.",
+    "パッシブ「倦怠」: 攻撃中に敵が混乱すると、精神力が最も低い味方1名の次のターンの精神力回復効率+2(1ターン最大3回)。条件が厳しく、おまけ程度。": "**Passive — Ennui**: If an enemy is staggered during the attack, the 1 ally with the lowest SP gains +2 SP Heal Efficiency next turn, up to 3 times per turn. The condition is strict, so treat it as a minor extra.",
+    "侵蝕なし: 初期E.G.Oなので侵蝕スキルは無い。": "**No Corrosion**: As a starting E.G.O, it has no Corrosion skill.",
+    "精神力が下がる序盤に撃ち、味方のマッチを安定させる。": "Use it early, when SP is dropping, to stabilize allies' Clashes.",
+    "打撃や傲慢に弱い敵なら、攻撃目的で撃ってもよい。": "Against enemies weak to Blunt or Pride, it can also be used for damage.",
+    "回復はスキル単発で完結するので、パッシブの発動は期待しすぎない。": "The healing is complete with a single use, so do not count on the passive triggering.",
+    "Ⅱ: パッシブ「倦怠」が解放されるだけで、実質的な変化は小さい。": "**Ⅱ**: Only unlocks the passive Ennui, so the practical change is small.",
+    "Ⅲ: マッチ威力が上がり、回復量が10になる。": "**Ⅲ**: Raises Clash Power and increases the heal to 10.",
+    "Ⅳ: 回復量が12になるだけで、優先度は低いと考えられる。": "**Ⅳ**: Only increases the heal to 12, so it is likely a low priority.",
+    "LCB囚人: スキルが傲慢・怠惰・暴食で、必要資源の傲慢と暴食を自分で出せる。": "**[LCB Sinner](persona:0201)**: Her skills are Pride, Sloth, and Gluttony, so she can supply the required Pride and Gluttony herself.",
+    "ロボトミーE.G.O::後悔: S2が傲慢で、重い傲慢4の資源を補える。": "**[Lobotomy E.G.O::Regret](persona:0207)**: Her Pride S2 helps cover the heavy 4 Pride requirement."
+  }
+}

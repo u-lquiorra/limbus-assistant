@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useRef } from "react";
+import { Suspense, useEffect, useRef, useSyncExternalStore } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { Link } from "./components/Link";
 import { APP_ROUTES } from "./routes";
@@ -7,8 +7,11 @@ import { NAV_ITEMS, activeNavItem, isPage } from "./nav";
 import { asset } from "./lib";
 import { X_ACCOUNT, X_URL, canonicalUrl, pageMeta } from "./seo";
 import { preloadRoute } from "./preload";
+import { LanguageContext, englishLoaded, subscribeTranslations } from "./i18n/text";
+import { isEnglish, languagePath, originalPath } from "./i18n/path";
 import "./App.css";
 import "./theme.css";
+import "./i18n/i18n.css";
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -42,13 +45,13 @@ function HeaderHeightVar() {
 
 function DataSourceNote() {
   const { pathname } = useLocation();
-  if (isPage(pathname, "/reroll")) return null;
+  if (isPage(originalPath(pathname), "/reroll")) return null;
   return <p>データ出典: <a href="https://wikiwiki.jp/lcbwiki/" target="_blank" rel="noreferrer">LimbusCompany攻略Wiki</a></p>;
 }
 
 function SiteNav() {
   const { pathname } = useLocation();
-  const active = activeNavItem(pathname);
+  const active = activeNavItem(originalPath(pathname));
   const navRef = useRef<HTMLElement>(null);
 
   // 狭い画面ではナビが横スクロールになるため、選択中の項目が見える位置まで送る
@@ -78,7 +81,7 @@ function SiteSearchLink() {
       className="site-search-link"
       aria-label="サイト内検索"
       title="サイト内検索"
-      aria-current={isPage(pathname, "/search") ? "page" : undefined}
+      aria-current={isPage(originalPath(pathname), "/search") ? "page" : undefined}
     >
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <circle cx="11" cy="11" r="7" />
@@ -107,6 +110,7 @@ function PageMeta() {
       if (cancelled) return;
       const meta = pageMeta(pathname);
       document.title = meta.title;
+      document.documentElement.lang = isEnglish(pathname) ? "en" : "ja";
       const setHead = (selector: string, create: () => HTMLElement, attr: string, value: string) => {
         let el = document.head.querySelector<HTMLElement>(selector);
         if (!el) {
@@ -119,6 +123,9 @@ function PageMeta() {
       setHead('meta[name="description"]', metaTag("description"), "content", meta.description);
       setHead('meta[name="robots"]', metaTag("robots"), "content", meta.noindex ? "noindex" : "index,follow");
       setHead('link[rel="canonical"]', () => Object.assign(document.createElement("link"), { rel: "canonical" }), "href", canonicalUrl(pathname));
+      for (const language of ["ja", "en"] as const) {
+        setHead(`link[rel="alternate"][hreflang="${language}"]`, () => Object.assign(document.createElement("link"), { rel: "alternate", hreflang: language }), "href", canonicalUrl(languagePath(pathname, language)));
+      }
     };
     apply();
     // description にはガイドの要約を使うため、ガイドの読み込みが終わったらもう一度書き換える
@@ -132,6 +139,32 @@ function PageMeta() {
 
 /** サイト全体。ルーターは呼び出し側で包む(ブラウザでは BrowserRouter、静的 HTML の生成では StaticRouter) */
 function App() {
+  const { pathname } = useLocation();
+  const loaded = useSyncExternalStore(subscribeTranslations, englishLoaded, englishLoaded);
+  useEffect(() => {
+    if (isEnglish(pathname) && !loaded) preloadRoute(pathname).catch((e: unknown) => console.error("英語データの読み込みに失敗した", e));
+  }, [pathname, loaded]);
+  if (isEnglish(pathname) && !loaded) return <p className="container section" lang="en" aria-busy="true">Loading English…</p>;
+  return <LanguageContext.Provider value={isEnglish(pathname) ? "en" : "ja"}><AppContent /></LanguageContext.Provider>;
+}
+
+function LanguageSwitch() {
+  const { pathname, search, hash } = useLocation();
+  const current = isEnglish(pathname) ? "en" : "ja";
+  return (
+    <div className="language-control" role="group" aria-label={current === "en" ? "Language" : "言語"}>
+      {([["ja", "日本語"], ["en", "EN"]] as const).map(([language, label]) => language === current
+        ? <span key={language} className="language-option is-active" lang={language} aria-current="true">{label}</span>
+        : <Link key={language} className="language-option language-switch" localize={false}
+          to={`${languagePath(pathname, language)}${search}${hash}`} lang={language} hrefLang={language}
+          aria-label={language === "ja" ? "Switch to Japanese" : "Switch to English"}
+          title={language === "ja" ? "日本語" : "English"}>{label}</Link>)}
+    </div>
+  );
+}
+
+function AppContent() {
+  const { pathname } = useLocation();
   return (
     <>
       <ScrollToTop />
@@ -145,10 +178,12 @@ function App() {
           </Link>
           <SiteNav />
           <SiteSearchLink />
+          <LanguageSwitch />
         </div>
       </header>
 
       <main className="site-main">
+        {isEnglish(pathname) && <p className="container translation-note" lang="en">English translation in progress. Untranslated passages remain in Japanese.</p>}
         {/* ページのコードを読み込む間の表示。静的 HTML を引き継ぐときは先に読み込むので出ない */}
         <Suspense fallback={<div className="container section" aria-busy="true" />}>
           <Routes>

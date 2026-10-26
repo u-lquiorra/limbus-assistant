@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1107.md",
+  "code": "1107",
+  "messages": {
+    "体力を払って充電を補充し、すぐ消費してダメージ量を伸ばす、充電人格向けの嫉妬斬撃広域E.G.O(攻撃加重値は解析Ⅳで4)。": "A multi-target Envy Slash E.G.O for Charge Identities that pays HP to replenish Charge and immediately spends it to boost damage (4 Attack Weight at Threadspin Ⅳ).",
+    "充電の補充と消費: 充電が10未満なら、体力最大値の15%(解析Ⅳは10%)を払って充電10を得る(体力は0にならない)。攻撃前に充電を最大40消耗し、1につきダメージ量+1%(最大10%、解析Ⅲは20%、Ⅳは30%)。": "**Replenishing and spending Charge**: If Charge is below 10, she pays 15% of her max HP (10% at Threadspin Ⅳ) to gain 10 Charge (HP does not drop to 0). Before attacking, she spends up to 40 Charge, +1% damage per point (up to 10%, 20% at Threadspin Ⅲ, 30% at Ⅳ).",
+    "次元の亀裂: Ⅰコインが的中時に、(充電-1)だけ次元の亀裂を付与する(最大1、解析Ⅲは2)。ターン終了時に破裂回数へ変わる。": "**Dimensional Rift**: Coin Ⅰ inflicts (Charge − 1) Dimensional Rift on hit (up to 1, 2 at Threadspin Ⅲ). It turns into Rupture Count at Turn End.",
+    "負荷とクイック: 的中時に、充電の数だけ(上限あり)次のターンのクイック1と負荷1を得る(1スキル最大1、解析Ⅲは2、Ⅳは3)。負荷は充電を消耗した攻撃のダメージ量を増やす。": "**Load and Haste**: On hit, she gains 1 Haste and 1 Load next turn per Charge (with a cap; up to 1 per skill, 2 at Threadspin Ⅲ, 3 at Ⅳ). Load increases the damage of attacks that spent Charge.",
+    "加重値の増加: 最大共鳴数が4以上(解析Ⅲは3以上)で加重値+1。解析Ⅳでは最大共鳴数-2だけ増える(最大2)。": "**Attack Weight increase**: +1 Attack Weight at a highest Resonance of 4 or more (3 or more at Threadspin Ⅲ). At Threadspin Ⅳ, it increases by (highest Resonance − 2), up to 2.",
+    "パッシブ「彷徨う者」: 充電の最大値+5。充電を消費するスキルのダメージ量が、(充電-1)につき+2%(最大10%)。": "**Passive — Rambling Man**: +5 maximum Charge. Skills that spend Charge gain +2% damage per (Charge − 1), up to 10%.",
+    "充電を溜めた状態で撃つほどダメージが伸びるので、充電人格の編成に組み込む。": "The more Charge she has built when firing, the more damage it deals, so work it into Charge Identity teams.",
+    "必要資源は憤怒1・憂鬱3・傲慢1・嫉妬4と重く、精神消耗は覚醒25。": "It requires a heavy 1 Wrath, 3 Gloom, 1 Pride, and 4 Envy, with an Awakening Sanity cost of 25.",
+    "侵蝕スキルは同じ仕組みの強化版で、ダメージ量の上昇が大きい(充電1につき+2%)が、敵味方を問わず攻撃する。": "The Corrosion skill is an enhanced version of the same mechanism with a larger damage increase (+2% per Charge), but it attacks friend and foe alike.",
+    "耐性は憤怒・憂鬱が脆弱、嫉妬が耐性。": "Its resistances are Fatal to Wrath and Gloom and Ineffective against Envy.",
+    "Ⅱ: 「彷徨う者」が解放される。": "**Ⅱ**: Unlocks Rambling Man.",
+    "Ⅲ: ダメージ増加の上限が20%、次元の亀裂が最大2になり、加重値の条件も緩む。": "**Ⅲ**: The damage increase cap becomes 20%, Dimensional Rift up to 2, and the Attack Weight condition relaxes.",
+    "Ⅳ: 加重値が4になり、体力の消耗が10%に減って、ダメージ増加の上限が30%になる。": "**Ⅳ**: Attack Weight becomes 4, the HP cost drops to 10%, and the damage increase cap becomes 30%.",
+    "W社3級整理要員チーフ: 充電を増やして消費する人格で、S1と守備が傲慢、S2が嫉妬、S3が憂鬱となり必要資源も出せる。": "**[W Corp. L3 Cleanup Captain](persona:1110)**: An Identity who increases and spends Charge, whose S1 and Defense skill are Pride, S2 Envy, and S3 Gloom, also supplying the required affinities."
+  }
+}

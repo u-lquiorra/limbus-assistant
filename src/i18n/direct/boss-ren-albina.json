@@ -1,0 +1,1211 @@
+{
+  "kind": "boss-copy",
+  "id": "ren-albina",
+  "source": "src/data/bosses/ren-albina.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "作品名: ファシア",
+          "en": "Artwork: Fascia",
+          "file": "Bufs-a1c9p1.json",
+          "id": "BoneBladeTheRings"
+        },
+        {
+          "ja": "月下青刀",
+          "en": "Moonlit Azure Blade",
+          "file": "Bufs-a1c9p1.json",
+          "id": "DicipleLittleFinger"
+        },
+        {
+          "ja": "生体材料",
+          "en": "Corpus Ingredient",
+          "file": "Bufs-a1c9p1.json",
+          "id": "HumanFleshTheRings"
+        },
+        {
+          "ja": "過去の悪臭",
+          "en": "Stench of Times Past",
+          "file": "Bufs-a1c9p1.json",
+          "id": "RyoshuSlotPlusA1C9"
+        },
+        {
+          "ja": "酷く鳴り響く甲冑",
+          "en": "Impact-rattled Armor",
+          "file": "Bufs-a1c9p1.json",
+          "id": "UnsteadyTheRings"
+        },
+        {
+          "ja": "小指の子方 - レン",
+          "en": "The Pinky Apprentice - Ren",
+          "file": "Enemies-a1c9p1.json",
+          "id": "1318"
+        },
+        {
+          "ja": "薬指の子方 - アルビナ",
+          "en": "The Ring Apprentice - Albina",
+          "file": "Enemies-a1c9p1.json",
+          "id": "1319"
+        },
+        {
+          "ja": "精神一到",
+          "en": "Singular Focus of the Mind",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131802"
+        },
+        {
+          "ja": "整剣",
+          "en": "The Orthodox Blade [整劍]",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131803"
+        },
+        {
+          "ja": "静念",
+          "en": "Tranquility [靜念]",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131804"
+        },
+        {
+          "ja": "恩義",
+          "en": "Grace",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131805"
+        },
+        {
+          "ja": "アイアンメイデン- 棘",
+          "en": "Iron Maiden - Spikes",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131902"
+        },
+        {
+          "ja": "アイアンメイデン- 除細動",
+          "en": "Iron Maiden - Defibrillation",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131903"
+        },
+        {
+          "ja": "既に材料に使用された肉体",
+          "en": "Corpus Spent as Material",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131904"
+        },
+        {
+          "ja": "大切な作品、ファシア",
+          "en": "Fascia, My Precious Artwork",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131905"
+        },
+        {
+          "ja": "回",
+          "en": "Swerve [回]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131801"
+        },
+        {
+          "ja": "守",
+          "en": "Defend [守]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131802"
+        },
+        {
+          "ja": "反",
+          "en": "Reflect [反]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131803"
+        },
+        {
+          "ja": "無名閃",
+          "en": "Unnamed Cut [無名閃]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131804"
+        },
+        {
+          "ja": "連鎖斬",
+          "en": "Chainslash [連鎖斬]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131805"
+        },
+        {
+          "ja": "落星一殺",
+          "en": "Fallstar Slayer [落星一殺]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131807"
+        },
+        {
+          "ja": "収勢",
+          "en": "Retreat Form [收勢]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131808"
+        },
+        {
+          "ja": "二撃",
+          "en": "Twinstrike [二擊]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131809"
+        },
+        {
+          "ja": "三撃",
+          "en": "Triplestrike [三擊]",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131810"
+        },
+        {
+          "ja": "屠畜 - 肋骨",
+          "en": "Butcher - Ribs",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131901"
+        },
+        {
+          "ja": "回転粉砕",
+          "en": "Rotator Crush",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131902"
+        },
+        {
+          "ja": "腱破裂",
+          "en": "Tendon Tear",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131903"
+        },
+        {
+          "ja": "ファシアが餓えてるわ",
+          "en": "Fascia Hungers",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131904"
+        },
+        {
+          "ja": "抑圧された肉体",
+          "en": "Repressed Flesh",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131905"
+        },
+        {
+          "ja": "展示会の準備",
+          "en": "Exhibition Arrangements",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131906"
+        },
+        {
+          "ja": "鉄のとばり",
+          "en": "Iron Curtain",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131907"
+        },
+        {
+          "ja": "星の名を授かるための修行",
+          "en": "Training to Inherit the Name of a Star",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131801"
+        },
+        {
+          "ja": "保護と抑制のための甲冑",
+          "en": "Armor of Protection & Repression",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131901"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 1/2 records. Guide aliases for Training to Inherit the Name of a Star and Armor of Protection & Repression are resolved by their passive IDs; spacing, Roman numeral, and Effloresced E.G.O variants use matching status or passive records. Sora's Let These Hands be the Proxy... follows the enemy skill rather than the Identity variant. Mang follows passive 999907. The Ren/Albina withdrawal thresholds, distinct-skill weakening, shared Sora HP pool, and NPC support conditions are retained."
+    },
+    "terminologyChecks": [
+      {
+        "ja": "光の苗木",
+        "en": "Sapling of Light",
+        "url": "https://limbuscompany.fandom.com/wiki/Battles",
+        "section": "Durante (Sapling of Light)"
+      }
+    ]
+  },
+  "scopedTerms": [
+    "強化前",
+    "恩義",
+    "回",
+    "守",
+    "反",
+    "この手で代わりに…"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "64923900ef3dd945eb6ffdfa6df75ff08e4016e414ff02ac41d255af9197789b",
+      "text": "Ren & Albina"
+    },
+    "shortName": {
+      "sourceHash": "64923900ef3dd945eb6ffdfa6df75ff08e4016e414ff02ac41d255af9197789b",
+      "text": "Ren & Albina"
+    },
+    "stageName": {
+      "sourceHash": "65a0dffa601690bc7b9e4ec83713c78d17dad9a3c05a233fa94b5ffb1b043441",
+      "text": "Cigarettes and the Nursefather"
+    },
+    "lead": {
+      "sourceHash": "946f28f2663d8d05ef02c95d17932d873c97bd13bc3bffeadf2488ba8a62178b",
+      "text": "A 4-Sinner fight against 2 enemies. Reduce Ren's Poise and Moonlit Azure Blade; weaken Albina's finisher with 3 separate attacks beforehand. Avoid attacking during Iron Curtain turns."
+    },
+    "listLead": {
+      "sourceHash": "e36c13e80c0898c57675b11c959d06841db7508dd183511be6ed724ff3f8cfd3",
+      "text": "A 4-member battle against 2 enemies. Reduce one enemy's Poise and Moonlit Azure Blade; weaken the other's major skill by landing 3 separate attacks first. Hold back during Iron Veil turns."
+    },
+    "statNote": {
+      "sourceHash": "016e4b955d3d774e4143309da91868738848d06b6f4d0def37351ab2c171047f",
+      "text": "Normal 9-18. Only Yi Sang, Ryōshū, Meursault, and Gregor may deploy; Ryōshū is required. No initial enemy Level reduction. Ren triggers reinforcements at 760 HP and withdraws below 490; Albina withdraws below 680. Neither must be reduced to 0 HP."
+    },
+    "priorities.0": {
+      "sourceHash": "f769592a163b6aca3662fc2c5253a7391ec9b18ff8c96d9a60383967e4f72e7a",
+      "text": "Have Sinners other than Ryōshū handle Ren's clashes and reduce Moonlit Azure Blade."
+    },
+    "priorities.1": {
+      "sourceHash": "a4c88dc01bb634b1a740c1f79d59e199848426e2a3eddffc520a79fdc4e5be0e",
+      "text": "Hit Repressed Flesh with 3 separate attacks before its clash."
+    },
+    "priorities.2": {
+      "sourceHash": "6bd2db41ea3565bfa63f5a4448adf0807b2a548f1a4d89dec44a16f100bb2d04",
+      "text": "Do not attack into Iron Curtain. Offsetting does not remove the enhanced reflection."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "e29af26b7b216adcca6ef9ba81d4b07cd84be38325e33d2a500e56ac64f2d270",
+      "text": "Albina's finisher seems impossible to beat"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "ed45dbef06ec6c9a7a71f6f4ee72972ac704352f5f1d5003c38d319fd6361e23",
+      "text": "Repressed Flesh is not a raw-Power contest. Damage her with 3 skills before use to reach 3 Impact-rattled Armor and reduce Final Power by 30, then clash."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "e16f295544a32348cb0b191f1ecaaa894cdf4e4a255ffa36a9bd3f546fccf80e",
+      "text": "An attacking ally suddenly takes massive damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "07fd52a40901d12c161d491884e9709e4ffe1905f34d74d1a2aca3eb792e72f5",
+      "text": "Iron Curtain multiplies Albina's Spikes reflection by 20. Offsetting the defense skill does not remove it; stop attacking and use defense or healing."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "be6e4b024141e3e1271d7bae49d79bcf8ed24fb0fb5fae4e322c64ae91c34b24",
+      "text": "Ren's Shield will not decrease"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "95211d7cf3254159007ed2e82deeda8677d37710f07811786b1e4bbf90d94f54",
+      "text": "Moonlit Azure Blade drops by 1 each time he takes damage, but Poise gained beyond 25 replenishes it. Use multiple Coins and target Swerve/Defend slots to limit Poise gains too."
+    },
+    "units.0.name": {
+      "sourceHash": "1010d290a2bbda03955941c823962a55f4d98f57618d80a632416c848dbb706c",
+      "text": "The Pinky Apprentice - Ren"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "6f4c44af023c35c7709b6c8a6c14c61781f965c14ab209d53368d917d9c39c57",
+      "text": "Starts with 50 Moonlit Azure Blade. At Turn Start, gains Shield equal to its value × 5."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "fc5694147ca0b673a2aab2bbfd3ef56ca7cbe49bb8155939876bec0dee35cc8c",
+      "text": "Before Albina appears, HP cannot fall below 760; reaching it immediately ends the turn. Reinforcements also arrive at the start of turn 6."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "0532272d912e7e767705446ee326a9212888a45699cd3619f68bc53b487f9c8a",
+      "text": "Withdraws below 490 HP. If Albina withdraws first, Ren gains 2 action slots."
+    },
+    "units.1.name": {
+      "sourceHash": "ef689234ac5ad9a7cff9c89c3675e3a791197dff068a23995e9e8e80ae72124b",
+      "text": "The Ring Apprentice - Albina"
+    },
+    "units.1.part": {
+      "sourceHash": "d9bc88128c9e5b431c80df756606dfbd89265d043578add95742ecf9d567aab2",
+      "text": "Body · Joins mid-fight"
+    },
+    "units.1.stagger": {
+      "sourceHash": "725b6fb076af253b8a98fa17d59b2bba04768bc2739fde8b8183ec2c316de5bc",
+      "text": "80% / 50% (1081 / 676)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "f6f38591f2f3557b7df26bd47aa5300a8f0036abc0a1e0be3c553511c198ae75",
+      "text": "Joins at 30 SP; allies other than Ryōshū gain 1 action slot."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "bb7adc54397d8863be20bd410b576c0c46e66864dcfc3744842f96efce1092b4",
+      "text": "At roughly 60% HP, clears Stagger and immediately ends the turn once. Check the following Iron Curtain."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "b4c655610aaf09032a477823c8844d2983b8520cc57ac28e8e4067554a3e39e2",
+      "text": "Protection, Defense Level Up, and Shield vary. Do not permanently include them in the table's Defense Level 65."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "f191de757a11f88c32660668e64bc47bbd0bf73b6d4cb3f4e16f7cbf2c1a2ac6",
+      "text": "Level the 4 available Sinners and prepare Slash defense"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "c61b2114c1fd79ccbca5c800b77bfd7cc95302eecab983956883576f7ec4866f",
+      "text": "Aim for the recommended Level 58 on Yi Sang, Ryōshū, Meursault, and Gregor. Enemies are Level 65 with no reduction support. If clashes are unwinnable, consider leveling closer to 60 or using a Sapling of Light ability."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "0d63ff16e739dafa4fd5a438497881e7f3529472056cd569e8e0c0bc4aa346a4",
+      "text": "Ryōshū cannot die while another ally survives. Maintain the other 3 Sinners' HP and prepare healing and powerful clash handlers."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "05d151bd19acf02afaf036dfebf67865b997f703b02961f131ec26dea2a8f018",
+      "text": "Slash works against Ren; Blunt, Sloth, and Gluttony against Albina. Prepare finisher clashes and healing as well as suitable affinities."
+    },
+    "phases.1.timing": {
+      "sourceHash": "905b8a78002f1532e6649d5098ed20ecf750c5a728f8634fc29ba694b116342f",
+      "text": "While Ren is alone"
+    },
+    "phases.1.title": {
+      "sourceHash": "4f849e35ab271445302f868a55559e1cec8f35eb37f0a223fa5f6797e3066c96",
+      "text": "Reduce Moonlit Azure Blade with multiple Coins"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "735d8e1759504dabb36322ff88abf8e2ff208e6aa970b639690cc8825685656a",
+      "text": "The opening uses Swerve, Defend, and Reflect. Targeting Swerve and Defend reduces their Combat Start Poise/Count gains. Clashable Guard cannot be Offset by defense skills."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "1de2a1f5eff9f4bafc31a23a026ddde13f52aeee0fc27b24c492aa1f7d399db3",
+      "text": "Moonlit Azure Blade falls by 1 per instance of damage. Reduce it with multi-Coin attacks while preventing replenishment from Poise gains beyond 25."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "b4ced8e52538d312e0d5cb71d32fe3fcfd2fb25cef06ed29f9875cba78433f8f",
+      "text": "Ren loses 2 Clash Power against Sinners other than Ryōshū. Have the other 3 handle dangerous attacks and use Ryōshū for damage or healing. Reaching 760 HP ends the turn; avoid excessive follow-ups."
+    },
+    "phases.2.timing": {
+      "sourceHash": "4f014d32289cd7e112c23acf4fd6ade378cdea0b4d37295459c8d857b609380d",
+      "text": "After Albina joins"
+    },
+    "phases.2.title": {
+      "sourceHash": "aaf360b4805d864490e6c6305d1ef8c1e4b5bdc057d731bffb16e919faa102f3",
+      "text": "Focus Ren before the heavily defended Albina"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "3a926aceec139cfac679a47b9e5493a4dd4379caff9e081279757c0a857a1399",
+      "text": "Albina joins at turn 6's start or the turn after Ren reaches 760 HP. Other Sinners gain slots; reorganize necessary clashes and one-sided attacks."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "9987cda00de90a277a3289df7742031f1b9dd2fe0bcf18648d4c5a956bf1d1ff",
+      "text": "Albina initially has Protection, Defense Level Up, and Shield. Stop necessary attacks while focusing Ren below 490 HP to make him withdraw."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "979421d45189bc3c8a833a9610b10b7bfec1c60214b51ffaf3045d8ce1ba3a8e",
+      "text": "Fallstar Slayer has 8 Attack Weight and Unbreakable Coins. Win with a strong skill regardless of Speed to reduce damage by 80% and prevent Stagger from this skill. Account for Moonlit Azure Blade's bonuses; use Paralyze to limit Coin Power if available."
+    },
+    "phases.3.timing": {
+      "sourceHash": "1da103404f1d15039c575f625f5305ba5335017e4287e8604ba5fee4efa1e642",
+      "text": "Preparing for Repressed Flesh"
+    },
+    "phases.3.title": {
+      "sourceHash": "5b6e80d57bbaaabd4521a180ecdc800f2ecf671749e2bdeb49590ea6d2e40b36",
+      "text": "Resolve 3 attacks before the final clash"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "424b08f3067aca0a41f5ae3f9a93b7bdab023fa632d4ce2a232ed105e1bbec07",
+      "text": "At 2 Corpus Ingredient, Albina gains Artwork: Fascia and uses Repressed Flesh. Spikes is inactive on the turn the skill is equipped."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "e6cc46f2a121835cc0be1a780b1ba1b4bd36985debf8905476a33689e1e4db2c",
+      "text": "Before the finisher, damage Albina with 3 separate attack skills. Each skill, including E.G.O, grants 1 Impact-rattled Armor. A single 3-Coin skill counts only once."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "a5181a7d65286b7083ec20d36b3cbca463246c15d66a9855536f2e8d402dbc7a",
+      "text": "At 3 Armor, the finisher loses 30 Final Power. Check action order for 3 early attacks and 1 final clash. After attacking, she is Staggered through next turn and supplies less Protection/Shield; exploit the opening."
+    },
+    "phases.4.timing": {
+      "sourceHash": "19a833df2807a4ab02a6ef898dbca1a63664fe8063bbe5ad33158b3a6979e20f",
+      "text": "Around 60% Albina HP onward"
+    },
+    "phases.4.title": {
+      "sourceHash": "a84bc243f60b868b0646c89bcee8e2e8a14e525e3fc1aaaa2312e20eb356d0d2",
+      "text": "Survive Iron Curtain and damage her until withdrawal"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "42cbf1265244edd602cb4f2aded96f17c56aed59744ea3d131487b52ebce5bcb",
+      "text": "At roughly 811 HP, clears Stagger and immediately ends the turn once. If Iron Curtain follows, avoid attacking Albina. Offsetting does not remove the ×20 Spikes reflection."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "4c9d5b8a10fe72b1117a8a8ab53479a59388aad9fbd8625cbc39184fdee561b3",
+      "text": "Use strong-reflection turns for healing and defense, then concentrate damage during debuffs or Stagger. Albina withdraws below 680 HP; the encounter ends if Ren has withdrawn too."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "2cfee20a1192a5869439404799378146e97a589902c92c99dce79bdd8e44966b",
+      "text": "Stagger prevention after winning a finisher clash applies to that skill's damage. It does not prevent death from Bleed or other hits."
+    },
+    "skills.0.name": {
+      "sourceHash": "6da3e5c03ac7e66cdc5f307308e136ff9a65b05fdd2022bd96fc27132b9d6373",
+      "text": "Swerve [回]"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "ad55ac0a905f901f723017cae2b577db832ea48e25bf0d03467895daf45320f6",
+      "text": "[Combat Start] Gain 8 Poise"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "e6d1f3afce47c9bb5e4b8d6d2e6a147977fc9e6dfafcd1e0c4ff5f81b1aa3c35",
+      "text": "- If an attack skill has this skill's slot as its main target, gain 4 less Poise Potency from this effect"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "88749d1a0edc0a28834e8068c7d6252c6ddfa478f1e610848abac82a1ea0e520",
+      "text": "[On Evade] Gain 1 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "ca3273648dcaf12e0a3e5edc34cc7020dae0b07c597c9cf555efe1c3640f79e2",
+      "text": "Targeting this Evade slot reduces its Combat Start Poise gain from 8 to 4. Use an attack that can beat the Evade to limit Poise buildup."
+    },
+    "skills.1.name": {
+      "sourceHash": "3e99b40c4d396dde49e6ed5aecc822e83489cf115c2c05ddb207f59713959d03",
+      "text": "Defend [守]"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "dddfc70cad750c32c9755072a9f0505e9f46dd51829d2d60a632455014150350",
+      "text": "[Combat Start] Poise Count +4"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "238eb83b37531840ae8448c8f08554134c66d0aa757a9902f90c7cbd035f676e",
+      "text": "- If an attack skill has this skill's slot as its main target, gain 2 less Poise Count from this effect"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "92387e50590c359a2ae5937172f12b34bd12d7a65cf2705aca7666cdb0eda6f1",
+      "text": "[On Clash Win] Own Poise Count +1"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.1.response": {
+      "sourceHash": "df247a4d90790583a4e8af2f3dbd7bf7f8da377c728590013e46e1871a0e3ce7",
+      "text": "A Clashable Guard. Targeting it reduces the initial Poise Count gain from 4 to 2. Unlike ordinary Guard, it cannot be removed through a defense Offset."
+    },
+    "skills.2.name": {
+      "sourceHash": "dcfb4541e0fd64e2884872668f4186694ce052495d7f4d784179ba9b0575db71",
+      "text": "Reflect [反]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "6028263bd3d2c084bcd3f224f9ab7ad6f9f3dc9097e41f2da6f40a3dda59d68e",
+      "text": "[On Clash Lose] Own Poise Count -1"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "e252b886c4ebc1e9cd3b39f026e5288e202c3d88d501f4a9ec8f6c68b6afcc21",
+      "text": "Ⅰ[On Hit] Own Poise Count +2"
+    },
+    "skills.2.response": {
+      "sourceHash": "8d2537fa6a1ed5c080387cf64b3f1c1de3b297e9155b419eaa89269a1b4a30ca",
+      "text": "A Clashable Counter. Winning reduces enemy Poise Count by 1. Grace reduces his Clash Power by 2 against anyone except Ryōshū, making those Sinners suitable handlers."
+    },
+    "skills.3.name": {
+      "sourceHash": "a6005e2570ae632fcec9318adf59ec4e1f38d5d5e85d320e56e34c7ab11865c4",
+      "text": "Unnamed Cut [無名閃]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "f96f86b308b1809c127727651b95e8ffda7b41b1141c80e247fae56b8cfd4d3a",
+      "text": "ⅠCritical damage +50%"
+    },
+    "skills.3.response": {
+      "sourceHash": "1f97c9d415458e652c4dfdfe460f7b676a8f306b13eb864961d607224a9606e0",
+      "text": "A Slash attack with 3 Attack Weight. Poise critical hits and post-attack additional damage are dangerous. Stop it with a winning regular skill and maintain secondary targets' HP."
+    },
+    "skills.4.name": {
+      "sourceHash": "2f7216d8b3a861867e630a24dca0e5144a56210dd94aa7519001284c2d652dca",
+      "text": "Chainslash [連鎖斬]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "f5c97cffd043540de5630898af186171091c37704e8600be31fcc210f69ddca1",
+      "text": "Ⅰ[On Hit] Inflict 1 Slash Fragility next turn"
+    },
+    "skills.4.response": {
+      "sourceHash": "006396b23f3e373d93ff7528e995639b2e1e7d172a70c5516344c69ba45df8cb",
+      "text": "3 Attack Weight, inflicting next-turn Slash Fragility. Keep it off low-HP Sinners and save healing for the later Fallstar Slayer."
+    },
+    "skills.5.name": {
+      "sourceHash": "a1d14127d93121e1fe52ab86cf149a9b7462acff80c2f669a8bf483943fb95c7",
+      "text": "Fallstar Slayer [落星一殺]"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "064d6919b7511042acdec078eedd5b7d830d97a675618bc6cdecd03417e88f87",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "71c4a6a0cf9faf2fb09fdda8ddc1d1c810005079c383c7e6e439ce8ddfd37ade",
+      "text": "Damage +1% per 1 own Moonlit Azure Blade"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "26c32660f4620ec1131d94adb0d546fbad6d6f6bf61c76b38a839dbe5f9cae8f",
+      "text": "[On Use] Coin Power +1 per 10 own Moonlit Azure Blade"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "4b5c148b8236e257201b5f8d336ed0297a4e0faac100b045e55f421f208fd4bc",
+      "text": "[On Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger targets"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "68720bf3e14a21dcaf4ced09c460b5fa6a3c740dcc5c84676b9f84e9575337cf",
+      "text": "Critical damage +50%"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "f0b6b68460cfcd56f81bc816107a6e0110dfe48cc5b458d8ef80fa5a07517372",
+      "text": "[On Hit Without Coin Destruction] Deal Slash damage equal to this Coin's final damage"
+    },
+    "skills.5.response": {
+      "sourceHash": "cf7d9a668e51eae3ec60c7895cbcbcfc100c218e978491f3bd82a3d6edf3c41a",
+      "text": "8 Attack Weight and Unbreakable Coins. Can be clashed regardless of Speed; winning reduces damage by 80% and prevents Stagger from this skill. Moonlit Azure Blade also raises Coin Power; prepare powerful skills and Paralyze."
+    },
+    "skills.6.name": {
+      "sourceHash": "4899043f62fd1d8532997c1326dec9035f8d2e048cda3ed1a6504cae322ee094",
+      "text": "Retreat Form [收勢]"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "1870ff7818bc06d9b7f40da69ae3e4752550e6e4c7ff82de348c11eea10876a7",
+      "text": "[Combat Start] Gain Shield equal to (own Moonlit Azure Blade × 10)"
+    },
+    "skills.6.response": {
+      "sourceHash": "e712d3f7d39d866f1cb39ed51bf261d226d04fa0c2db3b0bf907bf09ddd8a82c",
+      "text": "Gains Shield equal to Moonlit Azure Blade × 10 at Combat Start. Offsetting alone does not undo this Shield; reduce Moonlit Azure Blade by the previous turn."
+    },
+    "skills.7.name": {
+      "sourceHash": "9ae60a6f727a9b7a9ce14dc6003edac7cb35a2a8b30fe34bae8fe161cfc37ca4",
+      "text": "Twinstrike [二擊]"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "7dca5ebc0362697f67e5b9c5fe441880080b2771d2416f0b1aa6490fbaed9e9d",
+      "text": "[On Clash Win] Gain 1 Moonlit Azure Blade"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "7e652affdfa2872a14a62909c2fba2f340bea9ea09e982f172586727d2d17ec9",
+      "text": "Ⅰ[On Hit] Own Poise Count +1"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "c0f8c96f363a57fabb045ee01139504768cc7c887addfe3933d919fbd69873e2",
+      "text": "Ⅱ[On Hit] Gain 2 Poise"
+    },
+    "skills.7.response": {
+      "sourceHash": "cbd35d34fe1fcf7efa35b38bbd6b367cc12bf0c944d5fdbde4e69a8d68a189a4",
+      "text": "An enemy win adds Moonlit Azure Blade and Poise. Clash with someone other than Ryōshū to prevent rebuilding the Shield."
+    },
+    "skills.8.name": {
+      "sourceHash": "7743f3ef140d50169ff0764ac47128c7184c572c066759604d7e31280436f566",
+      "text": "Triplestrike [三擊]"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "7dca5ebc0362697f67e5b9c5fe441880080b2771d2416f0b1aa6490fbaed9e9d",
+      "text": "[On Clash Win] Gain 1 Moonlit Azure Blade"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "7e652affdfa2872a14a62909c2fba2f340bea9ea09e982f172586727d2d17ec9",
+      "text": "Ⅰ[On Hit] Own Poise Count +1"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "853bdcabb952bae180c3d48328c32ad8d16a99cc97e3f8cbca46beef8d89756f",
+      "text": "ⅢCritical damage +30%"
+    },
+    "skills.8.response": {
+      "sourceHash": "03b31a02b7b9942981df4be8a5f2b63fef2b68f6be4750bec3c57c50d964e74d",
+      "text": "A 3-Coin skill; enemy clash wins grant Moonlit Azure Blade. Limit both it and Poise buildup. Prioritize Ren over the newly arrived Albina."
+    },
+    "skills.9.name": {
+      "sourceHash": "4cac1a5fd0158b613039bf8335ede34fdffadc952df66e3648c6908959364060",
+      "text": "Butcher - Ribs"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "fa8901c4beca6fe8a57ec7330b0cbd1c650b03a20a8fe8e688e416cc0f61a5f0",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.9.response": {
+      "sourceHash": "2c340c2bf4034d85275552c5731b8050df9b188ebaaa768b72fdcfdcce4600f1",
+      "text": "Power increases against targets with 6+ Bleed. Avoid repeated hits on Bleeding Sinners; stop it with regular skills."
+    },
+    "skills.10.name": {
+      "sourceHash": "a0c1b8e44ce051364bf9abc24b0757381d265e4047b4c291a7e44e7f9cc37fc4",
+      "text": "Rotator Crush"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "6dd8de2343f50785518d94c18e8c57dbbeec362917976c52f8375637e3f2521f",
+      "text": "[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.10.response": {
+      "sourceHash": "20cd8f7e27d8fec39206eb8a91439aedf9e0ba8667c88c7401cb3f1ee69e7ad4",
+      "text": "Inflicts Bleed Count and Bind while the enemy gains Haste, making next-turn redirection harder. Prepare a winning handler."
+    },
+    "skills.11.name": {
+      "sourceHash": "d8abed93841ca4fad75c4789a40c938bfc1a55901e78a3e5697873dae46e5fcf",
+      "text": "Tendon Tear"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "dab60298f4c5b77670903b6ecb18d9fe4ffc21d0d72368fd6e85dad038b57452",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "16200139dc42853597c272921e22eb6ab21be98528def6b112d28d6f6f98764c",
+      "text": "Ⅰ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "f2a04623ad82f91564b5513174caf6c3ec2257ccb41a5541cc5a34d02e7bfe79",
+      "text": "Ⅱ[On Hit] Bleed Count +1"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "15d5a4f68e8c948ad84de530208f0e9c894905a7faef93432f379820eeb5480b",
+      "text": "Ⅲ[On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.11.response": {
+      "sourceHash": "ea652e321515ddae6ac4d9573d9fa8e7892b6f9d6a09889e33cc7db994dafb43",
+      "text": "A 3-Coin skill gaining Coin Power per 4 Bleed. Avoid high-Bleed main targets and prevent next-turn Power Down."
+    },
+    "skills.12.name": {
+      "sourceHash": "6cdfbbb76a6c70b98e8dcf96d31b06c3a30f3f79b1106b7845cabed251eb585d",
+      "text": "Fascia Hungers"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "c40aef5add7570f4721e9c208cd02b72695056c7b6514456064f342bb821c554",
+      "text": "[On Clash Lose] Deal 80% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "53b43ee09cd19ac7581adcb3ddac6fc27a9544e703b343e4641c8f163cec0418",
+      "text": "[On Hit Without Coin Destruction] Inflict 10 Bleed"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "08ed03d0b39e50a469003dbe5ead3c1590213ef0c445c484425d1abc03d22029",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Bleed Count"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "674e07280a906a69664affd0b0287c1ff31f217edf138c6754558f002b1f3798",
+      "text": "[On Hit] Heal 5 own SP"
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "84da5d44238d47586a06ba6f5bab9528bafa3d030200919f70aa20a62535d88b",
+      "text": "[On Hit] Gain 1 Corpus Ingredient"
+    },
+    "skills.12.response": {
+      "sourceHash": "8edd574d0d5bf708b06d67ab23a9202166fd0f3230511dde2cbce59d94f69e7a",
+      "text": "3 Unbreakable Coins. Winning reduces damage by 80% and prevents Stagger from the skill, but on-hit Corpus Ingredient remains. Begin preparing for the next Repressed Flesh."
+    },
+    "skills.13.name": {
+      "sourceHash": "815bc11da3f4533a507371e2dd9b198dc7f99c7c08c02bca2597e48b398448d9",
+      "text": "Repressed Flesh"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "920f64143bcc99e88f775dcc035fd9326a9cb31965fcc33d50da9579ce8b8ed0",
+      "text": "On the turn this skill is equipped, apply the following effects:"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "5bed0e00d4eccc79b81110c4f906ef810dc01111f8bf93189fe2311287261748",
+      "text": "- Before this skill is used, gain 1 Impact-rattled Armor when damaged by an attack skill (once per enemy skill, including E.G.O)"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "61e0e2d9ef5a7f79882d0a2f37ee50097a9d94a1eab7ca66eab838d67c8e3915",
+      "text": "- \"Iron Maiden - Spikes\" Effect does not activate"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "dfe31e04024d7cd6942171d6160647b81f30fb7d745a5cf75551e817be83a48e",
+      "text": "- Cannot be Staggered until this skill is used"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "9401c4311ed2d2ea3bb3a31275469183965d139f38bdbd48dc1123640f730f3b",
+      "text": "On Kill with this skill, heal 15 SP"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "1b15a3f789d3e563ee1386697c3e6ab4269bb9ffa25854b816e890680fd0a5be",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the target (max 4)"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "406368ad193953caaacbaf639d2a40151d05b3f0504384fd49611d83d851b3ac",
+      "text": "[On Use] Damage +10% per 2 Bleed on the target (max 100%)"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.13.effects.8": {
+      "sourceHash": "66743299388a9e958e02ad9273939c6b3ac84acc791de81da5acb6cae728295a",
+      "text": "[After Attack] Artwork: Fascia expires"
+    },
+    "skills.13.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.13.effects.10": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.13.effects.11": {
+      "sourceHash": "674e07280a906a69664affd0b0287c1ff31f217edf138c6754558f002b1f3798",
+      "text": "[On Hit] Heal 5 own SP"
+    },
+    "skills.13.effects.12": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.13.effects.13": {
+      "sourceHash": "08dcd855847ddbfd2f9ce7c8d82e35307e0c1ce985c007004b74ea25b6975b3f",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Fragile next turn"
+    },
+    "skills.13.effects.14": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.13.effects.15": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.13.effects.16": {
+      "sourceHash": "2af862458d6d54d74c2b6d59aea700c190e9c6814ce4f0753a45ffff3ac1d51b",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Damage Down next turn"
+    },
+    "skills.13.effects.17": {
+      "sourceHash": "e1fcc9c5de7de50751ba054f33153117ef254ffcdc7fbd9b1ed5d9d7388984f4",
+      "text": "[On Hit] Gain 1 Damage Up next turn"
+    },
+    "skills.13.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.13.effects.19": {
+      "sourceHash": "9dbff480a6a8275beb4c8f9f8956886eb6068af5686e97c6fe1a704fd2f03d51",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Bind next turn"
+    },
+    "skills.13.effects.20": {
+      "sourceHash": "6dd8de2343f50785518d94c18e8c57dbbeec362917976c52f8375637e3f2521f",
+      "text": "[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.13.response": {
+      "sourceHash": "5119fd45e67c71de591754a3de8f90ef2f0822731e28327573be57529ef51351",
+      "text": "Damage her with 3 separate attack skills before use to reach 3 Impact-rattled Armor, reducing Final Power by 30 before clashing. A single 3-Coin skill does not grant 3 stacks. Spikes is inactive this turn."
+    },
+    "skills.14.name": {
+      "sourceHash": "8bcce775d75560c3af2f0eb540176fbd4f72e40829845b98ee844c9e382d9c9d",
+      "text": "Exhibition Arrangements"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "44a40ee140176b4461c7637e0b8cafc9fff893e44756fb960a14d75da75537d9",
+      "text": "[Combat Start] When damaged by an attack skill, increase the attacker's Bleed Count by 1 (including E.G.O)"
+    },
+    "skills.14.response": {
+      "sourceHash": "bf670556360de40d656e4c5b75eb18a26dcb5cd61d81dd358a5d8b87cf426123",
+      "text": "At Combat Start, gains an effect that increases attackers' Bleed Count when hit. Spikes also reflects damage; avoid unnecessary attacks and prioritize Ren."
+    },
+    "skills.15.name": {
+      "sourceHash": "b484d158f825fc9a635cee06cded481e2c3457ad52e4b41b904a73c5bf5f7f54",
+      "text": "Iron Curtain"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "cd5bfa55f46f95b65cb0457e130f479fd58798e6219fc206c4332f9852cb5fe2",
+      "text": "This turn, Iron Maiden - Spikes deals 20 times its normal damage to enemies (this effect is not removed by Offset)"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "b30bc5cb88be4760a6af1106ad2f9c5127f0d3911913b1b46d1bc81a5dc5db28",
+      "text": "[Combat Start] On taking attack-skill damage, increase the attacker's Bleed Count by 1 (including E.G.O)"
+    },
+    "skills.15.response": {
+      "sourceHash": "7b8482e293c663f61d6b1e3d6277cf48afd1e2bce0b2773606bbe1b6d3012097",
+      "text": "Spikes reflection is multiplied by 20 and survives Offset. Avoid attacking Albina this turn; use defense or healing on high-Bleed Sinners."
+    },
+    "passives.0.name": {
+      "sourceHash": "df6e45c971efec517b7ffa6938c993833fbc5ffa07ef782426e7886da26ca10b",
+      "text": "Training to Inherit the Name of a Star"
+    },
+    "passives.0.effect": {
+      "sourceHash": "a97905eb2f922d3236e7666b28b730375703812c56e5ce58f1a80f63dc6eb4eb",
+      "text": "After an attack skill ends, deal Slash damage to each target equal to (number of Slash Coins that critically hit × 10). This damage cannot Stagger"
+    },
+    "passives.0.condition": {
+      "sourceHash": "caeb07bdd62bedc3f46bdc47992692a0e4c8c3bdb0957694e2c35ded2b65868c",
+      "text": "Slash Coin critical hits / after attacking"
+    },
+    "passives.0.response": {
+      "sourceHash": "b088b41cdfb00a8b1f489d6a948fade1cf1983638fc15d76be4abfaaa644f3b5",
+      "text": "Additional damage still removes HP even without Stagger. Limit Poise buildup and heal."
+    },
+    "passives.1.name": {
+      "sourceHash": "4e968789b54e2544fd6073e181e20e746e3255df93df49cff468aba778ab791c",
+      "text": "The Orthodox Blade [整劍]"
+    },
+    "passives.1.effect": {
+      "sourceHash": "4e110d07a91e45b58375d8ede8bacbd07f376421fe3fc66b7d68861c6b1c0ddc",
+      "text": "At encounter start, gain 50 Moonlit Azure Blade"
+    },
+    "passives.1.condition": {
+      "sourceHash": "6fb4534f367b0ad03b56481702d019e4d7eb77e42632f0c6730a22d06ae2db26",
+      "text": "Encounter start"
+    },
+    "passives.1.response": {
+      "sourceHash": "72a78ae396890b3b44c66a679b782f635bb2a911653f695377e642b8d92bc190",
+      "text": "Starts with 50 Moonlit Azure Blade. Use multi-Coin attacks to reduce it."
+    },
+    "passives.2.name": {
+      "sourceHash": "ce7e1c338d093fb79ed238b9f82ad513aec774fba37aa1421652e7a62887f6cf",
+      "text": "Tranquility [靜念]"
+    },
+    "passives.2.effect": {
+      "sourceHash": "b5e41cfb1fa91042f2f737a8239c2f53620f606a9dbfc5ca178e2c135fd08d49",
+      "text": "While holding Moonlit Azure Blade:\n- SP cannot fall below 0; if below 0, set it to 0.\n- SP damage received becomes Gloom damage (excluding basic SP gain/loss rules)."
+    },
+    "passives.2.condition": {
+      "sourceHash": "f799aadc4475205def1626d22a2c6cf2f19a6344299af3f3e8355da133e35368",
+      "text": "While Moonlit Azure Blade is present"
+    },
+    "passives.2.response": {
+      "sourceHash": "7585444f04e5e11c0e5ae623dee0deeb0500532df484936e3302a151fc300d48",
+      "text": "Do not rely on lowering SP below 0. SP damage becomes Gloom damage."
+    },
+    "passives.3.name": {
+      "sourceHash": "13b9a01a4bc6acfed87b65c204d7192ccaabdd55894bbdd59d8686c08f8a3a42",
+      "text": "Grace"
+    },
+    "passives.3.effect": {
+      "sourceHash": "1ac3c76be97d53e5c202fa05ebdf7818f00723754a047cdb8488d55a3148dd48",
+      "text": "When clashing against someone other than Ryōshū, Clash Power -2. Take 20% less damage from targets other than Ryōshū"
+    },
+    "passives.3.condition": {
+      "sourceHash": "6593302aae90f2ca0b07e52b0274f0a7bb50e9fd6b97c6a06a6448ff42b9de02",
+      "text": "Clashes / damage from someone other than Ryōshū"
+    },
+    "passives.3.response": {
+      "sourceHash": "2f79a863f60b921603acb648087fcd96b0610d3ff741ffef1c336aea16f16662",
+      "text": "Other Sinners reduce enemy Clash Power by 2 but deal 20% less damage. Use Ryōshū's actions for damage or other roles."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.4.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.4.response": {
+      "sourceHash": "0f60bf3b32ee2065ea43d09c70143d4f950eadf17eaa0e6555104c0ccd90645c",
+      "text": "SP resets to 0. Maintaining Panic alone is not a solution."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.5.response": {
+      "sourceHash": "be427e045d25c7fd59f3ddac0624a0113b0769fa597ae389fd2cd3192d43f86f",
+      "text": "Do not rely on replacing Panic type to disable strong attacks."
+    },
+    "passives.6.name": {
+      "sourceHash": "330e2a548c084e2dee7982cc64567fae84948a424eb55a09643883009a706ebe",
+      "text": "Singular Focus of the Mind"
+    },
+    "passives.6.effect": {
+      "sourceHash": "8b8054a0f7cc07b1ce44526d3d7133f30b8830452b35821a6220eda7e18ace40",
+      "text": "Poise Potency caps at 25.\nPoise Potency gained beyond 25 becomes Moonlit Azure Blade."
+    },
+    "passives.6.condition": {
+      "sourceHash": "6fd4d72507683ad342f4f5c2ab5a0e96e5dbd878a172d8297162e354de751f38",
+      "text": "Gaining Poise Potency beyond 25"
+    },
+    "passives.6.response": {
+      "sourceHash": "d4c64578a00faa8fc869c8fbcc57c77d49818ee3a6de3faf80727970f40574e7",
+      "text": "Excess gains replenish Moonlit Azure Blade. Do not ignore Poise-generating defense slots or hits."
+    },
+    "passives.7.name": {
+      "sourceHash": "7ff29463185e7a3261993739f7019c8b32b9330192974fded23f2880b0228040",
+      "text": "Fascia, My Precious Artwork"
+    },
+    "passives.7.effect": {
+      "sourceHash": "452c10c3c81b7f1e21a763dc4b47ffd68f1bc654fdd7fc584ec84f1ac81bb770",
+      "text": "At Turn End with 2 Corpus Ingredient, remove it next turn and gain Artwork: Fascia.\n\nAt Turn Start with Artwork: Fascia, use a powerful attack this turn.\n\nBefore using the powerful attack, gain 1 Impact-rattled Armor when damaged by an attack skill."
+    },
+    "passives.7.condition": {
+      "sourceHash": "a7f76a6eb02603f2ef93803513db9605ae5030c51569bbb8d90b8a88672cceba",
+      "text": "2 Corpus Ingredient / preparing the powerful attack"
+    },
+    "passives.7.response": {
+      "sourceHash": "dc8d3b259daed3d785f56c2c5f1cd88f4837bab72dfc34ef3f65ca28bdf16535",
+      "text": "When Repressed Flesh appears, prepare 3 earlier attacks."
+    },
+    "passives.8.name": {
+      "sourceHash": "5e44efbca742b87751c298abb41948ff98ad98fd87204d6618a7bbedb370e229",
+      "text": "Corpus Spent as Material"
+    },
+    "passives.8.effect": {
+      "sourceHash": "5906d7b244bc4f870bc6ba521e4f4e0fd457b3d04e75b7f9c9d40551e3ae452b",
+      "text": "Take 30% less HP/SP damage and Stagger Threshold increase from Burn, Tremor, Rupture, and Sinking.\nTake 50% less Bleed damage."
+    },
+    "passives.8.condition": {
+      "sourceHash": "3f163511c0c74a81e6e0ec419eff8438684c709458a73bc431c469065e79dde9",
+      "text": "Status damage and related effects"
+    },
+    "passives.8.response": {
+      "sourceHash": "316c74c3c2d952d9e5290ad16051fb15ad293d0493558e1ba3634f64fa80e1ef",
+      "text": "Bleed is reduced by 50%; the other listed effects by 30%. Use the opening after the finisher rather than forcing through with statuses alone."
+    },
+    "passives.9.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.9.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.9.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.9.response": {
+      "sourceHash": "0f60bf3b32ee2065ea43d09c70143d4f950eadf17eaa0e6555104c0ccd90645c",
+      "text": "SP resets to 0. Maintaining Panic alone is not a solution."
+    },
+    "passives.10.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.10.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.10.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.10.response": {
+      "sourceHash": "be427e045d25c7fd59f3ddac0624a0113b0769fa597ae389fd2cd3192d43f86f",
+      "text": "Do not rely on replacing Panic type to disable strong attacks."
+    },
+    "passives.11.name": {
+      "sourceHash": "af03cef864b2e67e60751b0d427faa1611d649a0ab27d812327574ed8b9e5bc1",
+      "text": "Armor of Protection & Repression"
+    },
+    "passives.11.effect": {
+      "sourceHash": "7fae5c25954df011598d0ba7b32ed84cbb2b505ad8b65b38a450f7ca03e96f11",
+      "text": "At Turn Start while not Staggered, gain 2 Protection, 10 Defense Level Up, and Shield equal to 10% current HP.\n\nFor each use of Repressed Flesh this encounter, reduce these gains by 1 Protection, 5 Defense Level Up, and 5 percentage points of Shield."
+    },
+    "passives.11.condition": {
+      "sourceHash": "8876932de76bb6874d20318a68723c2853688302c4070806dc926aab9c5f7346",
+      "text": "Turn Start while not Staggered"
+    },
+    "passives.11.response": {
+      "sourceHash": "4032f7f7ff1366ec03ff24b2108b9563ec6157a60cd496caf1e2a13fb0f9b831",
+      "text": "Initially grants 2 Protection, +10 Defense Level, and 10% current HP Shield. Weakens with each Repressed Flesh use; focus Ren until then."
+    },
+    "passives.12.name": {
+      "sourceHash": "b74e729407681deaf7e4b2fd776be7dac438f74c9fab46c9d028afd9ef8ea7fc",
+      "text": "Iron Maiden - Spikes"
+    },
+    "passives.12.effect": {
+      "sourceHash": "294101ba861ac425750d5972fcb3bd02c6450b75e82d62baa0f28a2923d597bd",
+      "text": "While not Staggered, when damaged by an attacker's final Coin:\n- Deal Pierce damage to the attacker equal to 20% of that Coin's damage and inflict 2 Bleed (max 100 damage per skill).\n- This effect's damage cannot Stagger."
+    },
+    "passives.12.condition": {
+      "sourceHash": "587dffe0711a50d3c1e7d2c565d3b0d32c4aefa18fd570766913b990915f54bf",
+      "text": "Damage from an attacker's final Coin while not Staggered"
+    },
+    "passives.12.response": {
+      "sourceHash": "d3076378d2174370212c3774408b557f33b72620b62dd06af1c24c3114ba53bb",
+      "text": "Returns reflected damage and Bleed. Especially avoid attacking during Iron Curtain; Repressed Flesh's preparation turn is the exception."
+    },
+    "passives.13.name": {
+      "sourceHash": "3f5abcc70879984486a8a76ab20125a9f033f8504277c5a48eac2fb7e9364f02",
+      "text": "Iron Maiden - Defibrillation"
+    },
+    "passives.13.effect": {
+      "sourceHash": "0063ac8c48e8e39e3aa59dbca769e92218bc0a26f5ee330caf666dbc0b4d8176",
+      "text": "On entry, heal 30 SP.\n\nAt 60% HP or lower, recover from Stagger and end the turn (once per encounter)."
+    },
+    "passives.13.condition": {
+      "sourceHash": "20d2091ad60d3dd2304e9476d1e0ef05c91d8b800ed48bbbd97c12395ef5f7af",
+      "text": "Entry / 60% HP or lower, once per encounter"
+    },
+    "passives.13.response": {
+      "sourceHash": "4128fd9e3d35577b6c869d23c4bd5865ed17cacd6f2d6ad85d59ccd9fc65be43",
+      "text": "At roughly 811 HP, Stagger clears and the turn ends. Avoid follow-ups into the subsequent Iron Curtain."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "61858cbf90e894d97aca33178983cdaa9662eb42c7953f43d55f68c2c970fda7",
+      "text": "Stench of Times Past"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "75203e2b48d638889248e008a495c4e4ca8b1b27ec706537bcb9a6df761d9d8d",
+      "text": "Ryōshū gains +1 slot and +10% damage against Spiderweb. On Stagger, recover next turn and gain 1 Attack Power Up (once per encounter). Cannot retreat."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "69eda0781019ab14fb5a1299120d5694f707827a0f0945cf0a853123bea3130b",
+      "text": "Ryōshū cannot die while another ally lives. Divide roles while preserving allied HP."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "897b61455b9e3dc870789b5a8a7d141a3d24a343b75885941b76f955207477a7",
+      "text": "Moonlit Azure Blade"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "00cbb0b3c90b27ecae23a9b2af7d61ae6780c25a73d4b3cee2b265fbc62e8730",
+      "text": "Max 50. At Turn Start, gain Shield equal to value × 5; critical damage +1% per stack. Decreases by 1 when taking damage."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "535ec4f9e04060e5dde1f85f06ecc4905f5c7d21ad00ef288e0d3d061e7578f0",
+      "text": "Reduce through multiple Coins and prevent replenishment from excess Poise gains."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "36e1f4c3024fcc2d9bfc3b12d1182f6808a67676919cd6606c2bf1db910eaf6a",
+      "text": "Corpus Ingredient"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "f589f1a3b03993fe4ef71c4ba6b5c3b87f7243873435f4f519084478b6c27774",
+      "text": "Max 2. Gained through Fascia Hungers hits and other effects; at 2, the Turn End condition prepares the next finisher."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "01d438e9c483a9d0b61a250c854f78cf7c6e98c752efc81e42398e16f832c217",
+      "text": "Unbreakable hits can remain; prepare 3 earlier attacks promptly."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "7f6ecabcdde60b211c55da7fb652c5c914a29094d4a522fffdf0b465046b7a64",
+      "text": "Artwork: Fascia"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "219d7cfd4824be1b62ee92d63ef83961c0c7667f013e3a52bdab43c87fb97a49",
+      "text": "At Turn Start, gain 4 Base Power Up. Inflicting Bleed through attack skills adds 2 Power. Expires after Repressed Flesh attacks."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "0bb921c38e05712458c5170bfa5a03aaba741fd53de9fc1f22beb932b4c59d1e",
+      "text": "Do not judge the finisher's Power solely from base values."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "d39439572403a11f2ec84c75b00d6a70bb45e3e5a4ce8986c13fe834cb80d6dd",
+      "text": "Impact-rattled Armor"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "a4928a573a2e85a2c9b70b811978bfde9df0866985c246592f7bf1cda39c35d1",
+      "text": "Max 3. Each stack reduces Repressed Flesh's Final Power by 10. After attacking at 3 stacks, expires and causes Stagger through next turn."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "e7339a93263949963e3b3f461e97cde2e8a45cca1e9bd2c03c7e7539ad0f2a91",
+      "text": "Build stacks with 3 separate attacks, then clash with the final skill."
+    },
+    "warnings.0": {
+      "sourceHash": "52e3d3b70dec2b489bd61c4f1bfb543e8a852c4f0a9b69324f54c0f270a46592",
+      "text": "Repressed Flesh counts skills for its debuff. One 3-Coin skill does not grant 3 Armor."
+    },
+    "warnings.1": {
+      "sourceHash": "902dd1f6f0b13bf183b188fdac61b40590027857abac765c8539b94518392a6f",
+      "text": "Iron Curtain's enhanced reflection survives Offset. Do not confuse it with the Repressed Flesh preparation turn."
+    },
+    "warnings.2": {
+      "sourceHash": "6868c939f8bb7431f1c09cbad2da3b06b9e6fe920bb63cf053842058fbf01970",
+      "text": "The turn ends at 60% Albina HP. Follow-up attacks after Stagger may not all resolve."
+    },
+    "warnings.3": {
+      "sourceHash": "5d9b405f96f014c5618808751778d069eea341083497f3f3f7cf58c06ccffe37",
+      "text": "Ryōshū's protection requires another living ally. Keep the other 3 alive."
+    },
+    "preparation.0": {
+      "sourceHash": "692abf5d659d5c79e6863991e360835a33118cea6a5087603e30d259ebd7232e",
+      "text": "Recommended Level 58. Level all 4 available Sinners and bring healing against Slash/Bleed plus strong finisher clash skills."
+    },
+    "preparation.1": {
+      "sourceHash": "038adbcf32afe642691797f82d0565d5dbdb28402c92cb4d6fea9c7de135524c",
+      "text": "Use multiple Coins, Paralyze, and Bind when available. Status mitigation means they should not be the only plan."
+    },
+    "roles.0.name": {
+      "sourceHash": "3363e1f0f406fde6ed1b0d205e01d7e476c23f3c94d0cd77eb89d238af8691f2",
+      "text": "Ren clash handlers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "258cb1200efb2b7dec6bf0af85515b41e6f9313739be9e5d44abff9bb5c6c179",
+      "text": "Use his reduced Power against Sinners other than Ryōshū to stop dangerous attacks."
+    },
+    "roles.1.name": {
+      "sourceHash": "888a9b10b04e78133bc34a3f8be1ea4e8ea50b73d02948aae6369e03cc607725",
+      "text": "3 early attacks and a final clash"
+    },
+    "roles.1.reason": {
+      "sourceHash": "afe5e2ad2412e6b3f1123555cc7aeb72d74351a32f28818ccafeb3b36ddc0fb3",
+      "text": "Weaken Repressed Flesh before taking it on."
+    },
+    "roles.2.name": {
+      "sourceHash": "5f520d2babe8c3c600ed391e7170730a30dafa9347a27f4706b84ce1026efce0",
+      "text": "Healing and defense"
+    },
+    "roles.2.reason": {
+      "sourceHash": "bb65d4568860b28daf0d44186302d6837cadd6429f7750ad95f7837158a24204",
+      "text": "Survive Iron Curtain turns and recover from Bleed/Unbreakable attrition."
+    }
+  },
+  "messages": {
+    "boss-copy:ren-albina": "complete",
+    "【リンバス】9-18 レン・アルビナの攻略｜Limbus Assistant": "9-18 Ren & Albina Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-18「レン・アルビナ」の攻略。4人で挑む2人戦。レンの呼吸と月下青刀を減らし、アルビナの大技は先に別々の攻撃3本を通して弱める。鉄のとばりのターンには攻撃を控える。": "Ren & Albina guide for Limbus Company 9-18. A 4-Sinner fight against 2 enemies. Reduce Ren's Poise and Moonlit Azure Blade; weaken Albina's finisher with 3 separate attacks beforehand. Avoid attacking during Iron Curtain turns.",
+    "9-18 レン・アルビナ": "9-18 Ren & Albina",
+    "9-18「Cigarettes and the Nursefather」": "9-18 · Cigarettes and the Nursefather",
+    "小指の子方 - レンの外見": "The Pinky Apprentice - Ren appearance",
+    "小指の子方 - レンのスキル": "The Pinky Apprentice - Ren skills",
+    "The Pinky Apprentice - Renの外見": "The Pinky Apprentice - Ren appearance",
+    "The Pinky Apprentice - Renのスキル": "The Pinky Apprentice - Ren skills",
+    "薬指の子方 - アルビナの外見": "The Ring Apprentice - Albina appearance",
+    "薬指の子方 - アルビナのスキル": "The Ring Apprentice - Albina skills",
+    "The Ring Apprentice - Albinaの外見": "The Ring Apprentice - Albina appearance",
+    "The Ring Apprentice - Albinaのスキル": "The Ring Apprentice - Albina skills"
+  }
+}

@@ -1,0 +1,985 @@
+{
+  "kind": "boss-copy",
+  "id": "dead-rabbits-boss",
+  "source": "src/data/bosses/dead-rabbits-boss.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "デッドラビッツ ボス",
+          "en": "Dead Rabbits Boss",
+          "file": "Enemies-a1c6p2.json",
+          "id": "8204"
+        },
+        {
+          "ja": "奇妙なデッドラビッツ団員",
+          "en": "Bizarre Dead Rabbits Henchman",
+          "file": "Enemies-a1c6p2.json",
+          "id": "8162"
+        },
+        {
+          "ja": "覆われたデッドラビッツ団員",
+          "en": "Veiled Dead Rabbits Henchman",
+          "file": "Enemies-a1c6p2.json",
+          "id": "8163"
+        },
+        {
+          "ja": "バットで殴る",
+          "en": "Bat Bash",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816401"
+        },
+        {
+          "ja": "打ち落とす",
+          "en": "Smackdown",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816402"
+        },
+        {
+          "ja": "腹いせ",
+          "en": "Upheaval",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816403"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "815904"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816004"
+        },
+        {
+          "ja": "デッドラビッツ ボス？",
+          "en": "Dead Rabbits Boss?",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101601"
+        },
+        {
+          "ja": "敵意",
+          "en": "Antagonism",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101602"
+        },
+        {
+          "ja": "待ち望んだ瞬間",
+          "en": "Long-awaited Moment",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101603"
+        },
+        {
+          "ja": "役立たずが…。",
+          "en": "Useless Fools...",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101604"
+        },
+        {
+          "ja": "トゲ付きバット",
+          "en": "Spiked Bat",
+          "file": "Passives_Enemy-a1c6p2.json",
+          "id": "9101605"
+        },
+        {
+          "ja": "復讐心",
+          "en": "Heart of Vengeance",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816406"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999998"
+        },
+        {
+          "ja": "退却不能",
+          "en": "Cannot Retreat",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101607"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        },
+        {
+          "ja": "喪失",
+          "en": "Bereavement",
+          "file": "Bufs-a1c6p1.json",
+          "id": "AaCfPaBa"
+        },
+        {
+          "ja": "ど…け",
+          "en": "M...ove",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011901"
+        },
+        {
+          "ja": "邪魔す…な",
+          "en": "Get... Out of My...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011902"
+        },
+        {
+          "ja": "突…破",
+          "en": "Break...through",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011903"
+        },
+        {
+          "ja": "…撃",
+          "en": "...nter...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011904"
+        },
+        {
+          "ja": "処理す…",
+          "en": "Taking Ca...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011801"
+        },
+        {
+          "ja": "片…付…",
+          "en": "Remo...ve...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011802"
+        },
+        {
+          "ja": "阻…止…",
+          "en": "Hold... Them Ba...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011803"
+        },
+        {
+          "ja": "反…",
+          "en": "Cou...",
+          "file": "Skills_Enemy-a1c6p1.json",
+          "id": "9011804"
+        },
+        {
+          "ja": "おま…か",
+          "en": "It's... you...",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9011601"
+        },
+        {
+          "ja": "果てしない喪失",
+          "en": "Unending Bereavement",
+          "file": "Bufs.json",
+          "id": "AaCfPaBa_Alt1"
+        }
+      ],
+      "note": "Guide ellipsis variants are matched to paired game records. Heart of Vengeance is scoped to these bosses to distinguish the Identity passive Grudge."
+    }
+  },
+  "scopedTerms": [
+    "復讐心",
+    "バットで殴る"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "f7570ed0160de934c8120bee501281da1714f0557364929241ea03222cb93b37",
+      "text": "Dead Rabbits Boss (6-33)"
+    },
+    "shortName": {
+      "sourceHash": "4ef80abd1fd4ab7dd50d527ab303e9f61ea376cdca99be3be87cfe910c15d6ba",
+      "text": "Dead Rabbits Boss"
+    },
+    "stageName": {
+      "sourceHash": "29e588a237480463c3dabca7814410ebd342a74c5bf5952173fc73b162020bfd",
+      "text": "Matt"
+    },
+    "lead": {
+      "sourceHash": "f0d663c27bab87fcff385b8eb6a852384b8d103a6dfae46bb300d599c6b0545f",
+      "text": "Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop Upheaval and focus damage on the boss during its Stagger at 60% HP."
+    },
+    "listLead": {
+      "sourceHash": "8d0f14204dddf0c84e956ced5a9ca86ea417c1f440043efbcfaadf5757569ff6",
+      "text": "Defeating adds gives the boss more actions and buffs. Contain the adds and stop the boss's dangerous skills instead. Concentrate damage during the first Stagger and limit time facing Counters after recovery."
+    },
+    "statNote": {
+      "sourceHash": "6b67c08b5bebe73114864f3f88e270e23cc81cb7d6c437089a062fe033408bc6",
+      "text": "Focused Encounter at 6-33. All enemies are Lv.44. The boss has 929 HP and Defense Level 47; the 2 Bizarre Henchmen and 1 Veiled Henchman each have 186 HP and Defense Level 36. Heathcliff is mandatory. The boss takes only 0.8× damage from all three Physical types, so also exploit Sin affinities such as Gloom and Envy. Mirror Dungeon variants are excluded."
+    },
+    "skillNote": {
+      "sourceHash": "a1cebe19c87b899c230a8c63a5ea47461d34a6fc8392856d3f597e2088f69d57",
+      "text": "The boss has 5 skills; each henchman has 4. Their counters are regular Counters, not Clashable attacks. Distinguish Upheaval's base range of 5–17 from its Rupture, Bleed, and Antagonism clash bonuses, and from its Heads Hit bonuses to later Coins. Smackdown's Attack Power Up amount is unspecified; do not infer it from its 1 Damage Up."
+    },
+    "priorities.0": {
+      "sourceHash": "53e73f16adac2e0fd5578d00fe1d3c69ac36692b0e63344613d22d9ec382c4f4",
+      "text": "Aim for Lv.44 and Uptie III or higher on your main team. Prioritize Identities with strong opening clashes and resistances that can withstand Blunt attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "bea52d01f8f4b1487b228beb5efa42ad9162fd2272f0594a88f74bb23dbd9f9a",
+      "text": "Keep the henchmen alive, handle them with clashes or Defense Skills, and focus damage on the boss. If an area attack also kills henchmen, account for the extra slots and next-turn buffs."
+    },
+    "priorities.2": {
+      "sourceHash": "8b503fc73afebce912d63caa38c517db618516c43524f84aebfc02df6ee4356c",
+      "text": "Save a strong skill that can beat Upheaval. Give Heathcliff clashes he can win, and prepare enough damage to finish the boss after its Stagger at 60% HP."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "af2497ef9b58fdab5b04a4d82981ef52a6e2500fbbc71984ed34a38ea3405f16",
+      "text": "The fight suddenly becomes harder after clearing the henchmen"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "4d9d7e08c8e2bf0b750cd83a8a611daaa0c4a1a54499e6c1eac3b07e5531fa4c",
+      "text": "Each henchman's death permanently adds a boss slot for the encounter and heals it for 15 SP. If a Sinner kills the henchman, the boss also gains Attack Power Up and Haste next turn. Start by keeping the henchmen alive and handling their attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "a692d6773c7dab048c29368562f74f184c25077d11600a6531adf0659e349635",
+      "text": "Losing clashes from the start"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "c06a5efa9ce34b84fcb92f05e61ea98b1ea9ab66ea1fc38906e75b0840eadbc3",
+      "text": "The boss heals 15 SP every turn and gains +2 Clash Power when the target's current HP exceeds its own. Use Identities with strong opening clashes, and lower the boss's SP through clashes Heathcliff can win."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "15c5a7595aead75bd91898e14bafd639dd3e17e742e680e1fbea0473596b267f",
+      "text": "Upheaval Staggers or kills a Sinner"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "b45d2733e0f4feb42a2555e1d585610f4de20eed5398187a41acbacbf7e24c49",
+      "text": "Rupture and Bleed strengthen the clash, and Coin III deals additional Pierce damage equal to Bleed Potency × Count. Save a strong skill or E.G.O for this attack, and prevent debuffs from building up on the preceding turn."
+    },
+    "units.0.name": {
+      "sourceHash": "4ef80abd1fd4ab7dd50d527ab303e9f61ea376cdca99be3be87cfe910c15d6ba",
+      "text": "Dead Rabbits Boss"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "b6d2ceb9568c60e03570f6ee58179efb1cab4d9c350629c603d3d3ef8d27d1d6",
+      "text": "60% / 0% / −10% (557 / 0 / −93)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "41d462bd2545bbd86320bd44ea13fbcb488065c4dadf97c3a0fb8e8f62a5fb6c",
+      "text": "Starts with 3 actions: 2 attacks and Guard. Each henchman's death adds a slot."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "fc213943ca2a6bdf84f82d40df9d8b5e1100ed3361d7d799d3866938bfdfbfd1",
+      "text": "At 60% HP or below, Guard becomes Counter. Focus damage during Stagger."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "dfad76abd061dfbb4cbedcc8f148f49a066c3f5f92052e85a6d49052142aad78",
+      "text": "The listed 0% and negative Stagger Thresholds retain the source values. The threshold normally reachable before defeat is 60%."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "127993bf99997ad083a3cc34c32896aca09803e6ec5eeac7e6e0659cbe40f63c",
+      "text": "Defeating the boss also kills the remaining henchmen."
+    },
+    "units.1.name": {
+      "sourceHash": "55314e48566f356a4e7e5ebd92c6d079f74f450ae284e80a974068da361d3d8f",
+      "text": "Bizarre Dead Rabbits Henchman"
+    },
+    "units.1.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.1.stagger": {
+      "sourceHash": "e7edab765d096e297eed0e9baad4f8cd699cb784b3eeceed443c27b7a8e65a31",
+      "text": "65% / 30% / 0% (121 / 56 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "d6b85f60bac722cd6156a1030daf5d7fe7ca66523053867e65802cc5d6f3747b",
+      "text": "2 appear at the start."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "f89ce2686a7a56fbe3b6f187b56ba294afc2e62845fdccc1fe36239477974019",
+      "text": "Dies when the boss is defeated. Killing it first increases the boss's slots and SP."
+    },
+    "units.2.name": {
+      "sourceHash": "3563e5c94e5443805af98ff91f51c8c8f510580aa1ec212aa8d40aa53d192390",
+      "text": "Veiled Dead Rabbits Henchman"
+    },
+    "units.2.part": {
+      "sourceHash": "ec3c14f8d4a7e22dd3a83eb5825fdab2d7b878b9a870d37cf299cb38f63c16dc",
+      "text": "Adds"
+    },
+    "units.2.stagger": {
+      "sourceHash": "e7edab765d096e297eed0e9baad4f8cd699cb784b3eeceed443c27b7a8e65a31",
+      "text": "65% / 30% / 0% (121 / 56 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "bc12e6c25a2309d15ebd25586aec87abc518659d6de16f81d31180ea8369ef3c",
+      "text": "1 appears at the start."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "f89ce2686a7a56fbe3b6f187b56ba294afc2e62845fdccc1fe36239477974019",
+      "text": "Dies when the boss is defeated. Killing it first increases the boss's slots and SP."
+    },
+    "phases.0.timing": {
+      "sourceHash": "0b5764571d40524daa12b3d9cb48d05cba7ada6ef696d16fb5983db2d2adeec8",
+      "text": "Opening–Turn 2"
+    },
+    "phases.0.title": {
+      "sourceHash": "e4b97500db7d33ba452a8872605ff7046e90d02b2145521f3f07bd04ee07721d",
+      "text": "Keep the henchmen alive and stabilize clashes against the boss"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "bbc29cbe0a9783f7d9689092d0b8d2ea82716585f0abdf369b3dc88573576e36",
+      "text": "Handle henchman attacks with winning clashes or Defense Skills, and direct damage at the boss. Using area attacks indiscriminately can strengthen the boss by killing its henchmen."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "db343fabefc0654f3a8543c3a69e6ad359146a28be12f0bf4709be08d7df96d6",
+      "text": "The boss heals 15 SP at Turn Start. Using a strong skill for a clash Heathcliff can win lowers the boss's SP by 10 and inflicts 2 Bind next turn, up to once per turn."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "7642c3aa852255af80f82b7d5455ebc8dfb7a00a3100fb376f96769ae0bcac49",
+      "text": "Offset Guard with a Defense Skill, or have another Sinner clash with an attack instead. Avoid triggering its next-turn buff unnecessarily."
+    },
+    "phases.1.timing": {
+      "sourceHash": "f48fe5db4948b0cfce7d9ba15efa2cab2444410b89898ecf92575f6ca0263a27",
+      "text": "Upheaval on Turn 3"
+    },
+    "phases.1.title": {
+      "sourceHash": "dabb83e7cbd31e31a5e15b8c37cb343747761f67386946edef3d25a1e15aa0e5",
+      "text": "Check Rupture and Bleed, and save a strong clash"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "ec82c147f2dbb4a212cac7c1c92c98bf83e644e0ae175abad931c0f95dc2bb68",
+      "text": "With all 3 henchmen alive, the usual Turn 3 pattern is Upheaval and 2 uses of Smackdown. Check the actual skills and reserve a strong response."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "85f4b43cdfd5e390695564e9bbe893a8f13ecc462691b7d366b892a3471ec4ae",
+      "text": "Upheaval gains +1 Clash Power for at least 5 Rupture on its target, and another +1 for at least 5 Bleed. Antagonism can also activate based on current HP, so do not judge it solely by the listed maximum of 17."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "eb3c4402c035da7e71252c0a77e212d3da9b7109a4ef40b32a4c96eb4664a63e",
+      "text": "If using a debuffing E.G.O, check its resource costs and activation order. If a poor hand repeatedly leads to hits, review your opening clashes and team."
+    },
+    "phases.2.timing": {
+      "sourceHash": "f0271cea0b28a94a616eb0150b1e4ee42f5d78dcd63750f7596e5e4d62549446",
+      "text": "Stagger at 60% HP–finish"
+    },
+    "phases.2.title": {
+      "sourceHash": "1408c540a7d165d195a72a1d3ba9d58c504dcdd9f3a13fd90508e069cce57eda",
+      "text": "Focus damage on the boss during Stagger"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "9821cb8a998fa024b0293a0f4aded99c4d11251c6de6dbc66fb10bf9d6889096",
+      "text": "After Staggering the boss at 557 HP, focus effective damage such as Gloom and Envy on it. Defeating it also removes the remaining henchmen."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "614173e5dac4ef5b62c6143fe2d057b11d98a70438537003681d0fc654c7e98b",
+      "text": "At 60% HP or below, Guard becomes a regular Counter. It cannot be offset with a Defense Skill, and the first Sinner to attack takes the counterattack. Check their remaining HP and resistances."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "065f4357baf5bf7e853579e4da5f9d54510d2793395f585f6ff228280346dd20",
+      "text": "If you accidentally kill a henchman, reassess the extra action and next turn's Haste and Attack Power Up. Do not face the next Upheaval with the same plan unchanged."
+    },
+    "skills.0.name": {
+      "sourceHash": "be39d5976b5d24ffed68b51a45b7e7cbe1144bb85b324cb9a894d673f92929f5",
+      "text": "Bat Bash"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.0.response": {
+      "sourceHash": "807542a0730bae0ef3e0b8ab50c6e95da027b4bcff867b8e32f3961552498a08",
+      "text": "Hits build Rupture Potency and Count and also trigger Spiked Bat's extra damage. Win clashes from the opening to prevent Rupture buildup."
+    },
+    "skills.1.name": {
+      "sourceHash": "57d30e2cc333ac7af1427101343b4afd879224e746beb44f44242f5ce1803188",
+      "text": "Smackdown"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "d3116d4807447e08f12561444011dd780ac8d4a5655a1ded2ac3074a9a650b6e",
+      "text": "[Clash Win] Gain Attack Power Up and 1 Damage Up next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "89346993e390a99b49bdc153b8563232e2135af2b4a2c1ddd1deab698899e3ea",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "bfddc520fc0281dd6c349df796c489aaab54c3226aba454a41a7329283c45ec3",
+      "text": "　[On Hit] Inflict Bleed equal to the target's Rupture."
+    },
+    "skills.1.response": {
+      "sourceHash": "cab7947e1fb239061c97403e388d6386dda71699d1e14b30bc17934d5914a21e",
+      "text": "An enemy clash win gives it buffs next turn. Rupture also increases the Bleed inflicted, making the subsequent Upheaval dangerous."
+    },
+    "skills.2.name": {
+      "sourceHash": "ccfcbc7c7bc4e62ef3dd77fabef42dd50b02e281587ef45ca7febab225f46ba6",
+      "text": "Upheaval"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "7b4a1d55d837861980e54cc246a7094efea7a0a82e4968d9eaba2c1556bbf215",
+      "text": "If the target has at least 5 Rupture, Clash Power +1."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "8617b32c1f2c2cf080e08b7bd14b7eef464284c242a21f0cbc388d3d09402a86",
+      "text": "If the target has at least 5 Bleed, Clash Power +1."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a9fcd5dae78143144839d9465f1c2f6519c0e017a0be251261ff2a0bc960c0ab",
+      "text": "[Clash Win] Increase Rupture Count by 3."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "3a830070a25b1733a58d45ce578d65eeef4f8c24f6eda4ce57533569a2b251c0",
+      "text": "Ⅰ[Heads Hit] Next Coin Power +1."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d98d2422729390acfb2009b8f7ab4752109fecfca232f8a1c8a6f76cd01666b9",
+      "text": "Ⅱ[Heads Hit] Next Coin Power +2."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "d8e076a011014697f6ab949d4fe7363182430ff85389c4223846300da98127d7",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "7724f6c8e0c51a5f77d30215d10af44066d88bb3f851a68eb27d7a60af4faaa3",
+      "text": "　[On Hit] Deal Pierce damage equal to the target's Bleed Potency × Bleed Count."
+    },
+    "skills.2.response": {
+      "sourceHash": "cf1b9f299c3d9037185c68a0e09c1a92b777dda30539083b0e095db871e0a9ad",
+      "text": "Stopping this is the highest priority. At least 5 Rupture and at least 5 Bleed each grant +1 Clash Power, and Antagonism may strengthen it further. Coin III deals Pierce damage equal to Bleed Potency × Count, so reserve a strong skill or E.G.O."
+    },
+    "skills.3.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "03ac61daf9c77ed0a62d4d089bb29140918586a7c66b140e5d34069134c5e5c7",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "e56c8861fae0be3888071a2e8d28f669c6e408a8b7924c56bd8ec62c0f1cbf0e",
+      "text": "Gains 1 Attack Power Up next turn On Use. If an attack is targeting this Defense Skill, offset it with a Defense Skill to avoid triggering it unnecessarily."
+    },
+    "skills.4.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "03ac61daf9c77ed0a62d4d089bb29140918586a7c66b140e5d34069134c5e5c7",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "df4319de1a9a9fdb3f657fe07496ee499499c9b56868055187ff4e74baf4489f",
+      "text": "A regular Counter that replaces Guard at 60% HP or below. It cannot be offset with a Defense Skill. Check the first attacking Sinner's resistances and HP, or aim to finish the boss with that attack."
+    },
+    "skills.5.name": {
+      "sourceHash": "15ac5f223cf32607e9ee70029be5cd064278d2dad84454e4ed7649ad702ab1ec",
+      "text": "Taking Ca..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.5.response": {
+      "sourceHash": "500d5767c3b6f97c653d55930de188596bc5bf6139deef291d64d7c3468f34cf",
+      "text": "A single-Coin attack that inflicts 4 Rupture. Handle it with a winning clash or Defense Skill rather than strengthening the boss by killing its user."
+    },
+    "skills.6.name": {
+      "sourceHash": "07f08190ff4e1e4227c807272138d829a09b27303c9f1fa05b39ca8616590727",
+      "text": "Remo...ve..."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "595cae3b8799d9ab572fec567f4cd446ce7b1742d1b7362f8acfe2d3530a572d",
+      "text": "[On Use] If the target has at least 3 Rupture Potency, gain +1 Base Power."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "0f265f6efe05fd1ef527838bd8b85331c4c361ffab11f625a5ed9bad5da1582b",
+      "text": "Ⅰ[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "163323bd2b1d1044ffca104203ad194ac4f56975fe3132d5439db239e76b478f",
+      "text": "[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "ea5e06318f779042e6c7167f409a0ccc83f5832a492e66b0aae9327dc6f67f35",
+      "text": "Ⅱ[On Hit] Inflict 2 Defense Level Down."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "9b3d2a90fe30d5b6a8f30ef59da453296e335cbd4ac2fb18a5fb8c256f0d173c",
+      "text": "[On Hit] Inflict 6 Rupture."
+    },
+    "skills.6.response": {
+      "sourceHash": "661f50919fba0d238b904f9686302c509750539d3e219e70eb65fd4b644cb96c",
+      "text": "Gains +1 Base Power at 3 or more Rupture Potency. It adds Defense Level Down and Rupture Count, so do not let it hit a Sinner with heavy Rupture."
+    },
+    "skills.7.name": {
+      "sourceHash": "d60cccdf4d597ad68919bc2a68372d44ea138eb6958a6808f84b0dd46a99e044",
+      "text": "Hold... Them Ba..."
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "9acaff96c6a234f8376e0d11a0ea03457eeac95bb65df4b4d5298560e5fe1b4c",
+      "text": "[On Use] Deal 3 SP damage to the target."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "990f6088f0348dd78c9a0970617ba04006cee78cabad1cdec734a23770ccd19b",
+      "text": "[On Use] If the target has Rupture, gain +1 Base Power per 4 Rupture Potency, up to 3."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "485f292a55fd397f35837025ebfaea8e9cfdf5d7110920cba427d55a025d4587",
+      "text": "Ⅰ[On Hit] Inflict 6 Rupture."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "229e394d17dc916efa5686291715a54add2979a36a8463bcb5917e8b11368ef7",
+      "text": "[On Hit] Inflict 6 Bleed."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "fb1ddeb551bd7b38bd806802cad2ec2b1fae78b40e0241fc54878381185db6b7",
+      "text": "Ⅱ[On Hit] Inflict 3 Defense Level Down."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "04d3929a4f586f51b44c15b5626d249ed7019ccf4ca0437b187cf8d3a34a12db",
+      "text": "The 3 SP damage On Use applies even if you win the clash. Rupture Potency can grant up to +3 Base Power; hits also inflict Bleed and Paralyze next turn."
+    },
+    "skills.8.name": {
+      "sourceHash": "d60beab3220f5f6d17622d13caf13695011a221a715fc3624982bd1edb321be2",
+      "text": "Cou..."
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "16a379891b5231fe4b388e6fbea92ab8bdd82e7cd2f26774e6ffbb8e2388db09",
+      "text": "If the target has Rupture, gain +1 Final Power."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.8.response": {
+      "sourceHash": "ce8888b1912ce0bd28f7ea1724d1500c03cf19e81dc638b7624d95df83190be4",
+      "text": "A regular Counter. Gains +1 Final Power if the target has Rupture and inflicts more Bleed on hit. Do not trigger it carelessly with a weak unopposed attack."
+    },
+    "skills.9.name": {
+      "sourceHash": "6305d39b928df176f196bc0e8f617033582b78db82654c3f1afac518cda2fa7c",
+      "text": "M...ove"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.9.response": {
+      "sourceHash": "db0430534fccbd08cbf67eca0e7a9878d78124627717bd7b088406ff980ad3e2",
+      "text": "Adds 3 Rupture Count. Even a single-Coin hit is dangerous on a Sinner who already has high Rupture Potency."
+    },
+    "skills.10.name": {
+      "sourceHash": "535fb4c27878c4636ab6329a83738c1d95f5c05d4ea99b8b861cf183b40f6bec",
+      "text": "Get... Out of My..."
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "1c62d289cb3e70ce0bdc2126b67591890688413de78fd0f028a4e2ccc13f1004",
+      "text": "[On Use] If the target has at least 3 Rupture Count, gain +1 Base Power."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "1864e4825f01d05454944f4b594acaaf34df462cfe82a90bcc76ff2897e369c7",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "88effbdb02b04a7b1647e645a01ed05258d169c92e6bafa6fe39ac62547b9e87",
+      "text": "[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "79b1e73c043f0787aea5e2a3e31da9af196b5068657654630b901a196ab330bd",
+      "text": "Ⅱ[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "9b3d2a90fe30d5b6a8f30ef59da453296e335cbd4ac2fb18a5fb8c256f0d173c",
+      "text": "[On Hit] Inflict 6 Rupture."
+    },
+    "skills.10.response": {
+      "sourceHash": "a660fbe30b91f7d87d433af891ba08feafde6a4b34291c156f068095572e2cf8",
+      "text": "Gains +1 Base Power at 3 or more Rupture Count. Inflicts Offense Level Down and Rupture, weakening later clashes too. Prevent its hits."
+    },
+    "skills.11.name": {
+      "sourceHash": "31463c9cc00c32b9e38989fb44aee98be97da114c92b8ed9c0d53d9e8b4e8e82",
+      "text": "Break...through"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "9acaff96c6a234f8376e0d11a0ea03457eeac95bb65df4b4d5298560e5fe1b4c",
+      "text": "[On Use] Deal 3 SP damage to the target."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "97b79ca2a13ee0110ca0641fd9372fe089fcc6781ed808f766806e85115662f1",
+      "text": "[On Use] If the target has Rupture, gain +1 Base Power per 3 Rupture Count, up to 3."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "3d8ad992d1bf5d3fae6b617b92e01d38f6b1a9b43477d2c3ab7ea2a9e3f997ee",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 4."
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "6847479aa7398a7b249804b08aec2d676faa59cca0458dbc1e828e3a67125b78",
+      "text": "[On Hit] Inflict 8 Bleed."
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "511e5f8abe95874ae8f1d71986e4d4901592d49a7fcb489a07ade50760bac628",
+      "text": "Ⅱ[On Hit] Inflict 3 Offense Level Down."
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "09a667918d1092e8cd894ec3e8c54fd9dbd1e7eaea7c65087c96e87ce5bf2a78",
+      "text": "Deals 3 SP damage On Use and gains up to +3 Base Power based on Rupture Count. Its Count increases, Bleed, Offense Level Down, and Paralyze compound, so check the current clash prediction and stop it."
+    },
+    "skills.12.name": {
+      "sourceHash": "c7b82b3379c31dcf85aff61bb55b30c8a7a7e71eee10af461f5cc4fc5bad8ad6",
+      "text": "...nter..."
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "16a379891b5231fe4b388e6fbea92ab8bdd82e7cd2f26774e6ffbb8e2388db09",
+      "text": "If the target has Rupture, gain +1 Final Power."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.12.response": {
+      "sourceHash": "2d0551729462254f13fdbc85b5f33bffee72da60da368725f2882389d91b458b",
+      "text": "A regular Counter with +1 Final Power against targets with Rupture. When keeping henchmen alive, avoid hitting them and triggering it."
+    },
+    "passives.0.name": {
+      "sourceHash": "d8dbea1b46005901f4608bff1e0aa894d452d50a6d126b9ff13c1d87f6903b56",
+      "text": "Dead Rabbits Boss?"
+    },
+    "passives.0.condition": {
+      "sourceHash": "8c1d28e9ff492c66b2d3692e0ed184e6a6f05165cfb48456d56fc0650aaa522e",
+      "text": "Turn Start / ally death"
+    },
+    "passives.0.effect": {
+      "sourceHash": "58298e90987704d1de8664edc6055a483073ba01232066c0cdc24ba58f5f7b5d",
+      "text": "Grant 1 Attack Power Up to the 2 other allies with the lowest SP. Each ally death adds 1 slot for the rest of the encounter."
+    },
+    "passives.0.response": {
+      "sourceHash": "004e26781351303b138e0a9684ccaa75fd0efd0aa8c32eea8744856a82345dbe",
+      "text": "Do not force henchman kills; focus damage on the boss."
+    },
+    "passives.1.name": {
+      "sourceHash": "50454592fba5b77ddb782dd68e7a374f8e03869c85f70a4402b41dbe2d4ebaa7",
+      "text": "Antagonism"
+    },
+    "passives.1.condition": {
+      "sourceHash": "3d94e3586c7126f81411eb1c55e3df0a092df880f90251a114d00bf59450f4bc",
+      "text": "The target's current HP exceeds the user's"
+    },
+    "passives.1.effect": {
+      "sourceHash": "e096e351439a8644bdfe42b1aec09361eee100062b3f28c16fef474e7bf22a13",
+      "text": "Clash Power +2; damage +20%."
+    },
+    "passives.1.response": {
+      "sourceHash": "dbb5bbe07da9a84881b05c3bd4d8435255d0df27aaede35ca7b3300c6ae7a389",
+      "text": "Compares current HP values, not HP percentages. Recheck clash predictions against your main attackers as the boss loses HP."
+    },
+    "passives.2.name": {
+      "sourceHash": "1deebd794bf2741429af55fd14ed49c0bd77ed69531fbb18ada0a9dbaa92e5f8",
+      "text": "Long-awaited Moment"
+    },
+    "passives.2.condition": {
+      "sourceHash": "22a23fa2452793584fe141050502c4d43d04658987cd43f6f1526ffe947e7cab",
+      "text": "Clash results / hits against Heathcliff"
+    },
+    "passives.2.effect": {
+      "sourceHash": "b6e5ef84618138bed81eeb5f8210a3a7c01c1f69f44b922550dc4082fa2e6558",
+      "text": "Heal 5 SP on Clash Win. On Clash Lose against Heathcliff, lose 10 SP and gain 2 Bind next turn (once per turn). If no skill hits Heathcliff during the turn, lose 5 SP at Turn End."
+    },
+    "passives.2.response": {
+      "sourceHash": "3e2141b8eea99fac73e4c05c46b304f783324b18fed31225f867e4422f9f16f5",
+      "text": "Reserve clashes Heathcliff can win for him. Do not make him handle attacks he cannot beat as well."
+    },
+    "passives.3.name": {
+      "sourceHash": "6365f11d2e78fa2779417e90a92f36d18747ea6627bdef46707b57fc8cf9e815",
+      "text": "Useless Fools..."
+    },
+    "passives.3.condition": {
+      "sourceHash": "2e9b8b3c4365ed1d421b5d10e28a77700fa6fc78e4ef727e9d596ac3e58fb9c2",
+      "text": "An enemy kills an ally / up to 3 times per turn"
+    },
+    "passives.3.effect": {
+      "sourceHash": "0f72020150d19ff2919b7f66b4dbce2892cc409afe28eb060a4c2f874946aa11",
+      "text": "Gain 1 Attack Power Up and 1 Haste next turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "da371ae1769d51bee87b3ef1c41d88ea0d91383cfd25e989dae39fe5402f8dac",
+      "text": "Avoid strengthening the next turn by killing several henchmen at once."
+    },
+    "passives.4.name": {
+      "sourceHash": "3c95d01ef7d971505c53cfa5af03e871e4f062e07babc114f67755fd0eb7c091",
+      "text": "Spiked Bat"
+    },
+    "passives.4.condition": {
+      "sourceHash": "8bbf4a7569defbaedb5d5994ee37e6be9a224d1378374c438b935ad8b6fe0277",
+      "text": "On attack hit"
+    },
+    "passives.4.effect": {
+      "sourceHash": "08211e05dc754f8b866d9af962f708a85f52f796f358fc8a1ee6efa5e020d3a2",
+      "text": "Deal additional Pierce damage equal to 50% of the damage dealt."
+    },
+    "passives.4.response": {
+      "sourceHash": "1835ce8d81e6a119a3e9692c27edad1fc63e9e5ae4d54c9fb7eb47c4ef821b21",
+      "text": "Blunt resistance alone does not guarantee safety. Win clashes to prevent the hits themselves."
+    },
+    "passives.5.name": {
+      "sourceHash": "59a7a1fa638c8fc6df6f2e2166580a5511bef80e0656597179e4b2cb559a7a18",
+      "text": "Heart of Vengeance"
+    },
+    "passives.5.condition": {
+      "sourceHash": "b2779b5eab539398f1a5f63add6c42ccf90f1e9358f7cf3179bc9bff62a1e550",
+      "text": "Turn Start / Turn End / Panic recovery"
+    },
+    "passives.5.effect": {
+      "sourceHash": "317d8787a70e85d76e113117718de8bdd469749810cabc772ffb08fe62dc7b30",
+      "text": "At Turn Start, heal 15 SP unless at −45 SP. If Panicked at Turn End, recover next turn and reset SP to 0. If Panic was removed at Turn End, gain 2 Attack Power Up at the next Turn Start."
+    },
+    "passives.5.response": {
+      "sourceHash": "82963cd29a0808c4dba7f9645e7169a0b017b387d576079dd401b6c3d0a692b7",
+      "text": "Lowering SP alone cannot keep the boss disabled. Prepare strong responses for its recovery from Panic."
+    },
+    "passives.6.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.6.condition": {
+      "sourceHash": "bb949add63509b28baa4c8b7f379b32b09665977ea0140e1ed36edcb6579b8ae",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.6.effect": {
+      "sourceHash": "3d70c7527160ab5de3cd038f29734dbb83f159fa56e2e3efd757025a9319991c",
+      "text": "Panic Type does not change; apply effects intended for targets without SP instead."
+    },
+    "passives.6.response": {
+      "sourceHash": "152b2945710be1dcb370c39eb5bf906003161a484982f680b0cd0342e2caeb30",
+      "text": "Do not base the strategy on changing Panic Type."
+    },
+    "passives.7.name": {
+      "sourceHash": "042351e5f71daa43b965104802a5a989105d779fbb25f9ab689e33398a499cc4",
+      "text": "Cannot Retreat"
+    },
+    "passives.7.condition": {
+      "sourceHash": "88ca7eac261bc8f334edf2e6a5f3803a20e319ffc5960a9490e1b1846d07496b",
+      "text": "During this encounter"
+    },
+    "passives.7.effect": {
+      "sourceHash": "125f773fdff8270a2da7403c2dd06a55c4f446d0a3d153ba81e5c585383d9ad2",
+      "text": "Heathcliff Identities' retreat-related functions do not activate."
+    },
+    "passives.7.response": {
+      "sourceHash": "c6442d68820742b2e1f44970cfaacde7a2b9a6e5bc7183aab3fbef8992af80b1",
+      "text": "Do not plan to retreat and swap him out."
+    },
+    "passives.8.name": {
+      "sourceHash": "62e028e936108e240edd2bbe125d8a90fce8691f3d505f359728386f22341de9",
+      "text": "It's... you..."
+    },
+    "passives.8.condition": {
+      "sourceHash": "c8180a637eadd353ea4de6721d15c09c107d366c20c0f0a0b48b186e4f4ec1fc",
+      "text": "At Combat Start, target is the enemy with the lowest HP"
+    },
+    "passives.8.effect": {
+      "sourceHash": "c18eb9a9b6063c99f34e26f09d8b7408b63901dd14294db97c78d0a47d638ba2",
+      "text": "Deal +10% damage."
+    },
+    "passives.8.response": {
+      "sourceHash": "5a7797c512a99f0102e3de6c4c0fc0d1d75ad5dd1f01b32009909b232c8c66a8",
+      "text": "Avoid letting henchman attacks concentrate on wounded Sinners."
+    },
+    "passives.9.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.9.effect": {
+      "sourceHash": "36514db18e9f02a4535e37f1c23e3a2af89b6819116e5cf4354141c9824dfaa4",
+      "text": "Deal 3 SP damage to the opponent."
+    },
+    "passives.9.response": {
+      "sourceHash": "64d51b06e443e48f320ace38e8c8a3d48017f4e4e64ee4869f714d1913c50063",
+      "text": "Winning still costs SP, but prevents hit-triggered debuffs."
+    },
+    "passives.10.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.10.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.10.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.10.response": {
+      "sourceHash": "a040d9aa39fd3a0aea22e0f98103f34ef38d06211024dcff27767598c32b8b87",
+      "text": "Do not assume Panic will disable them for long."
+    },
+    "passives.11.name": {
+      "sourceHash": "62e028e936108e240edd2bbe125d8a90fce8691f3d505f359728386f22341de9",
+      "text": "It's... you..."
+    },
+    "passives.11.condition": {
+      "sourceHash": "c8180a637eadd353ea4de6721d15c09c107d366c20c0f0a0b48b186e4f4ec1fc",
+      "text": "At Combat Start, target is the enemy with the lowest HP"
+    },
+    "passives.11.effect": {
+      "sourceHash": "c18eb9a9b6063c99f34e26f09d8b7408b63901dd14294db97c78d0a47d638ba2",
+      "text": "Deal +10% damage."
+    },
+    "passives.11.response": {
+      "sourceHash": "5a7797c512a99f0102e3de6c4c0fc0d1d75ad5dd1f01b32009909b232c8c66a8",
+      "text": "Avoid letting henchman attacks concentrate on wounded Sinners."
+    },
+    "passives.12.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.12.effect": {
+      "sourceHash": "36514db18e9f02a4535e37f1c23e3a2af89b6819116e5cf4354141c9824dfaa4",
+      "text": "Deal 3 SP damage to the opponent."
+    },
+    "passives.12.response": {
+      "sourceHash": "64d51b06e443e48f320ace38e8c8a3d48017f4e4e64ee4869f714d1913c50063",
+      "text": "Winning still costs SP, but prevents hit-triggered debuffs."
+    },
+    "passives.13.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.13.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.13.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.13.response": {
+      "sourceHash": "a040d9aa39fd3a0aea22e0f98103f34ef38d06211024dcff27767598c32b8b87",
+      "text": "Do not assume Panic will disable them for long."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "7854edcea1818ca195bdb7fb32579699ecfe262558adda9ac58ca811ca33fa71",
+      "text": "Defeating henchmen"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "0c520c226f972530cb01a35d18aafeb6da1a5d627497dd6bf577cc63e39367c9",
+      "text": "Ally deaths heal the boss for 15 SP and add 1 slot. If a Sinner lands the kill, the boss also gains Attack Power Up and Haste next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "8a10c2a28abcb2234430ae49efaf61b83aebeafa4d4275e53a4b7340df69c28d",
+      "text": "Keep the henchmen alive and handle their attacks. If killing one, first prepare to handle the extra action."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "6b303b2580e1dfd62a08f2997f6f074220d81565f3d8d97d6cc6219788b5f8a7",
+      "text": "Counter after Stagger"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "e6129c2df951ba3bc371228b72c8a26d6674543dc048df9558d294c765d031df",
+      "text": "At 60% HP or below, the boss replaces Guard with a regular Counter."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "7a92fe31a69c4d098693cd2e85317bd671057744a372366e7bc3ab262a04df5d",
+      "text": "Focus damage during Stagger to reduce the number of counterattacks after it recovers."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3ede87997728bb5f5113832d00a3f0f985869e890578e0ef4fd2b5389ab18861",
+      "text": "Bereavement"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "9b82e2522e2ce5191e89fabce36deb115fa95333a2ac4a1b411c3b3cb97d6308",
+      "text": "Heathcliff is mandatory. He normally gains Bereavement, which lowers SP, but his Wild Hunt Identity gets Unending Bereavement instead."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "67db60a6a9c80e06a027a0e3c7585d064190c88295ee9dba1497d3565c3ea6eb",
+      "text": "Check how the chosen Identity handles SP, and provide winning clashes and recovery for him."
+    },
+    "warnings.0": {
+      "sourceHash": "a1aaa75ce717ca5de55fb9a8383645ff07e1d097c8f570304a3d17329a4010d6",
+      "text": "Killing henchmen does not necessarily make the fight easier. Defeating the boss also clears the remaining enemies."
+    },
+    "warnings.1": {
+      "sourceHash": "47fbccbb872be36aa0421218e8d02de40a00850b4f9ffd45e6af79a2f58a42a5",
+      "text": "Regular Counters cannot be offset with Defense Skills. Do not treat them like Guard before 60% HP."
+    },
+    "warnings.2": {
+      "sourceHash": "733912d6b4a16ec784007c2fbb2e542c7750ad8ddb431be3e319624f34fd0698",
+      "text": "Bringing fewer Sinners can give your main attackers more actions, but reduces total available HP and opening actions. A solo clear is not required from the outset."
+    },
+    "warnings.3": {
+      "sourceHash": "068a4ef903c469cef77f26896fe50cb1cbd7935dfc4524539e59a8c860d45389",
+      "text": "Do not apply the next encounter's 6-34 defeat condition to this fight."
+    },
+    "preparation.0": {
+      "sourceHash": "75a5545c7dd9e1a1fcaac94cb8c46d3aceaadb6d099d3515eee908e15885ff23",
+      "text": "Aim for Lv.44 and Uptie III or higher, with strong opening clashers and a well-developed Heathcliff."
+    },
+    "preparation.1": {
+      "sourceHash": "09e3fa8361c9f50ac0eec4e49669b02c4460673c224fb6dcd4458c11ce901e55",
+      "text": "Prepare Gloom and Envy damage, strong clash skills, SP recovery, and enemy debuffs. Check whether you can build the required resources from 0."
+    },
+    "preparation.2": {
+      "sourceHash": "ca3265252ef5b28b3490ce060abad60b272f569cb70de637f85c535f8dc829ab",
+      "text": "Prioritize Blunt resistance while accounting for the additional Pierce damage, Bleed, and Rupture."
+    },
+    "roles.0.name": {
+      "sourceHash": "737a16924455c93649d768ac66d1e6f0f1a4027ddae2c7ef17d0055c555f0001",
+      "text": "Strong opening clasher"
+    },
+    "roles.0.reason": {
+      "sourceHash": "974f4132f2f16b9182f89998a2fda669f809865f22a1d2b4a62423879a234620",
+      "text": "Compete with the enemy's high SP and stop Upheaval."
+    },
+    "roles.1.name": {
+      "sourceHash": "b6271b7366c7506f3cfc8acdb5cb47a5b647a8d06ddf82be32048077a9f6fc9b",
+      "text": "Heathcliff"
+    },
+    "roles.1.reason": {
+      "sourceHash": "56c6140d94d883823d2af354e878a3fd15a7867a5ba56ac52e8f86cc1ff8c6a0",
+      "text": "Winning clashes against the boss lowers its SP and inflicts Bind. Account for Heathcliff being mandatory and unable to retreat."
+    },
+    "roles.2.name": {
+      "sourceHash": "7ee593405e1e6eaecc21eb5ddbf0dea6d22229cbcd3858b018fd39763e5c1c29",
+      "text": "Defender to handle henchmen"
+    },
+    "roles.2.reason": {
+      "sourceHash": "a7ae2f6fceb6cb56bcabb3b604315364ef8113dc3e63dc08c000ec8fa9579b7b",
+      "text": "Avoid unnecessary kills while directing damage at the boss."
+    }
+  },
+  "messages": {
+    "boss-copy:dead-rabbits-boss": "complete",
+    "【リンバス】6-33 デッドラビッツ ボス（6-33）の攻略｜Limbus Assistant": "6-33 Dead Rabbits Boss (6-33) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-33「デッドラビッツ ボス（6-33）」の攻略。取り巻きを倒すとボスのスロットと精神力が増え、次のターンも強化される。取り巻きはマッチや守備でいなし、ヒースクリフの勝てるマッチをボスへ回す。腹い…": "Dead Rabbits Boss (6-33) guide for Limbus Company 6-33. Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop Upheaval and focus damage on the boss during its Stagger at 60% HP.",
+    "6-33 デッドラビッツ ボス（6-33）": "6-33 Dead Rabbits Boss (6-33)",
+    "6-33「Matt」": "6-33 · Matt",
+    "デッドラビッツ ボスの外見": "Dead Rabbits Boss appearance",
+    "デッドラビッツ ボスのスキル": "Dead Rabbits Boss skills",
+    "Dead Rabbits Bossの外見": "Dead Rabbits Boss appearance",
+    "Dead Rabbits Bossのスキル": "Dead Rabbits Boss skills",
+    "奇妙なデッドラビッツ団員の外見": "Bizarre Dead Rabbits Henchman appearance",
+    "奇妙なデッドラビッツ団員のスキル": "Bizarre Dead Rabbits Henchman skills",
+    "Bizarre Dead Rabbits Henchmanの外見": "Bizarre Dead Rabbits Henchman appearance",
+    "Bizarre Dead Rabbits Henchmanのスキル": "Bizarre Dead Rabbits Henchman skills",
+    "覆われたデッドラビッツ団員の外見": "Veiled Dead Rabbits Henchman appearance",
+    "覆われたデッドラビッツ団員のスキル": "Veiled Dead Rabbits Henchman skills",
+    "Veiled Dead Rabbits Henchmanの外見": "Veiled Dead Rabbits Henchman appearance",
+    "Veiled Dead Rabbits Henchmanのスキル": "Veiled Dead Rabbits Henchman skills"
+  }
+}

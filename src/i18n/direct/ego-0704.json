@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0704.md",
+  "code": "0704",
+  "messages": {
+    "精神力15以上で攻撃加重値が最大5になる広域で敵に攻撃威力減少を付け、味方4名の精神力も回復する色欲打撃E.G.O。": "A Lust Blunt E.G.O that becomes multi-target with up to 5 Attack Weight at 15 or more SP, inflicts Attack Power Down on enemies, and also restores SP to 4 allies.",
+    "広域化: 攻撃前に自分の精神力が15以上なら攻撃加重値が増える(解析Ⅲで+1、Ⅳで+2)。基本の加重値は解析Ⅲで3になる。": "**Multi-target**: Before attacking, Attack Weight increases if his SP is 15 or more (+1 at Threadspin Ⅲ, +2 at Ⅳ). The base Attack Weight becomes 3 at Threadspin Ⅲ.",
+    "攻撃威力減少: 的中時に、次のターンの攻撃威力減少を付与する(解析Ⅲで2)。複数の敵に入る。": "**Attack Power Down**: On hit, inflicts Attack Power Down next turn (2 at Threadspin Ⅲ). It applies to multiple enemies.",
+    "精神力の回復: 攻撃後に、自分を除く精神力が最も低い味方4名を回復する(解析Ⅳで25)。自分は回復しない。": "**SP recovery**: After the attack, restores SP to the 4 allies with the lowest SP, excluding himself (25 at Threadspin Ⅳ). He does not recover himself.",
+    "パッシブ「禅定」: 混乱から回復するとき体力最大値が増え、体力も回復する(ステージにつき3回)。耐久向け。": "**Passive — Dhyāna**: When recovering from Stagger, his max HP increases and he recovers HP, 3 times per stage. Geared toward durability.",
+    "戦闘序盤、自分の精神力が高いうちに撃ち、広域で威力減少を撒きつつ味方の精神力を整える。": "Fire it early in a fight while his SP is high, spreading Power Down across multiple targets while stabilizing allies' SP.",
+    "撃つと自分の精神力が消耗し回復もされないので、自力で精神力を戻す手段と組むと安定すると考えられる。": "Using it costs his own SP and does not restore it, so it is likely more stable when paired with a way for him to recover SP himself.",
+    "必要資源は憤怒・色欲・怠惰・憂鬱が各2。": "It requires 2 each of Wrath, Lust, Sloth, and Gloom.",
+    "Ⅱ: 「禅定」が解放される。": "**Ⅱ**: Unlocks Dhyāna.",
+    "Ⅲ: 基本の攻撃加重値が3になり、精神力条件の加重値+1、威力減少2、回復量17になる。": "**Ⅲ**: Base Attack Weight becomes 3, with +1 Attack Weight from the SP condition, 2 Power Down, and 17 healing.",
+    "Ⅳ: 精神力条件の加重値が+2(最大5)になり、回復量が25になる。": "**Ⅳ**: The SP-conditioned Attack Weight becomes +2 (up to 5), and healing becomes 25.",
+    "ロボトミーE.G.O::狐雨: S2(憂鬱)・S3(怠惰)と守備(憤怒)で色欲以外の資源を出せ、パッシブの保護で耐久面を補える(ただしパッシブは戦闘開始時に沈潜の数だけ精神力が減るので、精神力15以上が条件の広域化とは兼ね合いが要る)。": "**[Lobotomy E.G.O:: Sunshower](persona:0705)**: S2 (Gloom), S3 (Sloth), and his Defense skill (Wrath) supply everything except Lust, and his passive's Protection shores up durability (however, the passive lowers his SP by his Sinking at Combat Start, so it needs balancing with the 15-SP condition for multi-target).",
+    "N社小鎚: S3が色欲の資源を出せ、S2はマッチ勝利時に精神力を回復するので、自分の精神力の維持に使える。": "**[N Corp. Kleinhammer](persona:0704)**: His S3 supplies Lust, and S2 restores SP on Clash Win, helping maintain his own SP."
+  }
+}

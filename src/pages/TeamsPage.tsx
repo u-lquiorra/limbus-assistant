@@ -31,7 +31,7 @@ function TeamGrid({ teams }: { teams: TeamData[] }) {
           <span className="team-card-name">{t.name}</span>
           <span className="team-card-meta">
             <span className="tag tag-muted">{t.category}</span>
-            <span className="tag tag-muted">{t.difficulty}向け</span>
+            <span className="tag tag-muted">{`${t.difficulty}向け`}</span>
             {t.keywords.map((k) => (
               <span key={k} className="tag">
                 {k}
@@ -106,7 +106,7 @@ export default function TeamsPage() {
               aria-pressed={difficulty === d}
               onClick={() => setDifficulty(difficulty === d ? null : d)}
             >
-              {d}向け
+              {`${d}向け`}
             </button>
           ))}
         </div>

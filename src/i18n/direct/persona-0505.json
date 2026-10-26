@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0505.md",
+  "code": "0505",
+  "messages": {
+    "全スキルで振動威力を付与する振動の供給役。振動回数は自分では増やせないため、振動回数を付与する味方と組む振動編成で働く人格。": "A Tremor applicator that inflicts Potency with every skill. He cannot increase Tremor Count himself, so he works in Tremor teams alongside allies that provide Count.",
+    "振動威力の付与: S1「引き受けた業務処理」・S2「強制休憩」・S3「仕上げの加速」はいずれも振動を付与する。ただし振動回数を増やす効果は無く、S3のⅣコインの振動爆発ではむしろ振動回数が3減る。": "**Inflicting Tremor Potency**: S1 Saddled Tasks, S2 Forced Break, and S3 Finishing Runup all inflict Tremor. However, none increase Tremor Count, and S3's Coin Ⅳ Tremor Burst actually reduces Tremor Count by 3.",
+    "振動回数で強化: 対象の振動回数がS1は5以上でコイン威力+2、S2は7以上で最終威力+1、S3は10以上でコイン威力+1。単独ではこれらの条件を満たしにくい。": "**Bonuses from Tremor Count**: S1 gains +2 Coin Power if the target has at least 5 Tremor Count, S2 gains +1 Final Power at 7 or more, and S3 gains +1 Coin Power at 10 or more. These are hard to meet on his own.",
+    "S3の充電: Ⅰ〜Ⅲコインの的中で自分の充電回数を増やし、Ⅳコインの振動爆発でそれを全て消耗して、振動爆発の混乱区間前進量を増やす(消耗1につき5%、最大50%)。1つのスキルの中で貯めて使い切る形で、自力で得られる充電はⅠ〜Ⅲコインの計5なので、増加量は25%程度が目安になる。": "**S3's Charge**: Coins Ⅰ–Ⅲ increase his own Charge Count on hit, and Coin Ⅳ's Tremor Burst spends all of it to increase the Tremor Burst's Stagger Threshold shift (5% per Charge spent, up to 50%). It builds and spends within a single skill, and he can gain only 5 Charge from Coins Ⅰ–Ⅲ himself, so about 25% is a realistic increase.",
+    "S2: Ⅱコインで、対象に振動が5以上あれば次のターンに攻撃威力減少1を付与。": "**S2**: Coin Ⅱ inflicts 1 Attack Power Down next turn if the target has at least 5 Tremor.",
+    "バトルパッシブ「慢性疲労」(憂鬱×5・保有・同期化Ⅱで取得): 対象の振動が5以上なら、対象のマッチ威力-1。混乱が解除されるときに体力を最大値の5%回復。": "**Combat passive — Chronic Fatigue (5 Gloom Owned; unlocked at Uptie Ⅱ)**: −1 Clash Power for the target if it has at least 5 Tremor. Heals 5% of his max HP when he recovers from Stagger.",
+    "サポートパッシブ「休職勧告」(憂鬱×3・共鳴・同期化Ⅲで取得): 控えにいる間、速度が最も高い味方1名が振動のある敵とマッチすると、敵のマッチ威力-1。": "**Support passive — Leave by Suggestion (3 Gloom Resonance; unlocked at Uptie Ⅲ)**: While in backup, when the 1 fastest ally Clashes with an enemy that has Tremor, the enemy gets −1 Clash Power.",
+    "振動回数を付与できる味方と組み、その振動にこの人格で威力を上乗せしてS3の振動爆発で混乱を狙う。振動はターン終了後に回数が1減るので、ターンをまたいで自分だけで積み上げる運用には向かない。": "Pair him with allies who can inflict Tremor Count, add Potency on top of that Tremor with this Identity, and aim for Stagger with S3's Tremor Burst. Tremor loses 1 Count after each turn, so he is not suited to building it up across turns by himself."
+  }
+}

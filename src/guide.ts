@@ -21,7 +21,8 @@ export interface Guide {
 }
 
 // [表示名](persona:0112) は人格、[表示名](ego:0108) は E.G.O の詳細ページへのリンク
-const PERSONA_LINK = /\[([^\]]+)\]\((persona|ego):(\d{4})\)/g;
+// 英語の正式名には [三千大世界] などの角括弧も含まれる。
+const PERSONA_LINK = /\[((?:[^[\]]|\[[^[\]]*\])+)\]\((persona|ego):(\d{4})\)/g;
 
 // リンク記法を取り出して分割する。リンクの無い断片は { text, strong } のまま
 function splitLinks(text: string, strong: boolean): InlineSegment[] {

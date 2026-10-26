@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0201.md",
+  "code": "0201",
+  "messages": {
+    "麻痺・攻撃レベル減少・攻撃威力減少で敵の攻撃を弱めるデバッファー。": "A debuffer that weakens enemy attacks with Paralyze, Offense Level Down, and Attack Power Down.",
+    "麻痺: S1「縦斬り」のⅠコインで麻痺1を付与。": "**Paralyze**: Coin Ⅰ of S1 Downward Slash inflicts 1 Paralyze.",
+    "攻撃レベル減少: S2「斬り上げ」のⅡコインで、次のターンに攻撃レベル減少1/3を付与。": "**Offense Level Down**: Coin Ⅱ of S2 Upward Slash inflicts 1/3 Offense Level Down next turn.",
+    "攻撃威力減少: S3「抉り刺し」のⅠ・Ⅱコインで、次のターンに攻撃威力減少1ずつを付与。": "**Attack Power Down**: Coins Ⅰ and Ⅱ of S3 Drilling Stab each inflict 1 Attack Power Down next turn.",
+    "バトルパッシブ「分析」(傲慢×2・共鳴): マイナス効果に掛かっている対象への与ダメージ量+10%。": "**Combat passive — Analytic Eye (2 Pride Resonance)**: +10% damage against targets afflicted with a negative effect.",
+    "S1の麻痺でそのターンのコイン威力を封じ、S2・S3で次のターンの敵の攻撃を弱め、パッシブの与ダメージ量上昇も活かす。パッシブは共鳴が条件なので、傲慢スキルを2つ並べる必要がある。": "Use S1's Paralyze to lock down Coin Power that turn, weaken the enemy's attacks next turn with S2 and S3, and make use of the passive's damage bonus. The passive requires Resonance, so line up 2 Pride skills."
+  }
+}

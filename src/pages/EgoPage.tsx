@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "../components/Link";
 import Breadcrumb from "../components/Breadcrumb";
@@ -14,6 +14,16 @@ import type { EgoDetail, EgoPassiveDetail, EgoSkillDetail, Keyword } from "../ty
 import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
 import { ANALYSIS_HEADING, ExtraSection, GuideSection, SYNERGY_HEADING } from "../components/GuideView";
+import { LanguageContext, translateText } from "../i18n/text";
+import { KeywordName } from "../components/KeywordTerm";
+
+function useEgoName(name: string) {
+  const { code } = useParams();
+  const language = useContext(LanguageContext);
+  const key = `ego:${code}:name:${name}`;
+  const translated = translateText(key, language);
+  return translated === key ? name : translated;
+}
 
 const TONE_LABEL = { weak: "脆弱", resist: "耐性", normal: "普通" } as const;
 
@@ -43,6 +53,7 @@ function StagedValue({ value }: { value: string }) {
 }
 
 function EgoSkillCard({ skill, sin }: { skill: EgoSkillDetail; sin?: string }) {
+  const name = useEgoName(skill.name ?? `${skill.kind}スキル`);
   const key = attackKey(skill.attackType);
   const coinCount = lines(stripStageMarks(skill.stats.find((s) => s.label === "コイン個数")?.value ?? "")).at(-1);
   return (
@@ -50,7 +61,7 @@ function EgoSkillCard({ skill, sin }: { skill: EgoSkillDetail; sin?: string }) {
       style={{ ["--sin" as string]: sin ? SIN_COLORS[sin] : "var(--line-strong)" }}>
       <header className="skill-card-head">
         <span className="skill-card-slot">{skill.kind}</span>
-        <h3 className="skill-card-name">{skill.name ?? `${skill.kind}スキル`}</h3>
+        <h3 className="skill-card-name">{name}</h3>
         <span className="skill-card-tags">
           <span className="skill-card-type">
             {key && <AttackTypeIcon type={key} size={20} />}
@@ -80,11 +91,12 @@ function EgoSkillCard({ skill, sin }: { skill: EgoSkillDetail; sin?: string }) {
 }
 
 function EgoPassiveCard({ passive }: { passive: EgoPassiveDetail }) {
+  const name = useEgoName(passive.name);
   return (
     <article className="passive-card">
       <header className="passive-card-head">
         <span className="passive-kind">E.G.Oパッシブ</span>
-        <h3 className="passive-card-name">{passive.name}</h3>
+        <h3 className="passive-card-name">{name}</h3>
       </header>
       <EffectText text={passive.effect} keywords={passive.keywords} />
     </article>
@@ -322,7 +334,7 @@ export default function EgoPage() {
             <dl className="glossary">
               {glossary.map((k) => (
                 <div key={k.term} className="glossary-item">
-                  <dt>{k.term}</dt>
+                  <dt><KeywordName term={k.term} desc={k.desc} /></dt>
                   <dd>{k.desc}</dd>
                 </div>
               ))}

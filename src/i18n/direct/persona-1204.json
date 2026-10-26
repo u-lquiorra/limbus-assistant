@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1204.md",
+  "code": "1204",
+  "messages": {
+    "マッチは弱いので自分は一方攻撃に回り、麻痺や束縛を入れて味方のマッチを助ける支援役。ダンジョンではサポートパッシブ「調理補助」の回復が本命。": "A support with weak clashes that prefers unopposed attacks, applying Paralyze and Bind to help allies clash. In dungeons, Culinary Aid's bench healing is his main attraction.",
+    "麻痺で味方のマッチを助ける: S1「鮮度維持」はⅠコインで麻痺1(対象に出血があれば次のターンにも麻痺1)、S3「材料解体」はⅡ・Ⅲコインで麻痺1ずつを付与する。麻痺は1ターンの間、数値の枚数分のコイン威力を0に固定する。": "**Helping allies' Clashes with Paralyze**: S1 Keep It Fresh inflicts 1 Paralyze with Coin Ⅰ (plus 1 Paralyze next turn if the target has Bleed), and S3 Butcher Viand inflicts 1 Paralyze each with Coins Ⅱ and Ⅲ. Paralyze fixes the Coin Power of that many Coins to 0 for 1 turn.",
+    "マッチ威力が低い: S1は4〜8、S3は5〜9。S2「新鮮な材料か？」は6〜14で、対象より速度が3以上高ければコイン威力+3。": "**Low Clash Power**: S1 is 4–8 and S3 is 5–9. S2 You Fresh Enough? is 6–14 and gains +3 Coin Power if he is at least 3 faster than the target.",
+    "出血と束縛: S2のⅠコインで出血回数+2・次のターンに束縛2(同期化段階が低いとそれぞれ1)。S1のⅡコイン・S3のⅠコインで出血1。S1は対象の束縛4以上で与ダメージ量+30%、S3は対象の出血回数10以上でコイン威力+1、S3のⅣコインは対象の出血に比例して体力を回復する(最大20%)。": "**Bleed and Bind**: Coin Ⅰ of S2 adds +2 Bleed Count and 2 Bind next turn (1 each at lower Uptie). Coin Ⅱ of S1 and Coin Ⅰ of S3 inflict 1 Bleed. S1 deals +30% damage if the target has at least 4 Bind, S3 gains +1 Coin Power if the target has at least 10 Bleed Count, and Coin Ⅳ of S3 heals HP in proportion to the target's Bleed (up to 20%).",
+    "サポートパッシブ「調理補助」(色欲×5・保有・同期化Ⅲで取得): 編成中かつ戦闘不参加時、体力が最も低い味方1名を戦闘開始時に5回復する。りょ・ミ・パ厨房長(良秀)の「即席料理」パッシブの回復量も+5される。": "**Support passive — Culinary Aid (5 Lust Owned; unlocked at Uptie Ⅲ)**: While in the team but not participating in battle, heals 5 HP to the 1 ally with the lowest HP at Combat Start. It also adds +5 to the healing of Ryōshū's R.B. Chef de Cuisine passive Rustle Up.",
+    "バトルパッシブ「パイ包み」(色欲×4・保有・同期化Ⅱで取得): 戦闘開始時に自分の体力を8回復する。": "**Combat passive — Packed Pies (4 Lust Owned; unlocked at Uptie Ⅱ)**: Heals 8 of his own HP at Combat Start.",
+    "マッチは味方に任せ、空いた敵にS1・S3で一方攻撃して麻痺を入れ、次のマッチを有利にする。マッチが避けられないときはS2を使う。S1でマッチするよりはガード(マッチ威力は最大16)で凌ぐ方がよい。S3の出血回数10以上の条件は、出血回数を付与する味方の支援がないと厳しい。長丁場のダンジョンでは、戦闘不参加にして「調理補助」で回復役に回す運用も有力。": "Leave Clashes to allies, and land one-sided attacks with S1 and S3 on free enemies to apply Paralyze and tilt the next Clashes in your favor. When a Clash is unavoidable, use S2. Rather than Clashing with S1, it is better to hold out with Guard (Clash Power up to 16). S3's 10-Bleed-Count condition is hard to meet without support from allies who inflict Bleed Count. In long dungeons, keeping him out of battle as a healer through Culinary Aid is also a strong option."
+  }
+}

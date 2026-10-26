@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0409.md",
+  "code": "0409",
+  "messages": {
+    "攻撃加重値7・3コインすべて破壊不能の憤怒斬撃で、羅生と火傷・出血・呼吸を乗せて一気に殲滅する、重コストの広域E.G.O。": "A heavy-cost multi-target Wrath Slash E.G.O with 7 Attack Weight and 3 all-Unbreakable Coins that stacks Entangled Life with Burn, Bleed, and Poise to wipe out enemies at once.",
+    "羅生: 攻撃後に羅生1を得て、与えたスキルダメージ1につき増える(最大999)。Ⅲコインの開始時に全消費し、5につきダメージ量+1%(最大100%、解析Ⅳは198%)。攻撃対象が1名なら効果が1.5倍(解析Ⅳは2倍)になる。つまり2回目以降が強い。": "**Entangled Life [羅生]**: She gains 1 Entangled Life after the attack, plus more per skill damage dealt, up to 999. At the start of Coin Ⅲ, she spends all of it for +1% damage per 5, up to 100% (198% at Threadspin Ⅳ). With a single target, the effect is ×1.5 (×2 at Threadspin Ⅳ). In other words, it is stronger from the second use on.",
+    "火傷・出血の参照(解析Ⅲ): 全対象の火傷+出血の威力10につきダメージ量+1%(最大30%、解析Ⅳは50%)、回数10につきコイン威力+1(最大3、解析Ⅳは5)。": "**Using Burn and Bleed (Threadspin Ⅲ)**: +1% damage per 10 combined Burn and Bleed Potency on all targets, up to 30% (50% at Threadspin Ⅳ), and +1 Coin Power per 10 Count, up to 3 (5 at Threadspin Ⅳ).",
+    "呼吸の獲得: 攻撃前に最大共鳴数だけ呼吸を得る(最大7)。解析Ⅲから呼吸回数も増える。": "**Gaining Poise**: Before attacking, gains Poise equal to the highest Resonance, up to 7. From Threadspin Ⅲ, Poise Count also increases.",
+    "多様な付与: Ⅰコインは火傷、Ⅱコインは出血を付与し、Ⅲコインはクリティカルダメージ量+30%。": "**Varied infliction**: Coin Ⅰ inflicts Burn, Coin Ⅱ inflicts Bleed, and Coin Ⅲ gains +30% Critical damage.",
+    "パッシブ「三途」: 攻撃スキル終了時に敵が混乱か死亡していれば、次のターンにクリティカルダメージ量増加1を得る(1ターンに3回)。": "**Passive — Sanzu [三途]**: If an enemy is staggered or dead at the end of an attack skill, she gains 1 Crit DMG Up next turn, 3 times per turn.",
+    "必要資源は憤怒4・色欲4・傲慢4の計12個。通常戦闘の殲滅や、鏡ダンジョンなどの深い場面で使う。": "It requires 12 resources: 4 Wrath, 4 Lust, and 4 Pride. Use it to clear regular battles or in deep runs such as the Mirror Dungeon.",
+    "羅生を自力で稼げる人格と組み、1回目から羅生を乗せる。": "Pair it with Identities who can earn Entangled Life themselves so it carries Entangled Life from the first use.",
+    "使用後の3ターン、ターン終了時に精神力が10ずつ減るので、精神力の管理が要る。": "For 3 turns after use, she loses 10 SP at each Turn End, so SP management is required.",
+    "「4本目のマッチの火」を使用済みで、これが4つ目のスキルに当たるなら、そのパッシブの追加効果(憤怒スキル・E.G.Oスキル向け)が乗ると考えられる。": "If 4th Match Flame has already been used and this lands as the fourth skill, that passive's extra effects for Wrath skills and E.G.O skills likely apply.",
+    "Ⅱ: 「三途」が解放される。": "**Ⅱ**: Unlocks Sanzu.",
+    "Ⅲ: 基本威力が上がり、束縛1、火傷・出血に応じた強化、攻撃対象が1名のときの羅生の増幅が加わる。": "**Ⅲ**: Raises Base Power and adds 1 Bind, the Burn- and Bleed-based bonuses, and the Entangled Life amplification for a single target.",
+    "Ⅳ: コイン威力+5になり、羅生を含む各強化の上限が伸びる。": "**Ⅳ**: Coin Power becomes +5, and the caps on each bonus, including Entangled Life, rise.",
+    "蜘蛛の巣の刀: 天殺で対象を倒すと与えたダメージ分の羅生を得られ、火傷・出血・呼吸を扱い、憤怒・傲慢・色欲の資源も出せる。": "**[Blade of the House of Spiders](persona:0415)**: Defeating a target with Tiansha grants Entangled Life equal to the damage dealt; she uses Burn, Bleed, and Poise and supplies Wrath, Pride, and Lust resources.",
+    "エドガー家 チーフバトラー: 色欲・傲慢・憤怒のスキルで資源を賄え、呼吸を溜めるスキルが多い。": "**[Edgar Family Chief Butler](persona:0408)**: Her Lust, Pride, and Wrath skills cover the resources, and she has many skills that build Poise."
+  }
+}

@@ -1,0 +1,2597 @@
+{
+  "kind": "boss-copy",
+  "id": "albina-callisto",
+  "source": "src/data/bosses/albina-callisto.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "作品名: ファシア",
+          "en": "Artwork: Fascia",
+          "file": "Bufs-a1c9p1.json",
+          "id": "BoneBladeTheRings"
+        },
+        {
+          "ja": "生体材料",
+          "en": "Corpus Ingredient",
+          "file": "Bufs-a1c9p1.json",
+          "id": "HumanFleshTheRings"
+        },
+        {
+          "ja": "筋繊維の機械的収縮と弛緩",
+          "en": "Automated Myofiber Activity",
+          "file": "Bufs-a1c9p1.json",
+          "id": "MuscleContraction"
+        },
+        {
+          "ja": "酷く鳴り響く甲冑",
+          "en": "Impact-rattled Armor",
+          "file": "Bufs-a1c9p1.json",
+          "id": "UnsteadyTheRings"
+        },
+        {
+          "ja": "生体材料(血)",
+          "en": "Corpus Ingredient (Blood)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "HumanBloodTheRings"
+        },
+        {
+          "ja": "生体材料(骨)",
+          "en": "Corpus Ingredient (Bones)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "HumanBoneTheRings"
+        },
+        {
+          "ja": "非常用K社アンプル",
+          "en": "K Corp. Emergency Ampule",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KAmpouleA1C94TH"
+        },
+        {
+          "ja": "身体観劇",
+          "en": "Corpus Theater",
+          "file": "Bufs-a1c9p3.json",
+          "id": "LivingSpecimenTheRings"
+        },
+        {
+          "ja": "作品名: ティビア",
+          "en": "Artwork: Tibia",
+          "file": "Bufs-a1c9p3.json",
+          "id": "MineTheRings"
+        },
+        {
+          "ja": "眺望",
+          "en": "Viewing the Tableau",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ObservationTheRings"
+        },
+        {
+          "ja": "材料がこぼれ落ちる傷",
+          "en": "Ingredient-shedding Wound",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RedemptionTheRings"
+        },
+        {
+          "ja": "展示会の完成",
+          "en": "The Exhibition is Complete!",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SpecimenTheRings"
+        },
+        {
+          "ja": "薬指身体派自動人形 - 研究員",
+          "en": "The Ring Corporist Automanikin - Researcher",
+          "file": "Enemies-a1c9p1.json",
+          "id": "1315"
+        },
+        {
+          "ja": "薬指身体派自動人形 - 戦闘員",
+          "en": "The Ring Corporist Automanikin - Combatant",
+          "file": "Enemies-a1c9p1.json",
+          "id": "1316"
+        },
+        {
+          "ja": "薬指身体派自動人形 - 研究員",
+          "en": "The Ring Corporist Automanikin - Researcher",
+          "file": "Enemies-a1c9p1.json",
+          "id": "91036"
+        },
+        {
+          "ja": "薬指身体派自動人形 - 戦闘員",
+          "en": "The Ring Corporist Automanikin - Combatant",
+          "file": "Enemies-a1c9p1.json",
+          "id": "91037"
+        },
+        {
+          "ja": "薬指の親方 - カリスト",
+          "en": "The Ring Nursefather - Callisto",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1331"
+        },
+        {
+          "ja": "身体観劇",
+          "en": "Corpus Theater",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1332"
+        },
+        {
+          "ja": "アイアンメイデン- 棘",
+          "en": "Iron Maiden - Spikes",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131902"
+        },
+        {
+          "ja": "アイアンメイデン- 除細動",
+          "en": "Iron Maiden - Defibrillation",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131903"
+        },
+        {
+          "ja": "既に材料に使用された肉体",
+          "en": "Corpus Spent as Material",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131904"
+        },
+        {
+          "ja": "大切な作品、ファシア",
+          "en": "Fascia, My Precious Artwork",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131905"
+        },
+        {
+          "ja": "私の全ての身体要素は既にティビアへ",
+          "en": "All of My Corpus has been Given to Tibia",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133101"
+        },
+        {
+          "ja": "身体中心美術",
+          "en": "Corpus-centric Art",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133102"
+        },
+        {
+          "ja": "材料はいつであれ、現場で調達して加工することが美学",
+          "en": "The Aesthetics of Harvesting and Trimming the Ingredient On-site",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133103"
+        },
+        {
+          "ja": "生涯の作品、ティビア",
+          "en": "Magnum Opus: Tibia",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133104"
+        },
+        {
+          "ja": "満足のいく芸術",
+          "en": "Artwork Pleasing to the Senses",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133105"
+        },
+        {
+          "ja": "身体克服",
+          "en": "Transcend the Corpus",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133107"
+        },
+        {
+          "ja": "走り回る観客は椅子に座って鑑賞なさってくださいね",
+          "en": "Please, Do Stop Running and Be Seated",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133109"
+        },
+        {
+          "ja": "拘束",
+          "en": "Bondage",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133201"
+        },
+        {
+          "ja": "芸術からの生存",
+          "en": "Escape from the Art",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133203"
+        },
+        {
+          "ja": "可燃性素材",
+          "en": "Flammable Material",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133204"
+        },
+        {
+          "ja": "アイアンメイデン- 除細動",
+          "en": "Iron Maiden - Defibrillation",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133303"
+        },
+        {
+          "ja": "材料になった肉体の脈動",
+          "en": "The Pulse and Beat of Corpus-turned-Ingredient",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133601"
+        },
+        {
+          "ja": "身体派",
+          "en": "Corporism",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133602"
+        },
+        {
+          "ja": "大切な作品、ファシア",
+          "en": "Fascia, My Precious Artwork",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133603"
+        },
+        {
+          "ja": "ギャラリーにはギャラリーならではの鑑賞ルールがあるものよ",
+          "en": "Visitors Must Respect the Rules of the Gallery",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133604"
+        },
+        {
+          "ja": "マエストロ様の前で、作品で証明してみせるわ",
+          "en": "With this Artwork, I will Prove Myself before the Maestro",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133606"
+        },
+        {
+          "ja": "私の全ての身体要素は既にティビアへ",
+          "en": "All of My Corpus has been Given to Tibia",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134501"
+        },
+        {
+          "ja": "身体派",
+          "en": "Corporism",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134502"
+        },
+        {
+          "ja": "生涯の作品、ティビア",
+          "en": "Magnum Opus: Tibia",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134510"
+        },
+        {
+          "ja": "ギャラリーにはギャラリーならではの鑑賞ルールがあるものよ",
+          "en": "Visitors Must Respect the Rules of the Gallery",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134604"
+        },
+        {
+          "ja": "薬指の親方の作品",
+          "en": "The Ring Nursefather's Artwork",
+          "file": "Passives_Enemy-a1c9p1.json",
+          "id": "9103601"
+        },
+        {
+          "ja": "屠畜 - 肋骨",
+          "en": "Butcher - Ribs",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131901"
+        },
+        {
+          "ja": "回転粉砕",
+          "en": "Rotator Crush",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131902"
+        },
+        {
+          "ja": "腱破裂",
+          "en": "Tendon Tear",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131903"
+        },
+        {
+          "ja": "ファシアが餓えてるわ",
+          "en": "Fascia Hungers",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131904"
+        },
+        {
+          "ja": "抑圧された肉体",
+          "en": "Repressed Flesh",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131905"
+        },
+        {
+          "ja": "展示会の準備",
+          "en": "Exhibition Arrangements",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131906"
+        },
+        {
+          "ja": "鉄のとばり",
+          "en": "Iron Curtain",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "131907"
+        },
+        {
+          "ja": "設置美術第3号「簡易肋骨」",
+          "en": "Installation Art no. 3: Improvised Ribcage",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133101"
+        },
+        {
+          "ja": "解体",
+          "en": "Anatomize",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133102"
+        },
+        {
+          "ja": "材料獲得 - 血で沐浴するオブジェ",
+          "en": "Gather Ingredient - Blood-bathed Objet",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133103"
+        },
+        {
+          "ja": "ティビアのメロディー - 解体されたものが解体されていないものを解体すること",
+          "en": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133104"
+        },
+        {
+          "ja": "私たちは血と肉を愛しています",
+          "en": "Oh, How We Love the Flesh and the Blood",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133105"
+        },
+        {
+          "ja": "展示会の主催",
+          "en": "Curating the Exhibition",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133106"
+        },
+        {
+          "ja": "ヴァンダリズムはお断りです",
+          "en": "Please. Vandalism is Prohibited.",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133107"
+        },
+        {
+          "ja": "屠畜 - 肋骨",
+          "en": "Butcher - Ribs",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133601"
+        },
+        {
+          "ja": "回転粉砕",
+          "en": "Rotator Crush",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133602"
+        },
+        {
+          "ja": "腱破裂",
+          "en": "Tendon Tear",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133603"
+        },
+        {
+          "ja": "ファシアの食事時間よ",
+          "en": "Time to Eat, Fascia",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133604"
+        },
+        {
+          "ja": "抑圧された肉体の解放",
+          "en": "Liberation of the Repressed Flesh",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133605"
+        },
+        {
+          "ja": "始まった展示会",
+          "en": "The Exhibition Begins",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133606"
+        },
+        {
+          "ja": "ヴァンダリズムはお断りよ",
+          "en": "You there. Vandalism is Prohibited.",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133607"
+        },
+        {
+          "ja": "解体",
+          "en": "Anatomize",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134502"
+        },
+        {
+          "ja": "材料獲得 - 血で沐浴するオブジェ",
+          "en": "Gather Ingredient - Blood-bathed Objet",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134503"
+        },
+        {
+          "ja": "ティビアのメロディー - 解体されたものが解体されていないものを解体すること",
+          "en": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134504"
+        },
+        {
+          "ja": "抑圧された肉体の解放",
+          "en": "Liberation of the Repressed Flesh",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134605"
+        },
+        {
+          "ja": "貫通",
+          "en": "Pierce",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103601"
+        },
+        {
+          "ja": "肉を裂く",
+          "en": "Flesh Rip",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103602"
+        },
+        {
+          "ja": "作品名:心周期に伴う骨の解放",
+          "en": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103603"
+        },
+        {
+          "ja": "筋肉収縮",
+          "en": "Muscular Contraction",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103605"
+        },
+        {
+          "ja": "刺す",
+          "en": "Jab",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103701"
+        },
+        {
+          "ja": "血管を裂く",
+          "en": "Vascular Tear",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103702"
+        },
+        {
+          "ja": "作品名:心周期に伴う骨の解放",
+          "en": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103703"
+        },
+        {
+          "ja": "筋肉収縮",
+          "en": "Muscular Contraction",
+          "file": "Skills_Enemy-a1c9p1.json",
+          "id": "9103705"
+        },
+        {
+          "ja": "保護と抑制のための甲冑",
+          "en": "Armor of Protection & Repression",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "131901"
+        },
+        {
+          "ja": "子方の展示をしばらく観察してみましょうか",
+          "en": "Allow Me to Briefly Enjoy My Pupil's Exhibition",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133106"
+        },
+        {
+          "ja": "材料収穫",
+          "en": "Ingredient Harvest",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133202"
+        },
+        {
+          "ja": "眩惑",
+          "en": "Dazzle",
+          "file": "Bufs-a1c9p3.json",
+          "id": "DelusionHohenheimBigBird"
+        },
+        {
+          "ja": "閉場 - 設置美術第1号「あなた方が撒き散らした肉と骨が客席となり」",
+          "en": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "133108"
+        },
+        {
+          "ja": "振動 - 大量出血",
+          "en": "Tremor - Hemorrhage",
+          "file": "Bufs.json",
+          "id": "VibrationBleeding"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 1 and part 3 records. The guide aliases for Dazzle, Closing Time, Ingredient Harvest, the exhibition passive, and Artwork: Tibia are resolved by their game IDs. Jab uses Combatant skill 9103701; Bondage uses passive 133201 rather than the Binds E.G.O. Shared Ampules, first-half and second-half debuffs, rescue conditions, carried-over HP, unknown resistances, and event ending conditions are retained."
+    }
+  },
+  "scopedTerms": [
+    "刺す",
+    "拘束"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "c8a3ee05f7e0482bd7c4c1cd763a6fc384017315196b506b4ec66d9ab4aed0fd",
+      "text": "Albina & Callisto (9-37)"
+    },
+    "shortName": {
+      "sourceHash": "15f4447b68c0efda569701968644c0898757ca8465198890a1c0c56fbf342712",
+      "text": "Albina & Callisto"
+    },
+    "stageName": {
+      "sourceHash": "a6a702ee15859bdb43fa23dc581e036f9925b7d6de745fb1fa438ee7bb5457c6",
+      "text": "The Ring"
+    },
+    "lead": {
+      "sourceHash": "a8f618b3ee0ef885cbf19e9b482a2f91beceaccd22e2b0371245ecc81cc1c426",
+      "text": "Fight alongside Hohenheim and Alisa. Weaken major attacks with Sinner attacks before the NPCs clash with them. In the second half, incapacitate Albina first to reduce Callisto's Protection and Assist Defense."
+    },
+    "listLead": {
+      "sourceHash": "7334015f839d7f5c5f75b73ffc27d255a65ba21c68b4ca73ba54cd50bcf3bf84",
+      "text": "Fight alongside 2 allied NPCs. Weaken major skills with Sinner attacks before leaving them to NPCs. Later, incapacitate the Apprentice first to reduce the Nursefather's Protection and Assist Defense."
+    },
+    "statNote": {
+      "sourceHash": "244d68dcd2f06fc0baf95fa4c3dd862b6de90bc45b221d7c3c9c4dd10f2b0249",
+      "text": "Faust, Sinclair, and Ishmael are the three required Sinners. Everyone, including the NPCs, shares the remaining K Corp. Emergency Ampules. Albina carries her current HP into the second half. Viewing the Tableau lowers Callisto's Offense and Defense Levels by 20; she gains 7 Protection while Albina can fight. Corpus Theater is listed at 74 HP, but use the individual unit's display. Unconfirmed resistances are marked unknown."
+    },
+    "skillNote": {
+      "sourceHash": "4d2f34c718faa46aa08c46d3f7d580ba5f8b1cc90a2e24876a07914f846849e8",
+      "text": "Both Automanikins' Liberation of Bones have inconsistent Power ranges and Coin listings, so Base Power and displayed Power are marked unconfirmed. Liberation of the Repressed Flesh after the armor is removed is treated as having 1 Atk Weight. Check the actual predictions and targets before skills resolve."
+    },
+    "priorities.0": {
+      "sourceHash": "78c0d7620397845213cca2cab2ea98b377452f9b68a24c743d2150b603bde587",
+      "text": "Land three separate attacks before the major attack. Do not take over the NPC's clash enabled by Dazzle."
+    },
+    "priorities.1": {
+      "sourceHash": "2a553d1e5f3e8989b6a0559cc85f137ea97cf7fad3068ddd92f0aa3210e23276",
+      "text": "Have the fastest Sinner clash with the enemy not using the major attack to reduce Assist Defense."
+    },
+    "priorities.2": {
+      "sourceHash": "3c9e21ebd04eb4a11f764273d8abee294241009a0551a66aefafcbb9e0703124",
+      "text": "Rescue captured allies and keep both NPCs from dying."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "8452545f4d453437f3d00e4ed0f2aa6587f2608bd097a2b06e0c12efb38340b1",
+      "text": "The NPC loses the clash against a major attack"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "b0eefac80a31dab2275576d0f962a9dcebfb2c8ea877cc035ee04a8f6e6373e1",
+      "text": "Land three separate attacks on the major attack's user before Hohenheim clashes with it. If Assist Defense intercepts them, clash with the assisting enemy directly first."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "3c529339cb92026ba1bae223c5e002708149ea3b2a0c3f022cfdeb4863d02b84",
+      "text": "Callisto barely loses HP"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "5da2b2ab7841451b102f0195bea9432ff647902fe57c5761bcd6af0fe5b9bda3",
+      "text": "Callisto gains 7 Protection while Albina can fight. Incapacitate Albina first in the second half to stop both the Protection and assistance."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e47f53dcd5327f58c65f57499a09a7836f243eeff46dec9cd37e7c2b34b2c968",
+      "text": "A Sinner disappears and cannot be controlled"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "c4138861b175c3a6991ea25f98d0071d81d37fdebf7509b3f9242074ea9e4294",
+      "text": "They are trapped in Corpus Theater. If anyone other than Callisto defeats the corresponding enemy unit, the ally returns next turn. Coordinate the rescue with Alisa's targets."
+    },
+    "units.0.name": {
+      "sourceHash": "ad35d6c78b8670228b146602132d374c8058de7b03ad97a9e2be5a197c6150d5",
+      "text": "Albina · Iron Maiden"
+    },
+    "units.0.part": {
+      "sourceHash": "d2f29a91c1009224b0c9c56a07ddf711a1681b9d54e9cfd2b2bf17ca0d381617",
+      "text": "Phase 1 · Torso"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "ccb15917c6d8b16d74e70f3ddb8a925142da39b2619c74cf5e6f90f3a09a903c",
+      "text": "Once per encounter, clears Stagger and immediately ends the turn when Staggered. Iron Curtain precedes the second half."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "f358cc1835c93de3b8da930d04ee7d2643527349a9e62eebc567d37a3a0adff9",
+      "text": "Unlike 9-18, progression does not use the 60% HP condition. Watch for the transition triggered by Stagger."
+    },
+    "units.1.name": {
+      "sourceHash": "c7aec39374cbcc9276e91b462a56d7aec2007aa04db3ff00bbc646c3b4abf215",
+      "text": "The Ring Corporist Automanikin - Researcher"
+    },
+    "units.1.part": {
+      "sourceHash": "d2f29a91c1009224b0c9c56a07ddf711a1681b9d54e9cfd2b2bf17ca0d381617",
+      "text": "Phase 1 · Torso"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "bee400e419aa1574ee1812c5223a68c0c2669e97e5946488989adb794a4df815",
+      "text": "Withdraws when the second half begins. Defeating them earlier earns SP and reduces incoming Bleed and buffs."
+    },
+    "units.2.name": {
+      "sourceHash": "b7f972b25ee5c32e5cb9f65fd3a5d4f0055c8700055fa35f1c9d45ffa4b7f23c",
+      "text": "The Ring Corporist Automanikin - Combatant"
+    },
+    "units.2.part": {
+      "sourceHash": "d2f29a91c1009224b0c9c56a07ddf711a1681b9d54e9cfd2b2bf17ca0d381617",
+      "text": "Phase 1 · Torso"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "bee400e419aa1574ee1812c5223a68c0c2669e97e5946488989adb794a4df815",
+      "text": "Withdraws when the second half begins. Defeating them earlier earns SP and reduces incoming Bleed and buffs."
+    },
+    "units.3.name": {
+      "sourceHash": "9702dc8a7559587eddaa818e1d88b81f6422cbfd28bc46ed66a6827c6322d477",
+      "text": "The Ring Nursefather - Callisto"
+    },
+    "units.3.part": {
+      "sourceHash": "eb722beaf93ff4c08777076cb5ebef9a5b11a8d971efcba71017ac8d26edabc5",
+      "text": "Phase 2 · Torso"
+    },
+    "units.3.stagger": {
+      "sourceHash": "87bd51479fd5e8bbba4a0fb639ec8d2a4ba5f27092008a577949b880b6e41990",
+      "text": "50% (1,409) / Clears the first Stagger"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "3604e6cbc2061283d217d5b30058414da1f2e63567d6c6e7d29d932865d9f9dc",
+      "text": "Viewing the Tableau lowers Offense and Defense Levels by 20. At Turn Start, gains 7 Protection if Albina can fight. This differs from the Mirror Dungeon version's 70% final damage reduction."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "8aaa4eb8ddd1d6ed9c7bd9bcdc77cb01a305d0e990ac2c22f3f12b8ff0bde0cb",
+      "text": "The Closing Time event begins around half HP. You do not need to reduce HP to 0."
+    },
+    "units.4.name": {
+      "sourceHash": "b64907aa3ae2a8edac390d69ec115974f6260bb1a8035df7968b75e8584943f1",
+      "text": "Albina · Armor Removed"
+    },
+    "units.4.part": {
+      "sourceHash": "eb722beaf93ff4c08777076cb5ebef9a5b11a8d971efcba71017ac8d26edabc5",
+      "text": "Phase 2 · Torso"
+    },
+    "units.4.hp": {
+      "sourceHash": "b750fe169ada15258bf6811cf0f2de5c08df2181a9a6ebd9848d8894a3adcff1",
+      "text": "1,352 (carries over current HP from the first half)"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "63f9ed168c18ed56b1491c49620b01954b1a5105223487c375471908459923dd",
+      "text": "This is not a fresh, full HP bar. Incapacitate her before focusing on Callisto in the second half."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "d687c0a74e11586734c4c6f554ac40e4bee4e518bc509f70e3dbad0411d20bb1",
+      "text": "Even skills with the same names have different Offense Level differences and Corpus Ingredient gain conditions from the first half."
+    },
+    "units.5.name": {
+      "sourceHash": "a20c0be1b85dfda8a418f75992cfc905b52ba5b6269032f41ff54a9f00724f09",
+      "text": "Corpus Theater"
+    },
+    "units.5.part": {
+      "sourceHash": "fc1ce35b46991171c3a60ab1dbdfb6a3a68b3c1a92bd99406c2ea8f93feb484b",
+      "text": "A unit corresponding to a captured ally"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "246befe0784b252a683dfe1471d4e4c15aaf3cf65ddfd392327479d169402747",
+      "text": "Burn is effective alongside Wrath and Blunt damage. Do not assume unconfirmed resistances are neutral."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "45987c926cad0a09280c9709fa41749c441596517cd9c21661291a8a4bc1cf44",
+      "text": "If anyone other than Callisto defeats it, the ally returns next turn. If Callisto defeats it, the captured ally is incapacitated."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "77ee270dfba07bc603d3cbd7c3e5779b5a9dc685effd53e7cff18a879dddad49",
+      "text": "Prepare healing for the three required Sinners and the NPCs"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "9e6a1d4f670cc166a69e6703ca7716a7ab3cc0246b0e840b443c60daef0d9d8e",
+      "text": "Recommended Lv. 60. Level Faust, Sinclair, and Ishmael, and bring HP/SP recovery and strong clashers."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "b3177a98a4c460b3219ea7f55267062ac52e4f9cfec09e21a4d5310f91d0e313",
+      "text": "Hohenheim handles major attacks; Alisa helps clear adds and rescue allies. You lose if both die. The five Ampules are shared by everyone, so do not spend them all on the Sinners."
+    },
+    "phases.1.timing": {
+      "sourceHash": "0e0f557218703e5282b8f6524e3d06ab7c818957d02fb20c4dd9c382f550e7af",
+      "text": "Armored Albina and two Automanikins"
+    },
+    "phases.1.title": {
+      "sourceHash": "b061d0cbc8bd1d744c4ffb8a126e20d4725c31d9bc43476748025030bb49153c",
+      "text": "Clear the Automanikins and weaken the armored major attack"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "66dee1bfe8af58a0ec778018755531ab8761da6fe3698623581f8e73ee0035b2",
+      "text": "Stagger and defeat the Automanikins early to gain actions and SP. The turn after Muscular Contraction, Automated Myofiber Activity makes Coins Unbreakable. Avoid assigning Sinners with high Bleed to take those hits."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "396fc0ecb5c12b5b64ada2d2a851bdea6e16d01bcd38d5f6d5720698849cbdab",
+      "text": "Resolving a Sloth attack before Liberation of Bones consumes Automated Myofiber Activity at the end of that attack. However, Unbreakable conversion is determined at Combat Start; do not assume all Coins revert."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "bdfdaabbb66192ed6a9264a9dc800d7466f7122f345be32c702e6188ec9323aa",
+      "text": "When Repressed Flesh appears, land three separate attacks first. Three Impact-rattled Armor lowers Final Power by 30. Dazzle makes it target Hohenheim without redirection, letting the NPC handle the clash."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "8d26950a427ed2404681f6ac125bfcc26733d069b20cb861dcb5bc3491404e35",
+      "text": "Staggering Albina clears her Stagger and immediately ends the turn. During Iron Curtain, reflected damage is multiplied by 20. Hold back attacks and prepare for the second half."
+    },
+    "phases.2.timing": {
+      "sourceHash": "e7c25cfaf584874e130251376a2341bb7577024b08c0d93fb89b17bb1b816377",
+      "text": "Callisto enters"
+    },
+    "phases.2.title": {
+      "sourceHash": "871688f262cf86e5f9f610e8522fb19e98145e6ec100dbb97d6e72447c22dd27",
+      "text": "Focus on Albina and stop the support skill"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "44a94348bfdb38c3df5b045f12ea746dd18457886fb3b6abcb324e6af2069b84",
+      "text": "The Automanikins withdraw and Albina removes her armor. Callisto gains 7 Protection while Albina is active, so focus on Albina first."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "6f685b4805b63c9117a9aa5a7a19760ab409f3a21d37861e0ef4476314c52c28",
+      "text": "Win the clash against Callisto's Oh, How We Love the Flesh and the Blood to prevent 6 Offense Level Up on Albina. Do not ignore it because its Base Power is low."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "614420157f547cb0bba1b83d755d1da1ed2cc51a72e9ca41639c5d8b9df2c22e",
+      "text": "Handle regular attacks based on current Bleed and clash predictions. If NPC assignments and rescues allow, evading Albina's feeding skill can also limit Corpus Ingredient gains."
+    },
+    "phases.3.timing": {
+      "sourceHash": "e744e3fa0d3cc8604f8ed7fa5188a5586f9205841abc4395b1bf0cd690a959d8",
+      "text": "Turns when an area attack is equipped"
+    },
+    "phases.3.title": {
+      "sourceHash": "bc1f977b462f541881f686c14355c41d884dd0d1dab7316c625ff985c601d2b9",
+      "text": "Clash with the assisting enemy first, then land three attacks on the major attack's user"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "950b4025c8aaf3baccadeb71e315f3e637dcdfdf28f340729bb883bb628e7b8a",
+      "text": "The enemy not using the area attack intercepts unopposed attacks through Assist Defense. Have the fastest Sinner clash with that enemy directly to reduce its value by 1. Check the remaining stacks and add clashes as needed."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "9a5758a37c7fbeffacad899129e80bb9d2db36d7d967d974b273e9b74b20bfbc",
+      "text": "Once assistance is reduced, land separate attacks on the major attack's user before it acts. After the armor is removed, each attack applies 1 Plus Coin Drop and 1 Power Down, up to three times. This differs from the first half's −30 Final Power."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "87298fbb7aaa6841dab05d4f3cebc5aa221059e590346529e086862af2046fe4",
+      "text": "Then let Hohenheim attack with guaranteed Heads. Three attacks are ideal; if that is impossible, aim for at least two and prepare healing for the damage taken."
+    },
+    "phases.4.timing": {
+      "sourceHash": "a6662381d5086844c7dcdffe4665037de611c6f3e01b691277ec36511666a8ec",
+      "text": "Improvised Ribcage and Corpus Theater"
+    },
+    "phases.4.title": {
+      "sourceHash": "36a3f4f4895a6919abb5e913badf42405eda8b84015ead34a7a5969112e27dd4",
+      "text": "Rescue captured allies before Callisto reaches them"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "b70564c15941e7c0b950d75c0924cf269a3b79f9689bc4fcb368867b8498e15f",
+      "text": "Improvised Ribcage is Unclashable, cannot be redirected, and prevents Defense Skills from activating. Destroy the Corpus Theater it creates instead of trying to defend with the captured Sinner."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "edb94410cb94dc363c7d6acf4d77d9000b51e064962fa72b5d055ebb6d28cedf",
+      "text": "Alisa helps with rescues. Check her target and have Sinners supply any missing damage. Do not leave a rescue unattended: Callisto defeating the unit incapacitates the ally."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "00ac3c249fbacc366e5dd858b90fbd76cc6be3775689b502c2374fd77a02228f",
+      "text": "A rescued ally returns next turn, and you gain 2 resources of every affinity. Use them for healing and preparation for major attacks, and keep both NPCs from dying."
+    },
+    "phases.5.timing": {
+      "sourceHash": "afb6dfa548b4b42842c4a3c4e67da86def9395531efde2e54b7b629fcc170979",
+      "text": "Callisto near half HP"
+    },
+    "phases.5.title": {
+      "sourceHash": "71c6373fdf4289fbfd0ae82358146aa5eabde8139c9efc629a690c09a8bc36d5",
+      "text": "Proceed from Closing Time to Alisa's last resort"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "d700a078092e9b5160efd381ab6fd54a34943fec8fb9988c1fec495a915ac635",
+      "text": "After incapacitating Albina, damage Callisto. Around half HP, she clears Stagger and immediately ends the turn. Closing Time turns everyone except Alisa into Corpus Theater."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "96724bfd527109faefe25d4afae4bee4681af9525ca873212337ba33cd8cb127",
+      "text": "Do not try to stop the Unclashable event skill that prevents Defense Skills from activating. Alisa's last resort rescues everyone and ends the battle."
+    },
+    "skills.0.name": {
+      "sourceHash": "4cac1a5fd0158b613039bf8335ede34fdffadc952df66e3648c6908959364060",
+      "text": "Butcher - Ribs"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "fa8901c4beca6fe8a57ec7330b0cbd1c650b03a20a8fe8e688e416cc0f61a5f0",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.0.response": {
+      "sourceHash": "840b0fa885e9e8aa563794d5201ae91926c9c2ce1b2e3ef88fecbb120072cf80",
+      "text": "Gains Power at 6 or more Bleed. Avoid repeated hits on a Sinner with high Bleed; clash with a regular skill that can win."
+    },
+    "skills.1.name": {
+      "sourceHash": "a0c1b8e44ce051364bf9abc24b0757381d265e4047b4c291a7e44e7f9cc37fc4",
+      "text": "Rotator Crush"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6dd8de2343f50785518d94c18e8c57dbbeec362917976c52f8375637e3f2521f",
+      "text": "[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "871e5b205a276dceea4a8a90aa81b42b696b8d1db0280b53c294f76d66a503e9",
+      "text": "A two-Coin skill that inflicts Bleed Count and Bind. Maintain Speed and HP so another Sinner can take over next turn."
+    },
+    "skills.2.name": {
+      "sourceHash": "d8abed93841ca4fad75c4789a40c938bfc1a55901e78a3e5697873dae46e5fcf",
+      "text": "Tendon Tear"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "dab60298f4c5b77670903b6ecb18d9fe4ffc21d0d72368fd6e85dad038b57452",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "16200139dc42853597c272921e22eb6ab21be98528def6b112d28d6f6f98764c",
+      "text": "Ⅰ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "f2a04623ad82f91564b5513174caf6c3ec2257ccb41a5541cc5a34d02e7bfe79",
+      "text": "Ⅱ[On Hit] Bleed Count +1"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "15d5a4f68e8c948ad84de530208f0e9c894905a7faef93432f379820eeb5480b",
+      "text": "Ⅲ[On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.2.response": {
+      "sourceHash": "fb248f1a839f8c0e6add128ff8c3faab09e0520c2a8561e796c4f11ac8c4dd94",
+      "text": "A three-Coin skill that gains Power per 4 Bleed. Redirect it away from Sinners with high Bleed to avoid disrupting Stagger and healing plans."
+    },
+    "skills.3.name": {
+      "sourceHash": "6cdfbbb76a6c70b98e8dcf96d31b06c3a30f3f79b1106b7845cabed251eb585d",
+      "text": "Fascia Hungers"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "c40aef5add7570f4721e9c208cd02b72695056c7b6514456064f342bb821c554",
+      "text": "[On Clash Lose] Deal 80% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "53b43ee09cd19ac7581adcb3ddac6fc27a9544e703b343e4641c8f163cec0418",
+      "text": "[On Hit Without Coin Destruction] Inflict 10 Bleed"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "08ed03d0b39e50a469003dbe5ead3c1590213ef0c445c484425d1abc03d22029",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Bleed Count"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "674e07280a906a69664affd0b0287c1ff31f217edf138c6754558f002b1f3798",
+      "text": "[On Hit] Heal 5 own SP"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "84da5d44238d47586a06ba6f5bab9528bafa3d030200919f70aa20a62535d88b",
+      "text": "[On Hit] Gain 1 Corpus Ingredient"
+    },
+    "skills.3.response": {
+      "sourceHash": "924bac087623dee3e7708e22e814a5819bbdd1f4cad2ed7782085872ee6c29d3",
+      "text": "Three Unbreakable Coins. Winning grants 80% damage reduction and prevents Stagger, but on-hit Corpus Ingredient gains remain. Prepare early attacks for the next major skill."
+    },
+    "skills.4.name": {
+      "sourceHash": "815bc11da3f4533a507371e2dd9b198dc7f99c7c08c02bca2597e48b398448d9",
+      "text": "Repressed Flesh"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "920f64143bcc99e88f775dcc035fd9326a9cb31965fcc33d50da9579ce8b8ed0",
+      "text": "On the turn this skill is equipped, apply the following effects:"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "5bed0e00d4eccc79b81110c4f906ef810dc01111f8bf93189fe2311287261748",
+      "text": "- Before this skill is used, gain 1 Impact-rattled Armor when damaged by an attack skill (once per enemy skill, including E.G.O)"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "61e0e2d9ef5a7f79882d0a2f37ee50097a9d94a1eab7ca66eab838d67c8e3915",
+      "text": "- \"Iron Maiden - Spikes\" Effect does not activate"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "dfe31e04024d7cd6942171d6160647b81f30fb7d745a5cf75551e817be83a48e",
+      "text": "- Cannot be Staggered until this skill is used"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "9401c4311ed2d2ea3bb3a31275469183965d139f38bdbd48dc1123640f730f3b",
+      "text": "On Kill with this skill, heal 15 SP"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "1b15a3f789d3e563ee1386697c3e6ab4269bb9ffa25854b816e890680fd0a5be",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the target (max 4)"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "406368ad193953caaacbaf639d2a40151d05b3f0504384fd49611d83d851b3ac",
+      "text": "[On Use] Damage +10% per 2 Bleed on the target (max 100%)"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "66743299388a9e958e02ad9273939c6b3ac84acc791de81da5acb6cae728295a",
+      "text": "[After Attack] Artwork: Fascia expires"
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "674e07280a906a69664affd0b0287c1ff31f217edf138c6754558f002b1f3798",
+      "text": "[On Hit] Heal 5 own SP"
+    },
+    "skills.4.effects.12": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.13": {
+      "sourceHash": "08dcd855847ddbfd2f9ce7c8d82e35307e0c1ce985c007004b74ea25b6975b3f",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Fragile next turn"
+    },
+    "skills.4.effects.14": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.4.effects.15": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.16": {
+      "sourceHash": "2af862458d6d54d74c2b6d59aea700c190e9c6814ce4f0753a45ffff3ac1d51b",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Damage Down next turn"
+    },
+    "skills.4.effects.17": {
+      "sourceHash": "e1fcc9c5de7de50751ba054f33153117ef254ffcdc7fbd9b1ed5d9d7388984f4",
+      "text": "[On Hit] Gain 1 Damage Up next turn"
+    },
+    "skills.4.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.4.effects.19": {
+      "sourceHash": "9dbff480a6a8275beb4c8f9f8956886eb6068af5686e97c6fe1a704fd2f03d51",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Bind next turn"
+    },
+    "skills.4.effects.20": {
+      "sourceHash": "6dd8de2343f50785518d94c18e8c57dbbeec362917976c52f8375637e3f2521f",
+      "text": "[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.4.response": {
+      "sourceHash": "2158dbce2f993eb6426d01bd897eb0ac5c818e02d4d38ec6f2c82edf2030a2fb",
+      "text": "Land three separate attacks first to gain 3 Impact-rattled Armor and lower Final Power by 30. With Dazzle active, Hohenheim handles the clash while Sinners supply the early attacks."
+    },
+    "skills.5.name": {
+      "sourceHash": "8bcce775d75560c3af2f0eb540176fbd4f72e40829845b98ee844c9e382d9c9d",
+      "text": "Exhibition Arrangements"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "44a40ee140176b4461c7637e0b8cafc9fff893e44756fb960a14d75da75537d9",
+      "text": "[Combat Start] When damaged by an attack skill, increase the attacker's Bleed Count by 1 (including E.G.O)"
+    },
+    "skills.5.response": {
+      "sourceHash": "bfc52043dc88c5728eb6f70d31871d267f324aa8c64c78144e6f079578858579",
+      "text": "Increases the attacker's Bleed Count and reflects damage through Spikes. Avoid unnecessary attacks; spend actions on Automanikins and healing instead."
+    },
+    "skills.6.name": {
+      "sourceHash": "b484d158f825fc9a635cee06cded481e2c3457ad52e4b41b904a73c5bf5f7f54",
+      "text": "Iron Curtain"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "cd5bfa55f46f95b65cb0457e130f479fd58798e6219fc206c4332f9852cb5fe2",
+      "text": "This turn, Iron Maiden - Spikes deals 20 times its normal damage to enemies (this effect is not removed by Offset)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "b30bc5cb88be4760a6af1106ad2f9c5127f0d3911913b1b46d1bc81a5dc5db28",
+      "text": "[Combat Start] On taking attack-skill damage, increase the attacker's Bleed Count by 1 (including E.G.O)"
+    },
+    "skills.6.response": {
+      "sourceHash": "15bd5cc32941a2670edcd2e502dc87c247bdd840450ee3deab1dec3f9bf77328",
+      "text": "Spikes reflects 20 times its normal damage and cannot be removed by Defense Skill Offset. Hold back attacks this turn and heal and prepare for the next form."
+    },
+    "skills.7.name": {
+      "sourceHash": "1cbe8ce7ab04fa5bdb387b21347da620876ca78c8603934bd361ae71f4d850dd",
+      "text": "Pierce"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.7.response": {
+      "sourceHash": "8d74158080e5562ae8f5885cbbd86b7f47112583e7a2a58cafbeddc87fbc0f3f",
+      "text": "A single-target skill that increases Bleed Count. Resolve it before Liberation of Bones to consume the enemy's buff at the end of this attack."
+    },
+    "skills.8.name": {
+      "sourceHash": "8f2fe1b35a304270902a865ef185aaf378c5fc82d93a4b2eff32d9c2df356d0e",
+      "text": "Flesh Rip"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "1ab91889c68f6bacf846c8c1e3637603cb1fe236fb81265adbf3c98e69023f34",
+      "text": "If the target has 5 or more Bleed, Base Power +1"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "0b025635e3b594e60311be73afb4a74a3af917a690e263ed4dd289fad2670211",
+      "text": "If the target has 3 or more types of negative effects, increase it by another 1"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "9d9797422c5fded5109ed7f504d7d8113302e3fb2d9c6b9e0fcbd33713b02ea6",
+      "text": "[On Heads Hit] Inflict 2 Defense Level Down next turn"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "0b025635e3b594e60311be73afb4a74a3af917a690e263ed4dd289fad2670211",
+      "text": "If the target has 3 or more types of negative effects, increase it by another 1"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "9d9797422c5fded5109ed7f504d7d8113302e3fb2d9c6b9e0fcbd33713b02ea6",
+      "text": "[On Heads Hit] Inflict 2 Defense Level Down next turn"
+    },
+    "skills.8.response": {
+      "sourceHash": "315dee781b02d45e3274f65d59a2844be40473d2d889535cd95eabe3e39aa89f",
+      "text": "Adds more Count against targets with Bleed and several negative effects. Win with regular skills and Stagger the enemy early."
+    },
+    "skills.9.name": {
+      "sourceHash": "3df6fa4fdbbfa4dabfb0cd95169ccdb132d13dba9ce25a4cd67ceb02c0be2f9d",
+      "text": "Muscular Contraction"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "3f2101a663e64ac35b0b918f3b00420e787c1a9d06e4e5704ff03b80970c9670",
+      "text": "[Combat Start] Gain 1 Automated Myofiber Activity next turn. Gain 1 more when damaged (once per turn)."
+    },
+    "skills.9.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.9.response": {
+      "sourceHash": "ae21ecad1be817ba1f74f13e1c716bf60ea0969a945c7e96cdf884c5807863a8",
+      "text": "Schedules next-turn buffs at Combat Start. Attacking it adds another stack, so plan for the next turn's Unbreakable conversion."
+    },
+    "skills.10.name": {
+      "sourceHash": "382dc69c8f712a15033c78ff725fd12e06fd9c1f848c75706a35494ca8299947",
+      "text": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "dd966cdb3340e0959fcb35c3e3fea485411f72a99602dcc4761968fa5703b75f",
+      "text": "Base Power +1 for every 20% HP the main body has lost (max 4)"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "161d6ef9b6f168f8a784e1d348abdb5ffd69b6a2009890306a5c05fced282fca",
+      "text": "Coin Power +1 per 3 Bleed on the target (max 2)"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "f018b4a884d9d9136553a3c581a2c0f48e665ae50a91bfa2098c9bb9992b48ea",
+      "text": "[Clash Win] Increase the target's Tremor Count by 2"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "0f0a22c91ff5935d74624effa2a05ce6c9757db1cdf82a5f7eaa866e3201a019",
+      "text": "[Clash Lose] Gain 1 Paralyze next turn"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "a304e82b78b8fca98f018a558d3d659534b01f811c68c5943e941071a64adcf8",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "a1a0b34e5f7a0935fb16d85dac1b69ab02e3e4ed736dd51289cbcb66bf965375",
+      "text": "[Before Coin Toss] Lose 30% of the main body's current HP (cannot Stagger from this effect; rounded down)"
+    },
+    "skills.10.effects.9": {
+      "sourceHash": "45310e96afe5003f2df389ecec63f48b33ca8b1a300987e55132d5969a87eedd",
+      "text": "[On Hit] Gain 5 Bleed"
+    },
+    "skills.10.effects.10": {
+      "sourceHash": "a7449f20c2075189cbe7ffdd0fc2a0f82a0d933f6b416af7d961012fab80008a",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.10.effects.11": {
+      "sourceHash": "f2012f2b8a2d94f088c32f235bb21e771ddceec35ad3d75ade1966e185ca631f",
+      "text": "[On Hit without Coin Destruction] Inflict Amplitude Conversion into Tremor - Hemorrhage"
+    },
+    "skills.10.effects.12": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.10.response": {
+      "sourceHash": "3acb1c8864b3c1327034d8098bb0bfacf77bfa6cb7bdeecd782e7d6b53449c33",
+      "text": "The third Coin is always Unbreakable. Automated Myofiber Activity makes the others Unbreakable too. Resolve the Sloth attack first to consume the buff, then stop the enemy through Stagger and focused attacks."
+    },
+    "skills.11.name": {
+      "sourceHash": "e174756d6477cfd9ba51575c442fbc95285761449bd8faca1b50cac664d94a7a",
+      "text": "Jab"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.11.response": {
+      "sourceHash": "76ab9f3248dd48413da8bc257cbb43d952a227debe375743cc4e3f983b73d75b",
+      "text": "A single-target skill that inflicts Bleed Potency. Clashing with it before Liberation of Bones can consume the enemy's buff."
+    },
+    "skills.12.name": {
+      "sourceHash": "86d6afa70f0c4bd215ef6e55af8ed2e3b167ec745c476381b42ad26e8939009b",
+      "text": "Vascular Tear"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "1ab91889c68f6bacf846c8c1e3637603cb1fe236fb81265adbf3c98e69023f34",
+      "text": "If the target has 5 or more Bleed, Base Power +1"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "c09a824211a001678c172e34feccbd9a1531b96a14c57bf3ea198da5c8dce1f9",
+      "text": "If the target has 3 or more types of negative effects, damage +30%"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.12.response": {
+      "sourceHash": "8c078f56fe5c6313dd15897aedb380a821e4242f73e3b2f20d8a96b79a540e8c",
+      "text": "Gains strength against targets with at least 5 Bleed or three types of negative effects. Protect weaker Sinners and aim for an early Stagger or kill."
+    },
+    "skills.13.name": {
+      "sourceHash": "3df6fa4fdbbfa4dabfb0cd95169ccdb132d13dba9ce25a4cd67ceb02c0be2f9d",
+      "text": "Muscular Contraction"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "3f2101a663e64ac35b0b918f3b00420e787c1a9d06e4e5704ff03b80970c9670",
+      "text": "[Combat Start] Gain 1 Automated Myofiber Activity next turn. Gain 1 more when damaged (once per turn)."
+    },
+    "skills.13.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.13.response": {
+      "sourceHash": "36cac6503d34b80dad36f682c4b8e769aed59c78fc383c92f4232f86fe1028fa",
+      "text": "A Clashable Guard that schedules a buff for next turn. Do not confuse it with Offset against an ordinary Defense Skill."
+    },
+    "skills.14.name": {
+      "sourceHash": "382dc69c8f712a15033c78ff725fd12e06fd9c1f848c75706a35494ca8299947",
+      "text": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "dd966cdb3340e0959fcb35c3e3fea485411f72a99602dcc4761968fa5703b75f",
+      "text": "Base Power +1 for every 20% HP the main body has lost (max 4)"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "161d6ef9b6f168f8a784e1d348abdb5ffd69b6a2009890306a5c05fced282fca",
+      "text": "Coin Power +1 per 3 Bleed on the target (max 2)"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "f018b4a884d9d9136553a3c581a2c0f48e665ae50a91bfa2098c9bb9992b48ea",
+      "text": "[Clash Win] Increase the target's Tremor Count by 2"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "0f0a22c91ff5935d74624effa2a05ce6c9757db1cdf82a5f7eaa866e3201a019",
+      "text": "[Clash Lose] Gain 1 Paralyze next turn"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.14.effects.6": {
+      "sourceHash": "a304e82b78b8fca98f018a558d3d659534b01f811c68c5943e941071a64adcf8",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.14.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.14.effects.8": {
+      "sourceHash": "a1a0b34e5f7a0935fb16d85dac1b69ab02e3e4ed736dd51289cbcb66bf965375",
+      "text": "[Before Coin Toss] Lose 30% of the main body's current HP (cannot Stagger from this effect; rounded down)"
+    },
+    "skills.14.effects.9": {
+      "sourceHash": "45310e96afe5003f2df389ecec63f48b33ca8b1a300987e55132d5969a87eedd",
+      "text": "[On Hit] Gain 5 Bleed"
+    },
+    "skills.14.effects.10": {
+      "sourceHash": "a7449f20c2075189cbe7ffdd0fc2a0f82a0d933f6b416af7d961012fab80008a",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.14.effects.11": {
+      "sourceHash": "f2012f2b8a2d94f088c32f235bb21e771ddceec35ad3d75ade1966e185ca631f",
+      "text": "[On Hit without Coin Destruction] Inflict Amplitude Conversion into Tremor - Hemorrhage"
+    },
+    "skills.14.effects.12": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.14.response": {
+      "sourceHash": "6f925fa4ad82f80d6e3b76ddf5b3b268f5fa411b97794f6b58f45913165db329",
+      "text": "The same three-Coin skill as the Researcher's. Its Base Power increases at lower HP, so follow through to Stagger or defeat it rather than leaving it injured."
+    },
+    "skills.15.name": {
+      "sourceHash": "3a0ce982c5922d8cf81f64af22ed35f8f9b9fb13099af606da1ae22ad640e988",
+      "text": "Installation Art no. 3: Improvised Ribcage"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "7cd1822fb28de7e44a197f9f5f630229d179b170ec74d206b686fa459f138735",
+      "text": "[Unclashable] [Cannot be redirected]"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "9d2a2a24d2180d8f0511d825491b5ae4245ebc8e91d9fd4dd3024d474a20b42f",
+      "text": "Prioritizes enemies with higher levels"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "ac63adcfcdf6b3a786759e30f7118e6f9243a46113d4325260ac951e5530f75b",
+      "text": "This skill prevents Defense Skills from activating"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "7372599728f954a3ea8fd71a54dd00f825a54ce81a0ed6182e74522b10b65a00",
+      "text": "[On Use] Coin Power +1 per 8 Bleed on the target (max 2)"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "4a52d6ff3b52b63a80ca1a1c343b35868d74e9991d657bc0c38d4b73a78e74dc",
+      "text": "Ⅰ [On Hit] Deal SP damage instead of HP damage"
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "e8b9b3d28fed34921e9191ec2228e6d527db138ddaac6b25a072a616180d8e30",
+      "text": "[On Hit] Heal the user for 15 SP"
+    },
+    "skills.15.effects.6": {
+      "sourceHash": "bee4a7a61b47b1d8515ae5c037206a1a195bdb17ebf958c08d3cdd4974d9a366",
+      "text": "[On Hit] Stagger the target and turn them into Corpus Theater next turn"
+    },
+    "skills.15.label": {
+      "sourceHash": "b887995ff165341437305e6d6b7725d9a23178ad4d5c8bf2857eb2c0f3b8d759",
+      "text": "Cannot be redirected; Unclashable; prevents Defense Skills from activating"
+    },
+    "skills.15.response": {
+      "sourceHash": "53f3aa235fa3322550da684acd575acab3eee59051304cef68a4819994d8e60b",
+      "text": "Unclashable, cannot be redirected, and prevents Defense Skills from activating. Destroy the Corpus Theater corresponding to the captured Sinner to bring them back next turn. Check Alisa's rescue target too."
+    },
+    "skills.16.name": {
+      "sourceHash": "363def480b9cd0cb600e0a1ff3588c6a8a0adc877cf275fd57dede164bbc5862",
+      "text": "Anatomize"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "c40aef5add7570f4721e9c208cd02b72695056c7b6514456064f342bb821c554",
+      "text": "[On Clash Lose] Deal 80% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "7466f192f692554bfccc3eac39f63e52ba485739fb3d06e5945db1552aa791e0",
+      "text": "[On Hit without Coin Destruction] Inflict 4 Bleed"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "7f9658ab00f74bc2e64a3b453d7e846f5b3cdf2d4335500b90ec20ca3e6a5f24",
+      "text": "[On Hit] Inflict 4 Bleed."
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "ce418fcccbc585a7cc98a6da56ee4ed4beb63a1caf235fbbf71b567b594130e7",
+      "text": "[On Hit] Inflict 1 Fragile next turn"
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.16.response": {
+      "sourceHash": "9fda726ff277f306384ef8a601d24e9fcc16ad4b2af99c47431a4d2967d56e5e",
+      "text": "Two Unbreakable Coins. Win for 80% damage reduction and protection from Stagger caused by this skill. High Bleed on the target also raises Coin Power."
+    },
+    "skills.17.name": {
+      "sourceHash": "6c03e2c07192c6afe10a92b79d94daab06661e4648baf42bc1610eb551323e2f",
+      "text": "Gather Ingredient - Blood-bathed Objet"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "fa796d50e5f878b7867ab3148cc710f4366e171b91a5e34c1f1a5bca3956a8de",
+      "text": "Prioritizes Corpus Theater as a target"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "c40aef5add7570f4721e9c208cd02b72695056c7b6514456064f342bb821c554",
+      "text": "[On Clash Lose] Deal 80% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "07f87cd7adafb20580d92484f7c017bde98f68ff12ecc5bd25b245a06e09dbdb",
+      "text": "[On Hit without Coin Destruction] Increase Bleed Count by 1"
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "39db04d2b3e2eedcef728df5dd68cdb77b6a4da3e021217ffb01cf6e56fa4d19",
+      "text": "[On Hit] Bleed Count +1"
+    },
+    "skills.17.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.17.effects.7": {
+      "sourceHash": "7ad63640cd13498cb48500277b2c944ba90fc13e013e056f2e96ecf06366f4df",
+      "text": "[On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.17.effects.8": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.17.response": {
+      "sourceHash": "8f482e6f763ad9a77c4e40dbfb34d49edddf3554e19720683b05487dbe7a2400",
+      "text": "Prioritizes Corpus Theater. If Callisto destroys it, the captured ally is incapacitated, so rescue the ally first."
+    },
+    "skills.18.name": {
+      "sourceHash": "0a3058c74ed10bb105b2e41691b7232fe645bf1b13ed3e91ac1f833f812e2b52",
+      "text": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "4f7b80a0f629cd5686ae96f32f911702ebc8b1b8512eaa25311ed18d801c44b6",
+      "text": "On the turn this skill is equipped, when damaged by an Attack Skill, gain 1 Plus Coin Drop and 1 Power Down (once per skill, up to 3 times per turn)"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "835044e26497008c83007c7d494e7f39cc4a3773a86196001918f19eb2397e2b",
+      "text": "Heal 15 SP for each target defeated by this skill"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "091402620bc878e554ef46fe04568d329ebabfd03ffd038b76290f54d1a7b9c2",
+      "text": "[Combat Start] Gain 4 Protection"
+    },
+    "skills.18.effects.4": {
+      "sourceHash": "139941d147be7055237551ea7821e5acfdab0391161326fb6eaed8cd47dc17a5",
+      "text": "[On Use] Damage +3% per 6 total Bleed across the main and secondary targets (max 30%)"
+    },
+    "skills.18.effects.5": {
+      "sourceHash": "32852a135405fa4747a43336d819d3e8fdfe63acaa64030be8b42a8a913194dc",
+      "text": "[Clash Lose] Deal 60% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.18.effects.6": {
+      "sourceHash": "7cedd4eeffa27e7a42b29e3ccb1c4810ba2bc7f86ee6022cd0b4a5cc14ea5e00",
+      "text": "[After Attack] Remove Artwork: Tibia"
+    },
+    "skills.18.effects.7": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.18.effects.8": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.18.effects.9": {
+      "sourceHash": "4813268e0d92ff6b9224e4ca1d0ce5daaa9619e88fb8893de94156b198899a97",
+      "text": "[On Hit] Heal the user for 5 SP (once per skill)"
+    },
+    "skills.18.effects.10": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.18.effects.11": {
+      "sourceHash": "08dcd855847ddbfd2f9ce7c8d82e35307e0c1ce985c007004b74ea25b6975b3f",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Fragile next turn"
+    },
+    "skills.18.effects.12": {
+      "sourceHash": "d449583726710a5b913ca7cbcbda73a71571901692d93863b82db2cc71da95d4",
+      "text": "[On Hit] Gain 1 Protection next turn (once per skill)"
+    },
+    "skills.18.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.18.effects.14": {
+      "sourceHash": "2af862458d6d54d74c2b6d59aea700c190e9c6814ce4f0753a45ffff3ac1d51b",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Damage Down next turn"
+    },
+    "skills.18.effects.15": {
+      "sourceHash": "d605654c274e36396f36ed4854a96b423fe04c2734f7eaa0873c8b85d2261716",
+      "text": "[On Hit] Gain 1 Damage Up next turn (once per skill)"
+    },
+    "skills.18.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.18.effects.17": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.18.response": {
+      "sourceHash": "1dd3c6080a581d30a4ec679e7a6c2473c0d52faa727a09a43c4fa86723d54fb2",
+      "text": "Four Unbreakable Coins and 6 Atk Weight. Land three separate early attacks to apply 3 Plus Coin Drop and 3 Power Down, then let Hohenheim clash through Dazzle. Exhaust the other enemy's Assist Defense first."
+    },
+    "skills.19.name": {
+      "sourceHash": "73fc4873a702ef8766043a490def33205732620d3a700dbc63c01421da860e14",
+      "text": "Oh, How We Love the Flesh and the Blood"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "4eee98c11a6eb71266a376963498a4d3ea36c95efb3c259f943ac5b3f59cc452",
+      "text": "Prioritizes The Ring Apprentice - Albina as a target"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "b8b8b45faad4a715070326bc16bf9237f06b6e956e2d987b8c8312b5295fc22e",
+      "text": "[Clash Lose] Gain 4 Damage Down"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "06e1522c77b6a57b233f3ef5abed7c88ea32eeaec86983e578c70d11d1ef5f16",
+      "text": "This Coin deals no HP damage"
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "979fd8aa0a4375c8e64f08295b8bd23c346e2963782a399524f80cce477a43d3",
+      "text": "- If the target is an ally, instead grant 6 Offense Level Up through the next turn"
+    },
+    "skills.19.response": {
+      "sourceHash": "77a813c0ac29d5a9c3d64b4633014d529973db9360d10a84b344dc8a9cbbf020",
+      "text": "A support skill that grants Albina Offense Level Up. Win the clash to stop it. Do not ignore it because of its low Power."
+    },
+    "skills.20.name": {
+      "sourceHash": "57f8d7376755b633f85b6145d4fad7732ebd4873c40483937e951dda35482d39",
+      "text": "Curating the Exhibition"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "f69e80901e687ad0d703ce924afa73af8812684ca232b71ec3c1ff5d30c21c74",
+      "text": "[Combat Start] Gain 2 Assist Defense"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "a9eaee57b91b12d34ac080ebf8326846528e4d48c1720db54ef96c3f7a0ba54c",
+      "text": "[On Use] The attacker's Bleed Count cannot decrease until their attack ends"
+    },
+    "skills.20.response": {
+      "sourceHash": "9669f4ee78dc67acd7990e400aede374fa6fea4dce9ffb86bce74267fa35f68e",
+      "text": "Gains 2 Assist Defense at Combat Start. Each clash against Callisto herself reduces it by 1. Resolve these before the unopposed attacks meant for the major skill's user."
+    },
+    "skills.21.name": {
+      "sourceHash": "1c388e5d5a8095561182ee08e7dc99a2e195f941ab85192e148c9dc685c598f2",
+      "text": "Please. Vandalism is Prohibited."
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "9b493a0b8efb3fa95af4074d60ebbc98d3d9fe1a6e76b7186f1b4141488d5862",
+      "text": "Assist Defense skill only"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "d2084510c0b94a9af96d56b2bdf9c022dfcd27a59b8e88e2e9d709c45f9c9931",
+      "text": "[On Use] Gain 1 Protection."
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "f83a37663abfc2d04447014952cba3956e3f6988c30c5efac14234c06a2c2790",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.21.effects.6": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.21.effects.7": {
+      "sourceHash": "fd588ba19404a5540a93042e3ee4db9991c97559a7ffe243215da06459bf9a95",
+      "text": "Ⅱ [On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.21.effects.8": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.21.label": {
+      "sourceHash": "e76c5371de942ce6a3d6403c1835c15f2c2110fe9feeafdaee60b04b6468dadb",
+      "text": "Assist Defense only"
+    },
+    "skills.21.response": {
+      "sourceHash": "dab72101f0b4a14a31b4818dbd7ca0b6d64622b9af9a2d8c3ea1f373cf76a79c",
+      "text": "A Clashable Counter used only for Assist Defense. Clash with Callisto to reduce her assistance count and let early attacks reach the other enemy."
+    },
+    "skills.22.name": {
+      "sourceHash": "d4c5792f3e9c57f8e6f12ad04d3b3988bc9e918c1d3eb9c426955fd228e9ee14",
+      "text": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "80a18875aed841f22789133cdff11d67cd09cb69dfe26fd5d6722dfe653b262d",
+      "text": "Prioritizes higher-level enemies as targets"
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "ac63adcfcdf6b3a786759e30f7118e6f9243a46113d4325260ac951e5530f75b",
+      "text": "This skill prevents Defense Skills from activating"
+    },
+    "skills.22.effects.3": {
+      "sourceHash": "7372599728f954a3ea8fd71a54dd00f825a54ce81a0ed6182e74522b10b65a00",
+      "text": "[On Use] Coin Power +1 per 8 Bleed on the target (max 2)"
+    },
+    "skills.22.effects.4": {
+      "sourceHash": "39bbf5b550205c435cca87330f07a36973b84d406d1c8a5efe30101f387bd7db",
+      "text": "[After Attack] End turn"
+    },
+    "skills.22.effects.5": {
+      "sourceHash": "4e41a4bfb08b7b508321e526414f0c0f3d274dd2380b1dee1ff1c61b5a3755a5",
+      "text": "Ⅰ [On Hit] If the user's HP is below 60% of max HP, deal SP damage instead of HP damage"
+    },
+    "skills.22.effects.6": {
+      "sourceHash": "bee4a7a61b47b1d8515ae5c037206a1a195bdb17ebf958c08d3cdd4974d9a366",
+      "text": "[On Hit] Stagger the target and turn them into Corpus Theater next turn"
+    },
+    "skills.22.label": {
+      "sourceHash": "65744349cad4ae242d0d177192499e54ad215e452b80a834ff26dde76c810df5",
+      "text": "Unclashable; prevents Defense Skills from activating"
+    },
+    "skills.22.response": {
+      "sourceHash": "cd1c8238a97dbf4dcc60b5057b1081b0275708d83a8be481ad2a36a6654c6641",
+      "text": "An Unclashable late-battle event skill that prevents Defense Skills from activating. Proceed to Alisa's last resort instead of trying to stop it with Sinners. The turn ends after the attack."
+    },
+    "skills.23.name": {
+      "sourceHash": "4cac1a5fd0158b613039bf8335ede34fdffadc952df66e3648c6908959364060",
+      "text": "Butcher - Ribs"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "fa8901c4beca6fe8a57ec7330b0cbd1c650b03a20a8fe8e688e416cc0f61a5f0",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.23.response": {
+      "sourceHash": "53bef0a85b9ec83bfab1cc292e673b503307e14599e34de7088a68d4bbdfa450",
+      "text": "Removing the armor also changes the Offense Level difference. Check Bleed-based Power increases and focus on Albina."
+    },
+    "skills.24.name": {
+      "sourceHash": "a0c1b8e44ce051364bf9abc24b0757381d265e4047b4c291a7e44e7f9cc37fc4",
+      "text": "Rotator Crush"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "6dd8de2343f50785518d94c18e8c57dbbeec362917976c52f8375637e3f2521f",
+      "text": "[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.24.response": {
+      "sourceHash": "6eb8464c685198d8725aa6efc7d6729ebf378e88ec55d2df4738b684527e82c9",
+      "text": "Inflicts Bleed Count and Bind. Incapacitate Albina first to cut off Callisto's Protection and assistance."
+    },
+    "skills.25.name": {
+      "sourceHash": "d8abed93841ca4fad75c4789a40c938bfc1a55901e78a3e5697873dae46e5fcf",
+      "text": "Tendon Tear"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "dab60298f4c5b77670903b6ecb18d9fe4ffc21d0d72368fd6e85dad038b57452",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "16200139dc42853597c272921e22eb6ab21be98528def6b112d28d6f6f98764c",
+      "text": "Ⅰ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.25.effects.2": {
+      "sourceHash": "f2a04623ad82f91564b5513174caf6c3ec2257ccb41a5541cc5a34d02e7bfe79",
+      "text": "Ⅱ[On Hit] Bleed Count +1"
+    },
+    "skills.25.effects.3": {
+      "sourceHash": "15d5a4f68e8c948ad84de530208f0e9c894905a7faef93432f379820eeb5480b",
+      "text": "Ⅲ[On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.25.effects.4": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.25.response": {
+      "sourceHash": "24c29b566166a336882064fee6ef675589f1521a1561ba4ea2a6e08cdb51efa7",
+      "text": "A three-Coin skill whose Coin Power increases with Bleed. Avoid repeatedly taking it with a Sinner who has high Bleed."
+    },
+    "skills.26.name": {
+      "sourceHash": "74d2f85e39b8d49f98c52db718b5abe2684fc134149ce719a0173d47fa59fe3f",
+      "text": "Time to Eat, Fascia"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "c40aef5add7570f4721e9c208cd02b72695056c7b6514456064f342bb821c554",
+      "text": "[On Clash Lose] Deal 80% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.26.effects.2": {
+      "sourceHash": "53b43ee09cd19ac7581adcb3ddac6fc27a9544e703b343e4641c8f163cec0418",
+      "text": "[On Hit Without Coin Destruction] Inflict 10 Bleed"
+    },
+    "skills.26.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.26.effects.4": {
+      "sourceHash": "08ed03d0b39e50a469003dbe5ead3c1590213ef0c445c484425d1abc03d22029",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Bleed Count"
+    },
+    "skills.26.effects.5": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.26.effects.6": {
+      "sourceHash": "00aa45f712b6f0a51bd235ef405df972ff762240de587cc0b16d5f44093c4bb0",
+      "text": "[On Hit] Deal 5 SP damage"
+    },
+    "skills.26.effects.7": {
+      "sourceHash": "ac5e79dfad7fc7c7a0e897b97f96234c8d67e11501134e1c2a803806b306ff66",
+      "text": "[On Hit] Heal the user for 10 SP"
+    },
+    "skills.26.effects.8": {
+      "sourceHash": "84da5d44238d47586a06ba6f5bab9528bafa3d030200919f70aa20a62535d88b",
+      "text": "[On Hit] Gain 1 Corpus Ingredient"
+    },
+    "skills.26.response": {
+      "sourceHash": "6bb799ea5f51fdfda800229bacfb1ebe758b24def9808e87b7ccdd1176c5cf91",
+      "text": "Three Unbreakable Coins; gains Corpus Ingredient on hit. Evading the hits can delay preparation for the next major attack, but this is not a guaranteed way to stop it."
+    },
+    "skills.27.name": {
+      "sourceHash": "7d41866950b43b74f60edb6cecf55430a6d496147bd6ab2528789beace0466fa",
+      "text": "Liberation of the Repressed Flesh"
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "4f7b80a0f629cd5686ae96f32f911702ebc8b1b8512eaa25311ed18d801c44b6",
+      "text": "On the turn this skill is equipped, when damaged by an Attack Skill, gain 1 Plus Coin Drop and 1 Power Down (once per skill, up to 3 times per turn)"
+    },
+    "skills.27.effects.1": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.27.effects.2": {
+      "sourceHash": "835044e26497008c83007c7d494e7f39cc4a3773a86196001918f19eb2397e2b",
+      "text": "Heal 15 SP for each target defeated by this skill"
+    },
+    "skills.27.effects.3": {
+      "sourceHash": "091402620bc878e554ef46fe04568d329ebabfd03ffd038b76290f54d1a7b9c2",
+      "text": "[Combat Start] Gain 4 Protection"
+    },
+    "skills.27.effects.4": {
+      "sourceHash": "139941d147be7055237551ea7821e5acfdab0391161326fb6eaed8cd47dc17a5",
+      "text": "[On Use] Damage +3% per 6 total Bleed across the main and secondary targets (max 30%)"
+    },
+    "skills.27.effects.5": {
+      "sourceHash": "32852a135405fa4747a43336d819d3e8fdfe63acaa64030be8b42a8a913194dc",
+      "text": "[Clash Lose] Deal 60% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.27.effects.6": {
+      "sourceHash": "66743299388a9e958e02ad9273939c6b3ac84acc791de81da5acb6cae728295a",
+      "text": "[After Attack] Artwork: Fascia expires"
+    },
+    "skills.27.effects.7": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.27.effects.8": {
+      "sourceHash": "9d4b98d2f0b32d17aaceafdefe185b0a334e316b173f9b97a0e9a71d1ddc1be3",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage"
+    },
+    "skills.27.effects.9": {
+      "sourceHash": "4813268e0d92ff6b9224e4ca1d0ce5daaa9619e88fb8893de94156b198899a97",
+      "text": "[On Hit] Heal the user for 5 SP (once per skill)"
+    },
+    "skills.27.effects.10": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.27.effects.11": {
+      "sourceHash": "08dcd855847ddbfd2f9ce7c8d82e35307e0c1ce985c007004b74ea25b6975b3f",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Fragile next turn"
+    },
+    "skills.27.effects.12": {
+      "sourceHash": "d449583726710a5b913ca7cbcbda73a71571901692d93863b82db2cc71da95d4",
+      "text": "[On Hit] Gain 1 Protection next turn (once per skill)"
+    },
+    "skills.27.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.27.effects.14": {
+      "sourceHash": "2af862458d6d54d74c2b6d59aea700c190e9c6814ce4f0753a45ffff3ac1d51b",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Damage Down next turn"
+    },
+    "skills.27.effects.15": {
+      "sourceHash": "d605654c274e36396f36ed4854a96b423fe04c2734f7eaa0873c8b85d2261716",
+      "text": "[On Hit] Gain 1 Damage Up next turn (once per skill)"
+    },
+    "skills.27.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.27.effects.17": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.27.response": {
+      "sourceHash": "96567c116af956d37a0b8c5b39ef8c1565be7e7c84c0ecfc06eb6c9d11d57a0d",
+      "text": "This weakening differs from the armored version's −30 Final Power. Land three attacks to apply 3 Plus Coin Drop and 3 Power Down before Hohenheim's clash."
+    },
+    "skills.28.name": {
+      "sourceHash": "371d664db2b70fd5d4bba44d96d0a9ce4184b9a9237c2d8e23bae29448bcaca7",
+      "text": "The Exhibition Begins"
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "23ef1068f8f8390e15510845c3472d0ae67ff47704b0f70dfc05a30f7b0c6f59",
+      "text": "[Combat Start] Gain 1 Assist Defense"
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "5bc2fa79fb0f0f8d3de02b004d6ab15cfe2725e4655e5108ae56309886a61e67",
+      "text": "[Combat Start] Gain 1 Haste next turn"
+    },
+    "skills.28.response": {
+      "sourceHash": "d44c92856bb0b108fa64c48c757095089ad4a014992118895eb64fa87c8a5c7b",
+      "text": "Starts with 1 Assist Defense. Consume it by clashing with Albina directly, allowing early attacks to reach Callisto's major skill."
+    },
+    "skills.29.name": {
+      "sourceHash": "0ba08e40bda0744197990bf1c62df8c832a0b1dc93c1eb81f5f6208ee038208b",
+      "text": "You there. Vandalism is Prohibited."
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "9b493a0b8efb3fa95af4074d60ebbc98d3d9fe1a6e76b7186f1b4141488d5862",
+      "text": "Assist Defense skill only"
+    },
+    "skills.29.effects.2": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.29.effects.3": {
+      "sourceHash": "d2084510c0b94a9af96d56b2bdf9c022dfcd27a59b8e88e2e9d709c45f9c9931",
+      "text": "[On Use] Gain 1 Protection."
+    },
+    "skills.29.effects.4": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.29.effects.5": {
+      "sourceHash": "f83a37663abfc2d04447014952cba3956e3f6988c30c5efac14234c06a2c2790",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.29.effects.6": {
+      "sourceHash": "589727a4847d65a233d5d06410c5ea808901a3ff3f2cc6bc1c0ba87eff396988",
+      "text": "[On Hit] Gain 1 Protection next turn"
+    },
+    "skills.29.effects.7": {
+      "sourceHash": "fd588ba19404a5540a93042e3ee4db9991c97559a7ffe243215da06459bf9a95",
+      "text": "Ⅱ [On Hit] Inflict 1 Power Down next turn"
+    },
+    "skills.29.effects.8": {
+      "sourceHash": "d1762ae19beb34c2c4bfbc524cf367edd181ccbbc12c490bceffd019573cc496",
+      "text": "[On Hit] Gain 1 Power Up next turn"
+    },
+    "skills.29.label": {
+      "sourceHash": "e76c5371de942ce6a3d6403c1835c15f2c2110fe9feeafdaee60b04b6468dadb",
+      "text": "Assist Defense only"
+    },
+    "skills.29.response": {
+      "sourceHash": "55f61bfc9a22f0f9fed6925c3401b354c7d1f9d271e208e7bd9f60084f4b2a75",
+      "text": "A Clashable Counter used only for Assist Defense. Clash with the assisting enemy directly first to reduce interception."
+    },
+    "passives.0.name": {
+      "sourceHash": "7ff29463185e7a3261993739f7019c8b32b9330192974fded23f2880b0228040",
+      "text": "Fascia, My Precious Artwork"
+    },
+    "passives.0.effect": {
+      "sourceHash": "452c10c3c81b7f1e21a763dc4b47ffd68f1bc654fdd7fc584ec84f1ac81bb770",
+      "text": "At Turn End with 2 Corpus Ingredient, remove it next turn and gain Artwork: Fascia.\n\nAt Turn Start with Artwork: Fascia, use a powerful attack this turn.\n\nBefore using the powerful attack, gain 1 Impact-rattled Armor when damaged by an attack skill."
+    },
+    "passives.0.condition": {
+      "sourceHash": "6e187abbb9623c10c8c2dc7e4629846b84ba0c2211f8f0fcd728d3942bf7eafa",
+      "text": "2 Corpus Ingredient; preparing a powerful attack"
+    },
+    "passives.0.response": {
+      "sourceHash": "77aaee1cff1c8e7b1897da27baebbc5915d6d8906062b529e7a1246ca25fac10",
+      "text": "The weakening method changes depending on whether Albina is armored. Check her current form."
+    },
+    "passives.1.name": {
+      "sourceHash": "5e44efbca742b87751c298abb41948ff98ad98fd87204d6618a7bbedb370e229",
+      "text": "Corpus Spent as Material"
+    },
+    "passives.1.effect": {
+      "sourceHash": "5906d7b244bc4f870bc6ba521e4f4e0fd457b3d04e75b7f9c9d40551e3ae452b",
+      "text": "Take 30% less HP/SP damage and Stagger Threshold increase from Burn, Tremor, Rupture, and Sinking.\nTake 50% less Bleed damage."
+    },
+    "passives.1.condition": {
+      "sourceHash": "12f2861a355874f094f8bb25fb3eea6a929b74a49079855f5fc2987d1e3b1d18",
+      "text": "Status effect damage"
+    },
+    "passives.1.response": {
+      "sourceHash": "58cde73086fdc9dd44068890af6ae7f120e2e6426e653f22ba90444e4c2536a9",
+      "text": "Reduces damage from Bleed and other statuses. Do not simply wait for statuses to work; weaken major skills and focus your attacks."
+    },
+    "passives.2.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.2.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.2.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.2.response": {
+      "sourceHash": "396a2650d0d798551428608a0fc8738579cbf81c2a2cd408c8724dd25f819057",
+      "text": "SP returns to 0. Maintaining Panic alone is not a complete strategy."
+    },
+    "passives.3.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.3.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.3.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.3.response": {
+      "sourceHash": "e819d9941fc265554603757af7e85e0fe0b84e19de1c52336d334b2bf1134ff5",
+      "text": "Do not assume changing Panic Type will disable dangerous skills."
+    },
+    "passives.4.name": {
+      "sourceHash": "af03cef864b2e67e60751b0d427faa1611d649a0ab27d812327574ed8b9e5bc1",
+      "text": "Armor of Protection & Repression"
+    },
+    "passives.4.effect": {
+      "sourceHash": "7fae5c25954df011598d0ba7b32ed84cbb2b505ad8b65b38a450f7ca03e96f11",
+      "text": "At Turn Start while not Staggered, gain 2 Protection, 10 Defense Level Up, and Shield equal to 10% current HP.\n\nFor each use of Repressed Flesh this encounter, reduce these gains by 1 Protection, 5 Defense Level Up, and 5 percentage points of Shield."
+    },
+    "passives.4.condition": {
+      "sourceHash": "8876932de76bb6874d20318a68723c2853688302c4070806dc926aab9c5f7346",
+      "text": "Turn Start while not Staggered"
+    },
+    "passives.4.response": {
+      "sourceHash": "e865f63506e36a8e0872de540d4dceee0968b4100ed738ef86e95dc31bec38f2",
+      "text": "Work around the early defenses by clearing Automanikins first. Using Repressed Flesh weakens the defensive buffs."
+    },
+    "passives.5.name": {
+      "sourceHash": "b74e729407681deaf7e4b2fd776be7dac438f74c9fab46c9d028afd9ef8ea7fc",
+      "text": "Iron Maiden - Spikes"
+    },
+    "passives.5.effect": {
+      "sourceHash": "294101ba861ac425750d5972fcb3bd02c6450b75e82d62baa0f28a2923d597bd",
+      "text": "While not Staggered, when damaged by an attacker's final Coin:\n- Deal Pierce damage to the attacker equal to 20% of that Coin's damage and inflict 2 Bleed (max 100 damage per skill).\n- This effect's damage cannot Stagger."
+    },
+    "passives.5.condition": {
+      "sourceHash": "a1034a2be2e0759a3bdf080d038e1a8a92e1933f104b8e6949635a4c1574b55c",
+      "text": "Taking damage from a final Coin while not Staggered"
+    },
+    "passives.5.response": {
+      "sourceHash": "6e784449d119c2af5466210d9d789c58a957d1ce4ccba682f41f407bf4956baa",
+      "text": "Avoid Iron Curtain's reflection and concentrate attacks on turns preparing Repressed Flesh."
+    },
+    "passives.6.name": {
+      "sourceHash": "3f5abcc70879984486a8a76ab20125a9f033f8504277c5a48eac2fb7e9364f02",
+      "text": "Iron Maiden - Defibrillation"
+    },
+    "passives.6.effect": {
+      "sourceHash": "91f6c16fdb51d7956d89f4e0bc073d6f5f4bc80a75b444481e773b4d82a5a5a6",
+      "text": "When Staggered, clear Stagger and end the turn (once per encounter)"
+    },
+    "passives.6.condition": {
+      "sourceHash": "721cb22a38de747b227d67a5c8eca216e52ae07ad2e26d1ecf3ccc83a197ecbc",
+      "text": "When Staggered; once per encounter"
+    },
+    "passives.6.response": {
+      "sourceHash": "3201c080b19986b4264fb0ac088aa4d7666700817987e185c60021eb748d0531",
+      "text": "Unlike 9-18, Stagger itself triggers progression. After Stagger is cleared and the turn ends, do not keep attacking into Iron Curtain."
+    },
+    "passives.7.name": {
+      "sourceHash": "33798f12b1a8c085fa2cc71dc704d3f45d7b5985c585dbe6c5e975aad7aaf022",
+      "text": "The Ring Nursefather's Artwork"
+    },
+    "passives.7.effect": {
+      "sourceHash": "0d0176572594892cd1f580960c72a094b481481da570c5e8b5bb4554e8ec4f6e",
+      "text": "If the main target has 3 or more types of negative effects, Final Power +1"
+    },
+    "passives.7.condition": {
+      "sourceHash": "9c007a93e99276d764a30179a34435dc1b05868e87107f449caf005354eaba4b",
+      "text": "Main target has at least three types of negative effects"
+    },
+    "passives.7.response": {
+      "sourceHash": "d8fd581c885e5d99dc374186029011ddf864ece216c3f7b6e71bafda7dc6ffe0",
+      "text": "The enemy gains Power. Avoid concentrating attacks on Sinners with accumulated Bleed and debuffs."
+    },
+    "passives.8.name": {
+      "sourceHash": "33798f12b1a8c085fa2cc71dc704d3f45d7b5985c585dbe6c5e975aad7aaf022",
+      "text": "The Ring Nursefather's Artwork"
+    },
+    "passives.8.effect": {
+      "sourceHash": "0d0176572594892cd1f580960c72a094b481481da570c5e8b5bb4554e8ec4f6e",
+      "text": "If the main target has 3 or more types of negative effects, Final Power +1"
+    },
+    "passives.8.condition": {
+      "sourceHash": "9c007a93e99276d764a30179a34435dc1b05868e87107f449caf005354eaba4b",
+      "text": "Main target has at least three types of negative effects"
+    },
+    "passives.8.response": {
+      "sourceHash": "d8fd581c885e5d99dc374186029011ddf864ece216c3f7b6e71bafda7dc6ffe0",
+      "text": "The enemy gains Power. Avoid concentrating attacks on Sinners with accumulated Bleed and debuffs."
+    },
+    "passives.9.name": {
+      "sourceHash": "7ff29463185e7a3261993739f7019c8b32b9330192974fded23f2880b0228040",
+      "text": "Fascia, My Precious Artwork"
+    },
+    "passives.9.effect": {
+      "sourceHash": "6376f68e08547346653176017fce525750e686a6875ed2ab77ec5f02697ffbce",
+      "text": "At Turn End, if Corpus Ingredient is at 2, remove it next turn and gain Artwork: Fascia.\n\nAt Turn Start with Artwork: Fascia, use a powerful attack this turn.\n\nBefore using that attack, when damaged by an Attack Skill, gain 1 Plus Coin Drop and 1 Power Down (once per skill, up to 3 times per turn)."
+    },
+    "passives.9.condition": {
+      "sourceHash": "6e187abbb9623c10c8c2dc7e4629846b84ba0c2211f8f0fcd728d3942bf7eafa",
+      "text": "2 Corpus Ingredient; preparing a powerful attack"
+    },
+    "passives.9.response": {
+      "sourceHash": "77aaee1cff1c8e7b1897da27baebbc5915d6d8906062b529e7a1246ca25fac10",
+      "text": "The weakening method changes depending on whether Albina is armored. Check her current form."
+    },
+    "passives.10.name": {
+      "sourceHash": "c8c7b3e87c7256c338a46b8fe279bf5381a909aa58123351e9a8ef18f729cc72",
+      "text": "Visitors Must Respect the Rules of the Gallery"
+    },
+    "passives.10.effect": {
+      "sourceHash": "23baf525c32cc33cccc833343fda27bf4eb49fd6f24ed3d9f7881f5b98d28985",
+      "text": "With Assist Defense active, reduce it by 1 at Clash Start (once per skill)"
+    },
+    "passives.10.condition": {
+      "sourceHash": "4b8a9d21848933d9d385e0aa466b36e0f00972959c66e14fda2cd186c6cb542d",
+      "text": "Clash Start with Assist Defense active"
+    },
+    "passives.10.response": {
+      "sourceHash": "228bb84603a45bcd70884a7887acca8d4fc263096eb52d29f28fb625b55dc7ea",
+      "text": "Have the fastest Sinner clash with Albina directly and exhaust her assistance before attacking Callisto."
+    },
+    "passives.11.name": {
+      "sourceHash": "901fc98073b8a40f044bd92fd6916ce5991a40f445f5ffa3eecef2149934e7e8",
+      "text": "Corporism"
+    },
+    "passives.11.effect": {
+      "sourceHash": "3f3964aef8f75cfdf5e226b39b2718defe76155912f059eff19d9a30cf154fe0",
+      "text": "On an Attack Skill hit, if the user inflicts a negative effect and gains a positive effect simultaneously, heal 4 SP.\n- If this recovery occurs at max SP, gain 1 Haste next turn (up to twice per turn)."
+    },
+    "passives.11.condition": {
+      "sourceHash": "d9f4fed49b3a3e4349e3b09614dc481df93ddfcedf117aa5589751377ea9ad8b",
+      "text": "Hits that both inflict a negative effect and grant a buff"
+    },
+    "passives.11.response": {
+      "sourceHash": "968bb0b84b8b259bdd765700c684f560014716968c5b33267e4c07d84bdfd5d6",
+      "text": "Allowing hits also restores SP. Use resistance and healing to handle Coins that remain after a clash win."
+    },
+    "passives.12.name": {
+      "sourceHash": "8b64f9d98b310dcd80f0e47efdb056b68cf962805d737e1aa383543d6d7aad12",
+      "text": "The Pulse and Beat of Corpus-turned-Ingredient"
+    },
+    "passives.12.effect": {
+      "sourceHash": "366ab6d1fbad599a5031042c1360bd47768098e1c1e4bb527ca6b0266482cc68",
+      "text": "HP damage, SP damage, and Stagger Threshold advancement from Burn, Tremor, Rupture, and Sinking are reduced by 30%.\nBleed damage taken is reduced by 50%.\n\nAt Turn End, gain 1 Defense Level Down next turn per 4 Burn on self (max 15).\n\nFascia, made from Albina's blood and flesh.\nAlbina has only her brain left, while Fascia lacks only a brain.\nThis poses the question of which one truly possesses the body."
+    },
+    "passives.12.condition": {
+      "sourceHash": "6360468e0282698cc7a0152878c2f0c4109aea4903c40daef3b00583b6738369",
+      "text": "Status effects and Burn"
+    },
+    "passives.12.response": {
+      "sourceHash": "eb6c6989f768255606eae1724ff5e507418b88f7d714f71ef5414d09263d4a91",
+      "text": "Burn works well with the NPCs and lowers Defense Level, but prioritize required clashes and removing assistance."
+    },
+    "passives.13.name": {
+      "sourceHash": "40f24b46b673bf9598cd77ae175b34aa0291bdb56e42d7f3c05db8129c5e6810",
+      "text": "With this Artwork, I will Prove Myself before the Maestro"
+    },
+    "passives.13.effect": {
+      "sourceHash": "474b1da658829c8880067c056243fbadc6762a5730bdfeecb56e92f32d86d9ba",
+      "text": "When the Ring Nursefather appears, if the user's SP is below 20, set it to 20"
+    },
+    "passives.13.condition": {
+      "sourceHash": "0a18c6c87f8d7b7b7849dfce1c29a536f22ecdaa2dcccedd12100ed49d08d317",
+      "text": "When Callisto enters"
+    },
+    "passives.13.response": {
+      "sourceHash": "79f549639df4c528b29c2107314683e7f6610d744c9d2b74770b13067ed248ff",
+      "text": "Albina's SP returns to 20 if it is lower. Do not use her first-half SP for predictions."
+    },
+    "passives.14.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.14.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.14.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.14.response": {
+      "sourceHash": "396a2650d0d798551428608a0fc8738579cbf81c2a2cd408c8724dd25f819057",
+      "text": "SP returns to 0. Maintaining Panic alone is not a complete strategy."
+    },
+    "passives.15.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.15.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.15.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.15.response": {
+      "sourceHash": "e819d9941fc265554603757af7e85e0fe0b84e19de1c52336d334b2bf1134ff5",
+      "text": "Do not assume changing Panic Type will disable dangerous skills."
+    },
+    "passives.16.name": {
+      "sourceHash": "93028fd00244795b4a31111aa0840e7ca1dd433128e4183df2aa6f935d257de7",
+      "text": "Magnum Opus: Tibia"
+    },
+    "passives.16.effect": {
+      "sourceHash": "95787a66fbb97af8f5be1c970e42ba87cf5854bd0c14e3f02b13a30118940d37",
+      "text": "At Turn End, with 206 Corpus Ingredient (Bones) and 5 Corpus Ingredient (Blood), consume both amounts and gain 1 Artwork: Tibia.\n\nAt Turn Start with Artwork: Tibia, use a powerful attack this turn.\n\nWhen damaged by an Attack Skill while preparing to use the powerful attack, gain 1 Plus Coin Drop and 1 Power Down (once per skill, up to 3 times per turn).\n\nTibia: a masterpiece carved and completed by pouring in every part of her own body."
+    },
+    "passives.16.condition": {
+      "sourceHash": "ab82b431ef03942fb88417647223041aa799d66a609bca92423c4baad025f328",
+      "text": "206 Bones, 5 Blood, and preparation for a powerful attack"
+    },
+    "passives.16.response": {
+      "sourceHash": "61c4bd3f003acbb2e30a1b83e04a3fafcc905b31860d030d0990973343765222",
+      "text": "When Tibia's Melody appears, prepare three separate early attacks and the NPC's clash."
+    },
+    "passives.17.name": {
+      "sourceHash": "2f5b61717e3194048df299bced08757fefba2bae433c6729eaf0dffa6d082ccf",
+      "text": "Allow Me to Briefly Enjoy My Pupil's Exhibition"
+    },
+    "passives.17.effect": {
+      "sourceHash": "23baf525c32cc33cccc833343fda27bf4eb49fd6f24ed3d9f7881f5b98d28985",
+      "text": "With Assist Defense active, reduce it by 1 at Clash Start (once per skill)"
+    },
+    "passives.17.condition": {
+      "sourceHash": "4b8a9d21848933d9d385e0aa466b36e0f00972959c66e14fda2cd186c6cb542d",
+      "text": "Clash Start with Assist Defense active"
+    },
+    "passives.17.response": {
+      "sourceHash": "13de2ed1e21a34c4ff5a42c3e1469722d39334649bf94761f5c101e494fbcefe",
+      "text": "Clash with Callisto directly to reduce Assist Defense and let early attacks reach Albina's major skill."
+    },
+    "passives.18.name": {
+      "sourceHash": "9230b08e8f3a4989aa638705fec7fab2b7bd753a464b41d9820711b2162a6268",
+      "text": "The Aesthetics of Harvesting and Trimming the Ingredient On-site"
+    },
+    "passives.18.effect": {
+      "sourceHash": "f577508605a67431fae76c566ed068d38f0bb516f9d2300ada180489459d20f9",
+      "text": "At Skill End, if the skill dealt damage, gain 30 Corpus Ingredient (Bones) and 1 Corpus Ingredient (Blood) per target"
+    },
+    "passives.18.condition": {
+      "sourceHash": "be2e907b324017b5b7ed74793c19d53fd4b0ecd4ad9aa9d679e0fc41eda1da62",
+      "text": "End of a skill that dealt damage"
+    },
+    "passives.18.response": {
+      "sourceHash": "d8657602006ba3f0e1416d3124b54a716e6b1299f1067bc04efdcd0b858c7bb3",
+      "text": "Hits supply ingredients. Stop dangerous skills and check preparation for major attacks every turn."
+    },
+    "passives.19.name": {
+      "sourceHash": "b323755918d3e34acde04ad163762c6957bf61918f412ad78193d4f32b89d7d3",
+      "text": "Please, Do Stop Running and Be Seated"
+    },
+    "passives.19.effect": {
+      "sourceHash": "6556a88f4b5317d4606d402efd9795203b413112d465196ad88e13c50c140742",
+      "text": "At Turn End, inflict Ingredient-shedding Wound next turn on the fastest Sinner and assistant"
+    },
+    "passives.19.condition": {
+      "sourceHash": "830b7daf4e71bea2cbdbe02a966e8b1c7e925f5fd41d1b019d65af3c3df32e2f",
+      "text": "Fastest allies at Turn End"
+    },
+    "passives.19.response": {
+      "sourceHash": "95101aa9f67f1ded7bf69de76fa812aa2317da9e9b521ac91a1221d0ed02784b",
+      "text": "Fast Sinners receive Offense Level Down. Check whether early attackers can still win required clashes."
+    },
+    "passives.20.name": {
+      "sourceHash": "d758df156940380a90f357d1878a1fe38ec4d6e9eef3cef55e301f5986293e59",
+      "text": "Corpus-centric Art"
+    },
+    "passives.20.effect": {
+      "sourceHash": "cfeea6da9464f479508cfb2a4b94a9ba083d5ce210e5eceb2bd8ae3623be23a8",
+      "text": "On entry, heal 30 SP.\n\nOn an Attack Skill hit, if the user inflicts a negative effect and gains a positive effect simultaneously, heal 4 SP at Attack End.\n- If this recovery occurs at max SP, gain 1 Power Up next turn (once per turn).\n\nAn art that shapes combat using the opponent's bones and muscles as on-site materials. As the process continues, even small bone fragments become increasingly intricate weapons."
+    },
+    "passives.20.condition": {
+      "sourceHash": "453515fc685d93eb191a66766c848c426b970a3ae64e0f035180a758b040be40",
+      "text": "On entry and buffs from hits"
+    },
+    "passives.20.response": {
+      "sourceHash": "e63bc229ca4c53e243668de361189fae93714e439781bb47224d0c43ad53d84e",
+      "text": "Starts at 30 SP. Check current SP as well as the base values."
+    },
+    "passives.21.name": {
+      "sourceHash": "341a930cac765a4655ffe0f4585b8ddb0d51c43f79e230c558f3b06b65ddde74",
+      "text": "All of My Corpus has been Given to Tibia"
+    },
+    "passives.21.effect": {
+      "sourceHash": "0749c72a63b5ccf3c3c336f5a6e787048ee3abb911f37ba14c8db7e82501b566",
+      "text": "HP and SP damage from Burn, Tremor, Rupture, and Sinking are reduced by 30%.\nBleed damage taken is reduced by 50%.\n\nAt Turn Start, if Staggered, clear Stagger. Then gain 2 Wrath Fragility and disable Installation Art no. 3: Improvised Ribcage through the next turn (once per encounter).\n\nAt Turn End, gain 1 Defense Level Down next turn per 4 Burn on self (max 15)."
+    },
+    "passives.21.condition": {
+      "sourceHash": "777673d8f3b2075c75d1163951dc258e30a2044ea114cec25c0fbe5e94a89e0e",
+      "text": "Status effects, Stagger, and Burn"
+    },
+    "passives.21.response": {
+      "sourceHash": "9bcc7d1e52164fb1534c0f42e57bcacd8fc60073679e7f22f597fe2afb9ac70e",
+      "text": "The first Stagger is cleared. Use Burn to lower Defense Level, but check actions after Stagger is cleared too."
+    },
+    "passives.22.name": {
+      "sourceHash": "9504c10cd76848bbe7b0161f94ac7d2933c46e2b719f29186764fc6dcf91e8dd",
+      "text": "Artwork Pleasing to the Senses"
+    },
+    "passives.22.effect": {
+      "sourceHash": "a559667b9416fc40856e66eae1d728a7477cb0c7f44aa820624dd01e6105054e",
+      "text": "When Artwork: Tibia expires, heal the following units for 30 SP and grant them 2 Offense Level Up and 2 Defense Level Up next turn:\n- The Ring Nursefather - Callisto\n- The Ring Apprentice - Albina\n- Corpus Theater"
+    },
+    "passives.22.condition": {
+      "sourceHash": "8f0a88de4c5acd30779c837c22fd30a3545097abf8f7adf76c66a915b7c0bcde",
+      "text": "Artwork: Tibia expires"
+    },
+    "passives.22.response": {
+      "sourceHash": "d3066d68892b5d370a9885a26a73bafaea42bd3f37f444874f80a47633ed442c",
+      "text": "The major attack is followed by enemy SP recovery and Offense/Defense Level buffs. Prepare for the next regular skills too."
+    },
+    "passives.23.name": {
+      "sourceHash": "32ead9697e8ad75037d8b142b7d3356b79f1e8d3f241d52849db6dcfd8cb338b",
+      "text": "Transcend the Corpus"
+    },
+    "passives.23.effect": {
+      "sourceHash": "481143526b2b63c85d45396b4460396b875558b7c3442cb0631d764909cd3f40",
+      "text": "If HP falls below 50%, clear Stagger and end the turn.\n- At the start of the next turn after this effect activates, equip Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats in the last slot."
+    },
+    "passives.23.condition": {
+      "sourceHash": "0077cc6615128450788cc237df88e3b92399133ce5a808a6b4ad3efe8def47ad",
+      "text": "Callisto below 50% HP"
+    },
+    "passives.23.response": {
+      "sourceHash": "ff9c4d4c7df4ce459afe95a5f3834322543032a4f2fbc8321a02bcd4d6870841",
+      "text": "Clears Stagger, immediately ends the turn, and proceeds to Closing Time. Continue to Alisa's ending event instead of trying to reduce HP to 0."
+    },
+    "passives.24.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.24.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.24.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.24.response": {
+      "sourceHash": "396a2650d0d798551428608a0fc8738579cbf81c2a2cd408c8724dd25f819057",
+      "text": "SP returns to 0. Maintaining Panic alone is not a complete strategy."
+    },
+    "passives.25.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.25.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.25.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.25.response": {
+      "sourceHash": "e819d9941fc265554603757af7e85e0fe0b84e19de1c52336d334b2bf1134ff5",
+      "text": "Do not assume changing Panic Type will disable dangerous skills."
+    },
+    "passives.26.name": {
+      "sourceHash": "a728c0d6b248ec5295e599bf0ccaac07a453c48e9e0184e0a6c9c88609d40289",
+      "text": "Ingredient Harvest"
+    },
+    "passives.26.effect": {
+      "sourceHash": "300257f71e862833f7f45dec12984a56bc00f482924eddefa27b5f66c6adb860",
+      "text": "If the Ring Nursefather defeats Corpus Theater, its linked character is incapacitated"
+    },
+    "passives.26.condition": {
+      "sourceHash": "dcebbb6df1e2a233a896939d3bf2d8e408fb839b5595a7616a7cb2952f589f1e",
+      "text": "Callisto defeats Corpus Theater"
+    },
+    "passives.26.response": {
+      "sourceHash": "d6dd2eb225b20eb9d1e37483ae3549a18be4a9ddfbba7e278e8bcc148576ccca",
+      "text": "The captured ally is incapacitated. Have a Sinner or NPC destroy it first."
+    },
+    "passives.27.name": {
+      "sourceHash": "aac22aa536fa53d9657687d0db5425d84abba40ad5e94d70e319d6c6b97b37d2",
+      "text": "Escape from the Art"
+    },
+    "passives.27.effect": {
+      "sourceHash": "0a04560083890c2e450350b9a4c866f7054a6c5b0f2982466b4ecc1279f93651",
+      "text": "If anyone other than the Ring Nursefather defeats Corpus Theater, apply the following:\n- Its linked character returns next turn; if their SP is below 10, set it to 10.\n- Lower the Ring Nursefather's and Ring Apprentice's SP by 10.\n- Gain 2 of every E.G.O resource."
+    },
+    "passives.27.condition": {
+      "sourceHash": "5ee96b4bee6acb7d2f9c72bc8ca5578f67c630e313a1877f05d2d0bf749b406a",
+      "text": "Someone other than Callisto defeats Corpus Theater"
+    },
+    "passives.27.response": {
+      "sourceHash": "5d89fdd791d3d4ac0b401ae794dbb796e975ec227312d7c4f0c9e6f703656158",
+      "text": "The ally returns next turn, and you gain 2 resources of every affinity. Avoid wasting too many actions on the same rescue as Alisa."
+    },
+    "passives.28.name": {
+      "sourceHash": "62d3a18e3693a1dbf6c173fa1058bba646fdc324a95bc3910bc1d5c9f10dc6f6",
+      "text": "Flammable Material"
+    },
+    "passives.28.effect": {
+      "sourceHash": "53837bb47f362deb36e93ea0303a4ec2829b5be56baccac04969d1776a8de600",
+      "text": "Take twice as much Burn damage"
+    },
+    "passives.28.condition": {
+      "sourceHash": "e2bdf8658b0ceb1ff55f8c30a821e1212d1948b4a840bf50c7da4ecf773326d9",
+      "text": "Burn on Corpus Theater"
+    },
+    "passives.28.response": {
+      "sourceHash": "b31cd414cfffe035d4fb8747a7948a045eb72d71b0b490aff5425c8148d1e0b0",
+      "text": "Takes double Burn damage. Use it to help Alisa rescue allies."
+    },
+    "passives.29.name": {
+      "sourceHash": "265e46ca42c055b5b5e9073c1431f313ac51f6dc7dc02422929ba2ea1f259dbd",
+      "text": "Bondage"
+    },
+    "passives.29.effect": {
+      "sourceHash": "10b1c8273087e8ff9b298fe1946f1cf2198b72ed6f9def825433d635a4e71e62",
+      "text": "Apply the following to the character linked to Corpus Theater:\n- Cannot act.\n- Buffs, HP, and SP do not update."
+    },
+    "passives.29.condition": {
+      "sourceHash": "db43fc4c30894397a30fd061adb8649304806c9fead2ba4188ac4d6eda55d64d",
+      "text": "While trapped in Corpus Theater"
+    },
+    "passives.29.response": {
+      "sourceHash": "8e9f842e3c35f912f29dad189cd53b8ae725321c54db8f40940e1244d7e2f297",
+      "text": "The captured character cannot act. Rescue them with the remaining Sinners and NPCs."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "60d7f1592903874fe706199ac15bcb573071b84ead1f5a2b94219ed9347e4afe",
+      "text": "K Corp. Emergency Ampule"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "8163999a1522184f57220da65e331769d023e79162f41b3bcfe39ca099342e39",
+      "text": "When taking lethal damage while another ally is alive, clear Stagger and fully restore HP. Every ally's remaining Ampule count decreases by 1 simultaneously."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "fc869d43971a327e0549cfa4234b58deab0a04aa2db46ac3665a6b7fb7961682",
+      "text": "Everyone shares the initial five uses. They are also needed to revive NPCs; this is not five uses per Sinner."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "cc782e7d7a8c7bbfd7e8bfe8bf399b6f60013030cf250d9d0aa86c79d2c6b590",
+      "text": "Dazzle"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "ce1299600157abfde788acd91af6af84f9828d6e53f3e235e32132c0ee9c182b",
+      "text": "While not Staggered, the final attack slot cannot be redirected and prioritizes Hohenheim. Expires at Turn End on the turn it activates."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "a8b31a72a91d165dae7c7afef4c85fdcaeed205a0d33c89df8336dab4b2b4c81",
+      "text": "Check the NPC's clash and have Sinners weaken the enemy with earlier attacks."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "762722b07707a4b303cafa0d1da1760b2794216336b83964c83b2f25661a40a2",
+      "text": "Automated Myofiber Activity"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4c8ecb2e9cc331ca55d1071712085da999718ff0c400596314d1606c10671cbb",
+      "text": "Maximum 2. Damage +15% per stack. At 2, convert all attack Coins to Unbreakable at Combat Start. Expires at Attack End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "f5e36bd85b069ec06bce5efd849759df6c6166276232c5060eeacbb40b4ea477",
+      "text": "Resolve the Sloth skill before Liberation of Bones to consume the damage buff."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "d39439572403a11f2ec84c75b00d6a70bb45e3e5a4ce8986c13fe834cb80d6dd",
+      "text": "Impact-rattled Armor"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "9205d57ee3ad39fb10a23e18bde247a8caf7440d7d52ffa63ccdac3471bd30f4",
+      "text": "Before Repressed Flesh is used, taking damage from an Attack Skill grants 1 stack, once per skill, up to 3. Each stack lowers that skill's Final Power by 10."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "f6e1a1cc8c30678e13d5ad530785ccaa57cd105c120e4c8edfd45a7fece97333",
+      "text": "Build stacks with three separate attacks, rather than one three-Coin skill."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "36e1f4c3024fcc2d9bfc3b12d1182f6808a67676919cd6606c2bf1db910eaf6a",
+      "text": "Corpus Ingredient"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "4492517526cfbad68bc8c27c045e9006427742e9fd6ab63d5f6f7b2f3f2070d8",
+      "text": "Maximum 2. Albina gains it through hits and other effects, then uses it to prepare Artwork: Fascia."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "1fab0147e7e496e80e44d84f59d6041e775b13980ab3fd9c77c0d55b0ff9db67",
+      "text": "Hits from Unbreakable Coins also add ingredients. Prepare early attacks for the next major skill."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "7f6ecabcdde60b211c55da7fb652c5c914a29094d4a522fffdf0b465046b7a64",
+      "text": "Artwork: Fascia"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "5a8c83abce14c696ab71e4b5b45de4194c0bdfb108664989771a2f9cc1c894fd",
+      "text": "At Turn Start, gain 4 Base Power Up. Attack Skills that inflict Bleed inflict 2 additional Bleed Potency. Expires after the major attack."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "4920532aa8d9045e496a4d587796a38055adc2969e7a31d689fd6fabc7f41c49",
+      "text": "Account for the buff on top of the listed base values. Early attacks apply different debuffs in the first and second halves."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "2858a8278e0d59fbfe4ad0e999e706b0fd3971dec4945eefaf0a64e76b65ae49",
+      "text": "Corpus Ingredient (Bones)"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "fbc6017a6e37def521a05ff8003e4c1978db4f72a9130ccd239ab4aabf1cc48a",
+      "text": "Maximum 206. Gained at the end of skills that deal damage and through other effects. With 5 Blood and 206 Bones, prepares the next Artwork: Tibia."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "a5e8edead15c62992d8107556ac83a7b8d2b055751ee02c9f5527799db2849d8",
+      "text": "Stop Callisto's regular skills, then land early attacks when the major skill appears."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "6100dfc515e3c04eab4c6b70b0ab588abcc7a8f39e57f5a0a001fecf8e6aba6e",
+      "text": "Corpus Ingredient (Blood)"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "ecf429514d86f04b41fd1eb902e87fe66614d2624399ae5834993bfc37b28034",
+      "text": "Maximum 5. Gained at the end of skills that deal damage and through other effects. Used with Bones to prepare the major attack."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "63e5ed4b5d4a2ffe408eb08fe542520d038207ef7b7c92f880f90af5906605b3",
+      "text": "This is separate from Albina's Corpus Ingredient, which caps at 2."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "849961dc160a717b7340ff2583d86fb2581e915b2762b19171a30acdbe8094c1",
+      "text": "Artwork: Tibia"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "5adcf6ad1b5535e808e985d58b881a749fd8b620f202f4a9989b72483672dba8",
+      "text": "At Turn Start, gain 4 Power Up and 2 Slash Power Up. Attack Skills that inflict Bleed inflict 2 additional Bleed Potency. Expires after the major attack."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "e49b98d491decdae08e8c54909e39ce1f16de4bd64a7aad0f245656d76f54ec8",
+      "text": "Do not judge from Base Power alone. Weaken the skill with early Sinner attacks before the NPC clashes with it."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "a1ccc3c8cd6c1b293f05d054df742c4fff5814405b8fba6a8fcddcefc0a22b21",
+      "text": "Viewing the Tableau"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "ecd860b407b4db7f23a0c9eaea56145281866c2f9aca2d02833fa74430c90f8a",
+      "text": "Base Offense and Defense Levels −20. At Turn Start, gain 7 Protection if Albina can fight."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "a8c2c61ac4a8b9373c676c1015b8c03a2deb8561a5fe89df5ca91c20fe75fe48",
+      "text": "The table includes the fixed level reduction. Defeat Albina first in the second half to stop Protection."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "82b37eed27e739bf9890f6a3f8706009cdeb0847c2949007b566ef523dc046c0",
+      "text": "Ingredient-shedding Wound"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "dad74ed40d649f4da1089b1348538920dce3c1ea484ecbeabc373ec524ace884",
+      "text": "On Skill Use, gain 2 Offense Level Down, up to three times per turn."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "0a5f597321f60e87f87391ffd000b7117e82ed8bcc6adefe3b653f28d1888ef0",
+      "text": "Lowers the fast Sinner's clash Power. Check predictions for the Sinner removing assistance too."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "a20c0be1b85dfda8a418f75992cfc905b52ba5b6269032f41ff54a9f00724f09",
+      "text": "Corpus Theater"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "034cc767f7c317a05236020ff710067bedf1ab0ec97c6dbdeb90c6a0a7be77ca",
+      "text": "The captured ally cannot act, and HP, SP, and other values stop updating. A corresponding enemy unit appears."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "b03723756c606a096c50503e2b28abcf35be5c4e26f73510d15589ba5e5e5995",
+      "text": "Have someone other than Callisto defeat it to rescue the ally, then wait for their return next turn."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "4fa141f88d3aebd3635c9a3ed47639f604ed8d7288ca7930005ce171714c0071",
+      "text": "The Exhibition is Complete!"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "172def60970cf884222afda91f321946e07431903282dc4a9b2b1953afea7e67",
+      "text": "You lose if all Sinners and assistants become Corpus Theater."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "6b92fafe3ea6f354e8748d6b5a6ce25338093cdd164deea69bafec0469fa5f6d",
+      "text": "Keep Alisa able to rescue allies. The late Closing Time event leaves Alisa free and leads into her last resort."
+    },
+    "warnings.0": {
+      "sourceHash": "54dda233a8f864decce2a240386dfafd0d017480083d8e3fc71d2ea60156a39c",
+      "text": "You lose if both NPCs die. Remaining Ampules are shared by everyone, rather than being individual use counts."
+    },
+    "warnings.1": {
+      "sourceHash": "33da475008aadb4e10b01106641a989cb30c619290cf85836db8bc60d236ad55",
+      "text": "Major attacks are weakened differently in the first and second halves. Distinguish −30 Final Power from three Armor stacks from the later Plus Coin Drop and Power Down."
+    },
+    "warnings.2": {
+      "sourceHash": "d7d29f2690905f53d031fc13d31dda06dde5cb724e83ce2c3bfa16b1b167db33",
+      "text": "Clash directly with the enemy that has Assist Defense first. Simply assigning unopposed attacks to the major skill's user lets them be intercepted."
+    },
+    "warnings.3": {
+      "sourceHash": "62118a0c63234f084f17ae5452c00c0fbc39129aab87cbd0f671b575e4d27735",
+      "text": "Do not let Callisto defeat Corpus Theater; the captured ally will be lost."
+    },
+    "warnings.4": {
+      "sourceHash": "8c198d2be2e1ad376fb42d08994ecc2d58e8699a42d82fe539211026670ec7b4",
+      "text": "Resistances, Protection, and actions differ from the 9-43 event battle and the hidden Mirror Dungeon boss."
+    },
+    "preparation.0": {
+      "sourceHash": "2314845330beaac2137e5fc69e88683b9c6b24c04fe2a2eb9549e1d57d10031e",
+      "text": "Recommended Lv. 60 with Faust, Sinclair, and Ishmael. Bring HP/SP recovery and strong regular skills or E.G.O."
+    },
+    "preparation.1": {
+      "sourceHash": "b5472fcb784bf356c4f255820f489a1e0d0fe167fa3bb9a6c8b984c58648d73c",
+      "text": "NPC Burn is useful, but prioritize early attacks and removing assistance. Blunt, Sloth, and Gluttony damage are effective."
+    },
+    "roles.0.name": {
+      "sourceHash": "e6c84ea2d9607f9350bc713aac8b4f921abf311fc21f0eed1c1a68841080bb4d",
+      "text": "Early clashes to reduce Assist Defense"
+    },
+    "roles.0.reason": {
+      "sourceHash": "801e8d9615697e1e8102233c79267a26c9865f18b6ad6edf3c1cf618754a946d",
+      "text": "Keep attacks meant for the major skill's user from being intercepted by the other enemy."
+    },
+    "roles.1.name": {
+      "sourceHash": "74a6830edab3d1a1c2ed6b66873a4918a499a783c080cb24a1cb1b42b4014a84",
+      "text": "Early attacks against the major skill's user"
+    },
+    "roles.1.reason": {
+      "sourceHash": "860d4432228fc33941dd6cdb6211fcb90e80daeb67e8bbd55109cd0ddc37b020",
+      "text": "Use separate attacks to weaken the skill enough for the NPC to win."
+    },
+    "roles.2.name": {
+      "sourceHash": "0e4d3cf474d24292ffddbd6f7d2d6c9d24e7cade250427479539539dd9acfd1c",
+      "text": "Healing and rescue support"
+    },
+    "roles.2.reason": {
+      "sourceHash": "73486a4acb9484b8783f202ea07f9aade7c733919155b56136c68d88b867d698",
+      "text": "Prevent the NPCs and Sinners from all dying or being trapped, and spend resources on healing."
+    }
+  },
+  "messages": {
+    "boss-copy:albina-callisto": "complete",
+    "【リンバス】9-37 アルビナ・カリスト（9-37）の攻略｜Limbus Assistant": "9-37 Albina & Callisto (9-37) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-37「アルビナ・カリスト（9-37）」の攻略。ホーエンハイム・アリサとの共闘。大技は囚人の先行攻撃で弱めてからNPCに受けてもらう。後半はアルビナを先に戦闘不能にし、カリストの保護と援護防御を減…": "Albina & Callisto (9-37) guide for Limbus Company 9-37. Fight alongside Hohenheim and Alisa. Weaken major attacks with Sinner attacks before the NPCs clash with them. In the second half, incapacitate Albina first to reduce Callisto's Protection and Assist Defense.",
+    "9-37 アルビナ・カリスト（9-37）": "9-37 Albina & Callisto (9-37)",
+    "9-37「The Ring」": "9-37 · The Ring",
+    "アルビナ・アイアンメイデンの外見": "Albina · Iron Maiden appearance",
+    "アルビナ・アイアンメイデンのスキル": "Albina · Iron Maiden skills",
+    "Albina · Iron Maidenの外見": "Albina · Iron Maiden appearance",
+    "Albina · Iron Maidenのスキル": "Albina · Iron Maiden skills",
+    "薬指身体派自動人形 - 研究員の外見": "The Ring Corporist Automanikin - Researcher appearance",
+    "薬指身体派自動人形 - 研究員のスキル": "The Ring Corporist Automanikin - Researcher skills",
+    "The Ring Corporist Automanikin - Researcherの外見": "The Ring Corporist Automanikin - Researcher appearance",
+    "The Ring Corporist Automanikin - Researcherのスキル": "The Ring Corporist Automanikin - Researcher skills",
+    "薬指身体派自動人形 - 戦闘員の外見": "The Ring Corporist Automanikin - Combatant appearance",
+    "薬指身体派自動人形 - 戦闘員のスキル": "The Ring Corporist Automanikin - Combatant skills",
+    "The Ring Corporist Automanikin - Combatantの外見": "The Ring Corporist Automanikin - Combatant appearance",
+    "The Ring Corporist Automanikin - Combatantのスキル": "The Ring Corporist Automanikin - Combatant skills",
+    "薬指の親方 - カリストの外見": "The Ring Nursefather - Callisto appearance",
+    "薬指の親方 - カリストのスキル": "The Ring Nursefather - Callisto skills",
+    "The Ring Nursefather - Callistoの外見": "The Ring Nursefather - Callisto appearance",
+    "The Ring Nursefather - Callistoのスキル": "The Ring Nursefather - Callisto skills",
+    "アルビナ・甲冑解除後の外見": "Albina · Armor Removed appearance",
+    "アルビナ・甲冑解除後のスキル": "Albina · Armor Removed skills",
+    "Albina · Armor Removedの外見": "Albina · Armor Removed appearance",
+    "Albina · Armor Removedのスキル": "Albina · Armor Removed skills",
+    "身体観劇の外見": "Corpus Theater appearance",
+    "身体観劇のスキル": "Corpus Theater skills",
+    "Corpus Theaterの外見": "Corpus Theater appearance",
+    "Corpus Theaterのスキル": "Corpus Theater skills"
+  }
+}

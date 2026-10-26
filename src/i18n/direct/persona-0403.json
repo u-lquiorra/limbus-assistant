@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0403.md",
+  "code": "0403",
+  "messages": {
+    "出血回数を大きく増やして出血編成を支える人格。速度が低めなので、味方がマッチを取った敵に後から一方攻撃して出血回数を積むのが理想の動き。": "An Identity that supports Bleed teams by adding substantial Bleed Count. Her relatively low Speed favors landing unopposed attacks after allies have taken the clashes, adding Count to those enemies.",
+    "出血回数の付与: S2「後始末」のⅡコインで出血回数1/3増加、S3「雲の撹乱」のⅡコイン的中時に出血回数3増加。出血威力はS2のⅠコイン的中時・S3のⅠコイン表面的中時に2付与。": "**Inflicting Bleed Count**: Coin Ⅱ of S2 Clean Up increases Bleed Count by 1/3, and Coin Ⅱ of S3 Lenticular Swirl increases it by 3 on hit. She inflicts 2 Bleed Potency on Coin Ⅰ hit of S2 and on Coin Ⅰ Heads Hit of S3.",
+    "低めの速度: 速度2~5/2~6/3~6。先に動く味方の後から一方攻撃を入れやすい。": "**Lowish Speed**: Speed 2–5/2–6/3–6. It is easy for her to land one-sided attacks after faster allies act.",
+    "敵のスキルを弱めるデバフ: S1「発勁」のⅠコインで麻痺1/3(1ターンの間、数値の枚数分のコイン威力を0に固定)、S2のⅡコイン表面的中時にダメージ量減少2、S3のⅡコイン的中時に攻撃レベル減少5。麻痺はコイン威力がマイナスのスキルには逆効果。": "**Debuffs that weaken enemy skills**: Coin Ⅰ of S1 Focus Strike inflicts 1/3 Paralyze (fixes the Coin Power of that many Coins to 0 for 1 turn), Coin Ⅱ of S2 inflicts 2 Damage Down on Heads Hit, and Coin Ⅱ of S3 inflicts 5 Offense Level Down on hit. Paralyze backfires against skills with negative Coin Power.",
+    "出血回数で強化: 対象の出血回数がS1は2以上でダメージ量+20%、S2は5以上で+20%、S3は9以上で+40%。S1の条件は満たしやすい。回数を多く求めるS2・S3の強化は鏡ダンジョン以外では狙いにくい。": "**Bonuses from Bleed Count**: +20% damage for S1 if the target has at least 2 Bleed Count, +20% for S2 at 5 or more, and +40% for S3 at 9 or more. S1's condition is easy to meet. The S2 and S3 bonuses demand high Count and are hard to reach outside the Mirror Dungeon.",
+    "パッシブ: バトルパッシブ「黒雲刀」(色欲×3・共鳴・同期化Ⅱで取得)は出血の敵への与ダメージ量+10%。サポートパッシブ「切り込み隊長」(色欲×4・保有・同期化Ⅲで取得)は速度が最も高い味方1名の出血付与値+1。": "**Passives**: The combat passive Kokuuntō (3 Lust Resonance; unlocked at Uptie Ⅱ) gives +10% damage against enemies with Bleed. The support passive Muscle in Charge (4 Lust Owned; unlocked at Uptie Ⅲ) gives +1 to the Bleed inflicted by the 1 fastest ally.",
+    "出血編成に入れ、味方が出血を入れたりマッチを取ったりした敵に、S2・S3を一方攻撃で当てて出血回数を伸ばす。S3の攻撃レベル減少は後続の味方のマッチも助ける。単独の火力は控えめなので、自分で削るより、編成全体の出血ダメージを伸ばす役と考えて使う。": "Put her in a Bleed team and land S2 and S3 as one-sided attacks on enemies that allies have already bled or Clashed with, extending Bleed Count. S3's Offense Level Down also helps the Clashes of allies who follow. Her own damage is modest, so use her as a role that raises the whole team's Bleed damage rather than one who wears enemies down herself."
+  }
+}

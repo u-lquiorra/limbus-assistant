@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0603.md",
+  "code": "0603",
+  "messages": {
+    "表面のコインで追加ダメージを出し、弱った敵を連続で仕留める人格。": "An Identity that deals bonus damage on Heads Coins and chains kills against weakened enemies.",
+    "出血: S1「首を切る」の表面的中時に出血を付与。S2「抉る」は対象の出血が7以上で与ダメージ量+20%。": "**Bleed**: S1 Throat Slit inflicts Bleed on Heads Hit. S2 Shank deals +20% damage if the target has at least 7 Bleed.",
+    "S2のⅢコイン: 敵の体力が25%未満のとき、表面的中で対象が生きていればコインを1回再使用。": "**S2's Coin Ⅲ**: When the enemy is below 25% HP, if the target is still alive after a Heads Hit, the Coin is reused once.",
+    "S3「滅多切り」: 1コインの大技(威力5〜30)。敵を倒すとスキルを1回再使用し、再使用時の表面的中でダメージ量が大きく上がる(対象の出血10以上でさらに増加)。": "**S3 — Mutilate**: A 1-Coin big hit (power 5–30). Defeating an enemy reuses the skill once, and a Heads Hit on the reuse greatly increases damage (more if the target has at least 10 Bleed).",
+    "バトルパッシブ「愉悦」(暴食×2・共鳴・同期化Ⅱで取得): 次のターン開始時に(暴食共鳴数×2)だけ精神力を回復。": "**Combat passive — Gaiety (2 Gluttony Resonance; unlocked at Uptie Ⅱ)**: Restores (Gluttony Resonance×2) SP at the start of the next turn.",
+    "精神力が高いほどコインの表面が出やすい(ゲームの一般仕様)ので精神力を高く保ち、S1で出血を積む。弱った敵をS2・S3で仕留めて再使用につなげる。": "Higher SP makes Heads more likely (a general game rule), so keep his SP high and stack Bleed with S1. Finish weakened enemies with S2 and S3 to chain into reuse."
+  }
+}

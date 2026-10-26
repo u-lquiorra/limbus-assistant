@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0506.md",
+  "code": "0506",
+  "messages": {
+    "充電回数を10以上貯めてS3「サイの突進」を撃ち、出血回数を一気に増やすのが本領の、硬い出血起点役。": "A durable Bleed enabler whose main payoff is building at least 10 Charge Count, then using S3 Rhino Ram to add a large amount of Bleed Count.",
+    "S3で出血回数を大量付与: Ⅰ・Ⅱコインはそれぞれ的中時に出血回数+1。さらに充電回数を2消耗して+1、3消耗して+1を得るので、充電10を使い切れば合計で出血回数+6になる。充電回数10以上ならコイン威力も上がる。": "**Mass Bleed Count with S3**: Coins Ⅰ and Ⅱ each add +1 Bleed Count on hit. They also spend 2 Charge Count for +1 and 3 Charge Count for +1, so using up 10 Charge gives +6 Bleed Count in total. Coin Power also rises at 10 or more Charge Count.",
+    "充電の獲得: S1「重い衝突」は使用時と的中時に計4、S2「壊す」は使用時と的中時に計8の充電回数を得る。守備「生体電流感応」はバリアがある間の被ダメージで充電回数を得る。": "**Gaining Charge**: S1 Weighty Bash grants 4 Charge Count in total on use and on hit, and S2 Demolish grants 8 in total on use and on hit. The Defense skill Bioelectricity Induction grants Charge Count when he takes damage while he has Shield.",
+    "硬さと挑発: 防御レベルは人格Lv+5。バトルパッシブ「rrR-#4スーツ加圧稼働」(嫉妬×5・保有・同期化Ⅱで取得)により、ターン開始時に充電回数5以上なら、最も右のスロットの挑発値+3。": "**Durability and Aggro**: His Defense Level is Identity Lv +5. Through the combat passive Activate rrR-#4 Suit Pressurization (5 Envy Owned; unlocked at Uptie Ⅱ), his rightmost slot gains +3 Aggro if he has at least 5 Charge Count at Turn Start.",
+    "速度強化(おまけ): 同じパッシブで、ターン終了時に充電回数5につき次のターンの速度最大値+2(最大6)。速度7以上ならS1のダメージ量+25%、S2の出血回数+1。ただし基本の速度は2〜5と遅く、狙って出すのは難しい。": "**Speed boost (minor)**: The same passive grants +2 maximum Speed next turn per 5 Charge Count at Turn End, up to 6. At 7 or more Speed, S1 deals +25% damage and S2 adds +1 Bleed Count. However, his base Speed is a slow 2–5, so it is hard to achieve on purpose.",
+    "サポートパッシブ「機動訓練」(嫉妬×5・保有・同期化Ⅲで取得): 控えにいる間、ターン終了時に充電回数が最も高い味方1名が、充電回数5につき次のターンの速度最大値+1(最大3)を得る。": "**Support passive — Maneuver Training (5 Envy Owned; unlocked at Uptie Ⅲ)**: While in backup, at Turn End, the 1 ally with the highest Charge Count gains +1 maximum Speed next turn per 5 Charge Count, up to 3.",
+    "S1・S2で充電回数を10以上貯め、S3で出血回数を一気に増やして、出血を扱う味方の火力の土台を作る。高い防御レベルと挑発値で攻撃を引き受けながら充電を貯められる。": "Build 10 or more Charge Count with S1 and S2, then use S3 to raise Bleed Count all at once, laying the groundwork for Bleed allies' damage. His high Defense Level and Aggro let him take attacks while building Charge."
+  }
+}

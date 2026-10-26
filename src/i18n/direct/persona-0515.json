@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0515.md",
+  "code": "0515",
+  "messages": {
+    "「引き裂かれた色彩」を5以上積んだ敵に強化S3「野獣派-出品作展開」を当てる出血・沈潜の人格。色彩を付与する薬指野獣派ドーセント ロージャとのセット運用が前提になる。": "A Bleed and Sinking Identity that lands enhanced S3 Le Fauvisme - Reveal Submission on enemies with at least 5 of Mauled Color. Designed to be paired with Ring Fauvist Docent Rodion, who applies that effect.",
+    "S3の強化条件: 自分の体力が50%未満か、対象の引き裂かれた色彩が5以上なら、コインが1つ追加されて全コインが破壊不能になる。追加コインは対象の色彩÷3だけ出血または沈潜威力を付与する。ロージャも[ルージュ]と[ブル]を付与するが、2色を合わせて数えるかはデータからは判定できない。": "**S3's enhancement condition**: If his HP is below 50% or the target has at least 5 Mauled Color, it gains 1 extra Coin and all Coins become Unbreakable. The extra Coin inflicts Bleed or Sinking Potency equal to the target's Color ÷ 3. Rodion also inflicts [Rouge] and [Bleu], but whether the two colors are counted together cannot be determined from the data.",
+    "引き裂かれた色彩[ルージュ]: 常時パッシブにより、基本スキル的中時に付与する(最大9、ターン終了時に1減少)。被ダメージ時に3につき出血威力1を得て(1ターン1回)、ターン終了時に4につき次のターンの防御レベル減少1を受ける(最大2)。": "**Mauled Color [Rouge]**: Through an always-active passive, inflicted when his basic skills hit, up to 9, decreasing by 1 at Turn End. When the bearer takes damage, it gains 1 Bleed Potency per 3, once per turn, and at Turn End it receives 1 Defense Level Down next turn per 4, up to 2.",
+    "野獣派-マスク・ドゥ・シヤン: この戦闘で自分が[ルージュ]を10以上付与すると、ターン終了時に得る。付与する出血・沈潜威力が+1、守備「彩色準備」の基本威力+2。": "**Le Fauvisme - Masque de Chien**: Gained at Turn End once he has inflicted 10 or more [Rouge] in this battle. +1 to the Bleed and Sinking Potency he inflicts, and +2 Base Power for the Defense skill Coloring Preparations.",
+    "バトルパッシブ「満ちゆく着想」(色欲×4・保有・同期化Ⅱで取得): マスクがあれば色彩の付与量+1。色彩を4付与するたびに精神力5回復(1ターン2回)、精神力が最大なら次のターンの打撃ダメージ量増加1。": "**Combat passive — Welling Inspiration (4 Lust Owned; unlocked at Uptie Ⅱ)**: With the Mask, +1 to the Color he inflicts. Restores 5 SP for every 4 Color inflicted, twice per turn, and at max SP grants 1 Blunt DMG Up next turn.",
+    "マイナス効果の数で強化: 各スキルは対象のマイナス効果の種類に応じてダメージ量が上がる(S3は最大60%)。出血と沈潜の合計でコイン威力・最終威力も上がる。": "**Bonuses from the number of negative effects**: Each skill deals more damage based on the number of different negative effects on the target (up to 60% for S3). Coin Power and Final Power also rise with combined Bleed and Sinking.",
+    "S1・S2で出血・沈潜と色彩を積み、マスクを得て付与量を伸ばしてから、色彩が5以上の敵に強化S3を当てる。ロージャと一緒に出撃すると、ロージャの「クリティーク」のコイントス開始時に「欠点補完」も得られる。": "Stack Bleed, Sinking, and Color with S1 and S2, gain the Mask to increase the amounts inflicted, then land the enhanced S3 on enemies with at least 5 Color. When deployed together with Rodion, he also gains Imperfections Addressed at the start of the Coin toss of her Critique."
+  }
+}

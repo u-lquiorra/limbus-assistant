@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0102.md",
+  "code": "0102",
+  "messages": {
+    "火傷の合計が多い敵ほど強くなる、攻撃加重値5の斬撃広域で、各対象へ火傷をばらまく火傷特化のE.G.O(解析Ⅴ前提)。": "A Burn-focused Slash E.G.O with 5 Attack Weight that spreads Burn and grows stronger with the total Burn across its targets. This guide assumes Threadspin Ⅴ.",
+    "火傷の付与: Ⅰコインが的中時に火傷4、表面的中時はさらに火傷6を付与する(解析Ⅳ以降)。": "**Inflicting Burn**: Coin Ⅰ inflicts 4 Burn on hit, plus another 6 on a Heads Hit, from Threadspin Ⅳ onward.",
+    "火傷合計による強化: 攻撃前に全攻撃対象の火傷の合計6につき最終威力+1(最大4)、1につきダメージ量+1%(最大30%)。": "**Total Burn bonuses**: Before attacking, gains +1 Final Power per 6 total Burn Potency across all attack targets, up to +4, and +1% damage per Potency, up to +30%.",
+    "パッシブ「火の粉」: 憤怒属性または火傷を付与するスキルの使用時、全攻撃対象の火傷の合計が6以上ならマッチ威力+1。マッチ勝利時にはメインターゲットへ(憤怒共鳴数×2)の火傷を付与する(スキルごとに最大8)。": "**Passive — Ember**: Active from the turn after E.G.O use. When using a Wrath skill or a skill that inflicts Burn, gains +1 Clash Power if the attack targets have at least 6 Burn Potency in total. On Clash Win, inflicts Burn equal to Wrath Resonance × 2 on the main target, up to 8 per skill.",
+    "侵蝕スキル: 火傷による強化の上限が覚醒より高く(最終威力最大+6、ダメージ量最大+45%)、使用後に「燃え上がる」を得る(次のターン、最初の基本攻撃スキルの最終威力+2。その的中ごとに自分の体力が減る)。": "**Corrosion**: Attacks random targets without distinguishing friend from foe. Has higher Burn-based bonus caps than Awakening: up to +6 Final Power and +45% damage. After use, gains Blazing: next turn, the first Base Attack Skill gains +2 Final Power, but each of its hits consumes the user's HP.",
+    "火傷を扱う編成で、複数の敵へ一気に火傷を配る使い方が基本。": "Use it in a Burn team to spread Burn across several enemies at once.",
+    "必要資源は憤怒5・怠惰1・暴食1で憤怒に偏る。精神消耗は覚醒20・侵蝕20・OC30。": "Costs 5 Wrath, 1 Sloth, and 1 Gluttony, making Wrath the main resource requirement. SP cost: 20 Awakening, 20 Corrosion, 30 Overclock.",
+    "解析Ⅲまでは威力が低いので、使うなら解析Ⅳ以上と考えられる。": "Its Power is low through Threadspin Ⅲ, so aim for Threadspin Ⅳ or higher if using it.",
+    "Ⅱ: 「火の粉」が解放され、マッチ勝利時に(憤怒完全共鳴の数÷2)の火傷を付与する。": "**Ⅱ**: Unlocks Ember, which inflicts Burn equal to half the Wrath Absolute Resonance count on Clash Win at this tier.",
+    "Ⅲ: 表面的中時の火傷が2から4になる。": "**Ⅲ**: Raises Burn inflicted on a Heads Hit from 2 to 4.",
+    "Ⅳ: 的中時にも火傷4、表面的中時に火傷6が付き、攻撃加重値が3から5になる。": "**Ⅳ**: Adds 4 Burn on hit and raises the extra Burn on a Heads Hit to 6. Attack Weight rises from 3 to 5.",
+    "Ⅴ: 基本威力が12から14、コイン威力が+8から+12になる。「火の粉」が強化され、侵蝕スキルが破壊不能コインになる。": "**Ⅴ**: Base Power rises from 12 to 14 and Coin Power from +8 to +12. Improves Ember, and the Corrosion Coin becomes Unbreakable.",
+    "南部リウ協会3課: S1〜S3がすべて火傷を付与し、S2(憤怒)で必要資源の憤怒も出せる。": "**[Liu Assoc. South Section 3](persona:0112)**: All 3 Base Attack Skills inflict Burn, and Wrath S2 helps supply the main resource requirement.",
+    "開花E.G.O::壇香梅: パッシブ「満開」が2名以上を攻撃するときのダメージ量+30%で、広域のこのE.G.Oと噛み合う。S1(暴食)・S2(怠惰)で必要資源も出せる。": "**[Effloresced E.G.O::Spicebush](persona:0104)**: Full Bloom grants +30% damage when attacking at least 2 targets, fitting this multi-target E.G.O. Gluttony S1 and Sloth S2 also supply required resources."
+  }
+}

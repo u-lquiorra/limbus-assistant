@@ -1,0 +1,488 @@
+{
+  "kind": "boss-copy",
+  "id": "ebony-queen-apple",
+  "source": "src/data/bosses/ebony-queen-apple.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Existing source metadata remains with the original guide; proper names use the paired game localization dictionary."
+  },
+  "entries": {
+    "name": {
+      "sourceHash": "a0f264b449850f22cea6e589afa0bc2be293482e92a30139ea55366613a4d5f4",
+      "text": "Ebony Queen's Apple (Canto I)"
+    },
+    "shortName": {
+      "sourceHash": "e6ab3e6e528b24ffc2cb4887dd6452ceab4d86edad62521ac3c436e4ebe449fa",
+      "text": "Ebony Queen's Apple"
+    },
+    "stageName": {
+      "sourceHash": "a488fa680dd2b16b1fda302891eb92c659e41a78a661b6ff00c3e6a07bed1429",
+      "text": "D-02 Branch, Floor 1: Information Team Passage"
+    },
+    "lead": {
+      "sourceHash": "d5382d3853a1ca21c8bfaa54da6ae3d6b544aafa6f99e15e21d9016abd75a12c",
+      "text": "Clash against branch and root attacks and use spare actions on the fruit. Destroying fruit applies Fragile across the body. If the fight lasts, stop the branches to prevent the area attack. HP cannot fall below 1 during the first 2 turns."
+    },
+    "statNote": {
+      "sourceHash": "1dcb90193b35c254988fa2c935dc86f4749c9dcfa6d5fc83f591418a687f5f68",
+      "text": "The Floor 1 encounter in 1-11: Lv. 6, 456 main-body HP. During the first 2 turns, its HP cannot fall below 1 and it cannot die. The HP entry distinguishes main-body and Fruit HP; other entries show Part HP. These stats differ from the Thread Luxcavation and Mirror Dungeon versions."
+    },
+    "skillNote": {
+      "sourceHash": "95953f980bf6e1755a0e70e8821eb66c6f3d307fc0d88aeef448132a0a0be306",
+      "text": "All 8 skill entries are listed by the Part that uses them. The right and left Stems' Pale Stem skills differ only in their icons. The Roots' attack is also called Vine Spike in the action table, but is listed here as Root Spike from the skill table. On Heads Hit and On Hit are distinct conditions."
+    },
+    "priorities.0": {
+      "sourceHash": "b94b6f37314b37ae7d38a19a7a4a261e9b529b6a0c03d894d1220ae792358c02",
+      "text": "Clash against Stem and Root attacks, and direct spare attacks at the Fruit. Destroying the Fruit grants 2 Fragile to all Parts."
+    },
+    "priorities.1": {
+      "sourceHash": "68be09bc6331fbd3b6c23666fa6442fa6e25e886ba7894305ebeeb117fc61547",
+      "text": "Main-body HP cannot fall below 1 during the first 2 turns. If it survives, continue through the event checks and the next turn; this does not mean your damage is insufficient."
+    },
+    "priorities.2": {
+      "sourceHash": "a6dd02022ba94e652bc640f5a5b74ee3fadad4ed0a5d254add6310d75897cf1f",
+      "text": "In longer fights, watch for Shared Pain on the 5-turn cycle. Stagger or destroy either Stem to stop it. Removed Stems cannot be attacked further."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "51f987cb8726c0a32ff9e7366069501d3e1e0dab6af27b0b673c0e7f12b48a24",
+      "text": "Its HP stops at 1 and it will not die"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "2f9999613e05c4b38ecbfa9782ac17a89de02b95e3184345bea16c5682202e09",
+      "text": "The Canto I version cannot die during the first 2 turns. Continue normal attacks and event checks, then defeat it afterward."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0a0c5afe1fe615037f944acdcdbcd229881e96b68c8acf02ef428962a39aeffc",
+      "text": "The destroyed Fruit came back"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "aa85fb62a025d66fffb67489a8a90949746fb8ddb1c97f31af9e11170abae8a1",
+      "text": "The Fruit normally regenerates after 1 turn. Deal damage while all Parts have Fragile. After it regenerates, weaken it and pass the resulting check to stop further regeneration."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "1db9107eb027bb62f43e896b7b2bb662e3a73327baa1d8196570e10036342882",
+      "text": "I cannot target a Stem after destroying it"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "a26e67e688426e23efcb27ac2b8b32fba2a013f0b0a9772e658b97ca8dfc398d",
+      "text": "Stems are removable Parts. Destroying one makes it untargetable and stops its actions. Reassign attacks to the remaining Parts."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "d12039bc03ca10fe4e1ec9d931ac51b6dda2505b02798746c43647fd9ee9109a",
+      "text": "The area attack hits everyone"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "b229bd707cf94b7fa45f0f368408c27d53b99c15ed79b063e366f8ff1836785a",
+      "text": "Shared Pain is used when both Stems remain. When its warning appears, Stagger or destroy either Stem to stop it. If you cannot do so in time, Clash with a strong skill."
+    },
+    "units.0.name": {
+      "sourceHash": "e6ab3e6e528b24ffc2cb4887dd6452ceab4d86edad62521ac3c436e4ebe449fa",
+      "text": "Ebony Queen's Apple"
+    },
+    "units.0.part": {
+      "sourceHash": "e919bc51ce648c3b1c1b72a140ad10bd3c65264c15a8286de483028a6f0d156f",
+      "text": "Fruit"
+    },
+    "units.0.hp": {
+      "sourceHash": "8429670bedd9c416614a78540eb8d6b4a146da5df8dddb2821d29954a7b4e241",
+      "text": "456 (main body) / 21 (Fruit)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "8c6b21a217c977c303b93b7dc57cf9c84328feb71d3815f8cd0313473ffd6649",
+      "text": "Can still be attacked after destruction. Destruction cancels the Fruit's actions, and it does not act while broken."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "02a1daf2abd5129da30c412749fe01e2ad4c745329ab862ee7c09e7fb00d29ed",
+      "text": "Normally regenerates after 1 turn. Passing the check against the regenerated Fruit prevents further regeneration."
+    },
+    "units.1.name": {
+      "sourceHash": "3802e6c01fef63265678ec1befe9a171a2db66721458232f3fea9028b091e797",
+      "text": "Ebony Queen's Apple (Right Stem)"
+    },
+    "units.1.part": {
+      "sourceHash": "1fa21e37212a8806cc4c062e04deedbdd7b50b22bd3c5793c1a39efa325176df",
+      "text": "Right Stem"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "ae5098303f9b509cbd1ce9648374e7423e36ba0162e9726b2b5ecfda58f556ca",
+      "text": "Removable. Destruction cancels actions and destroys its slots. Cannot be attacked after destruction."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "63c11c094116514123210a044493e87b54ef7a9ce5ecf0c01a43ca2b721e9ff6",
+      "text": "Weak to Slash and resistant to Pierce. Stopping either Stem prevents Shared Pain."
+    },
+    "units.2.name": {
+      "sourceHash": "8c99285adf26e8ce8baed32e9310846d4943d9488cdb1eb1817e879c50ccd11c",
+      "text": "Ebony Queen's Apple (Left Stem)"
+    },
+    "units.2.part": {
+      "sourceHash": "59b505a94e2f587fc9bc7a2fac4018ceb35ecad5dd4c09e075af8b4e0a7326ef",
+      "text": "Left Stem"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "2b0c1a1badf04dfba3db7d773de55b5b2a17059a063b46656202e5e111da802b",
+      "text": "Removable. Unlike the Right Stem, it has no normal Stagger Threshold."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "0b24529fcc4bd9094873ecf767cdfe5abad1151212ea21597174f4f21b0f26a3",
+      "text": "Destruction cancels actions and destroys its slots. Cannot be attacked after destruction."
+    },
+    "units.3.name": {
+      "sourceHash": "826a02e09d7bf918184b1f2e2ff306e7c8ebacbeab73a3c503505fa824c71d8e",
+      "text": "Ebony Queen's Apple (Roots)"
+    },
+    "units.3.part": {
+      "sourceHash": "092e4d5a181e2cd3cda0d55a987af69b2a760eb79cb67a51a9baf73855c1c932",
+      "text": "Roots"
+    },
+    "units.3.stagger": {
+      "sourceHash": "1fa8fdf40a0b4a6f35affba56cc340679d4f23fa1d163b74870dc16ae0deed6e",
+      "text": "70% / 30% (120 / 52)"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "4c219e80a2dc30de24ab40b589cccb5d7878f25a55833d3bdec920f08a7d7f28",
+      "text": "Can still be attacked after destruction, but stops acting. Its slot weight is 2."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "22088879bd9ecb00f6b875d813b7a0786ac777d26ea4c31613fe2447f2ec516f",
+      "text": "Destroying the Roots or passing the check to dig them up stops the Bind inflicted each turn."
+    },
+    "phases.0.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.0.title": {
+      "sourceHash": "fde271f20168c3afc4458637edd566b209b45d2d39c5526f526b46b25133bb8f",
+      "text": "Take necessary Clashes and break the Fruit with spare attacks"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "12b59f81ebcf2335122a0317a5cac392ab3738885759cdb3226ff3be035b57a5",
+      "text": "In Focused Encounters, choose targets manually. First Clash against incoming Stem and Root attacks, then focus remaining attacks on the Fruit."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "dd196400c1756629cec7a634298e39c2d0eb3dfe01e571041ed3fbc679fd294b",
+      "text": "The Fruit is weak to Blunt and has 21 Part HP. Destroying it grants 2 Fragile to all Parts, creating an opening to damage the main body. Stems and Roots are weak to Slash, so their physical weaknesses differ from the Fruit's."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "765f11c1ab5cabc06e9353c6057ed73a4c0d33b762b7f7b4a64a71f12066aad9",
+      "text": "Main-body HP cannot fall below 1 during the first 2 turns. Even with sufficient damage, the fight cannot end during this period; check remaining attacks and events."
+    },
+    "phases.1.timing": {
+      "sourceHash": "4a286b74ac0738ef2ea4b7031568dabde91ef9a030f9a60d1bf45cb446a088d6",
+      "text": "Check at the end of turn 2"
+    },
+    "phases.1.title": {
+      "sourceHash": "c432b8ff483d9f67fce50562f36e133c295e947bc48da52099bcc8377cec70d8",
+      "text": "Pass the Roots check to stop the recurring Bind"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "dd430a98bd954b28dcbe61bf4597bb2ba9fc0b415c649e06bd328e2d1f545a3d",
+      "text": "Wrath is favored in the check to dig up the Roots. Success removes Entangling Roots and stops the 1 Bind inflicted every turn."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "7b42ee08d392212b6694e634c1a852c662d3f15950d0995c6c97d5dd6f7ea173",
+      "text": "Failure is not an immediate defeat: destroying the Roots also stops the effect. The required check value is listed as 4 (6 in parentheses), so use the success prediction shown in battle to choose a Sinner."
+    },
+    "phases.2.timing": {
+      "sourceHash": "428bce8c6e01b5a9c462a31f37c95c1905c6019ad0a274cc180173699d5d07f8",
+      "text": "Stem warning / 5-turn cycle"
+    },
+    "phases.2.title": {
+      "sourceHash": "89d865a746cc67305291830721796a1ece26392acd600c4cc94f8ff8de25ba58",
+      "text": "Stop either Stem to prevent the area attack"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "639761ce59073a848fe80ad7fff2532190e203bdeb26e86cea5b24a2f7820b46",
+      "text": "If both Stems remain, one uses Shared Pain with 5 Attack Weight on a 5-turn cycle. Watch for the gathering-light warning and check the skill name."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "66e73216778963c3c4ed458915c698a26a8b67988dd838b26724418ed6542f87",
+      "text": "The Right Stem has a Stagger Threshold at 40% HP. Stagger or destroy either Stem, or defeat the main body first. The Left Stem has no Stagger Threshold, so handle them differently."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "bfe3d046e9006668495fa6b6ee3d962b970efbe54c5b0fd21bfb8ffb240bfe91",
+      "text": "Removed Stems cannot be attacked and no longer act. Removing them also reduces the Roots' bonuses based on remaining Stems; reassign attacks to the remaining Parts."
+    },
+    "phases.3.timing": {
+      "sourceHash": "cf9571676819bed418fd2e400352670bedfc5ff4f4d62652c37ad43c7ca2ee23",
+      "text": "Regenerated Fruit check / finishing the fight"
+    },
+    "phases.3.title": {
+      "sourceHash": "7823120866cc77a6f816b4cd22a306e34895bf49f15decabb77c907f0ae4d319",
+      "text": "Use the chance to stop regeneration and exploit Fragile"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "936f9607a787c2e484874230f1ba0727352bad9c105b8b0c1b691019111762cf",
+      "text": "The Fruit normally returns 1 turn after destruction. Weakening the regenerated Fruit triggers a warning for the next check. Its exact HP requirement is unconfirmed, so watch for the warning."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "8366aeb995a71e30edcbc827ee74ce302ffa9823a70e6f4a5989f86d78549149",
+      "text": "Passing the Pride-favored check destroys the Fruit and Staggers the main body. The Fruit will no longer regenerate. The required value is listed as 5 (7 in parentheses), so choose a Sinner using the current prediction."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "0ad183923aa7b958cbadb5c211e14d82798ca930869a8224e1d5ed96064b93be",
+      "text": "You can also defeat the main body before that check appears, once the first 2 turns have passed. Exploit Fragile from breaking the Fruit rather than waiting unnecessarily for an event."
+    },
+    "skills.0.name": {
+      "sourceHash": "567d38deafff008fa58d2a1790dfca690cbfaf05e7f2257e974f42169fce912b",
+      "text": "Distrust"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.0.response": {
+      "sourceHash": "c94c0e33c557409457b2d49d553b522fafd17aa59f0d503c49c7ad4ca71d38ba",
+      "text": "The Stems' normal attack. Clash with a skill that can win while directing spare attacks to the Fruit. Removing a Stem stops attacks from that Stem."
+    },
+    "skills.1.name": {
+      "sourceHash": "567d38deafff008fa58d2a1790dfca690cbfaf05e7f2257e974f42169fce912b",
+      "text": "Distrust"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.1.response": {
+      "sourceHash": "c94c0e33c557409457b2d49d553b522fafd17aa59f0d503c49c7ad4ca71d38ba",
+      "text": "The Stems' normal attack. Clash with a skill that can win while directing spare attacks to the Fruit. Removing a Stem stops attacks from that Stem."
+    },
+    "skills.2.name": {
+      "sourceHash": "352ef674b350613271042680b6d3545ac996464a350de4fcf0adb462ba551c59",
+      "text": "Pale Stem"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.2.response": {
+      "sourceHash": "ecc56456e7f0dba1785c9ce5791715f997ebd7d20326261ebd79829c09054763",
+      "text": "Has 1 Coin, but its unmodified maximum Power is 9. Check the current Clash prediction rather than assuming it matches Distrust. A removed Stem cannot be attacked further."
+    },
+    "skills.3.name": {
+      "sourceHash": "352ef674b350613271042680b6d3545ac996464a350de4fcf0adb462ba551c59",
+      "text": "Pale Stem"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.3.response": {
+      "sourceHash": "ecc56456e7f0dba1785c9ce5791715f997ebd7d20326261ebd79829c09054763",
+      "text": "Has 1 Coin, but its unmodified maximum Power is 9. Check the current Clash prediction rather than assuming it matches Distrust. A removed Stem cannot be attacked further."
+    },
+    "skills.4.name": {
+      "sourceHash": "e67fe27073ee7b88dd947a4f1a32e4e617c0f1c9200e75237145bef608b232c8",
+      "text": "Root Spike"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "859e08f725f1e92a2bea6c10eff0a87602225fc220cb748d63c3de3fd6ac0c86",
+      "text": "Ⅰ[On Heads Hit] Increase Bleed Count by 3."
+    },
+    "skills.4.response": {
+      "sourceHash": "064526887d18039437e0b978ed74ec2363f3192ab2892eea56737e4cea779e91",
+      "text": "A Heads hit increases Bleed Count by 3. Prevent it by winning the Clash. Remaining Stems also increase the Roots' Attack Power, so track which Stems are still active."
+    },
+    "skills.5.name": {
+      "sourceHash": "bcbfae9661755d071e2b9d0a577bb5d48c202b13750cd3297b26c878e24f07be",
+      "text": "Shared Pain"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "880a371cdbdf6ea23d1cc7330537dcd18dec0571332a2c14012a7be5eaee226b",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "f59618aed9d6d5a51c6c7c07c5921a00017352732b84e91299d078828bbfb10d",
+      "text": "An area attack with 5 Attack Weight. Used on the 5-turn cycle if both Stems remain; when warned, Stagger or destroy either Stem, or defeat the main body before it activates."
+    },
+    "skills.6.name": {
+      "sourceHash": "bcbfae9661755d071e2b9d0a577bb5d48c202b13750cd3297b26c878e24f07be",
+      "text": "Shared Pain"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "880a371cdbdf6ea23d1cc7330537dcd18dec0571332a2c14012a7be5eaee226b",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "f59618aed9d6d5a51c6c7c07c5921a00017352732b84e91299d078828bbfb10d",
+      "text": "An area attack with 5 Attack Weight. Used on the 5-turn cycle if both Stems remain; when warned, Stagger or destroy either Stem, or defeat the main body before it activates."
+    },
+    "skills.7.name": {
+      "sourceHash": "1f0f8d19c0bce6afde50a7911c4fd7c66a0f6c613617f5ca74a08aae78dd6b67",
+      "text": "Vain Fruit"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.7.response": {
+      "sourceHash": "cb416f8239d18e185f6d9ba9137b2ee3fac67032c04740ae2748a878c1e2f22d",
+      "text": "The Fruit's Guard skill. Take necessary Clashes against Stem and Root attacks, then focus spare attacks on the Fruit. Breaking it grants 2 Fragile to all Parts."
+    },
+    "passives.0.name": {
+      "sourceHash": "650b1b6051694222951e793656f80c37019cd761812a43e1db980c1c38b868c9",
+      "text": "An Apple’s Twilight"
+    },
+    "passives.0.condition": {
+      "sourceHash": "22477948710d3b720f0e3cad857fb51c53bf00a505ca9e90a63a19ec30c3cd47",
+      "text": "All Fruit Parts are destroyed"
+    },
+    "passives.0.effect": {
+      "sourceHash": "4d2877f8eb7d42d02479033233fac895cf0d3db0746bb78f30db59034a8bae9c",
+      "text": "All Parts gain 2 Fragile. Destroyed Fruit regenerates after 1 turn."
+    },
+    "passives.0.response": {
+      "sourceHash": "87eacb983eac4cdeb0947c7e03b7c379ff857c9754a66e2fc215f2c7b6804fb7",
+      "text": "Break the Fruit to increase damage against all Parts. It returns until the check to stop regeneration succeeds."
+    },
+    "passives.1.name": {
+      "sourceHash": "1c87300f133aa631a9adb3127beef749930fc3f2fac41fb3afe272a6bd87c38f",
+      "text": "Entangling Roots"
+    },
+    "passives.1.condition": {
+      "sourceHash": "542ccd117c522cd1e2baaeee21d4a5852a61bfcb59a907c115e737ca80ec6c34",
+      "text": "At Turn Start, while the Roots are not destroyed"
+    },
+    "passives.1.effect": {
+      "sourceHash": "bc91512a7a2edf699dea36cc83ebfe2884eb7794cc207ff01a29f0f4e2027e66",
+      "text": "Inflict 1 Bind on all enemies."
+    },
+    "passives.1.response": {
+      "sourceHash": "0801e2f22bb349ab9c4b3aa58cd6aef9ec917e67aafb5a4fedee2dbb82288152",
+      "text": "Sinners become slower each turn. Stop it by destroying the Roots or passing the turn 2 check."
+    },
+    "passives.2.name": {
+      "sourceHash": "65892e6e9182e44821bc7384def26a2aece62445ef4457295b9da6adf66a23f8",
+      "text": "One Sole Root"
+    },
+    "passives.2.condition": {
+      "sourceHash": "03800e713fe524c4299770eb7d0e5f26fbf09f63d77c5b1f2847b431c3c97acf",
+      "text": "Undestroyed arms remain"
+    },
+    "passives.2.effect": {
+      "sourceHash": "7dbe477c13d033526cd8e857201e27f10086ea0b3a5ca6a0f5d928727fb10063",
+      "text": "The Roots gain 2 Attack Power Up for each undestroyed arm."
+    },
+    "passives.2.response": {
+      "sourceHash": "09834c1aa189903f6a6b63f2a1192556026838545d89ac19e46fcd32b9661483",
+      "text": "Breaking Stems suppresses both the area attack and the Roots' bonuses. Do not judge Root skills solely by their unmodified Power."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "c1674b4a735da534871f86392b1808f0fffa6d6183374311dca324d178b5b4b1",
+      "text": "Death prevention for the first 2 turns"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "9a6645e9ac2d5066f9c916e0ad3aa15c92cca52dd8ed7ae69b06819d9d02cfd5",
+      "text": "For the first 2 turns of combat, the Canto I version cannot fall below 1 HP or die."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "1bfc5c52c3a3434277530025a16a286606f48478987232d5a3938348a518f10c",
+      "text": "Stopping at 1 HP does not mean the strategy failed. Continue the necessary Clashes and events."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "7126e92dbbf2ae46de7f5c2af6f8882a83da3dd47b04bd433d5b128ae2260f06",
+      "text": "Fruit destruction and regeneration"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "6a0f5b2cd701a0864becf08e7a9a53dcd018febe31a56e9bfe620af65de29023",
+      "text": "Destruction cancels its actions, and it does not act while broken. Normally regenerates after 1 turn. Passing the Fruit check prevents further regeneration and Staggers the main body."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "8341d9f4fcecfee584369cc6196304b3c68fa56448bff40d92d213682bace8f7",
+      "text": "Exploit the Fragile applied across all Parts when it breaks. Do not assume an unconfirmed HP requirement for the event after regeneration."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "78a1d820738fe5a710855b7477a05f6bbe387eadc223b250e7e2f1f1433d2b48",
+      "text": "Stem removal"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "85d54ba2e0c12907bdca1b70f4e1fa198233b259ad7acd97dc620d4efc115c4e",
+      "text": "Destruction cancels actions and destroys slots. Cannot be attacked afterward. Shared Pain is used only when both Stems remain."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "88ee4cee324683ec43802608808f84e976c4634d2b14372f51a6a1878c297615",
+      "text": "Stopping either Stem prevents the area attack. After destruction, move attacks to the remaining Parts."
+    },
+    "warnings.0": {
+      "sourceHash": "5332c7fc8f8f36508d2c70930e08e429b325de9b518b0c3971a7cef9d2aa0e99",
+      "text": "The main body cannot die during the first 2 turns. Stopping at 1 HP does not indicate insufficient damage."
+    },
+    "warnings.1": {
+      "sourceHash": "17376adae5d93b7a94fc983a1bedee8f6a3f67cb84933daa59905d565647775d",
+      "text": "The Right Stem has a Stagger Threshold at 40% HP; the Left Stem has none."
+    },
+    "warnings.2": {
+      "sourceHash": "33ded66744d914098028ec83f7bec3461dbff1aa7c505e04c45ee6a29335f80e",
+      "text": "Fruit and Roots can still be attacked after destruction; removed Stems cannot. Check each Part's behavior."
+    },
+    "warnings.3": {
+      "sourceHash": "6557aadc11d6ad06d9dfe39171d04216920ead8734a9721ccae6fc493619951a",
+      "text": "The HP requirement for the check that stops Fruit regeneration is unconfirmed. Do not assume it is half HP or less."
+    },
+    "warnings.4": {
+      "sourceHash": "d4014fa938c29c36f4f7528b7a4737a942ec76c3bc8a442d7af15fce232e29cd",
+      "text": "An On Heads Hit effect does not activate on every hit."
+    },
+    "preparation.0": {
+      "sourceHash": "5c37b48f28026dd36e65f3e0ec45d808caee6a72a6e26afeba758359d1e4e26c",
+      "text": "Deploy 5 Sinners. Use the dungeon's recommended Lv. 7 as a guide and prepare a core team that can win Clashes."
+    },
+    "preparation.1": {
+      "sourceHash": "ed7d5ce5a5d615475a5da758dce4bea0550d09572846e0c016a3db96a5530a8b",
+      "text": "Blunt is effective against the Fruit; Slash against Stems and Roots. Wrath and Pride deal good damage and are useful for the Roots and Fruit checks."
+    },
+    "roles.0.name": {
+      "sourceHash": "cb15f562ccbf249fd3890b11a3dcb58df950259d530ba8fbf61a6f91ab13bbce",
+      "text": "Stem and Root Clash roles"
+    },
+    "roles.0.reason": {
+      "sourceHash": "24df35bec36c5a0ebfe1b1d8c8eba660f09cd0d9bdefa813fd448b4e30fecbd3",
+      "text": "Stop attacks while suppressing the area attack and Root bonuses through Right Stem Stagger or Stem removal."
+    },
+    "roles.1.name": {
+      "sourceHash": "7e0cc6eeb479147ae4d1d417ec156c46441e321a5bd117e79a7f0abd141d7e7e",
+      "text": "Blunt damage for the Fruit"
+    },
+    "roles.1.reason": {
+      "sourceHash": "81f80c5cb1bc0fed489b63f4d54e27e6ae5fa42b9029b9ffcf486924e38bb8cd",
+      "text": "Use spare actions to break the Fruit and apply Fragile across all Parts."
+    },
+    "roles.2.name": {
+      "sourceHash": "0eb611895d9fe9e5698ac08486d45b351c854606cf4e33b53974649575619d32",
+      "text": "Wrath and Pride check roles"
+    },
+    "roles.2.reason": {
+      "sourceHash": "c1864047c0e12125e75050e9a3b4227538c9f44771d7d3e5ea38b52deb49c866",
+      "text": "Aim to stop Bind from the Roots and regeneration from the Fruit. Choose using the prediction on the event screen."
+    }
+  },
+  "messages": {
+    "boss-copy:ebony-queen-apple": "complete",
+    "【リンバス】1-11 黒檀女王の林檎（1章）の攻略｜Limbus Assistant": "1-11 Ebony Queen's Apple (Canto I) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)1-11「黒檀女王の林檎（1章）」の攻略。枝と根の攻撃へマッチを取り、余った攻撃で果実を壊す。果実破壊による全身の脆弱を使って削り、長引く場合は枝を止めて広域攻撃を防ぐ。最初の2ターンはHP1未満に…": "Ebony Queen's Apple (Canto I) guide for Limbus Company 1-11. Clash against branch and root attacks and use spare actions on the fruit. Destroying fruit applies Fragile across the body. If the fight lasts, stop the branches to prevent the area attack. HP cannot fall below 1 during the first 2 turns.",
+    "1-11 黒檀女王の林檎（1章）": "1-11 Ebony Queen's Apple (Canto I)",
+    "黒檀女王の林檎の外見": "Ebony Queen's Apple appearance",
+    "黒檀女王の林檎のスキル": "Ebony Queen's Apple skills",
+    "Ebony Queen's Appleの外見": "Ebony Queen's Apple appearance",
+    "Ebony Queen's Appleのスキル": "Ebony Queen's Apple skills",
+    "黒檀女王の林檎（右枝）の外見": "Ebony Queen's Apple (Right Stem) appearance",
+    "黒檀女王の林檎（右枝）のスキル": "Ebony Queen's Apple (Right Stem) skills",
+    "Ebony Queen's Apple (Right Stem)の外見": "Ebony Queen's Apple (Right Stem) appearance",
+    "Ebony Queen's Apple (Right Stem)のスキル": "Ebony Queen's Apple (Right Stem) skills",
+    "黒檀女王の林檎（左枝）の外見": "Ebony Queen's Apple (Left Stem) appearance",
+    "黒檀女王の林檎（左枝）のスキル": "Ebony Queen's Apple (Left Stem) skills",
+    "Ebony Queen's Apple (Left Stem)の外見": "Ebony Queen's Apple (Left Stem) appearance",
+    "Ebony Queen's Apple (Left Stem)のスキル": "Ebony Queen's Apple (Left Stem) skills",
+    "黒檀女王の林檎（根）の外見": "Ebony Queen's Apple (Roots) appearance",
+    "黒檀女王の林檎（根）のスキル": "Ebony Queen's Apple (Roots) skills",
+    "Ebony Queen's Apple (Roots)の外見": "Ebony Queen's Apple (Roots) appearance",
+    "Ebony Queen's Apple (Roots)のスキル": "Ebony Queen's Apple (Roots) skills"
+  }
+}

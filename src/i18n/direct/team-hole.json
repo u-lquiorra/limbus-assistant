@@ -1,0 +1,137 @@
+{
+  "kind": "team-copy",
+  "id": "hole",
+  "sourceGuide": "src/data/team-guides/hole.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "9b3bafd522b447bac3f2d8181b812ca9207fdf95ffecf118cfb7f087b541140f",
+      "text": "Hollow farming (Mao Branch Adept)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "119344cabb6ab40e9d8846b39d87e444509e668bb294e7d0df1722d8323a7c85",
+      "text": "Farm by sweeping enemies with Faust's Hollow E.G.O. Corrosion targets randomly without distinguishing allies, so deploy Faust alone. Bring Tier Ⅲ Grand Welcome through Gift Observation for +5 Pride at stage start, enabling the Corrosion attack with 7 Attack Weight from turn 1. Tier Ⅲ Sharp Needle & Thread adds fixed damage to defeat groups together."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "bafb531692c5ec3c0fb86c7703ff635e6bc6324eee76cca5151326966180ceec",
+      "text": "Uses Hollow. High HP and 4–7 Speed place her among the fastest Faust Identities."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "102e63c4a483e49b1b33fef25cd3378b94e8ee955bb8b0d8af8ffb50fee322df",
+      "text": "The core E.G.O: the first use costs only 2 Pride, enabling the Corrosion attack with 7 Attack Weight to clear groups."
+    },
+    "data:core:0:note": {
+      "sourceHash": "2761b842dea9ed5e801309998c5ab0bdd490a83540dcd5833f748ab72bf45ef6",
+      "text": "Uses Hollow. A good fit with 283 HP and 4–7 Speed, among the fastest Faust Identities."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "39fec5eb6630c19fc428639840a2eb99460feda6ec6d51cf97fb562778a4dc44",
+      "text": "An alternative Hollow user with 299 HP, the highest among Faust Identities, and no Pierce weakness."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "75783936a795cedb6ac9ce8ec5a3282c4119b973ea621ed134e865660acb6045",
+      "text": "An alternative Hollow user with 265 HP and no Pierce weakness. Slower than Mao Branch Adept."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "512b14a41fd1441960ad3b508dc6aa18ca104d64bff7500ee7f7221d20437cbe",
+      "text": "The first use in an Encounter costs only 2 Pride and can still use the Corrosion attack with 7 Attack Weight. Requires Threadspin Ⅲ or higher; Ⅳ is preferable for the larger damage bonus from spending Charge."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "eb6d17ab32c7c353fe163f862a410e41164bef8d3e8d2ab1e37760c5b3383067",
+      "text": "Farm Mirror Dungeons with Faust's Season 8 E.G.O [Hollow](ego:0211). Only a strong Faust Identity and Hollow are required, keeping decisions simple. However, this uses Hard on floor 5 and requires a Starlight reserve, so learn Mirror Dungeons first. Unsuitable for deep-floor progression."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "ac3334a601e1ed7bd5cad7e6ef2d95adc41f04cb5ed372829aa0589d8e101212",
+      "text": "Hollow's first use in an Encounter costs only 2 Pride. Even then, its Corrosion version can be used through Overclock with 7 Attack Weight."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "2160c8a61c44d1b1e96d78578fe3d4dd53bc7040930486afd17a3b3f3cad1a34",
+      "text": "Bring Tier Ⅲ Grand Welcome through Gift Observation for +5 Pride resources at stage start, enabling Corrosion on turn 1."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "3c5e6da0137eb3eeecaee0bce7f850c5f695ed1d34459f9c754904cd524f3b14",
+      "text": "Tier Ⅲ Sharp Needle & Thread adds fixed damage equal to half the damage of the first skill that damages an enemy each turn. With area attacks, each target takes half the total damage dealt across all targets, defeating multiple enemies together."
+    },
+    "guide:1:0:3": {
+      "sourceHash": "3dba2be6a145cf466729eeb28749598a31aca2a11448fbd34039ac2a2e7ec848",
+      "text": "Hollow's Corrosion attacks random targets without distinguishing allies. Deploy Faust alone to avoid hitting other Sinners."
+    },
+    "guide:2:heading": {
+      "sourceHash": "04f46f8ed7b7ddf81e4a2a20ae4c27586343083261cad8cf343bffdf446f0bd7",
+      "text": "Preparation"
+    },
+    "guide:2:0:0": {
+      "sourceHash": "a9165ad6b9fffadd5a02eb0ffd61ab59431be1cf31e250bcd5fd640d3ba4e208",
+      "text": "**User**: [Heishou Pack - Mao Branch Adept](persona:0212) Faust fits well with 283 HP and 4–7 Speed, among the fastest Faust Identities. Alternatives should have high HP and no Pierce weakness, such as the highest-HP [The House of Spiders: The Ring Apprentice](persona:0215) or the slower [Zwei Assoc. South Section 4](persona:0205)."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "85662dd6a2efc4c2822f1b7418396a91d54eba696e529bc2d0a7a3b115f6ba0b",
+      "text": "**Hollow**: At least Threadspin Ⅲ. Prefer Ⅳ for the larger damage bonus from spending Charge."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "67e6711caadb4dee07c91e18cda4668725a43225c9e6d9dd63c1a5120acab4bb",
+      "text": "**Blessings**: Star of the Beginning and Interstellar Travel."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "52f7f2adc2b2d9521fc11ff37c596264548d9a676d76ce1afb72b7c86ef8dcd7",
+      "text": "**Gift Observation**: Tier Ⅲ Grand Welcome and Tier Ⅲ Sharp Needle & Thread."
+    },
+    "guide:2:0:4": {
+      "sourceHash": "bdd4950d714f986b6db58cc10f7d0dff4d002170413f82fab41384fc20ceafc1",
+      "text": "**Starting Gift**: Tier Ⅱ Cigarette Holder."
+    },
+    "guide:2:0:5": {
+      "sourceHash": "a5812592a3a50bc259fbbf1c2b681053144f7f2ad2ed45059697598e053e98f5",
+      "text": "**Packs**: Normal Flat-broke Gamblers, Hell's Chicken, Emotional Seduction, and Hatred and Despair. Choose Hard Line 2 on floor 5."
+    },
+    "guide:3:0:0": {
+      "sourceHash": "2bc48d74b32d2dcd4f9b34ce5e754ab7bd94766dc1e46260b70a280ca0fca082",
+      "text": "Clear Regular and Focused Encounters with Hollow's Corrosion. Avoid Abnormality and Chain Encounters where possible. If unavoidable, bring in follow-up Identities as needed, at the cost of more time."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "94dac10ca4b1c4cd48cd441e22a49d777a082b4df38d338ee92dfd0bd8aa2c8d",
+      "text": "Play floors 1–4 on Normal, then switch to Hard and choose Line 2 on floor 5."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "291d4987be14c13df5bf37c1451c762eaa117e621b7c12d7341e72f38b7bf0d2",
+      "text": "Hollow's Corrosion can defeat floor 1–3 bosses in one hit. With the required Gifts, Knight of Despair and Sign of Roses can be defeated in 2 turns using regular Hollow followed by Boucher un trou."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "800243c48c1075b1d94838dcf1262d42144760b6f45c6dd119d4f3fbccedab5d",
+      "text": "Restore Faust to maximum SP at the floor 4 and 5 shops."
+    },
+    "guide:3:0:4": {
+      "sourceHash": "f70490e9a71b4984cb97aa1b508ba56d32d9326d79dd1ae4cb35eb0ef348e1b0",
+      "text": "Seek Tier Ⅳ Clear Mirror, Calm Water++ and Fragment of Conceit for Poise, plus Tier Ⅳ Artistic Sense++ and Fragment of Decay for Sinking. Floors 1–3 still fall to one Corrosion hit without them, so collecting them gradually before Knight of Despair is sufficient."
+    },
+    "guide:3:0:5": {
+      "sourceHash": "de4bf5d8dad4499bf443cc701724a63917228f5b70eb2edfe221583fb88ff7bb",
+      "text": "Grand Welcome becomes unnecessary once enough Pride resources accumulate. It can be used as fusion material when a Tier Ⅲ Gift is needed."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "c52ffe62fdfa3eaf3ca0a8ac348a0223df7bc20c67ed958d2a98b7ef5267142c",
+      "text": "Starlight balance is generally negative. Prepare a sufficient reserve before farming."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "4ce6e0ae2a27801df7064dcddd39b6208129f3cc3a08c845e5bae6e25adfa162",
+      "text": "Requires Hard on floor 5, so unavailable until Hard is unlocked."
+    },
+    "guide:4:0:2": {
+      "sourceHash": "7d05ea29a6b6f6ddc0622323bc68932b3e635e027b974a10a0d7e76e5686714e",
+      "text": "The E.G.O animation is long. Click or tap to speed it up."
+    },
+    "guide:4:0:3": {
+      "sourceHash": "925203ae157d12e5aae1ec0403af9e6f676bf355f53365f39eecde802825bc66",
+      "text": "Unsuitable for deep-floor progression."
+    }
+  },
+  "metadata": {
+    "title": "Hollow Farming | Mirror Dungeon Setup and Rotation | Limbus Assistant",
+    "description": "Farm Mirror Dungeons with Faust's Hollow in Limbus Company. Review solo setup, Gifts, Blessings, pack choices, and the farming rotation."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+    "https://github.com/x1bViolet/Limbus-Localization-Files/blob/c31b3b0c44b2e230e29d51106190b4c1511a4c33/MirrorDungeonTheme-1.json",
+    "https://github.com/x1bViolet/Limbus-Localization-Files/blob/c31b3b0c44b2e230e29d51106190b4c1511a4c33/MirrorDungeonUI_5.json"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

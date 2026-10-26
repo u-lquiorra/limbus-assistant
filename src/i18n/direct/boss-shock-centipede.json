@@ -1,0 +1,641 @@
+{
+  "kind": "boss-copy",
+  "id": "shock-centipede",
+  "source": "src/data/bosses/shock-centipede.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "衝撃ムカデ",
+          "en": "Shock Centipede",
+          "file": "Enemies.json",
+          "id": "8045"
+        },
+        {
+          "ja": "尻尾で刺す",
+          "en": "Tail Poke",
+          "file": "Skills_Abnormality.json",
+          "id": "804502"
+        },
+        {
+          "ja": "巻き締める",
+          "en": "Wrapping Coil",
+          "file": "Skills_Abnormality.json",
+          "id": "804503"
+        },
+        {
+          "ja": "電流注入",
+          "en": "Electric Load",
+          "file": "Skills_Abnormality.json",
+          "id": "804504"
+        },
+        {
+          "ja": "電気放流",
+          "en": "Electric Release",
+          "file": "Skills_Abnormality.json",
+          "id": "804505"
+        },
+        {
+          "ja": "超高圧電気放出",
+          "en": "High-voltage Electric Discharge",
+          "file": "Skills_Abnormality.json",
+          "id": "804507"
+        },
+        {
+          "ja": "とぐろを巻く",
+          "en": "Coil Up",
+          "file": "Skills_Abnormality.json",
+          "id": "804508"
+        },
+        {
+          "ja": "蠢く頭",
+          "en": "Wriggling Head",
+          "file": "Skills_Abnormality.json",
+          "id": "804509"
+        },
+        {
+          "ja": "蠢く尾",
+          "en": "Wriggling Tail",
+          "file": "Skills_Abnormality.json",
+          "id": "804510"
+        },
+        {
+          "ja": "生きている神経",
+          "en": "Living Nerves",
+          "file": "Passives_Abnormality.json",
+          "id": "804501"
+        },
+        {
+          "ja": "しぶとい生命力",
+          "en": "Undying Persistence",
+          "file": "Passives_Abnormality.json",
+          "id": "804503"
+        },
+        {
+          "ja": "絶たれた生命力",
+          "en": "Terminated Persistence",
+          "file": "Passives_Abnormality.json",
+          "id": "804504"
+        },
+        {
+          "ja": "自家発電",
+          "en": "Self-charge",
+          "file": "Bufs.json",
+          "id": "SelfCharge"
+        },
+        {
+          "ja": "蓄電",
+          "en": "Capacitor",
+          "file": "Bufs.json",
+          "id": "ElectricStorage"
+        },
+        {
+          "ja": "食いちぎる",
+          "en": "Bite",
+          "file": "Skills_Abnormality.json",
+          "id": "804501"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "食いちぎる"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "e0bddf58746d54b7ef7a1f69efdf38e3c3b21dafcdf0c283e154d8a4ebb46d29",
+      "text": "Shock Centipede (Canto IV)"
+    },
+    "shortName": {
+      "sourceHash": "ddec0d1bdc9a1be9563886da550d7aa42d297c1a6a387568c71dbc7d469105bb",
+      "text": "Shock Centipede"
+    },
+    "stageName": {
+      "sourceHash": "4f1b02226ee1b0cf5bdbce0b91a9c3c9fb87fa95a4c3bae37b03e28d524d2574",
+      "text": "The League of Nine in Memory, Floor 2"
+    },
+    "lead": {
+      "sourceHash": "16cff64269f3f6355f69f0465ff08f0d120d4a8a3c833453d04ff024e3877c4a",
+      "text": "Self-charge keeps it alive at 1 HP. Damage the Body first, then beat Wriggling Head and Wriggling Tail after the transition to exhaust its stacks. Breaking the Shield is a separate approach."
+    },
+    "statNote": {
+      "sourceHash": "0706eeec5d1d931f38adc6568ab53522155d68d386816c38bb677c76f53a70ce",
+      "text": "The regular encounter on Floor 2 of the Canto IV dungeon, separate from enhanced Canto IX, Railway, and Mirror Dungeon versions. Overall HP is 1183, Head HP is 424, and Body HP is 739. The Head stops acting after breaking; the Body can still act."
+    },
+    "skillNote": {
+      "sourceHash": "1d14ca57a55ecb7654e01f37be5c268fa253845d669cc82304b35cfa5444e3bd",
+      "text": "9 regular skills. Coil Up is assigned to the Body in the skill table but the Head in the action table; it is listed under the Head here, so check the Shield's target. Wrapping Coil's 1-Coin entry conflicts with an effect labeled Coin Ⅱ. Do not substitute enhanced versions' power or slot counts at 1 HP."
+    },
+    "priorities.0": {
+      "sourceHash": "8182d1a7eed17d82f556d707877809ebb321b1d3b15d62875ee51ffb7adf9c30",
+      "text": "Aim to Stagger the Body and reduce overall HP to 1. If you cannot fully break the opening Head Shield, focus damage on the Body."
+    },
+    "priorities.1": {
+      "sourceHash": "234024a67af2746537e8cc29ee06892263273767b985bb17aea3349c4f6c4e19",
+      "text": "At 1 HP, check Self-charge. Wriggling Head and Wriggling Tail consume 2 [On Use] and another 3 when you win the Clash."
+    },
+    "priorities.2": {
+      "sourceHash": "8d52c14bf174b813c5b00932ba950b57ccf526cf1f352da7040c377d59278320",
+      "text": "Save powerful skills for the area attack on the turn after Coil Up. Protect low-HP Sinners and those Paralyzed by earlier hits."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "48ffa934043b8a0001700b8e67d0700a40f1ac0d5d1ea41812a38670274af750",
+      "text": "Repeated attacks cannot finish it at 1 HP"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "47caa47f46c4ba1dcab1ff30755c4c70a24c00f555b56a46401a6fb86f232baf",
+      "text": "Self-charge locks overall HP at 1 while stacks remain. Make it use Wriggling Head and Wriggling Tail after the transition, and win those Clashes to consume stacks rather than simply adding more damage."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "f639c6e10b073973ff69f4c373af08d53a020fd2eaa54fb63593867a90674972",
+      "text": "Self-charge increases despite winning every Clash"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "c72387f0e30c1c0cda0f1d28aa8734ec6365150a5576194125124db6c9c2dc1b",
+      "text": "The regular Bite and Tail Poke gain 2 [On Use] and consume 1 [Clash Lose]. Even when you win, the net result is an increase. These differ from the consumption skills used after reaching 1 HP."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e5b73f2717c42f20cc7d2af96b36fcec55bd6c66333150fccd922a2732f189b0",
+      "text": "Attacking the Head does not reduce overall HP"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "febb0600fcea4a3f34a28e4a16e5ab5606d90c09d619aa46f048f2818c532746",
+      "text": "The Head has a Shield equal to its current HP. If your damage cannot fully break it, prioritize Body Stagger and reaching 1 overall HP."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "b8dcaa5b7753335e4cae9b01a3069c02b4624b2afb0b9b8f3ec8da7313580214",
+      "text": "Your main units fall to the attacks after reaching 1 HP"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "eb9e0f51df30e91198509827e578cde20b600ca3e36dc2fe4b895c1bee20b5bf",
+      "text": "After the transition, Wriggling Head and Wriggling Tail prioritize low-HP targets. Redirect them with faster Sinners and save healing and skills that can beat a maximum roll of 17."
+    },
+    "units.0.name": {
+      "sourceHash": "8dbcfb7de27614e3b66051ae1f93423ff933ffb5ede39b1d8cb5fa87ac761985",
+      "text": "Shock Centipede (Head)"
+    },
+    "units.0.part": {
+      "sourceHash": "917540c6475c9448880b8a3545afd189e94a0056d3e058232b57fa4f57ac57fe",
+      "text": "Head"
+    },
+    "units.0.hp": {
+      "sourceHash": "e95ea717993ad82b64b1f9d070396a7e443b47e632793ca64496cd6834c48801",
+      "text": "Overall 1183 / Head 424"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "5f753d84c9441f020c4c9d665d05b99fc4ab672aa6cc2f6363c8e9972b017eab",
+      "text": "Gains a Shield equal to current Head HP. The opening Shield corresponds to 424 Head HP."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "4a13b69e5efe7689d3a4b9df5f5d4f1457ca3729f86c19f36b5c059118a221ca",
+      "text": "Remains targetable after breaking, but the Head stops acting. Breaking it may still leave Self-charge locking overall HP at 1."
+    },
+    "units.1.name": {
+      "sourceHash": "8f9ab88835eac70e7c3de2d309f7f57b76005e458767f9e5a8c8a0fb66bfcf50",
+      "text": "Shock Centipede (Body)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "3e3dfdadec7d6b6c9368e7cd21a36a5926fc7560046263a8c87389504532299c",
+      "text": "Body 739 / Overall 1183"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "9fcfb4f906f6754245ad302e0df5e938e8d82501fa5bc5c549e600deef0dd6c4",
+      "text": "Weak to Pierce. The usual target for bypassing the Head's Shield, causing Stagger, and reaching 1 overall HP."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "c6ae633d92274bfacabb215395cdffa1d0f60ce8398cd42b023d31427ea89ef8",
+      "text": "Can still act and be attacked after breaking. It continues using Wriggling Tail after reaching 1 HP; use that Clash to consume Self-charge."
+    },
+    "phases.0.timing": {
+      "sourceHash": "66354b6b3fdcf355f64526108165bc337c0bc417eb739431cf1888f830fb36e5",
+      "text": "Dungeon preparation"
+    },
+    "phases.0.title": {
+      "sourceHash": "ef925bccd640b0b62296989bf0b05b1dc484580166b8e673fff296bc0316e1ca",
+      "text": "Prepare Body damage and strong Clashes for after the transition"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "3a4eb37361930e44844160b1a934b512e3f7fd9f24914822cd0b43da02b91a78",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. Bring Pierce for the Body, Blunt for the Head, and Gloom/Sloth damage effective against both."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "dcf4d077c248d2f5306f9aa69d69c2c8d10e62a33850796a545b83a78fdeecb0",
+      "text": "Prepare E.G.O that can beat High-voltage Electric Discharge and Wriggling Tail after reaching 1 HP. Do not spend all powerful skills in the opening."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "b9625e97f3c22e37a01c0e652669e8a6530242240ec39a9c75da007d9d9c810b",
+      "text": "Prepare HP and SP in earlier fights. Low-HP Sinners are prioritized after the transition, so healing and a fast redirector help."
+    },
+    "phases.1.timing": {
+      "sourceHash": "cd3bc3f93153fc1824e67904b4944dc261f08f4ee49ab9fef0b5acb45735558f",
+      "text": "Turn 1 / every 5 turns afterward"
+    },
+    "phases.1.title": {
+      "sourceHash": "d2acb66efa5e037d44981d3bbbf6ba46dfc12e2a7eca5810895f35a7de7d590c",
+      "text": "Choose between breaking the Shield and damaging the Body"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "00f9775a1fedcda25daef1b444ade7f8d6bc0df2eb4fd5eb31cb0b2e2a1c701e",
+      "text": "Coil Up grants a Shield equal to current Head HP. The usual plan is to focus the Body for Stagger without losing actions to the Shield."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "04bbe71891de83c21541caacd58bdcf18fcf8f72d1f9f9f54f7421a5ea792487",
+      "text": "If you can fully break the Head Shield, focusing the Head is another option. Breaking it consumes Self-charge and Staggers all Parts next turn. Partially damaging the Shield does not trigger this effect."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "43bcca9ad7e01e793e3306bb59dc91a59b74c4fefe443c76b79b3e8353cd4c93",
+      "text": "Splitting damage between the Head and Body while the Shield is active makes either goal harder to achieve. Choose one based on your current skills."
+    },
+    "phases.2.timing": {
+      "sourceHash": "90aa9cfef5d2c0111056298494c2fdc82f87416b13b5e13c5626df007d287e22",
+      "text": "The turn after Coil Up"
+    },
+    "phases.2.title": {
+      "sourceHash": "b16f268f470665ebc4d6760d089ab29cf4353d33ad43a197799436c6ef112624",
+      "text": "Beat the area attack and aim for Body Stagger"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "dfa4fb796cc25c2e030aa5fb593ef184dca8a887b97514ed92eb94b0c752b22e",
+      "text": "High-voltage Electric Discharge has 5 Attack Weight. Damage increases above 10 Self-charge, so Clash with a strong skill and check secondary targets' HP."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "463c34df09dd30308d50179bc6fceb04f79c54ae9ad18276ebd3b65c6fef7bda",
+      "text": "Sinners Paralyzed by earlier hits may fail to gain Coin Power. Reassign the major-attack Clash based on their current statuses."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "c12f3b84e8bc6348aedb3b1a84a004d65fd9c19e0d5ca88737acc3cb50b0b684",
+      "text": "Focus damage to Stagger the Body and bring overall HP to 1. Winning regular Clashes does not keep reducing Self-charge; do not wait in the normal phase for it to reach zero."
+    },
+    "phases.3.timing": {
+      "sourceHash": "c180cfe980f294170b873240c62bccc4d4ebbe7b5369a9a73110771e09a2e7be",
+      "text": "First transition to 1 overall HP"
+    },
+    "phases.3.title": {
+      "sourceHash": "9ee3c42e86fb31db4751515a7250e9b46635fa9d6b57cc9e70026d5d5dbcbc50",
+      "text": "Beat Wriggling Head and Wriggling Tail to exhaust remaining Self-charge"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "af9f8b9a9be871a9f7516b5aefeba88a7bd78e3d71f5d109d903bf845f9d5b33",
+      "text": "On its first death, all actions that turn are canceled and Self-charge increases by its current amount. Up to 20 stacks can remain, so the battle continues at 1 HP."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "53e594d99bb5ea4efa6c8b1c95bf19b67daeb65575542244d6b522c2b78081bd",
+      "text": "When its skills change to Wriggling Head and Wriggling Tail, redirect low-HP-targeting attacks with faster Sinners and use winning regular skills or E.G.O. Each consumes 2 [On Use] and another 3 if you win, for 5 total per skill."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "ed6b9a27b2eee3c36a063a19ddf39b7eed26601ecac23dfe34e815aa181861d9",
+      "text": "If the Head is already broken, its skills do not appear, leaving the Tail to consume Self-charge. Do not assume the fight will end in 1 turn; survive until no stacks remain."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "03ea20bad5b22d6e2a2801a263142d76c88eeec9d05e63b8e55cfe9205fd0fc9",
+      "text": "Reaching 1 HP through turn-boundary damage such as Burn may not immediately trigger the same action change. Check current skill names and Self-charge; win when the consumption skills appear."
+    },
+    "skills.0.name": {
+      "sourceHash": "ce1120df17e8e1b19e003bc6bb94b552dffaf884a7506e44af52537caab7a4a7",
+      "text": "Bite"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "3780e95bf19facab5bf4478063efb95c17da8a3020f1599ad7ab390b61582161",
+      "text": "[On Use] Gain 2 Self-charge."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "7f5ae226027b90cb1864fe0b2b82f7cd2422f72e2b7d8cce1bb0afb5f32caf7b",
+      "text": "[Clash Lose] Consume 1 Self-charge."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "41bf192435d00a79a5a1093e4fafd02eb8d83538d6c891a2df5e64e39e5fbbf9",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.0.response": {
+      "sourceHash": "2710e79b671d3d50934f18600e2352557948d780e82737f44be1f32076c8e776",
+      "text": "Gains 2 Self-charge [On Use] and loses 1 when you win the Clash. Winning prevents hits and limits the increase, but does not continually reduce its stacks on its own."
+    },
+    "skills.1.name": {
+      "sourceHash": "eb21e14ccdb785b6e84510d7b3edf846d9796d107f4256fa7c3c543360e75c82",
+      "text": "Tail Poke"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "3780e95bf19facab5bf4478063efb95c17da8a3020f1599ad7ab390b61582161",
+      "text": "[On Use] Gain 2 Self-charge."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "7f5ae226027b90cb1864fe0b2b82f7cd2422f72e2b7d8cce1bb0afb5f32caf7b",
+      "text": "[Clash Lose] Consume 1 Self-charge."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "41bf192435d00a79a5a1093e4fafd02eb8d83538d6c891a2df5e64e39e5fbbf9",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "b25e25e56a3da40867f96165888a877356bcb9d41bc8c12fef91f3f18100a007",
+      "text": "Ⅱ[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "3f8b599974049a28c513306bfe3d0ce6c88e2e6391315ba3d3259e65c5d1385a",
+      "text": "Clash to prevent Bleed and next-turn Bind. Gaining 2 [On Use] and consuming 1 [Clash Lose] means Clash wins alone cannot reduce Self-charge to zero."
+    },
+    "skills.2.name": {
+      "sourceHash": "02761cf9dfa077ac11234badd8c4a39d3e965ad95fffe689095085d0abf0b502",
+      "text": "Wrapping Coil"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "3780e95bf19facab5bf4478063efb95c17da8a3020f1599ad7ab390b61582161",
+      "text": "[On Use] Gain 2 Self-charge."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "7f5ae226027b90cb1864fe0b2b82f7cd2422f72e2b7d8cce1bb0afb5f32caf7b",
+      "text": "[Clash Lose] Consume 1 Self-charge."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "b29bccadfb84c029c5b1e8ffd21021db58f5c9f79786c3ffc3009565c6466b91",
+      "text": "Ⅰ[On Hit] Inflict 2 Fragile."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "5312e55c6dbf8e67043b3b9080929360f6f23462074134bcae50c0ceda7ff183",
+      "text": "[Heads Hit] Inflict 2 Bind next turn."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "5b02458d1856c629f337e04fcf72c6fd53d45a70ed62fba83bf3704d9cf475f8",
+      "text": "The source lists 1 Coin but labels the Bind effect Coin Ⅱ. Its Coin assignment is unconfirmed."
+    },
+    "skills.2.response": {
+      "sourceHash": "84475547db71a2c0e6eaea999a446d3b844a8fdcbf031eeda0711d54e2c7676e",
+      "text": "Fragile increases subsequent damage, so win the Clash to prevent the hit. The source lists 1 Coin but labels Bind as Coin Ⅱ, leaving that effect's Coin assignment unconfirmed."
+    },
+    "skills.3.name": {
+      "sourceHash": "27fe0424f0ce50f270b2b6e5df932c83dbcb40be9fc6f3b081b1425d4015320b",
+      "text": "Electric Load"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "a83fa1ce35ae205fd377e5251dbb4e19291ad08592c5d619cec4028390bad858",
+      "text": "[On Use] Gain 1 Self-charge."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "528c647dc01d1c02389393e6dabcf3ac94953d635cc642ad48f61605c5b2c2db",
+      "text": "Deal +10% damage if the target has Paralyze."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "4d45be2661f453a61c314e12adbbd950ad786dc9ce7926d5dc9feac9965a2356",
+      "text": "Ⅱ[On Hit] Inflict 3 Paralyze."
+    },
+    "skills.3.response": {
+      "sourceHash": "4377c18f8528ad2fe95d7f3f9c5c48d8163c6c560d07db823c9470004ea8a87a",
+      "text": "Gains 1 Self-charge [On Use] and inflicts 3 Paralyze on the final hit. This weakens skills relying on Coin Power; avoid automatically assigning a Paralyzed Sinner to next turn's major Clash."
+    },
+    "skills.4.name": {
+      "sourceHash": "23f8b5d815938f1d163a25d1ad432bcaec32f40f0e5a998fafafcb1e42876616",
+      "text": "Electric Release"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "a83fa1ce35ae205fd377e5251dbb4e19291ad08592c5d619cec4028390bad858",
+      "text": "[On Use] Gain 1 Self-charge."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "528c647dc01d1c02389393e6dabcf3ac94953d635cc642ad48f61605c5b2c2db",
+      "text": "Deal +10% damage if the target has Paralyze."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "7e7bd01f6faebe4a60564ba4474965525d20523476e78da212851eacb6819aea",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze."
+    },
+    "skills.4.response": {
+      "sourceHash": "ae5ea56c793cc37a2585040fec7c8f64744e5bd38896bd7e6c57f4724f647284",
+      "text": "A 3-Coin attack that deals more damage to Paralyzed targets. Keep it away from low-HP or Paralyzed Sinners."
+    },
+    "skills.5.name": {
+      "sourceHash": "f91972bc63204e461c94645f2024ff433a734e53c74ec6dbd427dc3cffbffa01",
+      "text": "High-voltage Electric Discharge"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "104b1bd22b89c5a98a5944e3f70617f5d9536b85b008a026c2244fa922066895",
+      "text": "If Self-charge exceeds 10, deal +10% damage per excess stack."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "190a8b2fec78e969dc8275515b763ce000520af1987fa7e625434bd432976f65",
+      "text": "Consume all Self-charge."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "b29bccadfb84c029c5b1e8ffd21021db58f5c9f79786c3ffc3009565c6466b91",
+      "text": "Ⅰ[On Hit] Inflict 2 Fragile."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "ad3a731558eef1f358c3cb3e013ee4765510714763bb824bf110be9943bdb390",
+      "text": "Ⅱ[On Hit] If the target has Capacitor, deal fixed damage equal to 40% of final damage."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "bb9db52edcf79a6f8b3fb418cfec1a657ec17a25371b810f030d873e37b2d081",
+      "text": "Ⅱ[On Hit] Inflict 3 Paralyze and 1 Capacitor."
+    },
+    "skills.5.response": {
+      "sourceHash": "d605891549ea585ba1ae26189e6ea5fc5891184c353b4b0cdaec9dc6f468c18b",
+      "text": "5 Attack Weight. Damage increases above 10 Self-charge, with additional fixed damage against targets with Capacitor. Win using a powerful skill. The Self-charge consumption does not list a Clash outcome requirement."
+    },
+    "skills.6.name": {
+      "sourceHash": "499054f22bda024e54712706118f67247551428dba98fe10b63cb3f1c52ad2db",
+      "text": "Coil Up"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "55b3304e4173e70c88f0623cc2b9155f0b9211dc36faa99d676c3f8202609b5e",
+      "text": "While this skill slot is present, gain a Shield equal to the Head's current HP."
+    },
+    "skills.6.response": {
+      "sourceHash": "3c47f3478b8d900139bd8852de5fa88a2765693f315777db1336b7c6525b65c5",
+      "text": "Gains a Shield equal to current Head HP. Focus the Head if you plan to fully break it; otherwise, damage the Body to reach 1 overall HP. Offsetting alone does not count as removing the Shield."
+    },
+    "skills.7.name": {
+      "sourceHash": "b187d7dc72f9234468cfc1f554f76a58069db6963d017998d5ac7cc9dd0311eb",
+      "text": "Wriggling Head"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "c79e94c77b34c393c013c8ac8d4fcff7a81c59dd26fe105d0a65945717cca8ac",
+      "text": "Prioritize the enemy with the lowest HP."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "6015e1c1e9467c66103c6571c772e2adc83bf91956c1726a21280af750bcb9f9",
+      "text": "[On Use] Consume 2 Self-charge."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "84aa9e5b0106a7c190edb993c9a85b83b92b9a9408b9a833b812452b218ba836",
+      "text": "[Clash Lose] Consume 3 Self-charge."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "4d45be2661f453a61c314e12adbbd950ad786dc9ce7926d5dc9feac9965a2356",
+      "text": "Ⅱ[On Hit] Inflict 3 Paralyze."
+    },
+    "skills.7.response": {
+      "sourceHash": "6e5e95a3d6931f90c939ba581ae18db2a6338d753b7abb3140bd985e64191b2a",
+      "text": "Used after reaching 1 HP. Consumes 2 Self-charge [On Use] and another 3 if you win, for 5 total. It targets low-HP Sinners, so check whether a faster ally can redirect it."
+    },
+    "skills.8.name": {
+      "sourceHash": "b32620d41d16bac4744474c6ac617463e5f7cbf9e9724a44c1c67b1fd4643559",
+      "text": "Wriggling Tail"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "c79e94c77b34c393c013c8ac8d4fcff7a81c59dd26fe105d0a65945717cca8ac",
+      "text": "Prioritize the enemy with the lowest HP."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "6015e1c1e9467c66103c6571c772e2adc83bf91956c1726a21280af750bcb9f9",
+      "text": "[On Use] Consume 2 Self-charge."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "84aa9e5b0106a7c190edb993c9a85b83b92b9a9408b9a833b812452b218ba836",
+      "text": "[Clash Lose] Consume 3 Self-charge."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "7e7bd01f6faebe4a60564ba4474965525d20523476e78da212851eacb6819aea",
+      "text": "Ⅲ[On Hit] Inflict 3 Paralyze."
+    },
+    "skills.8.response": {
+      "sourceHash": "7a8dbf768cfa2c092102b69177d97c921e3e742903f87ce54d4c2706281bce26",
+      "text": "Used after reaching 1 HP, with a maximum roll of 17. Win using E.G.O to consume 2 Self-charge [On Use] plus 3 [Clash Lose], for 5 total. Avoid losing with a weak skill and letting the attack hit."
+    },
+    "passives.0.name": {
+      "sourceHash": "6b34321e40b1793ec5f1832ede91eeacb385ec4082112e37e6d743eb3a5399cc",
+      "text": "Living Nerves"
+    },
+    "passives.0.effect": {
+      "sourceHash": "77e8b8613d138c92be41005d642122a9f30d0764f96c8ad309c875f49d574ada",
+      "text": "On death, cancel all skills for that turn. Gain Self-charge equal to its current amount."
+    },
+    "passives.0.condition": {
+      "sourceHash": "34f3fb7e6858ca65401827b5c763f896d7b1d7ab31b4c7b847794a76e5d2dddb",
+      "text": "First death"
+    },
+    "passives.0.response": {
+      "sourceHash": "2cb2e3f25a6f42a3b450ae5b50d260d04fe0843124d87bf45a19d99bdab2538c",
+      "text": "All actions that turn stop and Self-charge increases by its current amount. This is why the fight continues at 1 HP; prepare the next Clashes to consume its stacks."
+    },
+    "passives.1.name": {
+      "sourceHash": "ad442690ce9a54fe33f34ba8cc264872bc0ab5e59203623a96ff02bb954fb8dc",
+      "text": "Undying Persistence"
+    },
+    "passives.1.effect": {
+      "sourceHash": "ccc10361756874b55f785a9982ef30e0c99d09f3cb0ce3ea2939b76c01d97a83",
+      "text": "Every 5 turns, gain a Shield equal to Head HP."
+    },
+    "passives.1.condition": {
+      "sourceHash": "d8cd742e534ec4eae38f4f9229b638ad0bf5927490011f3aca8e6d06b19eff65",
+      "text": "Initially / every 5 turns"
+    },
+    "passives.1.response": {
+      "sourceHash": "40797c5dfcfdc6f0cca420b49f0f6d34edfaf3c173e5b565cef10275a480e07f",
+      "text": "The Shield equals current Head HP. Be aware that damage to the Head may not directly reduce overall HP while it remains."
+    },
+    "passives.2.name": {
+      "sourceHash": "80e8f84cfb27016dcabeafd3e33c3fc4573212c4ced6f40317e7961370bf23ef",
+      "text": "Terminated Persistence"
+    },
+    "passives.2.effect": {
+      "sourceHash": "9093884ec4d0ccb05c0aa31fcfe8ee4e577a1968e189443d4dcacb152610279f",
+      "text": "After using Coil Up, fully depleting the Shield consumes Self-charge. All Parts become Staggered next turn."
+    },
+    "passives.2.condition": {
+      "sourceHash": "de2e1089a7105f10866bc2e62531efaa58c9515b7fdd4cc854c6a2d42b7beaf2",
+      "text": "Shield depletion after Coil Up"
+    },
+    "passives.2.response": {
+      "sourceHash": "08cf2883375b6e4c44c327cad0d99f91d2d660f6966daee08399072528644657",
+      "text": "Fully breaking the Shield consumes Self-charge and Staggers all Parts next turn. If pursuing this route, focus the Head rather than leaving the Shield only partially damaged."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "0297e08fb1afaca63a4bcf51d5261b4fe02f0f7185478c539e5f6a3b253c5b10",
+      "text": "Self-charge"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "996dcd619061c08618182f2f93aeb28fb7319d0b1c12a4f80017455cb1f75f26",
+      "text": "Maximum 20. If stacks remain after death, overall HP stays locked at 1 until all are consumed. The first transition adds stacks equal to the current amount."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "1287fa30a66d409b74fc800bfb81cadbeff5980d78b71e2d08b622ade9aa0ef6",
+      "text": "Limit buildup during the normal phase, then win against the consumption skills after reaching 1 HP to exhaust the remaining stacks."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "15f85845df0419fa3abd4a0aa260bdfaa9b1c2a955292e5b683d91fb428d9ce9",
+      "text": "Capacitor"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "4631509267738e929a331228f8f15a5786673f179dd2550b2ade7ae37802e2ae",
+      "text": "A unique status checked by High-voltage Electric Discharge. If present, its hit deals additional fixed damage equal to 40% of final damage."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "37dd020b176135b459d821794de062e9f8ababd17d3fba517d4bac8a06e9d43e",
+      "text": "Keep the major attack away from Sinners already carrying it; check assignments and healing."
+    },
+    "warnings.0": {
+      "sourceHash": "36c43e84438d16e26c23eb6c3485268b2cc4e3e8deb8c8bcac118de4f13039f2",
+      "text": "The 1-HP lock is Self-charge's effect. Adding more damage alone will not finish the fight."
+    },
+    "warnings.1": {
+      "sourceHash": "8c013076af92cc839ce7ffd784db8164ecc328c785829adde1ae5a97d3bd0954",
+      "text": "Normal Self-charge gains differ from consumption after reaching 1 HP. Repeated Clash wins do not guarantee reaching zero in the normal phase."
+    },
+    "warnings.2": {
+      "sourceHash": "a0f37ca37c27f5287a425539ea1925b4db587164016817fb4be118352b96bf7f",
+      "text": "Breaking the Head may not immediately defeat the enemy, and also removes some post-transition skills. Check remaining Self-charge."
+    },
+    "warnings.3": {
+      "sourceHash": "b8a0608c995de09419b7e36bc3e3f7938ca33f13d2b3b5b73f4940c0afe8e887",
+      "text": "The turn-5 event may be canceled by the transition to 1 HP. Do not make its successful Self-charge reduction a required step."
+    },
+    "warnings.4": {
+      "sourceHash": "91c9b39c3fb0d1af7cd2d6e01aa62f90c3258e18c2aa5cd2855f61bbae8fb347",
+      "text": "This is separate from Canto IX and Railway Shock Centipedes. Do not apply their enhanced skills or special deployment conditions here."
+    },
+    "preparation.0": {
+      "sourceHash": "742f90c5fb9e8fbd237252f7fef3f0f6b6b10d0da47f40ee77242b13a5de317d",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Prepare Pierce for the Body, plus Gloom and Sloth damage."
+    },
+    "preparation.1": {
+      "sourceHash": "56685bac0b4cb42268885ea4b4f94b130e157d52a63579de8721fa34a28ac945",
+      "text": "Save winning skills for the 5-Attack-Weight area attack and the post-transition attack rolling up to 17. Heal low-HP Sinners beforehand."
+    },
+    "roles.0.name": {
+      "sourceHash": "6864ac31009f222cd5bb1a685c93af602083c10824c992877f49a89318fed978",
+      "text": "Focused Body damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "1ad34d48f8f32ed262d11a07745242a4ed223814277f9bc30792ceb8163b2dc4",
+      "text": "Bypass the Head Shield to cause Stagger and reach 1 overall HP."
+    },
+    "roles.1.name": {
+      "sourceHash": "63d8c557196467d8e676c1e35452666330f0c796e2e1c9b424eeafed0cff5c5c",
+      "text": "High-power Clash specialist"
+    },
+    "roles.1.reason": {
+      "sourceHash": "694bace25b16128652d5573653788398689942d0e61ab93c147c39100cef67c0",
+      "text": "Stop the area attack, then consume 5 Self-charge per skill after the transition."
+    },
+    "roles.2.name": {
+      "sourceHash": "d2bbc3e793a01f2a57b2deeb895a105a5c700e7f5f553703d9fd55ed4a592300",
+      "text": "Healing and fast redirection"
+    },
+    "roles.2.reason": {
+      "sourceHash": "2c711e0b1f3fbe32f99ccae875f3eff533c97f100b295120a291d728c907bae9",
+      "text": "Protect weakened Sinners from Wriggling Head and Wriggling Tail's low-HP targeting."
+    }
+  },
+  "messages": {
+    "boss-copy:shock-centipede": "complete",
+    "【リンバス】4-54 衝撃ムカデ（4章）の攻略｜Limbus Assistant": "4-54 Shock Centipede (Canto IV) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-54「衝撃ムカデ（4章）」の攻略。HP1で止まるのは自家発電が残っているため。まず胴体を削り、移行後の蠢く頭・尾へ勝って発電を使い切らせよう。バリアを割る攻略とは手順を分けて考える。": "Shock Centipede (Canto IV) guide for Limbus Company 4-54. Self-charge keeps it alive at 1 HP. Damage the Body first, then beat Wriggling Head and Wriggling Tail after the transition to exhaust its stacks. Breaking the Shield is a separate approach.",
+    "4-54 衝撃ムカデ（4章）": "4-54 Shock Centipede (Canto IV)",
+    "4-54「The League of Nine in Memory, Floor 2」": "4-54 · The League of Nine in Memory, Floor 2",
+    "衝撃ムカデ（頭）の外見": "Shock Centipede (Head) appearance",
+    "衝撃ムカデ（頭）のスキル": "Shock Centipede (Head) skills",
+    "Shock Centipede (Head)の外見": "Shock Centipede (Head) appearance",
+    "Shock Centipede (Head)のスキル": "Shock Centipede (Head) skills",
+    "衝撃ムカデ（胴体）の外見": "Shock Centipede (Body) appearance",
+    "衝撃ムカデ（胴体）のスキル": "Shock Centipede (Body) skills",
+    "Shock Centipede (Body)の外見": "Shock Centipede (Body) appearance",
+    "Shock Centipede (Body)のスキル": "Shock Centipede (Body) skills"
+  }
+}

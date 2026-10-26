@@ -1,0 +1,367 @@
+{
+  "kind": "team-copy",
+  "id": "tremor",
+  "sourceGuide": "src/data/team-guides/tremor.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "85bebce8b350c82da502eb1b44c599dc6baf912a14895c28de486c3895bc6ed2",
+      "text": "Tremor - Scorch (Dawn Office + Thumb)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "03e0c7c459b25eaae8a320b98c98d1175c9390c846e18f0ef9f5bf09a7887442",
+      "text": "Build Burn through the Dawn Office and Tremor through the Thumb, then convert both into Wrath damage through Tremor - Scorch bursts. This variant has the highest damage; in long fights, the usual approach relies on the Dawn Office trio, the Nursefather, and Blade Ryōshū."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "3304f335832a90e4e220c93857c566cecc8d95e04096ec90dd198ee6a618c983",
+      "text": "Transforms to build heavy Burn and generates resources through follow-ups."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "3701e5f3ae7b97ea10d8c7650c827496a636785c36a5b4b4b8690084ddfc8008",
+      "text": "A damage dealer that builds Coffin for enhanced S3. Also converts Tremor to Tremor - Scorch."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "6b562c8637ebee39897b85ee6d2dfbbc8970e7cdef164975fbb789c8e78d48ea",
+      "text": "Crack of Dawn distributes Dawnherald and also triggers Tremor Burst."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "36b99644e2c9d909e5c36265bd7cb749ed25b4c7a52b7b8da1d85fa2f27c8371",
+      "text": "Handles attacks with The Eye of Precognition and unleashes Disposal for Burn and Tremor."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "9d88a36622921bbae6a2409a0e5751e40e91bf720cf2273d8514f94cea5a6e78",
+      "text": "Builds The Duel Escalates for repeated Tremor Bursts through enhanced S3."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "13e1fc09a168332223c6e0234d35240234b8c10db5ed78c0a4a6384c43217c5f",
+      "text": "Savage Tigermark Rounds enhance S3 to trigger Tremor - Scorch bursts."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "c322f38b7d1550457c2141e2e187a330fa371afc8bc83eca7b737a049466dde0",
+      "text": "Lacks the Tremor keyword, but is used in long fights as an exceptionally strong independent damage dealer."
+    },
+    "data:examples:0:support:0:note": {
+      "sourceHash": "4fca8a26727913e6394eb6b164cb9ac8baf1813124cc2bc2bcc24a5d45cd0226",
+      "text": "Lacks the Tremor keyword, but the support passive adds Burn Count to sustain the Burn used by Tremor - Scorch."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "2e49dfd1798b821399274129ce281998a9f6dbc9eddd6c671f15686f43c78835",
+      "text": "Used against an enemy already carrying Burn, it applies large amounts of Burn and Tremor, greatly raising Tremor - Scorch damage."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "657f9543506377e8f8ceab555f96d26ba9a210898b8f36e51506635db5f2e11b",
+      "text": "Wrath Fragility raises the Wrath-focused damage of Tremor - Scorch."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "402a6a2d6b84c5de81865b1f3627b54a1d7cadb129cb49c4f87e575d23483265",
+      "text": "Combines healing and debuff application."
+    },
+    "data:examples:0:egos:3:note": {
+      "sourceHash": "a5df0280cd7ab401b314ed42fa682b931624cd24ca858310a280c9fe8b509eb5",
+      "text": "At Threadspin Ⅴ, provides substantial healing while generating resources."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "5fd19ec742fa4dd2b6093c2f8471ff764bed8c9e4c433bbb3de5e0e42929d653",
+      "text": "Physical Tremor (T Corp. core)"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "af1e5bc7374fa5ee2d20e6495e548c3149197805ddbe4d542eae7df55e70d82c",
+      "text": "Improve clash strength through Tremor while repeatedly attacking and triggering Tremor Bursts. Against a single boss, use the 2 T Corp. members' Tremor - Chain to lower enemy Clash Power during setup, then convert to Tremor - Reverb when attacking to turn bursts into direct damage."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "102480348b1be551d977e57c6809645ac97bcccfa46d1e94f9c86f002ec60033",
+      "text": "A core unit that gains Haste and Clash Power through Borrowed Time for strong early clashes. S2 converts Tremor to Tremor - Chain."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "d88cf0dda842eb1e6f398e9849535925c4a4dc9fcfc7909ab67590d345ebf51c",
+      "text": "A tank that draws attacks through Aggro and strikes back with Tremor Burst."
+    },
+    "data:examples:1:members:2:note": {
+      "sourceHash": "b93a62bf2ebc5dbf18f6ff9de010e2e417b5c85765f15065a2e0294cd68e621b",
+      "text": "Controls early clashes through Borrowed Time and lowers enemy Clash Power with Tremor - Chain."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "a4e037cd182a76aff915cb4fd567e70f7a2e9ea703dd5dd1e9438368dc542481",
+      "text": "Enhanced S3 triggers Tremor - Scorch bursts."
+    },
+    "data:examples:1:members:4:note": {
+      "sourceHash": "be8351413dd6a7f401892e84573989a0481e8396f31ee71f8bc53d1a5d723554",
+      "text": "Scorch Propellant Ammo enables repeated S3 Tremor Bursts and replenishes Capo IIII's ammunition."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "cf52fe10b4cb3c7b5e3a173e158684f4cd56f86497f9732099ac688fbe8c2b61",
+      "text": "A finisher that builds at least 10 Tremor Count, then uses S3 for Tremor - Reverb and 3 Tremor Bursts."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "3f812b5f52f6799cee782b9e97aad5382eeaec09c9f677014328ed82378df3f7",
+      "text": "Spreads Tremor through S2 and S3, while debuffs and Defense Level Down raise the whole team's damage."
+    },
+    "data:examples:1:support:0:note": {
+      "sourceHash": "0b628e65f67d5a7b4f2917df333d48835cedca340803d34cb96bc696e2ac35ad",
+      "text": "Adds damage to the Coin that fires the final round, increasing Capo IIII or Soldato II's S3 damage."
+    },
+    "data:examples:1:egos:0:note": {
+      "sourceHash": "de14e8bb37d211ecde800b4e0cbc8fdb0f432db557e2042de1fff515e3093de4",
+      "text": "A finisher that applies heavy Tremor and repeated Tremor Bursts. The Amplitude returns to its original state afterward, so prepare to convert again if the enemy survives."
+    },
+    "data:examples:1:egos:1:note": {
+      "sourceHash": "ff427c3fd9537cee470659d5d4f83aa7fbd2442d634ba54b936e911cfb21fc25",
+      "text": "Converts Tremor to Tremor - Reverb and deals Sloth damage over an area through Tremor Burst."
+    },
+    "data:examples:1:egos:2:note": {
+      "sourceHash": "4bca4134bfec27273bbfac05912854b6564146cf32b79caaeeceb09333e62a66",
+      "text": "Inflicts Burn and Tremor, then triggers Tremor Burst."
+    },
+    "data:examples:2:name": {
+      "sourceHash": "e3dd22480118512638fbddc7262bf87a9c8135f83ec3dfde199abf0aa72ed529",
+      "text": "Tremor - Reverb (Cavernous Wailing)"
+    },
+    "data:examples:2:note": {
+      "sourceHash": "585fd15ecf1f150c201f093231e4e6c3d8ea7e50a44cb941dbaa581644608cd4",
+      "text": "Apply heavy Tremor, convert it to Tremor - Reverb with Cavernous Wailing, then deal Sloth damage through bursts. Pair Potency and Count suppliers with Heishou and Thumb Identities that trigger repeated bursts. Slow setup makes this better for long fights against single bosses."
+    },
+    "data:examples:2:members:0:note": {
+      "sourceHash": "fe595f535f3ed3ccece81979fdf5de26902919a6cc3e0c376e57d65732f25b01",
+      "text": "Immediately supplies heavy Tremor with S2 Quake Rounds."
+    },
+    "data:examples:2:members:1:note": {
+      "sourceHash": "1ddb6110821af22282b7dd198b854e39d3e2bb3f119725f67852ba095ee66f11",
+      "text": "Applies Tremor while repeatedly bursting it. Concussion increases the Stagger Threshold raised by Tremor Burst, while Commanding Cry also supports allies' clashes."
+    },
+    "data:examples:2:members:2:note": {
+      "sourceHash": "887b15c9e9cb905a1551eb60d2830a3a73948669fd3263ecd281ee486a60fb5d",
+      "text": "Cycles Tremor Count between herself and the enemy to supply large amounts."
+    },
+    "data:examples:2:members:3:note": {
+      "sourceHash": "42736f75f22c0f260ebae6e89a79feeb9227cc1f7538ed3a6617c6001cd8f1be",
+      "text": "A main Tremor attacker whose Savage Tigermark-enhanced S3 applies heavy Tremor and 3 consecutive bursts."
+    },
+    "data:examples:2:members:4:note": {
+      "sourceHash": "c9cb7d73be511e4b4dc427fbb139f9981c54081712557e6a867da6dc5225e7a3",
+      "text": "Lacks the Tremor keyword, but fills Faust's slot to use Everlasting. Fast attacks and Rupture provide damage while Tremor is being prepared."
+    },
+    "data:examples:2:members:5:note": {
+      "sourceHash": "e0d8893205f183094d0590ba4a387a52e085fc98af665222b79a32b674893634",
+      "text": "A finisher that uses S3 for Tremor - Reverb and 3 Tremor Bursts."
+    },
+    "data:examples:2:members:6:note": {
+      "sourceHash": "8de7fb0b316411514d6b3e8b74a52bc2d0fd8cd6f0df1f411ae1ae55455c31a7",
+      "text": "Triggers many Tremor Bursts to deal damage through Tremor - Reverb."
+    },
+    "data:examples:2:egos:0:note": {
+      "sourceHash": "1bc87d81a5b9c58b8860e637a332e7407505ea58ba4a0f5f6bd641b3b302e4ba",
+      "text": "The core E.G.O: converts Tremor to Tremor - Reverb and deals Sloth damage over an area through bursts."
+    },
+    "data:examples:2:egos:1:note": {
+      "sourceHash": "fa540722f58564960c02074c1eec2de0969fc50870392196a0bbacc5a0881615",
+      "text": "A finisher that applies heavy Tremor and repeated Tremor Bursts."
+    },
+    "data:combos:0:note": {
+      "sourceHash": "d78d267e452a027cb2c4004cd1647440e25ba0f0359e5415cdd404813ac021be",
+      "text": "Deploying all 3 completes the Dawn Office's coordinated follow-ups and generates overwhelming Burn Potency and Count. Follow-ups also handle ordinary enemies. Combine with the Thumb to convert Burn and Tremor into Wrath damage through Tremor - Scorch."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "75f0b2b458b5c3d35804a1f0af030ffd1d359809598f71469754b6ba11ef7af4",
+      "text": "Transforms to spread Burn Count. Does not apply Tremor."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "1644f5628ba334ce88768a76c5c0dd549fe8fe6c13e308191139a979f46ec0f0",
+      "text": "Builds Coffin for enhanced S3 and Dismemberment at High Noon, converting Tremor to Tremor - Scorch."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "c0b8b7aeb86b43c66695e66d849881eb5c40dbeed2811b5e0c0fe5fd989d574f",
+      "text": "Distributes Dawnherald and also triggers Tremor Burst through enhanced S2."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "4910e85df02bc04784fee008084d77cb39c88dd93a209d5a7b9f28c4bce88e81",
+      "text": "Thumb package"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "b037c50ac46783df85db081c95bb86c17fd4d3214acd7790525ef344c4ca6267",
+      "text": "Applies Burn and Tremor together, then deals heavy damage through S3's Tremor - Scorch bursts. Soldato II's ammunition supply is useful in medium or long fights. Soldato II and Dawn Office Fixer are both Sinclair, so choose one."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "91b480953908c320ba17d90d0de9136460395f728e333d3bb99e1960e3d987f6",
+      "text": "A Nursefather using The Eye of Precognition and Disposal. The Apprentice follows up while the eye is active and protects him through Assist Defense while it is overheated."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "9472cf1680087b9422987659dd742d4b70ef60a020b7bc1441f08c317b013afc",
+      "text": "An Apprentice that uses The Duel Escalates for repeated Tremor Bursts."
+    },
+    "data:combos:1:members:2:note": {
+      "sourceHash": "06e69525e57f6123f61fe2d2965389c84d706447a48a66a7156de185f42a7823",
+      "text": "Savage Tigermark Rounds enhance S3 to trigger Tremor Burst."
+    },
+    "data:combos:1:members:3:note": {
+      "sourceHash": "e6e4a4d1d30d8853b7c04dc24f9ec434259156b4ccc6fa7e6cc47204707070d0",
+      "text": "Scorch Propellant Ammo enables repeated S3 bursts while supplying ammunition."
+    },
+    "data:combos:2:name": {
+      "sourceHash": "058e9dfe80fd6635855e4e528b9a0a286b199c805e57213c501fc0b854d04017",
+      "text": "T Corp. pair"
+    },
+    "data:combos:2:note": {
+      "sourceHash": "ed189294ffa0da8ab0fc2751828a04ad464ef897e3ba21ac45e13f0efba24f62",
+      "text": "Both control early clashes through Borrowed Time and lower enemy Clash Power with Tremor - Chain. Good for defending during setup against a single boss."
+    },
+    "data:combos:2:members:0:note": {
+      "sourceHash": "3f9ec8a3c06241ca1089d95a6a4e849e6704147a0d9dd0afb383f918ed156c71",
+      "text": "Releases damage accumulated under Time Moratorium as Sloth damage."
+    },
+    "data:combos:2:members:1:note": {
+      "sourceHash": "54ccfbc0ec5f8fa43ec5fac609213ee8a78f068615d338633c405d7398741827",
+      "text": "S2 converts Tremor to Tremor - Chain while also maintaining Count."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "23d9108b270427770633b483eed6ad6215d5cf1b6d0b27f2e4be1d589f510718",
+      "text": "Scorch Propellant Ammo enables repeated S3 bursts and replenishes ammunition-using allies. Modest outside S3."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "7f6228fbb005d3364e2bdf18d383e665c97ce25cece4686507e28a1372051432",
+      "text": "A finisher that builds Tremor Count through S1 and S2, then uses S3 for Tremor - Reverb and 3 bursts. Also has strong basic performance independently of Tremor."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "7cf7b57b47442e94980158f60d3855cf4d0d5836d475a80defa7f1a467eb349b",
+      "text": "Builds Tremor Count with S1, then makes S2 and S3 hit multiple targets to spread Tremor. Debuffs and Defense Level Down support the whole team's damage."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "336420e36e9d97052b4be3ec545016ec299317281e2076ac75283d9935c8edfd",
+      "text": "Uses allies' Tremor application to enhance clashes and damage against enemies with high Tremor."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "5eb364ce5a0a2f0bde2e2851f95e99aa9f7855ac06e6e0d919fd22d9a781e07a",
+      "text": "S2 Quake Rounds immediately supplies heavy Tremor to fulfill allies' conditions. S3's Fragile also raises damage from allies acting later."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "0886814e7d654f38ccde61d613d95816c54225fa0255ae6dfdd5c9c5fb77310b",
+      "text": "Discards S1 to repeatedly use S2 and S3 for many Tremor Bursts. Excels at dealing damage through Tremor - Reverb."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "cdde162bf8fc2588c68e1b38dedac43172359761a7f10174831b9721a190a0bd",
+      "text": "Three follow-ups add damage while contributing to Tremor Bursts."
+    },
+    "data:flex:7:note": {
+      "sourceHash": "8293586184b9ccc9e52fd0fd12cb7edf429cb70c154f315df60494deafb247e5",
+      "text": "Gathers Bright cards for Kōzan [光斬] follow-ups, raising damage while contributing to Tremor Bursts."
+    },
+    "data:flex:8:note": {
+      "sourceHash": "6e84f0602f007d6e68b119eb314b9d92a3fd83d0ba398e497a084b06f6023fe8",
+      "text": "Lacks the Tremor keyword, but her passive supports allies' SP for a faster opening."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "95d80fd45f5b8dbed9158041264bd80fe688f4ae2923a9082f8269f7fabec75d",
+      "text": "Discards S1 to build his own Tremor Count, then repeatedly bursts Tremor through S2 and S3. His passive also spreads Defense Level Down."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "f2c931b4cfc13ca0e361bea9f6b493eba33f87fc91959a79f11fbaea0fdd905f",
+      "text": "A Count supplier that builds his own Tremor Count and transfers it to enemies. Can barely trigger Tremor Burst himself."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "ec1a250e6861f4603d05f0289162a15953baaf112e05fc95e7046c9e92b6b8e0",
+      "text": "Supplies Tremor Potency through every skill. Relies on allies for Count."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "090d27b4f9a07cc1c8840e515a6d938016742a8be3bc0e8f7b35447ff1bd5c98",
+      "text": "Maintains Charge Count to reuse S2's Coins, dealing heavy damage through Tremor application and Burst."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "7c4edc5b92bbe425b1b5540124f690133043af41457e973896ff45ca50d83d40",
+      "text": "Cycles Tremor Count between herself and enemies to supply large amounts."
+    },
+    "data:support:0:note": {
+      "sourceHash": "58943db7871ae3ed1e7c96f53bc0a86c9a4e19080ab771f0227c265881624c82",
+      "text": "The support passive adds damage to the Coin on which the ally with the least ammunition fires their final round. Raises the S3 damage of Thumb ammunition users."
+    },
+    "data:support:1:note": {
+      "sourceHash": "8d5f4072cfe8cdc79c98f561560ab16455bfcedd1b93b775e07699ceda87a200",
+      "text": "Lacks the Tremor keyword, but the support passive adds 1 to Burn Count application, sustaining the Burn used by Tremor - Scorch."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "a23a41ef51186d6214df3d1059976aa94fe3ff0f8f8e05bf3bae108816ef97c3",
+      "text": "Against an enemy already carrying Burn, it applies heavy Burn and Tremor, dramatically raising Tremor - Scorch damage. The most important E.G.O for that variant."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "bf112fc5d6aa9d63891cd0f84e239b87fd6e563376b2733eccc1c3594aa1adc2",
+      "text": "A finisher that delivers heavy Tremor and repeated bursts as Sloth damage. The Amplitude returns to its original state afterward."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "223e0ce543ca852aac4ab3b1dd95765cda29aee8e1d398c40818bb2bd976816e",
+      "text": "Converts Tremor to Tremor - Reverb and triggers bursts for Sloth damage over an area."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "1bf03532b5b32e8227c113069b2088790c676ce7143f62bee8e23fc44f71d86b",
+      "text": "Spreads Burn and Wrath Fragility, fitting the Wrath-focused damage of Tremor - Scorch teams."
+    },
+    "data:egos:4:note": {
+      "sourceHash": "6653db7d07033dc31a35aeb5fc98453b00accf894ffe75ffb5ab543d35638947",
+      "text": "Combines area attacks, Burn application, and healing for up to 3 allies."
+    },
+    "data:egos:5:note": {
+      "sourceHash": "b7e608d11e55ec6631c96ae93bff013f5bd7a556f3f0b1bfe8dc8487cfced2fb",
+      "text": "Assumes Threadspin Ⅴ. Gives low-HP allies healing, Haste, and +1 resource generation."
+    },
+    "data:egos:6:note": {
+      "sourceHash": "bfd5685f6e35df9f9088ad4dbc5a7e4475d5d45c1f64d1c90f2a4ba5096db678",
+      "text": "Raises the Coin Power of the skill in the leftmost dashboard slot."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "71080a6fb459c14c6af1dd5c31be3b4b6fc2fa62e7946fde76673c89fef832be",
+      "text": "A team that applies Tremor to improve clashes and attacks through Tremor Bursts. Choose Tremor - Scorch to turn Burn and Tremor into Wrath damage, physical Tremor around the T Corp. pair to alternate Chain and Reverb, or Tremor - Reverb through Cavernous Wailing to turn bursts into direct damage."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "7bdfc115142873b6d2d35ec4eade878fc4b472cda019a4327f695c76ba97789b",
+      "text": "Tremor - Scorch quickly converts Burn and Tremor, which tend to have surplus Count, into Wrath damage."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "9d0458257cb4f44278524bfe50e6b97ece248c257a13219cea0738261d53fe6b",
+      "text": "Many members can bypass Stagger or heal themselves, giving the team high durability. Plenty of healing E.G.O also help against Unbreakable Coins."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "10eccbd09c1ec215e356a323bf3a95dd39cd1369e91a8df65c06fff40da2fa94",
+      "text": "Dawn Office follow-ups let the team handle ordinary enemies despite appearing specialized for single targets."
+    },
+    "guide:2:0:0": {
+      "sourceHash": "dec7bdff381ec806aa1e5dd575651359d23933c3481372d63b21c29bbcfcc006",
+      "text": "**Tremor - Scorch**: Combine Burn from all 3 Dawn Office members with the Thumb's Tremor. This variant has the highest damage. The Dawn Office trio must be deployed together and is Walpurgisnacht-exclusive, so choose according to your roster."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "2c6961287839cb3801fec4bb9ed2050d4c910e7f27aca60891a6efc1b2121018",
+      "text": "**Physical Tremor**: Build around [T Corp. Class 3 VDCU Staff](persona:1113) and [T Corp. Class 3 Collection Staff](persona:0309). Against a single boss, lower enemy Clash Power with Tremor - Chain during setup, then convert to Reverb when attacking to turn bursts into direct damage."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "c18ca756f46e98b094b12c5fd8ae244f97f2baed19d734db5537bb7d7e7d5139",
+      "text": "**Tremor - Reverb**: Pair Potency and Count suppliers with repeated-burst users such as [Heishou Pack - Wu Branch Adept](persona:0114) and [The Thumb East Capo IIII](persona:0512). Convert and burst through Hong Lu's [Cavernous Wailing](ego:0606). Use [Heishou Pack - Mao Branch Adept](persona:0212) as Faust and give her Everlasting. Slow setup and demanding play make this better for long fights against single bosses."
+    },
+    "guide:3:0:0": {
+      "sourceHash": "5c2761ba69df52e03f2c796ea2dab3e88d165a5264062f69ecec5e30076ad883",
+      "text": "Every member has a strong passive, so activate them early. In the Scorch variant, prioritize the 2 Dawn Office members that trigger follow-ups."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "90e7bf4b6868d2124a32810a86a176b3ed62592da80679d9d0a837cb922e589c",
+      "text": "Use Meursault's [Capote](ego:0504) against an enemy with some Burn already applied. It adds heavy Burn and Tremor, greatly increasing Scorch damage."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "8270577d86a1ee2a885fb1375ed30e78f86ffc5fb8c0d19821b8b0d711cd6b09",
+      "text": "[Everlasting](ego:0206) is a finisher that forces many Tremor Bursts. The Amplitude returns to its original state afterward, so prepare to convert again if the enemy survives."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "cf09622b45e67cb82d38a4eed341ee194a8fe65de3cc7084e220fa1d27bf32af",
+      "text": "Scorch damage is mainly Wrath, making Rodion's [4th Match Flame](ego:0902), which applies Wrath Fragility, a strong option."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "2ad94922e7250f0c6db7f09299491bc5c7da6439c06aeb39f3052b65ee439a59",
+      "text": "The Scorch variant mainly uses Slash, and many members are weak to Blunt. Since damage is Wrath-focused, enemy Wrath resistance strongly affects the matchup."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "1661b01c6b8d90b8862860d6be3d6e12f6ed7f8700ba6c6e079178d1ce228c0c",
+      "text": "Managing both Burn and Tremor Count makes the team demanding. However, both have stable Count generation, so they are unlikely to run out once the cycle is established."
+    }
+  },
+  "metadata": {
+    "title": "Tremor Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Tremor team guide: apply Tremor to win Clashes and attack through Tremor Bursts. Covers the Tremor - Scorch, physical Tremor (T Corp.), and Tremor - Reverb (Cavernous Wailing) variants, with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

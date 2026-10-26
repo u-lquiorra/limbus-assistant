@@ -46,7 +46,7 @@ export default function GlossaryExample({ example }: { example: GlossaryTerm["ex
           <p className="diagram-legend">変更前</p>
           <div className="target-pair"><div className="diagram-node"><span>敵の攻撃</span><strong>速度 {enemy}</strong></div><span className="target-arrow" aria-label="攻撃先">→</span><div className="diagram-node"><span>狙われている味方A</span><strong>速度 {original}</strong></div></div>
         </div>
-        <p className="target-operation">味方Bが攻撃を指定：速度{helper} ＞ 敵の速度{enemy}</p>
+        <p className="target-operation">{`味方Bが攻撃を指定：速度${helper} ＞ 敵の速度${enemy}`}</p>
         <div className="target-scenario diagram-highlight">
           <p className="diagram-legend">変更後：Aに向いていた、この攻撃をBが引き受ける</p>
           <div className="target-pair"><div className="diagram-node"><span>敵の攻撃</span><strong>速度 {enemy}</strong></div><span className="target-arrow" aria-label="マッチ">⇄</span><div className="diagram-node"><span>引き受ける味方B</span><strong>速度 {helper}</strong></div></div>
@@ -57,7 +57,7 @@ export default function GlossaryExample({ example }: { example: GlossaryTerm["ex
     case "slot-growth": {
       const [limit, members] = diagram.values;
       visual = <div className="slot-growth-diagram">
-        <p className="diagram-legend">出撃上限{limit}名・味方{members}名 ／ 編成順 A → B → C</p>
+        <p className="diagram-legend">{`出撃上限${limit}名・味方${members}名 ／ 編成順 A → B → C`}</p>
         <div className="slot-growth-table"><table>
           <caption className="diagram-legend">各ターン開始時の行動枠。□1つが1スロット</caption>
           <thead><tr><th scope="col">ターン</th>{["A", "B", "C"].map((name) => <th scope="col" key={name}>味方{name}</th>)}<th scope="col">合計</th></tr></thead>
@@ -154,7 +154,7 @@ export default function GlossaryExample({ example }: { example: GlossaryTerm["ex
       visual = <div className="power-comparison">
         <p className="diagram-legend">同じスキルでも、表の枚数でマッチ威力が変わる</p>
         {Array.from({ length: count + 1 }, (_, heads) => <div className="power-row" key={heads}>
-          <div className="power-coins">{Array.from({ length: count }, (_, i) => <CoinFace key={i} heads={i < heads} />)}<span>表{heads}枚</span></div>
+          <div className="power-coins">{Array.from({ length: count }, (_, i) => <CoinFace key={i} heads={i < heads} />)}<span>{`表${heads}枚`}</span></div>
           <div className="power-bar-track"><div className="power-bar" style={{ width: `${(base + power * heads) / max * 100}%` }} /></div>
           <strong>{base + power * heads}</strong>
           <span className="power-formula">{base} + {power} × {heads}</span>
@@ -191,7 +191,7 @@ export default function GlossaryExample({ example }: { example: GlossaryTerm["ex
       const [potency, count] = diagram.values;
       const [effect, trigger, result] = diagram.labels ?? ["破裂", "攻撃を受ける", "追加ダメージ"];
       visual = <div className="count-diagram">
-        <div className="diagram-node count-initial"><span>{effect}の初期状態</span><div className="count-values"><span>威力 <strong>{potency}</strong></span><span>回数 <strong>{count}</strong></span></div></div>
+        <div className="diagram-node count-initial"><span>{`${effect}の初期状態`}</span><div className="count-values"><span>威力 <strong>{potency}</strong></span><span>回数 <strong>{count}</strong></span></div></div>
         <ol className="count-timeline">{Array.from({ length: count }, (_, i) => <li key={i}>
           <span className="count-step">{i + 1}</span>
           <div><span>{trigger}</span><strong>{result} {potency}</strong></div>

@@ -1,0 +1,2650 @@
+{
+  "kind": "boss-copy",
+  "id": "warden-chaplain",
+  "source": "src/data/bosses/warden-chaplain.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "釘[刑罰]",
+          "en": "Nail [Punishment]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "CeremonialNail"
+        },
+        {
+          "ja": "告解の証拠",
+          "en": "Proof of Confession",
+          "file": "Bufs-a1c10p3.json",
+          "id": "ConfessionSecondPhase"
+        },
+        {
+          "ja": "シーシュポスシステム保存",
+          "en": "Sisyphe System Preservation",
+          "file": "Bufs-a1c10p3.json",
+          "id": "Dominion"
+        },
+        {
+          "ja": "黒き神の声",
+          "en": "Voice of the Obsidian God",
+          "file": "Bufs-a1c10p3.json",
+          "id": "EncompassingVoiceSecondPhase"
+        },
+        {
+          "ja": "黒き神の声",
+          "en": "Voice of the Obsidian God",
+          "file": "Bufs-a1c10p3.json",
+          "id": "EncompassingVoiceThirdPhase"
+        },
+        {
+          "ja": "金鎚の釘[審判]",
+          "en": "Hammernail [Judgment]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "ExecutionNailSecondPhase"
+        },
+        {
+          "ja": "釘[Breakpoint]",
+          "en": "Nail [Breakpoint]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "ExecutionNailThirdPhase"
+        },
+        {
+          "ja": "停止",
+          "en": "Stillness",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenFabricWarderFirstPhase"
+        },
+        {
+          "ja": "停止",
+          "en": "Stillness",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenFabricWarderSecondPhase"
+        },
+        {
+          "ja": "停止",
+          "en": "Stillness",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenFabricWarderThirdPhase"
+        },
+        {
+          "ja": "鼓動",
+          "en": "Thumping Pulse",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenHideWarderFirstPhase"
+        },
+        {
+          "ja": "鼓動",
+          "en": "Thumping Pulse",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenHideWarderSecondPhase"
+        },
+        {
+          "ja": "鼓動",
+          "en": "Thumping Pulse",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenHideWarderThirdPhase"
+        },
+        {
+          "ja": "釘[Console]",
+          "en": "Nail [Console]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "GoldenNail"
+        },
+        {
+          "ja": "釘[贖罪]",
+          "en": "Nail [Penance]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "MarkingNail"
+        },
+        {
+          "ja": "異邦人",
+          "en": "The Stranger",
+          "file": "Bufs-a1c10p3.json",
+          "id": "MeursaultBuffWarderFirstPhase"
+        },
+        {
+          "ja": "異邦人",
+          "en": "The Stranger",
+          "file": "Bufs-a1c10p3.json",
+          "id": "MeursaultBuffWarderSecondPhase"
+        },
+        {
+          "ja": "異邦人",
+          "en": "The Stranger",
+          "file": "Bufs-a1c10p3.json",
+          "id": "MeursaultBuffWarderThirdPhase"
+        },
+        {
+          "ja": "金鎚の釘[断罪]",
+          "en": "Hammernail [Condemnation]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "RestrainingNailSecondPhase"
+        },
+        {
+          "ja": "釘[Exception]",
+          "en": "Nail [Exception]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "RestrainingNailThirdPhase"
+        },
+        {
+          "ja": "黒き神の権能",
+          "en": "Divinity of the Obsidian God",
+          "file": "Bufs-a1c10p3.json",
+          "id": "SpreadingVoiceSecondPhase"
+        },
+        {
+          "ja": "黒き神の権能",
+          "en": "Divinity of the Obsidian God",
+          "file": "Bufs-a1c10p3.json",
+          "id": "SpreadingVoiceThirdPhase"
+        },
+        {
+          "ja": "不安定な顕現",
+          "en": "Precarious Theophany",
+          "file": "Bufs-a1c10p3.json",
+          "id": "UnstableConnection"
+        },
+        {
+          "ja": "刑罰の燭台",
+          "en": "Candle of Retribution",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1520"
+        },
+        {
+          "ja": "神の代理人",
+          "en": "Vicarius Dei",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148501"
+        },
+        {
+          "ja": "神聖刑罰燭台",
+          "en": "Hallowed Candles of Retribution",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148502"
+        },
+        {
+          "ja": "涙は布を濡らし",
+          "en": "Tears shall soak the cloth",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148503"
+        },
+        {
+          "ja": "完璧保存",
+          "en": "Perfect Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148504"
+        },
+        {
+          "ja": "…不可能だ！",
+          "en": "... Impossible!",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148511"
+        },
+        {
+          "ja": "保存の規律どおりに",
+          "en": "As Ordained by the Rule of Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148601"
+        },
+        {
+          "ja": "審判の日",
+          "en": "Dies Irae",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148602"
+        },
+        {
+          "ja": "涙は布を濡らし、布は首を絞め",
+          "en": "Tears shall soak the cloth, cloth shall close about the throat...",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148603"
+        },
+        {
+          "ja": "完璧保存",
+          "en": "Perfect Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148604"
+        },
+        {
+          "ja": "告解道具",
+          "en": "Implements of Confession",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148605"
+        },
+        {
+          "ja": "…不可能だ！",
+          "en": "... Impossible!",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148611"
+        },
+        {
+          "ja": "「保存の規律どおりに」",
+          "en": "\"As Ordained by the Rule of Conservation\"",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148701"
+        },
+        {
+          "ja": "「審判の日」",
+          "en": "\"Dies Irae\"",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148702"
+        },
+        {
+          "ja": "涙は布を濡らし、布は首を絞め…言葉も出てこないな。",
+          "en": "Tears shall soak the cloth, cloth shall close about the throat... now I can't even remember what's next.",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148703"
+        },
+        {
+          "ja": "完璧保存",
+          "en": "Perfect Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148704"
+        },
+        {
+          "ja": "シーシュポスシステム保守ツール",
+          "en": "Sisyphe System Maintenance Tool",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148705"
+        },
+        {
+          "ja": "さあ、そろそろ退勤しようか",
+          "en": "All right. Time to clock out.",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148706"
+        },
+        {
+          "ja": "くそっ、そんなグリッチどうやって見つけたんだ。",
+          "en": "Goddammit. How did you manage to find a glitch like that?",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "148711"
+        },
+        {
+          "ja": "刑罰的拘束",
+          "en": "Chastening Bonds",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152001"
+        },
+        {
+          "ja": "沸き上がる罪悪",
+          "en": "Sin Aflame",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152002"
+        },
+        {
+          "ja": "保存",
+          "en": "Conservation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152701"
+        },
+        {
+          "ja": "罪を犯したな…。",
+          "en": "Thou hast sinned...",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148501"
+        },
+        {
+          "ja": "悔い改めよ",
+          "en": "Atone.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148502"
+        },
+        {
+          "ja": "断罪",
+          "en": "Condemnation",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148503"
+        },
+        {
+          "ja": "罪悪感がそなたを締め付ける",
+          "en": "Your sinfulness shall constrict you.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148504"
+        },
+        {
+          "ja": "懲罰",
+          "en": "Divine Retribution",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148505"
+        },
+        {
+          "ja": "贖罪の釘",
+          "en": "Nail of Penance",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148601"
+        },
+        {
+          "ja": "刑罰の釘",
+          "en": "Nail of Punishment",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148602"
+        },
+        {
+          "ja": "審判",
+          "en": "Judgment",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148603"
+        },
+        {
+          "ja": "神の前で悔い改めよ",
+          "en": "Atone before God.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148604"
+        },
+        {
+          "ja": "贖罪せよ",
+          "en": "Repent.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148605"
+        },
+        {
+          "ja": "刑罰を受けよ",
+          "en": "Receive thy punishment.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148606"
+        },
+        {
+          "ja": "審判…！宣告…！断罪…！",
+          "en": "Judgment... Sentencing... Condemnation!",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148607"
+        },
+        {
+          "ja": "死刑執行",
+          "en": "Death Unto the Condemned",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148608"
+        },
+        {
+          "ja": "罪を犯したな…。",
+          "en": "Thou hast sinned...",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148609"
+        },
+        {
+          "ja": "悔い改めよ",
+          "en": "Atone.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148610"
+        },
+        {
+          "ja": "はぁ…そろそろ帰ってくれないか？",
+          "en": "*sigh* Can you just... get rewound already?",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148701"
+        },
+        {
+          "ja": "退勤させてくれよ。",
+          "en": "Come on, let a guy clock out on time for once.",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148702"
+        },
+        {
+          "ja": "「審判」",
+          "en": "\"Judgment.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148703"
+        },
+        {
+          "ja": "「神の前で悔い改めよ」だったか？",
+          "en": "\"Atone before God\"... was it?",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148704"
+        },
+        {
+          "ja": "「贖罪せよ」",
+          "en": "\"Repent.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148705"
+        },
+        {
+          "ja": "「刑罰を受けよ」",
+          "en": "\"Receive thy punishment.\"",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148706"
+        },
+        {
+          "ja": "シーシュポスシステムを本当に壊す気か？",
+          "en": "Do you seriously mean to break the Sisyphe System?",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148707"
+        },
+        {
+          "ja": "強制退場",
+          "en": "Systemwide Ban",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "148708"
+        },
+        {
+          "ja": "看守",
+          "en": "The Warden",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1485"
+        },
+        {
+          "ja": "看守",
+          "en": "The Warden",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1486"
+        },
+        {
+          "ja": "司祭",
+          "en": "The Chaplain",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1487"
+        },
+        {
+          "ja": "振動 - 保存",
+          "en": "Tremor - Conservation",
+          "file": "Bufs-a1c10p3.json",
+          "id": "VibrationFocusing"
+        },
+        {
+          "ja": "シーシュポス刑罰の看守",
+          "en": "Warden of the Sisyphe Penalty",
+          "file": "Bufs-a1c10p3.json",
+          "id": "LeaderVoiceSecondPhase"
+        },
+        {
+          "ja": "シーシュポス刑罰の司祭",
+          "en": "Chaplain of the Sisyphe Penalty",
+          "file": "Bufs-a1c10p3.json",
+          "id": "LeaderVoiceThirdPhase"
+        }
+      ],
+      "note": "Names follow paired Canto X part 3 records. Stillness is the encounter-specific name for the Japanese Stop alias. Same-name skills remain separate across phases. Preservation is the status, while Conservation remains in passive names and Tremor - Conservation. Unknown Power values, conditional Coins, Excision, temporary Shields, nail selection penalties, phase healing, replenishment conditions, and ally-dependent survival are retained. Encounter realms are described by order. Non-decaying Shield describes the persistent barrier property."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "548d3c5b80c0b2b441044068dbed508deb61e65ae87128e463e4ff52bfd35e8f",
+      "text": "The Warden and the Chaplain (Canto X, Route C)"
+    },
+    "shortName": {
+      "sourceHash": "054c7999dd8a9d7debbeb6b8ecdb33a4ce3737453043836f6bd41664be13a046",
+      "text": "The Warden and the Chaplain"
+    },
+    "stageName": {
+      "sourceHash": "348d3aa135a48bb202ef89dbdb18511f7bd3bb045abdfcc83dc8e81c744dcd10",
+      "text": "Sisyphus Department Store C: FATE LOST"
+    },
+    "lead": {
+      "sourceHash": "71c8fad54220e4fa104b9994fdcea51c52787667474d8f2d4ca65e6b644fe90a",
+      "text": "A long battle progressing from the Warden to the Chaplain. Destroy the candles first, then assign major clashes according to each turn's Stillness and Thumping Pulse. Against the Chaplain, avoid selecting Attack Skills pierced by nails. Let Meursault handle the final Shift + Delete while keeping other survivors alive."
+    },
+    "listLead": {
+      "sourceHash": "6e73798a22759b3b41bb1a6d18b2d169daf38da8e7ed88dcc6a24ba66330dc80",
+      "text": "A long battle through successive forms. Destroy candles first, then assign major clashes using Stillness and Thumping Pulse each turn. In the final form, avoid nailed Attack Skills. Let Meursault receive Shift + Delete while keeping other allies alive."
+    },
+    "statNote": {
+      "sourceHash": "c88c75efad9183e52d0c7abb82c34afa3023a16d88e82681e0b6f2f56a473b0b",
+      "text": "A special Route C battle. The body is Lv. 90 in every phase, with 3,660 max HP and base Defense Level 80. Phase 1 starts at 1,830 HP and 30 SP; transition to Phase 2 fully heals it. At 1 HP in Phase 2, it becomes the Chaplain and fully heals again. Phase 2 Stagger positions are unconfirmed. Candles are Lv. 1 with 59 HP and Defense Level 1. Each body slot has 2 slot weight. Aim for Customer Lv. 65, separately from Identity levels outside the dungeon."
+    },
+    "skillNote": {
+      "sourceHash": "b96f84cfcab0b6c505adbf1f739dc5579a651304928532682779c56f80f29055",
+      "text": "Skills sharing a name have different values and effects across phases. Displayed Power for Phase 1 Atone. and Phase 2 Receive thy punishment. is unconfirmed. Unbreakable conversion from Divinity of the Obsidian God is conditional and is not added to fixed Coin icons. Excision Coins are shown through labels and effects. The Chaplain's collective nail notation “~” is shown alongside Implements of Confession."
+    },
+    "priorities.0": {
+      "sourceHash": "35334bc914c7298a5c706823a994ebdc95405df20a7a4113af643d8b5939fec0",
+      "text": "In Phase 1, destroy all candles with fast Sinners. Assign a Sinner with at least 2 Speed to clash with the Warden."
+    },
+    "priorities.1": {
+      "sourceHash": "cb9fe0a54cdb9d6b253514c7d2a22afd040f4a7ff5775365c9c2bfe991beb427",
+      "text": "Win the major area clash with Stillness, then Death Unto the Condemned or Systemwide Ban with Thumping Pulse."
+    },
+    "priorities.2": {
+      "sourceHash": "59efac2ea41fea0680d3cb09a96c199b1a4458ba28f5d50888913224687abc0f",
+      "text": "Choose skills manually against the Chaplain. Have Meursault take Shift + Delete at the end and keep other allies alive."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "b0dc606f815866169e83daffcb05d1dc786d09d930ad8444b1cefaa7f3b3f9b5",
+      "text": "Everyone's Speed fell to 1 early on"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "4fafb8975cc346546616d2730a0845c2ea74179c6786f4f9fcd43720c1696b29",
+      "text": "Each surviving candle applies 2 Bind to everyone next turn. Use fast Sinners to destroy all candles before clashing with the Warden. A main target at 1 Speed greatly strengthens him; do not simply choose your slowest Sinner."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "917274e9d02f70ebc1ecdaeae453b223199748ae1c166106240bb321fb68e67c",
+      "text": "The major clash requires far too much Power"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e62f42b3e477ee58d3c681719ec77eb668da4afde3e4fd919458ae8a9e29281c",
+      "text": "Stillness gives the Phase 2 and 3 major area skills −5 Final Power and −5 Clash Power. Change the recipient first. You can also make Voice B's Sloth skill act after the normal skills to consume all Preservation Count, but this does not work if Count is replenished at the next Turn Start."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "b3ccd968eef3fc746c8e1098a618460d3f3e0dc10d7f7104b5dc01e1237fbcc9",
+      "text": "I won against Death Unto the Condemned or Systemwide Ban but still died"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "79658c940666340a404a6be63e9c0d0728e9f07a94f1cdee5e9c9df20bb18009",
+      "text": "Both retain a Coin after losing the clash and deal fixed damage equal to 200% max HP. Winning with Thumping Pulse grants a temporary Shield equal to 250% max HP to absorb it. An ordinary Sinner winning through high Power alone is insufficient."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "ffb2d45e89ec1d6cb5ce8b6f1eb39a15962bb04cf8ffc5e94fdba07367167333",
+      "text": "Selecting a skill caused damage and nails"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "ab07a9b91d159dfba591bd13105f88b46363a5859cde7e186304b286ad3fc2c4",
+      "text": "In Phase 3, equipping an Attack Skill pierced by a nail on the panel incurs a penalty. Avoid Win Rate and Damage auto-selection; choose an unpierced skill, or change it to defense or E.G.O before equipping it. Changing an equipped skill back to its original attack triggers the penalty again."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "d0c959e14561aab4cd6e93fe77db2014373d1943a485898334ae2762bf725ed4",
+      "text": "I removed half his HP but he fully healed"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "2d5c7a064f4c181af7a267da855aeecacd4f73a859a2cc7828bdba891e716f64",
+      "text": "The first time the Chaplain falls below 50% HP, he fully heals and removes negative effects. After reducing him to half again, the battle continues without another heal. Treat dramatic turn-display changes as an effect rather than normal turn progression."
+    },
+    "troubleshooting.5.symptom": {
+      "sourceHash": "1733792f8196b3d7d8d6feb339eb053dfe203dc8a7df6c10c553bc359f7d9186",
+      "text": "I cannot avoid the final lethal skill"
+    },
+    "troubleshooting.5.advice": {
+      "sourceHash": "165d3896c1ab00b59d08d0bd345016092f2709f17eb9341770e18d4f4f27ea08",
+      "text": "After gaining a Shield at 33% HP or less, he uses Shift + Delete. Clash with Meursault and use The Stranger's 1 HP protection. It requires at least one other ally alive, so do not leave Meursault alone."
+    },
+    "phases.0.timing": {
+      "sourceHash": "c38024f19ae0399d3ac3d411cc192ca7d42aeed944c5a8a8d850d4c0a674c8f2",
+      "text": "Before entering the special FATE LOST battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "8ba0a7f370fc4c3f7e447bab9bfd8577488e3a6cfbf938acbb8a4e7ac7196011",
+      "text": "Prepare Customer Lv. 65, SP, and resources"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "65421ed4a0d9a6e9976c7789a1bd0c2a52707fcf74e0f6d1b99f643398ad5376",
+      "text": "Shop toward Customer Lv. 65 and Diamond rank on Route C. Identity levels in this dungeon follow Customer Level; experience levels gained outside it do not carry in."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "e795446d5ac3546df4915c047dbcb59ff5fd2e851f111fe3e762781bbf4584c8",
+      "text": "Bring Meursault, HP and SP recovery, and high-Power E.G.O. E.G.O resources are halved on entry, but candle destruction in Phase 1 and phase transitions replenish them. If needed, gather SP and resources in the earlier 1F dungeon battle with Le Khaki."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "64fc8a0f5031781e35180fca959aec3514de462f59d29daa7c210b483c9e5e5e",
+      "text": "In the preceding Warden encounter, attack glowing candles, then lure his attack into them to stun him. Retreat when in danger and break candles to heal. Reducing him to 1,830 HP starts the dungeon battle."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "83ee83de5c582bec2aae7b7940db7bdea00e85f069266253f4696d3d1697d012",
+      "text": "At the start of the dungeon battle, Sinners' SP recovers up to 30. Do not mistake this for an effect that lowers higher SP."
+    },
+    "phases.1.timing": {
+      "sourceHash": "8725d677bd6323fa16e8ab4e76e81d076f67da5cb85c90ecb9ec96209cab814f",
+      "text": "Phase 1: the first three turns"
+    },
+    "phases.1.title": {
+      "sourceHash": "7b053a3de51c9aca53d17750b91892a4710d4234a3c58294cfc7211b72f217fa",
+      "text": "Destroy every candle and clash at 2 Speed or higher"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "a3cf71a90a6cb3e4dd9dafb271dfb8cde11174985f0e4fbe77f56bbc62174afa",
+      "text": "Two candles appear initially, with more summoned on later turns, up to four at once. Each has 59 HP and all resistances at ×2; split fast Sinners' attacks to kill them first. Candles targeted secondarily by area skills take 50% less damage, so check for survivors."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "32d3fe28922a15640f80516e50a2fb85e0b726efb246fee64efa8d14c08f147c",
+      "text": "Surviving candles strengthen the Warden's skills and apply Bind to everyone next turn at Turn End. Destroy all of them every turn before focusing damage on him."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "0f00a9f094569b7909fac9ae4bb9a50a2c4e80d173a376e79d6e3b2f6058f626",
+      "text": "Assign a Sinner with at least 2 Speed who acts after candle cleanup to clash with the Warden. A main target at 1 Speed can trigger all-Unbreakable Coins, +2 Final Power, and +100% damage."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "a1cc089d88127b65cc88ccf048f1f5eaeddf8dc51e09e19ac9e7394198f8eabf",
+      "text": "On turn 3, use a high-Power skill against Divine Retribution. That turn, Sinner hits inflict Clash Power Down on the Warden, so landing other attacks first helps. Phase 2 begins at 1 HP or less, or at the end of turn 3."
+    },
+    "phases.2.timing": {
+      "sourceHash": "e345b5dd9233fa01a7437fe5540176cddcc6e3d06a36f7b90238b0138b7279a4",
+      "text": "Phase 2: Voice A → Voice B"
+    },
+    "phases.2.title": {
+      "sourceHash": "de77bb08760012e24a6d7bbd7b53f13345838a5407850721a2fbe359fe84185f",
+      "text": "Check Stillness, Thumping Pulse, and nails before major attacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "326727295b519c881234c5635e8c5fbb31074a049297feda55d98b3e4829e471",
+      "text": "The Warden fully restores HP and SP and removes negative effects. Preservation Potency and Count carry over. The normal cycle then repeats Voice A → Voice B → Divinity A → Divinity B."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e4ec9d169980d298483a345b2c4516296f57c9c22efb504b1b12a1a449845620",
+      "text": "At Turn Start, identify Sinners with Stillness and Thumping Pulse. Handle normal attacks in Voice A; the Stillness holder can increase damage by assigning the Defense Skill slot as their main target."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "3f6b5ef4e4d75ccee4f1fee2bd70ae4adf78c1ef000c9d62b98e05e6aabc69e2",
+      "text": "Assign Voice B's Sloth skill Judgment to a Sinner with few nails. Give relatively weak Pride skills to those with many nails, and heal SP lost to Sinking."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "cda2105d40a86877baa65fc17dcd01957da17a033ad53ac8009dab2faf972690",
+      "text": "If possible, make Judgment act after the other normal skills. It consumes all Preservation Count gained by the Gloom and Pride skills, helping prevent the next major skill's Coin Power buff. However, automatic Count replenishment next turn can prevent this weakening."
+    },
+    "phases.3.timing": {
+      "sourceHash": "8e4807cb192fc1c95bc4e4a23ba204883cf58c4958ba6875f015c9c93373f36b",
+      "text": "Phase 2: Divinity A → Divinity B"
+    },
+    "phases.3.title": {
+      "sourceHash": "27a33f967f25638b40467467a2109d914f7fa6e5cb0548be0565bd526326fad2",
+      "text": "Use Stillness for the major Judgment clash and Thumping Pulse for execution"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "993303f470b24ad16ca8786aac239a2ebb745f2bf504c7ae5ead6fb6d6a9aeb7",
+      "text": "Divinity A brings Judgment... Sentencing... Condemnation! It is clashable regardless of Speed; assign a high-Power skill from the Stillness holder for −5 Final Power and −5 Clash Power on the enemy."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "68e02bada627ac50d986154584c0f330f6e5db25ba4b7ce5af93b2491c85274a",
+      "text": "Winning reduces damage by 75% and prevents Stagger from this skill's damage, but remaining Coins still activate nail effects. Other Sinners with Hammernail [Judgment] can equip defense to halve the nail's fixed damage and prevent death or Stagger from that effect. The major skill itself does not activate Defense Skills."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "e6d7ec6e531490a2509cc82c47337841e9fea80fe6bfcf40967c5099a932b4a2",
+      "text": "Next turn, assign Death Unto the Condemned to the Thumping Pulse holder. It cannot be redirected normally, but that holder can clash regardless of Speed. Thumping Pulse gives the enemy −15 Clash Power; win to gain the temporary Shield."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "3f19f10489650c3a426902f2064fea37aec2b8c865a062083790110a1741f649",
+      "text": "Death Unto the Condemned has one Unbreakable Coin that deals fixed damage equal to 200% max HP On Hit. The 250% max HP Shield from a Thumping Pulse clash win is needed; an ordinary recipient merely winning is insufficient."
+    },
+    "phases.3.steps.4": {
+      "sourceHash": "e353c042bea6c9718ce298810474e17ad02ccec5581739a8ad6323c7498201f9",
+      "text": "Other Gloom and Pride skills also become Unbreakable during Divinity. Account for nails remaining into the next cycle, and prepare high-Power E.G.O for whoever receives Stillness. The turn may end at 50% body HP or less; at 1 HP or less, Phase 3 begins."
+    },
+    "phases.4.timing": {
+      "sourceHash": "d8fc40c932239ea871badc86635e1d400e69c034faa9be1ced10c86cab5d0e26",
+      "text": "Phase 3: transition to the Chaplain"
+    },
+    "phases.4.title": {
+      "sourceHash": "f99d68d1aa50cf681f1a1dc8cda949f2f3b56ad16e256d96e8f08416d8cdc711",
+      "text": "Avoid panel nails and keep the same two roles"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "d864ef0c3e84edc6d904f7ba435ad76c0b66664630aae690cf6490b450cd2626",
+      "text": "HP and SP fully recover and negative effects are removed; Preservation carries over. The Chaplain keeps the same plan: Stillness for the major area clash, Thumping Pulse for the following Gluttony skill."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "0a6115210dfac2b1f9093a228094bc977ea864472e8091d8247b7483ba4dc108",
+      "text": "Every turn, check Attack Skills pierced by nails on the panel. Do not equip them or use Win Rate or Damage auto-selection. Change a skill to defense or E.G.O before equipping it to avoid the selection penalty. Beware of changing it back to the original attack while still equipped."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "26a44af48fe9264c844f8a79099dbfd364b96ef93159816c6bb4cb2bc8c6290c",
+      "text": "Phase 3 nails are called Implements of Confession. Console, Breakpoint, and Exception have different effects. Stacked Console causes self-damage when landing attacks; check nails on Sinners too."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "7e3650399543515b18a7ad1467a7205fb3ae6b0502a1a2b837fcd9b6f65376a5",
+      "text": "Win against Do you seriously mean to break the Sisyphe System? with Stillness. Alongside its Power reduction, all targets gain a temporary Shield and winning gives 90% reduction. Do not reuse Phase 2's 75% value."
+    },
+    "phases.4.steps.4": {
+      "sourceHash": "e59fb5d953fd06cd5eed7471bb25f38580ad4d68e4a4784d2d52821ccccd9197",
+      "text": "Win the following Systemwide Ban with Thumping Pulse. The Excision Coin remains after winning, but the temporary Shield equal to 250% max HP absorbs the 200% fixed damage."
+    },
+    "phases.4.steps.5": {
+      "sourceHash": "e9a6e079d97c0b42072a547732f63ec1fda66cd5d1d0969f319ebf9886e0830c",
+      "text": "If both Preservation Potency and Count are below 10, replenish 5 Count at Turn Start. Just after transition, emptying Preservation during Voice B may not prevent the next major skill's buff."
+    },
+    "phases.5.timing": {
+      "sourceHash": "17cc3dfe855a833f19d6fe4b7063d29d8de0d9dc90cae6d28b6d39f7a331fa42",
+      "text": "Chaplain below 50% HP for the first time, then half again"
+    },
+    "phases.5.title": {
+      "sourceHash": "aeac00e795e5f0fde34a148ec7550b9924891a795c530bd5d4d62053154006cd",
+      "text": "Push through the first full heal and keep attacking after the effects"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "11056d235b487744a828c091f0091759c3858d2bb47f3f79c8bdcb1253cc3fe5",
+      "text": "The first time the Chaplain falls below 50% HP, he fully heals and removes negative effects. This is not a failed transition; repeat the Stillness and Thumping Pulse plan to damage him again."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "6f44fb5d16d313ec5a0c88f0a02fd4390e0f00a5ac96d94a953cbb36b18b4591",
+      "text": "Do not count the dramatic turn-display change as ordinary turn progression. Buffs and debuffs do not suddenly stack by the displayed number of turns."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "6a9ce8532184561a421849d276f9fb6a89e6b87230aa7ad0bf21315c811e759f",
+      "text": "When reduced to half again, the battle continues without a full heal after the Sapling of Light LUXURIA effect. Keep damaging him rather than waiting for a special buff."
+    },
+    "phases.6.timing": {
+      "sourceHash": "72c3774c0c7fd41736b8235761aa31b6f3d3dccdd4c24eeba18f3d599197c4a7",
+      "text": "Chaplain at 33% HP or less"
+    },
+    "phases.6.title": {
+      "sourceHash": "b5eced5df275f28bbe5232d3defbe24e2a733f28028fa3118eed2ee8bf8bfe0d",
+      "text": "Take Shift + Delete with Meursault and push through the Shield"
+    },
+    "phases.6.steps.0": {
+      "sourceHash": "5b017231e60761783d95424d8e3cfaaf45eb6cbc0ec01e0dca431a2e00e33334",
+      "text": "The Chaplain consumes Sisyphe System Preservation to gain a non-decaying Shield equal to (25 + consumed Stack)% max HP. Defense Level permanently decreases by the consumed amount."
+    },
+    "phases.6.steps.1": {
+      "sourceHash": "62946719880f82b4caa26d9219ecffb2af8865f404905b4c18421001df15802d",
+      "text": "Shift + Delete joins the Voice A actions. It prioritizes Sinners other than Meursault, but clash with Meursault for −20 enemy Clash Power. Check this recipient separately from the Stillness and Thumping Pulse assignments."
+    },
+    "phases.6.steps.2": {
+      "sourceHash": "051f2807548013c677e44b7a6e9c5a861ff272f568eb6de0cf736c04cb61ff98",
+      "text": "All three Excision Coins remain after winning. They deal fixed damage equal to 50% current HP twice and 200% max HP, so use Meursault, whose The Stranger preserves 1 HP. Keep at least one other ally alive."
+    },
+    "phases.6.steps.3": {
+      "sourceHash": "cf9d31c09860e103a4461dfcd9d0eb0f90fb1455e7fba2a3e52e398400551b5e",
+      "text": "Winning halves the Chaplain's current Shield and gives him 10 Fragile this turn and next turn. Focus remaining damage. Continue assigning Stillness to the major area skill and Thumping Pulse to Systemwide Ban until the end."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "ca4d973c0b006b758c0766235c74abca876c5c7842200234aebb2af0fa69a7c4",
+      "text": "Stillness"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "0ed34cff4e44cd4d08881f4dbff8e7147701628a1be619b5ebafbebd92ecbf48",
+      "text": "A random Sinner gains it each turn. Phase 1: Final Power +1 and damage +15%. Phases 2 and 3: +2 and +25%. Phase 3 also inflicts 1 Defense Level Down On Hit, up to 9."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "c78f67e58be61e0499603790daafccc85b107899ccc1093712d875003f7d355f",
+      "text": "Handles major area skills in Phases 2 and 3. Being the main target gives the enemy −5 Final Power and −5 Clash Power."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "9500f9a86109f89c3e80ad48299929b64b600f8ebc1635b439a10e489ca5071e",
+      "text": "Thumping Pulse"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "f0d9b343c9c69b779057e19deb442446cf426221508e04e4a868463ec93bb776",
+      "text": "A random Sinner gains it each turn. Clash Power +1 / +2 / +3 in Phases 1 / 2 / 3; damage taken −25% / −25% / −50%. Winning against Phase 2 Death Unto the Condemned or Phase 3 Systemwide Ban grants a temporary Shield equal to 250% max HP, removed after the attack. Phase 3 also inflicts 1 Offense Level Down On Hit, up to 9."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "a95d4502a031c6704cfb83929b27eae63f97f2561b40616ac30e75f25404a9f2",
+      "text": "Can clash with the corresponding Gluttony skill regardless of Speed even when it cannot be redirected normally. Having Thumping Pulse is not enough: you must win."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "508325bf6d662b2e6f8ce7a468e480e214ef3e6b5b12ba81c00e83644c8aa923",
+      "text": "The Stranger"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "51865b8ba47e2b754e6363bf9e8c0e62927dbc1be6784fef83c88444a771fd7c",
+      "text": "Granted to Meursault. While at least one other ally is alive, HP cannot fall below 1; damage that would Stagger him removes the threshold instead. Strengthens across phases. In Phase 3, Speed +3, Final Power +3, damage +30%; winning a clash against the Chaplain heals 8 SP and grants 5 total E.G.O resources of affinities with low reserves. Cannot retreat."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "b1a4a8a5d3ed07205fc98a552d8c3f7d93401bf8881114e0d9d7c7185bc062d8",
+      "text": "Handles Shift + Delete at the end. Another ally must remain alive during the fight; do not treat Meursault as immortal when alone."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "fe86c9824853a29e9d68c69b541536ec582d7febb7191d7f053e348af9afa766",
+      "text": "Precarious Theophany"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "59cd29438f33ab75583625f7c12da756040f789195d2f13f6001e2e655802042",
+      "text": "Starts at 2 in Phase 1. At Turn Start, gain Clash Power Down and Fragile equal to Stack ×4. At Turn End, heal SP and lose 1 Stack."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "e083eb44187939db27e7479d2c832e6f53a1404f3aa21bfc4ce490eaea022665",
+      "text": "Do not apply his opening weakness to the Power of later Warden or Chaplain phases."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "bd072cce93faaf33c88a94cff96e48780ac7a9b0ae23320b22b612dd63d2dc92",
+      "text": "Special Charge. Gain 1 Potency per cumulative 10 Count consumed. Count does not naturally decrease in this battle. In Phase 3, replenish 5 Count at Turn Start if both Potency and Count are below 10; maximum Count rises to 25 / 30 at 5 or more / 10 or more Potency."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "22c0fc07b94591c9cab06ae63e587d858ab0ecb84f5bbc2cd7a525a18a110cd7",
+      "text": "Distinguish Potency from Count. Emptying Count last turn does not prevent the major attack's buff if it is automatically replenished."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "bab1f74ef23e406c7563ec4d024228bd1ed89ae06fd3d8ef74c595a2111b4a81",
+      "text": "Voice of the Obsidian God"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "d322e2b8b46a143ca7e03db9968c8646a38ee85a8b2fc0a48f879dbc2e1976db",
+      "text": "Maximum 100. Increases with Preservation Count gained or consumed, and by 10 at Turn End. At 100, changes to Divinity of the Obsidian God next turn."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "d752a9acef25a1f725282cbf564726aeb618aa421cdd6fa0e2302464160e541d",
+      "text": "Voice B's Defense Skill raises it to 100. Identify the next Stillness holder and prepare for the major attack."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "b231bbe895ef1772cdca3c67da5e80b4998f2471bc9b0364b45d6de8b7817992",
+      "text": "Divinity of the Obsidian God"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "5a007b7cd13b92c1f738eecd2a40452016c1a603f07a6f9f4455629f6feca897",
+      "text": "Increases Offense and Defense Levels based on Stack and makes all skill Coins Unbreakable, excluding Excision Coins. At 0, returns to Voice of the Obsidian God next turn."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "8be91361eb9b9945a0bc490327e3e549188f95a1caf719ead96ea253a9e78e5c",
+      "text": "Expect hits after clash wins; use Stillness and Thumping Pulse for major-skill mitigation and Shields."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "cb341379601b0cb23329b157301643b312860bbd7619a80ecc32ac1b2688e4f3",
+      "text": "Proof of Confession"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "21c350f6526f775b853d261269300b640a690242d2f6625839b98affb75145b5",
+      "text": "Collective term for Phase 2 nails: Hammernail [Condemnation], Hammernail [Judgment], Nail [Punishment], and Nail [Penance]. Changes to the last applied type and combines Stack, but Hammernails do not revert to ordinary Nails."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "233bb596873ed02d1a6af77e9d0dabb12de2a834ea69b4f0a6037703483c3333",
+      "text": "More nails on the recipient strengthen the enemy. Assign Voice B's Sloth skill to a Sinner with few nails."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "42e1ea1d312e4dba588c98637fc28ea3ca14f82fea57c76453816672f5c52bb9",
+      "text": "Hammernail [Judgment]"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "8b07a2cc9d5c8e49c7230170217832e627cf5fc89bc657b1df09d92630f93996",
+      "text": "When activated by the major area skill, deals fixed damage equal to Stack ×5% max HP, minimum 10. Equipping defense at Combat Start halves it and prevents death or Stagger from this effect."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "13cdb01cc276cf58aad2f68c86265997b7a9d9390c32f232478a4164923f1412",
+      "text": "If other Sinners besides the Stillness clash recipient have these nails, equip defense to reduce nail damage. The Defense Skill does not need to activate."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "7c764cc566579550afc56604525afba1d3f27fd3486df919b2fdc9356f2cbe3f",
+      "text": "Hammernail [Condemnation]"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "cc22684111bb9fb080ea08f76aa1922d7566d74d9d0958a3329c8dc20158d678",
+      "text": "Staggers the holder at Turn Start. Thumping Pulse prevents Stagger from this effect; expires at that turn's end."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "9eceecc14abfab3c2dfac632a2a63f3fe13796ca72139cf4b8a3ac4ac7d96b91",
+      "text": "Clash with Death Unto the Condemned using next turn's Thumping Pulse holder."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "1aa983cf7481f56613323b453c57ad8069227e324e205d2ef284d32531433561",
+      "text": "Nail [Punishment]"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "ed0f15bdb2f49803cd83f987a5b1c14ab5fb6ce60f591ca2b5eb75284ddf55f2",
+      "text": "When activated by the major area skill, gain Sinking equal to Stack. Maximum 9."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "e61dc47a752d882d3053a124474586d8c9a59c9163f5527081bd364f31cf9749",
+      "text": "Check SP after the major skill and restore clashes for the next cycle."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "e48f567930c8fa2c833d7dc874193aa179dc02cf665061a058804ea70a82ac30",
+      "text": "Nail [Penance]"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "270dd4d9d59c277f6b347cad117f1c171f1c53d044c762ff67147ad2165c1566",
+      "text": "When activated by the major area skill, raise the holder's Stagger Threshold by Stack ×2. Maximum 9."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "02c006ef8c86289ed969fe308bb18321481fa12bf99533a9e34657351bb5a651",
+      "text": "Keep enough HP and distinguish protection from the skill's Stagger damage from separate nail effects."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "a4317feac29c70d99b07fd32ef89bae1e3a6139b2b04db936e88dbdaf56b44e3",
+      "text": "Implements of Confession"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "1c05cc7a98314f1f3f46e9d1c48eb74177208460de95d8aa9bac60c5b05479dd",
+      "text": "Collective term for the Chaplain's “~” effects: Nail [Exception], Nail [Breakpoint], and Nail [Console]. Changes to the last applied type and combines Stack, but Exception and Breakpoint do not revert to Console."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "e8e14763dc081c676124d617581cb43b73c98c1b4061a33d239f1ca6112cb8f6",
+      "text": "More nails on the Sinner increase enemy Power and damage. Manage these separately from nails on the skill panel."
+    },
+    "mechanics.13.name": {
+      "sourceHash": "b2b21b993595d7f2ad2eae42ca4a203174fa56c50b9caef244ebe3cc092ebe8d",
+      "text": "Nail [Console]"
+    },
+    "mechanics.13.effect": {
+      "sourceHash": "0bb735af49b507ef8511de34b482b604e7aa63cbdca7871934d8c2a5806e13f5",
+      "text": "Maximum 9. If at 9 at Combat Start, each attack hit on the Chaplain deals fixed self-damage equal to 2% max HP that cannot Stagger the holder. When activated by the major area skill, gain Sinking equal to Stack and raise the Stagger Threshold by Stack ×2."
+    },
+    "mechanics.13.response": {
+      "sourceHash": "2974249166cc3821c2fc3da2869c6b61ff83eb99c34f35e13003f1cca76c2625",
+      "text": "Avoid panel skills pierced by nails to prevent unnecessary extra buildup."
+    },
+    "mechanics.14.name": {
+      "sourceHash": "bdd81fdaf11030ac653c943c5d1fbff2a32444d7998feb6db8906e2514ee084d",
+      "text": "Nail [Breakpoint]"
+    },
+    "mechanics.14.effect": {
+      "sourceHash": "7cc5b7eca8c948a5fc4e02d83aa51cd2c1ed3c1a43ed7230a1ffb2778e68a708",
+      "text": "When activated by the major area skill, deals fixed damage equal to Stack ×10% max HP, minimum 10. Equipping defense at Combat Start halves it and prevents death or Stagger from this effect. Maximum 9."
+    },
+    "mechanics.14.response": {
+      "sourceHash": "94564afcbbf52061fab40afd4a7315e144aae21c29317492ace863dcfa054aac",
+      "text": "For Sinners other than the Stillness clash recipient, also consider equipping defense to reduce nail damage."
+    },
+    "mechanics.15.name": {
+      "sourceHash": "5b716a56123f89560fcc296b20cb0227305fa58a9079bcd7af9c39ffc3724c3a",
+      "text": "Nail [Exception]"
+    },
+    "mechanics.15.effect": {
+      "sourceHash": "2429a0a5cb7bcb72987e47fec6ae88a0b937cdbb0aa800e6733ce70a6a01a29c",
+      "text": "At Turn Start, take fixed damage equal to 50% current HP and become Staggered. Thumping Pulse prevents that Stagger and halves the damage. Expires at Turn End after activation."
+    },
+    "mechanics.15.response": {
+      "sourceHash": "99fb5fcb2760342edec757d531391fec7ad4d275ab2db3c146603b2c412bafa7",
+      "text": "Assign Systemwide Ban to the Thumping Pulse holder. Healing alone does not remove the Stagger condition."
+    },
+    "mechanics.16.name": {
+      "sourceHash": "50cc582a18a6cac55f517db60cad626dd0ac727ff26f8450131d7c5eabd776e6",
+      "text": "Sisyphe System Preservation"
+    },
+    "mechanics.16.effect": {
+      "sourceHash": "013039c44bd54173a92fe9d112b8782e94b49799cdedb8a4840544ddfd0c57d9",
+      "text": "Maximum 25. Damage dealt increases and damage taken decreases by Stack%. Gained from the Chaplain's Preservation Potency above 10. First reaching 33% HP or less consumes it all for a non-decaying Shield equal to (25 + Stack)% max HP and permanent Defense Level loss equal to Stack."
+    },
+    "mechanics.16.response": {
+      "sourceHash": "76b8b856ec90a14b9d19c2d1c10e7a71c8606776c48b3ec90f07b6c6c5d06198",
+      "text": "After the Shield appears, assign Meursault to Shift + Delete and exploit its clash-win Shield halving and Fragile."
+    },
+    "mechanics.17.name": {
+      "sourceHash": "06109943b32e195ca6448dbac456d372471ecf727d2e9aa061491802ee88f865",
+      "text": "Excision Coin"
+    },
+    "mechanics.17.effect": {
+      "sourceHash": "4e07185205728edcd22b2ccd3ce8b11841ed7cc7feec2c3f2cd8e383d7c44427",
+      "text": "Special Coins that can destroy Unbreakable Coins. They survive their own clash loss and attack with the remaining Coins after receiving attacks."
+    },
+    "mechanics.17.response": {
+      "sourceHash": "023a5e41df75541e6a321e8198d3545eec95f42cab2523e3def3a4931cbc0dbd",
+      "text": "Systemwide Ban and Shift + Delete do not stop after a clash win. Receive them with Thumping Pulse's Shield or Meursault's The Stranger."
+    },
+    "warnings.0": {
+      "sourceHash": "491fd6d1c9f0cabeb7f3e8e4a072324923417d0b4d495f7a0f3feb356c8a37aa",
+      "text": "In Phase 1, do not assign a 1-Speed Sinner to the Warden. Destroy all candles first and use a recipient with at least 2 Speed."
+    },
+    "warnings.1": {
+      "sourceHash": "6973d0b9f8a86c735c6b2d2419a08e4e2239945c00e9ea05404c705d7601baec",
+      "text": "Stillness and Thumping Pulse change recipients each turn. Do not fix them to the previous turn's Sinners."
+    },
+    "warnings.2": {
+      "sourceHash": "f4ab357b5dff9591b9b2e943b652e970faeac7fd711900ad930baf2bd37ea2fe",
+      "text": "A clash win alone is insufficient for Death Unto the Condemned or Systemwide Ban. You need the temporary Shield from winning with Thumping Pulse."
+    },
+    "warnings.3": {
+      "sourceHash": "7011f823a9a06adf2aa82bd4c2e6a66691b4232a4d153faab591ab1f11f87666",
+      "text": "Phase 3 penalizes equipping nailed Attack Skills and using Win Rate or Damage auto-selection. Choose manually."
+    },
+    "warnings.4": {
+      "sourceHash": "ca8f1e8aa31e186542b072298943ba962bee17f69c8aaef34273fa74db2edae1",
+      "text": "The Chaplain fully heals the first time he falls below 50% HP. After halving HP a second time, combat continues without another full heal."
+    },
+    "warnings.5": {
+      "sourceHash": "6a9124d6934adc051b54ec8f662151adf672fc21f01b6cf2b48de4666dba3ff9",
+      "text": "Take Shift + Delete with Meursault and keep other allies alive. The Stranger is not unconditional immortality."
+    },
+    "preparation.0": {
+      "sourceHash": "b7b83ec9e2cb035cb286c7852edd0467aea6239ee310df7f1f6a6569e3beadf1",
+      "text": "Aim for Customer Lv. 65. Identities below Uptie III are raised to III, but E.G.O Threadspin is unchanged. Bridge the gap to enemy Lv. 90 through high-Power skills and Stillness / Thumping Pulse conditions."
+    },
+    "preparation.1": {
+      "sourceHash": "4e41bdb376d56179b029f470b0274f245ea759da8fce29014323b5cf9c222296",
+      "text": "Prepare HP and SP recovery for a long fight and high-Power E.G.O. Most enemy attacks are Blunt; check Blunt resistance too."
+    },
+    "preparation.2": {
+      "sourceHash": "c6ef6aad6fe886471165b3533788ed872e00253e5d0fd8558b4f3adda3ab05d6",
+      "text": "Use Meursault for resources from the opening and protect the other Sinners. Enter with SP and resources prepared; save candle resources for later major attacks too."
+    },
+    "roles.0.name": {
+      "sourceHash": "7b4535b584aadc0ca70e1f827fd5eed6dcdf07dde6956224bf3ff7f1cd5f9627",
+      "text": "Meursault"
+    },
+    "roles.0.reason": {
+      "sourceHash": "ac7d46ed5546b3c07f0d2184161b51cd5d9df88b8baed022faead0947bca456c",
+      "text": "The Stranger handles Stagger and lethal damage, including the final Shift + Delete. Requires other allies to remain alive."
+    },
+    "roles.1.name": {
+      "sourceHash": "7458092cdb3ee498bf74e58c0589abbd63d155e3e89abefda30c0aac77b66a88",
+      "text": "Fast candle cleanup"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0fca030a6813f84cdc4a793f4028b8ba17ba6ee4ede8514516848f28b2867e1b",
+      "text": "Destroy every candle before the Warden acts. Split main targets instead of relying only on area damage."
+    },
+    "roles.2.name": {
+      "sourceHash": "2f69ef83addc704a65f021460552283028cc1678b0d64f5159a8458b66c2c2ab",
+      "text": "High-Power E.G.O across the party"
+    },
+    "roles.2.reason": {
+      "sourceHash": "5d5ac552ec481776d16972760be83984425c06d6815842ccd13228dbabdba23a",
+      "text": "Stillness and Thumping Pulse are random; do not rely on only one Sinner to handle major clashes."
+    },
+    "roles.3.name": {
+      "sourceHash": "8b095909db54e327dd786968cbe31daf7aaa073b15184e6d432e9e5b04ef9b3e",
+      "text": "HP and SP recovery and attack debuffs"
+    },
+    "roles.3.reason": {
+      "sourceHash": "ff2533fa4acb66c229c0362a94d1489f95e315d89d66ebdb4a2066435686fe71",
+      "text": "Restore clashes weakened by Sinking and nails and keep key Sinners alive through the long battle."
+    },
+    "units.0.name": {
+      "sourceHash": "73c772efc827b270a8b979ea9e269e0b2f052fa7b36e7bf9dd5f9d025e43dfe7",
+      "text": "The Warden (Phase 1)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "c703ae2fde5fb71f4d665637440f9d28bcd8651ede8f2548fcc1b9b053398526",
+      "text": "Maximum 3,660 / starts at 1,830"
+    },
+    "units.0.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "4d8bfcb593ae749027790a666665ca2417716005bca8281d0e21ebc7e7833a02",
+      "text": "Starts at 30 SP with 2 Precarious Theophany."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "93b8de31fd02e3ccec8ebedc03e733d90da7fab6402dccdee958004642d69599",
+      "text": "2 slot weight per slot. Phase 2 begins at 1 HP or less, or at the end of turn 3."
+    },
+    "units.1.name": {
+      "sourceHash": "762d4def6968a05051b6fe746363ce0841a051169afba7c2d6c37332242d9bc5",
+      "text": "Candle of Retribution"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "bb23ade0da86071f1b896edca42e128509777e42d577293b4c2baa1b48c7f933",
+      "text": "Phase 1 summon. Surviving candles apply Bind to everyone next turn."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "d44017b6601d9d8ff31a1576804e0f3ae38b6f371fb972ce3b6511018eb3aff5",
+      "text": "Takes 50% less damage as an area skill's secondary target. Destruction grants +1 E.G.O resource of every affinity."
+    },
+    "units.2.name": {
+      "sourceHash": "be441430f445702559d18c5e04e47798b78ced55697f294a92c08396632278b3",
+      "text": "The Warden (Phase 2)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "2d15b3b076e3753d7125a62c31205779c9df83fda779cf6f52a8147632047d81",
+      "text": "Created at transition; positions unconfirmed"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "9b445a7f4bccdde470b6940feb52501ffd69b5a96cbdcd1f7dfffa62513d6f15",
+      "text": "At transition, fully restores HP and SP and removes negative effects. Preservation carries over."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "aa2b705d9a2ab44875480d4c175cda143c803b28b9d7c41a99d6d4e7063d4485",
+      "text": "2 slot weight per slot. Speed +20 on Divinity's major area turn. Becomes the Chaplain at 1 HP or less."
+    },
+    "units.3.name": {
+      "sourceHash": "ff7f38a7a24e548116afb3611f752a3bb2205811607d09f82f3656db3241a01c",
+      "text": "The Chaplain (Phase 3)"
+    },
+    "units.3.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.3.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "85873f79832299a48818bdb368f286f999bca6317386476f2948d22b7868e427",
+      "text": "Fully heals at transition; Preservation Potency and Count carry over."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "401fcceb13613cae663ab94e61fe271916a7ee28d0af0ef6035222c6366d79fb",
+      "text": "2 slot weight per slot. Speed +20 on Divinity's major area turn."
+    },
+    "units.3.notes.2": {
+      "sourceHash": "9e4fcc90f5ad0c28ac6d4a9f23f5e1f409771ac7fd853411ca805d3c474911c3",
+      "text": "First falling below 50% HP fully heals and clears negative effects. First reaching 33% HP or less grants a non-decaying Shield."
+    },
+    "skills.0.name": {
+      "sourceHash": "2442c60a8e963cca40b05476b5e2f5f66ebb69ac9a2bc51f0f37eae456958748",
+      "text": "Thou hast sinned..."
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "20750e34dddd260279471987ee5f093f1f7291ad9b19fb4de18b6fe26cca2f9a",
+      "text": "- Final Power +1 per Candle of Retribution on the field (max 4)"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "8ecddaf17b4e95c86d426bee6ef042b641f577d1242cf1429aa5c2f81b85c6f8",
+      "text": "- At 10 or more Preservation Count, Clash Power +1"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "897699b4af7cda7d8ef4f79d0924e52276c588c3e7e43d7880c4dc82661e86a7",
+      "text": "[On Use] Gain 3 Preservation Count"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.0.effects.6": {
+      "sourceHash": "af0e6ed737c82e7a3a68a89d694a958993f4a500c940eb87970b6b995a147dcc",
+      "text": "Ⅱ [On Hit] Inflict 2 Sinking"
+    },
+    "skills.0.response": {
+      "sourceHash": "11c03eb6b30911a9cd6e4ff645b082f37f64db27156deec4f06f188eee793ed6",
+      "text": "Surviving candles increase Power. Destroy them with fast Sinners, then clash with a recipient at 2 Speed or higher."
+    },
+    "skills.1.name": {
+      "sourceHash": "8cbf68ec485e31b0973f1e3a34f0ef47170c4d6b4be086a26892f4805578b5a1",
+      "text": "Atone."
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "c006168cb3b2ef6de3f4e7b6e3a7792770f25f8f620cf415f80e4c9d74077040",
+      "text": "- Final Power +2 per Candle of Retribution on the field (max 8)"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "e4525b2b944e44d7c17298d60ce31b558c07bcfafc7efdfd133900c8883e3aa6",
+      "text": "- At 15 or more Preservation Count, consume 5 Count for Final Power +2"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "be033acdc0c369d894e0b442449d7fbd1e1374c563cf953f8540e6bce9cf58a4",
+      "text": "[On Use] Gain 5 Preservation Count"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "63281bc8b8c9b063870c89dc7deeb089326125cc13fecc81a9f5a7a6c464013b",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "a8b6a18b6a9558d9383003cc5fa0a9c723d1a2dbe7ed3441993db2de537c2b0a",
+      "text": "[On Hit] Inflict 1 Bind next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "06b94e8d797c1b870f216ebaef1b83547c45517b730a5c14fc5dfdbb6aea1a88",
+      "text": "Phase 1 displayed Power is unconfirmed. Account for candle and Preservation buffs and the second Coin's Bind after a clash win; avoid a 1-Speed recipient."
+    },
+    "skills.2.name": {
+      "sourceHash": "fc4fb7847b6d2d59fb15041adfc82ba7c139fd29638b982f76fe6574762b8bd1",
+      "text": "Condemnation"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "737a8d10e50ab83874ecc1aeda6cbecb60abfbb45d7337a40ec8938ec9325af7",
+      "text": "[Before Attack] Increase Atk Weight by the number of Candles of Retribution on the field (max 2)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "af78941bf428c76db1e0219456da01bf692d237655cd628fa934662ffb3561c5",
+      "text": "- If the main target has 1 Speed, damage +50%"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "c006168cb3b2ef6de3f4e7b6e3a7792770f25f8f620cf415f80e4c9d74077040",
+      "text": "- Final Power +2 per Candle of Retribution on the field (max 8)"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "4b4e6cb97d45079bcf878f0b6343b13d86fda39f709f7dc9e69866190555e5dc",
+      "text": "- At 15 or more Preservation Count, consume 10 Count for Coin Power +1"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "d712c3250d6481fb651cc30306dad550a932c0cd55a42927ad077208ac0f9f42",
+      "text": "[Clash Lose] Gain 3 Paralyze; damage −50%; this skill's damage cannot Stagger the target"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "6a0b066e7ee117759da3b01edda0876cba2d5f1b934bd6de63a66add4263a832",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking and 1 Sinking Count"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "0d1f8b49247b1bb995513b4dae4a73e6b0eecccb3ab012d9a1ebd08ad31299d7",
+      "text": "Ⅱ[On Hit] Inflict 3 Sinking and increase Sinking Count by 2."
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.2.effects.11": {
+      "sourceHash": "c86397f6426b37fc334bb1fab776c33ac29d95ed0f28a120d5b186cc0d9c7e36",
+      "text": "- On the main target, inflict 4 Bind instead"
+    },
+    "skills.2.effects.12": {
+      "sourceHash": "d902bff3bef13275b1f91575682f390878de155dcaaf72256b4d4f22149f2e8b",
+      "text": "[On Hit Without Breaking] Inflict 3 Sinking and 3 Sinking Count"
+    },
+    "skills.2.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.2.response": {
+      "sourceHash": "981383db37f5b68881653323122a78621f87f8c1aa1e5aac02b8b4a7e6c9fb9b",
+      "text": "Clashable regardless of Speed. Destroy candles first, then win with a recipient above 1 Speed. The third Coin is Unbreakable; prepare for Bind."
+    },
+    "skills.3.name": {
+      "sourceHash": "3506fbae987df9423d296c1fe4c4b1451258bfef4a8ef91dc82d1f8166fc662c",
+      "text": "Your sinfulness shall constrict you."
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "28e4473aeb40fb3b16b68c8559ff7d6699fd7b16a788c3ae81dea869cb44bd3f",
+      "text": "[Before Attack] Increase Atk Weight by the number of Candles of Retribution on the field (max 4)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "e855ad4b3cf9a377d5d408876a81e1473922b50de5dbc410c03888b4e883e44c",
+      "text": "- If the main target has 1 Speed, damage +100%"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "c006168cb3b2ef6de3f4e7b6e3a7792770f25f8f620cf415f80e4c9d74077040",
+      "text": "- Final Power +2 per Candle of Retribution on the field (max 8)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "ebf0531585740b001a3019db52eefe46258b5f26825a10a06502cb371fd42479",
+      "text": "- If no Candles of Retribution remain on the field, Clash Power −3"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "4bd40736fe4b841027015130d85e995c43e2095d9f981c9520bed06048b0d120",
+      "text": "- At 15 or more Preservation Count, consume 10 Count for Final Power +1 and Coin Power +1"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "a2971a5014b3eb9dbb6a6d6bf8e779dfb00ca04bf195f148cb5f53861215e51b",
+      "text": "[Clash Lose] Gain 4 Paralyze; damage −50%; this skill's damage cannot Stagger the target"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "a8b6a18b6a9558d9383003cc5fa0a9c723d1a2dbe7ed3441993db2de537c2b0a",
+      "text": "[On Hit] Inflict 1 Bind next turn"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "0ea26a0457bd1120a2a98cf2fcfa964c2ebaaac3499135472b7c8786a7091673",
+      "text": "- On the main target, inflict 3 Bind instead"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.13": {
+      "sourceHash": "a8b6a18b6a9558d9383003cc5fa0a9c723d1a2dbe7ed3441993db2de537c2b0a",
+      "text": "[On Hit] Inflict 1 Bind next turn"
+    },
+    "skills.3.effects.14": {
+      "sourceHash": "0ea26a0457bd1120a2a98cf2fcfa964c2ebaaac3499135472b7c8786a7091673",
+      "text": "- On the main target, inflict 3 Bind instead"
+    },
+    "skills.3.effects.15": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.3.effects.16": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.17": {
+      "sourceHash": "8b9295351a6e50619ca65a61cfd7e1601a68fde3069f364f96202cf7f66c6225",
+      "text": "[On Hit Without Breaking] Inflict 2 Sinking and 2 Sinking Count"
+    },
+    "skills.3.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.3.effects.19": {
+      "sourceHash": "77d9e1d0494b1b598968b580d139c9225f332bf2d8ac8fde0ebb0eb1795d0383",
+      "text": "[On Hit] Inflict 2 Compunction next turn"
+    },
+    "skills.3.effects.20": {
+      "sourceHash": "cf750aab69d31fa4719bf6c2b3b1e55611800f9f8320fe9f2243d027956dff07",
+      "text": "“The mannequins chirp...”"
+    },
+    "skills.3.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.3.response": {
+      "sourceHash": "5c996e613fe47704f30f1b7b3c0b3e0fc1be3e3f38e0c92939a8027f92f98975",
+      "text": "All four Coins are Unbreakable. Destroying every candle gives another −3 Clash Power. Avoid a 1-Speed recipient; win for 50% reduction."
+    },
+    "skills.4.name": {
+      "sourceHash": "fc82e27e2163e0e8dd0e5b4438663d7a6cbe0c7e48cb094587afb62ce4eef17f",
+      "text": "Divine Retribution"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "e855ad4b3cf9a377d5d408876a81e1473922b50de5dbc410c03888b4e883e44c",
+      "text": "- If the main target has 1 Speed, damage +100%"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "c006168cb3b2ef6de3f4e7b6e3a7792770f25f8f620cf415f80e4c9d74077040",
+      "text": "- Final Power +2 per Candle of Retribution on the field (max 8)"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "e693ea3cdfcc0fa9527ec3493ed2347634e6f574bcee3b753ec2d2304d14addd",
+      "text": "- If no Candles of Retribution remain on the field, Clash Power −5"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "a381779b658a0d99a5f0347ebce6bf1d929aee07e45e391859975141390139aa",
+      "text": "- If this unit has Preservation Count, consume it all for Coin Power +2"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "a2971a5014b3eb9dbb6a6d6bf8e779dfb00ca04bf195f148cb5f53861215e51b",
+      "text": "[Clash Lose] Gain 4 Paralyze; damage −50%; this skill's damage cannot Stagger the target"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "5619575d633111311db2365d452d1dd756dffed78cc31600b41a64824f2dc47e",
+      "text": "ⅤUnbreakable Coin"
+    },
+    "skills.4.response": {
+      "sourceHash": "196ab35445e4ccec47e03d0e33ba1300fa1bcf956d0c9354c5324f4227b14fc7",
+      "text": "Turn 3's major skill. No candles gives −5 Clash Power; any Preservation Count is fully consumed for +2 Coin Power. Win with a high-Power recipient at 2 Speed or higher."
+    },
+    "skills.5.name": {
+      "sourceHash": "2442c60a8e963cca40b05476b5e2f5f66ebb69ac9a2bc51f0f37eae456958748",
+      "text": "Thou hast sinned..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "25897b67cd5ddd8b16301df6d029ed7b994e062ff2f170ec109126d7284a837f",
+      "text": "[On Use] Gain 2 Preservation Count"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "8a3ac48f67f4d16bf3efe58807cca5e28cd6dfc5a260487a77151e72a78587df",
+      "text": "[On Use] Gain 1 Poise and 2 Poise Count"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "af0e6ed737c82e7a3a68a89d694a958993f4a500c940eb87970b6b995a147dcc",
+      "text": "Ⅱ [On Hit] Inflict 2 Sinking"
+    },
+    "skills.5.response": {
+      "sourceHash": "29009a428d826c8efe5e2766758bc18c7170d55ef7b0297382494317c9242bee",
+      "text": "Phase 2 normal skill. Builds Preservation and Poise; do not reuse only the opening displayed Power to judge later major attacks."
+    },
+    "skills.6.name": {
+      "sourceHash": "8cbf68ec485e31b0973f1e3a34f0ef47170c4d6b4be086a26892f4805578b5a1",
+      "text": "Atone."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "25897b67cd5ddd8b16301df6d029ed7b994e062ff2f170ec109126d7284a837f",
+      "text": "[On Use] Gain 2 Preservation Count"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "8a3ac48f67f4d16bf3efe58807cca5e28cd6dfc5a260487a77151e72a78587df",
+      "text": "[On Use] Gain 1 Poise and 2 Poise Count"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "4872688b4f88cfe8cf565f7a7048b74080c8e2b6545f9dde78017dea7046e765",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking Count"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "8634a4f9a20cf4f8ffa4073db553d42da6358ffdfceb15d93bec63d59ea6b885",
+      "text": "Ⅱ[On Hit] Sinking Count +2"
+    },
+    "skills.6.response": {
+      "sourceHash": "3aaa32dc87eca6eea9bcdb6eb631941912a540bf58235af171e990745ab973e4",
+      "text": "A normal skill that increases Preservation Count. If using Judgment to empty Preservation, arrange for Judgment to act after this skill."
+    },
+    "skills.7.name": {
+      "sourceHash": "001e4465259337b7aee38b7db6d20afde94640370a9c8fd8e99f6fa500a11e42",
+      "text": "Nail of Penance"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "3d0d6418d416bb210ffad96bd182b9f98f6d88a62728e9160ec2f715cba68534",
+      "text": "At 50% Warden HP or less, this skill's first Coin becomes Unbreakable"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "2328a6bc67fb358f05e64e795f706bb62009d6e609c652ed394087801c5649e6",
+      "text": "If the target has 9 Proof of Confession, Final Power +2"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "a6753ea5db2546bca82b7e4490c280ac1c1c36f3395311835acf793da41eba7a",
+      "text": "[On Use] Gain 4 Preservation Count"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "d416bfeceb8e90802a6f7f9f024a9f9455f34d907771bc20f2bb1b7ecef15c4a",
+      "text": "[On Use] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "bf23afa6f3a505511ff0c67232d38912739d37771cfa940d9c1650dc4d7c2f04",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Penance]"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "988c66022c1949174608868dc379b2c31611229f55d947bd30be445d7d693754",
+      "text": "[On Hit] Inflict 2 Sinking"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "8b4d3d3c866a191d1519b488c6fe7753bad9c807dabbeb31e7958817aedec974",
+      "text": "Ⅱ[On Hit] Inflict 2 Nail [Penance]"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.7.response": {
+      "sourceHash": "da7e77e8117a247582317fd93260a90c7d08519fceff8e8899b10f1c9c66d3b2",
+      "text": "At 50% body HP or less, the first Coin becomes Unbreakable. Also gains Power against a Sinner with 9 Proof of Confession. Check current predictions even when assigning a recipient with many nails."
+    },
+    "skills.8.name": {
+      "sourceHash": "dc4926fe95e9b330daed319ef47a7a09c2b6c42b3cb9cafa44b9ef14714f30b7",
+      "text": "Nail of Punishment"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "3d0d6418d416bb210ffad96bd182b9f98f6d88a62728e9160ec2f715cba68534",
+      "text": "At 50% Warden HP or less, this skill's first Coin becomes Unbreakable"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "8cc6e1e817f620948ca6da5056e3c605f3612ad75ebfe7424b059184451aa5fd",
+      "text": "At 6 or more / 9 or more Proof of Confession on the target, Final Power +2 / +3"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "a6753ea5db2546bca82b7e4490c280ac1c1c36f3395311835acf793da41eba7a",
+      "text": "[On Use] Gain 4 Preservation Count"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "8e785e819222b4f041bfde37da239f91a488e4848ef63fa3f518c51d23cc919a",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "e7954b494f42ac740a47f8a3c756f31029d6fbe91c3e988e0d19d27cd1ce806a",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Punishment]"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "1eadc9da78a3ece416e44e3a6a4a3d3d527ae488053ad517db3144ed34336475",
+      "text": "[On Hit] Inflict 2 Sinking Count"
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "54e56b028b7fa2cb28520783a26e51db530b11fe4a02341a01ee22a5fc95f90e",
+      "text": "Ⅱ[On Hit] Inflict 2 Nail [Punishment]"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.8.response": {
+      "sourceHash": "389d31c0f13556ee35e86a6d1afff48d19c11bff7df5fac2d5b41bfd3f2fe5fb",
+      "text": "At 50% body HP or less, the first Coin becomes Unbreakable. Builds Sinking Count and nails; do not neglect Sinners whose SP has fallen."
+    },
+    "skills.9.name": {
+      "sourceHash": "888ba11d55aa2b8f015af599585196abcf46375c81cbdae102bbffce216e1238",
+      "text": "Judgment"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "ddb0a6cebeff9923d56aeb0c67361c2fd25fc9ff1a20b9416b6eeac5a367aad8",
+      "text": "At 3 or more / 6 or more / 9 or more Proof of Confession on the main target, Final Power +2 / +3 / +5"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "2ab187a1a32787c0d4f722556bd2cb1514c2da9e62d47a54346550ab249c493c",
+      "text": "[Before Attack] At 5 or more / 9 or more Proof of Confession on the main target, Atk Weight +1 / +3"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "311123d622deb38d6e7b79da5583a12a2c42f6df92f3fbd3b626aa369263be99",
+      "text": "[On Use] If this unit has Preservation Count, consume it all for Coin Power +2"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "e943a1201e71e9ed924b974dfdadd63a18f07366ea79d8df61b32bb1d1dd7211",
+      "text": "[Clash Lose] Gain 3 Paralyze; damage −50%; this skill's damage cannot Stagger the target"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "76db6c1f34389ae337fba5b5e72282b55f28d4d919f587484b4d606bf2af30db",
+      "text": "This Coin hits only the main target"
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "a056820c0e2f85dfbe0feedec0ba4cfa91add6bb57dfa7ce2af63941910b4d85",
+      "text": "Damage +(percentage of HP lost)% (max 100%)"
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "9e99ec3d5b70220525383456d2e2242b0a2e2bc25121bf4ddc4e456e5e1137f5",
+      "text": "[On Hit] Inflict 4 Hammernail [Judgment]"
+    },
+    "skills.9.response": {
+      "sourceHash": "1f295fbd9d9756f7ef3302c4ab338a6aec81716d26451178b02f24a452106e53",
+      "text": "Voice B's Sloth skill. Win with a recipient carrying few nails. Letting it act after other normal skills to consume Preservation Count can weaken the next major skill."
+    },
+    "skills.10.name": {
+      "sourceHash": "9c65702faaeb505eda8da6eb1c198e04ca9d477dd9ecc8f80a5db3d075a3f046",
+      "text": "Atone before God."
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "90416108468827c09d9ac039a2bcbf212c590befe60e26f2a137dc05cf12a207",
+      "text": "If a Sinner with Stillness assigns this skill's slot as their attack's main target during the command phase, that skill deals +100% damage, or +200% for E.G.O"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "01f43db28da8e2d12b39dc8f4fd9ff4ac44fb509030f40eaf98ac526358b7363",
+      "text": "[Turn End] If Voice of the Obsidian God is below 100, raise it to 100"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "143e7fc75a9fd29ee09c9dd7f8cde02205023d230266f6e0789b27fec545bf09",
+      "text": "- The Warden loses SP equal to the increase (max 45)"
+    },
+    "skills.10.response": {
+      "sourceHash": "87da7a9d63514592a1657c473268dad6f88a5523f650638160ec9a80b96d1e05",
+      "text": "Stillness increases damage when this Defense Skill slot is assigned as the main target. Land a strong damage skill if possible, and prepare for Divinity next turn."
+    },
+    "skills.11.name": {
+      "sourceHash": "6d7f1b9e12a0bcca091a412a975742de8a091fb01cafea600abb49012a678de5",
+      "text": "Repent."
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "2328a6bc67fb358f05e64e795f706bb62009d6e609c652ed394087801c5649e6",
+      "text": "If the target has 9 Proof of Confession, Final Power +2"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "50cd57f1c97ce1e80ff70cb010b5310337bdf7b743963111aa04807de06f1bb1",
+      "text": "[On Use] Consume up to 15 Divinity of the Obsidian God"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "d8a0f32b4c3d457b14603e53a12a84fc825a680be75c5ac93db3f878724a3946",
+      "text": "- Final Power +1, Damage +15%"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "a6753ea5db2546bca82b7e4490c280ac1c1c36f3395311835acf793da41eba7a",
+      "text": "[On Use] Gain 4 Preservation Count"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "bf23afa6f3a505511ff0c67232d38912739d37771cfa940d9c1650dc4d7c2f04",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Penance]"
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "3835055797a3a6c09162a639a2775aad51dd1d3a01a9091cbb92efd023e29fb5",
+      "text": "Ⅱ[On Hit] Inflict 1 Nail [Penance]"
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "3d25950269c2a048cc4bf2629186495aa68c3a3efc5568d68d182bf73507b6d5",
+      "text": "[On Hit without Coin Destruction] Inflict 3 Sinking"
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "a845a2770067f800ae8c350946c2c8c1e4b8707be86b3e310da848846e3ce1af",
+      "text": "Ⅲ[On Hit] Inflict 1 Nail [Penance]"
+    },
+    "skills.11.response": {
+      "sourceHash": "54f8d95210bf6320d2aa89e397a32df1588e5d8fabe8df9e958b4c6f093f7481",
+      "text": "All Coins are Unbreakable during Divinity. Nails remain after winning; avoid excessive buildup on possible Stillness recipients next turn."
+    },
+    "skills.12.name": {
+      "sourceHash": "939a6e1a321eff15f554d8094a1c32ef4e9d29f1e3550c4e759078943174fca7",
+      "text": "Receive thy punishment."
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "8cc6e1e817f620948ca6da5056e3c605f3612ad75ebfe7424b059184451aa5fd",
+      "text": "At 6 or more / 9 or more Proof of Confession on the target, Final Power +2 / +3"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "50cd57f1c97ce1e80ff70cb010b5310337bdf7b743963111aa04807de06f1bb1",
+      "text": "[On Use] Consume up to 15 Divinity of the Obsidian God"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "dc1aec41fe1093231680bf0ab9f80720a53b1bdd615b7914bcc6b183fab70c28",
+      "text": "- Final Power +2, Damage +30%"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "a6753ea5db2546bca82b7e4490c280ac1c1c36f3395311835acf793da41eba7a",
+      "text": "[On Use] Gain 4 Preservation Count"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "e7954b494f42ac740a47f8a3c756f31029d6fbe91c3e988e0d19d27cd1ce806a",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Punishment]"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "197d73acb640b9d52f3bff7b0e83dece90045124d03c0884835fc854ac6cb23c",
+      "text": "Ⅱ[On Hit] Inflict 1 Nail [Punishment]"
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "d36c9015e9a99ecb51dd29b5e69e8eb6f2c6ad39127466c77a7f23d68d6ac879",
+      "text": "[On Hit Without Breaking] Inflict 3 Sinking Count"
+    },
+    "skills.12.effects.9": {
+      "sourceHash": "610d4096489f234a9289ce08cc9b98dea2d659253c59cf010f784ddb47ea2c5c",
+      "text": "Ⅲ[On Hit] Inflict 1 Nail [Punishment]"
+    },
+    "skills.12.response": {
+      "sourceHash": "f5cf2e66b4f6921d450a1fd93b6efff6bca4ff2a606cc535460932d83803d466",
+      "text": "Displayed Power is unconfirmed. Check Unbreakable Coins during Divinity and nail buildup; prepare for hits and Sinking after winning."
+    },
+    "skills.13.name": {
+      "sourceHash": "abe67b460541599102fc25d0ef7f5c0a2d300cdec8d3a7531f4f902b6ebff998",
+      "text": "Judgment... Sentencing... Condemnation!"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "ddb0a6cebeff9923d56aeb0c67361c2fd25fc9ff1a20b9416b6eeac5a367aad8",
+      "text": "At 3 or more / 6 or more / 9 or more Proof of Confession on the main target, Final Power +2 / +3 / +5"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "ed8a75e9786e380750c5fd88bf161ea6853536754f61955e7ff8403775620e94",
+      "text": "[On Use] If the main target has Stillness:"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "0e0a50c7648a24aa9a5d3ef831e97a164ac90577c20c4861f1f56791ef9a1df9",
+      "text": "- Final Power −5 and Clash Power −5"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "e2bf915609a39865d617415be1e72d96661f9c02952c487ca2ba1cea9909a56e",
+      "text": "[On Use] Consume up to 40 Divinity of the Obsidian God"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "b6a1d40a90cf3181fffeef10748fd07183f467b2a28208bc6bce61446a4825eb",
+      "text": "- Final Power +3, Damage +50%"
+    },
+    "skills.13.effects.8": {
+      "sourceHash": "d38963139d54e2da6a8a9b94ce1d6547f39cd55997434fa6303f33d31c453eea",
+      "text": "[On Use] Damage +(Divinity of the Obsidian God on self)%; consume all remaining Divinity after the attack"
+    },
+    "skills.13.effects.9": {
+      "sourceHash": "6fce8c9b590b88e997835703a6dbf624f227c51331fea7732942a7ab577875eb",
+      "text": "- Does not activate on a clash loss"
+    },
+    "skills.13.effects.10": {
+      "sourceHash": "311123d622deb38d6e7b79da5583a12a2c42f6df92f3fbd3b626aa369263be99",
+      "text": "[On Use] If this unit has Preservation Count, consume it all for Coin Power +2"
+    },
+    "skills.13.effects.11": {
+      "sourceHash": "b738afe2fd923d7c7c181d204cebf22cf77ff43700eff604afa7b911c8d0a6fa",
+      "text": "[Clash Lose] Gain 5 Paralyze; damage −75%; this skill's damage cannot Stagger the target"
+    },
+    "skills.13.effects.12": {
+      "sourceHash": "7856c24f689dff9402a2cdb150837616873c960ff674a6931cb55d1265be4e98",
+      "text": "[After Attack]"
+    },
+    "skills.13.effects.13": {
+      "sourceHash": "cbbb7a08f2f1cbe4ad5764a1981b35024a5108a5e66884b31b384522d8b482c3",
+      "text": "- Gain 2 Fragile next turn"
+    },
+    "skills.13.effects.14": {
+      "sourceHash": "5621552bd86ccbd3594769bdd19e85984f6051d4d5bfb356936178779d4d5325",
+      "text": "- This turn ends"
+    },
+    "skills.13.effects.15": {
+      "sourceHash": "7d076bf2ae319798fd9618a406d0b24744425d6384f7f82dce6c7d976695ed50",
+      "text": "Ⅳ[On Hit] Activate and consume all Proof of Confession on the target"
+    },
+    "skills.13.effects.16": {
+      "sourceHash": "aea4f1306fa5de321d0517c131aad67cb2002254ced783143d00226b2c530fbc",
+      "text": "Ⅴ If this unit lost the Clash, this Coin hits only the main target"
+    },
+    "skills.13.effects.17": {
+      "sourceHash": "4c0de27e2a137583bb7f34fc51bf0728fea1f484b748be1bb4fef4cbb340539e",
+      "text": "- [On Hit After Clash Lose] Inflict 9 Hammernail [Condemnation]"
+    },
+    "skills.13.effects.18": {
+      "sourceHash": "436b9c8a501bd01faa673a87b12d8dcde59c951048b191bb555da10204922386",
+      "text": "[On Hit] If the target is the main target, inflict 3 Compunction"
+    },
+    "skills.13.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.13.response": {
+      "sourceHash": "7eb315bab88d5dc1fa46e090aa4c247dfebca5feb36712261b60b87a1cadf1ca",
+      "text": "Clash with Stillness for −5 Final Power and −5 Clash Power. Winning gives 75% reduction. Other Sinners with Hammernail [Judgment] can equip defense to reduce its fixed damage."
+    },
+    "skills.14.name": {
+      "sourceHash": "c27dea6a06a0bd100ca348b19acb2992aa1cd0bbb52e52b3b304d2aad2baff4b",
+      "text": "Death Unto the Condemned"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "bddd9dd5d80e920e170eeac5e13857c57e77b3e79a2fce60f77e6d7bc1741022",
+      "text": "- Sinners with Thumping Pulse can clash with this skill regardless of Speed"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "00f438024367960fbcc0e20fe131bbe1db263ad1f259ed014fbbc4cadd119850",
+      "text": "Prioritizes Sinners with Hammernail [Condemnation]"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.14.effects.6": {
+      "sourceHash": "3aab129d9b28596bfa7f5188c7d3f3625552797fd2f110004d304e602cd5e5aa",
+      "text": "If the target has Thumping Pulse, Clash Power −15"
+    },
+    "skills.14.effects.7": {
+      "sourceHash": "fab51262699b33ef56a99782f4a342e21a49fe63ba150b599878184f66c69e18",
+      "text": "[Clash Lose] Gain 5 Fragile next turn"
+    },
+    "skills.14.effects.8": {
+      "sourceHash": "8f42c46421af9a519c47db89b3dfb0ad0911243e7fddcd87bae41be509947ebd",
+      "text": "[Turn End] Consume all Divinity of the Obsidian God"
+    },
+    "skills.14.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.14.effects.10": {
+      "sourceHash": "11f8dc409d25cc439228364625a38e1e4d10f1ebc81e2917d2747fd589a39a2c",
+      "text": "[On Hit] Deal fixed damage equal to 200% of the target's max HP"
+    },
+    "skills.14.label": {
+      "sourceHash": "ec95284ad93a6e53fbd713f9290a620798c5eb3f5923bf368e1737384ce26b5a",
+      "text": "Cannot be redirected; does not activate defense"
+    },
+    "skills.14.response": {
+      "sourceHash": "974a918db38210cd55e472a40a5ca2a92f47839f613538afdf66f724dd795fdc",
+      "text": "Thumping Pulse allows a clash regardless of Speed. Win with its holder to receive a temporary Shield equal to 250% max HP and absorb the Unbreakable 200% fixed damage."
+    },
+    "skills.15.name": {
+      "sourceHash": "d3dabf6f827eea3781d9fcdd0bd6801776d5efcd03e0be9a18794e2a52e7a2d1",
+      "text": "*sigh* Can you just... get rewound already?"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "e6f804c3ce503d24be644e234637b364140a882a123257b8f03f2e2eb5ffb152",
+      "text": "At 5 or more Implements of Confession (~) on the target, this skill's first Coin becomes Unbreakable"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "0e61042229ef755b77c87a0e783bbb1c5b322450f81a272b305caf071b04969b",
+      "text": "At 9 Implements of Confession (~) on the target, Final Power +2"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "897699b4af7cda7d8ef4f79d0924e52276c588c3e7e43d7880c4dc82661e86a7",
+      "text": "[On Use] Gain 3 Preservation Count"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "66b6cccc5f5adaf78e314dd1747237451d9588b4fc13724c65774db4a8540e8e",
+      "text": "[On Use] Gain 2 Poise and 1 Poise Count"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "3c2da9ebc6a7d84d68b87aa408901c6424febc6516c788efdcce46b34a37bb9b",
+      "text": "Ⅱ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.15.response": {
+      "sourceHash": "dee551f2fb5f18358253f254df76280e54eb857c479e89c2622856bff01645c8",
+      "text": "At 5 or more Implements of Confession, the first Coin becomes Unbreakable. Panel nails and Sinners' nails are separate; check both before selecting skills."
+    },
+    "skills.16.name": {
+      "sourceHash": "a7a3f7761daad7a1aaa94176ffac07b115a33f14d8af3bb2c31e3e22460fdf93",
+      "text": "Come on, let a guy clock out on time for once."
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "e6f804c3ce503d24be644e234637b364140a882a123257b8f03f2e2eb5ffb152",
+      "text": "At 5 or more Implements of Confession (~) on the target, this skill's first Coin becomes Unbreakable"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "c7476f53f43af50b9f15aeb0ff730c9b92111e5d0c8ea4b29800e750c8d7320c",
+      "text": "At 6 or more / 9 or more Implements of Confession (~) on the target, Final Power +2 / +3"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "be033acdc0c369d894e0b442449d7fbd1e1374c563cf953f8540e6bce9cf58a4",
+      "text": "[On Use] Gain 5 Preservation Count"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "8e785e819222b4f041bfde37da239f91a488e4848ef63fa3f518c51d23cc919a",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "d354b157b0d84ce96494787ec3ee88b61194a75ce79d551aa099f3d520b12c0e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "0b089cb7b1a839416eca91e57b1fe87ae2a127bee6ecf64fde259f6e91ab020f",
+      "text": "[On Hit] Inflict 2 Tremor Count"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "5918751be0926d487ba81712a5ef7e49adaab0fc06724ae62cd06c50d0366486",
+      "text": "[On Hit] Inflict 2 Nail [Console]"
+    },
+    "skills.16.effects.8": {
+      "sourceHash": "4a1e6f6971c601d40253edd982ec0701b9924c94c839039df949401c2da3835b",
+      "text": "[On Hit Without Breaking] Inflict 2 Tremor Count"
+    },
+    "skills.16.response": {
+      "sourceHash": "7fb52848279d9a2d825a16898c8e0435acf5e12dff0a702faadbdfcc7e6abe72",
+      "text": "The second Coin is always Unbreakable; the first also converts at 5 or more Implements of Confession. Console remains after winning; do not automatically assign weak normal skills."
+    },
+    "skills.17.name": {
+      "sourceHash": "ba04191606ffc4dd95d4530c2d86ecf05ff30f88c2e258945bce31abc2450ca3",
+      "text": "\"Judgment.\""
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "2ce7680d178fe41b801a54c0e6fe8a4b79c37e45103aa165053563c7dac2b2b6",
+      "text": "At 3 or more / 6 or more / 9 or more Implements of Confession (~) on the main target, Final Power +2 / +3 / +5"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "29324ecffcbd00553c4942453f4934f3f60b6a904d253a9b00d3e398945f8f8a",
+      "text": "[Before Attack] At 5 or more / 9 or more Implements of Confession (~) on the main target, Atk Weight +1 / +3"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "3f90a6528e42f4689ea17306626eb7cca0d922a0f7df9fa7b812bcb7dcea435d",
+      "text": "[On Use] If this unit has Preservation Count, consume it all for Coin Power +2"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "10b699ce35fef762f5ea33d949dc8f122905b3819b2dcbff717c7d23623fab99",
+      "text": "[Clash Lose] Gain 3 Paralyze; damage −75%; this skill's damage cannot Stagger the target"
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.17.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.17.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.17.effects.8": {
+      "sourceHash": "76db6c1f34389ae337fba5b5e72282b55f28d4d919f587484b4d606bf2af30db",
+      "text": "This Coin hits only the main target"
+    },
+    "skills.17.effects.9": {
+      "sourceHash": "046b56a3274bd539f4b251149bd6af7b33781b4c6a7148c722d0e6a63270067d",
+      "text": "Damage +(percentage of HP lost)% (max 100%)"
+    },
+    "skills.17.effects.10": {
+      "sourceHash": "269844eb221c5cc06a74bd1865959ee34bbc2203e71a2d85a327b006edfea849",
+      "text": "[On Hit] Inflict 4 Nail [Breakpoint]"
+    },
+    "skills.17.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.17.response": {
+      "sourceHash": "b6a604082e3714a8d030330d933a8f4c1b449850d1d499f0b78af656d59ddf77",
+      "text": "Win with a recipient carrying few nails. Consumes all Preservation Count, allowing Voice B action-order planning, but beware of automatic Count replenishment immediately afterward."
+    },
+    "skills.18.name": {
+      "sourceHash": "2020f3109b5ab3e3ff6baf96c57aa77745d863e469f6b52417d27a86ae7d146f",
+      "text": "\"Atone before God\"... was it?"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "69e07b3be28944b8b786cec8d995dc3b4831c2ad2d2c36ecb576d77182b82e04",
+      "text": "If a Sinner with Stillness assigns this skill's slot as their attack's main target during the command phase, that skill deals +100% damage, or +200% for E.G.O"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "01f43db28da8e2d12b39dc8f4fd9ff4ac44fb509030f40eaf98ac526358b7363",
+      "text": "[Turn End] If Voice of the Obsidian God is below 100, raise it to 100"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "92417cd61eac47d68f6d76b4450729889727130d2e65f2bb8c7a965526a16a67",
+      "text": "- The Chaplain loses SP equal to the increase (max 45)"
+    },
+    "skills.18.response": {
+      "sourceHash": "d5fde8a547831404227c6ca547a5346c0bc95237a0eeb6deee1d12ad1fdc67cc",
+      "text": "If Stillness targets this Defense Skill slot as the main target, normal skill damage +100%, E.G.O +200%. Attack while saving resources for the next major skill."
+    },
+    "skills.19.name": {
+      "sourceHash": "9b1e1311ea306f016a79db042a96632239b9cc0240f8c295e901188f38b031ed",
+      "text": "\"Repent.\""
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "0e61042229ef755b77c87a0e783bbb1c5b322450f81a272b305caf071b04969b",
+      "text": "At 9 Implements of Confession (~) on the target, Final Power +2"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "50cd57f1c97ce1e80ff70cb010b5310337bdf7b743963111aa04807de06f1bb1",
+      "text": "[On Use] Consume up to 15 Divinity of the Obsidian God"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "d8a0f32b4c3d457b14603e53a12a84fc825a680be75c5ac93db3f878724a3946",
+      "text": "- Final Power +1, Damage +15%"
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "be033acdc0c369d894e0b442449d7fbd1e1374c563cf953f8540e6bce9cf58a4",
+      "text": "[On Use] Gain 5 Preservation Count"
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "d354b157b0d84ce96494787ec3ee88b61194a75ce79d551aa099f3d520b12c0e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "2a9dd7ff82c0028a2745a4a09db2c50737885c4e73b0fcdad65104d5bdd628c2",
+      "text": "[On Hit Without Breaking] Inflict 2 Tremor"
+    },
+    "skills.19.effects.6": {
+      "sourceHash": "fb1be762750a5062232b6757d9306032d550fdb95d2a0a858126053ab5453085",
+      "text": "Ⅱ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.19.effects.7": {
+      "sourceHash": "7323f2bd7af4adc58c47beef51cfd1d949625a2073486a6c9163bf3d74643a9c",
+      "text": "[On Hit Without Breaking] Inflict 3 Tremor"
+    },
+    "skills.19.effects.8": {
+      "sourceHash": "7ca58583a4ca327778f3ba200c979ea1819a0ee6225affe7455a628f03db67fa",
+      "text": "Ⅲ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.19.effects.9": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.19.response": {
+      "sourceHash": "7c211c5994a001698b425c7cff10616c16ade07ac2d59cf505500ed6d717884f",
+      "text": "All Coins are Unbreakable during Divinity. Console and Tremor remain; keep HP healthy rather than assuming a clash win avoids all damage."
+    },
+    "skills.20.name": {
+      "sourceHash": "24e0711b2410b9d76a82548e2e5e2116c4fc547e810be244505328ec68261ecd",
+      "text": "\"Receive thy punishment.\""
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "c7476f53f43af50b9f15aeb0ff730c9b92111e5d0c8ea4b29800e750c8d7320c",
+      "text": "At 6 or more / 9 or more Implements of Confession (~) on the target, Final Power +2 / +3"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "50cd57f1c97ce1e80ff70cb010b5310337bdf7b743963111aa04807de06f1bb1",
+      "text": "[On Use] Consume up to 15 Divinity of the Obsidian God"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "dc1aec41fe1093231680bf0ab9f80720a53b1bdd615b7914bcc6b183fab70c28",
+      "text": "- Final Power +2, Damage +30%"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "58d6bc114540ce15f26301ab5eac3ae6e1cf425cb9e2269e7f9294a6c9370e31",
+      "text": "[On Use] Gain 6 Preservation Count"
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "d354b157b0d84ce96494787ec3ee88b61194a75ce79d551aa099f3d520b12c0e",
+      "text": "Ⅰ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.20.effects.5": {
+      "sourceHash": "4a1e6f6971c601d40253edd982ec0701b9924c94c839039df949401c2da3835b",
+      "text": "[On Hit Without Breaking] Inflict 2 Tremor Count"
+    },
+    "skills.20.effects.6": {
+      "sourceHash": "fb1be762750a5062232b6757d9306032d550fdb95d2a0a858126053ab5453085",
+      "text": "Ⅱ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.20.effects.7": {
+      "sourceHash": "8f419ea765dff6930f8cd3b6c332591d60742d6d117b56b70c2c6c1fcbc2d0e9",
+      "text": "[On Hit Without Breaking] Inflict 3 Tremor Count"
+    },
+    "skills.20.effects.8": {
+      "sourceHash": "7ca58583a4ca327778f3ba200c979ea1819a0ee6225affe7455a628f03db67fa",
+      "text": "Ⅲ[On Hit] Inflict 1 Nail [Console]"
+    },
+    "skills.20.effects.9": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.20.response": {
+      "sourceHash": "ad2c44d2fa30623a3e758b972b9bc46ecdf42372020d5826592bc690e699b465",
+      "text": "All Coins are Unbreakable during Divinity. Console, Tremor Count, and Tremor Burst accumulate; reconsider recipients carrying heavy buildup."
+    },
+    "skills.21.name": {
+      "sourceHash": "ac6319feb66ec6b9ee86d19fa89ba4f6291a645cfcc72a55ac1d40b47aa1c4c3",
+      "text": "Do you seriously mean to break the Sisyphe System?"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "483bf8bb611c3c476c5cf90c5751df22a7a062a1632877d73629c0c437f36990",
+      "text": "Damage +5% per Implements of Confession (~) on the target (checked per target)"
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "2ce7680d178fe41b801a54c0e6fe8a4b79c37e45103aa165053563c7dac2b2b6",
+      "text": "At 3 or more / 6 or more / 9 or more Implements of Confession (~) on the main target, Final Power +2 / +3 / +5"
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "ed8a75e9786e380750c5fd88bf161ea6853536754f61955e7ff8403775620e94",
+      "text": "[On Use] If the main target has Stillness:"
+    },
+    "skills.21.effects.6": {
+      "sourceHash": "0e0a50c7648a24aa9a5d3ef831e97a164ac90577c20c4861f1f56791ef9a1df9",
+      "text": "- Final Power −5 and Clash Power −5"
+    },
+    "skills.21.effects.7": {
+      "sourceHash": "f4c5bc543ae29f75767c8389aeac7cdc4b055554376367c0b98678e621071535",
+      "text": "- All targets assigned to this skill gain a Shield equal to 50% max HP; after the attack, subtract the Shield amount granted by this effect from each Sinner's Shield"
+    },
+    "skills.21.effects.8": {
+      "sourceHash": "e2bf915609a39865d617415be1e72d96661f9c02952c487ca2ba1cea9909a56e",
+      "text": "[On Use] Consume up to 40 Divinity of the Obsidian God"
+    },
+    "skills.21.effects.9": {
+      "sourceHash": "754253083fc190f213a59392d28d2ea4b9e788ac4227b625441c9383daf9bda6",
+      "text": "- Final Power +3, Damage +50%"
+    },
+    "skills.21.effects.10": {
+      "sourceHash": "d38963139d54e2da6a8a9b94ce1d6547f39cd55997434fa6303f33d31c453eea",
+      "text": "[On Use] Damage +(Divinity of the Obsidian God on self)%; consume all remaining Divinity after the attack"
+    },
+    "skills.21.effects.11": {
+      "sourceHash": "6fce8c9b590b88e997835703a6dbf624f227c51331fea7732942a7ab577875eb",
+      "text": "- Does not activate on a clash loss"
+    },
+    "skills.21.effects.12": {
+      "sourceHash": "3f90a6528e42f4689ea17306626eb7cca0d922a0f7df9fa7b812bcb7dcea435d",
+      "text": "[On Use] If this unit has Preservation Count, consume it all for Coin Power +2"
+    },
+    "skills.21.effects.13": {
+      "sourceHash": "19cc5557adbcb284861542e49a9fd45b67ea0f324835e51e5c27790c430de63a",
+      "text": "[Clash Lose] Gain 5 Paralyze; damage −90%; this skill's damage cannot Stagger the target"
+    },
+    "skills.21.effects.14": {
+      "sourceHash": "7856c24f689dff9402a2cdb150837616873c960ff674a6931cb55d1265be4e98",
+      "text": "[After Attack]"
+    },
+    "skills.21.effects.15": {
+      "sourceHash": "cbbb7a08f2f1cbe4ad5764a1981b35024a5108a5e66884b31b384522d8b482c3",
+      "text": "- Gain 2 Fragile next turn"
+    },
+    "skills.21.effects.16": {
+      "sourceHash": "5621552bd86ccbd3594769bdd19e85984f6051d4d5bfb356936178779d4d5325",
+      "text": "- This turn ends"
+    },
+    "skills.21.effects.17": {
+      "sourceHash": "5e21b586d3737db6aa1109634a498ff65c0e74d47771877f746f086a39a25f1c",
+      "text": "Ⅲ[On Hit] Inflict Amplitude Conversion to Tremor - Conservation"
+    },
+    "skills.21.effects.18": {
+      "sourceHash": "d801b7296b77618423b39f258130a65d5dabb70cbf978935b9dbface2acbe4fa",
+      "text": "Ⅳ[On Hit] Activate and consume all Implements of Confession (~) on the target"
+    },
+    "skills.21.effects.19": {
+      "sourceHash": "aea4f1306fa5de321d0517c131aad67cb2002254ced783143d00226b2c530fbc",
+      "text": "Ⅴ If this unit lost the Clash, this Coin hits only the main target"
+    },
+    "skills.21.effects.20": {
+      "sourceHash": "3f803ae0a484efafeebc275fa7847b49ebe5e5435cbf63fba19db86b5d59b355",
+      "text": "- [On Hit After Clash Lose] Inflict 9 Nail [Exception]"
+    },
+    "skills.21.effects.21": {
+      "sourceHash": "2f0b286cc5d28cdd44e6995f995229c19839bba7999d2b80e96f25f071a2200c",
+      "text": "[On Hit Without Breaking] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.21.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.21.response": {
+      "sourceHash": "f891b229df11dc5a0526d3ea5027e79fda6a68e5ed494b496da84652e496be8c",
+      "text": "Win with Stillness for Power reduction, temporary Shields on all targets, and 90% reduction, distinct from Phase 2's 75%. Other Nail [Breakpoint] holders should also consider equipping defense."
+    },
+    "skills.22.name": {
+      "sourceHash": "4af10c5b5dc6ddd45a1b58392f0963273cbb00bf0e18fedd909b9e9e28845117",
+      "text": "Systemwide Ban"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "bddd9dd5d80e920e170eeac5e13857c57e77b3e79a2fce60f77e6d7bc1741022",
+      "text": "- Sinners with Thumping Pulse can clash with this skill regardless of Speed"
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "6cc52856ed8270fbe86cbe9a3c9937d33bd615e95d9c5bc55ed8f9438b7e96c0",
+      "text": "Prioritizes Sinners with Nail [Exception]"
+    },
+    "skills.22.effects.3": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.22.effects.4": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.22.effects.5": {
+      "sourceHash": "31a97c521eba1621c116c4fab648909610884f5f8aff9316bc4b0aabd9d1e153",
+      "text": "[On Use] If the target has Thumping Pulse, Clash Power −15"
+    },
+    "skills.22.effects.6": {
+      "sourceHash": "fab51262699b33ef56a99782f4a342e21a49fe63ba150b599878184f66c69e18",
+      "text": "[Clash Lose] Gain 5 Fragile next turn"
+    },
+    "skills.22.effects.7": {
+      "sourceHash": "8f42c46421af9a519c47db89b3dfb0ad0911243e7fddcd87bae41be509947ebd",
+      "text": "[Turn End] Consume all Divinity of the Obsidian God"
+    },
+    "skills.22.effects.8": {
+      "sourceHash": "6456305dc49e1c16d832d35b4e3620327b147c103a43cd40723e63aedb24ee80",
+      "text": "Ⅰ Excision Coin"
+    },
+    "skills.22.effects.9": {
+      "sourceHash": "11f8dc409d25cc439228364625a38e1e4d10f1ebc81e2917d2747fd589a39a2c",
+      "text": "[On Hit] Deal fixed damage equal to 200% of the target's max HP"
+    },
+    "skills.22.label": {
+      "sourceHash": "81dccf6d82c6a462e0f9525ffe35932718729087157a9b40dfb85e2375caaf16",
+      "text": "Cannot be redirected; does not activate defense; Excision Coin"
+    },
+    "skills.22.response": {
+      "sourceHash": "de40f4c47b2b03e3a7ac91cbbce32c46396f13142f1e49372652d22c5d5e63f6",
+      "text": "Win with Thumping Pulse and absorb 200% fixed damage using the temporary Shield. The Excision Coin remains after winning. Do not simply try to finish him with unopposed attacks."
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "1d58f0278022cc3bfbb7e0a354926623c6e2d0015e9813e902504ec185c88e3a",
+      "text": "Does not activate the target's Defense Skills"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "84aa5590c504ceb4a054cf23a3e5ca8a38a17780edea2818a29d46ea6005c258",
+      "text": "Prioritizes Sinners other than Meursault"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "bcfebb020daaf93c6f1be702de499b5f5ad3565111897d159753d4ffa7f811e7",
+      "text": "When clashing with Meursault, Clash Power −20"
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.23.effects.4": {
+      "sourceHash": "35b44ba99ee26f1650f0418cee771f46c076d847372b9ebd73b8c0a12d85b7cd",
+      "text": "[Clash Lose] Gain 10 Fragile this turn and next turn"
+    },
+    "skills.23.effects.5": {
+      "sourceHash": "695893bf185f63271fabdf3e329c253463defa80b2c2d78d7ced1c44ce26e70f",
+      "text": "[After Attack] If the Chaplain lost the clash, reduce his current Shield by 50% (minimum 0)"
+    },
+    "skills.23.effects.6": {
+      "sourceHash": "6456305dc49e1c16d832d35b4e3620327b147c103a43cd40723e63aedb24ee80",
+      "text": "Ⅰ Excision Coin"
+    },
+    "skills.23.effects.7": {
+      "sourceHash": "8c9a747226d8b2a815dd6137685bb5f276f6ac03b787322e54ed3519ce932b9f",
+      "text": "[On Hit] Deal fixed damage equal to 50% of the target's current HP (minimum 0)"
+    },
+    "skills.23.effects.8": {
+      "sourceHash": "125a282b4e7d114b097f5485ef0ec77853c02a4bd43b5f3f0f19ae091df7647b",
+      "text": "Ⅱ Excision Coin"
+    },
+    "skills.23.effects.9": {
+      "sourceHash": "8c9a747226d8b2a815dd6137685bb5f276f6ac03b787322e54ed3519ce932b9f",
+      "text": "[On Hit] Deal fixed damage equal to 50% of the target's current HP (minimum 0)"
+    },
+    "skills.23.effects.10": {
+      "sourceHash": "6f0d102de798f67ad3da95ab3855006f60a73d0926d8b35ac8ae3d423ad16331",
+      "text": "ⅢExcision Coin"
+    },
+    "skills.23.effects.11": {
+      "sourceHash": "11f8dc409d25cc439228364625a38e1e4d10f1ebc81e2917d2747fd589a39a2c",
+      "text": "[On Hit] Deal fixed damage equal to 200% of the target's max HP"
+    },
+    "skills.23.label": {
+      "sourceHash": "d310e5a1fe56d7f47976f4f93802fc7a475ec14e39fa90fa5997409fed223057",
+      "text": "Does not activate defense; Excision Coins"
+    },
+    "skills.23.response": {
+      "sourceHash": "e246d6b03d3cc3b84186bae2a2ee92b7077f9a1d429dcd395a7a7381aef95ddc",
+      "text": "Clash with Meursault for −20 Clash Power. Winning halves the enemy's current Shield and gives him 10 Fragile. Three Excision Coins remain; keep other allies alive to maintain The Stranger's 1 HP protection."
+    },
+    "passives.0.name": {
+      "sourceHash": "69dd95b4bb6574976c0924a281ea07da62466779d5d51b1dd334bd702d6c7ae2",
+      "text": "... Impossible!"
+    },
+    "passives.0.effect": {
+      "sourceHash": "e4e5879a2509dcdc7c0662562d93c0a29afbb565891be50b7781b70abc32d2f3",
+      "text": "At Stage Start, Meursault gains The Stranger.\n\nAt Turn Start, grant Thumping Pulse and Stillness to random Sinners.\n\n“The symbols of stillness and change... should signify God's divinity...!”"
+    },
+    "passives.0.condition": {
+      "sourceHash": "369815689a814b9c09be8216d7630297869baae9a5abc5f03b7789e6246fe577",
+      "text": "Stage Start and every turn"
+    },
+    "passives.0.response": {
+      "sourceHash": "b1523771e13752a298104676e06f13be75f75a1c0112e825248aa544a0ef4dcf",
+      "text": "Check Meursault's The Stranger and the Stillness / Thumping Pulse recipients before assigning clashes."
+    },
+    "passives.1.name": {
+      "sourceHash": "8d343e50a787f953cebf999e4d8dc379d3784bb16d1cf6e1fc7eafeac36e6be2",
+      "text": "Vicarius Dei"
+    },
+    "passives.1.effect": {
+      "sourceHash": "44a2d3e55f7c948d1cf9f21097112216db4cd7e468de11870415a85a03444eeb",
+      "text": "Fixed Panic applies. If Panicked at Turn End, SP becomes 30.\n\nAt Stage Start:\n- Begin at 50% HP.\n- Gain 2 Precarious Theophany.\n\nUse a powerful skill on turn 3.\n- During that turn, each Sinner hit inflicts 1 Clash Power Down on this unit, once per Sinner.\n\nChange phases at 1 HP or less, or at the end of turn 3.\n\nVicar of the Obsidian God, condemning those who stray from the path."
+    },
+    "passives.1.condition": {
+      "sourceHash": "f625ebf15a0c4aee5cf2e7e16f5f48fe8cc7b926089caeb1eb7a88db232068ab",
+      "text": "Stage Start and turn 3"
+    },
+    "passives.1.response": {
+      "sourceHash": "ec221ba2632d18af19a6c30bf8d27204de4dceb0350c5b43aff02381e82ce1af",
+      "text": "You do not need to defeat the first form outright. Clear candles and survive turn 3."
+    },
+    "passives.2.name": {
+      "sourceHash": "9a14ee25821fe1855c0408e3120e71be20de48534af83f1ed1e7a8ef1a1e7cfd",
+      "text": "Hallowed Candles of Retribution"
+    },
+    "passives.2.effect": {
+      "sourceHash": "d8de5769db22d068183d352a6a99df21f4ab4c4a24017014400106ca065a92f5",
+      "text": "At Turn Start, summon 2 Candles of Retribution.\n- Increase the number summoned by 1 each turn.\n- At most 4 candles can exist on the field.\n\nWhenever a candle is destroyed, the Warden gains 1 Fragile.\n\nOn Skill Use:\n- If the main target has 1 Speed, all Coins become Unbreakable, Final Power +2, and damage +100%.\n- If no candles remain, Clash Power −1.\n\nCandles descending upon sinners who defy the department store's fate."
+    },
+    "passives.2.condition": {
+      "sourceHash": "1f672f844254d720c5a497aeed6deda3cba51decc477528b9ee67be63b4c76d1",
+      "text": "Candle summons and main target Speed"
+    },
+    "passives.2.response": {
+      "sourceHash": "8e0c129807ef7996fd6408b713c21c25c6aef00528e8c89e0f37a6cf9f672a51",
+      "text": "Destroy every candle first. Do not let a 1-Speed Sinner receive the body's attacks."
+    },
+    "passives.3.name": {
+      "sourceHash": "250b6885d753496b1250d0109b32f849485b6aa750e2929c69920dcb03bd63c1",
+      "text": "Tears shall soak the cloth"
+    },
+    "passives.3.effect": {
+      "sourceHash": "4c52aee2e15ac54a52e128750271540838daabfc64de0d8dd726ec2ef3d3dcb0",
+      "text": "Instead of losing SP from Sinking, take that amount as Gloom damage.\nWhen hit by a Sinner, inflict 1 Sinking Count on that Sinner, up to twice per Sinner per turn."
+    },
+    "passives.3.condition": {
+      "sourceHash": "71f7b0dcedde1f846ab8c5ee23b4753596a9a584a8f982ec14da5fd6ab148590",
+      "text": "Taking Sinking damage and Sinner hits"
+    },
+    "passives.3.response": {
+      "sourceHash": "754b85e877c1701a6d4a3bb73b10e9a7212fd5faf3b67aa691c6f62d8648a12f",
+      "text": "Sinking cannot directly lower the enemy's SP. Track Sinking Count accumulating on Sinners and provide SP recovery."
+    },
+    "passives.4.name": {
+      "sourceHash": "8e8223b32e5ab78110cc9ee60ca68114c5f03f4651a1e8b17ed34b37a5f40a33",
+      "text": "Perfect Conservation"
+    },
+    "passives.4.effect": {
+      "sourceHash": "01f4cf06b247783d0e56b6ae0ab280068f67917c0085a066514d1b39b261f4bf",
+      "text": "Gain 1 Preservation Potency for every cumulative 10 Preservation Count consumed during battle.\n\nAt Turn Start, if Preservation Potency is 3 and Count is below 10, gain 5 Count.\n\nPreservation does not lose its usual 1 Count at Turn End.\n\nWithin the Sisyphe System, this preservation is perfectly conserved."
+    },
+    "passives.4.condition": {
+      "sourceHash": "2b8c649e8e3343c84a5a8e21d3c4e74f03786055f9deab93113d0a1d2e76f88c",
+      "text": "Cumulative Preservation consumption"
+    },
+    "passives.4.response": {
+      "sourceHash": "6955d9b0eb5f015ff5d9d8dc307a001675635fc2a85e0ed3f60b0381a2ed1510",
+      "text": "Count does not naturally decrease. Phase 1 automatic Count gain has not been confirmed to activate; do not treat it as guaranteed replenishment."
+    },
+    "passives.5.name": {
+      "sourceHash": "991174f7be0fe8d88311516e65db1b94178fe8f5052b9fe72cbf7b535adad21d",
+      "text": "Chastening Bonds"
+    },
+    "passives.5.effect": {
+      "sourceHash": "6d8903ed2848ed8ed96fdbd31f8043a1bf805335350c8b99cf3fa1a3188ae126",
+      "text": "At Turn End, inflict 2 Bind on all Sinners next turn.\n- Does not apply if a phase transition occurs.\n\nBe bound, sinner."
+    },
+    "passives.5.condition": {
+      "sourceHash": "7bb4bb437a9e11b8d001f778cc63dfdd7ae1cf9becff49b7c405acff55137cce",
+      "text": "Turn End with surviving candles"
+    },
+    "passives.5.response": {
+      "sourceHash": "a7fa3083e4677babf154495f7b8256231cd7499a1ed8271646278ce75a2e1afd",
+      "text": "Even one survivor gives everyone 2 Bind next turn. Prioritize destroying them all."
+    },
+    "passives.6.name": {
+      "sourceHash": "f7365c4c825e057d4bd43a8e88681e4a2d4553319866399db1c24773ed602f16",
+      "text": "Sin Aflame"
+    },
+    "passives.6.effect": {
+      "sourceHash": "11b9eb609381ace3052dbf892cd4a588ab7fc0e22b3928da1ff899a0fa921876",
+      "text": "If assigned as a Sinner skill's secondary target, take 50% less damage from that skill.\n\nOn death:\n- Gain +1 E.G.O resource of every affinity.\n- Heal the last Sinner to attack this unit for 5 SP.\n· Heal 10 instead if that Sinner has Bind.\n· If the recipient cannot be identified, apply the effect to the Sinner with the lowest SP instead."
+    },
+    "passives.6.condition": {
+      "sourceHash": "a1cba411bf34eabf6904f74fe906baee128950015fe0b60a23bc364a938d584f",
+      "text": "Area skill secondary target and on death"
+    },
+    "passives.6.response": {
+      "sourceHash": "afde39d4141133442c411b9a62d7921605d503cd26072a014faf8ebecf2d489d",
+      "text": "Secondary targeting reduces damage taken by 50%. Split main targets to destroy them and collect +1 resource of every affinity."
+    },
+    "passives.7.name": {
+      "sourceHash": "69dd95b4bb6574976c0924a281ea07da62466779d5d51b1dd334bd702d6c7ae2",
+      "text": "... Impossible!"
+    },
+    "passives.7.effect": {
+      "sourceHash": "8ea98c8e8105f62210a12e2586c687274a6fa05e3f2155f892551a73ddfab013",
+      "text": "At Turn Start, grant Thumping Pulse and Stillness to random Sinners.\n\n“The representations of stillness and change... should signify God's divinity...!”"
+    },
+    "passives.7.condition": {
+      "sourceHash": "ad3c4dab61ca8838d72da9f8ac0220c98b47bd0f9018eb9bc28774e08a622b65",
+      "text": "Phase 2, each turn"
+    },
+    "passives.7.response": {
+      "sourceHash": "92d1b9887cd392593fbaf157ec1fa8f8c986f7e7f8c7a6b5c03a739f2ce71edf",
+      "text": "Redirect the major skill's main target to that turn's Stillness or Thumping Pulse holder."
+    },
+    "passives.8.name": {
+      "sourceHash": "a4317feac29c70d99b07fd32ef89bae1e3a6139b2b04db936e88dbdaf56b44e3",
+      "text": "Implements of Confession"
+    },
+    "passives.8.effect": {
+      "sourceHash": "ecfafe80eed32b1cbb325e615e60df0cdd17ab6d049b216675881fa226dfafe0",
+      "text": "When the Warden applies Proof of Confession through skill effects:\n- Hammernail [Condemnation], Hammernail [Judgment], Nail [Punishment], and Nail [Penance] are collectively called Proof of Confession.\n- When applying Nails or Hammernails, change to the last applied effect and combine Stack.\n- Hammernails do not change into ordinary Nails.\n\nOn hitting a Sinner, damage +3% per Proof of Confession on them (max 27%, checked per target).\n\nAt Turn Start, if the Warden is at 50% HP or less, all skills apply 1 additional Proof of Confession."
+    },
+    "passives.8.condition": {
+      "sourceHash": "7b767e8d91fcd736499ff875aceaefadf47d593030917534cb953c8a4f2d2198",
+      "text": "Nail application and body at 50% HP or less"
+    },
+    "passives.8.response": {
+      "sourceHash": "bad5cec66d1b73dc9621600cb7cef44b25c8d34703df7a8a890b13858de0b851",
+      "text": "Nails change to the last type and combine Stack. More nails on a Sinner increase enemy Power and damage."
+    },
+    "passives.9.name": {
+      "sourceHash": "6b40496b43d68aa6e0fba81f26fc81ec06f7bb2a5eb68da125e4836cc8595410",
+      "text": "As Ordained by the Rule of Conservation"
+    },
+    "passives.9.effect": {
+      "sourceHash": "80237b9a47c13a63cbcf1162cd082176f79a3b4997f04914a9f4d390a0504264",
+      "text": "Fixed Panic applies; if Panicked at Turn End, SP becomes 30.\n\nAt the first Turn Start after appearing:\n- SP becomes 45.\n- Gain 0 Voice of the Obsidian God and 1 Warden of the Sisyphe Penalty.\n- Retain the preceding phase's Preservation Potency and Count."
+    },
+    "passives.9.condition": {
+      "sourceHash": "70de15d6fd95f2e93f394f51f1e9fbb6094637749447264e9f5c7abb68399129",
+      "text": "First turn of Phase 2"
+    },
+    "passives.9.response": {
+      "sourceHash": "c48beaa6e27cab64ee874eb9bb42643b33dc361622a8183421fd73cab40badbb",
+      "text": "Preservation carries over from Phase 1. Restored enemy HP does not mean Preservation resets to 0."
+    },
+    "passives.10.name": {
+      "sourceHash": "c2e5750b5e6195667dda30b0fc3e414bd61adebef750cc815ff4e182b9e634e6",
+      "text": "Dies Irae"
+    },
+    "passives.10.effect": {
+      "sourceHash": "93168ebf3c9785b1941982f237c7845b8f94374f3e623b63ffaaccb41c272873",
+      "text": "If this unit has Divinity of the Obsidian God at Turn Start, change patterns and use Judgment... Sentencing... Condemnation!\n- Minimum and maximum Speed +20 that turn.\n- If the Warden loses a clash in this pattern, change patterns again next turn and use Death Unto the Condemned.\n\nWhenever Divinity / Voice of the Obsidian God changes, heal 45 SP and gain 1 Warden of the Sisyphe Penalty.\n\nAt 50% HP or less, end the turn, except for certain skills, and remove Stagger if Staggered.\nAt 1 HP or less, change phases.\n\nThose who do not atone through punishment... shall perish on the day of judgment."
+    },
+    "passives.10.condition": {
+      "sourceHash": "8ac47b7629358f77a0bdd2f81c57330c4dfca76a2a2079b7dd2d14c07d9fbe0c",
+      "text": "Voice / Divinity changes and HP milestones"
+    },
+    "passives.10.response": {
+      "sourceHash": "1d6c51926f82293322f49b756e33625d3fa50839a984fb26c3c1b9f3682a4ba7",
+      "text": "Win the major area clash with Stillness, then execution with Thumping Pulse next turn. Expect the turn to end at 50% HP too."
+    },
+    "passives.11.name": {
+      "sourceHash": "36b04ff8505cebc1363a08f1e69e8374c4b8f50fc2406799426bf3ad7eb12f28",
+      "text": "Tears shall soak the cloth, cloth shall close about the throat..."
+    },
+    "passives.11.effect": {
+      "sourceHash": "f76a8b6dcc38659795c09ad55ec55f727c512fe977dc5d52cb1bb3f3ad46346a",
+      "text": "Instead of losing SP from Sinking, take that amount as Gloom damage.\nWhen hit by a Sinner, inflict 1 Sinking Count on that Sinner, up to twice per Sinner per turn.\n\nPoise Potency is capped at 20; heal SP equal to any excess Poise Potency gained."
+    },
+    "passives.11.condition": {
+      "sourceHash": "83bbc32bb8ab13ca01763b0c3611a46382436a24bbf21ef009544d6ac0e96a00",
+      "text": "Sinking and Poise cap"
+    },
+    "passives.11.response": {
+      "sourceHash": "28ed4982557f145092b69ae64d612cc2827fb65d144b858db03febd3db0d7fc4",
+      "text": "Sinking alone cannot lower enemy SP, and excess Poise heals it. Manage SP through clashes."
+    },
+    "passives.12.name": {
+      "sourceHash": "8e8223b32e5ab78110cc9ee60ca68114c5f03f4651a1e8b17ed34b37a5f40a33",
+      "text": "Perfect Conservation"
+    },
+    "passives.12.effect": {
+      "sourceHash": "01f4cf06b247783d0e56b6ae0ab280068f67917c0085a066514d1b39b261f4bf",
+      "text": "Gain 1 Preservation Potency for every cumulative 10 Preservation Count consumed during battle.\n\nAt Turn Start, if Preservation Potency is 3 and Count is below 10, gain 5 Count.\n\nPreservation does not lose its usual 1 Count at Turn End.\n\nWithin the Sisyphe System, this preservation is perfectly conserved."
+    },
+    "passives.12.condition": {
+      "sourceHash": "d8c0d1157e1f89c81874e2b5d3700e94df5f782a00980d6ca4bd92857167a716",
+      "text": "3 Preservation Potency and below 10 Count"
+    },
+    "passives.12.response": {
+      "sourceHash": "499e0512ed0aaef62f87896b28e5bd013a473cb6d6825edfb8de294da292e47f",
+      "text": "Check Preservation's automatic replenishment condition. Even if Voice B's Judgment acts last, replenishment can strengthen the next major skill."
+    },
+    "passives.13.name": {
+      "sourceHash": "527fe557233cadb7916631591c62d6ca149dd312be8311d0a879f33b9d3ad1b6",
+      "text": "Goddammit. How did you manage to find a glitch like that?"
+    },
+    "passives.13.effect": {
+      "sourceHash": "89c6eb446d361c319fc138bc1682f990571d81283856ca395ea26669673eff77",
+      "text": "At Turn Start, grant Thumping Pulse and Stillness to random Sinners.\n\nIf the Manager takes certain actions, the Chaplain deals damage proportional to max HP to a random Sinner and inflicts Nail [Console].\n\nBelow 50% HP, the Chaplain interferes with the system, fully restores HP and SP, and removes all negative effects.\n\n“I know the system isn't always perfect, but I didn't expect a bug this severe. Tch. Do I have to call maintenance?”"
+    },
+    "passives.13.condition": {
+      "sourceHash": "07d5a7eea2725d2db6268455b0bd110a680e70e9c766119819dde44c33068440",
+      "text": "Certain skill selections and below 50% HP"
+    },
+    "passives.13.response": {
+      "sourceHash": "297a9d4cf3625264978c24e1983c38ad49199ce9d7a3c984513b04f9c95bf080",
+      "text": "Avoid nailed Attack Skills and Win Rate / Damage auto-selection. The first halving fully heals him; the second continues without recovery."
+    },
+    "passives.14.name": {
+      "sourceHash": "501c045df79128701d8e167c6739fa404694cff80aa456861482b0c415cd827e",
+      "text": "Sisyphe System Maintenance Tool"
+    },
+    "passives.14.effect": {
+      "sourceHash": "c08d9f346b50ca0e52d06f771c03a19e00fdb73b8fcb2fe7af13bd370e247c42",
+      "text": "When the Chaplain applies Implements of Confession (~) through skill effects:\n- Nail [Exception], Nail [Breakpoint], and Nail [Console] are collectively called Implements of Confession (~).\n- Apply the last nail type and combine Stack.\n- Exception and Breakpoint do not change into Console.\n\nOn hitting a Sinner, damage +5% per Implements of Confession on them (max 45%, checked per target).\n\nAt Turn Start, if the Chaplain is at 50% HP or less, all skills apply 1 additional Implements of Confession.\n\n“The manual says... in cases like this, everything needs readjusting. It's all prescribed already. Just look at what's in this manual... oh, you can't see it from there.”"
+    },
+    "passives.14.condition": {
+      "sourceHash": "0376a8da5210d68d9c028fca08a7c2f5e22c5a58ced24f5a3c1d0b36bca14ce7",
+      "text": "Implements of Confession application and HP at 50% or less"
+    },
+    "passives.14.response": {
+      "sourceHash": "1b565180746e5cb88f130fbace9e9ee8f15d1d7fc58e3111fc0141236ed48760",
+      "text": "Console can change to Breakpoint or Exception. Do not automatically assign major clashes to Sinners with many nails."
+    },
+    "passives.15.name": {
+      "sourceHash": "ab4187a51a98cecd127bd864001ec301bdd923d9e9beb4007254622065b0278a",
+      "text": "\"As Ordained by the Rule of Conservation\""
+    },
+    "passives.15.effect": {
+      "sourceHash": "03a97d8b479246e3f3114157f078f75bade265cad50cbf0875cb5fc69dd7092b",
+      "text": "At 10 or more clash exchanges, the skill gains Clash Power equal to exchanges made.\nBurn, Bleed, Tremor, Rupture, and Sinking are capped at 50 Potency and 15 Count.\nDamage taken from Burn, Bleed, Tremor, Rupture, and Sinking −50%.\n\nFixed Panic applies; SP cannot fall below 0.\n\nAt the first Turn Start after appearing:\n- SP becomes 45.\n- Gain 0 Voice of the Obsidian God and 1 Chaplain of the Sisyphe Penalty.\n- Retain the preceding phase's Preservation Potency and Count."
+    },
+    "passives.15.condition": {
+      "sourceHash": "b3884717e8a39c34430933d804965bcc6c1997ab9fde9a787c510b9c60ec679d",
+      "text": "Phase 3 and long clashes"
+    },
+    "passives.15.response": {
+      "sourceHash": "5fedb392626ec1bd33210565589d0e63f73f69bafdea7db473d7937b15695bfe",
+      "text": "SP cannot fall below 0, and long clashes strengthen him. Sinking or Coin count alone does not guarantee victory."
+    },
+    "passives.16.name": {
+      "sourceHash": "f6873e6121499b684d63bb8a26d9c2f3c5ef195ef5fc4cdb80486c7cc2653a60",
+      "text": "\"Dies Irae\""
+    },
+    "passives.16.effect": {
+      "sourceHash": "63e3995bd4f5648cf44ffeeec1594db09d698659ec17f81f915c166f50bcdfed",
+      "text": "If this unit has Divinity of the Obsidian God at Turn Start, change patterns and use Do you seriously mean to break the Sisyphe System?\n- Minimum and maximum Speed +20 that turn.\n- If the Chaplain loses a clash in this pattern, change patterns again next turn and use Systemwide Ban.\n\nWhenever Divinity / Voice of the Obsidian God changes, heal 45 SP and gain 1 Chaplain of the Sisyphe Penalty.\n\nIf punishment didn't teach you remorse, judgment will. A lethal dose of it."
+    },
+    "passives.16.condition": {
+      "sourceHash": "e7bf0b936918446873727ecd1d65b8900c57f416f155ecab564d98acf39dbdce",
+      "text": "During Divinity and Voice / Divinity changes"
+    },
+    "passives.16.response": {
+      "sourceHash": "080a6bc7302a460fe6b7b63484d028ff239e53837dd724a728bedaaf493c26d0",
+      "text": "Stillness handles the system's major skill; Thumping Pulse handles Systemwide Ban. The roles correspond even though skill names differ from Phase 2."
+    },
+    "passives.17.name": {
+      "sourceHash": "94d09abcc250faa35a9d3bc49901e0a9a4784a92b055b186de084a8452e67f05",
+      "text": "Tears shall soak the cloth, cloth shall close about the throat... now I can't even remember what's next."
+    },
+    "passives.17.effect": {
+      "sourceHash": "31429bd3446c64e61d24df1b900f4e27ce01f4b190b0d0494d406a405e83c8c5",
+      "text": "Instead of losing SP from Sinking, take that amount as Gloom damage.\nWhen hit by a Sinner, inflict 1 Sinking Count on that Sinner, up to twice per Sinner per turn.\n\nPoise Potency is capped at 20; heal SP equal to excess Potency gained.\n\nOn triggering Tremor Burst on a Sinner with no Stagger Thresholds, deal Sloth damage equal to half their Tremor Potency instead of raising a threshold (excludes Staggered targets; checked per target).\n\n“Perhaps you really ought to start praying?”"
+    },
+    "passives.17.condition": {
+      "sourceHash": "2e8525b0ad1ff9637bda43f5141da705a585c71d44e864bc3e595cccf4c33245",
+      "text": "Tremor Burst with no Stagger Thresholds"
+    },
+    "passives.17.response": {
+      "sourceHash": "53414f77d904902eb8b5367f1e6c49eca4b78f3cf564045e470f8a9da75695f7",
+      "text": "Tremor Burst deals Sloth damage even without Stagger Thresholds. Heal Sinners who have lost their thresholds too."
+    },
+    "passives.18.name": {
+      "sourceHash": "8e8223b32e5ab78110cc9ee60ca68114c5f03f4651a1e8b17ed34b37a5f40a33",
+      "text": "Perfect Conservation"
+    },
+    "passives.18.effect": {
+      "sourceHash": "5e1d2ece8d75d24c32d477ce9ff3228340239e55714b4de4ea92bbb6a1e518d3",
+      "text": "Gain 1 Preservation Potency per cumulative 10 Preservation Count consumed during battle.\n\nAt Turn Start, if both Preservation Potency and Count are below 10, gain 5 Count.\n\nPreservation does not lose its usual 1 Count at Turn End.\n\nAt 5 or more / 10 or more Potency, maximum Preservation Count +5 / +10.\n\nWithin the Sisyphe System, this preservation is perfectly conserved."
+    },
+    "passives.18.condition": {
+      "sourceHash": "e0b11aa6ca8e56bdf799f2040a79ebb39f63a00cd9bab134f9f2f9bd8be3ea5e",
+      "text": "Cumulative Preservation consumption and Potency below 10"
+    },
+    "passives.18.response": {
+      "sourceHash": "2f2c3824fd7238e404f1292b4fe6432e7c37d2a1e996b95bfafcab8998c4e934",
+      "text": "If both Potency and Count are below 10, replenish 5 Count at Turn Start. On early cycles, Voice B consumption alone may not weaken the next major skill."
+    },
+    "passives.19.name": {
+      "sourceHash": "959f1bd6d5a01f3bf57aff62399c4b120a1b3726f8180f7aa64a828d512f5300",
+      "text": "All right. Time to clock out."
+    },
+    "passives.19.effect": {
+      "sourceHash": "fa5add95ae4c99d6ca76243396753f46bac92a955f4d323edacdc4055be02fe7",
+      "text": "At Turn End, if Preservation Potency exceeds 10, consume the excess and gain that much Sisyphe System Preservation.\n- After all Sisyphe System Preservation is consumed by this passive, stop activating this effect.\n\nThe first time HP reaches 33% or less, change patterns.\n- Consume all Sisyphe System Preservation to gain a non-decaying Shield equal to (25 + consumed Stack)% max HP.\n- Permanently lower Defense Level by the consumed amount.\n\n“Whatever you think, N Corp. absolutely needs the Sisyphe System. If it collapses... we'll have to return to an age of barbarism.”\n\n“So, as the manual prescribes, you won't be leaving this department store. No exceptions.”"
+    },
+    "passives.19.condition": {
+      "sourceHash": "e180365268ab3c45bda6a3ba822dd84b41a81dba4017ec881a673afb137e5163",
+      "text": "Preservation Potency above 10 and first reaching 33% HP or less"
+    },
+    "passives.19.response": {
+      "sourceHash": "0e7fa5077998d2282efcdd19b9132df544c2ef3666f709c9098ad042d71d4caf",
+      "text": "After the non-decaying Shield appears, assign Meursault to Shift + Delete. Win to halve the current Shield and exploit Fragile for damage."
+    }
+  },
+  "messages": {
+    "boss-copy:warden-chaplain": "complete",
+    "【リンバス】10-04 看守・司祭（10章C）の攻略｜Limbus Assistant": "10-04 The Warden and the Chaplain (Canto X, Route C) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「看守・司祭（10章C）」の攻略。看守から司祭へ続く長期戦。序盤は燭台を先に壊し、その後は毎ターン付く停止と鼓動に合わせて大技の担当を決める。司祭になったら、釘の刺さった攻撃スキルを選ばず…": "The Warden and the Chaplain (Canto X, Route C) guide for Limbus Company 10-04. A long battle progressing from the Warden to the Chaplain. Destroy the candles first, then assign major clashes according to each turn's Stillness and Thumping Pulse. Against the Chaplain, avoid selecting Attack Skills pierced by nails. Let Meursault handle the final Shift + Delete while keeping other survivors alive.",
+    "10-04 看守・司祭（10章C）": "10-04 The Warden and the Chaplain (Canto X, Route C)",
+    "10-04「Sisyphus Department Store C: FATE LOST」": "10-04 · Sisyphus Department Store C: FATE LOST",
+    "看守（第1段階）の外見": "The Warden (Phase 1) appearance",
+    "看守（第1段階）のスキル": "The Warden (Phase 1) skills",
+    "The Warden (Phase 1)の外見": "The Warden (Phase 1) appearance",
+    "The Warden (Phase 1)のスキル": "The Warden (Phase 1) skills",
+    "刑罰の燭台の外見": "Candle of Retribution appearance",
+    "刑罰の燭台のスキル": "Candle of Retribution skills",
+    "Candle of Retributionの外見": "Candle of Retribution appearance",
+    "Candle of Retributionのスキル": "Candle of Retribution skills",
+    "看守（第2段階）の外見": "The Warden (Phase 2) appearance",
+    "看守（第2段階）のスキル": "The Warden (Phase 2) skills",
+    "The Warden (Phase 2)の外見": "The Warden (Phase 2) appearance",
+    "The Warden (Phase 2)のスキル": "The Warden (Phase 2) skills",
+    "司祭（第3段階）の外見": "The Chaplain (Phase 3) appearance",
+    "司祭（第3段階）のスキル": "The Chaplain (Phase 3) skills",
+    "The Chaplain (Phase 3)の外見": "The Chaplain (Phase 3) appearance",
+    "The Chaplain (Phase 3)のスキル": "The Chaplain (Phase 3) skills"
+  }
+}

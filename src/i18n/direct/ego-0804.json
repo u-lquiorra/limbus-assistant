@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0804.md",
+  "code": "0804",
+  "messages": {
+    "火傷と精神力ダメージを与えつつ、次のターンの味方全体に憤怒ダメージ量増加を配る、憤怒の補助型E.G.O。": "A support-type Wrath E.G.O that inflicts Burn and SP damage while handing Wrath DMG Up to all allies for the next turn.",
+    "憤怒ダメージ量増加: 攻撃後、次のターンに味方全体へ憤怒ダメージ量増加1を付与する。攻撃後の効果なので、的中の成否に左右されない。": "**Wrath DMG Up**: After the attack, gives 1 Wrath DMG Up to all allies next turn. It is an after-attack effect, so it does not depend on whether the attack hits.",
+    "火傷と精神力ダメージ: 的中時に火傷3(解析Ⅲは4)と、対象への精神力ダメージ7(解析Ⅲは15)を与える。精神力を持つ敵に効く。": "**Burn and SP damage**: On hit, inflicts 3 Burn (4 at Threadspin Ⅲ) and deals 7 SP damage to the target (15 at Threadspin Ⅲ). Effective against enemies with SP.",
+    "喝采の中、息の根を断つ: 攻撃対象の体力が30%未満のとき、憤怒属性スキルのダメージ量+20%。": "**Passive — Slaying Amid Cheers**: +20% damage for Wrath skills when the target is below 30% HP.",
+    "低コスト: 必要資源は憤怒2・色欲2・怠惰1、精神消耗は覚醒20。": "**Low cost**: Requires 2 Wrath, 2 Lust, and 1 Sloth, with an Awakening Sanity cost of 20.",
+    "先に撃って、次のターンに憤怒スキルをまとめて使う。バフが次のターンに付くので、ダメージを入れるタイミングを調整しやすい。": "Fire it first, then use Wrath skills together on the next turn. The buff applies next turn, making it easy to time when to deal damage.",
+    "火力目的なら紅炎殺(0803)の方が向く。このE.G.Oは場づくりが主役と考えられる。": "For damage, Ardor Blossom Star (0803) is better suited. This E.G.O is likely mainly about setting up the field.",
+    "侵蝕スキルは全キャラクターに憤怒脆弱と憤怒ダメージ量増加を付けるため、味方も被害を受ける。": "The Corrosion skill gives every character Wrath Fragility and Wrath DMG Up, so allies also suffer.",
+    "Ⅱ: パッシブが解放される。": "**Ⅱ**: Unlocks the passive.",
+    "Ⅲ: 威力が上がり、火傷と精神力ダメージが増える。バフ役としての変化は無い。": "**Ⅲ**: Raises power, and increases Burn and SP damage. No change in its buffing role.",
+    "Ⅳ: 攻撃加重値が2になり広域化する。バフ役としての変化は無く、優先度は低いと考えられる。": "**Ⅳ**: Attack Weight becomes 2 for multi-target attacks. No change in its buffing role, so it is likely a low priority.",
+    "南部リウ協会4課: 全スキルが火傷を付与し、憤怒のS2も持つので、憤怒ダメージ量増加を活かしやすい。": "**[Liu Assoc. South Section 4](persona:0806)**: All of her skills inflict Burn, and she has a Wrath S2, making Wrath DMG Up easy to use.",
+    "定事務所代表: S1(憤怒)・S2(怠惰)で必要資源の一部を出せる。": "**[Jeong's Office Rep](persona:0813)**: S1 (Wrath) and S2 (Sloth) supply some of the required affinities."
+  }
+}

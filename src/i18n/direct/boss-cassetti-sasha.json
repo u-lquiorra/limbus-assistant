@@ -1,0 +1,1953 @@
+{
+  "kind": "boss-copy",
+  "id": "cassetti-sasha",
+  "source": "src/data/bosses/cassetti-sasha.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "血紅色の渇求",
+          "en": "Bloodtinged Craving",
+          "file": "Bufs-mowe.json",
+          "id": "BloodyCrave"
+        },
+        {
+          "ja": "硬化血液",
+          "en": "Coagulated Blood",
+          "file": "Bufs-mowe.json",
+          "id": "HardenedBlood"
+        },
+        {
+          "ja": "宿した血",
+          "en": "Stored Blood",
+          "file": "Bufs-mowe.json",
+          "id": "KeptBlood"
+        },
+        {
+          "ja": "渇求する血袋の乗客",
+          "en": "Craving Bloodbag Passenger",
+          "file": "Enemies-mowe.json",
+          "id": "90145"
+        },
+        {
+          "ja": "餓えた血袋の整理要員",
+          "en": "Hungering Bloodbag Cleanup Agent",
+          "file": "Enemies-mowe.json",
+          "id": "90150"
+        },
+        {
+          "ja": "血袋の義体フィクサー",
+          "en": "Bloodbag Prosthetic Fixer",
+          "file": "Enemies-mowe.json",
+          "id": "90151"
+        },
+        {
+          "ja": "爆ぜた血袋",
+          "en": "Burst Bloodbag",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "834801"
+        },
+        {
+          "ja": "宿した血",
+          "en": "Stored Blood",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "835001"
+        },
+        {
+          "ja": "血が無くなってはならぬ",
+          "en": "Must Retain Blood",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "835002"
+        },
+        {
+          "ja": "王子の悪あがき",
+          "en": "The Prince's Frenzy",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "835003"
+        },
+        {
+          "ja": "硬血式グレイブ",
+          "en": "Hardblood Glaive",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "835004"
+        },
+        {
+          "ja": "血食 - 硬化",
+          "en": "Sanguivore - Coagulation",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "835005"
+        },
+        {
+          "ja": "血液硬化",
+          "en": "Blood Coagulation",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014501"
+        },
+        {
+          "ja": "吸血",
+          "en": "Bloodsucking",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014503"
+        },
+        {
+          "ja": "がめつい吸血",
+          "en": "Rough Bloodsucking",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014801"
+        },
+        {
+          "ja": "漏電",
+          "en": "Power Leakage",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014802"
+        },
+        {
+          "ja": "しつこさ",
+          "en": "Tenacious",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014803"
+        },
+        {
+          "ja": "血を脳へ送る",
+          "en": "Blood to Brain",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9015101"
+        },
+        {
+          "ja": "義体モデル - L37",
+          "en": "Prosthesis Model - L37",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9015102"
+        },
+        {
+          "ja": "幼い眷属",
+          "en": "A Young Kindred",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9015201"
+        },
+        {
+          "ja": "跪け",
+          "en": "Grovel Before Me",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835001"
+        },
+        {
+          "ja": "取るに足らぬモノが",
+          "en": "Pathetic One",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835002"
+        },
+        {
+          "ja": "あっち行け…あっちいけ…！",
+          "en": "Go... Go Away...!",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835003"
+        },
+        {
+          "ja": "パレードの王子",
+          "en": "The Parade's Prince",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835004"
+        },
+        {
+          "ja": "血…血…血…！",
+          "en": "Blood... Blood... Blood...!",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835005"
+        },
+        {
+          "ja": "放っておいてくれ…！",
+          "en": "Leave Me Alone...!",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835006"
+        },
+        {
+          "ja": "我は…この行進の…王子である…！",
+          "en": "I Am... The Prince... of the Parade...!",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835007"
+        },
+        {
+          "ja": "絶対に…戻らぬぞ…！",
+          "en": "I'm... Never... Going Back...!",
+          "file": "Skills_Abnormality-mowe.json",
+          "id": "835008"
+        },
+        {
+          "ja": "硬化された腕",
+          "en": "Coagulated Arm",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014501"
+        },
+        {
+          "ja": "硬血式強化突き",
+          "en": "Hardblood Jag",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014502"
+        },
+        {
+          "ja": "血液収集",
+          "en": "Collecting Blood",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014503"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014504"
+        },
+        {
+          "ja": "硬化された腕",
+          "en": "Coagulated Arm",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014601"
+        },
+        {
+          "ja": "血液収集",
+          "en": "Collecting Blood",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014603"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014604"
+        },
+        {
+          "ja": "硬化された腕",
+          "en": "Coagulated Arm",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014701"
+        },
+        {
+          "ja": "硬血式強化打撃",
+          "en": "Hardblood Strike",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014702"
+        },
+        {
+          "ja": "血液収集",
+          "en": "Collecting Blood",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014703"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014704"
+        },
+        {
+          "ja": "硬血式武器強化",
+          "en": "Hardblood Weapon",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014803"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014804"
+        },
+        {
+          "ja": "硬血式武器強化",
+          "en": "Hardblood Weapon",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9014903"
+        },
+        {
+          "ja": "槍振り回し",
+          "en": "Spear Swing",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015001"
+        },
+        {
+          "ja": "傷口穿ち",
+          "en": "Tear Up Wound",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015002"
+        },
+        {
+          "ja": "硬血式武器強化",
+          "en": "Hardblood Weapon",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015003"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015004"
+        },
+        {
+          "ja": "義体稼働",
+          "en": "Activate Prosthesis",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015101"
+        },
+        {
+          "ja": "銛の標識",
+          "en": "Harpoon Mark",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015102"
+        },
+        {
+          "ja": "硬血式強化打撃",
+          "en": "Hardblood Harpoon",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015103"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9015104"
+        },
+        {
+          "ja": "義体稼働",
+          "en": "Activate Prosthesis",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101801"
+        },
+        {
+          "ja": "硬血式血液逆流",
+          "en": "Hardblood Reflux",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101802"
+        },
+        {
+          "ja": "生体エネルギー転換式充電",
+          "en": "Bioenergy Conversion Charge",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101803"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101804"
+        },
+        {
+          "ja": "硬血式血液移転",
+          "en": "Hardblood Transfusion",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101805"
+        },
+        {
+          "ja": "生体エネルギー転換式再充電",
+          "en": "Bioenergy Conversion Recharge",
+          "file": "Skills_Enemy-mowe.json",
+          "id": "9101806"
+        },
+        {
+          "ja": "カセッティ",
+          "en": "Cassetti",
+          "file": "Enemies-mowe.json",
+          "id": "8350"
+        },
+        {
+          "ja": "サーシャ",
+          "en": "Sasha",
+          "file": "Enemies-mowe.json",
+          "id": "91018"
+        },
+        {
+          "ja": "血の渇き",
+          "en": "Thirst for Blood",
+          "file": "Passives_Abnormality-mowe.json",
+          "id": "9014502"
+        }
+      ],
+      "note": "Names follow paired Timekilling Time and Murder on the WARP Express records for the Normal story encounters. Guide variants 滅多切り and そんな･･･。 map to Mutilate and My...; middle-dot ellipses map to the original Cassetti skill names. Thirst for Blood and Tenacious follow mowe passive records, not similarly named statuses or other bosses. Normal, dungeon, and Hard values and target/deployment restrictions remain distinct. Hard-only names are referenced only to explain their exclusion."
+    }
+  },
+  "scopedTerms": [
+    "滅多切り",
+    "そんな･･･。",
+    "血の乾き",
+    "しつこさ"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "6ffe29f6b32e994fc176d78da013d98f326b9e7062f8453b6d7a9dfdb9736ba3",
+      "text": "Cassetti & Sasha"
+    },
+    "shortName": {
+      "sourceHash": "6ffe29f6b32e994fc176d78da013d98f326b9e7062f8453b6d7a9dfdb9736ba3",
+      "text": "Cassetti & Sasha"
+    },
+    "stageName": {
+      "sourceHash": "aa909d31a400e3ba72e53bc121833ffa41c7a4b6b280ee1a8d99ae925efb71a5",
+      "text": "Murder on the WARP Express: The One Who Commands"
+    },
+    "lead": {
+      "sourceHash": "03047ce082e7333e8feeba51029068cbc27dd4bd2f79e4f55973f0de6e68f117",
+      "text": "Prepare against the Bloodbags and Sasha, then reduce Cassetti's Stored Blood through clash wins and HP damage. Use Evade against the Unclashable area attack at 0 blood to limit his massive lifesteal recovery."
+    },
+    "listLead": {
+      "sourceHash": "c176346f2933e1bdeed07ba189b3cd94a24c2371f70f63cca9d8e307441278dc",
+      "text": "Prepare against bloodbags and the opening enemy, then reduce the later enemy's stored blood with Clash Wins and HP damage. Evade the Unclashable area attack at 0 blood and prevent large lifesteal healing."
+    },
+    "statNote": {
+      "sourceHash": "b2d2221a258641b9db17f4540104888412034fba7b34398ab393654e87a42317",
+      "text": "Normal 6.5-28. Covers Wave 1's Bloodbags and Sasha, then Wave 2's Cassetti. Bloodbags list both maximum HP and halved HP on entry. Separate from Hard's extra passives and values."
+    },
+    "skillNote": {
+      "sourceHash": "69e5e03f8705227bfa921e6f33a6cd0809afa2629df03a029b4803cff7b2f14b",
+      "text": "Cassetti has both Clashable and Unclashable area attacks. Activate Prosthesis and Counter also differ by user; check who is using them. Cassetti's Evade Defense Level is unlisted."
+    },
+    "priorities.0": {
+      "sourceHash": "18a242f1afe5e31193d8c80000575fdd7842370095faa20080c80039e18f805f",
+      "text": "Aim for Level 45 and Uptie III or higher, with Blunt/Envy damage and healing. Build SP and E.G.O resources in the first wave."
+    },
+    "priorities.1": {
+      "sourceHash": "ceab2dcc19cec80b7986f488de45bb11c7a7eb4bdf4365cba80d28fb60e29568",
+      "text": "Prioritize clashes that reduce Stored Blood. Hits on Bleeding allies enable enemy healing and buffs."
+    },
+    "priorities.2": {
+      "sourceHash": "5c510cf5a25936d3ec6986037b637fdd29c639770771a0f126eeb18187b30384",
+      "text": "The area attack at 0 blood is Unclashable. Use Evade to limit healing; stop the later Clashable area attack with powerful skills."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "40c83b7fd8728f2f8d3a0357e8242b1db973ae81026d319c480634941a82f328",
+      "text": "Cassetti repeatedly heals nearly to full"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "898d4672b6c7e1c129339dadeec15c812c5c899ac0f5785443588a8e291526b1",
+      "text": "Hits on Bleeding Sinners trigger lifesteal. The Speed 10 special area attack greatly strengthens it; letting everyone be hit causes massive recovery. Use Evade against the Unclashable version and win clashes against other area attacks."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "a6fbc9a5a888c6aa920c19e47185e02235b9dc319498372c2293b2d2354b8481",
+      "text": "Stored Blood will not decrease"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "efb7547517940dc0af749536695f2e4e951ee800fbcdbb0f186000eb322a6f24",
+      "text": "It drops by 1 per 5% maximum HP lost, and winning against The Parade's Prince or Blood... Blood... Blood...! reduces it too. Some hits increase it instead; combine damage and clash wins."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "0fc1c0756f3549fdd20f465a8db99cf301c1619fc38c0eb5d58b60a76b3c61da",
+      "text": "A Bleed team cannot finish the fight"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "97f4affde479bfba8bad2cd1064c37d40457de0503ddb06e68d8272fa140dec7",
+      "text": "Bleed on Cassetti himself strengthens Offense/Defense Levels and clashes, and he resists Bleed damage. Try direct Blunt/Envy damage rather than relying on Bleed buildup alone."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "f1107d45f8fddc18b8c241868e3517ca1c61e7cbf8bc429e5dc9c4503e893e96",
+      "text": "Sasha gained more attacks"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "27a6f4c20be6d5301bcf46c179ad737abdb0427c1e8f83232400d0199f6caa4d",
+      "text": "As Wave 1 enemies disappear, Sasha gains slots up to 5. Check the additional attack lines and use her 50% HP Stagger to stop attacks."
+    },
+    "units.0.name": {
+      "sourceHash": "ca0886e12af1ad83230ec21bd973d24d7748ddce7727b57ed4430c61bcf7c102",
+      "text": "Cassetti (Wave 2)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.speed": {
+      "sourceHash": "6302b2e855b9261eab4f62353430d50ef697249fffd265be180252179d34cbf6",
+      "text": "2–4 / 10 for the special area attack"
+    },
+    "units.0.stagger": {
+      "sourceHash": "1c885db062344a7df9dfa942469b1636ac54eae75d63eb77526d0e9696560569",
+      "text": "Regular Stagger thresholds are unlisted"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "e4fab39fd6e19df16c0a0a2c92315e59c9ad024290d8913d6b9e332a1c3c23f9",
+      "text": "Enters with 5 Stored Blood. The first drop to 0 changes patterns and brings a Speed 10 Unclashable area attack."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "3fe2d8ae99e769dd52eedf4a5f78b295c8ec196e281f6d8237476007807356fd",
+      "text": "Gains Bloodtinged Craving at 30% HP (about 513). Hits on high-Bleed Sinners heal him; prevent hits as well as dealing damage."
+    },
+    "units.1.name": {
+      "sourceHash": "87dca1c5e26da5ba7c418445486db5f42e6a0b287e20a83f7b3bb3f005ff8edd",
+      "text": "Sasha (Wave 1)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "17873f177ace38837dfaa768476c10a3931345adacb4e827ce49f4ca786294a5",
+      "text": "50% / 0% (252 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "dd2d7c7a4ffe7e081edda06e16d68fd5f600e3471450f2a989e529f5fb8209f4",
+      "text": "Reinforces Wave 1 after 5 cumulative enemy deaths. Starts with 3 slots and gains up to 5 as other enemies disappear."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "9c47f279ed9b2a1f65c694d6aa57fef37ec973aa31fae1d98549e03a0998cf8b",
+      "text": "Charge skills change at 50% HP or lower. Self-damage cannot kill her; finish with Sinner attacks."
+    },
+    "units.2.name": {
+      "sourceHash": "38ca0ea34bdf5c7efd7dcd1d31273d76ac4584f0c636c4b46c6815338b01654f",
+      "text": "Craving Bloodbag Passenger"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "8c2ab6f19c25cc37bd41df31e071766c59e39a15754660f7026d3aaf21fa00cd",
+      "text": "Maximum 133 / on entry 66"
+    },
+    "units.2.stagger": {
+      "sourceHash": "bdec2be5b62c60e199cbda8e48ba423d101ce6dc47584e41c5abc25a1a92d7cd",
+      "text": "20% / 0% (26 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "5c205c5b841fc2833e1b0e82e7aa61f2e9d427c72d07a2689c207ad70790ea4e",
+      "text": "The Wave 1 version enters at half HP due to Burst Bloodbag. Does not use regular-stage or Hard values."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "89c11df18e4d974a301c5c9b028c59937f4e717abac4b3b6facabeecf6cebf28",
+      "text": "All types are vulnerable to Blunt and Envy. Handle reinforcements while building the main team's SP and E.G.O resources."
+    },
+    "units.3.name": {
+      "sourceHash": "9eef3ff3c789dc4f8d50264607688502a4d42e1dafa9976beeaf9ad3aeb2c10a",
+      "text": "Hungering Bloodbag Cleanup Agent"
+    },
+    "units.3.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.3.hp": {
+      "sourceHash": "745370abb976f518683237b25097f3673f3396fe4aa81551973c7bdb5e4d2b91",
+      "text": "Maximum 186 / on entry 93"
+    },
+    "units.3.stagger": {
+      "sourceHash": "b660d34e89406e16215b551635848ea7615ecee533bc2cc7b7b525594f4bcc64",
+      "text": "10% / 0% (18 / 0)"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "5c205c5b841fc2833e1b0e82e7aa61f2e9d427c72d07a2689c207ad70790ea4e",
+      "text": "The Wave 1 version enters at half HP due to Burst Bloodbag. Does not use regular-stage or Hard values."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "89c11df18e4d974a301c5c9b028c59937f4e717abac4b3b6facabeecf6cebf28",
+      "text": "All types are vulnerable to Blunt and Envy. Handle reinforcements while building the main team's SP and E.G.O resources."
+    },
+    "units.4.name": {
+      "sourceHash": "c768397f0fa6d3df9c5e32c5a41d564890cc735c115ac03ee231e1265fc21a74",
+      "text": "Bloodbag Prosthetic Fixer"
+    },
+    "units.4.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.4.hp": {
+      "sourceHash": "e9953a026ef861776588ed430bff3b23864d0708d624a19e66a9288128550487",
+      "text": "Maximum 161 / on entry 80"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "5c205c5b841fc2833e1b0e82e7aa61f2e9d427c72d07a2689c207ad70790ea4e",
+      "text": "The Wave 1 version enters at half HP due to Burst Bloodbag. Does not use regular-stage or Hard values."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "89c11df18e4d974a301c5c9b028c59937f4e717abac4b3b6facabeecf6cebf28",
+      "text": "All types are vulnerable to Blunt and Envy. Handle reinforcements while building the main team's SP and E.G.O resources."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "b9e1ef9d02f69137c910ca2137b275fb3828465a8ac2d57466da9ba61cfea49b",
+      "text": "Prepare main Blunt attackers and Sinners with Evade"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "3d4afa441ba4f56d8d45a9d854c95d859fddd8090505614f082a9db427374a19",
+      "text": "Aim for Level 45 and Uptie III or higher, choosing leveled Identities that exploit ×1.5 Blunt and Envy. This chain encounter allows 6 Sinners plus 6 reserves; check reserve order and levels too."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "63ce2d949339116e12c87fba5d0e3d54c6a48f9d1b4a1e92490fc50b6c7a3597",
+      "text": "Heavy Bleed on Cassetti buffs him. If a Bleed team stalls, switch to available direct damage and bring HP/SP recovery."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "0ac38f65bc4a5820c3957222d7df97018eb1cc24eb2810c39376353f8c4b5d4b",
+      "text": "Evade users can limit healing from the Unclashable area attack. Prepare resistance and remaining HP on Sinners without Evade."
+    },
+    "phases.1.timing": {
+      "sourceHash": "04fc6e7e2d8e8a3ac0b2da1bf1010443d819f0e711652c96352b8b7621f4c89f",
+      "text": "Wave 1 · Bloodbags and reinforcements"
+    },
+    "phases.1.title": {
+      "sourceHash": "920336bba9340e57825787f5d8c11de3432703917c1060177906d8b910b71543",
+      "text": "Raise main attackers' SP through easy clashes"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "eb031cf2e019fbe7bdc05df0b6bab8bb2a1969ce109bc07eb317238e297dc653",
+      "text": "Begins with 5 half-HP passengers. Cleanup Agents and Prosthetic Fixers reinforce after kills; the wave does not end with the initial 5."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "672dd88216dcc92ec53d83fa73e55f91431685c605ca282f351cb84ffc5effc4",
+      "text": "Assign winning clashes to main attackers for SP and resources. Bloodbags also heal by hitting Bleeding allies; do not leave weak enemies alive to cause attrition."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "bdd5611a50e9ad233f563e8feb9fa629fd13a49963b154781e8aaca31614c1cf",
+      "text": "When Sasha appears, check remaining enemies and attack lines. Her slots increase as adds disappear; use Blunt to reach the 50% HP Stagger and follow up."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "b33298b067b9757beeaff63875b271f4e2972e61a5f9a56f5cc967cac965a5a6",
+      "text": "Sasha increases Charge through self-damage. Do not wait for that alone to defeat her; finish while saving resources for the next wave."
+    },
+    "phases.2.timing": {
+      "sourceHash": "12fe93ce0091936ee641b20233d23d126e2348a641af380140a58f4f0521c6b3",
+      "text": "Wave 2 · Starting with 5 Stored Blood"
+    },
+    "phases.2.title": {
+      "sourceHash": "9a1cddf867b5ab44d9751360755bc4dbfff0c4be9c4a12821274e2a6a9b13ffd",
+      "text": "Prevent hits and reduce Stored Blood and HP"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "de723f297a373744b848e1c736bd3cf9943b8a267927272ebd8eb986c9e9380f",
+      "text": "Stored Blood caps at 10 and drops by 1 per 5% maximum HP lost. Wins against The Parade's Prince and certain other skills reduce it further. Stop dangerous clashes while dealing direct damage."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "ad28f433fa72081113326bd076eaca628bcee2612740d839ed1ada18b6ecf487",
+      "text": "High-Bleed Sinners attract attacks and enable healing and skill bonuses. Redirect to lower-Bleed Sinners, and Offset Evade with defense."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "b355403d81dc7d96af12446836fb27c428385d52cedb2c704a69e2f3c8cb1051",
+      "text": "The Parade's Prince gains area coverage based on the number of Bleeding Sinners. Its 4 hits can heal substantially; stop it with a strong skill or E.G.O."
+    },
+    "phases.3.timing": {
+      "sourceHash": "786e2a759287afd5f26b5397993c7d6b8adfe05fe6609c49dc33c7ca3b0f6bb5",
+      "text": "First drop to 0 Stored Blood"
+    },
+    "phases.3.title": {
+      "sourceHash": "967dca186c85943f9c08724ac8f5883ed981fb3f4a6983e608f50f4769117590",
+      "text": "Evade the Speed 10 Unclashable area attack"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "a66d9392dec762f9b56ed853c3791e15cd446e9074592252ae3f0e9a68aec050",
+      "text": "I Am... The Prince... of the Parade...! is Unclashable and prevents Stagger that turn. A powerful E.G.O clash cannot stop it."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "0b22eb2641dbab07ea3b5ccb36b6b41e31b51b473bfbcff6dbf263a4f52ce950",
+      "text": "Hits on Bleeding targets trigger enhanced lifesteal and massive healing. Evade where possible to reduce hits; prioritize endangered Sinners."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "a8911b27c7a8acd1750389eaf958e406d1c406a4954d4047f6c8186121ceb395",
+      "text": "After attacking, Stored Blood returns to 10 and the turn ends. Do not plan to finish him with later attacks; prepare to reduce blood again next turn."
+    },
+    "phases.4.timing": {
+      "sourceHash": "c315d99a8dad1b61f4b859dd499e4117c5435d80c7834f4054474ed47f949e98",
+      "text": "After the pattern change / at 30% HP or lower"
+    },
+    "phases.4.title": {
+      "sourceHash": "b92dd57f7289fe1080609b9f406b8da70ab0a2936fde36070d8cf2e7dc519cfc",
+      "text": "Stop the Clashable finisher and finish the fight"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "200a7c377c6cb79d8e4b5458fc6767d8fed2e9cdceb48adce4133686ceb29372",
+      "text": "After the pattern change, low blood brings I'm... Never... Going Back...! This one is Clashable; retain a strong handler or E.G.O to prevent hits."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "33adf504d90c819431b30e839cc3c274e0239e181f7b5f06d558266727a6b6bd",
+      "text": "This skill also gains 10 blood after attacking. Winning does not stop that gain; prepare for the next buffs and further HP damage."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "33a3537105a43e599c0fa2477f48b32fed1f0b4905c142f5bd8484ab541f1a37",
+      "text": "At 30% HP or lower, Bloodtinged Craving adds blood on each hit. Prevent healing in the closing phase and combine clash wins with follow-up damage on the same turn."
+    },
+    "skills.0.name": {
+      "sourceHash": "ec44ad8adfb4968019bddb573fc6198912e831abd829579792eff80db48f2988",
+      "text": "Grovel Before Me"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "83bf22e2747d53f86b7bfc81fa40dd47ca9789a390ea755f1d591cb8b0520484",
+      "text": "[On Use] If the target has 4+ Bleed, Clash Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "567e80d307afc618cf37277524a664bb93582315ddaba812146c9c9edbd1a41f",
+      "text": "Clash Power increases against 4+ Bleed. Redirect to a healthy, lower-Bleed Sinner to prevent healing and further Bleed."
+    },
+    "skills.1.name": {
+      "sourceHash": "73793a038ac05ee0cf540605b520c80ca60d3ee93a59964a5da801dba76d70bc",
+      "text": "Pathetic One"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "83bf22e2747d53f86b7bfc81fa40dd47ca9789a390ea755f1d591cb8b0520484",
+      "text": "[On Use] If the target has 4+ Bleed, Clash Power +1"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "716b38851af901e8a86c9b2b9985cf15f82c053a1b2c3ab24a2c06c61831ab36",
+      "text": "Increases Bleed Count. Letting it hit a high-Bleed Sinner worsens later area attacks and healing conditions."
+    },
+    "skills.2.name": {
+      "sourceHash": "2f87cb7d4dafe26b8c9fbfb8b4c5f087afff6b074d7329e134b4418e5935aa79",
+      "text": "Go... Go Away...!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "83bf22e2747d53f86b7bfc81fa40dd47ca9789a390ea755f1d591cb8b0520484",
+      "text": "[On Use] If the target has 4+ Bleed, Clash Power +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "d785ee54de46a877130898fb91d79af871be8081c31a6ae4a473580038bebd6b",
+      "text": "[On Use] Damage +5% per 1 Bleed Count on the target (max 20%)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "2e5b62f9de896ee80acb1dcad26f0badf9c255460b60567bd73a5dae4f36ecdf",
+      "text": "Ⅱ[On Hit] Inflict 8 Bleed and increase Bleed Count by 2"
+    },
+    "skills.2.response": {
+      "sourceHash": "da2ef2b128312dcb25d8d0d41d8974fd114b4bfc8d36b1d09a98d8974b7066d0",
+      "text": "Adds Bleed Potency and Count, with extra damage from the target's Count. Stop it by clashing rather than repeatedly healing through hits."
+    },
+    "skills.3.name": {
+      "sourceHash": "4eba6beb6987e87168598409af86e01cb8daad19a631dfc4da8c86e6733831f5",
+      "text": "The Parade's Prince"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "dfe8f99dad6b970f0b141bb5ee68896232fbc82d2e57d7f73b461695c27672a0",
+      "text": "[Combat Start] Increase Attack Weight by the number of targets with Bleed (max 5)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "f16322be271f83a78c8559453e9a993486f1e545e993ca2411bda720cddc6115",
+      "text": "[On Use] If the target has 4+ Bleed, Base Power +1"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "e2f0c5d02f49a4711240a7d292bfcbdd90b06838cf5d1f636f8bea88902ee652",
+      "text": "[On Use] If the target has 3+ Bleed Count, Coin Power +1"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "dae1ba3ff4a68db726ac202320637be7993a14dc4f55729b66c1c83bd8cebfec",
+      "text": "[On Clash Lose] Stored Blood -1"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "24d84dcabfbcac102fa3419b011a28617bcf4b50143526c9b755d9a12f5f7cb6",
+      "text": "Ⅲ[On Hit] Inflict 4 Bleed"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "8aa1bc811f70b90280b5eaf570cc0e6c67c6abc84889f071f302e315b348d37d",
+      "text": "Ⅳ[On Hit] Inflict 4 Bleed"
+    },
+    "skills.3.response": {
+      "sourceHash": "3de8045c4b08f10f522a528d7141426005adc2aaeb8b6d056c925d2149c69912",
+      "text": "More Bleeding Sinners mean greater area coverage. A priority clash to stop 4 hits and lifesteal; winning also reduces Stored Blood by 1."
+    },
+    "skills.4.name": {
+      "sourceHash": "3d23b10b1863a2704c76e2a30972358fdbea75de6afc1239abbb233a95e1c0ac",
+      "text": "Blood... Blood... Blood...!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "351e2de8487e446fa7593b66baf892cfaa5e68e959716ab7ec2aee2b27ee23df",
+      "text": "[On Use] If the target has 8+ Bleed, Coin Power +1"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "dae1ba3ff4a68db726ac202320637be7993a14dc4f55729b66c1c83bd8cebfec",
+      "text": "[On Clash Lose] Stored Blood -1"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "1c0fe0434013c5c893e1472c146165a68e4d3614d4d2c82a73bd84c6f2171075",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed and increase Bleed Count by 3"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "18c5c6d8d06eeafc705872d2f6bc8ed373bb2ec5b433032cab6ba101d47087f1",
+      "text": "  [On Hit] If the target has 10+ Bleed, next Coin damage +20%"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "3445ee21e2f0aee5f86c9d93110d8138f65ac763d2e58b46fd7f24a4a284b5e0",
+      "text": "Ⅱ[On Hit] Gain 1 Stored Blood"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "b6a1d7e264eef6d95ca79d43160f0ba106cadf56ded41c2c2d4a49d04e87b509",
+      "text": "[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "ff95496da3dff858ab66afe50241ab778e901c6c6adf659d7052811915cefb57",
+      "text": "Winning reduces Stored Blood by 1; letting Coin 2 hit gives the enemy 1 blood. Assign a blood-reduction handler while protecting high-Bleed main attackers."
+    },
+    "skills.5.name": {
+      "sourceHash": "b10586d22d414eb314d3b7696f027f0965cbdb8a1e2ea77833f92584a51f175d",
+      "text": "Leave Me Alone...!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "e55c195e3a03e1c067f4ae69b97bd32aae8f85ef4e8bd813937157e8669d409f",
+      "text": "[On Use] Base Power +1 per 1 Bleed Count on the target (max 4)"
+    },
+    "skills.5.response": {
+      "sourceHash": "a5385f8ed93ea33df22aef3912780dc96f2f7bb4a83c498c2eccc5ec276ae292",
+      "text": "Evade gains Base Power from the target's Bleed Count. Offset it with defense to enable boss damage. Defense Level is unlisted."
+    },
+    "skills.6.name": {
+      "sourceHash": "522d76c38f0ff472c1c588f22b59326ff94bf96653cd5ca80dcb65b29ef36b44",
+      "text": "I Am... The Prince... of the Parade...!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "ea429fe5f7a98a209035b348826d5bee1d7c7ba58ec0d266ee44653b56e9401e",
+      "text": "[On Use] Double Hardblood Glaive's healing effect"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "3a202ace48e19cdc6349572531a691c325e03b2dcc0662535ad224ab1665caad",
+      "text": "[On Use] Set SP to 0"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "42efd86ff226bcd05ec63f43b6d00700782bc81faf0147d3c660fc315a796199",
+      "text": "[After Attack] Gain 10 Stored Blood"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "ac769fd9c186c3fe8911bed23a74db75bb17bb7530f33ccc9d1650bfc6092202",
+      "text": "Cannot be Staggered this turn. End the turn after using this skill"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "2a5cb538d3d9c65b0b078448e774a221cdc8253aae0ec4a19a00d219b0eb465d",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and increase Bleed Count by 1"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "2de6ce1e5167c76ff0970159481e8a0d2c614fcfdf263a21136125dbd414f436",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and increase Bleed Count by 1"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "e7329ea805765bd7a41cb72bc9dad8e99136607bdaaf681e6b17f791e7c74506",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed and increase Bleed Count by 1"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "3036cb7c5b8232a84647baaecb017308650943688b34ea1ef8abe90d2358c29e",
+      "text": "Ⅳ[On Hit] Inflict 2 Bleed and increase Bleed Count by 1"
+    },
+    "skills.6.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.6.response": {
+      "sourceHash": "0fc72e2473303cab0898a1dabfb64215d342287a399a1dbf62bb43e133481f13",
+      "text": "Unclashable, Speed 10, and immune to Stagger that turn. Use Evade where possible rather than trying to clash; limit the massive healing from hits on Bleeding allies. Blood returns to 10 after the attack."
+    },
+    "skills.7.name": {
+      "sourceHash": "cc3b4d6fabf42f607465122f016baa1113d4f7816c0b5485f0f7b018d7e7c915",
+      "text": "I'm... Never... Going Back...!"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "9322e0265b03f83e705eac6af71a0b2b818a4742cb1d2e9ce7779295b07c188f",
+      "text": "[On Use] Clash Power +1 per 5 Bleed on the target (max 3)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "83f833918c1c69e167fd71d532754fe84e37b7d3969d7b512bc87adc2ceab7af",
+      "text": "[On Use] If the target has 4+ Bleed Count, Coin Power +1"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "d785ee54de46a877130898fb91d79af871be8081c31a6ae4a473580038bebd6b",
+      "text": "[On Use] Damage +5% per 1 Bleed Count on the target (max 20%)"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "ea429fe5f7a98a209035b348826d5bee1d7c7ba58ec0d266ee44653b56e9401e",
+      "text": "[On Use] Double Hardblood Glaive's healing effect"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "42efd86ff226bcd05ec63f43b6d00700782bc81faf0147d3c660fc315a796199",
+      "text": "[After Attack] Gain 10 Stored Blood"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "a7ea571c1842f4d059cd9a667aaac738eb3e3391a48ebe95e8f7d996bd79075c",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed and increase Bleed Count by 1"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "7616b3520402aa3b046190014b408931e85ca707b8f545631a0829e8cbe335a6",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed and increase Bleed Count by 1"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "0492725f459aa58407839f27cb121f6b1bef321325673c6ec7ff4271fc0a1af9",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed and increase Bleed Count by 1"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "74e3f39454c7b7fedbc314b6caf3a6118917a875977f894d3cd69b1daafb373e",
+      "text": "Ⅳ[On Hit] Inflict 3 Bleed and increase Bleed Count by 1"
+    },
+    "skills.7.response": {
+      "sourceHash": "88846eae086dd94c82b05da55651e261c8ea573a71ec63800927de77b295c383",
+      "text": "This powerful area attack is Clashable. Enhances lifesteal on use and gains 10 blood after attacking. Win to prevent hits and massive healing, then prepare to reduce blood again."
+    },
+    "skills.8.name": {
+      "sourceHash": "0bb2b383467235dd60a631f41a5ccc0f2b9f31414c27cfda5ffb1cab29d26f59",
+      "text": "Activate Prosthesis"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "b6a1f0d4c6ac78ee8224805ce00afe984bcee93cdb1f060bddf6ec1c8a56800b",
+      "text": "[On Use] At 10+ Charge Count, consume 3 for +1 Coin Power"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "6d71cdd00663a92abb1a7c453769c9c8d281313c188f1a9d73882e94263fbc93",
+      "text": "[On Use] At 15+ Charge Count, consume 3 additional Count for +20% damage"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "b07bb6bb4aa6c13c2eb6ee5c8f21ec7082c31e6355e5c6f246978bbcb0a12df1",
+      "text": "[On Use] Below 5 Charge Count, lose 10% maximum HP and gain 5 Charge Count"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "b6a1d7e264eef6d95ca79d43160f0ba106cadf56ded41c2c2d4a49d04e87b509",
+      "text": "[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "28131cc0cce98c446ee67fa4de29103bddeba3b3615ded542f45de6d713e40f4",
+      "text": "Uses Charge and Bleed. Despite the shared name, Sasha and the Prosthetic Fixer have different affinities, Power, and conditions; check the user when assigning clashes."
+    },
+    "skills.9.name": {
+      "sourceHash": "fb7bb0d917aa5f59586ba6740465f21eafe318cf6e66a95c2c3a6d1b245129b7",
+      "text": "Hardblood Reflux"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "b6a1f0d4c6ac78ee8224805ce00afe984bcee93cdb1f060bddf6ec1c8a56800b",
+      "text": "[On Use] At 10+ Charge Count, consume 3 for +1 Coin Power"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "6d71cdd00663a92abb1a7c453769c9c8d281313c188f1a9d73882e94263fbc93",
+      "text": "[On Use] At 15+ Charge Count, consume 3 additional Count for +20% damage"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "b07bb6bb4aa6c13c2eb6ee5c8f21ec7082c31e6355e5c6f246978bbcb0a12df1",
+      "text": "[On Use] Below 5 Charge Count, lose 10% maximum HP and gain 5 Charge Count"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "3e01648b476dc49cf58760e94ef5008808087223d245f2c12077d7c713982cfb",
+      "text": "  [On Hit] Inflict 2 Paralyze"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "4e99b178482f0b8264b825b8bac0e55719ba4352317ad1cb0293d80b484e9fa3",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.9.response": {
+      "sourceHash": "59842a56937aa57b6d81f441fcb61d16088d9c84b1937407349b681e049484ce",
+      "text": "3 hits stack Bleed and Paralyze. On-use self-damage and Charge occur even after winning; assign someone to prevent the hits themselves."
+    },
+    "skills.10.name": {
+      "sourceHash": "a30fa71c79ed61086ca94f3ac931dc60bb406e7c96a1f1b5bb365b87277d18a2",
+      "text": "Bioenergy Conversion Charge"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "e984a81d764f01cdf93d3cefc40dfa103d754b8b049bc7542ab992cc0e92b9e0",
+      "text": "[On Use] Consume 10% own maximum HP and gain 15 Charge Count"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "6fd294122bc61b9883e19b91ca634006a2cd66e42ecbc165d4d22916263a0082",
+      "text": "Ⅱ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "ca989bd1892953b1ee41c2834ad5fd415ed46dbc6a1dcc5cbc6ff5bb313475f9",
+      "text": "  [On Hit] Bleed Count +2"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "5b5884574f0f63ad8406bfac7c2a51328c9249de486f2e092fe0d0c8f95ee1d5",
+      "text": "[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.10.response": {
+      "sourceHash": "69999b14d61027fc3b73be35bf44210897ce104666d3b0bf68743a70a602a996",
+      "text": "Consumes 10% HP for 15 Charge. Do not wait for self-damage alone; stop its attack and follow with Blunt damage to Stagger and kill."
+    },
+    "skills.11.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "9347d2e42a5f0599bc513c61c8a406a4da1975d2d97888f92c1bc9db13ddd7e3",
+      "text": "[On Use] Base Power +1 per 3 own Bleed Count (max 2)"
+    },
+    "skills.11.response": {
+      "sourceHash": "db46ac6237fc20fc15ab11a1f72390d77bb185963fa6b31b55000ca66502d289",
+      "text": "Offset with defense or focus enough damage to break through. Avoid losing skills needed for the next dangerous clash to a Shield."
+    },
+    "skills.12.name": {
+      "sourceHash": "f605233ebe00de24ca6e0c745f76c9b82c538c5025779e9519376f983aa5f959",
+      "text": "Hardblood Transfusion"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "b6a1f0d4c6ac78ee8224805ce00afe984bcee93cdb1f060bddf6ec1c8a56800b",
+      "text": "[On Use] At 10+ Charge Count, consume 3 for +1 Coin Power"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "6d71cdd00663a92abb1a7c453769c9c8d281313c188f1a9d73882e94263fbc93",
+      "text": "[On Use] At 15+ Charge Count, consume 3 additional Count for +20% damage"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "b07bb6bb4aa6c13c2eb6ee5c8f21ec7082c31e6355e5c6f246978bbcb0a12df1",
+      "text": "[On Use] Below 5 Charge Count, lose 10% maximum HP and gain 5 Charge Count"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "cbbca8204ac9f3e70e7c50ac7a0b9b67fa3dcd1d636ad46ada8196620da76f02",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.12.response": {
+      "sourceHash": "662b2e893ed899ad8b0bef2f3d8613f59a5f12de09c4356103351f2e134a2b37",
+      "text": "Charge raises Coin Power. Check current Charge and clash predictions rather than relying on low Base Power."
+    },
+    "skills.13.name": {
+      "sourceHash": "fae3c75af71f8ffd17f3af868e299e3735a2202bb4b87aa4f1ae018c4c86e2a6",
+      "text": "Bioenergy Conversion Recharge"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "e984a81d764f01cdf93d3cefc40dfa103d754b8b049bc7542ab992cc0e92b9e0",
+      "text": "[On Use] Consume 10% own maximum HP and gain 15 Charge Count"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "63a3c57328156c10ef3e2e6d37e431230cf8100719c438fdfcba1a8048e3b1e1",
+      "text": "[On Hit] Inflict 1 Fragile."
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "cbbca8204ac9f3e70e7c50ac7a0b9b67fa3dcd1d636ad46ada8196620da76f02",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "db85d131827d739dcf194158d907672b396cd7cdf4cba1daa1cceda19dd79eb9",
+      "text": "Ⅲ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "ca989bd1892953b1ee41c2834ad5fd415ed46dbc6a1dcc5cbc6ff5bb313475f9",
+      "text": "  [On Hit] Bleed Count +2"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "5b5884574f0f63ad8406bfac7c2a51328c9249de486f2e092fe0d0c8f95ee1d5",
+      "text": "[On Hit] Inflict 2 Offense Level Down."
+    },
+    "skills.13.response": {
+      "sourceHash": "6d3e4f8911f83689e136f11cb9c9dffa1d138b6243eda6b200fd8ecd33578758",
+      "text": "A powerful Charge skill Sasha uses at 50% HP or lower. Prevent Bleed and Offense Level Down, then concentrate damage after Stagger to defeat her."
+    },
+    "skills.14.name": {
+      "sourceHash": "feb67be1525bac73f29276e335267367734b51c6605efdd66c997a11b0d478e2",
+      "text": "Coagulated Arm"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.14.response": {
+      "sourceHash": "4601b15ebe07f0e3dffe22b2a49afe5c6686abc171926d7cac9e4e676a513387",
+      "text": "Increases Bleed Count. Give main attackers easy clashes to build SP for later enemies."
+    },
+    "skills.15.name": {
+      "sourceHash": "516667826350e50f81d546842932249055e6cc6f16b5e3c4b5c82ef371cd5b7f",
+      "text": "Hardblood Jag"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "b399e485e428760dd30bcb683d08e3ed6d87658263d5b040996069e3a126bfd6",
+      "text": "Ⅰ[On Hit] Bleed Count +1"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.15.response": {
+      "sourceHash": "44e1eeb3cb01fe07f7be99b15f1064cccf3307b49297c15bcd79dd5dece72c52",
+      "text": "Adds Bleed Count despite low Power. Clear Bloodbags with winning clashes and Blunt follow-ups to limit attrition."
+    },
+    "skills.16.name": {
+      "sourceHash": "a9b0fc7d2f75bb5154d5d0fe5b8579939ba17344a7196365ccd6a5640ff8b668",
+      "text": "Collecting Blood"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "59fe924af9fdcedec420984a696bc0242b228e4b827ec11b01a1791c3432cce9",
+      "text": "If the target has 10+ Bleed, damage +20%"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "cbbca8204ac9f3e70e7c50ac7a0b9b67fa3dcd1d636ad46ada8196620da76f02",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "19e3d5be405af9aaced68639b19f4c308894dde4bbf0994ac3d4106963315e56",
+      "text": "Ⅲ[On Hit] Absorb up to 10 Bleed Potency from the target and heal (absorbed Potency × 2)% of maximum HP"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "972676b5f249259686ef917debbe677c167b5756ecfa54536551d0972bb5751b",
+      "text": "  (Bleed Potency cannot fall below 1)"
+    },
+    "skills.16.response": {
+      "sourceHash": "8971fca65904fa9fda62c33fd1d20a78ff4ebe4ac4bcf44a5b69d44e2eb23bdc",
+      "text": "Stronger against high-Bleed targets; the last Coin absorbs Bleed and heals. Do not ignore low-HP Bloodbags; kill before they hit or win the clash."
+    },
+    "skills.17.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "9347d2e42a5f0599bc513c61c8a406a4da1975d2d97888f92c1bc9db13ddd7e3",
+      "text": "[On Use] Base Power +1 per 3 own Bleed Count (max 2)"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.17.response": {
+      "sourceHash": "a64a2ff6fd68fbc1d53ffa7b4656805e5c64d7d1dd2945b65193624ec7ea4849",
+      "text": "An ordinary Counter. Check resistance and Stagger thresholds on the first attacker to avoid a fatal initiating hit. Attack type also varies by user."
+    },
+    "skills.18.name": {
+      "sourceHash": "1fb265e9cf888986009a60ad4e99b3095bd629e441d2fbecdbe277d45335d0ae",
+      "text": "Spear Swing"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "3c7388bc350902c2b36e58401db0b68bcfb772c7dca2c419b4f8ced22c3bdaa7",
+      "text": "[On Use] Own Charge Count +2"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "069a0525a2502e0b7567bcb6159a8eb152be7c6147c9e789a065a35da96cf10f",
+      "text": "Ⅰ[On Hit] Own Charge Count +2"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "300608a98ffdaae75fc5aaf4b9074466d5bd321ac08894fa1ee1a93d193427be",
+      "text": "  [On Hit] Inflict 2 Bleed"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.18.response": {
+      "sourceHash": "ae646b37ddd05424451cfb60777cf8b0c80ee544c1b10cf4602339d36528d6f8",
+      "text": "Charge rises on use and on hit. Prevent hits and avoid leaving reinforcements alive for long."
+    },
+    "skills.19.name": {
+      "sourceHash": "a750656ecc0f3e59d8d146695e639481054b1bfece581ec5ee1db38d8c9bf224",
+      "text": "Tear Up Wound"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "4e5a4000ee6ff628c3249fc73b76ebf4a82202c6b84071a603e2910443d189d0",
+      "text": "[On Use] Own Charge Count +5"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "069a0525a2502e0b7567bcb6159a8eb152be7c6147c9e789a065a35da96cf10f",
+      "text": "Ⅰ[On Hit] Own Charge Count +2"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "9883bcd4f86f555399c56619f0abaa7c36934f04e49119aef0b2a4d6aede2616",
+      "text": "  [On Hit] Inflict 1 Bleed"
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "3e76748f41e617099585caf4791cfa64e2c0108fc3aeabe8af75362621ea3f0a",
+      "text": "Ⅱ[On Hit] Own Charge Count +2"
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "300608a98ffdaae75fc5aaf4b9074466d5bd321ac08894fa1ee1a93d193427be",
+      "text": "  [On Hit] Inflict 2 Bleed"
+    },
+    "skills.19.effects.6": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.19.response": {
+      "sourceHash": "5fbe5c34209806d97631acfd73501cc1c75019222fb3ea57d75f6a166c9e2082",
+      "text": "Builds Charge and Bleed. Has more HP than regular passengers; focus Blunt or other effective damage before it heals."
+    },
+    "skills.20.name": {
+      "sourceHash": "0f45938d5126f4cf38c7c42cd64eebd69d3812833bfaa277154779c4422df247",
+      "text": "Hardblood Weapon"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "887324820072a58b6cd2fa0e03cbda4fcfed20d18ace6aeb47560472b8acbf1d",
+      "text": "[On Use] Consume all Charge Count, lose 2 × (15 − consumed Charge Count)% of maximum HP, and gain +2 Coin Power"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "16200139dc42853597c272921e22eb6ab21be98528def6b112d28d6f6f98764c",
+      "text": "Ⅰ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "511e5f8abe95874ae8f1d71986e4d4901592d49a7fcb489a07ade50760bac628",
+      "text": "Ⅱ[On Hit] Inflict 3 Offense Level Down."
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "f61f818e62ad9612ccdeaaf59e790cf92b6c1b267c9a6e7bdf64495315e3d7c9",
+      "text": "  [On Hit] Absorb up to 10 Bleed Potency from the target and heal (absorbed Potency × 2)% of maximum HP"
+    },
+    "skills.20.effects.5": {
+      "sourceHash": "972676b5f249259686ef917debbe677c167b5756ecfa54536551d0972bb5751b",
+      "text": "  (Bleed Potency cannot fall below 1)"
+    },
+    "skills.20.response": {
+      "sourceHash": "09cae5e02920e74c17c9f71c1714f6b11e2e84291b67a8f432b4ca0db7717928",
+      "text": "Consumes Charge and HP for stronger Coins, then absorbs Bleed and heals on the last Coin. Its maximum exceeds the base display; check buffed predictions."
+    },
+    "skills.21.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "9347d2e42a5f0599bc513c61c8a406a4da1975d2d97888f92c1bc9db13ddd7e3",
+      "text": "[On Use] Base Power +1 per 3 own Bleed Count (max 2)"
+    },
+    "skills.21.response": {
+      "sourceHash": "db46ac6237fc20fc15ab11a1f72390d77bb185963fa6b31b55000ca66502d289",
+      "text": "Offset with defense or focus enough damage to break through. Avoid losing skills needed for the next dangerous clash to a Shield."
+    },
+    "skills.22.name": {
+      "sourceHash": "0bb2b383467235dd60a631f41a5ccc0f2b9f31414c27cfda5ffb1cab29d26f59",
+      "text": "Activate Prosthesis"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "578dc38552e7fbf25e0fc17ba016fc3695555955cf0715e885669d86c99a148c",
+      "text": "[On Use] At 10+ Charge Count, consume 5 for 3 Offense Level Up"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.22.response": {
+      "sourceHash": "28131cc0cce98c446ee67fa4de29103bddeba3b3615ded542f45de6d713e40f4",
+      "text": "Uses Charge and Bleed. Despite the shared name, Sasha and the Prosthetic Fixer have different affinities, Power, and conditions; check the user when assigning clashes."
+    },
+    "skills.23.name": {
+      "sourceHash": "7cb66324e249091ced9291032901306f18cc0e5c18c1ac908206c39afe842941",
+      "text": "Harpoon Mark"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "853ce4a11b22874fa72ac0daf44726310a1c82cd92d36cea33d3fef572c53ff3",
+      "text": "[Combat Start] Below 5 own Charge Count, gain 5 Charge Count, 3 Bleed Count, and 1 Fragile"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "578dc38552e7fbf25e0fc17ba016fc3695555955cf0715e885669d86c99a148c",
+      "text": "[On Use] At 10+ Charge Count, consume 5 for 3 Offense Level Up"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.23.effects.4": {
+      "sourceHash": "5613346bf523995a3174529024cebb38d3411c6b5b6bf7ea0286a01f4103bab7",
+      "text": "  [On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.23.response": {
+      "sourceHash": "b31d3c11c2b5807258effea7f5e4a72fbbe3828d05a5708f2841a7ebe58081d4",
+      "text": "Winning does not prevent Combat Start Charge and other gains. Stop on-hit Bleed and Bind to protect the main team's next actions."
+    },
+    "skills.24.name": {
+      "sourceHash": "33b05542f559a4681868646ed14d4d8c86049d05799f4982effbab82a5204b9c",
+      "text": "Hardblood Strike"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "fe0c15dcc235271f330ac9d602a9c388952000496419b4cd14cc74e9ef258338",
+      "text": "[On Use] Consume 10% own maximum HP and gain 10 Charge Count"
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "6fd294122bc61b9883e19b91ca634006a2cd66e42ecbc165d4d22916263a0082",
+      "text": "Ⅱ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "ca989bd1892953b1ee41c2834ad5fd415ed46dbc6a1dcc5cbc6ff5bb313475f9",
+      "text": "  [On Hit] Bleed Count +2"
+    },
+    "skills.24.effects.4": {
+      "sourceHash": "3e01648b476dc49cf58760e94ef5008808087223d245f2c12077d7c713982cfb",
+      "text": "  [On Hit] Inflict 2 Paralyze"
+    },
+    "skills.24.response": {
+      "sourceHash": "010143b3a270a0e87377cc251cc8d13d152530117be65a772533d3f450d1758e",
+      "text": "Self-damage and Charge occur on use; hits inflict Bleed and Paralyze. Focus the enemy after self-damage without allowing its charged attacks through."
+    },
+    "skills.25.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "9347d2e42a5f0599bc513c61c8a406a4da1975d2d97888f92c1bc9db13ddd7e3",
+      "text": "[On Use] Base Power +1 per 3 own Bleed Count (max 2)"
+    },
+    "skills.25.response": {
+      "sourceHash": "a64a2ff6fd68fbc1d53ffa7b4656805e5c64d7d1dd2945b65193624ec7ea4849",
+      "text": "An ordinary Counter. Check resistance and Stagger thresholds on the first attacker to avoid a fatal initiating hit. Attack type also varies by user."
+    },
+    "passives.0.name": {
+      "sourceHash": "59829c112f3484ed5f5bae771db4ee0967ab38f3784725de245cd7e36486718f",
+      "text": "Stored Blood"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c66b7b98e259aceef13f0e374952ba38f9fb89f68bdbbc002b1d0a542a82e209",
+      "text": "At Turn End, depending on Stored Blood:\n- At 5 or lower, gain 1 Bind, 1 Fragile, and 1 Offense Level Down next turn per stack below 5.\n- Above 5, gain 2 Offense Level Up and 2 Defense Level Up next turn per excess stack."
+    },
+    "passives.0.condition": {
+      "sourceHash": "392e5284122ce1220c0742d8a0b6058c54d403ef42c7ce8b799d67d7522ced19",
+      "text": "Blood at Turn End"
+    },
+    "passives.0.response": {
+      "sourceHash": "fd9c67ffb00e20b5730f4972b0992fd6f564db91b4b315cbaf800babacac1f74",
+      "text": "Low blood weakens him; above 5, Offense/Defense Levels rise. Reduce it through clash wins and HP damage."
+    },
+    "passives.1.name": {
+      "sourceHash": "bfe87db3a48d8192e4037a9562cae6004dc1530a1de32fc9b9e5b61b5a414877",
+      "text": "Must Retain Blood"
+    },
+    "passives.1.effect": {
+      "sourceHash": "6365a9f37e0f3950537cc4a07356ca9f99e346fbf778b52a53384c65499c330a",
+      "text": "Change patterns the first time Stored Blood reaches 0.\nWhen using I Am... The Prince... of the Parade...!, Speed is fixed at 10."
+    },
+    "passives.1.condition": {
+      "sourceHash": "786e2a759287afd5f26b5397993c7d6b8adfe05fe6609c49dc33c7ca3b0f6bb5",
+      "text": "First drop to 0 Stored Blood"
+    },
+    "passives.1.response": {
+      "sourceHash": "b882b3a3cbba1a16ee2ae08a3204680eb5d45d2ce50adb4fdb7868b5314c5939",
+      "text": "Prepare Evade for the next Speed 10 Unclashable area attack. Reaching 0 blood does not make everything safe."
+    },
+    "passives.2.name": {
+      "sourceHash": "28dacd37382fd1b25b130cccb0b2df28a2e5f6e34929fb30fb79b29b41550c6c",
+      "text": "The Prince's Frenzy"
+    },
+    "passives.2.effect": {
+      "sourceHash": "b36349d1e36f05b9a94f1b6520c97eebf05d1829e7e32c07973234a89bbf9f71",
+      "text": "At 30% maximum HP remaining, gain Bloodtinged Craving"
+    },
+    "passives.2.condition": {
+      "sourceHash": "7c6b910f252c13797b255f1ffaef5fb20d77d248101595c17d368cf387c4b96e",
+      "text": "Reaching 30% HP"
+    },
+    "passives.2.response": {
+      "sourceHash": "bc449eccfc0281b67e635ef0b5f4fdc9743158cbc2d4ae839db05d72cebb501d",
+      "text": "Hits now increase blood. Assign winning handlers to dangerous clashes, especially when trying to finish."
+    },
+    "passives.3.name": {
+      "sourceHash": "650fd92479f2604c906e3fd6de4b8444fcf6f27a21111f2dd8ce6f48342d8bef",
+      "text": "Hardblood Glaive"
+    },
+    "passives.3.effect": {
+      "sourceHash": "12ed9c6747606d5e649dafcc4608e7bc8c69fd7c6cf49272bd9f152825e82982",
+      "text": "Prioritize the target with the highest total Bleed Potency and Count.\nOn Hit against a target with Bleed, heal 2% maximum HP."
+    },
+    "passives.3.condition": {
+      "sourceHash": "f671d54b7a5a1117a212922820bdf19393fb6461e8d041139a39575e6d0786e0",
+      "text": "Hits on Bleeding targets"
+    },
+    "passives.3.response": {
+      "sourceHash": "cf975c5bc434391c4b4a785e8422fb730e4ce584edf86f8bfd4bd413ed8941ad",
+      "text": "High-Bleed Sinners attract attacks and enable major healing. Prevent hits through clashes or Evade."
+    },
+    "passives.4.name": {
+      "sourceHash": "71ad36666bf67389053df20977929cc362bf922c329e1c84bab5856062ee7969",
+      "text": "Sanguivore - Coagulation"
+    },
+    "passives.4.effect": {
+      "sourceHash": "6349ba84b51604c513f0d8f59fde3e8d7fda667289f8fd32f80604e0573cf59f",
+      "text": "While self has Bleed:\n- Gain 1 Offense Level Up and 1 Defense Level Up per 5 Bleed (max 10).\n- Gain 1 Clash Power Up per 10 Bleed (max 5).\n- Take 50% less Bleed damage (rounded down)."
+    },
+    "passives.4.condition": {
+      "sourceHash": "141ea0f608b86e91f58390a1e5ae3c1ee9f1a2b2d0dfa60fcd7e39521eadb674",
+      "text": "Bleed on self"
+    },
+    "passives.4.response": {
+      "sourceHash": "9d2311299f996c42cfa3a0b21083523c75dc0328206b4802ac25c4873d9c5ecc",
+      "text": "Bleed strengthens the enemy's Offense/Defense Levels and clashes. If a Bleed team stalls, switch to direct Blunt/Envy damage."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "2d6fafe614bcdf4c7771061aed908dc9016d081fe2fa47a4c574270d581d9495",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.5.response": {
+      "sourceHash": "5c2b3b7f4ecd37943752ffd4a45eed3c59bf3c35a9fa487505462db1f53a204b",
+      "text": "Do not rely on replacing its Panic type. Normal SP reduction and clash wins can still be useful separately."
+    },
+    "passives.6.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.6.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.6.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.6.response": {
+      "sourceHash": "05897f0cf0fc19a03184739e85b5ecaf8a372296cac2866588d90d944947e5db",
+      "text": "Panic does not last indefinitely. Concentrate damage before recovery."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.7.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.7.response": {
+      "sourceHash": "05897f0cf0fc19a03184739e85b5ecaf8a372296cac2866588d90d944947e5db",
+      "text": "Panic does not last indefinitely. Concentrate damage before recovery."
+    },
+    "passives.8.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.8.effect": {
+      "sourceHash": "50db7d31c5cafbae43ba84c16a0bcfc53a5b77436ef53563209cfe513766be77",
+      "text": "Whenever taking attack damage, gain 1 Bleed Count.\nAt Turn End, consume 3 own Bleed Count for 1 Coagulated Blood."
+    },
+    "passives.8.condition": {
+      "sourceHash": "7970e6c107d906a56f36f8948b82889872b6e39a103550d5a2e3725c78670ced",
+      "text": "Taking damage / Turn End"
+    },
+    "passives.8.response": {
+      "sourceHash": "5b25fa9eda7f2495a42e75f4497b1c9cc1d7076766799ae564c03266302bb1f9",
+      "text": "Hits add Bleed Count, converted to Coagulated Blood at Turn End. Longer fights raise Offense/Defense Levels; defeat enemies one at a time."
+    },
+    "passives.9.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.9.effect": {
+      "sourceHash": "9d02f69fbcf0021a62f7ea09c28928db74ca63bb2f5677f321b8a02dfdd637ef",
+      "text": "Prioritize Bleeding targets.\nIf no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.9.condition": {
+      "sourceHash": "379c971c0e5f9a7b361f00cf5ae4f580a90812de3680d2e8326da27ebdbdfe62",
+      "text": "Bleeding-target selection / a turn without dealing damage"
+    },
+    "passives.9.response": {
+      "sourceHash": "4c41ae85602a10190120ecc00df6387b0d124fe26c9e3f2a11234336bc230635",
+      "text": "Preventing damage gives the enemy Fragile but also Offense Level Up. Recheck predictions and focus its weaknesses."
+    },
+    "passives.10.name": {
+      "sourceHash": "47d0a240305c0f8453ab9de11581c9b84349a4938ea99300d64bb6b9d7d5cac9",
+      "text": "Power Leakage"
+    },
+    "passives.10.effect": {
+      "sourceHash": "9f38223f0feddd6f958f1f3ff6382566dc12f487f286b7a92588ef487a52b755",
+      "text": "When taking damage, if the attacker used a skill that gains Charge, transfer 1 Charge Count to the attacker.\n(Once per skill; does not activate if the damaged target has no Charge.)"
+    },
+    "passives.10.condition": {
+      "sourceHash": "16fad344dcd3c899586950a50b60540798e1dfe21d12d60a8839db7b122a9209",
+      "text": "Attacked with a Charge-gaining skill"
+    },
+    "passives.10.response": {
+      "sourceHash": "a7e953aa15207c5c40f7379dcf679e6f09ffa023a07c04b1edad6eca04237aee",
+      "text": "If the enemy has Charge left, transfers Charge Count to that skill's attacker. Can support available Charge Identities but is not required."
+    },
+    "passives.11.name": {
+      "sourceHash": "5d42d231da7fe0c947a52e6d1591104f8313727a7fc9cd6d17f52baeb200a6ae",
+      "text": "Tenacious"
+    },
+    "passives.11.effect": {
+      "sourceHash": "d3b67a7593d3147d7464044b2ac80a9a0a618481306bd764426d6f278565c42e",
+      "text": "Damage from own skills cannot reduce HP below 1"
+    },
+    "passives.11.condition": {
+      "sourceHash": "070adcaf44e518db76d0ef20074cfb008d4521499d23b4e89c4f6eca0c492420",
+      "text": "Self-damage from own skills"
+    },
+    "passives.11.response": {
+      "sourceHash": "390c8a7114fc04b83161707be20962a487304cc65197875c4f7d21bd3f036d67",
+      "text": "Self-damage cannot reduce HP below 1. Finish with Sinner attacks rather than waiting."
+    },
+    "passives.12.name": {
+      "sourceHash": "00e93797e0c157d8723f151387073d579b2e66ee09e5c217692cf3b3d94b8817",
+      "text": "Prosthesis Model - L37"
+    },
+    "passives.12.effect": {
+      "sourceHash": "d62d43280a3ff129190b1ff97bebf659383fb989a70ba066418ebe0258514da8",
+      "text": "At Turn Start below 5 Charge Count, gain 1 Attack Power Down.\nAt Turn Start with 5+ Charge Count, gain 2 Clash Power Up."
+    },
+    "passives.12.condition": {
+      "sourceHash": "e31b26592764fdf26826e8b99a63d4c1439e2caa90a5c3246a57f5c916efecbd",
+      "text": "Charge Count at Turn Start"
+    },
+    "passives.12.response": {
+      "sourceHash": "05a192132791045a77d6906eb6a3207b883e629f75f41db2e117fb57505782e2",
+      "text": "Clashes strengthen at 5+ Charge. Do not assume its low opening Power persists."
+    },
+    "passives.13.name": {
+      "sourceHash": "f72ce956c9b8225cd59b47b42c5dbf02f27c0683a92a06742a7f17d6ea89c994",
+      "text": "A Young Kindred"
+    },
+    "passives.13.effect": {
+      "sourceHash": "11e35555beb560b73891a20825b62eb13ee425d4dd3258d2fd56faae897a2a23",
+      "text": "Take 30% less Bleed damage (rounded down).\nOn Hit against a Bleeding target, heal 25% of damage dealt."
+    },
+    "passives.13.condition": {
+      "sourceHash": "fdbd253fd4fa67a41bb7e6b6863992feacb2143768b5f31468a2fdf5844fca64",
+      "text": "Bleed damage / hits on Bleeding targets"
+    },
+    "passives.13.response": {
+      "sourceHash": "b963436dac116f2abf2c4f1e7b29bf7a04b19b4402d69e8dda9153dbbb89b946",
+      "text": "Resists Bleed and has lifesteal. Kill through direct Blunt or other damage rather than allowing repeated hits."
+    },
+    "passives.14.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.14.effect": {
+      "sourceHash": "50db7d31c5cafbae43ba84c16a0bcfc53a5b77436ef53563209cfe513766be77",
+      "text": "Whenever taking attack damage, gain 1 Bleed Count.\nAt Turn End, consume 3 own Bleed Count for 1 Coagulated Blood."
+    },
+    "passives.14.condition": {
+      "sourceHash": "7970e6c107d906a56f36f8948b82889872b6e39a103550d5a2e3725c78670ced",
+      "text": "Taking damage / Turn End"
+    },
+    "passives.14.response": {
+      "sourceHash": "5b25fa9eda7f2495a42e75f4497b1c9cc1d7076766799ae564c03266302bb1f9",
+      "text": "Hits add Bleed Count, converted to Coagulated Blood at Turn End. Longer fights raise Offense/Defense Levels; defeat enemies one at a time."
+    },
+    "passives.15.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.15.effect": {
+      "sourceHash": "9d02f69fbcf0021a62f7ea09c28928db74ca63bb2f5677f321b8a02dfdd637ef",
+      "text": "Prioritize Bleeding targets.\nIf no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.15.condition": {
+      "sourceHash": "379c971c0e5f9a7b361f00cf5ae4f580a90812de3680d2e8326da27ebdbdfe62",
+      "text": "Bleeding-target selection / a turn without dealing damage"
+    },
+    "passives.15.response": {
+      "sourceHash": "4c41ae85602a10190120ecc00df6387b0d124fe26c9e3f2a11234336bc230635",
+      "text": "Preventing damage gives the enemy Fragile but also Offense Level Up. Recheck predictions and focus its weaknesses."
+    },
+    "passives.16.name": {
+      "sourceHash": "0c8abadacd7fb6716251de01c874a5ffdbcc1f5881f3732c2fe4b6d6db171b1d",
+      "text": "Bloodsucking"
+    },
+    "passives.16.effect": {
+      "sourceHash": "caf5bc1c6ab404af2f33fbfeadceb490b02563faec9dc6e6c337cc4554c14ce5",
+      "text": "Take 10% less Bleed damage (rounded down).\nOn Hit against a Bleeding target, heal 10% of damage dealt."
+    },
+    "passives.16.condition": {
+      "sourceHash": "fdbd253fd4fa67a41bb7e6b6863992feacb2143768b5f31468a2fdf5844fca64",
+      "text": "Bleed damage / hits on Bleeding targets"
+    },
+    "passives.16.response": {
+      "sourceHash": "5c43f459245195b1e3156fca481d72ba4ca3c6201e1d5844e23b3fa0b3b2a678",
+      "text": "Passengers also heal from Bleeding targets. Build SP through easy clashes, then kill before they recover."
+    },
+    "passives.17.name": {
+      "sourceHash": "35d414d4de28cb229f48f473600b09c07ac1d9f890938a3ae42bfa4803d3bb76",
+      "text": "Burst Bloodbag"
+    },
+    "passives.17.effect": {
+      "sourceHash": "0fe2c159103cd67a3932f7b70f8eda33afa6498da5deff443e98287dca497c14",
+      "text": "Begin combat at half HP"
+    },
+    "passives.17.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.17.response": {
+      "sourceHash": "ea536ccd088adea0113a9d4f25515573d81d738f8d40549bfc76724a88e8f2b3",
+      "text": "Bloodbags enter at half maximum HP. Distinguish maximum from starting HP when distributing attacks."
+    },
+    "passives.18.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.18.effect": {
+      "sourceHash": "50db7d31c5cafbae43ba84c16a0bcfc53a5b77436ef53563209cfe513766be77",
+      "text": "Whenever taking attack damage, gain 1 Bleed Count.\nAt Turn End, consume 3 own Bleed Count for 1 Coagulated Blood."
+    },
+    "passives.18.condition": {
+      "sourceHash": "7970e6c107d906a56f36f8948b82889872b6e39a103550d5a2e3725c78670ced",
+      "text": "Taking damage / Turn End"
+    },
+    "passives.18.response": {
+      "sourceHash": "5b25fa9eda7f2495a42e75f4497b1c9cc1d7076766799ae564c03266302bb1f9",
+      "text": "Hits add Bleed Count, converted to Coagulated Blood at Turn End. Longer fights raise Offense/Defense Levels; defeat enemies one at a time."
+    },
+    "passives.19.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.19.effect": {
+      "sourceHash": "9d02f69fbcf0021a62f7ea09c28928db74ca63bb2f5677f321b8a02dfdd637ef",
+      "text": "Prioritize Bleeding targets.\nIf no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.19.condition": {
+      "sourceHash": "379c971c0e5f9a7b361f00cf5ae4f580a90812de3680d2e8326da27ebdbdfe62",
+      "text": "Bleeding-target selection / a turn without dealing damage"
+    },
+    "passives.19.response": {
+      "sourceHash": "4c41ae85602a10190120ecc00df6387b0d124fe26c9e3f2a11234336bc230635",
+      "text": "Preventing damage gives the enemy Fragile but also Offense Level Up. Recheck predictions and focus its weaknesses."
+    },
+    "passives.20.name": {
+      "sourceHash": "c16294aab11a1c6eb6155f52c03b8b8f585b3b8c35f0c8ed1dfbbf357f424f44",
+      "text": "Rough Bloodsucking"
+    },
+    "passives.20.effect": {
+      "sourceHash": "22e12e16130a8c30000b78fa1424c8bd07d81592159899ae8dd20d7674bb92cb",
+      "text": "Take 20% less Bleed damage (rounded down).\nOn Hit against a Bleeding target, heal 15% of damage dealt."
+    },
+    "passives.20.condition": {
+      "sourceHash": "fdbd253fd4fa67a41bb7e6b6863992feacb2143768b5f31468a2fdf5844fca64",
+      "text": "Bleed damage / hits on Bleeding targets"
+    },
+    "passives.20.response": {
+      "sourceHash": "af40c3838c64c6bf341556872091034095b9039a7bad6a91f1ade1cf1f793db5",
+      "text": "Stop lifesteal through clashes or Stagger and quickly remove low-HP enemies."
+    },
+    "passives.21.name": {
+      "sourceHash": "47d0a240305c0f8453ab9de11581c9b84349a4938ea99300d64bb6b9d7d5cac9",
+      "text": "Power Leakage"
+    },
+    "passives.21.effect": {
+      "sourceHash": "9f38223f0feddd6f958f1f3ff6382566dc12f487f286b7a92588ef487a52b755",
+      "text": "When taking damage, if the attacker used a skill that gains Charge, transfer 1 Charge Count to the attacker.\n(Once per skill; does not activate if the damaged target has no Charge.)"
+    },
+    "passives.21.condition": {
+      "sourceHash": "16fad344dcd3c899586950a50b60540798e1dfe21d12d60a8839db7b122a9209",
+      "text": "Attacked with a Charge-gaining skill"
+    },
+    "passives.21.response": {
+      "sourceHash": "a7e953aa15207c5c40f7379dcf679e6f09ffa023a07c04b1edad6eca04237aee",
+      "text": "If the enemy has Charge left, transfers Charge Count to that skill's attacker. Can support available Charge Identities but is not required."
+    },
+    "passives.22.name": {
+      "sourceHash": "5d42d231da7fe0c947a52e6d1591104f8313727a7fc9cd6d17f52baeb200a6ae",
+      "text": "Tenacious"
+    },
+    "passives.22.effect": {
+      "sourceHash": "d3b67a7593d3147d7464044b2ac80a9a0a618481306bd764426d6f278565c42e",
+      "text": "Damage from own skills cannot reduce HP below 1"
+    },
+    "passives.22.condition": {
+      "sourceHash": "070adcaf44e518db76d0ef20074cfb008d4521499d23b4e89c4f6eca0c492420",
+      "text": "Self-damage from own skills"
+    },
+    "passives.22.response": {
+      "sourceHash": "390c8a7114fc04b83161707be20962a487304cc65197875c4f7d21bd3f036d67",
+      "text": "Self-damage cannot reduce HP below 1. Finish with Sinner attacks rather than waiting."
+    },
+    "passives.23.name": {
+      "sourceHash": "35d414d4de28cb229f48f473600b09c07ac1d9f890938a3ae42bfa4803d3bb76",
+      "text": "Burst Bloodbag"
+    },
+    "passives.23.effect": {
+      "sourceHash": "0fe2c159103cd67a3932f7b70f8eda33afa6498da5deff443e98287dca497c14",
+      "text": "Begin combat at half HP"
+    },
+    "passives.23.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.23.response": {
+      "sourceHash": "ea536ccd088adea0113a9d4f25515573d81d738f8d40549bfc76724a88e8f2b3",
+      "text": "Bloodbags enter at half maximum HP. Distinguish maximum from starting HP when distributing attacks."
+    },
+    "passives.24.name": {
+      "sourceHash": "d642aba20aa4974c4d8aeab1d5c9b1de7904a088f6ee52ea6def3150f98bc784",
+      "text": "Blood Coagulation"
+    },
+    "passives.24.effect": {
+      "sourceHash": "50db7d31c5cafbae43ba84c16a0bcfc53a5b77436ef53563209cfe513766be77",
+      "text": "Whenever taking attack damage, gain 1 Bleed Count.\nAt Turn End, consume 3 own Bleed Count for 1 Coagulated Blood."
+    },
+    "passives.24.condition": {
+      "sourceHash": "7970e6c107d906a56f36f8948b82889872b6e39a103550d5a2e3725c78670ced",
+      "text": "Taking damage / Turn End"
+    },
+    "passives.24.response": {
+      "sourceHash": "5b25fa9eda7f2495a42e75f4497b1c9cc1d7076766799ae564c03266302bb1f9",
+      "text": "Hits add Bleed Count, converted to Coagulated Blood at Turn End. Longer fights raise Offense/Defense Levels; defeat enemies one at a time."
+    },
+    "passives.25.name": {
+      "sourceHash": "165ed320c51b14d153dedfd5428671715a5c739ee0795b4fd24a3e2a99f9d942",
+      "text": "Thirst for Blood"
+    },
+    "passives.25.effect": {
+      "sourceHash": "9d02f69fbcf0021a62f7ea09c28928db74ca63bb2f5677f321b8a02dfdd637ef",
+      "text": "Prioritize Bleeding targets.\nIf no damage was dealt this turn, gain 2 Fragile and 2 Offense Level Up next turn."
+    },
+    "passives.25.condition": {
+      "sourceHash": "379c971c0e5f9a7b361f00cf5ae4f580a90812de3680d2e8326da27ebdbdfe62",
+      "text": "Bleeding-target selection / a turn without dealing damage"
+    },
+    "passives.25.response": {
+      "sourceHash": "4c41ae85602a10190120ecc00df6387b0d124fe26c9e3f2a11234336bc230635",
+      "text": "Preventing damage gives the enemy Fragile but also Offense Level Up. Recheck predictions and focus its weaknesses."
+    },
+    "passives.26.name": {
+      "sourceHash": "47d0a240305c0f8453ab9de11581c9b84349a4938ea99300d64bb6b9d7d5cac9",
+      "text": "Power Leakage"
+    },
+    "passives.26.effect": {
+      "sourceHash": "9f38223f0feddd6f958f1f3ff6382566dc12f487f286b7a92588ef487a52b755",
+      "text": "When taking damage, if the attacker used a skill that gains Charge, transfer 1 Charge Count to the attacker.\n(Once per skill; does not activate if the damaged target has no Charge.)"
+    },
+    "passives.26.condition": {
+      "sourceHash": "16fad344dcd3c899586950a50b60540798e1dfe21d12d60a8839db7b122a9209",
+      "text": "Attacked with a Charge-gaining skill"
+    },
+    "passives.26.response": {
+      "sourceHash": "a7e953aa15207c5c40f7379dcf679e6f09ffa023a07c04b1edad6eca04237aee",
+      "text": "If the enemy has Charge left, transfers Charge Count to that skill's attacker. Can support available Charge Identities but is not required."
+    },
+    "passives.27.name": {
+      "sourceHash": "5d42d231da7fe0c947a52e6d1591104f8313727a7fc9cd6d17f52baeb200a6ae",
+      "text": "Tenacious"
+    },
+    "passives.27.effect": {
+      "sourceHash": "d3b67a7593d3147d7464044b2ac80a9a0a618481306bd764426d6f278565c42e",
+      "text": "Damage from own skills cannot reduce HP below 1"
+    },
+    "passives.27.condition": {
+      "sourceHash": "070adcaf44e518db76d0ef20074cfb008d4521499d23b4e89c4f6eca0c492420",
+      "text": "Self-damage from own skills"
+    },
+    "passives.27.response": {
+      "sourceHash": "390c8a7114fc04b83161707be20962a487304cc65197875c4f7d21bd3f036d67",
+      "text": "Self-damage cannot reduce HP below 1. Finish with Sinner attacks rather than waiting."
+    },
+    "passives.28.name": {
+      "sourceHash": "95e7ca69c3e189df7d0103d5e4d0711365b8441171a57dbf7fb8e75e31a37eb0",
+      "text": "Blood to Brain"
+    },
+    "passives.28.effect": {
+      "sourceHash": "f5e5172e897260381cdfd167c13226d70fdb63b86f698ef72ab64299f7c20730",
+      "text": "Take 30% less Bleed damage (rounded down).\nOn Hit against a Bleeding target, heal 15% of damage dealt."
+    },
+    "passives.28.condition": {
+      "sourceHash": "fdbd253fd4fa67a41bb7e6b6863992feacb2143768b5f31468a2fdf5844fca64",
+      "text": "Bleed damage / hits on Bleeding targets"
+    },
+    "passives.28.response": {
+      "sourceHash": "1171bd825c990508bcb8f7b5ca98d266f05961604f8729bde55a768be1516130",
+      "text": "The Prosthetic Fixer's Bleed resistance and healing. Use its Blunt weakness rather than relying only on Bleed."
+    },
+    "passives.29.name": {
+      "sourceHash": "00e93797e0c157d8723f151387073d579b2e66ee09e5c217692cf3b3d94b8817",
+      "text": "Prosthesis Model - L37"
+    },
+    "passives.29.effect": {
+      "sourceHash": "d62d43280a3ff129190b1ff97bebf659383fb989a70ba066418ebe0258514da8",
+      "text": "At Turn Start below 5 Charge Count, gain 1 Attack Power Down.\nAt Turn Start with 5+ Charge Count, gain 2 Clash Power Up."
+    },
+    "passives.29.condition": {
+      "sourceHash": "e31b26592764fdf26826e8b99a63d4c1439e2caa90a5c3246a57f5c916efecbd",
+      "text": "Charge Count at Turn Start"
+    },
+    "passives.29.response": {
+      "sourceHash": "05a192132791045a77d6906eb6a3207b883e629f75f41db2e117fb57505782e2",
+      "text": "Clashes strengthen at 5+ Charge. Do not assume its low opening Power persists."
+    },
+    "passives.30.name": {
+      "sourceHash": "35d414d4de28cb229f48f473600b09c07ac1d9f890938a3ae42bfa4803d3bb76",
+      "text": "Burst Bloodbag"
+    },
+    "passives.30.effect": {
+      "sourceHash": "0fe2c159103cd67a3932f7b70f8eda33afa6498da5deff443e98287dca497c14",
+      "text": "Begin combat at half HP"
+    },
+    "passives.30.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.30.response": {
+      "sourceHash": "ea536ccd088adea0113a9d4f25515573d81d738f8d40549bfc76724a88e8f2b3",
+      "text": "Bloodbags enter at half maximum HP. Distinguish maximum from starting HP when distributing attacks."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "59829c112f3484ed5f5bae771db4ee0967ab38f3784725de245cd7e36486718f",
+      "text": "Stored Blood"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "52183ea438f1f097515cdf5e5dfbf009f52578b953ff5570621963ad0946cc25",
+      "text": "Max 10; starts Wave 2 at 5. Lose 1 per 5% maximum HP lost. Also decreases on certain clash losses, and increases on hits or after special area attacks. High blood raises Offense/Defense Levels; low blood weakens them."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9f58a99eb61cbba83f11a02a23eb011097d5d63e703032aa32fe37fd335817fc",
+      "text": "Neither clash wins nor damage alone is enough; combine both to reduce it."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "757797e27d6763c82c691ac2b4c66bb586f0b2ed91685b1f7e039e00dafe14d0",
+      "text": "Bloodtinged Craving"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "58bde63da85a4ff10c6648dba2f3856aa1a6911a18034eee4cebca2a599d2efd",
+      "text": "Gained at 30% HP. Provides clash/damage buffs each turn and +1 Stored Blood on hit. Failing to gain blood also triggers different next-turn buffs and debuffs."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "efae400f5cfc694a7d7b51426d8848cdd0cfacea7c245e15e254461bcbcc5786",
+      "text": "Recheck closing-phase predictions and prevent hits to break the healing cycle."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "eb2ae3c9edf6f35c978b36fb40dbe8f86417ac259779e31a7887675083f10f9b",
+      "text": "Coagulated Blood"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "28590aeb22ae3d53cd1a3dd7dc383d479539c2a6cc3b859892f89893fb662406",
+      "text": "Gain Offense/Defense Levels equal to its value (max 5). Bloodbags gain it from Bleed Count accumulated when attacked."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "9eb89fb8aef02900884295627ee4b7266d566ffedb532991a88ecad9d50cd122",
+      "text": "Focus killable targets to reduce numbers rather than slightly damaging many enemies."
+    },
+    "warnings.0": {
+      "sourceHash": "363882c19b4782b439c18d940f1658747f1b1de2f40eb9ab0752f0d34e7b32c5",
+      "text": "Distinguish the Unclashable area attack from the later Clashable one. Evade is the main response to the former; clash wins to the latter."
+    },
+    "warnings.1": {
+      "sourceHash": "9bc8a91d0e54d442b0c675e4dad7b8d93f329a5309e4c3ce502636df0c30ea6c",
+      "text": "Ordinary Guard reduces damage but does not prevent the hit itself. It does not suppress lifesteal like Evade."
+    },
+    "warnings.2": {
+      "sourceHash": "2b2d1bb7b23eff94e3b9e125daf982ed494a0f6f86efd99d01dedd065e1e7719",
+      "text": "The first drop to 0 Stored Blood risks massive healing. Check the displayed skill instead of choosing only attacks at 0 blood."
+    },
+    "warnings.3": {
+      "sourceHash": "293718a2ae4a03196d917e026b4568e5ea445e14202ae72faa3f3f2ee907aa4d",
+      "text": "Do not apply Hard-only Nightmare of La Manchaland or its SP recovery conditions to this Normal version."
+    },
+    "preparation.0": {
+      "sourceHash": "a23d7508c8464dda675cda0406780c832d1dd3e6e407957100ebe8f7227f0ff0",
+      "text": "Aim for Level 45 and Uptie III or higher. Bring Blunt/Envy damage and E.G.O strong enough to win dangerous area clashes."
+    },
+    "preparation.1": {
+      "sourceHash": "77588eb0c977ce8df924c844a04bddecbab9dd9a6783ad108f115c3345464645",
+      "text": "Prepare HP/SP recovery and build resources in the opening. Healing does not necessarily remove all Bleed; check the target's Bleed Count too."
+    },
+    "preparation.2": {
+      "sourceHash": "90d617480b5851e50c33065f27c48b901c9e40e3181749287477b14c3f1c1824",
+      "text": "With few Evade users, review resistance and damage. A smaller team can reduce area targets, but first check that enough actions remain for regular clashes."
+    },
+    "roles.0.name": {
+      "sourceHash": "f086750514d9ac8132230f3da720ff1e799fcf3eee513962e0dbc77491719897",
+      "text": "Blunt/Envy damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "cb118e65f5657f788e1ddb01a66effc0aa1b6d29323da77fdf1a99dcaecb3052",
+      "text": "Exploit weaknesses from the opening Bloodbags through Cassetti, dealing HP damage to reduce blood."
+    },
+    "roles.1.name": {
+      "sourceHash": "d7c457a82c59c3b6f0c4a46394e4570a1946e8e1de731e9e4fb084b3e67a0fa9",
+      "text": "Evade and powerful clashes"
+    },
+    "roles.1.reason": {
+      "sourceHash": "82f890a4d3c0147f6738d5e54d4d0b582a41c082b4c1d88dc313245dedd2fa31",
+      "text": "Evade the Unclashable attack and beat Clashable area attacks with high Power. Divide these jobs instead of leaving both to one Sinner."
+    },
+    "roles.2.name": {
+      "sourceHash": "dbef91fc6495ef0ef23e731c92d9e519d037ac49683a141fb010229b4e9c9469",
+      "text": "Healing and reserves"
+    },
+    "roles.2.reason": {
+      "sourceHash": "e51e41d7f3aa2151ba5f6ca84ef3c8961e856057e805aed312d023e2746d0a4b",
+      "text": "Sustain the long 2-wave fight and keep going next turn if a main attacker falls."
+    }
+  },
+  "messages": {
+    "boss-copy:cassetti-sasha": "complete",
+    "【リンバス】6.5-28 カセッティ・サーシャの攻略｜Limbus Assistant": "6.5-28 Cassetti & Sasha Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6.5-28「カセッティ・サーシャ」の攻略。血袋とサーシャで準備を整え、カセッティの宿した血をマッチ勝利とHP削りで減らす。血0のマッチ不可広域は回避でしのぎ、吸血による大回復を抑えよう。": "Cassetti & Sasha guide for Limbus Company 6.5-28. Prepare against the Bloodbags and Sasha, then reduce Cassetti's Stored Blood through clash wins and HP damage. Use Evade against the Unclashable area attack at 0 blood to limit his massive lifesteal recovery.",
+    "6.5-28 カセッティ・サーシャ": "6.5-28 Cassetti & Sasha",
+    "6.5-28「Murder on the WARP Express: The One Who Commands」": "6.5-28 · Murder on the WARP Express: The One Who Commands",
+    "カセッティ（Wave2）の外見": "Cassetti (Wave 2) appearance",
+    "カセッティ（Wave2）のスキル": "Cassetti (Wave 2) skills",
+    "Cassetti (Wave 2)の外見": "Cassetti (Wave 2) appearance",
+    "Cassetti (Wave 2)のスキル": "Cassetti (Wave 2) skills",
+    "サーシャ（Wave1）の外見": "Sasha (Wave 1) appearance",
+    "サーシャ（Wave1）のスキル": "Sasha (Wave 1) skills",
+    "Sasha (Wave 1)の外見": "Sasha (Wave 1) appearance",
+    "Sasha (Wave 1)のスキル": "Sasha (Wave 1) skills",
+    "渇求する血袋の乗客の外見": "Craving Bloodbag Passenger appearance",
+    "渇求する血袋の乗客のスキル": "Craving Bloodbag Passenger skills",
+    "Craving Bloodbag Passengerの外見": "Craving Bloodbag Passenger appearance",
+    "Craving Bloodbag Passengerのスキル": "Craving Bloodbag Passenger skills",
+    "餓えた血袋の整理要員の外見": "Hungering Bloodbag Cleanup Agent appearance",
+    "餓えた血袋の整理要員のスキル": "Hungering Bloodbag Cleanup Agent skills",
+    "Hungering Bloodbag Cleanup Agentの外見": "Hungering Bloodbag Cleanup Agent appearance",
+    "Hungering Bloodbag Cleanup Agentのスキル": "Hungering Bloodbag Cleanup Agent skills",
+    "血袋の義体フィクサーの外見": "Bloodbag Prosthetic Fixer appearance",
+    "血袋の義体フィクサーのスキル": "Bloodbag Prosthetic Fixer skills",
+    "Bloodbag Prosthetic Fixerの外見": "Bloodbag Prosthetic Fixer appearance",
+    "Bloodbag Prosthetic Fixerのスキル": "Bloodbag Prosthetic Fixer skills"
+  }
+}

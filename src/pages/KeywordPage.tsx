@@ -11,6 +11,7 @@ import { asset } from "../lib";
 import { KEYWORD_PAGES, formatKeywordFilter, getKeywordPage, keywordFilterPath, parseKeywordFilter, type KeywordPage as KeywordPageDef } from "../keywordPages";
 import { TRAIT_FILTERS, formatTraitFilter, parseTraitFilter, personasMatching } from "../traitFilters";
 import type { PersonaStatus } from "../types";
+import { Message, TranslatedList } from "../i18n/Message";
 import "./teams.css";
 
 const INDEX_LABEL = "キーワード別人格一覧";
@@ -155,7 +156,7 @@ function KeywordFilter() {
       {conditions.length > 0 && (
         <div className="keyword-filter-results" aria-live="polite">
           <p className="keyword-filter-summary">
-            {conditions.join("＋")}{conditions.length > 1 ? "を全て満たす" : "の"}人格：<strong>{results.length}人格</strong>
+            <Message text={conditions.length > 1 ? "{conditions}を全て満たす人格：{count}人格" : "{conditions}の人格：{count}人格"} values={{ conditions: <TranslatedList items={conditions} separator="＋" />, count: <strong>{results.length}</strong> }} />
           </p>
           {results.length > 0 ? (
             <ul className="team-members team-members-compact">
@@ -182,7 +183,7 @@ export function KeywordIndex() {
           <span className="section-title-en">KEYWORDS</span>
           キーワード別人格一覧
         </h1>
-        <span className="section-count">{KEYWORD_PAGES.length}キーワード</span>
+        <span className="section-count">{`${KEYWORD_PAGES.length}キーワード`}</span>
       </header>
       <p className="team-lead">
         火傷・出血・振動・破裂・沈潜・呼吸・充電の7つのキーワードごとに、そのキーワードを持つ人格をまとめた。蜘蛛の巣・剣契などの特性キーワードと組み合わせた絞り込みもできる。編成を組むときの候補探しに使う。
@@ -200,10 +201,10 @@ export function KeywordIndex() {
                   return image ? <img key={m.code} src={asset(image)} alt="" width={40} height={40} loading="lazy" /> : null;
                 })}
               </span>
-              <span className="team-card-name">{p.keyword}人格一覧</span>
+              <span className="team-card-name">{`${p.keyword}人格一覧`}</span>
               <span className="team-card-meta">
                 <span className="tag">{p.keyword}</span>
-                <span className="tag tag-muted">{personas.length}人格</span>
+                <span className="tag tag-muted">{`${personas.length}人格`}</span>
               </span>
             </Link>
           );
@@ -241,21 +242,21 @@ export default function KeywordPage() {
       <Breadcrumb items={[{ label: INDEX_LABEL, to: "/keywords" }, { label: `${keyword}人格一覧` }]} />
       <header className="team-hero">
         <p className="kicker">
-          KEYWORD ・ {personas.length}人格 ・ {groups.length}囚人
+          <Message text="KEYWORD ・ {identities}人格 ・ {sinners}囚人" values={{ identities: personas.length, sinners: groups.length }} />
         </p>
-        <h1 className="persona-title">{keyword}人格一覧</h1>
+        <h1 className="persona-title">{`${keyword}人格一覧`}</h1>
         <p className="team-lead">
-          {keyword}をキーワードに持つ人格を、囚人ごとにまとめた。{term?.summary}
+          <Message text="{keyword}をキーワードに持つ人格を、囚人ごとにまとめた。" values={{ keyword }} />{term?.summary}
         </p>
         <div className="persona-tags">
           {team && (
             <Link to={`/teams/${team.id}`} className="tag tag-link">
-              {team.name}の組み方
+              <Message text="{team}の組み方" values={{ team: team.name }} />
             </Link>
           )}
           {term && (
             <Link to={`/glossary/${term.id}`} className="tag tag-link">
-              用語「{term.name}」
+              <Message text="用語「{term}」" values={{ term: term.name }} />
             </Link>
           )}
           <Link to={keywordFilterPath([keyword])} className="tag tag-link">
@@ -269,7 +270,7 @@ export default function KeywordPage() {
       {team && team.core.length > 0 && (
         <section className="section-block">
           <header className="section-header">
-            <h2 className="section-title">{team.name}の軸になる人格</h2>
+            <h2 className="section-title"><Message text="{team}の軸になる人格" values={{ team: team.name }} /></h2>
             <span className="section-count">編成例の優先枠</span>
           </header>
           <ul className="team-members">
@@ -283,8 +284,8 @@ export default function KeywordPage() {
       {groups.map(([character, list]) => (
         <section key={character} className="section-block">
           <header className="section-header">
-            <h2 className="section-title">{character}の{keyword}人格</h2>
-            <span className="section-count">{list.length}人格</span>
+            <h2 className="section-title"><Message text="{character}の{keyword}人格" values={{ character, keyword }} /></h2>
+            <span className="section-count">{`${list.length}人格`}</span>
           </header>
           <ul className="team-members team-members-compact">
             {list.map((s) => (
@@ -301,7 +302,7 @@ export default function KeywordPage() {
         <div className="persona-tags">
           {KEYWORD_PAGES.filter((p) => p.id !== page.id).map((p) => (
             <Link key={p.id} to={`/keywords/${p.id}`} className="tag tag-link">
-              {p.keyword}人格一覧
+              {`${p.keyword}人格一覧`}
             </Link>
           ))}
         </div>

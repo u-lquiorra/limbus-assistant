@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0304.md",
+  "code": "0304",
+  "messages": {
+    "色欲資源を溜めるほどダメージ量が伸び、火傷と出血の回数を増やす色欲打撃の3枠広域で、実質は出血編成向け(解析Ⅴ前提)。": "A 3-target Lust Blunt E.G.O whose damage grows with stored Lust resources and that increases Burn and Bleed Count. In practice, it is for Bleed teams (assumes Threadspin Ⅴ).",
+    "資源でダメージ量: 攻撃前、保有する色欲E.G.O資源1つにつきダメージ量+6%(最大120%、資源20個)。": "**Damage from resources**: Before attacking, +6% damage per Lust E.G.O resource held, up to 120% at 20 resources.",
+    "回数の上乗せ: 的中時に火傷回数と出血回数が各3増える。付与ではなく回数の増加なので、先に火傷や出血を付けておく前提と考えられる。火傷と出血の合計4につき最終威力も+1(最大3)。": "**Adding Count**: On hit, increases Burn Count and Bleed Count by 3 each. It increases Count rather than inflicting, so Burn or Bleed likely needs to be applied first. It also gains +1 Final Power for every 4 combined Burn and Bleed, up to 3.",
+    "色欲威力増加の配布: 色欲資源6つにつき、編成順に味方1名へ次のターンに色欲威力増加1(最大5名)。": "**Distributing Lust Power Up**: For every 6 Lust resources, gives 1 ally, in team order, 1 Lust Power Up next turn, up to 5 allies.",
+    "パッシブ「暴食のるつぼ」: ターン開始時に色欲以外の資源1つを色欲資源1つへ変換する。色欲資源が20以上なら変換せず、自分が色欲威力増加1を得る。20未満のうちは他の資源が減る点に注意。": "**Passive — Cauldron of Gorging**: At Turn Start, converts 1 non-Lust resource into 1 Lust resource. With 20 or more Lust resources, it does not convert, and she gains 1 Lust Power Up instead. Note that other resources decrease while below 20.",
+    "色欲資源を20個近く貯めてから撃つ。色欲のスキルが多い出血編成が前提で、資源を引き継げる戦場で本領を出しやすいと考えられる。": "Fire it after storing close to 20 Lust resources. It assumes a Bleed team with many Lust skills and likely shines on battlefields where resources carry over.",
+    "資源が足りない序盤は、パッシブで憂鬱などの希少な資源が色欲に変わり、他のE.G.Oが使いにくくなる。": "Early on, when resources are short, the passive turns scarce resources such as Gloom into Lust, making other E.G.O harder to use.",
+    "侵蝕スキルは破壊不能コインで、色欲共鳴数×2(最大8)の資源を消費し、消費1つにつきダメージ量+20%。資源の消費が重い。": "The Corrosion skill uses Unbreakable Coins, consumes (Lust Resonance×2) resources, up to 8, and gains +20% damage per resource consumed. Its resource consumption is heavy.",
+    "必要資源は色欲5、精神消耗は覚醒20。": "It requires 5 Lust, with an Awakening Sanity cost of 20.",
+    "Ⅱ: パッシブが解放される。資源が減る副作用だけが先に来るため、Ⅱで止めるならⅠのままのほうがよいと考えられる。": "**Ⅱ**: Unlocks the passive. Only the resource-draining side effect arrives first, so if you stop at Ⅱ, staying at Ⅰ is likely better.",
+    "Ⅲ: 威力、ダメージ量の上限、火傷回数の付与が伸びる。": "**Ⅲ**: Raises power, the damage cap, and Burn Count infliction.",
+    "Ⅳ: 覚醒・侵蝕とも攻撃加重値が3になる。": "**Ⅳ**: Both Awakening and Corrosion reach 3 Attack Weight.",
+    "Ⅴ: 出血回数の増加と最終威力強化、色欲威力増加の配布が加わり、ダメージ量の上限が50%から120%へ上がる。パッシブは資源2個から1個の変換に改善される。": "**Ⅴ**: Adds Bleed Count increase, Final Power Up, and Lust Power Up distribution, and raises the damage cap from 50% to 120%. The passive improves from converting 2 resources to 1.",
+    "ラ・マンチャランド室長: 出血を扱い、色欲のスキルを複数持つので資源を出しやすい。": "**[The Manager of La Manchaland](persona:0310)**: Uses Bleed and has several Lust skills, making resources easy to supply.",
+    "LCB囚人: 刺す(色欲)で色欲資源を出せ、束ね刺しと正義のため!が出血を付与する。": "**[LCB Sinner](persona:0301)**: Joust (Lust) supplies Lust resources, and Galloping Tilt and For Justice! inflict Bleed."
+  }
+}

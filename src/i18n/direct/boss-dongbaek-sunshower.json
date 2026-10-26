@@ -1,0 +1,605 @@
+{
+  "kind": "boss-copy",
+  "id": "dongbaek-sunshower",
+  "source": "src/data/bosses/dongbaek-sunshower.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "え辛い記憶",
+          "guideAlias": "爽やかな記憶",
+          "en": "Stinging Memories",
+          "file": "Skills_Abnormality.json",
+          "id": "804301"
+        },
+        {
+          "ja": "触るな…！",
+          "guideAlias": "触るな...!",
+          "en": "Don't Touch Me...!",
+          "file": "Skills_Abnormality.json",
+          "id": "804307"
+        },
+        {
+          "ja": "決意",
+          "en": "Determination",
+          "file": "Passives_Abnormality.json",
+          "id": "804304"
+        },
+        {
+          "ja": "侵蝕される心",
+          "en": "Corroding Heart",
+          "file": "Bufs.json",
+          "id": "ErodingMind"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "決意"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "0ab1932d3481085af8bfd7df4a30e70d82dc3905d69a32f597c0471b23587be7",
+      "text": "Lobotomy E.G.O::Sunshower - Dongbaek"
+    },
+    "shortName": {
+      "sourceHash": "c63ba6d7cf90a511ebaf5c877e42925187ff937ebfdf061ce4640af9fe56ab7a",
+      "text": "Dongbaek (Sunshower)"
+    },
+    "stageName": {
+      "sourceHash": "8c34319f263db50a6625c9c7fcd16f09f9a979eeaa95199e204c7ab58f5446d2",
+      "text": "Viewing Room"
+    },
+    "lead": {
+      "sourceHash": "5a53312afd38570eabaf186f9cb2849332c3eb09e1da10172322780abac9eab6",
+      "text": "This is a separate fight from Spicebush in 4-48. Use 7 Sinners to wear down the Shield, and attack Old Umbrellas when Thorns is active. Distinguish SP-based buffs and Panic from Coin flip probabilities."
+    },
+    "listLead": {
+      "sourceHash": "c08718a24e9e676b19328922667a94090b601791cf63ecbb67c0575e9e90d630",
+      "text": "A different fight from the following 4-48. Use 7 members' actions to remove the Shield and redirect attacks to old umbrellas when thorns appear. Distinguish SP-based buffs and Panic from Heads/Tails odds."
+    },
+    "statNote": {
+      "sourceHash": "4d1aa980bb1673cba4d155bda55a2e4bc47906f5adcdd3535d901aff84a7f73a",
+      "text": "Dongbaek in 4-47 has 500 HP plus a starting Shield of 1200. The source's Part data lists fixed 50% Heads/Tails odds regardless of SP. Although another note suggests low SP strengthens negative Coins, this guide keeps Coin odds separate from the Low Morale passive's power buff."
+    },
+    "skillNote": {
+      "sourceHash": "98d94b61c2fc896a1e941978bfb30c3c766bdee8c85fe2fd6926f225ce8819bb",
+      "text": "7 regular skills. Negative-Coin skills show the higher value as Base Power. Sink It All has 26 Base Power, -10 Coin Power, and 7 Attack Weight. The Japanese skill and status descriptions use different wordings for Corroding Heart, so check the status actually applied next turn. Old Umbrellas have no listed skills; no attacks or Defense Skills have been added for them."
+    },
+    "priorities.0": {
+      "sourceHash": "6dabe16ccc5313b78fd93fd4144f0ffae9e6895ae356ac0cab7e31d7e18d37be",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. You need enough damage for a 1200 Shield as well as 500 HP."
+    },
+    "priorities.1": {
+      "sourceHash": "e54a0e741de340374dbd5dbb36aad09f069a5c67d1d9e57aa1b1fdefd976f52e",
+      "text": "When Thorns is active, avoid repeatedly hitting Dongbaek. Defeat the 9-HP Old Umbrellas to gain Protection and an attack buff next turn."
+    },
+    "priorities.2": {
+      "sourceHash": "9036e7f6a8d44b242f1cebddfbca87713f25596df546bffd70ffdac91cbb96ae",
+      "text": "At -45 SP, Panic Staggers her, but she recovers to maximum SP and gains buffs afterward. Low SP does not guarantee stronger negative-Coin rolls."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a0c001fda915171fb5017f1c821b232d849c83638ac7138788c55437b1d06b45",
+      "text": "She has 500 HP, but your attacks barely reduce it"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "7cbdb72c3ba0e926adde81990fe4c0d8862caf2016ff9fc0f748d4f7fab32496",
+      "text": "She starts with a 1200 Shield. Break through it before damaging her remaining HP. Check her weaknesses to Blunt, Gloom, and Pride."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "3100aa176f2cc469c529f62509d8d1245be33b2243d9d403da696219d7161fec",
+      "text": "Your own HP suddenly drops when you hit her"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "b07cfe453e57250a7ee5e01b9c8e2d554f8a3e9f1e092dbf57db41b24dca4de6",
+      "text": "Don't Touch Me...! grants Thorns at Combat Start, reflecting 50% of damage taken. Attack Old Umbrellas instead when they are present."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "060d087fe9361f42e1203acd50686878524f8b58322cb32bb05d4e456e01816e",
+      "text": "Lowering her SP does not make Clashes easier"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "867cfb5d5effdc4274773a8b459129c40483a1e2b5553242a706920d2290bbba",
+      "text": "Heads/Tails odds are fixed at 50% each. At -10 SP or lower, she also gains 2 Attack Power Up. Low SP does not directly mean low power; look for the opening when Panic Staggers her."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "24a23ef7b3c5056232c3e2191da496cdf6329fdbcf9f725e19bee5cb145fc52f",
+      "text": "Blooming and Dueling advice does not match this fight"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "4652d02ed1d632528ec36e9d46405c095bec526488c9e6e9b52efceb48ca51fd",
+      "text": "Those are mechanics for the next encounter, Spicebush in 4-48. This fight in 4-47 revolves around Shield, SP, Thorns, and Old Umbrellas."
+    },
+    "units.0.name": {
+      "sourceHash": "c63ba6d7cf90a511ebaf5c877e42925187ff937ebfdf061ce4640af9fe56ab7a",
+      "text": "Dongbaek (Sunshower)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "0f028c40eef34be43036696652d463eb4152c3e3cefa131643ae8bc4c79e77f9",
+      "text": "500 + starting Shield of 1200"
+    },
+    "units.0.speed": {
+      "sourceHash": "8ebbf939c53d8b7b25c9444ccb25a845f2f41140bcad07033a7aee96b7374a2f",
+      "text": "3–5 / varies with status"
+    },
+    "units.0.stagger": {
+      "sourceHash": "b26c84ab12566feb69259627a7f63f9552e7bb137857722bf1108f0e297e2be4",
+      "text": "0% (0) / Panic also causes Stagger"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "958c4875ccb5fe8399c0de4597d3be760083241727809dde4baf3aae1fd83aea",
+      "text": "Heads/Tails odds are fixed at 50% each regardless of SP. Low Morale starts at -10 SP; Panic starts at -45."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "9da9d28394f3864f1345c0397e0fed5f30d00926d69451d46ff1f46aa788a343",
+      "text": "In the usual pattern, turn 5 summons 4 Old Umbrellas and restores her SP to maximum. This recurs periodically, with timing shifted by Stagger."
+    },
+    "units.1.name": {
+      "sourceHash": "c2f07f4ac843b0aeb2ed5cab7a365f6510c18620526a5f338fe4a85479e33f08",
+      "text": "Old Umbrella (4-47)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "51a4825b54c0ddd99be5eba263a0aee4c53abe867cac5ffac10bd7599a39dc65",
+      "text": "Disappears at Turn End and has no action skills. Its HP and effects differ from the Old Umbrellas accompanying Drifting Fox."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "53835faab4ff6732ccb4002ee526e0d05131761d4a7d85b14003c26b99214817",
+      "text": "On defeat: Dongbaek gains +5 Sinking Count; all Sinners lose 2 Sinking and gain 1 Protection and 2 Attack Power Up next turn."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "226f30f16c77d4e0c417fb072095160971691f4bd8433ee426b2abd2fdc83a80",
+      "text": "Prepare 7 combat-ready Sinners and answers to strong negative-Coin skills"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "8b95eeeadc9225ae2d4a2332763c738877d286376caf18d5b9ef4ac151e5ae16",
+      "text": "Aim for 7 Sinners at the recommended Level 35 and Uptie III or higher. This is the first fight with the higher deployment limit; using only your usual 5 leaves potential actions unused."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "0875c625ca2b7eadcc58a855db9e29da39e262a7ee8bff8f56f0f5ceb9b85b9d",
+      "text": "Blunt, Gloom, and Pride are effective. Prepare strong regular skills and E.G.O, plus SP and HP recovery for Sinking damage."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "8945fe93aa25060d469093adb6ee386f208077505fb9ea5847aed02fbf4462ae",
+      "text": "Sink It All has 7 Attack Weight and 26 Base Power. It can roll its maximum even at low SP, so save a winning skill and the resources to use it."
+    },
+    "phases.1.timing": {
+      "sourceHash": "1bbd3fd0c8c0dc654da1c8a0af702e7cecad52d98cb701b6bb19ab3cc52d343b",
+      "text": "Opening / while the Shield remains"
+    },
+    "phases.1.title": {
+      "sourceHash": "fedb06ec996ce3bbd4b1dc3700e73be0a1acf145cf5088e8d213206b8a1e5fbc",
+      "text": "Win dangerous Clashes and use spare actions to deal damage"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "b8ed928337cbfa4c41c0089b73a862d48f1f63a35059b5c1ef6e80b515b398b8",
+      "text": "Dongbaek normally has 4 slots against your 7 Sinners. Stop dangerous skills with Clashes and use spare actions for unopposed attacks to wear down the Shield."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "171f5873207f52c89567e592e67691b0c68db50df5929ad450632157a0f84aca",
+      "text": "Stinging Memories stacks Sinking and Rupture on hit. Thorny Memories also raises their Count, so keep them away from low-HP or low-SP Sinners."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "f7fe7b1bbd8a978ae1893a417a936bfe939ed3a016768c8f9ac37205dfdac1dd",
+      "text": "Self-defense is a negative-Coin Blunt attack, not a Defense Skill. Choose its opponent based on Base Power and current Attack Power Up rather than the enemy's SP."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ac1332b6d897d5b5173ec69484bac829e77711aaeb81538e45b11ade838ecffb",
+      "text": "Low Morale / Panic"
+    },
+    "phases.2.title": {
+      "sourceHash": "0344a0df8e61324d375ad11c75af8f594ad5ca351db809e58d18ddf967c1c1c3",
+      "text": "Distinguish status buffs from Stagger openings"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "5969888a9b6d837acb44db5853acdfb62663d8677f1de713075fc656050c1637",
+      "text": "She loses 10 SP at every Turn End, and also loses SP from Clash losses or failed Evades. At -10 SP or lower, she gains 2 Attack Power Up and 3 Bind at the next Turn Start."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "188c262dc321969600a605c2527ad73ae1363dadd47a254e001c21e6874d9431",
+      "text": "When Panic at -45 SP Staggers her, concentrate your damage. You do not have to wait for an ordinary HP Stagger Threshold."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "8b0e2d0aba59e3d3bae589fce93a63feed9aa6a0a2c8271b194abc8a541fd92d",
+      "text": "After recovering, she restores SP to maximum and gains 2 Haste and 2 Attack Power Up. Prepare healing and strong Clashes rather than assuming she will remain unable to act next turn."
+    },
+    "phases.3.timing": {
+      "sourceHash": "3bc50a9eb752d3ad71dc695b8b24b21da5e4980e3b5a6012e7dad0217ec77af9",
+      "text": "Thorns / Old Umbrellas appear"
+    },
+    "phases.3.title": {
+      "sourceHash": "f60c0d20ea0081a00625167a394af02c37c4998753a7c0ebfbfea644dd18542f",
+      "text": "Defeat Old Umbrellas while reflection is active"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "a5b304c7ee7d7a06774724f160a9868c618d01ecdbc88ad05024c490ac94aa9e",
+      "text": "Don't Touch Me...! grants Thorns, reflecting 50% of damage dealt to Dongbaek. Offsetting the Defense Skill does not remove the reflection."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "10c863cfce4900fdd03c3017a843494aa653a108acf347bfcbaabdc72a9b8e54",
+      "text": "Redirect attacks to the 9-HP Old Umbrellas and defeat them. This raises the enemy's Sinking Count, reduces all Sinners' Sinking, and grants Protection and an attack buff next turn."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "7d158b03ef91bb971a47058f1d851eaf3ad81f589ce45d07b8a31b873bed8067",
+      "text": "The umbrellas disappear at Turn End, so do not postpone dealing with them until next turn. Check Thorns and Stagger before returning attacks to Dongbaek."
+    },
+    "phases.4.timing": {
+      "sourceHash": "a93a59addb34d492c6158eb9efe0faf3d3957d8cda9d93a211cae340cb8a8474",
+      "text": "Sink It All"
+    },
+    "phases.4.title": {
+      "sourceHash": "b6ab508ece7da91011ef98e835af2179037594c87bc3ca41bee408bc8844dd5e",
+      "text": "Stop the 26-Base-Power area attack, then check next turn's debuffs"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "3b2cd20cb2622976ba1a5678fd7e70c2be0f7ec50f838875b81a48aa4dcabfb0",
+      "text": "Use a powerful skill that can win against the area attack. Winning does not cancel its [On Use] effects: -30 SP, 5 Sinking, and the status applied next turn."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "505a691de61118f6c633939e7e1508403236bebf9aec5ab62ddfc1abf130968f",
+      "text": "On hit, it combines SP loss, Sinking, and Poison. Prepare the HP of secondary targets as well as the primary target."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "27367238c7a7cd6277034144614ceeb77f2c9feec48021ef00380bf83462e7c2",
+      "text": "If Attack Power Down, Fragile, and Bind are applied next turn, use that opening to focus damage on the Shield and Dongbaek."
+    },
+    "skills.0.name": {
+      "sourceHash": "9d67d3250db8d32c44a4f4960f90b503cbc05450606b0a46d823d32892518628",
+      "text": "Stinging Memories"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "880e7f6b667bfded7286f1a809f2a60a307030a3284def7bd4716964db2a59ed",
+      "text": "[Clash Win] Heal 8 SP."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "0143971debc208694f42dd57f2c22ea77bbc3b5c6381583e5c91ee4bda1bcc30",
+      "text": "[Clash Lose] Lose 5 SP."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "0ac3682e8d9b9ef103afc620d1001d0a5ee64261a2aa5b2120a6b1a795a59b92",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking and 2 Rupture."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "be2b5b673fe6f66714ead7ff616cd5c0df8d8bcd7417a594513d6eeb1b5fa4ea",
+      "text": "Ⅱ[On Hit] Inflict 2 Sinking and 2 Rupture."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "d94a7e9f2721e53b0a3f235c900a23eaffdb10332005b94a2d7c586ed651a357",
+      "text": "Ⅲ[On Hit] Inflict 2 Sinking and 2 Rupture."
+    },
+    "skills.0.response": {
+      "sourceHash": "f83871ccf5ec5cceb8dca4519f62b4b2746fc2d96b480051d560a355e96105cf",
+      "text": "Each of its 3 Coins inflicts Sinking and Rupture on hit. Stop it with a winning regular skill to build your ally's SP. Avoid letting it hit a low-HP Sinner unopposed."
+    },
+    "skills.1.name": {
+      "sourceHash": "fdc3cba15653f42da3d5bccc76dcc9ba907343c9c5d1d26b32d2e1b7e83fcc19",
+      "text": "Thorny Memories"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "880e7f6b667bfded7286f1a809f2a60a307030a3284def7bd4716964db2a59ed",
+      "text": "[Clash Win] Heal 8 SP."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "0143971debc208694f42dd57f2c22ea77bbc3b5c6381583e5c91ee4bda1bcc30",
+      "text": "[Clash Lose] Lose 5 SP."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "c6498abfdf82ee78fdf314dbf278afcb6de77a07268e1f75c3f27ad82d275403",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 2."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "848fddb8e27232f6504c45a67f0c4886bf7d2f548e9af791a58009f07471818e",
+      "text": "Ⅱ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "32c7c3b94df034422fdf1ce63d6a08a378ee84a305362df0a9a7172037906eb2",
+      "text": "Increases Sinking and Rupture Count. Protect Sinners already carrying these statuses to limit subsequent extra damage."
+    },
+    "skills.2.name": {
+      "sourceHash": "bc41cbe1c740850ab675c08d5a7c744cbddf9d19b0c0721a1326daf470d9c185",
+      "text": "Self-defense"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "48bf2d2b13a2c0071b40a0490f06e347198662393574c9b01b22f385100d5a52",
+      "text": "[Clash Lose] Lose 8 SP and gain 3 Sinking."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9d963e6ec0d723653865e58231cbf273f31d6615d0f22cb359070b61e59b80df",
+      "text": "Ⅰ[On Hit] Inflict 2 Bind and 2 Attack Power Down next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "0b25a62b41ca24b65217d0eb5b986fe92896c676c5c261b7bb995f564401fad4",
+      "text": "Despite its name, this is a Blunt attack. It starts at 10 Base Power and subtracts 5 on Heads, so Tails still rolls its maximum of 10. Beating it reduces the enemy's SP by 8, but does not change her Coin odds."
+    },
+    "skills.3.name": {
+      "sourceHash": "c9065b1c4bff27aeaabb0be6303af0a988f6c573dc9ae622a7b94be7750500c7",
+      "text": "Aching Heart"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "d5b566059dda079daea7a3945c13632b309ccb859032afeda63c7bceae9e2b32",
+      "text": "Ⅱ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "c8f8eeec8d880f5dd436837babe21b04a636a549ad3afac5993eff76226e672d",
+      "text": "[On Hit] Raise the target's Stagger Threshold by 50% of damage dealt."
+    },
+    "skills.3.response": {
+      "sourceHash": "70e9e8473aea182854b876189d6ce345c4f0bc901a4fe5b5788cb784d532233f",
+      "text": "13 Base Power with two -4 Coins. On hit, it increases Rupture Count and raises the Stagger Threshold. Low Morale's Attack Power Up also applies, so choose a strong opponent using the current prediction."
+    },
+    "skills.4.name": {
+      "sourceHash": "a93a59addb34d492c6158eb9efe0faf3d3957d8cda9d93a211cae340cb8a8474",
+      "text": "Sink It All"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0bac6519557d38453ccc7c5f8d07d33c70e70f1bf6bf9735a8b1d71ef93fd60b",
+      "text": "[On Use] Lose 30 SP and gain 5 Sinking. Gain Corroding Heart next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "8df4b281ced63ad81db1e11cf27c061bb6d1c86b854336d270e701cd33f75f56",
+      "text": "Ⅰ[On Hit] Reduce the target's SP by 15."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "68db1f43e2eacf7d79b64239fc1506e6797108fb6bc41ed1fa23be4e68c22d10",
+      "text": "[On Hit] Inflict 8 Sinking and 8 Poison."
+    },
+    "skills.4.response": {
+      "sourceHash": "59b570f35376740aff47a0c1c53af8098c72769f87a19532b5daefb3c403f97b",
+      "text": "26 Base Power, -10 Coin Power, and 7 Attack Weight. Stop it with a high-Base-Power E.G.O or another strong skill. Winning does not cancel its [On Use] self-inflicted effects or next-turn status. Prepare for SP loss, Sinking, and Poison on hit."
+    },
+    "skills.5.name": {
+      "sourceHash": "e21b71f42206ee729bbfd2fd3aef675b24206c87d79fc202e0c6ece2e44bae23",
+      "text": "Get It Away"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "8cc5d0c55a2b50a13c03686fbe803e458d67063e073444e59b57f532339a70b2",
+      "text": "[On Evade Fail] Lose 8 SP."
+    },
+    "skills.5.response": {
+      "sourceHash": "9b805d0a094875ce1c1d912a8f37e3d8dfe34c4d94b344caa6abf80e3cf23947",
+      "text": "An Evade with 8 Base Power and -5 Coin Power. Offset it with a Defense Skill to let unopposed attacks through more easily. A failed Evade lowers her SP, but low SP does not change its Heads/Tails odds."
+    },
+    "skills.6.name": {
+      "sourceHash": "5d1222ea9806094ef63b9334e8a7d5666cca66069047b9bc4d902ade55cd95d9",
+      "text": "Don't Touch Me...!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "69b1f86bbacdbb836c69a27a56b095afbd442cf0beeb1c1dc287b690de827e30",
+      "text": "[Combat Start] Gain Thorns."
+    },
+    "skills.6.response": {
+      "sourceHash": "4a83483bcbe6068826341c3d1431a64b7920267e8e10cf8ca460abd2cbe1631f",
+      "text": "At Combat Start, gain Thorns and reflect 50% of damage taken to the attacker. Offsetting does not remove Thorns; attack the summoned Old Umbrellas instead to gain buffs next turn."
+    },
+    "passives.0.name": {
+      "sourceHash": "308b8f06cadd2ea3e8b0b82bf619896bb94ab55cf8411f9ebe1eabbcff5bf4b9",
+      "text": "Lobotomy E.G.O"
+    },
+    "passives.0.effect": {
+      "sourceHash": "f146e2519f4e3ca835e058f711293187d15d9f294a133685b239e1b8edabb833",
+      "text": "Start the battle with a 1200-HP Shield."
+    },
+    "passives.0.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "c5be63b7a1fe895b17383e5bfc6f7ca6c63510733fe1589cf451b30268f123d2",
+      "text": "She has a 1200 Shield in addition to 500 HP. Do not judge the damage still needed from the visible HP alone."
+    },
+    "passives.1.name": {
+      "sourceHash": "bd9b21d5ec795ef5baa5227e0f59cdd2815746b3891de2b5e06e96a62df241b0",
+      "text": "Perilous Mind"
+    },
+    "passives.1.effect": {
+      "sourceHash": "abf93117bb6d8ca6d1937a61892047072684836f64b830be39b094e9683855b1",
+      "text": "Lose 10 SP at every Turn End."
+    },
+    "passives.1.condition": {
+      "sourceHash": "2f623a3280b9e4a98561db8dec93ca7171da00e962049d4c2184df15c35167c1",
+      "text": "Turn End"
+    },
+    "passives.1.response": {
+      "sourceHash": "2e2e853dbb70171f843d65698cae4ad8ebb0891f0857871b5bdc77f23f08b297",
+      "text": "SP falls every turn, leading to Low Morale and Panic. Watch for status buffs and Stagger rather than changes to Coin odds."
+    },
+    "passives.2.name": {
+      "sourceHash": "6fe785e37feec6f92d00cc9b206f93265aa0bc44553e81b7b8dc3c5658cc05af",
+      "text": "Perilous Heart"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8ce9cc15aad1741f767d702243360bce5b2e37a6e2d83bf88de698edad713bc1",
+      "text": "At Turn Start, if in Low Morale, gain 2 Attack Power Up and 3 Bind."
+    },
+    "passives.2.condition": {
+      "sourceHash": "7daadad9c4b6ee99de91fc1ec8f46a7fee0c0716e56581d74a1280af7bf0a2b4",
+      "text": "Turn Start during Low Morale"
+    },
+    "passives.2.response": {
+      "sourceHash": "9506aaf61af695dd149024b1cab8283d990c0bc51b071130a5877f103786c0a9",
+      "text": "Grants 2 Attack Power Up and 3 Bind. Her reduced Speed makes reassignment easier, but do not overlook the increase in Clash power."
+    },
+    "passives.3.name": {
+      "sourceHash": "fdc5c3e8a2c1d320b356933255bdaed92452327ffc6360f5a7bb584747d1f696",
+      "text": "Faltering Heart"
+    },
+    "passives.3.effect": {
+      "sourceHash": "53806c6e39c9656dbc178d4d3ba3fe74662648660751663bf0baf07cc8e1b711",
+      "text": "Become Staggered while in Panic."
+    },
+    "passives.3.condition": {
+      "sourceHash": "5a6bf3871b790c39fe49b79379161b59b1ff016add6a3edf22d5dab1d1dc89f2",
+      "text": "Panic at -45 SP"
+    },
+    "passives.3.response": {
+      "sourceHash": "6c97415164dfee59719d000ff106e44758c7c8cbb5bdb79cae93c0c8a222e442",
+      "text": "Panic Staggers her, creating an opening for damage. Prepare for her SP recovery and buffs afterward."
+    },
+    "passives.4.name": {
+      "sourceHash": "40fb6d4314740fc92f8f0943ef0512053049d5f482d450745a4fb5b4a190a27b",
+      "text": "Determination"
+    },
+    "passives.4.effect": {
+      "sourceHash": "aba154a76ba6389ebe30133ebba814883d86240c3b4d1580bd607122e0142fd5",
+      "text": "When recovering from Panic, restore SP to maximum and gain 2 Haste and 2 Attack Power Up."
+    },
+    "passives.4.condition": {
+      "sourceHash": "147a039c8ad2ee8e4dfcccd4e464be07800e0d46e960344ea2b2ef16d91fb3c6",
+      "text": "Recovery from Panic"
+    },
+    "passives.4.response": {
+      "sourceHash": "2ce9964de57d4bde296c75627e4c1842e0d2d7b4463d1b1d82d8dd97a554c1b0",
+      "text": "Restores SP to maximum and grants 2 Haste and 2 Attack Power Up. Do not assume Panic will keep her disabled indefinitely."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "104ce78eb7012878b3b60eccc7274538f0e7620e86ca9e7d45eb3fc60e763f35",
+      "text": "Effects that would change Panic Type do not change it. Instead, apply the effects intended for targets without SP."
+    },
+    "passives.5.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.5.response": {
+      "sourceHash": "25c0ec4034b11dd7c2c305aa205f9ea9e6f0ee55b5174e34c921b70a18d6c22d",
+      "text": "Win through Clashes, her own SP loss, and breaking the Shield rather than overriding her Panic Type."
+    },
+    "passives.6.name": {
+      "sourceHash": "9ba75e747f1122b07aa4e912506da4cee1e8a2905556f7b1469c84592e8cf383",
+      "text": "Walled Heart"
+    },
+    "passives.6.effect": {
+      "sourceHash": "363019432536249313f000087d341515a5de8e2cb8ef93439f1f922378339d42",
+      "text": "Whenever this unit is destroyed, increase Dongbaek's Sinking Count by 5 and reduce all Sinners' Sinking by 2. All Sinners gain 1 Protection and 2 Attack Power Up next turn."
+    },
+    "passives.6.condition": {
+      "sourceHash": "e43b5cd18a20ec204b5a2d8861b2b34840b93b81fbcd9a1a890043d024c88c1c",
+      "text": "Old Umbrella defeated"
+    },
+    "passives.6.response": {
+      "sourceHash": "cd18c878723013b71f13475d84d3d3bda281cc5c6e77fec0eee4ac1d308ed2b3",
+      "text": "Raises the enemy's Sinking Count by 5 and reduces all Sinners' Sinking by 2. It also grants 1 Protection and 2 Attack Power Up next turn, making umbrellas useful targets while Thorns is active."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "8135f01fab9a9aff0412bad1a8435b57e605e05524b6985f20e35b4e35702d2b",
+      "text": "Thorns"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "10cea75d6c9283f799146ad78dca5dcd1967c182bf8ff144ca25902e58b831c3",
+      "text": "Reflect 50% of damage taken to the attacker. Gained at Combat Start from Don't Touch Me...!."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "ff60f2a9a024a2ce51ffd78c7c0ff1e6af7d1aa6f771a5aad77be31228850100",
+      "text": "Avoid repeatedly hitting Dongbaek; spend actions defeating Old Umbrellas or healing instead."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "410f059664203a141485da8bcda4ee8d75c7d4aa3d0bc7feac688b6ff0c93be9",
+      "text": "Corroding Heart (wording variation)"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "747510fec822b9e0da55deb2fa83bad70e9849170d0f875973a98e0fb7c77193",
+      "text": "The Japanese status name and skill effect use different wordings for Corroding Heart. The status description grants 2 Attack Power Down, 2 Fragile, and 5 Bind at Turn Start."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "1eacbe88497818d61ffcadaf268e52ee9e689ad0c234efeddbc2c33ef1ce555c",
+      "text": "After Sink It All, check the status actually applied and use it as an opening to attack."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3a5608f2697821a0126aa9ea52027ca53f762b81bf153bc029ad834045dc9c81",
+      "text": "Poison"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "88c3cfbc9815f1c996c364065d0e25b929635be1b691b2e556285cf101fb47db",
+      "text": "At Turn End, take damage equal to this value, then halve the value."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "3ed98e766158dbd75e5155d1bdfc094f51d5caa392df47cc4055726353b7d215",
+      "text": "Surviving the initial hit is not enough; heal so your Sinners can also survive Turn End damage."
+    },
+    "warnings.0": {
+      "sourceHash": "123c168786ba83f3123ce737794625cc65029f06ca02556835d866b1c41d7a59",
+      "text": "Blooming and Dueling from 4-48 do not appear here. Distinguish Sunshower from Spicebush."
+    },
+    "warnings.1": {
+      "sourceHash": "da4b82ad1a55ab11d7e93fbd387c174271814a05f8cd227b06170b24b8418f98",
+      "text": "Dongbaek's Heads/Tails odds are fixed at 50% each regardless of SP. Judge SP loss separately from passive buffs and Panic Stagger."
+    },
+    "warnings.2": {
+      "sourceHash": "af7e792ba358e0b447807112656f95ea8627acbd4600693a7f886935f257cd6f",
+      "text": "Thorns is gained at Combat Start, so offsetting the Defense Skill alone does not remove reflection."
+    },
+    "warnings.3": {
+      "sourceHash": "04bbd73a66a69cb77cbf94fb503212e8844d7251dea63db672d823e0a87acd12",
+      "text": "Old Umbrellas here have 9 HP and no actions. Do not use the 82 HP or Count effects of the Fox's umbrellas in the Canto IV dungeon."
+    },
+    "preparation.0": {
+      "sourceHash": "2853f3009bb92bdf1a398c5ac2227c50958c6af0cb25d84eeb35a8273af3d318",
+      "text": "Prepare 7 main units around Level 35 and Uptie III or higher. Build around Blunt/Gloom damage and check your answer to a maximum roll of 26 and its E.G.O resource costs."
+    },
+    "preparation.1": {
+      "sourceHash": "1c036d8c4f43f566d5419a86d0457c3c37012c39349e85651a6168b192627b6c",
+      "text": "Prepare HP and SP recovery for Sinking, Rupture, and Poison. Avoid having everyone attack Dongbaek while reflection is active."
+    },
+    "roles.0.name": {
+      "sourceHash": "63d8c557196467d8e676c1e35452666330f0c796e2e1c9b424eeafed0cff5c5c",
+      "text": "High-power Clash specialist"
+    },
+    "roles.0.reason": {
+      "sourceHash": "e15595c523e536d38b9258f18a08c8ac3f1b97fb5ee2ec9aa2caf8c8f48e57b8",
+      "text": "Stop skills boosted by Low Morale and the 26-Base-Power area attack."
+    },
+    "roles.1.name": {
+      "sourceHash": "c5e1b5c5ad553abfb9ed7ce3e904e92a87398df92637858ce730f6e62f57e356",
+      "text": "Shield-breaking damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "c599a48adb73e0082c1acee1668645160d219e5f0926862e681f96d5e7242c1c",
+      "text": "Use actions not needed for Clashes to wear down the 1200 Shield and Dongbaek's HP."
+    },
+    "roles.2.name": {
+      "sourceHash": "6dc9b8b617deda51bd4965da6d1fe36ce385d08a9d8348abaf88b0561a6caffb",
+      "text": "Umbrella cleanup and healing"
+    },
+    "roles.2.reason": {
+      "sourceHash": "c586ea6cc73f407369f7d2e88d29b0e5935600fe79664ef1a696aeafb1039323",
+      "text": "Avoid reflection damage while setting up next turn's buffs."
+    }
+  },
+  "messages": {
+    "boss-copy:dongbaek-sunshower": "complete",
+    "【リンバス】4-47 ロボトミーE.G.O::狐雨 - ドンベクの攻略｜Limbus Assistant": "4-47 Lobotomy E.G.O::Sunshower - Dongbaek Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-47「ロボトミーE.G.O::狐雨 - ドンベク」の攻略。4-48の壇香梅とは別の戦闘。7人の手数でバリアを削り、棘が付いたときは古傘へ攻撃を回す。精神力による強化・パニックと、表裏の確率を分け…": "Lobotomy E.G.O::Sunshower - Dongbaek guide for Limbus Company 4-47. This is a separate fight from Spicebush in 4-48. Use 7 Sinners to wear down the Shield, and attack Old Umbrellas when Thorns is active. Distinguish SP-based buffs and Panic from Coin flip probabilities.",
+    "4-47 ロボトミーE.G.O::狐雨 - ドンベク": "4-47 Lobotomy E.G.O::Sunshower - Dongbaek",
+    "4-47「Viewing Room」": "4-47 · Viewing Room",
+    "ドンベク（狐雨）の外見": "Dongbaek (Sunshower) appearance",
+    "ドンベク（狐雨）のスキル": "Dongbaek (Sunshower) skills",
+    "Dongbaek (Sunshower)の外見": "Dongbaek (Sunshower) appearance",
+    "Dongbaek (Sunshower)のスキル": "Dongbaek (Sunshower) skills",
+    "古傘（4-47）の外見": "Old Umbrella (4-47) appearance",
+    "古傘（4-47）のスキル": "Old Umbrella (4-47) skills",
+    "Old Umbrella (4-47)の外見": "Old Umbrella (4-47) appearance",
+    "Old Umbrella (4-47)のスキル": "Old Umbrella (4-47) skills"
+  }
+}

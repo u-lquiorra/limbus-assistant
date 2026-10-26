@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0203.md",
+  "code": "0203",
+  "messages": {
+    "味方の攻撃より先に撃って貫通脆弱・嫉妬脆弱を付け、後続の貫通・嫉妬スキルのダメージを伸ばす、嫉妬貫通の単体E.G.O。": "A single-target Envy Pierce E.G.O used before allies attack to inflict Pierce Fragility and Envy Fragility, raising the damage of the Pierce and Envy skills that follow.",
+    "脆弱の付与: 的中時に貫通脆弱(解析Ⅲで3)と嫉妬脆弱1を付与する。脆弱は1ターンの間だけ効くので、味方が攻撃する前に当てる必要がある。": "**Inflicting Fragility**: On hit, inflicts Pierce Fragility (3 at Threadspin Ⅲ) and 1 Envy Fragility. Fragility only lasts for 1 turn, so it must land before allies attack.",
+    "呪い(解析Ⅲ): 表面的中時に呪い3を付与する。ターン終了時に、次のターンの攻撃威力減少などのうち1つがランダムに付くため、狙った効果にはならない。": "**Curse (Threadspin Ⅲ)**: Inflicts 3 Curse on Heads Hit. At Turn End, it applies one random effect such as Attack Power Down for the next turn, so you cannot choose the result.",
+    "釘と追加ダメージ(解析Ⅳ): 表面的中時に釘3(特殊出血)を付与し、呪いのある対象にはダメージ量+50%。": "**Nails and extra damage (Threadspin Ⅳ)**: Inflicts 3 Nails (a special Bleed) on Heads Hit and deals +50% damage to targets with Curse.",
+    "高めのマッチ威力: 14~24(解析Ⅲで16~26)と高めで、嫉妬6の資源が賄えればマッチ目的でも使える。": "**High Clash Power**: A fairly high 14–24, or 16–26 at Threadspin Ⅲ. If the team can cover 6 Envy, it also works for Clashing.",
+    "パッシブ「いたい！」: 自分のマイナス効果1つにつき与ダメージ量+10%(最大50%)。": "**Passive — It Hurts!**: +10% damage dealt for each negative effect on herself, up to 50%.",
+    "速度の高い人格で先に撃ち、脆弱を付けてから味方の攻撃を通す。": "Fire it first with a fast Identity, apply Fragility, and then let allies attack.",
+    "後続が貫通中心なら覚醒、嫉妬中心なら侵蝕(貫通脆弱1・嫉妬脆弱1、解析Ⅲで嫉妬脆弱3)と使い分ける。侵蝕は敵味方識別不可で、対象はランダム(味方に当たり得る)。": "Use Awakening if the follow-up attackers mainly use Pierce, and Corrosion if they mainly use Envy. Corrosion inflicts 1 Pierce Fragility and 1 Envy Fragility, or 3 Envy Fragility at Threadspin Ⅲ. Corrosion cannot distinguish friend from foe, and its targets are random, so it can hit allies.",
+    "嫉妬6のみが必要資源なので、嫉妬を多く出せる編成と合わせる。": "It only requires 6 Envy, so pair it with a team that can produce plenty of Envy.",
+    "Ⅱ: パッシブが解放されるのみ。": "**Ⅱ**: Only unlocks the passive.",
+    "Ⅲ: 威力と貫通脆弱量が増え、呪いが加わる。": "**Ⅲ**: Increases power and Pierce Fragility, and adds Curse.",
+    "Ⅳ: 釘の付与と、呪い対象へのダメージ量+50%が加わる。": "**Ⅳ**: Adds Nails and +50% damage against Cursed targets.",
+    "握る者: S1が嫉妬で資源を出せ、S1・S2・S3が釘を付与するので、解析Ⅳの釘と噛み合う。": "**[The One Who Grips](persona:0204)**: Her Envy S1 supplies resources, and S1, S2, and S3 all inflict Nails, which fits the Threadspin Ⅳ Nails.",
+    "W社2級整理要員: S1と守備が嫉妬で、嫉妬6の資源を集めやすく、パッシブも嫉妬の保有で発動する。": "**[W Corp. L2 Cleanup Agent](persona:0202)**: Her S1 and Defense skill are Envy, making the 6 Envy easy to gather, and her passive also triggers with Envy Owned."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sourceGuide": "src/data/guides/ego/0107.md",
+  "code": "0107",
+  "messages": {
+    "味方を撃って倒すことで2コイン目が複数の敵に通る、味方の犠牲を前提とした傲慢の7枠広域E.G.O。": "A Pride E.G.O with 7 Attack Weight that sacrifices an ally with its first Coin so the second Coin can hit multiple enemies.",
+    "味方を撃つ1コイン目: 体力が最も低い対象を優先して攻撃する(味方を優先指定)。Ⅰコインはメインターゲットだけに当たり、味方なら引き裂かれた追憶1につきダメージ量+8%(解析Ⅲで10%、Ⅳで15%)が乗る。": "**First Coin: shooting an ally**: Prioritizes the target with the lowest HP, favoring allies. Coin Ⅰ only hits the main target. Against an ally, gains +8% damage per Torn Memory, increased to +10% at Threadspin Ⅲ and +15% at Ⅳ.",
+    "敵へ広がる2コイン目: Ⅱコインはサブターゲットだけに当たる。1コイン目で味方を倒せなかった場合、ダメージを受けるのはサブターゲットのうちランダムな1体だけになる。": "**Second Coin: spreading to enemies**: Coin Ⅱ only hits subtargets. If Coin Ⅰ fails to kill an ally, only 1 random subtarget takes damage.",
+    "引き裂かれた追憶と呼吸: 攻撃前に(最大共鳴数+1)の追憶を得て(最大7。解析Ⅳは傲慢共鳴なら最大共鳴数×2)、1つにつき呼吸1を得る。攻撃後に追憶は全て消耗する。": "**Torn Memory and Poise**: Before attacking, gains Torn Memory equal to the highest Resonance + 1, up to 7, then gains 1 Poise per Memory. At Threadspin Ⅳ, Pride Resonance instead gives Memory equal to twice the highest Resonance. Consumes all Memory after attacking.",
+    "味方討伐: 倒せたら自分と味方2名へ呼吸2(解析Ⅲで3)を付与し、解析Ⅲから倒した味方のスキル1(解析Ⅳでスキル2も)の属性の資源を得る。倒せなければ呼吸1(解析Ⅲで3)を得る。": "**Killing an ally**: Grants 2 Poise to himself and 2 allies, increased to 3 at Threadspin Ⅲ. From Threadspin Ⅲ, also gains resources matching the defeated ally's S1 affinity; Threadspin Ⅳ adds their S2 affinity. If he fails to kill an ally, gains 1 Poise himself, increased to 3 at Threadspin Ⅲ.",
+    "パッシブ「次」: 攻撃終了時に対象が死亡したなら呼吸回数+2(1ターンにつき最大2回)。": "**Passive — Next**: Active from the turn after E.G.O use. After attacking, if a target died, gains 2 Poise Count, up to 2 times per turn.",
+    "犠牲にする味方は、体力が最も低い順に狙われる。倒し切れるよう、瀕死や混乱の味方、体力の低い人格を用意して撃つ。味方を優先して狙うので、敵とのマッチには向かないと考えられる。": "The lowest-HP ally is prioritized as the sacrifice. Prepare an ally he can finish off, such as one who is near death, Staggered, or naturally low in HP. Since it prioritizes allies, this is a poor choice for Clashing with enemies.",
+    "味方を倒すと資源を得られるため(解析Ⅲ以降)、実質のコストは軽くなる。": "From Threadspin Ⅲ, killing an ally generates resources, reducing the effective cost.",
+    "共鳴数に応じて追憶が増え、ダメージ補正が伸びる(解析Ⅳは傲慢共鳴なら2倍)。": "Higher Resonance generates more Torn Memory and raises the damage bonus. At Threadspin Ⅳ, Pride Resonance doubles the Resonance contribution.",
+    "必要資源は憤怒2・傲慢6、精神消耗は覚醒25・侵蝕30・OC45。": "Costs 2 Wrath and 6 Pride. SP cost: 25 Awakening, 30 Corrosion, 45 Overclock.",
+    "侵蝕スキルは敵味方識別不可で、味方へのダメージ補正がさらに大きい。": "Corrosion cannot distinguish friend from foe and has a larger damage bonus against allies.",
+    "Ⅱ: 「次」の解放のみ。": "**Ⅱ**: Only unlocks Next.",
+    "Ⅲ: 追憶によるダメージ補正とクリティカルダメージの上限が上がり、味方討伐時に資源を得られる。": "**Ⅲ**: Raises the Memory-based damage bonus and Critical damage cap, and adds resource gains when an ally is killed.",
+    "Ⅳ: 補正とクリティカルダメージの上限がさらに伸び、スキル2の属性の資源も得られる。伸びが大きいので、使うなら優先度は高めと考えられる。": "**Ⅳ**: Further raises damage bonuses and the Critical damage cap, and adds resources matching the ally's S2 affinity. These are substantial improvements, making this a relatively high-priority upgrade if using the E.G.O.",
+    "N社E.G.O::凶弾: S3と守備が傲慢で、パッシブ「凶弾」(傲慢×6)が味方の討伐と追憶を扱う。このE.G.Oと同じ仕組みの人格。": "**[N Corp. E.G.O:: Fell Bullet](persona:0113)**: Pride S3 and defense supply resources. His Fell Bullet passive, requiring 6 Pride Owned, uses allied deaths and Torn Memory, matching this E.G.O's mechanics.",
+    "剣契殺手: S1と守備が傲慢で、必要資源(傲慢6)と傲慢共鳴を稼げる。呼吸を扱う。": "**[Blade Lineage Salsu](persona:0103)**: Pride S1 and defense help supply the 6 Pride requirement and build Pride Resonance. He also uses Poise."
+  }
+}

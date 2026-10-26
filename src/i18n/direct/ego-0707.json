@@ -1,0 +1,18 @@
+{
+  "sourceGuide": "src/data/guides/ego/0707.md",
+  "code": "0707",
+  "messages": {
+    "共鳴で貯めた「引き裂かれた追憶」で呼吸とクリティカルダメージを伸ばし、2コイン目のクリティカルで大ダメージを出す貫通E.G.O。": "A Pierce E.G.O that uses Torn Memory built from Resonance to raise Poise and Critical damage, dealing heavy damage with a Critical Hit on its second Coin.",
+    "引き裂かれた追憶: 攻撃前に(最大共鳴数+1)を得る(最大7)。該当共鳴が完全共鳴なら(最大共鳴数+2)。共鳴6か完全共鳴5で最大になり、攻撃後に全て消える。": "**Torn Memory**: Before attacking, he gains (highest Resonance + 1), up to 7. If that Resonance is Absolute Resonance, (highest Resonance + 2). It maxes out at 6 Resonance or 5 Absolute Resonance and all disappears after the attack.",
+    "呼吸とクリティカル: 追憶1につき呼吸を得て(最大3、解析Ⅲで4、Ⅳで7)、2コイン目は追憶1につきクリティカルダメージ量が上がる(解析Ⅳは15%ずつ、最大105%)。": "**Poise and Critical Hits**: He gains Poise per Torn Memory (up to 3, 4 at Threadspin Ⅲ, 7 at Ⅳ), and the second Coin gains Critical damage per Torn Memory (15% each at Threadspin Ⅳ, up to 105%).",
+    "クリティカル依存: 2コイン目のクリティカルで沈潜3を付与し、弾丸を持っていれば、倒した時に弾丸を1得る(戦闘につき解析Ⅳは3回)。外すと真価が出ず、呼吸の補助が欠かせない。": "**Reliance on Critical Hits**: The second Coin's Critical Hit inflicts 3 Sinking, and if he has Ammo, he gains 1 Ammo on a kill (3 times per battle at Threadspin Ⅳ). Missing the Critical Hit wastes its potential, so Poise support is essential.",
+    "パッシブ「潰されたペンダント」: 戦闘開始時、最大共鳴が3以上なら呼吸3を得る。": "**Passive — Crushed Pendant**: At Combat Start, gains 3 Poise if the highest Resonance is 3 or more.",
+    "傲慢などで共鳴を作り、呼吸を別手段でも稼ぐ人格で使う。呼吸が足りないと2コイン目でクリティカルが出にくい。": "Build Resonance with Pride or similar, and use it with an Identity that also earns Poise by other means. Without enough Poise, the second Coin rarely crits.",
+    "侵蝕スキルは共鳴と呼吸でダメージ量が上がる広域だが、呼吸を5消耗し、クリティカル時の効果は無い。": "The Corrosion skill is a multi-target attack whose damage grows with Resonance and Poise, but it spends 5 Poise and has no Critical Hit effects.",
+    "Ⅱ: 「潰されたペンダント」が解放される。": "**Ⅱ**: Unlocks Crushed Pendant.",
+    "Ⅲ: 呼吸の上限が4になり、クリティカルダメージ量(追憶1につき10%)と出血が上がる。": "**Ⅲ**: The Poise cap becomes 4, and Critical damage (10% per Torn Memory) and Bleed rise.",
+    "Ⅳ: 呼吸の上限が7、追憶1につき15%になり、攻撃前に呼吸回数も1増える。": "**Ⅳ**: The Poise cap becomes 7, 15% per Torn Memory, and Poise Count also increases by 1 before attacking.",
+    "終止符事務所フィクサー: S2(嫉妬)・S3(傲慢)で資源を出せ、S1〜S3で呼吸を自前で稼ぎ、クリティカル討伐時の弾丸も活かせる。": "**[Full-Stop Office Fixer](persona:0711)**: S2 (Envy) and S3 (Pride) supply resources, S1–S3 earn Poise on their own, and he can make use of the Ammo from Critical kills.",
+    "ピークォド号銛使い: S1(傲慢)・S2(嫉妬)・守備(憤怒)で必要資源の3種を出せ、S1・S2で呼吸を稼げ、S1は出血も付与する。": "**[The Pequod Harpooneer](persona:0707)**: S1 (Pride), S2 (Envy), and his Defense skill (Wrath) supply all three required affinities, S1 and S2 earn Poise, and S1 also inflicts Bleed."
+  }
+}

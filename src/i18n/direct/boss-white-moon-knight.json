@@ -1,0 +1,604 @@
+{
+  "kind": "boss-copy",
+  "id": "white-moon-knight",
+  "source": "src/data/bosses/white-moon-knight.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "名誉ある決闘",
+          "en": "Honorable Duel",
+          "file": "Bufs-a1c7p2.json",
+          "id": "HonorableDuel_Don"
+        },
+        {
+          "ja": "名誉ある決闘",
+          "en": "Honorable Duel",
+          "file": "Bufs-a1c7p2.json",
+          "id": "HonorableDuel_Knight"
+        },
+        {
+          "ja": "白い月の騎士",
+          "en": "The Knight of the White Moon",
+          "file": "Enemies-a1c7p2.json",
+          "id": "8389"
+        },
+        {
+          "ja": "白い月の騎士",
+          "en": "The Knight of the White Moon",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838901"
+        },
+        {
+          "ja": "ギリギリの勝負",
+          "en": "A Close Match",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838902"
+        },
+        {
+          "ja": "泉の竜",
+          "en": "Dragon of the Spring",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838901"
+        },
+        {
+          "ja": "秋の蓮花",
+          "en": "Lotus in Autumn",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838902"
+        },
+        {
+          "ja": "微かな軌跡",
+          "en": "Faint Trace",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838903"
+        },
+        {
+          "ja": "蒼白な軌跡",
+          "en": "Pallid Trace",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838904"
+        },
+        {
+          "ja": "赤い矢",
+          "en": "Red Arwe",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838905"
+        },
+        {
+          "ja": "黒い矢",
+          "en": "Blak Arwe",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838906"
+        },
+        {
+          "ja": "水の鏡",
+          "en": "Mirror of Water",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838907"
+        },
+        {
+          "ja": "電子加速レール活性化",
+          "en": "Electron Accelerator Rail Activation",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838908"
+        },
+        {
+          "ja": "矢",
+          "en": "Arwe",
+          "file": "Skills_Abnormality-a1c7p2.json",
+          "id": "838909"
+        },
+        {
+          "ja": "精神の亀裂",
+          "en": "Mental Fracture",
+          "file": "Bufs-walpu4.json",
+          "id": "MentalCrack"
+        }
+      ],
+      "note": "Enemy skills and blue/yellow Honorable Duel are checked against paired Canto VII records; Mental Fracture uses its shared status record. Unconfirmed values remain unconfirmed."
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "19cd3ebda3463395d5a8e371d7b942e593abc73363f0624e3a0e491c4b138e9e",
+      "text": "Knight of the White Moon (7-26)"
+    },
+    "shortName": {
+      "sourceHash": "721f9e8d210e8c94669b411aec9c379b9740fa03cbdaf7d278c280581e74a560",
+      "text": "The Knight of the White Moon"
+    },
+    "stageName": {
+      "sourceHash": "a3284d75728b962d4cf0dcbf698c5d152521c5390e24f666303456b18848bc6a",
+      "text": "On the Vivid Clash Between the Knight of the White Moon and the Valiant Don Quixote"
+    },
+    "lead": {
+      "sourceHash": "1a9da483cce11f6f8ebf815ebb38c9f32ff9d59b224e23ed0d4cb149786fec40",
+      "text": "A scripted encounter with only LCB Sinner Don Quixote. Special stat modifiers apply, and a sequence ends the fight after combat begins on Turn 6. Clash against attacks with extra damage and check the final switch to E.G.O."
+    },
+    "listLead": {
+      "sourceHash": "fb69688099a2202fa5f692fb793aee4206370c70396b7412510d4147195875a3",
+      "text": "An event battle with 1 fixed combatant. Clash against attacks with additional damage and use the special stat bonuses."
+    },
+    "statNote": {
+      "sourceHash": "54ea4966cd232d68a213b4da48e87a206a7bc02ee64016a5282c14d92d1969b8",
+      "text": "Data for the 7-26 scripted encounter only. Enemy HP, level, Defense Level, and Speed are unknown. All resistances are estimated as neutral, but remain displayed as unknown rather than confirmed values. Your Sinner is adjusted to Lv.50 and Uptie IV, with her base E.G.O at Threadspin IV."
+    },
+    "skillNote": {
+      "sourceHash": "78529ce8c61df427ba3513db992c167a943c3f9c659c7b74d31262172c788da1",
+      "text": "Enemy Power and levels are hidden in-game. Power values from Dragon of the Spring through Blak Arwe, and Lv.50 on skills other than Arwe, are estimates. Mirror of Water and Electron Accelerator Rail Activation have an estimated maximum of 30, but their Base and Coin Power are unknown. Arwe's Power and level are also unconfirmed. Listed Power excludes conditional bonuses."
+    },
+    "priorities.0": {
+      "sourceHash": "eca5b1b845f84d1f5812b078e67186d5b836b0954707f4dc7f1cf319640e564d",
+      "text": "A fixed loadout of LCB Sinner Don Quixote and La Sangre de Sancho only. Adjusted to Lv.50, Uptie IV, and Threadspin IV; no other Identity is needed for this encounter."
+    },
+    "priorities.1": {
+      "sourceHash": "fe1d8d3ef968591d596f608c68e370961248b09f5f4b2eafeed1a4ca6dd0cdbf",
+      "text": "Unbreakable attacks on Turns 3 and 4 still hit after a clash win. Win clashes to prevent the extra damage from Pallid Trace and Red Arwe."
+    },
+    "priorities.2": {
+      "sourceHash": "7c6ae7b3484cf98707517d75d87d859af95c7ac160567ef60ec37743d22ee631",
+      "text": "Advance to the E.G.O switch on Turn 6 instead of aiming to deplete enemy HP. A sequence ends the encounter after combat begins."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "d2a0f9964c72fe2c8ce171a87af101c8b81e81f35d6ec85ff071dba3c8cba760",
+      "text": "Cannot judge preparation because enemy HP and Power are hidden"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "39b21d87e6d5bdadc9d5854ae415e6b85df79ade66ba42ce5fa4229e7c6de8ec",
+      "text": "A special encounter with hidden values. Your Sinner is adjusted to Lv.50 and Uptie IV, with bonuses from Honorable Duel. Check current clash predictions rather than judging preparation or victory conditions like a regular boss."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "4d6bde01f524a866fd9960a9aac159626d007ffda9619263f73ae1eb7d8b7688",
+      "text": "Taking damage despite winning the clash"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "f229e684553ef62b9c3ab7cf5d8ca7d2a6a218b6efa91f71553ed6b006829254",
+      "text": "Coin I of Faint Trace and Pallid Trace is Unbreakable. Hits remain after a win, but you can prevent Coin II's Slash Fragility or extra damage."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e374344d11d594c5f90117c02c2b3dd1559b6f58ca8239e8ebeb6696cc733f65",
+      "text": "Every skill became E.G.O on Turn 6"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "f5237c3569e3a90453c4561fae924e1074dffad06e4951557cf65a250485a2d9",
+      "text": "This is the encounter's scripted progression. Check the slots containing La Sangre de Sancho, begin combat, and proceed into the following sequence."
+    },
+    "units.0.name": {
+      "sourceHash": "721f9e8d210e8c94669b411aec9c379b9740fa03cbdaf7d278c280581e74a560",
+      "text": "The Knight of the White Moon"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+      "text": "Unknown"
+    },
+    "units.0.level": {
+      "sourceHash": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+      "text": "Unknown"
+    },
+    "units.0.speed": {
+      "sourceHash": "bd5a8814a3635ecb4ebc9785cbc8223ae32444a5a07329a811526c29cd45f77c",
+      "text": "Unknown"
+    },
+    "units.0.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "e1eb234247ec22c89e59d289cf1262727c2f834d7d634a236b9ac50fb3129a84",
+      "text": "The part cannot be broken. This is not a normal HP-depletion kill; a sequence begins on Turn 6."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "21f8babdb2eb6d30b976161ef11e76926fb431ea37876547c00f22a3425eef20",
+      "text": "At the start, the enemy gains blue Honorable Duel and Don Quixote gains yellow Honorable Duel. Do not treat their effects as identical."
+    },
+    "phases.0.timing": {
+      "sourceHash": "a1a4f33fcdd5e1da26a6a0b700ffcdf77e23a11212ef09f146576836a2e3aaad",
+      "text": "Before deployment–Turn 2"
+    },
+    "phases.0.title": {
+      "sourceHash": "988439b32f5f7b9c5c6cc4d0c4bea1a7338d9a79ad2c2d6f7400713bcda2dc8a",
+      "text": "Check the fixed loadout and special buffs"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "bb2abcd7da460c15e51d067e8a9fa7fc3a9d0a09687e23ea50065954ef689f2e",
+      "text": "Only LCB Sinner Don Quixote can deploy. Appearance Projection is unavailable, and her only E.G.O is La Sangre de Sancho. Starting SP is 45."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "4236fabb7e53ce67313ba6b8ac2ff6efd35554bc572d790bee96d77424082d7a",
+      "text": "Yellow Honorable Duel sets max HP to 1605 and removes Stagger Thresholds. It also gives Attack Skills +15 Final Power; do not judge the clash using normal skill values alone."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "7b1407292c5c3bffdbeb14f83b444885f4ffb7a2c784ab1d4560fd5d704eea08",
+      "text": "Turn 1 uses Dragon of the Spring; Turn 2 uses Lotus in Autumn and Mirror of Water. Your slot count matches the enemy's, but the hand is random. Check clash predictions and assign skills each time."
+    },
+    "phases.1.timing": {
+      "sourceHash": "3324cab920fe1518eb16b7d9f27e45357eaed1a33aa2fdc5a1abfce8a2e160f7",
+      "text": "Turns 3–4"
+    },
+    "phases.1.title": {
+      "sourceHash": "51ec812d88b25bd203849133d733b90d2c10882410ec76a2aef1cb6a9d154104",
+      "text": "Prevent dangerous effects after the Unbreakable Coin"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "f6caa8a920ce93d285e5497b03143349e7c43c36e513da4c7e5d458e8bb126ff",
+      "text": "Turn 3 uses Dragon of the Spring, Lotus in Autumn, and Faint Trace. Beat Faint Trace to prevent Coin II's 3 Slash Fragility."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "5ed0ac98c0a5897c184bfd80e32c3a55541e44a4ca7a31a416a3d338e537cc51",
+      "text": "Turn 4 uses Faint Trace, Pallid Trace, and Mirror of Water. Assign a strong attack to Pallid Trace to prevent Coin II's extra 100 damage."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "84a9cb09e460423208d1c7b35a84355bf29c9111a2122afb4746bf484d8d32fb",
+      "text": "Coin I of both Trace skills is Unbreakable; a win does not prevent every hit. Mirror of Water is also a Clashable Guard, so do not treat it as a normal defense."
+    },
+    "phases.2.timing": {
+      "sourceHash": "c1f7aa0e2a8e8173613fe0f3eb93e3f2f9386fa797483c2870ec946f088f60e3",
+      "text": "Turn 5"
+    },
+    "phases.2.title": {
+      "sourceHash": "1c332035e10e135246779a1267eac928e7730c4bd178fd9610a5924ecd3df438",
+      "text": "Clash with both types of Arwe"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "c63275400e74a30536d64db0faee2386466755e25274e19315ba93c080909805",
+      "text": "Uses Red Arwe, Blak Arwe, and Electron Accelerator Rail Activation. Each Red Arwe Coin deals 50 extra damage; each Blak Arwe Coin inflicts 2 Mental Fracture."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "5556e490f8b0c06077f01b448af176059b64b062bae8060a6de565e1792da324",
+      "text": "Assign a winning attack to each of the 2 Arwe skills. The rail buff activates at Combat Start; stopping it with an attack is not the objective."
+    },
+    "phases.3.timing": {
+      "sourceHash": "7b3f181323078b493a2ae49698dc782b657c882fa4a0094a4e7628bcf1247aa6",
+      "text": "Turn 6"
+    },
+    "phases.3.title": {
+      "sourceHash": "a1baf1c59e58e454b0ee3e768e0aa04a84750698e56146f489510133a3267516",
+      "text": "Advance to the sequence with the special E.G.O"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "885171bbc0bf149bce9077bfb52f9121b42140d4c6ff69b19305981337f1cafc",
+      "text": "The enemy uses Arwe without a Sin affinity, and all your slots become La Sangre de Sancho."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "ec62f56564a3c1ccc52c5866a80a6e6c87be695fa57cc60eef192a753b89bdd5",
+      "text": "After combat begins, a sequence plays and the encounter ends. There is no need to interpret remaining enemy HP as insufficient damage or rebuild a normal boss-kill plan."
+    },
+    "skills.0.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.0.name": {
+      "sourceHash": "2f875571929f968482890802697c132bc65775640b06d564f16483e8e0cbeaca",
+      "text": "Dragon of the Spring"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "1a05ae2bef74149ca8e6405c25ef2ec4313e27db34cee11f7ab46fdcae087814",
+      "text": "[On Use] Gain 2 Haste next turn."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "4c23f963874c0bb477714cf181639c6942e51c85fceaa9b4979988a357ac8136",
+      "text": "Ⅰ[On Hit] Gain 1 Haste next turn."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "0d56a09ea673ff0c910669ee322c1be1aa8b3a8f1e665485b96ef6f45212f4b0",
+      "text": "Ⅱ[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "f05d9be95d0311f9faa5814378de6a3262ff57552ee2730bf908ba29de908a2c",
+      "text": "Used on Turns 1 and 3. Clash to prevent next-turn Fragile from its hits. Winning does not stop its On Use Haste."
+    },
+    "skills.1.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.1.name": {
+      "sourceHash": "7551c126cce3f7f9eb12eeed0e6fcf675da611bab02f22be03a05883f0232111",
+      "text": "Lotus in Autumn"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "1a05ae2bef74149ca8e6405c25ef2ec4313e27db34cee11f7ab46fdcae087814",
+      "text": "[On Use] Gain 2 Haste next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "4c23f963874c0bb477714cf181639c6942e51c85fceaa9b4979988a357ac8136",
+      "text": "Ⅰ[On Hit] Gain 1 Haste next turn."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "0d56a09ea673ff0c910669ee322c1be1aa8b3a8f1e665485b96ef6f45212f4b0",
+      "text": "Ⅱ[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "c1f17d77e9a75a47d3fda9a17d8841e2b731d62371e5ae3583be470fae7fa8c0",
+      "text": "Used on Turns 2 and 3. Do not spend every strong skill on Mirror of Water; assign a winning attack here too."
+    },
+    "skills.2.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.2.name": {
+      "sourceHash": "4d6e39cc3db443619af29c928efbf8c5e215599ad3dbdf8ced9bd5630fa12777",
+      "text": "Faint Trace"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "072d91a4eab0c15609ae91a148425b53bff01ad7a8d3041ac53af0f69ee3109c",
+      "text": "[On Use] Gain 3 Haste next turn."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a3a168392ceb77017e33fef355ac5445f09570043da533e2217617b4933d636e",
+      "text": "Ⅱ[On Hit] Inflict 3 Slash Fragility."
+    },
+    "skills.2.response": {
+      "sourceHash": "ba08438717964a59f3d30e5409c7801b141194f5d994571b117cda67530df845",
+      "text": "Used on Turns 3 and 4. A clash win prevents Coin II's Slash Fragility. Coin I is Unbreakable, so a hit remains even after a win."
+    },
+    "skills.3.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.3.name": {
+      "sourceHash": "1c5f193b33f4537a4d608a07b356694afb5b76ffd031581e1765b49ce8e77c1e",
+      "text": "Pallid Trace"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "11b531e88dea66327a78af64fc825e907ed73e73186acb1f4b3764a55a7ec393",
+      "text": "If at least 5 Speed faster than the target, Clash Power +5."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "d25f4efac631fc75ee9ed14398d694b94373193f571c4d78e477362adc9faecf",
+      "text": "Ⅱ[On Hit] Deal 100 extra damage."
+    },
+    "skills.3.response": {
+      "sourceHash": "4ac3b74a40d32d9727075c1537ac25933341484d6c2012ace2aae85cdfcd9999",
+      "text": "A priority clash on Turn 4. Prevent Coin II's extra damage. The bonus at a Speed difference of at least 5 means last turn's prediction may not apply."
+    },
+    "skills.4.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.4.name": {
+      "sourceHash": "d7d0eb85fa4ceaa423e112b280f2769f54a02b1ac7f87708d50f352acd3eb25d",
+      "text": "Red Arwe"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "1a05ae2bef74149ca8e6405c25ef2ec4313e27db34cee11f7ab46fdcae087814",
+      "text": "[On Use] Gain 2 Haste next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "8774e6d562633ba8186901adb85e193d7b7e9da029805f4ee8d0fe888f119e12",
+      "text": "Ⅰ[On Hit] Deal 50 extra damage."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "f522a0144f5f563b0ee82b9057f3080d60b4875fc4a302e2d97014887174fa51",
+      "text": "Ⅱ[On Hit] Deal 50 extra damage."
+    },
+    "skills.4.response": {
+      "sourceHash": "63d452110cb158cd90ace977693fed6d08cffbd5a2599a61132358b425e65e13",
+      "text": "Used on Turn 5. Assign a winning attack to prevent each Coin's extra damage."
+    },
+    "skills.5.label": {
+      "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
+      "text": "Power and level are estimates"
+    },
+    "skills.5.name": {
+      "sourceHash": "61332879399903f2450f31f8223d286749270d0d118ff110e961a2b76c0144a9",
+      "text": "Blak Arwe"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "1a05ae2bef74149ca8e6405c25ef2ec4313e27db34cee11f7ab46fdcae087814",
+      "text": "[On Use] Gain 2 Haste next turn."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "8f441c584b6a886b52331cb235561605af5bd71ee80f1617f3498665c4291e5a",
+      "text": "Ⅰ[On Hit] Inflict 2 Mental Fracture."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "5cb490a4f03e2caf10e6355ebc3789adbc7f3c9abc06b0051606ce341933ab24",
+      "text": "Ⅱ[On Hit] Inflict 2 Mental Fracture."
+    },
+    "skills.5.response": {
+      "sourceHash": "7f49f06c6e48e118e73f852adb6f1e7a632dac0eef6a78cdfc64d8acae90b320",
+      "text": "Used on Turn 5. Win the clash to prevent Mental Fracture. Lower SP makes Heads less likely, so take this clash separately from Red Arwe."
+    },
+    "skills.6.label": {
+      "sourceHash": "4033f08e8d80ca6f74461059f3b08caa7dcdd2e59320099eea13426fb7b3c4cb",
+      "text": "Clashable Guard / Power unknown / level estimated"
+    },
+    "skills.6.name": {
+      "sourceHash": "800d4175c683ce60fd9f7f6fe52274cf237308fd4808f8be0a619df99c69d813",
+      "text": "Mirror of Water"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "fd18524ddd267c631d11fb1db2a1df2013138af3e66f155cfd860c7539b1017a",
+      "text": "[On Use] Gain 3 Protection."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "dc1e919c2bdac3793caa7c822ecf9469a40368274f27bf8e88135cdeaf625db9",
+      "text": "[Clash Win] Deal HP damage equal to this skill's final Clash Power."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.response": {
+      "sourceHash": "a7488e97b5b13bd8af263c9d44a48fe48571f4e0a1331e3dbf82ebf51b161ce6",
+      "text": "Used on Turns 2 and 4. Unlike a normal Guard, an enemy clash win deals HP damage to you. Coin behavior after a clash loss is uncertain; do not assume your win removes all Protection and damage."
+    },
+    "skills.7.label": {
+      "sourceHash": "12edbcfb06e7a447d8ac33ee1f932ea245ba842d2d53020139f028663aebeacc",
+      "text": "Power unknown / level estimated"
+    },
+    "skills.7.name": {
+      "sourceHash": "d727fe06520c19f0a7da7a6a803fec4699ef0fa76a1e6efe79929e52e688e2e3",
+      "text": "Electron Accelerator Rail Activation"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "111379b4656fa6cd11682025dbc7140b21408705ac810e721c8979b0dc20840e",
+      "text": "[Combat Start] Gain 10 Attack Power Up and 10 Haste next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "22aa4b6c83c438cca41669a60a6bace2b0c690871c821681954368610f05a40b",
+      "text": "Used on Turn 5. The buff activates at Combat Start, so do not plan to stop it by landing an attack. Next turn advances to the scripted ending."
+    },
+    "skills.8.name": {
+      "sourceHash": "5cb5dde280a773f6ee1174945376147bbd68a094d31915f1c3e62595bf341d1f",
+      "text": "Arwe"
+    },
+    "skills.8.label": {
+      "sourceHash": "6345acbaab44e77f8c5074b2764a8d5a251120b4aaa5485b87682479632e0a12",
+      "text": "No Sin affinity / Power and level unknown"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "ef439e5f6eb3b2cd0bee8b6ceb3a3c4d13db1e419aeb272a99a837fe29c2a56b",
+      "text": "[On Use] Gain 5 Pierce Damage Up."
+    },
+    "skills.8.response": {
+      "sourceHash": "b0229ef17587555fba6ad154256684d47c1eda41506fc1532f490f1ad616119e",
+      "text": "A special Turn 6 skill. All your slots become La Sangre de Sancho. Check the display and begin combat to enter the sequence and end the encounter."
+    },
+    "passives.0.name": {
+      "sourceHash": "721f9e8d210e8c94669b411aec9c379b9740fa03cbdaf7d278c280581e74a560",
+      "text": "The Knight of the White Moon"
+    },
+    "passives.0.condition": {
+      "sourceHash": "62c7a9364933f98c3eeac28c438dc5b0482408846e420e441bfb7160a267d792",
+      "text": "Always active / On Clash Lose"
+    },
+    "passives.0.effect": {
+      "sourceHash": "adb6f7e1295aa857398977e35694bb2d824ea7f1b9b4d022dcbdb18176b683d4",
+      "text": "Damage taken −20%. On Clash Lose, gain 3 Attack Power Up."
+    },
+    "passives.0.response": {
+      "sourceHash": "99aabec89f7eb31202a8801ce590a2ebfef1afa491f0abf0e5cf4a08a4097bee",
+      "text": "After winning, include the enemy's Attack Power Up in subsequent predictions. Keep clashing until the scripted progression rather than trying to deplete its HP."
+    },
+    "passives.1.name": {
+      "sourceHash": "84e1cff618b47b55e80846949b17e34ec14946fb716dc05f37d68f255a30efd8",
+      "text": "A Close Match"
+    },
+    "passives.1.condition": {
+      "sourceHash": "0bb79bcf3bbf55cd2e2dbd689ec2c602e08381169cc638088bd99c69cb575f2d",
+      "text": "At least 10 clash rolls against the same target"
+    },
+    "passives.1.effect": {
+      "sourceHash": "3346c113a0214c072e904c6a7b1ea03039ca46f4a9de37bbc346c9a37adb55e9",
+      "text": "On a clash roll, Clash Power randomly increases or decreases by the current total number of clash rolls divided by 10, rounded down."
+    },
+    "passives.1.response": {
+      "sourceHash": "033da7601043a375b5901176d1b6196f2c2a28b094115cca986910d14cbd2847",
+      "text": "Power fluctuates in long clashes. More clash rolls do not guarantee an advantage."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d21b515308a90da01a5190df55c7359d0eb91cf0e05e897a7f3646f86fd1e94a",
+      "text": "Honorable Duel (Don Quixote)"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "fc986731ba22901c16604b6ac7d0497d1d89eea58f1e2c90299824524a595bbc",
+      "text": "The special yellow effect. Sets max HP to 1605 and removes Stagger Thresholds. Attack Skill Final Power +15. At Turn End, gain 5 Haste next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "d1a34612d9b05b72edc431580e19c1cc3b758d54d4901488c57f823cf1ee5c58",
+      "text": "Even the fixed LCB Sinner Identity receives substantial bonuses. Judge by in-encounter predictions and HP rather than returning to raise another Identity based on normal performance."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "87ab66d4e93ede2d3ff94b0c9951aea979484281553e7be7ee63504056e498f2",
+      "text": "Honorable Duel"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "4e925b39fe6d934f2c35a8dca6f9e0c955d6c0d07f61ab919a1681d886169a99",
+      "text": "The special blue effect gained by the enemy at the start. Detailed stat modifiers are unknown."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "1b260f329d600e514ee5cb4bc346e7d577b1e039fc568927cb2bb5454bf77b1b",
+      "text": "Distinguish it from your Sinner's yellow effect despite the shared name. Do not assign its 1605 max HP or +15 Final Power to the enemy."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "c4f5196d50a424489c54a29f0a194f082bbc6e3bd2608ea4bb600d3662a6ff12",
+      "text": "Mental Fracture"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "9bcbe1a7aaa6a13f247385ead28b81ad760833e2841f0a31af9764cc72cd8413",
+      "text": "Maximum 5. SP Loss Efficiency +1 per 1 value. At 5, disappears and deals 10 SP damage. Decreases by 1 each turn."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "e3e5e884eefad4a61a83609703fca871b6c85fac5e1c4365108520a9664e558d",
+      "text": "Each Blak Arwe Coin inflicts 2. Win the clash to prevent hits and limit SP loss."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "a85a10733b867e4bc77c0f190e32b2b6e312257eebf650e5b36b4c1bd8f8cee8",
+      "text": "Fixed loadout and slots"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "e5649e809f6b159ce8387e476a0ae746ae848c8faa4163e65079ff0db064647a",
+      "text": "Only one LCB Sinner Don Quixote and her base E.G.O. Adjusted to Lv.50, Uptie IV, and Threadspin IV. Your slot count matches the enemy's, and the skill layout is random."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "ba06e2b693a5645e7641a169cdd2e7879ea16a8db950d190aac5266d7036c4b2",
+      "text": "You cannot use multiple allies to intercept attacks. Assign the hand to the additional slots and beat skills with dangerous extra effects."
+    },
+    "warnings.0": {
+      "sourceHash": "903688bd04b81fbbbc3bc5fd21ba277fb87c7782e9d77d8b15a16b7cbd5a3a26",
+      "text": "This is not a regular boss fight won by depleting HP. Check the special progression on Turn 6."
+    },
+    "warnings.1": {
+      "sourceHash": "93f99395c9fb3dd8cce1b12f6dbeec0f4310b1453307a8fc22c79d1921cb1316",
+      "text": "Do not derive unknown enemy HP, Speed, level, or resistances from estimated skill levels."
+    },
+    "warnings.2": {
+      "sourceHash": "e7b74281c3cca8801c802283c5749d7649cb8a7195267055c11eeb1148bf3e63",
+      "text": "Distinguish Unbreakable hits from Coin II's On Hit effects. Hits remain after a win, but clashing still matters."
+    },
+    "warnings.3": {
+      "sourceHash": "f9233cdfd5e21cdf3acfa0c578b60d182a26da75a582f047f55b4e0986778fd3",
+      "text": "Mirror of Water's Coin behavior after a clash loss is uncertain. Do not assume Protection and damage always disappear."
+    },
+    "preparation.0": {
+      "sourceHash": "9bb29f71c5bf11d237755c51adaef485b3e523027a403e793135846dbb14f6d2",
+      "text": "A fixed loadout of LCB Sinner Don Quixote and her base E.G.O. In-encounter adjustments mean no other Identity or additional E.G.O is needed."
+    },
+    "preparation.1": {
+      "sourceHash": "1edc3eb0381478add9576f9572f4f2771b1803b6751243199f1f5fa0bfb98071",
+      "text": "Check your Sinner's special buffs, random hand, and enemy skills. Adapt to each turn's clash predictions rather than assuming a fully fixed hand."
+    },
+    "roles.0.name": {
+      "sourceHash": "5deb844fa288c13af13388847160c9a9386aecdfe3ef5eaac16ca63799d6733d",
+      "text": "LCB Sinner Don Quixote"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a1d727e48cf056c3d1172c102cecaf77b4689d1a4f55effbc3373ecc4389f509",
+      "text": "The only deployment slot. Receives special buffs and handles clashes against attacks with extra damage or Mental Fracture."
+    }
+  },
+  "messages": {
+    "boss-copy:white-moon-knight": "complete",
+    "【リンバス】7-26 白い月の騎士（7-26）の攻略｜Limbus Assistant": "7-26 Knight of the White Moon (7-26) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)7-26「白い月の騎士（7-26）」の攻略。囚人ドンキホーテ1名で進めるイベント戦。専用の能力補正があり、6ターン目の戦闘開始後に演出へ移って終了する。追加ダメージを持つ攻撃にマッチを合わせ、最後の…": "Knight of the White Moon (7-26) guide for Limbus Company 7-26. A scripted encounter with only LCB Sinner Don Quixote. Special stat modifiers apply, and a sequence ends the fight after combat begins on Turn 6. Clash against attacks with extra damage and check the final switch to E.G.O.",
+    "7-26 白い月の騎士（7-26）": "7-26 Knight of the White Moon (7-26)",
+    "7-26「On the Vivid Clash Between the Knight of the White Moon and the Valiant Don Quixote」": "7-26 · On the Vivid Clash Between the Knight of the White Moon and the Valiant Don Quixote",
+    "白い月の騎士の外見": "The Knight of the White Moon appearance",
+    "白い月の騎士のスキル": "The Knight of the White Moon skills",
+    "The Knight of the White Moonの外見": "The Knight of the White Moon appearance",
+    "The Knight of the White Moonのスキル": "The Knight of the White Moon skills"
+  }
+}

@@ -1,0 +1,982 @@
+{
+  "kind": "boss-copy",
+  "id": "kim-satgat",
+  "source": "src/data/bosses/kim-satgat.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "怨恨",
+          "en": "Resentment",
+          "file": "Bufs-ycgd.json",
+          "id": "AaCePbBg"
+        },
+        {
+          "ja": "怨恨",
+          "en": "Resentment",
+          "file": "Bufs-ycgd.json",
+          "id": "AaCePbBh"
+        },
+        {
+          "ja": "結ばれゆくしこり",
+          "en": "Growing Resentment",
+          "file": "Bufs-ycgd.json",
+          "id": "Grudge"
+        },
+        {
+          "ja": "恨の宿った鞘",
+          "en": "Resentful Scabbard",
+          "file": "Passives_Abnormality-ycgd.json",
+          "id": "815301"
+        },
+        {
+          "ja": "剣舞",
+          "en": "Blade Dance",
+          "file": "Passives_Abnormality-ycgd.json",
+          "id": "815402"
+        },
+        {
+          "ja": "結ばれゆくしこり",
+          "en": "Growing Resentment",
+          "file": "Passives_Abnormality-ycgd.json",
+          "id": "815403"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815204"
+        },
+        {
+          "ja": "抜剣",
+          "en": "Draw of the Sword",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815301"
+        },
+        {
+          "ja": "切動",
+          "en": "Paralyzer",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815302"
+        },
+        {
+          "ja": "処断",
+          "en": "Slay",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815303"
+        },
+        {
+          "ja": "殺主",
+          "en": "Overthrow",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815304"
+        },
+        {
+          "ja": "骨断",
+          "en": "To Claim Their Bones",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815305"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815306"
+        },
+        {
+          "ja": "肉斬",
+          "en": "Yield My Flesh",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815307"
+        },
+        {
+          "ja": "骨断",
+          "en": "To Claim Their Bones",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815405"
+        },
+        {
+          "ja": "剣舞",
+          "en": "Blade Dance",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815408"
+        },
+        {
+          "ja": "骨断",
+          "en": "To Claim Their Bones",
+          "file": "Skills_Abnormality-ycgd.json",
+          "id": "815409"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9011004"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9011104"
+        },
+        {
+          "ja": "ねじれゆくキムサッガッ",
+          "en": "Distorting Bamboo-hatted Kim",
+          "file": "Enemies-ycgd.json",
+          "id": "8153"
+        },
+        {
+          "ja": "ねじれたキムサッガッ",
+          "en": "Distorted Bamboo-hatted Kim",
+          "file": "Enemies-ycgd.json",
+          "id": "8154"
+        },
+        {
+          "ja": "斬撃耐性弱化",
+          "en": "Slash Resist Down",
+          "file": "Bufs.json",
+          "id": "SlashResistDown"
+        }
+      ],
+      "note": "Names follow the paired Yield My Flesh to Claim Their Bones event records. The guide spelling 黒雲道 maps to 黒雲刀 / Kokuuntō, verified against passive 9101301 and its Slash Skill Final Power +1 effect. Lenticular Slash, Sharp Edge, Brutal Stab, Draw of the Sword, and Slay use the enemy records rather than same-named Identity skills. Normal story and dungeon variants, Shield amounts, Minus Coins, and temporary action-slot conditions are retained."
+    }
+  },
+  "scopedTerms": [
+    "雲斬り",
+    "鋭い刃",
+    "抉り出し",
+    "黒雲道",
+    "抜剣",
+    "処断",
+    "快刀乱麻"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "b788559824da7f8e289154254ca2ddfc8dde284e26b4887c6dbcf6b0d04c8eee",
+      "text": "Bamboo-hatted Kim (Distorting / Distorted)"
+    },
+    "shortName": {
+      "sourceHash": "aa423fa7500b55bcd538da6493660bdbb43bdfe03cd129b3bb79984b292546d7",
+      "text": "Bamboo-hatted Kim"
+    },
+    "stageName": {
+      "sourceHash": "5a8eab5eb0b77366a18ed326b961cc54df6d627ee36687c4d5dc0610138267f5",
+      "text": "Yield My Flesh to Claim Their Bones: 5.5-23 and the Final Battle of the Sword Demon's Mind"
+    },
+    "lead": {
+      "sourceHash": "cffc9d25be57efd697fb8fd9958d7852293745942b893078760b7e2790f16bde",
+      "text": "Lowering a Minus Coin enemy's SP can make it more dangerous. Use Slash and Pride damage to Stagger it, and arrange attacks to break the Shield before To Claim Their Bones."
+    },
+    "statNote": {
+      "sourceHash": "1ab3df0b4a39e52ae7ee2179d4c0fd94f807a744ca0672c8f749d3e7c2590728",
+      "text": "Separately covers Normal 5.5-23 and the 5.5-24 dungeon final battle. The dungeon version appears first. Hard, BokGak, and Mirror Dungeon HP values and extra buffs are excluded."
+    },
+    "skillNote": {
+      "sourceHash": "39c5a93bf705d66cbe8d67ebb3caa099699aab86b782432dd754528dc475b4ba",
+      "text": "Attacks, Evade, and Counters all use Minus Coins. Displayed Power ranges reflect Coins alone; see effects for To Claim Their Bones' Shield-dependent Clash Power buffs. Its area version and single-target version at 20% HP or lower are distinct skills."
+    },
+    "priorities.0": {
+      "sourceHash": "077b268e514e368914f47ed28e15083071e2eb2651c14edc41e37ad7975be427",
+      "text": "Aim for Level 40 and Uptie III or higher, prioritizing Slash and Pride. Sinking-focused teams can strengthen the enemy's Minus Coin skills."
+    },
+    "priorities.1": {
+      "sourceHash": "504e9c79d78ced567ffbc97864b230b1f3b76faf64de445e1b09e4ca53287639",
+      "text": "Offset Evade and attack before To Claim Their Bones to break its Shield: 50 in 5.5-23, 200 in the final battle."
+    },
+    "priorities.2": {
+      "sourceHash": "bdfae43dd7f9b5c5a2f7799e003ea9f6bc677ad358e5467503bc368c71327435",
+      "text": "Prepare to finish the final battle from around 20% HP. Concentrate strong skills and E.G.O during Stagger and the closing phase."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "0681638482cb6cbb23ea37ee1a920d829608b1d9980dbc13d2bf9c9d86452593",
+      "text": "Lowering the enemy's SP made it stronger"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "3b4f2346d553208d95c39d1f41d47c4da7c5b9d9ced94cd84e84b391f986fabe",
+      "text": "Minus Coins are stronger on Tails. The enemy also has unusual SP rules: winning clashes lowers his SP. Recover by removing Sinking, choosing winning clashes for your team, or Staggering him before he acts."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "55317421390fc3061e6d9be27dcf0c87e826a43a7ce7a31278838f549c0c1f38",
+      "text": "To Claim Their Bones is too powerful to beat"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "d9bb952f7334e7144a81014f77df21cc3760320b08ba992bef0375ce31ea8e9a",
+      "text": "Power rises if the Combat Start Shield remains until use. Break it with earlier attacks, then clash against the base maximum of 25 in 5.5-23 or 28 in the final battle."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8d9dc8b1ee123c7c93a0335d732043c4d59a58706228d2f94d946edaa7638200",
+      "text": "The attacks meant to break the Shield were Evaded"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "145c244015c0d1b0529fa61374a9cdf9be5a725b5202f2b1aac65b66c97efbe7",
+      "text": "Offset the enemy's Evade with a defense skill. Preparing only a Stagger handler and a finisher clash handler is insufficient if the earlier attacks are Evaded."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "6a721c0ab638782f9c96ee6517f72b1d8c1c0c7071ee874d28ddc9e067637ebe",
+      "text": "The enemy healed just before defeat"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "ccfe076179f092083f79ab010aa92c156468cbce00f2a7ee8fec2f284ed02374",
+      "text": "At 20% HP or lower in the final battle, patterns change to include an unredirectable To Claim Their Bones and a Counter. Assemble strong skills before 20% and finish him during Stagger."
+    },
+    "units.0.name": {
+      "sourceHash": "f3398da8bbc66d958446eccbd3caf3c19197d453b0cade2177aa1c6cc9005396",
+      "text": "Distorted Bamboo-hatted Kim (5.5-24)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "89ac415ba7cfceafeda2c6f9ff47af8de3176e4dab1499ad0eaae53caaf4d31e",
+      "text": "60% / 0% (928 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "cb1ff4eaffaad6ce6c9ecbb238dcd21a1519bcc31368c6a736fa19f717fe270a",
+      "text": "The Normal dungeon final battle, distinct from the Level 50, 2647-HP Hard version."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "92426115935ce80e8d8f862e2bb4f2f616da96910aff8ffd407cd5e8c60b02f6",
+      "text": "Patterns change at 20% HP (about 309) or lower. To Claim Their Bones has a 6-Attack-Weight area version and an unredirectable single-target version."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "3a732316b56457cb46bed8e27e7009adc64f2abe2770ef440d7703d5579d1869",
+      "text": "Build SP and E.G.O resources in the dungeon before entering. Check actual skills as well as the Stagger cycle."
+    },
+    "units.1.name": {
+      "sourceHash": "ef7f930e4ea5b023fa56cd5fb603b7854b19ae8a16bb481b2f7094889856de71",
+      "text": "Distorting Bamboo-hatted Kim (5.5-23)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "ae954be8b735bc997fe50e2c32e7a15abde513b2bc09bd1df89c81a9c3165717",
+      "text": "60% / 20% / 0% (565 / 188 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "28feb722e2c244e2abcc59472434b00efe93fd88fb3bda30fb4b9c013d90872f",
+      "text": "The regular stage before the dungeon. SP and resources must be built during the encounter."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "05a1f8feb49ba6421a0064f73b9a94cdae1e67e27e73c3d12f50a0509f6178c5",
+      "text": "Uses 5 attacks each turn plus Evade or Counter. To Claim Their Bones has 50 Shield here; do not confuse it with the final battle's 200."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "8451f7ebb6b4344e6e62bb3ecb1a4b8921967c3cad00f7bd98c364139143906c",
+      "text": "Enable your main Slash/Pride damage dealers"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "5ca9278c0c8a3c5d5540c146edcf1a3dbfa9f4b35428acd16da1ffd5d033e3b0",
+      "text": "Aim for Level 40 and Uptie III or higher. Both encounters resist Blunt, Lust, and Gloom; prioritize leveled Slash/Pride attackers."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "dc09921d226f9b445d00193b43599fc4d81491d495099fff4a03dbbf59a740e0",
+      "text": "Deploying 5 Sinners under the limit of 6 can give extra slots to the first deployed damage dealer. If reducing the team size, check that enough actions remain to Offset Evade and handle dangerous clashes."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "bc89ffe7de406512e33c61abdba1477693b66b8f3315bbdd4384507b6cb53fe8",
+      "text": "Prepare both an early Shield breaker and a later clash handler for To Claim Their Bones. Check actual attack order rather than only choosing fast Sinners."
+    },
+    "phases.1.timing": {
+      "sourceHash": "83f5713c066d64eca922dcb9180f223b55df3c9224ad53b1ffea9d080cd8b76d",
+      "text": "5.5-23 · Opening"
+    },
+    "phases.1.title": {
+      "sourceHash": "50ea9cb7c7c79df833db98ac38ad98474a4038cc65b138d1b02078a48ba3fa9c",
+      "text": "Build SP through Clashes you can win"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "b642ead7d997e17d4a0c2f5e247d6b2de9d7bbb69938e2b5f468ccaf2da2c0df",
+      "text": "Assign winning clashes such as Draw of the Sword to main attackers. Each clash your team loses lowers enemy SP and strengthens Minus Coins; avoid multiple clashes with little chance of winning."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "f5adc58af5ed2ed27d801a5c39cb506ecbd5ae57bad2946f1f691cefa80779e1",
+      "text": "Use defense or resistance against powerful attacks, Offset Evade, and damage the boss. Once the main team's SP rises, focus damage toward Stagger."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "7241a866ae1ceca2a4001062a4d412b01751328bbfb6272ecb3f23c5fb3b0a13",
+      "text": "Check Slash resistance and remaining HP on the first Sinner to trigger Yield My Flesh. Avoid having the initiating attack leave your main attacker Staggered by the Counter."
+    },
+    "phases.2.timing": {
+      "sourceHash": "30c417d6d95b972cbb088a62a046163c515e7a7a0e3889ba3a24c18ecfc52111",
+      "text": "5.5-23 · Turn 4 To Claim Their Bones"
+    },
+    "phases.2.title": {
+      "sourceHash": "00b4cd8240d6e623d59cdac89d514c590599bef85a758ab34b1dc1678b954369",
+      "text": "Remove 50 Shield with earlier attacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "862b199911c962a7128ceb2dca1619af89812e9335b1fc5a5677871b91c42419",
+      "text": "To Claim Their Bones gains 50 Shield at Combat Start. If any remains on use, Clash Power +5; break it with clashes or one-sided attacks that resolve before the skill."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "c2200eff0036ee9977759ce380f3c6783441e1292347ae2abdbfbd5e7f8e3e16",
+      "text": "Offset Evade so it does not stop earlier attacks. Prepare E.G.O or another skill that can beat the maximum of 25 after the Shield breaks."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "2d55e6365b231ad47d0d22b94936321df00802811b92457cefd825084ab0033c",
+      "text": "Staggering him before To Claim Their Bones acts is another option. Concentrate damage during Stagger, defeat him, and enter the dungeon."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f381d1a33c360cd4f1d187b5cda4a7e6b80624dc5d5cf78ed015779e315da1a7",
+      "text": "5.5-24 · Dungeon through final battle"
+    },
+    "phases.3.title": {
+      "sourceHash": "4e48abeeae091b829eb2465f9349fab140d341fc52b5983f8281506939b5a954",
+      "text": "Carry resources in and prepare for 200 Shield"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "49fbb6c5b03ea9a1f479fe1f5c7ed4aaec04fc6ee48953eb3bdefbe7205fc3f5",
+      "text": "Prepare HP, SP, and E.G.O resources before the final battle. Recheck resistance and To Claim Their Bones rather than treating it as the same enemy from the previous stage."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "978dc513cb3fd3c873d90d36c6bf9174bfa5c1cfa49246898fdab7f5189744f1",
+      "text": "The area To Claim Their Bones has 6 Attack Weight and 200 Shield; remaining Shield gives +10 Clash Power for a maximum of 38. Resolve several Shield-breaking attacks first, then stop it with the later clash."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "de27aad53cb114cc548c726fbe200463d109711516575a15a83e8aa5095ce5a2",
+      "text": "Exploit the ×2 Pride multiplier and Slash weakness to reach the 60% HP Stagger. Do not exhaust every finisher against weak attacks; save damage for Stagger too."
+    },
+    "phases.4.timing": {
+      "sourceHash": "8e8db501dc9e7ae2e1c96d12fe6b5efe5b15c44a20afb737adca1fb85a299978",
+      "text": "Final battle · Around 20% HP"
+    },
+    "phases.4.title": {
+      "sourceHash": "5ec5c30def71f2eafc2d0576e82a9a2b0495e9c8680f7bda7ef29fbc375a8adb",
+      "text": "Finish before the dangerous single-target version"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "99d9205d988d21769ed2472d530f674628c92e8887591bff5db0c2d9264c82f4",
+      "text": "At 20% HP or lower, Growing Resentment increases every turn and no longer expires at Turn End. The single-target To Claim Their Bones prioritizes low-HP Sinners and cannot be redirected."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "986ec03e3da457b0ff3ae4069e72d52fdae924a967269ee566f0cae4ae1b1c4e",
+      "text": "Finish from around 20% during Stagger or a turn with strong skills available. If follow-up damage is insufficient, also prepare healing for low-HP Sinners and Counter protection."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "6f6a148d1810d31dcfae79108264219d63bd09369c58dae4b064dce0b9332d05",
+      "text": "Allowing a kill doubles Growing Resentment and enables healing. Do not take dangerous clashes with weak attacks even when little enemy HP remains."
+    },
+    "skills.0.name": {
+      "sourceHash": "6431d7997a55ebe8a0b579545e5a94de54adb450443bc7ff2f804fbdab4150f7",
+      "text": "Draw of the Sword"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.0.response": {
+      "sourceHash": "6dddc66f0eeda62733b8ad5657eadfa3e59a7a4baf6e549837b6f8fbe4056c81",
+      "text": "2 Minus Coins with Base Power 8. Easier to beat than other opening attacks; use it to raise your main attackers' SP. Its on-use Poise is gained even if you win."
+    },
+    "skills.1.name": {
+      "sourceHash": "c217418bc4313acffb0b65ad86b9ac188367d726c9fa73245d1c04a09a6db77f",
+      "text": "Paralyzer"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "a16588c00d2f93f0bbc74a07956a8ee57fa1c5cf92a7750cfaf5a7323737ede3",
+      "text": "  [On Hit] Gain 1 Damage Up next turn"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "543ea94fae239a38f3e086ea6ec817b50b702801cf9c6c1a5748820fb18ef097",
+      "text": "  [On Hit] Inflict 1 Paralyze next turn"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "89346993e390a99b49bdc153b8563232e2135af2b4a2c1ddd1deab698899e3ea",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "543ea94fae239a38f3e086ea6ec817b50b702801cf9c6c1a5748820fb18ef097",
+      "text": "  [On Hit] Inflict 1 Paralyze next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "793f9a6b7f6da743aca96d3b57ad33c9256e7b94bc65fb99de11f5a2b9bedad9",
+      "text": "A 3-Coin attack stacking Bleed and next-turn Paralyze. If your team loses, enemy SP falls and the enemy strengthens further; consider defense or Staggering him first when unable to win."
+    },
+    "skills.2.name": {
+      "sourceHash": "ef8bc2b578a672b42f9e7d748d46c62cfc5d805545694d0ed87a1bb7760778d4",
+      "text": "Slay"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "92387e50590c359a2ae5937172f12b34bd12d7a65cf2705aca7666cdb0eda6f1",
+      "text": "[On Clash Win] Own Poise Count +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "41b9324fb5816199f19db5df38445c64f17486297289ac1bb9fb517d5a1cb556",
+      "text": "Ⅰ[On Hit] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a7db08d9ef3c9cf697c600960bb62fc35453414f5c27e33997c5ac88b30c3da5",
+      "text": "  [On Hit] Inflict 3 Bleed"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "adcad7180b1258a4096dfe903797aa6f96e242d1e2ea8f7e08e3a7c9e0c7c70a",
+      "text": "Ⅱ[On Hit] Gain 1 Slash Damage Up next turn"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "31ea519f85cfec69381837a182aaff2476489bcc3c3e0f7127df32f0cda40d47",
+      "text": "  [On Hit] Inflict 2 Slash Resist Down next turn"
+    },
+    "skills.2.response": {
+      "sourceHash": "8007aab356051d76998272500fa540e52d6d85f4a71f04d8c5745344cc0e5293",
+      "text": "Hits weaken Slash resistance, making later attacks more dangerous. Choose the handler from predictions including enemy Poise and buffs."
+    },
+    "skills.3.name": {
+      "sourceHash": "339643c4773b9ffb4a52d8db3ca085cec45c0e2b140927d848619ef499424438",
+      "text": "Overthrow"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "5d2fed38c14e5d0a3a54e35a5c6afdd3a94877ce796ff0c0f5e22630256f97b0",
+      "text": "[On Clash Win] Own Poise Count +3"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "58605fa6d796067bd51f680558f565b1087b2403ba8cb11fc485f14c94c698a0",
+      "text": "Ⅰ[On Hit] Gain 3 Poise and 1 Poise Count"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "ad0e9f329a154e01d37ab7ecd719798071ef84413f45d0fa1959faef7bea7a2f",
+      "text": "Ⅱ[On Hit] Gain 2 Slash Damage Up next turn"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "ea27ebcd1cfb07770552fc2355fd57ccf1734ee2e18534391c8291ade9af295a",
+      "text": "  [On Hit] Inflict 2 Slash Resist Down"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "b174faf4f248a1a11a2cac247423b1d980d4fd68e73b26c1d269ef167969d75f",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "f79183c752c10020cb405e6ed2ae82cd0724e77ecc18248b5756a6b21b9d0c1e",
+      "text": "  [On Hit] Inflict 2 Paralyze next turn"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "5de2d7d7ead16ca4836af457520e3e0d62c2412d0735fe93470ade93f47bf299",
+      "text": "  [On Heads Hit] Bleed Count +3"
+    },
+    "skills.3.response": {
+      "sourceHash": "41ac7d88281493572d588704c8f7b736fee98bbb66ab3d20fc78a258c90169af",
+      "text": "3 Minus Coins with heavy Bleed and Paralyze. Low SP favors high rolls; do not assign weak attacks based only on the win prediction."
+    },
+    "skills.4.name": {
+      "sourceHash": "11cc4a45380407aee2490e383e70914d0788de5605c86acffce61f8f1360cd04",
+      "text": "To Claim Their Bones"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "1c6ae7e5703251b6e8f046890564f95b5ac1cbf5cb6a48036ee4b528998ad663",
+      "text": "[Combat Start] Gain 50 Shield"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "28d3e071dab4277e620418abdc579171cfde9980662b995cb72a69233cfec11e",
+      "text": "[On Use] If any Shield remains, Clash Power +5"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "74bac365844e5d186f89e3770c0a17499e6e984d4888473605816f99ab5f3925",
+      "text": "Ⅰ[On Hit] Inflict 3 Slash Resist Down"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "732ebce8a04df09ff049791e98e69509503bfea6f01328653a54439b0a316d06",
+      "text": "ⅡCritical damage +100%"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "54c181e84f84487d42df5c02cd6d379800e4f0490deb2cb4e45f2ced89732fff",
+      "text": "  [On Hit] Inflict 10 Bleed and increase Bleed Count by 2"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "2c12e1526eed7e27ca9855d55647660c8b3cb6125c8bfe93aa5bf7e4c2f740a2",
+      "text": "Ⅲ[On Hit] If any Shield remains, deal fixed damage to each target equal to Growing Resentment divided by Attack Weight"
+    },
+    "skills.4.response": {
+      "sourceHash": "c9c15d6e525bd9e9dc437ee396e9e1140c83ae06909fd9b7b3793c55b552a2cb",
+      "text": "The 5.5-23 area attack. With 50 Shield remaining, +5 Clash Power raises its maximum to 30. Resolve other clashes or one-sided attacks first to break the Shield, or stop it by Staggering him."
+    },
+    "skills.5.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "f77d9b50fc97ea0d212241602d9a3b230cbd2634bea262799ecbf64fee52ef91",
+      "text": "[On Evade] Gain 4 Poise"
+    },
+    "skills.5.response": {
+      "sourceHash": "f37637bc40fd58cdb582b7a56f6e9a1bfeffad03fe16bc2dbfd95450ccb39457",
+      "text": "Despite the displayed range of 4–12, this Minus Coin skill has Base Power 12. Offset it with a defense skill so Shield-breaking attacks are not Evaded."
+    },
+    "skills.6.name": {
+      "sourceHash": "e1d22a954cccbbac61149f60259900148cbd70f940dc223e68115a3e2e490f19",
+      "text": "Yield My Flesh"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "af2ad84f3de7d311c1fc178e10090d7a17ab1190232a62d179aaabca1928acf9",
+      "text": "Gain Growing Resentment equal to the damage taken from the skill that triggered this Counter"
+    },
+    "skills.6.response": {
+      "sourceHash": "80555da58373da501a6c2639d934dbf15acca19402f844083e850979e9544b3f",
+      "text": "An ordinary Counter that retaliates one-sidedly after being hit. Check Slash resistance and Stagger thresholds on the first attacker; do not lead with an ally near death."
+    },
+    "skills.7.name": {
+      "sourceHash": "6431d7997a55ebe8a0b579545e5a94de54adb450443bc7ff2f804fbdab4150f7",
+      "text": "Draw of the Sword"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.7.response": {
+      "sourceHash": "6dddc66f0eeda62733b8ad5657eadfa3e59a7a4baf6e549837b6f8fbe4056c81",
+      "text": "2 Minus Coins with Base Power 8. Easier to beat than other opening attacks; use it to raise your main attackers' SP. Its on-use Poise is gained even if you win."
+    },
+    "skills.8.name": {
+      "sourceHash": "c217418bc4313acffb0b65ad86b9ac188367d726c9fa73245d1c04a09a6db77f",
+      "text": "Paralyzer"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "a16588c00d2f93f0bbc74a07956a8ee57fa1c5cf92a7750cfaf5a7323737ede3",
+      "text": "  [On Hit] Gain 1 Damage Up next turn"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "543ea94fae239a38f3e086ea6ec817b50b702801cf9c6c1a5748820fb18ef097",
+      "text": "  [On Hit] Inflict 1 Paralyze next turn"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "89346993e390a99b49bdc153b8563232e2135af2b4a2c1ddd1deab698899e3ea",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "543ea94fae239a38f3e086ea6ec817b50b702801cf9c6c1a5748820fb18ef097",
+      "text": "  [On Hit] Inflict 1 Paralyze next turn"
+    },
+    "skills.8.response": {
+      "sourceHash": "793f9a6b7f6da743aca96d3b57ad33c9256e7b94bc65fb99de11f5a2b9bedad9",
+      "text": "A 3-Coin attack stacking Bleed and next-turn Paralyze. If your team loses, enemy SP falls and the enemy strengthens further; consider defense or Staggering him first when unable to win."
+    },
+    "skills.9.name": {
+      "sourceHash": "ef8bc2b578a672b42f9e7d748d46c62cfc5d805545694d0ed87a1bb7760778d4",
+      "text": "Slay"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "92387e50590c359a2ae5937172f12b34bd12d7a65cf2705aca7666cdb0eda6f1",
+      "text": "[On Clash Win] Own Poise Count +1"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "41b9324fb5816199f19db5df38445c64f17486297289ac1bb9fb517d5a1cb556",
+      "text": "Ⅰ[On Hit] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "a7db08d9ef3c9cf697c600960bb62fc35453414f5c27e33997c5ac88b30c3da5",
+      "text": "  [On Hit] Inflict 3 Bleed"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "adcad7180b1258a4096dfe903797aa6f96e242d1e2ea8f7e08e3a7c9e0c7c70a",
+      "text": "Ⅱ[On Hit] Gain 1 Slash Damage Up next turn"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "31ea519f85cfec69381837a182aaff2476489bcc3c3e0f7127df32f0cda40d47",
+      "text": "  [On Hit] Inflict 2 Slash Resist Down next turn"
+    },
+    "skills.9.response": {
+      "sourceHash": "8007aab356051d76998272500fa540e52d6d85f4a71f04d8c5745344cc0e5293",
+      "text": "Hits weaken Slash resistance, making later attacks more dangerous. Choose the handler from predictions including enemy Poise and buffs."
+    },
+    "skills.10.name": {
+      "sourceHash": "339643c4773b9ffb4a52d8db3ca085cec45c0e2b140927d848619ef499424438",
+      "text": "Overthrow"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "5d2fed38c14e5d0a3a54e35a5c6afdd3a94877ce796ff0c0f5e22630256f97b0",
+      "text": "[On Clash Win] Own Poise Count +3"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "58605fa6d796067bd51f680558f565b1087b2403ba8cb11fc485f14c94c698a0",
+      "text": "Ⅰ[On Hit] Gain 3 Poise and 1 Poise Count"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "d90d4be7d17226d4777221563a21562710fb48dd997f96670708f15fd9624c67",
+      "text": "  [On Hit] Bleed Count +1"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "ad0e9f329a154e01d37ab7ecd719798071ef84413f45d0fa1959faef7bea7a2f",
+      "text": "Ⅱ[On Hit] Gain 2 Slash Damage Up next turn"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "ea27ebcd1cfb07770552fc2355fd57ccf1734ee2e18534391c8291ade9af295a",
+      "text": "  [On Hit] Inflict 2 Slash Resist Down"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "b174faf4f248a1a11a2cac247423b1d980d4fd68e73b26c1d269ef167969d75f",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "f79183c752c10020cb405e6ed2ae82cd0724e77ecc18248b5756a6b21b9d0c1e",
+      "text": "  [On Hit] Inflict 2 Paralyze next turn"
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "5de2d7d7ead16ca4836af457520e3e0d62c2412d0735fe93470ade93f47bf299",
+      "text": "  [On Heads Hit] Bleed Count +3"
+    },
+    "skills.10.response": {
+      "sourceHash": "41ac7d88281493572d588704c8f7b736fee98bbb66ab3d20fc78a258c90169af",
+      "text": "3 Minus Coins with heavy Bleed and Paralyze. Low SP favors high rolls; do not assign weak attacks based only on the win prediction."
+    },
+    "skills.11.name": {
+      "sourceHash": "189f7c78a6ee8d3ed491a99116741ff005e426dcc6bd4e04e48cbf92b5e9aa73",
+      "text": "To Claim Their Bones (area)"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "f6987ef2de95fe530ecfe7af4106cb7a10a4584c3770476f24137ce1194c1ffc",
+      "text": "[Combat Start] Gain 200 Shield"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "eeb676d8c4a208069029129f74460915e1a299e3a3ff70dfebd2f34e876a0c54",
+      "text": "[On Use] Own Poise Count +3"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "4148c660dca39380adadb9f905a382740360bedff1e1a11fd250b557cf7fded0",
+      "text": "[On Use] If any Shield remains, Clash Power +10"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "74bac365844e5d186f89e3770c0a17499e6e984d4888473605816f99ab5f3925",
+      "text": "Ⅰ[On Hit] Inflict 3 Slash Resist Down"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "732ebce8a04df09ff049791e98e69509503bfea6f01328653a54439b0a316d06",
+      "text": "ⅡCritical damage +100%"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "d4c93d95ea1fc6359a3feb6885a2c45b600acde391d4fee0ad88cd3e12d39d68",
+      "text": "  [On Hit] Inflict 5 Paralyze next turn"
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "54c181e84f84487d42df5c02cd6d379800e4f0490deb2cb4e45f2ced89732fff",
+      "text": "  [On Hit] Inflict 10 Bleed and increase Bleed Count by 2"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "2c12e1526eed7e27ca9855d55647660c8b3cb6125c8bfe93aa5bf7e4c2f740a2",
+      "text": "Ⅲ[On Hit] If any Shield remains, deal fixed damage to each target equal to Growing Resentment divided by Attack Weight"
+    },
+    "skills.11.response": {
+      "sourceHash": "8574da3fd3b982c7be33197e92be168a2dbb467f07cf314be83976b99de07ee3",
+      "text": "The dungeon finale's area attack has 6 Attack Weight and reaches a maximum of 38 with its 200 Shield remaining. Break the Shield with earlier attacks, remove the bonus, then clash with a powerful skill."
+    },
+    "skills.12.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "f77d9b50fc97ea0d212241602d9a3b230cbd2634bea262799ecbf64fee52ef91",
+      "text": "[On Evade] Gain 4 Poise"
+    },
+    "skills.12.response": {
+      "sourceHash": "f37637bc40fd58cdb582b7a56f6e9a1bfeffad03fe16bc2dbfd95450ccb39457",
+      "text": "Despite the displayed range of 4–12, this Minus Coin skill has Base Power 12. Offset it with a defense skill so Shield-breaking attacks are not Evaded."
+    },
+    "skills.13.name": {
+      "sourceHash": "e1d22a954cccbbac61149f60259900148cbd70f940dc223e68115a3e2e490f19",
+      "text": "Yield My Flesh"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "af2ad84f3de7d311c1fc178e10090d7a17ab1190232a62d179aaabca1928acf9",
+      "text": "Gain Growing Resentment equal to the damage taken from the skill that triggered this Counter"
+    },
+    "skills.13.response": {
+      "sourceHash": "80555da58373da501a6c2639d934dbf15acca19402f844083e850979e9544b3f",
+      "text": "An ordinary Counter that retaliates one-sidedly after being hit. Check Slash resistance and Stagger thresholds on the first attacker; do not lead with an ally near death."
+    },
+    "skills.14.name": {
+      "sourceHash": "59f2918b73c7f259f854561d44830f5abf882a83651448f018ffbbd00cff0af8",
+      "text": "Blade Dance"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "f1961be9ba9198d8b5eed7f318c55d9f4fbdcf2133fbab96a4f89efe0231ce5e",
+      "text": "[On Kill] Gain 3 Offense Level Up and 3 Defense Level Up next turn"
+    },
+    "skills.14.response": {
+      "sourceHash": "8e0423f7d00b714abcbf1047f8e47344a5a4cc45fa80e551bbf1aec7f290f19d",
+      "text": "A Counter used at 20% HP or lower. Killing an ally also raises the enemy's Offense/Defense Levels; concentrate damage on a turn when you can finish him."
+    },
+    "skills.15.name": {
+      "sourceHash": "82ad281477abd1fcb92546ec07af4da69b44b3f4f642c14a26aff15e98a1cabf",
+      "text": "To Claim Their Bones (20% HP or lower)"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "bad1b7b8d3d758fee12f8791ec67de419f79b4dfb36188d61e5d5636c626e002",
+      "text": "Prioritize the target with the lowest current HP."
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "550dda062bf1cbf8313ea7e9b69b19ad570750a8672c205ba883a75e3c4f2edc",
+      "text": "[On Kill] Double Growing Resentment"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "13418188e5c737d6760a359eeb81b68b85cecc117f20876d4e88fe7f0f41f088",
+      "text": "[On Kill] Heal HP equal to Growing Resentment"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "5ff039649639abbc52b0888b5c0d17f96c1e8a1af8b4f9811b0346c708ef91a3",
+      "text": "Ⅲ[On Hit] Deal fixed damage equal to Growing Resentment"
+    },
+    "skills.15.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.15.response": {
+      "sourceHash": "99d6cf9ec20321f192a08107cbb39cddcf15b934684638ac722b7d4ffc14e851",
+      "text": "An unredirectable single-target attack prioritizing low-HP Sinners. Fixed damage and on-kill healing can restore the fight in his favor; aim to Stagger and finish him from just above 20% HP."
+    },
+    "passives.0.name": {
+      "sourceHash": "1926e3344ec0f0e4ffaeb7634cb931d0d56a21cb8fdb3533af5aa63bf611a64c",
+      "text": "Resentful Scabbard"
+    },
+    "passives.0.effect": {
+      "sourceHash": "6ff8a77ce6012d3198234c6e2a02b79817ef88ae04271071cab7bc4278c0798f",
+      "text": "At Turn Start, gain Growing Resentment if To Claim Their Bones is in an attack slot. Remove Growing Resentment at Turn End"
+    },
+    "passives.0.condition": {
+      "sourceHash": "c6e1e9659b194e58b817aa50eae80f6ca24d90cb1e127f228f2187c95d961d94",
+      "text": "Turns with To Claim Their Bones in an attack slot"
+    },
+    "passives.0.response": {
+      "sourceHash": "c3c5a2b16caae4252a34e5986d37a617c85f35d8e937c37d053394b87e39834e",
+      "text": "Damage taken builds Growing Resentment for To Claim Their Bones' fixed damage. Do not let the finisher hit with Shield remaining."
+    },
+    "passives.1.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.1.effect": {
+      "sourceHash": "104ce78eb7012878b3b60eccc7274538f0e7620e86ca9e7d45eb3fc60e763f35",
+      "text": "Effects that would change Panic Type do not change it. Instead, apply the effects intended for targets without SP."
+    },
+    "passives.1.condition": {
+      "sourceHash": "2d6fafe614bcdf4c7771061aed908dc9016d081fe2fa47a4c574270d581d9495",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.1.response": {
+      "sourceHash": "b1c96d093c2c7cd73ec56bd256025848bea1080f2c6ec230c622ab153965ff8c",
+      "text": "Replacing Panic type is unavailable. Remember that lowering SP does not weaken this enemy in the usual way."
+    },
+    "passives.2.name": {
+      "sourceHash": "1926e3344ec0f0e4ffaeb7634cb931d0d56a21cb8fdb3533af5aa63bf611a64c",
+      "text": "Resentful Scabbard"
+    },
+    "passives.2.effect": {
+      "sourceHash": "6ff8a77ce6012d3198234c6e2a02b79817ef88ae04271071cab7bc4278c0798f",
+      "text": "At Turn Start, gain Growing Resentment if To Claim Their Bones is in an attack slot. Remove Growing Resentment at Turn End"
+    },
+    "passives.2.condition": {
+      "sourceHash": "c6e1e9659b194e58b817aa50eae80f6ca24d90cb1e127f228f2187c95d961d94",
+      "text": "Turns with To Claim Their Bones in an attack slot"
+    },
+    "passives.2.response": {
+      "sourceHash": "c3c5a2b16caae4252a34e5986d37a617c85f35d8e937c37d053394b87e39834e",
+      "text": "Damage taken builds Growing Resentment for To Claim Their Bones' fixed damage. Do not let the finisher hit with Shield remaining."
+    },
+    "passives.3.name": {
+      "sourceHash": "59f2918b73c7f259f854561d44830f5abf882a83651448f018ffbbd00cff0af8",
+      "text": "Blade Dance"
+    },
+    "passives.3.effect": {
+      "sourceHash": "1229f88dc05def78d354dc290a08f07adbbd0f0ecc6008ca05496288c678bc05",
+      "text": "At 20% HP remaining, change patterns.\nAt 20% HP or lower, gain 20 Growing Resentment each turn starting next turn. Growing Resentment is no longer removed."
+    },
+    "passives.3.condition": {
+      "sourceHash": "0044c1068731aaf411bf163375b10c0c2de50dca889e3117b35ddba87fe12aeb",
+      "text": "20% HP or lower"
+    },
+    "passives.3.response": {
+      "sourceHash": "19d33650b08ab8933a77a7a9c300c9e0cf066319aabcba9c7c248e7f46c85867",
+      "text": "Growing Resentment now increases every turn and no longer expires. Finish during Stagger or concentrate powerful attacks on the same turn."
+    },
+    "passives.4.name": {
+      "sourceHash": "b0aeb301872f5fcc5ffbb687dc9d3e5bface1d37b95be60f9535084f5966b7ff",
+      "text": "Growing Resentment"
+    },
+    "passives.4.effect": {
+      "sourceHash": "b1db7feac78faa955274c2748abb199f72b8e0be7ca23227a5011ba91fbbd5cf",
+      "text": "When taking Sinking damage, gain 1 Defense Level Down next turn (5 times per turn)"
+    },
+    "passives.4.condition": {
+      "sourceHash": "cddfcc012f3fe3d3ad15ab4664c72cdc63d312f8e0b6a09cf5f861cef9605c21",
+      "text": "Taking Sinking damage"
+    },
+    "passives.4.response": {
+      "sourceHash": "66e4b31530d9fb9eb311c7e4f9a3f50dd1cbbad47ad786ea26769527e85a336b",
+      "text": "The Defense Level reduction comes with the downside of strengthening Minus Coin attacks through lower SP. Stacking Sinking alone does not make this encounter favorable."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "af46b16dc2e36e190eb09bf5daca7d07650e33651761c8ed05dbc47c19910b42",
+      "text": "When gaining a buff that changes Panic type, the Panic type stays unchanged. Apply the effects intended for targets without SP instead"
+    },
+    "passives.5.condition": {
+      "sourceHash": "2d6fafe614bcdf4c7771061aed908dc9016d081fe2fa47a4c574270d581d9495",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.5.response": {
+      "sourceHash": "b1c96d093c2c7cd73ec56bd256025848bea1080f2c6ec230c622ab153965ff8c",
+      "text": "Replacing Panic type is unavailable. Remember that lowering SP does not weaken this enemy in the usual way."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "b0aeb301872f5fcc5ffbb687dc9d3e5bface1d37b95be60f9535084f5966b7ff",
+      "text": "Growing Resentment"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "d28f525e2edbc6578af825bc092388613e4d7e9c091e0fecd6d33e7a65a58df9",
+      "text": "While active, stores damage taken for To Claim Their Bones' fixed damage. Normally expires at Turn End; at 20% HP or lower in the finale, gains 20 every turn and stops expiring."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9bea12df1433754146743c1a39b2d1ed579903398e925bf4ba9cdbd9a747699d",
+      "text": "Prevent the finisher from hitting with Shield remaining, then focus damage to avoid a prolonged closing phase."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "2d2adb0084614d2e22943a4fedfa1252871b7fd61ffd8016ae305ddee8a64af3",
+      "text": "Resentment"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "880fce901fcee319906c52497d4d25be1ac2946061a4842bba7f56cc78db8491",
+      "text": "Unusual SP rules: losing clashes raises the enemy's SP; winning clashes lowers it. Minus Coins tend to roll higher at lower SP."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "aaccc2a8413f859ff0cf59352f3cb90468f9e1ccc925489e4aacf204bc792653",
+      "text": "Avoid pushing the enemy to low SP through Sinking or clashes your team loses."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "293aa17421e4a93b84d26d8f91c34435cd7eee1c7a75e1b0f39833ef452df8cd",
+      "text": "To Claim Their Bones' Shield"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "243e9e7a78ac5de3b9114cd13e6c035ef974a3e644b4a5dd1042ea0ba3b38b41",
+      "text": "Gained at Combat Start; strengthens clashes if still present on use. First encounter: 50 / +5. Final battle's area version: 200 / +10."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "32664c5496683d1d8c266107023c96f1e4ed3dee71150bcc5356abc24912eed5",
+      "text": "Arrange other attacks to remove it before the To Claim Their Bones clash begins."
+    },
+    "warnings.0": {
+      "sourceHash": "a242b0bfba05684701611597a2027d922d87b4196195a5168f6a1a28e58f4d36",
+      "text": "A single Sinking user does not make the fight impossible, but an entire Sinking team amplifies the disadvantage against Minus Coins."
+    },
+    "warnings.1": {
+      "sourceHash": "e55d0cd0caefb1f97695dd349e467a5e47498d2da76bc29342fd101ef45d8547",
+      "text": "Evade also uses Minus Coins. Do not assume its low displayed minimum means it is easy to beat."
+    },
+    "warnings.2": {
+      "sourceHash": "b3eeba4d4c983c0e8a60a9f0fbf4659e32e53d7ddf4e0fc49dffcac6e8427d54",
+      "text": "Making only the finisher clash handler too fast can start the clash before the Shield breaks. Always check attack order."
+    },
+    "warnings.3": {
+      "sourceHash": "102c11ae0b8fa15fee86924a6017c74b46b5709662cee9acefcee290b083b0c3",
+      "text": "5.5-23, the finale, Normal, Hard, and Mirror variants have different values. This page covers the Normal story encounters."
+    },
+    "preparation.0": {
+      "sourceHash": "9575ba5c5b400fb1b92c56de09364dcb41817878866901a3ae566830449121e5",
+      "text": "Aim for Level 40 and Uptie III or higher with Slash/Pride damage dealers. If a Blunt-focused team lacks damage, review attack types too."
+    },
+    "preparation.1": {
+      "sourceHash": "8bd2e4ae1b73703f3e20c4d5ce9a15bc18eba3fa52d6b8e58dd91656ca97fdd6",
+      "text": "Prepare Shield-breaking damage, an Evade Offset, and powerful skills or E.G.O to clash against To Claim Their Bones."
+    },
+    "preparation.2": {
+      "sourceHash": "dc375a6649241d7b803894d1c99850343f93b2bb04331daaf5b042b009e44034",
+      "text": "Use dungeon resources and Gifts in the finale. No solo strategy or specific Gift is required; start with a team that can Stagger the boss using your available main attackers."
+    },
+    "roles.0.name": {
+      "sourceHash": "3028cbbf9fa96c0dc30c52f794cab80758ab7c69426565c233bce6119c929fa3",
+      "text": "Slash/Pride damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9e8059dd0a2e1933a0f6ab1bb508f96c1cc1cf3f69ca43b301d076238c61f5aa",
+      "text": "Damage the boss and Shield, then progress from Stagger to defeat. Adjust deployment order if using fewer Sinners."
+    },
+    "roles.1.name": {
+      "sourceHash": "4b75d539e4deb9e9d97b08f4552dddf736372b0e158ecb26b8da2859816787ef",
+      "text": "Evade Offset handler"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0a24f47abfd03aed70e98de9be478079456be4610b0ffab389b943725b18ffc0",
+      "text": "Enable Shield-breaking attacks and preserve the intended attack order."
+    },
+    "roles.2.name": {
+      "sourceHash": "83646b74f08085eec1c5e55a14d68fbec051edc6d052e3b6f1517d477a4ed49c",
+      "text": "Finisher clash handler"
+    },
+    "roles.2.reason": {
+      "sourceHash": "af22872bb1d1843ebefae5607e6291bb99201c8c604a9776e4f707f513d28304",
+      "text": "Stop To Claim Their Bones after breaking the Shield; also prepare for late Counters and unredirectable attacks."
+    }
+  },
+  "messages": {
+    "boss-copy:kim-satgat": "complete",
+    "【リンバス】5.5-24 キムサッガッ（ねじれゆく・ねじれた）の攻略｜Limbus Assistant": "5.5-24 Bamboo-hatted Kim (Distorting / Distorted) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5.5-24「キムサッガッ（ねじれゆく・ねじれた）」の攻略。減算コインの敵には、精神力を下げるほど不利になることがある。斬撃・傲慢の火力で混乱を狙い、骨断の前にバリアを割る攻撃順を作ろう。": "Bamboo-hatted Kim (Distorting / Distorted) guide for Limbus Company 5.5-24. Lowering a Minus Coin enemy's SP can make it more dangerous. Use Slash and Pride damage to Stagger it, and arrange attacks to break the Shield before To Claim Their Bones.",
+    "5.5-24 キムサッガッ（ねじれゆく・ねじれた）": "5.5-24 Bamboo-hatted Kim (Distorting / Distorted)",
+    "5.5-24「Yield My Flesh to Claim Their Bones: 5.5-23 and the Final Battle of the Sword Demon's Mind」": "5.5-24 · Yield My Flesh to Claim Their Bones: 5.5-23 and the Final Battle of the Sword Demon's Mind",
+    "ねじれたキムサッガッ（5.5-24）の外見": "Distorted Bamboo-hatted Kim (5.5-24) appearance",
+    "ねじれたキムサッガッ（5.5-24）のスキル": "Distorted Bamboo-hatted Kim (5.5-24) skills",
+    "Distorted Bamboo-hatted Kim (5.5-24)の外見": "Distorted Bamboo-hatted Kim (5.5-24) appearance",
+    "Distorted Bamboo-hatted Kim (5.5-24)のスキル": "Distorted Bamboo-hatted Kim (5.5-24) skills",
+    "ねじれゆくキムサッガッ（5.5-23）の外見": "Distorting Bamboo-hatted Kim (5.5-23) appearance",
+    "ねじれゆくキムサッガッ（5.5-23）のスキル": "Distorting Bamboo-hatted Kim (5.5-23) skills",
+    "Distorting Bamboo-hatted Kim (5.5-23)の外見": "Distorting Bamboo-hatted Kim (5.5-23) appearance",
+    "Distorting Bamboo-hatted Kim (5.5-23)のスキル": "Distorting Bamboo-hatted Kim (5.5-23) skills"
+  }
+}

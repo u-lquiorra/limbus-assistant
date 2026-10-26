@@ -1,0 +1,1081 @@
+{
+  "kind": "boss-copy",
+  "id": "sancho",
+  "source": "src/data/bosses/sancho.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodDinner"
+        },
+        {
+          "ja": "硬血",
+          "en": "Hardblood",
+          "file": "Bufs-a1c7p3.json",
+          "id": "BloodArmor"
+        },
+        {
+          "ja": "夢心地の中のためらい",
+          "en": "Dreamy Hesitation",
+          "file": "Bufs-a1c7p3.json",
+          "id": "Dreamy"
+        },
+        {
+          "ja": "サンチョ",
+          "en": "Sancho",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8380"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837205"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999996"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838107"
+        },
+        {
+          "ja": "耳を傾けて聞いてしまった物語と胸の高鳴り",
+          "en": "The Enthralling Tales, the Beating Passion",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838001"
+        },
+        {
+          "ja": "この忌々しい病から逃れられるなら",
+          "en": "If we can be freed from this excruciating sickness",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838002"
+        },
+        {
+          "ja": "私も冒険をしても良いのだろうか",
+          "en": "Can I go on an adventure, too?",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838003"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838004"
+        },
+        {
+          "ja": "硬血",
+          "en": "Hardblood",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838005"
+        },
+        {
+          "ja": "夢心地",
+          "en": "In Dreams",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838006"
+        },
+        {
+          "ja": "しかし父母様がいらっしゃって、家族がいて、目を背けられない",
+          "en": "But I have my Father and my Family whom I cannot abandon",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838007"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015404"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017505"
+        },
+        {
+          "ja": "崩す",
+          "en": "Topple",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838001"
+        },
+        {
+          "ja": "傷を付ける",
+          "en": "Wound",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838002"
+        },
+        {
+          "ja": "血喜",
+          "en": "Sanguine Joy",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838003"
+        },
+        {
+          "ja": "血の歓喜",
+          "en": "Ecstasy of Blood",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838004"
+        },
+        {
+          "ja": "ドンキホーテ流硬血4式 - 抉り抜き",
+          "en": "Don Quixote Hardblood Arts 4 - Sundering",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838005"
+        },
+        {
+          "ja": "ドンキホーテ流硬血11式 - 掘り穿つ",
+          "en": "Don Quixote Hardblood Arts 11 - Impaling",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838006"
+        },
+        {
+          "ja": "ドンキホーテ亜流サンチョ4式 - 追跡",
+          "en": "Variant Don Quixote Style: Sancho Arts 4 - Track",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838008"
+        },
+        {
+          "ja": "ドンキホーテ亜流サンチョ3式 - 奇襲",
+          "en": "Variant Don Quixote Style: Sancho Arts 3 - Ambush",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838009"
+        },
+        {
+          "ja": "ドンキホーテ亜流サンチョ2式 - ラ・サングレ",
+          "en": "Variant Don Quixote Style: Sancho Arts 2 - La Sangre",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838010"
+        },
+        {
+          "ja": "ラ・アベントゥラ・ア・テルミナード",
+          "en": "La Aventura Ha Terminado",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838011"
+        },
+        {
+          "ja": "ドンキホーテ流硬血4式 - 抉り抜き",
+          "en": "Don Quixote Hardblood Arts 4 - Sundering",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "841007"
+        },
+        {
+          "ja": "ドンキホーテ流硬血2式 - 硬血",
+          "en": "Don Quixote Hardblood Arts 2 - Hardblood",
+          "file": "Skills_Abnormality-a1c7p3.json",
+          "id": "838007"
+        },
+        {
+          "ja": "揺らぎ【血鬼】",
+          "en": "Shimmering【Bloodfiend】",
+          "file": "Bufs-a1c7p3.json",
+          "id": "SwirlingBlood"
+        }
+      ],
+      "note": "Guide spelling variants are resolved against paired Canto VII records. The guide alias for Shimmering is matched to SwirlingBlood by its Shield persistence, 5 Bleed retaliation, and 3 Fragile effects. The guide spellings for Hardblood and Blood Armor both refer to the localized BloodArmor status, Hardblood. Original guide conditions and numeric values are retained."
+    }
+  },
+  "scopedTerms": [
+    "血の乾き",
+    "飢えと老衰",
+    "第2眷属の揺らぎ"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "61a2b20c6d1d207b596db00d8db27326ca14a12d13c1672543631ea62ae55bbf",
+      "text": "Sancho (Canto VII)"
+    },
+    "shortName": {
+      "sourceHash": "d352ffd16d747d76953612f9480ef880caddaf4850ba854b10bf2ec83283aea1",
+      "text": "Sancho"
+    },
+    "stageName": {
+      "sourceHash": "b9cc1e3fca75fb37325b4cf6618388fc423f031fce071f8d0a849fe3e072c2d6",
+      "text": "To Reach the Dream: Merry-Go-Round"
+    },
+    "lead": {
+      "sourceHash": "254e9d0dd5431df74f7ec9a61fa190e10708fe1e1d48cd83ad4d1121a8470585",
+      "text": "Behavior changes at 80%, 60%, and 40% HP. Prepare for the Speed 10 Unbreakable attack, and win Clashes to limit damage and lifesteal through each phase."
+    },
+    "statNote": {
+      "sourceHash": "f96299c331a72e79d442e5f62256c8f9aa8a723799121176ff3b8bc9d3a3be8d",
+      "text": "Sancho in the Canto VII dungeon, separate from the Canto VII.5 LCB Regular Checkup and Mirror Dungeon versions. Dreamy Hesitation lowers Offense Level by 35 from base Lv.85. Its description says Defense Level −35, but the actual reduction is 34; displayed Defense Level uses −34. Additional buffs from Hardblood and lost HP vary separately."
+    },
+    "skillNote": {
+      "sourceHash": "aaaf64d053dc7a8cc398e2941a6386c54fa6ca6216c26c9d0176b786a72a4332",
+      "text": "Listed Power is before conditional bonuses. Bloodfeast, Hardblood, and Bleed alter Power and Attack Weight. Check each skill's Hardblood consumption conditions against the actual status display. Unbreakable Coins still attack and apply On Hit effects after you win a clash."
+    },
+    "priorities.0": {
+      "sourceHash": "99894bee664767e30c4a295e85982a27796b6920178d07ff9af039862b3a5466",
+      "text": "6 deployed Sinners plus 5 reserves. Don Quixote is unavailable; prepare your main attackers, recovery, and high-Power clashers using other Sinners."
+    },
+    "priorities.1": {
+      "sourceHash": "3ef5f3650c4305c2892d74c171917232e1f1adcf7cccf6f64c5bfa6b9d277b3b",
+      "text": "The turn after an HP boundary brings a big attack at 10 Speed. Prepare healing and resistances first, then win the clash to reduce Unbreakable damage and suppress HP drain."
+    },
+    "priorities.2": {
+      "sourceHash": "a7c9449b8500a02f660c885f4216654df0b20aa052cc0496a15c40503a26f3f0",
+      "text": "Watch for the enemy's recovery at −15 SP or below in the opening. Save E.G.O that can beat La Aventura Ha Terminado at 45 SP in the final phase."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "67ebef93590c3cf3b2b9c3d90f0a9229b4179c02a82d436d5479c5eb77fd90e0",
+      "text": "Enemy SP suddenly recovered despite early clash wins"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "0c30e9d3a9558a0c715c0b928cb1e3900844503b23a4e3c03c2a68f100be06a2",
+      "text": "If at −15 SP or below at Turn Start, she consumes Bloodfeast to recover to 20 SP and gains 2 Clash Power Up. Sanguine Joy also restores SP On Use. Recheck next turn's predictions."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "5556242de75f5d0a339708e4aa3139346011f52b6351b5c03cde0c2258437ae5",
+      "text": "Heavy Bleed despite winning the clash"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "2d9ef46ee598278e9297639eb50e88ae036739a9bcb1a53a96f468d32c0ea800",
+      "text": "Phase-transition attacks have Unbreakable Coins. Winning suppresses HP drain and some damage, but remaining hits still inflict Bleed. Heal before big attacks and check Bleed damage from subsequent actions."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "0aa1e077eb3a618359446c094503ce5f9e67db0fe85d11645d8c2ad54b277cf7",
+      "text": "She recovered from Stagger and immediately used a big attack"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "4fb521f56cc1097fcd9e6d2bae45d146496d2812f5579ee33bb11c15beb72ad1",
+      "text": "At 80%, 60%, and 40% HP, she clears Stagger and changes phase. Prepare for crossing a boundary even while she is Staggered, and for 10 Speed next turn."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "98063bf4b54b4a56096e225338405774748a18059925001b8659b1d6151b41b1",
+      "text": "Unable to beat the late single-Coin attack"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "af9af24680664fc1315decc39c699e6ad8971b40acfd2dbfae9e005cad579ddb",
+      "text": "La Sangre inflicts Paralyze On Use, while La Aventura Ha Terminado restores SP to 45. Prepare high-Base-Power E.G.O or earlier debuffs; do not assign a clasher by listed Power alone."
+    },
+    "units.0.name": {
+      "sourceHash": "d352ffd16d747d76953612f9480ef880caddaf4850ba854b10bf2ec83283aea1",
+      "text": "Sancho"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.speed": {
+      "sourceHash": "75639afaabd1ea2564146e9b0892d7593208f51714375f2301d720c065a77f2d",
+      "text": "1–2 / increases with Hardblood / 10 next turn after a phase change"
+    },
+    "units.0.stagger": {
+      "sourceHash": "2cdcba548f7cf36cefe1940ffeb027839ca6f15c234bab8d766c6ed537d98dbe",
+      "text": "85% / 70% / 50% / 0% (2235 / 1841 / 1315 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "3d6915509255052822622dc73606c7b3e34d4e9046418204270629f59717ee60",
+      "text": "HP stops decreasing at 80%, 60%, and 40% (2104 / 1578 / 1052), clearing Stagger and advancing to the next pattern. These boundaries are separate from Stagger Thresholds."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1b6d7ef48e40b680bdc20d68ca2c27ee2c751753a7ae3137ebb0d8ffca675e59",
+      "text": "Starts with 400 Bloodfeast and 1 Hardblood. Strengthened by Bloodfeast, Hardblood, her own Bleed, and lost HP."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "ece15a4dfb280e74a7a618ad490235121924c5164e9fb9260572f79b2b33102e",
+      "text": "Unlike Canto VII.5, the encounter does not end simply after 10 turns or a special attack. Deplete her HP to finish."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "f1f8e9e6e5d7502151223117dc027bd19cbc7d1f68f0cf3900498390e5f034e9",
+      "text": "Prepare main attackers, recovery, and reserves without Don Quixote"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "e2280f20974dce22ccd9b8eed54ee3d619b0ea3a33bd867ee7029b1d14beef88",
+      "text": "Aim for Lv.50 and Uptie III or higher, with HP and SP recovery and high-Power E.G.O. Don Quixote is unavailable; do not rely on her healing or team effects."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "6ed32babed86e30fd870fd27875c042fda00705c03c17400ad1bf69c152da365",
+      "text": "Bring 6 Sinners and up to 5 reserves. Check reserve development and order so replacements can enter next turn if Unbreakable Bleed wears down the main team."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "69490243672006cf636efa06158b8da36ac3a3fbb21f69985df5e55a33cc229a",
+      "text": "Pierce and Lust are effective. Sloth and Gloom damage face resistance; consider attack affinities when choosing from your developed roster."
+    },
+    "phases.1.title": {
+      "sourceHash": "f947b563da72e773a41b10d8350f28edc36ce1f74dd42099cb77a5e5cb959291",
+      "text": "Plan the opening around the SP-recovery condition"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "753d43ea6d5aa50871843caabdcba9fcf6f780207f5831902338ab70188ae00e",
+      "text": "At Turn Start, the enemy recovers if at −15 SP or below and gains 2 Clash Power Up. From an initial 0 SP, making her lose 4 or more opening clashes can easily meet that condition. Judge by current SP."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "14187904db911ca0563c7f43e5e423af6c25f48f77c4791b66c691b7c5e86553",
+      "text": "With sufficient HP, you can receive some weaker first-turn attacks with Defense Skills and limit clashes to around 3. Do not force low-HP allies to take hits."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "6af877bd89527a3d3fccb777a859b60f6a24a0c3d71d55e30d9ab4666f1d0308",
+      "text": "Include Sanguine Joy's On Use recovery in predictions and build allied SP. The Stagger at 85% HP is cleared by the phase change at 80%."
+    },
+    "phases.2.timing": {
+      "sourceHash": "d3d7b633a2ccca65d83a89395acf6c693fdafa7e20a2925ed3bae4d4813aead3",
+      "text": "80% HP boundary / Ecstasy of Blood"
+    },
+    "phases.2.title": {
+      "sourceHash": "de8056816110f2dc8d89dd0124056df9a08d93f447f8d646222b41a6b8e331ff",
+      "text": "Heal beforehand and prepare for Unbreakable attacks"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "bbf17a31f1cbbb73577275bef9d3c53a6479533b20eec8e0b7b1860fb407f38e",
+      "text": "HP stops falling near 2104; next turn she uses Ecstasy of Blood at 10 Speed. Allied Bleed activates at Combat Start, so winning the clash alone cannot prevent that HP loss."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "77bac3916c1d4b2c6e0f5f3b1ebca37e07a1ca40fd149af848f99be76eda03c7",
+      "text": "All 3 Coins are Unbreakable. Win to suppress HP drain, and withstand remaining hits and Bleed with resistances and prior healing. The turn ends after the attack, so slower healing scheduled that turn cannot act."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "8f0d2a0faffacfe1a729d92920146fe327afac665070299bf4e0d812f4626252",
+      "text": "When regular actions resume, assign Sinners with little Bleed to Sundering and Impaling. Prevent Impaling's repeated Bleed activation."
+    },
+    "phases.3.timing": {
+      "sourceHash": "02e25a163b0bee3571c8de792bf4cbb1ab38fe28b95016500f290e6e22bb7f8e",
+      "text": "60% HP boundary / Hardblood"
+    },
+    "phases.3.title": {
+      "sourceHash": "708e4f328d7e9e0e882f2f225bd570a2436f38b1d2b61f5df21900127bdad3b4",
+      "text": "Beat the area attack and deplete the Shield"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "ce4edd6216803f8826be8b6d1106f73d00df32fb2c5acd8703cd74b8bb864b79",
+      "text": "The turn after reaching around 1578 HP brings Don Quixote Hardblood Arts 2 - Hardblood at 10 Speed. Attack Weight 6 and all 4 Coins are Unbreakable; prepare the whole team's HP beforehand."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "6af6cc8265829e27967af27ac5844324d24bdfd04024ccda5f6de171a38d7ec3",
+      "text": "Winning halves the skill's damage and prevents Stagger from that damage. It does not make Bleed or other effects harmless."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "9570315f0c61b25cda75a57d7ea4ec4bc8f97576776985972ec3efebe34e4a32",
+      "text": "At Combat Start, Sancho gains 500 Shield and Shimmering【Bloodfiend】. The Shield does not expire at Turn End, and attackers receive Bleed. Deplete it while checking their Bleed Count and HP."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "6b074be0baea29893e4e717a6d87fbea0654582676c7091d2d5e1955f5a0f377",
+      "text": "Regular patterns add Track and Ambush. Targeting the Sinner with the most Bleed increases range and Power; redirect to someone with less Bleed when possible."
+    },
+    "phases.4.timing": {
+      "sourceHash": "41df3b0c2cf27980ec40b8276d906bcd98aec1ae36b6de8b5d28ef30986db9a5",
+      "text": "40% HP boundary / La Sangre"
+    },
+    "phases.4.title": {
+      "sourceHash": "77c0ea09cadcbca44a909a1e1c07ffd4aaffc441fbcadf4e353a60db2989cf48",
+      "text": "Account for Paralyze and use high Base Power"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "c1a1f7c92dbf6135184e4f6abf2c17609bef9007df4e6abf80ca1a53f9b8b4d1",
+      "text": "The turn after reaching around 1052 HP brings La Sangre. It can be clashed with regardless of Speed, but a condition inflicts 1 Paralyze on both participants On Use."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "58d11f97c3da84acc8f7c99b2242e1ec76a401499f08314ef34a59d91e6797a8",
+      "text": "Prefer E.G.O with high Base Power over single-Coin skills relying only on Coin Power. Check its +5 Clash Power from Bloodfeast or self-damage too."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "fa0ff5b8507239532d0828dff7e98050f5fc033db37ecbc733e1799129322041",
+      "text": "Prepare for the Unbreakable hit and the turn ending after the attack. Time healing and defenses to act soon enough, and protect Sinners with heavy Bleed."
+    },
+    "phases.5.timing": {
+      "sourceHash": "9188978e79b37f64adc82d8ffa806301e9dc87995fc14e6e57f01c9f9e8f45a9",
+      "text": "Regular cycle below 40% HP"
+    },
+    "phases.5.title": {
+      "sourceHash": "5639c5f55da68150b1e84e6a9f4ee3a1cd5806c7a3febc3807e153c955b0197e",
+      "text": "Stop La Aventura Ha Terminado and focus follow-up damage"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "93249b81323a20218ebd161097b85afdc6cc0678fa87b3ae500e085cc57dc616",
+      "text": "The final cycle uses La Aventura Ha Terminado once every 3 turns. It restores SP to 45 at Combat Start; low prior SP does not mean a weak attack."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "02bb45127d128a9037fb9e94358389222043bd1b078c230de65266fd31026ce5",
+      "text": "Aim to win with strong E.G.O. Its Unbreakable hit still inflicts Bleed, but winning prevents this passive's HP drain and the additional Bleed on enemy Clash Win."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "b7e8d2bb4d1058f569b19c2fb28266055260ce6a018bc9e93ffe5a04ca6a8070",
+      "text": "Unlike phase-transition attacks, this skill has neither fixed 10 Speed nor an After Attack turn ending. Use earlier debuffs or focus follow-up attacks to finish her."
+    },
+    "skills.0.name": {
+      "sourceHash": "b83ffaa628bfa06d71e19c4db4acabdd3bf852f610e3aa124db138c33829438c",
+      "text": "Topple"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "5407dbbcb457127cc29d2fc62b30d414363928887f2307e4080ba83a03f7e651",
+      "text": "[On Use] Consume 10 Bloodfeast and gain 1 Hardblood."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "4eca1dfa620b5cbd6c08fab6e7daffdb4493a59111fb26544201411724a2a121",
+      "text": "[On Use] Coin Power +1 per 10 Hardblood (max 2)."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "d78deb65fa597151e346541c648bcb7ff09454039e15c118da28cf8a7a0c06d3",
+      "text": "[On Use] Coin Power +1 per 15 Bleed on self (max 3)."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "b876ef5c8cd6f7c16ca30177306304985ae05209602c607fcac81d487ff85eba",
+      "text": "Base maximum is 11, but Hardblood and her own Bleed raise Coin Power. Check current buffs and allied HP when deciding how many opening clashes to take."
+    },
+    "skills.1.name": {
+      "sourceHash": "ce0692c97875a96ca99694a305e6937b0499a3e6bf6a010e975b3efca46deeaf",
+      "text": "Wound"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "93c90cfd3de10d2716c3cd9e008546fae6e4c8ba4db240a1dad1ed3e318ab073",
+      "text": "[On Use] Consume up to 20 Bloodfeast; gain 1 Hardblood per 10 consumed."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "4eca1dfa620b5cbd6c08fab6e7daffdb4493a59111fb26544201411724a2a121",
+      "text": "[On Use] Coin Power +1 per 10 Hardblood (max 2)."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "d78deb65fa597151e346541c648bcb7ff09454039e15c118da28cf8a7a0c06d3",
+      "text": "[On Use] Coin Power +1 per 15 Bleed on self (max 3)."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "ded79b8d5e0fda6e322920bb5f85e1692686db1763ae26885b83e6c1cd069b99",
+      "text": "Increases Bleed Count, enabling later Bleed activation and big-attack Power conditions. Protect main combatants with heavy Bleed."
+    },
+    "skills.2.name": {
+      "sourceHash": "871e9134985ffda92044f2c9a497ff2d85e2ee2bc00164539e511934d9ead003",
+      "text": "Sanguine Joy"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "d9163171ceca764ae72a852f1baa8d48ca993db099c30d3cc8cd06123b61881f",
+      "text": "[On Use] Consume 4 Hardblood and heal 10 SP."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9a4ca34f0ee5a9b1e2c965ac65c2546a3542f85e4424ad2a938b8ee136d3087e",
+      "text": "[On Use] Consume 10 Bloodfeast, gain 1 Hardblood, and heal 10 SP."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "81e475b5e66121fd137cadd4cf477f9e5c2686e0fce26e14da7312ac08f0eb23",
+      "text": "- If unable to consume Bloodfeast, gain 3 Bleed."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "aa6347e0158aaddbbcbc11fca122eb03c9ea82dedb68ba453288276658c12c5d",
+      "text": "Ⅰ[On Hit] Damage +10% per 1 Bleed on the target (max 100%)."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "70b078f619a5d6fab2a463e0ce6834ccc64bca95248ba02c898870ad3bf9405c",
+      "text": "　[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.2.response": {
+      "sourceHash": "17e842271cb2a971862a864a1215225e6eb050934c99396b6a64f292eae6608d",
+      "text": "Winning a clash cannot prevent On Use SP recovery. Do not assign a weak skill solely because enemy SP was low; include her recovered Heads chance in the prediction."
+    },
+    "skills.3.name": {
+      "sourceHash": "fd6e5d9c3c44b9f56d784fe731124e85b003877e4c1580ef3b5139f27468f449",
+      "text": "Ecstasy of Blood"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "78a484378f1b1ea56aeba9094f342ab9e374dd1bbb1fb3bce1e5d869d9adced4",
+      "text": "Can be clashed with regardless of Speed."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "36782409edccbd4cb1dd999d3e08763e37abda7743d896670ebb294d14f6bdfb",
+      "text": "[Combat Start] If any enemy has Bleed, activate all enemies' Bleed and reduce Bleed Count by 2."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "4b564e8e291318876c9b042b5b688fdea9cbb03d9ba62c2b0f1b2e1eb6a914b5",
+      "text": "[On Use] If the Combat Start effect did not activate, gain 30 Bleed."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "cf76610e2dfd1c6ec6d1e17571bbd7ac6ac4ae8648bdd609348cee5a6832ff9d",
+      "text": "[Clash Win] Consume up to 40 Bloodfeast; gain 1 Hardblood and +25% damage per 10 consumed (max 100%)."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "c1156c8f5d1b4e686079f2f7254a34bcd3b20033d6e393f636ec1be2091f78d3",
+      "text": "- If unable to consume Bloodfeast, gain and activate 5 Bleed, then reduce Bleed Count by 2."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "07ca3f96560c4cb3adcd37d0dcb683f9fedc6cd22300993c635d6a86372eddf3",
+      "text": "[After Attack] End this turn."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "8c2f6ffe7efa7e98d0ea5af0656a2ef6a06c9465eaa04eb0ebc572d16966ce89",
+      "text": "　[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "8c2f6ffe7efa7e98d0ea5af0656a2ef6a06c9465eaa04eb0ebc572d16966ce89",
+      "text": "　[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.response": {
+      "sourceHash": "45b3ea092ea9c17d7b330f9db0847c5607d4561a540074e4606431cfefbe6dd9",
+      "text": "Activates allied Bleed at Combat Start. You should still win the clash, but all 3 Coins are Unbreakable; prepare for hits and additional Bleed. Healing after this attack is too late because it ends the turn."
+    },
+    "skills.4.name": {
+      "sourceHash": "9011d411f940b729d146f0ee97b2e214c92eb8d71870ccf0b9d0a4bf9e8cb320",
+      "text": "Don Quixote Hardblood Arts 4 - Sundering"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "327bac3caa18afd777ab2d51392ff9bd4c71c5ced4f073a9f1f5f194a1abeb3d",
+      "text": "[Clash Win] This skill's damage +20% per Hardblood stage (max 60%)."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "545cd340bbcd025afa425ff9d9ab36c618fa1266d482508d5912c13042295b63",
+      "text": "[Clash Lose] Consume 4 Hardblood and gain 20 Shield HP."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "a304e82b78b8fca98f018a558d3d659534b01f811c68c5943e941071a64adcf8",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.4.response": {
+      "sourceHash": "0d88ef475aced605a90fe02b80ca2fe19c6063e7e82c0a53870871e260175df2",
+      "text": "Gains Coin Power against allies with at least 6 Bleed. Winning consumes the enemy's Hardblood, but she gains a small Shield; account for the follow-up damage needed."
+    },
+    "skills.5.name": {
+      "sourceHash": "928474102127acd29db7a77c7fd832feaa9f2e600fa4356ae704832cd532568d",
+      "text": "Don Quixote Hardblood Arts 11 - Impaling"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "317c3a38a8e389ee5565a4b223a3f733b6cc47550d627d420669c8a8d805a009",
+      "text": "[On Use] Base Power +1 per 3 Bleed on the target (max 3)."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "327bac3caa18afd777ab2d51392ff9bd4c71c5ced4f073a9f1f5f194a1abeb3d",
+      "text": "[Clash Win] This skill's damage +20% per Hardblood stage (max 60%)."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "545cd340bbcd025afa425ff9d9ab36c618fa1266d482508d5912c13042295b63",
+      "text": "[Clash Lose] Consume 4 Hardblood and gain 20 Shield HP."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "424c500fb64bfa68c7d9ddb9139abaaa545f5679b135dbc0231ca55983f6c226",
+      "text": "Ⅲ[On Hit] Activate the target's Bleed as many times as its Count; consume Bleed Count down to 1."
+    },
+    "skills.5.response": {
+      "sourceHash": "694615a7d98d61bbd7ee3325e2fdbe647db2edf41bd21a98ef138e4edbe635eb",
+      "text": "More target Bleed means higher Base Power, and the final hit activates Bleed repeatedly. Intercept with a Sinner who has little Bleed and prevent the hit."
+    },
+    "skills.6.name": {
+      "sourceHash": "a042aabd8cddac2cbf87fba478d0442a134ad89c12befa0951866b78610a7b77",
+      "text": "Don Quixote Hardblood Arts 2 - Hardblood"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "78a484378f1b1ea56aeba9094f342ab9e374dd1bbb1fb3bce1e5d869d9adced4",
+      "text": "Can be clashed with regardless of Speed."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "d6351a0a099d23ca0ccdb67d3c95cc8a9c7363d45f8e6d886813f20c03b63745",
+      "text": "[Combat Start] Consume 200 Bloodfeast; gain 500 Shield HP, 5 Hardblood, and 1 Shimmering【Bloodfiend】."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "d9052e60deb9c1470cc28e478d24bbe2057f0f61c28e02ea88c405a56ef5b9cc",
+      "text": "- If Bloodfeast is insufficient, gain and activate 50 Bleed, then reduce Bleed Count by 2. Gain 500 Shield HP, 5 Hardblood, and 1 Shimmering【Bloodfiend】. This damage cannot reduce HP below 1."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "31dc8ddb3ee2a626a57295c119ffb1c2adbcda0df8c285584ed7494640f0775a",
+      "text": "[Clash Win] Gain 200 Shield HP."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "513dfee0c5266b725f2698d0c40d522d1aac49db0cfe30b94160fabae494ef4b",
+      "text": "[Clash Lose] Gain 3 Fragile while the Shield gained by this skill remains."
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "b4e82cfceff2d1eb2afd4b8b26a8b08b4f5d746fab29588a24d2a4040f005822",
+      "text": "[Clash Lose] Damage −50%; targets cannot be Staggered by this skill's damage."
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "07ca3f96560c4cb3adcd37d0dcb683f9fedc6cd22300993c635d6a86372eddf3",
+      "text": "[After Attack] End this turn."
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.6.effects.11": {
+      "sourceHash": "20b7e653559d2db9a25eaf6201363cce9dfe33f16ae156ed16d7eef7c9c150fd",
+      "text": "　[On Hit] Inflict 5 Bleed and increase Bleed Count by 3."
+    },
+    "skills.6.response": {
+      "sourceHash": "0827a753a13f5fe3ce38dae3c033896d10615f591a46f95a0b88bd5f175035eb",
+      "text": "Attack Weight 6, with all 4 Coins Unbreakable. Winning halves damage and prevents Stagger from this skill's damage. It does not prevent death from Bleed; prepare healing and resistances beforehand."
+    },
+    "skills.7.name": {
+      "sourceHash": "ab45fb9633795cb516664bb599f1434f0b07298cf00efc40cb476ad6df9969e8",
+      "text": "Variant Don Quixote Style: Sancho Arts 4 - Track"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "38056a97c733ef9c1d98b24197fb5a5607628e99470edf03da99699d3c1cc89e",
+      "text": "Prioritizes the target with the most Bleed."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "32fecfd218bbb698523a1ac6ed1a83982590f01a3595c5b1640abe5e464aa5d1",
+      "text": "[On Use] If targeting the unit with the most Bleed, Attack Weight +2 and Clash Power +3."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "8781061342b560303d58cff654cc5885915db3705db6985b52a463b1d5efde49",
+      "text": "[On Use] Consume up to 30 Bloodfeast; gain 1 Hardblood and +1 Coin Power per 15 consumed (max 2)."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "9ce78c72fca7462cf52e1fc83d494710fd6cd2d728aa41487e7513661ac41456",
+      "text": "- If unable to consume Bloodfeast, gain and activate 10 Bleed, then reduce Bleed Count by 1."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "55bf93027387b0163387738bee396145919f861169ddb57ae4bdee8af9463514",
+      "text": "[After Attack] Increase Bloodfeast by this skill's damage dealt."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "aa75fb50bdf5320b54aec0f0b7939127aeabdf26c4ef81a3334feae25c85f4be",
+      "text": "Ⅰ[On Hit] Inflict 8 Bleed."
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "2d4bfaf9a6a77e71314b4b1a4972748b4d3689945143e22384b4c8b170d5f792",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "c038302c7ead50f1884da29798ba6a550a6711e3f7acdbc56243b5a2336d812b",
+      "text": "　- If this skill consumed 30 Bloodfeast, inflict 2 additional Bind."
+    },
+    "skills.7.response": {
+      "sourceHash": "0f4bb71df77f9f0bf0f0f508047d7e2ed30916156d5e95cba824d6a6aecb0b36",
+      "text": "Against the target with the most Bleed, Attack Weight +2 and Clash Power +3. Check whether a fast ally can redirect it to someone with less Bleed. Bloodfeast consumption also boosts Coin Power."
+    },
+    "skills.8.name": {
+      "sourceHash": "5a300b22e9e3ed4ff01cbf73f47210c8121343acab657cf0d11e318d4fc41c1d",
+      "text": "Variant Don Quixote Style: Sancho Arts 3 - Ambush"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "38056a97c733ef9c1d98b24197fb5a5607628e99470edf03da99699d3c1cc89e",
+      "text": "Prioritizes the target with the most Bleed."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "32fecfd218bbb698523a1ac6ed1a83982590f01a3595c5b1640abe5e464aa5d1",
+      "text": "[On Use] If targeting the unit with the most Bleed, Attack Weight +2 and Clash Power +3."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "054e4e5374e8e256a36a1e8ab68b9e32a3372aaecb4ed23042a3560ee74a90fe",
+      "text": "[On Use] Consume up to 50 Bloodfeast; gain 1 Hardblood and +1 Base Power per 10 consumed (max 5)."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "9ce78c72fca7462cf52e1fc83d494710fd6cd2d728aa41487e7513661ac41456",
+      "text": "- If unable to consume Bloodfeast, gain and activate 10 Bleed, then reduce Bleed Count by 1."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "55bf93027387b0163387738bee396145919f861169ddb57ae4bdee8af9463514",
+      "text": "[After Attack] Increase Bloodfeast by this skill's damage dealt."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "0610cb9195b445507ada6596dc7169c705f0bb3d4ac45039a99bf304587eea2a",
+      "text": "Ⅲ[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "2e1e627dd99475b060354c872962c0467774b3c776152921e79d0d8de76975a7",
+      "text": "　- If this skill consumed 50 Bloodfeast, inflict 2 additional Paralyze."
+    },
+    "skills.8.response": {
+      "sourceHash": "f4c154b758080e5513efc3b401d7c3b8bccfcd7cc8cda307d73f056922b5407c",
+      "text": "Gains range and Clash Power against the target with the most Bleed. The condition checks On Use, so Bleed expiring during the clash may not prevent the bonus."
+    },
+    "skills.9.name": {
+      "sourceHash": "944ac421e87edf8aaa9fa81deea51b0e434243401159302c2580a2944718c1a3",
+      "text": "Variant Don Quixote Style: Sancho Arts 2 - La Sangre"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "78a484378f1b1ea56aeba9094f342ab9e374dd1bbb1fb3bce1e5d869d9adced4",
+      "text": "Can be clashed with regardless of Speed."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "c1ab149c822d48912e996725b0a54039d4b899b6b667dd5b288bf9d9759c4c08",
+      "text": "[On Use] Consume 50 Bloodfeast; inflict 1 Paralyze on the target and self."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "296a5e32581fa66faa71281c5e26fc299f85389796f59e44db1da1b78bd0b544",
+      "text": "[On Use] Consume 100 Bloodfeast; Clash Power +5."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "2f53bf12c8b8d65605f70dd9776a871e41fe35c65624063004e09090def189b1",
+      "text": "If Bloodfeast is insufficient, consume 100 own HP for +5 Clash Power."
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "07ca3f96560c4cb3adcd37d0dcb683f9fedc6cd22300993c635d6a86372eddf3",
+      "text": "[After Attack] End this turn."
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "730728526e7ce5c40670a99c98e7d0c56f06ac3ce729ba8ddd60d34e36b91dbd",
+      "text": "　[Heads Hit] Inflict 8 Bleed."
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "02cda1760463b676bbba008fcb8ba24499655851f60f6256db51fb0a0e7fb690",
+      "text": "　[Heads Hit] Heal HP equal to damage dealt."
+    },
+    "skills.9.response": {
+      "sourceHash": "54c46bb70ac6c82c8941688b40865ab41ab484c57050885942a3e7b1dbd1e9dc",
+      "text": "With Bloodfeast, inflicts 1 Paralyze on both sides On Use. Choose high-Base-Power skills or E.G.O over single-Coin attacks relying on Coin Power. Prepare for the remaining Unbreakable hit too."
+    },
+    "skills.10.name": {
+      "sourceHash": "995fa867a9b5984971e487c26caf7e60aef7b4d0f2962bc5cbc168b93ec009ce",
+      "text": "La Aventura Ha Terminado"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "345ce77c8d7e082e45f5e54c69ec540d6651cd1400e8c4d67a78df8d3c66d7b3",
+      "text": "[Combat Start] Consume Bloodfeast equal to (45 − current SP) to heal SP to 45. This damage cannot reduce HP below 1."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "f7e46e05fecd60b71269676430d01decab0e3e7ab137761a93c392f73c93553b",
+      "text": "- If Bloodfeast is insufficient, consume own HP equal to (45 − current SP) to heal SP to 45. This damage cannot reduce HP below 1."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "c1446d3cd9df45aebf655cd2ed56f42c93d92244e45d52069835332652390f73",
+      "text": "Gain Shield HP equal to remaining Bloodfeast (max 100)."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "c4f5cb4f66348a80e0da7f373282f545f7907351444ecc0787515199bd4f8855",
+      "text": "[Clash Win] Inflict 10 Bleed on the target."
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "cbb033a9949da5613020e24f470a6912cf1cff739df1f985d6357fbc6f36ef0a",
+      "text": "[Clash Lose] Consume 100 Bloodfeast."
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "95c8f450db1974f7def2d1e15eeadad8e46ed775149c4e47c5e505bcd23c6272",
+      "text": "[After Attack] Increase Bloodfeast by damage dealt."
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "dcea2e06650179f1dac478374443545cdea1baefff97d404741755080d689230",
+      "text": "　[On Hit] Damage +10% per 1 Bleed on the target (max 200%)."
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "0868ca9d7b799fa26973bdd23065cb67d88d2185b7510607a86f5bbab9fd2c03",
+      "text": "　[On Hit] Damage +10% per 1 Bloodfeast (max 100%)."
+    },
+    "skills.10.effects.9": {
+      "sourceHash": "70b078f619a5d6fab2a463e0ce6834ccc64bca95248ba02c898870ad3bf9405c",
+      "text": "　[On Hit] Inflict 3 Bleed and increase Bleed Count by 2."
+    },
+    "skills.10.response": {
+      "sourceHash": "7b5dbdd893542900909ae2e4dc2de9f3769c59f1b42412cbb61844799d2339d5",
+      "text": "Restores SP to 45 at Combat Start, then uses an Unbreakable attack with a maximum of 26. Save high-Power E.G.O that can win. Unlike phase-transition attacks, it has no fixed 10 Speed or turn ending, allowing earlier Paralyze or focused follow-up damage."
+    },
+    "passives.0.name": {
+      "sourceHash": "7a9257b9122c3acde9b031dc5bec9759d545949239ee17aadb58c0032a2ac14c",
+      "text": "The Enthralling Tales, the Beating Passion"
+    },
+    "passives.0.effect": {
+      "sourceHash": "f47a843d8fb94ad0abd34fa1bcec2a8bcfeabcb00cd252303a31835c25e2a76f",
+      "text": "At 80%, 60%, and 40% HP, HP stops falling and the pattern changes. On the change, clear Stagger and set next turn's Speed to 10."
+    },
+    "passives.0.condition": {
+      "sourceHash": "7c715894557fa1d7c458180a6c6da82353b1e0d802193beabaa8c0913a2bd9d0",
+      "text": "Reaches 80% / 60% / 40% HP"
+    },
+    "passives.0.response": {
+      "sourceHash": "91f995456b973aec2911cef90586198aa564d30eaec6c0aafbb483bbcd7c8b52",
+      "text": "HP loss stops at the boundary and Stagger is cleared. Prepare for next turn's big attack at 10 Speed; do not waste every strong attack on the boundary."
+    },
+    "passives.1.name": {
+      "sourceHash": "4afdccf0e415dfef118b9339c97f721aab33253867270637c77b3c9e947c5dbd",
+      "text": "In Dreams"
+    },
+    "passives.1.effect": {
+      "sourceHash": "f535143b1c9d120afad8f6bae10a0ba57dbbcff9f97b395aaab20308dafb3f01",
+      "text": "At Combat Start, gain Dreamy Hesitation. Reveal latent blood scattered across the battlefield and gain 400 Bloodfeast."
+    },
+    "passives.1.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.1.response": {
+      "sourceHash": "adedcde119d5c19cb30341b3f321c8df816a8a1ac3e83dcace38863f3722f76b",
+      "text": "She does not attack at unmodified base Lv.85. Distinguish initial level reductions from later Hardblood and other buffs."
+    },
+    "passives.2.name": {
+      "sourceHash": "48f28c66d804f929b0850d6d9510155805773448e76bbfb6de0dd2d971603e12",
+      "text": "But I have my Father and my Family whom I cannot abandon"
+    },
+    "passives.2.effect": {
+      "sourceHash": "48baff9cc1492349655bd253304c5c0b6d805d0c78f408b77d14303c74311fff",
+      "text": "At Turn End, if Panicked, recover from Panic, consume 100 Bloodfeast, and gain 3 Attack Power Up. If unable to consume Bloodfeast, gain 30 Bleed, 3 Attack Power Up, and 2 Damage Up."
+    },
+    "passives.2.condition": {
+      "sourceHash": "390373ae2e9d8b71e78e645579b8b75b62a09ecaffe02b2c372dbf8c42c4c92f",
+      "text": "Panicked at Turn End"
+    },
+    "passives.2.response": {
+      "sourceHash": "5c819b9eeca325660acd7f5cade389ed8ed3eb3a8240f0d238ffbf41e0a7836f",
+      "text": "Gains attack buffs after recovering from Panic. SP reduction alone cannot keep her disabled for long."
+    },
+    "passives.3.name": {
+      "sourceHash": "c51a1545f9d527d3425d4b1954e35995bde8391ce096469bf4585bbdb20238f0",
+      "text": "If we can be freed from this excruciating sickness"
+    },
+    "passives.3.effect": {
+      "sourceHash": "11ffadf65b8a0158f0e2cf5f1c8b3e8337510bd282fbc83d83efac9be4490b60",
+      "text": "On attack hit against a target with Bleed, heal overall and part HP by 40% of HP damage dealt. Own Bleed Potency adds 1% to this passive's healing per 1 Potency (max 20%). Does not activate on Unbreakable hits after losing a clash.\nAt Turn Start, heal own HP by Bloodfeast ÷ 10 (max 50). If at −15 SP or below, consume Bloodfeast equal to (20 − own SP) to recover SP and gain 2 Clash Power Up.\nOn defeating an enemy, gain 5 Hardblood."
+    },
+    "passives.3.condition": {
+      "sourceHash": "1e6416e8bd49b6c127ec7b1c89408a5a21644f4b3268f3cb8322a5288f1426cf",
+      "text": "On Hit / Turn Start / Sinner kill"
+    },
+    "passives.3.response": {
+      "sourceHash": "1a8e2c7853cf221412f5782a3ab7c5d00f95bc277d415d7346b75974a35b8d6a",
+      "text": "Watch for Turn Start recovery at −15 SP or below. Winning prevents this passive's HP drain from remaining Unbreakable hits."
+    },
+    "passives.4.name": {
+      "sourceHash": "cc0a8adcb1f7578dd34669ec1a5c4ba4e8e1060bd21542ce074e5a8e7384135d",
+      "text": "Can I go on an adventure, too?"
+    },
+    "passives.4.effect": {
+      "sourceHash": "5fe56d9839629466e0b28c73f88df4a6690effec1fbaf383c6da0b7dba84fadb",
+      "text": "At Turn End, gain 1 Offense Level Up per 10% max HP lost (max 5). At Turn End, minimum and maximum Speed +1 next turn per 300 Bloodfeast."
+    },
+    "passives.4.condition": {
+      "sourceHash": "736dcc3537d3d891a0afc63764cdae254de94dd42c6acd06507028274847d1f7",
+      "text": "HP lost and Bloodfeast at Turn End"
+    },
+    "passives.4.response": {
+      "sourceHash": "fcb85d5399ab543c0c9d1b8f0a2144efba1f4164dfe1c85d7c951c4db84bfd80",
+      "text": "Offense Level and Speed also change late in the fight. Check current predictions rather than relying on initial values."
+    },
+    "passives.5.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.5.effect": {
+      "sourceHash": "7f6a6de6233e3ca8f6059f46b07c325d7178e0da6d94bd86382a55ff80f092b4",
+      "text": "If this character appears in the encounter or is in its enemy roster, all characters' Bleed damage increases Bloodfeast from Turn 1. Each time this character enters, reveal more latent blood scattered across the battlefield."
+    },
+    "passives.5.condition": {
+      "sourceHash": "c773576d48195832d8cc6e722fbd2ded1296bdcf59ccd4e8aaab859577febbda",
+      "text": "Bleed damage occurs on the battlefield"
+    },
+    "passives.5.response": {
+      "sourceHash": "9682a0222104a2c0bfdbe27e53b73a54dc43c12dbb0fbaacd66d30f8029868e9",
+      "text": "Enemy and allied Bleed damage feeds the shared Bloodfeast. Inflicting Bleed is not an entirely one-sided advantage."
+    },
+    "passives.6.name": {
+      "sourceHash": "19e5a613affc12a9ecf34c8f784e4645c37ce38f88aca2301fef0308417eeaae",
+      "text": "Hardblood"
+    },
+    "passives.6.effect": {
+      "sourceHash": "ba1dce638e35b73a374f3e960ff048f701f6cb1c8d56ddea1f0432b288de5157",
+      "text": "At Combat Start, gain 1 Hardblood.\n- Cannot fall below 1.\n- At 10 or more, changes to Hardblood II.\n- At 20 or more, changes to Hardblood III.\nMinimum and maximum Speed increase by 1 per stage (max 2). Consumption below a threshold returns it to the previous stage."
+    },
+    "passives.6.condition": {
+      "sourceHash": "8d868569bb88166ea54402ae2011a6b051dfe332a02a2aacc4535d6e9a7e44e5",
+      "text": "At the start / Hardblood accumulation and consumption"
+    },
+    "passives.6.response": {
+      "sourceHash": "bb7a6bbcdef9933a27cb18d6a577d33108af557ece0d76d0922a3fdedbced94f",
+      "text": "Higher Hardblood stages increase Speed and combat levels. Recheck clash predictions and skill conditions."
+    },
+    "passives.7.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.7.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.7.condition": {
+      "sourceHash": "2d6fafe614bcdf4c7771061aed908dc9016d081fe2fa47a4c574270d581d9495",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.7.response": {
+      "sourceHash": "7f8cb744eafad659c7f8e37b3f98aaa761c6f491eff7ca993512f00ac1a21c17",
+      "text": "Panic Type cannot be replaced. Combine clashes, debuffs, and recovery to handle the fight."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "6d02355b59b28b569cdae5d10c86066cc609194fae2df98ce8c72da81a6af110",
+      "text": "Dreamy Hesitation"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "13904b55617e2d4afa145cb54f7e21d4373439513c936830e683ebcc5e59e129",
+      "text": "Initial Offense and Defense Level reduction. The description states −35 each, but the actual Defense reduction is 34."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6e53e6b6f23c6dea9e6788b8e22e1cff51b8c005afbf58f41320d87d76e848e8",
+      "text": "Distinguish base Lv.85 from current Offense and Defense Levels. Additional Hardblood buffs vary further."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "1cbce519b992c86242e344349ce21cce8708f379a2171716dc486ef11ac6d996",
+      "text": "Accumulates battlefield Bleed damage and is shared by both sides. Sancho starts with 400 and consumes it for recovery, Hardblood, and big attacks."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "150671fc57d6e378c8faaff2d739ca842f9f9a662ccbc5160754b26d73acfdde",
+      "text": "Reduce Bleed-inflicting hits on allies. Allies that consume Bloodfeast are an option, but a specific Bloodfiend team is not required."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "19e5a613affc12a9ecf34c8f784e4645c37ce38f88aca2301fef0308417eeaae",
+      "text": "Hardblood"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4ed468d365cc43630e106091f188a1da33bb316cea8b82235adef0119984dc64",
+      "text": "Starts at 1; reaches II at 10 or more and III at 20 or more. Stages increase Speed, and higher stages also increase Offense and Defense Levels based on value. Gained and consumed through skills."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "97a89b3df52a0db01e4c5f1f68cf9582604516ad935b75b817003e686da990de",
+      "text": "Power is not constant. Include On Use bonuses from Hardblood and her own Bleed when assigning a clasher."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "094d509036c67ab71f6525bc64e978c8e3daa9ed1e59c6b04d8c2e64c640f19d",
+      "text": "Shimmering【Bloodfiend】"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "1751c75cac3a77cb1546baaa02c8ff490fad68ac679c5e1066395acfd942298a",
+      "text": "While active, Shield does not expire at Turn End. When a target damages the user with an attack, inflict 5 Bleed on that attacker at Attack End. Removed when its conditions are met, then grants 3 Fragile until the next phase change."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "2eba4e3f9c9f5de979bb05bce0b1ed737dd730850b40574c26d1390780316b63",
+      "text": "Attackers receive Bleed too. Prepare both enough damage to break the Shield and enough HP to survive Bleed after attacking."
+    },
+    "warnings.0": {
+      "sourceHash": "e607120cb1bc507fddcd591762df52220e12b524e72cba6316f73611fdf204e3",
+      "text": "Winning does not remove every Unbreakable Coin. Distinguish On Hit Bleed from HP drain that winning can prevent."
+    },
+    "warnings.1": {
+      "sourceHash": "951e1fd7147e3ecea1234b6430d5a7b1760a30a57c785f62a2d5f6602106ead4",
+      "text": "Winning against Hardblood prevents Stagger only from that skill's damage. It does not prevent death from Bleed or other damage."
+    },
+    "warnings.2": {
+      "sourceHash": "afa1fc3f1250801180b9cf68b57e071fe5f753c312fd8475fc5536cc6c502da6",
+      "text": "Phase changes take priority at 80%, 60%, and 40% HP. Do not assume a Stagger opening will last unchanged into the next turn."
+    },
+    "warnings.3": {
+      "sourceHash": "bd2f66d0baa7e38da9831fa1b61599e15ea6b6457482721a72b599f7b49648fa",
+      "text": "Phase-transition attacks end the turn After Attack. Do not rely on healing or follow-ups scheduled after Sancho. La Aventura Ha Terminado is the exception."
+    },
+    "warnings.4": {
+      "sourceHash": "582a2bd6f53e6c9b7f7c6a7ecbebff686c210b53a39aec76fcfa03d220b87d5d",
+      "text": "Ending conditions and skill performance differ from Canto VII.5 Sancho. This page covers the Canto VII carousel encounter."
+    },
+    "preparation.0": {
+      "sourceHash": "596a5fce9197ee3289d714ea8461ad63b1130a34564807633db109672eba2268",
+      "text": "Aim for Lv.50 and Uptie III or higher, with high-Power clashers and HP and SP recovery. Secure healing resources before big attacks."
+    },
+    "preparation.1": {
+      "sourceHash": "cc05a204f6fc2d743082327c53bd236d54f398ef61f551d577155a5245473dd7",
+      "text": "Choose main combatants and reserves from the 11 Sinners other than Don Quixote. Develop reserves too and avoid spending everyone's big skills in the opening."
+    },
+    "preparation.2": {
+      "sourceHash": "4ad7a5418bd791ea0ae22ddf3518ea595a68fbbfddc2e75b6308d93a27322ec2",
+      "text": "Bleed teams must account for Bloodfeast generation and bonuses from the enemy's own Bleed. Use Sinking with Turn Start SP recovery in mind; no single keyword guarantees victory."
+    },
+    "roles.0.name": {
+      "sourceHash": "13229b2b44991a3ee19746887d51ccdbf6cce9bdb37576944e9fd9f748a051ab",
+      "text": "High-Power and high-Base-Power clasher"
+    },
+    "roles.0.reason": {
+      "sourceHash": "362ec73a2c12d10cdc01f6bd75d72077fb9c04d0391d2c07fa05bac2e855e972",
+      "text": "Stop Hardblood, La Sangre with Paralyze, and La Aventura Ha Terminado at 45 SP."
+    },
+    "roles.1.name": {
+      "sourceHash": "cdb12a3c317c2883fdba32d5ac35a4c69b85c7ae4f758d2e312a0d978c49539a",
+      "text": "Prior healing and resistances"
+    },
+    "roles.1.reason": {
+      "sourceHash": "49ba81e947a4846e1dc23503257f24895f6d72b8761a8075828ebfcc9c45b934",
+      "text": "Survive Unbreakable hits and Bleed. Act before big attacks at 10 Speed and their turn ending."
+    },
+    "roles.2.name": {
+      "sourceHash": "5168948d74282c163bf686f4398aa01bfcb05edb006079b83c76572930ce66d1",
+      "text": "Pierce / Lust damage and reserves"
+    },
+    "roles.2.reason": {
+      "sourceHash": "8f09180b8c8f6327feb18640766d67cdefd36de26b4ed387ead01b5617e64fe4",
+      "text": "Damage the main body and Shield across phase changes, replacing worn-down main combatants as needed."
+    }
+  },
+  "messages": {
+    "boss-copy:sancho": "complete",
+    "コインⅣ(破壊不能)": "Coin IV (Unbreakable)",
+    "【リンバス】7-36 サンチョ（7章）の攻略｜Limbus Assistant": "7-36 Sancho (Canto VII) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)7-36「サンチョ（7章）」の攻略。HP80%・60%・40%で戦い方が変わる。速度10の破壊不能攻撃へ事前に備え、マッチ勝利で被害と吸血を抑えながら、段階ごとに削ろう。": "Sancho (Canto VII) guide for Limbus Company 7-36. Behavior changes at 80%, 60%, and 40% HP. Prepare for the Speed 10 Unbreakable attack, and win Clashes to limit damage and lifesteal through each phase.",
+    "7-36 サンチョ（7章）": "7-36 Sancho (Canto VII)",
+    "7-36「To Reach the Dream: Merry-Go-Round」": "7-36 · To Reach the Dream: Merry-Go-Round",
+    "サンチョの外見": "Sancho appearance",
+    "サンチョのスキル": "Sancho skills",
+    "Sanchoの外見": "Sancho appearance",
+    "Sanchoのスキル": "Sancho skills"
+  }
+}

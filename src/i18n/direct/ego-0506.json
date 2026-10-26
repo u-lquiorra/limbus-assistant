@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0506.md",
+  "code": "0506",
+  "messages": {
+    "嫉妬共鳴を高めて自分と味方に充電と嫉妬ダメージ量増加を配る、サポート特化の嫉妬貫通E.G.O。": "A support-focused Envy Pierce E.G.O that raises Envy Resonance to hand out Charge and Envy DMG Up to himself and allies.",
+    "充電の配布: 攻撃前に自分の充電が8(解析Ⅳで12)増え、攻撃後に充電が最も低い味方にも8増やす。": "**Distributing Charge**: Before attacking, his Charge increases by 8 (12 at Threadspin Ⅳ), and after attacking, the ally with the lowest Charge also gains 8.",
+    "嫉妬共鳴で対象が増える: 最大嫉妬共鳴数が高いほど配る対象が増える(最大3、解析Ⅲで4、Ⅳで5)。": "**More targets with Envy Resonance**: The higher the highest Envy Resonance, the more allies receive it (up to 3, 4 at Threadspin Ⅲ, 5 at Ⅳ).",
+    "嫉妬ダメージ量増加: 解析Ⅲから、最大嫉妬共鳴数が4以上(Ⅳは6以上)なら、自分と対象に嫉妬ダメージ量増加1を付与する。効果はそのターン限り。": "**Envy DMG Up**: From Threadspin Ⅲ, if the highest Envy Resonance is 4 or more (6 or more at Ⅳ), gives 1 Envy DMG Up to himself and the targets. The effect lasts only that turn.",
+    "パッシブ「過負荷ケーブル」: 戦闘開始時に共鳴が4以上発動していれば攻撃レベル増加2・防御レベル増加2。嫉妬共鳴なら操作パネル両隣の味方にも付与する。": "**Passive — Overloading Cables**: Gains 2 Offense Level Up and 2 Defense Level Up if a Resonance of 4 or more is active at Combat Start. With Envy Resonance, the allies on both sides of him on the dashboard also receive them.",
+    "侵蝕スキル: 嫉妬共鳴数に応じて広域化し、充電を消耗してダメージ量を増やす。": "**Corrosion skill**: Becomes multi-target based on Envy Resonance and spends Charge to increase damage.",
+    "嫉妬スキルを並べて共鳴を作ってから撃つ。共鳴が低いと配る対象が少ない。": "Line up Envy skills to build Resonance before using it. With low Resonance, few allies receive the distribution.",
+    "充電人格や嫉妬スキルが多い編成で撃つ。充電人格とそれ以外の混成だと、充電人格以外が対象になることがある。": "Use it in teams with many Charge Identities or Envy skills. In teams that mix Charge Identities with others, non-Charge Identities may end up as targets.",
+    "必要資源は憤怒1・嫉妬4で、嫉妬の多い編成なら賄える。": "It requires 1 Wrath and 4 Envy, which an Envy-heavy team can cover.",
+    "Ⅱ: 「過負荷ケーブル」が解放される。この編成で使うなら最低限ここまで。": "**Ⅱ**: Unlocks Overloading Cables. If you use it in this kind of team, take it at least this far.",
+    "Ⅲ: 配る対象が最大4に増え、嫉妬ダメージ量増加が付く。侵蝕の広域も強化される。": "**Ⅲ**: Raises the number of targets to up to 4 and adds Envy DMG Up. Corrosion's multi-target range also improves.",
+    "Ⅳ: 自分の充電が12、対象が最大5に増える。嫉妬ダメージ量増加の条件が共鳴6以上に変わる。": "**Ⅳ**: His own Charge becomes 12, and targets rise to up to 5. The Envy DMG Up condition changes to 6 or more Resonance.",
+    "中指末弟: 嫉妬のS2・守備や嫉妬共鳴を条件とするスキルを持ち、嫉妬共鳴を作りやすく、精神力も回復できる。": "**[The Middle Little Brother](persona:0507)**: Has an Envy S2 and Defense skill plus skills conditioned on Envy Resonance, makes Envy Resonance easy to build, and also restores SP.",
+    "R社第4群サイチーム: 嫉妬(S1・守備)で資源と共鳴に参加でき、S1・S2が充電を増やすので、配る側と受ける側の両方になれる。": "**[R Corp. 4th Pack Rhino](persona:0506)**: Envy (S1, Defense skill) lets him join in resources and Resonance, and S1 and S2 increase Charge, so he can be both distributor and recipient."
+  }
+}

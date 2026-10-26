@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0308.md",
+  "code": "0308",
+  "messages": {
+    "1コイン目で呪いの札を溜め、2コイン目の大ダメージと破裂付与につなげる、暴食共鳴向きの斬撃3枠広域E.G.O。": "A 3-target Slash E.G.O suited to Gluttony Resonance that stacks curse talismans with the first Coin and turns them into heavy damage and Rupture with the second.",
+    "呪いの札の付与: 1コイン目の的中時に、対象へ(4+暴食共鳴数)の札を付与する(最大10)。暴食共鳴6で上限に届く。札はターン終了時に消える。": "**Inflicting talismans**: On first Coin hit, inflicts (4 + Gluttony Resonance) talismans on the target, up to 10. 6 Gluttony Resonance reaches the cap. The talismans disappear at Turn End.",
+    "札によるダメージ増加(解析Ⅲ): 2コイン目のダメージ量が札1つにつき+3%(上限30%)、解析Ⅳでは+5%(上限50%)になる。1コイン目が割られると強化が働かない。": "**Damage from talismans (Threadspin Ⅲ)**: The second Coin deals +3% damage per talisman, up to 30%, or +5% per talisman, up to 50%, at Threadspin Ⅳ. If the first Coin is broken, the bonus does not apply.",
+    "破裂の付与: 2コイン目の的中時に、札÷2の破裂(最大3、解析Ⅳは4)を付与し、札÷4の破裂回数(最大2)も増やす。": "**Inflicting Rupture**: On second Coin hit, inflicts Rupture equal to talismans÷2, up to 3 (4 at Threadspin Ⅳ), and increases Rupture Count by talismans÷4, up to 2.",
+    "札10の追加効果: 札が10のとき、30以上のダメージを受けると破裂回数+1と破裂威力分の暴食ダメージが入る(1ターン1回)。": "**Extra effect at 10 talismans**: At 10 talismans, taking 30 or more damage adds +1 Rupture Count and deals Gluttony damage equal to Rupture Potency, once per turn.",
+    "パッシブ「衰弱符」: 対象の破裂が15以上、またはクリティカルを与えたときに防御レベル減少1を付与する(最大6)。": "**Passive — Enfeebling Talisman**: Inflicts 1 Defense Level Down when the target has at least 15 Rupture or when she lands a Critical Hit, up to 6.",
+    "暴食共鳴を作って札を10に近づけ、2コイン目の破裂付与につなげる。": "Build Gluttony Resonance to bring talismans close to 10, then follow up with the second Coin's Rupture.",
+    "1コイン目を落とさないよう、マッチ相手を選ぶ。": "Choose Clash opponents so the first Coin is not broken.",
+    "侵蝕スキルは札の強化が大きい反面、コイン威力が減算でマッチが不安定。OCには向かないと考えられる。": "The Corrosion skill has a larger talisman bonus, but its Minus Coin Power makes Clashes unstable. It is likely not suited to Overclock.",
+    "必要資源は色欲1・暴食5・憂鬱2・傲慢1の計9、精神消耗は覚醒25。": "It requires 9 resources: 1 Lust, 5 Gluttony, 2 Gloom, and 1 Pride. Awakening Sanity cost is 25.",
+    "Ⅱ: パッシブが解放されるだけで、ここで止める意味は薄いと考えられる。": "**Ⅱ**: Only unlocks the passive, so there is likely little point in stopping here.",
+    "Ⅲ: 札に応じて2コイン目のダメージが伸びる。": "**Ⅲ**: The second Coin's damage grows with talismans.",
+    "Ⅳ: ダメージ増加がさらに伸び、破裂の付与量が少し増える。": "**Ⅳ**: The damage bonus grows further, and Rupture infliction increases slightly.",
+    "ロボトミーE.G.O::提灯: 破裂を扱い、暴食・色欲・憂鬱のスキルで必要資源を3種出せる。": "**[Lobotomy E.G.O::Lantern](persona:0307)**: Uses Rupture, and her Gluttony, Lust, and Gloom skills supply three of the required affinities.",
+    "黒獣-未: 暴食のスキルを2つ持ち、各スキルが破裂を付与する。": "**[Heishou Pack - Wei Branch](persona:0313)**: Has 2 Gluttony skills, and each skill inflicts Rupture."
+  }
+}

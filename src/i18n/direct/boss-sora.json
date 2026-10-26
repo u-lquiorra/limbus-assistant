@@ -1,0 +1,1353 @@
+{
+  "kind": "boss-copy",
+  "id": "sora",
+  "source": "src/data/bosses/sora.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "当然の信心",
+          "en": "Faith Beyond Question",
+          "file": "Bufs-a1c9p2.json",
+          "id": "Blandishment"
+        },
+        {
+          "ja": "当然の信心",
+          "en": "Faith Beyond Question",
+          "file": "Bufs-a1c9p2.json",
+          "id": "Blandishment_Enemy"
+        },
+        {
+          "ja": "シン(心) - ソラ",
+          "en": "Shin (心) - Sora",
+          "file": "Bufs-a1c9p2.json",
+          "id": "Blandishment_Shin_Enemy"
+        },
+        {
+          "ja": "指令の加護",
+          "en": "Grace of the Prescript",
+          "file": "Bufs-a1c9p2.json",
+          "id": "BlessingOfIndexPrescriptEnemy"
+        },
+        {
+          "ja": "指令[端末機]I",
+          "en": "Prescript: [Device] I",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptDon_0"
+        },
+        {
+          "ja": "指令[端末機]II",
+          "en": "Prescript: [Device] II",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptDon_1"
+        },
+        {
+          "ja": "指令[端末機]III",
+          "en": "Prescript: [Device] III",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptDon_2"
+        },
+        {
+          "ja": "指令[端末機]IV",
+          "en": "Prescript: [Device] IV",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptDon_3"
+        },
+        {
+          "ja": "指令[端末機]I",
+          "en": "Prescript: [Device] I",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptStudent_0"
+        },
+        {
+          "ja": "指令[端末機]II",
+          "en": "Prescript: [Device] II",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptStudent_1"
+        },
+        {
+          "ja": "指令[端末機]III",
+          "en": "Prescript: [Device] III",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptStudent_2"
+        },
+        {
+          "ja": "指令[端末機]IV",
+          "en": "Prescript: [Device] IV",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptStudent_3"
+        },
+        {
+          "ja": "人差し指の指令対象",
+          "en": "The Prescript's Target - The Index",
+          "file": "Bufs-a1c9p2.json",
+          "id": "IndexPrescriptTargetToPersonality"
+        },
+        {
+          "ja": "カルマ",
+          "en": "Karmic Consequence",
+          "file": "Bufs-a1c9p2.json",
+          "id": "KarmaOfIndexStudent"
+        },
+        {
+          "ja": "圧迫感",
+          "en": "Onus",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PressureOfPrescript"
+        },
+        {
+          "ja": "激しい圧迫感",
+          "en": "Extreme Onus",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PressureOfPrescript_2nd"
+        },
+        {
+          "ja": "滅多斬りにされた記憶と思い出",
+          "en": "Mutilated Memory and Recollection",
+          "file": "Bufs-a1c9p2.json",
+          "id": "Ryoshu_IndexFightBuff"
+        },
+        {
+          "ja": "解禁 - I",
+          "en": "Unlock - I",
+          "file": "Bufs-a1c9p2.json",
+          "id": "UnlockBuff_1"
+        },
+        {
+          "ja": "解禁",
+          "en": "Unlock",
+          "file": "Bufs-a1c9p2.json",
+          "id": "UnlockBuff_Base"
+        },
+        {
+          "ja": "解禁 - I",
+          "en": "Unlock - I",
+          "file": "Bufs-a1c9p2.json",
+          "id": "UnlockBuffAlly_1"
+        },
+        {
+          "ja": "人差し指の子方 - ソラ",
+          "en": "The Index Apprentice - Sora",
+          "file": "Enemies-a1c9p2.json",
+          "id": "1325"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "端末機で伝達された指令",
+          "en": "Prescript Delivered on a Device",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132501"
+        },
+        {
+          "ja": "指令の意味",
+          "en": "Will of the Prescript",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132502"
+        },
+        {
+          "ja": "解禁",
+          "en": "Unlock",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132503"
+        },
+        {
+          "ja": "開花 E.G.O::代行",
+          "en": "Effloresced E.G.O::Procuration",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132504"
+        },
+        {
+          "ja": "頭を潰す",
+          "en": "Skull Crushing",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132501"
+        },
+        {
+          "ja": "あっ、静かにしてください",
+          "en": "Ah, Please be Quiet",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132502"
+        },
+        {
+          "ja": "は、はやく指令を遂行しなきゃ…。",
+          "en": "I-I Have to Execute the Prescript Soon...!",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132503"
+        },
+        {
+          "ja": "大人しく潰されてください",
+          "en": "Please Don't Resist and just be Crushed to Death",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132504"
+        },
+        {
+          "ja": "この手で代わりに…",
+          "en": "Let These Hands be the Proxy...",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132505"
+        },
+        {
+          "ja": "暴いて、暴きます",
+          "en": "Disembowel, Eviscerate...",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132506"
+        },
+        {
+          "ja": "代行: 刻む",
+          "en": "Procuration: Engrave",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132507"
+        },
+        {
+          "ja": "代行: 抹殺",
+          "en": "Procuration: Annihilate",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132508"
+        },
+        {
+          "ja": "代行: 抹殺 - 本望",
+          "en": "Procuration: Annihilation - Mang of Immanent Yearning [本望]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132509"
+        },
+        {
+          "ja": "抹殺態勢",
+          "en": "Annihilation Form",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132505"
+        },
+        {
+          "ja": "銛を埋める - そこですか。",
+          "en": "Harpoon Impalement - There It Is.",
+          "file": "Skills_Assist-a1c9p2.json",
+          "id": "40000604"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 1/2 records. Guide aliases for Training to Inherit the Name of a Star and Armor of Protection & Repression are resolved by their passive IDs; spacing, Roman numeral, and Effloresced E.G.O variants use matching status or passive records. Sora's Let These Hands be the Proxy... follows the enemy skill rather than the Identity variant. Mang follows passive 999907. The Ren/Albina withdrawal thresholds, distinct-skill weakening, shared Sora HP pool, and NPC support conditions are retained."
+    }
+  },
+  "scopedTerms": [
+    "強化前",
+    "恩義",
+    "回",
+    "守",
+    "反",
+    "この手で代わりに…"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "57a7c6a3fc3eebfc708c00abec7f51b74a1b2cc510a00fdefd53e0aded0121ba",
+      "text": "Sora (9-30)"
+    },
+    "shortName": {
+      "sourceHash": "2d6fa57bd3e1c194e96637c1dfdc27413d71128824eb8fb5a90ee117f9f7553a",
+      "text": "Sora"
+    },
+    "stageName": {
+      "sourceHash": "1f24ed43969fbad5ddf30ab75c7814ef009ad45969925070bc52825b1afa546b",
+      "text": "Will of the Prescript"
+    },
+    "lead": {
+      "sourceHash": "2507c0ec4d3bafdbbb5a2b17a65c2a4f17640e0cf62d4e28869256aa7518a6be",
+      "text": "Prevent hits on the Prescript's target early; later, survive with Vespa's support. Prioritize more than damage: use Ryōshū's resources and healing while preserving Assist Defense's conditions."
+    },
+    "listLead": {
+      "sourceHash": "9195165ceaf78be93fe61a5114ef453ff68391e0f2008a1fb1832b2839388b93",
+      "text": "Prevent hits on the Prescript's Target early, then survive with allied NPC support later. Use Ryōshū's resource generation and healing rather than pursuing damage alone, and maintain the Assist Defense conditions."
+    },
+    "statNote": {
+      "sourceHash": "b9e11a063579254baa5bff363e89368647afe7cebce72b336dee68fc92ff35c5",
+      "text": "Normal 9-30. Only Yi Sang, Ryōshū, Meursault, and Gregor may deploy; Ryōshū is required. Normal and Effloresced forms are states of the same enemy, not separate 1500-HP fights. Offense/Defense entries are before Grace of the Prescript, Unlock, Faith Beyond Question, Shin (心) - Sora, and other buffs. Gains 750 Shield at encounter start and another 750 when Vespa joins."
+    },
+    "skillNote": {
+      "sourceHash": "a7db2a351aeff608adb9deb85cd3e634c5ef9868522ffa72d4b79089c568667a",
+      "text": "Lists normal and Effloresced skills separately. Please Don't Resist and just be Crushed to Death is outside 9-30's normal pattern. Check effects for conditional Unbreakable Coins."
+    },
+    "priorities.0": {
+      "sourceHash": "1d7c9f2ecd8c40dff9ad1ff018b0025c7a8b7665d56b1bfb7c7a75a1d79bae05",
+      "text": "Have the Prescript's target handle Sloth skills; redirect other attacks to different Sinners."
+    },
+    "priorities.1": {
+      "sourceHash": "58761842fbce49b9007d81b270bb627db4c5979a0691c1069c429de8b1fa5c8b",
+      "text": "Use Ryōshū's resources for healing/debuffs and survive until the event."
+    },
+    "priorities.2": {
+      "sourceHash": "66d9bbea3b685cd35915efc466b0411dafcd339f3405c4a565ede9d64502f72c",
+      "text": "For attacks left to Vespa's Assist Defense, preserve the one-sided-attack and no-defense-equipped conditions."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "6a0493cb6db18e48d8a85faf850a6265810658082c4b8c83bb785d3f2eb1349c",
+      "text": "Enemy SP and Power keep rising early"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "9ab319c0921bf367e1daca4adf18431c1ae03e935bc7adff0b338d211dc79b4f",
+      "text": "Hits on the Prescript's target make completion easier. That target should clash against Sloth skills while others redirect remaining attacks. Failed Prescripts still add Grace and Onus; progression cannot be halted forever."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "5b37de15bf9ca2d46c077b9098541e79239ad80678a97103677b2efbc2276f48",
+      "text": "Sinners die even after Vespa arrives"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "675db8b06d9b720fce595ff1921683fab85f0724a0f606463b2045a4120aec10",
+      "text": "The NPC does not automatically block everything. Stop the remaining 2 attacks with Sinners. Equipping defense on a target intended for Assist Defense invalidates its condition."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "f2e6b64b840e1f9106716fa440f55f9383e495fd1e500835a20b85530d155e69",
+      "text": "Evade is equipped but never activates"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "98922afd5c6aee78b1401f3e039e9d82387fade86c298e331adbd73762ade22e",
+      "text": "I-I Have to Execute the Prescript Soon...! prevents defense-skill activation. At 2 Onus, it also cannot be redirected; prepare a winning attack on the designated Sinner."
+    },
+    "units.0.name": {
+      "sourceHash": "125a1c778115998bd3944e3f4203315272865c593a3b7fdff9f30e560697712f",
+      "text": "The Index Apprentice - Sora"
+    },
+    "units.0.part": {
+      "sourceHash": "ab3f4a606ef6a13a574dc43c056fef46e54c0064db6bc2fc94e7910815aa65b4",
+      "text": "Normal form · Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "aa6ccb42d21217ff543298911a47147d9f5ae05d4f1b2583267f1b5ae6b5b42d",
+      "text": "1500 (shared with Effloresced form)"
+    },
+    "units.0.combatLevelNote": {
+      "sourceHash": "e98030400f88728fdb7f0f852bf0744248a379a4e1b2c32f40618872827e89d8",
+      "text": "Before buffs"
+    },
+    "units.0.speed": {
+      "sourceHash": "2b52ca11311e2e19899954bbb26f793cc2b5bc7b43bed8b6d7868efc5489418a",
+      "text": "1–2 / +10 on powerful-attack turns and other bonuses"
+    },
+    "units.0.stagger": {
+      "sourceHash": "7c3cfbf3fd5ad4262357e5d9541e4af79a204b87c58f2ca495c8acf91ecff79b",
+      "text": "No regular Stagger thresholds"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "02173964fa590cebe7420dbaa5d4c3a2b3356622c95a1489233ea0b15742a415",
+      "text": "Unlock progresses at 3/6/9 Grace or at 90%/75%/60% HP. Progress restores SP to 45 and clears Stagger."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "7d14af4cbdd6993c8c0365ee9f8ecdb82876cdcf20d10d873b68905ce765a2b4",
+      "text": "Before Unlock, even failed Prescripts grant 1 Grace. Do not infer the opening state only from a fixed turn count."
+    },
+    "units.1.name": {
+      "sourceHash": "4d8d2666596ed949b10f3f75ba570168de55788ebc951a676b8118d93db78040",
+      "text": "Sora · Effloresced E.G.O::Procuration"
+    },
+    "units.1.part": {
+      "sourceHash": "42c03ff34962b70cd041be4252606d2f636e78063af57c086dda285bb8ab7944",
+      "text": "Effloresced form · Same body"
+    },
+    "units.1.hp": {
+      "sourceHash": "57245e98fc201a2b8bdd6799e5d14ad06aeb195b787da940a3b303f6b56b4890",
+      "text": "1500 (shared with normal form)"
+    },
+    "units.1.combatLevelNote": {
+      "sourceHash": "e98030400f88728fdb7f0f852bf0744248a379a4e1b2c32f40618872827e89d8",
+      "text": "Before buffs"
+    },
+    "units.1.speed": {
+      "sourceHash": "4153e860d1a3ec5ee5427562e39c4497a8d0e7be9d3be2ef9ff9f076b48d3e68",
+      "text": "1–2 plus Faith Beyond Question, Shin (心) - Sora, and other bonuses"
+    },
+    "units.1.stagger": {
+      "sourceHash": "729e6da4ab287601ed9ef53b573909837bf03169803200d9780dea8d854389a9",
+      "text": "No regular thresholds / Stagger from specific effects"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "92f4a4090fe55467ddfbcfd8fe78f01e44bd9d17a02bcde595265bc681113476",
+      "text": "With Unlock and 25+ SP at Turn Start, spend 15 SP to Effloresce. Ends at Turn Start with 0 SP or lower."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "c9e11ec246dc69224d679a03b93dc5c02d51e76df292fc7f6a9f1cfeec4f44c4",
+      "text": "After Vespa joins, Annihilation Form prevents SP falling below 0 and adds Shield and buffs."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "07f2ff7261c62e31bdfeb4e84f9a7480a711b06939bbe79353542e2c17667d7f",
+      "text": "At 300 HP, enters the closing pattern and Vespa delivers the finish. Sinners do not need to reduce HP to 0."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "be5c1eeeddd1f89f5db0db313c12a93f5ff628b0a86fe005e08eb3e52bc0e4ad",
+      "text": "Prioritize survival and healing for all 4 Sinners"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "bb91d8d345bb026a86d6bac19fb752dfd61fd6678f2dbcc94207417cbde4e271",
+      "text": "Recommended Level 60. Level Yi Sang, Ryōshū, Meursault, and Gregor. If no other ally lives, Ryōshū loses protection from lethal damage."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "872f19829b4cd915bee3847dca1a6703ca8b85fbd230b3086b342b14d33dc796",
+      "text": "Bring HP/SP recovery and Attack Power Down. Ryōshū generates resources by using skills; use options such as Meursault's Chains of Others to weaken strong attacks."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "9709a604f2245335e0ea0d094e4ec41dd70b76a35a7ef97a8d3074481e20611e",
+      "text": "Normal form is vulnerable to Pierce; Efflorescence resists all 3 physical types. Gloom and Pride work well afterward. Prioritize necessary clashes and healing over raw damage."
+    },
+    "phases.1.timing": {
+      "sourceHash": "77e7b36c6d4278f2ceb1b7e33d315c56e4f343768ce0eda29ed5385368ce5584",
+      "text": "Before Efflorescence"
+    },
+    "phases.1.title": {
+      "sourceHash": "c429c64bfc713044e87bf32e695b445f95728dd6481cb78ca5c70ca78c1277e5",
+      "text": "Prevent repeated hits on the Prescript's target"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "59f01a124e84c0ae8040260a16288cb228a9f204d1ad6bf2c8a259f5e32b95dd",
+      "text": "Check The Prescript's Target - The Index each turn. Conditions change by stage: Prescript I requires a hit on the target, II a hit from the first slot, and so on."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "30e88b24834c06bae28f4474febe81e90a4fe9dec35104013b5a3188232ff0d6",
+      "text": "The designated target should handle Sloth skills such as Skull Crushing while other Sinners redirect remaining attacks. I-I Have to Execute the Prescript Soon...! disables defense; do not rely on Evade against it."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "f07b9129309abd15117f1069bb5d04958a3d6fc9cc19302b79f27efd746defae",
+      "text": "Preventing completion stops the 15 SP recovery but increases Onus and Karmic Consequence. Before Unlock, Grace also rises by 1; repeated failure does not prevent Efflorescence forever."
+    },
+    "phases.2.timing": {
+      "sourceHash": "39b9fc7167e5c9e32913fd22383759a302345e6fd4c327e381970fcfa2ecd6d1",
+      "text": "From Efflorescence to reinforcements"
+    },
+    "phases.2.title": {
+      "sourceHash": "a2f6c3739e4ebbf710b0b39ccc9c46b8ec1c69353c3fbc76e2cd55895f99405b",
+      "text": "Endure with healing/debuffs until turn 8 or 900 HP"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "c4c43f6c0171b6509348d9c3e1fb0babd7cd6fafdb93c187e55b745e003fa02b",
+      "text": "Meeting Unlock/SP conditions causes Efflorescence; regular skills become Slash too. Faith Beyond Question and Poise strengthen attacks beyond base values, so use current predictions each turn."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "93fcbf1bad38a13b280b7eb42742305ad2a50a76f70cd820b89ed78f7185f184",
+      "text": "Ryōshū removes Stagger Thresholds even from damage that would Stagger her, and can fight with next-turn attack buffs and resource gains. Preserve allied HP and choose which attacks she redirects."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "6ef68906537c3136a451b79afe399a8a16685552a9960aac882d1ffaa63ef529",
+      "text": "An event at turn 8's start or 900 HP brings Vespa. Reach it through healing and debuffs rather than forcing a kill. Before he joins, lowering SP to end Efflorescence is another option."
+    },
+    "phases.3.timing": {
+      "sourceHash": "e375613e2c078c2c15234d41687069cfd6eeb863aea7cca90c3fe542e21a30f0",
+      "text": "After Vespa joins"
+    },
+    "phases.3.title": {
+      "sourceHash": "a2937a7bf3e242b13a5f6b09092475ab98ad58760609fce7648efefbbae6c49a",
+      "text": "Separate Assist Defense assignments from Sinner clashes"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "c742b550b2f574721a4b1a70d73c4874b6a4c35853680deb3d6813d03219f30b",
+      "text": "Of the basic 6 attacks, Vespa clashes against the rightmost 3. Leave the far-left attack to Assist Defense; stop the middle 2 with Ryōshū or other Sinners. Check that the NPC actually has the intended targets."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "1204503f488fca9eb93400125d6022b8f63094275f3d956e430983eb7665a5f9",
+      "text": "Assist Defense intercepts one-sided attacks on allies without defense skills equipped. Do not clash against that attack or equip defense on its target. Defense in another slot of that same Sinner also affects eligibility."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "f08095903515fb060dc3abbda8443d2b8b66f36c3ccdeb980584e3f338b787da",
+      "text": "Vespa can lose clashes, and losing all Sinners causes defeat. Unlock III's finisher can be clashed regardless of Speed, but avoid needlessly redirecting NPC assignments."
+    },
+    "phases.4.timing": {
+      "sourceHash": "a79928900a19c33c2ad22166ee128edc582bc51ee210380a2da24af12aa39f2b",
+      "text": "Around 300 HP"
+    },
+    "phases.4.title": {
+      "sourceHash": "dc6411736573f644551239543df309f2692202d5b3c19272cf25a12f16724df5",
+      "text": "Survive until the NPC's finish"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "2d459eed3102acfdc75764ca5c9302cb166682afe378fc0e4a9167fbc8b5c424",
+      "text": "Procuration's Immanent Yearning variant prioritizes Vespa. It has 5 Unbreakable Coins and lacks the 90% clash-loss damage reduction of ordinary Procuration: Annihilate. Confirm it remains assigned to Vespa."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "b81487f3838c72d6c7fe9f81302b996a183366f1cbf1c7b7614b180b0d136aa1",
+      "text": "It ends the turn after attacking; heal beforehand rather than relying on later actions. At 300 HP, the closing sequence ends with Vespa's Harpoon Impalement - There It Is."
+    },
+    "skills.0.name": {
+      "sourceHash": "80c28ab5f553cdfa8625da980315d73df45b9fdac758b707dbb391d3c31ebecb",
+      "text": "Skull Crushing"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "4e6b5910b61f16d8e05c3c93d0d4ca9a8d93cb05a8cd500f9c83042618237c26",
+      "text": "Final Power +1 per 6 total own Poise and target Sinking (max 2)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "c300a5198f687564653bc1d624f963be9c96cb400c1018e820bbd751f46661f3",
+      "text": "[On Use] Own Poise Count +2"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "c0f8c96f363a57fabb045ee01139504768cc7c887addfe3933d919fbd69873e2",
+      "text": "Ⅱ[On Hit] Gain 2 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "2ab23ca0e856c2182cd7c4f0b2e776fde7e1c78874fde38acb10b866c6ae9a00",
+      "text": "Poise and target Sinking raise Power above the display. Redirect away from the Prescript's target to prevent hits and completion."
+    },
+    "skills.1.name": {
+      "sourceHash": "b69ec1c3dc6b8f0373011b2eff133b756411b6983c01847d877f41cb5558986f",
+      "text": "Ah, Please be Quiet"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "4e6b5910b61f16d8e05c3c93d0d4ca9a8d93cb05a8cd500f9c83042618237c26",
+      "text": "Final Power +1 per 6 total own Poise and target Sinking (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "277bdc2cdd65ca48b4507b17559378935634dd0bb5b0c1be2dfef4e244c4f6f6",
+      "text": "[Combat Start] With Onus or against The Prescript's Target - The Index, the final Coin becomes Unbreakable"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "34091eec8ae806d48e2824b1e06a1907e26e75fa8baa6206c4e9cbc040b19d4e",
+      "text": "[On Clash Lose] Damage -50%; hits cannot Stagger targets or trigger Sinking"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "a08c2fd4e0ff389d74559c8ec0321a1883e7302b21cf654fa4ab66abee93069e",
+      "text": "Ⅲ[On Hit Without Coin Destruction] Inflict 2 Sinking and increase Sinking Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "bd3464dd397602a53ca2c3e7c58d1a39c4918d210cfefeedd9c5d809418a4b35",
+      "text": "Onus or the Prescript's target makes the final Coin Unbreakable. Winning halves damage and prevents Stagger/Sinking activation from those hits, but on-use Poise remains."
+    },
+    "skills.2.name": {
+      "sourceHash": "444147296825c47d753edd6c877287729eddcfdd39fcc3c039338218c93b4a9a",
+      "text": "I-I Have to Execute the Prescript Soon...!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "2028e2ceafea10dc3d994892044133d3aa0765d5feadd90dd156f54f2c020db0",
+      "text": "At 2 Onus, cannot be redirected"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "500fda32d6bfa615dff3bc247b8c012f6f9dba7096e0c2f7a61d963999c1c8f7",
+      "text": "Defense skills cannot activate"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "80a1dded0b615bfbba1466e7d83caa125a6320b9f922fafb1fe4b54059056f19",
+      "text": "Final Power +1 per 6 total own Poise and target Sinking (max 3)"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "277bdc2cdd65ca48b4507b17559378935634dd0bb5b0c1be2dfef4e244c4f6f6",
+      "text": "[Combat Start] With Onus or against The Prescript's Target - The Index, the final Coin becomes Unbreakable"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "93ca68876ee5f4b8aa407dafaaa8cab44a9854158bd7ca4172c0cca2c069c135",
+      "text": "[On Clash Lose] Damage -80%; hits cannot Stagger targets or trigger Sinking"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "6f6f8115e026d285dac14e7bbd0bee921c0300e5eca884d7d6131d2906df6219",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "f3d1414fcbb8ebbfb1c8fd481d916e3308781d16ba36a3f8248fc1983e656a7a",
+      "text": "Ⅰ[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "29febda0460f2fcc47cddd2e18b5732af38a88afe27fc9524eb8b739acfe9a30",
+      "text": "Ⅱ[On Hit Without Coin Destruction] Sinking Count +2"
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "fa02fad7b004995e2fdf39f9c748da295602617f0ca7fc4d84ed132fde95f662",
+      "text": "[On Critical Hit] Damage +20%"
+    },
+    "skills.2.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.2.response": {
+      "sourceHash": "ce2a324f1591ce53c227f8b1364051887c66e24e4d067ca7bc2c93a50dacb3c8",
+      "text": "Disables defense activation; do not plan to Evade or Guard. At 2 Onus, cannot be redirected either. Use the designated Sinner's powerful attack and secure the 80% damage reduction by winning."
+    },
+    "skills.3.name": {
+      "sourceHash": "c2e8bafabdc104b1a1068b17302d5f306a5936a7ab50673077a37c25df79769a",
+      "text": "Please Don't Resist and just be Crushed to Death"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "5a21af34804675189fcb7b2c8c344a1df4f23772806887b543fb40133c162979",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "bc431cd850bd57c72818f733f9729e4df0afc77aafaf99b8207f2df0fccb3241",
+      "text": "[On Clash Lose] Gain 3 Power Down and 4 Paralyze"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "fd52ea83bcfa485d0ae38f9146290f9f6b9a61f1071a4f7d6e6bf90b1fac05a4",
+      "text": "[On Clash Lose] Damage -90%; hits cannot Stagger targets or trigger Sinking"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "2a052b1c61d02659df79ad8f63be3f275a70d644be19513c2056870ffc84e1b4",
+      "text": "[After Attack] Consume all Onus"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "8fdc70f7a58663a44ed8e6a6e3b0a91b977c4a320347a6526f845105c1178bdd",
+      "text": "[On Hit Without Coin Destruction] Gain 1 Poise"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "8fdc70f7a58663a44ed8e6a6e3b0a91b977c4a320347a6526f845105c1178bdd",
+      "text": "[On Hit Without Coin Destruction] Gain 1 Poise"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "8fdc70f7a58663a44ed8e6a6e3b0a91b977c4a320347a6526f845105c1178bdd",
+      "text": "[On Hit Without Coin Destruction] Gain 1 Poise"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "8fdc70f7a58663a44ed8e6a6e3b0a91b977c4a320347a6526f845105c1178bdd",
+      "text": "[On Hit Without Coin Destruction] Gain 1 Poise"
+    },
+    "skills.3.label": {
+      "sourceHash": "87e2d7b9ea2020b980fe28f9171a2362e8e441426b3bf1a68b30efb21f26fc04",
+      "text": "Outside the normal pattern"
+    },
+    "skills.3.response": {
+      "sourceHash": "549d82b5f182e310713868bc7dbea5b6b67b19a62d8f017a8d9c2221e7f5b5a2",
+      "text": "Not used in 9-30's normal pattern. 4 Unbreakable Coins; winning applies Power Down, Paralyze, and 90% damage reduction. Do not import another encounter's action cycle into 9-30."
+    },
+    "skills.4.name": {
+      "sourceHash": "891b3a3abdb5b618688f01d986d01da6566f2fd597aa446eeb96c11769d199ff",
+      "text": "Let These Hands be the Proxy..."
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "4e6b5910b61f16d8e05c3c93d0d4ca9a8d93cb05a8cd500f9c83042618237c26",
+      "text": "Final Power +1 per 6 total own Poise and target Sinking (max 2)"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "c300a5198f687564653bc1d624f963be9c96cb400c1018e820bbd751f46661f3",
+      "text": "[On Use] Own Poise Count +2"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "12e0fad6ee193874aea1bfa39b5fd8c6a3ad08a5dd7fe99953d2b6bff2ed4f9e",
+      "text": "[After Attack] Lose 3 SP"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "8634a4f9a20cf4f8ffa4073db553d42da6358ffdfceb15d93bec63d59ea6b885",
+      "text": "Ⅱ[On Hit] Sinking Count +2"
+    },
+    "skills.4.response": {
+      "sourceHash": "f5116f53d768634f7d0df104e4dc2f0e6ed46050780600fc2c7cf8b32234fee7",
+      "text": "The Effloresced Sloth skill. Have the Prescript's target clash here while others redirect remaining attacks. Enemy SP falls by 3 after attacking."
+    },
+    "skills.5.name": {
+      "sourceHash": "62bb0ce032a74e1086cc5102d13b291925298b59fefaf93da2f3b5e8f5ab8011",
+      "text": "Disembowel, Eviscerate..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "4e6b5910b61f16d8e05c3c93d0d4ca9a8d93cb05a8cd500f9c83042618237c26",
+      "text": "Final Power +1 per 6 total own Poise and target Sinking (max 2)"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "277bdc2cdd65ca48b4507b17559378935634dd0bb5b0c1be2dfef4e244c4f6f6",
+      "text": "[Combat Start] With Onus or against The Prescript's Target - The Index, the final Coin becomes Unbreakable"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "34091eec8ae806d48e2824b1e06a1907e26e75fa8baa6206c4e9cbc040b19d4e",
+      "text": "[On Clash Lose] Damage -50%; hits cannot Stagger targets or trigger Sinking"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "12e0fad6ee193874aea1bfa39b5fd8c6a3ad08a5dd7fe99953d2b6bff2ed4f9e",
+      "text": "[After Attack] Lose 3 SP"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "f1368ee58c741a212159b7e9bdd20e4c5284277d234cbb2d6d9bb475e27977ea",
+      "text": "Ⅱ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "f049470999825961c8cb84ec3718b724d453ed74dec9dbc47b8dfa08a0ad87c9",
+      "text": "Ⅲ[On Hit Without Coin Destruction] Sinking Count +2"
+    },
+    "skills.5.response": {
+      "sourceHash": "2a899473836acdac28412e868eb9fd659e30130bd17463acef323b36810dbcdf",
+      "text": "The last Coin is conditionally Unbreakable. Include Poise, target Sinking, and Efflorescence buffs in predictions. Use the clash-loss damage halving and Sinking prevention."
+    },
+    "skills.6.name": {
+      "sourceHash": "1e5757df33caa9befabf2c147f450c0bdfdb266b2d1ab9ba732083fe054457e2",
+      "text": "Procuration: Engrave"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "e8505d3c68aef11c076cc220bf6ba2307ef5a6f4c0bccc0a029c48790d6ae83a",
+      "text": "Coin Power +1 per 6 total own Poise and target Sinking (max 2)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "277bdc2cdd65ca48b4507b17559378935634dd0bb5b0c1be2dfef4e244c4f6f6",
+      "text": "[Combat Start] With Onus or against The Prescript's Target - The Index, the final Coin becomes Unbreakable"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "a95265ec56b5aaa7776a8f7d3d2924a4aba49e50395e61f0dfedfc8125ac87a1",
+      "text": "[On Use] Against The Prescript's Target - The Index, damage +50%"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "2bc31e613a42a2a65bb55609ee69698850701ee6a8bd25443377f46cb6c684af",
+      "text": "[On Use] Gain 3 Poise and 3 Poise Count"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "77a52ac104cd8d5d8e27827c3635e5eb2f7e15aa2474d3381efd03fa74b9b45b",
+      "text": "[On Clash Lose] Damage -80%; hits cannot Stagger targets or activate Sinking"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "246876747720d069549d67a222ec22438d7056973d8c7c0f0345c6d6d0306027",
+      "text": "[After Attack] Lose 6 SP"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "5766c590aea49e96a0a4c2c058483dc6930e1007c16cf91f0914b2925057186a",
+      "text": "Ⅰ[On Hit Without Coin Destruction] Inflict 3 Sinking"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "bad6d4060ac275153ca466cc135d2f005848a46f028c95cbee1011441fa86762",
+      "text": "Ⅱ[On Hit Without Coin Destruction] Sinking Count +3"
+    },
+    "skills.6.response": {
+      "sourceHash": "32c3d276d4886a45c8fe83b5aee1df91171ff5bbd1b30f22b56f68861d4cd716",
+      "text": "Deals +50% damage to the Prescript's target; Poise and Sinking also raise Coin Power. Winning grants 80% reduction and prevents Stagger/Sinking from those hits. Do not ignore dangerous attacks left after Vespa joins."
+    },
+    "skills.7.name": {
+      "sourceHash": "9274040812fd126d7b0988f4399056a7f482f1e50c73f6dd1836af829952b5f3",
+      "text": "Procuration: Annihilate"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "5a21af34804675189fcb7b2c8c344a1df4f23772806887b543fb40133c162979",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "8bccb1e0caf250d3b568317612b3399347b12d9800a25fc64368f490c655de46",
+      "text": "[On Use] Against The Prescript's Target - The Index, damage +100%"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "bc431cd850bd57c72818f733f9729e4df0afc77aafaf99b8207f2df0fccb3241",
+      "text": "[On Clash Lose] Gain 3 Power Down and 4 Paralyze"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "fd52ea83bcfa485d0ae38f9146290f9f6b9a61f1071a4f7d6e6bf90b1fac05a4",
+      "text": "[On Clash Lose] Damage -90%; hits cannot Stagger targets or trigger Sinking"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "bdb8f24796dbdeb84a44a5530406638a76e4c68e6ec8c38f1458dae359ca49a9",
+      "text": "[After Attack] Consume 15 SP"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "2a052b1c61d02659df79ad8f63be3f275a70d644be19513c2056870ffc84e1b4",
+      "text": "[After Attack] Consume all Onus"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.7.effects.9": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.7.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.7.effects.11": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.7.effects.12": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.7.effects.13": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.7.response": {
+      "sourceHash": "4ddb67a6e10c17fe90248f1aca17a910b13c0df8c7898fdd5fa05cdbc4b7d6f9",
+      "text": "4 Unbreakable Coins, clashable regardless of Speed. Win with high Power for 90% damage reduction and 4 Paralyze. Unlike Immanent Yearning, this skill has substantial clash-loss mitigation."
+    },
+    "skills.8.name": {
+      "sourceHash": "af4ffe3e8f04633ba1f5933b8d60c2c7c08b1a855f1ab564d3c207aaa8c7ac8b",
+      "text": "Procuration: Annihilation - Mang of Immanent Yearning [本望]"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "60142da9519b2b016db313c838d5d2fc563cda2f2d9903c8e4c1ada5dc5f3079",
+      "text": "[On Use] At 0 SP or higher, generate 1 Mang"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "9375c9669b61e1bcfdc449ed500246b3f2aef8683825fe6e22cf71725b996461",
+      "text": "- Damage +20%; Final Power and Coin Power +2 each"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "b192d46eb2fb26adbd2be8b3168564ff351f6e61cc00e4c4b2cf20266b310ee3",
+      "text": "[After Attack] Lose 15 SP"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "7d777e278854867b0b78967e52953db4d3328d410142434abb8e3dc6bd2a96b3",
+      "text": "[After Attack] If a Mang was generated, consume 20 SP"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "a1f25d7516401a74308ae34f80fc51359aba34596a0f19c34b9fe8713558661b",
+      "text": "[After Attack] Consume all Onus and end the turn"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.8.effects.10": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.8.effects.11": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.8.effects.12": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.8.effects.13": {
+      "sourceHash": "5619575d633111311db2365d452d1dd756dffed78cc31600b41a64824f2dc47e",
+      "text": "ⅤUnbreakable Coin"
+    },
+    "skills.8.effects.14": {
+      "sourceHash": "504301bae51fde72efb1c126ab582ec27b5f159b529d141901ce1388c9cd1ada",
+      "text": "[On Hit] Inflict 1 Sinking"
+    },
+    "skills.8.response": {
+      "sourceHash": "dfb653cc8f1b31ae976afa97375112e6827b353351da39289fa3757bfc9355c7",
+      "text": "5 Unbreakable Coins. At 0 SP or higher, generates Mang and gains +2 Final Power and Coin Power. Unlike other Annihilate skills, it has no clash-loss damage reduction. Avoid redirecting it away from Vespa; also account for the turn ending afterward."
+    },
+    "passives.0.name": {
+      "sourceHash": "4703044c9c806300ffef58e7b43b8da256da2e67fdad587f49ce384188c13e4c",
+      "text": "Prescript Delivered on a Device"
+    },
+    "passives.0.effect": {
+      "sourceHash": "60e28516f8b66838ae479849d49e4567da8b616f8d4a5d746dcf1eb8119e3aeb",
+      "text": "At encounter start, gain Shield equal to 50% maximum HP (persists for this encounter).\n\nAt Turn Start:\n- Gain a Prescript based on Unlock stage.\n- Mark a random enemy with The Prescript's Target - The Index and prioritize them, except for specific patterns.\n\nDamage to that target +2.5% per Grace of the Prescript (max 20%).\n- At 9 Grace, instead deal +30% damage to all targets."
+    },
+    "passives.0.condition": {
+      "sourceHash": "e8ea66c9a1015037670d62fd1c45ae0a42d2666cbac1c6dd372d9ce1f7d4502b",
+      "text": "Encounter start / choosing each turn's Prescript target"
+    },
+    "passives.0.response": {
+      "sourceHash": "f73195c14a56d2e0d45021b600d4b8b2769103179f88c27a0bf4e9c38fc5fd49",
+      "text": "Do not focus only on damage to break the initial 750 Shield. Read the mark and Prescript conditions to prevent hits."
+    },
+    "passives.1.name": {
+      "sourceHash": "4703044c9c806300ffef58e7b43b8da256da2e67fdad587f49ce384188c13e4c",
+      "text": "Prescript Delivered on a Device"
+    },
+    "passives.1.effect": {
+      "sourceHash": "60e28516f8b66838ae479849d49e4567da8b616f8d4a5d746dcf1eb8119e3aeb",
+      "text": "At encounter start, gain Shield equal to 50% maximum HP (persists for this encounter).\n\nAt Turn Start:\n- Gain a Prescript based on Unlock stage.\n- Mark a random enemy with The Prescript's Target - The Index and prioritize them, except for specific patterns.\n\nDamage to that target +2.5% per Grace of the Prescript (max 20%).\n- At 9 Grace, instead deal +30% damage to all targets."
+    },
+    "passives.1.condition": {
+      "sourceHash": "e8ea66c9a1015037670d62fd1c45ae0a42d2666cbac1c6dd372d9ce1f7d4502b",
+      "text": "Encounter start / choosing each turn's Prescript target"
+    },
+    "passives.1.response": {
+      "sourceHash": "f73195c14a56d2e0d45021b600d4b8b2769103179f88c27a0bf4e9c38fc5fd49",
+      "text": "Do not focus only on damage to break the initial 750 Shield. Read the mark and Prescript conditions to prevent hits."
+    },
+    "passives.2.name": {
+      "sourceHash": "1f24ed43969fbad5ddf30ab75c7814ef009ad45969925070bc52825b1afa546b",
+      "text": "Will of the Prescript"
+    },
+    "passives.2.effect": {
+      "sourceHash": "98349903ac5830987edbce0ad71e85e1adb5c399c7d1e871f16aa75de0b30426",
+      "text": "If the Prescript was completed this turn, at Turn End heal 15 SP and gain (Unlock stage + 1) Grace of the Prescript (once per turn).\n\nIf not completed, at Turn End gain 1 Onus and 5 Karmic Consequence.\n- Without Unlock, also gain 1 Grace of the Prescript.\n- At 9 Grace, do not gain Karmic Consequence.\n- While Effloresced E.G.O::Procuration is active, double Karmic Consequence gained."
+    },
+    "passives.2.condition": {
+      "sourceHash": "d61f123b1ef69ebc83f24d33d2b7aafffec3b3d16f2d806e04a30f85369a46d6",
+      "text": "Prescript completed / failed"
+    },
+    "passives.2.response": {
+      "sourceHash": "108f46da2fc8fd3a336ce8266b48904e38ce85b52e29e8889b16a38cd9a50eb3",
+      "text": "Preventing completion stops SP recovery but adds Onus and Karmic Consequence. Failure does not prevent every enemy buff."
+    },
+    "passives.3.name": {
+      "sourceHash": "1f24ed43969fbad5ddf30ab75c7814ef009ad45969925070bc52825b1afa546b",
+      "text": "Will of the Prescript"
+    },
+    "passives.3.effect": {
+      "sourceHash": "98349903ac5830987edbce0ad71e85e1adb5c399c7d1e871f16aa75de0b30426",
+      "text": "If the Prescript was completed this turn, at Turn End heal 15 SP and gain (Unlock stage + 1) Grace of the Prescript (once per turn).\n\nIf not completed, at Turn End gain 1 Onus and 5 Karmic Consequence.\n- Without Unlock, also gain 1 Grace of the Prescript.\n- At 9 Grace, do not gain Karmic Consequence.\n- While Effloresced E.G.O::Procuration is active, double Karmic Consequence gained."
+    },
+    "passives.3.condition": {
+      "sourceHash": "d61f123b1ef69ebc83f24d33d2b7aafffec3b3d16f2d806e04a30f85369a46d6",
+      "text": "Prescript completed / failed"
+    },
+    "passives.3.response": {
+      "sourceHash": "108f46da2fc8fd3a336ce8266b48904e38ce85b52e29e8889b16a38cd9a50eb3",
+      "text": "Preventing completion stops SP recovery but adds Onus and Karmic Consequence. Failure does not prevent every enemy buff."
+    },
+    "passives.4.name": {
+      "sourceHash": "75a8ec42b127c6f16f9e4083fc4cc67ff2f33f7146507693f693d0bfb7094704",
+      "text": "Unlock"
+    },
+    "passives.4.effect": {
+      "sourceHash": "517546691f435974c956b359c811887ea4aa99e4628a399f6efbeb2d263169a8",
+      "text": "At Turn End with 3/6/9 Grace of the Prescript or HP at 90%/75%/60% or lower:\n- Gain Unlock - I / II / III.\n- Restore SP to 45.\n- Consume all Onus and recover from Stagger.\n\nWhen gaining Unlock through HP:\n- Gain Karmic Consequence equal to (SP recovered ÷ 15).\n- If Grace is below 3/6/9, raise it to that value. Per stack gained, gain 1 Defense Level Down and 2 Karmic Consequence at the next Turn Start.\n\nMinimum/maximum Speed +10 on powerful-attack turns.\n“The sword and cloth bestowed by the Prescript unlock and manifest their powers only when the Prescript is fulfilled.”"
+    },
+    "passives.4.condition": {
+      "sourceHash": "2ae3d6b2b2589addea39d9accfdde6e53dafb80261033bf517cfaf3164de4f96",
+      "text": "3/6/9 Grace of the Prescript or 90%/75%/60% HP or lower"
+    },
+    "passives.4.response": {
+      "sourceHash": "cb8420f3062fbcd89e454897a657f2008841ebe0394f545d1bc10772226cb37b",
+      "text": "Rapid HP damage also advances stages, restores SP to 45, and clears Stagger. Unlock does not progress through Grace alone."
+    },
+    "passives.5.name": {
+      "sourceHash": "75a8ec42b127c6f16f9e4083fc4cc67ff2f33f7146507693f693d0bfb7094704",
+      "text": "Unlock"
+    },
+    "passives.5.effect": {
+      "sourceHash": "517546691f435974c956b359c811887ea4aa99e4628a399f6efbeb2d263169a8",
+      "text": "At Turn End with 3/6/9 Grace of the Prescript or HP at 90%/75%/60% or lower:\n- Gain Unlock - I / II / III.\n- Restore SP to 45.\n- Consume all Onus and recover from Stagger.\n\nWhen gaining Unlock through HP:\n- Gain Karmic Consequence equal to (SP recovered ÷ 15).\n- If Grace is below 3/6/9, raise it to that value. Per stack gained, gain 1 Defense Level Down and 2 Karmic Consequence at the next Turn Start.\n\nMinimum/maximum Speed +10 on powerful-attack turns.\n“The sword and cloth bestowed by the Prescript unlock and manifest their powers only when the Prescript is fulfilled.”"
+    },
+    "passives.5.condition": {
+      "sourceHash": "2ae3d6b2b2589addea39d9accfdde6e53dafb80261033bf517cfaf3164de4f96",
+      "text": "3/6/9 Grace of the Prescript or 90%/75%/60% HP or lower"
+    },
+    "passives.5.response": {
+      "sourceHash": "cb8420f3062fbcd89e454897a657f2008841ebe0394f545d1bc10772226cb37b",
+      "text": "Rapid HP damage also advances stages, restores SP to 45, and clears Stagger. Unlock does not progress through Grace alone."
+    },
+    "passives.6.name": {
+      "sourceHash": "20aea8cefd7124f3848721f132bf9024dc53c4c129ef0504e28c1b53eb827311",
+      "text": "Effloresced E.G.O::Procuration"
+    },
+    "passives.6.effect": {
+      "sourceHash": "03583a2014016f3fb771b6129217acb83c0fb60267b232c670f2e61801b6719a",
+      "text": "At Turn Start with Unlock and 25+ SP, consume 15 SP to enter Effloresced E.G.O::Procuration and clear Stagger.\n- Resistances change and gain Faith Beyond Question while active.\n- Ends at Turn Start with 0 SP or lower."
+    },
+    "passives.6.condition": {
+      "sourceHash": "130e425b878b5b45682381d19a0363e55080cdcb052a62c29ca581924f2e5540",
+      "text": "Unlock present / 25+ SP at Turn Start"
+    },
+    "passives.6.response": {
+      "sourceHash": "a6a1d629255d46b2d428426354cf7297b3bf4756564c565f7f76a619c283c354",
+      "text": "Spend 15 SP to Effloresce, changing resistances and skills. Can end at Turn Start with 0 SP or lower, but distinguish this from the SP floor after Vespa joins."
+    },
+    "passives.7.name": {
+      "sourceHash": "20aea8cefd7124f3848721f132bf9024dc53c4c129ef0504e28c1b53eb827311",
+      "text": "Effloresced E.G.O::Procuration"
+    },
+    "passives.7.effect": {
+      "sourceHash": "03583a2014016f3fb771b6129217acb83c0fb60267b232c670f2e61801b6719a",
+      "text": "At Turn Start with Unlock and 25+ SP, consume 15 SP to enter Effloresced E.G.O::Procuration and clear Stagger.\n- Resistances change and gain Faith Beyond Question while active.\n- Ends at Turn Start with 0 SP or lower."
+    },
+    "passives.7.condition": {
+      "sourceHash": "130e425b878b5b45682381d19a0363e55080cdcb052a62c29ca581924f2e5540",
+      "text": "Unlock present / 25+ SP at Turn Start"
+    },
+    "passives.7.response": {
+      "sourceHash": "a6a1d629255d46b2d428426354cf7297b3bf4756564c565f7f76a619c283c354",
+      "text": "Spend 15 SP to Effloresce, changing resistances and skills. Can end at Turn Start with 0 SP or lower, but distinguish this from the SP floor after Vespa joins."
+    },
+    "passives.8.name": {
+      "sourceHash": "9ea92aa632ba8762c5efd0124438b19962ccbed2dedf1317d7ccec9775023500",
+      "text": "Annihilation Form"
+    },
+    "passives.8.effect": {
+      "sourceHash": "ae4d9d36d49101f2e317704d555332230b37ce292177508a3a931259856b9929",
+      "text": "When Vespa enters:\n- If below Unlock stage II, gain Unlock - II and set Grace of the Prescript to 6. Per added Grace, gain 1 Defense Level Down and 2 Karmic Consequence at Turn Start.\n- Gain Shin (心) - Sora and Shield equal to 50% maximum HP, lasting for the encounter.\n- Disable Unlock's Onus consumption.\n- Replace Onus with Extreme Onus at maximum stacks; gain 1 Extreme Onus at Turn Start.\n- Raise SP up to 30; gain (SP recovered ÷ 10) Karmic Consequence.\n- SP can no longer fall below 0.\n\nAt 20% HP or lower, maximize Extreme Onus.\n“D-dangerous... I might not be able to execute the P-Prescript.”"
+    },
+    "passives.8.condition": {
+      "sourceHash": "455b9480937ce165314f4174f2ac96bb507f20e23dad09d2e91bde4cdf315f7a",
+      "text": "Vespa entering"
+    },
+    "passives.8.response": {
+      "sourceHash": "c6d4627aac0eb3057543269f0c81530b2b53cb19c8318ab5d57724dccf27bba0",
+      "text": "Moves to Unlock II or higher, extra Shield, and Extreme Onus. SP no longer falls below 0; do not persist with the same SP-control plan as before reinforcements."
+    },
+    "passives.9.name": {
+      "sourceHash": "9ea92aa632ba8762c5efd0124438b19962ccbed2dedf1317d7ccec9775023500",
+      "text": "Annihilation Form"
+    },
+    "passives.9.effect": {
+      "sourceHash": "ae4d9d36d49101f2e317704d555332230b37ce292177508a3a931259856b9929",
+      "text": "When Vespa enters:\n- If below Unlock stage II, gain Unlock - II and set Grace of the Prescript to 6. Per added Grace, gain 1 Defense Level Down and 2 Karmic Consequence at Turn Start.\n- Gain Shin (心) - Sora and Shield equal to 50% maximum HP, lasting for the encounter.\n- Disable Unlock's Onus consumption.\n- Replace Onus with Extreme Onus at maximum stacks; gain 1 Extreme Onus at Turn Start.\n- Raise SP up to 30; gain (SP recovered ÷ 10) Karmic Consequence.\n- SP can no longer fall below 0.\n\nAt 20% HP or lower, maximize Extreme Onus.\n“D-dangerous... I might not be able to execute the P-Prescript.”"
+    },
+    "passives.9.condition": {
+      "sourceHash": "455b9480937ce165314f4174f2ac96bb507f20e23dad09d2e91bde4cdf315f7a",
+      "text": "Vespa entering"
+    },
+    "passives.9.response": {
+      "sourceHash": "c6d4627aac0eb3057543269f0c81530b2b53cb19c8318ab5d57724dccf27bba0",
+      "text": "Moves to Unlock II or higher, extra Shield, and Extreme Onus. SP no longer falls below 0; do not persist with the same SP-control plan as before reinforcements."
+    },
+    "passives.10.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.10.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.10.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.10.response": {
+      "sourceHash": "13c8e846d432b53419980b865c9023918459f45b17f2d53d36e33afe9695a869",
+      "text": "SP resets to 0. Do not assume sustained Panic alone will keep the team alive."
+    },
+    "passives.11.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.11.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.11.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.11.response": {
+      "sourceHash": "13c8e846d432b53419980b865c9023918459f45b17f2d53d36e33afe9695a869",
+      "text": "SP resets to 0. Do not assume sustained Panic alone will keep the team alive."
+    },
+    "passives.12.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.12.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.12.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.12.response": {
+      "sourceHash": "b898ba8c89d197cb1a6f6d1017b926e132abb9a6134e04450d3ed7397c352c3d",
+      "text": "Do not rely on replacing Panic type to disable her."
+    },
+    "passives.13.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.13.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.13.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.13.response": {
+      "sourceHash": "b898ba8c89d197cb1a6f6d1017b926e132abb9a6134e04450d3ed7397c352c3d",
+      "text": "Do not rely on replacing Panic type to disable her."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "8223be3310ee0aca4ef5a0f59608a0b503b8f6c0d7a35f33eaf7235c2b7b773e",
+      "text": "Mutilated Memory and Recollection"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "1706c8fc2511d0d94d51230323ecfbe405ec21a710678e061e9dcd1743494e2d",
+      "text": "Ryōshū gains +1 slot and +10% damage against Spiderweb. Damage that would Stagger removes her Stagger Thresholds and grants 1 Attack Power Up next turn (once per turn). Skill use grants 1 resource matching the skill and 1 of a scarce affinity (twice per turn). Cannot retreat."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9c962d2d1b62a43a0e6dd0f96a40901b31454c682e10f628701655a82ffb016d",
+      "text": "Ryōshū cannot die while another ally lives. Spend resources on healing and enemy debuffs while protecting allies too."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "10aa9bbf38c7f43a30ce2afb42a79e2c8a464943c7bcda805b6655165349bb48",
+      "text": "The Prescript's Target - The Index"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "9ae87adad3ddd627f493e588b5e1085a65593673c3cd1289ac47bcd194953d33",
+      "text": "Skill Power -2 against the Index; damage taken +20%. Becomes Sora's priority target."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "31e8f77a11792116edb57cbf67f4e74688a30c2ea761ce72c0d12f36bb828f83",
+      "text": "Redirect attacks with other Sinners to avoid concentrating hits on the marked Sinner."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "303a21537d30f7c2815bed3cfd67eb0e79aa8248082bcba465904e9fc34f4ef5",
+      "text": "Prescript: [Device] I"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "73d128cdc25d04834d10c908f4394b62c3ceee00c943bd0fbb5665db96bc036f",
+      "text": "Completed by hitting the Prescript's target. Granted without Unlock; Grace gained through this Prescript caps at 3."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "3f005316cf797e943621a19665e33e53df7225be3b25981b6dc10fc29232e678",
+      "text": "Redirect to other Sinners and prevent hits."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "5f2e4aeebdb22ffaec1f18dd69ad284f329d8e6c321d9310119b7235f01ca22d",
+      "text": "Prescript: [Device] II"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "2c5653d3458639febc94ad5ec5eae7ab04f7675ccdce3b7be3a7269542d984f8",
+      "text": "Completed by hitting the Prescript's target with the first slot's skill or killing the target. Granted at Unlock I; Grace caps at 6."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "c71a098fac3ed693509743f5079bf4940447ea181073c530496e66aeb9e8aefa",
+      "text": "Check the first slot and designated target together; prioritize necessary clashes."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "3a9a0e5d564cf6774469182947b4adf510096b35d9e80705705e8a661f5a4ee0",
+      "text": "Prescript: [Device] III"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "8235e9160169f2a161d3922951be05cea78d9e07afcda7cb5815bbbdc9dda1e1",
+      "text": "Completed by Staggering or killing the target. Granted at Unlock II; Grace caps at 9."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "f5db99a40e4b751bf2f2198e6d8ddf38d7063edb9ebd0e1f002c7adb4e61b2da",
+      "text": "Heal low-HP Sinners or those near Stagger, and stop strong attacks."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "2209dfb8b56daea4af1495170a86d69fb53620ffaa44dc2247aa27f52f7e5619",
+      "text": "Prescript: [Device] IV"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "a1e8f4b0a8b1ac4170255bdd49999b8aa8107ba1abb45d062d76f88c9a5a6dde",
+      "text": "A Prescript to eliminate every obstacle. Granted at Unlock III."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "60994d8dc3025fb786b201d31f43ed33b6b925024864b5aeb17b9841964afb65",
+      "text": "Later, prioritize NPC support and survival rather than only preventing Prescript completion."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "f66f03fcbbe887d3a6c8efdfd333a86e6d786caf25200695e4bd43719abe83ad",
+      "text": "Grace of the Prescript"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "807b3d25e3bbbec205d62b50b492fda69f21156efeea9b3da18f607a62dd5b4a",
+      "text": "Max 9. Offense Level +1 per 3. Unlock progresses at 3/6/9."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "7a54bccc3afe020f101e1fa9e10318ed8027860d4f2d966969fc78d9b5bc4035",
+      "text": "HP conditions also advance stages; do not assess progression from Grace alone."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "5d2adb2352f5125b11822a1b9dd15fc078510863076c632985b6c06c94779357",
+      "text": "Unlock - I"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "5f2539bfe08c8d9e3dcdfcaffeaed2555c2d40b2326d21627d7de7f412592084",
+      "text": "Offense/Defense Levels +1; heal 15 SP at Combat End. II grants +2 and 30 SP; III grants +3 and 45 SP."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "46267f3c30c18bb04e45a23ade353e8e167ce48b58db93a0674deefcee0376ec",
+      "text": "Check the current Unlock stage against base values."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "171935884234fcdeee622f9ac6df7ac78b272127fed72306344399612879d6f2",
+      "text": "Onus"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "3cf3506ac084dc0a918ef211ff5eb0ab78be80dbbb446c9c97453f3180d387d5",
+      "text": "Max 2. Damage +25% per stack. While Effloresced, Final Power +1 at 1 stack, or +3 at 2 instead."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "1d0c701c6b47e6abd834425897122070f1112a2691b10c010c5e84296579bbe9",
+      "text": "Preventing Prescripts still strengthens the enemy. At high Onus, prepare for skills that cannot be redirected."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "57a3b22f3477b74df39daa60382409eb2070fc11b8bebd4cde39a984e2072adf",
+      "text": "Extreme Onus"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "c526e24e26c2ca5b54cdc7f048c1fb55036bb4e788117515ea6a3193409c9e47",
+      "text": "Max 2. Damage +50% per stack. While Effloresced, 1 stack grants +2 Final Power; 2 grant +1 Plus Coin Power and +3 Final Power. Certain skills consume this as Onus."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "698cf898d8ea0da1b988cceddbc7ee812b3f826622ea374e3fcaa2c4251e3ab5",
+      "text": "Substantial buffs after Vespa joins. Do not underestimate the skills left to Sinners."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "a873ac93fa86913d192c68f98e76b3bc9766e4d197c2505d764b72b02db18cc6",
+      "text": "Karmic Consequence"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "63af88edf13bb85f90435e013388f736dde99114507b3fc48d5e5d45b502e551",
+      "text": "Max 100. At Turn Start, gain 1 Defense Level Down per 10 and 1 Fragile per 20."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "b6be33d1a2c22559e8fdc50caca5939ede8266e4278157d495a835aa432762aa",
+      "text": "Enemy debuffs gained through failed Prescripts and other effects. Do not disrupt survival preparations just to build stacks."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "02fcc65ddb66d04853baf1a29e783b2bc02c0fd344e97b8286e029a21a5ed0f8",
+      "text": "Faith Beyond Question"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "21b95a94b8f9adc579b31e1e4147ada121aa7ba9cb58864cb3cf45fef53b55d2",
+      "text": "Speed range +1, Offense/Defense Levels +3, and +1 Poise Potency gained from skills."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "a1c6b3802b757bbe365b9897e157753dd1dc7a76abc93c912f8b648561a0bb63",
+      "text": "An Efflorescence buff; distinguish it from normal-form Power and resistances."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "de014fdd344a08e3a0253e469a8d804af4f60aaf2f648c3b9f18160b9740a263",
+      "text": "Shin (心) - Sora"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "2295c25a93964167acbd6830d4b43deff7c708840138ccb7315ca34576c3c92c",
+      "text": "Speed range +1, Offense/Defense Levels +2, and +1 Poise Potency/Count gained from skills. Damage increases by 25% plus the percentage of HP lost (max 100%)."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "dcd6bf9be7be1d7b167648b0347173c29216ee387fa759321d48b8f2e50f5825",
+      "text": "Use NPC support later while Sinners stop remaining attacks."
+    },
+    "mechanics.13.name": {
+      "sourceHash": "6e008b0ea8c4fd12384b3dd7012dee4cf3fb2e07fe6d25fd3893d05e6318b726",
+      "text": "Assist Defense"
+    },
+    "mechanics.13.effect": {
+      "sourceHash": "4313a71f171d11756f8e9860d950d4ca93f90960a916319271a9785f0a864ae4",
+      "text": "Vespa's support intercepts one-sided attacks on allies with no defense skills equipped."
+    },
+    "mechanics.13.response": {
+      "sourceHash": "d8daa09447d3f1d2577aeeeafd572e9f46b7804da0b368e37b4396b35fbc3de4",
+      "text": "Do not clash against attacks left to Assist Defense or equip defense on the targeted Sinner. Also check that the NPC support effect is active that turn."
+    },
+    "warnings.0": {
+      "sourceHash": "75d2653c71f3d3f507a4c8609bae51a4a74158f98f6d8afbd52f2e20607df050",
+      "text": "Ryōshū cannot die only while another ally survives. NPC arrival does not permit victory after all Sinners die."
+    },
+    "warnings.1": {
+      "sourceHash": "6ba97aa4a0634714f85fd886b05b1c898f4bdb026dfb6e04248548080a7917da",
+      "text": "Preventing Prescripts adds Onus; it does not stop all buffs."
+    },
+    "warnings.2": {
+      "sourceHash": "b12188331d626a943f0c8317d23fb516dcdee566d7a38e7c29fc44cfa5356d81",
+      "text": "Assist Defense requires no defense skill equipped. Adding Evade or Guard against the one-sided attack can prevent support from activating."
+    },
+    "warnings.3": {
+      "sourceHash": "51210106a9789cee0d2b62d54aa02cad24dff80622f0039f5f2865eeeb2b9380",
+      "text": "I-I Have to Execute the Prescript Soon...! disables defense activation. Onus can also make it unredirectable."
+    },
+    "warnings.4": {
+      "sourceHash": "08f69eb6f9d116d5811fe3e57a26fcc12ecf9c04cfbd35f4ed440367af6c24e2",
+      "text": "The Immanent Yearning variant lacks ordinary Annihilate's clash-loss mitigation. Avoid needlessly redirecting attacks meant for the NPC."
+    },
+    "preparation.0": {
+      "sourceHash": "8ae943cdce38cdf1b722e21184add73cf19e0f302d28f3f5b3ff3f6fbace5263",
+      "text": "Recommended Level 60. Level the 4 available Sinners, bringing HP/SP recovery and Attack Power Down. Use Ryōshū's resource generation to recover."
+    },
+    "preparation.1": {
+      "sourceHash": "4a52727299242283d86588b12a832a748c5e0043138fabcff08b62bca764ac1f",
+      "text": "SP reduction such as Sinking can help end Efflorescence before Vespa joins. Later, prioritize the SP floor and NPC support conditions."
+    },
+    "roles.0.name": {
+      "sourceHash": "da776574f6d1e13f6ed9e41079043a03bd6e86bcb1c5df204aa9637b2dac3de7",
+      "text": "Clash handlers other than the Prescript's target"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a94f8dc6dba2fa2ac398d1ac371ad4f946c9ad7af1e56cdfd1468008391fe1b7",
+      "text": "Limit hits on the designated target and prevent SP recovery."
+    },
+    "roles.1.name": {
+      "sourceHash": "4b24c90f782ca48e0c7ca65384f8b6f464282a4f4907ac5025a8014c7a8f2604",
+      "text": "Ryōshū healing and resource use"
+    },
+    "roles.1.reason": {
+      "sourceHash": "e6d7ed62d94e9284cf68e3480d4bd71ad8fc7bf375fd2ce9959dbe87730027af",
+      "text": "Use survival support to sustain healing and debuffs."
+    },
+    "roles.2.name": {
+      "sourceHash": "7ccc9cb9d8265f7679c0127dbf49db360f007a2e6c783fa21cc40e4f6b8dc54e",
+      "text": "Handlers for attacks Vespa leaves"
+    },
+    "roles.2.reason": {
+      "sourceHash": "bebba40d3763865682fca9441a3f79f8301631023a08126ebb2e3ee345a83d00",
+      "text": "Maintain support conditions and handle only attacks left to Sinners."
+    }
+  },
+  "messages": {
+    "boss-copy:sora": "complete",
+    "【リンバス】9-30 ソラ（9-30）の攻略｜Limbus Assistant": "9-30 Sora (9-30) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-30「ソラ（9-30）」の攻略。前半は指令対象への的中を防ぎ、後半はベスパの援護を使って生き残る戦闘。火力だけを追わず、良秀の資源獲得と回復を使い、援護防御の条件を崩さない。": "Sora (9-30) guide for Limbus Company 9-30. Prevent hits on the Prescript's target early; later, survive with Vespa's support. Prioritize more than damage: use Ryōshū's resources and healing while preserving Assist Defense's conditions.",
+    "9-30 ソラ（9-30）": "9-30 Sora (9-30)",
+    "9-30「Will of the Prescript」": "9-30 · Will of the Prescript",
+    "人差し指の子方 - ソラの外見": "The Index Apprentice - Sora appearance",
+    "人差し指の子方 - ソラのスキル": "The Index Apprentice - Sora skills",
+    "The Index Apprentice - Soraの外見": "The Index Apprentice - Sora appearance",
+    "The Index Apprentice - Soraのスキル": "The Index Apprentice - Sora skills",
+    "ソラ・開花E.G.O::代行の外見": "Sora · Effloresced E.G.O::Procuration appearance",
+    "ソラ・開花E.G.O::代行のスキル": "Sora · Effloresced E.G.O::Procuration skills",
+    "Sora · Effloresced E.G.O::Procurationの外見": "Sora · Effloresced E.G.O::Procuration appearance",
+    "Sora · Effloresced E.G.O::Procurationのスキル": "Sora · Effloresced E.G.O::Procuration skills"
+  }
+}

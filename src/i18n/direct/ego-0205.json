@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0205.md",
+  "code": "0205",
+  "messages": {
+    "火傷が溜まった敵に撃って防御レベル減少で物理火力を底上げする、色欲斬撃の広域E.G.O(解析Ⅴ前提)。": "A multi-target Lust Slash E.G.O used on enemies with built-up Burn to inflict Defense Level Down and raise physical damage (assumes Threadspin Ⅴ).",
+    "防御レベル減少: 的中時に防御レベル減少5を付与し、さらに対象の火傷2を防御レベル減少1に変換する(最大5)。合計で最大10になる(5+5)。変換しても対象の火傷は1未満にならない。": "**Defense Level Down**: On hit, inflicts 5 Defense Level Down and converts every 2 Burn on the target into 1 Defense Level Down, up to 5. The total reaches up to 10 (5+5). The conversion cannot reduce the target's Burn below 1.",
+    "火傷によるダメージ増: 攻撃前に、全攻撃対象と自分の火傷威力の合計1につきダメージ量+5%(最大100%)。的中時には火傷3も付与する。": "**Damage from Burn**: Before attacking, +5% damage for every 1 total Burn Potency on all targets and herself, up to 100%. It also inflicts 3 Burn on hit.",
+    "広域化: 最大共鳴数が4以上で加重値+1、6以上でさらに+1。解析Ⅴでは色欲に限らず最大共鳴数で判定される。": "**Multi-target**: +1 Attack Weight at a highest Resonance of 4 or more, and +1 more at 6 or more. At Threadspin Ⅴ, it checks the highest Resonance of any affinity, not just Lust.",
+    "パッシブ「炎の剣」: 憤怒または色欲スキルの表面的中時に火傷1を付与する(1ターン最大6回)。対象の火傷が最大なら防御レベル減少1に変わる。暴食の基本スキルを使うと暴食の資源も1増える。": "**Passive — Flamebrand**: Inflicts 1 Burn on Heads Hit with a Wrath or Lust skill, up to 6 times per turn. If the target's Burn is at maximum, it becomes 1 Defense Level Down instead. Using a Gluttony basic skill also adds 1 Gluttony resource.",
+    "軽い資源: 色欲1・暴食2・傲慢1で、使用時に必要な暴食の資源が1減る。": "**Light requirements**: 1 Lust, 2 Gluttony, and 1 Pride, and the Gluttony required on use is reduced by 1.",
+    "火傷編成で火傷が十分に溜まった敵に撃つ。溜まる前に撃つと、後続の火傷依存の火力を落とすと考えられる。": "In Burn teams, use it on an enemy with plenty of Burn. Using it before Burn builds up likely lowers the damage of the Burn-dependent attacks that follow.",
+    "防御レベル減少は撃ったターンの味方の攻撃にだけ効くと考えられるため、味方より先に撃つ。": "Defense Level Down likely only affects allies' attacks on the turn it is used, so fire it before allies attack.",
+    "威力が18~26と高めなので、火傷を気にせずマッチ用に撃つこともできる。": "Its power is a fairly high 18–26, so it can also be used for Clashing without regard to Burn.",
+    "Ⅱ: パッシブが解放される。": "**Ⅱ**: Unlocks the passive.",
+    "Ⅲ: 最大色欲完全共鳴4以上で加重値+1。覚醒に火傷付与、侵蝕に束縛が付く。": "**Ⅲ**: +1 Attack Weight at a highest Lust Absolute Resonance of 4 or more. Adds Burn infliction to Awakening and Bind to Corrosion.",
+    "Ⅳ: 色欲完全共鳴6以上で加重値がさらに+1。火傷付与が表面限定でなくなる。": "**Ⅳ**: Another +1 Attack Weight at 6 or more Lust Absolute Resonance. Burn infliction no longer requires Heads.",
+    "Ⅴ: 暴食の必要数が減り、共鳴の色欲条件が外れ、火傷の消耗が緩む。防御レベル減少はパッシブでも付く。効果を使うなら解析Ⅴ必須と考えられる。": "**Ⅴ**: Reduces the Gluttony requirement, removes the Lust condition from the Resonance check, and eases the Burn consumption. The passive also inflicts Defense Level Down. Threadspin Ⅴ is likely essential to use its effects.",
+    "夜明事務所フィクサー: S1が火傷を付与する傲慢スキルで、S3は憤怒なので「炎の剣」が発動し、必要資源の傲慢も出せる。": "**[Dawn Office Fixer](persona:0216)**: Her Pride S1 inflicts Burn, and her Wrath S3 triggers Flamebrand, while also supplying the required Pride.",
+    "LCE E.G.O:: 紅炎殺: 火傷を扱う人格で、S3が憤怒、S2が傲慢なので、パッシブ「炎の剣」が発動し傲慢の資源も出せる。": "**[LCE E.G.O:: Ardor Blossom Star](persona:0211)**: A Burn Identity with Wrath S3 and Pride S2, so she triggers Flamebrand and supplies Pride."
+  }
+}

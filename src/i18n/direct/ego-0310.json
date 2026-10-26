@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0310.md",
+  "code": "0310",
+  "messages": {
+    "マッチ勝利で体力の低い味方を回復し、敗北してもバリアと与ダメージ増加で受ける、嫉妬編成向けのZAYIN広域E.G.O。": "A multi-target ZAYIN E.G.O for Envy teams that heals low-HP allies on Clash Win and, even on Clash Lose, takes the hit with Shield and a damage bonus.",
+    "勝利時の回復: マッチ勝利後の攻撃終了時に、体力割合の低い味方(2+嫉妬共鳴数÷2)名を最大値の2%(解析Ⅲは4%、Ⅳは6%)回復し、精神力も5回復する。対象は最大3名(解析Ⅲ以降は4名)。": "**Healing on win**: At the end of the attack after a Clash Win, heals the (2 + Envy Resonance ÷ 2) allies with the lowest HP ratios by 2% of their max HP (4% at Threadspin Ⅲ, 6% at Ⅳ) and restores 5 SP. Up to 3 targets (4 from Threadspin Ⅲ).",
+    "敗北時の保険: マッチ敗北時に(嫉妬共鳴数×5)のバリアを得て、メインターゲットへの与ダメージ量が+100%(解析Ⅲは150%、Ⅳは200%)になる。": "**Insurance on loss**: On Clash Lose, gains Shield of (Envy Resonance×5), and damage against the main target becomes +100% (150% at Threadspin Ⅲ, 200% at Ⅳ).",
+    "破壊不能コイン: マッチ勝利後の的中時に次のターンの威力減少1を付与し、的中時に出血4を付与する。": "**Unbreakable Coin**: On hit after a Clash Win, inflicts 1 Power Down next turn, and inflicts 4 Bleed on hit.",
+    "パッシブ「此度はそなたが針を呑む番である…！」: 嫉妬スキルのダメージ量+10%に、嫉妬共鳴数1につき+1%(最大7%)。累積した体力ダメージに応じて攻撃レベルも上がる(最大3)。": "**Passive — 'Tis Thy Turn to Swallow the Needle!**: Envy skills deal +10% damage, plus +1% per Envy Resonance, up to 7%. Offense Level also rises based on accumulated HP damage, up to 3.",
+    "嫉妬共鳴を最低でも4は作れる編成で使う。共鳴が低いと回復と人数が伸びない。": "Use it in teams that can build at least 4 Envy Resonance. With low Resonance, the healing and number of targets stay small.",
+    "回復は小さいが気軽に撃てるので、数を重ねて体力を維持する。": "The healing is small, but it is easy to use, so use it repeatedly to keep HP up.",
+    "憤怒の耐性が普通なので、憤怒攻撃が多い戦闘ではZAYINのラ・サングレ・デ・サンチョ(憤怒が脆弱)の代わりに装備する手がある。": "Its Wrath resistance is Normal, so in fights with many Wrath attacks, equipping it instead of the ZAYIN La Sangre de Sancho (Fatal to Wrath) is an option.",
+    "必要資源は嫉妬5、精神消耗は覚醒・侵蝕とも20。": "It requires 5 Envy, with a Sanity cost of 20 for both Awakening and Corrosion.",
+    "Ⅱ: パッシブが解放されるが、回復量は小さい。": "**Ⅱ**: Unlocks the passive, but the healing is small.",
+    "Ⅲ: 回復量が2倍になり、精神力の回復対象も増える。バリアと与ダメージ量も上がり、最低でもここまで進めたいと考えられる。": "**Ⅲ**: Doubles the healing and increases the SP recovery targets. Shield and damage dealt also rise, so it is likely worth taking at least this far.",
+    "Ⅳ: バリア、与ダメージ量、回復量がさらに増える。": "**Ⅳ**: Further increases Shield, damage dealt, and healing.",
+    "中指末妹: 嫉妬スキルで資源と共鳴を作れ、パッシブ「怨恨の刺青」は味方が被ダメージを受けるほど強まる。": "**[The Middle Little Sister](persona:0306)**: Her Envy skills build resources and Resonance, and her passive Vengeance Tattoo grows stronger the more damage allies take.",
+    "ロボトミーE.G.O::愛と憎悪の名の下に: 嫉妬のスキルが多く、嫉妬共鳴を作りやすい。": "**[Lobotomy E.G.O:: In the Name of Love and Hate](persona:0312)**: Has many Envy skills, making Envy Resonance easy to build."
+  }
+}

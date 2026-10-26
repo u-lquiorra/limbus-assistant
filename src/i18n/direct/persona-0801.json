@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0801.md",
+  "code": "0801",
+  "messages": {
+    "速度の高さで先に動き、最大値の高い1コインスキルで敵の危険なスキルをマッチで止めるガードタンク。S3で入れる打撃脆弱で、味方の打撃攻撃も通しやすくする。": "A guard tank that acts early through high Speed and stops dangerous enemy skills with high-maximum-Power single-Coin clashes. S3's Blunt Fragility also helps allies' Blunt attacks deal damage.",
+    "速度と1コインスキル: 速度範囲値は5~6から、同期化で最大5~8まで伸びる。全攻撃スキルがコイン1枚なので、精神力が高いほど最大値を出しやすく、精神力が低いと崩れやすい。": "**Speed and 1-Coin skills**: Her Speed range starts at 5–6 and extends up to 5–8 through Uptie. All of her attack skills have 1 Coin, so higher SP makes it easier to roll her maximum, while low SP makes her crumble.",
+    "S3「防御」: マッチ威力8~20の1コイン打撃スキル。的中時に振動爆発し、打撃脆弱1を付与する。": "**S3 — Shield Bash**: A 1-Coin Blunt skill with Clash Power 8–20. Triggers Tremor Burst on hit and inflicts 1 Blunt Fragility.",
+    "S2「スライディング」: マッチ勝利時に守備威力減少1/3を付与する。的中時に振動3を付与。": "**S2 — Slide**: Inflicts 1/3 Defense Power Down on Clash Win. Inflicts 3 Tremor on hit.",
+    "振動: S2で振動3を入れてからS3を当てれば、単独でも振動爆発を狙える。S1「強打」は振動回数を1増やすだけなので、振動を本格的に活かすなら振動を付与する味方と組む。": "**Tremor**: Landing S3 after applying 3 Tremor with S2 lets her aim for Tremor Burst on her own. S1 Loggerhead only increases Tremor Count by 1, so to make real use of Tremor, pair her with allies who inflict it.",
+    "パッシブ: バトルパッシブ「足掻く」(憤怒×3・保有)は自分の体力が25%未満でマッチ威力+1。サポートパッシブ「生き残ってみせるという心」(憤怒×6・保有・同期化段階Ⅲで取得)は、体力が最も低い味方1名の体力が50%未満のときマッチ威力+1。": "**Passives**: The combat passive Last-ditch Struggle (3 Wrath Owned) gives +1 Clash Power below 25% of her HP. The support passive Determination to Survive (6 Wrath Owned; unlocked at Uptie Ⅲ) gives +1 Clash Power while the 1 ally with the lowest HP is below 50%.",
+    "速度で先に行動できるので、敵の強いスキルや味方が不利なマッチを引き受け、S3の高い最大値で止める。精神力が低い序盤は1コインの下振れで負けやすいため、慎重に立ち上げる。S3で入れた打撃脆弱は、打撃で殴る味方と組むと活きる。振動はおまけと考え、S2→S3の順で当てられたときや、振動を付与する味方がいるときにS3の振動爆発を活かす。": "Her Speed lets her act first, so she takes on the enemy's strong skills and Clashes unfavorable for allies, stopping them with S3's high maximum. Early on, when SP is low, her single Coin's low rolls make her lose easily, so start up carefully. The Blunt Fragility from S3 pays off when paired with allies who hit with Blunt. Treat Tremor as a bonus, making use of S3's Tremor Burst when S2 lands before S3 or when allies inflict Tremor."
+  }
+}

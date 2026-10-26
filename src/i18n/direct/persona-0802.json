@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0802.md",
+  "code": "0802",
+  "messages": {
+    "強力な2コインのS1でマッチを取りながら充電を貯め、前のターンまでに必要数を貯めてから4コインのS3「精神の鞭」で沈潜と混乱区間の前進を叩き込む人格。誤射の危険があるため、手動で操作するのが前提になる。": "Build Charge while clashing with a strong 2-Coin S1, then use the 4-Coin S3 Mind Whip after gathering enough Charge on previous turns to inflict Sinking and raise Stagger Thresholds. Manual control is essential because of the risk of friendly fire.",
+    "S3「精神の鞭」の判定タイミング: 充電回数を全て(上位段階では8)消耗する。戦闘開始時に充電回数が10/8未満だと、ランダムな相手への一方攻撃になる。判定は戦闘開始時なので、同じターンにS1・S2で得た充電は数えられない。": "**S3 Mind Whip's check timing**: Spends all Charge Count (8 at higher Uptie). If Charge Count is below 10/8 **at Combat Start**, it becomes a one-sided attack on a random target. The check happens at Combat Start, so Charge gained with S1 and S2 that same turn does not count.",
+    "充電の獲得: S1「精神加撃」は使用時と各コインの的中時に2ずつ、S2「灼きつける」は使用時に5/7、守備「回避」は回避成功時に1増える。上限は20で、ターン終了時に1減る。": "**Gaining Charge**: S1 Mind Strike adds 2 on use and on each Coin hit, S2 Flaying Surge adds 5/7 on use, and the Defense skill Evade adds 1 on a successful Evade. The cap is 20, and it decreases by 1 at Turn End.",
+    "S1「精神加撃」: マッチ威力は最大4~14の2コインスキル。マッチの主力になる。的中させないと充電の獲得が減る。": "**S1 — Mind Strike**: A 2-Coin skill with Clash Power up to 4–14. Her main Clash skill. If it does not hit, her Charge gain drops.",
+    "沈潜と混乱区間: S1で沈潜、S2で沈潜回数3を付与。S3は各コインで沈潜1を付与し、ダメージ量の40%→10%分の混乱区間を前進させる。": "**Sinking and Stagger Threshold**: S1 inflicts Sinking, and S2 inflicts 3 Sinking Count. Each Coin of S3 inflicts 1 Sinking and shifts the Stagger Threshold by 40%→10% of the damage dealt.",
+    "バトルパッシブ「脳波集束」(憂鬱×3・共鳴・同期化Ⅱで取得): 戦闘開始時に精神力-15。次のターン開始時に、攻撃威力増加を(憂鬱共鳴数÷3)だけ得る。": "**Combat passive — Brainwave Focus (3 Gloom Resonance; unlocked at Uptie Ⅱ)**: −15 SP at Combat Start. At the start of the next turn, she gains Attack Power Up equal to (Gloom Resonance ÷ 3).",
+    "S1を中心にマッチを取りつつ、S1・S2で充電を貯める。戦闘開始時の充電回数が10(上位段階では8)以上になっていることを確認してからS3を選ぶ。足りないままS3を選ぶと敵を倒し切っていても一方攻撃が出て味方に当たることがあるため、オートでの選択は避ける。上位段階(消耗8・上限20)では計算上1ターンに2発まで撃てる量になるが、S3の所持数は×1で、2発目の判定はデータからは確認できない。": "Take Clashes mainly with S1 while building Charge with S1 and S2. Only select S3 after confirming that Charge Count at Combat Start is 10 or more (8 at higher Uptie). Selecting S3 while short can produce a one-sided attack that hits allies even if the enemies are already defeated, so avoid letting auto select it. At higher Uptie (spend 8, cap 20), the numbers allow up to 2 uses per turn, but she only holds 1 copy of S3, and the check on a second use cannot be confirmed from the data."
+  }
+}

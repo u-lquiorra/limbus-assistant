@@ -1,0 +1,550 @@
+{
+  "kind": "boss-copy",
+  "id": "jun",
+  "source": "src/data/bosses/jun.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "黒雲会副組長 ジュン",
+          "en": "Kurokumo Clan Captain Jun",
+          "file": "Enemies-ycgd.json",
+          "id": "91013"
+        },
+        {
+          "ja": "鋭利な一撃",
+          "en": "Keen Strike",
+          "file": "Passives-ycgd.json",
+          "id": "9011001"
+        },
+        {
+          "ja": "抉り出し",
+          "en": "Brutal Stab",
+          "file": "Passives-ycgd.json",
+          "id": "9011301"
+        },
+        {
+          "ja": "後始末",
+          "en": "Clean Up",
+          "file": "Passives-ycgd.json",
+          "id": "9101302"
+        },
+        {
+          "ja": "鋭利な一撃",
+          "en": "Keen Strike",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9011302"
+        },
+        {
+          "ja": "墨雲",
+          "en": "Shadow Cloud",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101301"
+        },
+        {
+          "ja": "後始末",
+          "en": "Clean Up",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101302"
+        },
+        {
+          "ja": "雲斬り",
+          "en": "Lenticular Slash",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101303"
+        },
+        {
+          "ja": "鋭い刃",
+          "en": "Sharp Edge",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101304"
+        },
+        {
+          "ja": "快刀乱麻",
+          "en": "Sky-clearing Cut",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101305"
+        },
+        {
+          "ja": "裏路地の掟",
+          "en": "Rules of the Backstreets",
+          "file": "Skills_Enemy-ycgd.json",
+          "id": "9101306"
+        },
+        {
+          "ja": "黒雲刀",
+          "en": "Kokuuntō",
+          "file": "Passives-ycgd.json",
+          "id": "9101301"
+        }
+      ],
+      "note": "Names follow the paired Yield My Flesh to Claim Their Bones event records. The guide spelling 黒雲道 maps to 黒雲刀 / Kokuuntō, verified against passive 9101301 and its Slash Skill Final Power +1 effect. Lenticular Slash, Sharp Edge, Brutal Stab, Draw of the Sword, and Slay use the enemy records rather than same-named Identity skills. Normal story and dungeon variants, Shield amounts, Minus Coins, and temporary action-slot conditions are retained."
+    }
+  },
+  "scopedTerms": [
+    "雲斬り",
+    "鋭い刃",
+    "抉り出し",
+    "黒雲道",
+    "抜剣",
+    "処断",
+    "快刀乱麻"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "d150ac3314ebe8f5a9e26415c093c46ce388b52134e8ac45353095d81374f999",
+      "text": "Kurokumo Clan Captain Jun (5.5-22)"
+    },
+    "shortName": {
+      "sourceHash": "5c43dbf27f6d1a621ec86f4e37ae2e7af29d29d6a373eeaf268364ae151f9d83",
+      "text": "Jun"
+    },
+    "stageName": {
+      "sourceHash": "5829033a532e0125e1e83e59ad2b80f8f146817e1974aef92fde38bf3563d8c3",
+      "text": "Yield My Flesh to Claim Their Bones: Black Clouds"
+    },
+    "lead": {
+      "sourceHash": "ece201133c3ce7ca40e3be449c639b4be9b71b08784eda3f7d191d4cb23b9bc7",
+      "text": "More surviving adds mean more Coins on his ordinary Counter. Protect the first Sinner to trigger it, clear the adds, then finish him after the 30% HP Stagger. Sky-clearing Cut retains its Combat Start buffs even after he is isolated; save strong clash skills."
+    },
+    "listLead": {
+      "sourceHash": "1810307567fc30978a59fa137d409075b61866e2a00972b5ceb3da3d42135e1a",
+      "text": "More surviving adds mean more Coins on the ordinary Counter. Check the first attacker's resistances and HP, clear adds, then Stagger and finish. Prepare for the major attack after the boss is isolated."
+    },
+    "statNote": {
+      "sourceHash": "3ebb06591f1b22b4117a5ac6c1ef47c5c29be9cb2d535fdd91a33c8461919e47",
+      "text": "The Normal 5.5-22 boss: Level 40, 359 HP, and Defense Level 40. Slash multiplier 1.2, Pierce 0.5, Blunt neutral; all Sin resistances neutral. Hard, BokGak, and enhanced Mirror variants are excluded. Check the actual add types and numbers in combat. This is a regular encounter; do not assume the free targeting available in focused encounters."
+    },
+    "skillNote": {
+      "sourceHash": "0ce74d89bc703b6a1c4616c284628fb901452166ae39cf82f60530ee5b94bad4",
+      "text": "All 6 boss skills. Rules of the Backstreets adds up to 3 Coins to its base 1 according to surviving allies; displayed values are before additions. Base ranges also exclude Sky-clearing Cut's and Sharp Edge's Combat Start buffs and Kokuuntō's constant +1."
+    },
+    "priorities.0": {
+      "sourceHash": "9a9a76925fe7f7c421101e90d1edced5e00f2821250f660fda0b2c855af6add1",
+      "text": "Aim for Level 40 and Uptie III or higher on the main team. Bring Slash damage and Slash resistance for whoever takes the ordinary Counter."
+    },
+    "priorities.1": {
+      "sourceHash": "0b76da8161dd58b06d9efa14ca1c198db10b62b3c74687bee14edce7b50daecc",
+      "text": "With many surviving adds, the Counter reaches 4 Coins. Clear adds and avoid leaving the first Sinner attacking the boss at low HP."
+    },
+    "priorities.2": {
+      "sourceHash": "b57d4a30ae82f37bee597ff473835282fb79e368f2bf661806186f97c4da9549",
+      "text": "Aim for the 30% HP (108) Stagger. Save a powerful skill for Sky-clearing Cut before Stagger, accounting for Combat Start buffs too."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a23791fb335fb4b4b3deae751692e73d4a9d4b8454becd694befc4f116c5b583",
+      "text": "The Counter suddenly kills a main attacker"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "fae9269ba2240d09fcda8b57955c17e89e837c99814636837a3e918a49bd0dbd",
+      "text": "Rules of the Backstreets is an ordinary Counter reaching 4 Coins based on other living allies. Defense skills cannot Offset it. Remove adds or prepare resistance and HP for the first attacker."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "93b0655381dc5f0ffd0b3888a182337b384ca93a30709d7539aa5130356280b7",
+      "text": "Sky-clearing Cut wins despite a favorable prediction"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "1b6142259cbb4e13518ea8c286f16a67f354a0d6f991850c97703a68c44b1633",
+      "text": "The +5 Final Power on turns with 5 attack skills and Sharp Edge's +2 Slash Power activate at Combat Start. Kokuuntō adds another +1; its base maximum of 22 alone does not guarantee a win."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "ef90d293e47949a349884603d50032ed3ceea8996f97396dd0bbd7a2df2ac133",
+      "text": "The boss gained actions after an add died"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "7b9990e8fdb346c178b01d0c6915f3ac187be73b7e1d0fbf88754c6f2d1696cf",
+      "text": "Clean Up adds at most 1 slot on the turn after an ally dies; that increase does not persist into the following turn. Save strong skills for the extra-action turn and exploit the reduced Counter Coins too."
+    },
+    "units.0.name": {
+      "sourceHash": "e9f0c344db2914f1d9fad9bf0f013ed5dae0e6c4fe579077bd548093814a22cf",
+      "text": "Kurokumo Clan Captain Jun"
+    },
+    "units.0.part": {
+      "sourceHash": "e725fc4359abcd57f2280a4770c9b3ba123c8dc1a431e8810c1fd72a37dfdcf9",
+      "text": "Core"
+    },
+    "units.0.stagger": {
+      "sourceHash": "7551adb30e736e1233a5be835f757fafea67ca98fa1dae6ce62f31ca0c290053",
+      "text": "30% / 0% (108 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "a39cd63a73e5922d9213e23fb51e27d88c052d84ef2e1261cf9ac8a0de87b872",
+      "text": "The extra slot on ally death activates once per turn, only for next turn, up to 5 slots. It is not a permanent increase."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "223c56662529463067bf9da0e00a3dd4ed3f3942fbfe3114a3d4f647f494360c",
+      "text": "The ordinary Counter reaches 4 Coins based on surviving allies. Fewer adds mean fewer added Coins."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "6bd1b070c97dd5866160692978e7400642fb39f7c5f356ab1a05169b1c33d8f7",
+      "text": "No Stagger until 30% HP. Prepare for Counters and finishers while his remaining HP is still high."
+    },
+    "phases.0.timing": {
+      "sourceHash": "539bdb726c49b99a4d5eb485da37d3245108eddd6a7e7336ce52eaae86a40e04",
+      "text": "While adds remain"
+    },
+    "phases.0.title": {
+      "sourceHash": "258b651aae1062b76cfc41faed355d9ba283a57eda1eb08557eafc4b7345331c",
+      "text": "Limit Counter Coins and check attack order"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "b36dbd0a9aeaa084c93b63440a82ae2ef3af5a42a30c4d0afec7007c83e39082",
+      "text": "Remove adds to reduce Rules of the Backstreets' added Coins. Avoid lining up unnecessary one-sided attacks on the boss; check Slash/Envy resistance and HP on the first Sinner whose attack reaches him."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "97f92297448f87ec166ca442829e54d432ad0ac0c6d5d7b96fa88ae89584a298",
+      "text": "Taking Bleed enables enemy Coin Power and damage bonuses. Take winning clashes and prevent stacked Slash Fragility or Paralyze too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "ef06b4cfd433264fa3244ff04e81bbff96336c1a9e44c84ffbaf344862e06a77",
+      "text": "An add's death grants the boss 1 extra action next turn. Even multiple deaths trigger this only once per turn; previous increases do not permanently accumulate."
+    },
+    "phases.1.timing": {
+      "sourceHash": "68e0034bb22a346534dcf269310310ff8da20d299182509f43410bbbae9921ed",
+      "text": "Turn 3 Sky-clearing Cut"
+    },
+    "phases.1.title": {
+      "sourceHash": "b1528f0bdff9fa9217b526216c460cee324bbb37a27a58b70200bd96dcbb90b0",
+      "text": "Account for Combat Start buffs when stopping it"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "1a101cb74f82e60078e7211c80a8246bb4cb6a581cb3ba4f537c31d4fbf2752c",
+      "text": "The normal pattern uses Sky-clearing Cut on turn 3. Its base maximum of 22 gains Kokuuntō, Sharp Edge, and +5 on turns with 5 attack skills; retain powerful E.G.O or equivalent skills."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "46881b3318b2bd220453bece79fc3d26e91ec0ade9df90fd016ed38d52a63aff",
+      "text": "At 10+ Bleed on the target, Attack Weight +1; at 7+ Bleed, damage also increases. Keep it off high-Bleed damage dealers."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "f980bbfe79173070068c21c2a0d6b0cdbefa7df653b736647355cc9b3f05b2f6",
+      "text": "Sharp Edge's buffs activate at Combat Start. Winning its clash does not remove buffs from the other attacks that turn."
+    },
+    "phases.2.timing": {
+      "sourceHash": "47e0ef71b5d828abe2e5772ee264e25271af66f6b639cd9a34cd75885704915f",
+      "text": "30% HP Stagger through defeat"
+    },
+    "phases.2.title": {
+      "sourceHash": "ebe2209821d1fa985271727f2de216b05068a1039f7bfa177f5041094fedb1fc",
+      "text": "Concentrate damage during Stagger"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "ea3caf9ee28635b18a018898507e416bb84924e69fc20713e3335dc367f6b9ee",
+      "text": "Use Slash to reach the 108-HP Stagger and commit strong attacks while Staggered. Avoid relying heavily on Pierce against its halved damage."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "2225b9a446bdb4ed371aa3a367f98fbbb958197d4c46b9a9118cf42df230b9bf",
+      "text": "Even without adds, the base 1-Coin Counter and Sky-clearing Cut remain. Keep checking resistance, Bleed, and clashes to the end."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "ce3a6f2d7d315fc3d467809a7967199eef33d9cfb86b0239870bf307c80b6dea",
+      "text": "Heavy Bleed costs HP whenever Coins are tossed. Do not force every extra action into attacks; use defense or healing too."
+    },
+    "skills.0.name": {
+      "sourceHash": "a8bf42aa2c596200863c8425a2b691916824e68ca01c84691298166c8542c4aa",
+      "text": "Shadow Cloud"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "0ac3aa0fdda8635989f4c0f41964508a0f6584fcca5bbdb98341fd828b2dc828",
+      "text": "[On Use] If the target has 5+ Bleed, damage +10%"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "382f34e31e03c403b279f8a16618ecd06ed76f569a3b997c4eab000f6e472a83",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and increase Bleed Count by 1"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "0824093b857d075563ddc5fff8641cd84bf3c682da0c88e0c7ad1abe3a6b5f70",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed and increase Bleed Count by 1"
+    },
+    "skills.0.response": {
+      "sourceHash": "a09677bd29d7bfe2b49602d2c57acb30690da522d7948b9dcea0f0b7e3fa40fc",
+      "text": "Adds both Bleed Potency and Count. At 5+ Bleed, gains +10% damage on use; take winning clashes before repeated hits accumulate."
+    },
+    "skills.1.name": {
+      "sourceHash": "a841cd9dac7408a78fc3467fb7d7ba824a12844497c6d92d9d6b203d796c47a5",
+      "text": "Clean Up"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "bf21c7ecc35a63f1d676dfcbbfe7663bb0dc7897eb1b692c466cf2124f2c17be",
+      "text": "If the target has 5+ Bleed, Coin Power +1"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "f5c97cffd043540de5630898af186171091c37704e8600be31fcc210f69ddca1",
+      "text": "Ⅰ[On Hit] Inflict 1 Slash Fragility next turn"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "5395fc69fc4c9987437b4b1c93257719dc34303374a9299ba38e56599dff0386",
+      "text": "  [On Heads Hit] Inflict 1 Bleed"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "f4a29810808740f7907762274b69e6c44273ee1b2755516b8c5910eb4ecd503f",
+      "text": "Ⅱ[On Hit] Inflict 1 Slash Fragility next turn"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "5395fc69fc4c9987437b4b1c93257719dc34303374a9299ba38e56599dff0386",
+      "text": "  [On Heads Hit] Inflict 1 Bleed"
+    },
+    "skills.1.response": {
+      "sourceHash": "f9afb6c4ee8214fa48f4358f48b138c2f605682b7f2323088c28f6c7147ef82b",
+      "text": "Gains +1 Coin Power against targets with 5+ Bleed. Hits also inflict next-turn Slash Fragility; prevent it from reaching whoever will take the next Counter."
+    },
+    "skills.2.name": {
+      "sourceHash": "7e1bbeb6dbf388a38acedad3f6040e9294c03d4cf9781128fef5a134c5af2d20",
+      "text": "Lenticular Slash"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "bf21c7ecc35a63f1d676dfcbbfe7663bb0dc7897eb1b692c466cf2124f2c17be",
+      "text": "If the target has 5+ Bleed, Coin Power +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "fe4269f16f9888426c82f9280b1c8214792914b01cf8f9a4f4afe87646bac282",
+      "text": "Ⅰ[On Hit] Inflict 1 Paralyze next turn"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "0a3e2f8f45bfd53ed50ed48db07b7db143f4ac6289f4f36987f1853a085c82ad",
+      "text": "Ⅱ[On Hit] Inflict 8 Bleed"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "76bd799fb1c1101e82691f56b1166baca06ecc2306dabfb899d6518ef3a38ed7",
+      "text": "Ⅲ[On Hit] Bleed Count +3"
+    },
+    "skills.2.response": {
+      "sourceHash": "1b979fbfacaaf80d28de82200972a9555f25b8bcdf06c78a3d9325c7dc153dc5",
+      "text": "At 5+ Bleed, +1 Coin Power strengthens it beyond the base range. Prevent next-turn Paralyze and added Bleed Count to preserve your main clash winners."
+    },
+    "skills.3.name": {
+      "sourceHash": "545ad8d2d61f6d809c1b895c43b82b898965d684f32c73a13358fdd486ad304f",
+      "text": "Sharp Edge"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "a9d76916ad69e7a1de0b376759a5a513c74bcf406123b6b8da23ac3caad26aa2",
+      "text": "[Combat Start] Grant all allies, including self, 2 Slash Damage Up"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6c433c4670400b104dfb6b5856c3c50e52e2f566e2148c7f02b564d7bb9cc0bb",
+      "text": "[Combat Start] Gain 2 Slash Power Up"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.3.response": {
+      "sourceHash": "3e1daf74dcfc3111bd2d279b129162f9ea3ba25e82d556ed3001e26eb38e8f0f",
+      "text": "The team's 2 Slash Damage Up and the user's 2 Slash Power Up activate at Combat Start. Winning does not prevent these buffs, which also affect other Slash attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "4f1791fd6005213786a0288bb6aa5fba53085ab0b829dd699f79485a7f72e229",
+      "text": "Sky-clearing Cut"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0cb69fe36deb79c746f63cf82ce32c6a486a0c0dce2652dbb0c9fa2ef484e165",
+      "text": "[Combat Start] If the main target has 10+ Bleed, Attack Weight +1"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "0d751a8ca7023c6ad5082856b8b821cca0bcc9d6aede285312306138309e0829",
+      "text": "[Combat Start] If using 5 attack skills this turn, Final Power +5"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "47977be1b8b2b8281e078a8c07e7806bf9ad74d9052ab4dc021c316b06174353",
+      "text": "[On Clash Win] All allies heal 10 SP"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "3add03e70ff0e0c292794a226c76079fabb095b48bc92450fc50d9446ccd252b",
+      "text": "If the target has 7+ Bleed, damage +30%"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "18afbc0de057a18601a195bd97013d1d4b004c6f27cac420f1a4c8373f47094f",
+      "text": "Ⅰ[Heads Hit] Inflict 2 Bleed."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "5392500ee54dee7fc320f591ebd93b310955039dcdac56261cc8066588885db7",
+      "text": "Ⅱ[On Heads Hit] Inflict 3 Bleed"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "a000e9c8cfa81df264ed4b6cd482f7f5d8670fe8867617263558136c617488ca",
+      "text": "ⅢIf the target has 7+ Bleed, damage +50%"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "1461b9cd8636a25a728d8c0bb229d4c4d33c0f40cc943f74cc57c8b088202387",
+      "text": "  [On Hit] Inflict 10 Bleed Count"
+    },
+    "skills.4.response": {
+      "sourceHash": "95011040df5ce7c42e7c7f54534e345ea739df238cef2e3d4e9b91b73b729fbd",
+      "text": "Beyond its base maximum of 22, gains +5 Final Power at Combat Start on turns with 5 attacks. Check Sharp Edge and Kokuuntō too, rather than assigning solely from the win prediction. At 10+ Bleed, Attack Weight also increases."
+    },
+    "skills.5.name": {
+      "sourceHash": "b6aa5ecf7964f9504b7e667b50c86ca2e807314d1cdb858b908084f65206c708",
+      "text": "Rules of the Backstreets"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "80d693d2e3f116631bd3750c4e5a09e8c39209b71b715ab0d6732c087147bb5c",
+      "text": "[On Use] Add 1 Coin per surviving ally other than self (max 3)"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "926167ed1cf9b87223cf1afdaab6703db6089eca9e86f7fb0d8dbd34cb510e13",
+      "text": "  [On Kill] All allies heal 20 SP"
+    },
+    "skills.5.response": {
+      "sourceHash": "7b4e49b609f51f265cd1b388d1d9f9192703335b8480d76c6bf9484fe342117e",
+      "text": "An ordinary Counter adding up to 3 Coins based on other living allies. Defense cannot Offset its maximum 4-Coin retaliation; check Slash/Envy resistance and HP on the first attacker."
+    },
+    "passives.0.name": {
+      "sourceHash": "3034c60fef63643a16cd8bfead9d2f9e4bc3f89fe7b7c07dc41f4ca9570753df",
+      "text": "Keen Strike"
+    },
+    "passives.0.condition": {
+      "sourceHash": "5d4ec1e7fc7bd001452ce0afe04f92f9bd726e1fe3dcde0c3f8b72e55183c0d6",
+      "text": "On Hit / at most 3 times per turn"
+    },
+    "passives.0.effect": {
+      "sourceHash": "ec7b2ac5a2571beb5f9c7ea007783a59b92316e107fdc9c55382bc4681122ca0",
+      "text": "Inflict 1 Bleed."
+    },
+    "passives.0.response": {
+      "sourceHash": "9894f89127273ddf9a7bf5c4c7009372d83e11e65e4879b01ab171fed1da6f2b",
+      "text": "Adds Bleed beyond skill effects; prevent hits themselves."
+    },
+    "passives.1.name": {
+      "sourceHash": "0348ed00a69e09fecbb47c274737fd1969b82dad9e045892899dda82859519ab",
+      "text": "Brutal Stab"
+    },
+    "passives.1.condition": {
+      "sourceHash": "d477e309b3b40e6fdb52dc4b97c673d6390b627a58d56e6c276d94ca53ca494f",
+      "text": "An attack skill inflicting Bleed"
+    },
+    "passives.1.effect": {
+      "sourceHash": "b32841b93dae8ec6bcb81c663f2f68eed492dbc1a33682663f9196ac0a43a6ac",
+      "text": "Inflict +1 Bleed Potency."
+    },
+    "passives.1.response": {
+      "sourceHash": "617f421a99e21428e92d3d97fc09366c2be6800630c6051bb08655f62131618b",
+      "text": "Stop it through clashes before Bleed bonuses activate."
+    },
+    "passives.2.name": {
+      "sourceHash": "e3ee778a7ce974790026a56657f58690e7058ae59046985da7a0565d99e5292d",
+      "text": "Kokuuntō"
+    },
+    "passives.2.condition": {
+      "sourceHash": "0ad36079c394b75c3b5bd6aa7b82ec65a375347087e8d003cf3ebb72c7bd75df",
+      "text": "Slash skills"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8363afb64436ea1f4bddcaf4264ec7579538aaba8cc42801035ea3da13110042",
+      "text": "Final Power +1."
+    },
+    "passives.2.response": {
+      "sourceHash": "cc4cfbbd1fc390cfdddeaeab8e37dae6f0787927389b6b3e8b638be55ce8d80a",
+      "text": "Do not judge solely from the base Power range."
+    },
+    "passives.3.name": {
+      "sourceHash": "a841cd9dac7408a78fc3467fb7d7ba824a12844497c6d92d9d6b203d796c47a5",
+      "text": "Clean Up"
+    },
+    "passives.3.condition": {
+      "sourceHash": "afe6a01a0a8da2dae0bba28d59c3f86f7fde0f6a32f51d0cdcfde96ac9cef1b3",
+      "text": "Ally death / once per turn"
+    },
+    "passives.3.effect": {
+      "sourceHash": "63e181eb5281f30deb99ea2b0381c4cbf1ca84e8b7764d234b674222f402c942",
+      "text": "Gain 1 action slot next turn, up to 5 slots. The increase does not persist across turns."
+    },
+    "passives.3.response": {
+      "sourceHash": "dea8c5ffc1a7592be32fe7af4ae207a2d35d5ecda675266f30fd6416e09caaae",
+      "text": "Prepare for the additional action next turn. Do not treat slots as permanently accumulating."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "319f6259286ab6d4bb455cb9286994259321a7f844dc51801213b666e2d13f18",
+      "text": "Additional Coins on ordinary Counters"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "c2d9c1f9c741ae1b21ae3e8dc0c163eb29d44cd4b24fb17ff196de30b6a36de8",
+      "text": "Rules of the Backstreets adds a Coin per other living ally to its base 1 Coin, up to 3 added Coins."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "d70ab7a4a61c381ed65b0e4abafedfbe4205a7f802d078913ed77ae8c05e7fce",
+      "text": "Clear adds to limit damage to the first attacker."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "21ddd505b53a40482d4c84193d405d73031a7bc7df27568a33c14932cb824293",
+      "text": "Combat Start buffs"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "7c7738f5be18c09e794df6e82b25b7de50db640f18c70e2fdce2f6ad639a28e1",
+      "text": "Sharp Edge gives self 2 Slash Power Up. Sky-clearing Cut gains +5 Final Power on turns with 5 attack skills."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "71dfcaba98f9bf71d5cfd043443a54f9f5031384afe4482efb25a6bb849889f3",
+      "text": "Retain powerful skills accounting for these buffs rather than relying only on the win prediction."
+    },
+    "warnings.0": {
+      "sourceHash": "00ed01b8cbe1361cfc612c39baf13a1126f505acc65af1fd838dd94e4ec4a306",
+      "text": "Defense skills cannot Offset ordinary Counters."
+    },
+    "warnings.1": {
+      "sourceHash": "bc543fd34b7eb6a0b193ffb96ac2e37b0ba9932d17c64fef8bfa70fba2a8e5bd",
+      "text": "Sky-clearing Cut retains its Combat Start buffs after the adds are gone."
+    },
+    "warnings.2": {
+      "sourceHash": "d14fc989ec8aad7f822500f998714dbc30097432c8ca83fc108467bb2e9c30bc",
+      "text": "This page focuses on the boss's skills and passives. Also check add positions, Bleed, and targets in combat."
+    },
+    "warnings.3": {
+      "sourceHash": "76b71e1fb35124620b04faa7c31680a42628ea6ace41b52d9696055f2594f97d",
+      "text": "Hard and Mirror variants have different buffs. This page covers the Normal story encounter."
+    },
+    "preparation.0": {
+      "sourceHash": "18b4248d12f4efa48b004235e8970782fbfec4b5f6ac3febef4142e0782d7be7",
+      "text": "Aim for Level 40 and Uptie III or higher on the main team. Prepare Slash resistance, HP recovery, and powerful clash skills."
+    },
+    "preparation.1": {
+      "sourceHash": "5b717e391f197a53ed828c463cc862c63e0edf785c7ceafe22a5a726f3288ab3",
+      "text": "Slash works well against the boss. Secure resources for powerful E.G.O before Sky-clearing Cut."
+    },
+    "preparation.2": {
+      "sourceHash": "c3474d42bf10fab38a6f2d6ca5543576fb544437322ee3e4a11515b8a46f356a",
+      "text": "Keep high-Bleed Sinners from taking the Counter and check how many Coins they will toss."
+    },
+    "roles.0.name": {
+      "sourceHash": "9263c1a7f9671523419be3c8e79dd16d4f49952fbccb0188a2c4bf132432d7c3",
+      "text": "Add removal"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a649fe3606d6bad96309279cec75ff8e2229e7ee9439855007bbc10c65fbe593",
+      "text": "Reduce added Counter Coins and prepare for next turn's extra action."
+    },
+    "roles.1.name": {
+      "sourceHash": "feddd606c55e14893047f0ba88b3e1f7cd5d2bad5c179b4cf27ac82a545b05dc",
+      "text": "Core Slash attackers"
+    },
+    "roles.1.reason": {
+      "sourceHash": "9aa0df035b93094014ad53cde6ffe24f6848e90885f86b09708493f0dfdac547",
+      "text": "Stagger the boss and finish him during Stagger."
+    },
+    "roles.2.name": {
+      "sourceHash": "6069c58f57296e52e52fa2cae52bcf991b0d184ec52dbf06b918909d0fa3f3ec",
+      "text": "Counter handler"
+    },
+    "roles.2.reason": {
+      "sourceHash": "684e462eea8003f4895aeb936b08007e419862b7259b5948d64f4ab9cf7e2572",
+      "text": "Prepare resistance and HP for the first attacker."
+    }
+  },
+  "messages": {
+    "boss-copy:jun": "complete",
+    "【リンバス】5.5-22 黒雲会副組長 ジュン（5.5-22）の攻略｜Limbus Assistant": "5.5-22 Kurokumo Clan Captain Jun (5.5-22) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5.5-22「黒雲会副組長 ジュン（5.5-22）」の攻略。取り巻きが残るほど通常反撃のコインが増える。反撃に触れる最初の囚人を守りながら取り巻きを減らし、HP30%の混乱から倒す。孤立後も快刀乱麻…": "Kurokumo Clan Captain Jun (5.5-22) guide for Limbus Company 5.5-22. More surviving adds mean more Coins on his ordinary Counter. Protect the first Sinner to trigger it, clear the adds, then finish him after the 30% HP Stagger. Sky-clearing Cut retains its Combat Start buffs even after he is isolated; save strong clash skills.",
+    "5.5-22 黒雲会副組長 ジュン（5.5-22）": "5.5-22 Kurokumo Clan Captain Jun (5.5-22)",
+    "5.5-22「Yield My Flesh to Claim Their Bones: Black Clouds」": "5.5-22 · Yield My Flesh to Claim Their Bones: Black Clouds",
+    "黒雲会副組長 ジュンの外見": "Kurokumo Clan Captain Jun appearance",
+    "黒雲会副組長 ジュンのスキル": "Kurokumo Clan Captain Jun skills",
+    "Kurokumo Clan Captain Junの外見": "Kurokumo Clan Captain Jun appearance",
+    "Kurokumo Clan Captain Junのスキル": "Kurokumo Clan Captain Jun skills"
+  }
+}

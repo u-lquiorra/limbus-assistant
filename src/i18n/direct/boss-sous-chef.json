@@ -1,0 +1,1128 @@
+{
+  "kind": "boss-copy",
+  "id": "sous-chef",
+  "source": "src/data/bosses/sous-chef.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "釘刺す者",
+          "en": "He Who Nails",
+          "file": "Bufs-a1c10p1.json",
+          "id": "MeursaultBuffet"
+        },
+        {
+          "ja": "ぶつ切りの料理材料",
+          "en": "Chopped Ingredients",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SapsareeCooking"
+        },
+        {
+          "ja": "お腹が空いたんですよ",
+          "en": "Got an appetite, you hear?",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SapsareeHungry"
+        },
+        {
+          "ja": "食べて…",
+          "en": "Please, eat me...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SapsareeShield"
+        },
+        {
+          "ja": "ピリカラソース",
+          "en": "Fiery, Tongue-scorching Sauce",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SapsareeSpices"
+        },
+        {
+          "ja": "美味しいものを食べて元気が出るんですよ",
+          "en": "Eat yummies and perk up, you hear?",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SapsareeYammi"
+        },
+        {
+          "ja": "スーシェフ",
+          "en": "Sous Chef",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1474"
+        },
+        {
+          "ja": "革の財布",
+          "en": "Leather Wallet",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1475"
+        },
+        {
+          "ja": "革の財布",
+          "en": "Leather Wallet",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1480"
+        },
+        {
+          "ja": "スーシェフ",
+          "en": "Sous Chef",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147401"
+        },
+        {
+          "ja": "料理が上手なんですよ",
+          "en": "I can cook up delicious dishes so good, you hear?",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147402"
+        },
+        {
+          "ja": "料理欲求",
+          "en": "Culinary Ambitions",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147403"
+        },
+        {
+          "ja": "美味しいんですよ！！！",
+          "en": "Yummies yummers, you hear?",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147404"
+        },
+        {
+          "ja": "逃げるんですよ！",
+          "en": "Flit and flee, you hear?",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147405"
+        },
+        {
+          "ja": "美味しい料理材料。",
+          "en": "Flavorful Cooking Ingredient.",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147501"
+        },
+        {
+          "ja": "肉軟化作用",
+          "en": "Enzymatic Tenderization",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147502"
+        },
+        {
+          "ja": "お腹空いた…。",
+          "en": "Hungry...",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "147503"
+        },
+        {
+          "ja": "切るんですよ",
+          "en": "Cutting up the meat, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147401"
+        },
+        {
+          "ja": "大きく切るんですよ",
+          "en": "Cutting up big chunks, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147402"
+        },
+        {
+          "ja": "滅多切りにするんですよ",
+          "en": "Chop, mince, dice, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147403"
+        },
+        {
+          "ja": "私のシグネチャーなんですよ",
+          "en": "My signature knife work, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147404"
+        },
+        {
+          "ja": "材料を得るんですよ",
+          "en": "I'm collecting ingredients, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147405"
+        },
+        {
+          "ja": "みんな集まるんですよ！",
+          "en": "Everyone come come, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147406"
+        },
+        {
+          "ja": "美味しいものを食いやがるんですよ",
+          "en": "Yummers! Slurp that up, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147407"
+        },
+        {
+          "ja": "あっ！私の食事の時間なんですよ",
+          "en": "Aah! I'm on lunch break, you hear?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147408"
+        },
+        {
+          "ja": "料理！！！料理させてほしいんですよ！",
+          "en": "Cooking!! Lemme get cooking, you hear?!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147409"
+        },
+        {
+          "ja": "もぐもぐ",
+          "en": "Nom Nom",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147501"
+        },
+        {
+          "ja": "くちゃくちゃ",
+          "en": "Munch Munch",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147502"
+        },
+        {
+          "ja": "げえええっぷ",
+          "en": "Buuuurp",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147503"
+        },
+        {
+          "ja": "フードコート待機",
+          "en": "Standby at the Food Court",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147504"
+        },
+        {
+          "ja": "調理されたくない。",
+          "en": "I don't want to be cooked.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "147505"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. The guide ellipsis variants for Please, eat me... and Hungry... are resolved by IDs. Energy and hunger in prose are short descriptions of the named buffs, whose full official names remain in effects and mechanics. Ingredient targeting, meals, Assist Defense, distinct major-attack reductions, and the mandatory battle ending are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "7e0ace6de23db46251be2e823e3193b64dfc8f1739fc85f0f015eb59bb058ef8",
+      "text": "Sous Chef (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "6329a21c2cd69d44eac6491163cbe72e0f568c264086c43288109e23487eb2c7",
+      "text": "Sous Chef"
+    },
+    "stageName": {
+      "sourceHash": "669acbe355f45ac645472f1a701fcc2ea61350995308eb5fc40e562edce2be5d",
+      "text": "Sisyphus Department Store A, B1F: Food Court, First Battle"
+    },
+    "lead": {
+      "sourceHash": "ce2422917bc30d6281c95edae7e22aa2c176e34e7525d0c5669bbbce0fc8c98f",
+      "text": "Defeat the Leather Wallet being prepared as food before the Sous Chef acts to limit healing and buffs from meals. However, repeatedly preventing meals triggers a different major attack through hunger. Track cooking outcomes and both Unbreakable area skills while lowering the main body's HP below 30%."
+    },
+    "listLead": {
+      "sourceHash": "fbf2abd244c1353b7c5a34941b15667b421bf34bd871725df2df0328c1a3d84b",
+      "text": "Defeat the Leather Wallet being prepared as food to limit healing and buffs from meals. Repeatedly preventing meals triggers another major attack through hunger. Track cooking outcomes and both Unbreakable area skills while lowering the body below 30% HP."
+    },
+    "statNote": {
+      "sourceHash": "cca7dabb8e15f64f9cc2e217be167f62a96145b86ad315231fc7954a66633a0d",
+      "text": "Covers the mandatory Route A story battle. Main body: Lv. 35, 1,523 HP; Leather Wallet: Lv. 35, 93 HP. The battle ends below 30% main-body HP. Excludes Route B's enhanced version and Route A's optional rematch. Defense Levels are base values without added effects. Customer Level determines Identity levels inside the dungeon; outside levels do not carry in. Uptie below III is raised to III, but E.G.O Threadspin is unchanged. Faust, Meursault, and Gregor are required in a team of up to 12."
+    },
+    "skillNote": {
+      "sourceHash": "2be648918b34d1cc4777d44701eccac54e8c3f9a866ff4ed287a09895c71cc68",
+      "text": "Unbreakable icons show permanent Coins only. Check effects for conditional Unbreakable conversion and Atk Weight increases on Leather Wallet's Buuuurp. Aah! I'm on lunch break, you hear? is a healing and buffing skill that deals no direct damage."
+    },
+    "priorities.0": {
+      "sourceHash": "6e31cd682bfaa61a7ea481e24ef32b1cff3f46f4a9a345804e5ad719e77b1ba5",
+      "text": "Defeat the Wallet targeted by I'm collecting ingredients, you hear? before the Sous Chef acts."
+    },
+    "priorities.1": {
+      "sourceHash": "2e565ef5ca5585c6c7ca35dbb6ac61d1ef3108df5b97e36233500bc31e27b08d",
+      "text": "Check hunger at 3, energy at 5, and the major-skill cycle. Prepare for a major attack even when repeatedly preventing meals."
+    },
+    "priorities.2": {
+      "sourceHash": "3a2c4ebc94bde3e575fd0d2b7811a0a600e9e3c32ae936ad9ee9df1d6b627c4d",
+      "text": "Win against the signature skill with a Sinner without Sauce to reduce damage by 80%."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "01c83e06c5dcd81bd0e267f07e258107c5ee139140610258adbe79724c01f140",
+      "text": "Cannot clash with the ingredient-gathering skill"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "9a00d65c68c901bad57f1be4843f41463ad3bb6db2ab9190a7874dc4be70c030",
+      "text": "An Unclashable skill used on an allied Wallet that cannot be redirected. Rather than stopping the skill itself, have a fast Sinner defeat the Wallet at the end of its targeting line first."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "fa2fac8a20eaa320cd788abf8b60158dba19cf4e7c4a8cb36b8e3d5bec72dd5e",
+      "text": "Cooking still occurs despite defeating Wallets"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "135f435142b6b1757e02f73cdae1194e593493094261351384ac4489d409e716",
+      "text": "A Wallet with Please, eat me... may be intercepting unopposed attacks against the Sous Chef through Assist Defense. If it survives the assistance, extra cooking follows. Start with clashes against the Sous Chef and send spare attacks to Wallets."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e871bd929b2b33e6363dab9c4c8c0377d0e8a593975983558f7cc2b4d1cf0eff",
+      "text": "Stopping meals triggered a powerful area attack"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "3ff7618f34d595efc9fc5fea2361f9f3b341d063af7e57d688dbcf2e0294d62e",
+      "text": "Failing to eat adds Got an appetite, you hear?. At 3 or more at Turn End, a Wrath area skill follows next turn. Instead of insisting on complete prevention, allow cooking once when hunger is high or save strong clashes and healing to survive the major attack."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "dfc5bf19a5922a62855df0048a736164762c5c97a7680172b5bb762773c153d9",
+      "text": "The whole team takes damage despite a clash win"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "820c0961a7f1221c6bff4e90bd9fb950e419f8100358948291cef27767e3e0d2",
+      "text": "Unbreakable major skills still attack after losing clashes. Winning against the Gluttony signature skill gives 80% damage reduction and prevents Stagger from its damage. The Wrath skill Cooking!! Lemme get cooking, you hear?! lacks that reduction, so check the skill name."
+    },
+    "phases.0.timing": {
+      "sourceHash": "c542568e71bb01cb743a7103e736983834d9346d876dbcef18e7ac495c53757e",
+      "text": "Before entering the right-hand B1F corridor"
+    },
+    "phases.0.title": {
+      "sourceHash": "8cff97b4e0fb94a8bf8669858ed420fb13bc6537f6583933e79de82678333da9",
+      "text": "Check shopping and required deployment"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "11b7f2296dcad26d187b205c856c6b341423838aef5b35024356ab84f60e696f",
+      "text": "Entering the Food Court from the right-hand corridor immediately starts battle. Check unvisited shops and vending machines; aim for Customer Lv. 35 and Emerald."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "00bdde9e519e57a6d91ec75c292b92414a9481752873728213d3570fb57e53ff",
+      "text": "Faust, Meursault, and Gregor are required. Add strong clashes, Speed and Slash damage to defeat Wallets first, and HP recovery. SP and E.G.O resources carry over from the previous battle."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "32fcf3b3e4ded6d1241cb874fab9c062fd0f2604fbcfe4f1f8b48fb66bf4292c",
+      "text": "Meursault gains He Who Nails. On Skill Use, it grants two extra E.G.O resources of that affinity, up to twice per turn. Use him to replenish resources."
+    },
+    "phases.1.timing": {
+      "sourceHash": "397667a33099dcf8a3963df320ecd6ed1d4a425ffbbfeda4f178dcacab911a83",
+      "text": "Regular turns"
+    },
+    "phases.1.title": {
+      "sourceHash": "fe147807c42a376960ab2fae53274261cf99dbd6d8880bb9f6dc2a8c2cb6478c",
+      "text": "Defeat the cooking target first and clash with the main body"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "93314539f96a173122374f9159a309b6840e6433b87df0a93826e1a87bfd26a8",
+      "text": "First check the target of I'm collecting ingredients, you hear?. It prioritizes an allied Wallet with many effects, so the target is not necessarily in the same position every turn."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "039ea1be2a1f1823a31ecf8fb3de7d0cea29c9355c93d1a9003185db32f75c95",
+      "text": "Concentrate enough damage from fast Sinners to defeat that Wallet before cooking. Do not try to assign a Sinner clash against the cooking skill."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "7716c2ea18773b9eb543ac360ead1b4aec671c7f9cc325daa3d6aa0c43287b7e",
+      "text": "Clash with the main body's regular attacks. While a Wallet has Please, eat me..., spare unopposed attacks against the body invite Assist Defense and extra cooking; send spare actions to Wallets instead."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "bab54e7b4e115ef2f5c4b667c4185d9deae2fcd69940959d1968e2f03bf9172c",
+      "text": "Slash, Lust, and Gluttony are effective. The body resists Blunt at ×0.5 and Gloom at ×0.75; do not rely solely on that combination to damage it."
+    },
+    "phases.2.timing": {
+      "sourceHash": "12dd7a4687541a82af183e7471866961ea845b9787becdcb5ee8d35e3ecea3dc",
+      "text": "Whenever a meal succeeds or fails"
+    },
+    "phases.2.title": {
+      "sourceHash": "1f936c0d55d4985824debf0282deb847c975a627d7fbf30dc5dbf75aed8bd6bf",
+      "text": "Check energy and hunger before choosing further disruption"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "5d1a3355cceb4dd108e78ceccc25d068b9d549b4ebf1bfa1f5ff4279da498a35",
+      "text": "Defeating a target grants Chopped Ingredients, with extras for targets holding more effects. The meal at the end of the turn converts them into healing and energy."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "93b800aaec78b44bf4a048a02265569c03c7bb8da75d10c4b2a2adb5010149c8",
+      "text": "Each ingredient heals the body for 1% max HP, heals other enemies for 20%, and grants energy. Too many meals strengthen Wallet attacks as well as the body."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "6d46a1b67cc974c6c2b2637a4a91996bd3f85e1016441dd717c1df16e0188afa",
+      "text": "Preventing meals instead builds hunger. You can allow cooking once every two or three turns before hunger reaches 3. If doing so, also watch for 5 energy bringing the major attack forward."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "3b777cc9018462d3daa83e9effedd379f28d93c8806484cada89cfc5cdb33ee7",
+      "text": "If pushing through without allowing meals, save high-Power skills and HP for the next Wrath area attack. If both energy and hunger conditions are met, the Wrath skill takes priority."
+    },
+    "phases.3.timing": {
+      "sourceHash": "0c94a7d57c9c4f1f1b0fab380a13dd29f4a9161b179a6b0cc8a5aee3d1ed7925",
+      "text": "Four-turn cycle or 5 energy"
+    },
+    "phases.3.title": {
+      "sourceHash": "7de345ce66cf9a3888046e6c2a3129545408a81c98918661d904052ca4e5730b",
+      "text": "Beat the signature skill to limit Unbreakable damage"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "a321bda90159ad7304481a07ba87c526ccc0f4616e8b5b7327aceb369e14346b",
+      "text": "My signature knife work, you hear? has four Unbreakable Coins, Gluttony/Slash, and 5 Atk Weight. Gains 1 Coin Power per 2 energy and +3 Final Power if the main target has Sauce."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "31eafbf8ac99cad3a8a4ae80756cc2c8367102f2dc2ed7495eccbe649cd73dd7",
+      "text": "Sauce also lowers Sinner Offense Level. Assign a Sinner without Sauce to the major clash and win with a strong E.G.O or similar skill. Do not judge from the base maximum of 16 alone."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "9e4193e6ce3f3bd3c5049fae0c5483168efaaa87a0f38db72c3cc982082436fb",
+      "text": "Winning reduces enemy damage by 80% and prevents Stagger from this skill's damage. Attacks remain, so restore HP and watch for additional Bleed Count."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "fc4f48d5ea7e008dc6870748b8f32b5e1aab5ea051e9ae565a0352734ba494a3",
+      "text": "Consumes all energy afterward. If Stagger prevents use, it is carried into the next turn; taking a Stagger does not remove the major attack."
+    },
+    "phases.4.timing": {
+      "sourceHash": "dafdac23c6a68f7a6b5ad2ae9f9cd3a97422268bb75336d50e5179e928b1572d",
+      "text": "The turn after 3 hunger; final push"
+    },
+    "phases.4.title": {
+      "sourceHash": "5fa977e3a4f6b17fe6c242e8e9aeba985017700a91bd85cb8f162f8ec2428bcd",
+      "text": "Recognize the other major attack and push below 30% HP"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "b76e40e1c115a188615a7a571170278b9eae5f0527bafd1bd4052184cfcd16d3",
+      "text": "Cooking!! Lemme get cooking, you hear?! has three Unbreakable Coins, Wrath/Slash, 5 Atk Weight, and cannot distinguish friend from foe. Unlike the signature skill, it has no 80% reduction on a clash loss."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "0fd58e0afbd61d15f51db6558b436420cbd36f5d9a44105e6644907e350d4564",
+      "text": "Use a strong clash to lower Unbreakable Coin Power and maintain HP on Sinners taking hits. Consumes all hunger afterward and replenishes Wallets next turn."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "e7dbb8891af2e0fc853496af1aefb6a38b115361c7bf489e0dc3049ca772d888",
+      "text": "Either major skill resets the turn count until the signature skill. Check current skills and effects rather than only fixed Turns 4 and 8."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "ecc443f0ef386459045e9ed7089b561e213aac2053a603d01466b4999432c4cb",
+      "text": "The mandatory first battle ends below 30% body HP. Do not keep trying to eliminate every Wallet; focus body damage to finish when an opening allows it."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "59d9bbfb1e8a71b86687661506279bc7d4c53a53f15ec8476842e07509ca1d3c",
+      "text": "Raised by spending eyeballs at department-store shops; determines Identity levels inside the dungeon."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "f14853dff29c174f881e270b9a6c45fcdcce96c618d8c2f6c15f9bc3563bd3c0",
+      "text": "Aim for Customer Lv. 35 for this battle and check unvisited shops."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "929c2b4cc96f14b66e3f68da578d60fcbc10d1e9ea27b41f107cd397df948956",
+      "text": "Meursault gains this in the battle. On Skill Use, gain two extra E.G.O resources of the same affinity (twice per turn). If another ally is alive at Turn Start, cannot die from damage that turn. Cannot retreat."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "f0857fcec15559b0c2ac600cd1c67a2e605f07c19cf6cf14ca179ae182facd1d",
+      "text": "Useful for resources and taking hits. Survival depends on another ally at Turn Start, so protect the other Sinners too."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "343767e31ab8677e7d1bf21105c83ef08ae7ff35e02fd88a5507b11d30cfbcfb",
+      "text": "Fiery, Tongue-scorching Sauce"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "d9c74387e75848ac9386a4acf020c9d4843a290136290e829627a2f5a8f01f8e",
+      "text": "Maximum 3. Offense Level −1 per stack. Several Sous Chef skills gain Power against targets with Sauce."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "74440d3317458341d673023a6bd3027eb9b74a50d5bb4d764394c91f798ed22b",
+      "text": "Especially for the signature skill, choose a main-target clasher without Sauce."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "ad9af19f3399daa4de41eab779942ccd323c54828a6e51d3bf17c43caa78da13",
+      "text": "Chopped Ingredients"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "a00f7bc812210a16bffb3adc0961fbc0a39707742e395dc01b9ec5c1d75f1055",
+      "text": "Gained when the Sous Chef defeats a target with an attack. Gain one extra per three types of effects on the target, up to two extras. Consumed by meals for enemy healing and energy. Maximum 5; expires at Turn End."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "b8cf60dba5e20c53969dd02ddec79da7316c6602ba96b5fc255339e6bf663187",
+      "text": "Defeat the cooking target first. The meal itself deals 0 direct damage; do not confuse it with an area attack."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "c03f8bdcc825dc165dda866b3f35b74c5145e8a65ef107b96c30920178864c99",
+      "text": "Eat yummies and perk up, you hear?"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "7f91d801194af7a0d6d16f15c92c23762242a5d594838a0369860dbc256b845b",
+      "text": "Maximum 5. Offense Level +1 per stack. The main body heals 3 SP per stack at Turn Start. At 5, brings the signature skill forward. Wallets gain Unbreakable Buuuurp Coins at 3 or more and +2 Atk Weight at 5."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "f9d2ae21a963139ba5c49f43b59487f83ae70c48b29454b22c0b33d02fb9187d",
+      "text": "After allowing a meal, check buffs on both the body and Wallets next turn."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "4f5617d6043e81d0be652f63e670b3ee39d41542a085d6085afc9c4ed4ec68f7",
+      "text": "Got an appetite, you hear?"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "74df0c0b09c8c3f748086c6160709224ec991e762aa7e771895a37a6aee3b14d",
+      "text": "The body and Wallets gain it at the end of turns without a meal. If the body has at least 3 at Turn End, it uses Cooking!! Lemme get cooking, you hear?! next turn."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "b45892419fd42506ef340cd5d68bcaf43fffdb3d1d6c239a1150a0d043f3ffa7",
+      "text": "Do not aim only to prevent every meal; when hunger builds, prioritize preparation for the next area attack."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "75b274a5032e04e7f2bd81fb336453203c7b3811997298cb73a27cb3f80b8bb8",
+      "text": "Please, eat me..."
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "24e814830cfc7daee76e8b023161dd953b16558d5e8d658b99f8e07f471f0bc5",
+      "text": "Gained by Wallets at Combat Start of Standby at the Food Court. Intercepts unopposed attacks against the Sous Chef and uses the Assist Defense-only I don't want to be cooked. Expires at Turn End."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "6f2bab20f8fabcd287873802d8f192659f4e3ef362a1f514487ac6887b69b8f3",
+      "text": "If the Wallet survives assistance and the body is not Staggered, extra cooking activates. Avoid unnecessary unopposed attacks against the body."
+    },
+    "warnings.0": {
+      "sourceHash": "64c913865f06aa7949c96d7bd64834fee1cc5b556374d00cfcf3d56b46dc5982",
+      "text": "I'm collecting ingredients, you hear? is Unclashable and cannot be redirected. Stop it by defeating its Wallet target first."
+    },
+    "warnings.1": {
+      "sourceHash": "dbedb90b4d0647febf401e828cc5cd53e0096afe2b5a0651d433cf230096f73a",
+      "text": "Repeatedly stopping meals brings another area attack at 3 hunger. Do not insist only on perfect disruption every turn."
+    },
+    "warnings.2": {
+      "sourceHash": "d806393471f4bf261b5f57263fc081880d02f7bb7eea3892c9b84efd05aa6312",
+      "text": "Winning against the signature skill reduces damage by 80%. The Wrath major skill has no equivalent reduction."
+    },
+    "warnings.3": {
+      "sourceHash": "d9fcfe861bd513b74643e449287176785ff170ff1c6465b834d294ac27dcff5a",
+      "text": "Assist Defense from Please, eat me... invites extra cooking. Check unopposed targeting lines against the body too."
+    },
+    "warnings.4": {
+      "sourceHash": "e713ca5808b729116076c7ebba410d3d73a833f0f57a98134e45555c3c8b05b2",
+      "text": "The below-30% ending applies to the mandatory first story battle. Do not apply it to optional rematches or Route B."
+    },
+    "preparation.0": {
+      "sourceHash": "0aaa9a1ae64851f4d2815628e5993dc90edb185dbb9033a17734d9f2e75b1481",
+      "text": "Shop toward Customer Lv. 35 and Emerald. Raising outside Identity levels does not raise levels inside this dungeon."
+    },
+    "preparation.1": {
+      "sourceHash": "855facaf18d2e5dc8b260b767bb4022f50f51d4900a1002a20b42b4d8ef0991b",
+      "text": "Faust, Meursault, and Gregor are required. An official RENTAL Identity is available for Meursault. Check Speed and damage to defeat Wallets first, plus Slash resistance."
+    },
+    "preparation.2": {
+      "sourceHash": "348c095ec50a99b9e59be1c2114ee55e7dd50d65218afa4208f091459052e0ec",
+      "text": "Prepare high-Power area-skill clashes and HP recovery. E.G.O Threadspin is not raised, so check available effects and resource costs."
+    },
+    "roles.0.name": {
+      "sourceHash": "199ea30575b495abe64c6d7b236d005e827713cdcf59d0be081353d35e7cb2e6",
+      "text": "Fast Slash, Lust, and Gluttony damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "d4c81fe23fc7b93e1c9fbffef502adc173d128d6c3d0eb8941ec736b02ff6642",
+      "text": "Defeat the designated Wallet first to limit ingredient gains. Also useful for damaging the body."
+    },
+    "roles.1.name": {
+      "sourceHash": "eaca08d8c8c47bad2a9365a670d3634a257975e924e95bc237a9dfd4b9867bb9",
+      "text": "High-Power clasher without Sauce"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b9d19feae02c05d4638575e8cd6888581f2314ccd60b61c5e436409747da26e8",
+      "text": "Avoid the signature skill's Power buff and win for 80% damage reduction."
+    },
+    "roles.2.name": {
+      "sourceHash": "29b9a9181617fcf6eaadc7903820f28a14c074a8a31811fd9c3f864c189b2646",
+      "text": "HP recovery and taking Slash hits"
+    },
+    "roles.2.reason": {
+      "sourceHash": "fae5963f81d2ebd6ae8bb087b4ca1dc184098be07cd56f1c7016000b5f7bd76c",
+      "text": "Recover from Unbreakable area damage. Use Meursault's He Who Nails while keeping other allies alive too."
+    },
+    "units.0.name": {
+      "sourceHash": "6329a21c2cd69d44eac6491163cbe72e0f568c264086c43288109e23487eb2c7",
+      "text": "Sous Chef"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "67575e642751713e9c0aa25c12f088b6ebdd84da95850787eb29c541816704db",
+      "text": "Starts at 30 SP."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "9b76673e8e60db2e74cc57f0f50b23fb932701bf5628d92db1a77a3497889c32",
+      "text": "The mandatory first story battle ends below 30% HP."
+    },
+    "units.1.name": {
+      "sourceHash": "40bb703e9ca9be71561ae0461b8941b935e12657f07f59b7e8ce06cbaf428852",
+      "text": "Leather Wallet"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "3edc48098fef9fa7131647fce6e4ccc31b97fe56992936ea28db552d744288cb",
+      "text": "An add used as a cooking target. Summons replenish them."
+    },
+    "skills.0.name": {
+      "sourceHash": "7769cf94f253ab84f3225eade8bc62ddc9ae1a1a2f066dc5945a7d26b4824807",
+      "text": "Cutting up the meat, you hear?"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "82d2a3d5e2747dc93f045d670693ef618f6f7fcfaca4306c726432ad16fd99dc",
+      "text": "[On Use] If the target has Fiery, Tongue-scorching Sauce, Final Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "7336f59dbc6592577c08018fea01b6c2b836bf1221239e1824d8b4399564e8e2",
+      "text": "Final Power +1 against targets with Sauce. Clash with a regular skill to prevent Bleed buildup."
+    },
+    "skills.1.name": {
+      "sourceHash": "779a33a079d5f52b55f6f7304d137e545c255fa8e9c893db66cbff15b20d5201",
+      "text": "Cutting up big chunks, you hear?"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "68bbbb09abc4a21122ad389ddab2b2d815a8c0097a92f216bdd0e517b90b0e25",
+      "text": "[On Use] Final Power +1 per Fiery, Tongue-scorching Sauce on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "4bb771ec864dc1491d0a2fa7c3b56b245766fd419496e222f45fa9d569e89fc5",
+      "text": "Sauce on the target adds up to 2 Final Power. Also adds Bleed Count, so avoid assigning a Sinner with high Bleed."
+    },
+    "skills.2.name": {
+      "sourceHash": "10149901a6f89822227fbcb307fe6527f03b3fa88771f9d1ba1ae5055275cf7f",
+      "text": "Chop, mince, dice, you hear?"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "0b57d6e58db8eff485aaf8ed58049f87de1aa2c3e09c2144f704a5d5c803314a",
+      "text": "[On Use] If the target has Fiery, Tongue-scorching Sauce, Coin Power +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9efc574bf0839f14739877d017417519f7a5f740aa6b5aa93c9aea70cc2ccad2",
+      "text": "[On Use] Coin Power +1 per 6 Bleed on the target (max 2)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "4e99b178482f0b8264b825b8bac0e55719ba4352317ad1cb0293d80b484e9fa3",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.2.response": {
+      "sourceHash": "1dcc43dd068a2f54dc91437adcec33cd61915c21872c0286247340f53101d361",
+      "text": "Sauce and Bleed raise Coin Power. Check beyond the base maximum of 16 and win with a strong skill from a less-affected Sinner."
+    },
+    "skills.3.name": {
+      "sourceHash": "b5d9f759da0c5096865d27c00c6b70355c04dfe070680986afbc31c38340629b",
+      "text": "My signature knife work, you hear?"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "f4e6677ca862c6aaff39e9c1c10eb8150f805c84eaf6a31b9e76fba1a9986a54",
+      "text": "[On Use] Coin Power +1 per 2 Eat yummies and perk up, you hear? on self"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6862f11b31ec8e05fb1d024408bd2bd82354032d413ba68e5dfbb46f3bbbd2bd",
+      "text": "[On Use] If the main target has Fiery, Tongue-scorching Sauce, Final Power +3"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "6bd2ede94fe94965a471cc190da3baa7cac410abdcb2f0237c58575c87fa5c2d",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "9e76d8908e717848fbeb9189d7961e230f890a4d383218ac5039f1f20c2c6344",
+      "text": "[After Attack] Consume all Eat yummies and perk up, you hear? on self"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.3.effects.13": {
+      "sourceHash": "9284f74f0ecc07ff5b66213be602c831d2e6c307b8e2c5c9ed5e6f5c17bced94",
+      "text": "Mastering this technique is said to have finally earned the promotion to Sous Chef."
+    },
+    "skills.3.response": {
+      "sourceHash": "78aa61f20f57c217f9f5cc926aa834f038465ed1606f3b47c59179e7f4341891",
+      "text": "Four Unbreakable Coins and 5 Atk Weight. Win with a Sinner without Sauce for 80% damage reduction and prevention of Stagger from this skill's damage."
+    },
+    "skills.4.name": {
+      "sourceHash": "5beb3b10e89b5096f6a6cf37f5b6e7e11cb2a3b02e0874c2a16f58fe2737f5fd",
+      "text": "I'm collecting ingredients, you hear?"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "7cd1822fb28de7e44a197f9f5f630229d179b170ec74d206b686fa459f138735",
+      "text": "[Unclashable] [Cannot be redirected]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "030c2a52a4b8852142c8332c1a2ed0de4d7d7c29b271c8c832bcf0313fe460bd",
+      "text": "Prioritizes the ally with the most effects"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "fb8927fc8f87b46703257ce4d7d16f813969dec47a912987477645590a84aef2",
+      "text": "While using this skill, disable allies' basic SP-loss conditions"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "7ea14115018104f9afca21e46028c2ebfd33f9914698ef9a5a199178c3ab88d3",
+      "text": "Ⅰ [On Hit] Kill the allied target"
+    },
+    "skills.4.label": {
+      "sourceHash": "7f06a7a46969b700d83c7e2c9782cc64eb98005494152ab9c8bd627bf3fe9bc3",
+      "text": "Cannot be redirected; Unclashable"
+    },
+    "skills.4.response": {
+      "sourceHash": "6d960d0e9a6cd3cc2b10834c92872018efa9eba41e368d5cfe22c8aa7486cdb6",
+      "text": "Kills an allied Leather Wallet; Unclashable and cannot be redirected. Defeat the designated Wallet first to prevent ingredient gains."
+    },
+    "skills.5.name": {
+      "sourceHash": "f5e5a2095061982e9fd65873028ef888ad9114e31fdd49132a87c108bc85d603",
+      "text": "Everyone come come, you hear?"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "698a6178e7cd23ab110e38062aef236950556e2a5370a3f854e612945771e2f8",
+      "text": "Summon as many Leather Wallets as possible next turn"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.5.response": {
+      "sourceHash": "9a9885117c88c23cbbb3288a066d876892f1fc4ed7ac234da8e60ddc6d0ec526",
+      "text": "A Clashable Guard that replenishes Wallets next turn. Eliminating every Wallet does not stop the summons."
+    },
+    "skills.6.name": {
+      "sourceHash": "25fe19af6e0ce237b69a56008883e93d06b1de4ec7a0ae0afc69715263ec53d7",
+      "text": "Yummers! Slurp that up, you hear?"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "160535a506c026d90068507ec18305d1394a114d419b48555ec3c1a83f0e49b9",
+      "text": "This skill designates allies as both main and secondary targets"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "d246f8164f6f88e997c35e8891082b528390c845b919a5006ec30a0e2295d5db",
+      "text": "Against allied targets, damage is always fixed at 0"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "03e23724609cee6f42755bc487e8528f3e0745b84f1ed9f55d37cd7787bca844",
+      "text": "Ⅰ [On Hit] If the target is an enemy, inflict 1 Fiery, Tongue-scorching Sauce"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "46c47456dcab3afe4477cadffd459f62d49fd3cd1d4d8a4ddd362686c5753c9f",
+      "text": "[On Hit] If the target is an ally, grant 2 Offense Level Up next turn"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "859d4b9445e8d339c623cdc3f62e8609d4ba5f088153fd9a976919cc68bd1d26",
+      "text": "Ⅱ [On Hit] If the target is an enemy, inflict 1 Fiery, Tongue-scorching Sauce"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "46c47456dcab3afe4477cadffd459f62d49fd3cd1d4d8a4ddd362686c5753c9f",
+      "text": "[On Hit] If the target is an ally, grant 2 Offense Level Up next turn"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "1ad093bff1eeecb5e4d252f8dcbb1e6547271c9eb8ae1e7a2348ec49cf28a8ed",
+      "text": "Ⅲ [On Hit] If the target is an enemy, inflict 1 Fiery, Tongue-scorching Sauce"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "d5bba2e10fdade40311b5e7fed3eb2b9eab3cd1674e5eed42ba3de60addfe72b",
+      "text": "[On Hit] If the target is an ally, grant 1 Clash Power Up next turn"
+    },
+    "skills.6.response": {
+      "sourceHash": "ef82872432d0a6418d5be5be74cbf9d36bd2c725e2c6755dd594a40e1cbd7088",
+      "text": "A 4 Atk Weight skill that also targets allied Wallets. Applies Sauce to Sinners and buffs Wallets. Clash with the attacks aimed at Sinners."
+    },
+    "skills.7.name": {
+      "sourceHash": "6c94cec3eb474ef798d6e291e6ded917b46a6d07fe89ddc59214f249b1030541",
+      "text": "Aah! I'm on lunch break, you hear?"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "8312890170d2765f5778a97ddaa3fe448e283d43dbaf82a8df360d2b8d9b80f0",
+      "text": "[Indiscriminate]"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "af7af7e9d4d8f3424aed5b11030de9c3c73a1403a6c706678ebcba00b63d1101",
+      "text": "This skill does not hit; damage is always fixed at 0"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "e6e16cad7d4226772c1b3943ed458b1cb1ed59054dcdc31a898d477d385dd318",
+      "text": "[After Attack] Per Chopped Ingredients on self, heal 1% max HP and gain 1 Eat yummies and perk up, you hear?"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "49deb2c51ea8423f33843059e3818644949b16590b410c81912b17a86cc65267",
+      "text": "[After Attack] Per Chopped Ingredients on self, all other allies heal 20% max HP and gain 1 Eat yummies and perk up, you hear?"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "5a8172c67f4974f1a38826eeb05823e0df07e3b4f0cf530529d3d4a06e478096",
+      "text": "[After Attack] Consume all Chopped Ingredients"
+    },
+    "skills.7.response": {
+      "sourceHash": "10f7040865735fe60e0953e90e2fc90ed30f217508e04f1a47f9129cecf4bc03",
+      "text": "Even with 11 Atk Weight, it does not hit and deals 0 direct damage. Ingredients heal and buff the enemy team, so prevent their earlier collection."
+    },
+    "skills.8.name": {
+      "sourceHash": "9c3e7cb8f945be8e8f4270268020b34cca2fbed094632e8cdd65c3948e5ad932",
+      "text": "Cooking!! Lemme get cooking, you hear?!"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "8312890170d2765f5778a97ddaa3fe448e283d43dbaf82a8df360d2b8d9b80f0",
+      "text": "[Indiscriminate]"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "2ac9f860b9cf5ab6f594657501d24446b0c4e06d096ef194dd1a5bf80cb7f2a8",
+      "text": "Summon as many Leather Wallets onto the field as possible next turn"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "873b12bd6d607fbc183608176bb92ab0abf0a4da94f78c8c33b3b96f5372d30d",
+      "text": "[After Attack] Consume all Got an appetite, you hear? and cannot gain it for the rest of this turn"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.8.response": {
+      "sourceHash": "ba579314afa75a659bdac0b541d5e454c45ff673c19b005e73110f13778f61d5",
+      "text": "Three Unbreakable Coins and 5 Atk Weight; cannot distinguish friend from foe. Lacks the signature skill's 80% damage reduction. Prepare strong clashes and HP recovery."
+    },
+    "skills.9.name": {
+      "sourceHash": "7b22e744578e3ea37c3201ff843f9995a96b14014c252775197e4979775b0045",
+      "text": "Nom Nom"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "a822c3c37405bf88138eaa157d3903345fba0b50a2ef1e90f61c0c4e01a16672",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.9.response": {
+      "sourceHash": "ed4d671cb9749678b5a02514ccf96f08513728e8104ecbea00ec9b9cc1c3fbed",
+      "text": "Gains Final Power from the target's Bleed and adds Bleed Count. Prevent unopposed attacks against Sinners with accumulated Bleed."
+    },
+    "skills.10.name": {
+      "sourceHash": "00f3c59db492730a68859dee9874b50791dc3082a9605d674d9d06ca6ad4bce8",
+      "text": "Munch Munch"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "467d04366195fc2fe3eb66e19ad2a3ad52ceb084a29da3523b7bea622c494003",
+      "text": "[On Use] Final Power +1 per 6 Bleed on the target (max 2)"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.10.response": {
+      "sourceHash": "0da5b38be7a99d15145ca260ea0f7a7301c2448ebed1d41a0aa64177d9f43281",
+      "text": "Three Blunt Coins. Bleed raises Power, so assign a clasher separately from the Sinner defeating the cooking target."
+    },
+    "skills.11.name": {
+      "sourceHash": "e626b26493b965ab1bd9a8f0a57acdce7eff13c556937d2bbc3a9044c1409464",
+      "text": "Buuuurp"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "effe61585492bf32a78a2dfa9acb837d8556eed74b7f773e4e86df7810b7ea01",
+      "text": "[On Use] Final Power +2 per 4 Bleed on the target (max 4)"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "3fb8b6c2b7d69f1d7d62f698b2e499e8044927378276d62d48bb0924297ab655",
+      "text": "[On Use] At 3 or more Eat yummies and perk up, you hear?, convert all Coins to Unbreakable Coins"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "33a07cd8471c3e843ef913a359abbf8367fb739df5094d1e9c22a58b11fab4e3",
+      "text": "[On Use] At 5 or more Eat yummies and perk up, you hear?, Atk Weight +2"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "22587bf96294c2649ae8119435996f6f1d4b66246a65a7ec51904cde9af934d0",
+      "text": "[On Use] Consume all Eat yummies and perk up, you hear?"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "278aed74b562335a5fb569ce2608704c4ee493316668b9a32d76f89442352516",
+      "text": "Ⅰ [On Hit] Deal 10 SP damage"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "9e007672fd3dabb3add73ce59faa9df92a56ce4f3c6915f40157c491d22ed22c",
+      "text": "[On Hit] Inflict 1 Fiery, Tongue-scorching Sauce"
+    },
+    "skills.11.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.11.response": {
+      "sourceHash": "bcfea585cfed8133d8404f37f913f710213bfec46c0f4774d6e558748da52780",
+      "text": "At 3 energy, becomes Unbreakable; at 5, gains 2 Atk Weight. After meals, check Wallet buffs too and watch for SP damage and Sauce."
+    },
+    "skills.12.name": {
+      "sourceHash": "81459b6fc7f4f5a3f71b159e7aef88abd31267b3dc0d208a43a7dd786ac70b31",
+      "text": "Standby at the Food Court"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "bd885016a5ac556221cd7d19807a2052c181c6a6616f0c5085ff63d1ad15a912",
+      "text": "[Combat Start] Gain 1 Please, eat me..."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "2b8344314333042af427d9715e4c6a31c3157228ee1069b788083c0513085c7b",
+      "text": "[On Use] Gain a Shield equal to (target's Bleed Potency × 5)"
+    },
+    "skills.12.response": {
+      "sourceHash": "0ce5f0c2102b0427b3db4b553d70ea92321af1bcf23274935c0f52c7479bb069",
+      "text": "Gains Please, eat me... at Combat Start. Unopposed attacks against the Sous Chef invite Assist Defense, so start with clashes."
+    },
+    "skills.13.name": {
+      "sourceHash": "9dc8e0bfd955d8c44251ad953a7fb86c38d53ac45c49ef7c9bf08e643442917b",
+      "text": "I don't want to be cooked."
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "9b493a0b8efb3fa95af4074d60ebbc98d3d9fe1a6e76b7186f1b4141488d5862",
+      "text": "Assist Defense skill only"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "4daff85c43d164bb5ef9bec6708ee3ff7c4a63bc257cca947764cfea1a9dc841",
+      "text": "[Clash Lose] Gain 5 Fragile"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "89ee68250c2f53d2f679f98aedd616a5d5799e1c8aa1fbf8b7eac71d58e41f90",
+      "text": "[Skill End] If still alive, the Sous Chef uses I'm collecting ingredients, you hear? on this unit"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "83d18458d275ea849f4698eac2d514fe312f2690e511eaceb71ce49622c316c3",
+      "text": "(Does not activate if the Sous Chef is Staggered)"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "02849f203dc38d94191be28fca95920acc198393c66190e777e18bfca340e7c2",
+      "text": "Time to fulfill its purpose as meat."
+    },
+    "skills.13.label": {
+      "sourceHash": "e76c5371de942ce6a3d6403c1835c15f2c2110fe9feeafdaee60b04b6468dadb",
+      "text": "Assist Defense only"
+    },
+    "skills.13.response": {
+      "sourceHash": "701ff425ff6d0d007567879ae52bacf95ace5634270033ec58494d152422c7a5",
+      "text": "Surviving Assist Defense triggers extra cooking. If triggered, finish the Wallet or Stagger the Sous Chef first."
+    },
+    "passives.0.name": {
+      "sourceHash": "6329a21c2cd69d44eac6491163cbe72e0f568c264086c43288109e23487eb2c7",
+      "text": "Sous Chef"
+    },
+    "passives.0.effect": {
+      "sourceHash": "94a13b4d30459ac409b6620b7b7c9ef025b3357f8bb26187b74138b216cc758a",
+      "text": "On defeating a target with an Attack Skill, gain 1 Chopped Ingredients.\n- Gain one extra per three effects the target had on Skill Use (max 2 extra).\n\nA chef by title, but never acknowledged by the fifth-floor restaurant."
+    },
+    "passives.0.condition": {
+      "sourceHash": "cb5f3df888a8f270730506cd800e41802630be934abd29f6becd4d5838373a74",
+      "text": "Defeating a target with an Attack Skill"
+    },
+    "passives.0.response": {
+      "sourceHash": "98116e2209e693fec7b510b83765e8e125883c87e8a0f3b6cdb732fb71252070",
+      "text": "Ingredients come from any defeated target, not only Wallets. Limit damage taken and defeat the cooking-target Wallet first."
+    },
+    "passives.1.name": {
+      "sourceHash": "0232ba94cccaeb00aa720d126d40450caea38dc6ae5f94431eee04d1e11a6dd3",
+      "text": "I can cook up delicious dishes so good, you hear?"
+    },
+    "passives.1.effect": {
+      "sourceHash": "660b0556480364b884a75ec5676ef527e9affbde2226cda0f5e19dd7836ecccb",
+      "text": "With Chopped Ingredients, use Aah! I'm on lunch break, you hear? as the turn's final action.\n(Does not activate if all other targets are dead or the user is Staggered.)\nIf the skill could not be used by Turn End, gain 1 Got an appetite, you hear?.\n\nThe fifth-floor restaurant would not even call this cooking."
+    },
+    "passives.1.condition": {
+      "sourceHash": "561a820452aeab1728b111ac72006773918c86e5a27095d0e693f5f501f63374",
+      "text": "With ingredients; final action of the turn"
+    },
+    "passives.1.response": {
+      "sourceHash": "c3be578ff4adf44e6a10ba19bcdf00c1ab76b2083029267b59629a250881dc0a",
+      "text": "Failing to eat adds hunger. Rather than only stopping every meal, decide how to prepare for the next major attack before hunger reaches 3."
+    },
+    "passives.2.name": {
+      "sourceHash": "9249f40d30cc56402c6ad1003137fbaa925e1243eae7a85f4f51e85a0a8f3b7b",
+      "text": "Culinary Ambitions"
+    },
+    "passives.2.effect": {
+      "sourceHash": "ecd8792481a4063dc11df159b91a6ef1f6e39ff84efac0cedb663ee6cb0f33a0",
+      "text": "Use a powerful Gluttony skill every four turns; if Stagger prevents it, use it next turn.\n- At Turn End with at least 5 Eat yummies and perk up, you hear?, use the powerful Gluttony skill next turn.\n\nAt Turn End with at least 3 Got an appetite, you hear?, use a powerful Wrath skill next turn.\n\nMaking something edible and cooking are different. You merely... make it possible to eat."
+    },
+    "passives.2.condition": {
+      "sourceHash": "db404e1f45fc4845d4b26af2b3201c58e74ba572e7d5cb5d5ba62835878e4201",
+      "text": "Four-turn cycle; 5 energy; 3 hunger"
+    },
+    "passives.2.response": {
+      "sourceHash": "cd8d1a676705d0fc8d5695c53abfda3394fc15e276070bbf35af6c47b2875bdc",
+      "text": "At 5 energy, the Gluttony skill comes sooner; at 3 hunger, the Wrath skill appears. Wrath takes priority if both conditions are met."
+    },
+    "passives.3.name": {
+      "sourceHash": "85a378b42421310690314f9be7178a84e9eaf648273c300c6f58f1f5eb8d5636",
+      "text": "Yummies yummers, you hear?"
+    },
+    "passives.3.effect": {
+      "sourceHash": "b7245108f9b781c7b2eff4a459bf1f3b8d89a52fe38b40c5348c31e2a2cc9ed7",
+      "text": "At Turn Start, heal 3 SP per Eat yummies and perk up, you hear? on self.\n\nCan the Food Court crowd even speak of taste?"
+    },
+    "passives.3.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.3.response": {
+      "sourceHash": "99b38a12ffdbe443f29ca69f2161ba511ab7204363f124be2f637aea7bf64a6e",
+      "text": "Meals restore SP as well as Offense Level buffs. Avoid letting energy build too high."
+    },
+    "passives.4.name": {
+      "sourceHash": "c0bc289aa85a066231882597343a81e87995eda4b88b1a78e8c88d473ba72925",
+      "text": "Flit and flee, you hear?"
+    },
+    "passives.4.effect": {
+      "sourceHash": "ea5db364d770b80428058e256aef517d589416dac2414b753551a56728cdc1ec",
+      "text": "The battle ends when the Sous Chef's HP falls below 30%.\n\nThere is no wish to die."
+    },
+    "passives.4.condition": {
+      "sourceHash": "43332c7da2d1c7e8f434f5f1250e29eebac67630b95c7a68f84fbeca3efe72d4",
+      "text": "Main body below 30% HP"
+    },
+    "passives.4.response": {
+      "sourceHash": "8c982bf83435f734162de637572f546bc14e461f4823fda82f7f567a1533f1e7",
+      "text": "The mandatory first battle ends here. Distinguish this from the optional rematch's defeat condition."
+    },
+    "passives.5.name": {
+      "sourceHash": "3e824ea9ec1727a50abd3a84eb21ae5834fa6cf4e47d01b71dcac7ba0ce7aae8",
+      "text": "Flavorful Cooking Ingredient."
+    },
+    "passives.5.effect": {
+      "sourceHash": "040903e3a8339287ab2986a31a946605dfff33bd6c2f0b9f47150c1770121174",
+      "text": "With at least five types of effects on self, Offense and Defense Levels +3.\n\nThis does not even qualify as an ingredient."
+    },
+    "passives.5.condition": {
+      "sourceHash": "e259f19613bbdd479f45874d2c511fab948de233f6d6e02a04ac114942bec565",
+      "text": "At least five effect types"
+    },
+    "passives.5.response": {
+      "sourceHash": "b9bd078cb8a5c664d8f60fce1e977f465e41d3ac241a87f3dcf6f6b589b78a6b",
+      "text": "Wallets with more effects gain Offense and Defense Levels too and provide more ingredients. Defeat the designated target early."
+    },
+    "passives.6.name": {
+      "sourceHash": "37db48fdff1e5b6fd9646e0725db2cf39505d0643e9d7b4ddc1955a5331a723d",
+      "text": "Enzymatic Tenderization"
+    },
+    "passives.6.effect": {
+      "sourceHash": "3a6466cf267d6b8adb37cc671b0cf63acba2c057ff56485ed1c4cd0a5e7c1280",
+      "text": "When hit, gain 1 Defense Level Down and 1 Offense Level Up next turn (up to 3 per turn).\n\nSoftening tough wallet leather can only achieve so much."
+    },
+    "passives.6.condition": {
+      "sourceHash": "805a37cdaf60953bc0a36676353ce57b98a46a554515afbcf7d7212715421b84",
+      "text": "When hit; up to three times per turn"
+    },
+    "passives.6.response": {
+      "sourceHash": "045f02a057c1742e861c8357e4a588f3664d66b83ae62df143d86b24c71c56e4",
+      "text": "Next turn, defense falls but offense rises. Do not leave partially damaged Wallets' attacks unattended."
+    },
+    "passives.7.name": {
+      "sourceHash": "dc083d2a75d9ea43460fec9b0b6cce190b4102f409ae67afc03ebe195fd168f4",
+      "text": "Hungry..."
+    },
+    "passives.7.effect": {
+      "sourceHash": "696d320e506021cab866f63064b5a725837d4c934a8e19cefe0502022c1b4a56",
+      "text": "If the Sous Chef could not use Aah! I'm on lunch break, you hear? by Turn End, gain 1 Got an appetite, you hear?.\n\nThough not made as an ingredient, the Wallet is raised as one; naturally it gets hungry too."
+    },
+    "passives.7.condition": {
+      "sourceHash": "37b2a26b56a6e17685d59e525b46dbdd9771b963d2dcfc3f882983fa14035de5",
+      "text": "End of a turn without a meal"
+    },
+    "passives.7.response": {
+      "sourceHash": "0400dc3e744e1fedc0eba57d4ddf6630cb654dfd72b0e76071267a6230e20751",
+      "text": "Wallets gain hunger as well as the Sous Chef. Check effects across the enemy team before assigning next-turn clashes."
+    }
+  },
+  "messages": {
+    "boss-copy:sous-chef": "complete",
+    "【リンバス】10-04 スーシェフ（10章A）の攻略｜Limbus Assistant": "10-04 Sous Chef (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「スーシェフ（10章A）」の攻略。スーシェフが調理しようとしている革の財布を先に倒し、食事による回復と強化を抑える戦闘。ただし、食事を止め続けると空腹から別の大技が来る。料理の成否と二種類…": "Sous Chef (Canto X A) guide for Limbus Company 10-04. Defeat the Leather Wallet being prepared as food before the Sous Chef acts to limit healing and buffs from meals. However, repeatedly preventing meals triggers a different major attack through hunger. Track cooking outcomes and both Unbreakable area skills while lowering the main body's HP below 30%.",
+    "10-04 スーシェフ（10章A）": "10-04 Sous Chef (Canto X A)",
+    "10-04「Sisyphus Department Store A, B1F: Food Court, First Battle」": "10-04 · Sisyphus Department Store A, B1F: Food Court, First Battle",
+    "スーシェフの外見": "Sous Chef appearance",
+    "スーシェフのスキル": "Sous Chef skills",
+    "Sous Chefの外見": "Sous Chef appearance",
+    "Sous Chefのスキル": "Sous Chef skills",
+    "革の財布の外見": "Leather Wallet appearance",
+    "革の財布のスキル": "Leather Wallet skills",
+    "Leather Walletの外見": "Leather Wallet appearance",
+    "Leather Walletのスキル": "Leather Wallet skills"
+  }
+}

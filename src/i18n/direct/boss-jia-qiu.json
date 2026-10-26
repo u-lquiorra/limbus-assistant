@@ -1,0 +1,2612 @@
+{
+  "kind": "boss-copy",
+  "id": "jia-qiu",
+  "source": "src/data/bosses/jia-qiu.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "呪殺【勿動】",
+          "en": "Deathrite 【Halt】",
+          "file": "Bufs-a1c8p2.json",
+          "id": "BurstStop"
+        },
+        {
+          "ja": "呪殺【掣肘】",
+          "en": "Deathrite 【Impede】",
+          "file": "Bufs-a1c8p2.json",
+          "id": "BurstSuppress"
+        },
+        {
+          "ja": "呪殺【即減】",
+          "en": "Deathrite 【Wane】",
+          "file": "Bufs-a1c8p2.json",
+          "id": "BurstWave"
+        },
+        {
+          "ja": "一抹の期待",
+          "en": "A Sliver of Anticipation",
+          "file": "Bufs-a1c8p2.json",
+          "id": "ExaminationOfQiu"
+        },
+        {
+          "ja": "ジア・チォウ",
+          "en": "Jia Qiu",
+          "file": "Bufs-a1c8p2.json",
+          "id": "Qiu_LowMorale"
+        },
+        {
+          "ja": "ジア・チォウ",
+          "en": "Jia Qiu",
+          "file": "Bufs-a1c8p2.json",
+          "id": "Qiu_Panic"
+        },
+        {
+          "ja": "押し殺された殺気",
+          "en": "Concealed Bloodthirst",
+          "file": "Bufs-a1c8p2.json",
+          "id": "RepressedMurderousIntendTwo"
+        },
+        {
+          "ja": "殺気抑制",
+          "en": "Bloodthirst Suppressed",
+          "file": "Bufs-a1c8p2.json",
+          "id": "ZiluDebuff"
+        },
+        {
+          "ja": "ズールゥ",
+          "en": "Zilu",
+          "file": "Enemies-a1c8p2.json",
+          "id": "1133"
+        },
+        {
+          "ja": "ジア・チォウ",
+          "en": "Jia Qiu",
+          "file": "Enemies-a1c8p2.json",
+          "id": "1137"
+        },
+        {
+          "ja": "ジア・チォウ",
+          "en": "Jia Qiu",
+          "file": "Enemies-a1c8p2.json",
+          "id": "1141"
+        },
+        {
+          "ja": "奇襲失敗",
+          "en": "Failed Ambush",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113101"
+        },
+        {
+          "ja": "見極める",
+          "en": "Estimation",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113301"
+        },
+        {
+          "ja": "開花 E.G.O::而立",
+          "en": "Effloresced E.G.O::Érlì",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113701"
+        },
+        {
+          "ja": "削貶",
+          "en": "Deteriorate (削貶)",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113702"
+        },
+        {
+          "ja": "呪殺【勿動】",
+          "en": "Deathrite [Halt (勿動)]",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113703"
+        },
+        {
+          "ja": "呪殺【掣肘】",
+          "en": "Deathrite [Impede (掣肘)]",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113704"
+        },
+        {
+          "ja": "ズールゥよ",
+          "en": "Heed me, Zilu",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113706"
+        },
+        {
+          "ja": "その道の果てはここまでか",
+          "en": "This is where your path ends",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113707"
+        },
+        {
+          "ja": "圧倒",
+          "en": "Overwhelm",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113708"
+        },
+        {
+          "ja": "開花 E.G.O::而立",
+          "en": "Effloresced E.G.O::Érlì",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114101"
+        },
+        {
+          "ja": "貶",
+          "en": "Diminish (貶)",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114102"
+        },
+        {
+          "ja": "再び問おう",
+          "en": "I will ask again",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114104"
+        },
+        {
+          "ja": "気合",
+          "en": "Focus",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114105"
+        },
+        {
+          "ja": "気合",
+          "en": "Focus",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114106"
+        },
+        {
+          "ja": "俺はまだ聞けていない。",
+          "en": "I still await your answer.",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "114107"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114513"
+        },
+        {
+          "ja": "初撃",
+          "en": "Startling Strike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113101"
+        },
+        {
+          "ja": "抑制",
+          "en": "Restraint",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113102"
+        },
+        {
+          "ja": "快撃",
+          "en": "Feather Strike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113103"
+        },
+        {
+          "ja": "準備動作",
+          "en": "Windup",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113104"
+        },
+        {
+          "ja": "追撃",
+          "en": "Pursuit",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113201"
+        },
+        {
+          "ja": "圧倒",
+          "en": "Overwhelm",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113202"
+        },
+        {
+          "ja": "暗撃",
+          "en": "Umbra Strike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113203"
+        },
+        {
+          "ja": "準備動作",
+          "en": "Windup",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113204"
+        },
+        {
+          "ja": "初撃",
+          "en": "Startling Strike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113301"
+        },
+        {
+          "ja": "刺殺",
+          "en": "Perforating Kill",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113302"
+        },
+        {
+          "ja": "標刻",
+          "en": "Etching Strike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113303"
+        },
+        {
+          "ja": "刻呪殺剣 - 瞬歩",
+          "en": "Cursewrit Butcherblade - Blinkstep",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113304"
+        },
+        {
+          "ja": "刻呪",
+          "en": "Cursewrit",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113305"
+        },
+        {
+          "ja": "超速護衛",
+          "en": "Swiftfeet Protection",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113307"
+        },
+        {
+          "ja": "問",
+          "en": "Question (問)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113701"
+        },
+        {
+          "ja": "答",
+          "en": "Answer (答)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113702"
+        },
+        {
+          "ja": "非礼勿動",
+          "en": "Act Not With Impropriety (非禮勿動)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113703"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113704"
+        },
+        {
+          "ja": "雷霆万鈞",
+          "en": "Thunderstrike",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113705"
+        },
+        {
+          "ja": "斬れ、卯。",
+          "en": "Cut them Down, Mao",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113706"
+        },
+        {
+          "ja": "出しゃばるでない",
+          "en": "Do Not Meddle",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113708"
+        },
+        {
+          "ja": "再び問おう",
+          "en": "I Ask Again",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114101"
+        },
+        {
+          "ja": "非礼勿動",
+          "en": "Act Not With Impropriety (非禮勿動)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114102"
+        },
+        {
+          "ja": "出しゃばるでない",
+          "en": "You Will Not Meddle",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114103"
+        },
+        {
+          "ja": "雷霆万鈞 - 波",
+          "en": "Thunderstrike - Ripple (波)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114104"
+        },
+        {
+          "ja": "黒獣 卯 連携 -乱撃",
+          "en": "Heishou - Mao Linkstrike - Bladestorm",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114105"
+        },
+        {
+          "ja": "ズールゥよ",
+          "en": "Heed Me, Zilu",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114106"
+        },
+        {
+          "ja": "呪殺殺到",
+          "en": "Deathrite Deluge",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114107"
+        },
+        {
+          "ja": "答えろ、ジア・バオユ",
+          "en": "Answer Me, Jia Baoyu",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114108"
+        },
+        {
+          "ja": "天罡星 - 格",
+          "en": "Tiangang Star - Form (格)",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114109"
+        },
+        {
+          "ja": "薙ぎ払い、畳み掛けよ",
+          "en": "Like a Roaring Storm",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "114110"
+        },
+        {
+          "ja": "黒獣 - 卯 : 快撃",
+          "en": "Heishou Pack - Mao: Featherstriker",
+          "file": "Enemies-sweep.json",
+          "id": "90185"
+        },
+        {
+          "ja": "黒獣 - 卯 : 暗撃",
+          "en": "Heishou Pack - Mao: Umbrastriker",
+          "file": "Enemies-sweep.json",
+          "id": "90186"
+        },
+        {
+          "ja": "もう少し畳み掛けるべきだな",
+          "en": "I Must Push You Further",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113707"
+        },
+        {
+          "ja": "禁制部分開放 :",
+          "en": "Incomplete Seal Release:",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113306"
+        },
+        {
+          "ja": "黒獣 卯 奥義 - 雲解顕現",
+          "en": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+          "file": "Skills_Abnormality-a1c8p2.json",
+          "id": "113308"
+        },
+        {
+          "ja": "絃歌不輟",
+          "en": "Infinite Song of Erudition",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113709"
+        },
+        {
+          "ja": "シン(心) 発散",
+          "en": "Shin (心) Radiance",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113302"
+        },
+        {
+          "ja": "ジア・チォウの試験",
+          "en": "Jia Qiu's Test",
+          "file": "Passives_Abnormality-a1c8p2.json",
+          "id": "113102"
+        },
+        {
+          "ja": "貫徹",
+          "en": "Uncompromising Imposition",
+          "file": "Bufs.json",
+          "id": "DarkHongluTeaching"
+        }
+      ],
+      "note": "Guide aliases are resolved against paired Canto VIII records. First- and second-half Do Not Meddle / You Will Not Meddle and the Deathrite passive/status names are distinguished by record ID. The guide name Extinguish is provisional: its source separately lists Wane and does not establish a separate effect. The raw 113306 skill record supplies the complete name including Tianjiu Star's Blade. Original guide conditions, numeric values, and uncertainty are retained."
+    }
+  },
+  "scopedTerms": [
+    "取",
+    "出しゃばるでない",
+    "再び問おう",
+    "ズールゥよ",
+    "呪殺【即滅】",
+    "圧倒",
+    "準備動作"
+  ],
+  "scopedPaths": [
+    "passives.5.name",
+    "passives.6.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "37614b1929c6c1571e8e38b78d25623bde431523dedeacbdd704bec2e1ea8d47",
+      "text": "Jia Qiu (8-20)"
+    },
+    "shortName": {
+      "sourceHash": "6c311381808056c400597dd6fe6fcd241631f8c710ac6109e8f272ea27569961",
+      "text": "Jia Qiu"
+    },
+    "stageName": {
+      "sourceHash": "79f86916963444c4b469e19c508fade230a068408017afa78c1092df2fe06937",
+      "text": "Second Hierarch Trial: What Hongyuan Needs Most"
+    },
+    "lead": {
+      "sourceHash": "3baa572255173512756dd0c3b5ce103129a5ddc2b2a6ffb510551bee36c06de6",
+      "text": "Keep Hong Lu alive throughout and avoid unnecessary attacks on Zilu. In the second half, win 3 Dialogues with Hong Lu himself to stop the Shield, then beat the finisher to create an opening."
+    },
+    "listLead": {
+      "sourceHash": "92ccdb8f4e20989f26891b3db80b52c387185de9b574ab2cf662cdafadd7f725",
+      "text": "Keep Hong Lu alive throughout and avoid unnecessary attacks on the designated enemy. In the second half, Hong Lu must win 3 Dialogues to stop the Shield, then beat the finisher to create an opening."
+    },
+    "statNote": {
+      "sourceHash": "7ccffb055bb2d76339dc1a75a4c701a1a572ca7b0ce07d62eaba06db1b206ddb",
+      "text": "The final 8-20 dungeon encounter. Hong Lu is required; his death causes immediate defeat, including during the opening wave. Displayed Offense/Defense Levels account for 35 A Sliver of Anticipation on Qiu, 20 Bloodthirst Suppressed on Zilu, and 5 Concealed Bloodthirst on the Heishou. First- and second-half HP values are 2439 and 3403 respectively; both phases progress at half HP."
+    },
+    "skillNote": {
+      "sourceHash": "157ab7be1cbb546375e5ad9ece3b7aaec4659017964efaac28c2c410f049ecb6",
+      "text": "34 skills listed by user and form. Tiangang Star - Form displays values before the Dialogues Coin Power reduction; with 3 Dialogues, its maximum is 13. The first-half I Must Push You Further has no confirmed Offense Level; the repeated Unbreakable Coin I label is provisionally treated as II. Dialogues appears as Uncompromising Imposition for Hong Lu's Lord Identity."
+    },
+    "priorities.0": {
+      "sourceHash": "3efc14c809b614e268de89641d5fbde6f315ec02e0997d7effadeab4a5790c18",
+      "text": "Hong Lu's death causes immediate defeat. Bring 7 Sinners and 5 reserves, HP/SP recovery, and powerful skills for Hong Lu."
+    },
+    "priorities.1": {
+      "sourceHash": "5320b34e20df182e381853fda645588e64fdc05c242f7cf9e67481ea21714ecc",
+      "text": "Do not reduce Zilu to 85% HP or lower. Avoid weak one-sided attacks on Qiu while Assist Defense is active."
+    },
+    "priorities.2": {
+      "sourceHash": "98cc91da45028caf6b7dfd687565797f1cb03a1986fe78718ae9818dc81f2bde",
+      "text": "In the second half, Hong Lu must win 3 clashes against Answer Me, Jia Baoyu. Heal beforehand for the following mass attack and duel."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "2925243f9f11a5d58bfbafda88a4ffb8e1ea17f2a68eac9c3a3b409ab59459c4",
+      "text": "Sudden defeat despite available reserves"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "e947cdadf06e68107215d883a42084506e9c087d4a6d4ebabeb9e60af9d7e344",
+      "text": "Hong Lu's death immediately ends the fight. Unlike 8-17, sacrificing him does not allow the fight to continue. Prioritize his HP and the resources he needs for Dialogues."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "6e4fa4272abd4275db1b832fe7867354aca2ab148f5094dc82b72e14d64694f8",
+      "text": "Attacking Qiu triggered Zilu's counterattack"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "1893feecfbe2cf43fa334361b1580fdfce02fe0843576b36d26480ced8dd3c6f",
+      "text": "Assist Defense is active on turns with Blinkstep. It intercepts one-sided attacks on Qiu; at 2+, it becomes a powerful Unbreakable Counter. Avoid weak follow-ups and prioritize regular clashes."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "21ca81b145ea4241595faa4a886ce8ff84787e46c4bf0fecee75164c21c5c695",
+      "text": "The second-half Shield returns every turn"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "54e0ddfc34cfdb718ae92a7aee42dab3ff62449b16d921478fcf5a911d05a03b",
+      "text": "Have Hong Lu win against Answer Me, Jia Baoyu to reach 3 Dialogues. The Shield falls from 900 to 600 to 300 to none; there is no need to keep breaking it through raw damage alone."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "bce5567be25c15c543e3888413257aeea69c2c2b484d45d2560dc700a3769cb9",
+      "text": "At 3 Dialogues, everyone except Hong Lu stopped acting"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "2be0712334651c875cf2898ea0bdfe7f788385d7e6109de208695628583b37f8",
+      "text": "This is the scheduled mass attack, followed next turn by a duel with Hong Lu. If he wins against Tiangang Star - Form, the enemy loses 24 Defense Level. Heal everyone and prepare Hong Lu's strong skills beforehand."
+    },
+    "units.0.name": {
+      "sourceHash": "8742013671905ea3987b2034b7098dfe1775310fa90655d08fdb1a475f2e9978",
+      "text": "Jia Qiu (first half)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "350d7365a1fd73e63c2590b93a4b5d43c907f5c905b8f598987af281133732db",
+      "text": "30% / 0% (731 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "8a16c694ea2d5bf570f2e733fb3acfe0a7829d9d51bdec5286e75ea6a1b7153c",
+      "text": "At 50% HP, immediately ends the turn and enters the second half, before reaching the first-half Stagger threshold."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "309a956883f18d9bf718308551a4ac4318780560a1bece7481c10570b1c1a724",
+      "text": "Displayed levels include A Sliver of Anticipation's reductions. This is not a fight against an unmodified Level 90 enemy."
+    },
+    "units.1.name": {
+      "sourceHash": "f98617b5f497b6aeaa5854532f6625e9a2890755008b74019a98ff32bc617663",
+      "text": "Zilu"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.speed": {
+      "sourceHash": "4a092fd0a2ee50e002632dedbc1edf9a89e45d0f39624abb36a6b71795f4ed3e",
+      "text": "3–5 / 5 Haste from Strider【Mao】"
+    },
+    "units.1.stagger": {
+      "sourceHash": "8297b13f56f1f8e28864d7396eb0338d905cf7aa225ad7a096fc9bfb4fedb71a",
+      "text": "50% / 0% (1104 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "1a0dc62ed56c3da4fd5197c11b6ce2fa4f16b5d1ee692d682d7c5fa3ce1de2cd",
+      "text": "Strengthens at 85% HP or lower. At 60% or lower, gains 500 Shield at Turn Start and death prevention. Defeating him is not the objective."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "1ec7eb3cb19f8adc91f33cf4d1b5c88bfeca8ef09cc724638c25930bbec093bf",
+      "text": "Withdraws when Qiu's first half ends. Reappears temporarily in the second half."
+    },
+    "units.2.name": {
+      "sourceHash": "f76b919bc2bf23199c1bbbbeedebae9fdc2b86ce73d554a365b73e5f13e1f035",
+      "text": "Jia Qiu (second half)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.speed": {
+      "sourceHash": "c8a71ea1f3c970ff15ef3f2688210d5a63035c4b9969e1de2fe91a3f25a68393",
+      "text": "3–5 / 10 for the mass attack after Dialogues"
+    },
+    "units.2.stagger": {
+      "sourceHash": "c5101143f115ff9566fae20058c56ae25edcd216143be9b1526e0c4ff49e9238",
+      "text": "30% / 0% (1020 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "b34f1b20d2a3a31e43fbe565146aba63b93f1bf6dac34336e5c4053643c63358",
+      "text": "Restores full HP and reaches 30 SP on transition. Dialogues reduces the Shield gained each turn."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "55fe5327324b62f04cb1f1df66625648e04b91737e0eb0d1f11c7c120b26de3a",
+      "text": "The second half also ends at half HP. Do not budget resources around reducing him to 0."
+    },
+    "units.3.name": {
+      "sourceHash": "d1bb34656c55c65db02e44e1cec7242c7eaa759c17f845a31b7fb072fb91d840",
+      "text": "Heishou Pack - Mao: Featherstriker"
+    },
+    "units.3.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.3.stagger": {
+      "sourceHash": "57996dc40c15ceec09779c9e844da85ee9f636e42a272e7bfd836666aa404508",
+      "text": "75% / 50% / 25% (200 / 133 / 66)"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "fa51ff007985700370ebcedf8898d8cd29f654b1b04a460dc6313ee3d2f7b872",
+      "text": "2 appear in the opening wave. Build SP and resources against them and the 2 Umbrastrikers."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "cdd4f2af987dce0c7ebefe12770418aef5167500efed1ca6443d61c7c4504d67",
+      "text": "Heishou summoned in the second half withdraw after 1 turn. They are not elimination targets like the opening wave."
+    },
+    "units.4.name": {
+      "sourceHash": "45fc6882b2fdf0a78803fcd62b522c6df03e429488b2bad09d1f53cc02ab6c62",
+      "text": "Heishou Pack - Mao: Umbrastriker"
+    },
+    "units.4.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.4.stagger": {
+      "sourceHash": "57996dc40c15ceec09779c9e844da85ee9f636e42a272e7bfd836666aa404508",
+      "text": "75% / 50% / 25% (200 / 133 / 66)"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "5a8154914313df27cc00e5579ee6446ecf9956ce8aee0d18048e2b8964fefe58",
+      "text": "2 appear in the opening wave. Resist Slash; weak to Blunt."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "246ea902c126584e88e1e52a39eba4840b5fdf616312776fbd7b11a7c67a7801",
+      "text": "Protect Hong Lu and raise SP through winning clashes."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "61e20ea8bc394d5392b3d464c87cc2ae3176f55ab77a5fc6a2489aa5a549907e",
+      "text": "7 Sinners and 5 reserves, centered on Hong Lu and healing"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "1c89e02f7e48a5ebd1de2fdaef5e0b210d813a6507f9ab105d2718809ac7defd",
+      "text": "Aim for Level 55 and Uptie III or higher. Stock resources for Hong Lu's strong skills and Land of Illusion. His death causes immediate defeat."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5a194cc408abde3d8486bd0691f07168f3b04a345ff9e7783edce1261a0d6571",
+      "text": "Use dungeon healing points and carried-over resources; do not exhaust every powerful skill in the opening wave. Blunt works well against the opening enemies; Gluttony, Lust, and Pride work well against Qiu."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "65fc03a0e0e47f24bbc4692cdd58ecd5e4c0f4518e6a7b5129cc71071d921a4b",
+      "text": "Hong Lu's exclusive support grants +1 Final Power to all skills and lets clash wins heal low-SP allies' SP. His Lord Identity uses different names for the support and Dialogues effects."
+    },
+    "phases.1.timing": {
+      "sourceHash": "62111c447ba49266280a15bd6c477b2d4b13ac7bf3ce35f11928bb25b9137a0d",
+      "text": "Wave 1 · 4 Heishou"
+    },
+    "phases.1.title": {
+      "sourceHash": "0452eaf24cd37a0df7c2fa1f0e5bbf543f9dda882a9a15e3d1434d8ed4c8a3f1",
+      "text": "Use Blunt damage and build SP"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "61664ff28c37e5286cabd4b82e7ba27fd93ccf9e7a7f1b5bf8e8742933becb99",
+      "text": "Face 2 Featherstrikers and 2 Umbrastrikers. Win clashes with regular skills to raise everyone's SP, including Hong Lu's."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "76bbb98c75d11818b8c2e4698b0f6e1b2b9b7639189f0e52eb163d5a459b634c",
+      "text": "Focus Blunt damage on one enemy at a time to Stagger and defeat it, limiting opening-wave attrition. Save E.G.O resources for the later Dialogues and healing."
+    },
+    "phases.2.timing": {
+      "sourceHash": "14ad50a990fb3bdbe61bac478b369b081edf61b773fcd9c3cf67e8f64a134450",
+      "text": "Wave 2 · Qiu and Zilu"
+    },
+    "phases.2.title": {
+      "sourceHash": "122b05eaff0697a470894dfdea1fbfe14c6b1ee2c78c6aef5cf98bbc8d2e55a3",
+      "text": "Clash against Qiu and avoid damaging Zilu"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "2387fe3423126428cddcc9ae4afb64572ce4e00e93ca6f5404fe828516745a12",
+      "text": "Aim to reduce Qiu to 50% HP. Zilu cannot be killed, and reducing him to 85% HP or lower strengthens both enemies. Watch for accidental damage from area attacks."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "07e01ac67b0b791da9e4fe1fdf94a1e1ca172af03688658e9274883d2b7efdf2",
+      "text": "Win necessary clashes against Zilu so Estimation gives him Bind. Avoid unnecessary follow-ups; spend actions reducing Qiu's HP."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "b031033b62324dfe1c1b4ded961a40bfd378a6d566fee2195cfffc0d38ff695f",
+      "text": "Check Assist Defense on turns with Blinkstep. Weak one-sided attacks on Qiu are intercepted. At 2+ Assist Defense, this becomes a strong Unbreakable Counter; using fewer attacks and more defense or healing is reasonable."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "c80689361b9f6d2a2adb95d072e52a8465054121254c696a673a8bffa3597225",
+      "text": "At 50% HP, the turn ends immediately. Heal before crossing the threshold to prepare for the second half."
+    },
+    "phases.3.timing": {
+      "sourceHash": "a7f7838b30fbc99a041aaf2ebb51f78fdf7dac626711c319c3f5159c69459e41",
+      "text": "Second half · 0–3 Dialogues"
+    },
+    "phases.3.title": {
+      "sourceHash": "87a58aa3a9bb3a7490fc2a859ad76aad0093ea4a8808402a2162514b23bf6527",
+      "text": "Hong Lu must win against Answer Me, Jia Baoyu 3 times"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "13327a905cc74c818c4794136ff6c5f0a45e2064ba1cb2edad68653674137b79",
+      "text": "Qiu returns with 3403 HP and 30 SP, initially gaining 900 Shield every turn. Survive through healing and clashes while progressing Dialogues."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "7b56d5debec4562dc6411b400bcf201641f950e9389d9576d7d3306b4eabceb6",
+      "text": "From the second turn of this half, Answer Me, Jia Baoyu appears on turns when Heishou temporarily join. It cannot be redirected; Hong Lu must win the clash with his own powerful skill."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "6e2403ee659ccfce82dbd1735a7198bd2abd827fa8fc8c5b131b306d8a08f6f5",
+      "text": "Each win grants 1 Dialogues. After 3 wins, future Shield gains stop. Hong Lu's Lord Identity displays this as Uncompromising Imposition; check the number on Hong Lu himself."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "3ea4687684084cd97826fcd7d8759d21c2da585684c8daac5f197a8d62f23edb",
+      "text": "The returning Heishou withdraw after 1 turn; do not waste damage trying to kill them. Prioritize Zilu's Assist Defense and Hong Lu's Dialogue clash."
+    },
+    "phases.4.timing": {
+      "sourceHash": "1322028c8d53b7b8bbf995a1954b4feb2a7e37411a97bd38e891a107805b4ad7",
+      "text": "After 3 Dialogues"
+    },
+    "phases.4.title": {
+      "sourceHash": "6a9811058ef8463f9c3cc2504f0b01a18f51a54becef289ee702622158585f6d",
+      "text": "Heal before the mass attack, then win Hong Lu's duel"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "1084597f085d843eab6b42b2d8b33a7ac0994b8e72ae6108dc5c33b1877312b2",
+      "text": "Next turn brings a Speed 10 Unclashable, unredirectable attack. It targets everyone except Hong Lu; equip defense skills and prepare for the turn to end after the attack."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "943a12df1a1304a751740857e7d0d8bd60097d06c5a43151414583f96aabf470",
+      "text": "The following turn brings Tiangang Star - Form against Hong Lu. At 3 Dialogues, Coin Power drops to 2 and its maximum becomes 13. Use his strong skills or E.G.O for a reliable win."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "0a1877b88ee027c8c182acd00b2cbbf3ae86ba17253c8443c3ea2784467c1869",
+      "text": "Winning inflicts 24 Defense Level Down on the enemy and halves its damage; that attack cannot Stagger its targets. With 4 Unbreakable Coins and 7 Attack Weight, heal secondary targets beforehand too, and defend against the remaining hits."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "e81f390d928abd29bf44b5afc4dd9ab0785bacfb1aed318fb3bab0168042c435",
+      "text": "Focus the boss once its Shield is gone and Defense Level is reduced, bringing its second-half HP down to 50%."
+    },
+    "skills.0.name": {
+      "sourceHash": "d9feb7033585ebf0d9fff0d2179263c38ea8aa75cf15f11205ad791bdb297b90",
+      "text": "Question (問)"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.0.response": {
+      "sourceHash": "8e59d72e7bd8829d6757df7a079de68fbe9148614a1fccafd0701a4e95f604bd",
+      "text": "Gains +1 Coin Power against targets with 5+ Rupture. Win to prevent additional Count, and avoid concentrating attacks on Sinners with high Rupture."
+    },
+    "skills.1.name": {
+      "sourceHash": "10ec8c161aac40d535cd9375e8c212b970f5622e9db38d78f6f38f2e183bccdf",
+      "text": "Answer (答)"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.1.response": {
+      "sourceHash": "8f34f92ba7df801883d4796888388d7dcc0f0bce1dee30d27d80180cbc435703",
+      "text": "A single-Coin skill that adds Rupture. Use a winning regular skill based on the current prediction, including the user's Offense Level reduction."
+    },
+    "skills.2.name": {
+      "sourceHash": "c365e2c13c7662237b292dd20e52efb64793af5c000aeaa83d17418b13f84dd2",
+      "text": "Act Not With Impropriety (非禮勿動)"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "23882eae2cf30c46028a553bd128024b549976180baef781afd32bcfe7239bc5",
+      "text": "[On Use] Coin Power +1 for every 4 Rupture on the target (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "26205c09b1e8434db67b087f23d2f2874723c05fa65ba845142b56cf95762454",
+      "text": "[On Use] Clash Power +1 for every 2 Rupture Count on the target (max 3)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "6f303202070975a1783bbcf263209c004609ca0e511b4c7de5230a595e54b3e4",
+      "text": "[On Hit After Clash Win] Inflict 1 Bind next turn"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "9ac2f13b55bbe7348f4d4958d4a8841c94dd5d9db91b0753b4bf5bbea391fc7e",
+      "text": "[On Hit] Inflict Deathrite 【Halt】"
+    },
+    "skills.2.response": {
+      "sourceHash": "e26282fb8f8cba11a1d7d3399d62617f17c93884bfda72d9a25125bb0e73b61a",
+      "text": "The second Coin is Unbreakable and inflicts Deathrite 【Halt】. High Rupture Potency and Count strengthen it; choose someone who can survive the remaining hit after winning."
+    },
+    "skills.3.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "c1d964b113f52083946d3b8267656ce96f9775e2151069e167e8dec0131616f9",
+      "text": "If this skill is not used, gain 1 Bind next turn"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "f1246c6fceba70a5c411da76666c280c44bfd57935a2c410b18cd7c373131469",
+      "text": "[On Use] Coin Power +1 for every 2 Rupture on the target (max 3)"
+    },
+    "skills.3.response": {
+      "sourceHash": "a884280d41559abd478170c77abb499e1c47615a8e7b32f1b292806b97e273d0",
+      "text": "Evade Power increases with the target's Rupture. Offset it, or prevent its activation by not attacking with the targeted Sinner. If unused, the enemy gains 1 Bind next turn."
+    },
+    "skills.4.name": {
+      "sourceHash": "ea9f7a6f7414dca6de2c88169c911452ff88090b54d5fb587566e628d9292b41",
+      "text": "Thunderstrike"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "58023ee1470a30ce5dd1cfbc02f8bb17753fea5f7eeb79f763e65ff20b9a02af",
+      "text": "[On Hit] Inflict Deathrite 【Wane】"
+    },
+    "skills.4.response": {
+      "sourceHash": "8e9c163aea90e9ec92c0a421867dc00de8e6320104862b98664bc008e5671e12",
+      "text": "Inflicts Deathrite 【Wane】. Stronger against high-Rupture targets; redirect to someone who can win and prevent the hit."
+    },
+    "skills.5.name": {
+      "sourceHash": "1d1bb420491cda691d983f6ff572be632d8771eec96aa8fe16e6654dd290a746",
+      "text": "Cut them Down, Mao"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "3877e1a4f43c30dc999947f9787e326020e0846a67713f6594eb2c62237d3231",
+      "text": "[On Use] Heal 10 SP"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "d2f9622855a1506f7f1fbb9ef506738d7477d008fa53ca7e5309e395068c496e",
+      "text": "[On Clash Win] Inflict 2 Rupture"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "92d6dee927f1a4050b8de44aeee8d4de63cf17c8cbc8d53a9d5929e851e37407",
+      "text": "Ⅰ[On Hit] Inflict 4 Rupture."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "1cb15ab4abea33d5f61dbc8fee2dc4c86bc45408764cd3298c1f58d2803195a0",
+      "text": "[On Hit] Rupture Count +2"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "cff13aeb85c6814dec242dc932f98893990009011b421f26d9ef0311d8fd101a",
+      "text": "[On Hit] Inflict Deathrite 【Impede】"
+    },
+    "skills.5.response": {
+      "sourceHash": "9d00c408a052e8aaa228402906e5cbf1865591085185d42e512b1d64fc965443",
+      "text": "The second Coin is Unbreakable and may leave Deathrite 【Impede】 after a win. Account for the on-use 10 SP recovery, and avoid spreading new Deathrites to damage dealers who lack them."
+    },
+    "skills.6.name": {
+      "sourceHash": "f5c129b9fe21ce954ca52fa2b924dd4b72212650a6b1f9f4a3e3ffa7dc80b7f9",
+      "text": "I Must Push You Further"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "23882eae2cf30c46028a553bd128024b549976180baef781afd32bcfe7239bc5",
+      "text": "[On Use] Coin Power +1 for every 4 Rupture on the target (max 2)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "26205c09b1e8434db67b087f23d2f2874723c05fa65ba845142b56cf95762454",
+      "text": "[On Use] Clash Power +1 for every 2 Rupture Count on the target (max 3)"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "0abfdd300f6c45d0bb5bcf3ea23235dfd022f18359c6c03fb6f9243669f5b448",
+      "text": "[On Clash Win] Inflict 2 Rupture and increase Rupture Count by 2"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "a30befd1e0b27e2cf85fcbd344f443f840c6b44f18025dfbc575e159aec90306",
+      "text": "[On Hit Without Coin Destruction] Rupture Count +4"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "943ed46fcf64d58bcbba22fcccd1847fc4f3a339a3161dd6d33afeda62edbd4a",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Rupture"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "344cacd2e579226f802b6ced7158e1f6c2557746b6a187590b65976daad5c806",
+      "text": "Deal +5% damage for every 1 (Rupture Potency + Rupture Count) on the target (max 20%)"
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "360bb1a1c35ddbf2c09b145f42b65ac28ffd69a0f2cb2ef2180b2dc1c3498ffd",
+      "text": "[On Hit] Set all Deathrites on the target to 0"
+    },
+    "skills.6.effects.11": {
+      "sourceHash": "feb9966ef20b41bd72e539a2e155a68ad5eb452ecf9a29d4f8db062933e70965",
+      "text": "The source repeats Coin I. The second instance is provisionally labeled II as an apparent numbering error."
+    },
+    "skills.6.response": {
+      "sourceHash": "aeb9c6ac53fc9fa50a91d6a40536e313216974429439f87555782c97aa55ba0b",
+      "text": "An attack with 4 Unbreakable Coins. The source repeats Coin I; the second instance is provisionally treated as II. Rupture strengthens it, and its Offense Level is unconfirmed, so the displayed maximum of 25 alone does not establish safety."
+    },
+    "skills.7.name": {
+      "sourceHash": "5c3306b68a0a8449a502d11ea8500d6278ca36fd835216f845b21687a4fdc375",
+      "text": "Do Not Meddle"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "2c7344b09edcfbfadb938f5b58984f4d2177f97b1fb8be93b0c4a4149a8197bf",
+      "text": "[On Use] Coin Power +1 for every 4 Rupture Count on the target (max 3)"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "8a525576beca96d4ceb2c2d6d273e134e0ac6eb688395a00771c2aa917d5c3fa",
+      "text": "Ⅰ[On Hit] Inflict 1 Rupture"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "4a044e5133d471f5c6c52133a684108f4cb1c107c02563c2e880dee81d5c0326",
+      "text": "Ⅱ[On Hit] Inflict 1 Rupture"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "58023ee1470a30ce5dd1cfbc02f8bb17753fea5f7eeb79f763e65ff20b9a02af",
+      "text": "[On Hit] Inflict Deathrite 【Wane】"
+    },
+    "skills.7.response": {
+      "sourceHash": "f248f1e0d4df24b3f299407ba20ff6d91244094be330db445642ddaa862c453f",
+      "text": "A Clashable Counter strengthened by Rupture Count. Handle it with a winning skill; do not trigger it first with a weak one-sided attack."
+    },
+    "skills.8.name": {
+      "sourceHash": "0edbeb479b1b2df19077766cea27233c13592c55fb4334a6e7f474e4d25c4f2e",
+      "text": "Startling Strike"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "766448e03d9e542519389f7837a446e10fc4e2f1e38591a02a39862422c1710e",
+      "text": "[On Use] If the target has 5+ Rupture, Clash Power +1"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.8.response": {
+      "sourceHash": "650afd572b6ab757eb74f5ffb6966f27957855b6655fbe53e65884b55cca4d15",
+      "text": "Stronger against high-Rupture targets. Win to prevent hits, but there is no need to pile on follow-ups to damage Zilu."
+    },
+    "skills.9.name": {
+      "sourceHash": "b0152d77d4e11aaa775477051194b88f39ad58dd29055c5d9d1acddbdefe78cd",
+      "text": "Perforating Kill"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "ccd5f97ae81296a4ae1ca2dd8f41e6a48e85957a9bdba64820cd92ecb8ab2da3",
+      "text": "[On Use] Gain 3 Strider【Mao】"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "ee5710c31cbe55ad9518567b7df94c0df1d6cef5b171b08eb91c463f5b750245",
+      "text": "[On Hit] If the target has Deathrite【Haste】, gain 1 Haste next turn"
+    },
+    "skills.9.response": {
+      "sourceHash": "fb92f0b3052be118033f09abf4b3d19a4a1ac6ee684134ea347d11c533e1482f",
+      "text": "Gains Strider【Mao】 on use for next-turn Speed. Winning clashes also makes Estimation inflict Bind on him, helping control his Speed."
+    },
+    "skills.10.name": {
+      "sourceHash": "ebb0ec3e2a7adf3e1b7f1e4ccad32d7747da37553239ec8b1035d5bfedf891de",
+      "text": "Etching Strike"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "e50a0dcb0329f05df81377a7228b98829f8e182bbf0cd2df599b83806c2933ad",
+      "text": "[On Use] If the target has 5+ Rupture, Coin Power +1"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "ca58936586e2bd4dc87afa9b44467108975412c6e4cf77f097848e79b9747fc1",
+      "text": "[On Hit] Inflict Deathrite【Haste】"
+    },
+    "skills.10.response": {
+      "sourceHash": "96133772c3260464da4fe624a6852f492be00460eafa5f674b651c50ff9ae081",
+      "text": "Inflicts Deathrite【Haste】, enabling the next Blinkstep's targeting priority and bonuses. Prevent the hit when possible."
+    },
+    "skills.11.name": {
+      "sourceHash": "5296712dd606a5ce248897d6043163769401ac15346e18585d2326bb4d54e40b",
+      "text": "Cursewrit Butcherblade - Blinkstep"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "05aec4bc98f65c36d3a37a02217ea6a85f8f1519c459ab91e6a1eda4987e2b0a",
+      "text": "Prioritizes targets with Deathrite【Haste】"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "23ef1068f8f8390e15510845c3472d0ae67ff47704b0f70dfc05a30f7b0c6f59",
+      "text": "[Combat Start] Gain 1 Assist Defense"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "d086b69a7ebe4bea3072eb03e398088c6be3f3e508b8168b466b4879aaad8b99",
+      "text": "Deal +15% damage for every 2 Speed difference between self and target (max 60%)"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "ffffac96828d4dfd0e54227525c381c85ea0c56c0a6a2fee760e75b5c2ee1edf",
+      "text": "[On Use] Coin Power +1 for every 5 Rupture on the target (max 2)"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "69e4320d83edb84e705348ba1785701a43096ed323c826235081ad2e9384646d",
+      "text": "[On Use] Base Power +1 for every 2 Rupture Count on the target (max 3)"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "9f9af7a798ee0144c3fb4cdb01c91c804d53c156f9543b338dada7559890ed0d",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "ad18a7be495d71c575793dec3299dc19d421d1935b62ac236b355de63ed3272d",
+      "text": "[On Hit] Inflict 5 Rupture"
+    },
+    "skills.11.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.11.effects.11": {
+      "sourceHash": "d79fc1b4d3a2f9d886501f1b3c3630eaf773fec7ddd9f06b09c62411f9772d81",
+      "text": "[On Hit] If the target has Deathrite【Haste】, deal +50% damage"
+    },
+    "skills.11.effects.12": {
+      "sourceHash": "ad18a7be495d71c575793dec3299dc19d421d1935b62ac236b355de63ed3272d",
+      "text": "[On Hit] Inflict 5 Rupture"
+    },
+    "skills.11.effects.13": {
+      "sourceHash": "7b784ce219d0b2f50119959d5b1e79b7595cb9830985c26d4a8783f496ccfc16",
+      "text": "[On Hit Without Coin Destruction] Reuse this Coin once (max once per skill)"
+    },
+    "skills.11.response": {
+      "sourceHash": "ccf44f1234bb527b0598b1bc0d89f7cb4c44ce979d54ff1154a3d7423bdd380a",
+      "text": "All 3 Coins are Unbreakable, so Rupture increases even after a clash win. This turn also grants 1 Assist Defense at Combat Start; avoid weak one-sided attacks on Qiu and prioritize strong clashes and healing."
+    },
+    "skills.12.name": {
+      "sourceHash": "95580d186f3158311f123b310e98ab2f863fe86e2e29ac62e1181bbcb30fda7e",
+      "text": "Cursewrit"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "076a590c28136568bea1610dcfe798e813b20e2f7ffc34b560f0af94e6c9dc23",
+      "text": "[On Use] If self is at least 3 Speed faster than the target, Clash Power +1"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "1cec9604b28e38d3ea2e212f641d2fb5b91bbb714174d6819182d4100383cfa8",
+      "text": "[On Use] If the target has Deathrite【Haste】, inflict +1 Rupture Count with this skill"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "993b98808a507e67949ea0001e7fb952ce32730e179f786cc331a7232ada55dc",
+      "text": "Ⅱ[On Hit] Rupture Count +1"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "e6660a7894c408a110850f5d774073c2c73059ce40d15c6816be18c4ee7d3d8d",
+      "text": "Ⅲ[On Hit] Rupture Count +1"
+    },
+    "skills.12.response": {
+      "sourceHash": "5134efdb127eed9fe87a1f46635a2d4d4bd1ab7b295a19bee7684d659a1cec33",
+      "text": "A Clashable Counter strengthened by Speed difference and Deathrite【Haste】. Win with a suitable skill to prevent extra Rupture Count."
+    },
+    "skills.13.name": {
+      "sourceHash": "62edcc825f19121f403cc5d04d6b5264ab86a807c17cf9c58f2522c9cd8b389d",
+      "text": "Incomplete Seal Release: <Tianjiu Star's Blade>"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "e9c67b1db84e38bda4f557749355c1319bce3836ad344fa7a5547dc611300757",
+      "text": "Deal +20% damage for every 2 Speed difference between self and target (max 60%)"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "7cbf3c5a628faa68b9b334add0cfd69b8a5ac197641ba1df6626d50c791fa084",
+      "text": "[On Use] Coin Power +1 for every 5 Rupture on the target"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "26205c09b1e8434db67b087f23d2f2874723c05fa65ba845142b56cf95762454",
+      "text": "[On Use] Clash Power +1 for every 2 Rupture Count on the target (max 3)"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "e9f4d63b10e59a92719a246e88ebbb35dc6eb47861256a738b3906114eaf069e",
+      "text": "[On Hit] Rupture Count +2"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "ad18a7be495d71c575793dec3299dc19d421d1935b62ac236b355de63ed3272d",
+      "text": "[On Hit] Inflict 5 Rupture"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.13.effects.8": {
+      "sourceHash": "b335afd9da10153e35c3e3abc90dac579397d4848f1c5c1956802cfb34dc4f2a",
+      "text": "[On Hit] Inflict Deathrite 【Fissure】"
+    },
+    "skills.13.response": {
+      "sourceHash": "1edc6fc194fbab0c81bb55386a85233ca0f9d3f2dfc1cf01de26d2a9c015e2d1",
+      "text": "3 Unbreakable Coins inflict Deathrite 【Fissure】. Rupture and Speed difference strengthen it; choose a Sinner with fewer statuses and prepare healing."
+    },
+    "skills.14.name": {
+      "sourceHash": "26c0932e00e8c45e0fe108c9fe3ecccbcd503d5c711be89501168eb2426a285a",
+      "text": "Swiftfeet Protection"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "d8244760aeba8c7f9b449507bb3151a92140344bf2352e9c8e1c8478ca35d54d",
+      "text": "(Activated by Assist Defense)"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "d1c03c5d3583a48df539fa999fa762add443a8d7272a7cb36e90fdec1b1a6a65",
+      "text": "[Before Use] At 2+ Assist Defense, activate as Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "70a1da92ec28255872de39183a6bf1df759460b43fbd350aa962bbed0281307e",
+      "text": "[On Use] This skill's Defense Level increases for every 5% cumulative HP lost in this encounter (max 10)"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "738dba31ee9483f929bc982e87e11590e4d5a46ba3486988abfb82a56794d5c2",
+      "text": "[On Use] Cannot be Staggered by damage until this skill ends"
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.14.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.14.response": {
+      "sourceHash": "c7b4adfdec54861b9f49d53e59af5b8a5c8720e44afad48c24e17889d4ca025e",
+      "text": "A Clashable Guard activated at 1 Assist Defense. Intercepts one-sided attacks on Qiu. Avoid accidentally triggering it with weak skills; prioritize clashes against Qiu."
+    },
+    "skills.15.name": {
+      "sourceHash": "23f193101512862e24059a40787c63c9b5749dcf5162ca9f2f0f4e91cdb8f911",
+      "text": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "920ce87a0fe7844a6adedc95e678dfb7a960f9f7c90e8e750160efb7d863d7f6",
+      "text": "(Transforms from Swiftfeet Protection through that skill's effect.)"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "e9c67b1db84e38bda4f557749355c1319bce3836ad344fa7a5547dc611300757",
+      "text": "Deal +20% damage for every 2 Speed difference between self and target (max 60%)"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "7cbf3c5a628faa68b9b334add0cfd69b8a5ac197641ba1df6626d50c791fa084",
+      "text": "[On Use] Coin Power +1 for every 5 Rupture on the target"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "26205c09b1e8434db67b087f23d2f2874723c05fa65ba845142b56cf95762454",
+      "text": "[On Use] Clash Power +1 for every 2 Rupture Count on the target (max 3)"
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.15.effects.6": {
+      "sourceHash": "e9f4d63b10e59a92719a246e88ebbb35dc6eb47861256a738b3906114eaf069e",
+      "text": "[On Hit] Rupture Count +2"
+    },
+    "skills.15.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.15.effects.8": {
+      "sourceHash": "ad18a7be495d71c575793dec3299dc19d421d1935b62ac236b355de63ed3272d",
+      "text": "[On Hit] Inflict 5 Rupture"
+    },
+    "skills.15.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.15.effects.10": {
+      "sourceHash": "b335afd9da10153e35c3e3abc90dac579397d4848f1c5c1956802cfb34dc4f2a",
+      "text": "[On Hit] Inflict Deathrite 【Fissure】"
+    },
+    "skills.15.response": {
+      "sourceHash": "d28d0caed95dad3b8eaab8d682046dafd4a4cb577e2fd60ea31878fdf1872334",
+      "text": "An Unbreakable Counter replacing the Guard at 2+ Assist Defense. Especially dangerous on turns with 2 Blinksteps. Do not trigger it with weak one-sided attacks on Qiu."
+    },
+    "skills.16.name": {
+      "sourceHash": "e05718a8e68c48cec8d0c5db7b846a945948d61154ae3f8508997edc89d735e6",
+      "text": "I Ask Again"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "766448e03d9e542519389f7837a446e10fc4e2f1e38591a02a39862422c1710e",
+      "text": "[On Use] If the target has 5+ Rupture, Clash Power +1"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.16.response": {
+      "sourceHash": "16832611bf417a2b748017e40a2182c7fb88724d1b3b2ec4e08748fef2b4ccbf",
+      "text": "Its single Coin is Unbreakable, so Rupture can remain after a win. Protect low-HP Sinners while waiting for Dialogues."
+    },
+    "skills.17.name": {
+      "sourceHash": "c365e2c13c7662237b292dd20e52efb64793af5c000aeaa83d17418b13f84dd2",
+      "text": "Act Not With Impropriety (非禮勿動)"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "766448e03d9e542519389f7837a446e10fc4e2f1e38591a02a39862422c1710e",
+      "text": "[On Use] If the target has 5+ Rupture, Clash Power +1"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "9ac2f13b55bbe7348f4d4958d4a8841c94dd5d9db91b0753b4bf5bbea391fc7e",
+      "text": "[On Hit] Inflict Deathrite 【Halt】"
+    },
+    "skills.17.response": {
+      "sourceHash": "c0f9ca10cfda24780b5c02418249b19689e6df429e0cd877996a31af800a00ff",
+      "text": "Prevent additional Deathrite 【Halt】. Strengthened at 5+ Rupture; assign the clash using predictions that include current statuses."
+    },
+    "skills.18.name": {
+      "sourceHash": "5c3306b68a0a8449a502d11ea8500d6278ca36fd835216f845b21687a4fdc375",
+      "text": "You Will Not Meddle"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "766448e03d9e542519389f7837a446e10fc4e2f1e38591a02a39862422c1710e",
+      "text": "[On Use] If the target has 5+ Rupture, Clash Power +1"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "efda4f7508c5e3edc491de0762b79b487f9560ffd2c57ab4fafa923bcbee60b0",
+      "text": "[On Clash Win] Rupture Count +2"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.18.effects.4": {
+      "sourceHash": "cff13aeb85c6814dec242dc932f98893990009011b421f26d9ef0311d8fd101a",
+      "text": "[On Hit] Inflict Deathrite 【Impede】"
+    },
+    "skills.18.response": {
+      "sourceHash": "35e1dedd435658d78d33a1fb2a32a552cca1d69e99056df4d9fbdc4d59ba605d",
+      "text": "Prevent additional Deathrite 【Impede】. Win the clash rather than spreading it to damage dealers who do not yet have Deathrites."
+    },
+    "skills.19.name": {
+      "sourceHash": "133f35000f7f5f913ca501f8a9098422731f14604c839d5e039a931588c48674",
+      "text": "Thunderstrike - Ripple (波)"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "c8b764bb41b254352307467b588fccfcf923dd52b22ab6149e1a60d8cf3bf4de",
+      "text": "Prioritizes the target with the most distinct Deathrite types"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "b8aed1e1583fe3731b9f9eb3e83bbabd8e2d4c347edfc79b93f6871077c574e9",
+      "text": "[On Use] Coin Power +1 for every 2 Rupture on the main target (max 4)"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "d5333237fddc1e7d72d54eb9258632d405bf663890a631ec01b8df29b6175661",
+      "text": "[On Hit] If the target has 2+ Deathrite types, inflict Deathrite【Extinguish】"
+    },
+    "skills.19.response": {
+      "sourceHash": "0436a3104d2b8b02ae7c8871c926aaec875984a67cab0ae69f05ab249853986e",
+      "text": "3 Attack Weight, with Coins strengthened by Rupture Potency. Prioritizes targets with more Deathrites; check secondary targets' HP and healing too."
+    },
+    "skills.20.name": {
+      "sourceHash": "0dc5bda81888440aa5850ca942f27ec5be942d2ff954adde5f144a9630056189",
+      "text": "Heishou - Mao Linkstrike - Bladestorm"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "3877e1a4f43c30dc999947f9787e326020e0846a67713f6594eb2c62237d3231",
+      "text": "[On Use] Heal 10 SP"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "ffffac96828d4dfd0e54227525c381c85ea0c56c0a6a2fee760e75b5c2ee1edf",
+      "text": "[On Use] Coin Power +1 for every 5 Rupture on the target (max 2)"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "d2f9622855a1506f7f1fbb9ef506738d7477d008fa53ca7e5309e395068c496e",
+      "text": "[On Clash Win] Inflict 2 Rupture"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "ca5dd147ac42a4c75d230b92f764e175f23dab0eeaadf48fa2bddea9140f7c37",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.20.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.20.effects.6": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.20.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.20.effects.8": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.20.effects.9": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.20.effects.10": {
+      "sourceHash": "ca58936586e2bd4dc87afa9b44467108975412c6e4cf77f097848e79b9747fc1",
+      "text": "[On Hit] Inflict Deathrite【Haste】"
+    },
+    "skills.20.response": {
+      "sourceHash": "5db40fdd2d2f5b79965c5238026664122567584f0e97ba75e5cdb12a8f27a25f",
+      "text": "All 4 Coins are Unbreakable, so Deathrite【Haste】 and Rupture may remain after winning. Heal beforehand and rotate clash handlers according to their statuses."
+    },
+    "skills.21.name": {
+      "sourceHash": "15ef87af112cd7266903998cf374ad4e5ffaf7eacf1640bbcd432f2e3906ab94",
+      "text": "Heed Me, Zilu"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "3877e1a4f43c30dc999947f9787e326020e0846a67713f6594eb2c62237d3231",
+      "text": "[On Use] Heal 10 SP"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "ffffac96828d4dfd0e54227525c381c85ea0c56c0a6a2fee760e75b5c2ee1edf",
+      "text": "[On Use] Coin Power +1 for every 5 Rupture on the target (max 2)"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "d2f9622855a1506f7f1fbb9ef506738d7477d008fa53ca7e5309e395068c496e",
+      "text": "[On Clash Win] Inflict 2 Rupture"
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "ca5dd147ac42a4c75d230b92f764e175f23dab0eeaadf48fa2bddea9140f7c37",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.21.effects.6": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.21.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.21.effects.8": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.21.effects.9": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.21.effects.10": {
+      "sourceHash": "b335afd9da10153e35c3e3abc90dac579397d4848f1c5c1956802cfb34dc4f2a",
+      "text": "[On Hit] Inflict Deathrite 【Fissure】"
+    },
+    "skills.21.response": {
+      "sourceHash": "fade8cb410c48352999366667312abc107e96c6039bb757bf038faedcf92366c",
+      "text": "All 4 Coins are Unbreakable, with Deathrite 【Fissure】 on the last. Account for on-use SP recovery and Rupture damage after the hits."
+    },
+    "skills.22.name": {
+      "sourceHash": "4a8feac78d92b84f5150ff14ec7efacd8e56715833fcc0166718043a7048138b",
+      "text": "Deathrite Deluge"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "5a73c49b820d357c91edc38c3f2fb785d028766e7524e87e29369784b285e8ed",
+      "text": "Prioritizes the target with the most Deathrite types"
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "660f48f7da71c7d9d0d5741664e2386e4368a66e6a69b44570751f0b2962bf4c",
+      "text": "[On Use] Coin Power +1 for each Deathrite type on the target (max 3)"
+    },
+    "skills.22.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.22.effects.4": {
+      "sourceHash": "f34a535805de5fdd5a11556be00646485206772af336140fa9653e577adee295",
+      "text": "Deal +5% damage for every 1 (Rupture Potency + Rupture Count + number of Deathrite types) on the target (max 200%)"
+    },
+    "skills.22.effects.5": {
+      "sourceHash": "360bb1a1c35ddbf2c09b145f42b65ac28ffd69a0f2cb2ef2180b2dc1c3498ffd",
+      "text": "[On Hit] Set all Deathrites on the target to 0"
+    },
+    "skills.22.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.22.response": {
+      "sourceHash": "d6bd5e998903288679b6b6e6224abf151d473581fac37354c64e8c377ef7f2d3",
+      "text": "Cannot be redirected. The Sinner with the most Deathrites needs a strong skill. Rupture and Deathrites make it dangerous; 1 Coin remains after winning, so heal beforehand."
+    },
+    "skills.23.name": {
+      "sourceHash": "1d95426494012e6e86a6ca89a1791918df31395321d10d4e0affd19acaf72420",
+      "text": "Answer Me, Jia Baoyu"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "31b5dae6c2db9421e965b9f50cbc6fbd9dc649067fae2f4bf868926893682780",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "3e35fdf630d43cbe4cb294d0f6efc8325e6841cb34a95818920ead2b7e4930b7",
+      "text": "[On Clash Win] Rupture Count +4"
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "923ee69ff63689f0691c04024ce4d17846afb78be8df29eea2806a42a60d86ff",
+      "text": "[On Clash Lose] If the target is Hong Lu, inflict 1 Dialogues"
+    },
+    "skills.23.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.23.effects.5": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.23.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.23.effects.7": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.23.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.23.effects.9": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.23.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.23.effects.11": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.23.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.23.response": {
+      "sourceHash": "9a6111b5bbfaccb0ab777860899824ea25a337156ca4982ac7da75bd877de8f1",
+      "text": "Hong Lu gains 1 Dialogues by personally winning the clash; another Sinner cannot substitute. Prepare Land of Illusion or another skill that wins comfortably, and succeed 3 times."
+    },
+    "skills.24.name": {
+      "sourceHash": "362cc0d33fecd687c4ffd450c0186e426940c8cdad25451f9876c34dffacd5ea",
+      "text": "Tiangang Star - Form (格)"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "7e1d3a2a23c5b02ece63af51003f8066e97a037b7c624f5f070935442d7900ab",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "669bfc98107be306177ed8a235258b1d954715fe0fa81b3ebdc5e2e8daeec103",
+      "text": "Coin Power -2 for every 1 Dialogues on the target"
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "a12e323a7847008ee8c9fa8934536bea52af400f4a2f90704ca0c65b2fba65fa",
+      "text": "[On Clash Lose] This attack cannot Stagger targets. Gain 24 Defense Level Down for the rest of the encounter"
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "d4cfe64f913997b0a19ba784456e37f7f4f59596aea1cb061317c565a4bd55a7",
+      "text": "[On Clash Lose] Deal 50% less damage"
+    },
+    "skills.24.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.24.effects.5": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.24.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.24.effects.7": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.24.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.24.effects.9": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.24.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.24.effects.11": {
+      "sourceHash": "8e4ccd8440d1b2c501cf7b0f09866be8f3be03eb59b0b5280d28bc01099d9de8",
+      "text": "[On Hit Without Coin Destruction] Deal +5% damage for every 1 (Rupture Potency + Rupture Count + number of Deathrites) on the target (max 100%)"
+    },
+    "skills.24.response": {
+      "sourceHash": "2b1964f83404fd16d0a25c0419f7b2a0a442aa3f7827dd5263f574284d3e7c47",
+      "text": "At 3 Dialogues, Coin Power becomes 8 − 6 = 2, reducing the base displayed maximum of 37 to 13 under those conditions. If Hong Lu wins, the enemy loses 24 Defense Level and deals half damage. Prepare everyone for 4 Unbreakable Coins and 7 Attack Weight."
+    },
+    "skills.25.name": {
+      "sourceHash": "416ae7c6691f2c25433a2af5e5439610c2121a801eda9561168fb1d6608c29cf",
+      "text": "Like a Roaring Storm"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.25.effects.2": {
+      "sourceHash": "ace3db8502bbb6a0f241cab11c572d742b5b1b9f4431d3016d186502b4f95044",
+      "text": "This skill attacks everyone except Hong Lu"
+    },
+    "skills.25.effects.3": {
+      "sourceHash": "0e3a866649f3de9cdf083950ebe8e1e49f688ba1163d67d5643a64aab4bc2f73",
+      "text": "Next turn, use Heishou - Mao to Stagger the other Identities except Hong Lu, and recover from Stagger"
+    },
+    "skills.25.effects.4": {
+      "sourceHash": "abb61c6bf5975725709b2a7a55904c74b1e89a3b2a8c216293ff16a3cac43386",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.25.effects.5": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.25.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.25.response": {
+      "sourceHash": "bca43e71b44fb9a2d98359dab46e4f150d08192abfdaa40810c45d063384e9d7",
+      "text": "Unclashable and unredirectable; targets everyone except Hong Lu and ends the turn afterward. Limit damage with Evade or Guard and prepare Hong Lu to win next turn's finisher alone."
+    },
+    "skills.26.name": {
+      "sourceHash": "0edbeb479b1b2df19077766cea27233c13592c55fb4334a6e7f474e4d25c4f2e",
+      "text": "Startling Strike"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "5cd90670577c624a80e1e2d45d151d2a674aa1ec9ecb33251ce9b6a00cecf11e",
+      "text": "[On Use] If the target has 3+ Rupture, Clash Power +1"
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.26.response": {
+      "sourceHash": "bd9498daed280515312311190bbe2fc3ff022b5b34ea209ca24e7fb94b490c86",
+      "text": "An opening-wave enemy for building SP. Stop its attacks with winning regular skills and focus Blunt damage to defeat enemies one at a time."
+    },
+    "skills.27.name": {
+      "sourceHash": "4811f45d40530853efb85068b877fee23a9aa15204ba828d1d4bae9e5ef125fc",
+      "text": "Restraint"
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "038c10a15db775691fce924074cb8a0f347377e0ac1cd6f41891e96c4ce4b69f",
+      "text": "[On Use] If the target has 4+ Rupture, Base Power +1"
+    },
+    "skills.27.effects.1": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.27.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.27.effects.3": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.27.effects.4": {
+      "sourceHash": "86d148b3af424651419ffb8215bc3cd1d9d55311c2f5291e00650f32d52fd129",
+      "text": "[On Hit Without Coin Destruction] Reuse this Coin (self Speed ÷ 3) times (max 2)"
+    },
+    "skills.27.response": {
+      "sourceHash": "0f3527081d4b3dbbe206f3d1d1775abeeb2a2d757ce1290284ce10886b530303",
+      "text": "Increases Rupture Count. Win to prevent later Rupture damage and protect Hong Lu's HP."
+    },
+    "skills.28.name": {
+      "sourceHash": "b562a8daa14a0fda42e696d3b9bc357cc8c63ea6d5cb0ca0a765391373f329d1",
+      "text": "Feather Strike"
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "02814c733a6e67f28d9755e2f493810147aa1b9a7bfabbc5ec9fee90bdd43e5a",
+      "text": "Coin Power +1 for every 2 Speed faster than the target (max 3)"
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "8b9f6c1a573f6c12893cd3f8e92bb42d60350537150377350fa26f6096f70f53",
+      "text": "[On Use] If the target has 4+ Rupture, Coin Power +1"
+    },
+    "skills.28.effects.2": {
+      "sourceHash": "a9fcd5dae78143144839d9465f1c2f6519c0e017a0be251261ff2a0bc960c0ab",
+      "text": "[Clash Win] Increase Rupture Count by 3."
+    },
+    "skills.28.effects.3": {
+      "sourceHash": "36de7ad537ed64165a504c033a2beb7f9a16d39f8af3a260475f7727ca9ba3b6",
+      "text": "Ⅰ[On Hit] Rupture Count +1"
+    },
+    "skills.28.effects.4": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.28.effects.5": {
+      "sourceHash": "ca58936586e2bd4dc87afa9b44467108975412c6e4cf77f097848e79b9747fc1",
+      "text": "[On Hit] Inflict Deathrite【Haste】"
+    },
+    "skills.28.effects.6": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.28.effects.7": {
+      "sourceHash": "61186932d2f14dca5eaf227872bd10bdd82abce544fbba61c2e0ec7d207b0476",
+      "text": "If the target has Deathrite【Haste】, deal +50% damage"
+    },
+    "skills.28.effects.8": {
+      "sourceHash": "8dba94a0e3d727fc05a3211ad543d2dbcd187e47788fb8d34960d1fd299dd8f4",
+      "text": "[On Hit Without Coin Destruction] Gain 3 Strider【Mao】"
+    },
+    "skills.28.effects.9": {
+      "sourceHash": "e3375bb5b59b20cff76b8aecd696127390edb5c2addc4fa20c076b613a464858",
+      "text": "[On Hit After Clash Win] Reuse this Coin once (max once per skill)"
+    },
+    "skills.28.response": {
+      "sourceHash": "960b9073a7c8eb75244acd08551874ae45cb781e8076bb6fb91e7d5073f43311",
+      "text": "A 3-Coin attack that inflicts Rupture and Deathrites. Account for Speed-difference bonuses and stop it with a strong clash handler."
+    },
+    "skills.29.name": {
+      "sourceHash": "ced1b0a27fd44a0a51acfb75b444c6f83c2303eb7279a9f63bb7f5fd66ae19d1",
+      "text": "Windup"
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "964b683b77c85d2a3f5759ec79020924f1baa18a27e2f18f82b5b6281e451069",
+      "text": "[On Use] Gain 3 Haste next turn"
+    },
+    "skills.29.response": {
+      "sourceHash": "c2c1c28e7409961db0d076b6cec106799d1e1566364ac14a82f1a96aaf91a9f2",
+      "text": "Focus damage on enemies that can be killed rather than those using defense skills. When summoned for only 1 turn in the second half, there is no need to kill them."
+    },
+    "skills.30.name": {
+      "sourceHash": "38d5a0f226a91a8b2c0bd4a9c3e812fa3e82dfe56dca3cdd714494a0dc740357",
+      "text": "Pursuit"
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "5cd90670577c624a80e1e2d45d151d2a674aa1ec9ecb33251ce9b6a00cecf11e",
+      "text": "[On Use] If the target has 3+ Rupture, Clash Power +1"
+    },
+    "skills.30.effects.1": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.30.response": {
+      "sourceHash": "f724ad3875bccca33dc8b894a08a0ebe98e5a9a0e453d94e14ac6b5e16869517",
+      "text": "Win with a low-Rupture Sinner and prevent hits on Hong Lu. Focus Blunt damage to finish the enemy."
+    },
+    "skills.31.name": {
+      "sourceHash": "9b8cc4a8e4a085904a0c7f706176aa3eafb06a52985456b029521ff7a7cbc3f0",
+      "text": "Overwhelm"
+    },
+    "skills.31.effects.0": {
+      "sourceHash": "038c10a15db775691fce924074cb8a0f347377e0ac1cd6f41891e96c4ce4b69f",
+      "text": "[On Use] If the target has 4+ Rupture, Base Power +1"
+    },
+    "skills.31.effects.1": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.31.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.31.effects.3": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.31.effects.4": {
+      "sourceHash": "86d148b3af424651419ffb8215bc3cd1d9d55311c2f5291e00650f32d52fd129",
+      "text": "[On Hit Without Coin Destruction] Reuse this Coin (self Speed ÷ 3) times (max 2)"
+    },
+    "skills.31.response": {
+      "sourceHash": "a928362ce8ec948d7b57e0b9031745edc9bc79ae9eb4186968eb6472caf7bd40",
+      "text": "A 2-Coin skill that adds Rupture. Use a winning regular skill to prevent it from enabling further bonuses."
+    },
+    "skills.32.name": {
+      "sourceHash": "c7b7e5b170e9b3441fe57e516bfa35228221fc9fee7ac5ce0680ac5aa18df656",
+      "text": "Umbra Strike"
+    },
+    "skills.32.effects.0": {
+      "sourceHash": "02814c733a6e67f28d9755e2f493810147aa1b9a7bfabbc5ec9fee90bdd43e5a",
+      "text": "Coin Power +1 for every 2 Speed faster than the target (max 3)"
+    },
+    "skills.32.effects.1": {
+      "sourceHash": "8b9f6c1a573f6c12893cd3f8e92bb42d60350537150377350fa26f6096f70f53",
+      "text": "[On Use] If the target has 4+ Rupture, Coin Power +1"
+    },
+    "skills.32.effects.2": {
+      "sourceHash": "a9fcd5dae78143144839d9465f1c2f6519c0e017a0be251261ff2a0bc960c0ab",
+      "text": "[Clash Win] Increase Rupture Count by 3."
+    },
+    "skills.32.effects.3": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.32.effects.4": {
+      "sourceHash": "4a044e5133d471f5c6c52133a684108f4cb1c107c02563c2e880dee81d5c0326",
+      "text": "Ⅱ[On Hit] Inflict 1 Rupture"
+    },
+    "skills.32.effects.5": {
+      "sourceHash": "ca58936586e2bd4dc87afa9b44467108975412c6e4cf77f097848e79b9747fc1",
+      "text": "[On Hit] Inflict Deathrite【Haste】"
+    },
+    "skills.32.effects.6": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.32.effects.7": {
+      "sourceHash": "61186932d2f14dca5eaf227872bd10bdd82abce544fbba61c2e0ec7d207b0476",
+      "text": "If the target has Deathrite【Haste】, deal +50% damage"
+    },
+    "skills.32.effects.8": {
+      "sourceHash": "8dba94a0e3d727fc05a3211ad543d2dbcd187e47788fb8d34960d1fd299dd8f4",
+      "text": "[On Hit Without Coin Destruction] Gain 3 Strider【Mao】"
+    },
+    "skills.32.effects.9": {
+      "sourceHash": "e3375bb5b59b20cff76b8aecd696127390edb5c2addc4fa20c076b613a464858",
+      "text": "[On Hit After Clash Win] Reuse this Coin once (max once per skill)"
+    },
+    "skills.32.response": {
+      "sourceHash": "176489057d733bc691d3d8af17846a1429ca9225b14bf98f25cca8683601cbb3",
+      "text": "A multi-Coin attack strengthened by Speed difference and the target's Rupture. Avoid forcing weak Sinners into losing clashes."
+    },
+    "skills.33.name": {
+      "sourceHash": "ced1b0a27fd44a0a51acfb75b444c6f83c2303eb7279a9f63bb7f5fd66ae19d1",
+      "text": "Windup"
+    },
+    "skills.33.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.33.effects.1": {
+      "sourceHash": "964b683b77c85d2a3f5759ec79020924f1baa18a27e2f18f82b5b6281e451069",
+      "text": "[On Use] Gain 3 Haste next turn"
+    },
+    "skills.33.response": {
+      "sourceHash": "110191323d589c3b8e40d759965482c601523a333e5e1744453c42be69e89c00",
+      "text": "Avoid wasting actions on defense skills; prioritize killable enemies in the opening wave. For temporary second-half summons, stopping dangerous attacks is enough."
+    },
+    "passives.0.name": {
+      "sourceHash": "8e2a74af56360b8bec9c2781085be33b16970044e6bcad92e0d198c247cb3ca8",
+      "text": "Effloresced E.G.O::Érlì"
+    },
+    "passives.0.effect": {
+      "sourceHash": "83122f43d36a0e5163e07fc3fb0a2d45d2830b1ef8a826f0ac5fd0f2471d3135",
+      "text": "At the start of the first turn, heal 30 SP and gain A Sliver of Anticipation"
+    },
+    "passives.0.condition": {
+      "sourceHash": "a704148d54d089a7231f606ff3a55f7e380247eeae3bde2df1500ddfe23c80ad",
+      "text": "Start of the form"
+    },
+    "passives.0.response": {
+      "sourceHash": "aa798175721a2baefd04abff554edd41e16dd77f3306a9b2bf0f2d7c69330226",
+      "text": "A Sliver of Anticipation reduces Offense and Defense Levels by 35. The table already includes this; do not assess required leveling from base Level 90 alone."
+    },
+    "passives.1.name": {
+      "sourceHash": "8ed1bbcc61a746d81f3d522aa1c2b6784dac50e18f4d46eddd4c7c2dc3de498a",
+      "text": "This is where your path ends"
+    },
+    "passives.1.effect": {
+      "sourceHash": "d4161df2ab6c1adc534a18eb3b8a761b6795595a4ea1de51db674c73dedf9d3b",
+      "text": "When Hong Lu dies, end the encounter"
+    },
+    "passives.1.condition": {
+      "sourceHash": "a163989d798a32261f3238b7fd7757d7c9d9e7eea6131b7689a927abdcecdfd7",
+      "text": "Hong Lu's death"
+    },
+    "passives.1.response": {
+      "sourceHash": "b69ef67aff0d809196a7f8dcf8e5574e1905c2dd0a1100dbc3e8a3fc9cf010c5",
+      "text": "Causes immediate defeat. Unlike 8-17, sacrificing Hong Lu cannot be used to recover the fight."
+    },
+    "passives.2.name": {
+      "sourceHash": "e5edb19243308ea5d7611b8220dae66a81516ecbc21b799b2f69d9438548cda1",
+      "text": "Infinite Song of Erudition"
+    },
+    "passives.2.effect": {
+      "sourceHash": "e0f1ddacb1f7523ef86c41cfa06ee6a7942d2b0bb0b5bca538236796dbfc66e3",
+      "text": "After attacking, heal 5 SP for each Deathrite on the target.\nOn Hit, if Deathrites on the target activated, heal 3 SP for each activated Deathrite."
+    },
+    "passives.2.condition": {
+      "sourceHash": "d27ff6540041fbe4cf534ac98e4529c88fd30d90941506910cee911ac4e73fe7",
+      "text": "Attacking Deathrite-afflicted targets / Deathrite activation"
+    },
+    "passives.2.response": {
+      "sourceHash": "d309fe8ec406c6b59126752d83aa86ec3774e1fbafd4be24ec81afc414fcf6f5",
+      "text": "Restores the enemy's SP. Avoid spreading Deathrites across the whole team; maintain winning clash handlers and healing."
+    },
+    "passives.3.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.3.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.3.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.3.response": {
+      "sourceHash": "403a82213e2e7100df9134a90ed38af75b6545d176f01c64e38d5d669ac96ba4",
+      "text": "Progress through clashes, Dialogues, and healing rather than relying on changing its Panic type."
+    },
+    "passives.4.name": {
+      "sourceHash": "e3d998c4bbeceab31e67e6addc501cb0e81fe9101bfc5dedfa7a74549cd86fa2",
+      "text": "Deteriorate (削貶)"
+    },
+    "passives.4.effect": {
+      "sourceHash": "7327a72038f85f0cb2bd9f9ad8383a38b53232105dd2e6aa2d0242f2a444383d",
+      "text": "If the target has 4+ negative effects, Clash Power +1"
+    },
+    "passives.4.condition": {
+      "sourceHash": "ee67b9227cfe85cc14ac5817f099526026478abd080408f2c4064ccb9971d361",
+      "text": "Target has 4+ negative effects"
+    },
+    "passives.4.response": {
+      "sourceHash": "e5ba2f4fc903fbe969d1c4f4791204bb4ecea8a0eb6883424eb171743e2af0e5",
+      "text": "Gains +1 Clash Power against heavily debuffed Sinners. Check current status counts when choosing the clash handler."
+    },
+    "passives.5.name": {
+      "sourceHash": "af2de5e95499800c5af97f1b130b3d2a8dffdcd84b5eb5893f06eaed99b23c0a",
+      "text": "Deathrite [Halt (勿動)]"
+    },
+    "passives.5.effect": {
+      "sourceHash": "f2227e73bc4c52758adbc5fdfd49edb2964abfc351cb49e16a2c89b70e6536e4",
+      "text": "Deal +10% damage to targets with Deathrite 【Halt】"
+    },
+    "passives.5.condition": {
+      "sourceHash": "c982ab8f4af676e904fdb8b73c7034974ca7a7b3300b07597ef622f74e1c2c26",
+      "text": "Attacking a target with the matching Deathrite"
+    },
+    "passives.5.response": {
+      "sourceHash": "a68e5f76722e3950e89bc68743e8dafdda7cd7449269e2e7c2a38217b4bf4a98",
+      "text": "The same-named status activates through Bind and Rupture; this passive increases the enemy's damage. Distinguish the status from the passive."
+    },
+    "passives.6.name": {
+      "sourceHash": "74de4215f51ab1d3543397961f26c316b6716894a694558309784bf3859dd4f1",
+      "text": "Deathrite [Impede (掣肘)]"
+    },
+    "passives.6.effect": {
+      "sourceHash": "7b2e5825a6d09bc9e9a49bc4361e765af950798fcb376585d026234b4ecc7774",
+      "text": "Take 20% less damage from targets with Deathrite 【Impede】"
+    },
+    "passives.6.condition": {
+      "sourceHash": "27c8bc1372715acbd1e998f6ea151e6079f6ae7c4e90fc8bc234dc8a969d2d26",
+      "text": "Being attacked by a Sinner with the matching Deathrite"
+    },
+    "passives.6.response": {
+      "sourceHash": "8177f40824c61946f58c24c112af533f7b2647c5d9a6c7117fd518af26b6d62f",
+      "text": "That Sinner deals 20% less damage to Qiu. Avoid allowing it onto key damage dealers unnecessarily."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.7.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.7.response": {
+      "sourceHash": "9dd37cc8865f91e8bbe885c402160840b22d31d482ccf3b2c15fe84db67561cc",
+      "text": "Check current predictions rather than assuming low SP persists next turn."
+    },
+    "passives.8.name": {
+      "sourceHash": "cf7ee7421be7240f3b10f9d6faaee86130d26f469556923d1ea78bc631913568",
+      "text": "Shin (心) Radiance"
+    },
+    "passives.8.effect": {
+      "sourceHash": "911452a71b51f905721408b76b55c0485e2540cb0ff7ce8814dfda11b403d2f8",
+      "text": "At the start of the first turn, heal 30 SP.\nAt 85% HP or lower, change attack patterns.\nAt 60% HP or lower, gain 500 Shield at Turn Start.\nAfterward, HP cannot fall below 0."
+    },
+    "passives.8.condition": {
+      "sourceHash": "70841c6ad33776c0a08833ace496a49971269d4f611735f01a9fe64391f41e2d",
+      "text": "Zilu at 85% / 60% HP"
+    },
+    "passives.8.response": {
+      "sourceHash": "2b87f947015f21c5183115934b81bc985709933d1d4b069ca833927690430379",
+      "text": "Enemy actions strengthen at 85% HP or lower. Do not excessively damage an unkillable target; attack Qiu instead."
+    },
+    "passives.9.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.9.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.9.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.9.response": {
+      "sourceHash": "403a82213e2e7100df9134a90ed38af75b6545d176f01c64e38d5d669ac96ba4",
+      "text": "Progress through clashes, Dialogues, and healing rather than relying on changing its Panic type."
+    },
+    "passives.10.name": {
+      "sourceHash": "f43eebf7b310e705aa46f4b1e804691c0295fb5694709f3b0a184e9e60d0257d",
+      "text": "Vigor [Mao]"
+    },
+    "passives.10.effect": {
+      "sourceHash": "c370f737dbdaf82619c825116956490249891217696bc6bc44260e5ce77ee285",
+      "text": "On Hit against an enemy with Deathrite【Haste】, increase the target's Rupture Count by 2 (max 6 per turn)"
+    },
+    "passives.10.condition": {
+      "sourceHash": "a690145194ba6b6441091275e5987b71e840b0c92fa1ef70a8dd15d855ae06ec",
+      "text": "Hits on Deathrite【Haste】 targets / Speed difference"
+    },
+    "passives.10.response": {
+      "sourceHash": "b234aa90ffa449745bc315fcfb46ff4eac7101f33680259d7427775d1eb88cd0",
+      "text": "Effects vary by user. Check each skill's statuses and Speed difference, and protect high-Rupture Sinners."
+    },
+    "passives.11.name": {
+      "sourceHash": "e5407c7d4713b5f0dd70d1bda86259fe6c5696089154f58d7193c9d147d23247",
+      "text": "Strider [Mao]"
+    },
+    "passives.11.effect": {
+      "sourceHash": "f946385f0cede69d0f150504dd2a5e6e89bc09db24f9cf369cb1a1da17f461cc",
+      "text": "When attacking a slower target, inflict +2 Rupture or Rupture Count and deal +10% damage"
+    },
+    "passives.11.condition": {
+      "sourceHash": "8888aa8974b5c8cdcd2a7ec27fb8dac24f568b97e9fbb456ed4dfd05ec0b37e4",
+      "text": "Speed difference / hits on Deathrite【Haste】 targets"
+    },
+    "passives.11.response": {
+      "sourceHash": "159c6aeb6b7271ed15a878a18fdcb0be86984d77b120c563892cdeed004c4b8d",
+      "text": "Check each user's effects. Zilu also gains Haste through Strider【Mao】; make him gain Bind by winning clashes."
+    },
+    "passives.12.name": {
+      "sourceHash": "c7b7684c135d75b2bf63083ee7232de6bc07842a399b5bc262f1ad8c23295e22",
+      "text": "Dominator [Mao]"
+    },
+    "passives.12.effect": {
+      "sourceHash": "5863b70b728931ac91a8da8022c08956ab9a45ae3fd7ac3134fcd8ed0c09d9bf",
+      "text": "On Skill Use, if self is at least 2 Speed faster than the target, Coin Power +1"
+    },
+    "passives.12.condition": {
+      "sourceHash": "bcab74140b2724ec31da3f2341e6b8c0905ceabeed74a0cc7bf866395696eeff",
+      "text": "Faster than the target"
+    },
+    "passives.12.response": {
+      "sourceHash": "487dc15ccd1ab095ac8b4a8c215793a392c5002163b9827d6893f173c9dd640c",
+      "text": "Coins strengthen against slower Sinners. Use a faster clash handler or Bind."
+    },
+    "passives.13.name": {
+      "sourceHash": "7631c6b287268c40c905cbeac7fcf3e6a3446a9831cd1f8b295c1e9016028f17",
+      "text": "Estimation"
+    },
+    "passives.13.effect": {
+      "sourceHash": "ed4ec14a88363fd481982936afb15cde1bfb598e990700b697d4ade099ef183b",
+      "text": "At Turn End, gain 1 Bind next turn for each clash lost (max 6)"
+    },
+    "passives.13.condition": {
+      "sourceHash": "0c3c193b7ca6ac3cd058b60c6630ea0a38be3dda4363a0a79229bca659b898aa",
+      "text": "Zilu losing clashes"
+    },
+    "passives.13.response": {
+      "sourceHash": "829748a28f3f8f597549b1f260006550f0a3a789af77b118a6627ba532702dbd",
+      "text": "Each lost clash adds next-turn Bind. Control his Speed by winning clashes rather than inflicting unnecessary damage."
+    },
+    "passives.14.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.14.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.14.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.14.response": {
+      "sourceHash": "9dd37cc8865f91e8bbe885c402160840b22d31d482ccf3b2c15fe84db67561cc",
+      "text": "Check current predictions rather than assuming low SP persists next turn."
+    },
+    "passives.15.name": {
+      "sourceHash": "8ed1bbcc61a746d81f3d522aa1c2b6784dac50e18f4d46eddd4c7c2dc3de498a",
+      "text": "This is where your path ends"
+    },
+    "passives.15.effect": {
+      "sourceHash": "d4161df2ab6c1adc534a18eb3b8a761b6795595a4ea1de51db674c73dedf9d3b",
+      "text": "When Hong Lu dies, end the encounter"
+    },
+    "passives.15.condition": {
+      "sourceHash": "a163989d798a32261f3238b7fd7757d7c9d9e7eea6131b7689a927abdcecdfd7",
+      "text": "Hong Lu's death"
+    },
+    "passives.15.response": {
+      "sourceHash": "b69ef67aff0d809196a7f8dcf8e5574e1905c2dd0a1100dbc3e8a3fc9cf010c5",
+      "text": "Causes immediate defeat. Unlike 8-17, sacrificing Hong Lu cannot be used to recover the fight."
+    },
+    "passives.16.name": {
+      "sourceHash": "e5edb19243308ea5d7611b8220dae66a81516ecbc21b799b2f69d9438548cda1",
+      "text": "Infinite Song of Erudition"
+    },
+    "passives.16.effect": {
+      "sourceHash": "e0f1ddacb1f7523ef86c41cfa06ee6a7942d2b0bb0b5bca538236796dbfc66e3",
+      "text": "After attacking, heal 5 SP for each Deathrite on the target.\nOn Hit, if Deathrites on the target activated, heal 3 SP for each activated Deathrite."
+    },
+    "passives.16.condition": {
+      "sourceHash": "d27ff6540041fbe4cf534ac98e4529c88fd30d90941506910cee911ac4e73fe7",
+      "text": "Attacking Deathrite-afflicted targets / Deathrite activation"
+    },
+    "passives.16.response": {
+      "sourceHash": "d309fe8ec406c6b59126752d83aa86ec3774e1fbafd4be24ec81afc414fcf6f5",
+      "text": "Restores the enemy's SP. Avoid spreading Deathrites across the whole team; maintain winning clash handlers and healing."
+    },
+    "passives.17.name": {
+      "sourceHash": "8e2a74af56360b8bec9c2781085be33b16970044e6bcad92e0d198c247cb3ca8",
+      "text": "Effloresced E.G.O::Érlì"
+    },
+    "passives.17.effect": {
+      "sourceHash": "2d54796f66d0ca340a2b6cda590aee4719de9269c7177268434b73dcee6afd1b",
+      "text": "At the start of the first turn, gain A Sliver of Anticipation"
+    },
+    "passives.17.condition": {
+      "sourceHash": "a704148d54d089a7231f606ff3a55f7e380247eeae3bde2df1500ddfe23c80ad",
+      "text": "Start of the form"
+    },
+    "passives.17.response": {
+      "sourceHash": "aa798175721a2baefd04abff554edd41e16dd77f3306a9b2bf0f2d7c69330226",
+      "text": "A Sliver of Anticipation reduces Offense and Defense Levels by 35. The table already includes this; do not assess required leveling from base Level 90 alone."
+    },
+    "passives.18.name": {
+      "sourceHash": "4f46542515c6c094350b9a1793c9cc7da3f3b6a4aef89d428ab593850fe034be",
+      "text": "Focus"
+    },
+    "passives.18.effect": {
+      "sourceHash": "8e06996dbfa84d4e395aa798b62ba1c8784ebe47475b007e6f69d434135e344e",
+      "text": "Begin the phase retaining half the Rupture, Burn, Sinking, Tremor, and Bleed Potency and Count held at phase transition."
+    },
+    "passives.18.condition": {
+      "sourceHash": "135a6c851c1f5e11d31206c646d0cf80adafa33be0b006b2e5a9d8708e5a067f",
+      "text": "Transition to the second half"
+    },
+    "passives.18.response": {
+      "sourceHash": "0ad83dd594ccc88f2d11d697e11d25024e59591161517720353f4c88ba45d8df",
+      "text": "Some statuses carry over at half strength. Do not exhaust powerful skills assuming all first-half buildup remains."
+    },
+    "passives.19.name": {
+      "sourceHash": "ec0b5c44fe8a0dd5e1c1320d868c8bb898cc1b9c38a023762c28ecf48019f1c3",
+      "text": "I still await your answer."
+    },
+    "passives.19.effect": {
+      "sourceHash": "38d58d0eefe0478e508bff93c8c45db0ff5bddbec6f1ed65c9784e18c2220c06",
+      "text": "At the start of each turn, gain 900 Shield on the body and parts.\n- Gain 300 less for every 1 Dialogues on Hong Lu.\nAt 3+ Dialogues on Hong Lu, gain no further Shield for the rest of the encounter."
+    },
+    "passives.19.condition": {
+      "sourceHash": "0d8bf15a7d40235678a8472cc96c08e59032b52ef827c43159b2ae8277538097",
+      "text": "Second-half Turn Start"
+    },
+    "passives.19.response": {
+      "sourceHash": "5ff9bf9e78d3cece03835ead0b07f0d2acc0b848fc5f6b47fa9bd2e2374c28ab",
+      "text": "The 900 Shield falls by 300 per Dialogues and stops at 3. First progress Dialogues with Hong Lu himself."
+    },
+    "passives.20.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.20.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.20.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.20.response": {
+      "sourceHash": "403a82213e2e7100df9134a90ed38af75b6545d176f01c64e38d5d669ac96ba4",
+      "text": "Progress through clashes, Dialogues, and healing rather than relying on changing its Panic type."
+    },
+    "passives.21.name": {
+      "sourceHash": "fc05db000233c5571b199631768f7828e5cf0907b48dd736df6feba5ddc6f2b8",
+      "text": "Diminish (貶)"
+    },
+    "passives.21.effect": {
+      "sourceHash": "07dc0a83f1d15e90104c3996d4c1f23ece96f8965b28d5f062ac76af527cd361",
+      "text": "If the target has 3+ Deathrite types, Coin Power +1"
+    },
+    "passives.21.condition": {
+      "sourceHash": "ced5d33f67c9083c43da7288393504e2d600d21614ef93903149323739fb348d",
+      "text": "Target has 3+ Deathrite types"
+    },
+    "passives.21.response": {
+      "sourceHash": "fdb1d5e91a422c286075361e6e66cdf12c70d200deb0ab767b6171fe29c4ce8c",
+      "text": "The enemy gains +1 Coin Power. Avoid adding Deathrites the target does not yet have."
+    },
+    "passives.22.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.22.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.22.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.22.response": {
+      "sourceHash": "9dd37cc8865f91e8bbe885c402160840b22d31d482ccf3b2c15fe84db67561cc",
+      "text": "Check current predictions rather than assuming low SP persists next turn."
+    },
+    "passives.23.name": {
+      "sourceHash": "ee16b8f8d48fa2f726c5b22342919f1b560780e48f60a35c9377750e0fd85d2f",
+      "text": "Jia Qiu's Test"
+    },
+    "passives.23.effect": {
+      "sourceHash": "7056d9caa2dc55505c81fa7e8ed5ebec22e5aa424c275f5777e5c5f46004f9e3",
+      "text": "At the start of the first turn, gain Concealed Bloodthirst.\nWhen Hong Lu dies, end the encounter."
+    },
+    "passives.23.condition": {
+      "sourceHash": "2fda919127b4fa922168dd48f1e0472691b855ea96be2855cd919c7b12051d92",
+      "text": "Opening-wave start / Hong Lu's death"
+    },
+    "passives.23.response": {
+      "sourceHash": "02bd2b0116767be19331dd12bd4af55d99cf945e73ebf1cfea758f0774f15a92",
+      "text": "Displayed levels include the reduction of 5. Hong Lu's death causes defeat even during the opening wave."
+    },
+    "passives.24.name": {
+      "sourceHash": "ee16b8f8d48fa2f726c5b22342919f1b560780e48f60a35c9377750e0fd85d2f",
+      "text": "Jia Qiu's Test"
+    },
+    "passives.24.effect": {
+      "sourceHash": "7056d9caa2dc55505c81fa7e8ed5ebec22e5aa424c275f5777e5c5f46004f9e3",
+      "text": "At the start of the first turn, gain Concealed Bloodthirst.\nWhen Hong Lu dies, end the encounter."
+    },
+    "passives.24.condition": {
+      "sourceHash": "2fda919127b4fa922168dd48f1e0472691b855ea96be2855cd919c7b12051d92",
+      "text": "Opening-wave start / Hong Lu's death"
+    },
+    "passives.24.response": {
+      "sourceHash": "02bd2b0116767be19331dd12bd4af55d99cf945e73ebf1cfea758f0774f15a92",
+      "text": "Displayed levels include the reduction of 5. Hong Lu's death causes defeat even during the opening wave."
+    },
+    "passives.25.name": {
+      "sourceHash": "e5407c7d4713b5f0dd70d1bda86259fe6c5696089154f58d7193c9d147d23247",
+      "text": "Strider [Mao]"
+    },
+    "passives.25.effect": {
+      "sourceHash": "267be50dbd0e69cf83d7e97fd720116a0438d8eed26c8f099af0c62b999daa87",
+      "text": "On Hit against an enemy with Deathrite【Haste】, increase the target's Rupture Count by 1 (max 3 times per turn)"
+    },
+    "passives.25.condition": {
+      "sourceHash": "8888aa8974b5c8cdcd2a7ec27fb8dac24f568b97e9fbb456ed4dfd05ec0b37e4",
+      "text": "Speed difference / hits on Deathrite【Haste】 targets"
+    },
+    "passives.25.response": {
+      "sourceHash": "159c6aeb6b7271ed15a878a18fdcb0be86984d77b120c563892cdeed004c4b8d",
+      "text": "Check each user's effects. Zilu also gains Haste through Strider【Mao】; make him gain Bind by winning clashes."
+    },
+    "passives.26.name": {
+      "sourceHash": "e5407c7d4713b5f0dd70d1bda86259fe6c5696089154f58d7193c9d147d23247",
+      "text": "Strider [Mao]"
+    },
+    "passives.26.effect": {
+      "sourceHash": "267be50dbd0e69cf83d7e97fd720116a0438d8eed26c8f099af0c62b999daa87",
+      "text": "On Hit against an enemy with Deathrite【Haste】, increase the target's Rupture Count by 1 (max 3 times per turn)"
+    },
+    "passives.26.condition": {
+      "sourceHash": "8888aa8974b5c8cdcd2a7ec27fb8dac24f568b97e9fbb456ed4dfd05ec0b37e4",
+      "text": "Speed difference / hits on Deathrite【Haste】 targets"
+    },
+    "passives.26.response": {
+      "sourceHash": "159c6aeb6b7271ed15a878a18fdcb0be86984d77b120c563892cdeed004c4b8d",
+      "text": "Check each user's effects. Zilu also gains Haste through Strider【Mao】; make him gain Bind by winning clashes."
+    },
+    "passives.27.name": {
+      "sourceHash": "f43eebf7b310e705aa46f4b1e804691c0295fb5694709f3b0a184e9e60d0257d",
+      "text": "Vigor [Mao]"
+    },
+    "passives.27.effect": {
+      "sourceHash": "b005c026262c88a59ad23424440d45302051b7303e59da6238b227cee15bcf76",
+      "text": "When attacking a slower target, inflict +1 Rupture or Rupture Count"
+    },
+    "passives.27.condition": {
+      "sourceHash": "a690145194ba6b6441091275e5987b71e840b0c92fa1ef70a8dd15d855ae06ec",
+      "text": "Hits on Deathrite【Haste】 targets / Speed difference"
+    },
+    "passives.27.response": {
+      "sourceHash": "b234aa90ffa449745bc315fcfb46ff4eac7101f33680259d7427775d1eb88cd0",
+      "text": "Effects vary by user. Check each skill's statuses and Speed difference, and protect high-Rupture Sinners."
+    },
+    "passives.28.name": {
+      "sourceHash": "f43eebf7b310e705aa46f4b1e804691c0295fb5694709f3b0a184e9e60d0257d",
+      "text": "Vigor [Mao]"
+    },
+    "passives.28.effect": {
+      "sourceHash": "b005c026262c88a59ad23424440d45302051b7303e59da6238b227cee15bcf76",
+      "text": "When attacking a slower target, inflict +1 Rupture or Rupture Count"
+    },
+    "passives.28.condition": {
+      "sourceHash": "a690145194ba6b6441091275e5987b71e840b0c92fa1ef70a8dd15d855ae06ec",
+      "text": "Hits on Deathrite【Haste】 targets / Speed difference"
+    },
+    "passives.28.response": {
+      "sourceHash": "b234aa90ffa449745bc315fcfb46ff4eac7101f33680259d7427775d1eb88cd0",
+      "text": "Effects vary by user. Check each skill's statuses and Speed difference, and protect high-Rupture Sinners."
+    },
+    "passives.29.name": {
+      "sourceHash": "c7b7684c135d75b2bf63083ee7232de6bc07842a399b5bc262f1ad8c23295e22",
+      "text": "Dominator [Mao]"
+    },
+    "passives.29.effect": {
+      "sourceHash": "9374259a2c87367f99351c2178effecd0e7600c9ae29e894266c7a665311bd42",
+      "text": "If self is at least 3 Speed faster than the target, Coin Power +1"
+    },
+    "passives.29.condition": {
+      "sourceHash": "bcab74140b2724ec31da3f2341e6b8c0905ceabeed74a0cc7bf866395696eeff",
+      "text": "Faster than the target"
+    },
+    "passives.29.response": {
+      "sourceHash": "487dc15ccd1ab095ac8b4a8c215793a392c5002163b9827d6893f173c9dd640c",
+      "text": "Coins strengthen against slower Sinners. Use a faster clash handler or Bind."
+    },
+    "passives.30.name": {
+      "sourceHash": "c7b7684c135d75b2bf63083ee7232de6bc07842a399b5bc262f1ad8c23295e22",
+      "text": "Dominator [Mao]"
+    },
+    "passives.30.effect": {
+      "sourceHash": "9374259a2c87367f99351c2178effecd0e7600c9ae29e894266c7a665311bd42",
+      "text": "If self is at least 3 Speed faster than the target, Coin Power +1"
+    },
+    "passives.30.condition": {
+      "sourceHash": "bcab74140b2724ec31da3f2341e6b8c0905ceabeed74a0cc7bf866395696eeff",
+      "text": "Faster than the target"
+    },
+    "passives.30.response": {
+      "sourceHash": "487dc15ccd1ab095ac8b4a8c215793a392c5002163b9827d6893f173c9dd640c",
+      "text": "Coins strengthen against slower Sinners. Use a faster clash handler or Bind."
+    },
+    "passives.31.name": {
+      "sourceHash": "8b2a973367a0efc5c62bdd957e97e65053603f6da8b41eb5656dc7c1e76098fb",
+      "text": "Failed Ambush"
+    },
+    "passives.31.effect": {
+      "sourceHash": "c8d360dbfeff9ad4714f54b2b6bbb0df8aab364e29eed9b944a5b8bcc8ba7edb",
+      "text": "At Turn End, if a clash was lost this turn, gain 2 Bind next turn"
+    },
+    "passives.31.condition": {
+      "sourceHash": "9d538fc5b6b0cc60c9079a92fade1692f6a404d98ce1256ffc2a46bd59a0839e",
+      "text": "Adds losing clashes"
+    },
+    "passives.31.response": {
+      "sourceHash": "d9a4d030056322981c9139a8b5efb59f26cded5245f5195e6b19f5bb9879ec60",
+      "text": "Gain 2 Bind next turn. Win opening-wave clashes to build SP and reduce enemy actions."
+    },
+    "passives.32.name": {
+      "sourceHash": "8b2a973367a0efc5c62bdd957e97e65053603f6da8b41eb5656dc7c1e76098fb",
+      "text": "Failed Ambush"
+    },
+    "passives.32.effect": {
+      "sourceHash": "c8d360dbfeff9ad4714f54b2b6bbb0df8aab364e29eed9b944a5b8bcc8ba7edb",
+      "text": "At Turn End, if a clash was lost this turn, gain 2 Bind next turn"
+    },
+    "passives.32.condition": {
+      "sourceHash": "9d538fc5b6b0cc60c9079a92fade1692f6a404d98ce1256ffc2a46bd59a0839e",
+      "text": "Adds losing clashes"
+    },
+    "passives.32.response": {
+      "sourceHash": "d9a4d030056322981c9139a8b5efb59f26cded5245f5195e6b19f5bb9879ec60",
+      "text": "Gain 2 Bind next turn. Win opening-wave clashes to build SP and reduce enemy actions."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "c3cb0f2eb4851da3e8dba67fcbac839b66ba0e6d947ea47a8991c43fe073faba",
+      "text": "A Sliver of Anticipation"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "49ff9bc22a133e988b3960f0cebecd6b1e77acbcbec87e33e114837453952f92",
+      "text": "Qiu's base Offense and Defense Levels -35. Deal +30% damage with one-sided attacks."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "c10f5d8855632fc233cc908f917479b64bef4ad0a0c13fe36b44b9c630f076fb",
+      "text": "Displayed levels include the reduction. Letting attacks through without clashing causes greater damage."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "718d02b4aaae38499d8313f9b3b1d644387bde898233ccd427e2ba640305dca8",
+      "text": "Bloodthirst Suppressed"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "40f4956f44f340006c33237016c618d88bcdc7fa56c4cb19405f5e465427e54c",
+      "text": "Zilu's base Offense and Defense Levels -20."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "85e622fc3faf634294ecc28ce53d7f747d20c0923569e61eb47d2b7d887f6309",
+      "text": "Distinguish base Level 75 from his current levels."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "13fb6fd24881e14e1f56310497f5056aea1dc24304db67797e8f62858536c17e",
+      "text": "Concealed Bloodthirst"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "c60e5d7db780a87368390c7e482d5e73963a01a8d43b65c11b33ee0b8ea64dcd",
+      "text": "Heishou base Offense and Defense Levels -5."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "3ae110d8b1ff998c4afdb6642b086040e2f69be23b5a2257ddce4ed5265eeb46",
+      "text": "Use regular skills that win according to current opening-wave predictions."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "6e008b0ea8c4fd12384b3dd7012dee4cf3fb2e07fe6d25fd3893d05e6318b726",
+      "text": "Assist Defense"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "6703c304e3f443849baa573169b15ee8acf63b4a1d307226efb50a062ed96b2e",
+      "text": "Redirects one-sided attacks on allies to self and uses a special Guard or Counter. Zilu uses Swiftfeet Protection at 1 stack and Cloudsplitting Manifestation at 2+."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "d107099003d80e72385e76952c52a82f755b34ae7802dcd0ed521c1ade87b505",
+      "text": "Avoid weak one-sided attacks on Qiu."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "c382c4d4763504145df5987bf660a9eb9f09d6eb88f725305ed054734d7fb089",
+      "text": "Strider【Mao】"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "0174cdf94208a5f636e739f154937bed10a5327d3accffa649370e69577ab0e9",
+      "text": "At Turn End, gain 5 Haste next turn and reduce this status by 1."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "d9237e61dd65ac6f80b628a2f8538d4698b2a2f35ac54ba57eab61f39c9f7998",
+      "text": "Control Zilu's Speed-difference bonuses with Bind from winning clashes or a different clash handler."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "d5b12833215a56a3fcaef88810b13c9e9520a82aeae0d89cf23ada2adf731418",
+      "text": "Dialogues / Uncompromising Imposition"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "bb52d7d7ee1db40baa6ab0e99f20cfb91789cbf9222b4f3d12c8cc341c6b394e",
+      "text": "A progression effect Hong Lu gains by winning clashes against the questions. Dialogues heals 5 SP at Turn End and allows full HP recovery at 0 HP as many times as its value. His Lord Identity displays Uncompromising Imposition, which also grants 1 Final Power Up next turn after recovery."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "0a911d97c5d71d7639aa90d0ce5db27960c02f17a88d56c0b213e2e132da99e1",
+      "text": "Reach 3 to handle the Shield and finisher. Do not neglect Hong Lu's HP by relying on revival."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "af2de5e95499800c5af97f1b130b3d2a8dffdcd84b5eb5893f06eaed99b23c0a",
+      "text": "Deathrite 【Halt】"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "fa387966635681302316ccf5839f69d25d031abe2ca70157c7964f31afeb938b",
+      "text": "When Rupture activates at 3+ Bind, reduce this status and raise the Stagger Threshold."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "60eb9a5128a2341c4714b66fd49fc18e6d4c3c89ef4b7ac96eef63a440529815",
+      "text": "Protect the HP of Sinners with both Bind and incoming Rupture damage."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "74de4215f51ab1d3543397961f26c316b6716894a694558309784bf3859dd4f1",
+      "text": "Deathrite 【Impede】"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "5037188877fd6036766b85de3950aaa0f0abed0466abccc4af478e3b7851c1b2",
+      "text": "When another Deathrite decreases, this status decreases; at 0, gain 6 Offense Level Down next turn. The same-named passive also makes its holder deal 20% less damage to Qiu."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "44ad9b80fd71a694a7e453f867b1f3d14eae5fd08c95d08b416a91fa0943168e",
+      "text": "Keep it off key damage dealers and avoid spreading it across the team."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "58be65ce49055364319b1317e9788f6634543877022e992ced55e6d2767a1d91",
+      "text": "Deathrite【Haste】"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "0b1c812a381c3aab87a9aed1031f99ff79ffce3128dd8b3e5d23a2ac7bbb943b",
+      "text": "When Rupture activates from an attack by a target with 10+ Speed, reduce this status and increase own Rupture Count."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "e1cc7ae9ba882a6912029d6e7c19abd31d9800bb3133177b248e5d9e226bc254",
+      "text": "Avoid repeated hits from a fast Zilu; use clashes and healing."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "f844c62c1fe6b0b73023eb9719a4220a53852410f42fd15413b4bbc08e2c1f47",
+      "text": "Deathrite 【Wane】"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "215cf1eabe75560b3a88ac7a66de8a6fae827caaa30c21d3cabadcfa27caf312",
+      "text": "When its inflicter activates Rupture, reduce this status and other Deathrites."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "9a1ed095738994166e0e28bb8e81274b0500ef6f1236afaef1ab87c572ee6356",
+      "text": "Check Deathrite types and Rupture values."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "ab7829297bd9601699f6ad56fcb031aca6821c2e67962ff754ac4e1bb8a84edf",
+      "text": "Deathrite【Extinguish】"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "dd8aed277cdcb050cb1c9803ff28b56b23ed4fd1471c4a3a4513894676b5ae71",
+      "text": "A provisional rendering of the name used in the guide's second-half Thunderstrike - Ripple entry. Its dedicated status section instead lists Wane; the source does not establish a separate effect for Extinguish."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "45e1feb5b9f2a3db9852dba5d2b89237e3090375874180208d8689d84b1315e2",
+      "text": "Do not calculate on the assumption that it is identical to Wane; check the actual status display."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "d94d46e136344de361768ec045821c8ab5c381c4b439f316e121cb00114e1d47",
+      "text": "Deathrite 【Fissure】"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "0e62e77c8ead6f4c8a9ea93b8e4ff87613bc79f676e5d7d0f9a608920dd8944b",
+      "text": "When Rupture activates while Deathrites are present, reduce this status, leading to next-turn Bind."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "2bb9d179fd7eed4988956b9a195d3248c0ce657ca73102164ea1579cc002341c",
+      "text": "When Rupture and Deathrites accumulate on one Sinner, reconsider next turn's clash assignments."
+    },
+    "warnings.0": {
+      "sourceHash": "fa4eb0c6c71aff2cf233d2c1e30c000dc8d2c27c25e4b2e9cb9414d5ea95d0f1",
+      "text": "Hong Lu's death causes immediate defeat even with reserves available."
+    },
+    "warnings.1": {
+      "sourceHash": "f3cc072e6be129d1804661541eab247e6180952785d3557be8c948caa2d7b066",
+      "text": "Weak one-sided attacks on Qiu while Assist Defense is active trigger Zilu's powerful counterattack."
+    },
+    "warnings.2": {
+      "sourceHash": "aa273d0d8cbc39bff5c55aa82b88a2bb42420c80d4914be0c898860b56b314ce",
+      "text": "Do not reduce Zilu to 85% HP or lower. He does not need to be defeated and withdraws on entering the second half."
+    },
+    "warnings.3": {
+      "sourceHash": "40d1144030f2629aac01cba9fdfc3e251b613b51df18b47a23e53810817dba7a",
+      "text": "The first-half turn ends immediately at 50% HP. Later healing will not resolve."
+    },
+    "warnings.4": {
+      "sourceHash": "b56017cd50bcc356c3cf880873f00f54607960957f789a1ac8498472f3cb1efd",
+      "text": "Dialogues progresses only through Hong Lu's own clash wins. The finisher's Defense Level reduction also requires winning that clash."
+    },
+    "warnings.5": {
+      "sourceHash": "627127c5a7eec5aa7aed4a4670eeac5eb7a001acd3cc21c65295878c6916d6aa",
+      "text": "Unbreakable hits remain after winning against the finisher. Stagger prevention applies to that skill's damage; it does not prevent death from Rupture."
+    },
+    "preparation.0": {
+      "sourceHash": "0d2df76e6218d22a28c1e698726621ea2b7c92d674700a555b03ad67bf77065b",
+      "text": "Bring Hong Lu, healing, 7 Sinners and 5 reserves. Prepare Blunt for the opening wave, and Gluttony, Lust, and Pride for Qiu."
+    },
+    "preparation.1": {
+      "sourceHash": "ad6e00a89fc52cc798d8dbd4712bdea2f29ae0a636b7552147e3af203a09e8f0",
+      "text": "Save Hong Lu's E.G.O resources for Dialogues and the duel. Keep checking his HP when Rupture accumulates."
+    },
+    "roles.0.name": {
+      "sourceHash": "1ce04a9ae4cf6dccdc295b03c83ecc3157023b530433b570803cdd1429a04977",
+      "text": "Hong Lu's own powerful skills"
+    },
+    "roles.0.reason": {
+      "sourceHash": "01e2e16426b7b5e65624b4355e34140719a0f1ee479ddf7d49234ed8857acd1f",
+      "text": "The mandatory clash handler for progressing Dialogues 3 times and winning the duel."
+    },
+    "roles.1.name": {
+      "sourceHash": "782ad335d5ec3c4a186e8d07aa2cc42b26d20ee821b76938b65f91d073651a8c",
+      "text": "HP and SP recovery"
+    },
+    "roles.1.reason": {
+      "sourceHash": "e9d1b5fee0c79fa7be8aba9efc83a3444ad0808e46c63e0171c450df8a18d174",
+      "text": "Limit attrition from Unbreakable Coins and Rupture, preventing defeat through Hong Lu's death."
+    },
+    "roles.2.name": {
+      "sourceHash": "2dc609f515118da19337b649aebf4ce41e8ec3e8b929dd495d551f0189f98f6f",
+      "text": "Clash and targeting management"
+    },
+    "roles.2.reason": {
+      "sourceHash": "83aa646f22838c7e57d564f6fb032af03b1730489ef030c55d39df912b87c9d2",
+      "text": "Avoid triggering Assist Defense and spreading Deathrites across the whole team."
+    }
+  },
+  "messages": {
+    "boss-copy:jia-qiu": "complete",
+    "【リンバス】8-20 ジア・チォウ（8-20）の攻略｜Limbus Assistant": "8-20 Jia Qiu (8-20) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)8-20「ジア・チォウ（8-20）」の攻略。ホンルを最後まで生かし、ズールゥへの無用な攻撃を避ける。後半はホンル本人で問答を3回成功させてバリアを止め、大技へ勝って攻撃機会を作ろう。": "Jia Qiu (8-20) guide for Limbus Company 8-20. Keep Hong Lu alive throughout and avoid unnecessary attacks on Zilu. In the second half, win 3 Dialogues with Hong Lu himself to stop the Shield, then beat the finisher to create an opening.",
+    "8-20 ジア・チォウ（8-20）": "8-20 Jia Qiu (8-20)",
+    "8-20「Second Hierarch Trial: What Hongyuan Needs Most」": "8-20 · Second Hierarch Trial: What Hongyuan Needs Most",
+    "ジア・チォウ（前半）の外見": "Jia Qiu (first half) appearance",
+    "ジア・チォウ（前半）のスキル": "Jia Qiu (first half) skills",
+    "Jia Qiu (first half)の外見": "Jia Qiu (first half) appearance",
+    "Jia Qiu (first half)のスキル": "Jia Qiu (first half) skills",
+    "ズールゥの外見": "Zilu appearance",
+    "ズールゥのスキル": "Zilu skills",
+    "Ziluの外見": "Zilu appearance",
+    "Ziluのスキル": "Zilu skills",
+    "ジア・チォウ（後半）の外見": "Jia Qiu (second half) appearance",
+    "ジア・チォウ（後半）のスキル": "Jia Qiu (second half) skills",
+    "Jia Qiu (second half)の外見": "Jia Qiu (second half) appearance",
+    "Jia Qiu (second half)のスキル": "Jia Qiu (second half) skills",
+    "黒獣 - 卯：快撃の外見": "Heishou Pack - Mao: Featherstriker appearance",
+    "黒獣 - 卯：快撃のスキル": "Heishou Pack - Mao: Featherstriker skills",
+    "Heishou Pack - Mao: Featherstrikerの外見": "Heishou Pack - Mao: Featherstriker appearance",
+    "Heishou Pack - Mao: Featherstrikerのスキル": "Heishou Pack - Mao: Featherstriker skills",
+    "黒獣 - 卯：暗撃の外見": "Heishou Pack - Mao: Umbrastriker appearance",
+    "黒獣 - 卯：暗撃のスキル": "Heishou Pack - Mao: Umbrastriker skills",
+    "Heishou Pack - Mao: Umbrastrikerの外見": "Heishou Pack - Mao: Umbrastriker appearance",
+    "Heishou Pack - Mao: Umbrastrikerのスキル": "Heishou Pack - Mao: Umbrastriker skills"
+  }
+}

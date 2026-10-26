@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0509.md",
+  "code": "0509",
+  "messages": {
+    "破裂編成で、マッチに強いスキルと攻撃レベル減少で敵の攻撃を受け止める「時間稼ぎ」役。破裂回数を自分で維持するのは苦手。": "A Rupture-team tank that buys time through strong clashing skills and Offense Level Down. He struggles to sustain Rupture Count himself.",
+    "攻撃レベル減少: S2「打ち落とす」のⅡコイン的中時(対象の破裂6/4以上)、S3「打っ付ける」のマッチ勝利時に攻撃レベル減少2を付与。S3のⅣコインは対象の破裂6以上なら次のターンにも攻撃レベル減少2を付与し、味方のマッチも補助する。": "**Offense Level Down**: Inflicts 2 Offense Level Down on Coin Ⅱ hit of S2 Smackdown (if the target has at least 6/4 Rupture) and on Clash Win with S3 Relentless. Coin Ⅳ of S3 also inflicts 2 Offense Level Down next turn if the target has at least 6 Rupture, helping allies' Clashes as well.",
+    "破裂で強化: S1「バットで殴る」は対象の破裂5以上、S2・S3は6以上でコイン威力が上がる。S3は破裂3以上でマッチ威力+1。": "**Rupture bonuses**: S1 Bat Strike gains Coin Power if the target has at least 5 Rupture, and S2 and S3 at 6 or more. S3 gains +1 Clash Power at 3 or more Rupture.",
+    "破裂回数は他頼み: 破裂回数を増やせるのはS2のマッチ勝利時(+2)だけで、破裂は攻撃を受けるたびに回数が1減る。": "**Relies on others for Rupture Count**: His only way to increase Rupture Count is S2's Clash Win (+2), and Rupture loses 1 Count each time the bearer is attacked.",
+    "バトルパッシブ「時間稼ぎ」(暴食×3・共鳴・同期化Ⅱで取得): 破裂を持つ対象とのマッチでマッチ威力+1、対象の破裂回数が5以上なら+2。": "**Combat passive — Buy Time (3 Gluttony Resonance; unlocked at Uptie Ⅱ)**: +1 Clash Power in Clashes against targets with Rupture, or +2 if the target has at least 5 Rupture Count.",
+    "サポートパッシブ「俺が責任を取る」(暴食×3・共鳴・同期化Ⅲで取得): 控えにいる間、速度が最も高い味方1名が破裂6/3以上の敵に攻撃を的中させると、攻撃レベル減少1を付与する(敵1体につき1ターン最大3)。": "**Support passive — My Responsibility (3 Gluttony Resonance; unlocked at Uptie Ⅲ)**: While in backup, when the 1 fastest ally lands an attack on an enemy with at least 6/3 Rupture, inflicts 1 Offense Level Down, up to 3 per enemy per turn.",
+    "破裂の威力・回数を付与する味方と組み、破裂のある敵とのマッチをパッシブで勝ちにいく。S2・S3で攻撃レベル減少を重ねて、敵の攻撃を弱める。": "Pair him with allies who inflict Rupture Potency and Count, and use his passive to win Clashes against enemies with Rupture. Stack Offense Level Down with S2 and S3 to weaken enemy attacks."
+  }
+}

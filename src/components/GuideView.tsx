@@ -4,14 +4,33 @@ import type { GuideSection as GuideSectionData, InlineSegment } from "../guide";
 import { asset } from "../lib";
 import type { Keyword } from "../types";
 import { decorate } from "./decorate";
+import { useContext } from "react";
+import { LanguageContext, translateKeywordName, translateOfficialName, translateText } from "../i18n/text";
+import { parseInline } from "../guide";
 
 // 攻略ガイド(src/data/guides/**/*.md)の描画。人格ページ・E.G.O ページで共通。
 // ガイドは見出しで枠を分けて表示できる(E.G.O は「解析」「編成・相性」を別の枠にする)
 
 export function InlineText({ segments, keywords }: { segments: InlineSegment[]; keywords: Keyword[] }) {
+  const language = useContext(LanguageContext);
+  const source = segments.map((segment) => segment.text).join("");
+  const translation = translateText(source, language);
+  const localized = translation === source ? segments : parseInline(translation);
+  // 英訳済みの正式名に残る漢字だけを拾い、名前を二重に英訳しない。
+  const localizedKeywords = language === "en" && translation !== source
+    ? keywords.map((keyword) => {
+      const official = translateOfficialName(keyword.term, language);
+      const term = official.includes(keyword.term)
+        ? official
+        : translateKeywordName(keyword.term, keyword.desc, language);
+      return term !== keyword.term && term.includes(keyword.term)
+        ? { term, desc: translateText(keyword.desc, language) }
+        : keyword;
+    })
+    : keywords;
   return (
     <>
-      {segments.map((s, i) => {
+      {localized.map((s, i) => {
         // 人格・E.G.O 詳細ページへのリンク([表示名](persona:コード) / [表示名](ego:コード))
         const href = s.persona ? `/persona/${s.persona}` : s.ego ? `/ego/${s.ego}` : undefined;
         const content = href ? (
@@ -19,7 +38,7 @@ export function InlineText({ segments, keywords }: { segments: InlineSegment[]; 
             {s.text}
           </Link>
         ) : (
-          decorate(s.text, keywords, false)
+          decorate(s.text, localizedKeywords, false)
         );
         return s.strong ? <strong key={i}>{content}</strong> : <span key={i}>{content}</span>;
       })}

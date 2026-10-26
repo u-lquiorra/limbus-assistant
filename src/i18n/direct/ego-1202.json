@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1202.md",
+  "code": "1202",
+  "messages": {
+    "低コストの広域打撃で、味方のマッチより先に麻痺を撒いて相手の出目を封じる使い方が強いE.G.O。": "A low-cost multi-target Blunt E.G.O that is strongest when it spreads Paralyze before allies' Clashes to lock down the opponent's rolls.",
+    "麻痺の付与: 麻痺は1ターンの間コイン威力を0に固定する。味方より先に撃てると、相手の威力が落ちてマッチが有利になる。解析Ⅲで付与量が4になり、解析Ⅳでは表面でなくても的中時に必ず付く。": "**Inflicting Paralyze**: Paralyze fixes Coin Power to 0 for 1 turn. If it can be fired before allies, the opponent's power drops and Clashes tilt in your favor. Threadspin Ⅲ raises the amount to 4, and at Threadspin Ⅳ it always applies on hit, not just on Heads.",
+    "振動の付与: 的中時に振動を2付与する(解析Ⅲで4、Ⅳで6)。解析Ⅲから振動爆発も加わる。": "**Inflicting Tremor**: Inflicts 2 Tremor on hit (4 at Threadspin Ⅲ, 6 at Ⅳ). From Threadspin Ⅲ, it also adds Tremor Burst.",
+    "軽さ: 攻撃加重値3で、必要資源は怠惰1・暴食3、精神消耗は覚醒10。広域E.G.Oとしては軽い。": "**Lightweight**: 3 Attack Weight, requiring 1 Sloth and 3 Gluttony with an Awakening Sanity cost of 10. Light for a multi-target E.G.O.",
+    "パッシブ「蛆虫」: 攻撃的中時、(暴食完全共鳴数×8)%の確率で蛆虫5を付与する。蛆虫はターン終了時に暴食ダメージを与え、出血回数を増やす。": "**Passive — Maggots**: On hit, a (Gluttony Absolute Resonance×8)% chance to inflict 5 Maggots. Maggots deal Gluttony damage at Turn End and increase Bleed Count.",
+    "速い人格で先に撃ち、麻痺を入れてから味方のマッチに繋ぐ。": "Fire it first with a fast Identity, apply Paralyze, then hand off to allies' Clashes.",
+    "パッシブは暴食完全共鳴が条件で確率も低いため、発動すれば得という程度に見る。": "The passive requires Gluttony Absolute Resonance and has a low chance, so treat it as a bonus when it triggers.",
+    "侵蝕スキルは敵味方識別不可(味方に当たり得る)で、出血・麻痺を付与し、解析Ⅲから蛆虫も直接付与する。": "The Corrosion skill cannot distinguish friend from foe (it can hit allies), inflicts Bleed and Paralyze, and from Threadspin Ⅲ also directly inflicts Maggots.",
+    "Ⅱ: 「蛆虫」が解放される。": "**Ⅱ**: Unlocks Maggots.",
+    "Ⅲ: 基本威力が15から18になり、麻痺・振動の量が増え、振動爆発が付く。優先度が高いと考えられる。": "**Ⅲ**: Base Power goes from 15 to 18, Paralyze and Tremor amounts increase, and Tremor Burst is added. Likely a high priority.",
+    "Ⅳ: 振動が6になり、麻痺が的中時に必ず付く。": "**Ⅳ**: Tremor becomes 6, and Paralyze always applies on hit.",
+    "G社課長代理: S1が暴食、S2が怠惰で、必要資源の両方を出せる。": "**[G Corp. Manager Corporal](persona:1203)**: His S1 is Gluttony and S2 Sloth, supplying both required affinities.",
+    "南部ツヴァイ協会4課: S1が怠惰、S2が暴食で資源を出せ、速度4-8と高く先に麻痺を入れやすい。": "**[Zwei Assoc. South Section 4](persona:1206)**: His S1 is Sloth and S2 Gluttony, supplying resources, and his high Speed of 4–8 makes it easy to apply Paralyze first."
+  }
+}

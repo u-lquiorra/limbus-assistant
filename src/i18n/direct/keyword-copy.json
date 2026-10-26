@@ -1,0 +1,837 @@
+{
+  "kind": "keyword-copy",
+  "entries": {
+    "summary:0116": {
+      "sourceHash": "637f896930a892aef4224766fa8af6d83e3c515140a66d67f34cde485ae4da28",
+      "text": "A Charge Identity that gains Dimensional Castaway by evading, then follows up allies' attacks with S1 Dimensional Slice to build Charge. Use enhanced S3 at 15 Charge Count, then continue the evade-and-follow-up cycle."
+    },
+    "summary:0202": {
+      "sourceHash": "e02d2bdbd0176a418af701d1beeb063e4a6e901741a69fcf28756db23c2fac34",
+      "text": "A debuffer that builds Charge and spends it to inflict Bind, Attack Power Down, and Paralyze."
+    },
+    "summary:0203": {
+      "sourceHash": "b9c22e56fecfb377f1faa8bd4d087ef0fcb81b1d0e0c63412f3be52ee076c698",
+      "text": "An attacker that uses the high Power of S3 Opportunistic Slash to win clashes and deal heavy damage. Fragile defensively; Poise, Rupture, and Haste are minor bonuses."
+    },
+    "summary:0204": {
+      "sourceHash": "785ffcf77a5466671e9fd0bf0e413f971c07cbc6ae3980f20cb45bf0896605c1",
+      "text": "A support Identity that activates her combat passive, Whistles, through Lust Resonance to quickly restore allies' SP. In Bleed teams, Nails provide Bleed Count while Gaze boosts allies' Pierce and Blunt damage."
+    },
+    "summary:0206": {
+      "sourceHash": "515a4525f11f1cd998cf7316ff0cc8d48b9cf0ecbfb303c0ff668cb9309e88b0",
+      "text": "A straightforward Slash attacker with high Power and many Coins, capable of fighting without Rupture. In Rupture teams, use S1 followed by S2 to reach at least 6 Rupture and gain the bonuses from Weakness Analyzed and Rupture."
+    },
+    "summary:0207": {
+      "sourceHash": "5d6054b47f4efc257d8e508abc3cde51321cd77159e115834e8ac3d9904c996a",
+      "text": "A Blunt attacker that builds her own Tremor Count with S1, then turns S2 and S3 into attacks that hit multiple targets to spread and burst Tremor. S2's debuffs and the combat passive's Defense Level Down also support the whole Tremor team's damage."
+    },
+    "summary:0208": {
+      "sourceHash": "32d6c51e2e5892a8945cfe7a796877d78b78fe56ada9f68af1e80a804e9fc55b",
+      "text": "Build Poise Count with S1 and S2, convert it into Poise by winning a clash with S3 Red Plum Blossoms Scatter, then rapidly stack 10 Red Plum Blossom through critical hits to inflict Slash Fragility. She struggles to build the Poise needed for critical hits alone and relies on support such as a Blade Lineage team."
+    },
+    "summary:0209": {
+      "sourceHash": "6393394252c900f09231e70d28ccb29cb2612800902e9131c2931b7ba95ed3cc",
+      "text": "A Sinking applicator that inflicts Echoes of the Manor with S3 Reception Arts 4: Heartseal and adds 3 Sinking per clash win through her combat passive. S2 and S3 against enemies with Echoes also help sustain Sinking Count."
+    },
+    "summary:0210": {
+      "sourceHash": "cf5b5a7fd2c102e9f4c1309c0460687e5439301b586315a5126e1504f0c993a5",
+      "text": "A Blunt attacker that replenishes Charge Count and inflicts Envy Fragility with S3 40Y-3 Charge, then spends all that Count on S2 Charge Countercurrent next turn with at least 3 Envy Resonance. Built for longer fights, growing stronger as repeated spending raises Charge Potency."
+    },
+    "summary:0211": {
+      "sourceHash": "cbc9faa3f67452238eb9f3eba8f8248c8f95c51222560c21c1d5f0687d305d65",
+      "text": "A Blunt attacker that stacks Burn on herself to lose HP, then self-destructs with A.B.S Max Attunement 【Degraded Corrosion】 when near death. Self-destruction and replacement by the next unit complete her cycle; the explosion itself is her main payoff."
+    },
+    "summary:0212": {
+      "sourceHash": "c068daf5128c6c2b42e83731d2ed8fb033118c9e4ef348fbaf9e1d4e1f902207",
+      "text": "A Rupture attacker whose core loop is equipping a defense skill every turn to trigger Assist Defense, transforming the assist-only skill into enhanced S3 Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation, and repeatedly using it."
+    },
+    "summary:0213": {
+      "sourceHash": "417e130ba9f3bb16876a2d6c05fbb79618ba3b493d32262d5304fa395a35ed14",
+      "text": "A Slash attacker whose S1–S3 gain bonuses from Poise and Bleed. She struggles to sustain Poise alone and performs best with outside Poise support. Bow's Glimmer [閃弓] offers a way to turn a turn spent unable to attack into greater damage later."
+    },
+    "summary:0214": {
+      "sourceHash": "b24ab135fb8412b7b23c622e077730558b53c2f11d68bef3c899f62b8b89619e",
+      "text": "An Index Identity that fulfills each turn's Prescript to build Grace of the Prescript, fighting with Poise and Sinking."
+    },
+    "summary:0215": {
+      "sourceHash": "e55f5df022db3ba46a036dafa6dadba41668fa9d11a20e09097b8e8601127472",
+      "text": "A Charge and Bleed Identity that sustains enemy Bleed Count through Iron Maiden and Count increases on every skill except the evade, The Exhibition Begins. Build the special Charge, Corpus Ingredient, to 3 Potency to increase Bleed application and expand S3's area after releasing restraints."
+    },
+    "summary:0216": {
+      "sourceHash": "4cba285c5908529ca5dc7e956305f2d32669141a85afafeb2108cd19b5c97f1a",
+      "text": "A Burn and Tremor attacker that builds Fire Butterfly Coffin to 30 for enhanced S3. Her full cycle begins after using Dismemberment at High Noon through defense to gain 3 Combat Instinct and a large heal; passive Coffin generation then lets her keep using enhanced S3 regularly."
+    },
+    "summary:0301": {
+      "sourceHash": "a348430c44d4dc90e499c5eb3a59ed273202773b2562c553362ae1c8d5f9c5c1",
+      "text": "A Pierce attacker whose Power comes mainly from Coin Power, making SP crucial. Maintain high SP to win clashes, then press the advantage with the 3-Coin S3 For Justice! At Uptie Ⅳ, she can also stack Bleed."
+    },
+    "summary:0302": {
+      "sourceHash": "a097a8f25380dd76a25280423fbb44b1966aa07f71b9928cad571f044e37d074",
+      "text": "Use S2 and S1 to build at least 10 Charge, then unleash the 5-Coin S3 Rip Space with +4 Coin Power for both clash strength and damage."
+    },
+    "summary:0303": {
+      "sourceHash": "3e26e1fd49cc2b360efd036d20736c53057c13ca2086b637247f81c87cce2aa8",
+      "text": "A Slash Identity that relies on the 2-Coin S2 Dual Strike for clashes and saves the single-Coin S3 Overbreathe to stop strong enemy skills. S3 gains a bonus at 10 or more Speed."
+    },
+    "summary:0304": {
+      "sourceHash": "d8217e85f59d2e53da7c3a14a3804f6c7a5a9eb3415ad77b68e04223fd9aeb8c",
+      "text": "A durable Tremor Identity that works with other N Corp. Identities applying Nails. Her passive helps supply Tremor Count, and S2 Enactment! bursts Tremor."
+    },
+    "summary:0306": {
+      "sourceHash": "584f3626f40c03b9e4abe98744dd615da5a93bb5ba53b41aa3431cbcd6908d0b",
+      "text": "A Blunt Identity that forms Envy Absolute Resonance with Middle allies, converting her defense counter, Multifold Retribution, into the high-Offense-Level A Just Vengeance to retaliate for heavy damage."
+    },
+    "summary:0307": {
+      "sourceHash": "7cbeecc75614b18ef9d70135d0db50d0750d087b8e7c4c175a5a157defffae3e",
+      "text": "An Identity that adds Rupture Count with every attack skill to sustain a Rupture team, while taking enemy attacks through Aggro and self-healing."
+    },
+    "summary:0308": {
+      "sourceHash": "a9f7b54dc17038680122f418ea15a6824794d3a5db2a129af74ebfcb843c3b62",
+      "text": "A Blade Lineage support and attacker that builds her own Poise and shares it through critical hits and her passive. Allies without Poise receive priority, so surrounding her with allies that use Poise makes the distribution more effective."
+    },
+    "summary:0309": {
+      "sourceHash": "ada968b4b0e872c5c4f3ea457db9d5255c64dc1f219d0d739aa358b5bf9b97b7",
+      "text": "A tank that gains Borrow Time through defense and wins early clashes with Haste and Clash Power Up. Stack Tremor, then apply Time Moratorium with S3 to release stored damage as Sloth damage; Tremor - Chain also lowers the enemy's Clash Power."
+    },
+    "summary:0310": {
+      "sourceHash": "ba2a6d7bfd4585b60c58319d482a0ac04842803eb5f6750126316bdfc616fa27",
+      "text": "Fight alongside Bloodfiends to accumulate Bleed damage dealt on the field as Bloodfeast. Spend it to gain at least 15 Hardblood and enhance S3 into Ascendant Sancho Hardblood Arts - La Sangre, then strike enemies with high Bleed for heavy damage."
+    },
+    "summary:0311": {
+      "sourceHash": "e496044bc096d95b184235b22cd00bbe78ff47ce80866b43c65e2b723d1ee836",
+      "text": "A Pierce Identity that gains Haste from Poise and enhances skills through Speed differences, giving her strong early clashes. Stack her pressure-point effect on the same enemy, then use the saved S3 Prithee, let this be an enlightening bout. She also works independently outside Burn teams."
+    },
+    "summary:0312": {
+      "sourceHash": "b33bf94e9e0067a513bbbae2c03f84e1668e451faab2339abfa2d9f5470b449d",
+      "text": "Build Love/Hate and Magical Arcana in Magical Girl form to enter Reversed form. Then use Reversed form's S3 Reversed Beats / Reversed Arcana Slave, with Attack Weight increased by Magical Arcana and Hysteria, to sweep multiple enemies."
+    },
+    "summary:0313": {
+      "sourceHash": "69459b692dfcb3a934234fc64906ca2658d1476d07cd5da75eff38059c9afa29",
+      "text": "A Blunt Identity that deals more damage against enemies with large amounts of Rupture and Sinking. When brought out of standby by The Lord of Hongyuan Hong Lu's coordination, she can use S3 Crushing Horns [破碎角] with 3 Burgeoning of Horns [發角] already active."
+    },
+    "summary:0314": {
+      "sourceHash": "804513a3059d2d38c01ecb85f3ff38be58df9aea2b674b51616c0f777588400c",
+      "text": "An Index Identity that reaches Unlock Ⅰ on turn 1 to enter Effloresced E.G.O::Procuration, then clashes at nearly full strength from turn 2 with increased Offense Level and Speed. Accumulating Poise raises her damage further."
+    },
+    "summary:0315": {
+      "sourceHash": "b14dd019453d58702ebb8dc10cf9d4d9079c1092684db6a0ba5ed5dbe3af1510",
+      "text": "A Tremor and Charge Identity that creates Sanctum of Conservation with S3 or defense, giving all allies Shield to hold the line. Blessing of the Obsidian God also improves her own durability; at 100 Blessing, her defense becomes With Each Smite, I Sever Thine Advent! with 3 Attack Weight."
+    },
+    "summary:0401": {
+      "sourceHash": "b0102b118aaaee91270fe7ab29db2bd5e79c6b19abcb5d04cc796ba3614eb881",
+      "text": "A Slash attacker that boosts her Slash damage on the turn she uses S3 Brushstroke, ideally landing S3 before S2 Splatter. Her passive also increases damage taken, making her an offense-focused Identity."
+    },
+    "summary:0402": {
+      "sourceHash": "bd060a937ca1cc60cbb25f29904dfb84e05594272ce8f7b7b291e2446518dc8d",
+      "text": "A Slash Identity that seeks clash wins through high skill levels and high maximum Power. Land S3 Swash after winning its clash to inflict 5 Slash Fragility and boost single-target damage next turn. Few Coins make her performance highly dependent on SP."
+    },
+    "summary:0403": {
+      "sourceHash": "9271ebe1749d4929f3c164acb694f270e4c59dc70d8a44b323218492452a98db",
+      "text": "An Identity that supports Bleed teams by adding substantial Bleed Count. Her relatively low Speed favors landing unopposed attacks after allies have taken the clashes, adding Count to those enemies."
+    },
+    "summary:0404": {
+      "sourceHash": "29e08ab4a202bb28a35a870202f2eb4d62290079c163c650acb37d94399f9239",
+      "text": "A damage dealer that finishes weakened enemies with S3 I Can Cook Anything. At high SP, S2 I.H. is her main tool for clashes and damage, while kills let her passive heal allies."
+    },
+    "summary:0405": {
+      "sourceHash": "f815ebc625ba24b1c6fff52facf4fe060b19ad791504bae48b59221c536fb05a",
+      "text": "A Slash attacker that mainly uses S2 Leap while building Charge, then spends it on S3 D.D.E.D.R. for heavy damage. Much of her strength comes from Coin Power, so her performance varies greatly with SP."
+    },
+    "summary:0406": {
+      "sourceHash": "0cd653a43c732a5e9e5879b22dabc5b977ddf24ff9ac292d3c14fb8f055be4b2",
+      "text": "An Identity that builds Poise for critical hits, then fires ammunition with S3 to apply both Tremor and Rupture."
+    },
+    "summary:0407": {
+      "sourceHash": "4b0e10d7c0f0f41f7c4516f28f6fc181a200663c382ff44f2484978b8b3ed5ed",
+      "text": "A Burn attacker whose Clash Power, Coin Power, and damage improve at enemy Burn thresholds of 6 and 10. She cannot increase Burn Count herself and belongs with allies that sustain it."
+    },
+    "summary:0408": {
+      "sourceHash": "b29c85250d72824e9a579d0eb8208c4d3643ae5a867a1f47725157c77a01a7c0",
+      "text": "A Slash attacker that builds Poise Count, then cuts through multiple enemies with increased-Attack-Weight S2 Receiving Arts 7: Capture. Critical hits against enemies marked with B.M. can deal greatly increased critical damage based on the Speed difference."
+    },
+    "summary:0409": {
+      "sourceHash": "b26be9b91ac1393259f9ac091c9a0ee1ea149fa1ce73f2c2c87f8401cd079ab3",
+      "text": "S2 Compression Wind-up Spanner transfers her Tremor Count to the enemy, while S1 Got a Screw Loose? grants her Count based on the enemy's. Repeating this cycle supplies large amounts of Tremor Count."
+    },
+    "summary:0410": {
+      "sourceHash": "9c5ab41a36026f273864793ec0ca1254d57e76c12f5b2dd1dd69c556842ac94b",
+      "text": "Fight with skills enhanced by Red Eyes and Penitence, use regular S3 Skullbuster to build both quickly, then unleash Serious Skullbuster when its conditions are met for heavy damage and ally healing. A self-sufficient Identity that performs consistently across teams."
+    },
+    "summary:0411": {
+      "sourceHash": "f58e9d8bc59c97c51ebe5bd93858af22f441b8a7cd01d556817d4e17dcdc706c",
+      "text": "A Slash attacker that uses Strider. Unleashed. Heh on turn 1 to gain Strider【Mao】 and more easily reach 10 Speed. Reused S1 Blinkstep and a powerful S3 deal damage while sustaining Rupture Count; allies supply Rupture Potency."
+    },
+    "summary:0412": {
+      "sourceHash": "5293f68722077928162e7c386ddcc0fd7465064dbc2605421f30afa797b0d4b1",
+      "text": "A Bleed and Tremor Identity that gathers Gaze on enemies, converts it into Contempt, then fires enhanced S3 for a burst of damage."
+    },
+    "summary:0413": {
+      "sourceHash": "de15b50427447b0c758f8a30cf0ee19608c35512919a1650c95eea99c0dca4a3",
+      "text": "An Identity that follows up an ally's attack each turn with Hey, Back Off, effectively attacking twice. S3 Aiding Strike and defense's Protector's Stance build Poise to enhance every skill while also reducing damage taken."
+    },
+    "summary:0414": {
+      "sourceHash": "c3c005425d4d0c264e56e818ac3dac5ad5e90cd1aaed5af5092e02772ffbb3e9",
+      "text": "A Sinking and Tremor Identity that adds damage beyond her selected skills through three follow-ups: Stories that Never Cease when ammunition runs out, Bang. Bang. against Staggered enemies or those below -40 SP, and Magnificent End at 30 Petals. Particularly suited to Sinking teams."
+    },
+    "summary:0415": {
+      "sourceHash": "f9c59ca843a94511eff2fbbb81c9eb106ee6ebb1a33833e0b972ca8d28aca03a",
+      "text": "A Poise, Burn, and Bleed Identity whose full strength comes from using defense's Phantom Step [殘像步] to kill a House of Spiders ally with Slay the Heavens - Tiansha [天殺], gaining major bonuses in exchange. Requires multiple House of Spiders Identities to realize that potential."
+    },
+    "summary:0416": {
+      "sourceHash": "eb3d86164f0ddd500c3a53ae839971925fef7ddd4b0605082ca9da16acae81e9",
+      "text": "A Tremor Identity that develops her coat through the special Charge, Preservation, and Shield, then turns it into Armure Éveillée to go on the offensive."
+    },
+    "summary:0501": {
+      "sourceHash": "95b45b216bcb7ffbfb8c77e27d81f63adec12b05f37b29454b9066f4bcd51586",
+      "text": "A slow, tank-oriented Identity with high Defense Level. He can stack and burst Tremor himself, but his damage is modest."
+    },
+    "summary:0502": {
+      "sourceHash": "53455c22f70420f18b9c3e8b2f1fd0cc0eb17dda36052ded4ff95de8b7642a5d",
+      "text": "An Identity for Liu Association Burn teams. S3 Perfected Death Fist extends Burn through Count increases, while enemies with at least 6 Burn serve as sources for spreading Burn to nearby enemies."
+    },
+    "summary:0503": {
+      "sourceHash": "9d32e82ccb815e72e62edbe1ed9fc5e4750222e85b57e1027d57cefe557ab66f",
+      "text": "A Slash debuffer that spends Charge to inflict Slash Fragility and Defense Level Down."
+    },
+    "summary:0504": {
+      "sourceHash": "662368d6f1a51cb4548028237c7d10ebe1e5ca47528213fc610ab12adaf99c0a",
+      "text": "A Nails tank whose main pattern is applying Nails with S3 Annihilate Heretics, then using S2 You Are Cleansed of Sin to add Bind and Attack Power Down and hinder enemy actions."
+    },
+    "summary:0505": {
+      "sourceHash": "25d09882677a7c8a239c25bf9446562da6a4e45259e10b2e1a70d31fa9d51092",
+      "text": "A Tremor applicator that inflicts Potency with every skill. He cannot increase Tremor Count himself, so he works in Tremor teams alongside allies that provide Count."
+    },
+    "summary:0506": {
+      "sourceHash": "e181eaa069136bfa376fccc9454d1cbe8d6ca7c1262c084aee5457dbf0979663",
+      "text": "A durable Bleed enabler whose main payoff is building at least 10 Charge Count, then using S3 Rhino Ram to add a large amount of Bleed Count."
+    },
+    "summary:0507": {
+      "sourceHash": "96b1faa656e78a2439edf2b928ab5aa6f31997f5537726d7dfdf39c58e98f42b",
+      "text": "A Middle-team support that uses S2 to provide Envy buffs and SP recovery to adjacent allies. His support passive also restores SP from the bench, and that recovery is a major strength."
+    },
+    "summary:0508": {
+      "sourceHash": "39471bfa4cc5ed921c6f728d34a1fa88a08926c584a73c8d5331ffb8c2d2d0e5",
+      "text": "The Blade Lineage leader's main payoff is deliberately losing the clash with S3 Yield My Flesh, then spending accumulated Poise on the special counter To Claim Their Bones. Maintain 3 Pride Resonance for Swordplay of the Homeland to strengthen all Blade Lineage allies."
+    },
+    "summary:0509": {
+      "sourceHash": "2554f1035cb77b2a066ff897f7a9aff3105404f64b32869bcc9954b2b88c4698",
+      "text": "A Rupture-team tank that buys time through strong clashing skills and Offense Level Down. He struggles to sustain Rupture Count himself."
+    },
+    "summary:0510": {
+      "sourceHash": "960d8a86478639aa0fee894fd587642d0b582beead3378d3494e726ad38f52c9",
+      "text": "A Blunt support tank that grants Erudition to allies using Discard and improves their durability with Shield when they discard skills. His own Sinking application is modest."
+    },
+    "summary:0511": {
+      "sourceHash": "9f30e1f24f5a051407257c07b0b01b6225071b40297e5e54b5ddfe7d62b978d0",
+      "text": "A Pierce attacker that builds Poise, gains Haste through his passive, and enhances skills through Speed differences. In Rupture teams, he can attack without reducing the Rupture established by allies."
+    },
+    "summary:0512": {
+      "sourceHash": "8a9b78896e7b57b281f2ab3e8b47e702ef3d81408c2a3f4d891bbdf40d62bd75",
+      "text": "A Thumb Identity that wants to switch to Savage Tigermark Rounds early and attack through Tiantui Star [天退星], Unbreakable Coins, and enhanced S3 Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]. Manage ammunition so the Overheat period after running dry does not coincide with the decisive phase of battle."
+    },
+    "summary:0513": {
+      "sourceHash": "5048454666d693503482cfe65f31cc37de7f343da185e03e5318898bd7988f2e",
+      "text": "Maintain 5 Hardblood Armor through Lust Resonance without losing it, then unleash enhanced S3 Ouvertüre. He also supports La Manchaland allies by sharing Armor and granting them Focused Performance."
+    },
+    "summary:0514": {
+      "sourceHash": "f57cca39d1cdd86d91d9d476bb94fad2fad342001e1bba5254cfe80d99e77e37",
+      "text": "A Burn Count supplier that adds Count every turn through Spore to keep Burn active. S3 Field Test - Dust Spark grows stronger when focused on a single target."
+    },
+    "summary:0515": {
+      "sourceHash": "8cecb8cd02dc3bedc141e062695ff65596fe472095612658dea25ba38c385853",
+      "text": "A Bleed and Sinking Identity that lands enhanced S3 Le Fauvisme - Reveal Submission on enemies with at least 5 of Mauled Color. Designed to be paired with Ring Fauvist Docent Rodion, who applies that effect."
+    },
+    "summary:0601": {
+      "sourceHash": "63584c79467c0cadb8e549aed4208059c733528e34e1575ace7c342ca0831adc",
+      "text": "An Identity that inflicts Sinking and Rupture, enhancing S2 and S3 on the turn after taking no damage."
+    },
+    "summary:0602": {
+      "sourceHash": "af7303ee844fac1fb6c9a0cdbcedbf86b168711cf9dc83e855b7974e497a16fb",
+      "text": "A Slash attacker that doubles S2 Cloud Cutter's Coins against enemies with less than 4 Bleed Count for heavy damage. S3 Cloudburst also disrupts enemies through Paralyze."
+    },
+    "summary:0603": {
+      "sourceHash": "a5001fa3c6aae1a84a9631626584c7cbf7526d2d59f69f62c328382263757be7",
+      "text": "An Identity that deals bonus damage on Heads Coins and chains kills against weakened enemies."
+    },
+    "summary:0604": {
+      "sourceHash": "4630c418747048a37f780d6153bc1ee5fe2eb5bcf85b9a72c0db6c597069f03b",
+      "text": "An Identity that supports Burn teams by adding Burn Count. His main role is usually on the bench, where Isn’t It Warm? increases allies' Burn Count application."
+    },
+    "summary:0605": {
+      "sourceHash": "faddebd8f7f596fd6693e2fa0f7e1198e9c97e397758bc445fa081f28933a360",
+      "text": "A durable tank sustained by K Corp Ampule's percentage healing and the combat passive's large heals. Defense and the passive share the Ampule cap, so managing that shared allowance defines his play pattern."
+    },
+    "summary:0606": {
+      "sourceHash": "814e081cb30715c06723ec0f4a2d1d15dd0b89fe5e490ca231ab638065cfa559",
+      "text": "A defensive support that builds Charge and provides Charge Barrier to himself and allies."
+    },
+    "summary:0607": {
+      "sourceHash": "02623dbdf49c641106f9343b5cabc3426aa464226e1b8458ffa56ee5065f5a62",
+      "text": "An Identity that raises Speed with Haste, applies Bleed, and finishes weakened enemies."
+    },
+    "summary:0608": {
+      "sourceHash": "d3b8e2a47051094137460cd09cc5db735707d8d3270f0bfcd0e638f05867dafd",
+      "text": "A Slash attacker that discards S3 to reach 3 Insight, then relies on Coin reuse from S1 Expend Knowledge. Maintaining 3 Insight requires managing which discardable skills remain in his slots."
+    },
+    "summary:0609": {
+      "sourceHash": "8f4282fa1b61394c580c2b2e1be22ec3e76f8e56e5adda8f5701ee68895cab86",
+      "text": "A Tremor team's finisher: build at least 10 of his own Tremor Count through S1 and S2, then use S3 You're the Culprit! to Entangle Tremor - Reverb and trigger Tremor Burst 3 times."
+    },
+    "summary:0610": {
+      "sourceHash": "2bf8171af8ba3b7e1c389c60deb31e62a7916f096681d442c12e86af0cc9bf55",
+      "text": "An Identity that inflicts large amounts of Rupture and deals enhanced Blunt damage against enemies with high Rupture or Bloodfiend/Bloodbag enemies. At 15 Rupture Potency and 3 Count or more, S2 and S3 stop applying Rupture, making Count maintenance a challenge."
+    },
+    "summary:0611": {
+      "sourceHash": "3b2e1810082cd75ca93e31fcc3a5da6f7f6f0b42c9a9c35813ab3520877e6b3c",
+      "text": "A Pierce attacker that pairs with Full-Stop Office Fixer Heathcliff to add follow-ups and coordinated attacks to S2 Target Marked and S3 Full-Stop to Life. Designed around that partnership and much weaker without Heathcliff."
+    },
+    "summary:0612": {
+      "sourceHash": "dcdcabf742cf9d1cd7a3b71da9b927ef80de628001897be26b9c5efbfa57c2fe",
+      "text": "A Blunt attacker for longer fights. Repeatedly gain a large amount of Charge Count with S3 Concentration, then spend 10 with S2 Mind Whip to grow Charge Potency. As it develops, both S2 and S3 deal more damage."
+    },
+    "summary:0613": {
+      "sourceHash": "6bcfd930ffc37ff4361042a09b3cfa2b9aa550e0e663c3fc79e3bad01ad9448c",
+      "text": "A commander that grants Heishou allies extra actions. S3 coordinates a three-hit sequence with Heishou allies, while defense swaps Heishou units and lets the incoming unit use S3 as well."
+    },
+    "summary:0614": {
+      "sourceHash": "223565a03d6ab82f0e200aaf3f9cab1eabf5e41f7fa223a4bf6b178a99171031",
+      "text": "A Bleed attacker that grows the special Charge, Corpus Ingredient, to 3 Potency to improve Bleed application, then triggers S2's follow-up against enemies carrying 5 types of negative effect."
+    },
+    "summary:0615": {
+      "sourceHash": "ef7e88f006155fcc128b3936242f949881885e70898a80e633e4e63f688ea495",
+      "text": "An Identity that marks a single enemy with Trussed, then corners and finishes it through Poise and Bleed."
+    },
+    "summary:0616": {
+      "sourceHash": "1c7506da8324c2dc1fef5aa7a0fd46e916578f4d95c059927741387c58ee90a0",
+      "text": "An Identity specialized for single targets. Keep attacking the same enemy or part to build 3 Nerve Strike - Hong Lu, then use Coin reuse on each skill to deliver Burn and damage."
+    },
+    "summary:0701": {
+      "sourceHash": "832ac96623b582748cae0dd15a91638e8d59aeede657db035c5d30941cc55ba7",
+      "text": "A Blunt attacker that uses S2 Smackdown whenever it appears to gain Attack Power Up and Damage Up next turn, then overpowers clashes with Blunt S2 and S3."
+    },
+    "summary:0702": {
+      "sourceHash": "5e5a6c4c5bd1e681ab93e8856ff26bdbf1b524384bef2965fa1dcf92eed0c23f",
+      "text": "An Identity that grows stronger at low HP. Deliberately lose HP through enemy hits and self-damage, then strike with enhanced S3 Flashing Strike; at higher Uptie, it gains area coverage below 50% HP."
+    },
+    "summary:0703": {
+      "sourceHash": "2e3268d26841433144e08ba8a74fbce14ca1e0d78dbe7c3701a7eca9ba0f563f",
+      "text": "A Pierce attacker built for short fights and spending all his ammunition. At 6 or more Speed, use S3 Quick Suppression before allies act to inflict Fragile for the current turn, then let the following attacks finish the enemy."
+    },
+    "summary:0704": {
+      "sourceHash": "7b1cef0267d5f2101a2ba45243d5fee51a2e088d0b3f295a962e7168fbf67cfc",
+      "text": "A support-oriented Identity that lowers enemy Coin Power with S2 Puri…fy!'s Plus Coin Drop, helping allies win clashes. With at least 4 N Corp. Fanatics deployed, his own Coin Power also rises."
+    },
+    "summary:0705": {
+      "sourceHash": "595e476f8ca351162db2260effeb4f2aeb1b4365850ea092cf53bcb22b965209",
+      "text": "A negative-Coin Identity that deliberately loses clashes with S1 to rapidly lower SP, then uses the main S2 Puddle Stomp at low SP to deal heavy damage while consuming Sinking."
+    },
+    "summary:0706": {
+      "sourceHash": "c8434b3222b572de80e62f8f213b6db3456614299345d41515eef958793e9c83",
+      "text": "When attacking a weak resistance, apply Rupture in multiple instances so the passive's +1 application bonus applies each time. S2 The Wrap-up sustains Rupture Count, and S3 Forensics triggers the accumulated Rupture through 4 hits."
+    },
+    "summary:0707": {
+      "sourceHash": "dc6d0559920070f7b947f66fcba0c3192e6c0136f57e9f78bd08c07eb60d2e91",
+      "text": "A Bleed Identity that draws attacks through Aggro and grows stronger as allies are hit and he loses HP."
+    },
+    "summary:0708": {
+      "sourceHash": "4e72c2c15d720ebd596abb60853cdc979debad2bb62d7e3563065b5a429918e0",
+      "text": "A main attacker for Tremor teams, using allies' Tremor application to enhance his clashes and damage against high-Tremor enemies. His own Tremor application is modest."
+    },
+    "summary:0709": {
+      "sourceHash": "7e80cfb3b1f7ba92a820204eb4c46652f858c2836c3c04b1279359829f13231f",
+      "text": "A Charge Identity whose Charge Potency grows whenever he spends Charge Count, strengthening his skills over longer battles. Photoelectricity also helps replenish allies' Charge Count."
+    },
+    "summary:0710": {
+      "sourceHash": "9e90098fbc6e214946fa7094318c54da68bbcd6c7e0cdc451c088568c2b8ec65",
+      "text": "A Sinking attacker that grows stronger by finishing enemies and gathering Coffins. While riding Dullahan, Lament, Mourn, and Despair and the area-enhanced Memorial Procession let him overpower groups."
+    },
+    "summary:0711": {
+      "sourceHash": "67a433d7e9bc6c3e5200b74e1c15cdc65dbdc94291236bbd7e54539efd8ed203",
+      "text": "A Pierce attacker that rapidly builds Poise through the evade Combat Poise and Precision Aim, then deals heavy critical damage with S2 Headshot and S3 Goin' for the Bullseye. S1 spends most of his ammunition, so managing it determines how long he stays on the field."
+    },
+    "summary:0712": {
+      "sourceHash": "ec4b75d09c62989d5d0e04a86e090265fca6892644d0a284838ed6552a8c2203",
+      "text": "A Kurokumo Clan Slash Identity with strong Bleed application. His main pattern is using S3 Thundercleave to prepare next turn's bonuses, then using defense's Rules of the Backstreets with Coin reuse on that turn."
+    },
+    "summary:0713": {
+      "sourceHash": "3a6c1530cb97f49c2cb6d3a5d5b975f074db48a4812484eff329fae568081ae5",
+      "text": "A highly durable Charge Identity protected by Shield and Defense Level Up. Build Charge Count with S2, endure attacks and replenish Charge through CCA Overcharge, then unleash the main S3 Rip Space - CCA Overdrive at maximum enhancement."
+    },
+    "summary:0714": {
+      "sourceHash": "4003f553e4bbcf48b2bfc5f637602edf18830bdc203ae010b98911ab944816ba",
+      "text": "A Burn and Rupture Slash attacker that stacks Burn on himself and enemies while actively clashing to build 20 Battleblood Instinct. With at least 20 Burn on himself, unleash enhanced S3 Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下鷄舞亂刀]."
+    },
+    "summary:0715": {
+      "sourceHash": "be3b0c71b7ee84625fc308fe13b416f3f22cb1fedbb4c8a8c1cc84b151b1feef",
+      "text": "A Middle commander and attacker that forms 6 Envy Absolute Resonance in a Middle team, then uses Payback to counter with MY HAIR COUPOOOOOOOOOOONS!!!! At 15 Vengeance Tattoo, unleash COMPLETE AND TOTAL EXTERMINATION!!"
+    },
+    "summary:0716": {
+      "sourceHash": "a26fec3c08ae9b54bbf36efb3de8e93bd2df4b7b7246f27e085b4f07178bb168",
+      "text": "A Burn and Tremor Identity that repeatedly clashes with the same enemy to build 5 The Duel Escalates, then uses enhanced S3 to convert Tremor to Tremor - Scorch and trigger repeated bursts. The resulting Maturing Textbook further strengthens the next cycle."
+    },
+    "summary:0801": {
+      "sourceHash": "de13ea55d2569ad10aa6812b479f352fab9c8e75694f34d2f641025bb746f98e",
+      "text": "A guard tank that acts early through high Speed and stops dangerous enemy skills with high-maximum-Power single-Coin clashes. S3's Blunt Fragility also helps allies' Blunt attacks deal damage."
+    },
+    "summary:0802": {
+      "sourceHash": "71e6d0c327a7dc84a1c4546f9dceab8c8e72a6f05f000544f6f42a10b2df75b8",
+      "text": "Build Charge while clashing with a strong 2-Coin S1, then use the 4-Coin S3 Mind Whip after gathering enough Charge on previous turns to inflict Sinking and raise Stagger Thresholds. Manual control is essential because of the risk of friendly fire."
+    },
+    "summary:0803": {
+      "sourceHash": "9b7656d61ffcb71e19b7a58240ab2678c9eaf1123e738d5557846450198adaaf",
+      "text": "Below 50% HP, S2 Flashing Strike gains Coins and becomes much stronger in both clashes and damage. Deliberately lowering HP and repeatedly using enhanced S2 is her main pattern."
+    },
+    "summary:0804": {
+      "sourceHash": "a07a15dd92b0aabe5417316acac216358e5f8651e83c3c43a58a741d36e69f62",
+      "text": "A supplier that uses S2 Quake Rounds to immediately apply large amounts of Tremor and fulfill allies' Tremor conditions without preparation. S3 Suppress's Rupture and 5 Fragile raise the damage of allies acting later that turn."
+    },
+    "summary:0805": {
+      "sourceHash": "b95aa46e957b48e0ec6c0503993ce505a5fc6ebb5672345a044ff03e0864f336",
+      "text": "A tank that draws attacks with Aggro and retaliates with Tremor and Rupture even after losing a clash."
+    },
+    "summary:0806": {
+      "sourceHash": "f4d6b35d2d23aa3fca47737fbbdff25c7a3007b346d19e18567786f5d16d0938",
+      "text": "An Identity for Burn teams that combines strong clashes with bonuses from Burn conditions. Her low Speed lets allies apply Burn before she attacks, enabling those bonuses from turn 1."
+    },
+    "summary:0807": {
+      "sourceHash": "586554d4d6c51a1342c07acbc4ec1e438b93fa3b93979a9b1a3aeadb92126858",
+      "text": "A core Pierce Identity for Sinking teams that applies large amounts of both Sinking Potency and Count. Defense's Nimble Steps has high Base Power, helping her evade even at low SP early in battle."
+    },
+    "summary:0808": {
+      "sourceHash": "206b8ab1af2e785b3f611969ce62a08078707b1491f5c81e2eed25d84e4a1c3d",
+      "text": "A Pierce commander that grants Offense Level Up to adjacent allies with S2 Pursue Them to the End! and can order an Assist Attack from an ally to her right on the dashboard. More Resonance makes her stronger, and she generally wants to take the finishing blow herself."
+    },
+    "summary:0809": {
+      "sourceHash": "0f5376f431ad5548cfb2fe8d6760a1e4ecaaa72ba30c8bd14892c45a7a81447b",
+      "text": "An Identity that outpaces enemies and fights with Poise and Sinking. S3 inflicts Bind and Slash Fragility."
+    },
+    "summary:0810": {
+      "sourceHash": "c56c4cd43369b4ee75d18ce6a40c12e0f041b09ed85f24f700fb3686a0df2b19",
+      "text": "A tank that converts her Tremor Count into Defense Level Up, draws attacks with Aggro, and strikes back through Tremor Burst."
+    },
+    "summary:0811": {
+      "sourceHash": "6a6e1844b65a172068d7ab49f1a3535456462d827791daaadad3a2ba31583662",
+      "text": "An Identity that stacks Bleed and negative effects, strengthens Kurokumo Clan allies, and repeatedly triggers Bleed with S3."
+    },
+    "summary:0812": {
+      "sourceHash": "f90136c78120521e4dc450decd9a02713d8d44d67b230706866153b6c0c2f042",
+      "text": "A Rupture and Poise Identity that applies heavy Rupture against enemies she surpasses in Offense Level, then builds Poise for a powerful critical S3 Crimson Spring. Heishou Pack - Wu Branch Adept Yi Sang helps cover her shortages in Poise and Power."
+    },
+    "summary:0813": {
+      "sourceHash": "0e2033fdee378fa16a779dbbfc4ab6cb11d10eb5deb5d531868f6f247252b91f",
+      "text": "A Tremor and Sinking Identity that repeatedly uses the same skill in her leftmost slot to keep matching card combinations, building 5 Bright cards for maximum-Power Kōzan [光斬] follow-ups. Discard helps arrange the required hand."
+    },
+    "summary:0814": {
+      "sourceHash": "96ebd98d97770afdb62b41fe6a11a8c0bf480c2f9d1f0601e136b3c2e323624a",
+      "text": "A Middle Identity whose defense counter becomes S3 Violet~ Breaking Slam at 6 or more Envy Absolute Resonance. Her core loop is taking hits to build The Middle - Grudge, then spending them on S3 counter to develop The Middle Styled Augmentation Tattoos."
+    },
+    "summary:0815": {
+      "sourceHash": "e9f89843c06d4dc075b6786719acae26dbc08132e1edd667f938488734cc7fb6",
+      "text": "A Blade Lineage Poise attacker that gains Dokkaebi Arms each turn through 3 Pride Resonance. Maintain at least 3 Haste while building 15 Dokkaebi Fire to repeatedly trigger Even the Balance - Lucent Rippling Flame. Deliberately losing defense clashes to use To Claim Their Bones is another main pattern."
+    },
+    "summary:0816": {
+      "sourceHash": "4ba920dd84487740e50773667bcb1f00d61b44784d95775d4350c43ec2e67dc4",
+      "text": "A Bleed Pierce attacker that aggressively loses HP through S2 and S3's self-damage. Upon taking otherwise lethal damage, she enters the Changing Room and returns in enhanced Full Makeover form. That transformed state is where she reaches full strength."
+    },
+    "summary:0901": {
+      "sourceHash": "3d96a8285f926195d5b53a523e772cc2a0d0b5321d6146e31bd89b832e363986",
+      "text": "A Bleed attacker that works with Bleed-applying allies, then lands S3 Slay against enemies with at least 6 Bleed to increase its final Coin's damage. On the bench, Gambler also raises allies' damage."
+    },
+    "summary:0902": {
+      "sourceHash": "830bef85c9fd8ec94dcf78af6aabd60d0efd018b74402990cb5258d5f7f64305",
+      "text": "Work with allies to put at least 6 Bleed on an enemy, then build Poise and land a critical with single-Coin S3 Sky-clearing Cut to inflict 10 Bleed. At 5 or more Poise, her passive Dark Cloud Blade also turns her counter into Sky-clearing Cut."
+    },
+    "summary:0904": {
+      "sourceHash": "d361dff7b380e83afd22e664f533ad65bea128a2f571bf20f285ca4e44d79955",
+      "text": "An N Corp. Identity that applies Nails and Bleed, gaining damage through Fanatic and the number of N Corp. allies."
+    },
+    "summary:0905": {
+      "sourceHash": "d1f425018a96aa89a1a9a0902faf5c0ee47824d3d6dc80c70bd19d8a31942e09",
+      "text": "A Tremor and Charge attacker that maintains at least 3 Charge Count to reuse S2 Vibration Compression's Coins, reaching up to 4 Coins, 12 Tremor application, and Tremor Burst. Alone, she normally alternates S1 for Charge with S2; suitable Tremor and Charge Gifts can let her use S2 repeatedly."
+    },
+    "summary:0906": {
+      "sourceHash": "5d8f16257d7b182096a328bedc422790adbcd63a97d68e676eec22c3ba73657b",
+      "text": "A defensive Identity that turns Poise Count into Shield and draws attacks with Aggro."
+    },
+    "summary:0907": {
+      "sourceHash": "ccae2270da0fdf49890cd510b773a61533476130c06ed70f8913e88835a30d23",
+      "text": "A Blunt tank and attacker that repeatedly uses the 4-Coin S2 and S3, discarding lower-rank skills, mainly S1, through their On Use effects to gain Shield. Draw attacks with Aggro and convert damage taken into stronger Blunt damage next turn."
+    },
+    "summary:0908": {
+      "sourceHash": "73ac45e02470f3cadd9a8ffced98cdd567700657c682d4eaa353d4e344e87b4a",
+      "text": "A Burn team's Count supplier that mainly uses S2 Fiery Knifehand-Combust to add Burn Count and spread Burn to nearby enemies. Allies build Potency, then she finishes a fully stacked target with S3 Pinpoint Blitz's Wrath damage."
+    },
+    "summary:0909": {
+      "sourceHash": "9de65d1451983dc46f178033d681e9d7b7ed7c5d882eef77ccbecb0ca6b031f7",
+      "text": "An Identity that slows enemies with Bind, raises Stagger Thresholds through Tremor, and makes enemies accumulate damage under Time Moratorium while Borrow Time is active."
+    },
+    "summary:0910": {
+      "sourceHash": "316fff6745ef34ccd5d1b61c67e8a1f30ac9604230b574249a735b23e0c22dd6",
+      "text": "A Slash attacker whose S2 and S3 gain substantial Power and damage as Courier Trunk - Rodion builds, while a large Shield helps her take attacks. Rupture teams enable her full strength early. In longer battles, defense also offers a way to retreat."
+    },
+    "summary:0911": {
+      "sourceHash": "8096c1556d78631874fafd1c4af808f32038e6594a1f393aaedb4f6ed8128078",
+      "text": "A Bleed and Rupture Pierce Identity that grants Attack Power Up to herself and allies at Combat Start with S2 In Finely Ground Mistfall, providing reliable early clashes. In Bleed teams, Bloodfeast develops Blooming Thorn, and longer battles can enable enhanced S3 Ascendant Don Quixote Hardblood Arts - The Finale."
+    },
+    "summary:0912": {
+      "sourceHash": "9ca31e77cbe290ddd8daee53bc7af5ff7505a6d3281d50dc0bb626050e43a4e5",
+      "text": "A slow-starting Poise and Rupture Identity that gains Serpent Arm, builds Poise, and attacks through enhanced critical skills. Aim for 20 Poise, giving 100% critical chance, and maximum Coin Power on every skill."
+    },
+    "summary:0913": {
+      "sourceHash": "5dc1c68dc9af3a7478be7fcb3b5cfc1b816c72a4b42f02ed36768c7d263be0b2",
+      "text": "An Identity that actively switches through defense between Blessing at nonnegative SP, a positive-Coin tank, and Despair below 0 SP, a negative-Coin Sinking Pierce attacker. Choose the intended form in advance. For Despair, use defense early to sharply lower SP, then keep Tear-sharpened at 2 to maintain high damage and heavy Sinking application."
+    },
+    "summary:0914": {
+      "sourceHash": "dca1debc45cfb68ff4f987af78e8fb3b7abc80a84ca4c9e088b22be26f2e58d1",
+      "text": "A Charge and Sinking Blunt Identity that builds Charge Count with S1 and S2, then spends it in one burst with S3 Mind Whip. Using S3 at 15 or more Count maximizes the damage bonus for spending beyond 10."
+    },
+    "summary:0915": {
+      "sourceHash": "aa7ed21d80f1118bcf0038e3b01323d19904eacace90758a8c3972f8e8b22e5e",
+      "text": "A Bleed-team amplifier and attacker that maintains both Mauled Color [Rouge] and Mauled Color [Bleu] plus Touche Hardie on enemies, increasing Bleed and Sinking damage by up to 20%. More types of negative effect enhance every skill and turn defense into the powerful Critique."
+    },
+    "summary:0916": {
+      "sourceHash": "b5e66a28f4145fe597f4cbea065f190ac50518d23378d76d92c5e873014b5cf3",
+      "text": "A Thumb master that reads attacks with The Eye of Precognition, then unleashes enhanced Disposal for Burn and Tremor when it runs out."
+    },
+    "summary:0917": {
+      "sourceHash": "0b060b428e8e9ab5dce5b0596c2a7fd8b4226ffa6004c5c2de5afc4007b544f3",
+      "text": "A buffer for Charge Identities that uses S1 Retouche on allies to provide Charge Count, Offense Level Up, Shield, and other bonuses at Combat Start. This tank-oriented Tremor and Charge Identity also shares Shield through S2, S3, and defense, taking dangerous attacks with reliable clashes."
+    },
+    "summary:1001": {
+      "sourceHash": "99cad2090cdbe49d3e12f17ecf3f934b390eed4aca4a6675fe60b9e1f214f896",
+      "text": "A Slash attacker that wins clashes to increase damage and applies Rupture."
+    },
+    "summary:1002": {
+      "sourceHash": "56cff1413b72da51b704dd635d2a078ffd387dba033efa615d7d95f2089b4e5c",
+      "text": "A Poise Identity that builds at least 10 Poise Count, then aims for a large critical hit and 5 Paralyze with single-Coin S3 To Claim Their Bones. Weak alone; designed for a Blade Lineage team with support from Blade Lineage Mentor Meursault or Shadow-vested Bladesinger [着影揮刀]."
+    },
+    "summary:1003": {
+      "sourceHash": "cf247cc35d3928ae37c9b96648a532488c3dbf5fe36515b5d75e54bda2c3c6e6",
+      "text": "A tank that uses low Speed to take unopposed attacks and protects allies with S2 Suppress's Damage Down and Protection for the next turn."
+    },
+    "summary:1004": {
+      "sourceHash": "b7511330246a8d98a5c6814e0f2ca3ad1e721d8333c26b39d42c43e06816caae",
+      "text": "An evade tank with high HP, high Defense Level, and a strong Evade. Take clashes with S3 Pañata Party, while landing S1 and S2 unopposed to apply Sinking."
+    },
+    "summary:1005": {
+      "sourceHash": "52518bf8a9b153f4d1cdb1367ded13609933688df203065bcf9f7addf2a9ca29",
+      "text": "A Blunt attacker whose skills all have negative Coin Power. Skills lower his SP, making Tails more likely and preserving high Power. His main attack is S3 Self-destructive Purge, with 30 Base Power and 3 Coins."
+    },
+    "summary:1006": {
+      "sourceHash": "23e2dc85f9a2d63a8c840236a03fe5e83a79bb771a7cf37caa98ca358d2c590e",
+      "text": "Build 5 Talismans on himself, then use S3 Rupturing Talisman to transfer 5 to the enemy, causing Rupture application whenever that enemy is hit. Talismans consume Rupture Count quickly, so allies that supply Count are essential."
+    },
+    "summary:1007": {
+      "sourceHash": "2db1b6f172d75b84be3982e1150ea77fcf13b4844ad2c78752d7a6ba3d5bcf5f",
+      "text": "A Tremor Count supplier that builds his own Count through S2 Steady..., then transfers it all to the enemy with S3 Gamble at 10 or more. He can barely trigger enemy Tremor Bursts himself and needs allies that excel at bursting."
+    },
+    "summary:1008": {
+      "sourceHash": "b8de4772a2a9ea2930342018bc44b68520a32ec6a9b7e86a2bb56255a0e90fc2",
+      "text": "A self-sufficient Pierce attacker that uses high Speed to create Speed differences and enhance all his attack skills. S2 Engagement is his main attack."
+    },
+    "summary:1009": {
+      "sourceHash": "4d675f2d57def42edc506f6274e6e2d9b2dd1a740931d75ab93fd920c6523214",
+      "text": "Reach at least 40 SP to transform into Volatile E.G.O::Waxen Pinion, then apply heavy Burn with the area-enhanced S2 Sunset Blade and Blazing Strike. Deploying him alongside Dawn Office Fixer Faust and Dawn Office Rep Gregor is close to essential."
+    },
+    "summary:1010": {
+      "sourceHash": "9ff4add487641e80e53e93a02750cf5eabfba2b5b8a07784f9f1716ea9faddaf",
+      "text": "A defensive Identity that converts his Tremor Count into Defense Level Up and also grants Defense Level Up to allies."
+    },
+    "summary:1011": {
+      "sourceHash": "bfa3f2baa9e61888d02b76a249a696e32c40fc822d142ee35e5a8b8417191132",
+      "text": "A Blunt Rupture Identity that builds Courier Trunk to improve Coin Power and Rupture Count application. Finish enemies with at least 15 Rupture and 3 Count using S3 Poludnitsa... I trust you! Avoid using S1 or S2 on enemies in that state."
+    },
+    "summary:1012": {
+      "sourceHash": "5a5538a3fa8655ba1b117717d8ea65382506c07d5d1455f80b332e929f7bf51d",
+      "text": "A Middle Blunt Identity that marks enemies for vengeance when hit, then collects those marks through attacks and counters to build The Book of Vengeance. His main payoff is reaching a total Envy Absolute Resonance count of at least 6, turning defense into an S3 Write 'em all down counter that takes hits and collects marks together."
+    },
+    "summary:1013": {
+      "sourceHash": "55c34f6c3557377229e2e026e2eca95011b4e19acfbec72890be32f256ffb91c",
+      "text": "A Thumb Identity that applies Burn and Tremor through special Scorch Propellant Ammo, then triggers repeated Tremor Bursts with S3. He can also replenish allies' ammunition."
+    },
+    "summary:1014": {
+      "sourceHash": "640f7df13ecf9ebb91ea1c33895c5ffa7f6f270d518097e70a04cffda6f0b163",
+      "text": "A Slash attacker that uses Bloodflame [血炎] to enable S2 Coin reuse and Unbreakable Coins on S3, stacking Burn and Rupture. Suited to The Lord of Hongyuan Hong Lu teams that swap him out of standby with other Heishou Identities, since leaving standby or returning grants 3 Bloodflame [血炎]."
+    },
+    "summary:1015": {
+      "sourceHash": "d2e91010f4ee341cc70f9c18a6de56d25295b42967165bb6d8d01480d4d6a3bf",
+      "text": "A Poise Identity for longer battles. Repeatedly use defense's Defend [守] early to build Poise, convert Potency above 25 into Moonlit Azure Blade, then fight with critical Coin reuse from S2 Nameless Slash [無名斬] and S3 Fallstar Slayer [落星一殺]."
+    },
+    "summary:1016": {
+      "sourceHash": "d4d1fbb01b9c00f987709c0168b2040b145266242502177c1415d81dfc2b5c3f",
+      "text": "In Childhood, build Relentless Hunger while S1 and S2 heal and buff allies. Equip La Voracité to awaken Noble Dignity, then go on the offensive through Bleed and L'Abject. The usual pattern is roughly 3 turns supporting in Childhood before transitioning to Noble Dignity."
+    },
+    "summary:1101": {
+      "sourceHash": "34d3ed5a68c6d52a23a736fd0487452a1a6da0e4e8db818533853d18c470436f",
+      "text": "A fragile, offense-focused Identity that mainly clashes with her 3-Coin S1 Draw of the Sword. Use S2 against slower enemies and S3 against enemies with high HP."
+    },
+    "summary:1102": {
+      "sourceHash": "ada2bbc952c21f82aae4d1e0f1249381547054b95ab6df236ed93e2f35444701",
+      "text": "Use S2 Acupuncture to gain Slash Damage Up next turn, then finish weakened enemies with Slash S3 Decisive Dive. On the bench, Double Tap supports allies landing finishing blows."
+    },
+    "summary:1103": {
+      "sourceHash": "011d8768d46f7869976dd6227c67b8dfd418917744bcbe0e7e589152cda009f8",
+      "text": "A commander that supports the slowest ally while inflicting Sinking and Attack Power Down."
+    },
+    "summary:1104": {
+      "sourceHash": "3ab8b376fdec3ed9351c23ed56b1f87aa8895dea7d7633d8cb73ee8af0b5d8ac",
+      "text": "An Identity that lowers her clash opponent's Power and breaks enemies down through Rupture, Defense Level Down, and Weakness Analyzed."
+    },
+    "summary:1105": {
+      "sourceHash": "cf951d5e81f2a74f653ab3a42159fca95f9866c7184b2a0b5ba6ae371a55e79a",
+      "text": "Use S2 or defense to discard S1 Wait Up! and cycle the dashboard, repeatedly using the higher-rank S2 Slice and S3 Daring Decision. She triggers many Tremor Bursts but relies on allies to apply the enemy's Tremor."
+    },
+    "summary:1106": {
+      "sourceHash": "576889299ce1366b41cffdd39ba2f889b6ce8847ce212ac214879e935fa30d45",
+      "text": "An evade tank that draws attacks through Aggro on her attack skills, then repeatedly avoids them with the high-skill-level Retraite. S2 Punition is her main attack."
+    },
+    "summary:1107": {
+      "sourceHash": "939b82d69e94723f3a4e0a8c2fba820cb546f9d9a354221536aa02421996cbd1",
+      "text": "Pair with Burn-applying allies, then use special Burn Dark Flame to lower Defense Level and add Pride damage equal to Dark Flame × Burn. Build roughly 3–4 Magic Bullets, then use S3 Magic Bullet Fire to shoot multiple enemies together."
+    },
+    "summary:1108": {
+      "sourceHash": "7f16fca6d61d0e0e0791172073e515893fa53b664ff4eb3fdf55f2d41dbfb719",
+      "text": "A Sinking attacker that applies Echoes of the Manor with S3, giving subsequent Sinking applications a chance to increase Count, then overpowers clashes against enemies below 0 SP."
+    },
+    "summary:1109": {
+      "sourceHash": "8b20afa6e481b6627060f1ac8908394293e0b61f21c188d2b5ea7b4f8f09b5b9",
+      "text": "A Ring Identity that uses S2 Sanguine Painting against enemies with many negative effects, rapidly adding Bleed Count through probabilistic Coin reuse. Prepares enemies for allies that rely on Bleed Count in Ring or Bleed teams."
+    },
+    "summary:1110": {
+      "sourceHash": "6d050758fd064b695cd8e76e693bf34316341752859982d21dec54bd5e2cb984",
+      "text": "A W Corp. buffer that spends 6 Charge Count on S2 Charged Leap to grant Charge Barrier to herself and 2 allies, improving the whole Charge team's Shield and Charge supply. Slow to start and better suited to longer fights."
+    },
+    "summary:1111": {
+      "sourceHash": "cd5757af94bec88bbd9d632e6b55dc73f7113ec85e55cf664afa0a098bcd41f5",
+      "text": "La Manchaland's barber spends Bloodfeast to develop Blood-tinged Scissorblades, then cuts up enemies marked as Sewing Target through Bleed."
+    },
+    "summary:1112": {
+      "sourceHash": "3fda73878b23e3c8efca2c9be66f3bd0f027616360d53a8522174313675e006d",
+      "text": "A fast Heishou Identity that outpaces enemies and wears them down with Rupture and Deathrite【Haste】."
+    },
+    "summary:1113": {
+      "sourceHash": "7828d4d59280b1f2a9527aaf95f49522696c5e29123e0af861ebc0fdf95fab1a",
+      "text": "A Tremor Identity that keeps Borrowed Time active through Borrowed Time - Microcavity, gaining Haste and Clash Power Up for strong early clashes. S2's Amplitude Conversion and S3's Time Moratorium weaken enemies while sustaining Tremor Count."
+    },
+    "summary:1114": {
+      "sourceHash": "af470eb169a2628cb04dea078ac9898009039a0fc63f32b8ae7d2642ad2e7fac",
+      "text": "Maintain The Udjat [Vanguard] to lower enemy Coins' Heads chance while enhanced S2 and S3 win clashes from turn 1. Aggro and Protection also let her shield allies."
+    },
+    "summary:1115": {
+      "sourceHash": "f143b88a6be943f1cf5409cb00f70b726cdf9f1576ee61dc6c50ffc6cef42a82",
+      "text": "A Middle master that maintains 6 Envy Absolute Resonance in a Middle team, transforms Rule Violation's counter into Stamp of Vengeance while unlocking her sword, then crushes enemies with Lævateinn's exclusive skill."
+    },
+    "summary:1201": {
+      "sourceHash": "07f8253a51737e14cfbfd1f88fd996f2adb6c1b1edbd23d9ee67d0f2f299f573",
+      "text": "An easy-to-use starting Identity with straightforward skills. His status effects do little alone; his main role is often on the bench, where Gene Code G-0 provides healing every turn."
+    },
+    "summary:1202": {
+      "sourceHash": "1384f153577b800373a2316cd9fe9c567026149b7cf3b89affa20bd16ff9bbf7",
+      "text": "A Blunt Identity for Burn teams that stacks Burn Potency through multiple Coins while allies maintain Count, then gains bonuses against targets with at least 6 Burn. On the bench, Rushing Heart also improves allies' damage."
+    },
+    "summary:1203": {
+      "sourceHash": "880026c487d9f3d92afdca3c8617e4626e8b74b163526ebeb4ed997b914acc77",
+      "text": "An Identity that endures long battles through damage-based lifesteal on every skill. Use single-Coin S2 Dismember for clashes. Another strength is supplying almost all the resources for his own Legerdemain E.G.O."
+    },
+    "summary:1204": {
+      "sourceHash": "0281fa9057cc1e82efb65e3b34ad46c74db459d87fdbc486adc3f68b4c40b2da",
+      "text": "A support with weak clashes that prefers unopposed attacks, applying Paralyze and Bind to help allies clash. In dungeons, Culinary Aid's bench healing is his main attraction."
+    },
+    "summary:1205": {
+      "sourceHash": "352672e2f498a68ad9221855fb8c3a1b591e48ddb12a52229f1e95b969cf77dc",
+      "text": "An Identity that builds Tremor Count before applying heavy Rupture, then converts Charge into Rupture Count."
+    },
+    "summary:1207": {
+      "sourceHash": "f26e56afd8258fa4222028df7d36fc03a0d646a7957a7159ec6e222f05aa7111",
+      "text": "A Pierce attacker built around a single burst. Heads hits against Bleeding enemies build up to 4 Unjust Enrichment, which Coin Ⅱ of S3 Foregone Conclusion releases while spending ammunition. This slow starter performs best in dungeons or teams with several allies maintaining Bleed."
+    },
+    "summary:1208": {
+      "sourceHash": "0f517b09eb30effa49837ef3e9f595d577454142d57e6c4c867367833afd396c",
+      "text": "A debuffer that leaves Bleed application to allies and inflicts Offense Level Down with S2 and S3. At enemy Bleed thresholds of 7 and 10, he can leave Offense Level Down, Attack Power Down, and Plus Coin Drop for the next turn to help allies clash."
+    },
+    "summary:1209": {
+      "sourceHash": "fbed97982433fea6fa4de4cd3805d93b20f5ba21fb9f33387bcc300a9090872c",
+      "text": "An Identity that stacks Sinking Potency and Count, then absorbs Sinking through S3 to boost next turn's damage."
+    },
+    "summary:1210": {
+      "sourceHash": "265c296f0993f4c36db729adfd3993a83dcba3ab22a5b4b4173b18a40558fc5d",
+      "text": "An unconventional tank that supplies Bloodfeast through self-inflicted Bleed, then converts lost HP and accumulated Bloodied Hand into both heavy damage and healing with S3 The Unforgivable Sin. Best suited to Focused Encounters supporting Bloodfiend allies that consume Bloodfeast."
+    },
+    "summary:1211": {
+      "sourceHash": "8add588c4eca5e56854ee34fff11d5e5deccbf0d5a6bb2ae066deab2b9e33075",
+      "text": "A Burn attacker that spends District 12 Fuel, gains damage while in the Overheated Fuel state at 50 or less, and uses defense to refill to 100 before running dry. His heavy Burn Count application also makes him a Count-maintenance option for Burn teams."
+    },
+    "summary:1212": {
+      "sourceHash": "71c928a60793f745371931f30799a40bce2824c7eb8eb712a3bf970f6c3e355e",
+      "text": "A slow starter that rapidly builds Poise through Serpent Arm, aims for around 20 Poise, then strikes with enhanced skills, especially single-Coin S3 Serpentshear Puncturing Arm. Attacking enemies with Rupture accelerates Poise generation, so Rupture-applying allies speed up his start."
+    },
+    "summary:1213": {
+      "sourceHash": "a3da012f98a30f6ee2e9e33c6378302c1b9f2ca3302ec48aaa962fb697a6f624",
+      "text": "An Identity that stacks Bleed, Tremor, and Open Wound, then finishes weakened enemies with the execution skill Mercé."
+    },
+    "summary:1214": {
+      "sourceHash": "9d7ac548a1fbb56dd6fcf4c70f578c827f0f43b42fd0dd48ae3a4cb506d9ef45",
+      "text": "A Sinking and Burn Identity that uses defense to reach 8 Lamp, applies Dazzle, then attacks dazzled enemies with S3 Salvation for those Enchanted by the Lamp. His greatest strength is repeatedly maintaining Dazzle on a boss in Focused Encounters for both increased damage taken and skill enhancements. Requires a team that sustains Burn or Sinking."
+    },
+    "summary:1215": {
+      "sourceHash": "7df0f2b5bccb0ea50b7e1fc74803ea0cde4e9b8a347c5ab40ddf4c1511217801",
+      "text": "A Charge supplier that spreads Photoelectricity at high Speed and uses Take the Lead. I'll Provide You Support. to distribute Charge Count to allies earlier in deployment order. At 3 or more Charge, enhanced S3 Maximum Output - Ultra High-voltage Current Discharge inflicts Rupture and Charged Sting to raise the Charge team's damage."
+    },
+    "summary:1216": {
+      "sourceHash": "011d79b458b7d14533dbadfedf35465211bfd7bf67056975f07d21655a49b252",
+      "text": "A Burn and Tremor Identity that builds 30 Light of Daybreak for enhanced S3 Crack of Dawn, granting 3 Dawnherald to all allies. Dawnherald accelerates Light of Daybreak generation, potentially enabling Crack of Dawn every 3–4 turns and maintaining the buff. Deploying all 3 Dawn Office members completes the passive coordination."
+    },
+    "core:burn:1211": {
+      "sourceHash": "0b8c1b680d23aa47f93ff790df77ef26b4a9b364f8759e7a13a890a10b48281d",
+      "text": "The team's anchor. Every skill from S1 to S3 increases Burn Count, letting him sustain Burn almost single-handedly. Higher enemy Burn also raises his Coin Power."
+    },
+    "core:burn:0714": {
+      "sourceHash": "d0a8a53801f57e61689273e9baabb752f1d5c853cdf05f0b9c82ceb4f150f98a",
+      "text": "Enemy Burn raises his Coin Power, while his own Burn also improves damage. Can survive an otherwise lethal hit once."
+    },
+    "core:burn:0916": {
+      "sourceHash": "4c89f3ad4f8337695e6affa168228f493c1996381845f0ed1cf30996ede9feb9",
+      "text": "Applies Burn with S1–S3 and gains Coin Power from the combined Burn and Tremor total. His passive raises damage based on the main target's Burn."
+    },
+    "core:burn:0415": {
+      "sourceHash": "efd8febd8fb18c1dc97abe1f24384bd13ea2a14e00b30a66bcd350cdfedc6731",
+      "text": "S2 and S3 apply Burn, with Power bonuses based on the combined Burn and Bleed total. S3 Rend Space [空間斬] gains up to +5 Base Power from that total."
+    },
+    "core:burn:0112": {
+      "sourceHash": "f7f53f1464a25d142e3943d48b616fbde51a89fb32360072866346e7ee3f2c22",
+      "text": "All of S1–S3 apply Burn, while his passive supports allies' SP. S3 reduces Burn Count by 2, making him easier to replace than other priority picks."
+    },
+    "core:breath:0508": {
+      "sourceHash": "f993ca61ec710947ba092cfb8641b283c1085dcdcc0d5de65e50ecb4c7061ac5",
+      "text": "Activate Swordplay of the Homeland with 3 Pride Resonance to give Blade Lineage allies Poise and Power bonuses. Even alone, losing with Yield My Flesh to use To Claim Their Bones is powerful."
+    },
+    "core:breath:0815": {
+      "sourceHash": "a59cd3b81c2c5f356555876055adc6233f590a5cb95b85e242e02ad9b533937d",
+      "text": "A Poise attacker that maintains 3 Pride Resonance and Haste each turn to repeatedly trigger Even the Balance - Lucent Rippling Flame. Pairing her with the Blade Lineage Mentor improves her Poise performance and Offense Level."
+    },
+    "core:breath:0214": {
+      "sourceHash": "caf8c5e65422584ea65fce631e6ed914b864ee38b5b3d3014af16d8d38f84c72",
+      "text": "Fulfill each turn's Prescript to build Grace of the Prescript and gain Power and SP from turn 1. Her resource affinities also suit a Faust using Thoracalgia."
+    },
+    "core:breath:0115": {
+      "sourceHash": "6514f2238033854b68217f2646cafa2fe38162b1e03772ee0b857978cedba0eb",
+      "text": "Follow Prescripts to build 9 Procuration, then use S3 Furioso-Replica. Durable for an Index Identity and exceptionally strong in long fights."
+    },
+    "core:breath:0314": {
+      "sourceHash": "b724d5ec7d1698c77c8b453a4498a228d74152c2700eba681c9dab6b1612c75a",
+      "text": "Her Procuration state replaces her skills and raises Offense Level and Speed. More Poise means greater damage."
+    },
+    "core:breath:1015": {
+      "sourceHash": "aab8d3d90711a508716ac23ce8ebeb7362086cb6d36dabab03e95833c4678695",
+      "text": "Convert Poise Potency above 25 into Moonlit Azure Blade for Shield and critical hits. Strong in long fights, weak in short ones."
+    },
+    "core:breath:0415": {
+      "sourceHash": "f754b8c65de9f8265877481d101c9c79294a529e64a6f9be4d608c3d1bcaf9cf",
+      "text": "A strong Poise Identity even alone, with much greater bonuses after killing a House of Spiders ally with Slay the Heavens - Tiansha [天殺]."
+    },
+    "core:sinking:0913": {
+      "sourceHash": "153db40d3a5c4e4ccaa863ad82ef750b1cdc8b3740726380352d127e32f606a9",
+      "text": "Uses defense to switch between Blessing, a tank at 0 SP or higher, and Despair, a Sinking Pierce attacker below 0 SP. A team centerpiece with top-tier Sinking application and physical damage."
+    },
+    "core:sinking:0115": {
+      "sourceHash": "47434d64e425b07a17dbac0098a2ef7d8d1b6e1606e3d965fc5158980b456671",
+      "text": "Follow Prescripts to build 9 Procuration, then use S3 Furioso-Replica. Durable and strong in long battles."
+    },
+    "core:sinking:0414": {
+      "sourceHash": "d29859212d355b12365ce73b4fce842d3fff680279e6b39e8813abc7c8e7d2bb",
+      "text": "Three follow-ups triggered by empty ammunition, Staggered enemies, and 30 Petals add damage beyond her selected skills. Their accessible triggers also make her useful in Regular Encounters."
+    },
+    "core:sinking:0813": {
+      "sourceHash": "a3b02bef08aa45097519d70213e7ccf2f15f9f6cde63c625c561773675015d7f",
+      "text": "Keep using the same skill in her leftmost slot to gather Bright cards, then unleash maximum-Power Kōzan [光斬] follow-ups. Discard helps arrange the required hand."
+    },
+    "core:tremor:1113": {
+      "sourceHash": "9375503afc0a95c72ccd667001ce65c12cdee824a8549ad1f514bc7b9a38f25c",
+      "text": "A core pick that maintains Borrowed Time through defense and wins early clashes with Haste and Clash Power Up. S2 converts Tremor to Tremor - Chain to lower enemy Clash Power while also sustaining Tremor Count."
+    },
+    "core:tremor:0309": {
+      "sourceHash": "9c52a1ec0c3e9b2a5689936bbed18b3660adb547f219bd3d0c31d76f5683e043",
+      "text": "A tank that controls early clashes through Borrowed Time. S3's Time Moratorium releases accumulated damage as Sloth damage, while Tremor - Chain lowers enemy Clash Power."
+    },
+    "core:tremor:0916": {
+      "sourceHash": "6b6e4f6589fae1fa0c6d6c02ed4a5dc741ab15464f6a08f536c01ac641a74490",
+      "text": "Handles attacks with The Eye of Precognition, then inflicts Burn and Tremor through enhanced Disposal when it runs out. Combines survivability with damage involving Tremor - Scorch."
+    },
+    "core:tremor:0716": {
+      "sourceHash": "5241732f4a3725057bcbc42a1509752fe76d6b6a1ec0e762b0ccc4c9adb73907",
+      "text": "Repeatedly clash with the same enemy to build The Duel Escalates, then use enhanced S3 for repeated Tremor - Scorch bursts. Particularly strong in Focused Encounters."
+    },
+    "core:tremor:0512": {
+      "sourceHash": "69a573fa37e92a864e34ea14136e37a88d65f398a253e1e3fdf1c10de2f9f6e2",
+      "text": "Uses Savage Tigermark Rounds for Unbreakable Coins and enhanced S3, triggering Tremor - Scorch bursts. Avoid having his post-ammunition Overheat overlap the decisive phase."
+    },
+    "core:charge:1215": {
+      "sourceHash": "e76c58135e334f3634a699a405025f957a407d9edefc57f603cfe272e5e1241e",
+      "text": "An outstanding Charge supplier that spreads Photoelectricity at high Speed and gives Charge Count to earlier allies through his passive. Place him fourth, or third, in deployment order."
+    },
+    "core:charge:0312": {
+      "sourceHash": "b2e1f0788fbe34d759d1435e6c274789d5630bfd9131c102e5a0f94a2dbcb853",
+      "text": "Switches between positive and negative Coins based on SP, then sweeps groups with Reversed form's area S3. Prioritize activating her passive immediately after AEDD Gregor's."
+    },
+    "core:charge:0713": {
+      "sourceHash": "7ef146b8a9d807718bc934127495bef3c8aaed2d746f5e91c49d9381813cc548",
+      "text": "Highly durable through Shield and Defense Level Up. Endure through defense while replenishing Charge, then use his main S3 at maximum enhancement."
+    },
+    "core:charge:1110": {
+      "sourceHash": "fe0a5b886bc6e8f103eff9b9af8d4056434563ed51384de137f7426828fd19c4",
+      "text": "A buffer for Charge Identities, especially W Corp. allies. Sharing Charge Barrier helps the whole team's cycle run smoothly."
+    },
+    "core:bleed:0614": {
+      "sourceHash": "268ddb9f07bb426e3272750a6bc81e6d08e812d7bc445b2b519a18f2f771829e",
+      "text": "Develop Corpus Ingredient, a special Charge, to improve Bleed application, then trigger S2's follow-up against enemies with 5 types of negative effect. Area S3 also handles groups."
+    },
+    "core:bleed:0215": {
+      "sourceHash": "ce3d194a6d7f53bc803f480aefb13a6f1ba16028851700dd0948f670ca5a95e7",
+      "text": "Maintains enemy Bleed Count through Iron Maiden and Count increases on almost every skill. With at least 5 Ring members, she starts at 10 Corpus Ingredient for a stronger opening."
+    },
+    "core:bleed:0109": {
+      "sourceHash": "790ce414a437caa2b6a3dfa69adc1710e59131749f50270234943ffe19397f77",
+      "text": "A Pierce attacker whose damage rises with the number of enemy negative effects. S2's chain of Coin reuse is his main attack, making him a near-priority pick even in Bleed teams outside the Ring."
+    },
+    "core:bleed:0915": {
+      "sourceHash": "d968c6cab0ea96b90f4f9de0f35142231e3209369b76d945f1c7f819158e631e",
+      "text": "An amplifier and attacker that stacks Mauled Color and Touche Hardie to increase Bleed and Sinking damage by up to 20%."
+    },
+    "core:bleed:0310": {
+      "sourceHash": "64cb518856c803205939fb3586506620f7ac4f7a4dbd4328734c78dced85ef60",
+      "text": "Fight with Bloodfiend allies to gather Bleed damage as Bloodfeast, then enhance S3 at 15 or more Hardblood. Reaches full strength in longer fights."
+    },
+    "core:rupture:0613": {
+      "sourceHash": "779e04b84b8d44d8cf61482f0a91a823dc62ec2f0a971f4493424fa101633984",
+      "text": "A commander that grants Heishou extra actions. S3 coordinates a three-hit sequence with Heishou allies; defense retreats a spent Heishou and lets the incoming one use S3. Among the frailest Identities, but has an effect that lets him survive lethal damage."
+    },
+    "core:rupture:0212": {
+      "sourceHash": "112c13d423fd8e670efcd14d90e4cb0517163677593c4cd42e65a9f2e8f35382",
+      "text": "Her core technique loop uses defense each turn to trigger Assist Defense and repeatedly unleash enhanced S3. Strong alone and essential alongside the Lord."
+    },
+    "core:rupture:0114": {
+      "sourceHash": "42be376440f8347ed84353090d8796325de803539566c56833edb5d3359adb30",
+      "text": "A tank and attacker that maintains Strider【Wu】 for clashes and builds Linebreaker for Shield and damage."
+    },
+    "core:rupture:0411": {
+      "sourceHash": "a515112306f8dadb176fff481d4c4a7215db755c451fbacb91ac9a4b0687b5a4",
+      "text": "Gain Strider【Mao】 through defense to aim for at least 10 Speed, then use S1 reuse and S3 to deal damage while sustaining Rupture Count."
+    },
+    "core:rupture:1112": {
+      "sourceHash": "b24a2a64ee1d28b669a8ee63de73589c1ee5a3baef25b26ee64460d5f03be4d4",
+      "text": "A fast Identity that outpaces enemies and deals damage through Rupture and Deathrite【Haste】. Coordination with the Lord increases Rupture Count on unopposed attacks."
+    },
+    "core:rupture:0511": {
+      "sourceHash": "75a799723bfc8bc734934d6ef021b63086ebe30dc217707340c0c9e896132fce",
+      "text": "A Pierce attacker using Rupture and Poise. Against targets with at least 15 Rupture Potency and 3 Count, he attacks without reducing Count, maintaining allies' setup while dealing damage. His many Coins trigger Rupture repeatedly."
+    },
+    "core:rupture:0910": {
+      "sourceHash": "fc8f4c6c22c7ac03e51c38b1808d4e6e949a65b1b3fa0bfa394a4a256d4743d3",
+      "text": "A near-essential Slash attacker for Rupture teams: Courier Trunk greatly strengthens S2 and S3, and every 6 Rupture also raises Coin Power, enabling full strength early. In long battles, defense offers a way to retreat."
+    }
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translations of existing public guide summaries and team core notes; mechanics and recommendations follow the Japanese source."
+}

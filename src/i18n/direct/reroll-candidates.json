@@ -1,0 +1,79 @@
+{
+  "kind": "reroll-candidates",
+  "sourceFile": "src/data/reroll.ts",
+  "sourceHash": "ee0e2c1f871beca11e4058d78f5344146accefbe9bba8857553b464b72eae5a5",
+  "translations": {
+    "1016": {
+      "reason": "In his early form, S1 and S2 heal and strengthen allies. Accumulating Relentless Hunger leads into Noble Dignity, where he attacks with Bleed. An option for developing new-season Le Rouge or Charge teams.",
+      "caution": "Many of his skills consume allies' HP, so team preparation and careful skill selection matter. Even support skills used on Le Rouge allies reduce their HP. Until your team is ready, focus on support in his early form and limit use of S3, which consumes allies' HP. The transformation unlocks at Uptie Ⅲ."
+    },
+    "1114": {
+      "reason": "The Udjat [Vanguard] can conditionally reduce the chance that enemy Coins roll their favorable side while strengthening her own attacks. Aggro and Protection also help her take dangerous enemy attacks.",
+      "caution": "Obtaining the Eye immediately requires 3 Gloom Resonance. Maintaining it also involves Resonance and effects that change an enemy's Panic Type; she does not keep it automatically. Bring allies with Gloom skills, and watch S3's ammunition."
+    },
+    "1214": {
+      "reason": "Build Lamp with defense, then apply Dazzle to make every Coin of S3 Unbreakable and enable additional damage. In Focused Encounters, he can draw enemy attacks to himself regardless of Speed, giving him both offensive and defensive roles against bosses.",
+      "caution": "He needs to build Lamp to 8 with defense, then prepare to apply Dazzle next turn. Allies who maintain Burn and Sinking help exploit Dazzle's increased damage taken. He favors boss battles over short fights in which the Dazzled target dies quickly."
+    },
+    "1216": {
+      "reason": "At 30 Light of Daybreak, S3 or defense becomes Crack of Dawn, combining a multi-target attack, self-healing, and Dawnherald for all allies. He supports allies who use Burn and is a candidate for developing a Dawn Office team.",
+      "caution": "Dawnherald's offensive bonus is for skills that inflict Burn. His passive, requiring 2 Wrath and 2 Sloth Owned, helps build Light of Daybreak while Dawnherald is active. Rebuild it after Crack of Dawn, and watch his self-inflicted Burn during setup."
+    },
+    "0115": {
+      "reason": "He strengthens himself by fulfilling Prescripts, then uses accumulated Procuration [Hermes] to unleash Furioso-Replica. A candidate to develop as a main fighter even before you assemble specific teammates.",
+      "caution": "Ignoring Prescripts builds Karmic Consequence until Unlock Ⅲ. Check the marked skills and targets, and keep 1 Gluttony, 1 Gloom, and 1 Pride resource Owned to activate his passive. He favors longer battles that allow setup."
+    },
+    "0215": {
+      "reason": "She combines early Shield and Protection with attacks that increase Bleed Count. Building Corpus Ingredient leads into The Self Unbound, where an enhanced S3 can target multiple enemies. A main fighter and support option for Bleed teams.",
+      "caution": "Corpus Ingredient consumes Count to build Potency. Increasing its Potency is also necessary to make S3 hit multiple targets after the transformation. She does not start at maximum damage, and benefits from allies who inflict Bleed."
+    },
+    "0315": {
+      "reason": "S3 or her defense skill creates a Sanctum of Conservation, granting Shield when allies use skills. Her own Shield helps her survive, and accumulating Blessing of the Obsidian God transforms her defense skill into a powerful attack. A new-season option who can support the allies you already own.",
+      "caution": "Choose between S3 and defense according to the Sanctum's remaining duration and accumulated Blessing. Her opening requires setup; Le Noir allies can accelerate it through follow-up attacks."
+    },
+    "0416": {
+      "reason": "She takes attacks with her Overcoat and Shield while building Preservation. Armure Éveillée then lets her attack with Unbreakable Coins and an enhanced S3. A new-season option who can fill both defensive and offensive roles.",
+      "caution": "Reach 100 Overcoat, or use defense with at least 60, to enter the enhanced form next turn. Using skills depletes that form; reaching 0 returns her to the Overcoat. Keep track of her form and Preservation Potency."
+    },
+    "0512": {
+      "reason": "At the end of the first turn in which he equips a defense skill, he can switch to Savage Tigermark Rounds and attack with an enhanced S3. His setup has a clear trigger, making him a candidate for concentrating damage into a planned attack window.",
+      "caution": "With his 3 Sloth Owned passive active, all Coins of his Base Attack Skills become Unbreakable while Savage Tigermark Rounds remain. Overheat weakens his Clashes on the turn after he runs out of ammunition, so manage his ammo."
+    },
+    "0616": {
+      "reason": "Repeatedly attacking the same enemy or part builds Nerve Strike and enables Coin reuse. His focus on a single target is straightforward, making him a candidate to develop for single bosses even with a small roster.",
+      "caution": "Applying Nerve Strike to another enemy or part removes it from the previous target. His passive, requiring 2 Wrath and 2 Pride Owned, also lets him build it through Clash Wins. Short fights with frequently changing targets make his setup harder to use."
+    },
+    "0716": {
+      "reason": "Clashing with the same enemy builds The Duel Escalates, enabling repeated Tremor Bursts with an enhanced S3. Maturing Textbook also provides lasting improvements. A Season 7 candidate whose damage grows during the fight.",
+      "caution": "The enhanced S3 requires 5 The Duel Escalates on its target, favoring Focused Encounters where you can choose a consistent opponent. Allies who inflict Burn and Tremor help him use Tremor - Scorch. He can also pair with The House of Spiders: The Thumb Nursefather Rodion."
+    },
+    "0816": {
+      "reason": "After entering the Changing Room and emerging with Full Makeover, Coin reuse on S2 and S3 and healing let her keep attacking. An offensive and durable option for players building a new-season Bleed team.",
+      "caution": "She lowers her own HP, then enters the Changing Room by preparing defense at 10% HP or lower, or by taking damage that would reduce her HP to 0. HP loss from Base Skills alone cannot reduce her below 1 HP. Setting up the transformation can make her difficult if simple controls are your priority."
+    },
+    "0916": {
+      "reason": "While she has The Eye of Precognition, conditional automatic Evades help her survive. After entering Overheat, Disposal provides a major attack. A candidate for a main fighter in longer battles, with both offensive and defensive strengths.",
+      "caution": "Precognition activates only once per turn. The Eye of Precognition, Acceleration Rounds, and Overheat require management; she cannot always Evade. The House of Spiders: The Thumb Apprentice Heathcliff can add follow-up attacks or defensive support depending on whether she has the Eye."
+    },
+    "0216": {
+      "reason": "Building Fire Butterfly Coffin strengthens her attacks. At 30 Coffin, she can use an enhanced S3 or Dismemberment at High Noon through defense. The latter's healing combines with Battle Instinct's buffs, making her a candidate for a main fighter in long battles.",
+      "caution": "Watch her opening setup and self-inflicted Burn. After Dismemberment at High Noon grants 3 Battle Instinct, her 3 Wrath Owned passive can replenish Coffin. Overheated Coffin prevents defense from transforming on the same turn as the enhanced S3, so plan when to heal."
+    },
+    "0414": {
+      "reason": "A multi-target attack after exhausting ammunition, follow-up attacks against Staggered enemies, and Magnificent End after building Petals all add attacks beyond her selected skills. A main-fighter option for Sinking or Tremor teams.",
+      "caution": "The passive that grants Petals requires 1 Sloth and 2 Gloom Owned. Allies who trigger Sinking damage or Tremor Burst help with setup. Reloading costs SP, and defense gives her Fragile next turn, so do not overextend just to gain follow-up attacks."
+    },
+    "0514": {
+      "reason": "Spore replenishes Burn Count, helping Burn inflicted by allies last longer. He can choose between a multi-target S2 and an S3 that deals more damage against fewer targets, making him a candidate for starting a Burn team.",
+      "caution": "Much of his value comes from teammates who build Burn, rather than his damage alone. Spore's additional damage has conditions, including Spore buildup. Refilling ammunition and reloading consume SP, so watch both ammo and SP."
+    },
+    "0813": {
+      "reason": "Using the same skill repeatedly to match her Hand builds Bright【光】 and leads into the Kōzan [光斬] follow-up attack. Discard helps align her skills. A candidate for players who want damage from learning a consistent turn-by-turn selection pattern.",
+      "caution": "Check the skill used in the leftmost slot and its match with the Hand's affinity. Bright【光】 has a Count limit; a Kōzan [光斬] check below 3 Potency cancels the attack. Choosing a different skill every time makes her strengths harder to use."
+    },
+    "0913": {
+      "reason": "At high SP, Blessing gives her a defensive role. Lowering SP into Despair turns her into an attacker with negative Coins. She can enter Despair through defense, making her a candidate to develop around a chosen approach.",
+      "caution": "To maintain Despair, stop Tear-sharpened at 2. Releasing it at 3 restores SP and returns her to Blessing. Some SP loss from Base Skills and similar sources has a floor, but this does not block all SP damage or E.G.O SP costs."
+    }
+  }
+}

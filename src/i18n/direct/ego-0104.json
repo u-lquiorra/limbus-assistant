@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0104.md",
+  "code": "0104",
+  "messages": {
+    "充電を消費して威力を伸ばし、破裂を消費して傲慢ダメージを上乗せする、高威力の単体向けE.G.O。": "A powerful single-target E.G.O that spends Charge for damage and Rupture Count for additional Pride damage.",
+    "充電の消費: 攻撃前に充電回数を消耗し、消耗した分だけダメージ量が増える(最大50%、解析Ⅲで75%)。": "**Spending Charge**: Before attacking, consumes Charge Count and increases damage according to the amount spent, up to +50%, or +75% at Threadspin Ⅲ.",
+    "破裂の消費: 的中時、ダメージ量の(対象の破裂×7.5%、解析Ⅲで10%)分の傲慢ダメージを与え、破裂回数を5消耗する(最大75%、解析Ⅲで100%)。": "**Spending Rupture**: On hit, deals additional Pride damage equal to the damage dealt × the target's Rupture Potency × 7.5%, increased to 10% at Threadspin Ⅲ, then consumes 5 Rupture Count. The additional damage is capped at 75% of the hit's damage, increased to 100% at Threadspin Ⅲ.",
+    "次元の亀裂: 解析Ⅲから、充電を消耗した的中時に次元の亀裂3(解析Ⅳで5)を付与する。ターン終了時に破裂回数がその数値だけ増える。": "**Dimensional Rift**: From Threadspin Ⅲ, a hit after consuming Charge inflicts 3 Dimensional Rift, increased to 5 at Threadspin Ⅳ. At Turn End, increases Rupture Count by that amount.",
+    "パッシブ「彷徨う者」: ターン開始時にダメージを受けていなければ充電回数が4増える。自分より速度が遅い敵に的中すると、破裂回数が1増える(1ターンにつき最大3回)。": "**Passive — Rambling Man**: At Turn Start, gains 4 Charge Count if he took no damage on the previous turn. Hitting an enemy slower than himself increases Rupture Count by 1, up to 3 times per turn.",
+    "最後方の対象を攻撃する(一般戦闘限定)。充電と破裂をあらかじめ溜めて撃つ。": "Attacks the rearmost target in Normal Encounters. Prepare Charge and Rupture before using it.",
+    "覚醒はコイン威力が+18と大きく、裏が出ると威力が大きく下がる。精神力が高いときに使う。": "Awakening has a large +18 Coin Power bonus, so Tails greatly lowers its roll. Use it at high SP.",
+    "必要資源は怠惰3・暴食3、精神消耗は覚醒25・侵蝕30・OC45。": "Costs 3 Sloth and 3 Gluttony. SP cost: 25 Awakening, 30 Corrosion, 45 Overclock.",
+    "侵蝕スキルは破裂を自分で付与できるので、破裂を溜めていなくても傲慢ダメージが出る。": "Corrosion can inflict Rupture itself, allowing its additional Pride damage even without prior Rupture setup.",
+    "Ⅱ: 「彷徨う者」の解放のみ。": "**Ⅱ**: Only unlocks Rambling Man.",
+    "Ⅲ: 威力とダメージ補正が上がり、次元の亀裂が加わる。威力はここでほぼ完成する。": "**Ⅲ**: Improves Power and damage bonuses, and adds Dimensional Rift. Most of its Power is established at this tier.",
+    "Ⅳ: 次元の亀裂の付与量が3から5になるだけで、優先度は低いと考えられる。": "**Ⅳ**: Only raises Dimensional Rift from 3 to 5, so this can be a lower-priority upgrade.",
+    "W社3級整理要員: 充電と破裂の両方を扱い、S1(怠惰)・S2(暴食)で必要資源も出せる。": "**[W Corp. L3 Cleanup Agent](persona:0106)**: Uses both Charge and Rupture. Sloth S1 and Gluttony S2 also supply its required affinities.",
+    "LCE E.G.O:: 提灯: 破裂を扱う人格で、S1(怠惰)・S3(暴食)で必要資源を出せる。": "**[LCE E.G.O:: Lantern](persona:0111)**: Uses Rupture, while Sloth S1 and Gluttony S3 supply the required affinities."
+  }
+}

@@ -1,5 +1,11 @@
-import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
+import { useContext, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { LanguageContext, translateKeywordName, translateText } from "../i18n/text";
+
+export function KeywordName({ term, desc }: { term: string; desc?: string }) {
+  const language = useContext(LanguageContext);
+  return translateKeywordName(term, desc, language);
+}
 
 // 画面端からの余白と、用語との間隔(px)
 const EDGE = 16;
@@ -9,6 +15,9 @@ const GAP = 6;
 // スマホでは title のツールチップが出ないため、ゲーム内と同じく押して確認できるようにする。
 // マウスでは乗せるだけでも開く(以前の title ツールチップの代わり)
 export default function KeywordTerm({ term, desc }: { term: string; desc?: string }) {
+  const language = useContext(LanguageContext);
+  const description = desc ? translateText(desc, language) : desc;
+  const name = translateKeywordName(term, desc, language);
   const [pinned, setPinned] = useState(false);
   const [hovered, setHovered] = useState(false);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -48,7 +57,7 @@ export default function KeywordTerm({ term, desc }: { term: string; desc?: strin
     popover.style.left = `${left + window.scrollX}px`;
   }, [open]);
 
-  if (!desc) return <span className="fx-keyword">{term}</span>;
+  if (!desc) return <span className="fx-keyword">{name}</span>;
   // 親要素の overflow や transform に切られないよう、開いたときだけ body 直下に描画する
   // (静的 HTML の生成時は閉じているので、ボタンだけが出力される)
   return (
@@ -60,18 +69,18 @@ export default function KeywordTerm({ term, desc }: { term: string; desc?: strin
         aria-expanded={open}
         aria-controls={open ? id : undefined}
         // 開かなくても読み上げで説明が分かるようにする(静的 HTML にも説明が残る)
-        aria-description={desc}
+        aria-description={description}
         onClick={() => setPinned((v) => !v)}
         onPointerEnter={(e) => e.pointerType === "mouse" && setHovered(true)}
         onPointerLeave={(e) => e.pointerType === "mouse" && setHovered(false)}
       >
-        {term}
+        {name}
       </button>
       {open &&
         createPortal(
           <span ref={popoverRef} id={id} className="fx-popover" role="tooltip">
-            <strong>{term}</strong>
-            <span>{desc}</span>
+            <strong>{name}</strong>
+            <span>{description}</span>
           </span>,
           document.body
         )}

@@ -1,4 +1,7 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import { LanguageContext, translateText } from "../i18n/text";
+import { isEnglishBoss, localizeBossGuide } from "../i18n/bosses";
+import { Message } from "../i18n/Message";
 import { useLocation, useParams } from "react-router-dom";
 import { Link } from "../components/Link";
 import { BOSS_SECTIONS, bossChapterId, bossChapterStageRange, bossSummaries, getBossSummary, groupBossesByChapter, loadBossGuide, peekBossGuide, type BossGuide, type BossSkill } from "../bosses";
@@ -39,7 +42,7 @@ export function BossIndex() {
       {/* 先の章のネタバレを避けるため、章は閉じた状態で出し、一覧ではボス名を出さずステージ名で示す */}
       <p className="boss-index-note">ネタバレを避けるため、一覧ではボス名を出さず、章ごとに閉じてある。</p>
       <div className="boss-chapters">{bossChapters.map((chapter) => <details key={chapter.id} id={chapter.id} className="boss-chapter">
-        <summary><span className="boss-chapter-title">第{chapter.chapter}章</span><span className="boss-chapter-meta">{bossChapterStageRange(chapter)}・{chapter.bosses.length}戦</span></summary>
+        <summary><span className="boss-chapter-title">{`第${chapter.chapter}章`}</span><span className="boss-chapter-meta">{bossChapterStageRange(chapter)}・{chapter.bosses.length}戦</span></summary>
         <div className="boss-index-list">{chapter.bosses.map((boss) => <Link key={boss.id} to={`/bosses/${boss.id}`} className="boss-index-link">
           <span className="boss-stage-label">{boss.stage}</span>
           <span><strong>{boss.stageName}</strong><span className="boss-index-lead">{boss.listLead}</span></span>
@@ -119,7 +122,7 @@ function Skill({ skill, boss, number }: { skill: BossSkill; boss: BossGuide; num
       <div><dt>{["回避", "防御"].includes(skill.type) ? "守備" : "攻撃"}レベル{unit.combatLevelNote && `（${unit.combatLevelNote}）`}</dt><dd><span className="staged-main">{level}</span><span className="staged-history">{skill.levelUnknown ? "数値不明" : skill.level !== undefined ? "推定値" : `敵Lv${skill.levelOffset >= 0 ? "+" : ""}${skill.levelOffset}${unit.skillLevelReduction ? `−${unit.skillLevelReduction}` : ""}`}</span></dd></div>
       <div><dt>加重値</dt><dd><span className="staged-main">{skill.weight ?? "不明"}</span></dd></div>
     </dl>
-    <EffectText text={bossSkillEffectText(skill)} keywords={keywords} unbreakableCoins={skill.unbreakableCoins} />
+    <EffectText text={bossSkillEffectText(skill, isEnglishBoss(boss) ? "en" : "ja")} keywords={keywords} unbreakableCoins={skill.unbreakableCoins} />
     <div className="boss-skill-response"><h5 className="guide-heading">対処のポイント</h5><p>{decorate(skill.response, keywords, false)}</p></div>
   </article>;
 }
@@ -169,13 +172,15 @@ function useBossGuide(id: string): BossGuide | null | undefined {
 }
 
 export default function BossPage() {
+  const language = useContext(LanguageContext);
   const { id = "" } = useParams<{ id: string }>();
   const summary = getBossSummary(id);
   const loaded = useBossGuide(id);
+  const localized = useMemo(() => loaded ? localizeBossGuide(loaded, language) : loaded, [loaded, language]);
   if (summary && loaded === undefined) return <div className="container section"><h1 className="section-title">{summary.name}</h1><p className="empty">読み込み中…</p></div>;
   // 一覧にあるのに詳細が読めないのは通信の失敗などなので、「見つからない」とは分けて伝える
   if (summary && !loaded) return <div className="container section"><h1 className="section-title">{summary.name}</h1><p className="empty">読み込みに失敗した。ページを再読み込みする。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
-  const boss = summary ? loaded : null;
+  const boss = summary ? localized : null;
   if (!boss) return <div className="container section"><h1 className="section-title">ボス攻略が見つからない</h1><p className="empty">URLを確認するか、攻略一覧から探す。</p><Link to="/bosses" className="back-link">← ボス攻略一覧</Link></div>;
   const mainUnit = boss.units[0];
   const keywords = bossKeywords(boss);
@@ -191,7 +196,7 @@ export default function BossPage() {
           <h1 className="persona-title">{boss.name}</h1>
           <div className="persona-tags"><span className="tag tag-muted">{boss.projection ? boss.stageName : `${boss.stage}「${boss.stageName}」`}</span><span className="tag tag-muted">{boss.projection ? `射影戦闘・${boss.projection.difficulty}` : "ストーリー攻略"}</span></div>
           <p className="boss-lead">{text(boss.lead)}</p>
-          <dl className="spec-list"><div><dt>HP</dt><dd>{mainUnit.hp}</dd></div><div><dt>レベル</dt><dd>{mainUnit.level}</dd></div><div><dt>速度</dt><dd>{mainUnit.speed}</dd></div><div><dt>防御Lv{mainUnit.combatLevelNote ? `（${mainUnit.combatLevelNote}）` : mainUnit.defenseLevelReduction || mainUnit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{mainUnit.defenseLevel === null ? "不明" : mainUnit.defenseLevel - (mainUnit.defenseLevelReduction ?? mainUnit.skillLevelReduction ?? 0)}</dd></div><div><dt>出撃上限</dt><dd>{boss.members}名{boss.reserves ? `＋控え${boss.reserves}名` : ""}</dd></div></dl>
+          <dl className="spec-list"><div><dt>HP</dt><dd>{mainUnit.hp}</dd></div><div><dt>レベル</dt><dd>{mainUnit.level}</dd></div><div><dt>速度</dt><dd>{mainUnit.speed}</dd></div><div><dt>防御Lv{mainUnit.combatLevelNote ? `（${mainUnit.combatLevelNote}）` : mainUnit.defenseLevelReduction || mainUnit.skillLevelReduction ? "（補正後）" : ""}</dt><dd>{mainUnit.defenseLevel === null ? "不明" : mainUnit.defenseLevel - (mainUnit.defenseLevelReduction ?? mainUnit.skillLevelReduction ?? 0)}</dd></div><div><dt>出撃上限</dt><dd>{language === "en" && boss.members === 1 ? "1 Sinner" : <>{boss.members}名</>}{boss.reserves ? `＋控え${boss.reserves}名` : ""}</dd></div></dl>
           <p className="boss-checked">資料確認日：<time dateTime={boss.checkedAt}>{boss.checkedAt}</time></p>
         </header>
       </div>
@@ -237,7 +242,7 @@ export default function BossPage() {
           </div>
         </Section>
         <Section id="stats">
-          <p className="boss-section-intro">{boss.stage}の数値。出撃上限は{boss.members}名{boss.reserves ? `、控え${boss.reserves}名の連続戦闘` : ""}。{boss.statNote && text(boss.statNote)}</p>
+          <p className="boss-section-intro"><Message text={boss.members === 1 ? "{stage}の数値。出撃上限は1名{reserves}。" : "{stage}の数値。出撃上限は{members}名{reserves}。"} values={{ stage: boss.stage, members: boss.members, reserves: boss.reserves ? translateText(`、控え${boss.reserves}名の連続戦闘`, language) : "" }} />{boss.statNote && text(boss.statNote)}</p>
           {boss.units.map((unit) => <section className="boss-unit" key={unit.id} aria-labelledby={`unit-${unit.id}`}>
             <h3 id={`unit-${unit.id}`}>{unit.name}<small>部位：{unit.part}</small></h3>
             <div className="boss-unit-layout">

@@ -1,0 +1,611 @@
+{
+  "kind": "boss-copy",
+  "id": "wriggling-beast",
+  "source": "src/data/bosses/wriggling-beast.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "0d7f8b247e7d212beadadf9d134c1d21b088e56bddcc2982a6808b6db847a013",
+      "text": "Slithering Inquisitor (Canto III, Floor 2)"
+    },
+    "shortName": {
+      "sourceHash": "3437a5144d0f448e4831c0eeef8dab865f24957f422adacde0c5a3b12edccfa4",
+      "text": "Slithering Inquisitor"
+    },
+    "stageName": {
+      "sourceHash": "4568a58dec29033a9a0c21e869dd6205cf2dac0ef4f93cae1ff121e2d32d909a",
+      "text": "K-02 Branch, Floor 2: Path to the Sanctuary"
+    },
+    "lead": {
+      "sourceHash": "54727023c75cbf8b7e12c10cb605c6cbe5c9418d439613e2f0a3ad8332a2e466",
+      "text": "Win Clashes to reduce Instincts and make it defensive, then break both arms together. Leaving only one arm broken lets it regenerate based on the surviving arm's HP. Once the Body appears, Poison accumulates; focus damage and finish it while it has 5 Fragile."
+    },
+    "listLead": {
+      "sourceHash": "ae9d53b1253d953ff9295651a5a08c86b38748a593679eec3c27cf831d930ccb",
+      "text": "Win Clashes to strip buffs and break both arms together. One broken arm regenerates, so coordinate remaining HP and action order, then finish the next phase quickly."
+    },
+    "statNote": {
+      "sourceHash": "5debfcd46eb892a833c69091a637b29881fa2f7b97f03efbf39dd7f813561040",
+      "text": "A single boss on the Path to the Sanctuary, Floor 2 of the Canto III dungeon. Lv. 26, 677 main-body HP, 237 HP per arm, and 203 Body HP after both arms break. Defense Level 30, Speed 2–4. Differs from the one-armed Slithering Beast and Refraction Railway versions."
+    },
+    "skillNote": {
+      "sourceHash": "a8a1fd6b793fe4ef913771ee3faadd01963cb891cfcd2a39bd11ec0b8c867e74",
+      "text": "The Slithering Inquisitor's 7 skill types give 11 entries separated by Part. Displayed Power excludes Swinging Arms' reduction from broken arms. Pained Writhing has Base Power 7, −1 Coin Power, and 3 Coins; Pained Struggle has 11, −5, and 2 Coins. Keep Poison, self-damage, On Hit, and Combat Start conditions distinct."
+    },
+    "priorities.0": {
+      "sourceHash": "63cb359d1a37743cd9bc2348c8240c25e070dbbb61ca3b7dbfd4ddede5dc9679",
+      "text": "Winning Clashes against Coil Up and Thrashing Arms reduces Instincts. It becomes defensive at 0 and resumes attacking when Instincts returns to 4. This differs from other enemies that lose Instincts simply from attack damage."
+    },
+    "priorities.1": {
+      "sourceHash": "609bbd822fb3407d3714468a6c4f0d5806dd9ccf5414d9f89375b451a0053977",
+      "text": "Do not leave only one arm broken. If the other survives, the broken arm regenerates 2 turns after destruction with the same HP as the surviving arm. Aim to break both in the same turn."
+    },
+    "priorities.2": {
+      "sourceHash": "a9134c75a47d66fad7caf19051958b430e76403bbe1b1cb9f7d112dd60ccc071",
+      "text": "Breaking both arms reveals the Body and starts a phase with teamwide Poison and 5 attacks. The boss gains 5 Fragile, so concentrate damage to finish it rather than prolonging the fight with healing."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "d2c53f9a6ad57d2904683ea7c0ead30e84756e2802568680a5e2556c99d7770d",
+      "text": "The arm I broke came back"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "a4b89f042e10190268b9353c757e1c1981868c56a9641341b5c06dfec3d37a8b",
+      "text": "Molt regenerates a broken arm if the other remains. If breaking one first, weaken the other enough to break it soon afterward. Regeneration HP is based on the surviving arm's current HP."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "615641a6577fbb8cedbcae9c9355f822ed4079efca6c37aefd095d4baa8fa681",
+      "text": "It keeps attacking even at 3 Instincts"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "0c0a365c24f3a2104ff8456105035960b5661d4c86be04a7fa890e1cdecc3610",
+      "text": "The actual switch to defensive behavior occurs at 0 Instincts. Afterward, Held Breath restores Instincts, and attacking resumes at 4. Do not assume any value below 4 immediately makes it defensive."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e9fc927f5a35cfb028edb64da6fed8f99b9983a865c7fec9606084b6b81ac74d",
+      "text": "Attacking the arms keeps inflicting Poison on my team"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "9c38f76ae5dc058f41dc9262cbd880febaae36c1d4e74d05bd5b57b0a05995be",
+      "text": "If a Part starts the turn below 50% HP, Rotting Skin returns 3 Poison to the attacker. Finish breaking low-HP arms instead of leaving them until next turn."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "6f2bd0290a6566ac31901385b8cb0bc45fef0c73b82500e454c39ef9e59ebcc7",
+      "text": "Everyone takes damage after both arms break"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "e7aa7a691c34c9f6d7a5078562c715f976ba71a24d30b145ffca7189c2d7ad93",
+      "text": "Revealing the Body brings teamwide Poison, and Body skills also inflict Poison or Paralyze. Exploit 5 Fragile and the skills' self-damage; focus strong attacks to finish quickly."
+    },
+    "units.0.name": {
+      "sourceHash": "4c0fc32d0ebf421a7a7e4fe589b5885d73882d36bbb60a83ca4a67e7bc5c1807",
+      "text": "Slithering Inquisitor (Right Arm)"
+    },
+    "units.0.part": {
+      "sourceHash": "8bde89d9cfa1060d05ea3ef40a002029f4e1572e6cf933d3ec0f7f82ec2f9153",
+      "text": "Right Arm"
+    },
+    "units.0.hp": {
+      "sourceHash": "8cda3105c0e046c8524a09d4821d551e3d30d33be27aae8328c547138552a1ca",
+      "text": "677 (main body) / 237 (Right Arm)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "6c67da81265aed7b8bb060ddb7d0ca52da984745c2582d98b0d372401be50329",
+      "text": "Starts with 4 Instincts. Removable: destruction cancels actions and deletes slots; cannot be attacked afterward."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "de8b273e61da7d923f66dd9a4f5b9dbba65c129f5f2e8ba081e250232623e117",
+      "text": "If only one arm is broken, it regenerates to match the surviving arm's HP. Regeneration also resets buffs and debuffs."
+    },
+    "units.1.name": {
+      "sourceHash": "219bd013cd0a78f368b0523f4e3ee802170c09e40eda19707bea7fe18c61b8ae",
+      "text": "Slithering Inquisitor (Left Arm)"
+    },
+    "units.1.part": {
+      "sourceHash": "00da7cbe13ff32155a78004af52ce9358e14f81acc8bbc53621e869be0addf84",
+      "text": "Left Arm"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "19335e2a289366c75cc8f4361a23969b0ceb11ccf1351f5e85300ea85c000c57",
+      "text": "Same stats as the Right Arm. Removal cancels actions and deletes slots; cannot be attacked afterward."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "1007d9ff10104361eade0e7b01dc9e52918ceac4e4c43936a477393ca2a9fd91",
+      "text": "Actions are randomly assigned between the arms and may favor one side. An arm with no skill can still be targeted."
+    },
+    "units.2.name": {
+      "sourceHash": "5055659a3636fe19ee61fb43c542cd1a539520fb67303c7c27660588f1795675",
+      "text": "Slithering Inquisitor (Body)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "a687513b098a4aa73bad5b2e6c8d9c6b7b9350d1b7493c09abdc74a7662deeab",
+      "text": "Targetable after both arms break. Cannot be broken. Begins the phase with 5 Fragile and teamwide Poison."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "62d7cc924bb72326b42f483803abe5365959aa4633d794b35659f84dcccbad2a",
+      "text": "Has 5 actions: 3 that inflict Poison and 2 that inflict Paralyze. Its skills also consume its own HP On Use."
+    },
+    "phases.0.timing": {
+      "sourceHash": "b158c1f6c7b6630266ddadb1dcbe49b508c0baa6d626081a1bd794124d9bb793",
+      "text": "Opening / 4 Instincts"
+    },
+    "phases.0.title": {
+      "sourceHash": "d013f85e0280cc6b663aa39dbfa6dcc67f8975ddcbc2beed681220f783c7b353",
+      "text": "Win the Clashes that reduce Instincts"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4665d7b3f18f2ae33a75f2be4e756e6bafc510f50f2efd3d5257e7e0f070ac0c",
+      "text": "Starts aggressive with 4 Instincts. When you win a Clash against Coil Up or Thrashing Arms, the enemy loses 1 Instincts. Block them while damaging the arms."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "3423a43e2ae4670603354c63be20b9017518c7c66e1894751794e8f3db81aa27",
+      "text": "Allowing Coiling Arms' 3 Paralyze or Swinging Arms' Bleed and Paralyze makes later Clashes harder. Use strong winning skills, mainly Pierce and Sloth."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "e00bed495468061ffd9a469969ec7b05bce7baa30e407c3d63b03563d00f08bf",
+      "text": "Starts with 3 actions and can reach 5 as the fight progresses. Assignment between arms is random, and one arm may receive most skills. Check the actual skills and targets."
+    },
+    "phases.1.timing": {
+      "sourceHash": "24419a502acdb97edf0075bb21e03ebde4554bf6887f845653728d75bff8c869",
+      "text": "0 Instincts / defensive behavior"
+    },
+    "phases.1.title": {
+      "sourceHash": "1f97e956beeb557afefb39cccc8f64df6a0f0ba8d77638b6e5922fa47ac172e2",
+      "text": "Bring both arms' remaining HP into line"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "ec9adde7dea308c72f8ec89a1aaa1e73cadec517b02fd0a1b12617cecb8e72fb",
+      "text": "At 0 Instincts, it switches to defensive actions centered on Held Breath. Combat Start effects restore Instincts, so use this window to damage and break both arms."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "2f974f9446d69f7cbcadd58b8d674ced87215461a5bd97554e4287e79867d8cd",
+      "text": "Split attacks so both arms can break in the same turn. Breaking one first reduces actions, but it regenerates 2 turns later if the other remains. Break the second before regeneration."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "4719b257f24933b086bfdf356ba504eab18986aa09337a5fecb668acf2e583b7",
+      "text": "Leaving a low-HP arm until next turn activates Rotting Skin if it starts below 50% HP, returning 3 Poison to attackers. Finish it with concentrated attacks rather than many weak hits over several turns."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "1877224ffa8c632ece729545dca96e2b595bc21176bf59bd800975a75da76061",
+      "text": "Attacks resume when Instincts returns to 4. Reaching 3 does not immediately make it defensive; check its current mode and skills."
+    },
+    "phases.2.timing": {
+      "sourceHash": "0a7144d2912469c345f457d2bf8214e2203d6f615919dc8d6d5ada8e2c58284e",
+      "text": "After both arms break"
+    },
+    "phases.2.title": {
+      "sourceHash": "426005f892aa1cbaae928b22d002b7a4a830189129a45d4368ed975a98355732",
+      "text": "Defeat the main body before Poison stacks up"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "2b16a67e82e721c582d7791f1dc3f9cfe0606f6c1aff805a9f227f8fb2a0ea1e",
+      "text": "The Body appears, beginning a phase in which the enemy gains 5 Fragile each turn and inflicts 10 Poison across your team. The Body has no normal Stagger Threshold."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "ce813592b14ff30a0ac344dcb77f7b032d0424a94e27e4e6fd9a32c301d62efe",
+      "text": "Has 5 actions: 3 Pained Writhing and 2 Pained Struggle. The former inflicts 3 Poison next turn on each hit; the latter inflicts 6 Paralyze next turn on each hit. Win Clashes with strong skills while dealing damage."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "5cbc18b476cea5d7b4f044859cb2b0855d9bf0324343ccc805bde82021f22885",
+      "text": "Both skills consume 12 HP On Use and add Bleed or Bleed Count to the user next turn. Exploit self-damage and 5 Fragile, and finish main-body HP with Pierce and Sloth."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "4a0a0885b44205a4ec0acc3845f49ae2970037c068d65b55dcedf52b8fa8a210",
+      "text": "At Turn End, Poison deals HP damage equal to its value, then halves. Check remaining HP before ending the turn, and use available healing or status removal to survive if needed."
+    },
+    "skills.0.name": {
+      "sourceHash": "a8c83adf8b01d8a6c2c23e725c8a63509135cfd6026910f9f648c762adfef9c3",
+      "text": "Coiling Arms"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "c2c483e81823f8abd4bba4fed67c00f92328dfb468a6504473c371224363c2d7",
+      "text": "On Hit inflicts 3 Paralyze next turn. Stop it to protect later Clashes. It is stronger than the lower-tier Slithering Beast's same-named skill and inflicts a different amount of Paralyze."
+    },
+    "skills.1.name": {
+      "sourceHash": "47b45008c00f415035cf3affb1e0a9aad9757cec60ff61604997fff9e8b060f2",
+      "text": "Coil Up"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "19849cddfc69684a02725780dfa5cfcc131cf47f1ee8a6ce2f362d2e0a945b4a",
+      "text": "[Clash Lose] Lose 1 Instincts."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "26310b9f3a5f904bd7a0cc4d6639dcf4edb925a9da336f6e1b1355d7680ee034",
+      "text": "Ⅱ[On Hit] Heal 20 HP and increase Bleed Count by 5."
+    },
+    "skills.1.response": {
+      "sourceHash": "4745e6e956d137033b0b49136c4cafda4addab1771e56f244cedac026a98dd6b",
+      "text": "Winning the Clash makes the enemy lose 1 Instincts. Coin 2 heals 20 HP and increases Bleed Count by 5 on hit, so winning both reduces Instincts and prevents healing."
+    },
+    "skills.2.name": {
+      "sourceHash": "47b45008c00f415035cf3affb1e0a9aad9757cec60ff61604997fff9e8b060f2",
+      "text": "Coil Up"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "19849cddfc69684a02725780dfa5cfcc131cf47f1ee8a6ce2f362d2e0a945b4a",
+      "text": "[Clash Lose] Lose 1 Instincts."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "26310b9f3a5f904bd7a0cc4d6639dcf4edb925a9da336f6e1b1355d7680ee034",
+      "text": "Ⅱ[On Hit] Heal 20 HP and increase Bleed Count by 5."
+    },
+    "skills.2.response": {
+      "sourceHash": "4745e6e956d137033b0b49136c4cafda4addab1771e56f244cedac026a98dd6b",
+      "text": "Winning the Clash makes the enemy lose 1 Instincts. Coin 2 heals 20 HP and increases Bleed Count by 5 on hit, so winning both reduces Instincts and prevents healing."
+    },
+    "skills.3.name": {
+      "sourceHash": "f355c0b3cdc928e30ec331157049d7f8b85cbb5e0f7629592c5c901cb3d57c6c",
+      "text": "Swinging Arms"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "948ea50a4e9bf4bbdd592dbc0c5d4ab5b08a390744e0b21432b06d992c8e6820",
+      "text": "Reduce Skill Power by the number of destroyed arms."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "bfa4c7c2b2b0c548d8a05b584ee1bd96474cd9ac437fd1c2847d7408a761bf0d",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and 1 Paralyze next turn."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "a7034901eb9fa7679a37502ef1ca97b6163d0f36b71392739c9225b12300cd88",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and 1 Paralyze next turn."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "53bbf14ed4ea005d5201f6868b9538f427a1f51cbd0864cf746abc13abd540de",
+      "text": "Ⅲ[On Hit] Inflict 4 Bleed and 2 Paralyze next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "d767256287101cfd35748054478b89fe225f538fb27a7eda95934e83c5b6255d",
+      "text": "Its 3 Coins stack Bleed and Paralyze on hit. Skill Power drops with each broken arm, but a lone broken arm regenerates. Work toward breaking both together."
+    },
+    "skills.4.name": {
+      "sourceHash": "f355c0b3cdc928e30ec331157049d7f8b85cbb5e0f7629592c5c901cb3d57c6c",
+      "text": "Swinging Arms"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "948ea50a4e9bf4bbdd592dbc0c5d4ab5b08a390744e0b21432b06d992c8e6820",
+      "text": "Reduce Skill Power by the number of destroyed arms."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "bfa4c7c2b2b0c548d8a05b584ee1bd96474cd9ac437fd1c2847d7408a761bf0d",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and 1 Paralyze next turn."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "a7034901eb9fa7679a37502ef1ca97b6163d0f36b71392739c9225b12300cd88",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and 1 Paralyze next turn."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "53bbf14ed4ea005d5201f6868b9538f427a1f51cbd0864cf746abc13abd540de",
+      "text": "Ⅲ[On Hit] Inflict 4 Bleed and 2 Paralyze next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "d767256287101cfd35748054478b89fe225f538fb27a7eda95934e83c5b6255d",
+      "text": "Its 3 Coins stack Bleed and Paralyze on hit. Skill Power drops with each broken arm, but a lone broken arm regenerates. Work toward breaking both together."
+    },
+    "skills.5.name": {
+      "sourceHash": "057ac548cd27b11cebb4709fc4e5f74b276b96ff8774ad5d138a6750f4bdccc4",
+      "text": "Thrashing Arms"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "50a5cd6b55c6d77f9a053d0facb3a5a541c3eb77450707a9bb1820d71abbbfd7",
+      "text": "[Clash Lose] Lose 1 Instincts."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "36b806a6e6322cd7f97f43bc0cdbb677f54cb03741922b5dee36e17d6d8e9d33",
+      "text": "Ⅰ[On Hit] Raise the target's Stagger Threshold by 10 and inflict 5 Bind next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "f97a5cfcd8caee890c588cc0df4ba98257f63a5a7d1ff9347da086a29f035afa",
+      "text": "Winning the Clash reduces Instincts by 1. Coin 1 raises the target's Stagger Threshold by 10 and inflicts 5 Bind next turn on hit, disrupting later actions if you lose. Win with a strong skill."
+    },
+    "skills.6.name": {
+      "sourceHash": "057ac548cd27b11cebb4709fc4e5f74b276b96ff8774ad5d138a6750f4bdccc4",
+      "text": "Thrashing Arms"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "50a5cd6b55c6d77f9a053d0facb3a5a541c3eb77450707a9bb1820d71abbbfd7",
+      "text": "[Clash Lose] Lose 1 Instincts."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "36b806a6e6322cd7f97f43bc0cdbb677f54cb03741922b5dee36e17d6d8e9d33",
+      "text": "Ⅰ[On Hit] Raise the target's Stagger Threshold by 10 and inflict 5 Bind next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "f97a5cfcd8caee890c588cc0df4ba98257f63a5a7d1ff9347da086a29f035afa",
+      "text": "Winning the Clash reduces Instincts by 1. Coin 1 raises the target's Stagger Threshold by 10 and inflicts 5 Bind next turn on hit, disrupting later actions if you lose. Win with a strong skill."
+    },
+    "skills.7.name": {
+      "sourceHash": "5cfe576b95cb356096f2c3519c428bcd0938c8a1b6f9017ab29bc4929e80ed39",
+      "text": "Held Breath"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "b59ee1025e112f3fae114c860e13258143f004fb3d6958159f17fb5d42e828d7",
+      "text": "[Combat Start] Gain 1 Instincts."
+    },
+    "skills.7.response": {
+      "sourceHash": "4b39c8c4c2a517e38e0f58cd770d9e56ae66032fa2eb13f56ff896b34bcf440f",
+      "text": "A Guard skill that gains 1 Instincts at Combat Start. Defensive behavior is an opening to break the arms, but repeated use restores 4 Instincts and resumes attacks."
+    },
+    "skills.8.name": {
+      "sourceHash": "5cfe576b95cb356096f2c3519c428bcd0938c8a1b6f9017ab29bc4929e80ed39",
+      "text": "Held Breath"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "b59ee1025e112f3fae114c860e13258143f004fb3d6958159f17fb5d42e828d7",
+      "text": "[Combat Start] Gain 1 Instincts."
+    },
+    "skills.8.response": {
+      "sourceHash": "4b39c8c4c2a517e38e0f58cd770d9e56ae66032fa2eb13f56ff896b34bcf440f",
+      "text": "A Guard skill that gains 1 Instincts at Combat Start. Defensive behavior is an opening to break the arms, but repeated use restores 4 Instincts and resumes attacks."
+    },
+    "skills.9.name": {
+      "sourceHash": "e6d5a55824860ac3786d24b6e51541af675071de42e5a56936596355c34a0037",
+      "text": "Pained Writhing"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "c8cd79da9a1d9543ffd6302505b7fc8b7c92da606323d4f787f41e1ba4f80244",
+      "text": "[On Use] Consume 12 HP. Gain 3 Bleed next turn."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "9977f501827d03c5d3c9e60e95c814470202e89c232be909350aa1e4b5dddc01",
+      "text": "Ⅰ[On Hit] Inflict 3 Poison next turn."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "5613894a3865f80a9ded897c6f8c04c3bbb8db31a4379c910d0decfc4a5a7296",
+      "text": "Ⅱ[On Hit] Inflict 3 Poison next turn."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "ab62a9ed4a54f3c9f77ea59b8bc437a675d521cb89791695a764fbf97fb25b04",
+      "text": "Ⅲ[On Hit] Inflict 3 Poison next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "8249c22cc69d7ebbddb8f164a9d2040ff02998d5d09d31e4de456e877d899bf0",
+      "text": "A Body skill used after both arms break. The enemy consumes 12 HP On Use and gains 3 Bleed next turn. Each of its 3 Coins inflicts 3 Poison next turn on hit, so quickly finish the main body while it has Fragile."
+    },
+    "skills.10.name": {
+      "sourceHash": "0d5bbc01b49435a0c0da972bcb503cfc20313812f8aabf0ca676d9304959e69c",
+      "text": "Pained Struggle"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "824152bed554e5967e8384fc532df333046625d6c5c13b2344fe9088321c5142",
+      "text": "[On Use] Consume 12 HP. Increase own Bleed Count by 3 next turn."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "bd3b73a0cd6875d14e7e9e7f87356ebab46c442bcd704291b2b9186976ccecb2",
+      "text": "Ⅰ[On Hit] Inflict 6 Paralyze next turn."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "2df59deb8ba6d20aac4c89a2215baa7244c0820171324fd45c08faebb1737275",
+      "text": "Ⅱ[On Hit] Inflict 6 Paralyze next turn."
+    },
+    "skills.10.response": {
+      "sourceHash": "8e5dd30915960caf1e8f7124b52c601ff166aa09cbdfa0e73171dfc5499b8f94",
+      "text": "Base Power 11, Coin Power −5, and 2 Coins. Consumes 12 HP On Use and increases own Bleed Count by 3 next turn. Prevent the 6 Paralyze inflicted next turn by each hit and avoid a prolonged Poison fight."
+    },
+    "passives.0.name": {
+      "sourceHash": "bc8e9d1c8c19e783e6fff925b5444fba613296ac407307d68eafb841c5f558b8",
+      "text": "Wriggling Instincts"
+    },
+    "passives.0.condition": {
+      "sourceHash": "42a2a2070930587bb72d0befe84d8c4480a364d3653ac0e46f60557006339b7f",
+      "text": "Changes behavior based on Instincts"
+    },
+    "passives.0.effect": {
+      "sourceHash": "f8cc3399a070a596259560fb9e2cae1ddf23b08cdb6bdff9ae0c3ad79cfdc552",
+      "text": "The description says aggressive at 4 or more Instincts and defensive below 4. In practice, it switches to defensive at 0 and becomes aggressive again at 4 or more."
+    },
+    "passives.0.response": {
+      "sourceHash": "62f4afad7ee8dd25514a8e8c3786493f18992192d701bf3b841a66b2ebb06bcc",
+      "text": "Do not assume attacks stop as soon as Instincts drops to 3. Use the opening after reaching 0 to break the arms."
+    },
+    "passives.1.name": {
+      "sourceHash": "8666fb91fb05dac6b5ab8d904066751a9d230fdde23ca24926c0475ae794b12d",
+      "text": "Rotting Skin"
+    },
+    "passives.1.condition": {
+      "sourceHash": "23fdbdda1f119a633b776fbb2ee0f01d6ee346df043ab69efeeb75951f753ed3",
+      "text": "Part HP is below 50% at Turn Start"
+    },
+    "passives.1.effect": {
+      "sourceHash": "adbdd44fbd9c871cc55fcc0a805d9d0d18ba83739eae511ac1f9e422402f7a65",
+      "text": "When taking damage, inflict 3 Poison on the attacker."
+    },
+    "passives.1.response": {
+      "sourceHash": "a4c3ab22911b144a198865b1560e8b2e45e8219717f8b2946579c9a73e9f9bd4",
+      "text": "Leaving low-HP arms alive longer stacks more Poison on attackers. Reach destruction in the same turn where possible."
+    },
+    "passives.2.name": {
+      "sourceHash": "265dc20a3db398c05c184504de51d1c8c2f407652cf9f5b0d12f3c8ca19c02bc",
+      "text": "Molt"
+    },
+    "passives.2.condition": {
+      "sourceHash": "3996d49a7bf1765a08889a42da427b392895da3e811189ac1b240f14abe1e56f",
+      "text": "One arm is broken while the other remains"
+    },
+    "passives.2.effect": {
+      "sourceHash": "d0466c974bc5abe9ead785c9e68961e947cffdd9a5a8e86848607e233a5e9411",
+      "text": "Actual regeneration occurs 2 turns after destruction. The broken arm returns with the same HP as the surviving arm."
+    },
+    "passives.2.response": {
+      "sourceHash": "c04deffbe855d2574718a28a0c82b9a803c478293db88d125b29fcae5d717d28",
+      "text": "Do not leave only one arm broken. Adjust both arms' HP and destroy both before regeneration."
+    },
+    "passives.3.name": {
+      "sourceHash": "8666fb91fb05dac6b5ab8d904066751a9d230fdde23ca24926c0475ae794b12d",
+      "text": "Rotting Skin"
+    },
+    "passives.3.condition": {
+      "sourceHash": "23fdbdda1f119a633b776fbb2ee0f01d6ee346df043ab69efeeb75951f753ed3",
+      "text": "Part HP is below 50% at Turn Start"
+    },
+    "passives.3.effect": {
+      "sourceHash": "adbdd44fbd9c871cc55fcc0a805d9d0d18ba83739eae511ac1f9e422402f7a65",
+      "text": "When taking damage, inflict 3 Poison on the attacker."
+    },
+    "passives.3.response": {
+      "sourceHash": "a4c3ab22911b144a198865b1560e8b2e45e8219717f8b2946579c9a73e9f9bd4",
+      "text": "Leaving low-HP arms alive longer stacks more Poison on attackers. Reach destruction in the same turn where possible."
+    },
+    "passives.4.name": {
+      "sourceHash": "265dc20a3db398c05c184504de51d1c8c2f407652cf9f5b0d12f3c8ca19c02bc",
+      "text": "Molt"
+    },
+    "passives.4.condition": {
+      "sourceHash": "3996d49a7bf1765a08889a42da427b392895da3e811189ac1b240f14abe1e56f",
+      "text": "One arm is broken while the other remains"
+    },
+    "passives.4.effect": {
+      "sourceHash": "d0466c974bc5abe9ead785c9e68961e947cffdd9a5a8e86848607e233a5e9411",
+      "text": "Actual regeneration occurs 2 turns after destruction. The broken arm returns with the same HP as the surviving arm."
+    },
+    "passives.4.response": {
+      "sourceHash": "c04deffbe855d2574718a28a0c82b9a803c478293db88d125b29fcae5d717d28",
+      "text": "Do not leave only one arm broken. Adjust both arms' HP and destroy both before regeneration."
+    },
+    "passives.5.name": {
+      "sourceHash": "e6d5a55824860ac3786d24b6e51541af675071de42e5a56936596355c34a0037",
+      "text": "Pained Writhing"
+    },
+    "passives.5.condition": {
+      "sourceHash": "0a7144d2912469c345f457d2bf8214e2203d6f615919dc8d6d5ada8e2c58284e",
+      "text": "After both arms break"
+    },
+    "passives.5.effect": {
+      "sourceHash": "9acf14a1f686ca3c5a11478c818b5e97969ab870d3697a4cd69edbc3ffb49199",
+      "text": "Each turn, gain 5 Fragile and inflict 10 Poison on all enemies."
+    },
+    "passives.5.response": {
+      "sourceHash": "823001ee72dd51c72af9989b35534b27cb06cf8c5c54353c742b40bacdcfbca2",
+      "text": "This phase builds Poison on Sinners. Exploit 5 Fragile and skill self-damage to finish without delay."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "f5b9ed4ca4694fefa152d934d02ef637548307264a0b83e365f5640551824e62",
+      "text": "Instincts and behavior modes"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "8a2d23634b5fefaaa2ad9857b0ad2b4e60b4835630c21f5f5068304f616c86fe",
+      "text": "Starts at 4. Losing a Clash with Coil Up or Thrashing Arms reduces it by 1. In practice, 0 triggers defensive behavior; Held Breath restores it at Combat Start, and 4 resumes attacks."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "539fa9123de25e541c7d78f78f340d7e3486da8732c27f27fec0e46784e10507",
+      "text": "Unlike other enemies, it does not lose Instincts simply from being hit. Control its mode by winning Clashes against the specified skills."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "344c36a64383f1c8e0e5bbba366286215a651469e8b620080c879454673be339",
+      "text": "Arm regeneration"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "2ec73a8ab52ca8e9bcc8845645e04fda02c707eefc4353c777c4af7306943cb7",
+      "text": "2 turns after one arm breaks, if the other remains, it regenerates with the surviving arm's current HP. Buffs and debuffs on the regenerated Part reset."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "1b5e3122d48550b6728cb62e1434cf7968ee6076f0b5942f9abb422663d294a7",
+      "text": "Normally, break both arms in the same turn. Do not leave the surviving arm at high HP."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "3a5608f2697821a0126aa9ea52027ca53f762b81bf153bc029ad834045dc9c81",
+      "text": "Poison"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "88c3cfbc9815f1c996c364065d0e25b929635be1b691b2e556285cf101fb47db",
+      "text": "At Turn End, take damage equal to this value, then halve the value."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "174328311ab58fb51d6657ca3bb64eec67652b59d10d226284395f3cb0bba608",
+      "text": "Increases when attacking low-HP Parts and after both arms break. Account for Turn End damage and maintain enough remaining HP."
+    },
+    "warnings.0": {
+      "sourceHash": "aa94cf298f54ea1e0e4005ff30586f545a59fa9f776759485e745f84ee83832f",
+      "text": "The description that any value below 4 causes defensive behavior does not match actual behavior. It switches at 0 and resumes attacks when restored to 4."
+    },
+    "warnings.1": {
+      "sourceHash": "5d8da1040e66ea39145542f35a079043814e8a9f719df98d184ab7e459b3ef97",
+      "text": "Actual arm regeneration takes 2 turns. Do not base the plan solely on a description saying it takes 1 turn."
+    },
+    "warnings.2": {
+      "sourceHash": "304c33f98a1fab3771f8d066b04de01fa93bdedbd7f4231da115f2b14e0cbe20",
+      "text": "Removed arms cannot be attacked further. Reassign attacks to the surviving arm or the Body once it appears."
+    },
+    "warnings.3": {
+      "sourceHash": "cb49c315ab0d024f454bc1b3254f33a65bb5a33f55ee83227d405a2f2fc31f05",
+      "text": "Rotting Skin checks Part HP. Do not judge its Poison response solely from overall HP."
+    },
+    "warnings.4": {
+      "sourceHash": "20287c0ab51a65e5c3b16932d880c4bc2e64e948bca895ed0846a5fec3c95e93",
+      "text": "Do not use the stats, skills, or Poison values of the lower-tier, one-armed Slithering Beast."
+    },
+    "preparation.0": {
+      "sourceHash": "5ca9c1fefc89a2d58303ba23a6ab1ad2ba3d602d3c01b1f59f2d2289bd859a6a",
+      "text": "Deploy 5 Sinners against a Lv. 26 enemy with Defense Level 30. Check levels needed to win Clashes and available high-Power skills or E.G.O."
+    },
+    "preparation.1": {
+      "sourceHash": "5cf91b8fe0fe4f33a26f145d6e452233bb969dbe6b1ecd1faddd3ac4ff6f0d49",
+      "text": "Pierce ×1.5 and Sloth ×2 are effective; Blunt ×0.5 is resisted. Prepare enough actions to break both arms together and damage for the Body phase."
+    },
+    "preparation.2": {
+      "sourceHash": "ea9943d04ee4313d966243efc62a098332612e6fc3bc75b7f5592e8c80aff603",
+      "text": "Prepare HP for Poison's Turn End damage. If healing or status removal is available, retain it for survival after arm destruction."
+    },
+    "roles.0.name": {
+      "sourceHash": "e7b8989ffd440dce117dda95b1d0f308c813a359469fa5a92d255f0d9397f41e",
+      "text": "Clash roles that lower Instincts"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a1cbe5ecd96ec577b7a216a01dde29127ed3bab75172477e87624b56703f724a",
+      "text": "Win against the specified skills to create a defensive opening."
+    },
+    "roles.1.name": {
+      "sourceHash": "88cfe9d7e51bb2ff5a68cb6792bd4cd99dfcefc27023ef89ff5a6bff0614d6f5",
+      "text": "Damage to break both arms together"
+    },
+    "roles.1.reason": {
+      "sourceHash": "c2b041f6cde42d1379289e85c3d249c9db227e9dfdec2803d511a8153ba9a00a",
+      "text": "Prevent regeneration and reduce the number of turns spent taking Poison."
+    },
+    "roles.2.name": {
+      "sourceHash": "4ac10c5ae3296ee2710e483500f5a2c1694f75a6c633d8b4002a8bbc1c8516d3",
+      "text": "Pierce and Sloth damage for the Body"
+    },
+    "roles.2.reason": {
+      "sourceHash": "7080c2e814a11137f24d200912875c3f6ca5f383ee3f22c3673643e4201139c0",
+      "text": "Deal damage during 5 Fragile and avoid a prolonged Poison fight."
+    }
+  },
+  "messages": {
+    "boss-copy:wriggling-beast": "complete",
+    "【リンバス】3-22 蠢く異端審問官（3章・2層）の攻略｜Limbus Assistant": "3-22 Slithering Inquisitor (Canto III, Floor 2) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)3-22「蠢く異端審問官（3章・2層）」の攻略。マッチで本能を減らして防御的にし、両腕をそろえて破壊する。片腕を壊したまま放置すると残った腕のHPを基準に再生する。胴体が出た後は毒が増えるため、脆弱…": "Slithering Inquisitor (Canto III, Floor 2) guide for Limbus Company 3-22. Win Clashes to reduce Instincts and make it defensive, then break both arms together. Leaving only one arm broken lets it regenerate based on the surviving arm's HP. Once the Body appears, Poison accumulates; focus damage and finish it while it has 5 Fragile.",
+    "3-22 蠢く異端審問官（3章・2層）": "3-22 Slithering Inquisitor (Canto III, Floor 2)",
+    "3-22「K-02 Branch, Floor 2: Path to the Sanctuary」": "3-22 · K-02 Branch, Floor 2: Path to the Sanctuary",
+    "蠢く異端審問官（右腕）の外見": "Slithering Inquisitor (Right Arm) appearance",
+    "蠢く異端審問官（右腕）のスキル": "Slithering Inquisitor (Right Arm) skills",
+    "Slithering Inquisitor (Right Arm)の外見": "Slithering Inquisitor (Right Arm) appearance",
+    "Slithering Inquisitor (Right Arm)のスキル": "Slithering Inquisitor (Right Arm) skills",
+    "蠢く異端審問官（左腕）の外見": "Slithering Inquisitor (Left Arm) appearance",
+    "蠢く異端審問官（左腕）のスキル": "Slithering Inquisitor (Left Arm) skills",
+    "Slithering Inquisitor (Left Arm)の外見": "Slithering Inquisitor (Left Arm) appearance",
+    "Slithering Inquisitor (Left Arm)のスキル": "Slithering Inquisitor (Left Arm) skills",
+    "蠢く異端審問官（胴体）の外見": "Slithering Inquisitor (Body) appearance",
+    "蠢く異端審問官（胴体）のスキル": "Slithering Inquisitor (Body) skills",
+    "Slithering Inquisitor (Body)の外見": "Slithering Inquisitor (Body) appearance",
+    "Slithering Inquisitor (Body)のスキル": "Slithering Inquisitor (Body) skills"
+  }
+}

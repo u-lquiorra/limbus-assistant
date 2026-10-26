@@ -1,0 +1,409 @@
+{
+  "kind": "boss-copy",
+  "id": "quadruped-beast",
+  "source": "src/data/bosses/quadruped-beast.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "狂乱",
+          "en": "Frenzy",
+          "id": "Enrage",
+          "category": "status"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "狂乱"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "ab577a501c5975deb3b38f79a3aa08aedcdef4aa7705623895a138f2bf307f2d",
+      "text": "Four-legged Beast (Canto III, Floor 1)"
+    },
+    "shortName": {
+      "sourceHash": "8a62f9a0749bd85995806ff91b14b957c380ebb2e210069b76d0668cb315ad73",
+      "text": "Four-legged Beast"
+    },
+    "stageName": {
+      "sourceHash": "32b5e8c2b66fd664c3bf40f129b8d1a067be37f4c99d0d1ee9ca0d33e0b34f5b",
+      "text": "K-02 Branch, Floor 1: Sealed Area"
+    },
+    "lead": {
+      "sourceHash": "4ff30f70de9406bd258737f479074fc7b9d45f378b36045de4d2ef29b0a51fd1",
+      "text": "Focus damage on one beast instead of damaging both evenly. Each attack hit increases Instincts, leading to Frenzy; at 50% HP or less, Frenzy occurs every turn. Use fewer-Coin skills or defense against the beast you are not finishing yet, and defeat them one at a time."
+    },
+    "listLead": {
+      "sourceHash": "91446f4df18d7ab795cc6af88472c07834d7a372ae19b32e5edde01160ffe6a9",
+      "text": "Focus damage on one enemy rather than lowering both evenly. Hits strengthen them, so minimize attacks on the one you are not killing yet."
+    },
+    "statNote": {
+      "sourceHash": "0903f61fdd6ca3266cd319eb5776821f29e2b7f4980ca14bcc05e65fc8db67d1",
+      "text": "The Floor 1 boss battle in the Canto III dungeon: 2 Four-legged Beasts at Lv. 25 with 361 HP each. This does not include the Lv. 28 versions encountered earlier or Crawling Inquisitors. The Stagger Threshold is 25%, but its corresponding HP value is unconfirmed."
+    },
+    "skillNote": {
+      "sourceHash": "d0f8068350b601a4f7c383f2a750715bdef580ef04cdd0c70aefff1efa486094",
+      "text": "Sharp Alertness has inconsistent values: a 2–10 Power range, 2 Coins, and +8 Coin Power. Its displayed Power and Base Power are therefore marked unconfirmed. Other skill ranges also exclude Frenzy's 3 Attack Power Up."
+    },
+    "priorities.0": {
+      "sourceHash": "8784c0aa13056a1476469f5415a3cfe7f3d9c21513a4461247276045f62b0fdb",
+      "text": "There are 2 identical beasts. Focus attacks on one without unnecessarily raising the other's Instincts."
+    },
+    "priorities.1": {
+      "sourceHash": "144c1f7bc0fefdd0f8a9940bcf81e26fc33eb789f31b4ee8b1dbcb88399afd7d",
+      "text": "Each attack Coin hit adds 1 Instincts. At Turn End, 4 or more triggers Frenzy. Damage from statuses such as Burn and Bleed does not cause this increase."
+    },
+    "priorities.2": {
+      "sourceHash": "3231bfe42b01580c129182a2375415de0683829a6790d97e1e18d5d7a9fadb48",
+      "text": "At 50% HP or less, Frenzy occurs every turn. Do not leave a beast near half HP; continue through Stagger to the kill."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "98a51c48f0bbb5c25f2d45e506f754cc8025f94c63c5ae392ad314e6f243575d",
+      "text": "Both enemies suddenly became much stronger"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "71f3f2c159a14c56eadff5dd582e4f76bccf698903ac1af65c032a2822b8fffc",
+      "text": "Splitting attacks evenly can raise both enemies to 4 or more Instincts, triggering Frenzy together. Focus on one and handle the other with defense or fewer-Coin skills."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "7c4020555a04add9c6e8987d9565fdf73fc02056662ba613ebc3e26d834ac3c9",
+      "text": "Instincts rose sharply after only one skill"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "44570b3554c3962f475a1aca26236bfd6fb6c8efb62bd2862fcd100d21ac1449",
+      "text": "It increases for each attack Coin that rolls and hits, not just once per skill. A skill landing 4 Coins can reach 4 in a single use."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8824ec4160b34ef12a9596eb8e92251fc5fc9855f5c0a17aba33e2ea1d7a3f10",
+      "text": "Frenzy activates before I can Stagger it"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "fe08af6cdf866be102ee87e48a8aa70a530c337aa7097d02a716c0e7cd941447",
+      "text": "Its Stagger Threshold is deep, at 25% HP. At 50% HP or less, it enters Frenzy every turn, so concentrate strong attacks from around half HP onward. Avoid chipping away at both enemies."
+    },
+    "units.0.name": {
+      "sourceHash": "8a62f9a0749bd85995806ff91b14b957c380ebb2e210069b76d0668cb315ad73",
+      "text": "Four-legged Beast"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "35af70ecd054d8a0dc933798448dcf19459bead58b7b52f81ab0cbed7c8457ff",
+      "text": "25% (HP value unconfirmed)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "b4679fee21f57ef2371cb8a35c83bd40496155259c5595e05f7465be42c7a765",
+      "text": "2 identical enemies. Parts cannot be broken. Slash and Wrath are effective; Pierce is resisted."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "ee828e70e2c718d51c11dc58829216e4e74ad4c61573c36b35faeac1483dc7c5",
+      "text": "Frenzy occurs every turn at 50% HP or less, before the Stagger Threshold is reached."
+    },
+    "phases.0.timing": {
+      "sourceHash": "7f9a11971c473becb63ecd7b058e9926f879745cb03e2792317386921b79c3a2",
+      "text": "Opening / 3 or less Instincts"
+    },
+    "phases.0.title": {
+      "sourceHash": "e4d0d51d0fa583bf767a1c468e7d6fadbbd6988a07c35f7ffd00451072fbaccb",
+      "text": "Choose one enemy to finish first"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "b1f87ef693269643d24549065cd000d9edadad01d923454d25b1169d5d67f38e",
+      "text": "Focus Slash and Wrath damage on one beast. Take only necessary Clashes against the other, using defense or skills with 1–2 Coins."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "c74ee3e968955a25b0e9b93aac866dab7230e01a5338b12cd09829e26d3adde0",
+      "text": "Hitting both with many-Coin skills raises their Instincts with each damaging hit. Before using multi-target attacks, check whether you can handle both enemies entering Frenzy."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "93b041b734488a933ed17bd25534aaf241c893c74fdb417073de66ebd4c23b18",
+      "text": "At 3 or less Instincts, the usual pattern is 1 attack and 2 Evades. Defense Skills can Offset Evade, so there is no need to force hits on the beast you are not finishing yet."
+    },
+    "phases.1.timing": {
+      "sourceHash": "1652de03381d84bca3114925a99c6625e4c7fc1e8d09fc778400ac7688e54756",
+      "text": "4 or more Instincts / 50% HP or less"
+    },
+    "phases.1.title": {
+      "sourceHash": "c14734368a766c89294572b2a35de6370b9a4eb0f0e8529f864311e4f53c42d4",
+      "text": "Block enhanced attacks and exploit Fragile"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "15e269e4468cb880eb2dfe42b21c4e0c3e5722b0349b78f1efe5678edbc9d855",
+      "text": "At Turn End, 4 or more Instincts triggers Frenzy, granting 3 Attack Power Up and 3 Fragile for 1 turn and changing behavior. During Frenzy, taking damage does not add Instincts."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "9cdca14c1d3328890105f812307a4f26d2d74fdacc6ea537a8fde693cd890696",
+      "text": "During Frenzy, all slots become attacks. Tear Apart's Bleed and Fragile, and Furious Chase's Count increases, are dangerous. Do not judge them solely by unmodified Power; block with strong skills or E.G.O."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "b1dd7cd9a69b1bfccac48ad0dd078732b754d7544339f979ba941f93476521b0",
+      "text": "The 3 Fragile also creates a chance to finish it. If aiming to Stagger it before it acts, check the order of fast Sinners' unopposed attacks and the Clash roles. If too slow, maintain Clashes against dangerous attacks."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "ac6552932badd506630fc84b105283deb2605be6a14bbd4d8c745c7aaa91e227",
+      "text": "At 50% HP or less, Frenzy occurs every turn regardless of Instincts alone. Do not leave a wounded beast alive; push through the 25% Stagger to the kill."
+    },
+    "phases.2.timing": {
+      "sourceHash": "294fa2184ce2cbad83d649768c5c7b2d1f9637bad3aa1737189c85ecaa6c03d8",
+      "text": "After defeating one beast"
+    },
+    "phases.2.title": {
+      "sourceHash": "8bf5d06c4a072235c228311b4f788b38c49914a039137768a4eed6a84664e010",
+      "text": "Repeat the process on the survivor"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "5ecf368fe654e87dfbd436fea7cc6f9caedaf4f1caa84eeb515d84bde0f2a85d",
+      "text": "Choosing one enemy to finish first reduces the burden of facing 2 Frenzied beasts at once. Check the survivor's Instincts, HP, and current skills."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "af330380e6b7a43e16000db3998a1563a1ae5525cb1d1eaf85c62607c04a6a69",
+      "text": "Restore HP for allies with lingering Bleed or Fragile, then focus attacks on the remaining beast. Sharp Alertness's Power is unconfirmed; do not rely on one fixed number to decide whether an attack can beat it."
+    },
+    "skills.0.name": {
+      "sourceHash": "1442539c71bbffd0ae9782eb6fa9efc75a21c2d7fedec0ca61d0bb7e4bd12c41",
+      "text": "Violent Scratch"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "819de87b2f6c934ddb01db5af207ba8e968047475e7c0a39dc167c026eb494da",
+      "text": "Ⅰ[On Heads Hit] Inflict 1 Bleed next turn."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "5c8683ffbe75310111eb6b90475c1bf73290433c6a98218f39d11a8abe2a2f1f",
+      "text": "Ⅱ[On Heads Hit] Inflict 1 Bleed next turn."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "17a2a66038d7aca72a2afa834f476d3afb833426f6e1da4adda0ca46c6288883",
+      "text": "Ⅲ[On Heads Hit] Inflict 1 Bleed next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "1c0205817101e018b8f2206faf55c8fd46d76527692da6b64072f45ed77805f2",
+      "text": "Each of the 3 Coins inflicts 1 Bleed next turn on a Heads hit. Against the beast you are not focusing, use defense or fewer-Coin skills rather than many-Coin attacks to limit Instincts gain."
+    },
+    "skills.1.name": {
+      "sourceHash": "0a8ad71c593a20fdd15e1f2c1f6339c2316cb23c5291efa3797b756689b5940e",
+      "text": "Rabid Ram"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "72d57d8db4875b4ec8589b0af10d60ec418d5a454695de4f5088954541297675",
+      "text": "Ⅰ[On Hit] Inflict 1 Bleed next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "c202a75f6d34854455d8afbe41783a37916bd7e435a7358728d253a9bc06697a",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "f5971a02186cc077219f385d8f1c1297284cbd1cc0ef41a36c5091e23c9f3d21",
+      "text": "Both Coins inflict 1 Bleed next turn on hit. It is also used outside Frenzy, so take necessary Clashes using the current prediction rather than treating it as harmless."
+    },
+    "skills.2.name": {
+      "sourceHash": "35fae7c15c1b70b32b4a2f251cdf850795b629759e26de2d7ebdc964c0a4f4ff",
+      "text": "Tear Apart"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "d1ceb8c44e4688b041cf6dc4f316eb57c109a5557461e0d64626d7fca0fdeca7",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed next turn."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "7aa6d47f9792a857349ac6b9dd0498ff9c0a57c0c12d9af17b9dc6c98443c7de",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed next turn."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "a683cf3c9a1798c9c03e3b19d8929e137e17b8f5cd60a9d0ebb5c5a81cc096cb",
+      "text": "Ⅲ[On Hit] Inflict 4 Bleed next turn."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "962139aed43d2179d6e0360fefbeb921033d1add9ffe2d1cc6319b40453fb4c4",
+      "text": "Ⅳ[On Hit] Inflict 4 Bleed next turn."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "27c6ef71cc0265560c5f38be4fff621ff9740836135a6d46430de51f588e9ea4",
+      "text": "Each of the 4 Coins inflicts 4 Bleed and 1 Fragile next turn on hit. Its unmodified maximum Power is only 7, but Frenzy adds Attack Power Up, and hits worsen next turn's damage as well. Block with a strong skill."
+    },
+    "skills.3.name": {
+      "sourceHash": "81d5e3f6db5e27dad3cc7fc0ecb034778066be86422e14c112dd569545f55971",
+      "text": "Furious Chase"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "c6b05aad6585e209cc5acd26c747d3904ff22f5e9ec1c190b72271a135ee9d44",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 6 next turn."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "5ee6815f7e206b3c3c755bc9b5bf3aa10e90bce0d0b00a0c3a9a14e864d0861a",
+      "text": "　[On Hit] Increase Rupture Count by 6 next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "c68eabf978acd349df2aa9c8900df28aa0385f6b758c5bb17eeae794526c22c6",
+      "text": "A Minus Coin skill with Base Power 13 and Coin Power −10. On Hit increases Bleed Count and Rupture Count by 6 each next turn. Take a strong Clash rather than looking only at the low end of the displayed range."
+    },
+    "skills.4.name": {
+      "sourceHash": "18aeecad6d200c44f376a4441d53efecfbe226ee4e75287ab8df268440acb7dd",
+      "text": "Sharp Alertness"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.4.label": {
+      "sourceHash": "346f06e46bc228adf14b8005615d59e7f485d12e8fd29fee9857e6f09b710cd9",
+      "text": "Power range and Coin values are inconsistent"
+    },
+    "skills.4.response": {
+      "sourceHash": "65f11aec80a77d058dae1abdc74228a0b5c235a6b50f15d2b6c7e29021af1660",
+      "text": "An Evade skill whose Power range and Coin values do not agree, so its maximum is not treated as confirmed. Each successful attack adds Instincts; avoid forcing many-Coin attacks through the other beast's Evade. Use defensive Offsetting as well."
+    },
+    "passives.0.name": {
+      "sourceHash": "df072d75dd65b2a65c43eba229ce157b71541d90508e0a04ad7be847f4d53ad3",
+      "text": "Amplified Aggression"
+    },
+    "passives.0.condition": {
+      "sourceHash": "89fd53a22ab8d814619ba8db94275cc27a7631fb5a0989fb9c0d598bd0e9026f",
+      "text": "Take damage from an attack"
+    },
+    "passives.0.effect": {
+      "sourceHash": "06e950942e0184317af0549d521a425e252dd164cecc32fde03454661382319e",
+      "text": "Gain 1 Instincts. At Turn End, enter Frenzy if Instincts is at least 4."
+    },
+    "passives.0.response": {
+      "sourceHash": "2105f866e01005969863ba3364d165fabe36470ba7e74bb83be64b28ad9f48ca",
+      "text": "More Coin hits mean more Instincts. Avoid unnecessary attacks on the enemy you are not finishing yet."
+    },
+    "passives.1.name": {
+      "sourceHash": "c23786c235019bf308fdfa9fd78afa98fd534892fb313ac9a76f3e6b00fae8c9",
+      "text": "Frenzy"
+    },
+    "passives.1.condition": {
+      "sourceHash": "062f8d3e02690d55003b53d3e6bf686c12d0e792d427a0a3e84083a42ecb3c77",
+      "text": "Enter Frenzy"
+    },
+    "passives.1.effect": {
+      "sourceHash": "4f55d6c843ef3bbd323f36bf5f253337f463dd531029d3d34cbedbed27556a8e",
+      "text": "Gain 3 Attack Power Up and 3 Fragile, and change behavior. While Frenzied, taking damage does not increase Instincts."
+    },
+    "passives.1.response": {
+      "sourceHash": "d69fb9b2bf68da919928a199fc5221195c4ea5fa6eaf4e3c24de00874f478812",
+      "text": "Block strong attacks and aim to Stagger or finish the enemy while it has Fragile."
+    },
+    "passives.2.name": {
+      "sourceHash": "b2c86b120c907d3615090f1ef96903038d3b6e1807618308949a3c907a3002fd",
+      "text": "Shimmering Rage"
+    },
+    "passives.2.condition": {
+      "sourceHash": "bc0449b2af3bec224fedb7aaadfecd6952adc3fed2fcc0400961c76e72a5c500",
+      "text": "50% HP or less"
+    },
+    "passives.2.effect": {
+      "sourceHash": "1073c1dc09b49e63aa1a8446a65cf97d98b805f69512df2503f54f1bdfea0891",
+      "text": "Enter Frenzy every turn."
+    },
+    "passives.2.response": {
+      "sourceHash": "6811dd8ed7140daffadd09b48c1cf608214ff60fac2746a90e66231a6a69d695",
+      "text": "Do not leave it at half HP. Defeat one beast before moving to the other."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "8986385c6857c7dc5acf220885bb9403a37cd97b5b7617469833a8787d35c8a5",
+      "text": "Instincts"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "48f6225152ae051d853072bef09eaa51ab975d8232809fec1d8a6a23a55901cb",
+      "text": "Increases by 1 for each damaging attack Coin hit. At 4 or more at Turn End, enter Frenzy. Damage from statuses such as Bleed does not increase it."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6a9588c8053d7030322724f78f57352fb98d4d617f74614eb795099b8372d24c",
+      "text": "This works opposite to enemies whose Instincts decrease when hit. Do not divide attacks evenly between the 2 beasts."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "c23786c235019bf308fdfa9fd78afa98fd534892fb313ac9a76f3e6b00fae8c9",
+      "text": "Frenzy"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "26eba4c405ecb94ff78c257254ba4d0df1e5028f7f75022d3df802d5eccac7dd",
+      "text": "Grants 3 Attack Power Up and 3 Fragile for 1 turn and changes behavior. Taking damage no longer grants Instincts. Occurs every turn at 50% HP or less."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "13bcfdde89d4e1aaa8a1671db00b06df3aa83039983139b1d27676065829907a",
+      "text": "Win against dangerous attacks and exploit the increased damage taken to finish the target."
+    },
+    "warnings.0": {
+      "sourceHash": "a525c8e4dc16fb5923266cc8e556b33944ccc35a146c0b9719cd81bcf30c22c8",
+      "text": "This fight contains 2 Lv. 25 beasts. Do not use a different encounter's plan that starts by defeating Crawling Inquisitors."
+    },
+    "warnings.1": {
+      "sourceHash": "d03e21eefab9ea9c0d6cb6e8e390a5ccb4b1e39865f38aa177059d7cd596d794",
+      "text": "Instincts increases per Coin hit, not once per attack skill."
+    },
+    "warnings.2": {
+      "sourceHash": "a7dda34d8f40be8740b3bef5f468146017242bdc9e3e474bf71d28a7f2d273c0",
+      "text": "Recurring Frenzy at 50% HP or less activates before the 25% HP Stagger Threshold."
+    },
+    "warnings.3": {
+      "sourceHash": "3d83af94b17e556d7798dacabb6e8a9055e1568bc05d10d355744706cbc42d09",
+      "text": "Sharp Alertness has inconsistent Power values. Neither the listed 2–10 nor the calculated 2–18 range is treated as confirmed."
+    },
+    "preparation.0": {
+      "sourceHash": "0b9ba449039487d62ed0f4889dc28ab1c6d69aabd05679ce05a882c3f902bb73",
+      "text": "Deploy 5 Sinners. The Floor 1 bosses are Lv. 25. Prepare core Slash and Wrath attackers, plus fewer-Coin skills and defense for the enemy you leave alive."
+    },
+    "preparation.1": {
+      "sourceHash": "1d3fa33385fc42e141da98930b88cd78bd1e42517a06451ec63fd1f3d42d7218",
+      "text": "Reserve skills or E.G.O that can beat Frenzy's increased Power. Offset Evade as well to avoid unnecessary Instincts gain."
+    },
+    "roles.0.name": {
+      "sourceHash": "a8164a8221987520d71f2e4671772a8f0ee8cf70e906c02ce2828931fb72082a",
+      "text": "Slash damage to finish one enemy"
+    },
+    "roles.0.reason": {
+      "sourceHash": "96b43607d110d31162a18f348b90fe6a20a36405ba4efc770d31852b68355b72",
+      "text": "Avoid leaving both in Frenzy; push from 50% HP through Stagger to the kill."
+    },
+    "roles.1.name": {
+      "sourceHash": "c781db8f7dcb89bb7edbae7f6d45dfb849adf21b23712a9bfcccf3b370119914",
+      "text": "Fewer-Coin skills and defense"
+    },
+    "roles.1.reason": {
+      "sourceHash": "e5b972604dbb008da7e81a33b8d392f7e46d057a3d26c7ae50d5bc1e573c6067",
+      "text": "Limit Instincts gain on the enemy left for later."
+    },
+    "roles.2.name": {
+      "sourceHash": "95d3acd84f44f343e18c63bb213136a1039b98137ebfebb38dc47fc4976b638a",
+      "text": "High-Power Clashes against Frenzy"
+    },
+    "roles.2.reason": {
+      "sourceHash": "6e4bda98d5284bcc2cfa741011ef3b97e9c9e156e3d40bb1aaa70d81ca0da965",
+      "text": "Prevent many-Coin attacks from inflicting Bleed and Fragile."
+    }
+  },
+  "messages": {
+    "boss-copy:quadruped-beast": "complete",
+    "【リンバス】3-22 四つ足の獣（3章・1層）の攻略｜Limbus Assistant": "3-22 Four-legged Beast (Canto III, Floor 1) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)3-22「四つ足の獣（3章・1層）」の攻略。2体を均等に削らず、片方へ火力を集める。攻撃の的中ごとに本能が増えて狂乱し、HP50%以下では毎ターン狂乱する。今倒さない方への攻撃は少ないコインや守備で…": "Four-legged Beast (Canto III, Floor 1) guide for Limbus Company 3-22. Focus damage on one beast instead of damaging both evenly. Each attack hit increases Instincts, leading to Frenzy; at 50% HP or less, Frenzy occurs every turn. Use fewer-Coin skills or defense against the beast you are not finishing yet, and defeat them one at a time.",
+    "3-22 四つ足の獣（3章・1層）": "3-22 Four-legged Beast (Canto III, Floor 1)",
+    "3-22「K-02 Branch, Floor 1: Sealed Area」": "3-22 · K-02 Branch, Floor 1: Sealed Area",
+    "四つ足の獣の外見": "Four-legged Beast appearance",
+    "四つ足の獣のスキル": "Four-legged Beast skills",
+    "Four-legged Beastの外見": "Four-legged Beast appearance",
+    "Four-legged Beastのスキル": "Four-legged Beast skills"
+  }
+}

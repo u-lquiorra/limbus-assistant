@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0108.md",
+  "code": "0108",
+  "messages": {
+    "スキルを捨ててバリアを張りながら、挑発値で攻撃を引き受けつつ打撃で殴る、タンク兼アタッカー。沈潜は副次的。": "A tank and Blunt attacker who Discards skills for Shield, draws attacks with Aggro, and hits back with Blunt skills. Sinking is secondary.",
+    "捨ててバリア: S1「知識消耗」・S2「締め閉じる」は使用時にランクが最も高いスキル1つを、守備「探求没入」は使用時にランダムなスキル2つをランクが低い順に捨てる。各スキルは捨てられると「探求した知識 × 体力最大値の一定%」のバリアを得る(S3「知識の加護」が捨てられたときが最大の9/12%)。探求した知識は最後に捨てたスキルのランク。": "**Discard for Shield**: S1 Expend Knowledge and S2 Seal Shut each Discard 1 of his highest-ranked skills on use. His defense skill, Fixated Study, Discards 2 random skills in ascending rank order. A Discarded skill grants Shield equal to Insight × a percentage of his Max HP; Discarding S3 Grace of Knowledge gives the largest percentage, 9%/12%. Insight becomes the rank of the last skill Discarded. Slash-separated values indicate different Uptie tiers.",
+    "挑発: S2(挑発値3)・S3(挑発値8/10)・守備(挑発値3/5)は、次のターンにそのスロットが挑発値を得る。": "**Aggro**: S2, S3, and defense give their slot Aggro next turn: 3 from S2, 8/10 from S3, and 3/5 from defense.",
+    "打撃の主力: S2は3コイン、S3は4コインの打撃スキル。S3は捨てる効果を持たないため、使ってもバリアは得ない。S3は自分の体力が50%未満ならコイン威力+1。": "**Main Blunt attacks**: S2 has 3 Coins and S3 has 4. S3 does not Discard, so using it does not grant Shield. S3 gains +1 Coin Power below 50% HP.",
+    "バトルパッシブ「沈む知識」(怠惰×3・保有・同期化Ⅱで取得): 被ダメージ時、攻撃者へ沈潜1を付与。バリアがある間は追加で沈潜1を付与(最大4回)。": "**Combat passive — Sinking Knowledge (3 Sloth Owned; unlocked at Uptie Ⅱ)**: When taking damage, inflicts 1 Sinking on the attacker. While he has Shield, inflicts 1 additional Sinking, up to 4 times.",
+    "S1・S2を使って高ランクのスキルを捨て、バリアを得ながら次のスキルを引き寄せる。捨てる効果で手札が回るぶん、強いS2・S3を使う回数も増やせる。挑発値を得るS2・S3・守備で攻撃を引きつけ、バリアで受けながら打撃で削る。「沈む知識」の沈潜は被弾のたびに少しずつ積むおまけ程度。沈潜が少ない相手にマッチで負けるとかえって相手の精神力を回復させるので、沈潜を当てにしてマッチを捨てる必要はない。": "Use S1 and S2 to Discard high-ranked skills, gain Shield, and draw further into his skill pool. Faster cycling also lets him use his stronger S2 and S3 more often. Draw attacks with the Aggro from S2, S3, or defense, absorb them with Shield, and deal Blunt damage in return. Sinking Knowledge adds a little Sinking each time he is hit, but treat it as a bonus. Losing a Clash against an enemy with little Sinking can instead restore that enemy's SP; there is no need to give up Clash Wins just to trigger the passive."
+  }
+}

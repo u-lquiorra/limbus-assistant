@@ -1,0 +1,1070 @@
+{
+  "kind": "boss-copy",
+  "id": "old-sea-thread",
+  "source": "src/data/bosses/old-sea-thread.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "古き捕食者の本能",
+          "en": "Instinct of the Predator of Eld",
+          "file": "Bufs-a1c10p2.json",
+          "id": "AngryBlackYarn"
+        },
+        {
+          "ja": "子を失ったもの",
+          "en": "Bereaved of Child",
+          "file": "Bufs-a1c10p2.json",
+          "id": "BlackYarn_LowMorale"
+        },
+        {
+          "ja": "子を失ったもの",
+          "en": "Bereaved of Child",
+          "file": "Bufs-a1c10p2.json",
+          "id": "BlackYarn_Panic"
+        },
+        {
+          "ja": "黒く固まった糸",
+          "en": "Clumped Black Threads",
+          "file": "Bufs-a1c10p2.json",
+          "id": "HeavyBlackYarn"
+        },
+        {
+          "ja": "黒い水たまり",
+          "en": "Pool of Black Water",
+          "file": "Bufs-a1c10p2.json",
+          "id": "HideBlackYarn"
+        },
+        {
+          "ja": "ほつれ落ちる黒い糸くず",
+          "en": "Bursting Blackstitch",
+          "file": "Bufs-a1c10p2.json",
+          "id": "SickBlackYarn"
+        },
+        {
+          "ja": "絡まり",
+          "en": "Tangling",
+          "file": "Bufs-a1c10p2.json",
+          "id": "TangleBlackYarn"
+        },
+        {
+          "ja": "古き海の黒い糸",
+          "en": "Blackthread of the Elden Sea",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1503"
+        },
+        {
+          "ja": "止まらぬ慟哭",
+          "en": "Ceaseless Wailing",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150301"
+        },
+        {
+          "ja": "絡まった黒い糸",
+          "en": "Tangled Black Thread",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150302"
+        },
+        {
+          "ja": "古き海の中へ",
+          "en": "Into the Waters of Eld",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150303"
+        },
+        {
+          "ja": "まだ乾かぬ水気",
+          "en": "Lingering Dampness",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150304"
+        },
+        {
+          "ja": "返して…",
+          "en": "Give It Back...",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150301"
+        },
+        {
+          "ja": "よこせ…。",
+          "en": "Hand It Over...",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150302"
+        },
+        {
+          "ja": "奪わないで…。",
+          "en": "Don't Take It Away From Me...",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150303"
+        },
+        {
+          "ja": "絡まりに絡まった",
+          "en": "Coiled and Tangled",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150304"
+        },
+        {
+          "ja": "古きものの身悶え",
+          "en": "Thrashing of an Elden Being",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150305"
+        },
+        {
+          "ja": "絡まり",
+          "en": "Tangling",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150306"
+        },
+        {
+          "ja": "奈落の顎門",
+          "en": "Abyssal Maw",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150307"
+        },
+        {
+          "ja": "洗い流す",
+          "en": "Cleansing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150308"
+        }
+      ],
+      "note": "Names follow paired Canto X part 2 records. Body and part HP parentheses and unconfirmed Stagger positions remain explicitly uncertain. Tangling reduction requires defense use, while Give It Back checks equipped defense. Cleansing win/loss perspectives, per-skill pool reduction, forced turn ends, negative Coins, and Panic conversion are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "2a3a81a650a3cd40447a0a0513121efb1e7795ffa68f9156a52dce906a2a478a",
+      "text": "Blackthread of the Elden Sea (Canto X, Route B)"
+    },
+    "shortName": {
+      "sourceHash": "1a4c57a446740c659cad6843e704c57a3bbc064cb15e302174ba9c7dc22ddfb5",
+      "text": "Blackthread of the Elden Sea"
+    },
+    "stageName": {
+      "sourceHash": "36c03e1f5d7cea88e79ccd2d31935911f46b34d0dc970adeab1b988ea396f7b9",
+      "text": "Sisyphus Department Store B, 5F: Corridor"
+    },
+    "lead": {
+      "sourceHash": "9874d68555cf58bf19bbdea058e1fb3d6a2807f588783ce2a62cd7b5e2da268b",
+      "text": "Reduce Tangling through defense and Cleansing to prevent Abyssal Maw's reuse. Staggering a part ends the turn, after which the enemy hides in a Pool of Black Water. Remove the pools with multiple Attack Skills, then prepare for predation and attacks concentrated on Pwie."
+    },
+    "listLead": {
+      "sourceHash": "f7b97be6628f8fb0360d5f573fbe27273b784ef712243f9c0fbfc60363c04cdd",
+      "text": "Reduce Tangling through defense and Cleansing to prevent Abyssal Maw reuse. Part Stagger ends the turn and brings Pool of Black Water next turn. Clear pools with multiple Attack Skills, then prepare for predation and attacks on the Assist Unit."
+    },
+    "statNote": {
+      "sourceHash": "5000a57868e0ddf75f5bf9efa01dd291d868b2310ae6e6901997865d41410c6c",
+      "text": "Covers the Route B, 5F encounter in Canto X. Lv. 65, base Defense Level 67, Speed 1–2. Listed HP is body 6,022 (6,691), each arm 1,989 (2,209), and torso 2,650 (2,944); whether the parenthesized values represent starting or maximum HP is unconfirmed. Stagger percentages and some threshold positions are also unconfirmed; do not reverse-calculate percentages. Yi Sang, Meursault, and Gregor are required; up to 12 Sinners can deploy. Identity levels in this dungeon follow Customer Level, and Identities below Uptie III are raised to III; E.G.O Threadspin is unchanged."
+    },
+    "skillNote": {
+      "sourceHash": "d65de9c4859a110c6d2b63b8a7e222a312db770c44376a97af37bbb2b6a264c3",
+      "text": "All Coins are negative. During Panic, every Coin becomes Unbreakable, so winning a clash cannot fully prevent hits. Cleansing is a Counter used by each part. Clumped Black Threads increases Clash Power on arm skills, but lowers it on the torso's Thrashing of an Elden Being and Tangling."
+    },
+    "priorities.0": {
+      "sourceHash": "271f9af27dec8c04c98b02a4bbc3d42116397890f445db5764027fc7f01a6f01",
+      "text": "Intercept attacks on Pwie at the opening and during Panic. Watch for extra Power if Pwie remains the main target."
+    },
+    "priorities.1": {
+      "sourceHash": "e5b6c2faf50e2a375b910e6104ec348cf454bf75b5abef722eefd80aeef826c9",
+      "text": "Reduce Tangling by using defense or Cleansing. Do not let Staggered Sinners or those with 20 or more Tangling receive Abyssal Maw."
+    },
+    "priorities.2": {
+      "sourceHash": "b26200bf4514f29e7348317d1ed75b60b568935fc1c8ecdb1d506ea59bd9773d",
+      "text": "Remove the post-Stagger Pool of Black Water with the number of Attack Skills, not Coin count."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "dc6c3ba0328681b23f623a77676cd80910376d5679275e5ab93eb62cf439ee2c",
+      "text": "A lethal follow-up occurred despite winning the clash"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "ee7c21d1f43898d58d30d81fde0a7090bde73a1108f4cf315d974fbc5bd89e78",
+      "text": "On Hit, Abyssal Maw reuses its Coin if the target is Staggered or has at least 20 Tangling, dealing fixed damage equal to 150% max HP. During Panic, Unbreakable Coins remain after a clash win; choose a healthy recipient with little Tangling."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "b16112f7f37c79e236407a97fbbfaf94845e648b8418a741f88715fa8ee0db40",
+      "text": "Attacks focus on Pwie and the enemy's Power is high"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e80004989ef57a4e41d7a814fee51b471cb619fcf5122bc1c2b3f9da2f55cfab",
+      "text": "The enemy starts Panicked and targets Pwie with every attack during Panic. Leaving Pwie as the main target increases Base and Clash Power. Intercept with Sinners, using clashes available regardless of Speed too."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "8938cb2f7c206288880d77598cf049037671a8b720e634df788f8d004e693264",
+      "text": "Tangling did not immediately decrease after selecting defense"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "d2f620134e364aad4124218ec054b5f9638ef43ec4b3bf37cda315f3a02cdbbd",
+      "text": "Tangling decreases when a Defense Skill is used, removing half the current Stack, rounded down. Merely equipping defense does not instantly remove it. Ensure an opportunity to use defense, and use a clash with Cleansing to remove it all."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "06c28732df1ef0f900e3b18fb85590fc55abfe3fcd4e1d07e9ae0730e0a506ca",
+      "text": "Stagger ended the turn and my attacks stopped dealing damage"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "b3cddf32a9e28256273529f05275b4dfea3ae9205577c7a837bf3ce364e704c1",
+      "text": "Staggering a part forcibly ends the turn, and all parts gain Pool of Black Water next turn. Its 100% damage reduction changes the usual approach of focusing damage during Stagger. Hit each part with Attack Skills to reduce pool Potency."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "71fbe978580fee54cc879155f9b22d72eab42b5682881e97b0a3d806e41b1823",
+      "text": "A multi-hit attack barely reduced the pool"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "c3cc5cc6003f4e9a77805a05ba0c462de89403e77832c50c9f637460e42a744e",
+      "text": "The pool loses Potency only once per skill when hit. Use multiple skills rather than one with many Coins. It also expires over time, but that grants Instinct of the Predator of Eld next turn; prepare for the buff."
+    },
+    "phases.0.timing": {
+      "sourceHash": "e24c7b130f7c09a6022e13aca27ccf9c488769925a64e1f5cafb25c180465ea2",
+      "text": "Before the 5F battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "4812b766640b0142a4d0851deedcc04a3c0986fdecaa031d4a5ec33df922cb73",
+      "text": "Prepare Pierce damage and defense to reduce Tangling"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "80ee2eade0403285cb87f0352021ca4aca9eeb84a606e570848b4909bbf5c419",
+      "text": "Finish shopping toward Customer Lv. 65 and Diamond rank. Yi Sang, Meursault, and Gregor are required. Prepare opportunities to use defense and HP recovery; do not rely on only one Sinner to receive Abyssal Maw."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "e9997ee77bfbdd4dcc15cd7567914976b2895bb0ddd3b92f186e452b2264e9c4",
+      "text": "All enemy attacks are Blunt. Check Blunt resistance; offensively, use Pierce 1.2 and Wrath, Lust, Gluttony, and Pride 1.2. Slash and Blunt are 0.8; Gloom and Envy are 0.75."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "1e90bcbebb94d427e8c88e72bbdbc2e0bd7a4c59b4a104c7646f7918b7f4f1d9",
+      "text": "He Who Nails lets Meursault gain 2 extra E.G.O resources matching a used skill's affinity, twice per turn. Its survival effect requires another ally alive at Turn Start, so protect the other Sinners too."
+    },
+    "phases.1.timing": {
+      "sourceHash": "15bcd0a783a6a545ac9fdde0af20c44733f24ada6ad8e13494a1b38150633d30",
+      "text": "Opening and during Panic"
+    },
+    "phases.1.title": {
+      "sourceHash": "63c8b93431ac2235f360b2d7acc72168f84812dafaa9c139a10ebc75f31f1593",
+      "text": "Intercept attacks on Pwie with Sinners"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "19694631b9bdba7884d0d9377289b9a1c4363c03614530baf9f80d60924d4ffe",
+      "text": "The enemy starts Panicked. In that state, all targets are Pwie and all Coins become Unbreakable. Check each slot's target and clash with Sinners."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "39f7a08c757755e0dd01f2bd7188b7c04561659b1d57f5416441c7c2a844519d",
+      "text": "If Pwie is the main target during Panic, Clash Power +6 and Base Power +4. Low Morale also grants +3 and +2. Distinguish the prediction while Pwie is targeted from the values after redirecting to a Sinner."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "dfb967221b63ba7a7b5859bcc26425c7b519716fdcd8659de167ff4209ad97f5",
+      "text": "Many skills are clashable regardless of Speed. Assign recipients with few statuses to Abyssal Maw and attacks that forcibly Stagger targets with at least 15 Tangling."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "1bc5c84d375796ada557db60ed6a21e117fdf812dcbae53521250ae1cb2ba13c",
+      "text": "Panic resets SP to 0 at Turn End, but clash losses can lower it again. Do not assume low SP means safety; check current Unbreakable Coins and targets every turn."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ba734d795bf866e1fa5c5d1de378ab29064e69efa9f5ca70741e6b35d10e5044",
+      "text": "Each turn and when Tangling rises"
+    },
+    "phases.2.title": {
+      "sourceHash": "cf9785a4a7e8992f48ecf611248c1059f83e2abd0e5ac09e95f1c46784eb12ed",
+      "text": "Reduce Tangling and rotate dangerous clashes"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "a8437426b18d401ac669f3a9babdb2dd34c05466648bb2607d24d57ed0118c5e",
+      "text": "Tangling increases damage taken, lowers Base Power by 1 per 10 Stack, and applies Bind next turn per 3 Stack at Turn End. Do not keep assigning strong clashes to a heavily affected Sinner."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "feaf23e04104f782786c6f672088e3fe74563537362f051ec9bfa76d748256f5",
+      "text": "Using a Defense Skill removes half the current Tangling, rounded down. The left arm's Give It Back... deals 90% less damage if the recipient has defense equipped, making it a useful opportunity to defend."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "74290d34ac19b6b030d1d499870745a53d480699934c839c40e2d3769d36494d",
+      "text": "When Cleansing appears, take a winnable clash with a Sinner carrying Tangling. Their Tangling is fully removed regardless of the result. If you win, half that part's Blackstitch remains, rounded up."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "4f7494e7eb631d91862f4901ae36e544f6047e832a8928391637ad6ce88824be",
+      "text": "Abyssal Maw reuses its Coin On Hit against Staggered targets or those with at least 20 Tangling; the reused hit deals fixed damage equal to 150% max HP. Do not rely solely on the post-clash removal of 10 Tangling; rotate to a less affected Sinner."
+    },
+    "phases.3.timing": {
+      "sourceHash": "88823b56000c4e8cde514d193f7091c85c5541d9b3964fd3eb1661acea54a57a",
+      "text": "Attacking during the normal pattern"
+    },
+    "phases.3.title": {
+      "sourceHash": "3ab6c8e3a97b8ff7c964f97653d3031c13b76356f664663b03c8a1edea9ebdaf",
+      "text": "Focus one part and build Blackstitch"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "841ff9789649d6c75cd5c6eef17275ae0f2a1b599b465c88dd10de3da69c2070",
+      "text": "Focus damage on the part you want to Stagger rather than spreading attacks across parts. Arms can still be attacked after destruction. Some Stagger positions are unconfirmed; check the actual gauge too."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "e3d60ae2a0703948907c5a602408d95757599862b5f77f8f23278bc4de6b6f53",
+      "text": "Each hit gives the enemy 1 Bursting Blackstitch, plus 1 more for Slash. It increases damage taken by Stack%, and grants 1 Fragile per 25 Stack at Turn Start. Slash is resisted at 0.8, so weigh Blackstitch buildup against direct damage."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "f30b552140072ac2f879a6328081bbe1b4fc7d94409a2de5ef65fa212d51c2d7",
+      "text": "A hit from a skill with at least 5 Atk Weight grants Clumped Black Threads next turn, once per turn. It increases damage taken but also raises part slot weight. Area attacks may not reach every part; check the target display."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "618bc78192a606527d3c3d27d2c6e7013bd97c20ecc2eb3fc4d9e4727d07639c",
+      "text": "Clumped Black Threads raises arm Clash Power but lowers it on the torso's Thrashing of an Elden Being and Tangling. Check each part's modifier, and finish necessary healing before triggering Stagger."
+    },
+    "phases.4.timing": {
+      "sourceHash": "38e37e7b01c5e9931bcce75ebe9d28eb93d9a7872e966e1e1eef0f50dab2c567",
+      "text": "Part Stagger and the next turn"
+    },
+    "phases.4.title": {
+      "sourceHash": "9c63f906b817b2b92b876188d1525e4121e2300607f953cb544f51a69de6e05c",
+      "text": "Clear pools with multiple Attack Skills"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "fb9908064c4a7478ab0ea0b0c77d64858f27eebbb5aa68532462281926e62366",
+      "text": "When any part is Staggered, each other part loses one Stagger Threshold and the turn ends immediately. Do not plan on all remaining attacks or healing resolving."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "a85b58c33083c5be0fa5e9f44030152f1a2b9df6d3c4541da35ea1f74787498f",
+      "text": "All parts gain Pool of Black Water next turn. They take 100% less damage, cannot be Staggered, and deal 100% more unopposed damage. Keep clashing instead of ignoring attacks, and use spare skills to reduce pool Potency."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "86dedf1ae40cb6d58163427f536e0a6571ad91fd1618bc7d0f9c4b62bd0b50a2",
+      "text": "The pool loses 1 Potency when hit, once per skill. Check each part's remaining value and hit it with multiple Attack Skills. It also loses 1 Count at Turn End and expires when either Potency or Count reaches 0."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "2205096e3b2c54fc06f3cb7f4d3cfc47c74332ed2c9d27511cafb650486e6ebd",
+      "text": "A part whose pool is removed by hits gains 10 Blackstitch. If the gain exceeds the Blackstitch cap, it also gains 3 Fragile this turn and next turn. If the pool expires over time, it gains Instinct of the Predator of Eld next turn; check how it was removed."
+    },
+    "phases.5.timing": {
+      "sourceHash": "ea774c50b4ab07c41b187e7e37ebf8578803616c04ed73d4c58268bfe5451560",
+      "text": "After pools disappear: predation"
+    },
+    "phases.5.title": {
+      "sourceHash": "72a7f0d1eeed39e9fcae0833bb5750a4bbf90d6025d3fdd46bf8e1aa64f3a7a7",
+      "text": "Prepare for repeated Maws and damage the weakened parts"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "a77d5b9b6535092c96450c1eb63f951e73ce8915cbc6ddb9d871d4e28d205715",
+      "text": "Prepare for the predation pattern after pools expire. The torso uses four Abyssal Maws; divide clashes among multiple Sinners and avoid assigning Staggered recipients or those with at least 20 Tangling."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "501f6be318e1574c26809b7e2cd954d5afc46b63b539b07d18e5dd70fefdfbd7",
+      "text": "Each part with Instinct of the Predator of Eld grants +2 Clash Power to all parts. Damage also increases with the recipient's Tangling. After pools expire over time, prioritize strong clashes and Tangling control."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "656402e6e33bb7310b217512607e6bdfb09c091e4d3548a2cd759b97b55eda7a",
+      "text": "Parts with more Blackstitch take more damage. Focus strong attacks after the pools disappear; when the Cleansing Counter appears, also use it to remove Tangling."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "939c870c911537ec199c7d07baf78fb787dea0768980a78a669681e944b6f536",
+      "text": "Damage and Stagger Threshold rise from Burn, Bleed, Tremor, Rupture, and Sinking are reduced by 50%. Do not rely on statuses alone; finish with direct skill damage too."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "35d8bc10da257664ff038baccc86c6e6cb7599163a184873e24fcce2ae88e339",
+      "text": "Tangling"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "bea44d9d5c11075916ce2e840c03ed0f12e3c1288d604c66f24b31bd39b616bc",
+      "text": "Maximum 30. Take +1% damage per Stack and lose 1 Base Power per 10 Stack. At Turn End, gain 1 Bind next turn per 3 Stack, up to 10. Using defense removes half the current Stack, with the amount removed rounded down."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "8dbdac765e4e4463afaac67f8fcd1674b4c0dc91390663436175029440ee8eba",
+      "text": "Reduce it with defense and Cleansing to avoid forced Stagger and Abyssal Maw's reuse condition."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "870655a9c81d08983147946d0577f339fba3d08b7abf5f8fa661fb0e3d00eb1a",
+      "text": "Pool of Black Water"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "37b094b5738902f966629fb03fda5a431f658e67407319133463e1ba868b9a1f",
+      "text": "Maximum 6 Potency and 2 Count. On Hit, lose 1 Potency, once per skill; at Turn End, lose 1 Count. Expires when either reaches 0. Cannot be Staggered, takes 100% less damage, and deals 100% more unopposed damage."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "1aeb8938ce928b501c9ce56ae5b648b0775f3976f525333324f6577e89a86911",
+      "text": "Reduce Potency with multiple Attack Skills rather than Coin count. Keep clashing too."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "671ec44ed159e5d90983a0f1323ef0cb46b9d98154020ab02e5f6a312ab9edf4",
+      "text": "Bursting Blackstitch"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "585cc1e64af846c48a6d4c39b91bd7fb1002655d64286ab3b08d5c45babe2205",
+      "text": "Maximum 50. Damage taken +1% per Stack; gain 1 Fragile per 25 Stack at Turn Start. Increases from hits and pool removal. At 25 or more, the arms may replace Gloom skills with Cleansing; the torso uses Cleansing at 50 on certain actions."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "7b961a2500bd05c5219bea3cbee18fca7944410067a6c3ae0cee3389d30d7f84",
+      "text": "Focus damage on parts with high Stack. Clashing with Cleansing also removes Sinners' Tangling."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "026fd3fc2cfb79cd7138183630da918b19119e55f67253dcf3500e90b97b13dd",
+      "text": "Clumped Black Threads"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "249286f30d4be3003f4ea26639b195edec738331f7b870056800614a907bb04b",
+      "text": "Maximum 5. Increases each part's slot weight by Stack and damage taken by 10% per Stack. Raises Clash Power on several arm skills by Stack, but lowers it on the torso's Thrashing of an Elden Being and Tangling."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "f8b49fa7b8e4d9092c426aa9ad89c4c3fe4e7572c7d762bef9eec4281b37b90f",
+      "text": "Gained from attacks with at least 5 Atk Weight. Weigh the damage benefit against area targeting coverage and increased arm Clash Power."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "e233343734f775f008f468517180f3c2ac69f523823dcab3c64298590a8114a1",
+      "text": "Instinct of the Predator of Eld"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "9b53e8cf11d1f6f44f0c3a0619414440e2a7792a1ccc76ebb263aa84543d63cc",
+      "text": "Each part with this effect grants all parts +2 Clash Power. Damage +5% per 3 Tangling on the recipient, up to 50%. Expires at Turn End. Gained next turn when a pool expires at Turn End."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "60fdc4aae2e9b8b651bc5405d8778497f273879d547fca17ec8476d5c58c7f3f",
+      "text": "After pools expire over time, handle predation with strong clashes and Sinners carrying little Tangling."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "59f1134a432c2cf2ac4ca9d112dba1d56334ca479b0fd2bf78aa7691c4b6414e",
+      "text": "Bereaved of Child"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "f252da3c31d4386dc63af47fc845c845a5c2511b050c1319049ec633864704cf",
+      "text": "At −20 SP or lower, skills against Pwie gain +3 Clash Power and +2 Base Power; inflict 1 Tangling when hit, up to 3 times per skill. At −45 or lower, target Pwie with everything, make all Coins Unbreakable, increase those bonuses to +6 and +4, and inflict Tangling up to 6 times per skill."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "aa4454d07b3ead1d3c58924e0e74af1ac0bcce5207189d69558a1b4db795d941",
+      "text": "Starts Panicked and targets Pwie. Intercept with Sinners; do not treat low SP as a simple debuff."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "1e16179d838d66a5acfa4bc75794487c28f0eec46fff47d2e477ea570ccd96ec",
+      "text": "Meursault gains two extra resources of his skill's affinity on use, twice per turn. With another ally alive at Turn Start, cannot die from damage that turn. Cannot retreat."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "61b63f23600c2c257db2bfc4567fdd05acd12e8e1c5affea924e0c650f56436b",
+      "text": "Use him for resources and receiving attacks while keeping other Sinners alive."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "6ccbbec6326a5fabb8ed1977eca16014b15efc45789be74e8b038fefe63136e3",
+      "text": "Raised through department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "c709e62230eacc52b603cd9574986645a8a27730de1180fc1ca83cadc34d95d4",
+      "text": "Prepare for Customer Lv. 65 and Diamond rank."
+    },
+    "warnings.0": {
+      "sourceHash": "9f0391d410e3c2142ff77668b77a1ce6329b32bdfe3ba5093b9c1a60eb46fb5b",
+      "text": "During Panic, all attacks target Pwie and all Coins are Unbreakable. Expect attacks to remain after a clash win."
+    },
+    "warnings.1": {
+      "sourceHash": "027261e6e0855443d0f38e443bdecf296ac454f9c7b76567722a3b0b69fd8a8f",
+      "text": "Abyssal Maw reuses On Hit against a Staggered target or one with at least 20 Tangling, dealing fixed damage equal to 150% max HP. Check the recipient's condition first."
+    },
+    "warnings.2": {
+      "sourceHash": "d5318c4f7ade09875bf550fee56fdfa7165a333113142ea2db25df7baf1567f7",
+      "text": "Tangling decreases when defense is used, not immediately on equipping it."
+    },
+    "warnings.3": {
+      "sourceHash": "a3874f72273685e41844d0d1feb6721c61cc360724c40be8c6ed4d13da846c5b",
+      "text": "Part Stagger immediately ends the turn. Handle next turn's pools differently from a normal Stagger damage opening."
+    },
+    "warnings.4": {
+      "sourceHash": "58e0c67fd0ceec0dd5ee4ad3dce8a81808fe5c7b33f6ef0f0b4df3cd3cd943f1",
+      "text": "Pool Potency decreases once per skill. Letting it expire over time grants the predator buff next turn."
+    },
+    "warnings.5": {
+      "sourceHash": "00aabb2a5d3451ba5c51b9ef26537cc27633beeee6281f901e866a6e4babbd82",
+      "text": "The meanings of parenthesized body and part HP, Stagger percentages, and some threshold positions remain unconfirmed. Check the gauge; do not build a fixed sequence from reverse-calculated numbers."
+    },
+    "preparation.0": {
+      "sourceHash": "8d19deb5b338b4e0aec79af1f125441d2688b6db8cc483b7fc8379267a16597b",
+      "text": "Aim for Customer Lv. 65 and Diamond rank. Check defense and HP recovery on the required Yi Sang, Meursault, and Gregor too."
+    },
+    "preparation.1": {
+      "sourceHash": "f2ccbed21871ff1ab3e9accbe86f7e62620e5d9e21f324b22b24297d6301e274",
+      "text": "Build mainly around Pierce with Wrath, Lust, Gluttony, and Pride attacks. Status effects are halved, so value direct skill damage too."
+    },
+    "preparation.2": {
+      "sourceHash": "e6581c0da61b3b13c76dace766a287fbed947db33671ea7e9aad1efd5c2c8c98",
+      "text": "Prepare Blunt resistance and multiple clash recipients who can rotate to Sinners with less Tangling. Avoid Maw's reuse condition as well as winning its clash."
+    },
+    "roles.0.name": {
+      "sourceHash": "80dbaa11a4a70d0168125d7c1453554fb5cb5c6c7f76cf7375291c14c86f7e0f",
+      "text": "Multiple high-Power clash specialists"
+    },
+    "roles.0.reason": {
+      "sourceHash": "70db552fb61224c7df4d0a4b482d9f31488306328a418224c36b5eaf1f8f42fd",
+      "text": "Intercept attacks on Pwie and handle four predation Maws while resting Sinners with high Tangling."
+    },
+    "roles.1.name": {
+      "sourceHash": "11bb9b332ccdcef4f6281975727e8d09ab15df4bb1e29a59baa9fc16236eb3cf",
+      "text": "Focused Pierce damage and repeated skills on parts"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0d4d7d0c44da824a4a58ee18c49a8ae4f62011010b274a4b28b4ddc912e48440",
+      "text": "Build Blackstitch to damage parts; use multiple Attack Skills to remove pools."
+    },
+    "roles.2.name": {
+      "sourceHash": "0663fdb36894ac39466dcd9c81e2288264ffa872bcd98ca23a46433e0422ea80",
+      "text": "Defense and HP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "d61953feb9d6dcdce3e112acad19f39d56454ebf82715e97766cd3417b8007fd",
+      "text": "Reduce Tangling and heal remaining Unbreakable damage. Finish necessary healing before triggering Stagger."
+    },
+    "units.0.name": {
+      "sourceHash": "f84d6f6ee23392f544386ef91b9a04612b8c0071da86a97a6e16d5758c31579c",
+      "text": "Blackthread of the Elden Sea [Torso]"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "11d0a37112709506e9d98306742118956867511d10b280499d2974f2462d765c",
+      "text": "Body 6,022 (6,691) / Torso 2,650 (2,944)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "65263f206f1ebd1a63d41c69fa4f5cad02a33843c66221247a26db27d90faa39",
+      "text": "Unconfirmed (1,923 and 736 listed)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "0a34e83ee20fbb773cce1d4c4b0badc037f20e484021ec4b6562a42a0cf6b78d",
+      "text": "Whether parenthesized HP is starting or maximum HP is unconfirmed."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "a8700a7e0c7eac9d2e0c74ed12abff8fb7146544890a39ce4de3e18dfacfaa02",
+      "text": "Part Stagger ends the turn; all parts gain pools next turn."
+    },
+    "units.1.name": {
+      "sourceHash": "886e51b2df195c0b2dd3d002b337e448f3769d7896430d84e32f420393f9776d",
+      "text": "Blackthread of the Elden Sea [Left Arm]"
+    },
+    "units.1.part": {
+      "sourceHash": "00da7cbe13ff32155a78004af52ce9358e14f81acc8bbc53621e869be0addf84",
+      "text": "Left Arm"
+    },
+    "units.1.stagger": {
+      "sourceHash": "ecbf608557739ec8bc19d09da1bf62713931cf610b89d64c3b29cce79c0a77d0",
+      "text": "Unconfirmed (1,435 and 552 listed)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "5cacb3fde274e544b23eb7c70eda81225b5d8bfdb30922ab175b0751d84324e9",
+      "text": "Can still be attacked after destruction. The meaning of parenthesized HP is unconfirmed."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "138bd4128112005f81f392f761b7da8a8ad995fee302e98fdba80200447562df",
+      "text": "Stagger percentages and some positions are unconfirmed. Check the actual gauge too."
+    },
+    "units.2.name": {
+      "sourceHash": "5b80fdd221da2f7320b07c35d196a0444e107b7d1c354e23700a8adf8737a504",
+      "text": "Blackthread of the Elden Sea [Right Arm]"
+    },
+    "units.2.part": {
+      "sourceHash": "8bde89d9cfa1060d05ea3ef40a002029f4e1572e6cf933d3ec0f7f82ec2f9153",
+      "text": "Right Arm"
+    },
+    "units.2.stagger": {
+      "sourceHash": "5970a5aca9ad6e26ba46118d8342dbd127b30179d8e9a749a2e77fe192f97d2c",
+      "text": "Unconfirmed (1,989 and 552 listed)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "5cacb3fde274e544b23eb7c70eda81225b5d8bfdb30922ab175b0751d84324e9",
+      "text": "Can still be attacked after destruction. The meaning of parenthesized HP is unconfirmed."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "138bd4128112005f81f392f761b7da8a8ad995fee302e98fdba80200447562df",
+      "text": "Stagger percentages and some positions are unconfirmed. Check the actual gauge too."
+    },
+    "skills.0.name": {
+      "sourceHash": "c73a54f57d8077d10f8d0f77d6822fb00bba1437270471d48d35406d3ba15a00",
+      "text": "Give It Back..."
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "27fe9f20ea9fabb656e7895d3a7142d7983d64ee74e133baaa1cae5a13e2a3b9",
+      "text": "If the target has a Defense Skill equipped, damage −90%"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "849ab72dad7dbfd0fc021017d9ee4811cc53e32da79c81ab3a573374a467f550",
+      "text": "Clash Power +1 per Clumped Black Threads Stack on self"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "2a338ae132cf9d85d3d4b148b922a2bfc7763fc9e56ba344e256267edc15d6c1",
+      "text": "[On Use] Base Power +1 per 5 Tangling on the target (max 2)"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.0.effects.6": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.0.label": {
+      "sourceHash": "07633e5157b8ff46e26c7742713ef63117ad2574bf52bc0b76719ce5311b50da",
+      "text": "All Coins become Unbreakable during Panic"
+    },
+    "skills.0.response": {
+      "sourceHash": "779962447e2db59e14d19373b1e1fd5b8384b986fa63ea5d1fa9239567a8535c",
+      "text": "Deals 90% less damage if the recipient has defense equipped. Have a Sinner with high Tangling defend to also reduce it when defense is used. Becomes Unbreakable during Panic."
+    },
+    "skills.1.name": {
+      "sourceHash": "d3640a3b81a1ff4e7985c837ad0ab5c73e389d12526e965c6a563df33007a0aa",
+      "text": "Hand It Over..."
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "849ab72dad7dbfd0fc021017d9ee4811cc53e32da79c81ab3a573374a467f550",
+      "text": "Clash Power +1 per Clumped Black Threads Stack on self"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "e07c3d81856aff7d4359386926502115dda5d92fa5a0fb6a9275f3363a79347a",
+      "text": "[On Use] Clash Power +1 per 3 Tangling on the main target (max 8)"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "99d89b1d1ac60f53794834545d237a5ad4eafe0da381c3dd9ef895b20d1e2f1b",
+      "text": "[On Hit] Inflict 3 Tangling"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "a3c09e11cf5113d9849bab991d78b6dbbb80d0c94e150b213d3674438792c3d9",
+      "text": "[On Hit Without Breaking] If the target has at least 15 Tangling, Stagger them"
+    },
+    "skills.1.label": {
+      "sourceHash": "c608bd38772e1c2cfe80a8d887d2205d18afaa9068af1551cd125eb7159fac21",
+      "text": "During Panic, all Coins are Unbreakable; clashable regardless of Speed"
+    },
+    "skills.1.response": {
+      "sourceHash": "1d37914c04af412b5323d32f70a2e97099a3b9cb5ae32bffa43c8ce3541d6824",
+      "text": "Clashable regardless of Speed. The recipient's Tangling grants up to +8 Clash Power. At 15 or more Tangling, an unbroken second-Coin hit forcibly Staggers them; use a Sinner with little Tangling."
+    },
+    "skills.2.name": {
+      "sourceHash": "3ba2456254b05de537bd9dc7efe7b9ca0b4d2ed8b3c69daa6cc7da661a895d1c",
+      "text": "Don't Take It Away From Me..."
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "849ab72dad7dbfd0fc021017d9ee4811cc53e32da79c81ab3a573374a467f550",
+      "text": "Clash Power +1 per Clumped Black Threads Stack on self"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "2fbfb94e9cc301bfe012c003a37eb27664d6cd715a9f3a2461d4b0dfaf872346",
+      "text": "[On Use] Base Power +1 per 5 Tangling on the main target (max 2)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "99d89b1d1ac60f53794834545d237a5ad4eafe0da381c3dd9ef895b20d1e2f1b",
+      "text": "[On Hit] Inflict 3 Tangling"
+    },
+    "skills.2.label": {
+      "sourceHash": "07633e5157b8ff46e26c7742713ef63117ad2574bf52bc0b76719ce5311b50da",
+      "text": "All Coins become Unbreakable during Panic"
+    },
+    "skills.2.response": {
+      "sourceHash": "d87bdab766abe0de88f957338460a366a7382f25ea4d0050b8ca548d91be5b94",
+      "text": "3 Atk Weight. Base Power rises with the main target's Tangling. Clash with a less affected Sinner to prevent more Rupture Count and Tangling."
+    },
+    "skills.3.name": {
+      "sourceHash": "30293f5e79bb7b0de452ebea317da3df3d2f31a36c7c70d48c9779e74545bfc7",
+      "text": "Coiled and Tangled"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "849ab72dad7dbfd0fc021017d9ee4811cc53e32da79c81ab3a573374a467f550",
+      "text": "Clash Power +1 per Clumped Black Threads Stack on self"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "28d754e240aa01a4bbdc24cfe8b823a7277770abf5e7eb00c9551f730bffbe28",
+      "text": "[On Use] Clash Power +1 per 3 Tangling on the target (max 8)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "3d8ad992d1bf5d3fae6b617b92e01d38f6b1a9b43477d2c3ab7ea2a9e3f997ee",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 4."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "d1eee7b64e7acaa73502735d29ab4e6850b9c550444c9de0ad374949e6b22b2b",
+      "text": "[On Hit Without Breaking] Inflict 1 Tangling"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "d1eee7b64e7acaa73502735d29ab4e6850b9c550444c9de0ad374949e6b22b2b",
+      "text": "[On Hit Without Breaking] Inflict 1 Tangling"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "085439d650723d7e9e07e91d61aaf6175992586f507d48535f43da68876f82ac",
+      "text": "Ⅲ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "a3c09e11cf5113d9849bab991d78b6dbbb80d0c94e150b213d3674438792c3d9",
+      "text": "[On Hit Without Breaking] If the target has at least 15 Tangling, Stagger them"
+    },
+    "skills.3.label": {
+      "sourceHash": "c608bd38772e1c2cfe80a8d887d2205d18afaa9068af1551cd125eb7159fac21",
+      "text": "During Panic, all Coins are Unbreakable; clashable regardless of Speed"
+    },
+    "skills.3.response": {
+      "sourceHash": "6c74323048d8788ec542e0d09c0ec1afa146d638f13a48540da0d8626ca9680d",
+      "text": "Clashable regardless of Speed. An unbroken third-Coin hit forcibly Staggers a target with at least 15 Tangling. Coins subtract from Base Power 14; use 14 as the base maximum and check additional buffs."
+    },
+    "skills.4.name": {
+      "sourceHash": "e79a39d63996691daca35fc7311a994f0e1c1f89740b88301a78b2e5afd1a9da",
+      "text": "Thrashing of an Elden Being"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "9a7fbaa99b4f0a9e2f161d92975bc9351328a22263944a742750f10271ca9474",
+      "text": "Clash Power −1 per Clumped Black Threads Stack on self"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "c1840487e0d36f1a2b9c4c9744ce77ae03d13c2ef01a44fa40b3cdc398683444",
+      "text": "[On Use] Base Power +1 per 3 Tangling on the main target (max 3)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "fd593bb2779c968dd794dd6faab40ef312da9840bd98c4630f4b2e8b1cd28e4f",
+      "text": "[On Use] If the main target has at least 15 Tangling, Base Power +3"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "7a971257807b4cc7e5c866a5077d89227f30a18dbb3cee39b7b481549773723e",
+      "text": "[On Hit] Inflict 2 Tangling"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "99d89b1d1ac60f53794834545d237a5ad4eafe0da381c3dd9ef895b20d1e2f1b",
+      "text": "[On Hit] Inflict 3 Tangling"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "a3c09e11cf5113d9849bab991d78b6dbbb80d0c94e150b213d3674438792c3d9",
+      "text": "[On Hit Without Breaking] If the target has at least 15 Tangling, Stagger them"
+    },
+    "skills.4.label": {
+      "sourceHash": "c608bd38772e1c2cfe80a8d887d2205d18afaa9068af1551cd125eb7159fac21",
+      "text": "During Panic, all Coins are Unbreakable; clashable regardless of Speed"
+    },
+    "skills.4.response": {
+      "sourceHash": "464d092f0c79880bf89427741df3d9bb490f70f253aee92a890446dbcc92d7ef",
+      "text": "Base Power rises with the main target's Tangling, with another +3 at 15 or more. Clumped Black Threads lowers this skill's Clash Power. Win with a low-Tangling Sinner to also prevent forced Stagger."
+    },
+    "skills.5.name": {
+      "sourceHash": "35d8bc10da257664ff038baccc86c6e6cb7599163a184873e24fcce2ae88e339",
+      "text": "Tangling"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "9a7fbaa99b4f0a9e2f161d92975bc9351328a22263944a742750f10271ca9474",
+      "text": "Clash Power −1 per Clumped Black Threads Stack on self"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "c1840487e0d36f1a2b9c4c9744ce77ae03d13c2ef01a44fa40b3cdc398683444",
+      "text": "[On Use] Base Power +1 per 3 Tangling on the main target (max 3)"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "fd593bb2779c968dd794dd6faab40ef312da9840bd98c4630f4b2e8b1cd28e4f",
+      "text": "[On Use] If the main target has at least 15 Tangling, Base Power +3"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "6d86fd5d023b8cd096d1c9f76761f824f3c3e206217ab6e68f8a591849ac5e53",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 2."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "37ef006f345d63f58029da5398e3fc4ec954082f4b375dec1069a99b578b20ae",
+      "text": "[On Hit] Inflict 5 Tangling"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "37ef006f345d63f58029da5398e3fc4ec954082f4b375dec1069a99b578b20ae",
+      "text": "[On Hit] Inflict 5 Tangling"
+    },
+    "skills.5.label": {
+      "sourceHash": "c608bd38772e1c2cfe80a8d887d2205d18afaa9068af1551cd125eb7159fac21",
+      "text": "During Panic, all Coins are Unbreakable; clashable regardless of Speed"
+    },
+    "skills.5.response": {
+      "sourceHash": "fd2e8667c3150acc19275bb35287ddf85eaaa2276a095fee649c8a89dfca00af",
+      "text": "3 Atk Weight; each hit inflicts 5 Tangling. Repeated hits approach Maw's reuse threshold, so limit buildup through clashes and defense."
+    },
+    "skills.6.name": {
+      "sourceHash": "d8c1386a029018bd8aa6581929e4c593b58ce77997983520813ac05c3d8c606e",
+      "text": "Abyssal Maw"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "37343028a607cd25f04725c0aa5423facd0de912777b7e5460c1f238bea050f1",
+      "text": "[Combat Start] Base Power +1 and damage +10% per 2 Tangling on the target"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "1cb5d9f352e369dd96cf92625d2328513ec142f94fc63d433ff6819474ba0618",
+      "text": "Ⅰ[On Hit Without Breaking] Inflict 5 Tangling"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "ab3cb3a4aff6a9bf701aba0aa8fb85f511a6dc326408db93df7b3e63036b316b",
+      "text": "[On Hit After Clash Lose] Remove 10 Tangling from the target"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "d30384edea0672ca0e50ebd7577fb4072b57dd12b09bfc395740319318e62478",
+      "text": "[On Hit] If the target is Staggered or has at least 20 Tangling, reuse this Coin (once per skill)"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "18cbf105545b706ebe880c01b92a000c04260007f026f75f81f93901bf96dbed",
+      "text": "[On Reused Coin Hit] Deal fixed damage equal to 150% of the target's max HP"
+    },
+    "skills.6.label": {
+      "sourceHash": "c608bd38772e1c2cfe80a8d887d2205d18afaa9068af1551cd125eb7159fac21",
+      "text": "During Panic, all Coins are Unbreakable; clashable regardless of Speed"
+    },
+    "skills.6.response": {
+      "sourceHash": "dec24f8d43ddb5a8fafe197f6de775bc2f56ff8e34458bd145ae16e8289bef84",
+      "text": "Prioritize choosing the recipient. On Hit against a Staggered target or one with at least 20 Tangling, reuses for fixed damage equal to 150% max HP. When Unbreakable Coins remain after winning, choose someone who does not meet the reuse condition."
+    },
+    "skills.7.name": {
+      "sourceHash": "883323ec858f059db9992d5e11e44a44795a339e421a6a072246dd00c52c122f",
+      "text": "Cleansing"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "f61a2235a1cf0596fe81fc862fb39b9db0252c424af99b9e4be23f582a83db9f",
+      "text": "[On Use] Base Power +1 per 2 Tangling on the target"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "34cdd5921594b165895ca8bc888b2c36f662f673f22517debe150bc41ff5deb7",
+      "text": "[Clash Win] Remove all Tangling from the target and all Bursting Blackstitch from the part using this skill"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "a3c157163c233116c97af858fbcbedd82ea2c14b916a1675d4239ada6f19f4c5",
+      "text": "[Clash Lose] Remove all Tangling from the target and halve Bursting Blackstitch on the part using this skill (rounded up)"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "848c49b01783518f9caa4b7a4fd4c4e3ba8afe810e05fbb36c9af4f5d927e247",
+      "text": "[On Hit] Inflict 3 Bind next turn"
+    },
+    "skills.7.label": {
+      "sourceHash": "449da10b1bcd32900e3a6a3d2cb30eba02e4f9af95d4a9831999e60c2a6e5dd5",
+      "text": "During Panic, all Coins are Unbreakable; Clashable Counter"
+    },
+    "skills.7.response": {
+      "sourceHash": "3c2239b7c31b0840e0b605a131561031aaf59f53fe804957d36810385ab38a9c",
+      "text": "Clashable Counter. The recipient loses all Tangling whether you win or lose. If you win, that part's Blackstitch is halved, rounded up. Take a winnable clash with a Sinner carrying Tangling to cleanse it while limiting damage."
+    },
+    "skills.8.name": {
+      "sourceHash": "883323ec858f059db9992d5e11e44a44795a339e421a6a072246dd00c52c122f",
+      "text": "Cleansing"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "f61a2235a1cf0596fe81fc862fb39b9db0252c424af99b9e4be23f582a83db9f",
+      "text": "[On Use] Base Power +1 per 2 Tangling on the target"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "34cdd5921594b165895ca8bc888b2c36f662f673f22517debe150bc41ff5deb7",
+      "text": "[Clash Win] Remove all Tangling from the target and all Bursting Blackstitch from the part using this skill"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "a3c157163c233116c97af858fbcbedd82ea2c14b916a1675d4239ada6f19f4c5",
+      "text": "[Clash Lose] Remove all Tangling from the target and halve Bursting Blackstitch on the part using this skill (rounded up)"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "848c49b01783518f9caa4b7a4fd4c4e3ba8afe810e05fbb36c9af4f5d927e247",
+      "text": "[On Hit] Inflict 3 Bind next turn"
+    },
+    "skills.8.label": {
+      "sourceHash": "449da10b1bcd32900e3a6a3d2cb30eba02e4f9af95d4a9831999e60c2a6e5dd5",
+      "text": "During Panic, all Coins are Unbreakable; Clashable Counter"
+    },
+    "skills.8.response": {
+      "sourceHash": "3c2239b7c31b0840e0b605a131561031aaf59f53fe804957d36810385ab38a9c",
+      "text": "Clashable Counter. The recipient loses all Tangling whether you win or lose. If you win, that part's Blackstitch is halved, rounded up. Take a winnable clash with a Sinner carrying Tangling to cleanse it while limiting damage."
+    },
+    "skills.9.name": {
+      "sourceHash": "883323ec858f059db9992d5e11e44a44795a339e421a6a072246dd00c52c122f",
+      "text": "Cleansing"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "f61a2235a1cf0596fe81fc862fb39b9db0252c424af99b9e4be23f582a83db9f",
+      "text": "[On Use] Base Power +1 per 2 Tangling on the target"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "34cdd5921594b165895ca8bc888b2c36f662f673f22517debe150bc41ff5deb7",
+      "text": "[Clash Win] Remove all Tangling from the target and all Bursting Blackstitch from the part using this skill"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "a3c157163c233116c97af858fbcbedd82ea2c14b916a1675d4239ada6f19f4c5",
+      "text": "[Clash Lose] Remove all Tangling from the target and halve Bursting Blackstitch on the part using this skill (rounded up)"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "848c49b01783518f9caa4b7a4fd4c4e3ba8afe810e05fbb36c9af4f5d927e247",
+      "text": "[On Hit] Inflict 3 Bind next turn"
+    },
+    "skills.9.label": {
+      "sourceHash": "449da10b1bcd32900e3a6a3d2cb30eba02e4f9af95d4a9831999e60c2a6e5dd5",
+      "text": "During Panic, all Coins are Unbreakable; Clashable Counter"
+    },
+    "skills.9.response": {
+      "sourceHash": "3c2239b7c31b0840e0b605a131561031aaf59f53fe804957d36810385ab38a9c",
+      "text": "Clashable Counter. The recipient loses all Tangling whether you win or lose. If you win, that part's Blackstitch is halved, rounded up. Take a winnable clash with a Sinner carrying Tangling to cleanse it while limiting damage."
+    },
+    "passives.0.name": {
+      "sourceHash": "088c904d2887e6da9b0407f1b0c28d872fe1eaf3da1971c0d5fea33098777635",
+      "text": "Ceaseless Wailing"
+    },
+    "passives.0.effect": {
+      "sourceHash": "d67abf4ce79e66ed1c376d1de2126a330599c5cbbaac1cb4c25f83c7f050d636",
+      "text": "At Stage Start, begin Panicked.\n\nDuring Panic:\n- Set all attack targets to Pwie.\n- On Skill Use, gain Clash Power and Base Power if Pwie is the main target.\n- At Combat Start, change all skill Coins to Unbreakable Coins."
+    },
+    "passives.0.condition": {
+      "sourceHash": "c02a2b310ae95cf5c79bdbed6c89e54678b621c58fa60d42387b4c5825c1279b",
+      "text": "Stage Start and during Panic"
+    },
+    "passives.0.response": {
+      "sourceHash": "12b7f8e3a69d963ef741002c70bba0c1c620c5df8c97f4fbcdb3edb9196e50d0",
+      "text": "Initially targets Pwie and makes all skills Unbreakable. Intercept with Sinners to avoid the extra Power from keeping Pwie as the main target."
+    },
+    "passives.1.name": {
+      "sourceHash": "7b50513a2194c764bfe251d2a22f82b40a3431074b0b550afde5dd37f36daf0e",
+      "text": "Tangled Black Thread"
+    },
+    "passives.1.effect": {
+      "sourceHash": "b712e95e7b8ad1e66e5e296a57623894cec4cae4a074a93542228d57a69072db",
+      "text": "Skills, Low Morale, and Panic inflict Tangling on enemies.\nTangling can be reduced by using Defense Skills or specific skills.\n\nWhen hit:\n- Gain 1 Bursting Blackstitch.\n- If hit by a Slash skill, gain 1 additional Bursting Blackstitch.\n- If hit by a skill with at least 5 Atk Weight, gain 1 Clumped Black Threads next turn (once per turn)."
+    },
+    "passives.1.condition": {
+      "sourceHash": "b42cc286407ec786606a0269d2eb46c11b74e01c7fec674fd86a87e43785a88b",
+      "text": "When hit, hit by Slash, or hit by at least 5 Atk Weight"
+    },
+    "passives.1.response": {
+      "sourceHash": "dd51ec7863f03b0928539a98dbcb9c0745c376d62f17f50b169ede4b679edc8f",
+      "text": "Attacks build Blackstitch and make the enemy easier to damage. Skills with at least 5 Atk Weight also build Clumped Black Threads, changing arm Clash Power and slot weight."
+    },
+    "passives.2.name": {
+      "sourceHash": "60b96746bd044b9a33860c9e57fd947b4add502562fdb5f2537766a34721daae",
+      "text": "Into the Waters of Eld"
+    },
+    "passives.2.effect": {
+      "sourceHash": "69c8b4fa905e82af44127374d3c0b89c510306ebb44fb5ea837c032854176534",
+      "text": "When a part becomes Staggered, remove one Stagger Threshold from each other part and end the turn. All parts then gain Pool of Black Water next turn.\n\nIf a pool is removed by a hit:\n- Gain 10 Bursting Blackstitch.\n- If Blackstitch is gained beyond its maximum, gain 3 Fragile this turn and next turn.\n\nIf a pool expires at Turn End:\n- Gain Bursting Blackstitch equal to (7 − remaining Potency).\n- Gain 1 Instinct of the Predator of Eld next turn."
+    },
+    "passives.2.condition": {
+      "sourceHash": "6e50f6954ea5df4a63b3f02fb472dcd556efd31148e507ba117c0ad70882d69c",
+      "text": "Part Stagger and pool removal"
+    },
+    "passives.2.response": {
+      "sourceHash": "79684c1b5bae88fb332a62efbb910f12f15b8153864b2ee84eb4b082e2965a8f",
+      "text": "Stagger ends the turn immediately; do not count on remaining attacks or healing. Reduce next turn's pools with multiple skills and prepare for predation after removal."
+    },
+    "passives.3.name": {
+      "sourceHash": "ebd3e44c9b93b600c851fab6e2b7db65ca1d7f6cc4c6e38e09339a85eb39d677",
+      "text": "Lingering Dampness"
+    },
+    "passives.3.effect": {
+      "sourceHash": "904818a1cd096bd3071a0c6625e9b6d253b16c98334bb254657bb7e9ee15eafa",
+      "text": "HP damage, SP damage, and Stagger Threshold rise from Burn, Bleed, Tremor, Rupture, and Sinking −50%.\n\nPanic type cannot change. If Panicked at Turn End, SP becomes 0."
+    },
+    "passives.3.condition": {
+      "sourceHash": "56e472a2ebcaec845a31d2d474bcb47c69575125076ae3a3c31364e317c940f5",
+      "text": "Throughout combat; Panicked at Turn End"
+    },
+    "passives.3.response": {
+      "sourceHash": "7cdc53d3d17bc432314dddf9038fd243ff0cbdddb9b51818959de9e02a2bbc69",
+      "text": "Major status damage and Stagger Threshold rise are halved. Bring direct skill damage and check the all-Unbreakable Coins during Panic."
+    }
+  },
+  "messages": {
+    "boss-copy:old-sea-thread": "complete",
+    "【リンバス】10-04 古き海の黒い糸（10章B）の攻略｜Limbus Assistant": "10-04 Blackthread of the Elden Sea (Canto X, Route B) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「古き海の黒い糸（10章B）」の攻略。絡まりを守備や洗い流すで減らし、奈落の顎門の再使用を防ぐ戦闘。部位を混乱させるとそのターンが終わり、次に黒い水たまりへ隠れる。水たまり中は攻撃スキルの…": "Blackthread of the Elden Sea (Canto X, Route B) guide for Limbus Company 10-04. Reduce Tangling through defense and Cleansing to prevent Abyssal Maw's reuse. Staggering a part ends the turn, after which the enemy hides in a Pool of Black Water. Remove the pools with multiple Attack Skills, then prepare for predation and attacks concentrated on Pwie.",
+    "10-04 古き海の黒い糸（10章B）": "10-04 Blackthread of the Elden Sea (Canto X, Route B)",
+    "10-04「Sisyphus Department Store B, 5F: Corridor」": "10-04 · Sisyphus Department Store B, 5F: Corridor",
+    "古き海の黒い糸［胴体］の外見": "Blackthread of the Elden Sea [Torso] appearance",
+    "古き海の黒い糸［胴体］のスキル": "Blackthread of the Elden Sea [Torso] skills",
+    "Blackthread of the Elden Sea [Torso]の外見": "Blackthread of the Elden Sea [Torso] appearance",
+    "Blackthread of the Elden Sea [Torso]のスキル": "Blackthread of the Elden Sea [Torso] skills",
+    "古き海の黒い糸［左腕］の外見": "Blackthread of the Elden Sea [Left Arm] appearance",
+    "古き海の黒い糸［左腕］のスキル": "Blackthread of the Elden Sea [Left Arm] skills",
+    "Blackthread of the Elden Sea [Left Arm]の外見": "Blackthread of the Elden Sea [Left Arm] appearance",
+    "Blackthread of the Elden Sea [Left Arm]のスキル": "Blackthread of the Elden Sea [Left Arm] skills",
+    "古き海の黒い糸［右腕］の外見": "Blackthread of the Elden Sea [Right Arm] appearance",
+    "古き海の黒い糸［右腕］のスキル": "Blackthread of the Elden Sea [Right Arm] skills",
+    "Blackthread of the Elden Sea [Right Arm]の外見": "Blackthread of the Elden Sea [Right Arm] appearance",
+    "Blackthread of the Elden Sea [Right Arm]のスキル": "Blackthread of the Elden Sea [Right Arm] skills"
+  }
+}

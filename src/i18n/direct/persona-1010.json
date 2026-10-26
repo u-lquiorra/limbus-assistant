@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1010.md",
+  "code": "1010",
+  "messages": {
+    "自分の振動回数を防御レベル増加に変え、味方にも防御レベル増加を配る守りの人格。": "A defensive Identity that converts his Tremor Count into Defense Level Up and also grants Defense Level Up to allies.",
+    "防御レベル増加: S1「制圧します。」は使用時に防御レベル増加を得る。S2「戦闘準備」・S3「囲い」は自分の振動回数2につき防御レベル増加を得て、S2は防御レベル増加4以上でコイン威力+1、S3は3につき+1。": "**Defense Level Up**: S1 Suppressing. grants Defense Level Up on use. S2 Combat Preparation and S3 Fence grant Defense Level Up per 2 of his own Tremor Count; S2 gains +1 Coin Power at 4 or more Defense Level Up, and S3 gains +1 per 3.",
+    "味方の支援: S2はマッチ勝利後の的中で体力の低い味方へ防御レベル増加、防御レベル増加を持つ味方へ攻撃レベル増加を付与。S3は体力比率が最も低い味方へ防御レベル増加3/4を付与。": "**Supporting allies**: On hit after a Clash Win, S2 gives Defense Level Up to a low-HP ally and Offense Level Up to allies with Defense Level Up. S3 gives 3/4 Defense Level Up to the ally with the lowest HP ratio.",
+    "挑発値: S1・S2・守備は次のターンの挑発値を得る。": "**Aggro**: S1, S2, and his Defense skill grant Aggro next turn.",
+    "振動: S1・S2のマッチ勝利や守備で自分の振動回数を得る。S3のⅢコインで自分の振動回数を最大8消耗して対象に移し、振動爆発。守備はマッチ勝利時に振動爆発。": "**Tremor**: He gains his own Tremor Count on S1 and S2 Clash Wins and from his Defense skill. Coin Ⅲ of S3 spends up to 8 of his own Tremor Count to transfer it to the target and triggers Tremor Burst. His Defense skill triggers Tremor Burst on Clash Win.",
+    "バトルパッシブ「保護任務開始」(怠惰×5・保有・同期化Ⅱで取得): 戦闘開始時、自分の振動回数だけ防御レベル増加(最大5)。": "**Combat passive — Begin Protection Mission (5 Sloth Owned; unlocked at Uptie Ⅱ)**: At Combat Start, gains Defense Level Up equal to his own Tremor Count, up to 5.",
+    "S1・守備で振動回数を貯めて防御レベルを上げ、集中戦闘では挑発値で攻撃を受ける。S2・S3で味方にも防御レベル増加を配り、S3で振動爆発を起こす。": "Build Tremor Count with S1 and his Defense skill to raise Defense Level, and take attacks with Aggro in Focused Encounters. Hand out Defense Level Up to allies with S2 and S3, and trigger Tremor Burst with S3."
+  }
+}

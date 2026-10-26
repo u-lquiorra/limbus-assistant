@@ -1,0 +1,985 @@
+{
+  "kind": "boss-copy",
+  "id": "barber",
+  "source": "src/data/bosses/barber.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodDinner"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodScissor"
+        },
+        {
+          "ja": "深く斬られた傷",
+          "en": "Deep Laceration",
+          "file": "Bufs-a1c7p1.json",
+          "id": "BloodScissorScars"
+        },
+        {
+          "ja": "裁縫対象",
+          "en": "Sewing Target",
+          "file": "Bufs-a1c7p1.json",
+          "id": "LineCutting"
+        },
+        {
+          "ja": "正義溢れる気分である！！",
+          "en": "HOW RIGHTEOUS!!",
+          "file": "Bufs-a1c7p1.json",
+          "id": "RighteousFeeling"
+        },
+        {
+          "ja": "血の涙を呑み、吾が適任を負おう。",
+          "en": "I will take responsibility, through my bloody tears.",
+          "file": "Bufs-a1c7p1.json",
+          "id": "RighteousFeelingSancho"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p1.json",
+          "id": "StarvingBarberOne"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p1.json",
+          "id": "StarvingBarberTwo"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p2.json",
+          "id": "StarvingDolcineaOne"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p2.json",
+          "id": "StarvingDolcineaServant"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p2.json",
+          "id": "StarvingPriestOne"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Bufs-a1c7p3.json",
+          "id": "StarvingPriestTwo"
+        },
+        {
+          "ja": "理髪師",
+          "en": "The Barber",
+          "file": "Enemies-a1c7p3.json",
+          "id": "8395"
+        },
+        {
+          "ja": "アンタから切ってあげる！",
+          "en": "I'll Cut You First!",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837201"
+        },
+        {
+          "ja": "硬血式鋏",
+          "en": "Hardblood Scissor",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837202"
+        },
+        {
+          "ja": "美しくないものは要らないわぁ！！",
+          "en": "I Don't Need Ugly Things!!",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837203"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837205"
+        },
+        {
+          "ja": "血を宿した鋏",
+          "en": "Bloodsteeped Scissors",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837206"
+        },
+        {
+          "ja": "血…血…血…！",
+          "en": "Blood... Blood... Blood...!",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837208"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999996"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p2.json",
+          "id": "838107"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Abnormality-a1c7p3.json",
+          "id": "838004"
+        },
+        {
+          "ja": "老衰",
+          "en": "Withered",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015202"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015205"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015404"
+        },
+        {
+          "ja": "血染めの鋏の刃",
+          "en": "Blood-tinged Scissorblades",
+          "file": "Passives_Enemy-a1c7p1.json",
+          "id": "9015405"
+        },
+        {
+          "ja": "血餐",
+          "en": "Bloodfeast",
+          "file": "Passives_Enemy-a1c7p2.json",
+          "id": "9017505"
+        },
+        {
+          "ja": "綺麗に切ってあげるわねぇ！",
+          "en": "I'll Cut You Up All Pretty!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837201"
+        },
+        {
+          "ja": "もっと鋭く",
+          "en": "Even Sharper",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837202"
+        },
+        {
+          "ja": "チョッキン！",
+          "en": "SNIP!!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837203"
+        },
+        {
+          "ja": "アンタも一緒に切ってあげるぅ！",
+          "en": "I'll Cut You Up Too!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837204"
+        },
+        {
+          "ja": "今度はアンタの番よぉ",
+          "en": "Now, It's Your Turn",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837205"
+        },
+        {
+          "ja": "仲良く切ってあげるぅ！",
+          "en": "I'll Cut You Together!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837206"
+        },
+        {
+          "ja": "礼儀がなってないじゃなぃ！",
+          "en": "How Discourteous!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837207"
+        },
+        {
+          "ja": "美しくないものは要らないわぁ！！",
+          "en": "I Don't Need Ugly Things!!",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837208"
+        },
+        {
+          "ja": "餓えと老衰",
+          "en": "Starved and Withered",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837207"
+        },
+        {
+          "ja": "まだ終わってない",
+          "en": "It's Not Over Yet",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837204"
+        }
+      ],
+      "note": "Guide spelling variants are resolved using the paired Canto VII localization records. Starved and Withered, Its Not Over Yet, and the instant-kill skill name are scoped to these boss guides."
+    }
+  },
+  "scopedTerms": [
+    "飢えと老衰",
+    "まだ終わっていない",
+    "美しくないものはいらないわぁ！！"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "95398ad14a1264d901178ed818c99470e6074c41a1f77f175018c43ef9d6410d",
+      "text": "The Barber (7-16)"
+    },
+    "shortName": {
+      "sourceHash": "ead6d9286bb4da8d52a28cc2bfdd1cb2fb06b95a429b325ba650b74262ab9c54",
+      "text": "The Barber"
+    },
+    "stageName": {
+      "sourceHash": "29e7c0b0156b1fc05bc81532595ef251263c8953314dbdd1d4656c98a197340e",
+      "text": "Bloodstained Scissors"
+    },
+    "lead": {
+      "sourceHash": "298126c05a4ea14eb9226226bb6c422864787db04a96c4e99c22e58ad32f0894",
+      "text": "Prepare to survive Unbreakable area attacks even after winning their Clashes. Maintain HP and manage Bleed to prevent the fixed-target instant-kill skill from appearing."
+    },
+    "statNote": {
+      "sourceHash": "0e98dc202a86152f860a03b8cfce87f1041dc4bdad72b015028a9d665848a834",
+      "text": "The solo boss encounter at 7-16. HP and available skills differ from the Canto VII dungeon rematch. Withered lowers Offense and Defense Levels by 25 from the base Lv.70; additional Scissorblade buffs vary separately. Lists the explicitly stated Stagger Thresholds at 60% and 30%."
+    },
+    "skillNote": {
+      "sourceHash": "906589b4ae0e489e728999de730a31cb378d0a588ca3890739faac7c9f6512a2",
+      "text": "Values are before conditional buffs. Area Attack Weight increases with Scissorblade stage Before Attack, so the base value of 1 is shown. I'll Cut You Together!'s Offense Level is unspecified. Reported issues affect Scissorblade consumption and the Attack Weight cap; do not assume consumption weakens the next attack or that the range is capped as expected. Even Sharper's bonus checks the Barber's own Bleed."
+    },
+    "priorities.0": {
+      "sourceHash": "b41cf77490dafa00a075eb55164cc3a3565907ed755535eeabe39f0a6d4affba",
+      "text": "Don Quixote must be in the initial deployment. Bring 6 Sinners plus 6 reserves, HP and SP recovery, and high-Power E.G.O to beat area attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "435ee328b3a52f8723b0432e0fdccebc3510184a8aa787961ff48529a8417df2",
+      "text": "Winning against an Unbreakable area attack still leaves Bleed. Heal beforehand and check action order so a clasher is not Staggered before their other clashes."
+    },
+    "priorities.2": {
+      "sourceHash": "7c6109ecef489471f5cf4ada19f1b71686ac601f083c97203993aee891a49e7e",
+      "text": "Do not leave Sinners at 30% HP or below. The instant-kill skill cannot be redirected; the targeted Sinner must win, or be healed before the hit."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "1cab740f8fc415a54b5cb7804d39be6be36d88cd3f617e296079beb1689d6932",
+      "text": "Everyone dies despite winning the area clash"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "5451cdf4ee298c52295077b13d95c5809c0b482c1a51a19f7c506d262cd084be",
+      "text": "Unbreakable hits still inflict Bleed. Winning does not mean taking no damage. Heal before the big attack, then check how many Coins Sinners can roll with the remaining Bleed."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "e502c6be9b49b00a3ca3f675aac847f765e4837b0de61cd443e38e7b1584f68c",
+      "text": "An expected clash became an unopposed attack"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e15857184598bfd876d9eed61040ad0e177676eac8c120ac08422eed1bbc5121",
+      "text": "A Sinner Staggered by an earlier area attack cannot execute later clashes. Check area-attack order and the clasher's Stagger Thresholds; reassign if needed."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "7dcf01fc9cbce404a2c1ed7543abe6b8556d53e1aefdf41729d6bab0a0172562",
+      "text": "Unable to move a red targeting line to another Sinner"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "eacef15805590e0dc04afbdf056b2bd88ebf221838a4dc994e2ab0e7b3e7e11f",
+      "text": "I Don't Need Ugly Things!! cannot be redirected. The low-HP target must win, or receive healing first to rise above 30% HP."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "9d30741b4680ca13ce18c51c07513b30aec611da6718ddbeacbc197c3a977a8a",
+      "text": "The Barber keeps healing and will not die"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "1330805bf253e7692a1326917e09ae488d42a9eed0fc3c31d5c3c8e70bba2c39",
+      "text": "She drains HP when hitting targets with Bleed. Winning the clash suppresses this healing even if Unbreakable Coins remain. Beat dangerous attacks rather than simply trading hits."
+    },
+    "units.0.name": {
+      "sourceHash": "ead6d9286bb4da8d52a28cc2bfdd1cb2fb06b95a429b325ba650b74262ab9c54",
+      "text": "The Barber"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "ec606f94ac51bc9419abce36eca54a2472ab070a2677fb3914d3e48da871be27",
+      "text": "60% / 30% (1451 / 725)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "97664100ccca4261451da5c26ace8cc6f41e39acdaca4f58193cefdc9f3c51c6",
+      "text": "Starts with 10 Blood-tinged Scissorblades, at stage II. Lust and Gluttony are effective."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "edbab58b91bee8d8121b79895a13ecb1c58212da311d457b0a950f673f64bad0",
+      "text": "Changes pattern at 40% HP, then gains 10 Bleed and 2 Scissorblades each turn."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "ebfeb99c5077415856ff27cb5d0425111271d7b8e2b9e44a51717baa9db74a39",
+      "text": "Ordinary Don Quixote Identities gain HOW RIGHTEOUS!!; the Manager Identity gains I will take responsibility, through my bloody tears. instead. Do not assume either can survive the low-HP instant kill."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "62bd6fa42f6ab581f844e6ce3209f53582387fbbe64aae354ea4d1aa3393d02e",
+      "text": "Prepare recovery and reserves; do not leave HP low"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "53cda29cb2f741413932ce717fa4969763fee37372d52d94b1d88aec0b62f802",
+      "text": "Choose 6 Sinners including Don Quixote, aiming for the recommended Lv.48 and Uptie III or higher. Don Quixote cannot be a reserve. Set 6 reserves too so the team can keep fighting after losses."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "8e4667e2167a62035670f40825e290af7d696431429fee74368a14eb0b967944",
+      "text": "Check Slash resistance and E.G.O resistances against Lust and Gluttony area attacks. Lust and Gluttony are effective for damage too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "eef21e4e9f6f99159829bf7ac24a49d567c337e8b9d43bba0bbe0b8c5420daa2",
+      "text": "Prepare HP and SP recovery and a strong area-attack clasher. Save healing skills and resources for before the big attack."
+    },
+    "phases.1.timing": {
+      "sourceHash": "7c0d4fad332272dd43852a99e6eb35f0982934575ecd584be65e04e757bab8be",
+      "text": "Opening–Turn 3"
+    },
+    "phases.1.title": {
+      "sourceHash": "f8a9533f8d671a6180b16ca14dbc6f3fe487a3041b0105aa164837fe7ba41c81",
+      "text": "Build SP and avoid bonuses against the Sewing Target"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "c923ce2f827dd24a2c889f9b02233d4f90c1a4739ac6631cb83e87f187bf1054",
+      "text": "Start with winning clashes to raise allied SP. Even Sharper also heals the enemy's SP On Use, so predictions may differ from last turn."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "072e657027e99822ed2c8728b704006309ae3c273f7d843bce0a58791dbf93c6",
+      "text": "SNIP!! gains +5 Clash Power against the Sewing Target. Have another fast Sinner intercept it and protect low-HP allies."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "3f3a3a29cf8042f9a5cac3f0e35c09eb8d307bb6dfe53d3525791b342dd05940",
+      "text": "Unopposed hits on Sinners with Bleed let her drain HP. Win clashes against Unbreakable attacks too to suppress healing."
+    },
+    "phases.2.timing": {
+      "sourceHash": "6764e3f048e1f70b87803adefa43eb5b2e4bb218ef27cc40b76e6d0fc7dd72da",
+      "text": "Turn 4 area attack / later big attacks"
+    },
+    "phases.2.title": {
+      "sourceHash": "8604a8e8f2749ccb28fe6a7cc9f998782ff83114419fdbe0defa03824ed4bec5",
+      "text": "Heal first, win the area clash, then survive the hits"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "9e6358f96053c0b6cc71b89bff8ceb02998b5720295aba01bda99d7b57fb3f9e",
+      "text": "Use a strong E.G.O against I'll Cut You Together! Losing lets the first 3 Coins forcibly activate Bleed, so prioritize winning."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "cc7aaa6af7200d2aed8405dd885ab6e441f5581369ac1f597af7ee1bec5db4d6",
+      "text": "Even after a win, the first 3 Unbreakable Coins still inflict Bleed. Heal all targets beforehand, including additional targets, and check whether they can survive subsequent attacks while Bleeding."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "aa8a358c48a279490fadbfe1885390c4f221763c6c93f9a1254c1a6fbd922315",
+      "text": "Attack Weight and targets change Before Attack. Do not assume safety from the initial targeting lines. Check actual action order so an earlier area attack does not Stagger another clasher."
+    },
+    "phases.3.timing": {
+      "sourceHash": "c79756f97688f58a622eb6cc896d3c6671fe8571e9d107a8d2e73ed83e14ecf6",
+      "text": "40% HP or below"
+    },
+    "phases.3.title": {
+      "sourceHash": "ce6796ec487f53dbd5757594782f9ade6452c36c6def8ec697d03f4caa204333",
+      "text": "Deal damage before further buffs and avoid instant-kill conditions"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "346daec88425f9f98e9d7168c038935a90759c859540c96aaaccf342d39667e5",
+      "text": "In the latter half, the Barber gains Bleed and Scissorblades each turn. Focus attacks during Stagger and avoid unnecessarily prolonging the fight."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "e1634b0b36f89c2b52b3c836548527c07cc75c29bdbf6cc76f22c48e182dcbc7",
+      "text": "A Sinner at 30% HP or below enables an instant-kill attack that cannot be redirected. Win with that Sinner or heal them above 30% HP before it hits. Do not rely on effects that keep HP at 1."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "646daccf0f23c57f37c444061d419938d961b3e6d778723031c4bd1366b7ee94",
+      "text": "If a deployed Sinner falls, a reserve enters next turn. Check the replacement's SP and resistances, and recover using your remaining healers and high-Power skills."
+    },
+    "skills.0.name": {
+      "sourceHash": "640882b025aff73558fcd632fae861804aaa05f96f6de4c5b43348722a285b14",
+      "text": "I'll Cut You Up All Pretty!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "3c55ef56ec9b3e1f714c3019129ca22f6e7aa4874333d5384cd5f37999490bb6",
+      "text": "[On Use] If the target has at least 6 Bleed, Clash Power +1."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "a1812e3dc3ac2b718c186730f6c4ebf0791ac399c8bb8ecc906ff5a7617545ec",
+      "text": "[On Use] Coin Power +1 per 5 Bleed Count on self (max 3)."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "67f3046b60bf3506123b016bea948593c7077853b3493372eb6902a6bf34e515",
+      "text": "[On Hit] Reuse this Coin in proportion to (Blood-tinged Scissorblade stage −1), up to 2 times."
+    },
+    "skills.0.response": {
+      "sourceHash": "b258596e50f88a29a3b89022084c7e2df9b769fb51cd4e88683ad874d140b986",
+      "text": "Reuses the Coin based on Blood-tinged Scissorblade stage; it is not necessarily just a single-Coin attack. Also check its bonus against targets with heavy Bleed."
+    },
+    "skills.1.name": {
+      "sourceHash": "2f879a24276f2f17e7f5da3f36afdd079bef96516a871dc6b617ecbfa2c5d40a",
+      "text": "Even Sharper"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a530758741b2f8a9e2f8e5d8713ff7d623d6dcdea6ef8f555e132641987824f4",
+      "text": "[On Use] Consume up to 20 Bloodfeast; gain 1 Blood-tinged Scissorblades and heal 3 SP per 10 Bloodfeast consumed."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "212e7bbc24a8df6f3ec697d6d1050efc8a5491479c63b0c2fc2b198e24cf513e",
+      "text": "- If this skill cannot consume Bloodfeast, gain 30 Bleed."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "3c55ef56ec9b3e1f714c3019129ca22f6e7aa4874333d5384cd5f37999490bb6",
+      "text": "[On Use] If the target has at least 6 Bleed, Clash Power +1."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "58db30956e9ef50201f0ddbd1843ff73b73251ed6c322f7e2ce3a9d20eae7370",
+      "text": "[On Use] Coin Power +1 per 5 Bleed on self (max 2)."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "9b24cfaaba2de1ab7d571ea04201c585e41b87eef5e688d0d0eeeb14a655d788",
+      "text": "Consumes Bloodfeast On Use to gain Scissorblades and SP. Winning cannot cancel the On Use buffs, but prevents the Bleed Count increases."
+    },
+    "skills.2.name": {
+      "sourceHash": "7420f5f4f327453d5e067fc3081c74f780678e965123a477e66b7292e902c321",
+      "text": "SNIP!!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "c6daba8df2c18ef93e33c90c5055553a3ff995a996585f21ca62cc85b1b8c41b",
+      "text": "[On Use] Consume up to 30 Bloodfeast; gain 1 Blood-tinged Scissorblades and heal 3 SP per 10 Bloodfeast consumed."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "2cf899127c7a351b6853fb18c0a4e4c0c1927513fa4879a72935060abc32e96e",
+      "text": "[On Use] If the target is a Sewing Target, Clash Power +5."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "01f2cd57c8521c5a01149f77fda9f531390c657179b9aadbbd783a7b1daf60a3",
+      "text": "Heal 5 SP each time a hit lands on a Sewing Target."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "c2dbfe752a9ee571c6b75100c9395b718a654572d2253957d11fbf99cdaa6b3d",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed Count."
+    },
+    "skills.2.response": {
+      "sourceHash": "56a77e50595c1cd9837813cc620a4080e79b1c43ce4af423d5650316640075f1",
+      "text": "Gains +5 Clash Power against a Sewing Target. Have a fast Sinner without Sewing Target intercept it."
+    },
+    "skills.3.name": {
+      "sourceHash": "2fc25ce8d4453e9e1df4a54ce21adcc1056f194cd1b31af135142f0d7ca0c54a",
+      "text": "I'll Cut You Up Too!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "db187f4942d2d0544e93589c73d3b5b255f74c597e9c382dee16efc882f78361",
+      "text": "[Before Attack] Attack Weight +1 per Blood-tinged Scissorblade stage (max 2)."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "c6daba8df2c18ef93e33c90c5055553a3ff995a996585f21ca62cc85b1b8c41b",
+      "text": "[On Use] Consume up to 30 Bloodfeast; gain 1 Blood-tinged Scissorblades and heal 3 SP per 10 Bloodfeast consumed."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "861c426d9cebf06c4572ab4601e7ebe7af14388ccc466c3a890bfc428e5c8b9a",
+      "text": "[On Use] If the target has at least 6 Bleed, Clash Power +2."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "914225152f4c2afaddf88941e6f29c8fbfa321481e14e2c4487f22f0550ad707",
+      "text": "[On Hit] Inflict 1 Deep Laceration next turn."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "b3d76999cee2274d6a81dc41e2c7e4b5da06a308c459b2ec92800649c60d33d9",
+      "text": "[Heads Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.3.label": {
+      "sourceHash": "25a9e66fb7ed588a843d5505bc8836557b282f81f0b655732c3024a3da1621ac",
+      "text": "Attack Weight increases Before Attack"
+    },
+    "skills.3.response": {
+      "sourceHash": "770316bbbf26a9a296046da25e81e922f5d5786ba0ae7b82fa336ef50e6a9876",
+      "text": "Attack Weight increases Before Attack and Coin I is Unbreakable. Win the clash, then prepare for the hit, Deep Laceration, and Bleed. Do not judge safety solely by the initially displayed additional targets."
+    },
+    "skills.4.name": {
+      "sourceHash": "c2d1faa97f6aa5dd57e3d995ed0639e936fc31da75d1b7390de6369cbad693bd",
+      "text": "Now, It's Your Turn"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "914225152f4c2afaddf88941e6f29c8fbfa321481e14e2c4487f22f0550ad707",
+      "text": "[On Hit] Inflict 1 Deep Laceration next turn."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "15358a8b48c661d55711abaea013214ca77138612d9e985ba91660bb69d369bf",
+      "text": "[On Hit] Become a Sewing Target next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "2a974506cccf9d6792d9eccd09977cc46a40556ccbf9daf8fe854325a8baf7b8",
+      "text": "Coin II is Unbreakable. Deep Laceration or next-turn Sewing Target may remain even after a win; check next turn's assignments too."
+    },
+    "skills.5.name": {
+      "sourceHash": "cea088e1a14dcde99deea448831ccb9987be04607e1c5c6bc693fefc0779f2ba",
+      "text": "I'll Cut You Together!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "bf7a9b1f9a852e097c6f12bf31c1e1a4b4e621677b5c377ec8db5d748382b761",
+      "text": "[Before Attack] Attack Weight +1 per Blood-tinged Scissorblade stage."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "fcb6d9717fc6d5cc0c77be61f39fbaf50ca0484c5ae72abfa601c99343200fa7",
+      "text": "[On Use] Consume up to 100 Bloodfeast; gain 1 Blood-tinged Scissorblades and heal 3 SP per 10 Bloodfeast consumed."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "8338d00cdd761b6da483eff6f04c0face1ab3686ef818d8f043fb122b2ec574d",
+      "text": "[After Attack] Consume 10 Blood-tinged Scissorblades."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "37ca0834ce2af399a63491aceccf0995eb4915396db3b380ae423fbc4788e752",
+      "text": "[On Hit] Inflict 3 Bleed Count."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "8bddc5236fdc6f01d8d1122203956054b9d85ae0f1c6733b649d34c8608e8568",
+      "text": "[On Hit after Clash Win] Activate the target's Bleed (max 10); reduce their Bleed Count by 1."
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "a7449f20c2075189cbe7ffdd0fc2a0f82a0d933f6b416af7d961012fab80008a",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "8bddc5236fdc6f01d8d1122203956054b9d85ae0f1c6733b649d34c8608e8568",
+      "text": "[On Hit after Clash Win] Activate the target's Bleed (max 10); reduce their Bleed Count by 1."
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "a7449f20c2075189cbe7ffdd0fc2a0f82a0d933f6b416af7d961012fab80008a",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "8bddc5236fdc6f01d8d1122203956054b9d85ae0f1c6733b649d34c8608e8568",
+      "text": "[On Hit after Clash Win] Activate the target's Bleed (max 10); reduce their Bleed Count by 1."
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "39efc816970f5c6dfd71e1991bee7c554259c5a20e2c4674c28d9b04a85e1dd9",
+      "text": "Ⅳ[On Hit] Damage +40% per Blood-tinged Scissorblade stage (max 120%)."
+    },
+    "skills.5.effects.13": {
+      "sourceHash": "edc98658a12a9e13c66ddc5a3deda3b1b9539f372c44ff35cc0afba42da118e6",
+      "text": "[On Kill] If this Coin effect defeats the target, heal for 50% of damage dealt to that target."
+    },
+    "skills.5.label": {
+      "sourceHash": "25a9e66fb7ed588a843d5505bc8836557b282f81f0b655732c3024a3da1621ac",
+      "text": "Attack Weight increases Before Attack"
+    },
+    "skills.5.response": {
+      "sourceHash": "58640480978cb6bfcdf86ffb51f22a13dfbfc453d4377c9a175f1bd5f65135c3",
+      "text": "An area attack whose first 3 Coins are Unbreakable. Losing the clash also causes immediate Bleed activation, so win with a strong E.G.O. Normal Bleed application remains after a win; heal everyone beforehand."
+    },
+    "skills.6.name": {
+      "sourceHash": "49ba5a71c33a09dd074d34bf1bfd0995092e83d2de9f30f9401ad8a11b080fe3",
+      "text": "How Discourteous!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "f2ec2d9b05c4e857b3c47bdc5bc36a41ce2052bc730756c5b1d937a9985eda01",
+      "text": "[On Use] Clash Power +1 per Blood-tinged Scissorblade stage (max 3)."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "d4b1f5483a4ad40efb8e56c36f34c1aca607fee996a34cfb8844f9d06ea92d3f",
+      "text": "[On Use] Coin Power +1 per 5 Bleed on self (max 3)."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "345e239be63c295575878cd863788749b297a995e7de16c927e5116b6c38e9b7",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and increase Bleed Count by 4."
+    },
+    "skills.6.response": {
+      "sourceHash": "4b54d67ddc7365ef31699eb7e62b5d2ada96ed4a7f964723fdda1d103b0a3af6",
+      "text": "A Clashable Counter, strengthened by Scissorblade stage and the Barber's own Bleed. Assign a strong clasher; do not carelessly attack first with a low-HP Sinner carrying heavy Bleed."
+    },
+    "skills.7.name": {
+      "sourceHash": "14048f5e7043924f6722a5d6d0bf529997cc56f794fae64b88abad8e81743738",
+      "text": "I Don't Need Ugly Things!!"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "d2cf2e03d7d16f533291749ce8dea86a1c28f12d095d38989b547d80b46616e1",
+      "text": "Prioritizes the target with the lowest current HP percentage."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "d6bc7ab960d119afacb3d446248eec95b121ed4815ec21d87e7cd3a3ee97d457",
+      "text": "Ⅰ[On Hit] If the target is at 30% HP or below, instantly kill them."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "d828bc23b6813ec83ad5c43134ad4c98f17613dd0fb38f9b7c1ba7b0d999a4f0",
+      "text": "[On Kill] Increase Bloodfeast by 30% of the defeated target's HP."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "53bfb4d67d2fbb99f524a650fe05272ebf8b2513805d091d3a7f42a09c928c98",
+      "text": "[On Kill] Gain 4 Fragile next turn."
+    },
+    "skills.7.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.7.response": {
+      "sourceHash": "7e4c22dc66dfe1c3426144ec11324ce0948dcef525c5af64eefedb6a35aab6ee",
+      "text": "Cannot be redirected. Win with the targeted Sinner's strong skill or heal them above 30% HP before the hit. Do not rely on survival at 1 HP to prevent instant death."
+    },
+    "passives.0.name": {
+      "sourceHash": "6d78ee3abb59fad7f6ad2b3eeba91d434bf390bee75955e2d46f76dc93dcb431",
+      "text": "Starved and Withered"
+    },
+    "passives.0.effect": {
+      "sourceHash": "50201f4f98c2dfa89518a6b614ff0c3961b7107d661df335540905c541ee18a9",
+      "text": "At Combat Start, gain Withered."
+    },
+    "passives.0.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "a2a975630eaf2b99b9c4b4d325717d9e74cbaea25fe4314d3614392f775600bc",
+      "text": "Displayed Offense and Defense Levels account for Withered. Check subsequent changes from Scissorblades, Thorns, Severe Wounds, and other effects too."
+    },
+    "passives.1.name": {
+      "sourceHash": "f115652b63a6b1e9eda71a7ce0f2ac005653b81a7f92bbf6d49b237b750e62c2",
+      "text": "I'll Cut You First!"
+    },
+    "passives.1.effect": {
+      "sourceHash": "ad4d4320570ad766ced9bcfb3615d7e767c41b390d2ee8ae9f428adfb14dae31",
+      "text": "Prioritizes attacking Sewing Targets."
+    },
+    "passives.1.condition": {
+      "sourceHash": "df2550dcb28be9db33bf7b22fb14a3f5f47cb006d17f9aff77531aec5e615821",
+      "text": "A Sewing Target is present"
+    },
+    "passives.1.response": {
+      "sourceHash": "66e33b9a59bc794c2a5afb433811aa0c1fcd8be9e15db237dc896af68416d840",
+      "text": "Dangerous skills concentrate on the Sewing Target. Check which attacks another fast Sinner can intercept."
+    },
+    "passives.2.name": {
+      "sourceHash": "ff8523e865fe34e65fa19f1e9ab32441d178ad524bd642248a9a2b1f691fbfb5",
+      "text": "I Don't Need Ugly Things!!"
+    },
+    "passives.2.effect": {
+      "sourceHash": "38bae8b8b1367faa02835c0ee203c64d37a97f9c6160214031653efa24881673",
+      "text": "If an enemy has 30% HP remaining, use I Don't Need Ugly Things!!."
+    },
+    "passives.2.condition": {
+      "sourceHash": "9a10d91e6e1300eff49320a67eea9423c8145cffed15a122b31a468c25a9652c",
+      "text": "A Sinner is at 30% HP or below"
+    },
+    "passives.2.response": {
+      "sourceHash": "98495fa82d2a3fbc271d769e4a9e18753ad337a5f2a25dacd4faa01eed4da900",
+      "text": "Heal low-HP Sinners to prepare for the instant-kill skill that cannot be redirected. If it appears, the target must win the clash."
+    },
+    "passives.3.name": {
+      "sourceHash": "cb8816d962213174495d3fd766f980958e0b1e0ffadde89789e4ec0bf7731470",
+      "text": "Blood... Blood... Blood...!"
+    },
+    "passives.3.effect": {
+      "sourceHash": "78ff1deb474a74294a8c4c652272a564afb181605e5b81dda04f51f2820c27a1",
+      "text": "If Panicked at Turn End, recover at the next Turn Start and reset SP to 0. On recovery from Panic:\n- Consume 30 Bloodfeast; gain 2 Attack Power Up and 1 Blood-tinged Scissorblades next turn, and heal 20 SP.\n- If unable to consume Bloodfeast, gain 30 Bleed, immediately activate Bleed damage, then reduce Bleed Count by 3. Afterward, gain 2 Attack Power Up and 2 Damage Up next turn, and heal 20 SP."
+    },
+    "passives.3.condition": {
+      "sourceHash": "60910154841c858849d456e273de4311bbd868d0e5cd6d36e0eefbe6c8808694",
+      "text": "On recovery from Panic"
+    },
+    "passives.3.response": {
+      "sourceHash": "75ef864e2f0601ae791abdcfb6456beaac5da43350afd9009f651149a1d5750a",
+      "text": "Recovery restores SP and strengthens attacks. Do not rely on Sinking alone to keep her disabled."
+    },
+    "passives.4.name": {
+      "sourceHash": "cce318808a0c1370e9471e19495e934cde2b31f83d9322d56eb66f9595464ed8",
+      "text": "It's Not Over Yet"
+    },
+    "passives.4.effect": {
+      "sourceHash": "ba574717a26c315c15474452d46155b085ae70dd5d935dc2fe3b9ca5f50383e0",
+      "text": "At 40% HP remaining, change pattern. After the change, gain 10 Bleed and 2 Blood-tinged Scissorblades each turn."
+    },
+    "passives.4.condition": {
+      "sourceHash": "da9904376e116f6acd18e5e8eaf0b3a8d2d26d9fdce97bf09c8b4f6e53b5ff2f",
+      "text": "The Barber reaches 40% HP"
+    },
+    "passives.4.response": {
+      "sourceHash": "09b1e5ee2f6407f0493ea484e5522a7d50e5052d450fbdf6392c9b98008eb93d",
+      "text": "Bleed and Scissorblades increase every turn in the latter half. Focus attacks before the buffs stack further."
+    },
+    "passives.5.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "passives.5.effect": {
+      "sourceHash": "c184e698020e69acb81ae3e7e5f32593f7b6a67d9f5a1fc888550bc56110d34d",
+      "text": "If this character appears in the encounter or is in its enemy roster, all characters' Bleed damage increases Bloodfeast from Turn 1. Each time this character enters, reveal the latent blood scattered across the battlefield."
+    },
+    "passives.5.condition": {
+      "sourceHash": "c773576d48195832d8cc6e722fbd2ded1296bdcf59ccd4e8aaab859577febbda",
+      "text": "Bleed damage occurs on the battlefield"
+    },
+    "passives.5.response": {
+      "sourceHash": "626175b50ab0a4f24b647657c6befb7d20ae9b7e0304e60c0684aa60a626e1f5",
+      "text": "A resource shared by enemies and allies. Your Bleed and enemy self-damage both increase it; do not assume you can always keep it depleted."
+    },
+    "passives.6.name": {
+      "sourceHash": "9f5f6c8b6328c73fd9383533fdc42b91ac46f1bee242e3f3b6b0ab9695221393",
+      "text": "Bloodsteeped Scissors"
+    },
+    "passives.6.effect": {
+      "sourceHash": "1032fc8f96f2865a1c37e38809f83195c523d80914518aa39f539b90e2c18a0f",
+      "text": "At Combat Start, gain 10 Blood-tinged Scissorblades.\n- Cannot fall below 1.\n- At 10 or more, changes to Blood-tinged Scissorblades II.\n- At 20 or more, changes to Blood-tinged Scissorblades III.\nReturns to the previous stage if consumption lowers the value below its threshold."
+    },
+    "passives.6.condition": {
+      "sourceHash": "8a0d68090291a6d66fb557e69964cd6fb7005b69fdae2860e01eb515de625fc6",
+      "text": "At the start / on gaining or consuming Scissorblades"
+    },
+    "passives.6.response": {
+      "sourceHash": "0240b4b0656e1ae2bfb7dd55b0347c8fa3b98cc457547268518710c5ded2875f",
+      "text": "Starts at 10, stage II. Higher stages strengthen reuse and area attacks; check the current value."
+    },
+    "passives.7.name": {
+      "sourceHash": "a66b1a9fc3f4d85da14aed15c193e61e006200f32dca58b3fb5ed5f9cbae7ea7",
+      "text": "Hardblood Scissor"
+    },
+    "passives.7.effect": {
+      "sourceHash": "1d4d7982461423d3a616ae5a6ddd5a66eaaf8d80e0869e3e9a37c183316fed5b",
+      "text": "On attack hit against a target with Bleed, heal part and overall HP by 40% of the damage taken by that target. If 100 HP was healed by Attack End, heal 10 SP. This effect does not activate on Unbreakable hits after losing a clash."
+    },
+    "passives.7.condition": {
+      "sourceHash": "9ddb57c89f3a7789124581c1a459efe41de2be9d7cd1c92097e22195df82c86b",
+      "text": "On hitting a target with Bleed"
+    },
+    "passives.7.response": {
+      "sourceHash": "72940c70e227fb60b3c6c69d0935cc2db603450e0fff1b38ba001e58d6907c98",
+      "text": "Winning suppresses HP drain. Even if Unbreakable hits remain, this healing does not activate after the Barber loses the clash."
+    },
+    "passives.8.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.8.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.8.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.8.response": {
+      "sourceHash": "bcc7ea5cbdbd2e3ce6b81676c14d4c2d3a797807b700ec8783a416c98e5b7ee6",
+      "text": "Handle the fight with clashes and recovery rather than relying on replacing Panic Type."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "ab4eebafc86797eeefc92efdde682d84c74a02a6c481057d450c951c816168b1",
+      "text": "Blood-tinged Scissorblades"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "f085aa2f2df09f3ec5a8e5ad5f4b7ac3f86d3c63cace043faf0b6cf6ecb0ac06",
+      "text": "Starts at 10, stage II; reaches III at 20 or more. Minimum 1. Stage and value change offense, defense, Coin reuse, and Attack Weight."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "f6f84576554147313314823c93505535264c8b07eec12a8a5c2d6e30e171a8cd",
+      "text": "The same skill can vary in Power and range. Prepare for Before Attack buffs and additional targets."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "b7095138f7ed29c4d1b0ae6012147ec8d05fb653b01d0dcaa2a08c64e8067977",
+      "text": "Sewing Target"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "437b7a424431c87ee0e4392e2ca9d42c2285afd70f5ca358346886e8b177aa9f",
+      "text": "The Barber's priority attack target. Some skills gain bonuses against it. Removed at Turn End."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "5368954e78eec94d2e95c7bbc452e61f1bb43ea6e9f680a1cefc41c4ffa9a7f6",
+      "text": "Have Sinners without Sewing Target intercept attacks such as SNIP!!"
+    },
+    "mechanics.2.name": {
+      "sourceHash": "9d3724f4565bde24179285afe90dd0bb59bd5a1a9bad8a02e73dab39b7967d5e",
+      "text": "Deep Laceration"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4d2ff87737f0852426ad9a5cd374cb746c49c999ad5f93605877244c98e9b3d5",
+      "text": "On Clash Lose, increase Bleed Count by 3, activate Bleed, and consume 1 Count. Removed at Turn End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "2d60cdae5547f7125c581253c5aa5f5b27bc3a9ca2bf1d2a8f61a702c8ff2b3c",
+      "text": "Affected Sinners should avoid losing clashes. Heal before Bleed builds up."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "2c67c560757393e6520e72cb9df2c8a1f11b0af38dbab442b0270e5b30ffc362",
+      "text": "I will take responsibility, through my bloody tears."
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "89d61cc262237cb598f154d4f2b86a1a340b03ae74678172dcfbb40f884845b6",
+      "text": "The Manager of La Manchaland Don Quixote gains this instead of the normal support effect. On gaining Hardblood, gain 1 extra (up to 5 times per turn). At Turn End, gain 2 Haste and 3 Offense Level Up next turn; every 3 cumulative turns, add another 2 Offense Level Up (max 6). Heal 3 SP on Clash Win; on defeating an enemy, gain 1 Clash Power Up next turn (once per turn each)."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "db5e496d7d28007ec8392708950b865c278d8aabd461f3014395f8b88823a9c4",
+      "text": "The Manager Identity has different Haste and Hardblood gains and lacks the normal support's Defense Level Down. Check the effects actually applied."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "7708bb7eeab81645805f151a38c3d0577108c4da6b54a0cbeec3d62651b8b745",
+      "text": "Withered"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "e86b01f988887764b5fdae7e7bb3357424511001296aeebd4de4727c19b56ade",
+      "text": "The Barber's Offense and Defense Levels are lowered by 25 in this encounter."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "5101a091e12dfe9d8efbb1877b97dd86b3b54cf844465bda9638d55a8bb27532",
+      "text": "Do not assume excessive leveling is needed based solely on the base Lv.70. Check the current prediction."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "1f666d471b63780c441f9a672646e5021b6b100ff5d9f005469705858e91cd94",
+      "text": "Bloodfeast"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "0101445c5759c1e7b86eb3bdf2e2657ae06ba4a9f171dee34356cacbb1fd93a6",
+      "text": "Accumulates Bleed damage across the battlefield and is shared by enemies and allies. The Barber consumes it to gain Scissorblades and SP."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "c42a04414fa171985ebc62bbfd14d870174c3bb860c3a290b7f027bf146e5c71",
+      "text": "Her own self-damage also increases it. Suppressing allied Bleed does not guarantee it runs out completely."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "0062aecc497318001de2712997b446451d65441a53849e6c29872d64fdb42a92",
+      "text": "HOW RIGHTEOUS!!"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "5ccbbb2b474a7e309de7b865dbb166c4019eaeea28f0b54b495d6df7a894673a",
+      "text": "Support effect for Don Quixote Identities other than the Manager. At Turn End, gain 1 Haste, 3 Offense Level Up, and 3 Defense Level Down next turn. Every 3 cumulative turns, add another 2 Offense Level Up (max 6). Heal 3 SP on Clash Win; on defeating an enemy, gain 1 Clash Power Up next turn (once per turn each)."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "cf07b808f7f2d6f6187380e6b8490d812a44ee1c9bf02a3b5e15c2242abd299d",
+      "text": "Don Quixote can handle strong clashes too. Her Defense Level is reduced, so do not ignore Bleed or low HP. The Manager Identity receives a different support effect instead."
+    },
+    "warnings.0": {
+      "sourceHash": "88f91bf3b1347650943b0419ce0c8b844c4b8be6b34957748fdb6dd77ec6fcaa",
+      "text": "Unbreakable hits remain after a clash win. Distinguish normal On Hit effects from immediate Bleed activation that occurs only after you lose the clash."
+    },
+    "warnings.1": {
+      "sourceHash": "435652194f36679972d5ffa1232e64b25cded95ff5b64b3b867d9a2513da0836",
+      "text": "I Don't Need Ugly Things!! cannot be redirected. Do not rely on effects that keep HP at 1 to prevent its instant kill."
+    },
+    "warnings.2": {
+      "sourceHash": "ff8706b949cf428a1df6f5ad235cbdb1fa8b4040d50af5593203a61b7044bd67",
+      "text": "Area Attack Weight changes Before Attack. Do not assume the initial display guarantees a Sinner will not be hit."
+    },
+    "warnings.3": {
+      "sourceHash": "6ebbddebca158080e4afe3039a5dacaaaaeedae43ceb8c489c9ef266f3336fdc",
+      "text": "Scissorblade consumption and the Attack Weight cap have reported issues. Do not assume the next big attack will become weaker."
+    },
+    "preparation.0": {
+      "sourceHash": "854270d0451d357f843f0aace00f7426b4f122815d9b6cadd8a1dae9eb86c0b8",
+      "text": "Don Quixote is mandatory: 6 deployed Sinners plus 6 reserves. Check healing E.G.O resources and each Sinner's response to attacks that cannot be redirected."
+    },
+    "preparation.1": {
+      "sourceHash": "3e02f9477d7ff838f7a76ab472cd8f4fcad97f1a90965be74a1e81ac32dc29f2",
+      "text": "Choose developed Pierce or Blunt attackers, or Lust and Gluttony damage. Keep enough HP to attack while carrying Bleed."
+    },
+    "roles.0.name": {
+      "sourceHash": "044119c609eafea738a670c614b59ce793c25a0317a136ebefb93206bb66ac68",
+      "text": "Area-attack Clash specialist"
+    },
+    "roles.0.reason": {
+      "sourceHash": "897f1a1af26b95047e51340d935112228bbcf7374fba104a59a1b06d422111a5",
+      "text": "Prevent immediate Bleed activation on a clash loss and suppress HP drain."
+    },
+    "roles.1.name": {
+      "sourceHash": "782ad335d5ec3c4a186e8d07aa2cc42b26d20ee821b76938b65f91d073651a8c",
+      "text": "HP and SP recovery"
+    },
+    "roles.1.reason": {
+      "sourceHash": "2b8b91d59fb3b14966d153c27ae47b8d533bfffaa550b7685af63da041e281ec",
+      "text": "Survive Unbreakable hits and avoid the low-HP instant-kill condition."
+    },
+    "roles.2.name": {
+      "sourceHash": "4bfef52fa0d1725903903338a77e7c574fe56e751d43354a723a5641a80ddaff",
+      "text": "Developed reserves"
+    },
+    "roles.2.reason": {
+      "sourceHash": "70a90f710b1c14435dde02d6e50ebd05f40199287907f2d3cbf20c954cf483b3",
+      "text": "Maintain reliable clashers after your initial team is worn down."
+    }
+  },
+  "messages": {
+    "boss-copy:barber": "complete",
+    "防御Lv（補正後）": "Defense Lv. (adjusted)",
+    "（補正後）": " (adjusted)",
+    "6名＋控え6名": "6 Sinners + 6 reserves",
+    "＋控え6名": " + 6 reserves",
+    "、控え6名の連続戦闘": ", with 6 reserves in a Chain Battle",
+    "敵Lv+0−25": "Enemy Lv.+0−25",
+    "コインⅠ(破壊不能)": "Coin I (Unbreakable)",
+    "コインⅡ(破壊不能)": "Coin II (Unbreakable)",
+    "コインⅢ(破壊不能)": "Coin III (Unbreakable)",
+    "【リンバス】7-16 理髪師（7-16）の攻略｜Limbus Assistant": "7-16 The Barber (7-16) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)7-16「理髪師（7-16）」の攻略。破壊不能の広域はマッチに勝ったうえで受け切る準備が必要。出血と低HPを放置せず、対象変更できない即死技を出させないよう回復しよう。": "The Barber (7-16) guide for Limbus Company 7-16. Prepare to survive Unbreakable area attacks even after winning their Clashes. Maintain HP and manage Bleed to prevent the fixed-target instant-kill skill from appearing.",
+    "7-16 理髪師（7-16）": "7-16 The Barber (7-16)",
+    "7-16「Bloodstained Scissors」": "7-16 · Bloodstained Scissors",
+    "理髪師の外見": "The Barber appearance",
+    "理髪師のスキル": "The Barber skills",
+    "The Barberの外見": "The Barber appearance",
+    "The Barberのスキル": "The Barber skills"
+  }
+}

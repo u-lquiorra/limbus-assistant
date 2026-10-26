@@ -1,0 +1,985 @@
+{
+  "kind": "boss-copy",
+  "id": "drunken-nightguest",
+  "source": "src/data/bosses/drunken-nightguest.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "ひとくち",
+          "en": "Swig",
+          "file": "Bufs-a1c8p1.json",
+          "id": "SipOfAlcohol"
+        },
+        {
+          "ja": "巨大な朴刀持ちの襲撃者",
+          "en": "Large Podao Assailant",
+          "file": "Enemies-a1c8p1.json",
+          "id": "90200"
+        },
+        {
+          "ja": "酔手夜客",
+          "en": "Night Drifter of the Drunken Palm",
+          "file": "Enemies-a1c8p1.json",
+          "id": "91021"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114513"
+        },
+        {
+          "ja": "その間の被害",
+          "en": "Damage Taken",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9019801"
+        },
+        {
+          "ja": "ターゲット - ジア・バオユ",
+          "en": "Target - Jia Baoyu",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9019802"
+        },
+        {
+          "ja": "任務遂行",
+          "en": "Mission Progress",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9020001"
+        },
+        {
+          "ja": "明確になっていく目標",
+          "en": "Honing in on Target",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9020002"
+        },
+        {
+          "ja": "その間の被害",
+          "en": "Damage Taken",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9102101"
+        },
+        {
+          "ja": "泥酔修行",
+          "en": "Plastered Training",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9102102"
+        },
+        {
+          "ja": "こりゃこりゃ…ひっく、これはいかん",
+          "en": "Well, well... Hic. This won't do",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9102103"
+        },
+        {
+          "ja": "揺るぎない目標",
+          "en": "Clear Target",
+          "file": "Passives_Enemy-a1c8p1.json",
+          "id": "9102104"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9019504"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9019604"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9019704"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9019804"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9019904"
+        },
+        {
+          "ja": "受け斬り",
+          "en": "Parrying Slash",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020001"
+        },
+        {
+          "ja": "押し斬る",
+          "en": "Pressuring Slash",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020002"
+        },
+        {
+          "ja": "波斬り",
+          "en": "Waveslash",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020003"
+        },
+        {
+          "ja": "馬出劫洗",
+          "en": "Becalming of a Bewildered Steed",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020004"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020005"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020104"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9020204"
+        },
+        {
+          "ja": "前旋斬",
+          "en": "Frontal Swirl",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102101"
+        },
+        {
+          "ja": "咽頭酒",
+          "en": "Way of the Open-throat Chugging",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102102"
+        },
+        {
+          "ja": "落酒",
+          "en": "Waterfall",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102103"
+        },
+        {
+          "ja": "取",
+          "en": "Drunklaim",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102104"
+        },
+        {
+          "ja": "酔回攻",
+          "en": "Drunken Returning Strike",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102105"
+        },
+        {
+          "ja": "真鎮終斬",
+          "en": "True Decapitation Deathblow",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102106"
+        },
+        {
+          "ja": "酔靠",
+          "en": "Intoxicated Leaning",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102107"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102204"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Bufs-twth.json",
+          "id": "PanicChangeLock"
+        }
+      ],
+      "note": "Guide aliases are resolved against paired Canto VIII records. First- and second-half Do Not Meddle / You Will Not Meddle and the Deathrite passive/status names are distinguished by record ID. The guide name Extinguish is provisional: its source separately lists Wane and does not establish a separate effect. The raw 113306 skill record supplies the complete name including Tianjiu Star's Blade. Original guide conditions, numeric values, and uncertainty are retained."
+    }
+  },
+  "scopedTerms": [
+    "取",
+    "出しゃばるでない",
+    "再び問おう",
+    "ズールゥよ",
+    "呪殺【即滅】",
+    "圧倒",
+    "準備動作"
+  ],
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "2d21583a472b5774273d4b0acfcf7ae40ce2211cf2cc0ed82acdb526d3ae06bb",
+      "text": "Night Drifter of the Drunken Palm (8-17)"
+    },
+    "shortName": {
+      "sourceHash": "0bf668e329cf26370507c30b345b26c135ae7aea7faf9cc85f61c4bdf1370ad1",
+      "text": "Night Drifter of the Drunken Palm"
+    },
+    "stageName": {
+      "sourceHash": "6da017f3f9411a4059e3b2fbb1d8840db0f31f6f2fc9ff43d82b5f9e8d631a0a",
+      "text": "Night Raid 2"
+    },
+    "lead": {
+      "sourceHash": "d628037a883e61f7ef58433860beef45655c3bd6d468e83b2aed670210321860",
+      "text": "Clear the adds first and win against Waterfall to limit Swig. Hong Lu takes focused attacks, but his death does not immediately cause defeat here. Bring reserves to recover the fight."
+    },
+    "statNote": {
+      "sourceHash": "1b81483628c1fe40adadf728bfc1b2a5953b6830694a99c0fab717418823fe40",
+      "text": "The regular 8-17 story encounter. Hong Lu must deploy initially; bring 7 Sinners and 5 reserves. The boss's Stagger entry lists both 60% and 588, which do not agree at 969 HP; neither is treated as a measured threshold. Two boss passives have footnotes restricting them to the Canto VIII dungeon; their uncertain applicability is retained in the responses."
+    },
+    "skillNote": {
+      "sourceHash": "be0f0b7e7836af93d1579c955a703b535a9aee2a1adc8642206d8aef4b82cec0",
+      "text": "7 boss skills and 5 add skills. Drunklaim gains Unbreakable Coins only at 3+ Swig. True Decapitation Deathblow gains further Offense Level and Power on use. Ordinary Counters and Clashable Counters are distinguished. The listed ending conditions are Hong Lu's death with the boss at 50% HP or lower, or another HP condition whose percentage is unspecified."
+    },
+    "priorities.0": {
+      "sourceHash": "7ad8a2b90f98b65fcb07700f4936bee5e50534779c3ede148bfc926f34db75d4",
+      "text": "Aim for the recommended Level 53 with 7 Sinners and 5 reserves. Consider a borrowed Hong Lu Identity, and bring Slash resistance, Evade, and healing."
+    },
+    "priorities.1": {
+      "sourceHash": "e8f87728d2a20e76020fa40d546d19df5d17996954b70c8bbecca513add29f82",
+      "text": "Remove the 3 adds first. Win against Waterfall to consume 3 Swig, limiting healing and Unbreakable Coin upgrades."
+    },
+    "priorities.2": {
+      "sourceHash": "e37b25b73512314cc250aa13a31a77c6fdb49b60b14eb83e6685af79068531ce",
+      "text": "The fight can continue if Hong Lu falls. Below 50% boss HP, the turn ends and a Speed 10 finisher follows; keep healing and powerful skills ready."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a79b6af2a51fd908fcdcfe0ac05177024c3f72e795c29b6dfb00b91e50d2c5ed",
+      "text": "Hong Lu cannot survive the focused attacks"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "d94e569cef583f3d90be956dbbb541d32ab380740b77a1076a96f6fc1b602e9b",
+      "text": "The 3 adds prioritize Hong Lu. Protect him with Evade, Slash resistance, and redirection by faster Sinners, but his death does not immediately end this fight. Bring reserves and avoid ruining the entire team by trying to intercept everything."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "c9d9049079d9aa95cfadded23cf0895201a377bd00047920ca816e2dec13dcc3",
+      "text": "The boss keeps healing despite winning clashes"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "fd52fb4bbc427cb6967d28663b2e16dd9b90d6aeaf75545b3adb44f01f8765b8",
+      "text": "Swig can increase on use and heals 3% HP at Turn End with 3+ stacks. Winning a clash against Waterfall consumes 3. Resolving it after other Swig-generating skills is effective."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "32e63d7ba5c4a187c87519d4c3aa3907faef5143744c4478e18ad305708314d1",
+      "text": "Drunklaim kills a Sinner with Bleed despite a clash win"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "3c65271bc46138b839d49424100d67c2a5e890bcf3111f6bede98e082f4a6e4c",
+      "text": "At 3+ Swig, all its Coins become Unbreakable. It also gains Power against targets with substantial Bleed. Reduce Swig, or prepare resistance and healing beforehand to survive the remaining hits."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "cc18f9f610132adff124638e2c5d6bf54573e8264396b5aaabd895dac26dde9b",
+      "text": "The turn ended immediately after Staggering the boss"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "a2fb5fe1ff2c032bcd982311557c6949e4f79f33029517254fa4625d7fd6304c",
+      "text": "Below 50% HP, the boss recovers from Stagger and ends the turn, then has Speed 10 next turn. Later healing and follow-up attacks will not resolve; prepare before crossing the threshold."
+    },
+    "units.0.name": {
+      "sourceHash": "0bf668e329cf26370507c30b345b26c135ae7aea7faf9cc85f61c4bdf1370ad1",
+      "text": "Night Drifter of the Drunken Palm"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.speed": {
+      "sourceHash": "84ce882d8128e390b0e2224141fb59b7804a21b6ca76ad5b48f40c7a7c357cb6",
+      "text": "3–5 / 10 on the turn after the HP threshold"
+    },
+    "units.0.stagger": {
+      "sourceHash": "99c571782e6ec0703a0ce981525d4021ed1de26f91bb591842e72d80f6fe0948",
+      "text": "60% / 0% (listed as 588 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "1301a7d83077a50713e3b452cf64351949b2bf6094a9fd8a95011919f68d9651",
+      "text": "Weak to Slash. Heals at 3+ Swig; at 5, gains offensive buffs and Fragile next turn."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "22b627b1636b6cf684566d79db43eb76bb6c7097fe2003c3835423452f6721d8",
+      "text": "Deals more damage as HP falls. Prepare before the finisher below 50% HP."
+    },
+    "units.1.name": {
+      "sourceHash": "cd14d58bfbb97744463107179575de07ae964aa164981b9b368fa8b672f01f50",
+      "text": "Large Podao Assailant"
+    },
+    "units.1.part": {
+      "sourceHash": "8c22be9e66bc21ea0e5b1d6be63e302d18be675730af19ae6f7ccc721c1e0632",
+      "text": "Body · 3 enemies"
+    },
+    "units.1.hp": {
+      "sourceHash": "a30534f4300accf1d4b7e74ebeefcaa7828712bc3891ac12c4e0eccdba914997",
+      "text": "207 each"
+    },
+    "units.1.stagger": {
+      "sourceHash": "4dc869da1b24a1dc1c824434bfff2e071d9256ee807efcc9d56ebe99f39fbadc",
+      "text": "70% / 0% (144 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "554d05df91a1efb840f3f5fbd668a8f741edbed61b1a730837a878df9cf78f6f",
+      "text": "Prioritize Hong Lu. Stagger them with Slash and defeat them one at a time."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "280ab89959827b1fe6e13416b706694646a84377db2bb06fbbe4cfbe103ea0ee",
+      "text": "The second Coins of Waveslash and Becalming of a Bewildered Steed are Unbreakable. Do not leave low-HP adds unattended."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "8ed23b7f7999056a46d0222b08702109e781ce90b32503c99eae6edb2c7081ce",
+      "text": "Prepare Hong Lu and a full reserve team"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "def2c7e523190ddbac94305d355c08a27d472726a7e2335a483132dae37dc35b",
+      "text": "Aim for the recommended Level 53 and Uptie III or higher, with 7 Sinners and 5 reserves. Hong Lu must deploy initially; this fight also offers borrowed Identities with suitable levels and Uptie."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "6265445a73bae2a2045a63f2e4754e12cfa3aaed86f1707065bcd067ce683b68",
+      "text": "Choose a Hong Lu Identity with Slash resistance or Evade, and bring HP and SP recovery. Slash damage works well offensively."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "7e25d3665c45f6245ea3db2db481366b45427ed67e8d0495f08a35d0acd1a293",
+      "text": "This is a separate encounter from the next family-head examination, where Hong Lu's death causes immediate defeat. Here, reserves can recover the fight after he falls."
+    },
+    "phases.1.timing": {
+      "sourceHash": "18112649fd95776c8ac4be7f623e7b3885a238b427ad5780a93e5e9a248ffb71",
+      "text": "Opening"
+    },
+    "phases.1.title": {
+      "sourceHash": "fdef909e99ce946b1ed5d6a98a9ad95dd4a05571ab6a2f79dda3b480d5c23c2c",
+      "text": "Remove the adds before focusing the boss"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "20d3de1464d8dc9b674e261b84e9d2aa05bf94b1526ffd9e11723ab2f6730677",
+      "text": "Check attacks targeting Hong Lu and limit damage with Evade, defense skills, and faster Sinners redirecting them. For Sinners with high Bleed, also check their remaining HP and how many Coins they will use."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "c3ee0696013911fa36eb9684bba96fc3aeab788328dac1226d81fc5b592201c1",
+      "text": "Each add has 207 HP and a 1.5 Slash resistance multiplier. Focus one at a time, Stagger it, and finish it to reduce enemy actions."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "438aff1d0f1457ba47601d882df361563cd246506c3e6dd97fa7285a4753252e",
+      "text": "When the boss readies Intoxicated Leaning, avoid targeting it with everyone unnecessarily. Limit the Swig gained from the number of attackers, and spend actions on adds or defense instead."
+    },
+    "phases.2.timing": {
+      "sourceHash": "2065999e6135c5630b96b37bedb0a78cfe0ecb4e8a0e64195acf4db12199ad6e",
+      "text": "Turns with Waterfall"
+    },
+    "phases.2.title": {
+      "sourceHash": "d029ba13d875feca86e7ba9131672e1c3c367ecedf4d963806d9ec08a73e5be4",
+      "text": "Limit Swig healing and buffs"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "f26bb3a1bb8edbb29f7eb0bc4e9270162905b57b65ce3502d0e79f14bdbfb311",
+      "text": "Frontal Swirl and Way of the Open-throat Chugging gain Swig on use. A clash win does not undo that gain; retain someone who can beat Waterfall afterward."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "d6dfb67bd4571f405a1ace26c5d55de3ed2c167cbda88e0d97af15c64849fbd9",
+      "text": "Winning against Waterfall consumes 3 Swig. If action order can be adjusted, resolve it after Swig-generating skills and aim to leave fewer than 3 stacks at Turn End."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "0ba34bac8f275192b4831d2028bff991bba54ecbc65fef9cb9242fb06e5812a0",
+      "text": "Drunklaim becomes Unbreakable at 3+ Swig. If it cannot be reduced in time, prepare resistance and HP for the hits that remain after a clash win."
+    },
+    "phases.3.timing": {
+      "sourceHash": "9b40e76e1c46e89f0808df974de08e01dd38f921eb025fb03d9ccafc8c710c49",
+      "text": "Boss below 50% HP"
+    },
+    "phases.3.title": {
+      "sourceHash": "e0b407a4057f061e329dd32f6cf43165d6cb56b107e31e287e983c70b08584cf",
+      "text": "Prepare for the turn ending and Speed 10"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "5db3ad5148a42ebf9f18bb1acf955401626ec47ab1af9e97ec040d73aaf928b7",
+      "text": "Below 50% HP, the boss clears Stagger and ends the turn. Heal before crossing the threshold; do not rely on later actions to recover."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "bddf26ce04438e8042c7790943ac4c7a9725e0f8a384a0cc5207e1dbd5c80c49",
+      "text": "Next turn's True Decapitation Deathblow has Speed 10 and substantial on-use buffs. Prepare a powerful E.G.O or suitable defensive resistance, and check the current clash prediction."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "e830896e7d718b77cc20cadd6de7d6c81ddf85a6d134e7d9469d98e878853ea9",
+      "text": "The listed ending conditions include Hong Lu's death with the boss at 50% HP or lower, plus another HP condition with no specified percentage. If Hong Lu is alive, continue preparing for the finisher; crossing 50% does not necessarily end the encounter immediately."
+    },
+    "skills.0.name": {
+      "sourceHash": "011d00729aa41bbd84e7cf03ff94911a7bd68a7d4a2894cef2c4fe5204d0a6dd",
+      "text": "Frontal Swirl"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "b6839eb851835f6003251624d17a9aa9663e47e3deab3a0d19d42abe84b2fa19",
+      "text": "[On Use] If the target has 5+ Bleed, Base Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "87cf53aded3635a19260193b616fdcddafb6fac4a9de68199f591cc002089c93",
+      "text": "[On Use] Gain 1 Swig"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "b6cc255edf48ce823cde50c92bf32040fdcb9bafd91225d2255bcba0a98f79bb",
+      "text": "Gains 1 Swig on use. Winning does not prevent that gain, but prevents the hit that inflicts 5 Bleed. Base Power increases against targets with high Bleed."
+    },
+    "skills.1.name": {
+      "sourceHash": "c0c3d5d12b5d854fd81a5f67b59492230f532771f007cbca0a073e6bebc46092",
+      "text": "Way of the Open-throat Chugging"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "b32b2429705c6f4057c078eeddbaff52c414462bc3abe035f74cb77804b3ce65",
+      "text": "[On Use] Base Power +1 for every 5 Bleed on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "87cf53aded3635a19260193b616fdcddafb6fac4a9de68199f591cc002089c93",
+      "text": "[On Use] Gain 1 Swig"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "fc743b157139f60f77daaa63570cabd59a75f632e6f9ffd16a2dae4c9d36b803",
+      "text": "Gains 1 Swig on use. Stop both Bleed Count-increasing hits, and retain someone to beat Waterfall afterward."
+    },
+    "skills.2.name": {
+      "sourceHash": "c4a67d92f36387dae8d214a7b592d071b437bf3104d0159c6002190f5fa62542",
+      "text": "Waterfall"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "e9a5647372ee407287e53c6432b0ffb7a1a83f338cb3c9366ff9057fe76da7fe",
+      "text": "[On Use] If the target has at least 5 Bleed, Coin Power +1."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "a8f96972e44171522df31fbbd8b57900cb32296b91f08864d6cd07c1115cb6c7",
+      "text": "[On Clash Lose] Consume 3 Swig"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "a304e82b78b8fca98f018a558d3d659534b01f811c68c5943e941071a64adcf8",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "b174faf4f248a1a11a2cac247423b1d980d4fd68e73b26c1d269ef167969d75f",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "68a5aea3dcee4c523c36c04054cfa2613cbd7f30f3021c28b385bf2b15b399bc",
+      "text": "[On Hit After Clash Win] Bleed Count +3"
+    },
+    "skills.2.response": {
+      "sourceHash": "819f68e07d9f69a2fa530c2a816203ab82bd373b6014f27439a3ffe11505e33b",
+      "text": "An important skill: winning against it consumes 3 Swig. Resolving it after other on-use Swig gains helps suppress Turn End healing and buffs."
+    },
+    "skills.3.name": {
+      "sourceHash": "5441f9fb09dc5bb91961639814fab6d3b3470a7412e6889ab8d066571d1e8ef3",
+      "text": "Drunklaim"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "1c93da17d2b0becc1ccbc13afa51bea3b0260f57edeb283784438388b0f76184",
+      "text": "[On Use] Coin Power +1 for every 5 Bleed on the target (max 2)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "88177196ca546bef1b7c5c3e95fada802e4e49eecf4af5287b18aae470e0afe1",
+      "text": "[On Use] At 3+ Swig, all Coins of this skill become Unbreakable Coins"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "a304e82b78b8fca98f018a558d3d659534b01f811c68c5943e941071a64adcf8",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "03729d0d6aa475fa17b19f4332ddffa0fce6c9e5cf6ca3a248aa0b75020e7836",
+      "text": "ⅢDeal +1% damage for every 1 (Bleed + Bleed Count) on the target (max 20%)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "389823817d39d7dc747c29b0e87d09919be740336be7d3eb11375610ef09bc57",
+      "text": "[On Hit] At 3+ Swig on self, reuse this Coin once (once per skill)"
+    },
+    "skills.3.response": {
+      "sourceHash": "073c27694e2fc41dad890a69bc603d5bb2f5199d6c24cc0c5c9ace471c3b5849",
+      "text": "At 3+ Swig, all 3 Coins become Unbreakable and the last Coin is reused. Hits remain after a clash win; prepare Slash and Wrath resistance and sufficient HP, and check whether Waterfall can reduce Swig first."
+    },
+    "skills.4.name": {
+      "sourceHash": "9683166f2a57a1e44c54d87d9605c7189d1acba7cc9d03ca7863c413f2be869c",
+      "text": "Drunken Returning Strike"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "b6839eb851835f6003251624d17a9aa9663e47e3deab3a0d19d42abe84b2fa19",
+      "text": "[On Use] If the target has 5+ Bleed, Base Power +1"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "f2d20ddf79bf7ae11fab11e4a5d3517613439248bde78e71493129e88ffe23f3",
+      "text": "[On Hit] Inflict 4 Paralyze next turn"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "aa1a2b8fa633d4bbc3a6a2b891f6de00a539c38b3203bd32581572d97d70a4b6",
+      "text": "Ⅱ[On Hit] Inflict Offense Level Down and 5 Defense Level Down next turn"
+    },
+    "skills.4.response": {
+      "sourceHash": "d49108365b7f6abab1674f171668f24d0b299ef63c5f456caddb4a8853c87333",
+      "text": "A Clashable Counter. Base Power increases against targets with high Bleed. Win to prevent next turn's 4 Paralyze and Offense/Defense Level debuffs."
+    },
+    "skills.5.name": {
+      "sourceHash": "14a6633aa62f7d69c0ae9b599634274ec38fba1116478f7cfd771552b790819a",
+      "text": "True Decapitation Deathblow"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "1ad1cc5ee7b097d4fb648038938453db5f1ef4d20ff8f68208d725f1c12ef464",
+      "text": "[Combat Start] HP cannot fall below 0 until this skill ends"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "48b4a08cb495e9d6189448d1383f60325cbdb7c63e7444c19a88cdb45d7c9786",
+      "text": "[On Use] Gain 10 Offense Level Up"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "05b202e9204621b8f0e0c10d2ce8183cc99f5ffe1cb378ac95ec51f11ea59dfa",
+      "text": "[On Use] Gain 5 Attack Power Up"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "e48e1cd4b2fe18e8373cbc86d2a05a98895e188fcaf9c7ec171633a84b0dac49",
+      "text": "[On Use] Gain 10 Damage Up"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "cf98f12a6cbc2b273dfba42f4cabc73cc9318be9ee7acc6676e97dfbcdac1864",
+      "text": "Ⅰ[On Hit] Deal +1% damage for every 1 (Bleed + Bleed Count) on the target (max 100%)"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "f93e716cf94fb38fd2e5b9dc8e6e7cfaa5af55b7d40b1281c07feb7ae350ed79",
+      "text": "[On Hit] Gain 5 Swig"
+    },
+    "skills.5.response": {
+      "sourceHash": "e26bb81d578f1fbdd0ec1787fd11abe04ce80ef0fc2897ac7d7c21138943b03b",
+      "text": "The base 10 + 20 also gains 10 Offense Level Up and 5 Attack Power Up on use. Do not choose a clash based only on its unmodified maximum of 30; prepare high-Base-Power E.G.O, healing beforehand, and resistance."
+    },
+    "skills.6.name": {
+      "sourceHash": "0e55161616d73451fc2e9d1b0b12983d0744048c048a2ba233c9630cae400129",
+      "text": "Intoxicated Leaning"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "1c08765c7ffe28ff7f7fba26806389dfd38af5edd72962cf294526ae47ffc42b",
+      "text": "[On Use] Gain 5 Shield for every 1 Swig on self (max 25)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "5747fc35a4881c287a70b48b142452ba6092d26f4eebdd57bb6dc1d90f8f3c09",
+      "text": "[On Use] Gain Swig equal to the number of enemies targeting self"
+    },
+    "skills.6.response": {
+      "sourceHash": "351a2306f71673c33ef60a68436de3e1f956f1ea5584a07862873a48dfe5317a",
+      "text": "A defense skill that gains Swig for each enemy targeting the boss. Avoid unnecessary focused attacks on it; handle adds or defend instead. Offset it when possible to prevent its use altogether."
+    },
+    "skills.7.name": {
+      "sourceHash": "bf0bfaa80b4ca0f151bd074f1e94f61cf4a68012b577a82cad7e9e7a9c31586c",
+      "text": "Parrying Slash"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "f31a75e18c6fdcd10988691bb301310d3d20ff40765b3d5ba05dcbe143328ac8",
+      "text": "[On Use] If the target has 8+ Bleed, Clash Power +1"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.7.response": {
+      "sourceHash": "e23eca61b09034c5f22b7882e17f28bfb2e831839af6124f42bff38a23c45840",
+      "text": "Stronger against high-Bleed targets. Stop it with a winning regular skill and limit Bleed on Hong Lu."
+    },
+    "skills.8.name": {
+      "sourceHash": "1b1a40e54c1d7c16c055fc570ec6317b164d982b92bed49d397f1997d68974d4",
+      "text": "Pressuring Slash"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "10fa75685d2f329434a73d37d2453d44f97baeceae01d989053c2571b558be91",
+      "text": "[On Use] If the target has 5+ Bleed, Clash Power +1"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.response": {
+      "sourceHash": "6ba8c1c6e1b2a7f4890cd8c463558fe18ea197397c9ab527faa0204b9d387bac",
+      "text": "A 2-Coin skill that increases Bleed Count. Use a faster Sinner to redirect it away from low-HP or high-Bleed allies."
+    },
+    "skills.9.name": {
+      "sourceHash": "1a00b9640de90b9c2ac5867a75282fea290113b6bb5c6b70cc21735b7737ddff",
+      "text": "Waveslash"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "1c93da17d2b0becc1ccbc13afa51bea3b0260f57edeb283784438388b0f76184",
+      "text": "[On Use] Coin Power +1 for every 5 Bleed on the target (max 2)"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "8cd62e882915996b76c232dbf51cb8b8b207663102df6232e532e0544dc4ca6f",
+      "text": "Deal +1% damage for every 1 (Bleed + Bleed Count) on the target (max 20%)"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "b174faf4f248a1a11a2cac247423b1d980d4fd68e73b26c1d269ef167969d75f",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed"
+    },
+    "skills.9.response": {
+      "sourceHash": "43e858d418be3d499f9a9977ab75a09cdce1a91f77ec3364f3fa61b78142b852",
+      "text": "The second of 4 Coins is Unbreakable, so a clash win still leaves a hit. Bleed also strengthens its Coins; choose the defender based on current statuses and resistance."
+    },
+    "skills.10.name": {
+      "sourceHash": "a54438249b0f5d3960fa0bd92c1ecfbd56cf3ccc5d993ca330edec78c7c9a2af",
+      "text": "Becalming of a Bewildered Steed"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "6e8ade880d85db6ae803b31be8120d7376bc183ceb47d93aa2fbd6e0fde04d76",
+      "text": "[On Use] Coin Power +1 for every 5 Bleed on the target (max 3)"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "909bcbd436a1daf4f04ca51cb2046a9089efec049c02b2fed8f4e3b3dd974a0f",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed and increase Bleed Count by 3"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "9f87aeb6651b6894f1ad64cbdf19ce841e67b6783061a90c565e8a25966b44c3",
+      "text": "Deal +1% damage for every 2 (Bleed + Bleed Count) on the target (max 50%)"
+    },
+    "skills.10.response": {
+      "sourceHash": "9d3a6b3933a1d2bad7839b19351410908b969c334ce7866ca3b1f14a0f4e6e83",
+      "text": "The second Coin is Unbreakable, with substantial bonuses from the target's Bleed. Stagger the user first, or win with a strong skill and survive the remaining hit through resistance and healing."
+    },
+    "skills.11.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "e7aa2ea67a5873f639956638fdec14fa8d144f3441709ceee6de9ee290cccfe1",
+      "text": "[On Use] If the target has at least 6 Bleed, Base Power +1."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "a4d838ab59eb19923d57d141c1de9c61f473a1c232e6c98860772d713ff07bdc",
+      "text": "Ⅱ[On Hit] Inflict Offense Level Down and 3 Defense Level Down next turn"
+    },
+    "skills.11.response": {
+      "sourceHash": "fec4e8e855ff7869fd588fb19941e5dd5c66c97c84d5c349a66a945fb8cc2713",
+      "text": "An ordinary Counter. Weak attacks into it invite Bleed and next-turn Bind and offensive/defensive debuffs. Commit enough damage to finish the enemy; avoid careless attacks by low-HP Sinners."
+    },
+    "passives.0.name": {
+      "sourceHash": "b258ed9e3333b9a168336e6fd76b6aa7e73c10cfa86efb9a0be40b050801782a",
+      "text": "Well, well... Hic. This won't do"
+    },
+    "passives.0.effect": {
+      "sourceHash": "76e49bede445f8568b722efdc7f8c3732bc06ccb1a2ed3c9c4d32be7f3fee5b4",
+      "text": "When HP falls below 50%, recover from Stagger and end the turn.\nSpeed is fixed at 10 next turn."
+    },
+    "passives.0.condition": {
+      "sourceHash": "aaf575444f76ab85fe0cdc69e1d17f3de2628dd0a220b42f3a5e2ad4c3828692",
+      "text": "Enemy below 50% HP"
+    },
+    "passives.0.response": {
+      "sourceHash": "7788dc19ba99566fc217cefe9f8038e49875a643b25b8f90933f66399929b9e9",
+      "text": "Stagger clears, the turn ends, and next turn's Speed is 10. Do not assume later healing or follow-up attacks will resolve."
+    },
+    "passives.1.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.1.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.1.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.1.response": {
+      "sourceHash": "8c13e5424ef47629b56ef7cf171600a84f8afd91802c902d1c45bc74bd9fd1f4",
+      "text": "Recheck predictions rather than assuming the enemy remains Panicked next turn."
+    },
+    "passives.2.name": {
+      "sourceHash": "16ad33d814e25f37d486da836842db476ba6ae691b10c6c74e4a44f5bf76de6a",
+      "text": "Fixed Panic"
+    },
+    "passives.2.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.2.condition": {
+      "sourceHash": "c4195467fc10b1e8930c4854d0ae1a00aa36078f88fa312635df1ce7a1f1bc42",
+      "text": "Effects that change Panic type"
+    },
+    "passives.2.response": {
+      "sourceHash": "bfba8b7b71c9759599c1cc7dd6a5f8106c8d7527e2e118a7c3259f104d4574d1",
+      "text": "Use winning clashes and HP recovery rather than relying on replacing its Panic type."
+    },
+    "passives.3.name": {
+      "sourceHash": "4446c2685f6eb5753116eb66fcea30e509d60a076c1db696daa1dfea87f1313e",
+      "text": "Target - Jia Baoyu"
+    },
+    "passives.3.effect": {
+      "sourceHash": "520395a52a9c185b2297b22c71c2fcfa9db59f5174c12af9cfa09d90383481cf",
+      "text": "Prioritizes Hong Lu"
+    },
+    "passives.3.condition": {
+      "sourceHash": "90524b7f73fba77b768ca4fbe4281d134eed2c8188a74b346824e545401f854b",
+      "text": "Priority targeting of Hong Lu (check the boss passive's stated scope)"
+    },
+    "passives.3.response": {
+      "sourceHash": "18e051b58bd1ce91cfa59214f7d8979246f785f887e537bb9c8adc988576f779",
+      "text": "The adds focus Hong Lu. The boss's same-named passive has a footnote restricting it to the Canto VIII dungeon; check the actual targeting lines in 8-17."
+    },
+    "passives.4.name": {
+      "sourceHash": "68372e7e3bb90ca9d1c79731fe904bb3cab1216ed70ff24a0cf89f7d1de2c802",
+      "text": "Damage Taken"
+    },
+    "passives.4.effect": {
+      "sourceHash": "2933f641c07adf298d0cb89ff5d8d21b2bc074a71b6176e96b0d5d2519c62aad",
+      "text": "When taking damage during combat, deal +20% damage for the rest of the turn.\nOn Clash Lose during combat, take +15% damage from that skill."
+    },
+    "passives.4.condition": {
+      "sourceHash": "f74a46b3e18d5ff521c76763c146cf94ed94498ff2f97b9c2f8e172c12dec77d",
+      "text": "Taking damage / losing a clash"
+    },
+    "passives.4.response": {
+      "sourceHash": "f1316af004f8ece0b4a9248bec14e2c015986172e64475b509d42a2219d075a8",
+      "text": "An enemy hit earlier deals more damage that turn. Check whether an early attack can Stagger it, and avoid spreading damage without a purpose."
+    },
+    "passives.5.name": {
+      "sourceHash": "45e3d209424e08bf7adc5f76a05888796f6cbbb5d6483775816b3d4adb67f301",
+      "text": "Plastered Training"
+    },
+    "passives.5.effect": {
+      "sourceHash": "2431401297f02f57851c402014686f0c1f2568bc82e008e9facca1849f1245ff",
+      "text": "Deal +2% damage for every 1% HP lost (max 100%)"
+    },
+    "passives.5.condition": {
+      "sourceHash": "5aef9dcc6bc39d48acdb19928bff6dc748e96b1a937117db675e1c8bb2c4f79a",
+      "text": "Boss losing HP"
+    },
+    "passives.5.response": {
+      "sourceHash": "ac05539618ce165c9d5d1dcd34e1daf532ca8901a112071d862c8a8e9a5f8e36",
+      "text": "Its damage rises as HP falls. Clear the adds before concentrating damage on the boss."
+    },
+    "passives.6.name": {
+      "sourceHash": "db7f7bbaa3f3a2eee6078b70a6a32ff36b4d21b979ecef21e6f0a46fa4b685c5",
+      "text": "Clear Target"
+    },
+    "passives.6.effect": {
+      "sourceHash": "3a1aa1f283dd1b9b59bc68b925d3f5b5917e83a9b19c6c5357c957e12c13cc3d",
+      "text": "At Turn End, if at 70%+ HP and no skill hit Hong Lu, gain 3 Offense Level Down next turn.\nAt Turn End, if below 70% HP and no skill hit Hong Lu, gain 6 Offense Level Up next turn."
+    },
+    "passives.6.condition": {
+      "sourceHash": "a17ef1a9f24230b4dd69c2f40bc85b037db2ea8328f5395012c6c8941b9db892",
+      "text": "Source footnote: Canto VIII dungeon only; applicability to 8-17 unconfirmed"
+    },
+    "passives.6.response": {
+      "sourceHash": "b1a26c4eba50a4ea05559cb45c13e850c1fe9d79d45c3545b0ee629929ea3a43",
+      "text": "Next-turn Offense Level changes based on 70% HP and whether Hong Lu was hit. Do not assume it applies when calculating 8-17 clashes; check actual buff displays."
+    },
+    "passives.7.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.7.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.7.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.7.response": {
+      "sourceHash": "8c13e5424ef47629b56ef7cf171600a84f8afd91802c902d1c45bc74bd9fd1f4",
+      "text": "Recheck predictions rather than assuming the enemy remains Panicked next turn."
+    },
+    "passives.8.name": {
+      "sourceHash": "68372e7e3bb90ca9d1c79731fe904bb3cab1216ed70ff24a0cf89f7d1de2c802",
+      "text": "Damage Taken"
+    },
+    "passives.8.effect": {
+      "sourceHash": "e08785e403b55eba33c46f708389abb54837d5a54a5e4d66b6b5decacbf94642",
+      "text": "When taking damage during combat, deal +10% damage for the rest of the turn.\nOn Clash Lose during combat, take +20% damage from that skill."
+    },
+    "passives.8.condition": {
+      "sourceHash": "f74a46b3e18d5ff521c76763c146cf94ed94498ff2f97b9c2f8e172c12dec77d",
+      "text": "Taking damage / losing a clash"
+    },
+    "passives.8.response": {
+      "sourceHash": "f1316af004f8ece0b4a9248bec14e2c015986172e64475b509d42a2219d075a8",
+      "text": "An enemy hit earlier deals more damage that turn. Check whether an early attack can Stagger it, and avoid spreading damage without a purpose."
+    },
+    "passives.9.name": {
+      "sourceHash": "4446c2685f6eb5753116eb66fcea30e509d60a076c1db696daa1dfea87f1313e",
+      "text": "Target - Jia Baoyu"
+    },
+    "passives.9.effect": {
+      "sourceHash": "520395a52a9c185b2297b22c71c2fcfa9db59f5174c12af9cfa09d90383481cf",
+      "text": "Prioritizes Hong Lu"
+    },
+    "passives.9.condition": {
+      "sourceHash": "90524b7f73fba77b768ca4fbe4281d134eed2c8188a74b346824e545401f854b",
+      "text": "Priority targeting of Hong Lu (check the boss passive's stated scope)"
+    },
+    "passives.9.response": {
+      "sourceHash": "18e051b58bd1ce91cfa59214f7d8979246f785f887e537bb9c8adc988576f779",
+      "text": "The adds focus Hong Lu. The boss's same-named passive has a footnote restricting it to the Canto VIII dungeon; check the actual targeting lines in 8-17."
+    },
+    "passives.10.name": {
+      "sourceHash": "52f95c0043d215fc0db8612fa35070144e6344cab8bb7f84e3f51eb24b104395",
+      "text": "Mission Progress"
+    },
+    "passives.10.effect": {
+      "sourceHash": "d51a9d7d6d4448ef7275ca69c5a7ae21d7581892e16e24dbc7ff579e98ffbea4",
+      "text": "Deal +0.5% damage for every 1% HP lost (max 50%)"
+    },
+    "passives.10.condition": {
+      "sourceHash": "820be7fc42e55d0c3e6261071f3eedf6f047e8a7665ebf7217f11174f7e0fad4",
+      "text": "Adds losing HP"
+    },
+    "passives.10.response": {
+      "sourceHash": "0f2da425e63af36234d4c2778520e7f56cfcd0832bdf2eadf0e0c2d5505d145e",
+      "text": "Damage rises at low HP. Finish adds after Staggering them rather than leaving several partly damaged."
+    },
+    "passives.11.name": {
+      "sourceHash": "01c94e32fbf31b5307d16312342e94c1791079f5dc96b3bb4d5fa954fd8a26ee",
+      "text": "Honing in on Target"
+    },
+    "passives.11.effect": {
+      "sourceHash": "436a99e2abfcbbf6e343dd3aaadb5e03b0ff1d00f20616f5c3aea9c917d62876",
+      "text": "At Turn End, if at 70%+ HP and no skill hit Hong Lu, gain 1 Attack Power Down next turn.\nAt Turn End, if below 70% HP and no skill hit Hong Lu, gain 1 Attack Power Up next turn.\n- Inflict +1 Bleed and Bleed Count next turn."
+    },
+    "passives.11.condition": {
+      "sourceHash": "7e5d13cf232fc83455bb9ee1e38d2635d1fe55b834dd220d2dcd663682d68180",
+      "text": "70% HP / hitting Hong Lu that turn"
+    },
+    "passives.11.response": {
+      "sourceHash": "7748d420aaf4df7ea75a0db45b5299a5fc6fe8b1377fa25225369b795b975386",
+      "text": "Below 70% HP, Attack Power and Bleed application can increase. Protecting Hong Lu does not always weaken the enemy."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "08c9b9a4f3407280b16bc1a62c5d7d6b91015816eca1915215479f87bf730ff0",
+      "text": "Swig"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "c82f9058e8d2f4cd61844e2627588c5f38ab46ca47510b380b24adaa0818512c",
+      "text": "Max 5. At 3+, heal 3% HP at Turn End; at 5+, gain 3 Attack Power Up and 2 Fragile next turn. Losing a clash with Waterfall consumes 3."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "46ab677ef83cf7e57d50c23b3847a77b9e78f14ec62078aef31b8053a072aef3",
+      "text": "Clash wins do not cancel on-use gains; reduce stacks through Waterfall and action order."
+    },
+    "warnings.0": {
+      "sourceHash": "51d22b0be80bfc962b5b9a3755db6cf9fd4961551839127f64a789456265ed39",
+      "text": "Hong Lu is required, but his death does not immediately cause defeat in this encounter. Do not confuse this with 8-20."
+    },
+    "warnings.1": {
+      "sourceHash": "303ba668d9ae28612f7f819da19121bea4d4367ff56623554bc3727fba05ff63",
+      "text": "At 3+ Swig, Drunklaim still hits after a clash win."
+    },
+    "warnings.2": {
+      "sourceHash": "d6951dedd210a53ad6b114140e2ed876513a93d72c25f85e34ad4be34e391e69",
+      "text": "The turn ends below 50% HP. Later healing may not resolve."
+    },
+    "warnings.3": {
+      "sourceHash": "83e6f5bc819594c066d35bf293a1327840a3d4e0f2f64e10ba09f8989827fdff",
+      "text": "The scope of 2 boss passives and the alternative ending HP percentage while Hong Lu lives are unclear in the source. Check actual statuses and targeting lines."
+    },
+    "preparation.0": {
+      "sourceHash": "7ca2b0c55c5d39314e6745cd6212c1cae01b4b01b6b23864a12205694da0c80c",
+      "text": "Aim for Level 53 with 7 Sinners and 5 reserves. Bring Slash resistance, Evade, and HP/SP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "2484f0ca8227e9be7d595e20762affbd76e8dadb550fa4aa23b000edbca7b288",
+      "text": "Use Slash damage to remove adds and retain powerful skills for the boss's finisher."
+    },
+    "roles.0.name": {
+      "sourceHash": "2567fefc50c47068750450a99bbbf8aa814a645db68342fdadc2c0cec3363c58",
+      "text": "Hong Lu's defenses and healing"
+    },
+    "roles.0.reason": {
+      "sourceHash": "93a77ac73b6c3eadaec90c99452d67bd89c7e66313a0393f19aaf33f4df34b2b",
+      "text": "Limit focused damage and buy time to remove the adds."
+    },
+    "roles.1.name": {
+      "sourceHash": "524c4e799b70ee0324eaa7d88be0a509c76a621d48cec0b229bd483e9e2ea04e",
+      "text": "Slash damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "f5c934cb24089b1e9c7fc234ae3bacf66bf41c459ae5527f464389a76d07e0bd",
+      "text": "Remove the 207-HP adds first to reduce enemy actions."
+    },
+    "roles.2.name": {
+      "sourceHash": "f1dda92d03a56b0c8f8ab503c560af4a3d51d8118e2e160f7f4b1fcc75f4a45e",
+      "text": "Waterfall and finisher handlers"
+    },
+    "roles.2.reason": {
+      "sourceHash": "ba72fda349af6e80c0c2a1f512c637e46ce93369251d30e96f7e797818f25af9",
+      "text": "Limit Swig buildup and prepare for the Speed 10 attack."
+    }
+  },
+  "messages": {
+    "boss-copy:drunken-nightguest": "complete",
+    "【リンバス】8-17 酔手夜客（8-17）の攻略｜Limbus Assistant": "8-17 Night Drifter of the Drunken Palm (8-17) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)8-17「酔手夜客（8-17）」の攻略。まず取り巻きを減らし、落酒への勝利でひとくちを抑える。ホンルは集中攻撃されるが、この戦闘では倒れても即敗北ではない。控えまで用意して立て直そう。": "Night Drifter of the Drunken Palm (8-17) guide for Limbus Company 8-17. Clear the adds first and win against Waterfall to limit Swig. Hong Lu takes focused attacks, but his death does not immediately cause defeat here. Bring reserves to recover the fight.",
+    "8-17 酔手夜客（8-17）": "8-17 Night Drifter of the Drunken Palm (8-17)",
+    "8-17「Night Raid 2」": "8-17 · Night Raid 2",
+    "酔手夜客の外見": "Night Drifter of the Drunken Palm appearance",
+    "酔手夜客のスキル": "Night Drifter of the Drunken Palm skills",
+    "Night Drifter of the Drunken Palmの外見": "Night Drifter of the Drunken Palm appearance",
+    "Night Drifter of the Drunken Palmのスキル": "Night Drifter of the Drunken Palm skills",
+    "巨大な朴刀持ちの襲撃者の外見": "Large Podao Assailant appearance",
+    "巨大な朴刀持ちの襲撃者のスキル": "Large Podao Assailant skills",
+    "Large Podao Assailantの外見": "Large Podao Assailant appearance",
+    "Large Podao Assailantのスキル": "Large Podao Assailant skills"
+  }
+}

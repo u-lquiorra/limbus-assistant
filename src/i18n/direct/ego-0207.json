@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0207.md",
+  "code": "0207",
+  "messages": {
+    "暴食共鳴で3枠広域にして敵へ破裂を配る、破裂編成向けの暴食斬撃E.G.O。": "A Gluttony Slash E.G.O for Rupture teams that becomes a 3-target attack with Gluttony Resonance and spreads Rupture to enemies.",
+    "コイン威力の強化: 対象の破裂7につきコイン威力+1(最大2)。解析Ⅲから、自分と対象の速度の合計が6以上でさらに+1。素の威力は4~10と低いので、これらを満たして撃つ。": "**Coin Power bonus**: +1 Coin Power for every 7 Rupture on the target, up to 2. From Threadspin Ⅲ, +1 more if her Speed and the target's Speed total at least 6. Its base power is a low 4–10, so meet these conditions before using it.",
+    "広域化: 最大共鳴が4以上で加重値+1(解析Ⅲ)。それが暴食共鳴ならさらに+1で3枠になる(解析Ⅳ)。": "**Multi-target**: +1 Attack Weight at a highest Resonance of 4 or more (Threadspin Ⅲ). If that is Gluttony Resonance, +1 more for 3 targets (Threadspin Ⅳ).",
+    "破裂の付与: 3コインとも破裂を付与するか、破裂回数を増やす(解析Ⅲで量が増える)。": "**Inflicting Rupture**: All 3 Coins inflict Rupture or increase Rupture Count, with larger amounts at Threadspin Ⅲ.",
+    "パッシブ「広がりゆく投げ縄」: 攻撃終了時に対象が混乱・死亡していると、ランダムな敵2名の破裂回数が1増える(1ターン1回)。": "**Passive — Sprawling Lasso**: If the target is staggered or dead at the end of the attack, increases the Rupture Count of 2 random enemies by 1, once per turn.",
+    "侵蝕スキル: 最初から3枠広域で、Ⅲコインが対象に特殊効果「投げ縄」を付与する(解析Ⅳで量が増える)。呼吸のある対象へのダメージ増加も付く。": "**Corrosion skill**: Hits 3 targets from the start, and Coin Ⅲ inflicts the special effect Lasso on the target, with larger amounts at Threadspin Ⅳ. It also deals more damage to targets with Poise.",
+    "破裂編成で、速度の高い人格と組んで速度条件を満たす。": "In Rupture teams, pair it with fast Identities to meet the Speed condition.",
+    "暴食スキルを4つ以上並べて加重値を伸ばし、複数の敵に破裂を撒く。": "Line up 4 or more Gluttony skills to raise its Attack Weight and spread Rupture across several enemies.",
+    "解析Ⅲから攻撃前に次のターンのクイック2を得るので、続くターンの速度も確保しやすい。": "From Threadspin Ⅲ, it grants 2 Haste for the next turn before attacking, making it easier to keep her Speed up on the following turn.",
+    "Ⅱ: パッシブが解放されるのみ。": "**Ⅱ**: Only unlocks the passive.",
+    "Ⅲ: 速度条件、クイック獲得、共鳴による加重値、破裂付与量が加わる。": "**Ⅲ**: Adds the Speed condition, Haste gain, Resonance-based Attack Weight, and more Rupture infliction.",
+    "Ⅳ: コイン威力+1、暴食共鳴での加重値+1が加わる。": "**Ⅳ**: Adds +1 Coin Power and +1 Attack Weight with Gluttony Resonance.",
+    "南部セブン協会4課: S1が嫉妬、S3が暴食、守備が色欲で必要資源を出せ、破裂を付与するスキルも持つ。": "**[Seven Assoc. South Section 4](persona:0206)**: Envy S1, Gluttony S3, and a Lust Defense skill supply the required affinities, and she has skills that inflict Rupture.",
+    "黒獣-卯 筆頭: 暴食のS3を持ち、破裂を付与するスキルがあり、クイックを得られるため速度条件も満たしやすい。": "**[Heishou Pack - Mao Branch Adept](persona:0212)**: Has a Gluttony S3 and skills that inflict Rupture, and gains Haste, making the Speed condition easy to meet."
+  }
+}

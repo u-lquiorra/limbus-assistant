@@ -2,6 +2,8 @@ import type { Keyword } from "../types";
 import { COIN_NUMERALS, COIN_PREFIX } from "../coins";
 import { splitStageMarks } from "../egoStage";
 import { decorate } from "./decorate";
+import { useContext } from "react";
+import { LanguageContext, translateKeywordName, translateText } from "../i18n/text";
 
 // E.G.O の解析段階の印(〘Ⅲ:…〙)は段階ごとに色分けして描画する。人格の効果文には印が無いので素通りする
 function renderBody(body: string, keywords: Keyword[]) {
@@ -24,10 +26,15 @@ interface Props {
 }
 
 export default function EffectText({ text, keywords = [], unbreakableCoins = [] }: Props) {
+  const language = useContext(LanguageContext);
+  const localized = translateText(text, language);
+  const localizedKeywords = localized !== text
+    ? keywords.map(({ term, desc }) => ({ term: translateKeywordName(term, desc, language), desc: translateText(desc, language) }))
+    : keywords;
   if (!text) return <p className="fx-empty">効果なし</p>;
   return (
     <div className="fx">
-      {text.split("\n").map((line, i) => {
+      {localized.split("\n").map((line, i) => {
         // 行頭の全角空白 = 直前のコインの効果の続き
         const indented = line.startsWith("　");
         const content = indented ? line.slice(1) : line;
@@ -45,7 +52,7 @@ export default function EffectText({ text, keywords = [], unbreakableCoins = [] 
                 {coin[1]}
               </span>
             )}
-            <span>{renderBody(body, keywords)}</span>
+            <span>{renderBody(body, localizedKeywords)}</span>
           </p>
         );
       })}

@@ -1,0 +1,797 @@
+{
+  "kind": "boss-copy",
+  "id": "walking-pearl",
+  "source": "src/data/bosses/walking-pearl.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "歩く真珠",
+          "en": "Ambling Pearl",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8101"
+        },
+        {
+          "ja": "緑色の粘液",
+          "en": "Green Slime",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBh"
+        },
+        {
+          "ja": "毒",
+          "en": "Poison",
+          "file": "Bufs.json",
+          "id": "Poison"
+        },
+        {
+          "ja": "幼虫",
+          "en": "Larva",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBg"
+        },
+        {
+          "ja": "首を絞める縄",
+          "en": "Noose",
+          "file": "EGOgift_StoryDungeon-a1c5p3.json",
+          "id": "2017"
+        },
+        {
+          "ja": "強迫",
+          "en": "Compulsion",
+          "file": "Bufs-a1c5p1.json",
+          "id": "AaCePaBa"
+        },
+        {
+          "ja": "毒性粘液",
+          "en": "Toxic Fluid",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810101"
+        },
+        {
+          "ja": "腐食粘液",
+          "en": "Corrosive Fluid",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810102"
+        },
+        {
+          "ja": "麻痺液体",
+          "en": "Paralytic Fluid",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810103"
+        },
+        {
+          "ja": "蚕食液体",
+          "en": "Devouring Fluid",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810104"
+        },
+        {
+          "ja": "沸き立つ緑色の粘液",
+          "en": "Effervescent Green Slime",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810105"
+        },
+        {
+          "ja": "捕食",
+          "en": "Predation",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810106"
+        },
+        {
+          "ja": "溢れ出した毒",
+          "en": "Overflowing Poison",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810107"
+        },
+        {
+          "ja": "曝け出された真珠",
+          "en": "Exposed Pearl",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810101"
+        },
+        {
+          "ja": "集まる粘液",
+          "en": "Gathering Slime",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810104"
+        },
+        {
+          "ja": "堅い貝殻",
+          "en": "Solid Shell",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810103"
+        },
+        {
+          "ja": "汚染させる粘液",
+          "en": "Contaminating Slime",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810902"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "捕食"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "bccb7e379cb20ef2c7f6440b55bec8e622b290e42b03a6d395565f5b86221f11",
+      "text": "Ambling Pearl (Canto V)"
+    },
+    "shortName": {
+      "sourceHash": "2a924629e685bd0ffffe01ba1b62e487acb716de8828d445febba172196ae73a",
+      "text": "Ambling Pearl"
+    },
+    "stageName": {
+      "sourceHash": "cd53a1401271b92da3c4d64e5dd12a4a580f7d224e4fa77200d2e5a52dd8232b",
+      "text": "Into the Darkness, Floor 2: Right Atrium"
+    },
+    "lead": {
+      "sourceHash": "d6b30f5ac03f759208545e3a40fe24d413372c245b7b0e6ab96f6b58eb7a646b",
+      "text": "Defeat summoned Green Slimes before they are eaten, then focus the Pearl when the boss's slime runs out. Avoid repeatedly attacking the resistant Shell, and prepare for Larva's SP loss and the area attack every 4 turns."
+    },
+    "listLead": {
+      "sourceHash": "8795d7c66314d1a48a58a4e4c8d3376ecbb2f7d649b7e890c731d21eb6a7e60d",
+      "text": "Defeat summoned Green Slimes before they are eaten, then focus the vulnerable Part when the boss's slime runs out. Avoid repeatedly attacking the resistant Shell, and prepare for Larva's SP loss and the area attack every 4 turns."
+    },
+    "statNote": {
+      "sourceHash": "581145218e38e99217ce217a74613a7e2addc7c068e80231df19518b9e60f512",
+      "text": "Overall HP is 1229; Pearl HP is 774 and Shell HP is 431. Part HP is not added to determine overall HP. The summoned 25-HP Green Slimes are separate units. Listed resistances are normal values, separate from changes caused by the special Stagger at 0 slime or Part breaks. Ishmael must deploy while alive and cannot be replaced with a Support Identity. Noose assists her to Level 40 and Uptie/Threadspin IV. She begins each fight at -25 SP, so do not rely on her alone for strong opening Clashes or costly E.G.O."
+    },
+    "priorities.0": {
+      "sourceHash": "fe8ce890bff70e4a0982e36624141a30fdfb754b7143ce0980837be37c157aab",
+      "text": "Defeat the 25-HP Green Slimes before the boss eats them."
+    },
+    "priorities.1": {
+      "sourceHash": "a3da26255a0a5ca975b7c5ddb22c03060cba812c0d61b05faa76c446309ca79d",
+      "text": "Win against Larva-inflicting attacks to protect SP."
+    },
+    "priorities.2": {
+      "sourceHash": "16853e641feec824ebfb31349c0a67f66734f7ae36df4f9eec9c698a257f9158",
+      "text": "Focus the Pearl during the opening at 0 slime."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "f560e9d01942224d9c98cf01febcaa0c13c250be83e4c80113302532352e38a5",
+      "text": "The enemy is too resistant to damage"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "40bf49b457c225be773479584781c1ee60563386a478cd8372126954c0b6ccca",
+      "text": "All Shell resistances are 0.7 and remain unchanged on Stagger. Defeat summoned slimes to prevent replenishment, then focus the Pearl during the special Stagger triggered by 0 slime."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "f395add9a9f00f5cc08b29289d8f7d205430c0e615a0e97227f7c38546561be0",
+      "text": "SP falls every turn"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "d9411dbec6c41fc20c6480b1a43d55f01d894f1f4506a54a983fe962b2bb243d",
+      "text": "Larva deals SP damage equal to its value at Turn Start and transfers to the ally with the highest current HP at Turn End. Prioritize winning against Corrosive Slime and Paralytic Fluid. Devouring Fluid also applies Larva [On Use], so Clash wins cannot prevent all of it."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "2179b2996a35939dca75bf0214d1ec8e15c96d66e87f8867ffc6633c44a0383b",
+      "text": "Slime replenishes immediately after decreasing"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "9337394331799fd95d88e83a9be317a9a0ddeeff97d8fc2917ba2be3284bcd5a",
+      "text": "Successful Predation on a summoned slime restores 3 stacks. Defeat it first with a faster attack. The area attack every 4 turns and recovery from the special Stagger also restore 10, so Predation is not the only cause."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "be1954db5a09cae73d96d7d55b0f8125f2a1a9486bbf177f2bb8d8752b68e2c7",
+      "text": "Prepare healing and enough actions to defeat slimes"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "183b2117fafb63134fe60fcc517da87cd88f693f3313b2813255d1f34dd66a32",
+      "text": "Recommended Level 40; deploy 6 Sinners. Account for Ishmael's low SP by giving other main units strong Clashes and healing options."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "7e66f494531163fb83da9772faef5f605a8e197910d01ef438d8107e961f1d64",
+      "text": "Consider Wrath/Pride damage against the boss and area attacks for multiple summons. Prioritize winning against Larva-inflicting attacks rather than building solely to damage the resistant Shell."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "ad3391493bc204df698462fde203b38668f47deea3009df00537c62fe2621af2",
+      "text": "Save HP and SP recovery. Poison's HP damage and Larva's SP loss require separate answers."
+    },
+    "phases.1.timing": {
+      "sourceHash": "5201cf632f3286b43e83210f0a729a2cc5a64959686d796f50bdf793aa3a8802",
+      "text": "Regular attacks"
+    },
+    "phases.1.title": {
+      "sourceHash": "77b2f15470b74e39c0d9fb0d3da621f428a8fc1163149f1d43e5c4350df6cebd",
+      "text": "Prioritize stopping skills that add Larva"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "8d8778c690ff4b7f36efc4c897b2fe6edf5ff810f701e5e496f44453b5ddca4f",
+      "text": "Beat Corrosive Slime and Paralytic Fluid to limit Larva and Paralyze. Poisoned Sinners receive extra Paralyze or Defense Level Down, so assign healthier main units to these Clashes."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "97737fdf9208fa076f1dae0dacab76e7518a89e078a71c0c0d44e694813a710c",
+      "text": "Devouring Fluid inflicts 3 Larva [On Use]. This remains even when you win, so use SP recovery and action cancellation from Part breaks too."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "9af71049231925a124f48f235beebf6195ac3eef0610445facd4dd299103191f",
+      "text": "Green Slime is consumed at Combat Start. Winning the Clash does not cancel that consumption or next turn's summon."
+    },
+    "phases.2.timing": {
+      "sourceHash": "9301f0ec373c6643c222bd0f1bda530f126eadf84a4ae7c5b7ca71b67270352e",
+      "text": "Slime summons / Predation"
+    },
+    "phases.2.title": {
+      "sourceHash": "1683101796c2352718affd213231a4f5fd192888bbbe44cc7a92b9c78b9e1d3e",
+      "text": "Defeat summons before the boss acts"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "b8c44586cae1d2f9b77430e91de21e52610be562ff421b2e6e3aa10421b34347",
+      "text": "Summoned slimes have 25 HP. Use faster Sinners or area attacks to prevent Turn End Poison and the boss's Predation."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "85f40c49faf25d5bf48477176896cda2d5e15c5abe7e5c9b75c44ed4e7f8bd10",
+      "text": "Predation is unclashable and cannot be redirected. Instead of challenging its 50–51 roll with E.G.O, defeat the targeted slime first so the attack cannot resolve."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "cc49c9bbdace9864bef09b32c1b55369e093be7107e5f9317f918fd1466ce832",
+      "text": "The boss's Green Slime status and the summoned units share a name but are separate. You do not directly attack the status to reduce its value."
+    },
+    "phases.3.timing": {
+      "sourceHash": "ad75ac6c8503d18e74383cde23a43ecff36a6c6cd2c18c82ee95e24856c3a62b",
+      "text": "Boss at 0 slime"
+    },
+    "phases.3.title": {
+      "sourceHash": "8b4d25a61b982ac278f2d66d87f3501258023352e9ee806cc8a10b78125e3e6b",
+      "text": "Focus the Pearl during the special Stagger opening"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "48b6feff24d16dd5f749e5be1dd9e41d9589d9463f054dea6295e11c47413e3e",
+      "text": "At Turn Start with 0 slime, the boss Staggers and the Pearl's resistances weaken. Focus strong attacks on the Pearl to reduce overall HP."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "de77e44efd7410b01842a7bdbe3e375736e9dcdd2c14e32c0b156eecb86a6019",
+      "text": "Staggering the Shell through ordinary attacks differs from the special Stagger at 0 slime. Its normal resistances are 0.7; avoid repeatedly attacking only the Shell."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "2338884a13e7b5a8c0bfa921e0c4571cd53d0f243218d8ba928d2628c37d23b8",
+      "text": "Recovery from the special Stagger restores 10 slime. If the boss survives, clear summoned slimes again to create another opening."
+    },
+    "phases.4.timing": {
+      "sourceHash": "58790bae2d08a3f01a07249c46b520ccc1a699ef0b0cd8c6e6068f93cb4a3c24",
+      "text": "4-turn cycle / final stretch"
+    },
+    "phases.4.title": {
+      "sourceHash": "5e8c7121cceff88ca3468a81559366e249db87efa4da884c2ea2a4e485067a46",
+      "text": "Save a strong area-attack answer, then finish the boss"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "2a0019efe60e2bc070f648e26595060f5776a6cce06b3aeb4a9d115832f2bc7b",
+      "text": "Effervescent Green Slime rolls up to 25, with Attack Weight increasing according to the boss's slime. Save a powerful skill to stop its combined Poison, SP loss, and Larva application."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "b80b133d2a20225b93ee77b36bee7f04e4262d4744445c47af6afe04e1a985e8",
+      "text": "This area attack gains 10 slime at Combat Start. Winning the Clash does not prevent that replenishment."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "62ffdebb045779bb52f1749ccd49f8bfa2c87a56caef2def795b17836a040dfd",
+      "text": "At 10% overall HP or less, the boss repeatedly uses its area attack. If you can finish it, concentrate damage rather than chasing only summons."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "617da4376bd5dc55926d7c68095e58d2054a94e52f0fdc0d4c4296261ae17730",
+      "text": "Green Slime"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "ea3639078be69044a1a2c07dac66c2f1f665d2935cc3c94fd3f6357347022bd7",
+      "text": "The boss's status has a maximum of 10. When it decreases, summoned units with the same name appear next turn. There can be up to 3 summons, each with 25 HP. Predation on one restores 3 stacks."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "d67dcfdac654ad85822ad811fef93f779db08cc0540152b567d381925488db3a",
+      "text": "Distinguish the status from summoned units, and defeat the summons before Predation."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "3a5608f2697821a0126aa9ea52027ca53f762b81bf153bc029ad834045dc9c81",
+      "text": "Poison"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "4fbbdee7d75b43cbb0d4ff485a092367ef9bb5aec3fd84ed1dd8ea4d31c7bae8",
+      "text": "At Turn End, take HP damage equal to its value, then halve the value."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "b5383db02d9344940bd0f8f0fd0584e10321fb874b3c9c50d8f7cf0f748c5e3f",
+      "text": "Clear summoned slimes to limit further application, and save HP healing."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "a57a3b876ad3f0ec1e1b766a3e4b04e86f8dbbd4fe242859bf7e829c748d29be",
+      "text": "Larva"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e353e5c7f17a51d05db08e2c5e54502e4841d34cabe7a6db23ea9ee7cbce4606",
+      "text": "At Turn Start, take SP damage equal to its value. At Turn End, transfer to the ally with the highest current HP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "883b01f456cd93b4438e3d768f4ac5affe6695c827a9b2e26c7e1411a0a8cdfc",
+      "text": "Win against the skills applying it and use SP recovery. It does not remain only the first affected Sinner's problem."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "5888f9c5d3fad49b523fe8c37630f156906c8e37d5b9affe70ae1bb73aaea234",
+      "text": "Noose"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "e298dd2fb92c18aedf132acfc5e606ed0c8635b7e28f14b52a804709432fec19",
+      "text": "A Canto V dungeon aid. Raises Ishmael to Level 40 if below 40 and assists Uptie/Threadspin to IV. Grants Compulsion each battle."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "44eb9cb47638cb2c1ce50717d14f65568f6069652857ac9c268c165e75b3e73c",
+      "text": "Prepare other main units, resistances, and healing rather than rushing to raise only Ishmael."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "3fa45d5e8209050e8468038f5534af1e7501a9b5f800bc11c6b5966a3ea9371c",
+      "text": "Compulsion"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "bbdca6c80e2943a7f8ee7572a972b78260ee461d0980f6a9a9c3394fdeb8d311",
+      "text": "Ishmael begins combat at -25 SP. At Turn Start, if SP is below 0, gain 3 Attack Power Up."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "c5c6a2496779c665475b33072231796acb5b8aa76653e9b66d6b22142bd93be1",
+      "text": "Prioritize SP recovery and durability, and watch for E.G.O Corrosion at low SP."
+    },
+    "warnings.0": {
+      "sourceHash": "9ea170f28bf386d3da500fbee8b9f01ed28af5e76ffbbc6064c416054975de23",
+      "text": "The Shell retains its normal resistances on Stagger. Do not confuse this with the Pearl's special weakening."
+    },
+    "warnings.1": {
+      "sourceHash": "2f36f9944654d23020ea28d6d73e7c09e2ceedb3ee59d8af2432e3036793f656",
+      "text": "Slime consumption and replenishment at Combat Start cannot be canceled by winning Clashes."
+    },
+    "warnings.2": {
+      "sourceHash": "04d8e356aece3dd303d360ee9a80298124c2b071d7f3f8e75bad6da466df531e",
+      "text": "Devouring Fluid applies 3 Larva [On Use]. SP management remains necessary even if you stop all Attack Skills."
+    },
+    "warnings.3": {
+      "sourceHash": "dd2657a984000565fba5e372956dd58910d7808757c9caa569b539acf9a1c908",
+      "text": "Successful Evades can also inflict Poison. Offset Overflowing Poison with another Defense Skill to avoid letting the enemy reuse it repeatedly."
+    },
+    "preparation.0": {
+      "sourceHash": "b2d7b68637e9d1b544902efecd8011b46217a5bae4b95b627fd4802a6679c0e3",
+      "text": "Aim for the recommended Level 40. Use the dungeon aid for Ishmael, supporting her low opening SP with recovery or resistances."
+    },
+    "preparation.1": {
+      "sourceHash": "2c9dd48b76b06b6c957e4367ae9dfc192def6782944eee5e248e3eb16d22ccce",
+      "text": "Prepare powerful Clashes against Larva application, fast attacks or area damage for summons, and HP/SP recovery."
+    },
+    "roles.0.name": {
+      "sourceHash": "23cd565f9f7bf4145522afbdf1bdde099d404724daadc963286af3c540e35f21",
+      "text": "Clashes against Larva"
+    },
+    "roles.0.reason": {
+      "sourceHash": "7c69d9df59da14367fd8e8ff84903b9169a27d477af3837e8fbb34a02a4a2cd6",
+      "text": "Stop the chain of SP loss."
+    },
+    "roles.1.name": {
+      "sourceHash": "61dc73e6b8c7d317f02aa90152373ff2044608a7b230cd8a88bd32c5bb6baabc",
+      "text": "Fast summon cleanup"
+    },
+    "roles.1.reason": {
+      "sourceHash": "7eab1a3231d0efa367fa191d831de5c2312a5534948f51a269128f01893d9a7a",
+      "text": "Reduce Predation replenishment and Turn End Poison."
+    },
+    "roles.2.name": {
+      "sourceHash": "c9c93eb7d80137759231ab7f6c1e4ff3db69bf34b9abdd05c261c2d3b1aadd09",
+      "text": "Focused Pearl damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "7f063b00ed65f7b479392d7bc5c582b335204363a306e77ca2c693b08995f53e",
+      "text": "Use the 0-slime opening to reduce overall HP."
+    },
+    "units.0.name": {
+      "sourceHash": "833f74c92e791588fcca22fd1bda5704954639e095c7f74160520714596c8d79",
+      "text": "Ambling Pearl (Pearl)"
+    },
+    "units.0.part": {
+      "sourceHash": "3a3ab47edd7a1af37074e1358b5e13d576aa270b9f33084f09d0311bc7820ae9",
+      "text": "Pearl"
+    },
+    "units.0.hp": {
+      "sourceHash": "784200b701757320fbba93ebce856b7610c57c3b2dd42bc9667276d17355a6bf",
+      "text": "Overall 1229 / Part 774"
+    },
+    "units.0.speed": {
+      "sourceHash": "a4e449debbfddfc94b98cafbec7baf8394d09344e0835ac0251c74005045443c",
+      "text": "1–3 / on Devouring Fluid turns: 1"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "a9340897bf83349e4cf6ce53060588c9a1da14dba07f7572e9489b33d1ec67e2",
+      "text": "Starts with 10 slime and consumes it through attacks' Combat Start effects."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "897a75755cc2565293b2db4e6bba2655a709a98fc1b5fc665a7035f7ddaa1137",
+      "text": "Remains targetable after breaking. Breaking the Part cancels its actions at that moment."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "fe27ff8a90bb7d9a19a855c5bb8ee0b99103156148b8fc26b2bf5421b0be3b7b",
+      "text": "At Turn Start with 0 slime, the boss enters a special Stagger and the Pearl's resistances weaken. Distinguish this from normal Stagger."
+    },
+    "units.1.name": {
+      "sourceHash": "b3eb540dec96bce28525d9f160d4b9d94717d7ed5aa0650a014688f8002066c2",
+      "text": "Ambling Pearl (Shell)"
+    },
+    "units.1.part": {
+      "sourceHash": "41b816d63e9ab13ec707cf32b949a993480e2fa4ed90d48d03b509a0e83c43bf",
+      "text": "Shell"
+    },
+    "units.1.hp": {
+      "sourceHash": "31baca3c4126ebce2f5a9138e2753ad1c4604e78f4a46ee03060c9174b7ae2e3",
+      "text": "431 (separate from 1229 overall HP)"
+    },
+    "units.1.speed": {
+      "sourceHash": "a4e449debbfddfc94b98cafbec7baf8394d09344e0835ac0251c74005045443c",
+      "text": "1–3 / on Devouring Fluid turns: 1"
+    },
+    "units.1.stagger": {
+      "sourceHash": "248ead7fbb7e3658bd44ae791f6611c93bc4bd29809f3493ad1ed03f6a98e9f8",
+      "text": "50% / 0% (216 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "53e968bd8bb0e042deaeecd91c0557bbc3ca875282c3a88bb64136fc066b2280",
+      "text": "Retains its normal resistances on Stagger. Ordinary Stagger does not make it dramatically easier to damage."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "897a75755cc2565293b2db4e6bba2655a709a98fc1b5fc665a7035f7ddaa1137",
+      "text": "Remains targetable after breaking. Breaking the Part cancels its actions at that moment."
+    },
+    "units.2.name": {
+      "sourceHash": "c96a5108bd7368ea293cfb91c273e7ca93f5c1f338d8bdd5bac5ab6bb3324b69",
+      "text": "Green Slime (Summoned)"
+    },
+    "units.2.part": {
+      "sourceHash": "617da4376bd5dc55926d7c68095e58d2054a94e52f0fdc0d4c4296261ae17730",
+      "text": "Green Slime"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "01d665205be0c0d9b04e9360f632fcebc00bafc769bab95c531a1c6ce6f514a0",
+      "text": "Up to 3. They do not act, but their Turn End passive inflicts Poison."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "b46642f1b6ad5e88992f9cb49ac15214d26760cd0d381e02be1ddde7d3d9f158",
+      "text": "The boss's Predation restores 3 slime when it eats one, so defeat it first."
+    },
+    "units.2.notes.2": {
+      "sourceHash": "d743eb382a04898e2ed2ab23fa722f75b135431ef514c39b85b41af4a2bcb1db",
+      "text": "Automatically defeated when the boss dies. In the final stretch, consider finishing the boss instead."
+    },
+    "skills.0.name": {
+      "sourceHash": "2b83ed20b4e9871e7be3c747c973d7fd3d10a06af883b6ee3c1ad1f43251caea",
+      "text": "Toxic Fluid"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "0f70402c12ef6a1ce7453a65023ae7222f6f632f6cfd0b3d5d96a59671580c03",
+      "text": "[Combat Start] Reduce Green Slime by 1."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "fcac53f7285f99a5cc6bc63ea119d9fc45f5b9adc73452ec216ab2ad66e4698b",
+      "text": "Ⅰ[On Hit] Inflict 3 Poison."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "ee0b930e8fdf3923332674ad324ab1dad614291dbb6b8057d0ad88d8d74faa75",
+      "text": "Ⅱ[On Hit] Inflict 3 Poison."
+    },
+    "skills.0.response": {
+      "sourceHash": "a1e072dbe5d3db2d137919aadf404e8e6f88a6cb8853db82a1f225d570181a51",
+      "text": "Win to prevent Poison on hit. Winning alone does not cancel Combat Start slime consumption or next turn's summon."
+    },
+    "skills.1.name": {
+      "sourceHash": "cfa73e95acfadcbe43db64242708869d842f2373aee8b63057c8d7ac0292e5d2",
+      "text": "Corrosive Slime"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "0f70402c12ef6a1ce7453a65023ae7222f6f632f6cfd0b3d5d96a59671580c03",
+      "text": "[Combat Start] Reduce Green Slime by 1."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "a420c839836f9c67661391db161629bad59722041ee33717393ecf06793bdabb",
+      "text": "Ⅰ[On Hit] Inflict Defense Level Down equal to the target's Poison."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "4ce516decad6afb97500decd732a9c527f2da34bfb806750dbd1097d44c279da",
+      "text": "[On Hit] Inflict 1 Larva."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "f92244213e3773c3649cda91eb8d69a4e8c5d6eb2129a85767c8a1f73a2f4c9c",
+      "text": "Ⅱ[On Hit] Inflict Defense Level Down equal to the target's Poison."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "4ce516decad6afb97500decd732a9c527f2da34bfb806750dbd1097d44c279da",
+      "text": "[On Hit] Inflict 1 Larva."
+    },
+    "skills.1.response": {
+      "sourceHash": "9c53c962822ee06d4d344b0af6b813fb2d7de5a09767f4642d5d95690fa981ce",
+      "text": "Inflicts Larva and Poison-based Defense Level Down. Its SP impact is greater than Toxic Fluid's, so assign a main unit who can win."
+    },
+    "skills.2.name": {
+      "sourceHash": "e61fbae1a6839ac1a04b71e9df2fd7fa97aca13870a70e757dcdd5c138353fbd",
+      "text": "Paralytic Fluid"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "0f70402c12ef6a1ce7453a65023ae7222f6f632f6cfd0b3d5d96a59671580c03",
+      "text": "[Combat Start] Reduce Green Slime by 1."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "a350951fb21c485be0960d41b88a3c1bca8bde54195549d970a20bc0ce4e9429",
+      "text": "Ⅰ[On Hit] If the target has Poison, inflict 1 Paralyze."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "7908d548fa863165935ea14620e242506f5e7f86d599f52d463d6d4246e071aa",
+      "text": "[On Hit] Inflict 2 Larva."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "635f142292b853a27ca39a847cb10e415c9097d86450c57d831fd53a6f25948a",
+      "text": "Ⅱ[On Hit] If the target has Poison, inflict 1 Paralyze."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "7908d548fa863165935ea14620e242506f5e7f86d599f52d463d6d4246e071aa",
+      "text": "[On Hit] Inflict 2 Larva."
+    },
+    "skills.2.response": {
+      "sourceHash": "711217df1aaa2b71ca329f4bbf45621648753bb387288cabfa8c52e5629b2c14",
+      "text": "Each Coin applies 2 Larva. Poisoned targets also receive Paralyze, so prioritize stopping this Clash."
+    },
+    "skills.3.name": {
+      "sourceHash": "14321c7f9a811c9d3b647615c1964d96fbb96849d1d53fee53fb1ccd95837724",
+      "text": "Devouring Fluid"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "958b9a24c6eb24e14f59bdb6f6431765e65ccf624ff6dbf39b4cfaa864474563",
+      "text": "[Combat Start] Reduce Green Slime by 2."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "402bd889764bad7fb11863cd8aeb4ee41d37ae34d450099061fd49720c9d6ac1",
+      "text": "[On Use] Inflict 3 Larva."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "414fcfc63be8cfbc5c868b3a2613bd21e690d11f6f3263e623c618b65ab0cc13",
+      "text": "Ⅰ[On Hit] Inflict 4 Poison."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "166c7a11fb74ab27e0961aaf403a36fc44cb41c09f8e72bf72329fa288c15a97",
+      "text": "[Heads Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "a43b6a9ca66555df08e075d26545ee1be471f2086cdeefb9c25d1407f1c63b41",
+      "text": "Ⅱ[On Hit] Inflict 4 Poison."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "166c7a11fb74ab27e0961aaf403a36fc44cb41c09f8e72bf72329fa288c15a97",
+      "text": "[Heads Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "cd6fc7611b258f1280e0ccde89f50623b52d381787c88b21441cb26e6d6f98d2",
+      "text": "A 2-Coin skill rolling up to 16. The 3 Larva applied [On Use] remains even if you win. Prevent Poison and next-turn Paralyze on hit, and prepare recovery."
+    },
+    "skills.4.name": {
+      "sourceHash": "aafcbdac0495490b01388f04e79604a3ce41b54f5ffc892ea8584a9b31739794",
+      "text": "Effervescent Green Slime"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "2a38a78828cebde8578bd41db0f0259a14ec4bc9b80aea26eead1548cfb51073",
+      "text": "[Combat Start] Increase Attack Weight by Green Slime's value."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "994c4edb93e7860664ff7553cb59370e26c5225770b8b7c5dfd8dbc0839a11ab",
+      "text": "[Combat Start] Gain 10 Green Slime."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "d91b5941c0beac91eac03facc0eeaffd51fb413ff057cceead2dfa4bc9ac7f9c",
+      "text": "Ⅰ[On Hit] Inflict 10 Poison."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "0fcaba3c94f945f9b4a7b4922ec50967defdb2eaa0675b97b9dd87fc99c7df54",
+      "text": "[On Hit] Reduce SP by 7."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "8b0892ba922e01e88ea24a728e0143521de41c8d16616f3157f3ccdb22ccca4a",
+      "text": "[On Hit] Inflict 3 Larva."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "22881393a60b5e0d18dda1211418ceebf49bccc98698244b46a6714974945f82",
+      "text": "[Heads Hit] Inflict 1 Paralyze and 3 Defense Level Down next turn."
+    },
+    "skills.4.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.4.response": {
+      "sourceHash": "cae3caedc89d9864fd597998bfd1157dd6aacd4ba27d2bac85ecbe3451a38ae2",
+      "text": "An area attack rolling up to 25. Slime-based Attack Weight and replenishment of 10 apply at Combat Start. Prevent hits with a strong Clash, then handle slimes after replenishment too."
+    },
+    "skills.5.name": {
+      "sourceHash": "73188e2a88d6058ca0ec3a7390efeb4aa0ba6970f0072d5eb3ed0637b35e9257",
+      "text": "Predation"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "7cd1822fb28de7e44a197f9f5f630229d179b170ec74d206b686fa459f138735",
+      "text": "[Unclashable] [Cannot be redirected]"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "06f4110756df8e3d118d3972d7b94ab2e593e66921b14b81c9cd2f713602c8c1",
+      "text": "Prioritize Green Slimes as targets."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "eb3d4a1d4103fc02decef64f08d9aebaf46f5603cf22c629cfb2d0665c453032",
+      "text": "Defeat Green Slime when attacking it."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "c6c9f06a5c1b770b1d489baf3812720d27b188ae9c138d25efb3f002cff3511f",
+      "text": "Ⅰ[On Kill] Gain 3 Green Slime."
+    },
+    "skills.5.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.5.response": {
+      "sourceHash": "8536f058ed55429e0f6ac659a787b492c84edebf28f90cadc015595e26eed07a",
+      "text": "An unclashable, unredirectable attack that defeats a summoned slime. Use faster attacks to defeat its target and prevent replenishment rather than attempting to Clash with a Sinner."
+    },
+    "skills.6.name": {
+      "sourceHash": "6cbdcd247868fb772ed50db08874710d1f8a482996a2d42d1955aebd18788ff5",
+      "text": "Overflowing Poison"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "ccf70c4c32348c9d8373de9b6183e7afe4611c97a190f421d7c8a388e45ef7dd",
+      "text": "[On Evade] Inflict 5 Poison on the target."
+    },
+    "skills.6.response": {
+      "sourceHash": "0864579a53e49668fccff0db9627f6bfb45e325c76158916148d0029a1ffc3e1",
+      "text": "Each successful Evade inflicts 5 Poison. Offset with a Defense Skill or break through with a strong attack; avoid unplanned weak multi-hit attacks."
+    },
+    "skills.7.name": {
+      "sourceHash": "6cbdcd247868fb772ed50db08874710d1f8a482996a2d42d1955aebd18788ff5",
+      "text": "Overflowing Poison"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "ccf70c4c32348c9d8373de9b6183e7afe4611c97a190f421d7c8a388e45ef7dd",
+      "text": "[On Evade] Inflict 5 Poison on the target."
+    },
+    "skills.7.response": {
+      "sourceHash": "0864579a53e49668fccff0db9627f6bfb45e325c76158916148d0029a1ffc3e1",
+      "text": "Each successful Evade inflicts 5 Poison. Offset with a Defense Skill or break through with a strong attack; avoid unplanned weak multi-hit attacks."
+    },
+    "passives.0.name": {
+      "sourceHash": "7f90598be3a2a2d1444c034b14000d949ceaf40bd5ab508b4c969c08250a8fdd",
+      "text": "Exposed Pearl"
+    },
+    "passives.0.effect": {
+      "sourceHash": "bb058c6d77ee841b0f0b9ae114bf48eaebadd1f255048e56e6bad2e30217b469",
+      "text": "At Turn Start, if this unit has 0 Green Slime, become Staggered and reduce the Pearl's Sin resistances by 0.5 each. When Stagger ends, gain 10 Green Slime."
+    },
+    "passives.0.condition": {
+      "sourceHash": "7356ca4772f57b331c59dadc6bca7175249d6812982ddf27ef49b2958cbd7946",
+      "text": "Turn Start / boss at 0 slime"
+    },
+    "passives.0.response": {
+      "sourceHash": "9ebb057ebbd00d0e4e3e0e0c8ec40044bab00880b145ccf5e501d5090542a89d",
+      "text": "Focus the Pearl during the special Stagger opening. Distinguish this from ordinary Stagger and the Shell's resistances."
+    },
+    "passives.1.name": {
+      "sourceHash": "7f90598be3a2a2d1444c034b14000d949ceaf40bd5ab508b4c969c08250a8fdd",
+      "text": "Exposed Pearl"
+    },
+    "passives.1.effect": {
+      "sourceHash": "bb058c6d77ee841b0f0b9ae114bf48eaebadd1f255048e56e6bad2e30217b469",
+      "text": "At Turn Start, if this unit has 0 Green Slime, become Staggered and reduce the Pearl's Sin resistances by 0.5 each. When Stagger ends, gain 10 Green Slime."
+    },
+    "passives.1.condition": {
+      "sourceHash": "7356ca4772f57b331c59dadc6bca7175249d6812982ddf27ef49b2958cbd7946",
+      "text": "Turn Start / boss at 0 slime"
+    },
+    "passives.1.response": {
+      "sourceHash": "9ebb057ebbd00d0e4e3e0e0c8ec40044bab00880b145ccf5e501d5090542a89d",
+      "text": "Focus the Pearl during the special Stagger opening. Distinguish this from ordinary Stagger and the Shell's resistances."
+    },
+    "passives.2.name": {
+      "sourceHash": "09c85eeabd350807a47ba16e701010742e9a5701509c43d07d8589d77084b360",
+      "text": "Gathering Slime"
+    },
+    "passives.2.effect": {
+      "sourceHash": "3d460e07fa03dada9e2b82f85d53f08e9648c5454b7bb008295497c4e81708dc",
+      "text": "Speed becomes 1 on turns using Devouring Fluid."
+    },
+    "passives.2.condition": {
+      "sourceHash": "dfbd6b3436fc7a346acaf9f336d7d6e281bae693b5975b3c616c690085d33e3c",
+      "text": "Turns using Devouring Fluid"
+    },
+    "passives.2.response": {
+      "sourceHash": "0da10e988fcb937111b069fc8f8dd0168253b90c3740a579423ada03ec0aee13",
+      "text": "Speed falls to 1, making it easier to remove summons before the boss acts."
+    },
+    "passives.3.name": {
+      "sourceHash": "09c85eeabd350807a47ba16e701010742e9a5701509c43d07d8589d77084b360",
+      "text": "Gathering Slime"
+    },
+    "passives.3.effect": {
+      "sourceHash": "3d460e07fa03dada9e2b82f85d53f08e9648c5454b7bb008295497c4e81708dc",
+      "text": "Speed becomes 1 on turns using Devouring Fluid."
+    },
+    "passives.3.condition": {
+      "sourceHash": "dfbd6b3436fc7a346acaf9f336d7d6e281bae693b5975b3c616c690085d33e3c",
+      "text": "Turns using Devouring Fluid"
+    },
+    "passives.3.response": {
+      "sourceHash": "0da10e988fcb937111b069fc8f8dd0168253b90c3740a579423ada03ec0aee13",
+      "text": "Speed falls to 1, making it easier to remove summons before the boss acts."
+    },
+    "passives.4.name": {
+      "sourceHash": "4d17ad3313376b315e90c5087aac250657dbc7f85fca81a1c74612926164ed48",
+      "text": "Solid Shell"
+    },
+    "passives.4.effect": {
+      "sourceHash": "a4db16210e6886be736fe4763a5e6cea44342f447c4ccae91a63e27358cfbe7a",
+      "text": "The Shell Part retains its original resistances even while Staggered."
+    },
+    "passives.4.condition": {
+      "sourceHash": "7ca290e4711ab10ca77afdc30c90d77561cd742a7bf807d4334086fb523743e1",
+      "text": "Shell Staggered"
+    },
+    "passives.4.response": {
+      "sourceHash": "c2e5c0201b4e51bd39ad36f5d959341eb29a08ac7f20c49b46e91c345d78b28a",
+      "text": "The Shell retains its normal resistances, so prioritize focusing the Pearl."
+    },
+    "passives.5.name": {
+      "sourceHash": "617da4376bd5dc55926d7c68095e58d2054a94e52f0fdc0d4c4296261ae17730",
+      "text": "Green Slime"
+    },
+    "passives.5.effect": {
+      "sourceHash": "0380215045046bffb402080dc2cc8264a6ac1618d787d0182b7c3cc6641b4786",
+      "text": "When defeated by Ambling Pearl, grant 3 Green Slime."
+    },
+    "passives.5.condition": {
+      "sourceHash": "2474e684a04e3231f06ff09e36a072b33467f820cea45dfe76aacd163f6b53e4",
+      "text": "Defeated by the boss's Predation"
+    },
+    "passives.5.response": {
+      "sourceHash": "c840ca80f351ba2ae7e28d93188c536538882fcf5b1e06527aaa8c947667ce42",
+      "text": "Defeat the slime with a faster Sinner to prevent replenishment of 3 stacks."
+    },
+    "passives.6.name": {
+      "sourceHash": "88909565b28657ff7d4e42a65363e07bdf37db9c68020032355e267a874edd9c",
+      "text": "Contaminating Slime"
+    },
+    "passives.6.effect": {
+      "sourceHash": "d0e3e447db90cfb71d43f89525e8c7cd3d81396c0fb5b2114e6dd0956fe9ab50",
+      "text": "At Turn End, inflict Poison on all enemies equal to 2 + the number of living Green Slimes."
+    },
+    "passives.6.condition": {
+      "sourceHash": "3671d3ef00903abe035a3b658e0942f9537d7c06bbce33e92789c54f214dd87b",
+      "text": "Turn End / surviving slimes"
+    },
+    "passives.6.response": {
+      "sourceHash": "6fed136259bc2a095b0fa75eb8eb69207c1f29e01325d0346b8cd1d2d96513e9",
+      "text": "Each surviving slime applies Poison. Do not leave them alone just because they have no actions."
+    }
+  },
+  "messages": {
+    "boss-copy:walking-pearl": "complete",
+    "【リンバス】5-36 歩く真珠（5章）の攻略｜Limbus Assistant": "5-36 Ambling Pearl (Canto V) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-36「歩く真珠（5章）」の攻略。出現した緑色の粘液を捕食される前に倒し、本体の粘液が尽きたときに真珠へ集中する。硬い殻を殴り続けず、幼虫による精神力低下と4ターン周期の広域へ備える。": "Ambling Pearl (Canto V) guide for Limbus Company 5-36. Defeat summoned Green Slimes before they are eaten, then focus the Pearl when the boss's slime runs out. Avoid repeatedly attacking the resistant Shell, and prepare for Larva's SP loss and the area attack every 4 turns.",
+    "5-36 歩く真珠（5章）": "5-36 Ambling Pearl (Canto V)",
+    "5-36「Into the Darkness, Floor 2: Right Atrium」": "5-36 · Into the Darkness, Floor 2: Right Atrium",
+    "歩く真珠［真珠］の外見": "Ambling Pearl (Pearl) appearance",
+    "歩く真珠［真珠］のスキル": "Ambling Pearl (Pearl) skills",
+    "Ambling Pearl (Pearl)の外見": "Ambling Pearl (Pearl) appearance",
+    "Ambling Pearl (Pearl)のスキル": "Ambling Pearl (Pearl) skills",
+    "歩く真珠［殻］の外見": "Ambling Pearl (Shell) appearance",
+    "歩く真珠［殻］のスキル": "Ambling Pearl (Shell) skills",
+    "Ambling Pearl (Shell)の外見": "Ambling Pearl (Shell) appearance",
+    "Ambling Pearl (Shell)のスキル": "Ambling Pearl (Shell) skills",
+    "緑色の粘液［召喚個体］の外見": "Green Slime (Summoned) appearance",
+    "緑色の粘液［召喚個体］のスキル": "Green Slime (Summoned) skills",
+    "Green Slime (Summoned)の外見": "Green Slime (Summoned) appearance",
+    "Green Slime (Summoned)のスキル": "Green Slime (Summoned) skills"
+  }
+}

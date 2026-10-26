@@ -1,0 +1,15 @@
+{
+  "sourceGuide": "src/data/guides/0102.md",
+  "code": "0102",
+  "messages": {
+    "麻痺・脆弱・貫通脆弱を「次のターン」に付与し、敵が動く前から弱らせておくデバッファー。貫通アタッカーと組むと真価を発揮する。": "A debuffer who applies Paralyze, Fragile, and Pierce Fragility for the following turn, weakening enemies before they act. He works best alongside Pierce attackers.",
+    "S3「ムリネ」: Ⅰ・Ⅱコインが的中するたびに最終コインの効果付与数が+1。Ⅲコイン的中時に次のターン貫通脆弱1を付与(Ⅰ・Ⅱが的中していれば最大3)。": "**S3 — Moulinet**: Each hit from Coins Ⅰ and Ⅱ increases the amount of the final Coin's effect by +1. On hit, Coin Ⅲ inflicts 1 Pierce Fragility next turn, up to 3 if both Coins Ⅰ and Ⅱ hit.",
+    "S2「リポスト」: マッチ勝利時に次のターン麻痺3を付与。Ⅱコイン的中時に次のターン脆弱1を付与(的中時効果なので一方攻撃でも付与できる)。": "**S2 — Riposte**: On Clash Win, inflicts 3 Paralyze next turn. On hit, Coin Ⅱ inflicts 1 Fragile next turn. The latter is an On Hit effect, so an Unopposed Attack can also apply it.",
+    "バトルパッシブ「観察」(暴食×4・共鳴): マッチ進行時、相手のマッチ威力-2。暴食属性のS2のマッチ勝利を後押しする。": "**Combat passive — Acute Studies (4 Gluttony Resonance)**: Applies -2 Clash Power to his opponent in a Clash, helping his Gluttony S2 win Clashes.",
+    "サポートパッシブ「分析」(暴食×3・共鳴): 最大体力値の最も高い味方がマッチ進行時、マッチ威力+1。": "**Support passive — Observational Eye (3 Gluttony Resonance)**: The ally with the highest Max HP gains +1 Clash Power in a Clash.",
+    "破裂: S1・S2・S3で破裂や破裂回数も付与するが、付与量は少なく副次的。": "**Rupture**: S1, S2, and S3 also inflict Rupture or Rupture Count, but the amounts are small and secondary to his main role.",
+    "付与はどれも次のターンに効くため、そのターンに動く味方ではなく次のターンの攻撃を通す準備として撃つ。S3は全コインを当てて貫通脆弱を最大まで積み、貫通スキル主体の味方で殴る。S2の麻痺はマッチ勝利が条件で、S2自体の威力は低いので、弱いスキルにぶつけるか暴食共鳴で「観察」を発動させて勝ちを拾う。": "Paralyze, Fragile, and Pierce Fragility take effect next turn, so use them to prepare for the following turn's attacks rather than to help allies acting this turn. Land every Coin of S3 to maximize Pierce Fragility, then follow up with allies who mainly use Pierce skills. S2's Paralyze requires a Clash Win, and S2 has low Power. Match it against a weak skill, or activate Acute Studies through Gluttony Resonance to improve its chances.",
+    "相手が1体のボスや集中戦闘で特に役割を持ちやすい。": "He is particularly useful against a single boss and in Focused Encounters.",
+    "付与はどれも次のターンに効くため、そのターンに動く味方ではなく次のターンの攻撃を通す準備として撃つ。S3は全コインを当てて貫通脆弱を最大まで積み、貫通スキル主体の味方で殴る。S2の麻痺はマッチ勝利が条件で、S2自体の威力は低いので、弱いスキルにぶつけるか暴食共鳴で「観察」を発動させて勝ちを拾う。相手が1体のボスや集中戦闘で特に役割を持ちやすい。": "Paralyze, Fragile, and Pierce Fragility take effect next turn, so use them to prepare for the following turn's attacks rather than to help allies acting this turn. Land every Coin of S3 to maximize Pierce Fragility, then follow up with allies who mainly use Pierce skills. S2's Paralyze requires a Clash Win, and S2 has low Power. Match it against a weak skill, or activate Acute Studies through Gluttony Resonance to improve its chances. He is particularly useful against a single boss and in Focused Encounters."
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "kind": "boss-copy",
+  "id": "time-ripper-first",
+  "source": "src/data/bosses/time-ripper-first.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "奪った時間",
+          "en": "Stolen Time",
+          "file": "Bufs-tkt.json",
+          "id": "LimitedTime"
+        },
+        {
+          "ja": "時間加速",
+          "en": "Time Acceleration",
+          "file": "Bufs-tkt.json",
+          "id": "TimeAcceleration"
+        },
+        {
+          "ja": "時間救済対象",
+          "en": "Time Relief Entitlement",
+          "file": "Bufs-tkt.json",
+          "id": "TimeKillerWatch"
+        },
+        {
+          "ja": "時間殺人鬼",
+          "en": "The Time Ripper",
+          "file": "Enemies-tkt.json",
+          "id": "8277"
+        },
+        {
+          "ja": "時間殺人鬼",
+          "en": "The Time Ripper",
+          "file": "Enemies-tkt.json",
+          "id": "8278"
+        },
+        {
+          "ja": "救済した時間",
+          "en": "Rescued Time",
+          "file": "Passives_Abnormality-tkt.json",
+          "id": "827701"
+        },
+        {
+          "ja": "加速再生修復",
+          "en": "Accelerated Regeneration",
+          "file": "Passives_Abnormality-tkt.json",
+          "id": "827702"
+        },
+        {
+          "ja": "怖じ気づいたか？",
+          "en": "Are You Afraid?",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827701"
+        },
+        {
+          "ja": "時間を殺した罰",
+          "en": "Punishment For Time Killers",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827702"
+        },
+        {
+          "ja": "摘出",
+          "en": "Extraction",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827703"
+        },
+        {
+          "ja": "救済する時間",
+          "en": "Time to be Saved",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827705"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827706"
+        },
+        {
+          "ja": "そんな…。",
+          "en": "My...",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827707"
+        },
+        {
+          "ja": "時間が足りない",
+          "en": "Running Out of Time",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827708"
+        },
+        {
+          "ja": "怖じ気づいたか？",
+          "en": "Are You Afraid?",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827801"
+        },
+        {
+          "ja": "時間を殺した罰",
+          "en": "Punishment For Time Killers",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827802"
+        },
+        {
+          "ja": "摘出",
+          "en": "Extraction",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827803"
+        },
+        {
+          "ja": "救済する時間",
+          "en": "Time to be Saved",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827805"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827806"
+        },
+        {
+          "ja": "滅多斬り",
+          "en": "Mutilate",
+          "file": "Skills_Abnormality-tkt.json",
+          "id": "827704"
+        },
+        {
+          "ja": "T社特別捜査官バッジ",
+          "en": "T Corp. Special Investigator Badge",
+          "file": "Bufs-tkt.json",
+          "id": "TcorpSpecialInvestigator"
+        },
+        {
+          "ja": "定刻",
+          "en": "'O Clock",
+          "file": "Passives_Abnormality-tkt-re.json",
+          "id": "122801"
+        },
+        {
+          "ja": "残された時間",
+          "en": "Remaining Time",
+          "file": "Passives_Abnormality-tkt-re.json",
+          "id": "122802"
+        }
+      ],
+      "note": "Names follow paired Timekilling Time and Murder on the WARP Express records for the Normal story encounters. Guide variants 滅多切り and そんな･･･。 map to Mutilate and My...; middle-dot ellipses map to the original Cassetti skill names. Thirst for Blood and Tenacious follow mowe passive records, not similarly named statuses or other bosses. Normal, dungeon, and Hard values and target/deployment restrictions remain distinct. Hard-only names are referenced only to explain their exclusion."
+    }
+  },
+  "scopedTerms": [
+    "滅多切り",
+    "そんな･･･。",
+    "血の乾き",
+    "しつこさ"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "801f882f74197460e62a1012eb543a25e13df7b5f31cf23a152d0198b363cf9b",
+      "text": "The Time Ripper (6.5-14)"
+    },
+    "shortName": {
+      "sourceHash": "6d4b6efab964a3c5761a695e2992f5e2b2171ff58376716cc6412360a2b4a1a2",
+      "text": "The Time Ripper"
+    },
+    "stageName": {
+      "sourceHash": "9a0bd03e87a46cf8e2729b07f0fc1cb6abccf6a2abe960b1ababc289aca341eb",
+      "text": "Timekilling Time: The Dread Clock Tower"
+    },
+    "lead": {
+      "sourceHash": "0b40e84398edf3b5121252b42cf59682273470a25ef8d932bd05c7adb296ac06",
+      "text": "Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On Time to be Saved turns, limit attackers to control who is targeted during next turn's acceleration."
+    },
+    "listLead": {
+      "sourceHash": "92ca28f03bd335a92fab55072ea1519a600df99305e88873051c393eae157d16",
+      "text": "Stored time gives high Offense and Defense Levels early. Survive with resistances and defense while it is spent. Limit who attacks during the warning turn, then manage targets next turn."
+    },
+    "statNote": {
+      "sourceHash": "328314e1727e43aa299c0dfd101a22ba8a4120539ddaaf2c9000a1dd856f2b79",
+      "text": "The Normal 6.5-14 focused encounter: the first fight against a single enemy. Level 45, 1279 HP, base Defense Level 48. Base tables exclude Stolen Time's Turn Start modifiers, Time Acceleration, and Panic changes. Ryōshū, Hong Lu, and Rodion start with 1 T Corp. Special Investigator Badge, but 6 Sinners may deploy. Final-battle and Hard parts and values are excluded."
+    },
+    "skillNote": {
+      "sourceHash": "9bb17e62b3967a8d58c6a25fdc20c1f6eed5e4b7a8c65d11cbfef30149d3fa1c",
+      "text": "All 8 regular skills, before Time Acceleration and remaining-time bonuses. Evade gains Base Power from remaining time. Time to be Saved is Unclashable. After time runs out, Normal uses 3 attacks."
+    },
+    "priorities.0": {
+      "sourceHash": "cd0372180ed5e59eb2374b946aca5f65c4e60a819b5a13feeb9d6ddeee1f07ae",
+      "text": "Aim for Level 45 and Uptie III or higher. Bring Pierce, Sloth, and Gluttony damage, plus defense against Slash and Pierce."
+    },
+    "priorities.1": {
+      "sourceHash": "e71f7f15e3b474fd5388e1bdbc0ba1616fdd773c1f78015e4c50995cfb06fe98",
+      "text": "Sinners who attack the boss on turn 3's Time to be Saved are targeted during next turn's acceleration. Keep vulnerable Sinners from attacking and prepare HP, resistance, and defense on the handlers."
+    },
+    "priorities.2": {
+      "sourceHash": "81de151131b43b7038ec9c0bb4e049f2b78c2aad78f10c6d6f6e620e11fb9a34",
+      "text": "Stolen Time starts at 1000 and is not replenished. Level bonuses weaken as it is spent; at 0, weaker patterns replace them. Avoid collapsing to unwinnable opening clashes."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a7128f25e0069f3d96206db7b9e9e534072439f8248903dce4494fc65b0ed5dc",
+      "text": "Opening clashes are stronger than the displayed range"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "6dc08e45a57532585bda0b632475723ae38a03c951fb7e52d911bdc0b8e518eb",
+      "text": "The initial 1000 Stolen Time raises Offense/Defense Levels. Time Acceleration and HP conditions add further bonuses; the base range alone does not ensure a win. Endure with resistant defense skills while time is spent."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "baf5627bc5d91a60a34897a0e2d013f5668a4497e69d2ea09e1eada32a04d1b8",
+      "text": "The accelerated enemy focuses vulnerable Sinners"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "b808cb3ba17211dfb93ebba27c7fcf05252a8de552f0df1c750330faa0457bc3",
+      "text": "Sinners attacking during Time to be Saved gain Time Relief Entitlement next turn. Attack only with those able to survive accelerated attacks rather than with the whole team."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "d43bb9abeeb19329e3ea593efecad752ac584ae6e4030023aec86ddcf7b15113",
+      "text": "Weak attacks keep failing against Evade"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "fa43222e3ac27d352d1fc1415a6f909729f50449be48cff8269810bb2b705181",
+      "text": "Evade gains +1 Base Power per 100 remaining time. Offset it with defense, and avoid attacking with Sinners you do not want targeted during acceleration."
+    },
+    "units.0.name": {
+      "sourceHash": "6d4b6efab964a3c5761a695e2992f5e2b2171ff58376716cc6412360a2b4a1a2",
+      "text": "The Time Ripper"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "8a87604d34bac3cc86a22f8e119e27111f5faa6fd322b680cb274bd95ff0830d",
+      "text": "60% / 30% / 0% (767 / 383 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "2a94a5a06c521670d45aa6d86cdd4ef2d867237dda81b42c415edc0e1c52d722",
+      "text": "Starts with 1000 Stolen Time. The amount held at Turn Start changes Offense/Defense Levels."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "6c5a29787e2fcd70b48b2d5194c0ad8987755f6bb9bf8319a06eda1acab03060",
+      "text": "Time Acceleration grants +5 Speed, 1 Fragile, and skill bonuses."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "94e7d8da14e1a8b2e4c84c45f80c29c3f9af18159a623cf93dee8b98bd6a1f12",
+      "text": "Distinct from the finale, which splits into multiple parts at 75% HP. This first fight Staggers at 60% and 30%."
+    },
+    "phases.0.timing": {
+      "sourceHash": "b29215e13e9bfe1bf57ceedf70621d77622a19feac17331408491e0999e614ed",
+      "text": "Turns 1–2"
+    },
+    "phases.0.title": {
+      "sourceHash": "ec0b54702b38ff2e6748cb200c197174ef3bbcc3401d416ad794431d92a4b891",
+      "text": "Survive the opening with winning clashes and defense"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4647efecdaac571b8599c14ddda5dc8b47e0b7e75e3ce93cd0f45df61522f6c9",
+      "text": "Stolen Time's opening level bonus is substantial. Avoid raising enemy SP through repeated losing clashes; defend with Sinners resistant to Slash and Pierce."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "ad0213aa74acfb6171c0b8c6b19cf80ff672268e5aeb91311ac9301cd20180c6",
+      "text": "Assign winning clashes to main attackers and build SP and resources for healing and powerful E.G.O. Avoid halved Slash damage; use Pierce, Sloth, and Gluttony offensively."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "02cd38ebf84595eb44630cad34788bf5418ed95916566c28a058342e736f551a",
+      "text": "Check HP and Bleed Count on afflicted Sinners. Retain defensive options to avoid self-inflicted deaths from consecutive multi-Coin attacks."
+    },
+    "phases.1.timing": {
+      "sourceHash": "6b1256f0d92f992ee9e176ea4a0167624348103f55de8bd7c8861c7165d73177",
+      "text": "Turn 3 · Time to be Saved"
+    },
+    "phases.1.title": {
+      "sourceHash": "f6d6565f968ffe20d9362c34e90910bec623b60e2bb596909e7e7ab1396570aa",
+      "text": "Choose who will be targeted next turn"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "73e60a005a5f4e4ac367308028054986285ed44165d1f52b54ed70ada48cacfc",
+      "text": "Time to be Saved is Unclashable. At Combat Start, consumes 200 time and prepares Time Acceleration next turn. A powerful attack cannot stop it through a clash."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "2f564e5f65c459da35e00e4a33485c7d8b64397a9709cf18698818b8b0dc5dfb",
+      "text": "Sinners who attack the boss this turn gain Time Relief Entitlement next turn. Attack with those able to survive the incoming hits; switch vulnerable Sinners to defense or other actions."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "f8beac0b36d4318985a707953bc112ac01c0a5e010c06ce8b9dc5bd83ac4a478",
+      "text": "Offset Evade with defense. Remaining time strengthens it; do not force weak attacks through it."
+    },
+    "phases.2.timing": {
+      "sourceHash": "e37061e31f03daeebb5e445f45ce2d7361fcd629fc94ec0dcabc4f29f514cd59",
+      "text": "Turn 4 · Time Acceleration"
+    },
+    "phases.2.title": {
+      "sourceHash": "1de9fb094555d8ba4d28f9070e5f800a62e5e042766e44c6a5e570eca9ccf422",
+      "text": "Prepare for the faster enemy's buffs"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "1b1d7d17272e0527decf62e777d362c229c7ba749a9b118f19907754c464d656",
+      "text": "+5 Speed makes redirection harder. Check entitled Sinners' defense, HP, and resistance so they can personally survive attacks that cannot be redirected."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "9ddf38cf18d5ec801ea92c8d1980001b6a6ca599fbc7579bd43c1e297b7f4f39",
+      "text": "Extraction gains +1 Coin Power during acceleration and +2 Clash Power on use below 75% HP. Mutilate also gains Attack Weight; do not rely only on base Power or target counts."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4a541fdfbc0e3dac4d12f697eea58cdb7644857fb18e9f64c09f229b14803a78",
+      "text": "The warning and acceleration cycle repeats. HP conditions also consume time; check remaining time and the next warning when recovering."
+    },
+    "phases.3.timing": {
+      "sourceHash": "155a17842149b65acd12b3728f205c1caf08e34e52029077a6b5cb994bdeaac5",
+      "text": "Time consumption through 0"
+    },
+    "phases.3.title": {
+      "sourceHash": "46ddc4ca5d17f78e8a2a385dc19b4d28089e662858fcd1d77615917a2ab06b63",
+      "text": "Use weaker clashes to Stagger and finish"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "d6ac3df9929f02adc3346e2fc1e58ecc827c0d317b1241e216d911135ccf0321",
+      "text": "Level bonuses fall with remaining time. Win more clashes to raise SP and concentrate damage at the 60% and 30% HP Staggers."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "bcaaa03191d931c346ab88a081df3b5e25fa7dfe03543ba3625ddbaa57396b52",
+      "text": "At 0 time, uses 2 My... and 1 Running Out of Time for 3 actions. Clash wins inflict 1 Fragile on the enemy; exploit the opening to finish."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "70e94aa6eb186009fef1f4542fe00ceafd8973b140599b4b1cfae00d5de3d403",
+      "text": "Bleed-inflicting hits and Panic recovery remain. Running out of time does not remove every attack; keep checking HP."
+    },
+    "skills.0.name": {
+      "sourceHash": "3827aa6c90506cc9e289b8e039cf3c71cc403512c83eed45b3b20c552d300cc6",
+      "text": "Are You Afraid?"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "ad1720a2887d09efdb2b90a20b4d6350384471d0ae85527121c55993737e14fb",
+      "text": "During Time Acceleration, Clash Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "ae7c818350cc41b78e61366ab2a9916b9729936da2a8c3a1b6285556b6a57a2c",
+      "text": "[On Clash Lose] Below 75% HP, consume 50 Stolen Time and gain 1 Protection (once per turn)"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "d9859d1cc325e3dc02300790694906b6e74d567b20802d47a434d60b38125308",
+      "text": "Gains +1 Clash Power during acceleration. Below 75% HP, losing the clash consumes 50 Stolen Time and grants 1 Protection; win to reduce time. Protection also affects follow-ups that turn."
+    },
+    "skills.1.name": {
+      "sourceHash": "35903366c1f2c22c826b3911cfc8f74ebbc9132596d72c69149ec1b512476a7a",
+      "text": "Punishment For Time Killers"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "784ba54de339e845ebc896fc4ca548f3e86ac43a6ed880f2949796e1339e4245",
+      "text": "During Time Acceleration, Clash Power +2"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "e5c7d948d08d75c73d3f7b2009a62a3b146219a73f9d7b726cc94b78ed00c32e",
+      "text": "[On Use] At 500+ Stolen Time, increase the target's Bleed Count by 1"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "05a5b9fdd046cb605b151e7dc57bd7ff15c20cb2feec1b67d17886b29a063d6f",
+      "text": "[On Use] At 300+ Stolen Time, consume 25 Stolen Time and inflict +1 Bleed Potency and Count with this skill"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "f724ff623be201dc7ce1c155e4aa24d474b312973820a68651a171c7ad7c3021",
+      "text": "Ⅲ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.1.response": {
+      "sourceHash": "e6bf8546c733f6d71df5a868e66e90f63707513580d65734e28d6cf4d2c8dd6d",
+      "text": "Acceleration grants +2 Clash Power. On-use conditions at 500+ and 300+ time also increase Bleed Count and application; include remaining time and acceleration in predictions."
+    },
+    "skills.2.name": {
+      "sourceHash": "b0dbb76d0c47952e4aa93bd9376ee314b02cf9b19a74e46377e7915d77372fb9",
+      "text": "Extraction"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "17724d201884186da42fb217dc4cba610ba1ae0dee06320109060377465a436b",
+      "text": "During Time Acceleration, Coin Power +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "2764ef002f3d8d7ec0debb02fd39ddb56259da0505f072bb3b262d7042afab6f",
+      "text": "[On Use] Below 75% HP, consume 50 Stolen Time for +2 Clash Power"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "89346993e390a99b49bdc153b8563232e2135af2b4a2c1ddd1deab698899e3ea",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "6e66609225400052f89b53c4e0109b7ddce1d07699f9d2be2518df54f6b05c99",
+      "text": "Ⅳ[On Hit] Bleed Count +2"
+    },
+    "skills.2.response": {
+      "sourceHash": "66b6b955bf408643dc1a8ba4a6e96227b13b00e6ab2d0a3ce96d9c77c72bca21",
+      "text": "During acceleration, +1 Coin Power; below 75% HP, consumes 50 time on use for +2 Clash Power. Account for the buffed maximum of 21 and Offense Level difference rather than only the base maximum of 15."
+    },
+    "skills.3.name": {
+      "sourceHash": "4e0c3592ed0c6537d5abbdd9f0134f8419ebe8c5fb6d2efab1f46436d50040a7",
+      "text": "Mutilate"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "10ca9b8e5aa87ee65a2ed4c2af9ceac6f5fa3c263e519b9239169c54dd3e90aa",
+      "text": "[On Use] Below 75% HP, consume 75 Stolen Time for +2 Clash Power"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "c7030bdf367d14e567a6bdcad74ed4c982d10c251eab9a9a4168a21ea9227bfa",
+      "text": "[Before Attack] During Time Acceleration, Attack Weight +1"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "b399e485e428760dd30bcb683d08e3ed6d87658263d5b040996069e3a126bfd6",
+      "text": "Ⅰ[On Hit] Bleed Count +1"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "0a3e2f8f45bfd53ed50ed48db07b7db143f4ac6289f4f36987f1853a085c82ad",
+      "text": "Ⅱ[On Hit] Inflict 8 Bleed"
+    },
+    "skills.3.response": {
+      "sourceHash": "499b53a486f085588769eea253c89ac910f11c513fc0bbf50b3c9474596ba0ba",
+      "text": "Acceleration adds +1 Attack Weight before attacking. Below 75% HP, consuming 75 time grants +2 Clash Power. Check targets and Bleed rather than treating it as a weak single-target attack."
+    },
+    "skills.4.name": {
+      "sourceHash": "576fd7762462c13b003004386740a03c560bbe9d714219bb77c20a1c700a6c34",
+      "text": "Time to be Saved"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "bb181df791e9378a533ead3126acc53bc99d56d922c59c2b331f126dae51d152",
+      "text": "Inflict Time Relief Entitlement next turn on targets that used attack skills against self"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "293558cbd7fd04d908647f94fd8c2e905e80cc9c013bf7d4fa4e4e8d134d2a72",
+      "text": "[Combat Start] Consume 200 Stolen Time. Gain Time Acceleration next turn"
+    },
+    "skills.4.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.4.response": {
+      "sourceHash": "7ee8e75a73f19e6086e1352c3e725c2a44fd9f4c1e24a32a9afd4d4a6c6985e6",
+      "text": "Unclashable. Sinners attacking this turn gain Time Relief Entitlement next turn. Attack only with those able to survive accelerated hits; keep vulnerable Sinners from attacking the boss."
+    },
+    "skills.5.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "abffee97182c910f8862835accd7c9a5a6edba67d2dd074aa61fce022f0ac56d",
+      "text": "[On Use] Base Power +1 per 100 Stolen Time"
+    },
+    "skills.5.response": {
+      "sourceHash": "779908996666f64a8e371c8be781b0d9d4cbb56723c96f4ff0d2adac267eb9dc",
+      "text": "Base Power +1 per 100 remaining time. Starting from 1000, it can roll high; do not challenge it with weak attacks based on the base maximum of 8. Offset with defense."
+    },
+    "skills.6.name": {
+      "sourceHash": "69f941c97eed44a96c5952abb721671b2618dbb661faee67e37f724949feb3ee",
+      "text": "My..."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "fb02c06d9ecdb0fbb43e3069ef3b2aa22fc99366cf5c824c417a25e082d9ce73",
+      "text": "[On Clash Lose] Gain 1 Fragile"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.6.response": {
+      "sourceHash": "cc1be8e361e732e1afd63839986f740e06442af8d6b61bd458745f5d03461065",
+      "text": "An attack after time runs out. Winning against it gives the enemy 1 Fragile; use winning skills and follow up."
+    },
+    "skills.7.name": {
+      "sourceHash": "da160da59bc76aff52437843c303928874979c3c58cb9424ff7e59805d53d0c7",
+      "text": "Running Out of Time"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "fb02c06d9ecdb0fbb43e3069ef3b2aa22fc99366cf5c824c417a25e082d9ce73",
+      "text": "[On Clash Lose] Gain 1 Fragile"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "89346993e390a99b49bdc153b8563232e2135af2b4a2c1ddd1deab698899e3ea",
+      "text": "Ⅲ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "6e66609225400052f89b53c4e0109b7ddce1d07699f9d2be2518df54f6b05c99",
+      "text": "Ⅳ[On Hit] Bleed Count +2"
+    },
+    "skills.7.response": {
+      "sourceHash": "b709ec67b896f9888be4df4aa65239032178a1fdedfca6821c3bf7f2b304d7ce",
+      "text": "A 4-Coin attack after time runs out. Winning gives the enemy 1 Fragile. Bleed hits still remain a risk at 0 time; take winning clashes to the end."
+    },
+    "passives.0.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.0.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.0.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.0.response": {
+      "sourceHash": "f28c954306a7f9880b876a56e55bd054b84679c40f4694c6fe84d1e58363a750",
+      "text": "Do not assume Panic will disable it for long; maintain offense and defense."
+    },
+    "passives.1.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.1.condition": {
+      "sourceHash": "bb949add63509b28baa4c8b7f379b32b09665977ea0140e1ed36edcb6579b8ae",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.1.effect": {
+      "sourceHash": "7a486784d88ee2903d4a9a339d601a6b04c7f172a20261e975c1836e5ca6736f",
+      "text": "Panic type does not change; effects for targets without SP apply instead."
+    },
+    "passives.1.response": {
+      "sourceHash": "3be8cbaa6686f33c003fe889675928c40a84a714221b53fad1adb82b007f6863",
+      "text": "Do not rely on replacing Panic with a different type."
+    },
+    "passives.2.name": {
+      "sourceHash": "8ea2ed5a739ad935f858ab30b957a07ac8f2cdc4ae9ac4f109e8291d4ddfa162",
+      "text": "Rescued Time"
+    },
+    "passives.2.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.2.effect": {
+      "sourceHash": "23d6aa32f023c5d52bd1bce266708af0d162617db70aaa9d77d966fa80664ec0",
+      "text": "Holds 1000 Stolen Time."
+    },
+    "passives.2.response": {
+      "sourceHash": "c97f84b9b10838fccb6da3b85e7b1e1dfa9f2b9f0bd227877147c7c82173ceb4",
+      "text": "Endure the opening level bonuses with defense and wait for time consumption."
+    },
+    "passives.3.name": {
+      "sourceHash": "58b9d614f8f2fd3447dd250518ff03a84f5d2cb83aa468b60c950fba8bb96bdf",
+      "text": "Accelerated Regeneration"
+    },
+    "passives.3.condition": {
+      "sourceHash": "970cee6a85928e39fa17ee20a03219f0c3a9612e1d48ef91bdb08e07ff3e33c6",
+      "text": "Part remains broken at Turn End"
+    },
+    "passives.3.effect": {
+      "sourceHash": "e33e6b6435e28ee0dee86f9fd2b19504d1d2e1efeef39d1df91c55c798fdc316",
+      "text": "Consume 100 time and restore the broken part next turn. Body and part HP are equal in this encounter, so regeneration normally does not become relevant."
+    },
+    "passives.3.response": {
+      "sourceHash": "918e628c5d2b51d0f2d10bbc1a378c83fd1e474fcc242425b7b4698781dc397d",
+      "text": "Part regeneration is not a required time-reduction step."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "e80ac83128d940909010dff52b98e73421bb6d563806004f10a167dd854c22d6",
+      "text": "Stolen Time"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "bd9a1a5177903351b7fdaef8784c6682f212e516f9833c84ba7b61390f59d926",
+      "text": "At Turn Start with 200+ stacks, gain (value − 200) ÷ 50 Offense/Defense Levels. Below 200, lose (200 − value) ÷ 50 Offense/Defense Levels."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "a54d361fc21d732bd9607678977e9213c3f3de3aae63ed8206045d093d9fd9c7",
+      "text": "Do not bake a fixed modifier into the base table; assess remaining time each turn. No rounding rule is assumed."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "09132bddbfc9e0e3587c345ad3c955ed573e1b20faa792b8237c1028a77843f1",
+      "text": "Time Acceleration"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "153e771049e5e380f63794ee72296bcbf04b71e7a8a5ed2dec2192d37540207b",
+      "text": "Gain +5 Speed, skill bonuses, and 1 Fragile. Stagger Threshold increases received from Tremor Burst, skill effects, and Coin effects are 50% greater."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "904822e303453ab5c6faba5508e16af45f95901dc0ee102282837746026c9a07",
+      "text": "Prepare handlers for dangerous attacks on the warning turn. Exploit Fragile when able to attack."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "bfdaa9b125366586ad03d4f7d2ecfc099e238ddf44e3218e5d6983ff44f6cdb8",
+      "text": "Time Relief Entitlement"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "bf12279217e3625b09ff5aa4a40bf080bb0f1c5ba2cc3d59f2c48b1f05cd0043",
+      "text": "Becomes a target during Time Acceleration. Applied next turn to Sinners who attacked the boss on Time to be Saved's turn."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "bacb3155a84f2f5c5c2259f72f1e72bc1d23d616733aa581c70ce1ac87c9c0ab",
+      "text": "Limit attackers to selected handlers rather than the whole team."
+    },
+    "warnings.0": {
+      "sourceHash": "a6cd09e5d608eebab682ec0b96b84c0be90629af3a445d2dea9fd790db062137",
+      "text": "Do not import the 6.5-15 finale's parts, divided time, or events into this fight."
+    },
+    "warnings.1": {
+      "sourceHash": "b371f88a8651a7c56d9ef904c21bd7791a8d38ca0bfa8398ecd2e858566f02ca",
+      "text": "Skills consume Stolen Time. It does not normally decrease by a fixed amount every turn."
+    },
+    "warnings.2": {
+      "sourceHash": "07d031e845ea037b92fb76b88c73590803ca1387cdac7b87319916c457b87591",
+      "text": "Excludes Hard-only 'O Clock and Remaining Time effects. The 4-action pattern after time runs out also belongs to Hard."
+    },
+    "warnings.3": {
+      "sourceHash": "be2346b4ea0895e4fdbe1841ec5e5e15b3c05d858d3a1fbc4bc523601ed5e45c",
+      "text": "Slash and Lust are halved. Review affinities if even leveled attackers deal little damage."
+    },
+    "preparation.0": {
+      "sourceHash": "1d33b926c414e2c5dd9432d15f6c38625b5d22fbb3ade53cd8b129a2455fe94e",
+      "text": "Aim for Level 45 and Uptie III or higher; check opening defense and Slash/Pierce resistance."
+    },
+    "preparation.1": {
+      "sourceHash": "81e41126bae79b9abb43244a4be509fc429dbaf0ee6c4f7515d0c75c1a9c58c3",
+      "text": "Bring Pierce, Sloth, and Gluttony damage, HP recovery, and powerful E.G.O for buffed skills."
+    },
+    "preparation.2": {
+      "sourceHash": "80fd052d0ca261729c880fbd8f8ac88aa3337deed5cb5e8a27db742317ac8a4d",
+      "text": "Ryōshū, Hong Lu, and Rodion gain badges, but deployment is not limited to those 3. Bring a leveled team of 6."
+    },
+    "roles.0.name": {
+      "sourceHash": "ad86e2d8d696ad23b2c6da804ba2bb010f07bb333c52780d3825b14ce2df5689",
+      "text": "Accelerated-attack handlers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "dde6b3e1b315722839eea14193086ac98da21e0e1a4065790a35a06fe3e3e160",
+      "text": "Attack on the warning turn to accept targeting, then endure through resistance and defense."
+    },
+    "roles.1.name": {
+      "sourceHash": "34aa166dfd678d18af5c66824d07af4c53368b0792ccff5755be0f37f3a1d69c",
+      "text": "Pierce/Sloth/Gluttony damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "ba796b9aa62ed4e5034480df3bb98e66d398d93534ee8c75ad1eb47f5fba4cda",
+      "text": "Turn depleted time into Stagger and defeat."
+    },
+    "roles.2.name": {
+      "sourceHash": "0d35b8daa43ff49bc40438ad102defcb1d2f8f744caa041f9e9f06b4c10aab21",
+      "text": "Healing and SP maintenance"
+    },
+    "roles.2.reason": {
+      "sourceHash": "8640cd316433accd446af3bd92e05f098d0f71eb49d6eef17cb89a3231e18ec2",
+      "text": "Recover from opening hits and Bleed to secure more winning clashes."
+    }
+  },
+  "messages": {
+    "boss-copy:time-ripper-first": "complete",
+    "【リンバス】6.5-14 時間殺人鬼（6.5-14）の攻略｜Limbus Assistant": "6.5-14 The Time Ripper (6.5-14) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6.5-14「時間殺人鬼（6.5-14）」の攻略。序盤は奪った時間で攻撃・防御レベルが高い。勝てないマッチを重ねず、耐性と守備でしのぎながら時間を消耗させる。救済する時間のターンは攻撃する囚人を絞り…": "The Time Ripper (6.5-14) guide for Limbus Company 6.5-14. Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On Time to be Saved turns, limit attackers to control who is targeted during next turn's acceleration.",
+    "6.5-14 時間殺人鬼（6.5-14）": "6.5-14 The Time Ripper (6.5-14)",
+    "6.5-14「Timekilling Time: The Dread Clock Tower」": "6.5-14 · Timekilling Time: The Dread Clock Tower",
+    "時間殺人鬼の外見": "The Time Ripper appearance",
+    "時間殺人鬼のスキル": "The Time Ripper skills",
+    "The Time Ripperの外見": "The Time Ripper appearance",
+    "The Time Ripperのスキル": "The Time Ripper skills"
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "kind": "boss-copy",
+  "id": "skin-prophet",
+  "source": "src/data/bosses/skin-prophet.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "皮膚の予言者",
+          "en": "Skin Prophet",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8100"
+        },
+        {
+          "ja": "蝋燭",
+          "en": "Candle",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8107"
+        },
+        {
+          "ja": "表号",
+          "en": "Marked",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBa"
+        },
+        {
+          "ja": "首を絞める縄",
+          "en": "Noose",
+          "file": "EGOgift_StoryDungeon-a1c5p3.json",
+          "id": "2017"
+        },
+        {
+          "ja": "強迫",
+          "en": "Compulsion",
+          "file": "Bufs-a1c5p1.json",
+          "id": "AaCePaBa"
+        },
+        {
+          "ja": "分裂せよ",
+          "en": "All Shall Scatter",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810001"
+        },
+        {
+          "ja": "9章2節",
+          "en": "9:2",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810003"
+        },
+        {
+          "ja": "6章5節",
+          "en": "6:5",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810004"
+        },
+        {
+          "ja": "露わにならん",
+          "en": "All Shall be Revealed",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810005"
+        },
+        {
+          "ja": "燃え上がらん",
+          "en": "All Shall Burn",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810006"
+        },
+        {
+          "ja": "予言を蔑視するでない",
+          "en": "Scorn Not the Prophecy",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810007"
+        },
+        {
+          "ja": "立ちのぼった火種",
+          "en": "Sparked Flame",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810701"
+        },
+        {
+          "ja": "消えぬように",
+          "en": "So That It Will Burn",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810702"
+        },
+        {
+          "ja": "押し出された闇",
+          "en": "Darkness Deterred",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810002"
+        },
+        {
+          "ja": "全てを明かす灯",
+          "en": "The All-Illuminating Light",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810001"
+        },
+        {
+          "ja": "立ちのぼる火種",
+          "en": "Burning Embers",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810701"
+        },
+        {
+          "ja": "沈む闇",
+          "en": "Sinking Darkness",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810702"
+        },
+        {
+          "ja": "熱望し…",
+          "en": "Longing...",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810002"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "c71ce015011f2e26716d3b448f9cb8d2a08875a6e784080aa175417ef68ae6f4",
+      "text": "Skin Prophet (Canto V)"
+    },
+    "shortName": {
+      "sourceHash": "ede53474f08ca43b3c3c0253e3e29f9da5796d49b26c0d8d0af3e0c85d4db621",
+      "text": "Skin Prophet"
+    },
+    "stageName": {
+      "sourceHash": "861596b10183793843e004de8f51ab13310f7b09affaf534529daa7b32caf244",
+      "text": "Into the Darkness, Floor 2: Tendon Bridge"
+    },
+    "lead": {
+      "sourceHash": "bf815bc880bff6746d53017319a7fa9edcca8f03ca1355d19b1051cd672561bc",
+      "text": "Reduce all 4 Candles to 1 HP to light them. Once the boss's normal resistances return, focus damage on it or break every lit Candle's Shield in the same turn to trigger self-damage and Stagger."
+    },
+    "statNote": {
+      "sourceHash": "5501f888fd03faaa97d227725cdae77d762cd6dba5681c84c00daf9566fcf9cd",
+      "text": "The enhanced-resistance and restored-resistance entries describe the same boss, retaining its 942 HP. There are 4 Candles with 26 HP each; they light at 1 HP rather than falling to 0. Breaking their 20-point Shields after lighting is a separate step. Ishmael must deploy while alive and cannot be replaced with a Support Identity. Noose assists her to Level 40 and Uptie/Threadspin IV. She begins each fight at -25 SP, so do not rely on her alone for strong opening Clashes or costly E.G.O."
+    },
+    "priorities.0": {
+      "sourceHash": "5966f6e413e479bfdf7d7b89c618b1cb81c43f34ae97613ecbdef4942b5dbbfa",
+      "text": "Avoid triggering the boss's Counter; light all 4 Candles first."
+    },
+    "priorities.1": {
+      "sourceHash": "63471c55fee8031b1166bb16b9b38f87828874b20e6553238f805e6b768de23f",
+      "text": "After all are lit, choose between focusing the boss and breaking all 4 Shields in the same turn."
+    },
+    "priorities.2": {
+      "sourceHash": "8b81bc216b49387d3d8f65e81e0257da70c6d6b3ed4664ea461f0b08e2eeb214",
+      "text": "Do not use Paralyze to weaken negative-Coin 9:2. Manage Burn and healing instead."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "9f6ee58894894d9e70218cb39f6c1a0a7728f7101b0d282372e1cc106df30d71",
+      "text": "Attacks barely damage the boss"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "a1b7363e8d18594d655d4d2db37056d9dd7dd063c6dcb19b1a7ad9b5468d50b3",
+      "text": "While resistance buffs are active, all resistances are 0.5. Reduce all Candles to 1 HP to light them rather than trying to defeat them. Once all are lit, normal resistances return, making Gloom especially effective."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "8992fecd91982d5eb3a65b521ed57f5a65fdc72a806affe83cf9809dbd3ab880",
+      "text": "Candles do not die at 1 HP"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "29c894da175464cd71edecb7f54ef870487d33eeaac5c7ea15b02bc64da10364",
+      "text": "Candles light at 1 HP and cannot die. This creates an opening to attack the boss. Breaking their Shields after lighting extinguishes them next turn; these are separate steps."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "3aac06b6ed153c7a0e4fee2897fa1f401eb1b876a7eb2684f6950332a2ba2a8b",
+      "text": "The area attack remains strong despite Paralyze"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "f7236bf0b6f66c356f33898540b69e2a1fec55f07f7a7e66af3b5b0b7b47d930",
+      "text": "9:2 has 20 Base Power and -4 Coin Power. Paralyze sets Coin Power to 0, preventing the usual power reduction. Use strong Clashes or extinguish every Candle instead of treating Paralyze as a debuff here."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "7e4b0c870a83ae166957ac5085efe1a6ec3773e8096d78b1a12a1811a275e299",
+      "text": "Prepare attacks for all 4 Candles and healing for Burn"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "20d144b25482d58ffeeab6d93774555a69959fc8f0e2483a4b0921e63d585d35",
+      "text": "Recommended Level 40; deploy 6 Sinners. Divide attacks so each of the 4 Candles reaches 1 HP rather than focusing everything on one."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "0e3540271b195dfcfbdad76b0ac83d1e633be2effe5665d7dfc160bb6e175f12",
+      "text": "Once normal resistances return, Gloom, Sloth, and Slash are effective. Prepare Wrath resistance and HP healing for Burn attrition too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "17301bc608d1643cfc0736efe194f2bcb95adb563781a2b735d27fec1ee451cf",
+      "text": "Ishmael starts at low SP. Consider opening recovery or defense rather than relying on her winning every Clash needed to light Candles."
+    },
+    "phases.1.timing": {
+      "sourceHash": "1da62c8f39426bc0032c06e78756a37210491cde42bdbeee7d27ce27dde57d36",
+      "text": "While Candles are unlit"
+    },
+    "phases.1.title": {
+      "sourceHash": "da353003468182c022ae60070bdb36a0566025e236533c10dae1009572859772",
+      "text": "Light all 4 without triggering the boss's normal Counter"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "326c2edd3ca3d762c6a212a9cd7f65b9802fba8c18205d4b2cd0a6ff742044e2",
+      "text": "Candles light when reduced to 1 HP. Divide attacks across all 4 instead of trying to defeat them one at a time."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "a55fd89ba66f139a42f13f0cd6fc27ff5fe6a8bf56377f8cc28fc9afac755cbb",
+      "text": "All Shall be Revealed and All Shall Burn are unclashable. Use Evade or other damage mitigation rather than trying to redirect them into a strong attacking Clash."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "6ceea74c83cfb9abbee3d73e556f6ce6f20763b3d99ed1bb0ed5e01c410baf2a",
+      "text": "The boss also has a normal Counter during this phase. Check Attack Weight and targets when using area attacks to avoid accidentally including the boss as a secondary target."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "2d1f9f227c2eab33e380e40c02b75e9ebf3c3a1c2d556a2d5dfba6f68c4df774",
+      "text": "The boss lights the Candles 4 turns after they go out. If you lack actions, you need not keep triggering its Counter unnecessarily."
+    },
+    "phases.2.timing": {
+      "sourceHash": "26a170e43c929425ab4d19a04e4979e460b9c1731f32193f5f6df99388644d0b",
+      "text": "After all Candles are lit"
+    },
+    "phases.2.title": {
+      "sourceHash": "0761078dd40c7b9fee89a4614aa13fcabb2ad2e2ff863b22d7c7b366cdcd6150",
+      "text": "Choose between focusing the boss and extinguishing all Candles"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "d0fc26c29cd38b11a7db95f969252d36f1d7605f3982f53e4a7b6c8ec8b4b3e4",
+      "text": "The boss's normal resistances return and attacks can deal effective damage. If your damage is sufficient, leave Candles alone and focus the boss to Stagger it before 9:2."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "f0cd35fbd8a793914a6c3620e8a010dc52910336cd15649d1d089795453d8976",
+      "text": "Otherwise, fully deplete every Candle's 20-point Shield in the same turn. All go out next turn, triggering 6:5's self-damage and Stagger."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "56f3127b3d54621548cb6784eb00bf00d34cbdf4458c616e4fc3ac9edde1ff6a",
+      "text": "Splitting actions between damaging the boss and extinguishing Candles can leave you taking Counter Burn without extinguishing them all. Choose the turn's goal before assigning attacks."
+    },
+    "phases.3.timing": {
+      "sourceHash": "fe4c86f95d428659ac941ffe3d961a984b4e6c90266bb38ed16c9e456277ca20",
+      "text": "When 9:2 appears"
+    },
+    "phases.3.title": {
+      "sourceHash": "6a94f05959c52e3ad46f83a65a5d336277bb3e5abd79788f3f6796a8e6b0d125",
+      "text": "Use a strong Clash against negative Coins"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "4ec6e5602b9460abf6e99736601b8018014ba866efa6b13952dda6726a35c1af",
+      "text": "9:2 starts at 20 and loses 4 power per Coin. Paralyze removes that reduction, so do not use it to weaken this skill."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "fb5ecaaab8b7f7d1fe855c5be1e251d79f7cf92d99aac0dbd5c6c99d3e18956c",
+      "text": "Win with a strong skill to prevent Burn and Max HP reduction on hit. However, the enemy's [Clash Lose] effect still applies 10 Burn and next-turn Marked, so victory does not mean taking no damage."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "a310444c9df3275596e4fffc32e120af99f9249493d097f9d59729fb789a7507",
+      "text": "Marked targets take additional damage based on Max HP. Check HP recovery and Wrath resistance, and recover before the area attack."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "1ef436f96a9a86858274bc21089851a747e46e4134af43a892accac3499870bf",
+      "text": "Afterward, Candles heal and go out. If the boss survives, repeat the lighting process."
+    },
+    "phases.4.timing": {
+      "sourceHash": "7681ec1def85db5dc0cc47a1217197b2ca9f70708ff559aefcb27051ddda2a31",
+      "text": "Deplete all 4 Shields in the same turn"
+    },
+    "phases.4.title": {
+      "sourceHash": "f821262b1faa1e47fc173121deb79122ad0412121ccef5d05c7515e8b0588187",
+      "text": "Focus damage after 6:5's self-inflicted hit"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "337e6930ee294fd94e6ed00431f2ac2421dfd7380264afcb7b6d4ca3534bed6d",
+      "text": "If all Candles go out in time, the boss uses 6:5 instead of 9:2. This unclashable, unredirectable skill makes the boss take the damage itself."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "af42d159f95885a4f7552cd4b290686e087da826952a91e6442f887066a10003",
+      "text": "Attack during the boss's Stagger next turn. Save healing and damage skills rather than attempting to Clash with the self-damaging skill using a Sinner's E.G.O."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "a7466c988590af26bfe29f962be465222fb6c42f87de4463d8fb4c63f94454f8",
+      "text": "Light the Candles again after they heal. Manage Burn buildup and repeat the process for another opening if needed."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "12957171928cfb867a93cf6d95d759f314af85d625704d4552a52903d46210a1",
+      "text": "Candle"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "3b8d2b38d20700527183fff579140d2ae8d9b6f0db7a3b0818decd35cf7ebba5",
+      "text": "4 Candles with 26 HP each. They light at 1 HP rather than reaching 0; lighting all restores the boss's normal resistances. Breaking their 20-point Shields afterward extinguishes them next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "28aba1ff9af6c6457f1178c1c092741f53966ff3ce63c1adce1ed7845c33c2b1",
+      "text": "Treat initial lighting and Shield-breaking to extinguish all Candles as separate steps."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "c838e5560e6ee3b5bad998e50e89934b190e43952f7cdf5fa27e3c3185dbba56",
+      "text": "Marked"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "6163a22be3b95ea1ac4bdd670ad70f78187b4d1b251c47096a42dacad8198ddb",
+      "text": "A mark prioritized by some boss and Candle attacks. A hit from 9:2 also deals additional damage equal to 5% of Max HP."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "5879a2e69d823185e421a146b4ff97162640d84b4d710afcd8b2db75420cde93",
+      "text": "Heal the marked Sinner and protect them with strong Clashes or resistances."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "5888f9c5d3fad49b523fe8c37630f156906c8e37d5b9affe70ae1bb73aaea234",
+      "text": "Noose"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e298dd2fb92c18aedf132acfc5e606ed0c8635b7e28f14b52a804709432fec19",
+      "text": "A Canto V dungeon aid. Raises Ishmael to Level 40 if below 40 and assists Uptie/Threadspin to IV. Grants Compulsion each battle."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "44eb9cb47638cb2c1ce50717d14f65568f6069652857ac9c268c165e75b3e73c",
+      "text": "Prepare other main units, resistances, and healing rather than rushing to raise only Ishmael."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "3fa45d5e8209050e8468038f5534af1e7501a9b5f800bc11c6b5966a3ea9371c",
+      "text": "Compulsion"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "bbdca6c80e2943a7f8ee7572a972b78260ee461d0980f6a9a9c3394fdeb8d311",
+      "text": "Ishmael begins combat at -25 SP. At Turn Start, if SP is below 0, gain 3 Attack Power Up."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "c5c6a2496779c665475b33072231796acb5b8aa76653e9b66d6b22142bd93be1",
+      "text": "Prioritize SP recovery and durability, and watch for E.G.O Corrosion at low SP."
+    },
+    "warnings.0": {
+      "sourceHash": "1bb5671e919f79b7b45a74dd4e53d55a68cedfaea3ffbd6019f28b12343f81d4",
+      "text": "Lit Candles use normal Counters. These cannot be stopped by winning a Clash."
+    },
+    "warnings.1": {
+      "sourceHash": "e30866bb07f7250b0c051df8f9785a2982ee7e7e46829776554f4558acba95fa",
+      "text": "Winning against 9:2 still leaves its [Clash Lose] Burn effect. Preventing hits does not cancel every effect."
+    },
+    "warnings.2": {
+      "sourceHash": "d54f51ece6c5ed93922f4d36787150999671c41dcaeca7968619131cb69b2ece",
+      "text": "To extinguish all Candles, deplete all 4 Shields in the same turn. Breaking just one does not trigger the same Stagger opening."
+    },
+    "warnings.3": {
+      "sourceHash": "5aedc5fc0ae952c7fcae42f3a419e263aa725ca83e5b41f9231a8b514bd0284c",
+      "text": "Enhanced-resistance and restored-resistance entries share one HP gauge. You do not defeat two separate bosses in sequence."
+    },
+    "preparation.0": {
+      "sourceHash": "d6fe9be44d6e0af26b6453c2163a1a19c334b3b57654950c1d47cb35e510dd17",
+      "text": "Prepare enough actions to light each Candle, Gloom/Sloth/Slash damage for the boss, and HP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "ccf31ae28768a2d19f1abd0617d6fa324d97f4cfab17f15cea9cfc0f514e6603",
+      "text": "Save a powerful answer to 9:2. Paralyze does not weaken its negative Coins."
+    },
+    "roles.0.name": {
+      "sourceHash": "07384cde5c4ac3313de29042cb9067085b28cc887b92c995c1cb07fb9842b8de",
+      "text": "Lighting all 4 Candles"
+    },
+    "roles.0.reason": {
+      "sourceHash": "a36878382dd1374ea42342610434830c6e2516ac9b1dbca22886396cfce968e8",
+      "text": "Remove the boss's universal 0.5 resistances."
+    },
+    "roles.1.name": {
+      "sourceHash": "716a67ba6d606d492770d33b026ad6daf2d4d96f872c44d6b8ba9b69621093c0",
+      "text": "Boss damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "5215a7ebbc9338b3a18c76556ac2ba51703edd6574979d94d6e6abcc8a03f475",
+      "text": "Exploit restored resistances and Stagger openings."
+    },
+    "roles.2.name": {
+      "sourceHash": "91ae4ad56293e289ea1d62992ae558559327bc977a8599a327961e170af48279",
+      "text": "Actions / area attacks to extinguish all Candles"
+    },
+    "roles.2.reason": {
+      "sourceHash": "8de68e27d2ffb4cb934af5bbcd3ba96f1f8cfc2f12be938b60878c75c63dfcf2",
+      "text": "Break every Shield in the same turn to trigger self-damage."
+    },
+    "roles.3.name": {
+      "sourceHash": "ebb488d4ae1ac541a3f7990a9720d4349087c5254b9a8187ba6f601a50dbf0af",
+      "text": "Burn and HP management"
+    },
+    "roles.3.reason": {
+      "sourceHash": "36a4d16e134b553184af43763a61b7d78385ae80951091b682fe32c03313e985",
+      "text": "Recover from attrition that remains even after winning the area-attack Clash."
+    },
+    "units.0.name": {
+      "sourceHash": "8e5684d4bf3ec3210718c3ac74512b240da901267bc4f0b6e182453788f2d35d",
+      "text": "Skin Prophet (Enhanced Resistances)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "44ef18226cc7455a187e298dd9622218c2fb9eee7bed719dd77a698671f7571c",
+      "text": "50% / 0% (471 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "6ef2b5696c7b06bb5a3b85d530f094d32e38be04725d4a8004d003f5aac153ad",
+      "text": "After Candles fully heal and go out, all resistances are 0.5 until every Candle is lit."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "f2d2edf4963db57013c506086f3dcfd2aa45b829d50802d138c9b3971fbf1a0d",
+      "text": "Attacking the boss triggers its normal Counter. Attack Candles first."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "f26aef2eecddc6ac33be2d0cb67c3e552de27e1a0cee03147b5c2bbfde9f4000",
+      "text": "Remains targetable and can still act after Part break."
+    },
+    "units.1.name": {
+      "sourceHash": "05847d0a4280e44b63d179b3387c17132bb55e2ae626976827e4e39f25afe68b",
+      "text": "Skin Prophet (Restored Resistances)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "04b78c7b5224620dd365fd0e6db9ae71960ab8d83d7ee7bd02283012084b5558",
+      "text": "942 (retains the same boss's remaining HP)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "71199cfb37b3d4ac725e3957dacbdfaa14543f28d4e9e03138aad9e4dbefc9dc",
+      "text": "Retains the same boss's remaining thresholds"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "35f32f86c34b6e4ded94651d24c62ef87c50a96d20cf31a85b0dcbe093694dd9",
+      "text": "Normal resistances after all Candles are lit: Gloom 2.0, Sloth 1.5, Slash 1.2."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "eafa5ae9a48f07a78f67fe8a9bfb3aaabea1ebe95b1482ff2c93b65d8463c66f",
+      "text": "To extinguish all Candles, damage every Candle's Shield in the same turn."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "3fde7b979ea4aca931c630ffcd6ced156f8e14a9e4ebb884f48a9c2e632578d2",
+      "text": "At the end of 9:2 or 6:5, Candles fully heal, their Parts revive, and the flames go out."
+    },
+    "units.2.name": {
+      "sourceHash": "12957171928cfb867a93cf6d95d759f314af85d625704d4552a52903d46210a1",
+      "text": "Candle"
+    },
+    "units.2.part": {
+      "sourceHash": "12957171928cfb867a93cf6d95d759f314af85d625704d4552a52903d46210a1",
+      "text": "Candle"
+    },
+    "units.2.hp": {
+      "sourceHash": "b0955e536659d9ffcc29825de587cc555ca77fabc0021bec9df634f49a534d0c",
+      "text": "26 (4 appear)"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "9c4cd25a365dc239b9fa7dd75e2d8e581b016fa8ef739cb6c559d8c6e3ae20bb",
+      "text": "Cannot reach 0 HP. At 1 HP, the Part breaks and lights. Acts while lit."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "34f34e4e1f3522a9b491cff171acce313245daa74818b2c1c1088b04b52ddd6d",
+      "text": "When all are lit, uses a normal Counter with a 20-point Shield. Fully depleting the Shield extinguishes it next turn."
+    },
+    "units.2.notes.2": {
+      "sourceHash": "deec3fbdf2dda866e88a50d122b2272ca47afab7b028707bd0c052c9ee7f9578",
+      "text": "4 turns after the flames go out, the boss also reduces all Candles to 1 HP and lights them."
+    },
+    "skills.0.name": {
+      "sourceHash": "f79a2ceefbc13cec05c311e83445773ccf39ce70afadad85509d84e2c84744f0",
+      "text": "All Shall Scatter"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "7f0a6866c121e138a905ae5d96bb1677896cffd3602a0007e14866b71e788408",
+      "text": "Prioritize Marked targets."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "bd7880df938c557ed5bc2b8a491c93ab0c5a4fb1aea44b81b51fff2366276818",
+      "text": "Ⅰ[On Hit] Deal SP damage equal to the number of lit Candles."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "c94265321647d9c5f97038e115175611b9d9603812268c7adeff0f81a6269488",
+      "text": "Ⅱ[On Hit] Deal SP damage equal to the number of lit Candles."
+    },
+    "skills.0.response": {
+      "sourceHash": "a7ac93bc1321161089b3871a564e2f449d21e7329406d52d12f51183433ec678",
+      "text": "Prioritizes Marked targets, dealing SP damage according to the lit Candle count. Stop it with a regular skill while continuing to focus damage on the boss."
+    },
+    "skills.1.name": {
+      "sourceHash": "d098fbf699611376061d7f7ca2f05bed4ad2c7f1dc968f2e366f3caa45559d16",
+      "text": "Longing..."
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "15470e12951872490481be288d2ea70bf9b43e163e81449362484986ad9f13fd",
+      "text": "Ⅰ[On Hit] Inflict 1 Wrath Fragility next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "c738db8d35288e3a340d5f6dd5c79e16341e1609f43509dbab97e17d4c9c90e2",
+      "text": "[On Hit] If the target has Burn, inflict 3 Burn."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "5175571159e227370cf3ba662325a6f87ba4374d131b1f0c24fb747f8ecda92e",
+      "text": "Ⅱ[On Hit] Inflict 1 Wrath Fragility next turn."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "c738db8d35288e3a340d5f6dd5c79e16341e1609f43509dbab97e17d4c9c90e2",
+      "text": "[On Hit] If the target has Burn, inflict 3 Burn."
+    },
+    "skills.1.response": {
+      "sourceHash": "7931d693b85c00364a7f8b7172e6df25b330e9db4cbd4cd7ecad4cf5762240e0",
+      "text": "Adds Wrath Fragility and Burn. Stop it with a strong regular skill to avoid making the following 9:2 more dangerous."
+    },
+    "skills.2.name": {
+      "sourceHash": "ec4304f937fa65353cc6322e3eb4945b4d1aa52fb1cce9800c1126cddaf53599",
+      "text": "9:2"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "4f364f06d764d7f6bd25096dc4078f2c7433c878b8ff448dba8131596e3c2097",
+      "text": "Extinguish all Candles next turn."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9004af4ec6cd9743cb970121052c628032aad54bbc74a660b4c8f4487fd5d13a",
+      "text": "On hitting a Marked target, deal additional damage equal to 5% of Max HP."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "a24701b84b621690b1462001940b65827a2124bf661841184db05dc843b5d7f7",
+      "text": "[Clash Lose] Inflict 10 Burn. Inflict Marked on the target next turn."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "24f85f93e8e1a16b4b774a1139eb5c59ebc651701c35109e26d4eeb6095614a4",
+      "text": "[Turn End] Heal all Candles to Max HP."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "b9a34fc2b42a7334edbb8b19d6f63d6dcf6c6b2492415331dabee66ba16971e6",
+      "text": "Ⅰ[On Hit] Reduce the target's Max HP by 10%."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "d8aca591b961d43c1887771a4e0fe4c056ee37252ccd210691b825c3e55e6124",
+      "text": "[On Hit] Inflict 5 Burn and increase Burn Count by 2."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "f418e670b2fa68bee53769901461ee1c4871dea3388af149702973d00afa7fa5",
+      "text": "Ⅱ[On Hit] Reduce the target's Max HP by 10%."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "d8aca591b961d43c1887771a4e0fe4c056ee37252ccd210691b825c3e55e6124",
+      "text": "[On Hit] Inflict 5 Burn and increase Burn Count by 2."
+    },
+    "skills.2.response": {
+      "sourceHash": "95a55aa8139c12d3f7ef0f8231f7af7ef620b5d294d6adc8a6f2cf294d444270",
+      "text": "An area attack with 20 Base Power and two -4 Coins. Do not use Paralyze to weaken it. Even when you prevent hits by winning, the enemy's [Clash Lose] effect applies 10 Burn and Marked, so prepare healing."
+    },
+    "skills.3.name": {
+      "sourceHash": "7dd610ae22a014cd13b6c965fa41ae7d0c549d8db9427a6668647365dedf23a1",
+      "text": "6:5"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "7cd1822fb28de7e44a197f9f5f630229d179b170ec74d206b686fa459f138735",
+      "text": "[Unclashable] [Cannot be redirected]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "ae3a4b5c5c10e7b179cd6a0564f24425ee3e67fc545c8d9ac912629389ca3520",
+      "text": "Take the target's damage instead. Become Staggered next turn."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "a30f7847abcae2c67af130080d843f074be54bb745de329075d80d3acddbfba8",
+      "text": "Inflict Marked next turn on a random enemy without Marked."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "24f85f93e8e1a16b4b774a1139eb5c59ebc651701c35109e26d4eeb6095614a4",
+      "text": "[Turn End] Heal all Candles to Max HP."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "f985bc64a17ade17a23e8a91f341708b5f2635728c5761758a39d649e7d3016d",
+      "text": "Ⅰ[On Hit] Reduce own Max HP by 10%."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "0cae0f361b4df52f0d40ebedb79eaeccfff67664c0cd3d004257c6a60d013edd",
+      "text": "[On Hit] Inflict 10 Burn on self."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "85814eb2511ff40c5623f04a00a19fba1ea0d4d8cfbc5ff28e1e7709b3522ccc",
+      "text": "Ⅱ[On Hit] Reduce own Max HP by 10%."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0cae0f361b4df52f0d40ebedb79eaeccfff67664c0cd3d004257c6a60d013edd",
+      "text": "[On Hit] Inflict 10 Burn on self."
+    },
+    "skills.3.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.3.response": {
+      "sourceHash": "57d7ef3d9791e3cf9c3f4a0ac33840cacbdb9c2e7125512288e3865e64f9c268",
+      "text": "An unclashable, unredirectable self-damaging skill. Trigger it by extinguishing all Candles, then concentrate attacks during the boss's Stagger next turn."
+    },
+    "skills.4.name": {
+      "sourceHash": "7ed4183b3dfd3d2457b15eb2b25d98db88fe55301355c54f987f8de3f67d2abb",
+      "text": "All Shall be Revealed"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "675dbd584a63708627012178e7294f16f15969ab25e064ff66b9ff44c6e81302",
+      "text": "Ⅰ[On Hit] Inflict 1 Wrath Fragility."
+    },
+    "skills.4.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.4.response": {
+      "sourceHash": "1a6a2396f1fd7d65039406748719f4ba1b275a33ac275dcc08f5c8e62c592680",
+      "text": "An unclashable Lust/Pierce attack. Prevent hits with Evade or similar options, and attack Candles without triggering the boss's Counter."
+    },
+    "skills.5.name": {
+      "sourceHash": "462d35c3a1ec80b51f07c0ec8e278b07cf5d86446a0cb34b684c030c51dca875",
+      "text": "All Shall Burn"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "f50382b8fcd6cb1f3234d132cfd925de88d061c124234692e958d175004d53e0",
+      "text": "Ⅰ[On Hit] If the target has Burn, inflict 3 Burn."
+    },
+    "skills.5.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.5.response": {
+      "sourceHash": "9db3f42ecef25ced5096d3c6ae53a439429773e863c324d6064ae7fa8a4ee09c",
+      "text": "Unclashable. Adds 3 Burn to targets already carrying Burn, so use Evade or HP recovery."
+    },
+    "skills.6.name": {
+      "sourceHash": "ef4dd93c09aae9680258d3ffcd26eae3df95238e81e65127ea6a030e1fe4deab",
+      "text": "Scorn Not the Prophecy"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "fc705d9f13fec880f939f75ecada122914b39b0f50f00fe0bd4a5d21be5ead4e",
+      "text": "Ⅰ[On Hit] Inflict 5 Burn and increase Burn Count by 2."
+    },
+    "skills.6.response": {
+      "sourceHash": "12110793425f45160bc7dbd01987a9df4eb98884b0a8d57f6404009146c5034f",
+      "text": "A normal Counter triggered by attacking the boss during enhanced resistances. Light the Candles first to avoid unnecessary Burn."
+    },
+    "skills.7.name": {
+      "sourceHash": "396290fd851cfc6663e43f5bd2d494aeb20838320c8b05e9d0b2fa9636a2a05d",
+      "text": "Sparked Flame"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "961eed8c6b7a43b4d3ef84c96e7e53ae221f6d834755a846af14f0ae2a9914bb",
+      "text": "Prioritize targets with Marked."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "8bb32735a0ede3c305c1c6d69481998581371f69280c035b7f551a4b89f1d93d",
+      "text": "Ⅰ[On Hit] Inflict 6 Burn and increase Burn Count by 2."
+    },
+    "skills.7.response": {
+      "sourceHash": "f2ed3260aa167438b904082c41839784a1b58701c6bdae82627bcb5a68e2baf3",
+      "text": "A lit Candle's attack. Prioritizes Marked targets and applies 6 Burn and 2 Count. Avoid leaving these attacks unchecked while working toward lighting all Candles."
+    },
+    "skills.8.name": {
+      "sourceHash": "68cdfbbd82c0b24867b068499102bd127d8303cdabebf2830c3880e3e7557bf5",
+      "text": "So That It Will Burn"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "5daafadb82ae3cde7c5ce3a8ab8818e29a35702345c6e276b36dec0dde1a19e5",
+      "text": "[Combat Start] Gain a 20-point Shield."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "31eafc34cab93ed2090b379e3d6de3373d49694bbea37c5001106c44257b08dc",
+      "text": "When the Shield is fully depleted, the flame goes out next turn."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "8f0253478923697a913b75b1a7d4acde36ece7dc4ebe981ba8b0f81f3e2c7522",
+      "text": "Ⅰ[On Hit] Inflict 1 Burn and 1 Burn Count."
+    },
+    "skills.8.response": {
+      "sourceHash": "a98cf7bc1288dad54b05fb1b768d192e69f65f5d505a419bac54bfd66006007b",
+      "text": "A normal Counter with a 20-point Shield. To extinguish all Candles, deplete every Shield in the same turn. Account for Burn from Counters too."
+    },
+    "passives.0.name": {
+      "sourceHash": "3c34afbb4facdeb24bd2a6143f35ccef51d55e825882e0a3a70deef6033ba40d",
+      "text": "Darkness Deterred"
+    },
+    "passives.0.effect": {
+      "sourceHash": "93319993d8d18c87cb226c6f27277d602c92840e2a0532cac8edd135565db72f",
+      "text": "Every 4 turns after the flames go out, if any Candles are unlit, light all Candles and set their HP to 1."
+    },
+    "passives.0.condition": {
+      "sourceHash": "90bcf78980b957d2733a705e810f8b7ea40a41a5c6ce3565f042d22ca2a35090",
+      "text": "4 turns after extinguishing"
+    },
+    "passives.0.response": {
+      "sourceHash": "b02980487900e2e309ebf0e335f26d676baa60137b0821b17f09118b1fcc628f",
+      "text": "The boss lights the Candles. You need not wait 4 turns if you can light them sooner yourself."
+    },
+    "passives.1.name": {
+      "sourceHash": "3c34afbb4facdeb24bd2a6143f35ccef51d55e825882e0a3a70deef6033ba40d",
+      "text": "Darkness Deterred"
+    },
+    "passives.1.effect": {
+      "sourceHash": "93319993d8d18c87cb226c6f27277d602c92840e2a0532cac8edd135565db72f",
+      "text": "Every 4 turns after the flames go out, if any Candles are unlit, light all Candles and set their HP to 1."
+    },
+    "passives.1.condition": {
+      "sourceHash": "90bcf78980b957d2733a705e810f8b7ea40a41a5c6ce3565f042d22ca2a35090",
+      "text": "4 turns after extinguishing"
+    },
+    "passives.1.response": {
+      "sourceHash": "b02980487900e2e309ebf0e335f26d676baa60137b0821b17f09118b1fcc628f",
+      "text": "The boss lights the Candles. You need not wait 4 turns if you can light them sooner yourself."
+    },
+    "passives.2.name": {
+      "sourceHash": "92bc821eeb4dbbb10ddfd776fd7717cfba9f337777889abee3f7f8dfe682714f",
+      "text": "The All-Illuminating Light"
+    },
+    "passives.2.effect": {
+      "sourceHash": "a4f8f274d61509266a164299421a180fb2ceb550fe84b59218ef1e05d90ec7cd",
+      "text": "While Candles are unlit and at full HP, resistances increase until every Candle is lit. When all Candles are lit, resistances decrease."
+    },
+    "passives.2.condition": {
+      "sourceHash": "1b95134dfb1a848cfbb103a51b78677c7632a4133db61561de6113f080bc1983",
+      "text": "Unlit / all lit"
+    },
+    "passives.2.response": {
+      "sourceHash": "4de22f73648248f53f624f72dbe9c5f39f94b3fd0fdc2a7e6342edfdcb51e165",
+      "text": "Distinguish universal 0.5 resistances from restored resistances, and deal damage after all Candles are lit."
+    },
+    "passives.3.name": {
+      "sourceHash": "92bc821eeb4dbbb10ddfd776fd7717cfba9f337777889abee3f7f8dfe682714f",
+      "text": "The All-Illuminating Light"
+    },
+    "passives.3.effect": {
+      "sourceHash": "a4f8f274d61509266a164299421a180fb2ceb550fe84b59218ef1e05d90ec7cd",
+      "text": "While Candles are unlit and at full HP, resistances increase until every Candle is lit. When all Candles are lit, resistances decrease."
+    },
+    "passives.3.condition": {
+      "sourceHash": "1b95134dfb1a848cfbb103a51b78677c7632a4133db61561de6113f080bc1983",
+      "text": "Unlit / all lit"
+    },
+    "passives.3.response": {
+      "sourceHash": "4de22f73648248f53f624f72dbe9c5f39f94b3fd0fdc2a7e6342edfdcb51e165",
+      "text": "Distinguish universal 0.5 resistances from restored resistances, and deal damage after all Candles are lit."
+    },
+    "passives.4.name": {
+      "sourceHash": "8cae1b323a63818682c0ef50597aeb01f6d57187c471c75105ce105971496917",
+      "text": "Burning Embers"
+    },
+    "passives.4.effect": {
+      "sourceHash": "cfe982ae2e60e1874daa9c4d28b70c0d00315b6a5d2961fe3d136fd25e8e1c63",
+      "text": "HP cannot reach 0. At 1 HP, the flame lights and Attack Skills are used."
+    },
+    "passives.4.condition": {
+      "sourceHash": "af685917bfa8ec38111592ed08314910a4511da24c330244f063246df335f815",
+      "text": "Candle at 1 HP"
+    },
+    "passives.4.response": {
+      "sourceHash": "9ee36bd06ada1c673eb13737d2729fee1d7150fea7c5ba71fdb698bc2c7a0d30",
+      "text": "Its survival is intended. Divide only the damage needed to light each Candle."
+    },
+    "passives.5.name": {
+      "sourceHash": "994b3b74583d166d7f65d88d85e7beb0167e0de3bd692ae555f986c2246d4aa3",
+      "text": "Sinking Darkness"
+    },
+    "passives.5.effect": {
+      "sourceHash": "f9136c2901defb33a00c971a854b7604d2b511d150488ac8066be32e029664c5",
+      "text": "Use a Defense Skill when all Candles are lit. When the Shield is fully depleted, the flame goes out next turn."
+    },
+    "passives.5.condition": {
+      "sourceHash": "cd16c5b8b5b7a8170f1f9f842640e256f24014b88cfbc7d888a530f0be73c47d",
+      "text": "All Candles lit / Shield depletion"
+    },
+    "passives.5.response": {
+      "sourceHash": "bfc35b35e74cd92a53d36cc0551e6f5bf91edd326d45115a459ae3507d3cae3b",
+      "text": "To extinguish all Candles, divide attacks across all 4 Shields."
+    }
+  },
+  "messages": {
+    "boss-copy:skin-prophet": "complete",
+    "【リンバス】5-36 皮膚の予言者（5章）の攻略｜Limbus Assistant": "5-36 Skin Prophet (Canto V) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-36「皮膚の予言者（5章）」の攻略。まず4本の蝋燭をHP1まで削って全て点灯させる。本体の耐性が戻ったら集中攻撃するか、点灯した蝋燭のバリアを同じターンに全て壊して自傷・混乱へ誘導する。": "Skin Prophet (Canto V) guide for Limbus Company 5-36. Reduce all 4 Candles to 1 HP to light them. Once the boss's normal resistances return, focus damage on it or break every lit Candle's Shield in the same turn to trigger self-damage and Stagger.",
+    "5-36 皮膚の予言者（5章）": "5-36 Skin Prophet (Canto V)",
+    "5-36「Into the Darkness, Floor 2: Tendon Bridge」": "5-36 · Into the Darkness, Floor 2: Tendon Bridge",
+    "皮膚の予言者［耐性強化中］の外見": "Skin Prophet (Enhanced Resistances) appearance",
+    "皮膚の予言者［耐性強化中］のスキル": "Skin Prophet (Enhanced Resistances) skills",
+    "Skin Prophet (Enhanced Resistances)の外見": "Skin Prophet (Enhanced Resistances) appearance",
+    "Skin Prophet (Enhanced Resistances)のスキル": "Skin Prophet (Enhanced Resistances) skills",
+    "皮膚の予言者［耐性復帰後］の外見": "Skin Prophet (Restored Resistances) appearance",
+    "皮膚の予言者［耐性復帰後］のスキル": "Skin Prophet (Restored Resistances) skills",
+    "Skin Prophet (Restored Resistances)の外見": "Skin Prophet (Restored Resistances) appearance",
+    "Skin Prophet (Restored Resistances)のスキル": "Skin Prophet (Restored Resistances) skills",
+    "蝋燭の外見": "Candle appearance",
+    "蝋燭のスキル": "Candle skills",
+    "Candleの外見": "Candle appearance",
+    "Candleのスキル": "Candle skills"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1005.md",
+  "code": "1005",
+  "messages": {
+    "全スキルが減算コイン(コイン威力がマイナス)の打撃アタッカー。スキルを使うたびに自分の精神力を削り、裏面を出しやすくして高い威力で殴る。主砲は基本威力30・3コインのS3「自滅的浄化」。": "A Blunt attacker whose skills all have negative Coin Power. Skills lower his SP, making Tails more likely and preserving high Power. His main attack is S3 Self-destructive Purge, with 30 Base Power and 3 Coins.",
+    "減算コイン: 基本威力が高く、コイン威力がマイナス(S1「追い立てられた審判」7/8・-2、S2「判断を止めた執行」12/16・-3/-4、S3 30・-12)。表が出るほど威力が下がるため、精神力が低く裏面が出やすいほど強い(精神力が低いほど裏面が出やすいのはゲームの一般仕様)。": "**Minus Coins**: High Base Power with negative Coin Power (S1 Coerced Judgement 7/8 and −2, S2 Amoral Enactment 12/16 and −3/−4, S3 30 and −12). Power drops the more Heads land, so he is stronger the lower his SP and the more likely Tails is (lower SP making Tails more likely is a general game rule).",
+    "精神力の自己消耗: 使用時に精神力がS1で7、S2で10、S3で15減る。守備「やめ…」は戦闘開始時に精神力を5〜10回復する。": "**Self-draining SP**: On use, he loses 7 SP with S1, 10 with S2, and 15 with S3. The Defense skill Enough… restores 5–10 SP at Combat Start.",
+    "バトルパッシブ「狂炎」(憤怒×2・保有・同期化Ⅱで取得): マッチ勝利・敵討伐時に回復する精神力が50%減る。生存しているN社の狂信者が自分を含め5名以上なら、N社狂信者たちのダメージ量+10%。": "**Combat passive — Mad Flame (2 Wrath Owned; unlocked at Uptie Ⅱ)**: SP recovered on Clash Win and on defeating enemies is reduced by 50%. If 5 or more N Corp. Fanatics, including himself, are alive, N Corp. Fanatics deal +10% damage.",
+    "S3「自滅的浄化」: 狂信があればダメージ量+15%。Ⅱコインの的中で、与えたダメージ量の50%分だけ混乱区間を前進させる。Ⅲコインは対象の出血5以上なら火傷5/7を付与し、敵討伐時に次のターンの打撃威力増加1を得る。": "**S3 — Self-destructive Purge**: +15% damage with Fanatic. On Coin Ⅱ hit, shifts the Stagger Threshold by 50% of the damage dealt. Coin Ⅲ inflicts 5/7 Burn if the target has at least 5 Bleed, and grants 1 Blunt Power Up next turn on defeating an enemy.",
+    "狂信と火傷: S1はⅡコインの裏面的中時に次のターンの狂信1を得る。狂信があるとS2はダメージ量+5/10%、S3は+15%。S1・S2は火傷も付与する。": "**Fanatic and Burn**: S1 grants 1 Fanatic next turn on Coin Ⅱ Tails Hit. With Fanatic, S2 deals +5/10% damage and S3 +15%. S1 and S2 also inflict Burn.",
+    "まず憤怒×2を確保して「狂炎」を発動させる。憤怒スキルはS3だけなので、味方の憤怒スキルから資源を回してもらう方が効率がよい。毎ターン攻撃して精神力をマイナス寄りに保つ。精神力が-45まで下がると次のターンにパニック/E.G.O侵蝕になるため、その手前で守備やマッチ勝利を挟んで精神力を戻す。精神力0から始まる戦闘(ストーリーや採光)で有利な一方、精神力が最も低い味方を回復する類の効果とは相性が悪い。": "First, secure 2 Wrath to activate Mad Flame. His only Wrath skill is S3, so it is more efficient to have allies' Wrath skills supply the resources. Attack every turn to keep his SP on the negative side. At −45 SP, he panics or undergoes E.G.O Corrosion the next turn, so slip in his Defense skill or a Clash Win just before that to bring SP back. He is advantaged in battles that start at 0 SP (story stages and Refraction Railway), but pairs poorly with effects that heal the ally with the lowest SP."
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "kind": "boss-copy",
+  "id": "fairy-gentleman",
+  "source": "src/data/bosses/fairy-gentleman.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "紳士妖精",
+          "en": "Fairy Gentleman",
+          "file": "Enemies.json",
+          "id": "8048"
+        },
+        {
+          "ja": "妖精酒",
+          "en": "Fairy Wine",
+          "file": "Enemies.json",
+          "id": "8051"
+        },
+        {
+          "ja": "酔いたいか？",
+          "en": "Wanna Get Drunk?",
+          "file": "Skills_Abnormality.json",
+          "id": "804801"
+        },
+        {
+          "ja": "分けて飲もう！",
+          "en": "Let's Share the Drink!",
+          "file": "Skills_Abnormality.json",
+          "id": "804802"
+        },
+        {
+          "ja": "残ったのはこれだけだな！",
+          "en": "This is All I Got!",
+          "file": "Skills_Abnormality.json",
+          "id": "804803"
+        },
+        {
+          "ja": "今度はダメだ！",
+          "en": "Not This Time!",
+          "file": "Skills_Abnormality.json",
+          "id": "804806"
+        },
+        {
+          "ja": "この妖精酒が良いのか？",
+          "en": "You Like This Brew?",
+          "file": "Skills_Abnormality.json",
+          "id": "804807"
+        },
+        {
+          "ja": "酔いがヒック！",
+          "en": "Booze Makes You Hicc!",
+          "file": "Passives_Abnormality.json",
+          "id": "804801"
+        },
+        {
+          "ja": "高まる香りですよね？",
+          "en": "Stimulating Smell, Isn't It?",
+          "file": "Passives_Abnormality.json",
+          "id": "804802"
+        },
+        {
+          "ja": "高揚",
+          "en": "Morale Boost",
+          "file": "Bufs.json",
+          "id": "Exalted"
+        },
+        {
+          "ja": "酔い",
+          "en": "Tipsy",
+          "file": "Bufs.json",
+          "id": "Tipsiness"
+        },
+        {
+          "ja": "捕食",
+          "en": "Predation",
+          "file": "Bufs.json",
+          "id": "Predation"
+        },
+        {
+          "ja": "これ食べちゃうぞ！",
+          "en": "I'll Have This!",
+          "file": "Skills_Abnormality.json",
+          "id": "804804"
+        },
+        {
+          "ja": "これ食べちゃうぞ！",
+          "en": "I'll Have This!",
+          "file": "Skills_Abnormality.json",
+          "id": "804805"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "酔い",
+    "捕食"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "582371a0d0e4ba4857db40d541cd95151e4fa7e242bd22f49f7bcd0dae238324",
+      "text": "Fairy Gentleman (Canto IV)"
+    },
+    "shortName": {
+      "sourceHash": "4b42db4c3fc8aea841194b0ee0c13003fb2fc75648e967bf29e65442df348538",
+      "text": "Fairy Gentleman"
+    },
+    "stageName": {
+      "sourceHash": "a6231a5920f627ad85a27139f7104a7d7d81307570c3a307660ddc5a8131246b",
+      "text": "The League of Nine in Memory, Floor 1"
+    },
+    "lead": {
+      "sourceHash": "2b2a6a88ef0e0e5c63eab9ad57e556c069a98a69821717ed7d0794614ffe3f07",
+      "text": "Focus damage on the Left Arm. If the fight lasts, use Fairy Wine to convert Morale Boost into Tipsy, nullify Predation's damage, and trigger Stagger. The opening and later versions of the same skill differ in whether they can Clash."
+    },
+    "statNote": {
+      "sourceHash": "e474ea28c27db458029f4ab120755e659099ed0278ebedde1133f663338e706e",
+      "text": "The regular encounter on Floor 1 of the Canto IV dungeon. Overall HP is 1354; Left Arm HP is 364 and Body HP is 849. Fairy Wine likewise has 11 overall HP and 2 HP on its Barrel Part. Do not substitute Luxcavation or Mirror Dungeon HP and power values."
+    },
+    "skillNote": {
+      "sourceHash": "36b5ad8fbf1fd8c072378c48d135e7c985e17b18a9f71e3643e07f5b26fc35e2",
+      "text": "8 skills from the regular encounter. I'll Have This! has an opening version that is unclashable and cannot be redirected, plus a later version that can Clash. The listed damage bonus per Morale Boost is +100% for the later version and +10% for the opening version. Displayed power excludes conditional bonuses such as +5 Clash Power against targets without Tipsy."
+    },
+    "priorities.0": {
+      "sourceHash": "ab62a6854a52feb14b7507b071e793ff42c70bdfdeb84353b382d3306767e7bd",
+      "text": "Focus Pierce, Pride, and Sloth damage on the lower-HP Left Arm. Prepare HP, SP, and resources within the dungeon."
+    },
+    "priorities.1": {
+      "sourceHash": "488a72c9222256dec5b6186d1b198893f610cbab35f928e17d8637d7a20f1b2b",
+      "text": "Turn 1's Predation attack is unclashable and cannot be redirected. Its original target must use their own Defense Skill and resistances."
+    },
+    "priorities.2": {
+      "sourceHash": "b88278f931fe3826d096d13b212586927f933986ccbc5b2a699282dc7b7e4970",
+      "text": "If the fight lasts, use Fairy Wine to convert Morale Boost into Tipsy. Taking the Predation hit with Tipsy deals 0 damage and removes 50 enemy HP; at 5 Tipsy, it also Staggers the enemy."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "f919c6f13695b1326e0fa65f1f1fa55922a802d7fd484991d4bfa2560b602939",
+      "text": "You cannot Clash with the opening Predation attack"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "f15abcd8b2908e00f37ca1f69bb54ebb7f53ff558891b35476b7120ddb032b78",
+      "text": "Only the turn-1 version is unclashable and cannot be redirected. Prepare the original target's Evade or Guard. The later skill with the same name can Clash."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "bf668ee654c48aa2331fe0d6695482a131d45c3ab0cd668bbfe0c1de11ad6237",
+      "text": "Building Morale Boost makes Predation deal huge damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "c03de4accbe1fa6eec4ed32359407de3fb74fe5897e7c69779b682e6c85e5fa6",
+      "text": "Morale Boost normally increases your damage, but also increases damage taken from Predation. Attack Fairy Wine's Defense Skill to convert it into Tipsy before the stronger attack on turn 5."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "9f1dd01d47c4e33ff62f93743a245915595466e3563e3b297f0ff83b21d75b02",
+      "text": "The enemy does not Stagger despite your Sinner having Tipsy"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "980583eba48ca81a47f9b4926f947938b685ea75f3e2b5b8bb5db8327a2a2577",
+      "text": "Any Tipsy can nullify the damage and remove 50 enemy HP, but Stagger requires at least 5 Tipsy. Check the value before Predation."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "fa95c9ffd7b5fcf452250ac9df7a3112f6074521fff3b8a6434ea131d74837d7",
+      "text": "The enemy becomes stronger after Fairy Wine is destroyed"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "3fc51c9aa128048ad88148d5f6507deb62d2c1f3eb1900b78fcfb22a84ac0f8f",
+      "text": "If Not This Time! hits the respawned wine, the enemy gains healing and buffs. Check targeting lines; redirect it with a faster Sinner or destroy the wine first."
+    },
+    "units.0.name": {
+      "sourceHash": "3c03c427da8734b926e3c8c23f1a85fe96decd95a24996d527de539475d14909",
+      "text": "Fairy Gentleman (Left Arm)"
+    },
+    "units.0.part": {
+      "sourceHash": "00da7cbe13ff32155a78004af52ce9358e14f81acc8bbc53621e869be0addf84",
+      "text": "Left Arm"
+    },
+    "units.0.hp": {
+      "sourceHash": "919c76850f1f01c7812e869356696f7b9e973c8b6129bbb4ba91d6b87cdd3708",
+      "text": "Overall 1354 / Left Arm 364"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "77b39c61d96fbd68813efb69740fd0f46e3827c804b2936bd4c8d07b54619e1f",
+      "text": "The usual focus target, with less HP than the Body. Pierce and Pride are effective."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "ad398ca1a62705e98074a18ac9f7cfba3a8a990b1068f9cc72be52250b0bc8fa",
+      "text": "Many skills grant Morale Boost during Clashes. Decide who will convert it through Fairy Wine before Predation."
+    },
+    "units.1.name": {
+      "sourceHash": "75d58c94ab9caec095b14bb5603f50f70f86a7fc21e4ea3fff14517ff2c70747",
+      "text": "Fairy Gentleman (Body)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "13dc3df125319000cd251faea801b3b6ed00ab36b7b1c845412fb5fc793206d9",
+      "text": "Body 849 / Overall 1354"
+    },
+    "units.1.stagger": {
+      "sourceHash": "300097c1d111bbbe820f1a325d82a36466831f9fda8f1f12377bb82b098e2041",
+      "text": "35% / 0% (297 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "ccfa3505f576ac9fbd5554a7b512b93edd29859485639de5c4ff030570f4bb10",
+      "text": "Let's Share the Drink! heals overall and Body HP [On Use]. Winning its Clash does not cancel the healing."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "7979b598d653956d3d1d09a542b3976f51a1f5459c4035a96b4353c429668b39",
+      "text": "The opening Predation attack differs from the version used from turn 5 onward. Check whether it can Clash, along with Morale Boost and Tipsy values."
+    },
+    "units.2.name": {
+      "sourceHash": "60b7f1542b84e7c7ae5a302d593b8d8d963cde025e1cdd2e5523a43a8e868234",
+      "text": "Fairy Wine"
+    },
+    "units.2.part": {
+      "sourceHash": "675a5f5ca166ace71bd2aebc1b57e90947cd65575eda2bf48e7696d4f651390f",
+      "text": "Wine Barrel"
+    },
+    "units.2.hp": {
+      "sourceHash": "f04e8228057a0189ee6f9b928cee96f5711f8ebd352c45180131b674c9d5dd20",
+      "text": "Overall 11 / Barrel 2"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "1c6dce1ca208284d83341bcbec26651a500b1f6883701199a7a03c9e3b0ee351",
+      "text": "Normally appears on turn 3. If absent at Turn Start, it appears 2 turns later. After destruction, it normally respawns 3 turns later."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "5608c76cca1febc679e512678ebaf4325cba2a721eddb07a9c979f525e40570d",
+      "text": "Uses a Defense Skill that converts Morale Boost into Tipsy. After respawning, it also becomes a target for Fairy Gentleman's attacks."
+    },
+    "phases.0.timing": {
+      "sourceHash": "66354b6b3fdcf355f64526108165bc337c0bc417eb739431cf1888f830fb36e5",
+      "text": "Dungeon preparation"
+    },
+    "phases.0.title": {
+      "sourceHash": "f745842463f2ff18ee21477edd631b8e976f4f200923732517979c61ffdf59a3",
+      "text": "Prepare Left Arm damage and a way to survive the opening hit"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "b8cd71d2193e0b4b74fb96139f1b314e0d15232a12093438431b65a3eaf06e8a",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. Bring Pierce, Pride, and Sloth damage and skills you can focus on the Left Arm."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "7e225706895d0cebaf3ff7cda63336e2ea4bba991fd264916e066af97d5380d3",
+      "text": "The opening Predation attack is unclashable and cannot be redirected. Check each Sinner's Pierce resistance, Defense Skill, and healing options."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "5e3aac30e139d979da987bddc79deb4e3ac30e2447f7ae72d2128e9b59db1fc9",
+      "text": "At Combat Start, one random Sinner receives 5 Morale Boost. Check who receives it before choosing who will use the wine later."
+    },
+    "phases.1.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.1.title": {
+      "sourceHash": "681acfae63e4614b4ac185e9fa4e47c1a69528144538f05a9bef374b86e08646",
+      "text": "Survive the opening Predation attack and focus on the Left Arm"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "3817a92317d739b7781b9d9df0811599f71f4ef265c008950470e709961a9f6e",
+      "text": "Answer the opening I'll Have This! with the original target's own Evade or Guard. An Attack Skill cannot Clash with it."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "85a860b5984ab671cfe238d46eed96b78994d27ecae89ab3257d926e1443c030",
+      "text": "Beat the other weak Blunt attacks with regular skills to prevent Tremor and Bind on hit. Clashing also builds Morale Boost."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "1fde1518802df7b5f536312044bebb458f0c03d31bede636c6ada5cafab5866f",
+      "text": "Focus your remaining attacks on the Left Arm. Do not split damage under the assumption that winning Clashes stops the overall and Body healing."
+    },
+    "phases.2.timing": {
+      "sourceHash": "d35942cc8ddc45022da65192418ec6d010b401a409227836aae28ebdb4e51bb3",
+      "text": "Turns 3–4 / if the fight lasts"
+    },
+    "phases.2.title": {
+      "sourceHash": "b4833841a42f68f3b3ddb6bacd7bab4dde8d9c119b30f0e40ad89de8e074d002",
+      "text": "Direct a Sinner with Morale Boost at the wine's Defense Skill"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "221f5c507646bdf4bf9a9f1edeb60e40abda7d8de1508e2cba85d90a9262d834",
+      "text": "When Fairy Wine appears, attack its Defense Skill with a Sinner who has Morale Boost to convert the same amount into Tipsy. If they can reach 5 Tipsy, you can also aim for Stagger."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "268aa04d0aa3a142ceb8242c67c4745bffb539b85311d372e5bcce4e43884b85",
+      "text": "The wine is fragile. Check attacks and action order so another attack does not destroy it first. Tipsy reduces Clash Power, so avoid assigning the converted Sinner to an immediate high-power Clash."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "42599ed528c8e29f8cda2ee351c4f441b00333ba7ad915b72ce41845c70365ba",
+      "text": "If Left Arm damage can end the fight quickly, you do not need to use every mechanic. Use the wine as preparation when your damage is insufficient and the fight reaches turn 5."
+    },
+    "phases.3.timing": {
+      "sourceHash": "bf28e1b8f81beda881053da913382415eddd6a3b37c857049b2038c3cdb0f05d",
+      "text": "Predation from turn 5 onward"
+    },
+    "phases.3.title": {
+      "sourceHash": "e5a248dab00d1e747ba80478a4f3a24a19f1dffc00e5861d04aa88662f0bbc81",
+      "text": "Let a Sinner with Tipsy take the hit to nullify Predation"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "afd912349522abf4453335f54f4cc55e8844638544af1c738c85f53103294a7c",
+      "text": "The later I'll Have This! can Clash and be redirected. Target it with a Sinner's regular Guard while they have Tipsy. Redirecting an attack aimed at another Sinner requires higher Speed than the enemy."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "6faaeb871511e3f2021806c525ef3fe5426ab068f0a8b9d3593f2f0d90c5c22a",
+      "text": "Taking the hit with Tipsy reduces incoming damage to 0 and removes 50 Fairy Gentleman HP. At 5 or more Tipsy, it also Staggers him. Evading or winning an attacking Clash does not trigger this [On Hit] Stagger."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "a5199b7015c93ca235f25242d4b3933f61824f5307e15ca7bc3841cd43b2e3e5",
+      "text": "The hit consumes Morale Boost and Tipsy, so one Sinner may not nullify multiple attacks. Beat remaining Predation attacks, or attacks you cannot redirect to a Tipsy Sinner, with strong skills. Without Tipsy, the enemy gains +5 Clash Power and can roll 21. Targets with Morale Boost take increased damage, so choose someone with less of it."
+    },
+    "phases.4.timing": {
+      "sourceHash": "28025bd9bb1da3398a2a37aabb0e001a540ef7b6d0b7c365b2596848a435ae71",
+      "text": "Wine respawn / event"
+    },
+    "phases.4.title": {
+      "sourceHash": "3524dcc1b1f7c73c4996f665ab091ae5874834245efde5e0067adf35359802d7",
+      "text": "Deny the enemy the wine and finish during Stagger"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "e300e25c1f0f1bceb4e537fec7ae872e82a0a2e6309615be7a568d57680645c6",
+      "text": "If Not This Time! targets respawned Fairy Wine, redirect and beat it with a faster Sinner, or destroy the wine first. A successful enemy hit grants 10% HP healing and buffs next turn."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "a2b115f36c8a03e9a7c3860e2274643943ac29dd475b9c7bea46725a5660e9cc",
+      "text": "After causing Stagger through Tipsy, a Gluttony check event follows. Choose a Sinner based on the displayed success chance. Success gives that Sinner 10% HP healing, 2 Attack Power Up, 2 Haste, and 2 Protection; failure gives those benefits to the enemy."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "ff76bec26ee3f5fb86a4ddb2d42c2fba5110df7a3fee9b81fd296d45cb337e87",
+      "text": "Wear down the Left Arm, then concentrate attacks during Stagger to finish the enemy."
+    },
+    "skills.0.name": {
+      "sourceHash": "ec021dd3ff94578cd6885d81882d5c196bc769351f7dfa58f698da2b7bd76a50",
+      "text": "Wanna Get Drunk?"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "4858cc464e3d9c8da714997abe1c8f86d84333ffbf34a2324eac412f608227f7",
+      "text": "During the Clash, inflict 1 Morale Boost."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "9f4f4c5e99543923611e267e4a6e39d700c4efd60447b2e362084abbb9c24a94",
+      "text": "Ⅰ[On Hit] Inflict 5 Tremor and increase Tremor Count by 2."
+    },
+    "skills.0.response": {
+      "sourceHash": "722c4a01c9ffcf0d586acafcde80ac5a4878fb9ae4f968f66b31c0d2f7649cbf",
+      "text": "The Clashing Sinner gains 1 Morale Boost. Win to prevent Tremor on hit while building Morale Boost to convert through Fairy Wine later."
+    },
+    "skills.1.name": {
+      "sourceHash": "8f440c0cffa62163cfe90184c79273d7c28838bf2dd919ddc688ede57f34fc8f",
+      "text": "Let's Share the Drink!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "2a3796de859a788e5b6e5e47801368b9a376e19602873c9d14d956c441cf7767",
+      "text": "During the Clash, inflict 2 Morale Boost."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "2dc51e42ebaaef659f49ba0f0f6434e0e184020022db6de0914b00f87eeaa6d5",
+      "text": "[On Use] Heal 5% HP."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "d310b8ae3ef27f6228aa8561c9d922449ca1ca7a7246390016842733877ef79e",
+      "text": "Ⅰ[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "3f7bf5dfd44af839853733490f5f989f254c559ee1e5ed2649fef8f4c10e073d",
+      "text": "Clashing grants 2 Morale Boost. The skill heals overall and Body HP by 5% [On Use], so winning does not stop the healing. Focusing damage on the lower-HP Left Arm is a straightforward approach."
+    },
+    "skills.2.name": {
+      "sourceHash": "e09911f11b7bea1fdc7b6a16d4a6c57085845c7270522765975bb48d2d31d405",
+      "text": "This is All I Got!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "2a3796de859a788e5b6e5e47801368b9a376e19602873c9d14d956c441cf7767",
+      "text": "During the Clash, inflict 2 Morale Boost."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "31f4439cec3ee0bac677270acaa20f6b29dab7d80e9830c53ded6ec5e4784eb3",
+      "text": "Prioritize targets with Tremor."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "d809bf1686b995cfc2e54eb534564e05c92d5fc4647651bfae15de7a68446685",
+      "text": "Ⅱ[On Hit] Trigger Tremor Burst a number of times equal to the target's Tremor Count."
+    },
+    "skills.2.response": {
+      "sourceHash": "b4b8c1c58d7081945fe1c523153ac48dda2adf6e23cd5f8eeaa886ec52596daf",
+      "text": "Prioritizes targets with Tremor; its second Coin triggers Tremor Burst according to their Count. Keep it away from low-HP Sinners with heavy Tremor and assign a winning skill."
+    },
+    "skills.3.name": {
+      "sourceHash": "0831a78c50fc1b78d57f3f0add774c7a253b8b63a9dcadc0951b5f3e11871122",
+      "text": "I'll Have This! (Unclashable)"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "da9b8ad6811aeeb1d90bc13a773f72cc84c199e43c5cfa54be18ed56e2e21794",
+      "text": "Prioritize targets with Morale Boost."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "db620d8244217aa2fd0c21a59058d0808e4ecff6dc55e3593bcfc78fa2fcaec4",
+      "text": "If the target has no Tipsy, gain +5 Clash Power."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "4ea60dff876e8a2b761c509ae6988c1d0d97f60e5356d0ea8e98bbd2c2745156",
+      "text": "Ⅰ[On Hit] If the target has Morale Boost, deal +10% damage per stack."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "acf063ad3d9efac08762f0a03428e3e35c28dd20d7fa03fac1e859cca9e35ced",
+      "text": "[On Hit] If the target has Tipsy, deal 0 damage and lose 50 own HP."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "bf2b04d401e6ed82e6973290c90c538903ebed7929b82b7a1c1c6c6bba963a51",
+      "text": "[On Hit] Consume all Morale Boost or Tipsy."
+    },
+    "skills.3.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.3.response": {
+      "sourceHash": "d836dfbe3e8093ad475b410d3275248251512f9b26e0aed913edc269fd31d30f",
+      "text": "Turn 1's Predation attack is unclashable and cannot be redirected. Prepare the original target's Evade, Guard, and Pierce resistance. The attack is stronger without Tipsy, and damage increases with Morale Boost."
+    },
+    "skills.4.name": {
+      "sourceHash": "6f5160742afb93f435e62c79b921810e7d2b14da4a973d010051979276fff298",
+      "text": "I'll Have This! (Clashable)"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "da9b8ad6811aeeb1d90bc13a773f72cc84c199e43c5cfa54be18ed56e2e21794",
+      "text": "Prioritize targets with Morale Boost."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "db620d8244217aa2fd0c21a59058d0808e4ecff6dc55e3593bcfc78fa2fcaec4",
+      "text": "If the target has no Tipsy, gain +5 Clash Power."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "36d77efb1b77bf22829ffcc5de9b509ce49d3ad67a8cec487bb5cd13bffbc7b2",
+      "text": "Ⅰ[On Hit] If the target has Morale Boost, deal +100% damage per stack."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "acf063ad3d9efac08762f0a03428e3e35c28dd20d7fa03fac1e859cca9e35ced",
+      "text": "[On Hit] If the target has Tipsy, deal 0 damage and lose 50 own HP."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "bf2b04d401e6ed82e6973290c90c538903ebed7929b82b7a1c1c6c6bba963a51",
+      "text": "[On Hit] Consume all Morale Boost or Tipsy."
+    },
+    "skills.4.response": {
+      "sourceHash": "7b9ac849c421eee77421ea505eb3bd4431ad724ad609ca66c7d0db4396a1a82d",
+      "text": "The stronger Predation attack from turn 5 onward deals much more damage to targets with Morale Boost. A Sinner with Tipsy takes 0 damage and removes 50 enemy HP; at 5 Tipsy, the enemy also Staggers. If Tipsy is unavailable, win the Clash with a strong skill."
+    },
+    "skills.5.name": {
+      "sourceHash": "885d7445d4a2233ee97f144a85e12ebb27bc2c5807353c7ec2e0d4a1d6bde573",
+      "text": "Not This Time!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "72b038754e584ca4caf9a0516ca193777586738d9c6a80b942fce0ac68f69364",
+      "text": "Prioritize Fairy Wine as a target."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "019317501156a9c8ab773259b9ff899642f2adbae19c352a8d622837e085bf6a",
+      "text": "Ⅰ[On Hit] If attacking Fairy Wine, heal 10% HP and gain 2 Attack Power Up, 2 Haste, and 2 Protection next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "588af081af0b34c13d76425f78bcfe9782ead1805f6996592bd86c78c61a594a",
+      "text": "Prioritizes Fairy Wine and grants healing and buffs next turn on hit. Redirect and win with a faster Sinner, or destroy the wine first to prevent the enemy from landing the hit."
+    },
+    "skills.6.name": {
+      "sourceHash": "ebf80349ce0aeb9ef5a2aa907b43fd6a25cdf09a3deeaebfacb5d4bb73c058e0",
+      "text": "You Like This Brew?"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "0b0b664506d1fd073627ab0b73e797b83229fbd744382b999606ec7c3b0ab113",
+      "text": "[On Use] Gain 1 Bind next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "f18013d69599fdfbe681141b541af387671b4032a1f1da2b3dc225ffd7ef3930",
+      "text": "The Evade rolls up to 13. If it repeatedly avoids regular attacks, offset it with a Defense Skill. First reserve enough actions for wine conversion and Predation handling."
+    },
+    "skills.7.name": {
+      "sourceHash": "60b7f1542b84e7c7ae5a302d593b8d8d963cde025e1cdd2e5523a43a8e868234",
+      "text": "Fairy Wine"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "e6b3beda672dd502e84692a62f73d159e2728d27e0fc26c47f1d999664d099f5",
+      "text": "[On Use] Convert the opponent's Morale Boost into the same amount of Tipsy."
+    },
+    "skills.7.response": {
+      "sourceHash": "81b1f17d3b52bc346f9496222ed7db41579907818b41aec1507d22730c0d8cb5",
+      "text": "Attack this Defense Skill with a Sinner who has Morale Boost to convert it into the same amount of Tipsy. Do not destroy the wine with another faster attack before deciding who will use it."
+    },
+    "passives.0.name": {
+      "sourceHash": "416ef89d6f52ab3770e9823d0f3cbebad7dd6d7a2d7832ac25388542dd3c295d",
+      "text": "Booze Makes You Hicc!"
+    },
+    "passives.0.effect": {
+      "sourceHash": "423f96bce132056696371db282dc21213209686f604dbfb57f843917d563bc7b",
+      "text": "If I'll Have This! hits a target with at least 5 Tipsy, become Staggered."
+    },
+    "passives.0.condition": {
+      "sourceHash": "e99a3be092d0d96882a7e75f936ba7fc2127f3bede37c78b218f15322b7c29e7",
+      "text": "Predation hits a target with at least 5 Tipsy"
+    },
+    "passives.0.response": {
+      "sourceHash": "b9e2ffcd0497e091a26c413ef94126f8adee504a1c648b5f7c2c7ebf14436129",
+      "text": "Even 1–4 Tipsy nullifies the damage and removes 50 enemy HP, but Stagger requires 5."
+    },
+    "passives.1.name": {
+      "sourceHash": "3d79cd134bdef12d67ef8504b5c1b5af68419088c5ece6c053cc0630eceb15be",
+      "text": "Stimulating Smell, Isn't It?"
+    },
+    "passives.1.effect": {
+      "sourceHash": "2f0e7f37d29e22694b27c47e0a989c84a03631ca2f482b4c46bdeb0d41072a19",
+      "text": "An unidentifiable scent from within creates a feeling of elation. At Wave Start, inflict 5 Morale Boost on one random Sinner."
+    },
+    "passives.1.condition": {
+      "sourceHash": "6bda26bcb91ba62b866d6d4d3cef0c49ef031a401b3b28cebb1b6d5dfac81657",
+      "text": "Wave Start"
+    },
+    "passives.1.response": {
+      "sourceHash": "6a85c59863c3e4b9d7ae98e05d6d2b798563963a1f04558f4cb862aa173a5850",
+      "text": "Check which random Sinner has 5 Morale Boost and consider using them for wine conversion."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "84f5461b99c9903fb1b12556309772e1f6c9190f1a03b74dbbd8c1ced3da4e3f",
+      "text": "Morale Boost"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "12720d3462d3275bfb90ae7668bc9d27c8ed93710e98514a44bdad26b7903b26",
+      "text": "Each turn, gain Damage Up equal to its value, up to 5. No benefit is gained while Tipsy is present. Also increases damage taken from Predation."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "68c373b9a5feb60b8b0d726fbbf7704429689c10278b90856e1aef6bb8b6432e",
+      "text": "Use it for normal damage, then convert it into Tipsy through the wine before Predation arrives."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "8ee0d6b549ceebc3129a92e5c49c15d8f9fbf0110bd8b92d3b1c1798fcea7aa3",
+      "text": "Tipsy"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "8d55f2341413833753764d34ba1c2cf844e4c7ddfe7896732b8b1a887cb1fef1",
+      "text": "Reduce Clash Power by its value, up to 5. When Predation hits, incoming damage becomes 0 and the enemy loses 50 HP; at 5 or more, the enemy also Staggers. Consumed on hit."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "f42d7f69ace71b4b23f4642852c48e464433808cbae84eb884ec138e7c92473b",
+      "text": "Use it on the Sinner taking Predation. Avoid also assigning them to other high-power Clashes while their power is reduced."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "73188e2a88d6058ca0ec3a7390efeb4aa0ba6970f0072d5eb3ed0637b35e9257",
+      "text": "Predation"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "d318d5848331bf40b1a90d479604c28f6ed26c5ca5c9a7de369a0eb09e30b458",
+      "text": "Indicates that Fairy Gentleman will use a powerful skill. The opening and later Predation attacks differ in Clash availability and buff amounts."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "f19da995c1673e16cf38d0189df51a2aa39b711c0c414c5a251818100ef873f7",
+      "text": "Even when skill names match, check the conditions on the version being used that turn."
+    },
+    "warnings.0": {
+      "sourceHash": "a439b9fe218433cf6afcd63e11dfd9e08ef24295e3ff935914aba8f197e9585e",
+      "text": "Opening and later Predation attacks have different properties. Only the opening version is unclashable."
+    },
+    "warnings.1": {
+      "sourceHash": "e4c05510f9b9ef0dc4249f3ca9359c3775e4742a0d48332b1e879d7678cefc9c",
+      "text": "Any Tipsy nullifies Predation's damage, but Staggering the enemy requires at least 5 Tipsy."
+    },
+    "warnings.2": {
+      "sourceHash": "3819205c747121856c9f37356951f1f01747012d4c7cb833a3c37821cca6dc56",
+      "text": "Predation consumes Morale Boost and Tipsy on hit. Do not assume one application of Tipsy can nullify multiple Predation attacks."
+    },
+    "warnings.3": {
+      "sourceHash": "b876b65098d385a29f6222ef44e780bc5baa1779d8f32afb77a879950c583e0b",
+      "text": "Let's Share the Drink! heals [On Use]. Do not confuse this with an effect prevented by winning its Clash."
+    },
+    "warnings.4": {
+      "sourceHash": "04d3ff2ee4eb2a8dadabdb8e75742ec860b08458833c406942712448d85ed020",
+      "text": "Do not destroy Fairy Wine before your chosen Sinner uses it. After it respawns, also prevent enemy hits that grant healing and buffs."
+    },
+    "preparation.0": {
+      "sourceHash": "1c2a701ac3ac1172a8afcc672c606108ef5f8f0977fd2255b9f9148d3a67ce08",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Focus Pierce, Pride, and Sloth damage on the Left Arm."
+    },
+    "preparation.1": {
+      "sourceHash": "263c1597022f6070d8bc442d836b3b990d8baccf65dac73d06637e27f71e6821",
+      "text": "Check Pierce resistance and Defense Skills for the opening Predation attack, plus a Morale Boost-to-Tipsy converter for a longer fight."
+    },
+    "roles.0.name": {
+      "sourceHash": "c69268871f1219b95e5fb25527c2d5295fb304c903ade91aca236f01f063e70b",
+      "text": "Focused Left Arm damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "2438fba9653ce40513b9b33075daf92c0d0b13a23c988893b3da26920b4fc70b",
+      "text": "Wear down the enemy through the lower-HP Part rather than splitting damage into the healing Body."
+    },
+    "roles.1.name": {
+      "sourceHash": "beb7c42dfdf32c42e7e4700b24db7e818e7e3cdb5980a61dd6cc8e325b6207da",
+      "text": "Tipsy setup"
+    },
+    "roles.1.reason": {
+      "sourceHash": "58d7d487127808215e6b50c79711704bbcb5ea17260c479d6e67b1db6bf8e2f3",
+      "text": "Convert Morale Boost through the wine to nullify Predation and create a Stagger opening."
+    },
+    "roles.2.name": {
+      "sourceHash": "d9987441cd7286461034be8ee6a57c96cbad5a8baafe56d57d19e4ce6857b517",
+      "text": "Fast redirector"
+    },
+    "roles.2.reason": {
+      "sourceHash": "aa3412de3c8ad00d1e6bf4fbbf0cec73c2fcbaee37b6d0a83e6ce321634e83df",
+      "text": "Adjust targets for later Predation attacks and enemy skills aimed at the wine."
+    }
+  },
+  "messages": {
+    "boss-copy:fairy-gentleman": "complete",
+    "【リンバス】4-54 紳士妖精（4章）の攻略｜Limbus Assistant": "4-54 Fairy Gentleman (Canto IV) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-54「紳士妖精（4章）」の攻略。左腕へ火力を集中するのが基本。長引くなら、高揚を妖精酒で酔いへ変え、捕食のダメージを無くして混乱を狙おう。初手と後半の同名技は、マッチできるかが違う。": "Fairy Gentleman (Canto IV) guide for Limbus Company 4-54. Focus damage on the Left Arm. If the fight lasts, use Fairy Wine to convert Morale Boost into Tipsy, nullify Predation's damage, and trigger Stagger. The opening and later versions of the same skill differ in whether they can Clash.",
+    "4-54 紳士妖精（4章）": "4-54 Fairy Gentleman (Canto IV)",
+    "4-54「The League of Nine in Memory, Floor 1」": "4-54 · The League of Nine in Memory, Floor 1",
+    "紳士妖精（左腕）の外見": "Fairy Gentleman (Left Arm) appearance",
+    "紳士妖精（左腕）のスキル": "Fairy Gentleman (Left Arm) skills",
+    "Fairy Gentleman (Left Arm)の外見": "Fairy Gentleman (Left Arm) appearance",
+    "Fairy Gentleman (Left Arm)のスキル": "Fairy Gentleman (Left Arm) skills",
+    "紳士妖精（胴体）の外見": "Fairy Gentleman (Body) appearance",
+    "紳士妖精（胴体）のスキル": "Fairy Gentleman (Body) skills",
+    "Fairy Gentleman (Body)の外見": "Fairy Gentleman (Body) appearance",
+    "Fairy Gentleman (Body)のスキル": "Fairy Gentleman (Body) skills",
+    "妖精酒の外見": "Fairy Wine appearance",
+    "妖精酒のスキル": "Fairy Wine skills",
+    "Fairy Wineの外見": "Fairy Wine appearance",
+    "Fairy Wineのスキル": "Fairy Wine skills"
+  }
+}

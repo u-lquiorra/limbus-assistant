@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0504.md",
+  "code": "0504",
+  "messages": {
+    "S3「異端抹殺」で釘を入れてから、S2「罪を洗い流さん」で束縛と攻撃威力減少を重ね、敵の行動を鈍らせるのが本領の釘のタンク。": "A Nails tank whose main pattern is applying Nails with S3 Annihilate Heretics, then using S2 You Are Cleansed of Sin to add Bind and Attack Power Down and hinder enemy actions.",
+    "S3→S2の順で釘5: S2はⅠコインで釘3を付与し、Ⅱコインで次のターンの束縛3を付与する。さらに対象の釘が5以上なら、束縛2と攻撃威力減少1/2を追加で付与する。S2だけでは釘5に届かないので、前のターンにS3のⅠコインで「次のターンに釘2」を入れておく。": "**5 Nails via S3 then S2**: S2's Coin Ⅰ inflicts 3 Nails, and Coin Ⅱ inflicts 3 Bind next turn. If the target has at least 5 Nails, it additionally inflicts 2 Bind and 1/2 Attack Power Down. S2 alone cannot reach 5 Nails, so apply \"2 Nails next turn\" with Coin Ⅰ of S3 on the previous turn.",
+    "挑発: S1〜S3は使用時に、次のターンにそのスロットの挑発値が増える(集中戦闘で狙われやすくなる)。防御レベルは人格Lv+5と硬い。": "**Aggro**: On use, S1–S3 increase that slot's Aggro next turn, making him more likely to be targeted in Focused Encounters. His Defense Level is a sturdy Identity Lv +5.",
+    "体力50%未満で強化: S1「貫く」はコイン威力+2、守備「愚かなり･･･！」は最終威力+2。": "**Bonuses below 50% HP**: S1 Drive gains +2 Coin Power, and the Defense skill Foolishness…! gains +2 Final Power.",
+    "S3の回復: S3のⅡコインは、的中時に与ダメージの50%分の体力を回復する(対象の釘1につき回復量+3%)。": "**S3's healing**: Coin Ⅱ of S3 heals HP equal to 50% of the damage dealt on hit, +3% per Nail on the target.",
+    "バトルパッシブ「執念の金槌」(憤怒×4・共鳴・同期化Ⅱで取得): 戦闘開始時、体力50%未満ならマイナス効果を1つ除去し、狂信1・攻撃威力増加1・保護3を得る。憤怒×4の共鳴と体力50%未満の両方が条件なので、狙って発動させるのは難しい。": "**Combat passive — Obsessive Hammer (4 Wrath Resonance; unlocked at Uptie Ⅱ)**: At Combat Start, if his HP is below 50%, removes 1 negative effect and grants 1 Fanatic, 1 Attack Power Up, and 3 Protection. It requires both 4 Wrath Resonance and HP below 50%, so it is hard to trigger on purpose.",
+    "サポートパッシブ「至上の栄光」(憤怒×3・共鳴・同期化Ⅲで取得): 控えにいる間、体力50%未満で現在の体力が最も低い味方1名が、攻撃威力増加1・保護1を得る(N社の狂信者なら狂信1も)。": "**Support passive — Highest Honor (3 Wrath Resonance; unlocked at Uptie Ⅲ)**: While in backup, the 1 ally below 50% HP with the lowest current HP gains 1 Attack Power Up and 1 Protection (plus 1 Fanatic for N Corp. Fanatics).",
+    "初動でS3を当てて釘を仕込み、次のターンにS2で釘5以上の強化デバフを入れる。釘を付与できる味方(N社の人格など)と組むと、S2の条件をS3なしでも満たしやすい。集中戦闘では挑発値で攻撃を引き受け、硬さとS3の回復で持ちこたえる。": "Open with S3 to plant Nails, then on the next turn use S2 to land the enhanced debuffs at 5 or more Nails. Pairing him with allies who inflict Nails (such as N Corp. Identities) makes S2's condition easier to meet even without S3. In Focused Encounters, draw attacks with Aggro and hold out with his durability and S3's healing."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0101.md",
+  "code": "0101",
+  "messages": {
+    "軽いコストで敵の攻撃威力を下げ、次のターンに味方全員へクイックを配る、速度支援向けの初期E.G.O。": "A low-cost starting E.G.O for Speed support: lowers enemy Attack Power and grants Haste to all allies next turn.",
+    "攻撃威力減少: 的中時に攻撃威力減少2を付与する。解析Ⅱ以前は表面的中時だけ。": "**Attack Power Down**: Inflicts 2 on hit. At Threadspin Ⅱ or below, requires a Heads Hit.",
+    "クイック: 的中時に次のターンの全味方へクイック1(解析Ⅲで3)を付与し、味方の速度を上げる。": "**Haste**: On hit, grants all allies 1 Haste next turn, increased to 3 at Threadspin Ⅲ.",
+    "束縛(解析Ⅳ): 的中時に次のターンへ束縛2を付与する。": "**Bind (Threadspin Ⅳ)**: On hit, inflicts 2 Bind next turn.",
+    "パッシブ「沈黙」: 被ダメージ時に次のターンの自分へ束縛3が付く。弱点・脆弱属性への攻撃では与ダメージ+20%(ターン毎に1回)。束縛3を受ける点に注意。": "**Passive — Silence**: Taking damage gives Yi Sang 3 Bind next turn and enables a +20% damage bonus that turn when attacking an Attack Type or Sin affinity to which the target is Weak or Fatal, once per turn. Account for the 3 Bind he can receive.",
+    "攻撃加重値1の単体向け。単体の敵に撃って攻撃威力減少とクイックを配り、後続の味方を助けると考えられる。": "With 1 Attack Weight, it is for a single target. Use it on an enemy to apply Attack Power Down and grant Haste, supporting the rest of the team.",
+    "必要資源は怠惰3・憤怒1、精神消耗は10。侵蝕スキルはない。": "Costs 3 Sloth, 1 Wrath, and 10 SP. Has no Corrosion skill.",
+    "耐性は憂鬱・嫉妬が脆弱(×2)、怠惰が抵抗(×0.75)。": "Sin resistances: Fatal to Gloom and Envy (×2); Endured against Sloth (×0.75).",
+    "Ⅱ: 「沈黙」の解放のみ。": "**Ⅱ**: Only unlocks Silence.",
+    "Ⅲ: 威力が上がり、攻撃威力減少が的中時に、クイックが3になる。": "**Ⅲ**: Raises Power, changes Attack Power Down to an On Hit effect, and raises Haste to 3.",
+    "Ⅳ: 束縛2が加わる。クイック3だけで足りる場面が多く、優先度は低いと考えられる。": "**Ⅳ**: Adds 2 Bind. The 3 Haste is often enough for its role, so this upgrade can be a lower priority.",
+    "奥歯事務所フィクサー: S2が怠惰、S3が憤怒で、必要資源(怠惰3・憤怒1)をまとめて出せる。": "**[Molar Office Fixer](persona:0105)**: Sloth S2 and Wrath S3 can supply both required affinities: 3 Sloth and 1 Wrath.",
+    "南部リウ協会3課: S1が怠惰、S2が憤怒で、同じく必要資源を出せる。": "**[Liu Assoc. South Section 3](persona:0112)**: Sloth S1 and Wrath S2 also supply its required affinities."
+  }
+}

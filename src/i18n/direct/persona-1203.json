@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/1203.md",
+  "code": "1203",
+  "messages": {
+    "全スキルの与ダメージ吸血で長期戦をしぶとく耐える人格。マッチは1コインのS2「四肢切断」で取り、E.G.O《まやかし》の資源をほぼ単独で集められる点も強み。": "An Identity that endures long battles through damage-based lifesteal on every skill. Use single-Coin S2 Dismember for clashes. Another strength is supplying almost all the resources for his own Legerdemain E.G.O.",
+    "吸血: S1「切り払う」はⅠコインで与ダメージの30%(同期化段階が上がると的中時に50%)、S2はダメージ量の50%、S3「内臓抉り」はⅣコインで100%の体力を回復する。与ダメージに比例するため、混乱した敵を殴ると回復量が伸びる。": "**Lifesteal**: S1 Hack heals HP equal to 30% of damage dealt with Coin Ⅰ (50% on hit at higher Uptie), S2 heals 50% of damage, and S3 Eviscerate heals 100% with Coin Ⅳ. It scales with damage dealt, so hitting staggered enemies increases the healing.",
+    "S2「四肢切断」(マッチの主力): 1コインでマッチ威力6〜16(同期化段階が低いと5〜15)。Ⅰコインの的中時に破裂5を付与する。すでに破裂5以上の対象に使うとダメージ量+50%(自分で付与した破裂5は、このスキルの条件には間に合わない)。": "**S2 Dismember (main Clash skill)**: 1 Coin with Clash Power 6–16 (5–15 at lower Uptie). Inflicts 5 Rupture on Coin Ⅰ hit. Used on a target that already has 5 or more Rupture, it deals +50% damage (the 5 Rupture he inflicts himself does not arrive in time for this skill's condition).",
+    "S1: マッチ勝利時にダメージ量+40%(同期化段階が低いと+20%)。": "**S1**: +40% damage on Clash Win (+20% at lower Uptie).",
+    "破裂関連はおまけ: S1・S3は対象の破裂5以上でコイン威力+1。S3のⅠ〜Ⅲコインは、対象に破裂があれば与ダメージ量30%分の追加ダメージ。自前の破裂付与はS2の破裂5のみで、破裂回数は増やせない。": "**Rupture effects are a bonus**: S1 and S3 gain +1 Coin Power if the target has at least 5 Rupture. Coins Ⅰ–Ⅲ of S3 deal additional damage equal to 30% of the damage dealt if the target has Rupture. His own Rupture infliction is only S2's 5 Rupture, and he cannot increase Rupture Count.",
+    "パッシブ: バトル「緊急食糧補給」(暴食×4・保有・同期化Ⅱで取得)は、体力25%未満ならマッチ勝利時に体力を5%回復する。サポート「因子コードG-3」(暴食×4・保有・同期化Ⅲで取得)は、体力が最も低い味方1名がマッチに勝利すると体力を5回復する。": "**Passives**: The combat passive Emergency Rations (4 Gluttony Owned; unlocked at Uptie Ⅱ) heals 5% HP on Clash Win below 25% HP. The support passive Gene Code G-3 (4 Gluttony Owned; unlocked at Uptie Ⅲ) heals 5 HP to the 1 ally with the lowest HP when they win a Clash.",
+    "危険なマッチはS2で受け、マッチ威力の上限が12のS3は敵の隙(一方攻撃)に回して、ダメージを通して回復する。破裂の追加ダメージは狙えたら得をする程度と考える。罪悪属性はS1が暴食、S2が怠惰、S3が色欲。この人格だけで《まやかし》の資源を賄え、《まやかし》と合わせて使うと動かしやすさが大きく変わる。戦闘に出さないときは「因子コードG-3」で、行動回数の多い通常戦闘の回復役になる。": "Take dangerous Clashes with S2, and send S3, whose Clash Power caps at 12, into openings (one-sided attacks) to deal damage and heal. Treat Rupture's extra damage as a bonus if you can get it. His Sins are Gluttony for S1, Sloth for S2, and Lust for S3. He alone covers the resources for Legerdemain, and using them together greatly changes how easily he plays. When he is not deployed, Gene Code G-3 makes him a healer in regular battles with many actions."
+  }
+}

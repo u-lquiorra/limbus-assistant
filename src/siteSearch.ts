@@ -66,7 +66,7 @@ function buildEntries(): SearchEntry[] {
     sub: [status.character, status.affiliation?.name].filter(Boolean).join("・"),
     to: `/persona/${status.code}`,
     image: status.image,
-    terms: [status.code, ...(keywordsByCode[status.code]?.keywords ?? [])],
+    terms: [status.code, status.character, status.affiliation?.name ?? "", ...(keywordsByCode[status.code]?.keywords ?? [])],
   }));
 
   const egos: SearchEntry[] = characterList.flatMap((c) =>
@@ -76,7 +76,7 @@ function buildEntries(): SearchEntry[] {
       sub: `${ego.character}・${ego.rank}`,
       to: `/ego/${ego.code}`,
       image: ego.image,
-      terms: [ego.code],
+      terms: [ego.code, ego.character, ego.rank],
     }))
   );
 

@@ -1,0 +1,615 @@
+{
+  "kind": "boss-copy",
+  "id": "camille",
+  "source": "src/data/bosses/camille.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "集中攻撃",
+          "en": "Focused Attack",
+          "file": "Bufs-a1c7p1.json",
+          "id": "ConcentratedAttack"
+        },
+        {
+          "ja": "決闘宣布 - カミーユ",
+          "en": "Declared Duel - Camille",
+          "file": "Bufs-a1c7p1.json",
+          "id": "DuelDeclaration_Camille"
+        },
+        {
+          "ja": "1対1戦力",
+          "en": "Duel Specialist",
+          "file": "Bufs-a1c7p1.json",
+          "id": "Duello_LowMorale"
+        },
+        {
+          "ja": "1対1戦力",
+          "en": "Duel Specialist",
+          "file": "Bufs-a1c7p1.json",
+          "id": "Duello_Panic"
+        },
+        {
+          "ja": "無謀な決闘",
+          "en": "Foolhardy Duel",
+          "file": "Bufs-a1c7p1.json",
+          "id": "RecklessDuel"
+        },
+        {
+          "ja": "西部センク3課 カミーユ",
+          "en": "Cinq West Section 3 Camille",
+          "file": "Enemies-a1c7p1.json",
+          "id": "8371"
+        },
+        {
+          "ja": "余裕の機会",
+          "en": "Casual Opportunity",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837101"
+        },
+        {
+          "ja": "ゆったりと息を整える",
+          "en": "Leisurely Breathing",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837102"
+        },
+        {
+          "ja": "一騎打ち",
+          "en": "Single Combat",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837103"
+        },
+        {
+          "ja": "集中攻撃",
+          "en": "Focused Attack",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "837104"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999996"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c7p1.json",
+          "id": "9999997"
+        },
+        {
+          "ja": "アレ",
+          "en": "Allez",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837101"
+        },
+        {
+          "ja": "クードロア",
+          "en": "Coup Droit",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837102"
+        },
+        {
+          "ja": "フォント",
+          "en": "Fente",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837103"
+        },
+        {
+          "ja": "サリュー",
+          "en": "Salut",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837104"
+        },
+        {
+          "ja": "応酬",
+          "en": "Parry",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837105"
+        },
+        {
+          "ja": "デフォンシヴ",
+          "en": "Défensive",
+          "file": "Skills_Abnormality-a1c7p1.json",
+          "id": "837106"
+        }
+      ],
+      "note": "Guide spelling variants are resolved using the paired Canto VII localization records. Starved and Withered, Its Not Over Yet, and the instant-kill skill name are scoped to these boss guides."
+    }
+  },
+  "scopedTerms": [
+    "飢えと老衰",
+    "まだ終わっていない",
+    "美しくないものはいらないわぁ！！"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "067224166e99097236c0cc92777c9a5173df495087a8c51c8c5a79d875483e49",
+      "text": "Cinq West Section 3 Camille (7-06)"
+    },
+    "shortName": {
+      "sourceHash": "9f6eb77d0cdcada3c71fcdb67d8f4d15f15485eb3534fa9b6669026eaa997fec",
+      "text": "Camille"
+    },
+    "stageName": {
+      "sourceHash": "62854538d71511973e3526567fbdafa7d1d21397f84993deb9f3a31bc787f710",
+      "text": "On the Tremendous Duel the Cinq Brought Upon Our Fixer"
+    },
+    "lead": {
+      "sourceHash": "e23131f7827daa532a7b4dd87d904d1f383a5d6fc16ad4af147a3316a29c9178",
+      "text": "A scripted encounter with a fixed team of one LCB Sinner Don Quixote. Stagger or the passage of 4 turns triggers its special sequence. Her HP cannot fall below 10; there is no need to rebuild your team or raise other Identities for a normal boss kill."
+    },
+    "listLead": {
+      "sourceHash": "5cd34f4889014f44caeb3aa2273fcafffdd291a1ce421ac3e4d943eac2ca620d",
+      "text": "A duel with 1 fixed combatant, special stat bonuses, and an HP floor. There is no need to prepare a different Identity for this battle."
+    },
+    "statNote": {
+      "sourceHash": "3bfbdae83c812a1a4b68381e9e8a958aafa2b5374fee0dcf798c3132900c6409",
+      "text": "7-06 values only. The enemy is Lv.45 with Defense Level 45. Pierce resistance is 0.5, and Lust, Gluttony, and Envy resistances are 1; other resistances are unconfirmed and shown as unknown. Only LCB Sinner Don Quixote is deployed, adjusted to Lv.45 and Uptie IV, with her base E.G.O at Threadspin IV."
+    },
+    "skillNote": {
+      "sourceHash": "0db1b9aa578b08ab6fda60f732917893369b1ad64a940e516ff650427896e5aa",
+      "text": "Listed Power is before bonuses from Poise, Speed differences, Declared Duel, and Focused Attack. The Stagger passive mentions Salut, but the actual event ends the encounter and unlocks its skill information. Do not treat it as a normal attack you must survive."
+    },
+    "priorities.0": {
+      "sourceHash": "dc8df23f1fec9c5201a4eaff9be7a1e43e4c049a977936f06337142b8e17644f",
+      "text": "A fixed team of LCB Sinner Don Quixote and her base E.G.O only. Adjusted to Lv.45, Uptie IV, and Threadspin IV; no other Identity or additional E.G.O is needed."
+    },
+    "priorities.1": {
+      "sourceHash": "3efe1fe2339f02e785621072b741d080c66f7806a2871522b6ef8ef7b1b64738",
+      "text": "Don Quixote's HP cannot fall below 10. Stagger or the passage of 4 turns triggers a special sequence and advances the story. Do not restart because you mistake Stagger for failure."
+    },
+    "priorities.2": {
+      "sourceHash": "a4b975be60f8f6b9b0ed097305d4e3fcf9b141d2f69bc5f9160dccc4303bb398",
+      "text": "Slots increase as 1 → 3 → 4 → 4, with a fixed skill layout. Her base E.G.O is equipped, but cannot be used because no Pride resources are available. Proceed with regular skills."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "c4682e010e47b76cfc5ed6246e7ba279b9cb4dfac0dfb6c4ba1ff62151f31b46",
+      "text": "Stagger triggered a finishing-move sequence"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "1b54b4f8b0e39ee3285ca7cba28bd544bf21a0ab46f0a2799da6f47fc79572cd",
+      "text": "This is the encounter's scripted progression. Stagger or the passage of 4 turns leads through the sequence into the story. There is no need to retry because you think your team is underleveled."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "efc73d9d348c3808803bc9bb846c250c72503920521067497a0ff5bacd052847",
+      "text": "E.G.O is equipped but cannot be used"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "77823284389d8e38276b7a49d6e34fb225fcbdbbce8cac9fe1094c8c32b51652",
+      "text": "La Sangre de Sancho is fixed in the loadout, but the necessary Pride resources cannot be obtained in this encounter. Using E.G.O is not required; proceed with your regular skills."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "2cba96be24d17bdfc658ea8173bf1b290e7d6914df9e453bf55a9d44135e0a39",
+      "text": "Clash predictions are worse than last turn"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "270dc881fdb9eca169f14192bf016f0d6d2574a34e2161c6b26819c1be0f5ace",
+      "text": "The enemy gains Poise and Haste, with further bonuses from Declared Duel and Focused Attack. Your Sinner also gains Clash Power Up and Bind through Foolhardy Duel, so check the current turn's predictions."
+    },
+    "units.0.name": {
+      "sourceHash": "b9d7c812251cd7f0cd61764a9d145c01f04f310dac46dece1a00e9fa5aa3087d",
+      "text": "Cinq West Section 3 Camille"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "ace90924a0503eb2e18569d8ce608853c2d89f8bd0cd3330dff71d45ef07b8b0",
+      "text": "60% / 30% (128 / 64)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "eabcab36e5caedfc47ee16b1428ddf41edd72ab598938e01e0cb13c2398f8e3f",
+      "text": "The part cannot be broken. The fixed loadout prevents checking every resistance. Do not treat unconfirmed resistances as neutral."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "9e86c29c78f5794ab6429e841445e17941f0b97a20bba579c337ca811426030f",
+      "text": "Don Quixote's HP cannot fall below 10. Stagger advances to an event; the HP floor does not also prevent Stagger."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "d7f93a818ea527e19c276b7c526d0071199808aac3b15c0fb118741df2a7966d",
+      "text": "Proceed with the fixed team"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "312eb4a679893e0da7875016c59d0a2fc434ea7dd9ba7fcf36e5ace311246c1f",
+      "text": "Only LCB Sinner Don Quixote can deploy. She is adjusted to Lv.45 and Uptie IV for this encounter. Her only E.G.O is La Sangre de Sancho at Threadspin IV."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "ff94d5170bf1bf244b040f2d424d5c0a2a43cf2929ca10ea00791efe28fedb01",
+      "text": "The Pride resources needed for E.G.O cannot be obtained, so do not wait to use it. Act with regular skills and advance to the special event."
+    },
+    "phases.1.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.1.title": {
+      "sourceHash": "668fe383f68246697082d796d24d544875f613975b0db2c5e417d90e5b943509",
+      "text": "Assign skills to the additional slots"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "898fe20830d7d247f7bf8f05db1af5217f63cb30291c89fe02f9f7f5f1f902f2",
+      "text": "Turn 1 has one Allez. Winning the clash does not prevent its On Use Declared Duel or Poise gain."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "03594ff560eb318f015c39d8e9794141dffab5a1cf991bdf4ce8ba183a23ae7a",
+      "text": "Turn 2 uses Parry, Coup Droit, and Fente; your Sinner also has 3 slots. Match attacks and proceed using current predictions."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "17083f50025088a66ba2af88d15479830ea58cd330c984ae95098f9d23bb3752",
+      "text": "Taking damage grants Clash Power Up and Bind next turn through Foolhardy Duel. Speed changes as well as Power."
+    },
+    "phases.2.timing": {
+      "sourceHash": "3324cab920fe1518eb16b7d9f27e45357eaed1a33aa2fdc5a1abfce8a2e160f7",
+      "text": "Turns 3–4"
+    },
+    "phases.2.title": {
+      "sourceHash": "15c714a1e2181680758769c2d43a79bdb397b75b043680edcf68da9dfe0e3057",
+      "text": "Use regular skills and wait for the sequence"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "0790233a9a3706ccc90f6667432460768fd0c54d040eff77e941ffd44128fd57",
+      "text": "Turn 3 uses 2 Défensive evades, Coup Droit, and Fente. Turn 4 uses 2 Coup Droit and 2 Fente. Your Sinner has 4 slots on both turns."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "981bbfe9f3ea8256975cb2e2a69da494adc79ad95daea53acaad546f943548fb",
+      "text": "At 7 Speed or more, the enemy inflicts Rupture or adds Count; at 7 Poise or more, Fente gains Coin Power too. Use the fixed hand and check each slot's prediction."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "8b90d8c659370ba2251616746a0c5f9985679ba22e50db8e95738e8800eb78f8",
+      "text": "If Don Quixote becomes Staggered, continue into the event. Her HP cannot fall below 10, so there is no need to halt progression to find healing E.G.O or another Identity."
+    },
+    "phases.3.timing": {
+      "sourceHash": "de0726c3c8ff2c84827333dbf67174b39e9c9ac25064598f4b8f7a577a6f9953",
+      "text": "On Stagger / normally after 4 turns"
+    },
+    "phases.3.title": {
+      "sourceHash": "f5ce6fe6e0af4ba9972822c6d2bd7f3247bf1de71a447ae2f3e56bde7ae41109",
+      "text": "Continue from the special sequence into the story"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "e2b5b36dfae2b02fc2111b72242354853bfa439bae3b01851803743ea6d9f1ea",
+      "text": "The finishing-move sequence ends the encounter and the story continues. Do not mistake it for a normal defeat screen."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "4afef1b2d11f1581bee54f7fbae31a5b3309eddc68c0f68a4ff1d5478fd85310",
+      "text": "Single Combat says it uses Salut, but the actual outcome is an event ending and unlocked skill information. Beating a normal Salut is not a requirement."
+    },
+    "skills.0.name": {
+      "sourceHash": "eb8750e87639fc25907b704abe441b0c3e423ad30ef423ce5957189a1b134d09",
+      "text": "Allez"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "ae62105ad413ef7a6f74c7fbd80bffb53e3365029042860fed95f6026fa11f40",
+      "text": "[On Use] Inflict Declared Duel - Camille."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "3482ad4c32a41b7fe2e7fa49e17d87e581f584c9fc66d4bbc672f0631a3f892f",
+      "text": "[On Use] Gain 5 Poise."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "f64186032d7cc95ed57026c743e9bb3e91f668f5b016d535854748eddd1be75e",
+      "text": "[Clash Win] Gain 2 Poise Count."
+    },
+    "skills.0.response": {
+      "sourceHash": "da78d378baa5a41ef1a39eb16797993bf6a44e3bf898a6059604cb1e61531721",
+      "text": "Used on Turn 1. Declared Duel and Poise apply On Use, even if you win the clash. Include Declared Duel's Clash Power bonus when checking the next prediction."
+    },
+    "skills.1.name": {
+      "sourceHash": "4618c8a95afd41dae05d08c473ef239a58c41cb35aa8470a59772f68eae326c4",
+      "text": "Coup Droit"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "3b3b375bf762bba6d76facb8e684cc830e71b131889edc40191e2d25e3a6812d",
+      "text": "Ⅰ[On Hit] Gain 2 Poise Count.\n[On Hit] If at 7 Speed or more, inflict 3 Rupture."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "e6f6c40559d3db932d60b1132e946ddf5fdf9bcbf1908d977bb7ca0f1483e8a1",
+      "text": "Ⅱ[On Hit] Gain 3 Poise.\n[On Hit] If at 7 Speed or more, inflict 3 Rupture."
+    },
+    "skills.1.response": {
+      "sourceHash": "bb32348811e4cfcf7c89c997ec1f7d6727a64ecebe30fcc9458005a14bb4a7e1",
+      "text": "Used on Turns 2–4. Each Coin inflicts Rupture at 7 Speed or more. Winning the clash prevents those On Hit effects, but becoming Staggered still advances this encounter's special sequence."
+    },
+    "skills.2.name": {
+      "sourceHash": "b1cf3610bbeaee4471febfd93f64ca0ad57a5ea69639576b37f9e0ca1796ebb6",
+      "text": "Fente"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "81b4d4c1d4dcd884a06f727495fc92d037a7d2df29a5c6c2603333d84427609f",
+      "text": "[On Use] If at 7 Poise or more, Coin Power +2."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "f64186032d7cc95ed57026c743e9bb3e91f668f5b016d535854748eddd1be75e",
+      "text": "[Clash Win] Gain 2 Poise Count."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "0c28b27a40648c89d4fe5508d5826ca96443f353810acc88e9d1d429dbfe7145",
+      "text": "Ⅰ[On Hit] Gain 3 Poise.\n[On Hit] If at 7 Speed or more, increase Rupture Count by 3.\n[On Crit] Critical damage +50%."
+    },
+    "skills.2.response": {
+      "sourceHash": "822d6dd6cbdfcac7d9f13e5484bb5b11cfac05ccd13388742ff9eb22e4e6b47f",
+      "text": "At 7 Poise or more, its maximum rises from the base 15 to 17. Check the current prediction including buffs and Declared Duel. After Coup Droit inflicts Rupture, beware of damage from added Count too."
+    },
+    "skills.3.name": {
+      "sourceHash": "2f615817dd3e02bb62ccefa35c85612aa0ae5d7b7933e53ff2a7ef3a1c0fef49",
+      "text": "Salut"
+    },
+    "skills.3.label": {
+      "sourceHash": "cdca2e9747b457171311a03ae9fc36b2589325dfdc963814efbca352981549eb",
+      "text": "Information unlocked by event / outside normal progression"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "2bee52af48f0d2715ea846125305298de17d32e8eef305d39766199d304ed001",
+      "text": "[On Use] If faster than the target, Coin Power +1 per 2 Speed difference (max 3)."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "804d6df622fce717867edf4c7d0ec56b25696539944768e207e1eace0836904d",
+      "text": "Ⅰ[On Hit] Gain 4 Poise Count.\n[On Hit] If at 7 Speed or more, inflict 3 Rupture and increase Rupture Count by 1."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "a01a4a04ccfc34c931946df73efae2e3da129d27b3aeb38d3c0aca608b7b7869",
+      "text": "Ⅱ[On Hit] Gain 5 Poise.\n[On Hit] If at 7 Speed or more, inflict 3 Rupture and increase Rupture Count by 1."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "4d29f1270719dad47a7c8516c8947696d850bac86409111613db3b3fc26b4027",
+      "text": "Ⅲ[On Hit] Gain 5 Poise.\n[On Hit] If at 7 Speed or more, inflict 3 Rupture and increase Rupture Count by 1."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "b6a17691c560569532c334297a424901e9fdbeb4bb70fcd6ec6ebd2387263b46",
+      "text": "Ⅳ[On Crit] Critical damage +100%.\n[On Hit] Damage +5% per 1 Rupture on the target (max 50%)."
+    },
+    "skills.3.response": {
+      "sourceHash": "2abf738838df9348cdb35ae626a716d6072533733a89440c9b4e9320769efc65",
+      "text": "Mentioned in the Stagger passive, but actual progression ends the encounter through an event. You do not need to survive a normal 4-Coin attack or raise another Identity to beat it."
+    },
+    "skills.4.name": {
+      "sourceHash": "4b1dac92e1daead6702a3e990d3c5c2e627d186d21bb3b325d44f34c56b93a88",
+      "text": "Parry"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "3150e4ac2de73e52de846dfb65c5278de94e99f736567e5bd41f1a6eab7c9dd3",
+      "text": "[Clash Win] Damage +10% per 1 clash (max 50%)."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "fd8b2d4efdd492d1eafc7bc40012d6ef93f3a2bb01f6f7298bfa5a0bbe91583d",
+      "text": "[Clash Win] Gain 2 Haste next turn."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "f83a37663abfc2d04447014952cba3956e3f6988c30c5efac14234c06a2c2790",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "ad05cdd65f09e6d9a7a426c2877f8c4a35d630554d5263053d089f62b070a151",
+      "text": "Used on Turn 2. Winning can prevent next-turn Haste and Fragile. Despite its name, this is a regular Pierce attack; assign a clash rather than treating it as a Counter."
+    },
+    "skills.5.name": {
+      "sourceHash": "6446f1c81e22e4d94c6773ddfe6f78716bba7b266941ae16b18fdcf223f191d7",
+      "text": "Défensive"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "39e7512128ac9be14e03d47219ba6a9bebe60630a1eec623e8a8d4d54758514b",
+      "text": "[On Evade] Gain 1 Haste next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "300ab4b0700ebed558e55cd41cc3a39c16b42d2483d51b38eb84f51f7cb67775",
+      "text": "Used twice on Turn 3. Successful evades increase next turn's Speed, but you do not need enough damage to kill him. Check the remaining Coup Droit and Fente as you proceed."
+    },
+    "passives.0.name": {
+      "sourceHash": "63d6fc54165f88fb1f589f4c254b571d96edb9f9fc3e42a84e04e2504d222e90",
+      "text": "Casual Opportunity"
+    },
+    "passives.0.condition": {
+      "sourceHash": "3a4effca5533e4f79dacb413e04a79ffe27dfdd6cab25f4948c7a5cb878a7d90",
+      "text": "At Turn Start, faster than the enemy"
+    },
+    "passives.0.effect": {
+      "sourceHash": "d372bfbe143cf62ba4fe426e4bcedc0b607c37ce28c8b6196322a20f573bc7ae",
+      "text": "Gain 1 Pierce Damage Up."
+    },
+    "passives.0.response": {
+      "sourceHash": "9a003db10a07f11b927927b50cff2f25181814bae46ccbdb686fefe564805733",
+      "text": "Higher enemy Speed also strengthens Pierce damage. The HP floor does not prevent Stagger."
+    },
+    "passives.1.name": {
+      "sourceHash": "761159c4d31582ed9262f4982a04ce4008af97b39b340ac1db5edc0a2e8ab832",
+      "text": "Leisurely Breathing"
+    },
+    "passives.1.condition": {
+      "sourceHash": "2f623a3280b9e4a98561db8dec93ca7171da00e962049d4c2184df15c35167c1",
+      "text": "Turn End"
+    },
+    "passives.1.effect": {
+      "sourceHash": "2e63015b27cf657e39c427439d00e90848a88b5b342634c7671ba69beb33f9da",
+      "text": "Heal 7 SP. Gain Haste next turn based on Poise divided by 4 (max 3)."
+    },
+    "passives.1.response": {
+      "sourceHash": "9c0c649bd1f81650d18347387c84dc848628306a25356c9d44a9313eeb9f3575",
+      "text": "The enemy recovers SP each turn and gains Speed through Poise. Do not reuse the opening clash prediction unchanged."
+    },
+    "passives.2.name": {
+      "sourceHash": "d50728aa47806385d7278b7f4018d71b36369d1d4ae145fc83dba9dae539051a",
+      "text": "Single Combat"
+    },
+    "passives.2.condition": {
+      "sourceHash": "d76b02b7065a5f89f163956bbfb0e4ef4c5ad1e1d05ab13cdcda727b3a65f7ed",
+      "text": "The target is Staggered"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8f284792edf8ef78a7bc077f56641635d50a4835d0d580448e26ca461e0d36eb",
+      "text": "Use Salut. In actual progression, an event ends the encounter and unlocks Salut's skill information."
+    },
+    "passives.2.response": {
+      "sourceHash": "d698c08e8b9e5344c9a46a5d04c15b5ee49816832c9eb7b6b614fb0e63117120",
+      "text": "Once the sequence begins, continue into the story. No preparation to survive a normal attack is needed."
+    },
+    "passives.3.name": {
+      "sourceHash": "20657f622cee3a92151a43bbf0aa638e719464e74bfb3c7fa174ba74d1a13388",
+      "text": "Focused Attack"
+    },
+    "passives.3.condition": {
+      "sourceHash": "fa17c4e006c670fd148f715fd2882c7ea0485413e2519152b49709509b1c4ea8",
+      "text": "Uses a skill against a slot successfully attacked last turn"
+    },
+    "passives.3.effect": {
+      "sourceHash": "c3b9eed9a03c208b6a65719b3d27b4b6838f28b41f82dc6064745ee21d0b7b84",
+      "text": "After 1 cumulative turn of successful attacks, Clash Power +1; after 2 turns, Base Power +1; after 3 turns, Base Power +1 and Coin Power +1. Resets if no attack was made last turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "cb15e7d51b969144cbcb2899c5405735057f9d8c41a5dcb530d97eb30f4f845a",
+      "text": "Repeated attacks against the same slot strengthen the enemy. Do not sum the stages into an assumed fixed bonus; check the actual prediction."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.4.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.4.response": {
+      "sourceHash": "3a17a878359a30fed643eb70b537e3e618fd15beca44b1b06af4c4054fa14593",
+      "text": "Do not assume Panic continues next turn. Reducing the enemy's SP fully is not a victory requirement here."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.condition": {
+      "sourceHash": "888f32abf77b9e1c2621631c281d83b13b10ead8fba0475253ba32d171a6cf43",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.5.effect": {
+      "sourceHash": "3cb65f7923403a7cb0838a42de334d94c9e1f3441dab45211cc397e144bafc55",
+      "text": "Panic Type stays unchanged; apply the effects intended for targets without SP instead."
+    },
+    "passives.5.response": {
+      "sourceHash": "4a4d7cc64251c324f859d7f91157ccee30bafe5f9532df43935eb5a5e477ddf4",
+      "text": "A scripted encounter with a fixed team; no special team to change Panic Type is needed."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "26ccc0077744938a676dfe16e28d52525bc61cf6a703761d681ba039a2030167",
+      "text": "Foolhardy Duel"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "d4cf4f8413e49a5787307beec0754698fd5a7a07eae696becbc177d0e18f6258",
+      "text": "Don Quixote gains this at the start. At Turn End, gain Clash Power Up and Bind next turn per 10% of total HP lost during the encounter (each max 5)."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "d9aa3a4a5a25b058d8b00cd3f79479622ff2e89df1d33f91f73b8c44997bb83c",
+      "text": "Taking damage strengthens clashes but lowers Speed. Check this as an effect based on cumulative HP lost during the encounter, not simply current HP percentage."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "0bf40990fd5ba7f2f7e4d1b0b2d49a29a913c439a4bbfc4f83b2f57a6970f3b4",
+      "text": "Declared Duel - Camille"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "7d53eea35d0ed0d3a5d892ab02ff2b6465d4298e2a1d22d02adc802bbf8bb985",
+      "text": "The inflicter gains +1 Clash Power against the marked target. On attack hit, gain 1 Haste next turn (up to 4 times per turn). Removed when inflicted on another target; replaced if another character inflicts Declared Duel."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "6df05e5c24b04a3ec1cb318ee357fc41566fc5664fa5a3ba8fa9993747acf22d",
+      "text": "Applied by Allez On Use. For this enemy-specific skill, Haste triggers on attack hit. Do not assume every clash grants Haste."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "8ac1ba3db9f88582b4956bc73b07f34e00b8a96b55e384bf5cf4ee400e401e3b",
+      "text": "HP floor and event ending"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "936a0f5f65d468b0a6da39cbe8cf4bdc7a3a4affbc1feb6141eb9746a963ed21",
+      "text": "Don Quixote's HP cannot fall below 10. Stagger or the passage of 4 turns advances to a special event."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "00e73791335de9fa902087c947995d7eaca294245ce8fa2d7361e89d53435ad7",
+      "text": "Do not treat Stagger as a normal failure. Depleting enemy HP or beating Salut is not required."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "4c70a403528d965361aae7fec52fde875c4b30d8759d49abc0bca940b88ae9ef",
+      "text": "Fixed team / fixed hand"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "7d5cefba4e0ab7725c73b4bbdce9004fe1d55bc93e3073505a6ddb3773faed8b",
+      "text": "LCB Sinner Don Quixote is adjusted to Lv.45 and Uptie IV, and her base E.G.O to Threadspin IV. Slots follow 1 → 3 → 4 → 4, with a fixed skill layout each turn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "3e6388ee233b8dcbe6897dce13fea3979bc51672105b45a968519585ad3488be",
+      "text": "This is special progression, separate from normal slot increases and skill draws. Use the provided hand without raising additional Identities."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "c55b9288752a1d08786f43b48f2009d6fbcfc9fc39b6540ce8a4d09e6261690b",
+      "text": "Duel Specialist"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "01031c999e344151e93fbec45431dd9380e6b043bfec04d702b106d3d34313f0",
+      "text": "The enemy heals a base 6 SP on Clash Win, increasing by 20% per clash from the 2nd clash onward. On Clash Lose, loses a base 2 SP, increasing by 10% per clash from the 2nd onward. Low Morale grants 2 Offense Level Up at Turn Start, 1 Defense Level Down on Clash Lose (max 3 per turn), and minimum Speed −1. Panic instead grants 4 Offense Level Up at Turn Start, 2 Defense Level Down on Clash Lose (max 6 per turn), and minimum Speed −1. The Low Morale threshold is unknown."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "eff23949b01815e950b0947b865fd8bb1d119dc6724f494b55691b6af889ea75",
+      "text": "Lower SP does not uniformly weaken the enemy. Panic resets SP to 0 at Turn End, so check next turn's state too."
+    },
+    "warnings.0": {
+      "sourceHash": "f6de75caab22b25192e00e8bcd241015939d8c16853191c88975c30d897926bf",
+      "text": "The sequence after Stagger advances the story. Do not restart because you mistake it for a normal defeat."
+    },
+    "warnings.1": {
+      "sourceHash": "d094005ca6de1db6544dd4d9558c0482190097e565353f193f7f4bf7ebd27394",
+      "text": "The 10 HP floor does not prevent Stagger. Taking no damage or avoiding Stagger is not required."
+    },
+    "warnings.2": {
+      "sourceHash": "ad528da44af0cd4f32f3b9d0456037295aad3ef000c266a074059374dac6b345",
+      "text": "Her base E.G.O is equipped, but cannot be used without obtainable Pride resources. Proceed with regular skills instead of waiting to use E.G.O."
+    },
+    "warnings.3": {
+      "sourceHash": "7c066ae94e5f187262a4ce5ed82a7cfed26da69365f5a8f07499a8d0418b07a5",
+      "text": "Only some enemy resistances are confirmed. Do not assign neutral values to unconfirmed affinities."
+    },
+    "warnings.4": {
+      "sourceHash": "b300f8b5bd8ed7cb746ced9a31d35e8487e26e0baccd34e96850eead118a0c13",
+      "text": "Salut's use conditions outside the event are not fully confirmed. Do not build a strategy around triggering it at a specific enemy HP percentage."
+    },
+    "preparation.0": {
+      "sourceHash": "94cf27dc8c62429e84dfb79cad1a77f297017f127d430d30b9092531348ac7f8",
+      "text": "Only one LCB Sinner Don Quixote and her base E.G.O are used. Adjusted to Lv.45, Uptie IV, and Threadspin IV; no other Identity or additional E.G.O is needed for this encounter."
+    },
+    "preparation.1": {
+      "sourceHash": "48de287d474da20babbc58891948701985214e5ebb0ea7d9387dd87b9edeb525",
+      "text": "This is not a normal boss kill. Assign the fixed hand and advance to the sequence after Stagger or 4 turns."
+    },
+    "roles.0.name": {
+      "sourceHash": "5deb844fa288c13af13388847160c9a9386aecdfe3ef5eaac16ca63799d6733d",
+      "text": "LCB Sinner Don Quixote"
+    },
+    "roles.0.reason": {
+      "sourceHash": "7f70f8d26eecd41ac48dfbe1bc38e6cd79a2d9bde21b458d1290c27ca138fd11",
+      "text": "The only deployment slot. Has Foolhardy Duel and an HP floor, and proceeds to the event with a fixed hand of regular skills."
+    }
+  },
+  "messages": {
+    "boss-copy:camille": "complete",
+    "{stage}の数値。出撃上限は1名{reserves}。": "Stats for {stage}. Deployment limit: 1 Sinner{reserves}.",
+    "【リンバス】7-06 西部センク3課 カミーユ（7-06）の攻略｜Limbus Assistant": "7-06 Cinq West Section 3 Camille (7-06) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)7-06「西部センク3課 カミーユ（7-06）」の攻略。囚人ドンキホーテ1名の固定編成で進めるイベント戦。混乱するか4ターン経過すると専用演出へ進む。HPは10未満にならず、通常の撃破戦として育成や…": "Cinq West Section 3 Camille (7-06) guide for Limbus Company 7-06. A scripted encounter with a fixed team of one LCB Sinner Don Quixote. Stagger or the passage of 4 turns triggers its special sequence. Her HP cannot fall below 10; there is no need to rebuild your team or raise other Identities for a normal boss kill.",
+    "7-06 西部センク3課 カミーユ（7-06）": "7-06 Cinq West Section 3 Camille (7-06)",
+    "7-06「On the Tremendous Duel the Cinq Brought Upon Our Fixer」": "7-06 · On the Tremendous Duel the Cinq Brought Upon Our Fixer",
+    "西部センク3課 カミーユの外見": "Cinq West Section 3 Camille appearance",
+    "西部センク3課 カミーユのスキル": "Cinq West Section 3 Camille skills",
+    "Cinq West Section 3 Camilleの外見": "Cinq West Section 3 Camille appearance",
+    "Cinq West Section 3 Camilleのスキル": "Cinq West Section 3 Camille skills"
+  }
+}

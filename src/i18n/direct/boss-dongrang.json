@@ -1,0 +1,1323 @@
+{
+  "kind": "boss-copy",
+  "id": "dongrang",
+  "source": "src/data/bosses/dongrang.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "虚栄の木",
+          "en": "Tree of Vanity",
+          "file": "Enemies.json",
+          "id": "8056"
+        },
+        {
+          "ja": "しこりの成った木",
+          "en": "Resentful Tree",
+          "file": "Enemies.json",
+          "id": "8057"
+        },
+        {
+          "ja": "欲望の木",
+          "en": "Tree of Desires",
+          "file": "Enemies.json",
+          "id": "8060"
+        },
+        {
+          "ja": "吸収する木",
+          "en": "Absorbing Tree",
+          "file": "Enemies.json",
+          "id": "8061"
+        },
+        {
+          "ja": "あなたもがらんどうですね",
+          "en": "You're Empty As Well",
+          "file": "Skills_Abnormality.json",
+          "id": "804901"
+        },
+        {
+          "ja": "剪枝",
+          "en": "Prune",
+          "file": "Skills_Abnormality.json",
+          "id": "804902"
+        },
+        {
+          "ja": "間引く",
+          "en": "Thinning",
+          "file": "Skills_Abnormality.json",
+          "id": "804904"
+        },
+        {
+          "ja": "破壊",
+          "en": "Destruction",
+          "file": "Skills_Abnormality.json",
+          "id": "804905"
+        },
+        {
+          "ja": "がらんどうになっちゃった",
+          "en": "It's All Empty",
+          "file": "Skills_Abnormality.json",
+          "id": "804908"
+        },
+        {
+          "ja": "もう遅いよ",
+          "en": "It's Too Late Now",
+          "file": "Skills_Abnormality.json",
+          "id": "804909"
+        },
+        {
+          "ja": "全部燃えちゃった",
+          "en": "It's All Burned Up",
+          "file": "Skills_Abnormality.json",
+          "id": "804910"
+        },
+        {
+          "ja": "耕作",
+          "en": "Cultivate",
+          "file": "Skills_Abnormality.json",
+          "id": "805001"
+        },
+        {
+          "ja": "播種",
+          "en": "Dissemination",
+          "file": "Skills_Abnormality.json",
+          "id": "805002"
+        },
+        {
+          "ja": "促進",
+          "en": "Facilitate",
+          "file": "Skills_Abnormality.json",
+          "id": "805003"
+        },
+        {
+          "ja": "過剰成長",
+          "en": "Overgrowth",
+          "file": "Skills_Abnormality.json",
+          "id": "805004"
+        },
+        {
+          "ja": "収穫の時間",
+          "en": "Time of Harvest",
+          "file": "Skills_Abnormality.json",
+          "id": "805005"
+        },
+        {
+          "ja": "養分になってください",
+          "en": "Please Be My Nutrient",
+          "file": "Skills_Abnormality.json",
+          "id": "805006"
+        },
+        {
+          "ja": "育ちゆく成果",
+          "en": "Growing Results",
+          "file": "Skills_Abnormality.json",
+          "id": "806001"
+        },
+        {
+          "ja": "期待",
+          "en": "Expectation",
+          "file": "Skills_Abnormality.json",
+          "id": "806002"
+        },
+        {
+          "ja": "自己救済",
+          "en": "Self Salvation",
+          "file": "Passives_Abnormality.json",
+          "id": "804904"
+        },
+        {
+          "ja": "自己破壊",
+          "en": "Self Destruction",
+          "file": "Passives_Abnormality.json",
+          "id": "804903"
+        },
+        {
+          "ja": "輝く虚栄",
+          "en": "Radiant Vanity",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangRadiantVanity"
+        },
+        {
+          "ja": "切なる成果",
+          "en": "Earnest Accomplishment",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangEarnestAchievement"
+        },
+        {
+          "ja": "空虚な栄誉",
+          "en": "Empty Honor",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangEmptyHonor"
+        },
+        {
+          "ja": "成った結実",
+          "en": "Borne Fruition",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangFruition"
+        },
+        {
+          "ja": "理想に向かい",
+          "en": "Toward the Ideal",
+          "file": "Passives_Abnormality.json",
+          "id": "805001"
+        },
+        {
+          "ja": "背を向けた対価",
+          "en": "Price of Neglect",
+          "file": "Passives_Abnormality.json",
+          "id": "805004"
+        },
+        {
+          "ja": "青臭い笑み",
+          "en": "Bitter Smile",
+          "file": "Passives_Abnormality.json",
+          "id": "805005"
+        },
+        {
+          "ja": "体力消耗",
+          "en": "Exhausting Endeavor",
+          "file": "Passives_Abnormality.json",
+          "id": "805007"
+        },
+        {
+          "ja": "輝く欲望",
+          "en": "Radiant Desire",
+          "file": "Bufs.json",
+          "id": "EgoAwakenDongrangRadiantDesire"
+        },
+        {
+          "ja": "がらんどうの印",
+          "en": "Empty Mark",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangEmptyMark"
+        },
+        {
+          "ja": "空虚さ",
+          "en": "Emptiness",
+          "file": "Bufs.json",
+          "id": "DistortedDongrangEmptiness"
+        },
+        {
+          "ja": "種",
+          "en": "Seeds",
+          "file": "Bufs.json",
+          "id": "EgoAwakenDongrangSeed"
+        },
+        {
+          "ja": "養分吸収",
+          "en": "Nutrient Drain",
+          "file": "Bufs.json",
+          "id": "EgoAwakenDongrangTree"
+        },
+        {
+          "ja": "過剰回復",
+          "en": "Overheal",
+          "file": "Bufs.json",
+          "id": "EgoAwakenDongrangOverHeal"
+        },
+        {
+          "ja": "全てを否定するドンラン",
+          "en": "Dongrang, Who Denies All",
+          "file": "Enemies.json",
+          "id": "8049"
+        },
+        {
+          "ja": "開花 E.G.O::舎音",
+          "en": "Effloresced E.G.O::Farmwatch",
+          "file": "Enemies.json",
+          "id": "8050"
+        },
+        {
+          "ja": "まだ足りない…",
+          "en": "Still Not Enough...",
+          "file": "Skills_Abnormality.json",
+          "id": "804906"
+        },
+        {
+          "ja": "満たさなきゃ…",
+          "en": "Must Fill...",
+          "file": "Skills_Abnormality.json",
+          "id": "804907"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "c5e02528bc158b44c17b45a5a5abda2334e61467aade979206a30efd3475cb68",
+      "text": "Dongrang / Effloresced E.G.O::Farmwatch"
+    },
+    "shortName": {
+      "sourceHash": "9cf15ea43f95d19612a2836cd6f6eddd381be49bcc842b764f3d0fc2eaa8f33a",
+      "text": "Dongrang"
+    },
+    "stageName": {
+      "sourceHash": "400b545fce7d73778b86a1191b945635dbd252d550b660313f9ed801621e29e2",
+      "text": "The League of Nine in Memory: Final 2 Battles"
+    },
+    "lead": {
+      "sourceHash": "e6fa26106783a5da21f5e9f166d50a1b9dcd005d69510a2fb127e5e254a24fde",
+      "text": "Handle the trees differently in each battle. Against Dongrang, Who Denies All, reduce Trees of Vanity to 1 HP and let him defeat them. Against Farmwatch, defeat Trees of Desires to reduce Protection and Seeds."
+    },
+    "listLead": {
+      "sourceHash": "e6bbb031a5e5329299a542ce779ace37cea7ed33a3d49be173f2d3449e9aff75",
+      "text": "Handle trees differently in each battle. In the first, reduce Trees of Vanity to 1 HP and let the enemy defeat them. In the second, defeat Trees of Desires to reduce Protection and Seeds."
+    },
+    "statNote": {
+      "sourceHash": "8fd60d5b535bbaba6d22e17b48dffacc9a65fd241c45a760610d31d9727b476d",
+      "text": "This page covers 2 separate fights at the end of the Canto IV dungeon. The first has 3 forms; the second is Effloresced E.G.O::Farmwatch. These are separate from Mirror Dungeon versions. Overall and Part HP are listed separately where they differ."
+    },
+    "skillNote": {
+      "sourceHash": "89c43eae852344609939be1cbdf1a67afaf2a749401bf6ff588e5fbc74b81da4",
+      "text": "Dongrang, Who Denies All has 3 forms; Farmwatch changes skills according to HP. Absorbing Trees do not act. Source descriptions differ on details such as tree respawn counts, so check actual enemy placement and statuses too."
+    },
+    "priorities.0": {
+      "sourceHash": "d0cca5a7da1dd20cbdc4abb3569c6c6c96c5f9d2b76033965e7d0af1ab3c0b0e",
+      "text": "In the first fight, reduce Trees of Vanity to 1 HP with your Sinners, then let Dongrang defeat them. Aim to Stagger him through Emptiness from all 4 trees."
+    },
+    "priorities.1": {
+      "sourceHash": "8278eaf19736691c61a3e854786a252f5ffad74dc4e9308fcb6dae29bcb61bc1",
+      "text": "Defeat Farmwatch's Trees of Desires early. Surviving trees strengthen his Protection and damage, while Seeds can reduce your available actions."
+    },
+    "priorities.2": {
+      "sourceHash": "58ec0fa6ae54a4c5c356c46824e867391cc0dafd9655fcc6339bfec284f9c404",
+      "text": "Save E.G.O that can beat area attacks rolling up to 23 and 27. Allocate damage around the HP boundaries where events halt further HP loss."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "83afc7e86648d6b6ade2fc0c5fec90dbe29add4eed29d07b0b5c472ede8d785c",
+      "text": "You cannot finish Trees of Vanity at 1 HP"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "2026647ed24bb4ad300646b4390a590f4e8242e7a89fb7075cf3b27c9193b287",
+      "text": "This is intended in the first fight. After your Sinners reduce a tree to 1 HP, let Dongrang's attack hit it to cause self-damage and debuffs instead of healing him."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "abcdeef0d605e383dbaa35431bf0dead852dfad28e02ec1e3387b11b2fd0fb0c",
+      "text": "Leaving trees alive makes Dongrang harder to damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "b549a25b60e9d90e5a4e23645d5ad2d986abb86cb2d6a09be59e6e030c14e557",
+      "text": "Living trees grant Protection and other buffs. Against Farmwatch, defeat the trees. In the earlier fight, weaken Trees of Vanity and let Dongrang finish them."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "3c2c7c05992cfa643087b4a3550b7d83dfd23150371099e7c5c85672025bb9a1",
+      "text": "A Sinner is trapped in a tree and cannot act"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "30b3819c6f5470751a6bc9b0bbd6caffe228d3e9135dbd988b852f190e12d281",
+      "text": "Farmwatch's Seeds have reached 5. A Sinner who is not Staggered enters Nutrient Absorption for 2 turns. Prevent repeated Dissemination, Facilitate, and Overgrowth hits on allies carrying Seeds."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "b7739c7afd828685159442e0584c1e4bcf4d24cb6769a19249dc0595659ef455",
+      "text": "HP stops decreasing partway through the fight"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "ae99e59eb00b25204060be3478877be3234761b3ec82517c167975f9bd2c0356",
+      "text": "The first fight has form-transition HP limits; Farmwatch has events at 85% and 50% HP. Save some damage for the next stage's trees and major skills instead of spending everything that turn."
+    },
+    "units.0.name": {
+      "sourceHash": "2bdc250a2b3bc5bfe25819247894c3054573478b8a09cc4ff74c879044a8c5f0",
+      "text": "Dongrang, Who Denies All (Form 1)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "2a729680d388f5559c8abd33c0f8f8c93c89dad972f229774b1cc8dfe66490ce",
+      "text": "Overall 3105 / Body 981 (restored with each form)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "e631c0518c49aa2a6754f55cea8ee0ebefde5372eb80b8c6485cd75e2b5354f5",
+      "text": "Form transition at 0 Body HP / also Staggers at 4 Emptiness"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "364e1cf71687843d1a35e742ce67179316285ee5fc269a8301bf735a578f3cd0",
+      "text": "At Turn End with 0 Body HP, his appearance and skills change, Part HP recovers, and Stagger is removed. Overall HP cannot fall below 931 until the second form ends."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1a297e12fdcb6dfeec40fafccb3d6dee655297f62f8bf45da58230f8a7c0b4a9",
+      "text": "The first form Staggers on turn 4 of its action cycle."
+    },
+    "units.1.name": {
+      "sourceHash": "7e0acca1ec700cb8bd655f508be4c8ae6d9c0b1a00d04ed3e820dfe35de97594",
+      "text": "Dongrang, Who Denies All (Form 2)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "2a729680d388f5559c8abd33c0f8f8c93c89dad972f229774b1cc8dfe66490ce",
+      "text": "Overall 3105 / Body 981 (restored with each form)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "e631c0518c49aa2a6754f55cea8ee0ebefde5372eb80b8c6485cd75e2b5354f5",
+      "text": "Form transition at 0 Body HP / also Staggers at 4 Emptiness"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "364e1cf71687843d1a35e742ce67179316285ee5fc269a8301bf735a578f3cd0",
+      "text": "At Turn End with 0 Body HP, his appearance and skills change, Part HP recovers, and Stagger is removed. Overall HP cannot fall below 931 until the second form ends."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "29a52159b72c23857d4f7b8b2d2c2205681753379df386a2aa1e21b98bbaa649",
+      "text": "4 Trees of Vanity appear. Sinners cannot defeat them; their HP stops at 1. Weaken them first, then let enemy attacks finish them."
+    },
+    "units.2.name": {
+      "sourceHash": "536d1b7a263eadf5c1c054e4368ce9fad3d44b59fd052613c6f11cdd7a607206",
+      "text": "Dongrang, Who Denies All (Form 3)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "2a729680d388f5559c8abd33c0f8f8c93c89dad972f229774b1cc8dfe66490ce",
+      "text": "Overall 3105 / Body 981 (restored with each form)"
+    },
+    "units.2.stagger": {
+      "sourceHash": "e631c0518c49aa2a6754f55cea8ee0ebefde5372eb80b8c6485cd75e2b5354f5",
+      "text": "Form transition at 0 Body HP / also Staggers at 4 Emptiness"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "364e1cf71687843d1a35e742ce67179316285ee5fc269a8301bf735a578f3cd0",
+      "text": "At Turn End with 0 Body HP, his appearance and skills change, Part HP recovers, and Stagger is removed. Overall HP cannot fall below 931 until the second form ends."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "4c4579bfdc49f63932817728939805699e05c4d0fb8753ec51ee28862873edc7",
+      "text": "Also attacks allies and loses 2% of Max HP each time he uses a skill. Prepare for the 7-Attack-Weight major skill."
+    },
+    "units.3.name": {
+      "sourceHash": "d6110fbe0e22ed1ab69ce4b45a55d93731ffe1ca501f4719a33034469dd02d12",
+      "text": "Tree of Vanity"
+    },
+    "units.3.part": {
+      "sourceHash": "29ff92e5ccbec81432dfa915ecbabf0611a957abcc8b99539ba7a0161c598fe3",
+      "text": "Fruit of Vanity"
+    },
+    "units.3.hp": {
+      "sourceHash": "3e5b74be02ba1ef4cf09937e8f0dd97871f3a16736e973c6d6c214ea0b9916e8",
+      "text": "95 (Sinner attacks can only reduce it to 1)"
+    },
+    "units.3.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "09e69de2c7f4fb03d4a09cc07ab7fd97c6b97ac9b85034d1231805bf8ab6ef84",
+      "text": "4 appear in the second form. They have Earnest Accomplishment and Radiant Vanity, and only Dongrang can defeat them."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "036c29c80722a5fcfa7200dec29ff7fd4ea9363325d6596a6d433ddf76751d2f",
+      "text": "Reducing one to 1 HP with a Sinner first grants Empty Honor. When Dongrang defeats it, the result changes from healing and buffs to self-damage and debuffs."
+    },
+    "units.4.name": {
+      "sourceHash": "0429660e6b97a17660809fc87027e69bb5bf14e5d673dcba5d619c0dc2228f6f",
+      "text": "Resentful Tree"
+    },
+    "units.4.part": {
+      "sourceHash": "b930d4851419c9c01660ebf2de31489417a181404c9d0a180adfb4f400bb2915",
+      "text": "Resentment"
+    },
+    "units.4.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "a81d655aef1d997ffa77e768ba570328b4b33b0d227e97ca3f1abaf0f12a6b6e",
+      "text": "Appears in the third form. Sinners can defeat this tree, and the Sinner who does gains healing and buffs."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "9167c90a876ec91836a1c11e38920515c4cbd864a1097bc72dbd5a95420756bf",
+      "text": "Unlike earlier Trees of Vanity, it need not be left at 1 HP. Defeat it before Dongrang takes it."
+    },
+    "units.5.name": {
+      "sourceHash": "460eb90bea1a5c0f18baefbce246f87ea43d7010dd9c53b6ea9fcbacd8b54f76",
+      "text": "Effloresced E.G.O::Farmwatch"
+    },
+    "units.5.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.5.hp": {
+      "sourceHash": "32152e6fbf6c86fe6f232ae908e7a2231754b447c7be19e4832763422dfbc700",
+      "text": "Overall 2094 / Body 2052"
+    },
+    "units.5.stagger": {
+      "sourceHash": "1f95655907c6d7ae6bdc14072b90fad7ddd878a0e7e23b0b224af08664769e9e",
+      "text": "The turn after using Please Be My Nutrient 3 times"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "a154a373596b4f65d160279755479b12c7c4440d41707f87327b79f5ab9f27c2",
+      "text": "At 85% and 50% HP (1780 and 1047), overall HP stops decreasing for the turn, triggering events and action changes."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "b97100ef82e2625ba7fb653753fdc5a1fc02409fa93ee34ed2193e142047d6fb",
+      "text": "He has SP, but Heads/Tails odds remain 50% each regardless of it. Lowering SP does not make him consistently roll Tails."
+    },
+    "units.5.notes.2": {
+      "sourceHash": "5704845cf3020dc30c05625cc4ae3abec3ccaabda8ddc1869277bdc3ad7c35cd",
+      "text": "Overall and Body HP are listed separately as given in the source. Avoid wasting major attacks when an event has halted HP loss."
+    },
+    "units.6.name": {
+      "sourceHash": "7a64d963fb452838d7a78f7eadf3ac0b88e5aff94553cc9f283d5f6539c8a673",
+      "text": "Tree of Desires"
+    },
+    "units.6.part": {
+      "sourceHash": "9213ab05890bafa22324bd6267fe40254230768128e2ecc24db48198379e1f16",
+      "text": "Tree"
+    },
+    "units.6.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.6.notes.0": {
+      "sourceHash": "f98da47dbe8b8a4ea6b900a188c65998f180d12e0d1d4de2b4f81136f99044a9",
+      "text": "Starts with 4. While alive, they grant Dongrang Damage Up and Protection, and also inflict Seeds themselves."
+    },
+    "units.6.notes.1": {
+      "sourceHash": "68a466b59d0b021264e314151f55d4ff074568707bc34dcfaefc150399c11d53",
+      "text": "More appear at HP boundaries. The passive lists 2 each time, while the strategy description lists 3 on the first occasion and 2 on the second. Check the actual count before assigning attacks."
+    },
+    "units.7.name": {
+      "sourceHash": "9b1567544f3129180b02a7ce4ab37e1eadbe31475a0ba339ebdfd0f8035a674b",
+      "text": "Absorbing Tree"
+    },
+    "units.7.part": {
+      "sourceHash": "9213ab05890bafa22324bd6267fe40254230768128e2ecc24db48198379e1f16",
+      "text": "Tree"
+    },
+    "units.7.speed": {
+      "sourceHash": "9225cba8d51a34e93c21ad1de039ea10188ddf33fcc4dd52967a5c77a67ea4c0",
+      "text": "1–3 (does not act)"
+    },
+    "units.7.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.7.notes.0": {
+      "sourceHash": "907c4354d41c399d1a54aad442226fcd0945378cd2d6213c8d524ba7065cb176",
+      "text": "Appears when 5 Seeds trap a Sinner who is not Staggered. The Sinner cannot act for 2 turns and provides nutrients to Dongrang."
+    },
+    "units.7.notes.1": {
+      "sourceHash": "4280006ec2edcdbe951c63b50659b1de0bd43ec91cf11e058df0134c93bfb37a",
+      "text": "A maximum of 6 combined with Trees of Desires. Check the trapped Sinner's status for their return timing; do not assume defeating the tree immediately frees them."
+    },
+    "phases.0.timing": {
+      "sourceHash": "803ece1cd719c45be04ebfbb6b9128c5f11db9c1753fb91347d81820786f89e3",
+      "text": "Before the 2 fights"
+    },
+    "phases.0.title": {
+      "sourceHash": "b5b46c9b087663b8f664b056250b83b95c2aa77e7bc74be62f7c734c1a61a15d",
+      "text": "Prepare 7 main units and resources to stop area attacks"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "ffdc78942232124e3ba96b0b14b315d8132e355ad90c9c0b64db170bd712603a",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Prepare HP, SP, and E.G.O resources within the dungeon. Pierce works well against both bosses."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "64c79518120ec39c655b781abfd24adad8734197f7e638f679c6e0e3d7d182e8",
+      "text": "Check E.G.O that can beat maximum rolls of 23 and 27. Consider SP and Clash predictions rather than relying only on rolling Heads."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "59ccecace2af945c7ed29b20327bbf2ef29816d126f6c2887345f3a8de647055",
+      "text": "This page covers 2 separate battles. Farmwatch follows the earlier Dongrang fight, so check your next battle's team and healing after defeating him."
+    },
+    "phases.1.timing": {
+      "sourceHash": "edc0a7f97d2c9935fc74283036c5b1c5386c7204467853c6fec82bc3e38e38a1",
+      "text": "First battle / Form 1"
+    },
+    "phases.1.title": {
+      "sourceHash": "7e9cbd520e5be3ced562b23757eec3cb4e939287d5a729a3198eeee361377d23",
+      "text": "Protect marked targets and attack during the Stagger cycle"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "73f5bda2c61361c4b1cea4626d5c7816fa4eb45628f89161dc5d83d04d74db98",
+      "text": "You're Empty As Well applies a mark for next turn [On Use]. Marked Sinners are targeted more often, receive Bind, and take extra damage, so redirect Clashes with faster allies."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "de6cdaa93dfe92328240fe285010991a9be665dbb3e740af9a31056a63375eaa",
+      "text": "Thinning heals and buffs Dongrang on hit. Winning the Clash gives him Fragile next turn, so assign a main unit who can win."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "03dcea09d32f58299756e7702e80b6cab656961b40c960de46942d6545bc6244",
+      "text": "Attack during turn 4's Stagger. At Turn End with 0 Body HP, the form changes, Part HP recovers, and Stagger is removed. Do not assume Stagger carries into the next form."
+    },
+    "phases.2.timing": {
+      "sourceHash": "5b96ceadec45a0a7bc7982e6ed3a5826221bdf1a77755df74afea0679a8db56c",
+      "text": "First battle / Form 2"
+    },
+    "phases.2.title": {
+      "sourceHash": "f2b9b003641d1e8120a737ce2c83d6386160d9540cbee0d74a6f01f3127bbc51",
+      "text": "Reduce Trees of Vanity to 1 HP before letting him defeat them"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "72c1f5aa4afb59db767223e5f26483ae4227672dc0ac7b34a91870542e6b267c",
+      "text": "When 4 Trees of Vanity appear, check Dongrang's targeting lines to the trees. Arrange for Sinner attacks to reduce those trees to 1 HP before his attacks resolve."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e6a5b2129f071b6a004ba2357fcb0852ed4f4e4cedb0ae9ce4b029f0c4742b3f",
+      "text": "Sinners cannot defeat these trees. Reaching 1 HP grants Empty Honor; afterward, let Dongrang's attack hit the tree. If he defeats it before that setup, he gains healing and buffs."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "ccc7fcdba2d35a7d3b601e7c3d7b1a474416abf94d0b4de37abb22ea17cc774e",
+      "text": "Defeating prepared trees makes him lose HP, gain Emptiness, and suffer debuffs. At 4 Emptiness, you can trigger Stagger."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "67dd83df031f832da4deaedc1b9fdf82bc716c63f3f02a2059d79159697776d5",
+      "text": "When the trees are gone, he switches to It's All Empty. Win these easier Clashes while reducing his HP and advancing to the next form."
+    },
+    "phases.3.timing": {
+      "sourceHash": "e968af9524b3369a5767af84b7e4da4eed746aea8c610ffd7a0dd4b49ec9a0b7",
+      "text": "First battle / Form 3"
+    },
+    "phases.3.title": {
+      "sourceHash": "1916f9a5128b4a1698a49bef8b882fc47cb9f5ad10fe00aab1eac5116170188f",
+      "text": "Have Sinners defeat Resentful Trees first"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "7b80e86f2b0808121fe242d2e05c9532e5d08cc715d56a87c2e1fb597c544bfb",
+      "text": "Resentful Trees have 35 HP and can be defeated by Sinners. The killer recovers 5% of Max HP and gains Haste and Attack Power Up next turn, so assign a Sinner who needs healing or those benefits."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "31805248b5d83242256bf1584883020fc1a82e2686aceac6023c816bb47f7d1a",
+      "text": "It's All Burned Up rolls up to 23 with 7 Attack Weight. Answer it with a strong E.G.O, and also prevent It's Too Late Now's 5 Fragile."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "c6cc1c353c15e94ab94ab43b861aa5aaf50d9a3ea965f1be877ecb7fed43e65c",
+      "text": "The third form damages itself with each skill use, but leaving it alone is not a safe way to win. Stop its attacks through Clashes while finishing it."
+    },
+    "phases.4.timing": {
+      "sourceHash": "7bb7dda7d640b5bd98eeb8e839569675f19160a3664969ac88a622e17112e14a",
+      "text": "Second battle / Farmwatch at 100–85% HP"
+    },
+    "phases.4.title": {
+      "sourceHash": "a84fe251d59ab9b7171c9d01e5f8baf3b53c6de04608b64619db7f81bdc88672",
+      "text": "Reduce Trees of Desires and prevent Seeds buildup"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "7212ebd33696f6f0032b98d783cf72d421227125bb0ab3e40a916491103afa13",
+      "text": "The fight starts with Dongrang and 4 Trees of Desires. Each tree grants Protection and Damage Up, so remove them early using area E.G.O or spare actions."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "9312ed6df664b543cfe69172b495462e08ee09d2b954fdccfd0539355a3704e8",
+      "text": "Clash with Dissemination, Facilitate, and the trees' Growing Results to limit Seeds. Below 5, Seeds decrease by 1 at Turn End, so preventing repeated hits on vulnerable Sinners matters."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "76030ca4fd77f8a702ef4c4f56f736e5133231009c0ab5f0d17810b01d4ec398",
+      "text": "At 5 Seeds, an Absorbing Tree traps the Sinner for 2 turns and heals Dongrang. Avoid taking Overgrowth intentionally for its healing."
+    },
+    "phases.5.timing": {
+      "sourceHash": "647fa5d0e20e02272b4bfee7b43b707add8b5ee3d63fcd0978deb39e22c942a7",
+      "text": "Farmwatch at 85–50% HP"
+    },
+    "phases.5.title": {
+      "sourceHash": "08e1c818c2a0390245ab0bcda3a92bcc940a73676cf462048954ee64d6a5ed58",
+      "text": "Check trees after the event and stop the harvest"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "2d9bd4372e0b649b7e0f4e4979d97ed3c9c0bc9ba73687618132917a5d4a60af",
+      "text": "At about 85% HP (1780), HP loss stops and an event occurs. Check the added trees' number and placement, then reduce his Protection."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "b43f0ce5a096c39b9b5fd56525710d932a49b5c35ce9a6e7f91ac7db9becba51",
+      "text": "Time of Harvest rolls up to 19. Use a winning main unit or E.G.O rather than forcing a weak regular skill into the Clash."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "75e93fc7c302eb39c9ca44b19cb0b0bfb93d915c4658d4a0e60c7006cda4d507",
+      "text": "Another event and action change occur at about 50% HP (1047). Avoid spending too many major attacks on Dongrang alone during a turn when HP cannot cross the boundary."
+    },
+    "phases.6.timing": {
+      "sourceHash": "8e230daa47bf8737c8255f5b353535854a0ac0f0f425d8f72990a34b2f60531c",
+      "text": "Farmwatch at 50% HP or less"
+    },
+    "phases.6.title": {
+      "sourceHash": "4615dbacd515df0cde701e15978575b4dabbbd022bd994406e0786d170605d89",
+      "text": "Prepare for major skills and divide damage between trees and Dongrang"
+    },
+    "phases.6.steps.0": {
+      "sourceHash": "af5d921a5e1ebed60870457b5be4a9fe25ebb608e19b73ea962d9c1575c980d9",
+      "text": "Please Be My Nutrient rolls up to 27 with 7 Attack Weight. Check the prediction and stop it with powerful E.G.O. Tree healing and creation apply [On Use], even if you win the Clash."
+    },
+    "phases.6.steps.1": {
+      "sourceHash": "ee4ce88483e3ff75ff0f46cbb1fead6f06d1d9fe555a365ea279a82a50d07a77",
+      "text": "After using the major skill 3 times, he Staggers next turn. Use this opening if it occurs, but there is no need to deliberately prolong a dangerous fight."
+    },
+    "phases.6.steps.2": {
+      "sourceHash": "f4bb5b84c5fd032624630a826f9a0f45e3e0e2e1d5f397471317d642edc715f1",
+      "text": "Trees of Desires and Absorbing Trees sustain buffs and healing while alive. Prevent Seeds, reduce the trees, then focus Pierce, Gluttony, Pride, or other effective damage on Dongrang once his Protection falls."
+    },
+    "skills.0.name": {
+      "sourceHash": "05157dc7d2ee32f0b4659591a077be7a301af45f9144edef3f7bf76985f61332",
+      "text": "You're Empty As Well"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "7c14684d96553990130624c04666c4433dbc9289f8a6512e655734a924700925",
+      "text": "[On Use] Inflict Empty Mark next turn."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "735d8c46ac67ca4d6f3480a7568822ada27d4043f40046960cf19a9273c5934c",
+      "text": "Ⅰ[On Hit] Inflict 10 Rupture."
+    },
+    "skills.0.response": {
+      "sourceHash": "900c73d8bdf7169990277c55f5774b0838d728034b6219dc00f878f0b5e4bcd0",
+      "text": "Applies next turn's mark [On Use]. Winning the Clash does not remove it, so prepare to protect the marked Sinner next turn."
+    },
+    "skills.1.name": {
+      "sourceHash": "38c0085ccac6f88d3d8149a3a1c728223ce611dd8fc0a64a2b408f57b5e50af8",
+      "text": "Prune"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "d19cabec751d8fbd03a1f09f5ffb98e37d7565325dbe279e978b88114a5fb03c",
+      "text": "Ⅰ[On Hit] Inflict 5 Rupture."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "d5b566059dda079daea7a3945c13632b309ccb859032afeda63c7bceae9e2b32",
+      "text": "Ⅱ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.1.response": {
+      "sourceHash": "6e13f498776b094a093142199c19dd819865e0edb7104cc7390e8ad34d777fc4",
+      "text": "Increases both Rupture Potency and Count. Prevent repeated hits on marked main units by winning its Clash."
+    },
+    "skills.2.name": {
+      "sourceHash": "44f49f57b9d5c73229e168df17ec70504ca43bf2d13462216b533d1a26cb675d",
+      "text": "Thinning"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "7114b8da638aafe75a0f657a5856ead10f3fffa3284f287dd20fded17d5b6c2a",
+      "text": "Has a damage modifier against targets with Empty Mark. The source omits the increase/decrease sign for 50%, so check the in-battle effect description."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "307cacb310174ac76eebf19493125b5924b9a2ec27c8edd1cb2f75cfe37156d7",
+      "text": "[Clash Lose] Gain 1 Fragile next turn."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "12800d82652dd8de9ae97db819dd1d9669c4e7827a298d4e0be45410754d0861",
+      "text": "Ⅰ[On Hit] Heal HP equal to damage dealt."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "7750f28e55ce43ae0dd0a6a53c44a9432586b3486607113c25fea3b7e80772e3",
+      "text": "If the target has Empty Mark, gain 1 Attack Power Up next turn."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "f7f97c7438c6462630e0c827693b7800a4ca5287416701e80aea856a974f8524",
+      "text": "Ⅱ[On Hit] Heal HP equal to damage dealt."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "7750f28e55ce43ae0dd0a6a53c44a9432586b3486607113c25fea3b7e80772e3",
+      "text": "If the target has Empty Mark, gain 1 Attack Power Up next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "9de3d2299de16e32a914d32c64cec9a48e5fb8d6f246f0ee4c2eb464183a5a80",
+      "text": "Hits heal the enemy and grant buffs against marked targets. Winning the Clash gives him Fragile next turn, also creating an opening to attack."
+    },
+    "skills.3.name": {
+      "sourceHash": "60dbc6b080227f76f9374d323a7de812a152e9cea1895ec831db8fe1ce6af184",
+      "text": "Destruction"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "154257053a16ea25f0c2107b58cba897a814478ee92b68c1a8023f7819cd8ad4",
+      "text": "Ⅰ[On Hit] Inflict 10 Bleed."
+    },
+    "skills.3.response": {
+      "sourceHash": "8ee8ba7eb7dc0cc245bf0c23a6b89a100d8b24ad3eb31e0e2411a0c20a768610",
+      "text": "An area attack with 3 Attack Weight. Win using a strong skill or E.G.O to prevent 10 Bleed from hitting multiple Sinners."
+    },
+    "skills.4.name": {
+      "sourceHash": "f4b1cb5c4e515363eb125ba39c9d3dd9800655ba4b83696c9a5b9f284686e982",
+      "text": "Still Not Enough..."
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "7bd9b9a1e1661c1e35b9eeb53a7f95fb702b2d956cb3ca9e3fa02d18f86976c4",
+      "text": "Attack a random ally."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "5897660f4e8786367303469df89bc0afbff953120fcc0c70d18667e24677bef3",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed. Heal HP equal to 25% of damage dealt."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "23b30cb631f983e4ba4a79593a35b3269795579f643d5b6b2ddcd56d8e01dee5",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed. Heal HP equal to 25% of damage dealt."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "7047efbc032bf4f741f5213b0421063d4ffa43bfd0bb27dfdc979de4333380af",
+      "text": "Ⅲ[On Hit] Absorb a random positive effect from the target and gain it next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "5d1743b8344578a6ffd78e6849402436a43d54b375d24ac272566fec057e3722",
+      "text": "An action that attacks trees. First use Sinners to reduce the targeted Tree of Vanity to 1 HP and grant Empty Honor, then let Dongrang finish it. Check action order and targeting lines."
+    },
+    "skills.5.name": {
+      "sourceHash": "1a6c8096887ddcc187f6a94a23383bbad300c91c0b0e3363e3748bb54a3c44ef",
+      "text": "Must Fill..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "e9891a99829bfed6e9497d1e8eef8450f455471a1c4e93ca265dd47b3703ab82",
+      "text": "Attack a random target."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "c5f3614592456ee5ac3f67e70324cd47c5b7e37843a828257d10164ff02a3bb6",
+      "text": "Ⅰ[On Hit] Absorb a random positive effect from the target and gain it next turn."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "36746c271df04e1c5b0fb80cff40d9ae316801bbf6a7e04c750701d8ec4a4bd7",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 5."
+    },
+    "skills.5.response": {
+      "sourceHash": "98a0851213b50d6962ed36f59e0adb95b6fdd8e7ae8210e005d5219483592d70",
+      "text": "Attacks a random target, so check whether it is aimed at a Sinner or tree. Reduce a Tree of Vanity to 1 HP first; have Sinners defeat a Resentful Tree first instead."
+    },
+    "skills.6.name": {
+      "sourceHash": "1a6c8096887ddcc187f6a94a23383bbad300c91c0b0e3363e3748bb54a3c44ef",
+      "text": "Must Fill..."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "e9891a99829bfed6e9497d1e8eef8450f455471a1c4e93ca265dd47b3703ab82",
+      "text": "Attack a random target."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "c5f3614592456ee5ac3f67e70324cd47c5b7e37843a828257d10164ff02a3bb6",
+      "text": "Ⅰ[On Hit] Absorb a random positive effect from the target and gain it next turn."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "36746c271df04e1c5b0fb80cff40d9ae316801bbf6a7e04c750701d8ec4a4bd7",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 5."
+    },
+    "skills.6.response": {
+      "sourceHash": "98a0851213b50d6962ed36f59e0adb95b6fdd8e7ae8210e005d5219483592d70",
+      "text": "Attacks a random target, so check whether it is aimed at a Sinner or tree. Reduce a Tree of Vanity to 1 HP first; have Sinners defeat a Resentful Tree first instead."
+    },
+    "skills.7.name": {
+      "sourceHash": "3595a781cbc27877f4098097276f19e533b957bf07c24364dac6b112dd5f4a54",
+      "text": "It's All Empty"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "6a445637c80f7874304601a4e279e4ed4c766781fd416ae721798ad34c1098dd",
+      "text": "[Clash Lose] Gain 10 Rupture."
+    },
+    "skills.7.response": {
+      "sourceHash": "4f0b535c5ae8a050f18682f74f90fee8338ec86299c72ea7b50019798d4c67d5",
+      "text": "A weak attack used after Trees of Vanity are gone. Winning also applies Rupture to the enemy, so use this time to reduce his HP."
+    },
+    "skills.8.name": {
+      "sourceHash": "93194bc1adb43bbeb6a3f5f18d40ca9e37b01781db7a31a4f1e00e009cb100d0",
+      "text": "It's Too Late Now"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "4355f8ac58c4089d5b03bba74b680abb10d781752b80437f9358bdacb240e8bf",
+      "text": "Ⅰ[On Hit] Inflict 5 Fragile."
+    },
+    "skills.8.response": {
+      "sourceHash": "68165d6ac6d36bb54e5be8df890ce8e1501b35a4647b462d6b29144b583c973c",
+      "text": "A hit applying 5 Fragile makes the following area attack dangerous. Stop this early in the action order while saving an answer to the area attack."
+    },
+    "skills.9.name": {
+      "sourceHash": "e0686d35c77aab337f3cc3f0a4086d79656974c7fe4416ebb8a76b132d0b6481",
+      "text": "It's All Burned Up"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "0a00781732a5d4da5f438fcb1a56d0d0ec402229ae865ba6068b4d7a7349d634",
+      "text": "Ⅰ[On Hit] Inflict 2 Fragile, 5 Rupture, and 5 Bleed. Heal HP equal to 10% of damage dealt."
+    },
+    "skills.9.response": {
+      "sourceHash": "b2c487f3a8a663a2636b98279253fa095a8556cc7f4d58e36e1e68931cb2bb3b",
+      "text": "An area attack with 7 Attack Weight and a maximum roll of 23. Prioritize answering it with powerful E.G.O. Also use the buffs Sinners gain from defeating Resentful Trees."
+    },
+    "skills.10.name": {
+      "sourceHash": "1f8ba8dd8aa2d9b2953ec75689d44025dce97176aa3c19c87726d8f5c28d9bb3",
+      "text": "Cultivate"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "cd15bbe99755169fe78b45e27ed57999d101500d9df55525b253ce54eb781a0f",
+      "text": "Ⅰ[Heads Hit] Inflict 1 Bind and 1 Paralyze next turn."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "6f530f6ba7ad308b446b3fa6d71151feb02a8ad6593045b6f6ca49e9c9454f7b",
+      "text": "Ⅱ[Heads Hit] Inflict 1 Bind and 1 Paralyze next turn."
+    },
+    "skills.10.response": {
+      "sourceHash": "058393a1a40526bdd602649393cc5e237955e05aaf3f506c6fb4337e926135b7",
+      "text": "Heads Hits stack Bind and Paralyze. Stop both Coins to protect next turn's Clash specialists."
+    },
+    "skills.11.name": {
+      "sourceHash": "c5300e6484be1932c4106d3d4e22ba32dfddf7b3d488b0fe3d13d351ac10aa1f",
+      "text": "Dissemination"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "fa8901c4beca6fe8a57ec7330b0cbd1c650b03a20a8fe8e688e416cc0f61a5f0",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "9edaacf94547d3d51122490c9628ae5bfabd641abf24721e4bd832b8242b9f8f",
+      "text": "Ⅲ[On Hit] Inflict 3 Seeds next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "e4e2fc863ebd25d3e3818ee1e8fdc5e89cd47770200cbf3910eede79f572f57c",
+      "text": "The final Coin inflicts 3 Seeds next turn. Keep it away from Sinners already carrying Seeds to avoid losing actions to capture."
+    },
+    "skills.12.name": {
+      "sourceHash": "509ffe8b762280c0b316e00b3f05eb1da59e42befb090d693826acfd40aef815",
+      "text": "Facilitate"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "787e6486c520ae886cd81c69c86393e728f45a13fa2563eff7adf05ddce1c75f",
+      "text": "Ⅰ[On Hit] Inflict 1 Seeds. If the target has Seeds, inflict 1 additional Seeds."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "046280a3429c134e94418bce7b3ec425526b8e5f36f071d282fb042525be6710",
+      "text": "Ⅱ[On Hit] Inflict 1 Seeds. If the target has Seeds, inflict 1 additional Seeds."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "2ddff55b71a857edf55a99dd59e36eaf97b7fd0ab380cd26887d8d449f3e2803",
+      "text": "Ⅲ[On Hit] Inflict 1 Seeds. If the target has Seeds, inflict 1 additional Seeds. (Source footnote 2.)"
+    },
+    "skills.12.response": {
+      "sourceHash": "608520710c96a458a9d42dcb155753a25b36ebeb6a9a27a1fa407b175b4c78fd",
+      "text": "Applies additional Seeds to targets already carrying them. Redirect away from allies approaching capture at 5 Seeds, and stop it with a Clash."
+    },
+    "skills.13.name": {
+      "sourceHash": "29f49c5e942fae77871473eb0b486a4e85224e4e54d2fe7890d1872c71acb5ff",
+      "text": "Overgrowth"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "2796c45efba1e9b7715826adf413ac3099d43c02002582f727aa1ebebb7b743b",
+      "text": "Ⅰ[On Hit] Inflict 3 Seeds and Overheal. Heal the target by 15 HP."
+    },
+    "skills.13.response": {
+      "sourceHash": "779ccadc5d5f7922250e54410dbc293fc20b0a5fc38a29d02990e22988304141",
+      "text": "It may look like a healing attack, but also applies 3 Seeds and Overheal. Avoid taking it intentionally for recovery."
+    },
+    "skills.14.name": {
+      "sourceHash": "0873dfe1b2edd8814b0b2e09106ac47fcf89bc403fc90e3c6a30b64e848a8dcb",
+      "text": "Time of Harvest"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "0dfea1ad2f0bb78286e78e19b9022917910875e9234f0b7f9fa1a8855682d57c",
+      "text": "Ⅰ[On Hit] Inflict 3 Fragile and 10 Bleed."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "7626d54332ef9f2cd41b4309455e8cbf270ca7e2e266e37c16ced53152a7258d",
+      "text": "If the target is in Nutrient Absorption, heal 20 HP and gain 2 Attack Power Up next turn. (Source footnote 3.)"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "af950bd911adfcb7ea2390c93aac0b177c69c7d932d218453da111b62923b54f",
+      "text": "The wording is ambiguous about who receives the Nutrient Absorption healing and Attack Power Up; check the in-battle display."
+    },
+    "skills.14.response": {
+      "sourceHash": "3f7e1fafe06b87a268154811fc300b517fdd751defc53a3ae4646f41700fcc89",
+      "text": "Even without extra modifiers, it rolls up to 19. Check the Absorbing Tree's HP and release conditions before it targets a trapped ally, and stop it with a winning skill. Winning also reduces the enemy's SP."
+    },
+    "skills.15.name": {
+      "sourceHash": "c84d5e5404140c47cd7d28120ef70958ee1bf36df2d420c404e41b78747c6eec",
+      "text": "Please Be My Nutrient"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "54f8981b627eca48b38ad65ebeaca6f65208a93ff67761e6997720756265f69c",
+      "text": "[On Use] Heal all Trees of Desires by 15 HP. If none exist, create 1."
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "3af6aa81ed8fed7484fcc67d6867a7bd5eddae16e34c9277863e3b7e54505c60",
+      "text": "Ⅰ[On Hit] Heal 10 HP and inflict 3 Seeds."
+    },
+    "skills.15.response": {
+      "sourceHash": "2498b5964a0c3eed98f13ec6c062fcfbb730872ae3f70bb2e186a73579ad3e2f",
+      "text": "A major skill rolling up to 27 with 7 Attack Weight. Save powerful E.G.O to answer it. Winning the Clash does not prevent its [On Use] tree healing or creation."
+    },
+    "skills.16.name": {
+      "sourceHash": "ee29f18112578bad804e0fa813d3f8971cf3f6162b11942bff2f91d815080211",
+      "text": "Growing Results"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "7fa0bd456338383b52884750ad6319c7c31ae27d8999b338ce53bd966df8e24e",
+      "text": "Ⅰ[On Hit] Inflict 1 Seeds."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "b08495cfb53d599b8bf93bcbda69f0c2d414324927fcdaed536bcfa4729cca1b",
+      "text": "Ⅱ[On Hit] Inflict 1 Seeds."
+    },
+    "skills.16.response": {
+      "sourceHash": "65a5df59076844f2964db0499117ef58aff0300ca2af6e8b70ca9351678c8803",
+      "text": "Tree attacks also build Seeds. Do not assign all Clashes to Dongrang; defeat trees early or use area attacks to reduce enemy actions."
+    },
+    "skills.17.name": {
+      "sourceHash": "8f694c7f4f2a064ce6ad741452654fe4913aecc1a6d01bdda93972db4683de93",
+      "text": "Expectation"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "d8e83953306376f85d4343c618061c455704adc7f5cb7f7bbd2d7e0d11b56097",
+      "text": "No effects"
+    },
+    "skills.17.response": {
+      "sourceHash": "0abd078794db4b8a0fea0fe06bf5220824679385f8709018a54d204c739fb31a",
+      "text": "Choose between focusing attacks on the defending tree and handling Dongrang's dangerous attacks. Surviving trees keep granting Protection and damage buffs."
+    },
+    "passives.0.name": {
+      "sourceHash": "fad0ca60777a5ce3255d0cf54ebfdeab5f10a2dde115c6ed59db70a4fd156edf",
+      "text": "Self Salvation"
+    },
+    "passives.0.condition": {
+      "sourceHash": "82c8cc48b7069823bf34b847554dd62be0589ef296b415f61c488c7b51b4cea7",
+      "text": "Receives healing in Form 3"
+    },
+    "passives.0.effect": {
+      "sourceHash": "0c73ac07438b0e622694eb4f86d252d46a86c76725bafe83a976b33923c2b444",
+      "text": "HP healing effects are doubled."
+    },
+    "passives.0.response": {
+      "sourceHash": "9647badb6934ccd93340ed1d56c421186cf5022276eac9fde4bb5ef6f90bb4a0",
+      "text": "Handle healing-triggering attacks and surviving trees before they restore his HP."
+    },
+    "passives.1.name": {
+      "sourceHash": "1bfd5d65d702959f60530f172ab32657278b9382b5d05dc64a3b25aa04537ac8",
+      "text": "Self Destruction"
+    },
+    "passives.1.condition": {
+      "sourceHash": "6180688981b530b711ac6580b96be1156d6ece8f82ef12f36ca36d9d8f9dde90",
+      "text": "Uses a skill in Form 3"
+    },
+    "passives.1.effect": {
+      "sourceHash": "6ac6ffb05ac56ea78a4d689c88e518e7406b48dd11016ee1682a7f5470c6e8c2",
+      "text": "Attacks indiscriminately and loses 2% of Max HP with each skill use."
+    },
+    "passives.1.response": {
+      "sourceHash": "ca1ff322a7947a9254563a505637664e19076b9048db490f2c2022a971280706",
+      "text": "Also targets allied trees. Have Sinners defeat Resentful Trees first to claim their buffs."
+    },
+    "passives.2.name": {
+      "sourceHash": "dafb072bf4e4cca333393d38e677c6b448b321b5d93abe4f9693fb85f37ee537",
+      "text": "Radiant Vanity"
+    },
+    "passives.2.condition": {
+      "sourceHash": "63abe22fdf5dea6d4700de91db76ed4cbc9660edbbc0cd5c488ef17ffe48fbd1",
+      "text": "Turn Start while the tree is alive"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8ef2b7d5f0ca8c1409ae8b781b90e1d27647c74f80db08a221e47adeb25ea2c4",
+      "text": "Dongrang gains 1 Protection and 1 Attack Power Up."
+    },
+    "passives.2.response": {
+      "sourceHash": "77e2ad85bf1416a315d95c8d97ce744f7c570fc30610d099ba6017249c1f3730",
+      "text": "Weaken the tree and let Dongrang defeat it to stop the supply of buffs."
+    },
+    "passives.3.name": {
+      "sourceHash": "bf8efcbc0e5a5a7d627bfae424c36156c833aec91e068fa29e910d317ecdc99d",
+      "text": "Earnest Accomplishment"
+    },
+    "passives.3.condition": {
+      "sourceHash": "37fb4126b09ece1660370f2edcf52136891fb1d5a5e5fc601247e92079897a8a",
+      "text": "While this effect remains"
+    },
+    "passives.3.effect": {
+      "sourceHash": "261d1b8fe5281c146655fb2633f285e92ab5c535001024f7cff700b1765e137a",
+      "text": "Only Dongrang can defeat it. If a Sinner reduces it to 1 HP, it heals that Sinner and gains Empty Honor. If Dongrang defeats it without that setup, he heals and gains buffs next turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "422b42e1d5f65a0e22becce587aa26b683062791a6565adbc12e1082a12f6791",
+      "text": "Check attack order so Sinners reduce the tree to 1 HP first."
+    },
+    "passives.4.name": {
+      "sourceHash": "a952ed5f5f86fdd372ea08f1f7dd8d7f1b43bfb01b704ddcfb8d51b58223ecee",
+      "text": "Empty Honor"
+    },
+    "passives.4.condition": {
+      "sourceHash": "5241091d4f4b2039fdb41ae2e557e9e26b9047882e6f3bb4d43e1d68cf66cf96",
+      "text": "Dongrang defeats a tree reduced to 1 HP by a Sinner"
+    },
+    "passives.4.effect": {
+      "sourceHash": "3849cf7ef8cb9050553b8d067b320d97aecc217cab98b243e37349c53a52a30b",
+      "text": "Dongrang loses HP, gains 1 Emptiness, and suffers debuffs next turn."
+    },
+    "passives.4.response": {
+      "sourceHash": "76b57811d7266e6737be4ab18618f2fa47b08d95aa27eff4c1efb74b18b81755",
+      "text": "Sinners being unable to defeat the tree is part of the mechanic. Let enemy attacks hit prepared trees."
+    },
+    "passives.5.name": {
+      "sourceHash": "6613b927936e5f5d5b2fe80d7dbe04b89e0f1b1bd47a5b6c642831c3c87f1122",
+      "text": "Borne Fruition"
+    },
+    "passives.5.condition": {
+      "sourceHash": "525a29337814d6b5f56e106cf8d08d07a355f0be003b66ac12d037c4ae1ce1ec",
+      "text": "This tree is defeated"
+    },
+    "passives.5.effect": {
+      "sourceHash": "008deb85d83b0a4516cbd7111f894557823ad8eb4a3aabf9e4a5a41383df95dd",
+      "text": "The killer heals 5% of Max HP and gains 1 Haste and 1 Attack Power Up next turn."
+    },
+    "passives.5.response": {
+      "sourceHash": "702ac421ebb6152e194423d1f8bfed01ab256247bce297ce52e43bb01ab37fb5",
+      "text": "Unlike Trees of Vanity, Sinners can defeat these. Take them before Dongrang does."
+    },
+    "passives.6.name": {
+      "sourceHash": "fecccf4ef9313ea15e80cd141a143671e6f15c839843b533effa36178596e75f",
+      "text": "Toward the Ideal"
+    },
+    "passives.6.condition": {
+      "sourceHash": "b1c402bc55be9e772402b34a1b6bb8abbc91c878c7b7c62e9374740364cf0fc3",
+      "text": "Reaches 85% / 50% HP"
+    },
+    "passives.6.effect": {
+      "sourceHash": "902a04bfd0ea5fb5db5016e197ff72a92ecaf37be9e3c14f7123c3835ad817ab",
+      "text": "Creates 2 Trees of Desires and changes the action pattern (the count listed in the passive)."
+    },
+    "passives.6.response": {
+      "sourceHash": "c0e2604800d95d51f4fb0a196f5e578186183c36a5df8fd62624b4c8fa2e9496",
+      "text": "The strategy description lists different counts, so check the actual respawned trees and deal with them."
+    },
+    "passives.7.name": {
+      "sourceHash": "0a51b76c22dd626f8710eeeb95499df815c9979498e7221fd04bfad7f1dda5b4",
+      "text": "Price of Neglect"
+    },
+    "passives.7.condition": {
+      "sourceHash": "0ed61015ce73ef84b92f7219f78dfaeb896ee0d6c66b65f608cf1ead61e848b1",
+      "text": "Loses a Clash with Time of Harvest"
+    },
+    "passives.7.effect": {
+      "sourceHash": "4a99885e6b29f458349ed386bcd5b13d9e8275ffd564d3bbfac7ac36c0543d00",
+      "text": "Dongrang loses 5 SP."
+    },
+    "passives.7.response": {
+      "sourceHash": "6c0764b55233cc8e28c85551e37f49f2b8c8839829b68b09cd7be07d69756dd5",
+      "text": "Winning also reduces his SP, but normal Coin odds remain fixed at 50% each."
+    },
+    "passives.8.name": {
+      "sourceHash": "d836336fb2255cb4876206eed9beed999ff26ceb6c691880373ba0870fbcb0d3",
+      "text": "Bitter Smile"
+    },
+    "passives.8.condition": {
+      "sourceHash": "ec0ce0036a8c6c710a3340675a0f518a37677b299727ca79ffb23210536834c7",
+      "text": "Panic"
+    },
+    "passives.8.effect": {
+      "sourceHash": "a0267f2ab1bfa9b41451ca2a4eda52d1136d6544cc325aed7cde126d90d4dd87",
+      "text": "At Turn Start, gain 2 Protection and return to 0 SP."
+    },
+    "passives.8.response": {
+      "sourceHash": "f5a0267e13db624730de3c96a7aa6fd448d3b7f3a04afa1f045d978c5467c912",
+      "text": "Continually lowering SP alone cannot disable him. Check tree-granted Protection and his actual durability too."
+    },
+    "passives.9.name": {
+      "sourceHash": "6cc8557a78b68b284450ef9835a5c889e6c2473877f157e976b22a5ea961a7d6",
+      "text": "Exhausting Endeavor"
+    },
+    "passives.9.condition": {
+      "sourceHash": "735ca0e00eb65320b21ad11d0e83da5541bdeb9d0a4a0f0fc90d3b3a095b0b28",
+      "text": "Uses Please Be My Nutrient 3 times"
+    },
+    "passives.9.effect": {
+      "sourceHash": "88ff3a8f18547728834ed51772732a926735041902067db1b7510b9f1122505a",
+      "text": "Become Staggered next turn."
+    },
+    "passives.9.response": {
+      "sourceHash": "280ec2161a874830b5b7b4e9de6ef205d2cc1904f255e8e6aa6314e33ca54f49",
+      "text": "Use it as an opening when it occurs, but do not build a team around repeatedly taking the maximum-27 area attack."
+    },
+    "passives.10.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.10.condition": {
+      "sourceHash": "e5eb927c7a14d8ffc6c7e28c251ac28b7f3cf21df20aebafd6ffa369b37bbaa5",
+      "text": "An effect that changes Panic Type"
+    },
+    "passives.10.effect": {
+      "sourceHash": "3ca663ae4c1a9ac09940926e3ea0cd3561a0ebcc2a2d1dd0d28f0524fa3fe862",
+      "text": "Panic Type stays unchanged; apply the effects intended for targets without SP instead."
+    },
+    "passives.10.response": {
+      "sourceHash": "f9b2bde3db703318ee945b0181bff57ab6721855748ed3c42dcdf1f38284dfd7",
+      "text": "Do not base your strategy on overriding his Panic with another type."
+    },
+    "passives.11.name": {
+      "sourceHash": "5a59684063be5c9d523ea6db950c092b8ca6f6b4d195e5641531f5be1bd94a44",
+      "text": "Radiant Desire"
+    },
+    "passives.11.condition": {
+      "sourceHash": "e650c79bb56a37430a891753dc82f5d122f8ad4d95274f6aef9643438bc7f797",
+      "text": "Turn Start while this tree is alive"
+    },
+    "passives.11.effect": {
+      "sourceHash": "353eb9ed456d391ab77de208cb299c6f6d0c5af32a8215ba3c1986f5b0ad8190",
+      "text": "Dongrang gains 1 Damage Up and 1 Protection."
+    },
+    "passives.11.response": {
+      "sourceHash": "a22974b2bbba8b330a88e4d7e973fbdd01b358c64fdfd88ec1d9d11e15364058",
+      "text": "If Dongrang is hard to damage, check the remaining trees. Reduce them before focusing damage on him."
+    },
+    "passives.12.name": {
+      "sourceHash": "5a59684063be5c9d523ea6db950c092b8ca6f6b4d195e5641531f5be1bd94a44",
+      "text": "Radiant Desire"
+    },
+    "passives.12.condition": {
+      "sourceHash": "e650c79bb56a37430a891753dc82f5d122f8ad4d95274f6aef9643438bc7f797",
+      "text": "Turn Start while this tree is alive"
+    },
+    "passives.12.effect": {
+      "sourceHash": "353eb9ed456d391ab77de208cb299c6f6d0c5af32a8215ba3c1986f5b0ad8190",
+      "text": "Dongrang gains 1 Damage Up and 1 Protection."
+    },
+    "passives.12.response": {
+      "sourceHash": "a22974b2bbba8b330a88e4d7e973fbdd01b358c64fdfd88ec1d9d11e15364058",
+      "text": "If Dongrang is hard to damage, check the remaining trees. Reduce them before focusing damage on him."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "bd1bd0736f2c183c3c663d62781e5e19f885a43a09c655d4ec8b2898cf82bda8",
+      "text": "Empty Mark"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "1628ff6b8bbd64a7fea90f0b6d666e55ca26b6ae53929a203184c763aa54af5c",
+      "text": "Prioritized by enemy attacks. At Combat Start, gain 2 Bind; take +50% damage from Dongrang. The Japanese skill text also uses an alternate wording for this mark."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "a33872fa07ba06b8e8ecf296561292c1a591654bdae2b7855a24a5b0b7187ce2",
+      "text": "Check targeting lines next turn and protect the marked Sinner with faster allies."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "13c008b7dbbe2c07246a036cd718e86e84ac57f0a8d6d2ca3fcf83e18f81677c",
+      "text": "Emptiness"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "4919dcf51da72ab19ff5b3241beedab4a30f38d01eb66556233d533c9ebd8ec3",
+      "text": "Increases when the enemy defeats prepared Trees of Vanity. At 4, Dongrang becomes Staggered."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "7826b54bbc9a280cfc72e7a1d4d41b6982a452e9c127e1321f0cec04603049cd",
+      "text": "Repeat the process of reducing trees to 1 HP with Sinners first."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "f68224b7792f8d3bcb55d53a5a0849f04ea1b733cd09be8808389c757dd6ba0f",
+      "text": "Seeds"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "7ba998123c72d63a821a6a2b04d287aed332e6c4bea02766d6ee19b5019a3a51",
+      "text": "At Turn End, if at 5 or more, place a Sinner who is not Staggered into Nutrient Absorption for 2 turns. If below 5, reduce the value by 1."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "529ef26ad1fab9768037bef186e785fe3ac546e96eeef43e968f442fbfbd3082",
+      "text": "Prioritize preventing hits on allies who already carry Seeds."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "40d5d97fe0a5670684e105c9d090662b6af65ea5ff978c5e40c354ca106acdda",
+      "text": "Nutrient Absorption"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "c42e2ff46b546fa9fdd573e147033df8194e722526959958cbe6b36f819cea2d",
+      "text": "The Sinner cannot act, and Dongrang heals 10 HP at every Turn End."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "19a75774a445e592067d675227919e2c806fa2723b33f9fe420660e73f4a0839",
+      "text": "Prevent the status by assigning Clashes to avoid Seeds buildup rather than waiting until capture occurs."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "2c4f5133ad3bb98cb6ecc993784e5af61027e500825bc79de053489140a1bc00",
+      "text": "Overheal"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "d8327d401ae54b8e6d3fb39323173d71cd9e4cdc024ea8ce1109a374db54306d",
+      "text": "Accumulates the amount Dongrang heals the target. At 50 or more, take that much Gluttony damage and gain 5 Fragile next turn, then remove the effect."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "e731cdd973e0b269b095e72ac471777360a2ff191b6feefc09aa0e65683052ad",
+      "text": "Do not treat the enemy's healing as safe support; stop Overgrowth."
+    },
+    "warnings.0": {
+      "sourceHash": "2c4d0ee093a993d9b7258c8732b8fd0bad9abe836a6af4b3dbb04f2acc66fc00",
+      "text": "Trees of Vanity, Resentful Trees, and Trees of Desires require different handling. Reduce Vanity to 1 HP and let the enemy finish it; have Sinners defeat Resentful Trees and Trees of Desires."
+    },
+    "warnings.1": {
+      "sourceHash": "47e3ee5c255b294ed416b770ff5ae09540ec97578851238ae73da9bb6c54ed11",
+      "text": "Farmwatch's Heads odds remain 50% even when SP falls. Distinguish handling -45 SP from changing Coin probabilities."
+    },
+    "warnings.2": {
+      "sourceHash": "db62d8943b456a497beb93a603110854cc5d2127f432b1652c9895b287d4d98f",
+      "text": "Source descriptions differ on the tree count after Farmwatch's HP boundaries. Do not assign attacks based only on a fixed count."
+    },
+    "warnings.3": {
+      "sourceHash": "b5695882e50611a6905d8d78836cf9794e6f46b01be3c4e503f17f17684dcbf9",
+      "text": "Absorbing Trees are listed with 22 HP, but the source does not establish whether destroying one immediately releases the captive. Check the status display rather than assuming instant rescue."
+    },
+    "preparation.0": {
+      "sourceHash": "a697282af09ec2aa7a415d4688b13a3aefdcbea699da1cd99a5e181ea303265c",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Use dungeon healing points and carried-over resources to prepare for the final fights."
+    },
+    "preparation.1": {
+      "sourceHash": "606c150922a03c54c5073be7fde3b9a06ea355c6387a2c66a1963bd8deb1f3d9",
+      "text": "Build around Pierce and adjust to each fight's weaknesses: Gloom/Envy for the first, Gluttony/Pride for Farmwatch. Do not assume their resistances are identical."
+    },
+    "preparation.2": {
+      "sourceHash": "f040b817d231fb927536e5fa0d4142835f97a945aaf079fa296adfee7615cf0d",
+      "text": "Save resources for area attacks to clear trees and powerful E.G.O to Clash with major skills. If you lack area attacks, divide regular attacks to remove trees one at a time."
+    },
+    "roles.0.name": {
+      "sourceHash": "19142dcdecb5cf9311834313aeb3aad4ee774e4e52527cc8fe0e1bfc429963e4",
+      "text": "Tree cleanup"
+    },
+    "roles.0.reason": {
+      "sourceHash": "49382fea89e5121091841925b1d49f51fd90cc8304199709e3ccc28ea383ad4f",
+      "text": "Use actions left after covering Dongrang's Clashes to damage trees. Faster Sinners help arrange the required action order."
+    },
+    "roles.1.name": {
+      "sourceHash": "63d8c557196467d8e676c1e35452666330f0c796e2e1c9b424eeafed0cff5c5c",
+      "text": "High-power Clash specialist"
+    },
+    "roles.1.reason": {
+      "sourceHash": "22f214f6d57f2a4ca295ab4ea69282a19a75baaf079c0769aab1066a79702bcb",
+      "text": "Stop It's All Burned Up and Please Be My Nutrient. Avoid spending all major skills on routine low-power attacks."
+    },
+    "roles.2.name": {
+      "sourceHash": "5c3a470d94ae68111ea6e7f05bba45d6263cf1234bcc0ad0ea38538a46239ca2",
+      "text": "Pierce damage and healing"
+    },
+    "roles.2.reason": {
+      "sourceHash": "6501e1dc23f90b0e6f30afe53f9fe327cc016d1bd49d1febeb08d57f06ed44cd",
+      "text": "Focus damage once Dongrang's Protection falls, and recover from attrition caused by Seeds, Rupture, and Bleed."
+    }
+  },
+  "messages": {
+    "boss-copy:dongrang": "complete",
+    "【リンバス】4-54 ドンラン・開花E.G.O::舎音の攻略｜Limbus Assistant": "4-54 Dongrang / Effloresced E.G.O::Farmwatch Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-54「ドンラン・開花E.G.O::舎音」の攻略。木の扱いは戦闘ごとに変わる。全てを否定するドンランでは虚栄の木をHP1にして敵に倒させ、舎音では欲望の木を倒して保護と種を減らそう。": "Dongrang / Effloresced E.G.O::Farmwatch guide for Limbus Company 4-54. Handle the trees differently in each battle. Against Dongrang, Who Denies All, reduce Trees of Vanity to 1 HP and let him defeat them. Against Farmwatch, defeat Trees of Desires to reduce Protection and Seeds.",
+    "4-54 ドンラン・開花E.G.O::舎音": "4-54 Dongrang / Effloresced E.G.O::Farmwatch",
+    "4-54「The League of Nine in Memory: Final 2 Battles」": "4-54 · The League of Nine in Memory: Final 2 Battles",
+    "全てを否定するドンラン（第1形態）の外見": "Dongrang, Who Denies All (Form 1) appearance",
+    "全てを否定するドンラン（第1形態）のスキル": "Dongrang, Who Denies All (Form 1) skills",
+    "Dongrang, Who Denies All (Form 1)の外見": "Dongrang, Who Denies All (Form 1) appearance",
+    "Dongrang, Who Denies All (Form 1)のスキル": "Dongrang, Who Denies All (Form 1) skills",
+    "全てを否定するドンラン（第2形態）の外見": "Dongrang, Who Denies All (Form 2) appearance",
+    "全てを否定するドンラン（第2形態）のスキル": "Dongrang, Who Denies All (Form 2) skills",
+    "Dongrang, Who Denies All (Form 2)の外見": "Dongrang, Who Denies All (Form 2) appearance",
+    "Dongrang, Who Denies All (Form 2)のスキル": "Dongrang, Who Denies All (Form 2) skills",
+    "全てを否定するドンラン（第3形態）の外見": "Dongrang, Who Denies All (Form 3) appearance",
+    "全てを否定するドンラン（第3形態）のスキル": "Dongrang, Who Denies All (Form 3) skills",
+    "Dongrang, Who Denies All (Form 3)の外見": "Dongrang, Who Denies All (Form 3) appearance",
+    "Dongrang, Who Denies All (Form 3)のスキル": "Dongrang, Who Denies All (Form 3) skills",
+    "虚栄の木の外見": "Tree of Vanity appearance",
+    "虚栄の木のスキル": "Tree of Vanity skills",
+    "Tree of Vanityの外見": "Tree of Vanity appearance",
+    "Tree of Vanityのスキル": "Tree of Vanity skills",
+    "しこりの成った木の外見": "Resentful Tree appearance",
+    "しこりの成った木のスキル": "Resentful Tree skills",
+    "Resentful Treeの外見": "Resentful Tree appearance",
+    "Resentful Treeのスキル": "Resentful Tree skills",
+    "開花E.G.O::舎音の外見": "Effloresced E.G.O::Farmwatch appearance",
+    "開花E.G.O::舎音のスキル": "Effloresced E.G.O::Farmwatch skills",
+    "Effloresced E.G.O::Farmwatchの外見": "Effloresced E.G.O::Farmwatch appearance",
+    "Effloresced E.G.O::Farmwatchのスキル": "Effloresced E.G.O::Farmwatch skills",
+    "欲望の木の外見": "Tree of Desires appearance",
+    "欲望の木のスキル": "Tree of Desires skills",
+    "Tree of Desiresの外見": "Tree of Desires appearance",
+    "Tree of Desiresのスキル": "Tree of Desires skills",
+    "吸収する木の外見": "Absorbing Tree appearance",
+    "吸収する木のスキル": "Absorbing Tree skills",
+    "Absorbing Treeの外見": "Absorbing Tree appearance",
+    "Absorbing Treeのスキル": "Absorbing Tree skills"
+  }
+}

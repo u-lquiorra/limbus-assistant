@@ -1,0 +1,295 @@
+{
+  "kind": "team-copy",
+  "id": "bleed",
+  "sourceGuide": "src/data/team-guides/bleed.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "affd12f2828538022d42608e3b53774a6145d19b9660820ef7f6788e7937adbf",
+      "text": "Ring (standard)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "517591fae9c8c3c468bb979bb33dd1003e6a69d05997f976f74d28334c731c6c",
+      "text": "Deploy 5 Ring Identities that grow stronger with the number of enemy negative effects, fighting while maintaining Bleed. Best against single targets, but the Ring Nursefather's area S3 also handles groups."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "139a62eda933175061c9040309715298cb037865bfbdbca619f77c3f48cc6e2a",
+      "text": "The core unit: develops Corpus Ingredient to enhance Bleed application and uses area S3 against groups."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "4b51be344971fd5efc1101c0fd8a86077670b99dd3d7dae9f7f45daeca96f2b6",
+      "text": "Maintains Bleed Count and activates abilities by taking enemy attacks."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "e3acce71eb273754a93b1571b57d59e00959973858250f81448391cfb92b561d",
+      "text": "Uses S2 against enemies stacked with negative effects to chain Coin reuse."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "0aa02bc0278c1b292034f7bd032c271d014f45ed878e2d4cd9436c351b8dd756",
+      "text": "An amplifier that stacks Mauled Color and Touche Hardie to raise Bleed and Sinking damage."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "0450d6e2601381e0b2fd5ac0995ab3762ddaac8f30b1c50be74a799786a195bf",
+      "text": "Lands enhanced S3 against enemies with at least 5 Mauled Color. Use together with the Docent."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "3c48456612a69782a8e06f163cacead7e944ec03bef5ca0e0b38dcf1138ced8e",
+      "text": "Readily adds negative effects and finishes weakened enemies with an execution skill."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "de5d4ff508d7d88bec717905b290aea00a3bb22b62e27493d6c5f634a9c26682",
+      "text": "A damage dealer that builds Poise for critical hits. Skills and the Even the Balance - Lucent Rippling Flame follow-up also add Bleed."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "353a590c10a4727b1c674554fe0aa6b93f2c79e3685075e30752ad4bcd58ba40",
+      "text": "Heals allies while inflicting Bleed, Curse, and Nails on enemies."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "a1ebcaad4afaf80d230f408ee68346bbdda132e9513a398436f6f9bc5f4b7198",
+      "text": "Bloodfiends (La Manchaland)"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "7fab472b23d635fa359050f86752e136537044a8b317faa976c4853aded9a33a",
+      "text": "Use La Manchaland Identities to collect Bleed damage on the field as Bloodfeast and enhance the Manager's S3. The One Who Grips's Whistles quickly raises SP. Focus on cycling Bloodfeast rather than building enemy Bleed."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "3df76d9b7704d53d70591c2efd4cd873cee6b235ba7d89aa77f6dc85f232d3a8",
+      "text": "The core unit: spends Bloodfeast to reach at least 15 Hardblood and enhance S3."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "2dd6f45ee6419cfa85aee79db4dfbbc908f62a977cac7eb92ae8365acb108056",
+      "text": "Whistles quickly restores allies' SP through Lust Resonance. Can also use Fluid Sac."
+    },
+    "data:examples:1:members:2:note": {
+      "sourceHash": "34f69068bd9a6a59f8ff3e587ff45fec5843e74334aa5c8cf6e0e5eb2d13d722",
+      "text": "S2 grants Attack Power Up to herself and allies for reliable clashes from the opening."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "79bf5041618cbf53aa376e713dbe9711b688945e530cd5d69b77aba7437e9995",
+      "text": "Supplies Bloodfeast through self-inflicted Bleed. Can simply guard to focus on enabling Whistles."
+    },
+    "data:examples:1:members:4:note": {
+      "sourceHash": "ac0bd024c2139be6cb7c39f5e74acc830443601e8a1c3ce2bb7b59aee0327123",
+      "text": "Distributes Hardblood Armor to support La Manchaland allies."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "cf66d230d0b37ebf1bff380189912e766e416f02a4441a9042cb6176cd373aab",
+      "text": "Not from La Manchaland, but still worth prioritizing as a Bleed Identity."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "5dd4242ecd199f4a0de3ec3a6b1799e21d278dc27f0e8ed2ee01a741dd2b5a76",
+      "text": "A Ring Nursefather that applies Bleed through area S3."
+    },
+    "data:examples:1:egos:0:note": {
+      "sourceHash": "72593ca8475f740070bd148ce52d29b636bdc9b568dabdaa8f21ece2b2d78944",
+      "text": "A large area attack with every Coin Unbreakable. Use after accumulating Bleed and Bloodfeast."
+    },
+    "data:examples:1:egos:2:note": {
+      "sourceHash": "2c4acea67891aa1773ba43d6f715de2a1358db31a783c7968cb59ca6ee55f44f",
+      "text": "Heals allies while spreading Bleed."
+    },
+    "data:examples:1:egos:3:note": {
+      "sourceHash": "0103dab2e530d59a4623f51ff67da0b3d5cd8ae38cebf2822d29aed404864c9b",
+      "text": "Heals multiple allies based on Resonance count."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "3d38b7e2492c7ec5ae93a8320612ac2902b0218d5f67d4594245e9f2a6ee28a1",
+      "text": "Ring package"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "34a936cdef19a1d8dac5b7d235e11d07b988ceb1bca51ed2a3ec15ad93c09d57",
+      "text": "With all 5 together, the Corporist Nursefather and Apprentice start with 10 Corpus Ingredient for a stronger opening. Unlike the other Ring members, these 2 scale with their own Corpus Ingredient, so plan around 5 Ring members."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "11c24aab0f758da66c1c696cca362cc459b5f3191029e7650dd7f1b3f91e02d5",
+      "text": "A Corporist Ring member with area S3."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "af1f7d78508b16812b67e05de4c260e5531ddd3ca5c27bed550321cf4a6f5d21",
+      "text": "A Corporist Ring member that sustains Bleed Count."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "b399f678efa16a4056776091a459bed209888e1c188825f4a7afaab5040328e4",
+      "text": "A Pointillist that scales with the number of negative effects."
+    },
+    "data:combos:0:members:3:note": {
+      "sourceHash": "150100cb64eb583b2b14840c6d92d07a25e4416803a998bd7f7ed9e38b6fbdcb",
+      "text": "A Fauvist that increases Bleed damage through Mauled Color."
+    },
+    "data:combos:0:members:4:note": {
+      "sourceHash": "c5a899a5f9859399c402a84c2cc77e4cc8dcab48632ac7dba02f4a0b25f47389",
+      "text": "A Fauvist that uses the Docent's Mauled Color to enable enhanced S3."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "6b9f6357bbc42abf2b4b65a0af91257d93d0af731c7a9b8d160c85c745b60b19",
+      "text": "Bloodfiend package (La Manchaland)"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "8dae2aef1420a16466236cf021ce0d369e027e89f9619035b0c94cf889029d92",
+      "text": "The Manager's skills strengthen alongside other La Manchaland Identities. The Priest's self-damage fuels Bloodfeast, while the Princess and Prince support allies. Including the Barber alongside the Manager makes Bloodfeast harder to cycle."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "e53289483aa0093eea87d7c601ad48e22d61d8cd336bdc27e7a908605d3eca75",
+      "text": "The core unit that spends Bloodfeast to enhance S3."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "c6d76afa4917e381da6667449c54ae98f4197ee6b7c6997bb22d5182216295f1",
+      "text": "Distributes Attack Power Up while applying Bleed and Rupture."
+    },
+    "data:combos:1:members:2:note": {
+      "sourceHash": "e000514786a439a5b9b1bcd955ae115a285422fd06e7c35309c383a030b45477",
+      "text": "Supplies Bloodfeast through self-inflicted Bleed."
+    },
+    "data:combos:1:members:3:note": {
+      "sourceHash": "456e9028cc4e280bdda653ed51d695354f5c2a1b5042c5b74eba7ad85c89ff86",
+      "text": "Supports allies through Hardblood Armor and Focused Performance."
+    },
+    "data:combos:1:members:4:note": {
+      "sourceHash": "6eb115ba61aa527a9eab0bc74635e98da175245be6b261401224edb41f34dc1f",
+      "text": "An attacker that develops Scissorblades through Bloodfeast. The Manager makes Bloodfeast harder to accumulate."
+    },
+    "data:combos:2:name": {
+      "sourceHash": "7ddd850fb83a987d2eed709c2a673510c1eb981b1a1d0dc66cced6131c67a123",
+      "text": "Le Rouge pair"
+    },
+    "data:combos:2:note": {
+      "sourceHash": "ea80504e22a92a75a14e934ee8ffc6b7aa0272f0d9cd0b6aabadf533e7b4e58b",
+      "text": "After awakening Noble Dignity, the Crimson God has exceptional damage and Bleed application, but S2 and S3 also hurt allies. Le Rouge Identities take priority for that damage and have strong self-healing, so pairing him with Boutique reduces this drawback. More Le Rouge Identities make the package stronger."
+    },
+    "data:combos:2:members:0:note": {
+      "sourceHash": "ed2d6188dd6134b189a1a49d3b965b0bd4411f7f54ca1e386ebe2200d56babeb",
+      "text": "Spend roughly 3 turns healing and buffing allies in Childhood, then awaken Noble Dignity to attack through Bleed and L'Abject."
+    },
+    "data:combos:2:members:1:note": {
+      "sourceHash": "5dbf3471049a8042e90856c724f6c3c60697bcffae9c26c63633785f54fd26f9",
+      "text": "Uses self-damage to enter the Changing Room and transform into Full Makeover. Prioritizes taking the Crimson God's attacks and endures through self-healing."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "6ec94edb60a375ed6f688184a24d5bc0457ec8607755a22508ed558f93ce1f0c",
+      "text": "Whistles quickly restores allies' SP through Lust Resonance. Nails add Bleed Count, and she can use Fluid Sac. After the opening, the Ring Apprentice is stronger."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "c4c45269c408ae7e2f4c15a3eb4c2113ae6fa84a53a2761476fc5ab7c340a9b3",
+      "text": "Stacks Bleed, Tremor, and Open Wound before finishing weakened enemies with Mercé. Readily builds negative effects."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "8a629680e76268d7914bd93b99db4cd2d9f584d6969accaf6c69ca2caeba523f",
+      "text": "A Burn and Bleed Identity that readily adds negative effects and excels at area attacks."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "0418c271d569dac71bad2eec67688bc9bd3023a8d854177a47e7238c35ee69fb",
+      "text": "Red Eyes and Penitence enhance skills, while enhanced S3 delivers heavy damage and healing. Good for the final push."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "d23d0b907cd54330c122b4d050dd279c2bb4bf150136e9844e26980c46754dfe",
+      "text": "A Bleed Pierce attacker that loses HP through self-damage, enters the Changing Room, then transforms into Full Makeover. High damage and survivability once setup is complete."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "0839cdffd93e120ffc720f52291e8ca7017794e50b4ca388cecef5b907d446c1",
+      "text": "A Bleed and Tremor Identity that gathers Gaze, converts it into Contempt, then fires enhanced S3."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "b8ac4831d31f0714f89d2a793540f4e5bb9f7c7feac9dc90a198851cb6ac4b3b",
+      "text": "Supports allies in Childhood, then applies heavy Bleed in Noble Dignity. S2 and S3 also hurt allies, so pair with Le Rouge Identities."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "2c4f8699baafba355aa88c8d63a84ff94498877da33580051092e904f3967831",
+      "text": "Lands enhanced S3 on enemies with at least 5 Mauled Color. Requires the Docent alongside him."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "997972cb309698ff04bda6fa5bbb426393df55b9849c601aaf9cc303b06dbe12",
+      "text": "Develops Scissorblades through Bloodfeast and cuts enemies up with Bleed. Struggles to reach full strength alongside the Manager."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "9a5f901c5a8ec6349d0040d6c6c2a8264ae8d639c20e9eb5364ccaeeebb41ae6",
+      "text": "A durable Bleed enabler that builds at least 10 Charge Count before S3 to add heavy Bleed Count."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "319931ad871f3c090a12532efa468754e4d9f450ce2511de62028644722c0bcc",
+      "text": "Distributes Attack Power Up for reliable early clashes. Also easy to use outside Bleed teams."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "5a123a3300ddcfa500510486a5848073eddcee0f65835db833e680d81671c25c",
+      "text": "An unconventional tank that supplies Bloodfeast through self-inflicted Bleed while aiming for heavy damage and healing with S3."
+    },
+    "data:support:0:note": {
+      "sourceHash": "2d5d4fd418b7e7e1be1696f9b66c45aad7baec03f39c6e2bcd41fb49d4a7c55f",
+      "text": "The support passive restores 10 SP at Turn End to the ally with the lowest SP if an ally of that unit's affiliation remains alive."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "c9221b49f551552526291f3a9685bd619d3e09194514506c818ca65c26aca013",
+      "text": "A healing E.G.O for Bleed teams that restores allies while inflicting Bleed, Curse, and Nails on enemies."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "5ead32765fc85527df5f89bb4080af0103998a4313046de6e5fe53e7a5dda0a9",
+      "text": "Restores HP and SP to all allies. Hard to fund in battles starting with zero resources."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "673780f91e6271c1602f230f64c8e4c7fd44e9de6b4c31d9ad1792b5455db804",
+      "text": "A large area attack with every Coin Unbreakable. Bloodfiend teams can aim for a heavy burst after building Bleed and Bloodfeast."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "5602e3e41a2954a5d7df55352b3ef9994deb577d66f554b5c47a6a5f3ffaf291",
+      "text": "Heals multiple allies based on Sin Resonance count and grants buffs matching the resonating affinities."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "9cf80842b5051996131ac12a13b6c8ae41e6f03f507f8bac93f23c0db10f14d2",
+      "text": "A team built from Identities that apply and maintain Bleed. Choose a Ring variant with 5 Ring members, or a Bloodfiend variant that cycles Bloodfeast through La Manchaland Identities."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "1c792754683d92d199d863d20de9b3c4fd52e75db60ce50f8d5372daea7adf08",
+      "text": "Ring Identities combine strong Bleed application with strong physical performance, making sustained Bleed practical."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "1d5a7fb9e3b89f568ebc55bcfc611a9efe4041fd26a3fdac30c193f5a7213909",
+      "text": "Many skills scale with the number of enemy negative effects, so stacking debuffs raises the whole team's damage."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "4fc27ad89dbf8be0f4dd1db30cc474419cef7c5488defdd94550c302844f097b",
+      "text": "[The Ring Pointillist Student](persona:0109) is a near-priority pick in both Ring and Bloodfiend variants."
+    },
+    "guide:2:0:0": {
+      "sourceHash": "3ccca8face4056b4af22d3e434000b06d5a4ceade93f265566e5e8ee0dcfa563",
+      "text": "**Ring**: With at least 5 Ring members, the Corporist [Ring Nursefather](persona:0614) and [Ring Apprentice](persona:0215) start with 10 Corpus Ingredient for a stronger opening. Best against single targets, though the Nursefather's area S3 also handles groups."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "d13bd3948f0ad1482587dd7e5419adc7155db2ca4b66011b72d78944c4dd89d9",
+      "text": "**Bloodfiends**: [The Manager of La Manchaland](persona:0310) enhances S3 using Bloodfeast accumulated through other La Manchaland Identities and Bleed damage. [The One Who Grips](persona:0204)'s Whistles quickly raises SP. Play on the assumption that enemy Bleed will not build very high."
+    },
+    "guide:3:0:0": {
+      "sourceHash": "a2ae8be0d1208e38b9ffe6e5527f4ec48c0f5977a4bce27eab664ba095a2f045",
+      "text": "In the Ring variant, stack at least 5 Mauled Color from [The Ring Fauvist Docent](persona:0915), then land [The Ring Fauvist Student](persona:0515)'s enhanced S3."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "4a590b4d469f0fdc6dd09d9b22c989a55753c5750087a720daa5a1a7066ade3d",
+      "text": "Fill remaining slots with Bleed Identities. [Night Awls Capitano](persona:1213) and [Hornet【Alteration】](persona:0514) are excellent at accumulating negative effects."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "df7a1e3b3b7b1592e8fd58533c4ca3c9da8df80d134686c5bc449d1e0ecdccaf",
+      "text": "[The Priest of La Manchaland](persona:1210) fuels Bloodfeast in the Bloodfiend variant. Often, guarding to focus on enabling Whistles is better than trying to deal damage with his skills."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "381ed0985b9ffd1684dbd1999ea564510b56230911d798dd6077f8cf41726b65",
+      "text": "[Haute Couture:: The Crimson God of Le Rouge](persona:1016) Sinclair and [Haute Couture:: Boutique du Rouge](persona:0816) Ishmael also make a strong pair. The Crimson God's S2 and S3 hurt allies, but Le Rouge Identities take priority for those hits and endure through self-healing. More Le Rouge Identities make the package stronger."
+    },
+    "guide:3:0:4": {
+      "sourceHash": "40186221bc0b786c4a7b720b61646c885f3e7cdc9b522e0609fe39e858db4502",
+      "text": "Healing mainly comes from Rodion's [Hex Nail](ego:0907) and Faust's [Fluid Sac](ego:0202). The Bloodfiend variant can aim for a large burst through Don Quixote's [Yearning-Mircalla](ego:0307)."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "39c95334d6094c628d60a66a4d99003d936da1530bac3617b0d9f90af06437c5",
+      "text": "The Ring variant has a largely fixed lineup. Without all 5, the Corporist members have a weak opening."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "6cb41e473f9d25ec25626a4b66cb5de71fb9e0a28717801afed54681f02650d4",
+      "text": "Fluid Sac is hard to fund in Regular Encounters starting with zero resources."
+    }
+  },
+  "metadata": {
+    "title": "Bleed Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Bleed team guide: Identities that apply and maintain Bleed. Covers the Ring variant with 5 Ring members and the Bloodfiend variant that cycles Bloodfeast with La Manchaland Identities, with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

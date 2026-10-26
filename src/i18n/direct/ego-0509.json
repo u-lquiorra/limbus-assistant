@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0509.md",
+  "code": "0509",
+  "messages": {
+    "剣契頭目に持たせて追慕酒と呼吸で強化し、2回目以降の使用で高い与ダメージを出す、傲慢斬撃E.G.O。": "A Pride Slash E.G.O to give to Blade Lineage Mentor, strengthened by Drink to the Fallen and Poise, that deals high damage from its second use onward.",
+    "剣契頭目への優遇: 剣契頭目なら必要資源が憤怒・傲慢・嫉妬それぞれ1減り(傲慢3のみ)、追慕酒による与ダメージ増加も2倍で適用される。": "**Preferential treatment for Blade Lineage Mentor**: For Blade Lineage Mentor, the Wrath, Pride, and Envy requirements each drop by 1 (leaving only 3 Pride), and the damage increase from Drink to the Fallen applies doubled.",
+    "追慕酒: 使用の次のターンに追慕酒4を得る(初回の使用は精神消耗が15減る)。ターン開始時に呼吸を得て(剣契頭目は2倍)、クリティカルダメージが伸び、体力が0になるダメージを受けても追慕酒の数値に応じて回復する(戦闘1回)。": "**Drink to the Fallen**: He gains 4 Drink to the Fallen on the turn after use (the first use costs 15 less Sanity). At Turn Start he gains Poise (doubled for Blade Lineage Mentor), his Critical damage grows, and if he takes damage that would bring his HP to 0, he recovers based on the Drink to the Fallen value (once per battle).",
+    "2回目以降の火力: 追慕酒を得た戦闘では、メインターゲットへの与ダメージ量が増える(+60%、解析Ⅲで80%、Ⅳで100%)。剣契頭目は2倍。": "**Damage from the second use onward**: In a battle where he has gained Drink to the Fallen, damage against the main target increases (+60%, 80% at Threadspin Ⅲ, 100% at Ⅳ). Doubled for Blade Lineage Mentor.",
+    "味方の支援: 攻撃前に編成順の早い味方へ呼吸回数4を配り、攻撃後は精神力の低い剣契所属の味方4名の精神力を10回復する。": "**Supporting allies**: Before attacking, gives 4 Poise Count to the allies earliest in team order, and after attacking, restores 10 SP to the 4 Blade Lineage allies with the lowest SP.",
+    "剣契頭目専用効果: 追慕酒があると恨の宿った鞘を得る。肉斬の使用中は体力が10未満に下がらないが、マッチ威力は下がる。傲慢共鳴時は剣契所属の味方に本国剣 - 真詮伝授を付与する。": "**Blade Lineage Mentor-only effects**: With Drink to the Fallen, he gains Resentful Scabbard. While using Yield My Flesh, his HP cannot drop below 10, but his Clash Power decreases. With Pride Resonance, Blade Lineage allies receive Sword of the Homeland - The True Essence.",
+    "剣契編成で、序盤に撃って呼吸と精神力を配り、追慕酒を得る。": "In Blade Lineage teams, fire it early to hand out Poise and SP and gain Drink to the Fallen.",
+    "追慕酒が残るうちに肉斬・骨断で攻め、2回目に撃つと与ダメージ増加が乗る。": "Attack with Yield My Flesh and To Claim Their Bones while Drink to the Fallen lasts, and the second use carries the damage increase.",
+    "侵蝕スキルは敵味方全員に呼吸4・斬撃ダメージ量増加1・斬撃脆弱1を与える。味方の斬撃火力を上げる反面、被ダメージも増える。": "The Corrosion skill gives every ally and enemy 4 Poise, 1 Slash DMG Up, and 1 Slash Fragility. It raises allies' Slash damage, but also increases the damage they take.",
+    "Ⅱ: 「剣先にしたたる酒滴」が解放され、主要な効果は出そろう。": "**Ⅱ**: Unlocks Beads of Liquor at Bladepoint, completing its main effects.",
+    "Ⅲ: 呼吸によるマッチ威力・ダメージ量の上限と、追慕酒後のダメージ増加が強化される。": "**Ⅲ**: Raises the caps on Poise-based Clash Power and damage, and strengthens the damage increase after Drink to the Fallen.",
+    "Ⅳ: Ⅲと同じ系統の強化で、優先度は低いと考えられる。": "**Ⅳ**: The same kind of improvement as Ⅲ, likely a low priority.",
+    "剣契頭目: 専用効果が全て働き、呼吸と出血を扱う人格として強化される。": "**[Blade Lineage Mentor](persona:0508)**: All of the dedicated effects apply, strengthening him as a Poise and Bleed Identity.",
+    "西部センク協会3課: 傲慢(S1)で必要資源を出せ、スキルで呼吸を得るので追慕酒の効果に乗れる。": "**[Cinq Assoc. West Section 3](persona:0511)**: Pride (S1) supplies the required affinity, and his skills gain Poise, so he benefits from Drink to the Fallen's effects."
+  }
+}

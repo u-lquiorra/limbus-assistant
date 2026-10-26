@@ -1,0 +1,1440 @@
+{
+  "kind": "boss-copy",
+  "id": "red-god-unborn",
+  "source": "src/data/bosses/red-god-unborn.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "洗礼[赤]",
+          "en": "Baptism [Crimson]",
+          "file": "Bufs-a1c10p1.json",
+          "id": "BloodyMucus"
+        },
+        {
+          "ja": "疲労困憊",
+          "en": "Exhausted",
+          "file": "Bufs-a1c10p1.json",
+          "id": "BuffetFailed"
+        },
+        {
+          "ja": "苦痛の袋",
+          "en": "Sac of Suffering",
+          "file": "Bufs-a1c10p1.json",
+          "id": "BuffetSick"
+        },
+        {
+          "ja": "脈動",
+          "en": "Pulsation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeRouge"
+        },
+        {
+          "ja": "生の本能",
+          "en": "Instinctive Cling to Life",
+          "file": "Bufs-a1c10p1.json",
+          "id": "DeterioratingBody"
+        },
+        {
+          "ja": "分裂",
+          "en": "Inner Schism",
+          "file": "Bufs-a1c10p1.json",
+          "id": "EarlyBuffet_LowMorale"
+        },
+        {
+          "ja": "分裂",
+          "en": "Inner Schism",
+          "file": "Bufs-a1c10p1.json",
+          "id": "EarlyBuffet_Panic"
+        },
+        {
+          "ja": "暴走",
+          "en": "Uncontrollable Rampage",
+          "file": "Bufs-a1c10p1.json",
+          "id": "Gourmandise"
+        },
+        {
+          "ja": "釘刺す者",
+          "en": "He Who Nails",
+          "file": "Bufs-a1c10p1.json",
+          "id": "MeursaultBuffet"
+        },
+        {
+          "ja": "自己保護",
+          "en": "Self-preservation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "SavePlacenta"
+        },
+        {
+          "ja": "赤き神[未生]",
+          "en": "The Crimson God [Inchoate Life]",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1484"
+        },
+        {
+          "ja": "赤き神の引きちぎられた肉片",
+          "en": "Ripped Flesh of the Crimson God",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1497"
+        },
+        {
+          "ja": "未熟な赤き神",
+          "en": "The Preterm Crimson God",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148401"
+        },
+        {
+          "ja": "薔薇色に脈動する筋肉",
+          "en": "Roseate Pulsation of Musculature",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148402"
+        },
+        {
+          "ja": "格差",
+          "en": "Disparity",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148403"
+        },
+        {
+          "ja": "生存本能",
+          "en": "Survival Instinct",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148404"
+        },
+        {
+          "ja": "切れた命綱",
+          "en": "Severed Lifecord",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148405"
+        },
+        {
+          "ja": "暴力的な誕生の暴走",
+          "en": "Rampage of a Violent, Traumatic Birth",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148406"
+        },
+        {
+          "ja": "知性なき脈動",
+          "en": "Mindless Pulsation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149701"
+        },
+        {
+          "ja": "ひっく…",
+          "en": "Hrgh...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148401"
+        },
+        {
+          "ja": "ううっ…",
+          "en": "Nngh...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148402"
+        },
+        {
+          "ja": "ビュ…ッフェ…",
+          "en": "Pw... ffeh...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148403"
+        },
+        {
+          "ja": "さ…むい…",
+          "en": "It's... cold...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148404"
+        },
+        {
+          "ja": "お腹が空いた…寒い…痛い…！",
+          "en": "Hungry... cold... hurts...!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148406"
+        },
+        {
+          "ja": "あっ…ち行け…",
+          "en": "Go... away...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148407"
+        },
+        {
+          "ja": "お腹…空いた…",
+          "en": "I'm... hungry...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148408"
+        },
+        {
+          "ja": "何でもいいから…食べ…たい…",
+          "en": "Something... to eat... Anything...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148409"
+        },
+        {
+          "ja": "や…めて…",
+          "en": "Don't... do that...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148411"
+        },
+        {
+          "ja": "し…た…い",
+          "en": "I... wanna...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148412"
+        },
+        {
+          "ja": "私は…何…？",
+          "en": "What... am I...?",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148413"
+        },
+        {
+          "ja": "垂れ下がった手振り",
+          "en": "Feeble Beckoning",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149701"
+        },
+        {
+          "ja": "命綱",
+          "en": "Lifecord",
+          "file": "Enemies-a1c10p1.json",
+          "id": "148401"
+        },
+        {
+          "ja": "奪い取った何か。",
+          "en": "A Seized Something.",
+          "file": "Bufs-a1c10p1.json",
+          "id": "Nutrition"
+        },
+        {
+          "ja": "痛い…！身体が…勝手に…！！！",
+          "en": "It hurts...! My body... won't listen...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148405"
+        },
+        {
+          "ja": "声が聞こえる…",
+          "en": "I hear... the Voice...",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "148410"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. Bracket, punctuation, and spacing aliases use the paired enemy, Lifecord, Nutrition, and skill records. Rampage in prose abbreviates Uncontrollable Rampage. Main-body and part HP remain distinct; Baptism, Lifecord destruction, Sac expiry checks, 80%/95% reduction, and unconfirmed action order are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "101135edf49981afa3cbd9322ef57ae67fa80ba4dfab1c54283b66d841dcf75b",
+      "text": "The Crimson God [Inchoate Life] (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "e0bf3730ad2781cbcbcd923e20a38065262e136e7cb2e7ea9abd3bb85bb9702b",
+      "text": "The Crimson God [Inchoate Life]"
+    },
+    "stageName": {
+      "sourceHash": "7a22ed6d00da358bac239d841909bf77948c5c7dfcbc6a4fcdbddd400bcfa0c1",
+      "text": "Sisyphus Department Store A, 2F: Luxury Floor Cradle"
+    },
+    "lead": {
+      "sourceHash": "9ba13af91bbd2cbacb2f6a75cb547360410e2ab502962c71a21452bef8dabf2e",
+      "text": "Reduce Baptism [Crimson] with defense and E.G.O instead of repeatedly using basic attacks while Bleeding. Destroy the Lifecord during Rampage, when its Protection and Assist Defense are inactive, then attack the Body. Win low-HP-targeting Unbreakable area clashes with healthy Sinners to limit damage."
+    },
+    "statNote": {
+      "sourceHash": "7dbc1d9732ba60c5d6763684a304bcc0963c595aefe4ad9f8300f76ef2875daa",
+      "text": "Covers Route A's Crimson God [Inchoate Life], a separate battle from Route C's later form. Recorded HP: main body 4,494, Body part 2,439, Lifecord 2,023. Do not recalculate main-body HP by adding part HP. Enemy Lv. 50, base Defense Level 52. Meursault, Faust, and Heathcliff are required in a team of up to 12. Customer Level determines dungeon Identity levels; Uptie below III is raised to III, but E.G.O Threadspin is unchanged."
+    },
+    "skillNote": {
+      "sourceHash": "f08bef86713f0b8f2db210159bfb6deae49b92a0bbda9ef57de4b1f0b18a6fd6",
+      "text": "Skills are divided among Body, Lifecord, and Flesh. Listed Power excludes Bleed, HP, Pulsation, SP, and other modifiers. The three Lust skills gain 80% damage reduction and Unbreakable conversion against targets without Bleed, so their icons do not show permanent Unbreakable Coins. Don't... do that... is an Assist Defense skill, separate from regular attacks. Parts of the post-Lifecord action order are unconfirmed; check actual skills as well as turn numbers."
+    },
+    "priorities.0": {
+      "sourceHash": "fed0ada827a23de93c45bd07a35e0eef8c1377a79c427a9781a973dfdcec9a21",
+      "text": "At 3 or more Baptism [Crimson], use defense or E.G.O to reduce it and limit Bleed Count gains from basic attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "05fdce470c3a8a990b94a8af9e7106c2df681817346488fe3d5a25b7824d6dcb",
+      "text": "Focus damage on the Lifecord during Rampage. If it remains, Rampage persists below half HP."
+    },
+    "priorities.2": {
+      "sourceHash": "ea7d7df20f79da7ee296e18aae6b6533c29bc6db6fb3f605c6fe7a479af01770",
+      "text": "Redirect low-HP-targeting major attacks to a healthy Sinner. Winning against the final major skill grants 95% damage reduction."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "363c00447ca0ccd47556004fe7bd8c6536c7b586a87aa0d3020b74d579c0c89d",
+      "text": "Bleed drains HP whenever an attack is selected"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "d7a198c33dbbcc7adabcc6455799b1227c73895634ac701dd09bb2201870a1f5",
+      "text": "Baptism [Crimson] adds twice its stacks as Bleed Count on basic Attack Skill use. At around 3 or more, switch to defense or E.G.O to remove 3 stacks. Existing Bleed remains, so check HP and remaining Bleed too."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "54a2f4f00a4ce52f37e325f9bd393aac63db901ebfd1a86e2b1dc064baf2cb9e",
+      "text": "Attacks on the Lifecord are intercepted by the Body"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "67ac7c6b5ebe949346657502b98840aef6a90ac56c4a12ca8627444298e93430",
+      "text": "Outside Rampage, Self-preservation makes the Body intercept unopposed attacks with an Assist Defense-only Guard. The Lifecord also has 5 Protection. This support does not activate during Rampage; concentrate Lifecord-breaking damage then."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "cd43cafb793073fa0a7cc28e38cf3b67328e0d604c846d6896af3d86839d29c7",
+      "text": "Rampage continues after lowering the body below half HP"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "f8bc9933dc31f0d39d9a1e42a5e9a3fb5ba5a195879029b41e80c406c7ef5e78",
+      "text": "If main-body HP is below 50% at Turn End while the Lifecord remains, Rampage stops losing stacks until the Lifecord is destroyed. Parts can still be broken during Rampage; aim to destroy the Lifecord rather than Stagger it."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "edc53c1ad70d27538d0b3bcb25129d8fd79f959a2591eb648dbb006b9ee8ad6d",
+      "text": "A major attack kills an injured Sinner"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "82eace1cf16ac3e033a830ac1cffe3a31ff217372995b76b894039b0b38face1",
+      "text": "The Lifecord's Wrath and Gluttony skills prioritize low HP and gain Power or damage from lost HP and Bleed. Redirect clashes to a healthy Sinner with enough Speed and heal in advance. Disparity adds further damage against targets slower than the enemy."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "771635e584f457a01e590af03f78339d851aafe9d8241e8591431c89a0f334bb",
+      "text": "Repeated attacks cannot kill the Flesh at 1 HP"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "006f217510bbbdd268a1d20c380ffaa5dd97a42dc11b96ecb635782b4733a93b",
+      "text": "Flesh cannot fall below 1 HP while Instinctive Cling to Life remains. Attacks remove 1 stack, up to twice per skill; Turn End removes another, and expiry kills it. Prioritize remaining stacks and the body rather than piling on large damage."
+    },
+    "phases.0.timing": {
+      "sourceHash": "5a3024c70858d2b090ebe68cac61820f6dce193d15c7a284605581840ebf8643",
+      "text": "Before the 2F Cradle battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "bfe5c6c33eae7b5047bb13302c43ec869ea0b5e710b9edeec733d0a9f5d4401a",
+      "text": "Check Customer Lv. 45, required deployment, and healing"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "f5d4423fd4f9195d78820799b6e342ba1f1639f83a10fbe7cbf39bee4345cbe9",
+      "text": "Shop toward Customer Lv. 45 and Ruby. The Lv. 50 enemy has a level advantage, but Ruby's +1 Clash Power and +1 Final Power help. If limited-time shops were missed, check current Customer Rank and available strong skills."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "e0f8c7199890c3ae79fef4c0119e96171b9f2351cfd76570b84e3b0a872e3c29",
+      "text": "Meursault, Faust, and Heathcliff are required. All attacks are Blunt; bring Blunt resistance and HP recovery, saving high-Power skills for the Lifecord's Wrath and Gluttony area attacks."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "b179e99c8d95116445e32e78d2430e7f4ba45ae4f8ac75b6efcee2800712c34c",
+      "text": "Meursault's He Who Nails grants two extra resources of his skill's affinity on use, twice per turn. Survival requires another ally at Turn Start. Replenish resources while protecting the other Sinners too."
+    },
+    "phases.1.timing": {
+      "sourceHash": "0fb16a49ead637208c60cfcc2932cf35f2b3971253752a5d6b72aa5c907da00c",
+      "text": "Before choosing actions each turn"
+    },
+    "phases.1.title": {
+      "sourceHash": "59119bb513a317859d380e2dfa6b712e72f521cc5e4de2358e174b5517bc6f58",
+      "text": "Check Baptism and Bleed; mix in defense and E.G.O"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "b58e874d69500c8bd3922ddf231b453a5bbd36e369c5581da7000f05acae3311",
+      "text": "Check Sinners with high Baptism [Crimson] first. Basic attacks add twice its stacks as Bleed Count; at 3 or more, use defense or E.G.O to remove 3 stacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "02a83198a9a5d09e60c422129c003f7e16bd71ff95d76408c50f1f2d45a1febd",
+      "text": "At 5 Baptism, Bleed damage doubles but Bleed alone cannot kill. Being at 1 HP is still unsafe: an immediate enemy attack can kill, so check healing and incoming targets too."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "81c58f7d405187ee1df0f0a6fb03c9705f590b55c5e9a9974b3dc8d8afff73f7",
+      "text": "The Lust skills Hrgh..., Nngh..., and Pw... ffeh... gain 80% damage reduction and Unbreakable conversion if their target or main target has no Bleed. Choosing a Bleed-free Sinner helps, but on-hit Baptism remains after clash wins."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "caac82d3273cb18dc9a39c644e604ca84dbe26577660df551790a2c7cf0205e6",
+      "text": "Assign strong Wrath and Gluttony clashes to Sinners with little Bleed and lost HP. Injured targets more easily meet enemy bonus conditions."
+    },
+    "phases.2.timing": {
+      "sourceHash": "d36564ae2df4ad504372a88523f7511f54452cb87cb1f3963b2419a5d7886df5",
+      "text": "Outside Rampage · Usually the first three turns"
+    },
+    "phases.2.title": {
+      "sourceHash": "574489dc243a38cec7ceff5d078b8f7a3dc9a8d36c6a4da485fdf4f7815c6e27",
+      "text": "Win clashes while saving damage for Rampage"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "b2c0add9ebb367eb6ed2d23673f0540b47e725f9dbf501407f4233bae7b30207",
+      "text": "Beat the Body's regular skills to prevent Pulsation Count gained on enemy clash wins. Sinner Bleed triggering during clashes also adds Pulsation, so keep managing Baptism."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "6e48dc4df06555e9733fa21ece86da4e3a6f9a6af1ec10cb65c99112accedfc4",
+      "text": "Outside Rampage, the Lifecord has 5 Protection plus Body Assist Defense through 1 Self-preservation. Avoid adding too many unopposed Lifecord attacks and save strong skills for Rampage."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "7d8b0bdaaec3b794d9269e23ba2802f46825e95403b2da7e13795584b36f7522",
+      "text": "Beat I hear... the Voice... for 80% reduction. Its on-use refill to 15 Pulsation Count remains, usually bringing Rampage next turn."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "c7861edb739fb620d63ca8e04c26d56fddb794a760e6523df24890dd71463103",
+      "text": "Bleed and clash results can bring Count to 15 earlier. Do not assume Rampage always starts on Turn 4; check its state each turn and prepare to attack the Lifecord."
+    },
+    "phases.3.timing": {
+      "sourceHash": "9ba3e082ac03352d2ad273f2fac1b60ea292004f7da2633400cba25110b05527",
+      "text": "15 Pulsation Count · During Rampage"
+    },
+    "phases.3.title": {
+      "sourceHash": "94e560f1c97793a3f2f0ab5ce64fae9f61c689bda0d3e1cc5baccf5fb09a4196",
+      "text": "Destroy the Lifecord and build Sac of Suffering"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "de308f71d304268500aa579509b1766b61aa9556fce1c83ded8342a75f7c73b1",
+      "text": "At Turn Start without Rampage and with at least 15 Pulsation Count, consume all Count to gain Rampage. No parts can be Staggered during it, but the Lifecord can be destroyed. Focus attacks there while Protection and Self-preservation support are inactive."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "33c7449068d1fb0a50e3d8aa96f7aca5edbcb51e4a09c4e08f23a1715f3fe6cc",
+      "text": "The Lifecord has 2,023 HP and ×1.2 resistance to all physical types, Lust, Sloth, and Gluttony. Have healthy Sinners clash with dangerous skills and direct spare damage to the Lifecord."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "e3a4ce31644e3d2801572fae0a31a1600b843812cb93770922f4cdf370de04eb",
+      "text": "During Rampage, hits add 1 Sac of Suffering and clash losses add 3. At a combined total of at least 30 when Rampage ends, next turn's pattern weakens and Flesh is Staggered. Each 5 Sac also grants 1 Fragile after Rampage ends, creating an opening."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "610f1611d798e6a3d44949a46ee5df8c0b8d02b5f7ca06cf358dc09f10844469",
+      "text": "If main-body HP is below 50% at Turn End with the Lifecord intact, Rampage stacks stop decreasing until it is destroyed. Prioritize breaking the Lifecord instead of damaging only the Body."
+    },
+    "phases.4.timing": {
+      "sourceHash": "ab9dc4d5c750f864ddc8f9a321b04a1483e12512c1f0e8f58674201559f79fe1",
+      "text": "Lifecord major skills during Rampage"
+    },
+    "phases.4.title": {
+      "sourceHash": "fc221ac4aedcfd20c3aa68dbe59bd0f522a512639fb3289ee6a3938a07f5f009",
+      "text": "Win with healthy Sinners for 80% or 95% reduction"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "4345d66ed21fd77cd890d8e64658ae51d0d39c549c2378169723620ee286ebca",
+      "text": "It's... cold... and It hurts...! My body... won't listen... target low HP and gain damage from the target's lost HP. Base Power also rises if the main target is below 50% HP, so assign a healthy Sinner with enough Speed."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "16119c750a0c3d7b6096a66a70f7e612dda5f2cbbdb084c3113a11bc33ede61a",
+      "text": "Winning against these two skills gives 80% reduction and prevents Stagger from their damage. On-hit Baptism remains, but extra application on hits without Coin destruction can be prevented."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "84efcbadf5f050b2a5b19248a59d12d47d7e4ff26d7a546797a7190093a8214c",
+      "text": "Hungry... cold... hurts...! has four Unbreakable Coins and 5 Atk Weight. At 10 or more Pulsation Count, Coin Power +2 and Atk Weight +2. Bleed also raises Coin Power, so do not judge from the base maximum of 16."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "03e590d5decf04841aac5266cfcaac37e590f1821c59c15bc415b1dace078aa8",
+      "text": "Winning against the final major skill gives 95% damage reduction and prevents extras such as Bleed activation on hits without Coin destruction. Assign your strongest clash and check HP and Bleed on every area target."
+    },
+    "phases.5.timing": {
+      "sourceHash": "2523b04c78d0dada4f9556e3c26350e40c7d2b641cea1c5489f05ebed1ee9d06",
+      "text": "After destroying the Lifecord"
+    },
+    "phases.5.title": {
+      "sourceHash": "a56b3088a4e0a291c2206e0791dfd3f865a05d8ef89d41b5b3e0bd39ac113b28",
+      "text": "Use Fragile on the Body to finish"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "2761c474875e5613f7898d55708242e5583b411ac75cf0bacb202a6dacd1cc39",
+      "text": "Destroying the Lifecord removes its actions and slots and prevents follow-up attacks on it. Focus the Body afterward. Severed Lifecord grants the Body 3 Fragile next turn at Turn End."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "29743f1f1d83c52981b15778650a647aaa059f35dd02ba8ec813f16f1877296a",
+      "text": "Destroying the Lifecord does not necessarily remove current Rampage immediately. Check stacks and actual skills, and clash without relying on Stagger until it ends. Prepare for Pulsation to trigger Rampage again too."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "91afa85d58d75878adf40c5c59d2a86ca23ae2cc38f21138fa3ac885d82e1ad9",
+      "text": "During Rampage, killing a Sinner with at least 3 Baptism [Crimson] creates Flesh next turn, up to three units. Flesh adds Baptism; use spare attacks to reduce Instinctive Cling to Life or wait for it to expire."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "3c7d28c3ab5b3ba50420686d703ef7208e6dbc384a328a4e9e048b667eb7b818",
+      "text": "Do not repeatedly use basic attacks on Sinners carrying Bleed and Baptism; keep using defense, E.G.O, and HP recovery. The full post-Lifecord order is unconfirmed, so choose winning clashes against the Body's actual equipped skills."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "24db1a0d5f8be1134ff345c94c6e86afa6aee7dfe0ed2f07f46423b9cceb56d3",
+      "text": "Baptism [Crimson]"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "074cdc6cb47c4944718d236c049511956899393e6b9a910447ce4bc60240338c",
+      "text": "Maximum 5. On basic Attack Skill use, gain Bleed Count equal to stacks ×2. E.G.O or Defense Skill use removes 3 stacks. Offense Level +1 per 3 Bleed Potency (max 3). At 5, take double Bleed damage but cannot die from Bleed."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "b0d0b85865a30bb88c2a16ef0403336dd01438e8a7ee41c1429c54f4fb20ed8b",
+      "text": "Switch to defense or E.G.O at around 3 stacks. Existing Bleed is not removed, so check HP and Bleed Count too."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "f54991ea93094be4d14e475bc5990614eab68c879c8f28994d028c43755436ac",
+      "text": "Pulsation"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "b7b17ee2ea7e3330a28d883cac472700a306f6229552c23da501bad99d09799a",
+      "text": "A special Charge with a Count cap of 20. The Preterm Crimson God prevents Turn End Count loss. Each opposing Bleed trigger during a clash adds 1 Count; kills add the target's Bleed Potency plus Count. At Turn Start, heal 3 SP per Count. At 15 or more Count without Rampage, consume all to enter Rampage."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "2ec23a78ea7198d322a6aa544f92935cfba30a0f9cf8453e8b7cbaed6bd49aa5",
+      "text": "Do not neglect Sinner Bleed. Distinguish this from the later form's stages based on Pulsation Potency."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "e5f06547e0faa8cb89613b318cb68ce149c1dc09909988319baf03555290920b",
+      "text": "Uncontrollable Rampage"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "8f1a98ede8e9b46acfc8e5533c092e998c466b80fd8344bae3c17e6dc254a38f",
+      "text": "Base value 3. Damage +5% per 3 enemy Bleed (max 30%); all parts cannot be Staggered; Bleed damage taken −75%. Normally lose 1 at Turn End and consume all Pulsation Count on expiry. With the Lifecord intact and main-body HP below 50%, stacks stop decreasing until the Lifecord is destroyed."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "077f12c6ce8a3c7f56dca01c82678efbf83cabebff69d0e69995ef2b178781af",
+      "text": "Protection and Self-preservation support do not activate during Rampage. Aim for Lifecord destruction rather than Stagger."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "d52e6de113d881f38d7d629f736ae1e0c906d0ea9635bbf4d8eb6990fa61b003",
+      "text": "Sac of Suffering"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "3b3bf6e76e7e1be8c9a86d77c942c517f1704a4e19eb139d6cc3bd2e372986cd",
+      "text": "Maximum 30. During Rampage, gain 1 when a part is hit and 3 on a clash loss. Removed when Rampage expires, granting 1 Fragile next turn per 5 stacks. At a combined total of 30 or more on expiry, also weaken next turn's pattern and Stagger Flesh."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "12b0aedce5c6212ad34d15fb9586ff786572fecca3891d36f32f1a00f51c48ce",
+      "text": "Build it through clash wins and Lifecord attacks during Rampage. The weakening also requires Rampage to expire."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "99d954e4f9e6169f10ea24dc9387eec18fee063877092036a9efe083d3aa89c0",
+      "text": "Self-preservation"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "a7b590a41038e55eb282303070fec429bf25f492049e335a79442b71a5e49522",
+      "text": "Consumes 1 on an unopposed attack against the Lifecord, redirecting it to the Body and using an Assist Defense-only skill. Survival Instinct grants 1 at Turn Start outside Rampage and Stagger, also giving the Lifecord 5 Protection. Expires at Turn End."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "ff4c24fc5549b0cab6fb43035ffb5aa51594f1bd4f7f9b61e25f9b49644dea75",
+      "text": "Unopposed Lifecord attacks may be intercepted outside Rampage. Commit serious damage during Rampage."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "9335ac5eb883d873ca532e00320dc3b34ab9cf675cbc70f64ad56d35cccb7db4",
+      "text": "A Seized Something."
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "4a4f992716c20f3347781ef59fa2e537195810ec516e6b78d43cc27cbd82725a",
+      "text": "Maximum 5. Expires at Turn End, granting Pulsation Count equal to stacks ×2 next turn. If expiring at 5, all parts also gain a Shield equal to 3% main-body max HP next turn. That Shield does not expire at Turn End."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "9534f93cfbcf7b2c0e298e0fcf4b46614116e70780374107239deb2b31fd0bdd",
+      "text": "Beat Lifecord skills to limit positive-effect theft. Check whether each attack steals on clash win or on hit."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "e342426aed0fd4ddd48ee05fd121e905be757a802d80b33c35b322f51a4eb658",
+      "text": "Instinctive Cling to Life"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "147bce1371f8a8c9a7445da76c45261b1c5d2da51b37ef7921d83391e2c8c94c",
+      "text": "Maximum 5. Prevents Flesh HP falling below 1. When attacked, lose 1 (up to twice per skill); lose 1 at Turn End and die on expiry. Starts with stacks equal to the dead Sinner's Baptism [Crimson]."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "b8e3695bbf5e26230bd54e74e5041d6de27364b350eaa09c8ebaeccd176a62a1",
+      "text": "Defeat Flesh by removing stacks rather than dealing large damage at 1 HP. Distinct from the main body's Survival Instinct passive."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "20602c813d8e535240bf4d4b67a884bbfe3768c1fb75959c51331816bba24c2d",
+      "text": "Exhausted"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "2182ffbe541b63c8dbb60fd9a15e47d8668d67e23613d3f99e67c6733fd3a107",
+      "text": "Maximum 3. Minimum and maximum Speed −1 per stack. Gain 1 Fragile at Turn Start and lose 1 stack at Turn End. Gained next turn according to the Pulsation replenished by I hear... the Voice...."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "e68e930867152679cbd1f2a6ec5981e445a5e493bf7e61b28c6fbd3d129c97e3",
+      "text": "Use reduced Speed to land early Lifecord attacks. Rampage's Stagger immunity remains."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "d4daf331b2eb25a22eb6fcb7fb8f3053f3b7df5e844a235ee0700fc3585a6316",
+      "text": "Inner Schism"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "86f50eb5ddabc8430f2639bbdcee3c1e154eb7e12205e47349c12ec4347e0c1a",
+      "text": "At −20 SP or lower, Defense Level −3, Offense Level +3, and +2 Clash Power against targets with 5 Baptism [Crimson]. At −45 or lower, Defense Level −5, Offense Level +3, damage +10%, and +3 Clash Power against those targets."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "8d9751e76cc4b946b56b9bd74180a44c7398ffcc2563e2848577d9987ae5ab95",
+      "text": "Low SP does not simply disable the enemy. Avoid repeatedly assigning a Sinner with 5 Baptism to dangerous clashes."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "1e16179d838d66a5acfa4bc75794487c28f0eec46fff47d2e477ea570ccd96ec",
+      "text": "Meursault gains two extra resources of his skill's affinity on use, twice per turn. With another ally alive at Turn Start, cannot die from damage that turn. Cannot retreat."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "2de00c1cafc969bdfd4bfd2083f0bf929e0c15605c7d9d9eab591d8871a1808d",
+      "text": "Use him for resources and taking hits while keeping other allies alive."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "6ccbbec6326a5fabb8ed1977eca16014b15efc45789be74e8b038fefe63136e3",
+      "text": "Raised through department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "b965d5d1737b3fae04eb99021e5f2b2c44a206d4018b36b166eb641fd2ec34d5",
+      "text": "Aim for Customer Lv. 45 and Ruby. Check this separately from outside Identity levels."
+    },
+    "warnings.0": {
+      "sourceHash": "2817c94989cd08acc652110f8d0d91983c5fe36f58964b3663491da1410f5fe4",
+      "text": "Baptism [Crimson] adds Bleed Count through basic attacks. Reducing Baptism with defense or E.G.O does not remove existing Bleed."
+    },
+    "warnings.1": {
+      "sourceHash": "37457805cfa542c3b82e7dbdf46462fd23fc2f1cfb1377100e28550625996a46",
+      "text": "Ending a turn below 50% main-body HP with the Lifecord intact prevents Rampage from decreasing until the Lifecord is destroyed."
+    },
+    "warnings.2": {
+      "sourceHash": "7e5a4c39f6210889969863309e57a3c388209970224938e0958f583de15b9c4f",
+      "text": "Rampage prevents Stagger but not part destruction. A destroyed Lifecord loses actions and slots and cannot be attacked further."
+    },
+    "warnings.3": {
+      "sourceHash": "698a6a70fbcd7be334466e0d31cc22b0a39fa2d2087b040342fb646cf13e0ef6",
+      "text": "Low-HP-targeting major skills gain strength from the target's HP and Bleed. Check the target's condition as well as clash predictions."
+    },
+    "warnings.4": {
+      "sourceHash": "ce6e6358a8920dbc2dbea8a2bbd4598c1163167e85bfaee4366ff59c9637b386",
+      "text": "The weakening at 30 Sac of Suffering checks when Rampage expires. Reaching 30 does not immediately weaken the pattern."
+    },
+    "warnings.5": {
+      "sourceHash": "6287f51dfd8a3e3f5c27fa68ed2fce176e0e8e38cdeb98aba383aa020c3c5fa2",
+      "text": "The full post-Lifecord action order is unconfirmed. No particular turn is unconditionally safe."
+    },
+    "preparation.0": {
+      "sourceHash": "4fc6aa95555cae0fe64f1d2f044ec892f253c94234da437233109f83895ee2b9",
+      "text": "Shop toward Customer Lv. 45 and Ruby. Prepare strong clashes and E.G.O resources for the Lv. 50 enemy's level advantage."
+    },
+    "preparation.1": {
+      "sourceHash": "5e876fb2aa646fdb1509a36e5e921df32aad240dd3ba30842d8ce7b7565fb8da",
+      "text": "Meursault, Faust, and Heathcliff are required. Check Blunt resistance, sin resistance for Wrath/Gluttony major skills, and HP recovery. Injured Sinners are targeted, so do not wait until the brink of death to heal."
+    },
+    "preparation.2": {
+      "sourceHash": "7044baf3fb49a951c7cd9871bba486396e03042e7251428585fd954690ea7f23",
+      "text": "Bring Lust, Sloth, and Gluttony damage for the Lifecord. The Body's Wrath and Gloom resistances are ×0.75. Check team resources so defense and E.G.O can prioritize survival."
+    },
+    "roles.0.name": {
+      "sourceHash": "ba24940e4a81e8a331a207c1743a0f4eeeac9fe764344ab07fa74c49c644b0c3",
+      "text": "Damage to destroy the Lifecord"
+    },
+    "roles.0.reason": {
+      "sourceHash": "93b3009f0ba7472b4eb087f8a0a430b8a479d472085322842e59818093d0fcbd",
+      "text": "Break it during Rampage to enable 3 Fragile on the Body afterward."
+    },
+    "roles.1.name": {
+      "sourceHash": "7099d5e0f8d00167d598b53680aeb11f10265896cf9156800c898b2a62ea9184",
+      "text": "Healthy, fast, high-Power clasher"
+    },
+    "roles.1.reason": {
+      "sourceHash": "efb55ff6a58846cd7eeab6db8499a46d87f6f112f1d4ecc25c56d547c508b4eb",
+      "text": "Intercept low-HP-targeting major attacks for 80%/95% reduction. Check both Bleed and Speed when assigning."
+    },
+    "roles.2.name": {
+      "sourceHash": "b757e8d5363de469ef68378b92d2fded4df42b19f126e2911482303635b8667f",
+      "text": "HP recovery and E.G.O for Baptism management"
+    },
+    "roles.2.reason": {
+      "sourceHash": "0f8aba4b578f233d25a37e3baf4de3bad05b47bb65dc4b06b3236616dd8ff872",
+      "text": "Use fewer basic attacks on Sinners with high Baptism and recover Bleed and Unbreakable damage."
+    },
+    "units.0.name": {
+      "sourceHash": "077e89f1494a216aa0ef7165b49b4487c514313e368e4da19f1e6d26c3554bf5",
+      "text": "The Crimson God [Inchoate Life] [Body]"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "f0b220328e526ffbf2d3ade1c36be9dcd3833582a977613e5ec773a8594ae3ce",
+      "text": "Main body 4,494 / Body part 2,439"
+    },
+    "units.0.stagger": {
+      "sourceHash": "53e6f7c2b7cd3e53a9684b28367a4f8cd2a7e657572e619d8fdc3fd61dcdbcd6",
+      "text": "65%, 35%, and 0% (1,585, 853, and 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "66a9517bbb57ec9745d6f01cec5c8f612a6716515c642f5fc66327493a2f6a53",
+      "text": "Main-body HP and part HP are separate values."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "47e4897a9e8144b798a526337eec7fee2702072b17c2167b0e01b84b8172a019",
+      "text": "Cannot be Staggered during Rampage. Gains 3 Fragile next turn after Lifecord destruction."
+    },
+    "units.1.name": {
+      "sourceHash": "0a97e288c6b8ae4ae143dfc05d25958ab01c6a9b0ff733cd24fe51dc4e3c248d",
+      "text": "The Crimson God [Inchoate Life] [Lifecord]"
+    },
+    "units.1.part": {
+      "sourceHash": "7b5de0d048b2ff2e89b23cb8bea2f3a6d7dd4386686bae07ad64e8d8c172acc0",
+      "text": "Lifecord"
+    },
+    "units.1.stagger": {
+      "sourceHash": "94cd264644a6daec12e3c5b6886754342e78da8d60eba4b1e19fb4e0d9102909",
+      "text": "20% and 0% (404 and 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "207b7f8c33965f273791041ad6043736b231925ba79c516348f6559e8e1a7b69",
+      "text": "Excisable. Destruction cancels actions and destroys slots; cannot be attacked further afterward."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "f5f68684329642e595a93f1d0b2375cdd33e5d7a7f392d08dd10b39ba158a575",
+      "text": "At Turn Start outside Rampage and Stagger, has 5 Protection and support through the Body's Self-preservation."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "0fc59ace233090b50ae8def35845b27ab6a9e4810ce81fcb26d1778785d81f01",
+      "text": "Can be destroyed during Rampage. Prioritize it to end persistent Rampage below half HP."
+    },
+    "units.2.name": {
+      "sourceHash": "675ade2c20abbe9ed6f89bfc6175d313e3ffe372660d74b9a8e43511908ad8a2",
+      "text": "Ripped Flesh of the Crimson God"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "cf1211da3395d196a83a4f766b81009a7cc17ad65160fcc9dfe6569f57a9fc7b",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "75b78862f8a4be3581bba31bdf1dd1b3a03c7ebc54f4ef3ccd79fc0d7fd9a6e9",
+      "text": "Cannot fall below 1 HP while Instinctive Cling to Life remains; dies when the effect expires."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "56d9cb59e52d529ad8f216ee96baa9772989392bd4cbb1a7f9e8769708bd8b0b",
+      "text": "Created next turn after killing a Sinner with at least 3 Baptism [Crimson] during Rampage. Maximum three units."
+    },
+    "skills.0.name": {
+      "sourceHash": "202c729093300f16ab07cfb7dcd0fa0812684576f2d8bf693d66c03c91bfad40",
+      "text": "Hrgh..."
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a822c3c37405bf88138eaa157d3903345fba0b50a2ef1e90f61c0c4e01a16672",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "44cc9aeccd4955e2c07c519930307a91306e66fdaa8a720ee38ed6d5f5481550",
+      "text": "[On Use] If the target has no Bleed, damage −80% and convert all Coins to Unbreakable Coins"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "91044757d1c65706da99ed40512842de13f874ddfbe7981145ac5de8ac3a0bdd",
+      "text": "[Clash Win] Remove one random positive effect from the main target, excluding Charge and Poise; gain 1 A Seized Something."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "9a46640ec5c9a57bc1f4ddeff77de0719c6b250ad23a93c607e42770186f79be",
+      "text": "[On Hit] Inflict 2 Baptism [Crimson]"
+    },
+    "skills.0.response": {
+      "sourceHash": "f4a8b51458e251234ab2ceb6de4924164518468cb63d0cba2a90c93062eb69e4",
+      "text": "Against a Bleed-free target, gains 80% damage reduction and Unbreakable conversion on use. Check the target's Bleed and remaining hits and Baptism after a clash win."
+    },
+    "skills.1.name": {
+      "sourceHash": "385218b36b58cc8eef160a431afe68dc6c41bfb1120c95adab0901645d2a0174",
+      "text": "Nngh..."
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a822c3c37405bf88138eaa157d3903345fba0b50a2ef1e90f61c0c4e01a16672",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "44cc9aeccd4955e2c07c519930307a91306e66fdaa8a720ee38ed6d5f5481550",
+      "text": "[On Use] If the target has no Bleed, damage −80% and convert all Coins to Unbreakable Coins"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "e60b19aa7bb40d088531ff7a9686cdeb8bce10c803c028d3a07ebb138b5b85d0",
+      "text": "[On Hit] Remove one random positive effect from the target, excluding Charge and Poise; gain 1 A Seized Something."
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.1.response": {
+      "sourceHash": "2665ed6ce023b073ee54b2d6cf688ff6436893cbb90b140f25a191b3571c46e8",
+      "text": "Gains 80% damage reduction and Unbreakable conversion against targets without Bleed. Hits add Baptism, and Coin 1 also steals a positive effect. Prevent unopposed attacks against Sinners with Bleed."
+    },
+    "skills.2.name": {
+      "sourceHash": "d07107df78419ade195bf204d22377d2116f5eb2b33765f8a2da855f17fa91b8",
+      "text": "Pw... ffeh..."
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "ba15223a46b8c1732f858f177aa0c69f3931b1d0acee90e058d08039fcb0593b",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 3)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "ee16f457b6aa52c83c6923d91ede9bd2fdb567ea49d3676d417647a6f88b9735",
+      "text": "[On Use] If the main target has no Bleed, damage −80% and convert all Coins to Unbreakable Coins"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "e60b19aa7bb40d088531ff7a9686cdeb8bce10c803c028d3a07ebb138b5b85d0",
+      "text": "[On Hit] Remove one random positive effect from the target, excluding Charge and Poise; gain 1 A Seized Something."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.2.response": {
+      "sourceHash": "361c87e634d3b247e976d1d95960f3f1bc0d7d043eb85866ce1923149599ccd9",
+      "text": "3 Atk Weight. A Bleed-free main target gives 80% damage reduction and Unbreakable conversion. Check Baptism on every area target after the attack too."
+    },
+    "skills.3.name": {
+      "sourceHash": "4b3c1cb835818e23f38d607012a5f3bd657d76d6301ced4602b16e8a6fa5befc",
+      "text": "It's... cold..."
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "e30bfdacb463ccccefc6c5ed62c81c40b4779da6ed51e393d1c70ee26b390e4a",
+      "text": "Prioritizes the target with the lowest HP"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "b81ba9c913db9545cc28ca3e294017dfc2992af6a53d171b9ab868898dc823ec",
+      "text": "Damage +5% per 1% HP the target has lost (max 250%)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "5de32f60edbbd3cfa087f0adb58b00526eae7a5d4f5c59036868b90c49332bde",
+      "text": "[On Use] Final Power +2 per 4 Bleed on the main target (max 4)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "f23f3df0adf23b0baf8a1a33b7b973233aef0f4519d73d3963fd1d1215727550",
+      "text": "[On Use] If the main target's HP is below 50%, Base Power +3"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "0d96f54796e6a02733d8b7c10f590b8690df07fd449f507cad6a698e16a03ff0",
+      "text": "[Clash Win] Remove one random positive effect from the main target, excluding Charge and Poise; gain 2 A Seized Something."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "3a07790e745fb2d9efd577f61b8f9aca578dc79fc7273d041e4ebb222c2aa341",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "7f9658ab00f74bc2e64a3b453d7e846f5b3cdf2d4335500b90ec20ca3e6a5f24",
+      "text": "[On Hit] Inflict 4 Bleed."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "0f62994217d1ea4c3291b62134ce26cd06cba6fb887766a57dae6fe3c0fee96b",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Baptism [Crimson]"
+    },
+    "skills.3.response": {
+      "sourceHash": "c2ee632ab1d8d5b68426848712f5d175960622c6ad26d6f63ec9c519788e60a5",
+      "text": "Targets low HP and gains up to 250% damage from lost HP. Redirect to a Sinner with high HP and little Bleed, then win for 80% reduction."
+    },
+    "skills.4.name": {
+      "sourceHash": "049563178db95064794348841022c3f4afc279098c51fe09513cf3e290682e78",
+      "text": "It hurts...! My body... won't listen..."
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0a1d38b8f0a365f6370d74e50234aff518633874a5e8e7f5d0d5430aeb0c5e28",
+      "text": "Prioritizes the lowest-HP target as main target"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "7bd6e290c8954b717298206e90dc855968215de3e92f5f2937f8a9735ffd04f9",
+      "text": "Damage +5% per 3% HP the target has lost (max 50%)"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "5de32f60edbbd3cfa087f0adb58b00526eae7a5d4f5c59036868b90c49332bde",
+      "text": "[On Use] Final Power +2 per 4 Bleed on the main target (max 4)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "460808704e80b568050db88d98729dc14093f2d2a945609d62087579ef48647e",
+      "text": "[On Use] If the main target's HP is below 50%, Base Power +2"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "0d96f54796e6a02733d8b7c10f590b8690df07fd449f507cad6a698e16a03ff0",
+      "text": "[Clash Win] Remove one random positive effect from the main target, excluding Charge and Poise; gain 2 A Seized Something."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "3a07790e745fb2d9efd577f61b8f9aca578dc79fc7273d041e4ebb222c2aa341",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.4.effects.12": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.effects.13": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.effects.14": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.15": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.4.effects.16": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.effects.17": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.4.response": {
+      "sourceHash": "cf8769c13db4f32bfbb0b38f522c55f5633bba455fb2dfd671574bbbfb1b73a6",
+      "text": "An Unbreakable skill with 3 Atk Weight targeting low HP. Gains Base Power if the main target is below 50% HP. Win with a healthy Sinner for 80% reduction and Stagger prevention."
+    },
+    "skills.5.name": {
+      "sourceHash": "206c09f7ca532a8619e4818f70ee59b3b8bc3230274e71e888f1ea7e7016150b",
+      "text": "Hungry... cold... hurts...!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "0a1d38b8f0a365f6370d74e50234aff518633874a5e8e7f5d0d5430aeb0c5e28",
+      "text": "Prioritizes the lowest-HP target as main target"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "7a5aebbc296d2416bee7d40ea7ee7b948c739e5982d3d927ce4dbfc0d1c8284a",
+      "text": "Damage +1% per 1% HP the target has lost (max 30%)"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "79b85006857c6c37e7d10ca690528ae76d0c47a99d8f2d719505526cf11c2660",
+      "text": "[On Use] Coin Power +1 per 6 Bleed on the main target (max 2)"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "460808704e80b568050db88d98729dc14093f2d2a945609d62087579ef48647e",
+      "text": "[On Use] If the main target's HP is below 50%, Base Power +2"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "f4727e7410789487794ddd3460933799a4ae465140dbbcb9c37f34f6c12f019b",
+      "text": "[On Use] At 10 or more Pulsation Count, consume all Count for +2 Coin Power and +2 Atk Weight"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "e7aa7c64a15f9e594298fe0674bc4c7981b88eddfc4599ad6cb90d1aa65d0315",
+      "text": "[Clash Lose] Damage −95%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "b01c4ff7ec37c3b564540f04bbe28244266ccf2e26134273c65d9a5fc07724d8",
+      "text": "[On Hit without Coin Destruction] Inflict 6 Bleed"
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "6faf28c1cbcd932d565befc3967953874ac4dafa5959c0e2a965a8e9ddcf437d",
+      "text": "[On Hit without Coin Destruction] Trigger the target's Bleed once; reduce Bleed Count by 1"
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.5.effects.13": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.5.effects.14": {
+      "sourceHash": "6faf28c1cbcd932d565befc3967953874ac4dafa5959c0e2a965a8e9ddcf437d",
+      "text": "[On Hit without Coin Destruction] Trigger the target's Bleed once; reduce Bleed Count by 1"
+    },
+    "skills.5.effects.15": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.5.effects.16": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.5.effects.17": {
+      "sourceHash": "6faf28c1cbcd932d565befc3967953874ac4dafa5959c0e2a965a8e9ddcf437d",
+      "text": "[On Hit without Coin Destruction] Trigger the target's Bleed once; reduce Bleed Count by 1"
+    },
+    "skills.5.response": {
+      "sourceHash": "fb15ad4793869635cf3a6f9dc707224d08671947167e7957b778c7e97829219d",
+      "text": "Four Unbreakable Coins and 5 Atk Weight; at 10 or more Pulsation Count, Coin Power +2 and Atk Weight +2. Prioritize your strongest clash for 95% reduction and prevention of extra effects on hits without Coin destruction."
+    },
+    "skills.6.name": {
+      "sourceHash": "8e4063166af10f1dd6b666547417c10ce8b6ec66fc7b455593f70d624d770fd7",
+      "text": "Go... away..."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "25bb7677302f1704a70dfcdc894b8544210e2438a300eda2edfeb8dea0ebef3b",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 2)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "37ee56edec2310650ffaac5d7c04ebdb2b8f984147e6337f577f8ff4e0a69968",
+      "text": "[Clash Win] Gain 3 Pulsation Count"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.6.response": {
+      "sourceHash": "df51de019cc16bb4c488b793e64895c0933036ab001da9d46caa701906699137",
+      "text": "A regular Sloth skill. Enemy clash wins grant 3 Pulsation Count; win to prevent that, Bleed, and Bind."
+    },
+    "skills.7.name": {
+      "sourceHash": "42237fb57beeb4bf52360b3ed4123ee1bfad3384eca3fd38f028e8bd4f2bfb0d",
+      "text": "I'm... hungry..."
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "25bb7677302f1704a70dfcdc894b8544210e2438a300eda2edfeb8dea0ebef3b",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 2)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "37ee56edec2310650ffaac5d7c04ebdb2b8f984147e6337f577f8ff4e0a69968",
+      "text": "[Clash Win] Gain 3 Pulsation Count"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.7.response": {
+      "sourceHash": "2a3c7ed2bb5a8fd6c52957e606427aafaa9daa91060f2eadf792b928be4909d5",
+      "text": "Two Sloth/Blunt Coins. Win to prevent enemy Pulsation gains, Bleed, and next-turn Bind. A target with high Bleed also raises its Power."
+    },
+    "skills.8.name": {
+      "sourceHash": "bc6f81e3230d1c6dc8f9a8d5aafc00b80ccc832ae57518ef7757e9747695a6e3",
+      "text": "Something... to eat... Anything..."
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "25bb7677302f1704a70dfcdc894b8544210e2438a300eda2edfeb8dea0ebef3b",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 2)"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "37ee56edec2310650ffaac5d7c04ebdb2b8f984147e6337f577f8ff4e0a69968",
+      "text": "[Clash Win] Gain 3 Pulsation Count"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.8.response": {
+      "sourceHash": "4c2f90c9bf667149042e158b2dd37c2af1a5093546e3545cbf94f4278eecc66a",
+      "text": "A Sloth/Blunt skill with 3 Atk Weight. Enemy clash wins add Pulsation Count. Ordinary Coins can be stopped by winning."
+    },
+    "skills.9.name": {
+      "sourceHash": "296424b26f265c69038715caf5b366dc247cff6d68b3ce8be84374d740d67478",
+      "text": "I hear... the Voice..."
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "79b85006857c6c37e7d10ca690528ae76d0c47a99d8f2d719505526cf11c2660",
+      "text": "[On Use] Coin Power +1 per 6 Bleed on the main target (max 2)"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "ab9bedbcf5bfe49e63d57ee25c618e8e3186a23cd5b7cf529e4d75d76c6164cb",
+      "text": "[On Use] If Pulsation Count is below 15, raise it to 15 and gain 1 Exhausted next turn per 5 Count added"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "3a07790e745fb2d9efd577f61b8f9aca578dc79fc7273d041e4ebb222c2aa341",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.9.response": {
+      "sourceHash": "f47b5f48123733c01f8658412522a4b2d0f08912034ee11c6963b3388a328b1f",
+      "text": "Three Unbreakable Coins. Winning grants 80% reduction, but cannot prevent the on-use refill to 15 Pulsation Count. Expect next-turn Rampage and Exhausted, and save Lifecord damage."
+    },
+    "skills.10.name": {
+      "sourceHash": "e19c5da2da5b8a5b80890348ab88e5223eb08664b3b27b5e326017b5b166a658",
+      "text": "Don't... do that..."
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "270443172ea9f439f3c592cc5d0ea623396cef70725351171326e515a8587bd2",
+      "text": "[Clashable Guard]"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "9b493a0b8efb3fa95af4074d60ebbc98d3d9fe1a6e76b7186f1b4141488d5862",
+      "text": "Assist Defense skill only"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "f252e58cbaad3765c7e9761ba32b49d479f68fd481bc2f953fbbf7dbbc6bd227",
+      "text": "[On Use] Gain a Shield equal to (Pulsation Count × 10)"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "37ee56edec2310650ffaac5d7c04ebdb2b8f984147e6337f577f8ff4e0a69968",
+      "text": "[Clash Win] Gain 3 Pulsation Count"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.10.label": {
+      "sourceHash": "02986c5ff3dfd184cbbd76a4172d8b5b4d8133f342faf63525b028f753e3483a",
+      "text": "Assist Defense only · Clashable Guard"
+    },
+    "skills.10.response": {
+      "sourceHash": "aca3e6a526a786446bc036a63c4387824a04928679cfa14c8fb0a7779cdb4150",
+      "text": "An Assist Defense-only Clashable Guard triggered by Self-preservation. Unopposed Lifecord attacks are intercepted by the Body. Avoid forcing them outside Rampage; target the Lifecord during Rampage instead."
+    },
+    "skills.11.name": {
+      "sourceHash": "f59ed4944b3bde7124105e52b4ebbe841f9ed0c8a9170fdadbda3d7aa3055f08",
+      "text": "I... wanna..."
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "c09a30095712179ec490e4a56a00430c922beae2cb911ec378627c7ddb54ca8d",
+      "text": "At 6 or more Bleed on self, Coin Power +1"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "5de32f60edbbd3cfa087f0adb58b00526eae7a5d4f5c59036868b90c49332bde",
+      "text": "[On Use] Final Power +2 per 4 Bleed on the main target (max 4)"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "2c39b0fe8e8c206dbc60ad14e1374724a2f67e21210e345b6bb88928e7bda1fd",
+      "text": "[Clash Lose] Lose 2 Pulsation Count"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "3a07790e745fb2d9efd577f61b8f9aca578dc79fc7273d041e4ebb222c2aa341",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.11.response": {
+      "sourceHash": "14fbde5ba887bbc2a59d0d169efc18aa5126222143cb7f65125d2219133c4a8c",
+      "text": "Gains Coin Power at 6 or more enemy Bleed. Winning grants 80% reduction and removes 2 Pulsation Count. Also check Final Power from Bleed on your target Sinner."
+    },
+    "skills.12.name": {
+      "sourceHash": "2d3b534360a72f4a706282370828c056c153925215979f602ec4121e2cee7ee3",
+      "text": "What... am I...?"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "ba15223a46b8c1732f858f177aa0c69f3931b1d0acee90e058d08039fcb0593b",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 3)"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "1b84ef255256ccffde25e7a3b3dc827e20ac9573d4da0959490b0f34f32276d7",
+      "text": "[On Use] At 10 or more Pulsation Count, consume 10 for +2 Coin Power"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "3a07790e745fb2d9efd577f61b8f9aca578dc79fc7273d041e4ebb222c2aa341",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger its targets"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "705565f506fe89c16a590200627c79097c4da03ab6545c24b3ddd53135a426b8",
+      "text": "[On Hit without Coin Destruction] Inflict 4 Bind next turn"
+    },
+    "skills.12.response": {
+      "sourceHash": "e77cb11e61f50aecd908390c9a3b3296d81a53eecc648dd1c67a7e6799fa38e8",
+      "text": "Consuming 10 Pulsation Count grants +2 Coin Power. Check beyond the base maximum of 17 and win with high Power for 80% reduction. An undestroyed third Coin inflicts 4 Bind next turn."
+    },
+    "skills.13.name": {
+      "sourceHash": "d856a2385b22d2c94181e71d632a4efe6610e69c78017c34ad54199ea370de07",
+      "text": "Feeble Beckoning"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "461fd1da74b87454802a014858c127b6df8794680e46734281a50d99b32d072e",
+      "text": "[On Hit] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "234cb177aa7ef75d0cf45f77a76e555fa301d952a97b61bbc298ce340f5b4b12",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Baptism [Crimson]"
+    },
+    "skills.13.response": {
+      "sourceHash": "7ec1086af82a5b7ad23fc49a7d1647bb62b4d1b8b262ee5bf8f62a14cd691f6a",
+      "text": "Unbreakable means 1 Baptism [Crimson] remains even after winning. Flesh cannot be killed through HP damage alone. Reduce Instinctive Cling to Life through attacks and time."
+    },
+    "passives.0.name": {
+      "sourceHash": "77d06b6ec29549d4600a2154a06271515b00c50e03c1b4466f28e82c05a0d0c1",
+      "text": "The Preterm Crimson God"
+    },
+    "passives.0.effect": {
+      "sourceHash": "f634c90908d46d4dc20f991a8f1d8e18d43f73add16dc2da5cf004ec52d0ff43",
+      "text": "Pulsation Count does not decrease at Turn End.\nDuring a clash, gain 1 Count whenever the target's Bleed triggers.\nOn defeating a target, gain Count equal to their Bleed Potency + Count.\nAt Turn Start, heal 3 SP per Pulsation Count."
+    },
+    "passives.0.condition": {
+      "sourceHash": "5cc414e2c4b80eb1ecb8c6108b4dbd0a8034c83cadc741e82630788c3f0d3215",
+      "text": "Bleed triggers; target kills; Turn Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "2f2a1b9ed8dcf4d3144d2eca9cafd83e90f9bd905e54a5ef7616979b187ac334",
+      "text": "Pulsation lacks the normal Turn End Count reduction. Repeated basic attacks with Bleeding Sinners drain allies and strengthen the enemy together."
+    },
+    "passives.1.name": {
+      "sourceHash": "d083fc348ffed0379313b31bf815a65f6e438c698b7db6ee867db0e0976d3564",
+      "text": "Roseate Pulsation of Musculature"
+    },
+    "passives.1.effect": {
+      "sourceHash": "dfcbabb3e70b2c4e3cd15c48065f7fefeff1c942262ecfac0c1886363c8f0ee0",
+      "text": "At Turn Start without Uncontrollable Rampage and with at least 15 Pulsation Count, consume all Count to gain Rampage.\n\nWhile Rampaging:\n- On Skill Use, gain 3 Bleed Count.\n- On skill hit, gain 1 Bleed.\n- When a part is attacked, gain 1 Sac of Suffering.\n- On Clash Lose, gain 3 Sac of Suffering.\n- Killing a target with at least 3 Baptism [Crimson] creates Ripped Flesh of the Crimson God next turn.\n- At Combat End, heal 3 SP per enemy with Baptism [Crimson].\n\nWhen Rampage expires at Turn End, if the combined Sac of Suffering is at least 30, weaken next turn's pattern and Stagger all Ripped Flesh on the field.\n\n※ E.G.O and Defense Skills reduce Baptism [Crimson].\n※ Ripped Flesh gains Instinctive Cling to Life equal to the dead target's Baptism.\n※ Ripped Flesh with that effect cannot die.\n※ At most three Ripped Flesh can be created on the field."
+    },
+    "passives.1.condition": {
+      "sourceHash": "33681635c14ea81c23b60044fae975b4de901759bd4316e5c82ec16e66889e98",
+      "text": "At least 15 Pulsation Count; during Rampage; Rampage expiry"
+    },
+    "passives.1.response": {
+      "sourceHash": "528609cb13df7ec6b30e8cdaf3534ac847635a39aceac4738ca6a1814aadc101",
+      "text": "Attack the Lifecord during Rampage, building Sac of Suffering through clash wins and hits. At a combined total of at least 30 when Rampage expires, next turn's pattern weakens."
+    },
+    "passives.2.name": {
+      "sourceHash": "40e399dbee4c0a51af86952a67ab5edc6ea8f1111f2ad88db825a788abe34db7",
+      "text": "Disparity"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8bbc21ef81e83c0ed76f4c82ac1bbb0a616669410a29db063fa6b9d0bdfb6107",
+      "text": "Damage against targets slower than the user +50%"
+    },
+    "passives.2.condition": {
+      "sourceHash": "f4989951acef3c35b07943ab063a7fe56545429b9a12b42b304ddb2421792518",
+      "text": "Attacking a slower target"
+    },
+    "passives.2.response": {
+      "sourceHash": "c7c80dafbe6ba59697dce7bde1ec43ec0e3800aefd3283df6861844fe46ad009",
+      "text": "Deals 50% more damage to slower Sinners. Consider Speed when assigning targets and avoid concentrating dangerous skills on a Bound Sinner."
+    },
+    "passives.3.name": {
+      "sourceHash": "a8bd55c0d2bedacb975ce37966edc063c6f384098433ca26e75aa60c274cc34b",
+      "text": "Rampage of a Violent, Traumatic Birth"
+    },
+    "passives.3.effect": {
+      "sourceHash": "862407783fda7170c2da63e08393775c690ddbd44ddcb78780526616fa62cb1b",
+      "text": "At Turn End with the Lifecord intact and main-body HP below 50%, gain Uncontrollable Rampage.\nAfterward, Rampage stacks do not decrease until the Lifecord is destroyed."
+    },
+    "passives.3.condition": {
+      "sourceHash": "be6bc45e65f6a9c26d553126d8743977eb6cff710568024d7c17f261357fc610",
+      "text": "Lifecord intact; main body below 50% HP at Turn End"
+    },
+    "passives.3.response": {
+      "sourceHash": "e94c5484ca0339b82340e07b0b500081569c20c6eb16c2a1261a78c39b5e898f",
+      "text": "Rampage stacks stop decreasing until the Lifecord is destroyed. Break it during Rampage rather than damaging only the Body and prolonging the battle."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.4.condition": {
+      "sourceHash": "390373ae2e9d8b71e78e645579b8b75b62a09ecaffe02b2c372dbf8c42c4c92f",
+      "text": "Panicked at Turn End"
+    },
+    "passives.4.response": {
+      "sourceHash": "8e03cd63ac9ce47e3af50f69cbe520fa7be89c5f2e14e982f4696cf731cedbad",
+      "text": "SP returns to 0. Do not assume it stays low; check Power every turn."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.5.response": {
+      "sourceHash": "5627a944df1375686aec7bb6b2ad8fa6891038b58bfd3a1dce443ca489f744be",
+      "text": "Panic Type stays unchanged and applies the alternative effects for targets without SP. Do not rely on a special Panic to disable the enemy."
+    },
+    "passives.6.name": {
+      "sourceHash": "358a9fec158996cc0f87cf440866ab4372df5cdd925b10ad8a0de124714ad785",
+      "text": "Severed Lifecord"
+    },
+    "passives.6.effect": {
+      "sourceHash": "0f701b5ab2500db230fc7d636a0560205264cf2181c4e54dfcb69ea3c3572cbc",
+      "text": "With the Lifecord destroyed, at Turn End grant the Body part 3 Fragile next turn"
+    },
+    "passives.6.condition": {
+      "sourceHash": "75614c41b59540fbaf4afa164ef532686ed5c39f5a388d84db7fa380f20a2abb",
+      "text": "Turn End after Lifecord destruction"
+    },
+    "passives.6.response": {
+      "sourceHash": "8c717395890454e7e8126121b0730b785fc69b132494543805738894eb205bd8",
+      "text": "Grants the Body 3 Fragile next turn. The destroyed Lifecord cannot take follow-up attacks, so focus remaining damage on the Body."
+    },
+    "passives.7.name": {
+      "sourceHash": "b230cb947c608946302d4bbb9067234497d879fb2823ac3a05e8f28fbcff9235",
+      "text": "Survival Instinct"
+    },
+    "passives.7.effect": {
+      "sourceHash": "251a50926ea01952086516a268b15ea2a703fdd3a5872d9dc17b3efd8cfb2836",
+      "text": "At Turn Start, gain 1 Self-preservation and grant the Lifecord 5 Protection.\nDoes not activate while Rampaging or Staggered."
+    },
+    "passives.7.condition": {
+      "sourceHash": "5e561748aea7c0564737c7de0e291085d91d105d66da2a774dc8c6940f073e21",
+      "text": "Turn Start outside Rampage and Stagger"
+    },
+    "passives.7.response": {
+      "sourceHash": "4469a1cc392c194c0855e761042ddf4d7f8ef6c71d8b000aac6742af013b89e5",
+      "text": "Grants 1 Self-preservation and 5 Protection to the Lifecord. Inactive during Rampage, so concentrate Lifecord-breaking damage then. Distinct from Flesh's Instinctive Cling to Life."
+    },
+    "passives.8.name": {
+      "sourceHash": "556c57811032cb0799ebbb963051b4026a887fc75f3c92be5287ef192fe0f5ed",
+      "text": "Mindless Pulsation"
+    },
+    "passives.8.effect": {
+      "sourceHash": "2d847dda786f4115a05a4942670f3a603723d060e2eed9f17e59f2abbde6a306",
+      "text": "- On spawning, gain Instinctive Cling to Life equal to the dead target's Baptism [Crimson].\n\nDie when Instinctive Cling to Life expires."
+    },
+    "passives.8.condition": {
+      "sourceHash": "e02a6b3813d9ea5475f3e3e28eb807764048ad19c431611366923647b3c88f87",
+      "text": "Flesh created from a dead target with Baptism [Crimson]"
+    },
+    "passives.8.response": {
+      "sourceHash": "4d0feec134bcf4d0a4355d4228a32cd730c8e91465703f22e45cc7f13d4bf99c",
+      "text": "Starts with Instinctive Cling to Life equal to the dead Sinner's Baptism. Remove stacks through attacks or wait for expiry; large damage against 1 HP is unnecessary."
+    }
+  },
+  "messages": {
+    "boss-copy:red-god-unborn": "complete",
+    "【リンバス】10-04 赤き神［未生］（10章A）の攻略｜Limbus Assistant": "10-04 The Crimson God [Inchoate Life] (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「赤き神［未生］（10章A）」の攻略。洗礼[赤]を守備・E.G.Oで減らし、出血を抱えたまま基本攻撃を連打しないことが大切な戦闘。暴走中に命綱の保護と援護防御が外れる隙を使い、命綱を破壊し…": "The Crimson God [Inchoate Life] (Canto X A) guide for Limbus Company 10-04. Reduce Baptism [Crimson] with defense and E.G.O instead of repeatedly using basic attacks while Bleeding. Destroy the Lifecord during Rampage, when its Protection and Assist Defense are inactive, then attack the Body. Win low-HP-targeting Unbreakable area clashes with healthy Sinners to limit damage.",
+    "10-04 赤き神［未生］（10章A）": "10-04 The Crimson God [Inchoate Life] (Canto X A)",
+    "10-04「Sisyphus Department Store A, 2F: Luxury Floor Cradle」": "10-04 · Sisyphus Department Store A, 2F: Luxury Floor Cradle",
+    "赤き神［未生］［胴体］の外見": "The Crimson God [Inchoate Life] [Body] appearance",
+    "赤き神［未生］［胴体］のスキル": "The Crimson God [Inchoate Life] [Body] skills",
+    "The Crimson God [Inchoate Life] [Body]の外見": "The Crimson God [Inchoate Life] [Body] appearance",
+    "The Crimson God [Inchoate Life] [Body]のスキル": "The Crimson God [Inchoate Life] [Body] skills",
+    "赤き神［未生］［命綱］の外見": "The Crimson God [Inchoate Life] [Lifecord] appearance",
+    "赤き神［未生］［命綱］のスキル": "The Crimson God [Inchoate Life] [Lifecord] skills",
+    "The Crimson God [Inchoate Life] [Lifecord]の外見": "The Crimson God [Inchoate Life] [Lifecord] appearance",
+    "The Crimson God [Inchoate Life] [Lifecord]のスキル": "The Crimson God [Inchoate Life] [Lifecord] skills",
+    "赤き神の引きちぎられた肉片の外見": "Ripped Flesh of the Crimson God appearance",
+    "赤き神の引きちぎられた肉片のスキル": "Ripped Flesh of the Crimson God skills",
+    "Ripped Flesh of the Crimson Godの外見": "Ripped Flesh of the Crimson God appearance",
+    "Ripped Flesh of the Crimson Godのスキル": "Ripped Flesh of the Crimson God skills"
+  }
+}

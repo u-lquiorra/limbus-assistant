@@ -1,0 +1,1275 @@
+{
+  "kind": "boss-copy",
+  "id": "lei-heng",
+  "source": "src/data/bosses/lei-heng.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "ケセドの慈悲",
+          "en": "Chesed's Mercy",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Chesed_Mercy"
+        },
+        {
+          "ja": "オーバーヒート",
+          "en": "Overheat",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Complacency"
+        },
+        {
+          "ja": "天退星",
+          "en": "Tiantui Star [天退星]",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Irritation"
+        },
+        {
+          "ja": "獲物",
+          "en": "Prey",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Prey"
+        },
+        {
+          "ja": "振動 - 灼熱",
+          "en": "Tremor - Scorch",
+          "file": "Bufs-a1c8p3.json",
+          "id": "VibrationIgnition"
+        },
+        {
+          "ja": "レイホン",
+          "en": "Lei Heng",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1145"
+        },
+        {
+          "ja": "親指幹部 カポIIII",
+          "en": "The Thumb's Officer, Capo IIII",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114501"
+        },
+        {
+          "ja": "東部十剣",
+          "en": "Ten Blades of the East",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114502"
+        },
+        {
+          "ja": "獲物選び",
+          "en": "Chosen Prey",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114503"
+        },
+        {
+          "ja": "天退星刀",
+          "en": "Tiantui Star's Blade [天退星刀]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114504"
+        },
+        {
+          "ja": "虎標弾装填",
+          "en": "Tigermark Round Reload",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114505"
+        },
+        {
+          "ja": "レイホン【雷横】",
+          "en": "Lei Heng [雷橫]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114506"
+        },
+        {
+          "ja": "天退星",
+          "en": "Tiantui Star [天退星]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114507"
+        },
+        {
+          "ja": "小指 天退星雷横",
+          "en": "Lei Heng, The Pinky's Tiantui Star",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114508"
+        },
+        {
+          "ja": "天退星刀オーバーヒート",
+          "en": "Tiantui Star's Blade - Overheat",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114512"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114513"
+        },
+        {
+          "ja": "猛虎標弾支援",
+          "en": "Savage Tigermark Support",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "117101"
+        },
+        {
+          "ja": "二連斬",
+          "en": "Double Slash",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114501"
+        },
+        {
+          "ja": "三連撃",
+          "en": "Triple Slash",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114502"
+        },
+        {
+          "ja": "二連斬-【爆】",
+          "en": "Double Slash - Blast [爆]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114503"
+        },
+        {
+          "ja": "三連撃-【爆】",
+          "en": "Triple Slash - Blast [爆]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114504"
+        },
+        {
+          "ja": "爆砕斬",
+          "en": "Blasting Shatterslash [爆碎斬]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114505"
+        },
+        {
+          "ja": "快刀亂麻",
+          "en": "Tanglecleaver [快刀亂麻]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114506"
+        },
+        {
+          "ja": "超絶猛虎殺撃乱斬",
+          "en": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114507"
+        },
+        {
+          "ja": "天退星刀 装填",
+          "en": "Reloading Tiantui Star's Blade",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114508"
+        },
+        {
+          "ja": "猛虎標弾支援",
+          "en": "Savage Tigermark Support",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "117101"
+        },
+        {
+          "ja": "揷翅虎",
+          "en": "Chachihu [揷翅虎]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114510"
+        },
+        {
+          "ja": "底力",
+          "en": "Inner Strength [底力]",
+          "file": "Bufs-a1c8p3.json",
+          "id": "BattleSense"
+        },
+        {
+          "ja": "極力",
+          "en": "Extreme Strength [極力]",
+          "file": "Bufs-a1c8p3.json",
+          "id": "RestoredBattleSense"
+        },
+        {
+          "ja": "シン(心) - 天退星",
+          "en": "Shin (心) - Tiantui Star [天退星]",
+          "file": "Bufs-a1c8p3.json",
+          "id": "HugeIrritation"
+        },
+        {
+          "ja": "虎標弾",
+          "en": "Tigermark Round",
+          "file": "Bufs-a1c8p3.json",
+          "id": "BulletPropellant"
+        },
+        {
+          "ja": "猛虎標弾",
+          "en": "Savage Tigermark Round",
+          "file": "Bufs-a1c8p3.json",
+          "id": "BulletPropellantSpecial"
+        }
+      ],
+      "note": "Guide spelling variants are resolved against paired Canto VIII part 3 records. Chachihu uses a variant of the first Japanese character; Sigilshattered Bullet uses a different spelling for sigil. Names follow the regular story records rather than Mirror Dungeon or Reflectrial variants. Displayed base levels, averaging, conditional Unbreakable Coins, and source uncertainties are retained."
+    }
+  },
+  "scopedTerms": [
+    "心",
+    "挿翅虎",
+    "E.G.O侵蝕-N社",
+    "傷を舐る"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "58eb3e52f37265a7e1190c808ea14c74d95937f99d31450519596d355c404bd8",
+      "text": "Lei Heng (8-30)"
+    },
+    "shortName": {
+      "sourceHash": "4c4ba54f449a1feda77d7c45d8abd691c2a47b21e9f839b4cc18f779cb9b3aa1",
+      "text": "Lei Heng"
+    },
+    "stageName": {
+      "sourceHash": "082c4ae74277798e4e6b3c2b5b6076e57f323ab9d562734e0578d5b5e873a327",
+      "text": "Heart"
+    },
+    "lead": {
+      "sourceHash": "285565f2574b979f1ea595fdff02a91f0c00a1cc30c9cbe724b52ece1748aa36",
+      "text": "Resolve Blasting Shatterslash late and use defense skills on Prey holders. Limit the Unbreakable hits that remain after clash wins, and prepare healing and damage for buffs that progress with HP loss and elapsed turns."
+    },
+    "statNote": {
+      "sourceHash": "ab625d827eeb5c7a40d01a1529f62f2d8d963bec82fc6affedc87c00cb9edebe",
+      "text": "The regular 8-30 encounter. Displayed Levels, Skill Levels, and Defense Levels are base values before averaging. On turn 2, Chesed's Mercy averages everyone's Offense/Defense Levels and adds allied bonuses; subsequent values depend on the team and in-combat displays, rather than a fixed reduction. Supply units use the individual entry's 226 HP, which differs from the overview's 221."
+    },
+    "skillNote": {
+      "sourceHash": "82459f70658600871b8a4575ad3492a91277665a49ff4217fbb21faf92e355db",
+      "text": "8 regular boss skills and 1 supply skill. Mirror Dungeon hidden-boss additions are excluded. Tanglecleaver and Savage Tigerslayer's Perfected Flurry of Blades show minimum Attack Weight, which increases conditionally. Tiantui Star and Shin (心) - Tiantui Star [天退星] determine when regular skills become Unbreakable. Reload's listed type, effects, and timing differ across entries, with reported bugs."
+    },
+    "priorities.0": {
+      "sourceHash": "ac9cccc2774da49c081d324c65876bb12d4c6a5d16494dc06a389196a4ea6138",
+      "text": "Turn 2's full heal and Stagger recovery can undo opening-turn attrition. Averaging does not raise maximum HP to a fully leveled value; level the main team too."
+    },
+    "priorities.1": {
+      "sourceHash": "95036dd752d1b7e912688ddd923ea7bdeb93cf6fd8034448633d1dc2cef588c6",
+      "text": "Have a later-acting Sinner clash against Blasting Shatterslash, after other skills have reduced ammunition. All 3 Unbreakable Coins remain after winning."
+    },
+    "priorities.2": {
+      "sourceHash": "233c6c131fd197bce51eb17448cf2df915c8889e65419ce3325b6248158ddeba",
+      "text": "Prey gives -5 Clash Power, but equipping a defense skill reduces damage taken from Lei Heng by 75%. Heal before finishers and equip defense skills on Sinners who are not clashing too."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "2785617ab189765d2c3fa316ed075ba48e37d6f05d453ebd37d6e51381a0e903",
+      "text": "Blasting Shatterslash still deals damage after a clash win"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "b789c11972754280542a4741979f56b0594e0710199d3813ee7848e4aa5ce089",
+      "text": "All 3 Coins are Unbreakable. Resolve it late so earlier skills reduce ammunition and limit Burn. Combine Gluttony/Slash resistance, Prey's defensive reduction, and healing beforehand."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "7be10c36af67abea3aa5a3b05c3cb6bd1f8da47a0febe765f7fd1ad74ff64450",
+      "text": "A damage dealer suddenly cannot win next turn"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "7f47ab109fdae4a4915592dcae76f695080d2f42b5cfb55154ab54f4cf603d1b",
+      "text": "Dealing the most damage last turn grants Prey, reducing Clash Power by 5. Use a stronger skill or defend rather than forcing a weak clash. Equipping a defense skill greatly reduces damage."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "27729973c8bc0bea2032673d16cbcf7e83f439f8dc7107b1e61cbab1778c2a08",
+      "text": "The boss strengthened despite little HP loss"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "70ba00794141d6c26c29deef455b09c8404e7222095124f3afb4be00ad247901",
+      "text": "Reloading, Tiantui Star, and late-fight patterns advance with elapsed turns as well as HP thresholds. Do not stall through healing alone; concentrate damage during openings."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "996dbc1f03641db985c4e7cb611b2aa0c813e1c77f9a0a785e0380e06b27bb0f",
+      "text": "Healing scheduled after the finisher never happened"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "c09895544e6e53c6e398e949e503b0e324f39ec39c0743cde365f7b89c5463c9",
+      "text": "Tanglecleaver and Savage Tigerslayer's Perfected Flurry of Blades end the turn after attacking. Heal by the previous turn, and equip defense skills on Sinners who are not clashing."
+    },
+    "units.0.name": {
+      "sourceHash": "4c4ba54f449a1feda77d7c45d8abd691c2a47b21e9f839b4cc18f779cb9b3aa1",
+      "text": "Lei Heng"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.combatLevelNote": {
+      "sourceHash": "4ee64450f8342754248db6df527961ec1da1bcef8a87393365611dbf822c5438",
+      "text": "Before averaging"
+    },
+    "units.0.speed": {
+      "sourceHash": "509ecf6e282a3ce709f68881b0638a14ada91e9335e2274a4e8f8128d8d7d9d9",
+      "text": "2–4 / +10 or +15 on powerful-attack turns"
+    },
+    "units.0.stagger": {
+      "sourceHash": "7d8f32fca6470dcb6a51b59491a5b572d97af5ad804cdae901ad927bee2bb2a6",
+      "text": "70% / 0% (2967 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "4a03722ed441cb99b9bfa4bb179fb4942c8bffc93ab9f9e056b3151b0f62406c",
+      "text": "Base Level 83. From turn 2, Chesed's Mercy changes levels through averaging; do not treat the skill table's base values as current values."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "aa549be4d67aaee4af676e0fe2fad7c012156294e7d60f666a9014f669db7f81",
+      "text": "The listed HP floor is 423. The walkthrough places the ending event at roughly 800 HP remaining; this guide does not assume a fight to 0."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "ceda1de442744233dfe1f0f127f7eb0dc1f312374a3018a99ad7a4ff6f20a4c4",
+      "text": "Patterns change and Stagger clears at 90%, 80%, 60%, and 40% HP, or as turns pass."
+    },
+    "units.1.name": {
+      "sourceHash": "eaec25a32bd1e81159fbcb5d32d8a0ab2db6127d3be2f473e254fa8550fe7a05",
+      "text": "Soldato of the Thumb (supply unit)"
+    },
+    "units.1.part": {
+      "sourceHash": "efdb4d69784077522c3de2ba57e8f7ca1098ca3eb22aec7146304b9438b32781",
+      "text": "Body · 2 summoned"
+    },
+    "units.1.hp": {
+      "sourceHash": "23941fe1df442a97e4a77c18b24740e5aac19e030eec8a76b013c472554510d4",
+      "text": "226 each"
+    },
+    "units.1.combatLevelNote": {
+      "sourceHash": "4ee64450f8342754248db6df527961ec1da1bcef8a87393365611dbf822c5438",
+      "text": "Before averaging"
+    },
+    "units.1.stagger": {
+      "sourceHash": "1cefb098374d599a10b1e4d6b1e5148630e87c1a976625c2da8ef2d5232cd69b",
+      "text": "60% / 20% / 0% (135 / 45 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "d83b358d75921d4066c9073ad3294548daebf9edef44509e0e32a46c5ef1b88d",
+      "text": "Appear to resupply after Savage Tigermark Rounds run out. If alive at Turn End, supply ammunition and withdraw."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "4698cce1556bd353de2d3ca73bcd309db96d6c2efe8a660badb1608b2ab17f4e",
+      "text": "The boss keeps attacking. Do not spend every action handling supply units."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "672a55112f925b80fa7df7014c3bac58c4e8c21bdb8bc50a919c4606e552d7ac",
+      "text": "Bring healing, Slash resistance, and ammunition-reduction handlers"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "150bc626beda179c16f2cedc189d6d03b676bb8acee0545b98dc833da7cda932",
+      "text": "Aim for the recommended Level 55 and Uptie III or higher, with 7 Sinners and 5 reserves. Hong Lu must deploy initially; a borrowed Identity is available. Averaging does not increase maximum HP, so avoid taking hits while underleveled."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "b0df134c72f7b47121f06cbcb581a5c6c48b3140f2dfae219fa0a00809a4bbbe",
+      "text": "Prepare HP/SP recovery and strong clash skills against Slash, Gluttony, Wrath, and Envy attacks. Gluttony and Envy work well offensively."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "14145fd582535193b2f4ae0322ab7bc85b3ccdd5b59d2b015f92d3fe698d88a7",
+      "text": "Hong Lu gains extra E.G.O resources matching his attack's affinity after attacking. His Lord Identity also gains Slash buffs after taking hits. Ryōshū's damage in this encounter increases as turns pass."
+    },
+    "phases.1.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.1.title": {
+      "sourceHash": "3fe629d8c28338a4552b68b523a666979f637598851d5be5df0de9cfe974ebe6",
+      "text": "Use turn 1's special protection and turn 2's recovery"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "f3be545b018ca2fdc014413f226b90d011e85b818648a12e04402f26b8ac7729",
+      "text": "Allies have an HP floor on turn 1, when regular clashes are unfavorable. Cycle weak skills and gain resources; do not judge the team's viability from this turn alone. The listed 20% floor includes an estimate, so avoid plans requiring that exact value."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "8ee9b6fa20670384eaea4bd0a4f2c2d9224fe6af31d23537a23a319287be1932",
+      "text": "At turn 2's start, fully heal, recover from Stagger, and reset SP to 0. Chesed's Mercy averages Offense/Defense Levels, then grants allies +3 Offense Level and +6 Defense Level."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "796435ec841045d8e2d52508023a164eab24abadc12ca96de3d24b9fc64da9f0",
+      "text": "Afterward, use the averaged clash predictions to beat regular skills and build SP and resources."
+    },
+    "phases.2.timing": {
+      "sourceHash": "1c58855957e464793d9399c8408bfa742808d41d73bdff1a94fbcd82624f298e",
+      "text": "After loading Tigermark Rounds"
+    },
+    "phases.2.title": {
+      "sourceHash": "43be1089d67a48a6af4742f5ac8b8296492d3052b15b7a9b23b1b5a09013ea57",
+      "text": "Spend ammunition before resolving Blasting Shatterslash"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "4120eb38c786d39a10a219b4dc55fb6dad0739aa66ab6ebf197a91e5f740704b",
+      "text": "Winning against Double Slash - Blast, Triple Slash - Blast, or Reloading Tiantui Star's Blade reduces ammunition. Resolve these before Blasting Shatterslash."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "001321dac1900016fa1c07695f83cff326022abfc2a936c1b0b595d649e9cba4",
+      "text": "Blasting Shatterslash can be clashed regardless of Speed. Assign a later-acting Sinner and check actual resolution order. If one Sinner has multiple slots, account for clashes within that Sinner resolving first."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "efc5ec96fbf6fe48e127d3ff2cb8dff51583ce1f30e5c3a67a89de1104f57b75",
+      "text": "Empty ammunition does not stop Unbreakable attacks, but limits Burn application. Equipping a defense skill on Prey reduces damage by 75%. A clash win grants 3 E.G.O resources of the least-owned type; clash only when able to win."
+    },
+    "phases.3.timing": {
+      "sourceHash": "c3058c579d6cdf55301f6db37b96f953818f7b09e1e48a26d30f04e8413d6e80",
+      "text": "60% HP or lower / elapsed turns"
+    },
+    "phases.3.title": {
+      "sourceHash": "0234586e198ab01eb66421d2e5cd747495d488069fd440adee5a64147ac7e4d3",
+      "text": "Prepare for Savage Tigermark Rounds and Unbreakable regular skills"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "81f20815ad40f8f3b67d6bfb0c429f16666ef610cfa659ee3161e9a915afad35",
+      "text": "Tiantui Star and 18 Savage Tigermark Rounds strengthen Burn, Tremor, and Power. Triple Slash - Blast's final Coin becomes Unbreakable; winning regular clashes no longer guarantees avoiding damage."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "78597a2c9db704913bfbb7334d14ed0bd44c1a0681c9b4a490cba7e710dda8f4",
+      "text": "Keep controlling ammunition order and healing rather than prolonging the fight waiting for finishers. Applying 3+ Bind from the previous turn can suppress Chachihu's SP recovery and Slash buffs."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "712062cfe4a05d40439229cbe094c6107068594a28ab7797b3eb9baeac612bf5",
+      "text": "Beat Tanglecleaver with a strong skill. Even with 80% damage reduction and Stagger prevention, on-hit Burn remains. It ends the turn after attacking; equip defense skills on the other Sinners."
+    },
+    "phases.4.timing": {
+      "sourceHash": "8aaac1eb177dd4d5f89861c5dee879354d122e226185746dc3aed815d8421756",
+      "text": "40% HP or lower / powerful-attack cycle"
+    },
+    "phases.4.title": {
+      "sourceHash": "ef2936562cb16f708e81b7803e9f95affeecf134e77cc36eb45cec87a571b411",
+      "text": "Beat the 6-Coin finisher and exploit the next opening"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "487d982f88073dd98696e6c86e672ddfb5f1cb980733437589a0106c8873000f",
+      "text": "During Lei Heng, The Pinky's Tiantui Star, the finisher becomes Savage Tigerslayer's Perfected Flurry of Blades. Its 6 Unbreakable Coins and 3–7 Attack Weight cause heavy attrition. Prepare healing and powerful skills before crossing the HP threshold."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "3de5435787e00ea2b57d1b634c3847fbd3bd69e2464f48431fb12fcfeb4f63cd",
+      "text": "Winning reduces its damage by 80% and prevents Stagger from that skill's damage. This does not protect against separate damage such as Bleed or Burn. Use resistance and defense skills on Sinners who are not clashing to limit remaining hits."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "366ab29a601c13fda146be56ec2da226b100268a006a5388b51edc9fdad12698",
+      "text": "After the finisher, Overheat gives the enemy Fragile and Clash Power Down. Concentrate damage during that opening to reach the ending event. Roughly 800 HP remaining is an estimate, not an exact ending threshold."
+    },
+    "skills.0.name": {
+      "sourceHash": "8935cb780295d17878eda02c59b68a935eb00e6a7a7a9bee322b61e4646c78af",
+      "text": "Double Slash"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "c530ba8312318398366d683892f7c072f59eef22ad871ab4d1afc501d99d4700",
+      "text": "Final Power +1 for every 4 total Burn and Tremor on the target (max 2)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "8745be8c070f75c68472bebc68261337cdd563abf0636282dc599c1e76c584ca",
+      "text": "Ⅱ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.0.response": {
+      "sourceHash": "3073d6e3930fbef3d0b5b178051815d8e389da3f6f56a9b83039cfdf2b81c4e3",
+      "text": "Burn and Tremor increase Final Power. Stop it with a winning regular skill to avoid enabling later bonuses."
+    },
+    "skills.1.name": {
+      "sourceHash": "fff4bd592e558448cc49f53a2fac46f5b0442f63a906906255a67c82a4f05816",
+      "text": "Triple Slash"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c530ba8312318398366d683892f7c072f59eef22ad871ab4d1afc501d99d4700",
+      "text": "Final Power +1 for every 4 total Burn and Tremor on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "e5db2f8e830c43d7978da151fa9c6a04b1e0a6181aaa337831ad04ba5363a69d",
+      "text": "Ⅰ[On Hit] Tremor Count +2"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "6dbef4dfa761c4339301cf8e04ca5003726be96d0e059d6a1c7374ebe335ab7e",
+      "text": "Ⅱ[On Hit] Inflict 1 Tremor and increase Tremor Count by 2"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "d975a03c951528d7b5fe8646c94f133063cf9b0d6f27b9004398120767c96f65",
+      "text": "Ⅲ[On Hit] Trigger Tremor Burst. Reduce the target's Tremor Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "9e1e1336930b4c26e7acc3d76aed3e33ddca6ebe15f9e26dd7ad7fe930b01c83",
+      "text": "A 3-Coin attack that adds Tremor Count and triggers Tremor Burst. Avoid assigning a high-Burn/high-Tremor Sinner, limiting future Stagger and bonuses."
+    },
+    "skills.2.name": {
+      "sourceHash": "c19616d4eec2b9f9fda0a07b09d95aa5a03978035ed3170a66f2cee20ec51469",
+      "text": "Double Slash - Blast [爆]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "b0c6b62b7ac5e3f5257e6bca936ac1fa4df26849f612d92b355ffb64f69f410a",
+      "text": "Final Power +1 for every 4 total Burn and Tremor on the target (max 4)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "dc2cfcf720850aeb8491f4bf217929f6932a3c0331f05d33f55e4162d64c6e3c",
+      "text": "[On Clash Lose] Tigermark Round -1"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "6aa8bf4cbf814e3c9cb9c16839f0f5ca8148ac2387443b987a9f5bb5588f6d75",
+      "text": "ⅡConsume 1 Tigermark Round"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "973e9e846fe98d1fb89bd2813fe6ad7afc227071ef4899821ddca61a59b48b17",
+      "text": "[On Hit] Inflict 3 Burn and increase Burn Count by 2"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "344797e87c9b3b02aa087d93ce8af80678d0aa860bfa716d56daf20913e2f175",
+      "text": "[On Hit] Inflict 3 Tremor and increase Tremor Count by 2"
+    },
+    "skills.2.response": {
+      "sourceHash": "0af92f3cc4be827669351ea78cd30cc583a988c61b192870d8083cdc5fb9ff8b",
+      "text": "Winning reduces ammunition by 1. Late-fight Shin (心) - Tiantui Star [天退星] makes its last Coin Unbreakable; do not assume the base display guarantees no hits."
+    },
+    "skills.3.name": {
+      "sourceHash": "0f3e4845f83484349770c1a5e015ba3cf79c99b5784787eab34828f51b86837c",
+      "text": "Triple Slash - Blast [爆]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "b0c6b62b7ac5e3f5257e6bca936ac1fa4df26849f612d92b355ffb64f69f410a",
+      "text": "Final Power +1 for every 4 total Burn and Tremor on the target (max 4)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "dc2cfcf720850aeb8491f4bf217929f6932a3c0331f05d33f55e4162d64c6e3c",
+      "text": "[On Clash Lose] Tigermark Round -1"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "e5db2f8e830c43d7978da151fa9c6a04b1e0a6181aaa337831ad04ba5363a69d",
+      "text": "Ⅰ[On Hit] Tremor Count +2"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6aa8bf4cbf814e3c9cb9c16839f0f5ca8148ac2387443b987a9f5bb5588f6d75",
+      "text": "ⅡConsume 1 Tigermark Round"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "973e9e846fe98d1fb89bd2813fe6ad7afc227071ef4899821ddca61a59b48b17",
+      "text": "[On Hit] Inflict 3 Burn and increase Burn Count by 2"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "c86c06f8894d20b8b6439c999b523358b6ec165f8259c1fae680503787ee5dcd",
+      "text": "ⅢConsume 1 Tigermark Round"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "973e9e846fe98d1fb89bd2813fe6ad7afc227071ef4899821ddca61a59b48b17",
+      "text": "[On Hit] Inflict 3 Burn and increase Burn Count by 2"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "e13277749b2df8c37cc0f5aae416d836e612e8a1330e1629046050fa6bca0352",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 2 times. Reduce the target's Tremor Count by 2"
+    },
+    "skills.3.response": {
+      "sourceHash": "ce5d1063e4e8564db9d2f314c61543fa493e353693accb6353b95c34d7cfff8d",
+      "text": "Winning reduces ammunition by 1. From the middle phase, the last Coin is Unbreakable. Resolve this before Blasting Shatterslash to reduce ammunition and prepare for the remaining hit."
+    },
+    "skills.4.name": {
+      "sourceHash": "1f84d084368ea3cd86230bef9d34750825ec8ed0b7222ff913eca35e1a54cadd",
+      "text": "Blasting Shatterslash [爆碎斬]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "ebe87e55eed52497801ba4b344751c9513145daad7b7abd29ebfb38d547e9e03",
+      "text": "Prioritizes targets with Prey"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "455435919948ea6424a037e14004be4b5f46ebc99bea54f1b76fa4fee8393917",
+      "text": "Coin Power +1 for every 6 total Burn and Tremor on the target (max 3)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "1e72c1d2053353ace4e51189fa54f297d96c66c5b79f2970de648cd999fb8b5e",
+      "text": "[On Clash Lose] Lose 10 SP"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "58117cbc3cad6a5c40c7df9df1ce57c067d3870c4904f717d92e5f013906729b",
+      "text": "[On Hit] Inflict 3 Burn"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "6e7d72395d5abef5aa8ce1f52d1d7b457ee55219b18aff82e37c245261fb7bf2",
+      "text": "[On Hit Without Coin Destruction] Inflict 4 Tremor and increase Tremor Count by 4"
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "604dc419618ec09446db41e2a4357e8f004ea45bd564fcd19111f0fdf23742b4",
+      "text": "[On Hit] Burn Count +3"
+    },
+    "skills.4.effects.12": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.4.effects.13": {
+      "sourceHash": "0c5c783d332198f59f1350e1b468ec82f675c4710c2ed7789d6140d0fc3d3066",
+      "text": "[On Hit Without Coin Destruction] Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.4.effects.14": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.15": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.4.effects.16": {
+      "sourceHash": "61629ed6c2cf70e5aeee9f3ff3e3a420f1d40feda2864d4e3f6800cfc1f52296",
+      "text": "If this Coin effect consumed a Tigermark Round, deal +50% damage"
+    },
+    "skills.4.effects.17": {
+      "sourceHash": "83213b77bc2fe6e56296b67d5930bf3b628eebb45e5e7943a081ba488ea90b8a",
+      "text": "[On Hit] Inflict 3 Burn and increase Burn Count by 3"
+    },
+    "skills.4.effects.18": {
+      "sourceHash": "e13277749b2df8c37cc0f5aae416d836e612e8a1330e1629046050fa6bca0352",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 2 times. Reduce the target's Tremor Count by 2"
+    },
+    "skills.4.response": {
+      "sourceHash": "89422b173c2f0e8738b809e634ddc5fc46ce0beabc07c3453948ccf41b79f4a6",
+      "text": "All 3 Coins are Unbreakable. It can be clashed regardless of Speed; assign a later-acting Sinner so other skills reduce ammunition first. Empty ammunition does not cancel the attack, but limits Burn application."
+    },
+    "skills.5.name": {
+      "sourceHash": "f2ac5638c3ba338b73c35c1c41889504220b0bd731c55101c6abae82ad8d02cb",
+      "text": "Tanglecleaver [快刀亂麻]"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "ebe87e55eed52497801ba4b344751c9513145daad7b7abd29ebfb38d547e9e03",
+      "text": "Prioritizes targets with Prey"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "4d2f9eaf29e805a5bb78b1fb5a8382d34066397222700764d827248871276203",
+      "text": "Can be clashed regardless of Speed; cannot be Staggered until this skill is used"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "cec78ffdcfd09e7ccd64578e5fe4162f4dc94a0634f73219f1ad8afab72889ee",
+      "text": "[On Use] Consume all Inner Strength. Depending on the amount consumed:"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "1b69dda4afc5a48dbc5502a3021039062f1ae7c028751def2c59c407578591f3",
+      "text": "- At 10+, Attack Weight +1 for every 10 (max 2)"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "7ea8cb56e580791d41cb2b13dfb15170f3dff207d89aab210b293e3b2e85a7cb",
+      "text": "- At 25, Final Power +1 for every 4 total Burn and Tremor on the main target (max 5)"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "46d0a25ace74ee8bb5166834c8d3e7029deae7a17dcc5014191eb05d1b904cf8",
+      "text": "[On Clash Lose] Gain 4 Power Down"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "51458d2982b37fd37f5122a5126597986684d631af7dd3878f0316a768f78d9d",
+      "text": "[On Clash Lose] Gain 1 Paralyze"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "acca682bd0453a20e493b60ef99b8178ae7886dc914961d57829ec03351fd0de",
+      "text": "[On Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger targets. Halve inflicted Burn Potency/Count and Tremor Potency/Count (excluding changes from other effects)"
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "1ae282b9891bf131856a601bf63436edd57407287d29360bd229d26fe80b1228",
+      "text": "[After Attack] Reload (once per turn)"
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "2552c80a74e33d0c80ef2e5579568fa876f7d4510ae3564b9ab9949c2e6e4e92",
+      "text": "- If holding Savage Tigermark Rounds, instead Reload while retaining remaining ammunition (once per turn)"
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "de92d3f76dd9aaf6e0303338711aa0b010f432c1c6fd6f66487a133e3924229f",
+      "text": "Consume all Tigermark Rounds"
+    },
+    "skills.5.effects.13": {
+      "sourceHash": "8655b94a1017401b68e633d29d97f8709c7e63743fabd987b0756a3e4781b90d",
+      "text": "[On Hit] Inflict Burn and Tremor and increase their Counts by the number of Tigermark Rounds consumed"
+    },
+    "skills.5.effects.14": {
+      "sourceHash": "0c5c783d332198f59f1350e1b468ec82f675c4710c2ed7789d6140d0fc3d3066",
+      "text": "[On Hit Without Coin Destruction] Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.5.effects.15": {
+      "sourceHash": "83674b2f3969564a6e77339cf57345e2b29a1499ea00562c21aef60ec30a7bdd",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 3 times. Reduce the target's Tremor Count by 3"
+    },
+    "skills.5.label": {
+      "sourceHash": "806e173fd620818d168c9418350c99126e7bff93632b67a67ed4699627681c7b",
+      "text": "Attack Weight increases conditionally"
+    },
+    "skills.5.response": {
+      "sourceHash": "41e01f1b216c1c47fe339303126d98ae48489964f9565b6fb95ef83a13664bf5",
+      "text": "Winning applies Power Down and Paralyze, reduces damage by 80%, and prevents Stagger from this skill. 1 Coin remains Unbreakable. It ends the turn after attacking, so healing scheduled afterward will not resolve."
+    },
+    "skills.6.name": {
+      "sourceHash": "4e51e91bb974536c030f559776a9278504c44fb89523e85e1c29b03b1971d65d",
+      "text": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "ebe87e55eed52497801ba4b344751c9513145daad7b7abd29ebfb38d547e9e03",
+      "text": "Prioritizes targets with Prey"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "4d2f9eaf29e805a5bb78b1fb5a8382d34066397222700764d827248871276203",
+      "text": "Can be clashed regardless of Speed; cannot be Staggered until this skill is used"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "cec78ffdcfd09e7ccd64578e5fe4162f4dc94a0634f73219f1ad8afab72889ee",
+      "text": "[On Use] Consume all Inner Strength. Depending on the amount consumed:"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "729432ba3706765c52968f4c31dbfdbd9b923cca87e2b897b876569e3da65572",
+      "text": "- At 10+, Attack Weight +1 for every 10 (max 4)"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "935613e4cb67e3a0f9401c6e5054378bc40b0b943c1bb684934d01cd67a958ea",
+      "text": "- At 25+, Final Power +1 for every 4 total Burn and Tremor on the main target (max 6)"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "fb7b6d50bcfe5540ec4fd1bf6d598c5bdfcf26fefdc685a3e70559fb52155a5f",
+      "text": "- At 50, Coin Power +1 and damage +50%"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "499912ac837d299029fba6897d5e1bd9fe428d6983b5bb330ac231a7b0e717ae",
+      "text": "[On Clash Lose] Gain 2 Power Down"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "172db40af3b229dafc2a239aa297cbfc94d978ed61487ea63a3026d4aa3e1616",
+      "text": "[On Clash Lose] Gain 6 Paralyze"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "acca682bd0453a20e493b60ef99b8178ae7886dc914961d57829ec03351fd0de",
+      "text": "[On Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger targets. Halve inflicted Burn Potency/Count and Tremor Potency/Count (excluding changes from other effects)"
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "1ae282b9891bf131856a601bf63436edd57407287d29360bd229d26fe80b1228",
+      "text": "[After Attack] Reload (once per turn)"
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "2552c80a74e33d0c80ef2e5579568fa876f7d4510ae3564b9ab9949c2e6e4e92",
+      "text": "- If holding Savage Tigermark Rounds, instead Reload while retaining remaining ammunition (once per turn)"
+    },
+    "skills.6.effects.11": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.6.effects.12": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.13": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.14": {
+      "sourceHash": "df57d5109618177f89a5aec66882b8d403bb4fc421005024ba9b41685c83e660",
+      "text": "[On Hit] Inflict 6 Burn"
+    },
+    "skills.6.effects.15": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.6.effects.16": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.17": {
+      "sourceHash": "a2639e8b2845a3a4c0adc3c55187209a1a5f8d1622207599dd74e03e92a77680",
+      "text": "[On Hit] Burn Count +6"
+    },
+    "skills.6.effects.18": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.6.effects.19": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.20": {
+      "sourceHash": "25a82f22bb59166dac2cac69810b079be1cbaf2c2aab0dd3240bd0bc427c6c7c",
+      "text": "[On Hit] Inflict 6 Tremor"
+    },
+    "skills.6.effects.21": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.6.effects.22": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.23": {
+      "sourceHash": "8f648c081db22232299d4d5554748f08c2bbc48254f917ec1ce7da07f8ca70c0",
+      "text": "[On Hit] Tremor Count +6"
+    },
+    "skills.6.effects.24": {
+      "sourceHash": "5619575d633111311db2365d452d1dd756dffed78cc31600b41a64824f2dc47e",
+      "text": "ⅤUnbreakable Coin"
+    },
+    "skills.6.effects.25": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.26": {
+      "sourceHash": "0c5c783d332198f59f1350e1b468ec82f675c4710c2ed7789d6140d0fc3d3066",
+      "text": "[On Hit Without Coin Destruction] Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.6.effects.27": {
+      "sourceHash": "7abb6e9030914d3aa57d59056408aecdef6f9382593517d21ba165dc91670ddc",
+      "text": "ⅥUnbreakable Coin"
+    },
+    "skills.6.effects.28": {
+      "sourceHash": "95b2174c0f38c221a3d4dd68ab520d79a96ec3980e619b59e2a6284513b66f2e",
+      "text": "Consume 1 Tigermark Round"
+    },
+    "skills.6.effects.29": {
+      "sourceHash": "4c930d73ec949e397fa2830a36d694ddc87b5c4357332e9e9f9d7b803040b6c2",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 5 times. Reduce the target's Tremor Count by 5"
+    },
+    "skills.6.label": {
+      "sourceHash": "806e173fd620818d168c9418350c99126e7bff93632b67a67ed4699627681c7b",
+      "text": "Attack Weight increases conditionally"
+    },
+    "skills.6.response": {
+      "sourceHash": "b3e2d72c4e8e90fba4ec68d71e4e02d908c906ad00eccd3ad34e977b38218f28",
+      "text": "All 6 Coins are Unbreakable; base Attack Weight 3 rises to 7. Winning reduces damage by 80% and prevents Stagger from that skill. Heal everyone beforehand and equip defense skills on those not clashing. Offense Level is unconfirmed."
+    },
+    "skills.7.name": {
+      "sourceHash": "5fc8140cadccab5f41fd93b472d63b7d3ca4c0f59255c7dd2882fc09d79b4f7b",
+      "text": "Reloading Tiantui Star's Blade"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "dc2cfcf720850aeb8491f4bf217929f6932a3c0331f05d33f55e4162d64c6e3c",
+      "text": "[On Clash Lose] Tigermark Round -1"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "1c76d664a274dca58820fbc0af576ee37bd51c7c497bca5eaac24abee116cda6",
+      "text": "[Turn End] Reload (once per turn)"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "2552c80a74e33d0c80ef2e5579568fa876f7d4510ae3564b9ab9949c2e6e4e92",
+      "text": "- If holding Savage Tigermark Rounds, instead Reload while retaining remaining ammunition (once per turn)"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "6aa8bf4cbf814e3c9cb9c16839f0f5ca8148ac2387443b987a9f5bb5588f6d75",
+      "text": "ⅡConsume 1 Tigermark Round"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "58117cbc3cad6a5c40c7df9df1ce57c067d3870c4904f717d92e5f013906729b",
+      "text": "[On Hit] Inflict 3 Burn"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.7.response": {
+      "sourceHash": "91cf8810154dc403f8e0855043d3299f629eda3fe25c9f82214d7135e1f61de1",
+      "text": "Its listed type is Slash, but it is presented as a Clashable Counter based on its effects. Winning reduces ammunition by 1; resolve it before Blasting Shatterslash. A footnote places Reload at Turn End, but reported bugs make its behavior uncertain."
+    },
+    "skills.8.name": {
+      "sourceHash": "b4476c6ca73a5e99d3b2bac101b897b8258144cacdcc76d4583ecfe024e83cbd",
+      "text": "Savage Tigermark Support"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "6ae8da37940141df41d7476f295f4564a2501b8902c66f35ff143c7ff0924697",
+      "text": "[Turn End] If alive, grant Lei Heng 6 Savage Tigermark Rounds"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "0cb46fc15a60bb1c59e95cea590a63898ab997fbfec3b4c924f52b2af145ff8e",
+      "text": "[Turn End] Withdraw from combat"
+    },
+    "skills.8.response": {
+      "sourceHash": "b74677072a20421f4194c79e2d22b2f02456be12f4064a11a37de046c62fed74",
+      "text": "A supply unit appearing for 1 turn. Killing it prevents resupply, but the boss keeps attacking. Do not sacrifice essential clashes or boss damage to kill it."
+    },
+    "passives.0.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.0.effect": {
+      "sourceHash": "bc58d7763e109e6fd1dec8a5deb228ab6974e6a7c1fdfa4302ca4a0d314a194f",
+      "text": "If Panicked at Turn End, reset SP to 0.\nWhen Panic ends, at the next Turn Start recover SP equal to the percentage of HP lost (max 30)."
+    },
+    "passives.0.condition": {
+      "sourceHash": "92262d1c08d2699293e5431b6598c86b6589b599e61d7966fef2a4fd90469dce",
+      "text": "Panic ending"
+    },
+    "passives.0.response": {
+      "sourceHash": "ac22c1664952aa67086ca354208a033b3f8cf3998c10cdceae63016aabb377ad",
+      "text": "Recovers SP next turn based on lost HP. Do not assume Sinking can keep the boss disabled indefinitely."
+    },
+    "passives.1.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.1.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.1.condition": {
+      "sourceHash": "341ad754f33e5dd6de8d433fdda07151b00f24b032d57eb0e5efdf6cdf35be65",
+      "text": "Panic type changes"
+    },
+    "passives.1.response": {
+      "sourceHash": "c5a26ef507c2cfbd3564c8ba6cdfda63cbf0ab88104dbfa985f498bf3dc77f9d",
+      "text": "Handle ammunition and Prey with defense and healing rather than replacing its Panic type."
+    },
+    "passives.2.name": {
+      "sourceHash": "710961c1c6d67b87c5ec937e090e83d85d03da2124e7ffb58e6e1ba2d00bf0c8",
+      "text": "The Thumb's Officer, Capo IIII"
+    },
+    "passives.2.effect": {
+      "sourceHash": "0088ea889e724801db4b095b21d0f7304bfacad0814854f1cf548c6abcce00e8",
+      "text": "Take 30% less damage from Burn, Bleed, Tremor, Rupture, and Sinking.\nWhen tossing a Coin that consumes Tigermark Rounds without ammunition, do not cancel the attack; that Coin's on-hit Burn and Burn Count effects do not activate instead.\nDuring a clash, increase the target's Tremor Count by (1 + clash exchanges ÷ 3).\n(Max 3; applies at most 3 times per target per turn.)"
+    },
+    "passives.2.condition": {
+      "sourceHash": "abf7a6315dd8d26f54f413a5340175ca5584d96da81e061458cbda3335373dde",
+      "text": "Status damage / clashes / empty ammunition"
+    },
+    "passives.2.response": {
+      "sourceHash": "d1b7f978701bfcaa7b7820caa1d1f4b5138da3d027f7918adc4fba4aece330a0",
+      "text": "Empty ammunition does not cancel attacks. Distinguish reduced Burn application from the hits that still remain."
+    },
+    "passives.3.name": {
+      "sourceHash": "10acffb8707c690a611ab9d3c07fb11b3983601a8e2db62c8fe0badc64c86d68",
+      "text": "Ten Blades of the East"
+    },
+    "passives.3.effect": {
+      "sourceHash": "d3240e72a0a0c9e90b99e2424ba8cada597c3754b3c3385daae2c6cebf2228ac",
+      "text": "At encounter start and at Turn Start when patterns change:\n- Gain 1 Slash Power Up.\n- Heal 5 SP for every 10% HP lost (max 40)."
+    },
+    "passives.3.condition": {
+      "sourceHash": "948110031d12ff2c098b018b20f0329b788887463c1c4d171ca9c5d80d1dc9d3",
+      "text": "Encounter start / pattern changes"
+    },
+    "passives.3.response": {
+      "sourceHash": "88b698ce4e752f4f3beca78647ac66bade3fc6c1b40b234984ed6b71c35bb8af",
+      "text": "The enemy recovers SP based on lost HP. Do not judge the next clash only from its low SP before transition."
+    },
+    "passives.4.name": {
+      "sourceHash": "735cc82937aa50a468dea27d4d091765b17f4738e2633e413f0f14cb0b106a16",
+      "text": "Chosen Prey"
+    },
+    "passives.4.effect": {
+      "sourceHash": "81947b7a76e3e687083a6c3b27b9e738a4896d26aca447a1ba152f769340044f",
+      "text": "At Turn Start, inflict 1 Prey on the target that dealt the most damage to self last turn.\nAfter Lei Heng attacks a target with Prey:\n- If Staggered, all enemies lose 10 SP and gain 1 Clash Power Down this turn and next turn (once per turn).\n- If killed, activate the above effect once more."
+    },
+    "passives.4.condition": {
+      "sourceHash": "451ad672a977c2b75ab97fd277a57b0180282a4fcf56b49250bdd9f70fb0dc27",
+      "text": "Sinner who dealt the most damage last turn"
+    },
+    "passives.4.response": {
+      "sourceHash": "455b4a7b7d7b5b02c099a5c1f9a5985c4af033aefc54a03423495753dff989f8",
+      "text": "A main damage dealer becomes next turn's Prey. Account for reduced Clash Power and use a strong skill or defend."
+    },
+    "passives.5.name": {
+      "sourceHash": "7747a8ffaf51d2529fcd53015b2f2227124af43f8319d92f06bc9e5be86ed937",
+      "text": "Tiantui Star's Blade [天退星刀]"
+    },
+    "passives.5.effect": {
+      "sourceHash": "3fa5e2210d1371e2fd7ac7c4274408db4f75364712d2adea4dc8962708b4c144",
+      "text": "On Hit with a one-sided attack, deal +30% damage and inflict 1 Fragile next turn.\nCoins that consume Tigermark Rounds and hit deal +20% damage and inflict 2 Defense Level Down next turn.\nThese effects do not apply if the target has equipped a defense skill."
+    },
+    "passives.5.condition": {
+      "sourceHash": "0dab709d0c5d2536cd24da2ce4c77c64b54cd6156d26f9ffd48d639962c1e0eb",
+      "text": "One-sided attacks / hits consuming ammunition"
+    },
+    "passives.5.response": {
+      "sourceHash": "e76ca1638660f8271cfd5e11aa92b50e0d0d5e558ce9c83aa1b10b8c273f9fbc",
+      "text": "Some additional effects do not apply against targets with defense skills equipped. Prepare defense skills for Sinners not clashing against finishers too."
+    },
+    "passives.6.name": {
+      "sourceHash": "ec487b3a0c1f96e4956ed23803b5e1089d24943f088d758f404f450291371786",
+      "text": "Tiantui Star's Blade - Overheat"
+    },
+    "passives.6.effect": {
+      "sourceHash": "a1fccaee9c4b695e6149e14d28902883990e924e18b81faeec701b1821b11edc",
+      "text": "After using a powerful attack (Tanglecleaver or Savage Tigerslayer's Perfected Flurry of Blades), gain Overheat next turn equal to the number of powerful attacks used in this encounter (max 5)."
+    },
+    "passives.6.condition": {
+      "sourceHash": "f3bd94840bbab386260f9fd777c15fd0e73e8fadf5f9255b88b48b3e28b71aab",
+      "text": "After using a powerful attack"
+    },
+    "passives.6.response": {
+      "sourceHash": "25a8e0c31c9a2b5920dcd93df87fe65d22b0edae397bb99fc88b23e85cfb5d42",
+      "text": "Next turn, the enemy gains Fragile and Clash Power Down. Prepare healing first, then concentrate damage during the opening."
+    },
+    "passives.7.name": {
+      "sourceHash": "13ffb5cf2153ce8094d6caa78626a3e4582d346a7de8e543b31f1a988e5a5159",
+      "text": "Chachihu [揷翅虎]"
+    },
+    "passives.7.effect": {
+      "sourceHash": "8db8fad24d7161490a419fc816f6f7382cd653433af0a233998c886d1b00f212",
+      "text": "At Combat Start, based on own Speed:\n- Heal that much SP; double this recovery if below 0 SP.\n- Gain (Speed ÷ 3) Slash Damage Up (max 5).\nAt Combat Start with 3+ Bind, these effects do not activate; instead gain Defense Level Down equal to own Bind (max 9)."
+    },
+    "passives.7.condition": {
+      "sourceHash": "354c9bc38fffd9eacc034a86b14fe0a826fef118f3bedff87107164e38ec819c",
+      "text": "Speed at Combat Start"
+    },
+    "passives.7.response": {
+      "sourceHash": "de09233a684e919a78888a0083bfbe46f2247a0a8f9ff3f7584b6381af65deee",
+      "text": "At 3+ Bind, SP recovery and Slash buffs stop and become Defense Level Down. Use Bind from the previous turn when available."
+    },
+    "passives.8.name": {
+      "sourceHash": "72fddd273cc8f71452af66a1dc814622f19face967ea5f2b989cc9d6020a78a4",
+      "text": "Tigermark Round Reload"
+    },
+    "passives.8.effect": {
+      "sourceHash": "6c204b2112aaa7aba5797e856506477cebbe38662a95032170ac7c9f935ace89",
+      "text": "At Turn End at 90% HP or lower, or at the end of turn 2, load Tigermark Rounds and change patterns next turn.\n- If Staggered, recover from Stagger."
+    },
+    "passives.8.condition": {
+      "sourceHash": "7a27bf767c318317f7a7cb1d48164da6d0146acedf318172024d67b415126415",
+      "text": "90% HP or lower / end of turn 2"
+    },
+    "passives.8.response": {
+      "sourceHash": "701a1b5f04562e24a003f28d2b6065a6eb21c2accd823f5b96949d9b849ee0e1",
+      "text": "Subsequent skills consume ammunition. Progress depends on elapsed turns as well as HP."
+    },
+    "passives.9.name": {
+      "sourceHash": "1947932b5622f5255a115d1595963798cb12af6ab1aaf54613877798a3d6d1c8",
+      "text": "Lei Heng [雷橫]"
+    },
+    "passives.9.effect": {
+      "sourceHash": "f12441a7847f6647d6a9015edfdc6423c7fc2bf3c019b581eb829c13cb654e07",
+      "text": "At Turn End at 80% HP or lower, or at the end of turn 4, change patterns next turn.\nUse the powerful attack Tanglecleaver, repeating every 3 turns. On its turns, minimum and maximum Speed +10.\n- At that Turn Start, gain 25 Inner Strength.\n- If Staggered, recover from Stagger."
+    },
+    "passives.9.condition": {
+      "sourceHash": "922ac6671b7064c72aba04b6d82d069c51b6133eea73ac9b810907611d81e9db",
+      "text": "80% HP or lower / end of turn 4"
+    },
+    "passives.9.response": {
+      "sourceHash": "4d70508776b496d8e1a420d2f4bb64abbfc4e3a4596a5d207015850d23994d41",
+      "text": "Tanglecleaver comes next. Despite increased Speed, it can be clashed regardless of Speed; choose a strong handler."
+    },
+    "passives.10.name": {
+      "sourceHash": "a7d649094d912bedd43badcd9e97ec1118fe91f86ca55338fdde005fc36d904e",
+      "text": "Tiantui Star [天退星]"
+    },
+    "passives.10.effect": {
+      "sourceHash": "0b4a1c9db916a7faa8d000b8050a90142abee3046be60065cb0487220392c5ed",
+      "text": "At Turn End at 60% HP or lower, or if next turn would be the second use of Tanglecleaver in this encounter, change patterns next turn.\n- At that Turn Start, gain 1 Tiantui Star.\n- At that Turn Start, gain 18 Savage Tigermark Rounds and load them immediately.\n- After consuming all Savage Tigermark Rounds, replace this effect with Tigermark Rounds and summon 2 Rigid Soldati of the Thumb next turn to resupply Savage Tigermark Rounds.\n- If Staggered, recover from Stagger."
+    },
+    "passives.10.condition": {
+      "sourceHash": "a988ed2fcb10f6f57c4c57f74e33d999c559150c161cd792bd41ef7d557428df",
+      "text": "60% HP or lower / before the second powerful attack"
+    },
+    "passives.10.response": {
+      "sourceHash": "1c0d063ece828d708dcfa1d380eea614071c1c69e065e2641cb62102cb0b38ff",
+      "text": "18 Savage Tigermark Rounds and Power bonuses increase damage. Prioritize ammunition order and healing."
+    },
+    "passives.11.name": {
+      "sourceHash": "bb58a1ceee81883efbcb16ccae31e0f1fb7ca1b875fc5bb68ab3453f27a353f4",
+      "text": "Lei Heng, The Pinky's Tiantui Star"
+    },
+    "passives.11.effect": {
+      "sourceHash": "17bcb3de9c83eae836c1124fb28da3b03941d860de7d5c44e399e3829b61a1eb",
+      "text": "At Turn End at 40% HP or lower, or if next turn would be the third use of Tanglecleaver in this encounter, change patterns next turn.\nReplace Tanglecleaver with Savage Tigerslayer's Perfected Flurry of Blades. On its turns, minimum and maximum Speed +15.\n- Replace Inner Strength with Extreme Strength.\n- Replace Tiantui Star with Shin (心) - Tiantui Star [天退星].\n- If Staggered, recover from Stagger."
+    },
+    "passives.11.condition": {
+      "sourceHash": "8aaac1eb177dd4d5f89861c5dee879354d122e226185746dc3aed815d8421756",
+      "text": "40% HP or lower / powerful-attack cycle"
+    },
+    "passives.11.response": {
+      "sourceHash": "a4aecafcb31c787131cacd3c0b2fa5a70368c3d349e28a610af678a913f20d27",
+      "text": "The finisher becomes 6 Unbreakable Coins, and regular skills strengthen too. Prepare HP and strong clashes before the threshold."
+    },
+    "passives.12.name": {
+      "sourceHash": "b4476c6ca73a5e99d3b2bac101b897b8258144cacdcc76d4583ecfe024e83cbd",
+      "text": "Savage Tigermark Support"
+    },
+    "passives.12.effect": {
+      "sourceHash": "c30521013d199557ae287db951a0e7635822fbdc060ca05992acd06861805619",
+      "text": "At Turn Start, gain 5 Fragile.\nAt Turn End, supply Lei Heng with Savage Tigermark Rounds.\n\nOn Death, cannot resupply Lei Heng; he gains 1 Fragile and 1 Clash Power Down next turn."
+    },
+    "passives.12.condition": {
+      "sourceHash": "8f6acdfd364375b5d07dc520b06f8392b4750bcd3b01bdc5455681834b4c46b3",
+      "text": "Supply unit appearing / surviving / dying"
+    },
+    "passives.12.response": {
+      "sourceHash": "79e96d4797179230012d3ebd36e258300327534a4f3952f7ebe090ea08a777a3",
+      "text": "Killing it stops resupply and weakens the boss; otherwise, prioritize boss damage. Do not overcommit to a unit that withdraws after 1 turn."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "6a014a55bbf4a8ddf947391b41d64aa5801ad607b8693ee97134610c5efdbb50",
+      "text": "Chesed's Mercy"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "c48a711771157e04886262fac96c7c01b694b3cccd0ddd28af3a9487dd51a26b",
+      "text": "On turn 2, average all characters' Offense/Defense Levels, then grant allies +3 Offense Level and +6 Defense Level. This first release lasts for the encounter."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "bebd1b1707882eecf1c620e98c61e87e4e3d9fc5192114f063da12d336e425ae",
+      "text": "Distinguish the table's pre-averaging Levels from current in-combat values. Maximum HP does not become that of a fully leveled Identity."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "3e641b32fc81d2f2b6af1a19b80e69a3dfb90bf3293291b4bc24c349a1c57142",
+      "text": "Prey"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "61e2f6621578cf08debe0fea31c0597989b18eac29dffc64ca1b3cd3519ae73d",
+      "text": "Clash Power -5. With an attack skill equipped, deal 50% less damage to Lei Heng; with a defense skill equipped, take 75% less damage. On Clash Win, gain 3 E.G.O resources of the least-owned type. Expires at Turn End and heals 10 SP."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "44eca266dfd42a859f7af8618156e224bb6c3ab82288773de559cc5f5907cf79",
+      "text": "Choose the substantial defensive reduction or a strong winning skill rather than repeatedly losing with weak skills."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "72a430f95891b3b5a896f830d7b3038ef17f7e9b859f713b360533c9534a4cb0",
+      "text": "Tigermark Round / Savage Tigermark Round"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "a64ef3750d4b6714bb2b40205361ce2c1b80b2912ef4dd301c8c0fc1e17accca",
+      "text": "Ammunition consumed by skills. Attacks continue without it, but that Coin's Burn application does not activate. Savage Tigermark Rounds grant +30% damage to consuming Coins and double Burn application."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "ac4152570593ba4064c10508109827fac6e41d278a454b95e3982fdb703c5fe1",
+      "text": "Spend ammunition before Blasting Shatterslash to limit hits after a clash win."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "6ca053b2e6ce8ecfcc081a40b3cbb1e367cc61a8058e1eec7a40f6c3844045fa",
+      "text": "Inner Strength / Extreme Strength"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "7d4a413546710e1972869cfb750f16b9e33fa16827bc140088e3f0584f0ec180",
+      "text": "Build through clashes and one-sided attacks, then are consumed by finishers. Losing a clash removes the amount gained during that clash. Inner Strength caps at 25; Extreme Strength at 50."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "a3a6ada7c561e971fa9376974bcd95bf08168a974e08971f1ecb219f6a9add41",
+      "text": "Win clashes and stop one-sided attacks to limit the finisher's Attack Weight and bonuses."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "18fb19bd483f8d0cbc70c198ca90c7d40454f4c059ced6d0e134e671a6c0cb63",
+      "text": "Tiantui Star / Shin (心) - Tiantui Star [天退星]"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "d5036c7a975198bb9d09623bca8e947d820b899340b2b29c631cdfbb7d591ea5",
+      "text": "Lost HP and Speed difference increase Power and damage, and make regular skills' final Coins Unbreakable. Applies to Triple Slash - Blast in the middle phase and Double Slash - Blast in the final phase too."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "0ce2aed877ceef83a3d601097e4b5b4a2b476d86a378b278d51486cbb2911df9",
+      "text": "The same skill can leave hits in later phases. Reassign handlers and healing based on current statuses."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "b3784c2be7cd1b882ecae7b5bec0101ff32ca46cc02b21789060b562cfbd901a",
+      "text": "Overheat"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "3a77c329cd7521d3898faf04ed3f1bbebf3f5012a49f436b1fcfa9299f101c40",
+      "text": "A debuff gained after finishers. At Turn Start, gain Clash Power Down and Fragile equal to its value; at Turn End, reduce its value. Max 5."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "c425f91ec01a3c2020016e61ca84de4ba1a6ca74fb3f5d6bd7e8397286670354",
+      "text": "Heal before the finisher and retain actions for the damage window afterward."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "719fed53ffa320aac585a16197aa7e44de55f6056590525c00ad1704c229f261",
+      "text": "Tremor - Scorch"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "98e15af7257946446cd45b87a90b3b69ce818e6fb41e4b0e5c763fa3153c5e02",
+      "text": "On Tremor Burst, take Wrath damage equal to half the total Tremor and Burn, consuming Tremor Count."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "7403bcfebffaf9941c1acf27e0d51d4cc3aa12951fd3746888e7fb89891f2cb7",
+      "text": "Avoid repeated Tremor Bursts against Sinners with high Burn and Tremor."
+    },
+    "warnings.0": {
+      "sourceHash": "1559750632192de757e25909a23d051c92d87cde5f0945a51eae11e64c3e89b9",
+      "text": "Chesed's Mercy averages Offense/Defense Levels. Maximum HP remains at the Identity's current level; leveling cannot be skipped entirely."
+    },
+    "warnings.1": {
+      "sourceHash": "4f55b26c7a8bee8025eb38296314c1d7becb91eb4817ad255601431bec3fbccd",
+      "text": "All 3 Blasting Shatterslash Coins remain after winning. Reduce ammunition beforehand through action order, then use resistance, defense, and healing."
+    },
+    "warnings.2": {
+      "sourceHash": "ba961ae8477f7ac9508c48e463e8d2429b55b12895525e687d48dad543ebf64a",
+      "text": "Both finishers end the turn after attacking. Do not schedule healing or follow-ups after them."
+    },
+    "warnings.3": {
+      "sourceHash": "0744a5ed2f149bc2125a3496a604f0ee834f0bb019f28f32f700c03ea4b715ac",
+      "text": "The boss strengthens through elapsed turns as well as HP loss. Healing alone cannot safely stall indefinitely."
+    },
+    "warnings.4": {
+      "sourceHash": "484a030fa3548e51d77869c4591be16eac512d71f883649b06a89e08b41b15bb",
+      "text": "Stagger prevention after a clash win applies only to that skill's damage. It does not prevent death from Burn or other sources."
+    },
+    "warnings.5": {
+      "sourceHash": "7e5bed95bb104c84efe6bc9b1ae539291bf581d918572ec5c1df37b967713fac",
+      "text": "The hidden Mirror Dungeon Lei Heng and regular story encounter have different skill effects. Do not add the Mirror version's extra damage reduction here."
+    },
+    "preparation.0": {
+      "sourceHash": "605f4a6e2333748b838136dc8a7aa13a10b3cbbf571cb799f9f67b458252aeff",
+      "text": "Recommended Level 55 and Uptie III or higher. Bring 7 Sinners and 5 reserves, including Hong Lu, with healing, Slash resistance, and late-fight damage."
+    },
+    "preparation.1": {
+      "sourceHash": "53b08e0dccf2afde1ba33c5e1dd746ff6cb34b3a8f23af788e26545dce5d01c9",
+      "text": "Prepare Gluttony/Envy damage and powerful clash handlers. Add Bind or Evade when available."
+    },
+    "roles.0.name": {
+      "sourceHash": "74ac44822297fc020eec4adf377891ee3cf11294ba2a79a13591b578bb074851",
+      "text": "Late Blasting Shatterslash handler"
+    },
+    "roles.0.reason": {
+      "sourceHash": "b7c98da209454bb8f23d8a80144df1976387240dc8677e7e2626442d9f1fe343",
+      "text": "Reduce ammunition first to limit Burn and Unbreakable damage."
+    },
+    "roles.1.name": {
+      "sourceHash": "cd429d61b99f4ab15cf0d16191ff6c662037092847a5c76ec7ba7b760e4b4f6d",
+      "text": "Healing and defense handlers"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b45b3e8cbd23b91206a32d89a237fd714e4c3d4ef19eae8146555fa86e9023ff",
+      "text": "Survive finishers through Prey's reduction and healing beforehand."
+    },
+    "roles.2.name": {
+      "sourceHash": "db2081abe1614634a5cd12d5828fde0e9c33cb313faf560f7fbe6491702bd8bc",
+      "text": "Focused damage after finishers"
+    },
+    "roles.2.reason": {
+      "sourceHash": "47cbab6a49c012753b9dec70b552e4342c58bad0375b9d13579743305e675c6f",
+      "text": "Exploit Overheat's Fragile before the boss strengthens further over time."
+    }
+  },
+  "messages": {
+    "boss-copy:lei-heng": "complete",
+    "【リンバス】8-30 レイホン（8-30）の攻略｜Limbus Assistant": "8-30 Lei Heng (8-30) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)8-30「レイホン（8-30）」の攻略。爆砕斬を後に処理し、獲物には守備も使う。マッチ勝利後に残る破壊不能の被弾を抑え、HPとターン経過で進む強化へ回復と火力を間に合わせよう。": "Lei Heng (8-30) guide for Limbus Company 8-30. Resolve Blasting Shatterslash late and use defense skills on Prey holders. Limit the Unbreakable hits that remain after clash wins, and prepare healing and damage for buffs that progress with HP loss and elapsed turns.",
+    "8-30 レイホン（8-30）": "8-30 Lei Heng (8-30)",
+    "8-30「Heart」": "8-30 · Heart",
+    "レイホンの外見": "Lei Heng appearance",
+    "レイホンのスキル": "Lei Heng skills",
+    "Lei Hengの外見": "Lei Heng appearance",
+    "Lei Hengのスキル": "Lei Heng skills",
+    "親指ソルダート（補給役）の外見": "Soldato of the Thumb (supply unit) appearance",
+    "親指ソルダート（補給役）のスキル": "Soldato of the Thumb (supply unit) skills",
+    "Soldato of the Thumb (supply unit)の外見": "Soldato of the Thumb (supply unit) appearance",
+    "Soldato of the Thumb (supply unit)のスキル": "Soldato of the Thumb (supply unit) skills"
+  }
+}

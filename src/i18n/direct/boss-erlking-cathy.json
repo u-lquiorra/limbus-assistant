@@ -1,0 +1,3352 @@
+{
+  "kind": "boss-copy",
+  "id": "erlking-cathy",
+  "source": "src/data/bosses/erlking-cathy.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "深い喪失",
+          "en": "Deep Bereavement",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBe"
+        },
+        {
+          "ja": "苦痛の雷",
+          "en": "Lightning of Suffering",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBm"
+        },
+        {
+          "ja": "張り裂ける心",
+          "en": "Breaking Heart",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBn"
+        },
+        {
+          "ja": "近づく勇気",
+          "en": "Courage to Approach",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBp"
+        },
+        {
+          "ja": "引き裂かれた心",
+          "en": "Broken Heart",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBq"
+        },
+        {
+          "ja": "苦痛の中で…惨たらしく目覚めますように！",
+          "en": "May She... Wake in Torment!",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBr"
+        },
+        {
+          "ja": "邪魔するな",
+          "en": "Away With You",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBs"
+        },
+        {
+          "ja": "別の人格",
+          "en": "A Distant Identity",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817401"
+        },
+        {
+          "ja": "冷たい身体",
+          "en": "Cold Body",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817402"
+        },
+        {
+          "ja": "揺れる自我",
+          "en": "A Shaky Ego",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817403"
+        },
+        {
+          "ja": "引き裂かれた心",
+          "en": "Broken Heart",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817404"
+        },
+        {
+          "ja": "全てのヒースクリフのために",
+          "en": "For Every Heathcliff",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817405"
+        },
+        {
+          "ja": "不幸を断ち切る手",
+          "en": "Misery-severing Hand",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "819201"
+        },
+        {
+          "ja": "深い喪失",
+          "en": "Deep Bereavement",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "821401"
+        },
+        {
+          "ja": "敵意",
+          "en": "Antagonism",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101602"
+        },
+        {
+          "ja": "待ち望んだ瞬間",
+          "en": "Long-awaited Moment",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101603"
+        },
+        {
+          "ja": "…感",
+          "en": "...rity",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "817001"
+        },
+        {
+          "ja": "向…",
+          "en": "Dir...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "817002"
+        },
+        {
+          "ja": "目…",
+          "en": "Pred...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "817003"
+        },
+        {
+          "ja": "…印",
+          "en": "...ked",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "817004"
+        },
+        {
+          "ja": "せん…",
+          "en": "ies...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013601"
+        },
+        {
+          "ja": "片付…",
+          "en": "Yo...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013602"
+        },
+        {
+          "ja": "者が…",
+          "en": "ool...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013603"
+        },
+        {
+          "ja": "が…",
+          "en": "oice...!",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013604"
+        },
+        {
+          "ja": "威…",
+          "en": "Threa...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013606"
+        },
+        {
+          "ja": "機…い",
+          "en": "Opp... tta",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013607"
+        },
+        {
+          "ja": "肉体…増幅",
+          "en": "Bod... ...st",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013701"
+        },
+        {
+          "ja": "整…",
+          "en": "Hou...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013801"
+        },
+        {
+          "ja": "…狩り",
+          "en": "...erding",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013802"
+        },
+        {
+          "ja": "トゥ…",
+          "en": "Tou...",
+          "file": "Passives_Enemy-a1c6p3.json",
+          "id": "9013804"
+        },
+        {
+          "ja": "引き裂かれた心",
+          "en": "Broken Heart",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "816602"
+        },
+        {
+          "ja": "片付け…",
+          "en": "I'll Remo...",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817001"
+        },
+        {
+          "ja": "…郎",
+          "en": "... Bastard",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817002"
+        },
+        {
+          "ja": "俺の家…",
+          "en": "This is My...",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817003"
+        },
+        {
+          "ja": "ガー…",
+          "en": "Gua...",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817007"
+        },
+        {
+          "ja": "打ち落とす",
+          "en": "Smackdown",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817202"
+        },
+        {
+          "ja": "死ぬまで走れ、デュラハンよ",
+          "en": "Ride for Death, Dullahan",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817205"
+        },
+        {
+          "ja": "耐え抜く",
+          "en": "Withstand",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817207"
+        },
+        {
+          "ja": "大剣斬り",
+          "en": "Greatsword Rend",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817301"
+        },
+        {
+          "ja": "打ち落とす",
+          "en": "Smackdown",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817302"
+        },
+        {
+          "ja": "ワザリング・ハイツよ、我が声に応えるがよい",
+          "en": "Heed My Call, Wuthering Heights",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817303"
+        },
+        {
+          "ja": "お前もこの棺に入れてやろう",
+          "en": "You’ll Get Shoved In This Coffin Too",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817304"
+        },
+        {
+          "ja": "ヒースクリフたちの首を刈らん",
+          "en": "Behead Heathcliffs",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817305"
+        },
+        {
+          "ja": "空の棺の鉄槌",
+          "en": "Hollow Coffin Mace",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817306"
+        },
+        {
+          "ja": "死ぬまで走れ、デュラハンよ",
+          "en": "Ride for Death, Dullahan",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817307"
+        },
+        {
+          "ja": "耐え抜く",
+          "en": "Withstand",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817308"
+        },
+        {
+          "ja": "魔王の通り道に残るは、哀しみと絶叫のみ",
+          "en": "Sorrow and Lament In The Erlking's Wake.",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817309"
+        },
+        {
+          "ja": "全てのヒースクリフは死なねばならない…",
+          "en": "Every Heathcliff Must Die...",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817310"
+        },
+        {
+          "ja": "無駄よ",
+          "en": "It's All Pointless",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817401"
+        },
+        {
+          "ja": "彼が不幸にならない世界のため",
+          "en": "For a World Without His Suffering",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817402"
+        },
+        {
+          "ja": "全てのキャサリンは死なねばならない",
+          "en": "Every Catherine Must Die",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817403"
+        },
+        {
+          "ja": "張り裂ける心",
+          "en": "Breaking Heart",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817404"
+        },
+        {
+          "ja": "悲痛の涙",
+          "en": "Tears of Sorrow",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819201"
+        },
+        {
+          "ja": "悲劇の手",
+          "en": "Clutch of Tragedy",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819202"
+        },
+        {
+          "ja": "絶望の手",
+          "en": "Clutch of Despair",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819203"
+        },
+        {
+          "ja": "無意味なあがき",
+          "en": "Meaningless Writhing",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819204"
+        },
+        {
+          "ja": "残るは苦痛だけ…",
+          "en": "Misery is All That Remains...",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819205"
+        },
+        {
+          "ja": "掴めない魂",
+          "en": "Soul Out of Reach",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "819206"
+        },
+        {
+          "ja": "…ク",
+          "en": "...nocking",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013601"
+        },
+        {
+          "ja": "…時間",
+          "en": "...to Clean",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013602"
+        },
+        {
+          "ja": "埃…",
+          "en": "...of Dust",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013604"
+        },
+        {
+          "ja": "鼠野郎…",
+          "en": "Slipp...",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013605"
+        },
+        {
+          "ja": "雑輩ども…",
+          "en": "Damn Pl...",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013701"
+        },
+        {
+          "ja": "片付け…",
+          "en": "I'll Remo...",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013702"
+        },
+        {
+          "ja": "…してやる",
+          "en": "... ove You",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013704"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013705"
+        },
+        {
+          "ja": "マル…",
+          "en": "Marc...",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013801"
+        },
+        {
+          "ja": "…テ",
+          "en": "...te",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013802"
+        },
+        {
+          "ja": "クー…ワ",
+          "en": "Cou...oit",
+          "file": "Skills_Enemy-a1c6p3.json",
+          "id": "9013804"
+        },
+        {
+          "ja": "ワイルドハント ジョセフィーヌ",
+          "en": "Josephine of the Wild Hunt",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8167"
+        },
+        {
+          "ja": "ワイルドハント ヒンドリー",
+          "en": "Hindley of the Wild Hunt",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8168"
+        },
+        {
+          "ja": "ワイルドハント リントン",
+          "en": "Linton of the Wild Hunt",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8169"
+        },
+        {
+          "ja": "ワイルドハント 奪われ泣き叫ぶヒンドリー",
+          "en": "The Reaved Lamenter of the Wild Hunt",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8170"
+        },
+        {
+          "ja": "魔王ヒースクリフ",
+          "en": "Erlking Heathcliff",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8173"
+        },
+        {
+          "ja": "全てのキャサリン",
+          "en": "Every Catherine",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8174"
+        },
+        {
+          "ja": "全てのキャサリンの左手",
+          "en": "Left Hand of Every Catherine",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8192"
+        },
+        {
+          "ja": "全てのキャサリンの右手",
+          "en": "Right Hand of Every Catherine",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8193"
+        },
+        {
+          "ja": "色褪せた約束",
+          "en": "Faded Promise",
+          "file": "Bufs.json",
+          "id": "AaCfPcBa_Alt4"
+        },
+        {
+          "ja": "復讐心",
+          "en": "Heart of Vengeance",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816406"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999998"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        }
+      ],
+      "note": "Guide spacing and ellipsis variants are matched to paired game records. Withstand, Heart of Vengeance, and The Uninvited are scoped to avoid overriding names in other contexts."
+    }
+  },
+  "scopedTerms": [
+    "復讐心",
+    "耐え抜く",
+    "招かざる客"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "235e0f639603efb2fbff696aebe6aee4643ad4a767d63baf607caf26d977a885",
+      "text": "Erlking Heathcliff / Every Catherine"
+    },
+    "shortName": {
+      "sourceHash": "9d5e377517f2507101996a71ab6bbc8427421137685afcb83dac9ea1067bae2a",
+      "text": "Canto VI Final Battle"
+    },
+    "stageName": {
+      "sourceHash": "fb6152fc98381d03c92929293869dd3f42bc78c9f679185a43d3f8f7c68a6326",
+      "text": "All Worlds"
+    },
+    "lead": {
+      "sourceHash": "6efe430f58261a625137b0cb56ed9f0c6bf02a1262c93b5615de81daea2e9d56",
+      "text": "A long, 5-phase battle alternating between the Erlking and Catherine. Protect Heathcliff, bring the first pair of hands down together, and destroy Catherine's Shield as well on her second appearance."
+    },
+    "listLead": {
+      "sourceHash": "eb00530820c75f651df64df729e94856e1662dcefcac2c214e0ffb469ec7267e",
+      "text": "A 5-phase endurance battle in which 2 enemies alternate. Protect the required Sinner, damage both hands together the first time, and handle the body's Shield on the second appearance."
+    },
+    "statNote": {
+      "sourceHash": "f3f3e6fcfb3412f29b86d5df0332aca7e2ccdf11b038826f0736594a83569f3c",
+      "text": "6-48 only. Lists the Erlking's 3 appearances and Catherine's 2 appearances with her hands separately. These forms do not appear simultaneously. Summons list both overall HP and part HP."
+    },
+    "skillNote": {
+      "sourceHash": "3179758b54cb2244837f105496d48570815b66200468e7675f60c198519b5157",
+      "text": "Listed Power is before conditional modifiers. Some Attack Weights and effects are unspecified in the source and are marked unknown or annotated. Identically named attacks can differ by phase or hand; check the current user."
+    },
+    "priorities.0": {
+      "sourceHash": "89bc0915184edae6c90100f378df7df100aefd96577fae9850f5e8393ce0481b",
+      "text": "Heathcliff's death causes defeat. Aim for Lv.45 and Uptie III or higher, prioritizing his clashes and HP."
+    },
+    "priorities.1": {
+      "sourceHash": "b9dd4507a5a33c56089936a17d393f6cbaaef0466286aa68f6eb9cc562c5692a",
+      "text": "On Catherine's first appearance, bring both hands to 1 HP on the same turn. On her second, also break the main body's 300 Shield."
+    },
+    "priorities.2": {
+      "sourceHash": "e90f800b25fa4e2fc3ca1b468c7eaf03548adf2f160e2731fe5bba8ed08ee096",
+      "text": "Continue handling area attacks after the final event. Heathcliff's survival effect does not protect the other Sinners."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "4f3e28a66ef1305bb72bcc2f2fbe615cb23dd048813d811ca9173545ec197065",
+      "text": "Defeated while other allies were still alive"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "68f57449a7f35b5776f6286fc673b2050d8a2a01e151930b0b6087a7652178e3",
+      "text": "Heathcliff's death is the defeat condition. Protect him until he gains his survival effect in the final phase. Even then, protection at 1 HP requires at least one other ally to remain alive. Also watch combinations of Identities that damage allies."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0c6ade932e0c348f2d3b59a911d14fc00873447776665ac1761fcd09a4a158aa",
+      "text": "Cannot reduce Catherine's 1 HP"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "3a890991423b7742000f3159f96895cd9b7176a9eacb0583dac19a42fef419b0",
+      "text": "This is not a normal main-body kill. Bring both hands to 1 HP. On her second appearance, then destroy the 300 Shield the main body gains to advance."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "37fa4d49cfe63eeb951172776ed55aa1ecb8378c1da295822114e82ccc902516",
+      "text": "A hand recovers after you thought it was defeated"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "686685315c4f67c60c2026a346e753af88c3874fcb806290b17bc189dacda2d6",
+      "text": "The first pair's recovery triggers if only one hand is brought down early. Avoid overdamaging one hand; watch both HP values and bring them to 1 HP on the same turn."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "073e783f87fcab18e8bd7835a543c5dcbc376f22065d00d6cdfb953d44f8a245",
+      "text": "A Sinner with Lightning of Suffering becomes Staggered"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "a79c6ab584812be91f4ac01a927aed1ea969cf5ae6333815f8358a2812918615",
+      "text": "Lightning weakens the enemy on Clash Win, but a clash loss or unopposed attack inflicts Breaking Heart and damage on its holder instead. Assign the holder to a winning clash."
+    },
+    "units.0.name": {
+      "sourceHash": "79fd5d049d8647699349ab7d310a75cf6b749e73516837e4914ad58c82fcb322",
+      "text": "Erlking Heathcliff (1st appearance)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "049512dd826f7cde4ab978d455c097108bac075691943939af4511742f6c1df2",
+      "text": "75% / 45% / 0% (1829 / 1098 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "0decd334c8459016a9882a400350f7248d8d777c2285030517fb7c925d11374b",
+      "text": "The 3 appearances share overall HP. On returning, SP resets to 0 and Stagger Thresholds below current HP are restored."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "7c5aa6b08f87b727a2d338be55702ac827eba93efbc77ceec7eeb2a04b5fd53c",
+      "text": "Summons Wild Hunt units in sequence, up to 4 at once. At 70% HP, the main body leaves and its summons retreat too."
+    },
+    "units.1.name": {
+      "sourceHash": "cc1654d63a7bad19c0d532d87923f4c686d395c9bc74dc0514c45f791305fc9f",
+      "text": "Erlking Heathcliff (2nd appearance)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "ed07900c8c1e5556bb72726ea58ae9a2419cd554abf922969066caf72a874613",
+      "text": "1707 → 975 (40%) / max 2439"
+    },
+    "units.1.stagger": {
+      "sourceHash": "049512dd826f7cde4ab978d455c097108bac075691943939af4511742f6c1df2",
+      "text": "75% / 45% / 0% (1829 / 1098 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "0decd334c8459016a9882a400350f7248d8d777c2285030517fb7c925d11374b",
+      "text": "The 3 appearances share overall HP. On returning, SP resets to 0 and Stagger Thresholds below current HP are restored."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "e0c919c7427f677f5fb11cc75f2ee3663adc9cc9495692306a65da1a4c9e3506",
+      "text": "Applies Lightning of Suffering to a random Sinner each turn. At 40% HP, advances to Catherine's second appearance."
+    },
+    "units.2.name": {
+      "sourceHash": "0e5d63c5185a65f81accbce894074144fc1b228a57085b38435187f4e92f4528",
+      "text": "Erlking Heathcliff (3rd appearance)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "d6d5f5a447bd23680d51d6fe24f12d32cff335dd4b8bcf6f560c5163df7d9568",
+      "text": "975 → finish / max 2439"
+    },
+    "units.2.speed": {
+      "sourceHash": "28f010f6b175ceebdc182a1c8be156dca26c4391e56d411d7e1caa19ae8470d1",
+      "text": "2–4 (maximum +2 from Broken Heart)"
+    },
+    "units.2.stagger": {
+      "sourceHash": "049512dd826f7cde4ab978d455c097108bac075691943939af4511742f6c1df2",
+      "text": "75% / 45% / 0% (1829 / 1098 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "0decd334c8459016a9882a400350f7248d8d777c2285030517fb7c925d11374b",
+      "text": "The 3 appearances share overall HP. On returning, SP resets to 0 and Stagger Thresholds below current HP are restored."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "51585b1b7f6ea7b46a59d9aba983a4ad656260392ec712bed84ded427fbbc1d4",
+      "text": "A scripted sequence and event occur on the first turn. After gaining Courage to Approach, prepare for strong area attacks. The enemy dies instantly at the end of this phase's Turn 5."
+    },
+    "units.3.name": {
+      "sourceHash": "08e3de6c8f1a3af704988a03fde6af6d1e18f69e6ac27c48c792ee3457124be3",
+      "text": "Every Catherine (1st appearance)"
+    },
+    "units.3.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.3.stagger": {
+      "sourceHash": "8d67ef5c425701835c96af5a23cf47ba14e7df0b0daa048988259dd740e85026",
+      "text": "Incapacitated when both hands reach 1 HP"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "aba73b56556126e57e7f567290b77fae8ea6306b5a7a5bdc321522f6a11f55a2",
+      "text": "If either hand has at least 2 HP, gains 10 Protection and all resistances become 0.2. Listed resistances are after Protection is removed."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "85c456629636571943e06cb9627d9090d6dd61cec9c6a0ce3fc25046cb33b496",
+      "text": "You do not need to deplete the initial 404 Away With You. Handling both hands advances to an event."
+    },
+    "units.4.name": {
+      "sourceHash": "3f15d9006509c4e55b120fde5b27b56d4de0cf9b4ec94668442b319915a3476a",
+      "text": "Right Hand of Every Catherine (1st appearance)"
+    },
+    "units.4.part": {
+      "sourceHash": "f4fdd40c6b4cc1eaade0e30bcdfee1ea174b7d1347f4ae499cadd1145454e86b",
+      "text": "Right Hand"
+    },
+    "units.4.hp": {
+      "sourceHash": "957498378e5e3bac76008aa2185146cb3e33795945f28e5208527109a95de6f8",
+      "text": "355 (stops at 1 HP)"
+    },
+    "units.4.stagger": {
+      "sourceHash": "3a9f86a7396e54ca659894e4bb13486078a8f4c212da268f8e3270c3ec8e123b",
+      "text": "Staggered at 1 HP"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "47c9a3e10f20308f7e2160153b3c3ee1b36c9d1c30f2442dcceb991ba0a3d4ff",
+      "text": "At the end of the turn after this hand reaches 1 HP, if the other hand has at least 2 HP, heal for 50% of that other hand's remaining HP."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "c0832678f0b9bbf5f16a14576fd3f1a3a66febe2eaaf22dfe2e5a1fc0251aa0a",
+      "text": "Clash Power −3 against Heathcliff; damage to him −50%. His death causes defeat."
+    },
+    "units.5.name": {
+      "sourceHash": "2f7f710e2bdfcfe5b861ecfd0278bdb29a28c53407edc9a722f131163dd38479",
+      "text": "Left Hand of Every Catherine (1st appearance)"
+    },
+    "units.5.part": {
+      "sourceHash": "dd393f37630429c3713000cb707a7cdd1dbb3741226f7d06ea120a54c9efa604",
+      "text": "Left Hand"
+    },
+    "units.5.hp": {
+      "sourceHash": "957498378e5e3bac76008aa2185146cb3e33795945f28e5208527109a95de6f8",
+      "text": "355 (stops at 1 HP)"
+    },
+    "units.5.stagger": {
+      "sourceHash": "3a9f86a7396e54ca659894e4bb13486078a8f4c212da268f8e3270c3ec8e123b",
+      "text": "Staggered at 1 HP"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "47c9a3e10f20308f7e2160153b3c3ee1b36c9d1c30f2442dcceb991ba0a3d4ff",
+      "text": "At the end of the turn after this hand reaches 1 HP, if the other hand has at least 2 HP, heal for 50% of that other hand's remaining HP."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "c0832678f0b9bbf5f16a14576fd3f1a3a66febe2eaaf22dfe2e5a1fc0251aa0a",
+      "text": "Clash Power −3 against Heathcliff; damage to him −50%. His death causes defeat."
+    },
+    "units.6.name": {
+      "sourceHash": "3f178826723886317755c437ae006d001a88a829d6ed2196fd6b0ae0d976e4bb",
+      "text": "Every Catherine (2nd appearance)"
+    },
+    "units.6.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.6.stagger": {
+      "sourceHash": "046c25bc341e7a7340599af9ee1a03376dec67b649c7cbb3917f1bc4b9cc5fbe",
+      "text": "Both hands at 1 HP → destroy 300 Shield to incapacitate"
+    },
+    "units.6.notes.0": {
+      "sourceHash": "aba73b56556126e57e7f567290b77fae8ea6306b5a7a5bdc321522f6a11f55a2",
+      "text": "If either hand has at least 2 HP, gains 10 Protection and all resistances become 0.2. Listed resistances are after Protection is removed."
+    },
+    "units.6.notes.1": {
+      "sourceHash": "5615c02df48c5ff8bbf735542e4c30521555ec86874c5703a801a2acc3fe40d4",
+      "text": "Handling both hands is not enough on the second appearance. Deplete the 300 Shield from Away With You."
+    },
+    "units.7.name": {
+      "sourceHash": "93bb91dc92eefb5eb73977d2b6cd5f3b77192556ee03cc9967f3a806fa6c8ae7",
+      "text": "Right Hand of Every Catherine (2nd appearance)"
+    },
+    "units.7.part": {
+      "sourceHash": "f4fdd40c6b4cc1eaade0e30bcdfee1ea174b7d1347f4ae499cadd1145454e86b",
+      "text": "Right Hand"
+    },
+    "units.7.hp": {
+      "sourceHash": "957498378e5e3bac76008aa2185146cb3e33795945f28e5208527109a95de6f8",
+      "text": "355 (stops at 1 HP)"
+    },
+    "units.7.stagger": {
+      "sourceHash": "3a9f86a7396e54ca659894e4bb13486078a8f4c212da268f8e3270c3ec8e123b",
+      "text": "Staggered at 1 HP"
+    },
+    "units.7.notes.0": {
+      "sourceHash": "1d2a826726c9cecf909191fe1b970edc5393f9640f661a559d6306835f750141",
+      "text": "Leaves at 1 HP. Unlike the first appearance, no passive that heals one hand is listed."
+    },
+    "units.7.notes.1": {
+      "sourceHash": "c0832678f0b9bbf5f16a14576fd3f1a3a66febe2eaaf22dfe2e5a1fc0251aa0a",
+      "text": "Clash Power −3 against Heathcliff; damage to him −50%. His death causes defeat."
+    },
+    "units.8.name": {
+      "sourceHash": "d98e0ed572965a0e33f27b22636bddd65b638db3dc55386ffdd6fdca0fb550d0",
+      "text": "Left Hand of Every Catherine (2nd appearance)"
+    },
+    "units.8.part": {
+      "sourceHash": "dd393f37630429c3713000cb707a7cdd1dbb3741226f7d06ea120a54c9efa604",
+      "text": "Left Hand"
+    },
+    "units.8.hp": {
+      "sourceHash": "957498378e5e3bac76008aa2185146cb3e33795945f28e5208527109a95de6f8",
+      "text": "355 (stops at 1 HP)"
+    },
+    "units.8.stagger": {
+      "sourceHash": "3a9f86a7396e54ca659894e4bb13486078a8f4c212da268f8e3270c3ec8e123b",
+      "text": "Staggered at 1 HP"
+    },
+    "units.8.notes.0": {
+      "sourceHash": "1d2a826726c9cecf909191fe1b970edc5393f9640f661a559d6306835f750141",
+      "text": "Leaves at 1 HP. Unlike the first appearance, no passive that heals one hand is listed."
+    },
+    "units.8.notes.1": {
+      "sourceHash": "c0832678f0b9bbf5f16a14576fd3f1a3a66febe2eaaf22dfe2e5a1fc0251aa0a",
+      "text": "Clash Power −3 against Heathcliff; damage to him −50%. His death causes defeat."
+    },
+    "units.9.name": {
+      "sourceHash": "d23c23c0d0713c7f723488369d335f722de99152d9f26d4f0fc15bf062314557",
+      "text": "Hindley of the Wild Hunt"
+    },
+    "units.9.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.9.hp": {
+      "sourceHash": "a3623b59d8152758b73a3a2abe41ada5ba9bc15d939f1770cdb78da9fb4e7b5c",
+      "text": "Overall 276 / Body 225"
+    },
+    "units.9.stagger": {
+      "sourceHash": "c178763102db7a5d12fe6b78b72a511ddf9fd0256a6d8066cca0510e4436b212",
+      "text": "70% / 30% / 0% (158 / 68 / 0)"
+    },
+    "units.9.notes.0": {
+      "sourceHash": "f13cdb46ea83503a05d55a0b2ea9ec8fc5b54571dfa2f9b464ec20974239c57f",
+      "text": "Lists the source's overall and Body HP separately. These are 6-48 summons, separate from similarly named enemies in regular stages."
+    },
+    "units.9.notes.1": {
+      "sourceHash": "d390a1042cf014ed71d0bf12fbbb1e0c0e052247f2229468a8197f1bf617ddb8",
+      "text": "Summoned in order: Josephine → Hindley → The Reaved Lamenter → Linton. Units can repeat, up to 4 at once."
+    },
+    "units.10.name": {
+      "sourceHash": "567d55f97f2fde5cae71166b46602af4797f7e5d53646e056ebb03a6317d3fb2",
+      "text": "Josephine of the Wild Hunt"
+    },
+    "units.10.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.10.hp": {
+      "sourceHash": "f0e4113d57dddf2c22a2d5a1036a51cb37879be1f99f7a4e4503aa1c027ecc3b",
+      "text": "Overall 252 / Body 197"
+    },
+    "units.10.stagger": {
+      "sourceHash": "28966f0a01dcad8ffd62d27199fa9e759df138c83d95771a613c8d619af47902",
+      "text": "55% / 30% / 0% / −10% (108 / 59 / 0 / −20)"
+    },
+    "units.10.notes.0": {
+      "sourceHash": "f13cdb46ea83503a05d55a0b2ea9ec8fc5b54571dfa2f9b464ec20974239c57f",
+      "text": "Lists the source's overall and Body HP separately. These are 6-48 summons, separate from similarly named enemies in regular stages."
+    },
+    "units.10.notes.1": {
+      "sourceHash": "d390a1042cf014ed71d0bf12fbbb1e0c0e052247f2229468a8197f1bf617ddb8",
+      "text": "Summoned in order: Josephine → Hindley → The Reaved Lamenter → Linton. Units can repeat, up to 4 at once."
+    },
+    "units.11.name": {
+      "sourceHash": "c5dfeb59d07603f767ab43eb2d08c489555b94c776076b7c6e39cd60faa64875",
+      "text": "Linton of the Wild Hunt"
+    },
+    "units.11.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.11.hp": {
+      "sourceHash": "fc235a2d7d6e0cfdbb55b4be17d6359780abff86ffa11f5ac823e63848eb85f4",
+      "text": "Overall 252 / Body 164"
+    },
+    "units.11.stagger": {
+      "sourceHash": "d6262be4f6f7685bc42a8e4dd62d5b68e63a32691c50a5638977624e15f79605",
+      "text": "70% / 30% / 0% (115 / 49 / 0)"
+    },
+    "units.11.notes.0": {
+      "sourceHash": "f13cdb46ea83503a05d55a0b2ea9ec8fc5b54571dfa2f9b464ec20974239c57f",
+      "text": "Lists the source's overall and Body HP separately. These are 6-48 summons, separate from similarly named enemies in regular stages."
+    },
+    "units.11.notes.1": {
+      "sourceHash": "d390a1042cf014ed71d0bf12fbbb1e0c0e052247f2229468a8197f1bf617ddb8",
+      "text": "Summoned in order: Josephine → Hindley → The Reaved Lamenter → Linton. Units can repeat, up to 4 at once."
+    },
+    "units.12.name": {
+      "sourceHash": "8d3b5a94701531c74de1bbeee6dd233e8202562a9f84df06482052e5beb5bf81",
+      "text": "The Reaved Lamenter of the Wild Hunt"
+    },
+    "units.12.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.12.hp": {
+      "sourceHash": "b568b137f50e65104e70c6f84a44bb947894ac3b38a3a5a9f839d64efcabf8a3",
+      "text": "Overall 367 / Body 236"
+    },
+    "units.12.stagger": {
+      "sourceHash": "a0184eae9008c8a714e0e441cfb5e5ed95315bd0f2b71a14c79696704bb321d3",
+      "text": "75% / 45% / 0% (177 / 106 / 0)"
+    },
+    "units.12.notes.0": {
+      "sourceHash": "f13cdb46ea83503a05d55a0b2ea9ec8fc5b54571dfa2f9b464ec20974239c57f",
+      "text": "Lists the source's overall and Body HP separately. These are 6-48 summons, separate from similarly named enemies in regular stages."
+    },
+    "units.12.notes.1": {
+      "sourceHash": "d390a1042cf014ed71d0bf12fbbb1e0c0e052247f2229468a8197f1bf617ddb8",
+      "text": "Summoned in order: Josephine → Hindley → The Reaved Lamenter → Linton. Units can repeat, up to 4 at once."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "99e142a53d80ddc9bf8b32fc933162afead7348573948de0ea909764cbc0e7e6",
+      "text": "Develop Heathcliff as a main combatant"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "795d6e043160b6e3070b800877319a6d486c2db5dab5f04de3c80c4e3ee5f3c6",
+      "text": "Deployment limit: 6; Heathcliff is mandatory. Aim for Lv.45 and Uptie III or higher, with Blunt resistance and skills that can win clashes."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "3cf5e425073789e778647a1d438e59d7e21563ce5cf0f6cd39ead69c81c2802a",
+      "text": "Build SP and E.G.O resources during this regular stage. Give early winning clashes to your main combatants, and gather resources for healing E.G.O too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "16e8db50799467c2421a02e3ae8bd1334430540acbdb86be3f18f630d669f52a",
+      "text": "If few Identities are developed, a smaller team can concentrate slots on earlier deployment positions. Check that you still have enough actions for area attacks and multiple hands."
+    },
+    "phases.1.timing": {
+      "sourceHash": "7f0eabd679a4c7b751538f22b22b428961aa427fcbef5f6bb36328269b263044",
+      "text": "1. Erlking / 100–70% HP"
+    },
+    "phases.1.title": {
+      "sourceHash": "26f8c382b0b6d04012c7c8a563400f5f753ea4064c49eaadd7af3c5d99ce3436",
+      "text": "Aim for the main body's transition rather than clearing every summon"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "9251c45c9b967b8636c646a5035bdde351e883654929c55dc6eba220ec3d7b7c",
+      "text": "Wild Hunt summons are replenished up to 4 at once. All retreat when the main body reaches around 1707 HP, so you do not need to kill every summon each time."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "7f09d0c76f429a335c4e69cce0967cdbf46d2a874d65b20ec1b9e00bae40ef1c",
+      "text": "Using You'll Get Shoved In This Coffin Too buffs the entire enemy team next turn. Save strong skills for the repeated Behead Heathcliffs attacks, and Stagger summons to reduce incoming attacks."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "5b6c1d89de99df1bc63442b209d070cfd2836aa9a7854c01704f2f7f93970601",
+      "text": "The Erlking targets Heathcliff. Heathcliff's clash wins can lower the enemy's SP, but let faster allies intercept dangerous attacks. Advance at 70% HP."
+    },
+    "phases.2.timing": {
+      "sourceHash": "0c2fdc227b4a0dd24b2d74f40cba8782eca4eb13ff9585f9eb521af0875f0a59",
+      "text": "2. Catherine / 1st appearance"
+    },
+    "phases.2.title": {
+      "sourceHash": "41e420a4200cac4421ca076b8c484efd4754bf2bd16015f98f8ddd8f3c2c2374",
+      "text": "Bring both hands to 1 HP together"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "bd2ac0b835357752f0969e16af7409e5d49e9ae6229d4975f7b8d62fb9e0769c",
+      "text": "The main body has 1 HP but is protected by 10 Protection and 0.2 resistances while a hand remains. Split attacks between the hands. You do not need to deplete the initial 404 Away With You."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "73d2f287dc7bdf2f66db2bd057b619bfc139d90a971f34cd154ee9de33411ca1",
+      "text": "If only one hand reaches 1 HP, it heals at the end of the following turn based on the other hand's HP. Damage both first, then bring both to 1 HP on the same turn."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "8c828f79f0a9747508572c60b2c98b8b6fc920b638ef5d558cfee8247fb2ff36",
+      "text": "Heathcliff has favorable modifiers, including −3 to the enemy's Clash Power. Beating Misery is All That Remains... adds Breaking Heart to the hand, helping Stagger it."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "5b3916477badfbf19b72407cef9f752d9e14b0e306572918647c92c11a1d55fd",
+      "text": "Both hands at 1 HP trigger an event. Gloom and Envy are favored, and Heathcliff has a check modifier. Success also heals everyone's SP."
+    },
+    "phases.3.timing": {
+      "sourceHash": "0ca64e131df8a2f240b0b7dcf0a82ee6ff167a97be07dadec57d5117af0648c9",
+      "text": "3. Erlking / 70–40% HP"
+    },
+    "phases.3.title": {
+      "sourceHash": "4e2b54d4b2f21af5cc5a7aaf11f1beb31312233aefef847922b6a88230047129",
+      "text": "Assign the Lightning holder to clashes"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "2562399ddbf3945f6487321acccfca7ba9599ec5c74de539be543a7d8798865b",
+      "text": "A random Sinner receives Lightning of Suffering each turn. The Erlking loses 6 Power when clashing against that Sinner. Winning inflicts Breaking Heart on the enemy, causing Stagger at 3."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "a76ef35cfec65d733b54c30bce2488e020544c0119f3182b134577a2c95e6efa",
+      "text": "If the Lightning holder makes an unopposed attack or loses a clash, they gain Breaking Heart instead. Check the effects and take winning clashes."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "bd63ccbb7e3a9b768e3c65f7862129ea707bbbae7430591ec5706ce89d5b5c70",
+      "text": "Offset Withstand with a Defense Skill to let attacks through. At around 975 main-body HP, advance to Catherine's second appearance."
+    },
+    "phases.4.timing": {
+      "sourceHash": "0c54175d982f19bb1fc7714db48fe735d5e9e160255606218f8375c06df09d9a",
+      "text": "4. Catherine / 2nd appearance"
+    },
+    "phases.4.title": {
+      "sourceHash": "9594f82d4a9e743286722a8da84b5fc40061230668d7a3c6f4834c7a75680b62",
+      "text": "Handle both hands, then break the main body's Shield"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "8eb9f1243af283a217bb4d81c2eaa6ccac02fde7d0b3cc115b1d87046d84b54d",
+      "text": "Bring both hands to 1 HP again. This time they leave at 1 HP and lack the first appearance's hand-recovery passive."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "9fe8b1bd5f54fe99df0752ac0d7e5845cdb90ec6df22197641306a6e1014d4ba",
+      "text": "The main body's Breaking Heart is an area attack with max-HP-based damage. Stop it with a strong clasher to prevent forced Stagger on your side."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "637559e98661805ce243a5f70a88821dcd5379ff4f5b51c342ffbede1bf6602f",
+      "text": "The event after the first turn favors Wrath and Envy, with a modifier for Heathcliff. Success also lowers both hands' Attack Power."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "572abe43218a56dcc0c47a88f5bdf1b0337db4b7ed63b9a756c37ab158f77f28",
+      "text": "The turn after both hands are handled, the main body gains 300 Shield. Focus your saved attacks on it and fully break the Shield to enter the final phase."
+    },
+    "phases.5.timing": {
+      "sourceHash": "a5154f75b61667047bdeb3eedc20e804de4a2a4da9bd4e3d7d83530c02bbc3eb",
+      "text": "5. Erlking / final phase"
+    },
+    "phases.5.title": {
+      "sourceHash": "2618b842c0b3dfc5cfd7a07c91d9c363eed0b621f27f8855b259d8d7fd572b33",
+      "text": "Advance the scripted sequence and endure while stopping area attacks"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "584141bd516e1f97b6c973f4b29bcd46fcf306b43ccbc321bac16f1420002a7f",
+      "text": "On entering the final phase, Heathcliff gains an effect that keeps him at 1 HP while at least one other ally is alive. The initial attack cannot be redirected or clashed with; advance to the event after Turn End rather than trying to stop it with a normal clash."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "4f1eb4a31a1f4f9063e54082a4981093ed543a8d398c55e34bb1e14bd5cf08c9",
+      "text": "After the event, ordinary Identities gain Courage to Approach. The Wild Hunt Identity retains Faded Promise with the survival effect added. Both require another ally to survive, so prioritize responding to area attacks."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "9c7e8bda486c30c5e439915c6ed6ca61ec08a39dfa09d1d5d47375cd0f473cb6",
+      "text": "Sorrow and Lament In The Erlking's Wake. has a maximum of 20 and Attack Weight 7. Save a strong E.G.O to win, and recover HP and SP if needed."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "971cb1bcd1cf7dacd7792f0d52d013fb6525fa567dbd85412a19be7f0ae3f917",
+      "text": "The encounter ends when you deplete the main body's HP or reach the end of this phase's Turn 5. After the event, this means surviving roughly 4 more turns."
+    },
+    "skills.0.name": {
+      "sourceHash": "dfb91c649239e8f0d832d68437c34654e16318d06e322f236adf7c4c12548722",
+      "text": "Greatsword Rend"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a9e90e0bc0a6cdb43347ddf5382cc45697d98357c9ab7b73095cb8063ff16679",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3 and inflict 3 Sinking."
+    },
+    "skills.0.response": {
+      "sourceHash": "b5517795e1470d2ddc29ca94aa3b1a3333bdf6f07f43cb5670789b36265bd6c1",
+      "text": "Sinking buildup also enables later Bleed and Power conditions. Stop it with a winning clash and protect Heathcliff's SP."
+    },
+    "skills.1.name": {
+      "sourceHash": "57d30e2cc333ac7af1427101343b4afd879224e746beb44f44242f5ce1803188",
+      "text": "Smackdown"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "09b25eb557f53ce7e50b763112f570416236107553b125acebac7792435a7c66",
+      "text": "[Clash Win] Gain Attack Power Up and 1 Damage Up next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "082225f875d6acb09f7ec62679ed7e4052413f8794f02ec4ff0f553a29ba11e8",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3. Inflict 3 Sinking."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "ef2e3edb8613f896b0650a689e7887fd1cfedbd3b00c3af660b8009157fcaf15",
+      "text": "　[On Hit] Inflict Bleed equal to the target's Sinking."
+    },
+    "skills.1.response": {
+      "sourceHash": "4c631bba78ba3a6a7da7456ea9404612e1a00f049c1e3f694ed83d8822d04a12",
+      "text": "Losing the clash also strengthens next turn's attacks. Prioritize strong skills against it in the low-SP opening."
+    },
+    "skills.2.name": {
+      "sourceHash": "3942c062785cfb93f13cf84996472a987f9d2e5cea19f633bc848187c721240b",
+      "text": "Heed My Call, Wuthering Heights"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "8aa820476de5f9f605021c6a9438b836d3230cb9a3d86801988843419125b82a",
+      "text": "[On Use] Create 1 Wild Hunt unit next turn."
+    },
+    "skills.2.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.2.response": {
+      "sourceHash": "10349b61e7a0595383971df2708e6bef08ee04f217e4c827ee051799ebbb1fd2",
+      "text": "Summoning triggers On Use and cannot be stopped with a normal clash. Focus on advancing the main body to its next phase rather than clearing every summon."
+    },
+    "skills.3.name": {
+      "sourceHash": "f9e49c4bb767871decddd6840dba69b37f4fa6306e7ad2c9654cef6eeeb03d26",
+      "text": "You’ll Get Shoved In This Coffin Too"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "d8ce898a6a8f272b798ccc782036e1db615c37ad98b7ecce0ab4a5dc35d5cd1b",
+      "text": "[Combat Start] Increase Tremor Burst and Stagger Threshold-raising effects by 100% this turn."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "5ece2ef09dc806e668e0efa2929c841283325e8bdd76cd1f41d9e125431cc913",
+      "text": "[On Use] Grant 3 Attack Power Up and 3 Damage Up to all allies, including self, next turn."
+    },
+    "skills.3.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.3.response": {
+      "sourceHash": "3cd1998c243779281f635ccaec14ae6b0723ee250f41cb76fce11336cf457217",
+      "text": "Buffs the entire enemy team next turn On Use. Prepare summon Staggers and high-Power skills for the following repeated Behead Heathcliffs attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "d70c84d3a8c2aadae31b2c13a511cecd009da8763b18a5679969113b136dd9fd",
+      "text": "Behead Heathcliffs"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "6847479aa7398a7b249804b08aec2d676faa59cca0458dbc1e828e3a67125b78",
+      "text": "[On Hit] Inflict 8 Bleed."
+    },
+    "skills.4.response": {
+      "sourceHash": "50d69b9a09e2c9f09c5f216c40d35ab0a24ad14f63fb844d79413488d430e707",
+      "text": "Several appear early on the turn after the teamwide buffs. Paralyze and Bleed make recovery difficult, so stop them with your main combatants and E.G.O. Attack Weight for the first appearance is unspecified in the source."
+    },
+    "skills.5.name": {
+      "sourceHash": "dfb91c649239e8f0d832d68437c34654e16318d06e322f236adf7c4c12548722",
+      "text": "Greatsword Rend"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "a9e90e0bc0a6cdb43347ddf5382cc45697d98357c9ab7b73095cb8063ff16679",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3 and inflict 3 Sinking."
+    },
+    "skills.5.response": {
+      "sourceHash": "b5517795e1470d2ddc29ca94aa3b1a3333bdf6f07f43cb5670789b36265bd6c1",
+      "text": "Sinking buildup also enables later Bleed and Power conditions. Stop it with a winning clash and protect Heathcliff's SP."
+    },
+    "skills.6.name": {
+      "sourceHash": "57d30e2cc333ac7af1427101343b4afd879224e746beb44f44242f5ce1803188",
+      "text": "Smackdown"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "09b25eb557f53ce7e50b763112f570416236107553b125acebac7792435a7c66",
+      "text": "[Clash Win] Gain Attack Power Up and 1 Damage Up next turn."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "082225f875d6acb09f7ec62679ed7e4052413f8794f02ec4ff0f553a29ba11e8",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3. Inflict 3 Sinking."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "ef2e3edb8613f896b0650a689e7887fd1cfedbd3b00c3af660b8009157fcaf15",
+      "text": "　[On Hit] Inflict Bleed equal to the target's Sinking."
+    },
+    "skills.6.response": {
+      "sourceHash": "4c631bba78ba3a6a7da7456ea9404612e1a00f049c1e3f694ed83d8822d04a12",
+      "text": "Losing the clash also strengthens next turn's attacks. Prioritize strong skills against it in the low-SP opening."
+    },
+    "skills.7.name": {
+      "sourceHash": "d70c84d3a8c2aadae31b2c13a511cecd009da8763b18a5679969113b136dd9fd",
+      "text": "Behead Heathcliffs"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "6847479aa7398a7b249804b08aec2d676faa59cca0458dbc1e828e3a67125b78",
+      "text": "[On Hit] Inflict 8 Bleed."
+    },
+    "skills.7.response": {
+      "sourceHash": "50d69b9a09e2c9f09c5f216c40d35ab0a24ad14f63fb844d79413488d430e707",
+      "text": "Several appear early on the turn after the teamwide buffs. Paralyze and Bleed make recovery difficult, so stop them with your main combatants and E.G.O. Attack Weight for the first appearance is unspecified in the source."
+    },
+    "skills.8.name": {
+      "sourceHash": "f02402b36129fe06d443d003643b3a7c6bb5623ee1a7a69db1c2be1183edcf91",
+      "text": "Hollow Coffin Mace"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "f5d3f7feb65b0913096b7559fcef24d57b35c9dfb0fc26d37e184d7780ef4c1e",
+      "text": "If the target has at least 5 Sinking, Clash Power +1."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "8617b32c1f2c2cf080e08b7bd14b7eef464284c242a21f0cbc388d3d09402a86",
+      "text": "If the target has at least 5 Bleed, Clash Power +1."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "bc381d3b5d8d23420015f7ad97fd680b1d3902da1fdb05c88fcdc6185d394aa6",
+      "text": "[Clash Win] Increase Sinking Count by 3."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "5552167042606082a9f2c7a189718d7c6b689780f03de2ee53e99e1dc6f2b9dc",
+      "text": "Ⅰ[Heads Hit] Next Coin Power +2."
+    },
+    "skills.8.response": {
+      "sourceHash": "70dfd394cadc0223055d5f18f91b190165a482a3bbe62a17254ddf4032b05813",
+      "text": "Clash Power rises at 5 or more Sinking and at 5 or more Bleed. Check the current prediction, including status and Coin effects."
+    },
+    "skills.9.name": {
+      "sourceHash": "12541bd35775bae2560760fbd3bb981809ad8b2025b89826e8203191a5470527",
+      "text": "Ride for Death, Dullahan"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "2cc89127733addb4a15ebd892f5286254cc488815fd332b4d58e88c473f2516a",
+      "text": "Ⅱ[On Hit] Inflict 5 Sinking."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "7e243e6b070fa621f6c0e43cd5197196dfc9ac0a748c8f6bd00d72d0c9f3d2d9",
+      "text": "Ⅲ[On Hit] Increase Sinking Count by 5."
+    },
+    "skills.9.response": {
+      "sourceHash": "47932faec789ed98fcf4a3cce09179ace9818356b79d8a16d0b0ee1b89c411f8",
+      "text": "An area attack with Attack Weight 3. A Sinner with Lightning of Suffering has an advantage in the clash; check the displayed effects when assigning it."
+    },
+    "skills.10.name": {
+      "sourceHash": "ed37222fc0eb7c293b9a4091c26f0d739e9c02c0ca5b41e808c672af5a9249c0",
+      "text": "Withstand"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "03ac61daf9c77ed0a62d4d089bb29140918586a7c66b140e5d34069134c5e5c7",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.10.response": {
+      "sourceHash": "d76838a1900befa12294807187bd14284b688f6cd8135a075b5c68abf57e185d",
+      "text": "Offset with a Defense Skill to let other Sinners' attacks through. Do not assume offsetting always removes its On Use buff; check next turn's display too."
+    },
+    "skills.11.name": {
+      "sourceHash": "dfb91c649239e8f0d832d68437c34654e16318d06e322f236adf7c4c12548722",
+      "text": "Greatsword Rend"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "a9e90e0bc0a6cdb43347ddf5382cc45697d98357c9ab7b73095cb8063ff16679",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3 and inflict 3 Sinking."
+    },
+    "skills.11.response": {
+      "sourceHash": "b5517795e1470d2ddc29ca94aa3b1a3333bdf6f07f43cb5670789b36265bd6c1",
+      "text": "Sinking buildup also enables later Bleed and Power conditions. Stop it with a winning clash and protect Heathcliff's SP."
+    },
+    "skills.12.name": {
+      "sourceHash": "57d30e2cc333ac7af1427101343b4afd879224e746beb44f44242f5ce1803188",
+      "text": "Smackdown"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "09b25eb557f53ce7e50b763112f570416236107553b125acebac7792435a7c66",
+      "text": "[Clash Win] Gain Attack Power Up and 1 Damage Up next turn."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "082225f875d6acb09f7ec62679ed7e4052413f8794f02ec4ff0f553a29ba11e8",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3. Inflict 3 Sinking."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "ef2e3edb8613f896b0650a689e7887fd1cfedbd3b00c3af660b8009157fcaf15",
+      "text": "　[On Hit] Inflict Bleed equal to the target's Sinking."
+    },
+    "skills.12.response": {
+      "sourceHash": "4c631bba78ba3a6a7da7456ea9404612e1a00f049c1e3f694ed83d8822d04a12",
+      "text": "Losing the clash also strengthens next turn's attacks. Prioritize strong skills against it in the low-SP opening."
+    },
+    "skills.13.name": {
+      "sourceHash": "d70c84d3a8c2aadae31b2c13a511cecd009da8763b18a5679969113b136dd9fd",
+      "text": "Behead Heathcliffs"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "6847479aa7398a7b249804b08aec2d676faa59cca0458dbc1e828e3a67125b78",
+      "text": "[On Hit] Inflict 8 Bleed."
+    },
+    "skills.13.response": {
+      "sourceHash": "50d69b9a09e2c9f09c5f216c40d35ab0a24ad14f63fb844d79413488d430e707",
+      "text": "Several appear early on the turn after the teamwide buffs. Paralyze and Bleed make recovery difficult, so stop them with your main combatants and E.G.O. Attack Weight for the first appearance is unspecified in the source."
+    },
+    "skills.14.name": {
+      "sourceHash": "f02402b36129fe06d443d003643b3a7c6bb5623ee1a7a69db1c2be1183edcf91",
+      "text": "Hollow Coffin Mace"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "f5d3f7feb65b0913096b7559fcef24d57b35c9dfb0fc26d37e184d7780ef4c1e",
+      "text": "If the target has at least 5 Sinking, Clash Power +1."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "8617b32c1f2c2cf080e08b7bd14b7eef464284c242a21f0cbc388d3d09402a86",
+      "text": "If the target has at least 5 Bleed, Clash Power +1."
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "bc381d3b5d8d23420015f7ad97fd680b1d3902da1fdb05c88fcdc6185d394aa6",
+      "text": "[Clash Win] Increase Sinking Count by 3."
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "5552167042606082a9f2c7a189718d7c6b689780f03de2ee53e99e1dc6f2b9dc",
+      "text": "Ⅰ[Heads Hit] Next Coin Power +2."
+    },
+    "skills.14.response": {
+      "sourceHash": "70dfd394cadc0223055d5f18f91b190165a482a3bbe62a17254ddf4032b05813",
+      "text": "Clash Power rises at 5 or more Sinking and at 5 or more Bleed. Check the current prediction, including status and Coin effects."
+    },
+    "skills.15.name": {
+      "sourceHash": "12541bd35775bae2560760fbd3bb981809ad8b2025b89826e8203191a5470527",
+      "text": "Ride for Death, Dullahan"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "2cc89127733addb4a15ebd892f5286254cc488815fd332b4d58e88c473f2516a",
+      "text": "Ⅱ[On Hit] Inflict 5 Sinking."
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "7e243e6b070fa621f6c0e43cd5197196dfc9ac0a748c8f6bd00d72d0c9f3d2d9",
+      "text": "Ⅲ[On Hit] Increase Sinking Count by 5."
+    },
+    "skills.15.response": {
+      "sourceHash": "47932faec789ed98fcf4a3cce09179ace9818356b79d8a16d0b0ee1b89c411f8",
+      "text": "An area attack with Attack Weight 3. A Sinner with Lightning of Suffering has an advantage in the clash; check the displayed effects when assigning it."
+    },
+    "skills.16.name": {
+      "sourceHash": "ed37222fc0eb7c293b9a4091c26f0d739e9c02c0ca5b41e808c672af5a9249c0",
+      "text": "Withstand"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "03ac61daf9c77ed0a62d4d089bb29140918586a7c66b140e5d34069134c5e5c7",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.16.response": {
+      "sourceHash": "d76838a1900befa12294807187bd14284b688f6cd8135a075b5c68abf57e185d",
+      "text": "Offset with a Defense Skill to let other Sinners' attacks through. Do not assume offsetting always removes its On Use buff; check next turn's display too."
+    },
+    "skills.17.name": {
+      "sourceHash": "0935253452c4e1d251090adb075793041627b3b32f8e0c9789df56318664e34b",
+      "text": "Sorrow and Lament In The Erlking's Wake."
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "8a4e08dfd80bd3e14b3737d525c0b0341e9275d0faa6db1f8d6d61d4ce03191d",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking and 4 Bleed."
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "5d16fe4f739b3797a3cd8ccc6148f3e6fd7816f878635b1b71ef816f76761c6b",
+      "text": "Ⅱ[On Hit] Increase Sinking and Bleed Count by 2."
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "0b8abafa8dffd3338d926f49a6cba0e3d6fbe30ceebdebc060dadabdd47e793f",
+      "text": "Ⅲ[On Hit] Inflict 4 Sinking and 4 Bleed."
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "b090b19bc45e1931d4fec9a3c2ed973f17c14993a0f26c05629dd02eecbbbc61",
+      "text": "Ⅳ[On Hit] Increase Sinking and Bleed Count by 2."
+    },
+    "skills.17.response": {
+      "sourceHash": "9279c18159dfe06bd4aae93935ac682a5da462b0eb97e6b90af68c59443a4fc1",
+      "text": "An area attack with Attack Weight 7 and a maximum of 20. A reason to save high-Power E.G.O for the final phase. It also hits allies other than Heathcliff, so do not rely solely on his survival effect."
+    },
+    "skills.18.name": {
+      "sourceHash": "8eca017f1f16d6767587a9f32b63087eb4e5afca0afa2e08436d2769db5861b2",
+      "text": "Every Heathcliff Must Die..."
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "861fdbb3360aeb461811629cb048d3e88b6c382b346e9091ea4c14c39bc9d0ad",
+      "text": "Cannot become Staggered this turn."
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "7bfafed5f56483a25970feb4a5b29213d1a99fde923bbfa0269b328750e7af3c",
+      "text": "Ⅰ[On Hit] Deal damage equal to 100% of the target's max HP."
+    },
+    "skills.18.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.18.response": {
+      "sourceHash": "5d5db3e0b5379791fd0deedfb5de6d87c49831ca0223c8ed0d40d1990e38c309",
+      "text": "A scripted attack near the ending that cannot be redirected or clashed with. Do not try to overpower it with E.G.O as a regular instant-kill attack; advance Heathcliff's following event."
+    },
+    "skills.19.name": {
+      "sourceHash": "a5547c1e36b3c287da27ce47dc1f6e279b3ded1be737d500826d3c9365a3537b",
+      "text": "Marc..."
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "970e11eab124e7a1b181d91be292965fde1bc089f7ba8d09d41a7f7b7d83ce4a",
+      "text": "Ⅰ[On Hit] Inflict 2 Defense Level Down next turn."
+    },
+    "skills.19.response": {
+      "sourceHash": "e4c968c9d383d940facf68ebb7169ef17e0755b7ca2fdc039f03cde4f2c6c0f9",
+      "text": "Prevent next-turn Defense Level Down. Secure responses to the Erlking's dangerous clashes, then use spare actions to Stagger summons."
+    },
+    "skills.20.name": {
+      "sourceHash": "689256c3a1168612835b67cb50c83d74225c1f1906b7f23db4480d9971afd153",
+      "text": "...te"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "2a71f669a367c6d44662bb53dec05a603531d5e8ef94be5d21eaf4d2d5fe402b",
+      "text": "[On Use] If the target has at least 2 negative effects, Base Power +1."
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "518b47f7a35e98031d5af36e2d98104aa725f43a0836605335ce2522476f321a",
+      "text": "Ⅰ[On Hit] Inflict 3 Defense Level Down next turn."
+    },
+    "skills.20.response": {
+      "sourceHash": "2032ba203133c37517465ee10847fe3ab397af2571b914a025922da825112734",
+      "text": "Gains Power against Sinners with many negative effects. Intercept with someone with healthy HP and SP."
+    },
+    "skills.21.name": {
+      "sourceHash": "4edbdeffbb799ebd67eb5efec8aa8ec8e14d613c1c8465aa1ca70a6282535ae4",
+      "text": "Cou...oit"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "962680c2a38aee6ab39ec65b4b6a12e4871f01d2ad519b0927a480e96e2104e0",
+      "text": "[On Use] If the target has at least 5 negative effects, Base Power +2."
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "af83d66df4f85c5e9f883a09aabf7cc25414064b86366488c92ecb4403df1401",
+      "text": "[On Use] If the target has at least 5 negative effects, damage +30%."
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "b29bccadfb84c029c5b1e8ffd21021db58f5c9f79786c3ffc3009565c6466b91",
+      "text": "Ⅰ[On Hit] Inflict 2 Fragile."
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "0d56a09ea673ff0c910669ee322c1be1aa8b3a8f1e665485b96ef6f45212f4b0",
+      "text": "Ⅱ[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "f151ed7807b53803b21a6b953957c1682df25d30ae3f0aa978959f6eaa6d8d64",
+      "text": "　[On Hit] If the target has at least 5 negative effects, reuse this Coin (2 times)."
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "4fb2f9d854ea4569c6c752dea2685fffa7c9079ee3983912144c0fd3c1835cb9",
+      "text": "　[On Hit] Remove 1 random removable negative effect from the target."
+    },
+    "skills.21.response": {
+      "sourceHash": "948405bb8d010038250a80e0f7971ee568f0c8956f78ef8a27902cb9fa44de15",
+      "text": "Watch its bonuses and Coin reuse against targets with at least 5 debuffs. Do not let it hit a low-HP Sinner with many debuffs unopposed."
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "1d924e69eb6a10c8a080f68bebaa51204f3b36d07a20f3ee58fe62e2f634ac23",
+      "text": "[On Evade] Heal 5 SP (up to 2 times)."
+    },
+    "skills.22.response": {
+      "sourceHash": "4be28aa2f1055e4d65bad90b4bb66729f3a87590275613809c5fee28aca596b8",
+      "text": "Offset Evade with a Defense Skill. Do not spend all E.G.O needed for the Erlking's high-Power attacks just to kill summons."
+    },
+    "skills.23.name": {
+      "sourceHash": "6ad4f56f0b87be51f20adb490f57b3c7effd901ab99a0718eb0591b19b64b56f",
+      "text": "I'll Remo..."
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "67d29801ea5eb884c5fbe544aabda6c97b5d1b7de7183312bb353d3c8984915c",
+      "text": "Heal overall and Part HP by 10% of damage dealt by this Attack Skill."
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "c844fcddfd13e0142cdaf40c5335581dee503b3b25b14799a6b0ecb4a4d3f645",
+      "text": "Ⅰ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "366c2889295f4c70fa18c463fb979958d3070649ce371582eed0e279ee5f1967",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up."
+    },
+    "skills.23.effects.3": {
+      "sourceHash": "8635b42ef9defff29b9a4f59c99db52c0784e919e29028c7aa840cc689b259d7",
+      "text": "　[Heads Hit] Gain 1 Haste next turn."
+    },
+    "skills.23.response": {
+      "sourceHash": "e3e6d14bd8a6eafe30ad3a4d901c9d8cdc4ea06fe7616952fae5462daeedb599",
+      "text": "Hits enable healing and buffs. Exploit its weaknesses, such as Wrath, and focus damage during Stagger."
+    },
+    "skills.24.name": {
+      "sourceHash": "343a0b99bedc1f2b00331cc3ba9f58ab5e4744a16e2d5302b0512f13413a65b0",
+      "text": "... Bastard"
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "2119cd4b187da75e6ab0a8ef797e7a7f74dac563b9e9403f8bb87d4b1c3b304d",
+      "text": "If faster than the target, gain +2 Clash Power."
+    },
+    "skills.24.effects.1": {
+      "sourceHash": "fbeca55ff01083e564bbaee350f304d9c480eebbe21a004377e1db92b4476446",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and increase Bleed Count by 2."
+    },
+    "skills.24.effects.2": {
+      "sourceHash": "3aeb38436d875ea92299d66d5526226a12e80d0064395309545ab87e3c30103e",
+      "text": "Ⅱ[On Hit] Inflict 4 Bleed and increase Bleed Count by 2."
+    },
+    "skills.24.effects.3": {
+      "sourceHash": "984cc3da201d2187f6f097aad9078011b404576317979cea4cc34bf08baea4a5",
+      "text": "[On Hit] If at least 3 Speed faster than the target, reuse this Coin once at most."
+    },
+    "skills.24.response": {
+      "sourceHash": "aac0080d01f51f3a8551af4e4687a6330674eff58c7ad4562647c4586e58afb5",
+      "text": "The Speed difference strengthens its clash and reuse. Check current Power before assigning a slow Sinner."
+    },
+    "skills.25.name": {
+      "sourceHash": "4c759e49bead07dff8b10b80083bcd3a5648588941e8b8e9c0bb56917f585e7c",
+      "text": "This is My..."
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "bad1b7b8d3d758fee12f8791ec67de419f79b4dfb36188d61e5d5636c626e002",
+      "text": "Prioritize the target with the lowest current HP."
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "3d09b18f5117810d532ca5aef2d148b962ee441e89f021e7144d5b7634e4338c",
+      "text": "[On Use] If the target is below 70% of Max HP, gain +2 Clash Power."
+    },
+    "skills.25.effects.2": {
+      "sourceHash": "4c23f963874c0bb477714cf181639c6942e51c85fceaa9b4979988a357ac8136",
+      "text": "Ⅰ[On Hit] Gain 1 Haste next turn."
+    },
+    "skills.25.effects.3": {
+      "sourceHash": "63a3c57328156c10ef3e2e6d37e431230cf8100719c438fdfcba1a8048e3b1e1",
+      "text": "[On Hit] Inflict 1 Fragile."
+    },
+    "skills.25.effects.4": {
+      "sourceHash": "9812fd22a4d8ec963184047f4d61feb062ce134dc7c17fa960d59f560ddcd4fc",
+      "text": "Ⅱ[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.25.effects.5": {
+      "sourceHash": "62b0899ee2f0a79dea688e24c3545e1a560abde74b19ca6374052fc947c08098",
+      "text": "Ⅲ[On Hit] Inflict 5 Bleed and increase Bleed Count by 2."
+    },
+    "skills.25.effects.6": {
+      "sourceHash": "18cc9571d81c4cc318df7e4618a23a3c5ab2a4e2f657be33344030ff18832490",
+      "text": "Ⅳ[On Hit] If the target's “skill” is at least 20 (source wording; the intended value is unclear), damage +100%."
+    },
+    "skills.25.effects.7": {
+      "sourceHash": "15b5375df68f067cb7e1c8efefe745a9b8a1d3de1320f19aa17a7965208a5434",
+      "text": "[On Kill] Reuse this skill once at most."
+    },
+    "skills.25.response": {
+      "sourceHash": "d17dbda95db33f8bc4d598a43e86c1b08f178192c1e1cb8e679ed9e7cb353ced",
+      "text": "A 4-Coin attack targeting low-HP Sinners. Protect them through healing or redirection, and prevent kill-triggered reuse. Its unclear extra-damage condition means the displayed maximum does not guarantee a safe hit."
+    },
+    "skills.26.name": {
+      "sourceHash": "8192cef45720aa0077da5d3038355bb8a1a32cf0d602d3adbefb98b3dc5fced3",
+      "text": "Gua..."
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "0a0778e5dea6ce413ec38cb43bc531e6a5e0700342d86462eb1b40126b80ae10",
+      "text": "At Turn End, if Shield remains, gain 4 Protection next turn."
+    },
+    "skills.26.response": {
+      "sourceHash": "b5e2b96b6ce6dd9bd2546d54488a22cd2542efc3f2d57367cd2627865d1ce1a8",
+      "text": "Remaining Shield grants 4 Protection next turn. If focusing attacks on it, fully break the Shield that turn; otherwise prioritize advancing the main body's phase."
+    },
+    "skills.27.name": {
+      "sourceHash": "8ed4d68a76d8ea17af59fe7fa7a1e1ffca90313b9d9115b53ef7e90184abc2f6",
+      "text": "Damn Pl..."
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "2b5d11bf5130e07b45dcdef03b5e43747ae05872d36edd7372a97d5c3a75a8bd",
+      "text": "Ⅰ[On Hit] Gain 1 Offense Level Up next turn."
+    },
+    "skills.27.effects.1": {
+      "sourceHash": "db3efd5de33c634de5e80a6760863afd978377ab9e575f747919d3e1af066f5d",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up next turn."
+    },
+    "skills.27.response": {
+      "sourceHash": "52cf47a08c0a5e849666b75e309e8f250840ca42c937ddd31baa6c29f2b1d168",
+      "text": "Prevent hit-triggered buffs for next turn. Balance actions spent on summons against damage to the main body."
+    },
+    "skills.28.name": {
+      "sourceHash": "6ad4f56f0b87be51f20adb490f57b3c7effd901ab99a0718eb0591b19b64b56f",
+      "text": "I'll Remo..."
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "cb732f4356cc074faf555f830752b35a0f9aae3a1d83209cef994c55a6100958",
+      "text": "[Clash Win] Gain +1 Base Power."
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "beeeb14c32b7c86b1d1db3825ebbf49f83cbe098311bd56ded6d67eebb1c8b96",
+      "text": "Ⅰ[On Hit] If the target has Offense Level Down, deal additional Blunt damage equal to 20% of damage dealt."
+    },
+    "skills.28.effects.2": {
+      "sourceHash": "ca2bc261ac837e8ff837c7b0abca932951645bef5c53444b0dfd26bfa0a25d47",
+      "text": "Ⅱ[On Hit] If the target has Offense Level Down, deal additional Blunt damage equal to 20% of damage dealt."
+    },
+    "skills.28.response": {
+      "sourceHash": "e3e6d14bd8a6eafe30ad3a4d901c9d8cdc4ea06fe7616952fae5462daeedb599",
+      "text": "Hits enable healing and buffs. Exploit its weaknesses, such as Wrath, and focus damage during Stagger."
+    },
+    "skills.29.name": {
+      "sourceHash": "78bbc2e61014b64cba61d0ce8ce1fa496b3f6e47a2099b7a144e4ea6d93b0ac7",
+      "text": "... ove You"
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "9918a6b2436a0beec161fd63854d23b328ad11c35e49ee70b4fea66db0e9a081",
+      "text": "Prioritize the target with the most negative effects."
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "253708f14eabc77af28ea4f35eae14b178ccdc3f434d52b607677b87ccb5db05",
+      "text": "[Clash Win] Gain +1 Coin Power per 3 target Offense Level Down, up to 3."
+    },
+    "skills.29.effects.2": {
+      "sourceHash": "9f0c3d7f8fa24204f4550226baa3566545bcaf23d663d6169eb04dfd797d2e30",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.29.effects.3": {
+      "sourceHash": "0b195c66fb844b826e12f12b49aec5e909dcaf6cf31cdd91c4808e1922f1933b",
+      "text": "　[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.29.effects.4": {
+      "sourceHash": "8b45985e39d7e25cf4a599c1c9fa5f781a7089317b57fc50282cd1ebb5cf19bd",
+      "text": "[On Hit] Inflict 2 Paralyze next turn."
+    },
+    "skills.29.effects.5": {
+      "sourceHash": "396c9f299136e86336b2c4e9a547786fc2e2ca3c8ca58a4b5b6b7f721d24b5e6",
+      "text": "Ⅱ[On Hit] Deal +30% damage per 2 target Offense Level Down, up to 120%."
+    },
+    "skills.29.effects.6": {
+      "sourceHash": "3d09bced8ae718f9bcd06093ea3ac6cfa0acccc6ca0de097bd70f6824caea5f2",
+      "text": "[Heads Hit] If the target has at least 3 negative effects, reuse this Coin once at most."
+    },
+    "skills.29.response": {
+      "sourceHash": "4dbad0784ac38e9f3aa01ad3d9c9c386bc471811e0f699ea591693b991bd2648",
+      "text": "Especially dangerous against Sinners with heavy Offense Level Down. Redirect and clash to prevent a chain of Paralyze and Fragile."
+    },
+    "skills.30.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "a1c63d95d36783527db88ced46e691bd5dab52736e8462930916513d9368a240",
+      "text": "[Combat Start] Gain 20 additional Shield per other living ally."
+    },
+    "skills.30.response": {
+      "sourceHash": "b2e45b6e532aa59a96c4acaba595f6ebc7ca871eb7b76b6a8ae98c270d38f1ae",
+      "text": "More survivors mean a thicker Shield. You do not need to kill everyone, so avoid wasting too much damage on its defense."
+    },
+    "skills.31.name": {
+      "sourceHash": "26a398cae5c814ed68ec762311d104a73db4bf4293b464804fe60d01354fd339",
+      "text": "...nocking"
+    },
+    "skills.31.effects.0": {
+      "sourceHash": "a5553dae38f3c04b67d19279f17c3a4eaa18a28c0ae12d105125f0685f5731de",
+      "text": "[On Use] If the target has at least 5 Sinking Potency, inflict 1 Offense Level Down."
+    },
+    "skills.31.effects.1": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.31.effects.2": {
+      "sourceHash": "b6a1d7e264eef6d95ca79d43160f0ba106cadf56ded41c2c2d4a49d04e87b509",
+      "text": "[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.31.effects.3": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.31.effects.4": {
+      "sourceHash": "361f3ca0a0d46bc6d5088195b3dfbe8c9a6d01cc4c0887e2ad87d72e48f91b23",
+      "text": "[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.31.response": {
+      "sourceHash": "45383464c3d993d706e62baff2613f09a6de992a0512f7331ec83fb27af481d2",
+      "text": "Combines Sinking with next-turn Bind and Paralyze. Protect the actions of your reliable clashers."
+    },
+    "skills.32.name": {
+      "sourceHash": "d65b7e389169dcd91468984334a85824208a53328a15906069b840e3738d815c",
+      "text": "...to Clean"
+    },
+    "skills.32.effects.0": {
+      "sourceHash": "883fb18793fd0d6780330a9feab2ae1af4aef9c351f163bb87f4644cb5c2be51",
+      "text": "[On Use] If the target has 10 SP or less, inflict 2 Offense Level Down."
+    },
+    "skills.32.effects.1": {
+      "sourceHash": "378eedcfa6c414aec5f0083832e9f7f18ccf4390e96812808ef2a92a37d68134",
+      "text": "[Clash Win] Inflict 1 Fragile."
+    },
+    "skills.32.effects.2": {
+      "sourceHash": "fe90511e342568a9fdcd77c18f5f31441b4a21a00602568e6bcf5a6cc8b5b163",
+      "text": "Ⅰ[On Hit] Inflict 1 Plus Coin Drop next turn."
+    },
+    "skills.32.effects.3": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.32.effects.4": {
+      "sourceHash": "d4aeae1bdb905e8a5a3e30b0a706c3c801dfed86ab8c4250d410f25f82e65aea",
+      "text": "　[On Hit] Inflict 2 Fragile next turn."
+    },
+    "skills.32.response": {
+      "sourceHash": "1e75a92a2df19aa84dacecd9aa93ed7ecf29c8ccb182c58088125da0ebac04df",
+      "text": "Winning the clash alone cannot prevent its On Use Offense Level Down. Avoid assigning a low-SP Sinner and prevent the additional On Hit debuffs."
+    },
+    "skills.33.name": {
+      "sourceHash": "751b8f1b3266b4346339f52c65d00fe79537d0a52873425cc6394d557974272f",
+      "text": "...of Dust"
+    },
+    "skills.33.effects.0": {
+      "sourceHash": "5ff1023dbd773f81133a366b4b4e0b83ec142c399c7ec81c88fda0b1f6350d49",
+      "text": "[Combat Start] Grant 3 Offense Level Up and heal 15 SP for all allies, including self."
+    },
+    "skills.33.effects.1": {
+      "sourceHash": "7f49cd78b6fa85cb2c893a9d6fb61124f534b789e65607856ecd576524869a02",
+      "text": "[Combat Start] Inflict 1 Fragile on all other allies."
+    },
+    "skills.33.effects.2": {
+      "sourceHash": "3d10d43dc5baae3a605bf807df56e9f494a9e874e29d46cb484dad50aaf77609",
+      "text": "Ⅰ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.33.effects.3": {
+      "sourceHash": "8df4ee423cb5c2a8ad73d814864df1505a1e62d85c004a9c50f83c2f88e99612",
+      "text": "Ⅱ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.33.effects.4": {
+      "sourceHash": "36963086554bcdf24a5d697bd1c1a2e0667ca8100257875947a187715a324057",
+      "text": "Ⅲ[On Hit] Deal additional Gloom damage equal to the target's Sinking Potency. Reduce Sinking Count by 1."
+    },
+    "skills.33.effects.5": {
+      "sourceHash": "62ecebb6fc4200736fca724d6927190a96f204a439512b48990077d29b1806e9",
+      "text": "[On Hit] Inflict 4 Sinking."
+    },
+    "skills.33.effects.6": {
+      "sourceHash": "a4ccf700406e37bbf538fe086a6edd02add7199b177aa31c8f600d97c7c5e85b",
+      "text": "[On Hit] If the target has at least 3 Sinking Count, reuse this Coin up to 2 times."
+    },
+    "skills.33.response": {
+      "sourceHash": "91e3740d9a6a44fc39f1b1959b733d49a1f9947d2bfb3ecb081fa9630787d707",
+      "text": "The Combat Start ally buffs activate even if you win the clash. Reuse against targets with heavy Sinking is dangerous; aim for redirection and an early Stagger."
+    },
+    "skills.34.name": {
+      "sourceHash": "1b6f21df9a22415a72ed9846b3fa928bb2b5028b9bf362eedd297011c90c2659",
+      "text": "Slipp..."
+    },
+    "skills.34.effects.0": {
+      "sourceHash": "c40bc7226b4fe4c11af45e908dd529f16a0ee0baec6e1a609675b590883fb12a",
+      "text": "At Turn End, if Shield remains, lower the Stagger Threshold by 50."
+    },
+    "skills.34.response": {
+      "sourceHash": "08aeaee672cd51a54e0a39f1947075da9131ceee91ac0e7fb2fafcbf231f40dc",
+      "text": "Leaving Shield raises the difficulty of reaching its Stagger Threshold by lowering it. If a kill is difficult, damage the main body to end the summoning phase instead."
+    },
+    "skills.35.name": {
+      "sourceHash": "296840d95538e3701f80857f6b476e40de657e3f901af36e6efa5f6a2c8ecaae",
+      "text": "It's All Pointless"
+    },
+    "skills.35.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.35.response": {
+      "sourceHash": "21e8225f9da64570f03d10e3816e231b6a0c0623f283a3bb5d730cd578cd8637",
+      "text": "While hands remain, Protection and resistances make the main body nearly impervious. On Catherine's first appearance, redirect main-body attacks to the hands. Attack the main body after its Shield appears on the second appearance."
+    },
+    "skills.36.name": {
+      "sourceHash": "2048d90a60e8b69dc15871e8ede44b613452e44d3643de8c302490b978058111",
+      "text": "For a World Without His Suffering"
+    },
+    "skills.36.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.36.effects.1": {
+      "sourceHash": "b67d63db3583ca210582c5acc92d0dec07894682f552007f9c9ee39f5efcd0c7",
+      "text": "[Combat Start] Grant 2 Fragile and 2 Attack Power Up to all other allies."
+    },
+    "skills.36.effects.2": {
+      "sourceHash": "aff8b5e8d0b3c55654889431a2d688f250e127331e64ef57b54f9184e765bd92",
+      "text": "[Combat Start] Gain Bind (amount unspecified) and 5 Damage Up next turn."
+    },
+    "skills.36.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.36.response": {
+      "sourceHash": "63a2f391bcda69372ccfefafe45309786505d22bbc019ddf7d0b117a3833e37c",
+      "text": "Cannot be clashed with; buffs the hands and other allies at Combat Start. Bring both hands close to 1 HP before the next area attack."
+    },
+    "skills.37.name": {
+      "sourceHash": "4a0f68257cedda3c430cf66ad935369ffa9d5cc26058a6ead2c3f06d5c990a40",
+      "text": "Every Catherine Must Die"
+    },
+    "skills.37.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.37.effects.1": {
+      "sourceHash": "0802fc34a6060b3cfe839180aabca6e8db3ba8e2567cef2f3d84e28f3bb04e17",
+      "text": "If all hands have 1 HP, damage becomes 0."
+    },
+    "skills.37.effects.2": {
+      "sourceHash": "b67d63db3583ca210582c5acc92d0dec07894682f552007f9c9ee39f5efcd0c7",
+      "text": "[Combat Start] Grant 2 Fragile and 2 Attack Power Up to all other allies."
+    },
+    "skills.37.effects.3": {
+      "sourceHash": "610940da9828e99a29f158752f2099bfcf47e34df309d5321922e599ed90f6cd",
+      "text": "[After Attack] Gain 1 Breaking Heart."
+    },
+    "skills.37.effects.4": {
+      "sourceHash": "a1eea2ac4d4dfcbc2ee70173c536ebf5c568324bc4673f980edf1208f1aee476",
+      "text": "Ⅰ[On Hit] Inflict Breaking Heart."
+    },
+    "skills.37.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.37.response": {
+      "sourceHash": "1bb633b1dff04a2a52c27014a9e179120b50a80a992f884350e06271f9657347",
+      "text": "An Unclashable area attack. Damage becomes 0 when both hands have 1 HP, so adjust their remaining HP and attack order."
+    },
+    "skills.38.name": {
+      "sourceHash": "b570c65994064294d9e48f26549c63701840cb230b92775444a59386113b062e",
+      "text": "Tears of Sorrow"
+    },
+    "skills.38.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.38.response": {
+      "sourceHash": "d97ebd99d73bb09e15fd66125a85bf579ea2a0898507f2d5547a2483cef51d84",
+      "text": "Control follow-up damage while stopping necessary clashes so both hands reach 1 HP together."
+    },
+    "skills.39.name": {
+      "sourceHash": "69a0bf1c834459e891469fb6c1c5c83b833bfe72d5fb69ba1315ca2007ffdd84",
+      "text": "Clutch of Tragedy"
+    },
+    "skills.39.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.39.effects.1": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.39.response": {
+      "sourceHash": "72f121bdae72fbc7d212809ab786568dda8d90130fa263867785f72c9f9564a6",
+      "text": "Bind makes next-turn clashes harder to intercept. Protect fast clashers while damaging the hands."
+    },
+    "skills.40.name": {
+      "sourceHash": "98b2f60c4b37d66b799f724cfb81c7f4ee2149a5ddf16c9be8e7af9f47aee8c0",
+      "text": "Clutch of Despair"
+    },
+    "skills.40.effects.0": {
+      "sourceHash": "4039ec47aa3459510bf60dc8fb50d0f11f2bd1575494e388f6d25c4537789b20",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down next turn."
+    },
+    "skills.40.effects.1": {
+      "sourceHash": "565e824c0da2a0b24b2cbed422694bd42e5aee756f0f3ab3bf9fb89673558016",
+      "text": "Ⅱ[On Hit] Inflict 1 Offense Level Down next turn."
+    },
+    "skills.40.response": {
+      "sourceHash": "61130188be2977a543db3e76643b0dcdcd0de195644266cf8520699a051283c7",
+      "text": "Offense Level Down weakens later clashes. Assign a winning clasher while maintaining damage against both hands."
+    },
+    "skills.41.name": {
+      "sourceHash": "b013932672040cb9b04f7cbc538f4404838bec2d32a9cc5ff45689968abd18ef",
+      "text": "Misery is All That Remains..."
+    },
+    "skills.41.effects.0": {
+      "sourceHash": "ab8e62a28f9fa234dfa1cd998eef0a876be8fb9fd8a84e37664bb6a6d8d42f75",
+      "text": "[Clash Lose] Gain 1 Breaking Heart."
+    },
+    "skills.41.effects.1": {
+      "sourceHash": "c65d53bf86dd78465eedd56d2a6100e15c666aa7c9be8a163ebfef840f75cd8b",
+      "text": "Ⅰ[On Hit] Deal damage equal to 15% of max HP."
+    },
+    "skills.41.response": {
+      "sourceHash": "4c8606c8a4ce82fc031cc5cccc5959d2c052deb934316634699324f319578cbd",
+      "text": "Winning the clash inflicts Breaking Heart on that hand. Weaken it without taking the On Hit damage equal to 15% max HP. The second left hand's On Hit effect is unspecified in the source; do not assume it is identical."
+    },
+    "skills.42.name": {
+      "sourceHash": "2048d90a60e8b69dc15871e8ede44b613452e44d3643de8c302490b978058111",
+      "text": "For a World Without His Suffering"
+    },
+    "skills.42.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.42.effects.1": {
+      "sourceHash": "b67d63db3583ca210582c5acc92d0dec07894682f552007f9c9ee39f5efcd0c7",
+      "text": "[Combat Start] Grant 2 Fragile and 2 Attack Power Up to all other allies."
+    },
+    "skills.42.effects.2": {
+      "sourceHash": "aff8b5e8d0b3c55654889431a2d688f250e127331e64ef57b54f9184e765bd92",
+      "text": "[Combat Start] Gain Bind (amount unspecified) and 5 Damage Up next turn."
+    },
+    "skills.42.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.42.response": {
+      "sourceHash": "63a2f391bcda69372ccfefafe45309786505d22bbc019ddf7d0b117a3833e37c",
+      "text": "Cannot be clashed with; buffs the hands and other allies at Combat Start. Bring both hands close to 1 HP before the next area attack."
+    },
+    "skills.43.name": {
+      "sourceHash": "b570c65994064294d9e48f26549c63701840cb230b92775444a59386113b062e",
+      "text": "Tears of Sorrow"
+    },
+    "skills.43.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.43.response": {
+      "sourceHash": "d97ebd99d73bb09e15fd66125a85bf579ea2a0898507f2d5547a2483cef51d84",
+      "text": "Control follow-up damage while stopping necessary clashes so both hands reach 1 HP together."
+    },
+    "skills.44.name": {
+      "sourceHash": "69a0bf1c834459e891469fb6c1c5c83b833bfe72d5fb69ba1315ca2007ffdd84",
+      "text": "Clutch of Tragedy"
+    },
+    "skills.44.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.44.effects.1": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.44.response": {
+      "sourceHash": "72f121bdae72fbc7d212809ab786568dda8d90130fa263867785f72c9f9564a6",
+      "text": "Bind makes next-turn clashes harder to intercept. Protect fast clashers while damaging the hands."
+    },
+    "skills.45.name": {
+      "sourceHash": "98b2f60c4b37d66b799f724cfb81c7f4ee2149a5ddf16c9be8e7af9f47aee8c0",
+      "text": "Clutch of Despair"
+    },
+    "skills.45.effects.0": {
+      "sourceHash": "4039ec47aa3459510bf60dc8fb50d0f11f2bd1575494e388f6d25c4537789b20",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down next turn."
+    },
+    "skills.45.effects.1": {
+      "sourceHash": "565e824c0da2a0b24b2cbed422694bd42e5aee756f0f3ab3bf9fb89673558016",
+      "text": "Ⅱ[On Hit] Inflict 1 Offense Level Down next turn."
+    },
+    "skills.45.response": {
+      "sourceHash": "61130188be2977a543db3e76643b0dcdcd0de195644266cf8520699a051283c7",
+      "text": "Offense Level Down weakens later clashes. Assign a winning clasher while maintaining damage against both hands."
+    },
+    "skills.46.name": {
+      "sourceHash": "b013932672040cb9b04f7cbc538f4404838bec2d32a9cc5ff45689968abd18ef",
+      "text": "Misery is All That Remains..."
+    },
+    "skills.46.effects.0": {
+      "sourceHash": "ab8e62a28f9fa234dfa1cd998eef0a876be8fb9fd8a84e37664bb6a6d8d42f75",
+      "text": "[Clash Lose] Gain 1 Breaking Heart."
+    },
+    "skills.46.effects.1": {
+      "sourceHash": "c65d53bf86dd78465eedd56d2a6100e15c666aa7c9be8a163ebfef840f75cd8b",
+      "text": "Ⅰ[On Hit] Deal damage equal to 15% of max HP."
+    },
+    "skills.46.response": {
+      "sourceHash": "4c8606c8a4ce82fc031cc5cccc5959d2c052deb934316634699324f319578cbd",
+      "text": "Winning the clash inflicts Breaking Heart on that hand. Weaken it without taking the On Hit damage equal to 15% max HP. The second left hand's On Hit effect is unspecified in the source; do not assume it is identical."
+    },
+    "skills.47.name": {
+      "sourceHash": "296840d95538e3701f80857f6b476e40de657e3f901af36e6efa5f6a2c8ecaae",
+      "text": "It's All Pointless"
+    },
+    "skills.47.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.47.response": {
+      "sourceHash": "21e8225f9da64570f03d10e3816e231b6a0c0623f283a3bb5d730cd578cd8637",
+      "text": "While hands remain, Protection and resistances make the main body nearly impervious. On Catherine's first appearance, redirect main-body attacks to the hands. Attack the main body after its Shield appears on the second appearance."
+    },
+    "skills.48.name": {
+      "sourceHash": "2048d90a60e8b69dc15871e8ede44b613452e44d3643de8c302490b978058111",
+      "text": "For a World Without His Suffering"
+    },
+    "skills.48.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.48.effects.1": {
+      "sourceHash": "b67d63db3583ca210582c5acc92d0dec07894682f552007f9c9ee39f5efcd0c7",
+      "text": "[Combat Start] Grant 2 Fragile and 2 Attack Power Up to all other allies."
+    },
+    "skills.48.effects.2": {
+      "sourceHash": "aff8b5e8d0b3c55654889431a2d688f250e127331e64ef57b54f9184e765bd92",
+      "text": "[Combat Start] Gain Bind (amount unspecified) and 5 Damage Up next turn."
+    },
+    "skills.48.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.48.response": {
+      "sourceHash": "63a2f391bcda69372ccfefafe45309786505d22bbc019ddf7d0b117a3833e37c",
+      "text": "Cannot be clashed with; buffs the hands and other allies at Combat Start. Bring both hands close to 1 HP before the next area attack."
+    },
+    "skills.49.name": {
+      "sourceHash": "4a0f68257cedda3c430cf66ad935369ffa9d5cc26058a6ead2c3f06d5c990a40",
+      "text": "Every Catherine Must Die"
+    },
+    "skills.49.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.49.effects.1": {
+      "sourceHash": "d8ddc7f8adc4b6d7082233d5bf65ba7abb9a8922c74e2822c378961ec02fa285",
+      "text": "If all hands have 1 HP, damage becomes 0."
+    },
+    "skills.49.effects.2": {
+      "sourceHash": "b67d63db3583ca210582c5acc92d0dec07894682f552007f9c9ee39f5efcd0c7",
+      "text": "[Combat Start] Grant 2 Fragile and 2 Attack Power Up to all other allies."
+    },
+    "skills.49.effects.3": {
+      "sourceHash": "610940da9828e99a29f158752f2099bfcf47e34df309d5321922e599ed90f6cd",
+      "text": "[After Attack] Gain 1 Breaking Heart."
+    },
+    "skills.49.effects.4": {
+      "sourceHash": "a1eea2ac4d4dfcbc2ee70173c536ebf5c568324bc4673f980edf1208f1aee476",
+      "text": "Ⅰ[On Hit] Inflict Breaking Heart."
+    },
+    "skills.49.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.49.response": {
+      "sourceHash": "1bb633b1dff04a2a52c27014a9e179120b50a80a992f884350e06271f9657347",
+      "text": "An Unclashable area attack. Damage becomes 0 when both hands have 1 HP, so adjust their remaining HP and attack order."
+    },
+    "skills.50.name": {
+      "sourceHash": "1c8af6be2b053454db4fc2f177c855a5fd71c854c2174909152e204dd31731f8",
+      "text": "Breaking Heart"
+    },
+    "skills.50.effects.0": {
+      "sourceHash": "610940da9828e99a29f158752f2099bfcf47e34df309d5321922e599ed90f6cd",
+      "text": "[After Attack] Gain 1 Breaking Heart."
+    },
+    "skills.50.effects.1": {
+      "sourceHash": "c65d53bf86dd78465eedd56d2a6100e15c666aa7c9be8a163ebfef840f75cd8b",
+      "text": "Ⅰ[On Hit] Deal damage equal to 15% of max HP."
+    },
+    "skills.50.effects.2": {
+      "sourceHash": "6c74ade9a727885b052e46673878a8c6e06adf7000fbabb0fe8fa6b7192f6459",
+      "text": "　[On Hit] Inflict Breaking Heart."
+    },
+    "skills.50.response": {
+      "sourceHash": "67be43fc8ea5b5052c12ed0719745429efd2d729d10350443806a5b3c467dc0e",
+      "text": "The main body's area attack on the second appearance. Stop its On Hit fixed damage and Breaking Heart to avoid forced Stagger on your side."
+    },
+    "skills.51.name": {
+      "sourceHash": "b570c65994064294d9e48f26549c63701840cb230b92775444a59386113b062e",
+      "text": "Tears of Sorrow"
+    },
+    "skills.51.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.51.response": {
+      "sourceHash": "d97ebd99d73bb09e15fd66125a85bf579ea2a0898507f2d5547a2483cef51d84",
+      "text": "Control follow-up damage while stopping necessary clashes so both hands reach 1 HP together."
+    },
+    "skills.52.name": {
+      "sourceHash": "69a0bf1c834459e891469fb6c1c5c83b833bfe72d5fb69ba1315ca2007ffdd84",
+      "text": "Clutch of Tragedy"
+    },
+    "skills.52.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.52.effects.1": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.52.response": {
+      "sourceHash": "72f121bdae72fbc7d212809ab786568dda8d90130fa263867785f72c9f9564a6",
+      "text": "Bind makes next-turn clashes harder to intercept. Protect fast clashers while damaging the hands."
+    },
+    "skills.53.name": {
+      "sourceHash": "98b2f60c4b37d66b799f724cfb81c7f4ee2149a5ddf16c9be8e7af9f47aee8c0",
+      "text": "Clutch of Despair"
+    },
+    "skills.53.effects.0": {
+      "sourceHash": "4039ec47aa3459510bf60dc8fb50d0f11f2bd1575494e388f6d25c4537789b20",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down next turn."
+    },
+    "skills.53.effects.1": {
+      "sourceHash": "565e824c0da2a0b24b2cbed422694bd42e5aee756f0f3ab3bf9fb89673558016",
+      "text": "Ⅱ[On Hit] Inflict 1 Offense Level Down next turn."
+    },
+    "skills.53.response": {
+      "sourceHash": "61130188be2977a543db3e76643b0dcdcd0de195644266cf8520699a051283c7",
+      "text": "Offense Level Down weakens later clashes. Assign a winning clasher while maintaining damage against both hands."
+    },
+    "skills.54.name": {
+      "sourceHash": "24d80e89cbb4c60ed1701ec56446bb9a59c233a1b3914707f17150eea5c4a541",
+      "text": "Meaningless Writhing"
+    },
+    "skills.54.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.54.response": {
+      "sourceHash": "5921912d55a41487009913d169b0245be70f8cfdeb1380a618ed61c61b0bc2dd",
+      "text": "Prevent 3 Paralyze next turn. Keep it off clashers needed late in the process of handling both hands."
+    },
+    "skills.55.name": {
+      "sourceHash": "b013932672040cb9b04f7cbc538f4404838bec2d32a9cc5ff45689968abd18ef",
+      "text": "Misery is All That Remains..."
+    },
+    "skills.55.effects.0": {
+      "sourceHash": "ab8e62a28f9fa234dfa1cd998eef0a876be8fb9fd8a84e37664bb6a6d8d42f75",
+      "text": "[Clash Lose] Gain 1 Breaking Heart."
+    },
+    "skills.55.effects.1": {
+      "sourceHash": "c65d53bf86dd78465eedd56d2a6100e15c666aa7c9be8a163ebfef840f75cd8b",
+      "text": "Ⅰ[On Hit] Deal damage equal to 15% of max HP."
+    },
+    "skills.55.response": {
+      "sourceHash": "4c8606c8a4ce82fc031cc5cccc5959d2c052deb934316634699324f319578cbd",
+      "text": "Winning the clash inflicts Breaking Heart on that hand. Weaken it without taking the On Hit damage equal to 15% max HP. The second left hand's On Hit effect is unspecified in the source; do not assume it is identical."
+    },
+    "skills.56.name": {
+      "sourceHash": "3f3d68726fe9e0d96255d6b9de51b3ccc663cac340570a13ef7793425bc875e2",
+      "text": "Soul Out of Reach"
+    },
+    "skills.56.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.56.response": {
+      "sourceHash": "9e0bff29234d0e3492fca85ee0b99ea9a4adc550800725a6d66f674f7382600f",
+      "text": "Offset with a Defense Skill to let attacks hit the hands. Allocate damage by watching both HP values instead of bringing only one down early."
+    },
+    "skills.57.name": {
+      "sourceHash": "b570c65994064294d9e48f26549c63701840cb230b92775444a59386113b062e",
+      "text": "Tears of Sorrow"
+    },
+    "skills.57.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.57.response": {
+      "sourceHash": "d97ebd99d73bb09e15fd66125a85bf579ea2a0898507f2d5547a2483cef51d84",
+      "text": "Control follow-up damage while stopping necessary clashes so both hands reach 1 HP together."
+    },
+    "skills.58.name": {
+      "sourceHash": "69a0bf1c834459e891469fb6c1c5c83b833bfe72d5fb69ba1315ca2007ffdd84",
+      "text": "Clutch of Tragedy"
+    },
+    "skills.58.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.58.effects.1": {
+      "sourceHash": "9e0cbddd3401e5c373544cb7a147509b3cc1d06a1803db36728761911aa4f6e6",
+      "text": "Ⅱ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.58.response": {
+      "sourceHash": "72f121bdae72fbc7d212809ab786568dda8d90130fa263867785f72c9f9564a6",
+      "text": "Bind makes next-turn clashes harder to intercept. Protect fast clashers while damaging the hands."
+    },
+    "skills.59.name": {
+      "sourceHash": "98b2f60c4b37d66b799f724cfb81c7f4ee2149a5ddf16c9be8e7af9f47aee8c0",
+      "text": "Clutch of Despair"
+    },
+    "skills.59.effects.0": {
+      "sourceHash": "4039ec47aa3459510bf60dc8fb50d0f11f2bd1575494e388f6d25c4537789b20",
+      "text": "Ⅰ[On Hit] Inflict 2 Offense Level Down next turn."
+    },
+    "skills.59.effects.1": {
+      "sourceHash": "565e824c0da2a0b24b2cbed422694bd42e5aee756f0f3ab3bf9fb89673558016",
+      "text": "Ⅱ[On Hit] Inflict 1 Offense Level Down next turn."
+    },
+    "skills.59.response": {
+      "sourceHash": "61130188be2977a543db3e76643b0dcdcd0de195644266cf8520699a051283c7",
+      "text": "Offense Level Down weakens later clashes. Assign a winning clasher while maintaining damage against both hands."
+    },
+    "skills.60.name": {
+      "sourceHash": "24d80e89cbb4c60ed1701ec56446bb9a59c233a1b3914707f17150eea5c4a541",
+      "text": "Meaningless Writhing"
+    },
+    "skills.60.effects.0": {
+      "sourceHash": "05312b1a93944ba9c723cfdcf6ab2de49a43eff97a33ee19b1c9935de786ad1e",
+      "text": "Ⅰ[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.60.response": {
+      "sourceHash": "5921912d55a41487009913d169b0245be70f8cfdeb1380a618ed61c61b0bc2dd",
+      "text": "Prevent 3 Paralyze next turn. Keep it off clashers needed late in the process of handling both hands."
+    },
+    "skills.61.name": {
+      "sourceHash": "b013932672040cb9b04f7cbc538f4404838bec2d32a9cc5ff45689968abd18ef",
+      "text": "Misery is All That Remains..."
+    },
+    "skills.61.effects.0": {
+      "sourceHash": "ab8e62a28f9fa234dfa1cd998eef0a876be8fb9fd8a84e37664bb6a6d8d42f75",
+      "text": "[Clash Lose] Gain 1 Breaking Heart."
+    },
+    "skills.61.response": {
+      "sourceHash": "4c8606c8a4ce82fc031cc5cccc5959d2c052deb934316634699324f319578cbd",
+      "text": "Winning the clash inflicts Breaking Heart on that hand. Weaken it without taking the On Hit damage equal to 15% max HP. The second left hand's On Hit effect is unspecified in the source; do not assume it is identical."
+    },
+    "skills.62.name": {
+      "sourceHash": "3f3d68726fe9e0d96255d6b9de51b3ccc663cac340570a13ef7793425bc875e2",
+      "text": "Soul Out of Reach"
+    },
+    "skills.62.effects.0": {
+      "sourceHash": "b004b61c9b87e19a77924e0180e1053e430cdf8979a8019d8bb744fb7f325e2c",
+      "text": "No additional unique effects."
+    },
+    "skills.62.response": {
+      "sourceHash": "9e0bff29234d0e3492fca85ee0b99ea9a4adc550800725a6d66f674f7382600f",
+      "text": "Offset with a Defense Skill to let attacks hit the hands. Allocate damage by watching both HP values instead of bringing only one down early."
+    },
+    "passives.0.name": {
+      "sourceHash": "8d093acd814433d019156195dc91fbbce6f9d5b42c8620b5ea4aa259c70b805c",
+      "text": "Self-loathing"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c810f874b612b6841d64454ccd831e8a60ed4acf465c0d4797ad7c7b5534e785",
+      "text": "Heathcliff becomes the target of all skills. If Heathcliff dies, the user wins the encounter."
+    },
+    "passives.0.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.0.response": {
+      "sourceHash": "f2ce365daa86a4a8c09c8939da07eaa8e937d00f51919466be3fb207f40d950d",
+      "text": "Heathcliff's death causes defeat. Protect his HP until the final phase, including against accidents caused by ally attacks or Stagger."
+    },
+    "passives.1.name": {
+      "sourceHash": "8d093acd814433d019156195dc91fbbce6f9d5b42c8620b5ea4aa259c70b805c",
+      "text": "Self-loathing"
+    },
+    "passives.1.effect": {
+      "sourceHash": "c810f874b612b6841d64454ccd831e8a60ed4acf465c0d4797ad7c7b5534e785",
+      "text": "Heathcliff becomes the target of all skills. If Heathcliff dies, the user wins the encounter."
+    },
+    "passives.1.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.1.response": {
+      "sourceHash": "f2ce365daa86a4a8c09c8939da07eaa8e937d00f51919466be3fb207f40d950d",
+      "text": "Heathcliff's death causes defeat. Protect his HP until the final phase, including against accidents caused by ally attacks or Stagger."
+    },
+    "passives.2.name": {
+      "sourceHash": "8d093acd814433d019156195dc91fbbce6f9d5b42c8620b5ea4aa259c70b805c",
+      "text": "Self-loathing"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c810f874b612b6841d64454ccd831e8a60ed4acf465c0d4797ad7c7b5534e785",
+      "text": "Heathcliff becomes the target of all skills. If Heathcliff dies, the user wins the encounter."
+    },
+    "passives.2.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.2.response": {
+      "sourceHash": "f2ce365daa86a4a8c09c8939da07eaa8e937d00f51919466be3fb207f40d950d",
+      "text": "Heathcliff's death causes defeat. Protect his HP until the final phase, including against accidents caused by ally attacks or Stagger."
+    },
+    "passives.3.name": {
+      "sourceHash": "50454592fba5b77ddb782dd68e7a374f8e03869c85f70a4402b41dbe2d4ebaa7",
+      "text": "Antagonism"
+    },
+    "passives.3.effect": {
+      "sourceHash": "857ed883efb19d12637594cb3c27c67cbe440dc40a3bcf7256bf8afbd9f1e9eb",
+      "text": "If the target's current HP exceeds the user's, Clash Power +2 and damage +20%."
+    },
+    "passives.3.condition": {
+      "sourceHash": "f9bb324f195a913aa2db38e3ba6274a05c079283fbbde05da5a9f6d19a5f45c4",
+      "text": "The target's current HP exceeds the enemy's"
+    },
+    "passives.3.response": {
+      "sourceHash": "785e414ac5dd57f78760469050ed9fcec2285e32ea14581dbabadce397b01e08",
+      "text": "More likely to activate as the main body loses HP. Recheck the clash prediction when redirecting to a Sinner with high remaining HP."
+    },
+    "passives.4.name": {
+      "sourceHash": "50454592fba5b77ddb782dd68e7a374f8e03869c85f70a4402b41dbe2d4ebaa7",
+      "text": "Antagonism"
+    },
+    "passives.4.effect": {
+      "sourceHash": "857ed883efb19d12637594cb3c27c67cbe440dc40a3bcf7256bf8afbd9f1e9eb",
+      "text": "If the target's current HP exceeds the user's, Clash Power +2 and damage +20%."
+    },
+    "passives.4.condition": {
+      "sourceHash": "f9bb324f195a913aa2db38e3ba6274a05c079283fbbde05da5a9f6d19a5f45c4",
+      "text": "The target's current HP exceeds the enemy's"
+    },
+    "passives.4.response": {
+      "sourceHash": "785e414ac5dd57f78760469050ed9fcec2285e32ea14581dbabadce397b01e08",
+      "text": "More likely to activate as the main body loses HP. Recheck the clash prediction when redirecting to a Sinner with high remaining HP."
+    },
+    "passives.5.name": {
+      "sourceHash": "50454592fba5b77ddb782dd68e7a374f8e03869c85f70a4402b41dbe2d4ebaa7",
+      "text": "Antagonism"
+    },
+    "passives.5.effect": {
+      "sourceHash": "857ed883efb19d12637594cb3c27c67cbe440dc40a3bcf7256bf8afbd9f1e9eb",
+      "text": "If the target's current HP exceeds the user's, Clash Power +2 and damage +20%."
+    },
+    "passives.5.condition": {
+      "sourceHash": "f9bb324f195a913aa2db38e3ba6274a05c079283fbbde05da5a9f6d19a5f45c4",
+      "text": "The target's current HP exceeds the enemy's"
+    },
+    "passives.5.response": {
+      "sourceHash": "785e414ac5dd57f78760469050ed9fcec2285e32ea14581dbabadce397b01e08",
+      "text": "More likely to activate as the main body loses HP. Recheck the clash prediction when redirecting to a Sinner with high remaining HP."
+    },
+    "passives.6.name": {
+      "sourceHash": "1deebd794bf2741429af55fd14ed49c0bd77ed69531fbb18ada0a9dbaa92e5f8",
+      "text": "Long-awaited Moment"
+    },
+    "passives.6.effect": {
+      "sourceHash": "31bb361a8a16792bb6c0c8ccf6824f628561b1e77bf2eaf6b75346e15538d8f5",
+      "text": "On Clash Win, heal 5 SP. On Clash Lose against Heathcliff, lose 10 SP and gain 2 Bind next turn (up to once per turn). If no attack hits Heathcliff during the turn, lose 5 SP at Turn End."
+    },
+    "passives.6.condition": {
+      "sourceHash": "e7c2a2c1b472ac83fbd26ea9cacb15713b080ec858993e2f94f3cb31afe98032",
+      "text": "Clash results / hits against Heathcliff"
+    },
+    "passives.6.response": {
+      "sourceHash": "7c6a52846099236ae7d9b5c58ca00b6e0e20a0548dfaaaf6d4873ada14b49e41",
+      "text": "Heathcliff's clash wins lower the enemy's SP and Speed. Do not assign him clashes he cannot safely win."
+    },
+    "passives.7.name": {
+      "sourceHash": "1deebd794bf2741429af55fd14ed49c0bd77ed69531fbb18ada0a9dbaa92e5f8",
+      "text": "Long-awaited Moment"
+    },
+    "passives.7.effect": {
+      "sourceHash": "31bb361a8a16792bb6c0c8ccf6824f628561b1e77bf2eaf6b75346e15538d8f5",
+      "text": "On Clash Win, heal 5 SP. On Clash Lose against Heathcliff, lose 10 SP and gain 2 Bind next turn (up to once per turn). If no attack hits Heathcliff during the turn, lose 5 SP at Turn End."
+    },
+    "passives.7.condition": {
+      "sourceHash": "e7c2a2c1b472ac83fbd26ea9cacb15713b080ec858993e2f94f3cb31afe98032",
+      "text": "Clash results / hits against Heathcliff"
+    },
+    "passives.7.response": {
+      "sourceHash": "7c6a52846099236ae7d9b5c58ca00b6e0e20a0548dfaaaf6d4873ada14b49e41",
+      "text": "Heathcliff's clash wins lower the enemy's SP and Speed. Do not assign him clashes he cannot safely win."
+    },
+    "passives.8.name": {
+      "sourceHash": "1deebd794bf2741429af55fd14ed49c0bd77ed69531fbb18ada0a9dbaa92e5f8",
+      "text": "Long-awaited Moment"
+    },
+    "passives.8.effect": {
+      "sourceHash": "31bb361a8a16792bb6c0c8ccf6824f628561b1e77bf2eaf6b75346e15538d8f5",
+      "text": "On Clash Win, heal 5 SP. On Clash Lose against Heathcliff, lose 10 SP and gain 2 Bind next turn (up to once per turn). If no attack hits Heathcliff during the turn, lose 5 SP at Turn End."
+    },
+    "passives.8.condition": {
+      "sourceHash": "e7c2a2c1b472ac83fbd26ea9cacb15713b080ec858993e2f94f3cb31afe98032",
+      "text": "Clash results / hits against Heathcliff"
+    },
+    "passives.8.response": {
+      "sourceHash": "7c6a52846099236ae7d9b5c58ca00b6e0e20a0548dfaaaf6d4873ada14b49e41",
+      "text": "Heathcliff's clash wins lower the enemy's SP and Speed. Do not assign him clashes he cannot safely win."
+    },
+    "passives.9.name": {
+      "sourceHash": "59a7a1fa638c8fc6df6f2e2166580a5511bef80e0656597179e4b2cb559a7a18",
+      "text": "Heart of Vengeance"
+    },
+    "passives.9.effect": {
+      "sourceHash": "059bff3a1a4a9003fced8dd76d8eff8e30c5f205966c6fa6c0bbade923e03b38",
+      "text": "At Turn Start, heal 15 SP unless at −45 SP. If Panicked at Turn End, recover next turn and reset SP to 0. If Panic was removed at Turn End, gain 2 Attack Power Up at the next Turn Start."
+    },
+    "passives.9.condition": {
+      "sourceHash": "c4b09d57536e616a66d6fa98e7dc39478a4e48b5b1ed7ec9a6d417a7572c626d",
+      "text": "Turn Start / Panic recovery"
+    },
+    "passives.9.response": {
+      "sourceHash": "2fc672470ae2621cc3a8e7e6d80a2ecbe84e6386f00279986b78e0d38b12c883",
+      "text": "SP and attack buffs return after Panic. Weakening it with Sinking does not guarantee safety next turn."
+    },
+    "passives.10.name": {
+      "sourceHash": "59a7a1fa638c8fc6df6f2e2166580a5511bef80e0656597179e4b2cb559a7a18",
+      "text": "Heart of Vengeance"
+    },
+    "passives.10.effect": {
+      "sourceHash": "059bff3a1a4a9003fced8dd76d8eff8e30c5f205966c6fa6c0bbade923e03b38",
+      "text": "At Turn Start, heal 15 SP unless at −45 SP. If Panicked at Turn End, recover next turn and reset SP to 0. If Panic was removed at Turn End, gain 2 Attack Power Up at the next Turn Start."
+    },
+    "passives.10.condition": {
+      "sourceHash": "c4b09d57536e616a66d6fa98e7dc39478a4e48b5b1ed7ec9a6d417a7572c626d",
+      "text": "Turn Start / Panic recovery"
+    },
+    "passives.10.response": {
+      "sourceHash": "2fc672470ae2621cc3a8e7e6d80a2ecbe84e6386f00279986b78e0d38b12c883",
+      "text": "SP and attack buffs return after Panic. Weakening it with Sinking does not guarantee safety next turn."
+    },
+    "passives.11.name": {
+      "sourceHash": "59a7a1fa638c8fc6df6f2e2166580a5511bef80e0656597179e4b2cb559a7a18",
+      "text": "Heart of Vengeance"
+    },
+    "passives.11.effect": {
+      "sourceHash": "059bff3a1a4a9003fced8dd76d8eff8e30c5f205966c6fa6c0bbade923e03b38",
+      "text": "At Turn Start, heal 15 SP unless at −45 SP. If Panicked at Turn End, recover next turn and reset SP to 0. If Panic was removed at Turn End, gain 2 Attack Power Up at the next Turn Start."
+    },
+    "passives.11.condition": {
+      "sourceHash": "c4b09d57536e616a66d6fa98e7dc39478a4e48b5b1ed7ec9a6d417a7572c626d",
+      "text": "Turn Start / Panic recovery"
+    },
+    "passives.11.response": {
+      "sourceHash": "2fc672470ae2621cc3a8e7e6d80a2ecbe84e6386f00279986b78e0d38b12c883",
+      "text": "SP and attack buffs return after Panic. Weakening it with Sinking does not guarantee safety next turn."
+    },
+    "passives.12.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.12.effect": {
+      "sourceHash": "1016c325333a83e3feb73451e607017ebd91c850bcbadc5f8a3ff16cdcebba2e",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.12.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.12.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.13.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.13.effect": {
+      "sourceHash": "1016c325333a83e3feb73451e607017ebd91c850bcbadc5f8a3ff16cdcebba2e",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.13.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.13.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.14.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.14.effect": {
+      "sourceHash": "1016c325333a83e3feb73451e607017ebd91c850bcbadc5f8a3ff16cdcebba2e",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.14.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.14.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.15.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.15.effect": {
+      "sourceHash": "74e633713b1b428af7608e310b752d76d127bffeb737b449f43744bfe7369cac",
+      "text": "If Panicked, reset SP to 0 at Turn End."
+    },
+    "passives.15.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.15.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.16.name": {
+      "sourceHash": "d3e49fac0d94b75f0169d0d41c74ba6409bd84b7862fa9ab8cf65e4b93f8a535",
+      "text": "Bod... ...st"
+    },
+    "passives.16.effect": {
+      "sourceHash": "609e0de120bc0dff6a968bc3c29df57126315493521e49f9bf29b6cec361967e",
+      "text": "At Turn End, if at −10 SP or below, gain 3 Offense Level Up next turn."
+    },
+    "passives.16.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.16.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.17.name": {
+      "sourceHash": "d9d699416d81031532547a73501fc920560a7009312ab7ca725a221c683cf908",
+      "text": "Threa..."
+    },
+    "passives.17.effect": {
+      "sourceHash": "87c811952363f6dd6c02a6c73464126fcc57be612a26a4cd5c6c1dfd76b2b3a8",
+      "text": "During a clash, Clash Power −1 and take 10 damage (cannot reduce HP to 0)."
+    },
+    "passives.17.condition": {
+      "sourceHash": "b8971c8f7873b192690958b8adc58351df2cbccfed69a08646a5901718a51cc2",
+      "text": "During a clash"
+    },
+    "passives.17.response": {
+      "sourceHash": "1f5a6663b088902dc15a3d992fa8ec0193bbd65a3e51e5436c8dd53ca3b43a6e",
+      "text": "The summon loses 1 Clash Power and damages itself, but this cannot kill it. Weaken it with winning clashes."
+    },
+    "passives.18.name": {
+      "sourceHash": "7eae5462ccc0713c79c6c95bc4be333b6b248a7979fe3b491d194aceff0ffb61",
+      "text": "Opp... tta"
+    },
+    "passives.18.effect": {
+      "sourceHash": "8f27f37e4d48428f68ce9e557beaff6225a93bc35aeba9c415866fba85a0a812",
+      "text": "On Clash Lose, gain 3 Offense Level Up (once per turn)."
+    },
+    "passives.18.condition": {
+      "sourceHash": "429559bad924beffeb1bfd79bf29df7bf895faf133990a800cf2dea63b127a60",
+      "text": "On Clash Lose / once per turn"
+    },
+    "passives.18.response": {
+      "sourceHash": "0dcfae5b0c70d7b65a727fde2cd91ab28b5c0242ec0e349df15e7e306918bae8",
+      "text": "Winning still raises the summon's Offense Level. Recheck the prediction rather than assuming the next clash has the same conditions."
+    },
+    "passives.19.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.19.effect": {
+      "sourceHash": "74e633713b1b428af7608e310b752d76d127bffeb737b449f43744bfe7369cac",
+      "text": "If Panicked, reset SP to 0 at Turn End."
+    },
+    "passives.19.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.19.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.20.name": {
+      "sourceHash": "a62d862032ee0b73249456834707bc9adef242e747947cc2051d5f1b9cb97c0d",
+      "text": "ies..."
+    },
+    "passives.20.effect": {
+      "sourceHash": "0467bedae5b058ebcd0de5f97c645e386265e06e6697750de1abe463c5821817",
+      "text": "At Turn End, if Staggered, recover from Stagger and heal 20 SP. Gain 1 Offense Level Up next turn (maximum 1)."
+    },
+    "passives.20.condition": {
+      "sourceHash": "db89ef30524d68be8a35b0a783aab3900f53efe23920b14111e50141cba5d233",
+      "text": "Staggered at Turn End"
+    },
+    "passives.20.response": {
+      "sourceHash": "e9ffd7c5b91ac041460b170a441473b0f10c1362ff27010640506a06bb83e245",
+      "text": "Stagger may not last into the next turn as usual. Land follow-up attacks during the turn you Stagger it."
+    },
+    "passives.21.name": {
+      "sourceHash": "85621bf737c5e332b9f05859bdfb64282a652824aa42dcb885c0965da2090e17",
+      "text": "Yo..."
+    },
+    "passives.21.effect": {
+      "sourceHash": "bc8826fd190308678d67b0523c4707a5bd9ebdcf1cf13bb090217fda2cabb5c6",
+      "text": "If recovering from Panic at Turn End, gain 1 Attack Power Up next turn."
+    },
+    "passives.21.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.21.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.22.name": {
+      "sourceHash": "270624f0d1b5646f68485d0085ed02cbe9da40cf3363973084232cbbed3a54e8",
+      "text": "ool..."
+    },
+    "passives.22.effect": {
+      "sourceHash": "12d39f1211d5147b02f927cc200890b8940a05cdf15bbb1ae768f3a56f8a436a",
+      "text": "If faster than the target, Clash Power +2."
+    },
+    "passives.22.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.22.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.23.name": {
+      "sourceHash": "592cd4a83fb6dfcc2854840cc33438e10bb58eb740c59946fff4b6df6ea1503b",
+      "text": "oice...!"
+    },
+    "passives.23.effect": {
+      "sourceHash": "30dd8233fbb8d3ac0773c389265a7a4b286a28aaec8cf27948e42bf3f163d61a",
+      "text": "If all Coins of an Attack Skill hit and all its Coins are Heads, heal 10 SP."
+    },
+    "passives.23.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.23.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.24.name": {
+      "sourceHash": "d9d699416d81031532547a73501fc920560a7009312ab7ca725a221c683cf908",
+      "text": "Threa..."
+    },
+    "passives.24.effect": {
+      "sourceHash": "87c811952363f6dd6c02a6c73464126fcc57be612a26a4cd5c6c1dfd76b2b3a8",
+      "text": "During a clash, Clash Power −1 and take 10 damage (cannot reduce HP to 0)."
+    },
+    "passives.24.condition": {
+      "sourceHash": "b8971c8f7873b192690958b8adc58351df2cbccfed69a08646a5901718a51cc2",
+      "text": "During a clash"
+    },
+    "passives.24.response": {
+      "sourceHash": "1f5a6663b088902dc15a3d992fa8ec0193bbd65a3e51e5436c8dd53ca3b43a6e",
+      "text": "The summon loses 1 Clash Power and damages itself, but this cannot kill it. Weaken it with winning clashes."
+    },
+    "passives.25.name": {
+      "sourceHash": "7eae5462ccc0713c79c6c95bc4be333b6b248a7979fe3b491d194aceff0ffb61",
+      "text": "Opp... tta"
+    },
+    "passives.25.effect": {
+      "sourceHash": "8f27f37e4d48428f68ce9e557beaff6225a93bc35aeba9c415866fba85a0a812",
+      "text": "On Clash Lose, gain 3 Offense Level Up (once per turn)."
+    },
+    "passives.25.condition": {
+      "sourceHash": "429559bad924beffeb1bfd79bf29df7bf895faf133990a800cf2dea63b127a60",
+      "text": "On Clash Lose / once per turn"
+    },
+    "passives.25.response": {
+      "sourceHash": "0dcfae5b0c70d7b65a727fde2cd91ab28b5c0242ec0e349df15e7e306918bae8",
+      "text": "Winning still raises the summon's Offense Level. Recheck the prediction rather than assuming the next clash has the same conditions."
+    },
+    "passives.26.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.26.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.26.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.26.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.27.name": {
+      "sourceHash": "f47329ccd285a27d71b5e956b55f8607db802530025843237401dd08ba89ccc3",
+      "text": "Tou..."
+    },
+    "passives.27.effect": {
+      "sourceHash": "12e2df2dfdce5ea4816b77c14d91a1bd2df7624921062d941b698566585d31e5",
+      "text": "If all Coins of an Attack Skill hit and all its Coins are Heads, heal 10 SP."
+    },
+    "passives.27.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.27.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.28.name": {
+      "sourceHash": "2242669163fa021581d04fbe070d208e8abfed9b6816749ee0c63c0b51b5b0b3",
+      "text": "Hou..."
+    },
+    "passives.28.effect": {
+      "sourceHash": "34693a664b4b0a558424425db6baf14d7a678e13d4f7e6701abe1b9f6d098f02",
+      "text": "On using an Attack Skill, if the target has 70 HP or less, Base Power +1 and damage +20%."
+    },
+    "passives.28.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.28.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.29.name": {
+      "sourceHash": "4704f3f0c2365f207813de9de7b879279aed98ae8da74e676919e2e8851651e7",
+      "text": "...erding"
+    },
+    "passives.29.effect": {
+      "sourceHash": "77701a17066bd0ae80fe9cda0cc3f7be5b6e3b59d33ac7fd1efe2809e3a226a3",
+      "text": "On Use, if faster than the target, Clash Power +2 and damage +20%."
+    },
+    "passives.29.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.29.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.30.name": {
+      "sourceHash": "d9d699416d81031532547a73501fc920560a7009312ab7ca725a221c683cf908",
+      "text": "Threa..."
+    },
+    "passives.30.effect": {
+      "sourceHash": "87c811952363f6dd6c02a6c73464126fcc57be612a26a4cd5c6c1dfd76b2b3a8",
+      "text": "During a clash, Clash Power −1 and take 10 damage (cannot reduce HP to 0)."
+    },
+    "passives.30.condition": {
+      "sourceHash": "b8971c8f7873b192690958b8adc58351df2cbccfed69a08646a5901718a51cc2",
+      "text": "During a clash"
+    },
+    "passives.30.response": {
+      "sourceHash": "1f5a6663b088902dc15a3d992fa8ec0193bbd65a3e51e5436c8dd53ca3b43a6e",
+      "text": "The summon loses 1 Clash Power and damages itself, but this cannot kill it. Weaken it with winning clashes."
+    },
+    "passives.31.name": {
+      "sourceHash": "7eae5462ccc0713c79c6c95bc4be333b6b248a7979fe3b491d194aceff0ffb61",
+      "text": "Opp... tta"
+    },
+    "passives.31.effect": {
+      "sourceHash": "8f27f37e4d48428f68ce9e557beaff6225a93bc35aeba9c415866fba85a0a812",
+      "text": "On Clash Lose, gain 3 Offense Level Up (once per turn)."
+    },
+    "passives.31.condition": {
+      "sourceHash": "429559bad924beffeb1bfd79bf29df7bf895faf133990a800cf2dea63b127a60",
+      "text": "On Clash Lose / once per turn"
+    },
+    "passives.31.response": {
+      "sourceHash": "0dcfae5b0c70d7b65a727fde2cd91ab28b5c0242ec0e349df15e7e306918bae8",
+      "text": "Winning still raises the summon's Offense Level. Recheck the prediction rather than assuming the next clash has the same conditions."
+    },
+    "passives.32.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.32.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.32.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.32.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.33.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.33.effect": {
+      "sourceHash": "104ce78eb7012878b3b60eccc7274538f0e7620e86ca9e7d45eb3fc60e763f35",
+      "text": "Effects that would change Panic Type do not change it. Instead, apply the effects intended for targets without SP."
+    },
+    "passives.33.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.33.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.34.name": {
+      "sourceHash": "93f28f92c1d30aba02f5e51c237c8723f3ac49b68e7ed3eaf35e3c381c5451a2",
+      "text": "...rity"
+    },
+    "passives.34.effect": {
+      "sourceHash": "4c486e58c9d24e956506f0a594121593417086687f1c335a9b3cdccec177a2ee",
+      "text": "After reaching 65% HP or below, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win. After reaching 40% HP or below, gain 1 Offense Level Up and 1 HP Healing Boost On Use. Once a threshold has been met, its condition continues to apply even after healing."
+    },
+    "passives.34.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.34.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.35.name": {
+      "sourceHash": "75e14d2a291bd5fae7715cef70f592f98ec849a1b8e6a2ea703742286db1ecc2",
+      "text": "Dir..."
+    },
+    "passives.35.effect": {
+      "sourceHash": "f7d080143ee89216f74208b74e0105dda20f54c55f8315804afeb8b819371a07",
+      "text": "After recovering from the first Stagger, on Clash Win, attack hits deal additional Wrath damage equal to 10% of the damage dealt."
+    },
+    "passives.35.condition": {
+      "sourceHash": "3af9e48aad5384233ffbe2eeef11c4b05723231919d1d770d952a55ce83eba28",
+      "text": "Under the listed effect's conditions"
+    },
+    "passives.35.response": {
+      "sourceHash": "ecdd40138582e78b3509a15189be40df8baf1aca3cbdb19984222f080b0c927f",
+      "text": "Summon strength varies with HP, Speed, SP, and the target's debuffs. Stop dangerous attacks and direct damage toward the main body's phase transition."
+    },
+    "passives.36.name": {
+      "sourceHash": "fb1f178e654944e2af313048d7cb690fc496746bc1a2572a748b19ebce8ee5ae",
+      "text": "Pred..."
+    },
+    "passives.36.effect": {
+      "sourceHash": "3c6389e37088a6df9902afbefba2ced89b3729a788f068e280bf023a7e03153e",
+      "text": "On defeating an enemy, heal overall and part HP by 200. Gain 1 Haste, 3 Defense Level Up, and 2 Offense Level Up next turn."
+    },
+    "passives.36.condition": {
+      "sourceHash": "2108ecabf26616a00472810352a84d3541ba3447b397fe4a183287d293c8a90d",
+      "text": "Defeat a Sinner"
+    },
+    "passives.36.response": {
+      "sourceHash": "32ef724f88eb51b67214af7b119192675d797a5c1a723b9d06eab5f565be5645",
+      "text": "Do not allow unopposed hits on low-HP allies, preventing the large heal and buffs."
+    },
+    "passives.37.name": {
+      "sourceHash": "6e94accb4c11b5dd670e52c03475ae36822a43634078d3f992ba5a1591409f50",
+      "text": "...ked"
+    },
+    "passives.37.effect": {
+      "sourceHash": "bf05f3c5ca9a5055bec0dc8d149c520f8935e6c09195d92a5e4dc23ba881d55a",
+      "text": "Prioritize targets with Marked Prey."
+    },
+    "passives.37.condition": {
+      "sourceHash": "5d7198e63196a1c1e63cc191807631e8fd52c6f2dc2c5ff36d3c9c68c7bd4998",
+      "text": "Marked Prey is present"
+    },
+    "passives.37.response": {
+      "sourceHash": "ce18443c61afc17e1a7d66462c5f850c4b3f08d9d1a21f2e797e317d130377c9",
+      "text": "Protect the marked Sinner's HP and have another sufficiently fast ally take the clash."
+    },
+    "passives.38.name": {
+      "sourceHash": "d9d699416d81031532547a73501fc920560a7009312ab7ca725a221c683cf908",
+      "text": "Threa..."
+    },
+    "passives.38.effect": {
+      "sourceHash": "87c811952363f6dd6c02a6c73464126fcc57be612a26a4cd5c6c1dfd76b2b3a8",
+      "text": "During a clash, Clash Power −1 and take 10 damage (cannot reduce HP to 0)."
+    },
+    "passives.38.condition": {
+      "sourceHash": "b8971c8f7873b192690958b8adc58351df2cbccfed69a08646a5901718a51cc2",
+      "text": "During a clash"
+    },
+    "passives.38.response": {
+      "sourceHash": "1f5a6663b088902dc15a3d992fa8ec0193bbd65a3e51e5436c8dd53ca3b43a6e",
+      "text": "The summon loses 1 Clash Power and damages itself, but this cannot kill it. Weaken it with winning clashes."
+    },
+    "passives.39.name": {
+      "sourceHash": "7eae5462ccc0713c79c6c95bc4be333b6b248a7979fe3b491d194aceff0ffb61",
+      "text": "Opp... tta"
+    },
+    "passives.39.effect": {
+      "sourceHash": "8f27f37e4d48428f68ce9e557beaff6225a93bc35aeba9c415866fba85a0a812",
+      "text": "On Clash Lose, gain 3 Offense Level Up (once per turn)."
+    },
+    "passives.39.condition": {
+      "sourceHash": "429559bad924beffeb1bfd79bf29df7bf895faf133990a800cf2dea63b127a60",
+      "text": "On Clash Lose / once per turn"
+    },
+    "passives.39.response": {
+      "sourceHash": "0dcfae5b0c70d7b65a727fde2cd91ab28b5c0242ec0e349df15e7e306918bae8",
+      "text": "Winning still raises the summon's Offense Level. Recheck the prediction rather than assuming the next clash has the same conditions."
+    },
+    "passives.40.name": {
+      "sourceHash": "e6e9c63732ad8aba17ff75858d4544e0581eaa5a37548eb8d95c6690eb4edec8",
+      "text": "A Distant Identity"
+    },
+    "passives.40.effect": {
+      "sourceHash": "2490ed26ac301f1b1b9f863b395e943e36bc4363e13cb1f9e78b40a41c25563c",
+      "text": "At Turn End, becomes incapacitated when both hands have 1 HP."
+    },
+    "passives.40.condition": {
+      "sourceHash": "36100b794bd5c3b83d7bc2ec7980a12dd1ab02d484d86e636274a0ae1043f079",
+      "text": "Both hands have 1 HP"
+    },
+    "passives.40.response": {
+      "sourceHash": "857f85718d734eea8710204d00b49b43f69bbe6424a22eb1904ba9533c56f5a6",
+      "text": "On Catherine's first appearance, both hands reaching 1 HP is the condition to advance. Do not try to kill the 1-HP main body with regular attacks."
+    },
+    "passives.41.name": {
+      "sourceHash": "449052be863e41c99e8f53f6436a198793d59da3c604978bf22a97f75fc1ee46",
+      "text": "Broken Heart"
+    },
+    "passives.41.effect": {
+      "sourceHash": "8aeccfe225b5ebaf8f6cfee63934c147b458d30fcd45ee01544dee5184542316",
+      "text": "At Turn Start, if any hand has at least 2 HP, gain 10 Protection and change all resistances to 0.2. If both hands have 1 HP at Turn Start, remove Protection and restore normal resistances."
+    },
+    "passives.41.condition": {
+      "sourceHash": "82d9a0f0400e5f8981bada6578010e1604c54a93dbcd05fd40511b44d3a7fbdf",
+      "text": "A hand remains alive at Turn Start"
+    },
+    "passives.41.response": {
+      "sourceHash": "3f5824b246813e11a4afcb8e67eae53a23fcb55c89597d05c09969b22ed036e1",
+      "text": "Do not waste main-body damage while the hands remain. Protection is removed after the hands are handled."
+    },
+    "passives.42.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.42.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.42.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.42.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.43.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.43.effect": {
+      "sourceHash": "1016c325333a83e3feb73451e607017ebd91c850bcbadc5f8a3ff16cdcebba2e",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.43.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.43.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.44.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.44.effect": {
+      "sourceHash": "74e633713b1b428af7608e310b752d76d127bffeb737b449f43744bfe7369cac",
+      "text": "If Panicked, reset SP to 0 at Turn End."
+    },
+    "passives.44.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.44.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.45.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.45.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.45.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.45.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.46.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.46.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.46.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.46.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.47.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "passives.47.effect": {
+      "sourceHash": "0cd42c734f2ae893827c745d2f8b0e23853fa14d312a243ff3de0aa96d08b57e",
+      "text": "While at 1 HP, becomes Staggered and cannot fall below 1 HP."
+    },
+    "passives.47.condition": {
+      "sourceHash": "bc70f22e2e65cc98787cc9d95214c08747099e6d322ecfe27597ffb606591629",
+      "text": "A hand has 1 HP"
+    },
+    "passives.47.response": {
+      "sourceHash": "a51537501ad5c3bddeb09aa1c42e457ee59bd6835e7e77d19d1927e219c7bc1f",
+      "text": "A hand at 1 HP stops acting due to Stagger. Redirect attacks to the other hand."
+    },
+    "passives.48.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "passives.48.effect": {
+      "sourceHash": "0cd42c734f2ae893827c745d2f8b0e23853fa14d312a243ff3de0aa96d08b57e",
+      "text": "While at 1 HP, becomes Staggered and cannot fall below 1 HP."
+    },
+    "passives.48.condition": {
+      "sourceHash": "bc70f22e2e65cc98787cc9d95214c08747099e6d322ecfe27597ffb606591629",
+      "text": "A hand has 1 HP"
+    },
+    "passives.48.response": {
+      "sourceHash": "a51537501ad5c3bddeb09aa1c42e457ee59bd6835e7e77d19d1927e219c7bc1f",
+      "text": "A hand at 1 HP stops acting due to Stagger. Redirect attacks to the other hand."
+    },
+    "passives.49.name": {
+      "sourceHash": "745081ba40d92c768f58b3f99b5837a253d54c99d3bcf14d21e38d22eace35c8",
+      "text": "Misery-severing Hand"
+    },
+    "passives.49.effect": {
+      "sourceHash": "80f8d589aca4fae48634edd6ec5386557c0fd145e25a441f737a8d7a1dff02e0",
+      "text": "At the end of the turn after reaching 1 HP, if the other hand has at least 2 HP, heal for 50% of that other hand's remaining HP, rounded down."
+    },
+    "passives.49.condition": {
+      "sourceHash": "8786635488207eef24d1e1f428c483c6305800962dfff0028a06959015ef0667",
+      "text": "After only one hand reaches 1 HP"
+    },
+    "passives.49.response": {
+      "sourceHash": "f7ae6a9174b35f269c2845e4ab8fa527698b42a41145cb86769348102124965a",
+      "text": "If the other hand remains, the first hand recovers. Keep their HP close and aim to bring both down on the same turn."
+    },
+    "passives.50.name": {
+      "sourceHash": "745081ba40d92c768f58b3f99b5837a253d54c99d3bcf14d21e38d22eace35c8",
+      "text": "Misery-severing Hand"
+    },
+    "passives.50.effect": {
+      "sourceHash": "80f8d589aca4fae48634edd6ec5386557c0fd145e25a441f737a8d7a1dff02e0",
+      "text": "At the end of the turn after reaching 1 HP, if the other hand has at least 2 HP, heal for 50% of that other hand's remaining HP, rounded down."
+    },
+    "passives.50.condition": {
+      "sourceHash": "8786635488207eef24d1e1f428c483c6305800962dfff0028a06959015ef0667",
+      "text": "After only one hand reaches 1 HP"
+    },
+    "passives.50.response": {
+      "sourceHash": "f7ae6a9174b35f269c2845e4ab8fa527698b42a41145cb86769348102124965a",
+      "text": "If the other hand remains, the first hand recovers. Keep their HP close and aim to bring both down on the same turn."
+    },
+    "passives.51.name": {
+      "sourceHash": "e25809106989df5ac003af013a74f35e49f26b388a4d253c27818f858cd4d71a",
+      "text": "Cold Body"
+    },
+    "passives.51.effect": {
+      "sourceHash": "f89f17e35fcecc36bd6da73d156f24174995c1ceb6adc69ee44d70dea88a1af2",
+      "text": "HP cannot fall below 1."
+    },
+    "passives.51.condition": {
+      "sourceHash": "69cb4d816d350705de680d0dda12544ff4840470f28b6e5a075c4188a9893c30",
+      "text": "Always active"
+    },
+    "passives.51.response": {
+      "sourceHash": "0282bc6b0a78ff5fb8d5dc3b9a9290dc1d1e7fa9f6ec091ab08b464d1d7ad2a4",
+      "text": "The second appearance is not defeated simply because the main body has 1 HP. Handle both hands and the Shield."
+    },
+    "passives.52.name": {
+      "sourceHash": "9e7e607c892c084b80ca732ff7c812dcf3db1c98949ccddfc8ec217735182475",
+      "text": "A Shaky Ego"
+    },
+    "passives.52.effect": {
+      "sourceHash": "1a70ac59e75fca5f827304d8b46f891bd0af89518d0f4c89e3132991da4916d4",
+      "text": "At Turn End, if both hands have 1 HP, gain a Shield (300 Away With You) next turn. Removing the entire Shield incapacitates the user."
+    },
+    "passives.52.condition": {
+      "sourceHash": "36100b794bd5c3b83d7bc2ec7980a12dd1ab02d484d86e636274a0ae1043f079",
+      "text": "Both hands have 1 HP"
+    },
+    "passives.52.response": {
+      "sourceHash": "d764f5561d8b53cc37ca0ec50cf06773623790fb9bf704d8a8fdfa64fd750e74",
+      "text": "On the second appearance, you must also break the main body's 300 Shield. Save damage for after handling the hands."
+    },
+    "passives.53.name": {
+      "sourceHash": "449052be863e41c99e8f53f6436a198793d59da3c604978bf22a97f75fc1ee46",
+      "text": "Broken Heart"
+    },
+    "passives.53.effect": {
+      "sourceHash": "8aeccfe225b5ebaf8f6cfee63934c147b458d30fcd45ee01544dee5184542316",
+      "text": "At Turn Start, if any hand has at least 2 HP, gain 10 Protection and change all resistances to 0.2. If both hands have 1 HP at Turn Start, remove Protection and restore normal resistances."
+    },
+    "passives.53.condition": {
+      "sourceHash": "82d9a0f0400e5f8981bada6578010e1604c54a93dbcd05fd40511b44d3a7fbdf",
+      "text": "A hand remains alive at Turn Start"
+    },
+    "passives.53.response": {
+      "sourceHash": "3f5824b246813e11a4afcb8e67eae53a23fcb55c89597d05c09969b22ed036e1",
+      "text": "Do not waste main-body damage while the hands remain. Protection is removed after the hands are handled."
+    },
+    "passives.54.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.54.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.54.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.54.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.55.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.55.effect": {
+      "sourceHash": "1016c325333a83e3feb73451e607017ebd91c850bcbadc5f8a3ff16cdcebba2e",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.55.condition": {
+      "sourceHash": "e876169d6a95ba2c7e309a0fe915a0eb45934a76e18756e014d095ae4546aef8",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.55.response": {
+      "sourceHash": "ad93046bb94bc1851e5bcd73374b7e1414425e1937a704c25615dcb0c004980e",
+      "text": "Replacing Panic Type is not an option. Prioritize normal clashes and HP management."
+    },
+    "passives.56.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.56.effect": {
+      "sourceHash": "74e633713b1b428af7608e310b752d76d127bffeb737b449f43744bfe7369cac",
+      "text": "If Panicked, reset SP to 0 at Turn End."
+    },
+    "passives.56.condition": {
+      "sourceHash": "c9d926abccd9feb7902ea436b3e7ac689df6dad0572100c01bcfd2ca14428137",
+      "text": "Panicked at Turn End"
+    },
+    "passives.56.response": {
+      "sourceHash": "e1c8f1e70a9cc37920877fdea3e80c172a2d70444669131eb431ceee784b9406",
+      "text": "Panic cannot hold it for multiple turns indefinitely; use the opening to focus damage."
+    },
+    "passives.57.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.57.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.57.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.57.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.58.name": {
+      "sourceHash": "0914d4aa053b7b435a1dc4b800b7af945ecda5090be7fb35706bb87b7af9c254",
+      "text": "For Every Heathcliff"
+    },
+    "passives.58.effect": {
+      "sourceHash": "e47f7aec4e97d90a986427b148b9abba499a524946d694eec4365e0b279495ce",
+      "text": "Clash Power −3 against Heathcliff and damage to him −50%. Heathcliff's death causes defeat for your team."
+    },
+    "passives.58.condition": {
+      "sourceHash": "bf8585b46b5ef68792a82093938bc262ad048cbb77c8f7b23d24f8578278db5f",
+      "text": "Fighting Heathcliff"
+    },
+    "passives.58.response": {
+      "sourceHash": "907808b626e85ad1889294b7063244383d59a75dd79fe5079847744804a4771e",
+      "text": "Heathcliff has favorable modifiers. Strong skills let him handle hand clashes too, but keeping him alive comes first."
+    },
+    "passives.59.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "passives.59.effect": {
+      "sourceHash": "0cd42c734f2ae893827c745d2f8b0e23853fa14d312a243ff3de0aa96d08b57e",
+      "text": "While at 1 HP, becomes Staggered and cannot fall below 1 HP."
+    },
+    "passives.59.condition": {
+      "sourceHash": "bc70f22e2e65cc98787cc9d95214c08747099e6d322ecfe27597ffb606591629",
+      "text": "A hand has 1 HP"
+    },
+    "passives.59.response": {
+      "sourceHash": "a51537501ad5c3bddeb09aa1c42e457ee59bd6835e7e77d19d1927e219c7bc1f",
+      "text": "A hand at 1 HP stops acting due to Stagger. Redirect attacks to the other hand."
+    },
+    "passives.60.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "passives.60.effect": {
+      "sourceHash": "0cd42c734f2ae893827c745d2f8b0e23853fa14d312a243ff3de0aa96d08b57e",
+      "text": "While at 1 HP, becomes Staggered and cannot fall below 1 HP."
+    },
+    "passives.60.condition": {
+      "sourceHash": "bc70f22e2e65cc98787cc9d95214c08747099e6d322ecfe27597ffb606591629",
+      "text": "A hand has 1 HP"
+    },
+    "passives.60.response": {
+      "sourceHash": "a51537501ad5c3bddeb09aa1c42e457ee59bd6835e7e77d19d1927e219c7bc1f",
+      "text": "A hand at 1 HP stops acting due to Stagger. Redirect attacks to the other hand."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "1c8af6be2b053454db4fc2f177c855a5fd71c854c2174909152e204dd31731f8",
+      "text": "Breaking Heart"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "65116542997e211f4e6df7b764a4bd5e9e16d147a4efb6dc859c24d95db574b0",
+      "text": "Increases all Sin resistance multipliers by value × 0.2 and causes Stagger at 3. Can affect both enemies and Sinners."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "162186988973b19acbf6875ccd1725dd7b3a276c493e1f8f5216beb7f4acbf0d",
+      "text": "Use Lightning of Suffering to inflict it on enemies; avoid accumulating it through incoming hits or failed Lightning actions yourself."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "df0edc0b780b160ba7c5b122032a9c964d2787164fca61afcd309792931218b3",
+      "text": "Lightning of Suffering"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "f5baf84b77dc3758abeff283fa6c62dd0e468e5e481cdc1951be5817524f1e38",
+      "text": "On Clash Win, inflict Breaking Heart and deal 7 damage to the enemy. On Clash Lose or an unopposed attack, inflict it and the damage on self instead. Decreases by 1 at Skill End."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "24d5d43a8f9744bbdf6bbeff95f7ccca88741511d86c911f36990e38fb5ec1ba",
+      "text": "Have the Sinner with Lightning take a winning clash."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7f140bbcfbeee284aedddeb9061a03c747ac645bfdc7c8c77bd6b29e8b3e008f",
+      "text": "May She... Wake in Torment!"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "895f6799b7f9520c5fe88340a614915b2c5492eca4dbfdf723c695cc0849188d",
+      "text": "The Erlking's Clash Power −6 against a target with Lightning of Suffering."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "46116670c276d2f03b915fdd6f7db9b2cfe039ed36f01d248441c15b132f5c76",
+      "text": "Consider assigning its holder to a high-Power area attack."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "51696806580c48a6c72091e855d8668b78a6d5fdf70987048d9fa681b88e4972",
+      "text": "Away With You"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "7164f23178dd7f9419e4e0f242eda3c3a2dc4fead9b290f5746ab376f9b0bdf2",
+      "text": "The remaining Shield value. The initial 404 and the 300 gained after handling the second pair of hands require different responses."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "b8a51d8dcd6011fbc337b82b8a7adc4d84dded5b9edde8ce6989652258f5db53",
+      "text": "Prioritize hands on the first appearance; attack the main body to deplete the 300 on the second."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "6e5a3a5bcbf4aa3c04f6d4db67ef2140e39c70023556df7341852d0679dcccb1",
+      "text": "Courage to Approach"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "be5f456dc73f5c427749e1ea01fbefa5bc049045e2c0cceb016ff176237cfd43",
+      "text": "Gained after the final event. Grants effects including 3 Attack Power Up and 5 Protection each turn, and keeps Heathcliff at 1 HP while at least one other ally is alive. Determination on entering the final phase also protects him at 1 HP; Faded Promise provides the corresponding effect for the Wild Hunt Identity."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "f5801066d6834af5181d0beae63b4618ac75d84a943ecebbd1728e40cdfc4673",
+      "text": "Does not guarantee the whole team's survival. Prevent area attacks from wiping out all other Sinners."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "449052be863e41c99e8f53f6436a198793d59da3c604978bf22a97f75fc1ee46",
+      "text": "Broken Heart"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "c4ae0636451b610a2512e1027b8bb1096d85b8a5f6e499222561df4311f66164",
+      "text": "On the Erlking's final phase, raises maximum Speed by 2 and grants Damage Up and 3 Fragile each turn. Final Power +2 if Heathcliff is the main target. On Clash Lose against him, gain 3 Bind and 3 Damage Down next turn."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "1d75a9576957c82b20d55731c208df349fba1441695f1c7044259d83c2cdd89f",
+      "text": "Differs from Catherine's identically named passive. Keep checking actual Power and Speed in the final phase."
+    },
+    "warnings.0": {
+      "sourceHash": "119211f913968e2f268d880ed6e7fb9afb9fc49f3c668dc769bd834abe836f80",
+      "text": "Heathcliff's death causes immediate defeat. Even the final phase's protection at 1 HP requires at least one other ally alive. Watch combinations of effects that attack allies too."
+    },
+    "warnings.1": {
+      "sourceHash": "75699caae803b81bc3a5a03a7f114b3077c2b3bc800d68a31a202a878faa2fad",
+      "text": "Main-body HP floors and phase transitions limit damage. Even a large burst cannot necessarily finish the entire fight that turn."
+    },
+    "warnings.2": {
+      "sourceHash": "ec96f8bd23cf7e7ceb8db5ab798788f1f4a61fa7b09db20855d35f687429a1ad",
+      "text": "Do not bring only one of the first hands down and leave it. Remember the main-body Shield on the second appearance too."
+    },
+    "warnings.3": {
+      "sourceHash": "023d17330ca4fa48408fc5cd69c168d7ed386e2f710eb934c7d787696f3bc794",
+      "text": "The final phase's turn count includes the initial turn before the event. It does not require another 5 turns after the event."
+    },
+    "preparation.0": {
+      "sourceHash": "ab8f96d636ccafd0150e99d36f2f3ed38950cb566ea2bd04fb191ed4e348c7ed",
+      "text": "Aim for Lv.45 and Uptie III or higher. Check Heathcliff's development and Blunt resistance. Even when borrowing a strong support Identity, separately assess its survival after losing a clash."
+    },
+    "preparation.1": {
+      "sourceHash": "b577a2b6e4031a12fc97ee8c0d4b47b23576eb2bfabd0b36ab49b9fae3784f41",
+      "text": "Prepare HP and SP recovery for a long fight, and E.G.O that can stop the late area attack with a maximum of 20."
+    },
+    "preparation.2": {
+      "sourceHash": "e0e5c209b0aa307ccc90dc806a2ae45d91bb6fa7c2a9057f66838a5f4c513cbe",
+      "text": "Gloom and Envy attacks are effective. The hands are also weak to Wrath and Lust; build a team that can split damage using your developed roster."
+    },
+    "roles.0.name": {
+      "sourceHash": "6eeb4dd7a32a8d9ba8aa0bf156ac0555bb0a2956431f4830f6f7b1ad14d75853",
+      "text": "Developed Heathcliff"
+    },
+    "roles.0.reason": {
+      "sourceHash": "0de310025c595aa9a4facec561ef90a07e6f7256435dea38be4acf34f9642a98",
+      "text": "His survival directly determines defeat. His clash wins also weaken enemies, and he receives event check modifiers."
+    },
+    "roles.1.name": {
+      "sourceHash": "63d8c557196467d8e676c1e35452666330f0c796e2e1c9b424eeafed0cff5c5c",
+      "text": "High-power Clash specialist"
+    },
+    "roles.1.reason": {
+      "sourceHash": "e65e5deec2f337d8857c713a9983f2b0514773197b99ba5fe0f103c76cd684ed",
+      "text": "Several Sinners with strong skills make the fight more reliable, letting you stop area attacks even when the Lightning holder changes."
+    },
+    "roles.2.name": {
+      "sourceHash": "f7e2045053a5b1bf69a931a4c805117c8e454695ad1606087d90d1fe8ba2d972",
+      "text": "Handling both hands / recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "c6e04ed57fa37019980ad5133824be5d1b16f3172cb102b201c85e205800419f",
+      "text": "Split damage between left and right while maintaining HP and SP through the long fight."
+    }
+  },
+  "messages": {
+    "boss-copy:erlking-cathy": "complete",
+    "【リンバス】6-48 魔王ヒースクリフ・全てのキャサリンの攻略｜Limbus Assistant": "6-48 Erlking Heathcliff / Every Catherine Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-48「魔王ヒースクリフ・全てのキャサリン」の攻略。魔王とキャサリンが交代する5段階の長期戦。ヒースクリフを守り、最初の両手は足並みをそろえて削り、2回目は本体のバリアまで処理しよう。": "Erlking Heathcliff / Every Catherine guide for Limbus Company 6-48. A long, 5-phase battle alternating between the Erlking and Catherine. Protect Heathcliff, bring the first pair of hands down together, and destroy Catherine's Shield as well on her second appearance.",
+    "6-48 魔王ヒースクリフ・全てのキャサリン": "6-48 Erlking Heathcliff / Every Catherine",
+    "6-48「All Worlds」": "6-48 · All Worlds",
+    "魔王ヒースクリフ（1回目）の外見": "Erlking Heathcliff (1st appearance) appearance",
+    "魔王ヒースクリフ（1回目）のスキル": "Erlking Heathcliff (1st appearance) skills",
+    "Erlking Heathcliff (1st appearance)の外見": "Erlking Heathcliff (1st appearance) appearance",
+    "Erlking Heathcliff (1st appearance)のスキル": "Erlking Heathcliff (1st appearance) skills",
+    "魔王ヒースクリフ（2回目）の外見": "Erlking Heathcliff (2nd appearance) appearance",
+    "魔王ヒースクリフ（2回目）のスキル": "Erlking Heathcliff (2nd appearance) skills",
+    "Erlking Heathcliff (2nd appearance)の外見": "Erlking Heathcliff (2nd appearance) appearance",
+    "Erlking Heathcliff (2nd appearance)のスキル": "Erlking Heathcliff (2nd appearance) skills",
+    "魔王ヒースクリフ（3回目）の外見": "Erlking Heathcliff (3rd appearance) appearance",
+    "魔王ヒースクリフ（3回目）のスキル": "Erlking Heathcliff (3rd appearance) skills",
+    "Erlking Heathcliff (3rd appearance)の外見": "Erlking Heathcliff (3rd appearance) appearance",
+    "Erlking Heathcliff (3rd appearance)のスキル": "Erlking Heathcliff (3rd appearance) skills",
+    "全てのキャサリン（1回目）の外見": "Every Catherine (1st appearance) appearance",
+    "全てのキャサリン（1回目）のスキル": "Every Catherine (1st appearance) skills",
+    "Every Catherine (1st appearance)の外見": "Every Catherine (1st appearance) appearance",
+    "Every Catherine (1st appearance)のスキル": "Every Catherine (1st appearance) skills",
+    "全てのキャサリンの右手（1回目）の外見": "Right Hand of Every Catherine (1st appearance) appearance",
+    "全てのキャサリンの右手（1回目）のスキル": "Right Hand of Every Catherine (1st appearance) skills",
+    "Right Hand of Every Catherine (1st appearance)の外見": "Right Hand of Every Catherine (1st appearance) appearance",
+    "Right Hand of Every Catherine (1st appearance)のスキル": "Right Hand of Every Catherine (1st appearance) skills",
+    "全てのキャサリンの左手（1回目）の外見": "Left Hand of Every Catherine (1st appearance) appearance",
+    "全てのキャサリンの左手（1回目）のスキル": "Left Hand of Every Catherine (1st appearance) skills",
+    "Left Hand of Every Catherine (1st appearance)の外見": "Left Hand of Every Catherine (1st appearance) appearance",
+    "Left Hand of Every Catherine (1st appearance)のスキル": "Left Hand of Every Catherine (1st appearance) skills",
+    "全てのキャサリン（2回目）の外見": "Every Catherine (2nd appearance) appearance",
+    "全てのキャサリン（2回目）のスキル": "Every Catherine (2nd appearance) skills",
+    "Every Catherine (2nd appearance)の外見": "Every Catherine (2nd appearance) appearance",
+    "Every Catherine (2nd appearance)のスキル": "Every Catherine (2nd appearance) skills",
+    "全てのキャサリンの右手（2回目）の外見": "Right Hand of Every Catherine (2nd appearance) appearance",
+    "全てのキャサリンの右手（2回目）のスキル": "Right Hand of Every Catherine (2nd appearance) skills",
+    "Right Hand of Every Catherine (2nd appearance)の外見": "Right Hand of Every Catherine (2nd appearance) appearance",
+    "Right Hand of Every Catherine (2nd appearance)のスキル": "Right Hand of Every Catherine (2nd appearance) skills",
+    "全てのキャサリンの左手（2回目）の外見": "Left Hand of Every Catherine (2nd appearance) appearance",
+    "全てのキャサリンの左手（2回目）のスキル": "Left Hand of Every Catherine (2nd appearance) skills",
+    "Left Hand of Every Catherine (2nd appearance)の外見": "Left Hand of Every Catherine (2nd appearance) appearance",
+    "Left Hand of Every Catherine (2nd appearance)のスキル": "Left Hand of Every Catherine (2nd appearance) skills",
+    "ワイルドハント・ヒンドリーの外見": "Hindley of the Wild Hunt appearance",
+    "ワイルドハント・ヒンドリーのスキル": "Hindley of the Wild Hunt skills",
+    "Hindley of the Wild Huntの外見": "Hindley of the Wild Hunt appearance",
+    "Hindley of the Wild Huntのスキル": "Hindley of the Wild Hunt skills",
+    "ワイルドハント・ジョセフィーヌの外見": "Josephine of the Wild Hunt appearance",
+    "ワイルドハント・ジョセフィーヌのスキル": "Josephine of the Wild Hunt skills",
+    "Josephine of the Wild Huntの外見": "Josephine of the Wild Hunt appearance",
+    "Josephine of the Wild Huntのスキル": "Josephine of the Wild Hunt skills",
+    "ワイルドハント・リントンの外見": "Linton of the Wild Hunt appearance",
+    "ワイルドハント・リントンのスキル": "Linton of the Wild Hunt skills",
+    "Linton of the Wild Huntの外見": "Linton of the Wild Hunt appearance",
+    "Linton of the Wild Huntのスキル": "Linton of the Wild Hunt skills",
+    "ワイルドハント・奪われて泣き叫ぶヒンドリーの外見": "The Reaved Lamenter of the Wild Hunt appearance",
+    "ワイルドハント・奪われて泣き叫ぶヒンドリーのスキル": "The Reaved Lamenter of the Wild Hunt skills",
+    "The Reaved Lamenter of the Wild Huntの外見": "The Reaved Lamenter of the Wild Hunt appearance",
+    "The Reaved Lamenter of the Wild Huntのスキル": "The Reaved Lamenter of the Wild Hunt skills"
+  }
+}

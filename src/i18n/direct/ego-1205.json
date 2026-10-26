@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1205.md",
+  "code": "1205",
+  "messages": {
+    "罪悪共鳴の数に応じて、複数の味方を回復しつつ、共鳴した属性のバフを配る回復・補助E.G.O。": "A healing and support E.G.O that heals multiple allies based on the number of Sin Resonance while handing out buffs for the resonating Sin.",
+    "共鳴数に比例する強化: 最も高い共鳴が3以上なら攻撃加重値が増える(解析Ⅲで最大2、Ⅳで最大3)。バフと回復の対象人数も、共鳴数が多いほど増える。": "**Bonuses scaling with Resonance**: If the highest Resonance is 3 or more, Attack Weight increases (up to 2 at Threadspin Ⅲ, up to 3 at Ⅳ). The number of buff and healing targets also increases with more Resonance.",
+    "バフ: 最も高い共鳴の属性について、ダメージ量増加と威力増加を1ずつ味方に付与する。共鳴4以上でダメージ量増加が追加され、解析Ⅲで共鳴5以上なら威力増加も追加される。": "**Buffs**: Gives allies 1 Damage Up and 1 Power Up for the Sin of the highest Resonance. At 4 or more Resonance, extra Damage Up is added, and at Threadspin Ⅲ with 5 or more Resonance, extra Power Up is added too.",
+    "次ターンへの持ち越し(解析Ⅳ): 完全共鳴6以上なら、同じバフが次のターンにも付く。": "**Carrying over to the next turn (Threadspin Ⅳ)**: With 6 or more Absolute Resonance, the same buffs also apply next turn.",
+    "回復: 体力比率が最も低い味方を最大値の15%(解析Ⅲで18%、Ⅳで22%)回復する。": "**Healing**: Heals the ally with the lowest HP ratio by 15% of max HP (18% at Threadspin Ⅲ, 22% at Ⅳ).",
+    "重い資源: 全属性2つずつの計14個が必要で、精神消耗は30。": "**Heavy requirements**: Needs 14 resources, 2 of every Sin, with a Sanity cost of 30.",
+    "特定の属性に偏った編成で、共鳴を作ったターンに撃つ。": "Fire it on turns when a team skewed toward a specific Sin has built Resonance.",
+    "資源が偏りやすい編成では、14個を揃えるのが前提になる。": "In teams whose resources tend to be lopsided, gathering all 14 is the premise.",
+    "パッシブ「薔薇の冠」は敵に破裂2を付与するが、数値が小さい。": "The passive Crown of Roses inflicts 2 Rupture on enemies, but the value is small.",
+    "Ⅱ: 「薔薇の冠」が解放される。": "**Ⅱ**: Unlocks Crown of Roses.",
+    "Ⅲ: 回復とバフの対象が増え、共鳴5以上で威力増加が加わる。": "**Ⅲ**: Increases healing and buff targets, and adds Power Up at 5 or more Resonance.",
+    "Ⅳ: 回復量と対象が大きく増え、完全共鳴6でバフを持ち越せる。使うなら強化したい。": "**Ⅳ**: Greatly increases healing amount and targets, and buffs carry over at 6 Absolute Resonance. If you use it, upgrade it.",
+    "ラ・マンチャランド 神父: S3と守備が色欲で、このE.G.Oの色欲共鳴に加わりやすい。自己回復も多い。": "**[The Priest of La Manchaland](persona:1210)**: His S3 and Defense skill are Lust, making it easy to join this E.G.O's Lust Resonance. He also has plenty of self-healing.",
+    "LCE E.G.O::AEDD: S3と守備が嫉妬で、嫉妬共鳴を作りやすい。": "**[LCE E.G.O:: AEDD](persona:1215)**: His S3 and Defense skill are Envy, making Envy Resonance easy to build."
+  }
+}

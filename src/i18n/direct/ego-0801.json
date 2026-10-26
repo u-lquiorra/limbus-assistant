@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0801.md",
+  "code": "0801",
+  "messages": {
+    "勝率が有利なマッチの威力を底上げするパッシブ「強迫」と、束縛でマッチを組みやすくする初期E.G.O。": "A starting E.G.O with the passive Compulsion, which boosts the power of Clashes with favorable odds, and Bind that makes Clashes easier to set up.",
+    "強迫: 勝率が有利なマッチの進行時にマッチ威力+2、不利なら-2。条件が軽く、勝てそうなマッチの安定度が上がる。": "**Compulsion**: +2 Clash Power while a Clash with favorable odds is in progress, and −2 if unfavorable. The condition is light, making Clashes she is likely to win more stable.",
+    "束縛: 的中時に次のターンへ束縛4(解析Ⅲは6)を付与し、敵の速度を落として次のターンのマッチを組みやすくする。": "**Bind**: Inflicts 4 Bind next turn on hit (6 at Threadspin Ⅲ), slowing the enemy so next turn's Clashes are easier to set up.",
+    "最後方狙い: 一般戦闘では最後方の対象を攻撃する。後続のマッチ順が変わるので、使う前に行動先を確認する。": "**Targets the rearmost**: In regular battles, it attacks the rearmost target. This changes the order of subsequent Clashes, so check its target before using it.",
+    "振動: 表面的中時に振動1(解析Ⅲは的中時に振動3)。解析Ⅳで振動爆発も付くが、振動編成以外では価値は小さい。": "**Tremor**: 1 Tremor on Heads Hit (3 Tremor on hit at Threadspin Ⅲ). Threadspin Ⅳ adds Tremor Burst, but its value is small outside Tremor teams.",
+    "軽さ: 精神消耗10、必要資源は憤怒2・憂鬱2。ZAYIN の初期E.G.Oで侵蝕スキルは無い。": "**Lightweight**: Sanity cost 10, requiring 2 Wrath and 2 Gloom. A ZAYIN starting E.G.O with no Corrosion skill.",
+    "勝てそうなマッチが多い編成や長期戦で、早めに「強迫」を発動させる。": "In teams with many winnable Clashes or in long fights, activate Compulsion early.",
+    "ボス戦では束縛が刺さる。次のターンに敵の速度が下がり、マッチを有利に組める。": "In boss fights, Bind is effective. The enemy's Speed drops next turn, letting her set up favorable Clashes.",
+    "格上の相手には「強迫」が不利判定で裏目に出る点に注意する。": "Note that against stronger opponents, Compulsion backfires through unfavorable odds.",
+    "Ⅱ: 「強迫」が解放される。これだけで価値が大きい。": "**Ⅱ**: Unlocks Compulsion. This alone adds a lot of value.",
+    "Ⅲ: 威力が上がり、束縛が4から6に、振動が1から3になる。": "**Ⅲ**: Raises power, Bind from 4 to 6, and Tremor from 1 to 3.",
+    "Ⅳ: 振動爆発が付く。振動編成でなければ優先度は低いと考えられる。": "**Ⅳ**: Adds Tremor Burst. Likely a low priority outside Tremor teams.",
+    "LCB囚人: S1(憤怒)・S3(憂鬱)で必要資源を出せ、各スキルが振動を扱い、S3は振動爆発を起こす。": "**[LCB Sinner](persona:0801)**: S1 (Wrath) and S3 (Gloom) supply the required affinities, each skill handles Tremor, and S3 triggers Tremor Burst.",
+    "R社第4群トナカイチーム: S1(憂鬱)・S3(憤怒)で必要資源を出せ、S1・S3が沈潜を付与し、S2も沈潜回数を増やす。": "**[R Corp. 4th Pack Reindeer](persona:0802)**: S1 (Gloom) and S3 (Wrath) supply the required affinities, S1 and S3 inflict Sinking, and S2 also increases Sinking Count."
+  }
+}

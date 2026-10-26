@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0910.md",
+  "code": "0910",
+  "messages": {
+    "呼吸を積みながら広域で振動を付与・爆発させ、感覚亀裂で敵を崩す、呼吸と振動のE.G.O。": "A Poise and Tremor E.G.O that builds Poise while inflicting and bursting Tremor across multiple targets, breaking enemies down with Fracturing of the Senses.",
+    "呼吸の獲得: 攻撃前に呼吸を(2+最大共鳴数)得て、呼吸回数も2増える(解析Ⅲは3、Ⅳは4)。呼吸威力と対象の振動威力の合計6ごとにマッチ威力+1(最大2、Ⅲは3、Ⅳは4)。": "**Gaining Poise**: Before attacking, gains (2 + highest Resonance) Poise, and Poise Count increases by 2 (3 at Threadspin Ⅲ, 4 at Ⅳ). +1 Clash Power per 6 combined Poise Potency and target's Tremor Potency (up to 2, 3 at Ⅲ, 4 at Ⅳ).",
+    "振動と振動爆発: Ⅰコインが振動2、Ⅱコインが振動回数を増やし、Ⅲコインが攻撃レベル減少2と振動爆発を起こす。3コインの広域で複数の敵に振動を撒ける。": "**Tremor and Tremor Burst**: Coin Ⅰ inflicts 2 Tremor, Coin Ⅱ increases Tremor Count, and Coin Ⅲ inflicts 2 Offense Level Down and triggers Tremor Burst. A 3-Coin multi-target attack that spreads Tremor across several enemies.",
+    "感覚亀裂: 攻撃後、ランダムな敵に合計(1+最大共鳴数)の感覚亀裂を付与する(最大5)。効果文からは、持つ敵は仲間が攻撃されると振動回数が増え、クリティカルで攻撃されると被ダメージが増える(自分の振動威力の%、最大15%)と読める。呼吸のクリティカルと噛み合うと考えられる。": "**Fracturing of the Senses**: After the attack, inflicts a total of (1 + highest Resonance) Fracturing of the Senses on random enemies, up to 5. Per the effect text, enemies with it gain Tremor Count when their allies are attacked, and take more damage when hit by Critical Hits (a % equal to the attacker's own Tremor Potency, up to 15%). It likely meshes with Poise-based Critical Hits.",
+    "パッシブ「分裂した触覚」: 呼吸を得るたびに呼吸回数が1増える(1ターン2回)。呼吸人格か振動人格なら基本攻撃スキルの加重値が+1される(広域乱射の基本スキルは与ダメージ+10%)。": "**Passive — Schismatic Stereognosis**: Each time she gains Poise, Poise Count increases by 1 (twice per turn). If she is a Poise Identity or Tremor Identity, her basic attack skills gain +1 Attack Weight (+10% damage for basic skills that are Unfocused Volleys).",
+    "呼吸か振動を扱う人格で使い、使用後の次のターンからパッシブを活かす。": "Use it with Identities that use Poise or Tremor, making use of the passive from the turn after use.",
+    "共鳴数が呼吸量と感覚亀裂の量を決めるので、怠惰などの同属性スキルを並べてから撃つ。": "Resonance determines the amount of Poise and Fracturing of the Senses, so line up skills of the same Sin, such as Sloth, before firing it.",
+    "必要資源は憤怒2・怠惰2・憂鬱1・傲慢1、精神消耗は20。": "It requires 2 Wrath, 2 Sloth, 1 Gloom, and 1 Pride, with a Sanity cost of 20.",
+    "Ⅱ: 「分裂した触覚」が解放される。": "**Ⅱ**: Unlocks Schismatic Stereognosis.",
+    "Ⅲ: 呼吸の獲得量3、振動3・回数増加2など、覚醒の数値が上がる。": "**Ⅲ**: Awakening's values rise, such as 3 Poise gained, 3 Tremor, and a Count increase of 2.",
+    "Ⅳ: 呼吸の獲得量4、振動4・回数増加3、マッチ威力の上限4になる。優先度の目安はデータからは判断できない。": "**Ⅳ**: 4 Poise gained, 4 Tremor, a Count increase of 3, and a Clash Power cap of 4. Its priority cannot be judged from the data.",
+    "蜘蛛の巣親指の親方: 呼吸と振動の両方を扱い、傲慢・怠惰・憤怒の資源も出せる。": "**[The House of Spiders: The Thumb Nursefather](persona:0916)**: Uses both Poise and Tremor and supplies Pride, Sloth, and Wrath resources.",
+    "バラのスパナ工房代表: S1〜S3が振動を付与し、傲慢・憂鬱の資源も出せる。振動爆発で打撃ダメージ量増加を得るパッシブがあり、打撃のこのE.G.Oと噛み合う。": "**[Rosespanner Workshop Rep](persona:0905)**: S1–S3 inflict Tremor, and she supplies Pride and Gloom resources. Her passive grants Blunt DMG Up on Tremor Burst, meshing with this Blunt E.G.O."
+  }
+}

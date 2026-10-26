@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1207.md",
+  "code": "1207",
+  "messages": {
+    "精神力が高いうちに撃つと最大8コインを撃ち込み、蝶を大量に付与する、沈潜編成向けの多コイン打撃E.G.O。": "A multi-Coin Blunt E.G.O for Sinking teams that, fired while his SP is high, unloads up to 8 Coins and inflicts heavy Butterfly.",
+    "広域乱射: 攻撃加重値は3だが、コインごとに攻撃対象を1体選ぶ。1枚目はメインターゲットに当たる。敵が1体のときは全コインがその敵に当たる。": "**Unfocused Volley**: Attack Weight is 3, but each Coin picks one target. The first Coin hits the main target. Against a single enemy, all Coins hit that enemy.",
+    "コイン再使用: 3枚目のコインは的中時に精神力を2~6減らし、自分の精神力が0以上なら再使用する(最大5回)。精神力が高いほど回数が伸びる。": "**Coin reuse**: The third Coin lowers his SP by 2–6 on hit and is reused while his SP is 0 or higher (up to 5 times). The higher his SP, the more reuses.",
+    "蝶: 的中ごとに蝶を付与する特殊な沈潜で、最大15。蝶1つごとに、表面が出る確率で死んだ蝶、外れれば生きた蝶になる。": "**Butterfly**: A special Sinking inflicted on each hit, up to 15. Each Butterfly becomes a Dead Butterfly with the chance of landing Heads, or a Living Butterfly otherwise.",
+    "パッシブ「哀悼」: ターン終了時にマイナス効果を持っていれば、次のターンに攻撃威力増加1を得る。パニックやE.G.O侵蝕の対象には与ダメージ+15%。": "**Passive — Lament**: If he has a negative effect at Turn End, he gains 1 Attack Power Up next turn. +15% damage against targets in Panic or E.G.O Corrosion.",
+    "重い資源: 色欲1・怠惰2・憂鬱2・嫉妬2の計7個で、精神消耗は25。": "**Heavy requirements**: 7 resources in total: 1 Lust, 2 Sloth, 2 Gloom, and 2 Envy, with a Sanity cost of 25.",
+    "精神力が満タンに近いときに撃つ。精神力が低いと再使用が伸びない。": "Fire it when his SP is close to full. With low SP, the reuse chain does not last.",
+    "事前に沈潜を乗せた単体の敵へ撃つと活きる。": "It pays off when fired at a single enemy already loaded with Sinking.",
+    "Ⅱ: 「哀悼」が解放される。": "**Ⅱ**: Unlocks Lament.",
+    "Ⅲ: 攻撃後に、的中したコイン3の数に応じて精神力を回復する。": "**Ⅲ**: After the attack, restores SP based on the number of third-Coin hits.",
+    "Ⅳ: コイン威力が+2になり、マッチ威力が8~14になる。精神力の回復量も増える。": "**Ⅳ**: Coin Power becomes +2 and Clash Power 8–14. SP recovery also increases.",
+    "エドガー家 継承者: 沈潜を扱い、S1が嫉妬、S2が憂鬱、S3が色欲で必要資源を出せる。": "**[Edgar Family Heir](persona:1209)**: Uses Sinking, and his S1 is Envy, S2 Gloom, and S3 Lust, supplying the required affinities.",
+    "ロボトミーE.G.O::ランプ: S1の使用時に束縛を得るので、マイナス効果を持って「哀悼」を維持しやすい。": "**[Lobotomy E.G.O::Lamp](persona:1214)**: He gains Bind on using S1, making it easy to hold a negative effect and keep Lament going."
+  }
+}

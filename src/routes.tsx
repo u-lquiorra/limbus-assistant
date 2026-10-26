@@ -37,7 +37,7 @@ function lazyRoute(path: string, page: LazyPage, module: string): AppRoute {
   return { path, element: <Page />, page, module: `src/pages/${module}.tsx` };
 }
 
-export const APP_ROUTES: AppRoute[] = [
+const JAPANESE_ROUTES: AppRoute[] = [
   { path: "/", element: <Home /> },
   lazyRoute("/character/:name", CharacterDetail, "CharacterDetail"),
   lazyRoute("/persona/:code", PersonaPage, "PersonaPage"),
@@ -57,6 +57,11 @@ export const APP_ROUTES: AppRoute[] = [
   lazyRoute("/search", SearchPage, "SearchPage"),
   lazyRoute("/bosses/:id", BossPage, "BossPage"),
   lazyRoute("/about", AboutPage, "AboutPage"),
+];
+
+export const APP_ROUTES: AppRoute[] = [
+  ...JAPANESE_ROUTES,
+  ...JAPANESE_ROUTES.map((r) => ({ ...r, path: `/en${r.path === "/" ? "" : r.path}` })),
 ];
 
 function routeFor(pathname: string): AppRoute | undefined {

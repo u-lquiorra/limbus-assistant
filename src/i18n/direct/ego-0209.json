@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0209.md",
+  "code": "0209",
+  "messages": {
+    "硬化バリアを維持して毎ターン味方を自動回復させる、暴食偏重の回復E.G.O(コラボ限定)。": "A Gluttony-heavy healing E.G.O that keeps up Hardened Shell-Barrier to heal allies automatically every turn (collaboration-limited).",
+    "体力回復: 攻撃後に、自分と体力の割合が最も低い味方1名を自分の最大体力の割合で回復する(解析Ⅳで30%)。自分の体力が最大なら、味方2名を回復する。": "**HP recovery**: After the attack, heals herself and the 1 ally with the lowest HP ratio by a percentage of her own max HP, 30% at Threadspin Ⅳ. If her own HP is full, it heals 2 allies.",
+    "硬化バリア: 攻撃後に硬化バリアを得る(解析Ⅳで10、最大10)。被ダメージ直前に半分を消耗して保護に変わるが、消耗した分は回復量も下がる。": "**Hardened Shell-Barrier**: Gains Hardened Shell-Barrier after the attack, 10 at Threadspin Ⅳ, up to 10. Right before taking damage, half of it is spent and turned into Protection, but the spent amount also lowers the healing.",
+    "パッシブ「医師」: ターン開始時に、自分の最大体力の(バリア数値)%ぶん味方の体力を回復する。対象が体力25%以下か混乱中なら1.5倍。最後に使ったE.G.Oがこれなら、バリアのターン終了時の減少が3から1になる。": "**Passive — Doctor**: At Turn Start, heals allies by (Shield value)% of her max HP. ×1.5 if the target is at 25% HP or less or staggered. If this was the last E.G.O she used, the Shield's Turn End decrease drops from 3 to 1.",
+    "精神力の回復: 精神力が最も低い味方2名(自分を含む)を回復する(解析Ⅳで15)。": "**SP recovery**: Restores SP to the 2 allies with the lowest SP, including herself, 15 at Threadspin Ⅳ.",
+    "攻撃面: 破裂か火傷のある対象への最終威力増加と、破裂量に応じたダメージ増加がある。後者は硬化バリアがあると1.5倍(解析Ⅳは2倍)になる。": "**Offense**: Gains Final Power against targets with Rupture or Burn, and more damage based on Rupture. The latter is ×1.5 with Hardened Shell-Barrier, or ×2 at Threadspin Ⅳ.",
+    "戦闘の早い段階で撃ち、バリアを維持して自動回復を回す。": "Use it early in the fight, keep the Shield up, and keep the automatic healing running.",
+    "他のE.G.Oを使うとバリアが毎ターン3ずつ減るので、使う順番に注意する。": "Using another E.G.O makes the Shield drop by 3 every turn, so pay attention to the order of use.",
+    "侵蝕スキルは敵味方識別不可で回復が無く、敵を混乱・死亡させられないと自分の体力を消耗して大きなバリアを得る防御寄りの性能。": "The Corrosion skill cannot distinguish friend from foe and does not heal; if it fails to stagger or kill an enemy, she spends her own HP to gain a large Shield, making it defensive in nature.",
+    "Ⅱ: パッシブ「医師」が解放される。": "**Ⅱ**: Unlocks the passive Doctor.",
+    "Ⅲ: 威力・回復量・バリア量が増え、バリア所持時の破裂ダメージ増加が1.5倍になる。": "**Ⅲ**: Increases power, healing, and Shield, and the Rupture damage bonus with Shield becomes ×1.5.",
+    "Ⅳ: 回復量・バリア量が最大になり、破裂ダメージ増加の上限が上がってバリア所持時は2倍になる。": "**Ⅳ**: Healing and Shield reach their maximum, the cap on the Rupture damage bonus rises, and it becomes ×2 with Shield.",
+    "黒獣-卯 筆頭: S1が怠惰、S3が暴食、S2が傲慢で必要資源の3属性を出せ、破裂も付与する。": "**[Heishou Pack - Mao Branch Adept](persona:0212)**: Sloth S1, Gluttony S3, and Pride S2 supply all three required affinities, and she also inflicts Rupture.",
+    "南部セブン協会4課: S3が暴食、S1〜S3が破裂を付与し、破裂量で伸びる攻撃と噛み合う。": "**[Seven Assoc. South Section 4](persona:0206)**: Has a Gluttony S3, and S1–S3 inflict Rupture, which fits its Rupture-scaling attack."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0403.md",
+  "code": "0403",
+  "messages": {
+    "当てた敵に束縛と加算コイン弱化を残して次のターンのマッチを有利にする、軽い資源の色欲斬撃E.G.O。": "A low-cost Lust Slash E.G.O that leaves Bind and Plus Coin Drop on the target, tilting the next turn's Clashes in your favor.",
+    "束縛の付与: 的中時に次のターンに束縛3を付与する。敵の速度が下がり、マッチを取りやすくなる。": "**Inflicting Bind**: Inflicts 3 Bind next turn on hit. The enemy's Speed drops, making Clashes easier to win.",
+    "加算コイン弱化: 対象にすでに束縛3以上があれば、次のターンに加算コイン弱化1も付く。2回続けて使うか、束縛を付ける別の手段が前提になる。": "**Plus Coin Drop**: If the target already has 3 or more Bind, also inflicts 1 Plus Coin Drop next turn. It assumes using it twice in a row or another source of Bind.",
+    "斬撃脆弱: 解析Ⅲから、対象の速度が自分より遅いと次のターンに斬撃脆弱2を付与する。": "**Slash Fragility**: From Threadspin Ⅲ, inflicts 2 Slash Fragility next turn if the target is slower than her.",
+    "パッシブ「蜘蛛の糸」: マッチに勝つたび、次のターンに束縛1を付与する(1ターンに最大3回)。使用後の次ターンから戦闘終了まで有効。": "**Passive — Spider's Webs**: Each Clash Win inflicts 1 Bind next turn, up to 3 times per turn. Active from the turn after use until the end of the battle.",
+    "広域化: 解析Ⅳで攻撃加重値が3になり、複数の敵や部位にまとめてデバフを撒ける。": "**Multi-target**: Attack Weight becomes 3 at Threadspin Ⅳ, letting it spread debuffs across several enemies or parts.",
+    "自分のダメージより、次のターンのマッチを楽にするために撃つ。": "Use it to make the next turn's Clashes easier rather than for her own damage.",
+    "強い敵のスキルが来る前のターンに撃っておき、束縛と加算コイン弱化で威力を下げさせる。": "Fire it on the turn before a strong enemy skill arrives so Bind and Plus Coin Drop lower its power.",
+    "必要資源は色欲2・暴食2・嫉妬1。侵蝕スキルは敵味方を問わずランダムに攻撃するので、味方にも束縛が付く点だけ押さえればよい。": "It requires 2 Lust, 2 Gluttony, and 1 Envy. The Corrosion skill attacks friend and foe at random, so just keep in mind that allies can also receive Bind.",
+    "Ⅱ: 「蜘蛛の糸」が解放される。": "**Ⅱ**: Unlocks Spider's Webs.",
+    "Ⅲ: 基本威力が上がり、速度の遅い敵への斬撃脆弱が加わる。": "**Ⅲ**: Raises Base Power and adds Slash Fragility against slower enemies.",
+    "Ⅳ: 攻撃加重値が3になり、広域化する。": "**Ⅳ**: Attack Weight becomes 3, making it multi-target.",
+    "ロボトミーE.G.O::赤眼･懺悔: 赤眼・懺悔が15以上でS3が「ガチでドタマを割る」に変化したとき、次のターンに束縛3を付与するので、加算コイン弱化の条件を満たせる。色欲・嫉妬の資源も出せる。": "**[Lobotomy E.G.O:: Red Eyes & Penitence](persona:0410)**: When Red Eyes and Penitence reach 15 or more and S3 becomes Serious Skullbuster, it inflicts 3 Bind next turn, meeting the Plus Coin Drop condition. She also supplies Lust and Envy resources.",
+    "りょ・ミ・パ厨房長: S2が的中時に次のターンへ束縛を付与し、S3(色欲)で必要資源も出せる。束縛3に届かせるには他の手段との併用が必要と考えられる。": "**[R.B. Chef de Cuisine](persona:0404)**: S2 inflicts Bind next turn on hit, and S3 (Lust) supplies the required affinity. Reaching 3 Bind likely requires combining it with other sources."
+  }
+}

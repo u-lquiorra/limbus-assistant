@@ -1,0 +1,972 @@
+{
+  "kind": "boss-copy",
+  "id": "alriune",
+  "source": "src/data/bosses/alriune.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "花びら",
+          "en": "Petals",
+          "file": "Bufs-a1c10p2.json",
+          "id": "AlriunePetal"
+        },
+        {
+          "ja": "残香",
+          "en": "Faint Aroma",
+          "file": "Bufs-a1c10p2.json",
+          "id": "AlriuneSillage"
+        },
+        {
+          "ja": "贖罪の月桂冠",
+          "en": "Laurel Wreath of Atonement",
+          "file": "Bufs-a1c10p2.json",
+          "id": "FlowerLaurelWreath"
+        },
+        {
+          "ja": "土から生まれた者",
+          "en": "One Who Emerged from the Earth",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1502"
+        },
+        {
+          "ja": "土で作られた人形",
+          "en": "A Doll Molded from Clay",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150101"
+        },
+        {
+          "ja": "枯れない花",
+          "en": "Unwithering Flower",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150102"
+        },
+        {
+          "ja": "立春",
+          "en": "Spring's Advent",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150103"
+        },
+        {
+          "ja": "土より",
+          "en": "From the Earth",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150201"
+        },
+        {
+          "ja": "春の誕生",
+          "en": "Spring's Genesis",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150101"
+        },
+        {
+          "ja": "秋の暮れ",
+          "en": "Autumn's Passing",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150102"
+        },
+        {
+          "ja": "人になりたかった人形",
+          "en": "A Doll Who Yearned to be Human",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150103"
+        },
+        {
+          "ja": "人形になりたかった人",
+          "en": "A Human Who Yearned to be a Doll",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150104"
+        },
+        {
+          "ja": "良い香りのする月桂冠",
+          "en": "Fragrant Laurel Wreath",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150105"
+        },
+        {
+          "ja": "土へ還ろうとする願いを抱いて",
+          "en": "Bearing the hope to return to dust...",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150106"
+        },
+        {
+          "ja": "生きようとするすべてのものと共に墓へと帰らん",
+          "en": "... It shall go back to the grave with all that desires to live",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150107"
+        },
+        {
+          "ja": "皆の心の中の欲望が花に置き換わるときが来るのなら…",
+          "en": "When flowers substitute all the desire in everyone's hearts...",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150108"
+        },
+        {
+          "ja": "花の山",
+          "en": "Flower Mound",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150201"
+        },
+        {
+          "ja": "心の亀裂",
+          "en": "A Crack in the Heart",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150202"
+        },
+        {
+          "ja": "巻き付く絶望",
+          "en": "Entangling Despair",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150203"
+        }
+      ],
+      "note": "Names follow paired Canto X part 2 records. The guide alias for Entangling Despair uses skill 150203. Alriune is retained from the source name and paired status identifiers; the enemy display record itself is ???. Wreath-dependent damage and SP effects, third-Coin targeting, Panic/Corrosion cancellation, Assist Unit survival, and Burn/Bleed immunity are retained. The two encounter realms are described by their order rather than inventing official English names."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "2cc72645307707f9d2a8cfccbc61a206999b3188c0e62c158f7dbe79c0a046c6",
+      "text": "Alriune (Canto X, Route B)"
+    },
+    "shortName": {
+      "sourceHash": "cad8c562c6cfd60ef627d8f07e78a7367af682a9de19f0865ced4832388d3a22",
+      "text": "Alriune"
+    },
+    "stageName": {
+      "sourceHash": "b9d6863473aa39ed64e15b23d0350cdb7ae1d3c3511da8bc0ab39d06482ebbbf",
+      "text": "Sisyphus Department Store B, 4F: Lost Children Center"
+    },
+    "lead": {
+      "sourceHash": "eba09048b3894a78906cdae6d75c9d89b66cfae24d18d79c0805517254be0fcc",
+      "text": "Give the first Laurel Wreath of Atonement to a strong Sinner and let them clash with major skills and attack the body. The others handle adds and normal skills while restoring SP. Prevent lethal attacks triggered by Panic or Corrosion, protect the Assist Unit Pwie, and aim for a quick finish."
+    },
+    "listLead": {
+      "sourceHash": "4917e1f2827702d0e87d89ef1afb29f57d1fc52d8b6fa1919ecd6e2748ba124c",
+      "text": "Give the first Laurel Wreath of Atonement to a strong Sinner for major clashes and attacks on the body. The others handle adds, normal skills, and SP recovery. Prevent lethal attacks triggered by Panic or Corrosion, protect the Assist Unit, and aim for a quick finish."
+    },
+    "statNote": {
+      "sourceHash": "df506547e856a5fe841095e9bb3737332a0ce304c5e685e1e00697cffd576b2e",
+      "text": "Covers the Route B, 4F dungeon battle in Canto X. The body is Lv. 55 with 2,183 HP and base Defense Level 57; One Who Emerged from the Earth is Lv. 50 with 254 HP and base Defense Level 52. HP lost in the preceding encounter does not carry over: the body fully heals when this dungeon battle begins. Identity levels follow Customer Level; aim for Customer Lv. 55 or higher and Onyx rank. Identities below Uptie III are raised to III, but E.G.O Threadspin is unchanged. Up to 12 Sinners can deploy. The death of Assist Unit Pwie causes defeat."
+    },
+    "skillNote": {
+      "sourceHash": "58c1dadb71c5058f77b4ed4250fc0fcc97abd201ce8b9af2c6552bf8f6bb0ad9",
+      "text": "A skill dealing 0 direct damage can still deal SP damage or apply statuses. Distinguish After Attack SP loss from On Hit and On Hit Without Breaking effects. Only the third Coin of the area-random attack A Human Who Yearned to be a Doll hits every attack target. A fixed turn sequence is unconfirmed; check Petals and skill names."
+    },
+    "priorities.0": {
+      "sourceHash": "97f7c6b70826b4d37e66676b16897412201404ffd8837663271a4b941e35eab8",
+      "text": "Redirect Fragrant Laurel Wreath to a strong Sinner to establish a major-clash specialist."
+    },
+    "priorities.1": {
+      "sourceHash": "93435e0ba7d5de1adafb5df14b87cf54b0b079d1f55b4c53784945978c697aaa",
+      "text": "Restore SP to prevent Panic and Corrosion. Intercept attacks to keep Assist Unit Pwie alive."
+    },
+    "priorities.2": {
+      "sourceHash": "179e3dff0fbce12e951b0a2ca49d3c495282fef65a3d9eb34f7c44bea3cfcdc6",
+      "text": "At 3 Petals, win the major clash with the Wreath holder for 80% reduction."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "25813f006304fb2f49e73094fc18526bc47992bcac732e48e73174431de602ab",
+      "text": "Normal attacks barely deal damage"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "8c3570e0a56dda6588e02c33c6e41175b70b2f2e3f7a1d4deb0ea72acaa7cea5",
+      "text": "The body takes 50% less skill damage from Sinners without the Wreath, but 150% more from its holder. Give it to a strong Sinner and have them attack the body. Burn and Bleed damage are also nullified; do not rely solely on their ongoing damage."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "bbcfe5de19ede782b94c3cb6f6d55cacc2228c0ecd6e75bfd6b37c98bd31d3a6",
+      "text": "SP dropped and a Sinner suddenly died"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "934b550c6b4923a3fcccbf8d82b8aab3b96253c1a9c1ab2263a32734c6f4ced0",
+      "text": "Panicked or Corroded Sinners face an Unclashable attack dealing fixed damage equal to 120% max HP; it does not activate defense. The attack is canceled if the target is no longer Panicked or Corroded, so restore SP first. Also watch for the additional 20 SP lost on Stagger."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "07354aa9a0b795563ef644d031a8c0784da081c8ad4f481c31b4ff48950eaf3a",
+      "text": "Ⅰcannot win the area clash and everyone gets Staggered"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "98bb74832d92ccd21cb106ad79c1d52d8b5790ef8f4efb3c9cfb751a982fdd6f",
+      "text": "Bearing the hope to return to dust... gains +5 Final Power against a target without the Wreath. Tremor and Sinking further increase its Power. Use the Wreath holder's strongest skill for 80% reduction and immunity to Stagger from that skill's damage."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "3c077a68a5d79cea5fd25153c3df701d0ddd8902b9037302340d81517132c27c",
+      "text": "Ⅰignored a 0-damage skill and lost too much SP"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "f24b98b44d47aaa3afbdbc88254fd41b302aa42cc9a2cb604c0ab7188d77bdba",
+      "text": "Adds apply Faint Aroma, Sinking, and Tremor even with 0 direct damage. The body's When flowers substitute... also removes 25 SP After Attack from targets without the Wreath. Check statuses and SP effects rather than prioritizing by displayed damage alone."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "0906fd39c0c5593f1a05aabfd6d3d04b631d41bd49f2acc45207a569cf7ceb7d",
+      "text": "Ⅰlost despite having Sinners alive"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "aa5093e0977d521e8328d8f25f00e63a70d660f74c1e29dfbd8fc57eb13dfedf",
+      "text": "Assist Unit Pwie's death causes defeat. Intercept attacks aimed at Pwie and use the Wreath holder's clash wins to restore SP to all allies."
+    },
+    "phases.0.timing": {
+      "sourceHash": "7d83792ef39eb1e70ec2d4ca36a00cde2f06ca7d20852b67d4b52d86ce1d0279",
+      "text": "Before the 4F dungeon battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "c88caec7dad2e7968f2ea06ec62a9e311016c719d1412a778164444b63eec587",
+      "text": "Prepare SP recovery and choose the Wreath recipient"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "db8172e1e4d978c3c5ca98aa5b9b3ab5da4920188cbc4ad56e67bee1358c53d1",
+      "text": "Shop toward Customer Lv. 55 or higher and Onyx rank. Check current Customer Level separately from Identity levels outside the dungeon. Even after reducing the body to half HP in the preceding encounter, it fully heals in the dungeon battle."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "d23b4a985f271c559d54488da0c3bc9b901b3ea5201fc1a4c17d29e8211ed1fe",
+      "text": "Choose the Sinner with the strongest clashes and direct damage to receive the Wreath. Both the body and adds nullify ongoing Burn and Bleed damage; prioritize skill damage and SP recovery."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "34687971f32d328f53f9b916de2ff80a84c76ae1a3f0c1dd70d3f5fe8cc5738d",
+      "text": "Assign the others to normal skills, adds, and SP recovery. Check Speed to protect Pwie, and avoid repeatedly using E.G.O at SP levels that risk Corrosion."
+    },
+    "phases.1.timing": {
+      "sourceHash": "8602b2921c9656a3d692d0841fcdcf51d0665f95f01bfb05a6c8651871cbc932",
+      "text": "First Wreath and subsequent reapplications"
+    },
+    "phases.1.title": {
+      "sourceHash": "7928d516dabf8ff190fdfd548418775f97a457b32e883d5b7938fd69adb8a23b",
+      "text": "Let a strong Sinner receive the Wreath"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "03b4eb26fa277ad83ff9f05c835bf5f114e855251597860c307f78658843a32f",
+      "text": "If nobody has Laurel Wreath of Atonement, the body equips Fragrant Laurel Wreath. On a major-attack turn, it is deferred to next turn. Check the equipped skills and assign your planned strong Sinner as recipient."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "f9d4ad5ff4826b3fdca20dfbe4400df86cdff6fc21cbe8bc6f63c048857d3452",
+      "text": "This skill is clashable regardless of Speed, deals 0 direct damage, and does not trigger Sinking. It applies the Wreath After Attack and heals 20 SP On Hit. You do not have to use only a fast Sinner."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "7a14525589f0681ce05438175b4ff17355beaceb649d3979a04f5ac542402160",
+      "text": "The Wreath removes all Stagger Thresholds, gives +2 Clash Power, and halves Sinking SP damage. It also heals 10 SP at Turn End, grants 5 Haste next turn, and restores 5 SP to all allies including Pwie on a clash win."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "bc68ba13749ab3e75aacf29a36db73fa3f149a02c995ddae9b7d2cefc8a055f8",
+      "text": "The body takes 150% more skill damage from the Wreath holder. After covering the major clash, direct their spare strong attacks at the body. Deploying fewer Sinners can give the holder more actions, but first secure recovery and Pwie's survival."
+    },
+    "phases.2.timing": {
+      "sourceHash": "397667a33099dcf8a3963df320ecd6ed1d4a425ffbbfeda4f178dcacab911a83",
+      "text": "Regular turns"
+    },
+    "phases.2.title": {
+      "sourceHash": "e6329603993a864e8acf42f40856c43a081e1bbff3dab3bb3592d24484d155c6",
+      "text": "Wreath holder takes dangerous skills; others handle normal skills and adds"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "c60c28f2af43c878e2afcc38ee696f74f239e98a14cb195b09ffe623405a159e",
+      "text": "Assign A Doll Who Yearned to be Human and When flowers substitute... to the Wreath holder. The Wreath prevents their After Attack SP loss, and clash wins restore SP to all allies."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "ae1fdcb7ba13599002eb639a0b2dd7fe9989a6cdac59a04fce3a02419adc70d2",
+      "text": "Sinners without the Wreath clash with weaker normal skills or One Who Emerged from the Earth. After Attack SP loss is separate from On Hit effects; check SP even on Sinners who won their clashes."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "f00ee15a9a90ab97db7e32a9f6ce2492688b7a70617e6860e6705f822a7abd4e",
+      "text": "A Human Who Yearned to be a Doll has 3 Atk Weight and randomly distributed attacks, but only the last Coin hits all attack targets. Others besides the clash recipient may suffer Faint Aroma and Tremor Burst; check everyone."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "0eba24d390fee7f0ac8af4a561159f6ecf837ebb555aebb16289d4f66510a0b4",
+      "text": "Adds build statuses even with 0 direct damage. Clash and eliminate them before Faint Aroma, Sinking, and Tremor accumulate. With Tremor, you can raise their Stagger Thresholds and exploit their death on Stagger."
+    },
+    "phases.3.timing": {
+      "sourceHash": "95705bd703294ff44e54954f54a7bf2e098d8615c359e024ca262e0f65671d37",
+      "text": "At 3 Petals: major-attack turn"
+    },
+    "phases.3.title": {
+      "sourceHash": "0ef99626f20ab4bde328a6caed4c04a8aea34290cf28f9c3716f5bc505b22741",
+      "text": "Win the area clash with the Wreath holder"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "41bbcbb7a4c3a32a950d19040446f6facefc5ea7b7de92d5ab15ce6a4dbe5c0b",
+      "text": "Petals starts at 1 at Combat Start and increases by 1 at Turn End. At 3, the body uses Bearing the hope to return to dust... This usually gives a three-turn cycle, but the body's Stagger resets it; check the Stack too."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "2859b42b3a7298ae724d0c5a80e71a08a1b83be4959fb27ab308f8e27c42ab13",
+      "text": "The major skill has 7 Atk Weight, one Unbreakable Coin, and a base maximum of 21. It gains +1 Final Power per combined 3 Tremor and Sinking Potency on the main target, up to +8, plus another +5 without the Wreath. Use the Wreath holder's strong skill or E.G.O."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "0b2f4cfa3f8f9d2fd8c952fafc87faef482874b063c7126fc294e4e26a53abe2",
+      "text": "Winning grants 80% damage reduction, prevents Stagger from this skill's damage, and stops it triggering the target's Sinking. It also prevents the Faint Aroma-based extra inflictions and Tremor Burst from On Hit Without Breaking."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "2f80277609f152fb2cc2a3b43a64f4036bd2af40f5ec84ba90ea259c39ce4446",
+      "text": "Petals resets to 0 after the skill. Heal the remaining Unbreakable damage, then Stagger and damage the body before the next major attack."
+    },
+    "phases.4.timing": {
+      "sourceHash": "46799c746c2e3242dd9443cf3be35a805278be648f051295f1ff00da24668a1f",
+      "text": "Each Turn Start and whenever SP is low"
+    },
+    "phases.4.title": {
+      "sourceHash": "6cac2cc5bd63966e24cf836a9d20029bb104fbf7f13d86350457681d3cf887fc",
+      "text": "Check Panic, Corrosion, and attacks on Pwie first"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "03f22f14d9dd4086c66b40233c3186eb4fa25e2b6b6e6d9c2d4ca55628f555d0",
+      "text": "If a Sinner is Panicked or Corroded, the body uses ... It shall go back to the grave with all that desires to live at Turn Start. It targets the slowest first, up to twice per turn; Assist Units are excluded."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "467f339d8e9ad9572f0f51368aa4f0c963b02109974d4205bbace6558db6bf58",
+      "text": "This skill is Unclashable, cannot be redirected, and does not activate Defense Skills. It is canceled if the target is no longer Panicked or Corroded; restore SP before it acts. Do not plan to survive by simply taking it."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "a8b07d443e32593b70faebda931054b100d1d21f2e9e51824ead642c8e3dde93",
+      "text": "On Hit, it deals fixed damage equal to 120% max HP. A kill creates an add next turn unless four already exist. Heal early to account for Faint Aroma's Turn End SP damage and the 20 SP lost on Stagger."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "89104072f070b193dca4fdf332c4fb6d3e971d1d0b9662cfafd830c266b574be",
+      "text": "Pwie is excluded from the lethal attack, but still causes defeat if killed by another attack. Check and intercept attacks aimed at Pwie as well as managing Sinners' SP."
+    },
+    "phases.5.timing": {
+      "sourceHash": "61d73309da4117f5cacb5cd4034512854bb68d5ced71d0b339a07b1f18d090e3",
+      "text": "Body at 40% HP and after Stagger"
+    },
+    "phases.5.title": {
+      "sourceHash": "e841fc1a98b737180f9a4d59d06ca7bbaedb22504c4f6b9d07a10d7f44a44350",
+      "text": "Finish with party SP recovery and Fragile"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "95c3b9ec391467c18e45907da5cfe39242e3fccc5351574e50553cc7f9c5704b",
+      "text": "The body's Stagger Threshold is at 40% HP (873). Stagger restores 20 SP to Sinners and Assist Units and gives the body 2 Fragile next turn. Concentrate the Wreath holder's damage to finish during this opening."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "7d6497f90a3d6b59e8a22de8c6214aa18af9f684c73bb91e9dbe5b039c081015",
+      "text": "At Turn Start after recovering from Stagger, Petals resets to 1. Recheck Petals and skills instead of predicting major attacks strictly on turns 3, 6, and 9."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "98c8a5c42653bdd84b8a799ba539dcea8ffedc7bf818b2d394b5af0fe46883cb",
+      "text": "A long battle with unchecked add attacks and Faint Aroma strains SP. Send the Wreath holder's strong attacks at the body while the others cover necessary clashes and healing; protect Pwie and finish."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "768683d98043dcafda7d0e9e569dfdfcecd7af284d34553f94f64a48f62b3e2c",
+      "text": "Laurel Wreath of Atonement"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "9cea6803b7a7c54f43a21fcb1af6f1115c65cf1412a2a058ee29c5c287e6bf29",
+      "text": "Removes all Stagger Thresholds, gives +2 Clash Power, and reduces Sinking SP damage by 50% (rounded down). At Turn End, heal 10 SP and gain 5 Haste next turn. Clash wins heal 5 SP to all allies, including Assist Units. Also excludes the holder from several of the body's After Attack SP losses."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "ac92e66204577fc992c85c83175daa8bc3055f7e8e2256edb2c4f57e323bcf5b",
+      "text": "Give the first Wreath to a strong Sinner and assign them major clashes and attacks on the body."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "0cd58fa739ce0881f59845454ac47a9c3f7891dc144380e3ba3b3913acbfc407",
+      "text": "Faint Aroma"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "84423081caaba42cdc91a0d5fb2d0224a34036be3524ad9b488bb6dde749ce27",
+      "text": "Maximum 30. At Turn End, take SP damage equal to Stack. Gain 1 after taking Sinking damage. On Tremor Burst, apply 1–2 to 3 other random allies. At 30, gain 2 Tremor, trigger Tremor Burst, take Gloom damage equal to Sinking on self, then remove this effect and cannot regain it that turn. On death, randomly distribute half the Stack, rounded down, among allies."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "687c953571ef9cec5a36be7c7ae17ff59ba0c2ab4151a7bd16b319c3b318f443",
+      "text": "Heal for the expected Turn End SP loss and clash with adds that increase Faint Aroma."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "706ebb35dc6fe504825412c85fd4400cf0c32568e3465ab5407e639c0e7957b8",
+      "text": "Petals"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "cd17e7d39eac962cd9a879856a63bf3f54a2cd38089650c07f1927200f01c6d3",
+      "text": "Maximum 3. Uses a powerful skill on a turn at 3; deals +(Stack ×10)% damage to Staggered targets. Gains 1 at Turn End and resets to 0 at the end of the major skill. At Turn Start after the body recovers from Stagger, resets to 1."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "50be697431529142052a9120bfe944c8c3804a9b5d9dd1f4fbd652baded847cc",
+      "text": "Save a strong clash from the Wreath holder for the major attack at 3. Protect Staggered Sinners from further attacks."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "81dbcdf22ee641a64879a0bf289ab09e11fa3ce2218c2ac88a90a159715ec6bf",
+      "text": "Burn and Bleed damage immunity"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "711fe9316c7652c411381fd8640360557a17974113e0c5e29549b01b1cecdc6f",
+      "text": "The body, its parts, and One Who Emerged from the Earth take no Burn or Bleed damage."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "09e7ba2cf2c901c27d613f2f9b7af71278456f8c162f3edce7fe781ccf3f4920",
+      "text": "Use the Wreath holder's skill damage rather than centering the strategy on ongoing Burn or Bleed damage."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "3fcb70b3e2d65ee7b534ae7e558a25f9daf6b6db593b5af58eb088b024e04609",
+      "text": "Pwie's survival"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "15c4f52c53dbd215f4af8c0ec3ceb1d16f2bf7529f9bc32b36bfcaa8e6323ffd",
+      "text": "Assist Unit Pwie also fights, and their death causes defeat. Excluded from Spring's Advent's skill targeting Panic or Corrosion, but can still die to normal damage."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "f30266a6ac786aa208351a706be837d1cac449618f7d5134a469efa1fb142f2b",
+      "text": "Intercept incoming attacks and restore SP through the Wreath holder's clash wins."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "6ccbbec6326a5fabb8ed1977eca16014b15efc45789be74e8b038fefe63136e3",
+      "text": "Raised through department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "bfad0cc0bc228f8fa872d457b58c79503e5dfb2d67f578a74ac805474e37ded6",
+      "text": "Prepare for Customer Lv. 55 or higher and Onyx rank. Check separately from Identity levels outside the dungeon."
+    },
+    "warnings.0": {
+      "sourceHash": "ee818ad9406cd7691c909408e5352faf8c646b2e1cd17a4e5a1753d74ce96d4f",
+      "text": "The body takes 50% less skill damage from Sinners without the Wreath and 150% more from its holder. Choosing the recipient is central to the fight."
+    },
+    "warnings.1": {
+      "sourceHash": "fb1c404782143c921f68bd9fea8fccf4fe7aadfb2a2f4ff665a9017763bf6026",
+      "text": "The lethal attack on Panic or Corrosion is Unclashable, cannot be redirected, and does not activate defense. Remove its condition by restoring SP."
+    },
+    "warnings.2": {
+      "sourceHash": "dafdbb2501665bf39057c6cdd629275f10df388a3eb880b5af22886c435a91d6",
+      "text": "Assist Unit Pwie's death causes defeat. Protect them from normal attacks even though the lethal skill excludes them."
+    },
+    "warnings.3": {
+      "sourceHash": "9ce0be6c6201bd66ad14bc148a6a014b1600cb9777c5547ba7cd13ce2e7fdc52",
+      "text": "The body and adds nullify Burn and Bleed damage. Adds die when Staggered."
+    },
+    "warnings.4": {
+      "sourceHash": "b19927abfbd32c345b1add50e48bc672a0d1a053a064aaf3e53654bf29625d94",
+      "text": "Even at 0 direct damage, statuses and SP loss remain. Check SP after winning too."
+    },
+    "warnings.5": {
+      "sourceHash": "52109292edff0ba103bf1511fed31f308c67e642725d02c945320bc7ecd06645",
+      "text": "3 Petals signals the major attack. The body's Stagger and the skill's end change its Stack; do not rely only on fixed turn numbers."
+    },
+    "preparation.0": {
+      "sourceHash": "b05090f6d6bb97604d5cf1e183fdd81fd7a63fc8fa809edc6284d1d0ed4e5162",
+      "text": "Aim for Customer Lv. 55 or higher and Onyx rank. Give the Wreath to one strong Sinner and save their skills and resources to win major clashes."
+    },
+    "preparation.1": {
+      "sourceHash": "e6bb93ca5f122fc4528845d72417a7cec963f0a0cb59b4eb924f215f07fa7bf6",
+      "text": "Prioritize SP recovery, with HP healing and enough Speed to protect Pwie. When using E.G.O at low SP, check SP after its cost and the risk of Corrosion."
+    },
+    "preparation.2": {
+      "sourceHash": "da5788ba55af17e920333157a3fb0ba97f40becdadc519d917d7bf5bc1264331",
+      "text": "The enemy has Blunt 1.2 and Wrath and Lust 1.2. Gloom and Envy are 0.5, Gluttony 0.75; choose sin affinities too. Ongoing Burn and Bleed damage do not work, but the skills' own damage is not nullified."
+    },
+    "roles.0.name": {
+      "sourceHash": "4a987ec3efcecb6967b344f9e62cb6a90629305c671b7d8223f546a3bd51da6f",
+      "text": "High-Power, high-damage Wreath recipient"
+    },
+    "roles.0.reason": {
+      "sourceHash": "d5f8f9f1ab897bb18d4e5a7105c184521e709d96c0fd946c453e35967e0803a9",
+      "text": "Handles major clashes, restores SP to all allies, and deals heavy damage to the body."
+    },
+    "roles.1.name": {
+      "sourceHash": "59df488d77937f0bcb16850f597ac100b70436584aa7e7124c5e321250e6bc91",
+      "text": "SP recovery"
+    },
+    "roles.1.reason": {
+      "sourceHash": "3a7e7a398c113132a404ecf1eab7a71a9ca3837bcab877bb148c3591d6d2786b",
+      "text": "Restores SP lost to Faint Aroma, After Attack effects, and additional loss on Stagger, preventing lethal attacks triggered by Panic or Corrosion."
+    },
+    "roles.2.name": {
+      "sourceHash": "a85c0c3ecf7b5c459abe2a459c06b7902573a82f30878478cd324bfe080b6611",
+      "text": "Add control and Pwie's protection"
+    },
+    "roles.2.reason": {
+      "sourceHash": "7a5664d14b3a3cba42c2846018f978d5aec423a065fb94d999cb178af0df85e8",
+      "text": "Prevents status application and intercepts attacks aimed at Pwie. Staggering adds with Tremor is another way to eliminate them."
+    },
+    "units.0.name": {
+      "sourceHash": "cad8c562c6cfd60ef627d8f07e78a7367af682a9de19f0865ced4832388d3a22",
+      "text": "Alriune"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "416400b7ea83c8148b5236cf8841bc52c2659cd07a4609b016ff726a07a374e1",
+      "text": "Fully heals at the start of this dungeon battle. Immune to Burn and Bleed damage."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "aef534f4aefa9b59675821d405ae1a789815dfd06f694eff3051d77f1090985e",
+      "text": "On Stagger, heals Sinners and Assist Units for 20 SP and gains 2 Fragile next turn."
+    },
+    "units.1.name": {
+      "sourceHash": "fef7593dc70c8f08ce3631a145788fe99460f312b4e0b1e0b51dc4084c558573",
+      "text": "One Who Emerged from the Earth"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "89817878c9d49c842573f9337a1a4167683e1a36145804fb64093516741cbb00",
+      "text": "Immune to Burn and Bleed damage. Dies when Staggered."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "a37ac44b0d6713f036419eb18be63d7510fe4f1de3e4021e0a8fc5db11d521dc",
+      "text": "Stagger Threshold rise from Tremor +100%. Applies statuses even with 0 direct damage."
+    },
+    "skills.0.name": {
+      "sourceHash": "e8d288b38797d13537e22cee2e3a00f54979d937eaadb0dac11374acac2f39b9",
+      "text": "Spring's Genesis"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "ce3027e6fd0a234c39aa65293fde71dedfd0717fb508e5485ccfd34df0703c94",
+      "text": "[After Attack] Target loses 5 SP"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "06509bac7d8f33d9ca762f1e403913221152a9b12608b74e5275a9b488e7d556",
+      "text": "[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "60dc1314d671422b00121c492fa02a802177155306a3d9bf9a6a6eb57ff86816",
+      "text": "[On Hit] Tremor Count +3"
+    },
+    "skills.0.response": {
+      "sourceHash": "63c62480126f11cb63ae881a749b1298a973903da440cec7db850c60416bcdd7",
+      "text": "Two Unbreakable Coins. The After Attack loss of 5 SP excludes Laurel Wreath of Atonement holders. Check remaining Sinking, Tremor Count, and SP even after a clash win."
+    },
+    "skills.1.name": {
+      "sourceHash": "0b18aaa2e851425100b34d3c5060a03c16490b8b4d6471cfbb3a99ce4f18e2c8",
+      "text": "Autumn's Passing"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "ce3027e6fd0a234c39aa65293fde71dedfd0717fb508e5485ccfd34df0703c94",
+      "text": "[After Attack] Target loses 5 SP"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "3c2da9ebc6a7d84d68b87aa408901c6424febc6516c788efdcce46b34a37bb9b",
+      "text": "Ⅱ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.1.response": {
+      "sourceHash": "2cb59205ef3c1b215b6a3ac1b2cc1bfd842dfb0b4d4a28c68c357db705dc9fd8",
+      "text": "Two normal Pierce Coins. Sinners without the Wreath should clash with this or the adds while the holder handles major skills. Also watch the After Attack loss of 5 SP."
+    },
+    "skills.2.name": {
+      "sourceHash": "8c0274b696c547baeee2c5aa288526d1a8b0c24bfbb32ae6b8b2832c1bbf1591",
+      "text": "A Doll Who Yearned to be Human"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "70bf6748ef1587f082bfbbd738605ea7c961726260ff0ee4850de005d6122956",
+      "text": "[On Use] Final Power +1 per combined 3 Tremor and Sinking Potency on the target (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9a7ec95abf9fab40c1a263f599f455c768098e30abe26e127717b658763c7f31",
+      "text": "[After Attack] Target loses 10 SP"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "2fc693f3f6da58ef9dccf54df46a6a54de5eecc7d783ca1393fd30dcc97f3623",
+      "text": "Ⅰ[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "5fbd90b1aef607d91ae0100d239a0251c91a5ff9f1c9f4b98cf470dce3b39192",
+      "text": "Ⅱ[On Hit] Deal SP damage equal to the target's Sinking Potency"
+    },
+    "skills.2.response": {
+      "sourceHash": "7f2e6b65dc8e36c4bb4d573687a568c3aa7360ba9973a3e41825187a906f27a1",
+      "text": "Combined Tremor and Sinking Potency grants up to +2 Final Power. Use the Wreath holder to avoid the 10 SP loss, and prevent Tremor Burst and SP damage equal to Sinking Potency."
+    },
+    "skills.3.name": {
+      "sourceHash": "b0ccb221f12a38f03b83fe2a961d0c5cb9ac7d5e7de8357e4387dcdd643f9542",
+      "text": "A Human Who Yearned to be a Doll"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "70bf6748ef1587f082bfbbd738605ea7c961726260ff0ee4850de005d6122956",
+      "text": "[On Use] Final Power +1 per combined 3 Tremor and Sinking Potency on the target (max 2)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "9a7ec95abf9fab40c1a263f599f455c768098e30abe26e127717b658763c7f31",
+      "text": "[After Attack] Target loses 10 SP"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "9a3616dc04a07637c07d74bf91146b7efda36b5b4192e0dfa86475e0058e35a8",
+      "text": "[On Hit] Inflict 5 Faint Aroma"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "9a3616dc04a07637c07d74bf91146b7efda36b5b4192e0dfa86475e0058e35a8",
+      "text": "[On Hit] Inflict 5 Faint Aroma"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "1459e7a8192cdaf16b3622d3f1bc4c9137338e5833737c909efe6e5d590c1e0c",
+      "text": "This Coin hits every attack target"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "541e83ce1bc333b3070ef8769b6f94911416bc29cca1e76d6b4eccf8aa3e8a58",
+      "text": "[On Hit] Inflict 1 Tremor"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.3.response": {
+      "sourceHash": "c01f74f5269c41efacacffffcb2daac86536b074a38c41da30a9eefd6cf0fae5",
+      "text": "Three Unbreakable Coins with randomly distributed area attacks; the third Coin hits every attack target. It spreads Faint Aroma and Tremor Burst, so check all recipients even after winning."
+    },
+    "skills.4.name": {
+      "sourceHash": "58732882e6dbf5769e8bf9363d43fcf6fafdacbc1ca51ada5ab75277d10406b2",
+      "text": "Fragrant Laurel Wreath"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "bcb136ff2700436e8c96fbba46a8f9408761f864999ec2e2f233424d43066355",
+      "text": "This skill deals no damage and does not trigger the target's Sinking"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "196da1d63bde4a3a45430d93ef0def438a9a4f1ab0ac8b99e36c3a2393566341",
+      "text": "[After Attack] Apply Laurel Wreath of Atonement to the target (once per turn)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "21a66f6543786954799bf16b888eff1c89404b595fad390b56448bada34ef584",
+      "text": "[On Hit] Heal the target for 20 SP"
+    },
+    "skills.4.label": {
+      "sourceHash": "9c8436837ed7c801ffe34ccd252f614684927771713154c6da4d3b448636dfff",
+      "text": "Clashable regardless of Speed"
+    },
+    "skills.4.response": {
+      "sourceHash": "f8766abb9d84c6254020ce5ffccd088de67d662fcb00643b14f964e3b64fc234",
+      "text": "Clashable regardless of Speed, with 0 damage and no Sinking activation. Applies the Wreath to the recipient After Attack. Choose a strong Sinner to receive it and handle later major clashes and attacks."
+    },
+    "skills.5.name": {
+      "sourceHash": "4d8a3169300a2253dfaf7cc0dafff2eab32a3bffcccd9fa9b8892de9e546754c",
+      "text": "Bearing the hope to return to dust..."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "db42bec7d56c843464ed9e9afad25dc723639f06b32f33ecf50dd6964c167053",
+      "text": "[On Use] Final Power +1 per combined 3 Tremor and Sinking Potency on the main target (max 8)"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "b89cacde5028181d87bb0a4d51bf9629aaa4343ce963c95d45bdeb94a7b8dcc5",
+      "text": "[On Use] If the main target lacks Laurel Wreath of Atonement, Final Power +5"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "1a1b90a9e6bee32fed1c8bda0f2e80c2b595b209871c43cc710e112107008b8a",
+      "text": "- Damage -80%"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "53886161699bdc88db4fe93313caa66c1574a51a33bb06be99a08864c1319035",
+      "text": "- The target cannot be Staggered by this skill's damage"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "bfa7f228bb27b2f0685fbea8034d9779ac09c5fb49b746c88301805d347f8736",
+      "text": "- Does not trigger the target's Sinking"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "9a7ec95abf9fab40c1a263f599f455c768098e30abe26e127717b658763c7f31",
+      "text": "[After Attack] Target loses 10 SP"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "9e9b98be48f2fddfaa8733ea7fd2ad5791c575a0f6349c67b2a1af9b875aa529",
+      "text": "[Skill End] Reset own Petals to 0"
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "65bc773455fc512e94959ece26e180e710e66a145f398f2197f8672ff9466815",
+      "text": "[On Hit Without Breaking] Inflict Tremor Potency equal to the target's Faint Aroma (applied separately)"
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "f75a2316848ae3445da8b91a4fd9c76d3f5ce0973af8c2b8c7699ff117ed9fc3",
+      "text": "[On Hit Without Breaking] Inflict Sinking Potency equal to the target's Faint Aroma (applied separately)"
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.5.response": {
+      "sourceHash": "37c227d3ebbb9ebbebe3ee4842e81a99cb245b1b014c84593576f553234be0e4",
+      "text": "Unbreakable with 7 Atk Weight. Gains +5 Final Power against a target without the Wreath and up to +8 from Tremor and Sinking. Win with the Wreath holder's strong skill for 80% reduction, Stagger prevention, and no Sinking activation."
+    },
+    "skills.6.name": {
+      "sourceHash": "358061ec12643e00c9fbb80b7d4c9d4a8a15afaace2c452cf3a58ac30faf66a1",
+      "text": "... It shall go back to the grave with all that desires to live"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "7cd1822fb28de7e44a197f9f5f630229d179b170ec74d206b686fa459f138735",
+      "text": "[Unclashable] [Cannot be redirected]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "5019c83fb5b2221554089b095d62f361848e3f64f4c042a74b2ffd9030c5e338",
+      "text": "If the target is neither Panicked nor Corroded, this attack is canceled"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "3b245cc39eaf8d921e7073b6b9d71142b2fe88413245adc02bb0611f6c651f38",
+      "text": "Ⅰ[On Hit] Deal fixed damage equal to 120% of the target's max HP"
+    },
+    "skills.6.label": {
+      "sourceHash": "fe467405eb5effca7d71312ab3d484e31de49f87f201a8dec6e7edca5aa4e1c6",
+      "text": "Unclashable; cannot be redirected; does not activate defense"
+    },
+    "skills.6.response": {
+      "sourceHash": "7691555245c20627985ca11c39f52117b923fa4479d2b6d54936e7e96640e323",
+      "text": "Unclashable, cannot be redirected, and does not activate defense. Canceled if the target is no longer Panicked or Corroded; restore SP before it acts to remove the condition. On Hit, deals fixed damage equal to 120% max HP."
+    },
+    "skills.7.name": {
+      "sourceHash": "854b4f8091fdecc1c4a4252b422cb5efe9acd9c6477dafbd6b8c425a2d36b8f7",
+      "text": "When flowers substitute all the desire in everyone's hearts..."
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "3f4b2a760adf9d45be00c32ba56da113bca5e00446ae6dfeb01ff67dbd4a14ff",
+      "text": "Can clash with this skill regardless of Speed"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "7ee27a45df5cf73bd355cd32108f766057e50c1dbffbef1bd99310d88d90ee7d",
+      "text": "This skill deals no damage"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "f9874a1ed457d2a76ce68ed1b52f14dd7a8e09e9a2740c407fe390c2dbac28d4",
+      "text": "[After Attack] Target loses 25 SP"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "4db1f8e130feb45e32f63192d99d47016eb908a6cc38ed6db40da37b13a244b9",
+      "text": "- Excludes targets with Laurel Wreath of Atonement"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "9ab75577b5726eebf527482bfeeacd1e088e789d00ae13eb726381c61c948794",
+      "text": "[On Hit Without Coin Destruction] Inflict 10 Sinking"
+    },
+    "skills.7.label": {
+      "sourceHash": "9c8436837ed7c801ffe34ccd252f614684927771713154c6da4d3b448636dfff",
+      "text": "Clashable regardless of Speed"
+    },
+    "skills.7.response": {
+      "sourceHash": "220a14cc9223d1e386032ba218300bdae68cb94f558cdc7ac215facefab39cbc",
+      "text": "Clashable regardless of Speed and deals 0 direct damage. Assign the Wreath holder to avoid losing 25 SP After Attack; win to also prevent 10 Sinking."
+    },
+    "skills.8.name": {
+      "sourceHash": "ef27bd265697a318a8e3850192f137cf6e95f524b38eb79b37b7b6a3a66d89c4",
+      "text": "Flower Mound"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "09c460c02968ec9547f4a27e8a208c32147fd21fe8cd2ba93d947c1611c0edc8",
+      "text": "This skill's damage is fixed at 0"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "8e28b2bee4a7be4dec229d0d481e92e5bc9c2facebe95f2a48c7bb8b29565d48",
+      "text": "Ⅰ[On Hit] Inflict 1 Faint Aroma"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "a8ac0bf42b62b232c2ae9d701addb00be5e08f6c0d10dc4710a6a7b7ddff1a88",
+      "text": "Ⅱ[On Hit] Inflict 1 Faint Aroma"
+    },
+    "skills.8.response": {
+      "sourceHash": "49a44c0cfbe139f8a827842f177ae6eceec35d2a53182c98ba32c7f12bd74bac",
+      "text": "Even at 0 direct damage, both Coins apply Faint Aroma On Hit. Clash with an available Sinner to prevent sustained SP loss."
+    },
+    "skills.9.name": {
+      "sourceHash": "06b4ab463118337cad51bceafa30fdbb1628cbef5c51211ed8dcb70cdaeabafa",
+      "text": "A Crack in the Heart"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "09c460c02968ec9547f4a27e8a208c32147fd21fe8cd2ba93d947c1611c0edc8",
+      "text": "This skill's damage is fixed at 0"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "9c84a17dff41d2861a69da0ec78dc3c36b708c8e9598be6c08e19eed841a0099",
+      "text": "[On Use] Final Power +1 per combined 3 negative effect Potency on the target (max 2)"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "a7742a01fb6e5f237e122c30ca43a43364565b43391496e0fe554cb58cf18145",
+      "text": "[On Hit] Inflict 4 Tremor"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "fa8901c4beca6fe8a57ec7330b0cbd1c650b03a20a8fe8e688e416cc0f61a5f0",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "46839ce244476b7f8abacf32c6268e8630666a8a27dc1b82884d4edb42bada94",
+      "text": "Deals 0 direct damage but applies Sinking, Tremor, and Fragile next turn. The target's combined negative effect Potency increases its Power; avoid letting a weakened Sinner take it."
+    },
+    "skills.10.name": {
+      "sourceHash": "d403f079b619a8c3e8e20ee816d0416ef82919be95ed85afdddceef7702abe21",
+      "text": "Entangling Despair"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "09c460c02968ec9547f4a27e8a208c32147fd21fe8cd2ba93d947c1611c0edc8",
+      "text": "This skill's damage is fixed at 0"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "bc1f0c188e31d94e40ee4c2eba9139971b5396110876045b5000d8a67951f3ad",
+      "text": "[On Use] Final Power +1 per combined 3 negative effect Potency on the target (max 3)"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "8c752f94b7d61711dd9234ff174e6ad53c87b7d1a796fe4bc7b8b40b2ffee43b",
+      "text": "- Does not trigger the target's Sinking"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "efe76e85610dc0070fdd870017af975ee9f6d2b3634fe0779dd1f85bd5569385",
+      "text": "[On Hit without Coin Destruction] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "3fb6cd99f576c097f34b15da87d84159b8a57c8802b1d56af5d675272194a75d",
+      "text": "[On Hit Without Breaking] Deal SP damage equal to the target's Sinking Potency"
+    },
+    "skills.10.response": {
+      "sourceHash": "e6c1bfb4ff5b60b20889b2941080dd9c32fbc83f7c364a3764e5fac3cbae2716",
+      "text": "Despite the Unbreakable Coin, winning prevents Sinking activation and the On Hit Without Breaking extra effects. Do not ignore it just because direct damage is 0."
+    },
+    "passives.0.name": {
+      "sourceHash": "d6b3cfe92a2074a1cf2bfe5a9a0d1277b99904f0ef98877734de4e35ba3a2d5b",
+      "text": "A Doll Molded from Clay"
+    },
+    "passives.0.effect": {
+      "sourceHash": "a8bd8a4b3b358ad008b31f7fc8bc126539f1c52fbecf9232a0fa2de59e41dd6e",
+      "text": "At Stage Start, fully recover HP.\nThe body and its parts take no Burn or Bleed damage."
+    },
+    "passives.0.condition": {
+      "sourceHash": "b3aa489d1354b487533cb695cfa55743b8198a3c99869a3fb700b3c4e79d451b",
+      "text": "Start of the dungeon battle and throughout combat"
+    },
+    "passives.0.response": {
+      "sourceHash": "5bb7d1058f66deab00073cb6a07209aa56b8194913f47f9419e2a5d414f5ebe7",
+      "text": "Even if reduced to half HP in the preceding encounter, fully heals for the dungeon battle. Use direct skill damage rather than relying mainly on Burn or Bleed damage."
+    },
+    "passives.1.name": {
+      "sourceHash": "6c5e01a5937ab86f13abdc4d35db8103c900f098d121345aba7df849a3ff92fe",
+      "text": "Unwithering Flower"
+    },
+    "passives.1.effect": {
+      "sourceHash": "02ea10b185d669917158a09a06ddbfbe6d6071af27bdc4f20b3e8973fd2075e8",
+      "text": "At Combat Start, gain 1 Petals.\nWhen Staggered:\n- Gain 2 Fragile next turn.\n- Heal Sinners and Assist Units for 20 SP.\n- At Turn Start after recovering from Stagger, reset Petals to 1.\nAt Turn Start, if no enemy has Laurel Wreath of Atonement, equip Fragrant Laurel Wreath.\n- If Bearing the hope to return to dust... is equipped, equip it next turn instead.\nTake 50% less skill damage from enemies without Laurel Wreath of Atonement.\nTake 150% more skill damage from enemies with Laurel Wreath of Atonement."
+    },
+    "passives.1.condition": {
+      "sourceHash": "8589ccd3248a6c658b02fcb124caec931ac69a8c20c6032ac0352148113a8570",
+      "text": "Combat Start, Petals, and the body's Stagger"
+    },
+    "passives.1.response": {
+      "sourceHash": "687ac5e378b8a2b1adb98e56e69d91d28ec7da21330c88b565b7fa300c87443e",
+      "text": "The Wreath holder's damage increases greatly. Staggering the body restores 20 SP to everyone, and its 2 Fragile next turn creates another damage opening."
+    },
+    "passives.2.name": {
+      "sourceHash": "32a9c2905c4bb064a243b86ef8ad76d77663ac0afe7d62e934592e175c9d1f60",
+      "text": "Spring's Advent"
+    },
+    "passives.2.effect": {
+      "sourceHash": "84415fd06705d008dd1c716b7e692da066e09dc395f2e7e31f9bdffdc75ccb5a",
+      "text": "When an enemy becomes Staggered, deal 20 SP damage to them.\nAt Turn Start, use ... It shall go back to the grave with all that desires to live on Panicked or Corroded enemies (up to twice per turn, slowest first; excludes Assist Units).\nIf that skill kills its target, create one One Who Emerged from the Earth next turn.\n- Do not create another if four already exist in battle."
+    },
+    "passives.2.condition": {
+      "sourceHash": "df1b6b848a558a03d7cfe2b3194309f56084c0b5c504df3658178519b514e057",
+      "text": "Sinner Stagger, Panic, and Corrosion"
+    },
+    "passives.2.response": {
+      "sourceHash": "846239923dc444c6fcfd74e94776d9144cc09c5c22bb927a523ad143b6cadbe2",
+      "text": "Stagger costs another 20 SP. Starting a turn Panicked or Corroded invites a lethal attack; restore SP and protect Sinners at risk of Stagger too."
+    },
+    "passives.3.name": {
+      "sourceHash": "960c7a59738689fc305c366083e2a7d69b54978efd9ac9a5f6f90874c147d5a2",
+      "text": "From the Earth"
+    },
+    "passives.3.effect": {
+      "sourceHash": "c800bae2832d44400e8b83ea40e16303a5f6ecf6c77f923d3d3746b69ad98a0c",
+      "text": "Takes no Burn or Bleed damage.\nStagger Threshold rise from Tremor +100%.\nDies when Staggered."
+    },
+    "passives.3.condition": {
+      "sourceHash": "c175096648c412753efed793152c62b43ef0e1236b746391f2b62896cf641f0b",
+      "text": "Add damage taken and Stagger"
+    },
+    "passives.3.response": {
+      "sourceHash": "3523d620ad2523f019177d907844a279c31e41ef9c4fd0fa9972f191d9962b57",
+      "text": "Burn and Bleed do not work, but Tremor raises Stagger Thresholds by 100% more. Since adds die on Stagger, Tremor Burst can eliminate them."
+    }
+  },
+  "messages": {
+    "boss-copy:alriune": "complete",
+    "【リンバス】10-04 アルリウネ（10章B）の攻略｜Limbus Assistant": "10-04 Alriune (Canto X, Route B) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「アルリウネ（10章B）」の攻略。最初の贖罪の月桂冠を強い囚人へ渡し、その囚人に大技のマッチと本体への攻撃を任せる戦闘。ほかの囚人は取り巻きと通常技に対処し、精神力を回復する。パニック・侵…": "Alriune (Canto X, Route B) guide for Limbus Company 10-04. Give the first Laurel Wreath of Atonement to a strong Sinner and let them clash with major skills and attack the body. The others handle adds and normal skills while restoring SP. Prevent lethal attacks triggered by Panic or Corrosion, protect the Assist Unit Pwie, and aim for a quick finish.",
+    "10-04 アルリウネ（10章B）": "10-04 Alriune (Canto X, Route B)",
+    "10-04「Sisyphus Department Store B, 4F: Lost Children Center」": "10-04 · Sisyphus Department Store B, 4F: Lost Children Center",
+    "アルリウネの外見": "Alriune appearance",
+    "アルリウネのスキル": "Alriune skills",
+    "Alriuneの外見": "Alriune appearance",
+    "Alriuneのスキル": "Alriune skills",
+    "土から生まれた者の外見": "One Who Emerged from the Earth appearance",
+    "土から生まれた者のスキル": "One Who Emerged from the Earth skills",
+    "One Who Emerged from the Earthの外見": "One Who Emerged from the Earth appearance",
+    "One Who Emerged from the Earthのスキル": "One Who Emerged from the Earth skills"
+  }
+}

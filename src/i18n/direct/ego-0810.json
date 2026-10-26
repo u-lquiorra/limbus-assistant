@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0810.md",
+  "code": "0810",
+  "messages": {
+    "敵1体ならダメージ量が倍増し、憂鬱共鳴と憂鬱耐性の弱い敵への火力が伸びる、加重値3の憂鬱打撃E.G.O。": "A 3-Attack-Weight Gloom Blunt E.G.O whose damage doubles against a single enemy and grows with Gloom Resonance and against enemies with weak Gloom resistance.",
+    "単体強化: 攻撃対象が1名なら、コイン威力+2、ダメージ量+100%(集中戦闘は本体で判定)。複数の敵にも撃てるが、伸びは単体のほうが大きい。": "**Single-target bonus**: With 1 target, +2 Coin Power and +100% damage (judged by the main body in Focused Encounters). It can be fired at multiple enemies, but the gain is larger against a single target.",
+    "憂鬱による強化: 憂鬱共鳴2以上で、共鳴1につきダメージ量+5%(解析Ⅲは8%、Ⅳは10%)。メインターゲットの憂鬱耐性が1を超えるほど、さらにダメージ量が増える。": "**Gloom bonuses**: At 2 or more Gloom Resonance, +5% damage per Resonance (8% at Threadspin Ⅲ, 10% at Ⅳ). The more the main target's Gloom resistance exceeds 1, the more damage increases further.",
+    "沈潜の活用: 使用時、メインターゲットの沈潜が4以上でマッチ威力+1(解析Ⅳは4につき、最大2)。的中時は沈潜と振動を付与する。": "**Using Sinking**: On use, +1 Clash Power if the main target has at least 4 Sinking (per 4 at Threadspin Ⅳ, up to 2). Inflicts Sinking and Tremor on hit.",
+    "破壊不能コイン: 3コインすべてが破壊不能。3コイン目で混乱等の対象がいれば、別の敵に沈潜を付与する。": "**Unbreakable Coins**: All 3 Coins are Unbreakable. If a target is staggered or similar at the third Coin, it inflicts Sinking on another enemy.",
+    "深海の舞: 戦闘開始時に敵が1名だけなら、最左端の自分の攻撃スキルのマッチ威力+1、マッチ勝利後の的中時ダメージ量+11.5%。": "**Passive — Abyssal Dance**: If there is only 1 enemy at Combat Start, her leftmost attack skill gains +1 Clash Power and +11.5% damage on hit after a Clash Win.",
+    "憂鬱が多い編成で、憂鬱が弱点のボスに撃つ。部位を複数持つ敵でも「1名」の判定は本体なので、単体扱いになる。": "Fire it at a boss weak to Gloom in a Gloom-heavy team. Even enemies with multiple parts count as \"1\" by the main body, so they are treated as single targets.",
+    "攻撃で敵を倒したら、ランダムな敵2名に、各対象の沈潜威力の半分(最大15)の憂鬱ダメージが波及する。": "When the attack defeats an enemy, Gloom damage equal to half of each target's Sinking Potency (up to 15) spreads to 2 random enemies.",
+    "侵蝕スキルは、解析Ⅳなら憂鬱共鳴4でほぼ最大の強化になる。": "At Threadspin Ⅳ, the Corrosion skill reaches nearly its maximum enhancement at 4 Gloom Resonance.",
+    "Ⅱ: 「深海の舞」が解放される。": "**Ⅱ**: Unlocks Abyssal Dance.",
+    "Ⅲ: 共鳴と耐性によるダメージ量増加が上がり、沈潜・振動の付与量が2になる。": "**Ⅲ**: Raises the Resonance- and resistance-based damage increases, and Sinking and Tremor infliction become 2.",
+    "Ⅳ: ダメージ量増加がさらに上がり、沈潜・振動が3、束縛が2になる。マッチ威力強化も上がる。": "**Ⅳ**: Further raises the damage increases, with 3 Sinking and Tremor and 2 Bind. The Clash Power bonus also rises.",
+    "奥歯ボートセンターフィクサー: S1(傲慢)・S3(憂鬱)で必要資源を出せ、沈潜を付与できる(振動は自分に積む)。": "**[Molar Boatworks Fixer](persona:0807)**: S1 (Pride) and S3 (Gloom) supply the required affinities, and she can inflict Sinking (her Tremor stacks on herself).",
+    "定事務所代表: S3(憂鬱)と守備(傲慢)で必要資源を出せ、沈潜を付与できる(振動は自分に積む)。": "**[Jeong's Office Rep](persona:0813)**: S3 (Gloom) and her Defense skill (Pride) supply the required affinities, and she can inflict Sinking (her Tremor stacks on herself)."
+  }
+}

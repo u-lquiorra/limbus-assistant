@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0606.md",
+  "code": "0606",
+  "messages": {
+    "振動を振動-反響に変換して振動爆発を起こし、怠惰ダメージと混乱区間の前進を広域に与える怠惰打撃のE.G.O。": "A Sloth Blunt E.G.O that converts Tremor into Tremor - Reverb and triggers Tremor Burst, dealing Sloth damage and Stagger Threshold shift across multiple targets.",
+    "振動-反響(解析Ⅲ): 的中時に振動を振動-反響へ変換する。振動爆発のとき、振動威力ぶんの怠惰ダメージを受け、混乱区間も前進する。ターン終了時に回数が1減る。": "**Tremor - Reverb (Threadspin Ⅲ)**: Converts Tremor into Tremor - Reverb on hit. On Tremor Burst, the bearer takes Sloth damage equal to Tremor Potency, and its Stagger Threshold also shifts. Count decreases by 1 at Turn End.",
+    "振動爆発: 的中時に振動爆発を起こし、対象の振動回数を1減らす。侵蝕スキルは解析Ⅲから2回起こす。": "**Tremor Burst**: Triggers Tremor Burst on hit, reducing the target's Tremor Count by 1. From Threadspin Ⅲ, the Corrosion skill triggers it twice.",
+    "ダメージ量増加: 対象の振動威力と回数の合計に応じてダメージ量が増える。最大共鳴数が4以上なら上限が伸びる。": "**Damage Up**: Deals more damage based on the target's combined Tremor Potency and Count. The cap rises if the highest Resonance is 4 or more.",
+    "振動の付与: Ⅰコインで振動3を付与し、解析Ⅲから回数2(Ⅳで3)も付与する。": "**Inflicting Tremor**: Coin Ⅰ inflicts 3 Tremor, and from Threadspin Ⅲ also 2 Count (3 at Ⅳ).",
+    "パッシブ「憂鬱感」: 振動爆発を起こすと、次のターンに攻撃レベル減少1・防御レベル減少2が付く(1ターン最大3回)。": "**Passive — Gloominess**: Triggering Tremor Burst inflicts 1 Offense Level Down and 2 Defense Level Down next turn, up to 3 times per turn.",
+    "振動威力を高く保ってから撃つほど固定ダメージが伸びる。振動を安定して付与できる人格や、鏡ダンジョンのギフトなどで補う。": "The higher the Tremor Potency before firing, the more fixed damage it deals. Supplement it with Identities that inflict Tremor reliably or with Mirror Dungeon E.G.O Gifts.",
+    "複数の敵や部位がいる戦闘で、全体を巻き込むときに強い。": "It is strong in fights with multiple enemies or parts, where it can catch all of them.",
+    "資源は怠惰3・憂鬱3・傲慢2と多い。": "Its resources are a large 3 Sloth, 3 Gloom, and 2 Pride.",
+    "Ⅱ: 憂鬱感が解放されるだけ。": "**Ⅱ**: Only unlocks Gloominess.",
+    "Ⅲ: 振動-反響への変換と覚醒の振動回数付与が入る。使うならここまで解析する。": "**Ⅲ**: Adds conversion into Tremor - Reverb and Tremor Count infliction on Awakening. If you use it, take it this far.",
+    "Ⅳ: 振動回数の付与が増え、侵蝕スキルは振動6・回数6を付与する。": "**Ⅳ**: Increases Tremor Count infliction, and the Corrosion skill inflicts 6 Tremor and 6 Count.",
+    "20区ユロージヴィ: S1・S2で振動を付与し、S2・S3で振動爆発も起こせる。S1(憂鬱)・S2(怠惰)で必要資源も出せる。": "**[District 20 Yurodivy](persona:0609)**: S1 and S2 inflict Tremor, S2 and S3 trigger Tremor Burst, and S1 (Gloom) and S2 (Sloth) supply the required affinities.",
+    "終止符事務所代表: S1(怠惰)・S2(憂鬱)・S3(傲慢)で必要資源の3属性を全て出せる。振動は別に用意する。": "**[Full-Stop Office Rep](persona:0611)**: S1 (Sloth), S2 (Gloom), and S3 (Pride) supply all three required affinities. Tremor needs to come from elsewhere."
+  }
+}

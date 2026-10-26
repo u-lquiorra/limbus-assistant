@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsx scripts/boss-index.ts && tsx scripts/support-passive-index.ts && tsx scripts/trait-index.ts && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && tsx scripts/prerender.ts",
+    "build": "tsx scripts/compile-english.ts && tsx scripts/boss-index.ts && tsx scripts/support-passive-index.ts && tsx scripts/trait-index.ts && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && tsx scripts/prerender.ts",
+    "i18n:compile": "tsx scripts/compile-english.ts",
     "lint": "oxlint",
     "preview": "vite preview",
     "scrape": "tsx scripts/scrape.ts",

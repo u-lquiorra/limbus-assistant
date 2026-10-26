@@ -1,0 +1,2417 @@
+{
+  "kind": "boss-copy",
+  "id": "jia-mu",
+  "source": "src/data/bosses/jia-mu.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "宝玉揺籃",
+          "en": "Precious Jade's Cradle",
+          "file": "Bufs-a1c8p3.json",
+          "id": "ExpensiveJade"
+        },
+        {
+          "ja": "爆発遊戯",
+          "en": "Explosive Amusement",
+          "file": "Bufs-a1c8p3.json",
+          "id": "FamilyTreasure"
+        },
+        {
+          "ja": "不感応",
+          "en": "Malattunement",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GoldenBoughSync"
+        },
+        {
+          "ja": "怪力乱神",
+          "en": "Supernatural, Strength, Chaos, and Spirits",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GoldenBoughSyncDistorted"
+        },
+        {
+          "ja": "喜び、楽しみ、哀しみ",
+          "en": "Happiness, Joy, Sorrow",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Ai"
+        },
+        {
+          "ja": "喜び、楽しみ、哀しみ",
+          "en": "Happiness, Joy, Sorrow",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Ai_Mirror"
+        },
+        {
+          "ja": "喜び、楽しみ",
+          "en": "Happiness, Joy",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Le"
+        },
+        {
+          "ja": "喜び、楽しみ",
+          "en": "Happiness, Joy",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Le_Mirror"
+        },
+        {
+          "ja": "喜び、楽しみ、哀しみ、怒り",
+          "en": "Happiness, Joy, Sorrow, Wrath",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Nu"
+        },
+        {
+          "ja": "喜び、楽しみ、哀しみ、怒り",
+          "en": "Happiness, Joy, Sorrow, Wrath",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Nu_Mirror"
+        },
+        {
+          "ja": "喜び",
+          "en": "Happiness",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Xi"
+        },
+        {
+          "ja": "喜び",
+          "en": "Happiness",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Honglu_Xi_Mirror"
+        },
+        {
+          "ja": "不完全な不死",
+          "en": "Imperfect Immortality",
+          "file": "Bufs-a1c8p3.json",
+          "id": "ImperfectEternalLife"
+        },
+        {
+          "ja": "空虚な従順",
+          "en": "Hollow Obedience",
+          "file": "Bufs-a1c8p3.json",
+          "id": "Obedient"
+        },
+        {
+          "ja": "足掻く",
+          "en": "Rampage",
+          "file": "Bufs-a1c8p3.json",
+          "id": "OutpouringAnger"
+        },
+        {
+          "ja": "積み上がる従順",
+          "en": "Heaping Obedience",
+          "file": "Bufs-a1c8p3.json",
+          "id": "PileObedient"
+        },
+        {
+          "ja": "至高なる不死",
+          "en": "Sublime Immortality",
+          "file": "Bufs-a1c8p3.json",
+          "id": "SupremeEternalLife"
+        },
+        {
+          "ja": "ジア・ムー",
+          "en": "Jia Mu",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1146"
+        },
+        {
+          "ja": "混覚轀輬黒獣",
+          "en": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸]",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1152"
+        },
+        {
+          "ja": "宝玉",
+          "en": "Baoyu, the Precious Jade",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1153"
+        },
+        {
+          "ja": "天のご老人",
+          "en": "Heavenly Elder",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1154"
+        },
+        {
+          "ja": "地のご老人",
+          "en": "Earthly Elder",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1155"
+        },
+        {
+          "ja": "脳のご老人",
+          "en": "Brain Elder",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1156"
+        },
+        {
+          "ja": "バオユや、ここで家主の代が途絶えてはならぬ…。",
+          "en": "Little Baoyu, the lineage of Family Hierarchs cannot end here...",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114602"
+        },
+        {
+          "ja": "誰がご老人方のお世話をし、仙皇蟲様の意を鴻園に広めるというのだ！！！",
+          "en": "Who shall serve the elders, who shall convey the revered Xianhuang Worm's will to Hongyuan then?!!!",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114603"
+        },
+        {
+          "ja": "黄金の枝の同化 - 不感応",
+          "en": "Golden Bough Assimilation - Malattunement",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114604"
+        },
+        {
+          "ja": "鴻園禁断 - 全黒仙丸",
+          "en": "Forbidden Pill of Hongyuan - Completed Heixian Bolus [全黑仙丸]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114605"
+        },
+        {
+          "ja": "古より鴻園は仙人たちの意のままに導かれてきた",
+          "en": "Hongyuan has always been a putty in the hands of the revered Xianren",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114606"
+        },
+        {
+          "ja": "この小娘をお見守りください…！",
+          "en": "Watch this little girl...!",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115201"
+        },
+        {
+          "ja": "黄金の枝の同化 - ねじれ",
+          "en": "Golden Bough Assimilation - Distortion",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115202"
+        },
+        {
+          "ja": "全ての家主は仙皇蟲さまに身を捧げ、その志を受け継いできたというのに",
+          "en": "Every Family Hierarch has the duty to surrender their bodies to the Xianhuang Worm and his honored will",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115203"
+        },
+        {
+          "ja": "金玉其外 敗絮其中",
+          "en": "Rot and Decay in the Husk of Gold and Jade [金玉其外 敗絮其中]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115207"
+        },
+        {
+          "ja": "仙皇蟲が宿らぬ当主は、鴻園のために動くはずもない",
+          "en": "A Family Hierarch without the revered Xianhuang Worm will never serve Hongyuan",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115208"
+        },
+        {
+          "ja": "仙人様よ、どうかご覧くださいませ！",
+          "en": "Witness Me, O Revered Xianren!",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115301"
+        },
+        {
+          "ja": "宝玉の務め",
+          "en": "Duties of the Precious Jade",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115302"
+        },
+        {
+          "ja": "出家",
+          "en": "Departure",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115303"
+        },
+        {
+          "ja": "破邪顕正",
+          "en": "Refute the Evil; Restore Justice [破邪顯正]",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115304"
+        },
+        {
+          "ja": "至高なる不死の仙人様よ",
+          "en": "O The Supreme Xianren of Immortality",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115401"
+        },
+        {
+          "ja": "不老不死は永遠に続かん",
+          "en": "Let us be eternally free from aging and death",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115402"
+        },
+        {
+          "ja": "不老不死の知識",
+          "en": "Knowledge of Immortality",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "115403"
+        },
+        {
+          "ja": "全黒仙丸 - 未",
+          "en": "Completed Heixian Bolus - Wei [未]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114601"
+        },
+        {
+          "ja": "全黒仙丸 - 寅",
+          "en": "Completed Heixian Bolus - Yin [寅]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114602"
+        },
+        {
+          "ja": "全黒仙丸 - 巳",
+          "en": "Completed Heixian Bolus - Si [巳]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114603"
+        },
+        {
+          "ja": "全黒仙丸 - 酉",
+          "en": "Completed Heixian Bolus - You [酉]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114604"
+        },
+        {
+          "ja": "全黒仙丸 - 混",
+          "en": "Completed Heixian Bolus - Hun [混]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114605"
+        },
+        {
+          "ja": "全黒仙丸 - 酉 - 守備",
+          "en": "Completed Heixian Bolus - You [酉] - Defense",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "114606"
+        },
+        {
+          "ja": "宝玉揺籃",
+          "en": "Precious Jade's Cradle [寶玉搖籃]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115201"
+        },
+        {
+          "ja": "怪力乱神 - 寅巳酉",
+          "en": "Supernatural, Strength, Chaos, and Spirits - Yin Si You [寅巳酉]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115202"
+        },
+        {
+          "ja": "お前たちはその瞳の力と特別さを、まだ何も分かっていないのだな",
+          "en": "You do not know the fathoms of the eye's powers, its special nature",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115203"
+        },
+        {
+          "ja": "仙人様方、どうかお見守りください…！",
+          "en": "Please Watch me, O Xianren...!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115204"
+        },
+        {
+          "ja": "ご老人方のお守りがない家主がどうなるか分かっているのか！",
+          "en": "You do not know the fate of a Hierarch without the Xianren's care!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115205"
+        },
+        {
+          "ja": "無駄な真似を…！",
+          "en": "Nothing But a Meaningless Struggle...!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115206"
+        },
+        {
+          "ja": "お前は相変わらず何も出来はしないのだぞ",
+          "en": "Still, you can do nothing",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115207"
+        },
+        {
+          "ja": "謹んで拝謁するがよい",
+          "en": "Be honored to be in audience of such a great man",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115209"
+        },
+        {
+          "ja": "仙皇蟲様、この小娘めのそばにいてくださいませ",
+          "en": "Be with this little girl, O Xianren",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115210"
+        },
+        {
+          "ja": "仙人様よ…！",
+          "en": "O Xianren...!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115211"
+        },
+        {
+          "ja": "極仙搾滴供養",
+          "en": "An Offering of Extreme Extracted Immortality [極仙榨滴供養]",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115213"
+        },
+        {
+          "ja": "無駄な真似を…！",
+          "en": "Nothing But a Meaningless Struggle...!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115214"
+        },
+        {
+          "ja": "ご挨拶申し上げます",
+          "en": "I greet you now",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115301"
+        },
+        {
+          "ja": "大人しくしていますね",
+          "en": "I'll be docile",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115302"
+        },
+        {
+          "ja": "楽しみを差し上げます",
+          "en": "I'll be your amusement",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115303"
+        },
+        {
+          "ja": "生気を与えたまえ",
+          "en": "Give me your vitality",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115401"
+        },
+        {
+          "ja": "楽しみを与えよ",
+          "en": "Please me",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115402"
+        },
+        {
+          "ja": "仙人の叡智に満ちた助言",
+          "en": "The Xianren's Wise Counsel",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115403"
+        },
+        {
+          "ja": "仙人の真なる助言",
+          "en": "The Xianren's True Counsel",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115404"
+        },
+        {
+          "ja": "生気が要る…",
+          "en": "I need more vitality...",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115405"
+        },
+        {
+          "ja": "仙人方のいかなる庇護も受けられぬ名ばかりの家主など、虫けら同然に惨めに死ぬがよい！！！",
+          "en": "A Hierarch without the Xianren's blessing is a Hierarch in name only; she will die an insect's death!!!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115208"
+        },
+        {
+          "ja": "シー・ミィインの力となってくだされ！",
+          "en": "Please give me, Shi Miyin, your strength!",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "115212"
+        }
+      ],
+      "note": "Guide spelling variants are resolved against paired Canto VIII part 3 records: the long insect's death skill uses 庇護 rather than the guide's 介護; Shi Miyin uses シー・ミィイン rather than シー・ミィユン. Precious Jade's Cradle has distinct skill and status names; each follows its matching record. Phase thresholds remain approximate, and lethal-damage recovery retains its phase and surviving-ally requirements. Original guide conditions, numeric values, and uncertainty are retained."
+    }
+  },
+  "scopedTerms": [
+    "強化前",
+    "宝玉揺籃"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "ff55db3c3b2d54f4661cea5023e2bd48207b531f672448973765a3703dbae8c6",
+      "text": "Jia Mu / Muddled Heishou of the Corpse Palanquin"
+    },
+    "shortName": {
+      "sourceHash": "b6db19b4f9f37535ae1ac31e4f0c5e56fc0d57d05b5667cfbf34452ac37873b1",
+      "text": "Jia Mu"
+    },
+    "stageName": {
+      "sourceHash": "526f6979de2a26d9ed228d303dca8fcc7068e4de83d84b87075324a1c85e4dcf",
+      "text": "Joy, Anger, Sorrow, and Pleasure"
+    },
+    "lead": {
+      "sourceHash": "cc73595458ba20d362d35b14a34ddc56025f96943ed569c8b4a031f24ee67e87",
+      "text": "A 6-phase endurance fight. Protect Hong Lu early; after the Distortion, handle the Precious Jade, Palanquin, and elders in that order. Once Happiness is active, use Hong Lu's clash wins to replenish resources and sustain healing."
+    },
+    "listLead": {
+      "sourceHash": "e19de2384362d3f12cbd0d824520b69bfdc13d93bd44007d5374751375202ba6",
+      "text": "A 6-phase endurance fight. Protect Hong Lu early; later, remove interference in the order jewel, palanquin, then remaining adds. After gaining Joy, use Hong Lu's Clash Wins to replenish resources and sustain healing."
+    },
+    "statNote": {
+      "sourceHash": "191e5281d1351c28e8aac4373c25d88b277caf55802aa513935776d9c6ae3d27",
+      "text": "The regular 8-33 encounter. Hong Lu is required; deploy 7 Sinners with 5 reserves. Offense/Defense entries show base values before Malattunement (+2), Supernatural, Strength, Chaos, and Spirits (+4), and other buffs. The Distorted body's 4759 HP is separate from the Torso's 4333 and Palanquin's 474 part HP. Listed phase-transition HP values differ: roughly 4100 / 2850–2900 / 1900–2000 / 700–720. Do not treat them as exact thresholds."
+    },
+    "skillNote": {
+      "sourceHash": "614bb7a4106d468ebd0e4372ce9180afb868fee1980eb6d3e9e84e1dedb6f643",
+      "text": "Full skill names appear in the skill list; the walkthrough shortens the long names to the eye's powers attack or the insect's death attack. Conditional Unbreakable Coins are listed in effects, separately from fixed Unbreakable Coins. The Palanquin and Torso share a defense skill name but have different Unbreakable Coin listings."
+    },
+    "priorities.0": {
+      "sourceHash": "9f87fa0e3dfc5a4b17edbb55dae0c7173157c9bf0d9993300d7186bbd05b085f",
+      "text": "Hong Lu's death causes defeat until Happiness is gained. Use faster Sinners to redirect attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "f18942f48245a14617647fcf86e9cd5b15fd6322f588aef6e263b62b2e304b2d",
+      "text": "Destroy the Precious Jade before it explodes, extract the Palanquin, and reduce all 5 elders to 1 HP."
+    },
+    "priorities.2": {
+      "sourceHash": "721d6f7d7f75240a56416ebe5ae774384cfe26811e4f0262539c9bb3edb82910",
+      "text": "Redirect the eye's powers attack away from Hong Lu as main target, and secure resources for healing."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "faa383d331c0ffb1760f411287bbd36e1693772c1dc2dc031da2ad22d47127f8",
+      "text": "Hong Lu dies early and the fight ends"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "179697614d59d4501ef50b6edce0731711f855f41c236b8b8dd295233f522b90",
+      "text": "He is not immortal from the start. Use faster Sinners or Bind to redirect dangerous attacks, and use SP/HP recovery early. Protect him until Happiness is gained."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "7dda784dff0d4f972adadce5baf1d0caae028786937232083bb67f6a23bb089d",
+      "text": "The Distorted form's HP will not decrease"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "b4538f56eac317f9c332f7ff48f4318ad41a02c9f9178cfa70ca5a4381032257",
+      "text": "The Precious Jade, Palanquin, and elders supply Shield. Focus whichever source is currently present. Delaying the Jade's destruction does not extend the action cycle; it only shortens the time available to damage the boss."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "f60b61c4772610492bc00cb6817ef17dae0f3f8854fd31275048bbcc5f58a364",
+      "text": "Area attacks remain Unbreakable after destroying the Jade"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "04884351c59e3ce1bbb1a4d83f73020a14d24bc995e7ec53d114a6f0df33ff75",
+      "text": "Last-ditch Struggle also makes the eye's powers attack Unbreakable when Hong Lu is its main target. Redirect it to someone else. While the Jade is alive, redirection alone does not stop the Unbreakable Coins; destroy the Jade first."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "58269f60a03708f1755ed37c1420a98fa0459ed3f218fa6e5152fb9b5af49689",
+      "text": "The elders will not die, and the area attack wipes the team"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "ce7e8e008a8d7d2f61c2ac7a92fbd5ebcdb4e20d07a3eb8a917478b15ed547d0",
+      "text": "Reducing them to 1 HP is enough. Leave elders with Imperfect Immortality and convert all 5 before the Offering. Even 1 remaining Sublime Immortality strengthens the finisher."
+    },
+    "units.0.name": {
+      "sourceHash": "b6db19b4f9f37535ae1ac31e4f0c5e56fc0d57d05b5667cfbf34452ac37873b1",
+      "text": "Jia Mu"
+    },
+    "units.0.part": {
+      "sourceHash": "d2f29a91c1009224b0c9c56a07ddf711a1681b9d54e9cfd2b2bf17ca0d381617",
+      "text": "Phase 1 · Torso"
+    },
+    "units.0.combatLevelNote": {
+      "sourceHash": "e98030400f88728fdb7f0f852bf0744248a379a4e1b2c32f40618872827e89d8",
+      "text": "Before buffs"
+    },
+    "units.0.stagger": {
+      "sourceHash": "42a88c9865786665f99029b94758d9dc41eda7dfd90eee170fa2316da6f96bdc",
+      "text": "55% / 0% (762 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "4b1d7d9908716581e68b3e6baee2e4f151aa0c846bb984fb4e32e3052144c07d",
+      "text": "Malattunement gives +2 base Offense/Defense Levels. Using different skills further raises Offense Level."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1d69ffc48ad14b022c98a01d17ea3e87a7cfde7f4b21d2d6dad365e2e1ea36c3",
+      "text": "At 693 HP, enters the next phase and ends the turn. Do not exhaust strong skills immediately after Staggering her."
+    },
+    "units.1.name": {
+      "sourceHash": "5ff484dc3676063148b7644b1d70a74a0b09539879bc862af66f999a5c67512f",
+      "text": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸]"
+    },
+    "units.1.part": {
+      "sourceHash": "78fa9e7db502907012ad0288ac0dc1bd82fc9716fd9d4a0eb59fac852b3bf2db",
+      "text": "Body / Torso"
+    },
+    "units.1.hp": {
+      "sourceHash": "6f9b736b8f8a9f21812b511cbdd76fb7c1dcc8f6adbf4861ca57e6e0923ac7f2",
+      "text": "Body 4759 / Torso 4333"
+    },
+    "units.1.combatLevelNote": {
+      "sourceHash": "e98030400f88728fdb7f0f852bf0744248a379a4e1b2c32f40618872827e89d8",
+      "text": "Before buffs"
+    },
+    "units.1.stagger": {
+      "sourceHash": "25de2889a5f1b5cae21c9a271aaa4445de118a977c1f3ba33effdc091b5929bf",
+      "text": "0% (0) / Staggered by Palanquin extraction or 5 Imperfect Immortality"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "debeeb05ac5acb05bfa07faeac7904cc920ea8da230a34453deb8b1388cc454b",
+      "text": "From phase 2, Supernatural, Strength, Chaos, and Spirits gives +4 base Offense/Defense Levels. Do not confuse this with the part table's +8 Defense Level."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "a556db7c06526996a92246d527063138b94ba2330a4aad14d6d5fbfb62670ab2",
+      "text": "Each slot takes 3 Attack Weight. The body can draw area attacks' targeting capacity away from adds; check actual secondary targets."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "50afeb2268c6422ac96748921cad5c4b809652c6e105471e04d01bdbd9f25eb8",
+      "text": "Body HP determines phase transitions. Do not use Torso part HP as the threshold."
+    },
+    "units.2.name": {
+      "sourceHash": "f9277fb635ad147018f91b3b87662bd45f91ef22fd9155fceaab890ba44bd29a",
+      "text": "Muddled Heishou of the Corpse Palanquin · Palanquin"
+    },
+    "units.2.part": {
+      "sourceHash": "a79721f795f8a30122474b66273075ac618d164cfd8124ffc6fba5ddd5a1cef8",
+      "text": "Extractable Palanquin"
+    },
+    "units.2.combatLevelNote": {
+      "sourceHash": "e98030400f88728fdb7f0f852bf0744248a379a4e1b2c32f40618872827e89d8",
+      "text": "Before buffs"
+    },
+    "units.2.stagger": {
+      "sourceHash": "5cf52eb3d5968d114768f6584bc6cc63d176be694a2ab7910e6668688c833585",
+      "text": "30% / 0% (142 / 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "aadee73e93981fd2e233430c6ef6585ee3861c2d0f887a8dfbedc64c43fc6ac0",
+      "text": "Cannot be attacked until phase 3 begins. Becomes active in the Joy phase and supplies Shield and Torso buffs."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "7b9e2fbefed38c2c79070230defd8b7e62929db1e0c49f0c3af0542361abd0f0",
+      "text": "Extract it at 0 HP to Stagger the Torso and inflict Fragile next turn. Some skills prevent Stagger until they are used."
+    },
+    "units.3.name": {
+      "sourceHash": "3cc98484f87f2f5aacaf8e760a8670c409c2150347b8e2c084497bd8515311da",
+      "text": "Baoyu, the Precious Jade"
+    },
+    "units.3.part": {
+      "sourceHash": "998ff5d62ce627e12c6dfd250fa01108cab324f11afc22c07b49935451d521f4",
+      "text": "Jade imprisoning a Sinner"
+    },
+    "units.3.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "514d2a5a726af0805c67e5afccfe25a601c5515bb8b1d41401a66a8f01818afa",
+      "text": "Created with 1 Explosive Amusement. Destroy it with the allies still able to act before it explodes."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "21f938174a172a63a3434823ef024e204ee2758c72efdd1426ef96601ad5bc0d",
+      "text": "A Sinner defeating it grants resources, healing, and enemy debuffs. Hong Lu returns next turn."
+    },
+    "units.4.name": {
+      "sourceHash": "14ba6f034a0917eb98c71066fd36cb32e9c363aa266cd039ea8d965ec14decac",
+      "text": "Heavenly Elder"
+    },
+    "units.4.part": {
+      "sourceHash": "4b02de2440c065d3620f11bd66319d1f9f875af19aff865480a2c7bdf1568cfa",
+      "text": "Summoned elders · 5 in total"
+    },
+    "units.4.hp": {
+      "sourceHash": "1863059696a73cc05aaab1ed47670e8c2437c345f67671e7cda5cc9b480b38b7",
+      "text": "112 each (minimum 1)"
+    },
+    "units.4.stagger": {
+      "sourceHash": "77791e411b6424867c936b33938e4c878063f5b4b3c689e86f39d441bfdd74ce",
+      "text": "30% / 0% (33 / 0)"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "0ff2dbda4490c6cfb00588dfaab76b7640a08e56af5bceb24406a9b0c2f3f386",
+      "text": "At 1 HP, Sublime Immortality becomes Imperfect Immortality. HP does not reach 0."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "32f3ce1441e90b35693e920aa4029c87f00d5cee420ec0a7e237e7e30c444dd7",
+      "text": "Stop attacking at 1 HP and switch to elders that still have Sublime Immortality."
+    },
+    "units.5.name": {
+      "sourceHash": "f98373984a60d71b6f680cc603a343954c6e1bc062870e28da646c766fefa01e",
+      "text": "Earthly Elder"
+    },
+    "units.5.part": {
+      "sourceHash": "4b02de2440c065d3620f11bd66319d1f9f875af19aff865480a2c7bdf1568cfa",
+      "text": "Summoned elders · 5 in total"
+    },
+    "units.5.hp": {
+      "sourceHash": "1863059696a73cc05aaab1ed47670e8c2437c345f67671e7cda5cc9b480b38b7",
+      "text": "112 each (minimum 1)"
+    },
+    "units.5.stagger": {
+      "sourceHash": "77791e411b6424867c936b33938e4c878063f5b4b3c689e86f39d441bfdd74ce",
+      "text": "30% / 0% (33 / 0)"
+    },
+    "units.5.notes.0": {
+      "sourceHash": "0ff2dbda4490c6cfb00588dfaab76b7640a08e56af5bceb24406a9b0c2f3f386",
+      "text": "At 1 HP, Sublime Immortality becomes Imperfect Immortality. HP does not reach 0."
+    },
+    "units.5.notes.1": {
+      "sourceHash": "07a58bf3aa0fd708da2e530f372a938d635c2c5b21ce61fe22e1e8de937569d8",
+      "text": "Prioritize this elder because its on-use effects strengthen Mu's attacks."
+    },
+    "units.6.name": {
+      "sourceHash": "2574fabcf3cfd08b9a4fd207c6b71b82b65daa3f791941ddfbf7565a58636df6",
+      "text": "Brain Elder"
+    },
+    "units.6.part": {
+      "sourceHash": "4b02de2440c065d3620f11bd66319d1f9f875af19aff865480a2c7bdf1568cfa",
+      "text": "Summoned elders · 5 in total"
+    },
+    "units.6.hp": {
+      "sourceHash": "1863059696a73cc05aaab1ed47670e8c2437c345f67671e7cda5cc9b480b38b7",
+      "text": "112 each (minimum 1)"
+    },
+    "units.6.stagger": {
+      "sourceHash": "77791e411b6424867c936b33938e4c878063f5b4b3c689e86f39d441bfdd74ce",
+      "text": "30% / 0% (33 / 0)"
+    },
+    "units.6.notes.0": {
+      "sourceHash": "0ff2dbda4490c6cfb00588dfaab76b7640a08e56af5bceb24406a9b0c2f3f386",
+      "text": "At 1 HP, Sublime Immortality becomes Imperfect Immortality. HP does not reach 0."
+    },
+    "units.6.notes.1": {
+      "sourceHash": "32f3ce1441e90b35693e920aa4029c87f00d5cee420ec0a7e237e7e30c444dd7",
+      "text": "Stop attacking at 1 HP and switch to elders that still have Sublime Immortality."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "58521677240b9d3cf938ffac03a4d4a6ec6a16048ff1569ff29b6d64adf49ef9",
+      "text": "Bring sustained healing and enough Speed to protect Hong Lu"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "23a984c55a9f20330394f843d2876643410511f12566f470783bd776d06115ef",
+      "text": "Recommended Level 55; deploy 7 Sinners with 5 reserves. Hong Lu must deploy initially, and a borrowed Identity is available. Check healing E.G.O, required resource affinities, and reserve levels."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "067237b2a215102ba99ffb1bb442ff54b2eb9bd3da764ae0e5907871dbef997c",
+      "text": "Lust, Gluttony, Pride, and Envy work well. Do not build solely around affinities; prepare strong clashes, area attacks, and HP/SP recovery."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "603623bfcea54c1352ef18569287ed912690a29f345839d5f90330cd5c5c4e61",
+      "text": "Check support combinations too. With Spiderweb Ryōshū and Ring Hong Lu, the allied effect associated with Ryōshū's Evade can endanger Hong Lu. Check its conditions before using both during the opening, when his protection is not yet active."
+    },
+    "phases.1.timing": {
+      "sourceHash": "b45bfee12b17b02febce36d1b9c73163c520c644b7c26b734acd815abf497094",
+      "text": "Phase 1"
+    },
+    "phases.1.title": {
+      "sourceHash": "2443993f84c0f163b7b5ea23a0ca4d2fb7ec3f560df604719bdbe8f3d36b60b1",
+      "text": "Redirect attacks from Hong Lu and reduce Mu to 693 HP"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "71fe9cf7350139dfb082beaf526787875830a80dcca4e9532c60ec744dd8f09b",
+      "text": "The enemy focuses Hong Lu. Use faster Sinners to redirect dangerous attacks, with Bind and healing to protect him. His death causes defeat."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "a8609ecf28ad4988a3a292eb25e9d01defe59b8791205ccd966dab7d6a08d7e1",
+      "text": "Si and Hun are area attacks; You has 3 Unbreakable Coins. Heal because hits remain after clash wins. Completed Heixian Bolus - You [酉] - Defense is a Clashable Guard and cannot be Offset by defense skills."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "4f032514c8e1552852c1259f6c7f691b20df45c9024b2bc415f368d69ec21aac",
+      "text": "At 693 HP, the phase changes and the turn ends. This is shortly after the 762 Stagger threshold; avoid committing excessive powerful skills and save damage for the next Precious Jade."
+    },
+    "phases.2.timing": {
+      "sourceHash": "b1bd0458d3f2f62d50d4b9a73c8b8a145a87e9ccfb1361e05bb5b4f2829454dd",
+      "text": "Phase 2 · Nothingness"
+    },
+    "phases.2.title": {
+      "sourceHash": "18ede24d3580d9f8344950a4813c4b323c794488ad40bf9dc1c3b7a93c737b3b",
+      "text": "Destroy the Jade quickly and bring Hong Lu back"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "13206dac86168e5d3402a5644f92230ede3db2eb8f6e168c4e970a4ab1772535",
+      "text": "For ordinary Hong Lu Identities, winning the first Precious Jade's Cradle [寶玉搖籃] does not prevent imprisonment. His Lord Identity's exclusive support can prevent it from this stage. The old Assist Defense bug that skipped imprisonment has been fixed; do not rely on it."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "2c8c90b979f2184a478d38989693b421435ea6d964a0a33be4b468fc88eb4efe",
+      "text": "Focus Lust/Gluttony damage on the 171-HP Jade. Destroy it on its first action turn if possible, or its second at the latest. Its turn 3 explosion heavily buffs Mu."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "756ec80b4f3b0bfacecee866fabcb0f222a209d08c7b4de72d4ee34b3116aa56",
+      "text": "While the Jade is alive, 200 Shield every turn makes the boss hard to damage. Defeating it grants healing, 3 of every E.G.O resource, and enemy debuffs; Hong Lu returns next turn. The 5-turn cycle does not extend based on when it is destroyed, so earlier destruction creates more time to attack the boss."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "a5aa3920d26c3fd1d8f6d92f375ead8f619dfa39bddb54d1529f8708d72fbe6c",
+      "text": "The next phase begins around 4100 body HP. Maintain necessary clashes against area attacks and do not delay destroying the Jade."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f6ad07a4976618bb34be02273ccbe7faa0814e6cea8828affbb825c28d8ea30b",
+      "text": "Phase 3 · Happiness"
+    },
+    "phases.3.title": {
+      "sourceHash": "c7bdb6c5ed2f295d9e1e9e03e4a0d691b8bd62c5e3edc18efb78d66b18f1b6d4",
+      "text": "Have Hong Lu beat Precious Jade's Cradle to replenish resources"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "5298ad40ade5aea22d01396f38399568cf0acf43f42b2ea5f28ecc8d5d1d4a3a",
+      "text": "With Happiness, Hong Lu recovers 50% HP upon lethal damage while at least 1 other ally is alive. Clash wins against Mu grant a total of 3 resources of the least-owned affinities. Keep other allies alive too."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "29afa3d27e11103620147d549fc5ab1249d6a42ec71230b471e93718e5f4e69c",
+      "text": "Hong Lu winning against Precious Jade's Cradle [寶玉搖籃] prevents imprisonment. Happiness also prevents it unconditionally once in this phase; do not treat that as repeatable protection."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "1564d868fffe8a6128c0d974057ad57b3ed5a7f22cd5698fedf6aa07b293acca",
+      "text": "With Last-ditch Struggle, the eye's powers attack becomes Unbreakable when Hong Lu is main target too. Redirect this one to another Sinner; use other skills for Hong Lu's resource generation."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "1d3812fa23931b687436c88aff043082dd8a77442f30526f388f6ac544575576",
+      "text": "The next phase begins around 2850–2900 body HP. The part table and walkthrough give different thresholds; check the actual phase display."
+    },
+    "phases.4.timing": {
+      "sourceHash": "f896445b37767e77b9326fd88f7014945469731745fb614c1f215cda45c31b60",
+      "text": "Phase 4 · Joy"
+    },
+    "phases.4.title": {
+      "sourceHash": "2f118a38a5362bb6119c399f0d218f1702243fdb264ae7a7299ba9bd7f5f94fa",
+      "text": "Destroy the Palanquin to stop Shield and buffs"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "64df17565bc351a427477a0a3a4e2ac414223fe9934d2a5fb3ecf1c5066a80ed",
+      "text": "The Palanquin becomes active, supplying the body and Torso with Shield equal to 10% maximum HP and buffs for next turn. Focus and extract the 474-HP Palanquin rather than attacking only the Torso."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "7a0471d1e6a58145222fc1f0ac026be43a3b5b357c36f06a802c3343646b8400",
+      "text": "Be honored to be in audience of such a great man can be clashed regardless of Speed. Win to halve its damage and limit area damage; this does not cancel the on-use Torso buffs."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "de4e5d2174d08eefa978906a559af7b0069fbcbd40d7f3aa0312f95fc40be8a6",
+      "text": "The insect's death attack becomes Unbreakable below 50% body HP. Prepare a reliable clash winner and healing. Exploit Torso Stagger and Fragile after extracting the Palanquin, then progress around 1900–2000 HP."
+    },
+    "phases.5.timing": {
+      "sourceHash": "ec7fbf0a17d8828261c575bfaa001df97c9ef822a709e944c9429c6467b05ad0",
+      "text": "Phase 5 · Sorrow"
+    },
+    "phases.5.title": {
+      "sourceHash": "f20301396ae27a2e6b2ab7a2bc96c2faac118508460dd9a90dd11d9be68d9925",
+      "text": "Reduce all 5 elders to 1 HP"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "70f11a8ac262c0e2672ddc5c2165c4d3035b07c2eae72170c71fb52467c6b823",
+      "text": "O Xianren...! creates 5 elders next turn and ends the turn after attacking. The summon is a Combat Start effect and cannot be stopped by a clash win."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "43ad6e397268d5de7f8dea8329c73db2bd317cda483b8a00ee620dd871026d99",
+      "text": "Aim to reduce everyone to 1 HP within about 3 turns after spawning. Prioritize Earthly Elders, which provide attack buffs; stop spending actions on elders already at 1 HP. The body's slot weight of 3 can absorb area targeting capacity; check actual secondary targets."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "a4291c76617b4a6fd8a595953e7da4c985b8acf963f0e49d1f1be45fd4f726e3",
+      "text": "If all 5 have Imperfect Immortality, the Offering grants allies 200 Shield, and Mu can be Staggered after absorbing 5 Imperfect Immortality. Even 1 remaining Sublime Immortality produces dangerous buffs."
+    },
+    "phases.5.steps.3": {
+      "sourceHash": "0dfac43ade051cb20fd1f0b66389c871f239b93a45785ebbd6b379b2b1cb580a",
+      "text": "Reducing elders to 1 HP grants SP and resources. Use these for healing and the remaining elders; enter the final phase around 700–720 body HP."
+    },
+    "phases.6.timing": {
+      "sourceHash": "cd72bb99423864f42c588ef321a3b2c3066bb1045875692ed5ab603ac1f454dc",
+      "text": "Phase 6 · Wrath"
+    },
+    "phases.6.title": {
+      "sourceHash": "e4776d013b848ed8517648a1c55d92de51414b4ac8efe1ec2a26e339a20331cd",
+      "text": "Prepare for the opening 2 area attacks and finish the fight"
+    },
+    "phases.6.steps.0": {
+      "sourceHash": "32c1ead20b91a711e1a55eb34b13dbd91722b341f3d50094bc9ecbe52e99eb91",
+      "text": "Hong Lu gains +5 Final Power, resource generation, and recovery from lethal damage while another ally survives. Heal to avoid losing every other Sinner."
+    },
+    "phases.6.steps.1": {
+      "sourceHash": "1f3f4a833a72f6acd79f9491654f8701b6f19e0141cc50edc8f92e309a7f41b2",
+      "text": "The opening 2 insect's death attacks are Unbreakable with 3 Attack Weight. A clash win halves damage and prevents Stagger from the skill, but does not prevent Bleed or Rupture damage."
+    },
+    "phases.6.steps.2": {
+      "sourceHash": "52fef0c43f6b146cc977c487597f02ab468fba641ed3bc88a60348102b8efe7f",
+      "text": "Without elders, the Offering grants 200 Shield. Keep winning strong clashes and damaging the boss; this phase ends by reducing body HP to 0."
+    },
+    "skills.0.name": {
+      "sourceHash": "59564f0c5773ef64434663bfec12e7bd62ee4982c8bb8ef13fcc838328ce25f3",
+      "text": "Completed Heixian Bolus - Wei [未]"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "c20508dde834cb48eb34cdee47e22759abe6584323334b342c1c11216d9bccd3",
+      "text": "[On Use] If the target's total Bleed and Rupture is 5+, Clash Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "f8281acb66c184897ab4420febd7d850a0c13cdd9b2e110f9fbcf8bb2a5614e3",
+      "text": "[On Use] If total Bleed and Rupture Count is 7+, gain 5 Poise and 2 Poise Count"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "8b5a6fae37d2b52abb7c2121562c42f391497c8e6f84040c5925592b1fd68e4f",
+      "text": "Ⅰ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "64874f55525626becb2464032a3c9beca9cf64c10833431733a65c830725f611",
+      "text": "Ⅱ[On Hit] Inflict 3 Rupture."
+    },
+    "skills.0.response": {
+      "sourceHash": "27db9a24822cb2f1de1bc1f5d73c0d04fd9967897149b70b9b00bca68de74039",
+      "text": "Bleed and Rupture increase Power and Poise. Avoid accumulating statuses on Hong Lu; redirect the clash to another Sinner."
+    },
+    "skills.1.name": {
+      "sourceHash": "6821e94f92fd87e6eebf8f4e327316927e2a934208f7cdb1892dff2bf78843e7",
+      "text": "Completed Heixian Bolus - Yin [寅]"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "9560128e6b274908d679b41528da1de9cfd31775e5f7b76c3a3805638b9a059b",
+      "text": "[On Use] Coin Power +1 for every 5 total Bleed and Rupture on the target (max 3)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "970e11eab124e7a1b181d91be292965fde1bc089f7ba8d09d41a7f7b7d83ce4a",
+      "text": "Ⅰ[On Hit] Inflict 2 Defense Level Down next turn."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "e0a7435aa5794dc816e1aea1d800ed27cacceab2e44ffba943db192024b55c93",
+      "text": "[On Hit] Gain 5 Poise"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "a7449f20c2075189cbe7ffdd0fc2a0f82a0d933f6b416af7d961012fab80008a",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.1.response": {
+      "sourceHash": "aad5b12f2777afd3492fc94b72ce201cefbdf499e2f177b312b5102cfce5bbc2",
+      "text": "In addition to the base maximum of 13, Bleed and Rupture can add up to 3 Coin Power. Avoid forcing a low-SP ally to take it; win with a strong regular skill or E.G.O."
+    },
+    "skills.2.name": {
+      "sourceHash": "46013dd906cda17568c7e8a27d1198b39a48a2896af83538d70c5f8f9736324f",
+      "text": "Completed Heixian Bolus - Si [巳]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "f7c1c717e977f4b83cd3f4e36cca64a21778299a6c0404d74728544ff8bfe78d",
+      "text": "[On Use] If the main target's total Bleed and Rupture is 10+, Attack Weight +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "fcac53f7285f99a5cc6bc63ea119d9fc45f5b9adc73452ec216ab2ad66e4698b",
+      "text": "Ⅰ[On Hit] Inflict 3 Poison."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "348e46804d83aec4fb97aa6eb48a44bdad3dce1cde257654519d439e9f4d6a1a",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Poison"
+    },
+    "skills.2.response": {
+      "sourceHash": "503e35acfe9a66d8780d854e04f6b9214683c67e348f0ec7c7791f4c12001a2e",
+      "text": "The second Coin is Unbreakable. At 10+ total Bleed and Rupture on the main target, Attack Weight becomes 3. Check remaining hits, Poison, and secondary area targets even after winning."
+    },
+    "skills.3.name": {
+      "sourceHash": "d6124eb7effea95b8ffa6ff7a389f1a628cfff551764bd55ba8c84c0debd756d",
+      "text": "Completed Heixian Bolus - You [酉]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "96c1830c9bae9ce20f00855d8729f5586a1409b81bca2a04401a709734d2e3ad",
+      "text": "[On Use] If the target's total Bleed and Rupture is 10+, Coin Power +1"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "15f5b8d48869bb17ea18d2932daa7a2d257196f5ae83d48df1d7258a4fc9313a",
+      "text": "On each Critical Hit, inflict Bleed and 1 Defense Level Down"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "94fadbf0b5edf4625ea675fe2636662d1455e03bc8dab8b4a4c39cf65ed3a409",
+      "text": "[On Hit Without Coin Destruction] Rupture Count +2"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "aeb65f4fac2ca31285210180d0829453363afa2f2138c70fdeb4a44a335a30b6",
+      "text": "[On Hit] Heal 2 SP"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "aeb65f4fac2ca31285210180d0829453363afa2f2138c70fdeb4a44a335a30b6",
+      "text": "[On Hit] Heal 2 SP"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "7bf6e0afab7950283c23cc85506b8b3a9a66a74f240e5964b7ec0640a65b4365",
+      "text": "[On Hit Without Coin Destruction] Inflict 2 Rupture"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "aeb65f4fac2ca31285210180d0829453363afa2f2138c70fdeb4a44a335a30b6",
+      "text": "[On Hit] Heal 2 SP"
+    },
+    "skills.3.response": {
+      "sourceHash": "0c9508fd681a197199e53077774f4081d0082f61f2744e7afadfdc69d0e0541d",
+      "text": "All 3 Coins are Unbreakable. Winning prevents some Rupture, but the enemy's on-hit SP recovery remains. Avoid concentrating hits on Hong Lu; use resistance and healing."
+    },
+    "skills.4.name": {
+      "sourceHash": "cf86c3fd3db63e00e9729334951b1a5eab23775e506179809263106f609c7450",
+      "text": "Completed Heixian Bolus - Hun [混]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "7d9e9cb0c777604277f7716fe184604d880ece8f8141b317d39e4513da4316f2",
+      "text": "[On Use] Coin Power +1 for each negative status type on the main target (max 2)"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "db3b48cf227c60243e879123bb52af49106cebaa0522a4f7a4f984672b66e803",
+      "text": "[On Clash Lose] Deal 50% less damage; this skill's damage cannot Stagger targets"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "8629823ff1fbfe8d8ebc43b36ba6a6ab0d0a5107b837db8d31d0f514ead2e9ca",
+      "text": "[After Attack] Gain 2 Bind and 6 Defense Level Down next turn"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "e0a7435aa5794dc816e1aea1d800ed27cacceab2e44ffba943db192024b55c93",
+      "text": "[On Hit] Gain 5 Poise"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "3a14eaec6ac43a0b0d414435c8f2bb4917c7f5db31ef3368778664ada40afb3e",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Bleed"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "348e46804d83aec4fb97aa6eb48a44bdad3dce1cde257654519d439e9f4d6a1a",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Poison"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "ca5dd147ac42a4c75d230b92f764e175f23dab0eeaadf48fa2bddea9140f7c37",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.4.response": {
+      "sourceHash": "0555b4f25c4b860938fbba37a7b0ba9494319278db1034721b0514603b27daa2",
+      "text": "4 Attack Weight and 3 Unbreakable Coins. Winning halves damage and prevents Stagger from this skill. On-use bonuses remain; avoid main targets with many debuffs."
+    },
+    "skills.5.name": {
+      "sourceHash": "f537a5fdad5e851d5b535caa21056409fe3eb132ae2257432b35bc94950f0cd9",
+      "text": "Completed Heixian Bolus - You [酉] - Defense"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "14beddc87c5ff4f7d474c2f4f8f953d81cec5755f1a2b37250c3c18fa33a5b1f",
+      "text": "[On Use] If the target's total Bleed and Rupture is 5+, Coin Power +2"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "8e8b4a5105c9e4dc24631b92d58f0a3bbd6f5dfc9506a929bd20a441e711ff10",
+      "text": "[On Use] Heal 8 SP"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "7cd05d505c7615c6d9bb24546d074bba4783e961dd29184261f82b3614ebfb19",
+      "text": "[On Use] Gain 3 Poise and 2 Poise Count"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.5.response": {
+      "sourceHash": "fe930a2ccba0ed64cff9ddca71e5eba6eada1a41f30471937997caad9f1e94a5",
+      "text": "Clashable Guard cannot be Offset by defense skills. Winning also does not undo its on-use SP recovery. Only consider not attacking it after securing necessary clashes against other attacks."
+    },
+    "skills.6.name": {
+      "sourceHash": "b174ab87ba2ef1a27be50929df4517cb37f3833b1cfe397a832b363bd0b2c938",
+      "text": "Precious Jade's Cradle [寶玉搖籃]"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "7e1d3a2a23c5b02ece63af51003f8066e97a037b7c624f5f070935442d7900ab",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "8baa31b1847e170c688ae4dc2cbebf81f02f053bab4936953ec7ba3e2f28e5e7",
+      "text": "If the target is Hong Lu, damage is fixed at 0"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "e084cf889db01f8681b004b002de89c8e3e1563d6676710901f5eaf95a1f0fbc",
+      "text": "[After Attack] If the target is Hong Lu, Stagger him and turn him into Precious Jade's Cradle next turn. Then end the turn"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.6.response": {
+      "sourceHash": "14a112963b7394f3190eadb39658a5154e48ac9abb1cd3d4974a56b27c62bc0f",
+      "text": "Unredirectable and targets Hong Lu. Early on, winning does not stop post-attack imprisonment. With Happiness, Hong Lu can win to prevent it; his Lord Identity's exclusive support can prevent it earlier. Ends the turn after attacking."
+    },
+    "skills.7.name": {
+      "sourceHash": "41207645a89d250a5b6fbd6263398fa6d1ccb604362fe3313e02d6e6423886aa",
+      "text": "Supernatural, Strength, Chaos, and Spirits - Yin Si You [寅巳酉]"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "d0523642762086356ec0e04c3b7687a8024c29882240c860be6154ca12be4d76",
+      "text": "[On Use] Coin Power +1 for every 5 total Bleed and Rupture on the target (max 2)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "8e5dcb159230261d6259ad68f74453c79a7f137a30c8e68559025f9ff903857b",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and 2 Rupture"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "b873fa00b19f9f01de3ab6816ed2d5be13afd511c2e5e68bcf71db26c39ea441",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and 2 Rupture"
+    },
+    "skills.7.response": {
+      "sourceHash": "ae9ab405ff5940306b3f000c1c66af4a89dc59c426e41d5b37f900a8b5bda385",
+      "text": "Coin Power increases for every 5 total Bleed and Rupture. Stop it with regular skills while retaining strong skills for area attacks."
+    },
+    "skills.8.name": {
+      "sourceHash": "6381d5ab552931daed24a2862c2bf12922a9c66bb8fc42b378955004185c8c22",
+      "text": "You do not know the fathoms of the eye's powers, its special nature"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "7e1d3a2a23c5b02ece63af51003f8066e97a037b7c624f5f070935442d7900ab",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "93e70fb87441737549976ac68f3ecf50d819249033ef077f8fd51ca9426caee8",
+      "text": "[On Use] If a Precious Jade is present, all Coins of this skill become Unbreakable"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "d0523642762086356ec0e04c3b7687a8024c29882240c860be6154ca12be4d76",
+      "text": "[On Use] Coin Power +1 for every 5 total Bleed and Rupture on the target (max 2)"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "896f2bed27a264c2fdcf3d3be68615da7ac6afb0ae1af765fe99e17f326678b9",
+      "text": "Ⅰ[On Hit] Bleed Count +3 and Rupture Count +3"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "814af4e980048d0ac7a26fc44d29ede77b7bfa50802c9ad4e4000541b938285d",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed and 1 Rupture"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "6adac0223f2e73d3c8aa552e2c78f4a595d2de4d9a02056297fcc4deda8ea6f3",
+      "text": "Ⅲ[On Hit] Inflict 1 Bleed and 1 Rupture"
+    },
+    "skills.8.response": {
+      "sourceHash": "5ec6aa02dbb90d8f4f7ebfe7f227b6e5a0a84b070e6bc7c7784d150958ab4638",
+      "text": "All Coins become Unbreakable while the Jade is alive, or when Last-ditch Struggle is active and Hong Lu is main target. Even after defeating the Jade, redirect away from Hong Lu and check the conditions each time."
+    },
+    "skills.9.name": {
+      "sourceHash": "0807eb92bdbbae71cf79787a7af49b6e46c01287852fc8c5ab0aea60e44d2c9b",
+      "text": "Please Watch me, O Xianren...!"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "7e1d3a2a23c5b02ece63af51003f8066e97a037b7c624f5f070935442d7900ab",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "fc574f42edc7daad03d90e8e2d13d033bcbc3fd46f5c9a470235c32fae8b7564",
+      "text": "[On Clash Win] Gain 5 Poise and 2 Poise Count"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "d5f6fa6c748a39a4d5ae02bf2c49c60f24f2e42123c68cbf8b8c823e935fbc2d",
+      "text": "[On Clash Lose] Gain 2 Offense Level Up and 2 Defense Level Down next turn"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "26dc0550e4026db3a7d9068b10b889f9062e555fd83d413998d1895a4e108657",
+      "text": "Ⅰ[On Hit] Inflict 2 Bind and 2 Fragile next turn"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "1f52b6899e736a535f80c3651f411a47b5aa7e47aa7707e09d2935dd3f32f338",
+      "text": "[On Hit] Bleed Count +2 and Rupture Count +2"
+    },
+    "skills.9.response": {
+      "sourceHash": "980b47dc03fd8323857e00a8582fd1f011ea5a2ab58342e9ed7e1c645b89b001",
+      "text": "An enemy clash win grants Poise; even your win grants the enemy Offense Level Up next turn. Evade is an option when unable to clash, but do not assume a one-sided attack on Hong Lu is safe."
+    },
+    "skills.10.name": {
+      "sourceHash": "9c8cd953d5229b7b7a3d86d6f8f735ff705c6abdda31619cd12a42fdf1c814b0",
+      "text": "You do not know the fate of a Hierarch without the Xianren's care!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "7090d89843cfd8bc4f0e418027677ab12af7cf26c1e6740f65c42d56eba5bbc6",
+      "text": "[On Use] Heal 25 SP"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "edb5a1d19a36cea8df129b38b2c8889fd4ee39e80a8dabdc8fd406ddcc0f575c",
+      "text": "[On Clash Lose] Deal 50% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "775ee056b3d249a3f5493db5d802616871ed460004a9a46b92b0555ae5389754",
+      "text": "[On Hit Without Coin Destruction] Deal +2.5% damage for every 1 total Rupture and Bleed on the target (max 50%)"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "47e1de336f231f6399932c2cb10fb1b1adac078dbd7ccb28e47b12b1a36b4957",
+      "text": "[On Hit] Inflict 3 Poison"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "775ee056b3d249a3f5493db5d802616871ed460004a9a46b92b0555ae5389754",
+      "text": "[On Hit Without Coin Destruction] Deal +2.5% damage for every 1 total Rupture and Bleed on the target (max 50%)"
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "442e4a79480586d5362cb034a4d063057caa444a4dec7f1ff515a2d957f10f05",
+      "text": "[On Hit] Inflict 3 Bleed and increase Bleed Count by 2"
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.10.effects.9": {
+      "sourceHash": "775ee056b3d249a3f5493db5d802616871ed460004a9a46b92b0555ae5389754",
+      "text": "[On Hit Without Coin Destruction] Deal +2.5% damage for every 1 total Rupture and Bleed on the target (max 50%)"
+    },
+    "skills.10.effects.10": {
+      "sourceHash": "185d47432fd4b2edca83c5ef8624cb5d81cd5d23a4b8ab5e75e085291460a168",
+      "text": "[On Hit] Inflict 3 Rupture and increase Rupture Count by 2"
+    },
+    "skills.10.response": {
+      "sourceHash": "860dd398c8ae6df6af4da5245c1a007f8a889bc6a04792033ebd3148bf87f4a6",
+      "text": "7 Attack Weight and 3 Unbreakable Coins. Winning halves damage and prevents Stagger from this skill. The on-use 25 SP recovery and on-hit Poison, Bleed, and Rupture remain; heal beforehand."
+    },
+    "skills.11.name": {
+      "sourceHash": "c75fc71e1ae1890586418f67d430460fcdc522114b8865d790d70be427d9ef78",
+      "text": "Nothing But a Meaningless Struggle...!"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "87a061f06ee90158f0fc5c6603c404da82c059c58551a3697a2ed6139092ffb3",
+      "text": "[On Use] Coin Power +1 for every 5 total Bleed and Rupture on the target (max 3)"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "31d1799c8679efc9cee3df53e48177d11377b7dfa04a6a59f3dd4206b4a0db62",
+      "text": "[On Clash Win] Rupture Count +1; inflict 2 Defense Level Down"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.11.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.11.response": {
+      "sourceHash": "91e88cde5c7b22f1f0faba6f1ea6f3ed5a4230a0d84762b58ccf798a0ecc356e",
+      "text": "The Torso's Clashable Guard. 1 Coin is Unbreakable. Defense skills cannot Offset it, and on-use Power bonuses remain."
+    },
+    "skills.12.name": {
+      "sourceHash": "ae28b70ee1277aba942faa46a40f1b4c245353f4f6ee2142f37e66118624619d",
+      "text": "Still, you can do nothing"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "8539a85b792c5cf341a62924275f55b2e855e204e61293b3170a2743c5daef36",
+      "text": "[On Use] Gain Last-ditch Struggle"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "8ce1572ec6802030594abb8119d7214b6f08539f7509ce1165f456ac35447e54",
+      "text": "[On Use] Recover 8 SP"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "95d6f347d0d4bb873de45c0324d953c3ce52d8ae2721582c96b0858f9d4141e1",
+      "text": "[On Use] If the main target is below 50% HP or has 10+ total Rupture and Bleed, Coins become Unbreakable"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "fb02c06d9ecdb0fbb43e3069ef3b2aa22fc99366cf5c824c417a25e082d9ce73",
+      "text": "[On Clash Lose] Gain 1 Fragile"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "13791a55f7ad55893d6d560f92e0e596699c9714ded9ac0e6ce023acf46910de",
+      "text": "- Gain 2 instead if the clash was lost to Hong Lu"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "6ede79f9023255ddc4aecd25247d644989a80502ac3a9b984e6130b894411502",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed and 4 Rupture next turn"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "1cb15ab4abea33d5f61dbc8fee2dc4c86bc45408764cd3298c1f58d2803195a0",
+      "text": "[On Hit] Rupture Count +2"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "3cfd52092a774471cb1710e01877dd9b6bf16d4158920811246cb43672083418",
+      "text": "[On Hit] Deal 10 SP damage and raise the Stagger Threshold by 50% of damage dealt"
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.12.effects.9": {
+      "sourceHash": "9f3112ae3c7b262475534a542ef5b0dab769ec6720d232f3dacfd1deb9324245",
+      "text": "[On Hit] Recover 8 SP"
+    },
+    "skills.12.response": {
+      "sourceHash": "c0f961df3ed5d55038943c3d970b15c18e717003202807a34b8a3e0c024d9dbf",
+      "text": "Becomes Unbreakable if the main target is below 50% HP or has 10+ total Bleed and Rupture. Choose a healed handler or Evade, and check the next area attack after Last-ditch Struggle is gained."
+    },
+    "skills.13.name": {
+      "sourceHash": "a270e6cf5ca49821e4ea4d336c0b2aa963018636c78f5b77ae6a9e881619aab8",
+      "text": "A Hierarch without the Xianren's blessing is a Hierarch in name only; she will die an insect's death!!!"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "12afbf2890abd1e99ad7ce76280996c66bd54c2cdd155a9d5f06b71a72eaf7f5",
+      "text": "[On Use] At 30% body HP or lower, Coin Power +3 and damage +30%"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "7b310ab09749170c23cdf3533ec06668d361a247e16f85557f7eaa0901077982",
+      "text": "[On Use] Below 50% body HP, this skill's Coins become Unbreakable"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "edb5a1d19a36cea8df129b38b2c8889fd4ee39e80a8dabdc8fd406ddcc0f575c",
+      "text": "[On Clash Lose] Deal 50% less damage; targets cannot be Staggered by this skill's damage"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "a0ebf71e1fc83e59860fa5335d6f24c29798126f594c42ff29c3d65da3119f00",
+      "text": "Ⅰ[On Hit Without Coin Destruction] Inflict 1 Heaping Obedience"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "7b6fbeb8ea1af10cdaaf923ef27d6488e15ccfdbdaf06d7caae98b1910581d6d",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "ca5dd147ac42a4c75d230b92f764e175f23dab0eeaadf48fa2bddea9140f7c37",
+      "text": "[On Hit] Rupture Count +3"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "ca03aa4e414bd9e11cf36f680c455f699f64130eb7f98b3a6b0e7405f705c210",
+      "text": "[On Hit] Heal 5 SP"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "4eb908ba9b01147dd2fabf0f2a663ab11b7c34edc9c079ffd03f12e1a7c81ebd",
+      "text": "Ⅱ[On Hit Without Coin Destruction] Inflict 2 Heaping Obedience"
+    },
+    "skills.13.effects.8": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.13.effects.9": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.13.effects.10": {
+      "sourceHash": "ca03aa4e414bd9e11cf36f680c455f699f64130eb7f98b3a6b0e7405f705c210",
+      "text": "[On Hit] Heal 5 SP"
+    },
+    "skills.13.response": {
+      "sourceHash": "ea94ebab18b440bbd7bbe254edd8c6d970a155647e051489afd71855c69be679",
+      "text": "Unbreakable below 50% body HP; gains +3 Coin Power at 30% or lower. Win to halve damage and prevent Stagger from this skill, then use healing and resistance against remaining Bleed/Rupture."
+    },
+    "skills.14.name": {
+      "sourceHash": "51f2c23ec4ee263fad21652b5cc1613f40bd3dae61101015d8fb1e0d6082ed10",
+      "text": "Be honored to be in audience of such a great man"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "71f263b1c0a5c4a519eee321a1d9ba171f2ab5be425a1c8fd9f3049b2b0f6c33",
+      "text": "Can be clashed regardless of Speed; cannot be Staggered until this skill is used"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "fc7c7629c090247ad5b553ea7677c99fc69143ad866ae1bab488b5c9b6d26207",
+      "text": "[On Use] Grant the Torso part 2 Attack Power Up, 2 Defense Power Up, and 2 Damage Up next turn"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "35743315a81455c0135ff043f38496bb3b24360975db0447660145e5e2860a6d",
+      "text": "[On Use] Restore own SP to 30"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "267442279cede2e99d7165fff8601479933d9c1ba8c58005a71405e9171176dd",
+      "text": "[On Clash Lose] Deal 50% less damage; this skill's damage cannot Stagger targets"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "9ab75577b5726eebf527482bfeeacd1e088e789d00ae13eb726381c61c948794",
+      "text": "[On Hit Without Coin Destruction] Inflict 10 Sinking"
+    },
+    "skills.14.response": {
+      "sourceHash": "b4fe7baeac269653170c7e0a29e20105adeb193f71c9f147faebdfd650e7719a",
+      "text": "The Palanquin's Unbreakable attack with 7 Attack Weight. Can be clashed regardless of Speed. Winning halves damage but does not stop on-use Torso buffs for next turn. Prioritize destroying the Palanquin itself."
+    },
+    "skills.15.name": {
+      "sourceHash": "a66b305ca5f08017a75228b9e9a4128e78a7e05be834b33645b3ee6779e31dfd",
+      "text": "Be with this little girl, O Xianren"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "e34a0d64fbfafa629721ec9ab41692d7c04511310b76c9a21275590d57d82c9d",
+      "text": "[Combat Start] Grant the Torso part and body Shield equal to 10% of their respective maximum HP"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "a130853c01fdc915d86be114d78b81a2a93d2978082505954da3454174b38c7f",
+      "text": "[On Use] Grant the Torso part 1 Attack Power Up, 1 Defense Power Up, and 2 Damage Up next turn"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "423b08fa7520adf8a9657521f6eeed2d665c1d0a8ce258d8157f76587064d0cf",
+      "text": "[On Use] Heal 15 SP"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "37c2fc7ce07004fffe437c75f784ae7c61c198b3f7f4c0f2f9f72557bc61b142",
+      "text": "[On Hit] Inflict 3 Sinking and increase Sinking Count by 2"
+    },
+    "skills.15.response": {
+      "sourceHash": "6027b63ea93475b506898573ef172ec7188ad12c6266520b8d8e151a12e52ab7",
+      "text": "At Combat Start, the Palanquin gives the body and Torso Shield equal to 10% of their respective maximum HP. Clash wins alone cannot stop it; focus damage on the Palanquin and extract it."
+    },
+    "skills.16.name": {
+      "sourceHash": "1dd283854382f4f927192521bbf0a4445e450b4f054aafeeebc285dabc9a2a28",
+      "text": "O Xianren...!"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "7e56388cede9954a31d92b00ddde88fabe75f9829731dab71f0b66079f6f08e0",
+      "text": "Can be clashed regardless of Speed; cannot be Staggered before using this skill"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "5f8baec6e93c1fd89f8d277da878499b4e65dca2ed59041c44e45b88991fc400",
+      "text": "[Combat Start] Create 5 elder trees next turn"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "140323ced57dd6654596db9d1cba5c1da5e8f5c47a987a107c9b39efd62236a2",
+      "text": "[On Clash Lose] Deal 50% less damage; targets cannot be Staggered by this skill"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "39bbf5b550205c435cca87330f07a36973b84d406d1c8a5efe30101f387bd7db",
+      "text": "[After Attack] End turn"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.response": {
+      "sourceHash": "592153d641c4e4dace29efe3e4fbd035fad7f2225b9e067060fbd54173bb5e72",
+      "text": "7 Attack Weight and Unbreakable Coins. At Combat Start, schedules 5 elders for next turn; winning does not cancel the summon. Ends the turn after attacking, so heal beforehand."
+    },
+    "skills.17.name": {
+      "sourceHash": "f43a0f6ee5efe096e66cdafcca782ecd745d4be72bec76a23c7cb2e847b5358a",
+      "text": "Please give me, Shi Miyin, your strength!"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "5b6fc0b054761c9e081e1e746072edac6631fdf32d97452f50ac980dffcc6640",
+      "text": "If the target has 50%+ HP, Coin Power +1"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "f44dcdd520f07ca131b610599652b2dabc8d69b5b417a463da659af18780f1b2",
+      "text": "Ⅰ[On Hit] Heal the lowest-HP ally without Imperfect Immortality for 15% of that ally's maximum HP"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "24b7da169749782f142950c9270ec8fc48d173d3ced1cee8184d7b0136b5823c",
+      "text": "[On Hit] Inflict 3 Rupture"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "7c61fff5f88dbafff3fb83d4cf441074d419677feafca01b390e39196ad268c6",
+      "text": "Ⅱ[On Hit] Heal the lowest-HP ally without Imperfect Immortality for 15% of that ally's maximum HP"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.17.response": {
+      "sourceHash": "5e9a808fa30a9593f85a5cda06096af463917cc2e9a64ae97639deeb2a9d1ce6",
+      "text": "On hit, heals a low-HP enemy ally without Imperfect Immortality. Reduce elders to 1 HP to convert them, rather than leaving them partly damaged."
+    },
+    "skills.18.name": {
+      "sourceHash": "eeb89be6d636c4e35a1e2d0dadeb654a7a7035c6ca0d169418d150cec834c963",
+      "text": "An Offering of Extreme Extracted Immortality [極仙榨滴供養]"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "8312890170d2765f5778a97ddaa3fe448e283d43dbaf82a8df360d2b8d9b80f0",
+      "text": "[Indiscriminate]"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "5ebbb2ee7ad75e39a2422c901792df858f8e7766459941b3868db5b6126f1155",
+      "text": "This skill does not deal damage to allies"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "f9c0f7503f0468b8cd22fbfb47e90e93132e92882e8d4520a7ffebe857ff2c20",
+      "text": "[On Use] Coin Power +2 and damage +20% for each ally with Sublime Immortality"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "de4927a82335b1b88039ac1e69331abe17fef80f55a7c92f1d29639dc19dc87f",
+      "text": "[On Use] If no allies have Sublime Immortality, instead grant all targets 200 Shield"
+    },
+    "skills.18.effects.4": {
+      "sourceHash": "39bbf5b550205c435cca87330f07a36973b84d406d1c8a5efe30101f387bd7db",
+      "text": "[After Attack] End turn"
+    },
+    "skills.18.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.18.effects.6": {
+      "sourceHash": "0b97ff63ad60def8928eb3373afc3ab5488ca9c2782bc728abdf565d7b095e00",
+      "text": "[On Hit] If the target is an ally, absorb its remaining HP and Imperfect Immortality; all parts gain the absorbed amount of that status next turn. Then remove the absorbed target"
+    },
+    "skills.18.effects.7": {
+      "sourceHash": "443ebd8758e85e30f3837cfb72e3e648b990b9cdc27cffc8611a63a56fc90c0b",
+      "text": "[On Hit Without Coin Destruction] Inflict 8 Bleed and 8 Rupture"
+    },
+    "skills.18.response": {
+      "sourceHash": "37f0a94f943a30becd820069b08b2f8ef8d454170a21b0ced22d177e99e18068",
+      "text": "13 Attack Weight and Unbreakable Coins. Converting all 5 elders to Imperfect Immortality grants 200 Shield and enables Stagger after absorption. Any remaining Sublime Immortality strengthens it. Ends the turn after attacking."
+    },
+    "skills.19.name": {
+      "sourceHash": "c75fc71e1ae1890586418f67d430460fcdc522114b8865d790d70be427d9ef78",
+      "text": "Nothing But a Meaningless Struggle...!"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "87a061f06ee90158f0fc5c6603c404da82c059c58551a3697a2ed6139092ffb3",
+      "text": "[On Use] Coin Power +1 for every 5 total Bleed and Rupture on the target (max 3)"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "31d1799c8679efc9cee3df53e48177d11377b7dfa04a6a59f3dd4206b4a0db62",
+      "text": "[On Clash Win] Rupture Count +1; inflict 2 Defense Level Down"
+    },
+    "skills.19.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.19.response": {
+      "sourceHash": "2ee86bd9176442aa506b4ec3800ea674ac6114c01f5d3b2b27bd8557e8c9e63e",
+      "text": "The Palanquin's Clashable Guard. Unlike the Torso's same-named skill, its listing has no Unbreakable Coins. Check the part when reading predictions."
+    },
+    "skills.20.name": {
+      "sourceHash": "9c3d7f29db6771f2ed842d3967ff69e7cc9bfe2b1b864ada77eb27103db7ac68",
+      "text": "I greet you now"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "3ba56cb964457d623fc2b8c56a82a3e160cb0af88ca0438de10aed219bccd702",
+      "text": "[On Hit Without Coin Destruction] Deal 5 SP damage to the target"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "08dcd855847ddbfd2f9ce7c8d82e35307e0c1ce985c007004b74ea25b6975b3f",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Fragile next turn"
+    },
+    "skills.20.response": {
+      "sourceHash": "16e9da3c9cabeca9c0967bba4c571651d1eb4cf66d23fac832c9822932da4104",
+      "text": "An Unbreakable single-target skill. Winning prevents the SP damage and Fragile requiring a hit without Coin destruction, but destroying the Jade remains the priority."
+    },
+    "skills.21.name": {
+      "sourceHash": "3abce5a24b5b5482a7f48cc227520d742179dda49f32d6d2121ebacee73c8a97",
+      "text": "I'll be docile"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "05b2e54f193b26540dc73e3556500425a170ec04cc69173879b57dbd8eadb2b5",
+      "text": "[On Clash Win] Heal Jia Mu for 15 SP; heal 30 instead if her SP is below 0"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.21.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.21.response": {
+      "sourceHash": "bc6ab176771a6f0d5a68c0c95875b8e925431e48bc5ff0122b5cc9ddce319186",
+      "text": "A Clashable Guard. An enemy win greatly restores Mu's SP. Win with Lust/Gluttony damage and reduce HP through the Guard too."
+    },
+    "skills.22.name": {
+      "sourceHash": "0c05c9279dcead128490b3608abe4c00dd7628266fa1d8674a91d20a363a61ed",
+      "text": "I'll be your amusement"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "6598b0c3f989462f48878ea8e3f8fb914bd17ef3d0101011a0f753ab2e3d39f4",
+      "text": "[After Attack] This character dies and restores Jia Mu's SP to 45. Grant Jia Mu 2 Attack Power Up and 5 Damage Up next turn"
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.22.effects.3": {
+      "sourceHash": "0fe7421338dffde788534d3fb293fce7787ef500136cdf479e937d13d2421fb2",
+      "text": "[On Hit] Deal 15 SP damage to the target"
+    },
+    "skills.22.effects.4": {
+      "sourceHash": "b7deb48c972a4eb005f7718b1e382a06e6bb57e6138679f52c5c011538046143",
+      "text": "[On Hit] Raise the Stagger Threshold by 50% of damage dealt"
+    },
+    "skills.22.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.22.response": {
+      "sourceHash": "4fd088c70ba7cbccf30171f7874e5769b7a8ead58461de3af6b5e6f7cf72d895",
+      "text": "An Unclashable self-destruct. Leaving it alive gives Mu 45 SP and substantial damage buffs next turn. Prioritize destroying the Jade by turn 3 instead of planning to endure the explosion."
+    },
+    "skills.23.name": {
+      "sourceHash": "3a5bac6cef9eae03784537c4121a7f111585b3c0242a150bda41480e86895267",
+      "text": "Please me"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "2b7bdf3b3f50944b2ebb3c0b726671de963e5a7ebc5ea165b57bdf420491d6f2",
+      "text": "If the target has 50%+ HP, Clash Power +2"
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "7c01900ce28841cd5198fa075cd55898292247ef1d9a49fb57f0730393d11b91",
+      "text": "[On Use] Heal Jia Mu for 10 SP"
+    },
+    "skills.23.effects.2": {
+      "sourceHash": "d0c58549565ea500fd06c36c361c6e0a6630a9011969792226e14cfa63870674",
+      "text": "Ⅰ[On Hit] Inflict 3 Sinking."
+    },
+    "skills.23.response": {
+      "sourceHash": "1b2721d4835622949babd71889724cd8418fb6caea263785f2e2bc40a7f13cf6",
+      "text": "Recovers Mu's SP on use; a clash win alone does not prevent it. Reduce it to 1 HP when possible to stop its actions."
+    },
+    "skills.24.name": {
+      "sourceHash": "19cb39e6726e0703fdce22022cb095807aa165fc970b967e288b388a2ce01fac",
+      "text": "I need more vitality..."
+    },
+    "skills.24.effects.0": {
+      "sourceHash": "cf0baa1e31fe90221a722906f17b653f12472b002868a088397e337f64262c46",
+      "text": "No additional effects are listed."
+    },
+    "skills.24.response": {
+      "sourceHash": "a0e0ead4e32c9e2be16b11deda871e479b61c06558396f6744ae50acefcb98d3",
+      "text": "No additional effects are listed. A weak defense used by elders with Imperfect Immortality. Stop attacking those at 1 HP and switch to elders still holding Sublime Immortality."
+    },
+    "skills.25.name": {
+      "sourceHash": "4433d0bba18698eda067e35813444d592ee2a66f08176452385adce597a5696f",
+      "text": "Give me your vitality"
+    },
+    "skills.25.effects.0": {
+      "sourceHash": "3ddd64b02afeaccd81b2c9ea4e311891ce3bc4ebe4c4db79435d5368bab0cc70",
+      "text": "If the target has 50%+ HP, Coin Power +2"
+    },
+    "skills.25.effects.1": {
+      "sourceHash": "6f1b1cde3285995f0bad06bae9b90cfd84e7fae5ab12a0cb4d08fe4b85045725",
+      "text": "Ⅰ[On Hit] Heal 20% of maximum HP"
+    },
+    "skills.25.effects.2": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.25.effects.3": {
+      "sourceHash": "0c9e78e7277c79237d6021af22efcbaebb43f8dde6e5b191fc5f7d7cb29a580f",
+      "text": "Ⅱ[On Hit] Heal 20% of maximum HP"
+    },
+    "skills.25.effects.4": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.25.response": {
+      "sourceHash": "32a4ab56efbee200c9b635caafdae6b05c06b78dab0f2d2d15d5f962537da6c6",
+      "text": "A 2-Coin skill that heals the user on hit. Coin Power increases against a main target with 50%+ HP. Win and reduce the elder to 1 HP that turn."
+    },
+    "skills.26.name": {
+      "sourceHash": "a45836fe6d9f5b97b9b40943aa553b1f9bd04e82dd19e42d617cffbfa73595be",
+      "text": "The Xianren's Wise Counsel"
+    },
+    "skills.26.effects.0": {
+      "sourceHash": "a981d18af3684c99d8324be56f8a7f77887c605f4c5d3567731b306ac9c8452d",
+      "text": "[On Use] Grant Jia Mu 1 Attack Power Up and 1 Damage Up next turn"
+    },
+    "skills.26.effects.1": {
+      "sourceHash": "01da62282683339290c23b94e28da61907efcb2017d0925d72bf19c3f92d0a10",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture"
+    },
+    "skills.26.effects.2": {
+      "sourceHash": "fa64fb51ba8c7b9d614086f720e116d7c46d0f9f3188c049af6efc54152b4567",
+      "text": "Ⅱ[On Hit] Inflict 2 Rupture."
+    },
+    "skills.26.response": {
+      "sourceHash": "5bd745d1e8f89f183f4193fadc589f28fdb9323341b5ee60b24a40559eebb7f6",
+      "text": "On use, strengthens Mu's attacks next turn. This is a reason to reduce Earthly Elders to 1 HP first. Clash wins alone do not cancel on-use support."
+    },
+    "skills.27.name": {
+      "sourceHash": "19cb39e6726e0703fdce22022cb095807aa165fc970b967e288b388a2ce01fac",
+      "text": "I need more vitality..."
+    },
+    "skills.27.effects.0": {
+      "sourceHash": "cf0baa1e31fe90221a722906f17b653f12472b002868a088397e337f64262c46",
+      "text": "No additional effects are listed."
+    },
+    "skills.27.response": {
+      "sourceHash": "1a34f8c8e5ccf91cd8cbcb2f56d28bbfce3aa9451c6cb539eb1e600aa0ec35d3",
+      "text": "Defense after gaining Imperfect Immortality. Spend actions on other elders rather than trying to finish this one with extra attacks."
+    },
+    "skills.28.name": {
+      "sourceHash": "4433d0bba18698eda067e35813444d592ee2a66f08176452385adce597a5696f",
+      "text": "Give me your vitality"
+    },
+    "skills.28.effects.0": {
+      "sourceHash": "3ddd64b02afeaccd81b2c9ea4e311891ce3bc4ebe4c4db79435d5368bab0cc70",
+      "text": "If the target has 50%+ HP, Coin Power +2"
+    },
+    "skills.28.effects.1": {
+      "sourceHash": "6f1b1cde3285995f0bad06bae9b90cfd84e7fae5ab12a0cb4d08fe4b85045725",
+      "text": "Ⅰ[On Hit] Heal 20% of maximum HP"
+    },
+    "skills.28.effects.2": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.28.effects.3": {
+      "sourceHash": "0c9e78e7277c79237d6021af22efcbaebb43f8dde6e5b191fc5f7d7cb29a580f",
+      "text": "Ⅱ[On Hit] Heal 20% of maximum HP"
+    },
+    "skills.28.effects.4": {
+      "sourceHash": "d63f6538d9968cf98792499504e235d6ec220c18ee45eb5a5605b5c161d99e36",
+      "text": "[On Hit] Inflict 2 Rupture"
+    },
+    "skills.28.response": {
+      "sourceHash": "6371031a3de499b0c3524d57773155b9a01b42ae23ef966c9042ebd945581df3",
+      "text": "Heals itself on hit. Win clashes and focus damage to reduce it to 1 HP, also excluding it from healing targets."
+    },
+    "skills.29.name": {
+      "sourceHash": "3bbee050a6a1b9a186622bd34c7d83264011942cbaff8e2f33aa3cf305bc4b66",
+      "text": "The Xianren's True Counsel"
+    },
+    "skills.29.effects.0": {
+      "sourceHash": "c0c00242b7bbe4411cf258dc26b4e8671e853b5cf87814fc6f1922ed27c8a7b9",
+      "text": "[On Use] Grant Jia Mu 1 Defense Power Up and 1 Protection next turn"
+    },
+    "skills.29.effects.1": {
+      "sourceHash": "eff889d7d474b190ff4adb3ff04d94444d8f48da916f551d0c06c5d573356b2e",
+      "text": "Ⅰ[On Hit] Increase Rupture Count by 3."
+    },
+    "skills.29.response": {
+      "sourceHash": "7ef7d4baa4505e4d04ef9a7f6e436e2bee02ad32602b5dd1ef7e87c56a02661e",
+      "text": "Grants Mu Defense Power Up and Protection for next turn on use. Reduce it to 1 HP while actions are available."
+    },
+    "skills.30.name": {
+      "sourceHash": "19cb39e6726e0703fdce22022cb095807aa165fc970b967e288b388a2ce01fac",
+      "text": "I need more vitality..."
+    },
+    "skills.30.effects.0": {
+      "sourceHash": "cf0baa1e31fe90221a722906f17b653f12472b002868a088397e337f64262c46",
+      "text": "No additional effects are listed."
+    },
+    "skills.30.response": {
+      "sourceHash": "806d94efce567cacf9d703b1163a4b40b9fe7c0a8c05f6ce06e8567f446032ba",
+      "text": "No additional effects are listed. Prioritize other elders still holding Sublime Immortality."
+    },
+    "passives.0.name": {
+      "sourceHash": "16ad33d814e25f37d486da836842db476ba6ae691b10c6c74e4a44f5bf76de6a",
+      "text": "Fixed Panic"
+    },
+    "passives.0.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.0.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.0.response": {
+      "sourceHash": "27af39589399eddfd3a1095a39319039fecaff51c6071c646a670d1f10f71bd3",
+      "text": "Even with Sinking, do not assume replacing Panic type will disable her."
+    },
+    "passives.1.name": {
+      "sourceHash": "a217b845d6558cd1c3400dbfb4997af8588fab75a6805e26c87a9adf7abe7e5d",
+      "text": "Golden Bough Assimilation - Malattunement"
+    },
+    "passives.1.effect": {
+      "sourceHash": "85aaa2717342ce0dc52db6b6b13c3c927da4cd6a0268a4a106510b8e079a2738",
+      "text": "At Combat Start, gain Malattunement"
+    },
+    "passives.1.condition": {
+      "sourceHash": "641c67496a846750a0cb4cb92dfc35fe8ca1c55f30589352d1c42455dc1a435b",
+      "text": "Combat Start"
+    },
+    "passives.1.response": {
+      "sourceHash": "2f85f8412d231c7eaf7d12acc82b87333838e322f09f6ac140d1a62eef085a74",
+      "text": "Adds 2 to base Offense/Defense Levels. The table is before this effect; check actual clash predictions."
+    },
+    "passives.2.name": {
+      "sourceHash": "9bf70495c40de72d262523b91e615fa45c91327566b7e02c4a089746f0e316ff",
+      "text": "Hongyuan has always been a putty in the hands of the revered Xianren"
+    },
+    "passives.2.effect": {
+      "sourceHash": "54d9373c8d76dfe1d9c4a34acd33ae4297a1237c88a871d5b38a726c0db98e5a",
+      "text": "If Panicked at Turn End, recover from Panic next turn and reset SP to 0.\nWhen Panic ends, gain 2 Attack Power Up and 2 Defense Power Up at the next Turn Start; if Hong Lu has Hollow Obedience, heal 15 SP."
+    },
+    "passives.2.condition": {
+      "sourceHash": "60910154841c858849d456e273de4311bbd868d0e5cd6d36e0eefbe6c8808694",
+      "text": "On recovery from Panic"
+    },
+    "passives.2.response": {
+      "sourceHash": "4c1d54e08cac469f7f071aba00f252080664885cb0efdcc9c5e5c8d2b27e09f9",
+      "text": "Panic recovery resets SP to 0 and adds Power buffs. Do not plan to keep her disabled through Panic alone."
+    },
+    "passives.3.name": {
+      "sourceHash": "a78c2b7814e1cfffeb4f06c43c7b245db77225d8392253bf23b9f0db44dc0361",
+      "text": "Little Baoyu, the lineage of Family Hierarchs cannot end here..."
+    },
+    "passives.3.effect": {
+      "sourceHash": "5c460918b1b60a2838e91f11c653a7fa37bd19b440f14fbf4ed49ad50c0eb66d",
+      "text": "Hong Lu's death causes defeat. All skills prioritize Hong Lu."
+    },
+    "passives.3.condition": {
+      "sourceHash": "4cb8d662d9325c05c8c07604836aad6b1c3190b283938326b0021e6799ed2e30",
+      "text": "Hong Lu's death / choosing attack targets"
+    },
+    "passives.3.response": {
+      "sourceHash": "6a94a031bb9a36c8c09b666efb37fe6c9497b978712bda8810f171fffc35d1e1",
+      "text": "Hong Lu must survive the opening. Redirect attacks with faster Sinners and prioritize healing."
+    },
+    "passives.4.name": {
+      "sourceHash": "f378e44f363259e10d0dd62d8383945fbd8c9ebb8ecbff04526e17d908a087c5",
+      "text": "Who shall serve the elders, who shall convey the revered Xianhuang Worm's will to Hongyuan then?!!!"
+    },
+    "passives.4.effect": {
+      "sourceHash": "246fe679fac54afd261db1eb853aaf266565a54d25246677a3b1f003c82d1680",
+      "text": "On Hit After Clash Win against Hong Lu, inflict 1 Heaping Obedience (once per skill)"
+    },
+    "passives.4.condition": {
+      "sourceHash": "6b984bcb5c5d6c535a5ddc35372bb03e44e617e97b75f59f47f02dcfffaa791e",
+      "text": "Hitting Hong Lu after winning a clash"
+    },
+    "passives.4.response": {
+      "sourceHash": "6886a297b865b4a40c9a7df24096d06bdc01dba6a89f8f1525c5911d230326cb",
+      "text": "Prevent Heaping Obedience from progressing into Hollow Obedience. Redirect attacks Hong Lu cannot beat to another Sinner."
+    },
+    "passives.5.name": {
+      "sourceHash": "63866441ccebfb289296df1f707735a72c20e42f190b133a11189ac3402e6fa4",
+      "text": "Forbidden Pill of Hongyuan - Completed Heixian Bolus [全黑仙丸]"
+    },
+    "passives.5.effect": {
+      "sourceHash": "d13a805fd8285bf9444426797e436cdaceb5a187b73216a188dde753d2d257ae",
+      "text": "Each time a different skill type is used, gain 1 Offense Level Up and 1 Defense Level Down (3 times per turn)"
+    },
+    "passives.5.condition": {
+      "sourceHash": "5abf39240d6820f30385b71b0f2fa2415efb634145b2d030d508aad8ebaae553",
+      "text": "Using different skill types / at most 3 times per turn"
+    },
+    "passives.5.response": {
+      "sourceHash": "401d130aae17a07eca9803f2613ab2e89174fee758bedf6996f736b67136fcdf",
+      "text": "The enemy's Offense Level rises and Defense Level falls. Do not judge the final attack only from the starting values."
+    },
+    "passives.6.name": {
+      "sourceHash": "16ad33d814e25f37d486da836842db476ba6ae691b10c6c74e4a44f5bf76de6a",
+      "text": "Fixed Panic"
+    },
+    "passives.6.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.6.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.6.response": {
+      "sourceHash": "27af39589399eddfd3a1095a39319039fecaff51c6071c646a670d1f10f71bd3",
+      "text": "Even with Sinking, do not assume replacing Panic type will disable her."
+    },
+    "passives.7.name": {
+      "sourceHash": "a84d504a960e4807e619c27a28dce7be76c16a4f725c279818ab7e83759a49fe",
+      "text": "Watch this little girl...!"
+    },
+    "passives.7.effect": {
+      "sourceHash": "fd95c173ac5da49a981a8d5eab6b8a247026053cdb7e29732db1b1b1b8e08c66",
+      "text": "Hong Lu's death causes defeat. At Turn Start, heal 10 SP if a unit summoned by self is present"
+    },
+    "passives.7.condition": {
+      "sourceHash": "b0b5a5fefb8c8860041803c0319a174940447edda00e6495f85403c1245f578a",
+      "text": "Hong Lu's death / surviving summons"
+    },
+    "passives.7.response": {
+      "sourceHash": "ab602f25594d2b3605543d6fcc9556ffafbd5700a5b52b89d86bca6f0c936616",
+      "text": "Happiness protects Hong Lu only while at least 1 other ally survives. Keep the other Sinners alive too."
+    },
+    "passives.8.name": {
+      "sourceHash": "ce6bf24d78328ead7175db139d273e0ce79dd13f590cbfc139419f9b27fe7804",
+      "text": "Golden Bough Assimilation - Distortion"
+    },
+    "passives.8.effect": {
+      "sourceHash": "bf9adb60338711a3121987e7fc0546119d16435bb50db4e9b9680643dd6c3cac",
+      "text": "At the start of phase 2, gain Supernatural, Strength, Chaos, and Spirits"
+    },
+    "passives.8.condition": {
+      "sourceHash": "3d46fbdb80518823832c313e03cca0425dabf2936cb467e01c3bae9c2e1cc96f",
+      "text": "Phase 2 start"
+    },
+    "passives.8.response": {
+      "sourceHash": "ce4ecd06590f6160cc141982e808640df199670bf5a3f1c5f0e6bb2f9a75ede4",
+      "text": "Include the +4 base Offense/Defense Levels from Supernatural, Strength, Chaos, and Spirits in predictions. Distinguish these from the table's pre-buff values."
+    },
+    "passives.9.name": {
+      "sourceHash": "b317a54cd084c54bc717f69a3b2d1fbd4de67478acf9734c9ceeaf56fb6c18fc",
+      "text": "Every Family Hierarch has the duty to surrender their bodies to the Xianhuang Worm and his honored will"
+    },
+    "passives.9.effect": {
+      "sourceHash": "5574f814462e5a911e730f7337671f1fefdb391787564ee17be9826df18c65ea",
+      "text": "If Panicked at Turn End, recover from Panic next turn and reset SP to 0.\nWhen Panic ends:\n- Gain 2 Attack Power Up, 2 Defense Power Up, and 1 Haste at the next Turn Start.\n- Heal 15 SP if a summoned unit is present.\nHeal 15 SP if Hong Lu has Hollow Obedience."
+    },
+    "passives.9.condition": {
+      "sourceHash": "30c705b60f06c135fa7a8b02a767928cf1bbafde036982afe489b4c3b89dc086",
+      "text": "Distorted form recovering from Panic"
+    },
+    "passives.9.response": {
+      "sourceHash": "495252ce6ad86467202228c79b7e555ae2b6a8ba6ef60f2418e3a32e733c2927",
+      "text": "Summons and Hollow Obedience also restore SP. Prioritize the Precious Jade and elders."
+    },
+    "passives.10.name": {
+      "sourceHash": "511dc40f02c1dd84466eb89e01613c7d4794429f69193b1888e4bcce6e4c959d",
+      "text": "Rot and Decay in the Husk of Gold and Jade [金玉其外 敗絮其中]"
+    },
+    "passives.10.effect": {
+      "sourceHash": "dd2e2756338de07020a5d7af0678556a0672f6746ba3db018a2f95be7f741974",
+      "text": "Take +10% damage while afflicted with 10+ Rupture.\nTake +10% damage while afflicted with 5+ negative effects."
+    },
+    "passives.10.condition": {
+      "sourceHash": "a14b4dcceb1a85dab13a779d5512a02bb35086f1b2ea3689b9597c9bad02710b",
+      "text": "10+ Rupture / 5+ negative status types"
+    },
+    "passives.10.response": {
+      "sourceHash": "8ad08ee4a058936bfb8533a25db1db55ff5a3a8f79a9aa84f8279cf82a40ba8d",
+      "text": "Exploit increased damage taken, but do not disrupt mechanic assignments just to stack statuses."
+    },
+    "passives.11.name": {
+      "sourceHash": "511dc40f02c1dd84466eb89e01613c7d4794429f69193b1888e4bcce6e4c959d",
+      "text": "Rot and Decay in the Husk of Gold and Jade [金玉其外 敗絮其中]"
+    },
+    "passives.11.effect": {
+      "sourceHash": "dd2e2756338de07020a5d7af0678556a0672f6746ba3db018a2f95be7f741974",
+      "text": "Take +10% damage while afflicted with 10+ Rupture.\nTake +10% damage while afflicted with 5+ negative effects."
+    },
+    "passives.11.condition": {
+      "sourceHash": "a14b4dcceb1a85dab13a779d5512a02bb35086f1b2ea3689b9597c9bad02710b",
+      "text": "10+ Rupture / 5+ negative status types"
+    },
+    "passives.11.response": {
+      "sourceHash": "8ad08ee4a058936bfb8533a25db1db55ff5a3a8f79a9aa84f8279cf82a40ba8d",
+      "text": "Exploit increased damage taken, but do not disrupt mechanic assignments just to stack statuses."
+    },
+    "passives.12.name": {
+      "sourceHash": "8d1d971504ef433be1969f944fe86149e216a9bb3d57cc569a275a07c133621c",
+      "text": "A Family Hierarch without the revered Xianhuang Worm will never serve Hongyuan"
+    },
+    "passives.12.effect": {
+      "sourceHash": "23610daa76aabdb66fa210c6de51b426399626e2b4c57a575de0c8d812858f60",
+      "text": "At 0 HP, the Torso part becomes Staggered next turn.\nAfterward, this part is extracted and the Torso gains 2 Fragile."
+    },
+    "passives.12.condition": {
+      "sourceHash": "11207b811647f36252b256bfd83b45bad08942e74d81d56e7811468b2e993780",
+      "text": "Part at 0 HP"
+    },
+    "passives.12.response": {
+      "sourceHash": "0436fd00e3f07cce0792e5a8c413a2fd2f95fec2d8f4733d50c13b80aa1cdd06",
+      "text": "Destroying and extracting the Palanquin can Stagger the Torso and inflict 2 Fragile next turn. This does not mean body HP need not reach 0."
+    },
+    "passives.13.name": {
+      "sourceHash": "8d1d971504ef433be1969f944fe86149e216a9bb3d57cc569a275a07c133621c",
+      "text": "A Family Hierarch without the revered Xianhuang Worm will never serve Hongyuan"
+    },
+    "passives.13.effect": {
+      "sourceHash": "23610daa76aabdb66fa210c6de51b426399626e2b4c57a575de0c8d812858f60",
+      "text": "At 0 HP, the Torso part becomes Staggered next turn.\nAfterward, this part is extracted and the Torso gains 2 Fragile."
+    },
+    "passives.13.condition": {
+      "sourceHash": "11207b811647f36252b256bfd83b45bad08942e74d81d56e7811468b2e993780",
+      "text": "Part at 0 HP"
+    },
+    "passives.13.response": {
+      "sourceHash": "0436fd00e3f07cce0792e5a8c413a2fd2f95fec2d8f4733d50c13b80aa1cdd06",
+      "text": "Destroying and extracting the Palanquin can Stagger the Torso and inflict 2 Fragile next turn. This does not mean body HP need not reach 0."
+    },
+    "passives.14.name": {
+      "sourceHash": "cd853f6b4e533e32dffe7c234dec46d8df21150a197b356f3b67fbef677b989d",
+      "text": "Witness Me, O Revered Xianren!"
+    },
+    "passives.14.effect": {
+      "sourceHash": "174a4c8baca6f726e94c5cf73e5c91ee1de5806e9bdab21daf88874d9393d961",
+      "text": "While this unit is alive, Jia Mu's body and all parts gain 200 Shield at Turn Start"
+    },
+    "passives.14.condition": {
+      "sourceHash": "86e7b7532b933fc9a00f20cb121edb9cdf9f509d08f273d78dd5c82292c7df51",
+      "text": "Turn Start while the Jade is alive"
+    },
+    "passives.14.response": {
+      "sourceHash": "c3b259bf5ebb72ac19ad04e7b973f15eede900a10224545fc00deb05f67da6ab",
+      "text": "Focus the Jade instead of the body to cut off the Shield source."
+    },
+    "passives.15.name": {
+      "sourceHash": "0d185a7d5f9381fe8a42d3d462639cac529fe747f25a8db2377c2036c80cb955",
+      "text": "Duties of the Precious Jade"
+    },
+    "passives.15.effect": {
+      "sourceHash": "153edc4b3a97d5630759bbc95cee805d91187b930d10ec4085247c5cb2edccee",
+      "text": "While this unit is alive, apply the following effect to the imprisoned character:\n- Cannot act."
+    },
+    "passives.15.condition": {
+      "sourceHash": "fbb271bc738d57eb1e290040468976780bdecd9eef78d6e9a308d44f6367406a",
+      "text": "While the Jade is alive"
+    },
+    "passives.15.response": {
+      "sourceHash": "0413c5ea771ec415bd49119403a060371eddb6a85bee54ea086a67b909ddedcf",
+      "text": "Hong Lu cannot act. Ensure other Sinners have enough actions to remove its 171 HP."
+    },
+    "passives.16.name": {
+      "sourceHash": "e90946b07f11b64c551a1cacf7efbf981d5090f79b2af02932d922829612ea4a",
+      "text": "Departure"
+    },
+    "passives.16.effect": {
+      "sourceHash": "15ec9e494c3cc2f1a49175be7cc5ad5f5c10b88c23b0f79378cc31b8e61c9a34",
+      "text": "When this unit is defeated, the imprisoned character returns to combat next turn."
+    },
+    "passives.16.condition": {
+      "sourceHash": "43568715365a7704e5e523398055633bef30a1c4d4bd7f835c15adbe149f6bd4",
+      "text": "Defeating the Jade"
+    },
+    "passives.16.response": {
+      "sourceHash": "df821aa6f28b268491ad1cf9bfbd801f19a3428176d761806f058d945ec7d9e3",
+      "text": "Hong Lu returns next turn. Do not plan for him to act on the turn the Jade is defeated."
+    },
+    "passives.17.name": {
+      "sourceHash": "54998de85491baccf43827b5376a9a26c6dd8795e3941ea74180ac1709d2b5ba",
+      "text": "Refute the Evil; Restore Justice [破邪顯正]"
+    },
+    "passives.17.effect": {
+      "sourceHash": "be821bd9db235b074342f94fb24671761a0ecf89c72beab52322b0a560819dbd",
+      "text": "When Sinners defeat this unit:\n- All allies heal 10 SP and gain 2 Damage Up next turn.\n- Inflict 5 Bind, 3 Offense Level Down, and 5 Fragile on Jia Mu for 2 turns starting next turn.\n- Restore the imprisoned character's SP to 45; on return, they gain 2 Attack Power Up.\n- Gain 3 of every E.G.O resource."
+    },
+    "passives.17.condition": {
+      "sourceHash": "86a8fea8e0880330a56ff2c41624e099062b2e9177ddd1ef42bacd09b8c680f2",
+      "text": "A Sinner defeating the Jade"
+    },
+    "passives.17.response": {
+      "sourceHash": "2909575f50b0b34c1ec4486cff01eff1830907e4ca63a58143d40b9fe6b33f6c",
+      "text": "Grants allied healing, 3 of every resource, and debuffs on Mu. This differs substantially from self-destruction; prioritize defeating it."
+    },
+    "passives.18.name": {
+      "sourceHash": "25d1cda29b1ba56ce4cbc0f429fb20afcb2eb307ead829a403d9727f9376275f",
+      "text": "O The Supreme Xianren of Immortality"
+    },
+    "passives.18.effect": {
+      "sourceHash": "9af5924731a12bc3f745f65c49b908c4a44aaa2a26a542c436f0da78b6dcb362",
+      "text": "Holds Sublime Immortality"
+    },
+    "passives.18.condition": {
+      "sourceHash": "c9e72bac0a1300d54028981f07876d131fe77b561054bd2b8b883894957125e9",
+      "text": "Elders spawning / surviving"
+    },
+    "passives.18.response": {
+      "sourceHash": "863473bde1307eb8259d32fc385f86947a8feaea23eb2092cc325e57ed90eb23",
+      "text": "Supplies Shield every turn. Do not focus the body solely based on its apparent remaining HP."
+    },
+    "passives.19.name": {
+      "sourceHash": "25d1cda29b1ba56ce4cbc0f429fb20afcb2eb307ead829a403d9727f9376275f",
+      "text": "O The Supreme Xianren of Immortality"
+    },
+    "passives.19.effect": {
+      "sourceHash": "9af5924731a12bc3f745f65c49b908c4a44aaa2a26a542c436f0da78b6dcb362",
+      "text": "Holds Sublime Immortality"
+    },
+    "passives.19.condition": {
+      "sourceHash": "c9e72bac0a1300d54028981f07876d131fe77b561054bd2b8b883894957125e9",
+      "text": "Elders spawning / surviving"
+    },
+    "passives.19.response": {
+      "sourceHash": "863473bde1307eb8259d32fc385f86947a8feaea23eb2092cc325e57ed90eb23",
+      "text": "Supplies Shield every turn. Do not focus the body solely based on its apparent remaining HP."
+    },
+    "passives.20.name": {
+      "sourceHash": "25d1cda29b1ba56ce4cbc0f429fb20afcb2eb307ead829a403d9727f9376275f",
+      "text": "O The Supreme Xianren of Immortality"
+    },
+    "passives.20.effect": {
+      "sourceHash": "9af5924731a12bc3f745f65c49b908c4a44aaa2a26a542c436f0da78b6dcb362",
+      "text": "Holds Sublime Immortality"
+    },
+    "passives.20.condition": {
+      "sourceHash": "c9e72bac0a1300d54028981f07876d131fe77b561054bd2b8b883894957125e9",
+      "text": "Elders spawning / surviving"
+    },
+    "passives.20.response": {
+      "sourceHash": "863473bde1307eb8259d32fc385f86947a8feaea23eb2092cc325e57ed90eb23",
+      "text": "Supplies Shield every turn. Do not focus the body solely based on its apparent remaining HP."
+    },
+    "passives.21.name": {
+      "sourceHash": "1c46214a2d167705e7f020b64c154e1101b9891b2d66de3d2bfd2167d0cb768e",
+      "text": "Let us be eternally free from aging and death"
+    },
+    "passives.21.effect": {
+      "sourceHash": "88f43d8158f3d476f728ce66d2893c6223c7fc3f45d0b4f6488c597977b9835b",
+      "text": "HP cannot fall below 1.\nAt 1 HP, replace Sublime Immortality with Imperfect Immortality."
+    },
+    "passives.21.condition": {
+      "sourceHash": "0ada31eae6e694e3dcaf03ccc493915efd50e672695613c908332555e6a04d7f",
+      "text": "Elders at 1 HP"
+    },
+    "passives.21.response": {
+      "sourceHash": "eeac7270d28d314b7839e114b706e2091ba45545cec1cc32c1a67ca4d2cd9a91",
+      "text": "They do not need to die; at 1 HP they gain Imperfect Immortality. Check all 5."
+    },
+    "passives.22.name": {
+      "sourceHash": "1c46214a2d167705e7f020b64c154e1101b9891b2d66de3d2bfd2167d0cb768e",
+      "text": "Let us be eternally free from aging and death"
+    },
+    "passives.22.effect": {
+      "sourceHash": "88f43d8158f3d476f728ce66d2893c6223c7fc3f45d0b4f6488c597977b9835b",
+      "text": "HP cannot fall below 1.\nAt 1 HP, replace Sublime Immortality with Imperfect Immortality."
+    },
+    "passives.22.condition": {
+      "sourceHash": "0ada31eae6e694e3dcaf03ccc493915efd50e672695613c908332555e6a04d7f",
+      "text": "Elders at 1 HP"
+    },
+    "passives.22.response": {
+      "sourceHash": "eeac7270d28d314b7839e114b706e2091ba45545cec1cc32c1a67ca4d2cd9a91",
+      "text": "They do not need to die; at 1 HP they gain Imperfect Immortality. Check all 5."
+    },
+    "passives.23.name": {
+      "sourceHash": "1c46214a2d167705e7f020b64c154e1101b9891b2d66de3d2bfd2167d0cb768e",
+      "text": "Let us be eternally free from aging and death"
+    },
+    "passives.23.effect": {
+      "sourceHash": "88f43d8158f3d476f728ce66d2893c6223c7fc3f45d0b4f6488c597977b9835b",
+      "text": "HP cannot fall below 1.\nAt 1 HP, replace Sublime Immortality with Imperfect Immortality."
+    },
+    "passives.23.condition": {
+      "sourceHash": "0ada31eae6e694e3dcaf03ccc493915efd50e672695613c908332555e6a04d7f",
+      "text": "Elders at 1 HP"
+    },
+    "passives.23.response": {
+      "sourceHash": "eeac7270d28d314b7839e114b706e2091ba45545cec1cc32c1a67ca4d2cd9a91",
+      "text": "They do not need to die; at 1 HP they gain Imperfect Immortality. Check all 5."
+    },
+    "passives.24.name": {
+      "sourceHash": "62b12de9f1605b2306990eb3af1736e3b57966cf367a5ae77c197a37eafd4cfb",
+      "text": "Knowledge of Immortality"
+    },
+    "passives.24.effect": {
+      "sourceHash": "e7546d0e95ba3e322cbc7a94ba8446b3be00e84961d7bce190bc430fd3d989bf",
+      "text": "When damage reduces HP to 1, heal the attacking Sinner for 10 SP and grant 3 resources of a random affinity among the least-owned E.G.O resources (once while this unit is alive)"
+    },
+    "passives.24.condition": {
+      "sourceHash": "f45b8990d62fc673b272f60bdb0135f0aa6f8711bdec7648aa4391b94193150b",
+      "text": "Damage reducing HP to 1 / once per elder"
+    },
+    "passives.24.response": {
+      "sourceHash": "ec27906fc69e06d64639a3f5572a543921df3ef5a65f0fe0bbb4651b8a566d28",
+      "text": "Grants SP recovery and scarce resources. Spend them on the remaining elders and healing."
+    },
+    "passives.25.name": {
+      "sourceHash": "62b12de9f1605b2306990eb3af1736e3b57966cf367a5ae77c197a37eafd4cfb",
+      "text": "Knowledge of Immortality"
+    },
+    "passives.25.effect": {
+      "sourceHash": "e7546d0e95ba3e322cbc7a94ba8446b3be00e84961d7bce190bc430fd3d989bf",
+      "text": "When damage reduces HP to 1, heal the attacking Sinner for 10 SP and grant 3 resources of a random affinity among the least-owned E.G.O resources (once while this unit is alive)"
+    },
+    "passives.25.condition": {
+      "sourceHash": "f45b8990d62fc673b272f60bdb0135f0aa6f8711bdec7648aa4391b94193150b",
+      "text": "Damage reducing HP to 1 / once per elder"
+    },
+    "passives.25.response": {
+      "sourceHash": "ec27906fc69e06d64639a3f5572a543921df3ef5a65f0fe0bbb4651b8a566d28",
+      "text": "Grants SP recovery and scarce resources. Spend them on the remaining elders and healing."
+    },
+    "passives.26.name": {
+      "sourceHash": "62b12de9f1605b2306990eb3af1736e3b57966cf367a5ae77c197a37eafd4cfb",
+      "text": "Knowledge of Immortality"
+    },
+    "passives.26.effect": {
+      "sourceHash": "e7546d0e95ba3e322cbc7a94ba8446b3be00e84961d7bce190bc430fd3d989bf",
+      "text": "When damage reduces HP to 1, heal the attacking Sinner for 10 SP and grant 3 resources of a random affinity among the least-owned E.G.O resources (once while this unit is alive)"
+    },
+    "passives.26.condition": {
+      "sourceHash": "f45b8990d62fc673b272f60bdb0135f0aa6f8711bdec7648aa4391b94193150b",
+      "text": "Damage reducing HP to 1 / once per elder"
+    },
+    "passives.26.response": {
+      "sourceHash": "ec27906fc69e06d64639a3f5572a543921df3ef5a65f0fe0bbb4651b8a566d28",
+      "text": "Grants SP recovery and scarce resources. Spend them on the remaining elders and healing."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "ac74f2647ac6d8fe2fe4751cbf3cec09436c98108d27c14270f73df551e586c4",
+      "text": "Malattunement"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "68f1c11ad5c07cd785f898b8ca8c9794d6b68ff25eb255414800dea8b5fc521d",
+      "text": "Base Offense Level and base Defense Level +2."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "4deefc162249ec7c74ba9917a66573e593f22f85b958ededfd0ebc2770ebd83f",
+      "text": "The initial form's table is before buffs. Check level-difference clash bonuses in the prediction."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "fbd522281ab1c161dd76a7f3d2868cdc986828b1c4427534d39972da84613ef8",
+      "text": "Supernatural, Strength, Chaos, and Spirits"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "7bcfdcb19a2c664cc57be453a267fbb9d05f2e4a16a1087b566a49429a55c6c6",
+      "text": "Base Offense Level and base Defense Level +4."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "eda27f196eec08bded4654de67ad123887e7f882973cbf1ff7085c1365a2b887",
+      "text": "A post-Distortion buff, separate from the part table and skill-level differences."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "a856e913f2bfbc178fc92b98391d871413d33d4bb4de82afd556f92c1111f784",
+      "text": "Hollow Obedience"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "72207dcadf0c262928cead0f2b1567ab3f3b7e7fb69838c7087eb6518af8e2c0",
+      "text": "Clash Power -2 against Mu. Removed at 45 SP or a value of 0; decreases by 1 at Turn End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c2c6c8056a4620079d544ebc95ad9ceb589f7df883cd65760b95668e16e5ea52",
+      "text": "Avoid building this on Hong Lu early and bring SP recovery."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "ea69a3e1b56384b3977f37fa0fc84f8210148c2b6540963d09ef76a794a3a7c8",
+      "text": "Heaping Obedience"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "e94aca041ad3e28e59309f00ef923dba2e2a431637834dec1e90dfa94eae0df5",
+      "text": "At 3 at Turn End, becomes Hollow Obedience next turn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "c1ab201c39b4058e02ebec2c6ac386fea97d3565c2448594f71c774eb4e8f877",
+      "text": "Prevent one-sided hits on Hong Lu and dangerous skills' effects requiring hits without Coin destruction."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "b174ab87ba2ef1a27be50929df4517cb37f3833b1cfe397a832b363bd0b2c938",
+      "text": "Precious Jade's Cradle"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "981791c00f5efe0f3f8903b1b5db8a52027cd6670745e4e3a44f0c46ef771292",
+      "text": "The imprisoned Sinner cannot act, and their HP, SP, and buffs do not update. A corresponding Precious Jade is created."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "2763752445490cf928b1e8560b910f9acd2d3abaae5629f247e48bfef6d3ad09",
+      "text": "Have Sinners destroy the Jade to gain its support and a next-turn return. After Happiness is gained, Hong Lu's clash wins can prevent imprisonment."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "1f1daf3a9fb66331e412909c16146fc82515906dab5ac001c3d5e545796e3489",
+      "text": "Explosive Amusement"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "772343eaec9b8e119f573461abdaf51b8029e6df1ce38caaee6d284690cd9b47",
+      "text": "Created at 1. At Turn End, heal the imprisoned Sinner for 25% HP, reduce their SP by 20, and increase this value. At 3, use the self-destruct skill; dying by self-destruction inflicts 3 Hollow Obedience on the imprisoned Sinner next turn."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "186f879cccd3b943cbd6c9f5be614e5074a2b8cc3f189f81e7d0d9d10dee4088",
+      "text": "Destroy it before it explodes. Waiting for self-destruction does not grant the rewards for a Sinner defeating it."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "1bc085bfffcb270cb3077622d51520cd2804b089fd399321fd10d965a50d95aa",
+      "text": "Last-ditch Struggle"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "b316b7c8969ccfe1760458ac79637a159c7d15ea3d212c85368b25caae1884dd",
+      "text": "If Hong Lu is main target of the eye's powers attack, make all Coins Unbreakable independently of that skill's own condition."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "3edb04584137816dbe9cc600d79829ce302e5fdc02af05350f64c59f9c09feeb",
+      "text": "Check especially after Still, you can do nothing is used. Destroying the Jade alone does not remove this condition."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "3ce61d4802bc001de7a7c1bd3ed8aafb4509648f1b68be0cc97fda5d292cc85c",
+      "text": "Happiness"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "2b47236ce4b75658277d1f8bbed46569b4434dce49fdbb4f6eb2390238a202c6",
+      "text": "Hong Lu gains +1 Clash Power. While another ally lives, lethal damage restores 50% HP. Prevents imprisonment once in the phase; +5 Clash Power against the imprisonment skill. Winning prevents imprisonment and clears Stagger; Mu loses 10 SP and gains 2 Fragile. Clash wins against Mu grant a total of 3 scarce E.G.O resources."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "c7a10cc156d7906c7ef6563cce8c3e18477267e7f733f09c26b7a121ceb632ca",
+      "text": "Support gained from phase 3. It does not guarantee opening survival; have Hong Lu handle Precious Jade's Cradle [寶玉搖籃]."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "8feb78bb0be3fc419af6276c27868e3002afb2d2f25e765939f775d23d5999a1",
+      "text": "Happiness, Joy"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "72735c62907b8bc9b6a461fa741f863380332c360ef54facbb43ed2b0a7981d6",
+      "text": "Hong Lu gains +1 Final Power. On Clash Win, heal the lowest-SP ally for 5 SP. The 50% HP recovery while another ally lives and 3 resources from wins against Mu continue."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "995636bf9a1544fa81ab32d8e8f9ceeae6bccdf08adf669dfa68e189f60e18ef",
+      "text": "From Joy, the buff increases Final Power. Continue healing and resource generation while handling the Palanquin."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "92b6e34a1c66552bfdaab9f6b6a26d6359065c1f984711df496668809b4472f4",
+      "text": "Happiness, Joy, Sorrow"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "56f9cb3ea4082f5fff7cb6c9358e8427e5951d07274b236302222bfaa57e0b7a",
+      "text": "Hong Lu gains +3 Final Power. Continues allied SP recovery on wins, 50% HP recovery while another ally lives, and 3 resources. When an ally dies, grant remaining allies 1 Attack Power Up next turn at Turn End (once per turn)."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "bb247310fb5c045f5e4c3cf9a6c474560203487a9fba045cf494dd7accbaf017",
+      "text": "Combine this with resources from elders and keep the other allies alive."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "053bc219cb10214edfb9de49cd763e3ba71c3e87038300118aff5fde03ffd26d",
+      "text": "Happiness, Joy, Sorrow, Wrath"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "218f06a9f5dfb963077d8b3dfa2ae57a488fc3ce7b2fc153421ce7500db01b90",
+      "text": "Hong Lu gains +5 Final Power. At Turn Start, heal all allies for 5 SP. Retains 50% HP recovery while another ally lives, 3 resources, and the buff on ally death. Damage increases by 30% of the cumulative percentage of HP lost (max 100%)."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "c14a5a548773b86dbcb921978e372deecdc860d5e479479f611bcf59e496417a",
+      "text": "Supports final clashes and damage, but the survival condition fails if every other ally dies."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "ff0ad03efd836699268e2d9864af04bb61565ce35aa7c3066a57c4a1c3db8d6d",
+      "text": "Sublime Immortality"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "6104e0e74f3f82925723338634ce1022bb4f2bd9c34e603624717c590c85c4d4",
+      "text": "Held by elders. At Turn Start, give Mu's body and all parts Shield equal to 5% of their respective maximum HP."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "e9f8a6125f6341872469932cf8de81a5aa7edbc854c3f207907e49d3d1bf8ae3",
+      "text": "Reduce them to 1 HP to convert to Imperfect Immortality. Handle all 5 before the Offering."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "6eeac3c54c59aafc82786347b601a658348b0fc5872b3e9b50ae38078f9a1bf4",
+      "text": "Imperfect Immortality"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "b522cf1fa87394efdd7cd449a707344267417b774573e65acc66277ab38b7b5f",
+      "text": "Gained when elders reach 1 HP. Absorbed by a specific Mu skill; on Mu, each stack gives 1 Fragile, and 5 stacks cause Stagger."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "497cbb5663d3bc7a9d75ea77a11bdc1fcaa7f98743bf93a4cc61a2828de1ab95",
+      "text": "Do not try to kill 1-HP elders; switch to those still holding Sublime Immortality."
+    },
+    "warnings.0": {
+      "sourceHash": "7bf3d9928c00e938e5d4aff3331e61a008e45576af143059594d4632127247bb",
+      "text": "Hong Lu's lethal-damage recovery starts only after Happiness is gained and requires at least 1 other living ally. It cannot be relied on during the opening or while he is the sole survivor."
+    },
+    "warnings.1": {
+      "sourceHash": "2f46d3eb9f8732b67e75f11cbe7ec2ffb811e03fc50f47c3a17044ef3ada8e41",
+      "text": "Precious Jade's Cradle [寶玉搖籃] ends the turn after attacking. Winning alone prevents imprisonment only when the support conditions are met."
+    },
+    "warnings.2": {
+      "sourceHash": "dfc9c8e7fcd0329e0da1713c2b39dd61cb88e40bd90c4d92bcf18634de3a9c2b",
+      "text": "For the eye's powers attack, separately check the Jade's presence and the Last-ditch Struggle / Hong Lu main-target condition."
+    },
+    "warnings.3": {
+      "sourceHash": "0d32c957fafedc32aad7563e81a6a0ffea17e18521b411141865367fbd1800f2",
+      "text": "The Jade's self-destruction does not grant defeat rewards. Prioritize destroying it with Sinners."
+    },
+    "warnings.4": {
+      "sourceHash": "4e36f64fca097e3b1e7b22bfd33736a71a3f89f1444f8f75d2ae5ef13299479e",
+      "text": "Winning clashes alone does not stop Shield from the Palanquin and elders. Handle the sources themselves."
+    },
+    "warnings.5": {
+      "sourceHash": "3066230f4d664b47ffdd3dc937c918705345c671c18321ee357a6ed7fd046c22",
+      "text": "Listed phase-transition HP values differ. Avoid plans requiring exact numbers; check the enemy's form, actions, and Hong Lu's support."
+    },
+    "warnings.6": {
+      "sourceHash": "787deb026733931099e428c429eed59af7cec972e872107cacafe7bc16b8aa5a",
+      "text": "The Offering and similar skills end the turn after attacking. Heal beforehand rather than scheduling healing afterward."
+    },
+    "preparation.0": {
+      "sourceHash": "f8c94972db52eb1e99fdceb9ce196f1715937ecee69d7f85226cf2de0e633950",
+      "text": "Recommended Level 55. Deploy 7 Sinners including Hong Lu, with 5 reserves. Bring HP/SP recovery E.G.O and skill affinities that supply their resources."
+    },
+    "preparation.1": {
+      "sourceHash": "2beeee1d8120c669d37450880ee70da0baf2c2006f4f082c190a5dd79333ec15",
+      "text": "Combine Speed, Bind, Lust/Gluttony single-target damage, and area attacks for elders. No specific Identity or old bug is required."
+    },
+    "roles.0.name": {
+      "sourceHash": "c907bd9d2761e35229682fd268bf703242b29ca402458b7a9680efbe63389804",
+      "text": "Opening attack-redirection handlers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "7c8cce25fc1754c109bbb420be19d8b09c1527d48ba84c8fa25e68d126e340e3",
+      "text": "Protect Hong Lu before Happiness is gained and redirect the eye's powers attack away from him as main target."
+    },
+    "roles.1.name": {
+      "sourceHash": "4fc388a521d5b794e531e72d1b3605cd6b0d72fa6cf1eaa3dbac78480eafe760",
+      "text": "Focused damage for the Jade and Palanquin"
+    },
+    "roles.1.reason": {
+      "sourceHash": "15211a4042c6791fafcf9c131b07a278936ffaf47a8f76df122c3c5efbef82c3",
+      "text": "Cut off Shield sources early to create time to damage the body."
+    },
+    "roles.2.name": {
+      "sourceHash": "0a4f131d1314dc2b2a073f3e5fafdc6629fbe220e665f15bde00b5c2ef994761",
+      "text": "Healing and resource management"
+    },
+    "roles.2.reason": {
+      "sourceHash": "d5eef02b5404c8a862e083910a8d1985702324dc367df6a5936e99fa3fc19f04",
+      "text": "Use rewards from Hong Lu's wins, the Jade, and elders to recover from long-fight attrition."
+    },
+    "roles.3.name": {
+      "sourceHash": "4fb6703122d0aa38d059cb45b8e30fe30d1bf852a61624f5e150b7f1bc868b7a",
+      "text": "Area attacks for elders"
+    },
+    "roles.3.reason": {
+      "sourceHash": "accf2a73f635a22415fe1e5d595825e40246d31eab591f72745c1f6cae2713e2",
+      "text": "Reduce all 5 to 1 HP, checking the body's slot weight and actual secondary targets."
+    }
+  },
+  "messages": {
+    "boss-copy:jia-mu": "complete",
+    "【リンバス】8-33 ジア・ムー／混覚轀輬黒獣の攻略｜Limbus Assistant": "8-33 Jia Mu / Muddled Heishou of the Corpse Palanquin Guide | Limbus Assistant",
+    "リンバス(Limbus Company)8-33「ジア・ムー／混覚轀輬黒獣」の攻略。6段階の長期戦。序盤はホンルを守り、ねじれ後は宝玉→輿→ご老人の順で妨害源を処理する。喜びを得てからはホンルのマッチ勝利で資源を補給し、回復を続ける。": "Jia Mu / Muddled Heishou of the Corpse Palanquin guide for Limbus Company 8-33. A 6-phase endurance fight. Protect Hong Lu early; after the Distortion, handle the Precious Jade, Palanquin, and elders in that order. Once Happiness is active, use Hong Lu's clash wins to replenish resources and sustain healing.",
+    "8-33 ジア・ムー／混覚轀輬黒獣": "8-33 Jia Mu / Muddled Heishou of the Corpse Palanquin",
+    "8-33「Joy, Anger, Sorrow, and Pleasure」": "8-33 · Joy, Anger, Sorrow, and Pleasure",
+    "ジア・ムーの外見": "Jia Mu appearance",
+    "ジア・ムーのスキル": "Jia Mu skills",
+    "Jia Muの外見": "Jia Mu appearance",
+    "Jia Muのスキル": "Jia Mu skills",
+    "混覚轀輬黒獣の外見": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸] appearance",
+    "混覚轀輬黒獣のスキル": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸] skills",
+    "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸]の外見": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸] appearance",
+    "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸]のスキル": "Muddled Heishou of the Corpse Palanquin [混覺轀輬黑獸] skills",
+    "混覚轀輬黒獣・輿の外見": "Muddled Heishou of the Corpse Palanquin · Palanquin appearance",
+    "混覚轀輬黒獣・輿のスキル": "Muddled Heishou of the Corpse Palanquin · Palanquin skills",
+    "Muddled Heishou of the Corpse Palanquin · Palanquinの外見": "Muddled Heishou of the Corpse Palanquin · Palanquin appearance",
+    "Muddled Heishou of the Corpse Palanquin · Palanquinのスキル": "Muddled Heishou of the Corpse Palanquin · Palanquin skills",
+    "宝玉の外見": "Baoyu, the Precious Jade appearance",
+    "宝玉のスキル": "Baoyu, the Precious Jade skills",
+    "Baoyu, the Precious Jadeの外見": "Baoyu, the Precious Jade appearance",
+    "Baoyu, the Precious Jadeのスキル": "Baoyu, the Precious Jade skills",
+    "天のご老人の外見": "Heavenly Elder appearance",
+    "天のご老人のスキル": "Heavenly Elder skills",
+    "Heavenly Elderの外見": "Heavenly Elder appearance",
+    "Heavenly Elderのスキル": "Heavenly Elder skills",
+    "地のご老人の外見": "Earthly Elder appearance",
+    "地のご老人のスキル": "Earthly Elder skills",
+    "Earthly Elderの外見": "Earthly Elder appearance",
+    "Earthly Elderのスキル": "Earthly Elder skills",
+    "脳のご老人の外見": "Brain Elder appearance",
+    "脳のご老人のスキル": "Brain Elder skills",
+    "Brain Elderの外見": "Brain Elder appearance",
+    "Brain Elderのスキル": "Brain Elder skills"
+  }
+}

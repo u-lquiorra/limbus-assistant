@@ -1,0 +1,303 @@
+{
+  "kind": "team-copy",
+  "id": "spider",
+  "sourceGuide": "src/data/team-guides/spider.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "10f3132771d32e2cb294e69d53182a19bafa0de40cd9973d688c0e6f58c64b60",
+      "text": "Tiansha (3 sacrifices)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "ec39cd0ce10e8317226b6f213b9d98359b03c7bd9809380316c2e91753cfe269",
+      "text": "Tiansha targets deployed House of Spiders members from the latest deployment position. Place the Nursefathers to sacrifice last so they die first. Reserves enter in order after allies die, and incoming House members can become the next targets. Put the Pinky Apprentice, who has the lowest Tiansha priority, first among reserves, then non-House Identities. Remove Phantom Step after 3 sacrifices. Deaths do not grant extra slots while reserves remain."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "cbc8687655761cbed3cd61cdc475911bb2e07bdb26f2b7a0b859a83c77bc8500",
+      "text": "The core unit, gathering Saikai bonuses through Tiansha. Redirects damage to House of Spiders allies while any remain."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "8af7dacab27fcad2074b4e273d092b53d746107aefb513ead17d98aeca1ffe89",
+      "text": "A powerful Nursefather kept as a shield."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "b1f4ec185915b7bbb8696d81c93afe5d952c6c7a9d81c76b07a9f8528ae1fbb8",
+      "text": "Kept as a shield. Clashes in Procuration."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "bd7e88b896d29cc598cd13bba66a040a592865b3d34cd86a4d05b6c8e9f1b284",
+      "text": "An Apprentice kept as a shield. Builds The Duel Escalates for repeated Tremor Bursts."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "83cf54dceb768ecf91cfddd351c9534810fba16e013d9c95ced54883d70b47a6",
+      "text": "An Apprentice to sacrifice. Saikai grants Shield equal to 10% max HP each turn."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "038e22106d09774ddd12bfef11bd31e663261997c7963e49a0cfd6ae720d5efc",
+      "text": "A Nursefather to sacrifice, since this lineup cannot fully use her strengths. Saikai grants -20% damage taken."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "da3e97729f8ea9a5a239a67fc04b2261a03a10ebbd952ab6aa0ac447206003c3",
+      "text": "A Nursefather to sacrifice. Saikai grants Somatic Frisson-inspiring Melody."
+    },
+    "data:examples:0:support:0:note": {
+      "sourceHash": "ec003ec54a489f901153f1af62ea7216ed703f916444420b095cfa63c6d85161",
+      "text": "First reserve. Enters when Tiansha kills an ally, but his lowest Tiansha priority helps keep him alive as a shield."
+    },
+    "data:examples:0:support:1:note": {
+      "sourceHash": "f24c22b8e5a79d2bfeb82101d589534c8d9ce81228d858c2099a2ded2ce8738d",
+      "text": "Enters after a Tiansha death. Cannot be sacrificed because he is not a House member; supports Blade Ryōshū through sustained Burn and Dawnherald."
+    },
+    "data:examples:0:support:2:note": {
+      "sourceHash": "0fbc0837ff14d2cf4cdb1b1ed5d83e5430c0e0e7655e1fc9dc195df3768d6740",
+      "text": "Without entering battle, grants +15% Slash critical damage to the ally with the most Poise."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "b19b299815e88833106024429071c538a911f7c4f0794d2ac6634bf48b34eb37",
+      "text": "Matching resource affinities and area damage enhanced by Entangled Life. The standard WAW choice."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "5c7929ce331c09f728fb41c400aed8c27ccd3d528cf5eecbebd4d0a9e435261c",
+      "text": "Its passive enhances the fourth skill, making it exceptionally compatible with Blade Ryōshū's many slots."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "1fadd0074e9aa1b41e7c39c92b0db9283f46d370ebfeb6b4e23f8c3ffff8a1a8",
+      "text": "Matching resource affinities, high Clash Power, and Fragile application."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "09d36c74b8cd9b39a090bb9514e06b5378aee061fd6baadaaf31f0f75cc35a32",
+      "text": "General-purpose lineup (with Burn)"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "f878479c5ed55a8a56297cdb29ee3ec0b8bd81f8ccda170f36fe387beb217bf5",
+      "text": "Rely less on Tiansha and pair House of Spiders members with strong Meursault and Gregor Identities. If sacrificing, the last-positioned Thumb Nursefather is targeted first. Reserves enter after deaths and can become the next targets if they are House members, so their order matters too. Every House Nursefather has a special Burn-applying S3, making sustained Burn increase damage."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "b7388e002ab3ca3776008c59142a9d2ce7bdaa25e673b1b613bc70f6d0b4cee9",
+      "text": "Strong alone; gains bonuses through Tiansha when needed."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "516a85cb7e7cb75bb9c9bed179723d8c08ce49f4de724cd3ce3ab9c7028427d5",
+      "text": "An Index Nursefather kept as a shield. Builds Procuration for S3."
+    },
+    "data:examples:1:members:2:note": {
+      "sourceHash": "40accfb1df42995a8d2dfb706789b1fbb5634f4b7d1cf4d7dce29ede5bcf7d6d",
+      "text": "An Index Apprentice kept as a shield."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "19022268cd62aef93137ce3caaf19e3cc0126c147921ffa5892e3a4492347ab1",
+      "text": "Cannot be sacrificed because he is not a House member. Maintains Burn and supports Blade Ryōshū with S3's Dawnherald."
+    },
+    "data:examples:1:members:4:note": {
+      "sourceHash": "dc2eb6c0a4d327a786edc2e9c89ac8ed6a0a9fa4e25ebb9d7a4d5e942a2c6816",
+      "text": "Not a House member, so cannot be sacrificed. Maintains Burn Count while ammunition lasts."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "f7530753fd35e1656e1855db500de654e3f189a29a3f7156075f29a6f1400771",
+      "text": "Targeted after the Nursefathers. Saikai triggers Tremor Burst on clash wins."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "3175bd6d5a6c9607eee2db25e02a03e02d2d93ee0982de13935ae4a59b24ece3",
+      "text": "The first Nursefather targeted if using Tiansha. Saikai raises defense Coin Power."
+    },
+    "data:examples:1:egos:0:note": {
+      "sourceHash": "777eb137a54a70fad2db71f8327d4b1543770d66e65f2e6240f71724d0f240a0",
+      "text": "Enhances the fourth skill. Grows stronger against enemies with accumulated Burn."
+    },
+    "data:examples:1:egos:1:note": {
+      "sourceHash": "b9e5af39f56ea011f59974223cd0cdad438d6a474ef1dc2736aa56075fbf6f53",
+      "text": "Area damage enhanced by Entangled Life."
+    },
+    "data:core:0:note": {
+      "sourceHash": "b53a6620468fc50dba3bf1e07b80e7aa37739ebdfcf54cef0c8db32707ef19f4",
+      "text": "The core unit: equip evade Phantom Step [殘像步] to sacrifice House allies through Tiansha, gaining Saikai bonuses and SP. With her at Uptie Ⅲ and the recommended level, the other House members can be at any level or Uptie."
+    },
+    "data:core:1:note": {
+      "sourceHash": "3e792d6efc31d26d667fec7c5c7ee79a11dca9611fe90a76d6746c9725db6769",
+      "text": "A preferred Nursefather sacrifice because the Saikai effect is powerful."
+    },
+    "data:core:2:note": {
+      "sourceHash": "01568e6ed6e79d4ba101831288c6c92d0a7d82d325bee7b917796bfa4ab28765",
+      "text": "A Nursefather sacrifice candidate because this lineup cannot fully use her strengths. Saikai grants -20% damage taken."
+    },
+    "data:core:3:note": {
+      "sourceHash": "e37cc9689a865c47dcd93c7fe3ec79227218b053b47d4f360df3105d46346202",
+      "text": "A powerful Nursefather suited to keeping as a shield. Saikai makes the final Coin Unbreakable."
+    },
+    "data:core:4:note": {
+      "sourceHash": "510eb5341371543e340f57a4bd053fcfa4699ce8ff312094511bbe304a90fc84",
+      "text": "A Nursefather using Burn and Tremor. Saikai raises defense Coin Power."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "ff82c22413b1c00110145e28b413c562e4d2009e89855b743a65fa359e1a0b3e",
+      "text": "House of Spiders Apprentices"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "0595d68c4748f9c393a3360fc369c373f38ce4969de69175efb1fb87d5a13a66",
+      "text": "Sacrificing a Nursefather grants String Severance, allowing 2 subsequent Tiansha kills per turn. Plan ahead for anyone you want to keep. Among Apprentices, the Middle member is hard to fully utilize here, while the Ring member gives strong defensive Saikai, making both sacrifice candidates."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "87b59f0532fcb3821bb520b2699524aa39c0c8d03cba4b7eb526a2204b34e3d0",
+      "text": "Weak opening and last in Tiansha priority, so keep him as a shield."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "50eb3c7e25a85776e7a6014d91da611cfa548e7eb4c00a923fb97df59cd69783",
+      "text": "Saikai grants Shield equal to 10% max HP each turn. A sacrifice candidate."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "b01ccffccbd468bafb671a62d11f238f6ce8c7947c51b8abb25976538b9ab149",
+      "text": "Hard to fully use in this lineup, making him a sacrifice candidate. Saikai grants +2 Defense Level."
+    },
+    "data:combos:0:members:3:note": {
+      "sourceHash": "505a51fbe8aa84c66c96e9bf4cae3278c66556aee6619d3fbd206e2542b526d1",
+      "text": "Treated as the Index Apprentice. Keep her as a shield."
+    },
+    "data:combos:0:members:4:note": {
+      "sourceHash": "3d858a956d0d1e99e541ba67948f176f7b7b9808c513805662cc74c0ad5e34e5",
+      "text": "Saikai triggers Tremor Burst on clash wins."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "17b581d970073f2e9d0c86eda7ea1e980dc76422c07ad13b1f56a5926da64226",
+      "text": "Maintains Burn Count while ammunition lasts and has high Clash Power. Tends to run out of steam in long battles."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "0e1de467c2262a37aaf1c352d576fdf1c78a35819ad8902f9ac3204b613410bf",
+      "text": "Strong Burn Count maintenance, with a self-healing evade that also handles longer battles."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "9ab946578adb2727a2de4155a449c380a8dfe5f0803a2431a3cf35a607946762",
+      "text": "A strong general-purpose pick that can maintain Burn Count alone at any time."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "16a69cb7132ab606467df7fe3dfbb292cad5add069f19479f70ec9f2b14d929d",
+      "text": "Maintains Burn Count with well-timed clashable counters. S3's Dawnherald supports Blade Ryōshū."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "4a1413f94229ca050acbe3ee98f0d3ebb4a66427b976e76cc30a5a8cd78a412b",
+      "text": "Dazzle greatly raises enemy damage taken and also helps manage SP. Poor at maintaining Burn Count."
+    },
+    "data:support:0:note": {
+      "sourceHash": "e281d782e2b01d719279608358a4c1f46352f77848e35169854fc0fa9de1cfd4",
+      "text": "The ally with the highest max HP takes 10% less damage from attack skills, improving Blade Ryōshū's durability."
+    },
+    "data:support:1:note": {
+      "sourceHash": "6ed71c5325f605a51d13c4b5774f23c67b036f147fc7c3fb641fc25bab4feff0",
+      "text": "The lowest-HP ally heals 5 HP on clash wins. Blade Ryōshū's many slots let this healing accumulate."
+    },
+    "data:support:2:note": {
+      "sourceHash": "31d7dce22f733d26594f616e6eb56d68dd0b86734320e54192491a55d743ccb0",
+      "text": "The ally with the most Poise gains +15% Slash critical damage."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "9fee9602331b9638765c91172ef5a71c7e8f4a858f503ec104a05fda821014dd",
+      "text": "Matching resource affinities and split SP costs make it easier to manage. Area damage grows through Entangled Life."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "9e441e47c164ddf8e37f43318d98ae716fff43823d3b2b2ba75b6e349b7986e2",
+      "text": "The fourth skill gains +4 Final Power. Exceptionally suited to Blade Ryōshū's many slots and extra skill uses through Inevitable Termination."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "13f1c536a917d974e135fb086c243c8de30c9c4719fec0e6ca9223de9ea8ee29",
+      "text": "Corrosion kills allies for benefits. A final push when keeping some allies as shields instead of sacrificing everyone through Tiansha."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "3da7194e97ba426b3dcd08c8d09606c9271137b91f0836536b67f0fd94f556a5",
+      "text": "Build around [Blade of the House of Spiders](persona:0415) Ryōshū with House Nursefathers and Apprentices. She grows stronger by sacrificing House allies through Slay the Heavens - Tiansha [天殺], making the team useful across story, Mirror Dungeons, and Luxcavations."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "2f02ba82ef93dfc26dfb2471b036ebf7283b95bf42dd54182d2f5e4a65daa8df",
+      "text": "Blade Ryōshū gains Saikai bonuses whenever a House ally dies. While House allies remain, she can redirect damage to them."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "46ae967972cb5671af7242b70fac8b28d0a0682c2de3709cbfcedaee674a7756",
+      "text": "Once Blade Ryōshū is at Uptie Ⅲ and the recommended level, other House Identities can be at any level or Uptie, keeping investment low."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "94a9a6e85a854f66e847a181329fad925d220d19f94c11176a10a1e8988f5041",
+      "text": "Every House Nursefather has a special Burn-applying S3, so the team can use Burn too. It remains strong without maintaining Burn."
+    },
+    "guide:2:0:0": {
+      "sourceHash": "0ccf3d4d81f6eff1c6a65bab9b1f721e3d94536b1344868ef74feae0ca719e65",
+      "text": "Equipping Phantom Step [殘像步] marks a House Identity at Combat Start, kills them through Tiansha after their action ends, and grants Saikai bonuses and SP."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "0a641215a427d1cbb35101e09ee6e1be9e44f166415186d4edf4224609388e2f",
+      "text": "Tiansha selects deployed House members from the latest deployment position, with the Pinky Apprentice last in priority. Put Nursefathers you want to sacrifice at the end so they are killed first."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "cc790c1e13d3674e83d65eeada5c2341d322971b925fd2986efdf676e825bf09",
+      "text": "When an ally dies, reserves enter in order. Incoming House members occupy a late position and can become the next Tiansha targets. Put the lowest-priority Pinky Apprentice first among reserves, followed by non-House Meursault and Gregor, to sacrifice only the intended units."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "a18cbf674daab19885bca177e5920d3ae55e9d995449a777e7680a825cc0487e",
+      "text": "After sacrificing the intended number, remove Phantom Step to stop Tiansha."
+    },
+    "guide:2:0:4": {
+      "sourceHash": "319a369cad8acf4de0bdfa8fa06d38ef02d6597c9464c2fbadeb53d38b673864",
+      "text": "Deaths do not increase slots while reserves remain. Deploying fewer total units is an option if you want slots to grow sooner."
+    },
+    "guide:2:0:5": {
+      "sourceHash": "f68eb79d83cf8e408dd9b4e02ab6218654339cc7f38e05c1011e46a96dbffd2e",
+      "text": "The basic sequence is: sacrifice a Nursefather on turn 1 for 1 String Severance, sacrifice again on turn 2 to reach 3 deaths and 45 SP, then use Rend Space - String Connection at the end of turn 3 to complete Blade Ryōshū's setup."
+    },
+    "guide:2:0:6": {
+      "sourceHash": "a8057e6394b2b3ab502c471ae83dde4a6574748d6c1ede4d294d22073bb44923",
+      "text": "A Nursefather sacrifice grants String Severance, enabling 2 Tiansha kills per turn afterward. Plan in advance for anyone you want to keep."
+    },
+    "guide:2:0:7": {
+      "sourceHash": "235e478df6c4e57f6b526b2877676e1069cd25737ee7246d5dac7e1674f5dc05",
+      "text": "Candidates include the [Ring Nursefather](persona:0614) for powerful Saikai, the underutilized [Middle Nursefather](persona:1115) and Middle Apprentice, and the Ring Apprentice for defensive Saikai. Keeping the Index pair and Pinky Apprentice as shields is the safer choice."
+    },
+    "guide:2:0:8": {
+      "sourceHash": "7bcbf045e352b5257f6be690dfbe1ae9e5a895b9c0114e486b53054384f3b93d",
+      "text": "Sacrificing everyone has major defensive drawbacks and is unreliable outside Mirror Dungeons, where Gifts can compensate."
+    },
+    "guide:3:heading": {
+      "sourceHash": "24cf3fa9ebcb310fb4f9701d1a41e70b9caab3ca8f99bf6e16b04f66ee0ef0f9",
+      "text": "Choosing Meursault and Gregor"
+    },
+    "guide:3:0:0": {
+      "sourceHash": "63b61ea5bd835a027541007b64ec0cd1657dfb93854f3e850fcd54ad58d17efc",
+      "text": "Neither Meursault nor Gregor has a House Identity, so neither can be targeted by Tiansha."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "a69ba1eff4e2f5d064b922984d9be475c3d01267a4b58efd91a02c9fdce3b258",
+      "text": "For fighting alongside her, choose Capo IIII Meursault, Firefist Office Survivor, or Dawn Office Rep Gregor. To support Blade Ryōshū, choose Hornet【Alteration】 Meursault or Lamp Gregor."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "ac33fe609120572e8ae951743c3bfcd65500ca576309bc2537d7e441a6f20ff7",
+      "text": "For bench durability, choose LCB Sinner Meursault or G Corp. Manager Corporal Gregor. For damage, choose Blade Lineage Mentor Meursault."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "d1e7a50b8905ae329f7534c026df314e1fd0968f7b11772f76bbf6950512f60e",
+      "text": "[Great Trichiliocosm [三千大世界]](ego:0409) is the standard WAW choice. Its resource affinities match perfectly, and Entangled Life enhances its area damage."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "3692890f2daeb3f03ca755be1498e2a9353df93b202cf2d092017b6ca194c9c0",
+      "text": "Ryōshū's [4th Match Flame](ego:0402) is the best-fitting HE. Its +4 Final Power for the fourth skill activates quickly with Blade Ryōshū's many slots."
+    },
+    "guide:4:0:2": {
+      "sourceHash": "dab784fbcb9712437b19dfe98eec37a38d275b831684802181f1aafe3d819f6f",
+      "text": "The starting E.G.O [Forest for the Flames](ego:0401) is sufficient for ZAYIN."
+    },
+    "guide:5:0:0": {
+      "sourceHash": "733e2d942a02acc0b7c3a91c499bcc8b16194077e8f093a20ed27d844c68bc2b",
+      "text": "Enemies resistant to Slash are somewhat troublesome."
+    },
+    "guide:5:0:1": {
+      "sourceHash": "4fb7259bd83f78d8a9ccee92fcec1634982372eb346927a2e705e8251f38b921",
+      "text": "In story fights where a particular Sinner's death causes defeat, avoid sacrificing that Sinner through Tiansha."
+    },
+    "guide:5:0:2": {
+      "sourceHash": "65bc3ffa346345bb5df1a182c1c8b45ec23818b8e823ef286942996c34cd3216",
+      "text": "In some all-participant content, slots do not regenerate beyond the cap. Sacrificing everyone can leave fewer than 7 slots."
+    }
+  },
+  "metadata": {
+    "title": "House of Spiders Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company House of Spiders team guide: built around Blade of the House of Spiders Ryōshū with House of Spiders Nursefathers and Apprentices. Blade Ryōshū grows stronger by using Tiansha on House allies, and the team works in story, Mirror Dungeons, and Luxcavation."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

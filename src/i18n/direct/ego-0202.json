@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0202.md",
+  "code": "0202",
+  "messages": {
+    "5枠広域の攻撃と同時に、味方全員の体力と精神力をまとめて回復する、資源が重い憂鬱打撃の回復E.G.O。": "A Gloom Blunt healing E.G.O with heavy requirements that attacks 5 targets while restoring HP and SP to all allies at once.",
+    "全体回復: 攻撃後に全味方の精神力と体力(最大値の割合)を回復する。解析Ⅲで回復量が10から15に増える。": "**Team-wide healing**: After the attack, restores SP and HP (as a percentage of max HP) to all allies. Threadspin Ⅲ raises the amount from 10 to 15.",
+    "解析Ⅳの追加回復: 表面の攻撃終了時に、全味方の精神力をさらに10回復する。": "**Extra healing at Threadspin Ⅳ**: At the end of a Heads attack, restores another 10 SP to all allies.",
+    "重い資源: 色欲2・憂鬱4・嫉妬3の9個が必要。編成で賄えないと撃てない。": "**Heavy requirements**: Needs 9 resources: 2 Lust, 4 Gloom, and 3 Envy. It cannot be used unless the team can supply them.",
+    "低めのマッチ威力: 14~22(解析Ⅲで16~24)で、回復系としては低めと考えられる。確実に勝てるスキルへ当てたい。": "**Modest Clash Power**: 14–22, or 16–24 at Threadspin Ⅲ, which is likely low for a healing E.G.O. Aim it at skills it can reliably beat.",
+    "パッシブ「包み込む液体」: ターン開始時に、体力が最も低い味方1人に保護2を付与する。": "**Passive — Liquid Veil**: At Turn Start, gives 2 Protection to the 1 ally with the lowest HP.",
+    "資源を出せる人格を編成して撃てる状態を作り、精神力と体力が落ちた場面で撃つ。": "Include Identities who can supply its affinities so it is ready, then use it when SP and HP have fallen.",
+    "精神力が低いとコインの裏が出やすいので、マッチ負けを避けられる相手に当てる。": "With low SP, Coins tend to land Tails, so target opponents against whom it can avoid losing the Clash.",
+    "侵蝕スキルは、敵への精神力ダメージと攻撃威力減少を付ける攻撃的な内容で、回復は付かない。敵味方識別不可で、対象はランダム(味方に当たり得る)。": "The Corrosion skill is offensive, dealing SP damage and Attack Power Down to enemies, and does not heal. It cannot distinguish friend from foe, and its targets are random, so it can hit allies.",
+    "Ⅱ: パッシブが解放されるのみ。": "**Ⅱ**: Only unlocks the passive.",
+    "Ⅲ: マッチ威力と回復量が増え、侵蝕の精神力ダメージも増える。": "**Ⅲ**: Increases Clash Power and healing, and raises the Corrosion skill's SP damage.",
+    "Ⅳ: 覚醒に精神力回復、侵蝕に精神力ダメージが加わる。優先して進める価値は高いと考えられる。": "**Ⅳ**: Adds SP recovery to Awakening and SP damage to Corrosion. It is likely well worth prioritizing.",
+    "生き残ったロボトミー職員: S1が色欲、S2が憂鬱、S3が嫉妬で、必要資源の3属性をすべて出せる。": "**[Lobotomy Corp. Remnant](persona:0203)**: Lust S1, Gloom S2, and Envy S3 supply all three required affinities.",
+    "マルチクラック事務所 代表: S1が色欲、S2が嫉妬、S3が憂鬱で、必要資源の3属性をすべて出せる。": "**[MultiCrack Office Rep](persona:0210)**: Lust S1, Envy S2, and Gloom S3 supply all three required affinities."
+  }
+}

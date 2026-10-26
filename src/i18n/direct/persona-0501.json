@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0501.md",
+  "code": "0501",
+  "messages": {
+    "防御レベルが高く速度が遅い、攻撃を受け止めるタンク寄りの人格。振動は自分で積んで爆発させられるが、火力は控えめ。": "A slow, tank-oriented Identity with high Defense Level. He can stack and burst Tremor himself, but his damage is modest.",
+    "硬さと遅さ: 防御レベルは人格Lv+3、速度は1〜3と遅い。S2「突き立てる拳」は使用時に次のターンの守備威力増加3、S3「連撃」は使用時に次のターンの保護3を得て、自分の守りを固める。": "**Sturdy and slow**: His Defense Level is Identity Lv +3, and his Speed is a slow 1–3. S2 Nailing Fist grants 3 Defense Power Up next turn on use, and S3 Des Coups grants 3 Protection next turn on use, shoring up his own defense.",
+    "振動: S1「ワン、ツー」とS3の表面的中で振動を付与し、S3のⅣコインで振動回数を2増やす。S2のⅠコイン的中時に振動爆発する。": "**Tremor**: S1 Un, Deux and S3 inflict Tremor on Heads Hit, and Coin Ⅳ of S3 increases Tremor Count by 2. S2 triggers Tremor Burst on Coin Ⅰ hit.",
+    "バトルパッシブ「覚悟」(怠惰×2・保有): 戦闘開始時、自分の体力が50%未満なら保護1を得る。": "**Combat passive — Staunchness (2 Sloth Owned)**: At Combat Start, gains 1 Protection if his HP is below 50%.",
+    "サポートパッシブ「背中を支える」(怠惰×3・保有・同期化Ⅲで取得): 控えにいる間、最大体力が最も高い味方1名の、攻撃スキルによる被ダメージ量-10%。": "**Support passive — Backup (3 Sloth Owned; unlocked at Uptie Ⅲ)**: While in backup, the 1 ally with the highest max HP takes −10% damage from attack skills.",
+    "硬さを活かして攻撃を受け持ち、S2・S3の「次のターン」の守りで被害を抑える。振動は S1・S3 で積んで S2 で爆発させられるが、振動爆発を活かすなら、振動を多く付与できる味方(LCCB係長 イシュメールなど)と組むとよい。控えに置く場合はサポートパッシブで味方のタンクを支えられる。": "Use his durability to take attacks, and limit damage with the next-turn defenses from S2 and S3. He can stack Tremor with S1 and S3 and burst it with S2, but to make the most of Tremor Burst, pair him with allies who inflict plenty of Tremor (such as Ishmael's LCCB Assistant Manager). In backup, his support passive can support the team's tank."
+  }
+}

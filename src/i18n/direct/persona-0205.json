@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0205.md",
+  "code": "0205",
+  "messages": {
+    "防御レベル増加を味方に配りながら攻撃を受け止めるタンク・サポート。自分の防御レベル増加5以上で起きる自己強化は、他のツヴァイ協会人格などから防御レベル増加をもらう前提で考える。": "A tank and support who hands Defense Level Up to allies while absorbing attacks. Her self-buffs at 5 or more Defense Level Up assume she also receives Defense Level Up from other Zwei Association Identities and similar sources.",
+    "味方への防御レベル増加: S2「顧客保護」は使用時に、現体力の比率が最も低い味方へ防御レベル増加2/3を付与する(1ターン最大3回)。自分の体力比率が最も低ければ自分が対象になる。S3「治安守護」のⅡコインも、比率が最も低い味方へ次のターンにクイック1・防御レベル増加2を付与する(ツヴァイ協会フィクサーなら各1追加)。": "**Defense Level Up for allies**: On use, S2 Client Protection grants 2/3 Defense Level Up to the ally with the lowest current HP ratio, up to 3 times per turn. If her own HP ratio is the lowest, she becomes the target. Coin Ⅱ of S3 Law and Order also gives 1 Haste and 2 Defense Level Up next turn to the ally with the lowest ratio, plus 1 more of each if the target is a Zwei Association Fixer.",
+    "バトルパッシブ「地域保護」(憂鬱×4・保有・同期化Ⅱで取得): 戦闘開始時、操作パネルの両隣の味方へ防御レベル増加2を付与する(対象の体力が50%未満なら追加で2)。": "**Combat passive — Territory Protection (4 Gloom Owned; unlocked at Uptie Ⅱ)**: At Combat Start, grants 2 Defense Level Up to the allies on both sides of her on the dashboard, plus 2 more if the target is below 50% HP.",
+    "自己強化(防御レベル増加5以上): S2はマッチ威力+1/2、S3はコイン威力+1。自前ではS1「巡察」のマッチ敗北時2/3、S1のⅡコインとS2の各コイン(次のターンに得る)くらいしか手段がなく、1回の行動では届きにくい。": "**Self-buffs (5+ Defense Level Up)**: S2 gains +1/2 Clash Power, and S3 gains +1 Coin Power. Her own sources are limited to 2/3 from losing a Clash with S1 Patrolling, plus Coin Ⅱ of S1 and each Coin of S2 (gained next turn), so a single action rarely reaches the threshold.",
+    "外部からの供給: 南部ツヴァイ協会4課 グレゴールのS3は使用時に全味方へ防御レベル増加3を付与する。西部ツヴァイ協会3課 シンクレアは、体力の低い味方へ次のターンに防御レベル増加を付与できる。": "**External supply**: Gregor's Zwei Assoc. South Section 4 grants 3 Defense Level Up to all allies when using S3. Sinclair's Zwei Assoc. West Section 3 can grant Defense Level Up next turn to allies with low HP.",
+    "挑発: S1は次のターンにそのスロットの挑発値+2、ガードは+3。": "**Aggro**: S1 adds +2 Aggro to its slot next turn, and Guard adds +3.",
+    "主な仕事は、S2・S3とパッシブで味方の耐久を底上げしながら、挑発値で攻撃を引き受けること。自己強化を狙うなら、南部ツヴァイ協会4課 グレゴールなどから防御レベル増加をもらうか、自分の体力比率を下げてS2の付与を自分に向ける。ツヴァイ編成で使うのが基本。また、E.G.O《水袋》のコストで最も消費の多い憂鬱をガードで稼げるため、その資源の供給役も兼ねられる。": "Her main job is raising allies' durability with S2, S3, and her passive while drawing attacks with Aggro. To aim for her self-buffs, receive Defense Level Up from sources such as Gregor's Zwei Assoc. South Section 4, or lower her own HP ratio so S2 targets herself. She is generally used in Zwei teams. Her Guard also produces Gloom, the most demanded affinity in the cost of the E.G.O Fluid Sac, so she can double as its resource supplier."
+  }
+}

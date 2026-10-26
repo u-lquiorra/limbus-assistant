@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0805.md",
+  "code": "0805",
+  "messages": {
+    "精神力の低い味方4名を回復し、高い味方4名の貫通とダメージ量を強化する、広域の貫通サポートE.G.O。": "A multi-target Pierce support E.G.O that restores SP to the 4 allies with the lowest SP and strengthens the Pierce attacks and damage of the 4 allies with the highest SP.",
+    "精神力回復: 攻撃後、精神力が最も低い味方4名を15(解析Ⅲは20、Ⅳは25)回復する。精神消耗は35と重く、自分も対象に入るなら解析Ⅳで収支は-10と考えられる。": "**SP recovery**: After the attack, restores 15 SP (20 at Threadspin Ⅲ, 25 at Ⅳ) to the 4 allies with the lowest SP. Its Sanity cost is a heavy 35, so if she is among the targets, the net at Threadspin Ⅳ is likely −10.",
+    "貫通・ダメージ量強化: 解析Ⅲから、精神力が最も高い味方4名へ貫通威力増加とダメージ量増加(Ⅲは1、Ⅳは2)を付与する。付与は今回のターン限りなので、早く行動するターンに撃つと活きる。": "**Pierce and damage buffs**: From Threadspin Ⅲ, gives Pierce Power Up and Damage Up (1 at Ⅲ, 2 at Ⅳ) to the 4 allies with the highest SP. It only lasts this turn, so firing it on a turn she acts early makes it count.",
+    "充電と呼吸: 表面的中時に自分の充電回数が3(解析Ⅲは4)、解析Ⅳでは的中時に6増え、ランダムな味方1名へ呼吸回数1(解析Ⅳは2)を付与する。": "**Charge and Poise**: Her Charge Count increases by 3 on Heads Hit (4 at Threadspin Ⅲ), or by 6 on hit at Threadspin Ⅳ, and 1 random ally gains 1 Poise Count (2 at Threadspin Ⅳ).",
+    "無謀な航海: ターン終了時、自分以外で体力が最も低い味方に沈潜5、次のターンにクイック1と攻撃レベル増加3(マッチ威力+1相当)を付与する。同じ味方が最も体力が低いままなら、沈潜が積み上がる。": "**Passive — Temeritous Voyage**: At Turn End, inflicts 5 Sinking on the ally other than herself with the lowest HP, plus 1 Haste and 3 Offense Level Up (equal to about +1 Clash Power) next turn. If the same ally remains lowest in HP, Sinking keeps piling up.",
+    "開幕に撃つと自分の精神力がマイナスに沈みやすい。精神力を回復できる味方と組む。": "Firing it at the start tends to sink her own SP into negatives. Pair her with allies who can restore SP.",
+    "貫通人格が多い編成ほど強化の恩恵が大きい。": "The more Pierce Identities in the team, the larger the buff's benefit.",
+    "長期戦では沈潜が累積するので、使うなら短期決着を狙う。": "Sinking accumulates in long fights, so if you use it, aim for a quick finish.",
+    "Ⅱ: 「無謀な航海」が解放されるが、沈潜のデメリットも加わる。強化するならⅢまで進めたい。": "**Ⅱ**: Unlocks Temeritous Voyage, but also adds the Sinking downside. If you upgrade it, go at least to Ⅲ.",
+    "Ⅲ: 貫通威力増加とダメージ量増加が解禁され、回復と充電が増える。": "**Ⅲ**: Unlocks Pierce Power Up and Damage Up, and increases recovery and Charge.",
+    "Ⅳ: 加重値が5から7、最大威力が35になり、強化の発動条件が緩み、収支が改善する。": "**Ⅳ**: Attack Weight goes from 5 to 7, maximum power becomes 35, the buff conditions relax, and the net cost improves.",
+    "R社第4群トナカイチーム: S1(憂鬱)・S2(嫉妬)・S3(憤怒)で憂鬱・嫉妬・憤怒の資源を出せ、充電回数を使うスキルと充電獲得が噛み合う。": "**[R Corp. 4th Pack Reindeer](persona:0802)**: S1 (Gloom), S2 (Envy), and S3 (Wrath) supply Gloom, Envy, and Wrath resources, and her skills that use Charge Count mesh with the Charge gain.",
+    "ピークォド号船長: スキルが貫通で、S1(嫉妬)・S2(傲慢)で嫉妬・傲慢の資源を出せ、呼吸を付与・獲得する効果を持つ。": "**[The Pequod Captain](persona:0808)**: Her skills are Pierce, S1 (Envy) and S2 (Pride) supply Envy and Pride resources, and she has effects that give and gain Poise."
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "kind": "boss-copy",
+  "id": "doomsday-calendar",
+  "source": "src/data/bosses/doomsday-calendar.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Existing source metadata remains with the original guide; proper names use the paired game localization dictionary."
+  },
+  "entries": {
+    "name": {
+      "sourceHash": "fb8ebdb47dbd4e8b8d2509afee6701b894f26c885430b6435ed8779a6cd83db0",
+      "text": "Doomsday Calendar (Canto I)"
+    },
+    "shortName": {
+      "sourceHash": "b924ebbd7e4259c06f4655dfe538b5176397ebf78908ca4144119913d9caca68",
+      "text": "Doomsday Calendar"
+    },
+    "stageName": {
+      "sourceHash": "ea7f90088304694b57103ee0c76287c1c220e45532028a048b7c5ca3852b331d",
+      "text": "D-02 Branch, Floor 2: Critical Abnormality Containment"
+    },
+    "lead": {
+      "sourceHash": "212cfd0508ff19897eacf590247075277c7b8df72d5513cb19cecccd57c1e372",
+      "text": "Defeat the initial Clay Dolls, then attack the arms and face in order. In phases 2 and 3, reduce 1 Clay Doll to 0 HP so you can weaken the boss through a check without spending a Sinner's HP. Even success at the final check carries a large cost, so also aim to defeat the main body beforehand."
+    },
+    "listLead": {
+      "sourceHash": "9a30ba690794c1e33bcd9e152ae6b61f3f9ab4def2de0561b4ed66187fea5f03",
+      "text": "Clear adds, then attack the arm and face in order. Prepare an appropriate Sinner for the intermediate check and preserve HP."
+    },
+    "statNote": {
+      "sourceHash": "e4e49e95abcff22960969b8349ffa1eb6414235ea570b13e24bfaf282877ff77",
+      "text": "The Floor 2 encounter in the Canto I dungeon. Main body: Lv. 6, 336 HP; arms: 62 HP each; face: 143 HP. The boss-fight adds have Lv. 6, 40 HP, and Defense Level 3, unlike the Lv. 5 dolls encountered earlier or Lv. 7 event versions."
+    },
+    "skillNote": {
+      "sourceHash": "c4d5cbae821802f285de935d2bf7a658aa8fb3ff367e069838ebf639b8ab407e",
+      "text": "Main-body Offense and Defense Levels are enemy level − 5; Clay Dolls use enemy level + 3. Shared arm skills are listed separately by Part. Live Offering has Base Power 10 and Coin Power −6; Universe Aflame has 45 and −10. The first final-phase use targets the enemy's allies with 4 Attack Weight; later uses target Sinners with 10 Attack Weight and are listed separately."
+    },
+    "priorities.0": {
+      "sourceHash": "abce5f2846d37aec5bf4a5b16cbf533f5a232fe5640118df1dee97a615529c6c",
+      "text": "In phase 1, reduce both Clay Dolls to 0 HP. In phase 2, destroying both arms or reducing main-body HP to 70% or less exposes the face. In phase 3, reaching 25% HP or less starts the final phase."
+    },
+    "priorities.1": {
+      "sourceHash": "e339d8b94b39f73edbe21432bbad8221ea55dfb92e477f550a715348bab491e6",
+      "text": "In phases 2 and 3, reducing 1 of that phase's Clay Dolls to 0 HP unlocks the option to offer a Clay Doll. Offering a Sinner costs HP even on success."
+    },
+    "priorities.2": {
+      "sourceHash": "41dd27b994fa8714952be602f6bb3dec9dbdbfb7b04d05d5c4e850d0ca7c1545",
+      "text": "Even a successful final check costs the selected Sinner 100 HP and all Sinners 30 SP. Defeating the main body from above 25% HP skips the final phase. Defeating it also suppresses the Clay Dolls."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "51df39ccb5b9e495b239028cac4ae591f5d089bb53351573e645ddeb4f4eec28",
+      "text": "I cannot attack the main body"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "70b252d92dffda7ee737126840867e5a0f3aa1114f15663354a29ec6dacf5365",
+      "text": "The main body cannot be attacked in phase 1. Reduce both Clay Dolls to 0 HP to start phase 2. Arms become targetable in phase 2; the face in phase 3."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "08363a07d813b795ab919bff9c3fff3af6b7eef878641e034444a1319585f827",
+      "text": "Defeating a Clay Doll did not trigger On Kill effects"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "ccf661822b9ce763fdf1e48ed08001187be43e154d107ca1056afa1348b31bd1",
+      "text": "At 0 HP, the Clay Doll adds do not die; they become unable to act and untargetable. They are suppressed when the main body is defeated, so reducing a doll to 0 HP alone does not necessarily trigger On Kill effects."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "e587f5013d528df8fdc98b48d55132d7df51ae29bfd75d8dd82177d15b215c96",
+      "text": "I cannot choose to offer a Clay Doll"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "8d693e8e61447b7834a34b68b4ab445d37c6fe025accf254977f79f4ab75f8e9",
+      "text": "You need a Clay Doll reduced to 0 HP during the current phase. Do not expect phase 1 dolls to carry over into the next check; prepare 1 during each of phases 2 and 3."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "b498585d1604e1d3705d588b93e086b35aa7ae69c6d1e07a56c8788d13b8e681",
+      "text": "An ally lost a lot of HP despite passing the check"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "2366d559285c8b360f9a964879e2f2253a873246d95b811eb2a69532fc2baa21",
+      "text": "Offering a Sinner costs HP even on success: 20 in phase 2, 30 in phase 3, and 100 at the final check. Prepare Clay Dolls for the intermediate checks; for the last one, consider both HP and SP costs when choosing a Sinner."
+    },
+    "units.0.name": {
+      "sourceHash": "b924ebbd7e4259c06f4655dfe538b5176397ebf78908ca4144119913d9caca68",
+      "text": "Doomsday Calendar"
+    },
+    "units.0.part": {
+      "sourceHash": "1021854feee3533822067b5007aab96d9ef8289527e1bb14bbbe4bedc6f51eb1",
+      "text": "Face"
+    },
+    "units.0.hp": {
+      "sourceHash": "a79752ddf20d9a3fb91d42dac30deb2d107677c1d00a123c9e17bfdeee249f68",
+      "text": "336 (main body) / 143 (Face)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "089f9fcfb4f8cbab3883e277f7fb577648ad61343678952b11fcf9fa49c0b14a",
+      "text": "Targetable from phase 3 onward. Can still be attacked after destruction and continues acting."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1d645d06eae15e7245f4d238ab60a86a96ea0011e3d612ea40748dbb19ad70c5",
+      "text": "Entering the final phase removes the face's broken state and fully restores its Part HP, not the main body's HP."
+    },
+    "units.1.name": {
+      "sourceHash": "5239d3efb1d8ecc0f2226d7be88f5219e5cd4f4514f642a7e7aa980618dff4d3",
+      "text": "Doomsday Calendar (Right Arm)"
+    },
+    "units.1.part": {
+      "sourceHash": "8bde89d9cfa1060d05ea3ef40a002029f4e1572e6cf933d3ec0f7f82ec2f9153",
+      "text": "Right Arm"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "f7bf0e0e7cdc13c4f4e957e6ffe80ec4ed2c39cd7dd0d9b0d7bd9a03d19339ee",
+      "text": "Targetable only during phase 2. Removal cancels actions and deletes slots; cannot be attacked afterward."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "674040052cb7ba96528fea75f2aa75af9702d8b8bce41185a27da7d373c40992",
+      "text": "Destroying both arms or reducing main-body HP to 70% or less starts phase 3."
+    },
+    "units.2.name": {
+      "sourceHash": "6762555aa3b672d76e7c0b266685f48754c96e36334d07f8dd97b8ed1684b608",
+      "text": "Doomsday Calendar (Left Arm)"
+    },
+    "units.2.part": {
+      "sourceHash": "00da7cbe13ff32155a78004af52ce9358e14f81acc8bbc53621e869be0addf84",
+      "text": "Left Arm"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "f7bf0e0e7cdc13c4f4e957e6ffe80ec4ed2c39cd7dd0d9b0d7bd9a03d19339ee",
+      "text": "Targetable only during phase 2. Removal cancels actions and deletes slots; cannot be attacked afterward."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "12969a6142955660af0d576389bef225c03e7b2b05d795ac83c98347351883af",
+      "text": "After breaking one arm, still check the remaining arm's actions."
+    },
+    "units.3.part": {
+      "sourceHash": "917540c6475c9448880b8a3545afd189e94a0056d3e058232b57fa4f57ac57fe",
+      "text": "Head"
+    },
+    "units.3.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.3.name": {
+      "sourceHash": "3a0a7d479ef612dda28cb8b219347ac696bbe8f6201ee0a8f6d6fffd6ed3138c",
+      "text": "Doomsday Clay Doll"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "97f5a22926c2fc77a17b89f97eb7bce9383a697a9b64ccc1600a8c80404dd864",
+      "text": "2 appear in phase 1, followed by 3 new dolls in phase 2. At 0 HP they cannot act or be targeted, but do not die at that point."
+    },
+    "units.3.notes.1": {
+      "sourceHash": "e62fab8f67692c648cd33bbf73c28d643c1f78a1b501ea5aec2613f650217a22",
+      "text": "In phase 2, reducing 1 doll to 0 HP makes it available as an offering for that phase's check."
+    },
+    "units.4.part": {
+      "sourceHash": "917540c6475c9448880b8a3545afd189e94a0056d3e058232b57fa4f57ac57fe",
+      "text": "Head"
+    },
+    "units.4.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.4.name": {
+      "sourceHash": "d2c683f90dab931e6ac0d05828baffe9d9c8fc8ca8cdbcd54b4c5cc347f2b79f",
+      "text": "Burning Clay Doll"
+    },
+    "units.4.notes.0": {
+      "sourceHash": "26b4622efe283d17bedb07c0120983dbc24cd10ebdb5bd14025b98f42c8943a6",
+      "text": "4 appear in phase 3. At 0 HP they cannot act or be targeted."
+    },
+    "units.4.notes.1": {
+      "sourceHash": "ef15abf652ad0d26ec07d95667ce94e8790f71494b0b2dea43f8367bda10e42b",
+      "text": "Offering a doll reduced to 0 HP during phase 3 stops Frenzy without spending a Sinner's HP."
+    },
+    "phases.0.timing": {
+      "sourceHash": "b45bfee12b17b02febce36d1b9c73163c520c644b7c26b734acd815abf497094",
+      "text": "Phase 1"
+    },
+    "phases.0.title": {
+      "sourceHash": "c59c17ce12ee3e3499350364c9669894b6117a4a6d6d178d84dbffd678c81e89",
+      "text": "Reduce both Clay Dolls to 0 HP"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "68d980d6b468cbac6827d06c52c1f41fab02002d086aa1c1579cd424e2d9817d",
+      "text": "The main body does not act and cannot be attacked. Attack the 2 Clay Dolls; Blunt and Sloth are effective."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "b0923e276122333c9534de22770628b17576b6091ae2df681a0fc248bbb48804",
+      "text": "At 0 HP, dolls do not die but become unable to act and untargetable. Reducing all of them to 0 HP starts phase 2. Waiting only for the main body to attack will not advance the fight."
+    },
+    "phases.1.timing": {
+      "sourceHash": "b042ffc103bfd92e804f18c69cf35db316b9a9fbca175c6974b497fb1da64247",
+      "text": "Phase 2: arms and 3 Clay Dolls"
+    },
+    "phases.1.title": {
+      "sourceHash": "dfe908fbdf4a87d18fb0eeb8664c6f123a32c4b132cdb5789858a1ea041a1757",
+      "text": "Attack the arms and prepare 1 doll for the check"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "0907d5f90c727e5bfd61584a102e12778202f655a5086ca97c9d97f6f036a039",
+      "text": "The main body attacks with both arms, and 3 new Clay Dolls appear. Slash is effective against arms; Blunt against dolls. Break both arms or reduce main-body HP to 70% or less to advance."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "4a1a81f3ce94e3712efa723813c7f5e259231dd87208e911d1fc947e3cb984fa",
+      "text": "Before the check, reduce 1 doll from this phase to 0 HP. Offering it inflicts 3 Attack Power Down on all main-body Parts. Defeating every doll is not required to advance."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "cce6eaf9a2133145d0194420bb3dbb7236c25563727ecec093f2bc2a7823998c",
+      "text": "Without a doll, take a Lust-favored check. Even success costs the selected Sinner 20 HP. Failure also costs them 15 SP and grants 3 Damage Up and 3 Fragile to all main-body Parts. Choose a Sinner with enough HP."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "fcb599c3c61fce05765dd6055582b9736e08d26ace58ec0b078359764ce9f729",
+      "text": "Watch for the check warning and the event itself. If both arms are Staggered or destroyed, the event may be temporarily delayed. Removed arms cannot be attacked further."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ea9a0f1200503f1eb8fae112256c0cebd3af4fad1fce2865b73dbbea6eb113c6",
+      "text": "Phase 3: face and 4 Burning Clay Dolls"
+    },
+    "phases.2.title": {
+      "sourceHash": "bf0f680e388a1d93fd935e1c73dcf0aaf4a9b149b201cbf964308a9ed8517496",
+      "text": "Stop Frenzy and damage the face"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "bb4038ee609249e83b073a6f55a92c16abd645c079f259d526a3c2080542a554",
+      "text": "The normal dolls disappear and are replaced by 4 Burning Clay Dolls. The main body only Guards, but Frenzy inflicts 3 Burn on all Sinners each turn."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "b69eca87bc615e158e72d02490d5a310d0f197e4c6258fa6375157991937c0bf",
+      "text": "Again, reduce 1 doll to 0 HP and offer it during the check. This removes 100 main-body HP and stops Frenzy without costing a Sinner HP. Defeating every doll is not required to advance."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "5868f16a97282672577caef20478c05a0f76846c70fa48939eb67424665c5c6a",
+      "text": "Without a doll, take a Gloom-favored check; even success costs the selected Sinner 30 HP. Failure still removes 100 main-body HP, but also costs the Sinner 15 SP, inflicts 10 Burn on all Sinners, and does not grant the successful removal of Frenzy."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "3ca55444f7ae983e7a35c5d3172d9d284dde68301b91b71fa887e73f062bc58f",
+      "text": "The exact timing of the phase 3 event is not consistently documented. Follow the warning and prepare a doll before the check rather than waiting a fixed number of turns. Defeating the boss from above 25% HP skips the final phase."
+    },
+    "phases.3.timing": {
+      "sourceHash": "69447e0d000ec339e42a244936a98a19e395718e7c4be92d78fd4b5d4d0d727d",
+      "text": "Main-body HP at 25% or less / final phase"
+    },
+    "phases.3.title": {
+      "sourceHash": "09e40baf5302dea97c7ca5e8589bf5d727c58ecb82945488fb0a1e3223610948",
+      "text": "Use the first-turn opening to pass the check or finish the boss"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "48630e0f14c246a9ea28d3bbda1ad2a90f7ee104c7fa4a55f32b3e7fe62740bd",
+      "text": "The face's broken state is removed and its Part HP fully restored; main-body HP is not restored. The first Universe Aflame targets the boss's allied Clay Dolls, cannot be Clashed, and has 4 Attack Weight."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "b2c21ed3632d950fa5e71ff2b722824227f6bd4488fce5ab386b5c20ee09d0f0",
+      "text": "The final check at Turn End favors Sloth. Success completes suppression but costs the selected Sinner 100 HP and all Sinners 30 SP. Failure still costs the selected Sinner 100 HP, costs all Sinners 45 SP, and grants 5 Damage Up and 5 Fragile to all main-body Parts."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "fa1c757dc99d8bc20fba4565f2dd59cd9d9ff97935fa8369133eb641114b6d6e",
+      "text": "Later Universe Aflame uses target Sinners with 10 Attack Weight. It is a powerful Minus Coin skill, so defeat the main body or pass the check during the initial opening. After failure, check current Clash predictions and remaining HP, block with strong skills, and finish the boss."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "9fffe637ea944404cec692192f7476e268e147ea83bb4ffa5dd820c7ca41180a",
+      "text": "Defeating the main body suppresses the remaining Clay Dolls at the same time. You do not need to clear every doll first."
+    },
+    "skills.0.name": {
+      "sourceHash": "a805f895b3807a7c378de50230b5905def6cc1628d8702ee82a5cbd0a53db6da",
+      "text": "Slam"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.0.response": {
+      "sourceHash": "b309b1b5639bb3e897f29eb166bb452e2c0c7f7af7ba968a193d9469e7ecbde9",
+      "text": "Used by both arms during phase 2. Clash against it and direct spare attacks at the arms. Removing an arm stops its actions, but also makes that Part untargetable."
+    },
+    "skills.1.name": {
+      "sourceHash": "a805f895b3807a7c378de50230b5905def6cc1628d8702ee82a5cbd0a53db6da",
+      "text": "Slam"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.1.response": {
+      "sourceHash": "b309b1b5639bb3e897f29eb166bb452e2c0c7f7af7ba968a193d9469e7ecbde9",
+      "text": "Used by both arms during phase 2. Clash against it and direct spare attacks at the arms. Removing an arm stops its actions, but also makes that Part untargetable."
+    },
+    "skills.2.name": {
+      "sourceHash": "69fec15baf61d5e933bdd4ec234d14a2768e7d84b76b35b03d7b5b4f362e7a52",
+      "text": "Quake"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "6518478bc11d4e6b42f1f31f32f462e73c6cce9cff63c44d0f8218cd197e1a6a",
+      "text": "On Hit, inflicts 1 Bind next turn. Phase 2 also includes Clay Doll attacks; stop it with a Clash before reduced Speed prevents you from redirecting attacks."
+    },
+    "skills.3.name": {
+      "sourceHash": "69fec15baf61d5e933bdd4ec234d14a2768e7d84b76b35b03d7b5b4f362e7a52",
+      "text": "Quake"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "6518478bc11d4e6b42f1f31f32f462e73c6cce9cff63c44d0f8218cd197e1a6a",
+      "text": "On Hit, inflicts 1 Bind next turn. Phase 2 also includes Clay Doll attacks; stop it with a Clash before reduced Speed prevents you from redirecting attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "357b7a119bb615c2a652a4a1e771aba76de0c703211e6d2fcb8196f0ddd5c249",
+      "text": "Live Offering"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "4baf5d6779245dcaf15885a4ab3d27eebde3619333fa5f7b6bf35f0963f1a209",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3 next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "28d026be79326cb9380711814f87988fe9336d4d4433266e99abe22e376fb86c",
+      "text": "A Minus Coin skill with Base Power 10 and Coin Power −6. Heads makes it weaker. Use the current Clash prediction to prevent its On Hit Bleed Count increase."
+    },
+    "skills.5.name": {
+      "sourceHash": "357b7a119bb615c2a652a4a1e771aba76de0c703211e6d2fcb8196f0ddd5c249",
+      "text": "Live Offering"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "4baf5d6779245dcaf15885a4ab3d27eebde3619333fa5f7b6bf35f0963f1a209",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3 next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "28d026be79326cb9380711814f87988fe9336d4d4433266e99abe22e376fb86c",
+      "text": "A Minus Coin skill with Base Power 10 and Coin Power −6. Heads makes it weaker. Use the current Clash prediction to prevent its On Hit Bleed Count increase."
+    },
+    "skills.6.name": {
+      "sourceHash": "c865218ca75cbf31dbddfd4a062e16b5f84726153c85440a642b1ca9c148ead8",
+      "text": "Stalwart Altar"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.6.response": {
+      "sourceHash": "f42abc2b7518cbd97300b826c21af773f50f90eac0d8ab3d7786e693395fd943",
+      "text": "In phase 3, the main body uses only this Guard skill. Frenzy's Burn and the dolls' attacks continue, so the phase is not free of damage."
+    },
+    "skills.7.name": {
+      "sourceHash": "14bf020f884497ea104566697480da1f98d2e447e26c7f38355b8399e316c087",
+      "text": "Universe Aflame"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.7.label": {
+      "sourceHash": "a54064014e8decc22b87d9979b8490aca488fcbe476fbbba3dbbce3a027351cf",
+      "text": "Final phase, turn 2 onward / targets Sinners"
+    },
+    "skills.7.response": {
+      "sourceHash": "34463b8879165ec9a15463df6a834542ae24f7ff94479de1055642c296778714",
+      "text": "From turn 2 of the final phase onward, targets Sinners with 10 Attack Weight. Its Minus Coin still rolls 35 on Heads; do not treat it like the weak Clashes from before the check. Block with strong skills and defeat the main body."
+    },
+    "skills.8.name": {
+      "sourceHash": "14bf020f884497ea104566697480da1f98d2e447e26c7f38355b8399e316c087",
+      "text": "Universe Aflame"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "1d63b54664bd4ac4b4beaccb16a7c9399f82792b1f4e0ef578b04db228e7f804",
+      "text": "[Unclashable] Targets allies."
+    },
+    "skills.8.label": {
+      "sourceHash": "c003172723b067b0c216744dc503049eabcfe66a9094817edf2ece24f9745372",
+      "text": "First use in the final phase / targets the enemy's allies / Unclashable"
+    },
+    "skills.8.response": {
+      "sourceHash": "410ae40695a179ac9a932e333c4b0a1308f8f0f30ca72b2225467bfb2bc14dd7",
+      "text": "The first final-phase use is an Unclashable attack against Clay Dolls. Distinguish it from the area attack against Sinners, and use the opening to check main-body HP and prepare for the check."
+    },
+    "skills.9.name": {
+      "sourceHash": "e174756d6477cfd9ba51575c442fbc95285761449bd8faca1b50cac664d94a7a",
+      "text": "Lunge"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "18e6b5c1b5a0d9b57324a023302bb0e15e9b75cff778c192a4281c0132c1545a",
+      "text": "Ⅰ[On Heads Hit] Increase Bleed Count by 1 next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "e2585a4cdca16e6afab122465f195f60373f2c1ae23417f8f46494d4093e9a6e",
+      "text": "A Heads hit adds 1 Bleed Count next turn. In phase 1, aim to reduce all dolls to 0 HP; in phase 2, prepare 1 at 0 HP for the check."
+    },
+    "skills.10.name": {
+      "sourceHash": "7b627880a628162e7bc3398f25d95ea49243dcde20be12e25f61afb58da208b1",
+      "text": "Claw"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "23ce2b429aba46911535735cb03566042bf59530c754ac26c7e21540d605c861",
+      "text": "Ⅱ[On Heads Hit] Increase Bleed Count by 1 next turn."
+    },
+    "skills.10.response": {
+      "sourceHash": "54596f13eb4fba94fddf3bf70b51b77755f77538f925a1ad8e3f6370e4ab6066",
+      "text": "A Heads hit on Coin 2 adds 1 Bleed Count next turn. A doll becomes untargetable at 0 HP, so move attacks to another enemy afterward."
+    },
+    "skills.11.name": {
+      "sourceHash": "cd31f47023394e22e7b6f64d39d77c6f69509f596a0cdfacd15c9c305577678f",
+      "text": "Belch Fire"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "376239e2122aa466cad49d6020e2c2f308b6aa529c46b8c1f4270a0863746777",
+      "text": "Ⅰ[On Hit] Inflict 1 Burn next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "997822a873db28fc5939164224e3ab8af725508a5b18881f8cc2a3a2dfb27bd6",
+      "text": "On Hit, inflicts 1 Burn next turn. This stacks with Frenzy's teamwide Burn, so take necessary Clashes while targeting the doll needed for the check."
+    },
+    "skills.12.name": {
+      "sourceHash": "c90df26105c154bd8a4016bd0af74781fdb2b44ff79371ae3a67775290ebf054",
+      "text": "Severe Lunge"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "18e6b5c1b5a0d9b57324a023302bb0e15e9b75cff778c192a4281c0132c1545a",
+      "text": "Ⅰ[On Heads Hit] Increase Bleed Count by 1 next turn."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "3e9985ff5edd4a9cf7b0d99ba1b2203c9bad70300c70b5ce975dc334d32cfd76",
+      "text": "　[On Heads Hit] Increase Burn Count by 1 next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "8134d19ce092f4fe21f390dbd982c00a73af8aaa60d6c8bb3f66fe53e91e52ff",
+      "text": "A Heads hit adds 1 Bleed Count and 1 Burn Count next turn. Avoid letting it hit Sinners who already have Burn unopposed."
+    },
+    "skills.13.name": {
+      "sourceHash": "07993d962e72748ee3b9a1ff0cb8c588a705614fd2da45dd377c14404ae37702",
+      "text": "Raw Claw"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "23ce2b429aba46911535735cb03566042bf59530c754ac26c7e21540d605c861",
+      "text": "Ⅱ[On Heads Hit] Increase Bleed Count by 1 next turn."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "3e9985ff5edd4a9cf7b0d99ba1b2203c9bad70300c70b5ce975dc334d32cfd76",
+      "text": "　[On Heads Hit] Increase Burn Count by 1 next turn."
+    },
+    "skills.13.response": {
+      "sourceHash": "ebfc1498b6a3c11f4ae0a4a097be3ac51f3a22fd02ae150bcbd0bce4f9d3f07c",
+      "text": "A Heads hit on Coin 2 adds 1 Bleed Count and 1 Burn Count next turn. Also watch Sinners whose HP was reduced by the check's cost."
+    },
+    "passives.0.name": {
+      "sourceHash": "8a2616c01befa3790ee8b85ff88acba4fc19b025dcb25a7dc6161d64d5a20f57",
+      "text": "Let the Blood Festival Flow"
+    },
+    "passives.0.condition": {
+      "sourceHash": "b45bfee12b17b02febce36d1b9c73163c520c644b7c26b734acd815abf497094",
+      "text": "Phase 1"
+    },
+    "passives.0.effect": {
+      "sourceHash": "a38c999fe3af9bd8a6c859e3bd66d3cac015a595329dfcd306dc60c3291710ce",
+      "text": "Advance to the next phase when all Doomsday Clay Dolls are defeated."
+    },
+    "passives.0.response": {
+      "sourceHash": "cca74b6f746a60b692ca61a6c4229d0907d4c3f88a1983e7a3c46ddd40cb9212",
+      "text": "Reduce every doll to 0 HP. Idolatry makes this different from normal death, but it still counts toward phase progression."
+    },
+    "passives.1.name": {
+      "sourceHash": "9bb06f1d6c937ac3d013b7acc378d38e37b0e6d124829d98483b3842c9303db7",
+      "text": "Let the Fire Festival Ignite"
+    },
+    "passives.1.condition": {
+      "sourceHash": "9cd12b12e27720487161ab33515b27afc124dddc43abac4ecf80ca5b35d28262",
+      "text": "Phase 2"
+    },
+    "passives.1.effect": {
+      "sourceHash": "b715e9923131552b9eabb241e24e31005f9939fc63140b177db68d55e955dec8",
+      "text": "Advance to the next phase when all arms are destroyed or main-body HP reaches 70% or less."
+    },
+    "passives.1.response": {
+      "sourceHash": "7ae55c273fc64ff2a639ffa1c54e27a27be462ee4869549a9ab14d772ac38ea0",
+      "text": "Breaking only one arm does not guarantee progression. Check main-body HP and the remaining arm."
+    },
+    "passives.2.name": {
+      "sourceHash": "df18fd39e7ff973ab680d79d652a1b38a2a1a54899c15110c952584b52abe754",
+      "text": "Frenzy"
+    },
+    "passives.2.condition": {
+      "sourceHash": "0a368cf04708d8d6247e884fd19f74bb628c98372b5b19413033c96c28b0393b",
+      "text": "Phase 3"
+    },
+    "passives.2.effect": {
+      "sourceHash": "26faf1f561f73220889e8728ac123e13140bac6c65be9cb00c4c3c878a67f5e0",
+      "text": "Inflict 3 Burn on all enemies each turn."
+    },
+    "passives.2.response": {
+      "sourceHash": "b9b0ef7f3e0c8031d6d8426715068fded5325562c8ae76feef99fd3a99f4d331",
+      "text": "Sinners receive the Burn. Remove it by passing the phase 3 check, or defeat the main body quickly."
+    },
+    "passives.3.name": {
+      "sourceHash": "11e154777a1718c4848c6d934fcbaef87fe04c9792ce687828dc04af73aa3f42",
+      "text": "Let the Star Festival Fall"
+    },
+    "passives.3.condition": {
+      "sourceHash": "0a368cf04708d8d6247e884fd19f74bb628c98372b5b19413033c96c28b0393b",
+      "text": "Phase 3"
+    },
+    "passives.3.effect": {
+      "sourceHash": "89455e3a2077cdcb025ab7c348a7ca85171401487145c906673a77fd5476db02",
+      "text": "Advance to the final phase when main-body HP reaches 25% or less."
+    },
+    "passives.3.response": {
+      "sourceHash": "05bf2d09aeb6330137e002d2bd7fdd1aa96a85589451aca285b38e9db431c280",
+      "text": "Aim to finish the boss from above 25% HP. If it advances, use the first-turn opening."
+    },
+    "passives.4.name": {
+      "sourceHash": "2bbcb59a115097a044c86e744dd73abdf93a6a1884e947e3d4f08b0cf0bf2507",
+      "text": "Idolatry"
+    },
+    "passives.4.condition": {
+      "sourceHash": "ea4ec67b494e4a27378746722863e131d2052e4f3162047babeaf6cbda225bc4",
+      "text": "HP reaches 0"
+    },
+    "passives.4.effect": {
+      "sourceHash": "c9e1a92c3bfe85616a944260cf4dfd19fa13b783aac6c329f521aa6cf4c188f4",
+      "text": "Does not die; becomes unable to act and untargetable. Suppressed when Doomsday Calendar is suppressed."
+    },
+    "passives.4.response": {
+      "sourceHash": "c1f43f94be4a2ffc05e5757ae4a6821c1a9b084a4e023a5ecd2090da1649cb94",
+      "text": "Reducing a doll to 0 HP does not necessarily trigger On Kill effects. It can still be used for the check."
+    },
+    "passives.5.name": {
+      "sourceHash": "2bbcb59a115097a044c86e744dd73abdf93a6a1884e947e3d4f08b0cf0bf2507",
+      "text": "Idolatry"
+    },
+    "passives.5.condition": {
+      "sourceHash": "ea4ec67b494e4a27378746722863e131d2052e4f3162047babeaf6cbda225bc4",
+      "text": "HP reaches 0"
+    },
+    "passives.5.effect": {
+      "sourceHash": "c9e1a92c3bfe85616a944260cf4dfd19fa13b783aac6c329f521aa6cf4c188f4",
+      "text": "Does not die; becomes unable to act and untargetable. Suppressed when Doomsday Calendar is suppressed."
+    },
+    "passives.5.response": {
+      "sourceHash": "c1f43f94be4a2ffc05e5757ae4a6821c1a9b084a4e023a5ecd2090da1649cb94",
+      "text": "Reducing a doll to 0 HP does not necessarily trigger On Kill effects. It can still be used for the check."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "5721eb4b618d31e1123a83d5d5c7e08696e8a5c65a25dcf9e50e660fc4624f2b",
+      "text": "Phase transitions"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "f595b2c5f8c1f29c42f3cad4e951788df942c3dcc1e5a18b00dce10999710435",
+      "text": "Reducing 2 dolls to 0 HP starts phase 2. Destroying both arms or reaching 70% main-body HP starts phase 3. Reaching 25% main-body HP starts the final phase. Reaching 0 main-body HP suppresses every enemy regardless of phase."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "be40f0d9ef2ef33d58b38973d1113a268d3244a5a029f68cc5623af145b813df",
+      "text": "Clearing all dolls in phases 2 and 3 is not required. Prepare 1 for the check, then direct damage at the main body."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "c7cf2464231a8aa26336f4bbd6dcbe0cd4b9f422df724c6e6b4cb09de6198daf",
+      "text": "Offering a Clay Doll"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "bb05776096388375da6ec8851c6a65a4f810c3caadfd4dd97331c48521fcb92a",
+      "text": "Available in phases 2 and 3 if a doll was reduced to 0 HP during that phase. Phase 2 inflicts 3 Attack Power Down; phase 3 removes 100 main-body HP and Frenzy. No Sinner HP is spent."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "cdd6c39480ac34a9a04a0a8392a076f079f2d98187954101853da58af8495153",
+      "text": "Prepare 1 new doll during each phase; do not expect dolls from the previous phase to carry over."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "d1835979472e9a12db6cd7a4194d81375715034433467f8a92de4b0ebfca3289",
+      "text": "Offering a Sinner: checks"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "3bd32813abb5aee4b54a860303062bb58e0daf5e2549c3e84c041cf7d0fee68e",
+      "text": "Phase 2 favors Lust and phase 3 favors Gloom. Even success costs the selected Sinner 20 and 30 HP respectively. The final check favors Sloth, costs the selected Sinner 100 HP, and also reduces every Sinner's SP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c75833d35bc99a59debc042c3ffdd4f73e382678491d60c4c14b752ae11d523f",
+      "text": "Consider remaining HP and Stagger risk after paying the cost, not just success chance. Required values have differing parenthetical listings, so choose using the prediction displayed in battle."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "996ee95f86056f6b5f7d1c9bcd4e39c29dec98f86ce9134d576a5de06fc92cce",
+      "text": "Arm removal and face regeneration"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "bf89c4fa5001e892550066be1a189ae2a78fbc2143f621ee401967c227904b89",
+      "text": "Removing an arm cancels its actions, deletes its slots, and prevents further attacks against it. The face continues acting after destruction; the final phase removes its broken state and fully restores its Part HP."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "1520898eb74ceb3a01d8b756a5ac96e9f00a652bfc744461b4a6a98d51e9be2c",
+      "text": "Breaking a Part does not necessarily stop all actions. Change targets to match the phase."
+    },
+    "warnings.0": {
+      "sourceHash": "58cfb8f7e40f51651ff426f1b7cd47c91f885c94de5976474053b5a657c57780",
+      "text": "Reducing an add to 0 HP is not a normal kill. Do not rely on On Kill effects."
+    },
+    "warnings.1": {
+      "sourceHash": "1f7c373ca511de6f1e5ddc8c112a4a9a0a01f13b53c4fcdccdc049e1101c02ee",
+      "text": "Offering a doll in phases 2 and 3 requires reducing a doll from that same phase to 0 HP."
+    },
+    "warnings.2": {
+      "sourceHash": "5eec2f3adc47bea435fef1548f04d7e8b73d661182d935c9e44c5d3ce9a6361c",
+      "text": "Offering a Sinner costs HP even on success. In particular, remember the final check's 100 HP cost and teamwide SP loss."
+    },
+    "warnings.3": {
+      "sourceHash": "a6ca49fe2767c8c1b3f07885115a202680f6f2915345a5510878cd1f82f10bff",
+      "text": "The face continues acting after destruction and restores Part HP in the final phase. Do not rely on breaking it to stop actions immediately."
+    },
+    "warnings.4": {
+      "sourceHash": "8a47a0a364c9d63b58714c34d26b8e1e331eadce56a73707ae2e22a09db1114e",
+      "text": "Universe Aflame first targets Clay Dolls, then Sinners. Keep its targets, Attack Weight, and Clashability distinct."
+    },
+    "preparation.0": {
+      "sourceHash": "8e9c6ee80289019fad441a7167b051e8f4fd87c75c0fb57f8074faf815ca5543",
+      "text": "Deploy 5 Sinners. Use the dungeon's recommended Lv. 7 as a guide, and enter with healthy HP and SP."
+    },
+    "preparation.1": {
+      "sourceHash": "e6e51d596ed34b5bbf49cdd264f3d7a86ef7040ce647eb580bdd65c45e0b6a5b",
+      "text": "Slash is effective against arms; Blunt against the face and dolls. Sloth is broadly effective. Lust is resisted by the main body but favored for the phase 2 check."
+    },
+    "preparation.2": {
+      "sourceHash": "2a610218804949348826bf79742ef05e10913c1edb09d047ded7ff953c215fc5",
+      "text": "Offering Clay Dolls avoids intermediate HP costs. If using the final check, prepare for its 100 HP cost and identify a Sinner suited to Sloth checks."
+    },
+    "roles.0.name": {
+      "sourceHash": "d44f2313d24ec06a4b4b34409b7d507874f138784904de73345a972b5ba18df8",
+      "text": "Clay Doll damage role"
+    },
+    "roles.0.reason": {
+      "sourceHash": "6b15cf1e5e6db80ce0959e8235a042b71101efab9021f229b446bd691d21f394",
+      "text": "Reduce dolls to 0 HP to advance phase 1 and enable checks without an HP cost in phases 2 and 3."
+    },
+    "roles.1.name": {
+      "sourceHash": "42a00d148e48eedb55c06ead9804bfef93d51897b9f61993840e9879c801853e",
+      "text": "Arm and face damage role"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b266fc8516072bd91ad1eabb376bc890b2ec7cab85e4c626eb228e7d93cca875",
+      "text": "Progress through removal and HP-based transitions, while also aiming to defeat the boss before the final phase."
+    },
+    "roles.2.name": {
+      "sourceHash": "b162a767b59e1ab4762b5709e4565504471626559cd6fdcdad4aa0a2bdf9f63b",
+      "text": "Check role with HP to spare"
+    },
+    "roles.2.reason": {
+      "sourceHash": "21e7a06e741637581a967346a90d957abd34dc270d5cae6e06902bc9169c0b18",
+      "text": "Limit the damage from costs when no doll is ready or when taking the final check."
+    }
+  },
+  "messages": {
+    "boss-copy:doomsday-calendar": "complete",
+    "【リンバス】1-11 終末カレンダー（1章）の攻略｜Limbus Assistant": "1-11 Doomsday Calendar (Canto I) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)1-11「終末カレンダー（1章）」の攻略。最初の土偶を倒し、腕、顔の順に本体を攻める。第2・第3段階で土偶を1体HP0にしておくと、判定で囚人のHPを使わずに弱体化できる。最後の判定は成功しても大き…": "Doomsday Calendar (Canto I) guide for Limbus Company 1-11. Defeat the initial Clay Dolls, then attack the arms and face in order. In phases 2 and 3, reduce 1 Clay Doll to 0 HP so you can weaken the boss through a check without spending a Sinner's HP. Even success at the final check carries a large cost, so also aim to defeat the main body beforehand.",
+    "1-11 終末カレンダー（1章）": "1-11 Doomsday Calendar (Canto I)",
+    "終末カレンダーの外見": "Doomsday Calendar appearance",
+    "終末カレンダーのスキル": "Doomsday Calendar skills",
+    "Doomsday Calendarの外見": "Doomsday Calendar appearance",
+    "Doomsday Calendarのスキル": "Doomsday Calendar skills",
+    "終末カレンダー（右腕）の外見": "Doomsday Calendar (Right Arm) appearance",
+    "終末カレンダー（右腕）のスキル": "Doomsday Calendar (Right Arm) skills",
+    "Doomsday Calendar (Right Arm)の外見": "Doomsday Calendar (Right Arm) appearance",
+    "Doomsday Calendar (Right Arm)のスキル": "Doomsday Calendar (Right Arm) skills",
+    "終末カレンダー（左腕）の外見": "Doomsday Calendar (Left Arm) appearance",
+    "終末カレンダー（左腕）のスキル": "Doomsday Calendar (Left Arm) skills",
+    "Doomsday Calendar (Left Arm)の外見": "Doomsday Calendar (Left Arm) appearance",
+    "Doomsday Calendar (Left Arm)のスキル": "Doomsday Calendar (Left Arm) skills",
+    "終末土偶の外見": "Doomsday Clay Doll appearance",
+    "終末土偶のスキル": "Doomsday Clay Doll skills",
+    "Doomsday Clay Dollの外見": "Doomsday Clay Doll appearance",
+    "Doomsday Clay Dollのスキル": "Doomsday Clay Doll skills",
+    "燃え上がる終末土偶の外見": "Burning Clay Doll appearance",
+    "燃え上がる終末土偶のスキル": "Burning Clay Doll skills",
+    "Burning Clay Dollの外見": "Burning Clay Doll appearance",
+    "Burning Clay Dollのスキル": "Burning Clay Doll skills"
+  }
+}

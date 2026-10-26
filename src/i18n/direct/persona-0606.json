@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0606.md",
+  "code": "0606",
+  "messages": {
+    "充電を貯めて充電力場を自分と味方に配る、守りのサポーター。": "A defensive support that builds Charge and provides Charge Barrier to himself and allies.",
+    "充電の獲得: S1「エネルギー循環」・S2「整理支援」の使用時と的中時に充電回数が増える。": "**Gaining Charge**: Charge Count increases on use and on hit of S1 Energy Cycle and S2 Cleanup Support.",
+    "充電力場: S2のⅡコインは充電回数に応じて次のターンに充電力場を得る。S3「充電力場展開」は充電回数10以上なら全て消耗し、自分を含む体力比率の低い味方2名へ(消耗量÷2)の充電力場を付与。守備も充電力場を得る。": "**Charge Barrier**: Coin Ⅱ of S2 grants Charge Barrier next turn based on Charge Count. S3 Deploy Charge Barrier spends all Charge Count if it is 10 or more and gives (amount spent ÷ 2) Charge Barrier to the 2 allies with the lowest HP ratio, including himself. His Defense skill also grants Charge Barrier.",
+    "S2: 自分にバリアがあるときマッチ威力が上がる。": "**S2**: Clash Power rises while he has Shield.",
+    "バトルパッシブ「慣れた整理業務」(傲慢×3・保有・同期化Ⅱで取得): 戦闘開始時に充電回数5以上なら次のターンにクイック2、10以上ならさらに1。": "**Combat passive — Cleanup Mastery (3 Pride Owned; unlocked at Uptie Ⅱ)**: At Combat Start, grants 2 Haste next turn if he has at least 5 Charge Count, and 1 more at 10 or more.",
+    "S1・S2で充電回数を10以上貯め、S3で体力の低い味方に充電力場を配る。充電回数を保つとパッシブで速度も上がるが、S3で充電回数を全て使うと次のターンはパッシブのクイックが出にくくなる。": "Build 10 or more Charge Count with S1 and S2, then hand out Charge Barrier to low-HP allies with S3. Keeping Charge Count up also raises his Speed through the passive, but spending all Charge Count with S3 makes the passive's Haste unlikely on the next turn."
+  }
+}

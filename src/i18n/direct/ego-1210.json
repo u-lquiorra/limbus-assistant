@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1210.md",
+  "code": "1210",
+  "messages": {
+    "共鳴数に応じた充電を溜めて一気に消費して火力に変える、嫉妬編成と充電人格向けの低コストE.G.O。": "A low-cost E.G.O for Envy teams and Charge Identities that builds Charge based on Resonance and spends it all at once for damage.",
+    "充電の獲得と消費: 攻撃前に(最大共鳴数+1)だけ充電回数が増え(最大7)、続けて最大15まで消耗して、消耗1につきダメージ量が上がる。": "**Gaining and spending Charge**: Before attacking, Charge Count increases by (highest Resonance + 1), up to 7, then it spends up to 15, gaining damage per point spent.",
+    "束縛と火傷: 的中時に火傷を付与し、住民登録マイクロチップと、次のターンの束縛1を付与する。チップか束縛のある敵には火傷回数が増える。": "**Bind and Burn**: On hit, inflicts Burn, Resident Reg. Microchip, and 1 Bind next turn. Enemies with the Microchip or Bind receive more Burn Count.",
+    "パッシブ「転入届の処理」: 最大共鳴数が3以上なら、メインターゲットへ、スキル的中時に次のターンの束縛1を付与する(1ターンにつき1回)。": "**Passive — Processing Transfer Reg**: If the highest Resonance is 3 or more, skill hits inflict 1 Bind next turn on the main target (once per turn).",
+    "低コスト: 必要資源は憤怒1・嫉妬5、精神消耗は20。": "**Low cost**: Requires 1 Wrath and 5 Envy, with a Sanity cost of 20.",
+    "嫉妬の共鳴を作って撃ち、束縛を撒く。": "Build Envy Resonance and fire it to spread Bind.",
+    "充電人格では、解析Ⅲの充電返還(充電15消耗時)も活かせる。": "With Charge Identities, the Charge refund at Threadspin Ⅲ (when spending 15 Charge) can also be used.",
+    "侵蝕スキルは討伐時の充電獲得が目当てで、覚醒より使う機会は少ないと考えられる。": "The Corrosion skill is mainly for gaining Charge on kills, and it likely sees less use than Awakening.",
+    "Ⅱ: 「転入届の処理」が解放される。": "**Ⅱ**: Unlocks Processing Transfer Reg.",
+    "Ⅲ: 火傷が2、ダメージ量の上限が30%になり、充電15消耗時に充電が5戻る。Ⅱコインでも充電が増える。": "**Ⅲ**: Burn becomes 2, the damage cap 30%, and 5 Charge is returned when spending 15. Coin Ⅱ also increases Charge.",
+    "Ⅳ: 火傷が3、ダメージ量の上限が45%になり、チップの付与量が2になる。": "**Ⅳ**: Burn becomes 3, the damage cap 45%, and Microchip infliction becomes 2.",
+    "LCE E.G.O::AEDD: 充電を扱い、S3・守備が嫉妬で共鳴を作りやすい。": "**[LCE E.G.O:: AEDD](persona:1215)**: Uses Charge, and his S3 and Defense skill are Envy, making Resonance easy to build.",
+    "ロボトミーE.G.O::ランプ: S1が憤怒で必要資源を出し、火傷を付与できる。": "**[Lobotomy E.G.O::Lamp](persona:1214)**: His S1 is Wrath, supplying the required affinity, and he can inflict Burn."
+  }
+}

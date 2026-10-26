@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/1209.md",
+  "code": "1209",
+  "messages": {
+    "「流水」で挑発値を得るタンクになりつつ鞘を溜め、鞘40で「光輝」を撃つ二段構えの広域E.G.O。": "A two-stage multi-target E.G.O: as a tank, it gains Aggro with Flowing while building Man in Scabbard, then fires Incandescence at 40 Man in Scabbard.",
+    "輝かざる栄光-流水: マッチ不可で攻撃は当たらず、鞘に納められた人を1得て精神力を25回復する。初回は必要資源が憤怒1・怠惰1・傲慢1に減る。": "**Unbrilliant Glory - Flowing**: Cannot Clash and does not hit; he gains 1 Man in Scabbard and recovers 25 SP. The first time, its requirements are reduced to 1 Wrath, 1 Sloth, and 1 Pride.",
+    "鞘に納められた人: 最大40。ターン終了時に10増え、自分の被ダメージなどでも溜まる。8につき挑発値1、20につき保護1を得る。": "**Man in Scabbard**: Maximum 40. It increases by 10 at Turn End and also builds when he takes damage and similar. He gains 1 Aggro per 8 and 1 Protection per 20.",
+    "輝かざる栄光-光輝: 鞘が1以上あると、2回目から「光輝」として発動する。鞘を全て消耗して加重値と防御レベルを伸ばし、40消耗なら4番目のコインのダメージ量が大きく上がって保護2を得る。鞘が40のときはマッチ可能になり、混乱もしない。": "**Unbrilliant Glory - Incandescence**: With 1 or more Man in Scabbard, it activates as Incandescence from the second use. It spends all Man in Scabbard to raise Attack Weight and Defense Level, and if it spent 40, the fourth Coin's damage rises greatly and he gains 2 Protection. At 40 Man in Scabbard, it can Clash and he cannot be staggered.",
+    "火傷と振動: 破壊不能の1コインで火傷と振動を付け、メインターゲットの火傷と振動が多いほどダメージ量が増える。": "**Burn and Tremor**: Its single Unbreakable Coin inflicts Burn and Tremor, and damage increases with the main target's Burn and Tremor.",
+    "パッシブ「遊侠」: 自分の体力・バリアダメージや、味方の混乱・死亡で鞘が溜まる。鞘が40でダメージ混乱なら、戦闘に1回だけ混乱を解除できる。": "**Passive — Wanderer**: Man in Scabbard builds from HP and Shield damage he takes and from allies being staggered or dying. At 40 Man in Scabbard, if he is staggered by damage, he can recover from Stagger once per battle.",
+    "耐性が有利な人格に持たせ、敵の主要スキルに合わせて挑発で受け止める。": "Give it to an Identity with favorable resistances, and absorb the enemy's key skills with Aggro.",
+    "光輝は鞘40の状態で撃つ。撃たずに鞘を保ったまま戦うのも手。": "Fire Incandescence at 40 Man in Scabbard. Fighting while holding Man in Scabbard without firing it is also an option.",
+    "Ⅱ: 「遊侠」が解放される。鞘の溜まりが大きく速くなる。": "**Ⅱ**: Unlocks Wanderer. Man in Scabbard builds much faster.",
+    "Ⅲ: 流水の次ターンの攻撃レベル増加が2になり、光輝のダメージ量が強化される。": "**Ⅲ**: Flowing's next-turn Offense Level Up becomes 2, and Incandescence's damage is strengthened.",
+    "Ⅳ: 流水がダメージ量増加も得て、光輝がさらに強化される。": "**Ⅳ**: Flowing also grants Damage Up, and Incandescence is strengthened further.",
+    "ラ・マンチャランド 神父: 自分で出血を得て体力を削れるため鞘が溜まりやすく、挑発値や保護も活きる。": "**[The Priest of La Manchaland](persona:1210)**: He gives himself Bleed to wear down his own HP, making Man in Scabbard build easily, and he makes use of the Aggro and Protection.",
+    "夜明事務所代表: S1が怠惰、S2が傲慢、S3が憤怒で必要資源を出せ、火傷と振動を付与できる。": "**[Dawn Office Rep](persona:1216)**: His S1 is Sloth, S2 Pride, and S3 Wrath, supplying the required affinities, and he can inflict Burn and Tremor."
+  }
+}

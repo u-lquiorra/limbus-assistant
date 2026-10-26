@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0514.md",
+  "code": "0514",
+  "messages": {
+    "「胞子」で毎ターン火傷回数を増やし、火傷を途切れさせない火傷回数の供給役。S3「臨床実験-粉塵灼熱」は単体を狙うほど強くなる。": "A Burn Count supplier that adds Count every turn through Spore to keep Burn active. S3 Field Test - Dust Spark grows stronger when focused on a single target.",
+    "胞子で火傷回数を供給: 胞子弾を消耗するコインの的中時に胞子を付与する([基本]2、[散弾]3)。胞子(最大15)は、ターン終了時に5につき火傷回数を1増やす。S2「E.G.O変調-散弾」とS3のⅣコインも、的中時に火傷回数を直接増やす。": "**Supplying Burn Count with Spore**: Coins that spend Spore Rounds inflict Spore on hit ([Basic] 2, [Buckshot] 3). Spore (maximum 15) increases Burn Count by 1 per 5 at Turn End. S2 E.G.O Alteration - Buckshot and Coin Ⅳ of S3 also directly increase Burn Count on hit.",
+    "S2は広域の始動役: 攻撃加重値2で、[散弾]のコインで胞子3ずつを撒く(サブターゲットへの与ダメージは-50%)。": "**S2 is the multi-target starter**: 2 Attack Weight, and its [Buckshot] Coins spread 3 Spore each (damage to sub-targets is −50%).",
+    "S3は単体で強い: 攻撃加重値より攻撃対象が少ないと、1名につきダメージ量+50%。Ⅰ〜Ⅲコインは1名にしか当たらない。Ⅳコインは破壊不能で、破壊されずに的中し対象の胞子が最大値なら、(火傷威力×胞子÷10)の憤怒ダメージを与えて胞子を消す。": "**S3 is strong against single targets**: +50% damage for each target fewer than its Attack Weight. Coins Ⅰ–Ⅲ only hit 1 target. Coin Ⅳ is Unbreakable; if it hits without being broken and the target's Spore is at maximum, it deals (Burn Potency × Spore ÷ 10) Wrath damage and removes the Spore.",
+    "弾の再装填: S2は攻撃後に基本弾が1以下なら再装填し、S3は攻撃後に必ず再装填する。守備「胞子補充」は戦闘開始時に再装填する。再装填は、不足している弾の数に応じて精神力を消耗する。S3は使用前に基本弾が2以下なら、精神力6で基本弾3を補充する。": "**Reloading ammo**: S2 reloads after the attack if he has 1 or fewer Basic Rounds, and S3 always reloads after the attack. The Defense skill Spore Germination reloads at Combat Start. Reloading costs SP based on the number of missing rounds. If he has 2 or fewer Basic Rounds before using S3, he spends 6 SP to refill 3 Basic Rounds.",
+    "忠誠フェロモン: 胞子を持つ敵が死亡すると得る(最大3)。S2・S3のマッチ威力+1と、破壊不能コインが増える。": "**Loyalty Pheromone**: Gained when an enemy with Spore dies, up to 3. S2 and S3 gain +1 Clash Power and more Unbreakable Coins.",
+    "S2で複数の敵に胞子を撒いて火傷回数を供給し、火傷を付与する味方の火傷を長持ちさせる。胞子が15まで貯まった単体の敵には、S3のⅣコインで追加の憤怒ダメージを狙う。": "Spread Spore across multiple enemies with S2 to supply Burn Count, keeping the Burn from allies who inflict it going longer. Against a single enemy that has built up 15 Spore, aim for extra Wrath damage with Coin Ⅳ of S3."
+  }
+}

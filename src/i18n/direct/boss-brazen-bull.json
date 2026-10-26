@@ -1,0 +1,523 @@
+{
+  "kind": "boss-copy",
+  "id": "brazen-bull",
+  "source": "src/data/bosses/brazen-bull.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "真鍮の雄牛 - 涙を流す",
+          "en": "Brazen Bull - Tearful",
+          "file": "Enemies.json",
+          "id": "8041"
+        },
+        {
+          "ja": "突進",
+          "en": "Ram",
+          "file": "Skills_Abnormality.json",
+          "id": "804101"
+        },
+        {
+          "ja": "突進",
+          "en": "Charge In",
+          "file": "Skills_Abnormality.json",
+          "id": "804103"
+        },
+        {
+          "ja": "無力化",
+          "en": "Taken by the Horns",
+          "file": "Passives_Abnormality.json",
+          "id": "804103"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [
+    "無力化"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "5c04e638a6f1f04b9864e932a4728091e9800b1d54ebbcaa18ad49dde8dc22cc",
+      "text": "Brazen Bull - Tearful (4-6)"
+    },
+    "shortName": {
+      "sourceHash": "71d958926743a2ff2ad756fb0c9aa59eb8b2bdcfbcb0f0adc57ce284090f6caf",
+      "text": "Brazen Bull"
+    },
+    "stageName": {
+      "sourceHash": "6077b8f634358fa0c5141ddf7c6a5cfe6d26e706cee7277f7bbb0defb8ccbac7",
+      "text": "Return"
+    },
+    "lead": {
+      "sourceHash": "52cde00340034d091aa242b8a6edca76c978a8f498fd45469e83327d2f36a396",
+      "text": "You need not Clash with every attack. Stop the easier Overflowing Sorrow to weaken the enemy, then break the revealed head for a major opening."
+    },
+    "statNote": {
+      "sourceHash": "1df428acaf25e918fc381786712486f565d05c74c830f49967793638a4eadf52",
+      "text": "The story encounter in 4-6. Its HP and action conditions differ from the drone encounter in 4-3, the Canto IV dungeon event, Luxcavation, and Mirror Dungeons. The Head is initially absent; end a turn with at least 3 Unresolved Sorrow to reveal it next turn."
+    },
+    "skillNote": {
+      "sourceHash": "30d37f66a5ea573733cf06cf00d537f296db22871553bc1cab06c5936ede8f2e",
+      "text": "The regular encounter's 6 skills. The two charging attacks are distinguished by Coin count. Some Burn and Sinking effects are listed as [Heads Hit], following the source footnotes. The Japanese description of Inconsolable Sorrow duplicates another passive's description; its response also includes the footnote's interpretation."
+    },
+    "priorities.0": {
+      "sourceHash": "343fea0dec283dae209da3f2c5bc113cf1564adc8736ea6ab70eafbe3af30d6c",
+      "text": "Prepare 5 Sinners, aiming for Level 30 and Uptie III or higher on your main units. Check their Blunt resistances and Gloom/Sloth damage options."
+    },
+    "priorities.1": {
+      "sourceHash": "0f043d7e04c546983e37da302eb270261626b5f474624797ff8ac78f35db8f75",
+      "text": "Prioritize winning against Overflowing Sorrow. Each win weakens the Bull; after 3 wins, the Head appears next turn."
+    },
+    "priorities.2": {
+      "sourceHash": "0bbeb8fe917b4540c6c052f6ab5aed0223f4169e0d3813e55e32948fd124bb62",
+      "text": "Focus damage on the Head. Staggering it Staggers all Parts next turn; breaking it also gives all Parts 3 Attack Power Down for the rest of the battle."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a3a2653c473100f7dcd2117354d25eef7f0ae48680a6af975d7d59fc7ee687c4",
+      "text": "Everyone is Clashing, but you keep losing"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "41ce050d0a2f87bf77024fd802bce1a5f0f3bc2a0975645166ebaeb2ecbd065f",
+      "text": "The charging attacks roll up to 14 and 17. Use a Blunt-resistant Sinner's Defense Skill against attacks you cannot beat, saving stronger skills and damage for the Head."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "44d7097103270bd9c1c53b13cfb988a971d31d429fb111215a13f4724188e784",
+      "text": "You can only target the resistant Body, not the Head"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "9d111b9db616a2e90357889259b800de0107cee5133e59cc1e5cb52de3a04c0f",
+      "text": "The Head appears the turn after you win 3 Clashes against Overflowing Sorrow. It is normal for it to be unavailable at the start."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "84fddcc327ee0c4f3a04425c2f78cb581e10c3c83a52f3c919f1ef4bd6989a2b",
+      "text": "The fight gets harder once the Head appears"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "35887ad490de6b7e1f511cf7b596c0c919982095e8e46343ca9e1acdf980dbc2",
+      "text": "The Head uses skills that roll up to 18 and 20, and gains buffs from Clash wins. Stop them with powerful E.G.O, or defend while focusing your other attacks on the Head."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "6a38f4812b449e98c078af7da77064f1586f61df7ec0bff7d8434e034d39db22",
+      "text": "Burn keeps dealing damage until your Sinners fall"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "4fe631b4e6491d0997a3416bf7a0274c5579588305b376833708ce84c98338b2",
+      "text": "Pin Down increases Burn Count. Redirect it away from low-HP allies with heavy Burn, and prevent hits by winning the Clash or Evading."
+    },
+    "units.0.name": {
+      "sourceHash": "2679c69bf358607684fdc9a8a7f944eea2e6f093bd8d7a9b767b591f7b07963c",
+      "text": "Brazen Bull - Tearful (Body)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "97f1bcba2438e43b0dc080b9ff555491c18b1a2aa63568a9008e6d6fde989189",
+      "text": "25% / 0% (131 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "ab9612d737a02ce15f91702c20c617e3b6635dab7b848e7181d9028236708bbe",
+      "text": "The Body resists Slash and Pierce but is weak to Blunt. Gloom deals 2× damage; Sloth deals 1.5×."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "f7c1936c4949110e497ad55cde485183e57ee766985342e168a3ad126dfab61f",
+      "text": "Each of the Body's skill slots has a weight of 2. Even a skill with multiple Attack Weight will not necessarily hit multiple slots."
+    },
+    "units.1.name": {
+      "sourceHash": "73fda1a0f33d006c24b0723d666592bc5b6289da03143ae42dc565c92e53c31d",
+      "text": "Brazen Bull - Tearful (Head)"
+    },
+    "units.1.part": {
+      "sourceHash": "2c484a01714657d54407d3b4833c8d7fd2a413e411f1d59faece7ee587724be4",
+      "text": "Head (appears after meeting the condition)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "14873e3c5e241c42b69e11a349ece253e080c673e7585bf61d2934adfb611415",
+      "text": "Its resistances differ from the Body's: Pierce and Pride are effective. Reassign your attackers when the Head appears."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "b07a5d1a2950c9149c3d3bacf4c06165c6a2045067c087c039adb0552765c609",
+      "text": "Staggering it Staggers all Parts next turn. Breaking it reduces all Parts' Attack Power by 3 for the rest of the battle."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "3f5418b763b5b52445dfb03efe359811edad1f7f1bd45dfb3bb166abb02de61e",
+      "text": "You can keep attacking it on the turn it breaks. Its slots disappear at Turn End, preventing further attacks on the Head."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "0e15188bcec25c598306a12782888b0b2398a9401bf23d42c2cb6ad41ab5b4d6",
+      "text": "Prepare Blunt-resistant defenders and damage to break the Head"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "8ed0d82b0dd679a371cade78ec362b9388e0c999e13892067d452be419a6f066",
+      "text": "Raise 5 Sinners toward the recommended Level 30, with Uptie III to unlock Skill 3. Check resistances so your whole team is not weak to Blunt."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "7538da9adafc2116ebfceb24a4e4464fee542c873b9eab7c7166956419e30fb4",
+      "text": "Blunt, Gloom, and Sloth work well against the Body. Pierce and Pride work well against the Head, so select attackers for both Parts from your roster."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "7b833dd181b3378ff1aabfd0d3b3a59e34b60c4dff42fb974b78196ecc030caf",
+      "text": "Check which E.G.O can beat the Head's maximum roll of 20, and save the resources to use them. Healing also helps manage Burn damage."
+    },
+    "phases.1.timing": {
+      "sourceHash": "fb3f9464370b0f38df121e08d9e5bcc08236c00b9a46b90b1e7de265803c0366",
+      "text": "Turn 1"
+    },
+    "phases.1.title": {
+      "sourceHash": "9b7f2aa864777306ed801a453038b0eb31b31b94967fde2a926d64d5cbc11af7",
+      "text": "Use resistances and Defense Skills against charges you cannot beat"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "e8496748901d50c55fdff472a08a214657e8e1df2d4400e743fb8d8547a1c0e1",
+      "text": "The opening includes charging attacks and Pin Down. Clash where you can win; otherwise, use a Blunt-resistant Sinner's Defense Skill."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "b04c5e1c2e80abc8771b1afb93047e4a2b23e21fd780be28ef9bef593466aa62",
+      "text": "Defense Skills do not guarantee zero damage. Check the target's HP, Stagger Thresholds, and predicted damage before choosing who takes the hit."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "c4deaa84dc52f09bb1f6a5ad9764970747045137a511b1ffad26cf905a4a03c7",
+      "text": "Pin Down increases Burn Count. Keep it away from Sinners already carrying heavy Burn, and answer it with a strong skill or Evade."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ce94467f9050e6ced98cc1b997308755d427b2f9f6561a80805c07e7c00f3b7f",
+      "text": "Turn 2 onward"
+    },
+    "phases.2.title": {
+      "sourceHash": "781081b01c885dda02376d922c7e40b0e88e3f2917e990265d7efa499e5a51d7",
+      "text": "Beat Overflowing Sorrow to reveal the Head"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "4d185b699d70d21b56e567b80bbb291845c757948c4455842da6c6ed46175d8f",
+      "text": "Overflowing Sorrow rolls up to 11, making it easier to beat than the other attacks. Prioritize its Clash to prevent SP loss and a raised Stagger Threshold."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e336f69156a87b554ac733bef76d1ea8eb9c404d7ec64352676a903a8bfadf32",
+      "text": "Each win gives the Bull 1 Unresolved Sorrow. From the next turn, it applies Attack Power Down equal to its value, making other Clashes easier too."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "c745b9793afe5fca69cd8cf2b195e7db150e2e9d55f986e55100f894e87ba0dc",
+      "text": "End a turn with at least 3 to reveal the Head next turn. Save powerful skills so you can stop the Head's high rolls."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f3d501d2281c14c87620ab6de21d7d3d28a8b31e8a13cecc6f8541c74c03d5ec",
+      "text": "After the Head appears"
+    },
+    "phases.3.title": {
+      "sourceHash": "3d041268356cfda22193bd490379ec7f2da0626ccd6abe1472ce1cb52e9fef17",
+      "text": "Stagger and break the Head to create a team-wide opening"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "d5e5f6ca19439dc0a600d2404084d2fbf338c97253ce095c43dbe3a50ec0dd47",
+      "text": "Focus damage on the Head's weaknesses, including Pierce and Pride. It has 179 HP and lower Defense than the Body."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "8f4cdecba93c00e7466de1b4a436124124a93b014faa1e210c1abee34475e7aa",
+      "text": "Losing to the Head's skills also strengthens its attacks next turn. Use E.G.O that can win, or defend with a resistant Sinner while directing unopposed attacks at the Head."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "cd031f8514b7a4ee4bd1b812730b64e82456582c1b968f0b2e80c0919213dab2",
+      "text": "Staggering the Head Staggers all Parts next turn. Breaking it gives all Parts 3 Attack Power Down for the rest of the battle. Land your remaining attacks that turn, then finish the Body."
+    },
+    "skills.0.name": {
+      "sourceHash": "5cb09afe33ba180b54a324c8570237ab61db42f961db21d1292855a02b1ee857",
+      "text": "Ram (2 Coins)"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "709bd491bbcdf41d380be74385754e4e60a386845be00bbd7587f20d02ef0f6b",
+      "text": "Ⅰ[On Hit] Inflict 3 Burn."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "7544bf8fc98911fc4a71196f39d13dc1810f9dea3ab1428ee2a2f894b6e881a6",
+      "text": "Ⅱ[Heads Hit] Inflict 3 Burn."
+    },
+    "skills.0.response": {
+      "sourceHash": "5ccf778ba038f21f3c9a22eb6a28a8782f72da094c9a7dd6002be2ae3f9cff01",
+      "text": "A Blunt attack that rolls up to 14. If you cannot win, use a Blunt-resistant Sinner's Defense Skill and save your winning skills and damage for other actions. Watch for added Burn."
+    },
+    "skills.1.name": {
+      "sourceHash": "77c1b613e70425555b6a38170d4dae20d815f96efa15b469a967017c7597a2cc",
+      "text": "Pin Down"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "f302383e0ac70795b58c966ba0474b663de08973cbe07e24c27d64d60a0afd46",
+      "text": "Ⅰ[On Hit] Increase Burn Count by 3."
+    },
+    "skills.1.response": {
+      "sourceHash": "73d4cd7c771e93e979108bcc0957dac712911d71517309d90ac70c95c5c05a90",
+      "text": "Increases Burn Count by 3. Landing on a Sinner already carrying heavy Burn prolongs the damage, so prevent the hit with a winning skill or Evade."
+    },
+    "skills.2.name": {
+      "sourceHash": "89d3d5baa7aebb321160ae5e6344c3f8dec84c70d4255c00d667da8355b3f2f1",
+      "text": "Charge In (3 Coins)"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "f49d451698bd3fbfa2cef710958526a87fdc877e8029246329bd410a78d4b1ae",
+      "text": "Ⅰ[On Hit] Inflict 2 Burn."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "276e44e45ece7a087e23e8e7af9bd8cc0fac040d493e3165c0605449dc4d10df",
+      "text": "[On Hit] Raise the target's Stagger Threshold by 20% of damage dealt."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "d44eb3e57f717b601d264b276633a78a3cafb8a3e9a5f3f1cdca03df5288eef3",
+      "text": "Ⅱ[Heads Hit] Inflict 2 Burn."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "276e44e45ece7a087e23e8e7af9bd8cc0fac040d493e3165c0605449dc4d10df",
+      "text": "[On Hit] Raise the target's Stagger Threshold by 20% of damage dealt."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "425852d627eb1ea9a583dc8cf28569dda19b68739cc43560f3ce2a80da0ddba9",
+      "text": "Ⅲ[Heads Hit] Inflict 2 Burn."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "276e44e45ece7a087e23e8e7af9bd8cc0fac040d493e3165c0605449dc4d10df",
+      "text": "[On Hit] Raise the target's Stagger Threshold by 20% of damage dealt."
+    },
+    "skills.2.response": {
+      "sourceHash": "0bd67b16b41c50ed81193646a749e7ed0d93956e46c0a69b2712f78e5ef5a374",
+      "text": "Rolls up to 17 and raises the target's Stagger Threshold as well as inflicting Burn. Avoid forcing low-HP Sinners into losing Clashes; use a powerful skill or a resistant defender."
+    },
+    "skills.3.name": {
+      "sourceHash": "e6b95344dd08a64cc4faa5268c6586b3c59398cd0ec04df551364a13f56f1942",
+      "text": "Overflowing Sorrow"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "b5a2d6f70038c0271f040de82d7a60bb07fd9870d4fb44c48fe766dda19cb76b",
+      "text": "[Clash Lose] Gain 1 Unresolved Sorrow."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "8df4b281ced63ad81db1e11cf27c061bb6d1c86b854336d270e701cd33f75f56",
+      "text": "Ⅰ[On Hit] Reduce the target's SP by 15."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "c8f8eeec8d880f5dd436837babe21b04a636a549ad3afac5993eff76226e672d",
+      "text": "[On Hit] Raise the target's Stagger Threshold by 50% of damage dealt."
+    },
+    "skills.3.response": {
+      "sourceHash": "6fab2e555a4482cd6b7fd9dd73912689b301d779aa8ff72d5fa6a313950dd1a3",
+      "text": "Prioritize winning this Clash. It gives the Bull Unresolved Sorrow, weakening its attacks from next turn and revealing the Head at a total of 3. Letting it hit costs 15 SP and raises the target's Stagger Threshold."
+    },
+    "skills.4.name": {
+      "sourceHash": "8d06075a8a1cbab74633e9fdef0caa831ec9f737e1f7e9621ac172a627ea7b8d",
+      "text": "Heated Cries"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "569f35adced1a71562964015317779d3c2472931f45072976ecc9dec47884968",
+      "text": "[Clash Win] Gain Haste and 1 Attack Power Up next turn."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "4d9902c67685334fc70100e01a5f56e7eea603ea1a9e1afa6619c000e38e54b2",
+      "text": "Ⅰ[On Hit] Inflict 1 Wavering Emotions."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "f3b4f8a1577da42c13923c979f5e0d6e7aba49d7a216872ad28d8392f47965f2",
+      "text": "[Heads Hit] Increase Sinking Count by 3."
+    },
+    "skills.4.response": {
+      "sourceHash": "bc1e1611a2f2aef372c98111e75b3bf29bea65f06e2bead66c8a2513cd793aaf",
+      "text": "The Head's Blunt attack, rolling up to 18. Losing gives the enemy Haste and Attack Power Up next turn. Use a winning E.G.O, or defend while focusing other unopposed attacks on the Head."
+    },
+    "skills.5.name": {
+      "sourceHash": "31f6b1ba4401ea8ec2bd96f1975dd9f1f81965c090b5f928779b7057d189c0b6",
+      "text": "Heated Screams"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "569f35adced1a71562964015317779d3c2472931f45072976ecc9dec47884968",
+      "text": "[Clash Win] Gain Haste and 1 Attack Power Up next turn."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "4d9902c67685334fc70100e01a5f56e7eea603ea1a9e1afa6619c000e38e54b2",
+      "text": "Ⅰ[On Hit] Inflict 1 Wavering Emotions."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "d1d6e405ebe469f8b44e6b11ca42bdc1481208193610dee5d1445a18f5e6858f",
+      "text": "[Heads Hit] Inflict 2 Sinking."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "d9b04b7238d9036a8b1d5928f4f8d72d0f4866f83cd162028eb406da18c0af76",
+      "text": "Ⅱ[On Hit] Inflict 1 Wavering Emotions."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "d1d6e405ebe469f8b44e6b11ca42bdc1481208193610dee5d1445a18f5e6858f",
+      "text": "[Heads Hit] Inflict 2 Sinking."
+    },
+    "skills.5.response": {
+      "sourceHash": "0bc9703aab7374729a2a867ec591b352d1ec9c8a481b5b62881c3dff4b24bef6",
+      "text": "A 2-Coin attack that rolls up to 20; losing the Clash lets the enemy keep building buffs. Reassign it to a stronger skill. If an earlier attack can Stagger or break the Head, use that opening."
+    },
+    "passives.0.name": {
+      "sourceHash": "f58524d38d4b0647a437f7dd4e7be4ff13884d7db912e36ff29a5bbcad42a674",
+      "text": "Downed by the Horns"
+    },
+    "passives.0.effect": {
+      "sourceHash": "0d58ed3f6b377966e3b66016a6f861ba2046820b371d06babd7aea45ea8ee02c",
+      "text": "When the Head is broken, all Parts become Staggered next turn. All Parts then gain 3 Attack Power Down for the rest of the battle."
+    },
+    "passives.0.condition": {
+      "sourceHash": "dfd4dd5d1bc3d66bd25a900e9f838576f50d472a2d5a34dd85871699b73cdfc7",
+      "text": "Head broken"
+    },
+    "passives.0.response": {
+      "sourceHash": "0b1a820b5fd43672eed5250416af365f1b1974d87f5fa1250453eb9a2e953424",
+      "text": "Target the Head to Stagger all Parts next turn and apply lasting 3 Attack Power Down. Use the rest of the breaking turn for follow-up attacks too."
+    },
+    "passives.1.name": {
+      "sourceHash": "1325d9a39f813be2ea73555a67ff56ed48f1a21b54a38bf4d5c922b17753147f",
+      "text": "Expanding Sorrow"
+    },
+    "passives.1.effect": {
+      "sourceHash": "a72ed8628b34719c9ba342dc41dddd348f67d339bf838a1fc2001253203f1f8e",
+      "text": "At Turn End, if Unresolved Sorrow is at least 3, the Head appears next turn and the skill pattern changes."
+    },
+    "passives.1.condition": {
+      "sourceHash": "8058119331534468ec0cf3d01abcd82664e983613172aef47686ed8539863f58",
+      "text": "At least 3 Unresolved Sorrow at Turn End"
+    },
+    "passives.1.response": {
+      "sourceHash": "9777d63007a1c3f064548fd743d29a41a0bfca913128ae717fe5b75e7f6d45e3",
+      "text": "Win against Overflowing Sorrow 3 times to reveal the Head next turn. Save powerful skills and damage before it appears."
+    },
+    "passives.2.name": {
+      "sourceHash": "bbe82d549158d361b80a39c61cfadd79b6740e1de14dc6349d62094ee43babab",
+      "text": "Inconsolable Sorrow"
+    },
+    "passives.2.effect": {
+      "sourceHash": "a72ed8628b34719c9ba342dc41dddd348f67d339bf838a1fc2001253203f1f8e",
+      "text": "At Turn End, if Unresolved Sorrow is at least 3, the Head appears next turn and the skill pattern changes."
+    },
+    "passives.2.condition": {
+      "sourceHash": "232067bb638e5c151ef40442ad805a528cfdde3ab545655a6dbe4727d1a4d431",
+      "text": "After the Head breaks; at least 3 Unresolved Sorrow"
+    },
+    "passives.2.response": {
+      "sourceHash": "4884c7b35caa187c82927fe8ff172c3a079b1eddd16a9ba24989a58e918140c7",
+      "text": "The Japanese description says the Head is created, but the source footnote interprets this as a next-turn Stagger after the Head breaks. Do not plan around repeatedly revealing new Heads."
+    },
+    "passives.3.name": {
+      "sourceHash": "026b2b29be67bbcbd5dfea2216d739d3d5a80b78f6e3bad8109101d9690cf3cf",
+      "text": "Taken by the Horns"
+    },
+    "passives.3.effect": {
+      "sourceHash": "a1caa52f36d972bba1f09a861c4bd617c72dbf9033951a03d22c5cf4eac85103",
+      "text": "When the Head becomes Staggered, all Parts become Staggered next turn."
+    },
+    "passives.3.condition": {
+      "sourceHash": "568f37015a2e7dfe15bd291f804e803897d1db928cdb43817141ed4d21109df7",
+      "text": "Head Staggered"
+    },
+    "passives.3.response": {
+      "sourceHash": "320bfa4e3842cbf7bf9bd26604a8fff47e1d013fa170d939641da95902bd94ca",
+      "text": "Simply Staggering the Head also Staggers all Parts next turn. Focus damage on breaking it from there."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "65ef51dde59cab7316a6f167274fedf5c473c19abca8ce3dccb7d0e9caa92129",
+      "text": "Unresolved Sorrow"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "4bbb9e2226af495ccfbb84dd9c3f87c61cbd71a193212102df627019e8a5037d",
+      "text": "The Bull gains this when it loses a Clash with Overflowing Sorrow. At Turn Start, gain Attack Power Down equal to its value. Having at least 3 at Turn End leads to the Head appearing."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "68b7e7fee1b01184ccff2e21e89bef3137c0771dd297a2897e11fb1cb50b2419",
+      "text": "Winning against this skill both weakens the enemy and helps reveal the Head."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "1325d9a39f813be2ea73555a67ff56ed48f1a21b54a38bf4d5c922b17753147f",
+      "text": "Expanding Sorrow"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "0fc17f6df442da8c73dd803d3f1b32f732edd1b82bd125f0503d804fc2acd969",
+      "text": "The state in which the Head appears and the Bull's skill set changes."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "fd8bbe623c96a5b07efbb8f50908f654742463af1fbe644a04173ac459d879df",
+      "text": "When the Head appears, adjust for its weaknesses and reassign Clashes to Stagger and break it."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "11f7f3dc626a4137b37d7066dbcdeb14260f5c972dfc5253cc01b105c8572b1e",
+      "text": "Wavering Emotions"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4c3ef4c3ac47c2f8d71bd1157f933b4125a0d99f9f4e29909dba54b1779b1417",
+      "text": "At the next Turn Start, gain Attack Power Down, Paralyze, or Bind equal to its value, then remove this effect."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "933ebad76fcf001b34cfb1d5d3da11e513c41f1f84b0ae03a8afa98d860c84ae",
+      "text": "Check next turn's predictions for Sinners hit by the Head's skills; do not keep assigning the same defender automatically."
+    },
+    "warnings.0": {
+      "sourceHash": "179be6ff1943855e01ace6825db3f5118eb3239e9e0fbc335ed0f90b7a5b2ff2",
+      "text": "The Head does not appear in 4-3. This page's instructions for revealing it apply to 4-6."
+    },
+    "warnings.1": {
+      "sourceHash": "11a76a80f81ee817cd0ed1603114af1a64ee72331002cb4fea23f1cc5f0bfe58",
+      "text": "The Body and Head have different resistances. Focusing only Blunt damage on the Head is not always the best choice."
+    },
+    "warnings.2": {
+      "sourceHash": "310d200b93b54d751073cd522f2a3b756a02c9ef99b27e67a31825e310f817db",
+      "text": "Unresolved Sorrow weakens attacks at the next Turn Start. Winning its Clash does not immediately weaken the remaining attacks that same turn."
+    },
+    "warnings.3": {
+      "sourceHash": "8752c6d78f44e59a88ef1531d6b663c59ec10625fde7dbf5bd613bf56356eaa5",
+      "text": "After the Head breaks, its slots disappear at Turn End. Return your attacks to the Body afterward."
+    },
+    "preparation.0": {
+      "sourceHash": "ccea8fcba647b7228d65b2fecdccb4ca8a0a0b2de520121f0f3fdab018715ba0",
+      "text": "Aim for Level 30 and Uptie III or higher on your main units. Check Blunt resistance for attacks you cannot beat, strong Clashing E.G.O, and HP healing."
+    },
+    "preparation.1": {
+      "sourceHash": "b7cc1ccd8f923038eea593328b7f594cc530ee53f334ce443590de0f5c29ee5f",
+      "text": "Select Blunt/Gloom damage for the Body and Pierce/Pride damage for the Head from your roster."
+    },
+    "roles.0.name": {
+      "sourceHash": "34c5bc0a467394165b7d70f3c4070666ceb4f3f27a8606a2f3e611cb9be17e75",
+      "text": "Blunt-resistant defender"
+    },
+    "roles.0.reason": {
+      "sourceHash": "ba2d3b04bc7814ae1bb445e1b997cf029183985b443ed175ef5c303337f68607",
+      "text": "Use Defense Skills against attacks you are unlikely to beat, preserving allies' actions and HP."
+    },
+    "roles.1.name": {
+      "sourceHash": "e10fc7ef3f872b3cd6e4619e6ca6216fdc805a0f0fc5b366a16bda51117308d8",
+      "text": "Overflowing Sorrow specialist"
+    },
+    "roles.1.reason": {
+      "sourceHash": "5ec1ac056fbe25164cfc8af48092cc46b674f31d6d31fdd93d489627ba047782",
+      "text": "Reliably beat its maximum roll of 11 to weaken the Bull and reveal the Head."
+    },
+    "roles.2.name": {
+      "sourceHash": "224d4140c7b1f08453eaa0599f1efb5ae970dbee70870fce11e057b0214249f3",
+      "text": "Focused Head damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "466501cb4ccb4d2f61aa818f87cfebfef53a4a3466fc5f484c6839e860418339",
+      "text": "Stagger and break the Head before its powerful skills build momentum, then use the all-Part Stagger to finish the fight."
+    }
+  },
+  "messages": {
+    "boss-copy:brazen-bull": "complete",
+    "【リンバス】4-6 真鍮の雄牛 - 涙を流す（4-6）の攻略｜Limbus Assistant": "4-6 Brazen Bull - Tearful (4-6) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-6「真鍮の雄牛 - 涙を流す（4-6）」の攻略。全部の攻撃へ無理にマッチしなくてよい。勝ちやすい溢れ出る哀しみを止めて弱体化させ、現れた頭を壊して大きな攻撃機会を作ろう。": "Brazen Bull - Tearful (4-6) guide for Limbus Company 4-6. You need not Clash with every attack. Stop the easier Overflowing Sorrow to weaken the enemy, then break the revealed head for a major opening.",
+    "4-6 真鍮の雄牛 - 涙を流す（4-6）": "4-6 Brazen Bull - Tearful (4-6)",
+    "4-6「Return」": "4-6 · Return",
+    "真鍮の雄牛 - 涙を流す（胴体）の外見": "Brazen Bull - Tearful (Body) appearance",
+    "真鍮の雄牛 - 涙を流す（胴体）のスキル": "Brazen Bull - Tearful (Body) skills",
+    "Brazen Bull - Tearful (Body)の外見": "Brazen Bull - Tearful (Body) appearance",
+    "Brazen Bull - Tearful (Body)のスキル": "Brazen Bull - Tearful (Body) skills",
+    "真鍮の雄牛 - 涙を流す（頭）の外見": "Brazen Bull - Tearful (Head) appearance",
+    "真鍮の雄牛 - 涙を流す（頭）のスキル": "Brazen Bull - Tearful (Head) skills",
+    "Brazen Bull - Tearful (Head)の外見": "Brazen Bull - Tearful (Head) appearance",
+    "Brazen Bull - Tearful (Head)のスキル": "Brazen Bull - Tearful (Head) skills"
+  }
+}

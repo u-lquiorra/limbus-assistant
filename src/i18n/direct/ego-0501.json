@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0501.md",
+  "code": "0501",
+  "messages": {
+    "敵に束縛と攻撃威力減少を大量に付けて機能不全にする、単体の強敵向けの初期E.G.O。": "A starting E.G.O for single strong enemies that cripples the enemy with heavy Bind and Attack Power Down.",
+    "敵への弱体: 的中時、次のターンに束縛と攻撃威力減少を敵へ付与する。敵の攻撃が弱まり、味方がマッチに勝ちやすくなる。": "**Weakening the enemy**: On hit, inflicts Bind and Attack Power Down on the enemy next turn. The enemy's attacks weaken, making it easier for allies to win Clashes.",
+    "自分への反動: 同じ弱体を自分も次のターンに得る。付与量は解析Ⅲで増え、Ⅳで軽くなる。": "**Recoil on himself**: He also receives the same debuffs next turn. The amounts rise at Threadspin Ⅲ and lighten at Ⅳ.",
+    "保護: 解析Ⅲの表面的中時(Ⅳは的中時)に、次のターンの保護2を得て反動を受け止めやすくなる。": "**Protection**: On Heads Hit at Threadspin Ⅲ (on hit at Ⅳ), he gains 2 Protection next turn, making the recoil easier to absorb.",
+    "パッシブ「判断拒否」: 戦闘開始時に3つ以上のスキルの標的なら保護3。標的が散る通常戦闘では満たしやすく、集中戦闘では満たしにくいと考えられる。": "**Passive — Refusal to Judge**: Gains 3 Protection if he is targeted by 3 or more skills at Combat Start. This is likely easy to meet in regular battles where targeting is spread out, and hard to meet in Focused Encounters.",
+    "資源の変換: 必要資源4つ(怠惰1・憂鬱1・嫉妬2)を、傲慢資源1に変える。": "**Resource conversion**: Converts its 4 required resources (1 Sloth, 1 Gloom, 2 Envy) into 1 Pride resource.",
+    "単体の強敵に撃つ。弱体できるのは1体だけで自分にも弱体が入るため、通常戦闘には向かない。": "Use it on a single strong enemy. It only weakens 1 enemy and also weakens himself, so it is not suited to regular battles.",
+    "撃った次のターンは自分が遅く弱くなる。ガードや保護を持つ耐久型のムルソー人格で受けに回る。": "On the turn after using it, he becomes slower and weaker. Play defensively with a durable Meursault Identity that has Guard or Protection.",
+    "弱体を受けていない味方がマッチを担当し、弱った敵を集中して削る。": "Let allies without the debuffs handle Clashes and focus down the weakened enemy.",
+    "罪悪耐性は色欲・暴食が脆弱(×2)。この属性の攻撃が多い戦闘では他のE.G.Oの耐性に切り替えることも考える。侵蝕スキルは無い。": "Its Sin resistances are Fatal (×2) to Lust and Gluttony. In fights with many attacks of those affinities, consider switching to another E.G.O's resistances. It has no Corrosion skill.",
+    "Ⅱ: 「判断拒否」が解放される。": "**Ⅱ**: Unlocks Refusal to Judge.",
+    "Ⅲ: 束縛5・攻撃威力減少4に倍増し(自分への反動も倍)、基本威力が19になり、保護2が加わる。": "**Ⅲ**: Doubles to 5 Bind and 4 Attack Power Down (the recoil on himself also doubles), Base Power becomes 19, and 2 Protection is added.",
+    "Ⅳ: 自分への反動が束縛3・攻撃威力減少3に軽くなり、保護が的中時に得られる。敵への付与量はⅢのまま。Ⅲで止めても大差ないと考えられる。": "**Ⅳ**: The recoil on himself lightens to 3 Bind and 3 Attack Power Down, and Protection is gained on hit. The amounts inflicted on enemies stay the same as Ⅲ. Stopping at Ⅲ likely makes little difference.",
+    "LCB囚人: 怠惰(S1・ガード)と憂鬱(S3)で必要資源を出せ、S3は次のターンに保護3を得るので受けに回りやすい。": "**[LCB Sinner](persona:0501)**: Sloth (S1, Guard) and Gloom (S3) supply the required affinities, and his S3 grants 3 Protection next turn, making it easy to play defensively.",
+    "W社2級整理要員: 嫉妬(S1・ガード)と憂鬱(S2)で必要資源を出せ、被ダメージやマッチ敗北で充電が増えるパッシブが受けの運用と噛み合う。": "**[W Corp. L2 Cleanup Agent](persona:0503)**: Envy (S1, Guard) and Gloom (S2) supply the required affinities, and his passive, which gains Charge when taking damage or losing Clashes, meshes with a defensive playstyle."
+  }
+}

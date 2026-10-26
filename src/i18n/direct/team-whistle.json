@@ -1,0 +1,267 @@
+{
+  "kind": "team-copy",
+  "id": "whistle",
+  "sourceGuide": "src/data/team-guides/whistle.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "4a5dd2f433d56bd97d647b0d160dfb0f33c596969249edeb2d1f0b2c9c5185d4",
+      "text": "N Corp. (Fanatic lineup)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "fb4948a40e74ed84be7c3304f6f734c81520d4f48298a0de90e40b6e93600bf5",
+      "text": "Whistles also grants Fanatic when its healing targets an N Corp. Fanatic. Fill the team with N Corp. Identities and use The One Who Grips's Nails to enable Fanatic more often. Fell Bullet Yi Sang and Contempt, Awe Ryōshū can also be paired here."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "7b4ebf7eab9e55365a3b8b2d314786962c0786429eedf79c25da359fd8f16a54",
+      "text": "The core unit: Whistles supplies SP and Fanatic, while Nails create more opportunities for Fanatic to activate."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "276da90f68a6f34483e37c2f4bed42477ff58c5a4eac8c24d1c7eaeafd128da0",
+      "text": "Excels at gaining Fanatic and has many damage bonuses. Clash Power is relatively low."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "029a587406e57cb2c373430d69a8485f4b8a57493683ab92934662f2f6f6c8fd",
+      "text": "Lust S1 and defense make Whistles easy to trigger. Enhanced by Fanatic, but cannot gain it independently."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "7e528c50f83434ce2e138db90430ae5d16fbc08c6ffd6bd61b015266ca178ec3",
+      "text": "A Blunt attacker using negative Coins on every skill. At Uptie Ⅳ in an N Corp. team, grants allies a +10% damage buff."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "db2f14f11ac9e55a86e56dfe510c8324d05e6dbad7aa3b6ba0b6ddf24ed765fa",
+      "text": "Lust S3 helps Whistles, while Gloom helps fuel Fluid Sac."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "bddd5f39975695a7ae736c69866b0c9e20474fc0014b231762daad2fe3d19ca0",
+      "text": "A Pierce attacker that kills allies to unleash powerful attacks. With Contempt, Awe, can deal damage without killing allies."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "4b353f74975f4b3540e5663f0c7907f5420a45e6c6979895996a7c5fb0ce0e51",
+      "text": "Converts Gaze into Contempt and fires enhanced S3, enabling Fell Bullet Yi Sang's damage."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "ba0f323162c51aa6efaefbe10032979fef8f882b222895cb707e90b52eabff53",
+      "text": "Restores HP and SP to all allies. Kleinhammer Heathcliff can supply Gloom."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "53047607417b5644c546dc4911706f4e557a696799b94bbdcbbc76939d0e9c32",
+      "text": "Inflicts Envy Fragility and Pierce Fragility, supporting Pierce attackers alongside Gaze."
+    },
+    "data:core:0:note": {
+      "sourceHash": "179c937cf63d19997b0a0b00eb72a4d435d7a50fd1dc2869b3f6ac1e8eda2f05",
+      "text": "Whistles, the combat passive at 4 Lust Resonance, restores 15 SP to the 2 lowest-SP allies at Combat Start. Enables a fast opening in battles starting at 0 SP. Early on, evading to activate Whistles can often contribute more than attacking."
+    },
+    "data:core:1:note": {
+      "sourceHash": "1796882cc95012fa069e046b12dc36ed1495189995b454f64b88a1954b6b096d",
+      "text": "Lust S2 and defense easily contribute to Whistles. The One Who Grips's Nails and Gaze count as negative effects, helping guarantee S2 reuse, while Gaze also raises Pierce damage."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "77ea91cbd274db7e3247f2d3853c410ca039ff29c710a322318c449239a270fe",
+      "text": "The One Who Grips + Ring Pointillist Student"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "be8903b0b2054d9018996dde4883cb006b529d8566996d9d97332360e4245426",
+      "text": "Nails, Gaze, and Bleed from The One Who Grips's S2 alone help guarantee the Ring Pointillist Student's S2 reuse. Both have Lust attacks and defense, making Whistles Resonance easy to form."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "9580432d7338a8bd129910c04c819d1d10832c2f4e197f1be692e825bbe78b08",
+      "text": "S2 applies Nails and Gaze, while Whistles restores SP."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "ee267353c32cebe89f36c436d4339b2e5d11d8ed1fc5da12b1961c51a40aaae1",
+      "text": "Scales with negative-effect count and chains S2 Coin reuse."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "77e256444fcce94f1a715b5459349700fb1889b79f25cc935a96aae89d478d2c",
+      "text": "N Corp. Fanatics"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "744809dfd024953ad4f19f94f1f1bea2a1a581c244c3e05421c0493c533a722c",
+      "text": "Whistles grants Fanatic when healing an N Corp. Fanatic, while The One Who Grips's Nails create more opportunities for it to activate. Großhammer Meursault has no Lust and cannot contribute to Whistles, so choose him or Mittelhammer Don Quixote when focusing on Lust."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "67d85fd5cb4068d87e769aaa1137d260a3963bf9b84dbdbc59c593840de3481d",
+      "text": "Supports Fanatic through Whistles and Nails."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "b835331030cdfc88f43dc7a58fe168553c32026637a184e3229504a059a459af",
+      "text": "Excels at gaining Fanatic."
+    },
+    "data:combos:1:members:2:note": {
+      "sourceHash": "9af4c6e6397ef47e610d3b439ac0d9c156d22d2e817a2cd5eecda83208d38caf",
+      "text": "Easily triggers Whistles and gains bonuses from Fanatic."
+    },
+    "data:combos:1:members:3:note": {
+      "sourceHash": "26ec380f5b5c6741ba265f6d70d5d53e5f58e8ac6a57f215870613ee5a8f0b6d",
+      "text": "Grants a +10% damage buff at Uptie Ⅳ in an N Corp. team."
+    },
+    "data:combos:1:members:4:note": {
+      "sourceHash": "da5499719aef7ab5b04b2133bc92252c4adb52370d4f96123224f8026c25592f",
+      "text": "Has no Lust, so cannot contribute to Whistles."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "0b833c84daa59ee89d8bca2a6030da880112fa70406c6984b7c3add790c8ded1",
+      "text": "Lust S1 and defense. A Slash attacker that mainly uses S2, then hits hard with S3 once Charge builds."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "d91f1e6b553789ed59351d855bab8df0464e9bee6b590054e33435b18bfa4001",
+      "text": "Lust S1. Courier Trunk enhances S2 and S3, while large Shields help take attacks."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "b1c338d264744c8c2fb4a9e92a70fd23d3c538b075062d1eb385bb229652ff74",
+      "text": "Lust S1. A strong standalone Poise Identity that gains further bonuses by using Tiansha on a House of Spiders ally."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "a35ff5da6f77af8ff9ae200c538f051a0e4bb704d49358dde4fcfeb0cdff3924",
+      "text": "Lust S1. Procuration raises Offense Level and Speed."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "46443748eb0dbb3d85243bc390c64cb6067b819db11faa6b6cefa0c837ef8772",
+      "text": "Lust S1. Repeated clashes with the same enemy lead to repeated Tremor Bursts."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "4b7c547a8bbf824f165bdb46f54f7bc8c422c9f67f0f5991670075fd7943d9fc",
+      "text": "Lust S3 and evade. Develops Corpus Ingredient to enhance Bleed application."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "608914f31334494cacba1bc54513ebc9b352a98350bd41e2ec2991e28630e35e",
+      "text": "Lust S3 and counter. Mauled Color raises Bleed and Sinking damage."
+    },
+    "data:flex:7:note": {
+      "sourceHash": "d5cd96ebfe7cae32046fcfbb41b4eaff68fd993ccea72a929bed89857daf369d",
+      "text": "Lust S3 and counter. Self-sufficient, with ally healing through enhanced S3."
+    },
+    "data:flex:8:note": {
+      "sourceHash": "ab4c5f7560c4ce799e36f9f0bf3bfb0a519f4c83fd5d7ba9cf8d454ae22507c2",
+      "text": "An N Corp. Fanatic that excels at gaining Fanatic and has many damage bonuses."
+    },
+    "data:flex:9:note": {
+      "sourceHash": "56cd2964ed1eb1efa8fe5ff336b7828a16ffbf0d40a8ef1641d5a6a4aefe9bd3",
+      "text": "An N Corp. Fanatic and negative-Coin Blunt attacker. Whistles can cover SP falling too low."
+    },
+    "data:flex:10:note": {
+      "sourceHash": "1b31d5e8f882370edc9da993740293dd78a97adf8eab652c5f9c71c38b8ab377",
+      "text": "An N Corp. Identity that can deal damage without killing allies when paired with Contempt, Awe Ryōshū."
+    },
+    "data:flex:11:note": {
+      "sourceHash": "ef6a7e6d59d40c402d0265f3f9226d0ba5ce680699b0b434e41df380682ec6aa",
+      "text": "An N Corp. Identity that enables Fell Bullet Yi Sang's damage through Gaze and Contempt."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "e37bd3f61930c4048b07e96eea68a5ac553f7ce219ea724c05ced3bd397878c4",
+      "text": "Lust S1. A Blunt Rupture Identity that raises Power through Courier Trunk."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "67dc788a05197edcff36027f9df0ccebb220dcda762495678b07e44847faf346",
+      "text": "Lust S1. Attacking after allies apply Burn makes enhancement conditions easier to meet."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "99f14634b316bb6988ff4a59b24f3e792c108ca35aa232598879867c5dbb374f",
+      "text": "Lust S1. High Speed and Haste enable early actions and repeated clash wins."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "684226939eabda6ac395193a1e5d364a5d0c883c80637e93267f37bbb1658147",
+      "text": "Lust S1 and defense make contributing to Whistles easy."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "b21f8751174d8a99f31a0fde911bcfd7658436995f651d83b89b8658c077f53e",
+      "text": "Lust S1. S2 deals heavy damage against enemies with less than 4 Bleed Count."
+    },
+    "data:support:0:note": {
+      "sourceHash": "1dd36ee4d3c6ce6413dc541f0da2b2c3385c2e51b965a61c0a473843c7ec7022",
+      "text": "The support passive increases the fastest ally's Nails application by 1. Has no effect unless The One Who Grips is fastest."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "adfc20f56faaf507da5c68d2380d0c9e9dd258e4e52a73e3da8219c18ae3d15f",
+      "text": "Restores HP and SP to all allies. The One Who Grips supplies Lust and Envy; other Sinners must cover Gloom."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "56b9b489d2fb4e7ee03594d19b6a5ee4dbe8e392420af566bf0d84a632b621b1",
+      "text": "Inflicts Envy Fragility and Pierce Fragility. Fast-acting The One Who Grips can use it to benefit the same turn's attacks."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "48c655783a7c305b3c59dcf74ec48201a8593c32724179960de27f577c5579df",
+      "text": "Build around [The One Who Grips](persona:0204) Faust's Whistles combat passive and Identities with Lust skills. This is a less powerful foundation than other team archetypes and is included as a supplementary option."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "7ee34d8a42e58a835b74006bd94f4c4210476073d89723445ed2ac138881953b",
+      "text": "At 4 Lust Resonance, Whistles restores 15 SP to the 2 lowest-SP allies at Combat Start. This accelerates the opening in story and other battles starting at 0 SP."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "57f047473fcb475565db637e187725e829d5e880b4cc3f75614cbf14baebe003",
+      "text": "Also restores SP lost after using E.G.O."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "d3dac1c8f80e6ac1af915d3cf0722ac385dc064a217939a0f4fada2ad0e25776",
+      "text": "The One Who Grips pairs strongly with [The Ring Pointillist Student](persona:0109) Yi Sang. Nails, Gaze, and Bleed from her S2 are negative effects, helping guarantee his S2 reuse."
+    },
+    "guide:2:heading": {
+      "sourceHash": "8e33f56b506c6b024c37c90f94f376895225892e387890322eb3cd2bb9c5efaa",
+      "text": "N Corp. synergy"
+    },
+    "guide:2:0:0": {
+      "sourceHash": "5a4626503936186a7d9b3d5b295c9497d39781fcd1161cff99d2dd574b2b3a26",
+      "text": "Whistles also grants Fanatic when healing N Corp. Fanatics. The One Who Grips's Nails create more opportunities for Fanatic to activate, making her compatible with them."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "34e2eaea407b664627478b2886290335660c6c07ed91af6c642f110e5bf8b60c",
+      "text": "[N Corp. Mittelhammer](persona:0304) Don Quixote has Lust S1 and defense, making Whistles easy to trigger. She gains bonuses from Fanatic but cannot gain it alone, so Whistles fits her well."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "b2c9e947ddcdfa3ba9f48380e77d8918264fe0f411049c5b1757318f98467e31",
+      "text": "[N Corp. Mittelhammer](persona:0904) Rodion excels at gaining Fanatic. At Uptie Ⅳ in an N Corp. team, [The One Who Shall Grip](persona:1005) Sinclair grants allies a +10% damage buff."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "540f3b41acebae34eda2e85c42a0b2dbaac5998802e5f2cfc293ee9103139c91",
+      "text": "N Corp. Großhammer Meursault has no Lust and cannot contribute to Whistles, so choose him or Mittelhammer Don Quixote when focusing on Lust."
+    },
+    "guide:2:0:4": {
+      "sourceHash": "7410dce61be82505d25d3377816dd032ebc30f961f50810c751bc61fc27890ba",
+      "text": "Benched [N Corp. Kleinhammer](persona:0704) Heathcliff increases the fastest ally's Nails application by 1. Has no effect unless The One Who Grips is fastest."
+    },
+    "guide:2:0:5": {
+      "sourceHash": "5a5e4f341003f31330b42453d24bc63c991dccf86ccd564a6d735aa618ecfabb",
+      "text": "Together, N Corp.'s [Fell Bullet](persona:0113) Yi Sang and [Contempt, Awe](persona:0412) Ryōshū let Fell Bullet deal damage without killing allies."
+    },
+    "guide:3:heading": {
+      "sourceHash": "82b1948fb4bfc920e4a59ef0abba3f74fce0d6f79577e5b5760d1a9a2a10e415",
+      "text": "Building the team"
+    },
+    "guide:3:0:0": {
+      "sourceHash": "3ca7ff2897434249bc0e38ceeea81185b5ad3e45c9c2e3f13e7ece7614af8441",
+      "text": "Ideally, more than half the team has Lust skills. Having 2 Identities with both Lust attacks and Lust defense makes Resonance easier to form."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "4402bd89ec9ca3cdfeb7d906842bd47c41554f86a25660b29c0208aa37731e95",
+      "text": "Lust defense can connect Lust Resonance even without a Lust attack available. Prioritize Uptie Ⅳ for Identities whose defense becomes Lust at that stage."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "bf1d07a68f888be7e454d19d474163ba8a640eec6853b8a06accf50da3c5caa5",
+      "text": "The One Who Grips can activate Whistles in any Lust-heavy team. House of Spiders teams have many Lust S1 users, including [Blade of the House of Spiders](persona:0415) Ryōshū and [The Index Proxy](persona:0314) Don Quixote. The Bloodfiend Bleed variant already includes her."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "e7e5142abe3806d869236857c76b960467eb78263b3c0116cfed59db19fc56fe",
+      "text": "During the opening, evading to activate Whistles often contributes more than forcing The One Who Grips to attack."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "d3214ec0df1e1906be18521a4a54dbf6477780dca647a937510cdfaf9a080e53",
+      "text": "Gaze from her S2 increases damage taken from Pierce and Blunt skills by 20%. Pair her with those attack types."
+    },
+    "guide:4:0:2": {
+      "sourceHash": "e8556503cd4b9be86fdbeedc59dc91d3b10a0a7be868f14f8fdd1487bfaee76f",
+      "text": "Healing mainly comes from Faust's [Fluid Sac](ego:0202). The One Who Grips supplies Lust and Envy, so use other Sinners to cover Gloom."
+    },
+    "guide:5:0:0": {
+      "sourceHash": "aafc0c323a03b7239532dee33609b2c7b67c25b9f7c983cb0ecf24c81422bfac",
+      "text": "SP builds quickly, but the team is not especially suited to long battles."
+    }
+  },
+  "metadata": {
+    "title": "Whistles Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Whistles team guide: Lust-skill Identities built around The One Who Grips Faust's Whistles passive. A lighter core than other teams, included as a bonus guide with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

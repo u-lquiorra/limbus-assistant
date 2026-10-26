@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0107.md",
+  "code": "0107",
+  "messages": {
+    "呼吸を整えたうえでS2のクリティカルによるコイン再利用を連鎖させ、一撃の大火力を出す貫通アタッカー。出血は付随効果で、主役はS2の火力。": "A Pierce attacker who prepares Poise, then chains Critical Hits into Coin reuse on S2 for a major burst of damage. Bleed is a secondary benefit; S2's damage is his main attraction.",
+    "S2「刺して刺して刺す」: Ⅱコインがクリティカル的中時にそのコインを再利用(最大1/3回)。自分の呼吸が5以上ならマッチ威力+2/+3。使用時に呼吸回数2増加、Ⅰコインで呼吸2を得る。": "**S2 — Relentless Stabbing**: Coin Ⅱ reuses itself on a Critical Hit, up to 1/3 times. With at least 5 Poise Potency, gains +2/+3 Clash Power. Gains 2 Poise Count on use, and Coin Ⅰ grants 2 Poise. Slash-separated values indicate different Uptie tiers.",
+    "S3「急襲」: 使用時に呼吸5を得る。呼吸7以上ならコイン威力+1。Ⅱコインで出血4を付与し、クリティカル的中時は出血回数が4/6増加。": "**S3 — Ambush**: Gains 5 Poise on use. At 7 or more Poise Potency, gains +1 Coin Power. Coin Ⅱ inflicts 4 Bleed and increases Bleed Count by 4/6 on a Critical Hit.",
+    "S1「掘り穿つ」: 的中時に呼吸回数が2増加。Ⅱコインで次のターンに束縛1と出血2を付与。": "**S1 — Impale**: On hit, gains 2 Poise Count. Coin Ⅱ inflicts 1 Bind next turn and 2 Bleed.",
+    "バトルパッシブ「1等航海士の銛」(傲慢×4・保有・同期化Ⅱで取得): クリティカル的中時、スキルで付与する出血威力+2(1ターンにつき最大6回)。": "**Combat passive — The First Mate's Harpoon (4 Pride Owned; unlocked at Uptie Ⅱ)**: On a Critical Hit, increases the Bleed Potency inflicted by his skills by 2, up to 6 activations per turn.",
+    "S1で呼吸回数を維持しつつ、S3で呼吸を一気に得てクリティカル率を上げてからS2を撃つ。S2はクリティカルが出るたびにⅡコインを再利用するので、呼吸が高いほど再利用が連鎖して火力が跳ね上がる。素の威力は低いため、呼吸が整うまでは温存して勝負所で切る。自力での呼吸の獲得は得意ではないため、呼吸を配れる味方の補助があると安定する。ピークォド号船長のイシュメールは、パッシブ「ピークォド号の船長」で敵を倒したときに、自分を除いた精神力が最も低い味方1/2名へ呼吸4を付与する。精神力しだいなので、イサンが受け取れるとは限らない。この船長イシュメールと組むか、呼吸を補いやすい鏡ダンジョンで使うのがよい。": "Maintain Poise Count with S1, then use S3 to gain Poise Potency and raise his Critical chance before using S2. Each Critical Hit on Coin Ⅱ reuses that Coin, so higher Poise makes the chain and its damage more reliable. His unboosted rolls are low; where possible, prepare Poise before committing S2 to a decisive attack. He is not especially good at building Poise alone, so outside help improves consistency. With 3 Pride Resonance, The Pequod Captain Ishmael's Captain of the Pequod passive grants 4 Poise to the 1/2 allies other than herself with the lowest SP when she defeats an enemy. Selection depends on SP, so Yi Sang is not guaranteed to receive it. Pairing with Captain Ishmael, or using him in Mirror Dungeons where Poise is easier to supplement, helps him perform."
+  }
+}

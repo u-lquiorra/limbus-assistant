@@ -1,0 +1,1908 @@
+{
+  "kind": "boss-copy",
+  "id": "red-god-ripe",
+  "source": "src/data/bosses/red-god-ripe.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream"
+        },
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream1"
+        },
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream2"
+        },
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream3"
+        },
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream4"
+        },
+        {
+          "ja": "プイの記憶",
+          "en": "Pwie's Memories",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetDream5"
+        },
+        {
+          "ja": "決断",
+          "en": "Decision",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetResolve"
+        },
+        {
+          "ja": "赤き神の声",
+          "en": "Voice of the Crimson God",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetRevival"
+        },
+        {
+          "ja": "プイとの経験",
+          "en": "Shared with Pwie",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetScruple"
+        },
+        {
+          "ja": "釘刺す者",
+          "en": "He Who Nails",
+          "file": "Bufs-a1c10p3.json",
+          "id": "MeursaultBuffetEnd"
+        },
+        {
+          "ja": "赤き神[完熟]",
+          "en": "The Crimson God [Adulthood]",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1517"
+        },
+        {
+          "ja": "ル・ルージュ 上級スタッフ",
+          "en": "Le Rouge Senior Staff",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1521"
+        },
+        {
+          "ja": "ラ・ジュイサンス・オートル(la jouissance Autre)",
+          "en": "La Jouissance Autre",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151701"
+        },
+        {
+          "ja": "ル・モワ(le moi)",
+          "en": "Le Moi",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151703"
+        },
+        {
+          "ja": "プヴォワール・ドゥ・ラ・ヴィ(Pouvoirs de la vie)",
+          "en": "Pouvoirs de la vie",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151704"
+        },
+        {
+          "ja": "ラ・ジュイサンス・ファリック(la jouissance phallique)",
+          "en": "La Jouissance phallique",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151705"
+        },
+        {
+          "ja": "ラ・モワソン(la moisson)",
+          "en": "La Moisson",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151706"
+        },
+        {
+          "ja": "ル・ブゾワン(le besoin)",
+          "en": "Le Besoin",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151707"
+        },
+        {
+          "ja": "答えを出すべき時",
+          "en": "Time to Answer",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151708"
+        },
+        {
+          "ja": "押し退けることも、握ることもできぬ手",
+          "en": "The hand they could neither push away nor hold",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "151709"
+        },
+        {
+          "ja": "空にするほど満たされん",
+          "en": "Emptiness Begets Satiation",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152101"
+        },
+        {
+          "ja": "遅き首を狙う鎌",
+          "en": "The Sickle Seeks the Slow",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152102"
+        },
+        {
+          "ja": "あの方の傍で冷めぬ脈動",
+          "en": "Persistent Pulsation Beside The Cherished One",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152103"
+        },
+        {
+          "ja": "生の痕跡",
+          "en": "Traces of Life",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152104"
+        },
+        {
+          "ja": "肉に降り注ぐ恩寵",
+          "en": "Blessings Upon the Flesh",
+          "file": "Passives_Abnormality-a1c10p3.json",
+          "id": "152105"
+        },
+        {
+          "ja": "ジュ・メクスピュルス(je m'expulse)",
+          "en": "Je m'expulse",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151701"
+        },
+        {
+          "ja": "ジュ・ム・クラシュ(je me crache)",
+          "en": "Je me crache",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151702"
+        },
+        {
+          "ja": "ジュ・マブジェクト(je m'abjecte)",
+          "en": "Je m'abjecte",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151703"
+        },
+        {
+          "ja": "ラ・ピュルシオン(la pulsion)",
+          "en": "La Pulsion",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151704"
+        },
+        {
+          "ja": "ラ・ジュイサンス(la jouissance)",
+          "en": "La Jouissance",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151706"
+        },
+        {
+          "ja": "ラ・ドゥマンド(la demande)",
+          "en": "La Demande",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151707"
+        },
+        {
+          "ja": "ラ・カストラシオン(la castration)",
+          "en": "La Castration",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151709"
+        },
+        {
+          "ja": "ル・トレ・ユネール(le trait unaire)",
+          "en": "Le Trait Unaire",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151710"
+        },
+        {
+          "ja": "ル・ポワン・ドゥ・キャピトン(le point de capiton)",
+          "en": "Le Point de Capiton",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151712"
+        },
+        {
+          "ja": "ラ・ジュイサンス(la jouissance)",
+          "en": "La Jouissance",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151713"
+        },
+        {
+          "ja": "この鎌にて応え奉る！",
+          "en": "With sickles mine I answer your calling!",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152101"
+        },
+        {
+          "ja": "この肉を受け取り給え！",
+          "en": "Accept my offering of flesh!",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152102"
+        },
+        {
+          "ja": "胸に抱き、捧げ奉る！",
+          "en": "An offering from my embrace!",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152103"
+        },
+        {
+          "ja": "残さず食らい尽くし奉る！",
+          "en": "We shall devour it all!",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152104"
+        },
+        {
+          "ja": "声への礼拝",
+          "en": "Supplication Toward the Voice",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "152106"
+        },
+        {
+          "ja": "ラブジェクト(l'abject)",
+          "en": "L'Abject",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BoneNail"
+        },
+        {
+          "ja": "暴走[ル・デジール]",
+          "en": "Uncontrollable Rampage [Le Désir]",
+          "file": "Bufs-a1c10p3.json",
+          "id": "BuffetRouge"
+        },
+        {
+          "ja": "赤き神の引きちぎられた肉片",
+          "en": "Ripped Flesh of the Crimson God",
+          "file": "Enemies-a1c10p3.json",
+          "id": "1518"
+        },
+        {
+          "ja": "ル・マンク・ア・エートル(le manque-à-être)",
+          "en": "Le Manque-à-être",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151705"
+        },
+        {
+          "ja": "ル・ノン・デュ・ペール(le Nom-du-Père)",
+          "en": "Le Nom-du-Père",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151708"
+        },
+        {
+          "ja": "デガジェ(Dégagé)",
+          "en": "Dégagé",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151711"
+        },
+        {
+          "ja": "ラ・メタフォール・パテルネル(la métaphore paternelle)",
+          "en": "La Métaphore Paternelle",
+          "file": "Skills_Abnormality-a1c10p3.json",
+          "id": "151714"
+        }
+      ],
+      "note": "Names follow paired Canto X part 3 records. Spelling, punctuation, capitalization, and French diacritic aliases use paired skill IDs. L’Abject and Uncontrollable Rampage [Le Désir] retain their full names in mechanic definitions; Rampage abbreviates the latter in prose. Starting and maximum HP, Shared with Pwie versus Pwie’s Memories versus Decision, phase-specific La Jouissance, post-attack follow-up checks, staff revival, uncertain Coin numbering, and the extra clash and turn required after 5 Memories are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "372f58dc1b0fdd6f217e810d1420400ef61fdcd2f02729c63f00147ab7366b73",
+      "text": "The Crimson God [Adulthood] (Canto X, Route C)"
+    },
+    "shortName": {
+      "sourceHash": "293ae777f2c1ac94fbd32d39a5fbf21b4f9fff3b6b12a3b78ef38b2bd57fc61c",
+      "text": "The Crimson God [Adulthood]"
+    },
+    "stageName": {
+      "sourceHash": "668c8816fc9671a6c997a4bcfd530f1ac4c7049250e2738ac69e16a009938451",
+      "text": "Sisyphus Department Store C, 5F: Corridor"
+    },
+    "lead": {
+      "sourceHash": "b1510f5ecb66b652979a3e3398bdba3805d2707a2085f20b624fef9bd7e09680",
+      "text": "Besides reducing HP to zero, you can finish by winning clashes against specific major skills and building Pwie's Memories to 5. This guide focuses on that route. Check Bleed and L'Abject when assigning clashes each turn, and preserve Sinners with Shared with Pwie for the final phase."
+    },
+    "listLead": {
+      "sourceHash": "a53fb6b3c2aca1ddd86e1fdf48e8fbc2812f104566d9e366301512298ac9aa74",
+      "text": "Besides depleting HP, win specific major clashes to build Pwie's Memories to 5 and follow the final sequence. Check Bleed and L'Abject each turn, and preserve Sinners with Shared with Pwie for the ending."
+    },
+    "statNote": {
+      "sourceHash": "943ec4e4b6ab91afdfda950e5b5b5dccf19526c80a441558be10a7eafe595e52",
+      "text": "A Route C dungeon battle. The body has 6,000 max HP but starts at 3,000 HP. Enemy Lv. 90 is separate from the recommended Customer Lv. 65. Body Defense Level 92 and staff Defense Level 69 exclude Memories, Pulsation, and other modifiers. The body's Stagger Thresholds are unconfirmed; staff have a threshold listed at 74 HP, but its percentage is unconfirmed. Identity levels follow Customer Level; outside Identity levels do not carry in. Identities below Uptie III are raised to III, but E.G.O Threadspin is unchanged. This is a different battle from Route A's Crimson God [Inchoate Life]."
+    },
+    "skillNote": {
+      "sourceHash": "7b99302ace7766349d93752f0de0ca7b62679143875f0ee1dd1821101a9d712c",
+      "text": "La Jouissance has different effects in Phases 1 and 2, so it has separate tabs. Coin icons show only always-Unbreakable Coins; check effects for conversion based on Bleed, Rampage, Memories, or HP. The staff skill With sickles mine I answer your calling! lists one Coin but has unconfirmed effect Coin numbering; no extra Coins have been invented to fill the gap."
+    },
+    "priorities.0": {
+      "sourceHash": "29748a1e8d23f23149d59f202a514ba064ebe80d6c432544259229bcc297e225",
+      "text": "Each turn, use Sinners with Bleed against Lust skills and strong clashes against Sloth skills that apply L'Abject."
+    },
+    "priorities.1": {
+      "sourceHash": "4aa721ceab25794db2440883710b50674643e3d04cde95687e895314f16195a4",
+      "text": "In Phase 2, eliminate staff first. Avoid excessive body damage and enter the final phase at 3 Pwie's Memories."
+    },
+    "priorities.2": {
+      "sourceHash": "0f566f6260c0b56c797e10a9578a1165f91f59416af4ad04b061c2f33b037bf2",
+      "text": "Preserve a Shared with Pwie holder for the end and win against La Castration. After reaching 5 Memories, win one more clash."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "48c58d2ff6a8a2788c29b59c365b6116cf8a50805f2edafaa7df369230897d1c",
+      "text": "L'Abject increases despite winning"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "b18b50496884a0cce5c90bd58158e87d81d982fd7354687d11b1f7255805ff3b",
+      "text": "Dégagé and Le Point de Capiton become Unbreakable if the target lacks Bleed. Win with a Sinner carrying Bleed to stop the attack. Sinners with L'Abject gain Bleed Count simply by using basic attacks; choose E.G.O or defense instead."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "e97e34995e85e6f758f0e91793b0ecf5da62d6c31e2714927a62cb16c7b9baa9",
+      "text": "One hit starts repeated area attacks and wipes the team"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "9632dc0e778df451ab83e2fa02f36adfaa312d81fd0c8e991714e04a473295c3",
+      "text": "From Phase 2, a follow-up triggers After Attack if the main target has at least 5 L'Abject. The final phase's Pride skill applies 2 L'Abject even after a clash win, so switch its main target to a Sinner with 2 or less. The follow-up itself is Unclashable, cannot be redirected, and does not activate defense."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "a0b1e5ce9c3e4306bcd5377a4c6aa1693d372d46ece4417d8795b7c64f656813",
+      "text": "Staff are stronger than predicted and I cannot finish them"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "453e64b9ec200f3dfcfdad1d17598c32e5fb6680f0c92d4d8efe1c1f5ecd4d3b",
+      "text": "The body's support halves staff HP and gives them +5 Offense Level and Rampage. Even at low HP they take 50% less damage and can strengthen beyond the initial clash prediction. Focus area damage on their arrival turn and kill them before their Wrath skills."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "0665a678b2c00397f00716cacefec4c2267eb9ebd80275837795b6dffd29e912",
+      "text": "I cannot win the late major clashes"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "061c416f95dcce9f6c42d60581dbd54c6c560cc4fbff62573346e99e28af14e9",
+      "text": "Sinners who lost Shared with Pwie cannot trigger −3 Coin Power on the major skill. Early La Jouissance converts the recipient's Shared with Pwie into Decision, and the Pride skill also removes it from the main target. Do not rotate everyone through these attacks; preserve holders for the end."
+    },
+    "troubleshooting.4.symptom": {
+      "sourceHash": "4af9605c37792b683e2cb5f51ad8b8bdddf6a6ea55ed0bfbb15733eed9bb8c0b",
+      "text": "Memories reached 5 but the fight did not end"
+    },
+    "troubleshooting.4.advice": {
+      "sourceHash": "b858fbfd61bbceb8b6ed8d4f1abf076c51aa0bd42104b5f669efe7ace9b0f600",
+      "text": "At 5, the enemy changes to a single Gluttony skill. Win that clash with a Shared with Pwie holder too. The following turn, it stops resisting; victory occurs at that turn's end. Do not simply defend and wait immediately upon reaching 5."
+    },
+    "phases.0.timing": {
+      "sourceHash": "cb9b9b929c79581b65fbecb6c3490ed1dfd9fe8fc1a780c14c7eff26f3452403",
+      "text": "Before battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "b9fd118c481cf52614106dfe62e2f3550117466b0d5e4d692beebd8992bb8630",
+      "text": "Prepare Customer Lv. 65 and resources for major clashes"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "d1c4b92e089abe812ab209aa05b7577a7c1e525a8aaafc6e2311cfefe9e9cd2e",
+      "text": "Shop toward Customer Lv. 65 and Diamond rank. Check missed shops and vending machines rather than farming experience outside. Use the available deployment slots and keep survivors alive until the end."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "a41bcb22cbf3ccca16a75be2212dbd59eb7ced401fbf896201dbddb8b841ad4a",
+      "text": "Prepare high-Power E.G.O, Offense Level or Power debuffs, area damage for staff, HP recovery, and Shields. Do not assume a clash is winnable based only on its maximum before modifiers."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "cd6adc26393913fb5c4133fa4eb7fc0c1a56971080d3207654f99f4c287731e6",
+      "text": "In the preceding encounter, dash or evade attacks and repeatedly attack to escape grabs. If HP is low, retreat and kill replenishing minor enemies to heal. Reducing the body to 3,000 HP starts the dungeon battle."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "50224c6fdc907402d893e0028a587d4f6edafdf34cfc216149a97b18a2b23755",
+      "text": "Meursault's He Who Nails provides Speed support and +2 E.G.O resources matching a used skill's affinity, twice per turn. This battle also grants him +3 Final Power. Use him for resources and early Memory-gaining clashes."
+    },
+    "phases.1.timing": {
+      "sourceHash": "3ff54377cb365590383ecce30a68a9193fb390b26e899912c724678da699c167",
+      "text": "Action selection order each turn"
+    },
+    "phases.1.title": {
+      "sourceHash": "7f4f89555bc99c426e75370ab19ecb107144774c414e80c493e21d000dadaec8",
+      "text": "Check Bleed, L'Abject, and the Shared with Pwie holders to preserve"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "a7ca6360b55f4ef2ffefa1177ecb1339721e7521d10324d1e2c9e8089ed451c2",
+      "text": "First check Sinners' Bleed, L'Abject, and Shared with Pwie. Avoid repeated basic attacks with L'Abject; switch to E.G.O or defense. This prevents basic attacks from increasing Bleed Count, but does not remove existing Bleed."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "e44112d84c77c5de9e3a62c241923ef395e189d2fc970c804275ff556fb4cb25",
+      "text": "Next, assign strong clashes to Sloth skills that apply L'Abject. Win against Dégagé and Le Point de Capiton with Sinners carrying Bleed."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "58b2d3c9db88e44965f04f37d1e6fc16cbfb11aed0e4f8b34296c77142683810",
+      "text": "The three Lust slots using Je m'expulse apply Bleed but not L'Abject. If strong skills are limited, prioritize L'Abject-building attacks and Memory-gaining clashes first."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "04858ad5cc312d15d141ed66e6592e7874bbea96123736ee15b29b0d94504dd0",
+      "text": "Finally, focus spare attacks on staff. When a Counter is present, check whether extra attacks or follow-ups might trigger it early. Do not resolve everything through repeated basic attacks or auto-selection."
+    },
+    "phases.2.timing": {
+      "sourceHash": "545e692b1630e52022106c1648ad1cf78eea2113781b393ba41670d3bc93c0fe",
+      "text": "Phase 1: opening through the first Memory"
+    },
+    "phases.2.title": {
+      "sourceHash": "f824be26775d7b0078e6dfbd149717e3a35ab2640d74fb58fc46f1e53cda41f5",
+      "text": "Stop Sloth skills and gain the first Memory"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "034fe5c9f04716e974addd5ae8781bfa0f5f1ebcc11344ebb02fa8d4047150fb",
+      "text": "The opening level gap to enemy Lv. 90 is large. Prioritize winning Sloth clashes and use E.G.O for difficult ones. In Phases 1 and 2, using a skill against a Shared with Pwie holder lowers the enemy's SP by 10, so later attacks face different conditions."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "7da9a56e37688d8a1139ff29520ccaed3ec4671ed89cae57e267a4028847f62d",
+      "text": "In the normal sequence, it prepares a Clashable Counter on turn 2. Use a recipient who can win; the third Coin consumes everyone's L'Abject. The Counter is Unbreakable, so expect hits after winning too."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "cb5ce2c855cfb639d65d281046b1531690c09852ed93960fef5998f458a2ffaf",
+      "text": "Turn 3 in the normal sequence brings La Jouissance. Shared with Pwie lowers enemy SP by 20 and Coin Power by 3. Clashable regardless of Speed; winning increases Pwie's Memories."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "d5f79ce443ad805a8ada34c20fb4b488157c43cbd074538f3d2a550fa59c0a93",
+      "text": "After the attack, the recipient's Shared with Pwie becomes Decision, losing 75% damage reduction. Assign an early recipient such as Meursault and preserve other holders for the end. The next Gluttony skill heals the body and staff join the battle."
+    },
+    "phases.3.timing": {
+      "sourceHash": "a93c70c900efcde134d1feec5732e65c2e49b5131f06b7eae40090a20d28fcf7",
+      "text": "Phase 2: three staff appear"
+    },
+    "phases.3.title": {
+      "sourceHash": "5a21542d6f7fbcb586d8befb27c723f5228365952ea6ccbcfcd02a73501d2ce4",
+      "text": "Eliminate adds first and reach 3 Memories"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "fc762169bd4475193f502c88249e0c1ef04db03bfa69e7015f6e4e2cb491ca36",
+      "text": "Finish staff with area damage on their arrival turn. From the following turn, their Wrath skill becomes extremely strong through Pulsation, Bleed, and increased Offense Level. Clear them while still covering the body's Sloth and Lust clashes."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "8d212f676cc0e2ea13a1cbfc1a65b468d4e95be12358edc617a9244afa1972bd",
+      "text": "The body heals Staggered staff and removes their Stagger. Do not leave them merely because they are Staggered; prioritize killing them that turn. Dead staff become flesh with Voice of the Crimson God and later return, so prepare for reappearance."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "b14a6483d3bdb0538d9968416ce44ac77abc6ed0a3e8dd66e796bbbe93f2344a",
+      "text": "Phase 2 La Jouissance heals 15 SP and gains +2 Clash Power per staff member. If all are dead, Clash Power −3. Kill staff with fast attackers before winning this major clash with a slower recipient."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "b25c476a2d771560ffd6df249a57a9440189f8ce043479b0295acd8045ddf5c0",
+      "text": "Below 25% body HP or at 3 Memories, Phase 3 begins. When pursuing Memories, direct damage at staff and avoid reducing the body too far before gaining enough Memories. At transition, the body heals and removes negative effects."
+    },
+    "phases.4.timing": {
+      "sourceHash": "427a006175e9570cb0ef5bd8fafc8c1d893920f3c0d76764bb457b97657c2032",
+      "text": "Phase 3: after absorbing the adds"
+    },
+    "phases.4.title": {
+      "sourceHash": "0f59b67c4f108efe9f4fc8b78f8419ea9c3a312e591de62ac455c62778aa504d",
+      "text": "Choose Pride recipients and gain Memories through Gluttony"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "64be08f6fac122ff7a5e52aa4692ddfce986e186236565240bc82f981a44bc7f",
+      "text": "Only the body remains, alternating between Clashable Counter turns and La Castration turns. The early SP loss from targeting Shared with Pwie holders no longer applies."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "b69e413abf26640a16b4b52c5f7ce5d151c4d256ab8ca6cdecaebf90adff7d4a",
+      "text": "The final Pride skill Le Nom-du-Père has all-Unbreakable Coins during Rampage. Choose a main target with 2 or less L'Abject and win with a strong skill. The remaining On Hit +2 must not reach the follow-up threshold of 5. Losing adds more, so 2 or less is not permission to ignore the clash."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "a6e196654bd749c2233625551b9f4352d8678e0b1ed6da9f98467241d206da3e",
+      "text": "A Shared with Pwie main target lowers Atk Weight from 5 to 3, but loses that effect afterward. Check surviving holders before sacrificing one so you retain a La Castration recipient."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "9188abb4836a8b20a6dc4e36e0cc2d6e9a9da142130f2300de9b1bd4e62d941a",
+      "text": "The Counter can remove everyone's L'Abject. Resolving it after the Pride skill can clear buildup, but check action order so an extra attack does not trigger it early. Clash with a high-Power skill and win for 80% reduction."
+    },
+    "phases.4.steps.4": {
+      "sourceHash": "3e3a7d6a40d92d768d88de7655e6a1773e0dbf0ea715fd628ad6f2686ab42321",
+      "text": "A Shared with Pwie recipient gives La Castration −3 Coin Power. Across four Coins, its base maximum falls from 27 to 15, but Bleed, Pulsation, and level-gap modifiers still apply. Clash regardless of Speed and win for +1 Memory and 95% reduction. It does not convert Shared with Pwie into Decision, so the same holder can handle it repeatedly."
+    },
+    "phases.5.timing": {
+      "sourceHash": "b2b4c8956690855f8c019ae7d3149ded6711f0eb72f4c3636424abe65c0415df",
+      "text": "At 5 Pwie's Memories"
+    },
+    "phases.5.title": {
+      "sourceHash": "21bd8a28634d9c6cfc1140006bece0126d3c4bdb0f920585e26509abe3d25893",
+      "text": "Win the changed major clash once more, then wait until next Turn End"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "de3bf921e4c9581a284f7473a29083f3a8045f7bb8bc2305f44ac486cfddf96f",
+      "text": "5 Memories does not immediately end combat. The enemy next prepares only one Gluttony skill; win with a preserved Shared with Pwie holder. The all-Unbreakable conversion that applies below 5 Memories also stops."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "9a542172e79573823c193b90650afe7afbcd6dab9dbd7e58e8a12a8f54b28f4f",
+      "text": "On the following turn, it stops resisting. You do not need to reduce HP to 0; victory comes at Turn End. Losing every Shared with Pwie holder just before this makes the final clash harder, so protect them until the end."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "91f8f92c47312e4841a6343411ac3a5bc0048ed5c2bcc5a5f3842817988456c7",
+      "text": "If the team collapses, Continue is an option and still allows an EX clear. When retrying, identify which attack brought a Sinner to 5 L'Abject."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "aca98a308479ab5dfee74a36126b907bb46d6b97a4b5910019e045ab47cfb07a",
+      "text": "Shared with Pwie"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "212edcaa0d0148ee79be412c60bb170807d48cd28c6db23f30adf28a65ba0163",
+      "text": "Granted at Stage Start to Sinners, including reserves. Minimum and maximum Speed +3, final damage taken from the Crimson God [Adulthood] −75%, and heal 15 SP at Turn Start. Also weakens certain major skills."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "99c208107460d418f1813397b0af8825265e996329c76f4313db87ad45508fbd",
+      "text": "Removed by the Pride skill and converted to Decision by La Jouissance. Preserve multiple holders for the end."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "07fe4887ad245905dc2f6faab78f5f0f8a0c84fd133584a5dc8b866851b6c02a",
+      "text": "Pwie's Memories"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "b1fb40a92aab42c64730bf46c246935a0ed56bce4a3f382d2402f246d5c466c4",
+      "text": "Maximum 5. Held by the body. Base Offense and Defense Levels −5 and Clash Power −1 per Stack. At Turn Start, heal SP equal to Stack ×8. Gained by winning clashes against specific major skills."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "325c5304f5a1ebb402184f66ed34e2ec0b3cf7d52083f9ac90e3900fa3ccc355",
+      "text": "3 Memories advances to Phase 3. After 5, win the changed major clash to finish. Its SP recovery means level reductions alone do not render it harmless."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "b0843f11e14900391f04aa7dd35eb194190e70c1634804685ce118749a0d8908",
+      "text": "Decision"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "7f1d2223b4606411176794efad4b6256e644896c3ded724115e920b79f997248",
+      "text": "Replaces Shared with Pwie. Damage to the Crimson God [Adulthood] +30%; heal 15 SP at Turn Start. Does not retain Shared with Pwie's 75% damage reduction or Speed support."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "c266e4fd84e040eeb21187494ebfdc2d7db4d1a7db58dcf5c81fb4eef3813034",
+      "text": "Damage rises, but survival falls. Fix early recipients rather than having everyone lose Shared with Pwie in turn."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "eb18c65fe72af925ae83a4a499d7362b563020508c52f9b2ac68f13f898f2e42",
+      "text": "L'Abject"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "d004620993ffe070d0474bd4af3354c28806d54624f1dab56ab84942c16515f2",
+      "text": "Maximum 5. Speed −1 and Bleed damage taken +20% per Stack. Using a basic Attack Skill increases own Bleed Count by Stack. From Phase 2, if the main target has at least 5 After Attack, a powerful follow-up triggers once per turn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "e8d3ed8509102790d59fadc055caffcd9144317757dc67da2fa77cc62f269f61",
+      "text": "Use E.G.O or defense instead of basic attacks. Count application from remaining Unbreakable hits too, and manage it before the follow-up."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "f54991ea93094be4d14e475bc5990614eab68c879c8f28994d028c43755436ac",
+      "text": "Pulsation"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "d1d853170fbc1f5599865ce1e7fab432a2afdf6e58d6a6e950e037187fb79eb5",
+      "text": "The body gains Count whenever Bleed damage occurs and gains Potency per cumulative 10 Count consumed. At 2 Potency, Final Power +1; at 3, Bleed Potency inflicted +1; at 4, Coin Power +1; at 5, Rampage no longer decreases."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "c3065ab270a93adda5b567e46ab5c78eb20d9908c2c33d5b95bdb0f3524a36fa",
+      "text": "Shields preventing HP damage from Sinners' Bleed also help limit enemy growth. Applying Bleed to the body likewise increases its Pulsation."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "e5f06547e0faa8cb89613b318cb68ce149c1dc09909988319baf03555290920b",
+      "text": "Uncontrollable Rampage"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "e84c60661a84c585ec7966571a9c48680c8bfcedeec066bb1d3438e35418c597",
+      "text": "Uncontrollable Rampage [Le Désir] has a maximum of 3. Minimum and maximum Speed +1, Bleed damage taken −50%, and cannot die from Bleed damage. Normally loses 1 at Turn End, but the body's 5 Pulsation Potency stops this. Also affects the Pride skill's all-Unbreakable conversion and staff damage reduction."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "5349d95723b801a3d889918ab1e9d8ed99cad4862452c9e191123c332e5f2865",
+      "text": "Waiting for natural expiry is not enough. Keep gaining the body's Memories and eliminating staff before they act."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "bb4cc074d55ae8a58c649d7a295dfe06be3c1805400c1195daaaa5bad0eb88c2",
+      "text": "Voice of the Crimson God"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "3c63024f501027e90e079fa737696e4d02ee76a5f5d691294c59dc3ef2884e08",
+      "text": "Dead staff return as Ripped Flesh of the Crimson God with 150 HP and 3 Voice. Voice loses 1 each turn and prevents death while present. On expiry, returns to staff form and gains SP recovery and Pulsation Count based on remaining HP."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "4122cd5947be3e98c52a8914a657f9acaf901ab4bbabc6999b02b7be7e14cbf1",
+      "text": "Do not repeatedly attack flesh expecting to erase it permanently. Prepare area damage for its return to staff form."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "d6322b6c7a76e28c0166329f150192f2507bc8298bd1077fcb59708d196af55f",
+      "text": "In this battle, Meursault gains +3 minimum and maximum Speed, +3 Final Power, and +2 matching-affinity E.G.O resources on skill use, twice per turn; cannot retreat. If another ally is alive at Turn Start, he also cannot die that turn."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "fb1333978c2f76b246f0450594594e712efcbc8e7d4a13bc4058b20f9d3bade0",
+      "text": "Use him for early Memory-gaining clashes and resources. Survival is not unconditional when no other Sinners remain."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "3c1d597764c382697965f65ad1e4e2891ce411917fbd1be711d1626efa27b71e",
+      "text": "La Jouissance"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "54880cf907676b9428ac65947118ff20b2e370a0f3704fdb22652841c8535316",
+      "text": "A Wrath major skill that gains Memories in Phases 1 and 2. Three Unbreakable Coins. Shared with Pwie weakens it in Phase 1; surviving staff strengthen it in Phase 2. Converts the main target's Shared with Pwie into Decision."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "12bd59fa7490e3c8e1af15c5182964f5a329005f6c11948dc72676316281ba9a",
+      "text": "Check the separate phase tabs and balance staff cleanup with preserving Shared with Pwie holders for the end."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "f9945dc7560bada29ec46b055943f147affd318d6d65e2f4f51b2f4be67eccad",
+      "text": "La Castration"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "88800e46ebd02a00260639ed7bb0d46de25fd5c45c6e5a65b695c264ce82322e",
+      "text": "Phase 3 Memory-gaining skill. Shared with Pwie gives −3 Coin Power; a clash win grants +1 Memory and 95% damage reduction. Its damage cannot Stagger the target."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "159a41dcd02297b7ba91aee184da1437476efe9e0f69c843ebbb9b0fd1295f5a",
+      "text": "Win repeatedly with a preserved holder. Do not forget the final extra clash after reaching 5 Memories."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "96e6bba065ebfeaf42d88c146e4b00f4ec6893490fb3cf659a8071ebd0038a8b",
+      "text": "Le Nom-du-Père"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "90869dad4d97aeb424dc27cb826799401e5c7a85a6bd1147dcfa7012c32e3faa",
+      "text": "Pride area skill. A Shared with Pwie main target gives Atk Weight −2, but loses the effect After Attack. All Coins become Unbreakable during Rampage; 2 L'Abject can remain after winning."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "44482971aaf244c170db2d0276ffc0f7d21aa0992cebaeffaf91271d519199cc",
+      "text": "Receive with a Sinner at 2 or less L'Abject and track remaining Shared with Pwie holders too."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "98d13a52507f5ba135a065110202978e994d7788794def7e4da7d4864217eaac",
+      "text": "Le Trait Unaire"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "e644cab178b0bbfe36cc4eb7b05b80fc345ad647af3a850f4f1be74c30200d78",
+      "text": "Clashable Counter with three Unbreakable Coins. Consumes everyone's L'Abject, but its amount increases extra damage and Bleed Count."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "f1d26eb4135b3b51745a4aac1e229b213be1b003885b73d4dc0e23e6d04f0df2",
+      "text": "Win with a high-Power recipient for 80% reduction. Do not trigger it early with a weak follow-up."
+    },
+    "warnings.0": {
+      "sourceHash": "a413cd64133ddacf8a3443816fa2850f0400f95829a3450b514c4af30f5b7a88",
+      "text": "5 Pwie's Memories is not immediate victory. Win the changed major clash, then reach the following Turn End."
+    },
+    "warnings.1": {
+      "sourceHash": "4c9f7395b0f381dc7c3723e07f903680a392eeff93aeb9177139b6d0d0b8e17e",
+      "text": "Shared with Pwie and Pwie's Memories are different. The former protects Sinners and weakens major skills; the latter accumulates on the body and affects victory conditions."
+    },
+    "warnings.2": {
+      "sourceHash": "08e328bc71073f47cb21ba173ff32e0111f516fa412492163a36a36ebe70de27",
+      "text": "L'Abject's follow-up is checked After Attack and triggers once per turn. The value at clash start alone does not guarantee safety."
+    },
+    "warnings.3": {
+      "sourceHash": "e8f83f1522364749091aef4c6237a733fdf95f5730449fa533eb7c97c709f7fb",
+      "text": "Losing Shared with Pwie also loses 75% damage reduction. Decision retains SP recovery but does not provide the same defense."
+    },
+    "warnings.4": {
+      "sourceHash": "f46d3b03e381dfb79b8a0f75da46bf5cb0dccd3c7506ff9da1834bcd21f63882",
+      "text": "The body removes staff Stagger and strengthens them, and they return after death. Do not leave them merely Staggered."
+    },
+    "warnings.5": {
+      "sourceHash": "a7559ae0c4411e62b87132e72a3cc242130e3776d8016582db57eca68c1e8d94",
+      "text": "Meursault's survival requires another ally. Do not plan to take every attack with him as the last survivor."
+    },
+    "preparation.0": {
+      "sourceHash": "f94f4295127c01bd680d7a6e209f33577c3cf6d66dbfcbd9263c9f10dd7456e3",
+      "text": "Shop toward Customer Lv. 65 and Diamond rank. Do not reuse outside Identity levels or Route A's Customer Lv. 35 as the benchmark."
+    },
+    "preparation.1": {
+      "sourceHash": "37916ea894f08daf3aa8ad9325a09000549c41ed5f528a319db6f7129dc94f7f",
+      "text": "Bring Meursault and enough survivors to preserve several Shared with Pwie holders. Prepare E.G.O for major clashes and area attacks to focus damage on three staff."
+    },
+    "preparation.2": {
+      "sourceHash": "728b27a46b71633db0c7c82d27e647281fe59c996992aff000f6065d35570af3",
+      "text": "Combine HP recovery and Shields with enemy Offense Level debuffs. Bleed buildup and the large Offense Level gap make an Evade-only approach unreliable."
+    },
+    "preparation.3": {
+      "sourceHash": "32203f7dd4afa9ec5204a4f554fa521402538ff58d864ae67fec1204006466cc",
+      "text": "Replenish scarce E.G.O resources in the preceding dungeon battle. Continue still allows an EX clear, so consider it if clearing is the priority."
+    },
+    "roles.0.name": {
+      "sourceHash": "daf1fb2f02d68da3790c32ebaff36b099f966f4f56389c74e95f1f68a1eaa4a9",
+      "text": "High-Power clash recipients who retain Shared with Pwie until the end"
+    },
+    "roles.0.reason": {
+      "sourceHash": "ff985ef8bb5e73589fec79d6bb52b1a0db603bb84bbb76e42b22886d0ff5ee0e",
+      "text": "Use La Castration's −3 Coin Power condition to gain Memories. Do not assign every Pride skill and early Decision conversion to those same recipients."
+    },
+    "roles.1.name": {
+      "sourceHash": "0f1c7cf96e38045acd400647b5885112de8623eaaa05907f1a8fdafc0a755e8e",
+      "text": "Area damage to eliminate staff before they act"
+    },
+    "roles.1.reason": {
+      "sourceHash": "bd1df6d95eb2decf1365f4cbf81f7d4985af4071eb82b1536a45c28ad524dbed",
+      "text": "Reduce the body's Protection and major-skill buffs, killing staff before their dangerous Wrath attacks."
+    },
+    "roles.2.name": {
+      "sourceHash": "eb53f710e5e1766f4d945a5cf0e1d86d23ed766c7dc2fc4dd984895c9faf419b",
+      "text": "Offense Level and Power debuffs"
+    },
+    "roles.2.reason": {
+      "sourceHash": "579cee91c6bda015a18c9f7b01b3c6667047b38349e3c989b411a99da4eb07fc",
+      "text": "Account for enemy Lv. 90 and Pulsation buffs to improve the chance of winning high-Power clashes."
+    },
+    "roles.3.name": {
+      "sourceHash": "60157cea79a7366ab163ccb07aba2b55918c11f5804701d15553b41dbcdbaae7",
+      "text": "HP recovery, Shields, and resource generation"
+    },
+    "roles.3.reason": {
+      "sourceHash": "14a861c22cab14f517ae0087ca4efbf9e1f2ef13c49a0add6239f49aef2f95a8",
+      "text": "Recover from Unbreakable hits and Bleed and use E.G.O for key clashes. Exploit Meursault's extra resources too."
+    },
+    "units.0.name": {
+      "sourceHash": "293ae777f2c1ac94fbd32d39a5fbf21b4f9fff3b6b12a3b78ef38b2bd57fc61c",
+      "text": "The Crimson God [Adulthood]"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "46ac377a6def42dc99cf7fac522f6527531a66fd2d4b1e0a83a6a0fd0b1603c2",
+      "text": "Maximum 6,000 / starts at 3,000"
+    },
+    "units.0.stagger": {
+      "sourceHash": "4ef1b573c95f9596dec36fa4d8feb5a4b363eb6f6b1fcf12c65b06cdb974fb37",
+      "text": "Unknown; cannot be Staggered until certain major skills are used"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "d2abce424907184f520556738643d228edc572f83f84b4705c8210b06c25174a",
+      "text": "3 slot weight per slot."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "28797f2de973774bab56d58567856e9d6d86322c6751bc6967af8b08994bd559",
+      "text": "Enters Phase 3 at 3 Memories or below 25% HP. Memories provide an alternative victory condition."
+    },
+    "units.1.name": {
+      "sourceHash": "379d5a63c11c9033ee3ea57bc6c3c28901e2e422d6c4c9a74f64e647416dfd83",
+      "text": "Le Rouge Senior Staff"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "c0741753435fee0af6319cf4fba6f9555a33934069ae3ffd1e742b78412cee87",
+      "text": "74 HP (percentage unknown)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "25a39436b8ae468574683ec490678e31f2fc20b08bcbc3e37153ee48da832d99",
+      "text": "Phase 2 add."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "2fd9ccf2e90abf0d9a5bcd6896a0f969af716cc65ad91561664c12c5a77ddaac",
+      "text": "The body's support halves current HP and grants Rampage and other buffs. After death, returns through flesh carrying Voice."
+    },
+    "skills.0.name": {
+      "sourceHash": "bb93cbabac2385b4592011d326d9f356aab1a2c9fb1d8200e5e4ab9a5f1692d6",
+      "text": "Je m'expulse"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a6cc31dcb5e7f9f58df67f6ab90fc6cc37e6ae30f687b8343285fa53c047aa7b",
+      "text": "[On Use] At 6 or more Bleed on the main target, Coin Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "c3cb46fb0d28d08465991282edbb27ea6ccc8b78666f9d12fc5ae7da1dcddace",
+      "text": "[On Use] If the main target has no Bleed, all Coins of this skill become Unbreakable"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "536e07c592cb82c2d18dc82adb8f49b3c2e3c52ab07faada85344bca6da05436",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "1ac25279d8b71bac56c18d7b25a13da1f8a63aaa38a6ea6801c2e9a1c55e3086",
+      "text": "Ⅱ[On Hit Without Breaking] Inflict 1 Bleed"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "4e70f479196a90cb0bb55996e412e046896966ee2d234ce97d923359bc296ed8",
+      "text": "Expulsion."
+    },
+    "skills.0.response": {
+      "sourceHash": "49a109277fe602213f203536ca0309e9d0c1e627b09190d06922b09c7841a1e1",
+      "text": "All Coins become Unbreakable against a recipient without Bleed. Does not apply L'Abject; prioritize strong skills for Sloth attacks and Memory-gaining major clashes."
+    },
+    "skills.1.name": {
+      "sourceHash": "5e438b90da0d2b978db84d5c9351e98ee1b5078b97a5843df36ecc09f7421cd2",
+      "text": "Je me crache"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a2473f11f119e17180984294619d05350d2111f8e8b7ebb4f30d2e74315b182a",
+      "text": "[On Use] At 6 or more Bleed on the target, Base Power +2"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "72c5f22437701dbb65012ffc25ac3008d551c38af5a2c550e4a4a67de104880f",
+      "text": "[On Use] Atk Weight +1 per 2 Pulsation Potency on self (max 2)"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "ad9db0a2cf9323422965eaec17fd5f8a16f96a800d3871053b1fad5fdb4cb7f4",
+      "text": "[On Hit] Inflict 3 L'Abject"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "57c28b73748cc53a5c3e17af3544df46492e4e53fe9adf2b72caf9ed38c31092",
+      "text": "Spitting out."
+    },
+    "skills.1.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.1.response": {
+      "sourceHash": "af0ffe0a69419b734e95746a5a2f54d1aacc30a91c57e4e342c98995218c9215",
+      "text": "Inflicts 3 L'Abject On Hit; prioritize winning this clash. Pulsation raises Atk Weight up to 3, so do not let it hit a weak Sinner unopposed."
+    },
+    "skills.2.name": {
+      "sourceHash": "0489a8db3cf25c98a64e169d868b5cb856f9b7e5d8f10aa98fad8128745d729d",
+      "text": "Je m'abjecte"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "b2a10138c61e38d5ce5559eb23debc6e437238273f6fd41f6809d83fc3feecf7",
+      "text": "[On Use] Coin Power +1 per 4 Bleed on the main target (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "541b0605703b4ef377df3f12511ee7e895f14f96af4b79e72c9275cbc82f15bc",
+      "text": "[On Use] Atk Weight +1 per 2 Pulsation Potency on self (max 2)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "790f9d9ea073ba97ff910dcd798055f1ee07a0289fdc20130ac7a24f926488fe",
+      "text": "Ⅰ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "b688c3a7a89370551c1787d39739713f56d9d1adf018be0c1fb0900bbb89180d",
+      "text": "[On Hit] Inflict 2 L'Abject"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "fa0bbd6e078d752470af9c1e2b8b606e085558d66be4ee272e07788fe1f3ebde",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "4f4b45deae696c8162e618a13f0217255b0e48c667bc330309c904ffcc2d3634",
+      "text": "[On Hit] If the target has at least 3 L'Abject, inflict 2 Fragile next turn"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "26fa838429f3014023d95184e70d02f1cdd8097aa0236b69877248b5a4862ee6",
+      "text": "Casting off."
+    },
+    "skills.2.label": {
+      "sourceHash": "63c1130d01b49ac9415f8ca33c797b5536ba22f902c1982c9ce5f5d47e5a81c4",
+      "text": "Attack Weight varies by condition"
+    },
+    "skills.2.response": {
+      "sourceHash": "a4c79aab44869499559dccbbb9041258399350d9cdd5a740768e34236678f7dd",
+      "text": "Hits increase L'Abject and may apply Fragile. Account for Pulsation's area conversion and Bleed's Power bonus; win with a strong recipient."
+    },
+    "skills.3.name": {
+      "sourceHash": "e8b032ca3659b5e20fdd481dc0236208d0528ee9f6432f0ec175433efa537858",
+      "text": "La Demande"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "ac63adcfcdf6b3a786759e30f7118e6f9243a46113d4325260ac951e5530f75b",
+      "text": "This skill prevents Defense Skills from activating"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "c59dac910f1fe6b97b74fdeb708cdce32884fcd27219ffc3401afb77cbc10ecd",
+      "text": "[On Use] Remove all L'Abject from the main target"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "2a405e7b9827b45ffc22ff289f48dc8787ed6184283bc7ce8463a5fa6bb4bcb7",
+      "text": "[On Use] Coin Power +1 per Bleed on the main target (max 2)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "c31be1fdb60d8167a2e0dd670c80eb66878342601631f6a45d1a52858ddc224a",
+      "text": "[After Attack] Remove Shared with Pwie from the main target"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "0d0b91bad34a51a11389e1d73f6d404432ff2c50cf7b143d9d952778bed91f9b",
+      "text": "Ⅲ[On Hit] Trigger the target's Bleed once; reduce their Bleed Count by 1"
+    },
+    "skills.3.label": {
+      "sourceHash": "fe467405eb5effca7d71312ab3d484e31de49f87f201a8dec6e7edca5aa4e1c6",
+      "text": "Unclashable; cannot be redirected; does not activate defense"
+    },
+    "skills.3.response": {
+      "sourceHash": "2c5cb1d0e3f9c5bb91319eacae046ac62471fdcaefe7de6768fbc093bc9b39e1",
+      "text": "Follow-up triggered at 5 L'Abject. Unclashable, cannot be redirected, and does not activate defense. Prevent buildup before it triggers."
+    },
+    "skills.4.name": {
+      "sourceHash": "a4ef113303a2d85f016c70fff2b30d075c1aebbfd79f694c6221e0b82ffe5df3",
+      "text": "Le Nom-du-Père"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "1edf7197b5880dfcd3b79799fccd970e06707904e8695b5de35c64666ceb2934",
+      "text": "[Combat Start] If this unit has Uncontrollable Rampage [Le Désir], all Coins of this skill become Unbreakable"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "b510cfb89300ab67c3433bf4f49d654601ed99db2e9deea92e1b302a6698d3ab",
+      "text": "[On Use] Coin Power +1 per Bleed on the main target (max 2)"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "84e9359492af93ae628fb47d5aa1ec00ee3a4ec045ebbf0c9e968f0479debfa3",
+      "text": "[On Use] If the main target has Shared with Pwie, Atk Weight −2"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "536e07c592cb82c2d18dc82adb8f49b3c2e3c52ab07faada85344bca6da05436",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "c31be1fdb60d8167a2e0dd670c80eb66878342601631f6a45d1a52858ddc224a",
+      "text": "[After Attack] Remove Shared with Pwie from the main target"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "b688c3a7a89370551c1787d39739713f56d9d1adf018be0c1fb0900bbb89180d",
+      "text": "[On Hit] Inflict 2 L'Abject"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "2c3ee20dd80b434a5652d570ceb1173bfa643ca35781a1fe7d5f58f4e0f7a610",
+      "text": "[On Hit Without Breaking] Inflict 1 L'Abject"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "b2b1e74163ff94168cd91bcbeb27fe95305841601b899897980d805879b06c22",
+      "text": "[On Hit Without Breaking] Inflict 1 L'Abject"
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "4e99b178482f0b8264b825b8bac0e55719ba4352317ad1cb0293d80b484e9fa3",
+      "text": "Ⅲ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "56b118e66ac4c3dd2df65feb3605cc71c3a37039c1a4374f37381c2be988d7ee",
+      "text": "[On Hit Without Breaking] Inflict 1 L'Abject"
+    },
+    "skills.4.response": {
+      "sourceHash": "98ba6ae5e2d529e0e1c94ff7dc9de73a4cc7c39d92eec1762fa2a5fa4e9551e6",
+      "text": "All Coins are Unbreakable during Rampage. Win with a recipient at 2 or less L'Abject so On Hit +2 does not reach the follow-up threshold of 5. Shared with Pwie reduces coverage but is lost afterward."
+    },
+    "skills.5.name": {
+      "sourceHash": "e5244401c66d27e75530eb89e1a8c807b5a544de23485f50bfc7f5cded3b6822",
+      "text": "La Castration"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "ae4ca7101549d2d235e44d9637bd3e299090bcd4a8b9b11260de67af43a7f236",
+      "text": "Clashable regardless of Speed"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "7e80284ee297fd69124fd689f7c0b27eb49048539a17d324c5eb482bff786e80",
+      "text": "[On Use] If Pwie's Memories is below 5, all Coins of this skill become Unbreakable"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "bf9329fc602ad149eb4f6b781aace6731beea8d2b586d9ba47b9c724e4c5dbd9",
+      "text": "[On Use] If the main target has Shared with Pwie, Coin Power −3"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "5fc882178a4053e6eaf4a9d6027b551ddb9bda1d86d0471bb756896dc39d0e3c",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the main target (max 3)"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "d3eea4968a10456ec4ac119dea446f64c075fdb6f21ec06e63317ff4934e1d85",
+      "text": "[Clash Lose] Damage −95%; this skill's damage cannot Stagger the target; gain 1 Pwie's Memories"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "16d1b26da77ec5333c815633da9b40d4450d877ae0040286cd3ef90019b1f613",
+      "text": "Ⅲ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "6faf28c1cbcd932d565befc3967953874ac4dafa5959c0e2a965a8e9ddcf437d",
+      "text": "[On Hit without Coin Destruction] Trigger the target's Bleed once; reduce Bleed Count by 1"
+    },
+    "skills.5.effects.12": {
+      "sourceHash": "3c0557b71d19e712114d42d29d1945d96863798fc257e279b600d93ee06c54ce",
+      "text": "Ⅳ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.5.effects.13": {
+      "sourceHash": "bde8819ea7dc53418c720943acc79a46c0641bf6bd319481869a4e2bb46849b8",
+      "text": "[On Hit Without Breaking] Trigger the target's Bleed twice; reduce their Bleed Count by 2"
+    },
+    "skills.5.response": {
+      "sourceHash": "9476eaf8e44e735d33c010d7645673c6589ae6fe7a40f4a4ccf3cb2b79e3c0ab",
+      "text": "Final-phase Memory skill. Shared with Pwie gives −3 Coin Power. Clash regardless of Speed and win for +1 Memory and 95% damage reduction."
+    },
+    "skills.6.name": {
+      "sourceHash": "665e37d048337107f22f88f80ce22529fd89d790f29195ae325f7f880972c64d",
+      "text": "Le Trait Unaire"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "80673cd15f7920c5eaaa9d72d08b09d5c3fd832ac22820d0784cbf31f75009b3",
+      "text": "[On Use] Atk Weight +1 per combined 5 L'Abject on all enemies (max 3)"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "536e07c592cb82c2d18dc82adb8f49b3c2e3c52ab07faada85344bca6da05436",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "45e94db314484af233fe219dea2fddedc22375767c856191567fcf8678f3656d",
+      "text": "[On Hit Without Breaking] Inflict 1 Bleed"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "005392b33a47806dc0fdbf6d697ae8fa306d4878d31200e7e19f8390381a0cca",
+      "text": "Consume all L'Abject on all enemies"
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "18e6671b0ab5f07a63f2bab4f64e6237073eeaa5f4fb83b133c0bfe3eacfd723",
+      "text": "[On Hit] Deal Lust damage equal to (consumed L'Abject ×5)% of this Coin's final damage"
+    },
+    "skills.6.effects.11": {
+      "sourceHash": "bce7a74610135d9a1615f4e5cc99889797f4e02c2bda0b2c73b3d4ae4611f264",
+      "text": "[On Hit] Inflict 1 Bleed Count per 4 L'Abject consumed (max 3)"
+    },
+    "skills.6.label": {
+      "sourceHash": "d221eaf564b6e8ed38d6a6e9324bdc48e683a290d8fed3d71e82fe517d15689d",
+      "text": "Clashable Counter; conditional Atk Weight"
+    },
+    "skills.6.response": {
+      "sourceHash": "1727a3a8f2de4863a0a083d92a2f2ee9c46de8c7ae36ed08f6e8f5fd73f45842",
+      "text": "A Counter that consumes everyone's L'Abject. Three Unbreakable Coins still hit after a clash win. Avoid triggering it with weak follow-ups; clash with a high-Power recipient."
+    },
+    "skills.7.name": {
+      "sourceHash": "881d5254b98c5808da0acce576355785b653e05badf682f8670e5e94a4cd0109",
+      "text": "Dégagé"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "a822c3c37405bf88138eaa157d3903345fba0b50a2ef1e90f61c0c4e01a16672",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "7b6104170847f569f7c657ed77812cea2b217afbc9d5d7a1b79ffd978efccde7",
+      "text": "[On Use] If the target has no Bleed, all Coins of this skill become Unbreakable"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "536e07c592cb82c2d18dc82adb8f49b3c2e3c52ab07faada85344bca6da05436",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "562cdfef227cb052e4c51d8ed718bd7a412d23e479e693ccdca80a1e1718619d",
+      "text": "Ⅰ[On Hit] Inflict 1 L'Abject"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "39db04d2b3e2eedcef728df5dd68cdb77b6a4da3e021217ffb01cf6e56fa4d19",
+      "text": "[On Hit] Bleed Count +1"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "75f11ded12517e8ddfd598b53d36ba0dc46ee4a0ab054b6d2bd65645cd59f7b0",
+      "text": "[On Hit Without Breaking] Inflict 2 L'Abject"
+    },
+    "skills.7.response": {
+      "sourceHash": "3ddb717b2b43377aef5b0c9dfeed1dbbc0f0329d39cf614415d85fc9ae3017cf",
+      "text": "Becomes Unbreakable against a recipient without Bleed and applies L'Abject even after winning. Win with a Bleed holder to stop the attack itself."
+    },
+    "skills.8.name": {
+      "sourceHash": "17512fc90b46e133ef1e4957154a956956fa8625428f7e8538db5b7d9add0b0b",
+      "text": "Le Point de Capiton"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "ba92a0857db4461f93a66810176ff611b3a31da7a87f0e324154a7f5e7621c2f",
+      "text": "[On Use] Final Power +1 per 4 Bleed on the target (max 3)"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "7b6104170847f569f7c657ed77812cea2b217afbc9d5d7a1b79ffd978efccde7",
+      "text": "[On Use] If the target has no Bleed, all Coins of this skill become Unbreakable"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "536e07c592cb82c2d18dc82adb8f49b3c2e3c52ab07faada85344bca6da05436",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "562cdfef227cb052e4c51d8ed718bd7a412d23e479e693ccdca80a1e1718619d",
+      "text": "Ⅰ[On Hit] Inflict 1 L'Abject"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "2c3ee20dd80b434a5652d570ceb1173bfa643ca35781a1fe7d5f58f4e0f7a610",
+      "text": "[On Hit Without Breaking] Inflict 1 L'Abject"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "66110da9e8b335d164021739628e81cbc6ac8e94eb399aaa17a7a4b8651cb4ac",
+      "text": "Ⅱ[On Hit] Inflict 1 L'Abject"
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "2c3ee20dd80b434a5652d570ceb1173bfa643ca35781a1fe7d5f58f4e0f7a610",
+      "text": "[On Hit Without Breaking] Inflict 1 L'Abject"
+    },
+    "skills.8.response": {
+      "sourceHash": "137c5f512265d3b189d199dd01c83b13d16240a8aa3b9656df08919ad9eacdfc",
+      "text": "Win with a Sinner carrying Bleed to prevent Unbreakable conversion. Without Bleed, L'Abject increases even after winning."
+    },
+    "skills.9.name": {
+      "sourceHash": "307133729fa509606539227a29f8791889d5bb5038745e05cc04a84e35df1086",
+      "text": "La Jouissance"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "abcf31c4b3dc3872a500f64d037e0af01911235c11926819cc824de90b507146",
+      "text": "[On Use] If the main target has Shared with Pwie, lose 20 SP and Coin Power −3"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "0d889f685324d595419b36b398ed5e33a5d08347b83f3efe2d84310470d11f40",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target; gain 1 Pwie's Memories"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "17b27e3545b0e35bd27671d63aeb9969a38c755752978ff5eaa8698837fbb531",
+      "text": "[After Attack] Change the main target's Shared with Pwie into Decision"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.9.effects.11": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.9.effects.12": {
+      "sourceHash": "84cace10cbee4fd73dfd5fd4d7057cbbee1b6b9b20c440262474801996bda803",
+      "text": "[On Hit Without Breaking] Trigger the target's Bleed three times; reduce their Bleed Count by 3"
+    },
+    "skills.9.label": {
+      "sourceHash": "b45bfee12b17b02febce36d1b9c73163c520c644b7c26b734acd815abf497094",
+      "text": "Phase 1"
+    },
+    "skills.9.response": {
+      "sourceHash": "8ac1ef5597fc171cd8dba156db3d1c8adc88d4505ab41e0b9fb42c26d1bcbe1b",
+      "text": "Phase 1 Memory skill. Shared with Pwie gives the enemy −20 SP and −3 Coin Power. The recipient's effect becomes Decision; preserve a different holder for the end."
+    },
+    "skills.10.name": {
+      "sourceHash": "d8b96670056564adddb542db7a853aff9af7f1bfbe9b6cc48e9112815f7e094a",
+      "text": "La Jouissance [Phase 2]"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "9997ba95ec630b069b51b0213417491af9049c2e368c6e0e7149e5d97e3460c9",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "24b144d2ea1f481a5aefcfbf09c61dfb41d8ec9ac29d6b5f7de8a85d54f0afbc",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "6e6bdeeb848d2f2cf7cc6489e0414ddd90264d4f569751b3d205d884094e7ebf",
+      "text": "[On Use] Heal 15 SP and gain +2 Clash Power per Le Rouge Senior Staff on the field"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "abf095c9f2a42328d7809f05333824afef5acf07d07231c13ee6d24d990f6e22",
+      "text": "[On Use] If all Le Rouge Senior Staff are dead, Clash Power −3"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "0d889f685324d595419b36b398ed5e33a5d08347b83f3efe2d84310470d11f40",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger the target; gain 1 Pwie's Memories"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "17b27e3545b0e35bd27671d63aeb9969a38c755752978ff5eaa8698837fbb531",
+      "text": "[After Attack] Change the main target's Shared with Pwie into Decision"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.10.effects.9": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.10.effects.10": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.10.effects.11": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.10.effects.12": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.10.effects.13": {
+      "sourceHash": "84cace10cbee4fd73dfd5fd4d7057cbbee1b6b9b20c440262474801996bda803",
+      "text": "[On Hit Without Breaking] Trigger the target's Bleed three times; reduce their Bleed Count by 3"
+    },
+    "skills.10.label": {
+      "sourceHash": "9cd12b12e27720487161ab33515b27afc124dddc43abac4ecf80ca5b35d28262",
+      "text": "Phase 2"
+    },
+    "skills.10.response": {
+      "sourceHash": "c4935ade113bc2c6bd2c6f0866c8e151100779ce8854a2a8cd7a483a86512d11",
+      "text": "In Phase 2, surviving staff strengthen it. Kill them with fast area attacks before winning with a slower high-Power recipient. With all staff dead, Clash Power −3."
+    },
+    "skills.11.name": {
+      "sourceHash": "c90cd72901d12d93565584a1956502c9ce4b63814bd1289b2cff8789f610bdae",
+      "text": "La Métaphore Paternelle"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "0142aa0a891cefabdd8858b4bcc6873351899c3c71ff51727e5b3d9abdeb5e33",
+      "text": "Duality"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "70561d6b7aa1aa00dfab67026ebf34f607e52207744f2c84bcb8cf114b6d8f9c",
+      "text": "This skill acts last"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "96c6a6ff18ea1a12f2ab1cc7d669d0b54df66498ced94285c2f632dca38b62a4",
+      "text": "[After Attack] Heal 25% of own max HP"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "72e481a0652494e206c1669246a3eb67372b69117b2516c770bda2a6d3ed27df",
+      "text": "Ⅰ[After This Coin's Attack] Revive Ripped Flesh of the Crimson God as Le Rouge Senior Staff next turn"
+    },
+    "skills.11.label": {
+      "sourceHash": "9ed561d99bd8552ac359d25619f022d8bc6419b7d55c9d65a7853024cbc744f8",
+      "text": "Unclashable; cannot be redirected; Bipolar"
+    },
+    "skills.11.response": {
+      "sourceHash": "13ce4fb3b24953eb67fa2da3b8df127e6869f14127f782f7f631ddc3f2a63a45",
+      "text": "Healing and revival skill used last. Unclashable and cannot be redirected. Prepare for staff to return rather than expecting to remove them permanently."
+    },
+    "skills.12.name": {
+      "sourceHash": "876844eff84220df8b2a1d496c8c36ee4a2de382cb85051d6e22f6b70ddef894",
+      "text": "La Pulsion"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "0142aa0a891cefabdd8858b4bcc6873351899c3c71ff51727e5b3d9abdeb5e33",
+      "text": "Duality"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "09e37eb2b531def7b1aeffa8cda9bbe215bd52e7daa6c5b2fe72f0dce2d298f1",
+      "text": "Targets Le Rouge Senior Staff"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "8e7abdf1f85c2cb6fc2fb0a370589c66a2c63a73fe7272342ad3295bd6a8a3ae",
+      "text": "[On Use] At 10 or more Pulsation Count, consume up to 10 Count for Atk Weight +2"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "28ba592122b17d7f7646a58f102d4ba50c2675cf45974c610ea96589e8ce50e6",
+      "text": "Ⅰ[After This Coin's Attack] Grant the target 10 Pulsation Count"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "9cd28af0430644fe645f7bb7d44804b3c4b70c65319cb0a70e555924174ef61e",
+      "text": "[After This Coin's Attack] Reduce the target's current HP by 50% and grant 5 Offense Level Up"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "97357eec503570f12e111103aa6ec5bdbb3eaf5a3c6f4863dd75d3ca9db608fc",
+      "text": "[After This Coin's Attack] Grant 3 Uncontrollable Rampage [Le Désir]"
+    },
+    "skills.12.label": {
+      "sourceHash": "7ba529eba09c305a34ee1dc98230e6405ea2c8978b65ac9e727d38facd949345",
+      "text": "Unclashable; cannot be redirected; Bipolar; conditional Atk Weight"
+    },
+    "skills.12.response": {
+      "sourceHash": "95df320e32bb45bf7285f09657045df13167c99972be7372acdc4960d389bd64",
+      "text": "Halves staff current HP but gives +5 Offense Level, +10 Pulsation Count, and 3 Rampage. Do not mistake this for weakening them; finish them that turn."
+    },
+    "skills.13.name": {
+      "sourceHash": "66548cd35e45c0f58c37098070100a0a977249680b7115f9fda13bd4a4385a89",
+      "text": "Le Manque-à-être"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "0142aa0a891cefabdd8858b4bcc6873351899c3c71ff51727e5b3d9abdeb5e33",
+      "text": "Duality"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "3150a02229988189830e494d0dc0e48d30e4cbd0a9ad6a201a1a1c49c2c83f1e",
+      "text": "Ⅰ[After This Coin's Attack] Remove the target's Stagger"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "634051c5899ad1788a68cbdf31d5ca81b5870c61585b19352188e4c084e108a3",
+      "text": "[After This Coin's Attack] Heal the target for this skill's Final Power"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "d4d05cc37d6ef418bf9534fe4acc45480736fe457168ab299da224b45d871c23",
+      "text": "[After This Coin's Attack] Grant 1 Uncontrollable Rampage [Le Désir]"
+    },
+    "skills.13.label": {
+      "sourceHash": "9ed561d99bd8552ac359d25619f022d8bc6419b7d55c9d65a7853024cbc744f8",
+      "text": "Unclashable; cannot be redirected; Bipolar"
+    },
+    "skills.13.response": {
+      "sourceHash": "6d988694973b08d11d40664816fbc14de355155e44408bf8296260d9c5407160",
+      "text": "Rescues a Staggered ally by healing, removing Stagger, and granting Rampage. Merely Staggering staff does not guarantee their attacks stop."
+    },
+    "skills.14.name": {
+      "sourceHash": "c94c7b5d7e23ade79da4776ce988ca19d67ac31ba3adccc841606a41bec94212",
+      "text": "With sickles mine I answer your calling!"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "77c848f1645dc1a7c52106fd4432151cfd9aca7b938f3009be2e82f9685a6be9",
+      "text": "[On Use] Gain 6 Pulsation Count"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "b3c2df3b2abb8b695efb41cf49b3a400a6c8fbef6e932c16d7d5f27923869694",
+      "text": "[On Use] At 10 or more Pulsation Count, consume 5 Count for Base Power +2"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "bf0494f65e1db748bfbd12f751214293bf0acd63ca81eabe8200f33172b96356",
+      "text": "Ⅰ[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "0436ec7a6119ecb0702c7acc29583fd6c617a049d72e3868ef4b409965ec1d9a",
+      "text": "[On Hit] Inflict 2 Bleed Count (Coin number unconfirmed)"
+    },
+    "skills.14.label": {
+      "sourceHash": "0ad09dcd117a908d60b2188d0f8f9e636128150ca769fb1da1aecfa0739b4716",
+      "text": "Effect Coin number unconfirmed"
+    },
+    "skills.14.response": {
+      "sourceHash": "3ea89b99659503981379e9421ead466d85d014bbeabea9e20a31dc287a5e2467",
+      "text": "A normal skill that builds Pulsation Count. The Bleed Count effect's Coin number is unconfirmed; do not infer its activation point merely from the listed single Coin."
+    },
+    "skills.15.name": {
+      "sourceHash": "d86810c157568486d7917c238deaa51f088378d9e3d72986dc086455af95e38f",
+      "text": "Accept my offering of flesh!"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "250bf6110bd328a10573afcd028dbbf294cf571f802c2b864028bdcd84b4b527",
+      "text": "[On Use] Gain 4 Pulsation Count"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "d873677f788877874e7d038d0be866aa6ccc3dde94a4755ef856a0887c4219d5",
+      "text": "[On Use] At 10 or more Pulsation Count, consume 10 Count for Coin Power +1"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "bf0494f65e1db748bfbd12f751214293bf0acd63ca81eabe8200f33172b96356",
+      "text": "Ⅰ[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "61856a856394661b012f70937c1d711e66a34b87f807f2aaab4d153e62e6acd1",
+      "text": "Ⅱ[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.15.effects.6": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.15.response": {
+      "sourceHash": "d0e3687e89f5c6e1f2540d197038147d41867c6a5bba013fad5d414e8543f616",
+      "text": "Builds Pulsation On Use and On Hit and also applies Bleed. If the body's support resolves first, Power rises beyond the prediction; kill the staff first if possible."
+    },
+    "skills.16.name": {
+      "sourceHash": "d4edcb54b196fd01d4e5ccaaf0b279bcab54a78293734819ccd31e2d19ffa1c2",
+      "text": "An offering from my embrace!"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "8d3f65cc7caa4fe107e3a1c7df73bf6b005abed16642ee80efcf5665ff122a26",
+      "text": "[Combat Start] If current HP is below 50% max HP, convert all Coins to Unbreakable Coins"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "d873677f788877874e7d038d0be866aa6ccc3dde94a4755ef856a0887c4219d5",
+      "text": "[On Use] At 10 or more Pulsation Count, consume 10 Count for Coin Power +1"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "8c54ada1dd61f14b8dc906f8a2df55da33a34cc1f860e337eeecabd98b2e6e3d",
+      "text": "[On Clash Lose] This skill's damage cannot Stagger targets"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "aaf3ea60c0b39ced36cba44773450eef30f7ca51df5d42251ed669cd94b28d1c",
+      "text": "Ⅰ[On Hit Without Breaking] Inflict 2 Bleed"
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "0f754c091ba04c4648a0b32cf439c5cedb38b8119667f10ec0689b0dcd2b7d64",
+      "text": "[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "1ac25279d8b71bac56c18d7b25a13da1f8a63aaa38a6ea6801c2e9a1c55e3086",
+      "text": "Ⅱ[On Hit Without Breaking] Inflict 1 Bleed"
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "0f754c091ba04c4648a0b32cf439c5cedb38b8119667f10ec0689b0dcd2b7d64",
+      "text": "[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.16.effects.8": {
+      "sourceHash": "6e715be11428f060769620d62acfa68ddd237883aefdecd1ce46e66f52471af6",
+      "text": "Ⅲ[On Hit Without Breaking] Inflict 2 Bleed Count"
+    },
+    "skills.16.effects.9": {
+      "sourceHash": "0f754c091ba04c4648a0b32cf439c5cedb38b8119667f10ec0689b0dcd2b7d64",
+      "text": "[On Hit] Gain 2 Pulsation Count"
+    },
+    "skills.16.response": {
+      "sourceHash": "85db0f6dbe42328cf646e94d00f2b21fd0b1c07e470aa489f7a8acece5f2aa84",
+      "text": "All Coins become Unbreakable if below 50% HP at Combat Start. Stagger prevention is listed, but this skill has no listed 80% reduction. Check HP even after winning."
+    },
+    "skills.17.name": {
+      "sourceHash": "7493013c4fdb7a4f7f332682bbd7cbb2e36cda936f6de4ce7348ae1cb75ad941",
+      "text": "We shall devour it all!"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "8d3f65cc7caa4fe107e3a1c7df73bf6b005abed16642ee80efcf5665ff122a26",
+      "text": "[Combat Start] If current HP is below 50% max HP, convert all Coins to Unbreakable Coins"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "d873677f788877874e7d038d0be866aa6ccc3dde94a4755ef856a0887c4219d5",
+      "text": "[On Use] At 10 or more Pulsation Count, consume 10 Count for Coin Power +1"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "0f080b2043cebf29837492584f2063e1480b6b317c4e0b8de979a546ce26840c",
+      "text": "[Clash Win] Gain 10 Pulsation Count"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "4b5c148b8236e257201b5f8d336ed0297a4e0faac100b045e55f421f208fd4bc",
+      "text": "[On Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger targets"
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "1c0a628baeeb2614941c9efb9b3171bb1ffa0d5ee1d6b79884c471f6f617060d",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed Count"
+    },
+    "skills.17.effects.6": {
+      "sourceHash": "7c2f14ed4f4aaee053fd612861bd5aa24654c10a94316f643d9e3415bde9d053",
+      "text": "[On Hit Without Breaking] Consume up to 5 Pulsation Count; deal Slash damage equal to (consumed Count ×3)% of final damage (max 15%)"
+    },
+    "skills.17.effects.7": {
+      "sourceHash": "a7c0f27eb58091db675f88199efdad0b0dacc82e1279fe0eb7eb9d80349dad46",
+      "text": "- Heal (consumed Count)% max HP"
+    },
+    "skills.17.effects.8": {
+      "sourceHash": "232fc0985b91244dd27449530c6af30cbe23d94fb1c9568bd3c4ff9e568b2ff7",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed"
+    },
+    "skills.17.effects.9": {
+      "sourceHash": "7c2f14ed4f4aaee053fd612861bd5aa24654c10a94316f643d9e3415bde9d053",
+      "text": "[On Hit Without Breaking] Consume up to 5 Pulsation Count; deal Slash damage equal to (consumed Count ×3)% of final damage (max 15%)"
+    },
+    "skills.17.effects.10": {
+      "sourceHash": "a7c0f27eb58091db675f88199efdad0b0dacc82e1279fe0eb7eb9d80349dad46",
+      "text": "- Heal (consumed Count)% max HP"
+    },
+    "skills.17.effects.11": {
+      "sourceHash": "a45f52f849c27a95c5b62cb5c8bdfbb0b28622c05107c258c76dffc9b5424c83",
+      "text": "Ⅲ[On Hit Without Breaking] Inflict 1 Bleed"
+    },
+    "skills.17.effects.12": {
+      "sourceHash": "7c2f14ed4f4aaee053fd612861bd5aa24654c10a94316f643d9e3415bde9d053",
+      "text": "[On Hit Without Breaking] Consume up to 5 Pulsation Count; deal Slash damage equal to (consumed Count ×3)% of final damage (max 15%)"
+    },
+    "skills.17.effects.13": {
+      "sourceHash": "a7c0f27eb58091db675f88199efdad0b0dacc82e1279fe0eb7eb9d80349dad46",
+      "text": "- Heal (consumed Count)% max HP"
+    },
+    "skills.17.effects.14": {
+      "sourceHash": "2c44fabd9734efbd8eaeed915635b80378d1ad2a7d6e1d47aea232cd0edf703a",
+      "text": "Ⅳ[On Hit Without Breaking] Inflict 1 Bleed"
+    },
+    "skills.17.effects.15": {
+      "sourceHash": "6faf28c1cbcd932d565befc3967953874ac4dafa5959c0e2a965a8e9ddcf437d",
+      "text": "[On Hit without Coin Destruction] Trigger the target's Bleed once; reduce Bleed Count by 1"
+    },
+    "skills.17.response": {
+      "sourceHash": "8db89c57895bd4f179d901fd0c39f1b9677191b61c13bc39634be115b46bc8f4",
+      "text": "Bleed, Pulsation, and Offense Level make it much stronger than its base maximum of 17. Prioritize killing the staff before use. If receiving it, win with high Power for 80% reduction."
+    },
+    "skills.18.name": {
+      "sourceHash": "6cf644e44a1a45ae6dae41e5d098e1209d82ba186cb28b23eeb92ad59ddf2d43",
+      "text": "Supplication Toward the Voice"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "bc155a929ff5221859bec83f65196499647e7cff7b009b000d7f38a179839b2a",
+      "text": "Targets the Crimson God [Adulthood]"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "2a482b624b5cf74028efa180c19ae2c73dec1c1a1159e32b331962a31c94967b",
+      "text": "This skill has the following effects"
+    },
+    "skills.18.effects.4": {
+      "sourceHash": "da09903bc7b806c12856fb0679bb3aeec30d4960b0cc1dd60fd7c0b3cf7c6098",
+      "text": "- Does not activate Defense Skills"
+    },
+    "skills.18.effects.5": {
+      "sourceHash": "d0839ae460bd178826318cd8b44673047d8a8acc03ae3f6e60b66f51221d6436",
+      "text": "-Cannot be reused externally Effect"
+    },
+    "skills.18.effects.6": {
+      "sourceHash": "f31ebac978d00c54cb72eb466a882279053f2914ff18f289d4145d8dd5390e08",
+      "text": "- Attacks do not hit"
+    },
+    "skills.18.effects.7": {
+      "sourceHash": "cbbd8a4ec2ea26e901eecfa355d0916ee84474a4500359d05798c59194c493ab",
+      "text": "Ⅰ[After This Coin's Attack] Heal the target for 20 SP"
+    },
+    "skills.18.label": {
+      "sourceHash": "fe467405eb5effca7d71312ab3d484e31de49f87f201a8dec6e7edca5aa4e1c6",
+      "text": "Unclashable; cannot be redirected; does not activate defense"
+    },
+    "skills.18.response": {
+      "sourceHash": "b469897df3a879f8a83f7ce61d1f0de3057385fb54fda2257095b3918f6214d1",
+      "text": "Heals the Crimson God for 20 SP. The attack does not hit and deals no direct damage to Sinners."
+    },
+    "passives.0.name": {
+      "sourceHash": "c858b062918649ec40905eff4d8a77d29707242f681491392ea211e3e252107d",
+      "text": "Le Moi"
+    },
+    "passives.0.effect": {
+      "sourceHash": "4b94707344db5d9f8893e3a9969497201d9c159920a16694ffb053b316d252ef",
+      "text": "When a Sinner with Shared with Pwie wins a clash against certain skills, the Crimson God gains 1 Pwie's Memories.\nAt 5 Memories, change patterns; winning against the changed pattern's skill leads to victory.\nBurn, Bleed, Tremor, Rupture, and Sinking are capped at 50 Potency and 15 Count.\nHP and SP damage taken from Burn, Bleed, Tremor, Rupture, and Sinking −50%.\nFixed Panic applies.\nIf Panicked at Turn End, SP becomes 0.\n\nMe. I saw myself reflected in the water. I have a complete body..."
+    },
+    "passives.0.condition": {
+      "sourceHash": "9a0cedb62d885a752dc7b3091dc61869e3566a3b26dfe6ac9b76fbd22fe81bf1",
+      "text": "All phases: Memory victory condition and status limits"
+    },
+    "passives.0.response": {
+      "sourceHash": "c558e0cbb829961283c849cdd8e59032a075d2bd8cd124f730e7351d5f43ace8",
+      "text": "Another major clash win is needed after 5 Memories. Do not rely solely on status damage; preserve the final recipient."
+    },
+    "passives.1.name": {
+      "sourceHash": "eaaeb67a6654e7a8f1607b02f77bc2cb0439c7ec7ab5a8f12f65f5ad0bd8ee85",
+      "text": "Time to Answer"
+    },
+    "passives.1.effect": {
+      "sourceHash": "860a8749cc8b0352ea241b79be57925cc686535d194e26552c6ce35cf62dc5bd",
+      "text": "Change action patterns when either condition is met:\n- Current HP falls below 25% max HP.\n- Has 3 Pwie's Memories.\n\nTeach me... take me with you..."
+    },
+    "passives.1.condition": {
+      "sourceHash": "1bbd99c862e890d8d2447c5287830d55ba5b92f5b0f55d2063d863866b3a2563",
+      "text": "Phases 1–2: body below 25% HP or 3 Memories"
+    },
+    "passives.1.response": {
+      "sourceHash": "77ba96dc1849b22ab2da9788b874fccc1ada8d12667beedf1f96e865521b0b1e",
+      "text": "When pursuing Memories, avoid focusing too much damage on the body; enter Phase 3 at 3 Memories."
+    },
+    "passives.2.name": {
+      "sourceHash": "d16cc312f809dbd9a0f9c54c750c8f84d1028b2c69ac7ed69ec17c851f9ace9e",
+      "text": "Pouvoirs de la vie"
+    },
+    "passives.2.effect": {
+      "sourceHash": "820e5bd2079849868f45d11c8819ba6027e4df330a58ed25a967082eb0c417c7",
+      "text": "When an ally is Staggered by damage, use Le Manque-à-être on them, once per turn.\nWhen an ally dies, summon Ripped Flesh of the Crimson God with 3 Voice of the Crimson God at next Turn Start.\n\nThe violence of bringing something into being. Le Rouge's god holds the power of birth.\nWhere does consciousness go after death? Where did it come from before birth?\nSending it there or dragging it out: both are the same violent power."
+    },
+    "passives.2.condition": {
+      "sourceHash": "8b10b427c15cf7b64a89d98a0cd5d2f8904e9dea1a3446452569fc1038d14801",
+      "text": "Phases 1–2: ally Stagger and death"
+    },
+    "passives.2.response": {
+      "sourceHash": "92b687c983fe65d2c5ed5c6d661708fe9915e3fbf1c51237707f9c219fe8e594",
+      "text": "Staff can recover from Stagger and return from flesh. Aim to kill them that turn instead of leaving them merely Staggered."
+    },
+    "passives.3.name": {
+      "sourceHash": "e8c1cff872f8fbca11a503aff21fa74b9e398840a10c53420a2d84eb0e922cbc",
+      "text": "L'Extimité"
+    },
+    "passives.3.effect": {
+      "sourceHash": "591721af6382a8fccb52d1e33e7438ed68e3a1a37238323eb466ca4eff2a34f3",
+      "text": "Begin combat with HP reduced by 50%.\nAt Stage Start, grant Shared with Pwie to all enemies, including reserves.\nOn Skill Use, lose 10 SP if the target has Shared with Pwie.\n\n... You are outside the very edge of my body, yet occupy a place deep inside me."
+    },
+    "passives.3.condition": {
+      "sourceHash": "730313fbe0fd89dbd3ef0d0152dfdce13507c829c4e4834463acf6596c055bdb",
+      "text": "Phases 1–2: Stage Start and skill use against Shared with Pwie"
+    },
+    "passives.3.response": {
+      "sourceHash": "e5066dacd0c47baf7970ef4f4d11fb6b59cd6497a82fbc89852e5557c3ad67ca",
+      "text": "In Phases 1 and 2, targeting a Shared with Pwie holder lowers enemy SP. Do not assume this SP loss continues in the final phase."
+    },
+    "passives.4.name": {
+      "sourceHash": "cc82c019fc0c847f233f38df4641603dc36b12eebe1dfa64e399f6f7bf52923b",
+      "text": "La Jouissance Autre"
+    },
+    "passives.4.effect": {
+      "sourceHash": "3a69de6239abc007e691ee2b687eb7701df947887087a9b2b31330af276f017e",
+      "text": "Pulsation Count does not decrease at Turn End.\nWhenever Bleed damage occurs in battle, gain 1 Pulsation Count.\nAt Turn Start, heal 2 SP per Pulsation Count.\n\nThe pulse felt through the whole body yet beyond words, instinct, the sum of all those pulsations."
+    },
+    "passives.4.condition": {
+      "sourceHash": "cff0c7353b3d8535b76e2c33667cf142647963bba9f48f619ad13e138767fe40",
+      "text": "All phases: Bleed damage and Turn Start"
+    },
+    "passives.4.response": {
+      "sourceHash": "a1b62320bca6bc03e9255b1c1d6f050338e4c0cd46edd0fd6c16926d20c07246",
+      "text": "Bleed damage on either side increases Pulsation Count. Teams applying Bleed should account for faster enemy growth too."
+    },
+    "passives.5.name": {
+      "sourceHash": "c53d36941824571a02d39dd112e4624c1a421f413e731173a0a6a928d3e9a86a",
+      "text": "Le Besoin"
+    },
+    "passives.5.effect": {
+      "sourceHash": "9c6537957c7e8255e13b2f059e48ef06f9eacbab453a72a68ca6d68cf2505716",
+      "text": "Gain 1 Pulsation Potency per cumulative 10 Pulsation Count consumed.\n\nGain all applicable effects based on Pulsation Potency:\n- 1: Damage against slower targets +(Pulsation Potency ×20)%.\n- 2: Skill Final Power +1.\n- 3: Bleed Potency inflicted by skills +1.\n- 4: Skill Coin Power +1.\n- 5: Uncontrollable Rampage [Le Désir] does not decrease.\n\nBecause I live. Because I was born.\nA physical, inevitable, and thus fated desire that arrives like a curse."
+    },
+    "passives.5.condition": {
+      "sourceHash": "76dd7ee5397cb541d31b8809893ac033c0db7de1671795d16be003865d25f858",
+      "text": "All phases: cumulative Pulsation Count consumption"
+    },
+    "passives.5.response": {
+      "sourceHash": "ac0246624b8eac4b4608f8baedfe51b976b2c2deb417c0b6f4f0e2b2d594c58a",
+      "text": "At 2 Pulsation Potency, Final Power increases; at 4, Coin Power increases. Check current modifiers rather than reusing opening win predictions."
+    },
+    "passives.6.name": {
+      "sourceHash": "792d4a5d0d7ae61ec8043251649832094cfedea99811dabb9cd9f1080c7d2e56",
+      "text": "The hand they could neither push away nor hold"
+    },
+    "passives.6.effect": {
+      "sourceHash": "58aa8204ffc6078863b4ea90c2f5ff1a2883af3ebd184530ff75235b56c53b69",
+      "text": "At Turn Start, gain 2 Protection per Le Rouge Senior Staff on the field.\n- Lose 2 Protection whenever a staff member dies.\nIf all staff are dead:\n- Gain 2 Fragile.\n- On Skill Use, Coin Power −1 if the target has Shared with Pwie.\n\nMy hand... will you still hold it...?"
+    },
+    "passives.6.condition": {
+      "sourceHash": "974f8c36944522c7d50d4e258b18f5a7ac4394b36a1dadd3e717cc21652efc15",
+      "text": "Phase 2: surviving staff count"
+    },
+    "passives.6.response": {
+      "sourceHash": "23deeb90c350d53a95b0cfd63178be9b170415439d4befb598d2212d24f3e55e",
+      "text": "Killing staff reduces the body's Protection. Eliminate all of them before taking the Memory-gaining clash."
+    },
+    "passives.7.name": {
+      "sourceHash": "c6b1d65b79761ad751d4bf6cbed0779fe1aa027c2e64baaf8e7be6ecfbd29a1b",
+      "text": "La Jouissance phallique"
+    },
+    "passives.7.effect": {
+      "sourceHash": "091228b008d77eb58f7271c63c9e28eab8bad1ff4b7c2de1108acc2cc01056fb",
+      "text": "At Turn Start, if this unit lacks Uncontrollable Rampage [Le Désir] and has at least 15 Pulsation Count, consume all Count to gain 3 Rampage. Heal 2 SP per Count consumed.\n\nWithout Rampage, if at 10 or more Pulsation Count, consume 10 Count On Skill Use for Coin Power +1.\n\nEnjoyment of life comes with conditions. With conditions, physical pleasure is destined to fail: it has limits and an end."
+    },
+    "passives.7.condition": {
+      "sourceHash": "60ebf8788669122cb7b5eeaa195b5d5d60e98daccd217b8be4d9cf65f5ac46e9",
+      "text": "Phase 3: Pulsation Count"
+    },
+    "passives.7.response": {
+      "sourceHash": "6bc1f990abf835faf9d737412b644ebcee77387507b4c167cc9b9c77cd9ea467",
+      "text": "At 5 Pulsation Potency, Rampage no longer decreases. Do not wait for natural expiry; gain Memories to finish."
+    },
+    "passives.8.name": {
+      "sourceHash": "fbab7e92476253a3ff264029b80ccea9f037956309a860b6dd2d4b7c90522977",
+      "text": "La Moisson"
+    },
+    "passives.8.effect": {
+      "sourceHash": "b9eae346494ba065c1ddaceb8b5e9a10d49a57f7c004f4df15b22fb84fe35c74",
+      "text": "After Attack, if the main target has at least 5 L'Abject, use a powerful skill on that main target, once per turn.\n\nThe expelled appendage pierces another and calls me again from beyond the boundary.\nIs the urge to return to the place of birth a drive toward death, or toward life?"
+    },
+    "passives.8.condition": {
+      "sourceHash": "f666c125e53477859f77ad9aa001de60e584e1b8fe5f064ca549a66102528a93",
+      "text": "Phases 2–3: After Attack, once per turn"
+    },
+    "passives.8.response": {
+      "sourceHash": "888177b73e7b10fa1fdb59678d3e4b49a34a23b6eb7403824ecf6618847bc62e",
+      "text": "5 L'Abject on the main target triggers the follow-up. Count application from remaining Unbreakable Coins, not only the value at clash start."
+    },
+    "passives.9.name": {
+      "sourceHash": "82514f44eb28423529aa06fc6a93ed55fc31e583d9aa5a081d41a2fa2f14b6f5",
+      "text": "Traces of Life"
+    },
+    "passives.9.effect": {
+      "sourceHash": "36ebe1e1422d073ba3c0161cedecd9dee9e5316177a4e4bec63236bd052d9a3b",
+      "text": "On death, grant the opposing side 2 E.G.O resources of a randomly selected affinity among those with the lowest reserves.\n\nA trace that someone lives, or once lived."
+    },
+    "passives.9.condition": {
+      "sourceHash": "a4063ae7d0e9bb7c890123b0b5e709abc62beab99538d372e5f46459e2fb61eb",
+      "text": "All phases: staff death"
+    },
+    "passives.9.response": {
+      "sourceHash": "36a689dbe4089924c6d8cf73c0c88498e36f39cc9fe3920bbf9b5f0001a0eaf0",
+      "text": "Gain 2 E.G.O resources of a scarce affinity. Turn area kills into resources for the next clash."
+    },
+    "passives.10.name": {
+      "sourceHash": "8e1b85175f4f1460b295f7680a3ef2609a73a1cb46b1a75ae94b94272816b537",
+      "text": "Blessings Upon the Flesh"
+    },
+    "passives.10.effect": {
+      "sourceHash": "295189a8f2c7f5610a361ee0116408250ce641efc1b7822079d1a8bc63f44960",
+      "text": "While this unit has Uncontrollable Rampage [Le Désir]:\n- Skill damage taken −50%.\n- At Turn Start, fully heal SP, gain 1 Pulsation, and gain 5 Pulsation Count.\n\nReceive that power with the entire body."
+    },
+    "passives.10.condition": {
+      "sourceHash": "d8bb30a1794bcd3eff0a2a9f94306e49e10a12b745e8c27bf2ab3e88b6ca36c5",
+      "text": "All phases: staff during Rampage"
+    },
+    "passives.10.response": {
+      "sourceHash": "b9e9f2724bf3e084c697a08db753d7ead7e41cdeeffa224ac60f4d5467e8747d",
+      "text": "Even at low HP, takes 50% less damage. Concentrate enough damage to finish them."
+    },
+    "passives.11.name": {
+      "sourceHash": "11a3b320b52f9577d36498e2258a98ad028d73363a37c7eb8acda71f130eb836",
+      "text": "Emptiness Begets Satiation"
+    },
+    "passives.11.effect": {
+      "sourceHash": "3fbc403aff4dbef4e19e1bc49a64ba9cf632a8ce4a81a84445b61eb651ce06d6",
+      "text": "During battle, gain 1 Pulsation Potency per cumulative 10 Pulsation Count consumed.\nOn Skill Use, at 3 or more Pulsation Potency, Coin Power +1.\n\nPer 20% HP lost, Offense Level +1 (max 3) and damage +20% (max 60%)."
+    },
+    "passives.11.condition": {
+      "sourceHash": "c3a01694acb5284431ae80cba1c8fa99d71fcd346469d804aa9520873b0bd644",
+      "text": "All phases: cumulative Pulsation consumption and lost HP"
+    },
+    "passives.11.response": {
+      "sourceHash": "0f9974dfaf5367c85875282bf2e96c3b2ee952d62b3c3220e453ff7fdc339b18",
+      "text": "Staff whose HP is halved by the body also gain offensive strength. Remaining HP alone does not measure their threat."
+    },
+    "passives.12.name": {
+      "sourceHash": "ea1b5200809de516bd0780118c9de0df1a8e13a211699409621c757a3846c8cf",
+      "text": "The Sickle Seeks the Slow"
+    },
+    "passives.12.effect": {
+      "sourceHash": "44a35b36b34b530aeb7f5995d70ac99a6942e2fa3c26d04d28e31b232421a754",
+      "text": "Prioritize targets slower than self.\nOn Skill Use, if faster than the target, increase Offense Level by the Speed difference.\nAt Turn Start, if Pulsation Potency is at least 2, use a powerful skill.\n\nThe pulsing predator seeks slower necks, dealing lethal damage in proportion to the gap."
+    },
+    "passives.12.condition": {
+      "sourceHash": "18c2a9d38162c19759ee7acec4c2cd8f3af739d3b7e8f793dba5663bf5a0bd84",
+      "text": "All phases: Speed gap and 2 or more Pulsation Potency"
+    },
+    "passives.12.response": {
+      "sourceHash": "85cf7fdc4b7884d5808d6927835efa85a27c000ef9f6bf565de02c67a2e5ccbb",
+      "text": "Slower Sinners are more likely to be targeted. Eliminate staff with area damage before the strong Wrath skill appears."
+    },
+    "passives.13.name": {
+      "sourceHash": "3e61b0b80f254e3554732a4c721cb40c0db2dd4375154b0d034cc330c8f046f1",
+      "text": "Persistent Pulsation Beside The Cherished One"
+    },
+    "passives.13.effect": {
+      "sourceHash": "426559f33661be0c2ee0d2fab2fc1252c32a4def3e843258fa9406cc09c4a012",
+      "text": "While the Crimson God [Adulthood] is on the field, Pulsation Count does not decrease at Turn End.\n\nIf Staggered by a hit and then relieved of Stagger by the Crimson God's skill, attack the attacker unopposed with With sickles mine I answer your calling!\n\nBreath and pulse do not stop. Even wanting them to stop cannot stop them."
+    },
+    "passives.13.condition": {
+      "sourceHash": "95517c5a36d03607ad3a99c9ceb6b2edc96c250105a30b74dbf5ab34edabb9f6",
+      "text": "All phases: body alive and after Stagger removal"
+    },
+    "passives.13.response": {
+      "sourceHash": "44e5473b3f1360cdc526d5325251ca7db558319ebdf59c43dcc15c04fd31ebf0",
+      "text": "When the body's rescue removes Stagger, an unopposed attack follows. Do not treat staff Stagger as a safe pause."
+    }
+  },
+  "messages": {
+    "boss-copy:red-god-ripe": "complete",
+    "【リンバス】10-04 赤き神［完熟］（10章C）の攻略｜Limbus Assistant": "10-04 The Crimson God [Adulthood] (Canto X, Route C) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「赤き神［完熟］（10章C）」の攻略。HPを削り切るほか、特定の大技へマッチで勝ち、プイの記憶を5までためて終える方法がある。ここでは記憶をためる手順を中心に説明する。毎ターン、出血とラブ…": "The Crimson God [Adulthood] (Canto X, Route C) guide for Limbus Company 10-04. Besides reducing HP to zero, you can finish by winning clashes against specific major skills and building Pwie's Memories to 5. This guide focuses on that route. Check Bleed and L'Abject when assigning clashes each turn, and preserve Sinners with Shared with Pwie for the final phase.",
+    "10-04 赤き神［完熟］（10章C）": "10-04 The Crimson God [Adulthood] (Canto X, Route C)",
+    "10-04「Sisyphus Department Store C, 5F: Corridor」": "10-04 · Sisyphus Department Store C, 5F: Corridor",
+    "赤き神［完熟］の外見": "The Crimson God [Adulthood] appearance",
+    "赤き神［完熟］のスキル": "The Crimson God [Adulthood] skills",
+    "The Crimson God [Adulthood]の外見": "The Crimson God [Adulthood] appearance",
+    "The Crimson God [Adulthood]のスキル": "The Crimson God [Adulthood] skills",
+    "ル・ルージュ 上級スタッフの外見": "Le Rouge Senior Staff appearance",
+    "ル・ルージュ 上級スタッフのスキル": "Le Rouge Senior Staff skills",
+    "Le Rouge Senior Staffの外見": "Le Rouge Senior Staff appearance",
+    "Le Rouge Senior Staffのスキル": "Le Rouge Senior Staff skills"
+  }
+}

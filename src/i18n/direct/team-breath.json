@@ -1,0 +1,323 @@
+{
+  "kind": "team-copy",
+  "id": "breath",
+  "sourceGuide": "src/data/team-guides/breath.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "4f2d9741e37a34bf62bfdac8128b4791ead276bb7c9feb5e05c693f4813b39d6",
+      "text": "Blade Lineage (built around the Mentor)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "4c1f4affe349ce791495cafb8451863da9a627e87bbd7cd145b619e18e4e8964",
+      "text": "Blade Lineage Mentor Meursault activates Swordplay of the Homeland with 3 Pride Resonance, giving Blade Lineage allies Poise and Power bonuses. Use at least 3 Pride skills each turn and maintain Drink to the Fallen through Shadow-vested Bladesinger [着影揮刀]."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "a226f566bf209b6745c88c72c541726231b18b8b1732eddde73873c9bceb2806",
+      "text": "The core unit: grants Blade Lineage allies Poise through 3 Pride Resonance and loses with Yield My Flesh to use To Claim Their Bones."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "546f686aa1f1527b0534e5169b80d803451d0f1b50bb2e366abbb9212c9f4be9",
+      "text": "Maintain 3 Pride Resonance and Haste to repeatedly trigger Even the Balance - Lucent Rippling Flame."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "7b2d8a690a85bb0727ef9e9ec3bb2d93e26b42682cf0be9a4d622aa3066a33ad",
+      "text": "Builds Poise with each clash win and gains the most among the Blade Lineage Salsu."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "77478c360675db019ea3808a986b8d51281d714918fb79a096481d32dab5800c",
+      "text": "Inflicts Slash Fragility through Red Plum Blossom. Supplies Sloth and Gloom, which Blade Lineage often lacks."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "89325de2113a43d175e4d35c6489a9f62f525458a4312f02763d33fb08767931",
+      "text": "Shares Poise with allies that lack it. High Speed lets her act early."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "c98d0b8b376bbd017899acc60716f98072c467004f1686347445b3c59cdde6f0",
+      "text": "Builds Poise through Pride defense and gains durability from Moonlit Azure Blade's Shield."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "76c063e83db5316d6b2ef4a0ace745ef646ba3358560dbc6c383e7cc5c8627a9",
+      "text": "A Poise Identity focused on Pride and Slash, easy to use alongside Blade Lineage."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "7d9e41c85829428d473161a0d5a514f7b0f7c31a25499d938f84cd89416f5537",
+      "text": "Equip on the Blade Lineage Mentor: Drink to the Fallen makes this the core E.G.O for strengthening Blade Lineage allies."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "8d0649a766038ca27e6bb88410e3723419e9974894bbd9fd83ffbf214ace305d",
+      "text": "Gives all allies Poise and heals every turn."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "13feb6435c63851912b62e898c4a3ff301bfa8fd86a33351eefbfdfa518e987f",
+      "text": "An area attack that grows stronger with each use and benefits from Poise."
+    },
+    "data:examples:0:egos:3:note": {
+      "sourceHash": "bbd771b2046736e9c0bf3a78176b91841e92cdb4d7b69def13ac3b4dea0ae3cd",
+      "text": "Restores low-SP allies early in battle."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "687628af94f9a6564c8885c2e9e5dcfbc836bd75ac0b9db847affb3df278de2a",
+      "text": "Index and House of Spiders"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "717e63e62883e60ed25694e1023a70a9f4fa59cacb84cc31dcb735e392865400",
+      "text": "The 3 Index members accelerate the opening, while 3 House of Spiders members enable Blade Ryōshū's Tiansha. The Blade Lineage Mentor's Yield My Flesh to Claim Their Bones is strong even alone, and his Blade Lineage coordination with LCD Ishmael remains available."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "89fc3a6863aa26aeae52af77b2560b859d93b5e8495db9252d23134b8a2f1dae",
+      "text": "Fulfills Prescripts to build Grace, gaining Power and SP from turn 1."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "91b19659da47fb36c3079edc8c6bb3c96fc64f17bff84cd2bc6da6cd15569c83",
+      "text": "Builds 9 Procuration for S3. Durable and strong in long battles."
+    },
+    "data:examples:1:members:2:note": {
+      "sourceHash": "2c02b97f4218839220f5b088831ddc9437ddbb04fa3a6b1cfd21eabd70d27f6e",
+      "text": "Enters Procuration on turn 1 and clashes at full strength from turn 2."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "e963b4ec88e03406e5a7215cb2c120dac6c9ae8cd3f54592176e077881daa4fb",
+      "text": "A House of Spiders Identity that builds Poise for Moonlit Azure Blade's Shield and damage."
+    },
+    "data:examples:1:members:4:note": {
+      "sourceHash": "9b9c0594d2edd0a22553855e127884257d6f5bd35f296e4ee83c7c1123cee323",
+      "text": "A damage dealer that gains major bonuses by using Tiansha on a House of Spiders ally."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "175e0aa29b2b77267b5274d51f0eda506d87a203727bba89612194ec598495c1",
+      "text": "Deliberately lose with Yield My Flesh to unleash To Claim Their Bones, enhanced by Poise."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "861053362f948174ecd419c97c7a45e42bdec11a09dcee1b06b844c40979717b",
+      "text": "Gains better Poise performance and Offense Level alongside the Blade Lineage Mentor."
+    },
+    "data:examples:1:egos:1:note": {
+      "sourceHash": "d62bacdc80164a1a60ed7f4ac7e179c48e31442d536da5b09142c730492a179b",
+      "text": "Equip on the Blade Lineage Mentor for durability and damage through Drink to the Fallen."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "08bfcfa39ba66ec88ca669f1afd872f9f4f0c8fd6daaabd9b4166fb54e8b6e3d",
+      "text": "Blade Lineage package"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "da070da9f88a1682c047d59dc0bfb62e6de46755aac959a8819dd10c31469dac",
+      "text": "The Mentor's Swordplay of the Homeland activates at 3 Pride Resonance, granting Blade Lineage allies Poise and Power bonuses. Giving him Shadow-vested Bladesinger [着影揮刀] greatly strengthens the whole group. Resources lean toward Wrath and Pride, so add units that supply Sloth and Gluttony."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "3b5230458428b5842dbc44fbe315ce46e7b54fed6f42c9f3a793177061decb47",
+      "text": "The core unit that distributes Poise and strengthens Blade Lineage allies."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "12cd67d28086a8f81e824a947e7c9f0d669588b832a2db5cf06ef2615703fe50",
+      "text": "Gains Poise and Offense Level as a Blade Lineage member, then deals damage through follow-ups."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "66a4d498f72379dcffc3c9abd33198265eaff3c2352aa40b1218e8957a718216",
+      "text": "Gains the most among the Blade Lineage Salsu from the Mentor's support."
+    },
+    "data:combos:0:members:3:note": {
+      "sourceHash": "cb74813a8ff1753b93832497660f43200f4089a6e864d7929f620ff2b054a432",
+      "text": "Supplies Sloth and Gloom and inflicts Slash Fragility through Red Plum Blossom."
+    },
+    "data:combos:0:members:4:note": {
+      "sourceHash": "a28edb1210c5ea45e0f779b853d827395459f692f095839a5da800d4b0f8666b",
+      "text": "A support and attacker that distributes Poise to allies."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "cfdfe32edd64031f2bb2437a63d83a54b0928ed8476df89e2f58798ab1b201c7",
+      "text": "Index trio"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "4774ef5803c98cfa0037fe772964bd40f106aefcc1918c8d78cbf61cd47cf92e",
+      "text": "All 3 share the Prescript system, gaining Power and SP from turn 1 for a fast opening."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "c43045e94bc2cc5bd8f2eff1ec2fbece3383ba5388792177fef2c35e965c886a",
+      "text": "Grace enhances Offense Level and S3."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "c562ed7c78609407dc3d4bec9bb5d787fd312d002dce01d9294132131f68bcd7",
+      "text": "Builds Procuration for S3."
+    },
+    "data:combos:1:members:2:note": {
+      "sourceHash": "d77699cf307e16f93382067a689497dd232ba8e8a3c683df42df52854e2055a1",
+      "text": "Clashes in the Procuration state."
+    },
+    "data:combos:2:name": {
+      "sourceHash": "974fa63da937353fd756ee4f68424f520b0484c8148518d6cb5ab35e001e9124",
+      "text": "House of Spiders trio"
+    },
+    "data:combos:2:note": {
+      "sourceHash": "cc63cfc7690e9fcdbb2b2eb0af18415553da4564bebaeaf72e294a52a4159c5c",
+      "text": "Blade Ryōshū is strong alone, but becomes stronger after using Tiansha on a House of Spiders ally. These 3 form the House of Spiders package."
+    },
+    "data:combos:2:members:0:note": {
+      "sourceHash": "fa5ac579722257eed98203318869838253dd2f71f2a733d56e6b33c10b01f780",
+      "text": "A House of Spiders member that anchors longer fights."
+    },
+    "data:combos:2:members:1:note": {
+      "sourceHash": "11a4b7f5322f80afc44d516663f40d410cd5f0f064da61aeebd142d42e50ff1f",
+      "text": "A House of Spiders member that protects himself with Shield."
+    },
+    "data:combos:2:members:2:note": {
+      "sourceHash": "b8853346bdc88efb83941c546ededcd4f565a3fbc7695c6ca58ffcc7e3442ea7",
+      "text": "Gains bonuses by using Tiansha on a House of Spiders ally."
+    },
+    "data:combos:3:name": {
+      "sourceHash": "8524dd93d18169128c7951be2a0293ff58bb59d246481f70952ff4c21f0b456e",
+      "text": "Heishou package"
+    },
+    "data:combos:3:note": {
+      "sourceHash": "9d6c4cf6a031ae4ad5cd455dddcc1cb28c854ef20be6d78de844aaa13be1ea34",
+      "text": "The Lord of Hongyuan reaches full strength alongside Heishou. In addition to the 2 Si Branch members, Mao Branch Adept also pairs well with him despite lacking the Poise keyword. The Lord is extremely fragile, so avoid losing clashes."
+    },
+    "data:combos:3:members:0:note": {
+      "sourceHash": "564045f8e4fa9c4a75eec7c465d16572a1d39419ed151b1bfbbdb6cea83a3f34",
+      "text": "A commander that coordinates with Heishou through S3 and swaps them through defense."
+    },
+    "data:combos:3:members:1:note": {
+      "sourceHash": "07f19f98d6102c855d7ff408c73b895fbf9ad1d6e9a6245892d3f1771f30b96b",
+      "text": "A slow starter that builds Poise through Serpent Arm and attacks with area S3."
+    },
+    "data:combos:3:members:2:note": {
+      "sourceHash": "04f35d18829a15ecec15c0a062add80235139bcff35bbeacab8264542fdbfcf6",
+      "text": "A slow starter that builds Poise through Serpent Arm and strikes with a single-Coin S3."
+    },
+    "data:combos:3:members:3:note": {
+      "sourceHash": "fdca06c038d45095c4dadf8ff8865cf666c82e05812fcd482624ffc852bafb1b",
+      "text": "Lacks the Poise keyword, but benefits from the Lord's extra actions and swaps as a Heishou. As Faust, she can also use Thoracalgia."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "5a330c65b292a98999149b72b02393e20e9aa31386524bde422614df37e92976",
+      "text": "Finishes Trussed enemies through Poise and Bleed. A Pride and Slash focus makes him easy to use with Blade Lineage."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "e8559ec047caa2a074972708e2b2fe34d7f156319dcaa5232a9baf071414862d",
+      "text": "Rapidly builds Poise through evade and Precision Aim, then deals heavy critical damage. Retreats after running out of ammunition, making him better for short fights."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "83c693254180dc325ba0f538adcf6e146f2a56cc70d76c07eb98e11103c8ea7f",
+      "text": "Builds Poise through S3 and defense, then effectively acts twice through a follow-up every turn. Also durable."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "a3aeaaf50a588269d2e64fb4c365778ddcbb6004c15a80ab32e3173503b19677",
+      "text": "A Pierce commander that distributes Offense Level Up and orders Assist Attacks."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "a0f0d76d567455249cf9a32b87a58eeb47a1df7b000351ff12bc33b937d39720",
+      "text": "A Pierce attacker that builds Poise and enhances skills through Speed differences."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "e5ce1c47c3061301febc9ae21213be4fdb264a24fc66aa0d6d3495779f54d74d",
+      "text": "Builds Poise with every clash win. Greatly strengthened by the Blade Lineage Mentor."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "f8a37c9b68d026af94966437934ce18db695d446eedb4447ddf96f1c4ebaf408",
+      "text": "Shares Poise with allies. Best surrounded by allies that use Poise."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "affe8875eec65be67849b66db44b510d43cf5252e417d7dcc5aba1e8bde280aa",
+      "text": "Uses external Poise supply to build Red Plum Blossom. Struggles to build Poise alone."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "d5e5059f269f4ba43bf0318fa80fd807cec4ebd09aa732dff583868dc272dc06",
+      "text": "A self-sufficient Pierce attacker that enhances every skill through Speed differences."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "83709cbe22f268002ef148d8b44041e21304d5d6b9bea667f143abda6b8aebb9",
+      "text": "A Pierce attacker designed to be paired with Full-Stop Office Fixer Heathcliff."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "95db73df7d431d2d98778745f0d35de9fdc5dccdd5596fc5f3712d02d09c3920",
+      "text": "On the Blade Lineage Mentor, the first use costs 3 Pride and Drink to the Fallen strengthens the whole Blade Lineage team. The core E.G.O for this variant."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "081a92fc5bf1dae521f182592d5228c3e8473e29bbf4dc2fd1c226ca610fe3c3",
+      "text": "Gives all allies Poise and restores HP every turn after use. The team's main source of healing."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "b9cb809d19fcbdbfbd1c147f515d7db623c93b46e1fb97d99c76d6ed236672b2",
+      "text": "A Pride area attack that strengthens with repeated use and Poise. Using it can also help address the Sloth resource shortage."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "31fd93a0f9b8fcf5915f7edfc233ce79331368cc485d791386847e5424c60efa",
+      "text": "Use early to restore SP to 4 low-SP allies and stabilize the opening."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "d4a89b2201a9f299c20df5f8a492c631c34c428e34d3e9d05ef42140288d8204",
+      "text": "A team for longer fights, built from Identities that accumulate Poise for critical hits, with Faust's Thoracalgia supplying Poise and healing. Choose between a Blade Lineage variant centered on the Mentor and an Index and House of Spiders variant."
+    },
+    "guide:1:heading": {
+      "sourceHash": "7c3ae2e582110de820eaaeb08643883e6a17a65a53adf78df05018128671869b",
+      "text": "Strengths"
+    },
+    "guide:1:0:0": {
+      "sourceHash": "960b69527a97aa35ab5592738b5e3ee7bf07855a0710047a17914cc967422a1c",
+      "text": "Many members gain stronger skills as Poise accumulates, increasing damage as the battle continues."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "6d854bc6c4ba287217990fc536029172446006e13bf4db45dcd686de69bd973d",
+      "text": "[Thoracalgia](ego:0208) gives all allies Poise and restores HP every turn after use."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "3f5648c39be3b2b81dfd70ff77dac2909b3b3ab7642ece8d26a17c808f2f71d2",
+      "text": "Many skills are Pride, making Pride Resonance conditions easy to fulfill."
+    },
+    "guide:2:heading": {
+      "sourceHash": "d8bdbd57c79d28e4dae13fdcb0d0ae085f8b1dfa3a6ffba40ff244f1eb2b4e03",
+      "text": "Choosing a variant"
+    },
+    "guide:2:0:0": {
+      "sourceHash": "54a1e0d59ffac726f85f5c74b4cfddcdebab685de5d4d27ad59f5f0890cc55eb",
+      "text": "**Blade Lineage**: [Blade Lineage Mentor](persona:0508) activates Swordplay of the Homeland with 3 Pride Resonance to grant allies Poise and Power bonuses. Giving him [Shadow-vested Bladesinger [着影揮刀]](ego:0509) greatly strengthens the whole group. Some Salsu are weak alone but become effective with the Mentor's support."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "503ec2316c390f751f3aaef86ac9cd377922542dacb574197a7fbb58de4d95fe",
+      "text": "**Index and House of Spiders**: The 3 Index members gain Power and SP by fulfilling Prescripts from turn 1, making their opening fast. [Blade of the House of Spiders](persona:0415) is strong alone and gains further bonuses by using Tiansha on a House of Spiders ally."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "3d2df506f05e6e53c36f06358fa5ae42688c23892d9382c3a724b0ca607920ee",
+      "text": "The Blade Lineage Mentor fits either variant, since deliberately losing with Yield My Flesh to use To Claim Their Bones is strong even alone."
+    },
+    "guide:3:heading": {
+      "sourceHash": "6a3474f0dd54e9112b1f215c14590f79ff275bb53f25b5a92e7c901897371d79",
+      "text": "Rotation"
+    },
+    "guide:3:0:0": {
+      "sourceHash": "562394215712d451f1789d292c8db04ce14bd0c830313b00d4dfef30c3afcdf8",
+      "text": "Build Poise early through defense and Poise-granting skills. [The House of Spiders: The Pinky Apprentice](persona:1015) converts Poise Potency above 25 into Moonlit Azure Blade for Shield."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "7bca4edefd68e6ea61f692185fbc88e6f38dd366247d5234aeb592d3c827b1c1",
+      "text": "The Blade Lineage variant uses at least 3 Pride skills each turn for 3 Pride Resonance, maintaining Swordplay of the Homeland and [LCD OSIR Team](persona:0815)'s passive."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "2b2b209c4f6f27a7fc4bbea7e4c1f146e4ce8078aefe0de128181ad156c01057",
+      "text": "Use [Representation Emitter](ego:0201) early to restore low-SP allies and stabilize the opening."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "af55ebc01092825cd08e8de44a35c56928d017ac7e268c4c88fb5d76d83237d7",
+      "text": "If using [The Lord of Hongyuan](persona:0613), include Si Branch members or [Heishou Pack - Mao Branch Adept](persona:0212). He does not reach full strength without Heishou."
+    },
+    "guide:4:heading": {
+      "sourceHash": "8f2bc745cac2bd0338184e4ca2298f2b149a04c55cebca2dffd0c1f8b626491b",
+      "text": "Weaknesses and answers"
+    },
+    "guide:4:0:0": {
+      "sourceHash": "73c2fd5c138e40330e79f69d92ea262aa4a40d85a4bfa85e460a88e7b3a7d814",
+      "text": "Damage is low until Poise builds, making short fights a weakness."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "952266c87d580e2e3fe419a15ea603b11a80e1e34a2b4a0b3876dc18637438b9",
+      "text": "Blade Lineage resources lean toward Wrath and Pride, making healing E.G.O harder to use. Include [Blade Lineage Salsu Faust](persona:0208) for Sloth and Gloom, or other Identities that supply Gluttony."
+    }
+  },
+  "metadata": {
+    "title": "Poise Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Poise team guide: Identities that build Poise for critical hits, with Faust's Thoracalgia supplying Poise and healing for long fights. Covers the Blade Lineage variant and the Index and House of Spiders variant, with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "../components/Link";
 import Breadcrumb from "../components/Breadcrumb";
@@ -16,6 +16,20 @@ import { AttackTypeIcon, Coins, SinBadge } from "../components/ui";
 import EffectText from "../components/EffectText";
 import { ExtraSection, GuideSection, SYNERGY_HEADING } from "../components/GuideView";
 import { glossaryTermForName } from "../glossary";
+import { KeywordName } from "../components/KeywordTerm";
+import { LanguageContext, translateText } from "../i18n/text";
+
+function usePersonaName(name: string) {
+  const { code } = useParams();
+  const language = useContext(LanguageContext);
+  const key = `persona:${code}:name:${name}`;
+  const translated = translateText(key, language);
+  return translated === key ? name : translated;
+}
+
+function PersonaName({ name }: { name: string }) {
+  return usePersonaName(name).replace(/\n/g, " ");
+}
 
 const TONE_LABEL = { weak: "弱点", resist: "耐性", normal: "普通" } as const;
 
@@ -44,6 +58,7 @@ function StagedValue({ value }: { value: string }) {
 }
 
 function SkillCard({ skill }: { skill: SkillDetail }) {
+  const name = usePersonaName(skill.name);
   const key = attackKey(skill.attackType);
   const coinCount = lines(skill.stats.find((s) => s.label === "コイン個数")?.value ?? "").at(-1);
   const slotLabel = skill.slot.replace(/^スキル/, "S").replace(/^守備スキル$/, "守備");
@@ -61,7 +76,7 @@ function SkillCard({ skill }: { skill: SkillDetail }) {
             skill.copies && <small>{skill.copies}</small>
           )}
         </span>
-        <h3 className="skill-card-name">{skill.name}</h3>
+        <h3 className="skill-card-name">{name}</h3>
         <span className="skill-card-tags">
           <SinBadge sin={skill.sin} />
           <span className="skill-card-type">
@@ -127,7 +142,7 @@ function SkillTabs({ skills }: { skills: SkillDetail[] }) {
               onClick={() => setActive(t.key)}
             >
               <span className="skill-tab-label">{t.label}</span>
-              <span className="skill-tab-name">{base.name.replace(/\n/g, " ")}</span>
+              <span className="skill-tab-name"><PersonaName name={base.name} /></span>
               {t.skills.length > 1 && <small className="skill-tab-extra">+{t.skills.length - 1}</small>}
             </button>
           );
@@ -189,7 +204,7 @@ function UnbreakableSummary({ detail }: { detail: PersonaDetail }) {
                 {inherent.map((s, i) => (
                   <li key={`${s.slot}-${i}`}>
                     <strong>
-                      {slotShortLabel(s)} {s.name.replace(/\n/g, " ")}
+                      {slotShortLabel(s)} <PersonaName name={s.name} />
                     </strong>
                     : コイン{(s.unbreakableCoins ?? []).join("・")}
                   </li>
@@ -206,14 +221,14 @@ function UnbreakableSummary({ detail }: { detail: PersonaDetail }) {
                 {bySkill.map((s, i) => (
                   <li key={`s-${s.slot}-${i}`}>
                     <strong>
-                      {slotShortLabel(s)} {s.name.replace(/\n/g, " ")}
+                      {slotShortLabel(s)} <PersonaName name={s.name} />
                     </strong>
                     の効果: {(s.unbreakableByEffect ?? []).join(" / ")}
                   </li>
                 ))}
                 {byPassive.map((p, i) => (
                   <li key={`p-${p.name}-${i}`}>
-                    <strong>パッシブ「{p.name}」</strong>: {(p.unbreakableByEffect ?? []).join(" / ")}
+                    <strong><span>パッシブ</span> <PersonaName name={p.name} /></strong>: {(p.unbreakableByEffect ?? []).join(" / ")}
                   </li>
                 ))}
               </ul>
@@ -226,11 +241,12 @@ function UnbreakableSummary({ detail }: { detail: PersonaDetail }) {
 }
 
 function PassiveCard({ passive }: { passive: PassiveDetail }) {
+  const name = usePersonaName(passive.name);
   return (
     <article className="passive-card">
       <header className="passive-card-head">
         <span className="passive-kind">{passive.kind === "サポート" ? "サポートパッシブ" : "バトルパッシブ"}</span>
-        <h3 className="passive-card-name">{passive.name}</h3>
+        <h3 className="passive-card-name">{name}</h3>
         <span className="passive-card-req">
           <ResourceChips resource={passive.resource} />
           {passive.condition && <span className="passive-cond">{passive.condition}</span>}
@@ -555,7 +571,7 @@ export default function PersonaPage() {
                 const entry = glossaryTermForName(k.term);
                 return (
                   <div key={k.term} className="glossary-item">
-                    <dt>{k.term}{entry && (
+                    <dt><KeywordName term={k.term} desc={k.desc} />{entry && (
                       <Link className="glossary-reference" to={`/glossary/${entry.id}`}>共通の仕組み →</Link>
                     )}</dt>
                     <dd>{k.desc}</dd>

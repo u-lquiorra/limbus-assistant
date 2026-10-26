@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1008.md",
+  "code": "1008",
+  "messages": {
+    "埋花針を溜め、自分の体力と引き換えに広域の2コイン目を再使用して大ダメージを出す、自己犠牲型の暴食貫通E.G.O。": "A self-sacrificing Gluttony Pierce E.G.O that builds Flower-burying Pin and, at the cost of his own HP, reuses its multi-target second Coin for heavy damage.",
+    "埋花針: 攻撃前に暴食共鳴の数だけ得る(最大5)。ターン終了時と被ダメージ時に1増え(最大20)、5につき攻撃レベル+1。暴食共鳴がないと得られない。": "**Flower-burying Pin**: Before attacking, he gains as many as his Gluttony Resonance (up to 5). It increases by 1 at Turn End and when taking damage (up to 20), with +1 Offense Level per 5. Without Gluttony Resonance, he gains none.",
+    "自傷と不許: 攻撃前に(埋花針×2)の体力ダメージを受ける。混乱はせず、戦闘開始時に得る「不許」で、体力0になるダメージを受けても耐え、ターン終了時に死亡する。": "**Self-damage and Denial**: Before attacking, he takes (Flower-burying Pin×2) HP damage. He is not staggered, and Denial [不許], gained at Combat Start, lets him survive damage that would bring his HP to 0, dying at Turn End instead.",
+    "2コイン目の再使用: 的中時、自分の現体力が30%未満か埋花針が20なら、このコインを再使用する。再使用が的中すると自分の全体力を消耗し、ダメージ量+20%が乗る。命と引き換えの一撃で、これが本領。": "**Reusing the second Coin**: On hit, if his current HP is below 30% or Flower-burying Pin is 20, this Coin is reused. When the reuse hits, he spends all of his HP and it gains +20% damage. A strike that trades his life, and this is its core strength.",
+    "強化: 埋花針が6以上でコイン威力+1(解析Ⅲ)。解析Ⅳは6につき+1(最大3)で、失った体力2%につきダメージ量+1%(最大40%)も加わる。": "**Bonuses**: +1 Coin Power at 6 or more Flower-burying Pin (Threadspin Ⅲ). At Threadspin Ⅳ, +1 per 6 (up to 3), plus +1% damage per 2% HP lost (up to 40%).",
+    "精神力の分割払い: 攻撃後3ターン、ターン終了時に精神力が10減る。パッシブ「泣涙」が、マイナス効果の保有か体力・精神力の減少でターン終了時に5回復して一部を相殺する。": "**SP paid in installments**: For 3 turns after the attack, he loses 10 SP at each Turn End. The passive Crying Tears offsets part of it by recovering 5 at Turn End when he has a negative effect or lost HP or SP.",
+    "体力30%未満の瀕死時に使うか、一度使って被弾し埋花針を20まで溜めてから使う。": "Use it when he is near death below 30% HP, or use it once, take hits to build Flower-burying Pin to 20, and then use it.",
+    "暴食共鳴を作らないと埋花針が増えないので、暴食スキルを並べる。": "Flower-burying Pin does not increase without Gluttony Resonance, so line up Gluttony skills.",
+    "再使用を狙わない通常の使い方は、威力が控えめと考えられる。侵蝕スキルは敵味方識別不可で味方に当たり得るため、積極的に使う理由は薄い。": "Used normally without aiming for the reuse, its power is likely modest. The Corrosion skill cannot distinguish friend from foe and can hit allies, so there is little reason to use it actively.",
+    "必要資源は色欲2・暴食6・傲慢2、精神消耗は覚醒10。": "It requires 2 Lust, 6 Gluttony, and 2 Pride, with an Awakening Sanity cost of 10.",
+    "Ⅱ: 「泣涙」が解放される。": "**Ⅱ**: Unlocks Crying Tears.",
+    "Ⅲ: 破裂付与が2から3になり、埋花針6以上でコイン威力+1。": "**Ⅲ**: Rupture infliction goes from 2 to 3, and +1 Coin Power at 6 or more Flower-burying Pin.",
+    "Ⅳ: 埋花針による強化が6ごとに伸び、失った体力に応じたダメージ量増加が加わる。": "**Ⅳ**: The Flower-burying Pin bonus grows per 6, and the damage increase based on lost HP is added.",
+    "北部ヂェーヴィチ協会3課: S1(色欲)・S2(暴食)と守備(暴食)で色欲・暴食の資源と暴食共鳴を作れ、破裂も付与する。": "**[Devyat' Assoc. North Section 3](persona:1011)**: S1 (Lust), S2 (Gluttony), and his Defense skill (Gluttony) supply Lust and Gluttony resources and build Gluttony Resonance, and he also inflicts Rupture.",
+    "中指末弟: 守備は失った体力に応じたバリアを得る反撃で、被弾を前提とする溜め方と噛み合うと考えられる。": "**[The Middle Little Brother](persona:1012)**: His Defense skill is a counter that grants Shield based on HP lost, likely meshing with a buildup that relies on taking hits."
+  }
+}

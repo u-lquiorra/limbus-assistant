@@ -1,0 +1,615 @@
+{
+  "kind": "boss-copy",
+  "id": "yurodivy-captain",
+  "source": "src/data/bosses/yurodivy-captain.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "振動 - 分配",
+          "en": "Tremor - Distribution",
+          "file": "Bufs-tkt.json",
+          "id": "VibrationDistribution"
+        },
+        {
+          "ja": "20区ユロージヴィ隊長",
+          "en": "District 20 Yurodiviye Captain",
+          "file": "Enemies-tkt.json",
+          "id": "91017"
+        },
+        {
+          "ja": "皆の成果",
+          "en": "Collective Achievement",
+          "file": "Passives_Enemy-tkt.json",
+          "id": "9101701"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9014004"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9014104"
+        },
+        {
+          "ja": "良心は無いのか？",
+          "en": "Have You No Shame?",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101701"
+        },
+        {
+          "ja": "良心無いんだな",
+          "en": "I See, You Have No Shame",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101702"
+        },
+        {
+          "ja": "守れるか？",
+          "en": "Can You Protect Them?",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101703"
+        },
+        {
+          "ja": "その武器使えなくなるぞ？",
+          "en": "Can't Use That Weapon Now",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101704"
+        },
+        {
+          "ja": "覚悟はできてるだろうな？",
+          "en": "Ready For A Beating?",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101705"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101706"
+        },
+        {
+          "ja": "大義のための収集",
+          "en": "For the Greater Good",
+          "file": "Skills_Enemy-tkt.json",
+          "id": "9101707"
+        },
+        {
+          "ja": "振動 - 崩壊",
+          "en": "Tremor - Decay",
+          "file": "Bufs.json",
+          "id": "VibrationCollapse"
+        },
+        {
+          "ja": "振動 - 反響",
+          "en": "Tremor - Reverb",
+          "file": "Bufs.json",
+          "id": "VibrationEcho"
+        },
+        {
+          "ja": "振幅変換",
+          "en": "Amplitude Conversion",
+          "file": "Bufs.json",
+          "id": "Switch_Vibration"
+        },
+        {
+          "ja": "振幅絡縺",
+          "en": "Amplitude Entanglement",
+          "file": "Bufs-tkt.json",
+          "id": "FusionVibration"
+        },
+        {
+          "ja": "振動 - 重畳",
+          "en": "Tremor - Superposition",
+          "file": "Bufs-tkt.json",
+          "id": "VibrationNesting"
+        },
+        {
+          "ja": "T社特別捜査官バッジ",
+          "en": "T Corp. Special Investigator Badge",
+          "file": "Bufs-tkt.json",
+          "id": "TcorpSpecialInvestigator"
+        }
+      ],
+      "note": "Names follow paired Timekilling Time and Murder on the WARP Express records for the Normal story encounters. Guide variants 滅多切り and そんな･･･。 map to Mutilate and My...; middle-dot ellipses map to the original Cassetti skill names. Thirst for Blood and Tenacious follow mowe passive records, not similarly named statuses or other bosses. Normal, dungeon, and Hard values and target/deployment restrictions remain distinct. Hard-only names are referenced only to explain their exclusion."
+    }
+  },
+  "scopedTerms": [
+    "滅多切り",
+    "そんな･･･。",
+    "血の乾き",
+    "しつこさ"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "b950be3fc97796ac0d683472a2ce74e7a2cc121f08b7fc54aab622360a965d0e",
+      "text": "District 20 Yurodiviye Captain (6.5-10)"
+    },
+    "shortName": {
+      "sourceHash": "682a111a4e2a1c3df7446e0864ddcdeb961c78cc4c59072f0fe1e67b2092f34c",
+      "text": "District 20 Yurodiviye Captain"
+    },
+    "stageName": {
+      "sourceHash": "f7195a8aa3ffe147c1a82768b1dc354d2d9c0671b0652fa9ca6b5a829527aabe",
+      "text": "Timekilling Time: The Yurodiviye's Secret"
+    },
+    "lead": {
+      "sourceHash": "d47a6e557eec4690a1b6e83df27a44ebaf517c64bf09114a527c9f56b28c5298",
+      "text": "Start with Ryōshū, Hong Lu, and Rodion, each with 2 slots. Build SP and resources in Wave 1, then focus Pierce damage on the Captain in Wave 2. Once Staggered, concentrate damage and defeat him before the Unclashable For the Greater Good."
+    },
+    "listLead": {
+      "sourceHash": "35e85238c01cf7d41afb3177c8eda798b2e68f4b336065d44c8ee2d3ebad966f",
+      "text": "The 3 deployable Sinners are fixed, each starting with 2 slots. Prepare SP and resources in Wave 1, focus Pierce damage during Stagger, and shorten the period spent taking Unclashable attacks afterward."
+    },
+    "statNote": {
+      "sourceHash": "acddb48456a697087e56aa031bcf3a14f5381e66444883705ae505bef787aa77",
+      "text": "The 2-wave focused encounter in 6.5-10. Boss Level 44, 582 HP, Defense Level 44. Only Ryōshū, Hong Lu, and Rodion can deploy; each starts with 2 slots and 1 T Corp. Special Investigator Badge. Stagger percentages and HP thresholds are unconfirmed. Lists all 7 boss skills; does not substitute the dungeon's Level 45, 633-HP version."
+    },
+    "skillNote": {
+      "sourceHash": "efaa004f77f7d3f809f02d7a8423a04c6bc546ae4229c46d4690b8de055dd6b1",
+      "text": "Distinguishes on-use increases to the enemy's Tremor Count from on-hit effects on Sinners. For the Greater Good is Unclashable; Guard gains Shield at Combat Start. Check actual add types, numbers, and actions in combat."
+    },
+    "priorities.0": {
+      "sourceHash": "160adf80dc318e9956d9408836b281fea0e54b8e2e13b4b3f2c008123771c6e9",
+      "text": "Aim for Level 44 and Uptie III or higher on Ryōshū, Hong Lu, and Rodion. Do not build a plan requiring other Sinners to deploy."
+    },
+    "priorities.1": {
+      "sourceHash": "10e00bd2358b60e9c1f5130d99272afc9e737c5cdde46835b4ee34c09ac60a21",
+      "text": "Build SP and resources in Wave 1. The boss takes double Pierce and half Slash damage; prioritize leveled Pierce attackers."
+    },
+    "priorities.2": {
+      "sourceHash": "1d2c242e627f60617e3831495b4799f6636418ab54b1b34d4b6bfa41012b4e38",
+      "text": "Concentrate damage after Stagger and aim to kill before recovery. For the Greater Good cannot be stopped by clashing; prepare Evade or resistance if the fight lasts longer."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "c9ba651bc751316aa0e4ed1425450241fcf7835be36903c4649503ac1e47d01c",
+      "text": "The usual main team cannot deploy"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "5a8f869c32e6901e84a8f1cb5b9f0b229fbee8dc57d4fa7ea448f6255c2a88ba",
+      "text": "Only Ryōshū, Hong Lu, and Rodion are available. Check their Identities and equipped E.G.O. Each starts with 2 slots, providing 6 actions despite the small team."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "ac0eb80ee798b6c9a0eb8324602f23ff75c009a64b2c6eb605a5f182ccc89626",
+      "text": "The post-Stagger finisher cannot be stopped by a clash"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "09b19283bef3fd7e0c93bf80394a3242a02ed3c244ef2e6fcc4941a1ffcd7c41",
+      "text": "For the Greater Good is Unclashable. A powerful attack alone cannot stop it. Aim to kill during Stagger; otherwise, limit damage with Evade, resistance, and sufficient HP."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "9b517c64ed4156a1b0655b307161b561cdd22eb60ec101564cc7113efd17b4f1",
+      "text": "Suddenly easier to Stagger, with more additional damage"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "e06518d14aeefad1d2c6360fc29076612df31367a19fb405cd0eca636f1fbf7c",
+      "text": "Tremor - Decay lowers Defense Level, while entangled Reverb adds Sloth damage on Tremor Burst. Stop Tremor-inflicting attacks through clashes and check the target's Tremor and Stagger Threshold."
+    },
+    "units.0.name": {
+      "sourceHash": "682a111a4e2a1c3df7446e0864ddcdeb961c78cc4c59072f0fe1e67b2092f34c",
+      "text": "District 20 Yurodiviye Captain"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "c14a2a5bf3f167dae4db97959ce9a4e7577968fe74864fc3bfac7ad7b5e6025e",
+      "text": "Unconfirmed (no percentage or HP value listed)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "72c93e7d9ecb579ede68355532801c09eb36731db3907ad1ddcd98c86b5b91ac",
+      "text": "The focused-encounter version appearing in Wave 2."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "b9a7397f8ce7ff571bff92998966aea0881d63fcd167a8db7a2da55c25956b78",
+      "text": "Gains skill slots when adds die. No unconfirmed fixed slot cap is supplied."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "5a3e2b2cac9262c012b2001812de839218d6dede5d4fff6fc4b86c25d09c9ecc",
+      "text": "Prepare follow-up damage during Stagger for For the Greater Good after recovery."
+    },
+    "phases.0.timing": {
+      "sourceHash": "d480272507e1b47b23e07ae83459071fa77bb2e5f4515fe836cb9549d83cd557",
+      "text": "Wave 1"
+    },
+    "phases.0.title": {
+      "sourceHash": "92072107387010c987761886dc51c9c779ad7a8d06f38aedbfd21b04ae53eff1",
+      "text": "Build the 3 Sinners' SP and resources"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4f3abdea02298bfbbf093e6b0e12c2520b67f5c105511fde77f9261ae0a3da41",
+      "text": "Ryōshū, Hong Lu, and Rodion start with 2 slots each. Assign winning clashes and gather SP and resources for powerful E.G.O."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "38aa3ee54e3e7ad161fffebc9eaca5e23b3214df2c7ea924931aafe115e59a17",
+      "text": "Prioritize Pierce and limit unnecessary hits and Tremor. Avoid entering Wave 2 with low SP or HP."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "5267f2e6ba497cc9a70a77c2d0f2e079ae688b74ba966e466244db7e73c817a6",
+      "text": "With only 3 Sinners, use defense and healing as well as attacks. Do not make an undeployed Sinner's skill part of the required sequence."
+    },
+    "phases.1.timing": {
+      "sourceHash": "01325a48992d2ba99c98f52efa6fbd0c212de83e317447099b3dab81d828c33b",
+      "text": "Wave 2 · Before Stagger"
+    },
+    "phases.1.title": {
+      "sourceHash": "41a127bc08ac254a6ae1083519d26cb06cbe100ad064b922adaad497a0041cbd",
+      "text": "Use Pierce to Stagger the boss"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "d16d4d00bb2bfca30900320e471eb323ffd44507dcec19b8910ea4c481ab68c8",
+      "text": "The boss takes double Pierce damage. Avoid concentrating damage into halved Slash; use available Pierce attacks to reach Stagger. Check the exact threshold in combat."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "271415484b9c272e53bf20f22d034fc10aef322f091429a3ce459b995295b4a0",
+      "text": "Enemy Tremor Count also increases on use; winning clashes does not stop all buildup. Check Sinners' Tremor and Tremor Burst conditions too."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "12bd982f9e46e5bc793f9d717bf96215f3b2df20a2e621c9af0c7795fd0e243f",
+      "text": "Defeating adds increases boss slots. Handle necessary adds while retaining boss damage and answers to the additional attacks."
+    },
+    "phases.2.timing": {
+      "sourceHash": "88fee6d754e024979bcbc6bbc8e05a8cca229c35b1f275409efd855ee6f0061f",
+      "text": "Boss Stagger through defeat"
+    },
+    "phases.2.title": {
+      "sourceHash": "72f1fa28f10b9b080686bd8879c9b572a4480965dfac34ec8c748f1e08de08e2",
+      "text": "Concentrate damage to kill before recovery"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "b54a142ce42ece899848f028ce060fb76095c5b34bfd49e065dc07b115027a92",
+      "text": "Once Staggered, focus strong attacks and defeat the boss before recovery. Avoid saving too much damage for the following turn."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "75a94d5b5bf7dfaaadb19289d34aba65076882591d500a24a4e8358c517b7b09",
+      "text": "For the Greater Good collects allies' Tremor Count at Combat Start to raise Offense Level, then adds 9 to own Count on use. It is Unclashable; ordinary clash-winning E.G.O cannot stop it."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4e530bd46bbe46654ac2b58dd7a353fefdd44414ba4d72e0e144a5a9e79ccd87",
+      "text": "If it is used, check Evade, resistance, and remaining HP. Repeated Bursts that Stagger a Sinner restore the enemy team's SP; avoid that chain of damage."
+    },
+    "skills.0.name": {
+      "sourceHash": "02d370f125dca60e3b0499084880a6393031a544019ef2ff5665b271771af5d2",
+      "text": "Have You No Shame?"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "00ff59861b1c9c7ce3836afd75b6947d0440cb73626ddd50c9a8f5c1ed65b8e6",
+      "text": "[On Use] Own Tremor Count +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "3c2da9ebc6a7d84d68b87aa408901c6424febc6516c788efdcce46b34a37bb9b",
+      "text": "Ⅱ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.response": {
+      "sourceHash": "ff27cbce39640f31c5e7d0b5eade5a8196548cc0de34e703b348ca9c6e8128aa",
+      "text": "Its own Tremor Count rises on use, even if you win the clash. Prevent the 2 Tremor inflicted on Sinners to limit later Burst conditions."
+    },
+    "skills.1.name": {
+      "sourceHash": "2ec5d16425c528bed595fc6df1ddaebe6cd4285a23373fb377e6e205375e6c94",
+      "text": "I See, You Have No Shame"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "00ff59861b1c9c7ce3836afd75b6947d0440cb73626ddd50c9a8f5c1ed65b8e6",
+      "text": "[On Use] Own Tremor Count +1"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "8745be8c070f75c68472bebc68261337cdd563abf0636282dc599c1e76c584ca",
+      "text": "Ⅱ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.1.response": {
+      "sourceHash": "3a371913eb1422ee64e59011c400bc36ee73f67ea9a1bc8fe06e29cef7c27efe",
+      "text": "Own Tremor Count rises on use; each hit inflicts 3 Tremor. Win clashes from the opening to limit buildup."
+    },
+    "skills.2.name": {
+      "sourceHash": "ee4add751ba3063d1e7f580d0c1bd17d221ce7df8d78c1a14cbe8641b67bd3d6",
+      "text": "Can You Protect Them?"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "00ff59861b1c9c7ce3836afd75b6947d0440cb73626ddd50c9a8f5c1ed65b8e6",
+      "text": "[On Use] Own Tremor Count +1"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9678e553ad4a70ef2bd026622ca1013b2c20e22bdda25ebfcd77715d602f22ad",
+      "text": "Ⅰ[On Hit] Inflict 5 Tremor"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "5c35479b5dce48e8a0f15a74eb37c8ac5c4ddab9ebdf040ebab45664fef2684f",
+      "text": "Ⅱ[On Hit] At 10+ own Tremor Count, trigger Tremor Burst and reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "b4ec2335fa329488d364049f36f2018c837c2b96a2f31d14563463f7a20285f1",
+      "text": "  [On Hit] At 15+ Tremor Potency on the target, trigger Tremor Burst and reduce its Tremor Count by 1"
+    },
+    "skills.2.response": {
+      "sourceHash": "f0e56ab17cf51c799caeccfce5a55b9fdeaaade2abbd5f2a51a5105b136e4397",
+      "text": "Coin 2 can trigger Tremor Burst at 10+ own Tremor Count or 15+ Tremor Potency on the target. Check Stagger Thresholds as well as Power when stopping it."
+    },
+    "skills.3.name": {
+      "sourceHash": "6d3e5763e98617324cd7611124a4b5d244a10482732fd515dc3d7c2b1f341e69",
+      "text": "Can't Use That Weapon Now"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "461e7154184875f7addad4d7e12d81934802ba0d8faf5c81fbff3ba0f28234b8",
+      "text": "[On Use] Own Tremor Count +2"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "9678e553ad4a70ef2bd026622ca1013b2c20e22bdda25ebfcd77715d602f22ad",
+      "text": "Ⅰ[On Hit] Inflict 5 Tremor"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "52d8b058b91839101a59add75b907464a965c2fa1c6c9b678d8ee5f707c70b06",
+      "text": "Ⅱ[On Hit] Inflict 5 Tremor"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "acb3a50836ed081b9c937427354a154f81a4234199c49d2d88c7430606ee93f5",
+      "text": "Ⅲ[On Hit] Amplitude Conversion into Tremor - Decay"
+    },
+    "skills.3.response": {
+      "sourceHash": "bda8727851e01ef996fb091937029085cdf4c97c9215e69f6eba2e3db09c98d2",
+      "text": "Coin 3 converts the Sinner's Tremor into Decay, lowering Defense Level. Keep it off high-Tremor Sinners."
+    },
+    "skills.4.name": {
+      "sourceHash": "5448a22309c72ab05d64b0be016e2005d7ac97b4f1bce8f15b8a154210a25336",
+      "text": "Ready For A Beating?"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "dd0708be2548e666dcf68f20aab308858ef3e9a45d5b3bd2054af2d5e04d5b26",
+      "text": "Prioritizes targets with Tremor - Decay"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "ec1e640b95bd136ec54d3435d5d4381961c616e6cff2abc19a5df57a32b8ed2c",
+      "text": "[On Use] Grant all other allies Tremor Count equal to own Tremor Count"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "6c6c7f8964bf773a2fbaa5db207cbf574a51ae445a6feeb9cfcbaf8a8ea4de98",
+      "text": "[On Use] Convert all allies' Tremor, including self, into Tremor - Distribution"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "4dca204391026a342e9997d11ed8bea971dc50714fded1632ac811c44c498d7a",
+      "text": "Ⅲ[On Hit] Inflict 10 Tremor"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "69417b531f3c28fb6bd53706cc9a9d652171c673665139ca1b0be0edcc854d87",
+      "text": "Ⅳ[On Hit] Amplitude Entanglement with Tremor - Reverb"
+    },
+    "skills.4.response": {
+      "sourceHash": "a74928f6bc6631046d5a4c12c453505c0bbf4f43c18e1ce15cdd40dd26a875dc",
+      "text": "Prioritizes Tremor - Decay targets. Distinguish on-use enemy-team distribution from on-hit Tremor and Reverb Entanglement. Stop the 4 hits to limit Burst damage."
+    },
+    "skills.5.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "a4dbc8d56dffe6156b59e414d8d492cc99ba3280f5a6c3f875f700b2db79d888",
+      "text": "[Combat Start] Gain Shield equal to 3 times own Tremor Count (max 30)"
+    },
+    "skills.5.response": {
+      "sourceHash": "d2b766b49732e923a75883e57185055ca50d9040ba6817d9e9d4b95ebcd7c441",
+      "text": "Gains Shield equal to own Tremor Count × 3 at Combat Start, capped at 30. Offset it or use enough damage to break through and reach Stagger."
+    },
+    "skills.6.name": {
+      "sourceHash": "ee1213da7ca60703e5b196f7b47723a828b9f257ac46d9782623252c6c85980c",
+      "text": "For the Greater Good"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "01dedcb01e6bf002b0ad1f5fe80758441ae0204f9030f3ae7f6b2b93e9a97182",
+      "text": "[Combat Start] Gain all other allies' Tremor Count, then remove Tremor from all allies"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "c71332e3415a74127963d649d560422bc6d7f06c0e10e4a0586e6bb0b1c26a2f",
+      "text": "[Combat Start] Gain 1 Offense Level Up per 3 own Tremor Count"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "2a28d0cc3486e9e9d85c361a9ac2daa9be8462b3bd3a46c2a7b1f4ea1369b231",
+      "text": "[On Use] Own Tremor Count +9"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "efa2edcf50a92997f4387a2c1049f0f9918bb7362ca99136689d8df411390595",
+      "text": "Ⅰ[On Hit] Inflict 10 Tremor"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "4e3893ecb2f79d129b073e44925f69245443cba0b3508b7df624f40c5c4ff94a",
+      "text": "  [On Hit] Deal additional Sloth damage of 10% per own Tremor Count"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "a3224758dc02c756ef41defb8a01cc7bfcef7736137d4f24b8c1ad46ea14c853",
+      "text": "Ⅱ[On Hit] Tremor Count +4"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "4e3893ecb2f79d129b073e44925f69245443cba0b3508b7df624f40c5c4ff94a",
+      "text": "  [On Hit] Deal additional Sloth damage of 10% per own Tremor Count"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "72ba8489c4c70bfbf810c6980413cc802f76fc521e54977f1c20827e96f5619b",
+      "text": "Ⅲ[On Hit] Consume 3 own Tremor Count, trigger Tremor Burst, and reduce the target's Tremor Count by 1"
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "13f63ab7c548df4115cd47049f7155fc6441539ac7585d50b419831f628cb78f",
+      "text": "  [On Hit] Consume 3 own Tremor Count, trigger Tremor Burst, and reduce the target's Tremor Count by 1"
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "13f63ab7c548df4115cd47049f7155fc6441539ac7585d50b419831f628cb78f",
+      "text": "  [On Hit] Consume 3 own Tremor Count, trigger Tremor Burst, and reduce the target's Tremor Count by 1"
+    },
+    "skills.6.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.6.response": {
+      "sourceHash": "a04b5975dc3a348f489276932321b18d5a457db4865c3a51c564a0ac4552305b",
+      "text": "Unclashable, even against powerful E.G.O. Kill during Stagger or use Evade, resistance, and sufficient HP if it occurs. Repeated Bursts and additional Sloth damage are dangerous."
+    },
+    "passives.0.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.0.condition": {
+      "sourceHash": "6df03fa11724bf6623594bccc1d644275c26dc381bb2c729c3ae0d5a4164509b",
+      "text": "In Panic at Turn End"
+    },
+    "passives.0.effect": {
+      "sourceHash": "20567bf2bb520ecde881f80eb98b035001ec266ce566f9fa038c0a785f12246e",
+      "text": "Reset SP to 0."
+    },
+    "passives.0.response": {
+      "sourceHash": "ee335eb988be1f0662a7f9694473ad22a828e778e41e66a9667da329d8b655fb",
+      "text": "Do not assume Panic alone will disable the enemy for long."
+    },
+    "passives.1.name": {
+      "sourceHash": "1499d746077492a3d5b6d6ee8bde5c912c4e7ff0a388b4f4dc68911e353d232f",
+      "text": "Collective Achievement"
+    },
+    "passives.1.condition": {
+      "sourceHash": "db779c7881b968366e7f63028fcc6ac5875b4f2e3bf317686193dd02e49b7bcd",
+      "text": "Staggering a target with own attacks or Tremor Burst"
+    },
+    "passives.1.effect": {
+      "sourceHash": "c05d217a0a8f39a5095d503e37574dc38af398c7024145e6ff45a11082528775",
+      "text": "All allies heal 10 SP."
+    },
+    "passives.1.response": {
+      "sourceHash": "f6e03ace47314a98979f4c93875695766d9996015f8f9261c1760906a4ec217a",
+      "text": "Prevent a chain where your Sinners' Stagger lets the enemy team recover."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "c0d7a9b579d7436b0123b8f1e85f25f3339ea58885cd67a061248a0706f62217",
+      "text": "3 Sinners only / 2 starting slots each"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "f3e892109e1f18167e3c4d6f14302c1c9a66e217d811ebddcf72c593c2aedea9",
+      "text": "Only Ryōshū, Hong Lu, and Rodion may deploy. Each starts with 2 slots and 1 T Corp. Special Investigator Badge."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "32aa57c040aa9db78d4c1a92650fa4c1e2ce980350794aaeedcdb5464e44fc78",
+      "text": "Prepare all 3 Sinners and their E.G.O, dividing the total 6 actions between offense and defense."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "7655e06608e49eeed89f85cb272d1274366ec67be2d09f31373b3357bde3a434",
+      "text": "Tremor - Decay"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "3fdf794d98df907ece791285db5432c9247c2bf4a0ed2dbf249d3e67066286f4",
+      "text": "Defense Level -1 per 4 Tremor Potency. Tremor Burst raises the Stagger Threshold by Tremor Potency."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "ef2133c08520999e5a32d1e7b086df2a0d64293085d76fc55457af4e4f212150",
+      "text": "Check Defense Level reduction and Stagger Thresholds; prevent Bursts on high-Tremor Sinners."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "8358e7716bfe8a4728cdb2b34d3c45894d0077a0af0a36b0b58db536d8ea4abb",
+      "text": "Tremor - Reverb"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "b2cbc257c73ba0eb2342de17b18ba462001853ead6d43d8ba5c21aaebb53a73d",
+      "text": "On Tremor Burst, take Sloth damage equal to Tremor Potency, in addition to the Stagger Threshold increase."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "2015b463ef0cde2c0fde153cc922de946b5b2684d3f598f106a34201dc438664",
+      "text": "Limit how long the team must endure For the Greater Good's repeated Bursts."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "3b9544857a2dba6b163283aff27be61f5c2c8aa933a70fbf0b02f348c54443e8",
+      "text": "Tremor - Distribution"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "b68ff0db72ae5fb6dc1466cd8a924fd0fe18c7f68b96247d1c2bcfe4a20b3b06",
+      "text": "At Turn End, gain up to 5 Offense Level Up next turn based on total allied Tremor Count divided by living allies."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "00ab30a223f96793d54c78a20a647c993f0ba03f82e12b968f608bd90d8d9db8",
+      "text": "The Captain converts the enemy team into this buff on use. In a long fight, check next-turn Offense Level too."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "53e5979f6b1c719840d5617c4221f0b8d918d77945a61d2d805dc8fbb0a60b69",
+      "text": "Amplitude Conversion / Amplitude Entanglement"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "66bc364d6c9a7ef75a83db43c5f1ae4fb8d63f50a27547d35b118c4950d2bd8d",
+      "text": "Conversion changes Tremor type; Entanglement combines effects as Tremor - Superposition. Potency and Count are retained. Superposition reverts to Tremor at Turn End."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "7de16b973950f81defe53631304ca366a33cd0e8ce59c2ed2270f2fa3ef89d9f",
+      "text": "This combines Defense Level reduction with Burst damage; it is more than a name change."
+    },
+    "warnings.0": {
+      "sourceHash": "8d4d067c4351e79fe177638bdbcc0c1cfd7d70ac0219b19df83a29446c93b4e1",
+      "text": "Distinct from the Level 45, 633-HP Captain in the 6.5-15 dungeon."
+    },
+    "warnings.1": {
+      "sourceHash": "4cfcf517284c1910adf949529a136d17105cb4500801eb991ecf6c962c27d03a",
+      "text": "Stagger thresholds, fixed add formations, and action cycles are unconfirmed. Do not lock a sequence to estimated values."
+    },
+    "warnings.2": {
+      "sourceHash": "8e9fcfc600af6e5a46276bd688100d0092f2242b5aac30933313131fa2eb168b",
+      "text": "For the Greater Good is Unclashable. Evade success is not guaranteed either; check predictions and remaining HP."
+    },
+    "preparation.0": {
+      "sourceHash": "ab96f16112f842018bed0ecf2d8ad7cacfa4dff66205952e90a49cb8c9c61243",
+      "text": "Aim for Level 44 and Uptie III or higher on Ryōshū, Hong Lu, and Rodion. Prioritize leveled Identities with Pierce attacks."
+    },
+    "preparation.1": {
+      "sourceHash": "0d126934ed62cf2a68fb70b54650a82c9d57195c067b334e1404428f69c72652",
+      "text": "Build SP and resources in Wave 1 and save high damage for Stagger."
+    },
+    "preparation.2": {
+      "sourceHash": "9a7d1ecf34b27ab8e2f06120693fdc6bb632d8e959e25b1fb6a63a146121f126",
+      "text": "Check defense and healing options for all 3 Sinners in case the fight lasts longer."
+    },
+    "roles.0.name": {
+      "sourceHash": "a1c60cb679abf54cf1ed711ff9e449f8b89e9e9c1b65be03611ba81889a42ae9",
+      "text": "Main Pierce attackers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "18a94d8a60814c0dbc4a9c34e65d2367a1d3b21fe37301015e138c3cbe7d820f",
+      "text": "Exploit the boss's weakness and progress from Stagger to defeat."
+    },
+    "roles.1.name": {
+      "sourceHash": "fe1b0f18724f9f903f2be53ba752dd332b35434c3e3b87ce7bb3e4b2d08eb3af",
+      "text": "Clashes and defense"
+    },
+    "roles.1.reason": {
+      "sourceHash": "9b0c4d0435c69bdc98e4d846a9dcfc1ddb6035becd73773dce65c86eef6161bf",
+      "text": "Limit Tremor buildup and damage if the Unclashable attack occurs."
+    },
+    "roles.2.name": {
+      "sourceHash": "07d1966f17afaed6a204c55871ce24070a502ad0e1d5cccfce9ed0fb4635c853",
+      "text": "Healing and recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "60bfc3d1b7652d81f74e2055fc31f971e5d10303c329b66f6f1fda84b1271a92",
+      "text": "Avoid entering Wave 2 with any of the 3 Sinners unable to contribute."
+    }
+  },
+  "messages": {
+    "boss-copy:yurodivy-captain": "complete",
+    "【リンバス】6.5-10 20区ユロージヴィ隊長（6.5-10）の攻略｜Limbus Assistant": "6.5-10 District 20 Yurodiviye Captain (6.5-10) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6.5-10「20区ユロージヴィ隊長（6.5-10）」の攻略。良秀・ホンル・ロージャの3名で、各2スロットから始まる戦闘。第1Waveで精神力と資源を整え、第2Waveの隊長へ貫通を集める。混乱を取…": "District 20 Yurodiviye Captain (6.5-10) guide for Limbus Company 6.5-10. Start with Ryōshū, Hong Lu, and Rodion, each with 2 slots. Build SP and resources in Wave 1, then focus Pierce damage on the Captain in Wave 2. Once Staggered, concentrate damage and defeat him before the Unclashable For the Greater Good.",
+    "6.5-10 20区ユロージヴィ隊長（6.5-10）": "6.5-10 District 20 Yurodiviye Captain (6.5-10)",
+    "6.5-10「Timekilling Time: The Yurodiviye's Secret」": "6.5-10 · Timekilling Time: The Yurodiviye's Secret",
+    "20区ユロージヴィ隊長の外見": "District 20 Yurodiviye Captain appearance",
+    "20区ユロージヴィ隊長のスキル": "District 20 Yurodiviye Captain skills",
+    "District 20 Yurodiviye Captainの外見": "District 20 Yurodiviye Captain appearance",
+    "District 20 Yurodiviye Captainのスキル": "District 20 Yurodiviye Captain skills"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0406.md",
+  "code": "0406",
+  "messages": {
+    "傲慢スキルのクリティカル的中で呼吸を伸ばしつつ、呼吸と充電を相互に稼ぐ、傲慢斬撃の広域E.G.O。": "A multi-target Pride Slash E.G.O that extends Poise through Critical Hits with Pride skills while earning Poise and Charge from each other.",
+    "呼吸の獲得: 攻撃前に呼吸4を得る。解析Ⅲから、的中した対象のうち死亡した数だけ呼吸2を追加で得る。": "**Gaining Poise**: Gains 4 Poise before attacking. From Threadspin Ⅲ, gains 2 more Poise for each target hit that died.",
+    "充電の獲得: 的中時に充電回数が2増え、クリティカル的中時にさらに自分の充電回数が2増える。": "**Gaining Charge**: Charge Count increases by 2 on hit, and her own Charge Count increases by 2 more on Critical Hit.",
+    "侵蝕スキル: 充電回数を2ずつ消耗して呼吸1を得る(最大10)。解析Ⅳでは呼吸10以上のクリティカルでクリティカルダメージ量+30%。": "**Corrosion skill**: Spends 2 Charge Count at a time to gain 1 Poise, up to 10. At Threadspin Ⅳ, a Critical Hit with 10 or more Poise gains +30% Critical damage.",
+    "パッシブ「夢を貪る」: 傲慢属性のスキルでクリティカル的中するたび、呼吸回数が1増える(1ターンに最大3回)。使用後の次ターンから戦闘終了まで有効。": "**Passive — Dream Devouring**: Each Critical Hit with a Pride skill increases Poise Count by 1, up to 3 times per turn. Active from the turn after use until the end of the battle.",
+    "広域化: 攻撃加重値が解析Ⅲで2、解析Ⅳで3になり、複数の敵に当てて呼吸を稼ぎやすくなる。": "**Multi-target**: Attack Weight becomes 2 at Threadspin Ⅲ and 3 at Ⅳ, making it easier to hit several enemies and earn Poise.",
+    "呼吸を主軸にする人格の編成で、呼吸の補充と、傲慢スキルのクリティカルを狙う手段として挟む。": "In teams built around Poise Identities, slot it in to top up Poise and to aim for Critical Hits with Pride skills.",
+    "撃破が絡むと呼吸の伸びが大きいので、複数体に当てられる場面で使う。": "Poise grows a lot when kills are involved, so use it when it can hit multiple enemies.",
+    "火力・充電・呼吸のどれも控えめなので、呼吸と充電の両方を扱う編成でないと持ち味が出にくいと考えられる。": "Its damage, Charge, and Poise are all modest, so it likely struggles to shine outside teams that use both Poise and Charge.",
+    "必要資源は憂鬱2・傲慢2・嫉妬2。": "It requires 2 Gloom, 2 Pride, and 2 Envy.",
+    "Ⅱ: 「夢を貪る」が解放される。": "**Ⅱ**: Unlocks Dream Devouring.",
+    "Ⅲ: 攻撃加重値が2になり、撃破時の呼吸が加わる。": "**Ⅲ**: Attack Weight becomes 2, and Poise on kills is added.",
+    "Ⅳ: 攻撃加重値が3になり、侵蝕スキルにクリティカルダメージ増加が付く。": "**Ⅳ**: Attack Weight becomes 3, and the Corrosion skill gains the Critical damage increase.",
+    "エドガー家 チーフバトラー: 傲慢のS2は戦闘開始時に呼吸回数を消耗して攻撃加重値を増やせ、傲慢スキルのクリティカルでパッシブを発動させやすい。": "**[Edgar Family Chief Butler](persona:0408)**: Her Pride S2 spends Poise Count at Combat Start to increase Attack Weight, and Critical Hits with Pride skills make the passive easy to trigger.",
+    "蜘蛛の巣の刀: S2(傲慢)が的中時に呼吸を得て、パッシブ「残像反響」でクリティカルを伸ばせる。傲慢の資源も出せる。": "**[Blade of the House of Spiders](persona:0415)**: Her S2 (Pride) gains Poise on hit, and the passive Afterimage Reverberation boosts Critical Hits. She also supplies Pride resources."
+  }
+}

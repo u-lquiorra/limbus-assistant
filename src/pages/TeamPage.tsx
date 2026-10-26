@@ -13,6 +13,7 @@ import { GuideSection } from "../components/GuideView";
 import { AptitudeBadges, PersonaRow } from "../components/TeamLinks";
 import { getKeywordPage } from "../keywordPages";
 import { supportPassivesPath } from "../supportPassives";
+import { Message } from "../i18n/Message";
 import "./teams.css";
 
 const SLOTS: { key: "core" | "flex" | "alternatives" | "support"; title: string; note: string }[] = [
@@ -116,7 +117,7 @@ export default function TeamPage() {
       <Breadcrumb items={[{ label: "編成例", to: "/teams" }, { label: team.name }]} />
       <header className="team-hero">
         <p className="kicker">
-          TEAM ・ {team.category} ・ {team.difficulty}向け
+          <Message text="TEAM ・ {category} ・ {difficulty}" values={{ category: team.category, difficulty: `${team.difficulty}向け` }} />
         </p>
         <h1 className="persona-title">{team.name}</h1>
         <div className="persona-tags">
@@ -129,7 +130,7 @@ export default function TeamPage() {
         </div>
         {keywordPage && (
           <p className="team-lead">
-            ほかの候補は<Link to={`/keywords/${keywordPage.id}`}>{keywordPage.keyword}人格一覧</Link>から探せる。
+            <Message text="ほかの候補は{link}から探せる。" values={{ link: <Link to={`/keywords/${keywordPage.id}`}>{`${keywordPage.keyword}人格一覧`}</Link> }} />
           </p>
         )}
       </header>

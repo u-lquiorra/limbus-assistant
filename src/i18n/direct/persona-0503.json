@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0503.md",
+  "code": "0503",
+  "messages": {
+    "充電を消耗して斬撃脆弱と防御レベル減少を入れる、斬撃のデバッファー。": "A Slash debuffer that spends Charge to inflict Slash Fragility and Defense Level Down.",
+    "充電の獲得: S1「切断」の使用時・的中時、守備の戦闘開始時に充電回数が増える。S1は使用時に斬撃保護も得る。": "**Gaining Charge**: Charge Count increases on use and on hit of S1 Rip, and at Combat Start of his Defense skill. S1 also grants Slash Protection on use.",
+    "S2「エネルギー循環」: 破裂を付与。Ⅲコイン的中時に充電回数3を消耗して斬撃脆弱2を付与。": "**S2 — Energy Cycle**: Inflicts Rupture. On Coin Ⅲ hit, spends 3 Charge Count to inflict 2 Slash Fragility.",
+    "S3「エネルギー交流」: 各コイン的中時に充電回数2を消耗して防御レベル減少2を付与(4コイン)。": "**S3 — Energy Current**: On each Coin hit, spends 2 Charge Count to inflict 2 Defense Level Down (4 Coins).",
+    "充電で強化: 充電回数5以上でS2・S3のコイン威力+1。": "**Charge bonuses**: S2 and S3 gain +1 Coin Power at 5 or more Charge Count.",
+    "バトルパッシブ「耐え抜く」(嫉妬×3・保有・同期化Ⅱで取得): 被ダメージ時とマッチ敗北時に充電回数が1増加(それぞれ最大6回)。": "**Combat passive — Enduring Spirit (3 Envy Owned; unlocked at Uptie Ⅱ)**: Charge Count increases by 1 when taking damage and on Clash Lose, up to 6 times each.",
+    "S1や被弾で充電回数を貯め、S2で斬撃脆弱、S3で防御レベル減少を入れて味方の攻撃を通しやすくする。S3は各コインで充電回数を2ずつ消耗するため、4コインすべてで消耗するには充電回数8が必要と考えられる(足りないときの挙動は未確認)。": "Build Charge Count through S1 and taking hits, then inflict Slash Fragility with S2 and Defense Level Down with S3 to help allies' attacks land. S3 spends 2 Charge Count per Coin, so spending on all 4 Coins likely requires 8 Charge Count (the behavior when short is unconfirmed)."
+  }
+}

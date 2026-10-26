@@ -1,0 +1,1143 @@
+{
+  "kind": "support-copy",
+  "provenance": {
+    "translation": "Direct translation of public site text; names paired by game ID with official game localization.",
+    "source": "src/data/support-passives.json",
+    "namesRepository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+    "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+    "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  },
+  "entries": {
+    "1001": {
+      "sourceHash": "e1e58177a804743670368ad32e15f332c0067ec64b51145c78e89ad23b1e06fb",
+      "name": "Grudge",
+      "effect": "When another ally dies, the ally with the lowest SP gains 1 Attack Power Up next turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1002": {
+      "sourceHash": "c3c53c3e5d4d83c29323a9b1d4b29d020bcb3e7c37752eb072711d28a7e9728f",
+      "name": "Bloodied Hands",
+      "effect": "The slowest ally gains +1 Final Power for their last skill.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1003": {
+      "sourceHash": "fa99821aef7268761dce00e8484a33e621031dcc6973d1c85754df9a080b059b",
+      "name": "Stubbornness",
+      "effect": "The ally with the lowest current HP takes 10% less damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1004": {
+      "sourceHash": "e165ae5baecdcff8e07fd919d3f2109a9e9acb650f281a9f2bf86857030bc285",
+      "name": "Jugar con Enemigos",
+      "effect": "The ally with the highest SP deals +10% damage when attacking an enemy with lower SP than themselves.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1005": {
+      "sourceHash": "27fce1ebecba7dcf10a636e81261019cdb49e19050da15333161642bf02c229e",
+      "name": "Cornering",
+      "effect": "The ally with the lowest SP deals +10% Blunt damage.\nIf the affected ally's SP is below 0, further increase Blunt damage as their SP decreases (up to an additional 10%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1006": {
+      "sourceHash": "3b017f95ea5c370342fe390a999ba1441baa7d65815248fab0cce8d4ba047102",
+      "name": "Wishing Talisman",
+      "effect": "The ally with the highest current HP inflicts +1 additional Rupture through attack and Counter skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1007": {
+      "sourceHash": "b1012c7e4290a44a244d3bebca9ed98759517f2304e9815620a8368b2c5d751c",
+      "name": "Modified Power Output",
+      "effect": "The ally with the highest max HP inflicts +1 additional Tremor on enemies through attack skill and Coin effects.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1008": {
+      "sourceHash": "ee53cf0f77c7a983811342f69361f8ec42b7c166fab70b38053f997c1ceed2b6",
+      "name": "Too Slow",
+      "effect": "When the fastest ally successfully Evades, gain 1 Haste next turn (up to 5 times).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1009": {
+      "sourceHash": "7837563a141ac09fb819ae54b116dd3fb4f58d8d8edaa3047771dd8a884a8375",
+      "name": "Flaring Brand",
+      "effect": "When the first ally in deployment order lands a Heads hit, inflict 1 Burn Count (up to 4 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1010": {
+      "sourceHash": "80ad4362b2a3d4a91e0c575a93ada73d97824c430448bdc8e3e134df6cbcddab",
+      "name": "Contract Target Protection",
+      "effect": "At Turn End, grant 1 Haste and 3 Defense Level Up next turn to the ally with the lowest HP percentage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1011": {
+      "sourceHash": "2fd909f475222af13826fc40c4cc899279aa789de1243f6dac7d52eacccbb858",
+      "name": "Speedy Courier",
+      "effect": "When the fastest ally hits an enemy with Rupture, inflict 1 Defense Level Down (max 3 per enemy per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1012": {
+      "sourceHash": "9a7bf7907d28500462351d53f0c9eef5a0db39d8fcf4ba4e8d83fef9fe254685",
+      "name": "We've Got Your Back",
+      "effect": "At Combat Start, the ally with the lowest current HP percentage gains 2 Defense Level Up.\n- If they belong to the Middle, also gain 2 Offense Level Up.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1013": {
+      "sourceHash": "bac808633a5ffdc36db5d24a49771ac6da00d0bb25e5e00b697a58162b155c34",
+      "name": "Reloader",
+      "effect": "At the end of an attack by the first Ammo-using ally in deployment order, if their current Ammo is below half of maximum, reload half their maximum Ammo (rounded up; once per encounter; max 5 Ammo gained).\n- If Ammo has separate Potency and Count, randomly replenish either.\n- If either Potency or Count is at its maximum, gain the other type instead.\n- Does not activate if no Identity uses Ammo.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1014": {
+      "sourceHash": "23b388bd982b3d96936288035b4e1146c483859c51360a451d4697d9c466bd5a",
+      "name": "Bloodflame Blade [血炎刀]",
+      "effect": "When the fastest ally inflicts Burn or Rupture Potency on an enemy through their own skills, inflict 1 Burn Potency and 1 Rupture Potency (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1015": {
+      "sourceHash": "29ed32ff1e7c3a81d9a011dd0a99d6290f12ab32550b9835906098f7c2d57c75",
+      "name": "Tranquility [靜念]",
+      "effect": "If the fastest ally has a Defense Skill equipped, heal 5 SP and gain 5 Shield at Combat Start.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1016": {
+      "sourceHash": "819902d09d6a97b10ff01da283ad177a3d6da4c9d452d80cc153ca030a8bf19b",
+      "name": "Voracious Overindulgence",
+      "effect": "At Combat Start, grant 2 Offense Level Up to the ally with the lowest HP.\nAt the end of their attack skill, that ally heals HP equal to 5% of their max HP (minimum 1, once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1101": {
+      "sourceHash": "1aee835ed10ca0533f7437a24b5bbc2b87f0c85c45d66f1d4a0c1904b4644c07",
+      "name": "Military Mindset",
+      "effect": "The ally with the highest current HP deals +30% damage when attacking enemies with SP below 0.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1102": {
+      "sourceHash": "2aec21de3b5a498f60cbbfe807136088682d66a3e6c8775a89cd25fdcb814442",
+      "name": "Double Tap",
+      "effect": "The ally with the highest SP deals +30% damage when attacking enemies below 25% HP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1103": {
+      "sourceHash": "e350089a388dcaee0e7f2448c3fbe1c5c4d5b3984ffa74fec7931ceb95800af7",
+      "name": "Valor",
+      "effect": "At Combat Start, the ally with the highest current HP randomly gains one of the following: 1 Defense Power Up, 1 Attack Power Up, or 1 Protection.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1104": {
+      "sourceHash": "6f13ea20273a5b58124a6cad8a82989f84536fd169661bd1f0329840fe67dd90",
+      "name": "Relay Intelligence",
+      "effect": "The fastest ally deals +10% damage when attacking with a damage type the enemy is Weak or Fatal to.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1105": {
+      "sourceHash": "3b6d2780cdb45e1a33df465d6edbefccf7aa33ae27272fc3aa0421428306da6a",
+      "name": "Carrot & Stick",
+      "effect": "The ally with the most Tremor Count gains +1 additional Tremor Count from skill effects.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1106": {
+      "sourceHash": "9a98fb82993e1677fd45b7bb7a89f99bdd257a88f0f29e457f1c4f35b0d4970c",
+      "name": "Mentor's Counsel",
+      "effect": "If the fastest ally is faster than every enemy, gain +1 Clash Power.\nIf the affected ally is a Cinq Association Fixer, also deal +10% Pierce damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1107": {
+      "sourceHash": "db3a0052c5b1aeefdb54f7cf2feb753d53e7aeca657c724b3d80db6c644769ec",
+      "name": "Request Work",
+      "effect": "The ally with the highest SP deals +10% damage with E.G.O skills.\nIf the E.G.O skill consumes at least 7 E.G.O resources, deal an additional +5% damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1108": {
+      "sourceHash": "7521fbee8f18f063d66985387903b365e4e9f263df67306de9851f33aaae375b",
+      "name": "Butler Training",
+      "effect": "The ally with the highest SP gains +1 Clash Power against targets with SP below -25.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1109": {
+      "sourceHash": "fed94abe73ca001cce474950260ec9c3c42849482c2fbe960f91128f4b7c3b92",
+      "name": "Rough Sketch",
+      "effect": "When the ally with the lowest SP defeats an enemy with Bleed, heal 4 SP.\nHeal 1 additional SP for each negative effect on the target (max 4 additional SP; up to 1/3 activations per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1110": {
+      "sourceHash": "24a361e35520c1df00b25ad8d2e304c3cf26f6671b071a8fab4fa2b5c9493a37",
+      "name": "Refraction",
+      "effect": "At Turn Start, select the ally with the most Charge Count. Skills that consume at least 7 Charge Count deal +10% damage (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1111": {
+      "sourceHash": "7e1a52c2e78723807275ec8b5b289749ebf016b9d04b547e14533a0350bd243e",
+      "name": "Don Quixote Hardblood Arts 8: Scissors",
+      "effect": "If an enemy dies by the end of the fastest ally's attack during the turn, heal 10 HP for that ally (up to 2 times per turn).\nIf an enemy dies by the end of the fastest ally's attack during the turn, next turn, whenever that ally inflicts Bleed Potency through skill or Coin effects, increase Bleed Count by 1 (up to 3 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1112": {
+      "sourceHash": "09b9f1272c6b3c9662c60a82f41b6a7d6d923dc4782aeb5635f0ff729fc838cc",
+      "name": "A Husk of Hares",
+      "effect": "The fastest ally deals +10% damage when attacking a target with Rupture.\nGain 1 Haste next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1113": {
+      "sourceHash": "12edafcda7f9d492e342896b81f71a8021dc71c8a9744d5449e3366a24febf11",
+      "name": "Expeditious Execution of Official Duties",
+      "effect": "The fastest ally deals +10% damage when attacking Staggered targets.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1114": {
+      "sourceHash": "819d43d86f080ba9e81a12d2d5fa15ba8429ba8e834ac68523e1f25246332646",
+      "name": "Eagle Eye",
+      "effect": "At Combat Start, grant 1 Protection next turn to the ally with the lowest HP percentage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1115": {
+      "sourceHash": "e662ae9ea45d8d693f3b465c374a84e698d88defe975c9a706c6b5b8cb0cd2c1",
+      "name": "Someone Mess With the Family?",
+      "effect": "At Combat Start, grant 1 Damage Up and 1 Protection to allies with a Counter equipped (up to 2 activations per encounter; excludes Clashable Counters).\n- If the recipient belongs to the Middle, grant 2 Envy Damage Up and 2 Protection instead.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1201": {
+      "sourceHash": "900db452de9bed06b267e521e2a16414aaa43af9ce5f19539ddc8c1dde633337",
+      "name": "Gene Code G-0",
+      "effect": "At Combat Start, heal 5 HP for the ally with the lowest current HP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1202": {
+      "sourceHash": "420aecad603d16082c31fa76c57c107cadea3d48e5b9f991136a479919a6208c",
+      "name": "Rushing Heart",
+      "effect": "The slowest ally deals +30% damage with Coins after the third Coin.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1203": {
+      "sourceHash": "24e0ed99ef8a1fc1ecbaac290bfd6c1436634db564fc0ee288ed2919d5b38225",
+      "name": "Gene Code G-3",
+      "effect": "When the ally with the lowest current HP wins a Clash, heal 5 HP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1204": {
+      "sourceHash": "b643902fdf3c71cf2ff193971fc0d1c656ae7d61a2ea67391023ac2df6dddcb9",
+      "name": "Culinary Aid",
+      "effect": "At Combat Start, heal 5 HP for the ally with the lowest HP.\nIncrease HP healing from R.B. Chef de Cuisine Ryōshū's Rustle Up passive by 5.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1205": {
+      "sourceHash": "12c2e9f77e7a11a7e1a723f53f3bb93e61bac5eddfb397edced24de822431b5e",
+      "name": "Sawblade Maintenance",
+      "effect": "The slowest ally inflicts +1 additional Rupture on targets with Tremor.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1206": {
+      "sourceHash": "cc80f84f408176757f8216a58996f447b89602a77d3f00f0d27f780599ba27dc",
+      "name": "Your Shield",
+      "effect": "If the ally with the highest max HP is targeted by at least 2 attacks, gain 3 Defense Level Up.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1207": {
+      "sourceHash": "ba757e7cb2bfc529ba482815cd1a20ce4408d0e1cf3acac5aa939fdda5748d97",
+      "name": "New Breathing Hole",
+      "effect": "When the ally with the most Poise defeats an enemy, gain 1 Pierce Damage Up next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1208": {
+      "sourceHash": "e0c11780fdcc733bb72125d02785a945d1a1e5489653cf55f2748f9130cf81fc",
+      "name": "Dark Cloud Style",
+      "effect": "When the slowest ally hits an enemy with at least 10/7 Bleed, inflict 1 Offense Level Down next turn (3 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1209": {
+      "sourceHash": "c0dda7c6e8b18d9904f242bdb56c453ba23c11375ed5799d152a947b706ca11e",
+      "name": "Suffering",
+      "effect": "At Combat Start, the ally with the lowest SP loses 7/5 SP and gains 1 Gloom Damage Up.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1210": {
+      "sourceHash": "078e41d8e5187a2d60e73c181ee979ac1b24ee08a5889f943b957a4bd202eb66",
+      "name": "Don Quixote Hardblood Arts 6: Whip",
+      "effect": "When the ally with the lowest current HP percentage hits, heal 3 HP (3 times per turn).\n- If the target has Bleed, heal 3 additional HP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1211": {
+      "sourceHash": "a56753375aa268dca86a5aa2e3130a08f77bb2882f70f9542700c9e532cfd4b3",
+      "name": "I hope they're from our Office...",
+      "effect": "When the fastest ally hits, deal +5% Wrath damage for every 6 Burn Potency on the target (max 20%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1212": {
+      "sourceHash": "99555f0070cae9c1c29ac97d2e2f42d1c4b4d049c6970f48f108f39e3142ebb7",
+      "name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
+      "effect": "If this Identity dies during combat, each subsequent turn at Combat Start, grant 2 Poise to the first Identity in backup order among those leaving standby.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1213": {
+      "sourceHash": "50f27e0cb66df654d851a25282b777b8c5c7b466fbdc4591a781ba6c167d6287",
+      "name": "Aim for the Gap",
+      "effect": "When the fastest ally uses a basic attack skill, if the main target is slower than themselves, inflict 1 Defense Power Down for every 3 points of Speed difference (max 2 per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1214": {
+      "sourceHash": "6c4c89f3f80ec6ff9d8514ae665ffbf20071055413eb16b88edb6d8fbc767c96",
+      "name": "Were There More Lives to be Saved?",
+      "effect": "At Turn End, apply the following effects to the first ally in deployment order who has a negative effect:\n- Their leftmost slot gains 4 Aggro next turn.\n- Gain 1 Blunt Damage Up next turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1215": {
+      "sourceHash": "1e90f0cfb75f4b07b064951352996f94e79d71940defda55f296c983b1c00ab0",
+      "name": "Defibrillation",
+      "effect": "At Turn End, the first 2/3 allies in deployment order each heal HP equal to the total Charge Count and Special Charge they consumed through their own attack skills this turn (max 10).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "1216": {
+      "sourceHash": "9ab7b0a1466313967d05f4697011d8b8f2f79ef8dd6cd5572d974d77fe62d2fa",
+      "name": "Stigma Workshop Prosthesis",
+      "effect": "When the ally with the highest current HP hits an enemy with Burn, inflict 2 Tremor (once per turn).\n- If the target has at least 10 Burn, trigger Tremor Burst on the last Coin's hit and reduce the target's Tremor Count by 1 (once per turn).\nStigma Workshop, which normally makes only blades, specially made this prosthesis for a Dawn Office Fixer. If someone who does not understand the workshop's characteristics uses it, the arm's searing heat will melt even its wearer's body.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0101": {
+      "sourceHash": "a6fea682755dfde13bc94d868d1a4e98b6d635cf0935e7054a52f658b7846a98",
+      "name": "Information Neutralization",
+      "effect": "If the ally with the lowest SP lost SP this turn, heal 10 SP for them at Turn End.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0102": {
+      "sourceHash": "30ebdaac672ec4185541a78981c642dae4fd2cd4c1127c3651850200e3c647d7",
+      "name": "Observational Eye",
+      "effect": "The ally with the highest max HP gains +1 Clash Power when clashing."
+    },
+    "0103": {
+      "sourceHash": "0c7fe3da44c0de842b116bda62e9934282f80413b133be0c010e50e38d8f38c4",
+      "name": "Bestow",
+      "effect": "The ally with the highest SP gains +1 additional Poise Count from skill effects.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0104": {
+      "sourceHash": "e42239198da2fed60df57f35a28f8725031ac8d58fa810e71e10433c2c77fc29",
+      "name": "Pungent Spring Breeze",
+      "effect": "The ally with the lowest SP deals +10% damage when attacking 2 or more enemies.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0105": {
+      "sourceHash": "b49dee03c9fae2682819a56cdb3e2dfb26f715b314f4e30befda341754378d6c",
+      "name": "Cleaning Up the Mess",
+      "effect": "For every 4 points by which the ally with the lowest max HP raises a target's Stagger Threshold with Tremor Burst, inflict 1 Defense Level Down next turn (max 3 per enemy per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0106": {
+      "sourceHash": "1ccc1d1a7c08216df0b0b0966133335cc9bec10bfba47196ef790440c68ec948",
+      "name": "Cleanup Demonstration",
+      "effect": "The ally with the most Charge Count deals more damage to targets with Rupture, proportional to the target's Rupture Potency (+1.5% per Rupture, max 15%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0107": {
+      "sourceHash": "811612729d9fc142ba53284778641d500a3af1b83f3e1768479cbe0136e74e23",
+      "name": "The First Mate's Acumen",
+      "effect": "When the ally with the most Poise lands a critical hit, inflict +2 additional Bleed Potency with skill effects (up to 6 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0108": {
+      "sourceHash": "b2bc15157d0542c2ff80de72825ed98a1aff9b1fe0f284645a888996a97cd580",
+      "name": "Reviewed Knowledge",
+      "effect": "When the fastest ally discards a skill, gain a Shield equal to (3/5 × discarded skill rank)% of their max HP (up to 1/2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0109": {
+      "sourceHash": "2e6a84e928b72530c3a31bc85d088eae26e4f566d51f821310004035a67e8658",
+      "name": "Practices on Aesthetics",
+      "effect": "When the ally with the lowest SP hits an enemy, heal 2 SP for each negative effect on the target (max 6).\nIf the target has Bleed, heal 3 additional SP.\nActivates up to 2 times per turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0110": {
+      "sourceHash": "d4f0fea755a405a94b4d91c3096d0844e0649fc5fa40bbc314bea0f0a32c8346",
+      "name": "Hand of Salvation",
+      "effect": "When an ally's skill hits, consume 2 of the target's Sinking to inflict 1 Butterfly (3 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0111": {
+      "sourceHash": "6b1265c0172dd5019b1d1191a5a78f86d2d648766ba5f463feb7018d8caf2315",
+      "name": "E.G.O disintegration is not unlike decomposition of compost",
+      "effect": "When the ally with the lowest current HP dies, gain 2 each of the 2 least-held E.G.O resource types.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0112": {
+      "sourceHash": "74fbc276a04897f1487d15bdc2e22a083cd22b526fb995729b86ac12ce0fbb6b",
+      "name": "Liu Defensive Square",
+      "effect": "If either of the 2 allies with the lowest SP lost SP this turn, heal 5 SP for them at Turn End.\n- If the recipient has a basic skill that inflicts Burn Potency or Count, heal 5–10 SP instead.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0113": {
+      "sourceHash": "73fd50dccc099b6409e40696e240ecca7a284d900223a9d08d72729ae59eadf8",
+      "name": "Designate Target",
+      "effect": "If the slowest ally attacks an ally, gain 1 Damage Up next turn at the end of the attack (max 2 per turn).\n- If an ally dies from that attack, instead gain 1 Damage Up for the rest of this encounter (max 2 per Identity per stage).\n- Damage Up gained from these effects cannot exceed 2.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0114": {
+      "sourceHash": "c2d461c8c3645f4808cd5c8352d7699a193b2746e60289ad919b6e8075718a35",
+      "name": "Obsidian Exoskeleton Shall Rend and Protect My Flesh",
+      "effect": "Apply the following effects to the ally with the highest current HP.\n- At Combat Start, increase Defense Level by (the difference between this turn's and last turn's Speed × 2), up to 5. If they were not deployed last turn, use their minimum base Speed as last turn's Speed.\n- At Combat Start, if their current HP is below 50% of max HP and the Speed difference is 3 or greater, heal 50 HP (once per encounter).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0115": {
+      "sourceHash": "820cabf85475062c71e0751b1a454f4b435b2e08b47bb2f26303eec7315931e6",
+      "name": "Grace of God",
+      "effect": "Each turn, the first basic Slash, Pierce, and Blunt attack skills used by allies against enemies each deal +5% damage.\n- If the affected skill belongs to an Index Identity, increase damage by 10% instead.\n- Determined before the attack begins.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0116": {
+      "sourceHash": "2ec95746db349c9a667ac2b35e9214b2372728d404d3af1fda539497011083f4",
+      "name": "LetManOutrunEvenTheRayOfLight",
+      "effect": "When the fastest ally uses a skill that gains or consumes Charge Count, gain 1 Haste next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0201": {
+      "sourceHash": "0d76d0f4297270c4225989b2383e1184bf11eac68406e10f04bb74a275b88775",
+      "name": "Keen Observation",
+      "effect": "When the ally with the highest max HP is hit, inflict 2 Offense Level Down next turn with a 25% chance.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0202": {
+      "sourceHash": "f586dcf7d4daf9f4310aa689e44274c67a339e021d074482ca02d816e006119d",
+      "name": "Radio Comms",
+      "effect": "The ally with the lowest max HP gains +1 additional Charge Count.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0203": {
+      "sourceHash": "022f7bc45e02be605f0c0938a425a18447b7ece48cadc166a78c6ca842be52c3",
+      "name": "Backing",
+      "effect": "The ally with the lowest max HP gains +2 Final Power for Defense Skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0204": {
+      "sourceHash": "d2b44168176cb591810219f114cc1605477a83000184c16eb7439f905a01bc57",
+      "name": "Whispers",
+      "effect": "At Combat Start, heal 15 SP for the ally with the lowest SP. If they are an N Corp. Fanatic, also grant 1/2 Fanatic.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0205": {
+      "sourceHash": "b025131473a3a02a64151207ad9f683f29341f9f07ffbf8122c7c0a38adf5a7d",
+      "name": "Protection Request Received",
+      "effect": "At Combat Start, grant 2 Defense Level Up to the ally with the lowest HP percentage.\nIf their HP is below 50%, grant 2 more.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0206": {
+      "sourceHash": "37127d5b3bcaa47708eb1439a23a4b996b99ed21385caa7a606d85a85e6bc721",
+      "name": "Seven Association Tea Time",
+      "effect": "When the fastest ally attacks with a damage type the target is weak to (resistance greater than 1.5), increase damage proportional to the target's Rupture (+1.5% per Rupture, max 15%).\nIf the affected ally is a Seven Association Fixer, further increase damage (+0.5% per Rupture, max 5%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0207": {
+      "sourceHash": "389dd564e890acf5d04d23217096bfe027abc079a663a7c71beca493556fad0a",
+      "name": "Repression Work",
+      "effect": "When the slowest ally clashes, if the target has at least 3 negative effects, reduce the target's Clash Power by 1.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0208": {
+      "sourceHash": "30f227d923889ae74e9d754d5efb50fb88c57992fa58c889f08a2d1e21f90e68",
+      "name": "Lingering Bladepoint",
+      "effect": "When the first ally in deployment order lands a critical hit with a Slash skill, inflict 1 Defense Level Down (max 3 per enemy per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0209": {
+      "sourceHash": "cd911480cfb470ffb5ec1025198bd8b1989ba60bcfbdb6f9cba1ac9d2ec22df3",
+      "name": "Anticipatory Training",
+      "effect": "When the ally with the lowest SP hits a target with at least 5 Sinking, heal 2/3 SP for themselves (4 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0210": {
+      "sourceHash": "2ea5ce88a4c876d574007c1897460f473e3354cae0d42a087b7a40084935d11c",
+      "name": "Auxiliary Dismantling Current",
+      "effect": "When the ally with the least Charge Count defeats an enemy, gain 2/3 Charge Count (once per turn; prioritize allies with skills that consume Charge or gain Charge for themselves).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0211": {
+      "sourceHash": "177e81613cca0d41165dbbed52c32a56864f638bd3c2b63dcf38bb460818148f",
+      "name": "Residual Heat",
+      "effect": "When the ally with the lowest SP inflicts Burn with a basic skill's On Hit effect, inflict 2 additional Burn (up to 3 activations).\n- If the target has at least 30 Burn, increase Burn Count by 1 instead (up to 3 activations).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0212": {
+      "sourceHash": "59c50be3fafa918b1b09404e42a39f030e142701a089f4a7787c9d8744d8a979",
+      "name": "Blinkblade",
+      "effect": "If the fastest ally deals Rupture damage, gain 1 Offense Level Up next turn (up to 3 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0213": {
+      "sourceHash": "e988608fe9d5420d96320d5e24647225995b71e5b8d767015e6322ed59b41b19",
+      "name": "Aiming for the Bullseye",
+      "effect": "At Turn End, grant 1 Pierce Damage Up next turn to the ally who has inflicted the most Bleed Potency on enemies through skills and passives during the encounter. E.G.O skills count. Ties are resolved by deployment order. Does not activate if no Bleed Potency was inflicted that turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0214": {
+      "sourceHash": "fe64964648878c165eae0478f1af08643fdf283dea23846d5146aee7fd6ad334",
+      "name": "As the Prescript Orders...",
+      "effect": "Applies to the first ally in deployment order.\n- Prioritize Index Identities, if any are present.\nAt Combat Start, if other allies also target the enemy slot selected by this ally's leftmost skill slot, increase that skill's damage by 5% for each other ally targeting that slot (max 15%).\nApplies only when both this ally and the other allies select that slot as the main target of a basic attack skill.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0215": {
+      "sourceHash": "bdd229b935d23988ef36a5870859a7976e31a5dcca923f2580c138d6511a509b",
+      "name": "Iron Maiden - Spikes",
+      "effect": "When an ally who equipped a Defense Skill this turn takes damage, inflict 4 Bleed on the attacker (2 times per turn).\n- If the attacker already has Bleed, increase their Bleed Count by 2 instead.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0216": {
+      "sourceHash": "9bc7e56bbf81bd9efcd0e2af84e10135b239226ad6a243282d1a4fd0c1213838",
+      "name": "The Lone Fixer",
+      "effect": "At Combat Start, if only 1 ally remains alive, including backup units, that Identity gains 3 Offense Level Up and 3 Defense Level Up.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0315": {
+      "sourceHash": "4a20935062460a593c7bda0d29e2164a3e638b61b903a519c89c54a8ba49016c",
+      "name": "Formation Conservation",
+      "effect": "At Combat Start, all deployed Charge Identities take 2% less damage this turn for each deployed allied Charge Identity (up to 10% less damage).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0301": {
+      "sourceHash": "531b458a16b126590ef2ddc968f9de79f4badb4afa0b939458003afb4572a1cb",
+      "name": "Support",
+      "effect": "The ally with the highest SP deals +10% damage with Pierce skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0302": {
+      "sourceHash": "b4c45f6b7acdad0490a3025caf0a29d0cb8d7b1554e8e6cba3de9384ad71a64b",
+      "name": "Broken Spirit",
+      "effect": "The fastest ally gains +1 Final Power for their first skill.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0303": {
+      "sourceHash": "481e70953ea13cff1f84e3d6078e04e52536fccb63834966fdd0fb5868452862",
+      "name": "Divide in Two",
+      "effect": "The fastest ally deals +10% damage with Slash skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0304": {
+      "sourceHash": "21e9faf7f2aba6f740b163f99f226ca615b92e7f6e592a0250fdb2982a32b155",
+      "name": "Hammer of Zealotry",
+      "effect": "Among allies with Fanatic, the ally with the lowest SP deals +10% damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0305": {
+      "sourceHash": "ef88c1af39d24e338cc40f2f8724c6bb4ff525b7e4a14f7b8caa403fc38ba238",
+      "name": "Dueling Request",
+      "effect": "If every ally is faster than every enemy, the fastest ally deals increased damage based on their Speed difference from the slowest enemy (+3% per point of difference, max 15%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0306": {
+      "sourceHash": "7adfec5b233092c5fb9f868cef7edc967f97026d9d7bce1e2638763414c304aa",
+      "name": "Favoritism",
+      "effect": "For every 6 hits taken by other allies, the ally with the lowest max HP gains 1 Blunt Damage Up next turn (max 2).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0307": {
+      "sourceHash": "a7c14207316f8c5afe10e2401dca83c79229d14c0061918c0ab6d647a45c858b",
+      "name": "Illumilantern",
+      "effect": "The ally with the highest-Aggro slot heals 2/4 HP whenever they hit an enemy targeting them. Does not apply if no ally has Aggro.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0308": {
+      "sourceHash": "eef0e5d6ba87873e4ef9a04d5fd7bfecf42691ab4b57713d32f5c27a0fd1df71",
+      "name": "Nightly Stroll",
+      "effect": "When the ally with the least Poise gains Poise Potency from their own skill or Coin effects, gain +1/2 additional Poise Potency (up to 2 times; does not apply to allies without Poise).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0309": {
+      "sourceHash": "0d5f17120154a9ce0f00f44794f4e333ac7e7c42c3eae93a21c3e7abc7f224c5",
+      "name": "T Corp. Physics Distortion Field",
+      "effect": "The slowest ally takes 10% less damage from enemies with Tremor.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0310": {
+      "sourceHash": "8c4b80fa28fea72052d6c33266910d506c61d273badccbf390b850ba82624ba1",
+      "name": "‘Feed your repressed hunger, my Family’",
+      "effect": "At Combat Start, the ally with the lowest HP gains 1 Damage Up for every 20% of missing HP (max 3).\n- If that ally is a Bloodfiend, instead gain 1 Damage Up for every 15% of missing HP (max 3).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0311": {
+      "sourceHash": "4550cec24166b667bcde8489daa1e175cf58391c2a65cba6ca732824c4065a1e",
+      "name": "Featherstride Technique",
+      "effect": "When the fastest ally wins a Clash against an enemy with Burn or Special Burn, gain 1 Haste next turn (once per turn).\n- If the target has at least 20 Burn Potency, gain 1 additional Haste.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0312": {
+      "sourceHash": "118764c3d7333f9636694021bf9f82692930ffd612465f70be3530f2b2d76609",
+      "name": "Magical Power Charging Support",
+      "effect": "Among allies who gain Charge Count from basic attack skills, the ally with the least Charge Count gains +2 Charge Count when using a basic attack skill that gains Charge Count (2 times per turn).\n- If their SP is 0 or higher, heal HP equal to their Charge × 2 (max 10 per activation, max 20 per turn).\n- If their SP is below 0, heal SP equal to their Charge (max 5 per activation, max 10 per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0313": {
+      "sourceHash": "ec52550adebc68cb2aff5d0843852dc487d638d0ff88480740ba0f65fdb58000",
+      "name": "Flesh-Rending Horn Growth",
+      "effect": "When the fastest ally hits an enemy with at least 2 Rupture Count or Sinking Count using a basic attack skill, inflict 1 Defense Level Down (2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0314": {
+      "sourceHash": "0e02fc512fff8cf4edf098a99f1d7bbca1eb68a7bfc20c1ab2701b01b8f7e618",
+      "name": "This, too, is the Grace of the Great Magicked Beeper!",
+      "effect": "At Combat Start, heal 15 SP for the ally with the lowest SP.\n- Prioritize Identities that use Plus Coins.\n- If the recipient belongs to the Index, enhance the effect to also grant 1 Damage Up.\n- Does not apply to targets unable to heal SP, such as those in Corrosion or Panic.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0416": {
+      "sourceHash": "3b3b15d70722d82f998da69ce69f70119e123ea20adc513c94e4c3e667f84484",
+      "name": "Le Noir's Virtue and Worth",
+      "effect": "Among allies with Charge or Special Charge, the first ally in deployment order raises Stagger Thresholds by 12.5% more with Tremor Burst from basic skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0401": {
+      "sourceHash": "1e5f4d0c2bfed439474902f058745c087252ee839215ded64b9290dda7139b40",
+      "name": "Hustle",
+      "effect": "The ally with the lowest max HP deals and takes 20% more damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0402": {
+      "sourceHash": "c8efd35c22a76709aae9f668e77020fd56c3bd94339d5ae2732ffd9de5ba9985",
+      "name": "Ice Breaker",
+      "effect": "The ally with the lowest max HP inflicts +1 additional Rupture.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0403": {
+      "sourceHash": "0b97307bbb79903f10f69dd5a478fe0fb344d227d297ea1d091a9762cc69d8b6",
+      "name": "Muscle in Charge",
+      "effect": "The fastest ally inflicts +1 additional Bleed.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0404": {
+      "sourceHash": "2bcef9048ef754d90ec0aba231334e2d7ed8cb2c88022d16664a9bf6eec1a821",
+      "name": "Artistic Flavor",
+      "effect": "When an enemy dies, heal 15 HP for the ally with the lowest HP (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0405": {
+      "sourceHash": "8658ce4807c7bad39976c63320007ff2234f86136d67e0536a028c9595822318",
+      "name": "Dimensional Refraction Edge - Type: Blade Mk7",
+      "effect": "When the ally with the lowest max HP defeats an enemy, gain 2/3 Charge Count (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0406": {
+      "sourceHash": "ba8db4884a546845804c204edc335aa21fe2e7609345e6697bd4b4d2bb9e245c",
+      "name": "The Lucky Cig",
+      "effect": "When the ally with the least Ammo uses a skill that consumes Ammo, grant 3 Poise (once per turn; does not apply to allies without Ammo).\nWhen the ally with the least Ammo consumes their final Ammo with a Coin, at the end of that Coin's attack, deal additional damage to each target equal to 50% of the damage that Coin dealt to that target.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0407": {
+      "sourceHash": "d544343811ca5b3d98e84686d52a090b03f8cdcac5aa91b860f439434698352f",
+      "name": "Spread Flame",
+      "effect": "When the slowest ally defeats an enemy with Burn, inflict 3 Burn on 1/2 random enemies (once per turn).\n- In Focused Encounters, inflict it on Parts instead.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0408": {
+      "sourceHash": "883af6f9ad84ec5828bbae0e4286bc655825c37b03f992ed72ecd0fbd377a8cf",
+      "name": "Cleaning Command",
+      "effect": "When the last ally in deployment order wins a Clash, gain 1 Poise Count (up to 3 times per turn) and gain 1 Haste next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0409": {
+      "sourceHash": "ef3e1ae1b85113afc545908c905b7cea1077b83df65b23334bdd9f61f46f080f",
+      "name": "The A.I.",
+      "effect": "The first ally in deployment order gains +1 additional Tremor Count from skill and Coin effects (2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0410": {
+      "sourceHash": "b11af4a6e5743637ddf1ef8587b970008f6b757fe91b755f89ae270ad324c2b8",
+      "name": "Eat and Sleep",
+      "effect": "At Combat Start:\n- Heal 3 HP for the ally with the lowest HP percentage.\n- Heal 3 SP for the ally with the lowest SP percentage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0411": {
+      "sourceHash": "ba99c935b1fceb7df8e5c4d1815edef857948388afcff168a7183c2c1d4e02fe",
+      "name": "Partial Heishou Mutation Training",
+      "effect": "At Turn End, the fastest ally gains 2 Haste next turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0412": {
+      "sourceHash": "41fb7c7fade37944d2593592b1292b66069f16f1db679f0b9c6cd60409947153",
+      "name": "It flows and cries",
+      "effect": "When the first ally in deployment order hits an enemy, inflict 1 Bleed (once per enemy per turn).\n- If the target already has Bleed, also increase Bleed Count by 1.\nWhen the first ally in deployment order takes damage from an enemy, inflict 1 Tremor on the attacker (up to 3 times per turn).\n- If the attacker already has Tremor, also increase Tremor Count by 1.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0413": {
+      "sourceHash": "91ee6907b22f0ba2f07425df14be2bee4d56373c1f3b2ce73417e158c3482f57",
+      "name": "Drifter",
+      "effect": "At Combat Start, the first ally in deployment order gains 1 Shield for each Poise Potency they have (max 10).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0414": {
+      "sourceHash": "5f180b414d704062e8187b472f8718f5f3d3bbea852a3dc17efe5358e13eb84c",
+      "name": "Spring's Genesis",
+      "effect": "When the fastest ally hits an enemy with a skill that inflicts Sinking Potency, Sinking Count, or Special Sinking, inflict 2 Tremor and trigger Tremor Burst. Reduce the target's Tremor Count by 1 (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0415": {
+      "sourceHash": "7ce1f31a4c16a1ba11e8bbad39507aea9999dbc203320b716959e4526b1dcb0d",
+      "name": "The Master's Tutelage [師事]",
+      "effect": "When the first ally in deployment order uses a basic skill, gain 2 Poise Potency (3 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0501": {
+      "sourceHash": "8b358e470c083e51b0b1ef59401cc28e4feeeb69724a062e68c1b1d0106c5d64",
+      "name": "Backup",
+      "effect": "The ally with the highest max HP takes 10% less damage from attack skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0502": {
+      "sourceHash": "bed088fae2be38fec63abeea975a4c5b35ddc0061bea880cafd7eb9d35259b4a",
+      "name": "Friction Point",
+      "effect": "The slowest ally inflicts +1 additional Burn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0503": {
+      "sourceHash": "eb56a81bbb367fffb94455d2a87acc879b778786152831b3327a651821101422",
+      "name": "Taciturn",
+      "effect": "The slowest ally inflicts +1 additional Rupture.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0504": {
+      "sourceHash": "ca99480c208bcca985dd3ed9ec98c7d941041070d46f4977eee4d25d82beb482",
+      "name": "Highest Honor",
+      "effect": "If the ally with the lowest current HP is below 50% HP, gain 1 Attack Power Up and 1 Protection. If they are an N Corp. Fanatic, also gain 1 Fanatic.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0505": {
+      "sourceHash": "38f776fef13aa139df9d06c401bd465003947a279a9e2b9bbe2f386a63dda634",
+      "name": "Leave by Suggestion",
+      "effect": "When the fastest ally clashes against an enemy with Tremor, reduce the enemy's Clash Power by 1.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0506": {
+      "sourceHash": "51c9efb1e856857cec60208a3c16b753e544a06996afb3d4852e9304ec96a59c",
+      "name": "Maneuver Training",
+      "effect": "At Turn End, the ally with the most Charge Count gains +1 maximum Speed next turn for every 5 Charge Count (max 3).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0507": {
+      "sourceHash": "3bafd976446f8c3b8c780bf2efb7a16423231d63f43ee71f3ded6df5117eaa35",
+      "name": "One Family",
+      "effect": "If another character with the same affiliation as the ally with the lowest SP is alive, heal 10 SP for that ally at Turn End.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0508": {
+      "sourceHash": "7b7fd9e50991123b5fd321e0a574b0890cf8e8c9433bf8264b435ae72b657451",
+      "name": "Swordplay of the Homeland",
+      "effect": "At Combat Start, the ally with the most Poise deals +15% critical damage with Slash skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0509": {
+      "sourceHash": "7f68287c024744d0d653f32f6f071db756a87668d271cbef794b1e5d0c4079ce",
+      "name": "My Responsibility",
+      "effect": "When the fastest ally hits a target with at least 6/3 Rupture, inflict 1 Offense Level Down (max 3 per enemy per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0510": {
+      "sourceHash": "59461bd80c364b90f894c1541bdaeb97c8285459a06636423ed42a757e10892e",
+      "name": "Diligent Learning",
+      "effect": "When the ally with the highest max HP discards a skill, gain a Shield equal to (5 × discarded skill rank)% of their max HP (once per turn).\nIf they have Insight, multiply the Shield by 1.5.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0511": {
+      "sourceHash": "3e65c216c72fa7d40674586d7c0650ab669b0e465e628a89b38276b76ce10767",
+      "name": "One Step Ahead",
+      "effect": "When the fastest ally wins a Clash, gain 1 Haste next turn (up to 2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0512": {
+      "sourceHash": "a106d8ab8128fb4ed480b2ccdcda5320a49a02fe200909dbd10bddc4d696f3db",
+      "name": "Savage Tiger's Lunge",
+      "effect": "When the fastest ally uses an Ammo-consuming skill, if they are at least 3 Speed faster than the target, increase damage by (Speed difference × 2/3)% (max 10/15%).\nDoes not apply to allies without Ammo. However, it still applies if the ally has an Ammo status with a value of 0.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0513": {
+      "sourceHash": "fbd3705ecbc1a89075ca928eac3754dd58f72110e14571a2504620808acb0175",
+      "name": "Flood the Chalice",
+      "effect": "Bloodfeast generated this turn is multiplied by 1.5 (2 times per encounter, rounded down).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0514": {
+      "sourceHash": "ec6d71f05bebab027981d7492a98abb9a4843663c0eb609eb5ddeaf7abb44510",
+      "name": "Worker Bee",
+      "effect": "At the end of an ally's basic Pierce attack skill, heal HP equal to 10% of the HP damage dealt by that attack (up to 2 activations per encounter).\n- If all basic attack skills equipped in skill slots this turn are Pierce skills, heal 10 SP for all allies at Turn End.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0515": {
+      "sourceHash": "747e94e3e4d84a1c36513b4d2ae32b49a59bec9872a0fc7c07a21b503364e2cb",
+      "name": "Impastoed Scar",
+      "effect": "When the fastest ally hits, inflict 1 Defense Level Down for every 2 types of negative effects on the target (once per turn, max 3).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0601": {
+      "sourceHash": "5250499de2cc704d5f11d435443669a7e66f90f495742ab27a4b92d458a62e5d",
+      "name": "Frivolous Jokes",
+      "effect": "At Combat Start, heal 6 SP for the ally with the lowest SP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0602": {
+      "sourceHash": "f4f45b78b2a7f1ff9c49621a5aeb634ad3b05f3e2dda55ea63029001ef5c0ce1",
+      "name": "Syndicate Payback",
+      "effect": "The fastest ally inflicts +1 additional Bleed.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0603": {
+      "sourceHash": "f31807780877713988a30dd951df8c507e8038e27d1d0faabce641154fd6e665",
+      "name": "Gambit",
+      "effect": "The ally with the highest SP deals +20% damage with Coins that land Heads.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0604": {
+      "sourceHash": "f0cd66d425df20f68143a70737e6df7994ecc4afdc0f6cd7ae9df7faea3910bf",
+      "name": "Isn’t It Warm?",
+      "effect": "The ally with the highest SP inflicts +1 additional Burn Count through the skill and Coin effects of attack skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0605": {
+      "sourceHash": "2acdc671a8876a4235efae66dae88541b58b11211550cfcfb4d12f0e736bc890",
+      "name": "High-grade Ampule",
+      "effect": "At Combat Start, grant 2 K Corp Ampule to the ally with the lowest current HP percentage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0606": {
+      "sourceHash": "fd2d8c629f020334ddf8bcfde3aeb805945acc0eb02f2a6a6f32b3b89cc3cddc",
+      "name": "Train Cleanup Manual",
+      "effect": "At Combat Start, if the slowest ally has at least 5 Charge Count, gain 2 Haste next turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0607": {
+      "sourceHash": "e9cbebca2ddd15ed6a5104215854522ab87a1d3ca1aacee862cbc69167211d26",
+      "name": "Mass-produced Bionic Gear",
+      "effect": "When the fastest ally defeats an enemy with Bleed, gain 1 Attack Power Up next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0608": {
+      "sourceHash": "812b673ea4adfc524b6a4a3dbf1abf39a492591445f5ec29846c03683fc61378",
+      "name": "Enlightenment",
+      "effect": "After the ally with the lowest SP finishes an attack, if they Staggered or defeated the target, heal 7 SP.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0609": {
+      "sourceHash": "4f8a414757881d4bb8ddf218b54c79c493e8df53f877c6b70914d1801c9e3071",
+      "name": "In the Culprit's Shoes",
+      "effect": "When the first ally in deployment order triggers Tremor Burst through skill or Coin effects, trigger Tremor Burst 1 additional time with a 25% chance (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0610": {
+      "sourceHash": "33cb98268df9eb05f113443391a733340a338eff6ebb7bf267c2cb6a8fb2db70",
+      "name": "Bloodfiend Hunting Manual - Styptics",
+      "effect": "At Combat Start, reduce Bleed Count by 2 for the ally with the highest combined Bleed Potency and Count.\nWhen the fastest ally hits an enemy with Rupture, inflict 1 Defense Level Down (up to 2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0611": {
+      "sourceHash": "58e95aeabb6b100864a41a7c5881ca14d828a0f7e0b116b71d246c368fd2e910",
+      "name": "Suppressing Fire",
+      "effect": "The allied Identity with the most Ammo deals +10% damage with Ammo-consuming skills.\nDoes not apply if they have no Ammo.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0612": {
+      "sourceHash": "5dffc864a16ff079499ac59f47364e2d7c71f752460bf0dfd1679217033df8de",
+      "name": "Charged Pulverization Support",
+      "effect": "When the ally with the highest Charge uses a basic attack skill that gains Charge Count, its last Coin deals +10/15% damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0613": {
+      "sourceHash": "d2adb390cb112b8373d40a97ceed49d811e9e8b275f5ad25d73ac3df2650ddbe",
+      "name": "Please be traceless in your deeds.",
+      "effect": "The Identity with the lowest current HP percentage deals additional damage to enemies equal to (the number of types of Deathrite on the target × 3)% (max 15%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0614": {
+      "sourceHash": "d09aeaade8befc499ec3e8edfbc6d9477992db6d84eda42760eb55705d956336",
+      "name": "Please, Do Stop Running and Be Seated",
+      "effect": "At Turn End, inflict 2 Offense Level Down next turn on the fastest enemy and increase their Bleed Count by 1. In Focused Encounters, determine the target by Part.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0615": {
+      "sourceHash": "aedf44ada46e60899a3e05e763837303841766a773f3e1753d47f86b16227772",
+      "name": "Spiteful Pursuit",
+      "effect": "The first ally in deployment order deals +10% damage when attacking enemies with Bind.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0616": {
+      "sourceHash": "3b59ed654fc3e2b70fcaefb52f506fb8fa7d086dbd695774104b05b2865753b5",
+      "name": "I'll Melt Open the Way Out",
+      "effect": "When the fastest ally wins a Clash against an enemy with Burn or Special Burn, inflict 1 Bind next turn (once per turn).\n- If the target has 4 or less Burn Count, also increase their Burn Count by 1 this turn.\n- If the target has at least 5 Burn Count, also inflict 3 Burn this turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0701": {
+      "sourceHash": "fe98ac9370b1d9314d6680c97aec02bf87046b0541d475d003aa0558a79d91cf",
+      "name": "Spite-driven",
+      "effect": "The ally with the lowest max HP deals +10% damage with Blunt skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0702": {
+      "sourceHash": "4edee4409de9e51dedfe14e31eb3dfde584a2d15bd059897507dc894521f44d5",
+      "name": "Self-neglect",
+      "effect": "The ally with the lowest current HP deals and takes 20% more damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0703": {
+      "sourceHash": "d4bb59d02595b14293a1bb0bb0c82329ceda26634494a872a3915f1969911da5",
+      "name": "Doggedness",
+      "effect": "The fastest ally deals +10% damage with Pierce skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0704": {
+      "sourceHash": "02c58fb3f6cfe92dda496983dee53e127ab6ea16a1df82f81496b3f8a0f16dc6",
+      "name": "Cantillation",
+      "effect": "The fastest ally inflicts +1 additional Nails.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0705": {
+      "sourceHash": "12054711d618fef3e4d63bcfa3a3184ad1137bbd5cdccf8c4c5ba847c00dbe4f",
+      "name": "Ragged Umbrella",
+      "effect": "When the ally with the lowest SP takes damage, lose 10 SP and gain 1 Blunt Damage Up next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0706": {
+      "sourceHash": "5dc3ea9194c812d2f6f278c377315f14d391e59929b56957113db916d084e8c8",
+      "name": "Connect The Dots",
+      "effect": "When the ally with the highest max HP attacks with a damage type the target is weak to (resistance greater than 1.5), inflict +1 additional Rupture with skill effects.\nIf the affected ally is a Seven Association Fixer, inflict 1 more Rupture through this effect.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0707": {
+      "sourceHash": "40285c86b4078272ceced08477d9865a73b68032f96902ead55171d8f9489004",
+      "name": "Desperation",
+      "effect": "The ally with the highest max HP deals more Pierce damage as their HP decreases.\n- For every 1% of missing HP, increase damage by 0.15%/0.3% (max 15%/30%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0708": {
+      "sourceHash": "a4e3b032221b2f2f4662d8ee66804fe2298034b4839152cb675619eb532837bc",
+      "name": "Verify Obligation Fulfillment",
+      "effect": "The fastest ally gains +1 Clash Power for skills that inflict Tremor Potency or Count.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0709": {
+      "sourceHash": "f7100aa81b2981548fb696c5882fe9a4396a8feabb75f7210399e656cd12ff61",
+      "name": "Charging Module Installation",
+      "effect": "The first ally in deployment order gains +5 maximum Charge Count.\nIf the activation requirement is met, this effect lasts until just before the next turn starts.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0710": {
+      "sourceHash": "19ec33df412197a3079cc6c019f635351e3f37b0b560fb1378a3c061922372d7",
+      "name": "Endless Lamentation",
+      "effect": "The ally with the highest SP deals +5% damage to targets with SP below 0.\nDamage further increases as the target's SP falls below 0 (+0.5% per SP, max 20%).\nAgainst targets without SP, instead inflict +1 additional Sinking Potency and Count through attack skill and Coin effects (up to 2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0711": {
+      "sourceHash": "a146768a5f38452cb40183b4f8cc2a6b4e2bb9ce0c6ebce2f67ed29ea3f0a60a",
+      "name": "Spotter",
+      "effect": "When the ally with the least Ammo uses an Ammo-consuming skill, gain 2 Poise Count.\nIf they are a Full-Stop Office Identity or have less than 5 Poise Count, gain 4 instead (once per turn; does not apply to allies without Ammo).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0712": {
+      "sourceHash": "9682e53306022c306abc3b2e42c4f5e4c64ab7bdf50547ad9357221d2c26647b",
+      "name": "Impale",
+      "effect": "The fastest ally deals +10% damage to enemies that used a Defense Skill this turn or were at full HP before the attack began.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0713": {
+      "sourceHash": "16238103f850538060fb5080980a18be8bc42215079e8d1363e4a0ffb524feea",
+      "name": "One day I'll wear me Armour for Cancelled Trains",
+      "effect": "At Combat Start, if the first ally in deployment order gained Charge Count beyond their maximum through their own skills, gain 1 Charge Barrier next turn for each excess Charge Count (max 3; includes E.G.O skills).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0714": {
+      "sourceHash": "df918a939fd699e564e30b566534bb5fc7f484dd96bee7b8a1f357965af83b3c",
+      "name": "Backed Against a River",
+      "effect": "At Turn End, if the ally with the lowest HP percentage has less than 50% of their max HP, gain 1 Clash Power Up next turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0715": {
+      "sourceHash": "d93c5275e41eecab8dd5ca26615c1c9835ac9720a88b4a387aa49f7b058a19e5",
+      "name": "Chains of Loyalty",
+      "effect": "When an allied Middle Identity dies during combat, all Middle Identities gain 1 Attack Power Up this turn and next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0716": {
+      "sourceHash": "f0afcf5520fa09c74947d9174ce9c63d91c36a26f2000154342b1eafd25fc576",
+      "name": "In One-on-one Duels...",
+      "effect": "When the fastest ally wins a Clash with a basic attack skill, increase the enemy's Burn Count by 1 (once per turn).\n- Prioritize Thumb Identities.\n- For Thumb Identities, enhance the effect to increase both Burn Count and Tremor Count by 1 instead.\n- At Combat Start, if only 1 enemy is present (count the main body for Abnormalities), this passive inflicts +1 additional Burn Count and Tremor Count.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0816": {
+      "sourceHash": "bc524afe4c322aec1fa0b89d3f5181016ccb5397dcd7ed808497eca6a80e4662",
+      "name": "[Actrice Haute Couture du Rouge] - Robes",
+      "effect": "The first and second Identities in deployment order heal 20% more HP through passive, skill, and Coin effects.\nIf Lust Resonance is Absolute Resonance, the first and second Identities in deployment order take 10% less damage from skills this turn.\nWhen it is difficult to overwrite an actor with an exact copy of a Mirror World Identity, clothes are tailored specifically for the actor and put on them.\nHaute couture is a kind of cinematic reconstruction. An existence from the past is replaced with clothes and overlaid onto the actor, who empathizes with that existence, immerses themselves in it, and performs. The audience accepts the lie that this is reality rather than acting. Only within that illusion does the actor become that existence and reproduce the original.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0801": {
+      "sourceHash": "0ada3dd1795dad7394f11afd9f6914402c11cd33a8c63117fc0e08127ead424f",
+      "name": "Determination to Survive",
+      "effect": "If the ally with the lowest current HP is below 50% HP, gain +1 Clash Power when clashing.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0802": {
+      "sourceHash": "36322fbf5535f92c5cd0a358f17156881ac96c27738e3baa999a40a74c8572b6",
+      "name": "Tenacity",
+      "effect": "The ally with the lowest SP deals +10% damage with Blunt skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0803": {
+      "sourceHash": "282847a88f339631cb721c0219c1b3b3bbc643a74572953e171d0a172789390c",
+      "name": "Strife",
+      "effect": "The ally with the lowest current HP gains +2 Final Power for Counter skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0804": {
+      "sourceHash": "29d96bffa572316f4e68e855a3d20011a0e448e4346b56c4f8b8ae58b90c7752",
+      "name": "By the Manual",
+      "effect": "The slowest ally gains +2 Final Power for Guard skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0805": {
+      "sourceHash": "c5255c512a7dbe014c65b427979e034b4dd82e01100a167fa41d7e5268163a10",
+      "name": "Corrosive Slime",
+      "effect": "When the fastest ally triggers Tremor Burst, inflict 2 Rupture.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0806": {
+      "sourceHash": "c416fc5518cfc48936403089eb739cc9b28ab850bdc79bf6844c2ee5b23398fe",
+      "name": "Intense Blaze",
+      "effect": "When the slowest ally hits, deal +5% Blunt damage for every 3 Burn Count on the target (max 15%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0807": {
+      "sourceHash": "e17a6f0a545dd219fe48c0053e8a57ba78db3c040475aca842add770862b19cc",
+      "name": "Crab Driver",
+      "effect": "When the ally with the lowest max HP lands a Heads hit and inflicts Tremor Count on an enemy through a Coin effect, inflict 1 Sinking Count.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0808": {
+      "sourceHash": "049a10197c0a23f9b6a27b197cfba925f9ea1b6c23935e8225ad30fa36a6304b",
+      "name": "Captain's Orders",
+      "effect": "At the end of the highest-SP ally's attack, if the target died, gain 2 Poise and 2 Poise Count (2 times per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0809": {
+      "sourceHash": "ae0ca054895ee4134f7722b586a44fe14ff4f7cf1bccc599104569a09d0c4a06",
+      "name": "Loyal Supporter",
+      "effect": "When the fastest ally attacks a target with Sinking, increase damage by 0.5/1% for each Sinking on the target (max 10/20%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0810": {
+      "sourceHash": "6541c2d90f9dc2d46ae646c02626e30663d623b420ea86ceadddff801e64a185",
+      "name": "Emergency Protection",
+      "effect": "At Combat Start, grant 2 Defense Level Up to the Identity whose HP percentage has dropped the most since the start of the previous turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0811": {
+      "sourceHash": "0d18c219f7b2917457561c007f4718fcaed133192a2298b750af60725c63d674",
+      "name": "Cloud Workshop Blade",
+      "effect": "The fastest ally inflicts +1 additional Bleed Potency or Count on enemies through skill and Coin effects.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0812": {
+      "sourceHash": "0ce6a53b8c651e045fa15d65ed85e9cc9f86b6cf200be9c23136243f3d53ef70",
+      "name": "Lingering Resolve [餘桓]",
+      "effect": "If this Identity dies during combat, at Combat Start grant Assist [援] to the Identity leaving standby next turn (the first Identity in backup order).\nIn Chain Battles, while this Identity has retreated or is on standby, activate the following effect:\nAmong Identities at 50% HP or less at Combat Start who used a Defense Skill, the first in deployment order recovers from Stagger caused by damage and triggers Battlefield Retreat at Turn End (2 times per encounter).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0813": {
+      "sourceHash": "8c17863132dc4ef2f11e50e5b928e85b03c027b4dad161fb77ccfd46fa3ac28b",
+      "name": "Relay",
+      "effect": "At Combat Start, select the ally with the lowest SP. When they land a Heads hit with a basic attack skill, heal 5 SP for them (2 times per turn; excludes allies at -40 SP or lower).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0814": {
+      "sourceHash": "4298487c35739fb669e7647478c0976051c146f8a4102a14326f0f314d4c29a4",
+      "name": "Hey, Are Ya Into Fixers, Too?",
+      "effect": "The first ally in deployment order gains +1 Clash Power for basic attack skills (once per turn).\nIf Envy Resonance is Absolute Resonance, their basic skills deal +10% damage.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0815": {
+      "sourceHash": "0c6ae183d5018f62cb0b4dd4333914f66aee8aecc3b2db2092ea12d4a5d56eb7",
+      "name": "Cut Down What Must Be Felled",
+      "effect": "The fastest ally deals +10% damage with Slash skills.\n- If that ally has Haste, deal +15% Slash skill damage instead.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0917": {
+      "sourceHash": "52a87c6d774dd382756da3ed152cad2cd188a735091c39817ab88042184836a3",
+      "name": "First is Thanks-snipping",
+      "effect": "The fastest ally deals +10% damage with basic Slash skills.\nOf all these scissors, one precious pair for you, too.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0901": {
+      "sourceHash": "5abf5a97ca12532fcda598b510b0458f8292290e8eb1231c776d987eec2050cb",
+      "name": "Gambler",
+      "effect": "The ally with the highest current HP deals +20% damage with Coins that land Heads.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0902": {
+      "sourceHash": "97c4c45663605edce794e6c2320e552c10ecc824ee4135babb80d6b9433a9c36",
+      "name": "Dark Cloud Swordsmanship",
+      "effect": "The slowest ally deals +10% damage with Slash skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0903": {
+      "sourceHash": "ff8edb2224d3890ab5371c50682b8764f4f6cb31f722b4171f54cd38832a7772",
+      "name": "Breaching",
+      "effect": "The ally with the highest current HP deals +20% damage to enemies who used a Defense Skill this turn.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0904": {
+      "sourceHash": "bcdc3bc4457be6277938d4a5ef4c395f702c5a184f724f3c2f344bbc94b0135d",
+      "name": "Rising Faith",
+      "effect": "When an enemy dies, the ally with the highest SP gains 1 Haste and 1 Damage Up next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0905": {
+      "sourceHash": "a6b57824fd6594281e3ef0968ac182bc77971a4ab8c4699214292e4414279a4c",
+      "name": "Resonant Spanner",
+      "effect": "The slowest ally raises Stagger Thresholds by 20% more with Tremor Burst.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0906": {
+      "sourceHash": "a9cff8ebefe805f62ccbd3b71c2db3f0010d7262481ac473a3a9ad4a5e49a4ea",
+      "name": "Designated Protection",
+      "effect": "At Combat Start, the ally with the lowest current HP percentage gains 1 Shield for each Poise Count they have (max 10).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0907": {
+      "sourceHash": "ca1ad729bf937364425ec10e56f0dbde2a0d340e8d6dff426e65996ab2119195",
+      "name": "Missionary of Knowledge",
+      "effect": "The ally with the highest max HP gains Blunt Damage Up next turn proportional to the damage they took this turn, including damage absorbed by Shields.\nGain the maximum amount when damage taken equals 15% of their HP at Turn Start (max 3).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0908": {
+      "sourceHash": "cc7fdc74396d8ba72acabb8e412fb4f4fd31437b797c1c35ae9b6aaebcd06d5c",
+      "name": "Passionate Cheer",
+      "effect": "When the ally with the lowest SP hits, deal +5% Pierce damage for every 6 Burn Potency on the target (max 15%).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0909": {
+      "sourceHash": "c29f78aa360d787b0234ab85957abec30b71b80ee9ff53d9075d233354df9db1",
+      "name": "T Corp. Martial Arts",
+      "effect": "The fastest ally gains +1 Clash Power when clashing against an enemy with at least 5 Tremor.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0910": {
+      "sourceHash": "5e928b395f653b0ae56ca14ede09b48404a4eac0477329abfb41dcabbb01b287",
+      "name": "Outstanding Courier",
+      "effect": "The fastest ally gains +1 Clash Power for skills that inflict Rupture Potency or Count.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0911": {
+      "sourceHash": "06d68e7b94a47c32aa924523095427cc598a3053bfe521d4fc8239e2c7785114",
+      "name": "\"Blossom with Blood...\"",
+      "effect": "At Turn End, reduce the Bleed Potency of the ally with the most Bleed Potency by up to 6, then grant Blooming Thorn equal to (Bleed Potency reduced ÷ 2), rounded down.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0912": {
+      "sourceHash": "8d2b126daab92e9af02507cfee92fb0d751735eee1232ee06bab670702c158c0",
+      "name": "Intravascular Venom",
+      "effect": "If the fastest ally deals Rupture damage to an enemy, inflict 1 Offense Level Down and 1 Defense Level Down next turn (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0913": {
+      "sourceHash": "ef7127f8053696a7642c6e6aec90866b03698f69e60483b89de0c41c8574f055",
+      "name": "For All Those Who Despair...",
+      "effect": "At Combat Start, apply to the first ally in deployment order.\nIf their SP is -15 or lower, gain +1 Final Power for Minus Coin skills.\nIf their SP is -30 or lower, instead gain +1 Final Power and +15% damage for Minus Coin skills.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0914": {
+      "sourceHash": "db3f8527eb2dc38058b3ee5df7b6c66b9a3fd70454cf60005247072c9f9eaf8e",
+      "name": "Carol of Dying Comrades",
+      "effect": "The ally with the lowest SP deals +10% damage with skills that consume Charge or Special Charge and have an effect that inflicts Sinking on enemies (excludes E.G.O skills).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0915": {
+      "sourceHash": "8ded239ef3b42fbcde4561c3275b516390a5790b74fb24c9b60562c14e61c1d6",
+      "name": "Nice and Slow, Don't Let It Break...",
+      "effect": "Apply the following effects to the first Identity in deployment order:\n- If Lust Resonance is odd, inflict +1 additional Bleed Potency.\n- If Lust Resonance is even, inflict +1 additional Sinking Potency.\n- If that Identity belongs to the Ring, gain 1 Offense Level Up or 1 Defense Level Up at Combat Start.\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    },
+    "0916": {
+      "sourceHash": "e3211663d979f4f08e8a3ca89f26770608ba5da3a2b39dd7e39d28f56438a787",
+      "name": "Weaklings, Not Worth Shit",
+      "effect": "When the fastest ally triggers Tremor Burst on an enemy, gain 2 Offense Level Up next turn (once per turn).\n- If they belong to the Thumb, also gain 1 Haste (once per turn).\n※Unlocked at Uptie Ⅲ. Active while in the team but not deployed."
+    }
+  },
+  "keywords": [
+    {
+      "sourceHash": "30cdf0bd5082b250577da7dc658b653d67adc15f3a09bde25a89e6e07b3d447d",
+      "term": "Poise",
+      "desc": "When a Coin is rolled, has a [5 × Potency]% chance to deal a critical hit.\nCritical hits deal 20% more damage.\nCount decreases by 1 at Turn End or after a critical hit."
+    },
+    {
+      "sourceHash": "798bb42d5dcb99385fdcf181fb85093b44945ba5f50795d6a6a014a7ae54b3eb",
+      "term": "Tremor Burst",
+      "desc": "Raise the target's Stagger Threshold by their Tremor Potency."
+    },
+    {
+      "sourceHash": "7e7b948322c43cf103785734269d1b45e7b618c839405f9ec4757656a4ae90f1",
+      "term": "Defense Level Down",
+      "desc": "For 1 turn, decrease Defense Level proportional to the value."
+    },
+    {
+      "sourceHash": "09c8622ed2668b7449393660a0b73931e3522d0f725558b6bcba8dfe2d3003c1",
+      "term": "Charge",
+      "desc": "Consuming it enhances certain skills. Can gain up to 20 Count.\nCount decreases by 1 at Turn End."
+    },
+    {
+      "sourceHash": "b3439c34e4e33d94c182b6558798412600ca979ee80cb33b8ce3a18520c23c6f",
+      "term": "Rupture",
+      "desc": "When hit by an attack skill, take fixed damage equal to Potency.\nCount decreases by 1 after taking damage."
+    },
+    {
+      "sourceHash": "7b04245e62f95e868a6c314724743571e766578b37662b50e6433dc94c1ef2ba",
+      "term": "Bleed",
+      "desc": "When an attack skill Coin is rolled, take fixed damage equal to Potency.\nCount decreases by 1 after the roll."
+    },
+    {
+      "sourceHash": "6b094cd673f8c73a324c0e82961798559875dde2e74153aaa7513aa44cda351f",
+      "term": "Sinking",
+      "desc": "When taking damage from an attack skill, take fixed SP damage equal to Potency (converted to Gloom damage for Abnormalities).\nCount decreases by 1 after taking damage."
+    },
+    {
+      "sourceHash": "d6ad359a7e0cf8c3ca97e7c9858e6db874eeff24fc79dd42db4eaddba89d7bf9",
+      "term": "Butterfly",
+      "desc": "- Special Sinking.\n- Default: 0; maximum: 15.\nPotency represents Living Butterflies; Count represents Departed Butterflies.\n- When taking damage, heal the attacker's SP by (Living Butterflies ÷ 4), rounded down, minimum 1.\n- When taking damage while below 0 SP, take (Sinking Potency ÷ 5) Gloom damage for each Departed Butterfly (max 30 Gloom damage, rounded down; damage is halved against targets without SP).\n- At Turn End, reset Departed Butterflies to 0. Inflict Sinking equal to Living Butterflies, then convert Living Butterflies into Departed Butterflies.\n- The amount inflicted cannot be increased by external effects. Effects that increase Sinking inflicted instead inflict the additional amount as Sinking rather than Butterfly.\n- Removed when both Living and Departed Butterflies reach 0."
+    },
+    {
+      "sourceHash": "e5c80ac26282ddb138e2b8aa058fa753080f4ff8d8a08a0ab1fc673541bdef9f",
+      "term": "Burn",
+      "desc": "At Turn End, take fixed damage equal to Potency.\nCount decreases by 1 after Turn End."
+    },
+    {
+      "sourceHash": "8a2e68af6cac57499203d5b4d512326c2560234dd262fe3caf842353c0e3a2ba",
+      "term": "Damage Up",
+      "desc": "For 1 turn, increase damage dealt with skills proportional to the value (max 10)."
+    },
+    {
+      "sourceHash": "ea58b7089350b899d75a1676f51834b37593d9a8a4e9ed6d2090ae8afb1a9043",
+      "term": "Haste",
+      "desc": "For 1 turn, increase Speed by the value."
+    },
+    {
+      "sourceHash": "e99ebdfd621644398f615054f81f9c5aafa1166561286e170b7472384b40d40d",
+      "term": "Offense Level Down",
+      "desc": "For 1 turn, decrease Offense Level proportional to the value."
+    },
+    {
+      "sourceHash": "e49af3fdb62076b865f2a2359c946a2cfd6d2c1db59f80468a78550740f0bb71",
+      "term": "Fanatic",
+      "desc": "When attacking a target with Nails, increase Final Power by this value."
+    },
+    {
+      "sourceHash": "ff0e2dddb1bd5d72d9ca16567d7040105f921c1291d5880b82235c654734a6be",
+      "term": "Defense Level Up",
+      "desc": "For 1 turn, increase Defense Level proportional to the value."
+    },
+    {
+      "sourceHash": "4d235e4ea056758ed2f104011eaf726f03f06041039cd5f60d47e27c3a93ce78",
+      "term": "Offense Level Up",
+      "desc": "For 1 turn, increase Offense Level proportional to the value."
+    },
+    {
+      "sourceHash": "545e02d3dce2d085b063213cfef098f48104ecde47cdf695634036586327968d",
+      "term": "Aggro",
+      "desc": "In Focused Encounters, slots with higher Aggro are more likely to be targeted by enemies."
+    },
+    {
+      "sourceHash": "8c957d429615d200c8ce957ea5768b3652635f028953b1f2934a7d0c48a6289a",
+      "term": "Tremor",
+      "desc": "When taking damage from a Tremor Burst skill, raise the Stagger Threshold by Potency.\nCount decreases by 1 after Turn End."
+    },
+    {
+      "sourceHash": "d691c51265735416dcd0ec5965c2bd54e78bc5b3536e815172c613435a7504ac",
+      "term": "Special Burn",
+      "desc": "Includes Dark Flame."
+    },
+    {
+      "sourceHash": "bf2bf40f21c19ab15edc3cbb2e206472a58a8084432e243061e24188cd203fe7",
+      "term": "Special Charge",
+      "desc": "Includes Red Eyes, Penitence, Love/Hate, Deep Tears, Corpus Ingredient, Pulsation, Preservation, and Inertia of Drifting."
+    },
+    {
+      "sourceHash": "beaaf9238b300823d72c9de8454420ff980fe1fd606b0ce1755d7a9d462fc19e",
+      "term": "Special Sinking",
+      "desc": "Includes Butterfly and Sheut Fracture."
+    },
+    {
+      "sourceHash": "b61fb74f15bde89cb969ece634c320bd0998ed4ce4c6cd8380aae49d9d0e5545",
+      "term": "Attack Power Up",
+      "desc": "For 1 turn, increase the Final Power of attack skills by the value."
+    },
+    {
+      "sourceHash": "e0f0e04341ba60c06858dbff972cdcfc8a38dfce7d7c17967d8a4ec522736c0c",
+      "term": "Protection",
+      "desc": "For 1 turn, decrease damage taken from skills proportional to the value (max 10)."
+    },
+    {
+      "sourceHash": "96b78d5142e4d0f5c75d0ee848f2abf42f6839ebc2e280da776e7ce60f3fc59c",
+      "term": "Insight",
+      "desc": "The rank of the last skill discarded by the character with this effect (default: 1)."
+    },
+    {
+      "sourceHash": "edae64ea184f7c7af9746df42ae7900f82b007ac88c94c2e900d5cee5007279d",
+      "term": "Bloodfeast",
+      "desc": "- Maximum: 999.\n- Stores Bleed damage dealt at the location.\n- Resets when the battle location changes.\n- Shared by all characters.\n- If a higher-Kindred ally will consume Bloodfeast during the same turn, this character cannot consume Bloodfeast until that ally does."
+    },
+    {
+      "sourceHash": "2d2219826538222eb569c401cbec7caf914ef123ae3e64b1ef067bc19d224575",
+      "term": "K Corp Ampule",
+      "desc": "At Turn Start, if the value is below 4, heal HP equal to (value × 5)% of max HP.\nIf the value is 4 or greater, die."
+    },
+    {
+      "sourceHash": "afae13557d56cafad63dc340ce5d15369055965facee47965018535c9e5569ce",
+      "term": "Bind",
+      "desc": "For 1 turn, decrease Speed by the value."
+    },
+    {
+      "sourceHash": "d24565301c0a35432461488bf8f576922b6f58e28235f56b1fc5d2221096dbac",
+      "term": "Nails",
+      "desc": "Special Bleed.\nAt Turn Start, inflict 1 Bleed and increase Bleed Count by this value.\nAt Turn End, halve this value (rounded down)."
+    },
+    {
+      "sourceHash": "79b091f25a74a6bac7198df313f9a4d2c4e79b413cb7b299b7241835f2c69947",
+      "term": "Fragile",
+      "desc": "For 1 turn, increase damage taken from skills proportional to the value (max 10)."
+    },
+    {
+      "sourceHash": "c33f961865e6e2423dac3cde0b69cfbbf86b741c9921eddce9baac270368709f",
+      "term": "Charge Barrier",
+      "desc": "Gain a Shield equal to (Charge Barrier × 3).\nWhenever that much Shield is lost, decrease Charge Barrier by 1.\nFor W Corp. employees, use × 5 instead of × 3.\nAt Turn End, gain Charge Count equal to Charge Barrier, then lose Charge Barrier and the Shield granted by it."
+    },
+    {
+      "sourceHash": "114f17819dbba9a73605402487710d61981da0cd8cf898a92a955cbe4bacd7eb",
+      "term": "Assist [援]",
+      "desc": "- Maximum: 1.\n- If the target has at least 5 types of negative effects, gain +1 Clash Power and +10% damage."
+    },
+    {
+      "sourceHash": "145ce165886b0cb872bc985884301a5206e9eb69b5f422d1329010782cdc40f4",
+      "term": "Battlefield Retreat",
+      "desc": "- At Turn End, recover from Stagger and leave combat (excludes forced Stagger; does not count as death).\n- In Chain Battles, pass the skill slots to a backup unit and move to the end of the backup list. If no backup unit can enter next turn, leave combat. Returning units return in retreat order.\n- Upon returning, remove all effects except certain persistent effects. Keep HP and SP from the time of retreat (if SP was below 0, reset it to 0)."
+    },
+    {
+      "sourceHash": "f73b5b92a0b2daab6e6f60e8cffc7be5e8389f2037414898666cfca405b6b7d6",
+      "term": "Blooming Thorn",
+      "desc": "- Maximum: 10.\n- Blooming Thorn Stage 1.\n- Gain 1 Defense Level for every 2 stacks (max 5).\n- When taking damage, inflict 1 Bleed on the attacker, then decrease stacks by 1.\n- [Exclusive to The Princess of La Manchaland Rodion]\n• At maximum stacks, advance to the next stage.\n• Increase Bleed and Rupture Potency inflicted by basic skill Coin effects by (current stage − 1).\n• If consumption leaves insufficient Blooming Thorn, return to the previous stage."
+    },
+    {
+      "sourceHash": "6b0231fe5bec91f0ea305530b7ab53148bcbdfedd63d353393d57e6b61f2020f",
+      "term": "Defense Power Up",
+      "desc": "For 1 turn, increase the Final Power of Defense Skills by the value."
+    },
+    {
+      "sourceHash": "f100bfb7edeb2daeca3cd0fe28439660f03a8fb7773d4eee69dfff72dbd8f270",
+      "term": "Defense Power Down",
+      "desc": "For 1 turn, decrease the Final Power of Defense Skills by the value."
+    }
+  ],
+  "messages": {
+    "SUPPORT PASSIVES ・ {count}人格": "SUPPORT PASSIVES · {count} Identities",
+    "{sins}の資源だけで発動するサポートパッシブ：{count}": "Support Passives activated using only {sins} resources: {count}",
+    "全人格のサポートパッシブを、囚人ごとに人格の順でまとめた。必要資源で絞り込むと、編成でたまる資源だけで発動するものを探せる。": "Browse every Identity’s Support Passive, grouped by Sinner and listed in Identity order. Filter by required resources to find passives your team can activate.",
+    "選んだ罪悪属性の資源だけで発動するサポートパッシブを出す。複数選ぶと、そのどれかの組み合わせで発動するものも含む。数字は、その属性を足したときの件数。": "Show Support Passives whose resource costs use only the selected Sin affinities. Selecting multiple affinities also includes passives requiring a combination of them. Each number shows the result count if that affinity is added.",
+    "該当するサポートパッシブはない。罪悪属性を足す。": "No matching Support Passives. Add another Sin affinity.",
+    "【リンバス】サポートパッシブ一覧｜必要資源で探す｜Limbus Assistant": "Support Passives | Filter by Required Resources | Limbus Assistant",
+    "リンバス(Limbus Company)の全人格のサポートパッシブを、囚人ごとに人格の順でまとめた一覧。必要資源(罪悪属性)で絞り込み、控え(裏置き)の候補を探せる。": "Browse every Identity’s Support Passive in Limbus Company, grouped by Sinner. Filter by required Sin resources to find candidates for your backup roster."
+  }
+}

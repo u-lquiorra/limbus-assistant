@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0707.md",
+  "code": "0707",
+  "messages": {
+    "挑発値で攻撃を受け、味方の被弾と自分の失った体力で強くなる出血の人格。": "A Bleed Identity that draws attacks through Aggro and grows stronger as allies are hit and he loses HP.",
+    "挑発: S1「獲物追跡」・S2「銛穿ち」・守備「お返し」は使用時に次のターンの挑発値を得る。": "**Aggro**: S1 Stalk Prey, S2 Snagharpoon, and the Defense skill Payback grant Aggro next turn on use.",
+    "出血: S1は使用時に呼吸回数が増え、Ⅱコインで出血2を付与。S2は対象の出血3につき呼吸1を得て、クリティカル時に出血回数を増やす。S3「結び目を絶つ」は自分の体力が少ないほど付与する出血が増える。": "**Bleed**: S1 increases Poise Count on use and inflicts 2 Bleed with Coin Ⅱ. S2 grants 1 Poise per 3 Bleed on the target and increases Bleed Count on Critical Hit. S3 Sever Knot inflicts more Bleed the lower his HP.",
+    "S3: 嫉妬共鳴3以上でマッチ威力+1、嫉妬共鳴4以上・嫉妬完全共鳴6以上でコイン威力が上がる。": "**S3**: +1 Clash Power at 3 or more Envy Resonance, and Coin Power rises at 4 or more Envy Resonance and at 6 or more Envy Absolute Resonance.",
+    "バトルパッシブ「穿たれた刺青」(嫉妬×5・保有・同期化Ⅱで取得): 自分を含む味方が被ダメージを受けるたびに、次のターンに攻撃レベル増加1・防御レベル増加1を得る(被ダメージを受けた味方がピークォド号所属なら2、最大6/9)。失った体力に応じてダメージ量が増加。": "**Combat passive — Mutilated Tattoos (5 Envy Owned; unlocked at Uptie Ⅱ)**: Each time an ally, including himself, takes damage, he gains 1 Offense Level Up and 1 Defense Level Up next turn (2 if the damaged ally is a Pequod member, up to 6/9). Damage rises with HP lost.",
+    "集中戦闘では挑発値で攻撃を引き受け、被弾で攻撃・防御レベル増加を貯める。体力が減るほど出血付与とダメージ量が伸びるので、体力の低いタイミングでS3を使う。嫉妬スキルを並べて共鳴を作るとS3が強化される。": "In Focused Encounters, take attacks with Aggro and build Offense and Defense Level Up from hits. Bleed infliction and damage grow as his HP drops, so use S3 when his HP is low. Lining up Envy skills to build Resonance strengthens S3."
+  }
+}

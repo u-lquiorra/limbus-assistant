@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0615.md",
+  "code": "0615",
+  "messages": {
+    "敵1体に「捕縛」を掛けて追い詰め、呼吸と出血で仕留める人格。": "An Identity that marks a single enemy with Trussed, then corners and finishes it through Poise and Bleed.",
+    "捕縛[ホンル]: S3「推刷執行」・守備「捕縄を掛ける」で付与。対象の速度が下がり、傲慢属性の被ダメージ量+10%。付与者から攻撃を受けないと毎ターン減る。捕縛がある敵がいると、自分は押送差備を得てその敵とのマッチ威力が上がる。": "**Trussed [Hong Lu]**: Inflicted by S3 Hunter's Scouring and the Defense skill Throwing the Ohra Bond. Lowers the target's Speed and increases Pride damage taken by 10%. It decreases each turn unless the bearer is attacked by the inflicter. While an enemy has Trussed, he gains Prisoner Transport Arrangements and gains Clash Power against that enemy.",
+    "捕縛した敵への強化: S1「捕縄で締め上げる」・S2「裂き斬る」は最終威力+1。S2は捕縛2以上なら捕縛を1消耗してコインを再使用し、出血を発動させる。S3は全コインが破壊不能になり、最後のコインで出血回数と攻撃威力減少を付与。": "**Bonuses against Trussed enemies**: S1 Constricting Ohra Bonds and S2 Avulsion Slash gain +1 Final Power. At 2 or more Trussed, S2 spends 1 to reuse a Coin and trigger Bleed. S3 gains all-Unbreakable Coins, and its final Coin inflicts Bleed Count and Attack Power Down.",
+    "引き裂かれた傷: S3のⅣコインで付与(S2はクリティカル時のみ)。ターン開始時に出血2を与え、次のターンに束縛1を付与する。": "**Avulsion Wound**: Inflicted by Coin Ⅳ of S3 (S2 only on Critical Hit). Deals 2 Bleed at Turn Start and inflicts 1 Bind next turn.",
+    "呼吸と出血: S1〜S3は自分の呼吸と対象の出血の合計に応じてコイン威力が上がる(最大2)。守備はマッチ威力+2。": "**Poise and Bleed**: S1–S3 gain Coin Power based on his Poise plus the target's Bleed, up to 2. His Defense skill gains +2 Clash Power.",
+    "守備かS3で狙った敵に捕縛を掛け、その敵を攻撃し続けて出血と引き裂かれた傷を重ねる。集中戦闘では、捕縛した敵の攻撃を速度に関係なく自分で受けられる。": "Apply Trussed to the target enemy with his Defense skill or S3, then keep attacking it to stack Bleed and Avulsion Wound. In Focused Encounters, he can take the Trussed enemy's attacks himself regardless of Speed."
+  }
+}

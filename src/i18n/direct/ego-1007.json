@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1007.md",
+  "code": "1007",
+  "messages": {
+    "呪いを付けて攻撃後に即2回発動させ、ターン終了時の1回を待たずにデバフを稼ぐ、嫉妬貫通の単体E.G.O。": "A single-target Envy Pierce E.G.O that applies Curse and triggers it twice immediately after attacking, earning debuffs without waiting for the single Turn End trigger.",
+    "呪いの前倒し発動: 攻撃後、対象に呪いがあれば該当効果を即2回発動し、呪いが2減る。呪いは本来ターン終了時に1回だけ発動し、次ターンにランダムなデバフ(攻撃・守備威力減少、攻撃・防御レベル減少)を与える。": "**Early Curse triggers**: After the attack, if the target has Curse, its effect triggers twice immediately and Curse decreases by 2. Curse normally triggers only once at Turn End, giving a random debuff next turn (Attack or Defense Power Down, Offense or Defense Level Down).",
+    "呪いと釘の付与: 的中時に呪い2と釘2(解析Ⅲは3)を付与する。呪いと釘を除くマイナス効果3つ(解析Ⅳは2つ)につき呪いが追加される(最大2)。釘は特殊出血で、ターン開始時に出血を付与する。": "**Inflicting Curse and Nails**: Inflicts 2 Curse and 2 Nails (3 at Threadspin Ⅲ) on hit. Additional Curse is added per 3 negative effects other than Curse and Nails (2 at Threadspin Ⅳ), up to 2. Nails is a special Bleed that inflicts Bleed at Turn Start.",
+    "嫉妬共鳴で広域化: 加重値は1。嫉妬共鳴が4以上で+1(解析Ⅲ)、解析Ⅳは共鳴3につき+1(最大2)。": "**Multi-target through Envy Resonance**: Attack Weight is 1. +1 at 4 or more Envy Resonance (Threadspin Ⅲ), and at Threadspin Ⅳ, +1 per 3 Resonance (up to 2).",
+    "マッチ威力減少: 呪いが4以上の対象へ的中時、そのターンのマッチ威力減少1(解析Ⅳ、1ターン1回)。": "**Clash Power Down**: On hit against a target with 4 or more Curse, inflicts 1 Clash Power Down that turn (Threadspin Ⅳ, once per turn).",
+    "パッシブ「薄汚れた皮」: 戦闘開始時に自分へマイナス効果があれば、マッチ威力増加1と守備威力増加1を得る。マイナス効果3つにつき保護1(最大2)。": "**Passive — Grimy Hide**: If he has a negative effect at Combat Start, he gains 1 Clash Power Up and 1 Defense Power Up. 1 Protection per 3 negative effects, up to 2.",
+    "先に呪いを積み、このE.G.Oで前倒し発動させて次ターンのデバフを重ねる。発動ターンにはデバフはかからない。": "Stack Curse first, then use this E.G.O to trigger it early, layering debuffs for the next turn. The debuffs do not apply on the turn they trigger.",
+    "威力は低め(基本威力7、解析Ⅳは9)なので、ダメージ役ではなくデバフ役として使う。": "Its power is lowish (7 Base Power, 9 at Threadspin Ⅳ), so use it as a debuffer rather than a damage dealer.",
+    "必要資源は色欲2・傲慢2・嫉妬2、精神消耗は覚醒20・侵蝕25。": "It requires 2 Lust, 2 Pride, and 2 Envy, with a Sanity cost of 20 for Awakening and 25 for Corrosion.",
+    "Ⅱ: 「薄汚れた皮」が解放される。": "**Ⅱ**: Unlocks Grimy Hide.",
+    "Ⅲ: 釘が3になり、表面的中時に次ターンの束縛2(1ターン1回)。嫉妬共鳴4以上で加重値+1。": "**Ⅲ**: Nails becomes 3, and it inflicts 2 Bind next turn on Heads Hit (once per turn). +1 Attack Weight at 4 or more Envy Resonance.",
+    "Ⅳ: 基本威力が9、加重値が共鳴3につき+1になり、マッチ威力減少が付く。": "**Ⅳ**: Base Power becomes 9, Attack Weight becomes +1 per 3 Resonance, and Clash Power Down is added.",
+    "西部ツヴァイ協会3課: 振動を扱うスキルがあり、「薄汚れた皮」のマイナス効果の条件と噛み合うと考えられる。守備はマッチ可能ガードで、マッチ・守備威力増加を活かせる。": "**[Zwei Assoc. West Section 3](persona:1010)**: Has skills that handle Tremor, likely meshing with Grimy Hide's negative effect condition. His Defense skill is a Clashable Guard that can use the Clash and Defense Power Up.",
+    "中指末弟: S2・S3と守備が嫉妬で、嫉妬共鳴を作って加重値を伸ばしやすい。": "**[The Middle Little Brother](persona:1012)**: S2, S3, and his Defense skill are Envy, making it easy to build Envy Resonance and raise Attack Weight."
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "kind": "boss-copy",
+  "id": "shiomi-yoru-rematch",
+  "source": "src/data/bosses/shiomi-yoru-rematch.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "シン(心) - 地慧星",
+          "en": "Shin (心) - Dihui Star",
+          "file": "Bufs-a1c9p2.json",
+          "id": "LittleFingerBoss_Shin"
+        },
+        {
+          "ja": "観望",
+          "en": "Silent Regard",
+          "file": "Bufs-a1c9p2.json",
+          "id": "LvDownLittleFingerBoss"
+        },
+        {
+          "ja": "剣痕[残像]",
+          "en": "Bladetrail [Afterimage]",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncision"
+        },
+        {
+          "ja": "地慧星刀",
+          "en": "Dihui Star's Blade",
+          "file": "Bufs-a1c9p2.json",
+          "id": "PhantomIncisionTotal"
+        },
+        {
+          "ja": "残像もつれ",
+          "en": "Afterimage Entanglement",
+          "file": "Bufs-a1c9p2.json",
+          "id": "TimeEntangleDesc"
+        },
+        {
+          "ja": "四重残像もつれ",
+          "en": "Fourfold Afterimage Entanglement",
+          "file": "Bufs-a1c9p2.json",
+          "id": "TimeEntangleFour"
+        },
+        {
+          "ja": "乖離",
+          "en": "Disjunction",
+          "file": "Bufs-a1c9p2.json",
+          "id": "TimeGapAb"
+        },
+        {
+          "ja": "非常用K社アンプル",
+          "en": "K Corp. Emergency Ampule",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KAmpouleA1C94TH"
+        },
+        {
+          "ja": "断ち切れない記憶",
+          "en": "Unsevered Memory",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RyoshuParrySojiTwo"
+        },
+        {
+          "ja": "鶏鳴",
+          "en": "Dawn's First Crow (雞鳴)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffOne"
+        },
+        {
+          "ja": "黄昏",
+          "en": "Eventide Glow (黃昏)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffThree"
+        },
+        {
+          "ja": "日入",
+          "en": "The Sun's Descent (日入)",
+          "file": "Bufs-a1c9p3.json",
+          "id": "SojiAbiBuffTwo"
+        },
+        {
+          "ja": "他人の鎖",
+          "en": "Chains of Others",
+          "file": "Egos-a1c9p3.json",
+          "id": "205011"
+        },
+        {
+          "ja": "ト・パソス・マソス",
+          "en": "To Páthos Máthos",
+          "file": "Egos-a1c9p3.json",
+          "id": "211011"
+        },
+        {
+          "ja": "小指の親方 - 塩見ヨル",
+          "en": "The Pinky Nursefather - Shiomi Yoru",
+          "file": "Enemies-a1c9p2.json",
+          "id": "1322"
+        },
+        {
+          "ja": "小指の親方 - 塩見ヨル",
+          "en": "The Pinky Nursefather - Shiomi Yoru",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1323"
+        },
+        {
+          "ja": "重畳した残像",
+          "en": "Superposed Afterimage",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132203"
+        },
+        {
+          "ja": "残像反響",
+          "en": "Afterimage Reverberation",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132204"
+        },
+        {
+          "ja": "幾重もの時間から斬り込む残像",
+          "en": "Lacerating Afterimages from Myriad Moments",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132205"
+        },
+        {
+          "ja": "「程々に相手してやろう」",
+          "en": "'I Shall Give You Some Quarter'",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132216"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "未来の残像",
+          "en": "Afterimage of the Future",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132214"
+        },
+        {
+          "ja": "二連",
+          "en": "Twinslash [二連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132201"
+        },
+        {
+          "ja": "三連",
+          "en": "Tripleslash [三連]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132202"
+        },
+        {
+          "ja": "快閃",
+          "en": "Swift Glimmer [快閃]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132203"
+        },
+        {
+          "ja": "無形斬",
+          "en": "Formless Cut [無形斬]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132204"
+        },
+        {
+          "ja": "残像歩",
+          "en": "Phantom Step [殘像步]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132206"
+        },
+        {
+          "ja": "観望",
+          "en": "Silent Regard",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132207"
+        },
+        {
+          "ja": "絶命",
+          "en": "Deathedge [絶命]",
+          "file": "Skills_Abnormality-a1c9p2.json",
+          "id": "132208"
+        },
+        {
+          "ja": "極空間斬撃 - 絶縁",
+          "en": "Uttermost Rend Space - String Severance [空間斬 - 絕緣]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132210"
+        },
+        {
+          "ja": "確定された相手",
+          "en": "Destinated Opponent",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132211"
+        },
+        {
+          "ja": "未来を止められなかったな - 残痕斬",
+          "en": "You Have Failed to Stop the Future - Scartrail Slash [殘痕斬]",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132212"
+        },
+        {
+          "ja": "他人の鎖",
+          "en": "Chains of Others",
+          "file": "Skills_Ego_Personality-a1c9p3.json",
+          "id": "2050112"
+        },
+        {
+          "ja": "ト・パソス・マソス",
+          "en": "To Páthos Máthos",
+          "file": "Skills_Ego_Personality-a1c9p3.json",
+          "id": "2110112"
+        },
+        {
+          "ja": "天殺星傷",
+          "en": "Tiansha Star's Bladewound [天殺星傷]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "LvDownLittleFingerBossTwo"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 2/3 records, including marked targets, automatic base E.G.O attacks, and the enemy Shin variant. The 9-41 stage-specific Shields, three shared Ampule uses, fixed-damage clashes, and 959 HP ending are retained separately from 9-33."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "802928ca113f15708fbc8def4f51dc5712302e01c579cf55c26cb6b7de4768f2",
+      "text": "Shiomi Yoru (9-41)"
+    },
+    "shortName": {
+      "sourceHash": "78b2c776c3c3c2fbf9ca4d23ffad2ea9a646c2a4a73e8a5f24a8edf4dcd13369",
+      "text": "Shiomi Yoru Rematch"
+    },
+    "stageName": {
+      "sourceHash": "4c91669e9f2b40d994835b97b93a89bebeeaeb130b489565389bb7ade96c8452",
+      "text": "Araya"
+    },
+    "lead": {
+      "sourceHash": "7a125da10f3ee7fd782dce0ef1e311c04d7e0b7bd9d558deb2100e5c14c223f3",
+      "text": "Have the fastest Sinner beat Silent Regard to weaken the enemy, while each marked Sinner stops Destinated Opponent. Reduce Meursault and Outis's Bladetrail, deplete each stage's Shield, and finish by reaching half HP."
+    },
+    "statNote": {
+      "sourceHash": "e748711c324a7beb9de7cd180b3fc86231e193b28044b01aaa4aca9bdf390b31",
+      "text": "Ryōshū, Meursault, and Outis are required. Meursault and Outis share three Ampule uses; Ryōshū cannot die while another ally lives. The enemy starts with 30 SP, 2 Shin (心) - Dihui Star, 1,600 Disjunction, and Fourfold Afterimage Entanglement. Base Speed is 2–5, before the Fourfold modifier. The battle ends at 959 HP."
+    },
+    "priorities.0": {
+      "sourceHash": "d7016a6127fffacd8f2f2d86ea41e6bed04eac2b849d931cde60221e7f0001c4",
+      "text": "Handle Silent Regard first to weaken later clashes."
+    },
+    "priorities.1": {
+      "sourceHash": "33f5b5f8f98ac47eb6c87cbfdab3ec8d8cf245fd0ccc186bda9a29c98fb3ad53",
+      "text": "The marked Sinner must stop Destinated Opponent with an Attack Skill."
+    },
+    "priorities.2": {
+      "sourceHash": "72d3549249dbcc490d03dfe05c6c42ee8904d165e3fccbec45779f2bb9686ac5",
+      "text": "Protect Meursault and Outis's HP, reduce their Bladetrail, and deplete each Shield in turn."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "2c810e305192fdb86dd93d10c5264641e7ce6c74523a476d0075e44944b7990f",
+      "text": "Another Sinner cannot clash with the designated attack"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "8ec6501c6d90739ef11c4acf50ca46ec5d80f598f9fa057c481bde53e7fc1073",
+      "text": "Only the Sinner with the corresponding Dawn's First Crow, The Sun's Descent, or Eventide Glow can clash with Destinated Opponent. Defense Skills cannot activate either, so prepare an Attack Skill for the marked Sinner."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "6558b43ee2fb874b64ecc69daf6792be4f7d1253485abe7effc1f4ae50b329c9",
+      "text": "The area attack every three turns deals heavy damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "a282a4e9a13aa686397f632313091633dddf18d30bdd68a4f4eca9925549f8d7",
+      "text": "Win against Destinated Opponent to remove marks before Scartrail Slash. Marked Sinners take additional damage equal to five times the Coin's Final Power. Have a slow Sinner handle the area attack so marks and Silent Regard resolve first."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "f482b8c981ad06a501759a06def98f3c5d5276fc88bfd4893bdd4c0af5992521",
+      "text": "Breaking the Shield does not end the battle"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "c5f4ae5d9752aeed8ee17578b881171717c3879d5fa59daf9d4606c5cfe6a736",
+      "text": "Unlike 9-33, breaking the initial 1,600 Shield is not enough. Deplete the Shield at each Afterimage Entanglement stage, then lower HP to 959. Surviving 11 turns is not an ending condition here."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "31f126a10cc81069c28bd31009879b8c39d3f9b7357b002badfb0ff9e7deb342",
+      "text": "Level the three required Sinners and stabilize early clashes"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "7e8bf2d3c0cd6815c2bb68959dacfa615f300942cb606861c6a4b94767732eb4",
+      "text": "Recommended Lv. 60 with Ryōshū, Meursault, and Outis. No NPCs provide assistance, so bring Slash resistance, healing, and strong clashes for each Sinner."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "f3abfa707ea3b325460aaf57456a1001aed0188555dc338e59f8cc82ff6b233b",
+      "text": "Ryōshū cannot die while another ally lives. Where she can win, assign her Swift Glimmer, Formless Cut, and other skills with heavy damage remaining after a clash."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "46076a07de59362213b575dc83f0743e8f6a9bfd24a16dd1023da3354dfc8685",
+      "text": "If the opening is unstable, consider MOROSITAS on the first turn. Avoid spending all three Ampule uses shared by Meursault and Outis in the opening turns."
+    },
+    "phases.1.timing": {
+      "sourceHash": "ecdde2a6a9679345c9fce3d115496656498fb44cd6167d8a619a17f44fac3840",
+      "text": "Turns with Silent Regard available"
+    },
+    "phases.1.title": {
+      "sourceHash": "6f47931d28aa2fa08bfc070d9f53d50083a6e4ec382e428d6a61c1a9edae7abf",
+      "text": "Win against Silent Regard early with a fast Sinner"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "c018bb24cb535476f0f7a6a8dc983f104ae416daccd73ef3a538ff758f6d33e1",
+      "text": "Winning against Silent Regard gives the enemy 2 Attack Power Down and restores 5 SP to its clasher. Use a fast Sinner to apply the debuff before later powerful attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "f361896f86e2147f6ad7fb29b6332c8c7be6f02bbfcb4a518b96027accd38e02",
+      "text": "Marked Sinners also need to handle Destinated Opponent. Do not spend all their slots on Silent Regard; save skills for designated attacks and area attacks."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "93eb755d2b131f1f247d3ffe6813e7761fab52b9b32951837a6576bffd8caed0",
+      "text": "Winning against Swift Glimmer reduces its Atk Weight from 3 to 1. Winning against Formless Cut grants 80% damage reduction and prevents Stagger from that skill. Use Ryōshū's winning skills to limit damage."
+    },
+    "phases.2.timing": {
+      "sourceHash": "29411e41405467c6bfde1bc63d71593e519fa7c9591e961ca64a13d0ffe3f1c0",
+      "text": "Destinated Opponent and Scartrail Slash"
+    },
+    "phases.2.title": {
+      "sourceHash": "e06181011cf1379571579171d6eaf4b811a2e0ff5cc0cc69a0a92b13b09490aa",
+      "text": "Have each marked Sinner remove their mark before the area attack"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "c9bb47cbfa64f0060962681302d38869057b924467c7fbc9ef7cf975ebf8d1be",
+      "text": "Check Dawn's First Crow, The Sun's Descent, and Eventide Glow, then have the corresponding Sinner beat Destinated Opponent with an attack. Defense Skills cannot activate; leaving it unopposed also gives the enemy +10 Final Power."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "a2d00fb1d620d350a0f3359ac6c7cd9e6dcdc2a7217981c425d84921310ffacc",
+      "text": "A clash win removes the mark and deals fixed damage to the enemy. When several designated attacks appear, remove the marks on Sinners other than Ryōshū too."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "f6d4ad76a29589c011504d3373821b793cc1717f10085b7f053f27cf00f9b03c",
+      "text": "Scartrail Slash appears every three turns and deals heavy extra damage to marked targets. Have a slow Sinner clash with it so Silent Regard and mark removal resolve first."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "9ee9bc3f7662b438636b943a30d785e283de19909fa7490d2fc5ac4ffdf63ffd",
+      "text": "If winning against the area attack looks unlikely, prepare Defense Skills. Use the passive that halves final damage against targets using defense and Scartrail Slash's reduction based on equipped Defense Skills. Destinated Opponent and Deathedge preventing defense are separate exceptions."
+    },
+    "phases.3.timing": {
+      "sourceHash": "906b86ab9f806ef98f189e8be7ddc8ab0b70d6f0593de4be5e5db4c0b26c4472",
+      "text": "Afterimage stages 4 → 3 → 2"
+    },
+    "phases.3.title": {
+      "sourceHash": "d8d287e090affee9826858bfdaf2a5bb7117911b4aa9cac273dde552116c0b54",
+      "text": "Deplete Shields and reduce Bladetrail through Phantom Step"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "d18909899aa9e052bcee07ae33d039fa37ea5d236003cab791149607adab4408",
+      "text": "Depleting the Disjunction Shield lowers the Afterimage stage by one and grants a new Shield at the next stage. After breaking it at stages 4 and 3, use the next turn's Stagger to attack."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "0cc869fbd858d4e467bee8e290a03673da2932c5b5a8389edf2bd69392cb0a29",
+      "text": "Phantom Step joins the pattern at stage 3. Let Meursault and Outis win against it to halve Bladetrail. Even with Ampule revivals available, do not neglect Bladetrail damage."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "40d60f53fc89373cb5bf8da73c9b770d779235fd6dd33d37e1183a283b4eed4b",
+      "text": "The enemy reduces HP damage, SP damage, and Stagger Threshold advancement from statuses by 30%. Combine direct Wrath, Gloom, and Slash damage with early Silent Regard debuffs."
+    },
+    "phases.4.timing": {
+      "sourceHash": "d864d8b6ffb94e8cede9d5f53695fa0503c994a3ff183e691c39e6a1424f3e09",
+      "text": "Afterimage stages 1 and 0"
+    },
+    "phases.4.title": {
+      "sourceHash": "eed6281a6ffeee1122682f202f9ec3e4f390c4575510548e3a4d2af50ac5d313",
+      "text": "Reduce Bladetrail before String Severance and use automatic E.G.O attacks"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "9d8cd340098330f63cc66239817e1685bb1ead48bd0fc5ca335bf84cf39cafda",
+      "text": "Uttermost Rend Space - String Severance gains +10 Final Power at 20 or more SP. Even base E.G.O may struggle, so reduce Bladetrail through Phantom Step first and prepare healing and defense."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "73a7399ec8440b3792c2f8a8bf23450008f37b4ab8c46d06aaa9adf96781ba8d",
+      "text": "On reaching stage 1, Meursault automatically uses Chains of Others at maximum Speed; Outis uses To Páthos Máthos the next turn. These are separate from manual uses that spend your SP and resources."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "93069f7ef578bf3486d990ef8ccfdcfbfe7970875f5b216fac104e11799c9b35",
+      "text": "Deathedge prioritizes low-HP Sinners other than Ryōshū and prevents Defense Skills from activating. Clash with an Attack Skill and redirect it to Ryōshū if possible. Concentrating too many hits on her can cause Bind to complicate next-turn assignments."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "04761f5f32773ae888426e5040041262b518b52661a9a407b4e3a9fffcf7f791",
+      "text": "After depleting the remaining Shields, lower HP to 959. Ryōshū surviving alone is not enough; manage the other two Sinners' HP and shared Ampules too."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "2e22f8a7b0bcb649a2f10a22f6539393b9fcbbecf5ce6bed3e1f36fa08a40be9",
+      "text": "Unsevered Memory"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "bbf99cc5a3c7ac9c5812310e202da4a4c10c7a701f42e13d29fa5413ac009a08",
+      "text": "Ryōshū's effect. Deals and takes 20% more damage against the Nursefather; clash wins lower his SP by 5. Prevents Stagger, removes Stagger Thresholds, and grants 1 Attack Power Up next turn. Cannot retreat."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "0a68059c47db3d7acfa97ed3d7f9f8580fadf12600ab1db72667c11b9c5a050f",
+      "text": "Have Ryōshū beat dangerous skills. Use her protection from death while other Sinners remain alive."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "60d7f1592903874fe706199ac15bcb573071b84ead1f5a2b94219ed9347e4afe",
+      "text": "K Corp. Emergency Ampule"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "b9ce5bfda537bd9f0736c980d5fab76ebe10c26ffd193bbed1ab3ac50a171022",
+      "text": "Meursault and Outis share three uses. On lethal damage while another ally lives, clear Stagger and fully restore HP, reducing every ally's remaining count by 1."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "3bafbfc69a8ca83574785d2538b362edd1abb68473d5105fde1c7e7c7079b0b2",
+      "text": "This is not three uses each. Manage HP and Bladetrail on Sinners other than Ryōshū."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "5cd208685a912c31c25cfa219ca5f8337981b0758617002809fb8fab6babcdce",
+      "text": "Disjunction"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "f9224aff301a56e66d5e1e22f273707153b7e59705e991257905b5e1d784368d",
+      "text": "At Turn Start, gain a Shield equal to its value; the value falls as the Shield is depleted. Gain (stage × 400) once at the start of each Afterimage stage."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "f7003b628db50a6e0800ab3501f0d0985805f8a3d3870bb4f6ebecb70e0e490a",
+      "text": "Breaking 1,600 once does not end the battle. Deplete the Shield at every stage."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "71aba53d299ef549fa785d2fc47428ea036908579195cc81db49cd4bc423155e",
+      "text": "Afterimage Entanglement"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "985bc50bf0ab6b9996102977b52295ccf916c2ff49530e417ac4d629b4fb54f7",
+      "text": "A special status progressing from stage 4. Additional damage and action patterns change with its stage."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "2b06b3c26cf68a067444c44e885fd72a7ab7434e65811e2c375fa43213791aa4",
+      "text": "Even within the same three-turn cycle, check the skill pattern after a stage change."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "7336176c6baf34a92a2d117bea8e9087ce0b8832509e95c93dce9f661b19740a",
+      "text": "Fourfold Afterimage Entanglement"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "e26e018d7de9be00aeac8966d7a627ac1dcd5e1fa00c9688ce2099d729c5b38e",
+      "text": "Afterimage stage 4. Speed range −2. On hit, inflict 1 Poison, 2 Bleed, 1 Bind next turn, and 2 Burn."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "a96ed859341dbd5b006ae0141072b44b9a1f7639ffbc329ee9815fd3881a4892",
+      "text": "Statuses and Bind build up from the opening. Use debuffs and clashes rather than relying solely on Ampules."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "1c6df128ab45738fe3382e5930f5eec845561e52fc2704a5dff9bc521dda7abc",
+      "text": "Bladetrail [Afterimage]"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "a811c0699cd69d0e49ec1e802c2e4574eed66ae3005b982ff2396dd90d8396a7",
+      "text": "Maximum 99. Every 10 grants 1 Fragile next turn (max 5). String Severance consumes it all to deal additional max-HP-based damage."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "de58b2fbf9b59a31804788ebaceecd66335d513c3e1aa8c9fd8f54c22c4440e8",
+      "text": "Have Meursault and Outis win against Phantom Step to halve it."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "73928320936288bb7f974b150fa808e4d5eb680483cf5a1f2dc936253397a8f7",
+      "text": "Dihui Star's Blade"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "a81c280d1c9889e12dde2838573f9d70c6688e88806c3ba617daea1741101448",
+      "text": "The combined Bladetrail [Afterimage] on the field."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "a44bbb8999b5a8a9c6e8664602ab282b12b7c7d613c8cc27478437261e93733d",
+      "text": "Avoid accumulating Bladetrail; rotate clash wins against Phantom Step."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "f9bf0e641304f260fe4b89bfd303c1605346b784e3eee9e1554ea670f9e9adf6",
+      "text": "Shin (心) - Dihui Star"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "04d9d8dfe62bc6af13fd5d3b0323951f9ad5215d458d10e8c6e486a9ad20b786",
+      "text": "Starts at 2. At Turn Start, gain 5 Poise Potency and 1 Poise Count per stack. Gain 1 Slash Damage Up per 15% HP lost (max 5)."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "88fdda8a2276a848e58bed217562124599317d1ca8da69cd0e29d63eb7f5928d",
+      "text": "Lower HP means more damage in the later stages. Save healing for hits that still get through."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "10586c4bf1f29872c53862c091f6fdda4083fad943d80aa5508efadf6437b745",
+      "text": "Dawn's First Crow (雞鳴)"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "9328c53d0f212ecac7fb6a186f27ece18e650e96678a12b13e434e852eebe042",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent. If still present when Scartrail Slash hits, take additional damage."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "0812a02aa932008ab15fe9143330c7f1d16bd8a196e04c7f9f0eb9538b25468d",
+      "text": "Have the marked Sinner win against Destinated Opponent to remove the mark before the area attack."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "7c7f530eff602b7c22016c89f9993e992f126dcab3831327540a6f5fe5c62ccc",
+      "text": "The Sun's Descent (日入)"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "9328c53d0f212ecac7fb6a186f27ece18e650e96678a12b13e434e852eebe042",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent. If still present when Scartrail Slash hits, take additional damage."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "0812a02aa932008ab15fe9143330c7f1d16bd8a196e04c7f9f0eb9538b25468d",
+      "text": "Have the marked Sinner win against Destinated Opponent to remove the mark before the area attack."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "c8923db07df8be59c5590f8e253758edfc1609916f4c420e01439281b0739305",
+      "text": "Eventide Glow (黃昏)"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "9328c53d0f212ecac7fb6a186f27ece18e650e96678a12b13e434e852eebe042",
+      "text": "Marks allowing a clash with the corresponding Destinated Opponent. If still present when Scartrail Slash hits, take additional damage."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "0812a02aa932008ab15fe9143330c7f1d16bd8a196e04c7f9f0eb9538b25468d",
+      "text": "Have the marked Sinner win against Destinated Opponent to remove the mark before the area attack."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "7d947b2016e36e1da1ae520e5c0ab3f5f77a9634c6ada495d8c168dd89d0e6eb",
+      "text": "Chains of Others"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "660719517543a55e5333eb3bb5d9d5554750b2dbee73ab32c56c108e903a0bde",
+      "text": "Meursault's base E.G.O. Automatically used at maximum Speed on the turn stage 1 begins, without spending resources or SP."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "0654c21ab1c59097c31aeb13a40d045d3a5afc410aa48073e65e7bfed74138ee",
+      "text": "Treat it separately from a normal manual use and check the enemy skills and action order."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "3e47ad34640c5eb191db2f8a5d4dfca252a9efb606a5b5b2ffdb15dad69cd23c",
+      "text": "To Páthos Máthos"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "705d435a0f72d1b5c07f53b8676c92e4fd4a0212b8ee2c37fab3777c9c9529b3",
+      "text": "Outis's base E.G.O. Automatically used at maximum Speed the turn after Meursault's automatic attack, without spending resources or SP."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "2e17bbbecbdefebd4b0628eb05451511071d9dd3aa7cd0ec333ddea19250bd51",
+      "text": "After the automatic support, continue depleting the enemy with Phantom Step and healing."
+    },
+    "warnings.0": {
+      "sourceHash": "c716e9f7178708a9f3c833d755db7a46df9a7b0a9082586c1e43b83051b95947",
+      "text": "The ending differs from 9-33's Shield break or 11-turn survival. Progress through the stages and lower HP to 959 here."
+    },
+    "warnings.1": {
+      "sourceHash": "7a2a745fe6f2ffec1deedfd83f0874541079e9d620b67885bab75166cec2cac9",
+      "text": "Ryōshū's protection from death requires another living ally. She is not safe if Meursault and Outis both fall."
+    },
+    "warnings.2": {
+      "sourceHash": "c7940346675c633a444d230b1012b485d57331e91f1f34bb26e347a2484eedb7",
+      "text": "Destinated Opponent prevents Defense Skills from activating. Preparing defense against major attacks does not mean defense can stop this skill."
+    },
+    "warnings.3": {
+      "sourceHash": "eef87fabf80e938e7bbd2e5ab99b2c29512ba94f50a7d4872e9a4a1edd85a2e4",
+      "text": "Silent Regard and Phantom Step use the Power values available in the 9-41 tables. Do not import another battle's unconfirmed values or Tiansha Star's Bladewound."
+    },
+    "preparation.0": {
+      "sourceHash": "498220c789204a0c7e42313ad6975aaba60e84dd0adab215345fe8754d0ef9cd",
+      "text": "Level the three required Sinners to the recommended Lv. 60 and bring Slash resistance and HP/SP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "f2bcd50904f090cbc63f029cb92d600bd6271d56687d4af5b5eb500d55060605",
+      "text": "Save a way for each Sinner to win their designated clash, plus strong skills for Ryōshū to handle area attacks."
+    },
+    "roles.0.name": {
+      "sourceHash": "59087ac431ccfca6cd6de998fb30519bddb49ef565a3d7cb63341d59cbf7f5e2",
+      "text": "Ryōshū handles dangerous skills"
+    },
+    "roles.0.reason": {
+      "sourceHash": "92c0c5c216600f844a04c77ffa4a8eb319f10fa0526044c8633796f90776f3db",
+      "text": "Use her protection from death while another ally lives to take area attacks and remaining hits."
+    },
+    "roles.1.name": {
+      "sourceHash": "e7db2a99de5781aa76b13be0e954aa59655bce8efb7553b7e2f8bfefaf9faeab",
+      "text": "Fast Silent Regard clasher"
+    },
+    "roles.1.reason": {
+      "sourceHash": "54374c07ba8d73e65547db5a7151f2ca81d78b913e59a7f2fe84b04e6fba0608",
+      "text": "Apply the debuff first to help later clashes succeed."
+    },
+    "roles.2.name": {
+      "sourceHash": "17a9902b1d4d4a8257239d48b727d417c236905dff0849f94c149d8eb4522b11",
+      "text": "Each marked Sinner removes their own mark"
+    },
+    "roles.2.reason": {
+      "sourceHash": "ecea45f594626422145ff8f1b63108b89dc2542708aad0dd71ba0f35da5b94d0",
+      "text": "Beat Destinated Opponent to prevent the area attack's additional damage."
+    },
+    "roles.3.name": {
+      "sourceHash": "68d963496371c56ac678253e36c319806e08b4aefc56546c448f7ef293df685e",
+      "text": "Halve Bladetrail and heal"
+    },
+    "roles.3.reason": {
+      "sourceHash": "ae3c9a556c477d9467c83bfe48416a70e0da89386a670bc5d0f6b4d0a24fef00",
+      "text": "Limit damage to Meursault and Outis."
+    },
+    "units.0.name": {
+      "sourceHash": "b48af1dabab85930685eb697cfe6951be13cbadca8c81b59a357adbb839591a5",
+      "text": "The Pinky Nursefather - Shiomi Yoru"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.speed": {
+      "sourceHash": "a9277bfde820e4156353154271f317ddaed7701209498aa10e9a54fe7428474a",
+      "text": "2–5 / Speed range −2 from Fourfold Afterimage Entanglement"
+    },
+    "units.0.stagger": {
+      "sourceHash": "bdfec47bdbf8ac70110003142bb76fee61896e7dd6bf4095064838beceffd25c",
+      "text": "20% (383) / Staggered next turn after losing the Shield at stages 3 and 4"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "4b4a2b51360ae99e51b4ce24b2b6e7ad6b62c367c6fd37a777d10009ed8a9e52",
+      "text": "Starts at 30 SP. Distinguish this from 9-33's 45 SP, seven-Sinner deployment, and ending conditions."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "beac2122a2f60559c859dfd1324cca78f9a7573890bae52919b89e42e24b80bd",
+      "text": "Gains (Afterimage stage × 400) Disjunction once at the start of each stage. Deplete the 1,600, 1,200, 800, and 400 Shields in order."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "5a8e75bd5ae27650e2faa25fba627a1fa5e504d298094ea21e89a1d3dbe85436",
+      "text": "Losing all Disjunction at stages 3 and 4 Staggers the enemy next turn. Do not assume the transition from stage 2 to 1 causes the same Stagger."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "5101670c08a81450d84529e55999951a8320723407f1e085d5efee5cd32d1e19",
+      "text": "Ryōshū cannot die while another Sinner is alive. Keeping Meursault and Outis alive also matters."
+    },
+    "skills.0.name": {
+      "sourceHash": "b16d93d4fd4fbd8ecf8986f267042d70c69b3dd887723b780ac57ef4efcea8c1",
+      "text": "Twinslash [二連]"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "588ce3f21fb3afe9059f1ee6c8f46e68b762a3638615f71e9de06705072f8a9a",
+      "text": "[On Use] Gain 2 Poise Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "68f2429c3c3a3b5931a74cf06b42840706e4163f39b7ed5c121bd4ee1ce74fc5",
+      "text": "A two-Coin skill that gains Poise. Beat Silent Regard first to weaken it, while saving skills for designated attacks."
+    },
+    "skills.1.name": {
+      "sourceHash": "efd8b37408a831157bcfe2567af5526c8ef2cca6ab985b4757525aea6e18d82b",
+      "text": "Tripleslash [三連]"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "a242c7a21e762dc01ef99b9fec1b1db6c84c1cb327aa6540c95b7516c57d5896",
+      "text": "Ⅲ [On Hit] Gain 1 Poise"
+    },
+    "skills.1.response": {
+      "sourceHash": "95cc127f56e6b8c518c0c6ba6caf7c88c5992b717f194120e4d0902c742ea0b1",
+      "text": "A three-Coin skill that gains Poise. Choose regular skills using predictions after debuffs and avoid unnecessary concentrated hits."
+    },
+    "skills.2.name": {
+      "sourceHash": "ff8257052cc4fa7091620b40d533ed4ae273e553062b1f6193357474e5c4c3cd",
+      "text": "Swift Glimmer [快閃]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "785148fbb4d852adc9a3ed39e57d36c1c9bd7c082e50e43faca139d3c74d3c51",
+      "text": "[On Unopposed Attack] Gain 5 Poise"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "18a5751d1fc2ae6f25818e24b9029ed2c0887b19008095f0f1a0d76028bfdc52",
+      "text": "[Clash Lose] Atk Weight −2"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "ea3efed763c88f73f47b5fae999f46748538765c5937c09b13fe1825b7e86f49",
+      "text": "Critical Damage +30%"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "d44e22b2c513beee3d44dc6d3aabbdaf89781cd8e54cfa92c7d58aec71429f7a",
+      "text": "[On Hit] Gain 2 Poise."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.2.response": {
+      "sourceHash": "8a1033c88aa76a3a57e6015cda81a3eb697cdb949d0e34405cb4924aea5bc214",
+      "text": "Unbreakable, but a clash win reduces Atk Weight by 2. If Ryōshū can win, she can take the remaining damage more safely."
+    },
+    "skills.3.name": {
+      "sourceHash": "9e84109f9c6af2a09772e1ab5556a72635c76c7112e6787c295d560fda17673c",
+      "text": "Formless Cut [無形斬]"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "f74d117c06a56cc0c0ba134bad7aef87ade0181dc526a38a082815019249a52c",
+      "text": "[Clash Lose] Deal 80% less damage; targets taking damage from this skill cannot be Staggered"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "48c2b2d0430546d2ba981b8626950a4fb458af675ae917678e30f1afd1600baf",
+      "text": "Reuse this Coin (up to 4 times)"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "924ebb89fed18b97de10151e30f05322846643e4a9e6331d3ef656326a8d2980",
+      "text": "[On Hit] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0464f5594587408a3e2459aadc66033c4ffe554a82605ddb8ba211b18cc2bbf7",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Bladetrail [Afterimage]"
+    },
+    "skills.3.response": {
+      "sourceHash": "4afe05755077d7ecbbdac9dc63e51ba838d330fe22437ef41ae99306dc390ffd",
+      "text": "An Unfocused Volley with Unbreakable Coins. Clash regardless of Speed and win for 80% damage reduction and Stagger prevention. Assign Ryōshū if possible."
+    },
+    "skills.4.name": {
+      "sourceHash": "0a30a8cee4c3cf9f175546d4657bca259942653fd9777e703cbb21d0c7c1e82e",
+      "text": "Phantom Step [殘像步]"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0a943b1dba8a54d9279558234da25503ed39f6df6c91466e4ba23bedd6e1c33b",
+      "text": "[Clash Lose] Halve the target's Bladetrail [Afterimage] (rounded down)"
+    },
+    "skills.4.response": {
+      "sourceHash": "17153bd3e7f4422634e46f5981f8cf17c8f978333a31c47026a88fca22611356",
+      "text": "Winning halves Bladetrail on its clasher. Prioritize Meursault and Outis, and resolve it before String Severance."
+    },
+    "skills.5.name": {
+      "sourceHash": "460981821d955be50eb637260b0f1b34cf0b836c073e07db2e68c669689de4e5",
+      "text": "Silent Regard"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "8dc26de076126bd824c7afe48e19e290fa93c3f0246d1362f4ae06fe1710c345",
+      "text": "[Clash Lose] Gain 2 Attack Power Down"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "9af139af9627ba60a148635b11efc0a4b2917de8caf6ff5cb04b1a540849dba0",
+      "text": "[Clash Lose] Heal the target for 5 SP"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.response": {
+      "sourceHash": "ad31b33f1553d318e6891b9d002c05cae7f6a99f1c5af2a196396e54e83d98f0",
+      "text": "Have a fast Sinner win first to give the enemy 2 Attack Power Down and restore 5 SP to the clasher. The highest-priority clash for weakening later attacks."
+    },
+    "skills.6.name": {
+      "sourceHash": "eef7efb141222a71b2b5065d4f10baf7ce0669d9d0a1c44e5610adeced952dda",
+      "text": "Deathedge [絶命]"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "6287ce1f56f5bbbe16994c7b62112408accdc05ee31dec69128f2f47b274b07e",
+      "text": "Targets the unit with the lowest current HP percentage"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "3217f28716ec1368c68d0f9cbbcda7fe53233509430b35bb8d704e77f36002f3",
+      "text": "- Prioritizes Sinners other than Ryōshū"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "8a47f2632fbaf7b93c807f8066e2020c600181faf79f5624eb2447e0efdbd820",
+      "text": "Ⅰ [On Hit] Inflict 1 Bladetrail [Afterimage] for every 1% HP the target has lost"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "d753a8a470743a279246bb9d1babb42ec987c130cdf0d08ebf2c6e3e1afbb7cc",
+      "text": "Ⅱ [On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of the target's max HP"
+    },
+    "skills.6.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.6.response": {
+      "sourceHash": "6f6c139affd15a672acc321ef1aeae4fca4f9789bc4ff3ba70c2ba18a6a51363",
+      "text": "Prioritizes low-HP Sinners other than Ryōshū and prevents Defense Skills from activating. Clash with an Attack Skill to prevent max-HP-based damage from Bladetrail."
+    },
+    "skills.7.name": {
+      "sourceHash": "b6500cafd378693cdd1894bee47511a77077db9a07d849ecb3b05d4183ce3075",
+      "text": "Uttermost Rend Space - String Severance [空間斬 - 絕緣]"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "f6b8910969145939eb6295a44475ec67204a1d19b0c93ff7d069250b8f84387c",
+      "text": "[On Use] If the user's SP is 20 or higher, generate 3 Mang. Final Power +10"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "0dd5fd24e2b1e64eb41e55c940b9215cdf9df23d0c3c436f224167293b503537",
+      "text": "[After Attack] If this skill generated Mang, lose 20 SP"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "f6fc1adbd0c6690d8ab8fb7ba405960120845b798868a7f6f954f2372b5e441e",
+      "text": "[Clash Win] Gain 2 Slash Damage Up"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "7a0f9ecec0ac8a8f6c76c98e9e5caf675bcd21d071ec602c53b1a03eab5acf29",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "9b745fbd27aa14d318e4332699fe96c50e09f4d8232c165022c158a6cdb508aa",
+      "text": "[On Hit] Consume all Bladetrail [Afterimage] on the target; deal HP damage equal to (amount consumed)% of each damaged unit's max HP"
+    },
+    "skills.7.response": {
+      "sourceHash": "211fb8ff1a9bc2d0be54548354c57a53e1dacde60192d01cf32d5e6bddab0534",
+      "text": "At 20 or more SP, gains +10 Final Power. Reduce Bladetrail through Phantom Step first and assign a slow Sinner. If winning is impossible, use defense-based reduction and advance healing."
+    },
+    "skills.8.name": {
+      "sourceHash": "ede5a9d89e0cf8a5815671d8f30a1967ebab04196dbd0d3c66546796877fdbf5",
+      "text": "Destinated Opponent"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "71217168fc1999852b9c9046c091d238702bbfa6f4a0199dba35b4f8f93cda5e",
+      "text": "Only a target with the corresponding Dawn's First Crow, The Sun's Descent, or Eventide Glow buff can clash with this skill"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "ac63adcfcdf6b3a786759e30f7118e6f9243a46113d4325260ac951e5530f75b",
+      "text": "This skill prevents Defense Skills from activating"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "fb02c06d9ecdb0fbb43e3069ef3b2aa22fc99366cf5c824c417a25e082d9ce73",
+      "text": "[On Clash Lose] Gain 1 Fragile"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "528c3e29b667e0f00d7500a1337ff91c2ee3e55cab514b456ebc5b620b837666",
+      "text": "[Clash Lose] Remove the target's Dawn's First Crow, The Sun's Descent, or Eventide Glow"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "119893b7002353c3762b3708bd36fa8e840f605613690a461968320cd58b2c93",
+      "text": "[On Unopposed Attack] Final Power +10"
+    },
+    "skills.8.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.8.response": {
+      "sourceHash": "45f42118b5fac4a49d59f4812a1efc6fa31421b4117a6157a8a2feb2534d18e2",
+      "text": "Only the Sinner with the matching mark can clash with it. Defense Skills cannot activate; win with an attack to remove the mark before Scartrail Slash."
+    },
+    "skills.9.name": {
+      "sourceHash": "81effcd1c3585d67e935d86a23d20644a0e09526e1a86dafdfa6b19f8d20bba0",
+      "text": "You Have Failed to Stop the Future - Scartrail Slash [殘痕斬]"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "65296269230992175e3577e819d4bb4a89ead50b794a906e264e5bfca5ce1b7f",
+      "text": "This skill can be clashed with regardless of Speed. The user cannot be Staggered until the skill ends."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "13df7f09c3032e787415b7b56164fcded8e1516b63b7d6d5b12b5242c283d3d1",
+      "text": "[Combat Start] Gain 1 Damage Down for each enemy with a Defense Skill equipped this turn (max 5)"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "7a0f9ecec0ac8a8f6c76c98e9e5caf675bcd21d071ec602c53b1a03eab5acf29",
+      "text": "[Clash Lose] Deal 80% less damage; this skill's damage cannot Stagger its targets"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "98dbe5b1be63d37b992705968109f88dc10d948b2f15c4ca7d802861f15b241a",
+      "text": "Ⅰ [On Hit] If the target has Dawn's First Crow, The Sun's Descent, or Eventide Glow, deal Pride damage equal to (this Coin's Final Power) × 5"
+    },
+    "skills.9.response": {
+      "sourceHash": "c3a07ebc0039b2b86dce94e7544ac63a82182de84c06f85087749d9d33ba04ec",
+      "text": "Can be clashed with regardless of Speed. Beat the designated skills first to remove marks; a remaining mark causes additional damage equal to five times Final Power. Equipped Defense Skills also reduce damage without changing Power."
+    },
+    "passives.0.name": {
+      "sourceHash": "b6f40103b9699ffac00738bf4fbf84e3691c8ed7cb30242a0d215f6c0ba90dea",
+      "text": "Superposed Afterimage"
+    },
+    "passives.0.effect": {
+      "sourceHash": "56fa0f4cf3f5db563cee4de624fed85b265959306353544a54cfb059e41650a1",
+      "text": "At Stage Start, gain Fourfold Afterimage Entanglement.\nAt the start of the first turn of a pattern, gain (Afterimage Entanglement stage × 400) Disjunction.\n(Once per stage)\n\nLosing all Disjunction at stages 3 and 4 changes the pattern and Staggers the user throughout the next turn.\n\nHP damage, SP damage, and Stagger Threshold advancement from Burn, Bleed, Tremor, Rupture, and Sinking are reduced by 30%."
+    },
+    "passives.0.condition": {
+      "sourceHash": "3ea1bdab0b43a757fb82b89d8bea0d8fbf55aa596c0a1bb7cb28fdb1e44f3332",
+      "text": "Start of a stage; loss of Disjunction"
+    },
+    "passives.0.response": {
+      "sourceHash": "4a2bec7cb35fcc9544e16fb5ce660733759a657433ec24691c6eed3d0a6e6095",
+      "text": "Deplete the Shields in order. At stages 4 and 3, use the following turn's Stagger to attack."
+    },
+    "passives.1.name": {
+      "sourceHash": "18a008fd6d1dd78b97eee3846a475c79d0808e60755405f4c90308f9ed3d994e",
+      "text": "Afterimage of the Future"
+    },
+    "passives.1.effect": {
+      "sourceHash": "962f90df8474eb015037962919a3825d321a06fa1dfbd9c12cfc34d37621cda6",
+      "text": "Uses Destinated Opponent at specific turn intervals.\nOnly the designated attack target can clash with the skill.\n\nWhen Destinated Opponent loses a clash, take 36–60 fixed damage.\n\nAt Combat End, if every Destinated Opponent used this turn lost its clash, gain 1 Fragile next turn."
+    },
+    "passives.1.condition": {
+      "sourceHash": "28d313065551724ff930d99593f150cf3a72f7077dfae62f888cb1ba442a7fe8",
+      "text": "Use of Destinated Opponent"
+    },
+    "passives.1.response": {
+      "sourceHash": "a135d8969f6a764acd0c807c85c5460026115a68c5bcc5f07978f834945f1e2d",
+      "text": "Win with the marked Sinner to deal fixed damage and remove the mark."
+    },
+    "passives.2.name": {
+      "sourceHash": "cb79b88a1dadda104d4e7f335e1881068f68a57d4c71fbe2e064323193b4da8e",
+      "text": "'I Shall Give You Some Quarter'"
+    },
+    "passives.2.effect": {
+      "sourceHash": "bae6509f6f2418e611066d616d6e2963462f31f4e2bfca529f73de5bbbce59e7",
+      "text": "The user's skills deal 50% less final damage to targets that use Defense Skills.\n\nAt Turn End every 4 turns, gain 2 Fragile and 2 Damage Up for the rest of the encounter (stacks up to twice per encounter)."
+    },
+    "passives.2.condition": {
+      "sourceHash": "b441a76170e8afcd8f89dfd3547f7ba50764e4556b14f1a933e3bec9f666611e",
+      "text": "Use of Defense Skills; end of every fourth turn"
+    },
+    "passives.2.response": {
+      "sourceHash": "8f5da08c1909bc2f295ff9a6e1abc906e7dda63ff4f1c15760f8937e7ca14c2a",
+      "text": "Use defensive damage reduction against area attacks you cannot beat. It cannot solve the designated skill's prevention of Defense Skills."
+    },
+    "passives.3.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.3.effect": {
+      "sourceHash": "0804f0fa4d52f3714978ab27304a4967201a167c60f0bad58f6989865a95a97e",
+      "text": "At Turn End, if Panicked, set SP to 30"
+    },
+    "passives.3.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.3.response": {
+      "sourceHash": "8d170aad10b88adcdbbab7d01c55519cf77d651ef756af398e20a5f5c5f1e918",
+      "text": "SP recovers. Do not treat Panic-based weakening as permanent."
+    },
+    "passives.4.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.4.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.4.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.4.response": {
+      "sourceHash": "2b434d0e2eaf26ad81db32765cabd29994f5cfdcf50ea5be9a28710ce27aa303",
+      "text": "Use skill assignments and debuffs rather than relying on a different Panic Type."
+    },
+    "passives.5.name": {
+      "sourceHash": "369b1f9f0ac9a061e9a726c6ac0b5a07ba863d38d3e8675781cf0a5dbea07a5d",
+      "text": "Afterimage Reverberation"
+    },
+    "passives.5.effect": {
+      "sourceHash": "0e4dcc0e65db1364f7b2e9d666f1787f74a90265ac5ecad0d996428087b48e35",
+      "text": "On Coin hit, deal Slash damage equal to (that Coin's final damage ÷ 10). Trigger this once per Afterimage Entanglement stage. This damage cannot Stagger."
+    },
+    "passives.5.condition": {
+      "sourceHash": "2630754b16a86acd7ce7af04fe3871b2184e2d590c1480339d422478f3b931ee",
+      "text": "Coin hit"
+    },
+    "passives.5.response": {
+      "sourceHash": "6c8c8fb50fa50f90792854cc2c04f83b76fcbfa6d208692fa77c1aff96e72a4b",
+      "text": "Deals additional damage according to the Afterimage stage. Damage that cannot Stagger still reduces HP, so heal it."
+    },
+    "passives.6.name": {
+      "sourceHash": "397a72475d61d98d592adea73f381a4e6a88705be0a12644ce4d796285aac308",
+      "text": "Lacerating Afterimages from Myriad Moments"
+    },
+    "passives.6.effect": {
+      "sourceHash": "725a10c8f2c8e042142e8002c63fcd7befc3e95f74c21dbd89f8a4ad835bd5a3",
+      "text": "At the end of an Attack Skill, deal Slash damage to each target equal to (number of Slash Coins that critically hit × 10). This damage cannot Stagger.\n\nAt the end of an Attack Skill, consume all Poise above 20 and inflict Bladetrail [Afterimage] on the target equal to the amount consumed."
+    },
+    "passives.6.condition": {
+      "sourceHash": "0f899d044242a9097959b4fc1e10b1c80138f796b201fabf21047fa5160bde55",
+      "text": "Critical hits; Poise above 20"
+    },
+    "passives.6.response": {
+      "sourceHash": "c1775e4ab14b212d6eb7e9f76d06b111600ab00c91b7296487cf1637d4a1efda",
+      "text": "Watch for additional damage and Bladetrail; win against Phantom Step to reduce it."
+    }
+  },
+  "messages": {
+    "boss-copy:shiomi-yoru-rematch": "complete",
+    "【リンバス】9-41 塩見ヨル（9-41）の攻略｜Limbus Assistant": "9-41 Shiomi Yoru (9-41) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-41「塩見ヨル（9-41）」の攻略。最速の囚人が観望へ勝って敵を弱め、印の付いた本人が確定された相手を止める。ムルソー・ウーティスの剣痕を減らしながら段階ごとのバリアを削り、最後はHP半分まで進…": "Shiomi Yoru (9-41) guide for Limbus Company 9-41. Have the fastest Sinner beat Silent Regard to weaken the enemy, while each marked Sinner stops Destinated Opponent. Reduce Meursault and Outis's Bladetrail, deplete each stage's Shield, and finish by reaching half HP.",
+    "9-41 塩見ヨル（9-41）": "9-41 Shiomi Yoru (9-41)",
+    "9-41「Araya」": "9-41 · Araya",
+    "小指の親方 - 塩見ヨルの外見": "The Pinky Nursefather - Shiomi Yoru appearance",
+    "小指の親方 - 塩見ヨルのスキル": "The Pinky Nursefather - Shiomi Yoru skills",
+    "The Pinky Nursefather - Shiomi Yoruの外見": "The Pinky Nursefather - Shiomi Yoru appearance",
+    "The Pinky Nursefather - Shiomi Yoruのスキル": "The Pinky Nursefather - Shiomi Yoru skills"
+  }
+}

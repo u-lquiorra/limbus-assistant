@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0809.md",
+  "code": "0809",
+  "messages": {
+    "資源4個・加重値3で撃てる、軽量の憂鬱打撃の広域E.G.O。": "A lightweight multi-target Gloom Blunt E.G.O that can be fired for 4 resources with 3 Attack Weight.",
+    "軽さ: 必要資源は怠惰2・傲慢2、精神消耗は覚醒20。2コイン・加重値3の広域で、マッチ威力は10〜20。解析で威力や加重値は伸びない。": "**Lightweight**: Requires 2 Sloth and 2 Pride, with an Awakening Sanity cost of 20. A 2-Coin, 3-Attack-Weight multi-target attack with Clash Power 10–20. Threadspin does not raise its power or Attack Weight.",
+    "沈潜と破裂: 1コイン目で沈潜1(解析Ⅳは2)、2コイン目で破裂1(解析Ⅳは2)を付与する。": "**Sinking and Rupture**: The first Coin inflicts 1 Sinking (2 at Threadspin Ⅳ), and the second Coin inflicts 1 Rupture (2 at Threadspin Ⅳ).",
+    "百足の毒: 攻撃後、自分とメインターゲットのマイナス効果の種類の合計だけ付与される(最大5、解析Ⅲは8、Ⅳは10)。ターン終了時に数値ぶんの暴食ダメージを受けて半減する。暴食・憂鬱の共鳴が4以上なら追加される。": "**Centipede Venom**: After the attack, inflicted equal to the combined number of negative effect types on herself and the main target (up to 5, 8 at Threadspin Ⅲ, 10 at Ⅳ). At Turn End, the bearer takes Gluttony damage equal to its value, then it is halved. More is added at 4 or more Gluttony or Gloom Resonance.",
+    "蠱毒反殺: 沈潜を付与するたび、次のターンに攻撃レベル増加1を得る(最大2)。完全共鳴数が3以上なら上限が3になる。": "**Passive — Reversal Death by Gu Poison**: Each time she inflicts Sinking, she gains 1 Offense Level Up next turn, up to 2. With 3 or more Absolute Resonance, the cap becomes 3.",
+    "一掃できるほどの火力ではないので、弱点を突くか混乱中の敵に撃つと考えられる。": "Its damage is not enough to sweep enemies, so it is likely best fired to hit weaknesses or at staggered enemies.",
+    "沈潜付与を持つ人格と組み、次のターンのマッチ威力を底上げする。": "Pair it with Identities that inflict Sinking to raise next turn's Clash Power.",
+    "ZAYIN の E.G.O なので、同じ ZAYIN の銛穿ち(0801)とどちらを装備するか、耐性を見て選ぶと考えられる。": "As a ZAYIN E.G.O, choose between it and the fellow ZAYIN Snagharpoon (0801) based on resistances.",
+    "侵蝕スキルは減算コインで合計威力が低く、あえて使う理由は薄い。": "The Corrosion skill uses Minus Coins with low total power, so there is little reason to use it on purpose.",
+    "Ⅱ: 「蠱毒反殺」が解放される。解析コストを考えると、ここまでで十分と考えられる。": "**Ⅱ**: Unlocks Reversal Death by Gu Poison. Considering the Threadspin cost, this is likely enough.",
+    "Ⅲ: 百足の毒の上限が8になる。変化は小さい。": "**Ⅲ**: Centipede Venom's cap becomes 8. A small change.",
+    "Ⅳ: 沈潜・破裂・百足の毒がそれぞれ少し増える。優先度は低い。": "**Ⅳ**: Sinking, Rupture, and Centipede Venom each increase slightly. Low priority.",
+    "奥歯ボートセンターフィクサー: S1(傲慢)・S2(怠惰)で必要資源を出せ、沈潜を付与する。": "**[Molar Boatworks Fixer](persona:0807)**: S1 (Pride) and S2 (Sloth) supply the required affinities, and she inflicts Sinking.",
+    "定事務所代表: S2(怠惰)と守備(傲慢)で必要資源を出せ、S1〜S3が沈潜を付与する。": "**[Jeong's Office Rep](persona:0813)**: S2 (Sloth) and her Defense skill (Pride) supply the required affinities, and S1–S3 inflict Sinking."
+  }
+}

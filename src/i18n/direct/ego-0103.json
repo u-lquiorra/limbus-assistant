@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0103.md",
+  "code": "0103",
+  "messages": {
+    "麻痺と怠惰脆弱を付与しつつ、パッシブで毎ターン保護を得られる、器用な怠惰のE.G.O。": "A versatile Sloth E.G.O that inflicts Paralyze and Sloth Fragility while its passive grants protection every turn.",
+    "麻痺と怠惰脆弱: 覚醒スキルが的中時に怠惰脆弱1(解析Ⅲで2)、表面的中時に麻痺2(解析Ⅲで3)を付与する。麻痺は表面が必要なので運が絡む。": "**Paralyze and Sloth Fragility**: Awakening inflicts 1 Sloth Fragility on hit, increased to 2 at Threadspin Ⅲ. A Heads Hit inflicts 2 Paralyze, increased to 3 at Threadspin Ⅲ. Paralyze therefore depends on the Coin landing Heads.",
+    "最後方を攻撃: 覚醒スキルは最後方の対象を攻撃する(一般戦闘限定)。解析Ⅳで攻撃加重値が3になる。": "**Rearmost target**: Awakening attacks the rearmost target in Normal Encounters. At Threadspin Ⅳ, its Attack Weight becomes 3.",
+    "侵蝕スキル: 打撃・攻撃加重値3で、敵味方識別不可。的中時に怠惰脆弱1、解析Ⅲから的中時に麻痺2(解析Ⅱ以前は表面のみ)と、表面的中時に次のターンの束縛3を付与する。": "**Corrosion**: A Blunt skill with 3 Attack Weight that cannot distinguish friend from foe. Inflicts 1 Sloth Fragility on hit. From Threadspin Ⅲ, inflicts 2 Paralyze on hit instead of only on a Heads Hit, and a Heads Hit also inflicts 3 Bind next turn.",
+    "パッシブ「ドルハルバン」: 毎ターン、打撃保護と怠惰保護3を得る。使うだけで耐久が上がる。": "**Passive — Dol Hareubang**: Gains 3 Blunt Protection and 3 Sloth Protection each turn, improving durability after activation.",
+    "敵に麻痺と怠惰脆弱を付けて味方を助けるデバッファーとして使う。麻痺は表面が必要なので、確実さを求めるなら侵蝕スキルの方が付きやすい(解析Ⅲ以降)。": "Use it to support allies by inflicting Paralyze and Sloth Fragility. Awakening needs Heads for Paralyze; from Threadspin Ⅲ, Corrosion can apply it more reliably on hit.",
+    "必要資源は怠惰4・憂鬱1、精神消耗は覚醒・侵蝕とも20。": "Costs 4 Sloth and 1 Gloom. Awakening and Corrosion each cost 20 SP.",
+    "耐性は怠惰が耐性(×0.5)、暴食・憂鬱が脆弱(×2)。": "Sin resistances: Ineffective against Sloth (×0.5); Fatal to Gluttony and Gloom (×2).",
+    "Ⅱ: 「ドルハルバン」の解放のみ。": "**Ⅱ**: Only unlocks Dol Hareubang.",
+    "Ⅲ: 威力が上がり、覚醒スキルの怠惰脆弱・麻痺の付与量が増える。侵蝕スキルは麻痺が的中時に付き、束縛3が加わる。": "**Ⅲ**: Raises Power and the amount of Sloth Fragility and Paralyze on Awakening. Corrosion applies Paralyze on hit and inflicts 3 Bind next turn on a Heads Hit.",
+    "Ⅳ: 覚醒スキルが加重値3の広域になり、侵蝕スキルの威力が大きく上がる。": "**Ⅳ**: Awakening becomes a multi-target skill with 3 Attack Weight, and Corrosion gains substantial Power.",
+    "南部ディエーチ協会4課: S3と守備が怠惰で、必要資源の怠惰を出せる。": "**[Dieci Assoc. South Section 4](persona:0108)**: Sloth S3 and defense supply the Sloth resource requirement.",
+    "開花E.G.O::壇香梅: S2と守備が怠惰で、同じく怠惰を出せる。": "**[Effloresced E.G.O::Spicebush](persona:0104)**: Sloth S2 and defense likewise supply Sloth resources."
+  }
+}

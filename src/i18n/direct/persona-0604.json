@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0604.md",
+  "code": "0604",
+  "messages": {
+    "火傷回数を増やして火傷編成を支える人格。サポートパッシブ「暖かいですよね？」で控えから味方の火傷回数付与を増やす運用が主になる。": "An Identity that supports Burn teams by adding Burn Count. His main role is usually on the bench, where Isn’t It Warm? increases allies' Burn Count application.",
+    "サポートパッシブ「暖かいですよね？」(憤怒×4・保有・同期化Ⅲで取得): 精神力が最も高い味方1名の、攻撃スキルのスキル・コイン効果で付与する火傷回数の付与値+1。自分が出撃しないときに有効。": "**Support passive — Isn’t It Warm? (4 Wrath Owned; unlocked at Uptie Ⅲ)**: +1 to the Burn Count inflicted by the skill and Coin effects of attack skills of the 1 ally with the highest SP. It works when he is not deployed.",
+    "バトルパッシブ「沸き立ちますね～」(憤怒×4・保有・同期化Ⅱで取得): 自分の精神力が30以上のとき、攻撃スキルで付与する火傷回数+1。自分の憤怒スキルはS3「紅炎拳」のみなので、憤怒は味方に集めてもらう必要がある。": "**Combat passive — Flaring Up~ (4 Wrath Owned; unlocked at Uptie Ⅱ)**: While his SP is 30 or more, +1 Burn Count inflicted by his attack skills. His only Wrath skill is S3 Crimson Blaze Fist, so allies need to supply the Wrath.",
+    "S2「流れる炎」: Ⅱコインで火傷回数を増やし、自分の精神力が30以上・45以上でさらに増える。対象の火傷回数が6以上ならコイン威力+2。": "**S2 — Flowing Flame**: Coin Ⅱ increases Burn Count, more at 30 or more and 45 or more of his own SP. +2 Coin Power if the target has at least 6 Burn Count.",
+    "精神力の確保: S1「身体をほぐす」は使用時に精神力3回復、S3はⅡコインの表面的中で精神力6回復。": "**Securing SP**: S1 Warm Up restores 3 SP on use, and S3 restores 6 SP on Coin Ⅱ Heads Hit.",
+    "S3: 対象の火傷回数が6以上なら、Ⅱコインでダメージ量の30%分混乱区間を前進させる。": "**S3**: If the target has at least 6 Burn Count, Coin Ⅱ shifts the Stagger Threshold by 30% of the damage dealt.",
+    "火傷編成では、控えに置いて「暖かいですよね？」で味方の火傷回数付与を増やす。出撃させる場合は、S1・S3で精神力を30以上に保ち、S2で火傷回数を積む。どちらのパッシブも憤怒×4保有が条件なので、憤怒スキルを持つ味方を編成に入れる。": "In Burn teams, place him in backup to increase allies' Burn Count infliction with Isn’t It Warm?. When deploying him, keep his SP at 30 or more with S1 and S3, and stack Burn Count with S2. Both passives require 4 Wrath Owned, so include allies with Wrath skills in the team."
+  }
+}

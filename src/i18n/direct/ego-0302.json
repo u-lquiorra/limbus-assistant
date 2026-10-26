@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0302.md",
+  "code": "0302",
+  "messages": {
+    "高威力の1コイン打撃で敵の精神力を削り、精神力のある敵を押し込む憂鬱E.G.O。": "A Gloom E.G.O that drains enemy SP with a high-power 1-Coin Blunt attack and pushes enemies that have SP.",
+    "高威力と精神力ダメージ: 表面で最大33(解析Ⅲは38)の1コイン打撃。表面的中時に振動爆発、的中時に精神力へ15(解析Ⅲは25)のダメージを与える。": "**High power and SP damage**: A 1-Coin Blunt attack reaching up to 33 on Heads (38 at Threadspin Ⅲ). Triggers Tremor Burst on Heads Hit and deals 15 SP damage on hit (25 at Threadspin Ⅲ).",
+    "追加ダメージ(解析Ⅲ): 対象が混乱・士気低下・パニックのとき、与ダメージ量の30%分を追加で与える。": "**Extra damage (Threadspin Ⅲ)**: Deals an additional 30% of the damage dealt when the target is staggered, in Low Morale, or panicking.",
+    "広域化と沈潜(解析Ⅳ): 攻撃加重値が3になり、的中時に沈潜2を付与する。複数部位の敵に撃てば精神力を一気に削れると考えられる。": "**Multi-target and Sinking (Threadspin Ⅳ)**: Attack Weight becomes 3, and it inflicts 2 Sinking on hit. Used against multi-part enemies, it can likely drain SP all at once.",
+    "侵蝕スキル: 的中時に振動と沈潜を付与する(付与量は解析で5から7、10へ)。精神力のない敵でも沈潜が憂鬱ダメージになる。": "**Corrosion skill**: Inflicts Tremor and Sinking on hit, with the amount growing from 5 to 7 to 10 through Threadspin. Even against enemies without SP, Sinking turns into Gloom damage.",
+    "パッシブ「押し寄せる憂鬱」: パネル最右のスキルで攻撃した対象に、終了時(憂鬱完全共鳴数×2)の精神力ダメージ。補助程度。": "**Passive — Wave of Depression**: Targets attacked by the rightmost skill on the panel take (Gloom Absolute Resonance×2) SP damage at the end. A minor bonus.",
+    "精神力のある敵に撃って精神力を削り、士気低下やパニックへ追い込む。敵の精神力が下がればコインの表が出にくくなり、マッチも有利になると考えられる。": "Use it on enemies with SP to drain it and push them into Low Morale or Panic. Lower enemy SP makes Heads less likely for them, likely tilting Clashes in your favor too.",
+    "最大威力が高く、表が出れば多くの攻撃にマッチ勝利しやすい。": "Its maximum power is high, so on Heads it can win Clashes against many attacks.",
+    "精神力のない敵には侵蝕スキルの沈潜が主な手段になるが、E.G.O侵蝕で使われると敵味方を問わず攻撃する。": "Against enemies without SP, the Corrosion skill's Sinking is the main tool, but when used through E.G.O Corrosion it attacks friend and foe alike.",
+    "必要資源は憂鬱4・傲慢2・色欲1。憂鬱が重いので、使いどころを絞る。": "It requires 4 Gloom, 2 Pride, and 1 Lust. The Gloom cost is heavy, so pick its moments carefully.",
+    "Ⅱ: 「押し寄せる憂鬱」が解放されるが、効果は小さい。": "**Ⅱ**: Unlocks Wave of Depression, but the effect is small.",
+    "Ⅲ: 基本威力と精神力ダメージが上がり、混乱中などの追加ダメージが付く。単体の敵が相手ならここまでで足りると考えられる。": "**Ⅲ**: Raises Base Power and SP damage, and adds extra damage against staggered targets and similar. Against a single enemy, this is likely enough.",
+    "Ⅳ: 広域化と沈潜付与が入る。複数部位の敵に当てるなら価値が高い。": "**Ⅳ**: Adds multi-target attacks and Sinking infliction. Valuable when hitting multi-part enemies.",
+    "人差し指代行者-開花E.G.O::代行: 沈潜を付与し、色欲・傲慢・憂鬱のスキルで必要資源をすべて出せる。": "**[The Index Proxy - Effloresced E.G.O:: Procuration](persona:0314)**: Inflicts Sinking, and her Lust, Pride, and Gloom skills supply all of the required affinities.",
+    "黒獣-未: 破砕角(憂鬱)と突破(色欲)で必要資源の一部を出せ、突破と破砕角が沈潜も付与する。": "**[Heishou Pack - Wei Branch](persona:0313)**: Crushing Horns (Gloom) and Breakthrough (Lust) supply some of the required affinities, and both also inflict Sinking."
+  }
+}

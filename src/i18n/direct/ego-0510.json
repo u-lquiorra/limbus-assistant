@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0510.md",
+  "code": "0510",
+  "messages": {
+    "灰色の弾丸5で資源を払わずに撃ち、充電・呼吸・沈潜を積んで貫通火力を出す、7枠広域のWAW傲慢E.G.O。": "A 7-target WAW Pride E.G.O that fires without paying resources at 5 Ashen Bullet and stacks Charge, Poise, and Sinking to deal Pierce damage.",
+    "灰色の弾丸: パッシブにより、弾丸が5なら資源を消費せずに撃てる。ターン開始時に弾丸が1増える。足りなくても、攻撃前に精神力を払って最大まで補える。": "**Ashen Bullet**: Through the passive, it can be fired without spending resources at 5 Bullets. Bullets increase by 1 at Turn Start. If short, he can pay SP before attacking to top them up to the maximum.",
+    "再使用される1コイン目: 破壊不能で、メインターゲットにだけ的中する。弾丸を消耗し、弾丸が残る限り再使用される(スキルにつき4回まで)。実質は単体攻撃と考えてよい。": "**Reused first Coin**: Unbreakable and only hits the main target. It spends Bullets and is reused as long as Bullets remain, up to 4 times per skill. In practice, it can be treated as a single-target attack.",
+    "充電・呼吸・黒い翼: 攻撃前に呼吸威力と充電を得て、(呼吸威力+充電)と弾丸でマッチ威力が上がる。黒い翼はターン開始時に充電と攻撃レベルを増やす。": "**Charge, Poise, and Black Wings**: Before attacking, he gains Poise Potency and Charge, and (Poise Potency + Charge) and Bullets raise Clash Power. Black Wings increase Charge and Offense Level at Turn Start.",
+    "沈潜と貫通脆弱: 1コイン目の的中時に貫通脆弱と沈潜を付与し、2コイン目で沈潜回数を増やす。": "**Sinking and Pierce Fragility**: The first Coin inflicts Pierce Fragility and Sinking on hit, and the second Coin increases Sinking Count.",
+    "侵蝕スキル: 2コイン目の裏面確率は弾丸×20%で、弾丸が5なら確実に裏面。表面だと攻撃が当たらない。": "**Corrosion skill**: The second Coin's chance of Tails is Bullets×20%, guaranteeing Tails at 5 Bullets. On Heads, the attack does not hit.",
+    "弾丸を5にして撃ち、資源の負担なしで高火力を出す。弾丸が足りないときは精神力を払って補う。": "Fire it at 5 Bullets to deal heavy damage with no resource burden. When short on Bullets, pay SP to make up the difference.",
+    "呼吸と充電を事前に積んでから撃つと、威力とクリティカルがさらに伸びる。": "Building Poise and Charge before firing further raises its power and Critical Hits.",
+    "1コイン目が単体向けなので、狙う敵を決めて撃つ。広域部分は巻き込み分の火力になる。": "The first Coin is single-target, so decide which enemy to aim at. The multi-target part is extra damage on the enemies caught in it.",
+    "Ⅱ: 「レモラジー・アンテルヌ」が解放される。": "**Ⅱ**: Unlocks L'Hémorragie interne.",
+    "Ⅲ: 基本威力が12になり、クリティカル強化と、攻撃対象1名のときのダメージ量増加が付く。": "**Ⅲ**: Base Power becomes 12, and the Critical bonus and the damage increase against a single target are added.",
+    "Ⅳ: コイン威力が+2になり、対象1名時の増加が100%に、充電によるコイン威力増加が付く。": "**Ⅳ**: Coin Power becomes +2, the single-target increase becomes 100%, and Charge-based Coin Power is added.",
+    "南部ディエーチ協会4課部長: 沈潜を付与するスキルを持ち、このE.G.Oの沈潜付与と重ねて沈潜を軸に組める。": "**[Dieci Assoc. South Section 4 Director](persona:0510)**: Has skills that inflict Sinking, so a Sinking-centered team can stack it with this E.G.O's Sinking.",
+    "西部センク協会3課: 貫通スキルで呼吸を得て、呼吸威力が積みやすい。": "**[Cinq Assoc. West Section 3](persona:0511)**: Gains Poise with his Pierce skills, making Poise Potency easy to build."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0806.md",
+  "code": "0806",
+  "messages": {
+    "2コイン目が表面的中するたびにコインを再使用し、表が続くほど火力が跳ね上がる暴食斬撃の単体E.G.O。": "A single-target Gluttony Slash E.G.O that reuses its second Coin each time it lands Heads, with damage soaring the longer the Heads streak lasts.",
+    "コイン再使用: 2コイン目の表面的中で、そのコインを再使用する(最大5回、合計7コイン)。再使用のたびに精神力が1〜2減る。基本威力が3と低く、伸びるかは運に左右される。": "**Coin reuse**: On Heads Hit, the second Coin is reused (up to 5 times, 7 Coins total). Each reuse costs 1–2 SP. Base Power is a low 3, so whether it grows depends on luck.",
+    "暴食脆弱と出血: 2コイン目の的中ごとに暴食脆弱1と出血を付与する。再使用で重なるほど後のコインが痛くなる。": "**Gluttony Fragility and Bleed**: Each second-Coin hit inflicts 1 Gluttony Fragility and Bleed. The more it stacks through reuse, the harder later Coins hit.",
+    "自己回復: 1コイン目の的中で体力最大値の15%(解析Ⅲは18、Ⅳは20)を回復する。解析Ⅲから、体力上限を超えた回復分が体力比率の最も低い味方に回る。": "**Self-healing**: On first Coin hit, heals 15% of max HP (18 at Threadspin Ⅲ, 20 at Ⅳ). From Threadspin Ⅲ, healing beyond her max HP goes to the ally with the lowest HP ratio.",
+    "食い意地: スキル使用時にメインターゲットがそのターンにダメージを受けていれば、的中時に体力が最大ならダメージ量5〜10%増、減っていれば体力を2〜5回復する(1ターン最大7回)。": "**Passive — Gluttony**: On skill use, if the main target has taken damage that turn, on hit it deals 5–10% more damage if her HP is full, or heals 2–5 HP if it is not (up to 7 times per turn).",
+    "侵蝕スキル: 体力が最も低い対象を狙い、味方5名にも割合ダメージを与えて自分を回復する。巻き込みに注意する。": "**Corrosion skill**: Targets the lowest-HP target and also deals percentage damage to 5 allies to heal herself. Beware of catching allies.",
+    "精神力が高い状態で撃つ。精神力が下がると裏面が増え、再使用が続かない。": "Fire it with high SP. As SP drops, Tails increases and the reuse chain does not last.",
+    "他の人格が先にダメージを入れてから撃つと、「食い意地」が発動する。": "Firing it after other Identities have dealt damage activates Gluttony.",
+    "暴食資源を出せる人格と組み、必要資源(色欲1・暴食3・傲慢2)を揃える。": "Pair it with Identities who can supply Gluttony to gather the required resources (1 Lust, 3 Gluttony, 2 Pride).",
+    "Ⅱ: 「食い意地」が解放される。火力の核は解析Ⅰから変わらない。": "**Ⅱ**: Unlocks Gluttony. Its core damage is unchanged from Threadspin Ⅰ.",
+    "Ⅲ: 回復量が増え、余剰回復を味方へ回せる。侵蝕スキルも強化される。": "**Ⅲ**: Increases healing, letting surplus healing go to allies. The Corrosion skill is also strengthened.",
+    "Ⅳ: 回復量がさらに増え、侵蝕スキルに敵討伐時の攻撃威力増加が付く。覚醒の火力の伸びは出血の上限増加と回復量の増加にとどまり、優先度は低いと考えられる。": "**Ⅳ**: Further increases healing, and the Corrosion skill gains Attack Power Up on kills. Awakening's damage gains are limited to a higher Bleed cap and more healing, so it is likely a low priority.",
+    "LCCB係長: S1(暴食)・S3(傲慢)で必要資源を出せる。": "**[LCCB Assistant Manager](persona:0804)**: S1 (Gluttony) and S3 (Pride) supply the required affinities.",
+    "エドガー家 バトラー: S2(暴食)で資源を出せ、パッシブが、速度が自分より低い対象へのクリティカル的中時に威力を1追加するので、暴食脆弱を重ねやすいと考えられる。": "**[Edgar Family Butler](persona:0809)**: S2 (Gluttony) supplies resources, and her passive adds 1 Potency on Critical Hits against targets slower than her, likely making Gluttony Fragility easy to stack."
+  }
+}

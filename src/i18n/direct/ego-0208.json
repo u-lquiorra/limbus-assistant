@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0208.md",
+  "code": "0208",
+  "messages": {
+    "全味方へ呼吸を配り、使用後は毎ターンの自動回復も得られる、攻撃より支援向けの傲慢貫通E.G.O。": "A Pride Pierce E.G.O geared more toward support than offense: it hands out Poise to all allies and grants automatic healing every turn after use.",
+    "呼吸の配布: 攻撃前に全味方へ呼吸威力を最大共鳴数だけ付与する(最大4、解析Ⅲで6)。傲慢共鳴3以上なら呼吸回数と「荒い呼気」も付く。": "**Distributing Poise**: Before attacking, gives all allies Poise Potency equal to the highest Resonance, up to 4, or 6 at Threadspin Ⅲ. With 3 or more Pride Resonance, it also grants Poise Count and Shallow Exhale.",
+    "パッシブ「息」: 使用の次のターンからネブライザーαが増える(最大5)。ターン終了時に最大共鳴数名の味方の体力を、体力の割合が低い順に最大値のα%ずつ回復する。": "**Passive — Breath**: From the turn after use, Nebulizer α increases, up to 5. At Turn End, it heals a number of allies equal to the highest Resonance, in order of lowest HP ratio, by α% of their max HP each.",
+    "呼吸が多い味方: 回復対象の呼吸威力が20以上なら回復がもう1回発動する。荒い呼気は、呼吸威力20以上の人格が呼吸を得るとき回数を1増やす。": "**Allies with plenty of Poise**: If a healed target has at least 20 Poise Potency, the heal triggers once more. Shallow Exhale increases the Count by 1 when an Identity with at least 20 Poise Potency gains Poise.",
+    "自身の強化: 解析Ⅲで的中時に自分の呼吸回数が増え、クリティカルダメージ量が上がる(解析Ⅳで最大40%)。": "**Self-buffs**: At Threadspin Ⅲ, it increases her own Poise Count on hit and raises Critical damage, up to 40% at Threadspin Ⅳ.",
+    "侵蝕スキル: 呼吸威力が20未満のとき20まで得て、得た分×2%の最大体力を消耗する(混乱・死亡はしない)。覚醒の効果はそのまま付く。": "**Corrosion skill**: If her Poise Potency is below 20, she gains Poise up to 20 and spends max HP equal to 2% per Poise gained, without being staggered or killed. The Awakening effects still apply.",
+    "危なくなってから撃つより、戦闘の早い段階で撃って自動回復を溜める。": "Rather than waiting until things get dangerous, use it early in the fight to start accumulating the automatic healing.",
+    "傲慢共鳴を3以上にして撃ち、呼吸回数も配る。": "Use it with 3 or more Pride Resonance to hand out Poise Count as well.",
+    "攻撃は控えめ(加重値3で2コイン)なので、呼吸と回復が目的。味方が少ないほど回復が遅いと考えられる。": "Its attack is modest (2 Coins with 3 Attack Weight), so Poise and healing are the goal. The fewer allies there are, the slower the healing likely is.",
+    "Ⅱ: パッシブが解放され、呼吸配布と回復の中核が揃う。": "**Ⅱ**: Unlocks the passive, completing the core of Poise distribution and healing.",
+    "Ⅲ: 呼吸配布の上限と自分の呼吸獲得、クリティカル強化が加わる。": "**Ⅲ**: Adds a higher Poise distribution cap, her own Poise gain, and the Critical buff.",
+    "Ⅳ: 威力とクリティカル強化が伸びるが、優先度は低いと考えられる。": "**Ⅳ**: Increases power and the Critical buff, but is likely a low priority.",
+    "人差し指遂行者：【紙片】: S1が怠惰、S2が傲慢、S3が憂鬱で必要資源の3属性を出せ、呼吸を使う人格。": "**[The Index Proselyte: 【Paper Slip】](persona:0214)**: A Poise Identity with Sloth S1, Pride S2, and Gloom S3, covering all three required affinities.",
+    "剣契殺手: S1が怠惰、S2が傲慢、S3が憂鬱で必要資源の3属性を出せ、呼吸を使う人格。": "**[Blade Lineage Salsu](persona:0208)**: A Poise Identity with Sloth S1, Pride S2, and Gloom S3, covering all three required affinities."
+  }
+}

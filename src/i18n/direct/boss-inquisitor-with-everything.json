@@ -1,0 +1,532 @@
+{
+  "kind": "boss-copy",
+  "id": "inquisitor-with-everything",
+  "source": "src/data/bosses/inquisitor-with-everything.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": []
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "732a8e06bec05c6cfd18175fc29dabf277b0891fc8faf9ea55c48ed1d2ceaa8c",
+      "text": "Everything There of an Inquisitor and Proceeding Inquisitor (Canto III)"
+    },
+    "shortName": {
+      "sourceHash": "f1f11e6d147db61f2cf4969c1469b654c7c0758aa3108b823aaadc7c9b8530d3",
+      "text": "Everything There of an Inquisitor and allies"
+    },
+    "stageName": {
+      "sourceHash": "a7bd58335af6dab58fb6003eec51dc96cf2848108c9a0f86f64d06dd3c8e197c",
+      "text": "K-02 Branch, Floor 2: Sacristy"
+    },
+    "lead": {
+      "sourceHash": "bf894213ed78662a3eb499ba4b30eb3d50fb3071cf0e70409d0497f6d7c3a608",
+      "text": "Deal attack damage to every enemy to reduce Instincts, lowering Power and Protection. However, a strong first hit against the imitation Counter lets it return that skill's Power. Hit enemies readying the Counter first with a fast Sinner's weak skill, and keep them out of multi-target E.G.O attacks."
+    },
+    "listLead": {
+      "sourceHash": "25e7681b33ca8905e2ad698200ceb9798764b945c4fb68a5e438d073e877c304",
+      "text": "Hit every enemy to remove buffs. Check order and area coverage so a powerful skill does not hit the imitating Counter first."
+    },
+    "statNote": {
+      "sourceHash": "e8d9c58f4b42ca6f46f52601715c8bd09ec7967f87c24346a0a3e9b24a082591",
+      "text": "A 4-enemy battle in the Sacristy on Floor 2 of the Canto III dungeon. There are 2 Lv. 26 Everything There of an Inquisitor units (302 main-body HP, 211 Part HP, Defense Level 30) and 2 Proceeding Inquisitors (242 main-body HP, 170 Part HP, Defense Level 28). These differ from the Floor 1 Lv. 24 and Floor 3 Lv. 29 versions and fixed-slot Refraction Railway versions."
+    },
+    "skillNote": {
+      "sourceHash": "705df9363d0cc2b07beef85278391f2b6667eb61723277631fd6331c7fffa05b",
+      "text": "The 4 shared skills are listed by user, giving 8 entries. Imperfect Imitation's Power, Coin Power, and Coin count depend on the attack it receives, so fixed values are not shown. It copies those numbers but retains Lust, Slash, and the enemy's own level; it does not copy On Hit or On Use effects."
+    },
+    "priorities.0": {
+      "sourceHash": "d835617029ede2fd0fc8e32807d0e5ec351622ba049902f115eae4d81861fce0",
+      "text": "Deal attack damage to every enemy from the opening to lower Instincts. Each instance of at least 1 attack damage reduces Instincts by 1, lowering Power and Protection."
+    },
+    "priorities.1": {
+      "sourceHash": "f82634ab6e6f543f7a87ddc5e458ee6fcb9f67a8dce2cf98593fc6aabfb62206",
+      "text": "Imperfect Imitation is an ordinary Counter and cannot be Offset. Make a fast Sinner's weak skill the first hit, and check that multi-target E.G.O does not also hit that enemy."
+    },
+    "priorities.2": {
+      "sourceHash": "fdbbe64e2def035d26fc9871c312507a01f94178ee490a9e8753dbf53a797f5f",
+      "text": "An enemy that takes no attack damage heals 5% HP and gains 1 Instincts at Turn End. Avoid leaving enemies untouched, but do not force a strong hit into a Counter when no safe weak skill is available."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "e41a31af24c4801cf9e68fe79d107824a4f56f564f4045201f964ca09bd8ecea",
+      "text": "A strong E.G.O attack got my Sinner killed by the Counter"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "b86b493758d8f14adbd0a6ef93f8e6795edffb7ec7c440880dff82129303856c",
+      "text": "The imitation Counter copies the Power, Coin Power, and Coin count of the first attack received. It also activates if hit as an additional target of a multi-target attack. Land a fast Sinner's weak skill first, or exclude that enemy from the multi-target attack."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "ace523f7037f2294b9c498d8248443092865033b6f576da6fa72a169e06ccf4f",
+      "text": "The enemy healed and grew stronger despite having Burn"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "3c70cab5e608f13aa7bcc2fd3598e653a6792aa9fd071d4b08e93cc219300ea5",
+      "text": "Reducing Instincts and preventing healing requires at least 1 attack damage. Status damage alone does not satisfy the condition."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "2cf494182cf98473cff90208aaf4f149cf69ba1bc937c7930f51d71a41cdf4f9",
+      "text": "Weak hits are not reducing Instincts"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "a61919b3bdea5c8371061356bd39a15c885eb4863def7e27ac5e0ebba70b1d3b",
+      "text": "If Protection or resistances reduce attack damage to 0, Damaged Arms does not activate. Choose a skill that can deal at least 1 damage. Against a Counter, also avoid using excessive Power."
+    },
+    "units.0.name": {
+      "sourceHash": "1130be312349a4cd3ffd8a86a66395b18fd6a40646eca758bcd13bacd050b847",
+      "text": "Everything There of an Inquisitor"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "e794c123ef8165e91003166d10c8b2953e803bd768f6ed5fac052fe5aece349d",
+      "text": "302 (main body) / 211 (Part)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "d5eed88dbfbf6628456ce0fb43d7d306f21e6c086043f6c1e9edfe4cef3ff59f",
+      "text": "2 enemies. Start with 4 Instincts and gain Attack Power Up and Protection equal to Instincts."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "d65014dbf7697a982971579609cf16245c5ef8c755ba6bb23cbf26b59da83026",
+      "text": "Normally has 2 actions. Skills change with Instincts. Continues acting and remains targetable after Part destruction."
+    },
+    "units.1.name": {
+      "sourceHash": "022c063502cf6b69e0846a2a9c248a3a6f4f3d4241ce90edbde60461d3ae9aa9",
+      "text": "Proceeding Inquisitor"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "89dd71ecad6bf4d7b5cfc3f410c3c923297f270eceba0c36ae619b1348a1333b",
+      "text": "242 (main body) / 170 (Part)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "fe26e2875d7fc3b6be6abf00a358684048f51c6f7ab9b2fd993536938c155070",
+      "text": "2 enemies. Start with 2 Instincts; has 1 action below 4 Instincts and 2 actions at 4 or more."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "be27e5e7b6d084408c0dd35f1da78cb25c8f95d1659c22ec2996c7a2d4981b24",
+      "text": "Continues acting and remains targetable after Part destruction. Keep its starting Instincts and Defense Level distinct from the other type."
+    },
+    "phases.0.timing": {
+      "sourceHash": "94c6d060746378f73ad2e631b78d78148b592d27b5a5f26d14df8f3e3438320b",
+      "text": "Opening / 4 and 2 Instincts"
+    },
+    "phases.0.title": {
+      "sourceHash": "2cd154a2ae5e299282994555f4281df38c653afcc0105e97deb9979702a12e99",
+      "text": "Check Counters and lower Instincts across the enemy team"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "3db89bb253598db0451eb37dfcd405a79abde375a63511375b9a98f9760a843e",
+      "text": "The 2 Everything There of an Inquisitor units start with 4 Instincts; the 2 Proceeding Inquisitors start with 2. More Instincts means more Attack Power Up and Protection."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "2bbdb32ae470a66b321d6734952fe785ca9744073ed64b210692df181202d600",
+      "text": "Deal at least 1 attack damage to each enemy to reduce Instincts. With ×0.5 Slash and ×0.75 Pierce resistance, Blunt is the better physical option. Wrath and Envy are also effective."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "3068659a1c2bc3f0f561d23ea49dfd0742cf8c58acd94fbfe8b5ad9f64505737",
+      "text": "First identify enemies readying Counters. Before hitting everyone with a multi-target attack, check actual targets to avoid triggering a high-Power imitation Counter."
+    },
+    "phases.1.timing": {
+      "sourceHash": "e2fbb5ae7fcd13273ab641c3342c2474ed0b25d2ff490fe12207bd92443e16b9",
+      "text": "Turns with Imperfect Imitation"
+    },
+    "phases.1.title": {
+      "sourceHash": "96604b5b32fba66e4e639c423495039262f6bc9c51e7fb99f2e700706773298e",
+      "text": "Land a weak skill first"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "48cfda1207560e35d5c0605e787486171130919996b3243c12326ea8f39d0842",
+      "text": "Among Sinners attacking that enemy, give the fastest one a weak skill. Its Power, Coin Power, and Coin count are copied, so do not make a strong many-Coin skill or E.G.O the first hit."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "5ac843dbf694a440e12bc6d2ad48a732c96691798bf9cc7f69e00c678e1009cc",
+      "text": "The Counter keeps the enemy's Sin affinity, attack type, and level. Even if your attack is Blunt or another affinity, the response remains Lust and Slash. Also account for its 10 SP damage On Use."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "7b99fa1014ff715a218c69682ebd7dfd8434b6f98d32d65bb9aad577e7f18926",
+      "text": "Ordinary Counters cannot be Offset with defense. If no safe weak skill is available, avoid a reckless attack even if that allows HP healing and Instincts gain. Staggering it with the first attack can prevent the Counter, but Protection and resistances make this reliable only when the attack can certainly reach the Threshold."
+    },
+    "phases.2.timing": {
+      "sourceHash": "7c4e7b975a457a710341174087bb9b8d1d60e15be3be04a4a9508e844520f94b",
+      "text": "After lowering Instincts / preventing recovery"
+    },
+    "phases.2.title": {
+      "sourceHash": "cd3aafa7122e180d091cd0e3b14da6de4f3fa3d6ddbdf8cc37276a5f5e2a7dc9",
+      "text": "Stop no-hit healing and Adjust Shell"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "8b6ba841e336be7d05b9ba57ceb3147d2cf5d240af69556202e1771b05e0278b",
+      "text": "Enemies that took no attack damage heal 5% HP and gain 1 Instincts at Turn End. In particular, leaving an enemy at 3 Instincts untouched lets it return to 4 and become aggressive."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "0a3335b82745a12737065ad1a35c5c9df068dc749124aa41ba7b34c924f1d4ac",
+      "text": "Adjust Shell heals 10% max HP and grants 1 Instincts on hit. Win the Clash with a strong skill and also deal attack damage. Status damage alone cannot prevent the healing condition."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "86b650c901f6f7809200f97ab116ce552911c7ece667b1d630afacbc913ce6f7",
+      "text": "Even after lowering Instincts, blindly hitting a Counter with a strong attack is dangerous. Check every enemy's Instincts and readied skills, then Stagger and defeat weakened enemies."
+    },
+    "skills.0.name": {
+      "sourceHash": "93abd7b95669daeacd8fd59b37b1154b523678933d6baf19b6f137562c92a8a7",
+      "text": "Eerie Eyes"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "c9d665723d06e6214f4c71315632b526aeaf21244fc81be84eba689ac693fbf5",
+      "text": "Ⅰ[On Hit] Deal 5 SP damage to the target."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "b98c9ca387bd522c84265bf3f5335bba248aab0c267204671342f7a56df3e8c5",
+      "text": "Ⅱ[On Hit] Deal 5 SP damage to the target."
+    },
+    "skills.0.response": {
+      "sourceHash": "7be815b4d5a60e66c5b2967342f9ae2a87fa7e56c86657883d5dc9dca7f9ce41",
+      "text": "Each of the 2 Coins deals 5 SP damage on hit. Even low displayed Power is strengthened by Attack Power Up from Instincts; hits also damage your SP. Win Clashes while reducing Instincts."
+    },
+    "skills.1.name": {
+      "sourceHash": "93abd7b95669daeacd8fd59b37b1154b523678933d6baf19b6f137562c92a8a7",
+      "text": "Eerie Eyes"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "c9d665723d06e6214f4c71315632b526aeaf21244fc81be84eba689ac693fbf5",
+      "text": "Ⅰ[On Hit] Deal 5 SP damage to the target."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "b98c9ca387bd522c84265bf3f5335bba248aab0c267204671342f7a56df3e8c5",
+      "text": "Ⅱ[On Hit] Deal 5 SP damage to the target."
+    },
+    "skills.1.response": {
+      "sourceHash": "7be815b4d5a60e66c5b2967342f9ae2a87fa7e56c86657883d5dc9dca7f9ce41",
+      "text": "Each of the 2 Coins deals 5 SP damage on hit. Even low displayed Power is strengthened by Attack Power Up from Instincts; hits also damage your SP. Win Clashes while reducing Instincts."
+    },
+    "skills.2.name": {
+      "sourceHash": "9c9e1c72faa7794010287f2e18ce910303c775b3d1bfee32c52c200581d34764",
+      "text": "Imperfect Imitation"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "96273388113c2ae2d6044682c1aba9732ac8b88a291a165683dff7249261d477",
+      "text": "Imitate the attack received."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "974145c04cfe853a5f2696d2ed9527f3f0d7eef055e352845a957ba9fd446434",
+      "text": "[On Use] Deal 10 SP damage to the target."
+    },
+    "skills.2.label": {
+      "sourceHash": "eb113aca6c6dda4c3d1f32b5dcfe70d770c19f9ae8d1ed977440cdd6db56a7ba",
+      "text": "Ordinary Counter / copies the received skill's Power and Coin count"
+    },
+    "skills.2.response": {
+      "sourceHash": "bc9c3bf6f4acf127151b1776e3d0d3d28e486305a0d945adab436c323043dba2",
+      "text": "An ordinary Counter that copies the received skill's Power, Coin Power, and Coin count. Land a fast Sinner's weak skill first. Multi-target E.G.O also triggers it, so do not lead with a strong skill. It cannot be Offset with defense."
+    },
+    "skills.3.name": {
+      "sourceHash": "9c9e1c72faa7794010287f2e18ce910303c775b3d1bfee32c52c200581d34764",
+      "text": "Imperfect Imitation"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "96273388113c2ae2d6044682c1aba9732ac8b88a291a165683dff7249261d477",
+      "text": "Imitate the attack received."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "974145c04cfe853a5f2696d2ed9527f3f0d7eef055e352845a957ba9fd446434",
+      "text": "[On Use] Deal 10 SP damage to the target."
+    },
+    "skills.3.label": {
+      "sourceHash": "eb113aca6c6dda4c3d1f32b5dcfe70d770c19f9ae8d1ed977440cdd6db56a7ba",
+      "text": "Ordinary Counter / copies the received skill's Power and Coin count"
+    },
+    "skills.3.response": {
+      "sourceHash": "bc9c3bf6f4acf127151b1776e3d0d3d28e486305a0d945adab436c323043dba2",
+      "text": "An ordinary Counter that copies the received skill's Power, Coin Power, and Coin count. Land a fast Sinner's weak skill first. Multi-target E.G.O also triggers it, so do not lead with a strong skill. It cannot be Offset with defense."
+    },
+    "skills.4.name": {
+      "sourceHash": "d31f71d06c28850096847e6cf73f32fb5089dc991532d753348597660d7779ce",
+      "text": "Adjust Shell"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "ade3c5f354cb48a34a918f5626e10a909b68411b120fb92e12e3a35d51294a00",
+      "text": "Ⅰ[On Hit] Heal 10% of max HP. Gain 1 Instincts."
+    },
+    "skills.4.response": {
+      "sourceHash": "ff410ef03396eca93750d2ec537517b1266133a6877a6f837be92ed9136af949",
+      "text": "On Hit heals 10% max HP and grants 1 Instincts. Account for Attack Power Up in the prediction and use a strong Clash to stop healing and renewed bonuses."
+    },
+    "skills.5.name": {
+      "sourceHash": "d31f71d06c28850096847e6cf73f32fb5089dc991532d753348597660d7779ce",
+      "text": "Adjust Shell"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "ade3c5f354cb48a34a918f5626e10a909b68411b120fb92e12e3a35d51294a00",
+      "text": "Ⅰ[On Hit] Heal 10% of max HP. Gain 1 Instincts."
+    },
+    "skills.5.response": {
+      "sourceHash": "ff410ef03396eca93750d2ec537517b1266133a6877a6f837be92ed9136af949",
+      "text": "On Hit heals 10% max HP and grants 1 Instincts. Account for Attack Power Up in the prediction and use a strong Clash to stop healing and renewed bonuses."
+    },
+    "skills.6.name": {
+      "sourceHash": "c5faaa42a10a1674058b2c4e1123c887c18baea104641baa6c4de95a65c8f73c",
+      "text": "Bone Blast"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "c349f2ac0d22b253a58057c56d715e0e8ccaab29006338f7aaee1bba7d7ecdeb",
+      "text": "Ⅰ[On Hit] Heal 10% of max HP."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "8c4e7132576a09397877691e0d0039bc4c3c20e2750f276422384c39157b899e",
+      "text": "Ⅱ[On Hit] Inflict 10 Bleed next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "ada3f8845bf0e81fc194c9a73030ec870898c86d9bfc9c759102c62688e758a3",
+      "text": "Coin 1 heals 10% max HP on hit; Coin 2 inflicts 10 Bleed next turn. Used by aggressive enemies with at least 4 Instincts, so do not increase damage taken by matching it with a weak skill."
+    },
+    "skills.7.name": {
+      "sourceHash": "c5faaa42a10a1674058b2c4e1123c887c18baea104641baa6c4de95a65c8f73c",
+      "text": "Bone Blast"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "c349f2ac0d22b253a58057c56d715e0e8ccaab29006338f7aaee1bba7d7ecdeb",
+      "text": "Ⅰ[On Hit] Heal 10% of max HP."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "8c4e7132576a09397877691e0d0039bc4c3c20e2750f276422384c39157b899e",
+      "text": "Ⅱ[On Hit] Inflict 10 Bleed next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "ada3f8845bf0e81fc194c9a73030ec870898c86d9bfc9c759102c62688e758a3",
+      "text": "Coin 1 heals 10% max HP on hit; Coin 2 inflicts 10 Bleed next turn. Used by aggressive enemies with at least 4 Instincts, so do not increase damage taken by matching it with a weak skill."
+    },
+    "passives.0.name": {
+      "sourceHash": "20c4312a8a4277e2afcd4b78d16f58c102f18c92a840a9d213b4c0ca2b10e5f2",
+      "text": "Pulsating Arms"
+    },
+    "passives.0.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.0.effect": {
+      "sourceHash": "63f834978d76785d1513cfd8d313ad00f76f84123ca79ddefbc67d22b287c3b7",
+      "text": "Gain Attack Power Up and Protection equal to Instincts."
+    },
+    "passives.0.response": {
+      "sourceHash": "9cb861c12a414efc66bdd12eca0f2622da9bcc12a652e9d91d7f5bf331e7d7be",
+      "text": "Lowering Instincts weakens both offense and defense. Check next turn's predictions as well."
+    },
+    "passives.1.name": {
+      "sourceHash": "61cb9369f0280689b09dfcdfa3a9e9e41cfae767e8255837dcd4e6e80be51e1f",
+      "text": "Damaged Arms"
+    },
+    "passives.1.condition": {
+      "sourceHash": "d1b34331e93214f8bb019abff08e07ee365bef8b3d478739de3769554d216e0b",
+      "text": "Take at least 1 damage from an attack"
+    },
+    "passives.1.effect": {
+      "sourceHash": "282cdb81cf2c2590ac595321af1c13f5aa8c9794ad75c49e85d28011afd7cfd2",
+      "text": "Lose 1 Instincts."
+    },
+    "passives.1.response": {
+      "sourceHash": "3bbc470c862044d2f4cf868a35b13f7ac330aedb5e5765194d3265dfdbd2189f",
+      "text": "Neither 0 damage nor status damage reduces it. Weaken all enemies with skills that deal at least 1 attack damage."
+    },
+    "passives.2.name": {
+      "sourceHash": "7f515cfb73f67d20f428fc43b0436e4dcd4d561f325a81495e875fab646db562",
+      "text": "Regenerating Shell"
+    },
+    "passives.2.condition": {
+      "sourceHash": "3960a95473119de40eea3408fd722963c869787562d598fedf96ec0e1f0ae8da",
+      "text": "Take no attack damage for 1 turn"
+    },
+    "passives.2.effect": {
+      "sourceHash": "22f37809e38689a1c24429abd95ebbb3fce8911f01af10353da4f0a200bbc3d1",
+      "text": "At Turn End, heal 5% HP and gain 1 Instincts."
+    },
+    "passives.2.response": {
+      "sourceHash": "f027c69c64aad1a8cdf508688a58792b7ffd149c61b75be055c9236ac76a4380",
+      "text": "Avoid leaving enemies untouched unnecessarily, but do not force a strong skill into a dangerous Counter just to prevent recovery."
+    },
+    "passives.3.name": {
+      "sourceHash": "a4d511ef3d5961447b3205f428ece743af69299635487fade86104a7d2349979",
+      "text": "Frantic Eyes"
+    },
+    "passives.3.condition": {
+      "sourceHash": "314104fa7744af12419e566749f79e5188da56d37b1bdd5533f9ad16ad948c5c",
+      "text": "Determined by Instincts"
+    },
+    "passives.3.effect": {
+      "sourceHash": "93d3211da2286ed2729bf5f3d4d87a115e5699aa30da183dbba1b52f02056395",
+      "text": "Use aggressive skills at 4 or more Instincts and defensive skills below 4."
+    },
+    "passives.3.response": {
+      "sourceHash": "6eaed7364712af931e005342c1025ece8432900d3a4cd7473fdf0f0d18c53736",
+      "text": "Deal attack damage so an enemy at 3 Instincts does not recover to 4."
+    },
+    "passives.4.name": {
+      "sourceHash": "20c4312a8a4277e2afcd4b78d16f58c102f18c92a840a9d213b4c0ca2b10e5f2",
+      "text": "Pulsating Arms"
+    },
+    "passives.4.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.4.effect": {
+      "sourceHash": "63f834978d76785d1513cfd8d313ad00f76f84123ca79ddefbc67d22b287c3b7",
+      "text": "Gain Attack Power Up and Protection equal to Instincts."
+    },
+    "passives.4.response": {
+      "sourceHash": "9cb861c12a414efc66bdd12eca0f2622da9bcc12a652e9d91d7f5bf331e7d7be",
+      "text": "Lowering Instincts weakens both offense and defense. Check next turn's predictions as well."
+    },
+    "passives.5.name": {
+      "sourceHash": "61cb9369f0280689b09dfcdfa3a9e9e41cfae767e8255837dcd4e6e80be51e1f",
+      "text": "Damaged Arms"
+    },
+    "passives.5.condition": {
+      "sourceHash": "d1b34331e93214f8bb019abff08e07ee365bef8b3d478739de3769554d216e0b",
+      "text": "Take at least 1 damage from an attack"
+    },
+    "passives.5.effect": {
+      "sourceHash": "282cdb81cf2c2590ac595321af1c13f5aa8c9794ad75c49e85d28011afd7cfd2",
+      "text": "Lose 1 Instincts."
+    },
+    "passives.5.response": {
+      "sourceHash": "3bbc470c862044d2f4cf868a35b13f7ac330aedb5e5765194d3265dfdbd2189f",
+      "text": "Neither 0 damage nor status damage reduces it. Weaken all enemies with skills that deal at least 1 attack damage."
+    },
+    "passives.6.name": {
+      "sourceHash": "7f515cfb73f67d20f428fc43b0436e4dcd4d561f325a81495e875fab646db562",
+      "text": "Regenerating Shell"
+    },
+    "passives.6.condition": {
+      "sourceHash": "3960a95473119de40eea3408fd722963c869787562d598fedf96ec0e1f0ae8da",
+      "text": "Take no attack damage for 1 turn"
+    },
+    "passives.6.effect": {
+      "sourceHash": "22f37809e38689a1c24429abd95ebbb3fce8911f01af10353da4f0a200bbc3d1",
+      "text": "At Turn End, heal 5% HP and gain 1 Instincts."
+    },
+    "passives.6.response": {
+      "sourceHash": "f027c69c64aad1a8cdf508688a58792b7ffd149c61b75be055c9236ac76a4380",
+      "text": "Avoid leaving enemies untouched unnecessarily, but do not force a strong skill into a dangerous Counter just to prevent recovery."
+    },
+    "passives.7.name": {
+      "sourceHash": "a4d511ef3d5961447b3205f428ece743af69299635487fade86104a7d2349979",
+      "text": "Frantic Eyes"
+    },
+    "passives.7.condition": {
+      "sourceHash": "314104fa7744af12419e566749f79e5188da56d37b1bdd5533f9ad16ad948c5c",
+      "text": "Determined by Instincts"
+    },
+    "passives.7.effect": {
+      "sourceHash": "93d3211da2286ed2729bf5f3d4d87a115e5699aa30da183dbba1b52f02056395",
+      "text": "Use aggressive skills at 4 or more Instincts and defensive skills below 4."
+    },
+    "passives.7.response": {
+      "sourceHash": "6eaed7364712af931e005342c1025ece8432900d3a4cd7473fdf0f0d18c53736",
+      "text": "Deal attack damage so an enemy at 3 Instincts does not recover to 4."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "8986385c6857c7dc5acf220885bb9403a37cd97b5b7617469833a8787d35c8a5",
+      "text": "Instincts"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "522ff217de377e172d132c319b69adfbdaa68a2c001034d384988e6732131c1e",
+      "text": "Everything There of an Inquisitor starts with 4 Instincts; Proceeding Inquisitor starts with 2. At Turn Start, gain Attack Power Up and Protection equal to the value. Taking at least 1 attack damage reduces it by 1; a turn with no attack damage adds 1 at Turn End."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "a2d6b0cb7ea75f423af9ed745c657886c43ef8ae489448db0118e8e81d9f15bc",
+      "text": "This works opposite to the beast type whose Instincts increases when attacked. Land attacks across the team to reduce their bonuses."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "cf1b3f6161dce37720911aecdcf14d40da623165ac11feb03df0ff7c2f115016",
+      "text": "Imitation Counter"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "49ce8a1beb63b5432b03ce9d966b1475b74c7d071032d52d7d6fb66c586b92e2",
+      "text": "Copies the Power, Coin Power, and Coin count of the attack received. Uses Lust, Slash, and the enemy's own level without copying the original skill's On Use or On Hit effects. An ordinary Counter that cannot be Offset."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "d0c7bf10ed479ffcc503d5320dc7b61aea72ece193ee44af28cd2d23bf5c5722",
+      "text": "Land a fast Sinner's weak skill first. Being hit as an additional target of a multi-target attack also triggers the Counter, so check targets."
+    },
+    "warnings.0": {
+      "sourceHash": "84ff78c4d214e94aea163c4d0d036a7db98a57e694393448b3002ca2572b344b",
+      "text": "A strong first hit is copied. Hitting it with a multi-target E.G.O also triggers the Counter."
+    },
+    "warnings.1": {
+      "sourceHash": "619033d9504eaaf8a43209d02b0d71c157da13038b13e9d49e3ab07dc4a7a3ba",
+      "text": "Ordinary Counters cannot be Offset with defense. Do not apply the procedure used to Offset Evade."
+    },
+    "warnings.2": {
+      "sourceHash": "87c9e1a4f50c66899f4e3b90c400c0ab00533122265ed914755a7772c23e08bd",
+      "text": "Reducing Instincts requires at least 1 attack damage. Burn, Bleed, or other status damage alone is insufficient."
+    },
+    "warnings.3": {
+      "sourceHash": "17ccabdaabec606d928638f033c4a53872438a309c93da9a35b2257176401843",
+      "text": "Attacks continue after Part destruction. Do not assume breaking a Part stops every action."
+    },
+    "warnings.4": {
+      "sourceHash": "fc0f1ff22d1bb031a52055dd7fae0e932cfa89c7f18053481db9476ef45fbdbf",
+      "text": "Do not apply the Refraction Railway version's fixed slot count to this Sacristy encounter."
+    },
+    "preparation.0": {
+      "sourceHash": "4428697b3be2a7345fa3b424f2dfd4ffcdab4c3b470cd826730161b088816dcb",
+      "text": "Deploy 5 Sinners against Lv. 26 enemies. Initial Instincts bonuses are active, so use current Clash predictions to prepare skills that beat Adjust Shell."
+    },
+    "preparation.1": {
+      "sourceHash": "23eb6415317054ecb185fcb81dd5cef220425bd58a2ead0c5a50ea4b831b83c9",
+      "text": "Distinguish skills that can deal at least 1 damage from weak skills intended to trigger the Counter first. Blunt, Wrath, and Envy are effective."
+    },
+    "preparation.2": {
+      "sourceHash": "33e402dc612a79c4318bf1f13ad1de846daafeff5cb1dbd2811e8e41e6e844a6",
+      "text": "Check Counter targets before using multi-target E.G.O. Do not hit every enemy with a high-Power skill unconditionally."
+    },
+    "roles.0.name": {
+      "sourceHash": "823a5f9741dda10723261953c0c3bf7758ad84c0c5578f956a774d8465146d90",
+      "text": "Fast, weak first attacks"
+    },
+    "roles.0.reason": {
+      "sourceHash": "ed8c68f86e6b8c8d414717ea8b7a51fa5527bc895737b3748747443bd7cbae4a",
+      "text": "Keep the copied skill's Power low."
+    },
+    "roles.1.name": {
+      "sourceHash": "63ff2cf837294114a1f6ef9207a7f062c9883fc46c41952196b880e8bfa921d5",
+      "text": "Attack damage against every enemy"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b83bbf0fe2ada1ba4eec681bfea9f61b85d087c2552c76252716e72c75b4974c",
+      "text": "Reduce Instincts and Protection, and prevent healing from taking no attack damage."
+    },
+    "roles.2.name": {
+      "sourceHash": "131918fd0047ed7ce9990a88d124cbadae4807948a2921a573ba4c3519d2a420",
+      "text": "Strong Clashes against Adjust Shell"
+    },
+    "roles.2.reason": {
+      "sourceHash": "e966f66d7a6b719e36dd6bf2805ca22dedd41cd39bb2c19f839ddaaddf7c1343",
+      "text": "Prevent healing and renewed Instincts before the hit lands."
+    }
+  },
+  "messages": {
+    "boss-copy:inquisitor-with-everything": "complete",
+    "【リンバス】3-22 全てのある異端審問官・進もうとする異端審問官（3章）の攻略｜Limbus Assistant": "3-22 Everything There of an Inquisitor and Proceeding Inquisitor (Canto III) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)3-22「全てのある異端審問官・進もうとする異端審問官（3章）」の攻略。全員へ攻撃ダメージを通して本能を減らし、威力と保護を落とす。ただし模倣反撃へ強い技を最初に当てると、その威力を返される。反撃を…": "Everything There of an Inquisitor and Proceeding Inquisitor (Canto III) guide for Limbus Company 3-22. Deal attack damage to every enemy to reduce Instincts, lowering Power and Protection. However, a strong first hit against the imitation Counter lets it return that skill's Power. Hit enemies readying the Counter first with a fast Sinner's weak skill, and keep them out of multi-target E.G.O attacks.",
+    "3-22 全てのある異端審問官・進もうとする異端審問官（3章）": "3-22 Everything There of an Inquisitor and Proceeding Inquisitor (Canto III)",
+    "3-22「K-02 Branch, Floor 2: Sacristy」": "3-22 · K-02 Branch, Floor 2: Sacristy",
+    "全てのある異端審問官の外見": "Everything There of an Inquisitor appearance",
+    "全てのある異端審問官のスキル": "Everything There of an Inquisitor skills",
+    "Everything There of an Inquisitorの外見": "Everything There of an Inquisitor appearance",
+    "Everything There of an Inquisitorのスキル": "Everything There of an Inquisitor skills",
+    "進もうとする異端審問官の外見": "Proceeding Inquisitor appearance",
+    "進もうとする異端審問官のスキル": "Proceeding Inquisitor skills",
+    "Proceeding Inquisitorの外見": "Proceeding Inquisitor appearance",
+    "Proceeding Inquisitorのスキル": "Proceeding Inquisitor skills"
+  }
+}

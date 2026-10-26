@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0903.md",
+  "code": "0903",
+  "messages": {
+    "広域の打撃で沈潜を大量に積み、パッシブで束縛と攻撃威力減少も撒く、憂鬱の沈潜E.G.O。": "A Gloom Sinking E.G.O that stacks heavy Sinking with a multi-target Blunt attack, with a passive that also spreads Bind and Attack Power Down.",
+    "沈潜の付与: 的中時に沈潜回数が2(解析Ⅲは3、Ⅳは5)増え、解析Ⅳでは沈潜5も付与する。攻撃加重値3の広域で複数の敵に積める。": "**Inflicting Sinking**: Sinking Count increases by 2 on hit (3 at Threadspin Ⅲ, 5 at Ⅳ), and at Threadspin Ⅳ it also inflicts 5 Sinking. As a multi-target attack with 3 Attack Weight, it can stack Sinking on several enemies.",
+    "体力50%以上でダメージ量増加: 対象の体力が50%以上のときダメージ量+10%(解析Ⅲは+30%)。": "**More damage at 50%+ HP**: +10% damage (+30% at Threadspin Ⅲ) when the target has 50% or more HP.",
+    "振動爆発: 的中時に対象の振動威力ぶん混乱区間を進める(解析Ⅱ以前は表面的中時のみ)。": "**Tremor Burst**: On hit, shifts the target's Stagger Threshold by its Tremor Potency (only on Heads Hit at Threadspin Ⅱ or below).",
+    "パッシブ「寒気」: 沈潜5以上の敵に的中すると、次のターンに束縛と攻撃威力減少1を付与する(敵1名につき最大3)。": "**Passive — Coldness**: Hitting an enemy with at least 5 Sinking inflicts Bind and 1 Attack Power Down next turn (up to 3 per enemy).",
+    "侵蝕スキル: 体力が最も高い対象を狙う。解析Ⅳで加重値が3になり沈潜も増えるが、味方を巻き込む。": "**Corrosion skill**: Targets the highest-HP target. At Threadspin Ⅳ, Attack Weight becomes 3 and Sinking increases, but it catches allies.",
+    "沈潜編成で使い、「寒気」の条件(沈潜5以上)を満たした状態で撃つ。解析Ⅳなら自身の沈潜付与でも条件を作りやすいと考えられる。": "Use it in a Sinking team, firing it once Coldness's condition (5 or more Sinking) is met. At Threadspin Ⅳ, its own Sinking infliction likely makes the condition easy to create.",
+    "敵の体力が高い序盤に撃ってダメージ量増加を乗せる。": "Fire it early while enemy HP is high to get the damage increase.",
+    "必要資源は憂鬱5・嫉妬3と重く、精神消耗は20。": "It requires a heavy 5 Gloom and 3 Envy, with a Sanity cost of 20.",
+    "Ⅱ: 「寒気」が解放される。": "**Ⅱ**: Unlocks Coldness.",
+    "Ⅲ: 基本威力13→15、ダメージ量増加30%、沈潜回数の増加が3になる。": "**Ⅲ**: Base Power 13→15, 30% damage increase, and the Sinking Count increase becomes 3.",
+    "Ⅳ: 沈潜付与が大きく強化される。侵蝕が広域になり味方を巻き込むため、精神力が下がりやすい構成ではⅢで止める判断もあると考えられる。": "**Ⅳ**: Sinking infliction is greatly strengthened. Corrosion becomes multi-target and catches allies, so in builds where SP tends to drop, stopping at Ⅲ is likely a reasonable choice.",
+    "南部ディエーチ協会4課: S3(怠惰)が沈潜回数を増やし、S2(嫉妬)も同期化Ⅳから沈潜を付与し、憂鬱(S1)・嫉妬の資源も出せる。": "**[Dieci Assoc. South Section 4](persona:0907)**: S3 (Sloth) increases Sinking Count, S2 (Envy) also inflicts Sinking from Uptie Ⅳ, and she supplies Gloom (S1) and Envy resources.",
+    "ロボトミーE.G.O::涙で研ぎ澄まされた剣: 基本スキルの多くが沈潜を付与し、憂鬱・嫉妬の資源も出せる。": "**[Lobotomy E.G.O:: The Sword Sharpened with Tears](persona:0913)**: Many of her basic skills inflict Sinking, and she supplies Gloom and Envy resources."
+  }
+}

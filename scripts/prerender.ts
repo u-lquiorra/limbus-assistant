@@ -5,6 +5,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 import { findSlashlessLinks } from "../src/sitePath.ts";
+import { isEnglish, languagePath } from "../src/i18n/path.ts";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
@@ -140,6 +141,7 @@ async function headTags(pathname: string): Promise<{ title: string; tags: string
     `<meta name="description" content="${escapeHtml(meta.description)}" />`,
     `<meta name="robots" content="${meta.noindex ? "noindex" : "index,follow"}" />`,
     `<link rel="canonical" href="${escapeHtml(url)}" />`,
+    ...["ja", "en"].map((language) => `<link rel="alternate" hreflang="${language}" href="${escapeHtml(entry.canonicalUrl(languagePath(pathname, language as "ja" | "en")))}" />`),
     `<meta property="og:type" content="${pathname === "/" ? "website" : "article"}" />`,
     `<meta property="og:site_name" content="Limbus Assistant" />`,
     `<meta property="og:title" content="${escapeHtml(meta.title)}" />`,
@@ -166,6 +168,7 @@ function fill(html: string, body: string, title: string, tags: string, pathname 
     throw new Error("index.html の title・description・#root が想定の形ではない");
   }
   return html
+    .replace(/<html lang="[^"]*"/, `<html lang="${isEnglish(pathname) ? "en" : "ja"}"`)
     .replace("</head>", assets ? `  ${assets}
   </head>` : "</head>")
     .replace(titleTag, `<title>${escapeHtml(title)}</title>`)

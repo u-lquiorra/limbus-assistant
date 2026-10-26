@@ -1,0 +1,2832 @@
+{
+  "kind": "boss-copy",
+  "id": "lian",
+  "source": "src/data/bosses/lian.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "指令耽溺",
+          "en": "Indulgence in Prescripts",
+          "file": "Bufs-a1c9p3.json",
+          "id": "BlackNightmare"
+        },
+        {
+          "ja": "じりじりと焼ける傷",
+          "en": "Sizzling Wound",
+          "file": "Bufs-a1c9p3.json",
+          "id": "BurningWoundRien"
+        },
+        {
+          "ja": "リアンの仮面",
+          "en": "Rien's Mask",
+          "file": "Bufs-a1c9p3.json",
+          "id": "BurningWoundRien_Mask"
+        },
+        {
+          "ja": "ゲブラーの刃",
+          "en": "Gebura's Blade",
+          "file": "Bufs-a1c9p3.json",
+          "id": "Gebura_Reinforcement"
+        },
+        {
+          "ja": "指令[端末機] - 警告",
+          "en": "Prescript: [Device] - Warning",
+          "file": "Bufs-a1c9p3.json",
+          "id": "IndexPrescript_RienSecondPhase"
+        },
+        {
+          "ja": "指令[端末機]I",
+          "en": "Prescript: [Device] I",
+          "file": "Bufs-a1c9p3.json",
+          "id": "IndexPrescriptRien_0"
+        },
+        {
+          "ja": "指令[端末機]II",
+          "en": "Prescript: [Device] II",
+          "file": "Bufs-a1c9p3.json",
+          "id": "IndexPrescriptRien_1"
+        },
+        {
+          "ja": "指令[端末機]III",
+          "en": "Prescript: [Device] III",
+          "file": "Bufs-a1c9p3.json",
+          "id": "IndexPrescriptRien_2"
+        },
+        {
+          "ja": "指令[端末機]IV",
+          "en": "Prescript: [Device] IV",
+          "file": "Bufs-a1c9p3.json",
+          "id": "IndexPrescriptRien_3"
+        },
+        {
+          "ja": "カルマ",
+          "en": "Karmic Consequence",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KarmaOfIndexRien"
+        },
+        {
+          "ja": "カルマ [フォルトゥナ]",
+          "en": "Karmic Consequence [Fortuna]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KarmaOfIndexRien_2Phase"
+        },
+        {
+          "ja": "手斧で肋骨を叩き割るときは…",
+          "en": "When hacking through the ribs with a hatchet...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon01Hatchet"
+        },
+        {
+          "ja": "手斧で肋骨を叩き割るときは…",
+          "en": "When hacking through the ribs with a hatchet...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon01Hatchet2phase"
+        },
+        {
+          "ja": "スティレットで肺を貫き刺すときは…",
+          "en": "When penetrating the lungs with a stiletto...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon02Stiletto"
+        },
+        {
+          "ja": "スティレットで肺を貫き刺すときは…",
+          "en": "When penetrating the lungs with a stiletto...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon02Stiletto2phase"
+        },
+        {
+          "ja": "バスタードソードで肩と頭を叩き潰すときは…",
+          "en": "When cleaving through the shoulder and the skull with a bastard sword...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon03Greatsword"
+        },
+        {
+          "ja": "バスタードソードで肩と頭を叩き潰すときは…",
+          "en": "When cleaving through the shoulder and the skull with a bastard sword...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon03Greatsword2phase"
+        },
+        {
+          "ja": "レイピアで体に10個以上の穴を開けるべきときは…",
+          "en": "When punching 10 or more holes in the torso with a rapier...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon04Rapier"
+        },
+        {
+          "ja": "レイピアで体に10個以上の穴を開けるべきときは…",
+          "en": "When punching 10 or more holes in the torso with a rapier...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon04Rapier2phase"
+        },
+        {
+          "ja": "ハンマーで後頭部を潰すべきときは…",
+          "en": "When caving in the back of the skull with a hammer...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon05Sledgehammer"
+        },
+        {
+          "ja": "ハンマーで後頭部を潰すべきときは…",
+          "en": "When caving in the back of the skull with a hammer...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon05Sledgehammer2phase"
+        },
+        {
+          "ja": "大剣で胴体を真っ二つに裂くべきときは…",
+          "en": "When rending the body with a greatsword...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon06Ultragreatsword"
+        },
+        {
+          "ja": "大剣で胴体を真っ二つに裂くべきときは…",
+          "en": "When rending the body with a great sword...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon06Ultragreatsword2phase"
+        },
+        {
+          "ja": "ランスで20インチの穴を穿つべきときは…",
+          "en": "When boring a 20-inch hole with a lance...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon07Lance"
+        },
+        {
+          "ja": "ランスで20インチの穴を穿つべきときは…",
+          "en": "When boring a 20-inch hole with a lance...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon07Lance2phase"
+        },
+        {
+          "ja": "鎌で…誰かのように、空間に沿って斬り裂くべきときは…",
+          "en": "When lacerating through space itself with a scythe, like a certain someone...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon09Scythe"
+        },
+        {
+          "ja": "鎌で…誰かのように、空間に沿って斬り裂くべきときは…",
+          "en": "When lacerating through space itself with a scythe, like a certain someone...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon09Scythe2phase"
+        },
+        {
+          "ja": "けつえん",
+          "en": "Ketsuen [けつえん]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "Ryoshu_RienBattle_1Phase"
+        },
+        {
+          "ja": "れんけつえん",
+          "en": "Renketsuen [れんけつえん]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "Ryoshu_RienBattle_2Phase"
+        },
+        {
+          "ja": "シン(心) - リアン",
+          "en": "Shin (心) - Rien",
+          "file": "Bufs-a1c9p3.json",
+          "id": "Shin_Rien"
+        },
+        {
+          "ja": "代行 [ヘルメス]",
+          "en": "Procuration [Hermes]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "StackRienSpecialSkill"
+        },
+        {
+          "ja": "解禁 - I",
+          "en": "Unlock - I",
+          "file": "Bufs-a1c9p3.json",
+          "id": "UnlockBuff_Rien1"
+        },
+        {
+          "ja": "解禁 - II",
+          "en": "Unlock - II",
+          "file": "Bufs-a1c9p3.json",
+          "id": "UnlockBuff_Rien2"
+        },
+        {
+          "ja": "解禁 - III",
+          "en": "Unlock - III",
+          "file": "Bufs-a1c9p3.json",
+          "id": "UnlockBuff_Rien3"
+        },
+        {
+          "ja": "他人の鎖",
+          "en": "Chains of Others",
+          "file": "Egos-a1c9p3.json",
+          "id": "205011"
+        },
+        {
+          "ja": "人差し指の親方 - リアン",
+          "en": "The Index Nursefather - Rien",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1347"
+        },
+        {
+          "ja": "人差し指の親方 - リアン",
+          "en": "The Index Nursefather - Rien",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1348"
+        },
+        {
+          "ja": "指令の意味",
+          "en": "Will of the Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133701"
+        },
+        {
+          "ja": "指令遂行",
+          "en": "Undertake Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133702"
+        },
+        {
+          "ja": "解禁",
+          "en": "Unlock",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "133703"
+        },
+        {
+          "ja": "神託端末機 [カドゥケウス]",
+          "en": "Oracle Device [Caduceus]",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134702"
+        },
+        {
+          "ja": "指令の意味",
+          "en": "Will of the Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134703"
+        },
+        {
+          "ja": "指令遂行",
+          "en": "Undertake Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134704"
+        },
+        {
+          "ja": "解禁",
+          "en": "Unlock",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134705"
+        },
+        {
+          "ja": "親方リアン [模造品]",
+          "en": "Rien, the Father [Imitation]",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134801"
+        },
+        {
+          "ja": "神託端末機 [カドゥケウス] - 完全解禁",
+          "en": "Oracle Device [Caduceus] - Full Unlock",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134802"
+        },
+        {
+          "ja": "指令の意味",
+          "en": "Will of the Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134803"
+        },
+        {
+          "ja": "指令遂行",
+          "en": "Undertake Prescript",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134804"
+        },
+        {
+          "ja": "重みを乗せて叩き下ろせ、身体を崩し",
+          "en": "Slam Down with Weight, Topple the Body",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134701"
+        },
+        {
+          "ja": "先端を立てろ、芯まで押し込んで",
+          "en": "Lay Vertical The End, Insert Up to the Wick",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134702"
+        },
+        {
+          "ja": "刃を寝かせろ、息が裂けるように切り取って",
+          "en": "Lay the Blade on its Side, Slice Like a Severed Breath",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134703"
+        },
+        {
+          "ja": "振り払って落とせ、大地に平伏させて",
+          "en": "Swing to Fell, Have it Meet the Ground",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134704"
+        },
+        {
+          "ja": "一点を狙え、内側から響かせて",
+          "en": "Aim Toward a Point, Let it Echo Within",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134705"
+        },
+        {
+          "ja": "刃筋を低く這わせろ、残ったものを剥ぎ取れ",
+          "en": "Carve at a Low Slant, Peel What Remains",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134706"
+        },
+        {
+          "ja": "音を砕いて、思考を平たく踏み潰せ",
+          "en": "Destroy the Sound, Crush Flat the Thought",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134707"
+        },
+        {
+          "ja": "静寂の中心を突いて、記憶を貫け",
+          "en": "Stab the Silence's Heart, Penetrate the Memory",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134708"
+        },
+        {
+          "ja": "重みを乗せて叩き下ろせ、身体を崩し",
+          "en": "Slam Down with Weight, Topple the Body",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134801"
+        },
+        {
+          "ja": "先端を立てろ、芯まで押し込んで",
+          "en": "Lay Vertical The End, Insert Up to the Wick",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134802"
+        },
+        {
+          "ja": "刃を寝かせろ、息が裂けるように切り取って",
+          "en": "Lay the Blade on its Side, Slice Like a Severed Breath",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134803"
+        },
+        {
+          "ja": "振り払って落とせ、大地に平伏させて",
+          "en": "Swing to Fell, Have it Meet the Ground",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134804"
+        },
+        {
+          "ja": "一点を狙え、内側から響かせて",
+          "en": "Aim Toward a Point, Let it Echo Within",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134805"
+        },
+        {
+          "ja": "刃筋を低く這わせろ、残ったものを剥ぎ取れ",
+          "en": "Carve at a Low Slant, Peel What Remains",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134806"
+        },
+        {
+          "ja": "音を砕いて、思考を平たく踏み潰せ",
+          "en": "Destroy the Sound, Crush Flat the Thought",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134807"
+        },
+        {
+          "ja": "静寂の中心を突いて、記憶を貫け",
+          "en": "Stab the Heart of Silence, Penetrate the Memory",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134808"
+        },
+        {
+          "ja": "娘、覚えているか？これはきっとお前にしか受け止められないだろう",
+          "en": "Remember This, Sweetheart? Only You Can Clash Against This Move.",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134810"
+        },
+        {
+          "ja": "他人の鎖",
+          "en": "Chains of Others",
+          "file": "Skills_Ego_Personality-a1c9p3.json",
+          "id": "2050112"
+        },
+        {
+          "ja": "鞭で肉片を万枚引き剥がすべきときは…",
+          "en": "When ripping the flesh to ten thousand strips with a whip...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon08Chain"
+        },
+        {
+          "ja": "鞭で肉片を万枚引き剥がすべきときは…",
+          "en": "When ripping the flesh to ten thousand strips with a whip...",
+          "file": "Bufs-a1c9p3.json",
+          "id": "RienWeapon08Chain2phase"
+        },
+        {
+          "ja": "鋭く研ぎ澄ました秘密で、形を斬り落とせ",
+          "en": "With Tempered Secret, Cut the Form",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134709"
+        },
+        {
+          "ja": "鋭く研ぎ澄ました秘密で、形を斬り落とせ",
+          "en": "With Tempered Secret, Sever the Form",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134809"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 3 records and the existing base E.G.O dictionary. Rien follows enemy records 1347/1348. Spacing and spelling aliases are resolved by IDs. Same-named skills and the greatsword status retain form-specific official names. Shared HP, random weapon damage types, Prescript conditions, conditional Unbreakable conversion, and base E.G.O final-clash weakening are retained."
+    }
+  },
+  "scopedPaths": [
+    "skills.17.name",
+    "skills.18.name",
+    "mechanics.32.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "41ec7da3fc8fa05670faab855c60afca7d0068995863b0fe5b37e925f4107f55",
+      "text": "Rien (9-50)"
+    },
+    "shortName": {
+      "sourceHash": "ee8823ed9b3a46523782635958987b843d80abf9373950cc60ad88d48ed5afa2",
+      "text": "Rien"
+    },
+    "stageName": {
+      "sourceHash": "10bc7fa3041793d7a42960d473839269bcc448fe2f7fe56daedfcfe887d18b0f",
+      "text": "Spider's Webs"
+    },
+    "lead": {
+      "sourceHash": "407755703dc6d5338103c644c15c87580cd645a005b5dc2bcac91783a4b73b05",
+      "text": "Protect the Prescript's Target to deny fulfillment and build Karmic Consequence on the enemy. Assign the major skill to Ryōshū, and match physical types against the 3 Gloom skills later. Limit the Unbreakable hits that remain after Clash Wins."
+    },
+    "statNote": {
+      "sourceHash": "6d002126282194eef5d5733e043204b195954f0e26bc8d301e28906df21e8033",
+      "text": "Ryōshū is required; Gregor cannot deploy. Ryōshū starts at 45 SP and other Sinners at 30; Identities whose basic attacks all use negative Coins start at −25. The second half begins at 55% HP or less without a full heal. Both form tables refer to the same carried-over HP pool. The −5 Offense and Defense Levels from Rien's Mask and Sizzling Wound are shown separately."
+    },
+    "skillNote": {
+      "sourceHash": "78e538286705aed5188673172fc3fb4e1e767575e42eb3c3c72941f92ca7a73a",
+      "text": "Actual damage types vary with the random weapon used for each Coin. The table's type is the skill classification; use it when matching attack types against second-half Gloom skills. The three first-half Pride skills have inconsistent Power ranges and Coin values, so Power is marked unconfirmed. Conditional Unbreakable conversion from Unlock and Prescript targeting is described in the text."
+    },
+    "priorities.0": {
+      "sourceHash": "78da184d7aff7f64f26a2020dd1bfc1cfe47eeb273d044bf97f05a53b18af6e5",
+      "text": "Early on, have Sinners other than the Prescript's target clash to disrupt Prescripts and build Karmic Consequence."
+    },
+    "priorities.1": {
+      "sourceHash": "d1c446dd3eb183ebc8ef2b3ced3643f43a7dc7f0fc74f5fc1f0b7da99e35eb8e",
+      "text": "Have Ryōshū clash with Furioso skills; protect other allies with healing and advance debuffs."
+    },
+    "priorities.2": {
+      "sourceHash": "6ba5172ad8016079bf4c712ed7724cd9359a435979bd98a91eed5a7d145c01a2",
+      "text": "In the second half, assign Sloth to Ryōshū and beat Gloom skills with matching Slash, Pierce, or Blunt attacks."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "93dc90796cfc45987d66e51faddbc89f2f27af1e0f6358cec1054450f7d5a5c1",
+      "text": "Allies die despite winning clashes"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "2981ef5440a312ba0fbd1408c09b10133d99111754f8709ec3f6650b6b25f316",
+      "text": "Check for fully Unbreakable Coins against the Prescript's target and repeated Furioso hits. Assign major attacks to Ryōshū, who survives lethal damage while another ally lives; heal and apply debuffs in advance to protect the others."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "a280784c748ac8982a46a2ca78c146023c92916ba2238e9ae85534eb2f4a29ad",
+      "text": "Second-half Gloom skills overwhelm the team"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "8b4d7a857f9539b9ee6a72edd1d952ad5ca3729737dd2cf9ff73f2a560ee5234",
+      "text": "During Indulgence in Prescripts, a clash loss against the same physical type or Ryōshū weakens them. Match Blunt with Blunt, Pierce with Pierce, and Slash with Slash. Assign the Sloth skill that only Ryōshū can clash with first."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "76ca619eb55f53101d085521bbe5b9fbda17943f4ba8ddf1ee339e8a4dbc17de",
+      "text": "The final Furioso clash is unwinnable"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "32101a84fe362cf49479403a36af93f6f7267df78fe3b94139d06728ff4778c8",
+      "text": "Furioso[Lacrimosa-Crescendo] loses 20 Power when clashing with Ryōshū's base E.G.O. Save resources for Forest for the Flames. Keep other allies alive to maintain Ketsuen and Renketsuen's conditions."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "2417e8d9384aa4880afa4da6af326030cfc66969142a0841ab0f7eb2d5412fec",
+      "text": "Bring Ryōshū and strong Slash, Pierce, and Blunt clashes"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "de3a2b922f172ed1f8cdb632cf1ae222549c6a8e5d152be5ecafe39f6dc642a1",
+      "text": "Recommended Lv. 60. Deploy seven Sinners including Ryōshū, with four backups. Gregor cannot deploy."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "e27fd67acd051f9631f63e3ace9ac5bf41d6e04915dec1c772357a6eb7ec713f",
+      "text": "Prepare high-Power Slash, Pierce, and Blunt skills for the three second-half Gloom skills. Fill missing types with E.G.O. Save Ryōshū's Forest for the Flames for the final major attack."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "325084221b6ac16f86a023bade4042f84f82a677eed3b36ddf638b81110e6d45",
+      "text": "Bring HP/SP recovery and ways to lower enemy Power. Chains of Others weakens enemies next turn, so use it before a major attack or Indulgence in Prescripts."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "9b16bb163a263cc5227f5838c5a4b4c963510ee6b38c7d6f4d1704ebad7fb1e4",
+      "text": "Ryōshū gains Gebura's Blade. Here it persists while another Sinner is alive, unlike its usual one-turn duration."
+    },
+    "phases.1.timing": {
+      "sourceHash": "d32a21eb9534ea38a3bf0678304a1974005db8fc429875033f3a2a1aaa1253a8",
+      "text": "First half · Especially Turns 1–4"
+    },
+    "phases.1.title": {
+      "sourceHash": "74bfd147466b321ee83a97533e722ff660fba8922ae69e4dbf45750b731a7173",
+      "text": "Keep the Prescript's target out of clashes and make Prescripts fail"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "7509bf5b23a6927b9737b3094c923d65889dae1f8727ba82eedd9f15188bc18c",
+      "text": "Check The Prescript's Target - The Index every turn. A Sinner other than Ryōshū is chosen and prioritized by Rien. Take over clashes with other Sinners to limit hits."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "e29d82c88159ad429988fc5d53230a8e08ff0d0300a6e33f2a0d4c3a3c25a80d",
+      "text": "Device II succeeds through hits on its target or at least four hits in one turn. Do not protect only the designated target while leaving other attacks unopposed."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "244ecc622b05bac4ae27d4e10e904dc7025d213419773b5c32425054f0f2dc3c",
+      "text": "Failed Prescripts add Karmic Consequence, lowering Defense Level and Clash Power. Unlock also advances through HP and turn conditions, so its activation alone does not mean disruption failed."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "4a02342d932667e490ce4899b477c559cafdb67e56ed5db476190350057aca92",
+      "text": "At 75% HP or less, Unlock III and 9 Grace can activate, raising damage against everyone by 30% even in the first half. Avoid pushing HP too far before a major attack without healing and debuffs ready."
+    },
+    "phases.2.timing": {
+      "sourceHash": "3fe5895fc3f1d06610d698322fd054590dc83a8e2e768a8f6b8bbf68c65696da",
+      "text": "9 Procuration · Major attacks from Turn 5 of the first half"
+    },
+    "phases.2.title": {
+      "sourceHash": "dafc1817a485ab9b12f3c4405df9c98f41a172169eccd36055d7237e618b88e0",
+      "text": "Have Ryōshū beat Furioso and prepare for remaining area damage"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "9a61e4969fddb6c199a18d98660542113b9c366d4859bd9eeb79079cefbd7154",
+      "text": "Uses Furioso at 9 Procuration [Hermes]. In the first half, missing stacks are filled to 9 on Turn 5 and every four turns afterward. Check the count and use Chains of Others or similar debuffs the turn before."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "e2d642e85804276e0024723bb48bd1959009c9f1fa5bc35bb0a0b0ea1da62ea5",
+      "text": "Furioso-Replica is an Unfocused Volley with Unbreakable Coins, often hitting the clasher repeatedly. Have Ryōshū win, using her survival against lethal damage while another ally lives."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "6b56ff0fde7014c6d3efda97d3e05ce17270bf44863500af898e5830b4f33e16",
+      "text": "Ryōshū surviving does not keep everyone safe. Check secondary targets' HP, Wrath resistance, and debuffs beforehand. The turn ends after the attack, so do not postpone healing."
+    },
+    "phases.3.timing": {
+      "sourceHash": "ada9fa004831ec756f112893b84285c1968e3fe0080568b40dd14eb5d636f0ce",
+      "text": "55% HP or less · Second half"
+    },
+    "phases.3.title": {
+      "sourceHash": "c7de9bedef47143508ee0a58f83e7319504fdf68278f81a2e16c6dfe947cd2d5",
+      "text": "Keep the Prescript's target alive and manage Grace and Karmic Consequence"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "86aa9d71ef1a26d783437c4db0b66c35b40216cf66bc79e6806175819dce4ff7",
+      "text": "Removing the mask starts the second half with HP carried over. Procuration resets to 0 and Karmic Consequence becomes Karmic Consequence [Fortuna]. Do not simply extend the first half's counters."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "405f193b76f3a9cbfc827fd1ae831a992177eb8a1e5951800b938df86d153413",
+      "text": "Second-half Prescripts demand the target's death. Keeping them alive makes the Prescript fail, increasing Karmic Consequence and reducing Grace. At 9 Grace, damage against everyone rises by 50%; beware of damage immediately after the transition."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "7af0f028b1f209ef2ab14194a9fb192e3cf29b9d07b50f492d660e2a7e86ce04",
+      "text": "From the second-half transition, Indulgence in Prescripts occurs every two turns and missing Procuration is replenished every four. Check equipped skills to see whether the special pattern or major attack is active."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "836ef8e3d99fcb3eb7f19289edd2970d62c278051401f67a4e08f9d871590ec1",
+      "text": "If using MOROSITAS from the Sapling of Light, consider stabilizing early second-half regular skills and Indulgence in Prescripts. Prepare healing and debuffs together."
+    },
+    "phases.4.timing": {
+      "sourceHash": "783b6a0844ca8c7d49d0bcc54103e4139d57d921826f26ec3e76cf8e586c7528",
+      "text": "Indulgence in Prescripts special pattern"
+    },
+    "phases.4.title": {
+      "sourceHash": "5a97f9caed95b02998b88bc48bb78df1a7d407488467af6bfb21c8e7df5df38e",
+      "text": "Ryōshū handles Sloth; beat the three Gloom skills with matching physical types"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "a552c7f4046a3d208e9566e1841cf77eedb6f9bdc22b01f128b8234d703d956e",
+      "text": "Only Ryōshū can clash with Remember This, Sweetheart? Only You Can Clash Against This Move. Assign her first."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "1b4177bf5957f8d72cd381b8ab24d9cd388598ce77b28261a96c96f9815c13a5",
+      "text": "Beat the three Gloom skills by matching Blunt with Blunt, Pierce with Pierce, and Slash with Slash. Ryōshū winning also meets the weakening condition, but check her available slots first."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "330afcf6ff48ba3d9ffc893ef0324cbcc1d71595c2abf6080252f5ebfa14cb1e",
+      "text": "Winning with the wrong type does not sufficiently reduce Unbreakable damage. Use strong E.G.O for missing types and check both win probability and remaining damage."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "beaa6f3a06df9650026f85554f8016c4be815dc6d4ee874f870a8752c55d9b42",
+      "text": "Ryōshū beating the Sloth skill adds Sizzling Wound. Beating all three Gloom skills adds more. Wounds also strengthen her base E.G.O's damage."
+    },
+    "phases.5.timing": {
+      "sourceHash": "962908f6c6a9be267d9d0b393ef87ddb5dc66f535edc1ec788097bb66b5823e1",
+      "text": "25% HP or less"
+    },
+    "phases.5.title": {
+      "sourceHash": "3a5e4da36d70939298fb658828e71ff70f9dbb02f3a92f5ac01746a6686f474e",
+      "text": "Match Forest for the Flames against the final Furioso to finish"
+    },
+    "phases.5.steps.0": {
+      "sourceHash": "97d80d504827bdb5c98be4698bbd215bb411eb3b3625cf0ff82b474a9cf410bf",
+      "text": "The final Furioso[Lacrimosa-Crescendo] loses 20 Power when clashing with Ryōshū's base E.G.O. Assign Forest for the Flames to weaken the remaining Unbreakable damage."
+    },
+    "phases.5.steps.1": {
+      "sourceHash": "3ec0362d1d99589070ee261940eda76d7586756dc0611b525e6b2514726b8fdc",
+      "text": "Renketsuen greatly increases base E.G.O damage according to the enemy's Sizzling Wound. Keep allies other than Ryōshū alive to maintain her protection from lethal damage."
+    },
+    "phases.5.steps.2": {
+      "sourceHash": "ed0fc5784624ce57d51ebaa9ae33005162b5ab3f76626c78e0cf953e9df67e44",
+      "text": "Unopposed damage and damage from Tremor, Rupture, and Sinking are greatly reduced. Clash while attacking and finish without allowing more enhanced major attacks."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "10aa9bbf38c7f43a30ce2afb42a79e2c8a464943c7bcda805b6655165349bb48",
+      "text": "The Prescript's Target - The Index"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "c16cf0f9b4f75d94b69b88a7214faed0e5f108258797de63376adc2ae5dbda5b",
+      "text": "Skill Power −2 and damage +20% against Index enemies. Rien prioritizes the target and makes every Coin of skills used against them Unbreakable."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "0b1d332e90a37a836fb94b88645a3022388e0bcedac91c69a1afaab2eb3773ba",
+      "text": "Generally take over clashes with another Sinner to protect the Prescript's target."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "f66f03fcbbe887d3a6c8efdfd333a86e6d786caf25200695e4bd43719abe83ad",
+      "text": "Grace of the Prescript"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "fb05250fd17fe3bec81a80fc2e3a287a76d840d71c0665fbfc7ce559bffa56cd",
+      "text": "Maximum 9. Offense Level +1 per 3 stacks. At 9 Grace, damage against all targets increases by 30% in the first half and 50% in the second. In the second half, also grants Protection according to Grace."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "d7fc193486b28add6855706a93424490de950047453f1db871932ee3abee5c83",
+      "text": "The same 9 Grace is more dangerous in the second form. Reduce it through failed Prescripts in the second half."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "a873ac93fa86913d192c68f98e76b3bc9766e4d197c2505d764b72b02db18cc6",
+      "text": "Karmic Consequence"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "4e9a4813d6073dff2ff9edb0438e378ad01be6794df49264f9c49eb5b9a5f3d4",
+      "text": "Maximum 100. At Turn Start, gain 1 Defense Level Down per 10, 1 Fragile per 20, and 1 Clash Power Down per 40 stacks."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "b59de4fced872f9244e001f058a43b37d8ecafac44bacbc6ef70ddfb6dc6795b",
+      "text": "Build it by disrupting early Prescripts."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "e9d5e896562342096f05140f98afd30780531f1e9658dcb92aa206334cc0db0c",
+      "text": "Karmic Consequence [Fortuna]"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "0ed221a4d09bb3433057d00e52b84189c9910052cb445cb2d07c700a328efd2e",
+      "text": "Maximum 200. At Turn Start, gain 1 Defense Level Down per 10, 1 Fragile per 20, and 1 Clash Power Down per 40 stacks. Second-half Protection also falls by 1 per 20 stacks."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "2de504e2aa2584c5b50b7dbee967200373788841bbc909a90e8b24c76d261155",
+      "text": "Keep the target alive in the second half too, building stacks to weaken major clashes."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "c94939a1a62a19349a3795e22c70948cdbfb63fffde2374e88599451e02e4d8c",
+      "text": "Rien's Mask"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "bce91c677e082a1fb738c1616666f713bcb8a75748924125977158fb858d5d62",
+      "text": "Offense and Defense Levels −5. Take 5% more damage from skills that inflict Burn or Bleed, or 7.5% more from skills that inflict both."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "b172ce58fcc8ce47c220f340b2e6451a3a97aa55e4af69c7c5d7a92ebe8359c6",
+      "text": "Status-inflicting skills can contribute damage, but unopposed attacks face a separate reduction."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "ca20288055071fbf6c8d895811d7d72b4e1017769c148c0882cd9f96df80ee63",
+      "text": "Sizzling Wound"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "9ebe88764bc55876f9c76bc56c56d98923047f7b7e2191b14d6b3b000dd8a61e",
+      "text": "Maximum 5. Offense and Defense Levels −5. Stacks increase Burn/Bleed Count and damage taken from skills that inflict them. Strengthens Ryōshū's Renketsuen."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "80c6853f362d1375ef367516dbab89721322e7b3bae8e581a88d34cb1fc030ef",
+      "text": "Resolve the special pattern correctly to add stacks and improve base E.G.O damage."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "4005f22f3afa28d355c5b4c1cb347291e0274e2f04eacab589a1c409446964c4",
+      "text": "Indulgence in Prescripts"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "f2e115a7995cab7acfb3a40600bf5b9e0c3b7bdc0eda12a610c46561c7c8cfe0",
+      "text": "Inflicted Sinking Potency and Count +2. Makes every Coin of the special-pattern Gloom skills Unbreakable. Expires at Turn End and grants Karmic Consequence according to the number of skills that lost clashes."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "9c2e719c2d1c02ed0a57b3e47d213b96de42576d1bf40e0b684a38a79173c865",
+      "text": "Win with matching physical types to weaken remaining damage too. Assign the Sloth skill to Ryōshū."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "1bc88e32b9ce26ac38b70d393750eb016e2d25173346bb032b86560e34b98df3",
+      "text": "Procuration [Hermes]"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "0234b1425a02b5fb169433cf6af90848b71b9a653d7c6ca9bd21f1f8e8dd051a",
+      "text": "Increases through Attack Skill use; at 9 at Turn Start, uses a Furioso skill. After the major attack, per-skill gain tracking resets."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "ae48caf09ff0142ea61893d091410d6d33e8dc4da8f4bd6b9cd2b884d83b7088",
+      "text": "Check current stacks and equipped skills as well as the cycle; apply debuffs the turn before."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "c3c63809a63528bc091b96315738bfdae7c8ee11c10503e3849a706831f91f0c",
+      "text": "Ketsuen [けつえん]"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "8e84ca711ea9ba633e9ad1178fa328ed0173b852d882cc92dc01c6035812ef4d",
+      "text": "First-half Ryōshū. Cannot fall below 1 HP while at least one other ally lives. Clash Power +1 and hit damage +10%. Clash wins generate three resources; prevents Stagger and removes Stagger Thresholds."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "5074a0ccf2fd923d6ccae6b5b66714ee69d170495319c1a5257ec4bf61dfe0b7",
+      "text": "Assign her major attacks, but keep other allies alive too."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "414863f46906b2effcbc63a587fa98723c9ee60cc2a628149bd46df2ba4b81e5",
+      "text": "Renketsuen [れんけつえん]"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "9ca99845300a2467a13b052d792a7d34e8dc6fb0c2e9900a1ebb1f9494023ae1",
+      "text": "Second-half Ryōshū. Retains HP protection while another ally lives, plus Clash Power +2 and hit damage +25%. Also gains buffs including +50% base E.G.O damage per enemy Wound stack (max 250%)."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "0d20e0fc4cdc7020d5039a38ead7164023e20114d6d319baf5ef3d21b09303b2",
+      "text": "Match Forest for the Flames against the final major skill and use Wound-based damage buffs."
+    },
+    "mechanics.10.name": {
+      "sourceHash": "5bc8caee8d8257e5bdf1d51de55ca17e45919f815d5897ad180d47757a24dffe",
+      "text": "Gebura's Blade"
+    },
+    "mechanics.10.effect": {
+      "sourceHash": "6e70802dd3ec5fd2abb3cd242463977b4ea8b1d848ab7e2ee7b4103ce888b732",
+      "text": "Buffs include fully Unbreakable Coins and +100% damage. Basic attacks and Counters heal 10% of hit damage as HP (max 100 per skill). In 9-50, persists while a Sinner other than Ryōshū lives."
+    },
+    "mechanics.10.response": {
+      "sourceHash": "0581ced54b211b2f7614d357cb7453ab4b956040adeabb19de2d399615cffee5",
+      "text": "Its duration differs from the usual Turn End expiry. Protect other allies."
+    },
+    "mechanics.11.name": {
+      "sourceHash": "a1148a4efad72edcc5dfbf228875b25820ee32de7dd338e5998d68a7191f0609",
+      "text": "Malkuth's Reign - Imperfect Manifestation"
+    },
+    "mechanics.11.effect": {
+      "sourceHash": "6061726385add1d602a6faa4cd862329d40a112058ae5390ecce3ad4ae7648d3",
+      "text": "Support gained at Combat Start by Sinners other than Ryōshū, Meursault, and Outis."
+    },
+    "mechanics.11.response": {
+      "sourceHash": "3d38c84e36a1691455a40b9e1d498e07ab7aa6a8575db3ab8fe06e6fc916bcc1",
+      "text": "Distinguish it from Ryōshū's special effects and check which buffs are actually applied."
+    },
+    "mechanics.12.name": {
+      "sourceHash": "5d2adb2352f5125b11822a1b9dd15fc078510863076c632985b6c06c94779357",
+      "text": "Unlock - I"
+    },
+    "mechanics.12.effect": {
+      "sourceHash": "043d8364288425e8214d049d8d7cc49eb5488c4585250a48a93635c71f76d2d8",
+      "text": "Offense and Defense Levels +1; heal 10 SP at Combat End. Prescripts and skill effects change with the stage."
+    },
+    "mechanics.12.response": {
+      "sourceHash": "ba4dc6be3f89729cbde50ff130d21b6c4d8fd3659a06c9e08f6e5074529b1923",
+      "text": "Do not expect SP reduction to last indefinitely; weaken through failed Prescripts."
+    },
+    "mechanics.13.name": {
+      "sourceHash": "d74b1893e3a502f27e926360756bdffa8fe27fdc56f3cf54535f51cfb3373151",
+      "text": "Unlock - II"
+    },
+    "mechanics.13.effect": {
+      "sourceHash": "dc582d55cd17ba4b7c36564085d6530828f4a976361d5d6d2c09e126220b52a9",
+      "text": "Offense and Defense Levels +2; heal 20 SP at Combat End. Prescripts and skill effects change with the stage."
+    },
+    "mechanics.13.response": {
+      "sourceHash": "ba4dc6be3f89729cbde50ff130d21b6c4d8fd3659a06c9e08f6e5074529b1923",
+      "text": "Do not expect SP reduction to last indefinitely; weaken through failed Prescripts."
+    },
+    "mechanics.14.name": {
+      "sourceHash": "04873481204c724f1631c1abc5142d8639cca6bed2de3502b23a116811746721",
+      "text": "Unlock - III"
+    },
+    "mechanics.14.effect": {
+      "sourceHash": "c00117442e1a68b550c5da9f8eabc409969ebf2076f8e16bd74a1d12865e35ff",
+      "text": "Offense and Defense Levels +3; heal 30 SP at Combat End. Prescripts and skill effects change with the stage."
+    },
+    "mechanics.14.response": {
+      "sourceHash": "ba4dc6be3f89729cbde50ff130d21b6c4d8fd3659a06c9e08f6e5074529b1923",
+      "text": "Do not expect SP reduction to last indefinitely; weaken through failed Prescripts."
+    },
+    "mechanics.15.name": {
+      "sourceHash": "303a21537d30f7c2815bed3cfd67eb0e79aa8248082bcba465904e9fc34f4ef5",
+      "text": "Prescript: [Device] I"
+    },
+    "mechanics.15.effect": {
+      "sourceHash": "698f252ae07f8d43511f983dd73bf426ad9003680f2f11d25c3ddbdb20c4a7cf",
+      "text": "A Prescript to hit the designated target by the first turn. Grace from completion caps at 3."
+    },
+    "mechanics.15.response": {
+      "sourceHash": "64fcd159e9b2f8999851cea0e453f14dea68f6558b07a640d7ded36de679e1c7",
+      "text": "Have a Sinner other than the target take over the clash."
+    },
+    "mechanics.16.name": {
+      "sourceHash": "5f2e4aeebdb22ffaec1f18dd69ad284f329d8e6c321d9310119b7235f01ca22d",
+      "text": "Prescript: [Device] II"
+    },
+    "mechanics.16.effect": {
+      "sourceHash": "ce50125f179e67edaf3d4c179c5793149e689ecdf1bcf404545458e620811908",
+      "text": "A Prescript to hit the designated target by Turn 4, or land at least four attacks in one turn. Grace from completion caps at 6."
+    },
+    "mechanics.16.response": {
+      "sourceHash": "6436cff9d5e91b5e77eb383ce87c6dd63c2bae519bc71536e109108d65c467f8",
+      "text": "Limit other hits as well as hits on the target."
+    },
+    "mechanics.17.name": {
+      "sourceHash": "3a9a0e5d564cf6774469182947b4adf510096b35d9e80705705e8a661f5a4ee0",
+      "text": "Prescript: [Device] III"
+    },
+    "mechanics.17.effect": {
+      "sourceHash": "0b7bd73c57e0b635e26485c1043aad5e8643601b80269712428b5743404e464e",
+      "text": "A Prescript to use a powerful skill with nine weapon types. Grace from completion caps at 9."
+    },
+    "mechanics.17.response": {
+      "sourceHash": "3e5bb7d2656ada39447bf0878f7a5c652363f10a6eeb4973ac1ebb0ff0c2ca61",
+      "text": "Check Procuration stacks and prepare for the major attack."
+    },
+    "mechanics.18.name": {
+      "sourceHash": "2209dfb8b56daea4af1495170a86d69fb53620ffaa44dc2247aa27f52f7e5619",
+      "text": "Prescript: [Device] IV"
+    },
+    "mechanics.18.effect": {
+      "sourceHash": "6d35a682611591c086a4a3f9660d43c71cd2938eaf366941b99322239f19fb06",
+      "text": "A Prescript to eliminate every obstacle before the next Prescript."
+    },
+    "mechanics.18.response": {
+      "sourceHash": "290b841c6dc92ec92f82e6ba5075a16f50d61c29514b663962ceda3b0db10524",
+      "text": "Keep allies alive while fighting."
+    },
+    "mechanics.19.name": {
+      "sourceHash": "f32d5646a9e67921b16f2034a0c02cf2ac9e9f7a70995b0424d6b2537e0fb820",
+      "text": "Prescript: [Device] - Warning"
+    },
+    "mechanics.19.effect": {
+      "sourceHash": "f6e929ae89de36b2aef25db865718bb32ef10e12dc382d2ede61610b996dc980",
+      "text": "In the second half, prioritizes killing the Prescript's target."
+    },
+    "mechanics.19.response": {
+      "sourceHash": "84d638dd9f74f02e5a0014d82a0043668176732d366b06bbaedf991b16ad8f40",
+      "text": "Keep the target alive to make the Prescript fail."
+    },
+    "mechanics.20.name": {
+      "sourceHash": "44b0d2e6f1b5df1028aed0d9487802abbe7418e9d6873ea5b929e47baea8b1e1",
+      "text": "Shin (心) - Rien"
+    },
+    "mechanics.20.effect": {
+      "sourceHash": "028bd662499d3baf45d5ef1ef199733db5527510e308dd0249d4ccef8ee86216",
+      "text": "Gains Damage Up and Attack Power Up in proportion to lost HP. Poise Potency and Count gained through skills +1. SP difference with the target also increases damage."
+    },
+    "mechanics.20.response": {
+      "sourceHash": "6539c60f7068a01ddee2d3eb0e1a32b954f590194a3a694079eed01dd60d218e",
+      "text": "Enemy damage stays high in the final phase even with Karmic Consequence accumulated. Continue healing and debuffing."
+    },
+    "mechanics.21.name": {
+      "sourceHash": "d818d0b7bdf29fff17d856413f7f2207daeca92a1f45a925c9af79937a8e1d66",
+      "text": "When hacking through the ribs with a hatchet..."
+    },
+    "mechanics.21.effect": {
+      "sourceHash": "c0e711c84a3635ef28cc826e3bcd38609e3953056078afdcadde57dbb1952d89",
+      "text": "Blunt. Gain 2 Poise on a hit without Coin destruction."
+    },
+    "mechanics.21.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.22.name": {
+      "sourceHash": "d818d0b7bdf29fff17d856413f7f2207daeca92a1f45a925c9af79937a8e1d66",
+      "text": "When hacking through the ribs with a hatchet..."
+    },
+    "mechanics.22.effect": {
+      "sourceHash": "0a6c55347a1ea985a48f6649640fe9923f561495a793e217214be1016b9e5eb6",
+      "text": "Blunt. Gain 2 Poise and 2 Poise Count on a hit without Coin destruction."
+    },
+    "mechanics.22.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.23.name": {
+      "sourceHash": "b29afda89f3de4447230977b8d7e1eb6932313c984f6d5cef8e4207c78b97ccb",
+      "text": "When penetrating the lungs with a stiletto..."
+    },
+    "mechanics.23.effect": {
+      "sourceHash": "0e0255e41d9e7baea25de5122182ede51c6c83ebed98399cbeb05dcc96fa5dc5",
+      "text": "Pierce. Inflict 2 Sinking on a hit without Coin destruction."
+    },
+    "mechanics.23.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.24.name": {
+      "sourceHash": "b29afda89f3de4447230977b8d7e1eb6932313c984f6d5cef8e4207c78b97ccb",
+      "text": "When penetrating the lungs with a stiletto..."
+    },
+    "mechanics.24.effect": {
+      "sourceHash": "93d15dfaeebf8677609521a81c8c03ce843d074e5bb719adbacae3b1213da4bf",
+      "text": "Pierce. Inflict 2 Sinking and 2 Sinking Count on a hit without Coin destruction."
+    },
+    "mechanics.24.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.25.name": {
+      "sourceHash": "0b069649a7303856c3d924a9dec9ab6eb31388be09f36ea7a459b641ccf8cb49",
+      "text": "When cleaving through the shoulder and the skull with a bastard sword..."
+    },
+    "mechanics.25.effect": {
+      "sourceHash": "9dd768237e35ad4b97cfb17ef4241664dc2b28abcbd1be2d86eccf793d65f5ca",
+      "text": "Slash; Coin damage +5%. On a hit without Coin destruction, gain 1 Offense Level Up next turn (up to twice)."
+    },
+    "mechanics.25.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.26.name": {
+      "sourceHash": "0b069649a7303856c3d924a9dec9ab6eb31388be09f36ea7a459b641ccf8cb49",
+      "text": "When cleaving through the shoulder and the skull with a bastard sword..."
+    },
+    "mechanics.26.effect": {
+      "sourceHash": "b778922e4083abdd2b03ffe18e743058289804e7dc04449fcda43b4bd3623f91",
+      "text": "Slash; Coin damage +7.5%. On a hit without Coin destruction, gain 1 Offense Level Up through the next turn (up to twice)."
+    },
+    "mechanics.26.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.27.name": {
+      "sourceHash": "c53fd1cd9b27438ba867f6564f88187342d238f76b04f1713742b247c56d7edc",
+      "text": "When punching 10 or more holes in the torso with a rapier..."
+    },
+    "mechanics.27.effect": {
+      "sourceHash": "ac429a44d613bdae64efca0431c59f0583e677e4a2d729e9982d4284a9ce1d96",
+      "text": "Pierce; Coin damage +5%. On a hit without Coin destruction, inflict 1 Defense Level Down next turn (up to twice)."
+    },
+    "mechanics.27.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.28.name": {
+      "sourceHash": "c53fd1cd9b27438ba867f6564f88187342d238f76b04f1713742b247c56d7edc",
+      "text": "When punching 10 or more holes in the torso with a rapier..."
+    },
+    "mechanics.28.effect": {
+      "sourceHash": "e0f376fe1e33cd6fb82ccee972da4f485e56617e3bc88408976bb6f1011d2e89",
+      "text": "Pierce; Coin damage +7.5%. On a hit without Coin destruction, inflict 1 Defense Level Down through the next turn (up to twice)."
+    },
+    "mechanics.28.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.29.name": {
+      "sourceHash": "21051c2e1755cf3677425050a0329a7e8823c3d2b08b5d0a2fbcca35d4778fee",
+      "text": "When caving in the back of the skull with a hammer..."
+    },
+    "mechanics.29.effect": {
+      "sourceHash": "aadb4ef255d9c3f6008a6418cbc9ac468dff43e7ad9873e8afe197e9e18331bb",
+      "text": "Blunt; Coin damage +5%. On a hit without Coin destruction, raise Stagger Threshold by 3."
+    },
+    "mechanics.29.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.30.name": {
+      "sourceHash": "21051c2e1755cf3677425050a0329a7e8823c3d2b08b5d0a2fbcca35d4778fee",
+      "text": "When caving in the back of the skull with a hammer..."
+    },
+    "mechanics.30.effect": {
+      "sourceHash": "ff8ad3d03ba460734113dcefcf6800be129ff583a5216eae141c81c9ef0f8831",
+      "text": "Blunt; Coin damage +7.5%. On a hit without Coin destruction, raise Stagger Threshold by 5."
+    },
+    "mechanics.30.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.31.name": {
+      "sourceHash": "00def6a70991d73efd405964d2cf821886c7cb1608148e8a6485cd9135120995",
+      "text": "When rending the body with a greatsword..."
+    },
+    "mechanics.31.effect": {
+      "sourceHash": "e48d8e392e1b937da7b86768db29ef94d3b0bfaf148a4bcc9b0c2aa6a1173996",
+      "text": "Slash; Coin damage +10%. On a hit without Coin destruction, inflict 1 Slash Fragility next turn (up to twice)."
+    },
+    "mechanics.31.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.32.name": {
+      "sourceHash": "00def6a70991d73efd405964d2cf821886c7cb1608148e8a6485cd9135120995",
+      "text": "When rending the body with a great sword..."
+    },
+    "mechanics.32.effect": {
+      "sourceHash": "5ec9f064470a2076e7b973b6a2ba457ba0965970f42e813dc6ec3df6781bf485",
+      "text": "Slash; Coin damage +15%. On a hit without Coin destruction, inflict 1 Slash Fragility through the next turn (up to twice)."
+    },
+    "mechanics.32.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.33.name": {
+      "sourceHash": "bf8bb55a5dd1072245152326a44d5b41cecdb797aaf3c004a2f6d8a8f3d4b354",
+      "text": "When boring a 20-inch hole with a lance..."
+    },
+    "mechanics.33.effect": {
+      "sourceHash": "e76044fb9026356c2f54601fd47ce90f6f954c523d713b19f6bec9cba116c1b9",
+      "text": "Pierce; Coin damage +10%. On a hit without Coin destruction, inflict 1 Pierce Fragility next turn (up to twice)."
+    },
+    "mechanics.33.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.34.name": {
+      "sourceHash": "bf8bb55a5dd1072245152326a44d5b41cecdb797aaf3c004a2f6d8a8f3d4b354",
+      "text": "When boring a 20-inch hole with a lance..."
+    },
+    "mechanics.34.effect": {
+      "sourceHash": "5cf49647d9edb6116dd109a3b20882d6544cb475b4ba42d0847732e435e49f58",
+      "text": "Pierce; Coin damage +15%. On a hit without Coin destruction, inflict 1 Pierce Fragility through the next turn (up to twice)."
+    },
+    "mechanics.34.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.35.name": {
+      "sourceHash": "ff21b43c376447d35bcd1a732234eb62e7f736ee8fa91dbf120c630f635a56c1",
+      "text": "When ripping the flesh to ten thousand strips with a whip..."
+    },
+    "mechanics.35.effect": {
+      "sourceHash": "d8b8676edf297dda20f9a045ff1ad950fff535744b237ac87040e15694054ac3",
+      "text": "Blunt; Coin damage +10%. On a hit without Coin destruction, inflict 1 Blunt Fragility next turn (up to twice)."
+    },
+    "mechanics.35.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.36.name": {
+      "sourceHash": "ff21b43c376447d35bcd1a732234eb62e7f736ee8fa91dbf120c630f635a56c1",
+      "text": "When ripping the flesh to ten thousand strips with a whip..."
+    },
+    "mechanics.36.effect": {
+      "sourceHash": "a55a8c49e95aad85f1c32459ae10b52d8ff26fe3e395a52a2a64809b63b40377",
+      "text": "Blunt; Coin damage +15%. On a hit without Coin destruction, inflict 1 Blunt Fragility through the next turn (up to twice)."
+    },
+    "mechanics.36.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.37.name": {
+      "sourceHash": "d4f7c886a109996f6246d4ec3bbd2594ccfc2e18d845334cc8fdcb4b3bf73a3d",
+      "text": "When lacerating through space itself with a scythe, like a certain someone..."
+    },
+    "mechanics.37.effect": {
+      "sourceHash": "44479a76cfd87f475d064984e1913cf1b6d498e30e8f5f7c11b60673df37b166",
+      "text": "Slash; Coin damage +20%. On a hit without Coin destruction, guarantee a critical hit and treat base Slash resistance below 1 as 1."
+    },
+    "mechanics.37.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.38.name": {
+      "sourceHash": "d4f7c886a109996f6246d4ec3bbd2594ccfc2e18d845334cc8fdcb4b3bf73a3d",
+      "text": "When lacerating through space itself with a scythe, like a certain someone..."
+    },
+    "mechanics.38.effect": {
+      "sourceHash": "1769248bbb83da6f0b6d2372363e4e906bde9c8d754478d14cdfedfd792f18f9",
+      "text": "Slash; Coin damage +30%. On a hit without Coin destruction, guarantee a critical hit and treat base Slash resistance below 1.5 as 1.5."
+    },
+    "mechanics.38.response": {
+      "sourceHash": "eb2dc4d0bceff86827d341883709dbc84a74f9dabd4756dc1470746d81edf55a",
+      "text": "Account for actual damage from random weapons and prioritize clashes and healing."
+    },
+    "mechanics.39.name": {
+      "sourceHash": "6fd719997b9fbc77934f8c398a4f124df4f334eb6d503212163019c183cb65b4",
+      "text": "Forest for the Flames"
+    },
+    "mechanics.39.effect": {
+      "sourceHash": "3e30482fac628372251b3688ed4860d7cc47d9f388d5adcf682b867eea4321e5",
+      "text": "Ryōshū's base E.G.O. When clashing with Furioso[Lacrimosa-Crescendo], lowers enemy Clash Power by 20."
+    },
+    "mechanics.39.response": {
+      "sourceHash": "0814edaad9f44f5fdb65af641a3486f8fa5ffff677d3cda58df19b5930bde76a",
+      "text": "Save resources for the final phase. Distinguish this from healing through Gebura's Blade's basic attacks."
+    },
+    "mechanics.40.name": {
+      "sourceHash": "7d947b2016e36e1da1ae520e5c0ab3f5f77a9634c6ada495d8c168dd89d0e6eb",
+      "text": "Chains of Others"
+    },
+    "mechanics.40.effect": {
+      "sourceHash": "425e8d5c4a5c73be62d4edb90d0e325a68303fbd1ee1b8ff8a5baabf50612981",
+      "text": "Meursault's base E.G.O. A way to prepare enemy debuffs for the next turn."
+    },
+    "mechanics.40.response": {
+      "sourceHash": "62af9f7003a515bc8f00811113a0563268979484351c11d7b3fca4203edb87f6",
+      "text": "Use it the turn before Furioso or Indulgence in Prescripts."
+    },
+    "warnings.0": {
+      "sourceHash": "bc2775ac2b82e68630a2a92795a3e45b020569bf44a1320bc9e63f8056f20869",
+      "text": "Ryōshū's HP protection requires another living ally. Leaving only Ryōshū alive is not safe."
+    },
+    "warnings.1": {
+      "sourceHash": "1223aa79849985c6560d03c3bc0d085811e3f6d2d20b983ce7cac7c777660606",
+      "text": "Gebura's Blade heals on basic attack and Counter hits. Forest for the Flames itself does not provide that same healing."
+    },
+    "warnings.2": {
+      "sourceHash": "f6566e98de69448ef2f6eb53e950c83e9646ec2f63e277cdeaed73a7b7e2fdcb",
+      "text": "Coins become Unbreakable when attacks are aimed at the Prescript's target. Taking over the clash does not necessarily remove an already applied Unbreakable conversion."
+    },
+    "warnings.3": {
+      "sourceHash": "14ab6d3c3741d149768748d7ac235b4a16234786058cdd5579dd35aa31666e88",
+      "text": "Beat second-half Gloom skills with the same physical type or Ryōshū. Check the type even when the win prediction is favorable."
+    },
+    "warnings.4": {
+      "sourceHash": "0507affbcb8fcbe30d13a99b9fcd46694f3165cd1042a02692eda5f3d105cbdb",
+      "text": "Rien's random weapons change actual incoming damage types. Slash resistance alone does not reduce every attack."
+    },
+    "preparation.0": {
+      "sourceHash": "aebcba9d3c92eb0a08e773b27adf72262c525fc5aff1da30e44b455131cb6513",
+      "text": "Prepare Ryōshū's Forest for the Flames, high-Power Slash/Pierce/Blunt clashes, and HP/SP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "2c6b8d618cdc8dfa3196198ba7724758c9a4b204dfc8ffe15578d6f191dfde0e",
+      "text": "If bringing Meursault, use Chains of Others to weaken next turn's major attack or special pattern. Align the use turn with the effect turn."
+    },
+    "preparation.2": {
+      "sourceHash": "d3a48455d316d2c3cd87ef49257e6232aa8284bcf138c03e3cea4127ca4bacec",
+      "text": "Check Wrath resistance for Furioso skills too. If another E.G.O changes resistance, use it before the hit."
+    },
+    "roles.0.name": {
+      "sourceHash": "3d85c1b3d47e4ad9e7ccdc98734d9752eb113b502973c0be4e0355078ebcd9bf",
+      "text": "Ryōshū and base E.G.O"
+    },
+    "roles.0.reason": {
+      "sourceHash": "1b9b741d26a853c694b9b4cb4fbcea384a1437f257733abb48cf3b0dd946e08c",
+      "text": "Handles the exclusive Sloth clash and Furioso skills, meeting the final weakening condition."
+    },
+    "roles.1.name": {
+      "sourceHash": "dcea3c2ca5fb6cfe92e6e6f5b415d062184e19c3604a1f04afb5544d25f946fe",
+      "text": "Slash, Pierce, and Blunt clashes"
+    },
+    "roles.1.reason": {
+      "sourceHash": "d9b1d9aed4f1f3ff0a87549601cf5c8b9d59fc370e392d9b87e34af49c2f9ec4",
+      "text": "Beat the three Gloom skills during Indulgence in Prescripts with matching types."
+    },
+    "roles.2.name": {
+      "sourceHash": "d14f80b0b30227c9654a08e6e6bd14c168951ee323c4a46a9574e65b692926b3",
+      "text": "Advance debuffs and healing"
+    },
+    "roles.2.reason": {
+      "sourceHash": "65d582577bcf05aa1c550b239a485ab115fcd869bb77e09fa12c4dad471625f6",
+      "text": "Protect allies from Unbreakable damage that remains after clash wins."
+    },
+    "roles.3.name": {
+      "sourceHash": "a41bd380c14bebbd9b8500191c74c3565a55e873f1d3ffdcbbd2d7cfd02246bf",
+      "text": "Protect the Prescript's target"
+    },
+    "roles.3.reason": {
+      "sourceHash": "a5b649ac515dd7107b1adb327055145a8fa8c31ed009a8591d6ec31c88747ea8",
+      "text": "Failed Prescripts add Karmic Consequence and also reduce Grace in the second half."
+    },
+    "units.0.name": {
+      "sourceHash": "1f119d86d74156e615ae364c8b74e384384dfa5206b10876f90f2fb635d743cf",
+      "text": "The Index Nursefather - Rien [First Half]"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.speed": {
+      "sourceHash": "0e8be6f8244ab9e18a626e88c837e89e0232b3590b3bc8de055bd91541d9aee8",
+      "text": "1–2 / Speed range +25 when using Furioso skills"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "089c1e8052a8a54bee20b4f4bbdbe56417023c17e20bc19a4e8136723a0be676",
+      "text": "Rien's Mask lowers Offense and Defense Levels by 5. Unlock, Grace of the Prescript, and Karmic Consequence changes are not permanently included in the base table."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "fca7832a7eb4e9998d01c825e43f24ec37eec2d8d37cd2bee5d48dd40aa33a41",
+      "text": "At 55% HP or less (about 2,406), transitions to the second half. Same-named regular skills have different performance in each half."
+    },
+    "units.1.name": {
+      "sourceHash": "c66c140b72207ddb28ba7fe866b9526cb1301322d3951a8e52c4871d2b23add7",
+      "text": "Nursefather Rien [Second Half · Mask Removed]"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "4ee9fb998e52623249a1e895c30962338081bddcf5249ef258f8088241a0161d",
+      "text": "4,375 (carries over remaining HP from the first half)"
+    },
+    "units.1.speed": {
+      "sourceHash": "0e8be6f8244ab9e18a626e88c837e89e0232b3590b3bc8de055bd91541d9aee8",
+      "text": "1–2 / Speed range +25 when using Furioso skills"
+    },
+    "units.1.stagger": {
+      "sourceHash": "787af4c9ada15d8899a605285f92cba7bc15ba709e05c74ae11e7d46395f2eb1",
+      "text": "Carries over remaining HP from the first half"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "92337b79445e017ad36585e6d7aaa9964e07367423dae26164235a9d49297526",
+      "text": "Transitions at 55% HP or less. Removes effects other than unique effects and resets Procuration [Hermes] to 0."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "d0f4adfce9a984c817d0c93178f0d11f8d0c67c28cb9544790d0ad1c25c24a23",
+      "text": "Karmic Consequence changes to Karmic Consequence [Fortuna] and gains 10. The Prescript becomes fixed on killing its target."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "1459025cbf4cc47916a89929738b4f909afcb8a4b268aa45b0d9d35054e39047",
+      "text": "At 25% HP or less, major attacks strengthen further. 43 HP is the approximate threshold for the final event."
+    },
+    "skills.0.name": {
+      "sourceHash": "2def805bc91c9d7d227b1bc3367a83bb16b23f60367241260e9a7bc6242af3ff",
+      "text": "Slam Down with Weight, Topple the Body"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "c525d6e886677e44e5bc0acb5772435ca8dd88df48fb820e978af88ae5df5faa",
+      "text": "- If a Blunt weapon, Damage +20%"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "083a326b18738e00caba3cc9308b591714bb2441c3371317f0a2f497aef104dd",
+      "text": "- If not a Blunt weapon, Damage -10%"
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "0839fdfcbf357e6ab432b7c9b3e3f5d6f766bd85683ccfa493377e6c9fd5fd83",
+      "text": "[On Use] Gain 1 Poise Count"
+    },
+    "skills.0.effects.5": {
+      "sourceHash": "c0f8c96f363a57fabb045ee01139504768cc7c887addfe3933d919fbd69873e2",
+      "text": "Ⅱ[On Hit] Gain 2 Poise"
+    },
+    "skills.0.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.1.name": {
+      "sourceHash": "046deea5286a48eb747a1c76ac23ba9bb819a379a97193c175c814ff1de0dae4",
+      "text": "Lay Vertical The End, Insert Up to the Wick"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "1e19877d70894f43918d4bf3dbdc634d4fc952950ce7513ef678a36cde555073",
+      "text": "- If a Pierce weapon, Damage +20%"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "b7107b71b021c2ff57a09ae7c175936001ccdc55fa8644ad6180afcee023b83c",
+      "text": "- If not a Pierce weapon, Damage -10%"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "0839fdfcbf357e6ab432b7c9b3e3f5d6f766bd85683ccfa493377e6c9fd5fd83",
+      "text": "[On Use] Gain 1 Poise Count"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "7af4bcc9794b8d46fa673b27a10bfd034cc3a8ceb1657a81a605ed5a2f970f2b",
+      "text": "Ⅱ[On Hit] Gain 1 Poise"
+    },
+    "skills.1.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.2.name": {
+      "sourceHash": "122d88a41f7462043f72960461613a42abbf92ab848cf2cc5ccc9583d80b1e67",
+      "text": "Lay the Blade on its Side, Slice Like a Severed Breath"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "6ccd750e1b60ec94a4940d7441e8d4ceb3eb6d8552a8cef9c64881f046277070",
+      "text": "- If a Slash weapon, Damage +20%"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "c4d74ff8258f183d5b20a5168125e8b92af40f527babdfb7e70c0ddab60076d3",
+      "text": "- If not a Slash weapon, Damage -10%"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "0839fdfcbf357e6ab432b7c9b3e3f5d6f766bd85683ccfa493377e6c9fd5fd83",
+      "text": "[On Use] Gain 1 Poise Count"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "de0312f5daf75e7ecad7add547b2119552288cdbde70fa2708efcbcfd5113d40",
+      "text": "Ⅰ[On Hit] Gain 1 Poise"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "7283a8d531632f712c873c94183f9a32f1b0c1ea4aed5011ecf5cededccf3523",
+      "text": "Ⅱ [On Hit] Gain 1 Poise Count"
+    },
+    "skills.2.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.3.name": {
+      "sourceHash": "36165329f867dbbcf4cd3c187189bc673477539db63a783025bf896ab3514b87",
+      "text": "Swing to Fell, Have it Meet the Ground"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "58e0d9fdf12bf595fcb94785ca5ec96340060c054bde68083fe0c7e37c8a00fe",
+      "text": "- If a Blunt weapon, Damage +30%"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "a0e01d8fda6d0f71f3005111fdaf341ac7650eef3b09e95e8c4a54200adcf1a6",
+      "text": "- If not a Blunt weapon, Damage -15%"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "bbf83db06bc0d37ef43134faedfac144c08ceb3652a05e4c5a7b39be19f8ea0a",
+      "text": "- With Unlock - II, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "04401040f0401d02130e98a4360ba443984ec4d560131e1462e4d02d5ca11301",
+      "text": "- With Unlock - III, on winning a clash with this skill, lower Stagger Threshold by 10"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "73d1727f2f56df652b2b5dc3fccbc5a490f875b379fbff67a790d0cf77602fd5",
+      "text": "Ⅱ[On Hit] Inflict 3 Sinking."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "9ef9b49a680a57a9bf89cadae304a6f6253d59dc3d6e2adc8bc53b9410681c8c",
+      "text": "Ⅲ [On Hit] Gain 1 Poise Count"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.3.response": {
+      "sourceHash": "87903209368eb153a273613bd175b2d9fa70dd540e92e30c2ff07845049f9bc8",
+      "text": "Power is unconfirmed because the range and Coin values conflict. Unlock II makes the last Coin Unbreakable. Assign a winning skill according to current predictions."
+    },
+    "skills.4.name": {
+      "sourceHash": "ffb08adbaf495011270b86b1581d4b85eb1c960d793c88003a0eac43c61c629d",
+      "text": "Aim Toward a Point, Let it Echo Within"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "726de267c7bc618c76ce10e7124f3ff3fd169f692de4c0c334cc935ac4208d7b",
+      "text": "- If a Pierce weapon, Damage +30%"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "90689cf074b150da7840033b0bc8a22bbe33fc5306746560bf4f44be6719874b",
+      "text": "- If not a Pierce weapon, Damage -15%"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "bbf83db06bc0d37ef43134faedfac144c08ceb3652a05e4c5a7b39be19f8ea0a",
+      "text": "- With Unlock - II, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "87f16a781f9d632ac2674f8f89a3660b2e95bf942973f448522fb9d9e296b0d8",
+      "text": "- With Unlock - III, on winning a clash with this skill, inflict 1 Power Down next turn"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.4.effects.9": {
+      "sourceHash": "91a6ec5d604b15044a09b4112ca1f70d776e200d23353b60234d7e1d4ceefc8f",
+      "text": "Ⅱ [On Hit] Increase Sinking Count by 1"
+    },
+    "skills.4.effects.10": {
+      "sourceHash": "9ef9b49a680a57a9bf89cadae304a6f6253d59dc3d6e2adc8bc53b9410681c8c",
+      "text": "Ⅲ [On Hit] Gain 1 Poise Count"
+    },
+    "skills.4.effects.11": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.4.response": {
+      "sourceHash": "87903209368eb153a273613bd175b2d9fa70dd540e92e30c2ff07845049f9bc8",
+      "text": "Power is unconfirmed because the range and Coin values conflict. Unlock II makes the last Coin Unbreakable. Assign a winning skill according to current predictions."
+    },
+    "skills.5.name": {
+      "sourceHash": "609c864a810743d44b0f3dfe5b5b7669040434d677bb954c5a53a51f252523e1",
+      "text": "Carve at a Low Slant, Peel What Remains"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "efaef73cb2463e5448739da300bff40f66aa69a16bec21d3e4c4fba2146d558f",
+      "text": "Final Power +1 per Unlock stage (max 2)"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "46b4e41115fe71072c696819be150b1f6e01b47a125f4fa953d8d3e576567674",
+      "text": "- If a Slash weapon, Damage +30%"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "d4a81a4574f842db81b39ad375648f7d7bb52b31fb462432be69d7fff3382877",
+      "text": "- If not a Slash weapon, Damage -15%"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "bbf83db06bc0d37ef43134faedfac144c08ceb3652a05e4c5a7b39be19f8ea0a",
+      "text": "- With Unlock - II, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "47831efed41ddfab36169e99cf9584fab6c97306cd71c8c67a9a1036e9ce9979",
+      "text": "- With Unlock - III, on winning a clash with this skill, gain 1 Power Up next turn"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "c48d3b98d77efe83d00907a78ac8235b130f0e55030e42506ec5cdd09d644583",
+      "text": "[On Use] Gain 2 Poise."
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "af0e6ed737c82e7a3a68a89d694a958993f4a500c940eb87970b6b995a147dcc",
+      "text": "Ⅱ [On Hit] Inflict 2 Sinking"
+    },
+    "skills.5.effects.10": {
+      "sourceHash": "9ef9b49a680a57a9bf89cadae304a6f6253d59dc3d6e2adc8bc53b9410681c8c",
+      "text": "Ⅲ [On Hit] Gain 1 Poise Count"
+    },
+    "skills.5.effects.11": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.5.response": {
+      "sourceHash": "87903209368eb153a273613bd175b2d9fa70dd540e92e30c2ff07845049f9bc8",
+      "text": "Power is unconfirmed because the range and Coin values conflict. Unlock II makes the last Coin Unbreakable. Assign a winning skill according to current predictions."
+    },
+    "skills.6.name": {
+      "sourceHash": "ec77f7802216e8eacae7fb9ebd3ee7f42d292d1aded0cce430d143b6b6db2fad",
+      "text": "Destroy the Sound, Crush Flat the Thought"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "a79d698a2586df7001b2283b24b461c6f2474e850cf151293b2e87badb20898d",
+      "text": "This skill can be clashed with regardless of Speed"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "a01a4543b9ab929c0a644d1b443a097df81c518c71d4f501b235f0b8e2c2ce12",
+      "text": "- If a Blunt weapon, Damage +50%"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "a446fa39e154655299723f3e90d91146f0aa6324567cbf827d8d1ce1267fa9b9",
+      "text": "- If not a Blunt weapon, Damage -25%"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "5c2670eb88c24450a7a4c467ee99a3ea8549ce8af8dbdd4ebf9b1e4e49af7197",
+      "text": "- With Unlock - II, convert Coins 3 and 4 to Unbreakable Coins"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "d2a7b7245944e8074588813558cc3590d6d226e26b2b64a97a3a3298ae253b94",
+      "text": "- With Unlock - III, on winning a clash with this skill, lower Stagger Threshold by 15"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "8b275ffe15c63453e920c8394723437b7a0771daf73f6c23ff74ce37e8e6edb0",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.6.effects.8": {
+      "sourceHash": "2b415024ee58f98ca90a7f2d8a2feaccd6c99e7065f3c47641e90aec490f1d1c",
+      "text": "Ⅰ [On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.6.effects.9": {
+      "sourceHash": "29febda0460f2fcc47cddd2e18b5732af38a88afe27fc9524eb8b739acfe9a30",
+      "text": "Ⅱ[On Hit Without Coin Destruction] Sinking Count +2"
+    },
+    "skills.6.effects.10": {
+      "sourceHash": "ab0230c802b5db04552fc8191c137a0bfb059938d54512eba811f9fe78dc69bf",
+      "text": "Ⅲ [On Hit without Coin Destruction] Gain 2 Poise"
+    },
+    "skills.6.effects.11": {
+      "sourceHash": "68402a4affe9fbf1228c11ebf53ed7e3e8bade6aa35721a22fc5864406e3aa3b",
+      "text": "Ⅳ [On Hit without Coin Destruction] Gain 2 Poise Count"
+    },
+    "skills.6.response": {
+      "sourceHash": "580c1432f18e008bb5408508fb0d9d2dc74bae1ea4332ca3cf43935d47ca54b2",
+      "text": "Can be clashed with regardless of Speed. Unlock II makes Coins 3 and 4 Unbreakable. Win with a strong clash to prevent the Unlock III clash-win effect."
+    },
+    "skills.7.name": {
+      "sourceHash": "ed0b8659f2c1dbbb1e5f2fba7006598d45d44fec7371dbf8968d74040ad565a5",
+      "text": "Stab the Silence's Heart, Penetrate the Memory"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "a79d698a2586df7001b2283b24b461c6f2474e850cf151293b2e87badb20898d",
+      "text": "This skill can be clashed with regardless of Speed"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "0693ec8ec9554b09c4746b5f2666cd3c805add1d227c8c2e479160d84925440e",
+      "text": "- If a Pierce weapon, Damage +50%"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "562ee15e449a673359eda400172a594385edc0776d270ee2603b33d7e1d7a2cb",
+      "text": "- If not a Pierce weapon, Damage -25%"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "5c2670eb88c24450a7a4c467ee99a3ea8549ce8af8dbdd4ebf9b1e4e49af7197",
+      "text": "- With Unlock - II, convert Coins 3 and 4 to Unbreakable Coins"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "d9f5ad9b2a389e360f7c53758cdf0eba5df02a4124cc740bb4ac830275b0c0c5",
+      "text": "- With Unlock - III, on winning a clash with this skill, gain 1 Damage Up next turn"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "8b275ffe15c63453e920c8394723437b7a0771daf73f6c23ff74ce37e8e6edb0",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "2b415024ee58f98ca90a7f2d8a2feaccd6c99e7065f3c47641e90aec490f1d1c",
+      "text": "Ⅰ [On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.7.effects.9": {
+      "sourceHash": "0329f7aa29e22cbd5c8b108a25630151bd4212f829d2c3b5ed40235e70eabd55",
+      "text": "Ⅱ [On Hit without Coin Destruction] Gain 2 Poise"
+    },
+    "skills.7.effects.10": {
+      "sourceHash": "f049470999825961c8cb84ec3718b724d453ed74dec9dbc47b8dfa08a0ad87c9",
+      "text": "Ⅲ[On Hit Without Coin Destruction] Sinking Count +2"
+    },
+    "skills.7.effects.11": {
+      "sourceHash": "68402a4affe9fbf1228c11ebf53ed7e3e8bade6aa35721a22fc5864406e3aa3b",
+      "text": "Ⅳ [On Hit without Coin Destruction] Gain 2 Poise Count"
+    },
+    "skills.7.response": {
+      "sourceHash": "580c1432f18e008bb5408508fb0d9d2dc74bae1ea4332ca3cf43935d47ca54b2",
+      "text": "Can be clashed with regardless of Speed. Unlock II makes Coins 3 and 4 Unbreakable. Win with a strong clash to prevent the Unlock III clash-win effect."
+    },
+    "skills.8.name": {
+      "sourceHash": "7dc391cbcbb08b5af5fbeec133b0c9a42c1486f1cc6f0c620669e8e4cca502a0",
+      "text": "With Tempered Secret, Cut the Form"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "a79d698a2586df7001b2283b24b461c6f2474e850cf151293b2e87badb20898d",
+      "text": "This skill can be clashed with regardless of Speed"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "afde81b5f0f274646c7533575a7e54cc88418bcf88b63e340fe4e3a5e0edf3f9",
+      "text": "Apply effects according to the equipped weapon's attack type"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "b8467376922c22e931928c22ea9a5b066baf5656cd14ee4b5bdd4038c202dfa1",
+      "text": "- If a Slash weapon, Damage +50%"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "c834b894d5fb7de5053b7a493958b0ba398f4ee5c5a56fe670478c4b506f1539",
+      "text": "- If not a Slash weapon, Damage -25%"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "568283e4533f0a675e84d6d631be67779db8cc4bb54c3ec36d7d3f6d5c820f9c",
+      "text": "[Combat Start] Apply the following effects cumulatively"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "5c2670eb88c24450a7a4c467ee99a3ea8549ce8af8dbdd4ebf9b1e4e49af7197",
+      "text": "- With Unlock - II, convert Coins 3 and 4 to Unbreakable Coins"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "879e73642c2b8666233b0bde77b8606415dcf423c75ead54b297c96262d41e25",
+      "text": "- With Unlock - III, on winning a clash with this skill, Final Power +2"
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "8b275ffe15c63453e920c8394723437b7a0771daf73f6c23ff74ce37e8e6edb0",
+      "text": "[On Use] Gain 2 Poise and 2 Poise Count"
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "e8d20b7ec1d277b3f2b6ada33eacbeb06e7eb85b84698dbc75b8d5fa4dd5f62a",
+      "text": "Ⅰ [On Hit without Coin Destruction] Gain 2 Poise"
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "12dcc915c7838850b45e635be9bd6dfa481d99e79aab302c0bd28ad0a91df6cc",
+      "text": "Ⅱ [On Hit without Coin Destruction] Gain 2 Poise Count"
+    },
+    "skills.8.effects.10": {
+      "sourceHash": "65dc502805034471b4598e882e7add51deb7a857e082e97015c33a9e6e86dbbd",
+      "text": "Ⅲ [On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.8.effects.11": {
+      "sourceHash": "e1fa88c2a5ae2e2f99a0d292c3f674345ccf032ca0e0a0e1af139d85eff3a7aa",
+      "text": "Ⅳ [On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.8.response": {
+      "sourceHash": "580c1432f18e008bb5408508fb0d9d2dc74bae1ea4332ca3cf43935d47ca54b2",
+      "text": "Can be clashed with regardless of Speed. Unlock II makes Coins 3 and 4 Unbreakable. Win with a strong clash to prevent the Unlock III clash-win effect."
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "5a21af34804675189fcb7b2c8c344a1df4f23772806887b543fb40133c162979",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "d2bab9445a9aa8c79b3cdb454e233d77b3bfb45e6e4a3f1bd84dd21177e31680",
+      "text": "- Gain 3 Poise and 3 Poise Count"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "ffe5d5923afd032458b174372574c8b3e248fd592621fba3e78b842594ad2c92",
+      "text": "- Clash Power +5 (reduced by 1 per 10 Karmic Consequence on self, minimum 0)"
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "909a43ee5d29a9bde61b48ef2d7b0b55d90227d27b82d11ccf2c293ac08b285f",
+      "text": "[On Use] If SP is 0 or higher, generate 1 Mang"
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "6abd4197137c788f0914e0cdd92891fbedbeb287fc0c412a008279f0c842402b",
+      "text": "- Damage +40% and Final Power +4"
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "ec0a03adb7ffd53e3258036e83832c2974a73372234a1235ee930148036fea7c",
+      "text": "[Clash Win]"
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "d2bab9445a9aa8c79b3cdb454e233d77b3bfb45e6e4a3f1bd84dd21177e31680",
+      "text": "- Gain 3 Poise and 3 Poise Count"
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "fe58b54fdd1641c2f7c273376342b5e4328d3ccc744faf2476614f730dc639b9",
+      "text": "- At Attack End, inflict 3 Bleed, 1 Bind, and 1 Fragile next turn on every target hit"
+    },
+    "skills.9.effects.11": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.9.effects.12": {
+      "sourceHash": "fb4cf1dcbcad84790eb8fa7307c924facb864973e1d005fb526827d470e4845c",
+      "text": "- Gain 4 Damage Down and 9 Paralyze"
+    },
+    "skills.9.effects.13": {
+      "sourceHash": "aad096d9f07084c7a4d2b0654871ef00626c0875bea1c5659205fb11c009b7a8",
+      "text": "- This skill's damage cannot Stagger; hits do not trigger the target's Sinking"
+    },
+    "skills.9.effects.14": {
+      "sourceHash": "70363c5fc505aa252a038c59ea45ad1ee0e6342a664978d7ddeea513270a2287",
+      "text": "[After Attack] If Mang was generated, lose 20 SP"
+    },
+    "skills.9.effects.15": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.9.effects.16": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.17": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.18": {
+      "sourceHash": "33c223a532c0b7e274278af3f333464be8e2378d61d873df6209a6be0b54593e",
+      "text": "[On Hit] Reuse this Coin (up to 7 times)"
+    },
+    "skills.9.effects.19": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.9.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.9.response": {
+      "sourceHash": "cc3aef10deb22fb71e16543ee80d1a2fbc9e02af3b41d2c234ffda59dc51f1e5",
+      "text": "An Unfocused Volley with two Unbreakable Coins, reusing the final Coin up to seven times. Have Ryōshū win, and protect other allies through advance healing and debuffs. The turn ends after the attack."
+    },
+    "skills.10.name": {
+      "sourceHash": "2def805bc91c9d7d227b1bc3367a83bb16b23f60367241260e9a7bc6242af3ff",
+      "text": "Slam Down with Weight, Topple the Body"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "edd9110a33da860fdd1d5ee2a7137270be599de6b8815c2c1fd4e5bc7ea75a6a",
+      "text": "Blunt weapons appear more frequently"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "58e0d9fdf12bf595fcb94785ca5ec96340060c054bde68083fe0c7e37c8a00fe",
+      "text": "- If a Blunt weapon, Damage +30%"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "a0e01d8fda6d0f71f3005111fdaf341ac7650eef3b09e95e8c4a54200adcf1a6",
+      "text": "- If not a Blunt weapon, Damage -15%"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "7a8c04edcde8865ef649cbf6a306a91014a697cb5bc48ff459457be349a10a82",
+      "text": "[On Use] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "af0e6ed737c82e7a3a68a89d694a958993f4a500c940eb87970b6b995a147dcc",
+      "text": "Ⅱ [On Hit] Inflict 2 Sinking"
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "d44e22b2c513beee3d44dc6d3aabbdaf89781cd8e54cfa92c7d58aec71429f7a",
+      "text": "[On Hit] Gain 2 Poise."
+    },
+    "skills.10.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.11.name": {
+      "sourceHash": "046deea5286a48eb747a1c76ac23ba9bb819a379a97193c175c814ff1de0dae4",
+      "text": "Lay Vertical The End, Insert Up to the Wick"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "a24e88529d4b2f50f8972fcf6d7e2c551510e4409c2c34e1a291afbc9ef85650",
+      "text": "Pierce weapons appear more frequently"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "726de267c7bc618c76ce10e7124f3ff3fd169f692de4c0c334cc935ac4208d7b",
+      "text": "- If a Pierce weapon, Damage +30%"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "90689cf074b150da7840033b0bc8a22bbe33fc5306746560bf4f44be6719874b",
+      "text": "- If not a Pierce weapon, Damage -15%"
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "7a8c04edcde8865ef649cbf6a306a91014a697cb5bc48ff459457be349a10a82",
+      "text": "[On Use] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "f1368ee58c741a212159b7e9bdd20e4c5284277d234cbb2d6d9bb475e27977ea",
+      "text": "Ⅱ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.11.effects.10": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.11.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.12.name": {
+      "sourceHash": "122d88a41f7462043f72960461613a42abbf92ab848cf2cc5ccc9583d80b1e67",
+      "text": "Lay the Blade on its Side, Slice Like a Severed Breath"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "c67390bdd41dcf6ed2bbbef3c8871fa063c6ef52a255f0db0c3536c1920ac6d2",
+      "text": "Slash weapons appear more frequently"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "46b4e41115fe71072c696819be150b1f6e01b47a125f4fa953d8d3e576567674",
+      "text": "- If a Slash weapon, Damage +30%"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "d4a81a4574f842db81b39ad375648f7d7bb52b31fb462432be69d7fff3382877",
+      "text": "- If not a Slash weapon, Damage -15%"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "7a8c04edcde8865ef649cbf6a306a91014a697cb5bc48ff459457be349a10a82",
+      "text": "[On Use] Gain 1 Poise and 1 Poise Count"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "b8bb7cd65b173544859e28476b958f7de7c0a09067eddd2343c632d06aa66b4d",
+      "text": "Ⅰ[On Hit] Inflict 1 Sinking"
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "9f4a444a5bece853a9e9a2701d38a86e7dad33f7f7a650b52ada2bbb9e4b4a8d",
+      "text": "[On Hit] Gain 1 Poise"
+    },
+    "skills.12.effects.9": {
+      "sourceHash": "91a6ec5d604b15044a09b4112ca1f70d776e200d23353b60234d7e1d4ceefc8f",
+      "text": "Ⅱ [On Hit] Increase Sinking Count by 1"
+    },
+    "skills.12.effects.10": {
+      "sourceHash": "e84730636f1e0427eb866c38480856eeadefc76e439ee61660be2594bfbba3a8",
+      "text": "[On Hit] Gain 1 Poise Count"
+    },
+    "skills.12.response": {
+      "sourceHash": "fc01492354b1f16742c69a50fd840e722078149457b996b7880b8baefc1c3471",
+      "text": "Take over with someone other than the Prescript's target to limit hits and completions. Each Coin's actual damage type changes with its random weapon."
+    },
+    "skills.13.name": {
+      "sourceHash": "36165329f867dbbcf4cd3c187189bc673477539db63a783025bf896ab3514b87",
+      "text": "Swing to Fell, Have it Meet the Ground"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "edd9110a33da860fdd1d5ee2a7137270be599de6b8815c2c1fd4e5bc7ea75a6a",
+      "text": "Blunt weapons appear more frequently"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "8517cd338d35a2c69111f3fd752ba32cfbde48960e3bf03197c142182c4c60a1",
+      "text": "- If a Blunt weapon, Damage +40%"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "152e789348b1dd5a4f7a29cb7014c0fe781d8438b6e6e39cc775eef00f9f9693",
+      "text": "- If not a Blunt weapon, Damage -20%"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "a2fe6dbcb2688da0b372b0852fbe3f4da9aaed6ec1fe106365a32dafdae68e40",
+      "text": "[On Use] Gain 2 Poise and 1 Poise Count"
+    },
+    "skills.13.effects.7": {
+      "sourceHash": "d06548bed01cf3bf1cb909f1f08d007d91957fca088637ad8c7a0e445960dc6d",
+      "text": "[Clash Win] Lower Stagger Threshold by 15"
+    },
+    "skills.13.effects.8": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.13.effects.9": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.13.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.13.effects.11": {
+      "sourceHash": "e84730636f1e0427eb866c38480856eeadefc76e439ee61660be2594bfbba3a8",
+      "text": "[On Hit] Gain 1 Poise Count"
+    },
+    "skills.13.effects.12": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.13.response": {
+      "sourceHash": "5e2cf1ab80bfea6da78914eb3426050d15b4ea139337d74095cc774c30dd9c0c",
+      "text": "The last Coin is Unbreakable. Watch for Sinking and remaining hits even after winning; assign someone other than the Prescript's target."
+    },
+    "skills.14.name": {
+      "sourceHash": "ffb08adbaf495011270b86b1581d4b85eb1c960d793c88003a0eac43c61c629d",
+      "text": "Aim Toward a Point, Let it Echo Within"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "a24e88529d4b2f50f8972fcf6d7e2c551510e4409c2c34e1a291afbc9ef85650",
+      "text": "Pierce weapons appear more frequently"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "039759a9cca90fb1735c1cc56b14a6f30b5af40bafcb00575131a2fd44e4d8cf",
+      "text": "- If a Pierce weapon, Damage +40%"
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "fd56ca835ca18f61c80cf70ad8daa9e119b073367f182c0e686ba90f94083340",
+      "text": "- If not a Pierce weapon, Damage -20%"
+    },
+    "skills.14.effects.6": {
+      "sourceHash": "a2fe6dbcb2688da0b372b0852fbe3f4da9aaed6ec1fe106365a32dafdae68e40",
+      "text": "[On Use] Gain 2 Poise and 1 Poise Count"
+    },
+    "skills.14.effects.7": {
+      "sourceHash": "550c4444a336fc7b5cdcdd9544dcbadc572ff762a876a43f1c3f6d2847474107",
+      "text": "[Clash Win] Inflict 2 Power Down next turn"
+    },
+    "skills.14.effects.8": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.14.effects.9": {
+      "sourceHash": "d0c58549565ea500fd06c36c361c6e0a6630a9011969792226e14cfa63870674",
+      "text": "Ⅰ[On Hit] Inflict 3 Sinking."
+    },
+    "skills.14.effects.10": {
+      "sourceHash": "91a6ec5d604b15044a09b4112ca1f70d776e200d23353b60234d7e1d4ceefc8f",
+      "text": "Ⅱ [On Hit] Increase Sinking Count by 1"
+    },
+    "skills.14.effects.11": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.14.effects.12": {
+      "sourceHash": "e84730636f1e0427eb866c38480856eeadefc76e439ee61660be2594bfbba3a8",
+      "text": "[On Hit] Gain 1 Poise Count"
+    },
+    "skills.14.effects.13": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.14.response": {
+      "sourceHash": "5e2cf1ab80bfea6da78914eb3426050d15b4ea139337d74095cc774c30dd9c0c",
+      "text": "The last Coin is Unbreakable. Watch for Sinking and remaining hits even after winning; assign someone other than the Prescript's target."
+    },
+    "skills.15.name": {
+      "sourceHash": "609c864a810743d44b0f3dfe5b5b7669040434d677bb954c5a53a51f252523e1",
+      "text": "Carve at a Low Slant, Peel What Remains"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "c67390bdd41dcf6ed2bbbef3c8871fa063c6ef52a255f0db0c3536c1920ac6d2",
+      "text": "Slash weapons appear more frequently"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "b272fbe266b75891b2f49d80f15b273aa081270d3fec6a6e7de269dfbcba919c",
+      "text": "- If a Slash weapon, Damage +40%"
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "66561440ea29853b03775ebf235c9f7a4b9ed1915c502242ead5b07771b239a0",
+      "text": "- If not a Slash weapon, Damage -20%"
+    },
+    "skills.15.effects.6": {
+      "sourceHash": "a2fe6dbcb2688da0b372b0852fbe3f4da9aaed6ec1fe106365a32dafdae68e40",
+      "text": "[On Use] Gain 2 Poise and 1 Poise Count"
+    },
+    "skills.15.effects.7": {
+      "sourceHash": "1073e99be47168430f0e877f112d41e17ad1fa16aaf51babb5070562c7bab0b3",
+      "text": "[Clash Win] Gain 2 Power Up next turn"
+    },
+    "skills.15.effects.8": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.15.effects.9": {
+      "sourceHash": "81535e62d64d221326ef6ed9926b7ad04b22031d037412b80ba303df322ff38d",
+      "text": "Ⅰ[On Hit] Inflict 2 Sinking"
+    },
+    "skills.15.effects.10": {
+      "sourceHash": "af0e6ed737c82e7a3a68a89d694a958993f4a500c940eb87970b6b995a147dcc",
+      "text": "Ⅱ [On Hit] Inflict 2 Sinking"
+    },
+    "skills.15.effects.11": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.15.effects.12": {
+      "sourceHash": "e84730636f1e0427eb866c38480856eeadefc76e439ee61660be2594bfbba3a8",
+      "text": "[On Hit] Gain 1 Poise Count"
+    },
+    "skills.15.effects.13": {
+      "sourceHash": "4fbecd98ebebea6720c46980e8d34299176ffead250ad94244b1eb651eb70d56",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 1"
+    },
+    "skills.15.response": {
+      "sourceHash": "5e2cf1ab80bfea6da78914eb3426050d15b4ea139337d74095cc774c30dd9c0c",
+      "text": "The last Coin is Unbreakable. Watch for Sinking and remaining hits even after winning; assign someone other than the Prescript's target."
+    },
+    "skills.16.name": {
+      "sourceHash": "ec77f7802216e8eacae7fb9ebd3ee7f42d292d1aded0cce430d143b6b6db2fad",
+      "text": "Destroy the Sound, Crush Flat the Thought"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "83eba4c1052e2ba4422157674fea49f96df6dbf0c104877ed4b9896553390eff",
+      "text": "Can be clashed with regardless of Speed"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "5ff51f4af69b7748441ed797b69f70f3e69ecc8c4ae848ced6ead43f0b5dd84a",
+      "text": "With Indulgence in Prescripts:"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "40c73f1015db670b5b77bc46d0aa14a0b74b4f439944c9bc43ede940224b0ccd",
+      "text": "- Convert all Coins to Unbreakable Coins"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "9399ebd9b3d94bf35e973b1333945aaf370d8ed428048fa23835f5df6a1e4409",
+      "text": "- Unless clashing with a Blunt skill or Ryōshū, Coin Power +2 and damage +50%"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "de8f5e115f51aea2f3b0ef5c8c441f787ac46a730c92df916991c1ccd5d21cd2",
+      "text": "- On losing a clash to a Blunt skill or Ryōshū, Coin Power −2 and damage −50%; this skill's damage cannot Stagger and hits do not trigger the target's Sinking"
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "edd9110a33da860fdd1d5ee2a7137270be599de6b8815c2c1fd4e5bc7ea75a6a",
+      "text": "Blunt weapons appear more frequently"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.16.effects.8": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.16.effects.9": {
+      "sourceHash": "d4938afaf98cc88b2583b8c3da683267f827df862f3b42cb0f1eddbacfb809b6",
+      "text": "- If a Blunt weapon, Damage +60%"
+    },
+    "skills.16.effects.10": {
+      "sourceHash": "525a62934b4e2b7d144192349846240a3220670e471c9b2e5b346cb036f0f21a",
+      "text": "- If not a Blunt weapon, Damage -30%"
+    },
+    "skills.16.effects.11": {
+      "sourceHash": "d715cda5b6617f35a8bfd58a5504ea95d6f1f4e894c58f5bb06cd00ee9e7aae1",
+      "text": "[On Use] Gain 3 Poise and 2 Poise Count"
+    },
+    "skills.16.effects.12": {
+      "sourceHash": "ac18c6008df7ce0bcfef50ebf210756ca2f3b30f408a356c0508424e1dd4b819",
+      "text": "[Clash Win] Lower Stagger Threshold by 25"
+    },
+    "skills.16.effects.13": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.16.effects.14": {
+      "sourceHash": "5766c590aea49e96a0a4c2c058483dc6930e1007c16cf91f0914b2925057186a",
+      "text": "Ⅰ[On Hit Without Coin Destruction] Inflict 3 Sinking"
+    },
+    "skills.16.effects.15": {
+      "sourceHash": "29febda0460f2fcc47cddd2e18b5732af38a88afe27fc9524eb8b739acfe9a30",
+      "text": "Ⅱ[On Hit Without Coin Destruction] Sinking Count +2"
+    },
+    "skills.16.effects.16": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.16.effects.17": {
+      "sourceHash": "fb798c1b1c91a044969b31c1a990840d01914b6ff49e5cd125399108f0ec5cf1",
+      "text": "[On Hit without Coin Destruction] Gain 2 Poise"
+    },
+    "skills.16.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.16.effects.19": {
+      "sourceHash": "c06a98c78a17a3560d03d8cb394be1ba90e8b85acca748bd72ade22f959d7ee2",
+      "text": "[On Hit without Coin Destruction] Gain 2 Poise Count"
+    },
+    "skills.16.response": {
+      "sourceHash": "40e0c7e3cd49cf739c22005033bef0388bdd64f7794297efec2ac6ccd5cf8898",
+      "text": "During Indulgence in Prescripts, win with Blunt or Ryōshū to weaken it. Winning with another type is not enough to control damage. Coins 3 and 4 are Unbreakable even normally."
+    },
+    "skills.17.name": {
+      "sourceHash": "ed0b8659f2c1dbbb1e5f2fba7006598d45d44fec7371dbf8968d74040ad565a5",
+      "text": "Stab the Heart of Silence, Penetrate the Memory"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "83eba4c1052e2ba4422157674fea49f96df6dbf0c104877ed4b9896553390eff",
+      "text": "Can be clashed with regardless of Speed"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "5ff51f4af69b7748441ed797b69f70f3e69ecc8c4ae848ced6ead43f0b5dd84a",
+      "text": "With Indulgence in Prescripts:"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "40c73f1015db670b5b77bc46d0aa14a0b74b4f439944c9bc43ede940224b0ccd",
+      "text": "- Convert all Coins to Unbreakable Coins"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "e470e845d2230a9f3ec3f9075ae9a1e36bed50baa00187394d985a2d1ce01dcd",
+      "text": "- Unless clashing with a Pierce skill or Ryōshū, Coin Power +2 and damage +50%"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "19932b476446d2070c4b0898742cba06b79332057357c9558813a417b6bd400c",
+      "text": "- On losing a clash to a Pierce skill or Ryōshū, Coin Power −2 and damage −50%; this skill's damage cannot Stagger and hits do not trigger the target's Sinking"
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "a24e88529d4b2f50f8972fcf6d7e2c551510e4409c2c34e1a291afbc9ef85650",
+      "text": "Pierce weapons appear more frequently"
+    },
+    "skills.17.effects.6": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.17.effects.7": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.17.effects.8": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.17.effects.9": {
+      "sourceHash": "c4d1ee2b9c4ab07425451bb5a5726b92c4bd8b8a5fb3352470ce91d5ef262ac0",
+      "text": "- If a Pierce weapon, Damage +60%"
+    },
+    "skills.17.effects.10": {
+      "sourceHash": "ac64b9c8f48e92c123c80ca9220b57605581d719d848cfacc41202a69eb3c39a",
+      "text": "- If not a Pierce weapon, Damage -30%"
+    },
+    "skills.17.effects.11": {
+      "sourceHash": "d715cda5b6617f35a8bfd58a5504ea95d6f1f4e894c58f5bb06cd00ee9e7aae1",
+      "text": "[On Use] Gain 3 Poise and 2 Poise Count"
+    },
+    "skills.17.effects.12": {
+      "sourceHash": "186397b909e6636324284e19bb731d5fa8308656da8bf8f410e42f0996dbd3e4",
+      "text": "[Clash Win] Gain 2 Damage Up next turn"
+    },
+    "skills.17.effects.13": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.17.effects.14": {
+      "sourceHash": "5766c590aea49e96a0a4c2c058483dc6930e1007c16cf91f0914b2925057186a",
+      "text": "Ⅰ[On Hit Without Coin Destruction] Inflict 3 Sinking"
+    },
+    "skills.17.effects.15": {
+      "sourceHash": "fd0c8f392c2927068101e1381f5b0826638b2a8194a3ee92ad84f2df11b269ab",
+      "text": "Ⅱ [On Hit without Coin Destruction] Gain 3 Poise"
+    },
+    "skills.17.effects.16": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.17.effects.17": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.17.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.17.effects.19": {
+      "sourceHash": "c06a98c78a17a3560d03d8cb394be1ba90e8b85acca748bd72ade22f959d7ee2",
+      "text": "[On Hit without Coin Destruction] Gain 2 Poise Count"
+    },
+    "skills.17.response": {
+      "sourceHash": "be79f547ea1e0023d3df0949644d731e53b57cc698712efc1631c0d53a1f1478",
+      "text": "During Indulgence in Prescripts, win with Pierce or Ryōshū to weaken it. Winning with another type is not enough to control damage. Coins 3 and 4 are Unbreakable even normally."
+    },
+    "skills.18.name": {
+      "sourceHash": "7dc391cbcbb08b5af5fbeec133b0c9a42c1486f1cc6f0c620669e8e4cca502a0",
+      "text": "With Tempered Secret, Sever the Form"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "83eba4c1052e2ba4422157674fea49f96df6dbf0c104877ed4b9896553390eff",
+      "text": "Can be clashed with regardless of Speed"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "5ff51f4af69b7748441ed797b69f70f3e69ecc8c4ae848ced6ead43f0b5dd84a",
+      "text": "With Indulgence in Prescripts:"
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "40c73f1015db670b5b77bc46d0aa14a0b74b4f439944c9bc43ede940224b0ccd",
+      "text": "- Convert all Coins to Unbreakable Coins"
+    },
+    "skills.18.effects.3": {
+      "sourceHash": "bc4b8bd51f4339a8a9215ec039bd9cae889d1c4716d982db39899e1da39eddf5",
+      "text": "- Unless clashing with a Slash skill or Ryōshū, Coin Power +2 and damage +50%"
+    },
+    "skills.18.effects.4": {
+      "sourceHash": "de43b5cabea5d88406bfbf7edb0ae3bd1915cb09d58cf1dab2f735d30c566a40",
+      "text": "- On losing a clash to a Slash skill or Ryōshū, Coin Power −2 and damage −50%; this skill's damage cannot Stagger and hits do not trigger the target's Sinking"
+    },
+    "skills.18.effects.5": {
+      "sourceHash": "c67390bdd41dcf6ed2bbbef3c8871fa063c6ef52a255f0db0c3536c1920ac6d2",
+      "text": "Slash weapons appear more frequently"
+    },
+    "skills.18.effects.6": {
+      "sourceHash": "4c0fb91a0ff14a0814ff4c9cab1631552886458bd8f944c074106e1220234281",
+      "text": "- At 75 or more Karmic Consequence [Fortuna], their appearance rate decreases"
+    },
+    "skills.18.effects.7": {
+      "sourceHash": "9db792f050ab1919dc40a69628bcb126a7f04cd2c2e30a6006806aa9feb45f0c",
+      "text": "At 150 or more Karmic Consequence [Fortuna], their appearance rate decreases further"
+    },
+    "skills.18.effects.8": {
+      "sourceHash": "c1cc818c774a2bfa874c465ec8f6b27f539966c4ee8aa99cb192c85557c3e41c",
+      "text": "Apply the following effects according to the weapon's attack type"
+    },
+    "skills.18.effects.9": {
+      "sourceHash": "664e96ce115f8f7da7758b0fda188950214d630fc284b1b2ca3c0379cbc5685a",
+      "text": "- If a Slash weapon, Damage +60%"
+    },
+    "skills.18.effects.10": {
+      "sourceHash": "19908b11b2672980fbba3d6bcef0668269f682e93d1654cac4cc57e5c4661825",
+      "text": "- If not a Slash weapon, Damage -30%"
+    },
+    "skills.18.effects.11": {
+      "sourceHash": "d715cda5b6617f35a8bfd58a5504ea95d6f1f4e894c58f5bb06cd00ee9e7aae1",
+      "text": "[On Use] Gain 3 Poise and 2 Poise Count"
+    },
+    "skills.18.effects.12": {
+      "sourceHash": "b79d8e2965a762563d30e83ad8e191dabccb4e3f4a56146034293f2d96b44657",
+      "text": "[Clash Win] Final Power +3"
+    },
+    "skills.18.effects.13": {
+      "sourceHash": "08ddb5cc46a91f56075601ec3dfa946b70f0a5f4ceea0d861e968a2016dffb23",
+      "text": "- Does not activate at 75 or more Karmic Consequence [Fortuna]"
+    },
+    "skills.18.effects.14": {
+      "sourceHash": "7f2f83a473b700c3385a7962d4a2f9620299ad38a9d254a373db6ed791b7a2c8",
+      "text": "Ⅰ [On Hit without Coin Destruction] Gain 3 Poise"
+    },
+    "skills.18.effects.15": {
+      "sourceHash": "619ea90228e15ae1403d8cdbd25d903f7ca3dd8f4499121a55820c2b98bee110",
+      "text": "Ⅱ [On Hit without Coin Destruction] Gain 3 Poise Count"
+    },
+    "skills.18.effects.16": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.18.effects.17": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.18.effects.18": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.18.effects.19": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.18.response": {
+      "sourceHash": "2dd7f9ee05ad81a7565489b8c7316e24ff3748beee2167522e158ba15e9609c7",
+      "text": "During Indulgence in Prescripts, win with Slash or Ryōshū to weaken it. Winning with another type is not enough to control damage. Coins 3 and 4 are Unbreakable even normally."
+    },
+    "skills.19.name": {
+      "sourceHash": "59ef845c52dd1444d164144cc3920f8a6f4d9395acb2ab02d57411097411c354",
+      "text": "Remember This, Sweetheart? Only You Can Clash Against This Move."
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "7efe4b13461758ba1666273557b1b17f45f9914e77464e73d8912beabdac7015",
+      "text": "Only Ryōshū can clash with this skill"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "0d956ba91f4566e80853a2dd9326101266804ff3f6633742f0381c207dad76b7",
+      "text": "On an unopposed attack, Coin Power +2 and damage +50%"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.19.effects.3": {
+      "sourceHash": "f09c95ec35a8fe3d1107dfe48f078684463e4d02f918ced71783878a66aba859",
+      "text": "- Coin Power −2 and damage −50%"
+    },
+    "skills.19.effects.4": {
+      "sourceHash": "60f9519f3dc16c89bbf97de865510a47480f1728764a1351c027f5f8e8f0c984",
+      "text": "- This skill's damage cannot Stagger, and hits do not trigger the target's Sinking"
+    },
+    "skills.19.effects.5": {
+      "sourceHash": "e57a9a0131f665ebee09c5561baf3d448bf73af117c39a774ba4d519a86174d5",
+      "text": "[Turn End] If this skill lost a clash, gain 1 Sizzling Wound"
+    },
+    "skills.19.effects.6": {
+      "sourceHash": "c00635b5146bbeaa2f5341e7e44f8739a66022c7b4ce8433fe4b8c4c9fb5a5b6",
+      "text": "- If all three skills with special Indulgence in Prescripts effects lost clashes this turn, gain 2 instead"
+    },
+    "skills.19.effects.7": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.19.effects.8": {
+      "sourceHash": "3d25950269c2a048cc4bf2629186495aa68c3a3efc5568d68d182bf73507b6d5",
+      "text": "[On Hit without Coin Destruction] Inflict 3 Sinking"
+    },
+    "skills.19.effects.9": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.19.effects.10": {
+      "sourceHash": "c497b4a3be1f8f2772c324ba921f31e7ebb119dcd282846fb65030ba55dbaba9",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Sinking"
+    },
+    "skills.19.effects.11": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.19.effects.12": {
+      "sourceHash": "42d7df0df6fd01aecb7ed6b8146453092999e23508b4cc07896f685d101a56cd",
+      "text": "[On Hit without Coin Destruction] Increase Sinking Count by 2"
+    },
+    "skills.19.response": {
+      "sourceHash": "d7aa3b2e266da55e1b4034de5f3479ddab08bddc619796407ed2205fb60476a7",
+      "text": "Only Ryōshū can clash. Assign her to this Sloth skill before choosing clashers for the three Gloom skills during Indulgence in Prescripts. Win to add Sizzling Wound."
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "5a21af34804675189fcb7b2c8c344a1df4f23772806887b543fb40133c162979",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.20.effects.3": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.20.effects.4": {
+      "sourceHash": "8ea930f6c5143b53d4afc9862b44983a3c441b9e55e09e8c596053e398b67949",
+      "text": "- Gain 6 Poise and 6 Poise Count"
+    },
+    "skills.20.effects.5": {
+      "sourceHash": "910e40036acca3a5296999b8f5f530dd943b8f7337e341533de09784135c0d4e",
+      "text": "- Clash Power +10 (reduced by 1 per 20 Karmic Consequence [Fortuna] on self)"
+    },
+    "skills.20.effects.6": {
+      "sourceHash": "1e141e6d8aa225297959982cd23cacd5aaa4ebac176579200971526bad2e4bd7",
+      "text": "[On Use] If SP is 0 or higher, generate 2 Mang"
+    },
+    "skills.20.effects.7": {
+      "sourceHash": "2aa27d5d40caa1a93b21c92a2237b1b731688e2d06fb0b4f838885fea0e3ddcb",
+      "text": "- Damage +70% and Final Power +6"
+    },
+    "skills.20.effects.8": {
+      "sourceHash": "ec0a03adb7ffd53e3258036e83832c2974a73372234a1235ee930148036fea7c",
+      "text": "[Clash Win]"
+    },
+    "skills.20.effects.9": {
+      "sourceHash": "dccdeb931ad30ab44093bf3f48a34bbe006d507756cec936da726b17eef02e27",
+      "text": "- At Attack End, inflict 4 Bleed, 2 Bind, and 2 Fragile next turn on every target hit"
+    },
+    "skills.20.effects.10": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.20.effects.11": {
+      "sourceHash": "7446a5854c3a0eddff83a3170794218b23374d3eccfb1c3ff8668976755445da",
+      "text": "- Gain 6 Damage Down and 9 Paralyze"
+    },
+    "skills.20.effects.12": {
+      "sourceHash": "aad096d9f07084c7a4d2b0654871ef00626c0875bea1c5659205fb11c009b7a8",
+      "text": "- This skill's damage cannot Stagger; hits do not trigger the target's Sinking"
+    },
+    "skills.20.effects.13": {
+      "sourceHash": "f6fa852ba41e89c87fcc2ea22985b7b72c1438beb02c44b8a2491c6ac4c6f8d6",
+      "text": "[After Attack] If Mang was generated, lose 25 SP"
+    },
+    "skills.20.effects.14": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.20.effects.15": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.20.effects.16": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.20.effects.17": {
+      "sourceHash": "33c223a532c0b7e274278af3f333464be8e2378d61d873df6209a6be0b54593e",
+      "text": "[On Hit] Reuse this Coin (up to 7 times)"
+    },
+    "skills.20.effects.18": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.20.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.20.response": {
+      "sourceHash": "295a15573b6624a97811965d58d39270dd73056e3400ab2495850ade580b01ce",
+      "text": "The second-half Furioso. Build Karmic Consequence [Fortuna] and have Ryōshū clash. At 0 or more enemy SP, also gains +6 Final Power. Use advance debuffs and healing."
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "3a827734c6820fe99928e52bec3a69bd54a379f4840c9285e05f4ee2d9edb6ca",
+      "text": "This skill prevents the target's Defense Skill from activating"
+    },
+    "skills.21.effects.2": {
+      "sourceHash": "5a21af34804675189fcb7b2c8c344a1df4f23772806887b543fb40133c162979",
+      "text": "Can be clashed regardless of Speed"
+    },
+    "skills.21.effects.3": {
+      "sourceHash": "99ab3f59bdc73a5316b1ab44fe21c52921e4e0eb57ec583773e33603cb121b60",
+      "text": "- When clashing with Ryōshū's base E.G.O, Clash Power −20"
+    },
+    "skills.21.effects.4": {
+      "sourceHash": "a2f70a463e8b3836c35ae75d65b26660399fdc8385055345ed934519d6ae513c",
+      "text": "[On Use]"
+    },
+    "skills.21.effects.5": {
+      "sourceHash": "1b65f176a1d395da472afee91b3067f39e588a9f1da97085d984804bb390e4e8",
+      "text": "- Gain 9 Poise and 9 Poise Count"
+    },
+    "skills.21.effects.6": {
+      "sourceHash": "de554c2ff0d4b54448cd5b9b77911610dadbf9bfd7580fd79a4d1b821aef21e8",
+      "text": "- Clash Power +15 (reduced by 1 per 20 Karmic Consequence [Fortuna] on self)"
+    },
+    "skills.21.effects.7": {
+      "sourceHash": "b6e31beaaccc7bb8fcffdd66e3c1cf05292edacfec35d29573f32c0773e0f244",
+      "text": "[On Use] If SP is 0 or higher, generate 3 Mang"
+    },
+    "skills.21.effects.8": {
+      "sourceHash": "0540a35fa5bc86fca6a751b85d333c4215e663c7da1a0efcab2d45f177a822e7",
+      "text": "- Damage +100% and Final Power +12"
+    },
+    "skills.21.effects.9": {
+      "sourceHash": "ec0a03adb7ffd53e3258036e83832c2974a73372234a1235ee930148036fea7c",
+      "text": "[Clash Win]"
+    },
+    "skills.21.effects.10": {
+      "sourceHash": "fdc11637d66f586c1b7b30d5f1d143086e34a077a4aa767455f75507a9751bfc",
+      "text": "- At Attack End, inflict 5 Bleed, 3 Bind, and 3 Fragile next turn on every target hit"
+    },
+    "skills.21.effects.11": {
+      "sourceHash": "0cf181c2965cfa6918b9cf00f5131c561edfb11ffbb6460c3b81eb3ca2d2d251",
+      "text": "[Clash Lose]"
+    },
+    "skills.21.effects.12": {
+      "sourceHash": "8c8334315bdc4e5c275d4a4dcf1e604193db4f6d3c2c07540cefe274728759a6",
+      "text": "- Gain 8 Damage Down and 9 Paralyze"
+    },
+    "skills.21.effects.13": {
+      "sourceHash": "aad096d9f07084c7a4d2b0654871ef00626c0875bea1c5659205fb11c009b7a8",
+      "text": "- This skill's damage cannot Stagger; hits do not trigger the target's Sinking"
+    },
+    "skills.21.effects.14": {
+      "sourceHash": "8a6c4671eceef2e886dc31d1a3a7aed364bec4c373c40a85d25f087ec88aab8d",
+      "text": "[After Attack] If Mang was generated, lose 30 SP"
+    },
+    "skills.21.effects.15": {
+      "sourceHash": "490139fa7ac77da7183a8f115eb9f312ffc0857da5a84cb1a6311b3f8b84bef1",
+      "text": "[After Attack] End the turn"
+    },
+    "skills.21.effects.16": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.21.effects.17": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.21.effects.18": {
+      "sourceHash": "33c223a532c0b7e274278af3f333464be8e2378d61d873df6209a6be0b54593e",
+      "text": "[On Hit] Reuse this Coin (up to 7 times)"
+    },
+    "skills.21.effects.19": {
+      "sourceHash": "e821e235ea97bb3205776eb39677a7eaa320d98f296b5aa5be45a4f062942b12",
+      "text": "[On Hit Without Coin Destruction] Inflict 1 Sinking"
+    },
+    "skills.21.label": {
+      "sourceHash": "5b03e2d231e3bfac3348fe4026ce2c0d897a17802a4fa2049eddc3be8d8e9fd0",
+      "text": "Defense skills disabled"
+    },
+    "skills.21.response": {
+      "sourceHash": "1b98823686e7bbb7d9a490a0c950449de98e4424cdc508affeb114613f9eb379",
+      "text": "The final major attack. Its Power falls by 20 against Ryōshū's base E.G.O, so use Forest for the Flames. Unbreakable damage remains after winning; protect other allies' HP too."
+    },
+    "passives.0.name": {
+      "sourceHash": "1f24ed43969fbad5ddf30ab75c7814ef009ad45969925070bc52825b1afa546b",
+      "text": "Will of the Prescript"
+    },
+    "passives.0.effect": {
+      "sourceHash": "6ca3df648633033baad7a98e0d2bdc303ae79a29ef7ee29436d9327cdf939a8e",
+      "text": "At Turn Start:\n- Gain a Prescript according to Unlock stage.\n- Apply The Prescript's Target - The Index to a random Sinner other than Ryōshū and prioritize them.\n- All Coins of skills used against the Prescript's target become Unbreakable.\n· If the target dies or cannot be attacked, use remaining skills against a random Sinner other than Ryōshū, prioritizing the lowest current HP.\n· If all other Sinners are dead, apply the target status to Ryōshū.\n\nDamage against the Prescript's target +2.5% per Grace of the Prescript (max 20%).\n- At 9 Grace, instead deal 30% more damage to all targets.\nDo you wish for me to build a family?\n\n“How did fate bring me a husband like you?”"
+    },
+    "passives.0.condition": {
+      "sourceHash": "d1718c432451a5395a2109203660df295ee5150ee0ea0a16f6f7629630b011ef",
+      "text": "Turn Start; Grace by form"
+    },
+    "passives.0.response": {
+      "sourceHash": "2e036b31d38d6a5dfdccf1498502798e25f920835a66d7938c0da13df0c190b0",
+      "text": "Have someone other than the Prescript's target take over clashes. In the second half, check the special pattern's types too."
+    },
+    "passives.1.name": {
+      "sourceHash": "b7445ec8db40473d783f0ca1df83717f88e74b83e87c64ef051c29cd6da37044",
+      "text": "Undertake Prescript"
+    },
+    "passives.1.effect": {
+      "sourceHash": "d0c78fa24e7d6bb3d37ad7ef2dd13df1392b474b3141a525dd95a848e482b0d3",
+      "text": "If the Prescript was completed this turn, at Turn End heal 10 SP and gain 3 Grace of the Prescript (once per turn).\n\nIf it was not completed, at Turn End gain 8 Karmic Consequence; its target gains 1 Clash Power Up next turn.\n- Without Unlock, gain 1 Grace at Turn End.\n- At 9 Grace, cannot gain Karmic Consequence.\nDo you wish for me to lose a family?\n\n“Honey, I'm heading north for a while.”\n“Oh, a package is due this afternoon. Could you receive it for me, my beloved daughter?”"
+    },
+    "passives.1.condition": {
+      "sourceHash": "b7aacd3d7c2f438d12081a7cfb25df65fd1b79d88f71005d23da6d11fb3be976",
+      "text": "Prescript completion or failure"
+    },
+    "passives.1.response": {
+      "sourceHash": "3480493962c31c15926dadd0fdc89ec570139950db29e754cb814881ef7789f6",
+      "text": "Aim for Karmic Consequence in the first half, then more Karmic Consequence and less Grace in the second. Protect the target."
+    },
+    "passives.2.name": {
+      "sourceHash": "3a17ad98808e3f5973246fa696062d8534664b6e921bae958b9ed83e6dc22b06",
+      "text": "The Index Nursefather - Rien"
+    },
+    "passives.2.effect": {
+      "sourceHash": "942318b046ccb03f276604886cfd77b2915fd986e4d8afedc5bb40ac21c104f3",
+      "text": "Take 50% less damage from unopposed attacks.\nTake 50% less damage from Tremor, Rupture, and Sinking.\nWhen recovering SP through Unlock, if SP is below 0, restore it to 0.\n\nAt Stage Start, gain Rien's Mask.\n\nAt 55% HP or less, change phase:\n- Remove all effects other than unique effects.\n- Reset Procuration [Hermes] to 0.\n“I waited for that time, just as the Prescript said. Even after my daughter left, I waited and waited.”\n\nThen one day Limbus Company contacted me, and a back door opened. The device rang, and I knew it was time to bring my daughter home."
+    },
+    "passives.2.condition": {
+      "sourceHash": "f42c9b95e49df28b95d56a8bbec3903c21cb86b0dab344033d55ee85331e382d",
+      "text": "First-half reductions; 55% HP or less"
+    },
+    "passives.2.response": {
+      "sourceHash": "890293ef2b08a7dfb84f8a7214149844338c331471538522036fa5d94e7ed7fd",
+      "text": "Reduces unopposed damage and damage from Tremor, Rupture, and Sinking. Clash while attacking."
+    },
+    "passives.3.name": {
+      "sourceHash": "e414b48dc1357eb479c6995043c8a41cd7801c60e99c0576662c78f2bb744b69",
+      "text": "Oracle Device [Caduceus]"
+    },
+    "passives.3.effect": {
+      "sourceHash": "eeb38a3175767312a0c78d0007eb06bc40d053f9731f6357362d12a8733364c3",
+      "text": "Each Coin randomly chooses a weapon and applies its special effect:\n- Hatchet: hacking through ribs.\n- Stiletto: piercing lungs.\n- Bastard sword: crushing shoulder and skull.\n- Rapier: making at least ten holes in the body.\n- Hammer: crushing the back of the skull.\n- Greatsword: rending the body in two.\n- Lance: boring a twenty-inch hole.\n- Whip: stripping the body into ten thousand pieces.\n- Scythe: cutting along space itself, like a certain someone.\n\nOn Attack Skill use, gain 1 Procuration [Hermes].\n- Gain once per skill; the same skill cannot grant more than 2.\nAt Turn Start with 9 Procuration, use a powerful skill:\n- After its first use, gain Shin (心) - Rien at Attack End.\n- Reset Procuration gain tracking by skill type.\n- Minimum and maximum Speed +25.\n- At Turn End, gain 1 Fragile and 2 Power Down next turn.\n\nAt the start of Turn 5, if Procuration is below 9, raise it to 9 and gain Karmic Consequence equal to (amount added × 5).\n- Repeat every four turns afterward.\nThe device holds a metal-like liquid whose shape and mass can change through technology resembling a Singularity. It takes weapon forms according to the received Prescript, target information, and time limit. Once, after receiving an absurdly small dagger, he waited for something more usable until the deadline approached. The last weapon to appear was a fork, so he had to kill the target with it."
+    },
+    "passives.3.condition": {
+      "sourceHash": "8bfa7ad222a57fe72adea6b65bf8eb8b5270715b19c068a60d8e86013b44eeca",
+      "text": "Attack use; 9 Procuration; four-turn cycle from Turn 5"
+    },
+    "passives.3.response": {
+      "sourceHash": "9843eddc9f6fc2789c7121e618d56765df016216b9588606708e8280fe64ec51",
+      "text": "Apply debuffs the turn before the major attack and prepare Ryōshū's strong clash and healing."
+    },
+    "passives.4.name": {
+      "sourceHash": "75a8ec42b127c6f16f9e4083fc4cc67ff2f33f7146507693f693d0bfb7094704",
+      "text": "Unlock"
+    },
+    "passives.4.effect": {
+      "sourceHash": "c7abc06c589f57208cf2f6b729dfba8b56f093670aad005071e97f1ad2f443ab",
+      "text": "At Turn End, gain Unlock - I / II / III at 3/6/9 Grace or 95%/85%/75% HP or less.\n\nAt the end of Turn 1, gain Unlock - I if below stage 1.\nAt the end of Turn 4, gain Unlock - II if below stage 2.\n\nWhen unlocking through HP or turn conditions:\n- If Grace is below 3/6/9, set it to 3/6/9.\nGain 10 Karmic Consequence at the next Turn Start per stack added.\n“Following the Prescripts opens what was once closed.”"
+    },
+    "passives.4.condition": {
+      "sourceHash": "e42f064499345c01d324aa5820eb5f5613fd692d8aa7d51a5670c92de8485541",
+      "text": "Grace, HP, and turn thresholds"
+    },
+    "passives.4.response": {
+      "sourceHash": "8249b58d4c04e3d06e09961414f2d9fb3f4586413bfa1d7f865dfd90a60a9320",
+      "text": "Unlock progression alone does not mean disruption failed. Check Karmic Consequence and Prescript completion."
+    },
+    "passives.5.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.5.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.5.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.5.response": {
+      "sourceHash": "85bd8c4a7ae5074767348249d0e9efcd870129e01d96a06b44a1e594423ed216",
+      "text": "SP returns to 0, with further recovery from Unlock. Do not depend on keeping SP low."
+    },
+    "passives.6.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.6.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.6.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.6.response": {
+      "sourceHash": "fcd56ef9c4aea234b0e60d4947b0cc8c36042b856e0c27d4f990798dc597df67",
+      "text": "Use failed Prescripts and clashes rather than relying on another Panic Type."
+    },
+    "passives.7.name": {
+      "sourceHash": "1f24ed43969fbad5ddf30ab75c7814ef009ad45969925070bc52825b1afa546b",
+      "text": "Will of the Prescript"
+    },
+    "passives.7.effect": {
+      "sourceHash": "d9ba67589dc78dbac7826604b3ddc557fd7129c74d36e4c54ffb7400babc16ba",
+      "text": "At Turn Start:\n- Apply The Prescript's Target - The Index to a random Sinner other than Ryōshū and prioritize them.\n- All Coins of skills used against that target become Unbreakable.\n· If the target dies or cannot be attacked, use remaining skills against a random Sinner other than Ryōshū, prioritizing lowest current HP except targets at 1 HP.\n· If all other Sinners are dead, apply the status to Ryōshū.\n- Gain Protection equal to Grace (max 9), reduced by 1 per 20 Karmic Consequence [Fortuna].\n\nDamage against the Prescript's target +5% per Grace (max 40%).\n- At 9 Grace, instead deal 50% more damage to all targets.\n\nStarting on the phase-change turn:\n- Gain Indulgence in Prescripts every two turns.\n- When gaining it with fewer than 9 Procuration [Hermes], activate the special pattern.\n“I built a family.”\n\n“You should not be here yet.”\n“The work is still underway. I am adorning it more delicately, more beautifully than anything.”\n“...Do you mean to defy the Prescript?”"
+    },
+    "passives.7.condition": {
+      "sourceHash": "d1718c432451a5395a2109203660df295ee5150ee0ea0a16f6f7629630b011ef",
+      "text": "Turn Start; Grace by form"
+    },
+    "passives.7.response": {
+      "sourceHash": "2e036b31d38d6a5dfdccf1498502798e25f920835a66d7938c0da13df0c190b0",
+      "text": "Have someone other than the Prescript's target take over clashes. In the second half, check the special pattern's types too."
+    },
+    "passives.8.name": {
+      "sourceHash": "b7445ec8db40473d783f0ca1df83717f88e74b83e87c64ef051c29cd6da37044",
+      "text": "Undertake Prescript"
+    },
+    "passives.8.effect": {
+      "sourceHash": "2637e44fd2b1f5e41b2e7f0a16663f03085129df260472e253da601a3a5ae2a8",
+      "text": "If the Prescript was completed this turn, at Turn End heal 15 SP and gain 3 Grace (once per turn).\n\nIf it was not completed, at Turn End gain 10 Karmic Consequence [Fortuna] and lose 1 Grace; its target gains 2 Clash Power Up next turn.\n- If a powerful skill was used this turn, instead gain 15 Karmic Consequence [Fortuna] and lose 3 Grace.\n“I lost... my family.”\n\n“Don't go...”\n“Don't leave us like this... Papa... please... save us...”"
+    },
+    "passives.8.condition": {
+      "sourceHash": "b7aacd3d7c2f438d12081a7cfb25df65fd1b79d88f71005d23da6d11fb3be976",
+      "text": "Prescript completion or failure"
+    },
+    "passives.8.response": {
+      "sourceHash": "3480493962c31c15926dadd0fdc89ec570139950db29e754cb814881ef7789f6",
+      "text": "Aim for Karmic Consequence in the first half, then more Karmic Consequence and less Grace in the second. Protect the target."
+    },
+    "passives.9.name": {
+      "sourceHash": "0e3acc97dca7c2d80c4928819a75972f554923e1a4300a0f1302e7c20c73ef33",
+      "text": "Rien, the Father [Imitation]"
+    },
+    "passives.9.effect": {
+      "sourceHash": "1c3054c2dfa0bf74551b428d2ce42d2535f75160ce0f95310220443e9998b373",
+      "text": "Take 75% less damage from unopposed attacks.\nTake 75% less damage from Tremor, Rupture, and Sinking.\nWhen recovering SP through Unlock, if below 15 SP, restore it to 15.\n\nOn changing phase at 55% HP or less:\n- Remove all effects other than unique effects.\n- Reset Procuration [Hermes] to 0.\n- Gain Prescript: [Device] - Warning.\n- Change Rien's Mask to Sizzling Wound.\n- Change Karmic Consequence to Karmic Consequence [Fortuna] and gain 10.\n- Immediately gain Shin (心) - Rien if absent.\n\nAt 25% HP or less, change the pattern and strengthen specific skills.\nA false Nursefather, completed after sensing he must imitate someone. Not knowing whom, he questioned and nearly defied the Prescript, but finally understood whom he was meant to resemble and accepted its will."
+    },
+    "passives.9.condition": {
+      "sourceHash": "084f00402259bec88bcd2028895e55d149c37d8386e3f52c19f98801067bb4a0",
+      "text": "55% HP or less; 25% HP or less"
+    },
+    "passives.9.response": {
+      "sourceHash": "df9f1729d59b9aca05c4b864d20ba8ac54823fd1342eacaeed8e3c272de933d8",
+      "text": "Counters change in the second half, and major skills strengthen in the final phase. Save Forest for the Flames resources."
+    },
+    "passives.10.name": {
+      "sourceHash": "568e7f060f5b8ba1e6f51109b5adc8dc35b28dfa56c7499b3c55d9c6d55fcaa3",
+      "text": "Oracle Device [Caduceus] - Full Unlock"
+    },
+    "passives.10.effect": {
+      "sourceHash": "ae995e423499517181f20ba95e2f39cccb6ca6bad0b66367cdaebf1628bb87f8",
+      "text": "Each Coin randomly chooses a weapon and applies its special effect:\n- Hatchet: hacking through ribs.\n- Stiletto: piercing lungs.\n- Bastard sword: crushing shoulder and skull.\n- Rapier: making at least ten holes in the body.\n- Hammer: crushing the back of the skull.\n- Greatsword: rending the body in two.\n- Lance: boring a twenty-inch hole.\n- Whip: stripping the body into ten thousand pieces.\n- Scythe: cutting along space itself, like a certain someone.\n\nOn Attack Skill use, gain 1 Procuration [Hermes].\n- Gain once per skill; the same skill cannot grant 2 or more.\n- Skills exclusive to the special pattern do not grant it.\n\nAt Turn Start with 9 Procuration, use a powerful skill:\n- Reset Procuration gain tracking by skill type.\n- Minimum and maximum Speed +25.\n- At Turn End, gain 2 Fragile and 3 Power Down next turn.\n\nStarting on the phase-change turn:\n- Every four turns, if Procuration is below 9, raise it to 9 and gain Karmic Consequence [Fortuna] equal to (amount added × 5).\nThe ultimate weapon and curse bestowed by Hermes, the City's god who sends Prescripts through radio waves."
+    },
+    "passives.10.condition": {
+      "sourceHash": "6c8ea9923ee9cb4feb0f59700d1f99eeaf252e7bf34894d0a8fb31141a11821c",
+      "text": "Second-half 9 Procuration and four-turn cycle"
+    },
+    "passives.10.response": {
+      "sourceHash": "a3b62c556e3385e9037f415150d081b39f485428a1bc4ad6548dae45b6255254",
+      "text": "Check current Procuration and equipped skills rather than using a fixed turn count from the first half."
+    },
+    "passives.11.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.11.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.11.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.11.response": {
+      "sourceHash": "85bd8c4a7ae5074767348249d0e9efcd870129e01d96a06b44a1e594423ed216",
+      "text": "SP returns to 0, with further recovery from Unlock. Do not depend on keeping SP low."
+    },
+    "passives.12.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.12.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.12.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.12.response": {
+      "sourceHash": "fcd56ef9c4aea234b0e60d4947b0cc8c36042b856e0c27d4f990798dc597df67",
+      "text": "Use failed Prescripts and clashes rather than relying on another Panic Type."
+    }
+  },
+  "messages": {
+    "boss-copy:lian": "complete",
+    "【リンバス】9-50 リアン（9-50）の攻略｜Limbus Assistant": "9-50 Rien (9-50) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-50「リアン（9-50）」の攻略。指令対象を守って指令の達成を阻止し、カルマで敵を弱める。大技は良秀、後半の憂鬱3種は同じ物理属性で受け持つ。マッチ勝利後の破壊不能まで抑えることが重要になる。": "Rien (9-50) guide for Limbus Company 9-50. Protect the Prescript's Target to deny fulfillment and build Karmic Consequence on the enemy. Assign the major skill to Ryōshū, and match physical types against the 3 Gloom skills later. Limit the Unbreakable hits that remain after Clash Wins.",
+    "9-50 リアン（9-50）": "9-50 Rien (9-50)",
+    "9-50「Spider's Webs」": "9-50 · Spider's Webs",
+    "人差し指の親方 - リアン［前半］の外見": "The Index Nursefather - Rien [First Half] appearance",
+    "人差し指の親方 - リアン［前半］のスキル": "The Index Nursefather - Rien [First Half] skills",
+    "The Index Nursefather - Rien [First Half]の外見": "The Index Nursefather - Rien [First Half] appearance",
+    "The Index Nursefather - Rien [First Half]のスキル": "The Index Nursefather - Rien [First Half] skills",
+    "親方リアン［後半・仮面解除］の外見": "Nursefather Rien [Second Half · Mask Removed] appearance",
+    "親方リアン［後半・仮面解除］のスキル": "Nursefather Rien [Second Half · Mask Removed] skills",
+    "Nursefather Rien [Second Half · Mask Removed]の外見": "Nursefather Rien [Second Half · Mask Removed] appearance",
+    "Nursefather Rien [Second Half · Mask Removed]のスキル": "Nursefather Rien [Second Half · Mask Removed] skills"
+  }
+}

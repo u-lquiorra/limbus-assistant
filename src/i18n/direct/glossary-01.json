@@ -1,0 +1,202 @@
+{
+  "kind": "glossary-terms",
+  "terms": {
+    "skill": {
+      "sourceHash": "f13292a7f254fa581563923ff01140d872813b2b3d016bacebf6c32f9f44c9a2",
+      "aliases": [
+        "S1",
+        "S2",
+        "S3",
+        "Attack Skill",
+        "Defense Skill"
+      ],
+      "text": [
+        "Skill",
+        "An action an Identity uses in battle. Guard and Evade are skills too.",
+        "An Identity's usual attack pool contains 3 copies of Skill 1, 2 of Skill 2, and 1 of Skill 3. Skill 3 unlocks at Uptie Ⅲ. Each skill slot shows 2 available choices and a preview of the next skill.",
+        "Select 1 available skill for each slot before starting the turn. An attack skill is consumed when actually used, and the next skills move forward to refill the choices. If the attack never happens because the enemy dies or the Identity is Staggered first, it remains available. An Identity with multiple slots shares the same skill pool across all slots.",
+        "In Normal Encounters, connect skills from left to right. In Focused Encounters, connect each slot to an enemy skill to choose its target. You can also replace an attack with a defense skill.",
+        "Read activation timing such as On Use, On Clash Win, and On Hit alongside the skill's effects.",
+        "An On Hit effect requires the attack to land; selecting the skill alone does not activate it.",
+        "The Skill 1/2/3 counts describe the standard pool. Identity-specific effects can change it; check the relevant skill descriptions.",
+        "Choose an available skill and advance the skill pool",
+        "Choose 1 of the 2 available skills",
+        "Press START and use that skill",
+        "The following skills refill the choices in order",
+        "This shows an ordinary attack being used. Replacing it with defense and advancing the turn consumes the original attack even if the defense does not activate. Canceling the replacement does not consume it."
+      ]
+    },
+    "coin": {
+      "sourceHash": "c0800fbacaa71b32d757feb4cbc87930d8d6b69051d85f8222d3fc34fe4fb237",
+      "aliases": [
+        "Coin Toss",
+        "Positive Coin",
+        "Negative Coin"
+      ],
+      "text": [
+        "Coin",
+        "A skill's Coins change its Power according to Heads or Tails. Their number also affects how many attacks it makes.",
+        "Positive Coins increase Power on Heads; negative Coins decrease it on Heads. Read both the sign and the number of Coins.",
+        "During a Clash, the remaining Coins are rolled to compare Power. During an attack, each remaining Coin normally produces a hit.",
+        "More Coins do not guarantee a Clash Win.",
+        "Special types such as Unbreakable Coins behave differently from ordinary Coins.",
+        "Base Power 4, Coin Power +3, 1 Coin",
+        "Roll the Coin",
+        "Tails: 4",
+        "Heads: 4 + 3 = 7",
+        "Heads and Tails are alternative outcomes. This example has no additional effects or Power modifiers."
+      ]
+    },
+    "skill-power": {
+      "sourceHash": "bbe13239382f551fdff78ae4bd07a29b6c4bf5fc5ca2354c01b8c1b0211f0a6b",
+      "aliases": [
+        "Base Power",
+        "Coin Power",
+        "Clash Power",
+        "Maximum Power",
+        "Coin Boost",
+        "Coin Drop"
+      ],
+      "text": [
+        "Skill Power",
+        "A value used to resolve Clashes and calculate attacks. Coin results and other effects modify Base Power.",
+        "For positive Coins without other modifiers, Clash Power is Base Power + Coin Power × the number of Heads.",
+        "Clash Power effects and differences in Offense Level can change the compared values. Attack Power is calculated separately for each Coin, so maximum Power is not total damage.",
+        "Attack Power Up/Down modifies attack skills' Final Power. Clash Power Up/Down applies only to the comparison during a Clash. Distinguish effects that still apply once the attack begins.",
+        "10 Power does not necessarily deal 10 damage.",
+        "Clash Power Up is different from a Power increase that also applies during the attack.",
+        "Clash with Base Power 4, Coin Power +3, and 2 Coins",
+        "0 Heads: 4",
+        "1 Heads: 4 + 3 = 7",
+        "2 Heads: 4 + 6 = 10",
+        "These are 3 possible outcomes. Other effects and level differences are omitted.",
+        "Coin Power boosts and drops",
+        "A Coin Boost adds to the relevant Coin Power; a Coin Drop subtracts from it. Negative Coin Power is a signed negative value.",
+        "Plus Coin Boost and Minus Coin Boost add their value to the corresponding Coin Power; Drops subtract it. For negative Coins, moving closer to 0 reduces the amount subtracted on Heads.",
+        "This is separate from directly changing Base Power or Final Power. Also consider Heads/Tails, Coin count, and whether a Coin was broken during the Clash.",
+        "Check whether the Coin is positive or negative before interpreting a Boost or Drop; its name alone does not determine the resulting sign.",
+        "Adding 1 to Coin Power",
+        "+1 positive Coin Power with 1 Plus Coin Boost becomes +2",
+        "-2 negative Coin Power with 1 Minus Coin Boost becomes -1",
+        "On Heads, the positive Coin adds more and the negative Coin subtracts less",
+        "On Tails, the Coin contributes 0; Base Power and other modifiers are calculated separately",
+        "This compares Coin Power only. It excludes Base Power and Final Power modifiers and the handling of Unbreakable Coins after a Clash Loss."
+      ]
+    },
+    "match": {
+      "sourceHash": "52dc6282cdaa72fc0c26d3b342cfb501e02774fb35b44df9a5136c29fe1dc246",
+      "aliases": [
+        "Clash",
+        "Clash Win",
+        "Clash Loss",
+        "Power Comparison"
+      ],
+      "text": [
+        "Clash",
+        "A contest of Power between skills. With ordinary attack skills, the winner gets to attack.",
+        "Both sides roll their remaining Coins. The side with lower Power loses 1 ordinary Coin. Ties are rerolled, and the contest continues until one side runs out of Coins.",
+        "In an ordinary attack Clash, the higher-Offense-Level skill gains +1 Clash Power per 3 levels of difference: no bonus at a difference of 2, +1 at 3–5, and +2 at 6–8. Compare the skills' Offense Levels, not the Identities' levels themselves.",
+        "The winner normally attacks with their remaining Coins. Choosing the right skill for a Clash helps stop enemy attacks.",
+        "A favorable prediction does not guarantee victory.",
+        "An enemy with Unbreakable Coins may still attack after losing the Clash.",
+        "Some defense skills can also Clash. Read their descriptions for what happens afterward.",
+        "Each side has 1 ordinary Coin",
+        "Rolled Power: ally 10, enemy 7",
+        "The enemy's Coin breaks",
+        "The ally wins the Clash and attacks",
+        "The 10 rolled during the Clash is not automatically the attack's damage."
+      ]
+    },
+    "sanity": {
+      "sourceHash": "1459743324e0985a44f03ae1bf92d3230729d7c9431766df0da5f100d0e5fde9",
+      "aliases": [
+        "SP",
+        "Sanity",
+        "Heads Chance"
+      ],
+      "text": [
+        "Sanity",
+        "A value that affects Heads chance and other mechanics. It is separate from HP.",
+        "SP ranges from -45 to +45. Ordinary Coins have a Heads chance of 50% + SP: 5% at -45, 50% at 0, and 95% at +45. Negative Coins lose Power on Heads, so higher SP is not always beneficial.",
+        "SP normally rises through Clash Wins and enemy kills, and falls through E.G.O use and allied deaths. Check each Identity's Sanity tab: some use different conditions or amounts.",
+        "An enemy without SP is different from an enemy at 0 SP. Keep that distinction when reading effects such as Sinking.",
+        "SP and HP are separate. Restoring SP does not restore HP.",
+        "Some enemies do not have SP.",
+        "SP and ordinary Coin Heads chance",
+        "-45 SP: 5% Heads",
+        "0 SP: 50% Heads",
+        "+45 SP: 95% Heads",
+        "These are ordinary positive-Coin probabilities. Check Identity-specific Coin effects and SP modifiers separately."
+      ]
+    },
+    "stagger": {
+      "sourceHash": "7204f76a2a9592a6c72ea5970741f94b3407d4814f6b1c827dbb95e7489a4244",
+      "aliases": [
+        "Stagger",
+        "Stagger Threshold",
+        "Stagger+",
+        "Stagger++"
+      ],
+      "text": [
+        "Stagger",
+        "A dangerous state that prevents actions and worsens incoming-damage resistances.",
+        "Crossing a Stagger Threshold on the HP bar causes Stagger, preventing action for the rest of this turn and next turn. Slash, Pierce, and Blunt resistances become Fatal.",
+        "Multiple thresholds allow deeper Stagger states. Stagger+ and Stagger++ worsen Attack Type resistances further. On recovery, crossed thresholds disappear and the next threshold becomes relevant.",
+        "Focused Encounter enemies have separate Stagger Thresholds for their parts. Staggering one part does not necessarily disable the others. This is also different from breaking a part by depleting its HP.",
+        "Stagger is separate from Panic caused by low SP.",
+        "Effects that move Stagger Thresholds can cause Stagger without relying only on HP damage.",
+        "Crossing a Stagger Threshold",
+        "HP crosses the threshold",
+        "The affected Identity or part cannot act for this turn and next turn",
+        "On recovery, the crossed threshold disappears and the next one takes its place",
+        "Part breaks, Forced Stagger, and enemy-specific mechanics are separate cases."
+      ]
+    },
+    "attack-type": {
+      "sourceHash": "0fb82947cfaf3b7ee620772d9a0e9d2525781f6cba7c53ac6c8366c50be45e2b",
+      "aliases": [
+        "Physical Type",
+        "Slash",
+        "Pierce",
+        "Blunt"
+      ],
+      "text": [
+        "Attack Type",
+        "Slash, Pierce, or Blunt. It affects damage together with the target's physical resistance.",
+        "Each attack skill has its own type. An Identity can use different types on S1 and S3.",
+        "To exploit a weakness, compare the selected skill's type with the target's matching resistance.",
+        "An Identity's skills do not necessarily all share one Attack Type.",
+        "Match the skill to the resistance",
+        "Selected skill: Pierce",
+        "Target resistance: Pierce column",
+        "Check that resistance value",
+        "Sin affinity is a separate classification. Attack Type alone does not determine final damage."
+      ]
+    },
+    "sin": {
+      "sourceHash": "cd704e63ca4a68020f97b7b8dfd406628543fcc4943dca84a4a0cc8a5e3a1b2d",
+      "aliases": [
+        "Sin",
+        "Wrath",
+        "Lust",
+        "Sloth",
+        "Gluttony",
+        "Gloom",
+        "Pride",
+        "Envy"
+      ],
+      "text": [
+        "Sin Affinity",
+        "The 7 affinities: Wrath, Lust, Sloth, Gluttony, Gloom, Pride, and Envy. They also govern resources and Resonance.",
+        "Attack skills have a Sin affinity separate from Attack Type. Two Slash skills can have different affinities. Some defense skills have no Sin affinity.",
+        "Check Sin affinity for enemy resistances, E.G.O resources, and passive requirements.",
+        "Owned resources and Resonance from this turn's skill selection are different conditions.",
+        "One skill, two classifications",
+        "Check an attack skill",
+        "Attack Type: Slash",
+        "Sin affinity: Wrath",
+        "Slash and Wrath are separate properties. Read the names as well as the colors."
+      ]
+    }
+  }
+}

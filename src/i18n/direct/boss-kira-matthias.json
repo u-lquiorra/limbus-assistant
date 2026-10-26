@@ -1,0 +1,1573 @@
+{
+  "kind": "boss-copy",
+  "id": "kira-matthias",
+  "source": "src/data/bosses/kira-matthias.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "よく見とけ娘ちゃん！",
+          "en": "Check This Out, Kiddo!",
+          "file": "Bufs-a1c9p3.json",
+          "id": "DaughterEducationSpider"
+        },
+        {
+          "ja": "褒められた！",
+          "en": "I Got Praised!",
+          "file": "Bufs-a1c9p3.json",
+          "id": "GotACompliment"
+        },
+        {
+          "ja": "熱線ON",
+          "en": "Thermal Blades ON",
+          "file": "Bufs-a1c9p3.json",
+          "id": "HeatingWireOnSpider"
+        },
+        {
+          "ja": "非常用K社アンプル",
+          "en": "K Corp. Emergency Ampule",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KAmpouleA1C94TH"
+        },
+        {
+          "ja": "中指 - 怨恨の刺青 [長兄]",
+          "en": "The Middle - Vengeance Tattoo [Great Brother]",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ReinforcedTattooSpider"
+        },
+        {
+          "ja": "中指式強化刺青",
+          "en": "The Middle Styled Augmentation Tattoos",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ReinforcedTattooSpiderDaughter"
+        },
+        {
+          "ja": "中指 - 怨恨",
+          "en": "The Middle - Grudge",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ResentmentSpider"
+        },
+        {
+          "ja": "中指 - 怨恨",
+          "en": "The Middle - Grudge",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ResentmentSpiderDaughter"
+        },
+        {
+          "ja": "仕返し帳簿",
+          "en": "The Book of Vengeance",
+          "file": "Bufs-a1c9p3.json",
+          "id": "VengeanceBookSpider"
+        },
+        {
+          "ja": "中指の親方 - マティアス",
+          "en": "The Middle Nursefather - Matthias",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1327"
+        },
+        {
+          "ja": "中指の子方 - キラ",
+          "en": "The Middle Apprentice - Kira",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1328"
+        },
+        {
+          "ja": "怨恨の刺青 [長兄]",
+          "en": "Vengeance Tattoos [Great Brother]",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132701"
+        },
+        {
+          "ja": "仕返し帳簿",
+          "en": "The Book of Vengeance",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132702"
+        },
+        {
+          "ja": "娘ちゃんの教育",
+          "en": "My Daughter's Education",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132703"
+        },
+        {
+          "ja": "怨恨",
+          "en": "Resentment",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132704"
+        },
+        {
+          "ja": "こうすればいいんだよね、パパ！",
+          "en": "Am I doing this right, Papa?!",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132801"
+        },
+        {
+          "ja": "中指式刺青",
+          "en": "The Middle Styled Tattoos",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132802"
+        },
+        {
+          "ja": "キラもおだてりゃ木に登る",
+          "en": "Praise is the Wind in Her Sail",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132803"
+        },
+        {
+          "ja": "中指は絶対にお返しするって言ったよね",
+          "en": "I'm pretty sure the Middle never forgets",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132804"
+        },
+        {
+          "ja": "こうすればいいんだよね、パパ！",
+          "en": "Am I doing this right, Papa?!",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "134201"
+        },
+        {
+          "ja": "踏み潰す",
+          "en": "Stomping",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132701"
+        },
+        {
+          "ja": "蹴飛ばす",
+          "en": "Punting",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132702"
+        },
+        {
+          "ja": "怨念スタンピング",
+          "en": "Stamp of Vengeance",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132703"
+        },
+        {
+          "ja": "たかがこれしきで壊れんなよ！",
+          "en": "Don't Let Somethin' Like This Break Ya!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132704"
+        },
+        {
+          "ja": "ルール違反",
+          "en": "Rule Violation",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132705"
+        },
+        {
+          "ja": "踏み潰す",
+          "en": "Stomping",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132707"
+        },
+        {
+          "ja": "蹴飛ばす",
+          "en": "Punting",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132708"
+        },
+        {
+          "ja": "怨念スタンピング",
+          "en": "Stamp of Vengeance",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132709"
+        },
+        {
+          "ja": "アツくねぇか！？",
+          "en": "Are Ya Feelin' the Heat?!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132710"
+        },
+        {
+          "ja": "ルール違反",
+          "en": "Rule Violation",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132711"
+        },
+        {
+          "ja": "身体ちょっとほぐそっかな？",
+          "en": "Time for Some Warm-up!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132801"
+        },
+        {
+          "ja": "ガチ殴り",
+          "en": "Totally Badass Ass-kicking",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132802"
+        },
+        {
+          "ja": "フィクサー切腹！",
+          "en": "Fixer Disemboweling!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132803"
+        },
+        {
+          "ja": "十字乱舞！",
+          "en": "Crossing Dervish!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132804"
+        },
+        {
+          "ja": "ヴァイオレット・ブレイク・スラム！",
+          "en": "Violet~ Breaking Slam!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132805"
+        },
+        {
+          "ja": "ただじゃ置かないかんね",
+          "en": "I'll Get You Back for This...!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132806"
+        },
+        {
+          "ja": "ルール違反！",
+          "en": "Rule Violation!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "134105"
+        },
+        {
+          "ja": "ラッピング一つ破るぞ！",
+          "en": "Gonna Unbox a Layer of Packaging!",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132706"
+        },
+        {
+          "ja": "二つ目のラッピングまで剥がすことになったか。",
+          "en": "Looks Like I Gotta Unbox the Second Layer, too.",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "132712"
+        },
+        {
+          "ja": "紫の息: 性急。疼き。締め付けるもの - 抑圧",
+          "en": "Purple Breath: Impatience. Aching. Tightening - Oppress",
+          "file": "Skills_Assist-a1c9p3.json",
+          "id": "40001004"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 3 records. The packaging skill aliases and Great Brother tattoo spacing are resolved by game IDs. The later Rule Violation uses Matthias skill 132711 rather than the similarly named rematch skill 134105. Purple Breath is a shortened reference to assist skill 40001004. NPC assistance conditions, temporary Turn 2 debuffs, ordinary Counters, automatic follow-ups, unknown ending threshold, and distinctions from 9-44 are retained."
+    }
+  },
+  "scopedTerms": [],
+  "scopedPaths": [
+    "skills.10.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "45db8b2dd5b0fc06633014cfb8961cb40ad428e64c0b115a732ab7d676b7e9cf",
+      "text": "Kira & Matthias (9-38)"
+    },
+    "shortName": {
+      "sourceHash": "6e43b8493b9d7bd6bc54dcb9ee6bd88453161d0ef6bda6830d3fae338d8e08ee",
+      "text": "Kira & Matthias"
+    },
+    "stageName": {
+      "sourceHash": "917c990a11206d2cc2d7f776a079f43d7ae2dae2c2235a65379adc436328cc44",
+      "text": "The Middle"
+    },
+    "lead": {
+      "sourceHash": "3ede9fb32f94c743d242aa9485e8f582a2b6abe197b3384ccf461d2817d37f07",
+      "text": "Leave Matthias to Moses, Ezra, and Vespa while the three Sinners focus on Kira. Do not assign Defense Skills or clashes to attacks meant for Assist Defense, and avoid needlessly triggering the Nursefather's Counter."
+    },
+    "listLead": {
+      "sourceHash": "feabee110bef8d56f1dc61905679fe15b42283dba993692e1a67b16799f10b23",
+      "text": "Leave the Nursefather to the allied NPC while 3 Sinners focus on the Apprentice. Do not assign defense or Clashes to attacks intended for Assist Defense, and avoid needlessly triggering the Nursefather's Counter."
+    },
+    "statNote": {
+      "sourceHash": "e1038113051c47caacf52acdcbba874680a5d5a5e6b5784544e57b593c56eb92",
+      "text": "Only Yi Sang, Don Quixote, and Hong Lu deploy; each has two skill slots. Enemy tables show base values, with NPC debuffs handled separately. Matthias triggers the ending event below a certain HP threshold, whose exact value is unconfirmed. Do not apply 9-44's final escort conditions or 701 HP threshold here. Check the initial shared Ampule count on screen."
+    },
+    "priorities.0": {
+      "sourceHash": "fa6fd3881d641a1d58f894906cda4c512e8996ac8564752a50bc4fed0bf34728",
+      "text": "Focus on Kira and leave Matthias to the NPCs."
+    },
+    "priorities.1": {
+      "sourceHash": "885ab5a141123f2385e3f28f9e077d65c2871670330b9d40235a74aec3256823",
+      "text": "Do not equip Defense Skills on targets of unopposed attacks left to assistance."
+    },
+    "priorities.2": {
+      "sourceHash": "a0b09c74252b15c74ad3bb41c701f0ff59382596b4ff6288a264a86fcc012d2d",
+      "text": "After defeating Kira, keep checking Counters and tattoos; avoid unnecessary attacks."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "c927eb6f0cfc9d3252d711b7ba182a8f53a19b60454b6bff9d77729ed6a3b623",
+      "text": "Allies die when attacking Matthias"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "028f16987ab7f4972b9141a7e6a5071b512df7c7840aa084a96662e2289bf70f",
+      "text": "His ordinary Counter and its Great Brother tattoo reuse are dangerous. Have Sinners attack only Kira and leave damage against Matthias to the NPCs."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "e03a0e6471fe98dc90fa29356508188ede35cfe92c986367a6c7e9decc1a2b56",
+      "text": "Assistance fails to activate and Sinners take heavy damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "5e2501882d284e20c5243352e19baec93a41368910b652391fd68cd0c2aeef6b",
+      "text": "Ezra and Vespa's Assist Defense intercepts unopposed attacks against allies with no Defense Skills equipped. Do not clash with an attack left to them or equip Defense Skills in any other slot of its target. Also check that the NPC has Assist Defense equipped."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "55513555497f1544fd42636dbeccd108532b9bdf16e64a8b953246f7845ea9f3",
+      "text": "Kira's opening attack consumes an Ampule"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "c98243c63f291b41054c8b48563901431d3ea33b47743bb0ffda2c05ccc96843",
+      "text": "Losing to Totally Badass Ass-kicking is especially dangerous. Win the opening clash with a strong regular skill or E.G.O. Moses's Plus Coin Drop makes clashes easier from Turn 2 onward."
+    },
+    "units.0.name": {
+      "sourceHash": "ea85f8aef14eeec447bdf455c313aff47b30f4f1595ef7cbc4dd49150babd7de",
+      "text": "The Middle Nursefather - Matthias"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "e3e3547b69424c10c499cb9319bf8f63e939694400be8aaec988f0f7fe960302",
+      "text": "Has Sealed Sword. Even skills with the same name change Power and effects as its stage changes."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "e71500093b36e216a51be6cc0aa99bfba64f2be2b334e271e4c38d52717eff90",
+      "text": "Mainly handled by the NPCs. Progresses to an event below a certain HP threshold; Sinners do not need to reduce HP to 0."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "2d4dffe1bac0d38585653d2779f322aebdc6e269a4005855c39c503a69101fbb",
+      "text": "One unidentified passive is omitted rather than assigning it an unconfirmed effect."
+    },
+    "units.1.name": {
+      "sourceHash": "cf47171afa4e132731d59de6f409abc565a02ba745b7b60119d459c9eef4f473",
+      "text": "The Middle Apprentice - Kira"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "a214196e5174ed86a62f1e79f017e345c4d3864eaa01c2cab16fe49c25f74844",
+      "text": "50% and 30% (707 and 424)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "b38826f6fe0b472c759cd07aa97f30f698dee823d28a077049aca406f7ea66b6",
+      "text": "Moses's Purple Breath applies 3 Plus Coin Drop from Turn 2 for five turns. This temporary effect is not included in the table."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "c87bfebac9e24d99eb8beafed31795545ae1f5295eeb203317f8bedd572d84a1",
+      "text": "Gains strength through I Got Praised!, Thermal Blades, and tattoos. Check current clash predictions and Counters while focusing attacks."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "9e20706741677f133d241b826c5832ee61955d23b287fa6a9fd0f5a31b54ae79",
+      "text": "Bring healing to protect the three required Sinners and the NPCs"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "13ea9bf19c12b4c3b55a325c238f29dcabd9ca6aea13de6b14bb67b66862510e",
+      "text": "Recommended Lv. 60. Level Yi Sang, Don Quixote, and Hong Lu. Each has two slots, so divide attacks against Kira and healing duties."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5bee44b4d55ada725d1153a247c1df198eda1f4f16b1aabdb31509cbf8908c4d",
+      "text": "Moses, Ezra, and Vespa fight alongside you. You lose if any NPC dies, so do not spend all shared Ampules on Sinners."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "007ba6f86959d9c20fee50a6caa83b8aa147b418b2a527d4e187cba501576854",
+      "text": "Kira is vulnerable to Pierce. Consider affinity, but also save a way to beat the opening Totally Badass Ass-kicking."
+    },
+    "phases.1.timing": {
+      "sourceHash": "18112649fd95776c8ac4be7f623e7b3885a238b427ad5780a93e5e9a248ffb71",
+      "text": "Opening"
+    },
+    "phases.1.title": {
+      "sourceHash": "06b4970c845532a6ad940ac9f5ac8b246c1f834ff3d9b183729efd7ed8ed9cbd",
+      "text": "Defeat Kira without attacking Matthias"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "614940f271010f9b4011c4bc1e1e00ed2d4d11ad1fce27869a3aeb1de7fe3649",
+      "text": "All three Sinners focus on Kira. Spare attacks against Matthias trigger his ordinary Counter; use spare actions for healing or necessary defense instead."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "aba89a29fcb4074cfd45942f83ce11c8485bd07b6b0a8546a738f85ec336d1df",
+      "text": "Stop the opening Totally Badass Ass-kicking with a strong skill. Watch for Coin reuse at 4 or more I Got Praised! and for additional damage."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "d82d5e1a5c0289b5411735c1e41deab6cbe3756b8019c8ea0d2efccd4b430f2f",
+      "text": "Purple Breath applies 3 Plus Coin Drop to Kira on Turn 2. Check the effect and remaining duration, then use improved clash predictions to Stagger and defeat her."
+    },
+    "phases.2.timing": {
+      "sourceHash": "573b0a853d669b902dad4f0ade9dda1b43a6129ff63e559305d00b0384a9b415",
+      "text": "When Matthias targets a Sinner"
+    },
+    "phases.2.title": {
+      "sourceHash": "522ec369ace43145dcab0c68610f509e21c51803d87e6e89dc967f6a728b060f",
+      "text": "Maintain the conditions for NPC assistance"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "bf2d37634872394f524233fc292e1169ca8e036ad53eda7fc6bf6714ffbf008f",
+      "text": "Check that Ezra or Vespa has Assist Defense equipped. Do not assign a Sinner to clash with an attack left to them; keep it unopposed."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "ac89abf96430e7007dd783216c63f0a2c25cf6ddb71aad4b1e032c940ccfd807",
+      "text": "Do not equip Defense Skills on the targeted Sinner. Defense in another slot of the same Sinner also breaks the condition, so use attacks against Kira or healing instead."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "f57520c755ca414a71beca3e82df9a626b53741cf0c172b1617b7b449bb26c5f",
+      "text": "Even if a Sinner is predicted to win, taking over the clash changes assistance and Counter management. Generally leave it to the NPCs and focus on Kira."
+    },
+    "phases.3.timing": {
+      "sourceHash": "a1976ea8fbefdd83df14c4327663ba26bae25a4f991d5018f0a834aa133a82c7",
+      "text": "Automatic follow-up attacks"
+    },
+    "phases.3.title": {
+      "sourceHash": "7fce1b1156f98053e3874c2abdc5f8dd6252b048b077c0f334d891075cecf2f6",
+      "text": "Do not count event attacks as extra selectable skills"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "5f2a551f5bb8e91bcce7578bfd5462600e983d42c208eb109493b7424d81431b",
+      "text": "Don Quixote performs an automatic follow-up on Turn 2, and Yi Sang on Turn 5. These are separate from skills selected from your hand; there is no need to prepare resources as for an ordinary E.G.O use."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "c7d30ade6e18d1d46acf8191e49859ffd92956b415530058d046d65d56dbebb3",
+      "text": "Don Quixote's automatic follow-up does not trigger Matthias's Counter. This does not mean regular attacks are safe too."
+    },
+    "phases.4.timing": {
+      "sourceHash": "0c64d6fe9b780c3e0fcbc0d96ff660f596ca2adf27a090ab3c713969e840a7db",
+      "text": "After Kira is incapacitated"
+    },
+    "phases.4.title": {
+      "sourceHash": "39992fdcccf00ccd943b03bc1d096070182a2a3acfc3dacda9f9f54d8cd2209e",
+      "text": "Wait for the NPCs to finish without adding Counters"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "4b89d0c252a234d90c982a2cd482f5e0331047b3928ddfaaf92cdef6f129936c",
+      "text": "Once Kira is defeated, everyone does not need to attack Matthias. Hold attacks unless he has no Counter and can be attacked safely. Having no tattoos does not remove the Counter itself."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "84c8a0bb61462f1903ea2e92c9eb987e708044199efe5b161540e1c39541ae24",
+      "text": "On turns when NPCs use Assist Defense, do not cancel their assistance by equipping Defense Skills. Check targets and available assistance, then choose healing or withholding attacks as appropriate."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "acfd753dd3f44800f881457c79b49f665ad64f888950ab7317f84e63b3588934",
+      "text": "The battle ends through an event below a certain HP threshold. Guarding Moses for three turns in 9-44 is not this battle's ending condition."
+    },
+    "skills.0.name": {
+      "sourceHash": "a5395bf1b11745c73089515bf98af75d3d8b8886a55944c026b8c8dc2830800f",
+      "text": "Stomping"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.0.effects.4": {
+      "sourceHash": "a7ef0f748089a07e3b64c33f8042a13265836ddd73166d23f495ccddcdb3a0f4",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 2 Paralyze"
+    },
+    "skills.0.response": {
+      "sourceHash": "ef6d688c9e3cbf9b227f0d2545a942142321e73485e58d54615ea5509cc6bcae",
+      "text": "Generally leave this attack to the LCD team. Do not equip Defense Skills or assign a clash on a Sinner relying on assistance. Do not take over carelessly even if the prediction is favorable."
+    },
+    "skills.1.name": {
+      "sourceHash": "2713214e8dfbbf5a50c91f91e16af499240ee833b7e9186ab9931f483fdc1d86",
+      "text": "Punting"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "ae664e54d6f0a21fd2c64627d8afe1cbdca6f588c0b6c4c4667c8e6297bfc845",
+      "text": "Ⅰ [On Hit] Raise Stagger Threshold by 5"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "cc5d16e1e0425df53f2c640fb744443820e15f5d7252c60f5000c880f85e5948",
+      "text": "Ⅱ [On Hit] Raise Stagger Threshold by 5"
+    },
+    "skills.1.response": {
+      "sourceHash": "cd44dd969cbe1e435efe7999a9050ec4ebaf15fc8a0452da025e698a6898c9fa",
+      "text": "A two-Coin skill that raises Stagger Thresholds. Check the NPC's assignment and keep Sinner attacks focused on Kira."
+    },
+    "skills.2.name": {
+      "sourceHash": "2805af290360ab86f46315ee0e4fc0c32e1cc4c84a2f56727ca2b92b41747135",
+      "text": "Stamp of Vengeance"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "69dd2e9214fc43f93c7228d5d79a2414dd487c8ef6406d9c2d2be0c40212f455",
+      "text": "Base Power +1 per 3 Bleed on the target (max 3)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "44c7e6a83c0321d51e7a4c19fea7d152e67bc66a2d490c12c0a0b5b70a6cd837",
+      "text": "[After Attack] Consume all The Middle - Grudge and gain 1 Check This Out, Kiddo!"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "3a14eaec6ac43a0b0d414435c8f2bb4917c7f5db31ef3368778664ada40afb3e",
+      "text": "[On Hit Without Coin Destruction] Inflict 3 Bleed"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "5157b0fcf6e5d8866f25066b3a5ffcd4bd1058ba9ded5741ab80dae09bc73101",
+      "text": "[On Hit without Coin Destruction] Increase Bleed Count by 2"
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "a7ef0f748089a07e3b64c33f8042a13265836ddd73166d23f495ccddcdb3a0f4",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 2 Paralyze"
+    },
+    "skills.2.response": {
+      "sourceHash": "174164554321bb182112de90e329a16c3bdcc9e0027396b4ce2ce7982c152e79",
+      "text": "A powerful attack with four Unbreakable Coins. Extra Sinner attacks add Grudge, so leave Matthias to the NPCs."
+    },
+    "skills.3.name": {
+      "sourceHash": "baf8b26eb2e5c248e11982c26ae4c80de712616fdc5236f08196107ca6d7b5b7",
+      "text": "Don't Let Somethin' Like This Break Ya!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "2276cc4f41b17984a244445f9bbece8dfc18032805b090ed546d2aa86f486270",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], deal 5 additional Blunt damage on Coin hit"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "5d377c8622d0bcd55cd0c949ec87809878f691fac2a343a1438f1e776cf26405",
+      "text": "[On Hit] Inflict 2 Bind"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "745deb6b7a4d565b5adfbf0af44cb5107a867b69da23435d9cc29c8342971425",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Paralyze"
+    },
+    "skills.3.response": {
+      "sourceHash": "9c47425a1cbf6ac782e6582f910da4a2439b35429fa382de1724f296327b1256",
+      "text": "Three Unbreakable Coins with Bind and additional damage. If it targets a Sinner, check for an NPC with Assist Defense equipped and leave it to them."
+    },
+    "skills.4.name": {
+      "sourceHash": "2f528eb6adc7a2a4467a83b6a2e40b4fc26b238b08c67a6130a109235999e32b",
+      "text": "Rule Violation"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "a87fc60b257711e72d92a68370b784085e80d96c91a4811110b780dc187b5498",
+      "text": "When damaged, reuse this skill once per The Middle - Vengeance Tattoo [Great Brother] on self (max 1 reuse)"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "69fe02cdcafcb0df093199c7e338c3f4dc8f32becd1c1c0b557c0439d864f534",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], increase the target's Bleed Count by 1 on Coin hit"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6a763ff85fe177dc808368a961899ff0ce166032a16ace11c8bdf54d0aeb12ec",
+      "text": "Ⅱ [On Hit] Lower Stagger Threshold by 10"
+    },
+    "skills.4.response": {
+      "sourceHash": "b7e8ac5548930a4745f9da7ada5378e8d5fd0f210d40cd66ef99e848d0520aaa",
+      "text": "An ordinary Counter. Reuses once with the Great Brother tattoo. Unlike a Clashable Counter, it is best handled by avoiding unnecessary attacks that trigger it."
+    },
+    "skills.5.name": {
+      "sourceHash": "2f46cb83d24a9bb16e33b425e64427087eb61ca96dbc510071882d5b37bbd45d",
+      "text": "Gonna Unbox a Layer of Packaging!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "f59b9d63984f7f6e0283f7750bf2f792069f5ba2abfc36b8c490d463ea0a35d9",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], deal 10 additional Blunt damage on Coin hit"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "de97f227e398fd45cfdfa1301b8321b96935c58eff7fe15dc613e2c0b83557e5",
+      "text": "[After Attack] Sealed Sword becomes Unsealed Stage 1"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.5.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.5.response": {
+      "sourceHash": "e79de924a10863d32de7ebc57b9df0ef425e78b3c5aef1038017a8a6c1317323",
+      "text": "A transition skill with three Unbreakable Coins that cannot be redirected. Removes one stage of the seal after attacking. Keep the NPC's assignment intact."
+    },
+    "skills.6.name": {
+      "sourceHash": "a5395bf1b11745c73089515bf98af75d3d8b8886a55944c026b8c8dc2830800f",
+      "text": "Stomping"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "90325f1f82b6af224751431ff483bd3324f5968dd84a26816a123869a68b97e1",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 1 additional Bleed on Coin hit"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "b773339fd02c2bc537dc96ecc7a326c3a9f69ef3d74a78e229564340204a6b7b",
+      "text": "[Clash Lose] Gain 1 Clash Power Up next turn (up to twice per turn)"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "6f59907a0517569e40e2696e6ae330475d21c8c0aa450fa7628aac8ad98eaee9",
+      "text": "Ⅰ[On Hit] Inflict 4 Bleed."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "a7ef0f748089a07e3b64c33f8042a13265836ddd73166d23f495ccddcdb3a0f4",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 2 Paralyze"
+    },
+    "skills.6.response": {
+      "sourceHash": "9669a53050559e23747a1f968136be716de0610e57eb0f2872581ff3bf83e5cb",
+      "text": "The same-named skill after unsealing. Adds Bleed and next-turn clash buffs; do not assume its values are unchanged. Use NPC support."
+    },
+    "skills.7.name": {
+      "sourceHash": "2713214e8dfbbf5a50c91f91e16af499240ee833b7e9186ab9931f483fdc1d86",
+      "text": "Punting"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "90325f1f82b6af224751431ff483bd3324f5968dd84a26816a123869a68b97e1",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 1 additional Bleed on Coin hit"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "280762665c2df098ab8b1abc0c45325f5ed07a0ef90ee3bedf7e7fc8233645ab",
+      "text": "[Clash Lose] Gain 1 Envy Damage Up next turn (up to twice per turn)"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "3059bfbeec9f69ab9d2198627af7c7c5065322a25302b9cf3ff908409104387a",
+      "text": "Ⅰ [On Hit] Raise Stagger Threshold by 10"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "473540c0dc129465feac31715d2873c70f2b28b775b39e3cbcc143a4cc4a68b9",
+      "text": "Ⅱ [On Hit] Raise Stagger Threshold by 10"
+    },
+    "skills.7.response": {
+      "sourceHash": "eaaba094de84bbf0f54e778f498ce7cc621e885d59befb5411573d3486c4c5ab",
+      "text": "Raises Stagger Thresholds more than in the first half. Leave the clash to the NPCs while Sinners heal and handle Kira."
+    },
+    "skills.8.name": {
+      "sourceHash": "2805af290360ab86f46315ee0e4fc0c32e1cc4c84a2f56727ca2b92b41747135",
+      "text": "Stamp of Vengeance"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "69dd2e9214fc43f93c7228d5d79a2414dd487c8ef6406d9c2d2be0c40212f455",
+      "text": "Base Power +1 per 3 Bleed on the target (max 3)"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "90325f1f82b6af224751431ff483bd3324f5968dd84a26816a123869a68b97e1",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 1 additional Bleed on Coin hit"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "44c7e6a83c0321d51e7a4c19fea7d152e67bc66a2d490c12c0a0b5b70a6cd837",
+      "text": "[After Attack] Consume all The Middle - Grudge and gain 1 Check This Out, Kiddo!"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "7f9658ab00f74bc2e64a3b453d7e846f5b3cdf2d4335500b90ec20ca3e6a5f24",
+      "text": "[On Hit] Inflict 4 Bleed."
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.8.effects.8": {
+      "sourceHash": "7466f192f692554bfccc3eac39f63e52ba485739fb3d06e5945db1552aa791e0",
+      "text": "[On Hit without Coin Destruction] Inflict 4 Bleed"
+    },
+    "skills.8.effects.9": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.8.effects.10": {
+      "sourceHash": "5157b0fcf6e5d8866f25066b3a5ffcd4bd1058ba9ded5741ab80dae09bc73101",
+      "text": "[On Hit without Coin Destruction] Increase Bleed Count by 2"
+    },
+    "skills.8.effects.11": {
+      "sourceHash": "a7ef0f748089a07e3b64c33f8042a13265836ddd73166d23f495ccddcdb3a0f4",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle - Vengeance Tattoo [Great Brother], inflict 2 Paralyze"
+    },
+    "skills.8.response": {
+      "sourceHash": "4be7d1a445515c8f00d27eaaa22482f41ec5062a1f9642e36723801bbf3d8099",
+      "text": "The later Stamp of Vengeance. Four Unbreakable Coins and 16 Base Power. Grudge and Bleed conditions also matter; do not assign a Sinner based on base values alone."
+    },
+    "skills.9.name": {
+      "sourceHash": "b747d358213403f2cb94c05a34962b5efb11b0228203db33f9f3cde7158d4e62",
+      "text": "Are Ya Feelin' the Heat?!"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "07db5a8d309ff1b2553ed713b881050edb159479b792e90b9f8579f0896e086b",
+      "text": "[On Use] With The Middle - Vengeance Tattoo [Great Brother], deal 10 additional Blunt damage on Coin hit"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "5ac7de2f31b5c91f73b4f34a0f54b6a9890a28b27b3b7209a907b5fc5bffc271",
+      "text": "[Before Attack] If the user's HP is at 50% or less, damage +40%"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "04a88708753894639d58c81207d0b330e1e5f7fe0e5250499ad0147612eb08e9",
+      "text": "[On Hit] Inflict 2 Burn"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "5d377c8622d0bcd55cd0c949ec87809878f691fac2a343a1438f1e776cf26405",
+      "text": "[On Hit] Inflict 2 Bind"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "04a88708753894639d58c81207d0b330e1e5f7fe0e5250499ad0147612eb08e9",
+      "text": "[On Hit] Inflict 2 Burn"
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "010b00a65600fd16223c1a932dc6ce46bb8d77546fb88c4b65f7c167f3e01194",
+      "text": "[On Hit] Deal 15 additional Blunt damage"
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "04a88708753894639d58c81207d0b330e1e5f7fe0e5250499ad0147612eb08e9",
+      "text": "[On Hit] Inflict 2 Burn"
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "d981cec3f82d28ed5c37f8548b07a4f889c0a70c392f1e423510f7a4d22acd35",
+      "text": "[On Hit without Coin Destruction] Inflict 3 Paralyze"
+    },
+    "skills.9.response": {
+      "sourceHash": "621b1627ae263c5def97fcc36f9b8a4a703a74b8644ead80384852f171d4f028",
+      "text": "Three Unbreakable Coins, with +40% damage at low HP. Leave it to the NPCs; maintain assistance conditions for any remaining attacks aimed at Sinners."
+    },
+    "skills.10.name": {
+      "sourceHash": "127539e0e466bf1fe62d6deeaf2f1dd3c855af0db0475907f9141986b39af522",
+      "text": "Rule Violation"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "a87fc60b257711e72d92a68370b784085e80d96c91a4811110b780dc187b5498",
+      "text": "When damaged, reuse this skill once per The Middle - Vengeance Tattoo [Great Brother] on self (max 1 reuse)"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "69fe02cdcafcb0df093199c7e338c3f4dc8f32becd1c1c0b557c0439d864f534",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], increase the target's Bleed Count by 1 on Coin hit"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "be631e3ed1b549abadfa8a62dc5ae16b0a88beed01c4725c2a834e6dc26d38f7",
+      "text": "[On Use] If the user's HP is at 50% or less, damage +40%"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "6a763ff85fe177dc808368a961899ff0ce166032a16ace11c8bdf54d0aeb12ec",
+      "text": "Ⅱ [On Hit] Lower Stagger Threshold by 10"
+    },
+    "skills.10.response": {
+      "sourceHash": "6aff4ac7a04defba0767ff40d1937f0e2396b313ba4528e187a66d7e3be4ac8b",
+      "text": "The enhanced ordinary Counter. Great Brother tattoos and low HP make it more dangerous, so avoid unnecessary unopposed attacks."
+    },
+    "skills.11.name": {
+      "sourceHash": "0312d6e1d5275bf706dec06596ecb7e29e176761215008cd59564e6e2bd7446f",
+      "text": "Looks Like I Gotta Unbox the Second Layer, too."
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "f59b9d63984f7f6e0283f7750bf2f792069f5ba2abfc36b8c490d463ea0a35d9",
+      "text": "[On Use] If the user has The Middle - Vengeance Tattoo [Great Brother], deal 10 additional Blunt damage on Coin hit"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "aef412d0b37c93dc46e772e904582c77a271b2041426517b9494d908e49114f4",
+      "text": "[After Attack] Unsealed Stage 1 becomes Unsealed Stage 2"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "99c5f505a9ceefc14755a8e2a53c71f1f1730b5fbc7fc7e80869f85e2262ce29",
+      "text": "[On Hit] Deal 10 additional Blunt damage"
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.11.effects.10": {
+      "sourceHash": "3deb1eec3dd879c08b5c8c58b9df4a50c55b36c895fa725d3813f8f430ec40c8",
+      "text": "[On Hit] Inflict 5 Fragile"
+    },
+    "skills.11.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.11.response": {
+      "sourceHash": "fd6059abc00efa56b0a774555a101cfd7c32d518b93e52ef27cf650a711e55d5",
+      "text": "Four Unbreakable Coins; cannot be redirected. Advances to Unsealed Stage 2 after attacking. Preserve NPC assignments and prioritize Sinner survival."
+    },
+    "skills.12.name": {
+      "sourceHash": "1680474d3825b1e54568221944bdc9f39c1ed48e7adb9d946a3ea0040725136b",
+      "text": "Time for Some Warm-up!"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "9af560f2070818f83f0ae31e992bb4854ce16abc4912ff2931c9d029fdc2c92b",
+      "text": "If the target has 5 or more Bleed, Base Power +2"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "6abca70de0fe3061463f6c2b3e365393c9d6a5256f34a00a5870849cc29c3c94",
+      "text": "[Clash Lose] This skill's damage cannot Stagger the target"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "2d0dd84568d9d100e6b7275693c3ce654afe9bff38f7bdf9c281de7a6687f276",
+      "text": "Ⅰ [On Hit] Deal 3 additional Blunt damage"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "f142535776c22692353d167405b7a7f96b1ac684e366a2fbe4fc38cda87cc3a9",
+      "text": "Ⅱ [On Hit] Deal 3 additional Blunt damage"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "5e82a670b6c2715ad7a5b625703fa0da1ae2714487166b32bba0c5ee7f3654a9",
+      "text": "[On Hit without Coin Destruction] Deal 3 additional Blunt damage"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "721258c95134fc3a2f6feb6f43ca037386d59be07757e753c4357d2f55c3dd0d",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle Styled Augmentation Tattoos, inflict 2 Bind"
+    },
+    "skills.12.response": {
+      "sourceHash": "cce7c54301f0aa0bf5d0de61222e1773e88468d95a3c005e4b8ad766fe2a7420",
+      "text": "The third Coin is Unbreakable. Gains 2 Base Power against targets with at least 5 Bleed. Heal damage that remains after a clash win and prevent Bleed from accumulating."
+    },
+    "skills.13.name": {
+      "sourceHash": "c478ce684e44c8df976ffa187242d696d35ea0458b7f0f19316a4c7174c56d49",
+      "text": "Totally Badass Ass-kicking"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "9af560f2070818f83f0ae31e992bb4854ce16abc4912ff2931c9d029fdc2c92b",
+      "text": "If the target has 5 or more Bleed, Base Power +2"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "22f2a2c59730b7df882a6f1c076d516b896c8cfcd12970f2d99c4f5d843e6d84",
+      "text": "[On Use] If the user has The Middle Styled Augmentation Tattoos, inflict 2 Bleed on Coin hit"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "bb9efb4faa9229beafff87c8c99c2f6bdf9ef377d00d39290e8c612d1c356ed3",
+      "text": "Ⅰ [On Hit] Deal 5 additional Blunt damage"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "7a444fff53371673df4a388a6804193e3779c906dae61f992350ea968cbcd82a",
+      "text": "[On Hit] Raise Stagger Threshold by 5"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "35b601c780b62bb025defb9f35847121620a6866e0a602d224dc642df753ef4f",
+      "text": "Ⅱ [On Hit] Deal 5 additional Blunt damage"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "7a444fff53371673df4a388a6804193e3779c906dae61f992350ea968cbcd82a",
+      "text": "[On Hit] Raise Stagger Threshold by 5"
+    },
+    "skills.13.effects.6": {
+      "sourceHash": "7569ac6aee3a314b373c5facceb192d65c5c649e67ca835897e4b27a86eaa86a",
+      "text": "[On Hit] If the user has at least 4 I Got Praised!, reuse this Coin 3 times"
+    },
+    "skills.13.response": {
+      "sourceHash": "bb00d5539ba23e8d85b6a67fbde9b8e3d63ed11d37f580f12bd9afb9997e090a",
+      "text": "At 4 or more I Got Praised!, reuses the last Coin three times. Losing the opening clash is especially dangerous, so assign a strong attack."
+    },
+    "skills.14.name": {
+      "sourceHash": "05c371f168534e828bc7dfea4120c13f751c7e472fbb4f16a755dcca5b473e57",
+      "text": "Fixer Disemboweling!"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "e2f3267591bffac572d8e297194c177b0b64eaa907dbdff3fa29f0ad87c2624f",
+      "text": "While Thermal Blades ON is active, apply Thermal Blades effects to this skill"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "fbead6bd33f211a7efc502705d39498ac2cdc54af5d0d87d7e7e66cbf2e4e42c",
+      "text": "[On Use] If the user has The Middle Styled Augmentation Tattoos, increase the target's Bleed Count by 1 on Coin hit"
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "0e056233e149cc066a61f38e79c172e4ecf0902b16a146a6388fd73a83461f18",
+      "text": "[After Attack] If the user has at least 2 I Got Praised!, gain 1 Envy Damage Up next turn"
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.14.effects.5": {
+      "sourceHash": "2802a5882d92f95fd1850a62e55e2adbc9d117af81103bf90fd7d1bda5f177ff",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.14.response": {
+      "sourceHash": "cd1c242b13386febfe0ce48abfdd242494f0b5f59dc84f37256c7f82abbd528a",
+      "text": "Gains Coin Power against targets with at least 4 Bleed. Also inflicts Burn with Thermal Blades ON. Check Moses's debuff and stop it with a regular skill that can win."
+    },
+    "skills.15.name": {
+      "sourceHash": "dab5d361bef3f1c711095a26c8d837844c36b12b641cbaf3cf26b57dbceb5d72",
+      "text": "Crossing Dervish!"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "e2f3267591bffac572d8e297194c177b0b64eaa907dbdff3fa29f0ad87c2624f",
+      "text": "While Thermal Blades ON is active, apply Thermal Blades effects to this skill"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "305a6676bac5c520d39fc1801f6edf30058ffb6f07e8d38dc49503ec997cf638",
+      "text": "If the target has 4 or more Bleed, Coin Power +1"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "fbead6bd33f211a7efc502705d39498ac2cdc54af5d0d87d7e7e66cbf2e4e42c",
+      "text": "[On Use] If the user has The Middle Styled Augmentation Tattoos, increase the target's Bleed Count by 1 on Coin hit"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "6abca70de0fe3061463f6c2b3e365393c9d6a5256f34a00a5870849cc29c3c94",
+      "text": "[Clash Lose] This skill's damage cannot Stagger the target"
+    },
+    "skills.15.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.15.effects.5": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.15.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.15.effects.7": {
+      "sourceHash": "5157b0fcf6e5d8866f25066b3a5ffcd4bd1058ba9ded5741ab80dae09bc73101",
+      "text": "[On Hit without Coin Destruction] Increase Bleed Count by 2"
+    },
+    "skills.15.effects.8": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.15.effects.9": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.15.effects.10": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.15.effects.11": {
+      "sourceHash": "decd2f829a5e1fc6644b2cf2267eb21372d482c5793497c06a3e0c34df071061",
+      "text": "[On Hit without Coin Destruction] Deal 5 additional Blunt damage"
+    },
+    "skills.15.effects.12": {
+      "sourceHash": "721258c95134fc3a2f6feb6f43ca037386d59be07757e753c4357d2f55c3dd0d",
+      "text": "[On Hit without Coin Destruction] If the user has The Middle Styled Augmentation Tattoos, inflict 2 Bind"
+    },
+    "skills.15.response": {
+      "sourceHash": "ac88af8bff5ec4f2318a9c2f0a1547652a4cd243a939277dff71c37f3b40e5cf",
+      "text": "All four Coins are Unbreakable. A clash win prevents Stagger from this skill, but Bleed and additional damage remain. Check HP and Bleed Count."
+    },
+    "skills.16.name": {
+      "sourceHash": "3a1888f95b1383a6a57b66db29cfbfb622b3dc7dbfc74d89bcc6018eac24f71e",
+      "text": "Violet~ Breaking Slam!"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "e2f3267591bffac572d8e297194c177b0b64eaa907dbdff3fa29f0ad87c2624f",
+      "text": "While Thermal Blades ON is active, apply Thermal Blades effects to this skill"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "fbead6bd33f211a7efc502705d39498ac2cdc54af5d0d87d7e7e66cbf2e4e42c",
+      "text": "[On Use] If the user has The Middle Styled Augmentation Tattoos, increase the target's Bleed Count by 1 on Coin hit"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "a1a81929038db893ecfb2b65058c0a2ff6f65df544bc904ae0cca565a3d4a65c",
+      "text": "[On Use] If the user's HP is at 40% or less, damage +60%"
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "4878ea7035c80207210ea25fde048ef3e98eaf323c6b4a9fbaf83333a31f8a73",
+      "text": "[On Use] If the user has at least 5 I Got Praised!, each Coin hit has a 50% chance to inflict 1 Paralyze"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "6abca70de0fe3061463f6c2b3e365393c9d6a5256f34a00a5870849cc29c3c94",
+      "text": "[Clash Lose] This skill's damage cannot Stagger the target"
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "71b5cf44df5b45656e60df22ab61ea03c22483c39eac4ee888eac7eeeca61374",
+      "text": "[After Attack] Consume all The Middle - Grudge and gain 1 I Got Praised!"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.effects.7": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.16.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.16.effects.9": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.16.effects.10": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.16.effects.11": {
+      "sourceHash": "5157b0fcf6e5d8866f25066b3a5ffcd4bd1058ba9ded5741ab80dae09bc73101",
+      "text": "[On Hit without Coin Destruction] Increase Bleed Count by 2"
+    },
+    "skills.16.effects.12": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.16.effects.13": {
+      "sourceHash": "decd2f829a5e1fc6644b2cf2267eb21372d482c5793497c06a3e0c34df071061",
+      "text": "[On Hit without Coin Destruction] Deal 5 additional Blunt damage"
+    },
+    "skills.16.effects.14": {
+      "sourceHash": "8c2656c5847e3576c22673c7a6b4f32afc1f7ce5ed60417677e8ccaafd47e201",
+      "text": "[On Hit without Coin Destruction] Raise Stagger Threshold by 5"
+    },
+    "skills.16.effects.15": {
+      "sourceHash": "5619575d633111311db2365d452d1dd756dffed78cc31600b41a64824f2dc47e",
+      "text": "ⅤUnbreakable Coin"
+    },
+    "skills.16.effects.16": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.16.response": {
+      "sourceHash": "9647f3c9f237dfb5d30d8dc65bde5d2a2893b2f817331ff7c83ac5a16ceaebe9",
+      "text": "A powerful attack with five Unbreakable Coins. Low HP and I Got Praised! increase its damage. Check for Moses's Plus Coin Drop and survive with healing and strong clashes."
+    },
+    "skills.17.name": {
+      "sourceHash": "7f921a8a47668bdb94f30e547118c0de3c977592303adbdb326c387fa2bd5074",
+      "text": "I'll Get You Back for This...!"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "e2f3267591bffac572d8e297194c177b0b64eaa907dbdff3fa29f0ad87c2624f",
+      "text": "While Thermal Blades ON is active, apply Thermal Blades effects to this skill"
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "1fc4339a0142322a5542373df337c675a24af671a6c5ae66c8dd21e93d1ae8d0",
+      "text": "When damaged, reuse this skill once per The Middle Styled Augmentation Tattoos on self (max 2 reuses)"
+    },
+    "skills.17.effects.2": {
+      "sourceHash": "81b3ba1d1956adada44d12942f177166ffd89065e045a2fc7beb9a7f61df37b7",
+      "text": "[On Use] If the user has The Middle Styled Augmentation Tattoos, inflict 1 Bleed on Coin hit"
+    },
+    "skills.17.effects.3": {
+      "sourceHash": "ed7c38f7b04b6c16adb5cd5e5fb4d1c5b811035c5c155f8ff3dd7fad3ca6c3eb",
+      "text": "[On Use] If the user's HP is at 40% or less, damage +40%"
+    },
+    "skills.17.effects.4": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.17.effects.5": {
+      "sourceHash": "fa0bbd6e078d752470af9c1e2b8b606e085558d66be4ee272e07788fe1f3ebde",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.17.effects.6": {
+      "sourceHash": "6f190fe59c7221ad04b76b89382d1811e3a5e1cadf9accaa0f20d69faedad422",
+      "text": "[On Hit] Lower Stagger Threshold by 10"
+    },
+    "skills.17.response": {
+      "sourceHash": "7b553797f256fe4862c09dc0fcf328f4902533d49c15d38006e1b026e6ed2c65",
+      "text": "An ordinary Counter. Reuses once per Augmentation Tattoo, up to twice. Counters and Bleed can still drain HP after clash wins, so do not concentrate attacks on the same low-HP Sinner."
+    },
+    "passives.0.name": {
+      "sourceHash": "6875ec4255bcc995917fd52bb3352b8d54ea64c9aeb06e707b48e78e706edefb",
+      "text": "My Daughter's Education"
+    },
+    "passives.0.effect": {
+      "sourceHash": "0b34cb8b3ae23817079e11ad5eee875a4dae580c4cc19c0abc52673d7a579020",
+      "text": "On Clash Win, gain 1 Check This Out, Kiddo!\n\nOn skill hit, gain 1 Check This Out, Kiddo! (once per skill; destroyed Coins do not grant it).\n\nIf the first skill used this turn wins a clash, gain 1 additional Check This Out, Kiddo! and give that skill +1 Coin Power."
+    },
+    "passives.0.condition": {
+      "sourceHash": "8e6921eb80f2231473c6a763cfa2e0a85856c328d0cfb0d1e19618d3ca7cf863",
+      "text": "Clash wins and hits with undestroyed Coins"
+    },
+    "passives.0.response": {
+      "sourceHash": "6c9e959bb9c91316a49dcd0483b4f0d148cb88e563dca76b3fcef36c089cd452",
+      "text": "The NPCs handle Matthias's buffs too. Do not provoke extra Counters with careless Sinner attacks."
+    },
+    "passives.1.name": {
+      "sourceHash": "2d2adb0084614d2e22943a4fedfa1252871b7fd61ffd8016ae305ddee8a64af3",
+      "text": "Resentment"
+    },
+    "passives.1.effect": {
+      "sourceHash": "31307a878127754cb8e031573b1488b5da3202fd59119a96213a0802c1ed2176",
+      "text": "After taking damage from skills twice, gain 1 The Middle - Grudge and lose 1 Check This Out, Kiddo! (damage instances accumulate).\n\nAt maximum The Middle - Grudge, use a powerful attack.\n\nAt Turn End, if HP is below 80%, 60%, or 40%, gain The Middle - Grudge up to its maximum."
+    },
+    "passives.1.condition": {
+      "sourceHash": "88759e5e0720fa09722fe22890a88276687b4457d7c29d57ec90432c904888ae",
+      "text": "Two instances of skill damage; HP thresholds"
+    },
+    "passives.1.response": {
+      "sourceHash": "7ec295e14b17d38ba5a262d1f64dcc4c80f5ae2617018a3a45724ad744431d94",
+      "text": "Additional attacks add Grudge and lead to powerful skills. Leave the damage to the NPCs."
+    },
+    "passives.2.name": {
+      "sourceHash": "0cc7522d76028f44c3400407317a85389e0ef64935a24e4372fb54851b6a1570",
+      "text": "The Book of Vengeance"
+    },
+    "passives.2.effect": {
+      "sourceHash": "8763f55927947531cba454a859dba8c6d25e4e958ce272b3166b9caf58e8fb6c",
+      "text": "At Stage Start, apply The Book of Vengeance to all Sinners and LCD characters.\n\nIf more than three skills hit this turn, gain The Middle - Vengeance Tattoo [Great Brother] next turn equal to the number of skills above three."
+    },
+    "passives.2.condition": {
+      "sourceHash": "c30c1a5adfa0cfe0bce689c908d65e3c7999779caa846e0d51dc7251a6b96b48",
+      "text": "Stage Start; more than three skills hit"
+    },
+    "passives.2.response": {
+      "sourceHash": "e0480b014fc4d0c52060f6367d5575f077d5816c6d939862e214f38002435999",
+      "text": "Extra attacks grant Great Brother tattoos. NPC attacks also count, so three or fewer Sinner attacks are not necessarily safe."
+    },
+    "passives.3.name": {
+      "sourceHash": "5feb5c2e82fb2268c69452479104e3a8a63ff6363f8fa1dec6dacc2d590959d5",
+      "text": "Vengeance Tattoos [Great Brother]"
+    },
+    "passives.3.effect": {
+      "sourceHash": "78d85d7cb57d1438a483622e21463c4fb3ba4297e7b461b9dfb4d0d5d79ef586",
+      "text": "Take 30% less damage from Burn, Bleed, Tremor, and Rupture (rounded down).\nStagger Threshold advancement received is reduced by 50% (rounded down)."
+    },
+    "passives.3.condition": {
+      "sourceHash": "48539cec6d5955448fe5851c78f56d50f0b5bbb9496f83316d0ec5044f18fd4e",
+      "text": "Status damage and Stagger Threshold advancement"
+    },
+    "passives.3.response": {
+      "sourceHash": "93f76bfbc7f22489388e92dd4a7ea33da974fb931d5e5b7cb9d22d5cc22beb3b",
+      "text": "Reduces Burn and other status damage. Do not add Counters while trying to rely solely on status damage."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.4.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.4.response": {
+      "sourceHash": "2628cb36fc63915fefd1576c92429f59366a6e5b005e88c07bb7879ca1216249",
+      "text": "SP returns to 0. Sustaining Panic alone is not a winning plan."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.5.response": {
+      "sourceHash": "a6cd7b1af147adedacfe9933afdaa93a21b937a6cac70d40bedc87399da8537e",
+      "text": "Use NPC assignments and assistance rather than relying on changing Panic Type."
+    },
+    "passives.6.name": {
+      "sourceHash": "0641aba78770ba587bd21958bb2c06cc7e9a11510ec64587632418820bacbcb7",
+      "text": "Praise is the Wind in Her Sail"
+    },
+    "passives.6.effect": {
+      "sourceHash": "a2192a1055637993f88b04ded5415a667818a206c05ac1a4a801aa799e30af4f",
+      "text": "On Clash Win, gain 1 I Got Praised!\n\nOn skill hit, gain 1 I Got Praised! (once per skill; destroyed Coins do not grant it).\n\nIf the first skill used this turn wins a clash, gain 1 additional I Got Praised! and give that skill +1 Coin Power."
+    },
+    "passives.6.condition": {
+      "sourceHash": "9ad33f47b7aaa2fbb7f49c9776c7dad3f233d248d10d865d891f7b5ffa91f7f4",
+      "text": "Kira's clash wins and hits with undestroyed Coins"
+    },
+    "passives.6.response": {
+      "sourceHash": "ce77898099191318b14918cd287688f8480a2b125d2d333a89d4a4332012c104",
+      "text": "More I Got Praised! means more damage. Prevent Totally Badass Ass-kicking from reaching its reuse condition."
+    },
+    "passives.7.name": {
+      "sourceHash": "e6f3b49631c00713b1a599640756a43b8a759c4b002458ffd5d37a86f521c976",
+      "text": "I'm pretty sure the Middle never forgets"
+    },
+    "passives.7.effect": {
+      "sourceHash": "7491c87110b60183490d035894ff664ef74bca3fdd92cee38c6672749c0ec60a",
+      "text": "After taking damage from skills twice, gain 1 The Middle - Grudge and lose 1 I Got Praised! (damage instances accumulate).\n\nAt maximum The Middle - Grudge, use a powerful attack.\n\nAt Turn End, if HP is below 80%, 60%, or 40%, gain The Middle - Grudge up to its maximum."
+    },
+    "passives.7.condition": {
+      "sourceHash": "88759e5e0720fa09722fe22890a88276687b4457d7c29d57ec90432c904888ae",
+      "text": "Two instances of skill damage; HP thresholds"
+    },
+    "passives.7.response": {
+      "sourceHash": "148e534b40316347fc028a10dd8c6bf7d66cd81c52f5f804fa0f6b58e31e0ea6",
+      "text": "Kira uses her major attack at maximum Grudge. Save skills and healing while lowering her HP."
+    },
+    "passives.8.name": {
+      "sourceHash": "72e4ac0c259948fd6bb8a61ae2876866793a2d34f524bf268ff6eaf2737848e5",
+      "text": "The Middle Styled Tattoos"
+    },
+    "passives.8.effect": {
+      "sourceHash": "1fa206e884b47641eaabd21abc7dda53698c393d0749cfafda4e3d205532ce69",
+      "text": "If more than two skills hit this turn, gain The Middle Styled Augmentation Tattoos next turn equal to the number of skills above two.\n\n“Will the Middle accept me as family someday too, so I can live with all the Big Sisters and Brothers forever?”"
+    },
+    "passives.8.condition": {
+      "sourceHash": "97d4a8356440f6b02b703dfbcba314becf246122d2cb19e5dee3d10c319c5af1",
+      "text": "More than two skills hit"
+    },
+    "passives.8.response": {
+      "sourceHash": "d621810557141e6f336d59e5bacdae863df47030d8c746754f03910ef74fb01f",
+      "text": "More attacks mean more tattoos next turn. Restore the HP of Sinners focusing their attacks to prepare for Counter reuses."
+    },
+    "passives.9.name": {
+      "sourceHash": "8d773b262417989ef2dac60b6f811553c3694f74ff257203019beeac844fc843",
+      "text": "Am I doing this right, Papa?!"
+    },
+    "passives.9.effect": {
+      "sourceHash": "0bc894e5b43ca0dce81ec90f0dd489f7709e799b42ad94464071cebc24abfb20",
+      "text": "Starts the stage with Thermal Blades OFF.\n\nAt Turn Start with at least 3 I Got Praised!, change to Thermal Blades ON for the turn and additionally inflict Burn with skills that inflict Bleed.\n\nAt Turn End with fewer than 3 I Got Praised!, change Thermal Blades ON to Thermal Blades OFF.\n\n“Papa's the best. He always praises me and buys me comics.”"
+    },
+    "passives.9.condition": {
+      "sourceHash": "c7ab15cdc7ca92d58b469043f034e0d1e799df2dbbb5341a0b21846152130b70",
+      "text": "At least 3 I Got Praised!"
+    },
+    "passives.9.response": {
+      "sourceHash": "2af9944dae103ff4653f83e62b2d060d32f29aa82d5b6bffc2c2da3672a71e20",
+      "text": "Thermal Blades ON adds Burn to Bleed skills. Win clashes to limit on-hit effects."
+    },
+    "passives.10.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.10.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.10.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.10.response": {
+      "sourceHash": "2628cb36fc63915fefd1576c92429f59366a6e5b005e88c07bb7879ca1216249",
+      "text": "SP returns to 0. Sustaining Panic alone is not a winning plan."
+    },
+    "passives.11.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.11.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.11.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.11.response": {
+      "sourceHash": "a6cd7b1af147adedacfe9933afdaa93a21b937a6cac70d40bedc87399da8537e",
+      "text": "Use NPC assignments and assistance rather than relying on changing Panic Type."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "60d7f1592903874fe706199ac15bcb573071b84ead1f5a2b94219ed9347e4afe",
+      "text": "K Corp. Emergency Ampule"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "47b08eae3ff75fa3da4c0b4f9153c1cdc1fd22dad96fb3f4d92d18f856095236",
+      "text": "When taking lethal damage while another ally is alive, clear Stagger and fully restore HP. Every ally's remaining Ampule count decreases by 1 simultaneously."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "47e67f1393dc7db4d02fe45d0d096d79fe2f2d9dc38aa20a98f98f8c3bf42467",
+      "text": "Check the remaining count shared by NPCs and Sinners on screen. These are not separate revival counts per character."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "6e008b0ea8c4fd12384b3dd7012dee4cf3fb2e07fe6d25fd3893d05e6318b726",
+      "text": "Assist Defense"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "1199fce50bfc2d1ff704d0ef8fdbdbd5298d0ac490680f57b625dbf24047f8b2",
+      "text": "Ezra and Vespa intercept unopposed attacks against allies with no Defense Skills equipped."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "c74a6676ee19f370668b5b6e4e9b5e8747c1ee11e2e5ec726d8a5fb4e6e2a9c4",
+      "text": "Do not assign clashes to attacks left to assistance, or equip Defense Skills on the targeted Sinner. Check whether the NPC is using assistance that turn too."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "0edc1a2e6f0d9289f3c8517ef636479249593b17b1e14f4bdc6b4ad7ad99e039",
+      "text": "The Middle - Grudge"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "867d3ab305879d994e3978eac8e92fd81380b8798576d759c1afe8e5efd69ae7",
+      "text": "Maximum 10. Per stack: Offense Level +1, Defense Level −2, Counter damage +5%. At maximum, damage taken +20%. Consumed by specific skills."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "75d8a7b3e5e1f57c69f0f37b29e4ebfc8b19174b2be3451c22252d7efc71971d",
+      "text": "Careless Sinner attacks against Matthias trigger more dangerous skills."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "301519527af07bd30c3cf7552ffb7015f645a9252223378fe6d4a7fe0a20e193",
+      "text": "The Middle - Vengeance Tattoo [Great Brother]"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "013e58fdae98b948073ba7a53799cafe155c640dc9c31233cd5d03d9a6bfad33",
+      "text": "Maximum 2; expires at Turn End. Blunt and Envy damage +10%. Enables additional effects on Counters and other skills."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "ca1461f7091d49a209b4fc574625ec69c31d62568ab7b96889f0b45fc0da527a",
+      "text": "While active, hold back attacks against Matthias and leave him to the NPCs."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "07a2f7eb70b9d3dff47f1b6934c488eb490807f8c8ad58101a2765ae30c50bd1",
+      "text": "The Middle Styled Augmentation Tattoos"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "914809a4a809be3d1b58950923667aa44a6bccb9aa14bc97815fb3b44e74b3fb",
+      "text": "Maximum 3; expires at Turn End. Blunt and Envy damage +5%. Enables effects such as Counter reuse."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "bf008aed23c226e003f677abe3a9fcf0212f6fc63bb3e571f6a6685c6f1d8dbb",
+      "text": "While focusing on Kira, maintain HP on Sinners exposed to Counters."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "b87d85d2ae24f79df86e9ec85b78671f42bb011ec6f3bb288ad9fe5ea6f9a683",
+      "text": "Check This Out, Kiddo!"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "e1addb72b8188381e9755952c94e25bba25cdd46f30584c39151dfc27a3977fb",
+      "text": "Maximum 10. Base Power +1 per 2 stacks; Slash and Blunt damage +5% per stack. Lose 1 after taking damage from skills twice."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "c94a53e3964c9f3162a29d734023167f7e9f7433fc021d03a86248082df53848",
+      "text": "Do not add Sinner attacks solely to lower this value; consider the resulting Counters first."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "9894504ab13517a55efb76458803fbd2e57e6d9b7c9c06c538c18de808e0c6f9",
+      "text": "I Got Praised!"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "e399b070244c093c8ccd64c39e4935c5576ac75e977b9de7bf368384aea32eda",
+      "text": "Maximum 10. Base Power +1 per 2 stacks; Slash and Blunt damage +8% per stack. Lose 1 after taking damage from skills twice."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "ac9ed6efeb4feee7a5159b8925728cd84d4652a3407ba7267643ac6f5f01ae46",
+      "text": "Keep winning clashes and focusing on Kira to prevent her reuse condition from being met."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d8a4fbc5369201e64d14d837ff4a07a634124d209adfefbf59a179168ead903c",
+      "text": "Thermal Blades ON"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "17cda7569f6c1e1792e80fe4446111b6b3d54fbc7f4346af4a35dcb93267bf06",
+      "text": "Activates at 3 or more I Got Praised!. Skills that inflict Bleed also inflict Burn."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "b985c673e3e701001148887b36ddbec169f076518fcd8314cb3fcb4a8d0ab53f",
+      "text": "Win clashes to stop the attacks and prepare healing for both Burn and Bleed damage."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "0cc7522d76028f44c3400407317a85389e0ef64935a24e4372fb54851b6a1570",
+      "text": "The Book of Vengeance"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "ff162bcfd516fcb559fe0a67766afe7c882d7d564c281b00905c512121442d26",
+      "text": "When either Middle enemy lands a skill hit, heal 7 SP once per skill."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "8fe84a6b274294c4ad5402a1a177e9092c019df527d20c1bc836e813913f35cc",
+      "text": "Hits also help maintain enemy SP. Sinners should win against Kira while the NPCs handle Matthias."
+    },
+    "mechanics.9.name": {
+      "sourceHash": "1ca9437120eb0e15a40065a2b3f19e3705117d1c74cd67d8172b1368ddf17621",
+      "text": "Purple Breath"
+    },
+    "mechanics.9.effect": {
+      "sourceHash": "ac0355d86793ef642adc472203a4599a4546543ad69bdacaf4d76f82dac86b39",
+      "text": "Moses's support against Kira: 3 Plus Coin Drop from Turn 2 for five turns."
+    },
+    "mechanics.9.response": {
+      "sourceHash": "7c15c9832c1b94ecc69e87f9ea3bef52242893a692fadc98aaa652bcf007c187",
+      "text": "Do not permanently subtract it from enemy base values. Check the active effect and its remaining duration."
+    },
+    "warnings.0": {
+      "sourceHash": "b8d9ba9b89e86dc8a497dbf44157ad637e4b262a4116548edfa9ff52639ac163",
+      "text": "Matthias uses an ordinary Counter. Avoid triggering it by withholding attacks; it cannot be stopped through a clash win."
+    },
+    "warnings.1": {
+      "sourceHash": "ec6c6af4962c76cfd9808b29e6b673d481132e7583b6ffd42d268012491f69b2",
+      "text": "Additional attacks against Matthias add tattoos based on all skills that hit, including NPC skills. This does not mean three Sinner attacks are safe."
+    },
+    "warnings.2": {
+      "sourceHash": "f46e408d7e0d486d0ca9b2a1cf866f5b9d20b850b6c78a98e7b0ea65b70f4d71",
+      "text": "Do not equip Defense Skills on targets left to Assist Defense. Check support conditions every turn even after Kira is defeated."
+    },
+    "warnings.3": {
+      "sourceHash": "1b92cffffc4140ff4881d15c3cb42a10a542e8ad2ca758acce79f9a782f89848",
+      "text": "Skills, support, and ending conditions differ from the 9-44 rematch. Do not apply its final escort procedure here."
+    },
+    "preparation.0": {
+      "sourceHash": "5cac27cbd374e2021217dbee51f7d9c494a0ab66482f43f9b37cdde793083bf8",
+      "text": "Recommended Lv. 60. Yi Sang, Don Quixote, and Hong Lu are the three required Sinners. Prepare a strong opening clash and HP/SP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "ad40faf126b6eb3ce9e42494fa8b19260377a3948064bf8d6a16d11f9224622c",
+      "text": "Pierce damage is effective against Kira. Maintain NPC assistance rather than forcing extra damage against the Nursefather."
+    },
+    "roles.0.name": {
+      "sourceHash": "1d916dd62d11bbe90da54b5c0b53d77ceeeb6e4dbcf4f7ebf3dc69c784c924d6",
+      "text": "Clashes and focused damage against Kira"
+    },
+    "roles.0.reason": {
+      "sourceHash": "b084cf59a679e479b4a63b493b7be8129764d5ef87008de63290f2c99905182d",
+      "text": "Reduce enemy actions while the NPCs handle the Nursefather."
+    },
+    "roles.1.name": {
+      "sourceHash": "6ed0ee040fa070a2a8898a9b53000a7e94615127f08c3d0f3aa0799db32e10c8",
+      "text": "HP and SP recovery"
+    },
+    "roles.1.reason": {
+      "sourceHash": "9b033b17c5ff2c0a43618f7cf30cf2a8c8d097a4001738e946407bb5f6d8d824",
+      "text": "Recover damage from Unbreakable Coins and ordinary Counters."
+    },
+    "roles.2.name": {
+      "sourceHash": "f030cd204ea24e5e49983c038f5f730269e1e874560eb6ff86b5d555576a1955",
+      "text": "Maintain NPC assistance"
+    },
+    "roles.2.reason": {
+      "sourceHash": "38d0d7e86f18592ae7ea1a23bbf23ffd18f9a017d4eb1c958d1599e79c33dc98",
+      "text": "Preserve the conditions: an unopposed attack and no Defense Skills equipped on its target."
+    }
+  },
+  "messages": {
+    "boss-copy:kira-matthias": "complete",
+    "【リンバス】9-38 キラ・マティアス（9-38）の攻略｜Limbus Assistant": "9-38 Kira & Matthias (9-38) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-38「キラ・マティアス（9-38）」の攻略。マティアスはモーゼス・エズラ・ベスパに任せ、囚人3人はキラへ集中する。援護防御に任せる攻撃へ守備やマッチを付けず、親方の反撃を不用意に起動しない。": "Kira & Matthias (9-38) guide for Limbus Company 9-38. Leave Matthias to Moses, Ezra, and Vespa while the three Sinners focus on Kira. Do not assign Defense Skills or clashes to attacks meant for Assist Defense, and avoid needlessly triggering the Nursefather's Counter.",
+    "9-38 キラ・マティアス（9-38）": "9-38 Kira & Matthias (9-38)",
+    "9-38「The Middle」": "9-38 · The Middle",
+    "中指の親方 - マティアスの外見": "The Middle Nursefather - Matthias appearance",
+    "中指の親方 - マティアスのスキル": "The Middle Nursefather - Matthias skills",
+    "The Middle Nursefather - Matthiasの外見": "The Middle Nursefather - Matthias appearance",
+    "The Middle Nursefather - Matthiasのスキル": "The Middle Nursefather - Matthias skills",
+    "中指の子方 - キラの外見": "The Middle Apprentice - Kira appearance",
+    "中指の子方 - キラのスキル": "The Middle Apprentice - Kira skills",
+    "The Middle Apprentice - Kiraの外見": "The Middle Apprentice - Kira appearance",
+    "The Middle Apprentice - Kiraのスキル": "The Middle Apprentice - Kira skills"
+  }
+}

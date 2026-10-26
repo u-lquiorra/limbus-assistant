@@ -1,0 +1,307 @@
+{
+  "kind": "team-copy",
+  "id": "charge",
+  "sourceGuide": "src/data/team-guides/charge.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "f83d84816b4c3ae05e18d1a7649112a86c38440537d312d5cc9bb14a83792c2c",
+      "text": "W Corp. and AEDD (standard)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "f358d389998e235bb09f88b18c21a37659f5168c222195ea6dd1577354b59d25",
+      "text": "Deploy Charge Identities and supply Charge through AEDD Gregor and Telepole. Once charged, they can sweep enemy after enemy, but early clash strength is low. AEDD Gregor gives Charge to allies earlier in deployment order, so place him fourth, or third."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "f9c6161df35d721520a941f52748dfe677f005ee480642a3e05405ce998db9e1",
+      "text": "The core Charge Count supplier for earlier allies. Place him fourth, or third."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "9d4dd211b66c3947569c85f7ff8d09992538e1b956e222c537cfd7fd8708f6fd",
+      "text": "Builds Love/Hate to enter Reversed form, then sweeps enemies with area S3."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "82353d08f42df33fd7bb599d6c540925ae8f9328481043243583e0614883680d",
+      "text": "Highly durable through Shield and Defense Level Up, then unleashes S3 at maximum enhancement."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "227f65233fa8c745818c1cec63791dae336d814bd58907e941c296768bdcc747",
+      "text": "S2 gives Charge Barrier to herself and allies, strengthening W Corp. allies."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "13caa340052b3fb85f47f913aa1b050c81fa3337349846bbacb91a6b5906322e",
+      "text": "A self-sufficient Identity that enhances her skills and uses enhanced S3 for heavy damage and ally healing."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "197cf2d1f5bbd126a5ebcbb4d6ac2f332512cb9a2d5fe836f1d74f5406c87d55",
+      "text": "A Blunt attacker that grows stronger with Charge. Among the frailest Identities."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "cf68e68defd3b8513c2b1f6d91620c91d88f961c01dc76659928bb5e39bc9571",
+      "text": "Delivers high damage and heavy Sinking in Despair."
+    },
+    "data:examples:0:support:0:note": {
+      "sourceHash": "93639477e57e7b80b50ce5417216f032eaa104379f934316c3bcc3dbc74cf6c2",
+      "text": "The support passive grants 1 Haste when the fastest ally uses a skill that gains or consumes Charge."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "d240ca27076eb23dfc7298dfe728e8bc6df207399a15879606b522ff0e2bf597",
+      "text": "The core E.G.O: distributes Charge Count to the user and all allies at low cost."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "0569f184e4c877cd1275af606caa63f97353e187fea41e1d771e0a86e4cbbcbc",
+      "text": "Surplus Gloom and Envy allow repeated uses to restore HP and SP."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "b5a1e043313e4ae1be85cea8f493b0ac53ba782b2498f27ff6db58b2650d5ca5",
+      "text": "Distributes Charge to allies that attack."
+    },
+    "data:examples:0:egos:3:note": {
+      "sourceHash": "158a93ea454cf704a47a3dc15ac26e6a427f2b4562675b44fbc41a3539b57a62",
+      "text": "Charge increases Attack Weight while the E.G.O provides ally healing."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "65febfbb2baee1170ebf482016d8ca15e697a6aaaf6e3db5af7435cc268a980f",
+      "text": "Le Noir (Tremor and Charge)"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "8ae6060d95d4f007ce7341d8c33b925fc4e01c3ec2bfa90308d72b315716d32e",
+      "text": "Build Tremor with the Le Noir pair and Alteration Shop, then deal damage through Tremor - Conservation bursts. Bursts triggered by Le Noir Identities do not reduce Tremor Count, allowing repeated bursts while preserving the stack. The Brand Manager's Judgment! triggers alongside the Footwear Hall's attacks, so use both together. Alteration Shop mainly supports the earliest ally, so put the Brand Manager first. Put AEDD Gregor fourth to supply Charge to the first 3; Preservation increases like Charge."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "e3f14d88a240bdb6ad9fff7d1eba7c406a3e5a5f12b35eaefeaf8de711abd7e0",
+      "text": "The core unit, using S3 to convert Tremor to Conservation and burst it. S3 and defense grant Sanctum of Conservation to share Shield with all allies and lower enemy Speed. Place her first."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "78f6e03251b3e5dbf77e280a0e9e964b0b7075e9862a3b1ba783d86f662d9f47",
+      "text": "Builds her coat and endures through Shield. In Armure Éveillée, S3 becomes Single Kick and triggers repeated Tremor Bursts."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "3afa05e54e3b8a9a304527df3591ef3ebb0c8d4001e991c202fa2fa623d971c3",
+      "text": "The core Charge Count supplier for earlier allies. Place him fourth."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "957b9b29de3bf03b9213910925f6110a605582e5aeda2926ecdeb5bc497fe6fd",
+      "text": "A Charge and Rupture Identity that acts through evade and follow-ups. Generates resources readily."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "32ae58a75ec51412d57806dcffe3d10e7cc353d5a900fb94dba26284bca35913",
+      "text": "At Combat Start, grants Offense Level Up and Shield to the earliest ally, prioritizing Charge Identities, and the ally with the lowest HP percentage. S2 and S3 also trigger Tremor Burst."
+    },
+    "data:examples:1:support:0:note": {
+      "sourceHash": "af62d1f88617ff2fb82ede7887257a30bb559c3c02615d77d4734fda548d4af1",
+      "text": "The support passive has a 25% chance to add 1 Tremor Burst when the first deployed ally bursts Tremor with a skill, once per turn. Lacks the Charge keyword, but fits this burst-focused variant."
+    },
+    "data:examples:1:egos:0:note": {
+      "sourceHash": "4f6178186705b862f29f9b67491b8fbe2e8161ea21efa46c63e81120e3c2c728",
+      "text": "Distributes Charge Count to the user and all allies at low cost. Preservation increases in the same way."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "2c4211e15beb32490c1032288fc7ce0b7e7e05be69f30051b43b1342e7a2ddaf",
+      "text": "Le Noir package"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "e249e20a2769ff8d173178d3932e00865979e820bbd78c2dce5e4c97072cd205",
+      "text": "Using both Le Noir Identities nearly doubles their Charge Potency buildup through follow-ups each turn. Alteration Shop Rodion also has strong synergy with Le Noir, distributing Shield to hold the line."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "bbb6f48c2996ba9fece9794fb91d8c1f671b11d1a84d1ceef0c5701d2e320073",
+      "text": "Sanctum of Conservation gives all allies Shield. Does not require close Charge Count management."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "0304cd4a8a2265269a8703f69557dc25c8f20a0cefcacf54398162e163f66460",
+      "text": "Develops her coat before entering an offensive form to deal damage."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "d9e156a0bd28d34cbd571971d8afaa11c4d9b11677c3d3bdaa296d279e17b585",
+      "text": "A buffer that gives allies Charge Count, Offense Level Up, and Shield through S1. Put a strong Charge Identity first."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "fe3c8bc4a7237f45d2c1421a843f442a5ab874f4f23abfee74d28397c660c134",
+      "text": "Ring pair (Nursefather and Apprentice)"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "d2f88a38676fcb87d12154f47b24688c260490b145dcc252387aaa7574749c83",
+      "text": "Both are Charge Identities using Bleed and are strong modern Charge attackers. If building around these 2, a Bleed team better realizes their strengths."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "70d23fa79427374f9238108f6bd5c1ba9cd1950e87615cbf2f5635eb92ec7933",
+      "text": "Develops Corpus Ingredient to enhance Bleed application and also attacks through area S3."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "4b51be344971fd5efc1101c0fd8a86077670b99dd3d7dae9f7f45daeca96f2b6",
+      "text": "Maintains Bleed Count and activates abilities by taking enemy attacks."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "3a61690558d7243e986a92e2b4c878a20e8e0748ecb68d30b07623dc4df6bb9f",
+      "text": "Red Eyes and Penitence enhance her skills, while enhanced S3 deals heavy damage and heals. Strong across the board and easy to include in Envy Resonance and Fluid Sac setups."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "6d6c133c5bb7d4ef9da6bd02447225d9bceb2b909c3e1f682b6309059c004415",
+      "text": "Mainly uses S2, then strikes hard with S3 once Charge builds. Can deliver high damage immediately and exceeds Red Eyes & Penitence in damage output."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "a0925af739227999ef984d89c61cdf66e6c9c7fee941440a2f214bc3c42ada35",
+      "text": "A Blunt attacker whose Charge Potency grows whenever she spends Count. Extremely high damage, but among the frailest Identities."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "6d6c87ed81ef764f09ee669a08f7e9a00832a7d8ea30a13023c893f2eb237fdd",
+      "text": "Deals heavy damage and Sinking in Despair. Fully capable as a Charge attacker."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "a89d89ead12532a9141d6da44e2c2cc52bfcc74f78a431192de585f42020a181",
+      "text": "A Bleed attacker that develops Corpus Ingredient to improve application. S3 is an area attack."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "194594d204f20b7ab89e8031cbd2870144ea687e4161bde6b669feb2733ac526",
+      "text": "A Charge and Bleed Identity that excels at maintaining Bleed Count."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "91fa853243501492f397d0d03c745edeb8ca3f623267827ac8ac5610c8d482e6",
+      "text": "A tank-oriented buffer that grants allies Charge Count, Offense Level Up, and Shield. Put a strong Charge Identity first."
+    },
+    "data:flex:7:note": {
+      "sourceHash": "118fd7ad1f9b032d47ec741fd160eb6586a03408cbe8bbee1405d8339dca523e",
+      "text": "Distributes Shield to all allies to hold the line. Can also support lineups with only a few Charge Identities."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "b8deb48e8922b2b668ec82b3460e4631fb2ca06c21cb736dbdd3a35b20c2e857",
+      "text": "A Rupture-oriented Identity that uses Charge to apply heavy Rupture."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "47910f1b04259b7f4719660e443dac37dd5e9baf17b280befa94a4b9b9177fea",
+      "text": "Builds Charge through S1 and S2, then uses the 5-Coin S3 for clashes and damage. Charge mismanagement has severe consequences."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "2d15877c9a220678e98827e7c7c5c79723df9b0df22996cf4cce9577b8521ce6",
+      "text": "A Blunt attacker for long fights that grows stronger with Charge Potency. A very weak opening makes him better for experienced players."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "b8808e6c7e426c5270f28bd337410f5ee751b3f2cf2b0695c12ad1438b1c9b0b",
+      "text": "Charge Potency grows with each expenditure of Charge Count. Photoelectricity also supplies allies' Count."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "0857bcb3c2f7bb79d34c49bc6bbe8361ba41df74f77496fcc044d09f02bb9524",
+      "text": "A debuffer that spends Charge to inflict Bind, Attack Power Down, and Paralyze. Strong against single bosses."
+    },
+    "data:alternatives:5:note": {
+      "sourceHash": "5ffca7d507b51437bf6245303062b43aac276aa17178c6505af8c755a783deda",
+      "text": "Every skill applies substantial Tremor Potency, increasing Conservation burst damage in the Le Noir variant. Poor at adding Tremor Count. An older 00 Identity with low damage and durability."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "e4cd93fc5b91fb743c67cee02d973cdbb90d1f03a28331daf5a57e786afb7676",
+      "text": "Distributes Charge Count to the user and all allies at low cost, completing the team's setup in one use. The core E.G.O for this team."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "af7cf65150c2327962dd88bbe277c851b7242dc2db2d062856c12ebdcad1ff4c",
+      "text": "Restores HP and SP to all allies. Surplus Gloom and Envy support repeated use to outlast enemies. Secure Lust as well."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "61a57ae85b29c5299b93fa562440c36c850f3830133700da5db4230c55c7a619",
+      "text": "Applies Spark Discharge to enemies, distributing Charge to allies that attack them."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "54fd5c530f495ecb80d90576309d4db38d279c11c8be68e737dc1e335183fd13",
+      "text": "A large area attack that gains Attack Weight through Charge and grants allies Magical Girl's Chant and healing. Particularly compatible with the In the Name of Love and Hate Identity."
+    },
+    "data:egos:4:note": {
+      "sourceHash": "353a590c10a4727b1c674554fe0aa6b93f2c79e3685075e30752ad4bcd58ba40",
+      "text": "Heals allies while inflicting Bleed, Curse, and Nails on enemies."
+    },
+    "data:egos:5:note": {
+      "sourceHash": "1c7027c511dba4fcf2e8b34602b3b5600e14c2a0380fc05fb80ba0e88cc930bd",
+      "text": "An area attack that trades HP to replenish Charge, then immediately spends it for more damage."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "69df88f730bde4ac26210cf05d73e6988842ddb40f9e6ca880b7176ff3efbd2b",
+      "text": "Deploy Charge Identities and meet their enhancement conditions through Charge supplied by [AEDD](persona:1215) Gregor or Don Quixote's [Telepole](ego:0303). Choose the W Corp. and AEDD variant built around Charge users, or the Le Noir variant that repeatedly bursts Tremor through the Le Noir pair."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "aeec1fa8b20eac6b8e03889f1c11ea0de84025b20ed8befd907722c69b850dc0",
+      "text": "**W Corp. and AEDD**: Suited to long Regular Encounters, sweeping successive enemies once Charge builds. Early clashes are weak, and single-boss damage is modest."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "d6ef7c73bc2ddeb7b7cdd0adcd7e911fd6325cd40ab23b9a2dc4c0d2d23ce551",
+      "text": "**Le Noir**: Choose this if you have both [Haute Couture:: Le Noir Brand Manager](persona:0315) Don Quixote and [Haute Couture:: Le Noir Footwear Hall](persona:0416) Ryōshū. The Brand Manager maintains positive Count generation for both Preservation and Tremor, reducing management demands. Conservation bursts from Le Noir Identities do not reduce Tremor Count, allowing repeated bursts even against a single boss. Sanctum of Conservation and Shield also provide high durability."
+    },
+    "guide:2:0:0": {
+      "sourceHash": "64de292e1baf3b81d6e8b8915288596b3cd3fe6ec618d06d1ffb732dfcfb8427",
+      "text": "Each Identity's enhancement conditions rely on its own Charge, making the team consistently strong once Charge has built."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "935a1494cd3274834b2e3b4379fa8c6acac0b5bc1459eec41da693c699d7e042",
+      "text": "Gloom and Envy resources accumulate readily, allowing repeated [Fluid Sac](ego:0202) uses to outlast enemies through healing."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "1206f862604ca6d8d28d3ec443926e5aadf9da86831829f196b320d44fda57c2",
+      "text": "[W Corp. L3 Cleanup Captain](persona:1110)'s Charge Barrier can strengthen W Corp. Identities together."
+    },
+    "guide:3:0:0": {
+      "sourceHash": "fa603b7f1222330db926363652a16ebc4489fd0b052ffe6f2c1f2ad73e916359",
+      "text": "AEDD Gregor gives Charge Count to allies earlier in deployment order. Place him fourth, or third."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "8f76d3771c4f12efa9f1afeb17a2a3dbd001b318ea776449a0d663c5f4b54f19",
+      "text": "Prioritize activating AEDD Gregor's passive, then [In the Name of Love and Hate](persona:0312) Don Quixote's. First gather 2 Gloom and 2 Envy, then aim for 4 Envy Resonance."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "53eb50e316bf2572ce95c8ee34d7bcaf6eb99d00494f261fee622bae88c834bc",
+      "text": "Telepole, [In the Name of Love and Hate](ego:0309), and [AEDD](ego:1204) have strong E.G.O passives, so use them when an opportunity arises."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "5891020571f93763fcf3bfc134cb07f8c4258f55d8c46a7162686aedcab2ec6a",
+      "text": "Include a Lust-generating Identity to fuel Fluid Sac."
+    },
+    "guide:4:heading": {
+      "sourceHash": "3bb5d136fefa8a349bbcc427bd3b1357ac6f491bd5f2f84a3801e385be590f54",
+      "text": "Le Noir rotation"
+    },
+    "guide:4:0:0": {
+      "sourceHash": "f77f8ee9c50782fc79813e2c6a5e86deb18e004dbd1d025b6d22ec7985a92120",
+      "text": "The Brand Manager makes an unopposed Judgment! attack before the Footwear Hall attacks, once per turn. This follow-up nearly doubles Preservation Potency buildup, so deploy both together."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "1f52f4d2882e8d1a5b1707ce624bd3dbde4765e347531d6ef441d622a6e6188d",
+      "text": "Open with the Brand Manager's counter or S3 to gain Sanctum of Conservation. It lasts 3 turns, so regularly use S3 or counter to keep it active."
+    },
+    "guide:4:0:2": {
+      "sourceHash": "b6c49041dd111409a04cbb6b6aa98cd3abd292b56977754f0aa76695638522eb",
+      "text": "[Alteration Shop](persona:0917) Rodion mainly supports the earliest ally, prioritizing Charge Identities. Put the Brand Manager first."
+    },
+    "guide:4:0:3": {
+      "sourceHash": "c8bbf125cfe9831ee73df84237edc3fa13d73d3dd126055a2a9964990a3e6a6f",
+      "text": "Place AEDD Gregor fourth to supply Charge Count to the first 3 allies. Preservation increases like Charge."
+    },
+    "guide:4:0:4": {
+      "sourceHash": "2cd5770971c3e4292b8d402d2662a9eaf92a2119650041698f237ad0ff8b4856",
+      "text": "Benched [District 20 Yurodivy](persona:0609) Hong Lu has a 25% chance to add 1 Tremor Burst to the first deployed ally's burst."
+    },
+    "guide:5:0:0": {
+      "sourceHash": "b02a0457fd51f1d846fa975fbac87306d15906af9c21c4ff6f54e24945126e5f",
+      "text": "The W Corp. and AEDD variant's main weakness is its opening. Without Charge, clashes are easy to lose; losing also prevents Charge gains, creating a vicious cycle."
+    },
+    "guide:5:0:1": {
+      "sourceHash": "c9965a8c8c0c7d877e7ed6f44e9f6afca5878fd24fffa0ced325b0df3efad66d",
+      "text": "Many members have low durability, so play to avoid taking hits."
+    },
+    "guide:5:0:2": {
+      "sourceHash": "7bf99873bf0d6dda041a822616a9de46a23e8032d62815f5321f23e6addeed6e",
+      "text": "Constantly manage each Identity's Charge Count. W Corp. L3 Cleanup Agent Don Quixote and the Reindeer Identities have severe penalties for mismanagement; leave them out while learning if needed."
+    },
+    "guide:5:0:3": {
+      "sourceHash": "406d1c4b2aed9ac90596030d70dadecbf423475567207512922f38637bb1741e",
+      "text": "The W Corp. and AEDD variant has modest damage against single bosses."
+    },
+    "guide:5:0:4": {
+      "sourceHash": "a962b9505e7b318b0b2db8f96e4a4f013bda3aa69b980e021e2f60ff75b4b3a0",
+      "text": "Without both Le Noir Identities, Judgment! does not trigger and Preservation Potency builds more slowly."
+    }
+  },
+  "metadata": {
+    "title": "Charge Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Charge team guide: Charge Identities powered by Charge from AEDD Gregor and Don Quixote's Telepole. Covers the W Corp. and AEDD variant and the Le Noir variant that stacks Tremor Bursts, with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

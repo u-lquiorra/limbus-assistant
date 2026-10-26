@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0307.md",
+  "code": "0307",
+  "messages": {
+    "全コイン破壊不能の7枠広域(解析Ⅳ)で、出血と血餐を溜めた血鬼編成が一気に大ダメージを狙う色欲貫通E.G.O。": "A Lust Pierce E.G.O that hits up to 7 targets with all-Unbreakable Coins (Threadspin Ⅳ), letting a Bloodfiend team that has built up Bleed and Bloodfeast go for massive damage at once.",
+    "4コインの破壊不能コイン: 基本威力3・コイン威力+3の4コインで、使用中は体力が1未満にならない。マッチ威力は低いが、コインは割られない。": "**4 Unbreakable Coins**: 4 Coins with 3 Base Power and +3 Coin Power, and her HP cannot drop below 1 during use. Its Clash Power is low, but its Coins cannot be broken.",
+    "血餐による強化: 共用累積消耗血餐が増えるほど各コインのダメージ量が上がる。2枚目以降は血餐が100・200・300以上で働き、上限は解析で拡大する。自分の累積消耗血餐100につきマッチ威力+1(上限は解析Ⅳで5)。": "**Bloodfeast bonuses**: The more Bloodfeast Consumed (shared) increases, the more damage each Coin deals. From the second Coin on, the bonuses kick in at 100, 200, and 300 or more Bloodfeast, and Threadspin raises the caps. +1 Clash Power per 100 of her own Bloodfeast Consumed, up to 5 at Threadspin Ⅳ.",
+    "出血の活用: 対象の出血が10以上で、コイン威力が上がる(解析Ⅲ以降)。血餐が少ないうちは的中ごとに出血1を付与する。": "**Using Bleed**: Coin Power rises when the target has at least 10 Bleed (Threadspin Ⅲ and up). While Bloodfeast is low, each hit inflicts 1 Bleed.",
+    "渇望する薔薇: 4枚目のコインでマッチ勝利後に的中すると、最大色欲完全共鳴数に応じて付与される(最大3、解析Ⅳは4)。出血威力が10以上だと、ターン終了時に色欲ダメージを受ける。": "**Polydipsic Rose**: Inflicted when the fourth Coin hits after a Clash Win, based on the highest Lust Absolute Resonance, up to 3 (4 at Threadspin Ⅳ). With 10 or more Bleed Potency, the target takes Lust damage at Turn End.",
+    "パッシブ「高くそびえる紅い花」: 出血のダメージが10以上出るたび精神力が1回復する(1ターン最大10)。": "**Passive — Spiring Crimson Blossom**: Restores 1 SP each time Bleed deals 10 or more damage, up to 10 per turn.",
+    "血餐と出血を溜めてから撃つ。条件は重いが、鏡ダンジョンなど強化が乗りやすい場面で最も出力が出ると考えられる。": "Use it after building Bloodfeast and Bleed. The requirements are steep, but it likely produces the most output where buffs stack easily, such as in Mirror Dungeons.",
+    "攻撃後の3ターン、毎ターン終了時に精神力が10減るので、精神力を確認して使う。": "For 3 turns after the attack, she loses 10 SP at each Turn End, so check her SP before using it.",
+    "侵蝕スキルは自分が出血20を得て発動し、血餐によるダメージ量の強化が主体。": "The Corrosion skill activates with her gaining 20 Bleed, and its main strength is the Bloodfeast-based damage bonus.",
+    "必要資源は色欲5・暴食3・傲慢2・嫉妬2の計12で重い。精神消耗は覚醒15。": "It requires a heavy 12 resources: 5 Lust, 3 Gluttony, 2 Pride, and 2 Envy. Awakening Sanity cost is 15.",
+    "Ⅱ: パッシブが解放される。": "**Ⅱ**: Unlocks the passive.",
+    "Ⅲ: 血餐と出血による強化の上限が引き上げられる。": "**Ⅲ**: Raises the caps on the Bloodfeast and Bleed bonuses.",
+    "Ⅳ: 上限がさらに上がり、加重値が7になる。単体相手なら加重値5のⅢで足りる場面もあると考えられる。": "**Ⅳ**: Raises the caps further, and Attack Weight becomes 7. Against a single enemy, Ⅲ with 5 Attack Weight is likely enough in some cases.",
+    "ラ・マンチャランド室長: 血餐を扱う人格で、出血を付与し、色欲のスキルで必要資源も出せる。": "**[The Manager of La Manchaland](persona:0310)**: A Bloodfeast Identity who inflicts Bleed and supplies the required Lust with her Lust skills.",
+    "LCB囚人: 刺す(色欲)・正義のため!(暴食)・束ね刺し(嫉妬)で必要資源を出せ、後ろ2つは出血も付与する。": "**[LCB Sinner](persona:0301)**: Joust (Lust), For Justice! (Gluttony), and Galloping Tilt (Envy) supply the required affinities, and the latter two also inflict Bleed."
+  }
+}

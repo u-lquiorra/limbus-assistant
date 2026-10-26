@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1106.md",
+  "code": "1106",
+  "messages": {
+    "振動を付けて振動-亀裂に変換し振動爆発で混乱区間を大きく進める、傲慢・怠惰共鳴で加重値が最大7になる打撃広域E.G.O。": "A multi-target Blunt E.G.O that inflicts Tremor, converts it into Tremor - Fracture, and advances Stagger Thresholds greatly through Tremor Burst, with Attack Weight reaching up to 7 through Pride or Sloth Resonance.",
+    "加重値の増加: 攻撃加重値5に、傲慢または怠惰の最も高い共鳴数-2を足す(最大+2)。振動と無関係に広域として使える。": "**Attack Weight increase**: Adds (highest Pride or Sloth Resonance − 2) to its 5 Attack Weight, up to +2. It works as a multi-target attack regardless of Tremor.",
+    "振動の連鎖: Ⅰコインが的中時に振動4を付与し(解析Ⅲは5、Ⅳは6)、振動-亀裂へ振幅変換してから振動爆発を起こす。": "**Tremor chain**: Coin Ⅰ inflicts 4 Tremor on hit (5 at Threadspin Ⅲ, 6 at Ⅳ), performs Amplitude Conversion into Tremor - Fracture, then triggers Tremor Burst.",
+    "振動-亀裂と混乱: 亀裂状態の敵は、混乱したとき振動の威力と回数の合計が20以上なら混乱段階が1進む。振動爆発のダメージを受けると、亀裂の威力分だけ混乱区間も進む。": "**Tremor - Fracture and Stagger**: When an enemy with Fracture is staggered, if its combined Tremor Potency and Count is 20 or more, its Stagger level advances by 1. When it takes Tremor Burst damage, its Stagger Threshold also advances by the Fracture Potency.",
+    "混乱区間の前進: 解析Ⅲで振動爆発時の前進効果が50%、Ⅳで100%増える。": "**Stagger Threshold shift**: At Threadspin Ⅲ, the shift on Tremor Burst increases by 50%, and at Ⅳ by 100%.",
+    "パッシブ「盛大な歓待」: 攻撃終了時に対象が混乱か死亡なら、傲慢資源+1とランダムな他属性の資源+1を得る(1ターン最大3回)。": "**Passive — Grand Welcome**: If the target is staggered or dead at the end of the attack, gains +1 Pride resource and +1 resource of a random other Sin (up to 3 times per turn).",
+    "先に他の人格で振動を溜めた敵へ撃つと混乱区間を大きく動かせる。振動が無い状態でも使える。": "Firing it at enemies on which other Identities have already built Tremor moves their Stagger Threshold a lot. It also works without Tremor.",
+    "攻撃後3ターン、ターン終了時に精神力が減る(10、解析Ⅳは8)ので、精神力に余裕のあるときに使う。": "For 3 turns after the attack, she loses SP at each Turn End (10, 8 at Threadspin Ⅳ), so use it when she has SP to spare.",
+    "必要資源は憤怒1・色欲1・怠惰4・傲慢4。侵蝕スキルは威力が上がり、振動回数の増加が付き、裏面的中時の追加の振動爆発は解析Ⅲから付く。": "It requires 1 Wrath, 1 Lust, 4 Sloth, and 4 Pride. The Corrosion skill has higher power and a Tremor Count increase, and the extra Tremor Burst on Tails Hit is added from Threadspin Ⅲ.",
+    "Ⅱ: 「盛大な歓待」が解放される。振動を使わない編成ならここで止めてもよいと考えられる。": "**Ⅱ**: Unlocks Grand Welcome. In teams that do not use Tremor, stopping here is likely fine.",
+    "Ⅲ: 振動付与が5、精神力の減少が9になり、振動爆発の前進効果が50%増える。": "**Ⅲ**: Tremor infliction becomes 5, SP loss 9, and the Tremor Burst shift increases by 50%.",
+    "Ⅳ: 振動付与が6、精神力の減少が8、前進効果が100%増える。": "**Ⅳ**: Tremor infliction becomes 6, SP loss 8, and the shift increases by 100%.",
+    "奥歯事務所フィクサー: S1が憤怒、S2が色欲、S3と守備が怠惰で必要資源を3種出せ、振動爆発を扱う。": "**[Molar Office Fixer](persona:1105)**: Her S1 is Wrath, S2 Lust, and S3 and Defense skill Sloth, supplying three of the required affinities, and she uses Tremor Burst.",
+    "T社3級強制徴収職職員: 振動を付与し、S2で振動-鎖への振幅変換と振動爆発を行う人格で、S1が傲慢・S2が怠惰。": "**[T Corp. Class 3 VDCU Staff](persona:1113)**: A Tremor-inflicting Identity whose S2 performs Amplitude Conversion into Tremor - Chain and Tremor Burst; her S1 is Pride and S2 Sloth."
+  }
+}

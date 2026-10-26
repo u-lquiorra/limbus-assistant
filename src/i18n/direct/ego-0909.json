@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0909.md",
+  "code": "0909",
+  "messages": {
+    "少ない資源で味方を回復しつつ、火傷と出血も撒ける、色欲共鳴を活かす打撃広域の回復E.G.O。": "A multi-target Blunt healing E.G.O that makes use of Lust Resonance, healing allies for few resources while also spreading Burn and Bleed.",
+    "回復と緋色の蛾: 攻撃後、現体力の比率が最も低い味方2名を最大値の5%(解析Ⅲは8%、Ⅳは10%)回復し、緋色の蛾2を付与する。色欲共鳴数-1だけ回復対象が増える(最大2名)。蛾はターン終了時に体力と精神力を回復する。": "**Healing and Scarlet Moth**: After the attack, heals the 2 allies with the lowest current HP ratio by 5% of max HP (8% at Threadspin Ⅲ, 10% at Ⅳ) and gives them 2 Scarlet Moth. The number of healing targets increases by (Lust Resonance − 1), up to 2 more. Moths restore HP and SP at Turn End.",
+    "精神力回復: 解析Ⅲから、回復対象が色欲スキルを装着していれば精神力も回復する(Ⅲは3、Ⅳは6)。": "**SP recovery**: From Threadspin Ⅲ, if the healed ally has a Lust skill equipped, they also recover SP (3 at Ⅲ, 6 at Ⅳ).",
+    "火傷・出血: 的中時に火傷2・出血2(解析Ⅲは3)を付与し、解析Ⅳでは次のターンの憤怒脆弱1・色欲脆弱1も付く。": "**Burn and Bleed**: Inflicts 2 Burn and 2 Bleed on hit (3 at Threadspin Ⅲ), and at Threadspin Ⅳ also 1 Wrath Fragility and 1 Lust Fragility next turn.",
+    "パッシブ「蛾と蝶の違い」: 最左端の基本攻撃スキルが憤怒か色欲なら、与ダメージ量の30%(最大30)の罪悪属性ダメージを追加で与える。": "**Passive — What Distinguishes Moths from Butterflies**: If her leftmost basic attack skill is Wrath or Lust, it deals additional Sin damage equal to 30% of the damage dealt (up to 30).",
+    "侵蝕スキル: 覚醒のような直接回復は無く、火傷と出血の合計でダメージ量が伸びる攻撃寄り。ランダムな味方に緋色の蛾を付与し、敵味方識別不可で味方に当たり得る。": "**Corrosion skill**: It has no direct healing like Awakening and leans offensive, with damage that grows with combined Burn and Bleed. It gives Scarlet Moth to random allies, cannot distinguish friend from foe, and can hit allies.",
+    "色欲スキルを複数並べて回復人数を増やす。": "Line up several Lust skills to increase the number of healing targets.",
+    "最左端に憤怒か色欲の基本攻撃スキルを置き、パッシブを活かす。": "Place a Wrath or Lust basic attack skill at the far left to make use of the passive.",
+    "必要資源は憤怒2・色欲3と軽く、精神消耗は20。火傷・出血編成の回復役として組み込みやすい。": "It requires a light 2 Wrath and 3 Lust, with a Sanity cost of 20. Easy to work into Burn and Bleed teams as a healer.",
+    "Ⅱ: 「蛾と蝶の違い」が解放される。": "**Ⅱ**: Unlocks What Distinguishes Moths from Butterflies.",
+    "Ⅲ: 威力が微増し、回復8%、火傷・出血3、色欲スキル持ちへの精神力回復が加わる。回復目当てなら最低でもここまで。": "**Ⅲ**: Slightly raises power, with 8% healing, 3 Burn and Bleed, and SP recovery for allies with Lust skills. If healing is the goal, take it at least this far.",
+    "Ⅳ: 回復10%、精神力回復6、侵蝕の火力増加、憤怒脆弱・色欲脆弱の付与が加わる。": "**Ⅳ**: Adds 10% healing, 6 SP recovery, more damage on Corrosion, and Wrath and Lust Fragility infliction.",
+    "薬指野獣派ドーセント: S2・S3が出血を付与し、色欲(S3)の資源も出せる。出血・色欲の編成と噛み合う。": "**[The Ring Fauvist Docent](persona:0915)**: S2 and S3 inflict Bleed, and she supplies Lust (S3) resources. She fits Bleed and Lust teams.",
+    "蜘蛛の巣親指の親方: 憤怒スキルで火傷を付与でき、このE.G.Oの憤怒脆弱の恩恵も受けると考えられる。": "**[The House of Spiders: The Thumb Nursefather](persona:0916)**: Her Wrath skills can inflict Burn, and she likely benefits from this E.G.O's Wrath Fragility."
+  }
+}

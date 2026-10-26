@@ -1,0 +1,788 @@
+{
+  "kind": "boss-copy",
+  "id": "nelly",
+  "source": "src/data/bosses/nelly.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "バトラーの目印",
+          "en": "Butler's Mark",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBb"
+        },
+        {
+          "ja": "捕縛術",
+          "en": "Binding Technique",
+          "file": "Bufs-a1c6p3.json",
+          "id": "AaCfPcBc"
+        },
+        {
+          "ja": "ネリー",
+          "en": "Nelly",
+          "file": "Enemies-a1c6p3.json",
+          "id": "8171"
+        },
+        {
+          "ja": "優位",
+          "en": "Superiority",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817101"
+        },
+        {
+          "ja": "招かざる客",
+          "en": "The Uninvited",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817102"
+        },
+        {
+          "ja": "応接道第九式 結縛",
+          "en": "Receiving Arts 9: Binding",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817103"
+        },
+        {
+          "ja": "捕縛解除",
+          "en": "Release From Binds",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "817104"
+        },
+        {
+          "ja": "招かざる客の目印",
+          "en": "Mark Interloper",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817101"
+        },
+        {
+          "ja": "応接道一式 狩り",
+          "en": "Receiving Arts 1: The Hunt",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817102"
+        },
+        {
+          "ja": "応接道一逆式 狩り",
+          "en": "Reverse Receiving Arts 1: The Hunt",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817103"
+        },
+        {
+          "ja": "招かざる客の威圧",
+          "en": "Overwhelm Interloper",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817104"
+        },
+        {
+          "ja": "応接道第二式 崩壊",
+          "en": "Receiving Arts 2: Collapse",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817105"
+        },
+        {
+          "ja": "応接道第七式 捕捉",
+          "en": "Receiving Arts 7: Capture",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817106"
+        },
+        {
+          "ja": "招かざる客の捕縛",
+          "en": "Interloper Apprehension",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817107"
+        },
+        {
+          "ja": "応接道第三式 結束",
+          "en": "Receiving Arts 3: Binding",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817108"
+        },
+        {
+          "ja": "回避",
+          "en": "Evade",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817109"
+        },
+        {
+          "ja": "応接道第九式 瓦解",
+          "en": "Receiving Arts 9: Dissolution",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817110"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999998"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999999"
+        }
+      ],
+      "note": "Guide spacing and ellipsis variants are matched to paired game records. Withstand, Heart of Vengeance, and The Uninvited are scoped to avoid overriding names in other contexts."
+    }
+  },
+  "scopedTerms": [
+    "復讐心",
+    "耐え抜く",
+    "招かざる客"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "e91d791610b7761df744ef3d015af89f2bcd321bd98351f538f7db754afd9d23",
+      "text": "Nelly"
+    },
+    "shortName": {
+      "sourceHash": "e91d791610b7761df744ef3d015af89f2bcd321bd98351f538f7db754afd9d23",
+      "text": "Nelly"
+    },
+    "stageName": {
+      "sourceHash": "93d4fb26b58375e25588511338887d9036fe30b116999867619128d752e0a14d",
+      "text": "Stolen Life"
+    },
+    "lead": {
+      "sourceHash": "edbd57b3c204d31ef62e1395a4244cf370ad52cb9e62074995e906cad2b35472",
+      "text": "Redirect enhanced attacks away from marked Sinners. Later, the captured Sinner must win the freeing Clash. Similar skill names can require different defenders."
+    },
+    "statNote": {
+      "sourceHash": "deb613b145e26fd67471586cceb837b9df884c8d37fb6967cad0984a11aab6b4",
+      "text": "The 6-45 story version, separate from Mirror Dungeon and other variants. Lists Stagger Thresholds alongside the action changes after the first Stagger."
+    },
+    "skillNote": {
+      "sourceHash": "1016868668600fbe5526b7a9f899913ad98d0612440acc11fbc518dbcea21154",
+      "text": "Values are before conditional bonuses and Coin reuse. Interloper Apprehension is listed as 1 Coin, but its effects are numbered II and III in the source; those effects are shown without Coin numbers. The Binding passive says “Combat End”, but check Binding Technique applications each turn in the latter half."
+    },
+    "priorities.0": {
+      "sourceHash": "9bae5851919f462a11127464d950d662638395fdd3f1e343d935d8665aaa96f1",
+      "text": "Have a fast, unmarked Sinner intercept attacks strengthened against marked targets. Offset Evade with a Defense Skill."
+    },
+    "priorities.1": {
+      "sourceHash": "c4e1ab5d8e667ab7912eea02ab4b87dd52738894b39e627afb2ca61e0141a71e",
+      "text": "In the latter half, the bound Sinner must win against Interloper Apprehension to remove the bind. Assign Receiving Arts 3: Binding to an unbound Sinner instead."
+    },
+    "priorities.2": {
+      "sourceHash": "4614fe50ff01db8e0966c5bf2860bf7fb31500b2767f1018cda8ebc9d9cb0d4a",
+      "text": "Do not let Binding Technique reach 3. Nelly's Stagger only removes values of 2 or less."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "40d19d83c1de89bfac5c3fe468705293d37e83260ad8616d01788f2ef9cd3f2e",
+      "text": "Suddenly losing clashes you would normally win"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "64e27a188e7b649afa4e4fd59757f1759d3a13fbeff7903193cac56f9c0d7c8b",
+      "text": "Against a target with Butler's Mark, Collapse gains +10 Clash Power and Capture gains +8. Check bonuses against the current target, not just the listed base range."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "dc7d9ccfc620fca9453923f1260794d5b258dbb74febf53a8a0cb6f83ab8a122",
+      "text": "Unable to free a bound ally"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "91ed011db87ce96920b88c3e08306e0b30a6f7cb328857c88fc80483900602f2",
+      "text": "The bound Sinner must win the clash against Interloper Apprehension. Another ally winning does not remove that Sinner's bind."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "c9c7940f40a2368099790ada6beae16afd501db8145bf7921414cf7eade5ab7d",
+      "text": "Trying to remove the bind made it worse"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "257bbe782c322d88b4536b690d056128e797ac54275814744b69d99e4bfe9d55",
+      "text": "Receiving Arts 3: Binding is a different skill that increases Binding Technique when used against a bound target. Assign it to an unbound Sinner."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "661f09bd69d4d96ef8b271b855b92da071acce0be7fa1dbd546c16c1e92a65f4",
+      "text": "Extra enemy actions become overwhelming"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "1c5f245ffebef58311986ad3709341ab067616caf72abe41d91ced9f4f9f9d0c",
+      "text": "Successful evades add an action slot next turn. Offset Evade with a Defense Skill to also prevent the enemy's SP recovery."
+    },
+    "units.0.name": {
+      "sourceHash": "e91d791610b7761df744ef3d015af89f2bcd321bd98351f538f7db754afd9d23",
+      "text": "Nelly"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "d1ada6d78287050b98ca137609eaf47b816bf7842c2ddaeabec6852e46ca7151",
+      "text": "75% / 20% / 0% (1470 / 392 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "324dc6ce4803ee3b672f452c4982561d813d3766b73b65fd81cde2aed28ac9b5",
+      "text": "An event and action changes follow the first Stagger. Prioritize removing Binding Technique in the latter half."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "e4cfce57f573940e22ad18e8a0bf0d16a3f52ebcae6e5b980f834f70aadbdb75",
+      "text": "Weak to Slash; takes half damage from Pierce. Build around developed Slash attackers."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "d1e41eeb8ed6bd3d3bbeaf6da798a846b8fbe151ed9e2034b1e4df8958ecc972",
+      "text": "Prepare Slash damage and high-Power skills to remove binds"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4d3cab2de410ed4ddefc71e6da3197f1d1f5c1699415d606e90ec87df5058fae",
+      "text": "Bring 6 Sinners, aiming for Lv.45 and Uptie III or higher on your main team. Slash is effective; relying only on Pierce damage can prolong the fight."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "ca56bc08216cb1285d285ad42c08dfa4b05c54508486675db26a1961fcbe7db2",
+      "text": "The bound Sinner must win, so do not concentrate all high-Power skills on one Sinner. Check each Sinner's E.G.O and required resources."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "3089399633930ef96a668c38365c060354c2193021eb7a4ad81c9fe40377460b",
+      "text": "Bring Defense Skills to offset Evade and fast Sinners who can intercept attacks aimed at marked allies."
+    },
+    "phases.1.timing": {
+      "sourceHash": "015c8852ba6136594cedd2f39b1a08308f7d5a22696e98ab1ae75fc6a386067d",
+      "text": "Until the first Stagger"
+    },
+    "phases.1.title": {
+      "sourceHash": "ab58aa911ecab560d613dc76ded8debe2b04aeb68b18784f2e61ba29c5a4fb53",
+      "text": "Redirect strengthened attacks to unmarked Sinners"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "ea4149fa6f2b028a62b686fd6d7a74dfe464b40736e5b9bf2ad0a717dcf58282",
+      "text": "Mark Interloper applies its mark On Use. If it lands, adjust the targets of subsequent attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "4a08a89fb061fe1714141d64eac0c3713f85bff11263a69ad7b9a1db126cd732",
+      "text": "Collapse and Capture gain substantial Power against marked targets. Have a fast, unmarked Sinner intercept them, and focus other Slash attacks on Nelly."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "a822c5f13a970edbd28b1690d0175dba99d8a6287c47fc1956315c23bd154fd6",
+      "text": "Offset Evade with a Defense Skill. Repeated successful evades put you behind in both SP and action slots."
+    },
+    "phases.2.timing": {
+      "sourceHash": "7d1674756ccf02d14bcca015b1cb70e4f42e923115a462a9a77c5fce9dd3519e",
+      "text": "After the end of the first Stagger turn"
+    },
+    "phases.2.title": {
+      "sourceHash": "e0c099795cd208043bb2f03c0377226327c1c3a97ff71b13631ef1a5261c0b8b",
+      "text": "Complete the event and switch to handling binds"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "6a5a757048d74b562d4aec6398bece698fc162bd97717267a8fc8ef0b636aa7c",
+      "text": "The event uses a Pride check. The source lists Favored 17 (displayed as 21), with a +10 modifier for Heathcliff. Choose the participant using the success chance on screen."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "152a133ef2daf7d572662521f04e7cfaf0e75f7451ed91e71ffad3c1e3ffc802",
+      "text": "Success grants the chosen Sinner 2 Damage Up; failure gives 2 Fragile. Watch the failed participant's next incoming hit."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4ad3577ce8a7d8940671d455d0f38449a6ebea42d22fdd98d62c5ba517f15188",
+      "text": "From this point, check who has Binding Technique and save a high-Power skill for that Sinner to remove it."
+    },
+    "phases.3.timing": {
+      "sourceHash": "63a4bf717b7262a907d7c09de285f920c2a789692b0b77a8562d65d37465dcd7",
+      "text": "Latter half / after Binding Technique is applied"
+    },
+    "phases.3.title": {
+      "sourceHash": "309cc9b00025a89f561f453f4a763264b9549e7b13443f2a7e888bfbd0c22d52",
+      "text": "Let the bound Sinner remove the bind; assign Binding to someone else"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "f7be45982bd53cc951f7664b0ade9dcd3a64163b71f74be166b7d2a742d9dc7e",
+      "text": "The bound Sinner must win against Interloper Apprehension to remove the bind. Even a slow Sinner can clash if the attack originally targets them."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "6bc71492d994f09481555b31b69fe2c60bfcbc90a2a3b08318b0436c03f38675",
+      "text": "Conversely, Receiving Arts 3: Binding increases the value when used against a bound Sinner. Have a fast, unbound Sinner intercept it."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "101d49227a79b35954b6bfc195b6ada0b3103ebcdfbaa9d79c267e164f6d7967",
+      "text": "Binding Technique increases at Turn End and causes persistent Stagger at 3. If removal is too slow, aim for the Stagger at 20% HP, but Stagger only removes values of 2 or less."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "5b8f45c1b60608cd42dd21037278b5aa0904b4c0051ca86c0ef8809405af4926",
+      "text": "Dissolution is also strengthened against bound targets late in the fight. Avoid its bonus condition when clashing, then focus the remaining attacks to finish Nelly."
+    },
+    "skills.0.name": {
+      "sourceHash": "f9182a3d7dc8a03a20e621958ab66954a204f8b3b0dd227d613abbc269cb4768",
+      "text": "Mark Interloper"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "ca9ba3acafad56b5a04f945e625861e0987a3b1d387b8d01ca6545f5ab7a3f06",
+      "text": "[On Use] Inflict 1 Butler's Mark."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "67a58bf1d1a73a84afc2467aa18db87f2577940da70a9c2b4e778acf62bdfca8",
+      "text": "Ⅱ[On Hit] Gain 1 Defense Level Up next turn."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "d44e22b2c513beee3d44dc6d3aabbdaf89781cd8e54cfa92c7d58aec71429f7a",
+      "text": "[On Hit] Gain 2 Poise."
+    },
+    "skills.0.response": {
+      "sourceHash": "98b1f1777f39ed14bdd4bff4236e545339d5f8dcb37414b90c0ac8719ff8bd8a",
+      "text": "Butler's Mark applies On Use; winning the clash does not prevent the mark itself. Redirect subsequent strengthened attacks to unmarked Sinners."
+    },
+    "skills.1.name": {
+      "sourceHash": "bb8cb6e442ec611232370dd9a9cae52457a434c2827c316e1ad7e0fe98a69454",
+      "text": "Receiving Arts 1: The Hunt"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "2744b8deb5b542b703ac30a4185b4668670cbe3eeeea0a79e07335e9cc854352",
+      "text": "[On Use] If the target has Butler's Mark, Clash Power +1."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "92a10f0d78f0908a6c96e060533c2d5effee88ddabba9165ebd99806fde675ee",
+      "text": "[Clash Win] Gain 1 Haste next turn."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "3ae581aeaf864ab75678b5113fc3409f70eb91abde72c2a53562a61470c25661",
+      "text": "Ⅰ[On Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "94d639333125ef926b928ef1ceb874a16cb92899439e3f8c467a5f5112c52d77",
+      "text": "[On Hit] Gain 3 Poise."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "db3efd5de33c634de5e80a6760863afd978377ab9e575f747919d3e1af066f5d",
+      "text": "Ⅱ[On Hit] Gain 1 Offense Level Up next turn."
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "c7baa586139d116d77d5296180958247151427aaefb09d8f6b664b95ce02cc0a",
+      "text": "[On Hit] Inflict Butler's Mark."
+    },
+    "skills.1.response": {
+      "sourceHash": "19f231a79be455e524009b1873ab6b247f5b29e90fcf6874f509b458c3552541",
+      "text": "Gains +1 Clash Power against marked targets. Win to prevent Paralyze and enemy Poise gain, and check next turn's action order."
+    },
+    "skills.2.name": {
+      "sourceHash": "02b387c1052dea695f8b0c333e2d86f9ab70c362ddac4287a436e21e14deeae9",
+      "text": "Reverse Receiving Arts 1: The Hunt"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "2744b8deb5b542b703ac30a4185b4668670cbe3eeeea0a79e07335e9cc854352",
+      "text": "[On Use] If the target has Butler's Mark, Clash Power +1."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "92a10f0d78f0908a6c96e060533c2d5effee88ddabba9165ebd99806fde675ee",
+      "text": "[Clash Win] Gain 1 Haste next turn."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "1326de2dcb8fb7cd9a835cc88a5710ed4d1c0188c0c083a19d679b374f18908b",
+      "text": "Ⅰ[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "d24c753bd2010cea7449240e74214760ee201d821f6561d959bddde28980566d",
+      "text": "[On Hit] Gain 2 Poise Count."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "67a58bf1d1a73a84afc2467aa18db87f2577940da70a9c2b4e778acf62bdfca8",
+      "text": "Ⅱ[On Hit] Gain 1 Defense Level Up next turn."
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "c7baa586139d116d77d5296180958247151427aaefb09d8f6b664b95ce02cc0a",
+      "text": "[On Hit] Inflict Butler's Mark."
+    },
+    "skills.2.response": {
+      "sourceHash": "f1e663d340d8eb7f5dd553571f6a5c5239024548860166566a61732e25239c6f",
+      "text": "Gains +1 Clash Power against marked targets. Bind makes later strengthened attacks harder to intercept, so prevent its hits."
+    },
+    "skills.3.name": {
+      "sourceHash": "7e08a6e06668fc618ddb2be0902826cbf067c2e08f8307a05a3803c563fec175",
+      "text": "Overwhelm Interloper"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "f94ae993de45d7adc10b4eb91fcb4d888b0f48635aca6f57e2c245b27ca96699",
+      "text": "[On Use] If faster than the target, Clash Power +2."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "9f0c3d7f8fa24204f4550226baa3566545bcaf23d663d6169eb04dfd797d2e30",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "b25e25e56a3da40867f96165888a877356bcb9d41bc8c12fef91f3f18100a007",
+      "text": "Ⅱ[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "bdcabb3f02ffa63de4a8dbd1b4ede6d6743e9ca18b8c4499bf9f1c2ec3c7b0de",
+      "text": "Ⅲ[On Hit] Inflict 2 Defense Level Down next turn."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "3e991931b6b5a01d7499a3ae2fd7ce9a68fefe7c719f4bf77575c8c3e453775a",
+      "text": "[On Hit] If the target has at least 3 negative effects, reuse this Coin (up to once)."
+    },
+    "skills.3.response": {
+      "sourceHash": "e02dc9b365598601dcf2d11fe0d887ab7b354bdc74ed26e89d851f1b6653ea0d",
+      "text": "Gains +2 Clash Power if the enemy is faster. Reuses the final Coin against targets with at least 3 types of negative effects; choose a Sinner with fewer debuffs."
+    },
+    "skills.4.name": {
+      "sourceHash": "7b8b439a8e69cfbaa9f9ac538b9dbabacb65b4ee9379abac8443c52f08667d5c",
+      "text": "Receiving Arts 2: Collapse"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "4c77f6aae8ecb3c1a0ea2a97e9a35a99d262cdd58fcb6cc06716b525fd58f789",
+      "text": "[On Use] If the target has Butler's Mark, Clash Power +10."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "fbe74e86eea2e9379d73edc6e35786ecdec01a7aa83f0c49ccfda9a9d0ad5a49",
+      "text": "Ⅰ[On Hit] If the target has no Stagger Threshold, deal 200 damage."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "4725865bdd45b0be1b494bfae88ab1dc1411532fa2d92b0be98bfa3cdf044617",
+      "text": "[On Hit] Raise the Stagger Threshold by 200."
+    },
+    "skills.4.response": {
+      "sourceHash": "46f3a31e4b207307506b2b480f5b9fa60f56972cb05a936ac2fc432f3a245ba0",
+      "text": "Gains +10 Clash Power against marked targets. Intercept with a fast, unmarked Sinner. Hits raise the Stagger Threshold or deal heavy extra damage if no threshold remains."
+    },
+    "skills.5.name": {
+      "sourceHash": "c95f0f24457f3a87cd7842a61bb34624da2c93eaa42eae416078f08f472a5b5b",
+      "text": "Receiving Arts 7: Capture"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "67a5332ec3dc7556390b6195acc3a9d2b0152de4fd63caab0a4ebef18dafe1e7",
+      "text": "[Combat Start] Increase Attack Weight by the number of enemies with Butler's Mark."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "f5a5bb0d9b9aad2b6dffb060d54d8f8144fc4597778725517ca52ba9e6107f90",
+      "text": "[On Use] If at least 3 Speed faster than the main target, inflict 2 Slash Fragility."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "cf614ad82eb0216c16dd0e486d2847d17b1523223f1660001657c4b5cbceabdd",
+      "text": "[On Use] If the target has Butler's Mark, Clash Power +8."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "fba8276c44fc67fb3d104660d89f7d3dfa1160ebad2a128588254c82b1ed80dc",
+      "text": "[Turn End] Remove all Butler's Marks."
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "139296772afabf31fdf0ee87bf41426cdf64fdf966b0d34f5c3aabfd4f01f503",
+      "text": "Ⅰ[On Hit] Gain 3 Poise."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "e88e84e9f520ea5ba9c2b824d9222b114ef87f8d96209b220b5429cdaac246ea",
+      "text": "Ⅱ[On Hit] Gain 2 Poise Count."
+    },
+    "skills.5.effects.6": {
+      "sourceHash": "29207b992bf6eaefe167308133da515afc2ca5d87c34b1eb1d0f21abdc77c43f",
+      "text": "Ⅲ[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.5.effects.7": {
+      "sourceHash": "82318cfd25f32ac74bf73877573589311cfe1840d661c631e08a851c1220052a",
+      "text": "[On Hit] Inflict 2 Paralyze next turn."
+    },
+    "skills.5.effects.8": {
+      "sourceHash": "926dd4b181ba9e69f796351a764c3dab05bdcc62353cb590c3fdc674d87fa4cf",
+      "text": "Ⅳ[On Hit] Gain 1 Haste next turn."
+    },
+    "skills.5.effects.9": {
+      "sourceHash": "15537f112c315a6eb6c308d2b3ee313194e5301bf029f2e7fe6cc50b57e63c46",
+      "text": "[On Hit] If the target has at least 4 negative effects, deal Slash damage equal to 30% of the damage dealt."
+    },
+    "skills.5.response": {
+      "sourceHash": "4d5bd5ae4241aa98bc6719af0234257d6c0b2212812312b3ea402ff6ffb2bbb7",
+      "text": "Attack Weight rises with the number of marked Sinners, and a marked main target grants +8 Clash Power. Clash with an unmarked Sinner and check the other targets' HP too."
+    },
+    "skills.6.name": {
+      "sourceHash": "2c675737d7db4659b0a27008af3d92804201a8247aaf948fd876abfb9ef8e147",
+      "text": "Interloper Apprehension"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "14edd089409d2597f480e2dcbb60359c636c21b6a51f53925a2a177c881fc8f3",
+      "text": "Prioritizes targets with Binding Technique."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "da0ff639aa4ac925060102491f89f9f3a69ce0229020ecaaa2b905b80e2e204c",
+      "text": "[Clash Lose] If the target has Binding Technique, remove it."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "71afe4a9b250ea15a58c409d197ad35b4f5fd2ea4626fdcc1753f471cd2fab34",
+      "text": "[On Hit] Inflict 6 Defense Level Down next turn."
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "3827309ab27f9c64b1b8aa09735ca91d0e0ef8fb86aa7201dab508b93dc81a97",
+      "text": "[On Hit] If at least 3 Speed faster than the target, reuse this Coin (up to once)."
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "4d99a52e88bfda1e382c717a212856bcd8367484a662950125fd46d464665b99",
+      "text": "The source numbers these effects II and III despite listing 1 Coin. The effect numbers may be incorrect."
+    },
+    "skills.6.response": {
+      "sourceHash": "92b7e069ca3bacf6a02e98966a635b7e23ced02a519a9f0aaabbc86c914c60f4",
+      "text": "A Sinner with Binding Technique removes it by winning against this skill. Do not intercept with another Sinner; use the bound Sinner's strong skill or E.G.O."
+    },
+    "skills.7.name": {
+      "sourceHash": "516cb51a05bf2d3be14bf0714e7282e5972b4c9ec6f30d601da34e59cd4637cc",
+      "text": "Receiving Arts 3: Binding"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "454dc0c94e6e07830c07499fce365cd90518c3e4c47d9b17e6c87807d1848d9f",
+      "text": "[On Use] If the target has Binding Technique, Base Power +5."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "3146178977492f6e4b391fd6a0ccf38198d08dafd5ff79b4ea6d815e66eca5e7",
+      "text": "[On Use] If the target has Binding Technique, inflict 1 Binding Technique."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "9f0c3d7f8fa24204f4550226baa3566545bcaf23d663d6169eb04dfd797d2e30",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "94d639333125ef926b928ef1ceb874a16cb92899439e3f8c467a5f5112c52d77",
+      "text": "[On Hit] Gain 3 Poise."
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "91423a9625cdd2397141e5118a7dddc467985583507436bb7cd18c841196c5db",
+      "text": "Ⅱ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "d24c753bd2010cea7449240e74214760ee201d821f6561d959bddde28980566d",
+      "text": "[On Hit] Gain 2 Poise Count."
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "29207b992bf6eaefe167308133da515afc2ca5d87c34b1eb1d0f21abdc77c43f",
+      "text": "Ⅲ[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "c5bd7aadb0fd230c0157859392b85da016ad7f64fd121ac77dcd916a61ac1a35",
+      "text": "Ⅳ[On Hit] Inflict 3 Defense Level Down next turn."
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "3e991931b6b5a01d7499a3ae2fd7ce9a68fefe7c719f4bf77575c8c3e453775a",
+      "text": "[On Hit] If the target has at least 3 negative effects, reuse this Coin (up to once)."
+    },
+    "skills.7.response": {
+      "sourceHash": "5ebf6bb8656f69dda8a185b2878adf399dd4db9ed8aeae85fc6a24f0a97a80ae",
+      "text": "Gains Base Power against a Sinner with Binding Technique and increases it On Use. Have an unbound Sinner intercept this skill—the opposite assignment from the bind-removal skill."
+    },
+    "skills.8.name": {
+      "sourceHash": "3e8d0ff0d13deb3acdd01554d924e3f1b19d8f4f7cf5a5a122d6856fae18aef8",
+      "text": "Evade"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "5cbf3c851b2dde4ebb09c3b1a2b3a5e605a81c3e54bc22556cdf1f7685d5a52c",
+      "text": "[On Evade] Heal 5 SP."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "233b3494ce484c55022cd8cd41a22e892c735b9db821fcadc08c074db9ff1dcc",
+      "text": "[On Evade] Gain 1 additional slot for next turn only (up to once)."
+    },
+    "skills.8.response": {
+      "sourceHash": "c3ca266353593a00174c035f62d25789cb9e5276aebea05628981e7b60305b24",
+      "text": "Successful evades heal the enemy's SP and add an action slot next turn. Offset with a Defense Skill to reduce interference with unopposed attacks."
+    },
+    "skills.9.name": {
+      "sourceHash": "f6c128d07a8d0e14b42f4dffb11dae3f04df8f4631511464b77e9878135b90ec",
+      "text": "Receiving Arts 9: Dissolution"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "14edd089409d2597f480e2dcbb60359c636c21b6a51f53925a2a177c881fc8f3",
+      "text": "Prioritizes targets with Binding Technique."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "b41d2017dba8b9dc3efd3ae48d2114115ea6b4b648a386c758d2a6caecfe0335",
+      "text": "If the target has Binding Technique, Clash Power +10."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "2c028eff722df5b7dcdc7c41cb054610f97108f3387ec19d5de57c635567bb72",
+      "text": "This skill deals 0 damage against targets without Binding Technique."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "7fd1e9ef8a2dfe2d1ae426ac69fd227447705aa72e0f2fbb913452001d96c926",
+      "text": "Ⅰ[On Hit] Stagger the target."
+    },
+    "skills.9.response": {
+      "sourceHash": "e9d3898d4154a236d3246a72f615f79eb569b98d2463862516c74e0b0bbfcefd",
+      "text": "Gains +10 Clash Power against targets with Binding Technique. If possible, redirect it to an unbound Sinner. It deals 0 damage without Binding Technique, but do not assume its On Hit Stagger is also disabled."
+    },
+    "passives.0.name": {
+      "sourceHash": "2d4f0ff70306ac0b3317d682a153c771b452b4a48cd291045002d6ca46eac2e6",
+      "text": "Superiority"
+    },
+    "passives.0.effect": {
+      "sourceHash": "c42efd72c76b1886c48f7c3b91bac05c12b4c43d57fa14b07a13affdca2ef629",
+      "text": "On Clash Win, heal 3 SP if faster than the target."
+    },
+    "passives.0.condition": {
+      "sourceHash": "c0cbf760fedf73a2aeeea236514dcb63c8467a9a434c6f1b2bf017d0173b2997",
+      "text": "Win a clash against a slower target"
+    },
+    "passives.0.response": {
+      "sourceHash": "470728d72ab01884287aa911c3c667bbd656306404f97f409c165a2a52c7692a",
+      "text": "Losing with a slow Sinner also heals the enemy's SP. Check Speed alongside the clash prediction."
+    },
+    "passives.1.name": {
+      "sourceHash": "f66567421cdc42307d461cb7ca98a9aade092a1f0ff2129fefec547421f0a8ac",
+      "text": "The Uninvited"
+    },
+    "passives.1.effect": {
+      "sourceHash": "f5f1cfb6181d9c5ec91d7a47b36fbb5a96b9c53f64780b64ed3d4c4aca969f32",
+      "text": "If an enemy is Staggered, prioritize that enemy with Attack Skills. Deal +20% damage on hits against Staggered enemies."
+    },
+    "passives.1.condition": {
+      "sourceHash": "0e1a149a1e6af3afef065ecd0172cc8f34d5097cadcba199ee223b9ccd6614b5",
+      "text": "A Sinner is Staggered"
+    },
+    "passives.1.response": {
+      "sourceHash": "b8e16e9803faeeaba78da96361a4326cc4c6a1a8ce4446be7a2a4403ebd3e808",
+      "text": "Follow-up attacks concentrate on Staggered allies. Have fast allies intercept dangerous attacks."
+    },
+    "passives.2.name": {
+      "sourceHash": "00fdf8424febba5e714596f7537f012cac148c0661b22d9378b1c3537afa326f",
+      "text": "Receiving Arts 9: Binding"
+    },
+    "passives.2.effect": {
+      "sourceHash": "463966f78c3798d0a04934edf903bd439caa3982602225fefd9548aceb406834",
+      "text": "After the pattern changes, the passive's “Combat End” text describes applying Binding Technique next turn to 1 random Identity without it."
+    },
+    "passives.2.condition": {
+      "sourceHash": "6aa3682957201e74920a14ed843afdee08af3dc9cb22cbf49492e7f4fb491ead",
+      "text": "Pattern change after the first Stagger"
+    },
+    "passives.2.response": {
+      "sourceHash": "06806b39c787819fc42f1d2d5a5541e54338c64851d916148e7b7e9aead3876a",
+      "text": "Check Binding Technique targets every turn in the latter half, and save a hand that lets the bound Sinner win the removal clash."
+    },
+    "passives.3.name": {
+      "sourceHash": "67558d46f25bc8db939484bd92c828024955aee33e72aeebffd09a82acf4677e",
+      "text": "Release From Binds"
+    },
+    "passives.3.effect": {
+      "sourceHash": "4e65def2d4d9144f8057948eab6b035b41fb103292d8421494eb6ca89fd028ec",
+      "text": "When Staggered, remove all Binding Technique with a value of 2 or less."
+    },
+    "passives.3.condition": {
+      "sourceHash": "33eb71848d47f86f67858401d19b3c1b9e79925424932921a3253645a13760a4",
+      "text": "Nelly is Staggered"
+    },
+    "passives.3.response": {
+      "sourceHash": "9c7c855059cb5c848a164711c7a8c242e6db14958754fb99480a4b2078174b5e",
+      "text": "Removes Binding Technique at 2 or less. Staggering Nelly after it reaches 3 cannot free the Sinner."
+    },
+    "passives.4.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.4.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.4.condition": {
+      "sourceHash": "f81816f474663716a11d7c9dee95c9fd3e38c8ee6dc5ebb44380b6248deba1dc",
+      "text": "Turn End while Panicked"
+    },
+    "passives.4.response": {
+      "sourceHash": "8c2c5373cd4a6f714339b3cb2470c7dab9def1f72084d26e9389291eb96e87fe",
+      "text": "Use the opening created by low SP, but do not assume Panic will continue next turn."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "5b8e8cbe8329fc3db48303f3f8b49a79cc42ad2da62cb9ccae2b65184227def0",
+      "text": "Panic Type change effect"
+    },
+    "passives.5.response": {
+      "sourceHash": "4bdbe8ae9c3b41c58125dc3f51fb5e06b9538e255430b2c201d648e660865829",
+      "text": "Win by preventing hits rather than relying on replacing Panic Type."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d30b575c3aa207a5a5a07266df83ff3df751ba344169b7a4e1389dfaf61ce793",
+      "text": "Butler's Mark"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "bde43238cdaee7f6d10e1b1180c2ae8c1b0b6fe395328c67e300431e7200b04f",
+      "text": "Increases Clash Power on certain skills; Capture also gains Attack Weight based on the number of marked targets."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6f99a2a827d4ab2ab7cb5d26a4950a88821cfc5e50712a58a005faa433699063",
+      "text": "Some marks apply On Use. Use unmarked Sinners to avoid the bonuses."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "7f6fb491eed88c945a1504e3f9d92f4c9042b4741396aeca38c29cf76490a66c",
+      "text": "Binding Technique"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "f548163fbbcb220c5d8ae5fc5ecc79a933fc5339c74da07cc793a4567280b65f",
+      "text": "Maximum 3. Increases at Turn End and inflicts Bind equal to its value next turn. At 3, causes Stagger that does not end."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "70f777622ee5baf2b4dd939b9deddb5df7416c93fee8f3fe15327f5987ecf4d7",
+      "text": "The bound Sinner must beat Interloper Apprehension to remove it. Nelly's Stagger removes it from everyone only at values of 2 or less."
+    },
+    "warnings.0": {
+      "sourceHash": "80e02d6d8179d7c014e058fbaf34abc65afa67868557ab8f5481d0f0f763e4ff",
+      "text": "Interloper Apprehension and Receiving Arts 3: Binding are different skills. Do not assign Binding to the Sinner you want to free."
+    },
+    "warnings.1": {
+      "sourceHash": "1d44888a56f115e54f643d00c5db3a6db9877d2b7c11edd8919e973f0a540e93",
+      "text": "Binding Technique at 3 is not removed by Release From Binds even if Nelly is Staggered."
+    },
+    "warnings.2": {
+      "sourceHash": "742c7e6ac9198855663f2734753d779585176d8ddfbe8bcd3c5065873ef4aaa1",
+      "text": "Winning the clash does not cancel an On Use mark application."
+    },
+    "warnings.3": {
+      "sourceHash": "7f0b9ac1c389db401351ffe74f5447d4a8155122b02713514cdec67b4d66da9b",
+      "text": "Dissolution deals 0 damage to unbound targets, but has an On Hit Stagger effect. Do not leave it unchecked as a safe unopposed attack."
+    },
+    "preparation.0": {
+      "sourceHash": "9225ce6895efaa678902b4da75a86e78ae43ddaac870b7aa55b4928c2ab20b01",
+      "text": "Prepare Slash attackers, HP recovery, and high-Power E.G.O for removing binds. Do not fix the removal role to one Sinner in advance."
+    },
+    "preparation.1": {
+      "sourceHash": "d51a5ecb0a6f51f29db7a4ade52702007045319852427c3857eed8ad0ad50533",
+      "text": "Maintain SP and keep skills and resources that let every Sinner take a bind-removal clash."
+    },
+    "roles.0.name": {
+      "sourceHash": "d9987441cd7286461034be8ee6a57c96cbad5a8baafe56d57d19e4ce6857b517",
+      "text": "Fast redirector"
+    },
+    "roles.0.reason": {
+      "sourceHash": "e842713a73a02764daed4d993da2a296ea3b667eaef5f7412e4178b28781fd7a",
+      "text": "Redirect strengthened attacks to Sinners without marks or Binding Technique."
+    },
+    "roles.1.name": {
+      "sourceHash": "6a04595fad44e430279a5263b14d4fb7e64d442575fa15504d79748b7cc5351c",
+      "text": "High-Power skills on each Sinner"
+    },
+    "roles.1.reason": {
+      "sourceHash": "5b5b36552afc4a2c2195dab5d64852a08392640686e6edb6c078ef255a13aae9",
+      "text": "Let the bound Sinner win the removal clash."
+    },
+    "roles.2.name": {
+      "sourceHash": "36b503cf763a448e1d158c07fb3fd5d8eee0d13dfa7602f76f7380326f699388",
+      "text": "Slash damage and recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "2dcce3f355ae635325bd43466077b8f0ca0c9555c8828ead50d50cea9f7077f7",
+      "text": "Aim for Stagger and finish the fight before binds progress too far."
+    }
+  },
+  "messages": {
+    "boss-copy:nelly": "complete",
+    "【リンバス】6-45 ネリーの攻略｜Limbus Assistant": "6-45 Nelly Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-45「ネリー」の攻略。目印付きの囚人から強化攻撃をそらし、後半は捕縛された本人で解除用のマッチに勝つ。似た名前の技でも、誰が受けるかを切り替えよう。": "Nelly guide for Limbus Company 6-45. Redirect enhanced attacks away from marked Sinners. Later, the captured Sinner must win the freeing Clash. Similar skill names can require different defenders.",
+    "6-45 ネリー": "6-45 Nelly",
+    "6-45「Stolen Life」": "6-45 · Stolen Life",
+    "ネリーの外見": "Nelly appearance",
+    "ネリーのスキル": "Nelly skills",
+    "Nellyの外見": "Nelly appearance",
+    "Nellyのスキル": "Nelly skills"
+  }
+}

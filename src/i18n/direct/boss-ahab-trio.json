@@ -1,0 +1,1391 @@
+{
+  "kind": "boss-copy",
+  "id": "ahab-trio",
+  "source": "src/data/bosses/ahab-trio.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "エイハブ",
+          "en": "Ahab",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8105"
+        },
+        {
+          "ja": "クィークェグ",
+          "en": "Queequeg",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8112"
+        },
+        {
+          "ja": "スターバック",
+          "en": "Starbuck",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8104"
+        },
+        {
+          "ja": "私の指示に服従しろ",
+          "en": "Obey My Orders",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810501"
+        },
+        {
+          "ja": "私の周りに立て！",
+          "en": "To Me!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810502"
+        },
+        {
+          "ja": "最後まで追跡しろ！",
+          "en": "Track Them to the End!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810503"
+        },
+        {
+          "ja": "老練の銛捌き",
+          "en": "Veteran's Harpoon",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810504"
+        },
+        {
+          "ja": "火が如き銛",
+          "en": "Burning Harpoon",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810505"
+        },
+        {
+          "ja": "馬鹿め！",
+          "en": "Foolishness!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810506"
+        },
+        {
+          "ja": "息を吐き出せ！",
+          "en": "Exhale!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810507"
+        },
+        {
+          "ja": "最後の恐怖を飛ばしてやろう！",
+          "en": "Be Fearless!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810508"
+        },
+        {
+          "ja": "死の焼き入れ",
+          "en": "Tempering of Death",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810509"
+        },
+        {
+          "ja": "銛捌き",
+          "en": "Harpooning",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810302"
+        },
+        {
+          "ja": "貫く銛",
+          "en": "Piercing Harpoon",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810303"
+        },
+        {
+          "ja": "獲物追跡",
+          "en": "Stalk Prey",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810306"
+        },
+        {
+          "ja": "息の根を止める",
+          "en": "Cut Throat",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810307"
+        },
+        {
+          "ja": "深い呼吸",
+          "en": "Deep Breathing",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810308"
+        },
+        {
+          "ja": "守ら…ないと",
+          "en": "Must... Protect",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810310"
+        },
+        {
+          "ja": "根性の銛",
+          "en": "Persistent Harpoon",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810311"
+        },
+        {
+          "ja": "かり…おわらせないと",
+          "en": "Must Finish Hunt...",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810312"
+        },
+        {
+          "ja": "掘り穿つ",
+          "en": "Impale",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810401"
+        },
+        {
+          "ja": "突き抜く",
+          "en": "Piercing Thrust",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810402"
+        },
+        {
+          "ja": "命令に従い…",
+          "en": "I Follow Orders...",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810403"
+        },
+        {
+          "ja": "急襲",
+          "en": "Ambush",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810404"
+        },
+        {
+          "ja": "恐れの嘆息",
+          "en": "Fearful Sigh",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810405"
+        },
+        {
+          "ja": "闘志の銛",
+          "en": "Determined Harpoon",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810406"
+        },
+        {
+          "ja": "出るためなら…",
+          "en": "To Escape...",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810407"
+        },
+        {
+          "ja": "抑制された白化",
+          "en": "Suppressed Pallidification",
+          "file": "Passives_Enemy-a1c5p3.json",
+          "id": "9009801"
+        },
+        {
+          "ja": "ピークォド号の船長",
+          "en": "Captain of the Pequod",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810501"
+        },
+        {
+          "ja": "曇った命令",
+          "en": "Muddled Orders",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810503"
+        },
+        {
+          "ja": "冷酷な決断",
+          "en": "Coldhearted Decision",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810504"
+        },
+        {
+          "ja": "船長の命令",
+          "en": "Captain's Orders",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810301"
+        },
+        {
+          "ja": "混濁した精神",
+          "en": "Clouded Mind",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810306"
+        },
+        {
+          "ja": "穿たれた刺青",
+          "en": "Mutilated Tattoos",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810302"
+        },
+        {
+          "ja": "不屈の銛使い",
+          "en": "The Indomitable Harpooneer",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810303"
+        },
+        {
+          "ja": "刻まれる憎悪と恨み",
+          "en": "Engraved Hatred and Animosity",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810305"
+        },
+        {
+          "ja": "銛で貫く",
+          "en": "Puncturing Harpoon",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810402"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Bufs-twth.json",
+          "id": "PanicChangeLock"
+        },
+        {
+          "ja": "獲物の印",
+          "en": "Prey Mark",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBj"
+        },
+        {
+          "ja": "援護防御",
+          "en": "Assist Defense",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBs"
+        },
+        {
+          "ja": "援護防御バリア",
+          "en": "Assist Barrier",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBr"
+        },
+        {
+          "ja": "援護攻撃",
+          "en": "Assist Attack",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBt"
+        },
+        {
+          "ja": "逆らえぬ命令",
+          "en": "Undefiable Command",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBn"
+        },
+        {
+          "ja": "結縛",
+          "en": "Tangle",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBk"
+        },
+        {
+          "ja": "捕獲",
+          "en": "Capture",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBl"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "f5f24e108bfd74759ebd3076b3666cfdaead36879fb3f5b9a6bdb28b7da19bfb",
+      "text": "Ahab / Queequeg / Starbuck"
+    },
+    "shortName": {
+      "sourceHash": "687ec089d3e371782af0290a66fba08608ade8afea46b015c496d9c234af02e0",
+      "text": "Ahab and Crew"
+    },
+    "stageName": {
+      "sourceHash": "da424174978c228f608d8616d31c2345081b8ce4941e0cff1a1fdfe4a9308d26",
+      "text": "Into the Darkness, Floor 3"
+    },
+    "lead": {
+      "sourceHash": "1c0f40deed4efb48d09aba37ffcc5ab43524f0386f2c03d76430abd6a1009843",
+      "text": "Stop Starbuck's attacks early and prepare for Ahab's orders. Assign a Sinner to take Prey Mark and others to deplete the Assist Barrier."
+    },
+    "listLead": {
+      "sourceHash": "73c9b09cc90edb1aee8ee5d9193f0d50bdc46a99726174380f69044f981f0811",
+      "text": "Fight 3 enemies. Stop the main attacker early and prepare for the commander's orders. Assign a defender to take Prey Mark and attackers to deplete the Assist Barrier."
+    },
+    "priorities.0": {
+      "sourceHash": "9aa2ca15c1c5b233866c8bd6e44c987aa7382bb85c2011c737c9fd3a381872e8",
+      "text": "Stagger or defeat Starbuck first to reduce enemy attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "d22b3213d17c86669e66255731265e676d6dd0492733ac8dce262d542d146b6a",
+      "text": "Let a Pierce-resistant Sinner face Track Them to the End!, preparing for focused attacks next turn."
+    },
+    "priorities.2": {
+      "sourceHash": "7ae72c261fd755609db5481eff738b45e493d729c444c7957f37d22eb144ce53",
+      "text": "During Assist Defense, deplete Queequeg's Shield rather than forcing Clashes with Ahab."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "72ff6de85cbd917bfcef8a3b2be0ae2650ab6bca9beb71c301e0066360118024",
+      "text": "You cannot Clash with Ahab"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "b0eb8857e5862910f1e7e6088fa533c392a958b0760338b33c5bc34624d6121c",
+      "text": "Assist Defense redirects your attacks to Queequeg. This is intended. Keep the marked defender alive and deplete the Shield, or Stagger Ahab on the order turn to cancel it."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "07e17f3dc725b20f270ab984d74e82acf19718382415a7f8f1743bee6c162930",
+      "text": "One Sinner takes every attack and falls"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e2a4f71ae30bcc71e1f2c109901711a325e9ebef935ab5684413444c9422a203",
+      "text": "Check for Prey Mark. It also increases damage taken by 50%, so redirect the mark-applying attack to a durable Sinner beforehand. Ishmael's survival condition from Ricardo's fight does not apply here."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "9bc76c4c83aa4c94e007e50c259273e07dc43455be1c0ff81493ac9075eba76c",
+      "text": "Ahab fully heals after you damage her"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "45666cbc7e7ce5f51e8216c160b1b8bb4cc2f0233ff35a4b54da9863be32c3dc",
+      "text": "In the first half, falling below 50% HP or completing the specified action pattern triggers the second half and healing. Stopping Starbuck first is easier to manage than spending all damage on Ahab immediately."
+    },
+    "units.0.name": {
+      "sourceHash": "962572b7253fbf21aba4393b66f8ca62aff49dbf240c3d11e9e01f0d66841fc9",
+      "text": "Ahab"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "fe82ca1ccca830717370bc91c9609a85c0706d46828ba7ca8d20ca2e2ce90720",
+      "text": "610 → heals to 645 in the second half"
+    },
+    "units.0.stagger": {
+      "sourceHash": "d5b48855f16086ed897b9235303fe30b3f2e83e45922215353135b00095ba722",
+      "text": "60% / 30% Part HP (366 / 183 in the first half)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "ff2ba0539e603604ff22d04d67b484f7d4fcd34844f41bce0011606dd5fb8265",
+      "text": "The 3-person encounter on Floor 3 of the Canto V dungeon. Separate from the final E.G.O fight and Refraction Railway versions."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "9e324d0f3d6269d4c8813b394c8986a69373b3099f217692da2fd4702917b1aa",
+      "text": "Cannot be defeated in the first half. Below 50% HP or after action pattern 5 ends, transitions to the second half, removing her buffs, debuffs, and Stagger while restoring overall and Part HP."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "c556a6c5ae549233ac3d867637af4be8b3a58d20cf0585b80f4d43997313fe7f",
+      "text": "Overall Max HP becomes 645 during the transition, but Part Max HP does not change."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "bbba22acb03c0711fa505d9a250cf4baf21ac7d41923af5450e9542d0b900c83",
+      "text": "Defeating Ahab also defeats the other 2 enemies and wins the battle."
+    },
+    "units.1.name": {
+      "sourceHash": "4666d7324f0e04b5da62075d9a9ab9a8101afa685a749fdefe94956dc5d42b6f",
+      "text": "Queequeg"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "17a50128244f7ce5dff06ac078c397d12a4a0c81759402455ce62c997f0e5a9d",
+      "text": "50% / 0% / -50% HP (466 / 0 / -466)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "80825703d48ddc93dd48910154b2323c477867dbe26c237b1cd109b6831d619c",
+      "text": "A durable defender who intercepts attacks aimed at Ahab. Once per battle at 0 HP, recovers to 50% of Max HP."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "29e9a387a603669b2f07e989240884cf3acbf8970eb7cb127d64c78dac69a913",
+      "text": "Assist Defense does not function while Staggered. In the second half, depleting the Shield alone no longer causes Stagger; aim for normal Stagger Thresholds."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "d882a964fc190e3ed0fb7cc38cca426fc640c57619508b7072d82a3b35710233",
+      "text": "Negative Stagger Thresholds are listed as in the source. Normal HP loss alone does not reach them; effects that move Stagger Thresholds are involved."
+    },
+    "units.2.name": {
+      "sourceHash": "69c3e60699055b368a11b89211fa3f53c72ceea630e0ee2cc591fd32d14dc3d3",
+      "text": "Starbuck"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "bd68e98487e522c78e9e9349fddc9d70eb6dd98b3b995c7ab53e4367fe008025",
+      "text": "70% / 40% / 20% HP (322 / 184 / 92)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "cf004055240962f7acdefe558e8ade216801cf0f49d3c8090905e8cea1792b76",
+      "text": "A dangerous attacker with many attacks and Coin reuse. Has the lowest HP of the 3 and multiple Stagger Thresholds."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "7316fa9a6fe73e68e5005fcf8d40e2af7ce8f5725d097b229ae253b3241f3c2f",
+      "text": "Assist Attack does not function while Staggered. Stopping him early reduces both regular attacks and extra unopposed attacks."
+    },
+    "phases.0.timing": {
+      "sourceHash": "802346c6c8dde5a3bd9a1de4c55add7cb990b709810e99d46b0b0a0d68c68bc9",
+      "text": "First half / opening"
+    },
+    "phases.0.title": {
+      "sourceHash": "b9e7198136238f75202d3cfdf2368a4077831baad84becd64371fd7b4f55c29c",
+      "text": "Stop Starbuck and preserve your defender"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4b2068ee4a0c45665942ce5e2ab33035725c66aeb8286a8210ad090adc758f60",
+      "text": "Focus strong attacks such as Pierce on Starbuck to reach his first Stagger Threshold. Win other dangerous Clashes and use Defense Skills to offset Evades where needed."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5ff8aadc7019446ee47e6c83513cf6bd4fd997c445b7b7844a50afad4d2e9cfc",
+      "text": "Damaging Ahab too quickly advances the second half. If unprepared, handle Starbuck and build resources first."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "fe76cb685760f665bb06487012b2e515e8ef60f96a7665f0077fc78e5bdb09e9",
+      "text": "Save HP and SP on a Pierce-resistant defender for the coming focused attacks. Check E.G.O resources carried through the dungeon too."
+    },
+    "phases.1.timing": {
+      "sourceHash": "ab7f615beb59ae6a44c9c831cbe6ab80b6469d4d2a54ee0319758bf0ae8e6ffc",
+      "text": "To Me! / Track Them to the End!"
+    },
+    "phases.1.title": {
+      "sourceHash": "207037910bc7502e4404ddc9de3e5be9a98b4befd15c674f3c2017c1d280ad66",
+      "text": "Choose who receives Prey Mark"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "e1dfdf07764c987eebefdb8f393113a579c515350de8c7913ab256a77a87044e",
+      "text": "The Sinner Clashing with Track Them to the End! receives focused attacks next turn. Assign a defender after checking Pierce resistance, Sin resistances, and HP."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "d518dd088f052fc8ed6004e0474212d10f295ffeb77ee44cb88d84fbb3cadfc8",
+      "text": "The mark applies [On Use], while orders activate at Combat Start. Winning the Clash does not cancel next turn's mechanics."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "785743f6852b46bd5ad863a409d636dc8c5170951c1067e014ad438a65732b52",
+      "text": "Alternatively, Staggering Ahab on the order turn cancels it. In the first half, aim for her 60% HP Stagger Threshold, but avoid excessive damage: falling below 50% triggers the transition and healing."
+    },
+    "phases.2.timing": {
+      "sourceHash": "8295f6ef7d375822289f2721160ab53d48ff48810edf85aecdd6256d5877c5ee",
+      "text": "Assist Defense / Assist Attack turn"
+    },
+    "phases.2.title": {
+      "sourceHash": "d04888a0ecf32c9ef2125dbb21378b6deaae021dad637daa5d4639b4e9a25af9",
+      "text": "Protect your defender while fully depleting the Shield"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "6bf88e661efeb982f9736ae0fbffdf52a1a716e1ebd4a4c882a423dc4877aaf1",
+      "text": "Assist Defense redirects attacks aimed at Ahab to Queequeg, preventing Clashes with Ahab. Prepare Protection and healing for the marked Sinner."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "6ee03bd79db885c4fc7cf49fd31c3238f375948c5b3f28ffb0a56593d4130d38",
+      "text": "Aim to fully deplete Queequeg's Assist Barrier that turn. Leaving it active prolongs assistance and makes Ahab harder to attack."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "1c0f243668ac286fddd77e817b469bbc50ede116e73f11cff8b833adc6378044",
+      "text": "In the first half, depleting it can Stagger Queequeg next turn. If Starbuck remains, Stagger or defeat him to stop extra attacks too."
+    },
+    "phases.3.timing": {
+      "sourceHash": "43ff9a13b08b7bed5b0b4ae59a2f69ba5db5f7e5f186b1c356fd45053ca30577",
+      "text": "Ahab heals and enters the second half"
+    },
+    "phases.3.title": {
+      "sourceHash": "f9972d50df98d969e1da9fabd0f467dc2503ffcbc97849b93d38e44d7476daa8",
+      "text": "Watch negative-Coin skills and normal Stagger Thresholds"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "261a86afd2759250579b2a95f6292416f643b4a7181b1500f7b424ac336a9ed0",
+      "text": "The crew mainly switches to negative-Coin attacks. Low enemy SP strengthens them, so do not reuse first-half Clash predictions."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "73c5ee7ba7af09ca40f2e31e76702bee324abf3753bb6e23045eda030166b558",
+      "text": "Depleting Queequeg's Shield no longer causes Stagger through that effect. Consider reaching a normal HP Stagger Threshold on the order turn."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "e3d8d961c1c2e88da763a4d8f672438cbc0212d9c187d722ed375f00f99a0438",
+      "text": "Staggering Ahab can also stop orders. Assistance already active may persist across the transition, so check the actual attack targets."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "4b74a68920082013e300a44163099cad007cd32f5ccf62572d2ac6ed6a01fd16",
+      "text": "Once Starbuck is stopped and assistance handled, focus damage on defeating Ahab. You do not have to finish all enemies separately."
+    },
+    "skills.0.name": {
+      "sourceHash": "5f947822144defb1ba23e1cd89dac4dee8e96fac5ecdc418c2989bf818cbb5ae",
+      "text": "Obey My Orders"
+    },
+    "skills.0.label": {
+      "sourceHash": "91c7dab23ed1beeb65d485e0c86ee8464c1a1d842a9d71cbb86536d30b698875",
+      "text": "First half"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "370409ab00544b842fbed4b746bbb2930b9f903eabb2687ce2e405ac71e74c7f",
+      "text": "[On Use] Heal 10 SP for self and the other ally with the lowest SP."
+    },
+    "skills.0.response": {
+      "sourceHash": "097cb1131a5283969a0b3eecdfbf00f873a76c4d06e0360327fc8bb0943b93bd",
+      "text": "Offset Evade with a Defense Skill to land attacks. Unlike preventing hit effects, this does not necessarily cancel [On Use] SP healing."
+    },
+    "skills.1.name": {
+      "sourceHash": "537b148f0a9e727fb77179aec4166cd381d7c76e2c328398735e7a865c2ec09c",
+      "text": "To Me!"
+    },
+    "skills.1.label": {
+      "sourceHash": "46925e9e3657a709c5dd682ace3d97dfc1b8108651fd006afbbac6d1b467ea04",
+      "text": "Assist Defense order"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "55feef4ad24e66f1ad80f13656c798241a3f15c2f15e37263a06b822386e9086",
+      "text": "[Combat Start] Order Queequeg to use Assist Defense next turn. Cancel the order if Ahab becomes Staggered."
+    },
+    "skills.1.response": {
+      "sourceHash": "84b15cb7c30f3dd6ed058b8235202be18122c7574e0edbd9789a3b4d6adff084",
+      "text": "Aim to Stagger Ahab this turn or prepare to deplete the next Shield. Offsetting alone cannot cancel the order."
+    },
+    "skills.2.name": {
+      "sourceHash": "bcbd566b6f7c164e422e439b5df0bc99397e3a9ea2edcc09f086127e9292a93f",
+      "text": "Track Them to the End!"
+    },
+    "skills.2.label": {
+      "sourceHash": "4cd0cf76651fa830c073a2044fbad0734f9ecffba66d2d9aaeff35f02e22a2f7",
+      "text": "Choose your defender"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "dd10850febf83285b0476611d736cf09a78a20d308e1d8be740c76f1a12b6d85",
+      "text": "[Combat Start] Order Starbuck to use Assist Attack next turn. Cancel the order if Ahab becomes Staggered."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "ea7c6fba37a51475af3e258e7fa159bad43578513f7498813d55f9be30edf06e",
+      "text": "[On Use] Inflict 1 Prey Mark on the target next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "a0085429f339c2be5e4cac8fe6b77dcd5a522a5cb42d169a5163851d0d0f5ae0",
+      "text": "Assign a durable Sinner. The mark applies even if you win, so account for next turn when choosing the opponent."
+    },
+    "skills.3.name": {
+      "sourceHash": "4f75276fbd0f0fdfcf7f12d82a2b3f0331f4268ae5902bc847dde6bb576bf2f7",
+      "text": "Veteran's Harpoon"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "df138ae075bcaf384a2189280dc792a013d128bcc65c2599c4659048a55f2297",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 2 Bleed."
+    },
+    "skills.3.response": {
+      "sourceHash": "72c61bf1d78c332b5a7e94796ec120b88e6101bc2576c448fa1d2024f6b74aa4",
+      "text": "Prevent Bleed with Clashes while possible. During assistance, use the marked defender's resistances and Protection against unopposed attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "26056b5da73df211c37266ab2f4d6957e7929e83c88780083447de17fb377aac",
+      "text": "Burning Harpoon"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "8599f9ee143d79612e651bf4ea5bac2c35a8615a07961f98a81c031301d4b2f5",
+      "text": "Gain +1 Final Power per negative effect type on the main target, up to 5. Deal +5% damage per Bleed on the target."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "15aafbcc9d8bb615d8a1bcd85d8d60f883c124889934b1ce0a1d46860986a3e9",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 3 Bleed."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "b9aaa26ea8290c66fb2ed63edf8e1880852fc4257d625e994b22187b5d435b30",
+      "text": "Ⅲ：[On Hit] Inflict Burn equal to the target's Bleed value."
+    },
+    "skills.4.response": {
+      "sourceHash": "a144e167dc74c9d44f9910a407c553edc01f719e40e0b5209ae1a3cbe89a76ba",
+      "text": "Can exceed the listed 3–12. Targets carrying Bleed and debuffs increase both its power and damage."
+    },
+    "skills.5.name": {
+      "sourceHash": "222ed79c12b87064ac8bb8f813893faad7a8bbf2762c55e2eda6c34aa95aad6f",
+      "text": "Foolishness!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "4b935e18b426729d3c1e97cbe0ee31f4cf668d8d959b66000abc81f96d875f9b",
+      "text": "[On Use] Heal 5 own SP."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "c85e6021e11154022517807bb29a99b16ca6c8ec2243bc9d7d58a0a0cdc7babe",
+      "text": "[On Evade] Reduce the target's SP by 5."
+    },
+    "skills.5.response": {
+      "sourceHash": "7b180e34cc481b7a28716656c57ed0403ddc1c09e896cb139b6b2c9de27d2753",
+      "text": "Offset with a Defense Skill before attacking. Avoid letting repeated Evades drain your main units' SP."
+    },
+    "skills.6.name": {
+      "sourceHash": "73a0c6d1de234cc8a97bfa2b86fc6ea4d7612722d4a7cadb55717b538962f229",
+      "text": "Exhale!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "ea7c6fba37a51475af3e258e7fa159bad43578513f7498813d55f9be30edf06e",
+      "text": "[On Use] Inflict 1 Prey Mark on the target next turn."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "cf2eb3ccc9b4afc514265ff2b4ee2bf8a60f999351fc7fa8ba9a08df81bf887d",
+      "text": "[Clash Win] Gain 4 Poise."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "f1bae87530f75d1898dd69ecc53c07d8c535c8cdc957d7037a9283a0a092cde4",
+      "text": "Ⅰ：[On Hit] Grant 4 Poise to 2 other allies. If no allies remain, gain 2 Poise Count instead."
+    },
+    "skills.6.response": {
+      "sourceHash": "f7b7b5b3bced7db5f1003a80b32f4d3cd75e77bf5c02b3615ab18514d068167e",
+      "text": "Applies the mark again. Choose someone who can survive the next focused attacks rather than considering only the current Clash odds."
+    },
+    "skills.7.name": {
+      "sourceHash": "218ae43b7746f0cf2e67a54ad3715af929ae0fea9c4bcd2b6880632b370f93d6",
+      "text": "Be Fearless!"
+    },
+    "skills.7.label": {
+      "sourceHash": "07432e280565d407344774ff14d7e7e14c8f2b78027d85fcaa9cd43c380ee6bd",
+      "text": "Second half"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "8a5e647f4dfc91fe0222888d79bd879564cbd3c517b59eaa68cdafdd107a2315",
+      "text": "[On Use] Heal 10 own SP and reduce the other ally with the highest SP by 10 SP."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "63ef93b73d271b81f7fbc2dad5dfcc79fbf87687edfc16958d6155dbff11ee03",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Increase the target's Burn Count by 1 and inflict 1 Paralyze on one random other ally next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "1f18aaf6d4bd3954e59d75e928fbae24f22551fe91b640cbacb6980946caf769",
+      "text": "Ahab tends toward high SP while her crew falls to low SP. Include their negative-Coin skills when checking predictions."
+    },
+    "skills.8.name": {
+      "sourceHash": "92b0bdc060bfeec5b82cb5a08ef3a87869874d2e6517ddfa2ff9fd7cea091f7e",
+      "text": "Tempering of Death"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "969d28ff9d07fbcf7f7e88607d0e74651e52f68fc1324f0a5de6cc33a6b81ba5",
+      "text": "[On Use] Grant Undefiable Command to the ally with the lowest SP."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "0bf69e41f520c7afb27b2f65d8184434d525fa37cbb94c95cd473a352e5287f9",
+      "text": "[Clash Lose] Raise the Stagger Threshold of the ally with the lowest SP by 20."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "766ae4092fc9a1099d308e4391928de83653d3e3364431dd12071c949ed0a3bb",
+      "text": "Ⅰ：[On Hit] Inflict 2 Fragile."
+    },
+    "skills.8.response": {
+      "sourceHash": "edb078b30f5b8b65222be31763be0ac2484bcb67ddd1d619004a5abcaf2627d7",
+      "text": "Win the Clash where possible to prevent Fragile on hit. During assistance, it becomes an unopposed attack."
+    },
+    "skills.9.name": {
+      "sourceHash": "98141fc08f5bc60f17370060cab738b1220ff5275ac41668d5274cbd524211c1",
+      "text": "Harpooning"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "53d688314b6ab978002226ede68fc9149ac1713bca1c6c8190c098ee4a7822d3",
+      "text": "Ⅰ：[On Hit] Inflict 2 Bleed."
+    },
+    "skills.9.response": {
+      "sourceHash": "678dac57cb2a4c1ad96b23d3238399ce22cd6aa293b74d13bff9f3720bcb2383",
+      "text": "A normal Clash candidate. Prevent Bleed while building SP."
+    },
+    "skills.10.name": {
+      "sourceHash": "f065829b12b37af9a7c7defe320b7dc131618cf80ad6f75e082cb15d1adcad71",
+      "text": "Piercing Harpoon"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "c96c9001457c992957279eea41a0fb343cdc1ed7e925af32c06b34ceef9928a9",
+      "text": "Ⅱ：[On Hit] Inflict 3 Offense Level Down and 2 Bind next turn."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "efb570db54d39bab9080cbb6c825454cbfa9fc141c2c370a0ee34c7854620db8",
+      "text": "Ⅲ：[On Hit] Inflict 4 Bleed."
+    },
+    "skills.10.response": {
+      "sourceHash": "f6c23b830df2afe44b2d5890fda56f8102d1b74861f6b69790f52b32354771f3",
+      "text": "Disrupts next turn's Clashes and redirection. Keep it away from main attackers."
+    },
+    "skills.11.name": {
+      "sourceHash": "25d3a533690d6ab1eedfed15f9fc8dd5789e5fd2147c56fb7f69a03ffbfb840f",
+      "text": "Stalk Prey"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "273af8b6ba2162a38d52db9f639a99b78e09bb7146772fbfbed702df922e80e1",
+      "text": "Deal +30% damage on Critical Hit."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "5e03b60783bbc46d2040d41ae44873bfede4be830a206ec4885dc8c64bfb52b8",
+      "text": "Ⅰ：[On Hit] Inflict 1 Bleed."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "1cbc73f744db158bc6235e4800501d0d4dead524ab28c0993d078787503fa8dc",
+      "text": "Ⅱ：[On Hit] Inflict 1 Bleed. [On Crit] Raise the target's Stagger Threshold by 50% of damage dealt."
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "883af3c90c02e06a37c3ff6521e273e4e781df3086102bb8c056aaf0fceb776c",
+      "text": "Ⅲ：[On Hit] Inflict 5 Bleed."
+    },
+    "skills.11.response": {
+      "sourceHash": "373c78a1342c8742a6f68ad9fe8f56e6edef4c7ac9c770f833d3f289aa59f73f",
+      "text": "Poise makes it more likely to push a target into Stagger. Consider stopping it with a strong skill or E.G.O."
+    },
+    "skills.12.name": {
+      "sourceHash": "30ced9c839efad629c4665cc08a5efb997a82443ad06fde4cbb51cf543315b22",
+      "text": "Cut Throat"
+    },
+    "skills.12.label": {
+      "sourceHash": "f05d4116d746dc1d18dd36508890720c6ddd55d36867051c2c89f47c87fc5e4c",
+      "text": "Area attack / Stagger"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "6b339f1b96a66b7776343064d97dc380592b88fe39f647cc8afd661897897c1c",
+      "text": "Critical Hits do not consume Poise Count. Deal +5% damage per Bleed on the target."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "3de5cd3c5c60ba08a9e665d9f4e2c3c305a66fb225569c0559fb966a2f638a60",
+      "text": "[On Use] If this unit has no Poise, become Staggered at Turn End."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "f3992ca6f0fde954c07007bc7f08004068054a393d8f182c5f4c00ab05aaf14f",
+      "text": "Ⅰ：Deal +50% damage on Critical Hit. [On Hit] Stagger the target next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "70922ac1b9d63a0638862f50fe23776719c9ad8eb725a7148c0d4c9145882486",
+      "text": "A hit Staggers the target next turn even if HP remains. As an area attack, it is worth stopping with a reliable winner."
+    },
+    "skills.13.name": {
+      "sourceHash": "c00cd358c9fd0b46efabaf80e5335f6cdd04c3b8785626fa289596c16154f0d7",
+      "text": "Deep Breathing"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "e195a764dddfd521aa4478f1f01d107f8175ad84ac1c91f9b472abc38dd7432b",
+      "text": "[Combat Start] Gain 3 Poise and 5 Poise Count. Gain Final Power equal to own Poise Potency this turn; lose 1 Poise Count whenever damaged."
+    },
+    "skills.13.response": {
+      "sourceHash": "1fd1f3a0e04bcc30b3e8b889e87bd01134d9c2a6f506e9315f7bc1039489fc82",
+      "text": "The listed 8–9 excludes the Poise bonus. Use multiple hits to reduce Poise Count while depleting the Shield."
+    },
+    "skills.14.name": {
+      "sourceHash": "4342c8bf67cf813edc0291d9f1bb546b5fdc5a870587c96440ea9c6e75383d24",
+      "text": "Must... Protect"
+    },
+    "skills.14.label": {
+      "sourceHash": "6e008b0ea8c4fd12384b3dd7012dee4cf3fb2e07fe6d25fd3893d05e6318b726",
+      "text": "Assist Defense"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "7ea3a9ee1d1e40b2c80f0db5ef5efde4d4fe9dfa318360ebf76810136293e753",
+      "text": "[Turn Start] If using this skill with Assist Barrier above 0, activate Assist Defense."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "cfbd406c530d3ed99b9730c5089063f630f02a53bc2276f2272a1c75e2af1c46",
+      "text": "[Combat Start] Gain Assist Barrier equal to 10% of Max HP."
+    },
+    "skills.14.response": {
+      "sourceHash": "90bba0aa92711db22bd96421e24271f78a1bee565b03e454abb770565d33f042",
+      "text": "This redirects attacks aimed at Ahab. Deplete the Shield or cause normal Stagger to stop assistance."
+    },
+    "skills.15.name": {
+      "sourceHash": "478b5387e334a57304febb1c69fde2afe907b0218181a6dca75454d74cbdc569",
+      "text": "Persistent Harpoon"
+    },
+    "skills.15.label": {
+      "sourceHash": "cac48fb8c9883df0c8ea76ad8a79cf71679c3ffeb8942c3be150004d89b13059",
+      "text": "Second half / negative Coins"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "3de35f94c267810b6723dd0fbbe825ce93d7d592446feb8b952a07c413b23d23",
+      "text": "Gain +2 Final Power if attacking the same target as Starbuck."
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "e5daf5af80570a3f3660527f0bb3f602204e4baa1bb0f874359fdccfa4bb9571",
+      "text": "Ⅰ：[On Hit] Heal overall and Part HP by 50% of damage dealt."
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "2755fb79d0df8ac5bca4ef65d6c150ccafdbcf30011c93dc619847354131ccd9",
+      "text": "Ⅱ：[On Hit] Inflict Tangle and heal overall and Part HP by 50% of damage dealt."
+    },
+    "skills.15.response": {
+      "sourceHash": "c6ba1d7891620d598731f88114c8f469693c7a4485ddeec69e902d9b6433fc95",
+      "text": "Combining Tangle with Capture causes Stagger. Low SP favors stronger Tails rolls, so check the enemy's SP too."
+    },
+    "skills.16.name": {
+      "sourceHash": "2732a490f1fb1dd4f26fc461996fd0cc85b0eee7d845585e7cef9dc7507d4324",
+      "text": "Must Finish Hunt..."
+    },
+    "skills.16.label": {
+      "sourceHash": "c129d5cce4640b82b936ee8bb30b46727decb33754fd042c4faed889b62b1339",
+      "text": "Second half / area attack"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "6b339f1b96a66b7776343064d97dc380592b88fe39f647cc8afd661897897c1c",
+      "text": "Critical Hits do not consume Poise Count. Deal +5% damage per Bleed on the target."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "f3992ca6f0fde954c07007bc7f08004068054a393d8f182c5f4c00ab05aaf14f",
+      "text": "Ⅰ：Deal +50% damage on Critical Hit. [On Hit] Stagger the target next turn."
+    },
+    "skills.16.response": {
+      "sourceHash": "c976ce55d7ba353f1131ff44b7876f22706ac6a4f84c85d49528fcf6ac11817d",
+      "text": "Prolonged assistance leads to a dangerous area attack. Stop it with a Clash or prepare Stagger from the preceding turn."
+    },
+    "skills.17.name": {
+      "sourceHash": "77ad2ed3e93d45fc4da83531bd6005f3b8f2bab49983c258bae93c3edfc98c97",
+      "text": "Impale"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "995e98b2c35dacd7b98a71f2307629c75afc40944cd926f061a3399595015efb",
+      "text": "[On Use] Gain 3 Poise Count."
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "3c1cb127121aa9cbb8efc7565b3cc65a0c41380b9e9ec9c2de2983487a151bd2",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Increase Bleed Count by 1."
+    },
+    "skills.17.response": {
+      "sourceHash": "6d35e7f6a1af304bc29fdfc5a12ebbcf32c4d1ce8b715b32d7a0aad81e59ba1a",
+      "text": "Extends Bleed applied by other enemies. Stagger him early to reduce attack count."
+    },
+    "skills.18.name": {
+      "sourceHash": "69a84b29f59fa7df4fce1e54a3a641f425037eb301f43128a232477b9b4448f7",
+      "text": "Piercing Thrust"
+    },
+    "skills.18.label": {
+      "sourceHash": "f8abbef9249bbba00c7cc2e9d4b7911fb2fdf7d7beccc40c847286d60c8e1f55",
+      "text": "Coin reuse"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "a515792a3d3a54b334da419966e4c815a84e629c401a4a5121cb13345ec8687d",
+      "text": "[On Use] Gain 5 Poise."
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "415f73001575b2eccbc1358a3a4f66edbdd09ce32fab962f9c59b3888c416f21",
+      "text": "Ⅰ：[On Hit] Inflict 1 Fragile next turn."
+    },
+    "skills.18.effects.2": {
+      "sourceHash": "a86f4801387bc625c812d3bce7aebf513c992abe9a7155b5dc9092ccf972354f",
+      "text": "Ⅱ：[On Hit] Inflict 2 Defense Level Down next turn. [Heads Hit] Reuse this Coin, up to 3 times."
+    },
+    "skills.18.response": {
+      "sourceHash": "42c0bdccfebbaa74df126c38d6afbd501f1038dff8a42a91b20bc4453610993f",
+      "text": "The listed 2 Coins exclude reuse. Letting it hit increases attacks and debuffs, so prioritize winning the Clash or Staggering him before he acts."
+    },
+    "skills.19.name": {
+      "sourceHash": "eb454af23064071fe71b5f0a34685c46c7fb3c88891b7f4a6f8819a9de777da1",
+      "text": "I Follow Orders..."
+    },
+    "skills.19.label": {
+      "sourceHash": "07e1d25071d63fea3fb0cd20b252e15f34db2eb535d2f21be6ed6aa3e84de8f8",
+      "text": "Assist Attack"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "6cd501940b62525802619e6cc0dcbd3f0a5a27ec5b72e08c810df5452975ba4c",
+      "text": "[Turn Start] If Queequeg's Assist Barrier is above 0, activate Assist Attack."
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "80d6f135df94fae60ba49b8bd8294993978e50582d19b461ad37ec16d337dffa",
+      "text": "Ⅰ：[On Hit] Increase Bleed Count by 1."
+    },
+    "skills.19.response": {
+      "sourceHash": "d251377c32b77ae66bf33ec0fc81bb27ea2106f565e416ad0555e69dfcad7cd8",
+      "text": "An extra unopposed attack follows Ahab's attack. Limit damage by Staggering or defeating Starbuck, or by depleting the Shield."
+    },
+    "skills.20.name": {
+      "sourceHash": "5ce5b999342e65485cfd596c88bf9aac6971c0bba99a1278ea0e49fa0b60102f",
+      "text": "Ambush"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "3e21f24b9be740e79792f7bcb855b0fc25d27996c2032d5a9c53f56bc05eaadd",
+      "text": "Deal +50% damage on Critical Hit and +5% damage per Bleed on the target."
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "da72050ca52423a0e71eed39ceb562174e11bedd45dc7f3843ce5d71e91a8a52",
+      "text": "Ⅰ：[On Hit] Increase Bleed Count by 3. [On Crit] Raise the target's first Stagger Threshold by 50% of damage dealt."
+    },
+    "skills.20.response": {
+      "sourceHash": "af99eb64a8ed5725647579bfa65cc335941b33a3b81af36a54269a8d93b63c65",
+      "text": "Bleed and Poise together cause heavy damage. Be especially careful if the marked defender is near Stagger."
+    },
+    "skills.21.name": {
+      "sourceHash": "341214aeaf44ee55ac5c0b26fecee60ec9d98e2ce13ee5129937a6ad02bdc507",
+      "text": "Fearful Sigh"
+    },
+    "skills.21.label": {
+      "sourceHash": "cac48fb8c9883df0c8ea76ad8a79cf71679c3ffeb8942c3be150004d89b13059",
+      "text": "Second half / negative Coins"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "6efd1e9e18b2f5dad801c4eb3ffa30368042a97f5d3d82e3f705d91961bb09f5",
+      "text": "[On Use] Gain 6 Poise Count."
+    },
+    "skills.21.effects.1": {
+      "sourceHash": "3c1cb127121aa9cbb8efc7565b3cc65a0c41380b9e9ec9c2de2983487a151bd2",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Increase Bleed Count by 1."
+    },
+    "skills.21.response": {
+      "sourceHash": "b86f4fceab2e2011463887d84b139467eebab777cb36205633efc9c40415e092",
+      "text": "Tends to grow stronger at low SP. Prepare for the following critical attack too."
+    },
+    "skills.22.name": {
+      "sourceHash": "86b3c9217ce38f5a7eeb428f68aa85243e84be2f1b607bb064eeaeb1cb2eea69",
+      "text": "Determined Harpoon"
+    },
+    "skills.22.label": {
+      "sourceHash": "b783cfe9831beeef8f6a98e013d11f7244b1757335456756eef4136a60c73773",
+      "text": "Second half / reuse"
+    },
+    "skills.22.effects.0": {
+      "sourceHash": "0284da4d78aee1ab89c2d187b1bc944a11a76fea932cd951d83a4aca1a56c1f4",
+      "text": "Gain +2 Final Power if attacking the same target as Queequeg."
+    },
+    "skills.22.effects.1": {
+      "sourceHash": "6dcd3d9cfa09af274cd0676a50ecf4855cb2da8652e141a049ab64de32e2bba0",
+      "text": "Ⅰ：[On Hit] Inflict Capture. Inflict 5 Defense Level Down next turn."
+    },
+    "skills.22.effects.2": {
+      "sourceHash": "7233397de46f85e0f296216997b2a1c7bd00f1095b8447486d87bade93b66202",
+      "text": "Ⅱ：[On Hit] Inflict 1 Fragile next turn. [Tails Hit] Reuse this Coin, up to 3 times."
+    },
+    "skills.22.response": {
+      "sourceHash": "e7eb83671dd55b85a406525d0d7c968bb0c712fb5357d8735478a9ea3aaaadd9",
+      "text": "Combining Capture with Tangle causes Stagger, while reuse increases damage. Stop it with a strong Clash rather than treating it as only 2 hits."
+    },
+    "skills.23.name": {
+      "sourceHash": "f7709963d51214105a179f38e9646bcdc6cdf837d88b3ec7b652b9b69cb00dfb",
+      "text": "To Escape..."
+    },
+    "skills.23.label": {
+      "sourceHash": "07432e280565d407344774ff14d7e7e14c8f2b78027d85fcaa9cd43c380ee6bd",
+      "text": "Second half"
+    },
+    "skills.23.effects.0": {
+      "sourceHash": "6fa0582b3b87c9a1cf2051e31e39d406e7f0b2362365e303204171ff6a0d3624",
+      "text": "Deal +100% damage on Critical Hit and +5% damage per Bleed on the target."
+    },
+    "skills.23.effects.1": {
+      "sourceHash": "da72050ca52423a0e71eed39ceb562174e11bedd45dc7f3843ce5d71e91a8a52",
+      "text": "Ⅰ：[On Hit] Increase Bleed Count by 3. [On Crit] Raise the target's first Stagger Threshold by 50% of damage dealt."
+    },
+    "skills.23.response": {
+      "sourceHash": "4e928e2422082c4d1b30b26227802c22ec706dcbb89c5f685d9c270ecf134e67",
+      "text": "A negative-Coin attack with 20 Base Power. Low enemy SP does not weaken it; check predictions and resistances when answering it."
+    },
+    "passives.0.name": {
+      "sourceHash": "7ec87493e2a6dc889f8e0d572995924d3e631829cc1d4bd6a79b201f95dfbed3",
+      "text": "Suppressed Pallidification"
+    },
+    "passives.0.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.0.effect": {
+      "sourceHash": "3e83cac4c9df38b5fa9279c15436c3db1b896f16b20f3fcba64b0a99ccd2ac7d",
+      "text": "Increase Offense and Defense Levels by the number of other living allies."
+    },
+    "passives.0.response": {
+      "sourceHash": "f34184bca02ee41c6b39627846116adc50371a3304a53d5531b5698a38216f1e",
+      "text": "Defeating crew members reduces this buff as well as enemy actions."
+    },
+    "passives.1.name": {
+      "sourceHash": "7ec87493e2a6dc889f8e0d572995924d3e631829cc1d4bd6a79b201f95dfbed3",
+      "text": "Suppressed Pallidification"
+    },
+    "passives.1.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.1.effect": {
+      "sourceHash": "3e83cac4c9df38b5fa9279c15436c3db1b896f16b20f3fcba64b0a99ccd2ac7d",
+      "text": "Increase Offense and Defense Levels by the number of other living allies."
+    },
+    "passives.1.response": {
+      "sourceHash": "f34184bca02ee41c6b39627846116adc50371a3304a53d5531b5698a38216f1e",
+      "text": "Defeating crew members reduces this buff as well as enemy actions."
+    },
+    "passives.2.name": {
+      "sourceHash": "7ec87493e2a6dc889f8e0d572995924d3e631829cc1d4bd6a79b201f95dfbed3",
+      "text": "Suppressed Pallidification"
+    },
+    "passives.2.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.2.effect": {
+      "sourceHash": "3e83cac4c9df38b5fa9279c15436c3db1b896f16b20f3fcba64b0a99ccd2ac7d",
+      "text": "Increase Offense and Defense Levels by the number of other living allies."
+    },
+    "passives.2.response": {
+      "sourceHash": "f34184bca02ee41c6b39627846116adc50371a3304a53d5531b5698a38216f1e",
+      "text": "Defeating crew members reduces this buff as well as enemy actions."
+    },
+    "passives.3.name": {
+      "sourceHash": "62a63ceeb8563474d160a9f2857f6aabf6250f7e4cef428c1e68b2a92d42f43c",
+      "text": "Captain of the Pequod"
+    },
+    "passives.3.condition": {
+      "sourceHash": "d5e4eb85f45f2fb4690e5449b07715c6396117abf86bf7542648eeeeca258151",
+      "text": "Turn Start / Turn End"
+    },
+    "passives.3.effect": {
+      "sourceHash": "f7ef1c4104bccf0e2d253a7334046ae2d1d83f1dc7051fd064e92f4800ffab35",
+      "text": "At Turn Start, heal 15 SP unless at -45 SP. At Turn End, if in Panic, remove it and reset SP to 0."
+    },
+    "passives.3.response": {
+      "sourceHash": "94e00d3e631623a645ca6a27bd78c1275d1bee344259582c17831bb8a9ae6287",
+      "text": "SP rises easily. In longer fights, prepare for high Heads odds."
+    },
+    "passives.4.name": {
+      "sourceHash": "01cac85651c8c07a7604fd23572486c527ae6681bbe419eb4c507be97657a372",
+      "text": "Muddled Orders"
+    },
+    "passives.4.condition": {
+      "sourceHash": "3b0d2818e64da3f4231915a1330ae79d2b00e4c8909ac21b76f43ef76bf41821",
+      "text": "Ahab becomes Staggered"
+    },
+    "passives.4.effect": {
+      "sourceHash": "16ef7a8a381b6f342709f779427af99783b4fa7f486360b8c39e8a3c2b4863b0",
+      "text": "Reset all other allies' SP to 0."
+    },
+    "passives.4.response": {
+      "sourceHash": "53d3b754478dc9c1069d56706136b299a1df0c8b84c810a119c06ec06dd8863b",
+      "text": "Stagger also helps cancel orders, but low-SP negative-Coin attacks still need separate care."
+    },
+    "passives.5.name": {
+      "sourceHash": "ef6605f796d70b3e31947a4d2091b4d14d2ad34080068bfeea283ead4cc9d0c4",
+      "text": "Coldhearted Decision"
+    },
+    "passives.5.condition": {
+      "sourceHash": "6fbc31da1588e8d8126ebe5cec7b475fcc47610e1ad94517301eb253ea23cfe9",
+      "text": "Transition to the second half"
+    },
+    "passives.5.effect": {
+      "sourceHash": "a29996b1209769ceae1c3b03f79e67914302e2445a9e55dec03be7714b5a5bb7",
+      "text": "Ahab heals. Captain's Orders stops activating for Queequeg and Starbuck."
+    },
+    "passives.5.response": {
+      "sourceHash": "51830f47af3e83eaa3acc56d23af9d322a8eaabc65443b6016740a184555c193",
+      "text": "Her crew has less SP recovery and switches to negative-Coin skills. Adjust your first-half strategy."
+    },
+    "passives.6.name": {
+      "sourceHash": "8fe03bbe65cb2e974e88e3d6d6efd93f5b5b2ce99c28c6c87f34c9d5f2d8c4eb",
+      "text": "Captain's Orders"
+    },
+    "passives.6.condition": {
+      "sourceHash": "0d35ecbaf8e2151b338ad10fddb009fb8e5e0418106f51433ff17e0f4ea6c7ee",
+      "text": "Turn Start in the first half"
+    },
+    "passives.6.effect": {
+      "sourceHash": "781bf690db45c77cab67299d0a1affde065a154f05b6d549494aa7cb224a3c17",
+      "text": "Unless at -45 SP, heal SP equal to the number of other living allies × 5. If at -45 at Turn Start, remove Panic and reset SP to 0 at Turn End."
+    },
+    "passives.6.response": {
+      "sourceHash": "00eae69535ea486c9cee8161ee3896188722a67aa271fae17572420a4bd68549",
+      "text": "Provides first-half SP recovery. Does not activate in the second half."
+    },
+    "passives.7.name": {
+      "sourceHash": "1659756a0efd97a0a30bfa9241d56325bb11331e21e8a0f003df2439a018093d",
+      "text": "Clouded Mind"
+    },
+    "passives.7.condition": {
+      "sourceHash": "67a97b0bb759a56288d770da0207b25421d50ee97b6ca8797da96082baf3f432",
+      "text": "Becomes Staggered"
+    },
+    "passives.7.effect": {
+      "sourceHash": "f8ede7ffd4bf2e0ad8ded19f4119f0508996bd13e250cc05a09b3cd8dfa48b97",
+      "text": "Reset SP to 0."
+    },
+    "passives.7.response": {
+      "sourceHash": "575f72b7ac58134dd8f58998c3d1dcbc79f2cfb00d98f42f3bbe5b650183cfbd",
+      "text": "Check SP after Stagger too. Previous high SP may not remain."
+    },
+    "passives.8.name": {
+      "sourceHash": "8fe03bbe65cb2e974e88e3d6d6efd93f5b5b2ce99c28c6c87f34c9d5f2d8c4eb",
+      "text": "Captain's Orders"
+    },
+    "passives.8.condition": {
+      "sourceHash": "0d35ecbaf8e2151b338ad10fddb009fb8e5e0418106f51433ff17e0f4ea6c7ee",
+      "text": "Turn Start in the first half"
+    },
+    "passives.8.effect": {
+      "sourceHash": "781bf690db45c77cab67299d0a1affde065a154f05b6d549494aa7cb224a3c17",
+      "text": "Unless at -45 SP, heal SP equal to the number of other living allies × 5. If at -45 at Turn Start, remove Panic and reset SP to 0 at Turn End."
+    },
+    "passives.8.response": {
+      "sourceHash": "00eae69535ea486c9cee8161ee3896188722a67aa271fae17572420a4bd68549",
+      "text": "Provides first-half SP recovery. Does not activate in the second half."
+    },
+    "passives.9.name": {
+      "sourceHash": "1659756a0efd97a0a30bfa9241d56325bb11331e21e8a0f003df2439a018093d",
+      "text": "Clouded Mind"
+    },
+    "passives.9.condition": {
+      "sourceHash": "67a97b0bb759a56288d770da0207b25421d50ee97b6ca8797da96082baf3f432",
+      "text": "Becomes Staggered"
+    },
+    "passives.9.effect": {
+      "sourceHash": "f8ede7ffd4bf2e0ad8ded19f4119f0508996bd13e250cc05a09b3cd8dfa48b97",
+      "text": "Reset SP to 0."
+    },
+    "passives.9.response": {
+      "sourceHash": "575f72b7ac58134dd8f58998c3d1dcbc79f2cfb00d98f42f3bbe5b650183cfbd",
+      "text": "Check SP after Stagger too. Previous high SP may not remain."
+    },
+    "passives.10.name": {
+      "sourceHash": "beb2e3b4bf7681da58356eb4ceb43d6710521515ecec5858d1e2bea7cb6c20a0",
+      "text": "Mutilated Tattoos"
+    },
+    "passives.10.condition": {
+      "sourceHash": "0eb72a8c1f6fa5c2cb5b189cb5d269910e9cdb11b00c4895e65e327fea49f8ba",
+      "text": "An allied Pequod Town member is defeated"
+    },
+    "passives.10.effect": {
+      "sourceHash": "0313b7e9b5b0e10f8558992428700d402e0e4c546e73ca39b903a73a1710b106",
+      "text": "Lose 1 Poise Count and 10 SP."
+    },
+    "passives.10.response": {
+      "sourceHash": "c2efd0777b6c0a8cfe710d9d0983ba2641656caa37f8f48093676c9390943fe8",
+      "text": "Defeating Starbuck also reduces Poise, but second-half negative-Coin attacks grow stronger at low SP."
+    },
+    "passives.11.name": {
+      "sourceHash": "c608fb188d08c2e3209fd9e26f2d22deac2427249d03c78b7df242350ecbb78e",
+      "text": "The Indomitable Harpooneer"
+    },
+    "passives.11.condition": {
+      "sourceHash": "5e55f309f498558ffc0f7a6e3f53f51ed39565a09afb465689d2b785c0d707da",
+      "text": "As HP decreases"
+    },
+    "passives.11.effect": {
+      "sourceHash": "2b4cd7d5c92d84dc2f74b84941b2fba12386d97bbf69569c2d1b738b6d2da672",
+      "text": "Skill damage increases."
+    },
+    "passives.11.response": {
+      "sourceHash": "78e6ec14baee55b34a670228772216be01eb66ba234c46b9ec4c796945f49637",
+      "text": "If leaving her partially damaged, save answers to her attacks."
+    },
+    "passives.12.name": {
+      "sourceHash": "cddc6b6d92b59453c108e24358a2692b383acafa5601ee7c5e6afba840dda394",
+      "text": "Engraved Hatred and Animosity"
+    },
+    "passives.12.condition": {
+      "sourceHash": "858818e3c7b32b909c583aa1755206541a38bf0b82df56ec6993bc2048940d50",
+      "text": "Reaches 0 HP / once per battle"
+    },
+    "passives.12.effect": {
+      "sourceHash": "11b5d68d6b06bf63f755c03ea186de083ee046ce015c6f6fd99d47fa8e7f4432",
+      "text": "Recover to 50% of Max HP and gain 2 Attack Power Up next turn."
+    },
+    "passives.12.response": {
+      "sourceHash": "4f6054f125558aee6aade1c5b70b01e3394c067462c09eec6d38226343802263",
+      "text": "Reaching 0 HP once does not finish her. The basic beginner strategy stops Starbuck first."
+    },
+    "passives.13.name": {
+      "sourceHash": "23e01b230e6749d461357ade92e622cc701a67c21b83a9e28c141ac5dfbab05d",
+      "text": "Puncturing Harpoon"
+    },
+    "passives.13.condition": {
+      "sourceHash": "3c349ef2b911c51b76ca17b867dcb5415b55aabadee1453f5968465a638e5396",
+      "text": "On Crit"
+    },
+    "passives.13.effect": {
+      "sourceHash": "ce94352a71198be93eb58d23ad6ac84234d98b9896c56c7a957a75ebf40646bd",
+      "text": "Increase the value of negative effects inflicted by skills by 1."
+    },
+    "passives.13.response": {
+      "sourceHash": "a1912f1565693fdcce0157406be6d8a86cc975bb2a2c1dc2751c3e94ee709f6e",
+      "text": "Letting Poise attacks hit also means stronger debuffs."
+    },
+    "passives.14.name": {
+      "sourceHash": "cddc6b6d92b59453c108e24358a2692b383acafa5601ee7c5e6afba840dda394",
+      "text": "Engraved Hatred and Animosity"
+    },
+    "passives.14.condition": {
+      "sourceHash": "3d532e0db485402609985ef116d912c8c85ff6351a33521daa16bb4b70428cf7",
+      "text": "Below 50% HP at Turn End / once per battle"
+    },
+    "passives.14.effect": {
+      "sourceHash": "1e7a037d5095851291a492d82107980dbd9cac0b6cf05b93361d77a0cca5b2ee",
+      "text": "Gain 2 Haste and 2 Attack Power Up next turn."
+    },
+    "passives.14.response": {
+      "sourceHash": "b6fd7e714ce99981f5c5b5970055e0bd13a74bedb04669fd3b78797c23d5d50e",
+      "text": "After reducing HP by half, push on to Stagger or defeat rather than giving the buffed enemy a chance to retaliate."
+    },
+    "passives.15.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.15.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.15.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.15.response": {
+      "sourceHash": "bec2e8cf601899201e419433cca48109fe942a60830c0a9a96db08eab5f01dbc",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "passives.16.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.16.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.16.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.16.response": {
+      "sourceHash": "bec2e8cf601899201e419433cca48109fe942a60830c0a9a96db08eab5f01dbc",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "passives.17.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.17.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.17.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.17.response": {
+      "sourceHash": "bec2e8cf601899201e419433cca48109fe942a60830c0a9a96db08eab5f01dbc",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "79ade1dc96a89c54ab04ba6c6c0a1f213dd7cddf5ffe6c4855aa0be1ca644605",
+      "text": "Prey Mark"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "8619c32ab09b8ab663d68185ec360da672ebecce00c6bef597a1a6d4d7cde43d",
+      "text": "Prioritized by Pequod crew attacks and takes 50% more damage from them."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "c5ce48e048d2c7b3f3b26787c3962cf00cfd98992ea126c5d3f83ba9fef06558",
+      "text": "Redirect the applying attack to a defender beforehand. Do not assume every attack can be redirected away afterward."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "6e008b0ea8c4fd12384b3dd7012dee4cf3fb2e07fe6d25fd3893d05e6318b726",
+      "text": "Assist Defense"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "22b4c85272eefc9234e72dbb3f1e28c6111a5b87edbe8816e2c9aa5f3e7d9ad7",
+      "text": "Attacks aimed at Ahab move to Queequeg's slots. The assisting unit's slot weight increases without limit."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "c7fbb7fe5807827b76a0d8adef3ea05558a6864ea91cd2c53bc25a080aeb655c",
+      "text": "Area attacks aimed at Ahab may not land as expected either. Prioritize Staggering Queequeg or depleting her Shield."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7100bf03d3dab089e24ad3f41520d94793675c4f54f54972d77f79a75566adf6",
+      "text": "Assist Barrier"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "dfa2a99b536a6fa635de1fb9c1b7c32c4d9209acf062b73949482df803227314",
+      "text": "Decreases by damage taken and persists across turns. In the first half, reaching 0 at Turn End causes Stagger next turn. This Stagger effect does not occur in the second half."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "31aceaab60c83c44d8b2cc67d0e0bae669a206783cb87b4d175cc9d5e7e08aa5",
+      "text": "Aim to fully deplete it in 1 turn. In the second half, pursue normal HP Stagger separately."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "07e1d25071d63fea3fb0cd20b252e15f34db2eb535d2f21be6ed6aa3e84de8f8",
+      "text": "Assist Attack"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "46c707230164b0abde6c750dbefbbe0781d7ab83f20190bcc81b17057bc0f3b2",
+      "text": "After Ahab's Attack Skill ends, Starbuck attacks the same target unopposed using his Counter skill's Coins, effects, and Offense Level."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "82adb6864b4bfa5065fae6cee3b408d85e25e7aefd730acfc16c9ce2846295eb",
+      "text": "Do not calculate incoming damage from Ahab's attacks alone. This is one reason to stop Starbuck first."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "09f0c3d3defc794c5f0137217d03a06e106e30c02c8c1bf0aa9b326f37d0e557",
+      "text": "Tangle / Capture"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "6e5478b25580089c535dec6fba6148b157806aa8cad268d37b25767a4523dc84",
+      "text": "Having both on the same target causes Stagger. Does not apply again to an already Staggered target."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "1e6d3215bf2844065602f6abb7cde1604ded92f839792cd317945e7665f71207",
+      "text": "Avoid letting both second-half harpoon attacks hit the same Sinner. Stagger can occur even with plenty of HP."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "1a3913c5705419385abd2f6b80d7dbf8c27ffe8e260cbc81ccda413e02377f42",
+      "text": "Undefiable Command"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "9d476672b425f6361fc0dc36309e753e2cf11e4495644dba9fa545b70c158c7c",
+      "text": "On skill use, lose 10% of current HP and gain +1 Final Power. On hit, heal Ahab by 8 SP and grant both units 2 Poise."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "bc07e6c430600ca6173295a39cb0a18a0cb39bedb620cab83c1ac6e2d17f474e",
+      "text": "The user's attack is strengthened even while losing HP. Check second-half Clash predictions."
+    },
+    "warnings.0": {
+      "sourceHash": "45ea733cfe65ee48d283fc85018fd8bdd4c5d3c38dde8db870b8210367f4c83e",
+      "text": "Unlike Ricardo's fight, Ishmael can be defeated normally here. Mandatory deployment does not mean invulnerability."
+    },
+    "warnings.1": {
+      "sourceHash": "a8521209cd599b15a640d01b678d46d02d363bd0154aee19bfa55c93aadc46d9",
+      "text": "Assistance already active may persist into the second half. Advancing the phase does not guarantee removing it."
+    },
+    "warnings.2": {
+      "sourceHash": "f9f07416d087b38961156ee14f3e25d6965f45eb532b3e5b91a3dd93d0ee7317",
+      "text": "Stagger from depleting Queequeg's Shield differs from normal HP Stagger. The former does not occur in the second half."
+    },
+    "warnings.3": {
+      "sourceHash": "12f19dfcfb24b816ab7c57342528b33b7fd6fcba2b02d9700ab5ec3012e31c5f",
+      "text": "Coin reuse is not included in the displayed count. Starbuck in particular gains extra attacks after hitting, making his Clashes valuable to stop."
+    },
+    "preparation.0": {
+      "sourceHash": "0438cd9dca6c54234cfafdc6bbc6df5b494b0983f0ed1f3517df68fcbf71ac56",
+      "text": "Aim for Level 40 on your main units. Ishmael is mandatory, but you can prepare another Sinner as the defender."
+    },
+    "preparation.1": {
+      "sourceHash": "dbf4f4048e1ae35af321576e6d7be053e1dd6de5f2b733055e129a8e3b7946da",
+      "text": "Prepare a Pierce-resistant defender. Check Sin resistances to incoming attacks such as Gluttony, Pride, and Envy as well as HP."
+    },
+    "preparation.2": {
+      "sourceHash": "11712e9dc68d9f964f635c0c7be25f8a065e618bffe11535bfb2553f4a59e15e",
+      "text": "Pierce works against Starbuck and Ahab; Blunt works against Queequeg. First secure winning skills, then exploit weaknesses among those options."
+    },
+    "preparation.3": {
+      "sourceHash": "aaa63c0755d26910984d6d00d7ac2d122a4ecbfb10899555d19cfa7cc5e5f21a",
+      "text": "Prepare E.G.O resources within the dungeon for Protection, healing, or enemy Attack Power Down. No specific high-rarity Identity is required."
+    },
+    "roles.0.name": {
+      "sourceHash": "3eb6ecb9d6924cc99a208d5c64ca58ea7f9d6faf4646342f4f70ec98e3f3a4af",
+      "text": "Defender for Prey Mark"
+    },
+    "roles.0.reason": {
+      "sourceHash": "f2f36dee488916a5c1ee126ba827db06484959b279f7edbdc3deb65f3bd8ee4a",
+      "text": "A Sinner with Pierce resistance and HP who can take the mark-applying attack. Support them with Protection and healing for next turn's focused attacks."
+    },
+    "roles.1.name": {
+      "sourceHash": "4fba1186c52b3fd428d10bf6b42e297bc04c61c4cc31db9110166f2f0a9e200c",
+      "text": "Pierce attacker to stop Starbuck"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b1eb6a36bca251cd8811b2f6cd85e9920dc85bac82ccfbad948c47337439e9c6",
+      "text": "Aim for Stagger immediately to reduce Coin reuse and Assist Attack."
+    },
+    "roles.2.name": {
+      "sourceHash": "d5cb2ac9abfd53b77b15a5c8e0b7f495f5cc7cb594d57ceecd94f93c41e075e5",
+      "text": "Order disruption / Shield damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "90a054fdab361d24987693dd1f405f5b11f7450feb43b732957e4f0e4397763a",
+      "text": "Set up Ahab's Stagger Threshold or focus Blunt and other damage on Queequeg. Shift roles between the order turn and the following assistance turn."
+    }
+  },
+  "messages": {
+    "boss-copy:ahab-trio": "complete",
+    "【リンバス】5-36 エイハブ・クィークェグ・スターバックの攻略｜Limbus Assistant": "5-36 Ahab / Queequeg / Starbuck Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-36「エイハブ・クィークェグ・スターバック」の攻略。攻撃役のスターバックを早めに止め、エイハブの命令に備えよう。獲物の印を受ける役と、援護防御バリアを削る役を決めると動きやすい。": "Ahab / Queequeg / Starbuck guide for Limbus Company 5-36. Stop Starbuck's attacks early and prepare for Ahab's orders. Assign a Sinner to take Prey Mark and others to deplete the Assist Barrier.",
+    "5-36 エイハブ・クィークェグ・スターバック": "5-36 Ahab / Queequeg / Starbuck",
+    "5-36「Into the Darkness, Floor 3」": "5-36 · Into the Darkness, Floor 3",
+    "エイハブの外見": "Ahab appearance",
+    "エイハブのスキル": "Ahab skills",
+    "Ahabの外見": "Ahab appearance",
+    "Ahabのスキル": "Ahab skills",
+    "クィークェグの外見": "Queequeg appearance",
+    "クィークェグのスキル": "Queequeg skills",
+    "Queequegの外見": "Queequeg appearance",
+    "Queequegのスキル": "Queequeg skills",
+    "スターバックの外見": "Starbuck appearance",
+    "スターバックのスキル": "Starbuck skills",
+    "Starbuckの外見": "Starbuck appearance",
+    "Starbuckのスキル": "Starbuck skills"
+  }
+}

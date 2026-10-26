@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0810.md",
+  "code": "0810",
+  "messages": {
+    "自分の振動回数を防御レベル増加に変え、挑発値で攻撃を集めながら振動爆発で殴り返すタンク。": "A tank that converts her Tremor Count into Defense Level Up, draws attacks with Aggro, and strikes back through Tremor Burst.",
+    "振動回数→防御レベル増加: 各攻撃スキルは使用時に自分の振動回数に応じて防御レベル増加を得る。防御レベル増加が多いほど威力が上がる。": "**Tremor Count → Defense Level Up**: Each attack skill grants Defense Level Up on use based on her Tremor Count. The more Defense Level Up she has, the higher their power.",
+    "挑発値: S1〜S3は使用時に次のターンの挑発値を得る(S3は8/10)。": "**Aggro**: S1–S3 grant Aggro next turn on use (8/10 for S3).",
+    "防御態勢: 守備「あなたの盾」の戦闘開始時に得る。次のターン、速度が最低値に固定される代わりに防御レベル増加5、挑発値、混乱しない、マッチ勝利時に振動爆発などを得る。集中戦闘では攻撃対象を速度に関係なく自分に変更できる。": "**Defensive Stance**: Gained at Combat Start of the Defense skill Your Shield. On the next turn, her Speed is fixed at its minimum, but she gains 5 Defense Level Up, Aggro, Stagger immunity, Tremor Burst on Clash Win, and more. In Focused Encounters, she can redirect attack targets to herself regardless of Speed.",
+    "S3「守護」: 防御態勢があればダメージ量+50/70%。Ⅲコインで自分の振動回数を全て消耗し、その分の振動を付与して振動爆発。": "**S3 — Ward**: +50/70% damage with Defensive Stance. Coin Ⅲ spends all of her Tremor Count to inflict that much Tremor and trigger Tremor Burst.",
+    "パッシブ「衝撃相殺グレートソード」: 戦闘開始時、自分の振動回数だけ防御レベル増加(最大5、防御態勢中は2倍)。": "**Passive — Shock-nullifying Greatsword**: At Combat Start, gains Defense Level Up equal to her Tremor Count (up to 5, doubled during Defensive Stance).",
+    "守備で防御態勢と振動回数を得て攻撃を集め、防御レベル増加を高く保つ。S3で振動回数を振動に変えて振動爆発させる。": "Gain Defensive Stance and Tremor Count with her Defense skill to draw attacks and keep Defense Level Up high. Convert Tremor Count into Tremor with S3 and trigger Tremor Burst."
+  }
+}

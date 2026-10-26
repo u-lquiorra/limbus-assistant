@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0507.md",
+  "code": "0507",
+  "messages": {
+    "中指編成で、S2の両隣への嫉妬強化と精神力の回復を担う支援役。サポートパッシブで控えに置いても精神力を回復でき、この回復が大きな強み。": "A Middle-team support that uses S2 to provide Envy buffs and SP recovery to adjacent allies. His support passive also restores SP from the bench, and that recovery is a major strength.",
+    "両隣の強化: S2「義理の鎖」は戦闘開始時、操作パネルの両隣の味方へ嫉妬威力増加1を付与(そのスロットのスキルが嫉妬属性なら嫉妬ダメージ増加1も)。両隣に味方がいる位置に置くと効果を最大限に活かせる。": "**Buffing both neighbors**: At Combat Start, S2 Chains of Loyalty gives 1 Envy Power Up to the allies on both sides of him on the dashboard (plus 1 Envy DMG Up if that slot's skill is Envy). Placing him where he has allies on both sides makes the most of it.",
+    "精神力の回復: バトルパッシブ「義理」(嫉妬×3・保有・同期化Ⅱで取得)により、自分以外の中指人格が生存していれば、ターン終了時に自分と精神力が最も低い中指人格1名の精神力を6回復する。": "**SP recovery**: Through the combat passive Loyalty (3 Envy Owned; unlocked at Uptie Ⅱ), while another Middle Identity is alive, he restores 6 SP to himself and the 1 Middle Identity with the lowest SP at Turn End.",
+    "サポートパッシブ「一家」(嫉妬×3・保有・同期化Ⅲで取得): 控えにいる間、精神力が最も低い味方1名に同じ所属のキャラクターが生存していれば、ターン終了時にその味方の精神力を10回復する。": "**Support passive — One Family (3 Envy Owned; unlocked at Uptie Ⅲ)**: While in backup, if the 1 ally with the lowest SP has a living character from the same affiliation, that ally recovers 10 SP at Turn End.",
+    "嫉妬共鳴で強化: S3「刻む」と守備「倍返し」は嫉妬共鳴4以上でコイン威力+1。S3は最大嫉妬完全共鳴6以上でさらに+1。ただしS3自体は憤怒属性なので、嫉妬の共鳴には数えられない。": "**Envy Resonance bonuses**: S3 Recording and the Defense skill Multifold Retribution gain +1 Coin Power at 4 or more Envy Resonance. S3 gains +1 more at a highest Envy Absolute Resonance of 6 or more. However, S3 itself is Wrath, so it does not count toward Envy Resonance.",
+    "仕返し対象: 「義理」により、ターン終了時、そのターンに味方へスキルで最も多くダメージを与えた敵1名に付与する。メイン攻撃対象が仕返し対象なら最終威力+1。S3は仕返し対象に次のターンの加算コイン弱化(Ⅰコイン)・嫉妬脆弱(Ⅲコイン)を付与する。": "**Vengeance Mark**: Through Loyalty, at Turn End, it is applied to the 1 enemy that dealt the most skill damage to allies that turn. +1 Final Power if the main target has Vengeance Mark. S3 inflicts Plus Coin Drop (Coin Ⅰ) and Envy Fragility (Coin Ⅲ) for the next turn on targets with Vengeance Mark.",
+    "中指所属の味方と組み、S2で両隣の味方を強化しながら、パッシブで味方の精神力を支える。出場させない場合も、サポートパッシブで所属をそろえた編成の精神力を回復できる。": "Pair him with Middle allies, buffing both neighbors with S2 while his passive supports allies' SP. Even when he is not deployed, his support passive restores SP for teams built around a shared affiliation."
+  }
+}

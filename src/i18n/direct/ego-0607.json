@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0607.md",
+  "code": "0607",
+  "messages": {
+    "4枚のコインで破裂と出血をまとめて付与し、投げ縄で敵の破裂を伸ばす暴食打撃のE.G.O。": "A Gluttony Blunt E.G.O that inflicts Rupture and Bleed together with 4 Coins and extends enemy Rupture with Lasso.",
+    "4コインの付与: 4枚目のコインが的中時に破裂1と出血1を、解析Ⅲでは速度÷2回(最大3)、Ⅳでは速度ぶん(最大7)ずつ、攻撃対象へランダムに分けて付与する。": "**4-Coin infliction**: On hit, the fourth Coin inflicts 1 Rupture and 1 Bleed at a time, (Speed ÷ 2) times at Threadspin Ⅲ (up to 3) and Speed times at Ⅳ (up to 7), randomly split among the targets.",
+    "コイン威力の強化: 対象の破裂7につきコイン威力+1(最大2)。解析Ⅲから、自分と対象の速度の合計が6以上でもコイン威力+1。基本威力4と低く、マッチは弱い。": "**Coin Power bonus**: +1 Coin Power per 7 Rupture on the target, up to 2. From Threadspin Ⅲ, +1 Coin Power if his Speed and the target's total at least 6. Base Power is a low 4, so it is weak in Clashes.",
+    "破裂回数: 暴食共鳴数2につき破裂回数が1増える(最大3)。回数の収支を補う手段は別に用意したい。": "**Rupture Count**: Rupture Count increases by 1 per 2 Gluttony Resonance, up to 3. You will want a separate way to balance Count.",
+    "投げ縄: Ⅱコインの的中時に付与する。ターン終了時に対象は自分の速度ぶんの破裂威力(最大5)を得て、次のターンに束縛1を受ける。": "**Lasso**: Inflicted on Coin Ⅱ hit. At Turn End, the target gains Rupture Potency equal to his Speed (up to 5) and receives 1 Bind next turn.",
+    "クイック(解析Ⅲ): 攻撃前に次のターンのクイック2を得る。": "**Haste (Threadspin Ⅲ)**: Gains 2 Haste for the next turn before attacking.",
+    "破裂・出血の回数を十分に確保した状態で撃ち、威力の付与役として使う。": "Fire it once enough Rupture and Bleed Count is secured, using it to add Potency.",
+    "速度が高い人格ほど付与量が伸びる。": "The faster the Identity, the more it inflicts.",
+    "パッシブ「狩猟の時間」は、破裂・出血ダメージで敵または味方が死亡すると、敵に投げ縄2を付与し、自分は次のターンにクイック1を得る(1ターンに1回)。": "The passive Time to Hunt inflicts 2 Lasso on enemies and grants him 1 Haste next turn when an enemy or ally dies from Rupture or Bleed damage, once per turn.",
+    "Ⅱ: 狩猟の時間が解放される。": "**Ⅱ**: Unlocks Time to Hunt.",
+    "Ⅲ: 攻撃加重値が2になって広域化し、速度条件のコイン威力とクイックが入り、4コイン目の付与が増える。": "**Ⅲ**: Attack Weight becomes 2 for multi-target attacks, the Speed-conditioned Coin Power and Haste are added, and the fourth Coin's infliction increases.",
+    "Ⅳ: 4コイン目の付与が速度÷2回から速度ぶんに増える。4コインを活かすなら必須。": "**Ⅳ**: The fourth Coin's infliction goes from (Speed ÷ 2) times to Speed times. Essential to make use of the 4 Coins.",
+    "鴻園の君主: S2(暴食)が破裂を扱い、S1(憂鬱)・S3(傲慢)と合わせて暴食・傲慢の資源も出せる。": "**[The Lord of Hongyuan](persona:0613)**: S2 (Gluttony) handles Rupture, and together with S1 (Gloom) and S3 (Pride) he supplies Gluttony and Pride resources.",
+    "鈎事務所フィクサー: S2がクイックを得て出血を付与するので、速度に依存する付与量を伸ばしやすい。": "**[Hook Office Fixer](persona:0607)**: S2 gains Haste and inflicts Bleed, making it easy to extend the Speed-dependent infliction."
+  }
+}

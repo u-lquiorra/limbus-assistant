@@ -1,0 +1,14 @@
+{
+  "sourceGuide": "src/data/guides/0304.md",
+  "code": "0304",
+  "messages": {
+    "釘を付与する他のN社人格と組み、パッシブで増える振動回数を供給しながら、S2「執行！」で振動爆発させる耐久寄りの振動人格。": "A durable Tremor Identity that works with other N Corp. Identities applying Nails. Her passive helps supply Tremor Count, and S2 Enactment! bursts Tremor.",
+    "バトルパッシブ「撲せよ！」(色欲×3・保有・同期化Ⅱで取得): 釘がある対象に付与する振動回数+1。自分に狂信があれば、付与する釘+1。S1・S3は釘の付与が振動の付与より前に来るので、発動していれば振動回数を多く供給できる。": "**Combat passive — Thou Shalt Hammer! (3 Lust Owned; unlocked at Uptie Ⅱ)**: +1 Tremor Count inflicted on targets with Nails. If she has Fanatic, +1 Nails inflicted. On S1 and S3, Nails are inflicted before Tremor, so when this is active they supply plenty of Tremor Count.",
+    "釘: 特殊出血。ターン開始時に出血1を付与し、出血回数を釘の数値だけ増やす。ターン終了時に半減する。S1「正しい浄化」はⅠコインの表面的中時に釘1/2。S3「狂的な審判」はⅠコインの的中時とⅡコインの表面的中時に、それぞれ釘1/2。": "**Nails**: A special Bleed. At Turn Start, it inflicts 1 Bleed and increases Bleed Count by the Nails value. It is halved at Turn End. S1 Rightful Purge inflicts 1/2 Nails on Coin Ⅰ Heads Hit. S3 Fanatical Judgement inflicts 1/2 Nails on Coin Ⅰ hit and again on Coin Ⅱ Heads Hit.",
+    "S2「執行！」: 1コイン(マッチ威力3〜15/4〜16)。的中時に振動爆発し、対象の釘が5本以上ならダメージ量+20%/30%。": "**S2 — Enactment!**: 1 Coin (Clash Power 3–15/4–16). Triggers Tremor Burst on hit and deals +20%/30% damage if the target has at least 5 Nails.",
+    "S3のデバフ: Ⅲコインの表面的中時、対象の釘が5本以上なら、次のターンに攻撃威力減少1と麻痺2を付与する。": "**S3's debuffs**: On Coin Ⅲ Heads Hit, if the target has at least 5 Nails, inflicts 1 Attack Power Down and 2 Paralyze next turn.",
+    "狂信は自分で得られない: 狂信は、釘のある対象を攻撃するときに最終威力が増えるバフ。この人格には狂信を得る手段がない。": "**She cannot gain Fanatic herself**: Fanatic is a buff that raises Final Power when attacking targets with Nails. This Identity has no way to gain it.",
+    "耐久とサポート: 守備「ガード」はマッチ威力10〜15。サポートパッシブ「盲目の槌」(色欲×4・保有・同期化Ⅲで取得)で、狂信を持つ味方のうち精神力が最も低い1名のダメージ量+10%。": "**Durability and support**: Her Guard has Clash Power 10–15. The support passive Hammer of Zealotry (4 Lust Owned; unlocked at Uptie Ⅲ) gives +10% damage to the 1 ally with Fanatic who has the lowest SP.",
+    "自分だけで釘を5本以上に保つのは難しいので、釘や狂信を扱うN社の味方と組む。S1・S3で釘と振動を重ね、S2で振動爆発させる。釘が5本以上ある相手にはS3のデバフも狙える。振動回数の付与が多いので、振動回数を消費しやすい振動アタッカーの補助役にも向く。": "Keeping 5 or more Nails up by herself is difficult, so pair her with N Corp. allies who handle Nails and Fanatic. Stack Nails and Tremor with S1 and S3, then trigger Tremor Burst with S2. Against targets with at least 5 Nails, she can also aim for S3's debuffs. She inflicts plenty of Tremor Count, so she also works as a helper for Tremor attackers who spend Tremor Count."
+  }
+}

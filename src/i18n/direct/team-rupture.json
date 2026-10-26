@@ -1,0 +1,207 @@
+{
+  "kind": "team-copy",
+  "id": "rupture",
+  "sourceGuide": "src/data/team-guides/rupture.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "75f1d08a8ac323d1f5da4d5d051900aeaaf128ed703c1b133ee7130b73d93281",
+      "text": "Heishou (built around the Lord of Hongyuan)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "7ffbdce7f7c70d8d14de3039326fa858e0690efe2858ca34b5d84457d95d9fff",
+      "text": "Build around the Lord of Hongyuan and Heishou Identities. Every Heishou has Rupture, but status damage is a bonus; the lineup relies on modern Identities' strength. The Lord's defense retreats a Heishou and brings a reserve Heishou out to use S3, so include reserve options such as Wei Branch, the 2 Si members, and the 2 You members. Deploy Cinq Assoc. West Section 3 Meursault, who attacks without reducing Rupture, and the near-essential Devyat' Assoc. North Section 3 Rodion."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "ad5b92da2609f871018e3480436a3fa97d01f3a73667c77a21d8a7035a444569",
+      "text": "The core commander, granting Heishou extra actions and swapping them through defense. Extremely fragile."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "213f37aed271e86806ab4b9a2fb625ada4970d6939c084fd4133129a227727a0",
+      "text": "An essential, independently strong pick whose technique loop starts from Assist Defense."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "5be6cd5e883e6c7672cc50e3bd7ceec35ad06303205ccd234921bbe6562ecbd5",
+      "text": "Strider【Wu】 supports clashes, while Linebreaker provides Shield and damage."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "595f925de29352e20ea76dd741efffa27bad17fc5ac874a4ce5cdee3a60fbd22",
+      "text": "Aims for at least 10 Speed and sustains Rupture Count through S1 reuse and S3."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "a781b181a60665b5627352211f0713c07676dafd314209ab4142ee0d164e0e2b",
+      "text": "Outpaces enemies and deals damage through Rupture and Deathrite. Heishou Bolus Contamination adds Rupture Count on unopposed attacks."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "ff71308c3a7c18afafcfc253b1fb7ccf23d870bc683fd37ad46ebaf24b0abcd4",
+      "text": "A Pierce attacker that hits without reducing the Rupture established by allies."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "7bb181863b93cba610b0034242d0563a038e9985235c17eda0e18613fda6b6ef",
+      "text": "Every 6 Rupture also increases Coin Power, enabling full strength early in Rupture teams."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "f936f5dfaa6adaa7709303338f9abffa2a62165ba0bde7dad596b9cb866c574d",
+      "text": "When used by the Lord, negates death once and restores 60% HP."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "09b7f55dec653b80e4bafc4f72787a660b2de7c3839f6f7acfea41bdd5430f69",
+      "text": "An area attack that applies Rupture, Bleed, and Gluttony Fragility together."
+    },
+    "data:examples:0:egos:3:note": {
+      "sourceHash": "411d2a6ee1e468627e439086fbc67943a7ba7df458444210b68b458dbae063b6",
+      "text": "Uses Gluttony Resonance to give all allies Poise and healing."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "44c25563ce972aacfc65fba36c8ac0ac01afaafdece9821bddc85a97540d6ffe",
+      "text": "Wu pair (Wu Branch Adept + Family Hierarch Candidate)"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "eb985660da5d98b133e01328f3cc40f67bf35751a403056904d8dadb40833632",
+      "text": "Wu Branch Adept and Family Hierarch Candidate have particularly strong synergy. The Candidate gains Poise and Power alongside the Adept."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "adbfd84441fd1cb997457dad96aff4ac3168791b2aa6f759052f074906306eee",
+      "text": "At 5 Linebreaker, S3 becomes an area attack. Also coordinates with the Family Hierarch Candidate."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "24c408d42a6b0113bac31928767ca071b0e824496f3110222cfc08a7985b3c1b",
+      "text": "Applies heavy Rupture against enemies she surpasses in Offense Level, then aims for heavy critical damage through S3."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "229cfc6679dcea9283f74a2faa27846e72fcc95a7d7375eb41a0e636b1d07f98",
+      "text": "A Blunt Identity that deals more damage against enemies with high Rupture and Sinking. Can unleash enhanced S3 when brought out of standby through the Lord's coordination."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "1f413856de181036d62dff1812afaa236106e65ad18db34fdf74641faee29622",
+      "text": "A slow starter that builds Poise through Serpent Arm, then attacks with multi-Coin area S3."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "9f488e148fe228c00ade1376b1fa1e5e65ecc109eb9551a747f667ea20f3f75d",
+      "text": "Builds Poise through Serpent Arm and strikes with a single-Coin S3. Coordination with the Lord grants Poise Count whenever Rupture deals damage."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "deb8ee460c64e09dd01b9133b4b3b255d2c2d9aad8d40502c2482d7803c04a56",
+      "text": "Builds Burn and Battleblood Instinct for enhanced S3. Self-inflicted Burn can easily consume opportunities for the Lord's swaps."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "fb7170fd5a365b845e6bf7bb01f6299330da0e28627ac1f7fad3f6ddee609279",
+      "text": "Bloodflame [血炎] enables S2 reuse and Unbreakable Coins on S3. Gains 3 Bloodflame when leaving standby or returning."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "6f5123d24abf41c602768ed214f393ff3dbe720649a6110065adf26ce93b1c23",
+      "text": "Applies heavy Rupture against enemies she surpasses in Offense Level, then builds Poise for heavy critical damage through S3."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "bd82e256a2c4b1475f4e74acc53d7f71a93f9f2ffff7e49261ca28f4f0e00529",
+      "text": "A follow-up each turn effectively grants 2 actions, while S3 and defense build Poise. Highly durable."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "119040cffd8a8a502713a22c9c964bd08ef3331c09c8eabe16173fe4f7d75bd9",
+      "text": "A short-fight option that uses S3 early at 6 or more Speed to apply Fragile, letting allies acting later finish the enemy."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "9fa0616fe84a6cf9f713e98b1232be0d8c482d1276d68a4b99a7391099c0a627",
+      "text": "An exceptional Rupture Count supplier that builds Tremor Count before applying heavy Rupture."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "4fc10c0462cc738f9ab01f89d8f3e36ac27e47b3e85ddcbedf9552bf8b2e2d78",
+      "text": "A Rupture-focused W Corp. Identity that uses Charge to apply heavy Rupture Potency and Count."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "99138f5ccd9f027fba8068ed7278a4ce79362c4f921f41b40ebcb6af01e2fba8",
+      "text": "A Bleed and Rupture Identity that distributes Attack Power Up for reliable early clashes."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "f7fe0ef589f499faa44bfb0e23958bce2af109544210b5a2ff734e0821a697ff",
+      "text": "S2 applies heavy Tremor, while S3's Rupture and 5 Fragile increase damage from allies acting later."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "0ea5be8464a830bfd9a2c12d88996d2b97108476a6776d3ae16921b5e6e74dc3",
+      "text": "Creates a self-damage time limit and delivers an area attack with 7 Attack Weight at the lethal moment. When used by the Lord, negates death once and restores 60% HP. Choose the timing carefully."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "890a95613cc395ea193e49dd61b5343aefe3ee672c1cac6a0f07774d988a8bbd",
+      "text": "An area attack that applies Rupture, Bleed, and Gluttony Fragility together, making subsequent attacks easier."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "bf0e6db2aee8957907fdec6c0664f99a7301208a3f217addb9cf0a93aaeffa17",
+      "text": "Gives all allies Poise and heals every turn after use. Benefits from Gluttony Resonance."
+    },
+    "data:egos:4:note": {
+      "sourceHash": "5431025d61d380005f8e895a68d87d9309aa7943fcec1de3d98f1c34c41f779c",
+      "text": "A Gluttony area attack that cuts through multiple enemies while healing the 2 lowest-HP allies."
+    },
+    "data:egos:5:note": {
+      "sourceHash": "e206eccbdcd6c119481fd2e958c8fb450f47aaee12d99c266e3261e256cb9ecf",
+      "text": "Its resource affinities match Mao Branch Adept perfectly. Availability is limited."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "61c174a2f48dfc2e9b6c0f9cd5d13f05b7406fe7b5ff307edfa94cbe4ab9951b",
+      "text": "Build around [The Lord of Hongyuan](persona:0613) Hong Lu and Heishou Identities, all of which have Rupture. Rupture damage is mainly a bonus; the team relies on the latest Heishou's strength and the Lord's extra actions."
+    },
+    "guide:1:0:0": {
+      "sourceHash": "b2322c4804c08822af8ae986ec1af1353db0bb253cd78e73ed6f7049e5b54a77",
+      "text": "The Lord's S3 calls the S3 of an early-deployed Heishou for a three-hit sequence. Many Heishou S3s grant effects that enhance their skills, stabilizing the opening."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "3158eff1643f6a33a3249b86fa81b414ae74b7b439376abdc50667d033b09a53",
+      "text": "The Lord restores 20 SP to an incoming reserve Heishou and has them use S3, up to 2 times per Identity per Encounter."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "cb413a28d373e93055bd47ee11da4b31eb0b25069529efd5d631def286fc28b9",
+      "text": "At stage start, the Lord gains Leash-holder of All Heishou based on the number of Heishou, including reserves, increasing Speed, Offense Level, and Defense Level."
+    },
+    "guide:1:0:3": {
+      "sourceHash": "7eb43833cfb7efbf01b1aeafac8530f1a1df82608a1ebea23e1b9fecd545e1cc",
+      "text": "Many members, such as [Heishou Pack - Mao Branch Adept](persona:0212), are strong alone. Adding just 1–2 Heishou to the Lord can provide basic functionality."
+    },
+    "guide:2:0:0": {
+      "sourceHash": "7ceca4dc46e483f32ffb82e46131cfe1c9b79811a28f12d811ebe5bfdf2f88b9",
+      "text": "Include Heishou among reserves. Early in battle, use the Lord's defense Heishou Keenclaw [黑獣利爪] to retreat a spent Heishou and have the incoming one use S3."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "fe9d18b8f146d49563b3fce37809e7422581e1f6a490b070ee8c14170c1f8270",
+      "text": "Coordinating through the Lord's S3 grants Heishou Bolus Contamination, a permanent buff that differs by Heishou. Particularly attractive are the Rupture Count increase for [Heishou Pack - Mao Branch](persona:1112) Outis and Poise Count increase for [Heishou Pack - Si Branch](persona:1212) Gregor."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "056ac792b65fa0d22467d9b4e40bd4aacf9a0e14e145486c7d7c5ebcc1df2bd2",
+      "text": "[Heishou Pack - Wu Branch Adept](persona:0114) and [Family Hierarch Candidate](persona:0812) have particularly strong synergy."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "d7d836dec39aa54f4f929d77f7218774635793e9088b568f8b50b987d3007a2e",
+      "text": "Outside Heishou, [Cinq Assoc. West Section 3](persona:0511) Meursault is strong. His Rupture application is modest, but against targets with at least 15 Potency and 3 Count, he attacks without reducing Count, maintaining allies' setup while dealing damage."
+    },
+    "guide:2:0:4": {
+      "sourceHash": "b3bc8701dd889e5e60444b9535fbe934bf921bc3f5edb0e725acc2f697a8991c",
+      "text": "[Devyat' Assoc. North Section 3](persona:0910) Rodion is near-essential: in addition to Courier Trunk, every 6 Rupture increases Coin Power, enabling full strength early. Retreat through defense if the battle drags on."
+    },
+    "guide:3:0:0": {
+      "sourceHash": "2a49353525545ad1bb868669ca3bf0d8770aee0cb84b5c6909e4922a8fb9345c",
+      "text": "Every Heishou has a Gluttony skill, making Gluttony-focused E.G.O compatible. Wrath is harder to generate."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "6b88e40d6b86a515bcfa3016d18cf90127f0781c8dfccecd119abc6a5c5417a8",
+      "text": "Healing options include [Fluid Sac](ego:0202), Sinclair's [Lantern](ego:1004), and [Thoracalgia](ego:0208), which benefits from Gluttony Resonance."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "440bf3a25fd23c078dac11f3edd6cf60190898136c0295d2f9c295688d07c7c6",
+      "text": "Using [Tears of the Tarnished Blood [汚血泣淚]](ego:0608) with the Lord negates death once and restores 60% HP. Self-damage makes using it too early counterproductive."
+    },
+    "guide:4:0:0": {
+      "sourceHash": "65bdfcabca9886bb3c381bac9f1d3d94f7823202015812005aa54e70bfb1b729",
+      "text": "The Lord has extremely low HP. Heishou Keenclaw heals only 1 ally per turn, and Staggered Identities cannot retreat or heal through it. Prepare another healing option."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "9d5b9a244c1a144e869dff8a8ac0c97b7996962e7c4abb5e9be0dda15dd4fa10",
+      "text": "The 2 You Branch members carry self-inflicted Burn and tend to consume opportunities for Heishou Keenclaw. Choose their use carefully unless the enemy is weak to Wrath."
+    }
+  },
+  "metadata": {
+    "title": "Rupture Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Rupture team guide: Heishou Identities built around The Lord of Hongyuan Hong Lu. Rupture damage is a bonus; the team relies on the latest Heishou Identities and the Lord's extra actions. Covers priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

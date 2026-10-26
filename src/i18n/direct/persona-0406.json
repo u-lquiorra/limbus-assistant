@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0406.md",
+  "code": "0406",
+  "messages": {
+    "呼吸を貯めてクリティカルを出し、S3で弾丸を撃って振動と破裂をまとめて入れる人格。": "An Identity that builds Poise for critical hits, then fires ammunition with S3 to apply both Tremor and Rupture.",
+    "呼吸で強化: S1「押しのける」・S2「夕・む」は自分の呼吸7以上でコイン威力+1。S3「あ・われ」は呼吸10以上でコイン威力+1(上位の同期化段階では呼吸7につき+1、最大2)。": "**Poise bonuses**: S1 Shove and S2 T.N. gain +1 Coin Power with at least 7 Poise. S3 O.O.F. gains +1 Coin Power with at least 10 Poise (+1 per 7 Poise, up to 2, at higher Uptie).",
+    "クリティカル時のデバフ: S1はクリティカル時に対象の精神力を減らし、S2は攻撃レベル減少を付与。": "**Debuffs on Critical Hit**: On Critical Hit, S1 reduces the target's SP, and S2 inflicts Offense Level Down.",
+    "S3: Ⅲコインで弾丸1を消耗し、振動・破裂の付与と振動爆発。クリティカル時は振動・破裂の威力と回数が2倍。": "**S3**: Coin Ⅲ spends 1 Ammo to inflict Tremor and Rupture and trigger Tremor Burst. On Critical Hit, the Tremor and Rupture Potency and Count are doubled.",
+    "バトルパッシブ「ヤ・切」(暴食×2・保有・同期化Ⅱで取得): 弾丸7を保有。ターン終了時に呼吸が7以上なら精神力を8回復。": "**Combat passive — A S.B. (2 Gluttony Owned; unlocked at Uptie Ⅱ)**: Holds 7 Ammo. Restores 8 SP at Turn End if she has at least 7 Poise.",
+    "S2・S3で呼吸を貯め(S1は呼吸回数を補う)、S3のⅢコインでクリティカルを狙って振動・破裂を倍で入れる。弾丸はパッシブ「ヤ・切」で得るため、同期化Ⅱ以降が前提。呼吸を7以上に保つと精神力も回復する。": "Build Poise with S2 and S3 (S1 tops up Poise Count), then aim for a Critical Hit with Coin Ⅲ of S3 to inflict doubled Tremor and Rupture. Ammo comes from the passive A S.B., so Uptie Ⅱ or higher is a prerequisite. Keeping Poise at 7 or more also restores SP."
+  }
+}

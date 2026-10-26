@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0806.md",
+  "code": "0806",
+  "messages": {
+    "火傷編成で、高いマッチ力と火傷条件による強化で押す人格。速度の遅さを活かして味方が火傷を入れた後に殴ると、1ターン目から強化条件を満たせる。": "An Identity for Burn teams that combines strong clashes with bonuses from Burn conditions. Her low Speed lets allies apply Burn before she attacks, enabling those bonuses from turn 1.",
+    "火傷で強化: S1「丹脚」は対象の火傷3以上、S2「正面突破」は火傷6以上でコイン威力+1(上位段階ではそれぞれ火傷3・6につき+1、最大2)。S3「裡門頂肘」は対象の火傷と火傷回数がともに6以上ならダメージ量+30%/50%。": "**Burn bonuses**: S1 Red Kick gains +1 Coin Power if the target has at least 3 Burn, and S2 Frontal Assault at 6 or more (+1 per 3 and per 6 Burn respectively at higher Uptie, up to 2). S3 Inner Gate Elbow Strike deals +30%/50% damage if the target's Burn and Burn Count are both 6 or more.",
+    "遅い速度: 速度範囲値は最大3~6。より先に動く味方が火傷を入れておけば、最初の行動からS2の条件(火傷6)を満たせる。": "**Slow Speed**: Her Speed range is 3–6 at most. If faster allies apply Burn first, she can meet S2's condition (6 Burn) from her very first action.",
+    "火傷回数: S2はⅢコインで対象の火傷が6以上なら火傷回数2を付与。S3はⅢコインで火傷回数を無条件に2増やし、守備「反撃」も的中時に1増やす。": "**Burn Count**: Coin Ⅲ of S2 inflicts 2 Burn Count if the target has at least 6 Burn. Coin Ⅲ of S3 increases Burn Count by 2 unconditionally, and the Defense skill Counter increases it by 1 on hit.",
+    "バトルパッシブ「激火」(憤怒×3・共鳴・同期化Ⅱで取得): 対象の火傷回数3につき打撃ダメージ量+10%(最大30%)。火傷回数を稼ぐ味方がいるほど伸びる。": "**Combat passive — Intense Blaze (3 Wrath Resonance; unlocked at Uptie Ⅱ)**: +10% Blunt damage per 3 Burn Count on the target, up to 30%. It grows with more allies who build Burn Count.",
+    "S3のⅣコイン: 攻撃終了時に対象が混乱するか死亡していれば、次のターンに加算コイン強化1を得る。": "**S3's Coin Ⅳ**: If the target is staggered or dead at the end of the attack, she gains 1 Plus Coin Boost next turn.",
+    "火傷を付与できる味方と組み、その味方より後に動いてS2を当てる。S2のⅢコインで火傷回数を足しつつ、S3で火傷回数をさらに増やし、火傷・火傷回数とも6以上の敵にS3を当ててダメージを伸ばす。火傷回数は自分だけでは伸ばしにくいので、編成全体で稼いで「激火」の上限30%を狙う。": "Pair her with allies who can inflict Burn, and act after them to land S2. Add Burn Count with Coin Ⅲ of S2, increase it further with S3, and land S3 on enemies with 6 or more Burn and Burn Count to boost damage. Burn Count is hard to raise on her own, so build it across the whole team to aim for Intense Blaze's 30% cap."
+  }
+}

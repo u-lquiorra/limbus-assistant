@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/1009.md",
+  "code": "1009",
+  "messages": {
+    "体力を削りながら3コインを再使用して火傷と出血を撒き、味方にリズムを配る、憤怒斬撃の広域アタッカー。": "A multi-target Wrath Slash attacker E.G.O that reuses its third Coin while cutting into its own HP, spreading Burn and Bleed and handing Rhythm to allies.",
+    "コインの再使用: 3枚目のコインが表面的中すると、体力が10%以上なら4~8の自傷を受けてコインを再使用する(スキルごとに最大4回。混乱も死亡もしない)。再使用のたびに火傷1・出血1が付く。": "**Coin reuse**: When the third Coin lands Heads, if his HP is 10% or more, he takes 4–8 self-damage and reuses the Coin (up to 4 times per skill; no Stagger or death). Each reuse adds 1 Burn and 1 Bleed.",
+    "出血と火傷で強化: メインターゲットの出血と火傷の合計2につきマッチ威力+1(最大6、解析Ⅲ8、解析Ⅳ10)。失った体力の比率でダメージ量も増える(最大10%、解析Ⅲ15%、解析Ⅳ20%)。サブターゲットへのダメージは-50%。": "**Bonuses from Bleed and Burn**: +1 Clash Power per 2 combined Bleed and Burn on the main target (up to 6, 8 at Threadspin Ⅲ, 10 at Ⅳ). Damage also increases with the ratio of HP lost (up to 10%, 15% at Ⅲ, 20% at Ⅳ). Damage to sub-targets is −50%.",
+    "リズムと精神力の配布: 的中時にランダムな味方へ次ターンのリズムを付け、討伐時は全味方へ2。攻撃後は精神力の低い味方(1+最大共鳴数名、最大4)の精神力を回復する。": "**Distributing Rhythm and SP**: On hit, gives Rhythm next turn to a random ally, and on kills, 2 to all allies. After the attack, restores SP to the allies with low SP (1 + highest Resonance, up to 4).",
+    "パッシブ「それは、リズムでした」: ターン開始時にリズム2を得る。討伐時に体力と精神力を回復し、このE.G.Oでの討伐は2倍。精神力が減ったターンの終了時にも回復する。": "**Passive — That... was Indeed a Rhythm**: Gains 2 Rhythm at Turn Start. Recovers HP and SP on kills, doubled for kills with this E.G.O. It also recovers at the end of turns in which his SP decreased.",
+    "精神力の分割払い: 攻撃後2ターン、戦闘終了時に精神力が8減る。": "**SP paid in installments**: For 2 turns after the attack, he loses 8 SP at Combat End.",
+    "精神力が高いほど表が出やすく再使用が伸びるので、精神力の高いうちに撃つ。": "Higher SP makes Heads more likely and extends the reuse chain, so fire it while his SP is high.",
+    "出血・火傷を付けた複数の敵に撃つ。敵が1体だと真価を出しにくい。": "Fire it at multiple enemies with Bleed and Burn. Against a single enemy, it struggles to show its value.",
+    "マッチ威力は低めなので、一方攻撃で当てる。自傷が重なるため体力の管理が要る。": "Its Clash Power is lowish, so land it as a one-sided attack. The self-damage piles up, so HP management is required.",
+    "必要資源は憤怒3・色欲2・怠惰1・傲慢1・嫉妬1、精神消耗は覚醒10。": "It requires 3 Wrath, 2 Lust, 1 Sloth, 1 Pride, and 1 Envy, with an Awakening Sanity cost of 10.",
+    "Ⅱ: 「それは、リズムでした」が解放される。優先度が高い。": "**Ⅱ**: Unlocks That... was Indeed a Rhythm. High priority.",
+    "Ⅲ: マッチ威力・ダメージ量の上限、精神力の回復量、リズムの付与量が増える。": "**Ⅲ**: Raises the caps on Clash Power and damage, SP recovery, and Rhythm infliction.",
+    "Ⅳ: 同じ項目がさらに増える。強化幅は控えめ。": "**Ⅳ**: The same items increase further. The upgrade is modest.",
+    "夜明事務所フィクサー: S1〜S3が火傷を付与し、S3(憤怒)・S2(嫉妬)で必要資源も出せる。": "**[Dawn Office Fixer](persona:1009)**: S1–S3 inflict Burn, and S3 (Wrath) and S2 (Envy) also supply the required affinities.",
+    "黒獣-酉: S3が失った体力でダメージ量を上げ、自傷を重ねるこのE.G.Oと噛み合う。S1(色欲)・S3(憤怒)で資源も出せる。": "**[Heishou Pack - You Branch](persona:1014)**: His S3 gains damage from HP lost, meshing with this E.G.O's stacking self-damage. S1 (Lust) and S3 (Wrath) also supply resources."
+  }
+}

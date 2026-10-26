@@ -1,4 +1,8 @@
 import { Link } from "../components/Link";
+import { useContext } from "react";
+import { LanguageContext } from "../i18n/text";
+import { Message, TranslatedList } from "../i18n/Message";
+import { localizeSupportPassive } from "../i18n/supportPassives";
 import Breadcrumb from "../components/Breadcrumb";
 import EffectText from "../components/EffectText";
 import PageToc from "../components/PageToc";
@@ -14,6 +18,8 @@ import "./teams.css";
 const passives = supportPassiveIndex as SupportPassive[];
 
 function SupportPassiveCard({ passive }: { passive: SupportPassive }) {
+  const language = useContext(LanguageContext);
+  const localized = localizeSupportPassive(passive, language);
   const status = getPersona(passive.code)?.status;
   return (
     <article className="passive-card support-passive-card">
@@ -25,7 +31,7 @@ function SupportPassiveCard({ passive }: { passive: SupportPassive }) {
         </span>
       </Link>
       <header className="passive-card-head">
-        <h3 className="passive-card-name">{passive.name}</h3>
+        <h3 className="passive-card-name">{localized.name}</h3>
         <span className="passive-card-req">
           {passive.cost.map((c) => (
             <SinBadge key={c.sin} sin={c.sin} label={`${c.sin}×${c.count}`} />
@@ -33,7 +39,7 @@ function SupportPassiveCard({ passive }: { passive: SupportPassive }) {
           {passive.condition && <span className="passive-cond">{passive.condition}</span>}
         </span>
       </header>
-      <EffectText text={passive.effect} keywords={passive.keywords} />
+      <EffectText text={localized.effect} keywords={localized.keywords} />
     </article>
   );
 }
@@ -54,7 +60,7 @@ export default function SupportPassiveListPage() {
     <div className="container section team-page">
       <Breadcrumb items={[{ label: "サポートパッシブ一覧" }]} />
       <header className="team-hero">
-        <p className="kicker">SUPPORT PASSIVES ・ {passives.length}人格</p>
+        <p className="kicker"><Message text="SUPPORT PASSIVES ・ {count}人格" values={{ count: passives.length }} /></p>
         <h1 className="persona-title">サポートパッシブ一覧</h1>
         <p className="team-lead">
           全人格のサポートパッシブを、囚人ごとに人格の順でまとめた。必要資源で絞り込むと、編成でたまる資源だけで発動するものを探せる。
@@ -71,7 +77,7 @@ export default function SupportPassiveListPage() {
         <SinFilterChips selected={selected} onChange={setSelected} countWith={(sins) => filterSupportPassivesBySins(passives, sins).length} />
         {selected.length > 0 && (
           <p className="keyword-filter-summary ego-filter-summary" aria-live="polite">
-            {selected.join("・")}の資源だけで発動するサポートパッシブ：<strong>{results.length}件</strong>
+            <Message text="{sins}の資源だけで発動するサポートパッシブ：{count}" values={{ sins: <TranslatedList items={selected} />, count: <strong>{results.length}件</strong> }} />
           </p>
         )}
       </section>

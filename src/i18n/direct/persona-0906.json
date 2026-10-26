@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0906.md",
+  "code": "0906",
+  "messages": {
+    "呼吸回数をバリアに変え、挑発値で攻撃を集める守りの人格。": "A defensive Identity that turns Poise Count into Shield and draws attacks with Aggro.",
+    "呼吸回数: S1「牽制」・S2「集中防御」の使用時・的中時やマッチ敗北時に呼吸回数が増える。S2は自分のバリアが15以上なら使用時に呼吸回数がさらに増える。": "**Poise Count**: Poise Count increases on use and on hit of S1 Careful Obstruction and S2 Focused Defense, and on Clash Lose. S2 increases it further on use if she has Shield of 15 or more.",
+    "挑発値: S1・S2・守備は使用時に次のターンの挑発値を得る。": "**Aggro**: S1, S2, and her Defense skill grant Aggro next turn on use.",
+    "S3「脅威対象制圧」: 自分のバリアが15以上ならコイン威力+1/2。Ⅲコインのクリティカル時に次のターンの脆弱1を付与。": "**S3 — Subdue Threat**: +1/2 Coin Power if she has Shield of 15 or more. On Coin Ⅲ Critical Hit, inflicts 1 Fragile next turn.",
+    "バトルパッシブ「防御呼吸」(憤怒×3・保有・同期化Ⅱで取得): 戦闘開始時、呼吸回数1につきバリア2を得る(最大20)。": "**Combat passive — Defensive Breathing (3 Wrath Owned; unlocked at Uptie Ⅱ)**: At Combat Start, gains Shield of 2 per Poise Count, up to 20.",
+    "S1・S2で呼吸回数を貯め、パッシブで次の戦闘開始時にバリアに変える。バリアが15以上のときにS3を使うとコイン威力が上がる。": "Build Poise Count with S1 and S2, and the passive converts it into Shield at the next Combat Start. Using S3 while the Shield is 15 or more raises its Coin Power."
+  }
+}

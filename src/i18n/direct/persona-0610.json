@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0610.md",
+  "code": "0610",
+  "messages": {
+    "破裂を大量に付与し、破裂の多い敵や血鬼・血袋の敵に強化された打撃を当てる人格。破裂15以上・回数3以上になるとS2・S3は破裂を付与しなくなるため、破裂回数の維持が課題になる。": "An Identity that inflicts large amounts of Rupture and deals enhanced Blunt damage against enemies with high Rupture or Bloodfiend/Bloodbag enemies. At 15 Rupture Potency and 3 Count or more, S2 and S3 stop applying Rupture, making Count maintenance a challenge.",
+    "破裂で強化: 各攻撃スキルは対象の破裂6以上でコイン威力+1。S2「骨を折る」・S3「爽快な狩りの〆(シメ)」は、対象の破裂15以上・破裂回数3以上ならそのスキルで破裂と破裂回数を付与しない代わりにコイン威力+1(血鬼・血袋ならさらに+1)(同期化Ⅳ)。この付与停止にはS2・S3自身のマッチ勝利時の破裂回数増加も含まれる。": "**Rupture bonuses**: Each attack skill gains +1 Coin Power if the target has at least 6 Rupture. If the target has at least 15 Rupture and 3 Rupture Count, S2 Bonecrusher and S3 A Cheerful Hunt's End **do not inflict Rupture or Rupture Count with that skill**, but gain +1 Coin Power instead (+1 more against Bloodfiends and Blood Sacs) (Uptie Ⅳ). This stop also covers the Rupture Count increase on S2's and S3's own Clash Wins.",
+    "マッチ勝利で回数補充: S2・S3はマッチ勝利時に破裂回数を増やす。ただし上の強化が働いている間は補充されず、効くのは条件を外れているときだけ。": "**Topping up Count on Clash Win**: S2 and S3 increase Rupture Count on Clash Win. However, it is not replenished while the bonus above is active, so it only works when the condition is not met.",
+    "S1「振り下ろす」: 付与停止の対象外で、強化中も破裂を4回に分けて付与し続ける。": "**S1 — Slam**: Not affected by the stop, so it keeps inflicting Rupture in 4 parts even during the bonus.",
+    "バトルパッシブ「愉快な狩猟法」(暴食×4・保有・同期化Ⅱで取得): 対象が血鬼・血袋か破裂10以上ならダメージ量+10%。使用時に自分に出血があれば、攻撃的中時に破裂3を付与(1ターンにつき、低い同期化段階では1回、同期化Ⅳでは2回)。この付与はスキル側の付与停止の影響を受けない。": "**Combat passive — How to Hunt Cheerfully (4 Gluttony Owned; unlocked at Uptie Ⅱ)**: +10% damage if the target is a Bloodfiend or Blood Sac or has at least 10 Rupture. If he has Bleed on use, inflicts 3 Rupture on hit (once per turn at lower Uptie, twice at Uptie Ⅳ). This infliction is not affected by the skill-side stop.",
+    "S3の再使用: Ⅲコインは対象の破裂15以上か体力比率30%未満で再使用(スキルごとに1回)(同期化Ⅳ)。": "**S3's reuse**: Coin Ⅲ is reused if the target has at least 15 Rupture or is below 30% HP ratio, once per skill (Uptie Ⅳ).",
+    "S1・S2で破裂を積み、破裂15以上か弱った敵にS3を当てて強化と再使用を狙う。強化中はS2・S3が破裂も回数も付与しないので、攻撃のたびに破裂回数が減っていく。破裂回数は付与できる味方で補い、S1やパッシブの破裂3で破裂も足していく。ギフトで破裂を補える鏡ダンジョンで特に力を発揮する。": "Stack Rupture with S1 and S2, then land S3 on enemies with 15 or more Rupture or weakened enemies to aim for the bonus and reuse. During the bonus, S2 and S3 inflict neither Rupture nor Count, so Rupture Count decreases with every attack. Cover Rupture Count with allies who can inflict it, and add Rupture with S1 and the passive's 3 Rupture. He shines especially in the Mirror Dungeon, where E.G.O Gifts can supplement Rupture."
+  }
+}

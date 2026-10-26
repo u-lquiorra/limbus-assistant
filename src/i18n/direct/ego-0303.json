@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0303.md",
+  "code": "0303",
+  "messages": {
+    "軽いコストで自分と味方全体に充電回数を配り、充電編成の下準備を一度で済ませる嫉妬貫通のE.G.O。": "A low-cost Envy Pierce E.G.O that hands out Charge Count to herself and all allies, completing a Charge team's setup in one go.",
+    "充電の獲得: Ⅰコインの的中時に、自分が充電回数10を得る。": "**Gaining Charge**: On Coin Ⅰ hit, she gains 10 Charge Count.",
+    "味方への配布: 嫉妬共鳴の数に比例して全味方に充電回数を付与する。解析Ⅲは表面的中時、Ⅳは攻撃後で、コインの結果に左右されなくなる。": "**Distribution to allies**: Gives all allies Charge Count in proportion to Envy Resonance. At Threadspin Ⅲ it happens on Heads Hit, and at Ⅳ after the attack, so it no longer depends on the Coin result.",
+    "広域化(解析Ⅳ): 攻撃加重値が3になる。複数の敵に当てるほど的中が増え、自分の充電が上限(20)まで溜まりやすいと考えられる。": "**Multi-target (Threadspin Ⅳ)**: Attack Weight becomes 3. The more enemies it hits, the more hits land, likely making it easier to fill her own Charge to the cap (20).",
+    "侵蝕スキル: 自分が充電回数10と破裂10を得る。解析Ⅲからは全味方に脆弱5・破裂10・充電回数10(Ⅳは12)も付与するため、味方の被弾リスクが大きく上がる。敵味方識別不可の記載がなく、狙いを選べると考えられる。": "**Corrosion skill**: She gains 10 Charge Count and 10 Rupture. From Threadspin Ⅲ, it also gives all allies 5 Fragile, 10 Rupture, and 10 Charge Count (12 at Ⅳ), greatly increasing the risk when allies are hit. There is no mention of being unable to distinguish friend from foe, so targets can likely be chosen.",
+    "パッシブ「無作為放出」: 戦闘開始時、充電を持つ味方1名に(嫉妬完全共鳴数÷2)の充電回数。条件が重く、効果は小さい。": "**Passive — Haphazard Discharge**: At Combat Start, gives 1 ally with Charge (Envy Absolute Resonance ÷ 2) Charge Count. The condition is demanding and the effect small.",
+    "充電を条件にするスキルが多い編成の序盤に撃ち、充電の準備をまとめて済ませる。": "Fire it early in a team with many skills that require Charge to finish preparing Charge all at once.",
+    "嫉妬共鳴を作れるほど配布量が増える。": "The more Envy Resonance you can build, the larger the distribution.",
+    "侵蝕スキルは味方に脆弱と破裂が乗るので、被弾しにくい場面で使う。": "The Corrosion skill puts Fragile and Rupture on allies, so use it when they are unlikely to be hit.",
+    "必要資源は憤怒1・憂鬱2・嫉妬2、精神消耗は覚醒20。充電以外の強みは少なく、汎用性は低いと考えられる。": "It requires 1 Wrath, 2 Gloom, and 2 Envy, with an Awakening Sanity cost of 20. It has few strengths beyond Charge, so its versatility is likely low.",
+    "Ⅱ: 「無作為放出」が解放される。": "**Ⅱ**: Unlocks Haphazard Discharge.",
+    "Ⅲ: 基本威力が上がり、味方への充電配布(表面的中時)と侵蝕の全味方配布が加わる。": "**Ⅲ**: Raises Base Power and adds Charge distribution to allies (on Heads Hit) and the Corrosion skill's team-wide distribution.",
+    "Ⅳ: 広域化し、配布が攻撃後になる。侵蝕の充電配布は12へ。OCで使う機会が多いなら価値があると考えられる。": "**Ⅳ**: Becomes multi-target, and the distribution moves to after the attack. The Corrosion skill's Charge distribution rises to 12. It is likely worthwhile if you often use it with Overclock.",
+    "W社3級整理要員: 切断・跳躍が充電を条件や獲得源にし、空間切断が充電10を消耗する。憂鬱・嫉妬のスキルで資源も出せる。": "**[W Corp. L3 Cleanup Agent](persona:0302)**: Rip and Leap use Charge as a condition or source, and Rip Space spends 10 Charge. Her Gloom and Envy skills also supply resources.",
+    "ロボトミーE.G.O::愛と憎悪の名の下に: 憤怒・嫉妬のスキルが多く、必要資源の憤怒・嫉妬を出せて嫉妬共鳴も組みやすい。": "**[Lobotomy E.G.O:: In the Name of Love and Hate](persona:0312)**: Has many Wrath and Envy skills, supplies the required Wrath and Envy, and makes Envy Resonance easy to build."
+  }
+}

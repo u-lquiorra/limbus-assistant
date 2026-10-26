@@ -1,0 +1,499 @@
+{
+  "kind": "boss-copy",
+  "id": "talisman-doll",
+  "source": "src/data/bosses/talisman-doll.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "誰も泣かぬように",
+          "en": "So That No One Will Cry",
+          "file": "Enemies.json",
+          "id": "8047"
+        },
+        {
+          "ja": "絡みゆくお札",
+          "en": "Entangling Talisman",
+          "file": "Skills_Abnormality.json",
+          "id": "804701"
+        },
+        {
+          "ja": "積もりゆく呪い",
+          "en": "Cumulating Curse",
+          "file": "Skills_Abnormality.json",
+          "id": "804702"
+        },
+        {
+          "ja": "移転するお札",
+          "en": "Transferring Talisman",
+          "file": "Skills_Abnormality.json",
+          "id": "804704"
+        },
+        {
+          "ja": "複製される呪い",
+          "en": "Proliferating Curse",
+          "file": "Skills_Abnormality.json",
+          "id": "804705"
+        },
+        {
+          "ja": "燃え移る火種",
+          "en": "Spreading Ember",
+          "file": "Passives_Abnormality.json",
+          "id": "804701"
+        },
+        {
+          "ja": "壊れた手段",
+          "en": "Broken Means",
+          "file": "Passives_Abnormality.json",
+          "id": "804702"
+        },
+        {
+          "ja": "絡み付いた呪いの札",
+          "en": "Entangled Curse Talisman",
+          "file": "Bufs.json",
+          "id": "WrappedCurseTag"
+        },
+        {
+          "ja": "貼り直された呪いの札",
+          "en": "Reattached Curse Talisman",
+          "file": "Bufs.json",
+          "id": "ReattachedCurseTag"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "d32442ff71937f4fd71878d587dc89921368749e6420cf08c1ed1132b7db05e8",
+      "text": "So That No One Will Cry (Canto IV)"
+    },
+    "shortName": {
+      "sourceHash": "6125b1b1a4c8990f4f9b1bec859f2bd04a5bdd3f99915ccf0fbf20c0d644b8bd",
+      "text": "So That No One Will Cry"
+    },
+    "stageName": {
+      "sourceHash": "a6231a5920f627ad85a27139f7104a7d7d81307570c3a307660ddc5a8131246b",
+      "text": "The League of Nine in Memory, Floor 1"
+    },
+    "lead": {
+      "sourceHash": "0fd8295e3eea918f61a11201dda0c9168bc8a493aa152cef471c39578b462b86",
+      "text": "Focus Blunt attacks on the Right Arm first. If the fight lasts, return talismans on turn 3 to weaken turn 4's 5-Coin attack. Distinguish talismans on your Sinners from those returned to the enemy."
+    },
+    "statNote": {
+      "sourceHash": "0acfba598fec8ccb93f564d9142140651365e105c18bff156930c5fb0159f54f",
+      "text": "The regular encounter on Floor 1 of the Canto IV dungeon. Overall HP is 1223, Body HP is 760, and Right Arm HP is 326; do not add Part HP to determine overall HP. Both Parts can act and remain targetable after breaking. The broken Right Arm's -20% damage does not mean it stops acting."
+    },
+    "skillNote": {
+      "sourceHash": "f5bbb64fe72a7d2b4dc20e6bd3ee07881f9c61cdc9f9f091bb9ec0542f74c4ae",
+      "text": "5 regular skills. Talismans applied [On Use] remain even if you win the Clash. Transferring Talisman lists [On Use], while the footnote places talisman application after the attack; attack its Defense Skill and check the actual transfer. This excludes Mirror Dungeon enhanced skills and Unbreakable Coins."
+    },
+    "priorities.0": {
+      "sourceHash": "c1346f9724c5603eb8896b107bb664f2b28a2d24615ce9ebc7cc874765e09212",
+      "text": "Focus Blunt, Wrath, and Pride damage on the 326-HP Right Arm. Time its Stagger to stop the turn-4 major attack."
+    },
+    "priorities.1": {
+      "sourceHash": "7227185fbb580bc4dc5d48bf3dbf8c2dcabce3767a79715925404735118bfc2a",
+      "text": "To return talismans, attack Transferring Talisman on turn 3 with a Sinner carrying them. At least 12 returned talismans apply 5 Attack Power Down next turn."
+    },
+    "priorities.2": {
+      "sourceHash": "b2efa957514a4028699698fa7bc01a5dbe3b6abc56b223e3e08996db6a75e6c7",
+      "text": "A passive returns Burn to Sinners carrying talismans. Avoid prolonging the fight with a team that stacks large amounts of Burn."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "f16aa19b07296024c1b2b14ed1f5d5768e84aa0c710b975770d5d8b170ce1c42",
+      "text": "Talismans increase despite winning Clashes"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "d7d5b9670cba9ba19dee331400d59d77cfb2db553ae4e14a9b0f94d61cae3207",
+      "text": "Entangling Talisman and Cumulating Curse also apply talismans [On Use]. Winning cannot prevent all of them. Check each Sinner's stacks and choose who will return them on turn 3."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "12c7a3e1c46b53371ac3a00867fe064879dba3e34407f404ba81c6cb7e0bb3ad",
+      "text": "You do not know what to target on turn 3"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "96803d395cd8c65cdc810f70a583fc713d6a3b2f47c50ff36fe673255de02bf9",
+      "text": "Attack Transferring Talisman's Defense Skill with Sinners carrying many talismans. Their stacks are removed and the same amount returns to the enemy; aim for 12 total. If you have enough damage, Staggering the Right Arm is another option."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "d93c87b977a71796474cbd67816b2f45c7bb9aea9f1f6542f2f834d847903d28",
+      "text": "You cannot beat the turn-4 5-Coin attack"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "ed0f498ca419060865165de80e1df5d94e196528d2774ed53693e44a27c07836",
+      "text": "Return at least 12 talismans by turn 3 to apply 5 Attack Power Down next turn. Alternatively, Stagger the Right Arm to stop its action. If neither is ready, prepare strong skills or a Blunt-resistant defender."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "dba4d3ac735d5caa3d739be241c9a0fecdb7d7112688da665e4d6212320d4fa6",
+      "text": "Applying Burn also burns your allies"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "cbc46d1e28f306c2bc430e754402d933dadd1bdb3bcb5f57e4482e6cebab822a",
+      "text": "The story encounter has Spreading Ember. The enemy's Burn returns next turn to targets carrying talismans. If Burn will not finish the fight, use another damage source."
+    },
+    "units.0.name": {
+      "sourceHash": "6c87c4a0cb3e12a03f1bc3937a2f829849cfe039b2d9701c09c52dec90daa8f2",
+      "text": "So That No One Will Cry (Right Arm)"
+    },
+    "units.0.part": {
+      "sourceHash": "8bde89d9cfa1060d05ea3ef40a002029f4e1572e6cf933d3ec0f7f82ec2f9153",
+      "text": "Right Arm"
+    },
+    "units.0.hp": {
+      "sourceHash": "5a1bfcee5c8c8f1f10e5a0de893716590af5a2ff8b1b5cc035301a83d8de73d5",
+      "text": "Overall 1223 / Right Arm 326"
+    },
+    "units.0.stagger": {
+      "sourceHash": "c81ff65e2f09b4c82c09ba0cfa6374fe35f2c43ffbeb29246d2bc38d47a5961d",
+      "text": "70% / 30% (228 / 98)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "7562b7d14880e19f827d5e32f60c03cbe1f19da3aeccf34ebee5e37d4fa70110",
+      "text": "The usual focus target, with less HP than the Body. Stagger it to stop its actions that turn and delay its major attack."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "a5087bc8b8a1dd5efaeda29375c2259b9a0217d9e416e49258f666adbdd28685",
+      "text": "Can still act and be attacked after breaking. The Arm deals 20% less damage, but its 5-Coin skill is not permanently removed."
+    },
+    "units.1.name": {
+      "sourceHash": "e35cc5499e26d7862491b39d9b8c0402f09a415a572da6d2c6d73bffa82e9b2d",
+      "text": "So That No One Will Cry (Body)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "0408a9c81f9c78796131ce7497b46b1fc7154356fd645eaeca5e0280fbd8b395",
+      "text": "Body 760 / Overall 1223"
+    },
+    "units.1.stagger": {
+      "sourceHash": "a0418bec3345c2e02fc8e7cc829bdcb39079ae65066bf943808f2d548ada8c05",
+      "text": "50% / 0% (380 / 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "42e82f1023e2b1fb7b4679d9290136695b32c013acb91fc4507d35b9cd07188a",
+      "text": "Has talisman-stacking skills and the Defense Skill used to return them. Attack its turn-3 Defense Skill with Sinners carrying talismans."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "7b812287765de4882b9128bf0301d7a4e304b196cb061058a9a0bbc96e2a555b",
+      "text": "Shares the Right Arm's resistances. Blunt, Wrath, and Pride are effective; Slash, Lust, and Envy are resisted."
+    },
+    "phases.0.timing": {
+      "sourceHash": "66354b6b3fdcf355f64526108165bc337c0bc417eb739431cf1888f830fb36e5",
+      "text": "Dungeon preparation"
+    },
+    "phases.0.title": {
+      "sourceHash": "d957c871727555b45b7943cdd5b9ec8ed82914180a59e1c091c63645d54847f1",
+      "text": "Prepare Blunt damage for the Right Arm and Sinners to return talismans"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "d3c6329644ab88f9b9719b83f86953e53b8f0f9b399c8d1144c39958059ac5db",
+      "text": "Prepare 7 Sinners, aiming for Level 35 and Uptie III or higher on your main units. Blunt, Wrath, and Pride are effective; focusing the Right Arm brings an earlier Stagger."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "550da39d0af0e8b44fc2f0301d549edd192e8805c68ff9156f877e16e2d181e3",
+      "text": "If damage is insufficient before the major attack, prepare a Blunt-resistant defender, HP healing, and Sinners to return talismans."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "fb8290732e5c1b2fb902d5844394fb7b946343019136f17d41ec01cb85061f50",
+      "text": "Burn teams must account for Spreading Ember. Enemy Burn returns to talisman carriers, so it is not a safe plan for a long fight."
+    },
+    "phases.1.timing": {
+      "sourceHash": "c74b139d7712f33cba3f0741db0ac8522b7d57bcafc5cea9dcc7e97eba869a4e",
+      "text": "Turns 1–2"
+    },
+    "phases.1.title": {
+      "sourceHash": "798476768acc1b17eb9ca8759af4fb01ed55e7da044e9c6a3dbbd572d5c1bea2",
+      "text": "Focus the Right Arm first and check talisman stacks"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "a3be758e146a17ea65088b284262b3d128c5a8483814cebf4920e69476ddb84d",
+      "text": "Win dangerous Clashes and direct spare actions at the Right Arm. The basic plan is to delay the major attack through Part Stagger while reducing overall HP."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "1a018fe89ea7ceecd53a6c144b79452d5b82334dd2f99833e8dc0b20a13728f4",
+      "text": "Entangling Talisman applies 2 talismans [On Use]; Cumulating Curse applies 1. They remain even if you win, so check each Sinner's status."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "98427e7faddf42fc9599fc7ca25a8d5075f37e40b1668a2f3de419380ffb2ef5",
+      "text": "At 9 or more talismans, gain 2 Attack Power Down next Turn Start. Keep excessive stacks off your major-attack Clash specialists and use separate talisman returners."
+    },
+    "phases.2.timing": {
+      "sourceHash": "425b1260366d16d1774d058f547e5e392b38501f8241344e39b25376f1f424e3",
+      "text": "Turn 3 / returning talismans"
+    },
+    "phases.2.title": {
+      "sourceHash": "6f5b25d7a3e817b856c65c23ccb8373a7d7643f788ab82953fc4731973deb45f",
+      "text": "Attack Transferring Talisman with talisman carriers"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "3cf38a630ce9f9d3967927837ddd305b60fb6667353f6eb274a18741e025cc7f",
+      "text": "There are 2 Transferring Talisman slots. Assign attacks from Sinners with many talismans to each Defense Skill. Their stacks disappear and the enemy gains the same amount of Reattached Curse Talisman."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "5db226ea48187e1be735d2ce42990c3fa075b3edec726f9b893ccee1e380ed10",
+      "text": "At Turn End, 9 or more returned talismans grant 5 Bind; 12 or more grant 5 Attack Power Down. Aim for 12 to weaken next turn's major attack. Transfer occurs after the attack, so check the actual stacks too."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "c923991a3993d91a6d58d10a0b7d0c5ed63e97cd0564d4a149cb9657ba259504",
+      "text": "One example uses 2 defenders: each Clashes with Entangling Talisman on turn 1 to receive 2 talismans, then Guards against Cumulating Curse on turn 2. Its [On Use] effect raises stacks to 3, and the first hit raises them to 6. Returning 6 each on turn 3 makes 12 total."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "44fbfa8a5017bfe7afca7773a07f47b9b7f811b16444dd63e450f16087c17ae8",
+      "text": "Redirecting another ally's attack to the defender requires higher Speed than the enemy. Check targeting lines and HP. This example intentionally takes hits; if resistances or HP are insufficient, prioritize Right Arm Stagger or strong ordinary Clashes instead."
+    },
+    "phases.3.timing": {
+      "sourceHash": "a429d04a0621e974ff7ebc0ec6e693a4bbdd7ee45b27b15e0b50f1636c5e9272",
+      "text": "Check at the end of turn 3"
+    },
+    "phases.3.title": {
+      "sourceHash": "797716516cc35cefc46e68b5b55ef707792abba6be7d8b4edafedf27b361e22a",
+      "text": "Use extra talismans to complete the debuff setup"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "7c19371c6d54dcb4e63b7e0408dd343848caefae026504e6d6598a7760734ce8",
+      "text": "Passing the Sloth check adds 5 Reattached Curse Talisman to the enemy and gives the chosen Sinner 2 Haste next turn. Check the displayed success chance."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "d29ec35a8a6bbad16d0e80a14f93fae3cd67c55a3e11a3cb5af64cadfc469729",
+      "text": "The extra 5 stacks help reach 12. Failure removes all talismans from the chosen Sinner, so avoid risking a defender on the assumption of success."
+    },
+    "phases.4.timing": {
+      "sourceHash": "9b40324afd27621b87b4e683b21478bb8874f9b2a8be04f0080372c131d6d447",
+      "text": "Turn 4's major attack"
+    },
+    "phases.4.title": {
+      "sourceHash": "f117f17d58d9460a1df61518063b1f5344e1bd10b5810594b79577f233268de2",
+      "text": "Use debuffs or Arm Stagger to limit damage"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "ee98b97d7d78032b525e46d12cd31f497174228ed145a05ae3b64dcbe249ac7c",
+      "text": "The Right Arm uses 2 copies of So That No One Will Cry. Each has 3 Base Power plus 5 Coins of +3, rolling up to 18. Answer them with 5 Attack Power Down from at least 12 returned talismans, or Stagger the Right Arm."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "c6ec98b354e8474752b0be1992ef5306d6300973c37c7cf290559de35b7b8f3e",
+      "text": "If setup is incomplete, Clash with powerful skills or use a defender resistant to Blunt and Gloom. Check HP and Stagger Thresholds; keep the attacks away from low-HP Sinners."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "4a29a611ab60be74a7c45473e6985f1ffa59bce1a2d0d4431deaa497d998457c",
+      "text": "Reattached Curse Talisman is removed at the end of the major-attack turn. If the fight reaches another cycle, prepare to return talismans again. The broken Arm remains targetable, so focus damage to finish the enemy."
+    },
+    "skills.0.name": {
+      "sourceHash": "cf58512681f8f7960aab9cb2d29b19c0cd203d80e5e6fc3fc1e72b50273deb6f",
+      "text": "Entangling Talisman"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "9fc3aef4f806c1e1e2a435b3c87e8c0b07ddd60e55208dfd135e72c48bf8ffcc",
+      "text": "[On Use] Inflict 2 Entangled Curse Talisman on the target."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "94b9ac0db9f04458d5b6186a249afdaa48f58a999be1778a57773eaab8dfc16b",
+      "text": "Ⅰ[On Hit] Inflict 2 Rupture and increase Rupture Count by 2 next turn."
+    },
+    "skills.0.response": {
+      "sourceHash": "4919391ae7c2b216eb7b15e77d8500b7c162caded304236f36bf25e7371e6df9",
+      "text": "Applies 2 talismans [On Use], so they remain even if you win. You can still prevent next-turn Rupture on hit, so normally win the Clash. If deliberately taking it to collect talismans, check HP and stacks."
+    },
+    "skills.1.name": {
+      "sourceHash": "0ec4b50ed1a4150ce8bec8f04f95c7537cbc5bb270f3dae27c22a916934d4cb3",
+      "text": "Cumulating Curse"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "9e52aa14b21b324c08b229ee27ce631be97c4eb104c7bca136da0c7011595145",
+      "text": "[On Use] Inflict 1 Entangled Curse Talisman on the target."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "3f0c4f980b03bdee15e801d31e83e41d7ccd040c9165001e7ccac0fa18bf2607",
+      "text": "Ⅰ[On Hit] Inflict Entangled Curse Talisman equal to the target's current stacks."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "93c96dfd2d7f27c392b7a7b5bba3311fe89c0a8c1aba7acca0a8f85a9526df82",
+      "text": "Ⅱ[Heads Hit] Inflict 5 Rupture next turn."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "c4f2cedd663885ee808807d25259225db692008ee1f0d955548a9af7db623711",
+      "text": "Ⅲ[Heads Hit] Inflict 2 Rupture and increase Rupture Count by 2 next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "efb3d3cb748858e99b154bddc86648a336027bb2b369c023e55931f392857d05",
+      "text": "Applies 1 talisman [On Use], then adds the target's current amount on the first hit. Starting from 2 gives 3 on use and 6 after the first hit. Win the Clash to limit stacks unless deliberately collecting them for return."
+    },
+    "skills.2.name": {
+      "sourceHash": "6125b1b1a4c8990f4f9b1bec859f2bd04a5bdd3f99915ccf0fbf20c0d644b8bd",
+      "text": "So That No One Will Cry"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "4a64987783cecb9fceaa384da780b15b2038889d96c85a86cab38e3e9089d04a",
+      "text": "[Turn End] Remove all Reattached Curse Talisman."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "8f028863858a90f6120d3ac00e92c6e93df8547c8da1ecf7eb8f4470dc2f3cfb",
+      "text": "Ⅴ[On Hit] Inflict 5 Paralyze next turn."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "9e98ed437a8a253e633c7a91cab243353dc89cf2f365c8d5b2497bded51705d7",
+      "text": "[Heads Hit] Inflict 5 Bind next turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "4c78a07a39734ebc3a4b135b00a9d52d0592135d28249b6e74de2b014a4d1c5c",
+      "text": "The Right Arm's 5-Coin skill rolls up to 18. Return at least 12 talismans to apply 5 Attack Power Down next turn, or Stagger the Arm to stop it. Its final hit inflicts 5 Paralyze next turn, plus 5 Bind on Heads."
+    },
+    "skills.3.name": {
+      "sourceHash": "434eb63fd39525f656015c91926956dbd9d099781be888736e09da69ffba8328",
+      "text": "Transferring Talisman"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "793c197ef0f47ec446be3ef26a1604258677aee2b073d0b769914d73fb38c104",
+      "text": "[On Use] Remove all Entangled Curse Talisman from the target. Gain Reattached Curse Talisman equal to the amount removed."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "d24359c3ebe251e85032566968e4fddf9ceb8d4d615c32ad86c88b3faac1efba",
+      "text": "Timing note: the source footnote places talisman application after the attack."
+    },
+    "skills.3.response": {
+      "sourceHash": "bfb4bf736a11853185577d4136743ea43a817f2053846fc0ddd6c1777a019206",
+      "text": "Attack this Defense Skill with a Sinner carrying many talismans to return them. All their stacks are removed and become the same amount of Reattached Curse Talisman on the enemy. The footnote places application after the attack, so check action order and the result."
+    },
+    "skills.4.name": {
+      "sourceHash": "8719176ec107aa14a496d6522790cfde37df52747e09f00cf256b10865c701b4",
+      "text": "Proliferating Curse"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "7bb0df699bf1469a2d8ce4b4b1dcbcf8b3589fe7473684708d5c555beaf39ff8",
+      "text": "[On Use] Inflict Entangled Curse Talisman equal to the target's current stacks."
+    },
+    "skills.4.response": {
+      "sourceHash": "39e170adb376dab228cb96759b1109fe0a34951fc937140cc071d66730d2c56b",
+      "text": "Doubles the target's talismans [On Use]. Winning the Clash does not cancel this increase. Check whether a faster Sinner with fewer stacks can redirect it."
+    },
+    "passives.0.name": {
+      "sourceHash": "ba5610fdc2e6b8326a4b0ed14bccc8e21646de1488844baa239879a20f9fdb59",
+      "text": "Spreading Ember"
+    },
+    "passives.0.effect": {
+      "sourceHash": "78b93100fdc503453fb1c3b3b5bfb56ef7fa456954c757e4e8f2bd73c8668adf",
+      "text": "At Turn End, if this unit has Burn, inflict Burn equal to its value next turn on all targets with Entangled Curse Talisman."
+    },
+    "passives.0.condition": {
+      "sourceHash": "653fdd09d5b2a9b9179d0dc44eecc0386bc51b3ab06f950d7c1cd44b2d643eae",
+      "text": "Enemy has Burn at Turn End"
+    },
+    "passives.0.response": {
+      "sourceHash": "b1a7b9f72825174a916b169d271f238f2f1645fdd66e420c1caf0e2ebfae5c6c",
+      "text": "Burn returns next turn to targets carrying talismans. This applies to the story encounter; do not confuse it with Mirror Dungeon versions lacking this passive."
+    },
+    "passives.1.name": {
+      "sourceHash": "bb6a9afcfb3200f66484ad00d5bb24153f0fa4906a43fa879b98fe8675aa86f7",
+      "text": "Broken Means"
+    },
+    "passives.1.effect": {
+      "sourceHash": "25e4265f7a31d58645e9053ae63c4dfdadb9208e6272285be2bae16061f1dac9",
+      "text": "When the Arm Part breaks, the Arm deals 20% less damage."
+    },
+    "passives.1.condition": {
+      "sourceHash": "26d6d218dcb2f7ab7b0e329f01073abdc7f9d260e6a4a5115cebaf52f8ceffa8",
+      "text": "Right Arm broken"
+    },
+    "passives.1.response": {
+      "sourceHash": "bf1b42425c5448d172c595d7f5bae211dc4e8bdd440efd259e18cda8bdfe6057",
+      "text": "The Arm deals 20% less damage but can still act. Keep attacking after the break to finish the enemy."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "710214270abd44160e04994f78373089bba611328671bcfc3d8c01406c908263",
+      "text": "Entangled Curse Talisman"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "19c288b786d59abc5fa910ac49dcaf292dd01b784266f9fb01d7bd14b6ae9d82",
+      "text": "Talismans applied to Sinners. Deal +1% damage per stack. At Turn Start, if at 9 or more, gain 2 Attack Power Down. Attack Transferring Talisman to return them to the enemy."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "cf21af6ed1f8156e49664b874c3ad1f0071a178917f9ff44680b15ed6c03146d",
+      "text": "Normally keep stacks at 8 or fewer, and separate talisman returners from major-attack Clash specialists."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "a3766b8b16301cd6ddc4b4cf5048272f3e2b95678c60078f0ba47abff7017584",
+      "text": "Reattached Curse Talisman"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "e31372626d3dcda4359de39273a279a611b70913ca1ade4b8cfd94b0d19e49fd",
+      "text": "Talismans returned to the enemy. At Turn End, gain 5 Bind at 9 or more stacks and 5 Attack Power Down at 12 or more."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "e1a15b035de45b30134d98347ef7a3cd39736bb84bd2d3fb09929e2db8210677",
+      "text": "Reach at least 12 on turn 3 to weaken the following 5-Coin skill. Distinguish these from the talismans on your Sinners."
+    },
+    "warnings.0": {
+      "sourceHash": "77b505c3d48782fe2bf44df29ccd61ef3494472c1fb2639dd35f0ce62cc9250f",
+      "text": "Talismans also apply [On Use]. Winning Clashes cannot prevent all of them."
+    },
+    "warnings.1": {
+      "sourceHash": "c7eb57d007da8d32c260892cdd9ecdd74a472790408f95197cd39bcf717587ef",
+      "text": "Breaking the Right Arm does not stop it acting. Temporary action loss from Stagger differs from reduced damage after breaking."
+    },
+    "warnings.2": {
+      "sourceHash": "11f8194e6470f715c277c8ef4ba12bfb28ebcab408f6b110dd52ad8ba1dab9d9",
+      "text": "Collecting 6 talismans on 2 Sinners requires taking hits. If HP is insufficient, aim for Arm Stagger instead of forcing this setup."
+    },
+    "warnings.3": {
+      "sourceHash": "0bf865d9982b874a65d6dcc23a0fd3a788c0fa6e5695536a9689cba201cd491f",
+      "text": "Burn returns to targets carrying talismans. Do not stack Burn as if this were a Mirror Dungeon version without that passive."
+    },
+    "warnings.4": {
+      "sourceHash": "7913239300c9bd06d2fdcf61210741332219425676ea0e3bbe99fbd55605fa20",
+      "text": "The regular turn-4 skill does not have Unbreakable Coins. Do not apply the rules of enhanced Railway or Mirror Dungeon versions here."
+    },
+    "preparation.0": {
+      "sourceHash": "54e89712140d199ed449e46e5657eac65c266e5b6fef86a317b1d3d460521ac4",
+      "text": "Aim for Level 35 and Uptie III or higher on your main units. Focus Blunt, Wrath, and Pride on the Right Arm to Stagger it before the major attack."
+    },
+    "preparation.1": {
+      "sourceHash": "5f748d5b89c01d1d6131301008aca2dadcb7cb5db383772fdaa9ffb567bea2d7",
+      "text": "For a longer fight, prepare a Blunt-resistant defender, HP healing, and talisman returners."
+    },
+    "roles.0.name": {
+      "sourceHash": "6f20c7f76496f0e35be04338efe9425929bd35257f9912b1df7a277bbd1a6c74",
+      "text": "Focused Right Arm damage"
+    },
+    "roles.0.reason": {
+      "sourceHash": "4db10ca685dd8ffd17c06b8945039f19f83d5ec621e6dd0d8e128e131e68cecf",
+      "text": "Stagger and break the lower-HP Part to wear down overall HP."
+    },
+    "roles.1.name": {
+      "sourceHash": "50b30092aedf330c90736bb24f2d6cba6f5bff046e63f4834e780341ad982b14",
+      "text": "Talisman collectors and returners"
+    },
+    "roles.1.reason": {
+      "sourceHash": "e2e922c7a37b505f41147879d4dbc549f9a009c4ae7fbc0feb63e206f3d785f9",
+      "text": "Build at least 12 returned talismans on turn 3 to weaken next turn's major attack."
+    },
+    "roles.2.name": {
+      "sourceHash": "b6ff4acc4c19be2ce2f745b745d04766c55f1f7b554a2276bfa8e5375394451d",
+      "text": "Major-attack Clash specialist or defender"
+    },
+    "roles.2.reason": {
+      "sourceHash": "91cd2ca1b28b5dc1ef1fa7fd82bc37be567e88772084797255c8b370e1f36d2b",
+      "text": "Prevent the 5-Coin skill's hits and avoid recovery being delayed by next-turn Paralyze and Bind."
+    }
+  },
+  "messages": {
+    "boss-copy:talisman-doll": "complete",
+    "【リンバス】4-54 誰も泣かぬように（4章）の攻略｜Limbus Assistant": "4-54 So That No One Will Cry (Canto IV) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-54「誰も泣かぬように（4章）」の攻略。まずは打撃で右腕を集中攻撃。長引くなら3ターン目にお札を返し、4ターン目の5枚攻撃を弱める。自分に付く札と、敵へ返した札を区別しよう。": "So That No One Will Cry (Canto IV) guide for Limbus Company 4-54. Focus Blunt attacks on the Right Arm first. If the fight lasts, return talismans on turn 3 to weaken turn 4's 5-Coin attack. Distinguish talismans on your Sinners from those returned to the enemy.",
+    "4-54 誰も泣かぬように（4章）": "4-54 So That No One Will Cry (Canto IV)",
+    "4-54「The League of Nine in Memory, Floor 1」": "4-54 · The League of Nine in Memory, Floor 1",
+    "誰も泣かぬように（右腕）の外見": "So That No One Will Cry (Right Arm) appearance",
+    "誰も泣かぬように（右腕）のスキル": "So That No One Will Cry (Right Arm) skills",
+    "So That No One Will Cry (Right Arm)の外見": "So That No One Will Cry (Right Arm) appearance",
+    "So That No One Will Cry (Right Arm)のスキル": "So That No One Will Cry (Right Arm) skills",
+    "誰も泣かぬように（胴体）の外見": "So That No One Will Cry (Body) appearance",
+    "誰も泣かぬように（胴体）のスキル": "So That No One Will Cry (Body) skills",
+    "So That No One Will Cry (Body)の外見": "So That No One Will Cry (Body) appearance",
+    "So That No One Will Cry (Body)のスキル": "So That No One Will Cry (Body) skills"
+  }
+}

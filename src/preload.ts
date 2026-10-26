@@ -6,9 +6,12 @@ import { SYNERGY_HEADING } from "./components/GuideView";
 import { getKeywordPage } from "./keywordPages";
 import { loadBossGuide } from "./bosses";
 import { preloadPage } from "./routes";
+import { isEnglish, originalPath } from "./i18n/path";
+import { setEnglishMessages } from "./i18n/text";
 
 export async function preloadRoute(pathname: string): Promise<void> {
-  const [, kind, raw] = pathname.split("/");
+  if (isEnglish(pathname)) setEnglishMessages((await import("./i18n/messages.en.json")).default);
+  const [, kind, raw] = originalPath(pathname).split("/");
   const id = raw ? decodeURIComponent(raw) : "";
   // ページのコード自体も遅延読み込みなので、データと並べて読み込む。
   // 失敗しても画面側の Suspense が読み直すため、ここではログだけ残して先へ進む

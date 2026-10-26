@@ -1,0 +1,1250 @@
+{
+  "kind": "boss-copy",
+  "id": "sewing-king",
+  "source": "src/data/bosses/sewing-king.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "繭の泣き声 - 微弱",
+          "en": "Cry of the Cocoon - Frail",
+          "file": "Bufs-a1c10p1.json",
+          "id": "HowlingCocoon"
+        },
+        {
+          "ja": "繭の泣き声 - 悪性",
+          "en": "Cry of the Cocoon - Vicious",
+          "file": "Bufs-a1c10p1.json",
+          "id": "HowlingCocoonTwo"
+        },
+        {
+          "ja": "釘刺す者",
+          "en": "He Who Nails",
+          "file": "Bufs-a1c10p1.json",
+          "id": "MeursaultBuffet"
+        },
+        {
+          "ja": "舌に刺さった針",
+          "en": "Tongue-pinning Needle",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NiddleExpected"
+        },
+        {
+          "ja": "針釘",
+          "en": "Naildle",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NiddlePin"
+        },
+        {
+          "ja": "剥製状態",
+          "en": "Taxidermized",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NiddlePinned"
+        },
+        {
+          "ja": "もつれた縫製",
+          "en": "Messy Sewing",
+          "file": "Bufs-a1c10p1.json",
+          "id": "WeakWithering_LowMorale"
+        },
+        {
+          "ja": "もつれた縫製",
+          "en": "Messy Sewing",
+          "file": "Bufs-a1c10p1.json",
+          "id": "WeakWithering_Panic"
+        },
+        {
+          "ja": "裁縫の王",
+          "en": "King of Needleworks",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1496"
+        },
+        {
+          "ja": "経糸の針っ子",
+          "en": "Warp Needlekin",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1498"
+        },
+        {
+          "ja": "緯糸の針っ子",
+          "en": "Weft Needlekin",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1499"
+        },
+        {
+          "ja": "経糸の針っ子",
+          "en": "Warp Needlekin",
+          "file": "Enemies-a1c10p1.json",
+          "id": "91063"
+        },
+        {
+          "ja": "緯糸の針っ子",
+          "en": "Weft Needlekin",
+          "file": "Enemies-a1c10p1.json",
+          "id": "91064"
+        },
+        {
+          "ja": "ハンドメイド",
+          "en": "Handmade",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149602"
+        },
+        {
+          "ja": "裁縫",
+          "en": "Sewing",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106301"
+        },
+        {
+          "ja": "小さく尖った釘",
+          "en": "A Tiny Sharp Needle",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106302"
+        },
+        {
+          "ja": "経糸がどうだの",
+          "en": "Bla Bla Warp Bla",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149601"
+        },
+        {
+          "ja": "緯糸がこうだの",
+          "en": "Yap Yap Weft Yap",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149602"
+        },
+        {
+          "ja": "針数！針数！針数！",
+          "en": "Stitch! Per! Inch!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149603"
+        },
+        {
+          "ja": "1インチあたりの針数は20以上で！！！",
+          "en": "20 stitches an inch, minimum!!!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149604"
+        },
+        {
+          "ja": "ステッチが均一すぎるだと？手縫いのピックステッチじゃないだと？集合！！！",
+          "en": "Too even, you say? Not pick-stitching, you say? Assemble!!!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149605"
+        },
+        {
+          "ja": "ハンドステッチングしろ！！！",
+          "en": "You want me to hand-stitch this?! HAND-STITCH???!!!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149606"
+        },
+        {
+          "ja": "脇線の外側に縫い目が2本見えたらダブルニードル。失格！",
+          "en": "Double stitching past the side seam? Double-needle! Rejected!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149607"
+        },
+        {
+          "ja": "ボタンをX字に縫いつけていなければ失格！",
+          "en": "No cross-stitch buttons? Rejected!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149608"
+        },
+        {
+          "ja": "ピックステッチをわざと目立つように縫ったのかって！？同じように縫い潰してやる！",
+          "en": "Pick stitch too obvious, you say?! I'll pick-stitch your ass!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149609"
+        },
+        {
+          "ja": "なみ縫い - 経糸",
+          "en": "Running Stitch - Warp",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106301"
+        },
+        {
+          "ja": "しつけ縫い - 経糸",
+          "en": "Tacking Stitch - Warp",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106302"
+        },
+        {
+          "ja": "返し縫い - 経糸",
+          "en": "Backstitch - Warp",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106303"
+        },
+        {
+          "ja": "コの字とじ - 経糸",
+          "en": "Blind Stitch - Warp",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106304"
+        },
+        {
+          "ja": "なみ縫い - 緯糸",
+          "en": "Running Stitch - Weft",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106401"
+        },
+        {
+          "ja": "しつけ縫い - 緯糸",
+          "en": "Tacking Stitch - Weft",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106402"
+        },
+        {
+          "ja": "返し縫い - 緯糸",
+          "en": "Backstitch - Weft",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106403"
+        },
+        {
+          "ja": "コの字とじ - 緯糸",
+          "en": "Blind Stitch - Weft",
+          "file": "Skills_Enemy-a1c10p1.json",
+          "id": "9106404"
+        },
+        {
+          "ja": "いいから…喰らえ！！！",
+          "en": "Just... Eat!!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "149610"
+        },
+        {
+          "ja": "縫製開始",
+          "en": "The Sewing Commences",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149601"
+        },
+        {
+          "ja": "耳を塞いでも見えるクレーム",
+          "en": "Unending, Unavoidable Stream of Customer Complaints",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149603"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. The guide aliases for Just... Eat!! and The Sewing Commences are resolved by IDs. The complaints passive is labeled for Route A. Equipping defense, unknown Tacking Stitch Naildle amounts, conditional Unbreakable Coins, differing reduction rules, Needlekin types, and the immediate phase transition are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "76008a34ffe03ea0e9bd7aaacf5837a825c72a766d95616cc27661097db700fb",
+      "text": "King of Needleworks (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "f0a5a6b86e0791ce027b5434879dd2c99550def502f95dfb3960c391ff69a44b",
+      "text": "King of Needleworks"
+    },
+    "stageName": {
+      "sourceHash": "e49a5a17d6de6283db103bb3378520fe5fd13623331ac11a3417f183a82cfee5",
+      "text": "Sisyphus Department Store A, B2F: Yarn Nest Corridor"
+    },
+    "lead": {
+      "sourceHash": "49279e438fb0a4055a5ec8e444b0797cbbd45a45695e4830c9aa7c8b5cc73815",
+      "text": "Equip Defense Skills on Sinners with Tongue-pinning Needle each turn to prevent Naildle buildup. Defeat Needlekin quickly in the first half to limit body buffs and area attacks. After the transition at 1,087 HP, finish without relying on Stagger."
+    },
+    "statNote": {
+      "sourceHash": "53d38b21b325be6b7564bdaaa3ff567d6ff0ebdb83f2b8b8e3c0b6008fed88c9",
+      "text": "Covers the Canto X Route A version. Main body: Lv. 43, 1,812 HP; Needlekin: Lv. 35, 85 HP. Distinct from Route B's enhanced version and regular-battle Needlekin at Lv. 38 with 99 HP. Defense Levels exclude additional effects. Ryōshū, Meursault, and Outis are required in a team of up to 12. Customer Level determines dungeon Identity levels; Uptie below III is raised to III. E.G.O Threadspin is unchanged."
+    },
+    "skillNote": {
+      "sourceHash": "1179a8a591d4f8823c6f8ccbd07731a95800f5952c789f2940cd0af8508ca0d2",
+      "text": "Listed Power excludes Final Power from Needlekin count and Cry of the Cocoon. Icons show permanently Unbreakable Coins only. Needlekin Running Stitch becomes Unbreakable against targets with at least 6 Bleed. The Naildle amount on Tacking Stitch is unknown. The Hand-stitch skill grants 1 Offense Level Up."
+    },
+    "priorities.0": {
+      "sourceHash": "affb09fde163359ac4651303c2f511bb6aafa3c6d6ea6e6f02a5a2c4d14d28b9",
+      "text": "Each turn, equip Defense Skills on the two Sinners with Tongue-pinning Needle."
+    },
+    "priorities.1": {
+      "sourceHash": "672ad886deedf0a04cb2e56b28ccc520992d1db7a65facc98eb5072b55972e83",
+      "text": "Defeat every Needlekin to cancel the side-seam skill in the three-turn cycle."
+    },
+    "priorities.2": {
+      "sourceHash": "44a75e5b1e306bdf1d5955e0f2bdfb31086da89d4fc4e01b93ef7cf296a7d761",
+      "text": "Stitch! Per! Inch! has no 80% reduction. Use the clasher's resistance or Evade to limit damage."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "6848d487aa2f6c998b2eb09db6274a3a591579e1b5f76ebc1c46728bd8724a92",
+      "text": "Sinners become unable to act and are killed"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "230d95eebe4503355cf22e720b61e2428e4a5e28f53df8928f4ff9402a5d9a9a",
+      "text": "High Naildle lets the Unclashable Pick-stitch skill inflict Taxidermized, followed by fixed damage equal to 99% max HP. Start recovery by equipping defense every turn on Sinners with Tongue-pinning Needle."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "7dbbf8302d973ab85379f1813b42a03ec6913b5c1f25f1b0381b7f1927be5b84",
+      "text": "Area skills have too much Power to beat"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "0303608ba7059c8c70a13fd78c7affc365c8b012edaee87cf6a32f846e34ba59",
+      "text": "Each Needlekin adds 1 Final Power to the body. Cry of the Cocoon adds another 2 on turns divisible by three; in the second half, it adds 3 every turn. Check beyond base maximum Power and prioritize Needlekin kills early. Shopping toward Customer Lv. 45 and Ruby also helps."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "ff0d7128e85dd82a4bccca303f791ac3167bbfde809b9e290460e09ba432c7b8",
+      "text": "Stitch! Per! Inch! deals heavy damage despite a clash win"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "6890c756d3afb858fe401822ad50bc80d6dda2222faf396e2e82e7e543f94ec9",
+      "text": "Stitch! Per! Inch! has four Unbreakable Coins but no 80% damage reduction on a clash loss. Assign a Sinner who is not weak to Pierce and Gluttony, or use sufficiently strong Evade. It differs from Yap Yap Weft Yap and 20 stitches an inch, minimum!!!."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "285732652d7786d07c62c6c4dfbb9436dd8dea6eb90e3f2939578e42591df44e",
+      "text": "Staggered Needlekin act, or the body cannot be Staggered"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "502ff058a2204730cd3f9d0157266c447b2af1481b092f49a775f6286bbe46fd",
+      "text": "The Hand-stitch support skill makes Needlekin perform extra attacks ignoring Stagger. The body is also immune to inability to act on turns with the Cry. Defeat Needlekin outright and do not abandon clashes expecting to Stagger the body."
+    },
+    "phases.0.timing": {
+      "sourceHash": "4d6b026d6e8aadd999b75eecf4889672e16dbaef290235c0eba47801f59b7d3b",
+      "text": "Before the B2F battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "3f905d52f804f16920d67595d35a6edd31699be55bb3b48990d9f0b7fe8724f6",
+      "text": "Check Customer Lv. 45 and required deployment"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "f0d96d16436e0348c4c714d59aebbb85f8962f84dcae084d8fef74b55f814652",
+      "text": "Shop toward Customer Lv. 45 and Ruby. Outside Identity levels do not raise dungeon levels."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "7a4de5e454ac873d718d82a7a9739b490dc1ae61d6560d1e54a7494849bf740c",
+      "text": "Ryōshū, Meursault, and Outis are required. Fill remaining slots with Pierce damage to kill Needlekin, high-Power area-skill clashes, Evade, and HP recovery."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "0dff08892543ccc9259f5081f479ea58075a2f2c1af5a1f53e93d124e791f7d5",
+      "text": "Meursault's He Who Nails adds two E.G.O resources of his skill's affinity on use, twice per turn. Its survival effect requires another ally alive at Turn Start."
+    },
+    "phases.1.timing": {
+      "sourceHash": "2022807cf6c308ae4cefb28836daaf6d8210aecd2fbae2cdf0e1f274e7e43e83",
+      "text": "Start of every turn"
+    },
+    "phases.1.title": {
+      "sourceHash": "361419b81b68f5e3a5310f2ac9a7aba42f1b8ba50148c70c6cfbd002fd90f812",
+      "text": "Remove Tongue-pinning Needle by equipping defense"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "24b70489ade1a1304fecace23bfe5889715cb25cad98e1ac1985dd907a51af5a",
+      "text": "The Sewing Commences applies Tongue-pinning Needle to two random Sinners. Check those two before arranging attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "f09fc4521ea974681810b1355592cb795a500d3987a3670a1c328c1716a1a5fb",
+      "text": "Equipping a Defense Skill on an affected Sinner removes Tongue-pinning Needle and reduces Naildle by 1. The condition is equipping defense, rather than activating it."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "0c3dc9ad6885353bf172488e33058a70cf6cabd6145d1f8523f19d2d482d807f",
+      "text": "Leaving it through Turn End adds 3 Naildle. Pierce hits reduce Naildle but also add Bleed Count, so do not rely on taking hits to remove it."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "57edda0667e2a546032d9cd2c1fd7762997a823fc637063351dd50843d2e2ed7",
+      "text": "Sinners with Evade can also use it against Stitch! Per! Inch!. Check Evade Power and the body's current buffs."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ee00facd9a7905190f3606ca86a43605044fb749315b76fb8362db7f913c868d",
+      "text": "Phase 1 · Three-turn cycle"
+    },
+    "phases.2.title": {
+      "sourceHash": "0c1faefcc836224031faa141c19b0410e879c50c46f451f0b809729db20c454c",
+      "text": "Defeat summoned Needlekin to stop the area attack"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "06cf0ecad3d7c0c5ffad44df9c7be1c7e8e3f2b539cf35691e08988604420ffa",
+      "text": "The Turn 1 Assemble skill summons three Needlekin next turn. On Turn 2, clash with the body's area attack while concentrating spare fast attacks on Needlekin."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "6e1c15ae5f369594e354b8b97ecadfa5a4061a6a3bc3ba76f6a88cea42217f63",
+      "text": "Needlekin have 85 HP and Pierce resistance ×1.5. Stagger alone leaves them able to attack through Hand-stitch support, so focus damage to finish individual targets."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "50857273ecbced77371b0d9c5526744b0acd29b554e4a41b741df54e7a7dd474",
+      "text": "On Turn 3, Double stitching past the side seam? Double-needle! Rejected! is canceled if no Needlekin remain when used. Aim to eliminate them before the body acts."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "fd061ec401f3fffabfd7a799ae5100706dde8e5401577edd84f253f1d7c71f07",
+      "text": "Each surviving Needlekin adds 50% major-skill damage, then grants next-turn Attack Power when disposed of after the attack. If you cannot kill them all, prepare for area damage; do not expect body Stagger to stop it."
+    },
+    "phases.3.timing": {
+      "sourceHash": "0078f9b41be9459102d21ed3083ab097d2e5deca490e26a288808590cb5ea07e",
+      "text": "Regular and area attacks from the body"
+    },
+    "phases.3.title": {
+      "sourceHash": "ef09fd26e7bbf8150479ecc1057d4ab8dc42db32afdbc28c59ff7d94a20ea9b8",
+      "text": "Distinguish skills with and without 80% reduction"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "86ba2b8aa43ff0b5c1e308c693ea1f149f46dccdb3a68e42f7284321aa238433",
+      "text": "Yap Yap Weft Yap and 20 stitches an inch, minimum!!! are Unbreakable, but winning reduces damage by 80% and prevents Stagger from that skill's damage. Assign strong skills to area clashes."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "627c4d207468d47fd2bca9ad97a2942c35fd5e02992d679a5827d921425c4578",
+      "text": "Yap Yap Weft Yap is an Unfocused Volley: each Coin attacks one of its targets. It does not hit every target three times."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "7dee918b23eda08a11c234ec729b8c9e79b245577273f0cba5bd6779e8f938b8",
+      "text": "Stitch! Per! Inch! lacks the same 80% reduction. On-hit Naildle remains after winning, so use a resistant Sinner or Evade."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "7bc77705e09eb2cf955fdcb574ff1a808390f56d2aecdc28ab3308030efac714",
+      "text": "Winning against No cross-stitch buttons? Rejected! reduces the clasher's Naildle by 2. Use it to lower stacks when a Sinner with Naildle can win."
+    },
+    "phases.4.timing": {
+      "sourceHash": "0c35f7014a9fb3506e81aa666587283f59134297344d9896b87304a61b31d8e7",
+      "text": "Body at 1,087 HP · Phase 2"
+    },
+    "phases.4.title": {
+      "sourceHash": "fd6b25868b2fdb9c9ed708139907ec7d471a641628f6a387f0a21d23ccc013f9",
+      "text": "Prepare for an immediate turn end and fight without relying on Stagger"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "04429c857b69bb82ab41624a9f105e37de4367213c543ac612a176f28fe65f94",
+      "text": "At 1,087 body HP, the turn ends immediately and Phase 2 begins. Do not postpone healing or Needlekin kills assuming every remaining action will resolve."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "a41fbdb5d95d7e194c38be1536e5010168ade666db594a4a8b3d63a45ea22db3",
+      "text": "The second half uses a two-turn attack cycle and Cry of the Cocoon - Vicious grants +3 Final Power every turn. Immunity to inability to act means you cannot plan around safely damaging a Staggered body."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "eaf6d017152cc0a3a364dc1d92ef436820d23160cfdfa2346bf5ed389708a481",
+      "text": "Clash, heal remaining Unbreakable damage, and attack with Pierce. The 2 Fragile gained next turn after crossing a Stagger Threshold also creates an opening."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "54881a4dd2f4e100dc2129f1d8908bdd06583b793be6d9b335876360290f748a",
+      "text": "At 5 or more Naildle, an Unclashable Pick-stitch skill is added; a Taxidermized Sinner brings Just... Eat!!. Keep checking equipped defense in the second half and finish before dangerous stacks accumulate."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "f8bb272a6601a9031aa027a6cd20f258c0736ad9a316ab74297b787bda294a17",
+      "text": "Tongue-pinning Needle"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "5ddd7e54c21f761f91a75c3fdf6e51a8fcfe8cd29f175bb9609fbfa2ea47d1a9",
+      "text": "The Sewing Commences applies it to two random Sinners each turn. Equipping defense removes it and lowers Naildle by 1. If left through Turn End, gain 3 Naildle and remove it."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9aaf3dafa86a810f076ee9cc9afbd727302a2637b415098d77f8808873aa03d4",
+      "text": "Check affected Sinners before arranging attacks, then equip Defense Skills."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "5e907f6b87266f3c743d0b3730362dda50efdd6a3c9248a704a8e2a3ffd48a3f",
+      "text": "Naildle"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "443b52b87aed683fb373cdc2e51876d5f8b7402db844d0fad214e265e401fddd",
+      "text": "A special Bleed. Taking Pierce damage adds 1 Bleed Count and removes 1 stack. At Turn End, gain 1 Bleed and lose 1 stack. At 5 or more, enables extra body skills and redirection restrictions."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "6d81280acf42635e686f5de8343a0db4d89a72ebc77f9e59b5f861349f10a564",
+      "text": "Remove Tongue-pinning Needle and use clash wins against the button skill to limit buildup."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "f7a4b2a40c91ce7a1e497fa028a23ad7de2e94726e0facd03e726d5d224c9ec2",
+      "text": "Taxidermized"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "2bb5fde70dc3917db5dcc709b79776842b7b499d60ea5efdf0571bce20df5fa4",
+      "text": "Maximum 2; cannot act while active. When attacked, Bleed Count +1 (three times per turn). At Turn End, take 15 HP damage, lose 5 Naildle, and reduce this effect by 1. A hit from Just... Eat!! deals fixed damage equal to 99% max HP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "aed87c1660795dd747646bea4c99cfbb30d06ae7ec7d6c5d0e83ea85a4237db4",
+      "text": "The follow-up is Unbreakable, so ordinary clash wins alone cannot protect you. Manage Naildle to prevent Taxidermized in the first place."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "de55f620e9c714fde2fbd75986fa90e2228810632848810a5707870d64d5f0ae",
+      "text": "Cry of the Cocoon - Frail"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "c1d1f20893b8465f82e426203f1756d2dfc7813a555168cb3d76800b04299e41",
+      "text": "Gained on Phase 1 turns divisible by three. Skill Final Power +2. Unending, Unavoidable Stream of Customer Complaints grants immunity to inability to act on turns with the Cry."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "195bfabbc0aef25e81c55d1e8cd449bc0c7a61b2f3b8fdb43d91cdab147a0470",
+      "text": "Stop the three-turn major attack by defeating every Needlekin, rather than through Stagger."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "e68e33ebeb2fc9ecf6d87144f40c275acbe19391dd38e31f457609404f45e1a6",
+      "text": "Cry of the Cocoon - Vicious"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "f281b67597ae8e8331b58e0e23acb80a2c71c6e6aaa546665868425e77c5bac1",
+      "text": "Persists every turn in Phase 2 and grants +3 Skill Final Power. Immune to inability to act while the Cry persists."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "9ad5624276c004e55edb2a3b477499190b3920020132cc46fd9fc630dea254e0",
+      "text": "Maintain clashes and healing while damaging the second half, without relying on Stagger."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "b962eaf340e635975ead295e651cc7734d6757205f35d03409d29aade2a2e631",
+      "text": "Messy Sewing"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "fc4f43e55393849822e02686dd2fb2fc6b3e64f8538122eaea4345095fee328f",
+      "text": "At Turn Start with −20 SP or lower, gain 1 Attack Power Down; at −45 or lower, also gain 1 Damage Down."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "69777aa906a7f3b72c64e70c3da0e0ac4f23367e1fa5f14440b2acd622d0ce26",
+      "text": "Lower body SP through clash wins. Unbreakable attacks still remain even on Tails."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "d11fa3f0cd8cab31032bea44b792cca186ec6b9d076dce2b59a7297366078b13",
+      "text": "He Who Nails"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "6c2f2583456a45ff3551de72410ebc0f581ac72c1de3ea0ceb9e54bfddcc211f",
+      "text": "Meursault gains two extra E.G.O resources of the skill's affinity on use (twice per turn). If another ally lives at Turn Start, cannot die from damage that turn. Cannot retreat."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "22b07ba626cde3b732605bda88dfcd36f444837a9a3b7a59d05f3c5e7285e069",
+      "text": "Use him for resources and taking hits, while keeping other allies alive too."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "f58943c287e3425bce34657c19c364b050a154d63f2da06d8a8a97fac01e3885",
+      "text": "Raised through department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "b713224a9ad043e5950b0a4333fd6ec846604cc600eb562d3f69102de5f2c1e6",
+      "text": "If struggling, check unvisited shops and aim for Customer Lv. 45 and Ruby."
+    },
+    "warnings.0": {
+      "sourceHash": "297b169230ca7f59f97dc06daee06d5d816ce26fc888ae154d9544399904ae46",
+      "text": "Remove Tongue-pinning Needle by equipping defense. Leaving it adds 3 Naildle at Turn End."
+    },
+    "warnings.1": {
+      "sourceHash": "33f898c92a173cbfacd2fd37437a49bfefc39ea1532cc07a8491ebb024de9d50",
+      "text": "The body's support makes Needlekin attack even while Staggered. Defeat them to limit Handmade and major skills too."
+    },
+    "warnings.2": {
+      "sourceHash": "688fbc0e2a3d3e261f8eaa2e8d33f33fec7186c56b084cf859c19f7899926813",
+      "text": "Stitch! Per! Inch! lacks the 80% reduction on a clash loss found on the other area skills."
+    },
+    "warnings.3": {
+      "sourceHash": "ac4e2f3f8d967d47fc4e5cbf1e837f0c28969538e8a148dd8899a4b326aa16dd",
+      "text": "At 1,087 HP, the turn ends immediately. In the second half, the Cry persists every turn and grants immunity to inability to act."
+    },
+    "warnings.4": {
+      "sourceHash": "c213ca8a98500a2bd77019d069067b714dd8009d59bc3975d2e9c5485c2a0ef4",
+      "text": "The Pick-stitch Taxidermized check occurs after the −1 Naildle from taking Pierce damage. Having exactly 5 before the hit does not always mean being Taxidermized."
+    },
+    "preparation.0": {
+      "sourceHash": "cdb38f6dd1a1778f60b7d12add63d6891b4907ecb47151a0f7980b18097b2f67",
+      "text": "Shop toward Customer Lv. 45 and Ruby. Check Defense Skills and resistances on the required Ryōshū, Meursault, and Outis too."
+    },
+    "preparation.1": {
+      "sourceHash": "da97a8c381186800b817247586b6360fc6d2837c0b76921d935d61e4a38c8fe7",
+      "text": "The body takes ×1.2 Pierce, Lust, Sloth, and Gluttony damage. Needlekin take ×1.5 Pierce, so Pierce works well against both. Beware the body's Blunt ×0.5 and Pride ×0.75."
+    },
+    "preparation.2": {
+      "sourceHash": "573903405eeb14cb0e67a1f46b86d61fe9505c828bfd982560bb3f4741e1cc34",
+      "text": "Alongside strong clashes and healing, prepare Pierce/Gluttony resistance or Evade for Stitch! Per! Inch!. Check sin resistances after E.G.O use too. Needlekin inflict extra Naildle on targets with Pierce or Envy resistance of at least ×1.5."
+    },
+    "roles.0.name": {
+      "sourceHash": "3ac088cbad75fd2b1405fc25b60340169d7404270b827216f712490b5517226f",
+      "text": "Fast Pierce damage to kill Needlekin"
+    },
+    "roles.0.reason": {
+      "sourceHash": "87a5ee3076d035b1707bc76f4a0e4dcfb6d6afb327c823eff33d32e289f57e91",
+      "text": "Eliminate Needlekin before the body acts to cancel its major skill and lower Final Power."
+    },
+    "roles.1.name": {
+      "sourceHash": "503763e1f7395a1cc5979ee08b3ea3b480c17c0e58ae35821aa71913ebcf1937",
+      "text": "High-Power area-skill clasher"
+    },
+    "roles.1.reason": {
+      "sourceHash": "f93c761351e07c33be25751a9dc26e52b766c20b090143debe2984e5d3bcec47",
+      "text": "Win against Yap Yap Weft Yap and 20 stitches an inch, minimum!!! for 80% less Unbreakable damage."
+    },
+    "roles.2.name": {
+      "sourceHash": "e72d3b18a01537d1530023d4a2471ff105dbb221557b5ff788880a1af0a55876",
+      "text": "Evade, resistance, and HP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "c45b3d8163b4668615819ceaf66f9fd002494d3aca8cfe0883b10c931901291d",
+      "text": "Prepare for Stitch! Per! Inch! without 80% reduction and repeated second-half attacks. Check defense on every affected Sinner to remove Tongue-pinning Needle."
+    },
+    "units.0.name": {
+      "sourceHash": "f0a5a6b86e0791ce027b5434879dd2c99550def502f95dfb3960c391ff69a44b",
+      "text": "King of Needleworks"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "dcc67adfff6e0ed6e8dd5568ffc03b92d616d02f0f86cd7f97d2281eb424d4cd",
+      "text": "At 1,087 HP, immediately end the turn and enter Phase 2."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "95658419fdc7bd212ba20ced947a585bbaf0b51fee7c7c0abf52fe828f25db56",
+      "text": "Immune to inability to act on turns with the Cry. Crossing a Stagger Threshold grants 2 Fragile next turn."
+    },
+    "units.1.name": {
+      "sourceHash": "bc55bec8cd714bb9744412d9741c18ec61a4a995dbe9dca2abcf8ac57a13d470",
+      "text": "Weft Needlekin"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "c35cff6e8f68cb7d079099639519f553a774caf13cef6ed9647652cd14c20103",
+      "text": "40% and 0% (34 and 0)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "d229effbf7c64c245cb76822b346baba0750ecae00e05a618016bd1024e7f213",
+      "text": "The Route A summoned unit. Lacks the sunlight passive of regular-battle versions."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "2dfe76d4da96bb69e305b480da203ca2ab9dd3c3c7efeffc23def35a5b4e656e",
+      "text": "Extra attacks from Hand-stitch support activate even while Staggered."
+    },
+    "units.2.name": {
+      "sourceHash": "48117c590503cb1dfd9df8de7c83b784bbcfa981b2890699c12818d7fa656a0f",
+      "text": "Warp Needlekin"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "c35cff6e8f68cb7d079099639519f553a774caf13cef6ed9647652cd14c20103",
+      "text": "40% and 0% (34 and 0)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "d229effbf7c64c245cb76822b346baba0750ecae00e05a618016bd1024e7f213",
+      "text": "The Route A summoned unit. Lacks the sunlight passive of regular-battle versions."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "2dfe76d4da96bb69e305b480da203ca2ab9dd3c3c7efeffc23def35a5b4e656e",
+      "text": "Extra attacks from Hand-stitch support activate even while Staggered."
+    },
+    "skills.0.name": {
+      "sourceHash": "642d8de16ff2de5d0990b24cdd094e7b370f5f7d61045ea03c4b82863c787aee",
+      "text": "Bla Bla Warp Bla"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "b399e485e428760dd30bcb683d08e3ed6d87658263d5b040996069e3a126bfd6",
+      "text": "Ⅰ[On Hit] Bleed Count +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.response": {
+      "sourceHash": "f80a8f123101157c7ef3c0da21dd9fe205ca27f38f5d3e6509b2cc44c386262c",
+      "text": "A regular two-Coin Pierce skill. Clash to prevent Bleed Count and Potency gains. Surviving Needlekin also raise Final Power."
+    },
+    "skills.1.name": {
+      "sourceHash": "24d6cbb10f948284bf02126807840722ff3fbc447738949011208209a820323d",
+      "text": "Yap Yap Weft Yap"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "6d226029fe1a19761d89c8d95e0e02f29c27598efc7e4c1cbf1c68500c64a0d6",
+      "text": "Damage +5% per Naildle on the target (max 25%)"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "7f3991ff212a13b892d18662dbd8da01d01cf19cc6c2b3ecbbd4ddaa8125c117",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "e5a77ffbaef8a038946cd05f2136f6d55ec50b2f3efca95bd925a2167c4c22c5",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Naildle"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.1.effects.8": {
+      "sourceHash": "e5a77ffbaef8a038946cd05f2136f6d55ec50b2f3efca95bd925a2167c4c22c5",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Naildle"
+    },
+    "skills.1.effects.9": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.1.effects.10": {
+      "sourceHash": "3935cf9b9cae8bdfae68c315cf2a1b32045eac2cbaeeb3088f86db968e468b00",
+      "text": "[On Hit] Inflict 1 Bleed"
+    },
+    "skills.1.effects.11": {
+      "sourceHash": "e5a77ffbaef8a038946cd05f2136f6d55ec50b2f3efca95bd925a2167c4c22c5",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Naildle"
+    },
+    "skills.1.response": {
+      "sourceHash": "43a5e2bb5a85920e42864f65f85f275917356e76ce171fa9405fd69e15335ce5",
+      "text": "An Unfocused Volley with three Unbreakable Coins. Winning grants 80% damage reduction and prevention of Stagger from its damage, and stops Naildle applied on hits without Coin destruction."
+    },
+    "skills.2.name": {
+      "sourceHash": "e33f3e62bdc71485fcfec8dd10b3bf5484afb0a5a937a13cb77cd4028184b5d8",
+      "text": "Stitch! Per! Inch!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "acd1acf8a6935d99f43e049782df6627eaf9b38e964037f772d053e557fdc7a3",
+      "text": "[On Hit] Inflict 1 Naildle"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "acd1acf8a6935d99f43e049782df6627eaf9b38e964037f772d053e557fdc7a3",
+      "text": "[On Hit] Inflict 1 Naildle"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "acd1acf8a6935d99f43e049782df6627eaf9b38e964037f772d053e557fdc7a3",
+      "text": "[On Hit] Inflict 1 Naildle"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "acd1acf8a6935d99f43e049782df6627eaf9b38e964037f772d053e557fdc7a3",
+      "text": "[On Hit] Inflict 1 Naildle"
+    },
+    "skills.2.effects.11": {
+      "sourceHash": "2a2cba324a21a57fd240ec571d54b1330d4f1a80ee3338dc386189c9769993c6",
+      "text": "[On Hit without Coin Destruction] Inflict 2 Bleed"
+    },
+    "skills.2.response": {
+      "sourceHash": "4fa313b36e8823179ab1c2b61bd1e8b358056265e3a744bc99674721396b4ea1",
+      "text": "Four Unbreakable Coins without 80% reduction on a clash loss. On-hit Naildle remains after winning. Use a Sinner not weak to Pierce and Gluttony, or sufficiently strong Evade."
+    },
+    "skills.3.name": {
+      "sourceHash": "b6524ef5d9f0bc43b537f66a9788b24c4719b20218d3d3e2502a033d8b0dc5b3",
+      "text": "20 stitches an inch, minimum!!!"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "7f3991ff212a13b892d18662dbd8da01d01cf19cc6c2b3ecbbd4ddaa8125c117",
+      "text": "[Clash Lose] Damage −80%; this skill's damage cannot Stagger"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "7f9658ab00f74bc2e64a3b453d7e846f5b3cdf2d4335500b90ec20ca3e6a5f24",
+      "text": "[On Hit] Inflict 4 Bleed."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "e5a77ffbaef8a038946cd05f2136f6d55ec50b2f3efca95bd925a2167c4c22c5",
+      "text": "[On Hit without Coin Destruction] Inflict 1 Naildle"
+    },
+    "skills.3.response": {
+      "sourceHash": "56eafdac14f6fdd52038610808c9b974eb8d9ac1ffe9cefbe1573d99b63a35d6",
+      "text": "An Unbreakable area skill with 7 Atk Weight. Win with a strong skill for 80% damage reduction and prevention of Stagger from this skill's damage."
+    },
+    "skills.4.name": {
+      "sourceHash": "6cd9aa456191c1cab2682a565727fa65f83444db346ce8baf030bdb20afe79c4",
+      "text": "Too even, you say? Not pick-stitching, you say? Assemble!!!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "c4bc8d78ffb9bb33c01fd2c2e513415a1df2b334633433c4662d0b6639038442",
+      "text": "[Combat Start] Summon three Needlekin next turn"
+    },
+    "skills.4.response": {
+      "sourceHash": "525ec02ef8ef3486a1fd264bc0943babbdb4e882620209aede3f5f00baa85856",
+      "text": "Its Combat Start effect summons three Needlekin next turn. Merely reducing defense does not stop the summons; save attackers to handle them next turn."
+    },
+    "skills.5.name": {
+      "sourceHash": "3c0a9e5400a807d08b37eca0c4c266ea2280bf9e0008530401124401367c322c",
+      "text": "You want me to hand-stitch this?! HAND-STITCH???!!!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "68eb2786bddf62484ebde69625999b4f21e85dfca3d8f06c0d05c6f6ee7554b6",
+      "text": "Prioritizes allies that are not Staggered; damage is always fixed at 0"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "1856c8203de4a7b7797186e7dd8437a66c8c74db64b56991780cf9f4103347bd",
+      "text": "[After Attack] The targeted Needlekin uses a random Attack Skill, ignoring Stagger"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "34e3683e34bdf3256b8335b11cd87771c4c8dd2f9600829ee75c03b7e12d0e1f",
+      "text": "Ⅰ [On Hit] Grant 1 Offense Level Up this turn and next turn"
+    },
+    "skills.5.response": {
+      "sourceHash": "ba690df29f750f9c9379307eb13402ccb6da627d9787b87916534c57952a71a0",
+      "text": "Support used on Needlekin. Deals 0 direct damage but triggers extra attacks that ignore Stagger. Defeat Needlekin instead of leaving them Staggered."
+    },
+    "skills.6.name": {
+      "sourceHash": "b7f2249e916894cd842463a21d65227eb30b2cd1209167971658109e7c2b3ffe",
+      "text": "Double stitching past the side seam? Double-needle! Rejected!"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "56bd63fc70ed3dd049521c44462d690705715b96d12270142e0e36b741538e15",
+      "text": "[On Use] Damage +50% per Needlekin on the field"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "90455e11ce80fb9ccb4baec17c116fdfe83523a78dde33b5c8112a5d7fb9d25d",
+      "text": "· If no Needlekin are on the field, cancel the skill"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "357dd9a9d5a72c658e9fabd54eff9531df4ec0ea4a7400a039a2c3b708c91c44",
+      "text": "[After Attack] Kill all Needlekin"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "6c8263b3ca1b0ee3fcaca31a39d9fe9214999102218984fe02f336507ff16542",
+      "text": "· Per Needlekin killed by this effect, gain 1 Attack Power Up next turn"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "18b5b1acdcb18b81bacc5adf5ef0d3e71fc3d44cfb40eb33e58fe67c7c41ef24",
+      "text": "[On Hit] Damage against Taxidermized targets +100%"
+    },
+    "skills.6.response": {
+      "sourceHash": "30de22377eebb93656d3fd721ccb044c605387ba58a943ae64514a4adff4eae5",
+      "text": "Unbreakable, with 7 Atk Weight. Defeat every Needlekin before activation to cancel it. Each survivor adds 50% damage and grants next-turn Power when disposed of after the attack."
+    },
+    "skills.7.name": {
+      "sourceHash": "0188dd758c66c80eb503d42cd324c89bbbf36188f75668eae463696904319e06",
+      "text": "No cross-stitch buttons? Rejected!"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "b1b748b5aeccdaa09978a057efa405c301bb37358af4a6da55bcd2bdba2e33f1",
+      "text": "[Clash Lose] Reduce the target's Naildle by 2"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "b5bde4fb974fc0b0aabda7747659e6421d04e46ff6c149d01e965d8f7c9c02a8",
+      "text": "Ⅰ [On Hit] Consume 1 Naildle on the target to deal 5 fixed damage"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "7b4f44c9f3c1465e5004b3255a130f26b5ae00c3b8a43d097f4d126225294fdf",
+      "text": "Ⅱ [On Hit] Consume 1 Naildle on the target to deal 5 fixed damage"
+    },
+    "skills.7.response": {
+      "sourceHash": "36698278c769e529c103640dd02541dd0146dfd3d472daf244f3ec357b331e8e",
+      "text": "Winning triggers the enemy's Clash Lose effect, reducing the clasher's Naildle by 2. Use this opportunity when a Sinner with Naildle can win."
+    },
+    "skills.8.name": {
+      "sourceHash": "a7669826ab01b42c2a07c8bd82f737fe2b67bfb036298ff29f2ce2ad2f7d52f0",
+      "text": "Pick stitch too obvious, you say?! I'll pick-stitch your ass!"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "19dd92ef49f1ac6203b19d59d4b7c3e50cc15f636c64bc4a45f012cdb6542c7c",
+      "text": "[Unclashable]"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "84170c0da3323a18b86c0298206a2462563b184deb4945268cb389a46497783b",
+      "text": "Ⅰ [On Hit] Inflict 2 Taxidermized on targets with at least 5 Naildle"
+    },
+    "skills.8.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.8.response": {
+      "sourceHash": "d79fbcdce664ac338802a6a0ed4e43c8c6ac427850385860023fcc7ab6866a93",
+      "text": "Unclashable. Inflicts Taxidermized at 5 or more Naildle, but the −1 Naildle from Pierce damage resolves first. Equip defense to prevent buildup and consider Evade too."
+    },
+    "skills.9.name": {
+      "sourceHash": "1abcad809bc721f06886504515ecd8638c5b37aecc849af0e982694943013af0",
+      "text": "Just... Eat!!"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "cf96043855576f1f80c297ca67054e152ba9dca587a3f5177616aab014af8ec1",
+      "text": "Prioritizes Taxidermized enemies"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "6cf121b7d1050d6c874c0cbedec62e869f58301d72d597418662be2dedeb293e",
+      "text": "- Prioritizes the target with the most Naildle"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "a5e240df051c2a7ce920a4ed7beafe1e503ee0ee264c5a5e20311e76dcb60423",
+      "text": "Targets with at least 5 Naildle cannot redirect this attack"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "2a2d88db4a6ef04faaaa92824787bf2aaac35a7ce133a671969dc283c57fa3a0",
+      "text": "Damage +10% per Naildle on the target (max 50%)"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "4e2f803a54efce540f9372203fee0b02dee1208cca2f2c0711f2d5ac90354473",
+      "text": "[On Hit] If the target is Taxidermized, deal fixed damage equal to 99% of max HP"
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "8d669f84a63f776c9a745ecc874e437480c6925e3df298b5f12638b6e362c635",
+      "text": "[On Kill] Heal 5% of the user's max HP"
+    },
+    "skills.9.response": {
+      "sourceHash": "ca484835d2caf1d1934800a2fe378b51348b1e6e78b1c4ab68ea69a9e42468ab",
+      "text": "An Unbreakable skill prioritizing Taxidermized targets and dealing fixed damage equal to 99% max HP on hit. Cannot be redirected from a designated target with at least 5 Naildle, so preventing Taxidermized is the top priority."
+    },
+    "skills.10.name": {
+      "sourceHash": "e257668c54c5723f06e4b110678e8283799a891960bc78e3acdf085fa19c4c19",
+      "text": "Running Stitch - Weft"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "7cb74570d90444432b71aaf36c51d45d38592d20473168ea6f3424a061d47abc",
+      "text": "At 4 or more Bleed on the target, Final Power +1"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "789d8781d2e9f3c98dd1e22d1d89ce552fced3769f8dfc309b1ddef3b2f67a2f",
+      "text": "[On Use] At 6 or more Bleed on the target, convert every Coin to an Unbreakable Coin"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "1b6e9f46ee042e43219c7d714a1745e8d291ef4a1033d25b8fb9d89edae96e91",
+      "text": "Ⅰ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "0eaba5ab9eed11e4ff0ea57e26545b898b2549e1addf5bb90d182f0cfcf6f01e",
+      "text": "[On Hit] Inflict 1 Pierce Fragility next turn"
+    },
+    "skills.10.response": {
+      "sourceHash": "77a0374b78842653d9368787128175395bd585e6ca5cb0b834c99ab7d5f7e949",
+      "text": "Becomes Unbreakable on use against targets with at least 6 Bleed. Avoid assigning Sinners with high Bleed to prevent Tremor and next-turn Pierce Fragility."
+    },
+    "skills.11.name": {
+      "sourceHash": "92c8ee3adf89fa32e767b95032c09f877aad71557ba526b07b1ca094962e64ce",
+      "text": "Tacking Stitch - Weft"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "7cb74570d90444432b71aaf36c51d45d38592d20473168ea6f3424a061d47abc",
+      "text": "At 4 or more Bleed on the target, Final Power +1"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "31334e5fbae82a2be051c20fadeb9c0205eda1bbcb45b2390e1c482350c48e3c",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "9a5975340c70ccfaa638419b5fefec81e959f6aa2e25a70320c8e26f4b9145a0",
+      "text": "Ⅱ [On Hit] Inflict Naildle"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.11.label": {
+      "sourceHash": "85a5764ee71978a5663fc1850c314ee918bf56b168f2fdb1688adaf888bd8383",
+      "text": "Naildle amount unknown"
+    },
+    "skills.11.response": {
+      "sourceHash": "137429079b1e643e0eb49dffd6d2253150107397a396ed9d6dfd4ddfcae4df77",
+      "text": "Inflicts Bleed Count, Naildle, and next-turn Bind. Ordinary Coins can be stopped through a clash. The base Naildle amount is unknown."
+    },
+    "skills.12.name": {
+      "sourceHash": "08977cd0083c29cfc6364b8494d6bcb39e4de10696304812d72e1ca4ef6dc237",
+      "text": "Backstitch - Weft"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "11c4cc95c271d51ad6b20d011d2d205dbb57c84485f7a57435dfe8a48e63b993",
+      "text": "Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "ad254211beb0d1315f70484168e618e84dce5c6632e046732f2f4bcd17666e83",
+      "text": "[On Use] Damage +1% per Bleed on the target (max 20%)"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "2ed45223358162b11a928d5d5c26d6fef567b227f79454ca7abb48b834e80f27",
+      "text": "[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "0dfe76a648e9ed55dbab9f6bd974dd0440e632db1e376c64dd824797ec5f16cf",
+      "text": "[On Hit without Coin Destruction] Reuse this Coin once (once per skill)"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "fb28580cb87779a120c6beed2f72148797c3a82c9a5921876933809ccedc012e",
+      "text": "[On Hit without Coin Destruction] Deal Pierce damage equal to the target's Bleed Potency (max 30)"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "8ca36bbb64bc813b62a8e6237ce022ef9b234afb969a2e4028f308f5806c783a",
+      "text": "[On Reuse Hit] Inflict 2 Naildle"
+    },
+    "skills.12.response": {
+      "sourceHash": "aa98f290a2a27156f50eeb55271466f069bd010e4875ad950c7bd2318657fee4",
+      "text": "One Unbreakable Coin with reuse and additional Pierce damage on a hit without Coin destruction. Win to prevent extra effects, and prepare for the remaining hit. The reused Coin inflicts 2 Naildle."
+    },
+    "skills.13.name": {
+      "sourceHash": "dccc1823d20f47ab4525e9e21e941fc7517c2fa50524716c05a829882b4b8a4f",
+      "text": "Blind Stitch - Weft"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "5ca4477ce701172ba8465adff3c75496306bcf5039f30e17be3f87d260ffaee5",
+      "text": "[Combat Start] Gain 1 Pierce Power Up next turn"
+    },
+    "skills.13.response": {
+      "sourceHash": "f9a5a8213365780c076132bfe49f406a25b836510ad697894c9496c339e9d644",
+      "text": "Gains 1 Pierce Power Up next turn at Combat Start. Do not ignore it while defending; kill the Needlekin to weaken the body and its major skill."
+    },
+    "skills.14.name": {
+      "sourceHash": "c486027769d9e59bef8721bf0a330e47ec8914d827dc03c5a5e4864bea349c53",
+      "text": "Running Stitch - Warp"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "7cb74570d90444432b71aaf36c51d45d38592d20473168ea6f3424a061d47abc",
+      "text": "At 4 or more Bleed on the target, Final Power +1"
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "789d8781d2e9f3c98dd1e22d1d89ce552fced3769f8dfc309b1ddef3b2f67a2f",
+      "text": "[On Use] At 6 or more Bleed on the target, convert every Coin to an Unbreakable Coin"
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "29c0c9e5a67688ccf9760a3a8414187e7820238f05b02a9cd4f5ec49bef7ee33",
+      "text": "[On Hit] Inflict 1 Pierce Resistance Down next turn"
+    },
+    "skills.14.response": {
+      "sourceHash": "2246bfbbce3d68b87d46a8183e22b48b8076692763e393842fec8798d2248c4d",
+      "text": "Becomes Unbreakable on use against targets with at least 6 Bleed. Inflicts Bleed and next-turn Pierce Resistance Down, so avoid consecutive Pierce hits."
+    },
+    "skills.15.name": {
+      "sourceHash": "dce6423deb7fd939b339c526f3d5e58726d9ffe9e5c62c65b0c714ad1f604d8c",
+      "text": "Tacking Stitch - Warp"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "7cb74570d90444432b71aaf36c51d45d38592d20473168ea6f3424a061d47abc",
+      "text": "At 4 or more Bleed on the target, Final Power +1"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "9a5975340c70ccfaa638419b5fefec81e959f6aa2e25a70320c8e26f4b9145a0",
+      "text": "Ⅱ [On Hit] Inflict Naildle"
+    },
+    "skills.15.effects.3": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.15.label": {
+      "sourceHash": "85a5764ee71978a5663fc1850c314ee918bf56b168f2fdb1688adaf888bd8383",
+      "text": "Naildle amount unknown"
+    },
+    "skills.15.response": {
+      "sourceHash": "a3b0edb4c04487ddf2ee3a8dde396ceca1b3bbc8acdffbf3910d084fed8920be",
+      "text": "Inflicts Bleed Potency, Naildle, and next-turn Bind, unlike Weft's Bleed Count increase. The base Naildle amount is unknown."
+    },
+    "skills.16.name": {
+      "sourceHash": "609e36e4f06235c454625978380707c7b862ec173af6ef957a393c47b165935a",
+      "text": "Backstitch - Warp"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "11c4cc95c271d51ad6b20d011d2d205dbb57c84485f7a57435dfe8a48e63b993",
+      "text": "Final Power +1 per 4 Bleed on the target (max 2)"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "ad254211beb0d1315f70484168e618e84dce5c6632e046732f2f4bcd17666e83",
+      "text": "[On Use] Damage +1% per Bleed on the target (max 20%)"
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.16.effects.3": {
+      "sourceHash": "2ed45223358162b11a928d5d5c26d6fef567b227f79454ca7abb48b834e80f27",
+      "text": "[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.16.effects.4": {
+      "sourceHash": "0dfe76a648e9ed55dbab9f6bd974dd0440e632db1e376c64dd824797ec5f16cf",
+      "text": "[On Hit without Coin Destruction] Reuse this Coin once (once per skill)"
+    },
+    "skills.16.effects.5": {
+      "sourceHash": "fb28580cb87779a120c6beed2f72148797c3a82c9a5921876933809ccedc012e",
+      "text": "[On Hit without Coin Destruction] Deal Pierce damage equal to the target's Bleed Potency (max 30)"
+    },
+    "skills.16.effects.6": {
+      "sourceHash": "748201c9af9c0ffa2b17de571eb7a41d17ca77856c974a988e571bba894295a4",
+      "text": "[On Reuse Hit] Inflict 1 Naildle"
+    },
+    "skills.16.response": {
+      "sourceHash": "9c30a5dd30a1fcfc3207195a6e442c5083abb820693d3e04ec00b3ab09111687",
+      "text": "Reuses on a hit without Coin destruction and deals extra damage based on the target's Bleed Potency. Win the clash to prevent it. Reuse inflicts 1 Naildle, unlike Weft."
+    },
+    "skills.17.name": {
+      "sourceHash": "a9e1efbfb941b94cdc6b260113c8c5868b7da5e410d569c277dbcc519fa0f8ec",
+      "text": "Blind Stitch - Warp"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "5ca4477ce701172ba8465adff3c75496306bcf5039f30e17be3f87d260ffaee5",
+      "text": "[Combat Start] Gain 1 Pierce Power Up next turn"
+    },
+    "skills.17.response": {
+      "sourceHash": "acfca4334c7478b30f434482f8cbced8f2d67586520e3fb5790531af56a8f717",
+      "text": "Gains next-turn Pierce Power Up at Combat Start. Concentrate enough damage to kill Needlekin instead of merely Staggering them."
+    },
+    "passives.0.name": {
+      "sourceHash": "5052709677f670e577f73a3f0419097989173238d6737d8e1c05217608ec56b4",
+      "text": "Handmade"
+    },
+    "passives.0.effect": {
+      "sourceHash": "4c2e584dad11207d78396356f47afd2595fd69af9e599495add0b43f77c649f3",
+      "text": "Skill Final Power +1 per Needlekin on the field"
+    },
+    "passives.0.condition": {
+      "sourceHash": "e40da474d09b3971262d64556a77d262f3d530ffd50b122d9cb042353570213d",
+      "text": "While Needlekin are alive"
+    },
+    "passives.0.response": {
+      "sourceHash": "59d549cec98f7a7d59cb090f95459c15545e0d9adfee8053cd64a8122fa7c60f",
+      "text": "Killing Needlekin also lowers the body's clash strength. Do not focus only on the body."
+    },
+    "passives.1.name": {
+      "sourceHash": "1c2c8e612da5928d7828d9f5faddff613fa9291d84a68378a43369a51c1cb10f",
+      "text": "Unending, Unavoidable Stream of Customer Complaints [Route A]"
+    },
+    "passives.1.effect": {
+      "sourceHash": "f3aa2adc39148f97cb9c2572c15bea16e867218d4b323402775ff623df204cf3",
+      "text": "Hear Cry of the Cocoon on turns divisible by three.\nAfter entering Phase 2, the Cry persists every turn.\n\nImmune to inability to act on turns with the Cry.\n\nAfter crossing a Stagger Threshold, gain 2 Fragile next turn."
+    },
+    "passives.1.condition": {
+      "sourceHash": "18c9eb548c4538634c2f254bd52429e54b9a25a3c79bf6b0583a4f9128313aa4",
+      "text": "Turns divisible by three; Phase 2"
+    },
+    "passives.1.response": {
+      "sourceHash": "fa58ccdfb4b8f4ac97d68d1541683523d808ed914df4657780d0ec91ab1131e3",
+      "text": "Do not rely on Stagger on turns with the Cry. Phase 2 grants +3 Final Power every turn; attack during Fragile after a Stagger Threshold is crossed."
+    },
+    "passives.2.name": {
+      "sourceHash": "e7d8767fd8e2777279839ea3451c63f32421afc7a1507438dcfaa6a2cf5c82fd",
+      "text": "The Sewing Commences"
+    },
+    "passives.2.effect": {
+      "sourceHash": "90e5b293af4e92f164e22e05cace7555b961b42185389e990d8182a4b749fa1c",
+      "text": "At Turn Start, apply Tongue-pinning Needle to two random enemies"
+    },
+    "passives.2.condition": {
+      "sourceHash": "f5b5102b058d1bf03e1ec61a2c0d71d5204e43bc5d95421a6d87ee9eb31d9155",
+      "text": "Every Turn Start"
+    },
+    "passives.2.response": {
+      "sourceHash": "38ad5d5fd0010c3f4921b19c88e776ca79c01a036789b99f23fb8b92417378c4",
+      "text": "Check the two Sinners with Tongue-pinning Needle and equip Defense Skills to remove it. Leaving it adds 3 Naildle at Turn End."
+    },
+    "passives.3.name": {
+      "sourceHash": "01f187390fbcc64dcf58fe7f9e55b60c686d3e2e9ab69586ac06a965b833b330",
+      "text": "Sewing"
+    },
+    "passives.3.effect": {
+      "sourceHash": "ad0cf1ba4abb499e1b9611aaca10c6379aa9691f88d8f33b11e7436a8f467829",
+      "text": "Naildle inflicted on targets with Pierce or Envy resistance of at least ×1.5 +1"
+    },
+    "passives.3.condition": {
+      "sourceHash": "1cc03da74d9c9a2d155a9361c10522928cab72e80979b5010636a223e1a4dab6",
+      "text": "Targets with Pierce or Envy resistance of at least ×1.5"
+    },
+    "passives.3.response": {
+      "sourceHash": "8b01349b95a370b3d900c9ad33921aeabe745ba6a54dc281b43709aa570e051b",
+      "text": "Needlekin inflict more Naildle. Check the clasher's physical resistance and E.G.O sin resistance. Distinguish this from the Route A body's passive."
+    },
+    "passives.4.name": {
+      "sourceHash": "5d1476edeb0ef99710b6a6b5915497ad84df609acc2b21d81b4c96531c311b0f",
+      "text": "A Tiny Sharp Needle"
+    },
+    "passives.4.effect": {
+      "sourceHash": "f1967a1cac5405632cc0d3408ab3d65754ebf761a20f07db2c26fdf234c3b7a6",
+      "text": "When a skill inflicts Bleed Potency on an enemy with Naildle, increase the amount by the target's Naildle stacks (max 3)"
+    },
+    "passives.4.condition": {
+      "sourceHash": "241ca172a38041bd32765d93f2e9e33fc0827962bad7e456535229607601b397",
+      "text": "Inflicting Bleed Potency through a skill on a target with Naildle"
+    },
+    "passives.4.response": {
+      "sourceHash": "ce6329d2fd20d91f8f8186acf07b2b6e2bdc4273e96622ef0767f1cd7c91531a",
+      "text": "Needlekin inflict up to 3 extra Bleed. Avoid accumulating Naildle and Bleed on the same Sinner."
+    },
+    "passives.5.name": {
+      "sourceHash": "01f187390fbcc64dcf58fe7f9e55b60c686d3e2e9ab69586ac06a965b833b330",
+      "text": "Sewing"
+    },
+    "passives.5.effect": {
+      "sourceHash": "ad0cf1ba4abb499e1b9611aaca10c6379aa9691f88d8f33b11e7436a8f467829",
+      "text": "Naildle inflicted on targets with Pierce or Envy resistance of at least ×1.5 +1"
+    },
+    "passives.5.condition": {
+      "sourceHash": "1cc03da74d9c9a2d155a9361c10522928cab72e80979b5010636a223e1a4dab6",
+      "text": "Targets with Pierce or Envy resistance of at least ×1.5"
+    },
+    "passives.5.response": {
+      "sourceHash": "8b01349b95a370b3d900c9ad33921aeabe745ba6a54dc281b43709aa570e051b",
+      "text": "Needlekin inflict more Naildle. Check the clasher's physical resistance and E.G.O sin resistance. Distinguish this from the Route A body's passive."
+    },
+    "passives.6.name": {
+      "sourceHash": "5d1476edeb0ef99710b6a6b5915497ad84df609acc2b21d81b4c96531c311b0f",
+      "text": "A Tiny Sharp Needle"
+    },
+    "passives.6.effect": {
+      "sourceHash": "f1967a1cac5405632cc0d3408ab3d65754ebf761a20f07db2c26fdf234c3b7a6",
+      "text": "When a skill inflicts Bleed Potency on an enemy with Naildle, increase the amount by the target's Naildle stacks (max 3)"
+    },
+    "passives.6.condition": {
+      "sourceHash": "241ca172a38041bd32765d93f2e9e33fc0827962bad7e456535229607601b397",
+      "text": "Inflicting Bleed Potency through a skill on a target with Naildle"
+    },
+    "passives.6.response": {
+      "sourceHash": "ce6329d2fd20d91f8f8186acf07b2b6e2bdc4273e96622ef0767f1cd7c91531a",
+      "text": "Needlekin inflict up to 3 extra Bleed. Avoid accumulating Naildle and Bleed on the same Sinner."
+    }
+  },
+  "messages": {
+    "boss-copy:sewing-king": "complete",
+    "【リンバス】10-04 裁縫の王（10章A）の攻略｜Limbus Assistant": "10-04 King of Needleworks (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「裁縫の王（10章A）」の攻略。毎ターン「舌に刺さった針」を受けた囚人に守備スキルを装着し、針釘の蓄積を防ぐ戦闘。前半は針っ子を素早く倒して本体の強化と広域攻撃を抑え、HP1087で移る後…": "King of Needleworks (Canto X A) guide for Limbus Company 10-04. Equip Defense Skills on Sinners with Tongue-pinning Needle each turn to prevent Naildle buildup. Defeat Needlekin quickly in the first half to limit body buffs and area attacks. After the transition at 1,087 HP, finish without relying on Stagger.",
+    "10-04 裁縫の王（10章A）": "10-04 King of Needleworks (Canto X A)",
+    "10-04「Sisyphus Department Store A, B2F: Yarn Nest Corridor」": "10-04 · Sisyphus Department Store A, B2F: Yarn Nest Corridor",
+    "裁縫の王の外見": "King of Needleworks appearance",
+    "裁縫の王のスキル": "King of Needleworks skills",
+    "King of Needleworksの外見": "King of Needleworks appearance",
+    "King of Needleworksのスキル": "King of Needleworks skills",
+    "緯糸の針っ子の外見": "Weft Needlekin appearance",
+    "緯糸の針っ子のスキル": "Weft Needlekin skills",
+    "Weft Needlekinの外見": "Weft Needlekin appearance",
+    "Weft Needlekinのスキル": "Weft Needlekin skills",
+    "経糸の針っ子の外見": "Warp Needlekin appearance",
+    "経糸の針っ子のスキル": "Warp Needlekin skills",
+    "Warp Needlekinの外見": "Warp Needlekin appearance",
+    "Warp Needlekinのスキル": "Warp Needlekin skills"
+  }
+}

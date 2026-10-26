@@ -1,0 +1,411 @@
+{
+  "kind": "team-copy",
+  "id": "burn",
+  "sourceGuide": "src/data/team-guides/burn.md",
+  "entries": {
+    "data:examples:0:name": {
+      "sourceHash": "4703cb7a783bbc9d37933245b821786f33ff684f3b5acde3cc83b05c3af94872",
+      "text": "Physical Burn (standard)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "143892ebce864b9c3b08bf298e477d4413f3bbb0e0edbe8422daa9a2c464d3e7",
+      "text": "A lineup consisting entirely of Burn-applying Identities. Damage rises with accumulated Burn, so it works without the Dawn Office or Thumb packages. Add Hornet and Don Quixote to the 5 priority picks, and support Burn Count from the bench."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "74a795fb056eefd9840f63b0c3b575ead3c30d933f9210f55cbc9a5145ada482",
+      "text": "The anchor that keeps Burn Count from running out."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "f1b73683f4ba6d6bbb401ea644501962650974b3378c6fb7bcdd552e48162c0f",
+      "text": "A main attacker that builds Burn and Battleblood Instinct for enhanced S3."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "113ad719aaa42f1027978e00ed87ac9cf6d687052f660b4a7217e1ac837a6a3b",
+      "text": "When The Eye of Precognition runs out, unleash Disposal for Burn and Tremor."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "c05f383dd12732182b30c4cacdf490664dae27f05f563452106327819a538bb2",
+      "text": "S3 Rend Space [空間斬] accelerates Burn damage."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "92cef7580f0a4bae25b476a2f2ef54856ed49c3127d1f900885211c7dad65aa4",
+      "text": "Keeps the team running by supporting SP and spreading Burn."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "3424f48a4ee1810fad584ce2c6fb23f9a28c56546ac0149e88957f45d30b34bd",
+      "text": "Supplies Burn Count through Spore."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "af17361977e169854f102ade066b89a261137066ccccdc90ee4e8bf3680b596e",
+      "text": "Stacks Nerve Strike to wear down a single target. Also works outside Burn teams."
+    },
+    "data:examples:0:support:0:note": {
+      "sourceHash": "89ebe1f2c692e20359957c8e9305ed7ae1670baded370fec765d2f690ca7915b",
+      "text": "Increases the Burn Count applied by the ally with the highest SP by 1."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "ad6b5e72d7453bf18deee1fd98cd02df4e3a09f453954c79fa466ad2183b18b8",
+      "text": "Spread Burn and Wrath Fragility before attacking."
+    },
+    "data:examples:0:egos:1:note": {
+      "sourceHash": "ec76d0b8749d779daae8fb9b2879018e8a151a3d5b0947cf9f10aa86245c7799",
+      "text": "Healing plus Burn and Bleed application."
+    },
+    "data:examples:0:egos:2:note": {
+      "sourceHash": "9aad5eb2171c716ce974c4f523d35026ea17c0e9cd4dcd48ea6d0065c01bf1a9",
+      "text": "Combines area damage, Burn, and healing."
+    },
+    "data:examples:0:egos:3:note": {
+      "sourceHash": "3dd5b975bf14cd1a94d5aa4de939cbc7500ea16f2c7d908e6c6b92df20381ae9",
+      "text": "Leaves Burn and Fragile on a single target."
+    },
+    "data:examples:1:name": {
+      "sourceHash": "7692b8564b529eb6dbb8749f891e5dc89a6c07078f3cae8aaa897d5e7e4adb88",
+      "text": "Burn and Tremor (Dawn Office + Thumb)"
+    },
+    "data:examples:1:note": {
+      "sourceHash": "4a65d693cb231886029f62ff946754fbd927a031ac9e16fe2b8cf48f1c2dcf8e",
+      "text": "Combine Burn from the 3 Dawn Office members with the Thumb package's Tremor, converting Tremor Bursts into Wrath damage through Tremor - Scorch. Higher damage than physical Burn, but both Burn and Tremor Count need attention."
+    },
+    "data:examples:1:members:0:note": {
+      "sourceHash": "f1468324078f80a61d115dbfb726994cc14121a80fe055f6677ef314fe9a2be7",
+      "text": "Transforms to spread Burn Count. Dawn Office follow-ups also generate resources."
+    },
+    "data:examples:1:members:1:note": {
+      "sourceHash": "cf5a6cc57a69ccb4c00e4a7501a6302afb91d2a26526ed1055f644859d935c2c",
+      "text": "A damage dealer that builds Coffin for enhanced S3 and Dismemberment at High Noon."
+    },
+    "data:examples:1:members:2:note": {
+      "sourceHash": "a38e1016045b15b075a2f4adcc41dfeed5a4c7db92ddf1679097ab93d5173441",
+      "text": "Crack of Dawn distributes Dawnherald while supporting SP and durability."
+    },
+    "data:examples:1:members:3:note": {
+      "sourceHash": "10ce26717c5acbb186d76f11667f92e046655555d1956ec7b13d2f0a06f61fd1",
+      "text": "Uses The Eye of Precognition and Disposal. Deploy alongside the Apprentice."
+    },
+    "data:examples:1:members:4:note": {
+      "sourceHash": "67a80b2df22ac8f79dcecd88c3506b20ae326f8c04eacfa31e66717881ee51ef",
+      "text": "The Duel Escalates enables repeated Tremor Bursts."
+    },
+    "data:examples:1:members:5:note": {
+      "sourceHash": "cdbb050d7faf00456c063b787a6b015c7bcd59663ed7c65511408afd52bdb67d",
+      "text": "Adds Tremor through Savage Tigermark Rounds' Unbreakable Coins and enhanced S3."
+    },
+    "data:examples:1:members:6:note": {
+      "sourceHash": "f98c4b5f5a7cc7c76f7b566d3846c67c0cebf98ea9dc05f20910fc5b2cb24578",
+      "text": "A damage slot that accelerates Burn."
+    },
+    "data:examples:1:support:0:note": {
+      "sourceHash": "f28a3271d8475ec0ba27145e30026b04726ef7a63dce378f8b0593f3c04a9e13",
+      "text": "Increases Burn Count application by 1 to sustain Burn."
+    },
+    "data:examples:1:egos:0:note": {
+      "sourceHash": "d2bed055eb47f81e95b15a8cf4973ee0f31ec9003ba3f77c083cb56e5f4b301b",
+      "text": "Use against enemies with accumulated Burn to raise Tremor - Scorch damage."
+    },
+    "data:examples:1:egos:1:note": {
+      "sourceHash": "c472fb8dd485d2c1e59430498f8619dabf8ea6fa1427ef823dcd2e64da818b9f",
+      "text": "Inflicts Wrath Fragility to raise Wrath damage."
+    },
+    "data:examples:1:egos:3:note": {
+      "sourceHash": "9a9ce9f0945a32e3dcf9e87e378b7478d2f6788b4809037a2a08b0f340559827",
+      "text": "Spreads Burn and Bleed while giving allies SP."
+    },
+    "data:examples:2:name": {
+      "sourceHash": "be831f88f6bf445c5555762e4bd72d04c0c352a723d8f0e7eaa8ad0de69f1df3",
+      "text": "Dark Flame (Magic Bullet Outis)"
+    },
+    "data:examples:2:note": {
+      "sourceHash": "5dc284b4b5cd977fba796b453ef0a30ff9fdb24800787e2c1aebc427cacbcbe0",
+      "text": "Dark Flame applied by Magic Bullet Outis and the Magic Bullet E.G.O deals Dark Flame × Burn as Pride damage at Turn End, multiplying Burn's damage output. Pride damage can also burn through enemies resistant to Wrath. Best against single bosses and weak against ordinary groups. Outis's S3 can shoot allies at low SP, so omit the You Branch and Dawn Office Identities that inflict Burn on themselves."
+    },
+    "data:examples:2:members:0:note": {
+      "sourceHash": "c4fc04ea4cf47bd40d0412bd5680a92116edbfafb960b0cf459b64c16c76b1e2",
+      "text": "Reach at least 3 Magic Bullets, use the Magic Bullet E.G.O with at least 4 Resonance, then use S3 at 7 Magic Bullets to reset to 0. Repeat this cycle."
+    },
+    "data:examples:2:members:1:note": {
+      "sourceHash": "3c7dacd074d4f77756486353b7b5c0afe504cf6c4907d5ec5659d5d91988fea3",
+      "text": "Every skill from S1 to S3 increases Burn Count, sustaining the Burn used by Dark Flame."
+    },
+    "data:examples:2:members:2:note": {
+      "sourceHash": "7d10bc139c27d70b2a603cdff5344fdba5316bdf6325bf2534c1569822027fad",
+      "text": "A Nursefather that applies Burn and Tremor and handles attacks with The Eye of Precognition."
+    },
+    "data:examples:2:members:3:note": {
+      "sourceHash": "a2f1990037f93869be797a3fa8f47b90bbe97e74a1025d946ad7c1a6aa77bf53",
+      "text": "A damage dealer that accelerates Burn."
+    },
+    "data:examples:2:members:4:note": {
+      "sourceHash": "e833d43abeeec946db04fce4f49e3d0eb671b2b4fe26358298afa2a5465d8f86",
+      "text": "Spore supplies Burn Count to keep Burn active."
+    },
+    "data:examples:2:members:5:note": {
+      "sourceHash": "29e35f1524c07e51b5ec6ef47487f5576a74a2db0ed842b86f07db900a7679c7",
+      "text": "Stacks Nerve Strike to damage a single target while adding Burn."
+    },
+    "data:examples:2:members:6:note": {
+      "sourceHash": "1280331806f50019c450f4430807ab043291f6677bc22a039f892861638a3b63",
+      "text": "Gains bonuses from allies' Burn application and adds Burn Count with S3."
+    },
+    "data:examples:2:support:0:note": {
+      "sourceHash": "2064078d5ea6e4e45b3c41ca07ca090de9eb4d29083e2d3799ff051aba6b3fb1",
+      "text": "Offsets the SP lost through Magic Bullet Outis's S3."
+    },
+    "data:examples:2:egos:0:note": {
+      "sourceHash": "60c7d11217d48046c6f7622f47be3af0200294035a438c6815df8c40b9b98795",
+      "text": "The core E.G.O, spreading Burn and Dark Flame based on Magic Bullet count."
+    },
+    "data:examples:2:egos:1:note": {
+      "sourceHash": "8842828cbe41edd1f2b6d9b20c132a51d04968e880a6ad592d9ffd7711db97ec",
+      "text": "Spreads Burn and Wrath Fragility."
+    },
+    "data:combos:0:name": {
+      "sourceHash": "fc4d6a96752006604ddae5e0d073ae806acfe5caa85a8e42af81b49aa2665e3d",
+      "text": "Dawn Office trio"
+    },
+    "data:combos:0:note": {
+      "sourceHash": "acdbb7622e911bd494bf991badba5d52a43830f848448295b3dcbf3e2d96b9b3",
+      "text": "Deploying all 3 completes the Dawn Office's coordinated follow-ups, supplying Burn Potency and Count alongside Gloom and Envy resources. Their raw damage exceeds the Firefist option. All are Walpurgisnacht-exclusive, so choose according to your roster. Adding the Thumb package shifts the lineup toward Tremor - Scorch."
+    },
+    "data:combos:0:members:0:note": {
+      "sourceHash": "cb437419c76e3c8c9a3bc650ccf26e263004ea696c80803dbbda982009bc3a9c",
+      "text": "Transforms at 40 SP and spreads Burn Count through area S2. The other 2 Dawn Office members restore his SP, enabling an earlier transformation."
+    },
+    "data:combos:0:members:1:note": {
+      "sourceHash": "683683e25b51e826817e7c2928371cff00ed997a4fc0ddbf08e8eaecba5b2401",
+      "text": "Builds 30 Fire Butterfly Coffin for enhanced S3 and Dismemberment at High Noon. Burn damage cannot Stagger her or reduce her HP below 1."
+    },
+    "data:combos:0:members:2:note": {
+      "sourceHash": "5e5cea8e7a862c2b7f52e2fb3de0b12f45f0285e4736c2e1896a68de03e7581d",
+      "text": "At 30 Light of Daybreak, enhanced S3 Crack of Dawn grants all allies Dawnherald, increasing damage from Burn-applying skills by 10%. Also supports SP recovery and durability."
+    },
+    "data:combos:1:name": {
+      "sourceHash": "64f9f6b3361e4f7e8f3089ca00183ca3e2637b5ba24d452059e3068ba44b2543",
+      "text": "Thumb pair (Nursefather and Apprentice)"
+    },
+    "data:combos:1:note": {
+      "sourceHash": "121abee86f5fef8c49fc2fd46381f986ece184a301bc87871c22190c632df32a",
+      "text": "The Nursefather reads attacks with The Eye of Precognition, while the Apprentice builds The Duel Escalates for repeated Tremor Bursts. While the Nursefather has The Eye of Precognition, a hit from the Apprentice's Base Skill triggers his own La Spada di Palermo follow-up once per turn. The Apprentice and the You Branch Adept are both Heathcliff, so choose one."
+    },
+    "data:combos:1:members:0:note": {
+      "sourceHash": "cdd8cd883d602bc9dd9832c0b3a014888540f40d0136c325cdf28ae734838887",
+      "text": "Handles attacks with The Eye of Precognition, then unleashes enhanced Disposal for Burn and Tremor when it runs out. Rodion can also use the healing E.G.O Into the Sunset, Pursuance, and Indicant's Trial."
+    },
+    "data:combos:1:members:1:note": {
+      "sourceHash": "c3e0f34a7effcc5fdd850ffabab52a20ac03c6422983d73f56d69478bf37bcee",
+      "text": "At 5 The Duel Escalates, enhanced S3 triggers repeated Tremor Bursts and gains Textbook to grow stronger. When the Nursefather's eye is overheated, he gains Assist Defense to protect him."
+    },
+    "data:combos:2:name": {
+      "sourceHash": "f8f7ce16cf8022dcbba58eef03977c44800b7392beb5ecdf20d80e787a2eb109",
+      "text": "You Branch trio"
+    },
+    "data:combos:2:note": {
+      "sourceHash": "66e61300b0e8d476cb6a8b950f70f355fb061f5c93b66c44487370f7159de479",
+      "text": "The Lord Hong Lu swaps Heishou units through defense, alternating the 2 You Branch units whenever they leave standby. They are fragile, so avoid losing clashes."
+    },
+    "data:combos:2:members:0:note": {
+      "sourceHash": "b3d2eae1f2528e9393a7585e8134da02dcf51b542ecbbe1b7648c5c28f3e4ba4",
+      "text": "The Lord's order is used as Base Skill 3, letting him build Battleblood Instinct and Burn while saving enhanced S3."
+    },
+    "data:combos:2:members:1:note": {
+      "sourceHash": "7eebc2e3bb2f20654c6272fdb272a12147a89bef26432f5e8d64647b497c90ab",
+      "text": "Gains 3 Bloodflame [血炎] whenever leaving standby or returning, enabling S2 reuse and Unbreakable Coins on S3."
+    },
+    "data:combos:2:members:2:note": {
+      "sourceHash": "97e2efd64f6d6dced00b26b27e267c30d37465b0a510f3f7d76cba0a8ddc3e17",
+      "text": "A commander outside the Burn keyword that coordinates a three-hit S3 sequence with Heishou and lets an incoming You Branch unit use S3 after a defense swap."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "16331de5770fed830d2279201adc0c750a5fe80a65e7bc3f68d78aa8ce897d24",
+      "text": "Gains Haste from Poise, exploits Speed differences, and builds 3 Nerve Strike before using S3. Burn is a bonus, but her self-sufficiency makes her easy to fit into an open slot."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "7a203c0de05faeae40206f845d95107f2d66924fbe9d8e53493d413e0a087dde",
+      "text": "Builds 3 Nerve Strike on the same enemy and uses Coin reuse to raise Burn and damage. Do not deploy with Don Quixote, since they compete over Nerve Strike."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "9bd72f600ca7cc283c99bd47aa9a2cf59dc1f749520ab3fde00979e949e1468f",
+      "text": "Savage Tigermark Rounds enable Unbreakable Coins and S3, but Burn application stops after ammunition runs out. Choose him or Hornet; he fits better in lineups involving Tremor."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "02e5208c91565c4d62fdfcc0a7fa64df0ad2f107dc29b9be15eb83f3c9ed8fb7",
+      "text": "Spore increases Burn Count each turn to keep Burn active. Area attacks make him strong in both Regular and Focused Encounters."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "e2c51a77b1f2e5a526f2c8a710dac2c84d1dac8e14984f64af2d5f82e825d228",
+      "text": "Dark Flame lowers Defense Level and adds Dark Flame × Burn as Pride damage, working even against Wrath-resistant enemies. Watch her SP costs."
+    },
+    "data:alternatives:0:note": {
+      "sourceHash": "7e4cee71249aaaa9b6f0f9b50b7fd937aabf5801b1ef0be5eb5de225496854c9",
+      "text": "Stacks Burn on herself before self-destructing through Max Attunement and passing Offense Level Up to the next unit. Avoid accidental death before the explosion."
+    },
+    "data:alternatives:1:note": {
+      "sourceHash": "ec08272ff8e5abbf718368496791cc531b1ced69f951da888f771c31c2c130fc",
+      "text": "A Burn attacker enhanced at enemy Burn thresholds of 6 and 10. Cannot add Burn Count herself, so pair her with Count suppliers."
+    },
+    "data:alternatives:2:note": {
+      "sourceHash": "3138e70b8f334978130519b8a4708ec0db5ca93b661a22a76065248a9d3418df",
+      "text": "Low Speed lets allies apply Burn before she attacks, enabling bonuses from turn 1. S3 also adds Burn Count."
+    },
+    "data:alternatives:3:note": {
+      "sourceHash": "33450fa32777fc3aaaaa4e914b76869c70893b0402add7ed2937d2c199cbaa5d",
+      "text": "Supplies Burn Count with S2 and spreads Burn to nearby enemies from a target with at least 6 Count. Save S3 until Burn has accumulated."
+    },
+    "data:alternatives:4:note": {
+      "sourceHash": "4b3efe2696f4573f01cfb6767dcffd2525f4eac7bfecfb3eeb65b2a7ae9badc8",
+      "text": "Scorch Propellant Ammo enables repeated Tremor Bursts on S3. Can replenish ammunition for Identities such as Capo IIII."
+    },
+    "data:support:0:note": {
+      "sourceHash": "c135899b836e19d0b38cbad089add02533f0d271812408df1562ead8dd983adc",
+      "text": "At Uptie Ⅲ, with 4 Wrath Owned, the support passive increases the Burn Count applied by the 1 ally with the highest SP by 1."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "6357d370ee49d17d7998c87e4464222d2203e2bb3318891525833351ea4acfde",
+      "text": "Leaves 6 Burn and Fragile on a single enemy, increasing allies' damage next turn. Low resource cost."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "07994bfd04bd3ef78a445565899caf7d0f7be95693d4251e106f292c5761293c",
+      "text": "An area attack that grows stronger against enemies with more Burn; its passive enhances the fourth skill. Assumes Threadspin Ⅴ."
+    },
+    "data:egos:2:note": {
+      "sourceHash": "857b6f437bf4407c67c35aa5df90737bfa58c5905c54d614a86e9fb8557739df",
+      "text": "Spreads Burn and Wrath Fragility over an area to raise next turn's Wrath damage. At Threadspin Ⅴ, it raises total damage more than Pursuance of the same rank."
+    },
+    "data:egos:3:note": {
+      "sourceHash": "da94827d1b6c8db6a8d0b4790f1f217b4ec03300fc5e99f4396fc022a34f8de4",
+      "text": "An area attack that grows stronger against enemies with more total Burn and spreads Burn to each target. Assumes Threadspin Ⅴ."
+    },
+    "data:egos:4:note": {
+      "sourceHash": "e9be298943767e6edb0c037db1f16384367f2c703dfe60b9a054a0af04b384c5",
+      "text": "An Unbreakable area attack with 7 Attack Weight that scales with Burn. Its ongoing SP drain after use is heavy."
+    },
+    "data:egos:5:note": {
+      "sourceHash": "b51d620b76d42f117a2f7f252035e21ab71a07449001b8ce86fc136787a7435f",
+      "text": "Heals low-HP allies while spreading Burn and Bleed. A healing option when using Nursefather Rodion."
+    },
+    "data:egos:6:note": {
+      "sourceHash": "3ed48e7a1349c77ba17ea1db9fb74652be225c17ccd3cfd8c239891258c67fc8",
+      "text": "Combines area damage, Burn application, and healing for up to 3 allies. Suits Burn teams that tend to have surplus Wrath."
+    },
+    "data:egos:7:note": {
+      "sourceHash": "2d781a753b81ce3bc4660f2d6810fb6eb95d83c99dcede374865d75a4d139ae1",
+      "text": "A Sloth E.G.O that heals the 2 allies with the lowest HP. Healing scales with the user's maximum HP, so use it with Rodion."
+    },
+    "data:egos:8:note": {
+      "sourceHash": "a824e97e61cb617fcb6ac3bdcd57d5df6800c60fed22e8a283769ef9bffb0674",
+      "text": "Inflicts Burn and Tremor, spreading Burn when Tremor Bursts cause Stagger. With Hornet or Capo IIII deployed, use it against an enemy with accumulated Burn."
+    },
+    "data:egos:9:note": {
+      "sourceHash": "6ada8c7926d1cb35c916062de29f439799d8a4d2aac28cecdfca89a070cba2fb",
+      "text": "Reuses Coin 3 to spread Burn and Bleed while also giving allies SP. Used by Sinclair."
+    },
+    "data:egos:10:note": {
+      "sourceHash": "2dc502613cf297603f9d02ce9da83702bdf4e71daf8706852dd305b62575e2ae",
+      "text": "Applies large amounts of Burn and Dark Flame. Suits Dark Flame teams using Magic Bullet Outis."
+    },
+    "guide:0:0:0": {
+      "sourceHash": "05262dd25b3f0f02f05203683f63c819420986d84e5fb227d2fe378e483fe0e1",
+      "text": "A team for longer fights, built from Burn-applying Identities that attack while collectively increasing enemy Burn. Variants include physical Burn, Burn and Tremor with Dawn Office and Thumb units, and Dark Flame, which amplifies Burn damage through Magic Bullet Outis."
+    },
+    "guide:1:heading": {
+      "sourceHash": "7c3ae2e582110de820eaaeb08643883e6a17a65a53adf78df05018128671869b",
+      "text": "Strengths"
+    },
+    "guide:1:0:0": {
+      "sourceHash": "792c1dd5549a554e5d9bb9b73a5f7ca67e41adddad33b6b4909ce1914cdf40d1",
+      "text": "Many priority picks gain Coin Power or Power based on the target's Burn. Building Burn raises the whole team's damage."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "e0f844b693f5715eeb13a56ea30b735b5c08d9dd017d168ccd61526e7fd9a316",
+      "text": "Many requirements are modest, such as at least 6 Burn or +1 per 6 Burn, up to +2. This suggests that even a small number of Burn users can support the core pattern."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "5eedce2bb27bb421b5ebdf08021333cd809379664a6237cfdfb99c827be81dbb",
+      "text": "[Firefist Office Survivor](persona:1211) is the anchor. Every skill from S1 to S3 adds Burn Count, almost sustaining Burn alone. His passive, which increases another enemy's Burn Count after killing or Staggering a Burning enemy during Wrath Resonance, is supplementary."
+    },
+    "guide:2:heading": {
+      "sourceHash": "6a3474f0dd54e9112b1f215c14590f79ff275bb53f25b5a92e7c901897371d79",
+      "text": "Rotation"
+    },
+    "guide:2:0:0": {
+      "sourceHash": "1c4e84a00f7d45be477d6282b1e12b12ed44cf3b5a75b49e28abe6e57399ddca",
+      "text": "Start by building Burn on enemies with Burn-applying skills."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "f18e1fcc374ee1da7acccd52d1a1c537046425f969cb4dbc3078808711210c9a",
+      "text": "Burn stops when Count runs out. Sustain it with Firefist Office Survivor's skills and benched [Liu Assoc. South Section 5](persona:0604): at Uptie Ⅲ with 4 Wrath Owned, he adds 1 to the Burn Count applied by the ally with the highest SP. [Liu Assoc. South Section 3](persona:0112)'s S3 reduces Burn Count by 2, so avoid it when Count is low."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "0c718ea74db4560fb622dc82d92478cd411d0d2dcb3c2762626e753527415751",
+      "text": "Firefist Office Survivor and Liu Assoc. South Section 3 have Wrath S2s, and 4 members have Wrath S3s, making Wrath resources easy to accumulate. This supports Wrath E.G.O such as Rodion's [4th Match Flame](ego:0902)."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "35cc198555c4c8dec8a1ebf584fd85384848d6b3c2bffcb1277277e47b371e7f",
+      "text": "Cover healing through E.G.O such as [Into the Sunset](ego:0909) and [Indicant's Trial](ego:0908), available when deploying The House of Spiders: The Thumb Nursefather Rodion."
+    },
+    "guide:3:heading": {
+      "sourceHash": "1fb317daecdd7ef2ac2d9c38e7263ac102c228af1ae02837674fadb67c57f4c6",
+      "text": "Adding Dawn Office, Thumb, or You Branch units"
+    },
+    "guide:3:0:0": {
+      "sourceHash": "6c9ec277921a0fa35b4ea177bc2f0d12410f3f0e712495f8c0be8334d23f5f4f",
+      "text": "These coordinated packages can replace priority picks. Choose according to the units you own."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "52bd358cc7ead2edbd5903a939fb96f1079e2cdc97dd14bff0c29ca8d8265c14",
+      "text": "The Dawn Office package assumes all 3 together: [Dawn Office Fixer Sinclair](persona:1009), [Dawn Office Fixer Faust](persona:0216), and [Dawn Office Rep](persona:1216). Their coordination triggers follow-ups and supplies Gloom and Envy resources. Raw damage exceeds the Firefist option, but all are Walpurgisnacht-exclusive."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "1d278ac8355284f5a6fe75234e966e36db23e0a8ae178d031789d4bd68d3e9e7",
+      "text": "The Thumb package pairs [The House of Spiders: The Thumb Nursefather](persona:0916) with [The House of Spiders: The Thumb Apprentice](persona:0716). While the Nursefather has The Eye of Precognition, a hit from the Apprentice's Base Skill triggers his own La Spada di Palermo follow-up once per turn. The Apprentice shares a Sinner with [Heishou Pack - You Branch Adept](persona:0714), so choose one."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "1049151634d1615fb42199a48212b5507cfb8b53537d1d20b171ce4cc71a67b0",
+      "text": "The You Branch package uses [The Lord of Hongyuan](persona:0613) to swap Heishou units. They are fragile, so take care not to lose clashes."
+    },
+    "guide:3:0:4": {
+      "sourceHash": "2c6f083021dd91ddf2e11bb55a01c6712a8d54089226677a40eada9b92b37d0d",
+      "text": "Combining both Dawn Office and Thumb units shifts the team toward Tremor - Scorch. Both Burn Count and Tremor Count need attention."
+    },
+    "guide:4:heading": {
+      "sourceHash": "85c87d3021b4f5e5537dc96bc3da6c5afcbcee239bc394519974c1c6dd658eb1",
+      "text": "Dark Flame variant"
+    },
+    "guide:4:0:0": {
+      "sourceHash": "ed8b861b01909af037dd4168336db95271c8be34aec039effc8e6b635af4f0e1",
+      "text": "Dark Flame applied by Outis's [Magic Bullet](persona:1107) Identity and [Magic Bullet](ego:1108) E.G.O deals Pride damage equal to Dark Flame × the target's Burn at Turn End. More Burn means more damage; its Pride affinity also works against Wrath-resistant enemies."
+    },
+    "guide:4:0:1": {
+      "sourceHash": "023a711fa6c42497a35cf71ebd074bcb2c92ba0ecc3564fe3f7e93d394927dde",
+      "text": "Reach at least 3 Magic Bullets, use the Magic Bullet E.G.O alongside at least 4 Resonance, then use S3 at 7 Magic Bullets to reset to 0. Repeat."
+    },
+    "guide:4:0:2": {
+      "sourceHash": "4fdf8776abbfc3eea51d68cde186ea1f45aa6b67d054da204493513cb17f814c",
+      "text": "Magic Bullet Outis's S3 consumes substantial SP and has a 50% chance to hit allies at 10 SP or less. Support her SP with benched [Liu Assoc. South Section 3](persona:0112), and omit the You Branch or Dawn Office Identities that inflict Burn on themselves."
+    },
+    "guide:4:0:3": {
+      "sourceHash": "8b2fb1e94926ebe4c25ab64d4afc83b4efafa120cf2b902b530d9248a985d2aa",
+      "text": "Best against a single boss. Slow to get going and poor against ordinary groups."
+    },
+    "guide:5:heading": {
+      "sourceHash": "8f2bc745cac2bd0338184e4ca2298f2b149a04c55cebca2dffd0c1f8b626491b",
+      "text": "Weaknesses and answers"
+    },
+    "guide:5:0:0": {
+      "sourceHash": "d8b93cf53c19b5b65f5de08ca9f214a1ce3460c272b28dbe3e8117745ec5b836",
+      "text": "Wrath is the most common affinity among the priority picks, with 8 of their 30 Base Skills, so Wrath-resistant enemies are somewhat troublesome. The Dark Flame variant can use Pride damage instead."
+    },
+    "guide:5:0:1": {
+      "sourceHash": "8970d6d0c05e755bf564977eb234e883912eecaa19f7b7ceea259877d45b56bd",
+      "text": "The enhancement conditions are modest, so open slots can also take strong general-purpose Identities without Burn. If a priority pick is missing, check the flexible and alternative slots below."
+    }
+  },
+  "metadata": {
+    "title": "Burn Team | Building and Rotation | Limbus Assistant",
+    "description": "Limbus Company Burn team guide: Burn-applying Identities that grow enemy Burn together for long fights. Covers the physical Burn, Burn and Tremor (Dawn Office and Thumb), and Dark Flame (Magic Bullet Outis) variants, with priority, flexible, and bench roles."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}

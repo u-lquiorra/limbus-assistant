@@ -1,0 +1,775 @@
+{
+  "kind": "boss-copy",
+  "id": "heathcliff-mirror",
+  "source": "src/data/bosses/heathcliff-mirror.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "バットで殴る",
+          "en": "Bat Bash",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816401"
+        },
+        {
+          "ja": "打ち落とす",
+          "en": "Smackdown",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816402"
+        },
+        {
+          "ja": "腹いせ",
+          "en": "Upheaval",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816403"
+        },
+        {
+          "ja": "贖罪の時間だ",
+          "en": "Time to Repent",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816404"
+        },
+        {
+          "ja": "もっと苦しむんだな！",
+          "en": "You Must Suffer More!",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816405"
+        },
+        {
+          "ja": "ガード",
+          "en": "Guard",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "815904"
+        },
+        {
+          "ja": "反撃",
+          "en": "Counter",
+          "file": "Skills_Abnormality-a1c6p2.json",
+          "id": "816004"
+        },
+        {
+          "ja": "自己嫌悪",
+          "en": "Self-loathing",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816401"
+        },
+        {
+          "ja": "爆発する感情",
+          "en": "Explosive Emotions",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816402"
+        },
+        {
+          "ja": "頭にくる",
+          "en": "Spite-driven",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816405"
+        },
+        {
+          "ja": "深い喪失",
+          "en": "Deep Bereavement",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBd"
+        },
+        {
+          "ja": "敵意",
+          "en": "Antagonism",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101602"
+        },
+        {
+          "ja": "待ち望んだ瞬間",
+          "en": "Long-awaited Moment",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101603"
+        },
+        {
+          "ja": "復讐心",
+          "en": "Heart of Vengeance",
+          "file": "Passives_Abnormality-a1c6p2.json",
+          "id": "816406"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Passives_Enemy-a1c6p1.json",
+          "id": "9999998"
+        },
+        {
+          "ja": "退却不能",
+          "en": "Cannot Retreat",
+          "file": "Passives_Abnormality-a1c6p3.json",
+          "id": "9101607"
+        },
+        {
+          "ja": "喪失",
+          "en": "Bereavement",
+          "file": "Bufs-a1c6p1.json",
+          "id": "AaCfPaBa"
+        },
+        {
+          "ja": "ヒースクリフたちの首を刈らん",
+          "en": "Behead Heathcliffs",
+          "file": "Skills_Abnormality-a1c6p3.json",
+          "id": "817305"
+        },
+        {
+          "ja": "爆発する憤怒",
+          "en": "Explosive Wrath",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBc"
+        },
+        {
+          "ja": "爆発する憂鬱",
+          "en": "Explosive Gloom",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBa"
+        },
+        {
+          "ja": "爆発する嫉妬",
+          "en": "Explosive Envy",
+          "file": "Bufs-a1c6p2.json",
+          "id": "AaCfPbBb"
+        },
+        {
+          "ja": "ヒースクリフ?",
+          "en": "Heathcliff?",
+          "file": "Enemies-a1c6p2.json",
+          "id": "8164"
+        },
+        {
+          "ja": "ヒースクリフたちの首を刈らん",
+          "en": "Behead Heathcliffs",
+          "file": "Bufs.json",
+          "id": "AaCfPaBa_Alt2"
+        }
+      ],
+      "note": "Guide ellipsis variants are matched to paired game records. Heart of Vengeance is scoped to these bosses to distinguish the Identity passive Grudge."
+    }
+  },
+  "scopedTerms": [
+    "復讐心",
+    "バットで殴る"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "5964e376ccfd03621bdd8dc72c0fe1fa38f38e99768cbb10d8dce411821e3510",
+      "text": "Heathcliff?"
+    },
+    "shortName": {
+      "sourceHash": "5964e376ccfd03621bdd8dc72c0fe1fa38f38e99768cbb10d8dce411821e3510",
+      "text": "Heathcliff?"
+    },
+    "stageName": {
+      "sourceHash": "6dd2e4b41c2f4af4bef612e9865bf59753d2095f83c29a8f2d77dfa5f2d19f40",
+      "text": "Beast"
+    },
+    "lead": {
+      "sourceHash": "6454a96a4c48746b9073e1c7c8d690b51986abea9c372c72b722f18ccf17597f",
+      "text": "You lose if allied Heathcliff dies. Have other Sinners intercept attacks that can be redirected, and save his strong skills for attacks only he can handle."
+    },
+    "listLead": {
+      "sourceHash": "0f04e661801635fb79b557e8b2f7d3a9e3b9015f91280737d6566cf5f1bd741f",
+      "text": "A required Sinner's defeat causes a loss. Have other Sinners intercept changeable attacks and save strong skills for attacks only that Sinner can handle."
+    },
+    "priorities.0": {
+      "sourceHash": "4b66dbe1a3bf60bc6e187740acefaca1adbe77d8a4aa4ef5757e19992a373e32",
+      "text": "Keep allied Heathcliff alive. Use faster allies to intercept attacks that can be redirected."
+    },
+    "priorities.1": {
+      "sourceHash": "8b6fe5ac39a1e914d9a65f2555ed401271223b2539414ad1569fc0928200259e",
+      "text": "While Explosive Emotions is active, prevent hits on Heathcliff to work toward removing it."
+    },
+    "priorities.2": {
+      "sourceHash": "80c2d103090ae277cc31ff57622a12e02e530603f3f3b52117bd4bcc7bd4a8f9",
+      "text": "Prepare Heathcliff's own strong skills or E.G.O for “Time to Repent” and “You Must Suffer More!”."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "08094388056622d9c2b3cef472019c4cfdc5acaa4fbf414a32f9476c8eed8b88",
+      "text": "Losing while other Sinners are still alive"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "fd4c8b2c23f3b87b04fbd687e40432eea23e77c4acd076525b9171bb8f2978d4",
+      "text": "Allied Heathcliff's death is the defeat condition. Prioritize his HP, Stagger Thresholds, Bleed, and next-turn Paralyze over the team's total HP."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "396c41d71646eecf7cb61b52928738f93eafc65d42797253f39afce304c002b9",
+      "text": "Attacking the enemy makes things worse"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "6de2c32657c9234283a52efb7c496b4cdfd1299267b3c3e849db4c0cc4556b1c",
+      "text": "Explosive Emotions has additional effects that react to incoming hits. In the Envy phase especially, attackers accumulate Bleed. Reduce unnecessary unopposed attacks and save strong attacks for after the emotion is removed."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "f5d017d2751a52f14f5af03716209afb196c25c9b8fbc2a6479e1b7c1e7e2ddb",
+      "text": "Unable to intercept an attack"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "9ed4f256a7622f3d3eecfbe2a5a17f7eecc86c7c6c5c25ed276e820652930694",
+      "text": "Time to Repent and You Must Suffer More! cannot be redirected. Reserve skills and resources that let Heathcliff clash with them. Intercept regular attacks with allies faster than the enemy."
+    },
+    "units.0.name": {
+      "sourceHash": "5964e376ccfd03621bdd8dc72c0fe1fa38f38e99768cbb10d8dce411821e3510",
+      "text": "Heathcliff?"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "1c3e2e893c343f2bdc32cb1b0bbeabfd5960d92d6e10b2f9ae157584c21c3fd0",
+      "text": "80% / 50% / 20% HP (1811 / 1132 / 452)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "e40116f53087b1a26faeca76aa3dbe9bb43e328bfe0fa7fba7639b43e753dc8e",
+      "text": "The 6-34 story version. Its victory conditions and some passives differ from the Mirror Dungeon version."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "c2c70587d2d6f4757ca90236a1f973586cf47dada5e2a3af3ab20c974ec48006",
+      "text": "On the turn it reaches 905 HP, its HP cannot fall further. An event near 40% HP leads into the latter half."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "ca3b83d1d7d931fe42762b51ea28cc8a5b73e0a75cc654958bf4baef0515c28b",
+      "text": "The table shows Sin resistances before emotion effects. Check the current Explosive Emotion's affinity and state each time."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "a7bd1f4ced1c317a1207b0d9d358c2002e80a9eac2110c07995d849367fa25c1",
+      "text": "Allied Heathcliff cannot retreat; his death causes defeat."
+    },
+    "phases.0.timing": {
+      "sourceHash": "bf7e3b3dd2689cf913badbf1a58b38d53fef7a3a936a53269925bdcef6d1d463",
+      "text": "Opening–Explosive Wrath"
+    },
+    "phases.0.title": {
+      "sourceHash": "05b934aa20fd40fcbe093ebf1c62f030e4c0578905af018d09f879d9c2c3f678",
+      "text": "Create winning clashes and protect Heathcliff"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "948372149b0f5922d2c8ea1ea26f072abc7f65b3370e0404a8e5a3851cc66767",
+      "text": "Enemy attacks focus on allied Heathcliff. Have allies faster than the enemy intercept any that can be redirected."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "c455e5a4f566dd471c6a638abb7c3cda8c6f1495ef4d836c3ffa1e7afcd0c600",
+      "text": "The enemy recovers SP at Turn Start, while allied Heathcliff normally loses SP through Bereavement. Develop your main team's levels and Uptie, leave him clashes he can win, and use SP recovery."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "2febb4450fb338d366db0aeddc258c5b995001413d2fd65cd240d2a0917f78cb",
+      "text": "Explosive Emotions starts on Turn 2. Prevent more skills from hitting Heathcliff to reduce the emotion. Prioritize clashes that stop enemy attacks; there is no need to use every spare skill for an unopposed attack."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "36e3d0b0073170f4c1ddc504ef9d60a20a97f654af6b3e3f53d012f974e0d8f3",
+      "text": "Stagger advances the Wrath phase. Even when offsetting Guard, remember that its next-turn buff activates On Use."
+    },
+    "phases.1.timing": {
+      "sourceHash": "91830df85b9a00d2b4c9c1fa30a1f41ad6a0a9952e789d8592e3c5faa71e72ff",
+      "text": "Explosive Gloom"
+    },
+    "phases.1.title": {
+      "sourceHash": "b21daa6e3222504908338e4ef1b81e3697071268c43d6108fa6414e201d7c55e",
+      "text": "Save Heathcliff's response for the area attack that cannot be redirected"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "bd08377d5d5e1cf9b46cacb625200d261ca15c2e1112907cc843b4577f168988",
+      "text": "You Must Suffer More! cannot be redirected. Prepare a strong skill or E.G.O for Heathcliff to clash with it, and let allies handle the other attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "ae3341e92c7d81a94d0643e2e03891fa279a02d569e3cd0a62c3eb3070165216",
+      "text": "Attacking during the emotion also risks SP damage, so prioritize removing it. If using SP recovery or enemy Power Down, check resource availability too."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "692bdaa7b0e71e37a008147ad0a196b0d054f2451c805b5b9c3d6f29c68d241b",
+      "text": "Damage stops at 905 HP for that turn, followed by an event. Avoid wasting excessive damage at this boundary and save skills for what follows."
+    },
+    "phases.2.timing": {
+      "sourceHash": "dda919709d4ebd8fa5f870ed81385646f4dc1d0a944a44fb6fdd3d40b5ae4281",
+      "text": "Event near 40% HP"
+    },
+    "phases.2.title": {
+      "sourceHash": "4d71f31cd65efd683ea766839d6752afb10b9eaecb56586a97eaa4e31281d3b7",
+      "text": "Check Heathcliff's skills for the check"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "900d43030c0b5f1d8df6306b08ade4f44ba817f1be23764def7fd051f6f3f1cc",
+      "text": "Only Heathcliff can attempt the check. Wrath, Gloom, and Envy are favored; review his skill affinities and the displayed success prediction."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "8749a0c8905d338a85b79b1e087b5e3fc9f15c00fee564886f440b99df8f3b4c",
+      "text": "Success grants him 5 Protection and 3 Attack Power Up. Failure gives 3 Fragile instead of Protection, so preventing subsequent hits becomes especially important."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "deb195854dcb477d01d574aae93bc3ae115d876eddb545cb8080cc27eaaff810",
+      "text": "Either result grants all allies 2 Damage Up and doubles the enemy's susceptibility to Stagger Threshold damage and Tremor Burst. Failing the check does not immediately end the encounter."
+    },
+    "phases.3.timing": {
+      "sourceHash": "eb484ce822300a7c86fac1c6d049650fdb07c6732797ba727b2348011581901d",
+      "text": "Explosive Envy–finish"
+    },
+    "phases.3.title": {
+      "sourceHash": "f52280740e660784de2fb6ae6d6b70f37dbfa6690fe91c37075413949d135392",
+      "text": "Check Bleed and attack after the emotion ends"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "65291cf07ab68c67779a4b106bac922e573ee9e86243e1ee95d52f81ac50c321",
+      "text": "Repeated attacks in the Envy phase build Bleed. Reduce unopposed attacks and prevent hits on Heathcliff to remove the emotion."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "70c6c88da3227213d2012a72e82c54f23d707d6db3802663df596c37114a5376",
+      "text": "Sinners with heavy Bleed lose HP just by rolling attack Coins. Avoid repeatedly using multi-Coin attacks or concentrating actions on a small team; check HP and Bleed Count."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "264fd245396e34e3e8a655ecee40479f10dfbe11420cf05586f72417b9e2b51f",
+      "text": "Time to Repent also cannot be redirected. Save Heathcliff's own skill, using E.G.O to clash if needed."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "6919037017e8d49d83c81cc2742e394eceba23a142db580879e857c08a6f9683",
+      "text": "Deep Bereavement lowers the enemy's Speed and Defense Level. Check attack targets and Bleed, then use your saved strong skills to finish it."
+    },
+    "skills.0.name": {
+      "sourceHash": "be39d5976b5d24ffed68b51a45b7e7cbe1144bb85b324cb9a894d673f92929f5",
+      "text": "Bat Bash"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "8cc2752e508ce6f44055f1c815a05c6b2d592cdcef5047972d6cc594fbf59574",
+      "text": "Ⅰ：[On Hit] Rupture Count +3."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "9c93a0dcddd21b436e6deab84ff5e5909404d23b1123eae3188ccfc6cb9df1a1",
+      "text": "Ⅱ：[On Hit] Inflict 3 Rupture."
+    },
+    "skills.0.response": {
+      "sourceHash": "3df252a58ca0f79284c4e8f0ee480562e5d37c088b3d7884d7585a622221c7ad",
+      "text": "A regular attack that can be redirected. Have a faster ally take the clash to reduce hits on Heathcliff."
+    },
+    "skills.1.name": {
+      "sourceHash": "57d30e2cc333ac7af1427101343b4afd879224e746beb44f44242f5ce1803188",
+      "text": "Smackdown"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "9b6aa1421a19a0aef683b30cffe39a4aba5f829e335d955f7b6cd1c735fc7961",
+      "text": "[Clash Win] Gain 1 Attack Power Up and 1 Damage Up next turn."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "8cc2752e508ce6f44055f1c815a05c6b2d592cdcef5047972d6cc594fbf59574",
+      "text": "Ⅰ：[On Hit] Rupture Count +3."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "9c93a0dcddd21b436e6deab84ff5e5909404d23b1123eae3188ccfc6cb9df1a1",
+      "text": "Ⅱ：[On Hit] Inflict 3 Rupture."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "6c0577e5cb9e372506ee33d38c057920dcb7f98e7afd3578991429f48fe02251",
+      "text": "Ⅲ：[On Hit] Inflict 3 Bleed, plus Bleed equal to the target's Rupture."
+    },
+    "skills.1.response": {
+      "sourceHash": "be53f755c0471499c659af05d78c618a49b2c79478c5e7e6329d952d36cdd7f2",
+      "text": "Losing the clash also allows next-turn buffs. Hits on allies with heavy Rupture inflict more Bleed, so stop it with someone who can win."
+    },
+    "skills.2.name": {
+      "sourceHash": "ccfcbc7c7bc4e62ef3dd77fabef42dd50b02e281587ef45ca7febab225f46ba6",
+      "text": "Upheaval"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "994de47d50a04888a3c6c39ceeb5149de298a4fdaf71da9456936013068c85e3",
+      "text": "Clash Power +1 if the target has at least 5 Rupture. Another +1 if they have at least 5 Bleed."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "cd7dea706cc913840b0ec440cf40b1db7423b1e8e5a8b4045954f9389521e195",
+      "text": "[Clash Win] Target's Rupture Count +3."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "df5d16cfb791cd54131b2ba4c9cbbc46e7ffb3cf36cc8758046b38e375a51bf1",
+      "text": "Ⅰ：[Heads Hit] Next Coin Power +1."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "11f4ba8db10a05d03dae086004c8ee620be6dce562c2db4f73b28f48eaf01231",
+      "text": "Ⅱ：[Heads Hit] Next Coin Power +2."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "c8dd485fb010a20036641262a82b2dbc8c950865c40ccb412fe280014c277c45",
+      "text": "Ⅲ：[On Hit] Inflict 3 Paralyze next turn and 8 Bleed this turn."
+    },
+    "skills.2.response": {
+      "sourceHash": "13c34e8bf28a8d2bb4e809ebdfca312715438e7e6c3874fc282cc4d2c83fea01",
+      "text": "Hits strengthen later Coins too. The listed 3–15 range is before those bonuses; stop it with a strong clash from a main attacker."
+    },
+    "skills.3.name": {
+      "sourceHash": "0735c5009281cee3899e1d3df61a2f4a44157d5426e5d9b5472a42e3068a0f2e",
+      "text": "Time to Repent"
+    },
+    "skills.3.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "55c3509e0a7cdd9a6a655cb10c49c4188f0d4344981cce75dc14d3c8e664cb36",
+      "text": "Cannot be redirected."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "ec405154d0db2ecf782bc57a6aefcc75fefa0cc06f5083bdb760fede66d6d2bd",
+      "text": "Ⅰ：[On Hit] Inflict 3 Bleed Count and 3 Rupture Count."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "345b7ade8a5d160e60bb6da990d39acd3b4a91666d6211e4d7be589464fcc0d0",
+      "text": "Ⅱ・Ⅲ：[On Hit] Inflict 3 Bleed and 3 Rupture."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "537b2c6237590610889b1b75d4e20aa3f9f2d91805ec9ea7e72259d9d9295efb",
+      "text": "Ⅳ：[On Hit] Gain 1 Attack Power Up next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "aa19fc0d39a702ab6b1addea5dfa57137aff3385334d38b5973daf3719865be5",
+      "text": "Allied Heathcliff must handle this. Even faster allies cannot intercept it, so reserve a high-Power skill or E.G.O for him."
+    },
+    "skills.4.name": {
+      "sourceHash": "eb6965dbcce1feb189714e91d0612a4da647433bb48504c1d1ffcb1f7fa7d79b",
+      "text": "You Must Suffer More!"
+    },
+    "skills.4.label": {
+      "sourceHash": "9b947f2e0f18921abe1dd89878058935184d403aaf3a8a0d1a3556de20ef3d11",
+      "text": "Cannot be redirected / area attack"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "55c3509e0a7cdd9a6a655cb10c49c4188f0d4344981cce75dc14d3c8e664cb36",
+      "text": "Cannot be redirected."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "cd7dea706cc913840b0ec440cf40b1db7423b1e8e5a8b4045954f9389521e195",
+      "text": "[Clash Win] Target's Rupture Count +3."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "df5d16cfb791cd54131b2ba4c9cbbc46e7ffb3cf36cc8758046b38e375a51bf1",
+      "text": "Ⅰ：[Heads Hit] Next Coin Power +1."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "11f4ba8db10a05d03dae086004c8ee620be6dce562c2db4f73b28f48eaf01231",
+      "text": "Ⅱ：[Heads Hit] Next Coin Power +2."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "a0e1f91f873d56e556b4e58affb6202551fdb128f2c83e16ee9bec478d2f0a5e",
+      "text": "Ⅲ：[On Hit] Inflict 8 Bleed."
+    },
+    "skills.4.response": {
+      "sourceHash": "6f0bafe889e8a35643a46a5570033da1e0fbab3cf9cb700dd97ae33f0bf7c93a",
+      "text": "An area attack Heathcliff must clash with. Prevent Stagger and Paralyze on him from the preceding turn, and keep a usable skill ready."
+    },
+    "skills.5.name": {
+      "sourceHash": "522ba9f47afb2129ce4fe78a935f13efb9ead4ed3b7bb437cbee5e086f618881",
+      "text": "Guard"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "4986d0fa587c8cb10618d918dc8a2a06c3548254d855c057819d9b95365a677c",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "17226d018f09074834cb3b82816fe322c48b712aeceb397c43ba3944e2e50fb9",
+      "text": "Offsetting the Defense Skill can let an attack through, but cannot remove a buff already gained. Check next turn's clash predictions."
+    },
+    "skills.6.name": {
+      "sourceHash": "e1d3a0438c5ce0d79a9ebed07f5a2401d45089079ef073aeb43acfca10ddd1b8",
+      "text": "Counter"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "4986d0fa587c8cb10618d918dc8a2a06c3548254d855c057819d9b95365a677c",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "e69efd3f79795c0dc66283a13fcec454432077d0ce9d1c06f711cc6618838eb8",
+      "text": "Ⅰ：[On Hit] Inflict 3 Bleed."
+    },
+    "skills.6.response": {
+      "sourceHash": "1cb569f61d41176a186ab3ae435dda7c059ae31bf170f41b254c8442347d09ff",
+      "text": "Unopposed attacks can still trigger a counterattack. Check attack order so a Sinner with dangerous Bleed or low HP does not attack first."
+    },
+    "passives.0.name": {
+      "sourceHash": "8d093acd814433d019156195dc91fbbce6f9d5b42c8620b5ea4aa259c70b805c",
+      "text": "Self-loathing"
+    },
+    "passives.0.condition": {
+      "sourceHash": "b3ba6e9eaef858992c01271ee4e5a264b9feff71085a6dad4ecb95acb43a6f35",
+      "text": "During the 6-34 encounter"
+    },
+    "passives.0.effect": {
+      "sourceHash": "dcb6b338c5d9c2a41f45b3e667c7b3418461fc5879a6ff7420d0ce1293541103",
+      "text": "All skills target allied Heathcliff. If Heathcliff dies, the enemy wins."
+    },
+    "passives.0.response": {
+      "sourceHash": "3a5628921a3b55262e9aa5d6c274dd6bb9c5543f86c93cd4747b48601c9fd93e",
+      "text": "Intercept attacks that can be redirected, and prioritize keeping him alive."
+    },
+    "passives.1.name": {
+      "sourceHash": "bb75c4f553884263a5d16d99050509ca5cef59edd9eb7469436a1579814876da",
+      "text": "Explosive Emotions"
+    },
+    "passives.1.condition": {
+      "sourceHash": "6abab3c0b3d51688b463665b800968a1e71eb23774d9e4d7e05379f997307cd6",
+      "text": "While an emotion effect is active"
+    },
+    "passives.1.effect": {
+      "sourceHash": "1ab4d05bc7abbf0ba1392af04f3e1f092931a800015c9c22a498995104744a7a",
+      "text": "Becomes weaker to the corresponding Sin affinity and stronger against other Sin affinities. Each emotion has additional effects triggered by incoming hits."
+    },
+    "passives.1.response": {
+      "sourceHash": "9c3a4fac175552840a02d697d0fcb4098aaa8a7352271a1b431bcb531152f014",
+      "text": "Do not choose attacks using only the normal resistance table. Check the current emotion and its additional effects."
+    },
+    "passives.2.name": {
+      "sourceHash": "884951b9d29fe27816b6ea5dba3819621678c19415e0cdb518151460a354f12b",
+      "text": "Spite-driven"
+    },
+    "passives.2.condition": {
+      "sourceHash": "c18d1be2fd0beaf600c5a89302f44b1356f2b8fc06cd6cfba18590c48552a357",
+      "text": "Skill End / Stagger"
+    },
+    "passives.2.effect": {
+      "sourceHash": "1ff227da7eef90466cd32d2e1f66900a69954a5ab542f5caec891de70c9c2261",
+      "text": "Each skill that fails to hit Heathcliff reduces the emotion by 1. If Staggered at Turn Start, reduce it by 3 at Turn End. It can decrease by at most 3 per turn and is removed if its value is 1 at Turn End."
+    },
+    "passives.2.response": {
+      "sourceHash": "3ba538097955e3aa8cb8c01721664cee3610069ffb926f065e510e2e74a297b4",
+      "text": "Having other allies intercept clashes also helps reduce the emotion."
+    },
+    "passives.3.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "passives.3.condition": {
+      "sourceHash": "74a1d24bc4c4f351b3f969eab6f09ad6e5e9a64d08dc11984334c95284a5634e",
+      "text": "Remove the emotion within its 2-turn grace period"
+    },
+    "passives.3.effect": {
+      "sourceHash": "46c0cc7f774ddea337dbeb23ef802e8508eadbdca1040743a7df8af9a7cecddb",
+      "text": "Enters Deep Bereavement for the next 2 turns, changing its action pattern. If the deadline is missed, remove the emotion and gain 6 Offense Level Up and 3 Haste next turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "374f60d397c1b973fde38c05d466d57c8e67c93c8c50912964987203ac38b1ac",
+      "text": "Missing the removal deadline leads to buffs next turn. Reassess clash assignments and defenses instead of continuing to attack."
+    },
+    "passives.4.name": {
+      "sourceHash": "50454592fba5b77ddb782dd68e7a374f8e03869c85f70a4402b41dbe2d4ebaa7",
+      "text": "Antagonism"
+    },
+    "passives.4.condition": {
+      "sourceHash": "5645707d591fe10f628b64ebd64a58cd6dd07582ca0ba6ebf54ed736b93bde8a",
+      "text": "The attack target's current HP exceeds the user's"
+    },
+    "passives.4.effect": {
+      "sourceHash": "e096e351439a8644bdfe42b1aec09361eee100062b3f28c16fef474e7bf22a13",
+      "text": "Clash Power +2; damage +20%."
+    },
+    "passives.4.response": {
+      "sourceHash": "d41f0fbbfc408d4ba4f23a47572780795034cf1aa6df6885597b27ce048cb298",
+      "text": "This may activate late in the fight. Lower enemy HP does not necessarily mean weaker clashes."
+    },
+    "passives.5.name": {
+      "sourceHash": "1deebd794bf2741429af55fd14ed49c0bd77ed69531fbb18ada0a9dbaa92e5f8",
+      "text": "Long-awaited Moment"
+    },
+    "passives.5.condition": {
+      "sourceHash": "9538aa87f3d0cff167dc558881ae4c36745aa16f26cc7396e6dfc00917e35bfb",
+      "text": "Clash and hit results"
+    },
+    "passives.5.effect": {
+      "sourceHash": "06f600c19af7c37221a6695d8645ebf8a303386f4c723eefe630ba711ae5e5e7",
+      "text": "Heal 5 SP on Clash Win. On Clash Lose against allied Heathcliff, lose 10 SP and gain 2 Bind next turn (once per turn). If no skill hits Heathcliff during the turn, lose 5 SP at Turn End."
+    },
+    "passives.5.response": {
+      "sourceHash": "31d78a1ff690a831431afb79b77d5727e6c1ff91f6f08313218aad3af26544f2",
+      "text": "His clash wins matter, but do not make him handle everything. Leave him clashes he can win."
+    },
+    "passives.6.name": {
+      "sourceHash": "59a7a1fa638c8fc6df6f2e2166580a5511bef80e0656597179e4b2cb559a7a18",
+      "text": "Heart of Vengeance"
+    },
+    "passives.6.condition": {
+      "sourceHash": "d5e4eb85f45f2fb4690e5449b07715c6396117abf86bf7542648eeeeca258151",
+      "text": "Turn Start / Turn End"
+    },
+    "passives.6.effect": {
+      "sourceHash": "68cd170aabef2aade4da7c2b337cab825da3e96e2b4c7205c33fc321722e8213",
+      "text": "At Turn Start, heal 15 SP unless at −45 SP. Recover from Panic next turn and reset SP to 0; gain 2 Attack Power Up at Turn Start after recovery."
+    },
+    "passives.6.response": {
+      "sourceHash": "0cd3d4dc5e01636ec5c778e3797a057af5780cddba2c6edf73ef4bff7821e612",
+      "text": "Its ongoing recovery makes the early SP gap important. Do not rely too heavily on Panic to disable it for long."
+    },
+    "passives.7.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.7.condition": {
+      "sourceHash": "e21e34d6503b692c3f1963121d10e01b6f31c9ca2911e6449f81ab90c8041883",
+      "text": "Receives a Panic Type change effect"
+    },
+    "passives.7.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.7.response": {
+      "sourceHash": "0e23a5614b6fc6edfa659124f8fb409292c76ca2ed63bbddf710d4643b84ec1a",
+      "text": "Do not rely on changing Panic Type."
+    },
+    "passives.8.name": {
+      "sourceHash": "042351e5f71daa43b965104802a5a989105d779fbb25f9ab689e33398a499cc4",
+      "text": "Cannot Retreat"
+    },
+    "passives.8.condition": {
+      "sourceHash": "b3ba6e9eaef858992c01271ee4e5a264b9feff71085a6dad4ecb95acb43a6f35",
+      "text": "During the 6-34 encounter"
+    },
+    "passives.8.effect": {
+      "sourceHash": "bce7b233411432343efd8e887e40ea4fe82824bd1212ee83bf6275a99a992f13",
+      "text": "Allied Heathcliff Identities' retreat functions do not activate."
+    },
+    "passives.8.response": {
+      "sourceHash": "44831c4ac2f811a95d7c12ff88cae108bd38a64be9e1a2f10ed7ffc5dddd61ff",
+      "text": "Retreating or swapping with a reserve cannot bypass the defeat condition."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "3ede87997728bb5f5113832d00a3f0f985869e890578e0ef4fd2b5389ab18861",
+      "text": "Bereavement"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "4a2dd9d9bab3ff181fa5e25cb1e205e624c5486baf2163d59bb1ca3cf90ee8cb",
+      "text": "Applies to ordinary allied Heathcliff Identities. At Turn End, lose 10 SP if at −15 SP or above. On taking damage, lose 2 SP and gain 1 Offense Level Up next turn (up to 3 times per turn). Gain 3 Attack Power Up if below 0 SP at Turn Start."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "fadb0aa21d14390ea309f80b1e82b0e5b90b59b26e82f62077bc976cf9618bb1",
+      "text": "Positive-Coin Identities struggle to build SP. Support them with SP recovery and winning clashes. Do not leave SP low just for the Attack Power Up."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "d70c84d3a8c2aadae31b2c13a511cecd009da8763b18a5679969113b136dd9fd",
+      "text": "Behead Heathcliffs"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "20b087868185180cd3aff3e063f4bb14567afcce8db49ddec5b6cc2debc1065d",
+      "text": "In 6-34, this replaces Bereavement on the Wild Hunt Identity. Heal 10 SP at Turn Start. On taking damage, gain 2 Offense Level Up next turn (up to 3 times per turn). Gain 3 Attack Power Up if below 10 SP at Turn Start."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "9727adeb8539c24abecbee9988e534bf913fc945c672c361e9216df153180a9d",
+      "text": "SP is easier to maintain than with normal Bereavement. Incoming hits may still be dangerous depending on the Identity's resistances, so continue checking survival and clashes."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "ae524e95a4162904feecca2f35facc0524b0daf76d96ccaf78c5c52ec17d27e8",
+      "text": "Explosive Wrath"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "c2616a26afac8bf1f0e5e3bd3024688c15a370d6b3d582990bf26aedd17f00cf",
+      "text": "Wrath resistance multiplier +0.3; other Sin resistance multipliers −0.5. Incoming hits trigger additional effects such as Offense Level Up."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "d83d7b0db061916724d23ef28089defb2fe9be758939ed0640960e66976f4e2e",
+      "text": "Reduce unnecessary unopposed attacks and prioritize removing the emotion. Do not keep attacking solely because of its lowered resistance."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "91830df85b9a00d2b4c9c1fa30a1f41ad6a0a9952e789d8592e3c5faa71e72ff",
+      "text": "Explosive Gloom"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "77807e65a5d486ff5b0fa1574c6355b4cdbee6afc3d27805d212ad867173683a",
+      "text": "Gloom resistance multiplier +0.3; other Sin resistance multipliers −0.5. Incoming hits trigger additional effects, including 3 SP damage to the attacker."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "46746a4b22677a3be8481ee0fea841dfac0dce10ce9266267c2ad9b8caf1a30b",
+      "text": "Losing SP makes your later clashes less reliable. Limit attacks during the emotion to those needed."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "932e1c7dcfddee9b5911e996e25fd8aac36bef16c16c0649a75b73ae5bd4a58a",
+      "text": "Explosive Envy"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "d8332a9cf1e1e12c6dc5b974c8799d553848f08f15671a959f3f65cfc583eb55",
+      "text": "Envy resistance multiplier +0.3; other Sin resistance multipliers −0.5. On taking a hit, inflict 2 Bleed and 2 Bleed Count on the attacker, up to 9 times per turn."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "ff352db3575e53c3c832de249ca0b1c4448c78ee5f4bfa195c9c548362022702",
+      "text": "Repeated multi-Coin attacks from a small team can concentrate Bleed. Check attackers' HP and Bleed, and attack after the emotion ends."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "ce4231567ac406322c5581db019bcd49647a65ff74faee57c22d02620aa8e027",
+      "text": "Deep Bereavement"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "46640ac5c19d2957633e4158f1aec58657d09e6b6d79b3ca1640788d956d445a",
+      "text": "At Turn Start, Speed −5 and 5 Defense Level Down. Applies for the next 2 turns after removing the emotion within its grace period."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "801ad84898328b54bf73b2d2652ac9f0c022b412418b21e23e002b807662f3dd",
+      "text": "This makes attacks easier to intercept. Use your saved main attackers without forcing Sinners with dangerous Bleed to attack."
+    },
+    "warnings.0": {
+      "sourceHash": "16b2354840af06af04c88ff3c146f7aa26667ed0b8788bd2e752462c4c907317",
+      "text": "Self-loathing makes Heathcliff the initial target of all attacks; it does not make every attack impossible to redirect. Check the 2 dedicated attacks separately."
+    },
+    "warnings.1": {
+      "sourceHash": "277c1b3d8ce848e823c51a9db712d87b9c676c65d6488c42a4e86cb2e84e16b1",
+      "text": "Using E.G.O does not automatically make a clash safe. Check his SP cost, required resources, and clash prediction."
+    },
+    "warnings.2": {
+      "sourceHash": "a5be4f85ce05fc0427ddb5ecef159e72fe40c2c1fefe3c79ebd7f1ec2bfef397",
+      "text": "Repeated unopposed attacks during Explosive Envy can kill attackers through Bleed. Watch more than the enemy's HP."
+    },
+    "warnings.3": {
+      "sourceHash": "5c3c852fc9ec2f8162ed1d72d15df9e22ac60ff800aa8ac97a53d5f4495c5350",
+      "text": "Even after removal, the emotion returns 2 turns later if the same phase continues. Removing it is not a one-time mechanic."
+    },
+    "warnings.4": {
+      "sourceHash": "12613a8e9b86b18a1d48c681334306f6522c67c5e3956567e5f9e725fb3843fa",
+      "text": "The 905 HP floor and event belong to the story version. Do not apply them directly to the Mirror Dungeon version."
+    },
+    "preparation.0": {
+      "sourceHash": "51ab9be7376f8f2dd23871d202395c28bdc70f60ef1a5bc3bea32706f41b60e5",
+      "text": "Aim for Lv.45 on your main team, paying particular attention to Heathcliff's level and Uptie. Prioritize Blunt resistance and his clash strength."
+    },
+    "preparation.1": {
+      "sourceHash": "ae4442266124f85a7c5eb9befef2802b9c3fadcf7b81f8e2fd54e8d6451f85f8",
+      "text": "Bring fast allies who can clash. Borrowing a strong Heathcliff as support is another option."
+    },
+    "preparation.2": {
+      "sourceHash": "474f813ae784506fa1532e87656f6a62d31d1fad2a6b485ea18e7a2e943c1b84",
+      "text": "Check his high-Power skills, E.G.O, and required resources. SP recovery and enemy Attack Power Down can support the opening."
+    },
+    "preparation.3": {
+      "sourceHash": "677d529d5f917f41b0f22593a8d760ae615b58650fbdcccae641ca49c0097ca3",
+      "text": "A smaller team can give main attackers more actions and SP, but also concentrates Bleed in the Envy phase. Start with a regular team; if reducing its size, keep a plan for Bleed."
+    },
+    "roles.0.name": {
+      "sourceHash": "38ff724d2e0004535dbd196bebc34419de7a64c15e24750b5128a7de5a171c29",
+      "text": "Heathcliff who can beat attacks that cannot be redirected"
+    },
+    "roles.0.reason": {
+      "sourceHash": "eb722c755142c039fccb623955a6a5210f6485b0e4cf9c713a1536b147fbb187",
+      "text": "Must both survive and win clashes. Save strong skills for the dedicated attacks instead of spending them all on regular attacks."
+    },
+    "roles.1.name": {
+      "sourceHash": "8443d98e7947582e24f23090e2095b56c7e363bbfbb3981004530dc2a471c739",
+      "text": "Fast ally to intercept regular attacks"
+    },
+    "roles.1.reason": {
+      "sourceHash": "dd1b61f71568f031b5bc4f6f16a539aa300f044af8ce88c049e3ceac5c5a6925",
+      "text": "Sinners faster than the enemy reduce hits on Heathcliff. Needed to avoid making him handle every attack."
+    },
+    "roles.2.name": {
+      "sourceHash": "05b40a89831863473264a9acad63947c84b26b4f81fa6139ce87172307d010fc",
+      "text": "SP recovery / Power Down support"
+    },
+    "roles.2.reason": {
+      "sourceHash": "9200ad49233b87250e3ca2ded7713a49ffb9d7b6fe0d5e62ee9a5395036c8f09",
+      "text": "Bridge the opening SP gap and stabilize the clashes needed to remove emotions. If using E.G.O, include resource generation in the team."
+    }
+  },
+  "messages": {
+    "boss-copy:heathcliff-mirror": "complete",
+    "【リンバス】6-34 ヒースクリフ？の攻略｜Limbus Assistant": "6-34 Heathcliff? Guide | Limbus Assistant",
+    "リンバス(Limbus Company)6-34「ヒースクリフ？」の攻略。味方ヒースクリフが倒れると敗北する戦闘。変更できる攻撃はほかの囚人で引き受け、本人にしか対処できない攻撃へ強いスキルを残そう。": "Heathcliff? guide for Limbus Company 6-34. You lose if allied Heathcliff dies. Have other Sinners intercept attacks that can be redirected, and save his strong skills for attacks only he can handle.",
+    "6-34 ヒースクリフ？": "6-34 Heathcliff?",
+    "6-34「Beast」": "6-34 · Beast",
+    "ヒースクリフ？の外見": "Heathcliff? appearance",
+    "ヒースクリフ？のスキル": "Heathcliff? skills",
+    "Heathcliff?の外見": "Heathcliff? appearance",
+    "Heathcliff?のスキル": "Heathcliff? skills"
+  }
+}

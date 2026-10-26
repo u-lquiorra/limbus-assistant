@@ -1,0 +1,18 @@
+{
+  "sourceGuide": "src/data/guides/ego/0603.md",
+  "code": "0603",
+  "messages": {
+    "クイックと脆弱・次元の亀裂で場を整えつつ、充電を使った一度きりの復活を持つ傲慢斬撃のE.G.O。": "A Pride Slash E.G.O that sets up the field with Haste, Fragile, and Dimensional Rift, and has a one-time revival using Charge.",
+    "充電とクイック: 攻撃前に充電回数が増え(解析Ⅲで3から5)、次のターンにクイック2を得る。行動順が重要なコンボ向き。": "**Charge and Haste**: Increases Charge Count before attacking (from 3 to 5 at Threadspin Ⅲ) and grants 2 Haste next turn. Suited to combos where action order matters.",
+    "脆弱と次元の亀裂: Ⅰコインの的中時に脆弱1と次元の亀裂(解析Ⅲで2から4)を付与する。次元の亀裂はターン終了時に破裂回数へ変わって消える。": "**Fragile and Dimensional Rift**: Coin Ⅰ inflicts 1 Fragile and Dimensional Rift (from 2 to 4 at Threadspin Ⅲ) on hit. Dimensional Rift turns into Rupture Count and disappears at Turn End.",
+    "パッシブ「もつれた現状復旧」: マイナス効果を持つ敵への的中で充電回数が1増える(1ターン最大4)。体力が0になるときは充電を全て消耗し、その量に応じて体力を回復する(戦闘1回、最大で体力の25%)。": "**Passive — Entangled Phenomena Restoration**: Hitting an enemy with a negative effect increases Charge Count by 1, up to 4 per turn. When his HP would reach 0, he spends all Charge and recovers HP based on the amount (once per battle, up to 25% of HP).",
+    "侵蝕スキル: 敵味方識別不可で現体力が最も高い対象を攻撃し、敵味方識別不可で現体力が最も高い対象を攻撃し、充電10を消耗して脆弱と次元の亀裂の付与量を増やす。充電の確保が前提。": "**Corrosion skill**: Cannot distinguish friend from foe, attacks the target with the highest current HP, and spends 10 Charge to increase the Fragile and Dimensional Rift inflicted. It assumes Charge is secured.",
+    "充電を扱う人格と組み合わせ、充電を貯めた状態で撃つ。復活の回復量は充電の量次第。": "Combine it with Identities that use Charge and fire it with Charge built up. The revival's healing depends on the amount of Charge.",
+    "覚醒スキルは一般戦闘では最後方の対象を攻撃するので、狙いを決めたいときは注意する。": "In regular battles, the Awakening skill attacks the rearmost target, so be careful when you want to choose a target.",
+    "Ⅱ: もつれた現状復旧が解放される。": "**Ⅱ**: Unlocks Entangled Phenomena Restoration.",
+    "Ⅲ: 基本威力が20から22、充電獲得と次元の亀裂が増え、侵蝕スキルも強化される。": "**Ⅲ**: Base Power goes from 20 to 22, Charge gain and Dimensional Rift increase, and the Corrosion skill is strengthened.",
+    "Ⅳ: 攻撃加重値が3になり、広域になる。": "**Ⅳ**: Attack Weight becomes 3, making it multi-target.",
+    "R社第4群トナカイチーム: S1(暴食)が充電回数を増やし、充電を消費するスキルが揃うので、充電管理を補える。": "**[R Corp. 4th Pack Reindeer](persona:0612)**: S1 (Gluttony) increases Charge Count, and he has a full set of Charge-spending skills, helping with Charge management.",
+    "K社3級摘出職職員: S1(傲慢)とS2(暴食)で必要資源を出せ、S2・S3で破裂を付与するため、破裂回数に変わる次元の亀裂と噛み合う。": "**[K Corp. Class 3 Excision Staff](persona:0605)**: S1 (Pride) and S2 (Gluttony) supply the required affinities, and S2 and S3 inflict Rupture, meshing with Dimensional Rift's conversion into Rupture Count."
+  }
+}

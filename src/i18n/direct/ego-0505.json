@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0505.md",
+  "code": "0505",
+  "messages": {
+    "操作パネル左端のスキルのコイン威力を底上げするパッシブが本体の、憤怒打撃E.G.O。": "A Wrath Blunt E.G.O whose real value is a passive that boosts the Coin Power of the leftmost skill on the dashboard.",
+    "パッシブ「縛られた怒り」: 操作パネルの一番左に置いた自分のスキルは、基本威力が1減りコイン威力が2増える。コインが多いほど得で、2コインなら+3、3コインなら+5の威力になる。": "**Passive — Bound Wrath**: His skill placed at the far left of the dashboard loses 1 Base Power and gains 2 Coin Power. The more Coins it has, the better: +3 power with 2 Coins and +5 with 3 Coins.",
+    "速度4以下の強化: ターン開始時に速度が4以下なら打撃威力増加1を得る。条件を満たしにくいので、補足程度。": "**Bonus at 4 or less Speed**: Gains 1 Blunt Power Up if his Speed is 4 or less at Turn Start. The condition is hard to meet, so it is only a footnote.",
+    "デバフ除去: 覚醒の攻撃前に、自分の解除可能なマイナス効果を1つ(解析Ⅳで2つ)除去する。除去は攻撃前なので、麻痺や威力減少をマッチ前に消すことはできない。": "**Removing debuffs**: Before Awakening's attack, removes 1 removable negative effect from himself (2 at Threadspin Ⅳ). The removal happens before the attack, so it cannot clear Paralyze or Power Down before the Clash.",
+    "振動: 的中時に振動回数が増え(憤怒完全共鳴数÷3も加算)、振動爆発する。おまけ程度。": "**Tremor**: Increases Tremor Count on hit (adding Wrath Absolute Resonance ÷ 3) and triggers Tremor Burst. A minor extra.",
+    "解析Ⅱでパッシブが解放された時点で、性能の大半は出る。": "Most of its performance is available once Threadspin Ⅱ unlocks the passive.",
+    "効果は戦闘終了まで続くため、長期戦が見込まれる場面で早めに撃つ。": "The effect lasts until the end of the battle, so fire it early when a long fight is expected.",
+    "多コインの人格を左端に置いて、威力を伸ばす。": "Place a multi-Coin Identity at the far left to boost its power.",
+    "侵蝕スキルは、自分にマイナス効果があると広域になり、次のターンに束縛と打撃威力増加を得る。": "The Corrosion skill becomes multi-target if he has negative effects, and he gains Bind and Blunt Power Up next turn.",
+    "Ⅱ: 「縛られた怒り」が解放される。ここまででほぼ完成。": "**Ⅱ**: Unlocks Bound Wrath. It is nearly complete at this point.",
+    "Ⅲ: 振動爆発時、混乱区間のない対象に憤怒ダメージを与える追加効果が付く。おまけ程度。": "**Ⅲ**: Adds an extra effect that deals Wrath damage to targets without a Stagger Threshold on Tremor Burst. A minor extra.",
+    "Ⅳ: デバフ除去が2つになり、振動回数の増加と追加ダメージが強化される。優先度は低い。": "**Ⅳ**: Removes 2 debuffs and strengthens the Tremor Count increase and extra damage. Low priority.",
+    "剣契頭目: 傲慢のスキルが多く、肉斬(憤怒)で必要資源の憤怒も出せる。": "**[Blade Lineage Mentor](persona:0508)**: Has many Pride skills, and Yield My Flesh (Wrath) supplies the required Wrath.",
+    "東部親指カポIIII: 3コインの憤怒スキル(S3)を持ち、左端に置くとコイン威力+2の恩恵が大きい。振動爆発も扱える。": "**[The Thumb East Capo IIII](persona:0512)**: Has a 3-Coin Wrath skill (S3) that benefits greatly from +2 Coin Power at the far left. He also handles Tremor Burst."
+  }
+}

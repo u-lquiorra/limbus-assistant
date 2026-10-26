@@ -13,7 +13,10 @@ export function decorate(text: string, keywords: Keyword[], timing = true): Reac
   const terms = keywords.map((k) => k.term).sort((a, b) => b.length - a.length);
   if (!timing && !terms.length) return [text];
   // グループ番号(m[1]=タイミング, m[2]=用語)を固定するため、タイミング無効時も決して一致しない (?!) で枠を残す
-  const timingPattern = timing ? "\\[[^\\]]+\\]" : "(?!)";
+  // 固有名の [Hermes] や [黑風馬脚月斬] は分割せず、発動タイミングだけを装飾する。
+  const timingPattern = timing
+    ? "\\[(?:[^\\]]*(?:時|開始|終了|マッチ|敵味方|専用)[^\\]]*|(?:On\\b|Before\\b|After\\b|Combat Start|Turn Start|Turn End|Clashable|Indiscriminate|Always-active|Effect exclusive)[^\\]]*)\\]"
+    : "(?!)";
   const pattern = new RegExp(
     `(${timingPattern})${terms.length ? `|(${terms.map(escapeRegExp).join("|")})` : ""}`,
     "g"

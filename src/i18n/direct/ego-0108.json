@@ -1,0 +1,22 @@
+{
+  "sourceGuide": "src/data/guides/ego/0108.md",
+  "code": "0108",
+  "messages": {
+    "火傷と沈潜を溜めた敵に撃ち、コイン威力+1を発動させて火力を出す、憤怒貫通の広域E.G.O。": "A multi-target Wrath Pierce E.G.O that attacks an enemy with accumulated Burn and Sinking to activate its +1 Coin Power bonus.",
+    "コイン威力強化: 攻撃前にメインターゲットの火傷と沈潜の合計が15以上(解析Ⅳは10以上)ならコイン威力+1。マッチ威力が4~16と低いので、これを発動させる前提で使う。": "**Coin Power bonus**: Before attacking, gains +1 Coin Power if the main target's combined Burn and Sinking Potency reaches 15, lowered to 10 at Threadspin Ⅳ. Its unboosted Clash range is only 4–16, so plan around meeting this condition.",
+    "火傷と沈潜の付与: Ⅰコインで火傷と沈潜回数を増やし、Ⅲコインは沈潜÷3(最大5)の火傷を付与する。強化の判定は攻撃前なので、このスキル自身の付与は数えられない。": "**Inflicting Burn and Sinking**: Coin Ⅰ inflicts Burn Potency and increases Sinking Count; Coin Ⅲ inflicts Burn equal to Sinking Potency ÷ 3, up to 5. The Power condition is checked before attacking, so this skill's own applications cannot satisfy it.",
+    "割れた世界とⅣコイン: Ⅱコインが今ターンと次のターンに割れた世界を付け、Ⅳコインが火傷を1回発動させる(どちらも破壊されずに的中時。火傷回数は1減る)。割れた世界は火傷の被ダメージを1.2倍にする(特殊火傷を除く)。": "**Shattered World and Coin Ⅳ**: If they hit without being broken, Coin Ⅱ applies Shattered World for this turn and next turn, and Coin Ⅳ triggers Burn once, consuming 1 Burn Count. Shattered World multiplies Burn damage taken by 1.2, excluding special Burn types.",
+    "呼吸: 攻撃前に呼吸を得て(最大共鳴数、最大7)、クリティカルを出しやすくする。Ⅲコインはクリティカル時に火傷回数が増える。": "**Poise**: Before attacking, gains Poise equal to the highest Resonance, up to 7, improving Critical chance. Coin Ⅲ increases Burn Count on a Critical Hit.",
+    "パッシブ「空を編む」: 割れた世界の敵に、自分の基本攻撃スキルが付与する火傷・沈潜が+1される(1ターン最大8)。効くのは主に次のターンで、補足程度。": "**Passive — Skyweaving**: His Base Attack Skills inflict 1 additional Burn or Sinking Potency on enemies with Shattered World, up to 8 per turn. This mainly helps on the following turn and is a secondary benefit.",
+    "先に他の人格で火傷と沈潜を溜め、基準を満たした敵に撃つ。": "Use other Identities to build Burn and Sinking first, then attack a target that meets the threshold.",
+    "撃ったターンは強化で火力を出し、次のターンは割れた世界が残るうちに火傷を積む。": "Use the Power bonus for damage on the activation turn, then build Burn next turn while Shattered World remains.",
+    "鏡ダンジョンはギフトなどの強化が乗りやすく、特に強力になると考えられる。それ以外は編成で補う。": "Mirror Dungeon Gifts can make this E.G.O especially strong by supporting its setup. Elsewhere, the team must supply what it needs.",
+    "必要資源は憤怒4・憂鬱2・傲慢2・嫉妬4、精神消耗は覚醒30。侵蝕スキルは減算型で、E.G.O侵蝕で使われるときの挙動として押さえる程度でよい。": "Costs 4 Wrath, 2 Gloom, 2 Pride, and 4 Envy. Awakening costs 30 SP. Corrosion uses negative Coins; understanding its behavior during E.G.O Corrosion is sufficient for this guide's basic plan.",
+    "Ⅱ: 「空を編む」が解放されるだけで、コイン威力強化はまだない。": "**Ⅱ**: Only unlocks Skyweaving; the Coin Power condition is not yet available.",
+    "Ⅲ: コイン威力強化(基準15)が入り、Ⅰコインの火傷・沈潜も増えて、本格的な性能になる。": "**Ⅲ**: Adds the Coin Power condition at a threshold of 15 and improves Coin Ⅰ's Burn and Sinking application, establishing its main role.",
+    "Ⅳ: 基準が10に下がり、Ⅰコインの沈潜回数が3になる。優先度は低いと考えられる。": "**Ⅳ**: Lowers the threshold to 10 and raises Coin Ⅰ's Sinking Count to 3. This can be a lower-priority upgrade.",
+    "南部リウ協会3課: S1〜S3がすべて火傷を付与し、憤怒・嫉妬の資源も出せる。": "**[Liu Assoc. South Section 3](persona:0112)**: All 3 Base Attack Skills inflict Burn, and he supplies Wrath and Envy resources.",
+    "開花E.G.O::壇香梅: S3は的中時に沈潜回数を増やし、傲慢の資源も出せる。S2は次のターンに沈潜2、守備は回避成功時に沈潜1を付与する。撃ったターンの基準に使えるのは主にS3。": "**[Effloresced E.G.O::Spicebush](persona:0104)**: S3 increases Sinking Count on hit and supplies Pride. S2 inflicts 2 Sinking next turn, while successful Evades inflict 1 Sinking. The Count helps maintain Sinking but does not increase the Potency used for this E.G.O's threshold. S2's Potency arrives next turn. Using a Base Skill and this E.G.O in the same turn also requires multiple action slots.",
+    "蜘蛛の巣人差し指の親方: 3つの攻撃スキルが沈潜を付与し、憂鬱・傲慢の資源も出せる。火傷は別の手段で補う。": "**[The House of Spiders: The Index Nursefather](persona:0115)**: All 3 attack skills inflict Sinking, and he supplies Gloom and Pride resources. Burn needs another source."
+  }
+}

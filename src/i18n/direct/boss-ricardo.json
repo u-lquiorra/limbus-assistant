@@ -1,0 +1,1040 @@
+{
+  "kind": "boss-copy",
+  "id": "ricardo",
+  "source": "src/data/bosses/ricardo.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "リカルド",
+          "en": "Ricardo",
+          "file": "Enemies-a1c5p2.json",
+          "id": "8099"
+        },
+        {
+          "ja": "末兄",
+          "en": "The Big Brother",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "809901"
+        },
+        {
+          "ja": "頼れる中指末弟",
+          "en": "Sturdy Little Brother of the Middle",
+          "file": "Enemies-a1c5p2.json",
+          "id": "8097"
+        },
+        {
+          "ja": "厳格な中指末弟",
+          "en": "Stern Little Brother of the Middle",
+          "file": "Enemies-a1c5p2.json",
+          "id": "8098"
+        },
+        {
+          "ja": "殴る",
+          "en": "Punching",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809901"
+        },
+        {
+          "ja": "お返し",
+          "en": "Payback",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809903"
+        },
+        {
+          "ja": "威圧",
+          "en": "Domineer",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "809903"
+        },
+        {
+          "ja": "俺の身に刻んでみろ",
+          "en": "Make this Memorable",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809905"
+        },
+        {
+          "ja": "後ろに注意！",
+          "en": "Watch Your Back!",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809906"
+        },
+        {
+          "ja": "全員集合",
+          "en": "Assemble",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809907"
+        },
+        {
+          "ja": "怨恨を噛み締める",
+          "en": "Swear Vengeance",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809908"
+        },
+        {
+          "ja": "俺のヘアクーポォオオオン！！！",
+          "en": "MY HAIR COUPOOOOOOOOOOONS!!!",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809909"
+        },
+        {
+          "ja": "みぞおちを殴る",
+          "en": "Right in the Solar Plexus",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009601"
+        },
+        {
+          "ja": "覚える！",
+          "en": "We Remember!",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009602"
+        },
+        {
+          "ja": "頭を潰す",
+          "en": "Skull Crushing",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009603"
+        },
+        {
+          "ja": "刻む準備",
+          "en": "Ready to Write",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009604"
+        },
+        {
+          "ja": "報復",
+          "en": "Vengeance",
+          "file": "Bufs-a1c5p2.json",
+          "id": "AaCePbBe"
+        },
+        {
+          "ja": "倍返し",
+          "en": "Multifold Retribution",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "9009603"
+        },
+        {
+          "ja": "刻め！",
+          "en": "Write Their Sins!",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009702"
+        },
+        {
+          "ja": "頭を割る",
+          "en": "Skull Bursting",
+          "file": "Skills_Enemy-a1c5p2.json",
+          "id": "9009703"
+        },
+        {
+          "ja": "義理の鎖",
+          "en": "Chains of Loyalty",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "809902"
+        },
+        {
+          "ja": "髪を振り払う",
+          "en": "Brush it Off",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "809904"
+        },
+        {
+          "ja": "ボサボサになった髪",
+          "en": "In the World of Bristly",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "809905"
+        },
+        {
+          "ja": "パニック変更不可",
+          "en": "Fixed Panic",
+          "file": "Bufs-twth.json",
+          "id": "PanicChangeLock"
+        },
+        {
+          "ja": "怨恨の刺青",
+          "en": "Vengeance Tattoo",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "9009601"
+        },
+        {
+          "ja": "些細な怨恨",
+          "en": "Little Vengeance",
+          "file": "Passives_Enemy-a1c5p2.json",
+          "id": "9009602"
+        },
+        {
+          "ja": "兄貴の試験",
+          "en": "Test of the Big Brother",
+          "file": "Bufs-a1c5p2.json",
+          "id": "AaCePbBi"
+        },
+        {
+          "ja": "強迫",
+          "en": "Compulsion",
+          "file": "Bufs-a1c5p1.json",
+          "id": "AaCePaBa"
+        },
+        {
+          "ja": "足蹴",
+          "en": "Kicking",
+          "file": "Skills_Abnormality-a1c5p2.json",
+          "id": "809902"
+        }
+      ],
+      "guideAlias": {
+        "ja": "恨みの刺青",
+        "en": "Vengeance Tattoo",
+        "note": "The guide uses an alternate Japanese label for the shared Middle tattoo effect; the matching game entry is 怨恨の刺青 (9009601)."
+      }
+    }
+  },
+  "scopedTerms": [
+    "殴る",
+    "足蹴",
+    "恨みの刺青"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "d49adfbcfe78e811d48da0d3dbe9e5cf5b48edf955e93986abad728f20483653",
+      "text": "Ricardo"
+    },
+    "shortName": {
+      "sourceHash": "d49adfbcfe78e811d48da0d3dbe9e5cf5b48edf955e93986abad728f20483653",
+      "text": "Ricardo"
+    },
+    "stageName": {
+      "sourceHash": "32f7c9dbf67fa8cd51d51fdc21ae5344c23138ae99665879f2297dc3217c38b1",
+      "text": "The Big Brother"
+    },
+    "lead": {
+      "sourceHash": "911cfacd969f063d65809d3fd458d428972b5c59aab25b750d2b2a35347517e6",
+      "text": "Choose which attacks to take and when to deal damage. Prepare in earlier Waves, then concentrate strong Blunt skills during Test of the Big Brother."
+    },
+    "priorities.0": {
+      "sourceHash": "fbb9ce6b794d16d16c5ad051a76b9dcc8411fc6d48d88952aea0c473301abb57",
+      "text": "Keep at least one ally besides Ishmael alive, and let Ishmael take dangerous single-target attacks."
+    },
+    "priorities.1": {
+      "sourceHash": "ea65792c55c5afaa4685326b6a593023998c09f1528c3032c7e04d3d7b8930ed",
+      "text": "Build SP and E.G.O resources in the first 2 Waves, saving your main units' strong Blunt skills."
+    },
+    "priorities.2": {
+      "sourceHash": "d77127a2094c58614c9b0d2cba6f33156ea928d15ae17dceda5ebe3c2ba80d90",
+      "text": "During Test of the Big Brother, Ricardo takes triple damage. Use this opening to Stagger him and reach 50% HP."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "7c516fb221b3c7afac10fa5f829b741b78a110b45319f75e734a2bd733fa9f9a",
+      "text": "Even E.G.O cannot win the Clashes"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "a3d11e74dd77a9dd4985eecad02c72ae40c2f1221c37adeddd98b3f768b6e00e",
+      "text": "Ricardo's high Offense Level makes his Clashes stronger than the listed rolls suggest. Consider directing strong single-target attacks at Ishmael while Blunt attackers deal unopposed damage."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "59bd14b46c4f887fc4038c6c524f3cce1d6b0c8f69a3dc64d67dcc0440dd9526",
+      "text": "The hair-coupon area attack wipes out your team"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "59d72916c8a8b952e25f459eb07e0f33df46c32d895275cf81b9ed944d3b5f78",
+      "text": "First aim to Stagger him during the Test before it arrives. If you cannot, prepare Blunt/Wrath resistance and Protection. Reducing HP damage does not remove the Stagger Threshold increase, so Guard alone may not keep you safe."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "27dc4fa4ba52cc348ef1f23aba882ac42fd37252dfdf6cef39154b43d322f2bd",
+      "text": "Ishmael is defeated"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "092ea47ec49b4b19f9ceaca56420c16d7da1e802422ac4f71729ad4aab6fdf72",
+      "text": "Her survival condition applies only in 5-30 and requires another ally to remain alive. It cannot prevent an area attack from defeating everyone together. It does not support a plan where Ishmael survives alone indefinitely."
+    },
+    "units.0.name": {
+      "sourceHash": "d49adfbcfe78e811d48da0d3dbe9e5cf5b48edf955e93986abad728f20483653",
+      "text": "Ricardo"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "204c2419be2123e313d94d39e496f409e6aabffa90856650a52e0f4332504b02",
+      "text": "3763 (goal: reach 50% HP)"
+    },
+    "units.0.level": {
+      "sourceHash": "5282e9572b6709185d125f233335b78bc249f5e3669074d6af895f224e4356f7",
+      "text": "Unknown (50 or higher)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "92e502e657eb1718690b15be96753244e5dce0a84fac5219b762e646235289c3",
+      "text": "75% / 50% HP (thresholds reached during this strategy)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "c5ddfd1377bb9bfc9dc640ca5a806cd81dba980c097d9a7d0c71f012636ee8a2",
+      "text": "HP, Level, and other values appear as ??? in-game. HP, Defense Level, and skill levels are based on measurements; skill levels are estimates."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "f360582b6e7c188ca7f6e6e745e02ec8f0702ccd4a5cd848d746cb959a823412",
+      "text": "Victory triggers at the end of the turn when he first reaches 50% HP. You do not need to reduce him to 0 HP."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "919057371555fe657fcf1eef4f3acb9d1c09d1fc943cba3b5c346fd8ad0c8247",
+      "text": "Victory also triggers at the end of turn 9 of Wave 3, but this requires preparing to survive his area attacks."
+    },
+    "units.0.notes.3": {
+      "sourceHash": "cfa6a2fbebb3cdd8b8e36db6526573555272de4873bd830ea2a35e5eb9b5e587",
+      "text": "Stagger does not skip his action pattern. Use it as time to recover."
+    },
+    "units.1.name": {
+      "sourceHash": "46c1190890639bfa89a5c061d63602bdb5cb7dea35d9bcb4124f4ceceb3605bd",
+      "text": "Sturdy Little Brother of the Middle"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "e8aba4e11fbddecd6783cb6a65e92fcf595812eb5bd94cb3027e913bbdda3613",
+      "text": "Appear in the first 2 Waves and as Ricardo's allies. Weak to Blunt."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "1f88e17ec1c9f99be38886bbacd2cc82d1116af845e831732c365ba7300f7ff2",
+      "text": "Defeating them buffs the remaining Middle members, but leaving them alive to keep inflicting Paralyze and Coin debuffs is also dangerous."
+    },
+    "units.2.name": {
+      "sourceHash": "659f84f48424666d77fd579dc8c0f231d89722f8690a2bb621b81345604a6efc",
+      "text": "Stern Little Brother of the Middle"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "e8aba4e11fbddecd6783cb6a65e92fcf595812eb5bd94cb3027e913bbdda3613",
+      "text": "Appear in the first 2 Waves and as Ricardo's allies. Weak to Blunt."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "1f88e17ec1c9f99be38886bbacd2cc82d1116af845e831732c365ba7300f7ff2",
+      "text": "Defeating them buffs the remaining Middle members, but leaving them alive to keep inflicting Paralyze and Coin debuffs is also dangerous."
+    },
+    "phases.0.timing": {
+      "sourceHash": "76072f478d1fcf84330ba671ae8241201592b3ded685190be2de17be678ec3d8",
+      "text": "Waves 1–2"
+    },
+    "phases.0.title": {
+      "sourceHash": "db553525e99d5529e2dee65c4d9db6f6190f129d09dee8413be54897e3417595",
+      "text": "Build SP and save skills for the final Wave"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "d300691092ca0acc486a9cbc01610a1d1ab118cb6d1ce4f5a44a63c740af97df",
+      "text": "Win manageable Clashes to build your main units' SP and the necessary E.G.O resources. The EX condition is simply clearing the stage, so there is no need to rush."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "473d996dce92a5c4eb28701382ae426df3f10e41a54be963a47042e2e762fd38",
+      "text": "Against difficult attacks, unopposed attacks aimed at a Defense slot can Stagger the enemy before it acts. Avoid carrying Paralyze or Plus Coin Drop into next turn."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "e4bba95aade4aca5ada6dd396f6eb7381a26c0acb800a7fb9230a2c1849669a6",
+      "text": "Save strong Blunt skills at the end of Wave 2. Enter Wave 3 with HP remaining on allies besides Ishmael."
+    },
+    "phases.1.timing": {
+      "sourceHash": "808a134d21fcec23a0ff5b88a7557906023e28834d7dea72f64aba30d7a58c5e",
+      "text": "Wave 3 / first turn"
+    },
+    "phases.1.title": {
+      "sourceHash": "f237edb0338b75c719ad9dc8e93df4153b335052acbed187bcd993f52d45bb28",
+      "text": "Stop the adds and protect your main units"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "5ee5ab8bcb3102490b0f5ad0fa78e77b92e25ecabecc938a04f20a6d718f2324",
+      "text": "Let Ishmael take Ricardo's strong attacks. While another ally is alive, her HP cannot fall below 1, but she can still suffer Stagger and statuses."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "889977d074e2be72b77df92f3f3e9e07e641c2a7cd2f9b2573352b92592b416c",
+      "text": "Do not redirect attacks already aimed at Ishmael onto another main unit unnecessarily. For attacks that can be redirected, check Speed and targeting arrows."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "ef7cdbf2e9bd1d8d25fd80ba710a5082a02dcb585351661d6dac2a4ec1145c12",
+      "text": "The adds use strong attacks next turn. Stagger or defeat them with spare slots or area attacks, saving strong skills against Ricardo for the Test."
+    },
+    "phases.2.timing": {
+      "sourceHash": "db780c02621852c2e3ef46511d059d7f2ba44b3ffe827efbb1e995d6b4042abc",
+      "text": "From Make this Memorable onward"
+    },
+    "phases.2.title": {
+      "sourceHash": "9bb19a82d4321cf25bbe5eb97375bdf630ac4127b754993ff45bb3293a34630f",
+      "text": "Wait for Test of the Big Brother, then concentrate damage"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "f0bbd4007e37f1707c454c5ea4ed338f24bb8dd749f47a86b5b598d60deeaa96",
+      "text": "During the Test, Ricardo takes triple skill damage. Use multi-Coin Blunt skills to reach his Stagger Threshold."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "2a47b5d4c6d9ce84f129b5fac1dd6584fa5f8c0533ef8fcd59572b279bc34865",
+      "text": "Offset his Evade with another Sinner's Defense Skill so your main attackers can land their hits. Offsetting does not cancel the Test gained at Combat Start."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "d9b229f2e142c84d6c79984cb258234beec579c2d673043cfa1e2e98e286af03",
+      "text": "The Offense Level gap means you need not force everyone into losing Clashes. Let a durable Sinner take attacks while your other main units attack unopposed."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "277b588dbf50940cb00f2636a1abc62abcba1e313375a2216480b1607e945ae1",
+      "text": "Stagger removes the Test. Choose subsequent skills based on his Stagger state and distance from 50% HP, as well as the remaining Test stacks."
+    },
+    "phases.3.timing": {
+      "sourceHash": "94efd285466ac09e93a1d82710a517462755fd1dbfe3d25e9ae745861d6e7229",
+      "text": "From Swear Vengeance onward"
+    },
+    "phases.3.title": {
+      "sourceHash": "f088e2aa10441654bf822b029287ed898483cae1a9bcea280466af18d8b0c451",
+      "text": "Finish before the area attack"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "48aaacf881e652a9e5e32738e512736d274276bf7eb6a8bbc44c524e0f7e851e",
+      "text": "When another Evade grants the Test, use it as a fresh damage opening. Focus strong Blunt skills to reach 50% HP."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "bbdd69cf96d22eb84d49c14f147819b1ded8748accc40485a3500f2cb70150ac",
+      "text": "When MY HAIR COUPOOOOOOOOOOONS!!! appears, its displayed 20–28 is not the full Clash calculation. Account for the Offense Level gap and buffs based on the target's SP."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "0be4ccc9fb5ade70c22aa6f7db1e0182194ad4343063a4670f7827536c8ba6b0",
+      "text": "For a longer survival strategy, keep someone besides Ishmael resistant to Blunt and Wrath, with ongoing Protection and healing. With a normal team, try ending the fight quickly first."
+    },
+    "skills.0.name": {
+      "sourceHash": "aaca8e97ffd168b211d2acd583d38c564f46ba08f2b01ac5eb6c571a27c3eaee",
+      "text": "Punching"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "a53cad740303fc9782c62bc92f949e146d50945998332e4ee9259da5b4c52fa3",
+      "text": "Ⅰ・Ⅱ：[On Hit] Deal 3 additional Blunt damage."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "d3d37e43c92bb6415319e3fed96ea9afb2bfd955ced403c302e42b6e75818006",
+      "text": "Ⅲ：[On Hit] Inflict 3 Paralyze."
+    },
+    "skills.0.response": {
+      "sourceHash": "8f8ba03e77d50483f7cc5ea5e997eb7bdab8f17b5cc4181b05ddc19eea31e749",
+      "text": "Despite a displayed range of 3–9, its Offense Level is high. Check predictions and choose between winning E.G.O, Evade, or having Ishmael take it."
+    },
+    "skills.1.name": {
+      "sourceHash": "57cb866ffc277c1c0d918f2a3fb16632eef29fd6447699869793c1cf89668c94",
+      "text": "Kicking"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "537a577fd4705e4e87ca4ae6e5c583d19b05103d606773f758e3acd8377fc656",
+      "text": "Ⅰ・Ⅱ：[On Hit] Deal 5 additional Blunt damage."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "7b5b79d80913c960966e654511b63458484afc9e212c38e058d8d330c5ceada7",
+      "text": "Ⅲ：[On Hit] Inflict 3 Paralyze next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "4140eaaaea915f6b4a25fe8f30d26108e3d0c4d7cb35d3fddfca1d4d6bcd184f",
+      "text": "Keep next-turn Paralyze off your main attackers. If you cannot stop it with a Clash, choose who will take the hit."
+    },
+    "skills.2.name": {
+      "sourceHash": "aea355e36941629640847c9d671384d07e147bb5eb372d03c708609174b3baa0",
+      "text": "Payback"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "a132d99b58a8eff03b7be37cfd3356b4aad5026aa27245984f2cdfe90bca27b2",
+      "text": "Ⅱ：[On Hit] Reduce the target's SP by 5."
+    },
+    "skills.2.response": {
+      "sourceHash": "8d1b2fed2c816f5f890e7547e4f0c10d9266a010f17a29abf68e2b0ee2ed1772",
+      "text": "Attacking Ricardo also triggers his Counter. Avoid weak attacks from fragile Sinners before the Test, and check who receives the Counter."
+    },
+    "skills.3.name": {
+      "sourceHash": "fbbf10865387ddddf5005055ece1a536ac9955ebd966bdfeb657a5faf21419bd",
+      "text": "Domineer"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "c136e8e893eea163db466bc7f89e3cb376c8125c55f15099230cd860aa221f3b",
+      "text": "[Combat Start] Grant all enemies 1 Attack Power Up. Inflict 2 Attack Power Down on the 2 Sinners with the lowest SP."
+    },
+    "skills.3.response": {
+      "sourceHash": "75953113cdc5ba7b6d7917a5b4fff691a2d2872a6b346de01347619608205e16",
+      "text": "Clashing cannot cancel these Combat Start buffs and debuffs. Check predictions to see whether your main units' power has fallen."
+    },
+    "skills.4.name": {
+      "sourceHash": "7631fcd6396de66a32a9e148aa48eb01fd984f27c8af19b0529701044be41540",
+      "text": "Make this Memorable"
+    },
+    "skills.4.label": {
+      "sourceHash": "18b9cc7e62fd53ddee8fb70ff1f7b06aff47c7039cd9b73d04fd8c76856001a4",
+      "text": "Damage opening"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "85563144840d169477991fb141669531b11fd0341fe5cb7c9b26472866041d58",
+      "text": "[Combat Start] Gain 2 Test of the Big Brother. Gain 5 Bind next turn."
+    },
+    "skills.4.response": {
+      "sourceHash": "aea4f04e7e0f1d7d75975c93fe2a5bd56c1fb9c52f5158db842d43818d07b6b7",
+      "text": "Offset the Evade with a separate Defense slot, then concentrate Blunt skills. The Test applies at Combat Start and remains after offsetting."
+    },
+    "skills.5.name": {
+      "sourceHash": "aa9f8fbf9bd3a8368dcec3dfb2c2f86ab71466da0a51fd5871cfdce226b9ada6",
+      "text": "Watch Your Back!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "4b2edf25b18ac5957401bd4671e1abd72928f17b7147e7b7f85664995d0dca4e",
+      "text": "If the target's SP is below 0, gain +3 Coin Power."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "8d4349439477e733f5d39c6d7d9045b530e3ad7bf31e66ab0931b1810cd76f7c",
+      "text": "Ⅰ：[On Hit] Heal 10 own SP; inflict 2 Bind and 2 Attack Power Down on the target next turn."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "77b63bf3a9e91497d112962c570967caa706a7c1196e838f50423265ae36ff8e",
+      "text": "Ⅱ：[On Hit] Reduce the target's SP by 20."
+    },
+    "skills.5.response": {
+      "sourceHash": "f6677591384e4f6a0988f9d85f50ec35ebd35802a48b5943c0302732038d1368",
+      "text": "A powerful single-target attack. Letting Ishmael take it while other main units attack is a useful alternative to forcing a losing Clash."
+    },
+    "skills.6.name": {
+      "sourceHash": "f72a48c973e75a3635c2cd9f1feb224c51726168fae841ec7434217324838499",
+      "text": "Assemble"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "f44d31726a1e9256425fe4a959971e0be7f26b81a23a3756e8062dcf91c141e5",
+      "text": "[Combat Start] Summon 2 adds next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "8d739373166083afa0785bfa0219a8756ed7903171e269ce91470502b5019f86",
+      "text": "The summon is not an [On Hit] effect. Plan for more Little Brothers next turn even if you stop this attack."
+    },
+    "skills.7.name": {
+      "sourceHash": "c4134992016fee982247fcfd4eea4dc696429afbf913a338359e885945adeacf",
+      "text": "Swear Vengeance"
+    },
+    "skills.7.label": {
+      "sourceHash": "770b9b586f08a889bc9d2d098b16d45fd2cd3515360a6933e2b65e5c1971bbbe",
+      "text": "Another Test"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "dcc5c61463c35d515e5a4fd944c5a9469e7fda78e94257e5e81612090f2373c7",
+      "text": "[Combat Start] Gain 2 Test of the Big Brother. Gain 5 Bind and 5 Damage Up next turn."
+    },
+    "skills.7.response": {
+      "sourceHash": "8ab3489cced54c5dfed274de2705d3405cca0dd17f5cdc1c37f5c122fae30781",
+      "text": "Offset with a Defense Skill before attacking. The area attack is approaching, so aim for Stagger or 50% HP now."
+    },
+    "skills.8.name": {
+      "sourceHash": "fc75387bbd69c067f1903aff83b2f52467608eebf8fa9e94e58889108c7deb3c",
+      "text": "MY HAIR COUPOOOOOOOOOOONS!!!"
+    },
+    "skills.8.label": {
+      "sourceHash": "26858dd22745397b321a5ff19be45453c5a4de28c8a2775146d102db70a59d62",
+      "text": "Dangerous area attack"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "f4e357a4902fc3da7f5080ee152680a238c0c3c4e4fcead263e3d29dd0348225",
+      "text": "If the main target's SP is below 0, gain +5 Final Power."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "ded75fb5b25f0864fc83e1d33fde9b7811054d675a8ebba2e0afced98a418841",
+      "text": "Ⅰ：[On Hit] Raise the Stagger Threshold by 30 and inflict 1 Paralyze next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "ec2e8b5cc4038584b5bb5d5c355639ebedeed8ddec4595247df73de7ad112e65",
+      "text": "The Offense Level gap makes this especially powerful. Aim to Stagger him before it arrives. Surviving it requires Blunt/Wrath resistance or Protection; Ishmael alone cannot protect everyone."
+    },
+    "skills.9.name": {
+      "sourceHash": "c0f42febc5dd42954e6b93b7697d699a1834b163daaa25a9ca9d2c200f44f25a",
+      "text": "Right in the Solar Plexus"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "ae98a6907068b9b93c26ba58814ed72409434e438451ab36258ad3c815097abf",
+      "text": "Ⅰ：[Heads Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "c89e5ceeef9ca20357d63d838dc9052c828c15b5428130196122c94b34476220",
+      "text": "Prevent Paralyze from weakening next turn's Clashes. Also a manageable early Clash for building SP."
+    },
+    "skills.10.name": {
+      "sourceHash": "c1f0fc0826b2575f686795165a002bb58cc455183b63179137697d15c179eb3a",
+      "text": "We Remember!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "f147e5c65b6c3618a1927316974cae9553acca05fa81dcfdcc4c5abb68eac2b9",
+      "text": "[Clash Lose] Gain 1 Damage Up next turn."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "e8e8107b3557595c67f067f8d699f00c128a0166ae877bb7b26077ab65df93d4",
+      "text": "Ⅰ：[On Hit] Inflict 2 Bind next turn."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "050dd623e30cab3aee220872f5a50038f0cb4c9bd0ae29444707437edd8e70e7",
+      "text": "Ⅱ：[On Hit] Deal additional fixed damage equal to the number of allied Middle members defeated this Wave."
+    },
+    "skills.10.response": {
+      "sourceHash": "0a438660c86665b4f8163b6038e4fd4f4ecbc5a11a43bf43205727435ba0cb3a",
+      "text": "Check next turn's buffs even after winning. More defeated Little Brothers also means more fixed damage."
+    },
+    "skills.11.name": {
+      "sourceHash": "80c28ab5f553cdfa8625da980315d73df45b9fdac758b707dbb391d3c31ebecb",
+      "text": "Skull Crushing"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "041314ab36fae40478bc71473b7ee080f837e1c9df062c971fd26ff1e4cc803c",
+      "text": "Ⅰ：[Heads Hit] Inflict 1 Attack Power Down next turn."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "bc67ed6df7106410f2478b36bf5c67b341cacb3b7a78596807e09198b58b6dcc",
+      "text": "Ⅱ：[On Hit] Inflict 2 Paralyze next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "1b5089f2bf0e64e84124d39be20ed3020684c82755d37a2cea93653f0b7134db",
+      "text": "Stop it with a strong skill or Stagger the enemy before it acts. Avoid forcing a weak skill into the Clash and taking its debuffs."
+    },
+    "skills.12.name": {
+      "sourceHash": "dd6fb661850f9626856a3b7c2c6faf08efbdea5ce7646247240e82acd9a36434",
+      "text": "Ready to Write"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "e14a73c6434d95e3aea131482f7050581315bde20cd60f012f9bd5066fc775a4",
+      "text": "[Turn End] If Shield remains, gain 1 Attack Power Up next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "b351201489c7fcd924c07068f012751cfff550fb87cbe1276818e4a381b26ddd",
+      "text": "Besides stopping Attack Skills, you can target its Defense slot to Stagger or defeat it."
+    },
+    "skills.13.name": {
+      "sourceHash": "abaeb3870d82a05fccca9eaffb9c46a9a7892cab19c13c638516b114c51ac2c2",
+      "text": "Vengeance"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "f147e5c65b6c3618a1927316974cae9553acca05fa81dcfdcc4c5abb68eac2b9",
+      "text": "[Clash Lose] Gain 1 Damage Up next turn."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "32d58ddb3f57fb5fd668b4446e9b3ee63a96b5edac9091f10c0ef2c859814b8c",
+      "text": "Ⅱ：[On Hit] Inflict 2 Paralyze next turn. [Tails Hit] Raise the Stagger Threshold by 8."
+    },
+    "skills.13.response": {
+      "sourceHash": "93283431e15e2bfd2a75fa3de766a7cf8660c8dd2701eee9c7cc879a47d6a311",
+      "text": "Its negative Coins roll higher more often at low SP. Choose its opponent based on enemy SP and current predictions."
+    },
+    "skills.14.name": {
+      "sourceHash": "be349ef49e1f7b8bd6024591418468ad0cc38352d7d3790bf86ae7c844b35524",
+      "text": "Multifold Retribution"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "a5e8ca91c958b0e1aa1519df7580c9ec8f880708cf26563ad9ead4a70cec2b76",
+      "text": "Ⅰ：[On Hit] Raise the Stagger Threshold by 30, deal 20 fixed damage, and inflict 3 Paralyze next turn."
+    },
+    "skills.14.response": {
+      "sourceHash": "ca4f6ced0474c728c70335a924ac62c792382d7be64374f96fe7cea4752386e7",
+      "text": "Do not hit a Countering enemy with a fragile main attacker. Consider Staggering or defeating it before it attacks, or letting Ishmael take the Counter."
+    },
+    "skills.15.name": {
+      "sourceHash": "c0f42febc5dd42954e6b93b7697d699a1834b163daaa25a9ca9d2c200f44f25a",
+      "text": "Right in the Solar Plexus"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "ae98a6907068b9b93c26ba58814ed72409434e438451ab36258ad3c815097abf",
+      "text": "Ⅰ：[Heads Hit] Inflict 1 Paralyze next turn."
+    },
+    "skills.15.response": {
+      "sourceHash": "c89e5ceeef9ca20357d63d838dc9052c828c15b5428130196122c94b34476220",
+      "text": "Prevent Paralyze from weakening next turn's Clashes. Also a manageable early Clash for building SP."
+    },
+    "skills.16.name": {
+      "sourceHash": "6d73280e041801044d25049b136e137cc6a164b5541e7be31cbdab3159c0fd2e",
+      "text": "Write Their Sins!"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "f147e5c65b6c3618a1927316974cae9553acca05fa81dcfdcc4c5abb68eac2b9",
+      "text": "[Clash Lose] Gain 1 Damage Up next turn."
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "4a7e1f256aa3afea1aca7002209be01574f41095db124d744ffeab397482cba5",
+      "text": "Ⅰ：[On Hit] Inflict 2 Damage Down next turn."
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "050dd623e30cab3aee220872f5a50038f0cb4c9bd0ae29444707437edd8e70e7",
+      "text": "Ⅱ：[On Hit] Deal additional fixed damage equal to the number of allied Middle members defeated this Wave."
+    },
+    "skills.16.response": {
+      "sourceHash": "0a438660c86665b4f8163b6038e4fd4f4ecbc5a11a43bf43205727435ba0cb3a",
+      "text": "Check next turn's buffs even after winning. More defeated Little Brothers also means more fixed damage."
+    },
+    "skills.17.name": {
+      "sourceHash": "49a4c51a4190d21a56f91b94bcbc71f1edd7ca1db4f13e70e9dadec158b50b16",
+      "text": "Skull Bursting"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "5e5a4b60fab6ac506209538bceca80684eb162308481771059b1b0748bda84bc",
+      "text": "Ⅰ：[Heads Hit] Inflict 1 Plus Coin Drop next turn."
+    },
+    "skills.17.effects.1": {
+      "sourceHash": "f5e2e32b19540b99c5864c74d67a4b6a235596528d393d0d443fb2a3bb880274",
+      "text": "Ⅱ：[On Hit] Inflict 1 Plus Coin Drop next turn."
+    },
+    "skills.17.response": {
+      "sourceHash": "1b5089f2bf0e64e84124d39be20ed3020684c82755d37a2cea93653f0b7134db",
+      "text": "Stop it with a strong skill or Stagger the enemy before it acts. Avoid forcing a weak skill into the Clash and taking its debuffs."
+    },
+    "skills.18.name": {
+      "sourceHash": "dd6fb661850f9626856a3b7c2c6faf08efbdea5ce7646247240e82acd9a36434",
+      "text": "Ready to Write"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "e14a73c6434d95e3aea131482f7050581315bde20cd60f012f9bd5066fc775a4",
+      "text": "[Turn End] If Shield remains, gain 1 Attack Power Up next turn."
+    },
+    "skills.18.response": {
+      "sourceHash": "b351201489c7fcd924c07068f012751cfff550fb87cbe1276818e4a381b26ddd",
+      "text": "Besides stopping Attack Skills, you can target its Defense slot to Stagger or defeat it."
+    },
+    "skills.19.name": {
+      "sourceHash": "abaeb3870d82a05fccca9eaffb9c46a9a7892cab19c13c638516b114c51ac2c2",
+      "text": "Vengeance"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "f147e5c65b6c3618a1927316974cae9553acca05fa81dcfdcc4c5abb68eac2b9",
+      "text": "[Clash Lose] Gain 1 Damage Up next turn."
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "32d58ddb3f57fb5fd668b4446e9b3ee63a96b5edac9091f10c0ef2c859814b8c",
+      "text": "Ⅱ：[On Hit] Inflict 2 Paralyze next turn. [Tails Hit] Raise the Stagger Threshold by 8."
+    },
+    "skills.19.response": {
+      "sourceHash": "93283431e15e2bfd2a75fa3de766a7cf8660c8dd2701eee9c7cc879a47d6a311",
+      "text": "Its negative Coins roll higher more often at low SP. Choose its opponent based on enemy SP and current predictions."
+    },
+    "skills.20.name": {
+      "sourceHash": "be349ef49e1f7b8bd6024591418468ad0cc38352d7d3790bf86ae7c844b35524",
+      "text": "Multifold Retribution"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "a5e8ca91c958b0e1aa1519df7580c9ec8f880708cf26563ad9ead4a70cec2b76",
+      "text": "Ⅰ：[On Hit] Raise the Stagger Threshold by 30, deal 20 fixed damage, and inflict 3 Paralyze next turn."
+    },
+    "skills.20.response": {
+      "sourceHash": "ca4f6ced0474c728c70335a924ac62c792382d7be64374f96fe7cea4752386e7",
+      "text": "Do not hit a Countering enemy with a fragile main attacker. Consider Staggering or defeating it before it attacks, or letting Ishmael take the Counter."
+    },
+    "passives.0.name": {
+      "sourceHash": "ebfc0ce065ea63d73e5e8e0d73a88bee6dacf480abd9e211a1c6ed063a740546",
+      "text": "Vengeance Tattoo"
+    },
+    "passives.0.condition": {
+      "sourceHash": "e621470f6d0b5be84c663fee9dceed4cc5313871137cb61e45a88dfebba6b7fe",
+      "text": "Whenever an allied Middle member is defeated"
+    },
+    "passives.0.effect": {
+      "sourceHash": "6fe3c3c99ad1dedbaeaeace5942da6e9312b3673d51fabe0b7b8ed969f05e2d2",
+      "text": "Gain 1 Offense Level Up for the rest of the battle, up to 5."
+    },
+    "passives.0.response": {
+      "sourceHash": "3f75bf6f9bd1933aebfbe1a4603b0519963f0bd7dbfb66a68c9b38e1dce95562",
+      "text": "Defeating Little Brothers also strengthens Ricardo. Follow add cleanup with focused damage during the Test."
+    },
+    "passives.1.name": {
+      "sourceHash": "32f7c9dbf67fa8cd51d51fdc21ae5344c23138ae99665879f2297dc3217c38b1",
+      "text": "The Big Brother"
+    },
+    "passives.1.condition": {
+      "sourceHash": "1b89f4ba60d955b69d8d0b4f3a5d0ffc916ca7fbecbb2f8922421aef6de1b777",
+      "text": "Turn Start"
+    },
+    "passives.1.effect": {
+      "sourceHash": "5f7d9653978db585e08176ee9afb3be3566599294d5b72a2c2ee175bd2b7fd94",
+      "text": "Heal 10 SP for all enemies, including this unit."
+    },
+    "passives.1.response": {
+      "sourceHash": "ffce99714e48d7bba2359fa1d089574781346b7cb96d41593792733d917d019d",
+      "text": "A longer fight lets the enemy maintain high SP. Aim for Stagger and Blunt damage rather than trying to break them through Clashes alone."
+    },
+    "passives.2.name": {
+      "sourceHash": "3ef4672b646aeeda47d81be82b1b8fca64ffb0f462604a116a1a2cf4d1af3262",
+      "text": "Chains of Loyalty"
+    },
+    "passives.2.condition": {
+      "sourceHash": "597e2ed9b70401bc481755135a46e0c7dd5b07ae2db1fb4c24191c6fd85cb84e",
+      "text": "An allied Middle member is defeated"
+    },
+    "passives.2.effect": {
+      "sourceHash": "914a7b6ed8bd00d06339adc8792f2cff3831242f4fd5543d00e460db277aaf65",
+      "text": "Gain 1 Plus Coin Boost next turn, up to 2."
+    },
+    "passives.2.response": {
+      "sourceHash": "e606be613e5de9e367df9c1cc77911e1ced0c244cd74a03e171647a9ca01cebb",
+      "text": "The turn after defeating a Little Brother is stronger than usual. Recheck predictions."
+    },
+    "passives.3.name": {
+      "sourceHash": "fbbf10865387ddddf5005055ece1a536ac9955ebd966bdfeb657a5faf21419bd",
+      "text": "Domineer"
+    },
+    "passives.3.condition": {
+      "sourceHash": "fa9c36e6cf78d7a05958d52be3ea84ada3b85b7dbd718ede7f8012e378d5614c",
+      "text": "A skill attacking Ricardo deals less than 12 damage"
+    },
+    "passives.3.effect": {
+      "sourceHash": "b97bfec7e2524aecf2a979bc62e944ed2324228581f2ae6f285199480a9ef7ac",
+      "text": "Reduce the attacker's SP by 10."
+    },
+    "passives.3.response": {
+      "sourceHash": "4510d59e1321c0672ceb9d25f027b5e03721f0500aaf160f624320f9a5f47346",
+      "text": "Scattering weak attacks costs SP. Build your plan around strong Blunt attacks during the Test."
+    },
+    "passives.4.name": {
+      "sourceHash": "e22c37ac4947d07cdac02b10cd3e8fdf7116c48a4fdc234ef6d094a9ec6ff124",
+      "text": "Brush it Off"
+    },
+    "passives.4.condition": {
+      "sourceHash": "a9d87347e0160190e429ffc2809a3df833addbcafe9af8ed8c7159f025d34b31",
+      "text": "Enters Panic"
+    },
+    "passives.4.effect": {
+      "sourceHash": "aaf523c7b2715fb4a479814bace260d33b237c20b91de4bf35f3a49e45a24b49",
+      "text": "At the next Turn Start, remove Panic and reset SP to 0."
+    },
+    "passives.4.response": {
+      "sourceHash": "e3dfbae6868c52456ba83ad69c612ce126220d6586e9ff7b2b9161efcef796a0",
+      "text": "Do not assume SP loss alone will keep him disabled for long."
+    },
+    "passives.5.name": {
+      "sourceHash": "b655a1a6926e350b66f1c49d95874e961efa5ba32eabe7ae5371dbd7591a6a6b",
+      "text": "In the World of Bristly"
+    },
+    "passives.5.condition": {
+      "sourceHash": "36438fe1312f5cdc9b153c3738c28abf0969b7654852741c694a73db0f1c907f",
+      "text": "Loses 3 Clashes"
+    },
+    "passives.5.effect": {
+      "sourceHash": "875212e0a4054ec3480330e735a8f43b04eb1f64322f416989a02ee353c94826",
+      "text": "Gain 6 Defense Level Down next turn."
+    },
+    "passives.5.response": {
+      "sourceHash": "32b4f1ca6a6e0fc1813f54e2fbff063e77f93491fce1aaa2718a86e664682d04",
+      "text": "Winning manageable Clashes still helps, but do not force extra losing Clashes just to chase this effect."
+    },
+    "passives.6.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.6.condition": {
+      "sourceHash": "7d9caf2ce4a85980e565c6037ecefaf8fd9bb8b13d24f2f93763e337cc241206",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.6.effect": {
+      "sourceHash": "e6d94b9ccc17d5f4babb331c09d8884a970ef04e78c1f26cfb99cbe5c01baf5b",
+      "text": "Panic Type stays unchanged; apply the effects intended for enemies without SP instead."
+    },
+    "passives.6.response": {
+      "sourceHash": "919c7165ac4d5667c48554e55ef99be8d650eb1775e87bcc47c06d1d7f45adec",
+      "text": "Do not base the strategy on changing Panic Type."
+    },
+    "passives.7.name": {
+      "sourceHash": "0559f7b5c7b7f66fcfd75d4c36175074fd49605c394f7d9ff8f036dc6e04da45",
+      "text": "Vengeance Tattoo"
+    },
+    "passives.7.condition": {
+      "sourceHash": "e621470f6d0b5be84c663fee9dceed4cc5313871137cb61e45a88dfebba6b7fe",
+      "text": "Whenever an allied Middle member is defeated"
+    },
+    "passives.7.effect": {
+      "sourceHash": "6fe3c3c99ad1dedbaeaeace5942da6e9312b3673d51fabe0b7b8ed969f05e2d2",
+      "text": "Gain 1 Offense Level Up for the rest of the battle, up to 5."
+    },
+    "passives.7.response": {
+      "sourceHash": "ad9db5550ca651824248180b238fd2f89d8479bcebc143e6c8c63cd8a446f2f3",
+      "text": "Check the remaining Little Brothers' attacks too."
+    },
+    "passives.8.name": {
+      "sourceHash": "bd19f08a67abda5da7954bda3c707c20d23f37a47f5e05a2c9c4c78a267bb2e1",
+      "text": "Little Vengeance"
+    },
+    "passives.8.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.8.effect": {
+      "sourceHash": "49713b5c11ce21517f2b95a02d184aeb95a06d35c0217476277fa72790942e12",
+      "text": "Gain 1 Minus Coin Boost next turn, up to twice per turn."
+    },
+    "passives.8.response": {
+      "sourceHash": "f12bb7fb2d38ddb902f06837883c2a6e04b4e048cf0085426910f2114addb182",
+      "text": "Negative-Coin Vengeance becomes dangerous when low SP and buffs combine."
+    },
+    "passives.9.name": {
+      "sourceHash": "3ef4672b646aeeda47d81be82b1b8fca64ffb0f462604a116a1a2cf4d1af3262",
+      "text": "Chains of Loyalty"
+    },
+    "passives.9.condition": {
+      "sourceHash": "597e2ed9b70401bc481755135a46e0c7dd5b07ae2db1fb4c24191c6fd85cb84e",
+      "text": "An allied Middle member is defeated"
+    },
+    "passives.9.effect": {
+      "sourceHash": "36fe6f92c56cbf4b0a9ab957250823fb5006f7b655e4c90631b319392f77c1e8",
+      "text": "Gain 1 Plus Coin Boost next turn."
+    },
+    "passives.9.response": {
+      "sourceHash": "cc5e21982bc4184649eb4ad2d2165a6bbeece82ef005157d7a083a19b975f653",
+      "text": "Fewer enemies does not necessarily mean weaker Clashes."
+    },
+    "passives.10.name": {
+      "sourceHash": "0559f7b5c7b7f66fcfd75d4c36175074fd49605c394f7d9ff8f036dc6e04da45",
+      "text": "Vengeance Tattoo"
+    },
+    "passives.10.condition": {
+      "sourceHash": "e621470f6d0b5be84c663fee9dceed4cc5313871137cb61e45a88dfebba6b7fe",
+      "text": "Whenever an allied Middle member is defeated"
+    },
+    "passives.10.effect": {
+      "sourceHash": "6fe3c3c99ad1dedbaeaeace5942da6e9312b3673d51fabe0b7b8ed969f05e2d2",
+      "text": "Gain 1 Offense Level Up for the rest of the battle, up to 5."
+    },
+    "passives.10.response": {
+      "sourceHash": "ad9db5550ca651824248180b238fd2f89d8479bcebc143e6c8c63cd8a446f2f3",
+      "text": "Check the remaining Little Brothers' attacks too."
+    },
+    "passives.11.name": {
+      "sourceHash": "bd19f08a67abda5da7954bda3c707c20d23f37a47f5e05a2c9c4c78a267bb2e1",
+      "text": "Little Vengeance"
+    },
+    "passives.11.condition": {
+      "sourceHash": "2bb94b4ed38c15dd72df6c2ec2ec15ab576784a56633578f371968eb7c2cfaf8",
+      "text": "On Clash Lose"
+    },
+    "passives.11.effect": {
+      "sourceHash": "49713b5c11ce21517f2b95a02d184aeb95a06d35c0217476277fa72790942e12",
+      "text": "Gain 1 Minus Coin Boost next turn, up to twice per turn."
+    },
+    "passives.11.response": {
+      "sourceHash": "f12bb7fb2d38ddb902f06837883c2a6e04b4e048cf0085426910f2114addb182",
+      "text": "Negative-Coin Vengeance becomes dangerous when low SP and buffs combine."
+    },
+    "passives.12.name": {
+      "sourceHash": "3ef4672b646aeeda47d81be82b1b8fca64ffb0f462604a116a1a2cf4d1af3262",
+      "text": "Chains of Loyalty"
+    },
+    "passives.12.condition": {
+      "sourceHash": "597e2ed9b70401bc481755135a46e0c7dd5b07ae2db1fb4c24191c6fd85cb84e",
+      "text": "An allied Middle member is defeated"
+    },
+    "passives.12.effect": {
+      "sourceHash": "36fe6f92c56cbf4b0a9ab957250823fb5006f7b655e4c90631b319392f77c1e8",
+      "text": "Gain 1 Plus Coin Boost next turn."
+    },
+    "passives.12.response": {
+      "sourceHash": "cc5e21982bc4184649eb4ad2d2165a6bbeece82ef005157d7a083a19b975f653",
+      "text": "Fewer enemies does not necessarily mean weaker Clashes."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "f4c152dcb12a47714e84e231591547b1289cbd666b3edc371dac24f5cacd2d8a",
+      "text": "Test of the Big Brother"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "8b078d74c386a8a211d848200407f73064f7624ea62ad31469b89f4f5977ce55",
+      "text": "Take triple skill damage and triple Stagger Threshold damage from Tremor Burst. Decrease by 1 at Turn End. Removed on Stagger. If it expires without Stagger, gain 5 Damage Up next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "cc37e93dc28be14cb33bb0fe60114e791f713a589486eeb85d31f887927b3744",
+      "text": "Concentrate strong Blunt skills during this window. After Stagger removes it, stop calculating damage with the triple multiplier."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "3fa45d5e8209050e8468038f5534af1e7501a9b5f800bc11c6b5966a3ea9371c",
+      "text": "Compulsion"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "a6801ddb68cd1280ab62b233ffb66329d3e281546acb653b46f19fb535e0db19",
+      "text": "Ishmael starts combat at -25 SP. At Turn Start, if her SP is below 0, gain 3 Attack Power Up."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "51b1ffa500c60aadb3c93b6952d9d5587619616ea3efb9f86c60f73d7a31a8ec",
+      "text": "Negative SP lowers Heads odds on Plus Coins. Do not assign too many Clashes to her based only on the power buff."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "d6ce99d74b61c5755291edc4c39f1cf97cbc93c0e20fbdbdb205ae532c36d80d",
+      "text": "5-30 survival condition"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "a5cedb76f6b2a68c0d29e62598b3aeaf5cc950e7ef3f1fdea7ff6921b6db2b51",
+      "text": "While another ally is alive, Ishmael's HP cannot fall below 1. She cannot retreat. This does not protect her if an area attack defeats her together with all remaining allies."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "9464a98785ed69f74b447eeea6c83a1d6eb49a94bbf2facdea74c8dbc78992af",
+      "text": "Always protect at least one survivor besides Ishmael. This condition does not carry into later fights such as Ahab."
+    },
+    "warnings.0": {
+      "sourceHash": "5e1bcefead4900897c53b2448451066d77a9fafbd7b982f7757b319945c40538",
+      "text": "Attacking Ricardo triggers his Counter. Avoiding his Clashes does not guarantee fragile attackers can deal damage safely."
+    },
+    "warnings.1": {
+      "sourceHash": "e777c9036ee045fc9d8d59bccd944b41ab0178d1cf1419bed74c5c75e6aa3059",
+      "text": "Offsetting Evade does not remove Combat Start buffs. You can still use Test of the Big Brother."
+    },
+    "warnings.2": {
+      "sourceHash": "19e9b9897cf5e1d6e1bbe03a0442184609283cb53e3bd23993f3c0dcdad4c421",
+      "text": "Victory triggers at 50% HP or at the end of turn 9 of Wave 3. A survival strategy is possible, but waiting without suitable Protection, healing, and resistances is dangerous."
+    },
+    "warnings.3": {
+      "sourceHash": "e968784861ad5be8ebc2e64efdb049ebafeac779c967870e3c34acbc65199873",
+      "text": "This guide is separate from Ricardo's Reflectrial. Do not apply Ishmael's survival condition here to other content."
+    },
+    "preparation.0": {
+      "sourceHash": "f717e43c429efebd46964f5c1c297a90029901069056e78badbb2b9d4ae3b866",
+      "text": "Aim for the recommended Level 40, starting with strong Blunt Identities. Check their skills and passives through Uptie III too."
+    },
+    "preparation.1": {
+      "sourceHash": "652240e13fc066b8a16187a83f369042da457d00a49d237b888b16549236ef24",
+      "text": "Ishmael is mandatory. Provided another ally survives, she can take attacks even if underleveled."
+    },
+    "preparation.2": {
+      "sourceHash": "80f82857f47135f1c0b1525b988790508634916781ade218555a72fe21dc26e5",
+      "text": "Prioritize Blunt resistance and check Wrath/Envy Sin resistances too, including resistance changes after using E.G.O."
+    },
+    "preparation.3": {
+      "sourceHash": "cfc7f69f385d0ff4e500661fd42ec2bb12e9e0477a1bd6b48c3c19b13226a771",
+      "text": "If few Sinners are trained, you can deploy 4–5 and gain extra action slots in deployment order. Keep your defender and Blunt damage rather than removing units indiscriminately."
+    },
+    "roles.0.name": {
+      "sourceHash": "7c992c0774ee8103a1617974fda1a32d30d19f297e1ba760355ab7f674a345dc",
+      "text": "Ishmael as the single-target defender"
+    },
+    "roles.0.reason": {
+      "sourceHash": "cba80ebee79282795e829670ceb3e9d95ba75d4779f74e22172954933a07dff2",
+      "text": "Secure Speed and action slots to redirect attacks away from main attackers while also keeping other allies alive."
+    },
+    "roles.1.name": {
+      "sourceHash": "8b874a9f4a9b9e2cc691f6e0969f83da67781fe2d09e121b0e65eabab82e6fde",
+      "text": "Blunt attacker for the Test window"
+    },
+    "roles.1.reason": {
+      "sourceHash": "d0f0c8441e3f2c4f3a3625f7ce87a90748438644b3d50ac9f5bcfae913a885f8",
+      "text": "Save high-power multi-Coin skills for this opening. If borrowing Support, choose an Identity with suitable Blunt damage and resistances."
+    },
+    "roles.2.name": {
+      "sourceHash": "dd6b021a4cf21020075f75c7ac7e97336fd9530c1b270b04d5d88c5ebd71e12f",
+      "text": "Evade offsetting / Protection / debuffs"
+    },
+    "roles.2.reason": {
+      "sourceHash": "9f99b436bae2758dbee004479e47577b70289d179eb4e4830a12dcc7c29a9884",
+      "text": "Help main attackers land their hits, using Attack Power Down or Protection to limit damage when needed."
+    }
+  },
+  "messages": {
+    "boss-copy:ricardo": "complete",
+    "【リンバス】5-30 リカルドの攻略｜Limbus Assistant": "5-30 Ricardo Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-30「リカルド」の攻略。全攻撃にマッチするより、受ける攻撃と攻める時間を決めよう。前のウェーブで準備し、「兄貴の試験」の間に打撃の強いスキルを集中する。": "Ricardo guide for Limbus Company 5-30. Choose which attacks to take and when to deal damage. Prepare in earlier Waves, then concentrate strong Blunt skills during Test of the Big Brother.",
+    "5-30 リカルド": "5-30 Ricardo",
+    "5-30「The Big Brother」": "5-30 · The Big Brother",
+    "リカルドの外見": "Ricardo appearance",
+    "リカルドのスキル": "Ricardo skills",
+    "Ricardoの外見": "Ricardo appearance",
+    "Ricardoのスキル": "Ricardo skills",
+    "頼れる中指末弟の外見": "Sturdy Little Brother of the Middle appearance",
+    "頼れる中指末弟のスキル": "Sturdy Little Brother of the Middle skills",
+    "Sturdy Little Brother of the Middleの外見": "Sturdy Little Brother of the Middle appearance",
+    "Sturdy Little Brother of the Middleのスキル": "Sturdy Little Brother of the Middle skills",
+    "厳格な中指末弟の外見": "Stern Little Brother of the Middle appearance",
+    "厳格な中指末弟のスキル": "Stern Little Brother of the Middle skills",
+    "Stern Little Brother of the Middleの外見": "Stern Little Brother of the Middle appearance",
+    "Stern Little Brother of the Middleのスキル": "Stern Little Brother of the Middle skills"
+  }
+}

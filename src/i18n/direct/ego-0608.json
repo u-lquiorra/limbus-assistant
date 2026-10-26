@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0608.md",
+  "code": "0608",
+  "messages": {
+    "埋花櫼を得て自傷のタイムリミットを作り、致死の場面で加重値7の広域「汚血泣涙-終」を叩き込む暴食貫通のE.G.O。": "A Gluttony Pierce E.G.O that gains Flower-burying Wedge to set a self-damage time limit, then slams in the 7-Attack-Weight Tears of the Tarnished Blood - The End [終] at the lethal moment.",
+    "汚血泣涙-始: マッチ不可・敵に当たらないスキルで、使用後に埋花櫼を得る。最終威力ぶんの固定ダメージを自分が受けるが、混乱や体力1未満にはならない。": "**Tears of the Tarnished Blood - Inception [始]**: A skill that cannot Clash and does not hit enemies; after use, he gains Flower-burying Wedge. He takes fixed damage equal to its Final Power, but is not staggered and does not drop below 1 HP.",
+    "埋花櫼と汚血: 埋花櫼はターン終了ごとに最大3まで増え、数値1につき攻撃レベル+2・防御レベル-2。最左の基本攻撃が破壊不能コインになり、3以上で汚血を得る(戦闘1回)。汚血は毎ターン、数値1につき最大体力の20%を削る。": "**Flower-burying Wedge and Tarnished Blood**: Flower-burying Wedge increases at each Turn End up to 3, with +2 Offense Level and −2 Defense Level per point. His leftmost basic attack gains Unbreakable Coins, and at 3 or more he gains Tarnished Blood (once per battle). Tarnished Blood removes 20% of max HP per point every turn.",
+    "汚血泣涙-終: 体力が0になるダメージを受けると、体力1で踏みとどまり、そのターンの最後に発動する。加重値7・4コインで資源を消耗せず、埋花櫼と汚血が多いほどダメージ量が増え、汚血が溜まるほど加重値と基本威力も上がる。使用後は死亡する。": "**Tears of the Tarnished Blood - The End [終]**: When he takes damage that would bring his HP to 0, he holds on at 1 HP and it activates at the end of that turn. 7 Attack Weight and 4 Coins with no resource cost; the more Flower-burying Wedge and Tarnished Blood he has, the more damage it deals, and its Attack Weight and Base Power also rise with Tarnished Blood. He dies after use.",
+    "破裂との連動: メインターゲットの破裂が5以上でコイン威力が上がり、的中時に破裂回数と破裂を付与する。": "**Rupture synergy**: Coin Power rises if the main target has at least 5 Rupture, and it inflicts Rupture Count and Rupture on hit.",
+    "パッシブ「泣涙」: 攻撃で対象を倒すと次のターンにクイックと味方のダメージ量増加、敵の攻撃威力減少を得る。自分が死亡しても味方の強化と敵の弱体化が入る。": "**Passive — Crying Tears**: Defeating a target with an attack grants Haste and allies' Damage Up next turn, and Attack Power Down on enemies. The ally buffs and enemy debuffs still apply even if he dies.",
+    "敵の破裂を溜めておき、覚醒の始で埋花櫼を得て、汚血が増えるまで待つ。体力が尽きる前に終を迎える。": "Build up Rupture on enemies, gain Flower-burying Wedge with Inception on Awakening, and wait for Tarnished Blood to grow. Reach The End before his HP runs out.",
+    "侵蝕スキルも埋花櫼を得る7枠の攻撃だが、敵味方識別不可で味方に当たり得る。": "The Corrosion skill is also a 7-target attack that grants Flower-burying Wedge, but it cannot distinguish friend from foe and can hit allies.",
+    "鴻園の君主を使えば、終での死亡が体力60%の回復に置き換わる。": "With The Lord of Hongyuan, the death from The End is replaced by recovering 60% HP.",
+    "Ⅱ: 泣涙が解放される。": "**Ⅱ**: Unlocks Crying Tears.",
+    "Ⅲ: 終のダメージ量増加が強化され、破裂付与とコイン威力の条件も伸びる。侵蝕のコイン威力・破裂付与も強化される。": "**Ⅲ**: Strengthens The End's damage increase and extends the Rupture infliction and Coin Power conditions. Corrosion's Coin Power and Rupture infliction are also strengthened.",
+    "Ⅳ: 終のコイン威力が+5になり、汚血5以上で加重値・基本威力+3、破裂によるコイン威力増加の上限3が入る。": "**Ⅳ**: The End's Coin Power becomes +5, and +3 Attack Weight and Base Power at 5 or more Tarnished Blood and a cap of 3 on the Rupture-based Coin Power increase are added.",
+    "鴻園の君主: パッシブで終の死亡が起きず体力60%を回復し、以降ダメージ量増加も得る。S2(暴食)で資源も出せる。": "**[The Lord of Hongyuan](persona:0613)**: His passive prevents the death from The End and heals 60% HP, then grants Damage Up afterward. S2 (Gluttony) also supplies resources.",
+    "K社3級摘出職職員: S2(暴食)が資源を出し、S2・S3で破裂を付与するので、終の破裂条件を満たしやすい。": "**[K Corp. Class 3 Excision Staff](persona:0605)**: S2 (Gluttony) supplies resources, and S2 and S3 inflict Rupture, making The End's Rupture condition easy to meet."
+  }
+}

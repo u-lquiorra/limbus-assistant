@@ -1,0 +1,676 @@
+{
+  "kind": "boss-copy",
+  "id": "gustave",
+  "source": "src/data/bosses/gustave.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeNoir"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_LowMorale"
+        },
+        {
+          "ja": "殻の中へ…",
+          "en": "Back into My Shell...",
+          "file": "Bufs-a1c10p1.json",
+          "id": "LaNoir_Panic"
+        },
+        {
+          "ja": "ル・ノワール ウーステッド生地",
+          "en": "Le Noir: Worsted",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NoirBindArmor"
+        },
+        {
+          "ja": "案内不履行",
+          "en": "Instruction Incompliance",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NoirNoComply"
+        },
+        {
+          "ja": "ル・ノワール店員 ギュスターヴ",
+          "en": "Le Noir Sales Associate Gustave",
+          "file": "Enemies-a1c10p1.json",
+          "id": "1465"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146501"
+        },
+        {
+          "ja": "顧客案内",
+          "en": "Ushering Customers",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146502"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "146503"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148201"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148202"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "148302"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149201"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Abnormality-a1c10p1.json",
+          "id": "149202"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106601"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Passives_Enemy-a1c10p1.json",
+          "id": "9106602"
+        },
+        {
+          "ja": "シャツはこちらにございます。",
+          "en": "Right this way for the shirts.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146501"
+        },
+        {
+          "ja": "スラックスはこちらに陳列しております。",
+          "en": "The slacks display is right here.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146502"
+        },
+        {
+          "ja": "ご試着いただけない商品でございます、お客様。",
+          "en": "I'm afraid this item cannot be tried on, Dear Customer.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146503"
+        },
+        {
+          "ja": "何でもお気軽にご試着くださいませ、お客様。",
+          "en": "Please, feel free to try something on, Dear Customer.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146504"
+        },
+        {
+          "ja": "商品に傷がつかないようお願いいたします。",
+          "en": "Please take care not to damage the merchandise.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146505"
+        },
+        {
+          "ja": "お客様！商品にシワが寄らないようお願いいたします！",
+          "en": "Excuse me! Please try not to wrinkle the clothes!",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146506"
+        },
+        {
+          "ja": "こちらの商品はサイズのご用意がないため、別途本社に在庫を確認いたします。",
+          "en": "We don't have that item in your size. Allow me to check the stocks with the head office.",
+          "file": "Skills_Abnormality-a1c10p1.json",
+          "id": "146507"
+        }
+      ],
+      "note": "Names follow paired Canto X part 1 records. Preservation is selected from ChargeNoir and passive 146503 rather than later Conservation records. Back into My Shell follows the paired Low Morale and Panic status IDs. Customer Level is a descriptive translation of the guide term. Route A event stats, skill-specific attack/defense conditions, and dungeon carryover are retained."
+    }
+  },
+  "scopedPaths": [],
+  "entries": {
+    "name": {
+      "sourceHash": "b5dc964a91495471e14cc22fd1ee8d0cae365c03dfd8d4046152b7be2bbb4f3d",
+      "text": "Le Noir Sales Associate Gustave (Canto X A)"
+    },
+    "shortName": {
+      "sourceHash": "6ff104c4cf15471359f824d943fda2d4b82744bb00ef58b204d83314b508974e",
+      "text": "Gustave"
+    },
+    "stageName": {
+      "sourceHash": "732e7a12eacd480ff8167bd8b7cb5bb124e9ab9d9778fa983ccd7b6b6c885115",
+      "text": "Sisyphus Department Store A, 1F: Contemporary Floor"
+    },
+    "lead": {
+      "sourceHash": "fab0a487c35c0fb20752c84d26321c6b807f922c845e7fead9d991c5eb611eb5",
+      "text": "Customer-service skills cannot be redirected. The targeted Sinner must equip the correct action: defense against the refusal to allow a fitting, and an attack against the invitation to try something on. Read each instruction and switch accordingly."
+    },
+    "statNote": {
+      "sourceHash": "a471f9de91cce5b30afeba387cf902ac22247ca394176dbd4b92bce92d8bfeae",
+      "text": "Covers the event-triggered battle at Lv. 10 and 590 HP, not the Lv. 13, 641 HP encounter started by attacking on the map beforehand. Defense Level 15 excludes additional Fabric modifiers. This is the normal Route A “Nail” progression. In this dungeon, Customer Level replaces each Identity's outside level. Uptie below III is raised to III, but E.G.O Threadspin is unchanged. Form a team of up to 12, including each floor's three required Sinners. SP and E.G.O resources carry over after battles. The 1F required Sinners are Meursault, Rodion, and Ishmael."
+    },
+    "skillNote": {
+      "sourceHash": "b13b04b779ffa94a5ce27f575c9a4a4bd4913cee56d5e688308b16e43611610d",
+      "text": "Conditional Unbreakable conversion is listed in effects. For customer-service skills, “Attack Skill” means basic attacks and E.G.O, excluding Counters and Clashable Counters. These skills cannot be redirected, so check the targeted Sinner's equipped skill."
+    },
+    "priorities.0": {
+      "sourceHash": "7769009f084a82d4616696332f314df792f8e5295f0a0116f19413ebf7f534bc",
+      "text": "Switch the targeted Sinner between attack and defense according to each customer-service skill."
+    },
+    "priorities.1": {
+      "sourceHash": "b2c8349789ad0f19e55202a7ce22bfeceaea1c9bcf279cc94333e3cb9814499c",
+      "text": "Avoid accumulating Instruction Incompliance; use defense before area attacks to reduce damage and stacks."
+    },
+    "priorities.2": {
+      "sourceHash": "682733fd45c03f25a78ba30cc10774a67055d5f685658bf0545d08533f64a614",
+      "text": "Targeting the Defense slot with three attacks reduces Fabric, but also prepare for next-turn enemy buffs."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "8393579eac8ed472d7163df903ae01a8e7728950ef8e2231f758f4d167a76b02",
+      "text": "Choosing defense strengthened the enemy"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "2062c6080eb272f7f6e7fcb4c0620d75208d2617f108b92fd84508336dc00b42",
+      "text": "Please, feel free to try something on makes its Coins Unbreakable and gains +5 Final Power if the target equips defense. Conversely, I'm afraid this item cannot be tried on is canceled by defense. Do not handle the similarly named skills with the same action."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "1611cc0ef3f92a94f4de498ce95ed2d07887c8d5bf6abcb543d8e1cc9f5d9b97",
+      "text": "Area attacks start dealing heavy damage"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "a97e99c309e90b44e44f47750ea64b71d71fbef2a1842b3284314e7d59f1716e",
+      "text": "Instruction Incompliance caps at 3. The area skill gains +100% damage per stack against targets without Defense Skills equipped. Equip defense on the target and use the on-hit reduction of 1 Instruction Incompliance too."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "c08544a01a2e19aa4fd73eb59690a468e7770e23332d91f9ccc671d45c47b84f",
+      "text": "The Shield prevents HP damage"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "fc5a922b48dd56614843a634f81290c39d6585e8028bfbca7454e12620ec1988",
+      "text": "Target the head-office stock-check Defense slot with at least three skills as their main target to reduce Fabric by 3. The enemy gains 2 Attack Power Up next turn, so prepare defense afterward too."
+    },
+    "phases.0.timing": {
+      "sourceHash": "cb9b9b929c79581b65fbecb6c3490ed1dfd9fe8fc1a780c14c7eff26f3452403",
+      "text": "Before battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "917af809935cc479dbf7ef768aa2fbd275dabdffbca8635c93c79d718771ca15",
+      "text": "Visit shops and enter through the normal event"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "9f8601837c9c02e0c258d975ddca64330a25ec83f4f2ac0da9407d11f90cddf3",
+      "text": "Meursault, Rodion, and Ishmael are required. Bring your main attackers and HP recovery, using carried-over SP and E.G.O resources."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "3a7631f819f77d7d91c683ae7702ac8bb5edd6da7afd9ded75237cce3f0a8a40",
+      "text": "Aim for Customer Lv. 11 through shopping. You do not need to raise outside Identity levels. An official RENTAL Identity is also available for Meursault."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "b62129dd922ed7084cfe57b20ab25c93b986795d2effc921e7076b7e0827b147",
+      "text": "Check Blunt resistance and E.G.O for strong clashes. Threadspin is not raised, so choose according to required effects and resource costs."
+    },
+    "phases.0.steps.3": {
+      "sourceHash": "8b24edc62ce35d8cd5cc87a2cc88cff1fbdcbf1afd3731b2d7f531c29c06b436",
+      "text": "Inspecting the Le Noir sales floor on 1F starts the battle. Attacking and killing the NPC before the story event causes FATELOST; follow dialogue and events to progress normally."
+    },
+    "phases.1.timing": {
+      "sourceHash": "ca435d74751aa59aded2c3ba5c7a4f90be6653cb64dd4243a903f3ecee1affdf",
+      "text": "When customer-service skills appear"
+    },
+    "phases.1.title": {
+      "sourceHash": "1d8ad3397628f4e249709f0fcdec55d9da9f086c4da2530d6de0267dce017d52",
+      "text": "Change the targeted Sinner's equipped skill"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "32168ac282d350741b67f7e270f5446daacb966403c70919e3bde17e51348550",
+      "text": "I'm afraid this item cannot be tried on, Dear Customer. is canceled when its target equips a Defense Skill. It cannot be redirected, so do not try to have another Sinner take over."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "76335103287d47bde0763759f70ff1bdcbaa3959062375f596edacaed500cd9e",
+      "text": "Please, feel free to try something on, Dear Customer. becomes Unbreakable and gains +5 Final Power against defense. Equip a basic attack or E.G.O on the target and win the clash to prevent hits."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "dc55867a8e7cac2abcaa7de4897ece9d3c5d12430bff33d901f44bf052d7a990",
+      "text": "Please take care not to damage the merchandise. becomes Unbreakable and gains +5 Final Power against a basic attack or E.G.O. Switch to defense to avoid additional Instruction Incompliance."
+    },
+    "phases.2.timing": {
+      "sourceHash": "7bd540776855e0e37f65012603400f15be194d08d413da250f86f62b5e1302a0",
+      "text": "Excuse me! Please try not to wrinkle the clothes!"
+    },
+    "phases.2.title": {
+      "sourceHash": "96116d7b54f5e5af5ffa31ed9c9a7f3c5fe39c17de8ee696aed1bcd629cde01a",
+      "text": "Check defense and Instruction Incompliance even after winning against the area skill"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "47fa26c94e3baa5db50014f50dfc9a232d4282847802ba60333e237b3ff66847",
+      "text": "One Unbreakable Coin with 7 Atk Weight. Base Power range is 7–12, and the attack remains after a clash win."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "d674003c08463a200350f2202a65aef8474ad37f23c1731b9dd196253a86c3ac",
+      "text": "Targets without Defense Skills equipped take more area damage according to Instruction Incompliance. Check defense on secondary targets too."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "f40f4b8a2060f9a7f99e025f72665d598285721fe66e63e8e958620f11decbba",
+      "text": "A hit while defense is equipped reduces Instruction Incompliance by 1. Heal HP and avoid carrying too many stacks into the next customer-service skill."
+    },
+    "phases.3.timing": {
+      "sourceHash": "bb38edd64a10ee0e17e88f525dcae3ee50d2d4957defe0d61e49203bfd4031dc",
+      "text": "Depleting Fabric and HP"
+    },
+    "phases.3.title": {
+      "sourceHash": "284008a680168512f4b0fb42b390c28bc84adecf7281ecd32c9d90036019a7fd",
+      "text": "Stop regular skills and concentrate attacks during Stagger"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "ed156057e829d35615956ffd496c1d41ad602b2b69054c05bbffc480bdafbe45",
+      "text": "The shirt and slacks skills are Envy and Blunt. Stop them with regular skills to avoid Bind and Attack Power Down."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "674f627de57bad5dff03f20f26e5e34965273613d2763fd5a5d7ed98001989f4",
+      "text": "Assigning three skills to the Defense slot lowers Fabric but raises enemy Power next turn. Do not meet the condition only to become unable to survive the following attacks."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "19f25b745108b91cb91e61b4d46823130ef2eca0a5ec84cd1c435309cb1c11f5",
+      "text": "Use Sloth ×1.5 and Blunt ×1.2 to reach the 40% HP Stagger. SP and resources carry into the next battle, so avoid spending every E.G.O once the fight is stable."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "175e11c205ea1dfdde5d5829539ca53167bf93aa9f47a918a72ac021c70293c2",
+      "text": "The dungeon level raised by spending eyeballs in department-store shops. Determines Identity levels inside the dungeon."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "4659c5955300de5672234e0a56d7e7dfeffc5d20067daa69c1fcfdb2e56e869f",
+      "text": "If clashes are too weak, check unvisited shops and vending machines instead of farming outside EXP."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "658d4e13792753fa52c603511dba2b4aa33883cf3538dc2dc9b0e0c4894c4788",
+      "text": "A special Charge affected by effects that change Charge Potency and Count. The usual Count cap is 20; lose 1 Count at Turn End. Enemy passives increase Preservation Potency and other effects through cumulative Count consumption."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "f973eede431fc61853ba5c7b9c9ce7fd951973cc53f04b9fc249fbbaac80bd90",
+      "text": "Check Potency and Count separately. Spending Count may still advance buffs based on cumulative consumption."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "f3dcc50949073e7d0f4480e457d46756fab5cda6115daa066b51ca4aaa0739c0",
+      "text": "Back into My Shell..."
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "73d713f821ae4f349289aef59293b25b01e0dc5fb727b6b0fe2f579b2104d4ef",
+      "text": "At −20 SP or lower, maximum Speed −1 and Defense Level +1; at −45 or lower, maximum Speed −5 and Defense Level +3. Clash wins and losses also change SP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "48cb6d6262578cda93ff845a14a7da03cae319af94f90fa56c7b2233568c9057",
+      "text": "Lowering enemy SP is useful, but reduced Speed does not finish the fight. Check remaining HP and Shields."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "ddb73a45858670b3dab245661d2fa8c2a3778b6396c74933cccf9e614795fc1d",
+      "text": "Le Noir: Worsted"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "675aafe9f2fd4bf6decb93cd05903a8e4a4204af8c5ab3976e6dd3bc26ad458d",
+      "text": "Maximum 15. Per 5 stacks, maximum Speed −1 and Offense/Defense Levels +1. Lose 1 at Turn End. Some passives also grant Shields according to Fabric stacks."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "4acc3c538165b03cf40b8d131fbcee4e49449d6c31962d8b5a00b85b0266c8a8",
+      "text": "Check Fabric's level changes and Shields; avoid repeated small attacks that only chip at the Shield."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "8ae8d0357a0d0f2d900ecd5c65b7f8a73300b1d18455d17c64742e065cd907a5",
+      "text": "Instruction Incompliance"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "6fbbbddf377d510da809bf9ce1c4e31f21b5bc032d233e2029cd182c4e5255cd",
+      "text": "Maximum 3. Damage taken +5% per stack. Ushering Customers also raises damage dealt and taken between the units by 10% per stack, with +200% enemy damage against targets at 3. The area skill has a separate multiplier against targets without defense."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "ac717271eef3c6d6aa49bdb36ed24cdce61cf885b6d6b1f51599ec005d6aed4d",
+      "text": "Follow each customer-service skill's condition; equip defense against the area skill to remove 1 stack on hit."
+    },
+    "warnings.0": {
+      "sourceHash": "a26f39c2c8063c0a3526e54f67a46fe51859c0f5112a206166dc4a6830065ed9",
+      "text": "Some customer-service skills require defense and others require attacks. Do not give everyone the same action."
+    },
+    "warnings.1": {
+      "sourceHash": "4eae12d524d49e6e63265c85047c8952867601cbb0a97d5ad467aef79b4895bc",
+      "text": "Counters and Clashable Counters do not count like basic attacks or E.G.O for customer-service skills' “Attack Skill” conditions."
+    },
+    "warnings.2": {
+      "sourceHash": "f99c9840e6022928053e4c533c6f77176fbfb70fef204e51276773d76e5dd976",
+      "text": "Instruction Incompliance's damage-taken increase, Ushering Customers, and the area multiplier are separate effects. Do not leave 3 stacks unattended."
+    },
+    "warnings.3": {
+      "sourceHash": "83146491d34bfac141d2be9450e9fcb499b50754591abf90d4e9dad846eff2f1",
+      "text": "Covers the Route A event battle. Values differ from the preemptive encounter and Route B version with adds."
+    },
+    "preparation.0": {
+      "sourceHash": "9f8601837c9c02e0c258d975ddca64330a25ec83f4f2ac0da9407d11f90cddf3",
+      "text": "Meursault, Rodion, and Ishmael are required. Bring your main attackers and HP recovery, using carried-over SP and E.G.O resources."
+    },
+    "preparation.1": {
+      "sourceHash": "3a7631f819f77d7d91c683ae7702ac8bb5edd6da7afd9ded75237cce3f0a8a40",
+      "text": "Aim for Customer Lv. 11 through shopping. You do not need to raise outside Identity levels. An official RENTAL Identity is also available for Meursault."
+    },
+    "preparation.2": {
+      "sourceHash": "b62129dd922ed7084cfe57b20ab25c93b986795d2effc921e7076b7e0827b147",
+      "text": "Check Blunt resistance and E.G.O for strong clashes. Threadspin is not raised, so choose according to required effects and resource costs."
+    },
+    "roles.0.name": {
+      "sourceHash": "dcb3d7871e328444733e8949d0970a19728f57099b295a3688a30bed499315b8",
+      "text": "Attack or defense on the customer-service target"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9caf48933e749eaf852104c00b276af66ef2aa1886bc7dd866d4de0de508ea9e",
+      "text": "Meet the unredirectable skill's condition with the target's own skill."
+    },
+    "roles.1.name": {
+      "sourceHash": "68303fc9790c374d3477d537511b4625f02e759f91be3c3387cd9e67ad6f0668",
+      "text": "Sloth and Blunt damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "1547430afd727f1f566c9c2d8224268c69589217deb7b39b58c19a9c2d4538ad",
+      "text": "Deplete Shield and HP to reach the 40% Stagger."
+    },
+    "roles.2.name": {
+      "sourceHash": "08d64f7379e4112472e17cd51d668c8963fb72abfad29f683fdf94560f9e8956",
+      "text": "HP healing"
+    },
+    "roles.2.reason": {
+      "sourceHash": "3136cee543bd7bc4a458e11fa2a93ceb43a7c5637a43e959c6cd0367d394c273",
+      "text": "Heal damage from Unbreakable area attacks before it carries into the next battle."
+    },
+    "units.0.name": {
+      "sourceHash": "970f4eadb47f1f5bb8bcdec0eb40356391ea5a917d2d3b6128029258a1071d55",
+      "text": "Le Noir Sales Associate Gustave"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "0d740a893d043de9a4191db09373b9b881d19149d284467c49c7553104d4ee90",
+      "text": "On entry, gain 1 Preservation Potency and 0 Count."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "1388e838ac917697d3662cb0f90ab4ac0fb9ef2c0052bdeb61ec806b0ab9e341",
+      "text": "Normal Route A progression, separate from Route B's enhanced version."
+    },
+    "skills.0.name": {
+      "sourceHash": "041215dcd01ecf2a68773d6fb4aaee9b64c9ccdb65fd52f47e129818cdc99c60",
+      "text": "Right this way for the shirts."
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "792c7f5013a0ffb43caa7f5766b05b059c8c00fcf9431bcb9cfb89271e14dc3f",
+      "text": "[On Use] Gain 7 Preservation Count"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "2ccb88e3a6c8fabd7a7114bdfd5c2124e6c0313d7f4119cfa2ce3f4a55621be1",
+      "text": "Ⅰ [On Hit] Gain 3 Preservation Count next turn"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "b60ca084234a3a0fc5019b0baf5a79b385cf2ebdbaad22c2ab2d052b6faa283b",
+      "text": "Ⅱ [On Hit] Increase Tremor Count by 2"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "8eec38d0c5affecd35e8e1ba3f852143537aa11a587daadd3ba73e439eda2266",
+      "text": "[On Hit] Inflict 2 Bind next turn"
+    },
+    "skills.0.response": {
+      "sourceHash": "810de40289964dc758fcb9a8169ad5fd1ccf824db2290537a7c4aee515504e02",
+      "text": "Envy and Blunt. Stop it with a regular skill to prevent 2 Bind and additional Preservation Count."
+    },
+    "skills.1.name": {
+      "sourceHash": "af9394d775f008dc86aaa1dceb09138bf3b7d51109fd6789454a50aa6ba2ee7f",
+      "text": "The slacks display is right here."
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a6a9eb0c3ab30ea7549af5ff3e264ee52798f1c46b6bb5533bfa06b6956a28d1",
+      "text": "[On Use] Gain 4 Preservation Count"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "2ccb88e3a6c8fabd7a7114bdfd5c2124e6c0313d7f4119cfa2ce3f4a55621be1",
+      "text": "Ⅰ [On Hit] Gain 3 Preservation Count next turn"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "4f252d51bee7fbae2cf2bccd835e238b053eaa45fcc8618ecc5eedb6e04fc74c",
+      "text": "Ⅱ [On Hit] Inflict 4 Tremor"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "1fbb269e41b4e9a70d1e92612b2c53c714b1e6a77d515a9f55519aabb73c2071",
+      "text": "[On Hit] Inflict 2 Attack Power Down next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "3ab19a79a89ac70de0d2180cf273128ad4370bdb205eb7d879f435bc82b6a357",
+      "text": "Inflicts 4 Tremor and 2 Attack Power Down next turn. Stop it to preserve your clashers' Power."
+    },
+    "skills.2.name": {
+      "sourceHash": "719a6a6d7e0c8f61b599489ee255aecdba368a02a896b10a4470ae0815d3da74",
+      "text": "I'm afraid this item cannot be tried on, Dear Customer."
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "c71b43e3bc23140580a8cab68162cced29f4f71867a12cb0312b88d36974d4ef",
+      "text": "If the target has a Defense Skill equipped, cancel this skill"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "4eb32d383397a0aa0557f3c49b01c7e2fcde5e1466caf8d1b1830f33d9736464",
+      "text": "[On Use] Damage +10% per Preservation on self (max 50%)"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "ec41bac039eb2d8a70c4209f348d75a57fa9a38d047c97846edb738009ce664e",
+      "text": "Ⅰ [On Hit] Inflict 2 Instruction Incompliance"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "6370b50ceb0d5ceb6964b2952871bd13a366f9297f4f17282e85ca6e09a78ea7",
+      "text": "[On Hit] Consume 5 Charge Count to trigger Tremor Burst"
+    },
+    "skills.2.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.2.response": {
+      "sourceHash": "38e9950e1b45ada075e8a595755e02b24a9e930007c9b7010a600ee27e4d09a8",
+      "text": "Equip a Defense Skill on the targeted Sinner to cancel it. It cannot be redirected, so another Sinner's Speed cannot solve it."
+    },
+    "skills.3.name": {
+      "sourceHash": "8978ce05ff059d3ea455e83fecb34cc07fd8e03e97e76ac933ee42b16d6e46be",
+      "text": "Please, feel free to try something on, Dear Customer."
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "24286b8bcde6b628cfaa7174ac1565ed98bf507821905e2b4b174cc0b21514f7",
+      "text": "[Combat Start] If the target has a Defense Skill equipped, convert all Coins to Unbreakable Coins and gain +5 Final Power"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "4eb32d383397a0aa0557f3c49b01c7e2fcde5e1466caf8d1b1830f33d9736464",
+      "text": "[On Use] Damage +10% per Preservation on self (max 50%)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "e8d76dfe573a81fe3ca81d31c0742225142568aaa9ee4d35ac730246ac17ac68",
+      "text": "Ⅰ [On Hit] Inflict 1 Instruction Incompliance"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "6370b50ceb0d5ceb6964b2952871bd13a366f9297f4f17282e85ca6e09a78ea7",
+      "text": "[On Hit] Consume 5 Charge Count to trigger Tremor Burst"
+    },
+    "skills.3.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.3.response": {
+      "sourceHash": "8d16b64a02263576007675a59b33ba075546b29169f69eee0a7b9d710385b309",
+      "text": "Against equipped defense, becomes Unbreakable and gains +5 Final Power. Equip a basic attack or E.G.O on the target and stop it through a clash."
+    },
+    "skills.4.name": {
+      "sourceHash": "9391aea2c9113ad95ba7158849fe1b271785d18f6a48e13f423da3fc96843e46",
+      "text": "Please take care not to damage the merchandise."
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "f8b8c7a0317168bb8fead86d796687afecb17ebdc82b341068437f593285d742",
+      "text": "[Combat Start] If the target has an Attack Skill equipped, convert all Coins to Unbreakable Coins and gain +5 Final Power"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "4eb32d383397a0aa0557f3c49b01c7e2fcde5e1466caf8d1b1830f33d9736464",
+      "text": "[On Use] Damage +10% per Preservation on self (max 50%)"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "828da2cd1bfb3bd106fa2667928bb4472177f7a2747fa4583de12822b441cc85",
+      "text": "Ⅰ [On Hit] If the target has an Attack Skill equipped, inflict 1 Instruction Incompliance"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "20979389c373adc707ebf79b65b9f86e9fd985f099db7631fc7f0e3fced72b0d",
+      "text": "[On Hit] Consume 5 Preservation Count to trigger Tremor Burst"
+    },
+    "skills.4.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.4.response": {
+      "sourceHash": "a79a90ee962cc39d54ae7afc750bd9e08a0800a24f69fdf7d7a5a890368af4e9",
+      "text": "Equip defense on the targeted Sinner. A basic attack or E.G.O makes the skill Unbreakable with +5 Final Power and adds Instruction Incompliance."
+    },
+    "skills.5.name": {
+      "sourceHash": "7bd540776855e0e37f65012603400f15be194d08d413da250f86f62b5e1302a0",
+      "text": "Excuse me! Please try not to wrinkle the clothes!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "3c95547a635d7aa3b93587e0f0fe509389b98ecab738ded6155ca9d64370a02c",
+      "text": "[Combat Start] Damage against targets without Defense Skills equipped +(each target's Instruction Incompliance × 100)%"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "1d1d8d9eccf106698d5fa6058ac73e4dc5f233c1278c402553392d948cb2a3cc",
+      "text": "[On Hit] If the target has a Defense Skill equipped, reduce their Instruction Incompliance by 1"
+    },
+    "skills.5.response": {
+      "sourceHash": "bcc8e59a8d78ac4edef966f6b3ac5201b5aa4015fa11009ee83fb2e8d786be58",
+      "text": "An Unbreakable area skill with 7 Atk Weight. Instruction Incompliance raises damage against targets without defense. Check secondary targets' defense too and remove 1 stack."
+    },
+    "skills.6.name": {
+      "sourceHash": "80d95710844dc84622cb38947f1500c44ab12a081cba2503025a72ebbd3c96b9",
+      "text": "We don't have that item in your size. Allow me to check the stocks with the head office."
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "f64f73dffbe9e995f38e3e822c44c8b38bb305eb75d1efc1a699c3f289774618",
+      "text": "[Combat Start] If at least three skills have this skill's slot as their main target, lose 3 Le Noir: Worsted and gain 2 Attack Power Up next turn"
+    },
+    "skills.6.response": {
+      "sourceHash": "f16a2567ad26e0d71b08cca94d19132e1514a17ea98af24090d062deccfc9858",
+      "text": "Assign three skills with this Defense slot as their main target to reduce Fabric by 3. However, the enemy gains 2 Attack Power Up next turn."
+    },
+    "passives.0.name": {
+      "sourceHash": "b338c1ece14883d33f0aaeda19f49272ebc7ee2bd54f35f013013b5cbaed4b38",
+      "text": "Le Noir: Fabric"
+    },
+    "passives.0.effect": {
+      "sourceHash": "2e30de5e5b2c4d2d30fca176504668e9472548feee35b334f257c9f8e4afc47e",
+      "text": "At Stage Start, gain 5 Le Noir: Worsted.\nAt Turn Start, gain a Shield equal to (Le Noir: Worsted stacks)% of max HP.\n\nLe Noir fabric shapes the customer's figure with an armor-like, sturdy silhouette that holds its form."
+    },
+    "passives.0.condition": {
+      "sourceHash": "647b87216933db0cd352979ca4854bfcb8f93458b770bf18fc1c76ab3e8612ea",
+      "text": "Stage Start and Turn Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "c43c879aa664d4564cf6019e9b53e7257beec9ee89fdf3e772310a6f04c491c6",
+      "text": "Initial Fabric 5 grants a corresponding Shield. Use three skills targeting the Defense slot, plus Sloth and Blunt damage, to deplete it."
+    },
+    "passives.1.name": {
+      "sourceHash": "3913f206dbe50ade3fc169227b0d575ff0d347cb74545d8dbcc2cea4bed00875",
+      "text": "Ushering Customers"
+    },
+    "passives.1.effect": {
+      "sourceHash": "39cb890c7e447b3b56d08ad2ef0e1adbb3dbad3813de176b84cb5160260357b5",
+      "text": "Per Instruction Incompliance on the target, damage dealt to and taken from that target +10%.\nDamage against targets at 3 Instruction Incompliance +200%.\n\nLe Noir serves customers according to the head office's strict manual."
+    },
+    "passives.1.condition": {
+      "sourceHash": "66082e2dee4cbae45ac29f3b81dee67e82ae51c20fab3d71c7dbaf05feb080ba",
+      "text": "Instruction Incompliance stacks"
+    },
+    "passives.1.response": {
+      "sourceHash": "dfaccb8a063a6b6510f6246d0b678a9087b6a432693e8facbd4f4cbd7269a7b9",
+      "text": "Especially dangerous at 3. Follow instructions and use defense against the area skill to reduce stacks."
+    },
+    "passives.2.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c408e214d78e64d0600b3485bd63dff97ba78a7f5cadd5b9c54faa724efb796a",
+      "text": "For cumulative Preservation Count consumed during battle:\n- Gain 1 Le Noir: Worsted per 3 consumed.\n- Gain 1 Preservation per 10 consumed.\n\nCondense, gather power, and hold it in place. Keeping something unchanged can require more force than changing it."
+    },
+    "passives.2.condition": {
+      "sourceHash": "c05bd64908d674b0aab40272d395154fc173e83002fd9314e6b5476a5806009c",
+      "text": "Cumulative Preservation Count consumption"
+    },
+    "passives.2.response": {
+      "sourceHash": "16d580938d046944be7d4d25bdb25a8fee6432511ecedba452bb29ae3d22b584",
+      "text": "Making it spend Count alone does not stop Fabric and Potency buffs. Avoid a long fight and reach Stagger."
+    }
+  },
+  "messages": {
+    "boss-copy:gustave": "complete",
+    "【リンバス】10-04 ル・ノワール店員 ギュスターヴ（10章A）の攻略｜Limbus Assistant": "10-04 Le Noir Sales Associate Gustave (Canto X A) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「ル・ノワール店員 ギュスターヴ（10章A）」の攻略。対象変更不可の接客技は、狙われた囚人が攻撃と守備のどちらを装着するかで対処する。「ご試着いただけない」は守備、「何でもお気軽に」は攻撃…": "Le Noir Sales Associate Gustave (Canto X A) guide for Limbus Company 10-04. Customer-service skills cannot be redirected. The targeted Sinner must equip the correct action: defense against the refusal to allow a fitting, and an attack against the invitation to try something on. Read each instruction and switch accordingly.",
+    "10-04 ル・ノワール店員 ギュスターヴ（10章A）": "10-04 Le Noir Sales Associate Gustave (Canto X A)",
+    "10-04「Sisyphus Department Store A, 1F: Contemporary Floor」": "10-04 · Sisyphus Department Store A, 1F: Contemporary Floor",
+    "ル・ノワール店員 ギュスターヴの外見": "Le Noir Sales Associate Gustave appearance",
+    "ル・ノワール店員 ギュスターヴのスキル": "Le Noir Sales Associate Gustave skills",
+    "Le Noir Sales Associate Gustaveの外見": "Le Noir Sales Associate Gustave appearance",
+    "Le Noir Sales Associate Gustaveのスキル": "Le Noir Sales Associate Gustave skills"
+  }
+}

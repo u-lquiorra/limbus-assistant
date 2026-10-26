@@ -4,6 +4,7 @@ import SinFilterChips from "../components/SinFilter";
 import { useSinFilter } from "../useSinFilter";
 import { allEgos } from "../data/loader";
 import { filterEgosBySins } from "../egoFilter";
+import { Message, TranslatedList } from "../i18n/Message";
 // 絞り込みボタンは、キーワード別人格一覧の絞り込みと同じ見た目を使う
 import "./teams.css";
 
@@ -39,7 +40,7 @@ export default function EgoListPage() {
         <SinFilterChips selected={selected} onChange={setSelected} countWith={(sins) => filterEgosBySins(allEgos, sins).length} />
         {selected.length > 0 && (
           <p className="keyword-filter-summary ego-filter-summary" aria-live="polite">
-            {selected.join("・")}の資源だけで使える E.G.O：<strong>{results.length}件</strong>
+            <Message text="{sins}の資源だけで使える E.G.O：{count}" values={{ sins: <TranslatedList items={selected} />, count: <strong>{results.length}件</strong> }} />
           </p>
         )}
       </section>

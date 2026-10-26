@@ -1,5 +1,6 @@
 import data from "./data/glossary.json";
 import systems from "./data/glossary-systems.json";
+import { searchableText, translateText } from "./i18n/text";
 
 export interface GlossaryTerm {
   id: string;
@@ -66,10 +67,12 @@ export function filterGlossary(query: string, category = ""): GlossaryTerm[] {
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
   return glossaryTerms.filter((term) => {
     if (category && term.category !== category) return false;
+    const aliasKey = `glossary-aliases:${term.id}`;
+    const englishAliases = translateText(aliasKey, "en");
     const text = normalize([
-      term.name, term.reading, ...term.aliases, term.summary,
+      term.name, term.reading, ...term.aliases, englishAliases === aliasKey ? "" : englishAliases, term.summary,
       ...(term.sections ?? []).flatMap((section) => [section.name, section.reading]),
-    ].join(" "));
+    ].map(searchableText).join(" "));
     return words.every((word) => text.includes(word));
   });
 }

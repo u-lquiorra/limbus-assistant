@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0407.md",
+  "code": "0407",
+  "messages": {
+    "最大共鳴数に応じて攻撃加重値と与ダメージが伸びる、出血を撒く色欲斬撃の広域E.G.O(必要資源は計14個)。": "A multi-target Lust Slash E.G.O that spreads Bleed and whose Attack Weight and damage grow with the highest Resonance (requires 14 resources in total).",
+    "共鳴で広域化: 攻撃加重値が最大共鳴数だけ増える(上限は解析Ⅱで2、Ⅲで4、Ⅳで6)。共鳴を多く作れる編成ほど広い範囲に当たる。": "**Multi-target through Resonance**: Attack Weight increases by the highest Resonance, capped at 2 at Threadspin Ⅱ, 4 at Ⅲ, and 6 at Ⅳ. The more Resonance the team can build, the wider it hits.",
+    "軽蔑の視線: 攻撃前に(最大共鳴数+1)だけ得て、1につき与ダメージ+7%(最大7)。解析Ⅳではこのターンと次のターンにかけて得る。": "**Gaze of Contempt**: Before attacking, she gains (highest Resonance + 1), with +7% damage dealt per point, up to 7. At Threadspin Ⅳ, she gains it across this turn and the next.",
+    "出血の付与: 攻撃後に、攻撃対象へ出血10(解析Ⅲは15)を均等に分けて付与する。": "**Inflicting Bleed**: After the attack, inflicts 10 Bleed (15 at Threadspin Ⅲ) divided evenly among the targets.",
+    "代償: 使用後の2ターン、ターン終了時に精神力が10ずつ減る。マッチ威力も低めなので、一方攻撃で通すか、勝てるマッチを選ぶ。": "**Cost**: For 2 turns after use, she loses 10 SP at each Turn End. Its Clash Power is also lowish, so push it through as a one-sided attack or pick Clashes it can win.",
+    "パッシブ「視線の痕跡」: 敵への基本攻撃スキルを使うたび、そのスキル以外の属性で最も保有量が少ない資源を1つ得る(1ターンに2回)。": "**Passive — Mark of the Gaze**: Each time she uses a basic attack skill on an enemy, she gains 1 of the resource she holds the least of, excluding that skill's affinity, 2 times per turn.",
+    "先に共鳴を作れる編成にし、広い範囲へ一気に撃つ。": "Set up a team that can build Resonance first, then fire it across a wide area at once.",
+    "解析Ⅳでは、色欲共鳴を作ると保有する基本攻撃スキルと同じ属性の資源が増える。": "At Threadspin Ⅳ, building Lust Resonance increases resources of the same affinities as the basic attack skills she holds.",
+    "軽蔑の視線が7になると、次のターンは視線の軽蔑(保護7など)に変わる。混乱が避けられない場面で耐久を補う手段になる。": "When Gaze of Contempt reaches 7, it becomes Contempt of the Gaze (7 Protection and more) next turn. It can shore up her durability when Stagger is unavoidable.",
+    "侵蝕スキルは単体向けの単コインで、軽蔑の視線7を確定で得る。": "The Corrosion skill is a single-target, single-Coin attack that guarantees 7 Gaze of Contempt.",
+    "Ⅱ: 「視線の痕跡」が解放される。": "**Ⅱ**: Unlocks Mark of the Gaze.",
+    "Ⅲ: 攻撃加重値の上限と出血量が増え、侵蝕スキルの出血ダメージ増加が強まる。": "**Ⅲ**: Raises the Attack Weight cap and Bleed amount, and strengthens the Corrosion skill's Bleed damage increase.",
+    "Ⅳ: 威力と加重値の上限(6)が上がり、軽蔑の視線が2ターンにまたがり、色欲共鳴での資源獲得が加わる。強化に無駄がなく、優先度は高いと考えられる。": "**Ⅳ**: Raises power and the Attack Weight cap (6), spreads Gaze of Contempt across 2 turns, and adds resource gain with Lust Resonance. Every upgrade is useful, so it is likely a high priority.",
+    "エドガー家 チーフバトラー: S1(色欲)・S2(傲慢)・S3(憤怒)が必要資源の属性と重なり、傲慢のS2は加重値を増やして広域になる。": "**[Edgar Family Chief Butler](persona:0408)**: S1 (Lust), S2 (Pride), and S3 (Wrath) match the required affinities, and her Pride S2 increases Attack Weight to become multi-target.",
+    "蜘蛛の巣の刀: 色欲・傲慢・憤怒のスキルを持ち、出血・火傷を付与するので、このE.G.Oの出血と合わせて使いやすい。": "**[Blade of the House of Spiders](persona:0415)**: Has Lust, Pride, and Wrath skills and inflicts Bleed and Burn, making her easy to use alongside this E.G.O's Bleed."
+  }
+}

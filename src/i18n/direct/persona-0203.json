@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0203.md",
+  "code": "0203",
+  "messages": {
+    "S3「機会狙い」の高い威力でマッチに競り勝ち、大きなダメージを入れるアタッカー。耐久は低い。呼吸・破裂・クイックはおまけ程度。": "An attacker that uses the high Power of S3 Opportunistic Slash to win clashes and deal heavy damage. Fragile defensively; Poise, Rupture, and Haste are minor bonuses.",
+    "S3「機会狙い」: 基本威力4、コイン威力+8の2コイン。前のターンにダメージを受けていなければコイン威力+3になり、マッチ威力は最大26(4+11×2)。Ⅱコインの表面的中時に破裂5を付与する。最低値は4と低いので、精神力が低いと両コインとも裏になる危険がある。": "**S3 — Opportunistic Slash**: 2 Coins with 4 Base Power and +8 Coin Power. If she took no damage on the previous turn, Coin Power becomes +11, for a maximum Clash Power of 26 (4+11×2). Coin Ⅱ inflicts 5 Rupture on Heads Hit. Its minimum roll is only 4, so with low SP both Coins risk landing Tails.",
+    "S2「深斬り」: 3コインの主力。Ⅰ・Ⅱコインで次のターンに呼吸1、Ⅲコインで次のターンにクイック2/4を得る。": "**S2 — Deep Cuts**: Her main 3-Coin skill. Coins Ⅰ and Ⅱ give 1 Poise next turn, and Coin Ⅲ gives 2/4 Haste next turn.",
+    "S1「単撃」: マッチ威力2~8/3~9/3~11と低く、一方攻撃向き。使用時に呼吸回数2増加、破裂1/2を付与する。": "**S1 — Sole Strike**: Low Clash Power of 2–8/3–9/3–11, so it is better suited to one-sided attacks. On use, increases Poise Count by 2 and inflicts 1/2 Rupture.",
+    "低い耐久: 体力71~224、防御レベルは人格Lv-4。被弾が重なると崩れやすい。": "**Low durability**: 71–224 HP and Defense Level of Identity Lv -4. She falls apart quickly when hits stack up.",
+    "バトルパッシブ「覚悟」(色欲×2・共鳴・同期化Ⅱで取得): 次のターン開始時に呼吸回数が4以上ならクイック2を得る。速度を参照するスキルがないので、恩恵は小さい。": "**Combat passive — Resolution (2 Lust Resonance; unlocked at Uptie Ⅱ)**: At the start of the next turn, gains 2 Haste if she has at least 4 Poise Count. None of her skills scale with Speed, so the benefit is small.",
+    "主力はS2。S3はここぞという場面の切り札にする。被弾しなかったターンの次にS3を撃てば最大26の威力が出るので、敵の強力なスキルにぶつけてマッチを取りにいく。E.G.Oが必要な攻撃も弾けるほどのマッチ力がある。S1はマッチで負けやすいので、一方攻撃に回すか守備に差し替える。耐久が低いため、不利なマッチや被弾を避ける立ち回りが前提になる。": "S2 is her main skill, and S3 is a trump card for key moments. After a turn in which she took no damage, S3 reaches up to 26 power, so throw it at the enemy's strongest skill to take the Clash. It has enough Clash power to beat attacks that would otherwise require an E.G.O. S1 tends to lose Clashes, so use it for one-sided attacks or swap it for a Defense skill. Her durability is low, so play around avoiding unfavorable Clashes and incoming hits."
+  }
+}

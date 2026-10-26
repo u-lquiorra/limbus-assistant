@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0412.md",
+  "code": "0412",
+  "messages": {
+    "敵に「視線」を集めて「軽蔑」に変え、強化S3で一気に撃ち抜く出血・振動の人格。": "A Bleed and Tremor Identity that gathers Gaze on enemies, converts it into Contempt, then fires enhanced S3 for a burst of damage.",
+    "視線と軽蔑: 視線は最大7で、1につき良秀からの被・与ダメージ量+10%。ターン終了時に7なら次のターンに軽蔑(良秀からの被・与ダメージ量-50%)に変わり、軽蔑は次のターンに視線7へ戻る。S1〜S3とバトルパッシブ「逃した@#$の手」(色欲×2・共鳴・同期化Ⅱで取得)で付与。": "**Gaze and Contempt**: Gaze has a maximum of 7, and each point gives +10% damage dealt to and taken from Ryōshū. At 7 at Turn End, it becomes Contempt next turn (−50% damage dealt to and taken from Ryōshū), and Contempt reverts to 7 Gaze the following turn. It is inflicted by S1–S3 and the combat passive @#$'s Hand I Let Slip (2 Lust Resonance; unlocked at Uptie Ⅱ).",
+    "出血と振動: 各スキルで出血と振動を付与し、合計に応じてコイン威力・ダメージ量が上がる。S2は対象の振動回数3以上で振動爆発、S3はⅢコインで振動爆発し、破壊されずに的中すれば振動-大量出血に変換。": "**Bleed and Tremor**: Each skill inflicts Bleed and Tremor, and Coin Power and damage rise based on their total. S2 triggers Tremor Burst if the target has at least 3 Tremor Count, and S3 triggers Tremor Burst with Coin Ⅲ and converts into Tremor - Hemorrhage if it hits without being broken.",
+    "「軽蔑の下に降り注ぐ畏敬の視線」: 全ての敵の視線の合計が7以上か軽蔑が1以上ならS3が変化。1コインの大技で、単体ならダメージ量+200%、軽蔑のある対象にはさらに大きく増える。攻撃後に視線・軽蔑を全て消耗。": "**Cascading Gaze of Awe Underneath Contempt**: S3 changes into this when the total Gaze across all enemies is 7 or more or Contempt is 1 or more. A 1-Coin big hit with +200% damage against a single target, and even more against targets with Contempt. It spends all Gaze and Contempt after the attack.",
+    "視線の軽蔑: 守備の戦闘開始時、条件を満たすと得る。保護7・ダメージ量減少7を得て、挑発値が20増える。": "**Contempt of the Gaze**: Gained at Combat Start of her Defense skill when the condition is met. She gains 7 Protection and 7 Damage Down, and her Aggro increases by 20.",
+    "S1・S2で視線・出血・振動を積み、視線の合計が7以上か軽蔑が付いたら強化S3で撃ち抜く。N社E.G.O::凶弾イサンと組むと、良秀が視線の軽蔑を持つターンに限り、イサンのS3「対象調整射撃」が良秀を撃つ「撃ち放たん/いつでも」に変わる(1ターン1回)。": "Stack Gaze, Bleed, and Tremor with S1 and S2, and once total Gaze reaches 7 or Contempt is applied, blast through with the enhanced S3. Paired with Yi Sang's N Corp. E.G.O:: Fell Bullet, only on turns when Ryōshū has Contempt of the Gaze, Yi Sang's S3 Target Readjustment Fire turns into I Shall Fire / Anytime, which shoots Ryōshū, once per turn."
+  }
+}

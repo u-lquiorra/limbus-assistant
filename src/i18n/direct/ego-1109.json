@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1109.md",
+  "code": "1109",
+  "messages": {
+    "マッチに勝つと余った嫉妬資源を足りない資源へ変換でき、パッシブで強敵に威力減少も入れる、嫉妬共鳴型の破壊不能コインE.G.O。": "An Envy Resonance E.G.O with an Unbreakable Coin that, on Clash Win, converts spare Envy resources into missing resources, with a passive that also inflicts Power Down on strong enemies.",
+    "資源の変換: マッチ勝利時、嫉妬共鳴の数だけ嫉妬資源を消耗し、最も少ない資源を1ずつ分けて得る(最大4、解析Ⅲは5、Ⅳは6)。": "**Resource conversion**: On Clash Win, spends Envy resources equal to Envy Resonance and gains the resources she has least of, 1 at a time (up to 4, 5 at Threadspin Ⅲ, 6 at Ⅳ).",
+    "マッチ敗北時: 最終威力が4下がる代わりに、嫉妬共鳴数×5のバリアを得る(最大20、解析Ⅲは25、Ⅳは30)。変換は勝利時にしか働かないので、勝てる場面で使う。": "**On Clash Lose**: Final Power drops by 4, but she gains Shield of Envy Resonance×5 (up to 20, 25 at Threadspin Ⅲ, 30 at Ⅳ). The conversion only works on a win, so use it when she can win.",
+    "一方攻撃に注意: 破壊不能コインで、一方攻撃では「破壊されずに的中時」の回復が発動しない。": "**Beware one-sided attacks**: It has an Unbreakable Coin, and in one-sided attacks, the healing \"on hit without being broken\" does not trigger.",
+    "デバフと回復: 的中時に針2・釘1(解析Ⅲから呪い1)を付与する。破壊されずに的中すると、体力割合が最も低い味方2名を最大体力の6%(解析Ⅲは8%、Ⅳは10%)回復する(自分以外は嫉妬属性の基本攻撃を持つ味方のみが対象)。": "**Debuffs and healing**: Inflicts 2 Needles and 1 Nails on hit (plus 1 Curse from Threadspin Ⅲ). When it hits without being broken, heals the 2 allies with the lowest HP ratio by 6% of max HP (8% at Ⅲ, 10% at Ⅳ) (allies other than herself must have an Envy basic attack).",
+    "パッシブ「呪いの罰ゲーム」: マッチ勝利時に対象へ嫉妬ダメージ4。自分か対象の体力が33%未満なら、次のターンに威力減少1を付与する(1ターン1回)。": "**Passive — Loser's Penalty: Voodoo**: Deals 4 Envy damage to the target on Clash Win. If her or the target's HP is below 33%, inflicts 1 Power Down next turn (once per turn).",
+    "嫉妬共鳴を高く保てる編成で、スキル1の代わりに撃って嫉妬資源を他の資源に替える。人格スキルで出しにくい資源の確保に向く。": "In teams that can keep Envy Resonance high, fire it in place of Skill 1 to trade Envy resources for other resources. It is good for securing resources that are hard to produce with Identity skills.",
+    "嫉妬主体でない編成では、ほぼパッシブ目当てのE.G.Oになると考えられる。": "In teams that are not Envy-centered, it is likely an E.G.O used mostly for its passive.",
+    "必要資源は色欲1・嫉妬3、精神消耗は覚醒15。使用中の罪悪耐性は、怠惰・憂鬱が脆弱、嫉妬が抵抗で、他は普通に切り替わる。": "It requires 1 Lust and 3 Envy, with an Awakening Sanity cost of 15. While in use, her Sin resistances switch to Fatal to Sloth and Gloom, Endured against Envy, and Normal for the rest.",
+    "侵蝕スキルは1枠3コインで、嫉妬共鳴に応じた広域化とデバフが中心。詳細はスキル欄を参照。": "The Corrosion skill is a single 3-Coin slot centered on multi-target attacks and debuffs based on Envy Resonance. See the skill section for details.",
+    "Ⅱ: 「呪いの罰ゲーム」が解放される。": "**Ⅱ**: Unlocks Loser's Penalty: Voodoo.",
+    "Ⅲ: 変換量・回復量・バリア量が増え、呪い1が加わる。嫉妬編成でよく使うなら価値が高い。": "**Ⅲ**: Increases the conversion amount, healing, and Shield, and adds 1 Curse. Valuable if you use it often in Envy teams.",
+    "Ⅳ: Ⅲとほぼ同じ項目がさらに強化される。余裕があれば。": "**Ⅳ**: Strengthens nearly the same items as Ⅲ further. If you can spare it.",
+    "蜘蛛の巣中指の親方: 嫉妬のスキルが中心で、嫉妬完全共鳴6を前提にした効果を持ち、このE.G.Oの変換量・バリアが伸びる。": "**[The House of Spiders: The Middle Nursefather](persona:1115)**: Centered on Envy skills, with effects that assume 6 Envy Absolute Resonance, boosting this E.G.O's conversion amount and Shield."
+  }
+}

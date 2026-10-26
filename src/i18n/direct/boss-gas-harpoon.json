@@ -1,0 +1,1089 @@
+{
+  "kind": "boss-copy",
+  "id": "gas-harpoon",
+  "source": "src/data/bosses/gas-harpoon.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "掛かって来い！",
+          "en": "Strike Me Down!",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810601"
+        },
+        {
+          "ja": "刺し殺す",
+          "en": "Stab to Kill",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810602"
+        },
+        {
+          "ja": "不滅の魂",
+          "en": "Undying Soul",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810603"
+        },
+        {
+          "ja": "濁った潔白",
+          "en": "Murky Innocence",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810604"
+        },
+        {
+          "ja": "罪悪感の重さ",
+          "en": "Weight of Guilt",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810605"
+        },
+        {
+          "ja": "覆い隠された恐れ",
+          "en": "Swathed Fear",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810607"
+        },
+        {
+          "ja": "貫かれた惰弱さ",
+          "en": "Punctured Weakness",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810608"
+        },
+        {
+          "ja": "木霊する嘆息",
+          "en": "Echoing Cry",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810609"
+        },
+        {
+          "ja": "混濁した軌跡",
+          "en": "Clouded Path",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810610"
+        },
+        {
+          "ja": "脱色された懺悔",
+          "en": "Bleached Atonement",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810611"
+        },
+        {
+          "ja": "広がりゆく白化",
+          "en": "Insidious Pallidification",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810612"
+        },
+        {
+          "ja": "崇高の対価",
+          "en": "Price of Nobility",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810607"
+        },
+        {
+          "ja": "エイハブ",
+          "en": "Ahab",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8105"
+        },
+        {
+          "ja": "ピップの罪と潔白",
+          "en": "Pip's Sin and Innocence",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810602"
+        },
+        {
+          "ja": "スターバックの恐れ",
+          "en": "Starbuck's Fears",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810603"
+        },
+        {
+          "ja": "銛で貫く",
+          "en": "Puncturing Harpoon",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810402"
+        },
+        {
+          "ja": "クィークェグの懺悔",
+          "en": "Queequeg's Atonement",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810605"
+        },
+        {
+          "ja": "不屈の銛使い",
+          "en": "The Indomitable Harpooneer",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810303"
+        },
+        {
+          "ja": "ピップの自我",
+          "en": "Pip's Ego",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBo"
+        },
+        {
+          "ja": "スターバックの自我",
+          "en": "Starbuck's Ego",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBp"
+        },
+        {
+          "ja": "クィークェグの自我",
+          "en": "Queequeg's Ego",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBq"
+        },
+        {
+          "ja": "獲物の印",
+          "en": "Prey Mark",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBj"
+        },
+        {
+          "ja": "開花 E.G.O:: ガスハープーン",
+          "en": "Effloresced E.G.O::GasHarpoon",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8106"
+        },
+        {
+          "ja": "蒼白な騒音",
+          "en": "Pallid Noise",
+          "file": "Bufs-a1c5p2.json",
+          "id": "AaCePbBa"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "ba651737561cee57921a782cd6745ff204f506298057dc172bc8f6bd1c2e2af5",
+      "text": "Effloresced E.G.O::GasHarpoon"
+    },
+    "shortName": {
+      "sourceHash": "42c5b5a90a9cab7d8e11977474ab240845467067b3db458f86befa8f463cbff5",
+      "text": "GasHarpoon"
+    },
+    "stageName": {
+      "sourceHash": "8a0df72c59c03ec976d1899ad7c417783cfa918ca6fbce23b71c12de9fc1b9c0",
+      "text": "Into the Darkness, Floor 3: Final Battle"
+    },
+    "lead": {
+      "sourceHash": "cb703bea403e8e64350a8e6ea593cded64cb67b1043bf9fc6be84e65a04ff953",
+      "text": "Break Pip's Evade, win Clashes with marked Sinners against Starbuck, and break Queequeg's Shield. Reduce each form's Ego and damage it during Stagger."
+    },
+    "listLead": {
+      "sourceHash": "09f05d6ca58db0af911c242b78ef792fd466a369bb9727df63f6e5ff87da6a66",
+      "text": "Fight 3 forms consecutively. Break Evade in the first, win Clashes with marked Sinners in the second, and break the Shield in the third. Reduce each form's Ego and damage it during Stagger."
+    },
+    "statNote": {
+      "sourceHash": "1089bd36cf7414cfc87153b27ecd5f5caf256a3bc0b08b967768b9e6e78a5f71",
+      "text": "The Canto V story encounter. Each of the 3 forms has 660 HP. Offense and Defense Levels include Price of Nobility at form start. These form bonuses are estimates in the source: +1 for Pip and +2 for the other 2 forms. SP and in-battle buffs are not fixed to these values."
+    },
+    "skillNote": {
+      "sourceHash": "d2e833703191b3136e3ec1c5f55f7bd04bc9b604e3ba926176abb3a6630dae30",
+      "text": "Displayed power excludes conditional buffs. Check each effect for Ego-based power, Attack Weight, and Coin reuse. Resistances and HP differ from Mirror Dungeon versions."
+    },
+    "priorities.0": {
+      "sourceHash": "2d50e1b5fbdedfa2ef657eac465524f21ffb5587079e07cb4d52a1170beeaf19",
+      "text": "Ishmael is mandatory. Aim for Level 40 and Uptie III or higher on your main units, entering with HP and E.G.O resources prepared."
+    },
+    "priorities.1": {
+      "sourceHash": "b297840c1abc10664ff4ef344e2580de2c9399c20ccd5453a9abdd77fb659850",
+      "text": "Reduce each form's Ego to 0 to cause Stagger. Check marked Sinners and action order rather than automatically choosing only by Clash odds."
+    },
+    "priorities.2": {
+      "sourceHash": "49fe021e6e3819f56b17569302a2d4619d47dd41a63f4c8796a388aaa1f88285",
+      "text": "In the final form, fully break the Shield in 1 turn. Use E.G.O for Sloth resistance in an earlier form, saving strong skills and healing."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a343a49c646e9195acc4d82928c6d86fb7d19afdd17d28f760deef69c822007d",
+      "text": "Pip's Evade keeps returning"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "581eeed4782ff08ac680c4ae800be58129c6317b40613721899a3bb73f7bfca1",
+      "text": "Undying Soul is reused even after a failed Evade. First win against Murky Innocence to lower Defense Power, then break subsequent Evades to reduce Ego."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "22253fadfda64a6a4e267a25ed57c2193923e542a7fc73583a31280c418a01ed",
+      "text": "Starbuck's Ego does not decrease"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "16208b23fc21003dc65955b3123f4aee910ce39f87d3c6358e11b6b3aa0c9572",
+      "text": "A Sinner with Prey Mark must win the Clash. The mark is applied [On Use] for next turn, so check its actual recipient each turn."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "162d65db9e0504457e6cc42b9f9c007b3474aa003d26c797576065a985245016",
+      "text": "SP and damage keep falling in the final form"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "aeeef4983626d6f6860fb7ffc1435f81b1d834ca8ee4bdeed17087f7b760eb35",
+      "text": "A remaining Shield increases Ego, sustaining Counters and SP damage. Recheck Sloth/Pierce resistance, healing, and your plan to concentrate damage in the same turn."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "ca0444ccef12efb294f663c17942ed32a093db982cd4dd78a860bba48cdaa7ad",
+      "text": "Reducing HP does not end the fight"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "142a2a0a4f38e6178237846f3c0d25afe01dc8b656a1a2c6506cbd3876454e1b",
+      "text": "This is a sequence of 3 forms, transitioning at 1 HP. Reaching 1 HP on Queequeg triggers the final event. Avoid spending all resources in earlier forms."
+    },
+    "units.0.name": {
+      "sourceHash": "3357d47368bc2e342568059fcffc498130a093a736cafef41afdef7f49754177",
+      "text": "GasHarpoon (Pip's Ego)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "a7a2d9e83129bd9c0b6e2dee4a37bc88e3a1fd01c0866eb6519ace500235783b",
+      "text": "660 (per form)"
+    },
+    "units.0.stagger": {
+      "sourceHash": "00957f6837a88501ed96b550c737a512c44ee8a99874c89f513ba1a04b0e2d1d",
+      "text": "50% / 0% HP (330 / 0) / also Staggers at 0 Ego"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "dc83abcbb1fda995237908dcb1d8585ffaacbf58e1c21aa77ca590da9642acd2",
+      "text": "Transitions at 1 HP. On entering Starbuck and Queequeg, statuses are removed but SP carries over."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "006a4dc33eebd1ca5b489225f0b3310d935ecfb1ee673551dfa7e98c35da1149",
+      "text": "Starts with 20 Pip's Ego. Lose 1 on a failed Evade and 3 when using Weight of Guilt."
+    },
+    "units.1.name": {
+      "sourceHash": "55f6677824b1fcbf49a86021f2752fa7b8593ce16346b48011b3b92f01ca121e",
+      "text": "GasHarpoon (Starbuck's Ego)"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "a7a2d9e83129bd9c0b6e2dee4a37bc88e3a1fd01c0866eb6519ace500235783b",
+      "text": "660 (per form)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "00957f6837a88501ed96b550c737a512c44ee8a99874c89f513ba1a04b0e2d1d",
+      "text": "50% / 0% HP (330 / 0) / also Staggers at 0 Ego"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "dc83abcbb1fda995237908dcb1d8585ffaacbf58e1c21aa77ca590da9642acd2",
+      "text": "Transitions at 1 HP. On entering Starbuck and Queequeg, statuses are removed but SP carries over."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "f9cf4e703b7d08d51c585dc8ca792e85f8942e1e7e129e4bd4d14c86371d49ea",
+      "text": "Starts with 20 Starbuck's Ego. Losing a Clash to a marked target reduces it by the number of Coins destroyed."
+    },
+    "units.2.name": {
+      "sourceHash": "28f4728e83efa4d95bf039100abb529463e75b557ebb2ffff06d7247f16286cd",
+      "text": "GasHarpoon (Queequeg's Ego)"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "a7a2d9e83129bd9c0b6e2dee4a37bc88e3a1fd01c0866eb6519ace500235783b",
+      "text": "660 (per form)"
+    },
+    "units.2.stagger": {
+      "sourceHash": "00957f6837a88501ed96b550c737a512c44ee8a99874c89f513ba1a04b0e2d1d",
+      "text": "50% / 0% HP (330 / 0) / also Staggers at 0 Ego"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "dc83abcbb1fda995237908dcb1d8585ffaacbf58e1c21aa77ca590da9642acd2",
+      "text": "Transitions at 1 HP. On entering Starbuck and Queequeg, statuses are removed but SP carries over."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "641bfaac6cd7054b7f44b155c202fe744b5b16861fabe390cc85f9dcfa7feeff",
+      "text": "Starts with 30 Queequeg's Ego. At Turn End, lose 10 if no Shield remains; otherwise gain 5."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "bc99092a5a41dcdce5b6bec58bdb230d66365c4873e275b242d6f99a21b2a7ab",
+      "text": "Prepare Ishmael and the final form's resistances and damage"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "cb9d5c1b48449724744baadc1391daf84689b631c77ed21f8a0ae2e5f010d3cc",
+      "text": "Ishmael cannot be removed from the team or retreat. While other Sinners survive, she endures at 1 HP, but this does not prevent an area attack from defeating everyone together."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "fef3eafd9f0be2caa187b6b49f8813f83a62a6c150aa18f3c3c1cbcea54d90a3",
+      "text": "Aim for Level 40 and Uptie III or higher on your main units. Pierce, Pride, and Envy are effective, so build from your trained roster."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "54f25131e21ccb168f9347278bdbcd427295ae937828cadcb12fc25942fdf176",
+      "text": "The final Counter is Sloth/Pierce. E.G.O changes Sin resistances, so prepare Sloth resistance during Pip or Starbuck and save resources for healing and final-form damage."
+    },
+    "phases.1.timing": {
+      "sourceHash": "0f42dfd06cd31647cc034ee0fbbe9d8986832ffffb209bfb12f1d220f81042fc",
+      "text": "Form 1 / Pip"
+    },
+    "phases.1.title": {
+      "sourceHash": "b99971c5ab45aa9743bd66b5ded00af0c8438ac26ef85f130bc3a7572ae06d06",
+      "text": "Lower Defense Power first, then break the Evade"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "673da2b828673b24f27059389aa0bae2cf3e244dfba394cfe90f7b74d0f8f482",
+      "text": "Win against Murky Innocence with a fast Sinner to apply 2 Defense Power Down. Then attack Undying Soul; each failed Evade reduces Ego by 1."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "6293979be01d8325e59f60e90fb87d2dd5150af83820bec3bff99ab9093ca6d3",
+      "text": "Undying Soul can be reused up to 2 times even after failing. Unlike ordinary Evade, breaking it once does not guarantee all following attacks hit."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "04432c165c69532bfeeafcf6107d523bc9750519380c53f1532fb93a6533d593",
+      "text": "Weight of Guilt consumes 3 Ego [On Use], but high Ego increases its power and Attack Weight. Stop the area attack with powerful skills or E.G.O."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "f9cb785e8e0b45aaf8be5a8fc75df887e874fd48248f722c50aebdc264919d41",
+      "text": "At 0 Ego at Turn End, the boss Staggers next turn. You can also use HP Stagger Thresholds, then reduce it to 1 HP to advance."
+    },
+    "phases.2.timing": {
+      "sourceHash": "6443bbba997adbc98a8daf5379755133157a6ea088de8d34a39b7a2e3d7cd95f",
+      "text": "Form 2 / Starbuck"
+    },
+    "phases.2.title": {
+      "sourceHash": "41a00b00a0fc15c480a7cc881614fa1c447061f727e89f5355bd11226f2ce442",
+      "text": "Assign Clashes to Sinners with Prey Mark"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "ddaaafac92f08a89040f9107118f8938a7540ea479660a1d1ed4a91c28094095",
+      "text": "Swathed Fear and Punctured Weakness apply next turn's Prey Mark [On Use]. Winning cannot prevent it, so check who will receive the mark next."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "974c632787e72bd8da0a29aa9a2b27e9cdde2866c19f444d32cf84f6e8614faf",
+      "text": "Winning with a marked Sinner reduces Ego by the number of enemy Coins destroyed. Echoing Cry has 5 Coins, making it a strong way to reduce Ego."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "ec67c921c4492cb38b0ea9ee1f8ca67a8e4abd85230fe5bb677888dc36e2e71d",
+      "text": "Echoing Cry gains +1 Coin Power against unmarked Sinners. Save a winning E.G.O for the marked Sinner and protect their HP and SP."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "a77be8e730d7d1c5c0451c933708b0f12a43e37c54df76fb3c2ea59b14abfb67",
+      "text": "Use 0-Ego Stagger or HP Stagger to advance. The next form requires Shield breaking, so check your remaining strong skills before transitioning."
+    },
+    "phases.3.timing": {
+      "sourceHash": "39833181b2cc2576ae60964efb59f8fba693864582a141f199b5c07c5377cda3",
+      "text": "Form 3 / Queequeg"
+    },
+    "phases.3.title": {
+      "sourceHash": "eee136b3196ed92811ab84a19c8be3e57ad30c19f4366930133da689c0154938",
+      "text": "Prepare for Counters and break the Shield in 1 turn"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "dd0dc6bd6d129ba36dc67af326fd520383aa0936154ea5e5429131aa2254453f",
+      "text": "Insidious Pallidification grants a Shield at Combat Start. At 30 Ego, it equals 25% of Max HP, or 165, making the opening demanding. Concentrate your main units' attacks in the same turn to fully break it."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "dfbc8b02eadabaa518f21451f8192cc557447155cef0b57ac0ac6138ca6c66d9",
+      "text": "The Counter is reused according to Ego, and attacking while the Shield remains also costs SP. Preserve your damage dealers with Sloth/Pierce resistance and healing."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "f00fbd71f6f01c0231ff695783c308b86bd8ca2287b5e0b1fafc4326b6dc7e1d",
+      "text": "At Turn End, no Shield means -10 Ego; a remaining Shield means +5. Bleached Atonement consumes 5 [On Use], but still win its Clash to prevent Forced Stagger on hit."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "99877c58b14693d94ff32fd5fc0f2b1d87a6872b777857b24f1a8a75c77251c8",
+      "text": "Ishmael performs the event check. Check the predicted success and continue to later checks even on failure. Use 0-Ego or 50% HP Stagger openings to reach the ending event at 1 HP."
+    },
+    "skills.0.name": {
+      "sourceHash": "f45a895bb6429dc49ff7a9116feec76a8b56ff64b40091ed1b69e0112e6e97ce",
+      "text": "Strike Me Down!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.0.response": {
+      "sourceHash": "d8748f64ffb181a6c6e8f04112e326335addbe0c4d162a0f684b558a500fd3e6",
+      "text": "Both Coins increase Bleed Potency and Count. Stop it with a winning Clash before subsequent attacks repeatedly trigger Bleed."
+    },
+    "skills.1.name": {
+      "sourceHash": "50ac23a0fd9e52f1a5db72917952ec116896071fa7804de20c3d339c19a797d0",
+      "text": "Stab to Kill"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "1fc79c2830f88f5d8cc3f92417164313f9d13588e77c7fb53d95d6f4c80ba9ee",
+      "text": "Attack the target with the lowest Max HP."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "80c67fce402c496ca8b3ff762b1d4001e95299bada16188abfd7770eed3a1d02",
+      "text": "Ⅰ[On Hit] Inflict 6 Offense Level Down."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.1.response": {
+      "sourceHash": "0385a384c804e451c81c673cb447d64f1ab3534f68bd0fa731f9e8cc554a43f7",
+      "text": "Targets the Sinner with the lowest Max HP. Offense Level Down also weakens later Clashes, so redirect it with a faster ally where possible."
+    },
+    "skills.2.name": {
+      "sourceHash": "2eb5c456c2d35db6fe39c1a8358aed9c9784c443867b9260026fce30a09c6fe5",
+      "text": "Undying Soul"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "edf73e511482eb572d5042d6d802f80b265613a4c6abf3c238c12471f10cd403",
+      "text": "Reuse even on a failed Evade, up to 2 times."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "665e8b126ad0508a4b1f55b6f12bd9988c8aa63a6e4daf8016c2ee03bbd891dd",
+      "text": "[On Evade Fail] Reduce Pip's Ego by 1."
+    },
+    "skills.2.response": {
+      "sourceHash": "70d544eebaaac238d0c7da3a1bf0fe4f9014d3d33134819a81441540db0d7806",
+      "text": "A special Evade that can be reused up to 2 times even after failing. First beat Murky Innocence to lower Defense Power, then break Evades in Speed order to reduce Ego. Offsetting alone does not count as failed Evades."
+    },
+    "skills.3.name": {
+      "sourceHash": "fac463ff1bdcfdc694c953ef6c7ae53e2f4fc2b38202e8182ab250b499b1f45b",
+      "text": "Murky Innocence"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "90bdfee5b837a8268277592c1716cdce5913464529108fc44f61762931e04909",
+      "text": "[Clash Lose] Gain 2 Defense Power Down and lose 10 SP."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "e43504593706a10ebd8c8fbde46f4bd0ce29a9116c02f7ed368a50e05d104bd8",
+      "text": "Ⅰ[Heads Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "a600d6f7b126ee0bd6e167caf66fe2e78112867a3c5dba75e70aafcdf6d1cd98",
+      "text": "[On Hit] Inflict 1 Paralyze."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "1e3ba1c5d1a8cfb909543c9f8ac68ccf323c801575524629bb9ad47df99c4499",
+      "text": "Ⅱ[Heads Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "b6a1d7e264eef6d95ca79d43160f0ba106cadf56ded41c2c2d4a49d04e87b509",
+      "text": "[On Hit] Inflict 1 Bind next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "5e3772aa35737530fa507ee10e2bd69cf6adbd9c4107eb9e4204bf2b8a214bc1",
+      "text": "Ahab loses 2 Defense Power when she loses this Clash. Win with a fast Sinner first, then let other Sinners break Undying Soul afterward."
+    },
+    "skills.4.name": {
+      "sourceHash": "1ad0c718ce2f7161acf85b61a00609f50e3f0815ea6e291edb9bb193cd6c3880",
+      "text": "Weight of Guilt"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "9d5596dcd8735482359e2558b9f4634c9be1f025748e2e52d62ffd1f61193c4a",
+      "text": "Attack the 3 targets with the lowest Max HP."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "d004d676cb4f1c28da4278e8a151846a857b5308cb12f2b6558960a6a04151a6",
+      "text": "[Combat Start] Gain +2 Base Power and +1 Attack Weight per 5 Pip's Ego."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "a297830dfe52f158a2875900afd5f37bd25415bc23eb6fd617ea48eaa581ee11",
+      "text": "[On Use] Reduce Pip's Ego by 3."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6ba651347e08e993181502be67da778e9bf5adc3ad985304447e8645fb064ae2",
+      "text": "Ⅰ[On Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "b6a10ab167f50cbba4556ff8bfa5df920a071d752a605c541643db990d4c2d6b",
+      "text": "[On Hit] Raise the Stagger Threshold by 30."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "c5f52135a0ec6cc85c9cc80ab3d2fc3723ac7b03b0b7d1c1df7377fb0aaa2a39",
+      "text": "[Heads Hit] Reduce the target's SP by 10."
+    },
+    "skills.4.response": {
+      "sourceHash": "11178c7d8858b532bf5c41aeecef2685e6037a5915a2d98ca2bdb80f5da6510b",
+      "text": "At 20 Pip's Ego, this reaches 16 Base Power, a maximum roll of 18, and 7 Attack Weight. It remains a dangerous area attack even after consuming Ego [On Use]; prepare powerful E.G.O to win."
+    },
+    "skills.5.name": {
+      "sourceHash": "f45a895bb6429dc49ff7a9116feec76a8b56ff64b40091ed1b69e0112e6e97ce",
+      "text": "Strike Me Down!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.5.response": {
+      "sourceHash": "d8748f64ffb181a6c6e8f04112e326335addbe0c4d162a0f684b558a500fd3e6",
+      "text": "Both Coins increase Bleed Potency and Count. Stop it with a winning Clash before subsequent attacks repeatedly trigger Bleed."
+    },
+    "skills.6.name": {
+      "sourceHash": "50ac23a0fd9e52f1a5db72917952ec116896071fa7804de20c3d339c19a797d0",
+      "text": "Stab to Kill"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "1fc79c2830f88f5d8cc3f92417164313f9d13588e77c7fb53d95d6f4c80ba9ee",
+      "text": "Attack the target with the lowest Max HP."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "80c67fce402c496ca8b3ff762b1d4001e95299bada16188abfd7770eed3a1d02",
+      "text": "Ⅰ[On Hit] Inflict 6 Offense Level Down."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.6.response": {
+      "sourceHash": "0385a384c804e451c81c673cb447d64f1ab3534f68bd0fa731f9e8cc554a43f7",
+      "text": "Targets the Sinner with the lowest Max HP. Offense Level Down also weakens later Clashes, so redirect it with a faster ally where possible."
+    },
+    "skills.7.name": {
+      "sourceHash": "8e1df0d76b427620829e5e80b20ee1c73137211652ce4519894a6f350b7aaabd",
+      "text": "Swathed Fear"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "e9b206411ae9d9f38c73ff7db208becedaca9e4aae3f0e5128fb000ee41ce8f5",
+      "text": "[On Use] Inflict 1 Prey Mark next turn."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "e43504593706a10ebd8c8fbde46f4bd0ce29a9116c02f7ed368a50e05d104bd8",
+      "text": "Ⅰ[Heads Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "4eeaa87086aac363e552debaf98024f88af49b25e1200f8f0a7b1c5ddf993903",
+      "text": "[On Hit] Inflict 3 Bleed and increase Bleed Count by 4."
+    },
+    "skills.7.response": {
+      "sourceHash": "1ff6e56882da972bddf41e683eacee802619ad7df4053c0295cc34bf1b9cd873",
+      "text": "Prey Mark applies [On Use], so winning the Clash cannot prevent it. Check next turn's marked Sinner and assign them Clashes that reduce Ego."
+    },
+    "skills.8.name": {
+      "sourceHash": "5d7d0b376511002f36102e8cb4dea1533644a3cd8fa63d0430175aa8d3539ccb",
+      "text": "Punctured Weakness"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "e9b206411ae9d9f38c73ff7db208becedaca9e4aae3f0e5128fb000ee41ce8f5",
+      "text": "[On Use] Inflict 1 Prey Mark next turn."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "e43504593706a10ebd8c8fbde46f4bd0ce29a9116c02f7ed368a50e05d104bd8",
+      "text": "Ⅰ[Heads Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "6519941e8cdb4a126e5321a57e2ffc3ec415bcb0bd36b4ff6049c816b4437d7f",
+      "text": "[On Hit] Inflict 3 Offense Level Down next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "c19d8a322817a19de719a4746b36ae3a77ca0c34f8cbe922329eb1013fc70885",
+      "text": "Stopping the attack does not remove next turn's mark. Preserve the marked Sinner's HP, SP, and an answer to Echoing Cry."
+    },
+    "skills.9.name": {
+      "sourceHash": "086b4007d13db5d834b51a390bc3eded1b662ab4160ce507c41c1f7aed966d62",
+      "text": "Echoing Cry"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "83f3ab21e45b321a0be0bd6707f811851491cef9790f6a04bf7c06b9f23a5f91",
+      "text": "Deal +5% damage per Bleed on the target."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "18a0612471759300a7933386c5f92ba474e1e36c8a1562454140be90192df881",
+      "text": "If the target has no Prey Mark, gain +1 Coin Power."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "47587311fdcb2eadff1f267cbbcfc6f4a993b7fe4683693f3f35992958266b82",
+      "text": "[Clash Lose] Lose 5 SP."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "790f9d9ea073ba97ff910dcd798055f1ee07a0289fdc20130ac7a24f926488fe",
+      "text": "Ⅰ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "58ecf301f9da7763c94648cadd3d274511fc8a29b8aac9193339d06034910094",
+      "text": "[On Hit] Deal 3 SP damage to 3 random enemies."
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "fa0bbd6e078d752470af9c1e2b8b606e085558d66be4ee272e07788fe1f3ebde",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "58ecf301f9da7763c94648cadd3d274511fc8a29b8aac9193339d06034910094",
+      "text": "[On Hit] Deal 3 SP damage to 3 random enemies."
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "16d1b26da77ec5333c815633da9b40d4450d877ae0040286cd3ef90019b1f613",
+      "text": "Ⅲ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "58ecf301f9da7763c94648cadd3d274511fc8a29b8aac9193339d06034910094",
+      "text": "[On Hit] Deal 3 SP damage to 3 random enemies."
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "3c0557b71d19e712114d42d29d1945d96863798fc257e279b600d93ee06c54ce",
+      "text": "Ⅳ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "58ecf301f9da7763c94648cadd3d274511fc8a29b8aac9193339d06034910094",
+      "text": "[On Hit] Deal 3 SP damage to 3 random enemies."
+    },
+    "skills.9.effects.11": {
+      "sourceHash": "77de12fca7f5d31e30318f67e5decf71d11699cd2e3aad6c38fda73166a14f5e",
+      "text": "Ⅴ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.9.effects.12": {
+      "sourceHash": "58ecf301f9da7763c94648cadd3d274511fc8a29b8aac9193339d06034910094",
+      "text": "[On Hit] Deal 3 SP damage to 3 random enemies."
+    },
+    "skills.9.effects.13": {
+      "sourceHash": "7a350dbabe02badfe2cd08281675fd7a2316bf359123dc6d60c69dad40c2559b",
+      "text": "[On Hit] Reuse the final Coin once per 10 Starbuck's Ego."
+    },
+    "skills.9.response": {
+      "sourceHash": "952ae82d438eeeca14152c60d61b54da34aca78b26404a9687c5df78d9004b77",
+      "text": "A marked Sinner winning destroys 5 Coins' worth of Ego. Unmarked targets increase Coin Power, so do not automatically reassign this to your strongest Sinner. Final-Coin reuse is an [On Hit] effect."
+    },
+    "skills.10.name": {
+      "sourceHash": "f45a895bb6429dc49ff7a9116feec76a8b56ff64b40091ed1b69e0112e6e97ce",
+      "text": "Strike Me Down!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "88f177f7350b3cfeeb9b7e8ba533f0e51fbd3325e6973454d358d42fe36d6c22",
+      "text": "Ⅰ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "d006678bee6d1b0b94a2fdbd10cea19d40c8bddaf6d971b584cee151e2327d39",
+      "text": "Ⅱ[On Hit] Inflict 3 Bleed."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "d4d6c7daff99497ae2f9563b18bd67b5903c07ed792e678654b9a3f8a860f2f8",
+      "text": "[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.10.response": {
+      "sourceHash": "d8748f64ffb181a6c6e8f04112e326335addbe0c4d162a0f684b558a500fd3e6",
+      "text": "Both Coins increase Bleed Potency and Count. Stop it with a winning Clash before subsequent attacks repeatedly trigger Bleed."
+    },
+    "skills.11.name": {
+      "sourceHash": "50ac23a0fd9e52f1a5db72917952ec116896071fa7804de20c3d339c19a797d0",
+      "text": "Stab to Kill"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "1fc79c2830f88f5d8cc3f92417164313f9d13588e77c7fb53d95d6f4c80ba9ee",
+      "text": "Attack the target with the lowest Max HP."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "80c67fce402c496ca8b3ff762b1d4001e95299bada16188abfd7770eed3a1d02",
+      "text": "Ⅰ[On Hit] Inflict 6 Offense Level Down."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.11.response": {
+      "sourceHash": "0385a384c804e451c81c673cb447d64f1ab3534f68bd0fa731f9e8cc554a43f7",
+      "text": "Targets the Sinner with the lowest Max HP. Offense Level Down also weakens later Clashes, so redirect it with a faster ally where possible."
+    },
+    "skills.12.name": {
+      "sourceHash": "6a3aafe92203abe7cbfc720995a6d600886d28d62829df30408701f5f878bf5e",
+      "text": "Clouded Path"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "e9b206411ae9d9f38c73ff7db208becedaca9e4aae3f0e5128fb000ee41ce8f5",
+      "text": "[On Use] Inflict 1 Prey Mark next turn."
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "3bf220d959801009448fc7af5f7e95aacff5b84d5d9b505fd322ccc7c4ab3ce7",
+      "text": "Ⅰ[On Hit] Inflict 2 Damage Down."
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "2e2175ba6dfd3eeb733186c623858f252d763f67367b5bca2e9833cbfdcf9f05",
+      "text": "Ⅱ[On Hit] Increase Bleed Count by 3."
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "0f8ecd4c977f9f47145ccbaf7714c7cc00e09914472c923d171848346d272a60",
+      "text": "Ⅲ[Heads Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "23bdfa009d1642502400536fe9d03faeffe0b16fce7b5021a9a59316e9c89a6f",
+      "text": "[On Hit] Inflict 5 Bleed."
+    },
+    "skills.12.response": {
+      "sourceHash": "22c29d1aa1eac15a676d657f48e5f7e5464083c55c1b89b5812ba2d45b4dade7",
+      "text": "Damage Down makes Shield breaking harder. Protect your Shield breakers and check next turn's mark and Bleed too."
+    },
+    "skills.13.name": {
+      "sourceHash": "7b65b0cb27d2e3ac0f7019dcf7292859e3f7f2243cd02eaf4d6e1476f3f4dee7",
+      "text": "Bleached Atonement"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "afa6ec02c24ea6cd8754899b98773ce54d96f28bb660cf3e630f6d87866deca0",
+      "text": "[On Use] Reduce Queequeg's Ego by 5."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "466bedf49a69ff9900334c5f7e1bcf694c24a72876890e57bd29a316ea203f1f",
+      "text": "[Clash Win] Gain 6 Defense Level Up."
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "47587311fdcb2eadff1f267cbbcfc6f4a993b7fe4683693f3f35992958266b82",
+      "text": "[Clash Lose] Lose 5 SP."
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "6ba651347e08e993181502be67da778e9bf5adc3ad985304447e8645fb064ae2",
+      "text": "Ⅰ[On Hit] Inflict 1 Pallid Noise."
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "87661a18e579ae469ba9b523f8182f9d32429635c2644301712104c55ca36304",
+      "text": "[On Hit] Stagger the target."
+    },
+    "skills.13.response": {
+      "sourceHash": "fbbeac7fada36a8a5be9ba3d5c5b63c4532b74458682d2c4ceb25e2b166007f2",
+      "text": "Consumes 5 Ego [On Use], but forces Stagger on hit. Win the Clash to prevent this and preserve actions for breaking the Shield."
+    },
+    "skills.14.name": {
+      "sourceHash": "f17a907f6f988de517699f24ceded7158466fd01dfef5eda6fbad4ce1c2b9459",
+      "text": "Insidious Pallidification"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "f177f40d4d95baee26eaea4412452b014d4124e6964ce57d0d82004324d84881",
+      "text": "[Combat Start] Gain a Shield equal to 10% of Max HP, plus 0.5% of Max HP per Queequeg's Ego."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "7368aefdd7f8399a4a27d60dc2304d95c7aa074e9e48c47de46e57c977320dd6",
+      "text": "While Shield remains, reduce the attacker's SP by 5 when taking damage."
+    },
+    "skills.14.effects.2": {
+      "sourceHash": "04ec9fa8a4989a8f5a4270d1a2f67620cb2fdac466f152ee6fc16aecec00d301",
+      "text": "When taking damage, reuse the skill once per 10 Queequeg's Ego."
+    },
+    "skills.14.effects.3": {
+      "sourceHash": "790f9d9ea073ba97ff910dcd798055f1ee07a0289fdc20130ac7a24f926488fe",
+      "text": "Ⅰ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.14.effects.4": {
+      "sourceHash": "fa0bbd6e078d752470af9c1e2b8b606e085558d66be4ee272e07788fe1f3ebde",
+      "text": "Ⅱ[On Hit] Inflict 1 Bleed."
+    },
+    "skills.14.response": {
+      "sourceHash": "cb400b5d0505af59176aab2d2dfa44f42da97cb3a425544151b58fca06702902",
+      "text": "At 30 Queequeg's Ego, the Shield equals 25% of Max HP (165). Prepare Sloth/Pierce resistance and healing, then fully break it in the same turn despite Counter reuse. Attack Power Down does not reduce normal Counter power."
+    },
+    "passives.0.name": {
+      "sourceHash": "a668b7a5c4fed90679d685bb37599d53905d1277da6c9e02b6cadd21fb27f09f",
+      "text": "Price of Nobility"
+    },
+    "passives.0.condition": {
+      "sourceHash": "c39b5886c21f0de19669e1936df78239566520342cd454fa0ab90ac2cb709fb2",
+      "text": "Gains another person's effects"
+    },
+    "passives.0.effect": {
+      "sourceHash": "e9ea1b34e84a9b6cd4bf24df2dcd41a2fdc29da6fca81f6e024955d0903f1937",
+      "text": "Offense and Defense Levels increase. Losing Clashes with certain skills reduces SP."
+    },
+    "passives.0.response": {
+      "sourceHash": "dddccb2f912d439bfa0f9477de87586b4ba92a7372c9a0628bd7c5576c2cb587",
+      "text": "After a form change, check actual Clash predictions and buffs rather than relying on the previous form's values."
+    },
+    "passives.1.name": {
+      "sourceHash": "962572b7253fbf21aba4393b66f8ca62aff49dbf240c3d11e9e01f0d66841fc9",
+      "text": "Ahab"
+    },
+    "passives.1.condition": {
+      "sourceHash": "01f26cdb3e60da67143963ff5b57a09e8992d854cadaafca75f834899387483d",
+      "text": "Turn Start / recovery from Panic"
+    },
+    "passives.1.effect": {
+      "sourceHash": "2ad9ef6872a175dc86a0d8853ddf618f4dcef1fcb11bc1b3d5f1ede117058c08",
+      "text": "At Turn Start, heal 15 SP unless at -45 SP. At Turn End, if in Panic, remove it and reset SP to 0; gain 2 Attack Power Up and 2 Defense Power Up next turn."
+    },
+    "passives.1.response": {
+      "sourceHash": "975b9576a6bda3052f25f83c6c6ed2c120c41a04b2b963862f86a2218cd3cfee",
+      "text": "If using SP loss, also prepare for recovery and stronger Counters after Panic."
+    },
+    "passives.2.name": {
+      "sourceHash": "a668b7a5c4fed90679d685bb37599d53905d1277da6c9e02b6cadd21fb27f09f",
+      "text": "Price of Nobility"
+    },
+    "passives.2.condition": {
+      "sourceHash": "c39b5886c21f0de19669e1936df78239566520342cd454fa0ab90ac2cb709fb2",
+      "text": "Gains another person's effects"
+    },
+    "passives.2.effect": {
+      "sourceHash": "e9ea1b34e84a9b6cd4bf24df2dcd41a2fdc29da6fca81f6e024955d0903f1937",
+      "text": "Offense and Defense Levels increase. Losing Clashes with certain skills reduces SP."
+    },
+    "passives.2.response": {
+      "sourceHash": "dddccb2f912d439bfa0f9477de87586b4ba92a7372c9a0628bd7c5576c2cb587",
+      "text": "After a form change, check actual Clash predictions and buffs rather than relying on the previous form's values."
+    },
+    "passives.3.name": {
+      "sourceHash": "962572b7253fbf21aba4393b66f8ca62aff49dbf240c3d11e9e01f0d66841fc9",
+      "text": "Ahab"
+    },
+    "passives.3.condition": {
+      "sourceHash": "01f26cdb3e60da67143963ff5b57a09e8992d854cadaafca75f834899387483d",
+      "text": "Turn Start / recovery from Panic"
+    },
+    "passives.3.effect": {
+      "sourceHash": "2ad9ef6872a175dc86a0d8853ddf618f4dcef1fcb11bc1b3d5f1ede117058c08",
+      "text": "At Turn Start, heal 15 SP unless at -45 SP. At Turn End, if in Panic, remove it and reset SP to 0; gain 2 Attack Power Up and 2 Defense Power Up next turn."
+    },
+    "passives.3.response": {
+      "sourceHash": "975b9576a6bda3052f25f83c6c6ed2c120c41a04b2b963862f86a2218cd3cfee",
+      "text": "If using SP loss, also prepare for recovery and stronger Counters after Panic."
+    },
+    "passives.4.name": {
+      "sourceHash": "a668b7a5c4fed90679d685bb37599d53905d1277da6c9e02b6cadd21fb27f09f",
+      "text": "Price of Nobility"
+    },
+    "passives.4.condition": {
+      "sourceHash": "c39b5886c21f0de19669e1936df78239566520342cd454fa0ab90ac2cb709fb2",
+      "text": "Gains another person's effects"
+    },
+    "passives.4.effect": {
+      "sourceHash": "e9ea1b34e84a9b6cd4bf24df2dcd41a2fdc29da6fca81f6e024955d0903f1937",
+      "text": "Offense and Defense Levels increase. Losing Clashes with certain skills reduces SP."
+    },
+    "passives.4.response": {
+      "sourceHash": "dddccb2f912d439bfa0f9477de87586b4ba92a7372c9a0628bd7c5576c2cb587",
+      "text": "After a form change, check actual Clash predictions and buffs rather than relying on the previous form's values."
+    },
+    "passives.5.name": {
+      "sourceHash": "962572b7253fbf21aba4393b66f8ca62aff49dbf240c3d11e9e01f0d66841fc9",
+      "text": "Ahab"
+    },
+    "passives.5.condition": {
+      "sourceHash": "01f26cdb3e60da67143963ff5b57a09e8992d854cadaafca75f834899387483d",
+      "text": "Turn Start / recovery from Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "2ad9ef6872a175dc86a0d8853ddf618f4dcef1fcb11bc1b3d5f1ede117058c08",
+      "text": "At Turn Start, heal 15 SP unless at -45 SP. At Turn End, if in Panic, remove it and reset SP to 0; gain 2 Attack Power Up and 2 Defense Power Up next turn."
+    },
+    "passives.5.response": {
+      "sourceHash": "975b9576a6bda3052f25f83c6c6ed2c120c41a04b2b963862f86a2218cd3cfee",
+      "text": "If using SP loss, also prepare for recovery and stronger Counters after Panic."
+    },
+    "passives.6.name": {
+      "sourceHash": "8c70c696e80d70ff9fff1ebf837a4d3bc81697b5f2c97a958313ae552ffb0dec",
+      "text": "Pip's Sin and Innocence"
+    },
+    "passives.6.condition": {
+      "sourceHash": "4884667cb01b30d7cbd02dcccb5f18da17b008aba2e58016ff62e69f299e60c7",
+      "text": "Form start / Turn End"
+    },
+    "passives.6.effect": {
+      "sourceHash": "07e5a7a35264df5dbec6bf16e3c2b885dd48f925981d527e3f777bd66333b1ff",
+      "text": "Gain 20 Ego. At Turn End, heal 3 SP per Ego. If at 0 Ego, become Staggered next turn."
+    },
+    "passives.6.response": {
+      "sourceHash": "f38b6d8e55a5bb3236f3169d0c65fe6f95e246af6becdbaa130a580ebd1b3902",
+      "text": "Reduce Ego through failed Evades and Weight of Guilt. The status description lists different healing timing; this entry follows the passive description."
+    },
+    "passives.7.name": {
+      "sourceHash": "8c0e3d010aaffd2f1e0dea5685d641a2fb9a5498ba86fee95d36932068fa3598",
+      "text": "Starbuck's Fears"
+    },
+    "passives.7.condition": {
+      "sourceHash": "c9f932d4efeff81bef2550b5e1e01967b16801c25a6abaa276a09cd4e5c8659b",
+      "text": "Form start / loses a Clash to a marked target"
+    },
+    "passives.7.effect": {
+      "sourceHash": "14caf9903b8a5ed52a528d1d5a7a887f551971490f15da995467be71365ec418",
+      "text": "Start at 20 Ego. Losing to a marked opponent removes stacks equal to Coins destroyed. At Turn Start, gain 1 Protection per 5 Ego. At Turn End with 0 Ego, become Staggered next turn."
+    },
+    "passives.7.response": {
+      "sourceHash": "faab4067ca9afde2a861bd4c2eb8c1db6c72159f6ebbf6e5aecace4e36ca1ee1",
+      "text": "High Ego also means more Protection. Win Clashes with marked Sinners to weaken it first. The Protection ratio differs from the status description, so check the in-battle display too."
+    },
+    "passives.8.name": {
+      "sourceHash": "23e01b230e6749d461357ade92e622cc701a67c21b83a9e28c141ac5dfbab05d",
+      "text": "Puncturing Harpoon"
+    },
+    "passives.8.condition": {
+      "sourceHash": "7b9a65d982eddd765f0fb24f9565529b4036d28be519bb1e236cecf6e5634e85",
+      "text": "Critical Hit in this form"
+    },
+    "passives.8.effect": {
+      "sourceHash": "9d7746786bfb6613d572505e500eb865f785b8dd6300c8d6f1f24a4fc0d98931",
+      "text": "Increase negative effect values inflicted by skills by 1."
+    },
+    "passives.8.response": {
+      "sourceHash": "7e156af167ebf072bc4c37f1eba06e4dbf8b462f1b7a4055c1aa6698985fd17a",
+      "text": "Prevent hits through Clashes rather than repeatedly taking Bleed and debuffs."
+    },
+    "passives.9.name": {
+      "sourceHash": "d0bbe0970a0a7872af328bc8822eec9657ec6572df860b2505c4015d7cc3a9f8",
+      "text": "Queequeg's Atonement"
+    },
+    "passives.9.condition": {
+      "sourceHash": "4884667cb01b30d7cbd02dcccb5f18da17b008aba2e58016ff62e69f299e60c7",
+      "text": "Form start / Turn End"
+    },
+    "passives.9.effect": {
+      "sourceHash": "72366ee85b29d02f9fe85eb1c2e80f8a69d40a28cac03e88884d8ab64a95c5e2",
+      "text": "Start at 30 Ego. At Turn End, gain 5 if Shield remains or lose 10 otherwise. At 0 Ego, become Staggered next turn."
+    },
+    "passives.9.response": {
+      "sourceHash": "4793398b6ba345f7577535b5daf93d915205b31b265c90457165efedab68348b",
+      "text": "Concentrating enough damage to fully break the Shield in one turn matters more than a single large hit."
+    },
+    "passives.10.name": {
+      "sourceHash": "c608fb188d08c2e3209fd9e26f2d22deac2427249d03c78b7df242350ecbb78e",
+      "text": "The Indomitable Harpooneer"
+    },
+    "passives.10.condition": {
+      "sourceHash": "51ad2f5435e0e56015396460662b0a6b66e1ea13e3c30ad59831f1e53f5c4baf",
+      "text": "HP decreases"
+    },
+    "passives.10.effect": {
+      "sourceHash": "534e709375c25ff0c9296e292a3ead8b84e05a422813b5229a8d52f67f0705f4",
+      "text": "Deal +1% skill damage per 0.75% HP lost, up to 100% extra damage at 25% HP."
+    },
+    "passives.10.response": {
+      "sourceHash": "27ba4f24fa6c605532ec2412a18ddff82874219a799d02eb6ad4dab7e9bc4d38",
+      "text": "Counters grow more dangerous late in the fight. Attack during Stagger and avoid prolonging it."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "a611b49d34fb70385c14dc1e04de5ba6f489de612924973b10191b9ec0fdacb4",
+      "text": "Pip's Ego"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "096323a4e0c6a233321ba7175f0924114de2c58e9cde153f5ce55f34e8b2c0f2",
+      "text": "Starts at 20. Lose 1 on failed Evade and 3 when using Weight of Guilt. If at 0 at Turn End, become Staggered next turn."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6e66c1d8d43a91e8d66b0e3a437ed7c99e64289d0ea3cd696fd1cfb43df427bc",
+      "text": "Apply Defense Power Down first, then arrange attacks to break Evades."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "bfb82ceb7a704b3e4a7965d37a0c13ab4d2a66bdd4c4b8a8453694bc525ea657",
+      "text": "Starbuck's Ego"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "b796677bca9ce6c5201cfd7d04ea5d4b674eaeacafa1e43cf63cc6ed7e5720e1",
+      "text": "Starts at 20. When Clashing with a Sinner carrying Prey Mark, decreases by the number of Coins destroyed."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "fefb37cb2ef4c9c1341b66c5ca6db682690b3b47884667fe0cfe58af9525ad00",
+      "text": "Save winning skills for marked Sinners."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "1580fe5e4e0a696cb46de98b236119ea32e5e4351f02922b5bfaff9c3fdd210d",
+      "text": "Queequeg's Ego"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "2ae008a146f0d95733b0385c474494f3109a27e1995760e923dfd6f28e14519d",
+      "text": "Starts at 30. At Turn End, lose 10 without a Shield or gain 5 if it remains. Bleached Atonement consumes 5 [On Use]."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "21591700a2c5e63d19d046e020f83584b1ad42f6ee836d1609bfb25962206e5b",
+      "text": "Aim to break the Shield each turn and trigger Stagger at 0 Ego."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "79ade1dc96a89c54ab04ba6c6c0a1f213dd7cddf5ffe6c4855aa0be1ca644605",
+      "text": "Prey Mark"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "b24e6ad7741c9c8060bf4b5afada63342d9b39fc12e126f7236829114935aca5",
+      "text": "Prioritized by Pequod crew attacks; takes +50% damage from them."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "f6c0d186f335d296cdd4472e6f068b3854aea7cae18e433efe8359d29e8eb8c8",
+      "text": "Maintain the marked Clash specialist's HP and SP."
+    },
+    "warnings.0": {
+      "sourceHash": "29e202955ffe3141419c6c22847ac19044aebcbf3c32822486a4b40f491cbc0a",
+      "text": "Avoiding Counters by attacking too little leaves the Shield intact and increases Ego. Prepare both defenders and damage dealers."
+    },
+    "warnings.1": {
+      "sourceHash": "af7d86f567d3f48fd95ec74f4f5441c1aca982936b2e439095b7ea9ab502d3e6",
+      "text": "Defense Power Down works against normal Counters. Attack Power Down does not weaken them in the same way."
+    },
+    "warnings.2": {
+      "sourceHash": "d254fffd3ce984d1143620c97e91d8f64731518d9da0ee07a56e80f6a1720705",
+      "text": "Reaching 1 HP through Turn End damage such as Burn may briefly delay transitions in the first 2 forms."
+    },
+    "warnings.3": {
+      "sourceHash": "ff39e864ccb32a6ac895809db4fdddbfff12720a178013fbf8c8625ba92768eb",
+      "text": "Even with Ishmael's 1-HP protection, an area attack defeating all other allies simultaneously can still cause defeat."
+    },
+    "preparation.0": {
+      "sourceHash": "4059f1538dba3748296b0ff56e5b2de18cff474c564b4ed84b3e73e397ccbfe5",
+      "text": "Aim for Level 40 and Uptie III or higher on your main units. Check whether regular skills can handle dangerous Clashes of 11–15 or higher, reserving E.G.O for attacks raised further by conditional buffs."
+    },
+    "preparation.1": {
+      "sourceHash": "ea23d553a75d70e0aa01e392736a7f7cdf82ebec67a92c97dfee4ce51cbf6bf4",
+      "text": "Ishmael is mandatory. The Pequod Captain has special effects here, but no specific Identity is required to clear the fight."
+    },
+    "preparation.2": {
+      "sourceHash": "d507a6e0f1b50bb4b3b7b084cdce89f3c16249c1b468328f06334c593c5627ef",
+      "text": "Prepare E.G.O for Sloth resistance, HP/SP healing, and multi-Coin attacks that concentrate damage on the Shield."
+    },
+    "roles.0.name": {
+      "sourceHash": "886b1b7e9ea228957a7ea424c6699da3258d90dfe4b58822f1a3e9f7289aa993",
+      "text": "Marked Clash specialist"
+    },
+    "roles.0.reason": {
+      "sourceHash": "d44a943b94df66af3653a7d23f7654f2e28d089e142e3488161e49a49bf1678c",
+      "text": "Stop Echoing Cry to remove substantial Ego. The marked Sinner changes each turn, so prepare several possible specialists."
+    },
+    "roles.1.name": {
+      "sourceHash": "b41cb38f38a641347d8b2b8be393a7ced68599fcabcc6f761ace051c1e5a1e81",
+      "text": "Shield-breaking damage"
+    },
+    "roles.1.reason": {
+      "sourceHash": "cb75c5f6a76009e62fc75f9a933fdb06a2491913b4ad9ed34c08d330cf626f14",
+      "text": "Focus Pierce, Pride, or Envy on the final form. Resistances that let attackers keep acting after Counters matter too."
+    },
+    "roles.2.name": {
+      "sourceHash": "446901519211330d8ba1a23db2526b4347755adf0674e9557bdc13f7f86cc6c9",
+      "text": "Healing / powerful E.G.O"
+    },
+    "roles.2.reason": {
+      "sourceHash": "679a8776ab054eb7cdbd84ad24dc653ad45357e852972b2049acf88a8d62efc1",
+      "text": "Stop area attacks and restore HP/SP lost to Counters to sustain your damage."
+    }
+  },
+  "messages": {
+    "boss-copy:gas-harpoon": "complete",
+    "【リンバス】5-36 開花E.G.O::ガスハープーンの攻略｜Limbus Assistant": "5-36 Effloresced E.G.O::GasHarpoon Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-36「開花E.G.O::ガスハープーン」の攻略。ピップは回避を破る、スターバックは印付きの囚人でマッチに勝つ、クィークェグはバリアを割る。形態ごとの自我を削り、混乱した隙にHPを減らそう。": "Effloresced E.G.O::GasHarpoon guide for Limbus Company 5-36. Break Pip's Evade, win Clashes with marked Sinners against Starbuck, and break Queequeg's Shield. Reduce each form's Ego and damage it during Stagger.",
+    "5-36 開花E.G.O::ガスハープーン": "5-36 Effloresced E.G.O::GasHarpoon",
+    "5-36「Into the Darkness, Floor 3: Final Battle」": "5-36 · Into the Darkness, Floor 3: Final Battle",
+    "ガスハープーン（ピップの自我）の外見": "GasHarpoon (Pip's Ego) appearance",
+    "ガスハープーン（ピップの自我）のスキル": "GasHarpoon (Pip's Ego) skills",
+    "GasHarpoon (Pip's Ego)の外見": "GasHarpoon (Pip's Ego) appearance",
+    "GasHarpoon (Pip's Ego)のスキル": "GasHarpoon (Pip's Ego) skills",
+    "ガスハープーン（スターバックの自我）の外見": "GasHarpoon (Starbuck's Ego) appearance",
+    "ガスハープーン（スターバックの自我）のスキル": "GasHarpoon (Starbuck's Ego) skills",
+    "GasHarpoon (Starbuck's Ego)の外見": "GasHarpoon (Starbuck's Ego) appearance",
+    "GasHarpoon (Starbuck's Ego)のスキル": "GasHarpoon (Starbuck's Ego) skills",
+    "ガスハープーン（クィークェグの自我）の外見": "GasHarpoon (Queequeg's Ego) appearance",
+    "ガスハープーン（クィークェグの自我）のスキル": "GasHarpoon (Queequeg's Ego) skills",
+    "GasHarpoon (Queequeg's Ego)の外見": "GasHarpoon (Queequeg's Ego) appearance",
+    "GasHarpoon (Queequeg's Ego)のスキル": "GasHarpoon (Queequeg's Ego) skills"
+  }
+}

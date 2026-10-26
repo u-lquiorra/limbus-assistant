@@ -1,0 +1,688 @@
+{
+  "kind": "boss-copy",
+  "id": "dongbaek-spicebush",
+  "source": "src/data/bosses/dongbaek-spicebush.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "開花の対価",
+          "guideAlias": "開化の対価",
+          "en": "Cost of Blooming",
+          "file": "Passives_Abnormality.json",
+          "id": "804404"
+        },
+        {
+          "ja": "開花",
+          "en": "Blooming",
+          "file": "Bufs.json",
+          "id": "DongbaekFlorescence"
+        },
+        {
+          "ja": "散りゆく花びら",
+          "en": "Scattering Petals",
+          "file": "Bufs.json",
+          "id": "DongbaekScatterPetal"
+        }
+      ]
+    }
+  },
+  "scopedTerms": [],
+  "entries": {
+    "name": {
+      "sourceHash": "bcc405d382e72d27bdfc764e9953576536bbcfde39a80ed7fc308da50b51b2d8",
+      "text": "Dongbaek E.G.O::Spicebush"
+    },
+    "shortName": {
+      "sourceHash": "74439ac5c455919109308d9b52e7c083c69bc3705b0b67672082a942f1085af3",
+      "text": "Dongbaek"
+    },
+    "stageName": {
+      "sourceHash": "79e21bf2a05e059c5a39449c34157193f802ba8effb9873f9bd2f7bbc9d39f39",
+      "text": "Bud"
+    },
+    "lead": {
+      "sourceHash": "a8687b2db1e8506f634679d64eee7f5eb2d455095a9e5b16da61be433a1ae836",
+      "text": "Hits build Blooming and can trap allies in flowers. Limit Blooming by winning Clashes, deal with the flowers, and prepare for the second-phase duel."
+    },
+    "priorities.0": {
+      "sourceHash": "38a81a7a201bf77421ff3c2a0e347894266189cdeaca15a8d15b2136f3b3b165",
+      "text": "Offset Evades with Guard or Evade to prevent extra Blooming."
+    },
+    "priorities.1": {
+      "sourceHash": "7a73311ee6977a72a4a6b2fc1cfba7314558da377c51614a3d8d599cc0e4b761",
+      "text": "Defeat Soon-to-bloom Flowers before Magnificent Spring Breeze."
+    },
+    "priorities.2": {
+      "sourceHash": "da6152ed129b478fd9e278c4d532c289bc509b6f1b49f4a297800f7e5c448b37",
+      "text": "Assign Must Cover With Dirt to a Sinner who can also win the next 2 Clashes."
+    },
+    "units.0.name": {
+      "sourceHash": "bcc405d382e72d27bdfc764e9953576536bbcfde39a80ed7fc308da50b51b2d8",
+      "text": "Dongbaek E.G.O::Spicebush"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "67f2c89a7a1093f1e2420b275c06536124194d8b046a6704d803695e3ad09d35",
+      "text": "No HP Stagger Thresholds"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "205264b7b785238b6fcaeed64bb9a5b476ebec6e098d32a0cb979cca78c4ee40",
+      "text": "Normal Coin Heads/Tails odds are 50% each regardless of SP. Your own Sinners' SP still matters as usual."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "a107353702691bbc8208a2c9203d38e506c267cd44d7a72511d86e455ddcb16f",
+      "text": "The second phase begins at 50% HP. You cannot burst past this boundary and finish her before the transition."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "4a4b0a49b3acb72f96fbab3869e36da83aa84cd71cebfb5229d19fcb5f9f7e6d",
+      "text": "If the first phase continues, she Staggers on turn 7 and every 6 turns afterward. In the second phase, win the duel to Stagger her."
+    },
+    "units.1.name": {
+      "sourceHash": "d0dfbd521f480c62008cac00ba158621007ccc2db95be6e69c68d30609705385",
+      "text": "Soon-to-bloom Flower"
+    },
+    "units.1.part": {
+      "sourceHash": "79e21bf2a05e059c5a39449c34157193f802ba8effb9873f9bd2f7bbc9d39f39",
+      "text": "Bud"
+    },
+    "units.1.hp": {
+      "sourceHash": "13597eeadc716f426b86bf9914f60d8dd831d12d48a14cbb76bb35bc0249f634",
+      "text": "21 → 32 → 42 (increases with growth)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "02fabf2666ec4f118584ee7aa415a8d449a517fcef86c0e350a718f0ee185d85",
+      "text": "These flowers strengthen Magnificent Spring Breeze according to how many remain. They are separate from the Fully Bloomed Flowers that trap allies."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "cd167f4137ebf045a56a0e4b5dc2abb6efac4d5bec2fdd279e282c2e3bb42689",
+      "text": "On turn 5, Fully Bloomed allows you to defeat these flowers simply by winning the Clash."
+    },
+    "units.2.name": {
+      "sourceHash": "841b103a26781e693dc61462728ad8a50c1d52c6a25ca63a8922e30eea9c5cd1",
+      "text": "Fully Bloomed Flower"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "ed9709a131c56891fee67b0c9901125a534566802def4546c2aa81e848e72663",
+      "text": "Appears for a Sinner in Full Bloom. Normally, defeating the corresponding flower frees that Sinner."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "91fd55b341c3ea2bb769dd1e0763dfba06e13744d3fc8d44066498b14e0de1ba",
+      "text": "Flowers trapping allies through Dueling cannot be defeated during the duel. Use the correct rescue method."
+    },
+    "phases.0.timing": {
+      "sourceHash": "0105c1d02ab2a58e95c45d89d4632a68ad6035783882c0343fc5f79a2a1e14a8",
+      "text": "Turns 1–4, approximately"
+    },
+    "phases.0.title": {
+      "sourceHash": "815fa96265a206fbbe0169a81a05cc2ddebf3b729a60d4ee608265409cd682a3",
+      "text": "Win Clashes with strong skills and offset Evades"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "a83553a547d958cb531abd66152b91dbf62e682ab8045fa8ffa1ded7d0617a9c",
+      "text": "Start with Clashes you can win while your SP is low. Blooming reduces SP, making subsequent Clashes harder."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "5e4ac8a1de0ccc7e329592e98ecbfe593faa645eea8b831bb42467d3b2aa5ffe",
+      "text": "Offset Piquant Scent by targeting it with a faster Sinner's Guard or Evade. This prevents repeated Evades from building up Blooming."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "58861d30400133e7d069d4f962767c0cec9f9b6785239bf449da2d2c1bf8d98e",
+      "text": "Flowers begin appearing on turn 3. Handle their attacks alongside Dongbaek's, and build E.G.O resources for dangerous area attacks."
+    },
+    "phases.1.timing": {
+      "sourceHash": "a60745a7d1e43378e925b93c0842aedf9a891b27954f909b9b158423f96de475",
+      "text": "Turns 5–6, approximately"
+    },
+    "phases.1.title": {
+      "sourceHash": "8a61152b824b978aeb21166232cb2c42985a16554e503fb588c5b2a6f47d6a93",
+      "text": "Reduce the flower count before stopping Magnificent Spring Breeze"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "900720a261944d01ff8cdec888d263e8a2a1be7691f81bcdf9eea9acc98c49ce",
+      "text": "On turn 5, Dongbaek defends and the flowers are replenished in a grown state. Winning a Clash against Fully Bloomed defeats the flower, so use this turn to remove them."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "ce687156247d19f84056c41f03f9b07f61e07ec689a3f14333f13e837f28a67f",
+      "text": "The following Magnificent Spring Breeze gains +5 Final Power per remaining flower. Without flowers it rolls 16–20; with 4 remaining it rolls 36–40."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "51c6cf06056dffc1ada329c06651e2513bd6834db4052dcb1c3461573a07c54d",
+      "text": "After clearing flowers, answer Spring Breeze with strong skills or E.G.O. The normal first-phase pattern has 2 Spring Breeze slots, so assign an answer to both."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "2d7a888360a2dd603a022a8427d4540673916a5fdd786b11ed0c1225c26b418b",
+      "text": "If you defeat flowers on the Spring Breeze turn, those attacks must resolve first. Assign faster Sinners to flowers and slower Sinners to Clash with Spring Breeze."
+    },
+    "phases.2.timing": {
+      "sourceHash": "edbf9efa72e4c99a4bf427a16df2017cd4fc1a1d78f8b424aa28fe2263e49c30",
+      "text": "After transitioning at 50% HP or less"
+    },
+    "phases.2.title": {
+      "sourceHash": "58a55f9b1d4f77160df2372790bcfe1460c775b5793b6edb127a2ec8a6ded627",
+      "text": "Assign your intended duelist to Must Cover With Dirt"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "fddff091f9c2b4cd91102598f6b085765764f329c2a392a177ba903dd6653e9e",
+      "text": "In the second phase, Must Cover With Dirt follows a pattern involving Spring Breeze. Reaching the HP boundary early changes the turn timing, so check the enemy's current skill names."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "53db74ce6c69eeb66ff8b4c744493326a7ee7a610c19594cfd813565f3713f72",
+      "text": "The Sinner Clashing with Must Cover With Dirt becomes the duelist from next turn. Choose someone with high Level and SP who can use strong skills or E.G.O."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "e073f3d05ddc78e90c969ef38db14fdff978ee65107ba114b1e8b6b0f3aa1ac5",
+      "text": "Everyone except the duelist being trapped in flowers at once is part of this mechanic. The rescue method differs from ordinary Blooming captures."
+    },
+    "phases.3.timing": {
+      "sourceHash": "73c777ad35f855418b62e452d6ffce87eb990fa44b6459bbd372cff5741aa37e",
+      "text": "The 2 Clashes during Dueling"
+    },
+    "phases.3.title": {
+      "sourceHash": "9554e8d3936a317bf2f640b8ba27980cbb875aace22dd9e7e675088f7f816cca",
+      "text": "Beat Withering Flower twice, then attack during Stagger"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "74eeadbc8f06598d615a77985eec80f2229390b80bc319522107506738d244b0",
+      "text": "The duelist must win 2 Clashes against Withering Flower, which rolls 8–11. Dongbaek gains 3 Scattering Petals each time she loses a Clash."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "77bc92bb0d21b65028a89c36f72ef120332e33d4ab6028c98f04622e01317838",
+      "text": "At 6 or more petals, Dongbaek Staggers at Turn End and your allies are freed. Prioritize winning the duel rather than attacking flowers to rescue them."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "91a840f6a7e8dfdd795f1f1a7e83fa3cbc421049eeae25e561c4f4ef548de855",
+      "text": "After winning the duel, focus strong attacks on the Staggered Dongbaek. If she survives, continue managing Blooming and Spring Breeze."
+    },
+    "skills.0.name": {
+      "sourceHash": "641471032852ed2e897b84dfa7d30f980b7fe9c7692dd24198c6cb524a2c4914",
+      "text": "Scattering Fragrance"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "9ecf485c78b5a69e02dbbfa9418355f84d98697236a221f7eda68af285081369",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 2 Rupture and 1 Blooming."
+    },
+    "skills.0.response": {
+      "sourceHash": "e67305dabe3f3fb9c10f02bec53fceaf1f24a7ce7e9bb866679bb37d8149cb99",
+      "text": "A candidate for building early Clash wins. Keep it away from allies with high Blooming."
+    },
+    "skills.1.name": {
+      "sourceHash": "457084d52e7dc6202ad46260f4e012745a7a35f82584a59dbea52cafb9ce0633",
+      "text": "Pungent Fragrance"
+    },
+    "skills.1.label": {
+      "sourceHash": "6b704d25652b0a55654081e312b75feca6148baf0ca711b3ed4e94ec983177bd",
+      "text": "Area attack"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "3cae1a9e53863a09e7b5172370d70ac5f28072c928202cec6e06dbaa6da9be76",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 2 Blooming."
+    },
+    "skills.1.response": {
+      "sourceHash": "aef1584413cdc71604c40303f26ddd4387911c6ebcce4ec1e247cf98e7778c3c",
+      "text": "Spreads Blooming to multiple allies. Stop it with a skill that can win reliably."
+    },
+    "skills.2.name": {
+      "sourceHash": "4022e50cdb0a47a10c2f592f7c588889e96c731f54f6a001594e080ed1fb3af1",
+      "text": "Flowering Buds"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "34c6a6b0f2a15119f392858ab7c25f79882802f9a272327e2ea19be83fb79531",
+      "text": "Create 2 flowers next turn. If 4 already exist, raise the growth stage of the least-grown flower by 1 instead."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "65a4c119b0a261b6ca57de01448cee3f5884379acb32b421c0e2f45b1de71bc5",
+      "text": "Ⅰ：[On Hit] Increase Rupture Count by 3 and inflict 3 Blooming."
+    },
+    "skills.2.response": {
+      "sourceHash": "f25a707f7033b7f54f7a18ec68582052bf235f4d7542df923ad9c66a1a6503e8",
+      "text": "Prevent the hit that inflicts 3 Blooming. Flower creation is not an [On Hit] effect, so prepare to handle the flowers even if you win the Clash."
+    },
+    "skills.3.name": {
+      "sourceHash": "8a88d589378ec701b2bbc939250fe7a0c59c4769bdcfec0e710eff7a707bb47a",
+      "text": "Like Flowers in Full Bloom..."
+    },
+    "skills.3.label": {
+      "sourceHash": "91199cff23a1e710caff90ef338ff8be2e8fb933e80a6cbb39b93b5916160608",
+      "text": "Watch the [On Use] effect"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "5498d165f112dc6b912095884a6c42fe67d1da17c826849f315f0366a63ca6ae",
+      "text": "[On Use] Inflict 3 Blooming on the target."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "52e7fba841f0b4b3d72941c0a5880e991724d012fb78f0d35f9b8d7677b2bca6",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 1 additional Blooming."
+    },
+    "skills.3.response": {
+      "sourceHash": "34a3da022d06cfc618301d6ffa170f353f913b43f638de12ae5d03741d7690ba",
+      "text": "Winning the Clash does not prevent the 3 Blooming inflicted [On Use]. Redirect it away from allies with high Blooming and stop the additional stacks from hits."
+    },
+    "skills.4.name": {
+      "sourceHash": "810830b389a3791c572d9e53b06fff5bfd2849e676ca3163f5aac2086c31b30b",
+      "text": "Magnificent Spring Breeze"
+    },
+    "skills.4.label": {
+      "sourceHash": "c4b457ab639e14214ec7e52b7bcb84587d9f6ebcb62b1f4ddfdb601f42e1677b",
+      "text": "Highest priority"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "52230d81dc1fb4c952b61c0964446592207a0c7a567ede1cc44bd8c6ebcfa70f",
+      "text": "Gain +5 Final Power for each living Soon-to-bloom Flower."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "6fd4fafb15b9321b65ad8a6e0d18832cf658d6c69157bc44d782a5f196ab2c3a",
+      "text": "Ⅰ：[On Hit] Reduce SP by 15 and inflict 3 Blooming."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "423c2a62ff1e3ccead337d370967738aa6c2db1b5d6673c5ea2c1d0b83751c89",
+      "text": "[After Attack] Remove all Soon-to-bloom Flowers."
+    },
+    "skills.4.response": {
+      "sourceHash": "6cfc69dfdac1afc1039bbe423740f6c5971836130fc908ff64c1a774780f7cae",
+      "text": "Defeat flowers first to reduce the power buff, then Clash with E.G.O or another strong skill. The listed 16–20 excludes flower buffs. Letting it hit while waiting for flowers to disappear afterward is dangerous."
+    },
+    "skills.5.name": {
+      "sourceHash": "65c31915814b8805624fec127015f83a94d75bd987e37ac468920e84bb2d89d2",
+      "text": "Must Cover With Dirt"
+    },
+    "skills.5.label": {
+      "sourceHash": "8a53e4d5e61842aa970fc2beb15d3cd80f8b1c13034119795329269dffe05418",
+      "text": "Choose the duelist"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "904e53a5ed866543aa6e586e31f708224e1fd48cdd92a6f3e7de3a526c91e1b0",
+      "text": "[On Use] Inflict Dueling on the target next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "6aa2053db1275e742e15817334eebf321640b50e26c477eedcaf9038b351a4c9",
+      "text": "Choosing who Clashes with this skill also chooses your duelist. Assign a Sinner who can win the following 2 Clashes too."
+    },
+    "skills.6.name": {
+      "sourceHash": "7a8ec9b3d8988e7864f206fa595e976f44bb3bc14a992252f158c5f49a64f168",
+      "text": "Withering Flower"
+    },
+    "skills.6.label": {
+      "sourceHash": "c220cdaeb4be9a11e537eb7a0e0146e1ff1d30c7a16050f1e516ae3c585e9a40",
+      "text": "During Dueling"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "edee674babad4c51e7421d6135e09fda9c5dbb30097f6185ec651696a47945a9",
+      "text": "[Combat Start] Dongbaek gains 10 Protection."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "35218f9e359df95c122fc6e366f1145d65dfa9a5687d5d5c09fb85888da45473",
+      "text": "[Clash Lose] Dongbaek gains 3 Scattering Petals."
+    },
+    "skills.6.response": {
+      "sourceHash": "98ca42a9ade43e5ec745da31d73e6e777887ab745c6b40d9497e57cff58b9c34",
+      "text": "Winning Clashes matters more than dealing damage. Win twice to reach 6 petals and trigger Stagger."
+    },
+    "skills.7.name": {
+      "sourceHash": "aeb4cfe48f97bc07ece1e7fe4941429b6277d938bd840fdb630216a976495cdd",
+      "text": "Culminating Fragrance"
+    },
+    "skills.7.label": {
+      "sourceHash": "bcd94d0584666d158914ca313ca107c0dd349127b9be45a46f15fbb0d86337b7",
+      "text": "Avoid losing the duel"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "5502d662aa86cb5968741bb492a937d35018fbd12f17e8e3ab555df4b05b3f38",
+      "text": "Unclashable and cannot be redirected. An indiscriminate area attack that deals +100% damage to targets in Full Bloom."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "22706cd9736e5f3b090e68ddad8b5f22e1b689a7768c5bbdf0515becbfb49b3a",
+      "text": "Ⅰ：[On Hit] Stagger targets in Full Bloom and remove Full Bloom."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "581271195432e3b71ad59a25ffc156827c3ed28cf6c65fe0bb81b5626b9b24d7",
+      "text": "Ⅱ：[On Hit] Inflict 2 Fragile. Ⅲ：[On Hit] Inflict 5 Rupture and increase Rupture Count by 5."
+    },
+    "skills.7.response": {
+      "sourceHash": "451dcd1d8a6ab4e4d9b5dd95c8b16d79c7d9e91178f4884f2cc9c1337c432f2b",
+      "text": "Win the duel to Stagger her instead. Once this attack arrives, attempting to Clash with E.G.O cannot stop it."
+    },
+    "skills.8.name": {
+      "sourceHash": "f3aa8a4a2ec4c5c81ee8d795072e819e940d9ea0a67cc993a47f977dd1d3c551",
+      "text": "Piquant Scent"
+    },
+    "skills.8.label": {
+      "sourceHash": "64dc5f8465624fb0870b0aff5a9204b389e890db31466706f71e5855b7f6890b",
+      "text": "Offset with a Defense Skill"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "fff271e53e3c6eb6bc3606964038b048bb0a9bf3d2ecbdcdc2ccc6fb72187b0c",
+      "text": "[On Evade] Inflict 1 Blooming on the attacker."
+    },
+    "skills.8.response": {
+      "sourceHash": "05f04b54dd87eb41aaafec6e20c3eda09123967b0cc0b1bf7fb7893333070c59",
+      "text": "Target this Evade with a faster Sinner's Guard or Evade to offset it. Avoid attempting repeated attacks while leaving the Evade active."
+    },
+    "skills.9.name": {
+      "sourceHash": "fa8fcbb99fd54cf3227860dc93256dd29ea83a73fff2cf3f5110a3a2f4d4c210",
+      "text": "Awaiting the Moment"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "1ba2b251999ca7ae97f4118a85a71d9214e3a85a17e9bd59c94359c72ed0833d",
+      "text": "[Combat Start] Dongbaek gains 5 Protection."
+    },
+    "skills.9.response": {
+      "sourceHash": "3972b0a5528257c486f42cc772b94724ee58add9c84f7fe84101e845546c9f54",
+      "text": "Prioritize flowers or preparation for the next Clashes over focusing attacks on Dongbaek. Offsetting with a Defense Skill does not remove the Protection gained at Combat Start."
+    },
+    "skills.10.name": {
+      "sourceHash": "0cb37bb18cc03fb1fc0288e39398a3b32795289209dad3e7f4b02b6cf0e68e5b",
+      "text": "Floral Breeze"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "9f2ddfa287b19a285b0e578303f992fec7933e163ce2c312ef36e0b4ecdcdeeb",
+      "text": "Ⅰ：[On Hit] Inflict 1 Blooming."
+    },
+    "skills.10.response": {
+      "sourceHash": "8a7139fb5307b14187a282ec12859609b75fa5d603ee494183d4d4ba1b0c4142",
+      "text": "Check flower attacks as well as Dongbaek's, and use spare actions to Clash or defeat them."
+    },
+    "skills.11.name": {
+      "sourceHash": "a324a0f8c6799179776f4d5bf111b250b4920fcb9e63112c58c6e7fa388eb5e8",
+      "text": "Fragrant Breeze"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "fbe692cc8b1deee22d465771dc24b8279d486711e3fdd7fc4b6c2042dd7ed135",
+      "text": "Ⅰ・Ⅱ：[On Hit] Inflict 1 Blooming."
+    },
+    "skills.11.response": {
+      "sourceHash": "5732f506a488f28b07700e81a768a95af0d381c80b7afea14fe04aabe12f49aa",
+      "text": "Avoid letting both Coins hit an ally who already has high Blooming."
+    },
+    "skills.12.name": {
+      "sourceHash": "a767a8b3371ce01a8b5e3864eb5a443be6e79c34cf987cc05c79b96896958535",
+      "text": "Pungent Breeze"
+    },
+    "skills.12.label": {
+      "sourceHash": "6b704d25652b0a55654081e312b75feca6148baf0ca711b3ed4e94ec983177bd",
+      "text": "Area attack"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "24231cd2e1e845a7f5890ddda23d884daa5c4c1e136c7216464d8320d193b2d4",
+      "text": "Ⅰ・Ⅱ・Ⅲ：[On Hit] Inflict 1 Blooming."
+    },
+    "skills.12.response": {
+      "sourceHash": "564bdf7df9bf8a5901c3062f54384f83fe9f5dc85a92912bbfa47911510df17c",
+      "text": "Multiple allies can receive Blooming, so Clash with it or defeat the flower first rather than ignoring it."
+    },
+    "skills.13.name": {
+      "sourceHash": "5cd72a230f946a284475c045d6211877bb922439874e962c125d77e41f1f6388",
+      "text": "Borne Scent"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "b02912d225a3168bebea8a540ec476a50cbb958831fb549f59a17fd131ed36cd",
+      "text": "[On Use] Heal 10 HP."
+    },
+    "skills.13.response": {
+      "sourceHash": "1d81404745f8e738bf822b074eca6d670bdfb898bf5c91fb340c04e12df0b147",
+      "text": "This flower strengthens Spring Breeze, so it is worth defeating even while it defends."
+    },
+    "skills.14.name": {
+      "sourceHash": "d04fe7375f4ec701df04b6f1b55bfcd9353ebceb958258cbf4326fb4b8178074",
+      "text": "Fully Bloomed"
+    },
+    "skills.14.label": {
+      "sourceHash": "1964c3eff0931c2d95f98a84bba74f0080c0eaac0c007c150f7ec9f012ab383c",
+      "text": "Defeat by winning the Clash"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "7b4dc63fcf694c242b2cc63e53d7844a41851aa85c33235986950500f8973973",
+      "text": "[Clash Lose] This flower dies."
+    },
+    "skills.14.response": {
+      "sourceHash": "5b89b2782b5c8d0aba63d3e8b462d7aeb5a17de5e472cdcee834b9d0a08b4c1d",
+      "text": "You do not need to deplete its HP. Assign one winning skill to each flower and reduce their numbers before Spring Breeze."
+    },
+    "skills.15.name": {
+      "sourceHash": "7a26b9019dd360936bd426a825ddf3585385b4806da912445cc90493396bbf2f",
+      "text": "Full Bloom"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "890d0aa33ae1ecd543ec44fdb57ae20e9ea84c315b5c99d758bc9d6c4350fac4",
+      "text": "Disables the corresponding Sinner and reduces their SP. At -45 SP, they recover and enter a state in which they attack allies."
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "8ae42203b0580846a047161076a225ed95b31355deb9df699d4e10f2d8645d83",
+      "text": "Ordinary Full Bloom is removed at Turn End if it remains uncleared for 2 turns. Full Bloom caused by Dueling is handled separately."
+    },
+    "skills.15.response": {
+      "sourceHash": "d6508e82a8b3b3e2e3ca29e319697af1b60acc9c821744990d6ef7cf6ab51b9a",
+      "text": "For ordinary captures, defeat the corresponding flower quickly to rescue the Sinner. Duel flowers cannot be defeated; free those allies by winning the duel."
+    },
+    "passives.0.name": {
+      "sourceHash": "5bae17101cb99d72fa109df9f86d31eb9dbcbbda73df14264e15b719819e251b",
+      "text": "Cost of Blooming"
+    },
+    "passives.0.condition": {
+      "sourceHash": "4e08967d1ef5706085ead77341df0c94300674dcae19b6a8500a7e03dc970d72",
+      "text": "Dongbaek loses a Clash with Magnificent Spring Breeze"
+    },
+    "passives.0.effect": {
+      "sourceHash": "8c9cf5efe008509f44901065da0a6ef9dd2419d277fb86148c2e469103a9cab9",
+      "text": "Dongbaek loses 10 SP."
+    },
+    "passives.0.response": {
+      "sourceHash": "d9f357a12d51744d9456332f6fb00feb4ed522272054a03db99305af8ff082e5",
+      "text": "Stopping Spring Breeze prevents damage and also reduces her SP."
+    },
+    "passives.1.name": {
+      "sourceHash": "f4f88f32c770b1ddbe41d37e3bc78df3a12db08e9efa867c771bfbe092f8178c",
+      "text": "Into Full Bloom"
+    },
+    "passives.1.condition": {
+      "sourceHash": "ebf62a785256d00f26ff3c17f64d8659aa0285948cefff722b89d904cd24ef76",
+      "text": "Turn 5 Start (first-phase defense pattern)"
+    },
+    "passives.1.effect": {
+      "sourceHash": "b66b356ca81365f4b172e29039c11277c7ccd2d7d7022ffc901d461bff0a2680",
+      "text": "Prepare stage-3 flowers. Existing flowers also reach growth stage 3, and more are added until Soon-to-bloom Flowers and Fully Bloomed Flowers total 4."
+    },
+    "passives.1.response": {
+      "sourceHash": "08e2025cbad480d6ba45f27204acaf1a0e50ef232e5b209616ca2d15c1e79bc8",
+      "text": "Removing early flowers is not enough; deal with the replenished flowers too."
+    },
+    "passives.2.name": {
+      "sourceHash": "65861b0ff48dceeca452248c31aade250ca3a9b33fb59d55f899b82a91ebc2c6",
+      "text": "Flowering Mind"
+    },
+    "passives.2.condition": {
+      "sourceHash": "bc0449b2af3bec224fedb7aaadfecd6952adc3fed2fcc0400961c76e72a5c500",
+      "text": "50% HP or less"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c5e7db850f5a8c7c887f1c385bf1e946ac7176abb208478e010973bd17cec069",
+      "text": "Transition to the second phase. HP cannot fall below 50% before the transition."
+    },
+    "passives.2.response": {
+      "sourceHash": "0db98b0561d6e5a8841a860390d2ffa927456760351823128cd4a03fdc4c5f98",
+      "text": "Avoid spending all your strong attacks at the HP boundary; save some for second-phase Clashes."
+    },
+    "passives.3.name": {
+      "sourceHash": "82e3e260d590a068a71673f5f266ec2349fdbae79f416ddb8f40a36088bbdd11",
+      "text": "Dueling"
+    },
+    "passives.3.condition": {
+      "sourceHash": "abae80575fa0e77e8d06ac6a17231eba67f395b26c3df06e4de67b674087bd9c",
+      "text": "One Sinner selected by the second-phase special skill"
+    },
+    "passives.3.effect": {
+      "sourceHash": "966398798c5707165b85e5d6fdfac3388fb66cadd7abd34dab0433cc42f1a8e6",
+      "text": "Dongbaek cannot become Staggered or enter Panic on the special skill's turn or the following 2 turns. If the duelist is Yi Sang, Dongbaek gains 1 Attack Power Up. If Yi Sang wins the duel, all allies gain 3 Damage Up next turn. If Dongbaek wins, she restores her own SP to maximum."
+    },
+    "passives.3.response": {
+      "sourceHash": "303e6120e91004eb33f12bee69d184e5d476fd0201a5f37e05d3652397187511",
+      "text": "Yi Sang has special modifiers, but does not have to be your duelist. Choose a Sinner who can win."
+    },
+    "passives.4.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.4.condition": {
+      "sourceHash": "bb949add63509b28baa4c8b7f379b32b09665977ea0140e1ed36edcb6579b8ae",
+      "text": "Receives an effect that changes Panic Type"
+    },
+    "passives.4.effect": {
+      "sourceHash": "ef6dbb815142071014a1c4102bd115fc9ac5d2e51888165b776899763dd835a4",
+      "text": "Panic Type does not change. Apply the effects intended for targets without SP instead."
+    },
+    "passives.4.response": {
+      "sourceHash": "26da81b5e59c10f803f7aed19c66794adc37343086c445b80165d01206275336",
+      "text": "Avoid strategies that depend on changing her Panic Type."
+    },
+    "passives.5.name": {
+      "sourceHash": "5d326d93085e2b044c489413d1a1b321f3995f052fd36ebeb5a4200581836562",
+      "text": "Growing Flower"
+    },
+    "passives.5.condition": {
+      "sourceHash": "6e869f3a4b96ae48339686ab989354622004a37ad99048a63654b9ac9f52bb67",
+      "text": "On creation"
+    },
+    "passives.5.effect": {
+      "sourceHash": "b1768fe0dcb112e7abe0248590220c5b6ecbcc71f382710dac8e97f0372dce93",
+      "text": "Appears with growth stage 1; HP increases as it grows."
+    },
+    "passives.5.response": {
+      "sourceHash": "2679f53a9eb582566aad0fabd8dcbf9c8f5f599b33051faaf67b6f74aab18406",
+      "text": "Grown flowers take more effort to remove. Reserve enough actions to defeat them before Spring Breeze."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "945e14f47c34fee07fc502ef66e904e041a6d8a869d2849a675f91ad7f0c3367",
+      "text": "Blooming"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "a1ca875c74fd656f4af00b6b233e263f710a333570f6645a5bc2e3137230decc",
+      "text": "At Turn End, if below 5, take SP damage equal to the value × 5 and reduce Blooming by 1. At 5 or more, take Sloth damage equal to the value as a percentage of Max HP and enter Full Bloom."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "b71b068146b9f09de7a338ab531377f79045c0ac1d9b6fb1ac0dd59acad8cbb4",
+      "text": "Even 4 Blooming costs 20 SP, so staying below 5 is not automatically safe. Prevent hits and offset Evades."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "7a26b9019dd360936bd426a825ddf3585385b4806da912445cc90493396bbf2f",
+      "text": "Full Bloom"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "8144d9bf7421790cbaba130d31a6450053ce29f978ad80cadb08b18db31d83a7",
+      "text": "An ally is trapped in a flower and cannot act. Ordinary Full Bloom also reduces SP."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "94b74a0e76d0676d06131399c33b2026c845b7a5e82651fcd6f96acc9551bcaa",
+      "text": "Normally, defeat the corresponding Fully Bloomed Flower to rescue the ally. For allies trapped by Dueling, win the duel instead."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "ade7488ce61f0a6a665eb58af155e405c32c72272c0a3486799e04b064ed2adc",
+      "text": "Dueling / Scattering Petals"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "6c59450f00748c95daf249808ebd7248c011fff698d1521038f92de8ad96fdb6",
+      "text": "All allies except the duelist enter Full Bloom. Each time Dongbaek loses a Clash with Withering Flower, she gains 3 petals. At 6 or more, she Staggers at Turn End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "43ef3abdb3ce2e1aa226493aad1b09a408deac41d701d0265386bf6fde25fd41",
+      "text": "The duelist must win 2 Clashes. The flowers cannot be destroyed during the duel."
+    },
+    "warnings.0": {
+      "sourceHash": "fa32e30509d82f75aea7e966f9b147b0aaa64a6cd1af5fd145b1a25b54ae1bd0",
+      "text": "Like Flowers in Full Bloom... also inflicts Blooming [On Use]. Winning the Clash does not prevent all Blooming from this skill."
+    },
+    "warnings.1": {
+      "sourceHash": "d1a986136ad46eaa6d680dd76796a45b4d135ec482338a3022c488d743e7347f",
+      "text": "Soon-to-bloom Flowers strengthen Spring Breeze. Fully Bloomed Flowers trap allies. Target the former to reduce Spring Breeze's power."
+    },
+    "warnings.2": {
+      "sourceHash": "70298bf0ca4f02f260ab6cbd33b3ac2d32462ba01d0e961f93c4c7d9977f8076",
+      "text": "Spring Breeze's power changes with the flower count. Predictions made while flowers remain do not necessarily reflect the Clash after they are defeated. Check action order too."
+    },
+    "warnings.3": {
+      "sourceHash": "1c8f9522c10653a33362939183f6997c860d3b960a524703f09d6e49861b012a",
+      "text": "Lowering SP does not change Dongbaek's Heads/Tails odds. At -25 or lower, she also gains 2 Attack Power Up, so partially lowering SP can strengthen her attacks. Panic at -45 causes Stagger, but she resists Stagger and Panic during Dueling."
+    },
+    "warnings.4": {
+      "sourceHash": "0e5b3257ce867e3d0bf75a528081b63f5763c5ddf8846dafc7de28e0c3546a0e",
+      "text": "Turn numbers describe the usual pattern. If you reach 50% HP early or cause Stagger, prioritize the enemy's current skill names when deciding your actions."
+    },
+    "preparation.0": {
+      "sourceHash": "444a55964cc696cff4efe149e1a4628baab69686c66e2c6d86ac637a23c47cde",
+      "text": "Aim for Level 35 or higher on your main units, starting with Identities that lose Clashes. Check their skills and passives through Uptie III too."
+    },
+    "preparation.1": {
+      "sourceHash": "c045cd37052aac272271381da71335618d2fd4e6d574fd0e210a9050a122ef86",
+      "text": "The deployment limit is 7. If fewer Sinners are trained, another option is deploying 4–5 and using the extra action slots gained in deployment order. You have fewer actions on turn 1, so still account for attacks left unanswered."
+    },
+    "preparation.2": {
+      "sourceHash": "1d0cdd8b3b77d539c18bac0804a039016fa7784acbe0fd4c017cc58c28ca71ae",
+      "text": "Prepare 2 Sinners with strong skills or E.G.O for the turn with 2 Spring Breeze slots. Check whether your team's skills supply the necessary Sin Resources."
+    },
+    "preparation.3": {
+      "sourceHash": "83a64e785d1ec951c25e3568d4cfe3d0b31d24c8746c92bf8a51c9bc894647e3",
+      "text": "If your roster cannot cover the Clashes, consider borrowing a Support Identity. No specific Identity is required to clear this fight."
+    },
+    "roles.0.name": {
+      "sourceHash": "66c604608f2db9f995a63b91358c0878b6aae23f5225f908824fef9c20d2c54f",
+      "text": "Main duelist"
+    },
+    "roles.0.reason": {
+      "sourceHash": "c0058e1a8eee2b75f027de2d38103b6bbb3be85c67c1ef7e18a2ed5d75010bac",
+      "text": "A Sinner with reliable Level and SP who can win 2 consecutive Clashes using strong skills or E.G.O. Check their remaining skills and resources before the duel starts."
+    },
+    "roles.1.name": {
+      "sourceHash": "7f26965e3d5fa211791f92a65e777807378ecc12d8575956dcfc1fab127cc486",
+      "text": "Slash / Pride / Gluttony attacker"
+    },
+    "roles.1.reason": {
+      "sourceHash": "9cbe4e4eb2786da3f5ed016f9918222125fce7e3996e1ce84fcffaa95f7b6e2f",
+      "text": "Dongbaek takes 1.5× Slash, 2.0× Pride, and 1.5× Gluttony damage. Flowers are also weak to Slash, Pride, and Gluttony. Prioritize winning Clashes before exploiting weaknesses."
+    },
+    "roles.2.name": {
+      "sourceHash": "833192d61a4294d285bb2fd3e6d98ae0500247e4c7f3b0f45b7816caaff9cf88",
+      "text": "Evade offsetter"
+    },
+    "roles.2.reason": {
+      "sourceHash": "c2b12a1e0ad2ac572851d29893f86a72176df277be307c97f1d78047e3efef0d",
+      "text": "Use a faster Sinner's Guard or Evade. Instead of attacking with everyone each turn, spend one slot on offsetting to limit Blooming buildup."
+    },
+    "roles.3.name": {
+      "sourceHash": "abf15f433cfcd04061cd507c3bf514239fef540cba9e4e9310048e9b39206fbe",
+      "text": "Spring Breeze Clash specialist"
+    },
+    "roles.3.reason": {
+      "sourceHash": "7350e993b56299806f0fc1ef6073b7dbd95faea3b69c6f3c72768f29c09d7fe9",
+      "text": "Prepare high-power skills or E.G.O that can Clash with Spring Breeze after flowers are removed. Avoid spending all necessary resources or SP just to deal damage."
+    }
+  },
+  "messages": {
+    "boss-copy:dongbaek-spicebush": "complete",
+    "【リンバス】4-48 ドンベクE.G.O::壇香梅の攻略｜Limbus Assistant": "4-48 Dongbaek E.G.O::Spicebush Guide | Limbus Assistant",
+    "リンバス(Limbus Company)4-48「ドンベクE.G.O::壇香梅」の攻略。攻撃を受けて開花がたまると、味方が花に閉じ込められる。マッチで開花を抑え、花の処理と後半の対決を乗り切ろう。": "Dongbaek E.G.O::Spicebush guide for Limbus Company 4-48. Hits build Blooming and can trap allies in flowers. Limit Blooming by winning Clashes, deal with the flowers, and prepare for the second-phase duel.",
+    "4-48 ドンベクE.G.O::壇香梅": "4-48 Dongbaek E.G.O::Spicebush",
+    "4-48「Bud」": "4-48 · Bud",
+    "ドンベクE.G.O::壇香梅の外見": "Dongbaek E.G.O::Spicebush appearance",
+    "ドンベクE.G.O::壇香梅のスキル": "Dongbaek E.G.O::Spicebush skills",
+    "Dongbaek E.G.O::Spicebushの外見": "Dongbaek E.G.O::Spicebush appearance",
+    "Dongbaek E.G.O::Spicebushのスキル": "Dongbaek E.G.O::Spicebush skills",
+    "じきに咲き出す花の外見": "Soon-to-bloom Flower appearance",
+    "じきに咲き出す花のスキル": "Soon-to-bloom Flower skills",
+    "Soon-to-bloom Flowerの外見": "Soon-to-bloom Flower appearance",
+    "Soon-to-bloom Flowerのスキル": "Soon-to-bloom Flower skills",
+    "満開の花の外見": "Fully Bloomed Flower appearance",
+    "満開の花のスキル": "Fully Bloomed Flower skills",
+    "Fully Bloomed Flowerの外見": "Fully Bloomed Flower appearance",
+    "Fully Bloomed Flowerのスキル": "Fully Bloomed Flower skills"
+  }
+}

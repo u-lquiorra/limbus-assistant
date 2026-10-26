@@ -1,0 +1,957 @@
+{
+  "kind": "boss-copy",
+  "id": "flannel",
+  "source": "src/data/bosses/flannel.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "フランネル",
+          "en": "Flannel",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1504"
+        },
+        {
+          "ja": "ル・ノワール メゾン",
+          "en": "Maison du Noir",
+          "file": "Enemies-a1c10p2.json",
+          "id": "1505"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "148305"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "149604"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150401"
+        },
+        {
+          "ja": "保存",
+          "en": "Conservation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150402"
+        },
+        {
+          "ja": "品質保存",
+          "en": "Quality Preservation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150403"
+        },
+        {
+          "ja": "生地密度の格差",
+          "en": "Fabric Density Disparity",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150404"
+        },
+        {
+          "ja": "ル・ノワール生地",
+          "en": "Le Noir: Fabric",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150501"
+        },
+        {
+          "ja": "保存",
+          "en": "Conservation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150502"
+        },
+        {
+          "ja": "検品保存",
+          "en": "Inspection Preservation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150503"
+        },
+        {
+          "ja": "生地密度の格差",
+          "en": "Fabric Density Disparity",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150504"
+        },
+        {
+          "ja": "保存",
+          "en": "Conservation",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "150601"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "151101"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "151201"
+        },
+        {
+          "ja": "刺すように照りつける陽射し",
+          "en": "Shower of Stinging Sunshine",
+          "file": "Passives_Abnormality-a1c10p2.json",
+          "id": "1590001"
+        },
+        {
+          "ja": "購入履歴は？",
+          "en": "Your purchase history, please?",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150401"
+        },
+        {
+          "ja": "購入資格は？",
+          "en": "Your purchasing rights, please?",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150402"
+        },
+        {
+          "ja": "スタンピング[フランネル]",
+          "en": "Stamping [Flannel]",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150403"
+        },
+        {
+          "ja": "生地強化",
+          "en": "Reinforce Fabric",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150404"
+        },
+        {
+          "ja": "保存のために",
+          "en": "For Conservation",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150405"
+        },
+        {
+          "ja": "あなたの値段は？",
+          "en": "Your price range, please?",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150501"
+        },
+        {
+          "ja": "欠陥だらけだな",
+          "en": "Disqualifying defects, all over",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150502"
+        },
+        {
+          "ja": "スタンピング[反響]",
+          "en": "Stamping [Reverb]",
+          "file": "Skills_Abnormality-a1c10p2.json",
+          "id": "150504"
+        },
+        {
+          "ja": "保存",
+          "en": "Preservation",
+          "file": "Bufs-a1c10p1.json",
+          "id": "ChargeNoir"
+        },
+        {
+          "ja": "ル・ノワール ウーステッド生地",
+          "en": "Le Noir: Worsted",
+          "file": "Bufs-a1c10p1.json",
+          "id": "NoirBindArmor"
+        }
+      ],
+      "note": "Names follow paired Canto X part 2 records, with the common part 1 status records for Preservation and Le Noir: Worsted. The same Japanese name is Preservation for the status and Conservation for passives 150402/150502. Support skills, zero allied damage, conditional Unbreakable conversion, reflection, and unknown Base Power increase are retained."
+    }
+  },
+  "scopedPaths": [
+    "passives.4.name",
+    "passives.5.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "1d275f2f9db0ea9175cd68310695cece5f50afc255e6dc7964f77220dcefc5ca",
+      "text": "Flannel (Canto X B)"
+    },
+    "shortName": {
+      "sourceHash": "6ba296c45eb460002a76a2e65c601a45442959ec8c38aa19672871bdd6bc7618",
+      "text": "Flannel"
+    },
+    "stageName": {
+      "sourceHash": "8f300ac91a48fc122add19ca8e0407afe20838aa194a11e91642836da5ec4079",
+      "text": "Sisyphus Department Store B, 3F: Le Noir Maison"
+    },
+    "lead": {
+      "sourceHash": "37de35ff03ec33cd637dacaf701576b1fe83666021d575741809408222e9dee7",
+      "text": "These enemies build Preservation and Le Noir: Worsted, using renewed Shields and conditional Unbreakable Coins. Focus damage on one target to reduce actions. Distinguish Flannel gaining Preservation when hit while Shielded from the Maison reflecting damage during defense."
+    },
+    "listLead": {
+      "sourceHash": "d2c73ea311229fdd32f0ad2226d337d89df15eb25b06e3b753b28b493e6b120a",
+      "text": "These enemies build Preservation and Le Noir: Worsted for renewed Shields and conditional Unbreakable Coins. Focus one enemy to reduce actions. Distinguish Count gained when the body is hit while Shielded from the other enemy's damage reflection during defense."
+    },
+    "statNote": {
+      "sourceHash": "85fc35bf288f349185757aed534bbe305dfbc3b9a3893b23a4820343a299d266",
+      "text": "Covers Canto X Route B 3F. Flannel: Lv. 46, 541 HP, base Defense Level 48; Maison du Noir: Lv. 45, 266 HP, base Defense Level 47. Both start with Preservation 1 Potency / 0 Count. Excludes B2F versions and regular-enemy stats. Customer Level determines dungeon Identity levels; Uptie below III is raised to III, but E.G.O Threadspin is unchanged. Team size is up to 12."
+    },
+    "skillNote": {
+      "sourceHash": "e7092fb8f1aad4ef716245a9741e36b8d4b23b48993bfc3af462b21b76e12c24",
+      "text": "Listed Power excludes Preservation, Tremor, and Defense Level differences. All Unbreakable conversion is conditional, so no fixed icons are shown. The Base Power increase from a Defense Level advantage of at least 5 in Fabric Density Disparity is unknown. Unfilled skill slots are omitted; changes between regular patterns and Count-based skills are not presented as a fixed sequence."
+    },
+    "priorities.0": {
+      "sourceHash": "3718569b5f387681f6754b5995a983bf9c28a26f4f69774665d5f771aaa1ceca",
+      "text": "Focus attacks on an enemy you can finish, such as the Maison, to reduce actions."
+    },
+    "priorities.1": {
+      "sourceHash": "051339c85b33b481ef1052faad62126c745b3e391fc08fa213a8a5f6d1d7e2a4",
+      "text": "Check Preservation Potency and Count separately. Prepare for conditional Unbreakable conversion at 3 Potency."
+    },
+    "priorities.2": {
+      "sourceHash": "8225a3b6b32a55a18cd6087efe5c58efad7681a6eebbf94b6192c79a4a95e68f",
+      "text": "During the Maison's Stamping [Reverb], watch for reflection from small attacks against its Shield."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "3b038cc71345432214d53dea91f4d3895889653f97f9986c1af92a3a7bcb60f8",
+      "text": "The Shield keeps returning despite repeated chip damage"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "61c7e9c4344cba4a445aad7e21ffd67c4518250289bffc63dbdaa85bb8c23515",
+      "text": "Le Noir: Worsted grants a fresh Shield every turn according to its stacks. Flannel also gains Preservation Count when hit while Shielded. Focus one enemy at a time, or break the Shield and deal substantial HP damage that turn."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "91ccadad505fc82f3b871f3f73ac7e24a4ad09dc6e4b8c07e751865c40de0a76",
+      "text": "Tremor and damage remain after a clash win"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e7a3f75df0fa16737237c438f7619ca8e07078e16aad1bb0b58240320a4ffa29",
+      "text": "Your purchasing rights, please? and Disqualifying defects, all over make the last Coin Unbreakable at 3 or more Preservation Potency. Flannel's Stamping also makes every Coin Unbreakable when consuming at least 10 Count. Winning does not stop everything; check the clasher's HP and Tremor."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "3d106a022ee26aa053c3ec95b2584ca16ad77b462ab3a004f21820080d3794ff",
+      "text": "Attacking the Maison damages my Sinner"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "87d9bd13eab112f66e6b1756f9b6550258607623f17a581d38b7e5cbdacbe2fa",
+      "text": "During Stamping [Reverb], attacking while its Shield remains returns damage equal to Preservation Potency × Fabric stacks. Avoid careless repeated low-damage multi-hit attacks; concentrate enough damage to finish through the Shield or handle another enemy first."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "888de1a0747fc1d34733bde6407d9b3d563d0fe3e1e89c96d3074844de6299a4",
+      "text": "Where does the 4 Atk Weight For Conservation skill go?"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "2622a5ce266f0fc0584449ca40cbc176203c7fbc97aaad1ec3d515e6079cfd38",
+      "text": "It is support used on enemy allies, dealing 0 direct damage. Do not confuse it with an area attack against Sinners. It strengthens Preservation, defense, and Fabric, so check buffs afterward before assigning clashes."
+    },
+    "phases.0.timing": {
+      "sourceHash": "715c73b52bad830a2f2a1d1eca71b10bdfcd90b382509ac334879480f65798aa",
+      "text": "Before the 3F battle"
+    },
+    "phases.0.title": {
+      "sourceHash": "2b6e2662c473a2447289aff187f68e02b124725a8996ac8bfb1fa9de77a56c0d",
+      "text": "Prepare Customer Level and enough damage to finish a chosen enemy"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "4e3b91770c4c2b2fa945b7af5b957fff90ac04a20af9745db6ce2c757f0fdb70",
+      "text": "Shop toward Customer Lv. 50 or higher and Sapphire. Lv. 51 is reachable at this point. Raising only outside Identity levels does not change dungeon levels."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "aef261eadc70cf5daf793f3f6bc2cfbcbd4264ad7b3ad836d60a0ddc79062f15",
+      "text": "Enemies take ×1.5 Sloth damage. Flannel also takes ×1.25 Lust; the Maison takes ×1.2 Blunt. Bring effective attacks and strong clashes. Both resist Slash at ×0.8."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "10bc82e8846bb7272a0db5c9f19c851ca01a8bc0b41a9a4f5166236f1cbac254",
+      "text": "Starts with Preservation 1 Potency / 0 Count and 5 Fabric. Potency and Count grow through different effects, so check both numbers separately."
+    },
+    "phases.1.timing": {
+      "sourceHash": "3624802d6f89a72af74e9ad98e965aae2e276ec155b11744d32df2e7016af918",
+      "text": "Opening and regular turns"
+    },
+    "phases.1.title": {
+      "sourceHash": "9260c3bac97ad56f2d0737ccccff8e92723f50a9c53627dec7866d42f2692769",
+      "text": "Clash with regular skills and focus on enemies you can finish"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "dca353181a414e50c18b6000f52949cfed0bd1279272f32cbdc2c5a94ffb4654",
+      "text": "Clash with Your purchase history, please?, Your price range, please?, and similar skills to prevent extra on-hit Preservation and Tremor. On-use Count gains remain after winning."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "f0bd428000befd8b7e8b1cd85fbf9bff3796efed6ed0b768a15f87ea9c762d44",
+      "text": "Send spare attacks to a target you can finish, such as the lower-HP Maison. Avoid small attacks spread across everyone that only chip at Shields."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "c6838c137345e999558f36fe2a24f8adc0a57028f393f38d8bd4dc3c00ff50ab",
+      "text": "Flannel gains 1 Preservation Count when hit while Shielded. Concentrate damage to remove the Shield quickly and continue into HP."
+    },
+    "phases.1.steps.3": {
+      "sourceHash": "ca3f85150a8ae80010f060bc9e4ef4e634fd202f8fa991ab4acaacb052e8209c",
+      "text": "Both enemies normally have Stagger Thresholds at 0 HP. Do not plan around an early Stagger from chip damage; use clashes and kills to stop actions."
+    },
+    "phases.2.timing": {
+      "sourceHash": "c90dd56ecbf6dad0fc248a1b4dcd90aa7c7b4128b3b6e8f75934cc0abdee8db2",
+      "text": "Reinforce Fabric and For Conservation"
+    },
+    "phases.2.title": {
+      "sourceHash": "f4bdc0ae725ffd0e15d8d65380658345ceeeb4dd4e1246c64ea6e97e97c69d77",
+      "text": "Check support targets and buffs after consumption"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "18d80ea85c0eba926dd32be1490a37ba33344f08b38678f945bbc4519b7fd5a6",
+      "text": "Reinforce Fabric and For Conservation support enemy allies and deal 0 damage to them. They raise Flannel's own Defense Level and the target's Charge Count. Preservation, as a special Charge, is affected too."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "56bcd0ecddceb43cf4cf6c4fe79b42d7f701828410799fbf8aadcd857ce95a33",
+      "text": "If the target's Charge Count is capped, it gains 3 Defense Level Up and 5 Le Noir: Worsted next turn. Decide where to focus attacks before that target grows stronger."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "4ef8ff95107b4eb08e78cba0e5d71f37cbfeb667fac8c3202664c960e8b17d2d",
+      "text": "For Conservation refills Count to 10 if lower and gives the user Fragile according to the amount added. It consumes all Count after attacking, so a low remaining Count afterward does not guarantee safety."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "41b2b63a2c6512ea430620de669d1ac3620c3eca2e0cd30ffc2b4750b22cf99e",
+      "text": "Every 3 Preservation Count consumed cumulatively grants 1 Fabric; every 10 grants 1 Potency. Consumption strengthens defense and later skills, so avoid letting support repeat through a long battle."
+    },
+    "phases.3.timing": {
+      "sourceHash": "73f7ba192a19cc80154a7c3bd672802ad081d626137f20d726d821fc332a1dbd",
+      "text": "At least 3 Preservation Potency or high Count"
+    },
+    "phases.3.title": {
+      "sourceHash": "3b139bcc02a61a2309f4b541bb9111215222adba148d7ec79f08e78a1a767f61",
+      "text": "Check Unbreakable conditions and assign strong clashes"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "e1c26513c44bc0d9e0dcf42a93e96cc7fe1f1d5f86c8f0e43675c08b5f25a6fb",
+      "text": "Your purchasing rights, please? and Disqualifying defects, all over gain +1 Coin Power per 6 combined Preservation Count and target Tremor (max 2). At 3 or more Preservation Potency, the last Coin also becomes Unbreakable."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "a5354a4e993ca1fb13a8b3720938cdf835ddae04d60691a64d9ac03785203479",
+      "text": "Stamping [Flannel] consumes up to 15 Preservation Count for a Shield equal to (Count consumed × 2)% max HP, lasting through next turn. Consuming at least 10 grants +2 Coin Power and makes all three Coins Unbreakable."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "1231acddbad37ed259e44621cb01b534dd5233754845cfecf40c58f8f9faefa5",
+      "text": "Stamping also converts to Tremor - Decay and triggers Tremor Burst. Use a strong clash to lower Coin Power; avoid low-HP or high-Tremor targets. It has no 80% damage reduction on a clash win."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "3255fe94238882172a681eb2a0a187d0114ab79d8eea719847363f3371c3e1a0",
+      "text": "At 3 or more Preservation Potency, more Tremor is inflicted. A target with lower Defense Level also takes extra damage from the level gap. Check actual Power predictions and target HP."
+    },
+    "phases.4.timing": {
+      "sourceHash": "415f5fb610e769577c784231fa4d97b5606f9c37e2d48476ef8a7f44c0931cf2",
+      "text": "Maison defense and remaining enemies"
+    },
+    "phases.4.title": {
+      "sourceHash": "494f1722effdfe2e81f39b6d0ea8b1c5433dbbd7c9b100f211a42a9bf60cc76b",
+      "text": "Recognize reflection and focus damage to the finish"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "74ff2c8be5eef63ee64748d9f271a7918f8e4c6c418bf6d403219bcf5d3fcb4e",
+      "text": "The Maison's Stamping [Reverb] is a Defense Skill. When attacked while Shielded, it returns damage equal to Preservation Potency × Le Noir: Worsted stacks. Avoid repeatedly chipping at a Shield that remains intact."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "44dec5f0a835fbe3b4027658c9bedd3d766f9efaee60a722eb92a752a7cfc953",
+      "text": "If enough damage is available, finish through the Shield. Redirect Sinners endangered by reflection to clashes against another enemy and limit unnecessary damage."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "1242d6d6b998d050b8e6c764dabb92619c05bf26c225b78184c9860f93db134f",
+      "text": "Focus damage on remaining enemies to stop repeated Shield and Fabric buffs. Even when Count falls, keep checking accumulated Potency and conditional Unbreakable conversion."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Preservation"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "0de61af389ea5cf2ae536f24067db3954b3db8b730d87f77cad0aa69205f896e",
+      "text": "A special Charge starting at 1 Potency / 0 Count, with a base Count cap of 20. Lose 1 Count at Turn End; effects changing Charge Potency or Count also apply. Every 3 Count cumulatively consumed grants 1 Fabric, and every 10 grants 1 Preservation Potency. At 3 or more Potency, Count cap +5."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "6653f592059358c95d9ff692780f5081665e7104f113735d1f49fd18fcc2643c",
+      "text": "Spending Count still builds Potency. Check both and defeat enemies one at a time before the fight drags on."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "ddb73a45858670b3dab245661d2fa8c2a3778b6396c74933cccf9e614795fc1d",
+      "text": "Le Noir: Worsted"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "2b2d376d9db3926747b502830d42aee3343a94ce8b50696ba6e9b5b6952ce8f0",
+      "text": "Maximum 15. Per 5 stacks, maximum Speed −1, Offense Level +1, and Defense Level +1. Lose 1 at Turn End. Gain 5 at Stage Start, then a Shield equal to stacks% of max HP each Turn Start."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "9deeb5781c58643111808c0be0ec35a14911d8a9164a881972ce49114fb1e072",
+      "text": "Focus damage with renewed Shields and defense buffs in mind. The Maison's reflection uses these stacks too."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7655e06608e49eeed89f85cb272d1274366ec67be2d09f31373b3357bde3a434",
+      "text": "Tremor - Decay"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "be0129ed65f102177e275bfbe15ceb2892345fdb3528b2f6873095f5a920d795",
+      "text": "Defense Level −1 per 4 Tremor Potency. Tremor Burst raises Stagger Threshold by Potency; lose 1 Count at Turn End."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "ad63596169243dc2165a8dfde5e30623da5727521520152a00d7b1363c7185e5",
+      "text": "Conversion from regular Tremor also lowers defense. Assign strong skills to Sinners with less Tremor to avoid Stagger and increased damage taken."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "218b835bde429fd89233d740c68cd21d5514a2ea14ef070b7b5c5fbaba7c56e5",
+      "text": "Power from fabric density"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "0a416101311da8c713d3cb0829e7aa2f7cfd5e9a88beeb816c1acf87fa679da5",
+      "text": "If enemy Defense Level exceeds the target's, damage +3% per level of difference (max 30%). At a gap of at least 5, Base Power also rises by an unknown amount. At 3/5 or more Preservation Potency, inflicted Tremor Potency +1/+2."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "3cbd230e4b5119f02a91c97d295fd881ccf81ab2286b544003b44120ee85b2cd",
+      "text": "Check predicted Power and current defense and Tremor rather than judging only from base values."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "d2a8543010c17f36cd0bf98ae74b0c7701ca7ec02ae494cb53205fde6ca34201",
+      "text": "Customer Level"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "8401d98edaddf76d886cec6cd88a8da470b0daac0d355e38352970c215b8f23a",
+      "text": "Raised by department-store shopping with eyeballs; determines dungeon Identity levels."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "3c925c49c60711a246216ce243eb9ee7011779c5e784187c6b43dde2fa671367",
+      "text": "Prepare for Customer Lv. 50 or higher and Sapphire."
+    },
+    "warnings.0": {
+      "sourceHash": "509cffb1104539cdcef33930670fba6d18246e76c2199bdd151f9245d2d57795",
+      "text": "Flannel's Quality Preservation and the Maison's Inspection Preservation are distinct. Preservation Count gained from taking hits while Shielded belongs to Flannel."
+    },
+    "warnings.1": {
+      "sourceHash": "217f2474c817cb19a24a783c1701a9bea90d35105123ad2491bd665d2d9ccd10",
+      "text": "Reinforce Fabric and For Conservation support the enemy team. Atk Weight alone does not make them area attacks against Sinners."
+    },
+    "warnings.2": {
+      "sourceHash": "6e4f985a6d8e04797b6f9caf7bbd81282c6680ee84f1716abebdc5902ba8609d",
+      "text": "The Maison's Stamping [Reverb] reflects damage from attacks against its Shield while defending. It differs from Flannel's Attack Skill."
+    },
+    "warnings.3": {
+      "sourceHash": "902586cf41a5fa5a993df7c42e920e95b499c0fa49b11d601b63416e30b0232e",
+      "text": "All Unbreakable conversion is conditional. Distinguish the 3 Potency condition from Stamping consuming at least 10 Count."
+    },
+    "warnings.4": {
+      "sourceHash": "cae4caddabd1554bfbc3313a73724599f3f3525226d48c9c4f5211997ad98e6e",
+      "text": "Extra Base Power from Fabric Density Disparity and the exact action-switching order are unconfirmed. Check actual skills and predicted Power."
+    },
+    "preparation.0": {
+      "sourceHash": "aeeaeefb13de139ebe7398ec5add9ff36ab72d4f897e253b2ccbdafc02508ea9",
+      "text": "Aim for Customer Lv. 50 or higher and Sapphire. Outside Identity levels do not carry into the dungeon."
+    },
+    "preparation.1": {
+      "sourceHash": "ae27e45ece75e7e7841136bdd267a72fdcfde90f36825174677b6543f8b9868b",
+      "text": "Bring high Sloth damage and strong clashes. Lust works well against Flannel and Blunt against the Maison."
+    },
+    "preparation.2": {
+      "sourceHash": "76331e46b5522803c126fa595404f51e97a794e75bcc70c015f882b7a144c0d8",
+      "text": "Prepare HP recovery for Tremor and Unbreakable damage. Check the target's Blunt, Envy, and Sloth resistances too."
+    },
+    "roles.0.name": {
+      "sourceHash": "4095c3953c177f7aca8fd9e7e35b4ce905f1fe8b3b36ed7dbaf698b89bcd5d87",
+      "text": "Damage focused on Sloth"
+    },
+    "roles.0.reason": {
+      "sourceHash": "6d25c7d95a69621bf7c141357fa7754f5055e7eeb0c1231e0ca8316c0dcb8741",
+      "text": "Concentrate on the chosen enemy to reduce actions before another Shield is gained."
+    },
+    "roles.1.name": {
+      "sourceHash": "694708a7666f3d0f4e4492e1cdee2400442adb2b3d8aae751e3c62d494c150d6",
+      "text": "High-Power clasher"
+    },
+    "roles.1.reason": {
+      "sourceHash": "b7eb4ddc754f22c321aef0b57b9abbf181152a719a9fd77e76db6bad1ccc2006",
+      "text": "Beat skills strengthened by Preservation and Tremor to limit extra Tremor and Preservation gains."
+    },
+    "roles.2.name": {
+      "sourceHash": "599293d6f54c6f79f06a3f803ee32772b5576028857c65bc90ffe9939e7c08d9",
+      "text": "HP recovery and taking Blunt hits"
+    },
+    "roles.2.reason": {
+      "sourceHash": "6f3e62726a53f27f352b8668d201c00e49307f8a4e00b9fa5224dd20b942e5e2",
+      "text": "Recover damage from conditional Unbreakable Coins and Maison reflection."
+    },
+    "units.0.name": {
+      "sourceHash": "6ba296c45eb460002a76a2e65c601a45442959ec8c38aa19672871bdd6bc7618",
+      "text": "Flannel"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "96857a4d8432d8dd4eda89e27eefbd2667b2a081586e4b366ff525a0b0f8d8a4",
+      "text": "Starts with Preservation 1 Potency / 0 Count and gains 5 Fabric at Stage Start."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "bbc1d9e3da5a963fe56f1c2e267fe743327744da8e7158d92841351b4ad52df6",
+      "text": "Defense is the base value before Fabric, SP, and skill effects."
+    },
+    "units.1.name": {
+      "sourceHash": "3605585304812862b86efd17310c2a17d54006577d96c6f16c298027decfd26c",
+      "text": "Maison du Noir"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "da8d13f064defcb11112b4a9566813ef1ddbb7bcd3fb70d82abed6b2602c9ace",
+      "text": "The 3F add, distinct from the B2F version with 327 HP."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "5b15146e37f78b68c92af28d6a3794cb891c202ff349fd525ff6de92d52656c5",
+      "text": "Starts with Preservation 1 Potency / 0 Count. Watch for Stamping [Reverb] reflection."
+    },
+    "skills.0.name": {
+      "sourceHash": "bdf021c2c60789d42f8b22b5311486937516ec018e4678b9bd21107aeaf8b517",
+      "text": "Your purchase history, please?"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "adae12c512c3cdeb9b317eb73e16b6989aa91ba199aaa32a24e14d0f55556101",
+      "text": "Damage +(Shield value on self)% (max 20%)"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "25897b67cd5ddd8b16301df6d029ed7b994e062ff2f170ec109126d7284a837f",
+      "text": "[On Use] Gain 2 Preservation Count"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "cd434a61e0e7140462d64c7fd4ca16dfb8c2cb4eb8c51171c11c889058717df9",
+      "text": "Ⅰ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "8745be8c070f75c68472bebc68261337cdd563abf0636282dc599c1e76c584ca",
+      "text": "Ⅱ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.0.response": {
+      "sourceHash": "042c1ee4cac2697bc403beaef89e734213088bb2afb6dfe6d677dba70ba19721",
+      "text": "The on-use +2 Count remains after winning, but additional on-hit gains and Tremor can be prevented. A Shield also raises damage, so take the clash."
+    },
+    "skills.1.name": {
+      "sourceHash": "02fd7c75d0b4c6ce774b6dae5aad971c96d9d78fc919c54244f8ebb6b13ebc55",
+      "text": "Your purchasing rights, please?"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "a950c28437ddd8da7c6177a60bc86177291311641e783ab0a19a9a9c03322ce4",
+      "text": "[On Use] Coin Power +1 per 6 combined Preservation Count on self and Tremor on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "897699b4af7cda7d8ef4f79d0924e52276c588c3e7e43d7880c4dc82661e86a7",
+      "text": "[On Use] Gain 3 Preservation Count"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "0038ad690f5b3262900878f49beae65ac9a75abe3eb3b6d464eb7e711bb7e1ed",
+      "text": "[Clash Win] Gain 2 Preservation Count"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "534eb3804d480554de640718f0e327c5b118df2226ded4f09ff5823a00ca8f6e",
+      "text": "[On Use] At 3 or more Preservation Potency, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "cd434a61e0e7140462d64c7fd4ca16dfb8c2cb4eb8c51171c11c889058717df9",
+      "text": "Ⅰ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "a8e44ae4fa76b5a48b8e629a0af245f7e20c76e0c91b7d3b20b01a5464fdea5a",
+      "text": "Ⅱ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.1.response": {
+      "sourceHash": "a584251ad77d94862e0b87926686354c9beb0099ce6c009011b62a48a9312e5d",
+      "text": "Preservation Count and target Tremor add up to 2 Coin Power. At 3 or more Potency, the last Coin is Unbreakable. Expect attacks remaining after a win and assign a Sinner with little Tremor."
+    },
+    "skills.2.name": {
+      "sourceHash": "3c3d814518a6d894f70bd32bdf61e9b2ea9cd724db046aa1f261316e9871d356",
+      "text": "Stamping [Flannel]"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "d52827ec91d106859756b96d1ce81b282e2ccf4d76792dab71cf74b22274cacc",
+      "text": "Damage +(Shield value on self)% (max 50%)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "cf3b80c4bc6c207122b0f7124f44b2ec12e148ee40d86ca17d2d977c38fd7598",
+      "text": "[On Use] Final Power +1 per 6 Tremor on the target (max 2)"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "f7d268c5fe563d911edc72e811bcf11853ef82bffe59a2b9b630699a3fdd36c2",
+      "text": "[On Use] Consume up to 15 Preservation Count; gain a Shield lasting through next turn equal to (Count consumed × 2)% of max HP"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "d44bb3437ba69f971523f56fd8f2c96d0af0e356729f29e77f3ab6387026ed4f",
+      "text": "[On Use] If at least 10 Preservation Count was consumed, Coin Power +2 and convert all Coins to Unbreakable Coins"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "8650c581a1635dac31563ad42d2e50753c9aeef362c58448ecbf6e8f883f7a8b",
+      "text": "Ⅰ [On Hit] Inflict 3 Tremor"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "20a896491dd6b168f6958e0e3f9512c043a211cf5742feafeeae104de8e5f18e",
+      "text": "[On Hit without Coin Destruction] Gain 3 Preservation Count"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "b60ca084234a3a0fc5019b0baf5a79b385cf2ebdbaad22c2ab2d052b6faa283b",
+      "text": "Ⅱ [On Hit] Increase Tremor Count by 2"
+    },
+    "skills.2.effects.7": {
+      "sourceHash": "b591a83d79e13c53c4843b5919d4b2ff5417194335906f1fe4478665b1d572ef",
+      "text": "[On Hit without Coin Destruction] Gain 2 Preservation Count"
+    },
+    "skills.2.effects.8": {
+      "sourceHash": "770f08d5344eda7d5fe9496cf5f24b4806e0708806a3772116d59831f7d8f6a9",
+      "text": "Ⅲ [On Hit] Inflict Amplitude Conversion into Tremor - Decay"
+    },
+    "skills.2.effects.9": {
+      "sourceHash": "748b11680f2a2ac7d21898e370d4bfc8b17e665535f65e460e814039d6011adf",
+      "text": "[On Hit] Trigger Tremor Burst; reduce Tremor Count by 1"
+    },
+    "skills.2.effects.10": {
+      "sourceHash": "8d49b4780533c52079f5205241d49be7f2e4d51727ad6efb91c97301ef400586",
+      "text": "- Add one activation per 2 Preservation Potency on self (max 2 extra)"
+    },
+    "skills.2.response": {
+      "sourceHash": "d83cd544e079837ff58c2556918ff7dad7236e0ddb2535657f7bde9b47f685d2",
+      "text": "Consumes up to 15 Count for a Shield. Consuming at least 10 makes all three Coins Unbreakable and grants +2 Coin Power. Check beyond the base maximum of 15; prepare strong clashes and healing after hits."
+    },
+    "skills.3.name": {
+      "sourceHash": "b87079b6c8de7d72837b40ff530b31a09710398fcac6fb4f639e1c7c41fde7ee",
+      "text": "Reinforce Fabric"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "0ca9af4d4601769af093871af5dba1cafecdd18b1deabd9cb1645112873ee737",
+      "text": "Used on allies; damage to allies is fixed at 0"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "15c3241589bc7411e2d6365ceeebc18f3a19256e0991f61f6212e2457ba0319c",
+      "text": "[On Use] Final Power +2 per 4 Tremor on the target (max 6)"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "12acd21ad5a6872e52dbd2beca5edaf8ed6e25eaf64282f5941d99d5f1330d78",
+      "text": "Ⅰ [On Hit] Gain 3 Defense Level Up this turn and next turn"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "1c5d9115c84a8ae67623458ed2959ae7c5e213ae5ca60cfcb566f268c357383e",
+      "text": "[On Hit] Increase the target's Charge Count by the user's Preservation Count"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "71de77670d65bcce8031d439c782319c16b91c85115de0dda41c71a590aa6100",
+      "text": "- If the target's Charge Count reaches its cap, grant 3 Defense Level Up and 5 Le Noir: Worsted next turn"
+    },
+    "skills.3.label": {
+      "sourceHash": "648d88679029a3f2323d4a503801e9ac04c766f3a33574541e09846e65d6b85a",
+      "text": "Enemy support · 0 direct damage"
+    },
+    "skills.3.response": {
+      "sourceHash": "77a3c4005a221a3e95f0da3184b12e8e296602e1e59b6b0140394fd4f82bdc63",
+      "text": "Support used on enemy allies, dealing 0 direct damage. Raises Flannel's own defense and the target's Charge Count. Check the target and Preservation values, then concentrate enough damage to finish an enemy."
+    },
+    "skills.4.name": {
+      "sourceHash": "1748a44c656de4a260b38b6ec1a5090adbdcde79d8f96f46f2dc482b9a881b6f",
+      "text": "For Conservation"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "0ca9af4d4601769af093871af5dba1cafecdd18b1deabd9cb1645112873ee737",
+      "text": "Used on allies; damage to allies is fixed at 0"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "15c3241589bc7411e2d6365ceeebc18f3a19256e0991f61f6212e2457ba0319c",
+      "text": "[On Use] Final Power +2 per 4 Tremor on the target (max 6)"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "8e6454c47a56eac56c6925ca7305ba6410e252cc76d55ef21f94f66894901990",
+      "text": "[On Use] At 3 or more Preservation Potency, convert all Coins to Unbreakable Coins"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "6a4a0716f27b854677ec2ddbd40b95de610e49cd83a81ecfa0155101dbe05def",
+      "text": "[On Use] If Preservation Count is below 10, raise it to 10 and gain 1 Fragile per 2 Count added"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "5b39ed07394f104cd32f48a96e60a27acbe31b869239f7da3d95cf06161dc56b",
+      "text": "[Clash Lose] Consume half of Preservation Count"
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "b7efb265d87edf756d29d7b4bfe9baea50e4f0e93ebc1c0a3cdcc520bcfe3901",
+      "text": "[After Attack] Consume all Preservation Count"
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "27da2ba45cc364201ebe75d14a1813de129493e86cd14d9f8a9775ea1208b4ff",
+      "text": "Ⅰ [On Hit] Gain 2 Defense Level Up this turn and next turn"
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "1c5d9115c84a8ae67623458ed2959ae7c5e213ae5ca60cfcb566f268c357383e",
+      "text": "[On Hit] Increase the target's Charge Count by the user's Preservation Count"
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "71de77670d65bcce8031d439c782319c16b91c85115de0dda41c71a590aa6100",
+      "text": "- If the target's Charge Count reaches its cap, grant 3 Defense Level Up and 5 Le Noir: Worsted next turn"
+    },
+    "skills.4.label": {
+      "sourceHash": "648d88679029a3f2323d4a503801e9ac04c766f3a33574541e09846e65d6b85a",
+      "text": "Enemy support · 0 direct damage"
+    },
+    "skills.4.response": {
+      "sourceHash": "c1bd1f4bfaaea3adbd9c8e22b5c496bf166c03d4d1dfbe4f3b69cb20116cca66",
+      "text": "Despite 4 Atk Weight, it supports enemy allies and deals 0 direct damage to them. Refills Count, uses it for support, then consumes it all. Consumption builds Fabric and Potency; avoid a prolonged fight."
+    },
+    "skills.5.name": {
+      "sourceHash": "ba052a8b624335ce1671cd528c39fd246f25658304a886e3f6078e12c8a7b9cd",
+      "text": "Your price range, please?"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "25897b67cd5ddd8b16301df6d029ed7b994e062ff2f170ec109126d7284a837f",
+      "text": "[On Use] Gain 2 Preservation Count"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "cd434a61e0e7140462d64c7fd4ca16dfb8c2cb4eb8c51171c11c889058717df9",
+      "text": "Ⅰ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "8745be8c070f75c68472bebc68261337cdd563abf0636282dc599c1e76c584ca",
+      "text": "Ⅱ[On Hit] Inflict 3 Tremor"
+    },
+    "skills.5.response": {
+      "sourceHash": "a431659f06e6e5168e613da54ffb0297d9d4264134459cf79d56c8656fec5c8d",
+      "text": "A regular two-Coin Blunt skill. On-use Count gains remain, but clash to prevent extra on-hit gains and Tremor."
+    },
+    "skills.6.name": {
+      "sourceHash": "fddda31a07bbd8b98d4106e1cd4cb6c7092911587cec4671a59c9bc8be680513",
+      "text": "Disqualifying defects, all over"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "a950c28437ddd8da7c6177a60bc86177291311641e783ab0a19a9a9c03322ce4",
+      "text": "[On Use] Coin Power +1 per 6 combined Preservation Count on self and Tremor on the target (max 2)"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "897699b4af7cda7d8ef4f79d0924e52276c588c3e7e43d7880c4dc82661e86a7",
+      "text": "[On Use] Gain 3 Preservation Count"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "0038ad690f5b3262900878f49beae65ac9a75abe3eb3b6d464eb7e711bb7e1ed",
+      "text": "[Clash Win] Gain 2 Preservation Count"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "534eb3804d480554de640718f0e327c5b118df2226ded4f09ff5823a00ca8f6e",
+      "text": "[On Use] At 3 or more Preservation Potency, convert the last Coin to an Unbreakable Coin"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "cd434a61e0e7140462d64c7fd4ca16dfb8c2cb4eb8c51171c11c889058717df9",
+      "text": "Ⅰ [On Hit] Gain 2 Preservation Count"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "b60ca084234a3a0fc5019b0baf5a79b385cf2ebdbaad22c2ab2d052b6faa283b",
+      "text": "Ⅱ [On Hit] Increase Tremor Count by 2"
+    },
+    "skills.6.effects.7": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.6.response": {
+      "sourceHash": "44a2fed97e6dbc6b85f04922af4acd9afb308053d049be7e2ec52c936311f3f0",
+      "text": "Preservation Count and target Tremor raise Power; at 3 or more Potency, the last Coin becomes Unbreakable. Watch for Coin 2's Tremor Count and Burst too."
+    },
+    "skills.7.name": {
+      "sourceHash": "46082c7e260deecb48e5d72c0d3bc82b5c63d83e29c988ec148c86aba57ab6cb",
+      "text": "Stamping [Reverb]"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "557031cab898b0a84bac3e126246d7a2f6025cc0b4e022de84213a2bb42b6bec",
+      "text": "While Shielded, when hit by an enemy, deal damage to them equal to (Preservation Potency × Le Noir: Worsted stacks)"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "1efaef906781d04e0237875dcc98606f342779a65324182b440684b604f77a24",
+      "text": "[On Use] Gain 3 Preservation Count"
+    },
+    "skills.7.response": {
+      "sourceHash": "626f9a74ad661a6db0fdfc0ce6fff77a8ebe4660d8f254e6ce2ac5fa36be376b",
+      "text": "A Defense Skill reflecting Preservation Potency × Fabric stacks when attacked while Shielded. Choose focused damage that can finish the enemy, or handle another target instead of repeated small attacks."
+    },
+    "passives.0.name": {
+      "sourceHash": "b338c1ece14883d33f0aaeda19f49272ebc7ee2bd54f35f013013b5cbaed4b38",
+      "text": "Le Noir: Fabric"
+    },
+    "passives.0.effect": {
+      "sourceHash": "8d48901e6348efcff97657cbccc7a00b7ac061f93c08253031a664c991f71aa0",
+      "text": "At Stage Start, gain 5 Le Noir: Worsted.\nAt Turn Start, gain a Shield equal to (Le Noir: Worsted stacks)% of max HP."
+    },
+    "passives.0.condition": {
+      "sourceHash": "5a5f9f2c0c8e4b72575d3e9cff173ff09cee1d9088089a079a4b81f66e7e20d2",
+      "text": "Stage Start and Turn Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "1449965e0fa8786e7f6ae38f8b6c623d167989ae1892789174365bc5723c786a",
+      "text": "Gains a Shield every turn according to Fabric. Merely damaging it last turn does not ensure safety; finish the chosen enemy."
+    },
+    "passives.1.name": {
+      "sourceHash": "b338c1ece14883d33f0aaeda19f49272ebc7ee2bd54f35f013013b5cbaed4b38",
+      "text": "Le Noir: Fabric"
+    },
+    "passives.1.effect": {
+      "sourceHash": "8d48901e6348efcff97657cbccc7a00b7ac061f93c08253031a664c991f71aa0",
+      "text": "At Stage Start, gain 5 Le Noir: Worsted.\nAt Turn Start, gain a Shield equal to (Le Noir: Worsted stacks)% of max HP."
+    },
+    "passives.1.condition": {
+      "sourceHash": "5a5f9f2c0c8e4b72575d3e9cff173ff09cee1d9088089a079a4b81f66e7e20d2",
+      "text": "Stage Start and Turn Start"
+    },
+    "passives.1.response": {
+      "sourceHash": "1449965e0fa8786e7f6ae38f8b6c623d167989ae1892789174365bc5723c786a",
+      "text": "Gains a Shield every turn according to Fabric. Merely damaging it last turn does not ensure safety; finish the chosen enemy."
+    },
+    "passives.2.name": {
+      "sourceHash": "72d193d29e2fd81796bc124d875e56272dac92d34f1a7c836e1fd76e44ba372c",
+      "text": "Shower of Stinging Sunshine"
+    },
+    "passives.2.effect": {
+      "sourceHash": "c654a7fef45de8b7bcdad1c44d079bb91acc1d1899d9f30414f4a1ba42979433",
+      "text": "Levels are increased by the sunlight effect"
+    },
+    "passives.2.condition": {
+      "sourceHash": "91d38e1b71cac375c4543099a6f9c79c7b9746fedc69226dcb912285d1c21f9c",
+      "text": "Already enhanced units"
+    },
+    "passives.2.response": {
+      "sourceHash": "2a259966526493450efb4c2e2d92922b776c3b9ba04d599d493af38e22e8ace2",
+      "text": "These enemies are already enhanced to Lv. 46 and Lv. 45. Raise Customer Level and prepare clashes that can beat the current opponents."
+    },
+    "passives.3.name": {
+      "sourceHash": "72d193d29e2fd81796bc124d875e56272dac92d34f1a7c836e1fd76e44ba372c",
+      "text": "Shower of Stinging Sunshine"
+    },
+    "passives.3.effect": {
+      "sourceHash": "c654a7fef45de8b7bcdad1c44d079bb91acc1d1899d9f30414f4a1ba42979433",
+      "text": "Levels are increased by the sunlight effect"
+    },
+    "passives.3.condition": {
+      "sourceHash": "91d38e1b71cac375c4543099a6f9c79c7b9746fedc69226dcb912285d1c21f9c",
+      "text": "Already enhanced units"
+    },
+    "passives.3.response": {
+      "sourceHash": "2a259966526493450efb4c2e2d92922b776c3b9ba04d599d493af38e22e8ace2",
+      "text": "These enemies are already enhanced to Lv. 46 and Lv. 45. Raise Customer Level and prepare clashes that can beat the current opponents."
+    },
+    "passives.4.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Conservation"
+    },
+    "passives.4.effect": {
+      "sourceHash": "df61b9eb75c01fa048d6bb2c44a925cc9aa5ec8a0309e2ca1ee9ee5e359e8a36",
+      "text": "For Preservation Count cumulatively consumed during battle:\n- Gain 1 Le Noir: Worsted per 3 consumed.\n- Gain 1 Preservation per 10 consumed.\n\nAt 3 or more Preservation Potency, maximum Preservation Count +5."
+    },
+    "passives.4.condition": {
+      "sourceHash": "c05bd64908d674b0aab40272d395154fc173e83002fd9314e6b5476a5806009c",
+      "text": "Cumulative Preservation Count consumption"
+    },
+    "passives.4.response": {
+      "sourceHash": "dae0fd83a98603be3991033b100b292088eed0179983669f96030ada92f26adf",
+      "text": "Every 3 Count consumed adds 1 Fabric; every 10 adds 1 Potency. Check the Potency built through consumption, not just current Count."
+    },
+    "passives.5.name": {
+      "sourceHash": "a3030bf8f16dc63c6b277564c68f78a3be5abe5f2907c51826dee7184ff793fd",
+      "text": "Conservation"
+    },
+    "passives.5.effect": {
+      "sourceHash": "df61b9eb75c01fa048d6bb2c44a925cc9aa5ec8a0309e2ca1ee9ee5e359e8a36",
+      "text": "For Preservation Count cumulatively consumed during battle:\n- Gain 1 Le Noir: Worsted per 3 consumed.\n- Gain 1 Preservation per 10 consumed.\n\nAt 3 or more Preservation Potency, maximum Preservation Count +5."
+    },
+    "passives.5.condition": {
+      "sourceHash": "c05bd64908d674b0aab40272d395154fc173e83002fd9314e6b5476a5806009c",
+      "text": "Cumulative Preservation Count consumption"
+    },
+    "passives.5.response": {
+      "sourceHash": "dae0fd83a98603be3991033b100b292088eed0179983669f96030ada92f26adf",
+      "text": "Every 3 Count consumed adds 1 Fabric; every 10 adds 1 Potency. Check the Potency built through consumption, not just current Count."
+    },
+    "passives.6.name": {
+      "sourceHash": "416fb4573feeff98995850d0733d6caf1c93b24b2e4b511bc91c6e315cdee15e",
+      "text": "Quality Preservation"
+    },
+    "passives.6.effect": {
+      "sourceHash": "3462cd7fbcdb5ec8273976c75d767d23857759c236ec8774e71ceef70f3a70f6",
+      "text": "While Shielded, gain 1 Preservation Count when hit by an enemy.\n\nAt Turn Start with at least 10 Preservation Count, use a powerful skill."
+    },
+    "passives.6.condition": {
+      "sourceHash": "9034424344cba8f01a0985ae1e595d743d1987365b099651c95d41a3e9cc54e7",
+      "text": "Flannel hit while Shielded; at least 10 Count at Turn Start"
+    },
+    "passives.6.response": {
+      "sourceHash": "bf96a243c0c463551344fb482a5e1a8a0361c573375bdfefa9be44df335a660c",
+      "text": "Small attacks that fail to break through add Count. Concentrate attacks to finish through the Shield or remove it quickly."
+    },
+    "passives.7.name": {
+      "sourceHash": "bd45aeaf0d0c409a27ce139df5def454a0089980254146389297ead0ee4708d2",
+      "text": "Inspection Preservation"
+    },
+    "passives.7.effect": {
+      "sourceHash": "4b43c36441578fe611af673a308d7816da9ec56c5439ec522cc9f7400371507b",
+      "text": "At Turn Start with at least 10 Preservation Count, use a powerful skill"
+    },
+    "passives.7.condition": {
+      "sourceHash": "7ff5c58f5e05985c77adff6df310a1c1d1e7fb32a160a96abe2195e3a253deaa",
+      "text": "Maison at 10 or more Count at Turn Start"
+    },
+    "passives.7.response": {
+      "sourceHash": "73a1f518a9923605936cb484bd3a68c8042d5c689abf42d7ddbe575666cd9cfc",
+      "text": "The add also builds Preservation and switches to strong skills. Reduce actions through regular-skill clashes and early kills."
+    },
+    "passives.8.name": {
+      "sourceHash": "7c32f10dc355e2ada1699c3bca955573731b886f499d203e062bd737ae71dd56",
+      "text": "Fabric Density Disparity"
+    },
+    "passives.8.effect": {
+      "sourceHash": "092192455e77c4806adb52215c17c70309434f2969b4cb2a09a6a2ab12f8a8d3",
+      "text": "At 3/5 or more Preservation Potency, inflicted Tremor Potency +1/+2.\n\nOn Skill Use, if Defense Level exceeds the target's, damage +3% per level of difference (max 30%).\n- At a difference of at least 5, Base Power increases by an unknown amount."
+    },
+    "passives.8.condition": {
+      "sourceHash": "cd0d9db9cac52e6ed0b2eeff62612c95ecf6a5b2823cb163d41d99a2b7add9d6",
+      "text": "3/5 Preservation Potency; Defense Level above target"
+    },
+    "passives.8.response": {
+      "sourceHash": "a319880f58f2e08d215ced181cb069b4b1e1d7151d25c3f27081ff54202bdf39",
+      "text": "Preservation Potency increases Tremor application, and Defense Level differences also increase damage. The Base Power increase at a gap of 5 or more is unknown, so check predicted Power too."
+    },
+    "passives.9.name": {
+      "sourceHash": "7c32f10dc355e2ada1699c3bca955573731b886f499d203e062bd737ae71dd56",
+      "text": "Fabric Density Disparity"
+    },
+    "passives.9.effect": {
+      "sourceHash": "092192455e77c4806adb52215c17c70309434f2969b4cb2a09a6a2ab12f8a8d3",
+      "text": "At 3/5 or more Preservation Potency, inflicted Tremor Potency +1/+2.\n\nOn Skill Use, if Defense Level exceeds the target's, damage +3% per level of difference (max 30%).\n- At a difference of at least 5, Base Power increases by an unknown amount."
+    },
+    "passives.9.condition": {
+      "sourceHash": "cd0d9db9cac52e6ed0b2eeff62612c95ecf6a5b2823cb163d41d99a2b7add9d6",
+      "text": "3/5 Preservation Potency; Defense Level above target"
+    },
+    "passives.9.response": {
+      "sourceHash": "a319880f58f2e08d215ced181cb069b4b1e1d7151d25c3f27081ff54202bdf39",
+      "text": "Preservation Potency increases Tremor application, and Defense Level differences also increase damage. The Base Power increase at a gap of 5 or more is unknown, so check predicted Power too."
+    }
+  },
+  "messages": {
+    "boss-copy:flannel": "complete",
+    "【リンバス】10-04 フランネル（10章B）の攻略｜Limbus Assistant": "10-04 Flannel (Canto X B) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)10-04「フランネル（10章B）」の攻略。保存とウーステッド生地を育て、毎ターンのバリアと条件付き破壊不能で戦う敵。攻撃を分散させず、選んだ敵へ火力を集めて行動を減らす。フランネルのバリア中の被弾…": "Flannel (Canto X B) guide for Limbus Company 10-04. These enemies build Preservation and Le Noir: Worsted, using renewed Shields and conditional Unbreakable Coins. Focus damage on one target to reduce actions. Distinguish Flannel gaining Preservation when hit while Shielded from the Maison reflecting damage during defense.",
+    "10-04 フランネル（10章B）": "10-04 Flannel (Canto X B)",
+    "10-04「Sisyphus Department Store B, 3F: Le Noir Maison」": "10-04 · Sisyphus Department Store B, 3F: Le Noir Maison",
+    "フランネルの外見": "Flannel appearance",
+    "フランネルのスキル": "Flannel skills",
+    "Flannelの外見": "Flannel appearance",
+    "Flannelのスキル": "Flannel skills",
+    "ル・ノワール メゾンの外見": "Maison du Noir appearance",
+    "ル・ノワール メゾンのスキル": "Maison du Noir skills",
+    "Maison du Noirの外見": "Maison du Noir appearance",
+    "Maison du Noirのスキル": "Maison du Noir skills"
+  }
+}

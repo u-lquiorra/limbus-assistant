@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0902.md",
+  "code": "0902",
+  "messages": {
+    "次のターンの憤怒火力を底上げするため、火傷と憤怒脆弱を広域にばらまく憤怒斬撃の準備用E.G.O(解析Ⅴ前提)。": "A Wrath Slash setup E.G.O that spreads Burn and Wrath Fragility across multiple targets to boost next turn's Wrath damage (assumes Threadspin Ⅴ).",
+    "火傷と憤怒脆弱: 攻撃加重値3の広域で、破壊されずに的中すると火傷6、的中時に次のターンの憤怒脆弱3を付与する。": "**Burn and Wrath Fragility**: A multi-target attack with 3 Attack Weight that inflicts 6 Burn when it hits without being broken, and 3 Wrath Fragility next turn on hit.",
+    "自己強化: 攻撃後、次のターンに憤怒威力増加1・憤怒ダメージ量増加1を得る。次のターンに憤怒スキルで畳みかける前提の効果。": "**Self-buff**: After the attack, she gains 1 Wrath Power Up and 1 Wrath DMG Up next turn. These effects assume following up with Wrath skills on the next turn.",
+    "破壊不能コイン: マッチ威力は25~38と高く減算コインでも安定する。ダメージ量も最大共鳴数1につき+5%(最大30%)伸びるが、自身の火力を狙うスキルではないと考えられる。": "**Unbreakable Coins**: Its Clash Power is a high 25–38 and stable even with Minus Coins. Damage also grows by +5% per point of the highest Resonance (up to 30%), but it is likely not a skill aimed at her own damage.",
+    "パッシブ「火種」: 憤怒完全共鳴が発動していれば、マッチ勝利時にメインターゲットへ憤怒脆弱1(1ターン1回)。火傷の敵を倒すと、憤怒完全共鳴数%(最大12%)体力が回復する。": "**Passive — Spark of Flame**: While Wrath Absolute Resonance is active, a Clash Win inflicts 1 Wrath Fragility on the main target (once per turn). Defeating a Burning enemy heals HP equal to Wrath Absolute Resonance% (up to 12%).",
+    "火傷編成で、全員が憤怒スキルを揃えて攻める前のターンに撃つ。": "In a Burn team, fire it on the turn before everyone attacks together with Wrath skills.",
+    "精神消耗は覚醒・侵蝕とも20(OCは30)。撃った後の追撃は、他の人格の憤怒スキルに任せる。": "Its Sanity cost is 20 for both Awakening and Corrosion (30 with Overclock). Leave the follow-up after firing to other Identities' Wrath skills.",
+    "侵蝕スキルは覚醒とほぼ同じで加重値が5になり、火傷10を付与するが、味方も巻き込む。": "The Corrosion skill is nearly identical to Awakening, with 5 Attack Weight and 10 Burn, but it also catches allies.",
+    "Ⅱ: 「火種」が解放される。この時点では撃破時の回復のみ。": "**Ⅱ**: Unlocks Spark of Flame. At this point, it only heals on kills.",
+    "Ⅲ: 基本威力が33→38になり、火傷4→6と憤怒脆弱3が加わる。このE.G.Oの本領が入るので最低でもここまで上げたい。": "**Ⅲ**: Base Power 33→38, Burn 4→6, and 3 Wrath Fragility is added. This is where its real strength comes in, so take it at least this far.",
+    "Ⅳ: 攻撃加重値が1→3(侵蝕は3→5)になる。単体相手ならⅢのままでも足りると考えられる。": "**Ⅳ**: Attack Weight goes 1→3 (Corrosion 3→5). Against a single target, Ⅲ is likely enough.",
+    "Ⅴ: コイン威力-18→-13でマッチ威力の下限が20→25に上がり、破壊不能コインになる。自身の憤怒威力増加・憤怒ダメージ量増加や、「火種」の憤怒脆弱付与が加わる。": "**Ⅴ**: Coin Power −18→−13 raises the minimum Clash Power from 20 to 25, and it gains Unbreakable Coins. Adds her own Wrath Power Up and Wrath DMG Up, and Spark of Flame's Wrath Fragility infliction.",
+    "南部リウ協会4課部長: 火傷を付与するスキルがそろい、憤怒(S2)・傲慢(S1)の資源も出せる。パッシブは憤怒完全共鳴を活かす。": "**[Liu Assoc. South Section 4 Director](persona:0908)**: Has a full set of Burn-inflicting skills and supplies Wrath (S2) and Pride (S1). Her passive makes use of Wrath Absolute Resonance.",
+    "蜘蛛の巣親指の親方: 基本スキルの多くが火傷を付与し、傲慢・憤怒の資源も出せる。": "**[The House of Spiders: The Thumb Nursefather](persona:0916)**: Many of her basic skills inflict Burn, and she supplies Pride and Wrath resources."
+  }
+}

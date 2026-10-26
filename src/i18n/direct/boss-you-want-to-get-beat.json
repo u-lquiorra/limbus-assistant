@@ -1,0 +1,640 @@
+{
+  "kind": "boss-copy",
+  "id": "you-want-to-get-beat",
+  "source": "src/data/bosses/you-want-to-get-beat.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Proper names use the paired game localization dictionary; original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "eventChoices": {
+        "file": "ActionEvents.json",
+        "ids": [
+          801201,
+          801202,
+          801203,
+          801204
+        ],
+        "englishUrl": "https://github.com/x1bViolet/Limbus-Localization-Files/blob/c31b3b0c44b2e230e29d51106190b4c1511a4c33/ActionEvents.json"
+      },
+      "eventWarning": {
+        "file": "AbEvents.json",
+        "id": 801202
+      }
+    }
+  },
+  "entries": {
+    "name": {
+      "sourceHash": "2479fe588687ac2a3049705ae51c91c115103f75623f7afdfcd734345b93410b",
+      "text": "You Want To Get Beat? Hurtily? (Canto II)"
+    },
+    "shortName": {
+      "sourceHash": "13f2171b18509c32ec592eb776efcd03604d9a819def61eba12e3dacb3d0c513",
+      "text": "You Want To Get Beat? Hurtily?"
+    },
+    "stageName": {
+      "sourceHash": "bfab46cdda4b957fb14ef6493fdfaa11ea61722dc19617481f49df2ad16f3800",
+      "text": "J-03 Branch, Floor 2: Component Assembly Room"
+    },
+    "lead": {
+      "sourceHash": "9420285c3fd0420926bfd8890a7d376c482eb0b872dcbe198bbb09b287ad042f",
+      "text": "Defeat adds to trigger revivals, then investigate the factory. After the warning, Stagger or defeat the main body. Choose “No.” 3 times at the control panel to stop all enemy revivals without losing HP. After shutdown, keep Clashing to block attacks and finish the enemies."
+    },
+    "listLead": {
+      "sourceHash": "e9b98d69df3d177c469d9bab0a9b2bd750edbe30515532aa35b068c6a08d88ea",
+      "text": "Clear reviving adds to create a chance to investigate. Choose the option that stops the device, then finish without allowing unopposed attacks even after it stops."
+    },
+    "statNote": {
+      "sourceHash": "08126ddc4a2f68e8931269745cfa03f6849cc383bff304c2ff4607b6de1253ce",
+      "text": "The Floor 2 encounter in the Canto II dungeon. Main body: Lv. 13, Defense Level 15, 90 Part HP. Starting main-body HP is inconsistently listed as 152 or 120 and remains unconfirmed. Add HP is also inconsistent, with 51 main-body HP and 52 Part HP listed; it is not treated as confirmed. Do not infer HP from enemy level or other encounters."
+    },
+    "skillNote": {
+      "sourceHash": "16b00c5aa4a2eea2bbf15dbdf8f0b504c2a1a7a35411b190eabd38329d52ba54",
+      "text": "All 14 entries: 6 main-body skills and 4 for each add type. PUNISH☆MENT has Base Power 3, +6 Coin Power, and 2 Coins; its +2 On Use Power is not included in Base Power. Don’t Stop Me?! and So Busy… are Minus Coin Guard skills. Surgery's damage bonus applies separately even to low-Power skills after shutdown."
+    },
+    "priorities.0": {
+      "sourceHash": "720ab13569fbe2eb187936fe69bfa309cc2c085096366adc863cfdd560faf48f",
+      "text": "Prioritize reducing both adds to 0 HP, triggering a total of 2 Surgery increases from revivals across the enemy team. There is no need to repeatedly defeat the main body."
+    },
+    "priorities.1": {
+      "sourceHash": "8915f6782ccd8fe42178a0da1d8a0fc9e306037b651f3bf0acf29497f114947c",
+      "text": "Choose “Investigate the factory.” After the next warning, Stagger or defeat the main body, then select “No.” a total of 3 times at the control panel."
+    },
+    "priorities.2": {
+      "sourceHash": "718459302a8fe881e86bb42b6b1e5db762186424538abb81ff784c0e0eff0b6f",
+      "text": "Surgery's bonuses remain after stopping the factory. Beat E-MER-GEN-CY!!! and finish enemies while they have Fragile. Do not let low-Power attacks through unopposed."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "93828689e079a8ae3873b881aa5684c7a20ea09568e1d08cb5de6d205b712ce9",
+      "text": "Defeated enemies keep coming back"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "727971a933ec683b32d8597cb2bbb825f51d51f4a81cabf3d5a251a91a1cbec5",
+      "text": "Upgrade Factory at Work revives them and increases Surgery by 1. Stop revivals through the shutdown event or continue defeating them until Surgery reaches 5. Normally, use the 2 adds to meet the investigation requirement."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "0c5d265dd236a4d5b4e78322b4e9e1bd4f39f38a57b9f3d8c057478546cf8094",
+      "text": "Extra attacks on the main body increase Surgery only once"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "91e7950756ca62598f48a9198e4f59cd79ec0e1776936c8fcfa92d87219799cf",
+      "text": "Repeated attacks during the same turn in which an enemy reaches 0 HP do not add multiple stages. Defeat another enemy or wait for the next revival before attacking again."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "06aa8f6b0e2a00f45d62071620b62f12078cf79072c7c3600857eb71377fd9c9",
+      "text": "I investigated, but the next warning never appeared"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "346c830b30b7795f306d715c04a376062314b1f38d554c0460a5ea129b7c1a3b",
+      "text": "If the main body is dead when the first investigation event begins, the next warning or event may not occur. Use adds for the investigation requirement, then Stagger or defeat the main body after the next warning."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "0d3d64c21d3ad512243de398f21f9d3517be457cbdace63761c9ba3431276b4a",
+      "text": "Stopping the factory dealt 30 damage to every ally"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "08103ecb16b61331956bc8a5ae70a651422984c112d2862c62475b8d4fb3952c",
+      "text": "Reaching the fifth input before giving “No.” 3 times stops the factory at a cost of 30 HP for everyone. Avoid extra choices and select “No.” 3 times."
+    },
+    "units.0.name": {
+      "sourceHash": "13f2171b18509c32ec592eb776efcd03604d9a819def61eba12e3dacb3d0c513",
+      "text": "You Want To Get Beat? Hurtily?"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "eb9abe62e07cce8850510def01fd2b4746b27124b71358eababb8061b9436199",
+      "text": "Unconfirmed (main body 152 / 120; Part 90)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "a844a4cad831e98904dcae31dccfcf6384d11fbaa6983df0cd05222898502d7c",
+      "text": "Starts with 1 Surgery. Remains targetable and continues acting after Part destruction."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "5fe2fea55cef05ee3d6b7311b9af7582f98de9571b07993dfc447f92c748f6ae",
+      "text": "Revival through Upgrade Factory at Work also revives the Part and fully restores its HP. Surgery grants Haste in addition to the displayed Speed."
+    },
+    "units.1.name": {
+      "sourceHash": "4b8201cb906d07f478788d506a29e85ff15c65dd84a411cf800e62cabcd018ae",
+      "text": "Grown Powerful! For Realsies?"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.hp": {
+      "sourceHash": "fd1c29e3a99f39d1117745c2079df3c77e68ffb09d4c3438d5b409947fdad92d",
+      "text": "Unconfirmed (51 / 52)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "7de0557889739322ffd17aa82a4904a3c411660a742b2d6d8f879d61afc92f8c",
+      "text": "1 enemy. Part cannot be broken. Blunt, Wrath, and Pride are effective."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "b0dc8b29571833b290b37dfe3b148462be3250c4850fda2685a1b9b7f0fc328b",
+      "text": "Revives while the factory is running. Use it to progress the first investigation requirement."
+    },
+    "units.2.name": {
+      "sourceHash": "86b7cd6068aa3a26114436aec0950c88f5d59eda48fc87b3219c3b5b91567a6f",
+      "text": "Become Strong? Genuinely?"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.hp": {
+      "sourceHash": "fd1c29e3a99f39d1117745c2079df3c77e68ffb09d4c3438d5b409947fdad92d",
+      "text": "Unconfirmed (51 / 52)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "354680b02fbc3e3a28308ad8af1e74e86e7fc61e69e9417c2884fc5237f7c933",
+      "text": "1 enemy. Part cannot be broken. Uses Pierce skills such as Work Hard! rather than Stay Diligent!."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "3156e3be5b43cbb7747f9f7fb230d255cf0cbf896ebc9e2ef876e102d8f57e3d",
+      "text": "Revives while the factory is running. Further attacks after defeating it cannot advance Surgery through multiple stages."
+    },
+    "phases.0.timing": {
+      "sourceHash": "d91b6b122b219b30d1e97990e8e978d5184eb84f95e3af7e3e3dbd102ce12c1c",
+      "text": "Opening to the first investigation warning"
+    },
+    "phases.0.title": {
+      "sourceHash": "cc500fbe0f9fabfddad4c2a9256100c317fee20eec211e2434fa287c801896e3",
+      "text": "Use the 2 adds to progress the revival requirement"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "b9a211e3fdc78f658a1966118744ea0bbfcb5b9738019e3df4f04d70fb8c0c63",
+      "text": "Take necessary Clashes against the main body, and direct spare Blunt attacks at adds. Pierce is effective against the main body; Blunt against adds. Wrath and Pride also deal good damage."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "4147c9583e9a6268d2faf6f4dda2292e539ba3f1832b64809221555488190855",
+      "text": "Reduce each add to 0 HP to trigger a total of 2 Surgery increases from revivals across the enemy team. Progress the requirement using the low-HP adds rather than repeatedly damaging the main body."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "27aacf9ec6f10b2e72ef0a934bf7e178f8bc122bcef559738948469dd7c13861",
+      "text": "If the main body is dead at the first investigation event, an exception can prevent the next investigation. For the standard route, trigger the warning through the adds instead of defeating the main body first."
+    },
+    "phases.1.timing": {
+      "sourceHash": "782501295d282c97f8a3dadfeebaa3b4ca8f0c47aca0450a31a594047f3287e0",
+      "text": "The first investigation event"
+    },
+    "phases.1.title": {
+      "sourceHash": "47eccc23d6fdc025bb86317fd31633a1ce7a816fec428a8b032de5f2af6fd7fd",
+      "text": "Investigate the factory and wait for the next warning"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "355739621b7c66c91cdbbf03af42bb9f314d8a320788935bfa81e546d2b4798a",
+      "text": "Choose “Investigate the factory.” No dice check is needed here."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "8dddb7a6a83d69662f2a8385b343e54618d7f05fd92e310ee81cec68dc69deeb",
+      "text": "Choosing not to investigate closes the shutdown route. In that case, keep defeating enemies until Surgery reaches 5."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "0e5ade55e174b1905193df7a863d338fc4f5c25f1269224fcdec55c8e876e4e7",
+      "text": "After investigating, watch for the Turn Start warning “Go for the Big One!”, then Stagger the main body or reduce it to 0 HP."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ce7dd3c32117c051f66864c6495332450d212b18c14ccb76765786667ea90d89",
+      "text": "The control panel event"
+    },
+    "phases.2.title": {
+      "sourceHash": "3df27b57ab354391453cda7241e4781d76e3d3f795ef0876da0631a702db7683",
+      "text": "Select “No.” 3 times to stop the factory without a cost"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "a8fd6a7a8b9a3ba99be695e3ba6d62405193b4bb8d59436b50bc4a04c3f78288",
+      "text": "At the control panel, choose “No.” a total of 3 times. Upgrade Factory at Work is removed from all enemies, preventing revivals."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "acd01ed6bb12089358326e90b6b134d232a7a728f7d225a4811c1fbfcb819a2d",
+      "text": "If the fifth input is reached before 3 “No.” inputs, shutdown costs all Sinners 30 HP. There is no cost if the fifth input is also the third negative answer, but choosing it 3 times consecutively from the start avoids this complication."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "b60715ee18d8c74cba224671e3accaef88766ffa2294a181ddb57663c37c5ef9",
+      "text": "Immediately after shutdown, enemies gain Fragile and mainly use E-MER-GEN-CY!!!. Removing revivals does not instantly defeat every enemy."
+    },
+    "phases.3.timing": {
+      "sourceHash": "f7422cf9fcf3ea9b6b50cd5c307969f87ff86ebf87d12b56b5c52005d6d6bd4f",
+      "text": "After shutdown / pursuing 5 Surgery instead"
+    },
+    "phases.3.title": {
+      "sourceHash": "943a5c69e51bccb9dd55d54344149fa79be24a46e781ae3de6552593c2b876c4",
+      "text": "Win even the low-Power Clashes and finish the fight"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "9ecc5e5ea4728bf6eee30c0023a946aa0a27763ecabcd8c8f6b3d4309e2f396f",
+      "text": "E-MER-GEN-CY!!! has an unmodified maximum Power of 4, but Surgery increases its damage. Win Clashes before taking hits and defeat the enemies with Fragile."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "44e683a3e7afecafb97a843c480cd1c4fd2fcf6865c5dba41e8b2be3668d636c",
+      "text": "Without the investigation route, keep triggering revivals until Surgery reaches 5. Increasing Surgery lowers max HP but raises Speed and damage, so do not let attacks through."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "796acbedf01c0e6db159aae435c18c08f5fbac7316b7ae154dfc06c8182c4bb4",
+      "text": "Extra hits in the same turn do not repeatedly add Surgery. Redirect attacks to another active enemy or attack after the next revival."
+    },
+    "skills.0.name": {
+      "sourceHash": "1f02504dd93705e63f5126a7cc3906da5100df9fbf9917e98619441bb52d608b",
+      "text": "Worktime!"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.0.response": {
+      "sourceHash": "931e845eb619c47772817a3d5133817d781c9287092806cdafdff34499de48c8",
+      "text": "A Minus Coin skill with Base Power 9 and Coin Power −7. Heads makes it weaker. Surgery still increases its damage, so do not allow an unopposed attack based only on the lower end of its Power range."
+    },
+    "skills.1.name": {
+      "sourceHash": "c369d1d0e6a3668074e2ccfdf0e0b702451fcaa1f1526ba61be33552f8fea9c7",
+      "text": "Get to Work!"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "77aceaa2d642307006d12d88a0ab6090903751ce8e9e7f81696a6d987391a77d",
+      "text": "Ⅰ[On Hit] Gain 2 Haste next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "6951ebb78dc41d7d4b8e483e9aa426b8e170f8ae5bdd7eafa2955b2fb7306866",
+      "text": "Its unmodified maximum Power is 13. On Hit also grants 2 Haste next turn, so check the current Clash prediction and stop it."
+    },
+    "skills.2.name": {
+      "sourceHash": "aeccfdd4b8baa2621947c1a3f3a06523f9b929c4de7c8a1b66bf97980083ff54",
+      "text": "So Excited!!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "e916065539cfed052f7ae7c6cb48881cfd6a1a0a261d569efc55b01d5ca7e341",
+      "text": "Ⅰ[On Hit] Take 3 damage."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "5d1571cbfb2f6d0ea3d398d87b8024e62b62e44f633a523a6c862cc4ee20a538",
+      "text": "Ⅱ[On Hit] Take 3 damage."
+    },
+    "skills.2.response": {
+      "sourceHash": "1698dd04c0a48b9caf44c20c9117844387c20b5d165c5511cb3801fc0c18438c",
+      "text": "Each of its 2 Coins deals 3 damage to the user on hit. Do not simply wait for self-damage to finish it; deal damage while Clashing against dangerous attacks."
+    },
+    "skills.3.name": {
+      "sourceHash": "a94e53eb6de1545804ba6b589b0322a730a6ca1746838cd2c9bd8fa772457da3",
+      "text": "PUNISH☆MENT"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "558ffc7499c8415ada15bfd94039b093f0fea60fb5979f366a25f3d80e6c08c7",
+      "text": "[On Use] Take 10 damage. Gain +2 Skill Power."
+    },
+    "skills.3.response": {
+      "sourceHash": "dfdd45fa53a8d7a37f5dc4bd0ec92875247590ce603709adf24d61712664bcd7",
+      "text": "Its unmodified 3–15 range becomes 5–17 with +2 Skill Power On Use. The 10 self-damage also occurs On Use; winning the Clash alone does not stop the Power increase. Use a strong skill or E.G.O."
+    },
+    "skills.4.name": {
+      "sourceHash": "08bd64f8c9bb04cd51b6f2aad2acad83dfb3d6bf219836cf3954eb37572b5b53",
+      "text": "E-MER-GEN-CY!!!"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "e916065539cfed052f7ae7c6cb48881cfd6a1a0a261d569efc55b01d5ca7e341",
+      "text": "Ⅰ[On Hit] Take 3 damage."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "5d1571cbfb2f6d0ea3d398d87b8024e62b62e44f633a523a6c862cc4ee20a538",
+      "text": "Ⅱ[On Hit] Take 3 damage."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "98a67b6a7caf9d8d4a94e9ec2a078eaf313ac74299c02caac422cf61748738e2",
+      "text": "Ⅲ[On Hit] Take 3 damage."
+    },
+    "skills.4.response": {
+      "sourceHash": "9afe007cfa7eb562f07a1900a35b1548cb68f7231a4dae931d6800706799d8d6",
+      "text": "Used after factory shutdown. Even with an unmodified maximum Power of 4, Surgery increases its damage. Do not let it through unopposed just because its Power is low; keep winning Clashes to finish it."
+    },
+    "skills.5.name": {
+      "sourceHash": "a31c41b5804c50a365eab0c3e259137adbdd34fdd9eeebf34ae632e94b9714b0",
+      "text": "Don’t Stop Me?!"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.5.response": {
+      "sourceHash": "ffaa5e47e920b42fc6c6bd2239621f49de1207f9bc888b528a086cba04a245d6",
+      "text": "A Minus Coin Guard skill with a displayed 5–7 range. Prioritize Clashes against dangerous attacks, then use spare actions to Stagger or defeat the main body. Part destruction alone does not stop its actions."
+    },
+    "skills.6.name": {
+      "sourceHash": "f1ae4eb7a7a493e64a0e50bf8c5216460a618354ac4e3002eb8d803e5d9fb3dd",
+      "text": "Best Get It Over With…"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.6.response": {
+      "sourceHash": "f6d2c68daf0e879e67504e09761b98268ee3736f95747c76cfaf2e48a41cf630",
+      "text": "Base Power 3, Coin Power −1, and 2 Coins. Its relatively low Power makes it suitable for winning Clashes while reducing adds to 0 HP and progressing the investigation requirement."
+    },
+    "skills.7.name": {
+      "sourceHash": "7e5e3fac96ccacce1365d37d93bcb86413df116f2888ed4b5200cf80586e5172",
+      "text": "Stay Diligent!"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "90a4f9a547a591363de356882a5ecfd50dfcdba9fd414ef6b805a9c0a4dd0f9b",
+      "text": "[On Use] Take 10 damage. Gain +1 Skill Power."
+    },
+    "skills.7.response": {
+      "sourceHash": "1f6b050d299781f0325f13a258d885ace99a085903baea036612281f26b3c800",
+      "text": "On Use, takes 10 self-damage and gains +1 Skill Power. The actual prediction is higher than the unmodified 2–8 range. Win Clashes while progressing the adds' revivals."
+    },
+    "skills.8.name": {
+      "sourceHash": "61f1c1b9814883bb0245a74814e6b4be9402d0b733b4036c7bf3f03d066b0133",
+      "text": "So Busy…"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.8.response": {
+      "sourceHash": "019f21bd12d2ed916b5bfb992b9aed788aeadd2306f8889dce7d5008d78c89eb",
+      "text": "A Guard skill with Base Power 6 and Coin Power −2. After an enemy reaches 0 HP, further attacks that turn do not advance Surgery multiple stages; target another active enemy instead."
+    },
+    "skills.9.name": {
+      "sourceHash": "08bd64f8c9bb04cd51b6f2aad2acad83dfb3d6bf219836cf3954eb37572b5b53",
+      "text": "E-MER-GEN-CY!!!"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "e916065539cfed052f7ae7c6cb48881cfd6a1a0a261d569efc55b01d5ca7e341",
+      "text": "Ⅰ[On Hit] Take 3 damage."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "5d1571cbfb2f6d0ea3d398d87b8024e62b62e44f633a523a6c862cc4ee20a538",
+      "text": "Ⅱ[On Hit] Take 3 damage."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "98a67b6a7caf9d8d4a94e9ec2a078eaf313ac74299c02caac422cf61748738e2",
+      "text": "Ⅲ[On Hit] Take 3 damage."
+    },
+    "skills.9.response": {
+      "sourceHash": "9afe007cfa7eb562f07a1900a35b1548cb68f7231a4dae931d6800706799d8d6",
+      "text": "Used after factory shutdown. Even with an unmodified maximum Power of 4, Surgery increases its damage. Do not let it through unopposed just because its Power is low; keep winning Clashes to finish it."
+    },
+    "skills.10.name": {
+      "sourceHash": "3e728c2ad20486ecf33af9d0fc9535f0d63ba06d7f57418fad8cd32e4bc410f1",
+      "text": "Work Hard!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "90a4f9a547a591363de356882a5ecfd50dfcdba9fd414ef6b805a9c0a4dd0f9b",
+      "text": "[On Use] Take 10 damage. Gain +1 Skill Power."
+    },
+    "skills.10.response": {
+      "sourceHash": "1b3a1cce2209018e3c991f847f1f74aa73df5e36370b7bcfae5c06907fec22be",
+      "text": "Its unmodified 2–11 range gains +1 Power On Use. Even an add can reach 12, so do not allow an unopposed attack merely because it is a lesser enemy."
+    },
+    "skills.11.name": {
+      "sourceHash": "7f175d58fe9a685090f6fd7fe5097668b6c31828c5613a5c688d686e65517a26",
+      "text": "Let’s Get to Work…"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.11.response": {
+      "sourceHash": "e09d02d44e3d42d20b3a7dc4e443834155e5b5f057733d86de6d52c44f097309",
+      "text": "A 2-Coin Minus skill with an unmodified 1–3 range. Reserve stronger skills for dangerous high-Power attacks and handle this one with a skill that can win."
+    },
+    "skills.12.name": {
+      "sourceHash": "61f1c1b9814883bb0245a74814e6b4be9402d0b733b4036c7bf3f03d066b0133",
+      "text": "So Busy…"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "83d19d02ca409b175ed0dffecc53de581cf6652552085aa2707f3ed02f5e74b7",
+      "text": "No additional unique effects."
+    },
+    "skills.12.response": {
+      "sourceHash": "019f21bd12d2ed916b5bfb992b9aed788aeadd2306f8889dce7d5008d78c89eb",
+      "text": "A Guard skill with Base Power 6 and Coin Power −2. After an enemy reaches 0 HP, further attacks that turn do not advance Surgery multiple stages; target another active enemy instead."
+    },
+    "skills.13.name": {
+      "sourceHash": "08bd64f8c9bb04cd51b6f2aad2acad83dfb3d6bf219836cf3954eb37572b5b53",
+      "text": "E-MER-GEN-CY!!!"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "e916065539cfed052f7ae7c6cb48881cfd6a1a0a261d569efc55b01d5ca7e341",
+      "text": "Ⅰ[On Hit] Take 3 damage."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "5d1571cbfb2f6d0ea3d398d87b8024e62b62e44f633a523a6c862cc4ee20a538",
+      "text": "Ⅱ[On Hit] Take 3 damage."
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "98a67b6a7caf9d8d4a94e9ec2a078eaf313ac74299c02caac422cf61748738e2",
+      "text": "Ⅲ[On Hit] Take 3 damage."
+    },
+    "skills.13.response": {
+      "sourceHash": "9afe007cfa7eb562f07a1900a35b1548cb68f7231a4dae931d6800706799d8d6",
+      "text": "Used after factory shutdown. Even with an unmodified maximum Power of 4, Surgery increases its damage. Do not let it through unopposed just because its Power is low; keep winning Clashes to finish it."
+    },
+    "passives.0.name": {
+      "sourceHash": "220d1fb53090dcfedd7bc8115680a87a4b11882e7f29b1ae8917a4f4312ed44c",
+      "text": "You Must Become Strong"
+    },
+    "passives.0.condition": {
+      "sourceHash": "514e8e6d51a72ba30bb9e23c0fc3599e622118efa9c982102abc50d708d4e9a0",
+      "text": "Every turn"
+    },
+    "passives.0.effect": {
+      "sourceHash": "2f1ef5ab66e0df44b81d633307ff5c0f7deaf46bc17e3e634a790c22d10fe276",
+      "text": "Gain 2 Protection."
+    },
+    "passives.0.response": {
+      "sourceHash": "09c64ba229d36d26dc9321faf7f12c336914d310cd64d9b840bdc512beec81ac",
+      "text": "The main body has Protection. Distinguish it from the adds' 1 Protection and use effective Pierce, Wrath, or Pride attacks."
+    },
+    "passives.1.name": {
+      "sourceHash": "0f4717c5197e5ada7d1fa505d38a6eda1dff44f91ac0613fc049024e65756c8b",
+      "text": "Upgrade Factory at Work"
+    },
+    "passives.1.condition": {
+      "sourceHash": "f874deb38150c9e36e23cd7fab75e0896c0db41a50f20a368f4149dfb30e4290",
+      "text": "On death"
+    },
+    "passives.1.effect": {
+      "sourceHash": "13703a43e750ffcab3b699e2450f314e6c1fc61d30ae03638edb069d3a2e6875",
+      "text": "Revive next turn with 1 additional Surgery."
+    },
+    "passives.1.response": {
+      "sourceHash": "a90641622a31c2588fa1d2a4b04130b3661b199c307b09ca70ba97bcf6395bc4",
+      "text": "Stop revivals by shutting down the factory, or progress Surgery to 5. Extra attacks in the same turn do not add multiple Surgery stages."
+    },
+    "passives.2.name": {
+      "sourceHash": "0f4717c5197e5ada7d1fa505d38a6eda1dff44f91ac0613fc049024e65756c8b",
+      "text": "Upgrade Factory at Work"
+    },
+    "passives.2.condition": {
+      "sourceHash": "f874deb38150c9e36e23cd7fab75e0896c0db41a50f20a368f4149dfb30e4290",
+      "text": "On death"
+    },
+    "passives.2.effect": {
+      "sourceHash": "13703a43e750ffcab3b699e2450f314e6c1fc61d30ae03638edb069d3a2e6875",
+      "text": "Revive next turn with 1 additional Surgery."
+    },
+    "passives.2.response": {
+      "sourceHash": "a90641622a31c2588fa1d2a4b04130b3661b199c307b09ca70ba97bcf6395bc4",
+      "text": "Stop revivals by shutting down the factory, or progress Surgery to 5. Extra attacks in the same turn do not add multiple Surgery stages."
+    },
+    "passives.3.name": {
+      "sourceHash": "0f4717c5197e5ada7d1fa505d38a6eda1dff44f91ac0613fc049024e65756c8b",
+      "text": "Upgrade Factory at Work"
+    },
+    "passives.3.condition": {
+      "sourceHash": "f874deb38150c9e36e23cd7fab75e0896c0db41a50f20a368f4149dfb30e4290",
+      "text": "On death"
+    },
+    "passives.3.effect": {
+      "sourceHash": "13703a43e750ffcab3b699e2450f314e6c1fc61d30ae03638edb069d3a2e6875",
+      "text": "Revive next turn with 1 additional Surgery."
+    },
+    "passives.3.response": {
+      "sourceHash": "a90641622a31c2588fa1d2a4b04130b3661b199c307b09ca70ba97bcf6395bc4",
+      "text": "Stop revivals by shutting down the factory, or progress Surgery to 5. Extra attacks in the same turn do not add multiple Surgery stages."
+    },
+    "passives.4.name": {
+      "sourceHash": "220d1fb53090dcfedd7bc8115680a87a4b11882e7f29b1ae8917a4f4312ed44c",
+      "text": "You Must Become Strong"
+    },
+    "passives.4.condition": {
+      "sourceHash": "514e8e6d51a72ba30bb9e23c0fc3599e622118efa9c982102abc50d708d4e9a0",
+      "text": "Every turn"
+    },
+    "passives.4.effect": {
+      "sourceHash": "a089c4cae6c311c77847fb96501b5eed261aece11b2d2c76c6634c6b956d0ba1",
+      "text": "Gain 1 Protection."
+    },
+    "passives.4.response": {
+      "sourceHash": "71acdfcf94c98937361327034a21f834eef8dd5ee7e1b3ed53925fbffef7513d",
+      "text": "Has less Protection than the main body. Use Blunt attacks against adds to progress the investigation requirement."
+    },
+    "passives.5.name": {
+      "sourceHash": "220d1fb53090dcfedd7bc8115680a87a4b11882e7f29b1ae8917a4f4312ed44c",
+      "text": "You Must Become Strong"
+    },
+    "passives.5.condition": {
+      "sourceHash": "514e8e6d51a72ba30bb9e23c0fc3599e622118efa9c982102abc50d708d4e9a0",
+      "text": "Every turn"
+    },
+    "passives.5.effect": {
+      "sourceHash": "a089c4cae6c311c77847fb96501b5eed261aece11b2d2c76c6634c6b956d0ba1",
+      "text": "Gain 1 Protection."
+    },
+    "passives.5.response": {
+      "sourceHash": "71acdfcf94c98937361327034a21f834eef8dd5ee7e1b3ed53925fbffef7513d",
+      "text": "Has less Protection than the main body. Use Blunt attacks against adds to progress the investigation requirement."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "6ea1b069a7889d73925319a2c3c8e4ba591d2da6edb5ca9b406c627d835bf7f6",
+      "text": "Surgery"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "1e26d80276058f5952c06c7d350be176e33a1b994620a4cd4b0227274b854988",
+      "text": "Dies at 5. Each stack reduces max HP by 20% and increases damage dealt. Gain Haste equal to the value each turn. Damage increases are listed in increments of 20, but the unit is unconfirmed."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "03477e0bdf7f62e040fd1d0d2ed8364698259da45010b6c50478350b00ee2f14",
+      "text": "Revivals reduce HP but increase Speed and damage. Do not repeatedly multiply the current max HP by 20%, or treat the damage bonus as an unconfirmed flat damage increase."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "08272f884c0b3eff835238f01a5da1a8f2f7b2d6c02fe8cb2f83454286606a51",
+      "text": "Factory investigation requirements"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "e090b3cdb7587d510795d835408b67b2e56975765cbd8e332f7810fa1ffc368f",
+      "text": "A total of 2 Surgery increases from revivals across the enemy team creates an investigation opportunity. Investigate, then Stagger or defeat the main body after the next warning to reach the control panel."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "8c96dabece971de0ceb93e56676a0812edd601a6e2dffdcab3fb4291c22d2ac0",
+      "text": "Use both adds to meet the initial requirement. To avoid the exception involving the main body's dead state, do not finish it before the next warning."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "569870db81edbad3e527708ff965d31e1f23f444940f8db5a82af9adffd3f7a7",
+      "text": "After factory shutdown"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "f30958f27e29a100010c0870d935dc4878f48cc2974caadcd287774c032bf7b5",
+      "text": "All enemies lose their revival passive, gain Fragile, and change behavior. Shutdown is not stated to remove Surgery itself."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "82174b5f334eadd9875b27687be79bd0f4985972922b3548b3a5ac45d274dbe0",
+      "text": "Clash even against low-Power attacks and finish the fight without taking hits strengthened by the remaining damage bonus."
+    },
+    "warnings.0": {
+      "sourceHash": "e87a4c6e54b20cb86602f184e2d9db8784125af1918d1e0240bcdc5db842da3d",
+      "text": "If the main body is dead during the first investigation, an exception can prevent the next investigation event."
+    },
+    "warnings.1": {
+      "sourceHash": "aa3ec4a5813da6e2a3177d2924ede0fa1ebc9a59a023cfc117646b5b4ae700db",
+      "text": "Part destruction alone does not stop the main body's actions, and revival restores the Part as well."
+    },
+    "warnings.2": {
+      "sourceHash": "5ef8029b9b38105ac0f8e7c99181bab08fd8ec231ac2e8a1496cec991d7e3996",
+      "text": "Including its On Use bonus, PUNISH☆MENT rolls 5–17. Do not judge the Clash using only its unmodified 3–15 range."
+    },
+    "warnings.3": {
+      "sourceHash": "619eff704fa4f9ae3e5a8b14b039b15cc89a3680ba6bbc14127646ad1a652995",
+      "text": "After shutdown, still account for Surgery's damage bonus. Low Power does not necessarily mean a hit deals little damage."
+    },
+    "warnings.4": {
+      "sourceHash": "56ea289c5208c7438d02dd42e35813f327444d49c32944af587cc8d766aceafe",
+      "text": "Starting HP is inconsistent and unconfirmed. Do not rely on a fixed sequence based on one specific HP value."
+    },
+    "preparation.0": {
+      "sourceHash": "0599c7d1dbf87e6bfb96b17b3ab4b66ee281f9f67446357c1788ba38ef42d38e",
+      "text": "Deploy 5 Sinners. Use the Canto II dungeon's recommended Lv. 15 as a guide and prepare a core team that can win Clashes, plus any available E.G.O."
+    },
+    "preparation.1": {
+      "sourceHash": "43aedbbef887182d1889112d30661b6422086abf9118524d4e79b06fe9a490d8",
+      "text": "Pierce is effective against the main body; Blunt against adds. Wrath and Pride also work well. Check Speed as Surgery makes enemies faster."
+    },
+    "roles.0.name": {
+      "sourceHash": "7570f45716605ed6e865e5def9b1f2f0b1b9e1f032d0049c71648f3309dd17a2",
+      "text": "Blunt attackers for the adds"
+    },
+    "roles.0.reason": {
+      "sourceHash": "d520694779ba6542c0c7b3e7e325736a701fe10bda5dfb0aff23fbae39078e14",
+      "text": "Meet the first investigation requirement without relying on defeating the main body."
+    },
+    "roles.1.name": {
+      "sourceHash": "17b234794e73350c0c0a1e8f2d3ce7ccfd624b2f757bdea506c650064fc08ab3",
+      "text": "High-Power skills for the main body"
+    },
+    "roles.1.reason": {
+      "sourceHash": "1e01b9b6047a9a9500eb85e609de60029db4c1107180132b865a4ccac457c705",
+      "text": "Stop PUNISH☆MENT, then Stagger or defeat the main body after the warning."
+    },
+    "roles.2.name": {
+      "sourceHash": "8fb350a0db37730ede3804a807aea5aab3dbb064823a0d8621e557f3785a8169",
+      "text": "Clash roles after shutdown"
+    },
+    "roles.2.reason": {
+      "sourceHash": "be5bc077133560f95793ffd51ff23a60b31f41edeb14197fd4044e7281380e71",
+      "text": "Do not let low-Power attacks through while Surgery remains. Finish the enemies during Fragile."
+    }
+  },
+  "messages": {
+    "boss-copy:you-want-to-get-beat": "complete",
+    "【リンバス】2-19 お前ぶたれたい？しこたま？（2章）の攻略｜Limbus Assistant": "2-19 You Want To Get Beat? Hurtily? (Canto II) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)2-19「お前ぶたれたい？しこたま？（2章）」の攻略。取り巻きを倒して復活を進め、工場を調査する。予告後に本体を混乱・撃破させ、操作盤で「そうでない。」を3回選ぶと、HPを失わずに敵全体の復活を止め…": "You Want To Get Beat? Hurtily? (Canto II) guide for Limbus Company 2-19. Defeat adds to trigger revivals, then investigate the factory. After the warning, Stagger or defeat the main body. Choose “No.” 3 times at the control panel to stop all enemy revivals without losing HP. After shutdown, keep Clashing to block attacks and finish the enemies.",
+    "2-19 お前ぶたれたい？しこたま？（2章）": "2-19 You Want To Get Beat? Hurtily? (Canto II)",
+    "2-19「J-03 Branch, Floor 2: Component Assembly Room」": "2-19 · J-03 Branch, Floor 2: Component Assembly Room",
+    "お前ぶたれたい？しこたま？の外見": "You Want To Get Beat? Hurtily? appearance",
+    "お前ぶたれたい？しこたま？のスキル": "You Want To Get Beat? Hurtily? skills",
+    "You Want To Get Beat? Hurtily?の外見": "You Want To Get Beat? Hurtily? appearance",
+    "You Want To Get Beat? Hurtily?のスキル": "You Want To Get Beat? Hurtily? skills",
+    "強くなったよ！マジで？の外見": "Grown Powerful! For Realsies? appearance",
+    "強くなったよ！マジで？のスキル": "Grown Powerful! For Realsies? skills",
+    "Grown Powerful! For Realsies?の外見": "Grown Powerful! For Realsies? appearance",
+    "Grown Powerful! For Realsies?のスキル": "Grown Powerful! For Realsies? skills",
+    "強くなった？ほんとに？の外見": "Become Strong? Genuinely? appearance",
+    "強くなった？ほんとに？のスキル": "Become Strong? Genuinely? skills",
+    "Become Strong? Genuinely?の外見": "Become Strong? Genuinely? appearance",
+    "Become Strong? Genuinely?のスキル": "Become Strong? Genuinely? skills"
+  }
+}

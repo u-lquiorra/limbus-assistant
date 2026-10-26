@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/1103.md",
+  "code": "1103",
+  "messages": {
+    "攻撃後の精神力回復で(解析Ⅲから)実質ノーコストに連発でき、色欲脆弱で色欲スキルの火力を底上げする、色欲斬撃のE.G.O。": "A Lust Slash E.G.O that can be used repeatedly at effectively no cost (from Threadspin Ⅲ) thanks to SP recovery after the attack, boosting Lust skills' damage with Lust Fragility.",
+    "精神力回復: 覚醒スキルは攻撃後に精神力を12回復する(解析Ⅲは18)。精神消耗は15なので、解析Ⅲなら使うたびに精神力がプラスになる。": "**SP recovery**: The Awakening skill restores 12 SP after the attack (18 at Threadspin Ⅲ). Its Sanity cost is 15, so at Threadspin Ⅲ her SP ends up higher every time she uses it.",
+    "色欲脆弱: Ⅰコインが的中時に色欲脆弱1を付与する(解析Ⅲは2)。色欲の高火力スキルを持つ味方と合わせて使う。": "**Lust Fragility**: Coin Ⅰ inflicts 1 Lust Fragility on hit (2 at Threadspin Ⅲ). Use it together with allies who have high-damage Lust skills.",
+    "味方の強化: 解析Ⅲから、攻撃後に本人を除くランダムな味方2名へ攻撃威力増加1を付与する。対象はランダムでそのターン限りなので補足程度。": "**Buffing allies**: From Threadspin Ⅲ, after the attack, gives 1 Attack Power Up to 2 random allies other than herself. The targets are random and it only lasts that turn, so it is a footnote.",
+    "パッシブ「空ける」: 毎ターン色欲ダメージ量増加1を得る。精神力が0未満ならさらに1増える。": "**Passive — Emptying**: Gains 1 Lust DMG Up every turn, plus 1 more if her SP is below 0.",
+    "色欲スキルのアタッカーがいる編成で、先に撃って色欲脆弱を配ってから攻撃してもらう。": "In teams with Lust skill attackers, fire it first to hand out Lust Fragility, then have them attack.",
+    "精神力が下がってきた人格のリカバリーにも使える。": "It also works to recover an Identity whose SP has been dropping.",
+    "必要資源は色欲2・怠惰2・傲慢2。侵蝕スキルは精神力回復が無く、脆弱(属性なし)が加わるので、連発には向かない。": "It requires 2 Lust, 2 Sloth, and 2 Pride. The Corrosion skill has no SP recovery and adds Fragile (no affinity), so it is not suited to repeated use.",
+    "耐性は色欲が耐性、怠惰・憂鬱が脆弱。": "Its resistances are Ineffective against Lust and Fatal to Sloth and Gloom.",
+    "Ⅱ: 「空ける」が解放される。": "**Ⅱ**: Unlocks Emptying.",
+    "Ⅲ: 威力が4上がり、回復が18、色欲脆弱が2になり、味方への攻撃威力増加も加わる。連発するならここまで解析したい。": "**Ⅲ**: Power rises by 4, recovery becomes 18, Lust Fragility becomes 2, and Attack Power Up for allies is added. If you use it repeatedly, take it this far.",
+    "Ⅳ: 攻撃加重値が2になり広域化する。": "**Ⅳ**: Attack Weight becomes 2, making it multi-target.",
+    "ラ・マンチャランド 理髪師: 色欲のS2で出血を重ねる人格で、色欲脆弱の恩恵を受けられる。": "**[The Barber of La Manchaland](persona:1111)**: An Identity who stacks Bleed with her Lust S2 and benefits from Lust Fragility.",
+    "薬指点描派スチューデント: S1と守備が色欲で、必要資源の色欲を出せ、出血を付与する。": "**[The Ring Pointillist Student](persona:1109)**: Her S1 and Defense skill are Lust, supplying the required Lust, and she inflicts Bleed."
+  }
+}

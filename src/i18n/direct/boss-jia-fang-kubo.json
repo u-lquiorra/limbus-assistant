@@ -1,0 +1,1659 @@
+{
+  "kind": "boss-copy",
+  "id": "jia-fang-kubo",
+  "source": "src/data/bosses/jia-fang-kubo.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "引き裂かれた追憶",
+          "en": "Torn Memory",
+          "file": "Bufs-a1c8p3.json",
+          "id": "BoseProjektilReplica"
+        },
+        {
+          "ja": "軽蔑",
+          "en": "Contempt",
+          "file": "Bufs-a1c8p3.json",
+          "id": "ContemptReplica"
+        },
+        {
+          "ja": "E.G.O侵蝕 - N社",
+          "en": "E.G.O Corrosion - N Corp.",
+          "file": "Bufs-a1c8p3.json",
+          "id": "EgoErodeReplica"
+        },
+        {
+          "ja": "不安定E.G.O感応 - 軽蔑",
+          "en": "Volatile E.G.O Attunement - Contempt",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GahwanEgoContempt"
+        },
+        {
+          "ja": "視線",
+          "en": "Gaze",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GazeReplica"
+        },
+        {
+          "ja": "掌",
+          "en": "Grasp",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GraspReplica"
+        },
+        {
+          "ja": "不安定E.G.O感応 - 凶弾",
+          "en": "Volatile E.G.O Attunement - Fell Bullet",
+          "file": "Bufs-a1c8p3.json",
+          "id": "GuboEgoShooter"
+        },
+        {
+          "ja": "向き合わんとする意志",
+          "en": "The Will to Confront",
+          "file": "Bufs-a1c8p3.json",
+          "id": "HongluParryGahwan"
+        },
+        {
+          "ja": "責任感",
+          "en": "Responsibility",
+          "file": "Bufs-a1c8p3.json",
+          "id": "YisangParryGubo"
+        },
+        {
+          "ja": "N社E.G.O::軽蔑、畏敬 ジア・ファン",
+          "en": "N Corp. E.G.O::Contempt, Awe Jia Huan",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1135"
+        },
+        {
+          "ja": "N社E.G.O::凶弾 クボ",
+          "en": "N Corp. E.G.O::Fell Bullet Gubo",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1136"
+        },
+        {
+          "ja": "素早いN社E.G.O::ねばつき",
+          "en": "Swift N Corp. E.G.O::Sticking",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1139"
+        },
+        {
+          "ja": "俊敏なN社E.G.O::ねばつき",
+          "en": "Nimble N Corp. E.G.O::Sticking",
+          "file": "Enemies-a1c8p3.json",
+          "id": "1140"
+        },
+        {
+          "ja": "逃した弟弟の手",
+          "en": "My Little Brother's Hand I Let Slip",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113501"
+        },
+        {
+          "ja": "掌",
+          "en": "Grasp",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113502"
+        },
+        {
+          "ja": "E.G.O侵蝕 - N社",
+          "en": "E.G.O Corrosion - N Corp.",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113503"
+        },
+        {
+          "ja": "E.G.O瞬間感応度 最大化",
+          "en": "E.G.O Temporary Max Attunement",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113504"
+        },
+        {
+          "ja": "俺だけ狙っちゃいけないだろうに",
+          "en": "Better avert your gazes",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113505"
+        },
+        {
+          "ja": "凶弾コスト",
+          "en": "The Cost of Fell Bullets",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113601"
+        },
+        {
+          "ja": "躍進",
+          "en": "Charge Forth",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113602"
+        },
+        {
+          "ja": "朋よ、新たな時代が来ているのだよ。",
+          "en": "A new era is upon us, my dear fellow.",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113603"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "114513"
+        },
+        {
+          "ja": "四つ葉のクローバー",
+          "en": "Four-leaf Clover",
+          "file": "Passives_Enemy-a1c8p3.json",
+          "id": "9021301"
+        },
+        {
+          "ja": "旨い肉片",
+          "en": "Tasty Flesh",
+          "file": "Passives_Enemy-a1c8p3.json",
+          "id": "9021302"
+        },
+        {
+          "ja": "軽蔑",
+          "en": "Contempt",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113501"
+        },
+        {
+          "ja": "畏敬",
+          "en": "Awe",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113502"
+        },
+        {
+          "ja": "軽蔑、畏敬【潜在解放】",
+          "en": "Contempt, Awe 【Unleashed】",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113503"
+        },
+        {
+          "ja": "軽蔑すべきもの",
+          "en": "Contemptuous Thing",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113504"
+        },
+        {
+          "ja": "畏敬するように",
+          "en": "Be Awed",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113505"
+        },
+        {
+          "ja": "受け止めねばならぬであろう",
+          "en": "You Must Confront This",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113506"
+        },
+        {
+          "ja": "畏敬、軽蔑【潜在解放】",
+          "en": "Awe, Contempt【Unleashed】",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113507"
+        },
+        {
+          "ja": "螺旋型歪曲場",
+          "en": "Spiral Warp Field",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113508"
+        },
+        {
+          "ja": "前方射撃",
+          "en": "Front Line Fire",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113601"
+        },
+        {
+          "ja": "後方射撃",
+          "en": "Rear Line Fire",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113602"
+        },
+        {
+          "ja": "戦友の血を被った弾丸",
+          "en": "Bullet Drenched with the Blood of a Comrade",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113604"
+        },
+        {
+          "ja": "追憶を砕く弾丸",
+          "en": "Reminiscence Shattering Bullet",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113605"
+        },
+        {
+          "ja": "近接戦闘",
+          "en": "Melee Combat",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113606"
+        },
+        {
+          "ja": "肉片を引きちぎる",
+          "en": "Flesh Tearing",
+          "file": "Skills_Enemy-a1c8p1.json",
+          "id": "9102202"
+        },
+        {
+          "ja": "傷を破裂させる",
+          "en": "Burst Wounds",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021301"
+        },
+        {
+          "ja": "傷を縛り付ける",
+          "en": "Snag Wounds",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021302"
+        },
+        {
+          "ja": "肉片を溶かす",
+          "en": "Flesh Melting",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021303"
+        },
+        {
+          "ja": "差し込める陰",
+          "en": "Casting Shade",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021304"
+        },
+        {
+          "ja": "傷口穿ち",
+          "en": "Tear Up Wound",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021401"
+        },
+        {
+          "ja": "傷を舐る",
+          "en": "Skim Wounds",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021402"
+        },
+        {
+          "ja": "肉片を引きちぎる",
+          "en": "Flesh Tearing",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021403"
+        },
+        {
+          "ja": "差し込める陰",
+          "en": "Casting Shade",
+          "file": "Skills_Enemy-a1c8p3.json",
+          "id": "9021404"
+        },
+        {
+          "ja": "魔方陣で割られ、分かたれる弾丸",
+          "en": "Sigilshattered Bullet",
+          "file": "Skills_Abnormality-a1c8p3.json",
+          "id": "113603"
+        },
+        {
+          "ja": "どうか新たな理想(イサン)のため献身してくれたまえ。",
+          "en": "Please, dedicate yourself for the new ideal.",
+          "file": "Passives_Abnormality-a1c8p3.json",
+          "id": "113604"
+        }
+      ],
+      "note": "Guide spelling variants are resolved against paired Canto VIII part 3 records. Chachihu uses a variant of the first Japanese character; Sigilshattered Bullet uses a different spelling for sigil. Names follow the regular story records rather than Mirror Dungeon or Reflectrial variants. Displayed base levels, averaging, conditional Unbreakable Coins, and source uncertainties are retained."
+    }
+  },
+  "scopedTerms": [
+    "心",
+    "挿翅虎",
+    "E.G.O侵蝕-N社",
+    "傷を舐る"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "e7fccad2ecf3cd6426780137611ae41f524ce30191a132e3af4920741fce3f8e",
+      "text": "Jia Huan & Gubo"
+    },
+    "shortName": {
+      "sourceHash": "d979dae59ecd370a4c23a4a6a0e2df5ef747479fb6daaf0963f4c0a403f35511",
+      "text": "Huan & Gubo"
+    },
+    "stageName": {
+      "sourceHash": "6d1a7dd69a97736d875a68c2c446a2c72835709dfbb8361ffbe8ef0b20657c2a",
+      "text": "Immortality"
+    },
+    "lead": {
+      "sourceHash": "469514fa2c25637189fec6c09fc753de57876051667ea0f0ad872d5a79379668",
+      "text": "Defeat the adds, then Huan, then Gubo. Avoid excessive focus on Huan, and use ordinary Guard or Evade against Gubo to limit repeated low-SP area attacks."
+    },
+    "listLead": {
+      "sourceHash": "b0e337513506cbc55cfa3e6bb5fe4a4093f90c45f3b401b27f003a421a4f1dba",
+      "text": "Defeat adds, then the first opponent, then the second. Do not overcommit to the first; against the second, use ordinary Guard and Evade to limit repeated area attacks while SP is low."
+    },
+    "statNote": {
+      "sourceHash": "fe9fb72c7f55467756f31345c97577319dc6443eab513d141927d8141c2edb47",
+      "text": "The regular 8-32 encounter. Hong Lu is required; a borrowed Identity is available. Displayed Levels are base values, while Offense/Defense entries include initial Volatile E.G.O Attunement reductions (7 for Huan, 2 for Gubo). Further stacks change these levels. Huan's 60% Stagger threshold is listed as 1098, which does not match 60% of 1824 HP. Exact HP thresholds for the bosses' incapacitation are unspecified."
+    },
+    "priorities.0": {
+      "sourceHash": "4cf3a11cb237e19858d20529ffb12417e6d5d18e60e14c8206cc22c09a998d4b",
+      "text": "After Staggering Sticking enemies, finish them before Gubo shoots."
+    },
+    "priorities.1": {
+      "sourceHash": "2994e64f733216afd6fc29214a8a9816116f14ec1f1ec7b4ceeca56cc85b92ba",
+      "text": "Generally target Huan with no more than 4 attacks. Have the Grasp holder beat the turn 3 Counter."
+    },
+    "priorities.2": {
+      "sourceHash": "5c5057b14d283dcd821a48919ba42d849e036f69b23e6614c994f28671f8ffe9",
+      "text": "Watch for Gubo reaching -20 SP or lower. While leaving him for later, use ordinary Guard or Evade."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "a896aff1e7475df36ce5848be4d7fa83e54b232f02078d1a52cd432093d62c34",
+      "text": "Gubo uses more area attacks after your clash wins"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "da3031a551e0e3a2df0a92588d129d0983b3d1d4da17ef3bf2635bc0a9e847de",
+      "text": "Gubo loses SP when losing clashes and switches to a special pattern at -20 or lower. Take only necessary clashes and use ordinary Guard or Evade. E.G.O Corrosion also lowers SP, so this cannot prevent the pattern forever."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "e2924b778ba30d8e4ad12565f2731e7199c1208016fc586201d5ad5d03acf43e",
+      "text": "Attacking Huan drains HP and SP"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "438d898a8a04f9bc60277e684515734fa5ced5f03755f7a457e5ea8812020b36",
+      "text": "While allies remain, he reacts to focused attacks. Generally limit attacks to 4 and spend the rest on Sticking enemies or defense."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "9334e5ce9ee9d9a9c0c8b69fe3a8b5dcaaec62c018103c3cfef18e6ffc9d9c05",
+      "text": "2 powerful attacks target Hong Lu"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "30a7624dc58dc6493e1ae53d00b6ecbac27b0ce2e92812982654cce8fdaf00e6",
+      "text": "Grasp targeting overlaps with Huan's low-SP pattern. On the previous turn, have the Grasp holder beat the Counter to skip that action. Unredirectable skills cannot be intercepted by another Sinner."
+    },
+    "units.0.name": {
+      "sourceHash": "1cc7d4a141953342d420e7813f7657878cae2479235d76eec3a8062223354f2c",
+      "text": "N Corp. E.G.O::Contempt, Awe Jia Huan"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "a63289ab79b1b828f56060a74254a3d0abc72789b59b83f457459204678cf51c",
+      "text": "60% / 30% (listed as 1098 / 547)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "1076853d701806cf8e74246ec963860799a3eeae51cc5a187528e4190e505177",
+      "text": "Volatile E.G.O Attunement - Contempt initially gives -7 Offense/Defense Levels. Each stack lowers Offense Level and raises Defense Level."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "e97617cdae45f98e3ab6ac82c3e79379b03b4cdd1f9e2f9bd3fd2cca8e90b80c",
+      "text": "If a Grasp holder is present, all resistance multipliers +0.1. Displayed values are before this change."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "88ede3896d2899608c6f53ac9f94c79ae6b4c58f26df5b4d4e7ad585b2037186",
+      "text": "Becomes incapacitated at Turn End below a certain HP threshold. The exact threshold is unknown."
+    },
+    "units.1.name": {
+      "sourceHash": "fd67d14b0cf11cc432ffbf01113e513706dd3026ed8916b543c0a62605e459fd",
+      "text": "N Corp. E.G.O::Fell Bullet Gubo"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "01b24ccb6d7a42aaa3ef31d85f2e4a8c305297836a6d2e09bab6522160ad31f2",
+      "text": "70% / 40% (913 / 522)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "4068d2852e07acb60138366ca460918b23123669396b9a34f8e7502da266fbf4",
+      "text": "Volatile E.G.O Attunement - Fell Bullet initially gives -2 Offense/Defense Levels. Losing clashes adds stacks, raising both levels."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "fcc740959c2cf176bacd87696f0c36fd2edf42747da5c0bb782f854938088e0f",
+      "text": "Gains action slots when allies fall. Check attack counts every turn even after removing Sticking enemies."
+    },
+    "units.2.name": {
+      "sourceHash": "45f9c9b79fca960d1ee50c10f69b1216b23e8f92f30b436353186da5acac6957",
+      "text": "Swift N Corp. E.G.O::Sticking"
+    },
+    "units.2.part": {
+      "sourceHash": "a4c22dbddb60efb22d52ce77a6d74e89b61f18a5afff5cf4610d76945f08b153",
+      "text": "Body · 1 enemy"
+    },
+    "units.2.hp": {
+      "sourceHash": "57d803d9a5e521ac6ea0eac0dda21bc1e7b736fb4e13f618bcb5bf707fd91af2",
+      "text": "256 each"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "9b9e3b23bb4570520d1f94e13f9776b77469ac1a16086d214ca0621b329e04b4",
+      "text": "Die when both Huan and Gubo are incapacitated. Usually defeat these first to reduce enemy actions and Poise support."
+    },
+    "units.3.name": {
+      "sourceHash": "2d119ba06f22b7d1aaf356c9ecbee6e0757655413c825745ec6c5da21e405b2b",
+      "text": "Nimble N Corp. E.G.O::Sticking"
+    },
+    "units.3.part": {
+      "sourceHash": "d6947d212c8bd85115f5c2fbb2a3fd2327f1ea55a833b9948985f5050afb742a",
+      "text": "Body · 2 enemies"
+    },
+    "units.3.hp": {
+      "sourceHash": "57d803d9a5e521ac6ea0eac0dda21bc1e7b736fb4e13f618bcb5bf707fd91af2",
+      "text": "256 each"
+    },
+    "units.3.notes.0": {
+      "sourceHash": "9b9e3b23bb4570520d1f94e13f9776b77469ac1a16086d214ca0621b329e04b4",
+      "text": "Die when both Huan and Gubo are incapacitated. Usually defeat these first to reduce enemy actions and Poise support."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "baa98be9b52321d527901f468516a016962c03fa8cb337a0effb37e59c5acbda",
+      "text": "Prepare Hong Lu and defense against Gubo's single-target skills"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "c05c145e3ab8b680209932ddc3e4ba94efa41cfde032d0b1e324c8c044c40437",
+      "text": "Aim for the recommended Level 55 on the main team. Hong Lu must deploy initially; a borrowed Identity is available. Check healing and Pierce, Lust, and Pride resistance."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "61baeb02e607648e3b353272286ac8f83f6bc58322d8870568387661fcc962ec",
+      "text": "Support gives Hong Lu +2 Clash Power against Huan and Yi Sang +2 against Gubo. Hong Lu's Lord Identity replaces this with exclusive support; do not assume both effects stack."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "71fee0d2929747ede7ff8333db959cf670651a15f9be90e1be9985101857b5cc",
+      "text": "Use ordinary Guard or Evade against Gubo. Clashable Guard causes a clash, so it does not serve the same purpose when trying to avoid lowering his SP."
+    },
+    "phases.1.timing": {
+      "sourceHash": "18112649fd95776c8ac4be7f623e7b3885a238b427ad5780a93e5e9a248ffb71",
+      "text": "Opening"
+    },
+    "phases.1.title": {
+      "sourceHash": "f68e490eba5ab68567e4b65c7de6364dbb8d8ae346dda217b8493ac8d0bc4263",
+      "text": "Clear Sticking enemies first and stop Gubo's designated shot"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "495088305835b0125b42871e6711173243d9282c9e9fca26765e155218467cee",
+      "text": "Maintain necessary clashes against Huan while directing Slash, Wrath, Gluttony, and Envy damage at Sticking enemies. Avoid aiming 5+ attacks at Huan alone."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "63daf8e77ac18592ad83356a44bb5237075b1e3e663b3593164aedfcb1ccc4a8",
+      "text": "When a Sticking enemy falls below half HP, Gubo may use Bullet Drenched with the Blood of a Comrade. Killing the designated Sticking enemy before Gubo fires cancels the shot."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "30b07023b6b259f6d2e819771c9bcd929a6bc4524177ff19052d2607743a977f",
+      "text": "Do not leave it merely Staggered; check Coins and action order to finish it. At -20 SP or lower, watch for Gubo's other special pattern too."
+    },
+    "phases.2.timing": {
+      "sourceHash": "8466f0d7d7bab0423839ecb7c4d574e3d5d9e21bf6911363b248d06f47a9eb59",
+      "text": "After removing adds"
+    },
+    "phases.2.title": {
+      "sourceHash": "d2dc27d0282285a0d8260fb6a87555622b3b19f700330f22b99c5d24a4b4e611",
+      "text": "Win the Counter with the Grasp holder to skip the Unleashed turn"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "e9a28cd14cff22d894f9159cd46463692481ba31e960e84bf7e453fa7ac4289e",
+      "text": "Huan's Grasp inflicts 10 Bind next turn and attracts focused attacks. Heal the affected Sinner's HP/SP and retain a strong attack."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "f493fcbab4df70de202e80a9fb38d988a36a274e2b57e053e3063cd95d26f138",
+      "text": "On turn 3 of the basic cycle, have the Grasp holder win against You Must Confront This. Reducing Grasp and Gaze can skip the next Unleashed pattern. Check that the actual skill is present before acting."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "40ce61e032a7200f84dc8648fcbca676519214d55c5771f17ef90a74e3fca879",
+      "text": "If it cannot be skipped, the designated Sinner must handle the unredirectable Unleashed skill. When enemy allies have fallen and Huan is at -20 SP or lower, 2 copies may appear. Prepare Lust resistance, defense, and healing; Staggering him beforehand is another option."
+    },
+    "phases.3.timing": {
+      "sourceHash": "7022fac3cf48625d45c11a84fd726e4a9217a02a39e593b24f967f17bc4fc2b3",
+      "text": "After Huan is incapacitated"
+    },
+    "phases.3.title": {
+      "sourceHash": "9cb523d721d5e92171d3ec24d1b25737ec650d74761b82f46214ab4e275b278b",
+      "text": "Focus the remaining Gubo and finish promptly"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "f7d6b5d5c1ec22430dadfa7a57eaae9a39576575537e68c0e072657b86ed4720",
+      "text": "Envy and Sloth work well. Check SP and predictions, take winning clashes, and concentrate strong skills."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "f836f77c4e1454b75ddb3aca598fc513c67bc0341268b374737272f4c2db7425",
+      "text": "Distinguish low-SP negative-Coin area attacks from the 4-Unbreakable-Coin Reminiscence Shattering Bullet. Heal secondary targets beforehand too."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "881f144a517d599a29698bd1ee46174a1ee51a456ce980c86b5e2feafc901e28",
+      "text": "Waiting only for E.G.O Corrosion's self-damage also strengthens enemy attacks. Finish the cautious defensive stage and concentrate damage until incapacitation."
+    },
+    "skills.0.name": {
+      "sourceHash": "4e0a6457113e3bbd8257f51a1a751bb11e9dd183e2a6a5fab12e0ca98976ed3b",
+      "text": "Contempt"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "f1992ef7b0ff8325f48f111568cec81b804068953266eab2d0f53abbbe4cd581",
+      "text": "If the target has 3+ Gaze, double negative effects inflicted by this skill"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "31875f1d088727cf573a9fff06aa3f275815fb29a6681629de712fbfa4d24088",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "61e9779c6144c5d8859d8e2985ba35195a348f30bf83b16f8ac4806c84b59048",
+      "text": "Ⅰ[On Heads Hit] Bleed Count +2"
+    },
+    "skills.0.effects.3": {
+      "sourceHash": "b9502e1d6599e3dbdf4c6b072738086996b4cd99b2de87f5d04e20c253734197",
+      "text": "Ⅱ[On Heads Hit] Inflict 4 Bleed"
+    },
+    "skills.0.response": {
+      "sourceHash": "5440efe710d919c139fc907e79d5f5b17d5fe4c333143175a7ff429b3f8b1afe",
+      "text": "At 3+ Gaze, inflicted negative effects double. Do not keep taking it on a Sinner with accumulated Bleed; assign a winning clash handler."
+    },
+    "skills.1.name": {
+      "sourceHash": "1e1d3484a9b24c5e5e1a1cbc14fbd52ca6ce1c389a9aed2d71c89fe872a9bc23",
+      "text": "Awe"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "f1992ef7b0ff8325f48f111568cec81b804068953266eab2d0f53abbbe4cd581",
+      "text": "If the target has 3+ Gaze, double negative effects inflicted by this skill"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "31875f1d088727cf573a9fff06aa3f275815fb29a6681629de712fbfa4d24088",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "1a785b62e9368321576173545d5c41e3e1bcdc718700f3ff60da11700b2d6b01",
+      "text": "[On Hit] Inflict 2 Bleed."
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "2433242d0417ac2af16b6fa1e1ecc808568bfc6ae7f4724c40cc58cbd3fed143",
+      "text": "[On Heads Hit] Inflict 3 Defense Level Down next turn"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.1.effects.6": {
+      "sourceHash": "39db04d2b3e2eedcef728df5dd68cdb77b6a4da3e021217ffb01cf6e56fa4d19",
+      "text": "[On Hit] Bleed Count +1"
+    },
+    "skills.1.effects.7": {
+      "sourceHash": "6710d07552fcf4857cf55e1f16ba086662ad3d546e61a0257770e330eaeebba6",
+      "text": "[On Hit] Inflict 1 Damage Down next turn"
+    },
+    "skills.1.response": {
+      "sourceHash": "2517c7acf162090797815cf7a4af1c65a7fa9b1ac9f6df964fd287747c68df2c",
+      "text": "Both Coins are Unbreakable, leaving Bleed and debuffs after a win. Check HP and Bleed Count; especially dangerous against targets with 3+ Gaze."
+    },
+    "skills.2.name": {
+      "sourceHash": "9e2927a6fd46f9c151b63a905af2ea20d10df02941705e3b3f116ff8d16cc63f",
+      "text": "Contempt, Awe 【Unleashed】"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "9f0c3d7f8fa24204f4550226baa3566545bcaf23d663d6169eb04dfd797d2e30",
+      "text": "Ⅰ[On Hit] Inflict 1 Fragile."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "24ce6efbb5ef4ff071ff346afa4af4f7a8ffa773e1d4d798767c51807b553824",
+      "text": "Ⅱ[On Hit] Deal 10 SP damage"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "2b833caf35e9157bb1a761104070f1081c18fff9613b8f3f81b0eede08ff78ac",
+      "text": "[On Hit] Raise the Stagger Threshold by (target's Gaze × 5)"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "60f0036dcbc61dabd76ff00224e84721f014323b16ad636236627bf4193091fa",
+      "text": "[After Attack] Remove all Gaze from the target"
+    },
+    "skills.2.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.2.response": {
+      "sourceHash": "011f99422081f256d63fe2369f0c3d1d3216106928670c34713abb69be60e1f8",
+      "text": "Unredirectable, with the last Coin Unbreakable. Have the Grasp holder beat You Must Confront This on the previous turn to skip it. Otherwise, the designated target must prepare their own clash or defense."
+    },
+    "skills.3.name": {
+      "sourceHash": "2983d631d140c81ea9fcc1e59ae3335a257adc6f296322599915b05e3c7c6a6f",
+      "text": "Contemptuous Thing"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "36c4d67d6f2ee978def63121cdd9dd020fc58b6c9a4b33cd2b1577c15cad926e",
+      "text": "Prioritizes Hong Lu"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "1600c13a1e2df710d5d1f4b6965d096c43ffaab5afbf69f7a1a8c4847811148b",
+      "text": "[On Use] Inflict 4 Grasp on the target"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "1b6fca97ff3b978c4cac470c745cced3992fce39a293e93b1c583d8715a62cbb",
+      "text": "[On Use] Gain 2 Damage Up next turn"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.response": {
+      "sourceHash": "33131f5f8e7233b922d7194d2b1707dfe1b7934762fb8976955adfef8bb3c08d",
+      "text": "Prioritizes Hong Lu. Grasp is inflicted on use; winning the clash does not prevent it. Check the HP of whoever will take the subsequent focused attacks."
+    },
+    "skills.4.name": {
+      "sourceHash": "33c1909bf7044d91cca6df25ad817194e68605d279a6665117b52ed994d3a7a2",
+      "text": "Be Awed"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "e27daff4fbe654c0d461ffdb1f42f6eaf4aec22076adb175ae7c09a44c463ed4",
+      "text": "Prioritizes targets with Grasp"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "6fd294122bc61b9883e19b91ca634006a2cd66e42ecbc165d4d22916263a0082",
+      "text": "Ⅱ[On Hit] Inflict 6 Bleed"
+    },
+    "skills.4.response": {
+      "sourceHash": "283b131a5530781281b89af2e6fb645a11b590229a1f547d60c93aa68a49b1ce",
+      "text": "A negative-Coin skill starting at 14 and subtracting 4 per Coin. Low enemy SP makes high rolls more likely. If predictions are poor, consider defending with a resistant Sinner."
+    },
+    "skills.5.name": {
+      "sourceHash": "32a0f4ef084ee8887331658dcb2a508acec28be7d49df402596ae11da5c618e6",
+      "text": "You Must Confront This"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "57f619df8ba6dd3218e89456770f1c0c46525848731bcce4dfe9f5c7d2b26058",
+      "text": "[On Clash Lose] Reduce the target's Gaze by 2"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "908e46262940b6a848e5fc8bf9c6b64ec2df7744efb3fc61cd612ef120516952",
+      "text": "[On Clash Lose] Reduce the target's Grasp by 1"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "1e79d53809c8e6eec2eba9270a7c80ec339ece5df26cb1f8c4f6b7f75b8311b6",
+      "text": "Ⅰ[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.5.response": {
+      "sourceHash": "9d8f60977173426caf945567495cfa7d2ec3b6b4f4c3cb176cda8b1f447eacc0",
+      "text": "A Clashable Counter. Winning with the Grasp holder reduces Gaze by 2 and Grasp by 1, skipping the next dangerous pattern. Win with an attack rather than trying to Offset it with a defense skill."
+    },
+    "skills.6.name": {
+      "sourceHash": "697cc6d8c66e20833363aa666b716c194c3fc3a09c1a853a7a258cf3b9975800",
+      "text": "Awe, Contempt【Unleashed】"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "07e262d4f6a52f5634d4121256d0a435780bd9bfc577352d67b6fcda10500031",
+      "text": "[Before Attack] Increase Attack Weight by the number of Sinners with 4+ Gaze"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "a8b6a18b6a9558d9383003cc5fa0a9c723d1a2dbe7ed3441993db2de537c2b0a",
+      "text": "[On Hit] Inflict 1 Bind next turn"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "ce4ca01c8eff53a59d20f8f3d722c06f797f65508ca552e78890cba92125d0c0",
+      "text": "[On Hit] If the target has 4+ Gaze, inflict 1 Gaze"
+    },
+    "skills.6.label": {
+      "sourceHash": "806e173fd620818d168c9418350c99126e7bff93632b67a67ed4699627681c7b",
+      "text": "Attack Weight increases conditionally"
+    },
+    "skills.6.response": {
+      "sourceHash": "a6fe783f266b24d23725120a4439338a97b3b2bf3284ad2259698e7ffe318d6b",
+      "text": "A distinct skill with its name in reverse order. Added when more Sinners have 4+ Gaze, which also increases Attack Weight. 1 Coin is Unbreakable, so winning does not guarantee no damage."
+    },
+    "skills.7.name": {
+      "sourceHash": "01088ed1d545f3122edd7ea18d40cceb31755eaadf0f0c1287d9226e1abdb889",
+      "text": "Spiral Warp Field"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "5eb944e9d515ac430a3c3314c9aeb89d437b2ec396b308a218a49fa29816045b",
+      "text": "[Combat Start] Jia Huan and Gubo gain 30 Shield"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "a69cf3c0a73ec5fe1dc884fdc5f268d698aa691d535e08c82fb99b0cdf32a351",
+      "text": "[On Clash Win] Jia Huan and Gubo gain 30 Shield"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.7.label": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.7.response": {
+      "sourceHash": "89ad8b6e15cb19a3b625960bea7bd8b4d0f0d9d63616f3b17a962aad676662b7",
+      "text": "A Clashable Guard. Winning does not undo the 30 Shield gained at Combat Start. If the enemy wins, both bosses gain more Shield."
+    },
+    "skills.8.name": {
+      "sourceHash": "25a80d78a83f5810cbcbe2aaad7722a291d475ce823a81638ad30730d787e1a5",
+      "text": "Front Line Fire"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "7c0055d23ee633886c03968252fe72298840c189cee47c74f196bbdd62ae5cda",
+      "text": "Targets the foremost enemy"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "24b2168cab2931392e08ce55f2c010c2ac2e4dfc15ddf2243019d05d3086d0a3",
+      "text": "[On Use] Gain 1 Torn Memory"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "ba24419ce5f86ed5b764166e15dcbbd258e64a8b960529fe4cc5dc3622fcb0ea",
+      "text": "[On Use] Gain 1 Poise Count"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "f96f86b308b1809c127727651b95e8ffda7b41b1141c80e247fae56b8cfd4d3a",
+      "text": "ⅠCritical damage +50%"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.8.response": {
+      "sourceHash": "8b1e3b3fe77b02309ff089078357dac5f5fff5c17ce26a6746255b29ae7a4592",
+      "text": "A single-target skill prioritizing the front line. Ordinary Guard or Evade can avoid rapidly lowering Gubo's SP. Avoid handlers with substantial Bleed."
+    },
+    "skills.9.name": {
+      "sourceHash": "c531a271fb7d74d394c15181116b214aab9a1dda5c6fe90659c8a98ce0410ea1",
+      "text": "Rear Line Fire"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "8dfd90169f7960e7457109862f688c847d5a927084a73b62cb264b19f8e4564a",
+      "text": "Targets the rearmost enemy"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "24b2168cab2931392e08ce55f2c010c2ac2e4dfc15ddf2243019d05d3086d0a3",
+      "text": "[On Use] Gain 1 Torn Memory"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "8d54c609fb3c80297cabd2157e5ae190f499da7c307634ccfb6dabc7efc571a3",
+      "text": "[On Use] If the target has at least 6 Bleed, Coin Power +1."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "ba02913593d925d9b5add7dafdd55744dd6992ecd378800c08dcf3a309270be6",
+      "text": "[On Use] Gain 2 Poise Count"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "a52a2cf4da5e8ba05750bd32d997a859062324dc03f220096aea2421cc09a092",
+      "text": "ⅠCritical damage +70%"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "85253ce64a00fa8a9949bbaa0afc6413f3a1734a56927234031998e6351f2d93",
+      "text": "[On Hit] Increase Bleed Count by 2."
+    },
+    "skills.9.response": {
+      "sourceHash": "dc95b66b78c8a16bc26796290b00706a2ad2603a2941c91c1353823161d3212f",
+      "text": "A single-target skill prioritizing the rear, unlike Front Line Fire. Even with ordinary Guard or Evade, watch for Poise critical hits and Bleed Count."
+    },
+    "skills.10.name": {
+      "sourceHash": "facfa4448d011ac395078dd4a83bd12f162d625f12b2b881ffa6d85817eaad51",
+      "text": "Sigilshattered Bullet"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "7c0055d23ee633886c03968252fe72298840c189cee47c74f196bbdd62ae5cda",
+      "text": "Targets the foremost enemy"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "f3f669ad0c4312d2b0d766fd32cbd9a227991a2977bc8a06893d70ff97c921b1",
+      "text": "[On Use] Gain 3 Poise and 2 Poise Count"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "10d7c48789f114bcc46e2342be41472bf8a79718d1e0bae7a6fc56e807b8d984",
+      "text": "ⅠThis Coin only damages the main target."
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "7d8e1ea7e991d9c99e33861f3b7e0fa035f57bc3d4dd5dd84e50ab1b2da60032",
+      "text": "[On Kill] Final Coin damage +100%"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "27f052899e9e8ee577f04e45d6c4f031b7212041b74a1972d6d58f573c1d655e",
+      "text": "ⅡThis Coin only damages secondary targets."
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "449b25cb26a90155f7876128e880c4fdc55702b75b1133c200659d9777f35c71",
+      "text": "[On Hit] Inflict 4 Bleed and increase Bleed Count by 2"
+    },
+    "skills.10.response": {
+      "sourceHash": "2e6946668dd4486d4cac95f12ee6931f3e908b5bcb4aeacaa663fd54e608aaad",
+      "text": "A negative-Coin skill with 2 Attack Weight. Coin 1 hits the main target; Coin 2 hits the secondary target. The main target's defense does not protect everyone; check secondary targets' HP too."
+    },
+    "skills.11.name": {
+      "sourceHash": "f1035e0fd0c07a1297311513ce455dd716fd7c852accb9bd3eb0152ead20784d",
+      "text": "Bullet Drenched with the Blood of a Comrade"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "54cf1d47e824ba0deba32f461451ab0282f01fdd9077f4c5b5f924d4b128b890",
+      "text": "Prioritizes N Corp. employees"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "d952d7d0b538eafb40a85eac87e763274121a2313343d3c5fe079959d6dd0582",
+      "text": "- If unable to attack the designated target, cancel the skill"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "3482ad4c32a41b7fe2e7fa49e17d87e581f584c9fc66d4bbc672f0631a3f892f",
+      "text": "[On Use] Gain 5 Poise."
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "1d193d6e774b43de607873fca1b042c5d523c0b056f80694a6937c139e92aa57",
+      "text": "[Turn End] Heal 20 SP"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "10d7c48789f114bcc46e2342be41472bf8a79718d1e0bae7a6fc56e807b8d984",
+      "text": "ⅠThis Coin only damages the main target."
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "7a08f727a7167d911cd83a3b96021835398f51f9a13980721785863fd7010966",
+      "text": "[On Hit] Add Pride damage to the final Coin equal to the target's current HP at the moment of the hit"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "d2b784e4c48e79ec8195f8f1e09a4878cdd6e209db44386e03a50d3b0b8fc1bb",
+      "text": "[On Hit] Kill the target"
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "27f052899e9e8ee577f04e45d6c4f031b7212041b74a1972d6d58f573c1d655e",
+      "text": "ⅡThis Coin only damages secondary targets."
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "87a5b39c8a90723d2fcd7aafe7863661153480f51f8f07aca9923ebd98ed4181",
+      "text": "Critical damage +100%"
+    },
+    "skills.11.effects.10": {
+      "sourceHash": "449b25cb26a90155f7876128e880c4fdc55702b75b1133c200659d9777f35c71",
+      "text": "[On Hit] Inflict 4 Bleed and increase Bleed Count by 2"
+    },
+    "skills.11.effects.11": {
+      "sourceHash": "1c3779a63e732f0b762676f5eab7f0d3be24f60664d6e1cbe2e928b135a64137",
+      "text": "[On Hit] Inflict 4 Sinking and increase Sinking Count by 2"
+    },
+    "skills.11.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.11.response": {
+      "sourceHash": "79c0ebf15733fdeae267255276a3362116784c990a7fab862cafc967d858092a",
+      "text": "Unredirectable, with 5 Attack Weight. Killing the designated N Corp. employee first cancels it. Focus that Sticking enemy before Gubo fires, rather than waiting for him to shoot his ally."
+    },
+    "skills.12.name": {
+      "sourceHash": "ba3c9829243f1cda32a32508d0992f096f3c20b2ade72bfeeedd1bba2fef0f71",
+      "text": "Reminiscence Shattering Bullet"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "08f3d65c7b655af1d15d2aa4e5e344fb9dad8d45fb2052ed357ba765424db4ce",
+      "text": "Unfocused Volley"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "54f117ec550ca0d48e1da67b0b2433ad0acfe48ac42efd2c85ed38fd7d3125b4",
+      "text": "Deal +10% damage for every 1 Torn Memory on self"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "7ca45def9247db9f6e41731f6c816ef8a10ba5f9563207e5da2cb94e711c475d",
+      "text": "[On Use] Lose 10 SP"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "588214eeaee8e5d2b0c0cd268ecc733a1ce1745dfb2392c591c8001ded05c4e0",
+      "text": "[After Attack] Consume all Torn Memory"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "aa3599c91d033e978187cc729b58737324fe9e65359a8bfe06c0b99ecb1167c2",
+      "text": "[On Hit] Inflict 3 Sinking"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "dd7e78fc07715801f844c8f405be3f2343aba8abad3f8e8c33acaffcbd598323",
+      "text": "[On Hit] Lose 5 SP"
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.12.effects.9": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.10": {
+      "sourceHash": "aa3599c91d033e978187cc729b58737324fe9e65359a8bfe06c0b99ecb1167c2",
+      "text": "[On Hit] Inflict 3 Sinking"
+    },
+    "skills.12.effects.11": {
+      "sourceHash": "dd7e78fc07715801f844c8f405be3f2343aba8abad3f8e8c33acaffcbd598323",
+      "text": "[On Hit] Lose 5 SP"
+    },
+    "skills.12.effects.12": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.12.effects.13": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.14": {
+      "sourceHash": "aa3599c91d033e978187cc729b58737324fe9e65359a8bfe06c0b99ecb1167c2",
+      "text": "[On Hit] Inflict 3 Sinking"
+    },
+    "skills.12.effects.15": {
+      "sourceHash": "dd7e78fc07715801f844c8f405be3f2343aba8abad3f8e8c33acaffcbd598323",
+      "text": "[On Hit] Lose 5 SP"
+    },
+    "skills.12.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.12.effects.17": {
+      "sourceHash": "5d7d0c06ec4737e3c26f8213f2c54aa529dd88eedd2179a8e4bff017965f752a",
+      "text": "[On Hit] Inflict 3 Bleed"
+    },
+    "skills.12.effects.18": {
+      "sourceHash": "aa3599c91d033e978187cc729b58737324fe9e65359a8bfe06c0b99ecb1167c2",
+      "text": "[On Hit] Inflict 3 Sinking"
+    },
+    "skills.12.effects.19": {
+      "sourceHash": "dd7e78fc07715801f844c8f405be3f2343aba8abad3f8e8c33acaffcbd598323",
+      "text": "[On Hit] Lose 5 SP"
+    },
+    "skills.12.response": {
+      "sourceHash": "0e85a2052b94e830b51d8639d44757711e677420e88e3591aedbf0f8b4dd5544",
+      "text": "A dangerous 5-Attack-Weight skill with 4 Unbreakable Coins, appearing at -20 SP or lower. Avoid continuously lowering Gubo's SP through clash wins; if it appears, use a strong clash and healing beforehand."
+    },
+    "skills.13.name": {
+      "sourceHash": "d23e10fec02c6d6866c39a7fb0d03409be28bfef7a087054356938e14ec0da26",
+      "text": "Melee Combat"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "158c71b1fa8de174791908b102953026fbe90ddf1edfec4a7fb9b201d9198043",
+      "text": "Ⅰ[On Hit] Poise Count +2"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "c0f8c96f363a57fabb045ee01139504768cc7c887addfe3933d919fbd69873e2",
+      "text": "Ⅱ[On Hit] Gain 2 Poise"
+    },
+    "skills.13.response": {
+      "sourceHash": "d44b18ac03f10579cbf778bb25cbc421b8351b0c8ad1c270778cb5ba7ab6004a",
+      "text": "A Clashable Counter. Winning still lowers the enemy's SP through The Cost of Fell Bullets. While postponing Gubo, avoid unnecessary attacks that trigger it."
+    },
+    "skills.14.name": {
+      "sourceHash": "22c349e0e66868dda370e1ff7bdfcb93de740d3e823ba5195f4d793614e32747",
+      "text": "Burst Wounds"
+    },
+    "skills.14.effects.0": {
+      "sourceHash": "9bb92a865e150e9046e1161ddea7cac0682bf724094096e144b32bd6332976be",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.14.effects.1": {
+      "sourceHash": "563277320a1fbe3502622fac43a4da4e7862af10fec5d6c4d295ceba8eebd533",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed."
+    },
+    "skills.14.response": {
+      "sourceHash": "5cc1c3f83132a8b6733eb84aa9853d303a8bf2ddf969ee627eebc99d4c4182f7",
+      "text": "Sticking enemies inflict Bleed. Win with regular skills and retain enough actions to finish them after Staggering them."
+    },
+    "skills.15.name": {
+      "sourceHash": "c5a58ec10806a4312c7d117d6ae98b938faf7963ec2ef3527dee34b2bddc431d",
+      "text": "Snag Wounds"
+    },
+    "skills.15.effects.0": {
+      "sourceHash": "2b9955b734610e80b47585ef64944c8093833bf35e6a0f4d6419837807ebd889",
+      "text": "[On Use] If the target has 2+ Bleed, Coin Power +1"
+    },
+    "skills.15.effects.1": {
+      "sourceHash": "cb1ec71acc37e69979aa7295ee540e709082079eaad8146d877bc2c8a5abcee5",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.15.effects.2": {
+      "sourceHash": "7d219a39bac2e1287dfcca500ad208a8ac00fad225f263cd8face64115fb3776",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.15.response": {
+      "sourceHash": "b5d143d25b1e92755402bb35fc9eb89b1225de54284f1fd646d69c04163b6658",
+      "text": "Coin Power increases at 2+ Bleed. Avoid adding more Count to Sinners already carrying Bleed."
+    },
+    "skills.16.name": {
+      "sourceHash": "74980a00a2dc1cb90e0d8a086be17eb88f0ab0246b4cde73d1ccd813fca93897",
+      "text": "Flesh Melting"
+    },
+    "skills.16.effects.0": {
+      "sourceHash": "ed2d095a25b288833eb1b3b0ad8168f0a503bd1b6bdcd6db3ebebe10e01b6d51",
+      "text": "[On Use] If the target has 3+ Bleed, Clash Power +1"
+    },
+    "skills.16.effects.1": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.16.effects.2": {
+      "sourceHash": "d0b4200960a85c646b08bc5d4b075887b1ccd4c27cd21e7f75b55cef3b009fe9",
+      "text": "Ⅲ[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.16.response": {
+      "sourceHash": "a484942b17478fa8371dbacdeeedc246becba0ec9df11add84e659a30596d577",
+      "text": "A 3-Coin skill strengthened at 3+ Bleed. Focus adds from Stagger through defeat rather than leaving them alive."
+    },
+    "skills.17.name": {
+      "sourceHash": "5a0272dedd448e923132412f2e994f4025acc7ba08407e479a93d185f17f8e66",
+      "text": "Casting Shade"
+    },
+    "skills.17.effects.0": {
+      "sourceHash": "1bee75f3b10a227cdfdbd67b79507058df95ae878d82ab756deb6ef162ea6731",
+      "text": "[On Use] Inflict 1 Paralyze"
+    },
+    "skills.17.response": {
+      "sourceHash": "18a28d1111f66ff4bb690d2911b185873adb90b3f9db5c6038852775c009ebcb",
+      "text": "An ordinary Guard. Only on-use Paralyze application is listed; the target is unspecified. Prepare enough damage to cut through Guard."
+    },
+    "skills.18.name": {
+      "sourceHash": "a750656ecc0f3e59d8d146695e639481054b1bfece581ec5ee1db38d8c9bf224",
+      "text": "Tear Up Wound"
+    },
+    "skills.18.effects.0": {
+      "sourceHash": "b399e485e428760dd30bcb683d08e3ed6d87658263d5b040996069e3a126bfd6",
+      "text": "Ⅰ[On Hit] Bleed Count +1"
+    },
+    "skills.18.effects.1": {
+      "sourceHash": "f2a04623ad82f91564b5513174caf6c3ec2257ccb41a5541cc5a34d02e7bfe79",
+      "text": "Ⅱ[On Hit] Bleed Count +1"
+    },
+    "skills.18.response": {
+      "sourceHash": "a51bdf2e7812f18dc4bd6b3fc76d332fe92eb1db71041e62979e5c052bc20434",
+      "text": "Increases Bleed Count. Avoid a handler already carrying high Bleed Potency; stop it through a regular clash."
+    },
+    "skills.19.name": {
+      "sourceHash": "cdfa2c143a4798c8c4639efafbd3c59bf7c3ebf50b589344e77e5c3ca73ee250",
+      "text": "Skim Wounds"
+    },
+    "skills.19.effects.0": {
+      "sourceHash": "2b9955b734610e80b47585ef64944c8093833bf35e6a0f4d6419837807ebd889",
+      "text": "[On Use] If the target has 2+ Bleed, Coin Power +1"
+    },
+    "skills.19.effects.1": {
+      "sourceHash": "cb1ec71acc37e69979aa7295ee540e709082079eaad8146d877bc2c8a5abcee5",
+      "text": "Ⅰ[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.19.effects.2": {
+      "sourceHash": "7d219a39bac2e1287dfcca500ad208a8ac00fad225f263cd8face64115fb3776",
+      "text": "Ⅱ[On Hit] Inflict 2 Bleed and increase Bleed Count by 2"
+    },
+    "skills.19.response": {
+      "sourceHash": "eff6b86d23dede19385072c450fcbf0ad5b12a207747caf287c98cd404a4c3f3",
+      "text": "Strengthens at 2+ Bleed and adds both Bleed and Count. Avoid repeated hits on low-HP Sinners."
+    },
+    "skills.20.name": {
+      "sourceHash": "f5d62dde67101c080ada11b8689b7b8e6051e116a45a0a18e95f94b0190bc5d1",
+      "text": "Flesh Tearing"
+    },
+    "skills.20.effects.0": {
+      "sourceHash": "ed2d095a25b288833eb1b3b0ad8168f0a503bd1b6bdcd6db3ebebe10e01b6d51",
+      "text": "[On Use] If the target has 3+ Bleed, Clash Power +1"
+    },
+    "skills.20.effects.1": {
+      "sourceHash": "ccaf74eef02c78548dd68a33ce5619d9a53431bd4a24b8fcc1528d27e4f14f2e",
+      "text": "Ⅰ[On Hit] Inflict 5 Bleed."
+    },
+    "skills.20.effects.2": {
+      "sourceHash": "d0b4200960a85c646b08bc5d4b075887b1ccd4c27cd21e7f75b55cef3b009fe9",
+      "text": "Ⅲ[On Hit] Gain 1 Haste next turn"
+    },
+    "skills.20.response": {
+      "sourceHash": "fc541df4748d1aa234f7c276466a1da35710506297a582f5885f638a52ecd51a",
+      "text": "A 3-Coin skill strengthened by Bleed. Assign winning clashes to prevent next-turn Haste too."
+    },
+    "skills.21.name": {
+      "sourceHash": "5a0272dedd448e923132412f2e994f4025acc7ba08407e479a93d185f17f8e66",
+      "text": "Casting Shade"
+    },
+    "skills.21.effects.0": {
+      "sourceHash": "1bee75f3b10a227cdfdbd67b79507058df95ae878d82ab756deb6ef162ea6731",
+      "text": "[On Use] Inflict 1 Paralyze"
+    },
+    "skills.21.response": {
+      "sourceHash": "18a28d1111f66ff4bb690d2911b185873adb90b3f9db5c6038852775c009ebcb",
+      "text": "An ordinary Guard. Only on-use Paralyze application is listed; the target is unspecified. Prepare enough damage to cut through Guard."
+    },
+    "passives.0.name": {
+      "sourceHash": "3b537fe532f2b1d07f71dce7ee9bd9342475e9a6a4cec6b8d2a62b166ca62f4c",
+      "text": "E.G.O Corrosion - N Corp."
+    },
+    "passives.0.effect": {
+      "sourceHash": "111ea188dfee3a31a61e31b0c00aa63b901ec12ced12791769b845436be3d46e",
+      "text": "At the end of every turn after this character appears, gain 1 E.G.O Corrosion - N Corp.\n- At Turn End, if below 50% maximum HP or at -20 SP or lower, gain 1 additional E.G.O Corrosion - N Corp."
+    },
+    "passives.0.condition": {
+      "sourceHash": "72f2bffe1f1d074396a3c58d6daba2942f988075ccacde4ae72896399c52514f",
+      "text": "Each Turn End / below 50% HP or at -20 SP or lower"
+    },
+    "passives.0.response": {
+      "sourceHash": "35442274c18442691cd539f62f9414f4fd6cc33c6a3760127f33512513e58402",
+      "text": "Waiting lowers SP and strengthens attacks. Do not keep the whole team defending simply because the enemy takes self-damage."
+    },
+    "passives.1.name": {
+      "sourceHash": "67dc0b551c936e0e9f11262ac7bea3a80814b08f85d434e086c592539e6341b1",
+      "text": "My Little Brother's Hand I Let Slip"
+    },
+    "passives.1.effect": {
+      "sourceHash": "86dfcd07e35e4d48bfcc1652e7bf434b962d31815cc4bbebced73066b15de7d9",
+      "text": "On Hit against an enemy, inflict 1 Gaze (once per Identity per turn).\nWhen attacked by an enemy, inflict 1 Gaze on the attacker (once per Identity per turn).\nAt Turn Start, if Hong Lu is present in combat, inflict 1 Gaze on Hong Lu."
+    },
+    "passives.1.condition": {
+      "sourceHash": "a5a7557bd6fa2f878e5deed87e21335cd66fad54f50e2056c20c7a5df46f2f83",
+      "text": "Huan hitting / being attacked / Hong Lu present"
+    },
+    "passives.1.response": {
+      "sourceHash": "7a93918f98feb73be73ef300689bbdc5dc7be6261be06e475234c321839f57f9",
+      "text": "Gaze increases both damage dealt and taken. High-Gaze Sinners can deal more damage but are also at greater risk from hits."
+    },
+    "passives.2.name": {
+      "sourceHash": "7cbc0a4ceb4c56112e8a3f61cb26b1919832168cd10a1864056fecb44e3b33b0",
+      "text": "Grasp"
+    },
+    "passives.2.effect": {
+      "sourceHash": "5e5fe0d83c78adefc28207c2e8a03e6b7158d1b520c86b5ef8f8ad390a93b4d1",
+      "text": "Prioritize targets with Grasp.\nWhile a Grasp holder is present, change patterns and increase all resistance multipliers by 0.1."
+    },
+    "passives.2.condition": {
+      "sourceHash": "cb768086af051786abfc060aee705089e344d6b662d1c6151926468f28636b7a",
+      "text": "While a Grasp holder is present"
+    },
+    "passives.2.response": {
+      "sourceHash": "f42ec662f87f90cdb634b004f98c43012b5d49b1698b96435e6b2cfb6be3abb4",
+      "text": "Check who receives focused attacks and have that Sinner beat the turn 3 Counter."
+    },
+    "passives.3.name": {
+      "sourceHash": "87bf8da1dbb4977bd6eddc89c6884d40ddadbab2f8f1387a3da809e30da2d016",
+      "text": "E.G.O Temporary Max Attunement"
+    },
+    "passives.3.effect": {
+      "sourceHash": "176c0165dc777758c94f099c923089cc361704deb0ae5f0025f5647a7fa01290",
+      "text": "If 4+ Sinners have 4+ Gaze, use Awe, Contempt【Unleashed】"
+    },
+    "passives.3.condition": {
+      "sourceHash": "4914d1534aba115263f1ecbd3ce0bf518823b821bc2db075b3951f9ffac846a1",
+      "text": "4+ Sinners with 4+ Gaze"
+    },
+    "passives.3.response": {
+      "sourceHash": "f71a51fe8676a7b8ecf1a4e9ec2253420a17c217b892f843017dc6573a0cc17c",
+      "text": "Adds another Unleashed skill. Repeatedly having everyone attack Huan also strengthens his actions."
+    },
+    "passives.4.name": {
+      "sourceHash": "9b2c77934f6b769bc84dfc3c7225a899104127a471ee9c1bf2f3043c5dbd3bbc",
+      "text": "Better avert your gazes"
+    },
+    "passives.4.effect": {
+      "sourceHash": "03b16dfc16d346ade15981fea98b25cb6ba24c74fd0dc981b9b47c93e21fe6b4",
+      "text": "While allies are present, if targeting 5+ enemies as main targets, those enemies lose 10 HP and SP"
+    },
+    "passives.4.condition": {
+      "sourceHash": "6579e94558324060cebe59b3e9d37c8bed1fa04aca4869712dfbac32fa2e84b4",
+      "text": "Enemy allies remain and Huan's focus condition is met"
+    },
+    "passives.4.response": {
+      "sourceHash": "aa47d8052495a6831bd5ed8328cb821cb4d98af900b0ba52f88c6bfe6cc5e0ac",
+      "text": "The original targeting subject is ambiguous, but the walkthrough advises against aiming 5+ skills at Huan. Generally stay within 4 and spend remaining actions on adds."
+    },
+    "passives.5.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.5.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.5.condition": {
+      "sourceHash": "9db1f945844735734b291f62d171020ee8b66bb4113dc78d77ff7e8d85476d80",
+      "text": "Effects that replace Panic type"
+    },
+    "passives.5.response": {
+      "sourceHash": "cd923d573c85b4f4e6cae3245698cd5235426303cf7c4cb24f2cd1c2045067d3",
+      "text": "Do not build around stopping the mechanics by replacing Panic type."
+    },
+    "passives.6.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.6.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.6.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.6.response": {
+      "sourceHash": "16a55358e96f39bde9f9588ae2dcecb58e10379d6e9ae90d686390aa6be48206",
+      "text": "SP resets to 0. Do not assume the enemy can be held at low SP indefinitely."
+    },
+    "passives.7.name": {
+      "sourceHash": "3b537fe532f2b1d07f71dce7ee9bd9342475e9a6a4cec6b8d2a62b166ca62f4c",
+      "text": "E.G.O Corrosion - N Corp."
+    },
+    "passives.7.effect": {
+      "sourceHash": "111ea188dfee3a31a61e31b0c00aa63b901ec12ced12791769b845436be3d46e",
+      "text": "At the end of every turn after this character appears, gain 1 E.G.O Corrosion - N Corp.\n- At Turn End, if below 50% maximum HP or at -20 SP or lower, gain 1 additional E.G.O Corrosion - N Corp."
+    },
+    "passives.7.condition": {
+      "sourceHash": "72f2bffe1f1d074396a3c58d6daba2942f988075ccacde4ae72896399c52514f",
+      "text": "Each Turn End / below 50% HP or at -20 SP or lower"
+    },
+    "passives.7.response": {
+      "sourceHash": "35442274c18442691cd539f62f9414f4fd6cc33c6a3760127f33512513e58402",
+      "text": "Waiting lowers SP and strengthens attacks. Do not keep the whole team defending simply because the enemy takes self-damage."
+    },
+    "passives.8.name": {
+      "sourceHash": "1700c98a0bb884094faf8ed977de56d61b280412bdfbbbaca567897b0f334ada",
+      "text": "The Cost of Fell Bullets"
+    },
+    "passives.8.effect": {
+      "sourceHash": "97b2834c1cbd0052a86c2625a504c5be30f399b79f130622eab68d52ebeb2c9e",
+      "text": "On Hit, heal 5 SP.\nOn Clash Lose, lose 5 SP."
+    },
+    "passives.8.condition": {
+      "sourceHash": "866824d2da3d0a795602bfe2385273c3c55a99a8c42b235411e5ff8dde31bb37",
+      "text": "Gubo hitting / losing clashes"
+    },
+    "passives.8.response": {
+      "sourceHash": "3e6a35c4fa31ada4623f90dac5f068899f0c4cc5fe3ec9be63feb49af608331f",
+      "text": "Repeatedly beating Gubo lowers his SP and invites dangerous area attacks. Use ordinary Guard or Evade and check enemy SP each turn."
+    },
+    "passives.9.name": {
+      "sourceHash": "6fb49c086821b416af514c21904b8bb276713c9dc856dfb5ffa363556109feae",
+      "text": "Charge Forth"
+    },
+    "passives.9.effect": {
+      "sourceHash": "625f9ac71e3426efd2f468f6d5bd7d9e8c863c5fe7925576d27ab7399dde66c7",
+      "text": "On Kill, Poise Count +3"
+    },
+    "passives.9.condition": {
+      "sourceHash": "28328fb715055ed86a016222f609e9cee6e12512af7e6f0a90b14eb03e090495",
+      "text": "Gubo killing a target"
+    },
+    "passives.9.response": {
+      "sourceHash": "9dd733f3870347dceb5c9629e6ad404f844be9f14b104afb5d4e3631eb89c6b0",
+      "text": "Letting Gubo shoot Sticking enemies also increases his Poise Count. Prioritize killing the designated target first."
+    },
+    "passives.10.name": {
+      "sourceHash": "fb7a48b0f73f5be6e3de4308a44c31331f6b8d81a0084d5b8ae28b6ec6705bb5",
+      "text": "A new era is upon us, my dear fellow."
+    },
+    "passives.10.effect": {
+      "sourceHash": "0eb191e2d83013263d7fe250b804259e860aa415f89de3229db6d9f3960ac097",
+      "text": "At -20 SP or lower, use a special pattern"
+    },
+    "passives.10.condition": {
+      "sourceHash": "11536728bc32e521489af28d6853c5fbc963041e86efa49a1241b7074e0efbba",
+      "text": "-20 SP or lower"
+    },
+    "passives.10.response": {
+      "sourceHash": "c0122231236eb1c8a50c7a52b00e6c3585143f26b88027674fd4ee662b50e7e8",
+      "text": "The threshold for switching to an area-attack-focused pattern; merely having negative SP is not enough."
+    },
+    "passives.11.name": {
+      "sourceHash": "f1ce53ead4c81a6f5c7474f8c3f74ac5e5b70482fbd74b85e1c56e8839f6f715",
+      "text": "Please, dedicate yourself for the new ideal."
+    },
+    "passives.11.effect": {
+      "sourceHash": "b07d5967b66299302983c18fde2c5b0fa82560e0bb436f8689e94b4ab07f0358",
+      "text": "If an N Corp. employee other than Jia Huan is below 50% HP, use a special pattern"
+    },
+    "passives.11.condition": {
+      "sourceHash": "897a3492ee1765dfd5203ef33701341e9153898feac5b30e6538a899811b4c98",
+      "text": "N Corp. employee other than Huan below 50% HP"
+    },
+    "passives.11.response": {
+      "sourceHash": "e1d077f6edbb4f43a9ff21b598b0aaadca658577e743c77ce4e5c848e2bf8bd5",
+      "text": "Do not leave Sticking enemies Staggered; kill them before Gubo fires."
+    },
+    "passives.12.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.12.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.12.condition": {
+      "sourceHash": "9db1f945844735734b291f62d171020ee8b66bb4113dc78d77ff7e8d85476d80",
+      "text": "Effects that replace Panic type"
+    },
+    "passives.12.response": {
+      "sourceHash": "cd923d573c85b4f4e6cae3245698cd5235426303cf7c4cb24f2cd1c2045067d3",
+      "text": "Do not build around stopping the mechanics by replacing Panic type."
+    },
+    "passives.13.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.13.effect": {
+      "sourceHash": "50c9793aa88ee02d642256f488afc51fecafce2ff43d19aeb9cb0ea94fe7cfae",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.13.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.13.response": {
+      "sourceHash": "16a55358e96f39bde9f9588ae2dcecb58e10379d6e9ae90d686390aa6be48206",
+      "text": "SP resets to 0. Do not assume the enemy can be held at low SP indefinitely."
+    },
+    "passives.14.name": {
+      "sourceHash": "3b537fe532f2b1d07f71dce7ee9bd9342475e9a6a4cec6b8d2a62b166ca62f4c",
+      "text": "E.G.O Corrosion - N Corp."
+    },
+    "passives.14.effect": {
+      "sourceHash": "111ea188dfee3a31a61e31b0c00aa63b901ec12ced12791769b845436be3d46e",
+      "text": "At the end of every turn after this character appears, gain 1 E.G.O Corrosion - N Corp.\n- At Turn End, if below 50% maximum HP or at -20 SP or lower, gain 1 additional E.G.O Corrosion - N Corp."
+    },
+    "passives.14.condition": {
+      "sourceHash": "72f2bffe1f1d074396a3c58d6daba2942f988075ccacde4ae72896399c52514f",
+      "text": "Each Turn End / below 50% HP or at -20 SP or lower"
+    },
+    "passives.14.response": {
+      "sourceHash": "35442274c18442691cd539f62f9414f4fd6cc33c6a3760127f33512513e58402",
+      "text": "Waiting lowers SP and strengthens attacks. Do not keep the whole team defending simply because the enemy takes self-damage."
+    },
+    "passives.15.name": {
+      "sourceHash": "3b537fe532f2b1d07f71dce7ee9bd9342475e9a6a4cec6b8d2a62b166ca62f4c",
+      "text": "E.G.O Corrosion - N Corp."
+    },
+    "passives.15.effect": {
+      "sourceHash": "111ea188dfee3a31a61e31b0c00aa63b901ec12ced12791769b845436be3d46e",
+      "text": "At the end of every turn after this character appears, gain 1 E.G.O Corrosion - N Corp.\n- At Turn End, if below 50% maximum HP or at -20 SP or lower, gain 1 additional E.G.O Corrosion - N Corp."
+    },
+    "passives.15.condition": {
+      "sourceHash": "72f2bffe1f1d074396a3c58d6daba2942f988075ccacde4ae72896399c52514f",
+      "text": "Each Turn End / below 50% HP or at -20 SP or lower"
+    },
+    "passives.15.response": {
+      "sourceHash": "35442274c18442691cd539f62f9414f4fd6cc33c6a3760127f33512513e58402",
+      "text": "Waiting lowers SP and strengthens attacks. Do not keep the whole team defending simply because the enemy takes self-damage."
+    },
+    "passives.16.name": {
+      "sourceHash": "6ecc7f7879ad697473f2dd5d2760d71f91062e90b2d8eee51d0c748af87511d5",
+      "text": "Four-leaf Clover"
+    },
+    "passives.16.effect": {
+      "sourceHash": "a836ec5d10ad6a9632e83ee789e0c5388ca19c329fbdcd7f93a54d620d142046",
+      "text": "At Turn Start, gain 5 Poise and increase Poise Count by 2.\nDuring combat, if an ally with Poise uses a skill and deals critical damage to an enemy, grant a random ally 5 Poise Potency and 2 Poise Count at the next Turn Start (once per turn)."
+    },
+    "passives.16.condition": {
+      "sourceHash": "7698b7a5a65c16ff6964074a1ec1a3c357404260c7a157acef5b03883550799c",
+      "text": "Turn Start / allied critical hits"
+    },
+    "passives.16.response": {
+      "sourceHash": "8469ff52e2e962f8968d2e84cb7cee22fe0a12ed1f83a15b8a0c86613583ce6e",
+      "text": "Adds distribute Poise; leaving them alive increases the bosses' damage too. Reduce their numbers first."
+    },
+    "passives.17.name": {
+      "sourceHash": "6ecc7f7879ad697473f2dd5d2760d71f91062e90b2d8eee51d0c748af87511d5",
+      "text": "Four-leaf Clover"
+    },
+    "passives.17.effect": {
+      "sourceHash": "a836ec5d10ad6a9632e83ee789e0c5388ca19c329fbdcd7f93a54d620d142046",
+      "text": "At Turn Start, gain 5 Poise and increase Poise Count by 2.\nDuring combat, if an ally with Poise uses a skill and deals critical damage to an enemy, grant a random ally 5 Poise Potency and 2 Poise Count at the next Turn Start (once per turn)."
+    },
+    "passives.17.condition": {
+      "sourceHash": "7698b7a5a65c16ff6964074a1ec1a3c357404260c7a157acef5b03883550799c",
+      "text": "Turn Start / allied critical hits"
+    },
+    "passives.17.response": {
+      "sourceHash": "8469ff52e2e962f8968d2e84cb7cee22fe0a12ed1f83a15b8a0c86613583ce6e",
+      "text": "Adds distribute Poise; leaving them alive increases the bosses' damage too. Reduce their numbers first."
+    },
+    "passives.18.name": {
+      "sourceHash": "a157bb63ce4b3b95656be4dc0614683c0c96b96e871965b34251fec7561561dd",
+      "text": "Tasty Flesh"
+    },
+    "passives.18.effect": {
+      "sourceHash": "de526fcc575856ec3df84744ae59211d7e2d8f2b20050bcabfc758215d3e4a1b",
+      "text": "At 50% HP or lower, on hitting an enemy with Bleed, heal 1% of maximum HP per 1 Bleed on the enemy (max 10%; once per encounter)"
+    },
+    "passives.18.condition": {
+      "sourceHash": "d01370ab689e829edac3b44c773296476be8edf00a1d3b788b696b8809d3a9c5",
+      "text": "Hitting a Bleeding target at 50% HP or lower / once per encounter"
+    },
+    "passives.18.response": {
+      "sourceHash": "df0c015e638b9cd518b9255d500e5b067fc7c0366d9f85d2f2c22c1ddeea42e6",
+      "text": "Finish them after Staggering them to prevent healing."
+    },
+    "passives.19.name": {
+      "sourceHash": "a157bb63ce4b3b95656be4dc0614683c0c96b96e871965b34251fec7561561dd",
+      "text": "Tasty Flesh"
+    },
+    "passives.19.effect": {
+      "sourceHash": "de526fcc575856ec3df84744ae59211d7e2d8f2b20050bcabfc758215d3e4a1b",
+      "text": "At 50% HP or lower, on hitting an enemy with Bleed, heal 1% of maximum HP per 1 Bleed on the enemy (max 10%; once per encounter)"
+    },
+    "passives.19.condition": {
+      "sourceHash": "d01370ab689e829edac3b44c773296476be8edf00a1d3b788b696b8809d3a9c5",
+      "text": "Hitting a Bleeding target at 50% HP or lower / once per encounter"
+    },
+    "passives.19.response": {
+      "sourceHash": "df0c015e638b9cd518b9255d500e5b067fc7c0366d9f85d2f2c22c1ddeea42e6",
+      "text": "Finish them after Staggering them to prevent healing."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "74349d71e5d6c9d42e9d0ddefa0be1c2da7a346f062d890be60b1f604ce5ad0b",
+      "text": "Gaze"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "39d30c19c85231b6eca1fd7c49576a8a8d9701ed0c47bea119fbbbbe0398d07d",
+      "text": "For each 1, take +10% damage from Huan and deal +10% damage to him. At the maximum of 7, becomes Contempt."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9bd1b616b35f85858fc4ca031dd723782d9ef047f543a2f369689f7ba5768339",
+      "text": "High Gaze increases both damage and risk. Limit incoming hits and watch for 4 Sinners reaching 4+ Gaze."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "4e0a6457113e3bbd8257f51a1a751bb11e9dd183e2a6a5fab12e0ca98976ed3b",
+      "text": "Contempt"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "1491bdea5c5f4456c78b3e826b08cd29b2a9d6130ffb8b4c89ef03afd3d70c12",
+      "text": "Transforms from 7 Gaze. Deal and take 50% less damage against Huan and cannot gain Gaze. Expires at Turn End."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "4e4ae9f35dabcf0c8050390e0f9f841a1705d1108afd433c8a40b5b748ff6ebe",
+      "text": "Distinguish this status from the same-named attack skill. It also reduces outgoing damage; check predictions."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "7cbc0a4ceb4c56112e8a3f61cb26b1919832168cd10a1864056fecb44e3b33b0",
+      "text": "Grasp"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "cb7e3b5b357507d9e573d33884eb5e82d7e74dde187646651bd4158e87612d00",
+      "text": "Max 4. At Turn End, gain 10 Bind next turn and reduce this status by 1. Huan prioritizes Grasp holders and changes patterns."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "66f6e6537bb74e8764a1a46ad1f50fd6589d64fb53ac056c862eee044b532aa9",
+      "text": "Prepare healing and a Counter clash win for the affected Sinner."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "3b537fe532f2b1d07f71dce7ee9bd9342475e9a6a4cec6b8d2a62b166ca62f4c",
+      "text": "E.G.O Corrosion - N Corp."
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "9cff22139e25da0f89d725905952ba3c70d6f9afd89436367b382170ff798179",
+      "text": "Max 10. At Turn Start, lose SP equal to its value and gain 1 Attack Power Up per 3. At maximum, take 5% maximum HP self-damage at Turn End."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "51adb5ff364a0fcd56d89184762abd7517601ad96334cedf418519410c186604",
+      "text": "Low SP and Power buffs progress together. Check negative-Coin skills and Gubo's special pattern each turn."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "cb749910f8d93d1c5e72469d13e0948ef9f25a1fa8362d18a8293ff257c4d069",
+      "text": "Volatile E.G.O Attunement - Contempt"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "9477575fab9f7e903c8a022c73cc2fcd5c7a7adf105a62ec8ede8275e7a093ac",
+      "text": "Offense/Defense Levels -7. Gain stacks on Clash Win; each gives -1 Offense Level and +1 Defense Level. At the maximum of 5, gain 2 Protection next turn and reset."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "1a97311c37c73cc6f72fca3f579c61b7b93f950750fe41ce0766e9a7130cf933",
+      "text": "The table includes only the initial reduction. Use actual in-combat levels and Protection when assessing clashes."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "7dd2d78a3fe2d406b58de4ac0537f56430a77bdc837a64c6e8504a3e0a47a5b7",
+      "text": "Volatile E.G.O Attunement - Fell Bullet"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "1c394214f0037134efc85edde1bd267e6a881e3a2518fea6656cfb6e10b1369a",
+      "text": "Offense/Defense Levels -2. Gain stacks on Clash Lose; each gives +1 Offense/Defense Levels. At the maximum of 5, gain 2 Damage Up next turn and reset."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "d3d72bb1500aee47d87345fd72e5048ee97e6c772297c2c24f84a346579449d6",
+      "text": "Beating Gubo also advances his buffs. Reduce unnecessary clashes."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "2a3e4bc3b046b39de0f92507066c386c86a96bb333488308c8ac44c629565a98",
+      "text": "Torn Memory"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "2cecb451320890fc67847c1ea89a5dcf79d63fdeee878868dbb0917ad1d8baa3",
+      "text": "Max 7. Builds through Gubo's shots; each stack gives Reminiscence Shattering Bullet +10% damage. Fully consumed after the attack."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "e6c4e3b35a7d30afb9a09464dc138ad7a5756e4d72828dd9218deaf27e447a99",
+      "text": "Watch both SP and the buildup that strengthens Unbreakable area damage."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "1724681f3076a0312bee45eb29c6ac6ee686a7f27f70da877e1b526cae8a7266",
+      "text": "The Will to Confront"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "1025b15b3fdb12ed1fefc2f9928f837dd1f0aaf1ce231bf5771d8fbb10e6b95c",
+      "text": "Hong Lu's regular support: +2 Clash Power against Huan. The dedicated effect entry uses a spelling variant for Will."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "027a828a46870e7c5374d73ffa4bc3a4dc47f31463784ac4be6a4b24c4c93727",
+      "text": "Helps Hong Lu handle the Counter. His Lord Identity replaces it with separate exclusive support."
+    },
+    "mechanics.8.name": {
+      "sourceHash": "4444ed3ef78daf3b8a149c048e196318e11e77119055c71d2862f4721e5a96e1",
+      "text": "Responsibility"
+    },
+    "mechanics.8.effect": {
+      "sourceHash": "7de9ab775ea1104b8420da3ec3f30c09b4ff9246c2020427752255d593a5ccd4",
+      "text": "Yi Sang gains +2 Clash Power against Gubo."
+    },
+    "mechanics.8.response": {
+      "sourceHash": "ec6367d014799648bbbe8fe6dd76fa3af61d652665a3952a287e2d1d181712c8",
+      "text": "Useful when focusing Gubo, but not a reason to take unnecessary clashes from the opening."
+    },
+    "warnings.0": {
+      "sourceHash": "69b9f30bae5cc6b53c6c98e0b6b53465c6917265350b806c45ff513796f36cb2",
+      "text": "Gubo's dangerous special-pattern threshold is -20 SP or lower. E.G.O Corrosion lowers SP as well as lost clashes."
+    },
+    "warnings.1": {
+      "sourceHash": "0ec483e0724039c421850f17f8cf5d1ca2293c08137fe4be0d7f37f254584d92",
+      "text": "The focus penalty's targeting subject differs between the original effect and the walkthrough. This guide follows the walkthrough's limit of generally 4 attacks."
+    },
+    "warnings.2": {
+      "sourceHash": "75b96124425a5b5d3e3c36f9a51fd1fad497cfb3ee4cb5255aa8d84519b56cc4",
+      "text": "Grasp is applied on use; winning the clash does not prevent it."
+    },
+    "warnings.3": {
+      "sourceHash": "98e4c0d5224d4a427760bc5e642ea24e03e7089acbb0a4a85ff962d7501ed494",
+      "text": "There are 2 Unleashed skills with reversed names. Distinguish the unredirectable Lust skill from the Wrath area attack."
+    },
+    "warnings.4": {
+      "sourceHash": "51d2bb881ba2e52cd8320cb365003def3b91c7570dccf041d8b8bd2c96e9e605",
+      "text": "Huan's low-SP negative-Coin skill and Gubo's additional low-SP Unbreakable area attack require different responses."
+    },
+    "preparation.0": {
+      "sourceHash": "501c01c0b08cb420e91df48ad1c80985f72f9b7bf3e2bb4b8b5f38395945a8d8",
+      "text": "Aim for the recommended Level 55 on the main team. Hong Lu must deploy initially; a borrowed Identity is available. Prepare healing and ordinary Guard or Evade against Gubo."
+    },
+    "preparation.1": {
+      "sourceHash": "ca4b7934c8b271d153822d142155d0334941c623a5263c2a3e2585180d25d28e",
+      "text": "Slash works against Sticking enemies; Lust/Gloom against Huan; Envy/Sloth against Gubo. Prioritize clash predictions as well as affinities."
+    },
+    "roles.0.name": {
+      "sourceHash": "bbd4b587d405df05c099c53d94d7457ab8193c28fe8f384e39637cd38f82b4cf",
+      "text": "Gubo single-target attack handler"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9d49ab822e77aced61541803a89fee9d89eba07b32f8a1417146ca1799eff3c2",
+      "text": "Use ordinary Guard or Evade to reduce unnecessary clashes."
+    },
+    "roles.1.name": {
+      "sourceHash": "653ea4484550dd9649e42415f915247f91c28835d870d960679f84db298e011c",
+      "text": "Grasp holder for the Counter"
+    },
+    "roles.1.reason": {
+      "sourceHash": "0672116d3cc4b4fb9f4d2f7942a2e446c14e7af9a75d092e1f2c3a6bfc9bffcd",
+      "text": "Skip Huan's next Unleashed pattern."
+    },
+    "roles.2.name": {
+      "sourceHash": "bf58838e0170e0b944d35fc1e31ff6294de22371fbf174306b6c058473b944f7",
+      "text": "Damage to finish adds"
+    },
+    "roles.2.reason": {
+      "sourceHash": "31f942b18d6f3db25498a3ec3c5653c808f4e0abb3a465588b893d56cba6db00",
+      "text": "Kill Gubo's designated N Corp. employee first to cancel the dangerous shot."
+    }
+  },
+  "messages": {
+    "boss-copy:jia-fang-kubo": "complete",
+    "【リンバス】8-32 ジア・ファン＆クボの攻略｜Limbus Assistant": "8-32 Jia Huan & Gubo Guide | Limbus Assistant",
+    "リンバス(Limbus Company)8-32「ジア・ファン＆クボ」の攻略。取り巻き→ファン→クボの順に倒す戦闘。ファンへ攻撃を集めすぎず、クボには通常防御・回避も使い、低精神力での広域連打を抑える。": "Jia Huan & Gubo guide for Limbus Company 8-32. Defeat the adds, then Huan, then Gubo. Avoid excessive focus on Huan, and use ordinary Guard or Evade against Gubo to limit repeated low-SP area attacks.",
+    "8-32 ジア・ファン＆クボ": "8-32 Jia Huan & Gubo",
+    "8-32「Immortality」": "8-32 · Immortality",
+    "N社E.G.O::軽蔑、畏敬 ジア・ファンの外見": "N Corp. E.G.O::Contempt, Awe Jia Huan appearance",
+    "N社E.G.O::軽蔑、畏敬 ジア・ファンのスキル": "N Corp. E.G.O::Contempt, Awe Jia Huan skills",
+    "N Corp. E.G.O::Contempt, Awe Jia Huanの外見": "N Corp. E.G.O::Contempt, Awe Jia Huan appearance",
+    "N Corp. E.G.O::Contempt, Awe Jia Huanのスキル": "N Corp. E.G.O::Contempt, Awe Jia Huan skills",
+    "N社E.G.O::凶弾 クボの外見": "N Corp. E.G.O::Fell Bullet Gubo appearance",
+    "N社E.G.O::凶弾 クボのスキル": "N Corp. E.G.O::Fell Bullet Gubo skills",
+    "N Corp. E.G.O::Fell Bullet Guboの外見": "N Corp. E.G.O::Fell Bullet Gubo appearance",
+    "N Corp. E.G.O::Fell Bullet Guboのスキル": "N Corp. E.G.O::Fell Bullet Gubo skills",
+    "素早いN社E.G.O::ねばつきの外見": "Swift N Corp. E.G.O::Sticking appearance",
+    "素早いN社E.G.O::ねばつきのスキル": "Swift N Corp. E.G.O::Sticking skills",
+    "Swift N Corp. E.G.O::Stickingの外見": "Swift N Corp. E.G.O::Sticking appearance",
+    "Swift N Corp. E.G.O::Stickingのスキル": "Swift N Corp. E.G.O::Sticking skills",
+    "俊敏なN社E.G.O::ねばつきの外見": "Nimble N Corp. E.G.O::Sticking appearance",
+    "俊敏なN社E.G.O::ねばつきのスキル": "Nimble N Corp. E.G.O::Sticking skills",
+    "Nimble N Corp. E.G.O::Stickingの外見": "Nimble N Corp. E.G.O::Sticking appearance",
+    "Nimble N Corp. E.G.O::Stickingのスキル": "Nimble N Corp. E.G.O::Sticking skills"
+  }
+}

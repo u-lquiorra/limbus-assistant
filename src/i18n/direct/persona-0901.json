@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0901.md",
+  "code": "0901",
+  "messages": {
+    "出血を付与する味方と組み、出血6以上の敵にS3「処断」を当てて最後のコインの与ダメージ量を伸ばす出血アタッカー。控えに置いてもサポートパッシブ「賭博師」で味方の火力を上げられる。": "A Bleed attacker that works with Bleed-applying allies, then lands S3 Slay against enemies with at least 6 Bleed to increase its final Coin's damage. On the bench, Gambler also raises allies' damage.",
+    "S3「処断」: 4コイン。Ⅰ〜Ⅲコインの表面的中時に出血1ずつ、Ⅳコインは対象の出血が6以上なら与ダメージ量+20%。自分の精神力が0未満ならスキル威力+1。": "**S3 — Slay**: 4 Coins. Coins Ⅰ–Ⅲ each inflict 1 Bleed on Heads Hit, and Coin Ⅳ deals +20% damage if the target has at least 6 Bleed. +1 Skill Power if her SP is below 0.",
+    "出血の付与: S1「振り下ろす」はⅠコインで出血2、S2「連続斬り」はⅠ・Ⅱコインで出血2ずつ(表面的中時はⅡコインで出血回数も+1)。": "**Inflicting Bleed**: S1 Strike Down inflicts 2 Bleed with Coin Ⅰ, and S2 Axe Combo inflicts 2 Bleed each with Coins Ⅰ and Ⅱ (Coin Ⅱ also adds +1 Bleed Count on Heads Hit).",
+    "バトルパッシブ「断悪」(憤怒×5・保有): 攻撃的中時、50%の確率で出血1を付与。コイン数の多いS3ほど試行回数が増える。": "**Combat passive — Split Evil (5 Wrath Owned)**: On hit, 50% chance to inflict 1 Bleed. The many Coins of S3 give it more attempts.",
+    "サポートパッシブ「賭博師」(憤怒×5・保有・同期化Ⅲで取得): 控えにいるとき、現在の体力が最も高い味方1名の、表面が出たコインのダメージ量+20%。": "**Support passive — Gambler (5 Wrath Owned; unlocked at Uptie Ⅲ)**: While in backup, Coins that land Heads deal +20% damage for the 1 ally with the highest current HP.",
+    "自分だけで付与できる出血は1スキルあたり2〜4程度なので、出血を付与する人格と組んだときに真価を発揮する。S1・S2と味方の付与で敵の出血を6以上にしてからS3を当てる。出血ダメージは耐性に左右されないので、弱点を突ける人格が足りない場面でも起用できる。戦闘に出さない場合も、憤怒×5を保有できる編成なら「賭博師」目当てで控えに置く価値がある。": "She can only inflict about 2–4 Bleed per skill on her own, so she shines when paired with Identities that inflict Bleed. Bring enemy Bleed to 6 or more with S1, S2, and allies' infliction, then land S3. Bleed damage ignores resistances, so she can be fielded even when the team lacks Identities that can hit weaknesses. Even when she is not deployed, if the team can hold 5 Wrath, she is worth keeping in backup for Gambler."
+  }
+}

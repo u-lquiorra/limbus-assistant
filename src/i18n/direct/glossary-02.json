@@ -1,0 +1,227 @@
+{
+  "kind": "glossary-terms",
+  "terms": {
+    "resistance": {
+      "sourceHash": "82ec1b53f0f433d2c4de1d096f90eeaf3d9e0174db908ec2bfd79737f7a1af9a",
+      "aliases": [
+        "Weakness",
+        "Physical Resistance",
+        "Sin Resistance",
+        "Resistance Value",
+        "Fragile",
+        "Protection",
+        "Damage Up",
+        "Damage Down"
+      ],
+      "text": [
+        "Resistance",
+        "How readily the defender takes damage. A larger displayed resistance value generally means more damage taken.",
+        "Check Attack Type resistance and Sin resistance separately. Their reference value is 1: higher values increase damage, and lower values reduce it.",
+        "An ally's Identity determines their base physical resistances, shown in the Slash, Pierce, and Blunt columns. E.G.O determines Sin resistances. Battle begins with the equipped ZAYIN E.G.O's resistances; after an E.G.O attack finishes, its Sin resistances replace the current ones.",
+        "Final damage combines both resistances with other modifiers. The displayed values are not direct ratios of final damage.",
+        "Fragile and Protection modify skill damage taken for 1 turn. They do not rewrite the resistance table and are handled separately in damage calculation. Affinity-specific versions apply only to the named affinity.",
+        "Exploiting a weakness does not necessarily improve Clash odds. Damage and Clash Power are different.",
+        "Do not read ×0.5 as guaranteed half damage or ×2.0 as guaranteed double damage.",
+        "The Fragile status is a separate damage-taken effect; do not confuse it with a resistance label.",
+        "Resistance values and their effect on damage",
+        "×0.5: reduces damage",
+        "×1.0: reference value",
+        "×2.0: increases damage",
+        "Bar length compares displayed resistance values, not final damage ratios. The other resistance and level differences also affect calculation.",
+        "Fragile, Protection, and damage modifiers",
+        "Resistance affects damage effectiveness; Fragile and Protection temporarily modify damage taken.",
+        "Each 1 Fragile increases damage taken by 10%; each 1 Protection reduces it by 10%. Both normally cap at 10 and last for 1 turn. Other modifiers still affect final damage.",
+        "Damage Up and Damage Down modify the attacker's skill damage. If an affinity is specified, only that affinity is affected.",
+        "Unlike Power modifiers, these do not directly determine Clash results. Distinguish Clash Power, Attack Power, and damage effects.",
+        "Resistance, Fragile, Protection, and damage modifiers are only parts of the calculation. One value alone does not determine final damage.",
+        "Separate the stages of modification",
+        "Clash Power: affects who wins the Clash",
+        "Damage Up: modifies the attacker's damage",
+        "Fragile and Protection: modify the defender's skill damage taken",
+        "Check the named affinity for affinity-specific effects. See damage calculation for how modifiers combine."
+      ]
+    },
+    "potency-count": {
+      "sourceHash": "6600ba64cdc3859b644e8efe693bde5bd3766b00f8be09dd131b9be1d090e7ae",
+      "aliases": [
+        "Potency",
+        "Count",
+        "Status Effect",
+        "Stacks"
+      ],
+      "text": [
+        "Potency and Count",
+        "Values describing a status effect's strength and remaining activations or duration. When Count decreases depends on the effect.",
+        "Some statuses track Potency and Count separately. Inflicting Potency and increasing Count are different changes.",
+        "Burn normally activates at Turn End; Rupture activates when the bearer is hit. Check each effect's trigger and when its Count decreases.",
+        "Stacking, caps, and Count consumption differ between effects. Read each description rather than assuming one universal rule.",
+        "2 Count does not necessarily mean 2 turns remaining.",
+        "Skill Power and status Potency are separate values.",
+        "Ordinary Rupture: 5 Potency, 2 Count",
+        "Take a hit: 5 additional damage",
+        "Count falls from 2 to 1",
+        "After the next activation, Count runs out",
+        "Assumes no effects that change Potency or Count during the sequence and no special modifiers."
+      ]
+    },
+    "burn": {
+      "sourceHash": "4ca45e1a89162701ecc9891142764af53e7f1ccdd2b119680443c8a0256deba6",
+      "aliases": [
+        "Burn",
+        "Burn Potency",
+        "Burn Count"
+      ],
+      "text": [
+        "Burn",
+        "A status that deals damage at Turn End. Potency determines damage per activation; Count tracks duration.",
+        "Ordinary Burn deals fixed damage equal to its Potency at Turn End, then loses 1 Count.",
+        "Increasing Potency and increasing Count are different effects. Turn End, rather than the number of attack hits, is its normal trigger.",
+        "Even fixed damage can interact with special enemy effects that reduce Burn damage.",
+        "Related effects such as Dark Flame do not necessarily follow the same rules.",
+        "Burn maintained at 5 Potency and 2 Count",
+        "First Turn End: 5 damage, Count 2 → 1",
+        "Second Turn End: 5 damage, Count 1 → 0",
+        "No additional applications, consumption, Burn damage modifiers, or special effects occur in this example.",
+        "Burn",
+        "Turn End",
+        "Burn damage"
+      ]
+    },
+    "bleed": {
+      "sourceHash": "21cc89f9bcc040792d6022f06ac064c9cce1c36cbed320f94dab15cfc5f63bdf",
+      "aliases": [
+        "Bleed"
+      ],
+      "text": [
+        "Bleed",
+        "A status that damages its bearer when they roll attack-skill Coins.",
+        "Ordinary Bleed deals fixed damage equal to its Potency when an attack Coin is rolled, then loses 1 Count after the roll.",
+        "Unlike Rupture, it does not wait for an enemy attack to hit the bearer. Bleed also activates during Clashes, so watch when the bearer acts.",
+        "Do not simply count simultaneous Clash rolls and sequential attack rolls as identical numbers of activations.",
+        "Ordinary defense skills do not trigger Bleed in the same way as attack skills.",
+        "A Bleeding unit rolls an attack Coin",
+        "The unit has Bleed",
+        "The unit rolls an attack Coin",
+        "The unit takes Bleed damage and loses Count",
+        "The unit here is the bearer of Bleed. The roll triggers it regardless of Heads or Tails."
+      ]
+    },
+    "tremor": {
+      "sourceHash": "7235b24f63574b2a192189eb2b5d5fa9219a7287dc96f9cc7dca80fc9758bc42",
+      "aliases": [
+        "Tremor",
+        "Tremor Burst"
+      ],
+      "text": [
+        "Tremor",
+        "A status normally used to raise Stagger Thresholds through Tremor Burst. Applying it alone does not deal damage.",
+        "When an attack triggers Tremor Burst, ordinary Tremor raises Stagger Thresholds according to its Potency. Its Count falls by 1 after Turn End.",
+        "Distinguish applying Tremor from triggering Tremor Burst. Amplitude Conversion and similar effects can change its behavior.",
+        "Do not treat Tremor Potency as ordinary additional damage.",
+        "Read each converted Tremor effect separately, even if its name still includes Tremor.",
+        "Turning Tremor into Stagger",
+        "Inflict Tremor on the enemy",
+        "Land an effect that triggers Tremor Burst",
+        "The Stagger Threshold rises",
+        "Raising a threshold does not always cause immediate Stagger. Additional effects of converted Tremor are outside this diagram."
+      ]
+    },
+    "rupture": {
+      "sourceHash": "7f1a2ba1486165a82f51870b1fa9f5b50d5f449685046e37fb2e1358b44a0fe8",
+      "aliases": [
+        "Rupture"
+      ],
+      "text": [
+        "Rupture",
+        "A status that deals damage separately from the normal attack when its bearer is hit.",
+        "Ordinary Rupture deals fixed damage equal to its Potency when the bearer is hit by an attack skill, then loses 1 Count.",
+        "It ends when Count runs out, so maintain Count as well as Potency. Unlike Bleed, it does not wait for the bearer's own attack Coin rolls.",
+        "2 Count does not mean a duration of 2 turns.",
+        "Check enemy-specific modifiers such as Rupture damage reduction separately.",
+        "Ordinary Rupture: 5 Potency, 2 Count",
+        "First hit: 5 additional damage, Count 2 → 1",
+        "Second hit: 5 additional damage, Count 1 → 0",
+        "Normal attack damage is excluded. There are no additional applications, consumption, or special modifiers."
+      ]
+    },
+    "sinking": {
+      "sourceHash": "3853f59657ca4ff9a37527c047f00fa5f351ea1c4eb57b4f957fa468c49306c8",
+      "aliases": [
+        "Sinking"
+      ],
+      "text": [
+        "Sinking",
+        "A status that damages SP when its bearer takes attack damage. It behaves differently against targets without SP.",
+        "Ordinary Sinking deals SP damage equal to its Potency when the bearer takes damage from an attack skill, then loses 1 Count.",
+        "Against targets without SP, it deals Gloom damage instead. A target at 0 SP is different from one that has no SP at all.",
+        "SP damage is not automatically HP damage.",
+        "Against targets without SP, account for Gloom resistance and other relevant modifiers.",
+        "Sinking behaves differently depending on the target",
+        "A target with Sinking takes attack damage",
+        "Has SP: takes SP damage",
+        "Has no SP: takes Gloom damage",
+        "In either branch, ordinary Sinking loses 1 Count after activation. Separate effects such as Sinking Deluge are excluded."
+      ]
+    },
+    "poise": {
+      "sourceHash": "b20fa50d035fb4aaf5ff244104a58837e8d9f72e707d74a790740764c27b356b",
+      "aliases": [
+        "Poise",
+        "Critical Hit"
+      ],
+      "text": [
+        "Poise",
+        "A status whose Potency raises Critical Hit chance. Count governs activation and persistence.",
+        "Ordinary Poise gives 5% Critical Hit chance per 1 Potency. A Critical Hit adds a modifier to damage calculation.",
+        "Count falls by 1 after a Critical Hit and at Turn End. High Potency cannot sustain the effect once Count runs out.",
+        "Poise Potency does not directly increase Coin Power.",
+        "A Critical Hit does not always multiply final damage by 1.2. Account for Identity-specific bonuses and conditions.",
+        "10 Poise Potency: ordinary Critical Hit chance",
+        "10 Poise Potency",
+        "10 × 5% = 50%",
+        "A half chance, not a guarantee",
+        "Assumes Poise Count remains and there are no special chance modifiers. Critical Hit chance and Coin Heads chance are separate."
+      ]
+    },
+    "charge": {
+      "sourceHash": "bc6c67b9eeb8dbe759b5397948ba994b1ea264b0740e627eb9b96a47accf5308",
+      "aliases": [
+        "Charge",
+        "Charge Count"
+      ],
+      "text": [
+        "Charge",
+        "A stored resource used for skill conditions and costs. Having Charge does not universally strengthen attacks.",
+        "Ordinary Charge Count can stack up to 20 and falls by 1 at Turn End. Skills use it according to their own requirements and costs.",
+        "Thresholds and consumption differ by Identity and skill. Some special effects check Charge Potency rather than Count; read them separately.",
+        "Charge Count is separate from the Sin resources used for E.G.O.",
+        "Identity-specific descriptions take precedence for special caps, upkeep, and consumption rules.",
+        "Check Charge Count before choosing a skill",
+        "Check current Charge Count",
+        "Compare it with the skill's requirement and cost",
+        "Choose a skill whose condition is met",
+        "Do not assume every Identity needs the same Charge Count. Account for the decrease at Turn End."
+      ]
+    },
+    "paralysis": {
+      "sourceHash": "25f6554d0f8f8aea41846a0f14632eb93fdeabfe5d2e612b9a9018f3c4097286",
+      "aliases": [
+        "Paralyze",
+        "Coin Power fixed at 0"
+      ],
+      "text": [
+        "Paralyze",
+        "A debuff that fixes the Coin Power of a stated number of the target's Coins at 0 for 1 turn.",
+        "1 Paralyze fixes the Coin Power of 1 Coin used that turn at 0. It does not directly reduce Base Power or Final Power by 1.",
+        "A paralyzed positive Coin adds no Power even on Heads. A paralyzed negative Coin loses its usual subtraction, so Paralyze can sometimes prevent a Power decrease.",
+        "Paralyze is consumed in Coin-use order. Coins used during a Clash can consume it first; whether any remains for the attack depends on Coin count and Clash results.",
+        "Do not confuse Paralyze stacks with the skill's remaining Coins. Check specific descriptions when Unbreakable Coins or Coin effects are involved.",
+        "Paralyze affects Coin Power",
+        "Positive Coin: the paralyzed Coin adds nothing on Heads",
+        "Negative Coin: negative Coin Power becomes 0",
+        "Check Base Power and other Power modifiers separately",
+        "The order in which Paralyze is applied, and its handling during Clashes and attacks, depend on the skill's current state."
+      ]
+    }
+  }
+}

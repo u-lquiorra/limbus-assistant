@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0908.md",
+  "code": "0908",
+  "messages": {
+    "憤怒を多用する火傷編成で、広域攻撃・火傷付与・味方3名の回復を同時にこなす、憤怒貫通のE.G.O。": "A Wrath Pierce E.G.O for Wrath-heavy Burn teams that delivers multi-target attacks, Burn infliction, and healing for 3 allies all at once.",
+    "広域と火傷: 攻撃加重値は4で、解析Ⅲから(最大共鳴数÷2)ぶん増え最大7になる。的中時に火傷6(解析Ⅲは8)を付与する。": "**Multi-target and Burn**: Attack Weight is 4, increasing by (highest Resonance ÷ 2) from Threadspin Ⅲ, up to 7. Inflicts 6 Burn on hit (8 at Threadspin Ⅲ).",
+    "回復: 攻撃後、現体力の比率が最も低い味方(1+最大共鳴数)名(最大3名)を、最大値の15%(Ⅲは18%、Ⅳは20%)回復する。": "**Healing**: After the attack, heals (1 + highest Resonance) allies with the lowest current HP ratio, up to 3, by 15% of max HP (18% at Ⅲ, 20% at Ⅳ).",
+    "熱せられた鳥籠: メインターゲットに、次のターンの鳥籠を(1+憤怒共鳴数÷3)付与する(最大2、解析Ⅲは3)。火傷のある敵の憤怒耐性が上がり、ターン終了時に束縛も得る。": "**Searing Birdcage**: Inflicts (1 + Wrath Resonance ÷ 3) Birdcage for the next turn on the main target (up to 2, 3 at Threadspin Ⅲ). It raises the Wrath resistance of Burning enemies, and the bearer also gains Bind at Turn End.",
+    "パッシブ「灼熱遊戯」: 火傷回数10以上の敵が死亡すると、全ての敵へ火傷回数を分けて付与し、精神力が8回復する(1ターン2回)。条件が重い。": "**Passive — Blazing Amusement**: When an enemy with 10 or more Burn Count dies, distributes Burn Count among all enemies and restores 8 SP (twice per turn). The condition is demanding.",
+    "侵蝕スキル: 2枚とも元から破壊不能コインで、解析Ⅲから火傷・鳥籠が強化され、Ⅳでさらに伸びる。敵味方識別不可で味方に当たり得るため、扱いは難しい。": "**Corrosion skill**: Both Coins are Unbreakable from the start, with Burn and Birdcage strengthened from Threadspin Ⅲ and further at Ⅳ. It cannot distinguish friend from foe and can hit allies, making it hard to handle.",
+    "憤怒スキルをまとめて使い、共鳴数で加重値・回復人数・鳥籠を伸ばしてから撃つ。": "Use Wrath skills together, raising Attack Weight, healing targets, and Birdcage through Resonance before firing it.",
+    "攻撃後3ターン、ターン終了時に精神力が10減る。精神消耗15と合わせて重いので、撃つ場面を絞る。": "For 3 turns after the attack, she loses 10 SP at each Turn End. Together with its 15 Sanity cost, it is heavy, so pick its moments.",
+    "必要資源は憤怒7・傲慢3と偏っており、火傷編成で憤怒が余る場面に向く。": "It requires 7 Wrath and 3 Pride, a lopsided cost suited to Burn teams with Wrath to spare.",
+    "Ⅱ: 「灼熱遊戯」が解放されるが、条件が重く活用しにくい。": "**Ⅱ**: Unlocks Blazing Amusement, but its condition is demanding and hard to use.",
+    "Ⅲ: 覚醒が強化される(共鳴による加重値、回復18%、火傷8、鳥籠の上限3)。覚醒だけ使うならここで十分。": "**Ⅲ**: Strengthens Awakening (Resonance-based Attack Weight, 18% healing, 8 Burn, Birdcage cap 3). Enough if you only use Awakening.",
+    "Ⅳ: 侵蝕が大きく強化され、覚醒の回復も20%になる。": "**Ⅳ**: Greatly strengthens Corrosion, and Awakening's healing becomes 20%.",
+    "南部リウ協会4課部長: 火傷を付与するスキルがそろい、憤怒(S2)・傲慢(S1)の資源も出せる。": "**[Liu Assoc. South Section 4 Director](persona:0908)**: Has a full set of Burn-inflicting skills and supplies Wrath (S2) and Pride (S1).",
+    "蜘蛛の巣親指の親方: 基本スキルの多くが火傷を付与し、憤怒・傲慢の資源も出せる。": "**[The House of Spiders: The Thumb Nursefather](persona:0916)**: Many of her basic skills inflict Burn, and she supplies Wrath and Pride resources."
+  }
+}

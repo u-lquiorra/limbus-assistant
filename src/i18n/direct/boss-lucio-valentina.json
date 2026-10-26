@@ -1,0 +1,1666 @@
+{
+  "kind": "boss-copy",
+  "id": "lucio-valentina",
+  "source": "src/data/bosses/lucio-valentina.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "決闘高潮",
+          "en": "The Duel Escalates",
+          "file": "Bufs-a1c9p1.json",
+          "id": "DuelEdge"
+        },
+        {
+          "ja": "加速弾",
+          "en": "Acceleration Round",
+          "file": "Bufs-a1c9p3.json",
+          "id": "AccelBullet"
+        },
+        {
+          "ja": "予知眼 過熱",
+          "en": "Eye of Precognition - Overheat",
+          "file": "Bufs-a1c9p3.json",
+          "id": "FutureEyeOff"
+        },
+        {
+          "ja": "予知眼",
+          "en": "Eye of Precognition",
+          "file": "Bufs-a1c9p3.json",
+          "id": "FutureEyeOn"
+        },
+        {
+          "ja": "非常用K社アンプル",
+          "en": "K Corp. Emergency Ampule",
+          "file": "Bufs-a1c9p3.json",
+          "id": "KAmpouleA1C94TH"
+        },
+        {
+          "ja": "加速する未来",
+          "en": "Accelerating Future",
+          "file": "Bufs-a1c9p3.json",
+          "id": "LookingFuture"
+        },
+        {
+          "ja": "狩りの標的",
+          "en": "Game Target",
+          "file": "Bufs-a1c9p3.json",
+          "id": "TeachersPrey"
+        },
+        {
+          "ja": "親指の子方 - ルチオ",
+          "en": "The Thumb Apprentice - Lucio",
+          "file": "Enemies-a1c9p1.json",
+          "id": "1306"
+        },
+        {
+          "ja": "親指の親方 - ヴァレンチーナ",
+          "en": "The Thumb Nursefather - Valencina",
+          "file": "Enemies-a1c9p3.json",
+          "id": "1314"
+        },
+        {
+          "ja": "パレルモ式レイピア / 切斬刀",
+          "en": "Palermitan Rapier / The Cleaving Blade",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "130603"
+        },
+        {
+          "ja": "狩りの印",
+          "en": "Hunter's Mark",
+          "file": "Passives_Abnormality-a1c9p1.json",
+          "id": "130604"
+        },
+        {
+          "ja": "パニック回復",
+          "en": "Panic Recovery",
+          "file": "Passives_Abnormality-a1c9p2.json",
+          "id": "132230"
+        },
+        {
+          "ja": "予知眼",
+          "en": "The Eye of Precognition",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131401"
+        },
+        {
+          "ja": "加速する未来",
+          "en": "Accelerating Future",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131402"
+        },
+        {
+          "ja": "ボニャテッリ家の恥",
+          "en": "The Shame of Famiglia Bognatelli",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131404"
+        },
+        {
+          "ja": "パレルモ・スパーダ",
+          "en": "La Spada di Palermo",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131405"
+        },
+        {
+          "ja": "ルチオ、この役立たず",
+          "en": "Lucio, you useless little shit!",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131406"
+        },
+        {
+          "ja": "過負荷",
+          "en": "Overloaded",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131408"
+        },
+        {
+          "ja": "狩りの時間",
+          "en": "Time to Hunt",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131410"
+        },
+        {
+          "ja": "苦しい戦い",
+          "en": "Grueling Battle",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132601"
+        },
+        {
+          "ja": "崩れゆく姿勢",
+          "en": "Crumbling Form",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132602"
+        },
+        {
+          "ja": "必死の奮戦",
+          "en": "Desperate Struggle",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132603"
+        },
+        {
+          "ja": "狩りの印",
+          "en": "Hunter's Mark",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132604"
+        },
+        {
+          "ja": "デュエロ・ディスペラート",
+          "en": "Duello Disperato",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "132606"
+        },
+        {
+          "ja": "案内人",
+          "en": "The Guide",
+          "file": "Passives_Assist-a1c9p3.json",
+          "id": "40001209"
+        },
+        {
+          "ja": "パレルモ・スパーダ",
+          "en": "La Spada di Palermo",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "130601"
+        },
+        {
+          "ja": "コルピ・ソッターニ",
+          "en": "Colpi Sottani",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "130602"
+        },
+        {
+          "ja": "カチャトーレ",
+          "en": "Il Cacciatore",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "130603"
+        },
+        {
+          "ja": "セッチォナトゥラ・デル・チェルヴォ",
+          "en": "Sezionatura di Cervo",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "130604"
+        },
+        {
+          "ja": "剣先で測る",
+          "en": "Measuring Blade Reach",
+          "file": "Skills_Abnormality-a1c9p1.json",
+          "id": "130605"
+        },
+        {
+          "ja": "守ります。",
+          "en": "I Will Protect.",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "130606"
+        },
+        {
+          "ja": "コルピ・ディ・タッリョ",
+          "en": "Colpi di Taglio",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131401"
+        },
+        {
+          "ja": "コルポ・ディ・プンタ",
+          "en": "Colpo di Punta",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131402"
+        },
+        {
+          "ja": "セッチォナトゥラ・デル・コニリオ",
+          "en": "Sezionatura di Coniglio",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131403"
+        },
+        {
+          "ja": "セッチォナトゥラ・デル・チェルヴォ",
+          "en": "Sezionatura di Cervo",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131404"
+        },
+        {
+          "ja": "喜んでこの弾丸で撃ち抜いてやろう",
+          "en": "I'll Gladly Blast a Hole Through You",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131405"
+        },
+        {
+          "ja": "セッチォナトゥラ・デッレ・エレファンテ",
+          "en": "Sezionatura di Elefante",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131406"
+        },
+        {
+          "ja": "処分",
+          "en": "Disposal",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131407"
+        },
+        {
+          "ja": "予知",
+          "en": "Precognition",
+          "file": "Skills_Abnormality-a1c9p3.json",
+          "id": "131408"
+        },
+        {
+          "ja": "シン(心) - ヴァレンチーナ",
+          "en": "Shin (心) - Valencina",
+          "file": "Passives_Abnormality-a1c9p3.json",
+          "id": "131409"
+        },
+        {
+          "ja": "シン(心) - ヴァレンチーナ",
+          "en": "Shin (心) - Valencina",
+          "file": "Bufs-a1c9p3.json",
+          "id": "ObsessionAndGreed"
+        },
+        {
+          "ja": "振動 - 灼熱",
+          "en": "Tremor - Scorch",
+          "file": "Bufs-a1c8p3.json",
+          "id": "VibrationIgnition"
+        },
+        {
+          "ja": "マン(望)",
+          "en": "Mang (望)",
+          "file": "Passives.json",
+          "id": "999907"
+        }
+      ],
+      "note": "Names follow paired Canto IX part 1/3 records. Valencina follows the enemy record; the guide aliases for Palermitan Rapier / The Cleaving Blade and Shin use their passive IDs. The Eye passive and status have distinct official names. The opening HP reduction, NPC targeting, Eye depletion, Disposal conditions, and 320 HP ending are retained."
+    }
+  },
+  "scopedPaths": [
+    "mechanics.2.name"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "87ec54072ced1f7aefe55acd1b59394b8731fbe3640cd2cca68ca6a61924a790",
+      "text": "Lucio & Valencina (9-42)"
+    },
+    "shortName": {
+      "sourceHash": "82a3a56c4f74462330e36c56c97be139a3f0e95a3043588262fcae226984e14e",
+      "text": "Lucio & Valencina"
+    },
+    "stageName": {
+      "sourceHash": "cc3f6965e496b7343cbe0f0dd9fb9d9407bbb854f6c4c1cd166fbc4b2378e7de",
+      "text": "Ticket"
+    },
+    "lead": {
+      "sourceHash": "095770fcacf243e81360cb1a6823b8a6b75d272a346f989b1b66beb310797bfd",
+      "text": "Lower Lucio to half HP in the opening battle to bring Vergilius in. In the second half, reduce the Nursefather's Eye of Precognition before defeating Lucio. Adjust NPC targets to weaken Disposal, which cannot be redirected."
+    },
+    "listLead": {
+      "sourceHash": "c5ca3c92864411b69d03beaa0f107f8ffb4c8f4217a884c1d4fd12fb1ea25bb1",
+      "text": "Reducing the opening Apprentice to half HP brings allied reinforcements. Later, reduce the Nursefather's Eye of Precognition before killing the Apprentice. Adjust NPC targets and weaken Disposal, whose target cannot be changed."
+    },
+    "statNote": {
+      "sourceHash": "9adf3d66ea227dd5cb3af8cb8d1e32f88863eb09e8972ff3d22b88610dfdb88c",
+      "text": "Heathcliff, Rodion, and Gregor are required. Lucio starts missing 20% of his 1,588 max HP. Reinforcements arrive at 794 HP; Valencina enters with 3,204 HP, 30 SP, 30 Eye of Precognition, and 10 Acceleration Round. Her ending event triggers at 320 HP. Treat Eye-based evasion and acceleration, and NPC Shields, as changing battle effects."
+    },
+    "priorities.0": {
+      "sourceHash": "7863317fd597397fc7fef6c5d0d945b0a4b8b3d9284c24be8eef03cc26966a8a",
+      "text": "Win other clashes before Lucio's major attack to lower its Power and Atk Weight."
+    },
+    "priorities.1": {
+      "sourceHash": "556107ac9fe969a41141c11ca6993766b71c28c726d78c761e70f13874785c77",
+      "text": "After reinforcements arrive, direct Vergilius toward the Nursefather to reduce Eye of Precognition."
+    },
+    "priorities.2": {
+      "sourceHash": "51b5e25cdc58cb5deafc784237da2ec19df81876dd35cf0b56b55d0b304540ef",
+      "text": "Do not defeat Lucio and trigger Disposal while Eye of Precognition remains high."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "ec957299030e4c26a65e46e6c7564eff11f0a34b0c3fd706400c03444cd2fc32",
+      "text": "Defeating Lucio immediately leads to a wipe"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "1f3eccf1f6a81ec1f5241702e1e7edc0a89e0018fefd3d7977b51c1b5f7c1bb7",
+      "text": "Incapacitating Lucio activates Time to Hunt and brings Disposal, which scales with Eye of Precognition. Have the NPC reduce the Eye before making this transition."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "225ce7119315405a07242cb73d70ee8e1d435506ef475bb7281f7687c579e799",
+      "text": "Vergilius keeps attacking Lucio"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "e53e375e76c9a3708cd0295ba8d104ecc2fb2a6091fb8b67119d11f7a79df0b7",
+      "text": "Lucio draws him in through priority clashes and Assist Defense. Have Sinners take over those clashes, then check that the NPC has switched to the Nursefather's dangerous skills."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "152667675ed95b8aff1141384a786ea4f7eb3369845001277fe01ed200c30d8a",
+      "text": "A single hit breaks through the Shield"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "2baacef630d8eabe351f6d78625bef2e594e70e09ca740bf080191f1f6565259",
+      "text": "Burn and Acceleration Round greatly increase damage against Shields. A 600 Shield is not invincibility. Leave strong skills to the NPC and use healing and clashes."
+    },
+    "troubleshooting.3.symptom": {
+      "sourceHash": "87478ef729bee090615a361f46ea4adae470c407c2dd52d3c47d02f22bdd9883",
+      "text": "Precognition evades every attack"
+    },
+    "troubleshooting.3.advice": {
+      "sourceHash": "a548fd54268d5ca4ae2cd49a96151f00f8841a3374e412c028c76aee611b0ed9",
+      "text": "High Eye of Precognition raises Evade Base Power. Use the NPC's many clash rolls to trigger Overloaded; do not invite retaliation by feeding it weak attacks it can evade entirely."
+    },
+    "units.0.name": {
+      "sourceHash": "12fe4ee69f53334b6c12ce6ecbc47ab06edfc74188a0780caaf5d5afcae30eb0",
+      "text": "The Thumb Apprentice - Lucio"
+    },
+    "units.0.part": {
+      "sourceHash": "7cb141157d6d9dc7ff183834b7db29ad9f91ccb6fe364c93ea86f01328f819cf",
+      "text": "Body · Continues from the first half"
+    },
+    "units.0.hp": {
+      "sourceHash": "ecfb13cce9c473ab6c178e66659d364f19ecdb95e09e94f10c0928a3182bbe6a",
+      "text": "1,588 (starts missing 20%)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "28583a4ea69b91771ed8fbba9036173f4c65b9d38ad2bfae385cb92bd7d28ae2",
+      "text": "Has 2 Power Down for three turns. This differs from the starting state in 9-3."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "45e1cfe7b57063488bc2613e7eaf0b1b32fd87fe27dcbad75c8c560be3c3d42a",
+      "text": "At the next phase after reaching 794 HP, the Nursefather and assistant enter, and Lucio immediately recovers from Stagger."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "2b14a9d4f9c0723b91c1c432de99283470c8f7a2b1ed4beec5013414d1ecfd4f",
+      "text": "After the Nursefather enters, interferes with 3 Assist Defense and priority clashes against the NPC. Incapacitating him starts the Disposal phase."
+    },
+    "units.1.name": {
+      "sourceHash": "b60e0a78256ef5fb5d2d317e5a67a14b8736b54aa9a1aa56d39220428ec0c97e",
+      "text": "The Thumb Nursefather - Valencina"
+    },
+    "units.1.part": {
+      "sourceHash": "d9bc88128c9e5b431c80df756606dfbd89265d043578add95742ecf9d567aab2",
+      "text": "Body · Joins mid-fight"
+    },
+    "units.1.speed": {
+      "sourceHash": "2c511a46eeeaf12747427dc4c24107536b7d51f05bf3020b4a79ddee9f56fe54",
+      "text": "2–5 / Speed 1 on Disposal turns"
+    },
+    "units.1.stagger": {
+      "sourceHash": "f715e444c291a331bb2933dcf6a0942a44b095e4843ed4204352f31cfe9bc7d2",
+      "text": "50% (1,602) / Cleared by Time to Hunt"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "898a57a10633420ee05450684cd5b457c0e73ff67c8349c02940fe6937949fb4",
+      "text": "Enters with 30 Eye of Precognition, 10 Acceleration Round, and 30 SP. The Eye recovers 10 at Turn Start and decreases through Overloaded."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "ac43d08a08e56460c137389372aee1db61ddff6064c941b8bf1e0b8fc0443541",
+      "text": "After Lucio is incapacitated, focuses on the Game Target and uses Disposal."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "45e056348ea05f0f2d51ccce157b88b6cde8b60889aa85bab02fc6228f98fc4a",
+      "text": "The ending event triggers at 320 HP. You do not need to reduce HP to 0."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "9f9a39ce479d1fc3fae3d82c2acca861543f79d23617756031e692a94904a48f",
+      "text": "Protect the three required Sinners and shared Ampules"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "1be73f47c5be61decb247812f61d6b89c0475e4e0da19ee0b2eb394a53560dc1",
+      "text": "Recommended Lv. 60. Level Heathcliff, Rodion, and Gregor, and bring resistance to Slash, Burn, and Tremor, plus HP/SP recovery."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "e102fdac7d5647c5df9a382ad6194cb1f6a5eb359b97098f04adc0a43b97f06a",
+      "text": "The Sinners share four K Corp. Emergency Ampule uses. Avoid spending too many in the opening battle; save a buffer for later accidents."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "496e46fc08612d3b86abd64207ca73d47c303f0e4c30840545fb9444781466ee",
+      "text": "Vergilius joins mid-battle; you lose if he dies. Unlike the LCD team, he does not use Assist Defense to cover everyone."
+    },
+    "phases.1.timing": {
+      "sourceHash": "a9ab330750222e7c5e3ecddf8835c91997beefb8ba9d21617bf56f0ab63c863c",
+      "text": "Lucio alone"
+    },
+    "phases.1.title": {
+      "sourceHash": "d0306230c20ed2998d1c2172b2a8150956395d2fdd4c7a172e974644e87aa1c9",
+      "text": "Win the other clashes first to weaken the major attack"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "298058b813a26590b0169cf483c23c3141c10d702324c67880f1702be1a92f2b",
+      "text": "Sezionatura di Cervo appears from the opening turn. It cannot be redirected, so the targeted Sinner must handle it."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "40549a1c4a8a2b6998c55d58df2001740d63e78198c431e572b30b6b5923a179",
+      "text": "Each earlier clash win against another attack lowers the major skill's Final Power by 2 and Atk Weight by 1, to a minimum of 1. Check action order so other slots resolve before its clasher acts."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "69b1ef5b8479fa9b949ae2b42955f84eb7657a7f719d71f9f022b5cf372a4e99",
+      "text": "Repeated clashes between Lucio and the same Sinner build The Duel Escalates. Rotate clashers while lowering him to 794 HP to bring in reinforcements."
+    },
+    "phases.2.timing": {
+      "sourceHash": "539c12a3b6a8ae153329ffb3953a09981379e27f93c156a80e03da153a30aef7",
+      "text": "Vergilius and the Nursefather enter"
+    },
+    "phases.2.title": {
+      "sourceHash": "e6d9417ea968c2bd0404ef9851907970d0f82cb32abb9d22a87308d9317c70d3",
+      "text": "Direct the NPC toward the Nursefather and reduce the Eye first"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "49e6063ef8198d2f221159dd40aa84d159512db601269051e4d00bda99c545ab",
+      "text": "Lucio interferes through priority clashes with the NPC and Assist Defense. When Sinners take over clashes against Lucio or weaker skills, The Guide changes the NPC's targets. Check that he actually handles the Nursefather's dangerous skills."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "c65c4b292226e3074e972fe01f44b42066961edcbc5835773e55745f50ca218c",
+      "text": "Do not focus only on finishing Lucio at this stage. Have the NPC reduce the Nursefather's Eye of Precognition so you can handle Disposal when it appears."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "6dbdaa67185f47989905fe736c5751e27b5baaea22b43c3ab9dbd27f4c6aacc3",
+      "text": "Vergilius's 600 Shield is insurance. Burn and Acceleration Round can break through it, so have Sinners stop remaining regular skills and keep healing."
+    },
+    "phases.3.timing": {
+      "sourceHash": "46302ca212dc807151683dd637171af8c8f7b6d01c298b3eaf75aa321e16d082",
+      "text": "While Eye of Precognition is high"
+    },
+    "phases.3.title": {
+      "sourceHash": "c8731d164a52c34346fc8dde6e8d3b82e1e7c7208e077e8aea957b886977b727",
+      "text": "Reduce it through Overloaded to weaken Evade"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "748fa31e8ad39572d1b7e8dc4232285e3b114bec40d86a22f5647e3b7cf9ea4d",
+      "text": "Each Eye stack raises Disposal's Base Power and damage. Taking it with all 30 remaining is dangerous even after a clash win."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "8c50c9fc3dfa62dedc2b1dd5c374e8d347456205bb47cc34fb75e1e670da7a83",
+      "text": "Once clashes fill Accelerating Future to its cap, each further clash roll reduces the Eye by 1. It also loses 1 when attacked unopposed and 3 on a clash loss. Use the NPC's many clashes."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "51e320959d1a664164b556b626405cccd0c0d79365c51592542a2251e052a380",
+      "text": "With the Eye active, an additional Evade triggers. Evading every Coin leads to an unopposed retaliation, so do not pile on weak attacks. If possible, help reduce it with high-Power skills or Counters."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "d4e1227b7a01887d56ef23e5f8b4c4f83e3b4b57af59c0d3e65bf65e61d548a1",
+      "text": "At 0, it changes to Overheat. However, it gains stacks at Turn Start and returns to Eye of Precognition at 30. Evade is not permanently removed."
+    },
+    "phases.4.timing": {
+      "sourceHash": "aa8afb096331b1b2608316980a5a519d89a7a085eb19263831368fde0e4cef57",
+      "text": "After Lucio is incapacitated"
+    },
+    "phases.4.title": {
+      "sourceHash": "de5e89be96f774d7824ca2052cd2225c2d22ac9eaf3bcdc3c1e2abbb05c287a6",
+      "text": "Reduce the Eye further before Disposal"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "351260f758af9e6f4be0bd9728a388f5b0667cb9bae0e441b186f131e79b9d9d",
+      "text": "The Game Target has Speed 1 and is targeted by Disposal, which cannot be redirected. Another Sinner cannot forcibly take it over."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "36f204b6efcb2fd40c0285b94055af7f64f5960d1a6c7e465319c2906ee2b5aa",
+      "text": "The Nursefather also has Speed 1 on Disposal turns. Resolve clashes against her other skills first to reduce the Eye as much as possible, then have the target use a strong skill. Heal the target beforehand."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "11e6b981996574d6212232d5f331b7f4bf6b3c70a6f01016844407d30ed7bc17",
+      "text": "Even a clash win's halved damage and disabled critical hits leave five Unbreakable Coins, Burn, and Tremor Bursts. If the target dies, another Game Target appears next turn; avoid a chain of casualties."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "08ec0c0eeb59f543e95f99ba001613918a3e6f16a7bdaa349078c176ffd3dbda",
+      "text": "Maintain NPC damage and support until the Nursefather's ending event at 320 HP."
+    },
+    "skills.0.name": {
+      "sourceHash": "646f420ad53cb45c553df58e2b62410c32d7929ce038b50df0370c8c0b262e5d",
+      "text": "La Spada di Palermo"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "3403562ddea4ef7ccc1cc324681d674ee7059e5dafdae38a98d73b37e74977ee",
+      "text": "If the target has 6 or more Tremor, Clash Power +1"
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "3c2da9ebc6a7d84d68b87aa408901c6424febc6516c788efdcce46b34a37bb9b",
+      "text": "Ⅱ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.0.response": {
+      "sourceHash": "3e5d3a545ff2457052f80fda78f7953cbd7ad9a6f5c3eba664dd7b899adf70bf",
+      "text": "Gains Clash Power against targets with at least 6 Tremor. Rotate clashers to avoid building The Duel Escalates on one Sinner, and win early to weaken the major attack."
+    },
+    "skills.1.name": {
+      "sourceHash": "e778b70ea89d85e31b023aa9e982ceca50ed03e6a8310ce8917f1d755eda679a",
+      "text": "Colpi Sottani"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "66f69616baa0900466b9fb3a5b058453b3e44d667d4759092ee1f69d538794c7",
+      "text": "Base Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "e5db2f8e830c43d7978da151fa9c6a04b1e0a6181aaa337831ad04ba5363a69d",
+      "text": "Ⅰ[On Hit] Tremor Count +2"
+    },
+    "skills.1.effects.2": {
+      "sourceHash": "ea2d5486479a48d8b4bfd29652a4d28ee2d693a9965df5c3e3e823371901a9a0",
+      "text": "Ⅱ [On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.1.effects.3": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.1.effects.4": {
+      "sourceHash": "8730da8fed1c2154643a6bb59dfbb682eb334896d7794b4dfd714636b1c76489",
+      "text": "Ⅲ [On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.1.effects.5": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.1.response": {
+      "sourceHash": "2ee4fc3e597bca21d417295ab9ad4ba8e9f69a2525e8dc56873ef7eb31c6f003",
+      "text": "A three-Coin skill whose Base Power scales with Burn and Tremor. Winning before the major attack lowers its Final Power and Atk Weight that turn."
+    },
+    "skills.2.name": {
+      "sourceHash": "40de2a9124291a38bd3107256619a50f8af07fc58b65835037fd44da32140c37",
+      "text": "Il Cacciatore"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "a439407d601a01cc49a2252826545222f6352b838db5ae6d80548a4e3e784fe1",
+      "text": "Coin Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "072592528f2ecb46aa25dfdb43cb1b6faed714c8568fa57c3548ab18f0d21903",
+      "text": "[On Use] If the target has The Duel Escalates, convert all Coins of this skill to Unbreakable Coins"
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "47cfc34adcc96c2cccfa901262b28e58a0b8d41b0fc122768c36555468128529",
+      "text": "Ⅱ [On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.2.effects.4": {
+      "sourceHash": "2255a09039c32af57edbdf0ab95b633455444489a10b1674bfb4af7f40235cae",
+      "text": "[On Hit] Inflict Amplitude Entanglement into Tremor - Scorch"
+    },
+    "skills.2.effects.5": {
+      "sourceHash": "d975a03c951528d7b5fe8646c94f133063cf9b0d6f27b9004398120767c96f65",
+      "text": "Ⅲ[On Hit] Trigger Tremor Burst. Reduce the target's Tremor Count by 1"
+    },
+    "skills.2.effects.6": {
+      "sourceHash": "cf8363653085213a40187c737ac52ea027575b051bf9df8398a859016f858046",
+      "text": "[On Heads Hit] Gain 2 Haste next turn"
+    },
+    "skills.2.response": {
+      "sourceHash": "dee5a8e16628554a5abd1335f2cf5cd94c7ea0eeda0e97f3cb3c44ca355dd701",
+      "text": "All Coins become Unbreakable when used against a target with The Duel Escalates. Check the clasher's stacks rather than relying only on base Coin icons."
+    },
+    "skills.3.name": {
+      "sourceHash": "ffa4e2f499e2432bf70f508201f77a5bcc17a7b3e72d2580f37447b6c61cddf7",
+      "text": "Sezionatura di Cervo"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "1abd43ccad73cf99886758bd7e83b25910dec69640b46352496137c05a7c0cd4",
+      "text": "For each Attack Skill that lost a clash this turn, Final Power −2 and Atk Weight −1 (Atk Weight cannot fall below 1)"
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "3330e56cb0c858a8fb9125d9803b4e61623d2fd73d7417f3ab7c661050143f6c",
+      "text": "[Clash Lose] Deal 90% less damage; this damage cannot Stagger"
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "687a6e6a64e676a98d58b5765acbae4f0077726a6a168b0f56dddbaacdf992eb",
+      "text": "[Clash Lose] Lose 15 SP and gain 6 Offense Level Down next turn"
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.3.effects.9": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.3.effects.10": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.3.effects.11": {
+      "sourceHash": "c6556dd79b9e07d3e31f07b7b09ae215dcbe7b7f1df104ecdbc2c1920c667918",
+      "text": "[On Hit without Coin Destruction] Inflict Amplitude Entanglement into Tremor - Scorch"
+    },
+    "skills.3.effects.12": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.3.effects.13": {
+      "sourceHash": "e13277749b2df8c37cc0f5aae416d836e612e8a1330e1629046050fa6bca0352",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 2 times. Reduce the target's Tremor Count by 2"
+    },
+    "skills.3.effects.14": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.3.effects.15": {
+      "sourceHash": "e13277749b2df8c37cc0f5aae416d836e612e8a1330e1629046050fa6bca0352",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 2 times. Reduce the target's Tremor Count by 2"
+    },
+    "skills.3.label": {
+      "sourceHash": "4a54af26fee5f85c65770667fbef09798cceb66ae94905d283a154b9ee4f5448",
+      "text": "Cannot be redirected; Atk Weight varies with conditions"
+    },
+    "skills.3.response": {
+      "sourceHash": "d3ccb414ef9bbb6862aebd09405ce91b48eb08feeeb84f8d1370e03b4346ce7e",
+      "text": "Four Unbreakable Coins; cannot be redirected. Each earlier clash win against another attack lowers Final Power by 2 and Atk Weight by 1 (minimum 1). Resolve the targeted Sinner's attack last and win for 90% damage reduction."
+    },
+    "skills.4.name": {
+      "sourceHash": "3fe0f728ac65e078931e768b8ff7878b42b7dbedb5a0aa5c1fe353c0a7d681a0",
+      "text": "Measuring Blade Reach"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "89d6ea60844523409ce484e47e1fcc4aeb34b1b8a9fa1de328612a798a07e30c",
+      "text": "[Clashable Counter]"
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "c1600f45cf9bf88d4cec281a70a4236fb54ae4875886b5272d828cc6c9a44f0b",
+      "text": "If the target has at least 2 The Duel Escalates, damage +30%"
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "7d7d41539fc908a5a1c9bcdfd1b12e8158ba3225d122853db46c786254d7643f",
+      "text": "[Clash Win] Inflict 1 The Duel Escalates on the target"
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "643a22001f492fe87cbe7a15fbd182fa58e0ff1e10ea54722adb606fa315e15b",
+      "text": "Ⅰ[On Hit] Inflict 2 Tremor"
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "47cfc34adcc96c2cccfa901262b28e58a0b8d41b0fc122768c36555468128529",
+      "text": "Ⅱ [On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.4.response": {
+      "sourceHash": "13228f1b583aaae50d89d12539f5d5b9125761c114550979dadc77d840a75143",
+      "text": "A Clashable Counter. Beating it early also weakens the major attack, but avoid concentrating The Duel Escalates on one Sinner."
+    },
+    "skills.5.name": {
+      "sourceHash": "adea13789413619db0a10f066e614d575b7b89d80fff5b929ce98aa121f841f0",
+      "text": "I Will Protect."
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "9ad794b6f50ea0a9af69be33787291e048073b4397088cbf238474dd769da7a1",
+      "text": "Clashable Guard"
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "9b493a0b8efb3fa95af4074d60ebbc98d3d9fe1a6e76b7186f1b4141488d5862",
+      "text": "Assist Defense skill only"
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "dfbc3ccb66fec0a7d7cfb477a8a8ed21cbbebe01a24d2b2f64ae7dc75e811fbf",
+      "text": "Damage taken −20% per Assist Defense stack"
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "9253963344696c314843b5fe5ca9568801e5121d0b677a932bce09222db23c5b",
+      "text": "[On Use] Heal allies for 8 SP"
+    },
+    "skills.5.effects.4": {
+      "sourceHash": "307cacb310174ac76eebf19493125b5924b9a2ec27c8edd1cb2f75cfe37156d7",
+      "text": "[Clash Lose] Gain 1 Fragile next turn."
+    },
+    "skills.5.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.5.label": {
+      "sourceHash": "d72a8cac7eaf7f9f2a9a901bea6ee310a6bcfac8e4f9cc1612593e4705b7b7e1",
+      "text": "Clashable Guard · Assist Defense only"
+    },
+    "skills.5.response": {
+      "sourceHash": "24833edd1352ee56565ecd91203ea336bad86290dd1d0d8d4b01d7f877cfa354",
+      "text": "A Clashable Guard used only for Assist Defense. Have Sinners take over Lucio's clashes so he does not keep intercepting Vergilius's attacks."
+    },
+    "skills.6.name": {
+      "sourceHash": "d08ebae465949cff443b3bb1c2cf03e62f53882b77d0609f186bc95ad0139096",
+      "text": "Colpi di Taglio"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "e29a69ba6e17677b8088111a115fa9e33b6bda94362c2e07ef36ac0f4531ec77",
+      "text": "If the target has 6 or more Tremor, gain +1 Clash Power"
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "2340c71f5b8c931d5b4572783d4709bfcb003a77be03e0940097ac7d3d6794ff",
+      "text": "Ⅰ [On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.6.effects.4": {
+      "sourceHash": "bf8cc1877953af2141d6092b365ed081081b764d4805d9eaefe8aa128012c0ca",
+      "text": "Ⅱ [On Hit] Inflict 2 Burn"
+    },
+    "skills.6.effects.5": {
+      "sourceHash": "fe74e7ad94f0768c02044975562d3e0935580d9397526c340604bf38fdd0462c",
+      "text": "[On Hit] Inflict 2 Tremor"
+    },
+    "skills.6.effects.6": {
+      "sourceHash": "9f371107cbaef5444158de51808e8e413a2bb81343b730cee2929e8a25f533a0",
+      "text": "[On Hit] Deal Wrath damage equal to the target's Burn Potency"
+    },
+    "skills.6.response": {
+      "sourceHash": "5b02ce4c364032599486d9de5de06746327ace28a5093b74413a4cbbb54b5af9",
+      "text": "Even this regular two-Coin skill gains strength through Burn, Tremor, and Poise. Keep the dangerous skills assigned to the NPC and have Sinners handle regular skills they can take."
+    },
+    "skills.7.name": {
+      "sourceHash": "a1f309a755c7bd3c100d0fab6548c1b490f775461ce20a382d00902c49e7c5a0",
+      "text": "Colpo di Punta"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "f8092045c837328485b46bcd4cd06bcf3861a649a4b44375b89468c3b3493cf9",
+      "text": "[On Use] Base Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "588ce3f21fb3afe9059f1ee6c8f46e68b762a3638615f71e9de06705072f8a9a",
+      "text": "[On Use] Gain 2 Poise Count"
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "a96785db625a58e9fe88ff63c5d02c21059029a428d9ffadecb28a0bc851c471",
+      "text": "Ⅰ Consume Acceleration Round"
+    },
+    "skills.7.effects.4": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.7.effects.5": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.7.effects.6": {
+      "sourceHash": "ebbb2ee16c0e9fb11ea88518f633acb8b71db6926d14e5b83ee0b03a079e0d71",
+      "text": "Ⅱ Consume Acceleration Round"
+    },
+    "skills.7.effects.7": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.7.effects.8": {
+      "sourceHash": "0d65b7b7920940e91398c5d864cd336b3c21149fe80526398b32f5b7093bd37b",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.7.response": {
+      "sourceHash": "dbc60dba320d9150dd20f75bced1d73a78a7062f14a57938145b6e1c52a85c18",
+      "text": "Both Coins consume Acceleration Round. With rounds and Burn present, damage against Shields is also high. A 600 Shield alone does not guarantee safety."
+    },
+    "skills.8.name": {
+      "sourceHash": "89422e1059fa5c074e4c4f3516a898dcb92b9c864dd315b8278057ce2c001ae9",
+      "text": "Sezionatura di Coniglio"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "f8092045c837328485b46bcd4cd06bcf3861a649a4b44375b89468c3b3493cf9",
+      "text": "[On Use] Base Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "86092b17e999b8bc0f4fca325ba94277b4a4a1eecc0e15e32bc343c3f13b89dd",
+      "text": "Ⅰ [On Hit] Inflict 3 Burn and increase Burn Count by 3"
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "aae4667d2a3d3ec28d04b36f29e188d33de948142f6e5e7dff58ce8b488ed519",
+      "text": "[On Hit] Inflict 3 Tremor and increase Tremor Count by 3"
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "eb2f4458e5d4d8e05ab1cdcebfee6075dac33c4f7b267a2043213c04a7b982af",
+      "text": "[On Hit] Inflict Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.8.effects.5": {
+      "sourceHash": "96917e32510ea22345fa743e39061c05fd1c534cb8d645c60bc1bf0818c7ee8a",
+      "text": "Ⅱ [On Hit] Deal Wrath damage equal to the target's Burn Potency"
+    },
+    "skills.8.effects.6": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.8.response": {
+      "sourceHash": "63038c3ce5826b213e136bb40574c358d735c135661b65a35de222f73ffe7ebc",
+      "text": "Inflicts Burn and Tremor and triggers Tremor Burst. Ignoring it sets up later Stagger and stronger major attacks. Stop it with a Sinner who can spare the action."
+    },
+    "skills.9.name": {
+      "sourceHash": "ffa4e2f499e2432bf70f508201f77a5bcc17a7b3e72d2580f37447b6c61cddf7",
+      "text": "Sezionatura di Cervo"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "a439407d601a01cc49a2252826545222f6352b838db5ae6d80548a4e3e784fe1",
+      "text": "Coin Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "19285afe84ec365349fb2ae1e092132438b71562bb0f977b2daf94c35ed1d407",
+      "text": "[On Use] If SP is 0 or higher, generate 1 Mang"
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "3798bba251e8aec3fddb0b8f35ab7b6e9bf9ada419f1f0dc52bb8bf7b89e1e1c",
+      "text": "- Base Power +4"
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.9.effects.5": {
+      "sourceHash": "2566bae8cd9d05725cfc6ac1c7e72af0aac2aea712c8780213809c47026f1b29",
+      "text": "[Clash Win] Gain 5 Poise"
+    },
+    "skills.9.effects.6": {
+      "sourceHash": "3b1588c100c62f27da99b8e8e5d2e984b91d43c2f891f529de443c1c3d2b3996",
+      "text": "[After Attack] If Mang was generated, consume 10 SP"
+    },
+    "skills.9.effects.7": {
+      "sourceHash": "70ff8130ef7f66aa8a10cc68076115023ac18279bae2740db43dc8ad760f6a28",
+      "text": "Ⅰ [On Hit] Inflict 3 Burn"
+    },
+    "skills.9.effects.8": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.9.effects.9": {
+      "sourceHash": "7dafee1221dad126c2dfb700ba437b4441879e209c9c99eadab4506bb62df239",
+      "text": "Ⅱ [On Hit] Inflict 3 Tremor and increase Tremor Count by 3"
+    },
+    "skills.9.effects.10": {
+      "sourceHash": "eb2f4458e5d4d8e05ab1cdcebfee6075dac33c4f7b267a2043213c04a7b982af",
+      "text": "[On Hit] Inflict Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.9.effects.11": {
+      "sourceHash": "8aabe710283a63bda3343273c4bd42e2467f17acdcf8e5c1ce3f5436f1a87833",
+      "text": "Ⅲ [On Hit] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.9.effects.12": {
+      "sourceHash": "c61faeb06c33dc5cb529301f08b6e13f47df2482c5fd9059bfc2830dca97f0af",
+      "text": "[On Crit] Trigger Tremor Burst once; reduce the target's Tremor Count by 1"
+    },
+    "skills.9.response": {
+      "sourceHash": "7d9731854d1fa48d4b82fd05c848476fdf8cdbed73d4dc7491b4669dada33c6a",
+      "text": "A single-target three-Coin skill distinct from Lucio's same-named skill. Also gains +4 Base Power at 0 or more SP. Assign a strong predicted winner or Vergilius."
+    },
+    "skills.10.name": {
+      "sourceHash": "2cda6725f3b348ce8cc4777abc6ee805c7783ee4514d4cbc1398cd70c6d94060",
+      "text": "I'll Gladly Blast a Hole Through You"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "a439407d601a01cc49a2252826545222f6352b838db5ae6d80548a4e3e784fe1",
+      "text": "Coin Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.10.effects.3": {
+      "sourceHash": "a96785db625a58e9fe88ff63c5d02c21059029a428d9ffadecb28a0bc851c471",
+      "text": "Ⅰ Consume Acceleration Round"
+    },
+    "skills.10.effects.4": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.10.effects.5": {
+      "sourceHash": "8ffb7bf31b683f6ff5f15e72bcaff1ae08ddef12f364797d7c36fca182b9ee71",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.10.effects.6": {
+      "sourceHash": "ebbb2ee16c0e9fb11ea88518f633acb8b71db6926d14e5b83ee0b03a079e0d71",
+      "text": "Ⅱ Consume Acceleration Round"
+    },
+    "skills.10.effects.7": {
+      "sourceHash": "1a8e7a0a74cb4dccf342f6038371d8410c1e543b69032760a416f09ead986be6",
+      "text": "[On Hit] Inflict 2 Burn and increase Burn Count by 2"
+    },
+    "skills.10.effects.8": {
+      "sourceHash": "8ffb7bf31b683f6ff5f15e72bcaff1ae08ddef12f364797d7c36fca182b9ee71",
+      "text": "[On Hit] Inflict 2 Tremor and increase Tremor Count by 2"
+    },
+    "skills.10.effects.9": {
+      "sourceHash": "a3c71cdd95b25a79df82d14d5975636cf84f0fef24688003e125ea6b02349f3a",
+      "text": "Ⅲ [On Hit] Deal Wrath damage equal to the target's Burn Potency"
+    },
+    "skills.10.effects.10": {
+      "sourceHash": "6ca722e2ecbff51bda9860c69cfceca30264a82d1afe3f4ad3bd5591dd73a086",
+      "text": "[On Hit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.10.effects.11": {
+      "sourceHash": "c6751c627adac2607526dadadda17c2548164ad630af6c6c5964c261e90b7a8d",
+      "text": "[On Crit] Trigger Tremor Burst; reduce the target's Tremor Count by 1"
+    },
+    "skills.10.response": {
+      "sourceHash": "922e5aa729ee61850da02412cac4b19c84d9975a38681dac72b6b29a67348877",
+      "text": "A three-Coin skill strengthened by Burn, Tremor, and Poise. While reducing the Eye, still check your HP and Tremor when assigning its clasher."
+    },
+    "skills.11.name": {
+      "sourceHash": "e4a0354b9622aaca14690d3ac4bcfda768e69a969ce8458112291399369ee05f",
+      "text": "Sezionatura di Elefante"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "798c342fdde9af3db1f83cca7dc37166339f6d19515a4e1a93b8aac562543fca",
+      "text": "If the user has 6 or more Poise, Coin Power +1"
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "a439407d601a01cc49a2252826545222f6352b838db5ae6d80548a4e3e784fe1",
+      "text": "Coin Power +1 per 4 combined Burn and Tremor on the target (max 2)"
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.11.effects.3": {
+      "sourceHash": "2d04887d76454a5b3c81e1bad279d6269dd2742834add5d077e86d843e7b7167",
+      "text": "[Clash Lose] Final damage −50%; cannot trigger critical hits"
+    },
+    "skills.11.effects.4": {
+      "sourceHash": "8132e9e8d088d347fdd31f7ef1edb17086f34a7f96a5a9e4c11d5c6edaaf591b",
+      "text": "This skill's damage cannot Stagger its target"
+    },
+    "skills.11.effects.5": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.11.effects.6": {
+      "sourceHash": "3528a35d91615bdbdeae710178ae5f1493d7ce1346dce66228835e8562fa1e25",
+      "text": "Consume Acceleration Round"
+    },
+    "skills.11.effects.7": {
+      "sourceHash": "0305c88651e7498c746ba2c751ebd4c86eb698007a1ec4e5737bd277f4073ddc",
+      "text": "[On Hit] Inflict 4 Burn"
+    },
+    "skills.11.effects.8": {
+      "sourceHash": "a7742a01fb6e5f237e122c30ca43a43364565b43391496e0fe554cb58cf18145",
+      "text": "[On Hit] Inflict 4 Tremor"
+    },
+    "skills.11.effects.9": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.11.effects.10": {
+      "sourceHash": "3528a35d91615bdbdeae710178ae5f1493d7ce1346dce66228835e8562fa1e25",
+      "text": "Consume Acceleration Round"
+    },
+    "skills.11.effects.11": {
+      "sourceHash": "5202e8880f40cbffbcba4c98246899b88ad05fec1013a7fad7e9e1e375b960f6",
+      "text": "[On Hit] Increase Burn Count by 4"
+    },
+    "skills.11.effects.12": {
+      "sourceHash": "5c99f6582e30eebabfeee6577050f305d5c0483adeb76472d84d2fc87ed92ef1",
+      "text": "[On Hit] Increase Tremor Count by 4"
+    },
+    "skills.11.effects.13": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.11.effects.14": {
+      "sourceHash": "3528a35d91615bdbdeae710178ae5f1493d7ce1346dce66228835e8562fa1e25",
+      "text": "Consume Acceleration Round"
+    },
+    "skills.11.effects.15": {
+      "sourceHash": "0c5c783d332198f59f1350e1b468ec82f675c4710c2ed7789d6140d0fc3d3066",
+      "text": "[On Hit Without Coin Destruction] Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.11.effects.16": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.11.effects.17": {
+      "sourceHash": "9f371107cbaef5444158de51808e8e413a2bb81343b730cee2929e8a25f533a0",
+      "text": "[On Hit] Deal Wrath damage equal to the target's Burn Potency"
+    },
+    "skills.11.effects.18": {
+      "sourceHash": "280bf7a6ab4e3b4a40e2df5382fa526ce65abfca7014aa0f5035b9722237747a",
+      "text": "[On Hit] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.11.effects.19": {
+      "sourceHash": "0abe7c4c1842153cf347810a4202c66af59ad51a7c743f171916db9e9116195e",
+      "text": "[On Crit] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.11.response": {
+      "sourceHash": "030c133f03bcc8ded0255cfaaa19c22cae2998d2b792371eac5ab19ae45ac662",
+      "text": "Four Unbreakable Coins. Winning halves final damage and prevents critical hits, but Burn and Tremor Bursts remain. Use advance healing and NPC assignments."
+    },
+    "skills.12.name": {
+      "sourceHash": "c84618b2940da0d8a351833449f888f3d29f70abf7ad71382a483e95b019d1a5",
+      "text": "Disposal"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "528ca7fd5516dec004e3ca24868cfc3bdc714dffddc2392e29641ff93ace6c23",
+      "text": "[Cannot be redirected]"
+    },
+    "skills.12.effects.1": {
+      "sourceHash": "d30a6ae8beb28d6ea9b0f71ff369fd79cf36a6cd060156cf7314d637c9e70b05",
+      "text": "Cannot be Staggered until this skill is used"
+    },
+    "skills.12.effects.2": {
+      "sourceHash": "8a6aa14226fb1a9eb54af82366ad63f08899d1bd89256e57682e336c90d82f04",
+      "text": "Base Power +1 and damage +10% per Eye of Precognition stack"
+    },
+    "skills.12.effects.3": {
+      "sourceHash": "39661195a49024a262cc4fec9ad59430d0f107e0724e752e51692d7edd66e7c3",
+      "text": "[On Use] If the target's current HP is at 50% or less, damage +100%"
+    },
+    "skills.12.effects.4": {
+      "sourceHash": "19285afe84ec365349fb2ae1e092132438b71562bb0f977b2daf94c35ed1d407",
+      "text": "[On Use] If SP is 0 or higher, generate 1 Mang"
+    },
+    "skills.12.effects.5": {
+      "sourceHash": "3798bba251e8aec3fddb0b8f35ab7b6e9bf9ada419f1f0dc52bb8bf7b89e1e1c",
+      "text": "- Base Power +4"
+    },
+    "skills.12.effects.6": {
+      "sourceHash": "72c8860d99b0dc23f4a740d5226f27c87ebb7c209fa3af2081c7de798bf3125d",
+      "text": "[On Use] Gain 3 Poise Count"
+    },
+    "skills.12.effects.7": {
+      "sourceHash": "4ea50c6d89ffbee0e5ee2018f8c4624e716fb93e00805dfe04116754bf32b66a",
+      "text": "[Clash Win] Gain 5 Poise."
+    },
+    "skills.12.effects.8": {
+      "sourceHash": "2d04887d76454a5b3c81e1bad279d6269dd2742834add5d077e86d843e7b7167",
+      "text": "[Clash Lose] Final damage −50%; cannot trigger critical hits"
+    },
+    "skills.12.effects.9": {
+      "sourceHash": "649df9fc5fc5d40dc09acc37381be47ec0ee0675ebf85ff5632d3f912fc1d6a7",
+      "text": "The target cannot be Staggered by this skill's damage"
+    },
+    "skills.12.effects.10": {
+      "sourceHash": "9614316ca7077931cc5d29b834f94ae70425b80fd4c88b1969a5fe09d0f1c83c",
+      "text": "[On Kill] At the start of the next turn, apply Game Target to one random Sinner"
+    },
+    "skills.12.effects.11": {
+      "sourceHash": "1ae282b9891bf131856a601bf63436edd57407287d29360bd229d26fe80b1228",
+      "text": "[After Attack] Reload (once per turn)"
+    },
+    "skills.12.effects.12": {
+      "sourceHash": "3b1588c100c62f27da99b8e8e5d2e984b91d43c2f891f529de443c1c3d2b3996",
+      "text": "[After Attack] If Mang was generated, consume 10 SP"
+    },
+    "skills.12.effects.13": {
+      "sourceHash": "6c98b7818ca0a227344bd328b3b2e103c312d7194b26e1b402e3f4bea08e377a",
+      "text": "ⅠUnbreakable Coin."
+    },
+    "skills.12.effects.14": {
+      "sourceHash": "58117cbc3cad6a5c40c7df9df1ce57c067d3870c4904f717d92e5f013906729b",
+      "text": "[On Hit] Inflict 3 Burn"
+    },
+    "skills.12.effects.15": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.12.effects.16": {
+      "sourceHash": "0c99fb2f4ea8995a49e2e88540a63e66c14d7e7df1ea06682872a1f4294df6c8",
+      "text": "ⅡUnbreakable Coin."
+    },
+    "skills.12.effects.17": {
+      "sourceHash": "58117cbc3cad6a5c40c7df9df1ce57c067d3870c4904f717d92e5f013906729b",
+      "text": "[On Hit] Inflict 3 Burn"
+    },
+    "skills.12.effects.18": {
+      "sourceHash": "41784932d6e6b4d95d326ab9ef5ef879feace84ed90cc712250f8cbc7a357619",
+      "text": "[On Hit] Inflict 3 Tremor"
+    },
+    "skills.12.effects.19": {
+      "sourceHash": "6f76814c1da8d7461bff8e1161e5fec19eccf316ab7808e954c10fc5c6664eac",
+      "text": "ⅢUnbreakable Coin."
+    },
+    "skills.12.effects.20": {
+      "sourceHash": "a2639e8b2845a3a4c0adc3c55187209a1a5f8d1622207599dd74e03e92a77680",
+      "text": "[On Hit] Burn Count +6"
+    },
+    "skills.12.effects.21": {
+      "sourceHash": "8f648c081db22232299d4d5554748f08c2bbc48254f917ec1ce7da07f8ca70c0",
+      "text": "[On Hit] Tremor Count +6"
+    },
+    "skills.12.effects.22": {
+      "sourceHash": "5d33c504948ef55930626ab8314331c4c9b0d72a86d1665c29fd9f0917b320f9",
+      "text": "ⅣUnbreakable Coin."
+    },
+    "skills.12.effects.23": {
+      "sourceHash": "0c5c783d332198f59f1350e1b468ec82f675c4710c2ed7789d6140d0fc3d3066",
+      "text": "[On Hit Without Coin Destruction] Amplitude Conversion into Tremor - Scorch"
+    },
+    "skills.12.effects.24": {
+      "sourceHash": "5619575d633111311db2365d452d1dd756dffed78cc31600b41a64824f2dc47e",
+      "text": "ⅤUnbreakable Coin"
+    },
+    "skills.12.effects.25": {
+      "sourceHash": "da88ef4614b0cb14442c81e8698ab08545af71496d4ce0792ef48bc25aa55306",
+      "text": "Consume all Acceleration Round"
+    },
+    "skills.12.effects.26": {
+      "sourceHash": "83674b2f3969564a6e77339cf57345e2b29a1499ea00562c21aef60ec30a7bdd",
+      "text": "[On Hit Without Coin Destruction] Trigger Tremor Burst 3 times. Reduce the target's Tremor Count by 3"
+    },
+    "skills.12.effects.27": {
+      "sourceHash": "0abe7c4c1842153cf347810a4202c66af59ad51a7c743f171916db9e9116195e",
+      "text": "[On Crit] Trigger Tremor Burst twice; reduce the target's Tremor Count by 2"
+    },
+    "skills.12.label": {
+      "sourceHash": "7311f035f334156dfc35f256d7c113c5d87431dab97d894f29ee584b724a8d40",
+      "text": "Cannot be redirected"
+    },
+    "skills.12.response": {
+      "sourceHash": "cf55da15e89d2cd27fe98316dabcf03c2020672648947fab8761f64f47880b0a",
+      "text": "Five Unbreakable Coins; cannot be redirected. Each Eye stack grants +1 Base Power and +10% damage. Start reducing the Eye before defeating Lucio, then resolve the other skills first on this turn too. Heal the target beforehand."
+    },
+    "skills.13.name": {
+      "sourceHash": "818478f6fdb53d3561fa4fe102693ac16b9d4791d658d6d63a4a747fc9a05f05",
+      "text": "Precognition"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "9145caf4ca2b8cebdfc3e1c5cdb933f902582bcff09d0c3835a84dfd1266270a",
+      "text": "After successfully evading every Coin of a skill, use Sezionatura di Coniglio for an unopposed attack against the attacker"
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "bf10a880a3db092a5f5457b2ab4d1e6ff9ca5588326bd85ca411909f0bd4aeb2",
+      "text": "[On Use] Base Power +1 per 2 Eye of Precognition stacks"
+    },
+    "skills.13.effects.2": {
+      "sourceHash": "98d6a0c89cb6a7f574f4fa5bd823846678ae8bfe2002a155aa518e4a0411b0df",
+      "text": "[On Use] Reload (once per turn)"
+    },
+    "skills.13.effects.3": {
+      "sourceHash": "9e2504e8453c01fb8ae3e0972bff301727ff4048ad4a0f940f421c39e2844b86",
+      "text": "[On Evade] Gain 3 Poise (twice per turn)"
+    },
+    "skills.13.effects.4": {
+      "sourceHash": "9f7cc3c4f8aa8ea7aa9bcbf9413793ee49ea0169a3d39b41f960e5ce00ad331c",
+      "text": "[On Evade] Heal 2 SP (up to 5 times per turn)"
+    },
+    "skills.13.effects.5": {
+      "sourceHash": "cc729658414b7d5360af64269eb144a004199ac084c9a35c607dcaae35a0d8b1",
+      "text": "[On Failed Evade] Lose 5 SP"
+    },
+    "skills.13.response": {
+      "sourceHash": "615a706ed08c75e5f4d6d659dd13e5e8c88bf2df592e4f7925a05abfe2850ca2",
+      "text": "At 30 Eye stacks, gains +15 Base Power for a maximum of 28, with further conditional buffs possible. Evading every Coin leads to an unopposed retaliation, so use the NPC rather than piling on weak attacks."
+    },
+    "passives.0.name": {
+      "sourceHash": "5bb8f25854d2eca8718a230a6954245c5629548e5424f694b4a5162a2fc8ee61",
+      "text": "Grueling Battle"
+    },
+    "passives.0.effect": {
+      "sourceHash": "3712b5b514129a9a1f6d9918ff997d9b4d6a6990cbe1ee8b582492107dbfe17c",
+      "text": "Starts the battle missing 20% of max HP.\nAt Stage Start, gain 2 Power Down for three turns.\nFighting a Color will surely have made him stronger—if he survives to learn from the experience."
+    },
+    "passives.0.condition": {
+      "sourceHash": "7184213f2acbd6775879c94f2688fd17c8ff0f087239bf99842a69e4f32214b6",
+      "text": "Stage Start"
+    },
+    "passives.0.response": {
+      "sourceHash": "276569f9d927ab56c8473fc9d32f03ff5422b341d3383b881f4c30c560a94dad",
+      "text": "Lucio starts missing 20% of max HP and has 2 Power Down for three turns. Avoid spending too many shared Ampules in the opening battle."
+    },
+    "passives.1.name": {
+      "sourceHash": "437239af5a0f2b4d5d36adee99923d4bbc5dfd59120f0187f7cbb9d1af90aa7a",
+      "text": "Crumbling Form"
+    },
+    "passives.1.effect": {
+      "sourceHash": "5bb96cd36c7f225e40bfbdec0273d3a2971141fe1c3a30870a9b5b81944535fb",
+      "text": "Gain the following effects according to The Duel Escalates (effects stack):\n- Deal and take 10% more damage against its target per stack.\n- At 3 or more, gain +1 Clash Power against that target.\n- At 5 or more, gain +1 Base Power when clashing with that target.\n- At 7 or more, gain +1 Coin Power when clashing with that target.\n- At 10 or more, gain +1 Final Power when clashing with that target."
+    },
+    "passives.1.condition": {
+      "sourceHash": "d0580f1f361622c156eb32f06ff97375df24cb82e483d292e58757c871720b08",
+      "text": "The Duel Escalates stacks"
+    },
+    "passives.1.response": {
+      "sourceHash": "d935e2f864c06bab6ec8b8a62d0902ca0a26ea027fa4e0f0f07bd9b0bf76f9f3",
+      "text": "Repeated clashes against the same Sinner become increasingly dangerous. Rotate assignments and use its expiry at the end of a turn without a clash against him."
+    },
+    "passives.2.name": {
+      "sourceHash": "faf1bf58b0a9f88e6903bd20cfa19980ee65ad78a53f5c88fbd92d1b03a8c191",
+      "text": "Hunter's Mark"
+    },
+    "passives.2.effect": {
+      "sourceHash": "13c90084b094150c5327d3635db583d2120234717ddad61bb597f18b42b6f106",
+      "text": "Choose one random target, set their Speed to 1, and target them with every skill.\nActivates again every four turns afterward."
+    },
+    "passives.2.condition": {
+      "sourceHash": "54bcd84c344c7f61fc0b10f167e44f1c4a819fddaec6c5d9d5c08dd270cbe83e",
+      "text": "Target selection; every four turns thereafter"
+    },
+    "passives.2.response": {
+      "sourceHash": "60a3ec9d20f4f5ebd09e727db15dbade26625954432805fe2ee8b14e4ba40349",
+      "text": "Focuses on a Speed 1 Sinner. Distinguish the major attack that cannot be redirected from other skills whose targets can be changed."
+    },
+    "passives.3.name": {
+      "sourceHash": "089ab652c1a8a6e683ba44f9eecb4d023eac432d1c7a83f0f3ad282e98fdd77e",
+      "text": "Duello Disperato"
+    },
+    "passives.3.effect": {
+      "sourceHash": "94355a2d121357ab6b6de58bd84add56751b0aae9a794cec2a6134536b121da1",
+      "text": "At Clash End, inflict 1 The Duel Escalates on the clasher.\nWhen clashing with a target with The Duel Escalates, heal 2 SP per stack on the target (max 10)."
+    },
+    "passives.3.condition": {
+      "sourceHash": "d00096636e8721e0ee246343872295ed36158060436b6fe8fa5e556f749eaccf",
+      "text": "End of a clash with Lucio"
+    },
+    "passives.3.response": {
+      "sourceHash": "133d9e5b9305e2f7406400011a4c0f87cfb9dc1a2624795677b73538fcec950b",
+      "text": "Builds The Duel Escalates and restores enemy SP. Avoid assigning the same Sinner repeatedly."
+    },
+    "passives.4.name": {
+      "sourceHash": "3bf5923db7856c8b256bdaa1e3ccc29196ee5bb0357a817d97f14e7f19816ace",
+      "text": "Palermitan Rapier / The Cleaving Blade"
+    },
+    "passives.4.effect": {
+      "sourceHash": "9e1f39a9d8e1fe5d3b33c5fc7ef9154bf9cf2f5905edf60d6beba2c43d9c872b",
+      "text": "When the user's skill effects trigger Tremor Burst, gain 2 Offense Level Up next turn (up to three times per turn)"
+    },
+    "passives.4.condition": {
+      "sourceHash": "b9048af8e81cca9885943e8890ea6646e23e89b70de52edd83ee45470f5b8c5c",
+      "text": "Lucio triggers Tremor Burst"
+    },
+    "passives.4.response": {
+      "sourceHash": "9a5a360b7488678b435877db19090b083d66573d262d5fb31a96a3a0171d047d",
+      "text": "Raises next-turn Offense Level. Heal allies with accumulated Burn and Tremor and take the necessary clashes."
+    },
+    "passives.5.name": {
+      "sourceHash": "14a56fedeb1c021d5157c0ddc47bb307aedc866c9b4bfd5c8d0fde74b7a94df9",
+      "text": "Desperate Struggle"
+    },
+    "passives.5.effect": {
+      "sourceHash": "f7cd0becfca130d6a2242d1a11f71c6c732fc59ccca619413516405cb6a1708d",
+      "text": "After the Thumb Nursefather appears, stop using Hunter's Mark and add the following effects:\n- If SP is below 30, restore it to 30.\n- At Turn Start, gain 3 Assist Defense.\n- Can clash regardless of Speed.\n- Prioritize clashes with Vergilius.\n- When the Thumb Nursefather wins a clash, use Colpi Sottani for an unopposed attack at the end of that attack (twice per turn).\n“Could I kill her now?”\n\nWatching his sleeping teacher, Lucio always returned to that thought. Fear ingrained in him, and gratitude toward the person who had taken him out of the Backstreets, kept him from acting. Yet his resentment ran deep. Even as he promised heartfelt obedience, he swore to kill her after this battle—to cut and stab even her remaining eye. For the first time, life began to return to the eyes of the bruised boy."
+    },
+    "passives.5.condition": {
+      "sourceHash": "2c00b1b16b192dd645cfadb1011ea5adcb441e23f14f72e670efaf762b7d2054",
+      "text": "After Valencina enters"
+    },
+    "passives.5.response": {
+      "sourceHash": "190691d1543cb33fdefe605469ad6c10aa607f11ef3d50146c9355737b2071e3",
+      "text": "Lucio interferes with 3 Assist Defense and priority clashes against the NPC. Have Sinners take over so the NPC can handle the Nursefather. Do not prioritize an immediate kill."
+    },
+    "passives.6.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.6.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.6.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.6.response": {
+      "sourceHash": "a7a4078614a2712c944bb7d2facbf685f1e00b7b6849db5cfa6004db6fcb70d2",
+      "text": "SP returns to 0. Do not assume sustained Panic alone will stop the enemy."
+    },
+    "passives.7.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.7.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.7.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.7.response": {
+      "sourceHash": "693d1616e7c96e3940ddbcab168c10e3d7a30ee8afae7b85724606db0f87c2e4",
+      "text": "Do not rely on replacing Panic Type to disable powerful actions."
+    },
+    "passives.8.name": {
+      "sourceHash": "71d3725b787a4e63e41e741520ddf34ef7085eea452368068dcbe8c227da1a8a",
+      "text": "The Eye of Precognition"
+    },
+    "passives.8.effect": {
+      "sourceHash": "193fc2c514e734126fb88354add81d134258f6e3009f6b72ea6d137bda0ce632",
+      "text": "On entering the stage, gain 30 Eye of Precognition.\nAt 0 stacks, Eye of Precognition changes to Eye of Precognition - Overheat.\nThe relic called Odin's Eye is actually one fragment of another relic split into three."
+    },
+    "passives.8.condition": {
+      "sourceHash": "1b1a8ba2943670f4666f34a69c8fccd330e1deab08c0c8153fce450108bb79f1",
+      "text": "On entry; at 0 stacks"
+    },
+    "passives.8.response": {
+      "sourceHash": "0ea5e993146bc884508fbb8c57c18cb1c18ba80770204407f5ecd9f40d878c74",
+      "text": "Reduce it from 30 to 0 to enter Overheat. Lowering it before Disposal is essential."
+    },
+    "passives.9.name": {
+      "sourceHash": "cc05f6b8e3df06c5c60a10c641eb8df2bdbd2e23cff13270ecc84021b0ff10c1",
+      "text": "Accelerating Future"
+    },
+    "passives.9.effect": {
+      "sourceHash": "661455d2db41927fd6eb7153120039154214f9345733aaabe59e0e62e62a75a7",
+      "text": "Gain 1 Accelerating Future per clash.\nEach turn, it can be gained up to (Eye of Precognition at Turn Start ÷ 3).\nWith Eye of Precognition active, being attacked unopposed or losing a clash activates Precognition.\n“With every exchange this blade will heat up and keep accelerating until I reach the future I saw.”"
+    },
+    "passives.9.condition": {
+      "sourceHash": "7f56f40f16a1f8ea9c1d3ecb774d012256497dd9e70126446d23c85a11922154",
+      "text": "Each clash; Evade on unopposed attacks or clash losses"
+    },
+    "passives.9.response": {
+      "sourceHash": "be98b6254fc0b96eeda9416e38e1e59dfde685b7ac6be598f7eb7b9bdbe14584",
+      "text": "The enemy accelerates as clashes continue. After reaching the cap, further clash rolls reduce the Eye."
+    },
+    "passives.10.name": {
+      "sourceHash": "b67e0812c8e475218ada3a160fd15c09d7ba333246f774de3cf3e6ecf3e79edf",
+      "text": "Overloaded"
+    },
+    "passives.10.effect": {
+      "sourceHash": "45b6c369458f399f543bd5de88125b43213da74cdbb33c8293a3d916cbaf8d5b",
+      "text": "Reduce Eye of Precognition under these conditions:\n- If Accelerating Future cannot be gained, lose 1 Eye per clash roll.\n- When attacked unopposed, lose 1 Eye.\n- On Clash Lose, lose 3 Eye.\n“My eye throbs with pain and heat, and my vision turns red.”"
+    },
+    "passives.10.condition": {
+      "sourceHash": "d6d4218ad497057fc8bc848a5560bb0f4373d2f7dcebcb5e667a5db1c9cd1ae5",
+      "text": "Clashes after the acceleration cap; unopposed attacks; clash losses"
+    },
+    "passives.10.response": {
+      "sourceHash": "b183eb0d900ef41b2b14ea946cb894d78cf426e4a10402c46f9d7390022a6e9d",
+      "text": "The main mechanism for reducing the Eye. Use the NPC's many clashes rather than repeatedly using only weak Sinner attacks."
+    },
+    "passives.11.name": {
+      "sourceHash": "fecc32489b324a127ba655212b73207ab21d1fc95df3eb54912046048bbb4615",
+      "text": "The Shame of Famiglia Bognatelli"
+    },
+    "passives.11.effect": {
+      "sourceHash": "58bc3bc169acd3b9bbd647b2735fced18bc66113ac2f311adcebdda06b97d708",
+      "text": "HP damage, SP damage, and Stagger Threshold advancement from Burn, Bleed, Tremor, Rupture, and Sinking are reduced by 30%.\nWith at least 1 Acceleration Round, skills that consume rounds deal 30% more damage and 150% more damage to Shields.\nGain 4 Poise per 4 rounds consumed.\nCoins that consume rounds still attack when no rounds remain.\n“You were taught Palermo and even inherited a family heirloom, yet you disgrace yourself like this.”\n“We will not reclaim your inherited relic and sword; your dishonor has already stained them.”\n“Valencina, surely no one else has been dismissed just three days after becoming Underboss.”\n“You are a disgrace to the famiglia. Bognatelli withdraws its love from you.”"
+    },
+    "passives.11.condition": {
+      "sourceHash": "3f5f45a340f70ed6649940f93cd78b3c3cc6b4f882d320300ed37b3a27cd224b",
+      "text": "Acceleration Round and status effects"
+    },
+    "passives.11.response": {
+      "sourceHash": "79f01ec22519c7eef7d6cdc2b3c6e505e9d26bcc2ec42e5a7c86294ac31c040d",
+      "text": "Rounds greatly increase damage against Shields. Running out does not cancel the attack itself."
+    },
+    "passives.12.name": {
+      "sourceHash": "646f420ad53cb45c553df58e2b62410c32d7929ce038b50df0370c8c0b262e5d",
+      "text": "La Spada di Palermo"
+    },
+    "passives.12.effect": {
+      "sourceHash": "33c5b5468b8bf3f8a3090163b3a3d6a6feb07849711255a2039a9438147374b6",
+      "text": "Damage to Shields +15% per Burn on the main target (max 300%).\nOn Skill Use, if the target's Attack Skill is Slash or Pierce, Clash Power +1.\nWhen the user's skill effects trigger Tremor Burst, gain 2 Damage Up next turn (up to three times per turn).\nWhen the user's skill effects trigger a critical hit, heal 5 SP."
+    },
+    "passives.12.condition": {
+      "sourceHash": "c93b7b0e79988f2413b4ff6c8db1b9efa1e44afbc95b3f9185d0901a7b42cfb9",
+      "text": "Target's Burn; clashes against Slash or Pierce"
+    },
+    "passives.12.response": {
+      "sourceHash": "7eb060f2f80fb3238e85d56e89235357b68b0a2cf404eaf01dba49311eebb1f2",
+      "text": "Burn increases damage against Shields. Your attack type can also improve the enemy's clashes, so check predictions."
+    },
+    "passives.13.name": {
+      "sourceHash": "5a3e50aeffd1c1f9b8c7fd8e0fb4c58ca310b35f3f8985658c6fd3e4db7b0d5a",
+      "text": "Shin (心) - Valencina"
+    },
+    "passives.13.effect": {
+      "sourceHash": "8003f24a5ace4ae23258b827f1f5b17c7d39d35abe105a98403e79c1bb6ae92e",
+      "text": "When damaged, or when The Thumb Apprentice - Lucio is incapacitated, gain Shin (心) - Valencina next turn.\n“Phew... So I just slip in and raise hell like that fanatic planned... Will that really get my ticket back?”"
+    },
+    "passives.13.condition": {
+      "sourceHash": "1d39e55a734105aa108ce940389759c0d565e911351a1ca29d42e1e6aeb65f83",
+      "text": "Taking damage; Lucio incapacitated"
+    },
+    "passives.13.response": {
+      "sourceHash": "24abcabfb91a39b40599207524e719c11485ea1ceb9faf9db24f096d7cb86353",
+      "text": "Expect buffs next turn. Actions and Power do not remain unchanged after Lucio falls."
+    },
+    "passives.14.name": {
+      "sourceHash": "a89d24d58a8a80c94d170bb6ac911c471a1831d5e0d0f8c916cf726eed21ac7b",
+      "text": "Lucio, you useless little shit!"
+    },
+    "passives.14.effect": {
+      "sourceHash": "50ddc7b611e54e950c49a0dc018468a87b1e351cf3d05dc0d2d305b546a30da0",
+      "text": "When The Thumb Apprentice - Lucio is incapacitated, activate Time to Hunt"
+    },
+    "passives.14.condition": {
+      "sourceHash": "080994c01180fedcd8158cb8ea1c93a0fed4bdab5a362366b4d2ebb39fe165ce",
+      "text": "Lucio incapacitated"
+    },
+    "passives.14.response": {
+      "sourceHash": "737202365f9744fbcb529cca33488d41e067e940b411679d6b617b3f956a2a6e",
+      "text": "Starts Time to Hunt. Reduce the Eye sufficiently before making this transition."
+    },
+    "passives.15.name": {
+      "sourceHash": "5e720e824a0eeedb066d4d09d3be3b88ba9176ea2cb50a02fed1d0e36d107e38",
+      "text": "Time to Hunt"
+    },
+    "passives.15.effect": {
+      "sourceHash": "7494616c227a3e69777d4ad2d66018555938bf2eeee3f1ccec8e6c1fc658305b",
+      "text": "At Turn Start, clear Stagger if Staggered.\n\nChoose one random Sinner and apply Game Target.\n- Activates once every four turns afterward.\n- Activates again next turn if Disposal kills its target.\nPalermo swordsmanship embodies Famiglia Bognatelli's temperament: relentlessly pursue, hunt, and dismember a single quarry. It rejects stealth, killing openly before witnesses with honor and dignity. Its elegant swordsmanship brought many honors and raised Bognatelli into the Seven Great Famiglie of the Backstreets. Valencina mastered Palermo, beheaded many officers and veteran soldiers in the Smoke War, and became one of its heroes. Yet who could have foreseen that this fame would become her shackle?"
+    },
+    "passives.15.condition": {
+      "sourceHash": "01e9d03e6052f32cfd157a7b18a555bfe5b46bbcfe1a5d687a4bc6e35a1f68a4",
+      "text": "On activation; every four turns; after a Disposal kill"
+    },
+    "passives.15.response": {
+      "sourceHash": "91e2cbc24bce1a61950d84e2c6925843c6f5fa07e600aec7868387f1bf6ab7cf",
+      "text": "A target's death creates another target next turn. Do not allow repeated Disposal attacks while the Eye remains high."
+    },
+    "passives.16.name": {
+      "sourceHash": "e154ec82f54c3376d2bd129e1a0529517287ffa29a7d073ab5bc7368e6acc840",
+      "text": "Panic Recovery"
+    },
+    "passives.16.effect": {
+      "sourceHash": "cca63b4daac40bbd2f2ffe4a6597dfb4d90a18cef3cb248b1d03e9f14561de9f",
+      "text": "If Panicked at Turn End, reset SP to 0."
+    },
+    "passives.16.condition": {
+      "sourceHash": "43b0c2f09f1730c133ec19577395e1f2e1802b5d6a59a0643da19add75e074e4",
+      "text": "Turn End while Panicked"
+    },
+    "passives.16.response": {
+      "sourceHash": "a7a4078614a2712c944bb7d2facbf685f1e00b7b6849db5cfa6004db6fcb70d2",
+      "text": "SP returns to 0. Do not assume sustained Panic alone will stop the enemy."
+    },
+    "passives.17.name": {
+      "sourceHash": "01054f6db0ed1b5e4097330aed0a6196b85d73100a570b141b8ee0acb3661c1d",
+      "text": "Fixed Panic"
+    },
+    "passives.17.effect": {
+      "sourceHash": "287abc847213c59ca2d122b89b4c7fd2258edb0e365b7f62f713a2235b667bde",
+      "text": "When gaining a buff that changes Panic Type, Panic Type stays unchanged. Apply the effects intended for targets without SP instead."
+    },
+    "passives.17.condition": {
+      "sourceHash": "b41707b5fce9af3151da6aa830113e5dcb68360a9af512afe42aa374b61bb747",
+      "text": "Replacing Panic type"
+    },
+    "passives.17.response": {
+      "sourceHash": "693d1616e7c96e3940ddbcab168c10e3d7a30ee8afae7b85724606db0f87c2e4",
+      "text": "Do not rely on replacing Panic Type to disable powerful actions."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "60d7f1592903874fe706199ac15bcb573071b84ead1f5a2b94219ed9347e4afe",
+      "text": "K Corp. Emergency Ampule"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "47b08eae3ff75fa3da4c0b4f9153c1cdc1fd22dad96fb3f4d92d18f856095236",
+      "text": "When taking lethal damage while another ally is alive, clear Stagger and fully restore HP. Every ally's remaining Ampule count decreases by 1 simultaneously."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "b5a1e80c413617abc49130b72dcffa52aba55548747365254aede2ac0e4ce14d",
+      "text": "The Sinners share four uses in this battle. These are not separate counts per Sinner."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "b71862d0b8bc98bb10c950cd039b9a7f3c84efcb8d02cfc94209ca5b6f55f06e",
+      "text": "The Duel Escalates"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "e12285bdd73f9112c37e4c696ac77cbdde72b21550909a8a33c3f66ec69c1a74",
+      "text": "Maximum 20. Increases after clashes with Lucio and strengthens Power and damage dealt/taken against its target. Expires at the end of a turn without a clash against him."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "68f19c786ec43f0704c00a3891054c34877501863a7f91b828d90865e9c05947",
+      "text": "Rotate assignments instead of concentrating stacks on one Sinner."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "71d3725b787a4e63e41e741520ddf34ef7085eea452368068dcbe8c227da1a8a",
+      "text": "Eye of Precognition"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "23bf2afa086c5d13fef4dff30d1a5e8a1c182a2607b7cfb24dc7cc22741a78c2",
+      "text": "Maximum 30; Clash Power +2. At Turn Start, gain 10 stacks and heal SP equal to stacks ÷ 4. Strengthens Evade and Disposal."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "22d041cbc7277bc4ca7a750e591d5f52db2d89916ae933ea398958131e7c3360",
+      "text": "Reduce it before defeating Lucio, and resolve other clashes first immediately before Disposal too."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "30fedae78647a428baccc3abffd802c45f0898ae59886e2d318317766662f8d7",
+      "text": "Eye of Precognition - Overheat"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "a4bb1c0627827950d897bb23654a9e350e1bbacbac4e7769d163c1ae45b0534c",
+      "text": "The Overheat state entered at 0 Eye. Attack damage −20%. Converts all Coins of skills that consume Acceleration Round to Unbreakable Coins. Gains 10 stacks at Turn Start and returns to Eye of Precognition at 30."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "45c26213ca0abb8baa65dbc303a85792ceda20924855d948b870957f134c985f",
+      "text": "Both weakening and Unbreakable conversion apply. Check the actual effects rather than focusing on variations in the translated Overheat label."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "cc05f6b8e3df06c5c60a10c641eb8df2bdbd2e23cff13270ecc84021b0ff10c1",
+      "text": "Accelerating Future"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "e1ae281bc0d422ae527971c5c4f5a501a2234533146f5187d544cad5ad02b134",
+      "text": "Maximum 10. Clash Power +1 per stack; Coin Power +1 per 5 stacks. The gain cap each turn is Eye of Precognition at Turn Start ÷ 3."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "0fcebf492dc2dbdbd885911a10866164b10d626b7b73aee2933966e0c593c700",
+      "text": "After the cap, clash rolls trigger Overloaded. Do not use an opening prediction to judge the entire turn."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "c248bfaf785aec5b52fbc2d1b2e83d90d78d581496d437b0d00aec2e5dd4da23",
+      "text": "Acceleration Round"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "509f0faee937976ab1a7043d2803e8f3a39159c72d417e9c96cd1d9f9915c892",
+      "text": "Maximum 10. Rounds consumed by specific Coins. While available, affected skills deal 30% more damage and 150% more damage to Shields."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "cdecf55de15bf6f92f584c745c448bd47626abe473c07fc3d52c3f68704cfcc8",
+      "text": "Running out does not stop attacks. Do not rely solely on Shields."
+    },
+    "mechanics.6.name": {
+      "sourceHash": "a3334cab6ca643458134a8c483773f1cfdee5a5aa530a804505aab9ca9e30ec4",
+      "text": "Game Target"
+    },
+    "mechanics.6.effect": {
+      "sourceHash": "50eb5aa984ae5d791368ae1174fc96aeb58e4a976b7d9a88a8335a7de4b73cae",
+      "text": "Speed fixed at 1; targeted by all of Valencina's attacks."
+    },
+    "mechanics.6.response": {
+      "sourceHash": "c1984d410676184b0389fbe9c3cf736f5f970e10255a8af17a886393217fc203",
+      "text": "Disposal cannot be redirected. Prepare the marked Sinner's own skill and heal them beforehand."
+    },
+    "mechanics.7.name": {
+      "sourceHash": "b2b34b8fad5cd52570b84106195dc97bbf87d9aa633de916f463309960d33f3c",
+      "text": "The Guide"
+    },
+    "mechanics.7.effect": {
+      "sourceHash": "07e8f659631c9815a476b098fa6e56d9adc54886aa636fd203ae73ab95282199",
+      "text": "Vergilius's attack targets change according to Sinner assignments."
+    },
+    "mechanics.7.response": {
+      "sourceHash": "880c747981c1a693b780f3aa3e7bdf3dccc84a9d3cf0f2ab097c057c420622b0",
+      "text": "Have Sinners take over weaker skills assigned to the NPC, then check that he switches to the Nursefather's dangerous skills."
+    },
+    "warnings.0": {
+      "sourceHash": "3aa577f57dffd3a1a3c863b68a1d27f69e910268c88d1f29455fc32fc0ac639b",
+      "text": "Defeating Lucio sooner is not always better. Reduce the Eye sufficiently before entering the Disposal phase."
+    },
+    "warnings.1": {
+      "sourceHash": "44b42dc052e0f49b9527f57872d3ac88bb7f40d56268a7edb5088ed9ebc68e32",
+      "text": "Vergilius does not provide Assist Defense like the LCD team. Use his Shields and adjust his attack targets."
+    },
+    "warnings.2": {
+      "sourceHash": "ac7585220933d87c1d07adf866bfa37700617206180ac9fb28d902ab040d1c7c",
+      "text": "Disposal cannot be redirected. With high Eye stacks, it is dangerous even after a clash win."
+    },
+    "warnings.3": {
+      "sourceHash": "598b03a2be7d9613f1366af261514ac5536d6b9930e8f6daab201541602ca811",
+      "text": "If Precognition evades every Coin, it retaliates. Do not repeatedly feed it only weak attacks."
+    },
+    "warnings.4": {
+      "sourceHash": "3017d10d17fcd60acff8d053feeb7f88b5ff9c3ec5d5ec8bbed32922a882c622",
+      "text": "Overheat conditionally makes round-consuming skills Unbreakable. Running out of rounds does not cancel attacks either."
+    },
+    "warnings.5": {
+      "sourceHash": "f38a72a1edfe985b322e526d74e21f565eb19db2cd4921a4a8841d7ad50ca24b",
+      "text": "Do not apply the hidden Mirror Dungeon boss's resistances, damage, or Lucio kill order to normal 9-42."
+    },
+    "preparation.0": {
+      "sourceHash": "a5bd4e1a170676cc4327345a3b673eb4e5b98f172739c7ba9056a06b6c8249f8",
+      "text": "Recommended Lv. 60 with Heathcliff, Rodion, and Gregor. Bring Slash resistance, HP/SP recovery, and high-Power skills."
+    },
+    "preparation.1": {
+      "sourceHash": "1a6528f8c709000329a2948d565c5ec4bda6de79009bf8f13fdb979c1d2cf47c",
+      "text": "Slash works well against both Lucio and the Nursefather. Prioritize NPC assignments and Eye management before affinity."
+    },
+    "roles.0.name": {
+      "sourceHash": "f7a18358d565cf7cb2bb4a506fbded17e3d5ab77a9aa6e2774b62c31bedcbd50",
+      "text": "Early clashes against Lucio"
+    },
+    "roles.0.reason": {
+      "sourceHash": "d043851fe261cd8df5d836dc8f965853972216434f88c2419acfb5ae704def83",
+      "text": "Weaken his opening major attack, then direct the NPC toward the Nursefather in the second half."
+    },
+    "roles.1.name": {
+      "sourceHash": "c506a7418aa5d09e94b2d62cf3bd324e00837abe1b85e0104b38ea41ba3b503b",
+      "text": "Help reduce the Eye"
+    },
+    "roles.1.reason": {
+      "sourceHash": "86bb0581d429cf747244f7832fd77fe2a1a9efd99467accb8bebc95c1c0cc2b8",
+      "text": "Use NPC clashes and Overloaded to weaken Disposal."
+    },
+    "roles.2.name": {
+      "sourceHash": "56df0f44917271c84e5973135b8deea82b67b79be4efbc711dfafcaad88579b9",
+      "text": "Heal the target and prepare a strong clash"
+    },
+    "roles.2.reason": {
+      "sourceHash": "86e055e86bf97000f324f32c7854bffa50b7f66111a9aee8b271967831c8ffe6",
+      "text": "Survive Disposal without redirection and prevent repeated target generation."
+    }
+  },
+  "messages": {
+    "boss-copy:lucio-valentina": "complete",
+    "【リンバス】9-42 ルチオ・ヴァレンチーナ（9-42）の攻略｜Limbus Assistant": "9-42 Lucio & Valencina (9-42) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)9-42「ルチオ・ヴァレンチーナ（9-42）」の攻略。前哨戦のルチオを半分まで削るとヴェルギリウスが参戦する。後半は親方の予知眼を先に減らしてからルチオを倒す。NPCの攻撃先を調整し、対象変更不可の…": "Lucio & Valencina (9-42) guide for Limbus Company 9-42. Lower Lucio to half HP in the opening battle to bring Vergilius in. In the second half, reduce the Nursefather's Eye of Precognition before defeating Lucio. Adjust NPC targets to weaken Disposal, which cannot be redirected.",
+    "9-42 ルチオ・ヴァレンチーナ（9-42）": "9-42 Lucio & Valencina (9-42)",
+    "9-42「Ticket」": "9-42 · Ticket",
+    "親指の子方 - ルチオの外見": "The Thumb Apprentice - Lucio appearance",
+    "親指の子方 - ルチオのスキル": "The Thumb Apprentice - Lucio skills",
+    "The Thumb Apprentice - Lucioの外見": "The Thumb Apprentice - Lucio appearance",
+    "The Thumb Apprentice - Lucioのスキル": "The Thumb Apprentice - Lucio skills",
+    "親指の親方 - ヴァレンチーナの外見": "The Thumb Nursefather - Valencina appearance",
+    "親指の親方 - ヴァレンチーナのスキル": "The Thumb Nursefather - Valencina skills",
+    "The Thumb Nursefather - Valencinaの外見": "The Thumb Nursefather - Valencina appearance",
+    "The Thumb Nursefather - Valencinaのスキル": "The Thumb Nursefather - Valencina skills"
+  }
+}

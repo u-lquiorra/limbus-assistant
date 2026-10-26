@@ -1,0 +1,550 @@
+{
+  "kind": "boss-copy",
+  "id": "aido",
+  "source": "src/data/bosses/aido.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Proper names use the paired game localization dictionary; original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33"
+    }
+  },
+  "entries": {
+    "name": {
+      "sourceHash": "0f5d8021f58ce078312b3e14aa1902c656049c74fd0c547d5fc5268c97ca326c",
+      "text": "Aida (2-18)"
+    },
+    "shortName": {
+      "sourceHash": "feeff7ba6722d6d86d0870a4dc90865ea8715fffb8a9439482b39190ce44a9ca",
+      "text": "Aida"
+    },
+    "stageName": {
+      "sourceHash": "feb54fa83fc85a1e3bcdf7d79a8aa28f0f8b86316d96b956a608e2c4f9838c73",
+      "text": "Victor"
+    },
+    "lead": {
+      "sourceHash": "d6e93872ba1400125c37a5ff2b67f733dde00afac7017f8964f7d7756ab22e83",
+      "text": "Avoid clearing the initial adds too quickly; let allied action slots grow before facing the reinforcements. Offset Evade with Defense Skills to stop repeated SP loss. Defeating Aida greatly reduces the remaining enemies' SP."
+    },
+    "listLead": {
+      "sourceHash": "1abe94d34b7264b6c09501cd37edc0e71585e6e46245b1d3149cecfabb1e09fb",
+      "text": "Prepare action slots and SP for reinforcements. Offset Evade with defense rather than letting weak attacks be repeatedly dodged."
+    },
+    "statNote": {
+      "sourceHash": "79e684c1b6488fc7ae48b26332b34c3f791db6956f80ad15889c2a15c7e76bf5",
+      "text": "A regular encounter in 2-18. All enemies are Lv. 13. Starts with 4 adds; reinforcements consist of 6 adds and Aida. Adds have 68 HP and Defense Level 13; Aida has 267 HP and Defense Level 11. Targeting is not freely assignable as it is in Focused Encounters."
+    },
+    "skillNote": {
+      "sourceHash": "b79cfc86145fb08f056746f156919807e1f2ca4e7531bac040edb033cb0602e8",
+      "text": "All 14 skills used by Aida and the 2 add types. Skills sharing a name are listed separately when their Coin counts or effects differ. The Attack Power Down value for ¿Eso es todo? is unspecified; do not assume it is 3 like Paralyze. The Stagger Threshold reduction from Pañata Party~!'s Heads hit applies to the user itself."
+    },
+    "priorities.0": {
+      "sourceHash": "70c69c09f7b30ed8e47945f7e073cd6314b17b3c2eeb167d613afa4ccf963234",
+      "text": "Raise 5 Sinners to around the recommended Lv. 13. Use the first 4 enemies to build action slots and SP rather than entering reinforcements before your main attackers have enough actions."
+    },
+    "priorities.1": {
+      "sourceHash": "f7ac2334cfbeb7a84a5e6dd772c5e42e2c08cc5e14f05dd9311d27bb1750208b",
+      "text": "Avoid repeatedly attacking Evade with weak skills. Switch the slot targeting Evade to a Defense Skill to Offset it and stop repeated SP loss."
+    },
+    "priorities.2": {
+      "sourceHash": "c64245e582aaacdfb3a44521e9665c7065af40dbac6d0146b08a26217bc88e08",
+      "text": "Aida starts with 3 slots and can reach 5. Block necessary attacks while dealing Slash damage, then use the remaining enemies' 45 SP loss on her defeat to finish the fight."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "0eff06a390099489c1681c11a17b3e63e85daac1a71e769c4329a5590e24243c",
+      "text": "Reinforcements immediately overwhelm me with unopposed attacks"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "02148289c8f928e64e93faa401df48ef17ab55cfc80b32ddac151cea31f515e4",
+      "text": "Defeating the initial enemies too quickly can bring reinforcements before allied slots have fully increased. If your core lacks actions, spend the opening taking winning Clashes before advancing."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "9e5c4fec14cb4588edc7db6c747736c1e41328d890cd90755d414e6dff2b2242",
+      "text": "Repeated Evades drain SP until I cannot win"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "bec22cd5043cb8eb76ed274c8874112e9695d237436eebf554a12cb5c10d9876",
+      "text": "Successful Evades are reused and also reduce SP. Switch the slot targeting Evade to a Defense Skill to Offset it. If attacking through it, use the prediction to choose a skill that can reliably beat it."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "fe7b8fd921f4fcab224fdbbc06f7a686d6a7d3e8816492da856fc1bf0c2b4171",
+      "text": "The enemy will not Stagger despite taking damage"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "50ae7933fe21d8c41f2a2da00f8ba60d268235484bdfe684e93ec0dda2b62af3",
+      "text": "Aida lowers her Stagger Threshold by 5 on a successful Evade. Pañata Party~! also lowers her own Threshold. Limit failed attacks against Evade and enemy unopposed attacks."
+    },
+    "units.0.name": {
+      "sourceHash": "feeff7ba6722d6d86d0870a4dc90865ea8715fffb8a9439482b39190ce44a9ca",
+      "text": "Aida"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.stagger": {
+      "sourceHash": "4944bf08591657546c620de9f643b6aeaf9877cd8af013f35fcf49c833b4c8ed",
+      "text": "50% / 20% (134 / 53)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "6d1baf25c419b806031a6aefd23788fd9753ef829881a63f3a6245da1f014a88",
+      "text": "Appears with reinforcements. Starts with 3 slots, up to 5. Defeating her in combat reduces all remaining enemies' SP by 45."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "29f18284555e17684019a637e64a57e2ce93b5965df2c0d549e214ae942746ad",
+      "text": "Heals 10 SP for all enemies each turn. At 20 SP or higher, gains 1 Attack Power Up and 1 Defense Power Up at Turn Start."
+    },
+    "units.1.name": {
+      "sourceHash": "eff98ccac349abd949951bb2019541b75942df18800c033f3f27b5793e94d74e",
+      "text": "Mariachi Alegre"
+    },
+    "units.1.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.1.stagger": {
+      "sourceHash": "5c13e48017f0f56e186ceaa6bb5e151595798dee22b48b7bfce6f1b1b5e918b3",
+      "text": "70% / 40% (48 / 27)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "9213d800afa5b477a37208171d730aae136f1ba4b8601c8369bdf0a2af28a508",
+      "text": "2 initially; 3 in reinforcements. Starts with 1 slot, increasing to a maximum of 2."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "628f8af909c1cbbfdb9d4044b3963a842629c53cf0cd95ddfa23d0e6ce874e18",
+      "text": "Uses ¡Olé! to Evade, reducing the attacker's SP by 5 on success. Danza de Paz strengthens all allies' Defense Skills."
+    },
+    "units.2.name": {
+      "sourceHash": "b22cd6ced151d1dfae433d2eaff93dc91345322cfaa957acb3d837f4cd7d5f6b",
+      "text": "Mariachi Vivaz"
+    },
+    "units.2.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.2.stagger": {
+      "sourceHash": "5c13e48017f0f56e186ceaa6bb5e151595798dee22b48b7bfce6f1b1b5e918b3",
+      "text": "70% / 40% (48 / 27)"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "9213d800afa5b477a37208171d730aae136f1ba4b8601c8369bdf0a2af28a508",
+      "text": "2 initially; 3 in reinforcements. Starts with 1 slot, increasing to a maximum of 2."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "ecbbd48c237cfc2f7e4539edbaae3fc5e6804e48f64ee5bbf6b04d078b28b790",
+      "text": "Has no Evade skill and increases its own Attack Power. Puñales Joviales becomes stronger against targets with low SP."
+    },
+    "phases.0.timing": {
+      "sourceHash": "b2cb75b52cf96c65fe1fa354a3fce865c13452985c6bfa6a2cb5af60605f4ef4",
+      "text": "The first 4 adds"
+    },
+    "phases.0.title": {
+      "sourceHash": "215f6f5933d590b7a511dba0bab192f40082f3fb5c90584809596195ea9652e8",
+      "text": "Build action slots and SP"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "c1547a9af1c3e4bf0c821890fbe5b7842d0fa5732f259c89b2b42c7293a88dc7",
+      "text": "Starts with 2 Mariachi Alegre and 2 Mariachi Vivaz. Slash is effective against both. Take winning Clashes to raise allied SP."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "eef515a5fdb3abf774d496c455deb9250cf4940a56d265a36cc5ea437d903edc",
+      "text": "In regular encounters, allied slots increase as turns pass. If reinforcements overwhelm your action count, avoid clearing the initial wave immediately; build more actions for your main attackers first."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "25e14536e6b5940daf0a3d3a855116a15d8c20675c32704019426e49e6a20e0c",
+      "text": "Replace weak skills aimed at Evade with Defense Skills to Offset it. Check enemy Speed and automatically assigned targeting lines; do not assume the free retargeting available in Focused Encounters."
+    },
+    "phases.1.timing": {
+      "sourceHash": "115d868ae236bc0124d4a534eb3391e861be09c3c550a56af222299db3f3f8c6",
+      "text": "Reinforcements / Aida arrives"
+    },
+    "phases.1.title": {
+      "sourceHash": "8369ddeb51288aec9a2eaaf6b48cc9a3746f20bb3ab60ea75a9288b883fd2e9a",
+      "text": "Block dangerous attacks and deal Slash damage"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "70fc2650ca6153abbd3489fb9abd2e04d457a24d22ba498ae80b206c9a36a15d",
+      "text": "Reinforcements include 6 adds and Aida. She starts with 3 slots and can increase to 5 if left alive. Check whether you have enough actions to handle the enemies' multiple attacks."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "4ee7b6a8b64d6f7346be163ca000fd42500829ee7abbd277869006f3ae77d507",
+      "text": "Aida's ¿Eso es todo? costs the target 10 SP if she wins the Clash and applies debuffs next turn on hit. Prioritize winning with strong skills or available E.G.O."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "b612338228fd7d9cbd60beb09d359dca3d83cf45ac1692418a296ac84f103203",
+      "text": "The enemies heal SP across their team every turn. Repeatedly attacking Evade while your own SP is low prolongs the disadvantage; recover through Offsetting and winning Clashes."
+    },
+    "phases.2.timing": {
+      "sourceHash": "68339b2d192a260b317d46c3ca7d878c231164f69490ed5502575e1c3dd4a841",
+      "text": "Staggering and defeating Aida"
+    },
+    "phases.2.title": {
+      "sourceHash": "544d36610c0df20d70c8b37b25bf6205b2f50e10ced84141aec9138eb0a7b051",
+      "text": "Prevent Evade from lowering her Threshold and finish the fight"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "b1aadede44269a66e4944c54e8a675af4ec945e828f562759b8a16cab3c697b5",
+      "text": "Aida has ×2 Slash and ×0.5 Blunt resistance. Use Slash to reach her Stagger Threshold rather than relying only on Blunt. Successful Evades lower the Threshold, so keep Offsetting them with Defense Skills."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "1f06d355ca12b0bc5166508cb9cb35aee3b5a96ec7c4ff50aef94b690a854323",
+      "text": "Defeating her in combat activates Se Acabó la Fiesta, reducing all remaining enemies' SP by 45. Finish the survivors during this opening."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "018fb201a6577f48d357f109cdf7e28b7cd77f62620f2818d713219ac38d6a7a",
+      "text": "While adds remain, do not spend every action attacking Aida. Also prevent SP-draining Clash and On Hit effects."
+    },
+    "skills.0.name": {
+      "sourceHash": "bf118bfee5200874af6708d9f78dcbf3bc728a5306a7ecb19e5388ecf1cc1062",
+      "text": "Bailemos~"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "457456b77683883320ec9c35a2346f829b46b56ee9ce954bdf86bbf6ed278fb1",
+      "text": "Ⅰ[On Hit] Heal 2 SP."
+    },
+    "skills.0.effects.1": {
+      "sourceHash": "9a3c04371ab2ace8e3a397b47cb8065efb43c690eb2016e62bac9d49fa986ed0",
+      "text": "Ⅱ[On Hit] Heal 2 SP."
+    },
+    "skills.0.effects.2": {
+      "sourceHash": "f746445e21da2851ad0db411733a7c1fa784d59e82e98161fae8c9b0f7fd1c5f",
+      "text": "Ⅲ[On Hit] Heal 2 SP."
+    },
+    "skills.0.response": {
+      "sourceHash": "ecc7fe46ac40a0bfc8958a036a511cdee0f47113ff67331da96c63045e39a0ab",
+      "text": "Each Coin heals the enemy's own SP by 2 on hit. Clash against adds as well, preventing enemies from gaining an increasing Heads advantage."
+    },
+    "skills.1.name": {
+      "sourceHash": "dbc98fe21ae643d92c55559b267de2855c65de7822d869b2eeb8faf312352f51",
+      "text": "Danza de Paz"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "99a5fad0feca23a95f25ee0305ae039d94e4b768f11221fb048e0ff57cd027fb",
+      "text": "[On Use] Grant 1 Defense Power Up to all allies next turn."
+    },
+    "skills.1.response": {
+      "sourceHash": "7bc36bb5e18f8df9f59ec2569b09d1df494a60a3ecaae9c90227256d53a3c00c",
+      "text": "On Use, grants all allies 1 Defense Power Up next turn. Winning the Clash does not stop this effect, so watch for stronger Evades."
+    },
+    "skills.2.name": {
+      "sourceHash": "815b1279a7e32ab6dec8277c7132fb4d1b362d16835533aff2dc0093be3b2619",
+      "text": "¡Olé!"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "7a782d254fd921ea990eb333638cc3a86311e00a92f51c14ef612483ca268ccb",
+      "text": "[On Evade] Reduce the target's SP by 5."
+    },
+    "skills.2.response": {
+      "sourceHash": "5fdb659ee89a8d2f79649b92f66a164d85175be5aaac51af6b4a0a478c9e18d6",
+      "text": "A successful Evade reduces the attacker's SP by 5. Switch the action aimed at Evade to a Defense Skill to Offset it, then use spare attacks against other enemies."
+    },
+    "skills.3.name": {
+      "sourceHash": "07c4f14d575239315d19cfe4c3c1d2cb2832626c1d4e0f08d5e530a552fe7b9d",
+      "text": "Duelo de Baile"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "3dfb7648bc85277d27a212c4f34dba7cc6af2accb15db913a79c0c7a8bec34f2",
+      "text": "[Clash Win] Reduce the target's SP by 5."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "24cafbb1b18ba6ec420cc875c47a0917a7068ba2d57a3b989244682856fd9b3b",
+      "text": "Ⅲ[On Hit] Inflict 2 Attack Power Down next turn."
+    },
+    "skills.3.response": {
+      "sourceHash": "c8d21c7b1400b1d30b989f7cb1e06bc9dfa1286086f97eae29b5545f78d68bfc",
+      "text": "If the enemy wins the Clash, your Sinner loses 5 SP. Coin 3 also inflicts 2 Attack Power Down next turn on hit, so take a Clash you can win."
+    },
+    "skills.4.name": {
+      "sourceHash": "bf118bfee5200874af6708d9f78dcbf3bc728a5306a7ecb19e5388ecf1cc1062",
+      "text": "Bailemos~"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "457456b77683883320ec9c35a2346f829b46b56ee9ce954bdf86bbf6ed278fb1",
+      "text": "Ⅰ[On Hit] Heal 2 SP."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "9a3c04371ab2ace8e3a397b47cb8065efb43c690eb2016e62bac9d49fa986ed0",
+      "text": "Ⅱ[On Hit] Heal 2 SP."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "f746445e21da2851ad0db411733a7c1fa784d59e82e98161fae8c9b0f7fd1c5f",
+      "text": "Ⅲ[On Hit] Heal 2 SP."
+    },
+    "skills.4.response": {
+      "sourceHash": "ecc7fe46ac40a0bfc8958a036a511cdee0f47113ff67331da96c63045e39a0ab",
+      "text": "Each Coin heals the enemy's own SP by 2 on hit. Clash against adds as well, preventing enemies from gaining an increasing Heads advantage."
+    },
+    "skills.5.name": {
+      "sourceHash": "693d3cac45bfd65027ef2b5474bf3a60d184587123114cbf4f09b6542a41b0d4",
+      "text": "Danza de Emoción"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "03ac61daf9c77ed0a62d4d089bb29140918586a7c66b140e5d34069134c5e5c7",
+      "text": "[On Use] Gain 1 Attack Power Up next turn."
+    },
+    "skills.5.response": {
+      "sourceHash": "c664e96b63a9577aee1b938e258857dc203d05e7e9f9f0f420ce096728c6f1d9",
+      "text": "On Use, gains 1 Attack Power Up next turn. Winning the Clash does not remove On Use effects, so check the next prediction again."
+    },
+    "skills.6.name": {
+      "sourceHash": "07c4f14d575239315d19cfe4c3c1d2cb2832626c1d4e0f08d5e530a552fe7b9d",
+      "text": "Duelo de Baile"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "3dfb7648bc85277d27a212c4f34dba7cc6af2accb15db913a79c0c7a8bec34f2",
+      "text": "[Clash Win] Reduce the target's SP by 5."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "24cafbb1b18ba6ec420cc875c47a0917a7068ba2d57a3b989244682856fd9b3b",
+      "text": "Ⅲ[On Hit] Inflict 2 Attack Power Down next turn."
+    },
+    "skills.6.response": {
+      "sourceHash": "c8d21c7b1400b1d30b989f7cb1e06bc9dfa1286086f97eae29b5545f78d68bfc",
+      "text": "If the enemy wins the Clash, your Sinner loses 5 SP. Coin 3 also inflicts 2 Attack Power Down next turn on hit, so take a Clash you can win."
+    },
+    "skills.7.name": {
+      "sourceHash": "43a2eca20e990cd06a9603f33d613a836c9987e5736110c48d2869e5182da91a",
+      "text": "Puñales Joviales"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "40664740dd53a66696e7d6c486a0fb652a95a9f4cabc20b2ae089649413878b8",
+      "text": "Gain +1 Skill Power when attacking a target with SP below 0."
+    },
+    "skills.7.response": {
+      "sourceHash": "6273ca73c485b4e596604f91eaa82db39bd87eaaa19333af7caf9451ce52f4f9",
+      "text": "Gains +1 Skill Power against targets below 0 SP. Taking all 4 Coins unopposed compounds damage, so restore allies with low SP."
+    },
+    "skills.8.name": {
+      "sourceHash": "97c81feea4ca6fcdd02e52a524f9cd23d95ce743f56fb6bd919653184b520740",
+      "text": "Pasos Pasionales"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "3dbf9ac8ed6be6adc8f9e91153317a9163c74910ec14e7d37c4a79fea4e4e7c5",
+      "text": "[On Use] Heal 5 SP."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "5ee3563eec66a871a87971026d3df7c35e3d75a1d2ee0b5d22fda6e857b063c3",
+      "text": "Ⅰ[On Hit] Gain 1 Poise next turn."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "74b76a3b475f0fcc0fb3657a0764242783a7529345334b0b3a199b04f10b7a18",
+      "text": "Ⅱ[On Hit] Gain 1 Poise next turn."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "d8cfca22959608233811d6498d9a3affe2f9d3b6ee0f3a041adc53e43c8871f1",
+      "text": "Ⅲ[On Hit] Gain 1 Poise next turn."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "9787bd5e2e3a44264c49c676ec4632cb7c3eb0deb6b822f65d6fe1a184aa3f16",
+      "text": "Ⅳ[On Hit] Gain 1 Poise next turn."
+    },
+    "skills.8.response": {
+      "sourceHash": "553a1eb5b64bea950c6722aeec06cc6a7d13179b6c6cc16de764a9910bbddfc4",
+      "text": "Winning the Clash does not stop its On Use healing of 5 SP. Its 4 Coins gain Poise next turn on hit, so avoid letting the attack through unopposed."
+    },
+    "skills.9.name": {
+      "sourceHash": "b154f80bb8d269ee7df93e32a711b64a2c9897af17f591e05f086093289ee373",
+      "text": "¿Eso es todo?"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "628c59e990278d0b8cfe8eba00ac895089c9b0c24ffb763c6a6d7632a3579444",
+      "text": "[Clash Win] Deal 10 SP damage to the target."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "60d1b6c38aa8b3b9a2a90d4c86b1c8be242583496602abcd8b270eb606ef786d",
+      "text": "Ⅰ[On Hit] Inflict Attack Power Down and 3 Paralyze next turn."
+    },
+    "skills.9.response": {
+      "sourceHash": "944e756c922faa562378e8bfafee908419e57833305b6377ee37bbce5a654dd5",
+      "text": "If the enemy wins the Clash, your Sinner loses 10 SP. On Hit also inflicts Attack Power Down and 3 Paralyze next turn, so match it with a winning skill or E.G.O."
+    },
+    "skills.10.name": {
+      "sourceHash": "c04936d74e130dc118ef8c55305808b5e9f9baf606cdef610ae5c52a60811740",
+      "text": "¡Excelente!"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "6f5fcb5acf8db7cbbb378481e1469b13a3cccc5eb4cff99c562e821e1d27ce0a",
+      "text": "[On Evade] Lower own Stagger Threshold by 5. Deal 5 SP damage to the target."
+    },
+    "skills.10.response": {
+      "sourceHash": "ef84d935ee615dbdbd670b4efe91abb1cfb07bea6654374efc813625cea626a6",
+      "text": "A successful Evade lowers the enemy's own Stagger Threshold by 5 and reduces the attacker's SP by 5. Switch the slot targeting Evade to a Defense Skill to Offset it instead of letting weak attacks be repeatedly dodged."
+    },
+    "skills.11.name": {
+      "sourceHash": "8cfcf4abb8bdf5a8032e3a10252c28a24088562ad8b0faa9ed54a294d71fa926",
+      "text": "¡Bruscamente!"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "f46f719fd9b6e077c899009d1f461af31a0a2ef82fa76829022d0c3f71add614",
+      "text": "Ⅱ[On Hit] Gain 2 Attack Power Up next turn."
+    },
+    "skills.11.response": {
+      "sourceHash": "b4af03284702b699c60ab2651b5d2a7d3b3564d375dbce63d8cde6b143a476d1",
+      "text": "Coin 2 gains 2 Attack Power Up next turn on hit. Use the current prediction to take a Clash and prevent SP and Power bonuses from compounding."
+    },
+    "skills.12.name": {
+      "sourceHash": "349d2fd8ca6209e95be09765d589f0f7dd8be48e820580b13d83129addd9b782",
+      "text": "Rápidamente~"
+    },
+    "skills.12.effects.0": {
+      "sourceHash": "ac54ee7dc85587a1f3353aea0015c3623707d25a0a1a665abba42a155d806abe",
+      "text": "Ⅱ[On Hit] Gain 2 Defense Power Up next turn."
+    },
+    "skills.12.response": {
+      "sourceHash": "7b2b0fb63e6d634933cd8311c5715d9aa0dce2b355d6eb074aed5250915bb2f5",
+      "text": "Coin 2 gains 2 Defense Power Up next turn on hit, strengthening the next Evade. Prevent the hit or retain an action for Offsetting it with defense."
+    },
+    "skills.13.name": {
+      "sourceHash": "a5025ec234d7060b26bd3956d038ff1919d1538ac14ad81ca950d02ae846f3b0",
+      "text": "Pañata Party~!"
+    },
+    "skills.13.effects.0": {
+      "sourceHash": "cd2415a723dd92b9b0c95727edc9ef5ece84d7f7fa9c7edf620cec1204ede239",
+      "text": "[On Use] When attacking an enemy below 0 SP, increase critical hit chance based on the target's SP."
+    },
+    "skills.13.effects.1": {
+      "sourceHash": "527cb62fe978d4c6092bb209aad41dea688f6aab56786434b6b34d03385ecccb",
+      "text": "Ⅰ[On Heads Hit] Lower own Stagger Threshold by 50% of the damage dealt."
+    },
+    "skills.13.response": {
+      "sourceHash": "a16ff69467463c919496e1240d13f2ff82d35a289e603c4602947b3de677205c",
+      "text": "Critical chance increases against targets below 0 SP according to their SP. A Heads hit on Coin 1 lowers the enemy's own Stagger Threshold, so avoid taking it unopposed with low SP."
+    },
+    "passives.0.name": {
+      "sourceHash": "40b95c3eba6ac39ad07767afcdad4b9d3e9e6e4baa11aee8ee122d7478aa1980",
+      "text": "Hora de Fiesta"
+    },
+    "passives.0.condition": {
+      "sourceHash": "08b6f40f8a6a2271088c014cf8b2fcb9a0db03eaae67dd3aa46a2d4dffe81337",
+      "text": "Every turn / own SP at 20 or higher"
+    },
+    "passives.0.effect": {
+      "sourceHash": "38928a4c898147f268372d2e041ee55118e11572caa20ccd0eeb1c97de3324f9",
+      "text": "Heal 10 SP for all allies, including self. At Turn Start, if own SP is at least 20, gain 1 Attack Power Up and 1 Defense Power Up."
+    },
+    "passives.0.response": {
+      "sourceHash": "4785f4337c230dbdfd195c9256e211cfff6fbec3cca5c9025fe0a9821b8761d7",
+      "text": "Enemies regain SP during longer fights. Check current Power and Evade predictions and use skills that can win."
+    },
+    "passives.1.name": {
+      "sourceHash": "53aa401fd190ac91f2023f97d1cded71ee7dc3e1a465f6f72fb27ab517b5de27",
+      "text": "Se Acabó la Fiesta"
+    },
+    "passives.1.condition": {
+      "sourceHash": "0d8be2ad39e2e86b3f0985929e43f3faad7c7636334f246e06e1bfc0a5f071b5",
+      "text": "This character dies in combat"
+    },
+    "passives.1.effect": {
+      "sourceHash": "b5a71489d04d7397a306fb214ba36d582a29fc43fde926a2335fcb2e656814a6",
+      "text": "All allies lose 45 SP."
+    },
+    "passives.1.response": {
+      "sourceHash": "6655f8a429214390881d304821d3733cd3b7bc0fcc91545a4c0a585485b74d00",
+      "text": "Defeating Aida weakens the remaining enemies. Aim to finish her while also preparing for unopposed attacks during the process."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "d65a0f3571b914817f36413de5438b6c1410eb64e8c744e5269c214d9ac392ea",
+      "text": "Reinforcements and action slots"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "f1a801d5a0a302af347bbc00ec36e7884d643d7deffc69054ba59a592fca9df5",
+      "text": "Starts with 4 adds. Reinforcements bring 6 adds and Aida. Both sides gain actions as turns pass; Aida starts with 3 slots and can reach 5."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "021bfcabbbce03ded42a89566c5c8c606ce9adab3620fc1a2122acaf2f4fc26a",
+      "text": "If rushing the opening leaves you short of actions, prepare by taking Clashes against the initial enemies."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "953c05a2cf294aa47e3093f40215a15bd12de15c5ee51dd226fbd5bb18347717",
+      "text": "SP loss from Evade"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "2e3bab82ad2e3970bd44cb2083b5c0cada8801d03f29985672cbbba353f31cc3",
+      "text": "Successful Evades by Mariachi Alegre and Aida reduce the attacker's SP by 5. Aida also lowers her own Stagger Threshold by 5."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "4b36dccd806c7b3b0d96fedbe0432e1afd8cac152e006168bee911385efa4877",
+      "text": "Offset Evade with Defense Skills to stop weak attacks from being repeatedly dodged."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "85d00666edc80474415ef91a33324095e430c2c01ef51f760fd25deba798bf9b",
+      "text": "Atrophied"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "e225eb010a4b1f98c40ae775005c7eeee9f6317009a8ffc9641edab3466c9f3e",
+      "text": "At Turn Start, Low Morale grants 2 Attack Power Down; Panic grants 4 Attack Power Down. Adds enter Low Morale at -20 SP or lower; Aida's threshold is unknown. Panic occurs at -45 SP."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "200611105cbed2bea9a44855325cca487ddbb20e77cd7e80614e1c147cbba176",
+      "text": "Lowering enemy SP can suppress their attacks, but they also heal each turn. Check their current state."
+    },
+    "warnings.0": {
+      "sourceHash": "e32b579ed95f2a133d88bd00a677e344d1d9788a9e8384ca1a6fdf27a675651e",
+      "text": "This is a regular encounter. Do not follow a plan that assumes freely assigned targets as in Focused Encounters."
+    },
+    "warnings.1": {
+      "sourceHash": "bf849b9f72ff66dc93104f19d7dc264a9939d36b74720c8835e0f3f718f43600",
+      "text": "Clearing the opening too quickly may bring reinforcements while allied action slots are still insufficient."
+    },
+    "warnings.2": {
+      "sourceHash": "3d0625b487b261f6b7fa0ec1f016fdd41c5ed1f649d8cafca42cd87ca3383a30",
+      "text": "Aida is weak to Slash and resistant to Blunt. Keep those resistances distinct."
+    },
+    "warnings.3": {
+      "sourceHash": "033ea97a47303dd45c68b2cab362c2045500893d806a5f2eb0f3b56224e29b85",
+      "text": "The Attack Power Down value of ¿Eso es todo? is unspecified. Do not fill it in as 3 just because Paralyze has that value."
+    },
+    "preparation.0": {
+      "sourceHash": "f17832626ca5492145c53ef5959c24cc698bfb109444a618bf25dc5721d35770",
+      "text": "Raise 5 core Sinners to around the recommended Lv. 13. Prepare levels that can win Clashes and a selection of Slash skills."
+    },
+    "preparation.1": {
+      "sourceHash": "6378a6d490eff30ed27bdaed40c6c080168de8ef66d8a6733e2c912e81f8628e",
+      "text": "If E.G.O is available, save it to recover unfavorable Clashes. Offset Evade with defense instead of always trying to overpower it."
+    },
+    "roles.0.name": {
+      "sourceHash": "feddd606c55e14893047f0ba88b3e1f7cd5d2bad5c179b4cf27ac82a545b05dc",
+      "text": "Core Slash attackers"
+    },
+    "roles.0.reason": {
+      "sourceHash": "9bb05cbf61491ab76a7d6a52e545e3c6e7c98b67906a47d2fbd373ea55c2c51e",
+      "text": "Exploit the adds' and Aida's Slash weakness to Stagger and defeat them."
+    },
+    "roles.1.name": {
+      "sourceHash": "8bc5f1223c7c1e7d4f55e0a06f5604240804195d7a175cf55a3f2ba20d6497f2",
+      "text": "Defense Skills in slots targeting Evade"
+    },
+    "roles.1.reason": {
+      "sourceHash": "786525f4b515baf5f8a6b066c86f5df0c9729563d8d10a65b36cf6fd3e6ce811",
+      "text": "Prevent SP loss and lowered Stagger Thresholds from successful Evades."
+    },
+    "roles.2.name": {
+      "sourceHash": "6d3db7c6ab803bc916308719f84cf955b645c9ff847675cbcca102bce1a34fe5",
+      "text": "SP recovery"
+    },
+    "roles.2.reason": {
+      "sourceHash": "92c4ead8f3633f1628a14f71596ee80968734e7a7d32f9beae12687cea23e37e",
+      "text": "Restore SP lost through Evades and failed Clashes to reduce the Heads chance gap between your team and the enemies."
+    }
+  },
+  "messages": {
+    "boss-copy:aido": "complete",
+    "【リンバス】2-18 アイド（2-18）の攻略｜Limbus Assistant": "2-18 Aida (2-18) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)2-18「アイド（2-18）」の攻略。取り巻きを急いで倒しすぎず、味方の行動スロットを増やしてから増援を迎える。回避には守備で相殺し、精神力を削られる連鎖を止める。アイドを倒すと残った敵の精神力を大…": "Aida (2-18) guide for Limbus Company 2-18. Avoid clearing the initial adds too quickly; let allied action slots grow before facing the reinforcements. Offset Evade with Defense Skills to stop repeated SP loss. Defeating Aida greatly reduces the remaining enemies' SP.",
+    "2-18 アイド（2-18）": "2-18 Aida (2-18)",
+    "2-18「Victor」": "2-18 · Victor",
+    "アイドの外見": "Aida appearance",
+    "アイドのスキル": "Aida skills",
+    "Aidaの外見": "Aida appearance",
+    "Aidaのスキル": "Aida skills",
+    "陽気なマリアッチの組織員の外見": "Mariachi Alegre appearance",
+    "陽気なマリアッチの組織員のスキル": "Mariachi Alegre skills",
+    "Mariachi Alegreの外見": "Mariachi Alegre appearance",
+    "Mariachi Alegreのスキル": "Mariachi Alegre skills",
+    "軽快なマリアッチの組織員の外見": "Mariachi Vivaz appearance",
+    "軽快なマリアッチの組織員のスキル": "Mariachi Vivaz skills",
+    "Mariachi Vivazの外見": "Mariachi Vivaz appearance",
+    "Mariachi Vivazのスキル": "Mariachi Vivaz skills"
+  }
+}

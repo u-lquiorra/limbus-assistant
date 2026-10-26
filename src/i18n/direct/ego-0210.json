@@ -1,0 +1,20 @@
+{
+  "sourceGuide": "src/data/guides/ego/0210.md",
+  "code": "0210",
+  "messages": {
+    "自分に火傷を溜めて紅炎殺人格の火傷付与量を伸ばす、専用寄りの憤怒打撃E.G.O。自爆を生き延びる効果は短い延命にとどまる。": "A largely dedicated Wrath Blunt E.G.O that stacks Burn on herself to increase the Burn infliction of her Ardor Blossom Star Identity. Its effect for surviving the self-destruction only buys a little extra time.",
+    "自分への火傷: 攻撃後に火傷10と火傷回数1を自分が得る。火傷を使う人格の強化向けで、そうでない人格には自傷になる。": "**Burn on herself**: After the attack, she gains 10 Burn and 1 Burn Count. It is meant to strengthen Identities that use Burn; for others, it is just self-damage.",
+    "火傷が多いほど強い: 攻撃前に、全攻撃対象と自分の火傷威力の合計10につき最終威力+1(最大2)。自分の火傷が15以上なら、次のターンに憤怒ダメージ量増加1を得る。": "**Stronger with more Burn**: Before attacking, +1 Final Power for every 10 total Burn Potency on all targets and herself, up to 2. If she has at least 15 Burn, she gains 1 Wrath DMG Up next turn.",
+    "残り火: 自分の火傷が15以上のとき、Ⅱコインの攻撃終了時に全攻撃対象へ残り火1を付与する。": "**Embers**: While she has at least 15 Burn, at the end of Coin Ⅱ's attack, inflicts 1 Embers on all targets.",
+    "パッシブ「消えない火種」: 自分の火傷10につき、基本攻撃スキルが敵へ付与する火傷威力+1(最大2)。さらに「紅炎殺 最大感応【劣化侵蝕】」の使用後は、死亡せずに体力を40%回復する(戦闘につき1回)。": "**Passive — Unsnuffed Embers**: For every 10 Burn on herself, the Burn Potency her basic attack skills inflict on enemies increases by 1, up to 2. In addition, after using A.B.S Max Attunement 【Degraded Corrosion】, she does not die and instead recovers 40% HP, once per battle.",
+    "侵蝕スキル: 覚醒より広い加重値5の3コインで、失った体力が50%以上なら火傷に応じて精神力を回復する。残り火も多く付与できる。": "**Corrosion skill**: 3 Coins with 5 Attack Weight, wider than Awakening. If she has lost at least 50% of her HP, it restores SP based on Burn. It can also inflict plenty of Embers.",
+    "紅炎殺人格の火傷が溜まった状態で撃ち、基本スキルの火傷付与を増やす。": "Use it while her Ardor Blossom Star Identity has plenty of Burn to increase her basic skills' Burn infliction.",
+    "自爆を生き延びる効果は戦闘中1回だけで、スキルが増えるわけではない。自爆で攻撃を止める使い方は難しくなると考えられる。": "The survival effect only works once per battle and does not add any skills. It likely makes it harder to use the self-destruction to stop an attack.",
+    "資源は憤怒3・怠惰2・傲慢2。資源に余裕のある場面向けで、撃たなくても紅炎殺人格は回ると考えられる。": "It requires 3 Wrath, 2 Sloth, and 2 Pride. It is for situations with spare resources, and the Ardor Blossom Star Identity likely works fine without it.",
+    "Ⅱ: パッシブが解放される。自爆を活かす運用なら、パッシブの無い解析Ⅰの方が噛み合うと考えられる。": "**Ⅱ**: Unlocks the passive. If you rely on the self-destruction, Threadspin Ⅰ without the passive is likely a better fit.",
+    "Ⅲ: 威力が上がり、憤怒共鳴に応じた火傷付与が加わる。": "**Ⅲ**: Raises power and adds Burn infliction based on Wrath Resonance.",
+    "Ⅳ: 憤怒共鳴に応じた火傷回数の増加が加わり、侵蝕の精神力回復上限が上がる。": "**Ⅳ**: Adds more Burn Count based on Wrath Resonance and raises the cap on the Corrosion skill's SP recovery.",
+    "LCE E.G.O:: 紅炎殺: パッシブが「紅炎殺 最大感応【劣化侵蝕】」を直接参照し、S3が憤怒、S1が怠惰、S2が傲慢で必要資源も出せる。": "**[LCE E.G.O:: Ardor Blossom Star](persona:0211)**: The passive directly references A.B.S Max Attunement 【Degraded Corrosion】, and her Wrath S3, Sloth S1, and Pride S2 supply the required affinities.",
+    "夜明事務所フィクサー: S1が火傷を付与する傲慢スキルで、このE.G.Oで自分の火傷を得れば付与量が増える。パッシブで火傷の被ダメージも抑えられる。": "**[Dawn Office Fixer](persona:0216)**: Her Pride S1 inflicts Burn, and gaining Burn on herself through this E.G.O increases that amount. Her passive also reduces damage taken from Burn."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0302.md",
+  "code": "0302",
+  "messages": {
+    "S2・S1で充電を10以上貯め、5コインのS3「空間切断」をコイン威力+4の状態で撃ち、マッチとダメージの両方を取る人格。": "Use S2 and S1 to build at least 10 Charge, then unleash the 5-Coin S3 Rip Space with +4 Coin Power for both clash strength and damage.",
+    "S3「空間切断」: 5コイン(基本威力1、コイン威力+2)。使用時に充電回数10を消耗してコイン威力+4になり、1コインあたり+6まで伸びる。充電回数が10未満だと体力が20%減少する。 Ⅴコインの表面的中時に破裂5を付与する。": "**S3 — Rip Space**: 5 Coins (1 Base Power, +2 Coin Power). On use, spends 10 Charge Count to gain +4 Coin Power, reaching up to +6 per Coin. **With less than 10 Charge Count, she loses 20% of her HP.** Coin Ⅴ inflicts 5 Rupture on Heads Hit.",
+    "S2「跳躍」が主な充電源: 3コイン。Ⅰ・Ⅱコインの的中時に充電回数が4ずつ増える。コインが破壊されて的中しないと、その分の充電は得られない。充電回数7以上でコイン威力+1。Ⅲコインの表面的中時に脆弱1/2を付与する。": "**S2 Leap is her main Charge source**: 3 Coins. On hit, Coins Ⅰ and Ⅱ each increase Charge Count by 4. If a Coin is broken and does not hit, she gets no Charge from it. +1 Coin Power at 7 or more Charge Count. Coin Ⅲ inflicts 1/2 Fragile on Heads Hit.",
+    "S1「切断」: Ⅰコインの表面的中時に充電回数2/4を得て、表面的中時/的中時に破裂1を付与する。充電回数5以上でコイン威力+2。1コインのため、表面が出ないと充電を得られない。": "**S1 — Rip**: Gains 2/4 Charge Count on Coin Ⅰ Heads Hit and inflicts 1 Rupture on Heads Hit/on hit. +2 Coin Power at 5 or more Charge Count. It has only 1 Coin, so she gains no Charge unless it lands Heads.",
+    "充電: 最大20。ターン終了時に回数が1減少する。": "**Charge**: Maximum 20. Count decreases by 1 at Turn End.",
+    "サポートパッシブ「折られた心」(憂鬱×3・共鳴・同期化Ⅲで取得): 速度が最も高い味方1名の、最初のスキルの最終威力+1。": "**Support passive — Broken Spirit (3 Gloom Resonance; unlocked at Uptie Ⅲ)**: The first skill of the 1 fastest ally gains +1 Final Power.",
+    "序盤はS2に余裕のあるマッチを任せて、コインを壊されずに充電を取る。S1は精神力が上がってから使うか、一方攻撃で表面を狙う。ターン終了時に回数が減ることも見込んで充電回数を10以上にし、S3「空間切断」でマッチを取る。10未満で撃つと体力を失うので、オート戦闘では特に注意する。": "Early on, leave Clashes she can comfortably win to S2 and collect Charge without having her Coins broken. Use S1 once her SP is up, or aim for Heads with one-sided attacks. Allow for the Count lost at Turn End, bring Charge Count to 10 or more, and take the Clash with S3 Rip Space. Using it below 10 costs HP, so be especially careful in auto battle."
+  }
+}

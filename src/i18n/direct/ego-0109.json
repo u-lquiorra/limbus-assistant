@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0109.md",
+  "code": "0109",
+  "messages": {
+    "ロボトミーE.G.O::厳粛な哀悼のイサンに振動付与などの専用効果を与える、強化パーツ向けの5コイン広域乱射E.G.O。": "A 5-Coin E.G.O that distributes attacks across multiple targets and chiefly serves as an upgrade for Lobotomy E.G.O:: Solemn Lament Yi Sang, granting him special benefits including Tremor application.",
+    "パッシブ(解析Ⅱで解放): 哀悼のイサンは基本スキルの的中時に振動2が付き、沈潜・振動を付与する人格として扱われる。生きた蝶・死んだ蝶の上限が+10され、再装填後に精神力を10回復し(代わりに基本攻撃スキルを1つ捨てる。1ターン2回)、守備スキルを装着したターン終了時にも精神力を10回復する。": "**Passive (unlocked at Threadspin Ⅱ)**: While equipped at this tier, Solemn Lament Yi Sang's Base Skills inflict 2 Tremor on hit, once per skill; both the Identity and his Base Skills count as inflicting Sinking and Tremor. The following additional benefits activate from the turn after using the E.G.O: his ammunition cap for The Living & The Departed increases by 10. After Reloading, restores 10 SP and Discards 1 Base Attack Skill, up to 2 times per turn. Equipping a defense skill also restores 10 SP at Turn End.",
+    "蝶の付与と消耗: Ⅰ〜Ⅳコインの的中で対象にランダムに蝶を付与し(1・2・2・3)、Ⅴコインが自分の生きた蝶・死んだ蝶を全て消耗して沈潜3・振動3を付与し、振動爆発を起こす。対象に付ける蝶と、自分が持つ生きた蝶・死んだ蝶は別のもの。": "**Applying and spending Butterfly**: Coins Ⅰ–Ⅳ randomly apply Butterfly to their targets on hit, in amounts of 1, 2, 2, and 3. Coin Ⅴ consumes all of his own ammunition, The Living & The Departed, inflicts 3 Sinking and 3 Tremor, and triggers Tremor Burst. Butterfly on the target and Yi Sang's own ammunition are separate resources.",
+    "解析で伸びる火力: 解析ⅢでⅤコインに、対象の全蝶に応じた憂鬱ダメージが加わる。解析Ⅳでは、Ⅳコインに憂鬱脆弱と憂鬱耐性弱化が付き、Ⅰ〜Ⅳコインにも沈潜回数の増加が付く。": "**Damage from Threadspin upgrades**: Threadspin Ⅲ adds Gloom damage on Coin Ⅴ based on all Butterfly on the target. Threadspin Ⅳ adds Gloom Fragility and Gloom Resist Down to Coin Ⅳ, plus Sinking Count increases on Coins Ⅰ–Ⅳ.",
+    "哀悼イサン専用の効果: 使用するイサン人格が哀悼なら、攻撃前に(憂鬱共鳴数+1)だけ生きた蝶・死んだ蝶を得て(最大7)、攻撃後に再装填する。再装填では精神力を((30−保有する生きた蝶・死んだ蝶)÷2)消耗する。": "**Benefits exclusive to Solemn Lament Yi Sang**: Before attacking, that Identity gains ammunition equal to Gloom Resonance + 1, up to 7, then Reloads after attacking. Reloading costs SP equal to (30 − remaining ammunition) ÷ 2.",
+    "解析Ⅱで解放されるパッシブが主な価値で、スキルは強化パーツのおまけ程度に使うと考えられる。": "The passive unlocked at Threadspin Ⅱ is its main value. Treat the attack itself as a secondary benefit of activating this upgrade.",
+    "蝶は対象に付けて使うので、敵1体を集中して狙う方が伸びると考えられる。蝶を使い切って再装填するため、精神力に余裕のあるときに撃つ。": "Since Butterfly is applied to targets, focusing on one enemy can improve the payoff. The skill expends ammunition and Reloads, so use it with SP to spare.",
+    "全コインが破壊不能コイン。マッチ威力は6〜16(解析Ⅳは6〜21)で、解析Ⅳでは対象の沈潜と全蝶の合計4につき+1(最大+4)される。": "All Coins are Unbreakable. Its Clash range is 6–16, or 6–21 at Threadspin Ⅳ. Threadspin Ⅳ also adds +1 Clash Power per 4 combined Sinking Potency and Butterfly on the main target, up to +4.",
+    "必要資源は怠惰1・憂鬱4・傲慢2、精神消耗は覚醒20・侵蝕25・OC38。": "Costs 1 Sloth, 4 Gloom, and 2 Pride. SP cost: 20 Awakening, 25 Corrosion, 38 Overclock.",
+    "耐性は暴食・嫉妬が脆弱(×2)、憂鬱が耐性(×0.5)。": "Sin resistances: Fatal to Gluttony and Envy (×2); Ineffective against Gloom (×0.5).",
+    "Ⅱ: パッシブが解放され、哀悼のイサンに振動付与などの専用効果が付く。": "**Ⅱ**: Unlocks the passive: equipping it grants Solemn Lament Yi Sang Tremor application; the other listed benefits begin the turn after E.G.O use.",
+    "Ⅲ: Ⅴコインに蝶に応じた憂鬱ダメージが加わる。": "**Ⅲ**: Adds Butterfly-based Gloom damage to Coin Ⅴ.",
+    "Ⅳ: 憂鬱脆弱・憂鬱耐性弱化、コイン威力+3、マッチ威力強化が加わり、大きく強化される。": "**Ⅳ**: Adds Gloom Fragility and Gloom Resist Down, raises Coin Power from +2 to +3, and adds the Clash Power condition, substantially improving the E.G.O.",
+    "ロボトミーE.G.O::厳粛な哀悼: このE.G.Oの専用効果(蝶・再装填・振動付与)の対象になる人格。S2・守備が憂鬱で、必要資源も出せる。": "**[Lobotomy E.G.O:: Solemn Lament](persona:0110)**: The Identity that receives this E.G.O's special Butterfly, Reload, and Tremor benefits. Gloom S2 and defense help supply its resources.",
+    "開花E.G.O::壇香梅: 沈潜と振動を扱う人格で、このE.G.Oと系統が噛み合う。": "**[Effloresced E.G.O::Spicebush](persona:0104)**: Uses both Sinking and Tremor, matching this E.G.O's effects."
+  }
+}

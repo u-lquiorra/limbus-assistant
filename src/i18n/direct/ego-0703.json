@@ -1,0 +1,19 @@
+{
+  "sourceGuide": "src/data/guides/ego/0703.md",
+  "code": "0703",
+  "messages": {
+    "資源5つの軽さで広域・麻痺・クイックをまとめて出し、被弾で体力と充電を回すパッシブも持つ憂鬱打撃E.G.O。": "A light Gloom Blunt E.G.O that, for just 5 resources, delivers multi-target attacks, Paralyze, and Haste together, with a passive that cycles HP and Charge when hit.",
+    "軽い広域: 必要資源が憂鬱3・嫉妬2と軽いのに、威力が高く、攻撃加重値は解析Ⅳで3になる。": "**Light multi-target**: Despite light requirements of 3 Gloom and 2 Envy, its power is high, and Attack Weight becomes 3 at Threadspin Ⅳ.",
+    "麻痺と次ターンのクイック: 的中時に麻痺3を付与し(解析Ⅲで憂鬱脆弱1も付く)、次のターンにクイック2を得る。麻痺は味方のマッチを助ける。": "**Paralyze and next-turn Haste**: Inflicts 3 Paralyze on hit (plus 1 Gloom Fragility at Threadspin Ⅲ) and grants 2 Haste next turn. Paralyze helps allies' Clashes.",
+    "失った体力で充電: 攻撃前に、失った体力10%につき充電を1増やす(最大5、解析Ⅲは7)。": "**Charge from lost HP**: Before attacking, increases Charge by 1 per 10% HP lost, up to 5 (7 at Threadspin Ⅲ).",
+    "パッシブ「神経質な放電」: 被ダメージ時に充電1を消耗して体力を2.5%回復し、体力が40%未満なら充電が増えて回復も発動する。被弾が前提で、体力が減るまではほぼ働かない。": "**Passive — Temperamental Discharge**: When taking damage, spends 1 Charge to recover 2.5% HP, and below 40% HP, Charge increases and the recovery also triggers. It assumes taking hits and barely works until his HP drops.",
+    "広域で麻痺を配り、味方のマッチを楽にする使い方が基本。": "The basic use is spreading Paralyze across multiple targets to make allies' Clashes easier.",
+    "「神経質な放電」を狙うなら、ガードや保護で被ダメージを抑え、被弾で体力が回復する形にする。混乱には注意。": "If you aim for Temperamental Discharge, limit damage taken with Guard or Protection so that hits end up restoring HP. Watch out for Stagger.",
+    "侵蝕スキルは減算型で、解析Ⅲ以降は裏面的中時に体力を消耗する。": "The Corrosion skill is a Minus Coin type that costs HP on Tails Hit from Threadspin Ⅲ.",
+    "Ⅱ: 「神経質な放電」が解放される。": "**Ⅱ**: Unlocks Temperamental Discharge.",
+    "Ⅲ: 基本威力が上がり、憂鬱脆弱の付与が加わる。侵蝕スキルの裏面的中時の充電獲得が加わる。": "**Ⅲ**: Raises Base Power and adds Gloom Fragility infliction. Adds Charge gain on Tails Hit to the Corrosion skill.",
+    "Ⅳ: 覚醒スキルの攻撃加重値が1から3になり、損のない強化と考えられる。": "**Ⅳ**: The Awakening skill's Attack Weight goes from 1 to 3, likely an upgrade with no downside.",
+    "ロボトミーE.G.O::狐雨: S1(嫉妬)とS2(憂鬱)で資源を出せ、パッシブが沈潜分の保護と被ダメージ後の打撃ダメージ量増加を与えるので、被弾前提の運用に合う。": "**[Lobotomy E.G.O:: Sunshower](persona:0705)**: S1 (Envy) and S2 (Gloom) supply resources, and his passive grants Protection equal to Sinking and Blunt DMG Up after taking damage, suiting a playstyle built on taking hits.",
+    "マルチクラック事務所フィクサー: S2(嫉妬)・S3(憂鬱)で資源を出せ、S2は体力を消費して充電を増やすため、充電を使うパッシブと相性が良いと考えられる。": "**[MultiCrack Office Fixer](persona:0709)**: S2 (Envy) and S3 (Gloom) supply resources, and his S2 spends HP to increase Charge, likely pairing well with the Charge-using passive."
+  }
+}

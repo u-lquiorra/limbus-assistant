@@ -1,0 +1,1004 @@
+{
+  "kind": "boss-copy",
+  "id": "dream-devouring-siltcurrent",
+  "source": "src/data/bosses/dream-devouring-siltcurrent.ts",
+  "provenance": {
+    "translation": "Direct translation of the public Japanese guide. Original guide sources remain in its metadata.",
+    "gameLocalization": {
+      "repository": "https://github.com/x1bViolet/Limbus-Localization-Files",
+      "japaneseRevision": "78fde566dc7189175e3b190a828c7db334fd0807",
+      "englishRevision": "c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+      "nameChecks": [
+        {
+          "ja": "夢貪る濁流",
+          "en": "Dream-Devouring Siltcurrent",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8102"
+        },
+        {
+          "ja": "蛍光灯の破片",
+          "en": "Fluorescence Shard",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBb"
+        },
+        {
+          "ja": "盲目",
+          "en": "Blind Obsession",
+          "file": "Bufs-a1c5p3.json",
+          "id": "AaCePcBc"
+        },
+        {
+          "ja": "漂流物",
+          "en": "Flotsam",
+          "file": "Enemies-a1c5p3.json",
+          "id": "8108"
+        },
+        {
+          "ja": "首を絞める縄",
+          "en": "Noose",
+          "file": "EGOgift_StoryDungeon-a1c5p3.json",
+          "id": "2017"
+        },
+        {
+          "ja": "強迫",
+          "en": "Compulsion",
+          "file": "Bufs-a1c5p1.json",
+          "id": "AaCePaBa"
+        },
+        {
+          "ja": "頭突き",
+          "en": "Headbutt",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810201"
+        },
+        {
+          "ja": "突っ込む",
+          "en": "Pound",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810202"
+        },
+        {
+          "ja": "襲いかかる濁流",
+          "en": "Crashing Siltcurrent",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810205"
+        },
+        {
+          "ja": "彷徨う盲目",
+          "en": "Wayward Blind Obsession",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810206"
+        },
+        {
+          "ja": "逆巻く",
+          "en": "Sweep",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810207"
+        },
+        {
+          "ja": "もがく",
+          "en": "Wriggle",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810208"
+        },
+        {
+          "ja": "拡散する酸素",
+          "en": "Expanding Oxygen",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810201"
+        },
+        {
+          "ja": "水中呼吸",
+          "en": "Underwater Breathing",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810202"
+        },
+        {
+          "ja": "濁流",
+          "en": "Siltcurrent",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810203"
+        },
+        {
+          "ja": "堅牢",
+          "en": "Harden",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810801"
+        },
+        {
+          "ja": "流される漂流物",
+          "en": "Rolling Flotsam",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810802"
+        },
+        {
+          "ja": "破壊された漂流物",
+          "en": "Destroyed Flotsam",
+          "file": "Passives_Abnormality-a1c5p3.json",
+          "id": "810803"
+        },
+        {
+          "ja": "推し潰す",
+          "en": "Press",
+          "file": "Skills_Abnormality-a1c5p3.json",
+          "id": "810203"
+        },
+        {
+          "ja": "他人の鎖",
+          "en": "Chains of Others",
+          "file": "Egos.json",
+          "id": "20501"
+        },
+        {
+          "ja": "精神力減少効率",
+          "en": "SP Loss Efficiency",
+          "file": "Bufs.json",
+          "id": "MentalSystemResultDecrease_Typo"
+        }
+      ],
+      "guideAlias": {
+        "ja": "押し潰す",
+        "en": "Press",
+        "gameJa": "推し潰す",
+        "file": "Skills_Abnormality-a1c5p3.json",
+        "id": "810203"
+      }
+    }
+  },
+  "scopedTerms": [
+    "押し潰す"
+  ],
+  "entries": {
+    "name": {
+      "sourceHash": "2920d0fbb4d75a92f13817afccab98df5eae5df5a46adde271dd7611396b09a2",
+      "text": "Dream-Devouring Siltcurrent (Canto V)"
+    },
+    "shortName": {
+      "sourceHash": "d5d44c5627c333fa0f16d4c9ff970ad1f5556b0008cb60719d44d8ed4708819f",
+      "text": "Dream-Devouring Siltcurrent"
+    },
+    "stageName": {
+      "sourceHash": "0170de6bff5465e8f25a2002929d95cdb33dfc7a53128f0cbf85d61b3b852f6d",
+      "text": "Into the Darkness, Floor 3: Assembly Point Before the Heart"
+    },
+    "lead": {
+      "sourceHash": "ae9cb7d317beb6f24e684bccbb131fd6c4610a66713f0a5cafc16456b1a37d43",
+      "text": "Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through Wayward Blind Obsession. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates."
+    },
+    "statNote": {
+      "sourceHash": "be663aecb2c29e847b41d231d4badd1d5667ccaf528c41c776540583e0e86ff2",
+      "text": "The regular Canto V encounter. Overall HP is 1102, Body HP is 882, and Fluorescent Lamp HP is 330; Part HP is not added to determine overall HP. The Lamp remains targetable and can act after breaking, then regenerates 2 turns later. Ishmael must deploy while alive and cannot be replaced with a Support Identity. Noose assists her to Level 40 and Uptie/Threadspin IV. She begins each fight at -25 SP, so do not rely on her alone for strong opening Clashes or costly E.G.O."
+    },
+    "priorities.0": {
+      "sourceHash": "5e8457c557e83b7104c43f116bcc5bf8bb946989bbde5d759e4475e1717f1f2e",
+      "text": "Prepare high-Base-Power or negative-Coin skills for the first Blind Obsession, accounting for Paralyze."
+    },
+    "priorities.1": {
+      "sourceHash": "8f1cd555baee2b292e68aac98f27684288c7cab3030300ee2771db52d8104b2d",
+      "text": "Destroy Flotsam to meet the condition that changes the next Blind Obsession into Wayward Blind Obsession."
+    },
+    "priorities.2": {
+      "sourceHash": "bdea5612ce953e98ee3aca97e4cc8efa83764061b2500bb68bb5a0e35f370b28",
+      "text": "Break the Fluorescent Lamp to limit Paralyze and Bind, then damage the boss."
+    },
+    "troubleshooting.0.symptom": {
+      "sourceHash": "7bb41c7ef41812b092a8671bea1ddbaf9f816df9fe8675857076e1cea2dcf88d",
+      "text": "Normally strong E.G.O loses to Blind Obsession"
+    },
+    "troubleshooting.0.advice": {
+      "sourceHash": "14f578fd31e7c82ff6ff9c5937e0e39a36528b350a84f365ed036055dd2ec85f",
+      "text": "From turn 2, 1 Paralyze sets Coin Power to 0 for one roll. Use high Base Power or negative Coins that do not rely on Plus Coin Power, or apply enemy power debuffs the turn before."
+    },
+    "troubleshooting.1.symptom": {
+      "sourceHash": "2de7e25b588f0b9f37b572c59427c43258efbc1ad226887f73355177f2e976a0",
+      "text": "Attacks do not damage Flotsam"
+    },
+    "troubleshooting.1.advice": {
+      "sourceHash": "4b00b8f18b8eb1b60f7df81955d6c51bb3e8e1b72e18ecb2ee9fce158e17e42f",
+      "text": "Harden nullifies damage below 12. Use strong attacks that deal at least 12 per hit rather than many small hits."
+    },
+    "troubleshooting.2.symptom": {
+      "sourceHash": "184298f628117d511edbd1ba62d59df304754a991a0ea60703e900c91f681c60",
+      "text": "Sinking still applies after the Lamp breaks"
+    },
+    "troubleshooting.2.advice": {
+      "sourceHash": "9fcecdb0ffec25445abfd34a22a9e474b8968893683a40e8b413d86f7aba5313",
+      "text": "Fluorescence Shard prevents Siltcurrent's recurring Paralyze, Bind, and SP loss. It does not prevent all Sinking from attacks; some skills even increase Sinking Count on targets with the Shard."
+    },
+    "phases.0.timing": {
+      "sourceHash": "1543d550c4fee3e34fd30b81471b1356242949600719f24dbeff274db2e46168",
+      "text": "Before deployment"
+    },
+    "phases.0.title": {
+      "sourceHash": "672b086bcb1f8fdaf592996f73af722f1f059f0bf33a7af56e41b109742b0451",
+      "text": "Prepare an answer to the first Blind Obsession under Paralyze"
+    },
+    "phases.0.steps.0": {
+      "sourceHash": "5e1d91a44d92df6d7df18e322d3455e3a2340ec2bfa38e17c6c31d6c58ce3fbd",
+      "text": "Recommended Level 40; deployment limit 6. Turn 2's Blind Obsession rolls 15–23, with 1 Paralyze affecting your Sinners. Bring high-Base-Power or negative-Coin skills."
+    },
+    "phases.0.steps.1": {
+      "sourceHash": "2a4a152f54377f334d03274c230bc0e8296f165cdefc8b3746252db6b2468ca9",
+      "text": "If using Meursault's Chains of Others, land it on turn 1 to prepare turn 2's debuffs. Save its E.G.O resources and the user's SP too."
+    },
+    "phases.0.steps.2": {
+      "sourceHash": "6039c8a638caf5480c05b05ab2337d15895f1c1e929f85ea108a1465b0df34f5",
+      "text": "Deploying fewer Sinners can give extra slots to your main units, but fewer opening actions make the start less stable. First try 6 Sinners with assigned answers to dangerous skills and Flotsam."
+    },
+    "phases.1.timing": {
+      "sourceHash": "fb3f9464370b0f38df121e08d9e5bcc08236c00b9a46b90b1e7de265803c0366",
+      "text": "Turn 1"
+    },
+    "phases.1.title": {
+      "sourceHash": "f69ec26dce7149f21e4df17f8eb3eacbb78bde7a1c41bdadf975c83893a6252d",
+      "text": "Do not try to win against the unclashable terrain change"
+    },
+    "phases.1.steps.0": {
+      "sourceHash": "b700392750cf0d584fbb27172e17bf6217e189cbe04840e2b166a42905ff91d9",
+      "text": "Crashing Siltcurrent is unclashable. Powerful E.G.O cannot Clash with it to stop the terrain change. Handle regular Clashes and prepare for next turn instead."
+    },
+    "phases.1.steps.1": {
+      "sourceHash": "c32316c55cd4b96c78a60fee5d787210d28770b058465f015c97af41e22a5b1f",
+      "text": "From turn 2, Sinners without Fluorescence Shard receive 1 Paralyze, 1 Bind, and -3 SP. Use opening debuffs or healing, and save your main units' answers to Blind Obsession."
+    },
+    "phases.1.steps.2": {
+      "sourceHash": "5a48718e328309c8d1b249167211ca43b49e2547e36d191b32fdf76e20cbcfc6",
+      "text": "Sweep creates Flotsam at Turn End. Winning the Clash does not cancel its appearance."
+    },
+    "phases.2.timing": {
+      "sourceHash": "ae18c9faafb1ab7e4d38d5279195763ae24ebda46733556223ec38555756f1eb",
+      "text": "Turn 2 / first Blind Obsession"
+    },
+    "phases.2.title": {
+      "sourceHash": "0a2ea3f13443db7b1930bd03bca291d4c677588e5c9bfed140dfc4b517f268a1",
+      "text": "Win under Paralyze to prevent Sinking Deluge"
+    },
+    "phases.2.steps.0": {
+      "sourceHash": "a972f847a97b9e829864b43a27cbbfebe2d18e5e75a003cc53b9ec646bce80a3",
+      "text": "Assign your prepared high-Base-Power or negative-Coin skill to Blind Obsession. Paralyze affects Coin rolls, so do not judge only by the skill's usual maximum."
+    },
+    "phases.2.steps.1": {
+      "sourceHash": "d83bdd194946b26a3c7ce94bb307e62ca73e4725a19c518a39a5ec8fd781dab6",
+      "text": "A Sinner with multiple slots can spend Paralyze in another Clash before facing Blind Obsession. Check action order and remaining Paralyze."
+    },
+    "phases.2.steps.2": {
+      "sourceHash": "26ebf41eb0162d7b835a19b86a490323faa26e54b166b05131bc7e616162386a",
+      "text": "Winning against Blind Obsession removes HP equal to 34% of the Lamp's Max HP and gives the enemy 1 Blind Obsession status. Repeated wins also help break the Part."
+    },
+    "phases.2.steps.3": {
+      "sourceHash": "e2ceb7acaa18ef2b0bc65f784da07dc06c842b3e33d3e079d0295001c524e6aa",
+      "text": "Do not assume Flotsam alone can always prevent the first cast. If Blind Obsession is already slotted, prepare a winning Clash."
+    },
+    "phases.3.timing": {
+      "sourceHash": "617c10befa5ebaaffd4e19d6681b98cac224adfd34b4e36d35ee980dde6f4f54",
+      "text": "After Flotsam appears"
+    },
+    "phases.3.title": {
+      "sourceHash": "a8a64c176db3805e0ba69635403a559173d07786aa0a9376d38ac2d4e0730f9c",
+      "text": "Destroy Flotsam before the next Blind Obsession"
+    },
+    "phases.3.steps.0": {
+      "sourceHash": "8c5bd630ba4fbc7c483e5c2c72b92884762e75740e0ef5135e45bca0e43c8f2e",
+      "text": "Flotsam has 50 HP and nullifies damage below 12. Use sufficient damage per hit to turn it into Destroyed Flotsam."
+    },
+    "phases.3.steps.1": {
+      "sourceHash": "9d2e098d8691c0b5ec2a91b801b8e8e5789485c10b2fe99aea80da1f6f3eb007",
+      "text": "Destroyed Flotsam meets the condition for the next Blind Obsession to become Wayward Blind Obsession. Do not assume it always immediately replaces a skill the enemy has already slotted."
+    },
+    "phases.3.steps.2": {
+      "sourceHash": "a409354cc2a146129e91b34776c0f561b036038b1d50016caf53488176714dec",
+      "text": "Wayward Blind Obsession is unclashable and cannot be redirected, targeting Destroyed Flotsam. Let it resolve to damage the Lamp rather than trying to intercept it with a Sinner."
+    },
+    "phases.3.steps.3": {
+      "sourceHash": "bef6431760cf40bd3131a70503680766a58f3ef9a7a70dd98b7bb7892b1f132b",
+      "text": "If intact Flotsam remains when Blind Obsession is used, its passive can deal 20 damage to a random Sinner at Turn End. Do not ignore it just because it has no actions."
+    },
+    "phases.4.timing": {
+      "sourceHash": "00c8afaf9c0891d91b2a5fdf61df3a65593d72b9223e536ce234f574c61862a4",
+      "text": "Breaking the Fluorescent Lamp"
+    },
+    "phases.4.title": {
+      "sourceHash": "1f3f7b36aff8ea97079020d25e0cc4d4b79948851d4959812a774305e4bdd0ad",
+      "text": "Use Shard support to damage the boss"
+    },
+    "phases.4.steps.0": {
+      "sourceHash": "f03fcc7dc140f1752fc2dbfe657764c68dcc562726458262a36ac4120f37dfe9",
+      "text": "Break the Lamp with direct attacks, Clash wins against Blind Obsession, and Wayward Blind Obsession's self-damage. It remains targetable after breaking. The Lamp takes 1.5× Pierce versus the Body's 1.0×, so Pierce attackers can keep targeting it."
+    },
+    "phases.4.steps.1": {
+      "sourceHash": "3b85b2aab0117474c72cb7d27952fc06d5cd2ef108bfdb0b2c24b8ea4dfa28bc",
+      "text": "Breaking it gives all Sinners Fluorescence Shard, exempting them from Siltcurrent's recurring Paralyze, Bind, and SP loss."
+    },
+    "phases.4.steps.2": {
+      "sourceHash": "022d8ee3ece31da12d4be3b7e3344a64ce4f4915812d5a49fd3dd6c0a92a5f8a",
+      "text": "The Shard also supports Poise, but you must still stop Sinking attacks. Press and Sweep add Sinking Count against Shard carriers, so this is not complete status immunity."
+    },
+    "phases.4.steps.3": {
+      "sourceHash": "0a1975abbc711080d0d6e024153d58897fa61c865fea0850619e5ac65bf9c8a0",
+      "text": "The Lamp regenerates 2 turns later. Keep handling Flotsam and use the opening with less Paralyze to finish the boss."
+    },
+    "mechanics.0.name": {
+      "sourceHash": "59f87bd56fe42d998de06226fc560768054585dd8b74c18c41c6c9eff47ca12a",
+      "text": "Fluorescence Shard"
+    },
+    "mechanics.0.effect": {
+      "sourceHash": "aff44f8f622afb6936efdc0a18f8d63340937b2ae11e861a55ea3ef1bc8e03fd",
+      "text": "All Sinners gain this when the Lamp breaks. At Turn Start, gain 3 Poise and 2 Poise Count. Siltcurrent's recurring debuffs target Sinners without this effect."
+    },
+    "mechanics.0.response": {
+      "sourceHash": "9143faf6297e86345b60bceb904df9e5a24579f6dce7a48d6ba8fa5bb8128583",
+      "text": "It does not prevent all Sinking from attacks. Also check Press and Sweep's conditions."
+    },
+    "mechanics.1.name": {
+      "sourceHash": "bb24f5613c3b9101974e114b6c3c6a3869fee2e52fafc7c88d81ca8526f4b3bd",
+      "text": "Blind Obsession"
+    },
+    "mechanics.1.effect": {
+      "sourceHash": "5d0c03194bda932b244d12f3b095d4632c1e73e9f6148ab1658fa7a728492c57",
+      "text": "The enemy's unique status causes Stagger at 3. It is separate from the Attack Skill of the same name. Do not assume this Stagger automatically stops its actions."
+    },
+    "mechanics.1.response": {
+      "sourceHash": "8d0654c6ddde444b5e043af153dba21b0b8bb4ebfe5e879004df6f0f728ef951",
+      "text": "Build it through Clash wins and self-damage while continuing to answer the currently slotted skills."
+    },
+    "mechanics.2.name": {
+      "sourceHash": "5fdefa046699ba57d599b010f63b1e3a324e36f520d1ee565347b5f3ba4d7f77",
+      "text": "Flotsam"
+    },
+    "mechanics.2.effect": {
+      "sourceHash": "b60af5366ad381132199a796b56c467af7456d7824143fdef41d2a3e4ec56e5f",
+      "text": "50 HP; no actions. Reducing its HP turns it into Destroyed Flotsam, enabling and becoming the target of the next Wayward Blind Obsession."
+    },
+    "mechanics.2.response": {
+      "sourceHash": "62d96453e34ed8443e3a80b5bfc95ebc2e4c4cfaa4966036c62373d884ae4bfc",
+      "text": "Deal at least 12 per hit and destroy it before the next Blind Obsession is selected."
+    },
+    "mechanics.3.name": {
+      "sourceHash": "7d947b2016e36e1da1ae520e5c0ab3f5f77a9634c6ada495d8c168dd89d0e6eb",
+      "text": "Chains of Others"
+    },
+    "mechanics.3.effect": {
+      "sourceHash": "53e80c4a5a271037401c8919f65ed621e324a1e1a3bb01caa188920e5f8e88f0",
+      "text": "Meursault's base E.G.O, which can prepare enemy debuffs for next turn."
+    },
+    "mechanics.3.response": {
+      "sourceHash": "480dfdb3d2aa9fb3699dd5bc7170d61dc9d91f37785decde6d8ad4346853c652",
+      "text": "To answer the first Blind Obsession, land it on turn 1."
+    },
+    "mechanics.4.name": {
+      "sourceHash": "5888f9c5d3fad49b523fe8c37630f156906c8e37d5b9affe70ae1bb73aaea234",
+      "text": "Noose"
+    },
+    "mechanics.4.effect": {
+      "sourceHash": "e298dd2fb92c18aedf132acfc5e606ed0c8635b7e28f14b52a804709432fec19",
+      "text": "A Canto V dungeon aid. Raises Ishmael to Level 40 if below 40 and assists Uptie/Threadspin to IV. Grants Compulsion each battle."
+    },
+    "mechanics.4.response": {
+      "sourceHash": "44eb9cb47638cb2c1ce50717d14f65568f6069652857ac9c268c165e75b3e73c",
+      "text": "Prepare other main units, resistances, and healing rather than rushing to raise only Ishmael."
+    },
+    "mechanics.5.name": {
+      "sourceHash": "3fa45d5e8209050e8468038f5534af1e7501a9b5f800bc11c6b5966a3ea9371c",
+      "text": "Compulsion"
+    },
+    "mechanics.5.effect": {
+      "sourceHash": "bbdca6c80e2943a7f8ee7572a972b78260ee461d0980f6a9a9c3394fdeb8d311",
+      "text": "Ishmael begins combat at -25 SP. At Turn Start, if SP is below 0, gain 3 Attack Power Up."
+    },
+    "mechanics.5.response": {
+      "sourceHash": "c5c6a2496779c665475b33072231796acb5b8aa76653e9b66d6b22142bd93be1",
+      "text": "Prioritize SP recovery and durability, and watch for E.G.O Corrosion at low SP."
+    },
+    "warnings.0": {
+      "sourceHash": "e82f17935063ee8284e13e92ca3442742ca4d071eacafb9f333c244b14257640",
+      "text": "The Lamp can still act after breaking. Do not stop assigning Clashes simply because it is broken."
+    },
+    "warnings.1": {
+      "sourceHash": "d735303803f7cce932f2b64543dcac0537e96c676c42d34c027183dc002fa237",
+      "text": "Destroying Flotsam differs from removing it entirely. Let Wayward Blind Obsession target the remaining wreckage."
+    },
+    "warnings.2": {
+      "sourceHash": "7e10df1b05c2fd6b686884ed18f1a5546c5b9039fd648fb13d7321319d1b70cc",
+      "text": "The initial 1 Paralyze weakens Plus Coin skills. Choose based on current Paralyze and action order rather than the usual maximum roll."
+    },
+    "warnings.3": {
+      "sourceHash": "53b6de58638d2c7146d2b2bfa43568d27befe71e1724c840aaed0ec14dbfb524",
+      "text": "Continue answering attacks during Stagger from the Blind Obsession status. Do not switch everyone to unopposed attacks based only on the Stagger animation."
+    },
+    "preparation.0": {
+      "sourceHash": "ef147aeb0b7364420fd35045633b5198235cb13633c951578c5e42fa3da5ca2e",
+      "text": "Prepare high-Base-Power or negative-Coin skills that win under Paralyze, opening enemy debuffs, and HP/SP recovery."
+    },
+    "preparation.1": {
+      "sourceHash": "b2a2cb5fa7540fd1715fb482cafb12b2813654a16b2cb9321d1a0b989566cf23",
+      "text": "Assign separate Flotsam breakers and Lamp attackers, using Pride/Envy and Slash/Pierce damage."
+    },
+    "roles.0.name": {
+      "sourceHash": "d7e05682cf63efa99e4516bbb4b0cdbd3a509d5afe4edd7ebf2c87f87e919a6f",
+      "text": "First Blind Obsession Clash"
+    },
+    "roles.0.reason": {
+      "sourceHash": "ef540261c9877db9c0e90588dac567c0e3172a5edc7752aca82624484f462cac",
+      "text": "Win under Paralyze and prevent Sinking Deluge."
+    },
+    "roles.1.name": {
+      "sourceHash": "f61d618e08f12af0687588649d5ce764e5627171a6336c6bdb524efa10c5f8af",
+      "text": "Early Flotsam destruction"
+    },
+    "roles.1.reason": {
+      "sourceHash": "1e7af21c1e24de4a84c781589f10e8ade42a541ead44606b21714681c6553fd4",
+      "text": "Turn later Blind Obsession casts into self-damaging skills."
+    },
+    "roles.2.name": {
+      "sourceHash": "a5e8e89aa66f627c1005e1c135ea05325d820422733f8fc702d877a11715a502",
+      "text": "Focused Lamp damage"
+    },
+    "roles.2.reason": {
+      "sourceHash": "6dbf22753bf0f75043d8447f8746414ffb0f5e6ca81622bc7e6dd6ccf0c45ba3",
+      "text": "Limit recurring debuffs and create openings for your main attackers."
+    },
+    "units.0.name": {
+      "sourceHash": "3aaeeaf720bb97da032922a3d8887ccaa4dca3380bf1f4d71249ba8bee030df5",
+      "text": "Dream-Devouring Siltcurrent (Body)"
+    },
+    "units.0.part": {
+      "sourceHash": "256863e05de0461b070315999d7eebcaecd36ffea66dd9cf8157b41fbf555486",
+      "text": "Body"
+    },
+    "units.0.hp": {
+      "sourceHash": "32fdf8e9cdef98344aa71d0885a0275adcab68ec4c927bbd91738073b5aeace2",
+      "text": "Overall 1102 / Part 882"
+    },
+    "units.0.stagger": {
+      "sourceHash": "33891027abfca57dacafbfb32403bb4df2624356ba8365c8cdf9fd308aa95fdd",
+      "text": "50% / 0% (441 / 0)"
+    },
+    "units.0.notes.0": {
+      "sourceHash": "b82565945374e4298031d7506af492a20667312ed630897e545369d0fdb18aea",
+      "text": "The Body cannot be broken. Pride and Envy are effective; Blunt deals 0.5× damage."
+    },
+    "units.0.notes.1": {
+      "sourceHash": "2584f16ec774d9c953889af86a2da28324d0624d06655beac2c797235ab8ec10",
+      "text": "Shared skills such as Blind Obsession are assigned between Body and Lamp, prioritizing Parts that are not Staggered."
+    },
+    "units.0.notes.2": {
+      "sourceHash": "ddaa564b016f77bacd4b91a5194ecf52e5cd88ddeeb030ef05f41643ada520df",
+      "text": "Continue answering planned attacks even during Stagger caused by the Blind Obsession status."
+    },
+    "units.1.name": {
+      "sourceHash": "ff0afec9419157b392b828ee6623fff3382fd1abc9d711340cab8a3adf72c4a3",
+      "text": "Dream-Devouring Siltcurrent (Fluorescent Lamp)"
+    },
+    "units.1.part": {
+      "sourceHash": "adb47274b7d2c97cfb5dde4212cc73dd49a108fcd448cb60065c2e36039137d6",
+      "text": "Fluorescence"
+    },
+    "units.1.hp": {
+      "sourceHash": "3a54b513013128bf209e4565952c032b6270e5815e6e4fd5db417f2d399bb7d4",
+      "text": "330 (separate from 1102 overall HP)"
+    },
+    "units.1.stagger": {
+      "sourceHash": "c83d9589070937a9aea4b46dcbea3ba6286e5dc9948c1d566d5099055eab1a4a",
+      "text": "0% / -50% (0 / -165)"
+    },
+    "units.1.notes.0": {
+      "sourceHash": "4f0b7c770c868234b9e3d64f42096dac11955eca7f33fa0c16d04b872973cf7a",
+      "text": "Remains targetable and can act after breaking. Regenerates 2 turns later."
+    },
+    "units.1.notes.1": {
+      "sourceHash": "db08557486462cf55c7d0f7bebe4b41f267dc49045228107ebab37ae0f3a64fe",
+      "text": "Losing a Clash with Blind Obsession, or completing Wayward Blind Obsession, removes HP equal to 34% of this Part's Max HP."
+    },
+    "units.1.notes.2": {
+      "sourceHash": "66dd5204a8f55d45a4440996e4756c80589b19f59db28d16edfcfabd2890b3e7",
+      "text": "Breaking it grants all Sinners Fluorescence Shard, reducing exposure to Siltcurrent's recurring debuffs."
+    },
+    "units.2.name": {
+      "sourceHash": "5fdefa046699ba57d599b010f63b1e3a324e36f520d1ee565347b5f3ba4d7f77",
+      "text": "Flotsam"
+    },
+    "units.2.part": {
+      "sourceHash": "5fdefa046699ba57d599b010f63b1e3a324e36f520d1ee565347b5f3ba4d7f77",
+      "text": "Flotsam"
+    },
+    "units.2.stagger": {
+      "sourceHash": "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+      "text": "None"
+    },
+    "units.2.notes.0": {
+      "sourceHash": "c4c272f73d9bcb72ab1ed7e7b3c72736d51b9406b50e378a2eda91ac75853e81",
+      "text": "Does not act. Appears at Turn End from Sweep."
+    },
+    "units.2.notes.1": {
+      "sourceHash": "fe2342a0abb18402eae5c14d41b3ebf034ce3b699c8bd0f0b7b3e0ee20f19c41",
+      "text": "Damage below 12 is nullified. All 3 physical resistances are 2.0, so use sufficient damage per hit."
+    },
+    "units.2.notes.2": {
+      "sourceHash": "2f61e5bbe99e2634ee135c04a935b5cf2fd64c945142495b74ac597cf088d68d",
+      "text": "Turns into Destroyed Flotsam rather than disappearing, becoming Wayward Blind Obsession's target."
+    },
+    "skills.0.name": {
+      "sourceHash": "e64ea9a61ddd173bd1f96c90f746c3ae09ef1f568bedac634e456f9672f4d85b",
+      "text": "Headbutt"
+    },
+    "skills.0.effects.0": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.0.response": {
+      "sourceHash": "c01bfe54287ccf21ada95e3af5129a56d8a982995319c489e86a32699bcc692e",
+      "text": "A regular 1-Coin Blunt attack. Prevent Sinking while saving strong skills for Blind Obsession."
+    },
+    "skills.1.name": {
+      "sourceHash": "16e0ba8d6a4d8f3f0d460aa871108a5b5f8b8aec0b317075ec319ada569aeebe",
+      "text": "Pound"
+    },
+    "skills.1.effects.0": {
+      "sourceHash": "63281bc8b8c9b063870c89dc7deeb089326125cc13fecc81a9f5a7a6c464013b",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.1.effects.1": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.1.response": {
+      "sourceHash": "53213618c2e4fdeb1a13dbfb052c3c64b86de1048db8708db7ce4ca3714e6efb",
+      "text": "Both Coins increase Sinking Count. Keep unopposed hits away from Sinners with high Sinking Potency."
+    },
+    "skills.2.name": {
+      "sourceHash": "77c1b613e70425555b6a38170d4dae20d815f96efa15b469a967017c7597a2cc",
+      "text": "Press"
+    },
+    "skills.2.effects.0": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.2.effects.1": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.2.effects.2": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.2.effects.3": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.2.response": {
+      "sourceHash": "9912f0e8c89e489872ae268f7815f300a1a5d38afb1aee379957e60065a8eb30",
+      "text": "The Lamp's Blunt attack also increases Sinking Count on Shard carriers. Keep Clashing with it even after the Lamp breaks."
+    },
+    "skills.3.name": {
+      "sourceHash": "bb24f5613c3b9101974e114b6c3c6a3869fee2e52fafc7c88d81ca8526f4b3bd",
+      "text": "Blind Obsession"
+    },
+    "skills.3.effects.0": {
+      "sourceHash": "ffdbb9f23d22475917a55fce42c46f42be8f3f4271ac55f51eea450e1b958e9b",
+      "text": "[Clash Lose] This unit's Fluorescent Lamp Part loses HP equal to 34% of the Part's Max HP."
+    },
+    "skills.3.effects.1": {
+      "sourceHash": "d38cc02fc64fb8d42c39b6419fe86434d7d23641fc89a914f50db164c8c8c005",
+      "text": "[Clash Lose] Gain 1 Blind Obsession."
+    },
+    "skills.3.effects.2": {
+      "sourceHash": "63281bc8b8c9b063870c89dc7deeb089326125cc13fecc81a9f5a7a6c464013b",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.3.effects.3": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.3.effects.4": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.3.effects.5": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.3.effects.6": {
+      "sourceHash": "056b8c45beaaeec2534168632d96aa16a74f276c6af18b5180fb4c9931418fc0",
+      "text": "Ⅲ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.3.effects.7": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.3.effects.8": {
+      "sourceHash": "ce1bd1d5bca4ff4cc56512dce8bec6424713e032c4965fa2edd9b8e60ae59d06",
+      "text": "Ⅳ[On Hit] Trigger Sinking Deluge."
+    },
+    "skills.3.response": {
+      "sourceHash": "076e56d424807f0653c0e9f5ca7a45e57aedba07cdd73a16a4fbf015d8976db8",
+      "text": "A 4-Coin skill rolling 15–23, ending with Sinking Deluge. Use high Base Power or negative Coins that can win despite 1 Paralyze. Winning removes HP equal to 34% of the Lamp's Max HP."
+    },
+    "skills.4.name": {
+      "sourceHash": "bb24f5613c3b9101974e114b6c3c6a3869fee2e52fafc7c88d81ca8526f4b3bd",
+      "text": "Blind Obsession"
+    },
+    "skills.4.effects.0": {
+      "sourceHash": "ffdbb9f23d22475917a55fce42c46f42be8f3f4271ac55f51eea450e1b958e9b",
+      "text": "[Clash Lose] This unit's Fluorescent Lamp Part loses HP equal to 34% of the Part's Max HP."
+    },
+    "skills.4.effects.1": {
+      "sourceHash": "d38cc02fc64fb8d42c39b6419fe86434d7d23641fc89a914f50db164c8c8c005",
+      "text": "[Clash Lose] Gain 1 Blind Obsession."
+    },
+    "skills.4.effects.2": {
+      "sourceHash": "63281bc8b8c9b063870c89dc7deeb089326125cc13fecc81a9f5a7a6c464013b",
+      "text": "Ⅰ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.4.effects.3": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.4.effects.4": {
+      "sourceHash": "b76a9d4fe57a687e09a746bdde397d6e231583628c34c8d12f32885df52798eb",
+      "text": "Ⅱ[On Hit] Increase Sinking Count by 3."
+    },
+    "skills.4.effects.5": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.4.effects.6": {
+      "sourceHash": "056b8c45beaaeec2534168632d96aa16a74f276c6af18b5180fb4c9931418fc0",
+      "text": "Ⅲ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.4.effects.7": {
+      "sourceHash": "182781a25b5594795453abb3960a67bb3fced572edc2946b1279e225bd1f45bb",
+      "text": "[Heads Hit] Inflict 4 Sinking."
+    },
+    "skills.4.effects.8": {
+      "sourceHash": "ce1bd1d5bca4ff4cc56512dce8bec6424713e032c4965fa2edd9b8e60ae59d06",
+      "text": "Ⅳ[On Hit] Trigger Sinking Deluge."
+    },
+    "skills.4.response": {
+      "sourceHash": "076e56d424807f0653c0e9f5ca7a45e57aedba07cdd73a16a4fbf015d8976db8",
+      "text": "A 4-Coin skill rolling 15–23, ending with Sinking Deluge. Use high Base Power or negative Coins that can win despite 1 Paralyze. Winning removes HP equal to 34% of the Lamp's Max HP."
+    },
+    "skills.5.name": {
+      "sourceHash": "72e5f5ead589acaa0df57306665a72f039ef9ece3813365c5633fb01fefa5eed",
+      "text": "Crashing Siltcurrent"
+    },
+    "skills.5.effects.0": {
+      "sourceHash": "68dddee21c726372dbe665e0da4a88573c6a21fe72dfa2c1bcba9f346ca5446c",
+      "text": "[Unclashable] [Combat Start] Change the terrain."
+    },
+    "skills.5.effects.1": {
+      "sourceHash": "a260ebe2ca0e3fb4a9881693cbb85d9c4ba172c675c180bf9177f1ace2163701",
+      "text": "Ⅰ[On Hit] Inflict 3 Sinking and increase Sinking Count by 2."
+    },
+    "skills.5.effects.2": {
+      "sourceHash": "157fb5b75359b1b8e0b93318eff547e85e8d09251f842057cd978e0fbb06b156",
+      "text": "[Heads Hit] Inflict -2 SP Loss Efficiency next turn."
+    },
+    "skills.5.effects.3": {
+      "sourceHash": "0d1f8b49247b1bb995513b4dae4a73e6b0eecccb3ab012d9a1ebd08ad31299d7",
+      "text": "Ⅱ[On Hit] Inflict 3 Sinking and increase Sinking Count by 2."
+    },
+    "skills.5.label": {
+      "sourceHash": "fc00acec6a7fd7e8e04c13c533fc18c2de970f527d0a2a3b73ff4d6b027e7200",
+      "text": "Unclashable"
+    },
+    "skills.5.response": {
+      "sourceHash": "a17fe0dbcb712deb5defc7bafa7bd5eaea93fd019e593de2bfa9ce9c867a3515",
+      "text": "Unclashable and changes the terrain. Handle regular skills and prepare for next turn's Blind Obsession instead of attempting to Clash with powerful E.G.O."
+    },
+    "skills.6.name": {
+      "sourceHash": "d0152397c80ef16a7bb5d1d09703a040853860ddeb3850d651ac56a882cc20b7",
+      "text": "Wayward Blind Obsession"
+    },
+    "skills.6.effects.0": {
+      "sourceHash": "345834c4b7354bc0f92a1a421d7b00624af1c26a429194a55d6ad4013ca42126",
+      "text": "[Unclashable] [Cannot be redirected] Attack Destroyed Flotsam."
+    },
+    "skills.6.effects.1": {
+      "sourceHash": "19c2c7157673e18ec48a9bcb9ec7112defb0cf4601e92b445719ce2abd523133",
+      "text": "[After Attack] This unit's Fluorescent Lamp Part loses HP equal to 34% of the Part's Max HP."
+    },
+    "skills.6.effects.2": {
+      "sourceHash": "4c20932ec571e6f29a76cc8bca4fd94bff49743d0bb476d26c40c7fbf5b68acf",
+      "text": "[Turn End] Gain 1 Blind Obsession."
+    },
+    "skills.6.effects.3": {
+      "sourceHash": "aee8a86de0ffb66fdac0a4d2fa97ee356c30a73f8a5f23c7b078d3d7ea33c836",
+      "text": "Ⅰ[On Hit] Destroy the target."
+    },
+    "skills.6.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.6.response": {
+      "sourceHash": "da8b835bc6349901b9b0884827bd2d31fc71503a9c38cc7b9de04dcb88ade151",
+      "text": "An unclashable, unredirectable attack targeting Destroyed Flotsam. After attacking, removes HP equal to 34% of the Lamp's Max HP. Let the self-damage occur rather than attempting to intercept it."
+    },
+    "skills.7.name": {
+      "sourceHash": "d0152397c80ef16a7bb5d1d09703a040853860ddeb3850d651ac56a882cc20b7",
+      "text": "Wayward Blind Obsession"
+    },
+    "skills.7.effects.0": {
+      "sourceHash": "345834c4b7354bc0f92a1a421d7b00624af1c26a429194a55d6ad4013ca42126",
+      "text": "[Unclashable] [Cannot be redirected] Attack Destroyed Flotsam."
+    },
+    "skills.7.effects.1": {
+      "sourceHash": "19c2c7157673e18ec48a9bcb9ec7112defb0cf4601e92b445719ce2abd523133",
+      "text": "[After Attack] This unit's Fluorescent Lamp Part loses HP equal to 34% of the Part's Max HP."
+    },
+    "skills.7.effects.2": {
+      "sourceHash": "4c20932ec571e6f29a76cc8bca4fd94bff49743d0bb476d26c40c7fbf5b68acf",
+      "text": "[Turn End] Gain 1 Blind Obsession."
+    },
+    "skills.7.effects.3": {
+      "sourceHash": "aee8a86de0ffb66fdac0a4d2fa97ee356c30a73f8a5f23c7b078d3d7ea33c836",
+      "text": "Ⅰ[On Hit] Destroy the target."
+    },
+    "skills.7.label": {
+      "sourceHash": "c1a005ca78645f90d03a96868e0d53511741cf3f0ecc25a632e82d1bc2c20578",
+      "text": "Unclashable / cannot be redirected"
+    },
+    "skills.7.response": {
+      "sourceHash": "da8b835bc6349901b9b0884827bd2d31fc71503a9c38cc7b9de04dcb88ade151",
+      "text": "An unclashable, unredirectable attack targeting Destroyed Flotsam. After attacking, removes HP equal to 34% of the Lamp's Max HP. Let the self-damage occur rather than attempting to intercept it."
+    },
+    "skills.8.name": {
+      "sourceHash": "e9c32d62e1ac5e8f4ba951137837949fb375414be4140a6f3f7f3358b9b87e52",
+      "text": "Sweep"
+    },
+    "skills.8.effects.0": {
+      "sourceHash": "758baee852130c98f1a36ab52ba08afb6791aaf4363630e526bf644f1ca5d1ee",
+      "text": "[Turn End] Create Flotsam."
+    },
+    "skills.8.effects.1": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.8.effects.2": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.8.effects.3": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.8.effects.4": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.8.response": {
+      "sourceHash": "eb7c5b63f9c9e3c3ba2837ba78cb5127455906cc3e719b68d31697a00c6904cb",
+      "text": "Creates Flotsam at Turn End. Winning does not cancel its creation, so reserve someone to handle it afterward."
+    },
+    "skills.9.name": {
+      "sourceHash": "e9c32d62e1ac5e8f4ba951137837949fb375414be4140a6f3f7f3358b9b87e52",
+      "text": "Sweep"
+    },
+    "skills.9.effects.0": {
+      "sourceHash": "758baee852130c98f1a36ab52ba08afb6791aaf4363630e526bf644f1ca5d1ee",
+      "text": "[Turn End] Create Flotsam."
+    },
+    "skills.9.effects.1": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.9.effects.2": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.9.effects.3": {
+      "sourceHash": "8dd2aa6b23f5036e7f032bb70e90b91fa3f8281f5bb69aba634bfeb753a155bd",
+      "text": "Ⅱ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.9.effects.4": {
+      "sourceHash": "69b5e466c4e3e1eafb93d52ff62986d0cbd834b43ed9b2e822d9bafcd23f1549",
+      "text": "[On Hit] If the target has Fluorescence Shard, increase Sinking Count by 2."
+    },
+    "skills.9.response": {
+      "sourceHash": "eb7c5b63f9c9e3c3ba2837ba78cb5127455906cc3e719b68d31697a00c6904cb",
+      "text": "Creates Flotsam at Turn End. Winning does not cancel its creation, so reserve someone to handle it afterward."
+    },
+    "skills.10.name": {
+      "sourceHash": "4f1bbc4ef29ca32c655056f54176738ef81da3d066643932218beee67cc8c441",
+      "text": "Wriggle"
+    },
+    "skills.10.effects.0": {
+      "sourceHash": "c73b4a147b7fae25ef9592c5540ebc5f420f94cbe3ab0990fae0010ec7107a2e",
+      "text": "[Combat Start] Consume all Blind Obsession."
+    },
+    "skills.10.effects.1": {
+      "sourceHash": "fe00fc2a740df9ad5d2d0e3c616c2af8bacbc43099f07077b10e11de15334e26",
+      "text": "[Combat Start] Destroy all Flotsam and Destroyed Flotsam."
+    },
+    "skills.10.effects.2": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.10.response": {
+      "sourceHash": "b50ba74f729f1d75c0cac67f8de3f854bcc3f7c612538f3817666595c46a91eb",
+      "text": "Consumes all Blind Obsession status and destroys Flotsam at Combat Start. Old wreckage will not remain usable indefinitely; check the currently slotted skill."
+    },
+    "skills.11.name": {
+      "sourceHash": "4f1bbc4ef29ca32c655056f54176738ef81da3d066643932218beee67cc8c441",
+      "text": "Wriggle"
+    },
+    "skills.11.effects.0": {
+      "sourceHash": "c73b4a147b7fae25ef9592c5540ebc5f420f94cbe3ab0990fae0010ec7107a2e",
+      "text": "[Combat Start] Consume all Blind Obsession."
+    },
+    "skills.11.effects.1": {
+      "sourceHash": "fe00fc2a740df9ad5d2d0e3c616c2af8bacbc43099f07077b10e11de15334e26",
+      "text": "[Combat Start] Destroy all Flotsam and Destroyed Flotsam."
+    },
+    "skills.11.effects.2": {
+      "sourceHash": "654fb97f5981bd29efe21e6a3294b68e61a58e4799b31f3600d4c06a671d9bce",
+      "text": "Ⅰ[On Hit] Inflict 4 Sinking."
+    },
+    "skills.11.response": {
+      "sourceHash": "b50ba74f729f1d75c0cac67f8de3f854bcc3f7c612538f3817666595c46a91eb",
+      "text": "Consumes all Blind Obsession status and destroys Flotsam at Combat Start. Old wreckage will not remain usable indefinitely; check the currently slotted skill."
+    },
+    "passives.0.name": {
+      "sourceHash": "7ffb7cbae8a30f35d179842ef2d9717ec49bac0a1c203d08c6cad8c842b19871",
+      "text": "Expanding Oxygen"
+    },
+    "passives.0.effect": {
+      "sourceHash": "ea6fc01ba3af2730a555157ad99fb277daf4bf0b848ae6c9e045b908cc3e6617",
+      "text": "When the Lamp breaks, grant Fluorescence Shard to all enemies. The Lamp regenerates 2 turns later."
+    },
+    "passives.0.condition": {
+      "sourceHash": "b91edfa386f2dbf5716bcf8158e088a65b24b46ddafc1fcd970539c5c4ec05ee",
+      "text": "Lamp break / 2 turns later"
+    },
+    "passives.0.response": {
+      "sourceHash": "ec693f56053ca90f140dc351d753e255b809efc851ef5306f8038bb527127450",
+      "text": "Use Shards to limit recurring debuffs and attack before regeneration."
+    },
+    "passives.1.name": {
+      "sourceHash": "7ffb7cbae8a30f35d179842ef2d9717ec49bac0a1c203d08c6cad8c842b19871",
+      "text": "Expanding Oxygen"
+    },
+    "passives.1.effect": {
+      "sourceHash": "ea6fc01ba3af2730a555157ad99fb277daf4bf0b848ae6c9e045b908cc3e6617",
+      "text": "When the Lamp breaks, grant Fluorescence Shard to all enemies. The Lamp regenerates 2 turns later."
+    },
+    "passives.1.condition": {
+      "sourceHash": "b91edfa386f2dbf5716bcf8158e088a65b24b46ddafc1fcd970539c5c4ec05ee",
+      "text": "Lamp break / 2 turns later"
+    },
+    "passives.1.response": {
+      "sourceHash": "ec693f56053ca90f140dc351d753e255b809efc851ef5306f8038bb527127450",
+      "text": "Use Shards to limit recurring debuffs and attack before regeneration."
+    },
+    "passives.2.name": {
+      "sourceHash": "a56fab3ed669dcdfba470d91ae5cb8aed3786fcc100c1b92f6e320b91a4ebb6a",
+      "text": "Underwater Breathing"
+    },
+    "passives.2.effect": {
+      "sourceHash": "b95df8f40a462c8d541917b22be20d9b1de9d46ae9ff8daf815433057696ed1e",
+      "text": "Each turn from turn 2, if the Lamp is not broken, gain 8 Poise and increase Poise Count by 3 for this turn. If the Lamp is broken, gain 2 Paralyze and 2 Damage Down for this turn instead."
+    },
+    "passives.2.condition": {
+      "sourceHash": "ed8d83211701f537090bb83806b9125b5f13c68c404ca7a0d7e3b8ac2659c6a3",
+      "text": "Turn 2 onward / Lamp condition"
+    },
+    "passives.2.response": {
+      "sourceHash": "1eb2d6ea85f1d586ce63e0ac90d88e10ae2805d6a1c0d5c7e2bbf3971e36df99",
+      "text": "While broken, the enemy receives 2 Paralyze and 2 Damage Down too. Concentrate your main units' attacks."
+    },
+    "passives.3.name": {
+      "sourceHash": "a56fab3ed669dcdfba470d91ae5cb8aed3786fcc100c1b92f6e320b91a4ebb6a",
+      "text": "Underwater Breathing"
+    },
+    "passives.3.effect": {
+      "sourceHash": "b95df8f40a462c8d541917b22be20d9b1de9d46ae9ff8daf815433057696ed1e",
+      "text": "Each turn from turn 2, if the Lamp is not broken, gain 8 Poise and increase Poise Count by 3 for this turn. If the Lamp is broken, gain 2 Paralyze and 2 Damage Down for this turn instead."
+    },
+    "passives.3.condition": {
+      "sourceHash": "ed8d83211701f537090bb83806b9125b5f13c68c404ca7a0d7e3b8ac2659c6a3",
+      "text": "Turn 2 onward / Lamp condition"
+    },
+    "passives.3.response": {
+      "sourceHash": "1eb2d6ea85f1d586ce63e0ac90d88e10ae2805d6a1c0d5c7e2bbf3971e36df99",
+      "text": "While broken, the enemy receives 2 Paralyze and 2 Damage Down too. Concentrate your main units' attacks."
+    },
+    "passives.4.name": {
+      "sourceHash": "d5f7acb2daad3bee6f46a755c10820d8368dd0fcc28ebb11dad7abd0a2d094ad",
+      "text": "Siltcurrent"
+    },
+    "passives.4.effect": {
+      "sourceHash": "8d793ad55304191e9439e4b1da0442ce1f6700995842f5bdc63c455c6b5d8654",
+      "text": "Each turn from turn 2, inflict 1 Bind and 1 Paralyze on Identities without Fluorescence Shard, and reduce their SP by 3."
+    },
+    "passives.4.condition": {
+      "sourceHash": "58e8f415e44e7fa18610c35dafc6e4b1db830400bf10d5098e3af117947b28d0",
+      "text": "Turn 2 onward / Sinners without Shards"
+    },
+    "passives.4.response": {
+      "sourceHash": "a995f48f0e982c61e899ecd6209fc778c74b271dc0cb8884014c18e7c6e3a9f3",
+      "text": "Break the Lamp to limit recurring debuffs."
+    },
+    "passives.5.name": {
+      "sourceHash": "d5f7acb2daad3bee6f46a755c10820d8368dd0fcc28ebb11dad7abd0a2d094ad",
+      "text": "Siltcurrent"
+    },
+    "passives.5.effect": {
+      "sourceHash": "8d793ad55304191e9439e4b1da0442ce1f6700995842f5bdc63c455c6b5d8654",
+      "text": "Each turn from turn 2, inflict 1 Bind and 1 Paralyze on Identities without Fluorescence Shard, and reduce their SP by 3."
+    },
+    "passives.5.condition": {
+      "sourceHash": "58e8f415e44e7fa18610c35dafc6e4b1db830400bf10d5098e3af117947b28d0",
+      "text": "Turn 2 onward / Sinners without Shards"
+    },
+    "passives.5.response": {
+      "sourceHash": "a995f48f0e982c61e899ecd6209fc778c74b271dc0cb8884014c18e7c6e3a9f3",
+      "text": "Break the Lamp to limit recurring debuffs."
+    },
+    "passives.6.name": {
+      "sourceHash": "b850bcda50788ac5cc35d056f20037f9d621ad761af5781ecb71f40c97d8df33",
+      "text": "Harden"
+    },
+    "passives.6.effect": {
+      "sourceHash": "75e47a2e50b8af67ac42687d75f78a3b9224ef176197efc758d98925ec0b3b88",
+      "text": "Nullify damage below 12."
+    },
+    "passives.6.condition": {
+      "sourceHash": "d7b8b5e3d4467e25a4d221061baacb256457b335b4c3a5a931faff76c5e64c3d",
+      "text": "Damage below 12"
+    },
+    "passives.6.response": {
+      "sourceHash": "c810b7ccd121f4850644b035368431d5aec82bb7edf8ab2e41c4558519c5468d",
+      "text": "Break Flotsam with strong individual hits. Small hits are not added together for this condition."
+    },
+    "passives.7.name": {
+      "sourceHash": "ea94a6a265a3b8e7cdc0006c98aceb652e63fe341e2f12508a1122a9e3e8e6c3",
+      "text": "Rolling Flotsam"
+    },
+    "passives.7.effect": {
+      "sourceHash": "d87aa9bbceb4ff0abf7b462ae628f317f7379a31c95c0cdf77c0614de781de99",
+      "text": "If Dream-Devouring Siltcurrent uses Blind Obsession and this unit remains intact at Turn End, deal 20 damage to a random Identity."
+    },
+    "passives.7.condition": {
+      "sourceHash": "702f8dce974e87cd58e8de1458bfa1939577b1e454d5b769aac920b961cb070b",
+      "text": "Blind Obsession used / intact Flotsam"
+    },
+    "passives.7.response": {
+      "sourceHash": "60456f185bd8243658c0e6028284e64f56ec03d624aabfc9d6046251ef28b058",
+      "text": "Remove Flotsam beforehand to limit Turn End damage as well as handling Blind Obsession itself."
+    },
+    "passives.8.name": {
+      "sourceHash": "9e79c887051cb0928bf0dc0e16ea1db6a5ffce1ffd67cdaf71881cf06c70019a",
+      "text": "Destroyed Flotsam"
+    },
+    "passives.8.effect": {
+      "sourceHash": "442cf997a605d97e0241d9f536c33e083339cf988deeefce6a5d1106f45b1327",
+      "text": "On death, HP does not reach 0. Become Destroyed Flotsam."
+    },
+    "passives.8.condition": {
+      "sourceHash": "9773904b2af0b2076d8c004db0725bfcd2b1071324f4f27571e46073a5467caa",
+      "text": "Flotsam HP depleted"
+    },
+    "passives.8.response": {
+      "sourceHash": "c2ea41e4c658f3511d70c5ade91e2a4accca8cbf93f045a1468403ea0b08491a",
+      "text": "Use the target that remains to trigger Wayward Blind Obsession's self-damage."
+    }
+  },
+  "messages": {
+    "boss-copy:dream-devouring-siltcurrent": "complete",
+    "【リンバス】5-36 夢貪る濁流（5章）の攻略｜Limbus Assistant": "5-36 Dream-Devouring Siltcurrent (Canto V) Guide | Limbus Assistant",
+    "リンバス(Limbus Company)5-36「夢貪る濁流（5章）」の攻略。2ターン目の盲目を、麻痺込みでも勝てる技で止める。その後は漂流物を先に破壊し、彷徨う盲目による自傷へ誘導する。蛍光灯を壊して毎ターンの麻痺・束縛を抑え、再生前に…": "Dream-Devouring Siltcurrent (Canto V) guide for Limbus Company 5-36. Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through Wayward Blind Obsession. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates.",
+    "5-36 夢貪る濁流（5章）": "5-36 Dream-Devouring Siltcurrent (Canto V)",
+    "5-36「Into the Darkness, Floor 3: Assembly Point Before the Heart」": "5-36 · Into the Darkness, Floor 3: Assembly Point Before the Heart",
+    "夢貪る濁流［胴体］の外見": "Dream-Devouring Siltcurrent (Body) appearance",
+    "夢貪る濁流［胴体］のスキル": "Dream-Devouring Siltcurrent (Body) skills",
+    "Dream-Devouring Siltcurrent (Body)の外見": "Dream-Devouring Siltcurrent (Body) appearance",
+    "Dream-Devouring Siltcurrent (Body)のスキル": "Dream-Devouring Siltcurrent (Body) skills",
+    "夢貪る濁流［蛍光灯］の外見": "Dream-Devouring Siltcurrent (Fluorescent Lamp) appearance",
+    "夢貪る濁流［蛍光灯］のスキル": "Dream-Devouring Siltcurrent (Fluorescent Lamp) skills",
+    "Dream-Devouring Siltcurrent (Fluorescent Lamp)の外見": "Dream-Devouring Siltcurrent (Fluorescent Lamp) appearance",
+    "Dream-Devouring Siltcurrent (Fluorescent Lamp)のスキル": "Dream-Devouring Siltcurrent (Fluorescent Lamp) skills",
+    "漂流物の外見": "Flotsam appearance",
+    "漂流物のスキル": "Flotsam skills",
+    "Flotsamの外見": "Flotsam appearance",
+    "Flotsamのスキル": "Flotsam skills"
+  }
+}

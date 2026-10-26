@@ -1,0 +1,13 @@
+{
+  "sourceGuide": "src/data/guides/0909.md",
+  "code": "0909",
+  "messages": {
+    "束縛で敵を遅らせ、振動で混乱区間を進め、時間貸与中は「時間猶予」でダメージを溜めさせる人格。": "An Identity that slows enemies with Bind, raises Stagger Thresholds through Tremor, and makes enemies accumulate damage under Time Moratorium while Borrow Time is active.",
+    "振動で強化: 各攻撃スキルは対象の振動が多いほどマッチ威力が上がる。": "**Tremor bonuses**: Each attack skill gains Clash Power the more Tremor the target has.",
+    "束縛: S2「T社式制圧格闘」・S3「徴収執行」で次のターンに束縛を付与し、対象の束縛に応じてダメージ量が上がる。": "**Bind**: S2 T Corp. Martial Suppression and S3 Execute Collections inflict Bind next turn, and damage rises with the target's Bind.",
+    "S3: 自分の振動回数を8消耗してコイン威力+1。Ⅳコインで振動爆発し、次のターンに束縛1(振動回数を消耗していればさらに束縛2)を付与。自分が時間貸与中なら時間猶予2を付与。": "**S3**: Spends 8 of her own Tremor Count for +1 Coin Power. Coin Ⅳ triggers Tremor Burst and inflicts 1 Bind next turn (2 more if Tremor Count was spent). If she is in Borrowed Time, it inflicts 2 Time Moratorium.",
+    "時間貸与: 守備「時間貸与」で得る。回数2以上ならクイック・マッチ威力増加と引き換えに脆弱を受け、束縛がクイックを上回ると混乱する。回数1なら次のターンに束縛を得る。": "**Borrowed Time**: Gained through the Defense skill Borrow Time. At 2 or more Count, she gains Haste and Clash Power Up in exchange for Fragile, and is staggered if Bind exceeds Haste. At 1 Count, she gains Bind next turn.",
+    "バトルパッシブ「ゴールデンタイム-対抗」(怠惰×5・保有・同期化Ⅱで取得): ターン終了時に体力16〜20%なら体力60%を即回復し、混乱を解除(戦闘につき1回)。時間猶予を持つ敵とのマッチでマッチ威力+2、その敵からの被ダメージ-10%。": "**Combat passive — Golden Time - Standoff (5 Sloth Owned; unlocked at Uptie Ⅱ)**: If her HP is between 16% and 20% at Turn End, she immediately recovers 60% HP and recovers from Stagger (once per battle). +2 Clash Power in Clashes against enemies with Time Moratorium, and −10% damage taken from them.",
+    "S1で振動を付与し、S1・S2で自分の振動回数を貯めて、S3で振動爆発と束縛を入れる。守備で時間貸与を得た次のターン以降にS3を当てると時間猶予を付与できるが、時間貸与は混乱のリスクがある。": "Inflict Tremor with S1, build her own Tremor Count with S1 and S2, then apply Tremor Burst and Bind with S3. Landing S3 on or after the turn following Borrowed Time from her Defense skill applies Time Moratorium, but Borrowed Time carries a risk of Stagger."
+  }
+}

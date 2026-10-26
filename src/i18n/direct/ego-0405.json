@@ -1,0 +1,21 @@
+{
+  "sourceGuide": "src/data/guides/ego/0405.md",
+  "code": "0405",
+  "messages": {
+    "沈潜6と振動4を広域に付与しつつ、味方へ資源獲得量+を配って資源を回す、憂鬱貫通のE.G.O(解析Ⅴ前提)。": "A Gloom Pierce E.G.O that spreads 6 Sinking and 4 Tremor across targets while handing E.G.O Resource Amp to allies to keep resources flowing (assumes Threadspin Ⅴ).",
+    "状態異常の付与: 的中時に振動4と沈潜6を付与する。威力そのものは低めで、沈潜・振動編成の補助として使う。": "**Inflicting status effects**: Inflicts 4 Tremor and 6 Sinking on hit. Its own power is lowish, so use it as support for Sinking and Tremor teams.",
+    "資源獲得量+の配布: 攻撃後、次のターンに自分を含むランダムな味方2名+最大共鳴数名(最大7名)へE.G.O資源獲得量+1を付与する。共鳴数が4以上なら攻撃加重値+1。": "**Distributing Resource Amp**: After the attack, gives 1 E.G.O Resource Amp next turn to 2 random allies including herself plus a number of allies equal to the highest Resonance, up to 7. +1 Attack Weight at a Resonance of 4 or more.",
+    "混乱への反応: 攻撃対象に混乱かパニックの敵がいれば、保有量が最も少ないE.G.O資源を1つ得て精神力が3回復する。体力25%未満の敵にはダメージ量+40%。": "**Reaction to Stagger**: If any target is staggered or panicking, she gains 1 of the E.G.O resource she holds the least of and recovers 3 SP. +40% damage against enemies below 25% HP.",
+    "討伐時の見返り: 敵を倒すと保有中の資源のうちランダムな1属性を3つ得て、全味方の精神力が3回復する。": "**Reward for defeating enemies**: Defeating an enemy grants 3 of one random affinity among the resources she holds and restores 3 SP to all allies.",
+    "パッシブ「蓋の開いた飲料」: 沈潜5以上の敵への的中で守備威力減少1(1ターン最大5回)。混乱・パニックの敵への的中で次のターンに攻撃レベル増加1(1ターン最大3回)。": "**Passive — Opened Can**: Hitting an enemy with at least 5 Sinking inflicts 1 Defense Power Down, up to 5 times per turn. Hitting a staggered or panicking enemy grants 1 Offense Level Up next turn, up to 3 times per turn.",
+    "資源に余裕のない場面で、先に撃って味方の資源獲得を増やす。": "When resources are tight, fire it first to increase allies' resource gain.",
+    "必要資源は暴食2・傲慢2・嫉妬2。沈潜編成では暴食が足りにくいと考えられるので、暴食を出せる人格と組む。": "It requires 2 Gluttony, 2 Pride, and 2 Envy. Sinking teams likely run short on Gluttony, so pair it with Identities who can supply Gluttony.",
+    "侵蝕スキルは破壊不能コインで、全味方に資源獲得量+1と次のターンのクイック1を付与する。": "The Corrosion skill has Unbreakable Coins and gives all allies 1 Resource Amp and 1 Haste next turn.",
+    "Ⅱ: 「蓋の開いた飲料」が解放される。": "**Ⅱ**: Unlocks Opened Can.",
+    "Ⅲ: 沈潜が5になり、討伐時に全味方の精神力が回復する。": "**Ⅲ**: Sinking becomes 5, and defeating enemies restores SP to all allies.",
+    "Ⅳ: 沈潜が6になり、攻撃加重値が2で広域化する。侵蝕スキルにクイック付与が加わる。": "**Ⅳ**: Sinking becomes 6, and Attack Weight becomes 2 for multi-target attacks. The Corrosion skill gains Haste infliction.",
+    "Ⅴ: 振動付与、資源獲得量+の配布、混乱時の資源・精神力回復、体力25%未満へのダメージ増加、パッシブの攻撃レベル増加が加わる。": "**Ⅴ**: Adds Tremor infliction, Resource Amp distribution, resource and SP recovery on Stagger, the damage increase against enemies below 25% HP, and the passive's Offense Level Up.",
+    "ロボトミーE.G.O::残香・寂しさ: 沈潜と振動を軸にした人格で、S2(嫉妬)で必要資源の嫉妬も出せる。": "**[Lobotomy E.G.O:: Faint Aroma & Solitude](persona:0414)**: An Identity built around Sinking and Tremor whose S2 (Envy) also supplies the required Envy.",
+    "20区ユロージヴィ: S3(暴食)で不足しやすい暴食を出せ、振動を付与して振動爆発も起こせる。": "**[District 20 Yurodivy](persona:0409)**: Her S3 (Gluttony) supplies the often-lacking Gluttony, and she inflicts Tremor and triggers Tremor Burst."
+  }
+}

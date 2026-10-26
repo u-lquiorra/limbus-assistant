@@ -1,0 +1,12 @@
+{
+  "sourceGuide": "src/data/guides/0202.md",
+  "code": "0202",
+  "messages": {
+    "充電を貯め、消耗して束縛・攻撃威力減少・麻痺を付与するデバッファー。": "A debuffer that builds Charge and spends it to inflict Bind, Attack Power Down, and Paralyze.",
+    "充電の獲得: S1「エネルギー循環」・S2「跳躍」の使用時と的中時に自分の充電回数が増える。": "**Gaining Charge**: S1 Energy Cycle and S2 Leap increase her Charge Count on use and on hit.",
+    "S2: Ⅱコイン的中時に充電回数を3消耗し、次のターンに束縛4を付与。": "**S2**: On hit, Coin Ⅱ spends 3 Charge Count to inflict 4 Bind next turn.",
+    "S3「過充電」: 充電回数5以上ならマッチ威力+2。Ⅲコイン的中時に充電回数を5消耗し、次のターンに攻撃威力減少2・麻痺3を付与。": "**S3 — Overcharge**: +2 Clash Power with at least 5 Charge Count. On hit, Coin Ⅲ spends 5 Charge Count to inflict 2 Attack Power Down and 3 Paralyze next turn.",
+    "バトルパッシブ「自家発電」(嫉妬×4・保有・同期化Ⅱで取得): 攻撃終了時、自分とランダムな味方の充電回数が1ずつ増加。": "**Combat passive — Self-charging (4 Envy Owned; unlocked at Uptie Ⅱ)**: At the end of an attack, increases the Charge Count of herself and a random ally by 1 each.",
+    "S1・S2で充電回数を貯め、S2・S3の消耗効果で束縛・攻撃威力減少・麻痺を入れる。パッシブで味方の充電回数も増えるため、充電を使う人格と組みやすいと考えられる。": "Build Charge Count with S1 and S2, then use the spending effects on S2 and S3 to inflict Bind, Attack Power Down, and Paralyze. The passive also raises allies' Charge Count, so she likely pairs well with Identities that use Charge."
+  }
+}
