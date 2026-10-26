@@ -5,7 +5,7 @@ import { guideSummary } from "./guide";
 import { bossSummaries, getBossSummary } from "./bosses";
 import { getGlossaryTerm, glossaryTerms } from "./glossary";
 import { KEYWORD_PAGES, getKeywordPage } from "./keywordPages";
-import { isEnglish, originalPath } from "./i18n/path";
+import { isEnglish, languagePath, originalPath } from "./i18n/path";
 import { translateText } from "./i18n/text";
 
 export const SITE_NAME = "Limbus Assistant";
@@ -189,7 +189,8 @@ export function prerenderRoutes(): string[] {
     ...bossSummaries.map((b) => `/bosses/${b.id}`),
     ...glossaryTerms.map((t) => `/glossary/${t.id}`),
   ];
-  return [...japanese, ...japanese.map((path) => `/en${path === "/" ? "" : path}`)];
+  // 英語版のパスは languagePath で作る(囚人ページは英語のスラッグになる)
+  return [...japanese, ...japanese.map((path) => (path === "/" ? "/en" : languagePath(path, "en")))];
 }
 
 /**
@@ -281,7 +282,8 @@ export function structuredData(pathname: string, ogImage: string, updated?: stri
     const term = termId ? getGlossaryTerm(decodeURIComponent(termId)) : undefined;
     const translate = (value: unknown): unknown => {
       if (typeof value === "string") {
-        if (value.startsWith(`${SITE_URL}/`)) return value.replace(SITE_URL, `${SITE_URL}/en`);
+        // サイト内 URL は英語版のパスへ変換する(囚人ページのスラッグも英語にそろえる)
+        if (value.startsWith(`${SITE_URL}/`)) return SITE_URL + languagePath(value.slice(SITE_URL.length), "en");
         return value === "ja" ? "en" : translateText(value, "en");
       }
       if (Array.isArray(value)) return value.map(translate);

@@ -93,7 +93,7 @@ test("英語SSR: 固有名詞・リンク・canonical・構造化データが英
       ...KEYWORD_PAGES.map((page: { id: string }) => `/en/keywords/${page.id}`),
       ...translatedTeams.map(source => `/en/teams/${source.id}`),
       ...translatedBosses.map(source => `/en/bosses/${source.id}`),
-      ...characterList.map((character: { name: string }) => `/en/character/${encodeURIComponent(character.name)}`),
+      ...characterList.map((character: { name: string }) => languagePath(`/character/${encodeURIComponent(character.name)}`, "en")),
       ...TRAIT_FILTERS.map((trait: string) => `/en/keywords?trait=${encodeURIComponent(trait)}`),
       "/en/keywords?kw=burn,bleed", "/en/keywords?kw=burn,bleed,tremor,rupture,sinking,breath,charge",
       ...["wrath", "lust", "sloth", "gluttony", "gloom", "pride", "envy", "wrath,pride", "wrath,lust,sloth,gluttony,gloom,pride,envy"].map(sin => `/en/egos?sin=${sin}`),

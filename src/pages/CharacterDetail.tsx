@@ -9,6 +9,7 @@ import { SIN_COLORS, SIN_ORDER, sinTextColor } from "../sinColors";
 import PersonaCard from "../components/PersonaCard";
 import EgoCard from "../components/EgoCard";
 import { searchableText } from "../i18n/text";
+import { sinnerNameFromSlug } from "../i18n/path";
 import { normalizeSearchText } from "../search";
 import { AttackTypeIcon, SearchBox } from "../components/ui";
 
@@ -30,7 +31,8 @@ function CharacterDetail({ name }: { name?: string }) {
   const [sinFilter, setSinFilter] = useState<Set<string>>(new Set());
   const [typeFilter, setTypeFilter] = useState<Set<string>>(new Set());
 
-  const character = name ? getCharacter(name) : undefined;
+  // 英語版の URL は英語のスラッグ(/en/character/yi-sang)なので、日本語の囚人名に戻してから引く
+  const character = name ? getCharacter(sinnerNameFromSlug(name)) : undefined;
   const skillsByCode = useMemo(
     () => new Map((character?.skills ?? []).map((s) => [s.code, s])),
     [character]
