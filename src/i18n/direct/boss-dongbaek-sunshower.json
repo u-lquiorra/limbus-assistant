@@ -68,7 +68,7 @@
     },
     "skillNote": {
       "sourceHash": "98d94b61c2fc896a1e941978bfb30c3c766bdee8c85fe2fd6926f225ce8819bb",
-      "text": "7 regular skills. Negative-Coin skills show the higher value as Base Power. Sink It All has 26 Base Power, -10 Coin Power, and 7 Attack Weight. The Japanese skill and status descriptions use different wordings for Corroding Heart, so check the status actually applied next turn. Old Umbrellas have no listed skills; no attacks or Defense Skills have been added for them."
+      "text": "7 regular skills. Negative-Coin skills show the higher value as Base Power. “Sink It All” has 26 Base Power, -10 Coin Power, and 7 Attack Weight. The Japanese skill and status descriptions use different wordings for Corroding Heart, so check the status actually applied next turn. Old Umbrellas have no listed skills; no attacks or Defense Skills have been added for them."
     },
     "priorities.0": {
       "sourceHash": "6dabe16ccc5313b78fd93fd4144f0ffae9e6895ae356ac0cab7e31d7e18d37be",
@@ -96,7 +96,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "b07cfe453e57250a7ee5e01b9c8e2d554f8a3e9f1e092dbf57db41b24dca4de6",
-      "text": "Don't Touch Me...! grants Thorns at Combat Start, reflecting 50% of damage taken. Attack Old Umbrellas instead when they are present."
+      "text": "“Don't Touch Me...!” grants Thorns at Combat Start, reflecting 50% of damage taken. Attack Old Umbrellas instead when they are present."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "060d087fe9361f42e1203acd50686878524f8b58322cb32bb05d4e456e01816e",
@@ -176,7 +176,7 @@
     },
     "phases.0.steps.2": {
       "sourceHash": "8945fe93aa25060d469093adb6ee386f208077505fb9ea5847aed02fbf4462ae",
-      "text": "Sink It All has 7 Attack Weight and 26 Base Power. It can roll its maximum even at low SP, so save a winning skill and the resources to use it."
+      "text": "“Sink It All” has 7 Attack Weight and 26 Base Power. It can roll its maximum even at low SP, so save a winning skill and the resources to use it."
     },
     "phases.1.timing": {
       "sourceHash": "1bbd3fd0c8c0dc654da1c8a0af702e7cecad52d98cb701b6bb19ab3cc52d343b",
@@ -192,11 +192,11 @@
     },
     "phases.1.steps.1": {
       "sourceHash": "171f5873207f52c89567e592e67691b0c68db50df5929ad450632157a0f84aca",
-      "text": "Stinging Memories stacks Sinking and Rupture on hit. Thorny Memories also raises their Count, so keep them away from low-HP or low-SP Sinners."
+      "text": "“Stinging Memories” stacks Sinking and Rupture on hit. “Thorny Memories” also raises their Count, so keep them away from low-HP or low-SP Sinners."
     },
     "phases.1.steps.2": {
       "sourceHash": "f7fe7b1bbd8a978ae1893a417a936bfe939ed3a016768c8f9ac37205dfdac1dd",
-      "text": "Self-defense is a negative-Coin Blunt attack, not a Defense Skill. Choose its opponent based on Base Power and current Attack Power Up rather than the enemy's SP."
+      "text": "“Self-defense” is a negative-Coin Blunt attack, not a Defense Skill. Choose its opponent based on Base Power and current Attack Power Up rather than the enemy's SP."
     },
     "phases.2.timing": {
       "sourceHash": "ac1332b6d897d5b5173ec69484bac829e77711aaeb81538e45b11ade838ecffb",
@@ -228,7 +228,7 @@
     },
     "phases.3.steps.0": {
       "sourceHash": "a5b304c7ee7d7a06774724f160a9868c618d01ecdbc88ad05024c490ac94aa9e",
-      "text": "Don't Touch Me...! grants Thorns, reflecting 50% of damage dealt to Dongbaek. Offsetting the Defense Skill does not remove the reflection."
+      "text": "“Don't Touch Me...!” grants Thorns, reflecting 50% of damage dealt to Dongbaek. Offsetting the Defense Skill does not remove the reflection."
     },
     "phases.3.steps.1": {
       "sourceHash": "10c863cfce4900fdd03c3017a843494aa653a108acf347bfcbaabdc72a9b8e54",
@@ -508,7 +508,7 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "10cea75d6c9283f799146ad78dca5dcd1967c182bf8ff144ca25902e58b831c3",
-      "text": "Reflect 50% of damage taken to the attacker. Gained at Combat Start from Don't Touch Me...!."
+      "text": "Reflect 50% of damage taken to the attacker. Gained at Combat Start from “Don't Touch Me...!”."
     },
     "mechanics.0.response": {
       "sourceHash": "ff60f2a9a024a2ce51ffd78c7c0ff1e6af7d1aa6f771a5aad77be31228850100",
@@ -524,7 +524,7 @@
     },
     "mechanics.1.response": {
       "sourceHash": "1eacbe88497818d61ffcadaf268e52ee9e689ad0c234efeddbc2c33ef1ce555c",
-      "text": "After Sink It All, check the status actually applied and use it as an opening to attack."
+      "text": "After “Sink It All”, check the status actually applied and use it as an opening to attack."
     },
     "mechanics.2.name": {
       "sourceHash": "3a5608f2697821a0126aa9ea52027ca53f762b81bf153bc029ad834045dc9c81",

@@ -55,7 +55,7 @@
     },
     "skillNote": {
       "sourceHash": "fc2a5d8cc197a136838385a777d2e02667c852122750fe8bc6f282548e8edb26",
-      "text": "Guido's 8 skills and 26 skills from the other enemies. Minus Coin skills show Base Power before subtraction. Knock's Paralyze value and Ponderous Inquisition's Attack Power Down value are unspecified; do not infer them from neighboring effects."
+      "text": "Guido's 8 skills and 26 skills from the other enemies. Minus Coin skills show Base Power before subtraction. “Knock”'s Paralyze value and “Ponderous Inquisition”'s Attack Power Down value are unspecified; do not infer them from neighboring effects."
     },
     "priorities.0": {
       "sourceHash": "9247028718de9e20c205b1cf501ab8fa33ae08fc3a14799269b7cd3f9422f907",
@@ -67,7 +67,7 @@
     },
     "priorities.2": {
       "sourceHash": "f41dc10377e06619a67069eb330a572675f8c23dbab0974e1a155f9f85a38933",
-      "text": "Save strong skills or E.G.O for Be Cleansed… of Sin! Once the below-50% HP bonuses activate, aim to Stagger and finish Guido rather than continuing to chip away."
+      "text": "Save strong skills or E.G.O for “Be Cleansed… of Sin!” Once the below-50% HP bonuses activate, aim to Stagger and finish Guido rather than continuing to chip away."
     },
     "troubleshooting.0.symptom": {
       "sourceHash": "767e6a9d00a96aff7f154fd2367a6732e50006eb00c73bde4fbc0e8abe6c1cfa",
@@ -83,7 +83,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "a6dcdc08b4e74e9c497fb6566599321cb96f41c8acc41845ae9fd43123829067",
-      "text": "Be Cleansed… of Sin! inflicts 5 Nails on a Heads hit with Coin 1, then forces Stagger with Coin 2. Starting at 0 Nails is not safe; stop the skill with a Clash."
+      "text": "“Be Cleansed… of Sin!” inflicts 5 Nails on a Heads hit with Coin 1, then forces Stagger with Coin 2. Starting at 0 Nails is not safe; stop the skill with a Clash."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "4cf4f5d8697b51d69dad92cab85a1b49fda5cfee459b85b6d1ff168311577b4a",
@@ -231,7 +231,7 @@
     },
     "units.6.notes.0": {
       "sourceHash": "c57dd53c2961b7745bd6e0d6d2dd79c19108dc444f79f423cb527ee6b10dddff",
-      "text": "1 each in Waves 2 and 3. Ponderous Inquisition is dangerous against targets with at least 5 Nails."
+      "text": "1 each in Waves 2 and 3. “Ponderous Inquisition” is dangerous against targets with at least 5 Nails."
     },
     "units.6.notes.1": {
       "sourceHash": "bc743e578d1c7ce22f9f139c5ab9a56612fa01866c365ae0b965ced8ef5dd064",
@@ -291,7 +291,7 @@
     },
     "phases.1.steps.1": {
       "sourceHash": "e0c6805d3b4283abdf642e8bc0562041d8dc15a764aad3fe25c3975ad4b8d70b",
-      "text": "Against targets with at least 5 Nails, Ponderous Inquisition leads to 10 Paralyze next turn. Do not let it hit a Sinner with many Nails unopposed; account for the next Whistles when checking predictions."
+      "text": "Against targets with at least 5 Nails, “Ponderous Inquisition” leads to 10 Paralyze next turn. Do not let it hit a Sinner with many Nails unopposed; account for the next Whistles when checking predictions."
     },
     "phases.1.steps.2": {
       "sourceHash": "dc0f7c9ee16e0187a855ac8aa0ff17c3ec9223d9ac71e9230d2f24d76ccfa27c",
@@ -307,11 +307,11 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "4c8f0670d392d28ca414d95cd677885de87b61866ef3ee2c9f2f365ae3a50fdd",
-      "text": "Guido and 1 each of Obsessive and Joyous N Corp. Inquisitors. Use high-Power skills against Be Cleansed… of Sin! to prevent forced Stagger."
+      "text": "Guido and 1 each of Obsessive and Joyous N Corp. Inquisitors. Use high-Power skills against “Be Cleansed… of Sin!” to prevent forced Stagger."
     },
     "phases.2.steps.1": {
       "sourceHash": "f384737d695794c83f842b532e6b91be75802ad9d09a8ba69da324b55f60467a",
-      "text": "The Great Task Will Be Done…! grants teamwide Fanatic On Use. It remains next turn even if you win the Clash, so prevent hits against Sinners with Nails. Against an ordinary Counter, also check the first attacker's resistances."
+      "text": "“The Great Task Will Be Done…!” grants teamwide Fanatic On Use. It remains next turn even if you win the Clash, so prevent hits against Sinners with Nails. Against an ordinary Counter, also check the first attacker's resistances."
     },
     "phases.2.steps.2": {
       "sourceHash": "7fc7d2e264ead2d8f23d1a942f406c4018c62d8b9266e44c22f6a3a59c4683e4",
@@ -723,7 +723,7 @@
     },
     "skills.26.response": {
       "sourceHash": "91ee4d7fc1c8c71efb3ac90b7fff7458a5c1ae78d25bfa09d0a085913f2ca98f",
-      "text": "On Hit inflicts 2 Nails next turn, setting up Be Cleansed… of Sin! in the final Wave. Limit Nails buildup."
+      "text": "On Hit inflicts 2 Nails next turn, setting up “Be Cleansed… of Sin!” in the final Wave. Limit Nails buildup."
     },
     "skills.27.name": {
       "sourceHash": "8219f79d4cd898ed0f877b2283d6f41c916809721986c91399fe48be662e55c8",
@@ -1127,7 +1127,7 @@
     },
     "mechanics.2.effect": {
       "sourceHash": "4cb8b0f2b2b3efa78f9b83c4d869de5a23f827e34026e1a763c6a37825086854",
-      "text": "Be Cleansed… of Sin! forces Stagger; Ponderous Inquisition leads to 10 Paralyze next turn; Assertive Inquisition leads to 10 Bind next turn."
+      "text": "“Be Cleansed… of Sin!” forces Stagger; “Ponderous Inquisition” leads to 10 Paralyze next turn; “Assertive Inquisition” leads to 10 Bind next turn."
     },
     "mechanics.2.response": {
       "sourceHash": "f342eff2905a21fd1da0bfb89f205b57ff1084f33b3b4c6a12765987b363dd5a",
@@ -1175,7 +1175,7 @@
     },
     "roles.1.reason": {
       "sourceHash": "fee8fc802bfe31cbfbc9fe8e2a26dd5493f4a0a407245a53c30775895fb28067",
-      "text": "Reserve high-Power skills for Be Cleansed… of Sin!."
+      "text": "Reserve high-Power skills for “Be Cleansed… of Sin!”."
     },
     "roles.2.name": {
       "sourceHash": "08d64f7379e4112472e17cd51d668c8963fb72abfad29f683fdf94560f9e8956",

@@ -176,7 +176,7 @@
     },
     "skillNote": {
       "sourceHash": "fedd53e2e21ac2edf483aea8a26cdefe486a41f5a8122cb8444885178bdccabb",
-      "text": "9 skills. Base ranges exclude Speed, HP conditions, and Offense Level Up. Bloody Bastard! has 2 Coins; conditional reuse is not listed as a permanent third Coin. Give It Back...!! is unclashable."
+      "text": "9 skills. Base ranges exclude Speed, HP conditions, and Offense Level Up. “Bloody Bastard!” has 2 Coins; conditional reuse is not listed as a permanent third Coin. “Give It Back...!!” is unclashable."
     },
     "priorities.0": {
       "sourceHash": "a8b4db6780186d0946afda7ba12838153a1b46af2bbfd811bc42484b3dbe68bf",
@@ -184,7 +184,7 @@
     },
     "priorities.1": {
       "sourceHash": "147e4b638bb85d63887c343f62a8535d5821b1934ea20775257306b47014b2d8",
-      "text": "The turn after I'll Get You...!'s [On Use] effect, check attacks aimed at the marked Sinner and the Speed gap. Use faster allies to redirect attacks where possible."
+      "text": "The turn after “I'll Get You...!”'s [On Use] effect, check attacks aimed at the marked Sinner and the Speed gap. Use faster allies to redirect attacks where possible."
     },
     "priorities.2": {
       "sourceHash": "93d45f070703d68c864dfd41c9563773add23f28d18e49b86328501b19a6b9f6",
@@ -196,7 +196,7 @@
     },
     "troubleshooting.0.advice": {
       "sourceHash": "c88f35a7fde5a72b2828005c9e0d8621e9e5bd03ab7dad2a7f5593c6a99d48ef",
-      "text": "I'll Get You...! applies next turn's mark, Fragile, Paralyze, and Bind [On Use]. Preventing hits does not remove them. Prepare a fast redirector and Defense Skills for the following attacks."
+      "text": "“I'll Get You...!” applies next turn's mark, Fragile, Paralyze, and Bind [On Use]. Preventing hits does not remove them. Prepare a fast redirector and Defense Skills for the following attacks."
     },
     "troubleshooting.1.symptom": {
       "sourceHash": "b9f4fc7ad9ceb008ac318e674c89f975a9a194b690f385a3a1a54ad0c52bcfe0",
@@ -212,7 +212,7 @@
     },
     "troubleshooting.2.advice": {
       "sourceHash": "62e9fdcc451be434994b95fc443869be780137d01c3453d50e9af23df21515dd",
-      "text": "The enemy heals on hits and kills. Stop This Is My Home!, which prioritizes low HP, and You Little..., which prioritizes marked targets. Prevent repeated attacks on heavily Bleeding Sinners."
+      "text": "The enemy heals on hits and kills. Stop “This Is My Home!”, which prioritizes low HP, and “You Little...”, which prioritizes marked targets. Prevent repeated attacks on heavily Bleeding Sinners."
     },
     "units.0.name": {
       "sourceHash": "fcd26af8d2e3719fbec729e47ef4691977bd9d6924c6cd0f772c3f38fec705c1",
@@ -228,7 +228,7 @@
     },
     "units.0.notes.0": {
       "sourceHash": "57327dacc661e4d45d6f2047208638e711a54d8d58626f21a7c54a7e665fb9f8",
-      "text": "Normally has 6 actions including Defense Skills. At 65% HP or less, inserts unclashable Give It Back...!! into the pattern."
+      "text": "Normally has 6 actions including Defense Skills. At 65% HP or less, inserts unclashable “Give It Back...!!” into the pattern."
     },
     "units.0.notes.1": {
       "sourceHash": "0ee150a640312e73ad97fb520a9e7b05c7e0fc8e3610aa284549edb5c81c01e5",
@@ -248,11 +248,11 @@
     },
     "phases.0.steps.0": {
       "sourceHash": "1a7a516c9e3058fd0fc52245426122c3737712af6ccb161385e3c4f851d0d6ce",
-      "text": "Assign winning skills against attacks such as I'll Remove You and build SP-recovery resources. Preventing hits also limits healing and Offense Level Up."
+      "text": "Assign winning skills against attacks such as “I'll Remove You” and build SP-recovery resources. Preventing hits also limits healing and Offense Level Up."
     },
     "phases.0.steps.1": {
       "sourceHash": "ba33360b1b3c7ee3f6a8f95315f95322df398833bff4324d07ff8d50ff48b1de",
-      "text": "Bloody Bastard! scales with Speed difference; This Is My Home! with target HP percentage. If a low-HP Sinner is targeted, redirect eligible attacks with faster allies."
+      "text": "“Bloody Bastard!” scales with Speed difference; “This Is My Home!” with target HP percentage. If a low-HP Sinner is targeted, redirect eligible attacks with faster allies."
     },
     "phases.0.steps.2": {
       "sourceHash": "5c44413342ba61adecb7b33a994dc5fedcf6104c990e12ffb5234de6424b0c24",
@@ -268,11 +268,11 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "41760fd9b6d53448cc90170aa8b0f3d254878ad7de3ddff7e87521b5451bd167",
-      "text": "At 65% or less, an action pattern including Give It Back...!! is inserted regardless of the preceding sequence. It is unclashable; use the target's defense and remaining HP to limit damage."
+      "text": "At 65% or less, an action pattern including “Give It Back...!!” is inserted regardless of the preceding sequence. It is unclashable; use the target's defense and remaining HP to limit damage."
     },
     "phases.1.steps.1": {
       "sourceHash": "fdec098666493ec5550b90320ce458239817484cbb56b73b378900a393c24bbf",
-      "text": "Winning against I'll Get You...! does not remove next turn's mark, Fragile, Paralyze, or Bind. Recheck attack targets and Speed gaps next turn."
+      "text": "Winning against “I'll Get You...!” does not remove next turn's mark, Fragile, Paralyze, or Bind. Recheck attack targets and Speed gaps next turn."
     },
     "phases.1.steps.2": {
       "sourceHash": "30bbe702a17cc035598952870fb562927bf6340eadc96cc26ec0a3418d487a44",
@@ -292,7 +292,7 @@
     },
     "phases.2.steps.1": {
       "sourceHash": "dd207369e8d796282a776c2a91e958f738020f750d2d39407975551f354ca7d2",
-      "text": "The second half adds This is My Place! and You Little.... Check Speed gaps and marks, then assign skills that win against the buffed predictions."
+      "text": "The second half adds “This is My Place!” and “You Little...”. Check Speed gaps and marks, then assign skills that win against the buffed predictions."
     },
     "phases.2.steps.2": {
       "sourceHash": "67e5627c22273ec9ebd417ef02a6ebac7ac1aa3495c539a4ac199434d343282c",

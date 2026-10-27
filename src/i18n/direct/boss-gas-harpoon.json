@@ -204,7 +204,7 @@
     },
     "troubleshooting.0.advice": {
       "sourceHash": "581eeed4782ff08ac680c4ae800be58129c6317b40613721899a3bb73f7bfca1",
-      "text": "Undying Soul is reused even after a failed Evade. First win against Murky Innocence to lower Defense Power, then break subsequent Evades to reduce Ego."
+      "text": "“Undying Soul” is reused even after a failed Evade. First win against “Murky Innocence” to lower Defense Power, then break subsequent Evades to reduce Ego."
     },
     "troubleshooting.1.symptom": {
       "sourceHash": "22253fadfda64a6a4e267a25ed57c2193923e542a7fc73583a31280c418a01ed",
@@ -252,7 +252,7 @@
     },
     "units.0.notes.1": {
       "sourceHash": "006a4dc33eebd1ca5b489225f0b3310d935ecfb1ee673551dfa7e98c35da1149",
-      "text": "Starts with 20 Pip's Ego. Lose 1 on a failed Evade and 3 when using Weight of Guilt."
+      "text": "Starts with 20 Pip's Ego. Lose 1 on a failed Evade and 3 when using “Weight of Guilt”."
     },
     "units.1.name": {
       "sourceHash": "55f6677824b1fcbf49a86021f2752fa7b8593ce16346b48011b3b92f01ca121e",
@@ -332,15 +332,15 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "673da2b828673b24f27059389aa0bae2cf3e244dfba394cfe90f7b74d0f8f482",
-      "text": "Win against Murky Innocence with a fast Sinner to apply 2 Defense Power Down. Then attack Undying Soul; each failed Evade reduces Ego by 1."
+      "text": "Win against “Murky Innocence” with a fast Sinner to apply 2 Defense Power Down. Then attack “Undying Soul”; each failed Evade reduces Ego by 1."
     },
     "phases.1.steps.1": {
       "sourceHash": "6293979be01d8325e59f60e90fb87d2dd5150af83820bec3bff99ab9093ca6d3",
-      "text": "Undying Soul can be reused up to 2 times even after failing. Unlike ordinary Evade, breaking it once does not guarantee all following attacks hit."
+      "text": "“Undying Soul” can be reused up to 2 times even after failing. Unlike ordinary Evade, breaking it once does not guarantee all following attacks hit."
     },
     "phases.1.steps.2": {
       "sourceHash": "04432c165c69532bfeeafcf6107d523bc9750519380c53f1532fb93a6533d593",
-      "text": "Weight of Guilt consumes 3 Ego [On Use], but high Ego increases its power and Attack Weight. Stop the area attack with powerful skills or E.G.O."
+      "text": "“Weight of Guilt” consumes 3 Ego [On Use], but high Ego increases its power and Attack Weight. Stop the area attack with powerful skills or E.G.O."
     },
     "phases.1.steps.3": {
       "sourceHash": "f9cb785e8e0b45aaf8be5a8fc75df887e874fd48248f722c50aebdc264919d41",
@@ -356,15 +356,15 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "ddaaafac92f08a89040f9107118f8938a7540ea479660a1d1ed4a91c28094095",
-      "text": "Swathed Fear and Punctured Weakness apply next turn's Prey Mark [On Use]. Winning cannot prevent it, so check who will receive the mark next."
+      "text": "“Swathed Fear” and “Punctured Weakness” apply next turn's Prey Mark [On Use]. Winning cannot prevent it, so check who will receive the mark next."
     },
     "phases.2.steps.1": {
       "sourceHash": "974c632787e72bd8da0a29aa9a2b27e9cdde2866c19f444d32cf84f6e8614faf",
-      "text": "Winning with a marked Sinner reduces Ego by the number of enemy Coins destroyed. Echoing Cry has 5 Coins, making it a strong way to reduce Ego."
+      "text": "Winning with a marked Sinner reduces Ego by the number of enemy Coins destroyed. “Echoing Cry” has 5 Coins, making it a strong way to reduce Ego."
     },
     "phases.2.steps.2": {
       "sourceHash": "ec67c921c4492cb38b0ea9ee1f8ca67a8e4abd85230fe5bb677888dc36e2e71d",
-      "text": "Echoing Cry gains +1 Coin Power against unmarked Sinners. Save a winning E.G.O for the marked Sinner and protect their HP and SP."
+      "text": "“Echoing Cry” gains +1 Coin Power against unmarked Sinners. Save a winning E.G.O for the marked Sinner and protect their HP and SP."
     },
     "phases.2.steps.3": {
       "sourceHash": "a77be8e730d7d1c5c0451c933708b0f12a43e37c54df76fb3c2ea59b14abfb67",
@@ -380,7 +380,7 @@
     },
     "phases.3.steps.0": {
       "sourceHash": "dd0dc6bd6d129ba36dc67af326fd520383aa0936154ea5e5429131aa2254453f",
-      "text": "Insidious Pallidification grants a Shield at Combat Start. At 30 Ego, it equals 25% of Max HP, or 165, making the opening demanding. Concentrate your main units' attacks in the same turn to fully break it."
+      "text": "“Insidious Pallidification” grants a Shield at Combat Start. At 30 Ego, it equals 25% of Max HP, or 165, making the opening demanding. Concentrate your main units' attacks in the same turn to fully break it."
     },
     "phases.3.steps.1": {
       "sourceHash": "dfbc8b02eadabaa518f21451f8192cc557447155cef0b57ac0ac6138ca6c66d9",
@@ -388,7 +388,7 @@
     },
     "phases.3.steps.2": {
       "sourceHash": "f00fbd71f6f01c0231ff695783c308b86bd8ca2287b5e0b1fafc4326b6dc7e1d",
-      "text": "At Turn End, no Shield means -10 Ego; a remaining Shield means +5. Bleached Atonement consumes 5 [On Use], but still win its Clash to prevent Forced Stagger on hit."
+      "text": "At Turn End, no Shield means -10 Ego; a remaining Shield means +5. “Bleached Atonement” consumes 5 [On Use], but still win its Clash to prevent Forced Stagger on hit."
     },
     "phases.3.steps.3": {
       "sourceHash": "99877c58b14693d94ff32fd5fc0f2b1d87a6872b777857b24f1a8a75c77251c8",
@@ -452,7 +452,7 @@
     },
     "skills.2.response": {
       "sourceHash": "70d544eebaaac238d0c7da3a1bf0fe4f9014d3d33134819a81441540db0d7806",
-      "text": "A special Evade that can be reused up to 2 times even after failing. First beat Murky Innocence to lower Defense Power, then break Evades in Speed order to reduce Ego. Offsetting alone does not count as failed Evades."
+      "text": "A special Evade that can be reused up to 2 times even after failing. First beat “Murky Innocence” to lower Defense Power, then break Evades in Speed order to reduce Ego. Offsetting alone does not count as failed Evades."
     },
     "skills.3.name": {
       "sourceHash": "fac463ff1bdcfdc694c953ef6c7ae53e2f4fc2b38202e8182ab250b499b1f45b",
@@ -480,7 +480,7 @@
     },
     "skills.3.response": {
       "sourceHash": "5e3772aa35737530fa507ee10e2bd69cf6adbd9c4107eb9e4204bf2b8a214bc1",
-      "text": "Ahab loses 2 Defense Power when she loses this Clash. Win with a fast Sinner first, then let other Sinners break Undying Soul afterward."
+      "text": "Ahab loses 2 Defense Power when she loses this Clash. Win with a fast Sinner first, then let other Sinners break “Undying Soul” afterward."
     },
     "skills.4.name": {
       "sourceHash": "1ad0c718ce2f7161acf85b61a00609f50e3f0815ea6e291edb9bb193cd6c3880",
@@ -596,7 +596,7 @@
     },
     "skills.8.response": {
       "sourceHash": "c19d8a322817a19de719a4746b36ae3a77ca0c34f8cbe922329eb1013fc70885",
-      "text": "Stopping the attack does not remove next turn's mark. Preserve the marked Sinner's HP, SP, and an answer to Echoing Cry."
+      "text": "Stopping the attack does not remove next turn's mark. Preserve the marked Sinner's HP, SP, and an answer to “Echoing Cry”."
     },
     "skills.9.name": {
       "sourceHash": "086b4007d13db5d834b51a390bc3eded1b662ab4160ce507c41c1f7aed966d62",
@@ -900,7 +900,7 @@
     },
     "passives.6.response": {
       "sourceHash": "f38b6d8e55a5bb3236f3169d0c65fe6f95e246af6becdbaa130a580ebd1b3902",
-      "text": "Reduce Ego through failed Evades and Weight of Guilt. The status description lists different healing timing; this entry follows the passive description."
+      "text": "Reduce Ego through failed Evades and “Weight of Guilt”. The status description lists different healing timing; this entry follows the passive description."
     },
     "passives.7.name": {
       "sourceHash": "8c0e3d010aaffd2f1e0dea5685d641a2fb9a5498ba86fee95d36932068fa3598",
@@ -972,7 +972,7 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "096323a4e0c6a233321ba7175f0924114de2c58e9cde153f5ce55f34e8b2c0f2",
-      "text": "Starts at 20. Lose 1 on failed Evade and 3 when using Weight of Guilt. If at 0 at Turn End, become Staggered next turn."
+      "text": "Starts at 20. Lose 1 on failed Evade and 3 when using “Weight of Guilt”. If at 0 at Turn End, become Staggered next turn."
     },
     "mechanics.0.response": {
       "sourceHash": "6e66c1d8d43a91e8d66b0e3a437ed7c99e64289d0ea3cd696fd1cfb43df427bc",
@@ -996,7 +996,7 @@
     },
     "mechanics.2.effect": {
       "sourceHash": "2ae008a146f0d95733b0385c474494f3109a27e1995760e923dfd6f28e14519d",
-      "text": "Starts at 30. At Turn End, lose 10 without a Shield or gain 5 if it remains. Bleached Atonement consumes 5 [On Use]."
+      "text": "Starts at 30. At Turn End, lose 10 without a Shield or gain 5 if it remains. “Bleached Atonement” consumes 5 [On Use]."
     },
     "mechanics.2.response": {
       "sourceHash": "21591700a2c5e63d19d046e020f83584b1ad42f6ee836d1609bfb25962206e5b",
@@ -1048,7 +1048,7 @@
     },
     "roles.0.reason": {
       "sourceHash": "d44a943b94df66af3653a7d23f7654f2e28d089e142e3488161e49a49bf1678c",
-      "text": "Stop Echoing Cry to remove substantial Ego. The marked Sinner changes each turn, so prepare several possible specialists."
+      "text": "Stop “Echoing Cry” to remove substantial Ego. The marked Sinner changes each turn, so prepare several possible specialists."
     },
     "roles.1.name": {
       "sourceHash": "b41cb38f38a641347d8b2b8be393a7ced68599fcabcc6f761ace051c1e5a1e81",

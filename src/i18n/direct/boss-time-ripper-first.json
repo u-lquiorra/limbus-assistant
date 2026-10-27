@@ -172,7 +172,7 @@
     },
     "lead": {
       "sourceHash": "0b40e84398edf3b5121252b42cf59682273470a25ef8d932bd05c7adb296ac06",
-      "text": "Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On Time to be Saved turns, limit attackers to control who is targeted during next turn's acceleration."
+      "text": "Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On “Time to be Saved” turns, limit attackers to control who is targeted during next turn's acceleration."
     },
     "listLead": {
       "sourceHash": "92ca28f03bd335a92fab55072ea1519a600df99305e88873051c393eae157d16",
@@ -184,7 +184,7 @@
     },
     "skillNote": {
       "sourceHash": "9bb17e62b3967a8d58c6a25fdc20c1f6eed5e4b7a8c65d11cbfef30149d3fa1c",
-      "text": "All 8 regular skills, before Time Acceleration and remaining-time bonuses. Evade gains Base Power from remaining time. Time to be Saved is Unclashable. After time runs out, Normal uses 3 attacks."
+      "text": "All 8 regular skills, before Time Acceleration and remaining-time bonuses. Evade gains Base Power from remaining time. “Time to be Saved” is Unclashable. After time runs out, Normal uses 3 attacks."
     },
     "priorities.0": {
       "sourceHash": "cd0372180ed5e59eb2374b946aca5f65c4e60a819b5a13feeb9d6ddeee1f07ae",
@@ -192,7 +192,7 @@
     },
     "priorities.1": {
       "sourceHash": "e71f7f15e3b474fd5388e1bdbc0ba1616fdd773c1f78015e4c50995cfb06fe98",
-      "text": "Sinners who attack the boss on turn 3's Time to be Saved are targeted during next turn's acceleration. Keep vulnerable Sinners from attacking and prepare HP, resistance, and defense on the handlers."
+      "text": "Sinners who attack the boss on turn 3's “Time to be Saved” are targeted during next turn's acceleration. Keep vulnerable Sinners from attacking and prepare HP, resistance, and defense on the handlers."
     },
     "priorities.2": {
       "sourceHash": "81de151131b43b7038ec9c0bb4e049f2b78c2aad78f10c6d6f6e620e11fb9a34",
@@ -212,7 +212,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "b808cb3ba17211dfb93ebba27c7fcf05252a8de552f0df1c750330faa0457bc3",
-      "text": "Sinners attacking during Time to be Saved gain Time Relief Entitlement next turn. Attack only with those able to survive accelerated attacks rather than with the whole team."
+      "text": "Sinners attacking during “Time to be Saved” gain Time Relief Entitlement next turn. Attack only with those able to survive accelerated attacks rather than with the whole team."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "d43bb9abeeb19329e3ea593efecad752ac584ae6e4030023aec86ddcf7b15113",
@@ -268,7 +268,7 @@
     },
     "phases.1.timing": {
       "sourceHash": "6b1256f0d92f992ee9e176ea4a0167624348103f55de8bd7c8861c7165d73177",
-      "text": "Turn 3 · Time to be Saved"
+      "text": "Turn 3 · “Time to be Saved”"
     },
     "phases.1.title": {
       "sourceHash": "f6d6565f968ffe20d9362c34e90910bec623b60e2bb596909e7e7ab1396570aa",
@@ -276,7 +276,7 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "73e60a005a5f4e4ac367308028054986285ed44165d1f52b54ed70ada48cacfc",
-      "text": "Time to be Saved is Unclashable. At Combat Start, consumes 200 time and prepares Time Acceleration next turn. A powerful attack cannot stop it through a clash."
+      "text": "“Time to be Saved” is Unclashable. At Combat Start, consumes 200 time and prepares Time Acceleration next turn. A powerful attack cannot stop it through a clash."
     },
     "phases.1.steps.1": {
       "sourceHash": "2f564e5f65c459da35e00e4a33485c7d8b64397a9709cf18698818b8b0dc5dfb",
@@ -300,7 +300,7 @@
     },
     "phases.2.steps.1": {
       "sourceHash": "9ddf38cf18d5ec801ea92c8d1980001b6a6ca599fbc7579bd43c1e297b7f4f39",
-      "text": "Extraction gains +1 Coin Power during acceleration and +2 Clash Power on use below 75% HP. Mutilate also gains Attack Weight; do not rely only on base Power or target counts."
+      "text": "“Extraction” gains +1 Coin Power during acceleration and +2 Clash Power on use below 75% HP. “Mutilate” also gains Attack Weight; do not rely only on base Power or target counts."
     },
     "phases.2.steps.2": {
       "sourceHash": "4a541fdfbc0e3dac4d12f697eea58cdb7644857fb18e9f64c09f229b14803a78",
@@ -320,7 +320,7 @@
     },
     "phases.3.steps.1": {
       "sourceHash": "bcaaa03191d931c346ab88a081df3b5e25fa7dfe03543ba3625ddbaa57396b52",
-      "text": "At 0 time, uses 2 My... and 1 Running Out of Time for 3 actions. Clash wins inflict 1 Fragile on the enemy; exploit the opening to finish."
+      "text": "At 0 time, uses 2 “My...” and 1 “Running Out of Time” for 3 actions. Clash wins inflict 1 Fragile on the enemy; exploit the opening to finish."
     },
     "phases.3.steps.2": {
       "sourceHash": "70e94aa6eb186009fef1f4542fe00ceafd8973b140599b4b1cfae00d5de3d403",
@@ -616,7 +616,7 @@
     },
     "mechanics.2.effect": {
       "sourceHash": "bf12279217e3625b09ff5aa4a40bf080bb0f1c5ba2cc3d59f2c48b1f05cd0043",
-      "text": "Becomes a target during Time Acceleration. Applied next turn to Sinners who attacked the boss on Time to be Saved's turn."
+      "text": "Becomes a target during Time Acceleration. Applied next turn to Sinners who attacked the boss on “Time to be Saved”'s turn."
     },
     "mechanics.2.response": {
       "sourceHash": "bacb3155a84f2f5c5c2259f72f1e72bc1d23d616733aa581c70ce1ac87c9c0ab",
@@ -678,7 +678,7 @@
   "messages": {
     "boss-copy:time-ripper-first": "complete",
     "【リンバス】6.5-14 時間殺人鬼（6.5-14）の攻略｜Limbus Assistant": "6.5-14 The Time Ripper (6.5-14) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)6.5-14「時間殺人鬼（6.5-14）」の攻略。序盤は奪った時間で攻撃・防御レベルが高い。勝てないマッチを重ねず、耐性と守備でしのぎながら時間を消耗させる。救済する時間のターンは攻撃する囚人を絞り…": "The Time Ripper (6.5-14) guide for Limbus Company 6.5-14. Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On Time to be Saved turns, limit attackers to control who is targeted during next turn's acceleration.",
+    "リンバス(Limbus Company)6.5-14「時間殺人鬼（6.5-14）」の攻略。序盤は奪った時間で攻撃・防御レベルが高い。勝てないマッチを重ねず、耐性と守備でしのぎながら時間を消耗させる。救済する時間のターンは攻撃する囚人を絞り…": "The Time Ripper (6.5-14) guide for Limbus Company 6.5-14. Stolen Time raises Offense/Defense Levels early. Avoid repeated losing clashes; endure with resistance and defense while time is consumed. On “Time to be Saved” turns, limit attackers to control who is targeted during next turn's acceleration.",
     "6.5-14 時間殺人鬼（6.5-14）": "6.5-14 The Time Ripper (6.5-14)",
     "6.5-14「Timekilling Time: The Dread Clock Tower」": "6.5-14 · Timekilling Time: The Dread Clock Tower",
     "時間殺人鬼の外見": "The Time Ripper appearance",

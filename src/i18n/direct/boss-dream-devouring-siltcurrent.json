@@ -163,7 +163,7 @@
     },
     "lead": {
       "sourceHash": "ae9cb7d317beb6f24e684bccbb131fd6c4610a66713f0a5cafc16456b1a37d43",
-      "text": "Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through Wayward Blind Obsession. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates."
+      "text": "Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through “Wayward Blind Obsession”. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates."
     },
     "statNote": {
       "sourceHash": "be663aecb2c29e847b41d231d4badd1d5667ccaf528c41c776540583e0e86ff2",
@@ -175,7 +175,7 @@
     },
     "priorities.1": {
       "sourceHash": "8f1cd555baee2b292e68aac98f27684288c7cab3030300ee2771db52d8104b2d",
-      "text": "Destroy Flotsam to meet the condition that changes the next Blind Obsession into Wayward Blind Obsession."
+      "text": "Destroy Flotsam to meet the condition that changes the next Blind Obsession into “Wayward Blind Obsession”."
     },
     "priorities.2": {
       "sourceHash": "bdea5612ce953e98ee3aca97e4cc8efa83764061b2500bb68bb5a0e35f370b28",
@@ -235,7 +235,7 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "b700392750cf0d584fbb27172e17bf6217e189cbe04840e2b166a42905ff91d9",
-      "text": "Crashing Siltcurrent is unclashable. Powerful E.G.O cannot Clash with it to stop the terrain change. Handle regular Clashes and prepare for next turn instead."
+      "text": "“Crashing Siltcurrent” is unclashable. Powerful E.G.O cannot Clash with it to stop the terrain change. Handle regular Clashes and prepare for next turn instead."
     },
     "phases.1.steps.1": {
       "sourceHash": "c32316c55cd4b96c78a60fee5d787210d28770b058465f015c97af41e22a5b1f",
@@ -243,7 +243,7 @@
     },
     "phases.1.steps.2": {
       "sourceHash": "5a48718e328309c8d1b249167211ca43b49e2547e36d191b32fdf76e20cbcfc6",
-      "text": "Sweep creates Flotsam at Turn End. Winning the Clash does not cancel its appearance."
+      "text": "“Sweep” creates Flotsam at Turn End. Winning the Clash does not cancel its appearance."
     },
     "phases.2.timing": {
       "sourceHash": "ae18c9faafb1ab7e4d38d5279195763ae24ebda46733556223ec38555756f1eb",
@@ -283,11 +283,11 @@
     },
     "phases.3.steps.1": {
       "sourceHash": "9d2e098d8691c0b5ec2a91b801b8e8e5789485c10b2fe99aea80da1f6f3eb007",
-      "text": "Destroyed Flotsam meets the condition for the next Blind Obsession to become Wayward Blind Obsession. Do not assume it always immediately replaces a skill the enemy has already slotted."
+      "text": "Destroyed Flotsam meets the condition for the next Blind Obsession to become “Wayward Blind Obsession”. Do not assume it always immediately replaces a skill the enemy has already slotted."
     },
     "phases.3.steps.2": {
       "sourceHash": "a409354cc2a146129e91b34776c0f561b036038b1d50016caf53488176714dec",
-      "text": "Wayward Blind Obsession is unclashable and cannot be redirected, targeting Destroyed Flotsam. Let it resolve to damage the Lamp rather than trying to intercept it with a Sinner."
+      "text": "“Wayward Blind Obsession” is unclashable and cannot be redirected, targeting Destroyed Flotsam. Let it resolve to damage the Lamp rather than trying to intercept it with a Sinner."
     },
     "phases.3.steps.3": {
       "sourceHash": "bef6431760cf40bd3131a70503680766a58f3ef9a7a70dd98b7bb7892b1f132b",
@@ -303,7 +303,7 @@
     },
     "phases.4.steps.0": {
       "sourceHash": "f03fcc7dc140f1752fc2dbfe657764c68dcc562726458262a36ac4120f37dfe9",
-      "text": "Break the Lamp with direct attacks, Clash wins against Blind Obsession, and Wayward Blind Obsession's self-damage. It remains targetable after breaking. The Lamp takes 1.5× Pierce versus the Body's 1.0×, so Pierce attackers can keep targeting it."
+      "text": "Break the Lamp with direct attacks, Clash wins against Blind Obsession, and “Wayward Blind Obsession”'s self-damage. It remains targetable after breaking. The Lamp takes 1.5× Pierce versus the Body's 1.0×, so Pierce attackers can keep targeting it."
     },
     "phases.4.steps.1": {
       "sourceHash": "3b85b2aab0117474c72cb7d27952fc06d5cd2ef108bfdb0b2c24b8ea4dfa28bc",
@@ -311,7 +311,7 @@
     },
     "phases.4.steps.2": {
       "sourceHash": "022d8ee3ece31da12d4be3b7e3344a64ce4f4915812d5a49fd3dd6c0a92a5f8a",
-      "text": "The Shard also supports Poise, but you must still stop Sinking attacks. Press and Sweep add Sinking Count against Shard carriers, so this is not complete status immunity."
+      "text": "The Shard also supports Poise, but you must still stop Sinking attacks. “Press” and “Sweep” add Sinking Count against Shard carriers, so this is not complete status immunity."
     },
     "phases.4.steps.3": {
       "sourceHash": "0a1975abbc711080d0d6e024153d58897fa61c865fea0850619e5ac65bf9c8a0",
@@ -327,7 +327,7 @@
     },
     "mechanics.0.response": {
       "sourceHash": "9143faf6297e86345b60bceb904df9e5a24579f6dce7a48d6ba8fa5bb8128583",
-      "text": "It does not prevent all Sinking from attacks. Also check Press and Sweep's conditions."
+      "text": "It does not prevent all Sinking from attacks. Also check “Press” and “Sweep”'s conditions."
     },
     "mechanics.1.name": {
       "sourceHash": "bb24f5613c3b9101974e114b6c3c6a3869fee2e52fafc7c88d81ca8526f4b3bd",
@@ -347,7 +347,7 @@
     },
     "mechanics.2.effect": {
       "sourceHash": "b60af5366ad381132199a796b56c467af7456d7824143fdef41d2a3e4ec56e5f",
-      "text": "50 HP; no actions. Reducing its HP turns it into Destroyed Flotsam, enabling and becoming the target of the next Wayward Blind Obsession."
+      "text": "50 HP; no actions. Reducing its HP turns it into Destroyed Flotsam, enabling and becoming the target of the next “Wayward Blind Obsession”."
     },
     "mechanics.2.response": {
       "sourceHash": "62d96453e34ed8443e3a80b5bfc95ebc2e4c4cfaa4966036c62373d884ae4bfc",
@@ -395,7 +395,7 @@
     },
     "warnings.1": {
       "sourceHash": "d735303803f7cce932f2b64543dcac0537e96c676c42d34c027183dc002fa237",
-      "text": "Destroying Flotsam differs from removing it entirely. Let Wayward Blind Obsession target the remaining wreckage."
+      "text": "Destroying Flotsam differs from removing it entirely. Let “Wayward Blind Obsession” target the remaining wreckage."
     },
     "warnings.2": {
       "sourceHash": "7e10df1b05c2fd6b686884ed18f1a5546c5b9039fd648fb13d7321319d1b70cc",
@@ -487,7 +487,7 @@
     },
     "units.1.notes.1": {
       "sourceHash": "db08557486462cf55c7d0f7bebe4b41f267dc49045228107ebab37ae0f3a64fe",
-      "text": "Losing a Clash with Blind Obsession, or completing Wayward Blind Obsession, removes HP equal to 34% of this Part's Max HP."
+      "text": "Losing a Clash with Blind Obsession, or completing “Wayward Blind Obsession”, removes HP equal to 34% of this Part's Max HP."
     },
     "units.1.notes.2": {
       "sourceHash": "66dd5204a8f55d45a4440996e4756c80589b19f59db28d16edfcfabd2890b3e7",
@@ -507,7 +507,7 @@
     },
     "units.2.notes.0": {
       "sourceHash": "c4c272f73d9bcb72ab1ed7e7b3c72736d51b9406b50e378a2eda91ac75853e81",
-      "text": "Does not act. Appears at Turn End from Sweep."
+      "text": "Does not act. Appears at Turn End from “Sweep”."
     },
     "units.2.notes.1": {
       "sourceHash": "fe2342a0abb18402eae5c14d41b3ebf034ce3b699c8bd0f0b7b3e0ee20f19c41",
@@ -515,7 +515,7 @@
     },
     "units.2.notes.2": {
       "sourceHash": "2f61e5bbe99e2634ee135c04a935b5cf2fd64c945142495b74ac597cf088d68d",
-      "text": "Turns into Destroyed Flotsam rather than disappearing, becoming Wayward Blind Obsession's target."
+      "text": "Turns into Destroyed Flotsam rather than disappearing, becoming “Wayward Blind Obsession”'s target."
     },
     "skills.0.name": {
       "sourceHash": "e64ea9a61ddd173bd1f96c90f746c3ae09ef1f568bedac634e456f9672f4d85b",
@@ -979,13 +979,13 @@
     },
     "passives.8.response": {
       "sourceHash": "c2ea41e4c658f3511d70c5ade91e2a4accca8cbf93f045a1468403ea0b08491a",
-      "text": "Use the target that remains to trigger Wayward Blind Obsession's self-damage."
+      "text": "Use the target that remains to trigger “Wayward Blind Obsession”'s self-damage."
     }
   },
   "messages": {
     "boss-copy:dream-devouring-siltcurrent": "complete",
     "【リンバス】5-36 夢貪る濁流（5章）の攻略｜Limbus Assistant": "5-36 Dream-Devouring Siltcurrent (Canto V) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)5-36「夢貪る濁流（5章）」の攻略。2ターン目の盲目を、麻痺込みでも勝てる技で止める。その後は漂流物を先に破壊し、彷徨う盲目による自傷へ誘導する。蛍光灯を壊して毎ターンの麻痺・束縛を抑え、再生前に…": "Dream-Devouring Siltcurrent (Canto V) guide for Limbus Company 5-36. Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through Wayward Blind Obsession. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates.",
+    "リンバス(Limbus Company)5-36「夢貪る濁流（5章）」の攻略。2ターン目の盲目を、麻痺込みでも勝てる技で止める。その後は漂流物を先に破壊し、彷徨う盲目による自傷へ誘導する。蛍光灯を壊して毎ターンの麻痺・束縛を抑え、再生前に…": "Dream-Devouring Siltcurrent (Canto V) guide for Limbus Company 5-36. Stop turn 2's Blind Obsession with a skill that wins under Paralyze. Destroy Flotsam to trigger self-damage through “Wayward Blind Obsession”. Break the Fluorescent Lamp to limit recurring Paralyze and Bind, then damage the boss before it regenerates.",
     "5-36 夢貪る濁流（5章）": "5-36 Dream-Devouring Siltcurrent (Canto V)",
     "5-36「Into the Darkness, Floor 3: Assembly Point Before the Heart」": "5-36 · Into the Darkness, Floor 3: Assembly Point Before the Heart",
     "夢貪る濁流［胴体］の外見": "Dream-Devouring Siltcurrent (Body) appearance",

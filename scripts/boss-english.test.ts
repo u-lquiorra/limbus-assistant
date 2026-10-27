@@ -507,7 +507,7 @@ test("翻訳済みボスの英訳は全項目を覆い、数値・判定用の�
   assert.equal(translatedTime.skills[6].name, "My...");
   assert.match(translatedTime.priorities[2], /1000.*not replenished.*0/);
   assert.match(translatedTime.phases[1].steps[1], /this turn.*next turn.*vulnerable Sinners to defense/);
-  assert.match(translatedTime.phases[3].steps[1], /2 My.*1 Running Out of Time.*3 actions/, "時間切れ後はHardの4行動ではなく通常の3行動を保つ");
+  assert.match(translatedTime.phases[3].steps[1], /2 “My\.\.\.”.*1 “Running Out of Time”.*3 actions/, "時間切れ後はHardの4行動ではなく通常の3行動を保つ");
   assert.match(translatedTime.mechanics[0].effect, /200.*value − 200.*50.*Below 200.*200 − value.*50/);
   assert.match(translatedTime.mechanics[0].response, /No rounding rule is assumed/);
   assert.match(translatedTime.skills[2].response, /\+1 Coin Power.*75% HP.*50 time.*\+2 Clash Power.*21.*15/);
@@ -608,7 +608,7 @@ test("翻訳済みボスの英訳は全項目を覆い、数値・判定用の�
   assert.match(translatedLucio.skills[3].response, /Four Unbreakable Coins.*earlier clash win.*Power by 2.*Weight by 1.*90%/);
   assert.match(translatedLucio.skills[12].response, /Five Unbreakable Coins.*cannot be redirected.*Base Power.*10%.*before defeating Lucio/);
   assert.match(translatedLucio.mechanics[3].effect, /0 Eye.*−20%.*Unbreakable Coins.*10 stacks.*30/);
-  assert.match(translatedLucio.warnings[0], /not always better.*before entering the Disposal phase/);
+  assert.match(translatedLucio.warnings[0], /not always better.*before entering the “Disposal” phase/);
   const translatedCallistoRematch = localizeBossGuide(albinaCallistoRematch, "en");
   assert.match(translatedCallistoRematch.statNote ?? "", /two controllable Sinners.*no K Corp. Ampules.*below 1 HP while Albina lives/);
   assert.equal(translatedCallistoRematch.mechanics[0].name, "A Certain Sinclair");
@@ -770,7 +770,7 @@ test("翻訳済みボスの英訳は全項目を覆い、数値・判定用の�
   assert.equal(translatedOverseer.units[1].name, "Tanned Prisoner");
   assert.equal(translatedOverseer.units[0].hp, "5,000 (starts at 4,500)");
   assert.match(translatedOverseer.skills[3].response, /at least two Attack Skills.*main target.*clash win alone/);
-  assert.match(translatedOverseer.skills[4].response, /up to four.*lacks normal Splitting's two-attack/);
+  assert.match(translatedOverseer.skills[4].response, /up to four.*lacks normal “Splitting”'s two-attack/);
   assert.match(translatedOverseer.phases[1].steps[2], /E.G.O is exempt.*not automatically from targeting restrictions/);
   assert.match(translatedOverseer.skills[6].response, /Unclashable.*does not activate defense.*three Prisoners/);
   assert.match(translatedOverseer.skills[9].response, /second Coin is Unbreakable.*may not fully stop the healing/);

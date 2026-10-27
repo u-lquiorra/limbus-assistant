@@ -20,7 +20,7 @@
     },
     "lead": {
       "sourceHash": "4bb7bf0178bd6a94cacd5050b83688862dc7d9a11ddcaca15678418b261b765c",
-      "text": "In form 1, win Clashes against Golden Fruit to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body."
+      "text": "In form 1, win Clashes against “Golden Fruit” to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body."
     },
     "listLead": {
       "sourceHash": "8767fb4f55ec3b3ba45448fc8ff0c490116b6b709ef61fbb338ab1f62c3c169c",
@@ -36,7 +36,7 @@
     },
     "priorities.0": {
       "sourceHash": "e5308538246452a9eb9716f3218150408773c1b94c2c3de316a1c06986b5fb0d",
-      "text": "Win Clashes against Golden Fruit. This deals 20 damage to the enemy and reduces Golden Sheen by 1, lowering its Turn Start healing."
+      "text": "Win Clashes against “Golden Fruit”. This deals 20 damage to the enemy and reduces Golden Sheen by 1, lowering its Turn Start healing."
     },
     "priorities.1": {
       "sourceHash": "d3dc320cbf98eb6e152d3a3c1573c3123d89d38ad6b4d4d84233fb1138842fad",
@@ -52,7 +52,7 @@
     },
     "troubleshooting.0.advice": {
       "sourceHash": "39f90fb0a88e6440e8db5dce3cbc5d64955030682358387330ce5477c7b51062",
-      "text": "Form 1 heals 10 HP per Golden Sheen at Turn Start. It starts with 3, healing 30 HP. Win against Golden Fruit to reduce this value, and focus your attacks."
+      "text": "Form 1 heals 10 HP per Golden Sheen at Turn Start. It starts with 3, healing 30 HP. Win against “Golden Fruit” to reduce this value, and focus your attacks."
     },
     "troubleshooting.1.symptom": {
       "sourceHash": "649f33f5c54b1246abe175a38c13c4d90d31c98c74e7d816fcbada0295e514fd",
@@ -152,11 +152,11 @@
     },
     "phases.0.steps.0": {
       "sourceHash": "bfa0f48387c35c165eae77c512e6da3a20118908a23c453221e6e37d333dc3da",
-      "text": "The battle starts with 3 Golden Sheen. At Turn Start, it heals Golden Sheen × 10 HP, so prioritize winning against Golden Fruit. Each win deals 20 damage and removes 1 Golden Sheen."
+      "text": "The battle starts with 3 Golden Sheen. At Turn Start, it heals Golden Sheen × 10 HP, so prioritize winning against “Golden Fruit”. Each win deals 20 damage and removes 1 Golden Sheen."
     },
     "phases.0.steps.1": {
       "sourceHash": "ea818a57e0878edd2d12f1ae66222a1df4ca3754e28637666b5eaaf6772560f0",
-      "text": "Blunt and Sloth are effective. Form 1 alternates between 2 Sprout, 1 Golden Fruit, and 1 Solid Gold, and 2 Golden Fruit plus 2 Solid Gold. Take necessary Clashes and use spare actions to damage the main body."
+      "text": "Blunt and Sloth are effective. Form 1 alternates between 2 “Sprout”, 1 “Golden Fruit”, and 1 “Solid Gold”, and 2 “Golden Fruit” plus 2 “Solid Gold”. Take necessary Clashes and use spare actions to damage the main body."
     },
     "phases.0.steps.2": {
       "sourceHash": "ad6dbd21722b27e423f1e8b888d26878c8cefaeec47ed97126aa8cfd8bb8e88d",
@@ -192,7 +192,7 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "0d916240189411892ceae7d3c04b2ceee54f0e604ba92674aeaf96c8ae73649f",
-      "text": "The Head has 50 Part HP and is weak to Blunt. Match strong skills against Deteriorating Flesh and Entangle, preventing Bleed, Fragile, and main-body healing while damaging the Head."
+      "text": "The Head has 50 Part HP and is weak to Blunt. Match strong skills against “Deteriorating Flesh” and “Entangle”, preventing Bleed, Fragile, and main-body healing while damaging the Head."
     },
     "phases.2.steps.1": {
       "sourceHash": "165fffc8d54eb655e9a905fb142800a88384547ae36e2c212e85dfc6f4adb774",
@@ -232,7 +232,7 @@
     },
     "skills.0.response": {
       "sourceHash": "85f44ba0a77932df3d114e3b659032739128fd055e6f415f3cbf150e2a066153",
-      "text": "Form 1's normal attack. Take necessary Clashes while reserving skills that can beat Golden Fruit."
+      "text": "Form 1's normal attack. Take necessary Clashes while reserving skills that can beat “Golden Fruit”."
     },
     "skills.1.name": {
       "sourceHash": "b661f7bb77ba419d7fc1a3b78cbc44e9f368fd8159f07447a3c593316b4cc4a1",
@@ -260,7 +260,7 @@
     },
     "skills.2.response": {
       "sourceHash": "8735b85b8d90bf8c5762344ab00fcbbc352196a23d24b48500fe8cead32e9b54",
-      "text": "Form 1's Guard skill. Prioritize Clashes against attacks, especially winning against Golden Fruit, then use spare actions on the main body."
+      "text": "Form 1's Guard skill. Prioritize Clashes against attacks, especially winning against “Golden Fruit”, then use spare actions on the main body."
     },
     "skills.3.name": {
       "sourceHash": "40d5d97fe0a5670684e105c9d090662b6af65ea5ff978c5e40c354ca106acdda",
@@ -320,7 +320,7 @@
     },
     "passives.0.response": {
       "sourceHash": "de15fa58dad661cd1d7455d46aac7245cb62f04f27344725ef577b507b0d61d7",
-      "text": "Win against Golden Fruit to reduce the stacks. Leaving it at its initial 3 stacks allows 30 HP healing each turn."
+      "text": "Win against “Golden Fruit” to reduce the stacks. Leaving it at its initial 3 stacks allows 30 HP healing each turn."
     },
     "passives.1.name": {
       "sourceHash": "c1f9ccc8f266982539c64ad5f75c86f1737f496a5718966ef74ceba9a1230fd4",
@@ -360,11 +360,11 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "14a67ff28b6b7453374f61b19f70cc5ff909b9af7b69cf619ad01c27073bcd4c",
-      "text": "Starts at 3. At Turn Start, heal stacks × 10 HP. Losing a Clash with Golden Fruit reduces stacks by 1."
+      "text": "Starts at 3. At Turn Start, heal stacks × 10 HP. Losing a Clash with “Golden Fruit” reduces stacks by 1."
     },
     "mechanics.0.response": {
       "sourceHash": "10676b5faef32a326da8420b2cf35c78315711cf2ee4c5551ec39d51d4cd7f71",
-      "text": "Winning the Clash as a Sinner reduces its healing. Prioritize Golden Fruit rather than only making unopposed attacks against Guard."
+      "text": "Winning the Clash as a Sinner reduces its healing. Prioritize “Golden Fruit” rather than only making unopposed attacks against Guard."
     },
     "mechanics.1.name": {
       "sourceHash": "47631d0706127b9e5d48fb74e52c3f7b1f335d4a5d2e427b5e10317bdbb91ba6",
@@ -446,7 +446,7 @@
   "messages": {
     "boss-copy:golden-apple": "complete",
     "【リンバス】1-11 黄金色の林檎（1章）の攻略｜Limbus Assistant": "1-11 Golden Apple (Canto I) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)1-11「黄金色の林檎（1章）」の攻略。第1形態は黄金の果実へのマッチ勝利で回復を減らす。HP1で判定イベントを経て次の形態へ移る。第2形態は頭を壊して翌ターンの全身行動停止を作り、その隙に本体を倒…": "Golden Apple (Canto I) guide for Limbus Company 1-11. In form 1, win Clashes against Golden Fruit to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body.",
+    "リンバス(Limbus Company)1-11「黄金色の林檎（1章）」の攻略。第1形態は黄金の果実へのマッチ勝利で回復を減らす。HP1で判定イベントを経て次の形態へ移る。第2形態は頭を壊して翌ターンの全身行動停止を作り、その隙に本体を倒…": "Golden Apple (Canto I) guide for Limbus Company 1-11. In form 1, win Clashes against “Golden Fruit” to reduce healing. At 1 HP, an event check leads to the next form. In form 2, break the Head to stop all Parts next turn, then use that opening to defeat the main body.",
     "1-11 黄金色の林檎（1章）": "1-11 Golden Apple (Canto I)",
     "黄金色の林檎の外見": "Golden Apple appearance",
     "黄金色の林檎のスキル": "Golden Apple skills",

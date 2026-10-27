@@ -200,7 +200,7 @@
     },
     "lead": {
       "sourceHash": "f0d663c27bab87fcff385b8eb6a852384b8d103a6dfae46bb300d599c6b0545f",
-      "text": "Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop Upheaval and focus damage on the boss during its Stagger at 60% HP."
+      "text": "Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop “Upheaval” and focus damage on the boss during its Stagger at 60% HP."
     },
     "listLead": {
       "sourceHash": "8d0f14204dddf0c84e956ced5a9ca86ea417c1f440043efbcfaadf5757569ff6",
@@ -212,7 +212,7 @@
     },
     "skillNote": {
       "sourceHash": "a1cebe19c87b899c230a8c63a5ea47461d34a6fc8392856d3f597e2088f69d57",
-      "text": "The boss has 5 skills; each henchman has 4. Their counters are regular Counters, not Clashable attacks. Distinguish Upheaval's base range of 5–17 from its Rupture, Bleed, and Antagonism clash bonuses, and from its Heads Hit bonuses to later Coins. Smackdown's Attack Power Up amount is unspecified; do not infer it from its 1 Damage Up."
+      "text": "The boss has 5 skills; each henchman has 4. Their counters are regular Counters, not Clashable attacks. Distinguish “Upheaval”'s base range of 5–17 from its Rupture, Bleed, and Antagonism clash bonuses, and from its Heads Hit bonuses to later Coins. “Smackdown”'s Attack Power Up amount is unspecified; do not infer it from its 1 Damage Up."
     },
     "priorities.0": {
       "sourceHash": "53e73f16adac2e0fd5578d00fe1d3c69ac36692b0e63344613d22d9ec382c4f4",
@@ -224,7 +224,7 @@
     },
     "priorities.2": {
       "sourceHash": "8b503fc73afebce912d63caa38c517db618516c43524f84aebfc02df6ee4356c",
-      "text": "Save a strong skill that can beat Upheaval. Give Heathcliff clashes he can win, and prepare enough damage to finish the boss after its Stagger at 60% HP."
+      "text": "Save a strong skill that can beat “Upheaval”. Give Heathcliff clashes he can win, and prepare enough damage to finish the boss after its Stagger at 60% HP."
     },
     "troubleshooting.0.symptom": {
       "sourceHash": "af2497ef9b58fdab5b04a4d82981ef52a6e2500fbbc71984ed34a38ea3405f16",
@@ -244,7 +244,7 @@
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "15c5a7595aead75bd91898e14bafd639dd3e17e742e680e1fbea0473596b267f",
-      "text": "Upheaval Staggers or kills a Sinner"
+      "text": "“Upheaval” Staggers or kills a Sinner"
     },
     "troubleshooting.2.advice": {
       "sourceHash": "b45d2733e0f4feb42a2555e1d585610f4de20eed5398187a41acbacbf7e24c49",
@@ -340,7 +340,7 @@
     },
     "phases.1.timing": {
       "sourceHash": "f48fe5db4948b0cfce7d9ba15efa2cab2444410b89898ecf92575f6ca0263a27",
-      "text": "Upheaval on Turn 3"
+      "text": "“Upheaval” on Turn 3"
     },
     "phases.1.title": {
       "sourceHash": "dabb83e7cbd31e31a5e15b8c37cb343747761f67386946edef3d25a1e15aa0e5",
@@ -348,11 +348,11 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "ec82c147f2dbb4a212cac7c1c92c98bf83e644e0ae175abad931c0f95dc2bb68",
-      "text": "With all 3 henchmen alive, the usual Turn 3 pattern is Upheaval and 2 uses of Smackdown. Check the actual skills and reserve a strong response."
+      "text": "With all 3 henchmen alive, the usual Turn 3 pattern is “Upheaval” and 2 uses of “Smackdown”. Check the actual skills and reserve a strong response."
     },
     "phases.1.steps.1": {
       "sourceHash": "85f4b43cdfd5e390695564e9bbe893a8f13ecc462691b7d366b892a3471ec4ae",
-      "text": "Upheaval gains +1 Clash Power for at least 5 Rupture on its target, and another +1 for at least 5 Bleed. Antagonism can also activate based on current HP, so do not judge it solely by the listed maximum of 17."
+      "text": "“Upheaval” gains +1 Clash Power for at least 5 Rupture on its target, and another +1 for at least 5 Bleed. Antagonism can also activate based on current HP, so do not judge it solely by the listed maximum of 17."
     },
     "phases.1.steps.2": {
       "sourceHash": "eb3c4402c035da7e71252c0a77e212d3da9b7109a4ef40b32a4c96eb4664a63e",
@@ -376,7 +376,7 @@
     },
     "phases.2.steps.2": {
       "sourceHash": "065f4357baf5bf7e853579e4da5f9d54510d2793395f585f6ff228280346dd20",
-      "text": "If you accidentally kill a henchman, reassess the extra action and next turn's Haste and Attack Power Up. Do not face the next Upheaval with the same plan unchanged."
+      "text": "If you accidentally kill a henchman, reassess the extra action and next turn's Haste and Attack Power Up. Do not face the next “Upheaval” with the same plan unchanged."
     },
     "skills.0.name": {
       "sourceHash": "be39d5976b5d24ffed68b51a45b7e7cbe1144bb85b324cb9a894d673f92929f5",
@@ -420,7 +420,7 @@
     },
     "skills.1.response": {
       "sourceHash": "cab7947e1fb239061c97403e388d6386dda71699d1e14b30bc17934d5914a21e",
-      "text": "An enemy clash win gives it buffs next turn. Rupture also increases the Bleed inflicted, making the subsequent Upheaval dangerous."
+      "text": "An enemy clash win gives it buffs next turn. Rupture also increases the Bleed inflicted, making the subsequent “Upheaval” dangerous."
     },
     "skills.2.name": {
       "sourceHash": "ccfcbc7c7bc4e62ef3dd77fabef42dd50b02e281587ef45ca7febab225f46ba6",
@@ -944,7 +944,7 @@
     },
     "roles.0.reason": {
       "sourceHash": "974f4132f2f16b9182f89998a2fda669f809865f22a1d2b4a62423879a234620",
-      "text": "Compete with the enemy's high SP and stop Upheaval."
+      "text": "Compete with the enemy's high SP and stop “Upheaval”."
     },
     "roles.1.name": {
       "sourceHash": "b6271b7366c7506f3cfc8acdb5cb47a5b647a8d06ddf82be32048077a9f6fc9b",
@@ -966,7 +966,7 @@
   "messages": {
     "boss-copy:dead-rabbits-boss": "complete",
     "【リンバス】6-33 デッドラビッツ ボス（6-33）の攻略｜Limbus Assistant": "6-33 Dead Rabbits Boss (6-33) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)6-33「デッドラビッツ ボス（6-33）」の攻略。取り巻きを倒すとボスのスロットと精神力が増え、次のターンも強化される。取り巻きはマッチや守備でいなし、ヒースクリフの勝てるマッチをボスへ回す。腹い…": "Dead Rabbits Boss (6-33) guide for Limbus Company 6-33. Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop Upheaval and focus damage on the boss during its Stagger at 60% HP.",
+    "リンバス(Limbus Company)6-33「デッドラビッツ ボス（6-33）」の攻略。取り巻きを倒すとボスのスロットと精神力が増え、次のターンも強化される。取り巻きはマッチや守備でいなし、ヒースクリフの勝てるマッチをボスへ回す。腹い…": "Dead Rabbits Boss (6-33) guide for Limbus Company 6-33. Defeating henchmen gives the boss more slots and SP, plus buffs next turn. Handle the henchmen with clashes or Defense Skills, and let Heathcliff take clashes he can win against the boss. Stop “Upheaval” and focus damage on the boss during its Stagger at 60% HP.",
     "6-33 デッドラビッツ ボス（6-33）": "6-33 Dead Rabbits Boss (6-33)",
     "6-33「Matt」": "6-33 · Matt",
     "デッドラビッツ ボスの外見": "Dead Rabbits Boss appearance",

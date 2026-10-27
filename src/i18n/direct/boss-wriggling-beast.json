@@ -38,11 +38,11 @@
     },
     "skillNote": {
       "sourceHash": "a8a1fd6b793fe4ef913771ee3faadd01963cb891cfcd2a39bd11ec0b8c867e74",
-      "text": "The Slithering Inquisitor's 7 skill types give 11 entries separated by Part. Displayed Power excludes Swinging Arms' reduction from broken arms. Pained Writhing has Base Power 7, −1 Coin Power, and 3 Coins; Pained Struggle has 11, −5, and 2 Coins. Keep Poison, self-damage, On Hit, and Combat Start conditions distinct."
+      "text": "The Slithering Inquisitor's 7 skill types give 11 entries separated by Part. Displayed Power excludes “Swinging Arms”' reduction from broken arms. Pained Writhing has Base Power 7, −1 Coin Power, and 3 Coins; “Pained Struggle” has 11, −5, and 2 Coins. Keep Poison, self-damage, On Hit, and Combat Start conditions distinct."
     },
     "priorities.0": {
       "sourceHash": "63cb359d1a37743cd9bc2348c8240c25e070dbbb61ca3b7dbfd4ddede5dc9679",
-      "text": "Winning Clashes against Coil Up and Thrashing Arms reduces Instincts. It becomes defensive at 0 and resumes attacking when Instincts returns to 4. This differs from other enemies that lose Instincts simply from attack damage."
+      "text": "Winning Clashes against “Coil Up” and “Thrashing Arms” reduces Instincts. It becomes defensive at 0 and resumes attacking when Instincts returns to 4. This differs from other enemies that lose Instincts simply from attack damage."
     },
     "priorities.1": {
       "sourceHash": "609bbd822fb3407d3714468a6c4f0d5806dd9ccf5414d9f89375b451a0053977",
@@ -66,7 +66,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "0c0a365c24f3a2104ff8456105035960b5661d4c86be04a7fa890e1cdecc3610",
-      "text": "The actual switch to defensive behavior occurs at 0 Instincts. Afterward, Held Breath restores Instincts, and attacking resumes at 4. Do not assume any value below 4 immediately makes it defensive."
+      "text": "The actual switch to defensive behavior occurs at 0 Instincts. Afterward, “Held Breath” restores Instincts, and attacking resumes at 4. Do not assume any value below 4 immediately makes it defensive."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "e9fc927f5a35cfb028edb64da6fed8f99b9983a865c7fec9606084b6b81ac74d",
@@ -150,11 +150,11 @@
     },
     "phases.0.steps.0": {
       "sourceHash": "4665d7b3f18f2ae33a75f2be4e756e6bafc510f50f2efd3d5257e7e0f070ac0c",
-      "text": "Starts aggressive with 4 Instincts. When you win a Clash against Coil Up or Thrashing Arms, the enemy loses 1 Instincts. Block them while damaging the arms."
+      "text": "Starts aggressive with 4 Instincts. When you win a Clash against “Coil Up” or “Thrashing Arms”, the enemy loses 1 Instincts. Block them while damaging the arms."
     },
     "phases.0.steps.1": {
       "sourceHash": "3423a43e2ae4670603354c63be20b9017518c7c66e1894751794e8f3db81aa27",
-      "text": "Allowing Coiling Arms' 3 Paralyze or Swinging Arms' Bleed and Paralyze makes later Clashes harder. Use strong winning skills, mainly Pierce and Sloth."
+      "text": "Allowing “Coiling Arms”' 3 Paralyze or “Swinging Arms”' Bleed and Paralyze makes later Clashes harder. Use strong winning skills, mainly Pierce and Sloth."
     },
     "phases.0.steps.2": {
       "sourceHash": "e00bed495468061ffd9a469969ec7b05bce7baa30e407c3d63b03563d00f08bf",
@@ -170,7 +170,7 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "ec9adde7dea308c72f8ec89a1aaa1e73cadec517b02fd0a1b12617cecb8e72fb",
-      "text": "At 0 Instincts, it switches to defensive actions centered on Held Breath. Combat Start effects restore Instincts, so use this window to damage and break both arms."
+      "text": "At 0 Instincts, it switches to defensive actions centered on “Held Breath”. Combat Start effects restore Instincts, so use this window to damage and break both arms."
     },
     "phases.1.steps.1": {
       "sourceHash": "2f974f9446d69f7cbcadd58b8d674ced87215461a5bd97554e4287e79867d8cd",
@@ -198,7 +198,7 @@
     },
     "phases.2.steps.1": {
       "sourceHash": "ce813592b14ff30a0ac344dcb77f7b032d0424a94e27e4e6fd9a32c301d62efe",
-      "text": "Has 5 actions: 3 Pained Writhing and 2 Pained Struggle. The former inflicts 3 Poison next turn on each hit; the latter inflicts 6 Paralyze next turn on each hit. Win Clashes with strong skills while dealing damage."
+      "text": "Has 5 actions: 3 Pained Writhing and 2 “Pained Struggle”. The former inflicts 3 Poison next turn on each hit; the latter inflicts 6 Paralyze next turn on each hit. Win Clashes with strong skills while dealing damage."
     },
     "phases.2.steps.2": {
       "sourceHash": "5cbc18b476cea5d7b4f044859cb2b0855d9bf0324343ccc805bde82021f22885",
@@ -502,7 +502,7 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "8a2d23634b5fefaaa2ad9857b0ad2b4e60b4835630c21f5f5068304f616c86fe",
-      "text": "Starts at 4. Losing a Clash with Coil Up or Thrashing Arms reduces it by 1. In practice, 0 triggers defensive behavior; Held Breath restores it at Combat Start, and 4 resumes attacks."
+      "text": "Starts at 4. Losing a Clash with “Coil Up” or “Thrashing Arms” reduces it by 1. In practice, 0 triggers defensive behavior; “Held Breath” restores it at Combat Start, and 4 resumes attacks."
     },
     "mechanics.0.response": {
       "sourceHash": "539fa9123de25e541c7d78f78f340d7e3486da8732c27f27fec0e46784e10507",

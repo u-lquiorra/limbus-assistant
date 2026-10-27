@@ -90,7 +90,7 @@
     },
     "skillNote": {
       "sourceHash": "f5bbb64fe72a7d2b4dc20e6bd3ee07881f9c61cdc9f9f091bb9ec0542f74c4ae",
-      "text": "5 regular skills. Talismans applied [On Use] remain even if you win the Clash. Transferring Talisman lists [On Use], while the footnote places talisman application after the attack; attack its Defense Skill and check the actual transfer. This excludes Mirror Dungeon enhanced skills and Unbreakable Coins."
+      "text": "5 regular skills. Talismans applied [On Use] remain even if you win the Clash. “Transferring Talisman” lists [On Use], while the footnote places talisman application after the attack; attack its Defense Skill and check the actual transfer. This excludes Mirror Dungeon enhanced skills and Unbreakable Coins."
     },
     "priorities.0": {
       "sourceHash": "c1346f9724c5603eb8896b107bb664f2b28a2d24615ce9ebc7cc874765e09212",
@@ -98,7 +98,7 @@
     },
     "priorities.1": {
       "sourceHash": "7227185fbb580bc4dc5d48bf3dbf8c2dcabce3767a79715925404735118bfc2a",
-      "text": "To return talismans, attack Transferring Talisman on turn 3 with a Sinner carrying them. At least 12 returned talismans apply 5 Attack Power Down next turn."
+      "text": "To return talismans, attack “Transferring Talisman” on turn 3 with a Sinner carrying them. At least 12 returned talismans apply 5 Attack Power Down next turn."
     },
     "priorities.2": {
       "sourceHash": "b2efa957514a4028699698fa7bc01a5dbe3b6abc56b223e3e08996db6a75e6c7",
@@ -110,7 +110,7 @@
     },
     "troubleshooting.0.advice": {
       "sourceHash": "d7d5b9670cba9ba19dee331400d59d77cfb2db553ae4e14a9b0f94d61cae3207",
-      "text": "Entangling Talisman and Cumulating Curse also apply talismans [On Use]. Winning cannot prevent all of them. Check each Sinner's stacks and choose who will return them on turn 3."
+      "text": "“Entangling Talisman” and “Cumulating Curse” also apply talismans [On Use]. Winning cannot prevent all of them. Check each Sinner's stacks and choose who will return them on turn 3."
     },
     "troubleshooting.1.symptom": {
       "sourceHash": "12c7a3e1c46b53371ac3a00867fe064879dba3e34407f404ba81c6cb7e0bb3ad",
@@ -118,7 +118,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "96803d395cd8c65cdc810f70a583fc713d6a3b2f47c50ff36fe673255de02bf9",
-      "text": "Attack Transferring Talisman's Defense Skill with Sinners carrying many talismans. Their stacks are removed and the same amount returns to the enemy; aim for 12 total. If you have enough damage, Staggering the Right Arm is another option."
+      "text": "Attack “Transferring Talisman”'s Defense Skill with Sinners carrying many talismans. Their stacks are removed and the same amount returns to the enemy; aim for 12 total. If you have enough damage, Staggering the Right Arm is another option."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "d93c87b977a71796474cbd67816b2f45c7bb9aea9f1f6542f2f834d847903d28",
@@ -218,7 +218,7 @@
     },
     "phases.1.steps.1": {
       "sourceHash": "1a018fe89ea7ceecd53a6c144b79452d5b82334dd2f99833e8dc0b20a13728f4",
-      "text": "Entangling Talisman applies 2 talismans [On Use]; Cumulating Curse applies 1. They remain even if you win, so check each Sinner's status."
+      "text": "“Entangling Talisman” applies 2 talismans [On Use]; “Cumulating Curse” applies 1. They remain even if you win, so check each Sinner's status."
     },
     "phases.1.steps.2": {
       "sourceHash": "98427e7faddf42fc9599fc7ca25a8d5075f37e40b1668a2f3de419380ffb2ef5",
@@ -230,11 +230,11 @@
     },
     "phases.2.title": {
       "sourceHash": "6f5b25d7a3e817b856c65c23ccb8373a7d7643f788ab82953fc4731973deb45f",
-      "text": "Attack Transferring Talisman with talisman carriers"
+      "text": "Attack “Transferring Talisman” with talisman carriers"
     },
     "phases.2.steps.0": {
       "sourceHash": "3cf38a630ce9f9d3967927837ddd305b60fb6667353f6eb274a18741e025cc7f",
-      "text": "There are 2 Transferring Talisman slots. Assign attacks from Sinners with many talismans to each Defense Skill. Their stacks disappear and the enemy gains the same amount of Reattached Curse Talisman."
+      "text": "There are 2 “Transferring Talisman” slots. Assign attacks from Sinners with many talismans to each Defense Skill. Their stacks disappear and the enemy gains the same amount of Reattached Curse Talisman."
     },
     "phases.2.steps.1": {
       "sourceHash": "5db226ea48187e1be735d2ce42990c3fa075b3edec726f9b893ccee1e380ed10",
@@ -242,7 +242,7 @@
     },
     "phases.2.steps.2": {
       "sourceHash": "c923991a3993d91a6d58d10a0b7d0c5ed63e97cd0564d4a149cb9657ba259504",
-      "text": "One example uses 2 defenders: each Clashes with Entangling Talisman on turn 1 to receive 2 talismans, then Guards against Cumulating Curse on turn 2. Its [On Use] effect raises stacks to 3, and the first hit raises them to 6. Returning 6 each on turn 3 makes 12 total."
+      "text": "One example uses 2 defenders: each Clashes with “Entangling Talisman” on turn 1 to receive 2 talismans, then Guards against “Cumulating Curse” on turn 2. Its [On Use] effect raises stacks to 3, and the first hit raises them to 6. Returning 6 each on turn 3 makes 12 total."
     },
     "phases.2.steps.3": {
       "sourceHash": "44fbfa8a5017bfe7afca7773a07f47b9b7f811b16444dd63e450f16087c17ae8",
@@ -410,7 +410,7 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "19c288b786d59abc5fa910ac49dcaf292dd01b784266f9fb01d7bd14b6ae9d82",
-      "text": "Talismans applied to Sinners. Deal +1% damage per stack. At Turn Start, if at 9 or more, gain 2 Attack Power Down. Attack Transferring Talisman to return them to the enemy."
+      "text": "Talismans applied to Sinners. Deal +1% damage per stack. At Turn Start, if at 9 or more, gain 2 Attack Power Down. Attack “Transferring Talisman” to return them to the enemy."
     },
     "mechanics.0.response": {
       "sourceHash": "cf21af6ed1f8156e49664b874c3ad1f0071a178917f9ff44680b15ed6c03146d",

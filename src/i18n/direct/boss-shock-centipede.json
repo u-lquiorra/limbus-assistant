@@ -120,7 +120,7 @@
     },
     "lead": {
       "sourceHash": "16cff64269f3f6355f69f0465ff08f0d120d4a8a3c833453d04ff024e3877c4a",
-      "text": "Self-charge keeps it alive at 1 HP. Damage the Body first, then beat Wriggling Head and Wriggling Tail after the transition to exhaust its stacks. Breaking the Shield is a separate approach."
+      "text": "Self-charge keeps it alive at 1 HP. Damage the Body first, then beat “Wriggling Head” and “Wriggling Tail” after the transition to exhaust its stacks. Breaking the Shield is a separate approach."
     },
     "statNote": {
       "sourceHash": "0706eeec5d1d931f38adc6568ab53522155d68d386816c38bb677c76f53a70ce",
@@ -128,7 +128,7 @@
     },
     "skillNote": {
       "sourceHash": "1d14ca57a55ecb7654e01f37be5c268fa253845d669cc82304b35cfa5444e3bd",
-      "text": "9 regular skills. Coil Up is assigned to the Body in the skill table but the Head in the action table; it is listed under the Head here, so check the Shield's target. Wrapping Coil's 1-Coin entry conflicts with an effect labeled Coin Ⅱ. Do not substitute enhanced versions' power or slot counts at 1 HP."
+      "text": "9 regular skills. “Coil Up” is assigned to the Body in the skill table but the Head in the action table; it is listed under the Head here, so check the Shield's target. “Wrapping Coil”'s 1-Coin entry conflicts with an effect labeled Coin Ⅱ. Do not substitute enhanced versions' power or slot counts at 1 HP."
     },
     "priorities.0": {
       "sourceHash": "8182d1a7eed17d82f556d707877809ebb321b1d3b15d62875ee51ffb7adf9c30",
@@ -136,11 +136,11 @@
     },
     "priorities.1": {
       "sourceHash": "234024a67af2746537e8cc29ee06892263273767b985bb17aea3349c4f6c4e19",
-      "text": "At 1 HP, check Self-charge. Wriggling Head and Wriggling Tail consume 2 [On Use] and another 3 when you win the Clash."
+      "text": "At 1 HP, check Self-charge. “Wriggling Head” and “Wriggling Tail” consume 2 [On Use] and another 3 when you win the Clash."
     },
     "priorities.2": {
       "sourceHash": "8d52c14bf174b813c5b00932ba950b57ccf526cf1f352da7040c377d59278320",
-      "text": "Save powerful skills for the area attack on the turn after Coil Up. Protect low-HP Sinners and those Paralyzed by earlier hits."
+      "text": "Save powerful skills for the area attack on the turn after “Coil Up”. Protect low-HP Sinners and those Paralyzed by earlier hits."
     },
     "troubleshooting.0.symptom": {
       "sourceHash": "48ffa934043b8a0001700b8e67d0700a40f1ac0d5d1ea41812a38670274af750",
@@ -148,7 +148,7 @@
     },
     "troubleshooting.0.advice": {
       "sourceHash": "47caa47f46c4ba1dcab1ff30755c4c70a24c00f555b56a46401a6fb86f232baf",
-      "text": "Self-charge locks overall HP at 1 while stacks remain. Make it use Wriggling Head and Wriggling Tail after the transition, and win those Clashes to consume stacks rather than simply adding more damage."
+      "text": "Self-charge locks overall HP at 1 while stacks remain. Make it use “Wriggling Head” and “Wriggling Tail” after the transition, and win those Clashes to consume stacks rather than simply adding more damage."
     },
     "troubleshooting.1.symptom": {
       "sourceHash": "f639c6e10b073973ff69f4c373af08d53a020fd2eaa54fb63593867a90674972",
@@ -156,7 +156,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "c72387f0e30c1c0cda0f1d28aa8734ec6365150a5576194125124db6c9c2dc1b",
-      "text": "The regular Bite and Tail Poke gain 2 [On Use] and consume 1 [Clash Lose]. Even when you win, the net result is an increase. These differ from the consumption skills used after reaching 1 HP."
+      "text": "The regular “Bite” and “Tail Poke” gain 2 [On Use] and consume 1 [Clash Lose]. Even when you win, the net result is an increase. These differ from the consumption skills used after reaching 1 HP."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "e5b73f2717c42f20cc7d2af96b36fcec55bd6c66333150fccd922a2732f189b0",
@@ -172,7 +172,7 @@
     },
     "troubleshooting.3.advice": {
       "sourceHash": "eb9e0f51df30e91198509827e578cde20b600ca3e36dc2fe4b895c1bee20b5bf",
-      "text": "After the transition, Wriggling Head and Wriggling Tail prioritize low-HP targets. Redirect them with faster Sinners and save healing and skills that can beat a maximum roll of 17."
+      "text": "After the transition, “Wriggling Head” and “Wriggling Tail” prioritize low-HP targets. Redirect them with faster Sinners and save healing and skills that can beat a maximum roll of 17."
     },
     "units.0.name": {
       "sourceHash": "8dbcfb7de27614e3b66051ae1f93423ff933ffb5ede39b1d8cb5fa87ac761985",
@@ -212,7 +212,7 @@
     },
     "units.1.notes.1": {
       "sourceHash": "c6ae633d92274bfacabb215395cdffa1d0f60ce8398cd42b023d31427ea89ef8",
-      "text": "Can still act and be attacked after breaking. It continues using Wriggling Tail after reaching 1 HP; use that Clash to consume Self-charge."
+      "text": "Can still act and be attacked after breaking. It continues using “Wriggling Tail” after reaching 1 HP; use that Clash to consume Self-charge."
     },
     "phases.0.timing": {
       "sourceHash": "66354b6b3fdcf355f64526108165bc337c0bc417eb739431cf1888f830fb36e5",
@@ -228,7 +228,7 @@
     },
     "phases.0.steps.1": {
       "sourceHash": "dcf4d077c248d2f5306f9aa69d69c2c8d10e62a33850796a545b83a78fdeecb0",
-      "text": "Prepare E.G.O that can beat High-voltage Electric Discharge and Wriggling Tail after reaching 1 HP. Do not spend all powerful skills in the opening."
+      "text": "Prepare E.G.O that can beat “High-voltage Electric Discharge” and “Wriggling Tail” after reaching 1 HP. Do not spend all powerful skills in the opening."
     },
     "phases.0.steps.2": {
       "sourceHash": "b9625e97f3c22e37a01c0e652669e8a6530242240ec39a9c75da007d9d9c810b",
@@ -244,7 +244,7 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "00f9775a1fedcda25daef1b444ade7f8d6bc0df2eb4fd5eb31cb0b2e2a1c701e",
-      "text": "Coil Up grants a Shield equal to current Head HP. The usual plan is to focus the Body for Stagger without losing actions to the Shield."
+      "text": "“Coil Up” grants a Shield equal to current Head HP. The usual plan is to focus the Body for Stagger without losing actions to the Shield."
     },
     "phases.1.steps.1": {
       "sourceHash": "04bbe71891de83c21541caacd58bdcf18fcf8f72d1f9f9f54f7421a5ea792487",
@@ -256,7 +256,7 @@
     },
     "phases.2.timing": {
       "sourceHash": "90aa9cfef5d2c0111056298494c2fdc82f87416b13b5e13c5626df007d287e22",
-      "text": "The turn after Coil Up"
+      "text": "The turn after “Coil Up”"
     },
     "phases.2.title": {
       "sourceHash": "b16f268f470665ebc4d6760d089ab29cf4353d33ad43a197799436c6ef112624",
@@ -264,7 +264,7 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "dfa4fb796cc25c2e030aa5fb593ef184dca8a887b97514ed92eb94b0c752b22e",
-      "text": "High-voltage Electric Discharge has 5 Attack Weight. Damage increases above 10 Self-charge, so Clash with a strong skill and check secondary targets' HP."
+      "text": "“High-voltage Electric Discharge” has 5 Attack Weight. Damage increases above 10 Self-charge, so Clash with a strong skill and check secondary targets' HP."
     },
     "phases.2.steps.1": {
       "sourceHash": "463c34df09dd30308d50179bc6fceb04f79c54ae9ad18276ebd3b65c6fef7bda",
@@ -280,7 +280,7 @@
     },
     "phases.3.title": {
       "sourceHash": "9ee3c42e86fb31db4751515a7250e9b46635fa9d6b57cc9e70026d5d5dbcbc50",
-      "text": "Beat Wriggling Head and Wriggling Tail to exhaust remaining Self-charge"
+      "text": "Beat “Wriggling Head” and “Wriggling Tail” to exhaust remaining Self-charge"
     },
     "phases.3.steps.0": {
       "sourceHash": "af9f8b9a9be871a9f7516b5aefeba88a7bd78e3d71f5d109d903bf845f9d5b33",
@@ -288,7 +288,7 @@
     },
     "phases.3.steps.1": {
       "sourceHash": "53e594d99bb5ea4efa6c8b1c95bf19b67daeb65575542244d6b522c2b78081bd",
-      "text": "When its skills change to Wriggling Head and Wriggling Tail, redirect low-HP-targeting attacks with faster Sinners and use winning regular skills or E.G.O. Each consumes 2 [On Use] and another 3 if you win, for 5 total per skill."
+      "text": "When its skills change to “Wriggling Head” and “Wriggling Tail”, redirect low-HP-targeting attacks with faster Sinners and use winning regular skills or E.G.O. Each consumes 2 [On Use] and another 3 if you win, for 5 total per skill."
     },
     "phases.3.steps.2": {
       "sourceHash": "ed6b9a27b2eee3c36a063a19ddf39b7eed26601ecac23dfe34e815aa181861d9",
@@ -536,11 +536,11 @@
     },
     "passives.2.effect": {
       "sourceHash": "9093884ec4d0ccb05c0aa31fcfe8ee4e577a1968e189443d4dcacb152610279f",
-      "text": "After using Coil Up, fully depleting the Shield consumes Self-charge. All Parts become Staggered next turn."
+      "text": "After using “Coil Up”, fully depleting the Shield consumes Self-charge. All Parts become Staggered next turn."
     },
     "passives.2.condition": {
       "sourceHash": "de2e1089a7105f10866bc2e62531efaa58c9515b7fdd4cc854c6a2d42b7beaf2",
-      "text": "Shield depletion after Coil Up"
+      "text": "Shield depletion after “Coil Up”"
     },
     "passives.2.response": {
       "sourceHash": "08cf2883375b6e4c44c327cad0d99f91d2d660f6966daee08399072528644657",
@@ -564,7 +564,7 @@
     },
     "mechanics.1.effect": {
       "sourceHash": "4631509267738e929a331228f8f15a5786673f179dd2550b2ade7ae37802e2ae",
-      "text": "A unique status checked by High-voltage Electric Discharge. If present, its hit deals additional fixed damage equal to 40% of final damage."
+      "text": "A unique status checked by “High-voltage Electric Discharge”. If present, its hit deals additional fixed damage equal to 40% of final damage."
     },
     "mechanics.1.response": {
       "sourceHash": "37dd020b176135b459d821794de062e9f8ababd17d3fba517d4bac8a06e9d43e",
@@ -620,13 +620,13 @@
     },
     "roles.2.reason": {
       "sourceHash": "2c711e0b1f3fbe32f99ccae875f3eff533c97f100b295120a291d728c907bae9",
-      "text": "Protect weakened Sinners from Wriggling Head and Wriggling Tail's low-HP targeting."
+      "text": "Protect weakened Sinners from “Wriggling Head” and “Wriggling Tail”'s low-HP targeting."
     }
   },
   "messages": {
     "boss-copy:shock-centipede": "complete",
     "【リンバス】4-54 衝撃ムカデ（4章）の攻略｜Limbus Assistant": "4-54 Shock Centipede (Canto IV) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)4-54「衝撃ムカデ（4章）」の攻略。HP1で止まるのは自家発電が残っているため。まず胴体を削り、移行後の蠢く頭・尾へ勝って発電を使い切らせよう。バリアを割る攻略とは手順を分けて考える。": "Shock Centipede (Canto IV) guide for Limbus Company 4-54. Self-charge keeps it alive at 1 HP. Damage the Body first, then beat Wriggling Head and Wriggling Tail after the transition to exhaust its stacks. Breaking the Shield is a separate approach.",
+    "リンバス(Limbus Company)4-54「衝撃ムカデ（4章）」の攻略。HP1で止まるのは自家発電が残っているため。まず胴体を削り、移行後の蠢く頭・尾へ勝って発電を使い切らせよう。バリアを割る攻略とは手順を分けて考える。": "Shock Centipede (Canto IV) guide for Limbus Company 4-54. Self-charge keeps it alive at 1 HP. Damage the Body first, then beat “Wriggling Head” and “Wriggling Tail” after the transition to exhaust its stacks. Breaking the Shield is a separate approach.",
     "4-54 衝撃ムカデ（4章）": "4-54 Shock Centipede (Canto IV)",
     "4-54「The League of Nine in Memory, Floor 2」": "4-54 · The League of Nine in Memory, Floor 2",
     "衝撃ムカデ（頭）の外見": "Shock Centipede (Head) appearance",

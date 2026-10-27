@@ -153,7 +153,7 @@
     },
     "skillNote": {
       "sourceHash": "0db1b9aa578b08ab6fda60f732917893369b1ad64a940e516ff650427896e5aa",
-      "text": "Listed Power is before bonuses from Poise, Speed differences, Declared Duel, and Focused Attack. The Stagger passive mentions Salut, but the actual event ends the encounter and unlocks its skill information. Do not treat it as a normal attack you must survive."
+      "text": "Listed Power is before bonuses from Poise, Speed differences, Declared Duel, and Focused Attack. The Stagger passive mentions “Salut”, but the actual event ends the encounter and unlocks its skill information. Do not treat it as a normal attack you must survive."
     },
     "priorities.0": {
       "sourceHash": "dc8df23f1fec9c5201a4eaff9be7a1e43e4c049a977936f06337142b8e17644f",
@@ -237,11 +237,11 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "898fe20830d7d247f7bf8f05db1af5217f63cb30291c89fe02f9f7f5f1f902f2",
-      "text": "Turn 1 has one Allez. Winning the clash does not prevent its On Use Declared Duel or Poise gain."
+      "text": "Turn 1 has one “Allez”. Winning the clash does not prevent its On Use Declared Duel or Poise gain."
     },
     "phases.1.steps.1": {
       "sourceHash": "03594ff560eb318f015c39d8e9794141dffab5a1cf991bdf4ce8ba183a23ae7a",
-      "text": "Turn 2 uses Parry, Coup Droit, and Fente; your Sinner also has 3 slots. Match attacks and proceed using current predictions."
+      "text": "Turn 2 uses “Parry”, “Coup Droit”, and “Fente”; your Sinner also has 3 slots. Match attacks and proceed using current predictions."
     },
     "phases.1.steps.2": {
       "sourceHash": "17083f50025088a66ba2af88d15479830ea58cd330c984ae95098f9d23bb3752",
@@ -257,11 +257,11 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "0790233a9a3706ccc90f6667432460768fd0c54d040eff77e941ffd44128fd57",
-      "text": "Turn 3 uses 2 Défensive evades, Coup Droit, and Fente. Turn 4 uses 2 Coup Droit and 2 Fente. Your Sinner has 4 slots on both turns."
+      "text": "Turn 3 uses 2 “Défensive” evades, “Coup Droit”, and “Fente”. Turn 4 uses 2 “Coup Droit” and 2 “Fente”. Your Sinner has 4 slots on both turns."
     },
     "phases.2.steps.1": {
       "sourceHash": "981bbfe9f3ea8256975cb2e2a69da494adc79ad95daea53acaad546f943548fb",
-      "text": "At 7 Speed or more, the enemy inflicts Rupture or adds Count; at 7 Poise or more, Fente gains Coin Power too. Use the fixed hand and check each slot's prediction."
+      "text": "At 7 Speed or more, the enemy inflicts Rupture or adds Count; at 7 Poise or more, “Fente” gains Coin Power too. Use the fixed hand and check each slot's prediction."
     },
     "phases.2.steps.2": {
       "sourceHash": "8b90d8c659370ba2251616746a0c5f9985679ba22e50db8e95738e8800eb78f8",
@@ -281,7 +281,7 @@
     },
     "phases.3.steps.1": {
       "sourceHash": "4afef1b2d11f1581bee54f7fbae31a5b3309eddc68c0f68a4ff1d5478fd85310",
-      "text": "Single Combat says it uses Salut, but the actual outcome is an event ending and unlocked skill information. Beating a normal Salut is not a requirement."
+      "text": "Single Combat says it uses “Salut”, but the actual outcome is an event ending and unlocked skill information. Beating a normal “Salut” is not a requirement."
     },
     "skills.0.name": {
       "sourceHash": "eb8750e87639fc25907b704abe441b0c3e423ad30ef423ce5957189a1b134d09",
@@ -341,7 +341,7 @@
     },
     "skills.2.response": {
       "sourceHash": "822d6dd6cbdfcac7d9f13e5484bb5b11cfac05ccd13388742ff9eb22e4e6b47f",
-      "text": "At 7 Poise or more, its maximum rises from the base 15 to 17. Check the current prediction including buffs and Declared Duel. After Coup Droit inflicts Rupture, beware of damage from added Count too."
+      "text": "At 7 Poise or more, its maximum rises from the base 15 to 17. Check the current prediction including buffs and Declared Duel. After “Coup Droit” inflicts Rupture, beware of damage from added Count too."
     },
     "skills.3.name": {
       "sourceHash": "2f615817dd3e02bb62ccefa35c85612aa0ae5d7b7933e53ff2a7ef3a1c0fef49",
@@ -405,7 +405,7 @@
     },
     "skills.5.response": {
       "sourceHash": "300ab4b0700ebed558e55cd41cc3a39c16b42d2483d51b38eb84f51f7cb67775",
-      "text": "Used twice on Turn 3. Successful evades increase next turn's Speed, but you do not need enough damage to kill him. Check the remaining Coup Droit and Fente as you proceed."
+      "text": "Used twice on Turn 3. Successful evades increase next turn's Speed, but you do not need enough damage to kill him. Check the remaining “Coup Droit” and “Fente” as you proceed."
     },
     "passives.0.name": {
       "sourceHash": "63d6fc54165f88fb1f589f4c254b571d96edb9f9fc3e42a84e04e2504d222e90",
@@ -449,7 +449,7 @@
     },
     "passives.2.effect": {
       "sourceHash": "8f284792edf8ef78a7bc077f56641635d50a4835d0d580448e26ca461e0d36eb",
-      "text": "Use Salut. In actual progression, an event ends the encounter and unlocks Salut's skill information."
+      "text": "Use “Salut”. In actual progression, an event ends the encounter and unlocks “Salut”'s skill information."
     },
     "passives.2.response": {
       "sourceHash": "d698c08e8b9e5344c9a46a5d04c15b5ee49816832c9eb7b6b614fb0e63117120",
@@ -525,7 +525,7 @@
     },
     "mechanics.1.response": {
       "sourceHash": "6df05e5c24b04a3ec1cb318ee357fc41566fc5664fa5a3ba8fa9993747acf22d",
-      "text": "Applied by Allez On Use. For this enemy-specific skill, Haste triggers on attack hit. Do not assume every clash grants Haste."
+      "text": "Applied by “Allez” On Use. For this enemy-specific skill, Haste triggers on attack hit. Do not assume every clash grants Haste."
     },
     "mechanics.2.name": {
       "sourceHash": "8ac1ba3db9f88582b4956bc73b07f34e00b8a96b55e384bf5cf4ee400e401e3b",
@@ -537,7 +537,7 @@
     },
     "mechanics.2.response": {
       "sourceHash": "00e73791335de9fa902087c947995d7eaca294245ce8fa2d7361e89d53435ad7",
-      "text": "Do not treat Stagger as a normal failure. Depleting enemy HP or beating Salut is not required."
+      "text": "Do not treat Stagger as a normal failure. Depleting enemy HP or beating “Salut” is not required."
     },
     "mechanics.3.name": {
       "sourceHash": "4c70a403528d965361aae7fec52fde875c4b30d8759d49abc0bca940b88ae9ef",
@@ -581,7 +581,7 @@
     },
     "warnings.4": {
       "sourceHash": "b300f8b5bd8ed7cb746ced9a31d35e8487e26e0baccd34e96850eead118a0c13",
-      "text": "Salut's use conditions outside the event are not fully confirmed. Do not build a strategy around triggering it at a specific enemy HP percentage."
+      "text": "“Salut”'s use conditions outside the event are not fully confirmed. Do not build a strategy around triggering it at a specific enemy HP percentage."
     },
     "preparation.0": {
       "sourceHash": "94cf27dc8c62429e84dfb79cad1a77f297017f127d430d30b9092531348ac7f8",

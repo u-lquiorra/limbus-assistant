@@ -115,7 +115,7 @@
     },
     "lead": {
       "sourceHash": "0dd554a71680814e2cbb6966fdf8ba1cf65a17c5247467fd07cf13edf096385b",
-      "text": "Choose Run., Run., then Don't run. to avoid the battle. Fighting begins after every Sinner takes 15 HP damage, so check remaining HP. Beat Overflowing Sorrow to reveal the Head, then Stagger and break it to weaken the Bull."
+      "text": "Choose Run., Run., then Don't run. to avoid the battle. Fighting begins after every Sinner takes 15 HP damage, so check remaining HP. Beat “Overflowing Sorrow” to reveal the Head, then Stagger and break it to weaken the Bull."
     },
     "listLead": {
       "sourceHash": "e31888e43630cf0bb6fa2d7efba24a790cba87b2f43eb997009fe8b7adc8dc21",
@@ -139,7 +139,7 @@
     },
     "priorities.2": {
       "sourceHash": "a5a2740251ce537458260d853aa520b6972766f381248ed1501146c4f2f1f5fd",
-      "text": "Prioritize beating Overflowing Sorrow, reaching at least 3 Unresolved Sorrow to reveal the Head. Use Pierce and Pride to Stagger and break it, then attack during the all-Part Stagger."
+      "text": "Prioritize beating “Overflowing Sorrow”, reaching at least 3 Unresolved Sorrow to reveal the Head. Use Pierce and Pride to Stagger and break it, then attack during the all-Part Stagger."
     },
     "troubleshooting.0.symptom": {
       "sourceHash": "b9c7ace17a02ca7bf24d14a8e10c31291ec460febaa1fbfecdbf4dadb67d6ba1",
@@ -155,7 +155,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "a0375502885305791af7aec0635fd52e0eb4644d663b6dfe160aaacd4a812762",
-      "text": "Beat Overflowing Sorrow to raise the enemy's Unresolved Sorrow to at least 3. Its Turn End check reveals the Head next turn; it is not available from the start."
+      "text": "Beat “Overflowing Sorrow” to raise the enemy's Unresolved Sorrow to at least 3. Its Turn End check reveals the Head next turn; it is not available from the start."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "a770e741fa4c48b76743087368b834c18f8de6149a14d0d38705da6f655d01a1",
@@ -235,11 +235,11 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "0e3445dae90521766b15b5d884cf87e13638d27615ce261d320e0f50a9bf0599",
-      "text": "Account for the initial 15 HP damage. Use resistances and Defense Skills against charges you cannot beat, and keep Pin Down away from Sinners with heavy Burn."
+      "text": "Account for the initial 15 HP damage. Use resistances and Defense Skills against charges you cannot beat, and keep “Pin Down” away from Sinners with heavy Burn."
     },
     "phases.1.steps.1": {
       "sourceHash": "26cdc9198c8ac2dcefb1524acde7403e0f94ca3dffb341cf90176f5ca79ad070",
-      "text": "Overflowing Sorrow's base range is 7–11, making it easier to beat than the other attacks. Prioritize its Clash to prevent SP loss and a raised Stagger Threshold."
+      "text": "“Overflowing Sorrow”'s base range is 7–11, making it easier to beat than the other attacks. Prioritize its Clash to prevent SP loss and a raised Stagger Threshold."
     },
     "phases.1.steps.2": {
       "sourceHash": "08e7313ef6800bb94080704b5fc6db4383c54fa145b34727e6b21422242a5b90",
@@ -279,7 +279,7 @@
     },
     "skills.0.response": {
       "sourceHash": "571b995b22f26df25e04312ab92e03767602e6b342f7e53bcb8101cb3664327b",
-      "text": "A Blunt attack that rolls up to 14. If you cannot win, use resistances and a Defense Skill while saving an answer to Overflowing Sorrow. The second Coin's Burn requires Heads Hit."
+      "text": "A Blunt attack that rolls up to 14. If you cannot win, use resistances and a Defense Skill while saving an answer to “Overflowing Sorrow”. The second Coin's Burn requires Heads Hit."
     },
     "skills.1.name": {
       "sourceHash": "77c1b613e70425555b6a38170d4dae20d815f96efa15b469a967017c7597a2cc",
@@ -463,7 +463,7 @@
     },
     "mechanics.0.effect": {
       "sourceHash": "0c369c573630e22364407e6d834db19d21380676baf0d65f80918dab96751551",
-      "text": "The enemy gains this after losing a Clash with Overflowing Sorrow. At Turn Start, gain Attack Power Down equal to its value. At Turn End, if at least 3, change to Expanding Sorrow."
+      "text": "The enemy gains this after losing a Clash with “Overflowing Sorrow”. At Turn Start, gain Attack Power Down equal to its value. At Turn End, if at least 3, change to Expanding Sorrow."
     },
     "mechanics.0.response": {
       "sourceHash": "e64744cdb09c571f661daa9b85a04d2f51b82a611658dcb4e1ac055bc777cf30",
@@ -549,7 +549,7 @@
   "messages": {
     "boss-copy:brazen-bull-dungeon": "complete",
     "【リンバス】4-54 真鍮の雄牛 - 涙を流す（4章ダンジョン）の攻略｜Limbus Assistant": "4-54 Brazen Bull - Tearful (Canto IV Dungeon) Guide | Limbus Assistant",
-    "リンバス(Limbus Company)4-54「真鍮の雄牛 - 涙を流す（4章ダンジョン）」の攻略。イベントは走る、走る、走らないの順で戦闘を回避できる。戦う場合は全員HP15ダメージから始まるため、残HPを確認する。溢れ出る哀しみに勝…": "Brazen Bull - Tearful (Canto IV Dungeon) guide for Limbus Company 4-54. Choose Run., Run., then Don't run. to avoid the battle. Fighting begins after every Sinner takes 15 HP damage, so check remaining HP. Beat Overflowing Sorrow to reveal the Head, then Stagger and break it to weaken the Bull.",
+    "リンバス(Limbus Company)4-54「真鍮の雄牛 - 涙を流す（4章ダンジョン）」の攻略。イベントは走る、走る、走らないの順で戦闘を回避できる。戦う場合は全員HP15ダメージから始まるため、残HPを確認する。溢れ出る哀しみに勝…": "Brazen Bull - Tearful (Canto IV Dungeon) guide for Limbus Company 4-54. Choose Run., Run., then Don't run. to avoid the battle. Fighting begins after every Sinner takes 15 HP damage, so check remaining HP. Beat “Overflowing Sorrow” to reveal the Head, then Stagger and break it to weaken the Bull.",
     "4-54 真鍮の雄牛 - 涙を流す（4章ダンジョン）": "4-54 Brazen Bull - Tearful (Canto IV Dungeon)",
     "4-54「The League of Nine in Memory, Floor 3 Event」": "4-54 · The League of Nine in Memory, Floor 3 Event",
     "真鍮の雄牛 - 涙を流す（胴体）の外見": "Brazen Bull - Tearful (Body) appearance",

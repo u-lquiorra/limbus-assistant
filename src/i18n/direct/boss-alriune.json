@@ -155,11 +155,11 @@
     },
     "skillNote": {
       "sourceHash": "58c1dadb71c5058f77b4ed4250fc0fcc97abd201ce8b9af2c6552bf8f6bb0ad9",
-      "text": "A skill dealing 0 direct damage can still deal SP damage or apply statuses. Distinguish After Attack SP loss from On Hit and On Hit Without Breaking effects. Only the third Coin of the area-random attack A Human Who Yearned to be a Doll hits every attack target. A fixed turn sequence is unconfirmed; check Petals and skill names."
+      "text": "A skill dealing 0 direct damage can still deal SP damage or apply statuses. Distinguish After Attack SP loss from On Hit and On Hit Without Breaking effects. Only the third Coin of the area-random attack “A Human Who Yearned to be a Doll” hits every attack target. A fixed turn sequence is unconfirmed; check Petals and skill names."
     },
     "priorities.0": {
       "sourceHash": "97f7c6b70826b4d37e66676b16897412201404ffd8837663271a4b941e35eab8",
-      "text": "Redirect Fragrant Laurel Wreath to a strong Sinner to establish a major-clash specialist."
+      "text": "Redirect “Fragrant Laurel Wreath” to a strong Sinner to establish a major-clash specialist."
     },
     "priorities.1": {
       "sourceHash": "93435e0ba7d5de1adafb5df14b87cf54b0b079d1f55b4c53784945978c697aaa",
@@ -191,7 +191,7 @@
     },
     "troubleshooting.2.advice": {
       "sourceHash": "98bb74832d92ccd21cb106ad79c1d52d8b5790ef8f4efb3c9cfb751a982fdd6f",
-      "text": "Bearing the hope to return to dust... gains +5 Final Power against a target without the Wreath. Tremor and Sinking further increase its Power. Use the Wreath holder's strongest skill for 80% reduction and immunity to Stagger from that skill's damage."
+      "text": "“Bearing the hope to return to dust...” gains +5 Final Power against a target without the Wreath. Tremor and Sinking further increase its Power. Use the Wreath holder's strongest skill for 80% reduction and immunity to Stagger from that skill's damage."
     },
     "troubleshooting.3.symptom": {
       "sourceHash": "3c077a68a5d79cea5fd25153c3df701d0ddd8902b9037302340d81517132c27c",
@@ -239,7 +239,7 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "03b4eb26fa277ad83ff9f05c835bf5f114e855251597860c307f78658843a32f",
-      "text": "If nobody has Laurel Wreath of Atonement, the body equips Fragrant Laurel Wreath. On a major-attack turn, it is deferred to next turn. Check the equipped skills and assign your planned strong Sinner as recipient."
+      "text": "If nobody has Laurel Wreath of Atonement, the body equips “Fragrant Laurel Wreath”. On a major-attack turn, it is deferred to next turn. Check the equipped skills and assign your planned strong Sinner as recipient."
     },
     "phases.1.steps.1": {
       "sourceHash": "f9d4ad5ff4826b3fdca20dfbe4400df86cdff6fc21cbe8bc6f63c048857d3452",
@@ -263,7 +263,7 @@
     },
     "phases.2.steps.0": {
       "sourceHash": "c60c28f2af43c878e2afcc38ee696f74f239e98a14cb195b09ffe623405a159e",
-      "text": "Assign A Doll Who Yearned to be Human and When flowers substitute... to the Wreath holder. The Wreath prevents their After Attack SP loss, and clash wins restore SP to all allies."
+      "text": "Assign “A Doll Who Yearned to be Human” and When flowers substitute... to the Wreath holder. The Wreath prevents their After Attack SP loss, and clash wins restore SP to all allies."
     },
     "phases.2.steps.1": {
       "sourceHash": "ae1fdcb7ba13599002eb639a0b2dd7fe9989a6cdac59a04fce3a02419adc70d2",
@@ -271,7 +271,7 @@
     },
     "phases.2.steps.2": {
       "sourceHash": "f00ee15a9a90ab97db7e32a9f6ce2492688b7a70617e6860e6705f822a7abd4e",
-      "text": "A Human Who Yearned to be a Doll has 3 Atk Weight and randomly distributed attacks, but only the last Coin hits all attack targets. Others besides the clash recipient may suffer Faint Aroma and Tremor Burst; check everyone."
+      "text": "“A Human Who Yearned to be a Doll” has 3 Atk Weight and randomly distributed attacks, but only the last Coin hits all attack targets. Others besides the clash recipient may suffer Faint Aroma and Tremor Burst; check everyone."
     },
     "phases.2.steps.3": {
       "sourceHash": "0eba24d390fee7f0ac8af4a561159f6ecf837ebb555aebb16289d4f66510a0b4",
@@ -287,7 +287,7 @@
     },
     "phases.3.steps.0": {
       "sourceHash": "41bbcbb7a4c3a32a950d19040446f6facefc5ea7b7de92d5ab15ce6a4dbe5c0b",
-      "text": "Petals starts at 1 at Combat Start and increases by 1 at Turn End. At 3, the body uses Bearing the hope to return to dust... This usually gives a three-turn cycle, but the body's Stagger resets it; check the Stack too."
+      "text": "Petals starts at 1 at Combat Start and increases by 1 at Turn End. At 3, the body uses “Bearing the hope to return to dust...” This usually gives a three-turn cycle, but the body's Stagger resets it; check the Stack too."
     },
     "phases.3.steps.1": {
       "sourceHash": "2859b42b3a7298ae724d0c5a80e71a08a1b83be4959fb27ab308f8e27c42ab13",
@@ -311,7 +311,7 @@
     },
     "phases.4.steps.0": {
       "sourceHash": "03f22f14d9dd4086c66b40233c3186eb4fa25e2b6b6e6d9c2d4ca55628f555d0",
-      "text": "If a Sinner is Panicked or Corroded, the body uses ... It shall go back to the grave with all that desires to live at Turn Start. It targets the slowest first, up to twice per turn; Assist Units are excluded."
+      "text": "If a Sinner is Panicked or Corroded, the body uses “... It shall go back to the grave with all that desires to live” at Turn Start. It targets the slowest first, up to twice per turn; Assist Units are excluded."
     },
     "phases.4.steps.1": {
       "sourceHash": "467f339d8e9ad9572f0f51368aa4f0c963b02109974d4205bbace6558db6bf58",
@@ -911,7 +911,7 @@
     },
     "passives.1.effect": {
       "sourceHash": "02ea10b185d669917158a09a06ddbfbe6d6071af27bdc4f20b3e8973fd2075e8",
-      "text": "At Combat Start, gain 1 Petals.\nWhen Staggered:\n- Gain 2 Fragile next turn.\n- Heal Sinners and Assist Units for 20 SP.\n- At Turn Start after recovering from Stagger, reset Petals to 1.\nAt Turn Start, if no enemy has Laurel Wreath of Atonement, equip Fragrant Laurel Wreath.\n- If Bearing the hope to return to dust... is equipped, equip it next turn instead.\nTake 50% less skill damage from enemies without Laurel Wreath of Atonement.\nTake 150% more skill damage from enemies with Laurel Wreath of Atonement."
+      "text": "At Combat Start, gain 1 Petals.\nWhen Staggered:\n- Gain 2 Fragile next turn.\n- Heal Sinners and Assist Units for 20 SP.\n- At Turn Start after recovering from Stagger, reset Petals to 1.\nAt Turn Start, if no enemy has Laurel Wreath of Atonement, equip “Fragrant Laurel Wreath”.\n- If “Bearing the hope to return to dust...” is equipped, equip it next turn instead.\nTake 50% less skill damage from enemies without Laurel Wreath of Atonement.\nTake 150% more skill damage from enemies with Laurel Wreath of Atonement."
     },
     "passives.1.condition": {
       "sourceHash": "8589ccd3248a6c658b02fcb124caec931ac69a8c20c6032ac0352148113a8570",
@@ -927,7 +927,7 @@
     },
     "passives.2.effect": {
       "sourceHash": "84415fd06705d008dd1c716b7e692da066e09dc395f2e7e31f9bdffdc75ccb5a",
-      "text": "When an enemy becomes Staggered, deal 20 SP damage to them.\nAt Turn Start, use ... It shall go back to the grave with all that desires to live on Panicked or Corroded enemies (up to twice per turn, slowest first; excludes Assist Units).\nIf that skill kills its target, create one One Who Emerged from the Earth next turn.\n- Do not create another if four already exist in battle."
+      "text": "When an enemy becomes Staggered, deal 20 SP damage to them.\nAt Turn Start, use “... It shall go back to the grave with all that desires to live” on Panicked or Corroded enemies (up to twice per turn, slowest first; excludes Assist Units).\nIf that skill kills its target, create one One Who Emerged from the Earth next turn.\n- Do not create another if four already exist in battle."
     },
     "passives.2.condition": {
       "sourceHash": "df1b6b848a558a03d7cfe2b3194309f56084c0b5c504df3658178519b514e057",

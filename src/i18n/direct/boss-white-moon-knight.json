@@ -131,7 +131,7 @@
     },
     "skillNote": {
       "sourceHash": "78529ce8c61df427ba3513db992c167a943c3f9c659c7b74d31262172c788da1",
-      "text": "Enemy Power and levels are hidden in-game. Power values from Dragon of the Spring through Blak Arwe, and Lv.50 on skills other than Arwe, are estimates. Mirror of Water and Electron Accelerator Rail Activation have an estimated maximum of 30, but their Base and Coin Power are unknown. Arwe's Power and level are also unconfirmed. Listed Power excludes conditional bonuses."
+      "text": "Enemy Power and levels are hidden in-game. Power values from “Dragon of the Spring” through “Blak Arwe”, and Lv.50 on skills other than “Arwe”, are estimates. “Mirror of Water” and “Electron Accelerator Rail Activation” have an estimated maximum of 30, but their Base and Coin Power are unknown. “Arwe”'s Power and level are also unconfirmed. Listed Power excludes conditional bonuses."
     },
     "priorities.0": {
       "sourceHash": "eca5b1b845f84d1f5812b078e67186d5b836b0954707f4dc7f1cf319640e564d",
@@ -139,7 +139,7 @@
     },
     "priorities.1": {
       "sourceHash": "fe1d8d3ef968591d596f608c68e370961248b09f5f4b2eafeed1a4ca6dd0cdbf",
-      "text": "Unbreakable attacks on Turns 3 and 4 still hit after a clash win. Win clashes to prevent the extra damage from Pallid Trace and Red Arwe."
+      "text": "Unbreakable attacks on Turns 3 and 4 still hit after a clash win. Win clashes to prevent the extra damage from “Pallid Trace” and “Red Arwe”."
     },
     "priorities.2": {
       "sourceHash": "7c6ae7b3484cf98707517d75d87d859af95c7ac160567ef60ec37743d22ee631",
@@ -159,7 +159,7 @@
     },
     "troubleshooting.1.advice": {
       "sourceHash": "f229e684553ef62b9c3ab7cf5d8ca7d2a6a218b6efa91f71553ed6b006829254",
-      "text": "Coin I of Faint Trace and Pallid Trace is Unbreakable. Hits remain after a win, but you can prevent Coin II's Slash Fragility or extra damage."
+      "text": "Coin I of “Faint Trace” and “Pallid Trace” is Unbreakable. Hits remain after a win, but you can prevent Coin II's Slash Fragility or extra damage."
     },
     "troubleshooting.2.symptom": {
       "sourceHash": "e374344d11d594c5f90117c02c2b3dd1559b6f58ca8239e8ebeb6696cc733f65",
@@ -219,7 +219,7 @@
     },
     "phases.0.steps.2": {
       "sourceHash": "7b1407292c5c3bffdbeb14f83b444885f4ffb7a2c784ab1d4560fd5d704eea08",
-      "text": "Turn 1 uses Dragon of the Spring; Turn 2 uses Lotus in Autumn and Mirror of Water. Your slot count matches the enemy's, but the hand is random. Check clash predictions and assign skills each time."
+      "text": "Turn 1 uses “Dragon of the Spring”; Turn 2 uses “Lotus in Autumn” and “Mirror of Water”. Your slot count matches the enemy's, but the hand is random. Check clash predictions and assign skills each time."
     },
     "phases.1.timing": {
       "sourceHash": "3324cab920fe1518eb16b7d9f27e45357eaed1a33aa2fdc5a1abfce8a2e160f7",
@@ -231,15 +231,15 @@
     },
     "phases.1.steps.0": {
       "sourceHash": "f6caa8a920ce93d285e5497b03143349e7c43c36e513da4c7e5d458e8bb126ff",
-      "text": "Turn 3 uses Dragon of the Spring, Lotus in Autumn, and Faint Trace. Beat Faint Trace to prevent Coin II's 3 Slash Fragility."
+      "text": "Turn 3 uses “Dragon of the Spring”, “Lotus in Autumn”, and “Faint Trace”. Beat “Faint Trace” to prevent Coin II's 3 Slash Fragility."
     },
     "phases.1.steps.1": {
       "sourceHash": "5ed0ac98c0a5897c184bfd80e32c3a55541e44a4ca7a31a416a3d338e537cc51",
-      "text": "Turn 4 uses Faint Trace, Pallid Trace, and Mirror of Water. Assign a strong attack to Pallid Trace to prevent Coin II's extra 100 damage."
+      "text": "Turn 4 uses “Faint Trace”, “Pallid Trace”, and “Mirror of Water”. Assign a strong attack to “Pallid Trace” to prevent Coin II's extra 100 damage."
     },
     "phases.1.steps.2": {
       "sourceHash": "84a9cb09e460423208d1c7b35a84355bf29c9111a2122afb4746bf484d8d32fb",
-      "text": "Coin I of both Trace skills is Unbreakable; a win does not prevent every hit. Mirror of Water is also a Clashable Guard, so do not treat it as a normal defense."
+      "text": "Coin I of both Trace skills is Unbreakable; a win does not prevent every hit. “Mirror of Water” is also a Clashable Guard, so do not treat it as a normal defense."
     },
     "phases.2.timing": {
       "sourceHash": "c1f7aa0e2a8e8173613fe0f3eb93e3f2f9386fa797483c2870ec946f088f60e3",
@@ -247,15 +247,15 @@
     },
     "phases.2.title": {
       "sourceHash": "1c332035e10e135246779a1267eac928e7730c4bd178fd9610a5924ecd3df438",
-      "text": "Clash with both types of Arwe"
+      "text": "Clash with both types of “Arwe”"
     },
     "phases.2.steps.0": {
       "sourceHash": "c63275400e74a30536d64db0faee2386466755e25274e19315ba93c080909805",
-      "text": "Uses Red Arwe, Blak Arwe, and Electron Accelerator Rail Activation. Each Red Arwe Coin deals 50 extra damage; each Blak Arwe Coin inflicts 2 Mental Fracture."
+      "text": "Uses “Red Arwe”, “Blak Arwe”, and “Electron Accelerator Rail Activation”. Each “Red Arwe” Coin deals 50 extra damage; each “Blak Arwe” Coin inflicts 2 Mental Fracture."
     },
     "phases.2.steps.1": {
       "sourceHash": "5556e490f8b0c06077f01b448af176059b64b062bae8060a6de565e1792da324",
-      "text": "Assign a winning attack to each of the 2 Arwe skills. The rail buff activates at Combat Start; stopping it with an attack is not the objective."
+      "text": "Assign a winning attack to each of the 2 “Arwe” skills. The rail buff activates at Combat Start; stopping it with an attack is not the objective."
     },
     "phases.3.timing": {
       "sourceHash": "7b3f181323078b493a2ae49698dc782b657c882fa4a0094a4e7628bcf1247aa6",
@@ -267,7 +267,7 @@
     },
     "phases.3.steps.0": {
       "sourceHash": "885171bbc0bf149bce9077bfb52f9121b42140d4c6ff69b19305981337f1cafc",
-      "text": "The enemy uses Arwe without a Sin affinity, and all your slots become La Sangre de Sancho."
+      "text": "The enemy uses “Arwe” without a Sin affinity, and all your slots become La Sangre de Sancho."
     },
     "phases.3.steps.1": {
       "sourceHash": "ec62f56564a3c1ccc52c5866a80a6e6c87be695fa57cc60eef192a753b89bdd5",
@@ -319,7 +319,7 @@
     },
     "skills.1.response": {
       "sourceHash": "c1f17d77e9a75a47d3fda9a17d8841e2b731d62371e5ae3583be470fae7fa8c0",
-      "text": "Used on Turns 2 and 3. Do not spend every strong skill on Mirror of Water; assign a winning attack here too."
+      "text": "Used on Turns 2 and 3. Do not spend every strong skill on “Mirror of Water”; assign a winning attack here too."
     },
     "skills.2.label": {
       "sourceHash": "e7dc65a4b91d0befbc6384ff26b87c0ca8d372db289bfb1bc0ff6910a73c95e3",
@@ -415,7 +415,7 @@
     },
     "skills.5.response": {
       "sourceHash": "7f49f06c6e48e118e73f852adb6f1e7a632dac0eef6a78cdfc64d8acae90b320",
-      "text": "Used on Turn 5. Win the clash to prevent Mental Fracture. Lower SP makes Heads less likely, so take this clash separately from Red Arwe."
+      "text": "Used on Turn 5. Win the clash to prevent Mental Fracture. Lower SP makes Heads less likely, so take this clash separately from “Red Arwe”."
     },
     "skills.6.label": {
       "sourceHash": "4033f08e8d80ca6f74461059f3b08caa7dcdd2e59320099eea13426fb7b3c4cb",
@@ -543,7 +543,7 @@
     },
     "mechanics.2.response": {
       "sourceHash": "e3e5e884eefad4a61a83609703fca871b6c85fac5e1c4365108520a9664e558d",
-      "text": "Each Blak Arwe Coin inflicts 2. Win the clash to prevent hits and limit SP loss."
+      "text": "Each “Blak Arwe” Coin inflicts 2. Win the clash to prevent hits and limit SP loss."
     },
     "mechanics.3.name": {
       "sourceHash": "a85a10733b867e4bc77c0f190e32b2b6e312257eebf650e5b36b4c1bd8f8cee8",
@@ -571,7 +571,7 @@
     },
     "warnings.3": {
       "sourceHash": "f9233cdfd5e21cdf3acfa0c578b60d182a26da75a582f047f55b4e0986778fd3",
-      "text": "Mirror of Water's Coin behavior after a clash loss is uncertain. Do not assume Protection and damage always disappear."
+      "text": "“Mirror of Water”'s Coin behavior after a clash loss is uncertain. Do not assume Protection and damage always disappear."
     },
     "preparation.0": {
       "sourceHash": "9bb29f71c5bf11d237755c51adaef485b3e523027a403e793135846dbb14f6d2",
