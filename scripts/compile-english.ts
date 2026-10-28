@@ -3,7 +3,7 @@ import { readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { rerollCandidates, walpurgisCandidates } from "../src/data/reroll";
-import { guideSummary, parseGuide, parseInline, type InlineSegment } from "../src/guide";
+import { blockSegments, guideSummary, parseGuide, parseInline, type InlineSegment } from "../src/guide";
 import { bindGlossaryTranslation, type EnglishGlossaryTerm } from "./lib/glossary-english";
 import type { GlossaryTerm } from "../src/glossary";
 import { bindKeywordCopy, keywordCopySources } from "./lib/keyword-english";
@@ -94,7 +94,7 @@ for (const file of files) {
     const links = (segments: InlineSegment[]) => segments.filter((s) => s.persona || s.ego)
       .map((s) => `${s.persona ? "persona" : "ego"}:${s.persona ?? s.ego}`).sort();
     for (const section of guide.sections) for (const block of section.blocks) {
-      for (const segments of block.type === "p" ? [block.text] : block.items) {
+      for (const segments of blockSegments(block)) {
         const original = segments.map((segment) => segment.text).join("");
         if (!translations[original]) throw new Error(`攻略原文に対応する英訳が無い: ${file}: ${original}`);
         if (JSON.stringify(links(segments)) !== JSON.stringify(links(parseInline(translations[original])))) {

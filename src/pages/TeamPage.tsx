@@ -23,6 +23,9 @@ const SLOTS: { key: "core" | "flex" | "alternatives" | "support"; title: string;
   { key: "support", title: "裏置き", note: "サポートパッシブのため控えに置く人格" },
 ];
 
+// ガイド内の目次を出す最小の見出し数。見出しが5〜6個の通常の編成ガイドは、ページ内目次だけで足りる
+const GUIDE_TOC_MIN_SECTIONS = 7;
+
 // 人格の資源構成("3" / "2防" など)から攻撃スキルの枚数を取り出す
 function skillCount(raw: string | undefined): number {
   return Number.parseInt(raw ?? "", 10) || 0;
@@ -145,6 +148,7 @@ export default function TeamPage() {
           title="組み方と回し方"
           note="メンバーの効果文をもとにした解説。"
           withThumbs
+          toc={guide.sections.length >= GUIDE_TOC_MIN_SECTIONS}
         />
       )}
 

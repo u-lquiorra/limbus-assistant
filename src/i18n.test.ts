@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { createServer } from "vite";
 import { load } from "cheerio";
 import { readFile, readdir } from "node:fs/promises";
-import { parseGuide, parseInline } from "./guide.ts";
+import { blockSegments, parseGuide, parseInline } from "./guide.ts";
 import { isEnglish, languagePath, originalPath } from "./i18n/path.ts";
 import { setEnglishMessages, translateText } from "./i18n/text.ts";
 
@@ -62,7 +62,7 @@ test("英語SSR: 固有名詞・リンク・canonical・構造化データが英
       const renderedGuide = $(".guide").text();
       const guide = parseGuide(await readFile(direct.sourceGuide, "utf8"));
       for (const section of guide.sections) for (const block of section.blocks) {
-        for (const segments of block.type === "p" ? [block.text] : block.items) {
+        for (const segments of blockSegments(block)) {
           const source = segments.map((segment) => segment.text).join("");
           const english = parseInline(direct.messages[source]).map((segment) => segment.text).join("");
           assert(renderedGuide.includes(english), `${file}: 英訳した段落が描画されていない: ${english}`);
@@ -166,7 +166,7 @@ test("直接英訳: 原文の全段落と人格・E.G.Oへのリンクを保つ"
     const direct = JSON.parse(await readFile(`src/i18n/direct/${file}`, "utf8"));
     const guide = parseGuide(await readFile(direct.sourceGuide, "utf8"));
     for (const section of guide.sections) for (const block of section.blocks) {
-      for (const segments of block.type === "p" ? [block.text] : block.items) {
+      for (const segments of blockSegments(block)) {
         const source = segments.map((segment) => segment.text).join("");
         const translated = direct.messages[source];
         assert(translated, `${file}: 原文の更新に対応する英訳が無い: ${source}`);

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { activeSectionIndex, tocId, tocLabel } from "../toc";
+import { scrollToSection, stickyBottom } from "./scrollToSection";
 import "./page-toc.css";
 
 interface TocItem {
@@ -9,12 +10,6 @@ interface TocItem {
 
 // 目次を出す最小の節数。節が少ないページでは目次がかえって邪魔になる
 const MIN_ITEMS = 3;
-
-/** 固定ヘッダーと目次の下端(px)。節へ移動するときと現在地の判定に使う */
-function stickyBottom(nav: HTMLElement | null): number {
-  const header = document.querySelector(".site-header")?.getBoundingClientRect().height ?? 0;
-  return header + (nav?.getBoundingClientRect().height ?? 0) + 8;
-}
 
 /**
  * ページ内目次。置いた場所の親要素から、見出し(.section-title)付きの節(section.section-block)を読み取って並べる。
@@ -83,10 +78,7 @@ export default function PageToc({ label = "ページ内の目次" }: { label?: s
   }, [active]);
 
   function jump(id: string) {
-    const target = document.getElementById(id);
-    if (!target) return;
-    const top = window.scrollY + target.getBoundingClientRect().top - stickyBottom(navRef.current) + 1;
-    window.scrollTo({ top, behavior: "smooth" });
+    scrollToSection(id, navRef.current);
   }
 
   // 節が少ないときも nav 自体は残す(親要素の監視に ref が要るため)。中身だけ出さない

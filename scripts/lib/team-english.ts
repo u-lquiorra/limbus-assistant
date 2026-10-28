@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { parseGuide } from "../../src/guide";
+import { blockSegments, parseGuide } from "../../src/guide";
 import { bindKeywordCopy } from "./keyword-english";
 
 /** 編成詳細に表示する名前・注記とガイド本文を原文から取得する。 */
@@ -20,7 +20,7 @@ export async function teamCopySources(id: string): Promise<Record<string, string
   guide.sections.forEach((section, i) => {
     sources[`guide:${i}:heading`] = section.heading;
     section.blocks.forEach((block, j) => {
-      (block.type === "p" ? [block.text] : block.items).forEach((segments, k) => {
+      blockSegments(block).forEach((segments, k) => {
         sources[`guide:${i}:${j}:${k}`] = segments.map(segment => segment.text).join("");
       });
     });

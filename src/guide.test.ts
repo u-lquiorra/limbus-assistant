@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { egoItemsForPersona, guideKeywords, parseGuide, parseInline } from "./guide.ts";
+import { blockSegments, egoItemsForPersona, guideKeywords, parseGuide, parseInline } from "./guide.ts";
 import type { PersonaDetail } from "./types.ts";
 
 test("parseInline: **強調** を分割する", () => {
@@ -73,6 +73,40 @@ test("parseGuide: frontmatter・見出し・段落・箇条書きを解釈する
     },
     { type: "p", text: [{ text: "続く段落", strong: false }] },
   ]);
+});
+
+test("parseGuide: 小見出しと、字下げした子の箇条書きを解釈する", () => {
+  const md = [
+    "## 進め方",
+    "### 第一層",
+    "- 経験記憶",
+    "  - 白磁の硯滴",
+    "\t- 無文の鍔",
+    "- 教本",
+    "",
+    "  - 親の無い字下げ",
+  ].join("\n");
+  const blocks = parseGuide(md).sections[0].blocks;
+  assert.deepEqual(blocks, [
+    { type: "h", text: [{ text: "第一層", strong: false }] },
+    {
+      type: "ul",
+      items: [
+        [{ text: "経験記憶", strong: false }],
+        [{ text: "白磁の硯滴", strong: false }],
+        [{ text: "無文の鍔", strong: false }],
+        [{ text: "教本", strong: false }],
+      ],
+      depths: [0, 1, 1, 0],
+    },
+    // リストの先頭にある字下げは、親が無いので通常の項目になる(depths も付かない)
+    { type: "ul", items: [[{ text: "親の無い字下げ", strong: false }]] },
+  ]);
+  // 読み取り側は、小見出しも子の項目も表示順に平らに受け取る
+  assert.deepEqual(
+    blocks.flatMap(blockSegments).map((segments) => segments.map((s) => s.text).join("")),
+    ["第一層", "経験記憶", "白磁の硯滴", "無文の鍔", "教本", "親の無い字下げ"]
+  );
 });
 
 test("parseGuide: frontmatter が無くても本文を読める", () => {

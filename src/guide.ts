@@ -1,5 +1,5 @@
 // 攻略ガイド(src/data/guides/*.md)の簡易パーサー。
-// ガイドは決まった書式(frontmatter / "## 見出し" / "- 箇条書き" / 段落 / **強調**)だけで書くため、
+// ガイドは決まった書式(frontmatter / "## 見出し" / "### 小見出し" / "- 箇条書き" / "  - 子の箇条書き" / 段落 / **強調**)だけで書くため、
 // Markdown ライブラリは入れずに必要な分だけ解釈する。HTML は生成せず、描画側でテキストとして出す(XSS 対策)
 
 import type { EgoDetail, Keyword, PersonaDetail } from "./types";
@@ -8,7 +8,17 @@ import { stripStageMarks } from "./egoStage";
 // persona / ego: 人格・E.G.O 詳細ページへのリンク。本文に [表示名](persona:0112) / [表示名](ego:0108) と書く
 export type InlineSegment = { text: string; strong: boolean; persona?: string; ego?: string };
 
-export type GuideBlock = { type: "p"; text: InlineSegment[] } | { type: "ul"; items: InlineSegment[][] };
+// ul の depths は各項目の深さ(0: 通常、1: 直前の項目の子)。子が無いリストでは省く。
+// 子の項目も items には平らに並べる。英訳のキー(項目の通し番号)や検索などの読み取り側を、入れ子の有無で変えずに済むため
+export type GuideBlock =
+  | { type: "p"; text: InlineSegment[] }
+  | { type: "h"; text: InlineSegment[] }
+  | { type: "ul"; items: InlineSegment[][]; depths?: number[] };
+
+/** ブロックに含まれる文(段落・小見出しは1つ、箇条書きは項目ごと)を、表示順に返す */
+export function blockSegments(block: GuideBlock): InlineSegment[][] {
+  return block.type === "ul" ? block.items : [block.text];
+}
 
 export interface GuideSection {
   heading: string;
@@ -66,13 +76,15 @@ export function parseGuide(markdown: string): Guide {
   let current: GuideSection | undefined;
   let paragraph: string[] = [];
   let list: InlineSegment[][] | undefined;
+  let depths: number[] = [];
 
   const flush = () => {
     if (!current) return;
     if (paragraph.length) current.blocks.push({ type: "p", text: parseInline(paragraph.join("")) });
-    if (list) current.blocks.push({ type: "ul", items: list });
+    if (list) current.blocks.push(depths.some((d) => d > 0) ? { type: "ul", items: list, depths } : { type: "ul", items: list });
     paragraph = [];
     list = undefined;
+    depths = [];
   };
 
   for (const raw of body) {
@@ -90,10 +102,19 @@ export function parseGuide(markdown: string): Guide {
       flush();
       continue;
     }
+    const subheading = line.match(/^###\s+(.+)$/);
+    if (subheading) {
+      flush();
+      current.blocks.push({ type: "h", text: parseInline(subheading[1]) });
+      continue;
+    }
     const item = line.match(/^-\s+(.+)$/);
     if (item) {
       if (paragraph.length) flush();
+      // 字下げした項目は直前の項目の子にする。親が無い(リストの先頭)なら通常の項目として扱う
+      const depth = list && /^\s/.test(raw) ? 1 : 0;
       (list ??= []).push(parseInline(item[1]));
+      depths.push(depth);
       continue;
     }
     if (list) flush();
@@ -177,7 +198,7 @@ export function egoGuideKeywords(detail: EgoDetail, egoName: string): Keyword[] 
 export function guideSummary(guide: Guide | null | undefined): string | undefined {
   const section = guide?.sections.find((s) => s.heading === "ひとことで");
   const text = section?.blocks
-    .map((b) => (b.type === "p" ? b.text : b.items.flat()).map((seg) => seg.text).join(""))
+    .map((b) => blockSegments(b).flat().map((seg) => seg.text).join(""))
     .join(" ")
     .trim();
   return text || undefined;
