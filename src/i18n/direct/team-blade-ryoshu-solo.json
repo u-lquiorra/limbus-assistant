@@ -1,0 +1,637 @@
+{
+  "kind": "team-copy",
+  "id": "blade-ryoshu-solo",
+  "sourceGuide": "src/data/team-guides/blade-ryoshu-solo.md",
+  "entries": {
+    "data:name": {
+      "sourceHash": "21f985ebab9214d631960d083b0915b28815ffe5e9d80ef31c17b7260d8349fd",
+      "text": "Blade Ryōshū Solo"
+    },
+    "data:examples:0:name": {
+      "sourceHash": "8b78782352f13181f630d4c1d2456583f5fe76cf29605580025a709bd954991c",
+      "text": "Solo (9 House of Spiders members)"
+    },
+    "data:examples:0:note": {
+      "sourceHash": "c1cf1c5764147ac68b0eb15b02d84d9734d4aa2c62a6902f59a0b045686e0819",
+      "text": "In the first normal Encounter, deploy Blade Ryōshū in position 1 and the House of Spiders members to sacrifice in positions 2–7. Select no reserves, put everyone on Defense, and sacrifice them with Tiansha. Tiansha proceeds from the latest deployment position, so put the Middle Nursefather in position 7 to sacrifice her first. Her String Severance lets each Phantom Step sacrifice two allies. Sacrifice the four Nursefathers first to reach String Severance 4. Sacrifice the remaining House members in the next normal Encounter. For Sinners without a House of Spiders Identity, such as Meursault and Gregor, use an unleveled Lv 1 Identity and let enemies defeat them by floor 3."
+    },
+    "data:examples:0:members:0:note": {
+      "sourceHash": "abc06733de8c320e1ebd03e62e7d4532a424656dba2258aa6eba9db1ed031b0b",
+      "text": "Position 1. The core unit: sacrifices allies with Phantom Step, then fights alone to floor 15 once Spiderweb Entangled in Red keeps them down. Uptie Ⅳ."
+    },
+    "data:examples:0:members:1:note": {
+      "sourceHash": "ae086097fb7716bbf85fac3060d89c2b397f4935c86f9f4bf873a45136e73c7f",
+      "text": "Position 2. Sacrificed sixth. Saikai grants +2 Defense Level and +1 Burn Potency from basic attack skills."
+    },
+    "data:examples:0:members:2:note": {
+      "sourceHash": "5294f6db51c18830bbeaa772989be5972cd07610f54f3fd557cc23ea5bf96346",
+      "text": "Position 3. Sacrificed fifth. Saikai grants Shield equal to 10% max HP each turn."
+    },
+    "data:examples:0:members:3:note": {
+      "sourceHash": "610f5aa2865444654779c71e8629fc62f69ff2c32ced453c5c2440722f431249",
+      "text": "Position 4. The fourth sacrifice, a Nursefather. Saikai grants +1 defense Coin Power and +10% damage against enemies with Shield."
+    },
+    "data:examples:0:members:4:note": {
+      "sourceHash": "1b08f3e60bb68966d79962f981ce2687c225b0fcdf0511dfdc913f81fe3d2cd7",
+      "text": "Position 5. The third sacrifice, a Nursefather. Saikai makes the final Coin of basic attack skills Unbreakable."
+    },
+    "data:examples:0:members:5:note": {
+      "sourceHash": "16102d2c48a742c12105b752bd4fb7b40fc800e17909b56df712e58d80ab76ad",
+      "text": "Position 6. The second sacrifice, a Nursefather. Saikai grants +1 Clash Power, +10% damage, and +1 Speed."
+    },
+    "data:examples:0:members:6:note": {
+      "sourceHash": "30745d1cb6ee43fb82e958e25d31c37d10bb115e80fc00d843a7c65471d24605",
+      "text": "Position 7. The first sacrifice, a Nursefather. Grants String Severance; Saikai gives -20% damage taken and Offense Level Up when hit."
+    },
+    "data:examples:0:support:0:note": {
+      "sourceHash": "2386d2380dd8fae7e640b78e68471d61f6c6022acc4cedc7425c19c7dc149b11",
+      "text": "Sacrificed in the next normal Encounter. Saikai triggers Tremor Burst on Clash wins."
+    },
+    "data:examples:0:support:1:note": {
+      "sourceHash": "76abe0f6a2c89d39a1002104a3288f01da70eb0f5d0006e478ceabac13fe2d1a",
+      "text": "Sacrificed in the next normal Encounter. Saikai grants 2 Poise when using basic attack skills."
+    },
+    "data:examples:0:support:2:note": {
+      "sourceHash": "1e1d66492c3fe232ac36a42c6797a2f3045d34926e6f51f8261b6ce4b0cf0b1f",
+      "text": "Sacrificed in the next normal Encounter. Has the lowest Tiansha priority, so she falls last regardless of position."
+    },
+    "data:examples:0:egos:0:note": {
+      "sourceHash": "ef1dd6c132518f99d84747b54f25037db81ce42c225ac829796adf8d5605a912",
+      "text": "Equip it at Threadspin Ⅱ or higher. Afterimage Reverberation lets Tiansha trigger its E.G.O passive too."
+    },
+    "data:core:0:note": {
+      "sourceHash": "daacc9177fce55e50d687e928163c42644ad18ce905aa1d23a0267ec05fb4859",
+      "text": "The core unit, gathering bonuses through Tiansha and fighting alone to floor 15. Requires Uptie Ⅳ."
+    },
+    "data:core:1:note": {
+      "sourceHash": "3fcd015a6436b9a627f429f6b12c1a8fb664deaea134617d434e40b7a2959f1d",
+      "text": "A required Nursefather. When sacrificed, the final Coin of Blade Ryōshū's basic attack skills becomes Unbreakable and deals +10% damage."
+    },
+    "data:core:2:note": {
+      "sourceHash": "bf4e9a56c09767627965a31855869ffdc70a6a413b991c6bb2313441f837262e",
+      "text": "A required Nursefather. When sacrificed, Blade Ryōshū gains +1 Speed, plus +1 Clash Power and +10% damage on basic attack skills."
+    },
+    "data:flex:0:note": {
+      "sourceHash": "0ffd63220756536c7bc426ff507a273173cf4fd553e13cc4b81219ac6deb2b42",
+      "text": "A high-priority Nursefather sacrifice. Grants -20% damage taken and Offense Level Up 1 when hit (twice per turn). As a Nursefather, she also adds String Severance."
+    },
+    "data:flex:1:note": {
+      "sourceHash": "af00ece29a5d653168e45d530286b8fe114e0a98a6ce98dfcd3ef869219f7aee",
+      "text": "As a Nursefather, adds String Severance. Grants +1 defense Coin Power and +10% basic skill damage against enemies with Shield, which helps against the 3000 Shield on floor 13 and later."
+    },
+    "data:flex:2:note": {
+      "sourceHash": "bde3840e26286ce4d5ee4338d7fe937f371cea0f28938a1fd8c3b7a48ecdbc37",
+      "text": "A high-priority Apprentice sacrifice. Grants Shield equal to 10% max HP each turn."
+    },
+    "data:flex:3:note": {
+      "sourceHash": "07894658dcddbbfd2e269c607d1d16cd4c54b8b52b4fd2f5cfc501407e34956d",
+      "text": "A high-priority Apprentice sacrifice. Grants +2 Defense Level and +1 Burn Potency from basic attack skills."
+    },
+    "data:flex:4:note": {
+      "sourceHash": "b26f95aae698860a6a7dd979a881fa94dc28fcf70574bd76f0435fe8808c7126",
+      "text": "An Apprentice. When sacrificed, Clash wins with basic skills apply 2 Tremor and trigger Tremor Burst."
+    },
+    "data:flex:5:note": {
+      "sourceHash": "90c445bfcd4e8ae550929aca6de4ec20a30e0087385eb93be669c111a4e9121e",
+      "text": "A House of Spiders member. When sacrificed, basic attack skills grant 2 Poise, and critical hits apply 1 Sinking."
+    },
+    "data:flex:6:note": {
+      "sourceHash": "cbd10c487c6c0c98a0f28c6972f3690b8010ecebbb0d1c4f367ad51fed0bce07",
+      "text": "An Apprentice with the lowest Tiansha priority, so she falls last. Grants 1 Poise Count and Crit Damage Up 1 each turn."
+    },
+    "data:egos:0:note": {
+      "sourceHash": "06f36e06e49aa994b146531ffbc0b4b3dfc0534881189ee371fbad9c8922055e",
+      "text": "Optional. Equip it at Threadspin Ⅱ or higher. Blade Ryōshū's Afterimage Reverberation lets Tiansha trigger its E.G.O passive too."
+    },
+    "data:egos:1:note": {
+      "sourceHash": "834c6e38d6c57fefe8852af76c91bfe3ff6885477bafbfce8b289f8f8fc95d74",
+      "text": "Its Corrosion version prioritizes the ally with the lowest HP, so it can defeat Lv 1 Sinners that Tiansha cannot target."
+    },
+    "guide:0:heading": {
+      "sourceHash": "a8cf394d615339f33f3ecbd37e5a7f6770133cc6488ca75f93e69db44003c94e",
+      "text": "At a Glance"
+    },
+    "guide:0:0:0": {
+      "sourceHash": "393721a4c0b41bed61d1db176db083a3d5659d1e491ea6666f1f0a240b093191",
+      "text": "[Blade Ryōshū](persona:0415) sacrifices House of Spiders allies with Tiansha to gather bonuses, goes solo once the Gift Spiderweb Entangled in Red keeps them down, and clears Mirror Dungeon floor 15 at 60 Adversity."
+    },
+    "guide:1:heading": {
+      "sourceHash": "04f89470260c7714ef32fe9a40bd75d7de32e9c428a2a999496bfea205492ce6",
+      "text": "How It Works"
+    },
+    "guide:1:0:0": {
+      "sourceHash": "8fc0c3c5e44eb2ac629695a3924665a54c5c11844fdb88ff256f0efe255258c6",
+      "text": "On a turn when [Blade Ryōshū](persona:0415) uses her Defense skill Phantom Step, she designates the deployed House of Spiders member with the latest deployment position. After that ally finishes acting, she kills them with Tiansha (fixed damage equal to 120% of their max HP). [The House of Spiders: The Pinky Apprentice](persona:1015) (Sinclair) is always designated last, regardless of position."
+    },
+    "guide:1:0:1": {
+      "sourceHash": "22b608cabc681f6e5f155ddf4479486f731790e3025571ef4ae0801798318f07",
+      "text": "Each House of Spiders Nursefather death adds 1 String Severance (max 4). Each point gives -7.5% damage taken, and with 1 or more, each Phantom Step designates two allies."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "44c8b85ae8a4ce9165a5639fc3918f30a48afb0e1422c212fa9896b7a1acfd92",
+      "text": "While House of Spiders allies are dead, Saikai grants a bonus for each one. Every 3 dead House members give Blade Ryōshū one more slot (up to 3) and add more Phantom Traces on enemies. Slots do not increase while allies remain to enter from reserve."
+    },
+    "guide:1:0:3": {
+      "sourceHash": "87702b57303568a49abc6344e04231b6676edd8e1949ff766033e323c81c88fa",
+      "text": "Tier Ⅲ Spiderweb Entangled in Red, brought in through Gift Observation, is the heart of this strategy. With Blade Ryōshū in the team, other Identities do not revive after clearing floor bosses or hidden nodes. Each dead ally gives all allies +1 Offense and Defense Level (max 10), and every 2 dead House allies give Blade Ryōshū +1 Final Power, +1 Coin Power, and +10% damage (up to 3 times each)."
+    },
+    "guide:1:0:4": {
+      "sourceHash": "609340d6e047a7ce21b1f034334a44f7f2d93852b797295a9fb162e49dede960",
+      "text": "With Blade Ryōshū in position 1 and everyone else dead, she gains Torn-out Butterfly (+2 Final Power on all skills; when damage Staggers her, she recovers at once and gains Shield equal to 100% max HP). While she is the only survivor, every event choice gets +12 to its check."
+    },
+    "guide:1:0:5": {
+      "sourceHash": "c7e24f4f2d8087b554a2bb627031904230e04a1af7f8e30e397548ddc9b9ebfc",
+      "text": "Defeat all allies early, and the fully enhanced Blade Ryōshū can fight alone for the rest of the run."
+    },
+    "guide:2:heading": {
+      "sourceHash": "04f46f8ed7b7ddf81e4a2a20ae4c27586343083261cad8cf343bffdf446f0bd7",
+      "text": "Preparation"
+    },
+    "guide:2:0:0": {
+      "sourceHash": "c8c41d2b8dd9fa85f0b9c321735e3558bca21a65f143165de3df8426f5901018",
+      "text": "**Required**: [Blade Ryōshū](persona:0415) (Uptie Ⅳ), [The House of Spiders: The Index Nursefather](persona:0115) (Yi Sang), [The House of Spiders: The Ring Nursefather](persona:0614) (Hong Lu), and at least one House of Spiders Apprentice. Apart from Blade Ryōshū, nobody needs Uptie or levels."
+    },
+    "guide:2:0:1": {
+      "sourceHash": "9f2ec7ecd269e28e6dfc3ce9608352c7ac789714de49c68988f5949919622cb1",
+      "text": "**Other slots are flexible**: More House of Spiders members mean more bonuses. Sacrificing 9 House members besides Blade Ryōshū maxes out the slot and Phantom Trace increases."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "e51bf1177eb2be8f526a3534fc797b385fa6e1a3fd2bf112fb7822cbd8676cb7",
+      "text": "**Sinners without a House of Spiders Identity**: Enemies will defeat them, so use unleveled Lv 1 Identities."
+    },
+    "guide:2:0:3": {
+      "sourceHash": "7fe12962e62892bbe940fd65a2b937edc2d7e4e09b6b6b2943823842d4f738d8",
+      "text": "**E.G.O**: Optional. If you have [Great Trichiliocosm](ego:0409) at Threadspin Ⅱ or higher, equip it. Blade Ryōshū's Afterimage Reverberation lets Tiansha trigger its E.G.O passive, Sanzu."
+    },
+    "guide:2:0:4": {
+      "sourceHash": "6833345a1dbf06789989e85d58cd569c1b3276ff8ec132232a39b3984e074b80",
+      "text": "**Blessings**: Take all of them at ++."
+    },
+    "guide:2:0:5": {
+      "sourceHash": "6fc4fd83cff261f5c73fdbd8d6a0bbe84defd53ce172594266d4125a1e02edea",
+      "text": "**Starting Gifts**: Poise. Upgraded Blessings let you take all three. Collecting Poise Gifts makes it easier to aim for Gear Shrapnel through fusion. Bleed also works."
+    },
+    "guide:2:0:6": {
+      "sourceHash": "5aa67f37a840b16f0134f2633c1cc7943f42cccb5271268302960bcb1671ff72",
+      "text": "**Gift Observation**: Take these three."
+    },
+    "guide:2:0:7": {
+      "sourceHash": "0d024963b4f370f5df82dc9d36566dae5888a049cd7f2ed8ec110621f3fc9756",
+      "text": "**Tier Ⅲ Spiderweb Entangled in Red**: the heart of this strategy. Its effects are summarized in \"How It Works\"."
+    },
+    "guide:2:0:8": {
+      "sourceHash": "0748a3231c7bff48ea6035216febdfa3b4e9d2fc4554226998b70ba4e9659c02",
+      "text": "**Tier Ⅲ Prestige Card**: Gift purchases in shops cost 30% less."
+    },
+    "guide:2:0:9": {
+      "sourceHash": "23604127e9d4980dc5f377aed1e3225c57a82f8d092123faa8eff50f7998df39",
+      "text": "**Tier Ⅲ Sharp Needle & Thread**: each turn, the first skill that damages an enemy deals extra fixed damage equal to half its damage."
+    },
+    "guide:2:0:10": {
+      "sourceHash": "50c59df408fac4e43e3df32196a5497d0834878c74e6f0df3899681618807803",
+      "text": "You can take Emergency Investigator Badge instead of Sharp Needle & Thread. The Identity in position 3 survives damage that would bring HP to 0 once per Encounter and recovers to 80% max HP."
+    },
+    "guide:2:0:11": {
+      "sourceHash": "09315f4c56914441ba1a2b2e8ca9ee5eeacedbeee16b89aa44dcdc87ed656646",
+      "text": "At ++ it also covers Blade Ryōshū in position 1."
+    },
+    "guide:2:0:12": {
+      "sourceHash": "162e3acbc961316be84126d93dfdbf5b7c154a4709a163a116d5d89f6ebe4a10",
+      "text": "However, an observed Badge covers position 3 from the start, so the House member in position 3 survives Tiansha and drops out of its targets for that Encounter. Sacrifice that Identity in the next Encounter."
+    },
+    "guide:3:heading": {
+      "sourceHash": "2e9a7f1e8c9e959e3e1323759c7de65de47f5fcb54b5ece5fc709893e362ddab",
+      "text": "Tiansha Order"
+    },
+    "guide:3:0:0": {
+      "sourceHash": "061a1152811742527013cacc60f51807e20a8a721c972a0fc6fa9b5f3f7c808b",
+      "text": "Make the first sacrifice a Nursefather. She adds String Severance, so from the next turn each Phantom Step kills two allies."
+    },
+    "guide:3:0:1": {
+      "sourceHash": "7a2bc820397c7a33bcf4584a8e7f3a90bd3b5b965f50f2cacfb1d04f10f35292",
+      "text": "Sacrificing all four Nursefathers first gives String Severance 4 for -30% damage taken and fully enhances Rend Space - Echoshear."
+    },
+    "guide:3:0:2": {
+      "sourceHash": "d75b3496a800d46f5769442b1af9a64eabf5b806b607959d1ebc038c2fa5bba4",
+      "text": "Tiansha proceeds from the latest position. In the first normal Encounter, put Blade Ryōshū in position 1 and House of Spiders members in positions 2–7, and select no reserves. With reserves, the entering ally is sacrificed first, and slots do not increase."
+    },
+    "guide:3:0:3": {
+      "sourceHash": "eb8dbfd5311b01cc90b5e673de777d6d6db324747ff91f7e0394268f4648b8c7",
+      "text": "While sacrificing, keep everyone on Defense and do not finish off the enemies. If the enemies are wiped out first, the Encounter ends."
+    },
+    "guide:3:1:0": {
+      "sourceHash": "0010ed8dff0987a84932a48a487cc9823331a55234a4e1a1e6d2f70baa4f390f",
+      "text": "First normal Encounter (order and Saikai bonuses)"
+    },
+    "guide:3:2:0": {
+      "sourceHash": "a7019ffdbba550ebce2f83dfd32e499f7b1e1443a04c43832794e2ab7d693ac4",
+      "text": "Position 7, [The House of Spiders: The Middle Nursefather](persona:1115) (Outis): -20% damage taken and Offense Level Up 1 when hit (twice per turn). The strongest defensive bonus, and as a Nursefather she adds String Severance."
+    },
+    "guide:3:2:1": {
+      "sourceHash": "19b4ef200a0b44b535610143ed343e120ef7727c8efc10afe7d1748aacf4db30",
+      "text": "Position 6, [The House of Spiders: The Ring Nursefather](persona:0614) (Hong Lu): Somatic Frisson-inspiring Melody (+1 Speed, +1 Clash Power and +10% damage on basic attack skills)."
+    },
+    "guide:3:2:2": {
+      "sourceHash": "485a4d373ddf7e3347a9275687302ae14d3c0f9d357cb847e0caa86038d25faa",
+      "text": "Position 5, [The House of Spiders: The Index Nursefather](persona:0115) (Yi Sang): the final Coin of basic attack skills becomes Unbreakable and deals +10% damage."
+    },
+    "guide:3:2:3": {
+      "sourceHash": "97f868c252a70f9851db0003aa9cbc72f89e8451d07626140163183ebc1b750f",
+      "text": "Position 4, [The House of Spiders: The Thumb Nursefather](persona:0916) (Rodion): +1 defense Coin Power and +10% basic skill damage against enemies with Shield. Effective against the 3000 Shield that Adversity gives enemies from floor 13."
+    },
+    "guide:3:2:4": {
+      "sourceHash": "d5fedaf1795b805858a5ec3aabe9e1b635737c872263e58982acd832e3c38594",
+      "text": "Position 3, [The House of Spiders: The Ring Apprentice](persona:0215) (Faust): Shield equal to 10% max HP each turn."
+    },
+    "guide:3:2:5": {
+      "sourceHash": "59dd766c249479d8710bdf92bbd529f7a82da81cc5913c2d18be0986edc43b4f",
+      "text": "Position 2, [The House of Spiders: The Middle Apprentice](persona:0814) (Ishmael): +2 Defense Level and +1 Burn Potency from basic attack skills."
+    },
+    "guide:3:3:0": {
+      "sourceHash": "36fc1285e4501ea89a8edd9c8dde2b6d941acc4cf0bb30885559aad7168dadbc",
+      "text": "Second normal Encounter (remaining Identities)"
+    },
+    "guide:3:4:0": {
+      "sourceHash": "0ba801fbddc94b1ca5769fb5d3a72da69c9c11f6b66df36d9fc2ab48ae715075",
+      "text": "Sacrifice the remaining House members the same way."
+    },
+    "guide:3:4:1": {
+      "sourceHash": "9ac5009b2a68fa0f24a21ceec8fbf183931d5c38abf695afa524c6a10f85c1e9",
+      "text": "[The House of Spiders: The Thumb Apprentice](persona:0716) (Heathcliff): Tremor Burst on Clash wins."
+    },
+    "guide:3:4:2": {
+      "sourceHash": "6615d0d90d2b1da23a86dfef05cb4463f0d53ab29268adb588f838b2ffb45b56",
+      "text": "[The Index Proxy - Effloresced E.G.O:: Procuration](persona:0314) (Don Quixote): 2 Poise when using basic attack skills, and Sinking on Critical hits."
+    },
+    "guide:3:4:3": {
+      "sourceHash": "04d64f6fd45710b8931503e750dcec4ecd550183ebf744d34824a742d38974fc",
+      "text": "[The House of Spiders: The Pinky Apprentice](persona:1015) (Sinclair): 1 Poise Count and Crit DMG Up 1 each turn."
+    },
+    "guide:4:heading": {
+      "sourceHash": "471ece14aad5d5519627d818a2214e7732fdeea3dbd66835e40bf6d1ce7cef6f",
+      "text": "Floors 1–10"
+    },
+    "guide:4:0:0": {
+      "sourceHash": "3e0f6ed0b46bd7529f3fe9859aa2606d2d0f5f2a48605a575063eae26abac690",
+      "text": "Floor 1"
+    },
+    "guide:4:1:0": {
+      "sourceHash": "712e5334465a639e360214345244eb92daf8ff14feea4553c8cc8c97ac549619",
+      "text": "Reroll for Faith & Erosion (Blood-red Mane in its rewards). If it does not appear, any pack with strong reward Gifts works."
+    },
+    "guide:4:1:1": {
+      "sourceHash": "a08f2599ff8ec53d84940543960ea5dab4a7902ac12466c34265fe02f91491b4",
+      "text": "**Blood-red Mane**: works on Identities with Wrath or Lust attack skills. If not hit that turn, gain Haste 2 and Defense Power Up 2 next turn; if hit, gain Bind 2 and +2 Clash Power."
+    },
+    "guide:4:1:2": {
+      "sourceHash": "77b70a0e8a17267f371001583f9415b5ab92a604fc7413ce652ea69a2ea21fab",
+      "text": "Sacrifice allies in the first normal Encounter."
+    },
+    "guide:4:2:0": {
+      "sourceHash": "0e387fccac05ba80027467e321ff3b562895f0c9d7e2a2e9f08537316d16173c",
+      "text": "Floor 2"
+    },
+    "guide:4:3:0": {
+      "sourceHash": "1ac23521e14f82f2af17deae8c365dc9a0547d040e1fee4fd62392f9b6a783bd",
+      "text": "Hell's Chicken. Visit many event nodes."
+    },
+    "guide:4:3:1": {
+      "sourceHash": "d79727dc717209605174c34d98a73baeabbab53852c5680614007913a38666b2",
+      "text": "In the chicken dance event, choose the option to pretend not to notice to get Tango Marinade (+(Speed ÷ 3) Clash Power when faster than the target, max +3)."
+    },
+    "guide:4:4:0": {
+      "sourceHash": "9d8f7c1e0add8d17ac9d533e091fd31e650ea95994750c90cfb35db3a3e44138",
+      "text": "Floor 3"
+    },
+    "guide:4:5:0": {
+      "sourceHash": "d3f5f44de499c358a80a9d4db929a34867b6a79362e42b9f86b53f9f249a372f",
+      "text": "Full-Stopped by a Bullet. It appears after you clear the 5th Walpurgis Night story on Easy, and only on floors 3–4."
+    },
+    "guide:4:5:1": {
+      "sourceHash": "69fdcbf57949ac67f8c916a985132feb88dfb90023f4772ec1cd82d5341663c8",
+      "text": "In the first Encounter, let enemies defeat all Lv 1 Sinners."
+    },
+    "guide:4:5:2": {
+      "sourceHash": "ee612a634c303555e604dbf2ac7407b1f287723c023104eec7a1300ed04ab5dd",
+      "text": "Put all of Blade Ryōshū's skills on Defense."
+    },
+    "guide:4:5:3": {
+      "sourceHash": "6f34e0fa653a0f8f1dc85c15f510115c232e7d4d19e162bf0fd0bfa4a082387e",
+      "text": "Clash with the others only when badly disadvantaged, and switch any skills that become one-sided attacks to Defense."
+    },
+    "guide:4:5:4": {
+      "sourceHash": "6473fc6ba29c3d1610d089e7c6d8cbcca09f53e8423b50880de42009aaee44be",
+      "text": "Get the pack-exclusive Gift Gear Shrapnel through its event (with Poise, gain Defense Level Up 2 and Defense Power Up 1 each turn, and +10% damage on the first Coin that hits). Once solo, the +12 check bonus makes the event a sure success."
+    },
+    "guide:4:5:5": {
+      "sourceHash": "e8d73ae48e5aa5be45e65238150fead8e46f712fff4e9d24dacf93afb13dbadf",
+      "text": "If you have spare resources, also aim for Darkflame Smoking Pipe (Tier Ⅲ, Pierce) through fusion. Position 1 gains Attack Power Up 2 and Fragile 1 every turn, and gains 5 Poise before attacking an enemy with lowered Defense Level."
+    },
+    "guide:4:6:0": {
+      "sourceHash": "add230cda139793dd76ae36ff9cd916d941e3a726c7bbbdc95689a432c6304be",
+      "text": "Floors 4–10"
+    },
+    "guide:4:7:0": {
+      "sourceHash": "e07051e125d6ac1752382e8eecdbf55861ccbbdbafd16edeeca44426efb94a47",
+      "text": "**Always visit**:"
+    },
+    "guide:4:7:1": {
+      "sourceHash": "6b9d2ba96cc3a2470288a86cc32318ac34675cd343e126e2cacaff075cc9a684",
+      "text": "**Line 2** (floors 4–10): Bridle (max HP up to +20%)"
+    },
+    "guide:4:7:2": {
+      "sourceHash": "ee429bf8529889fe6e276c4c0e65e2ed766e30ca058de3ffcd100c929973aee3",
+      "text": "**Line 3** (floors 5–10): Unhatched Embers (survive lethal damage once per Encounter)"
+    },
+    "guide:4:7:3": {
+      "sourceHash": "f1bdf52a5ca6fa4972bcf374ac78ab2b1a774844c84d14728c049bf535789857",
+      "text": "**Visit if you can**: these packs have exclusive Gifts that suit Blade Ryōshū, so pick them by their rewards."
+    },
+    "guide:4:7:4": {
+      "sourceHash": "9bc15bfc178441e441d60bb5c4b851ceb27cba55bab6f0ac012ac2377d58bb65",
+      "text": "**Timekilling Time BokGak** (floors 4–10): Emergency Investigator Badge (at ++, Blade Ryōshū also survives lethal damage once per Encounter). The regular Timekilling Time does not offer it."
+    },
+    "guide:4:7:5": {
+      "sourceHash": "9f331423b763b3c068b645ace9b513279bda406a7c693a6462f1bacdd47dc93f",
+      "text": "**Mnestic Experience** (floors 5–10): Baekja Water Dropper, Unadorned Sword-guard, Flagroot Cane Sword, Crushed Wooden Manacle (more damage based on Speed and Poise, and more)"
+    },
+    "guide:4:7:6": {
+      "sourceHash": "80d6b71a247ff026e4fd0c1907973d76b3d07dfdd1eea02fbb97fbba5a433c2c",
+      "text": "**Textbook** (floors 5–10): Red Necktie (+2 Clash Power and +30% damage for S3 skills that inflict Burn)"
+    },
+    "guide:4:7:7": {
+      "sourceHash": "72f6119c26e259cd682e8984a84b11d17829b506523324b134989e7a140cdf31",
+      "text": "**Line 1** (floors 5–10): Snake Slough (Defense Level Up 2 every turn, which also raises Offense Level)"
+    },
+    "guide:4:7:8": {
+      "sourceHash": "2a348dfff08f341b77c780348581d2684681922e440fe0315fc59b5bd9c01c39",
+      "text": "Make the Tier Ⅳ Slash Gifts by fusing with Slash selected."
+    },
+    "guide:4:7:9": {
+      "sourceHash": "5d0b63b6c093556640d83eba9b20a75989cdc64ec5b966278f3e2a2afe6074b0",
+      "text": "**Broken Greatsword**: +2 Clash Power for Slash basic attack skills. Allies whose basic attack skills are all Slash gain Slash DMG Up 2 every turn."
+    },
+    "guide:4:7:10": {
+      "sourceHash": "76798f8736b09bf5856707f46ff450bf2936489acb26d55657621e61e880bc27",
+      "text": "**Sundered Memory**: +2 Base Power on Slash attack skills for positions 1–2, +30% damage on Clash wins, and more."
+    },
+    "guide:4:7:11": {
+      "sourceHash": "b619abefc0b3d67739bc406f6fe8fd7a10aae269c955beb8fb4611b9871f300b",
+      "text": "Also collect the Tremor Gifts Melted Eyeball and Downpour. Their effects are summarized in \"Gifts to Get\"."
+    },
+    "guide:4:7:12": {
+      "sourceHash": "62abbd85a16f0dbc74004ecd1a92d9953cf3e676f3350e52c1393209f6b0a28c",
+      "text": "Line 5's Shatterbound Cannon grants 2 each of Firepower (+10% damage dealt per point) and Delicateness (+10% damage taken per point) every turn, with the amount rising from turn 2 (each up to 10). It trades defense for damage. Skip it if you value stability."
+    },
+    "guide:4:8:0": {
+      "sourceHash": "dd989b21ce89223ce280e5d575551c242afcac5fb9c0a3dbe71ce1e8981851fa",
+      "text": "Floor 10"
+    },
+    "guide:4:9:0": {
+      "sourceHash": "7f9394344093eb47d63e4e25591ca3fce36676e3ca7d664b7ba5845fefb5ead5",
+      "text": "Fuse Lunar Memory (all enemy resistances become Fatal; the only Tier Ⅴ Gift). If you brought Great Trichiliocosm, do not use Poise, Bleed, or Burn Gifts as materials."
+    },
+    "guide:4:9:1": {
+      "sourceHash": "012601ec6ebe4442cce3cdea4e7ed6738984c2f06e528e99b37ae323c6f3d21b",
+      "text": "Remake the Slash Gifts used in the fusion, then spend leftover Cost enhancing Gifts from Tier Ⅳ down."
+    },
+    "guide:4:9:2": {
+      "sourceHash": "73979db32d3cb4619a99c8a696b2cd84c8d8e47c060ff990d6cb6db02f3fb7e3",
+      "text": "Shop prices rise from floor 11, so finish your Gifts here."
+    },
+    "guide:5:heading": {
+      "sourceHash": "bc806ae0e287c4fcb35778dbcb65be09a8405b9f8f3c4420096586769a7fe091",
+      "text": "Floors 11–15"
+    },
+    "guide:5:0:0": {
+      "sourceHash": "5a0185f54a1ca39dc862538fe9be59811515263af0cb9064631e7e3eb714f3d5",
+      "text": "You can set Adversity from floor 11. Select everything through floor 15 for 60 Adversity."
+    },
+    "guide:5:0:1": {
+      "sourceHash": "39ab53b558447835aa1c4275f1ad636c72f24b264e5d1bb03428da8ce135df57",
+      "text": "For Tribulations, avoid ones that strengthen enemies' positive Coins or make them sturdier. Choose HP or Defense Level increases instead."
+    },
+    "guide:5:1:0": {
+      "sourceHash": "b9ebb1b98710d894025ee3a8563f8c07da0feb08519071607384885f98cb779d",
+      "text": "Floors 11–12"
+    },
+    "guide:5:2:0": {
+      "sourceHash": "3fe5599b7f841843ce5ca146ae64f825c37a95597d9b31ea04098dc1760a922b",
+      "text": "Visit Code Purple and The Master of La Manchaland once each. Chachihu is also an option."
+    },
+    "guide:5:2:1": {
+      "sourceHash": "d9aa26ff9a7de7e2bd7a1354f8cd401721200b59f9dad88ab208b30d2eb6eba7",
+      "text": "**Code Purple**: rewards Mid-range K Corp. Ampule. The Identity in position 1 fully restores HP after one lethal hit."
+    },
+    "guide:5:2:2": {
+      "sourceHash": "79df5c789313a8eda64a1bcab06bc43ac68fe7663f331aad61b096c664444ddb",
+      "text": "**The Master of La Manchaland**: rewards The Family's Resentment. After an attack with a Bleed-applying skill ends, heal 30% of the HP damage dealt (max 20)."
+    },
+    "guide:5:2:3": {
+      "sourceHash": "21039ac1a014e749c3584e685627428dc5264b4e7eb52f9d279437f7c846f698",
+      "text": "On turns when Dante cries out during The Master of La Manchaland's boss fight, put every skill on Defense. You cannot attack the main body until all minions are defeated."
+    },
+    "guide:5:3:0": {
+      "sourceHash": "13048777168d7137f2ddd1049ff6c96d6ff7952bf8a54ac00b5ffb0bf578106e",
+      "text": "Floors 13–15"
+    },
+    "guide:5:4:0": {
+      "sourceHash": "4902953f43abd9bb05bfaf56cfbb5d40b4616a7a55d854216861e83e93935bb2",
+      "text": "**Floor 13**: Into a Certain Library's Book. Adversity gives enemies 3000 Shield, making one-hit kills difficult. Win Clashes carefully."
+    },
+    "guide:5:4:1": {
+      "sourceHash": "5f5ac1c8ee94dcae13a3dd47b3f2750b42c88db276a6b16fbc535db30204bd0c",
+      "text": "**Floor 14**: Bearers of Weight. Depending on your Gifts, Clashes may get shaky, but only turn 1 is truly tough. As turns pass, slots increase and damage pushes through."
+    },
+    "guide:5:4:2": {
+      "sourceHash": "3ea9de9ea4315ed94cd91dbdb66ad1ac55a78599215c45e00cb132b8378eb18d",
+      "text": "**Floor 15**: Bridle of Infinity. The fights run long, but the enemies are weak."
+    },
+    "guide:6:heading": {
+      "sourceHash": "c8ea8a077ff97c0626a7a00124f2ca2f019da1c52a50ee4d5ce6f8cdf8a7806a",
+      "text": "Gifts to Get"
+    },
+    "guide:6:0:0": {
+      "sourceHash": "c79015b75b9ee7da76a6208ba8c0606cdd1fa9cf5ea3f88a229905a29e2d62f3",
+      "text": "You will pick up nearly every Poise, Bleed, Burn, and Slash Gift for Blade Ryōshū on the way to floor 15. This section lists the other Gifts worth prioritizing."
+    },
+    "guide:6:1:0": {
+      "sourceHash": "39b781af886711bb070487d6cf5c238c54b3e9d9520ec4dd9790fe9a28ac5595",
+      "text": "Universal Gifts that make the run easier"
+    },
+    "guide:6:2:0": {
+      "sourceHash": "05dffcb5ad39610520199e010c320444b2fa7d050e108792c1064fc62289b960",
+      "text": "**Lunar Memory**: all enemy resistances become Fatal. Fuse it on floor 10."
+    },
+    "guide:6:2:1": {
+      "sourceHash": "9108215004312b4f3d8fa2ed07ef830c95241c04c19e7388e5583557d2b814e6",
+      "text": "**Piece of Relationship**: Identity levels +5 on acquisition."
+    },
+    "guide:6:2:2": {
+      "sourceHash": "880f0f7bdbbc4b331967b68bf14e833ecb41fd8d6e081c2e5987cfe31c37e752",
+      "text": "**Non-disclosure Agreement**: at turn start, Blade Ryōshū gets a Shield of 49% max HP and +10% damage dealt. It grows with each hit up to +40% and is removed when she takes damage."
+    },
+    "guide:6:2:3": {
+      "sourceHash": "93ea8fbb4658abf73fbbd53c5d1dad19d4c07a871061c47802038d81658209ef",
+      "text": "**Tango Marinade**: +(Speed ÷ 3) Clash Power when faster than the target, max +3."
+    },
+    "guide:6:3:0": {
+      "sourceHash": "b9290f1a7f3deb59a3c786c3c02fddd1490b05cc941ba2036cd4ee7c209180bf",
+      "text": "Exclusive Gifts from floor 4–10 packs"
+    },
+    "guide:6:4:0": {
+      "sourceHash": "5ddb4f24bede4c09e460097ccba204b3ea4b70881bc40f0a81e4f4ec52f9f341",
+      "text": "**Bridle** (Line 2): max HP rises by floor × 2% (up to +20%)."
+    },
+    "guide:6:4:1": {
+      "sourceHash": "b31b4c1755dcf690dcbdf859ff487c103bfbc64f702e8d27f4c7d628c366e402",
+      "text": "**Unhatched Embers** (Line 3): survive lethal damage once per Encounter and recover 20% HP."
+    },
+    "guide:6:4:2": {
+      "sourceHash": "ab704def6c7bfce55bbc7cc6a7f1edc05ee7a65a70d9be8ae4f47635986a2cb7",
+      "text": "**Emergency Investigator Badge** (Timekilling Time BokGak): at ++ it also covers Blade Ryōshū in position 1, letting her survive lethal damage once per Encounter at 80% HP."
+    },
+    "guide:6:4:3": {
+      "sourceHash": "4355c2b0715290e05d297cc2a6dac6802596cf9952ede5e6a0c205c0d24b814e",
+      "text": "**Mnestic Experience** offers four:"
+    },
+    "guide:6:4:4": {
+      "sourceHash": "ed02a7284c35ffd983b2e7c105cbdbd0eedc5fcd27e227a7d74820d4ba5e1719",
+      "text": "**Baekja Water Dropper**: position 1 gains Haste 2 every turn, and +3% damage per point of Speed above the enemy (up to +30%)."
+    },
+    "guide:6:4:5": {
+      "sourceHash": "d57e04878e607c975b780dda8a2c12282c481635ae40ad3fcf987591db600612",
+      "text": "**Unadorned Sword-guard**: +1% Slash skill damage per Poise (up to +15%)."
+    },
+    "guide:6:4:6": {
+      "sourceHash": "7eae6671aba3828ce3a7377ba0696ec2debd2350169273efa61c5348981eb980",
+      "text": "**Flagroot Cane Sword**: when attacked, gain 4 Poise and Crit DMG Up 1."
+    },
+    "guide:6:4:7": {
+      "sourceHash": "0bd25364e8d9cdeef6bc07015628aafda0ccf41a4a7c4276d43fe234767430c3",
+      "text": "**Crushed Wooden Manacle**: Slash skills inflict Defense Level Down 1."
+    },
+    "guide:6:4:8": {
+      "sourceHash": "38acb64e471b035eab1b5afcff3b549e281406b478c30cf10a41f05a1875d688",
+      "text": "**Red Necktie** (Textbook): +2 Clash Power and +30% damage for S3 skills that inflict Burn. Rend Space inflicts Burn, so it works well on Blade Ryōshū once her S1 are swapped to S3."
+    },
+    "guide:6:4:9": {
+      "sourceHash": "0dec75718213c44e94b3b16b5914243708a112a8cffc930520a219f7c87493de",
+      "text": "**Snake Slough** (Line 1): gain Defense Level Up 2 every turn, and +1 Offense Level per 4 Defense Level Up."
+    },
+    "guide:6:5:0": {
+      "sourceHash": "4e0b1e4f78c33d2a678e3143e8d27ae6e3b1a24156d39a1149c0a1ba2e73f794",
+      "text": "Tremor Gifts: Melted Eyeball and Downpour"
+    },
+    "guide:6:6:0": {
+      "sourceHash": "1837044ba39e3d4140c321e63032104fdad3f9e0ff4da05f369a7d7df3c5ea8b",
+      "text": "Blade Ryōshū does not inflict Tremor, but these two work once you have both. Fuse them with Tremor selected."
+    },
+    "guide:6:6:1": {
+      "sourceHash": "1099a5cc3c9f097feea0b41342c4376bb4b2c3557b18c9cc8c0fed356c952fb1",
+      "text": "**Downpour** (Tier Ⅳ): at turn start, inflicts Tremor on all enemies, and at turn end, triggers Tremor Burst on all enemies."
+    },
+    "guide:6:6:2": {
+      "sourceHash": "ac08610a4aeec7b0817acae16fa3bad08cc09a52d9e6c00e8ee3cf36abbc31d2",
+      "text": "**Melted Eyeball**: enemies hit by Tremor Burst receive Offense Level Down 5 and Defense Level Down 5 next turn (up to 3 times per turn)."
+    },
+    "guide:6:6:3": {
+      "sourceHash": "780cf0b524cce434dba9ebd2a857191e7a436949698f0f186c642141fda02077",
+      "text": "With both, enemies lose 5 Offense and Defense Level every turn from turn 2. Either one alone does not lower enemy Offense Level."
+    },
+    "guide:7:heading": {
+      "sourceHash": "0acd21465651809dfe1b0c10b646e6a1e544a359823cba19eb061a040a31112f",
+      "text": "Shop Routine"
+    },
+    "guide:7:0:0": {
+      "sourceHash": "7f72af991b1ce20fa89f7fd0aee24d7438e3780e8bfed7bf5a84511f3631513a",
+      "text": "**Skill swaps**: Replace all of Blade Ryōshū's S1 with S3 (Rend Space). Keeping one S2 (Pride) lets you use it for Pride checks in events."
+    },
+    "guide:7:0:1": {
+      "sourceHash": "773fdab82d634128d3ba323d87427ad1fb508133d6ff37f1123d3aeeb533ee6b",
+      "text": "**Purchases**: Buy Blade Ryōshū's Poise, Bleed, Burn, and Slash Gifts. If nothing useful is available, use Keyword Reroll (two free each time thanks to Blessings). Early on, always buy these three Cost-boosting Gifts when you see them."
+    },
+    "guide:7:0:2": {
+      "sourceHash": "907234eadd7376053df5b15f00d67cdb809bae72772d391aeabba45666d9e42d",
+      "text": "**Milepost of Survival**: defeating a floor boss grants (80 + participating Identities × 5) extra Cost."
+    },
+    "guide:7:0:3": {
+      "sourceHash": "871f2c314645ecc6c443c51b7fa693ddd4b9b970e64921bc7db4bcabf35f0018",
+      "text": "**Golden Urn**: +20% Cost from Encounter victories."
+    },
+    "guide:7:0:4": {
+      "sourceHash": "fe3a74f6c73745e6fdc82c0f81bbf2f90e1fffc4499113229e77feb7021534e0",
+      "text": "**Voracious Hammer**: on Encounter victory, gain Cost equal to defeated enemies × 3."
+    },
+    "guide:7:0:5": {
+      "sourceHash": "4c7f2ac6495d1639f74e1c78bad3a2dec79c5fb30ffc2d01a35198b810bb15e4",
+      "text": "**Selling**: Blessings raise sale prices once per shop. With Prestige Card, buying and immediately selling earns a profit."
+    },
+    "guide:7:0:6": {
+      "sourceHash": "730ec2c9c357268d72ef41db9c071ca82de52be7c45c117938d217eb095c586a",
+      "text": "**Fusion**: Fuse Tier Ⅳ Gifts from materials totaling 8 tiers (3+3+2), and Tier Ⅲ from 6. Special shops need 1 less. With a keyword selected, success is 60% with two materials and 90% with three. Blessings add one extra Gift to a fusion once per shop."
+    },
+    "guide:7:0:7": {
+      "sourceHash": "8fd1fee32c58aae806e27543b0c640e2ce485f95c6a9dc31fef744e606988dda",
+      "text": "**Enhancement**: Spending more Cost makes a special shop (with more stock) likelier on the next floor. Enhance Poise Gifts first."
+    },
+    "guide:7:0:8": {
+      "sourceHash": "cff1b8f21055571589e0d37dd6f3936fc3451e95d18b1d4e208d7dfd10c153a6",
+      "text": "**Random fusion (from floor 9)**: Fusion cannot target universal Gifts. Once you own every Tier Ⅳ Gift of a keyword, fusing with that keyword gives a random result, and owned Tier Ⅳ Gifts do not appear, so universal Tier Ⅳ Gifts become likely. Finish the Slash Tier Ⅳ Gifts first, then fuse with Slash selected to collect universal Tier Ⅳ Gifts such as Ancient Effigy (Haste 5 next turn for the fastest ally) and Non-disclosure Agreement."
+    },
+    "guide:8:heading": {
+      "sourceHash": "0358d139fdfe6a5a019f9faacee733465dc0bfef23e363d69af3dbb317c8ea37",
+      "text": "Packs and Events to Avoid"
+    },
+    "guide:8:0:0": {
+      "sourceHash": "79a0a9c503f0e0cb5cfa0de3b6549c8f37423c2f457fe5e828601303ee63eb09",
+      "text": "From floor 13, skip Who Couldn't be Bloodfiends and The Dawn of Green; they are normal battles where managing Clashes is tedious."
+    },
+    "guide:8:0:1": {
+      "sourceHash": "d0d2ead40f9679291a194ad5dc3f23bae653d4baf919a674291d12fa0fb1b5b2",
+      "text": "From floor 13, skip Impenetrable Path because many enemies counter."
+    },
+    "guide:8:0:2": {
+      "sourceHash": "745de081f2c1d257b0b2f93295787c5fb1b4f3ba0b90e1d317e5f14ecb54ee39",
+      "text": "From floor 13, skip Efflorescing Greenery. You lose when Dongbaek's Bloom reaches 5, and alone you can hardly dodge every attack."
+    },
+    "guide:8:0:3": {
+      "sourceHash": "8ad5ddb4a17e5df70b204620b186d92a9c89a704317d9bc84a56918e38d91ef2",
+      "text": "From floor 13, Line 3's normal battles leave you short on actions, and fast minions with Shield can overwhelm you. Line 3 - Terminus and A Beautiful Voice are also dangerous solo."
+    },
+    "guide:8:0:4": {
+      "sourceHash": "31083b6d7402662c748daeddc5c7a42267969413ababac95ae0864bc47d204f6",
+      "text": "Solo, failing an instant-death event ends the run. Do not play the voice recorder in Timekilling Time's node. Line 5's rose event and the wrapping ribbon event also deal heavy damage on failure."
+    },
+    "guide:9:heading": {
+      "sourceHash": "8f2bc745cac2bd0338184e4ca2298f2b149a04c55cebca2dffd0c1f8b626491b",
+      "text": "Weaknesses and answers"
+    },
+    "guide:9:0:0": {
+      "sourceHash": "89b02a38ae631dbe7fbedb85885770da0b857055a6f0870a78fcfa9cb4a40a20",
+      "text": "Weak to enemies that inflict action prevention and curse Gifts that keep her Staggered. Alone, being stopped means losing."
+    },
+    "guide:9:0:1": {
+      "sourceHash": "a28c80ba617afab2dd0b9a3222530de65a1c6d138f035618db82e199f9c51658",
+      "text": "Intruding bosses are winnable on floors 11–12. They can be beaten on floors 13–15 too, but that takes practice, and the run is clearable without their Gifts, so do not force it."
+    },
+    "guide:9:0:2": {
+      "sourceHash": "d7652eb5f767a423b1c647e10c45f455bb423c8b877369c0234ba96ef55b135f",
+      "text": "Floor 15 without Starlight (no Blessings) is a different level of difficulty. Clear it with every Blessing first."
+    },
+    "guide:9:0:3": {
+      "sourceHash": "7a50628a871d8d69da708b8404d45ef8d9af289fd94111d96adf060aae4ad194",
+      "text": "If enemies will not defeat your Lv 1 Sinners, choose The Unloving on floor 1 and let Baba Yaga trample them (after the first wave, put everyone on Defense and wait). The Corrosion version of Ryōshū's E.G.O [Thoracalgia](ego:0408), which prioritizes the ally with the lowest HP, also works."
+    }
+  },
+  "metadata": {
+    "title": "Blade Ryōshū Solo | Mirror Dungeon Floor 15 at 60 Adversity | Limbus Assistant",
+    "description": "Clear Limbus Company Mirror Dungeon floor 15 at 60 Adversity with Blade Ryōshū alone. Covers the Tiansha order, Gift Observation, pack choices per floor, and the shop routine."
+  },
+  "sources": [
+    "https://github.com/x1bViolet/Limbus-Localization-Files/tree/c31b3b0c44b2e230e29d51106190b4c1511a4c33",
+    "https://github.com/x1bViolet/Limbus-Localization-Files/blob/c31b3b0c44b2e230e29d51106190b4c1511a4c33/MirrorDungeonTheme-1.json",
+    "https://github.com/x1bViolet/Limbus-Localization-Files/blob/c31b3b0c44b2e230e29d51106190b4c1511a4c33/EGOgift_MirrorDungeon_7.json"
+  ],
+  "note": "English translation of the existing public team guide and lineup notes; preserves the Japanese recommendations."
+}
