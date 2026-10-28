@@ -14,6 +14,7 @@
     "bosses:index": "tsx scripts/boss-index.ts",
     "support:index": "tsx scripts/support-passive-index.ts",
     "traits:index": "tsx scripts/trait-index.ts",
+    "mirror": "tsx scripts/mirror.ts",
     "test": "tsx --test \"scripts/**/*.test.ts\" \"src/**/*.test.ts\" \"analysis/**/*.test.ts\"",
     "analyze": "tsx analysis/sim/report.ts",
     "typecheck:scripts": "tsc -p tsconfig.scripts.json"

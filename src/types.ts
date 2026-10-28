@@ -221,3 +221,34 @@ export interface TeamData {
   support: TeamMember[]; // 裏置き: サポートパッシブのために控えに置く
   egos: TeamMember[]; // 相性の良い E.G.O
 }
+
+// ---- 鏡ダンジョン(scripts/mirror.ts が wiki から生成する src/data/mirror/*.json) ----
+
+// E.G.Oギフト。効果文の強化段階は 〘+:…〙 / 〘++:…〙 の印で示す(wiki の「3/4/5」表記はそのまま残る)
+export interface MirrorGift {
+  no: string; // wiki の一覧の番号(例 "001"、"NB3"、"EXG5")
+  id: string; // wiki の画像名(例 "HellterflysDream")。パック・合成の表との照合に使う
+  name: string;
+  sin: string; // 罪悪属性
+  tier: string; // ランク Ⅰ〜Ⅴ / EX
+  price: number | null; // ショップ価格。合成専用・売却不可などは null で priceNote に表記を残す
+  priceNote?: string; // "合成" / "売却不可" など
+  upgradeCost: [number, number] | null; // +・++ への強化費。強化不可は null
+  effect: string;
+  events: string[]; // 獲得できるイベント
+  keyword: string | null; // 分類(火傷・斬撃・資源・回復など)。"-" は null
+  notes?: string[]; // wiki の脚注
+}
+
+export interface MirrorPack {
+  name: string;
+  id: string | null; // wiki の画像名(Pack_ を除く)。画像が未掲載のパックは null
+  category: string; // ストーリーカードパック / 鏡屈折鉄道カードパック / EXTREME限定カードパック など
+  gifts: string[]; // 出現するギフトの id(グループ共通の分。限定・属性別を除く)
+  limitedGifts: string[] | null; // 限定ギフト・属性別ギフトの id。wiki 未記載は null
+}
+
+export interface MirrorFusion {
+  result: string; // 合成ギフトの id
+  materials: string[]; // 素材ギフトの id
+}
