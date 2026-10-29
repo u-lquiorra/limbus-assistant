@@ -149,6 +149,7 @@ export default function TeamPage() {
           note="メンバーの効果文をもとにした解説。"
           withThumbs
           toc={guide.sections.length >= GUIDE_TOC_MIN_SECTIONS}
+          sectioned
         />
       )}
 

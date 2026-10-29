@@ -1594,35 +1594,35 @@ button.fx-keyword[aria-expanded="true"] {
   list-style: circle;
 }
 
-/* 長いガイド(目次付き)。見出しごとの区切りと、見出し・小見出し・子の箇条書きの差をはっきりさせる */
-.guide-long {
+/* 編成ガイド。見出しごとの区切りと、見出し・小見出し・子の箇条書きの差をはっきりさせる */
+.guide-sectioned {
   gap: 30px;
 }
 
-.guide-long .guide-heading {
+.guide-sectioned .guide-heading {
   margin-bottom: 12px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--line);
   font-size: 16px;
 }
 
-.guide-long .guide-subheading {
+.guide-sectioned .guide-subheading {
   margin: 20px 0 8px;
   padding-left: 8px;
   border-left: 3px solid var(--gold);
   font-size: 14px;
 }
 
-.guide-long .guide-part ul {
+.guide-sectioned .guide-part ul {
   gap: 8px;
 }
 
 /* 画像付きの行と同じリストにある画像なしの行は、本文の左端を画像付きの行の本文にそろえる(画像44px + 間隔12px) */
-.guide-long ul:has(> .synergy-item) > li:not(.synergy-item) {
+.guide-sectioned ul:has(> .synergy-item) > li:not(.synergy-item) {
   padding-left: 56px;
 }
 
-.guide-long .guide-sublist {
+.guide-sectioned .guide-sublist {
   gap: 4px;
 }
 

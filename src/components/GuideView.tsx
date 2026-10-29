@@ -104,16 +104,17 @@ export function GuideBlocks({
   keywords,
   withThumbs,
   toc,
+  sectioned,
 }: {
   sections: GuideSectionData[];
   keywords: Keyword[];
   withThumbs?: boolean; // 箇条書きの先頭の人格・E.G.O リンクに、小さな画像を添える(編成・相性用)
   toc?: boolean; // 先頭にガイド内の見出しへの目次を出す(長いガイド用)
+  sectioned?: boolean; // 見出しの区切りと箇条書きの階層を強める(編成ガイド用)
 }) {
   const headed = sections.filter((sec) => sec.heading);
-  // 目次を出す長いガイドは、見出しの区切りと箇条書きの階層を強める(guide-long)。短いガイドの見た目は変えない
   return (
-    <div className={toc ? "guide guide-long" : "guide"}>
+    <div className={sectioned ? "guide guide-sectioned" : "guide"}>
       {toc && headed.length > 0 && (
         <nav className="guide-toc" aria-label="ガイドの目次">
           <p className="guide-toc-title">目次</p>
@@ -177,6 +178,7 @@ export function GuideSection({
   note = "下のスキル・パッシブの効果文をもとにした解説。",
   withThumbs,
   toc,
+  sectioned,
 }: {
   sections: GuideSectionData[];
   keywords: Keyword[];
@@ -185,6 +187,7 @@ export function GuideSection({
   note?: string;
   withThumbs?: boolean;
   toc?: boolean;
+  sectioned?: boolean;
 }) {
   return (
     <section className="section-block">
@@ -194,7 +197,7 @@ export function GuideSection({
           {title}
         </h2>
       </header>
-      <GuideBlocks sections={sections} keywords={keywords} withThumbs={withThumbs} toc={toc} />
+      <GuideBlocks sections={sections} keywords={keywords} withThumbs={withThumbs} toc={toc} sectioned={sectioned} />
       <p className="section-note">
         {note}
         {updated && `(更新日: ${updated})`}
