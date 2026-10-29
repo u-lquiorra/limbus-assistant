@@ -1,7 +1,7 @@
 ---
 id: breath
 team: 呼吸編成
-updated: 2026-10-19
+updated: 2026-10-29
 sources: [teams.json, persona-keywords.json, personas/0508.json, personas/0815.json, personas/0214.json, personas/0115.json, personas/0314.json, personas/1015.json, personas/0415.json, personas/0613.json, egos/0509.json, egos/0208.json, wiki編成ガイド, wiki性能解説]
 ---
 
@@ -19,8 +19,9 @@ sources: [teams.json, persona-keywords.json, personas/0508.json, personas/0815.j
 - 剣契頭目は単独でも「肉斬」でわざと負けて撃つ「骨断」が強いので、どちらの型にも入る。
 
 ## 回し方
-- 序盤は守備や呼吸を得るスキルで呼吸を溜める。[蜘蛛の巣小指の子方](persona:1015)は呼吸威力25超を月下青刀に変えて、バリアにする。
-- 剣契型は毎ターン傲慢スキルを3つ以上使って傲慢共鳴3を起こし、本国剣術と[LCD現場推理チーム](persona:0815)のパッシブを維持する。
+- 序盤は守備や呼吸を得るスキルで呼吸を溜める。
+  - [蜘蛛の巣小指の子方](persona:1015)は、呼吸威力25超を月下青刀に変えて、バリアにする。
+- 剣契型は毎ターン傲慢スキルを3つ以上使って傲慢共鳴3を起こし、[剣契頭目](persona:0508)の本国剣術と[LCD現場推理チーム](persona:0815)のパッシブを維持する。
 - 戦闘序盤に[表象放出機](ego:0201)で精神力の低い味方を回復すると、立ち上がりが安定する。
 - [鴻園の君主](persona:0613)を使うなら、黒獣-巳や[黒獣-卯 筆頭](persona:0212)と一緒に入れる。黒獣がいないと真価を発揮しない。
 

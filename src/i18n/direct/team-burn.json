@@ -333,15 +333,15 @@
     },
     "guide:2:0:1": {
       "sourceHash": "f18e1fcc374ee1da7acccd52d1a1c537046425f969cb4dbc3078808711210c9a",
-      "text": "Burn stops when Count runs out. Sustain it with Firefist Office Survivor's skills and benched [Liu Assoc. South Section 5](persona:0604): at Uptie Ⅲ with 4 Wrath Owned, he adds 1 to the Burn Count applied by the ally with the highest SP. [Liu Assoc. South Section 3](persona:0112)'s S3 reduces Burn Count by 2, so avoid it when Count is low."
+      "text": "Burn stops when Count runs out. Sustain it with [Firefist Office Survivor](persona:1211)'s skills and benched [Liu Assoc. South Section 5](persona:0604): at Uptie Ⅲ with 4 Wrath Owned, he adds 1 to the Burn Count applied by the ally with the highest SP. [Liu Assoc. South Section 3](persona:0112)'s S3 reduces Burn Count by 2, so avoid it when Count is low."
     },
     "guide:2:0:2": {
       "sourceHash": "0c718ea74db4560fb622dc82d92478cd411d0d2dcb3c2762626e753527415751",
-      "text": "Firefist Office Survivor and Liu Assoc. South Section 3 have Wrath S2s, and 4 members have Wrath S3s, making Wrath resources easy to accumulate. This supports Wrath E.G.O such as Rodion's [4th Match Flame](ego:0902)."
+      "text": "[Firefist Office Survivor](persona:1211) and [Liu Assoc. South Section 3](persona:0112) have Wrath S2s, and 4 members have Wrath S3s, making Wrath resources easy to accumulate. This supports Wrath E.G.O such as Rodion's [4th Match Flame](ego:0902)."
     },
     "guide:2:0:3": {
       "sourceHash": "35cc198555c4c8dec8a1ebf584fd85384848d6b3c2bffcb1277277e47b371e7f",
-      "text": "Cover healing through E.G.O such as [Into the Sunset](ego:0909) and [Indicant's Trial](ego:0908), available when deploying The House of Spiders: The Thumb Nursefather Rodion."
+      "text": "Cover healing through E.G.O such as [Into the Sunset](ego:0909) and [Indicant's Trial](ego:0908), available when deploying [The House of Spiders: The Thumb Nursefather](persona:0916) Rodion."
     },
     "guide:3:heading": {
       "sourceHash": "1fb317daecdd7ef2ac2d9c38e7263ac102c228af1ae02837674fadb67c57f4c6",
@@ -352,18 +352,30 @@
       "text": "These coordinated packages can replace priority picks. Choose according to the units you own."
     },
     "guide:3:0:1": {
-      "sourceHash": "52bd358cc7ead2edbd5903a939fb96f1079e2cdc97dd14bff0c29ca8d8265c14",
-      "text": "The Dawn Office package assumes all 3 together: [Dawn Office Fixer Sinclair](persona:1009), [Dawn Office Fixer Faust](persona:0216), and [Dawn Office Rep](persona:1216). Their coordination triggers follow-ups and supplies Gloom and Envy resources. Raw damage exceeds the Firefist option, but all are Walpurgisnacht-exclusive."
+      "sourceHash": "98a9339e2fb47d644da35fc50c359dcde09c149a68e9e1b87b69b8947a4ace9f",
+      "text": "The Dawn Office package assumes all 3 of the following together. Their coordination triggers follow-ups and supplies Gloom and Envy resources. Raw damage exceeds the Firefist option, but all are Walpurgisnacht-exclusive."
     },
     "guide:3:0:2": {
+      "sourceHash": "2b4c850a324a4dc4ca6e197983a80b5d7884b3e7b4984fe3cba918351bcb9511",
+      "text": "[Dawn Office Fixer Sinclair](persona:1009)"
+    },
+    "guide:3:0:3": {
+      "sourceHash": "a9d0568e10705bb486e9672ad5ec8146f40a45e10878171f1c51d348d3b8e071",
+      "text": "[Dawn Office Fixer Faust](persona:0216)"
+    },
+    "guide:3:0:4": {
+      "sourceHash": "7121843a4dbc5fd65733b708880468448548157cfb820f1e99b36cb550b519b7",
+      "text": "[Dawn Office Rep](persona:1216)"
+    },
+    "guide:3:0:5": {
       "sourceHash": "1d278ac8355284f5a6fe75234e966e36db23e0a8ae178d031789d4bd68d3e9e7",
       "text": "The Thumb package pairs [The House of Spiders: The Thumb Nursefather](persona:0916) with [The House of Spiders: The Thumb Apprentice](persona:0716). While the Nursefather has The Eye of Precognition, a hit from the Apprentice's Base Skill triggers his own La Spada di Palermo follow-up once per turn. The Apprentice shares a Sinner with [Heishou Pack - You Branch Adept](persona:0714), so choose one."
     },
-    "guide:3:0:3": {
+    "guide:3:0:6": {
       "sourceHash": "1049151634d1615fb42199a48212b5507cfb8b53537d1d20b171ce4cc71a67b0",
       "text": "The You Branch package uses [The Lord of Hongyuan](persona:0613) to swap Heishou units. They are fragile, so take care not to lose clashes."
     },
-    "guide:3:0:4": {
+    "guide:3:0:7": {
       "sourceHash": "2c6f083021dd91ddf2e11bb55a01c6712a8d54089226677a40eada9b92b37d0d",
       "text": "Combining both Dawn Office and Thumb units shifts the team toward Tremor - Scorch. Both Burn Count and Tremor Count need attention."
     },
@@ -380,8 +392,8 @@
       "text": "Reach at least 3 Magic Bullets, use the Magic Bullet E.G.O alongside at least 4 Resonance, then use S3 at 7 Magic Bullets to reset to 0. Repeat."
     },
     "guide:4:0:2": {
-      "sourceHash": "4fdf8776abbfc3eea51d68cde186ea1f45aa6b67d054da204493513cb17f814c",
-      "text": "Magic Bullet Outis's S3 consumes substantial SP and has a 50% chance to hit allies at 10 SP or less. Support her SP with benched [Liu Assoc. South Section 3](persona:0112), and omit the You Branch or Dawn Office Identities that inflict Burn on themselves."
+      "sourceHash": "0a02d30387920d008e6ad38a278279fd75bd0d263a0f8f5a78fcd4e1bac12320",
+      "text": "[Magic Bullet](persona:1107) Outis's S3 consumes substantial SP and has a 50% chance to hit allies at 10 SP or less. Support her SP with benched [Liu Assoc. South Section 3](persona:0112), and omit the You Branch or Dawn Office Identities that inflict Burn on themselves."
     },
     "guide:4:0:3": {
       "sourceHash": "8b2fb1e94926ebe4c25ab64d4afc83b4efafa120cf2b902b530d9248a985d2aa",

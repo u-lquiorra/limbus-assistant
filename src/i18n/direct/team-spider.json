@@ -216,38 +216,74 @@
       "text": "Every House Nursefather has a special Burn-applying S3, so the team can use Burn too. It remains strong without maintaining Burn."
     },
     "guide:2:0:0": {
+      "sourceHash": "d5c707524618455d78851b73e58f27c3d061a4bab449f752f062dbef9c699f56",
+      "text": "How Tiansha Works"
+    },
+    "guide:2:1:0": {
       "sourceHash": "0ccf3d4d81f6eff1c6a65bab9b1f721e3d94536b1344868ef74feae0ca719e65",
       "text": "Equipping Phantom Step [殘像步] marks a House Identity at Combat Start, kills them through Tiansha after their action ends, and grants Saikai bonuses and SP."
     },
-    "guide:2:0:1": {
+    "guide:2:1:1": {
       "sourceHash": "0a641215a427d1cbb35101e09ee6e1be9e44f166415186d4edf4224609388e2f",
       "text": "Tiansha selects deployed House members from the latest deployment position, with the Pinky Apprentice last in priority. Put Nursefathers you want to sacrifice at the end so they are killed first."
     },
-    "guide:2:0:2": {
-      "sourceHash": "cc790c1e13d3674e83d65eeada5c2341d322971b925fd2986efdf676e825bf09",
-      "text": "When an ally dies, reserves enter in order. Incoming House members occupy a late position and can become the next Tiansha targets. Put the lowest-priority Pinky Apprentice first among reserves, followed by non-House Meursault and Gregor, to sacrifice only the intended units."
-    },
-    "guide:2:0:3": {
-      "sourceHash": "a18cbf674daab19885bca177e5920d3ae55e9d995449a777e7680a825cc0487e",
-      "text": "After sacrificing the intended number, remove Phantom Step to stop Tiansha."
-    },
-    "guide:2:0:4": {
-      "sourceHash": "319a369cad8acf4de0bdfa8fa06d38ef02d6597c9464c2fbadeb53d38b673864",
-      "text": "Deaths do not increase slots while reserves remain. Deploying fewer total units is an option if you want slots to grow sooner."
-    },
-    "guide:2:0:5": {
-      "sourceHash": "f68eb79d83cf8e408dd9b4e02ab6218654339cc7f38e05c1011e46a96dbffd2e",
-      "text": "The basic sequence is: sacrifice a Nursefather on turn 1 for 1 String Severance, sacrifice again on turn 2 to reach 3 deaths and 45 SP, then use Rend Space - String Connection at the end of turn 3 to complete Blade Ryōshū's setup."
-    },
-    "guide:2:0:6": {
+    "guide:2:1:2": {
       "sourceHash": "a8057e6394b2b3ab502c471ae83dde4a6574748d6c1ede4d294d22073bb44923",
       "text": "A Nursefather sacrifice grants String Severance, enabling 2 Tiansha kills per turn afterward. Plan in advance for anyone you want to keep."
     },
-    "guide:2:0:7": {
-      "sourceHash": "235e478df6c4e57f6b526b2877676e1069cd25737ee7246d5dac7e1674f5dc05",
-      "text": "Candidates include the [Ring Nursefather](persona:0614) for powerful Saikai, the underutilized [Middle Nursefather](persona:1115) and Middle Apprentice, and the Ring Apprentice for defensive Saikai. Keeping the Index pair and Pinky Apprentice as shields is the safer choice."
+    "guide:2:1:3": {
+      "sourceHash": "a18cbf674daab19885bca177e5920d3ae55e9d995449a777e7680a825cc0487e",
+      "text": "After sacrificing the intended number, remove Phantom Step to stop Tiansha."
     },
-    "guide:2:0:8": {
+    "guide:2:2:0": {
+      "sourceHash": "127407d9dfbff1a2c1a8063ef53dc13c8dccbe44b7339a54c5ec8f7a7f71f6e0",
+      "text": "Reserves and Slots"
+    },
+    "guide:2:3:0": {
+      "sourceHash": "cc790c1e13d3674e83d65eeada5c2341d322971b925fd2986efdf676e825bf09",
+      "text": "When an ally dies, reserves enter in order. Incoming House members occupy a late position and can become the next Tiansha targets. Put the lowest-priority Pinky Apprentice first among reserves, followed by non-House Meursault and Gregor, to sacrifice only the intended units."
+    },
+    "guide:2:3:1": {
+      "sourceHash": "319a369cad8acf4de0bdfa8fa06d38ef02d6597c9464c2fbadeb53d38b673864",
+      "text": "Deaths do not increase slots while reserves remain. Deploying fewer total units is an option if you want slots to grow sooner."
+    },
+    "guide:2:4:0": {
+      "sourceHash": "f14e590e548f8d12264ae17568e4b0b84c71d5fbda005c8bb3c6346122d046d3",
+      "text": "Basic Sequence"
+    },
+    "guide:2:5:0": {
+      "sourceHash": "f68eb79d83cf8e408dd9b4e02ab6218654339cc7f38e05c1011e46a96dbffd2e",
+      "text": "The basic sequence is: sacrifice a Nursefather on turn 1 for 1 String Severance, sacrifice again on turn 2 to reach 3 deaths and 45 SP, then use Rend Space - String Connection at the end of turn 3 to complete Blade Ryōshū's setup."
+    },
+    "guide:2:6:0": {
+      "sourceHash": "04d9882dba83b1bc73ce9fa20e4835c98cb0bfbdfce5c4ae9813a1ec119a27ab",
+      "text": "Who to Sacrifice"
+    },
+    "guide:2:7:0": {
+      "sourceHash": "a838991e3250e889f1479b91f7517a01d4e93e8b9d2a5d2671f9ca91989cb031",
+      "text": "Tiansha candidates:"
+    },
+    "guide:2:7:1": {
+      "sourceHash": "6ff54b58e390a2e2f6f4fb1bf944694ab7e7557d92e36abc2b6a775f0290c228",
+      "text": "[Ring Nursefather](persona:0614): powerful Saikai."
+    },
+    "guide:2:7:2": {
+      "sourceHash": "32e06fefee78f22fcb2d666b0367a9a0aa2c6c211f59de7e2685741086463c65",
+      "text": "[Middle Nursefather](persona:1115): underutilized in this team."
+    },
+    "guide:2:7:3": {
+      "sourceHash": "d9e2debb7a2158dec89233e7c449585e9a166ce8b2763e302c63e8ea6b87cb99",
+      "text": "[Middle Apprentice](persona:0814): like the Middle Nursefather, underutilized in this team."
+    },
+    "guide:2:7:4": {
+      "sourceHash": "f5c9ea1b98f9c8cb29941fe55651d32244c82a191bc0c9ba0d294968a40da475",
+      "text": "[Ring Apprentice](persona:0215): defensive Saikai."
+    },
+    "guide:2:7:5": {
+      "sourceHash": "2d51b4f978965bf362127a513648207234c029d748741be03782cb85a0e6db8a",
+      "text": "Keeping the Index pair and Pinky Apprentice as shields is the safer choice."
+    },
+    "guide:2:7:6": {
       "sourceHash": "7bcbf045e352b5257f6be690dfbe1ae9e5a895b9c0114e486b53054384f3b93d",
       "text": "Sacrificing everyone has major defensive drawbacks and is unreliable outside Mirror Dungeons, where Gifts can compensate."
     },
@@ -260,12 +296,48 @@
       "text": "Neither Meursault nor Gregor has a House Identity, so neither can be targeted by Tiansha."
     },
     "guide:3:0:1": {
-      "sourceHash": "a69ba1eff4e2f5d064b922984d9be475c3d01267a4b58efd91a02c9fdce3b258",
-      "text": "For fighting alongside her, choose Capo IIII Meursault, Firefist Office Survivor, or Dawn Office Rep Gregor. To support Blade Ryōshū, choose Hornet【Alteration】 Meursault or Lamp Gregor."
+      "sourceHash": "f0c897c58a8bd3a322547e8fe14c0f2147e8ff2c35f162c539f89c8acc5a7854",
+      "text": "To fight alongside her:"
     },
     "guide:3:0:2": {
-      "sourceHash": "ac33fe609120572e8ae951743c3bfcd65500ca576309bc2537d7e441a6f20ff7",
-      "text": "For bench durability, choose LCB Sinner Meursault or G Corp. Manager Corporal Gregor. For damage, choose Blade Lineage Mentor Meursault."
+      "sourceHash": "b368ee319d0d20c85b3344c0639209ad57f5159f8d1fc1a64046595404849533",
+      "text": "[Capo IIII](persona:0512) Meursault"
+    },
+    "guide:3:0:3": {
+      "sourceHash": "5edf7e3fb03f88f12efd756c247895979debaf32c93fa74feca0ea663fac9928",
+      "text": "[Firefist Office Survivor](persona:1211) Gregor"
+    },
+    "guide:3:0:4": {
+      "sourceHash": "205286f5a13163e96621aa8b7300e4695650bdafcb7896e69df153d5477f5f91",
+      "text": "[Dawn Office Rep](persona:1216) Gregor"
+    },
+    "guide:3:0:5": {
+      "sourceHash": "416b260affdd1ae1b6aa703284822c7920eec9145e7faf79a9a3a03c41e1e97b",
+      "text": "To support Blade Ryōshū:"
+    },
+    "guide:3:0:6": {
+      "sourceHash": "c9065199025c8fb3bd3ac03438e13468b04b3295dd789be60ac223d0de3f7239",
+      "text": "[Hornet【Alteration】](persona:0514) Meursault"
+    },
+    "guide:3:0:7": {
+      "sourceHash": "59edff7ca01590b3513797c2af4bac2a9b776e6202593d00bf6e2d534aa22950",
+      "text": "[Lamp](persona:1214) Gregor"
+    },
+    "guide:3:0:8": {
+      "sourceHash": "d45e34c6e7a6a23923f84826ec10047bbd0015558b4847b89eff2a079754af5c",
+      "text": "Bench options:"
+    },
+    "guide:3:0:9": {
+      "sourceHash": "e00c01de4b664a556016ceda61a98ac13e6d2b1cf33086601f96a772aae7616a",
+      "text": "[LCB Sinner](persona:0501) Meursault: durability"
+    },
+    "guide:3:0:10": {
+      "sourceHash": "eb87956464df33c068aed15a2cc7c4e98c7b735dbaf84265deaee8a479e3a96c",
+      "text": "[G Corp. Manager Corporal](persona:1203) Gregor: durability"
+    },
+    "guide:3:0:11": {
+      "sourceHash": "c9a50cebca9c78af160c36c1ce3d6f5f2dd1506052e3ff56cd717cdf23da3f11",
+      "text": "[Blade Lineage Mentor](persona:0508) Meursault: damage"
     },
     "guide:4:0:0": {
       "sourceHash": "d1e7a50b8905ae329f7534c026df314e1fd0968f7b11772f76bbf6950512f60e",

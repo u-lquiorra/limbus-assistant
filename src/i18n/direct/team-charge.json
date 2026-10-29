@@ -220,8 +220,20 @@
       "text": "**W Corp. and AEDD**: Suited to long Regular Encounters, sweeping successive enemies once Charge builds. Early clashes are weak, and single-boss damage is modest."
     },
     "guide:1:0:1": {
-      "sourceHash": "d6ef7c73bc2ddeb7b7cdd0adcd7e911fd6325cd40ab23b9a2dc4c0d2d23ce551",
-      "text": "**Le Noir**: Choose this if you have both [Haute Couture:: Le Noir Brand Manager](persona:0315) Don Quixote and [Haute Couture:: Le Noir Footwear Hall](persona:0416) Ryōshū. The Brand Manager maintains positive Count generation for both Preservation and Tremor, reducing management demands. Conservation bursts from Le Noir Identities do not reduce Tremor Count, allowing repeated bursts even against a single boss. Sanctum of Conservation and Shield also provide high durability."
+      "sourceHash": "d9e39df6a463273936a3bae2c4b6a4f942aa952e4a8e7ea75020a1e8ccda2ae6",
+      "text": "**Le Noir**: Choose this if you have both [Haute Couture:: Le Noir Brand Manager](persona:0315) Don Quixote and [Haute Couture:: Le Noir Footwear Hall](persona:0416) Ryōshū."
+    },
+    "guide:1:0:2": {
+      "sourceHash": "e57a45cf244213cc01f62f801abecfa6722d2b3ff66966e63ae5daed438d329e",
+      "text": "The Brand Manager maintains positive Count generation for both Preservation and Tremor, reducing management demands."
+    },
+    "guide:1:0:3": {
+      "sourceHash": "97e31903f1bc97131c83d385f702714234254aa761c4e8d139b1f33a056a36e4",
+      "text": "Conservation bursts from Le Noir Identities do not reduce Tremor Count, allowing repeated bursts even against a single boss."
+    },
+    "guide:1:0:4": {
+      "sourceHash": "4bcdd7b3e818cd62f11996390301b96b48432e9a8a9272ffdd276b742126e48c",
+      "text": "Sanctum of Conservation and Shield also provide high durability."
     },
     "guide:2:0:0": {
       "sourceHash": "64de292e1baf3b81d6e8b8915288596b3cd3fe6ec618d06d1ffb732dfcfb8427",
@@ -236,16 +248,16 @@
       "text": "[W Corp. L3 Cleanup Captain](persona:1110)'s Charge Barrier can strengthen W Corp. Identities together."
     },
     "guide:3:0:0": {
-      "sourceHash": "fa603b7f1222330db926363652a16ebc4489fd0b052ffe6f2c1f2ad73e916359",
-      "text": "AEDD Gregor gives Charge Count to allies earlier in deployment order. Place him fourth, or third."
+      "sourceHash": "5545f05883515133652fedb35ba10ebfe3700bdbc6633808be98e444bb9e0f66",
+      "text": "[AEDD](persona:1215) Gregor gives Charge Count to allies earlier in deployment order. Place him fourth, or third."
     },
     "guide:3:0:1": {
-      "sourceHash": "8f76d3771c4f12efa9f1afeb17a2a3dbd001b318ea776449a0d663c5f4b54f19",
-      "text": "Prioritize activating AEDD Gregor's passive, then [In the Name of Love and Hate](persona:0312) Don Quixote's. First gather 2 Gloom and 2 Envy, then aim for 4 Envy Resonance."
+      "sourceHash": "4712c7a5721b2dfb298b05607714b7a11224cd4d7feee5c9a91b565db98b5f7f",
+      "text": "Prioritize activating [AEDD](persona:1215) Gregor's passive, then [In the Name of Love and Hate](persona:0312) Don Quixote's. First gather 2 Gloom and 2 Envy, then aim for 4 Envy Resonance."
     },
     "guide:3:0:2": {
       "sourceHash": "53eb50e316bf2572ce95c8ee34d7bcaf6eb99d00494f261fee622bae88c834bc",
-      "text": "Telepole, [In the Name of Love and Hate](ego:0309), and [AEDD](ego:1204) have strong E.G.O passives, so use them when an opportunity arises."
+      "text": "[Telepole](ego:0303), [In the Name of Love and Hate](ego:0309), and [AEDD](ego:1204) have strong E.G.O passives, so use them when an opportunity arises."
     },
     "guide:3:0:3": {
       "sourceHash": "5891020571f93763fcf3bfc134cb07f8c4258f55d8c46a7162686aedcab2ec6a",
@@ -257,7 +269,7 @@
     },
     "guide:4:0:0": {
       "sourceHash": "f77f8ee9c50782fc79813e2c6a5e86deb18e004dbd1d025b6d22ec7985a92120",
-      "text": "The Brand Manager makes an unopposed Judgment! attack before the Footwear Hall attacks, once per turn. This follow-up nearly doubles Preservation Potency buildup, so deploy both together."
+      "text": "The [Brand Manager](persona:0315) makes an unopposed Judgment! attack before the Footwear Hall attacks, once per turn. This follow-up nearly doubles Preservation Potency buildup, so deploy both together."
     },
     "guide:4:0:1": {
       "sourceHash": "1f52f4d2882e8d1a5b1707ce624bd3dbde4765e347531d6ef441d622a6e6188d",
@@ -268,8 +280,8 @@
       "text": "[Alteration Shop](persona:0917) Rodion mainly supports the earliest ally, prioritizing Charge Identities. Put the Brand Manager first."
     },
     "guide:4:0:3": {
-      "sourceHash": "c8bbf125cfe9831ee73df84237edc3fa13d73d3dd126055a2a9964990a3e6a6f",
-      "text": "Place AEDD Gregor fourth to supply Charge Count to the first 3 allies. Preservation increases like Charge."
+      "sourceHash": "51613f2a9a082508530153ef5e78e2f2823973238c137f1f7c805061b270c372",
+      "text": "Place [AEDD](persona:1215) Gregor fourth to supply Charge Count to the first 3 allies. Preservation increases like Charge."
     },
     "guide:4:0:4": {
       "sourceHash": "2cd5770971c3e4292b8d402d2662a9eaf92a2119650041698f237ad0ff8b4856",

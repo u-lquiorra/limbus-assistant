@@ -60,27 +60,35 @@
       "text": "Preparation"
     },
     "guide:2:0:0": {
-      "sourceHash": "a9165ad6b9fffadd5a02eb0ffd61ab59431be1cf31e250bcd5fd640d3ba4e208",
-      "text": "**User**: [Heishou Pack - Mao Branch Adept](persona:0212) Faust fits well with 283 HP and 4–7 Speed, among the fastest Faust Identities. Alternatives should have high HP and no Pierce weakness, such as the highest-HP [The House of Spiders: The Ring Apprentice](persona:0215) or the slower [Zwei Assoc. South Section 4](persona:0205)."
+      "sourceHash": "8181364e76a24f7144f5d2ee3fe6a7a74a4391827554ead916552a6e03c87d0d",
+      "text": "**User**: [Heishou Pack - Mao Branch Adept](persona:0212) Faust fits well with 283 HP and 4–7 Speed, among the fastest Faust Identities. Alternatives should have high HP and no Pierce weakness."
     },
     "guide:2:0:1": {
+      "sourceHash": "f29d86f6cc32633cb943e6ce135135162a3f938dc016533b6b8d91cb8a58f2c6",
+      "text": "[The House of Spiders: The Ring Apprentice](persona:0215): the highest HP among Faust Identities."
+    },
+    "guide:2:0:2": {
+      "sourceHash": "ccd49880e61a38b1a6020d041e54af546e0872b941845aa7ea2994f6975064f6",
+      "text": "[Zwei Assoc. South Section 4](persona:0205): slower, but still an option."
+    },
+    "guide:2:0:3": {
       "sourceHash": "85662dd6a2efc4c2822f1b7418396a91d54eba696e529bc2d0a7a3b115f6ba0b",
       "text": "**Hollow**: At least Threadspin Ⅲ. Prefer Ⅳ for the larger damage bonus from spending Charge."
     },
-    "guide:2:0:2": {
+    "guide:2:0:4": {
       "sourceHash": "67e6711caadb4dee07c91e18cda4668725a43225c9e6d9dd63c1a5120acab4bb",
       "text": "**Blessings**: Star of the Beginning and Interstellar Travel."
     },
-    "guide:2:0:3": {
+    "guide:2:0:5": {
       "sourceHash": "52f7f2adc2b2d9521fc11ff37c596264548d9a676d76ce1afb72b7c86ef8dcd7",
       "text": "**Gift Observation**: Tier Ⅲ Grand Welcome and Tier Ⅲ Sharp Needle & Thread."
     },
-    "guide:2:0:4": {
-      "sourceHash": "bdd4950d714f986b6db58cc10f7d0dff4d002170413f82fab41384fc20ceafc1",
-      "text": "**Starting Gift**: Tier Ⅱ Cigarette Holder."
+    "guide:2:0:6": {
+      "sourceHash": "69ca39b8cb696c02832f1588b4d816906d602dfbc133907ed6ecc21dbcdc2046",
+      "text": "**Starting Gift**: Tier Ⅱ Cigarette Holder (Power Up 1 each turn while you have Poise)."
     },
-    "guide:2:0:5": {
-      "sourceHash": "a5812592a3a50bc259fbbf1c2b681053144f7f2ad2ed45059697598e053e98f5",
+    "guide:2:0:7": {
+      "sourceHash": "bc66d4d3d6513f5b637165c9370b9ed701e2223d45ad2f11b4b938ec5ec5b2cb",
       "text": "**Packs**: Normal Flat-broke Gamblers, Hell's Chicken, Emotional Seduction, and Hatred and Despair. Choose Hard Line 2 on floor 5."
     },
     "guide:3:0:0": {
@@ -100,10 +108,26 @@
       "text": "Restore Faust to maximum SP at the floor 4 and 5 shops."
     },
     "guide:3:0:4": {
-      "sourceHash": "f70490e9a71b4984cb97aa1b508ba56d32d9326d79dd1ae4cb35eb0ef348e1b0",
-      "text": "Seek Tier Ⅳ Clear Mirror, Calm Water++ and Fragment of Conceit for Poise, plus Tier Ⅳ Artistic Sense++ and Fragment of Decay for Sinking. Floors 1–3 still fall to one Corrosion hit without them, so collecting them gradually before Knight of Despair is sufficient."
+      "sourceHash": "21dc8a52de1635f43394763c1c2e5ee972d921623053a4b30a7d752a1750108f",
+      "text": "Collect these four Gifts. Floors 1–3 still fall to one Corrosion hit without them, so collecting them gradually before Knight of Despair is sufficient."
     },
     "guide:3:0:5": {
+      "sourceHash": "40512687e7fc3834c2004c235ef47fb3db6ffe6e7a32538dc32cf834b3b94a21",
+      "text": "**Clear Mirror, Calm Water++** (Poise, Tier Ⅳ): Critical damage becomes 1.7×."
+    },
+    "guide:3:0:6": {
+      "sourceHash": "8d3b2834a492a7134fe87d58eee565ddccf7f30fceca16e5e5a15799c6f8b04d",
+      "text": "**Fragment of Conceit** (Poise, Tier Ⅳ): E.G.O skills that gain Poise get Final Power based on resources spent and +50% damage, more for Pride E.G.O."
+    },
+    "guide:3:0:7": {
+      "sourceHash": "46e7a75285a422dd5ca5c0d7ab33bd4d84e7c1df60e81646d2ef7356e76f309c",
+      "text": "**Artistic Sense++** (Sinking, Tier Ⅳ): +35% damage against enemies with Low Morale or Panic."
+    },
+    "guide:3:0:8": {
+      "sourceHash": "9936efdb6bbddb504a350c2a6b8a7348cf5f6c6faa19e650a117d2ff68feca80",
+      "text": "**Fragment of Decay** (Sinking, Tier Ⅳ): E.G.O skills that inflict Sinking get Final Power based on resources spent and +50% damage."
+    },
+    "guide:3:0:9": {
       "sourceHash": "de4bf5d8dad4499bf443cc701724a63917228f5b70eb2edfe221583fb88ff7bb",
       "text": "Grand Welcome becomes unnecessary once enough Pride resources accumulate. It can be used as fusion material when a Tier Ⅲ Gift is needed."
     },
