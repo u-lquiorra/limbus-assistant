@@ -91,8 +91,8 @@ for (const file of files) {
   }
   if (source.sourceGuide) {
     const guide = parseGuide(await readFile(source.sourceGuide, "utf8"));
-    const links = (segments: InlineSegment[]) => segments.filter((s) => s.persona || s.ego)
-      .map((s) => `${s.persona ? "persona" : "ego"}:${s.persona ?? s.ego}`).sort();
+    const links = (segments: InlineSegment[]) => segments.filter((s) => s.persona || s.ego || s.url)
+      .map((s) => s.url ?? `${s.persona ? "persona" : "ego"}:${s.persona ?? s.ego}`).sort();
     for (const section of guide.sections) for (const block of section.blocks) {
       for (const segments of blockSegments(block)) {
         const original = segments.map((segment) => segment.text).join("");

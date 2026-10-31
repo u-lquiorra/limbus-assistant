@@ -34,7 +34,12 @@ export function InlineText({ segments, keywords }: { segments: InlineSegment[]; 
       {localized.map((s, i) => {
         // 人格・E.G.O 詳細ページへのリンク([表示名](persona:コード) / [表示名](ego:コード))
         const href = s.persona ? `/persona/${s.persona}` : s.ego ? `/ego/${s.ego}` : undefined;
-        const content = href ? (
+        // 参考にした動画・記事など外部ページへのリンクは、別タブで開く
+        const content = s.url ? (
+          <a className="guide-link" href={s.url} target="_blank" rel="noopener noreferrer">
+            {s.text}
+          </a>
+        ) : href ? (
           <Link className="guide-link" to={href}>
             {s.text}
           </Link>

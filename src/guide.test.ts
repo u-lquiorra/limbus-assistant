@@ -36,6 +36,15 @@ test("parseInline: [表示名](ego:コード) を E.G.O へのリンクにする
   ]);
 });
 
+test("parseInline: [表示名](https://...) を外部リンクにし、https 以外はリンクにしない", () => {
+  assert.deepEqual(parseInline("[解説動画](https://youtu.be/abc)(作者)"), [
+    { text: "解説動画", strong: false, url: "https://youtu.be/abc" },
+    { text: "(作者)", strong: false },
+  ]);
+  assert.deepEqual(parseInline("[a](javascript:alert(1))"), [{ text: "[a](javascript:alert(1))", strong: false }]);
+  assert.deepEqual(parseInline("[a](http://example.com)"), [{ text: "[a](http://example.com)", strong: false }]);
+});
+
 test("parseGuide: frontmatter・見出し・段落・箇条書きを解釈する", () => {
   const md = [
     "---",

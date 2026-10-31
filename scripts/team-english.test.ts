@@ -6,7 +6,7 @@ import { blockSegments, parseGuide, parseInline, type InlineSegment } from "../s
 
 test("編成の英訳は原文更新を検出し、全段落の人格・E.G.Oリンクを保つ", async () => {
   const compiled = JSON.parse(await readFile("src/i18n/messages.en.json", "utf8"));
-  const links = (segments: InlineSegment[]) => segments.filter(s => s.persona || s.ego).map(s => `${s.persona ? "persona" : "ego"}:${s.persona ?? s.ego}`).sort();
+  const links = (segments: InlineSegment[]) => segments.filter(s => s.persona || s.ego || s.url).map(s => s.url ?? `${s.persona ? "persona" : "ego"}:${s.persona ?? s.ego}`).sort();
   for (const file of (await readdir("src/i18n/direct")).filter(file => /^team-.+\.json$/.test(file))) {
     const source = JSON.parse(await readFile(`src/i18n/direct/${file}`, "utf8"));
     if (source.kind !== "team-copy") continue;

@@ -6,7 +6,8 @@ import type { EgoDetail, Keyword, PersonaDetail } from "./types";
 import { stripStageMarks } from "./egoStage";
 
 // persona / ego: 人格・E.G.O 詳細ページへのリンク。本文に [表示名](persona:0112) / [表示名](ego:0108) と書く
-export type InlineSegment = { text: string; strong: boolean; persona?: string; ego?: string };
+// url: 参考にした動画・記事など外部ページへのリンク。本文に [表示名](https://...) と書く
+export type InlineSegment = { text: string; strong: boolean; persona?: string; ego?: string; url?: string };
 
 // ul の depths は各項目の深さ(0: 通常、1: 直前の項目の子)。子が無いリストでは省く。
 // 子の項目も items には平らに並べる。英訳のキー(項目の通し番号)や検索などの読み取り側を、入れ子の有無で変えずに済むため
@@ -32,7 +33,8 @@ export interface Guide {
 
 // [表示名](persona:0112) は人格、[表示名](ego:0108) は E.G.O の詳細ページへのリンク
 // 英語の正式名には [三千大世界] などの角括弧も含まれる。
-const PERSONA_LINK = /\[((?:[^[\]]|\[[^[\]]*\])+)\]\((persona|ego):(\d{4})\)/g;
+// 外部リンクは https: だけを受け付ける。javascript: などを href に出さないため(XSS 対策)
+const PERSONA_LINK = /\[((?:[^[\]]|\[[^[\]]*\])+)\]\((?:(persona|ego):(\d{4})|(https:\/\/[^\s()]+))\)/g;
 
 // リンク記法を取り出して分割する。リンクの無い断片は { text, strong } のまま
 function splitLinks(text: string, strong: boolean): InlineSegment[] {
@@ -40,7 +42,8 @@ function splitLinks(text: string, strong: boolean): InlineSegment[] {
   let last = 0;
   for (const m of text.matchAll(PERSONA_LINK)) {
     if (m.index > last) out.push({ text: text.slice(last, m.index), strong });
-    out.push(m[2] === "ego" ? { text: m[1], strong, ego: m[3] } : { text: m[1], strong, persona: m[3] });
+    if (m[4]) out.push({ text: m[1], strong, url: m[4] });
+    else out.push(m[2] === "ego" ? { text: m[1], strong, ego: m[3] } : { text: m[1], strong, persona: m[3] });
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push({ text: text.slice(last), strong });
