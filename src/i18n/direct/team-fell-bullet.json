@@ -12,8 +12,8 @@
       "text": "Fell Bullet farming (Seven Assoc. South Section 6)"
     },
     "data:examples:0:note": {
-      "sourceHash": "5d39b57c29d35dbeb8e334ba0f990a9f54ef72b5080f8106f76d118d5afcaa4f",
-      "text": "Farm by having Yi Sang's Fell Bullet E.G.O shoot down a low-level ally, so its second Coin defeats 6 enemies at once. Start with Yi Sang and two bullet Sinners deployed, and keep the bullets on Defense. Bring Tier Ⅲ Grand Welcome (+5 Pride at stage start) and Tier Ⅲ Sharp Needle & Thread (extra fixed damage) through Gift Observation. When a bullet falls, a Sinner on standby deploys and becomes the next bullet."
+      "sourceHash": "fd8d6c28a00424603daf97a72b2e40cbf18ffbd47b0d28d2140163452b9a0e7e",
+      "text": "Farm by having Yi Sang's Fell Bullet E.G.O shoot down a low-level ally, so its second Coin defeats 6 enemies at once. Only the first fight uses a team of 6 with resource gatherers; after that, advance with Yi Sang and one bullet. Bring Tier Ⅲ Grand Welcome (+5 Pride at stage start) and Tier Ⅲ Sharp Needle & Thread (extra fixed damage) through Gift Observation. When a bullet falls, a Sinner on standby deploys and becomes the next bullet."
     },
     "data:examples:0:members:0:note": {
       "sourceHash": "c5f4753fc44b6afa85ab88d87b7982dadf1b8e9d051f2cb54bb52c6fae892a88",
@@ -103,9 +103,17 @@
       "sourceHash": "a6dd121e625c3fe104e2f9bc71552f507c81d6accd135a84af603a9a19977beb",
       "text": "For the first fight of floor 1. Its first use costs only 2 Pride and can still use the Corrosion version; with Grand Welcome, each enemy defeated adds Fell Bullet resources."
     },
+    "guide:0:heading": {
+      "sourceHash": "a8cf394d615339f33f3ecbd37e5a7f6770133cc6488ca75f93e69db44003c94e",
+      "text": "At a Glance"
+    },
     "guide:0:0:0": {
       "sourceHash": "d0fa09153a97bbdf456ae3335ac5e30c19c51ec7b53e639be2d03f58e111c472",
       "text": "Farm Mirror Dungeons by having Yi Sang's E.G.O [Fell Bullet](ego:0107) shoot down a low-level ally and use that momentum to clear enemies together. It is among the fastest farming methods, taking about 15 minutes per run when things go well. However, every floor is played on Hard, and you need low-level Identities as bullets plus a Starlight reserve, so learn Mirror Dungeons first. Unsuitable for deep-floor progression."
+    },
+    "guide:1:heading": {
+      "sourceHash": "04f89470260c7714ef32fe9a40bd75d7de32e9c428a2a999496bfea205492ce6",
+      "text": "How It Works"
     },
     "guide:1:0:0": {
       "sourceHash": "8a152e96a9b520ae3aae2c9cbcdd9a7e0494c37425a411a40c1a0cec03f2f65a",
@@ -131,107 +139,223 @@
       "sourceHash": "aa8ed7767f74b4e3665d02ad459e3d02f3e52069a3a4e2b2c8e7148b186bb5b9",
       "text": "The Corrosion version of Fell Bullet does not distinguish allies from enemies and can shoot any number of allies. If several fall at once, you run out of bullets."
     },
+    "guide:2:heading": {
+      "sourceHash": "04f46f8ed7b7ddf81e4a2a20ae4c27586343083261cad8cf343bffdf446f0bd7",
+      "text": "Preparation"
+    },
     "guide:2:0:0": {
-      "sourceHash": "eeba2258a70985f7216d80c9239624b5cc9153aa9fbca1d4348989b7aa8da012",
-      "text": "**User**: [Seven Assoc. South Section 6](persona:0102) Yi Sang has 5–8 Speed, the fastest Yi Sang Identity, so he tends to fire before enemies act. His skills are Sloth, Gluttony, and Gloom, so Fell Bullet's cost (2 Wrath, 6 Pride) comes from the bullets and Gifts. As an alternative, use [The House of Spiders: The Index Nursefather](persona:0115), a Poise Identity that crits easily."
+      "sourceHash": "c8934e646dc68b695ea6f0ad6613ec76d0968ed5ea3ef3c5b33e6955d7b42605",
+      "text": "**User**: [Seven Assoc. South Section 6](persona:0102) Yi Sang. With 5–8 Speed, the fastest Yi Sang Identity, he fires before enemies act. [LCB Sinner](persona:0101) Yi Sang (4–8 Speed) or [The House of Spiders: The Index Nursefather](persona:0115), a Poise Identity that crits easily, also work."
     },
     "guide:2:0:1": {
-      "sourceHash": "df4579a70ff1c69f121d6e260771a2935d6a439f1e1270a033bcda9bd5c21b56",
+      "sourceHash": "e56b09ee93a58f083026a8c74f495d9e53b56432684755cc260e81a8bea755f9",
       "text": "**Fell Bullet**: Threadspin Ⅳ. At Ⅲ, killing an ally only returns the S1 resource."
     },
     "guide:2:0:2": {
-      "sourceHash": "3a90c9834a1f86e9e8c872201070fc0ec167ae6007be1711e44dd49e8c406e2f",
-      "text": "**Bullets**: Low-level, Pierce-weak Identities. Lower levels mean less HP, making them easier to kill with the first Coin. The best is the [LCB Sinner](persona:1001) Sinclair: only 62 HP at Lv 1, and keeping her base E.G.O [Branch of Knowledge](ego:1001) equipped makes her Pride-weak too. For the second, use an Identity such as [Dieci Assoc. South Section 4](persona:0608) Hong Lu with [Repudiation](ego:0610) equipped to make him Pride-weak too."
+      "sourceHash": "b8f7aae3f359984227af26ad11037f6aa82f72825b4d042b453d8266e60b157b",
+      "text": "**Early bullets (3)**: Low-level, Pierce-weak Identities. Around 75 HP reliably dies. Slow Identities with Wrath on Defense and on S1 or S2 work best."
     },
     "guide:2:0:3": {
-      "sourceHash": "a8ea45395cbd2dc3006b8e7b4001cf303908b92dec42790fc4bb65f05477fadf",
-      "text": "**Standby**: Make the remaining Sinners low-level, Pierce-weak Identities too. When a bullet falls, one deploys from standby as the next bullet. Placing [Lobotomy E.G.O::Magic Bullet](persona:1107) Outis on standby raises Fell Bullet damage at Pride Resonance 3."
+      "sourceHash": "0f89c0d4e0410323e01a2b004f07d0de1c097ebf912e9d3046313a22146cfdde",
+      "text": "The best is the [LCB Sinner](persona:1001) Sinclair. She has 62 HP at Lv 1, and keeping her base E.G.O [Branch of Knowledge](ego:1001) equipped makes her Pride-weak too."
     },
     "guide:2:0:4": {
-      "sourceHash": "b94135135b83c069e2e43074507752a9ca8f138ccf8b2bd857b1eb4950929658",
-      "text": "**Blessings**: Star of the Beginning and Interstellar Travel. Add Star-shower if you can afford it."
+      "sourceHash": "c03659bd1abb88accbc05f88d577da91cbfadd04f822ed73c4a83d38bb74c38b",
+      "text": "Identities such as [Dieci Assoc. South Section 4](persona:0608) Hong Lu, made Pride-weak with [Repudiation](ego:0610), also work."
     },
     "guide:2:0:5": {
+      "sourceHash": "ff0972fdb3f751a08cd8cec4d38e18b1a76a735fec07f53f327d11d16bbba89b",
+      "text": "**Late bullets (3–4)**: Pierce-weak Identities. Once your Gifts are complete, level does not matter. Placing [Lobotomy E.G.O::Magic Bullet](persona:1107) Outis on standby raises Fell Bullet damage at Pride Resonance 3."
+    },
+    "guide:2:0:6": {
+      "sourceHash": "29287381991fe3630484a72d5bc5426c6df3f137c689b5962ffb0d37c9b76e14",
+      "text": "**Resource gatherers**: Used only in the first fight on floor 1. Bring a few Identities with Wrath or Pride on S1 or S2."
+    },
+    "guide:2:0:7": {
+      "sourceHash": "d7d2fe338ee1f42cdce2ff6d83f2ca4fc8597e2f7a330903e48dbaf4d568608b",
+      "text": "**Blessings**: Star of the Beginning, Interstellar Travel, and Star-shower."
+    },
+    "guide:2:0:8": {
       "sourceHash": "52f7f2adc2b2d9521fc11ff37c596264548d9a676d76ce1afb72b7c86ef8dcd7",
       "text": "**Gift Observation**: Tier Ⅲ Grand Welcome and Tier Ⅲ Sharp Needle & Thread."
     },
-    "guide:2:0:6": {
+    "guide:2:0:9": {
       "sourceHash": "f3ee23020c9ea4c7800d2b59627f97a216a7ff542821fa8bb1a31ee55bba790e",
       "text": "**Starting Gift**: Poise's Cigarette Holder. Add Stone Tomb if you have Starlight to spare."
     },
-    "guide:2:0:7": {
-      "sourceHash": "5f11f7d3cb79d33ac19ae9203edb5ec8347334bad9c93b7825ba210c28739f01",
-      "text": "**Packs**: All floors on Hard: Flat-broke Gamblers, Hell's Chicken, Hatred and Despair, Line 2, and Line 4 - Section #4 (Section #3 also works). Floor 5 can also be cleared with Line 3. Avoid Line 5."
+    "guide:2:0:10": {
+      "sourceHash": "2c2b43d74dedf37aef16def00a868d6587f11c93961745b5da2edbc292d1991c",
+      "text": "**Packs**: All floors on Hard: Flat-broke Gamblers → Hell's Chicken → Hatred and Despair → Line 2 → Line 1 or Line 4 - Section #3. Line 3 also works for floor 5. Avoid Line 5."
+    },
+    "guide:3:heading": {
+      "sourceHash": "18aeea899a3072af90d2783e77cca073b893b8e04f77139626315ee1b2bcb3a8",
+      "text": "Starlight Balance"
     },
     "guide:3:0:0": {
-      "sourceHash": "37fc3d05d134cf7a1fad81590de27b810e4fde93baafd8adb55e8e17b46db1b6",
-      "text": "If you use only Fell Bullet, the first fight on floor 1 lacks resources. On turn 1, gather at least 2 Wrath and 1 Pride with the bullets' skills and keep Yi Sang on Defense. On turn 2, clear the enemies with Fell Bullet."
+      "sourceHash": "437274d35a4dd21e01a8e5261384356ac3be3183a0db745de266af60f6eaa4f8",
+      "text": "Blessings and Gift Observations cost about 210."
     },
     "guide:3:0:1": {
-      "sourceHash": "6cedee7997e7f3197533806a46914cf84d3c832ae6194331ca7211cea72db6e5",
-      "text": "If you have Faust's [Hollow](ego:0211), you can open the first fight of floor 1 with it. Hollow's first use in an Encounter costs only 2 Pride, so Grand Welcome's +5 Pride lets you use the Corrosion version from turn 1. Each enemy death gives +2 Pride and +1 each of two other affinities through Grand Welcome, gathering Fell Bullet resources without spending bullets. Use Hollow's Corrosion version only in this first fight, and switch to Fell Bullet once you have 2 or more Wrath."
+      "sourceHash": "a9338904f9b978c9b417fe6fc6779a9d83995e915b441f01290230aa2a61d26c",
+      "text": "Starlight earned grows with Rest Bonus. If you rotate Sinners every run, the balance stays near zero even with Yi Sang and the 3 early bullets fixed."
     },
-    "guide:3:0:2": {
-      "sourceHash": "fb2b3743664aaaa3b3ad09813cb3456ddef31b3fe800aebdcbf88b3232749bd1",
-      "text": "For the first fight, deploy Faust (such as the fast [Heishou Pack - Mao Branch Adept](persona:0212)) with one companion, and keep the companion on Defense. Do not use an Identity that counterattacks as the companion."
+    "guide:4:heading": {
+      "sourceHash": "6a3474f0dd54e9112b1f215c14590f79ff275bb53f25b5a92e7c901897371d79",
+      "text": "Rotation"
     },
-    "guide:3:0:3": {
-      "sourceHash": "b9e58c7ba2085c1a82746dc0f08d7477a57139064b314bfc26804ebccdc227fe",
-      "text": "After that, use Fell Bullet every fight. Grand Welcome adds Pride when enemies die, and each fallen bullet returns its skill resources."
+    "guide:4:0:0": {
+      "sourceHash": "3e0f6ed0b46bd7529f3fe9859aa2606d2d0f5f2a48605a575063eae26abac690",
+      "text": "Floor 1"
     },
-    "guide:3:0:4": {
-      "sourceHash": "88fd30d584dc1ea56dd1277020377dad10e36a7ab0653e73b8ba2bc0243c724d",
-      "text": "Until the end of floor 2, advance with Yi Sang and two bullets."
+    "guide:4:1:0": {
+      "sourceHash": "6925c4388ad685b94a02966ce8ae7ff67f30e5acf7b90b53e14577725d7679a5",
+      "text": "Deploy 6 for the first fight: Yi Sang, one bullet, and 4 resource gatherers. Grand Welcome provides 5 Pride, so gather 2 Wrath and 1 Pride with the gatherers on turn 1 and fire Fell Bullet on turn 2. Keep Yi Sang on Defense on turn 1."
     },
-    "guide:3:0:5": {
-      "sourceHash": "2277b1388c815da00e1744194ece1ac27293d24c88319314781eea69e5aaca27",
-      "text": "From the floor 3 boss onward, deploy 7 Sinners."
+    "guide:4:1:1": {
+      "sourceHash": "f994a4630011b0e4ecd60a598797e94622fd9f67bfafa65f46ce5ebbf64f3405",
+      "text": "If you are unsure about resources, add an Identity with Wrath as a 7th."
     },
-    "guide:3:0:6": {
-      "sourceHash": "6b2cd411625dfa877804d3e355bdef4e71b1b36e90595926cdc6080b28179b17",
-      "text": "Defeat the floor 3 boss (The Knight of Despair) within 2 turns. It gets rough once turn 3 begins."
+    "guide:4:1:2": {
+      "sourceHash": "c529e61d6681ea4b4f330f2dcdf2c86d72177e799ef9c33725efbc9e52bdac6d",
+      "text": "If you have Faust's [Hollow](ego:0211), you can open the first fight with it. Its first use in an Encounter costs only 2 Pride for the Corrosion version, so Grand Welcome's 5 Pride lets you fire it on turn 1. Each enemy death adds resources through Grand Welcome, gathering Fell Bullet's cost without spending bullets. Switch to Fell Bullet once you have 2 Wrath."
     },
-    "guide:3:0:7": {
-      "sourceHash": "285c6aeba9886ec7cdb76a7fc868d69737033413425f984e5ae9a96a62931643",
-      "text": "The Gifts to collect are Poise's Tier Ⅳ Clear Mirror, Calm Water and Tier Ⅳ Fragment of Conceit. Start fusing them at the floor 2 shop and finish by floor 3. Fragment of Conceit adds another +8% damage per resource spent for Fell Bullet, a Pride E.G.O that gains Poise."
+    "guide:4:1:3": {
+      "sourceHash": "050e7d26719bb521c07e47e0a6ab79c6bbbf17a3222d77a5bfcd063e551688fb",
+      "text": "Deploy Faust (such as the fast [Heishou Pack - Mao Branch Adept](persona:0212)) with one companion on Defense. Do not use an Identity that counterattacks as the companion."
     },
-    "guide:3:0:8": {
+    "guide:4:1:4": {
+      "sourceHash": "a3361a5d53abebf7fe70a1d413eba9d3fb27c0b251e4135c79b516386376cbbe",
+      "text": "From the second fight to the floor 2 boss, advance with just Yi Sang and one bullet. Against bosses with few enemies, add one more bullet."
+    },
+    "guide:4:1:5": {
+      "sourceHash": "c00ea2ed8ce15a19b74fa26b484cfbd0bb41fddacab98ac5a5de2db34eb498f3",
+      "text": "At the shop, buy a Poise Gift and enhance it along with your Starting Gift. Enemy levels rise on floor 2, so they survive without Criticals. If you can one-shot the floor 2 fights otherwise, Bloody Gadget, Grey Coat, or Carmilla also work."
+    },
+    "guide:4:2:0": {
+      "sourceHash": "ecac9437c924e91005a0ed013b40d023b567014e0de742570749f597fccafe39",
+      "text": "Choosing Rewards"
+    },
+    "guide:4:3:0": {
+      "sourceHash": "d604082e168987d1cf9e069c52639c8f26dc722c1f66c5e7ded326ef622037b7",
+      "text": "For battle rewards, take Cost or Starlight. When Wrath runs short, take resources of your scarcest affinity."
+    },
+    "guide:4:3:1": {
+      "sourceHash": "2250f5a06a2f049e723437b5d58639a8ed39fd34db720ddb1898e40463e8247c",
+      "text": "For floor rewards, prioritize Tribulations that do not raise enemy HP. Buffs to enemy attacks or Clashes do not matter. Damage reduction also matters little, since boss fights shoot down many allies to boost damage."
+    },
+    "guide:4:3:2": {
+      "sourceHash": "7cc81c32cb271eca0e51c535bb47352fca94d741c4893395dc37f97279fc6ae2",
+      "text": "Enemy level increases also raise HP. On early floors the difference is small, so choosing by Gift tier is fine."
+    },
+    "guide:4:4:0": {
+      "sourceHash": "0e387fccac05ba80027467e321ff3b562895f0c9d7e2a2e9f08537316d16173c",
+      "text": "Floor 2"
+    },
+    "guide:4:5:0": {
+      "sourceHash": "f16b40d6f01981c1dda5a34943d2be2223c3ea2ddee758aad50918031589bf0b",
+      "text": "Go to Hell's Chicken. Its events almost always give a Tier 3 Gift, and the boss is easy. Fell Bullet only hits 5 enemies in the boss fight, so add one more bullet."
+    },
+    "guide:4:5:1": {
+      "sourceHash": "de33e778b002b60990627100394a97dc76ad61479694d514453dd0c5ec629920",
+      "text": "If a shop that allows enhancement appears, fuse Poise's Tier Ⅳ Clear Mirror, Calm Water and Tier Ⅳ Fragment of Conceit. Fragment of Conceit adds +8% Fell Bullet damage per resource spent."
+    },
+    "guide:4:5:2": {
+      "sourceHash": "7a2dabaefbf19c4bd7286d3c592fa25bfa9dfd6fa97869a2a24ddb85df4ef356",
+      "text": "If you have room, also fuse Tier Ⅳ Fragment of Allurement and Tier Ⅳ Punctured Memory."
+    },
+    "guide:4:5:3": {
+      "sourceHash": "7735a600502d8998061007ceb61fd96361b4a4d0828d2818d54f81f508bb0d25",
+      "text": "Fragment of Allurement: Fell Bullet inflicts Bleed on Critical hits, so its effect applies."
+    },
+    "guide:4:5:4": {
+      "sourceHash": "583dd1d9e957ba5a0cf31ab39ee81ac96a4b85cdd8d7833faedd2c72e7a493c6",
+      "text": "Punctured Memory: Raises base power and Coin Power of Pierce skills for positions 1 and 2, including E.G.O. Place Yi Sang in position 1 or 2."
+    },
+    "guide:4:5:5": {
       "sourceHash": "568414f917d347981f5f82103b46762ad770e3adbf77078b0179c93763d0a043",
       "text": "Also pick up Poise Gifts (Ornamental Horseshoe, Emerald Elytra, Nebulizer, Finifugality, and others) and Gifts that add resources."
     },
-    "guide:3:0:9": {
-      "sourceHash": "b4a19b50f2ded2b1b89be5da65b083916a1a694b49de01ba34aa56758c0ba480",
-      "text": "Wrath resources tend to run short. For node rewards, choose ones that give your scarcest affinity resources."
+    "guide:4:6:0": {
+      "sourceHash": "9d8f7c1e0add8d17ac9d533e091fd31e650ea95994750c90cfb35db3a3e44138",
+      "text": "Floor 3"
     },
-    "guide:3:0:10": {
-      "sourceHash": "4ac6c8fdeb60589b0b7b11402e9b703b6977e42a23eb0f9e4cf632e91b6f17a1",
-      "text": "Before fights, restore Yi Sang's SP to 45 at shops. Low SP makes the Corrosion version more likely and uses up bullets early."
+    "guide:4:7:0": {
+      "sourceHash": "f602b735b03dc87143acb0baa17b4cec5cb28f8214271e1c76eef391b8152086",
+      "text": "Go to Hatred and Despair. Otherwise, take S.E.A., which has only single-wave fights."
     },
-    "guide:3:0:11": {
-      "sourceHash": "1884884220f77ad582ac5edaf134a43c83235246f60bcc8afd31982c23bb4aa6",
-      "text": "On Hard, take few Tribulations that raise enemy HP or reduce damage enemies take."
+    "guide:4:7:1": {
+      "sourceHash": "ade468323d67019ef789e52f673d0b9ad765f2a535ff6ec686f8adb9cb8d0340",
+      "text": "At the shop, fuse the remaining Tier 4 Gifts. Before fights, restore Yi Sang's SP to 45. Low SP triggers the Corrosion version and uses up bullets early."
     },
-    "guide:3:0:12": {
-      "sourceHash": "6740aac4818246793d4e53a673fcced7a54dd7b0048a829f1377cb4d05b0f836",
-      "text": "On floor 4's Line 2, you only need to defeat the Sign of Roses."
+    "guide:4:7:2": {
+      "sourceHash": "d9085f3835ecb86fee9bf64385ed9d630ff5ab6c53a108be4f9bbab616e15449",
+      "text": "Fight the boss (The Knight of Despair) with 10: Yi Sang and 6 bullets in front and 3 on standby, and defeat it within 2 turns. It gets rough once turn 3 begins."
     },
-    "guide:4:0:0": {
-      "sourceHash": "c52ffe62fdfa3eaf3ca0a8ac348a0223df7bc20c67ed958d2a98b7ef5267142c",
-      "text": "Starlight balance is generally negative. Prepare a sufficient reserve before farming."
+    "guide:4:7:3": {
+      "sourceHash": "bca4035ac450200e81c1c06caa7d6e05443b55cc76f3db4496046125e1cb593f",
+      "text": "With 4 or more on standby, the Knight can drop out of Fell Bullet's targets. If damage is short, use 12."
     },
-    "guide:4:0:1": {
+    "guide:4:7:4": {
+      "sourceHash": "2d3d4eedbe49d2f20faa49cbed2cbd5b167201a086680483f43f69bcb2b5b53f",
+      "text": "Use bullets with many Pride skills to keep Pride Resonance going."
+    },
+    "guide:4:7:5": {
+      "sourceHash": "7cb06056bfa5466bd555934618da9463659b7328b01589653eba52258521e2a1",
+      "text": "Sell Hatred and Despair's Value Disposal once your resources are sufficient. It restores SP when an ally has come off standby, which gets in the way of lowering SP on floor 5. Keep it if you plan to clear floor 5 with Line 3."
+    },
+    "guide:4:8:0": {
+      "sourceHash": "8ae1208b3342b8649621c52e68f0a631196eb71dbb64165281293f4373a86f83",
+      "text": "Floor 4"
+    },
+    "guide:4:9:0": {
+      "sourceHash": "85ae072d21e901027b018eb629d0d10a27e89bcfac1350c80383033a59e33092",
+      "text": "Go to Line 2 with the same team as the Knight of Despair fight. The boss fight ends once you defeat the Sign of Roses."
+    },
+    "guide:4:9:1": {
+      "sourceHash": "a874358ce924a788d541ecf622bc57746b7c4451cb958d596389cdf7372b6448",
+      "text": "Your Gifts are complete by now, so you can usually skip the shop."
+    },
+    "guide:4:10:0": {
+      "sourceHash": "95e0e8c833f5a85d24d5c5e39305b2fe3364a56a158e8f1338864bbd223d4f84",
+      "text": "Floor 5"
+    },
+    "guide:4:11:0": {
+      "sourceHash": "9f76b5e50814afa8c25989d1721200b185ec61d0e68d722aa8097ce5307fa691",
+      "text": "Drop Yi Sang's SP to -45 and keep firing the Corrosion version of Fell Bullet."
+    },
+    "guide:4:11:1": {
+      "sourceHash": "27b6fa040edea2c800f56af4ab34b9ae40cd4cc99250cdacc7dbea56df48b61e",
+      "text": "Line 4 - Section #3: The first fight ends with two Fell Bullets. Against the sheep boss, Overclock Fell Bullet on turn 1, then fire the Corrosion version from turn 2."
+    },
+    "guide:4:11:2": {
+      "sourceHash": "0400a8784d853787b1eb3b4d35fb375e5843b1da1135731ecc1fa4b64d186d0d",
+      "text": "Line 1: In the frog fight, Overclock Fell Bullet on turn 1. Shoot down only one ally, and keep Yi Sang's SP the lowest on the team. Breaking the frog's eye lowers SP and puts Yi Sang at -45. From there, advance with the Corrosion version."
+    },
+    "guide:4:11:3": {
+      "sourceHash": "87d0c625bcdc576d121a680134503598d41a007eca97170b54bbed086022fbb5",
+      "text": "[Great Trichiliocosm](ego:0108) Yi Sang makes it steadier. Advance with 8, and in fights where Yi Sang has 2 Skill Slots, fire Overclocked Fell Bullet and Great Trichiliocosm together. Damage holds up even when bullets fall, and you can drop SP to -45 even with Value Disposal. Fuse Tier Ⅳ Fragment of Hellfire beforehand."
+    },
+    "guide:5:heading": {
+      "sourceHash": "8f2bc745cac2bd0338184e4ca2298f2b149a04c55cebca2dffd0c1f8b626491b",
+      "text": "Weaknesses and answers"
+    },
+    "guide:5:0:0": {
+      "sourceHash": "61f09e2e72f81a1052103fb489c206847266f2680d6c1e22e2b2949fac15b2a3",
+      "text": "It is hard to build with few low-level Identities."
+    },
+    "guide:5:0:1": {
       "sourceHash": "39b887f145889f7536511f30710f84a00162f927a352de1c1d3a7a4c756f7f6e",
       "text": "You cannot use this until Hard is unlocked."
     },
-    "guide:4:0:2": {
-      "sourceHash": "02bebee5737c3c31f3c06602cc2c40cda386d3cc81f5f36a43b1c205ff443cac",
-      "text": "If you run out of bullets, Fell Bullet's second Coin only hits one enemy and the run falls apart. Manage SP so the Corrosion version does not hit too many allies."
+    "guide:5:0:2": {
+      "sourceHash": "4713ceb681b148cce88337a5068d624d26fd0908027a81a096a46785ffcc4521",
+      "text": "Luck plays a big part. If you run out of bullets, Fell Bullet's second Coin only hits one enemy and the run falls apart. Manage SP so the Corrosion version does not hit too many allies."
     },
-    "guide:4:0:3": {
-      "sourceHash": "ec740ee037866e56e8cd012ec9515003e9acc1e335dcaeddb3f15674ce1eae17",
-      "text": "If you are short on low-level bullets, opening the first fight of floor 1 with Hollow saves bullets for gathering resources."
+    "guide:5:0:3": {
+      "sourceHash": "4a0b3fa2cc3eb753ec19ae5d7da2298f00761af8ca7cec8b82e99f383e138d40",
+      "text": "If you are short on low-level bullets, open the first fight of floor 1 with Hollow to save them."
     },
-    "guide:4:0:4": {
+    "guide:5:0:4": {
       "sourceHash": "925203ae157d12e5aae1ec0403af9e6f676bf355f53365f39eecde802825bc66",
       "text": "Unsuitable for deep-floor progression."
     }
